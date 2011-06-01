@@ -57,7 +57,7 @@ article header details { color: #ccc; margin-top: -1.5em; margin-bottom: 1em; }
 article header details a { color: grey; }
 
 .screenshots { display: none; }
-.toggler { border-bottom: 1px dotted black; }
+.toggler { border-bottom: 1px dotted black; cursor: pointer; }
 
 #posts tr.year { text-align: center; }
 #posts tr.year h2 { margin-bottom: 0; }
