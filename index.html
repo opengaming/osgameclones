@@ -16,128 +16,41 @@
 <body>
   <header><h1>Open Source Game Clones</h1></header>
 
-  <article>This site tries to gather open-source reimplementations of great old games in one place. Now it is very simple and if you think that some information is missing or have any suggestions - feel free to contact me by e-mail.</article>
+  <article>This site tries to gather open-source reimplementations of great old games in one place. Now it is very simple and if you think that some information is missing or have any suggestions - feel free to contact me by e-mail.</article> 
 
+{% macro render(names, items) %}
+  {% for name in names %}
+  <dt>{{ name }}</dt>
+  {% endfor %}
+
+  {% for game in items %}
+  <dd>
+    {% if 'media' in game %}<span class="toggler">&#x25b6;</span>{% endif %}
+
+    <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
+    {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repository</a>){% endif %}.
+
+    <div class="screenshots">
+      {% for item in game.get('media', []) %}
+      <a href="{{ item['url'] }}"><img src="{{ item['image'] }}"></a>
+      {% endfor %}
+    </div>
+  </dd>
+  {% endfor %}
+{% endmacro %}  
+  
   <h2>List of complete clones</h2>
   <dl>
-
-    <dt>Doom</dt><dt>Doom II</dt><dt>Heretic</dt><dt>Hexen</dt>
-    <dd><a href="http://dengine.net/">Doomsday</a> - active development (<a href="http://deng.git.sourceforge.net/git/gitweb.cgi?p=deng/deng;a=summary">repository</a>).</dd>
-
-    <dt>Heroes of Might & Magic 2</dt>
-    <dd>
-      <span class="toggler">&#x25b6;</span>
-      <a href="http://sourceforge.net/projects/fheroes2/">fheroes2</a> - active development (<a href="http://fheroes2.svn.sourceforge.net/viewvc/fheroes2/">repository</a>).
-      <div class="screenshots">
-        <a href="http://sourceforge.net/dbimage.php?id=171624"><img src="http://sourceforge.net/dbimage.php?id=171624"></a>
-        <a href="http://sourceforge.net/dbimage.php?id=191635"><img src="http://sourceforge.net/dbimage.php?id=191635"></a>
-      </div>
-    </dd>
-
-    <dt>Heroes of Might & Magic 3</dt>
-    <dd>
-      <span class="toggler">&#x25b6;</span>
-      <a href="http://forum.vcmi.eu/portal.php">VCMI</a> - active development (<a href="http://vcmi.svn.sourceforge.net/">repository</a>), time-based releases.
-      <div class="screenshots">
-        <a href="http://forum.vcmi.eu/album_pic.php?pic_id=35"><img src="http://forum.vcmi.eu/album_thumbnail.php?pic_id=35"></a>
-        <a href="http://forum.vcmi.eu/album_pic.php?pic_id=40"><img src="http://forum.vcmi.eu/album_thumbnail.php?pic_id=40"></a>
-        <a href="http://forum.vcmi.eu/album_pic.php?pic_id=41"><img src="http://forum.vcmi.eu/album_thumbnail.php?pic_id=41"></a>
-      </div>
-    </dd>
-
-    <dt>Master of Orion 2</dt>
-    <dd>
-      <span class="toggler">&#x25b6;</span>
-      <a href="http://openmoo2.org/en/">OpenMOO2</a> - moderately active development (<a href="http://repository.openmoo2.org/openmoo2/">repository</a>).
-      <div class="screenshots">
-        <a href="http://openmoo2.org/static/20/main-screen-moo2-screenshot.png"><img src="http://openmoo2.org/static/20/main-screen-moo2-small.png"></a>
-        <a href="http://openmoo2.org/static/20/colonies-moo2-screenshot.png"><img src="http://openmoo2.org/static/20/colonies-moo2-small.png"></a>
-        <a href="http://openmoo2.org/static/20/colony-moo2-screenshot.png"><img src="http://openmoo2.org/static/20/colony-moo2-small.png"></a>
-      </div>
-    </dd>
-
-    <dt>Theme Hospital</dt>
-    <dd>
-      <span class="toggler">&#x25b6;</span>
-      <a href="http://code.google.com/p/corsix-th/">CorsixTH</a> - active development (<a href="http://code.google.com/p/corsix-th/source/list">repository</a>), time-based releases.
-      <div class="screenshots">
-        <embed src="http://www.youtube.com/v/4OvNZjoe_JE&amp;rel=0" type="application/x-shockwave-flash" id="swfContainer0" wmode="opaque" base="http://www.youtube.com/v/" height="360" width="100%">
-        <a href="http://th.corsix.org/CorsixTH08.jpg"><img src="http://th.corsix.org/CorsixTH08.jpg"></a>
-        <a href="http://cecp.biz/beta4.jpg"><img src="http://cecp.biz/beta4.jpg"></a>
-      </div>
-    </dd>
-
-    <dt>Transport Tycoon</dt><dt>Transport Tycoon Deluxe</dt>
-    <dd>
-      <span class="toggler">&#x25b6;</span>
-      <a href="http://www.openttd.org/">OpenTTD</a> - active development (<a href="http://vcs.openttd.org/svn/timeline">repository</a>).
-      <div class="screenshots">
-        <a href="http://media.openttd.org/images/screens/1.0/20101010_panswat_tongvorarat.png"><img src="http://media.openttd.org/images/screens/1.0/20101010_panswat_tongvorarat_thumb.png"></a>
-        <a href="http://media.openttd.org/images/screens/1.0/20100326_rick_schoenman.png"><img src="http://media.openttd.org/images/screens/1.0/20100326_rick_schoenman_thumb.png"></a>
-        <a href="http://media.openttd.org/images/screens/1.0/20100509_cw_gardenart.png"><img src="http://media.openttd.org/images/screens/1.0/20100509_cw_gardenart_thumb.png"></a>
-        <a href="http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d.png"><img src="http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d_thumb.png"></a>
-      </div>
-    </dd>
-
-    <dt>X-COM: UFO Defence</dt><dt>UFO: Enemy Unknown</dt>
-    <dd>
-      <span class="toggler">&#x25b6;</span>
-      <a href="http://openxcom.ninex.info/">OpenXcom</a> - active development (<a href="https://github.com/SupSuper/OpenXcom">repository</a>).
-      <div class="screenshots">
-        <a href="http://openxcom.ninex.info/wp-content/gallery/v0-3/310310_weapons.png"><img src="http://openxcom.ninex.info/wp-content/gallery/cache/40__320x240_310310_weapons.png"></a>
-        <a href="http://openxcom.ninex.info/wp-content/gallery/v0-3/01052011_basetransfer.png"><img src="http://openxcom.ninex.info/wp-content/gallery/cache/41__320x240_01052011_basetransfer.png"></a>
-      </div>
-    </dd>
-    <dd>
-      <span class="toggler">&#x25b6;</span>
-      <a href="http://ufotts.ninex.info/">UFO: The Two Sides</a> - active development. Unfortunately, it's not open source but freeware.
-      <div class="screenshots">
-        <a href="http://ufotts.ninex.info/wp-content/gallery/screenshots/graphics_new.jpg"><img src="http://ufotts.ninex.info/wp-content/gallery/screenshots/thumbs/thumbs_graphics_new.jpg"></a>
-        <a href="http://ufotts.ninex.info/wp-content/gallery/screenshots/xcombase.jpg"><img src="http://ufotts.ninex.info/wp-content/gallery/screenshots/thumbs/thumbs_xcombase.jpg"></a>
-      </div>
-    </dd>
-
+    {% for names, items in site.clones %}
+    {{ render(names, items) }}
+    {% endfor %}
   </dl>
 
   <h2>Inspired by original game series</h2>
   <dl>
-
-    <dt>Civilization Series</dt>
-    <dd>
-      <span class="toggler">&#x25b6;</span>
-      <a href="http://freeciv.wikia.com/">FreeCiv</a> - active development (<a href="http://svn.gna.org/viewcvs/freeciv/">repository</a>).
-      <div class="screenshots">
-        <a href="http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png"><img src="http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/thumb/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png/185px-Freeciv-2.1.0-beta3-sdl_slack11.0.png"></a>
-        <a href="http://images4.wikia.nocookie.net/__cb20061222015333/freeciv/images/9/94/Big_window.png"><img src="http://images1.wikia.nocookie.net/__cb20061222015333/freeciv/images/thumb/9/94/Big_window.png/185px-Big_window.png"></a>
-      </div>
-    </dd>
-
-    <dt>Master of Orion Series</dt>
-    <dd>
-      <span class="toggler">&#x25b6;</span>
-      <a href="http://www.freeorion.org/">FreeOrion</a> - moderately active development (<a href="http://freeorion.svn.sourceforge.net/viewvc/freeorion/trunk/FreeOrion/">repository</a>).
-      <div class="screenshots">
-        <a href="http://www.freeorion.org/images/8/82/Galaxy_Map_AIs_SVN3100.png"><img src="http://www.freeorion.org/images/thumb/8/82/Galaxy_Map_AIs_SVN3100.png/256px-Galaxy_Map_AIs_SVN3100.png"></a>
-        <a href="http://www.freeorion.org/images/1/14/Design_Screen_SVN3097.png"><img src="http://www.freeorion.org/images/thumb/1/14/Design_Screen_SVN3097.png/256px-Design_Screen_SVN3097.png"></a>
-        <a href="http://www.freeorion.org/images/a/ab/FreeOrion3215_Galaxy_Map.png"><img src="http://www.freeorion.org/images/thumb/a/ab/FreeOrion3215_Galaxy_Map.png/256px-FreeOrion3215_Galaxy_Map.png"></a>
-      </div>
-    </dd>
-
-    <dt>X-COM Series</dt>
-    <dd>
-      <span class="toggler">&#x25b6;</span>
-      <a href="http://ufoai.ninex.info/">UFO: Alien Invasion</a> - active development (<a href="http://ufoai.git.sourceforge.net/git/gitweb.cgi?p=ufoai/ufoai;a=summary">repository</a>).
-      <div class="screenshots">
-        <a href="http://ufoai.ninex.info/wiki/images/Nation_Overlay.jpg"><img src="http://ufoai.ninex.info/wiki/images/thumb/Nation_Overlay.jpg/120px-Nation_Overlay.jpg"></a>
-        <a href="http://ufoai.ninex.info/wiki/images/Ufo01.png"><img src="http://ufoai.ninex.info/wiki/images/thumb/Ufo01.png/120px-Ufo01.png"></a>
-        <a href="http://ufoai.ninex.info/wiki/images/Ufoai2.2_aircraft_team.jpg"><img src="http://ufoai.ninex.info/wiki/images/thumb/Ufoai2.2_aircraft_team.jpg/120px-Ufoai2.2_aircraft_team.jpg"></a>
-        <a href="http://ufoai.ninex.info/wiki/images/Ufoaiold_base01.jpg"><img src="http://ufoai.ninex.info/wiki/images/thumb/Ufoaiold_base01.jpg/120px-Ufoaiold_base01.jpg"></a>
-      </div>
-    </dd>
-
+    {% for names, items in site.reimplementations %}
+    {{ render(names, items) }}
+    {% endfor %}
   </dl>
-
-  <footer>&#169; 2011 <a href="mailto:vsevolod.solovyov@gmail.com">Vsevolod Solovyov</a></footer>
 </body>
-
 </html>

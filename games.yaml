@@ -1,0 +1,154 @@
+- names:
+    - Doom
+    - Doom II
+    - Heretic
+    - Hexen
+  clones:
+    - name: Doomsday
+      url: http://dengine.net/
+      repo: http://deng.git.sourceforge.net/git/gitweb.cgi?p=deng/deng;a=summary
+      info: active development
+
+
+- name: Heroes of Might & Magic 2
+  clones:
+    - name: fheroes2
+      url: http://sourceforge.net/projects/fheroes2/
+      repo: http://fheroes2.svn.sourceforge.net/viewvc/fheroes2/
+      info: active development
+      media:
+        - image: http://sourceforge.net/dbimage.php?id=171624
+          url: http://sourceforge.net/dbimage.php?id=171624
+        - image: http://sourceforge.net/dbimage.php?id=191635
+          url: http://sourceforge.net/dbimage.php?id=191635
+
+
+- name: Heroes of Might & Magic 3
+  clones:
+    - name: VCMI
+      url: http://forum.vcmi.eu/portal.php
+      repo: http://vcmi.svn.sourceforge.net/
+      info: active development, time-based releases
+      media:
+        - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=35
+          url: http://forum.vcmi.eu/album_pic.php?pic_id=35
+        - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=40
+          url: http://forum.vcmi.eu/album_pic.php?pic_id=40
+        - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=41
+          url: http://forum.vcmi.eu/album_pic.php?pic_id=41
+
+
+- name: Master of Orion 2
+  clones:
+    - url: http://openmoo2.org/en/
+      name: OpenMOO2
+      info: moderately active development
+      repo: http://repository.openmoo2.org/openmoo2/
+      media:
+        - url: http://openmoo2.org/static/20/main-screen-moo2-screenshot.png
+          image: http://openmoo2.org/static/20/main-screen-moo2-small.png
+        - url: http://openmoo2.org/static/20/colonies-moo2-screenshot.png
+          image: http://openmoo2.org/static/20/colonies-moo2-small.png
+        - url: http://openmoo2.org/static/20/colony-moo2-screenshot.png
+          image: http://openmoo2.org/static/20/colony-moo2-small.png
+
+
+- name: Theme Hospital
+  clones:
+    - url: http://code.google.com/p/corsix-th/
+      name: CorsixTH
+      info: active development, time-based releases
+      repo: http://code.google.com/p/corsix-th/source/list
+      media:
+        - raw: <embed src="http://www.youtube.com/v/4OvNZjoe_JE&amp;rel=0" type="application/x-shockwave-flash" id="swfContainer0" wmode="opaque" base="http://www.youtube.com/v/" height="360" width="100%">
+        - url: http://th.corsix.org/CorsixTH08.jpg
+          image: http://th.corsix.org/CorsixTH08.jpg
+        - url: http://cecp.biz/beta4.jpg
+          image: http://cecp.biz/beta4.jpg
+
+
+- names:
+    - Transport Tycoon
+    - Transport Tycoon Deluxe
+  clones:
+    - url: http://www.openttd.org/
+      name: OpenTTD
+      info: active development
+      repo: http://vcs.openttd.org/svn/timeline
+      media:
+        - url: http://media.openttd.org/images/screens/1.0/20101010_panswat_tongvorarat.png
+          image: http://media.openttd.org/images/screens/1.0/20101010_panswat_tongvorarat_thumb.png
+        - url: http://media.openttd.org/images/screens/1.0/20100326_rick_schoenman.png
+          image: http://media.openttd.org/images/screens/1.0/20100326_rick_schoenman_thumb.png
+        - url: http://media.openttd.org/images/screens/1.0/20100509_cw_gardenart.png
+          image: http://media.openttd.org/images/screens/1.0/20100509_cw_gardenart_thumb.png
+        - url: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d.png
+          image: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d_thumb.png
+
+
+- names:
+    - "X-COM: UFO Defence"
+    - "UFO: Enemy Unknown"
+  clones:
+    - url: http://openxcom.ninex.info/
+      name: OpenXcom
+      info: active development
+      repo: https://github.com/SupSuper/OpenXcom
+      media:
+        - url: http://openxcom.ninex.info/wp-content/gallery/v0-3/310310_weapons.png
+          image: http://openxcom.ninex.info/wp-content/gallery/cache/40__320x240_310310_weapons.png
+        - url: http://openxcom.ninex.info/wp-content/gallery/v0-3/01052011_basetransfer.png
+          image: http://openxcom.ninex.info/wp-content/gallery/cache/41__320x240_01052011_basetransfer.png
+    - url: http://ufotts.ninex.info/
+      name: "UFO: The Two Sides"
+      info: "active development. Unfortunately, it's not open source but freeware"
+      media:
+        - url: http://ufotts.ninex.info/wp-content/gallery/screenshots/graphics_new.jpg
+          image: http://ufotts.ninex.info/wp-content/gallery/screenshots/thumbs/thumbs_graphics_new.jpg
+        - url: http://ufotts.ninex.info/wp-content/gallery/screenshots/xcombase.jpg
+          image: http://ufotts.ninex.info/wp-content/gallery/screenshots/thumbs/thumbs_xcombase.jpg
+
+
+- name: Civilization Series
+  reimplementations:
+    - url: http://freeciv.wikia.com/
+      name: FreeCiv
+      info: active development
+      repo: http://svn.gna.org/viewcvs/freeciv/
+      media:
+        - url: http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
+          image: http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/thumb/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png/185px-Freeciv-2.1.0-beta3-sdl_slack11.0.png
+        - url: http://images4.wikia.nocookie.net/__cb20061222015333/freeciv/images/9/94/Big_window.png
+          image: http://images1.wikia.nocookie.net/__cb20061222015333/freeciv/images/thumb/9/94/Big_window.png/185px-Big_window.png
+
+
+- name: Master of Orion Series
+  reimplementations:
+    - url: http://www.freeorion.org/
+      name: FreeOrion
+      info: moderately active development
+      repo: http://freeorion.svn.sourceforge.net/viewvc/freeorion/trunk/FreeOrion/
+      media:
+        - url: http://www.freeorion.org/images/8/82/Galaxy_Map_AIs_SVN3100.png
+          image: http://www.freeorion.org/images/thumb/8/82/Galaxy_Map_AIs_SVN3100.png/256px-Galaxy_Map_AIs_SVN3100.png
+        - url: http://www.freeorion.org/images/1/14/Design_Screen_SVN3097.png
+          image: http://www.freeorion.org/images/thumb/1/14/Design_Screen_SVN3097.png/256px-Design_Screen_SVN3097.png
+        - url: http://www.freeorion.org/images/a/ab/FreeOrion3215_Galaxy_Map.png
+          image: http://www.freeorion.org/images/thumb/a/ab/FreeOrion3215_Galaxy_Map.png/256px-FreeOrion3215_Galaxy_Map.png
+
+
+- name: X-COM Series
+  reimplementations:
+    - url: http://ufoai.ninex.info/
+      name: "UFO: Alien Invasion"
+      info: active development
+      repo: http://ufoai.git.sourceforge.net/git/gitweb.cgi?p=ufoai/ufoai;a=summary
+      media:
+        - url: http://ufoai.ninex.info/wiki/images/Nation_Overlay.jpg
+          image: http://ufoai.ninex.info/wiki/images/thumb/Nation_Overlay.jpg/120px-Nation_Overlay.jpg
+        - url: http://ufoai.ninex.info/wiki/images/Ufo01.png
+          image: http://ufoai.ninex.info/wiki/images/thumb/Ufo01.png/120px-Ufo01.png
+        - url: http://ufoai.ninex.info/wiki/images/Ufoai2.2_aircraft_team.jpg
+          image: http://ufoai.ninex.info/wiki/images/thumb/Ufoai2.2_aircraft_team.jpg/120px-Ufoai2.2_aircraft_team.jpg
+        - url: http://ufoai.ninex.info/wiki/images/Ufoaiold_base01.jpg
+          image: http://ufoai.ninex.info/wiki/images/thumb/Ufoaiold_base01.jpg/120px-Ufoaiold_base01.jpg
