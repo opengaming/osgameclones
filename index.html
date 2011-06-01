@@ -32,7 +32,8 @@
 
     <div class="screenshots">
       {% for item in game.get('media', []) %}
-      <a href="{{ item['url'] }}"><img src="{{ item['image'] }}"></a>
+      {% if 'raw' in item %}{{ item['raw'] }}{% endif %}
+      {% if 'image' in item %}<a href="{{ item['url'] }}"><img src="{{ item['image'] }}"></a>{% endif %}
       {% endfor %}
     </div>
   </dd>
