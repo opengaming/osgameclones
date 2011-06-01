@@ -16,7 +16,7 @@
 <body>
   <header><h1>Open Source Game Clones</h1></header>
 
-  <article>This site tries to gather open-source reimplementations of great old games in one place. Now it is very simple and if you think that some information is missing or have any suggestions - feel free to contact me by e-mail.</article> 
+  <article>This site tries to gather open-source reimplementations of great old games in one place. Now it is very simple and if you think that some information is missing or have any suggestions - feel free to contact me by <a href="mailto:vsevolod.solovyov@gmail.com">e-mail</a>.</article> 
 
 {% macro render(names, items) %}
   {% for name in names %}
@@ -52,5 +52,7 @@
     {{ render(names, items) }}
     {% endfor %}
   </dl>
+
+  <footer>&#169; 2011 <a href="mailto:vsevolod.solovyov@gmail.com">Vsevolod Solovyov</a></footer>
 </body>
 </html>
