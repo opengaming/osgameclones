@@ -1,0 +1,87 @@
+/* Default to some sans-serif font at a specific size */
+html { font-size: 100%; }
+body { font-family: sans-serif; }
+h1, h2, h3, h4, h5 { font-family: 'Ubuntu', 'Trebuchet MS', sans-serif; }
+pre, tt.literal { font: 0.8em Monaco, monospace; }
+pre { margin: 0 0 1em 1em; overflow: auto; }
+
+/* Put some padding back onto our list elements */
+ul, ol { margin-left: 10px; }
+li  { margin-left:10px; padding-left:10px; }
+
+/* Bye bye ugly blue border */
+a img { border:0px; }
+
+/* No dots around clicked links */
+a, a:active { outline: none; }
+
+/* HTML5 tags */
+header, section, footer, aside, nav, article, figure { display: block; }
+
+/* Markup */
+
+body {
+  line-height: 1.5;
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+a { color: #055580; }
+a:hover { text-decoration: none; }
+time { color: grey; }
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.7em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.3em; }
+h1 a, h2 a { text-decoration: none; }
+h1 a:hover, h2 a:hover { text-decoration: underline; }
+h1, h2 { margin: 0.5em 0 0.5em 0; }
+
+h5 { margin: 0; font-size: 1em; font-weight: normal; }
+p { margin: 1em 0; line-height:1.4em; }
+
+/* Header/Footer */
+
+body > header { padding: 1em 0; }
+body > header h1 { background: black; color: white; display: inline-block;
+                   font-size: 1.3em; }
+body > header h1:hover { background: #055580; }
+body > header h1 a { color: white; display: inline-block; padding: 0 0.3em; }
+body > header h1 a:hover { text-decoration: none; }
+
+/* body > header h1 { font-size: 2.5em; font-family: Georgia, serif; } */
+
+footer { text-align: center; margin-top: 2em; }
+
+/* content */
+
+article header h1, #posts h2 { margin-top: 0; }
+
+article header details { color: #ccc; margin-top: -1.5em; margin-bottom: 1em; }
+article header details a { color: grey; }
+
+#posts tr.year { text-align: center; }
+#posts tr.year h2 { margin-bottom: 0; }
+#posts tr.year.pad td { padding-top: 1em; }
+#posts td.date { text-align: right; padding-right: 1em; white-space: nowrap; }
+#posts td.title a { font-size: 1.4em; text-decoration: none; }
+
+blockquote { margin: 1.5em 0 0 1.5em; }
+blockquote:before { content: "\201C"; color: grey; font-size: 4em; line-height: 0.1em;
+                    margin-left: -0.4em; vertical-align: bottom;
+                    font-family: 'Lucida Grande', Verdana, serif; }
+blockquote:after { content: "\201D"; color: grey; font-size: 4em; line-height: 0.1em;
+                   margin-left: 9.5em; vertical-align: bottom;
+                   font-family: 'Lucida Grande', Verdana, serif; }
+blockquote :first-child { margin-top: -1.5em; }
+blockquote :last-child { margin-bottom: -0.8em; }
+
+dt { font-weight: bold; }
+dd { padding-left: 1em; padding-bottom: 0.5em; }
+
+.note { color: grey; }
+.photo { float: right; }
+.readers { float: right; font-size: small; }
+.icon { float: left; padding: 0.5em 0.3em 0 0; }
+.feed-icon a { float: right; padding-top: 0.5em; }
