@@ -1,3 +1,18 @@
+- name: Colonization
+  clones:
+    - name: FreeCol
+      url: http://www.freecol.org/
+      repo: http://freecol.svn.sourceforge.net/viewvc/freecol/
+      info: active development
+      media:
+        - url: http://www.freecol.org/images/screen-0.8.0-large.jpg
+          image: http://www.freecol.org/images/screen-0.8.0-small.jpg
+        - url: http://www.freecol.org/images/java-shot15.jpg
+          image: http://www.freecol.org/images/java-shot15_s.jpg
+        - url: http://www.freecol.org/images/java-shot16.jpg
+          image: http://www.freecol.org/images/java-shot16_s.jpg
+
+
 - names:
     - Doom
     - Doom II
@@ -8,6 +23,7 @@
       url: http://dengine.net/
       repo: http://deng.git.sourceforge.net/git/gitweb.cgi?p=deng/deng;a=summary
       info: active development
+
 
 - name: Heroes of Might & Magic 2
   clones:
