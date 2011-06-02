@@ -20,7 +20,8 @@
 
 {% macro render(names, items) %}
   {% for name in names %}
-  <dt>{{ name }}</dt>
+  {% if name|length == 2 %}{% set name, wiki = name %}{% else %}{% set wiki = name %}{% endif %}
+  <dt><a href="http://en.wikipedia.org/wiki/{{ wiki }}">{{ name }}</a></dt>
   {% endfor %}
 
   {% for game in items %}

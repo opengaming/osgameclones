@@ -21,7 +21,7 @@
           image: http://www.freecol.org/images/java-shot16_s.jpg
 
 
-- name: Commander Keen Series
+- name: [Commander Keen Series, Commander Keen]
   clones:
     - name: Commander Genius
       url: http://clonekeenplus.sourceforge.net/
@@ -50,7 +50,7 @@
 
 
 - names:
-    - Descent
+    - [Descent, Descent (video game)]
     - Descent 2
   clones:
     - name: D2X
@@ -117,7 +117,7 @@
           image: http://scp.indiegames.us/scn/Earth%20Defense/in-game01_tn.jpg
 
           
-- name: Heroes of Might & Magic 2
+- name: Heroes of Might and Magic II
   clones:
     - name: fheroes2
       url: http://sourceforge.net/projects/fheroes2/
@@ -130,7 +130,7 @@
           url: http://sourceforge.net/dbimage.php?id=191635
 
 
-- name: Heroes of Might & Magic 3
+- name: Heroes of Might and Magic III
   clones:
     - name: VCMI
       url: http://forum.vcmi.eu/portal.php
@@ -211,7 +211,7 @@
           image: http://sc2.sourceforge.net/screenshots/meleestep_tn.png
 
 
-- name: Stunts
+- name: [Stunts, Stunts (video game)]
   clones:
     - url: http://www.ultimatestunts.nl/
       name: Ultimate Stunts
@@ -275,7 +275,7 @@
         - url: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d.png
           image: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d_thumb.png
 
-- name: Tyrian
+- name: [Tyrian, Tyrian (video game)]
   clones:
     - url: http://code.google.com/p/opentyrian/
       name: OpenTyrian
@@ -285,7 +285,7 @@
         - image: http://wiki.opentyrian.googlecode.com/hg/opentyrian_torm.png
 
 
-- name: Wing Commander Privateer
+- name: "Wing Commander: Privateer"
   clones:
     - url: http://privateer.sourceforge.net/
       name: Privateer - Gemini Gold
@@ -324,7 +324,7 @@
           image: http://ufotts.ninex.info/wp-content/gallery/screenshots/thumbs/thumbs_xcombase.jpg
 
 
-- name: Civilization Series
+- name: Civilization II
   reimplementations:
     - url: http://freeciv.wikia.com/
       name: FreeCiv
@@ -358,7 +358,7 @@
           image: http://opendungeons.sourceforge.net/images/thumb/a/ac/Shot_%289%29.jpg/120px-Shot_%289%29.jpg
 
 
-- name: Master of Orion Series
+- name: [Master of Orion Series, Master of Orion]
   reimplementations:
     - url: http://www.freeorion.org/
       name: FreeOrion
@@ -373,7 +373,9 @@
           image: http://www.freeorion.org/images/thumb/a/ab/FreeOrion3215_Galaxy_Map.png/256px-FreeOrion3215_Galaxy_Map.png
 
 
-- name: Settlers I, Settlers II
+- names:
+    - [The Settlers, The Settlers (video game)]
+    - The Settlers II
   reimplementations:
     - url: http://wl.widelands.org/
       name: Widelands
@@ -390,7 +392,7 @@
           image: http://wl.widelands.org/wlmedia/wlscreens/thumbs/Build%2016/Graphic%20improvements.png
 
 
-- name: Worms Series
+- name: [Worms Series, Worms (series)]
   reimplementations:
     - url: http://hedgewars.org/
       name: Hedgewars
@@ -420,7 +422,7 @@
           image: http://www.wormux.org/phpboost/gallery/pics/thumbnails/0_9_0_a.png
 
 
-- name: X-COM Series
+- name: [X-COM Series, X-COM]
   reimplementations:
     - url: http://ufoai.ninex.info/
       name: "UFO: Alien Invasion"
