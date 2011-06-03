@@ -114,6 +114,23 @@
       repo: http://www.odamex.net/svn/log.php?isdir=1
 
 
+- name: Duke Nukem 3D
+  clones:
+    - name: EDuke32
+      url: http://eduke32.com/
+      info: active development
+      repo: http://sourceforge.net/projects/eduke32/develop
+      media:
+        - image: http://hrp.duke4.net/screens/ep1/e1l1_01s.jpg
+          url: http://hrp.duke4.net/screens/ep1/e1l1_01.jpg
+        - image: http://hrp.duke4.net/screens/ep1/e1l2_02s.jpg
+          url: http://hrp.duke4.net/screens/ep1/e1l2_02.jpg
+        - image: http://hrp.duke4.net/screens/ep1/e1l5_01s.jpg
+          url: http://hrp.duke4.net/screens/ep1/e1l5_01.jpg
+        - image: http://hrp.duke4.net/screens/ep2/e2l3_04s.jpg
+          url: http://hrp.duke4.net/screens/ep2/e2l3_04.jpg
+
+
 - name: Dune 2
   clones:
     - name: OpenDUNE
