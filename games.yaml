@@ -1,3 +1,11 @@
+- name: SCUMM
+  clones:
+    - name: ScummVM
+      url: http://scummvm.org/
+      repo: https://github.com/scummvm/scummvm
+      info: very active development. List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
+
+
 - names:
     - "Baldur's Gate series"
     - Icewind Dale series
