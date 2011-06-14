@@ -40,6 +40,8 @@ h1, h2 { margin: 0.5em 0 0.5em 0; }
 
 h5 { margin: 0; font-size: 1em; font-weight: normal; }
 p { margin: 1em 0; line-height:1.4em; }
+article > p { margin-top: 0; }
+header > h1 { margin: 0; }
 
 /* Header/Footer */
 
