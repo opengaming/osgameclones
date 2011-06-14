@@ -58,7 +58,7 @@ article header details a { color: grey; }
 
 .screenshots { display: none; }
 .toggler { cursor: pointer; }
-.notoggler { color: lightgrey }
+.notoggler { color: lightgrey; cursor: default; }
 
 #posts tr.year { text-align: center; }
 #posts tr.year h2 { margin-bottom: 0; }
