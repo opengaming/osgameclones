@@ -26,7 +26,7 @@
 
   {% for game in items %}
   <dd>
-    {% if 'media' in game %}<span class="toggler">&#x25b6;</span>{% endif %}
+    <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
     {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repository</a>){% endif %}.
