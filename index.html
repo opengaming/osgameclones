@@ -31,12 +31,12 @@
     <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
     {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repository</a>){% endif %}.
 
-    <div class="screenshots">
+    <script type="text/screenshots">
       {% for item in game.get('media', []) %}
       {% if 'raw' in item %}{{ item['raw'] }}{% endif %}
       {% if 'image' in item %}<a href="{{ item['url'] }}"><img src="{{ item['image'] }}"></a>{% endif %}
       {% endfor %}
-    </div>
+    </script>
   </dd>
   {% endfor %}
 {% endmacro %}  
