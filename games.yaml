@@ -585,8 +585,9 @@
 
 - name: Turrican
   clones:
-    - url: http://turrican.gamevoice.de/hurrican_site/
-      name: Hurrican
+    - name: Hurrican
+      url: http://turrican.gamevoice.de/hurrican_site/
+      info: playable
       media:
         - url: http://turrican.gamevoice.de/hurrican_site/screenshots/175_600.jpg
           image: http://turrican.gamevoice.de/hurrican_site/screenshots/175.jpg
