@@ -231,6 +231,7 @@
   clones:
     - name: Openglad
       url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi
+      repo: http://sourceforge.net/scm/?type=svn&group_id=50083
       info: development halted
       media:
         - url: http://snowstorm.sourceforge.net/screenshots/1.png
@@ -275,7 +276,7 @@
   clones:
     - name: Homeworld SDL
       url: http://www.thereisnospork.com/projects/homeworld/
-      repo: 1
+      repo: http://www.thereisnospork.com/projects/homeworld/#download
       info: development halted, playable
       media:
         - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/test01.png
@@ -428,15 +429,6 @@
       url: "http://www.freedroid.org/download/#c46"
 
 
-- name: Rick Dangerous
-  clones:
-    - name: Rick 32k
-      url: http://leonard.oxg.free.fr/rick32/rick32.html
-      info: playable
-      media:
-        - image: http://leonard.oxg.free.fr/rick32/rick.gif
-
-
 - name: [Seven Kingdoms, Seven_Kingdoms_(computer_game)]
   clones:
     - name: "Seven Kingdoms: Ancient Adversaries"
@@ -513,13 +505,6 @@
           url: http://www.siedler25.org/gallery/2011/2011.01.19_10.jpg
 
 
-- name: Taipan!
-  clones:
-    - url: http://www.taipangame.com/
-      name: Taipan!
-      info: browser-based
-
-
 - name: Theme Hospital
   clones:
     - url: http://code.google.com/p/corsix-th/
@@ -581,18 +566,6 @@
           image: http://media.openttd.org/images/screens/1.0/20100509_cw_gardenart_thumb.png
         - url: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d.png
           image: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d_thumb.png
-
-
-- name: Turrican
-  clones:
-    - name: Hurrican
-      url: http://turrican.gamevoice.de/hurrican_site/
-      info: playable
-      media:
-        - url: http://turrican.gamevoice.de/hurrican_site/screenshots/175_600.jpg
-          image: http://turrican.gamevoice.de/hurrican_site/screenshots/175.jpg
-        - url: http://www.youtube.com/watch?v=-jk3DNTYx_w
-          image: http://turrican.gamevoice.de/hurrican_site/screenshots/148.jpg
 
 
 - name: [Tyrian, Tyrian (video game)]
