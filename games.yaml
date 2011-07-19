@@ -709,6 +709,19 @@
           url: http://wildfiregames.com/0ad/album_image.php?pic_id=12782
 
 
+- name: [Anno series, Anno_1602]
+  reimplementations:
+    - name: Unknown Horizons
+      url: http://www.unknown-horizons.org/
+      repo: http://trac.unknown-horizons.org/t/timeline
+      info: active development, Python
+      media:
+        - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/thumb_2011.2-7.png
+          url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png
+        - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/thumb_2011.2-6.png
+          url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
+
+
 - name: [Battle Zone, Battlezone_(1980_video_game)]
   reimplementations:
     - name: BZFlag
@@ -758,6 +771,7 @@
           url: http://www.sumwars.org/data/screenshots/04%20Graphical%20User%20Interface/Inventory%20in%20trademode.jpg
         - image: http://www.sumwars.org/data/screenshots/01%20Landscape%20&%20Levels/thumbs/Together%20with%20the%20guardians.jpg
           url: http://www.sumwars.org/data/screenshots/01%20Landscape%20&%20Levels/Together%20with%20the%20guardians.jpg
+
     - url: http://www.freedroid.org/
       name: FreedroidRPG
       info: active development, C, Lua, Python
@@ -771,6 +785,16 @@
           url: http://www.freedroid.org/typo3temp/pics/8239fa6778.jpg
         - image: http://www.freedroid.org/typo3temp/pics/96a82609d3.jpg
           url: http://www.freedroid.org/typo3temp/pics/88d276f8fa.jpg
+
+    - url: http://clintbellanger.net/rpg/
+      name: Flare
+      info: active development, C++
+      repo: https://github.com/clintbellanger/flare
+      media:
+        - image: http://clintbellanger.net/rpg/images/screenshots/t0020.jpg
+          url: http://clintbellanger.net/rpg/images/screenshots/0020.jpg
+        - image: http://clintbellanger.net/rpg/images/screenshots/t0022.jpg
+          url: http://clintbellanger.net/rpg/images/screenshots/0022.jpg
 
 
 - name: Dungeon Keeper
