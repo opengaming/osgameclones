@@ -3,7 +3,7 @@
     - name: ScummVM
       url: http://scummvm.org/
       repo: https://github.com/scummvm/scummvm
-      info: very active development. List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
+      info: very active development, C++. List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
 
 
 - names:
@@ -14,7 +14,7 @@
     - name: GemRB
       url: http://www.gemrb.org/
       repo: http://sourceforge.net/projects/gemrb/develop
-      info: active development
+      info: active development, C++
       media:
         - image: http://sourceforge.net/dbimage.php?id=105342
         - image: http://sourceforge.net/dbimage.php?id=105346
@@ -26,7 +26,7 @@
     - name: OpenC1
       url: http://1amstudios.com/games/OpenC1/
       repo: http://code.google.com/p/openc1/
-      info: moderately active development
+      info: moderately active development, C#
 
 
 - name: Colonization
@@ -34,7 +34,7 @@
     - name: FreeCol
       url: http://www.freecol.org/
       repo: http://freecol.svn.sourceforge.net/viewvc/freecol/
-      info: active development
+      info: active development, Java
       media:
         - url: http://www.freecol.org/images/screen-0.8.0-large.jpg
           image: http://www.freecol.org/images/screen-0.8.0-small.jpg
@@ -49,7 +49,7 @@
     - name: Commander Genius
       url: http://clonekeenplus.sourceforge.net/
       repo: http://clonekeenplus.git.sourceforge.net/git/gitweb.cgi?p=clonekeenplus/clonekeenplus;a=summary
-      info: active development
+      info: active development, C++
       media:
         - image: http://clonekeenplus.sourceforge.net/img/ckp1.jpg
         - image: http://clonekeenplus.sourceforge.net/img/ckpoptions.jpg
@@ -64,7 +64,7 @@
     - name: OpenRA
       url: http://openra.res0l.net/
       repo: https://github.com/OpenRA/OpenRA
-      info: active development
+      info: active development, C#
       media:
         - image: http://openra.res0l.net/assets/images/screenshots/ss6.jpg
         - image: http://openra.res0l.net/assets/images/screenshots/ss7.jpg
@@ -79,7 +79,7 @@
     - name: D2X
       url: http://www.descent2.de/
       repo: http://d2x-xl.svn.sourceforge.net/viewvc/d2x-xl/
-      info: active development
+      info: active development, C++
       media:
         - url: http://www.descent2.de/images/screenshots/d2x-xl-screens1_4.jpg
           image: http://www.descent2.de/images/screenshots/d2x-xl-screens1_4s.jpg
@@ -91,8 +91,8 @@
           image: http://www.descent2.de/images/screenshots/d2x-xl-screens7_8s.jpg
     - name: DXX-Rebirth
       url: http://www.dxx-rebirth.com/
-      repo: http://sourceforge.net/projects/dxx-rebirth/develop
-      info: active development
+      repo: http://dxx-rebirth.bzr.sourceforge.net/bzr/dxx-rebirth/
+      info: active development, C
       media:
         - image: http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/thumbs/thumbs_d1xr-scrn10.jpg
           url: http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn10.jpg
@@ -113,10 +113,10 @@
     - name: Doomsday
       url: http://dengine.net/
       repo: http://deng.git.sourceforge.net/git/gitweb.cgi?p=deng/deng;a=summary
-      info: active development
+      info: active development, C
     - name: Chocolate Doom
       url: http://www.chocolate-doom.org/
-      info: active development
+      info: active development, C
       repo: http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/
       media:
         - image: http://www.chocolate-doom.org/wiki/images/thumb/9/9f/Chocolate-aliens-doom.png/120px-Chocolate-aliens-doom.png
@@ -129,7 +129,7 @@
           url: http://www.chocolate-doom.org/wiki/images/d/d5/Obituary.png
     - name: ZDoom
       url: http://zdoom.org/
-      info: active development
+      info: active development, C
       repo: http://mancubus.net/svn/zdoom/?op=log&isdir=1&
       media:
         - image: http://zdoom.org/w/images/thumb/7/7e/AltHUD1.png/120px-AltHUD1.png.jpg
@@ -140,13 +140,13 @@
           url: http://zdoom.org/w/images/8/8a/DOOM0003.png
     - name: PrBoom+
       url: http://sourceforge.net/dbimage.php?id=222124
-      info: active development
+      info: active development, C
       repo: http://www.crowproductions.de/repos/prboom/branches/prboom-plus-24/prboom2/
       media:
         - image: http://sourceforge.net/dbimage.php?id=222124
     - name: Odamex
       url: http://www.odamex.net/
-      info: active development
+      info: active development, C
       repo: http://www.odamex.net/svn/log.php?isdir=1
 
 
@@ -154,7 +154,7 @@
   clones:
     - name: EDuke32
       url: http://eduke32.com/
-      info: active development
+      info: active development, C
       repo: http://sourceforge.net/projects/eduke32/develop
       media:
         - image: http://hrp.duke4.net/screens/ep1/e1l1_01s.jpg
@@ -172,30 +172,15 @@
     - name: OpenDUNE
       url: http://www.opendune.org/
       repo: http://svn.opendune.org/
-      info: active development
+      info: active development, C
 
 
 - name: Dungeon Keeper
   clones:
     - name: KeeperFX
       url: http://keeper.lubie.org/html/dk_keeperfx.php
-      info: active development
+      info: active development, C
       repo: https://code.google.com/p/keeperfx/source/list
-
-
-- name: Elite
-  clones:
-    - name: Oolite
-      url: http://www.oolite.org/
-      info: active development
-      repo: http://svn.berlios.de/svnroot/repos/oolite-linux/trunk
-      media:
-        - url: http://www.oolite.org/images/gallery/full/all-ships.jpg
-          image: http://www.oolite.org/images/gallery/all-ships!jpg
-        - url: http://www.oolite.org/images/gallery/full/full-of-stars.jpg
-          image: http://www.oolite.org/images/gallery/full-of-stars!jpg
-        - url: http://www.oolite.org/images/gallery/full/coriolis.jpg
-          image: http://www.oolite.org/images/gallery/coriolis!jpg
 
 
 - name: Flashback
@@ -215,7 +200,7 @@
     - name: FreeSpace Source Code Project
       url: http://scp.indiegames.us/
       repo: http://svn.icculus.org/fs2open/
-      info: active development
+      info: active development, C++
       media:
         - url: http://scp.indiegames.us/scn/Diaspora/screen1568.jpg
           image: http://scp.indiegames.us/scn/Diaspora/screen1568_tn.jpg
@@ -231,8 +216,8 @@
   clones:
     - name: Openglad
       url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi
-      repo: http://sourceforge.net/scm/?type=svn&group_id=50083
-      info: development halted
+      repo: http://snowstorm.svn.sourceforge.net/viewvc/snowstorm/
+      info: development halted, C++
       media:
         - url: http://snowstorm.sourceforge.net/screenshots/1.png
           image: http://snowstorm.sourceforge.net/screenshots/1-thumb.png
@@ -249,7 +234,7 @@
     - name: fheroes2
       url: http://sourceforge.net/projects/fheroes2/
       repo: http://fheroes2.svn.sourceforge.net/viewvc/fheroes2/
-      info: active development
+      info: active development, C++
       media:
         - image: http://sourceforge.net/dbimage.php?id=171624
           url: http://sourceforge.net/dbimage.php?id=171624
@@ -262,7 +247,7 @@
     - name: VCMI
       url: http://forum.vcmi.eu/portal.php
       repo: http://vcmi.svn.sourceforge.net/
-      info: active development, time-based releases
+      info: active development, time-based releases, C++
       media:
         - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=35
           url: http://forum.vcmi.eu/album_pic.php?pic_id=35
@@ -293,8 +278,8 @@
   clones:
     - name: Pingus
       url: http://pingus.seul.org/welcome.html
-      info: active development
-      repo: svn://svn.berlios.de/pingus/trunk/pingus/
+      repo: http://developer.berlios.de/svn/?group_id=2301
+      info: active development, C++
       media:
         - url: http://pingus.seul.org/images/screen_0.7.0-3.jpg
           image: http://pingus.seul.org/images/screen_0.7.0-3_small.jpg
@@ -306,11 +291,11 @@
   clones:
     - name: OpenLiero
       url: http://code.google.com/p/liero/
-      info: development halted
+      info: development halted, C++
       repo: http://code.google.com/p/liero/source/list
     - name: OpenLieroX
       url: http://www.openlierox.net/
-      info: active development
+      info: active development, C++
       repo: https://github.com/albertz/openlierox
       media:
         - url: http://www.openlierox.net/official/screenshots/olx2.png
@@ -328,7 +313,7 @@
     - name: ioquake3
       url: http://ioquake3.org/
       repo: http://svn.icculus.org/quake3/trunk/
-      info: active development
+      info: active development, C
       media:
         - image: http://ioquake3.org/images/screenshots/arenalinux.jpeg
         - image: http://ioquake3.org/images/screenshots/arenaosx.jpeg
@@ -336,7 +321,7 @@
     - name: OpenArena
       url: http://openarena.ws/
       repo: http://openarena.ws/svn
-      info: sporadical development
+      info: sporadical development, C
       media:
         - image: http://openarena.ws/e107_images/custom/s085-8.jpg
           url: http://openarena.ws/e107_images/custom/085-8.jpg
@@ -355,7 +340,7 @@
   clones:
     - name: Aleph One
       url: http://marathon.sourceforge.net/
-      info: active development
+      info: active development, C++
       repo: http://sourceforge.net/projects/marathon/develop
 
 
@@ -364,7 +349,7 @@
     - name: Secret Maryo Chronicles
       url: http://secretmaryo.org/
       repo: https://github.com/FluXy/SMC
-      info: active development
+      info: active development, C++
       # media:
       #   - image: http://secretmaryo.org/images/screenshot/2.0/media/1s.png
       #   - image: http://www.secretmaryo.org/images/screenshot/2.0/media/2s.png
@@ -381,7 +366,7 @@
   clones:
     - url: http://openmoo2.org/en/
       name: OpenMOO2
-      info: moderately active development
+      info: moderately active development, Python
       repo: http://repository.openmoo2.org/cgi-bin/hgwebdir.cgi/PUBLIC/
       media:
         - url: http://openmoo2.org/static/20/main-screen-moo2-screenshot.png
@@ -396,7 +381,7 @@
   clones:
     - url: http://www.maxr.org/
       name: Mechanized Assault and eXploration Reloaded
-      info: moderately active development
+      info: moderately active development, C++
       repo: http://www.maxr.org/trac/timeline
       media:
         - url: http://www.maxr.org/images/screenshots/03.jpg
@@ -413,7 +398,7 @@
   clones:
     - name: OpenMW
       url: http://openmw.com/
-      info: active development
+      info: active development, C++
       repo: https://github.com/zinnschlag/openmw
       media:
         - image: http://openmw.com/wiki/images/thumb/6/65/AnsiLadderCamp06.jpg/300px-AnsiLadderCamp06.jpg
@@ -425,14 +410,14 @@
 - name: Paradroid
   clones:
     - name: FreedroidClassic
-      info: development completed
+      info: development completed, C
       url: "http://www.freedroid.org/download/#c46"
 
 
 - name: [Seven Kingdoms, Seven_Kingdoms_(computer_game)]
   clones:
     - name: "Seven Kingdoms: Ancient Adversaries"
-      info: active development
+      info: active development, C++
       url: http://7kfans.com/
       repo: http://7kfans.com/git/?p=7kaa.git;a=summary
 
@@ -441,7 +426,7 @@
   clones:
     - url: http://sc2.sourceforge.net/
       name: The Ur-Quan Masters
-      info: active development
+      info: active development, C
       repo: http://sc2.svn.sourceforge.net/viewvc/sc2/
       media:
         - url: http://sc2.sourceforge.net/screenshots/pcintro.jpg
@@ -460,8 +445,8 @@
   clones:
     - url: http://www.ultimatestunts.nl/
       name: Ultimate Stunts
-      info: moderately active development
-      repo:
+      info: moderately active development, C++
+      repo: http://ultimatestunts.svn.sourceforge.net/viewvc/ultimatestunts/
       media:
         - url: http://www.ultimatestunts.nl/screenshots/0721.jpg
           image: http://www.ultimatestunts.nl/screenshots/0721_small.jpg
@@ -477,7 +462,7 @@
   clones:
     - url: http://freesynd.sourceforge.net/
       name: FreeSynd
-      info: active development
+      info: active development, C++
       repo: http://freesynd.svn.sourceforge.net/viewvc/freesynd/
       media:
         - image: http://freesynd.sourceforge.net/images/screenshots/thumb.ss1.png
@@ -492,7 +477,7 @@
   clones:
     - url: http://www.siedler25.org/
       name: Return to the Roots
-      info: active development
+      info: active development, C++
       repo: https://code.launchpad.net/~flosoft/s25rttr/trunk
       media:
         - image: http://www.siedler25.org/thumbnail.php?file=/gallery/2011/2011.01.19_12.jpg
@@ -509,7 +494,7 @@
   clones:
     - url: http://code.google.com/p/corsix-th/
       name: CorsixTH
-      info: active development, time-based releases
+      info: active development, time-based releases, C++
       repo: http://code.google.com/p/corsix-th/source/list
       media:
         - raw: <embed src="http://www.youtube.com/v/4OvNZjoe_JE&amp;rel=0" type="application/x-shockwave-flash" id="swfContainer0" wmode="opaque" base="http://www.youtube.com/v/" height="360" width="100%">
@@ -523,7 +508,7 @@
   clones:
     - url: http://springrts.com/
       name: Spring
-      info: active development
+      info: active development, C++, Java, Python
       repo: https://github.com/spring/spring/
       media:
         - url: http://springrts.com/screenshot.php?id=5673
@@ -536,7 +521,7 @@
           image: http://springrts.com/thumbs/6059_d61ae9f79d970adc9a45ae9e97a487c5_thumb_142_80.jpg
     - url: http://www.ta3d.org/
       name: Total Annihilation 3D
-      info: moderately active development
+      info: moderately active development, C++
       repo: http://trac.ta3d.org/timeline
       media:
         - url: http://www.ta3d.org/snapshots/shoot117.jpg
@@ -555,7 +540,7 @@
   clones:
     - url: http://www.openttd.org/
       name: OpenTTD
-      info: active development
+      info: active development, C++
       repo: http://vcs.openttd.org/svn/timeline
       media:
         - url: http://media.openttd.org/images/screens/1.0/20101010_panswat_tongvorarat.png
@@ -572,7 +557,7 @@
   clones:
     - url: http://code.google.com/p/opentyrian/
       name: OpenTyrian
-      info: moderately active development
+      info: moderately active development, C
       repo: http://code.google.com/p/opentyrian/source/list
       media:
         - image: http://wiki.opentyrian.googlecode.com/hg/opentyrian_torm.png
@@ -583,7 +568,7 @@
     - url: http://xu4.sourceforge.net/
       name: xu4
       repo: http://sourceforge.net/projects/xu4/develop
-      info: active development
+      info: active development, C++
       media:
         - image: http://xu4.sourceforge.net/images/intro1.png
         - image: http://xu4.sourceforge.net/images/forest.png
@@ -598,7 +583,7 @@
     - url: http://nuvie.sourceforge.net/
       name: Nuvie
       repo: http://sourceforge.net/projects/nuvie/develop
-      info: active development
+      info: active development, C++
       media:
         - image: http://nuvie.sourceforge.net/images/shots/nuvie_24.png
         - image: http://nuvie.sourceforge.net/images/shots/nuvie_22.png
@@ -610,7 +595,7 @@
     - url: http://exult.sourceforge.net/
       name: Exult
       repo: http://sourceforge.net/projects/exult/develop
-      info: moderately active development
+      info: moderately active development, C++
       media:
         - image: http://exult.sourceforge.net/images/screenshots/thumbs/stage.png
           url: http://exult.sourceforge.net/images/screenshots/stage.png
@@ -627,7 +612,7 @@
     - url: http://pentagram.sourceforge.net/
       name: Pentagram
       repo: http://sourceforge.net/projects/pentagram/develop
-      info: sporadical development
+      info: sporadical development, C++
       media:
         - image: http://pentagram.sourceforge.net/images/screenshots/thumbs/pagan.png
           url: http://pentagram.sourceforge.net/images/screenshots/pagan.png
@@ -643,7 +628,7 @@
   clones:
     - url: http://wz2100.net/
       name: Warzone 2100
-      info: active development
+      info: active development, C++
       repo: http://developer.wz2100.net/timeline
       media:
         - image: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/elite-force-thumb.png
@@ -661,7 +646,7 @@
   clones:
     - url: http://privateer.sourceforge.net/
       name: Privateer - Gemini Gold
-      info: moderately active development
+      info: moderately active development, C++
       repo: http://privateer.svn.sourceforge.net/viewvc/privateer/
       media:
         - image: http://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad-preview.png
@@ -679,7 +664,7 @@
   clones:
     - url: http://openxcom.ninex.info/
       name: OpenXcom
-      info: active development
+      info: active development, C++
       repo: https://github.com/SupSuper/OpenXcom
       media:
         - url: http://openxcom.ninex.info/wp-content/gallery/v0-3/310310_weapons.png
@@ -712,7 +697,7 @@
     - name: 0 A.D.
       url: http://wildfiregames.com/0ad/
       repo: http://trac.wildfiregames.com/timeline
-      info: active development
+      info: active development, C++
       media:
         - image: http://wildfiregames.com/0ad/album_thumbnail.php?pic_id=13043
           url: http://wildfiregames.com/0ad/album_image.php?pic_id=13043
@@ -729,7 +714,7 @@
     - name: BZFlag
       url: http://bzflag.org/
       repo: http://bzflag.svn.sourceforge.net/viewvc/bzflag/
-      info: active development
+      info: active development, C++
       media:
         - image: http://bzflag.org/screenshots/t-tablehead.jpg
           url: http://bzflag.org/screenshots/tablehead.jpg
@@ -745,7 +730,7 @@
   reimplementations:
     - url: http://freeciv.wikia.com/
       name: FreeCiv
-      info: active development
+      info: active development, C
       repo: http://svn.gna.org/viewcvs/freeciv/
       media:
         - url: http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
@@ -754,7 +739,7 @@
           image: http://images1.wikia.nocookie.net/__cb20061222015333/freeciv/images/thumb/9/94/Big_window.png/185px-Big_window.png
     - url: http://www.freeciv.net/
       name: Freeciv.net
-      info: active development, online browser game
+      info: active development, online browser game, C, Java, JavaScript
       repo: https://github.com/freecivnet/freeciv-web
 
 
@@ -762,7 +747,7 @@
   reimplementations:
     - url: http://www.sumwars.org/
       name: Summoning Wars
-      info: active development
+      info: active development, C++, Lua
       repo: http://sourceforge.net/projects/sumwars/develop
       media:
         - image: http://www.sumwars.org/data/screenshots/01%20Landscape%20&%20Levels/thumbs/In%20front%20of%20the%20trader.jpg
@@ -775,7 +760,7 @@
           url: http://www.sumwars.org/data/screenshots/01%20Landscape%20&%20Levels/Together%20with%20the%20guardians.jpg
     - url: http://www.freedroid.org/
       name: FreedroidRPG
-      info: active development
+      info: active development, C, Lua, Python
       repo: http://sourceforge.net/projects/freedroid/develop
       media:
         - image: http://www.freedroid.org/typo3temp/pics/1a05e07c79.jpg
@@ -792,7 +777,7 @@
   reimplementations:
     - url: http://opendungeons.sourceforge.net/index.php/Main_Page
       name: OpenDungeons
-      info: moderately active development
+      info: moderately active development, C++
       repo: http://opendungeons.git.sourceforge.net/git/gitweb.cgi?p=opendungeons/opendungeons;a=summary
       media:
         - url: http://opendungeons.sourceforge.net/images/4/41/Shot_%280%29.jpg
@@ -826,7 +811,7 @@
   reimplementations:
     - url: http://naev.org/
       name: Naev
-      info: active development
+      info: active development, C
       repo: https://github.com/bobbens/naev
       media:
         - image: http://blog.naev.org/wp-content/gallery/media/thumbs/thumbs_bigplanet.png
@@ -843,7 +828,7 @@
   reimplementations:
     - url: http://www.freeorion.org/
       name: FreeOrion
-      info: moderately active development
+      info: moderately active development, C++
       repo: http://freeorion.svn.sourceforge.net/viewvc/freeorion/trunk/FreeOrion/
       media:
         - url: http://www.freeorion.org/images/8/82/Galaxy_Map_AIs_SVN3100.png
@@ -858,7 +843,7 @@
   reimplementations:
     - url: http://lincity-ng.berlios.de/
       name: LinCity
-      info: moderately active development
+      info: moderately active development, C++
       repo: http://svn.berlios.de/viewvc/lincity-ng/trunk/
       media:
         - image: http://lincity-ng.berlios.de/wiki/images/thumb/1/15/Height.png/120px-Height.png
@@ -877,7 +862,7 @@
   reimplementations:
     - url: http://wl.widelands.org/
       name: Widelands
-      info: active development
+      info: active development, C++, Lua, Python
       repo: https://launchpad.net/widelands
       media:
         - url: http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Completed%20barbarian%20workers.jpg
@@ -893,7 +878,7 @@
 - name: Transport Tycoon Deluxe
   reimplementations:
     - name: Simutrans
-      info: active development
+      info: active development, C++
       repo: https://github.com/aburch/simutrans
       url: http://www.simutrans.com/
       media:
@@ -914,7 +899,7 @@
   reimplementations:
     - url: http://hedgewars.org/
       name: Hedgewars
-      info: active development
+      info: active development, Pascal
       repo: http://code.google.com/p/hedgewars/
       media:
         - url: http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu.png
@@ -927,7 +912,7 @@
           image: http://hedgewars.org/images/screenshots/hedgewars-0.9.6-001_s.png
     - url: http://www.wormux.org/
       name: WarMUX
-      info: active development
+      info: active development, C++
       repo: http://svn.gna.org/viewcvs/warmux/
       media:
         - url: http://www.wormux.org/phpboost/gallery/pics/1101a.jpg
@@ -944,7 +929,7 @@
   reimplementations:
     - url: http://ufoai.ninex.info/
       name: "UFO: Alien Invasion"
-      info: active development
+      info: active development, C
       repo: http://ufoai.git.sourceforge.net/git/gitweb.cgi?p=ufoai/ufoai;a=summary
       media:
         - url: http://ufoai.ninex.info/wiki/images/Nation_Overlay.jpg
