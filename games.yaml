@@ -169,6 +169,19 @@
 
 - name: Dune 2
   clones:
+    - name: Dune Legacy
+      url: http://dunelegacy.sourceforge.net/
+      repo: http://sourceforge.net/projects/dunelegacy/develop
+      info: active development, C++
+      media:
+        - image: http://sourceforge.net/apps/mediawiki/dunelegacy/nfs/project/d/du/dunelegacy/thumb/9/95/Dunelegacy-0.96-mission9.png/200px-Dunelegacy-0.96-mission9.png
+          url: http://sourceforge.net/apps/mediawiki/dunelegacy/nfs/project/d/du/dunelegacy/9/95/Dunelegacy-0.96-mission9.png
+        - image: http://sourceforge.net/apps/mediawiki/dunelegacy/nfs/project/d/du/dunelegacy/thumb/7/78/Dunelegacy-0.96-mission9-2.png/200px-Dunelegacy-0.96-mission9-2.png
+          url: http://sourceforge.net/apps/mediawiki/dunelegacy/nfs/project/d/du/dunelegacy/7/78/Dunelegacy-0.96-mission9-2.png
+        - image: http://sourceforge.net/apps/mediawiki/dunelegacy/nfs/project/d/du/dunelegacy/thumb/8/8a/Dunelegacy-0.96-mission7.png/200px-Dunelegacy-0.96-mission7.png
+          url: http://sourceforge.net/apps/mediawiki/dunelegacy/nfs/project/d/du/dunelegacy/8/8a/Dunelegacy-0.96-mission7.png
+        - image: http://sourceforge.net/apps/mediawiki/dunelegacy/nfs/project/d/du/dunelegacy/thumb/8/88/Dunelegacy-0.96-mission9-3.png/200px-Dunelegacy-0.96-mission9-3.png
+          url: http://sourceforge.net/apps/mediawiki/dunelegacy/nfs/project/d/du/dunelegacy/8/88/Dunelegacy-0.96-mission9-3.png
     - name: OpenDUNE
       url: http://www.opendune.org/
       repo: http://svn.opendune.org/
