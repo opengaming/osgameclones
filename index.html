@@ -29,7 +29,7 @@
   {% endfor %}
 
   {% for game in items %}
-  <dd {%- if game.added %}class="new"{% endif %}>
+  <dd {%- if game.added %} class="new"{% endif %}>
     <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
