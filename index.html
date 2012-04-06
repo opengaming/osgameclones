@@ -8,8 +8,6 @@
   <meta name="application-name" content="OS Game Clones">
   <meta name="application-url" content="http://osgameclones.com/">
   <link rel="stylesheet" href="static/main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-  <script src="static/main.js"></script>
   <title>Open Source Game Clones</title>
 </head>
 
@@ -34,11 +32,13 @@
 
     <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
     {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repository</a>){% endif %}.
-
+    
     <script type="text/screenshots">
       {% for item in game.get('media', []) %}
       {% if 'raw' in item %}{{ item['raw'] }}{% endif %}
-      {% if 'image' in item %}<a href="{{ item['url'] }}"><img src="{{ item['image'] }}"></a>{% endif %}
+      {% if 'image' in item -%}
+        <a {%- if 'url' in item %} href="{{ item['url'] }}" {%- endif %}><img src="{{ item['image'] }}"></a>
+      {%- endif %}
       {% endfor %}
     </script>
   </dd>
@@ -61,6 +61,28 @@
   </dl>
 
   <footer>&#169; 2011 <a href="mailto:vsevolod.solovyov@gmail.com">Vsevolod Solovyov</a></footer>
+
+  <script type="text/javascript">
+    (function() {
+      var onclick = function() {
+        var screenshots = this.parentNode.getElementsByTagName("script")
+        if (screenshots.length) {
+            var innerHTML = '<div class="screenshots" style="display: none">' +
+                            screenshots[0].innerHTML + '</div>'
+            this.parentNode.insertAdjacentHTML('beforeend', innerHTML)
+            this.parentNode.removeChild(screenshots[0])
+        }
+        screenshots = this.parentNode.getElementsByClassName("screenshots")[0]
+        var show_now = screenshots.style.display == "none"
+        this.innerHTML = show_now ? "&#x25bc;" : "&#x25b6;"
+        screenshots.style.display = show_now ? "block" : "none"
+      }
+      var els = document.getElementsByClassName("toggler")
+      for (var i = 0, l = els.length; i < l; i++) {
+        els[i].addEventListener("click", onclick)
+      }
+    })()
+  </script>
 
   <script type="text/javascript">
   var _gaq = _gaq || [];
