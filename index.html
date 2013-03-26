@@ -15,7 +15,7 @@
   <header><h1>Open Source Game Clones</h1></header>
 
   <article>
-    <p>This site tries to gather open-source reimplementations of great old games in one place. Now it is very simple and if you think that some information is missing or have any suggestions - feel free to contact me by <a href="mailto:vsevolod.solovyov@gmail.com">e-mail</a>.</p>
+    <p>This site tries to gather open-source reimplementations of great old games in one place. Now it is very simple and if you think that some information is missing or have any suggestions - feel free to contact me by <a href="mailto:alexander@solovyov.net">e-mail</a>.</p>
     <p>Hence all these projects are open-source you can help them and make this world a better place. Or at least you can play something to appreciate the effort people put in them.</p>
     <p class="new">All games that were added in last month are highlighted as this paragraph.</p>
   </article> 
@@ -23,11 +23,14 @@
 {% macro render(names, items) %}
   {% for name in names %}
   {% if name|length == 2 %}{% set name, wiki = name %}{% else %}{% set wiki = name %}{% endif %}
-  <dt><a href="http://en.wikipedia.org/wiki/{{ wiki }}">{{ name }}</a></dt>
+  <dt {% if not loop.index0 %}id="{{ name }}"{% endif -%}>
+    <a href="http://en.wikipedia.org/wiki/{{ wiki }}">{{ name }}</a>
+    {% if not loop.index0 %}<a href="#{{ name }}" class="hash">#</a>{% endif %}
+  </dt>
   {% endfor %}
 
   {% for game in items %}
-  <dd {%- if game.added %} class="new"{% endif %}>
+  <dd {%- if game.new %} class="new"{% endif %}>
     <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
@@ -60,7 +63,10 @@
     {% endfor %}
   </dl>
 
-  <footer>&#169; 2011 <a href="mailto:vsevolod.solovyov@gmail.com">Vsevolod Solovyov</a></footer>
+  <footer>&#169; 2011-2013
+    <a href="mailto:vsevolod.solovyov@gmail.com">Vsevolod Solovyov</a>,
+    <a href="mailto:alexander@solovyov.net">Alexander Solovyov</a>
+  </footer>
 
   <script type="text/javascript">
     (function() {
