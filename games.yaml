@@ -212,7 +212,6 @@
       repo: http://svn.opendune.org/
       info: active development, C
 
-
 - name: Dungeon Keeper
   clones:
     - name: KeeperFX
@@ -227,7 +226,7 @@
       url: http://www.dungeoneye.net/
       repo: https://code.google.com/p/arcadeengine/source/list
       added: 2013-05-27
-      info: sporadical development, C\#
+      info: sporadical development, C#
       media:
         - image: http://www.dungeoneye.net/wp-content/uploads/2011/03/forest-300x187.png
           url: http://www.dungeoneye.net/wp-content/uploads/2011/03/forest.png
@@ -321,6 +320,15 @@
           url: http://www.thereisnospork.com/projects/homeworld/images/screen02.png
         - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/screen04.png
           url: http://www.thereisnospork.com/projects/homeworld/images/screen04.png
+
+
+- name: Jazz Jackrabbit
+  clones:
+    - name: OpenJazz
+      url: http://www.alister.eu/jazz/oj/
+      repo: https://openjazz.svn.sourceforge.net/svnroot/openjazz/
+      info: sporadical development, C++
+      added: 2012-05-27
 
 
 - name: Knights and Merchants
