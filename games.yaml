@@ -34,6 +34,17 @@
         - image: http://sourceforge.net/dbimage.php?id=105344
 
 
+- name: Bermuda Syndrome
+  clones:
+    - name: Bermuda Syndrome
+      url: http://cyxdown.free.fr/bs/
+      info: sporadic (or halted) development
+      added: 2013-05-27
+      media:
+        - image: http://cyxdown.free.fr/bs/bs-1.png
+        - image: http://cyxdown.free.fr/bs/bs-2.png
+
+
 - name: Caesar 3
   clones:
     - name: openCaesar3
@@ -180,6 +191,20 @@
       url: http://www.odamex.net/
       info: active development, C
       repo: http://www.odamex.net/svn/log.php?isdir=1
+
+
+- name: Drugwars
+  clones:
+    - name: Dope Wars
+      url: http://dopewars.sourceforge.net/
+      repo: http://sourceforge.net/p/dopewars/code/HEAD/tree/
+      added: 2013-05-27
+      info: sporadic development, C
+      media:
+      - image: http://dopewars.sourceforge.net/screenshots/linux-gtk-multi-small.png
+        url: http://dopewars.sourceforge.net/screenshots/linux-gtk-multi.png
+      - image: http://dopewars.sourceforge.net/screenshots/winxp-multi-small.png
+        url: http://dopewars.sourceforge.net/screenshots/winxp-multi.png
 
 
 - name: Duke Nukem 3D
