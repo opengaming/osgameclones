@@ -220,6 +220,7 @@
       repo: http://svn.opendune.org/
       info: active development, C
 
+
 - name: Dungeon Keeper
   clones:
     - name: KeeperFX
@@ -293,6 +294,23 @@
       url: http://residualvm.org/
       info: active development, C++
       added: 2013-05-27
+
+
+- name: Hexen II
+  clones:
+    - name: Hammer of Thyrion
+      url: http://uhexen2.sourceforge.net/
+      repo: http://sourceforge.net/p/uhexen2/code/
+      info: active development, C
+      added: 2013-05-27
+      media:
+        - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/284891.jpg/182/137
+          url: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/284891.jpg
+        - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9151.jpg/182/137
+          url: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9151.jpg
+        - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9153.jpg/182/137
+          url: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9153.jpg
+
 
 - name: Heroes of Might and Magic II
   clones:
@@ -1037,6 +1055,10 @@
           url: http://lincity-ng.berlios.de/wiki/images/3/3b/Newgrass.png
         - image: http://lincity-ng.berlios.de/wiki/images/thumb/4/42/Bridges.jpg/120px-Bridges.jpg
           url: http://lincity-ng.berlios.de/wiki/images/4/42/Bridges.jpg
+    - url: https://code.google.com/p/micropolis/
+      name: Micropolis
+      info: active development, C++/Python
+      added: 2013-05-27
 
 
 - names:
