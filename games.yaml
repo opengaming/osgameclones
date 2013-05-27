@@ -686,6 +686,18 @@
           image: http://sc2.sourceforge.net/screenshots/meleestep_tn.png
 
 
+- name: Starcraft
+  clones:
+    - url: http://stargus.stratagus.com/
+      name: Stargus
+      repo: https://stargus.svn.sourceforge.net/svnroot/stargus/stargus/
+      info: development halted
+      added: 2013-05-27
+      media:
+        - image: http://a.fsdn.com/con/app/proj/stargus/screenshots/143488.jpg/182/137
+          url: http://a.fsdn.com/con/app/proj/stargus/screenshots/143488.jpg
+
+
 - name: [Stunts, Stunts (video game)]
   clones:
     - url: http://www.ultimatestunts.nl/
@@ -882,6 +894,14 @@
           url: http://pentagram.sourceforge.net/images/screenshots/noregret.png
         - image: http://pentagram.sourceforge.net/images/screenshots/thumbs/japanese.png
           url: http://pentagram.sourceforge.net/images/screenshots/japanese.png
+
+
+- name: Warcraft
+  clones:
+    - url: http://wargus.stratagus.com/index.shtml
+      repo: http://sourceforge.net/p/wargus/code/HEAD/tree/
+      info: development halted
+      added: 2013-05-27
 
 
 - name: Warzone 2100
