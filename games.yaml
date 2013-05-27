@@ -62,7 +62,7 @@
   clones:
     - name: openCaesar3
       url: https://github.com/gecube/opencaesar3/
-      info: active development, C++, still not quite playable
+      info: active development, C++
       added: 2013-05-27
 
 
@@ -279,6 +279,14 @@
       media:
         - image: http://www.dungeoneye.net/wp-content/uploads/2011/03/forest-300x187.png
           url: http://www.dungeoneye.net/wp-content/uploads/2011/03/forest.png
+          
+
+- name: Fade to Black
+  clones:
+    - name: f2bgl
+      url: https://github.com/cyxx/f2bgl
+      info: sporadic development, C++
+          
 
 - name: Flashback
   clones:
@@ -827,7 +835,7 @@
   clones:
     - url: http://www.openttd.org/
       name: OpenTTD
-      info: active development, C++, extremely playable
+      info: active development, C++
       repo: http://vcs.openttd.org/svn/timeline
       media:
         - url: http://media.openttd.org/images/screens/1.0/20101010_panswat_tongvorarat.png
@@ -1005,7 +1013,7 @@
   reimplementations:
     - name: Unknown Horizons
       url: http://www.unknown-horizons.org/
-      repo: https://github.com/unknown-horizons/unknown-horizons
+      repo: http://trac.unknown-horizons.org/t/timeline
       info: active development, Python
       media:
         - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/thumb_2011.2-7.png
