@@ -12,7 +12,7 @@
       url: http://abuse.zoy.org/
       repo: http://abuse.zoy.org/browser/abuse/trunk
       added: 2013-05-27
-      info: development halted, C++
+      info: development halted, playable, C++
       media:
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png
@@ -51,7 +51,7 @@
   clones:
     - name: Bermuda Syndrome
       url: http://cyxdown.free.fr/bs/
-      info: sporadic (or halted) development
+      info: sporadic (or halted) development, playable
       added: 2013-05-27
       media:
         - image: http://cyxdown.free.fr/bs/bs-1.png
@@ -334,7 +334,7 @@
     - name: Openglad
       url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi
       repo: http://snowstorm.svn.sourceforge.net/viewvc/snowstorm/
-      info: development halted, C++
+      info: sporadic development, C++
       media:
         - url: http://snowstorm.sourceforge.net/screenshots/1.png
           image: http://snowstorm.sourceforge.net/screenshots/1-thumb.png
@@ -439,7 +439,8 @@
   clones:
     - name: Jagged Alliance 2 - Stracciatella
       url: http://tron.homeunix.org/ja2/
-      info: development halted
+      repo: https://bitbucket.org/gennady/ja2-stracciatella
+      info: active development, playable
       added: 2013-05-27
 
 
@@ -476,7 +477,7 @@
       url: http://www.wonderland.cz/lotr/
       repo: http://git.wonderland.cz/lotr/
       added: 2013-05-27
-      info: development halted, C
+      info: development halted, playable, C
       media:
         - image: http://media.wonderland.cz/stockphoto/cache/thumbs/2008/11/16/lotr1.png
           url: http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr1.png
@@ -516,11 +517,6 @@
           image: http://www.openlierox.net/official/screenshots/olx11-small.png
         - url: http://www.openlierox.net/official/screenshots/olx6.png
           image: http://www.openlierox.net/official/screenshots/olx6-small.png
-    - name: Nil
-      url: http://sourceforge.net/projects/nil/
-      repo: http://sourceforge.net/p/nil/code/?source=navbar
-      info: development halted
-      added: 2013-05-27
     - name: Gusanos
       url: http://gusanos.sourceforge.net/
       repo: http://sourceforge.net/p/gusanos/code/?source=navbar
@@ -698,7 +694,7 @@
     - name: Nighthawk
       url: http://night-hawk.sourceforge.net/
       repo: http://night-hawk.cvs.sourceforge.net/viewvc/night-hawk/
-      info: development halted, C++
+      info: development halted, playable, C++
       added: 2013-05-27
       media:
         - image: http://night-hawk.sourceforge.net/nh_intro_1.png
@@ -756,18 +752,6 @@
           image: http://sc2.sourceforge.net/screenshots/setupmenu_tn.png
         - url: http://sc2.sourceforge.net/screenshots/meleestep.png
           image: http://sc2.sourceforge.net/screenshots/meleestep_tn.png
-
-
-- name: Starcraft
-  clones:
-    - url: http://stargus.stratagus.com/
-      name: Stargus
-      repo: https://stargus.svn.sourceforge.net/svnroot/stargus/stargus/
-      info: development halted
-      added: 2013-05-27
-      media:
-        - image: http://a.fsdn.com/con/app/proj/stargus/screenshots/143488.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/stargus/screenshots/143488.jpg
 
 
 - name: [Stunts, Stunts (video game)]
@@ -1354,7 +1338,7 @@
     - name: Super Mario War
       url: http://smw.supersanctuary.net/site/
       repo: https://github.com/erlehmann/Super-Mario-War
-      info: development halted, C++
+      info: development halted, playable, C++
       added: 2013-05-28
       media:
         - image: http://i1-linux.softpedia-static.com/screenshots/Super-Mario-War_1.png
