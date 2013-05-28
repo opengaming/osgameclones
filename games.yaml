@@ -343,12 +343,12 @@
 
 
 - name: Hardwar
-   clones:
-     - name: Hardwar
-       url: http://www.hardwar.org/
-       repo: https://github.com/andrewfenn/Hardwar
-       info: sporadic development, C/C++
-       added: 2013-5-27
+  clones:
+    - name: Hardwar
+      url: http://www.hardwar.org/
+      repo: https://github.com/andrewfenn/Hardwar
+      info: sporadic development, C/C++
+      added: 2013-05-27
 
 
 - name: Hexen II
@@ -504,12 +504,14 @@
       info: development halted, seems to be playable
       added: 2013-05-27
 
+
 - name: Oxyd
   clones:
     - name: Enigma
       url: http://www.nongnu.org/enigma/
       repo: svn://svn.code.sf.net/p/enigma-game/source
       info: active development, C++
+      added: 2013-05-27
 
 
 - name: Quake 3
