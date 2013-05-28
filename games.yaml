@@ -298,7 +298,7 @@
   clones:
     - name: f2bgl
       url: https://github.com/cyxx/f2bgl
-      info: sporadic development, C++ 
+      info: sporadic development, C++
 
 - name: Flashback
   clones:
@@ -1028,6 +1028,19 @@
           url: http://openxcom.org/wp-content/gallery/v0-3/09032011_ufopaedia.png
 
 
+- name: Legend of Zelda
+  clones:
+    - name: Solarus
+      url: http://www.solarus-games.org/
+      repo: https://github.com/christopho/solarus
+      info: active development, C++/Lua
+      added: 2013-05-28
+      media:
+        - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_outside.png
+        - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_1.png
+        - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/BUxREyXILLs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
 - name: [Z, Z (video game)]
   clones:
     - name: The Zod Engine
@@ -1143,8 +1156,8 @@
           url: http://clintbellanger.net/rpg/images/screenshots/0020.jpg
         - image: http://clintbellanger.net/rpg/images/screenshots/t0022.jpg
           url: http://clintbellanger.net/rpg/images/screenshots/0022.jpg
-          
-          
+
+
 - name: [DEFCON, DEFCON_(video_game)]
   reimplementations:
     - url: https://github.com/gtanczyk/Dupocracy
@@ -1154,7 +1167,7 @@
       media:
         - image: http://www.gamedev.pl/images/m/557,fogofwarpng.jpg
           url: http://www.gamedev.pl/images/l/557,fogofwarpng.jpg
-          
+
 
 - name: Dungeon Keeper
   reimplementations:
