@@ -3,3 +3,7 @@
 
 build:
 	cyrax
+
+update:
+	git pull
+	cyrax
