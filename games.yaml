@@ -1249,6 +1249,27 @@
           url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
 
 
+- names:
+    - Neverwinter Night
+    - Neverwinter Nights 2
+    - "Star Wars: Knights of the Old Republic"
+    - "Star Wars: Knights of the Old Republic II – The Sith Lords"
+    - Jade Empire
+    - Sonic Chronicles: The Dark Brotherhood
+    - [The Witcher, The Witcher (video game)]
+    - Dragon Age: Origins
+    - Dragon Age II
+  clones:
+    - name: xoreos
+      url: http://xoreos.org/
+      repo: https://github.com/DrMcCoy/xoreos
+      info: sporadic development, C++
+      media:
+        - image: http://xoreos.org/images/NWN_20130528T054618_500.png
+          url: http://xoreos.org/images/NWN_20130528T054618.png
+        - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/WaRfBsZVO3Y?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
 - name: RPG Maker
   reimplementations:
     - name: EasyRPG
