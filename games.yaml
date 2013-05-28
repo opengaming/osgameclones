@@ -128,6 +128,18 @@
         - image: http://openra.res0l.net/assets/images/screenshots/ss9.jpg
 
 
+- name: Curse of Azure Bonds
+  clones:
+    - name: coab
+      url: https://code.google.com/p/coab/
+      repo: https://code.google.com/p/coab/source/list
+      info: sporadic development, playable, C#
+      added: 2013-05-28
+      media:
+        - image: http://coab.googlecode.com/svn/pics/title-screen.png
+        - image: http://coab.googlecode.com/svn/pics/world-map.png
+
+
 - names:
     - [Descent, Descent (video game)]
     - Descent 2
@@ -947,8 +959,8 @@
 - name: Warcraft
   clones:
     - url: http://wargus.stratagus.com/index.shtml
-      repo: http://sourceforge.net/p/wargus/code/HEAD/tree/
-      info: development halted
+      repo: https://code.launchpad.net/wargus
+      info: moderately active development, C++/Lua
       added: 2013-05-27
 
 
