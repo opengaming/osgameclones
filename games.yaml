@@ -453,6 +453,22 @@
       added: 2013-05-27
 
 
+- name: "Jedi Knight II: Jedi Outcast"
+  clones:
+    - name: JediOutcastLinux
+      url: https://github.com/xLAva/JediOutcastLinux
+      added: 2013-05-28
+      info: active development, playable, C++
+
+
+- name: "Jedi Knight: Jedi Academy"
+  clones:
+    - name: JediAcademyLinux
+      url: https://github.com/xLAva/JediAcademyLinux
+      added: 2013-05-28
+      info: active development, playable, C++
+
+
 - name: Knights and Merchants
   clones:
     - name: KaM Remake
@@ -900,6 +916,14 @@
           image: http://media.openttd.org/images/screens/1.0/20100509_cw_gardenart_thumb.png
         - url: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d.png
           image: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d_thumb.png
+
+
+- name: Turrican
+  clones:
+    - name: Hurrican
+      url: http://sourceforge.net/p/hurrican/code/HEAD/tree/trunk/
+      info: development halted, playable (Makefile needs edits to compile on Linux), C++
+      added: 2012-05-28
 
 
 - name: [Tyrian, Tyrian (video game)]
