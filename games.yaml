@@ -57,12 +57,15 @@
         - image: http://cyxdown.free.fr/bs/bs-1.png
         - image: http://cyxdown.free.fr/bs/bs-2.png
 
+
 - name: Blood
   clones:
     - name: BloodTC (EDuke32 vanilla)
       url: http://www.moddb.com/games/bloodtc
       info: active development
       repo: http://m210.ucoz.ru/
+      added: 2013-05-29
+
 
 - name: Caesar 3
   clones:
@@ -81,11 +84,14 @@
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/0afl6ruHZgI?rel=0" frameborder="0" allowfullscreen></iframe>
 
+
 - name: Cave Story
   clones:
-    - name: NXEngine 
+    - name: NXEngine
       url: http://nxengine.sourceforge.net/
-      info: sporadic development, playable, needs game data (but it's free!)
+      info: "sporadic development, playable, needs game data (but it's free!)"
+      added: 2013-05-29
+
 
 - name: Clonk
   clones:
@@ -322,12 +328,15 @@
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-3.png
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-4.png
 
+
 - name: Forsaken
   clones:
     - name: ProjectX
       url: http://fly.thruhere.net/
       repo: https://github.com/ForsakenX/forsaken
       info: playable
+      added: 2013-05-29
+
 
 - name: FreeSpace 2
   clones:
@@ -723,12 +732,15 @@
       media:
         - image: http://night-hawk.sourceforge.net/nh_intro_1.png
 
+
 - name: Redneck Rampage
   clones:
     - name: erampage (EDuke32 fork)
       url: https://code.google.com/p/erampage/
       info: active development, C
       repo: https://code.google.com/p/erampage/source/checkout
+      added: 2013-05-29
+
 
 - name: Rise of the Triad
   clones:
@@ -1058,7 +1070,7 @@
   clones:
     - url: http://etlegacy.com/
       name: "ET: Legacy"
-      info: active development, C, C++, Lua; needs original game files 
+      info: active development, C, C++, Lua; needs original game files
       repo: https://github.com/etlegacy/etlegacy
       added: 2013-05-28
       media:
@@ -1070,12 +1082,14 @@
           url: http://www.splashdamage.com/screens_wet/003.jpg
         - image: http://www.splashdamage.com/screens_wet/004_s.jpg
           url: http://www.splashdamage.com/screens_wet/004.jpg
-          
+
+
 - name: World of Goo
   clones:
     - name: OpenGoo
       repo: https://github.com/Mandarancio/OpenGOO
       info: active development, not playable
+      added: 2013-05-29
 
 
 - names:
