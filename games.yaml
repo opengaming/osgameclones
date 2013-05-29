@@ -250,6 +250,20 @@
         - image: http://hrp.duke4.net/screens/ep2/e2l3_04s.jpg
           url: http://hrp.duke4.net/screens/ep2/e2l3_04.jpg
 
+- name: Redneck Rampage
+  clones:
+    - name: erampage (EDuke32 fork)
+      url: https://code.google.com/p/erampage/
+      info: active development, C
+      repo: https://code.google.com/p/erampage/source/checkout
+      
+- name: Blood
+  clones:
+    - name: BloodTC (EDuke32 vanilla)
+      url: http://www.moddb.com/games/bloodtc
+      info: active development
+      repo: http://m210.ucoz.ru/ (data files only)
+
 
 - name: Dune 2
   clones:
