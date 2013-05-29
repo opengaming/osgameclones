@@ -24,7 +24,7 @@
       url: http://arx-libertatis.org/
       repo: https://github.com/arx/ArxLibertatis
       added: 2013-05-27
-      info: active development, C++; needs original game files (OpenMW)
+      info: active development, C++; needs original game files
       media:
         - raw: <iframe width="560" height="315" src="http://www.youtube.com/embed/mIribIqKee8?rel=0" frameborder="0" allowfullscreen></iframe>
         - image: http://wiki.arx-libertatis.org/images/thumb/e/e1/Castle.jpg/120px-Castle.jpg
@@ -39,7 +39,7 @@
   clones:
     - name: GemRB
       url: http://www.gemrb.org/
-      repo: http://sourceforge.net/projects/gemrb/develop
+      repo: https://github.com/gemrb/gemrb
       info: active development, C++
       media:
         - image: http://sourceforge.net/dbimage.php?id=105342
@@ -58,6 +58,15 @@
         - image: http://cyxdown.free.fr/bs/bs-2.png
 
 
+- name: Blood
+  clones:
+    - name: BloodTC (EDuke32 vanilla)
+      url: http://www.moddb.com/games/bloodtc
+      info: active development
+      repo: http://m210.ucoz.ru/
+      added: 2013-05-29
+
+
 - name: Caesar 3
   clones:
     - name: openCaesar3
@@ -74,6 +83,14 @@
       info: sporadic development, playable, needs game data, C#
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/0afl6ruHZgI?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+- name: Cave Story
+  clones:
+    - name: NXEngine
+      url: http://nxengine.sourceforge.net/
+      info: "sporadic development, playable, needs game data (but it's free!)"
+      added: 2013-05-29
 
 
 - name: Clonk
@@ -300,9 +317,9 @@
       url: https://github.com/cyxx/f2bgl
       info: sporadic development, C++
 
-- name: Flashback
+- name: [Flashback, Flashback (video game)]
   clones:
-    - name: Reminiscence
+    - name: REminiscence
       url: http://cyxdown.free.fr/reminiscence/
       info: moderately active development
       media:
@@ -310,6 +327,15 @@
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-2.png
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-3.png
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-4.png
+
+
+- name: Forsaken
+  clones:
+    - name: ProjectX
+      url: http://fly.thruhere.net/
+      repo: https://github.com/ForsakenX/forsaken
+      info: playable
+      added: 2013-05-29
 
 
 - name: FreeSpace 2
@@ -354,15 +380,6 @@
       url: http://residualvm.org/
       info: active development, C++
       added: 2013-05-27
-
-
-- name: Half-Life
-  clones:
-    - name: Xash3D
-      url: http://www.moddb.com/engines/xash3d-engine
-      repo: http://www.hlfx.ru/xash/xash_extras.7z
-      info: active development, 85% complete, needs data files, win-only
-      added: 2013-05-28
 
 
 - name: Hardwar
@@ -716,6 +733,31 @@
         - image: http://night-hawk.sourceforge.net/nh_intro_1.png
 
 
+- name: [Pushover, Pushover (video game)]
+  clones:
+    - name: Pushover
+      url: http://pushover.sourceforge.net/
+      info: moderately active development, C++, playable
+      added: 2013-05-29
+      repo: http://pushover.sourceforge.net/repos/head/
+      media:
+        - image: http://pushover.sourceforge.net/images/Screenshot2_tn.jpg
+          url: http://pushover.sourceforge.net/images/Screenshot2.jpg
+        - image: http://pushover.sourceforge.net/images/Screenshot3n_tn.jpg
+          url: http://pushover.sourceforge.net/images/Screenshot3n.jpg
+        - image: http://pushover.sourceforge.net/images/Screenshot4_tn.jpg
+          url: http://pushover.sourceforge.net/images/Screenshot4.jpg
+
+
+- name: Redneck Rampage
+  clones:
+    - name: erampage (EDuke32 fork)
+      url: https://code.google.com/p/erampage/
+      info: active development, C
+      repo: https://code.google.com/p/erampage/source/checkout
+      added: 2013-05-29
+
+
 - name: Rise of the Triad
   clones:
     - name: Rise of the Triad for Linux
@@ -1040,6 +1082,32 @@
           url: http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
 
 
+- name: "Wolfenstein: Enemy Territory"
+  clones:
+    - url: http://etlegacy.com/
+      name: "ET: Legacy"
+      info: active development, C, C++, Lua; needs original game files
+      repo: https://github.com/etlegacy/etlegacy
+      added: 2013-05-28
+      media:
+        - image: http://www.splashdamage.com/screens_wet/001_s.jpg
+          url: http://www.splashdamage.com/screens_wet/001.jpg
+        - image: http://www.splashdamage.com/screens_wet/002_s.jpg
+          url: http://www.splashdamage.com/screens_wet/002.jpg
+        - image: http://www.splashdamage.com/screens_wet/003_s.jpg
+          url: http://www.splashdamage.com/screens_wet/003.jpg
+        - image: http://www.splashdamage.com/screens_wet/004_s.jpg
+          url: http://www.splashdamage.com/screens_wet/004.jpg
+
+
+- name: World of Goo
+  clones:
+    - name: OpenGoo
+      repo: https://github.com/Mandarancio/OpenGOO
+      info: active development, not playable
+      added: 2013-05-29
+
+
 - names:
     - "X-COM: UFO Defence"
     - "UFO: Enemy Unknown"
@@ -1112,6 +1180,20 @@
           url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png
         - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/thumb_2011.2-6.png
           url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
+
+
+- name: [Battle Isle series, Battle Isle (series)]
+  reimplementations:
+    - name: Crimson Fields
+      url: http://crimson.seul.org/
+      repo: http://svn.seul.org/viewcvs/viewvc.cgi/games/crimson/?root=SEUL
+      info: development halted, playable, C++
+      added: 2013-05-29
+      media:
+        - image: http://crimson.seul.org/screenshots/thumb17.png
+          url: http://crimson.seul.org/screenshots/screen17.png
+        - image: http://crimson.seul.org/screenshots/thumb18.png
+          url: http://crimson.seul.org/screenshots/screen18.png
 
 
 - name: [Battle Zone, Battlezone_(1980_video_game)]
@@ -1387,6 +1469,29 @@
         - image: http://www.simutrans.com/gallery/pak32comic/pak32comic_1_th.png
         - image: http://www.simutrans.com/gallery/pak96comic/pak96comic_3_th.jpg
           url: http://www.simutrans.com/gallery/pak96comic/pak96comic_3.jpg
+
+
+- name: Tribal Hero
+  reimplementations:
+    - name: Danger Zone
+      info: active (somewhat sporadic) development, Java, not yet playable
+      repo: https://github.com/alasershark/dangerzone
+      url: http://dzgame.org
+      added: 2013-05-28
+
+
+- name: Crimsonland
+  reimplementations:
+    - url: https://code.google.com/p/violetland/
+      name: Violetland
+      repo: https://code.google.com/p/violetland/source/list
+      added: 2013-05-29
+      info: development halted, playable, C++
+      media:
+        - image: http://img594.imageshack.us/img594/6028/violetlandv0210q.th.png
+          url: http://imageshack.us/photo/my-images/594/violetlandv0210q.png/
+        - image: http://img156.imageshack.us/img156/1433/violetlandv02101.th.png
+          url: http://img156.imageshack.us/i/violetlandv02101.png/
 
 
 - name: [Worms Series, Worms (series)]
