@@ -733,6 +733,22 @@
         - image: http://night-hawk.sourceforge.net/nh_intro_1.png
 
 
+- name: [Pushover, Pushover (video game)]
+  clones:
+    - name: Pushover
+      url: http://pushover.sourceforge.net/
+      info: moderately active development, C++, playable
+      added: 2013-05-29
+      repo: http://pushover.sourceforge.net/repos/head/
+      media:
+        - image: http://pushover.sourceforge.net/images/Screenshot2_tn.jpg
+          url: http://pushover.sourceforge.net/images/Screenshot2.jpg
+        - image: http://pushover.sourceforge.net/images/Screenshot3n_tn.jpg
+          url: http://pushover.sourceforge.net/images/Screenshot3n.jpg
+        - image: http://pushover.sourceforge.net/images/Screenshot4_tn.jpg
+          url: http://pushover.sourceforge.net/images/Screenshot4.jpg
+
+
 - name: Redneck Rampage
   clones:
     - name: erampage (EDuke32 fork)
