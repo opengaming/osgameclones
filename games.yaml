@@ -518,19 +518,6 @@
           url: http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr2.png
 
 
-- name: Lemmings
-  clones:
-    - name: Pingus
-      url: http://pingus.seul.org/welcome.html
-      repo: http://developer.berlios.de/svn/?group_id=2301
-      info: active development, C++
-      media:
-        - url: http://pingus.seul.org/images/screen_0.7.0-3.jpg
-          image: http://pingus.seul.org/images/screen_0.7.0-3_small.jpg
-        - url: http://pingus.seul.org/images/screen_0.7.0-4.jpg
-          image: http://pingus.seul.org/images/screen_0.7.0-4_small.jpg
-
-
 - name: Liero
   clones:
     - name: OpenLiero
@@ -1340,6 +1327,25 @@
       info: active development, C++
       media:
         - image: http://pioneerspacesim.net/assets/ss1.png.pagespeed.ce.U2_loVycEA.png
+
+
+- name: Lemmings
+  reimplementations:
+    - name: Pingus
+      url: http://pingus.seul.org/welcome.html
+      repo: http://developer.berlios.de/svn/?group_id=2301
+      info: active development, C++
+      media:
+        - url: http://pingus.seul.org/images/screen_0.7.0-3.jpg
+          image: http://pingus.seul.org/images/screen_0.7.0-3_small.jpg
+        - url: http://pingus.seul.org/images/screen_0.7.0-4.jpg
+          image: http://pingus.seul.org/images/screen_0.7.0-4_small.jpg
+    - name: Lix
+      url: http://asdfasdf.ethz.ch/~simon/index.php
+      repo: https://github.com/SimonN/Lix
+      info: sporadic development, playable, C++
+      media:
+        - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/dWXXK8QlnME?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 - name: [Master of Orion Series, Master of Orion]
