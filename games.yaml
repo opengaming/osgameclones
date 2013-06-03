@@ -58,7 +58,7 @@
         - image: http://cyxdown.free.fr/bs/bs-2.png
 
 
-- name: Blood
+- name: [Blood, Blood (video game)]
   clones:
     - name: BloodTC (EDuke32 vanilla)
       url: http://www.moddb.com/games/bloodtc
@@ -147,7 +147,7 @@
         - image: http://openra.res0l.net/assets/images/screenshots/ss9.jpg
 
 
-- name: Curse of Azure Bonds
+- name: Curse of the Azure Bonds
   clones:
     - name: coab
       url: https://code.google.com/p/coab/
@@ -689,7 +689,7 @@
     - name: xoreos
       url: http://xoreos.org/
       repo: https://github.com/DrMcCoy/xoreos
-      info: sporadic development, C++
+      info: sporadic development, not playable, C++
       added: 2013-05-28
       media:
         - image: http://xoreos.org/images/NWN_20130528T054618_500.png
@@ -847,6 +847,19 @@
           url: http://freesynd.sourceforge.net/images/screenshots/ss2.png
         - image: http://freesynd.sourceforge.net/images/screenshots/thumb.ss3.png
           url: http://freesynd.sourceforge.net/images/screenshots/ss3.png
+
+
+- name: Syndicate Wars
+  clones:
+    - name: Syndicate Wars Port
+      url: http://swars.vexillium.org/
+      info: playable (no network support), active newsgroup (no repo - no idea about development)
+      added: 2013-05-30
+      media:
+        - image: http://swars.vexillium.org/shots/swars-gnu-1-thumb.jpg
+          url: http://swars.vexillium.org/shots/swars-gnu-1.png
+        - image: http://swars.vexillium.org/shots/swars-macos-1-thumb.jpg
+          url: http://swars.vexillium.org/shots/swars-macos-1.png
 
 
 - name: The Settlers
@@ -1364,6 +1377,7 @@
       url: http://asdfasdf.ethz.ch/~simon/index.php
       repo: https://github.com/SimonN/Lix
       info: sporadic development, playable, C++
+      added: 2013-05-30
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/dWXXK8QlnME?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -1399,6 +1413,20 @@
           url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-166.jpg
         - image: http://www.flightgear.org/wp-content/gallery/cache/265__530x331_fgfs-screen-019.jpg
           url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
+
+
+- name: Panzer General
+  reimplementations:
+    - name: LGeneral
+      url: http://lgames.sourceforge.net/index.php?project=LGeneral
+      repo: http://sourceforge.net/p/lgeneral/code/HEAD/tree/trunk/lgeneral/
+      info: development halted (or very sporadic), playable, C
+      added: 2013-05-30
+      media:
+        - image: http://lgames.sourceforge.net/LGeneral/t_ss0.jpg
+          url: http://lgames.sourceforge.net/LGeneral/ss0.jpg
+        - image: http://lgames.sourceforge.net/LGeneral/t_ss1.jpg
+          url: http://lgames.sourceforge.net/LGeneral/ss1.jpg
 
 
 - name: RPG Maker
