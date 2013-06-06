@@ -235,7 +235,14 @@
       url: http://www.odamex.net/
       info: active development, C
       repo: http://www.odamex.net/svn/log.php?isdir=1
-
+    - name: GLHeretic
+      url: http://heretic.linuxgames.com/
+      info: C
+      repo: http://freecode.com/projects/glhereticforlinux
+      media:
+        - image: http://heretic.linuxgames.com/screenshots/heretic_1.jpg
+        - image: http://heretic.linuxgames.com/screenshots/heretic_2.jpg
+      
 
 - name: Drugwars
   clones:
@@ -286,7 +293,7 @@
           url: http://sourceforge.net/apps/mediawiki/dunelegacy/nfs/project/d/du/dunelegacy/8/88/Dunelegacy-0.96-mission9-3.png
     - name: OpenDUNE
       url: http://www.opendune.org/
-      repo: http://svn.opendune.org/
+      repo: https://github.com/OpenDUNE/OpenDUNE
       info: active development, C
 
 
@@ -639,7 +646,7 @@
           image: http://www.maxr.org/images/screenshots/thumb/10-thumb.jpg
 
 
-- name: Morrowind
+- name: The Elder Scrolls III: Morrowind
   clones:
     - name: OpenMW
       url: http://openmw.com/
