@@ -318,11 +318,30 @@
         - image: http://www.dungeoneye.net/wp-content/uploads/2011/03/forest-300x187.png
           url: http://www.dungeoneye.net/wp-content/uploads/2011/03/forest.png
 
+
+- name: "The Elder Scrolls III: Morrowind"
+  clones:
+    - name: OpenMW
+      url: http://openmw.com/
+      info: active development, C++
+      repo: https://github.com/zinnschlag/openmw
+      media:
+        - image: http://openmw.org/wiki/images/thumb/3/33/Openmw-future-2012-03-22-1.png/320px-Openmw-future-2012-03-22-1.png
+          url: http://openmw.org/wiki/images/3/33/Openmw-future-2012-03-22-1.png
+        - image: http://openmw.org/wiki/images/thumb/9/9d/014-3.png/320px-014-3.png
+          url: http://openmw.org/wiki/images/9/9d/014-3.png
+        - image: http://openmw.org/wiki/images/thumb/f/f8/014-4.jpg/320px-014-4.jpg
+          url: http://openmw.org/wiki/images/thumb/f/f8/014-4.jpg/320px-014-4.jpg
+        - image: http://openmw.org/wiki/images/thumb/0/0e/014-1.png/320px-014-1.png
+          url: http://openmw.org/wiki/images/0/0e/014-1.png
+
+
 - name: Fade to Black
   clones:
     - name: f2bgl
       url: https://github.com/cyxx/f2bgl
       info: sporadic development, C++
+
 
 - name: [Flashback, Flashback (video game)]
   clones:
@@ -657,23 +676,6 @@
           image: http://www.maxr.org/images/screenshots/thumb/11-thumb.jpg
         - url: http://www.maxr.org/images/screenshots/10.jpg
           image: http://www.maxr.org/images/screenshots/thumb/10-thumb.jpg
-
-
-- name: The Elder Scrolls III: Morrowind
-  clones:
-    - name: OpenMW
-      url: http://openmw.com/
-      info: active development, C++
-      repo: https://github.com/zinnschlag/openmw
-      media:
-        - image: http://openmw.org/wiki/images/thumb/3/33/Openmw-future-2012-03-22-1.png/320px-Openmw-future-2012-03-22-1.png
-          url: http://openmw.org/wiki/images/3/33/Openmw-future-2012-03-22-1.png
-        - image: http://openmw.org/wiki/images/thumb/9/9d/014-3.png/320px-014-3.png
-          url: http://openmw.org/wiki/images/9/9d/014-3.png
-        - image: http://openmw.org/wiki/images/thumb/f/f8/014-4.jpg/320px-014-4.jpg
-          url: http://openmw.org/wiki/images/thumb/f/f8/014-4.jpg/320px-014-4.jpg
-        - image: http://openmw.org/wiki/images/thumb/0/0e/014-1.png/320px-014-1.png
-          url: http://openmw.org/wiki/images/0/0e/014-1.png
 
 
 - name: [Nebulus, Nebulus (video game)]
