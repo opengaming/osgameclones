@@ -144,17 +144,16 @@
 - names:
     - Command & Conquer
     - "Command & Conquer: Red Alert"
+    - Dune 2000
   clones:
     - name: OpenRA
-      url: http://openra.res0l.net/
+      url: http://www.open-ra.org
       repo: https://github.com/OpenRA/OpenRA
       info: active development, C#
       media:
-        - image: http://openra.res0l.net/assets/images/screenshots/ss6.jpg
-        - image: http://openra.res0l.net/assets/images/screenshots/ss7.jpg
-        - image: http://openra.res0l.net/assets/images/screenshots/ss8.jpg
-        - image: http://openra.res0l.net/assets/images/screenshots/ss9.jpg
-
+        - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/OpenRA-20120504-CnC-Shellmap.png
+        - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/invasion.png
+        - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/d2k-ingame.png
 
 - name: Curse of the Azure Bonds
   clones:
@@ -425,6 +424,15 @@
       url: http://residualvm.org/
       info: active development, C++
       added: 2013-05-27
+
+
+- name: [Half-Life, Half-Life (video game)]
+  clones:
+    - name: Sing
+      url: http://code.google.com/p/sing-engine/
+      repo: http://code.google.com/p/sing-engine/source/browse/trunk
+      info: development halted, C
+      added: 2013-06-08
 
 
 - name: Hardwar
@@ -860,6 +868,14 @@
           image: http://sc2.sourceforge.net/screenshots/setupmenu_tn.png
         - url: http://sc2.sourceforge.net/screenshots/meleestep.png
           image: http://sc2.sourceforge.net/screenshots/meleestep_tn.png
+
+- name: Starcraft
+  clones:
+    - url: http://stargus.stratagus.com/
+      name: Stargus
+      repo: https://code.launchpad.net/stargus
+      info: moderately active development, C++/Lua
+      added: 2013-06-08
 
 
 - name: [Stunts, Stunts (video game)]
@@ -1320,6 +1336,13 @@
       info: active development, online browser game, C, Java, JavaScript
       repo: https://github.com/freecivnet/freeciv-web
 
+- name: Counter-Strike
+  reimplementations:
+    - name: Urban Terror
+      url: http://www.urbanterror.info/
+      repo: https://github.com/Barbatos/ioq3-for-UrbanTerror-4
+      info: moderately active development, C
+      added: 2013-06-08
 
 - name: Diablo
   reimplementations:
@@ -1484,6 +1507,20 @@
           url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-166.jpg
         - image: http://www.flightgear.org/wp-content/gallery/cache/265__530x331_fgfs-screen-019.jpg
           url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
+
+
+- name: [Natural Selection, Natural Selection (video game)]
+  reimplementations:
+    - url: http://www.unvanquished.net/
+      name: Unvanquished
+      info: active development, C
+      repo: https://github.com/Unvanquished/Unvanquished
+      added: 2013-06-08
+    - url: http://www.tremulous.net/
+      name: Tremulous
+      info: sporadic development, C
+      repo: http://svn.icculus.org/tremulous/
+      added: 2013-06-08
 
 
 - name: RPG Maker
