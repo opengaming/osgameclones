@@ -63,20 +63,17 @@
     <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
     <ul>
        <li><i>Repository:</i> {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repository</a>){% endif %}</li>
-       <!--
-       <li><i>Free Media:</i>
+       <li><i>Free Content:</i>
 		{% if 'media_free' in game %}
 			{% if game['media_free'] == True %}
-			<span style="text-align: center; vertical-align: -5px; border: 1px solid black; display: inline-block;  width: 20px; height: 20px; font-weight: bolder;">&#10003;</span>
-			{{ game['media_free_details'] }}
+			<img src="static/free_content.png" title="{{ game['media_free_details'] }}" />
 			{% else %}
-			<span style="vertical-align: -5px; border: 1px solid black; display: inline-block; width: 20px; height: 20px; font-weight: bolder;"></span>
+			<img src="static/nonfree_content.png" />
 			{% endif %}
 		{% else %}
-		<span style="vertical-align: -5px; border: 1px solid black; display: inline-block; width: 20px; height: 20px; font-weight: bolder;"></span>
+		<img src="static/nonfree_content.png" />
 		{% endif %}
 		</li>
-		-->
     </ul>
     <script type="text/screenshots">
       {% for item in game.get('media', []) %}
