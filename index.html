@@ -28,11 +28,21 @@
       effort people put in them.
     </p>
     <p>
-      Similar resources: check
-      out <a href="http://www.liberatedgames.com/">Liberated Games</a>, which
-      specializes on commercial games, which were made free,
-      and <a href="http://freegamer.blogspot.com/">Free Gamer</a>, a blog
-      dedicated to open source game news.
+      You may also be interested
+      by:
+      <ul>
+        <li><a href="http://www.liberatedgames.com/">Liberated Games</a>, a
+        resource dedicated to cataloging all full commercial games that have been
+        liberated and made free in playable form to the public.</li>
+        <li><a href="http://rewiki.regengedanken.de/wiki/Links_to_engine_reimplementations">Links to engine reimplementations</a> of
+        REWiki. It is a wiki that store documentation about file formats of severals videogames.</li>
+        <li><a href="http://en.wikipedia.org/wiki/Game_engine_recreation">Game engine recreation</a> is a
+        article in the english Wikipedia about the Game engine recreations
+        are engine interpreters for video games that replace the original engine binary
+        that came with the original game.</li>
+		<li><a href="http://freegamer.blogspot.com/">Free Gamer</a>, a blog
+      dedicated to open source game news.</li>
+      </ul>
     </p>
     <p class="new">All games that were added in last month are highlighted like this.</p>
   </article>
@@ -51,8 +61,20 @@
     <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
-    {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repository</a>){% endif %}.
-
+    <ul>
+       <li><i>Repository:</i> {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repository</a>){% endif %}</li>
+       <li><i>Free Content:</i>
+		{% if 'media_free' in game %}
+			{% if game['media_free'] == True %}
+			<img src="static/free_content.png" title="{{ game['media_free_details'] }}" />
+			{% else %}
+			<img src="static/nonfree_content.png" />
+			{% endif %}
+		{% else %}
+		<img src="static/nonfree_content.png" />
+		{% endif %}
+		</li>
+    </ul>
     <script type="text/screenshots">
       {% for item in game.get('media', []) %}
       {% if 'raw' in item %}{{ item['raw'] }}{% endif %}
@@ -86,6 +108,7 @@
   </footer>
 
   <script type="text/javascript">
+    //Script to show and hide screenshot of engine.
     (function() {
       var onclick = function() {
         var screenshots = this.parentNode.getElementsByTagName("script");
@@ -95,11 +118,14 @@
             this.parentNode.insertAdjacentHTML('beforeend', innerHTML);
             this.parentNode.removeChild(screenshots[0]);
         }
+        
         screenshots = this.parentNode.getElementsByClassName("screenshots")[0];
         var show_now = screenshots.style.display == "none";
         this.innerHTML = show_now ? "&#x25bc;" : "&#x25b6;";
         screenshots.style.display = show_now ? "block" : "none";
       }
+      
+      //Add the event listener in the toggler elements.
       var els = document.getElementsByClassName("toggler");
       for (var i = 0, l = els.length; i < l; i++) {
         els[i].addEventListener("click", onclick);
