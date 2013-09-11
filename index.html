@@ -145,7 +145,7 @@
                 this.value.split(' ').map(function(term) {
                     if (!term) return "";
                     return "[data-index*=\"" +
-                           encodeURIComponent(term.toLowerCase()) +
+                           term.toLowerCase().replace('"', '') +
                            "\"]";
                 }).join('') +
                 "{display: block}";
