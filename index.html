@@ -37,17 +37,28 @@
     <p class="new">All games that were added in last month are highlighted like this.</p>
   </article>
 
+  <div>
+    <input id="filter" type="text" placeholder="Filter...">
+  </div>
+
 {% macro render(names, items, mode) %}
   {% for name in names %}
-  {% if name|length == 2 %}{% set name, wiki = name %}{% else %}{% set wiki = name %}{% endif %}
-  <dt {% if not loop.index0 %}id="{{ name }}-{{ mode }}"{% endif -%}>
+
+  {%- if name|length == 2 -%}
+    {% set name, wiki = name %}
+  {%- else -%}
+    {% set wiki = name %}
+  {%- endif -%}
+
+  <dt {% if not loop.index0 %}id="{{ name }}-{{ mode }}"{% endif -%} class="searchable">
     <a href="http://en.wikipedia.org/wiki/{{ wiki }}">{{ name }}</a>
     {% if not loop.index0 %}<a href="#{{ name }}-{{ mode }}" class="hash">#</a>{% endif %}
   </dt>
   {% endfor %}
 
   {% for game in items %}
-  <dd {%- if game.new %} class="new"{% endif %}>
+  <dd class="searchable {% if game.new %}new{% endif %}"
+      data-index="{{ names|lower|e }} {{ game['name']|lower|e }} {{ game['info']|lower|e }}">
     <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
@@ -85,7 +96,11 @@
     <a href="mailto:alexander@solovyov.net">Alexander Solovyov</a>
   </footer>
 
+  <style id="filter-style">
+  </style>
+
   <script type="text/javascript">
+    // screenshot handling
     (function() {
       var onclick = function() {
         var screenshots = this.parentNode.getElementsByTagName("script");
@@ -104,6 +119,37 @@
       for (var i = 0, l = els.length; i < l; i++) {
         els[i].addEventListener("click", onclick);
       }
+    })();
+
+    // search handling
+    (function() {
+        var nodes = document.getElementsByTagName('dt');
+        for (var i = 0, l = nodes.length; i < l; i++) {
+            var el = nodes[i];
+            el.setAttribute('data-index', '');
+            var next = el;
+            while((next = next.nextElementSibling) && !next.id) {
+                if (next.tagName != 'DD') continue;
+                el.setAttribute('data-index', el.getAttribute('data-index') +
+                                              next.getAttribute('data-index'));
+            }
+        };
+
+        var style = document.getElementById('filter-style');
+        document.getElementById('filter').addEventListener('input', function() {
+            if (!this.value) {
+                style.innerHTML = "";
+                return;
+            }
+            style.innerHTML = ".searchable {display: none} .searchable" +
+                this.value.split(' ').map(function(term) {
+                    if (!term) return "";
+                    return "[data-index*=\"" +
+                           encodeURIComponent(term.toLowerCase()) +
+                           "\"]";
+                }).join('') +
+                "{display: block}";
+        });
     })();
   </script>
 
