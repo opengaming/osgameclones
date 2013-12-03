@@ -1,5 +1,10 @@
 language: python
 python:
   - "2.7"
-install: "sudo apt-get install python-yaml python-jinja2 python-smartypants && pip install cyrax"
-script: "cyrax"
+virtualenv:
+  system_site_packages: true
+before_install:
+  - sudo apt-get install -qq python-yaml python-jinja2 python-smartypants
+install:
+  - pip install cyrax
+script: cyrax
