@@ -1,5 +1,5 @@
 language: python
 python:
   - "2.7"
-install: "pip install cyrax PyYAML"
+install: "sudo apt-get install python-yaml python-jinja2 python-smartypants && pip install cyrax"
 script: "cyrax"
