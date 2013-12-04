@@ -32,6 +32,7 @@
         - image: http://wiki.arx-libertatis.org/images/thumb/b/b9/Spell.jpg/120px-Spell.jpg
           url: http://wiki.arx-libertatis.org/images/b/b9/Spell.jpg
 
+
 - names:
     - "Baldur's Gate series"
     - Icewind Dale series
@@ -45,6 +46,18 @@
         - image: http://sourceforge.net/dbimage.php?id=105342
         - image: http://sourceforge.net/dbimage.php?id=105346
         - image: http://sourceforge.net/dbimage.php?id=105344
+
+
+- name: [Battle City, Battle City (open source game)]
+  clones:
+    - name: Battle City
+      url: http://battlecity.org/
+      repo: https://github.com/Deceth/Battle-City
+      added: 2013-12-04
+      info: sporadic development, playable, C++
+      media:
+        - image: http://battlecity.org/wp-content/uploads/your-city-has-been-destroyed-by-the-power-of-an-orb.png
+        - image: http://farm6.staticflickr.com/5246/5313969457_15de8df27f_z.jpg
 
 
 - name: Bermuda Syndrome
