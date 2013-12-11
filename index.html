@@ -38,7 +38,7 @@
   </article>
 
   <div>
-    <input id="filter" type="text" placeholder="Filter by names and information...">
+    <input id="filter" type="text" placeholder="Type to filter by name or information">
   </div>
 
 {% macro render(names, items, mode) %}
@@ -58,7 +58,9 @@
 
   {% for game in items %}
   <dd class="searchable {% if game.new %}new{% endif %}"
-      data-index="{{ names|lower|e }} {{ game['name']|lower|e }} {{ game['info']|lower|e }}">
+      data-index="{{ names|join(' ')|lower|e }}
+                  {{ game['name']|lower|e }}
+                  {{ game['info']|lower|e }}">
     <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
@@ -77,7 +79,7 @@
 {% endmacro %}
 
   <h2>List of complete clones</h2>
-  <article>Some of these games aren't reimplementations but evolution of original ones, which were eventually open sourced.</article>
+  <article>Some of these games aren&#39;t reimplementations but evolution of original ones, which were eventually open sourced.</article>
   <dl>
     {% for names, items in site.clones %}
     {{ render(names, items, 'clones') }}
@@ -123,17 +125,22 @@
 
     // search handling
     (function() {
+        // collect indexes on dt
         var nodes = document.getElementsByTagName('dt');
         for (var i = 0, l = nodes.length; i < l; i++) {
-            var el = nodes[i];
-            el.setAttribute('data-index', '');
-            var next = el;
-            while((next = next.nextElementSibling) && !next.id) {
-                if (next.tagName != 'DD') continue;
-                el.setAttribute('data-index', el.getAttribute('data-index') +
-                                              next.getAttribute('data-index'));
+            var el = nodes[i], next = el, index = [];
+            while ((next = next.nextElementSibling) && !next.id) {
+                if (next.tagName != 'DD')
+                    continue;
+                index.push(next.getAttribute('data-index'));
             }
+            el.setAttribute('data-index', index.join(' '));
         };
+
+        var getfilter = function(term) {
+            return !term ? "" :
+                '[data-index*="' + term.toLowerCase().replace('"', '') + '"]';
+        }
 
         var style = document.getElementById('filter-style');
         document.getElementById('filter').addEventListener('input', function() {
@@ -141,13 +148,9 @@
                 style.innerHTML = "";
                 return;
             }
-            style.innerHTML = ".searchable {display: none} .searchable" +
-                this.value.split(' ').map(function(term) {
-                    if (!term) return "";
-                    return "[data-index*=\"" +
-                           term.toLowerCase().replace('"', '') +
-                           "\"]";
-                }).join('') +
+            style.innerHTML =
+                ".searchable {display: none} .searchable" +
+                this.value.split(' ').map(getfilter).join('') +
                 "{display: block}";
         });
     })();
