@@ -194,6 +194,7 @@
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/invasion.png
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/d2k-ingame.png
 
+
 - name: Curse of the Azure Bonds
   clones:
     - name: coab
@@ -994,6 +995,17 @@
           url: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_4.jpg
         - image: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/thumbs/thumbs_screen_11.jpg
           url: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
+
+
+- name: SimTower
+  clones:
+    - name: OpenSkyscraper
+      url: https://github.com/fabianschuiki/OpenSkyscraper/wiki
+      repo: https://github.com/fabianschuiki/OpenSkyscraper
+      info: active development, C++, playable
+      added: 2014-01-05
+      media:
+        - image: https://github.com/fabianschuiki/OpenSkyscraper/wiki/current.png
 
 
 - name: Star Control 2
