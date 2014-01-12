@@ -18,6 +18,14 @@
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png
 
 
+- name: Alien 8
+  clones:
+    - name: Alien 8
+      url: http://retrospec.sgn.net/game/alien8
+      added: 2014-01-12
+      info: development halted, playable, C
+
+
 - name: Arx Fatalis
   clones:
     - name: Arx Libertatis
@@ -31,6 +39,14 @@
           url: http://wiki.arx-libertatis.org/images/e/e1/Castle.jpg
         - image: http://wiki.arx-libertatis.org/images/thumb/b/b9/Spell.jpg/120px-Spell.jpg
           url: http://wiki.arx-libertatis.org/images/b/b9/Spell.jpg
+
+
+- name: Asteroids
+  clones:
+    - name: Maelstrom
+      url: http://www.libsdl.org/projects/Maelstrom/
+      info: development halted, playable, C
+      added: 2014-01-12
 
 
 - names:
@@ -108,12 +124,29 @@
       added: 2013-06-06
 
 
+- name: Bomberman
+  clones:
+    - name: SDL Bomber
+      url: http://www.linuxmotors.com/SDL_bomber/
+      info: development halted, playable, C
+      added: 2014-01-12
+
+
+- name: Boulder Dash
+  clones:
+    - name: Rocks n diamonds
+      url: http://www.artsoft.org/rocksndiamonds/
+      info: sporadic development, playable, C
+      added: 2014-01-12
+
+
 - name: Caesar 3
   clones:
     - name: openCaesar3
       url: https://github.com/gecube/opencaesar3/
       info: active development, C++, still not quite playable
       added: 2013-05-27
+
 
 - name: Cannon Fodder
   clones:
@@ -251,6 +284,17 @@
         - image: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/thumbs/thumbs_d2xr-scrn18.jpg
           url: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn18.jpg
 
+
+- name: Deflektor
+  clones:
+    - name: Deflektor X4
+      url: http://retrospec.sgn.net/game/deflektorx4
+      info: halted development, C
+      added: 2014-01-12
+    - name: Mirror Magic
+      url: http://www.artsoft.org/mirrormagic/
+      info: halted development, playable, C
+      added: 2014-01-12
 
 - names:
     - Doom
@@ -701,6 +745,14 @@
       added: 2013-05-27
 
 
+- name: Lode Runner
+  clones:
+    - name: XScavenger
+      url: http://www.xdr.com/dash/scavenger.html
+      info: development halted, playable, C
+      added: 2014-01-12
+
+
 - name: Oxyd
   clones:
     - name: Enigma
@@ -725,6 +777,13 @@
       info: somewhat active development, C++
       added: 2013-06-25
 
+
+- name: Prince of Persia
+  clones:
+    - name: FreePrince
+      url: http://www.princed.org/downloads/FreePrince/FP_2011-12-04_source.tar.gz
+      info: C, halted development, mostly playable
+      added: 2014-01-12
 
 - name: Quake 3
   clones:
@@ -935,6 +994,13 @@
       repo: https://code.google.com/p/erampage/source/checkout
       added: 2013-05-29
 
+
+- name: Rick Dangerous
+  clones:
+    - name: xrick
+      url: http://www.bigorno.net/xrick
+      info: halted development, playable, C
+      added: 2014-01-12
 
 - name: Rise of the Triad
   clones:
@@ -1169,6 +1235,13 @@
         - image: http://www.siedler25.org/thumbnail.php?file=/gallery/2011/2011.01.19_10.jpg
           url: http://www.siedler25.org/gallery/2011/2011.01.19_10.jpg
 
+
+- name: Tempest
+  clones:
+    - name: Arashi-JS
+      repo: https://github.com/stephank/arashi-js
+      info: development halted, javascript
+      added: 2014-01-12
 
 - name: Tetris Attack
   clones:
