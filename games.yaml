@@ -1023,6 +1023,13 @@
         - image: http://atanks.sourceforge.net/Screenshots/small-scrnshot23.png
           url: http://atanks.sourceforge.net/Screenshots/scrnshot23.png
 
+- name: Strike Commander
+  clones:
+    - name: libRealSpace
+      url: http://fabiensanglard.net/reverse_engineering_strike_commander/index.php
+      repo: https://github.com/fabiensanglard/libRealSpace
+      info: active development, C++
+      added: 2014-01-05
 
 - name: RollerCoaster Tycoon
   clones:
