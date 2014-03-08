@@ -252,6 +252,13 @@
         - image: http://coab.googlecode.com/svn/pics/title-screen.png
         - image: http://coab.googlecode.com/svn/pics/world-map.png
 
+- name: Cyberdogs
+  clones:
+    - name: C-Dogs SDL
+      url: http://cxong.github.io/cdogs-sdl/
+      repo: https://github.com/cxong/cdogs-sdl
+      info: active development, playable, C
+      added: 2014-03-08
 
 - names:
     - [Descent, Descent (video game)]
