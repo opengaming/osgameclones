@@ -1329,6 +1329,7 @@
       info: development halted, javascript
       added: 2014-01-12
 
+
 - name: Tetris Attack
   clones:
     - url: https://github.com/sharpobject/panel-attack
@@ -1336,6 +1337,13 @@
       repo: https://github.com/sharpobject/panel-attack
       info: active development, Lua, playable, basic networking support
       added: 2013-05-27
+    - url: http://www.nongnu.org/crack-attack/
+      name: Crack Attack!
+      repo: https://savannah.nongnu.org/cvs/?group=crack-attack
+      info: development halted, C++, playable, networking support
+      added: 2014-04-16
+      media:
+        - image: http://www.nongnu.org/crack-attack/gui-1.1.14-normal.png
 
 
 - name: Theme Hospital
