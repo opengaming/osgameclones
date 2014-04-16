@@ -1359,12 +1359,14 @@
         - url: http://cecp.biz/beta4.jpg
           image: http://cecp.biz/beta4.jpg
           
-- name: Titus
+- names:
+    - Titus the Fox
+    - [Moktar, Titus the Fox]
   clones:
     - url: http://opentitus.wikia.com/wiki/OpenTitus_Wiki
       name: OpenTitus
       info: sporadic development, C, SDL
-      repo: http://sourceforge.net/projects/opentitus/files/opentitus/
+      repo: https://github.com/stople/OpenTitus
       added: 2014-02-04
       media:
         - url: http://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png
