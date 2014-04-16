@@ -854,12 +854,16 @@
 - names:
     - [Marathon, Marathon_(video_game)]
     - Marathon 2
-    - Marathon Inifinity
+    - Marathon Infinity
   clones:
     - name: Aleph One
       url: http://marathon.sourceforge.net/
       info: active development, C++
-      repo: http://sourceforge.net/projects/marathon/develop
+      repo: http://sourceforge.net/p/marathon/code/
+      media:
+        - image: http://marathon.sourceforge.net/images/m1_collage.png
+        - image: http://marathon.sourceforge.net/images/m2_collage.png
+        - image: http://marathon.sourceforge.net/images/m3_collage.png
 
 
 - name: Mario World
@@ -868,16 +872,13 @@
       url: http://secretmaryo.org/
       repo: https://github.com/FluXy/SMC
       info: sporadic development, C++
-      # media:
-      #   - image: http://secretmaryo.org/images/screenshot/2.0/media/1s.png
-      #   - image: http://www.secretmaryo.org/images/screenshot/2.0/media/2s.png
-      #     url: http://www.secretmaryo.org/images/screenshot/2.0/media/2.png
-      #   - image: http://www.secretmaryo.org/images/screenshot/2.0/media/3s.png
-      #     url: http://www.secretmaryo.org/images/screenshot/2.0/media/3.png
-      #   - image: http://www.secretmaryo.org/images/screenshot/2.0/media/4s.png
-      #     url: http://www.secretmaryo.org/images/screenshot/2.0/media/4.png
-      #   - image: http://www.secretmaryo.org/images/screenshot/2.0/media/5s.png
-      #     url: http://www.secretmaryo.org/images/screenshot/2.0/media/5.png
+      media:
+        - image: http://picload.org/thumbnail/lopgiwo/smc1.png
+          url: http://secretmaryo.org/index.php?page=media
+        - image: http://picload.org/thumbnail/lopgiwc/smc2.png
+          url: http://secretmaryo.org/index.php?page=media
+        - image: http://picload.org/thumbnail/lopgiwp/smc3.png
+          url: http://secretmaryo.org/index.php?page=media
 
 
 - name: Master of Orion 2
@@ -1224,6 +1225,31 @@
           url: http://tileracer.model-view.com/tl/tl_files/screenshots03/screenshot_02.png
 
 
+- name: [Super Mario, Super Mario (series)]
+  clones:
+    - name: Mega Mario
+      url: http://sourceforge.net/projects/mmario/
+      info: development halted, playable, C++
+      added: 2014-04-16
+      media:
+        - image: http://a.fsdn.com/con/app/proj/mmario/screenshots/206808.jpg/182/137
+          url: http://a.fsdn.com/con/app/proj/mmario/screenshots/206808.jpg
+        - image: http://a.fsdn.com/con/app/proj/mmario/screenshots/206814.jpg/182/137
+          url: http://a.fsdn.com/con/app/proj/mmario/screenshots/206814.jpg
+        - image: http://a.fsdn.com/con/app/proj/mmario/screenshots/206810.jpg/182/137
+          url: http://a.fsdn.com/con/app/proj/mmario/screenshots/206810.jpg
+
+
+- name: [Super Methane Brothers, Super Methane Bros.]
+  clones:
+    - name: Super Methane Brothers
+      url: http://methane.sourceforge.net/
+      info: development halted, C++, playable
+      added: 2014-04-16
+      media:
+        - image: http://a.fsdn.com/con/app/proj/methane/screenshots/14915.jpg
+
+
 - name: [Syndicate, Syndicate (video game)]
   clones:
     - url: http://freesynd.sourceforge.net/
@@ -1313,6 +1339,7 @@
       info: development halted, javascript
       added: 2014-01-12
 
+
 - name: Tetris Attack
   clones:
     - url: https://github.com/sharpobject/panel-attack
@@ -1320,6 +1347,13 @@
       repo: https://github.com/sharpobject/panel-attack
       info: active development, Lua, playable, basic networking support
       added: 2013-05-27
+    - url: http://www.nongnu.org/crack-attack/
+      name: Crack Attack!
+      repo: https://savannah.nongnu.org/cvs/?group=crack-attack
+      info: development halted, C++, playable, networking support
+      added: 2014-04-16
+      media:
+        - image: http://www.nongnu.org/crack-attack/gui-1.1.14-normal.png
 
 
 - name: Theme Hospital
@@ -1335,12 +1369,14 @@
         - url: http://cecp.biz/beta4.jpg
           image: http://cecp.biz/beta4.jpg
           
-- name: Titus
+- names:
+    - Titus the Fox
+    - [Moktar, Titus the Fox]
   clones:
     - url: http://opentitus.wikia.com/wiki/OpenTitus_Wiki
       name: OpenTitus
       info: sporadic development, C, SDL
-      repo: http://sourceforge.net/projects/opentitus/files/opentitus/
+      repo: https://github.com/stople/OpenTitus
       added: 2014-02-04
       media:
         - url: http://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png
@@ -1394,7 +1430,7 @@
           url: http://a.fsdn.com/con/app/proj/tr1engine/screenshots/tr5_support.jpg
 
 
-- name: Touhou
+- name: [Touhou, Touhou Project]
   clones:
     - url: http://pytouhou.linkmauve.fr/
       name: PyTouhou
@@ -1404,6 +1440,14 @@
       media:
         - image: http://share.jacquin.me/uploads/9d4f2ea1-f3c6-49a7-b44e-796f9ff0b54c/pytouhou/stage4.png
         - image: http://share.jacquin.me/uploads/9d4f2ea1-f3c6-49a7-b44e-796f9ff0b54c/pytouhou/stage4.png
+    - url: http://taisei-project.org/
+      name: Taisai Project
+      repo: https://github.com/laochailan/taisei
+      info: development halted, C, playable
+      added: 2014-04-16
+      media:
+        - image: http://taisei-project.org/static/media/taisei_kurumi.png
+        - image: http://taisei-project.org/static/media/taisei_mansion.png
 
 
 - names:
@@ -2015,6 +2059,19 @@
         - image: http://opensnc.sourceforge.net/home/screenshots/0_1_3/0.png
         - image: http://opensnc.sourceforge.net/home/screenshots/0_1_3/3.png
         - image: http://opensnc.sourceforge.net/home/screenshots/0_1_3/9.png
+    - name: Sonic Robo Blast 2
+      info: active development, C, Lua
+      url: https://www.srb2.org/
+      repo: https://github.com/STJr/SRB2
+      added: 2014-04-16
+      media:
+        - image: http://picload.org/thumbnail/lopgipr/srb21.png
+          url: https://www.srb2.org/media/
+        - image: http://picload.org/thumbnail/lopgipa/srb22.png
+          url: https://www.srb2.org/media/
+        - image: http://picload.org/thumbnail/lopgipl/srb23.png
+          url: https://www.srb2.org/media/
+
 
 - name: Super Hexagon
   reimplementations:
