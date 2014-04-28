@@ -1657,7 +1657,16 @@
         - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_outside.png
         - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_1.png
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/BUxREyXILLs?rel=0" frameborder="0" allowfullscreen></iframe>
-
+    - name: Zelda Classic
+      url: http://www.purezc.net/
+      repo: https://code.google.com/p/zelda-classic/
+      info: development halted, C++, playable 
+      added: 2014-04-28
+      media:
+        - image: http://zeldaclassic.armageddongames.net/what/4.gif
+        - image: http://zeldaclassic.armageddongames.net/what/7.gif
+        - image: http://zeldaclassic.armageddongames.net/what/12.gif
+          
 
 - name: [Z, Z (video game)]
   clones:
@@ -2197,3 +2206,15 @@
       name: XorGramana
       info: development completed
       added: 2013-06-06
+
+
+- name: Legend of Zelda
+  reimplementations:
+    - name: Open Zelda
+      url: http://openzelda.net/
+      repo: https://code.google.com/p/openzelda/
+      info: sporadic development, C++, playable
+      added: 2014-04-28
+      media:
+        - image: http://openzelda.net/i/screen.png
+        - raw: <iframe width="420" height="315" src="//www.youtube.com/embed/secXtfqKo1c?rel=0" frameborder="0" allowfullscreen></iframe>
