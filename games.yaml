@@ -1408,12 +1408,30 @@
 
 - name: Tomb Raider
   clones:
-    - name: OpenTomb
+    - name: OpenRaider
       url: https://github.com/xythobuz/OpenRaider
+      info: active development, C++
+      added: 2014-04-28
+      media:
+        - url: http://picload.org/image/llawpip/openraider_sdl2.png
+          image: http://picload.org/thumbnail/llawpip/openraider_sdl2.png
+        - url: http://picload.org/image/llawpic/openraider_old2.png
+          image: http://picload.org/thumbnail/llawpic/openraider_old2.png
+        - url: http://picload.org/image/llawpia/openraider_old.png
+          image: http://picload.org/thumbnail/llawpia/openraider_old.png
+    - name: OpenTomb
+      url: http://sourceforge.net/projects/opentomb/
+      repo: http://sourceforge.net/p/opentomb/code/ci/default/tree/
       info: active development, C++
       added: 2013-06-06
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/Jf3JGm67oS0?rel=0" frameborder="0" allowfullscreen></iframe>
+        - url: http://a.fsdn.com/con/app/proj/opentomb/screenshots/screen_00003.jpg
+          image: http://a.fsdn.com/con/app/proj/opentomb/screenshots/screen_00003.jpg/182/137
+        - url: http://a.fsdn.com/con/app/proj/opentomb/screenshots/object%20interaction%202.jpg
+          image: http://a.fsdn.com/con/app/proj/opentomb/screenshots/object%20interaction%202.jpg/182/137
+        - url: http://a.fsdn.com/con/app/proj/opentomb/screenshots/tr5_support.jpg
+          image: http://a.fsdn.com/con/app/proj/opentomb/screenshots/tr5_support.jpg/182/137
 
 
 - name: [Touhou, Touhou Project]
@@ -1657,16 +1675,7 @@
         - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_outside.png
         - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_1.png
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/BUxREyXILLs?rel=0" frameborder="0" allowfullscreen></iframe>
-    - name: Zelda Classic
-      url: http://www.purezc.net/
-      repo: https://code.google.com/p/zelda-classic/
-      info: development halted, C++, playable 
-      added: 2014-04-28
-      media:
-        - image: http://zeldaclassic.armageddongames.net/what/4.gif
-        - image: http://zeldaclassic.armageddongames.net/what/7.gif
-        - image: http://zeldaclassic.armageddongames.net/what/12.gif
-          
+
 
 - name: [Z, Z (video game)]
   clones:
