@@ -1494,19 +1494,6 @@
         - image: http://wiki.opentyrian.googlecode.com/hg/opentyrian_torm.png
 
 
-- name: UGH!
-  clones:
-    - name: CaveExpress
-      url: http://www.caveproductions.org/
-      info: playable, active development, C, SDL, GPL3
-      repo: https://github.com/mgerhardy/caveexpress
-      added: 2014-06-24
-      media:
-        - image: http://www.caveproductions.org/images/screenshots/mainmenu.jpg
-        - image: http://www.caveproductions.org/images/screenshots/angry-dino.jpg
-        - image: http://www.caveproductions.org/images/screenshots/multi-packages.jpg
-
-
 - name: Ultima Online
   clones:
     - name: Iris2
@@ -2220,6 +2207,19 @@
           image: http://www.wormux.org/phpboost/gallery/pics/thumbnails/1101c.jpg
         - url: http://www.wormux.org/phpboost/gallery/pics/0_9_0_a.png
           image: http://www.wormux.org/phpboost/gallery/pics/thumbnails/0_9_0_a.png
+
+
+- name: UGH!
+  reimplementations:
+    - name: CaveExpress
+      url: http://www.caveproductions.org/
+      info: playable, active development, C, SDL, GPL3
+      repo: https://github.com/mgerhardy/caveexpress
+      added: 2014-06-24
+      media:
+        - image: http://www.caveproductions.org/images/screenshots/mainmenu.jpg
+        - image: http://www.caveproductions.org/images/screenshots/angry-dino.jpg
+        - image: http://www.caveproductions.org/images/screenshots/multi-packages.jpg
 
 
 - name: [X-COM Series, X-COM]
