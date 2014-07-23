@@ -23,7 +23,7 @@ Use this template:
               image: http://somefreegame.com/img1_thumbnail.jpg
             - url: http://somefreegame.com/img2.jpg
               image: http://somefreegame.com/img2_thumbnail.jpg
-            - raw: <iframe width="320" height="240" src="//www.youtube.com/embed/abcdefg1234?rel=0" frameborder="0" allowfullscreen></iframe>
+            - raw: <iframe width="320" height="240" src="http://www.youtube.com/embed/abcdefg1234?rel=0" frameborder="0" allowfullscreen></iframe>
 
 - `name`/`names`: Name of the original game
   - If the game goes under multiple names, or if the clone is inspired by multiple related games, use `names`
