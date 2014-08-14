@@ -1188,18 +1188,6 @@
         - image: https://github.com/fabianschuiki/OpenSkyscaper/wiki/current.png
 
 
-- name: Sokoban
-  clones:
-    - name: CavePacker
-      url: http://www.caveproductions.org/
-      info: playable, active development, C, SDL, GPL3
-      repo: https://github.com/mgerhardy/caveexpress
-      added: 2014-08-14
-      media:
-        - image: http://www.caveproductions.org/images/screenshots/cavepacker-01.png
-        - image: http://www.caveproductions.org/images/screenshots/cavepacker-02.png
-
-
 - name: Sopwith
   clones:
     - url: http://sdl-sopwith.sourceforge.net/
@@ -2119,6 +2107,18 @@
         - image: http://www.thedarkmod.com/wp-content/gallery/environments/thumbs/thumbs_rttc2v_10.jpg
           url: http://www.thedarkmod.com/wp-content/gallery/environments/rttc2v_10.jpg
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/hNtUQ32eeRM?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+- name: Sokoban
+  reimplementations:
+    - name: CavePacker
+      url: http://www.caveproductions.org/
+      info: playable, active development, C, SDL, GPL3
+      repo: https://github.com/mgerhardy/caveexpress
+      added: 2014-08-14
+      media:
+        - image: http://www.caveproductions.org/images/screenshots/cavepacker-01.png
+        - image: http://www.caveproductions.org/images/screenshots/cavepacker-02.png
 
 
 - name: Sonic the Hedgehog
