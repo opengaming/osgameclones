@@ -41,19 +41,28 @@
     <input id="filter" type="text" placeholder="Type to filter by name or information">
   </div>
 
-{% macro render(names, items, mode) %}
-  {% for name in names %}
-
+{% macro render_name(name, idx) %}
   {%- if name|length == 2 -%}
     {% set name, wiki = name %}
   {%- else -%}
     {% set wiki = name %}
   {%- endif -%}
 
-  <dt {% if not loop.index0 %}id="{{ name }}-{{ mode }}"{% endif -%} class="searchable">
-    <a href="http://en.wikipedia.org/wiki/{{ wiki }}">{{ name }}</a>
-    {% if not loop.index0 %}<a href="#{{ name }}-{{ mode }}" class="hash">#</a>{% endif %}
+  {%- if wiki[:6] in ["http:/", "https:"] -%}
+    {% set wikilink = wiki %}
+  {%- else -%}
+    {% set wikilink = "http://en.wikipedia.org/wiki/" + wiki %}
+  {%- endif -%}
+
+  <dt {% if not idx %}id="{{ name }}-{{ mode }}"{% endif -%} class="searchable">
+    <a href="{{ wikilink }}">{{ name }}</a>
+    {% if not idx %}<a href="#{{ name }}-{{ mode }}" class="hash">#</a>{% endif %}
   </dt>
+{% endmacro %}
+
+{% macro render(names, items, mode) %}
+  {% for name in names %}
+    {{ render_name(name, loop.index0) }}
   {% endfor %}
 
   {% for game in items %}
