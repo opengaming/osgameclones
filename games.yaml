@@ -862,7 +862,7 @@
   clones:
     - name: ioquake3
       url: http://ioquake3.org/
-      repo: http://svn.icculus.org/quake3/trunk/
+      repo: https://github.com/ioquake/ioq3
       info: active development, C
       media:
         - image: http://ioquake3.org/images/screenshots/arenalinux.jpeg
