@@ -352,7 +352,7 @@
       url: http://www.artsoft.org/mirrormagic/
       info: halted development, playable, C
       added: 2014-01-12
-  
+
   name: Diablo
   clones:
     - name: freeablo
@@ -831,6 +831,16 @@
       url: http://www.xdr.com/dash/scavenger.html
       info: development halted, playable, C
       added: 2014-01-12
+
+
+- name: Mad TV
+  clones:
+    - name: TVTower
+      url: http://www.tvgigant.de/en/index
+      info: active development, BlitzMax, C
+      repo: https://github.com/GWRon/TVTower
+      added: 2014-08-16
+
 
 - name: Outrun
   clones:
@@ -1838,6 +1848,7 @@
       repo: https://github.com/Barbatos/ioq3-for-UrbanTerror-4
       info: moderately active development, C
       added: 2013-06-08
+
 
 - name: Diablo
   reimplementations:
