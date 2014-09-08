@@ -26,6 +26,28 @@
       info: development halted, playable, C
 
 
+- names:
+    - Alone in the Dark
+    - Alone in the Dark 2
+    - Jack in the Dark
+    - Alone in the Dark 3
+  clones:
+    - name: Free in the Dark
+      url: http://sourceforge.net/projects/fitd/
+      repo: http://fitd.svn.sf.net/viewvc/fitd/trunk/
+      added: 2014-09-05
+      info: development halted, C, GPL
+
+
+- name: "Another World (video game)"
+  clones:
+    - name: New RAW
+      url: http://sourceforge.net/projects/newraw/
+      repo: svn://svn.code.sf.net/p/newraw/code/
+      added: 2014-09-05
+      info: development halted, C++, GPL
+
+
 - name: [Ares, Ares (video game)]
   clones:
     - name: Antares
@@ -56,6 +78,15 @@
           url: http://wiki.arx-libertatis.org/images/e/e1/Castle.jpg
         - image: http://wiki.arx-libertatis.org/images/thumb/b/b9/Spell.jpg/120px-Spell.jpg
           url: http://wiki.arx-libertatis.org/images/b/b9/Spell.jpg
+
+
+- name: Ascendancy
+  clones:
+    - name: Starlane Empire
+      url: https://gna.org/projects/starlane/
+      repo: http://cvs.gna.org/cvsweb/starlane/?cvsroot=starlane
+      added: 2014-09-05
+      info: development halted, C++, GPL
 
 
 - name: Asteroids
@@ -304,6 +335,14 @@
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/d2k-ingame.png
 
 
+- name: Creatures
+  clones:
+    - name: Open Creatures
+      url: https://github.com/ccdevnet/openc2e
+      added: 2014-09-05
+      info: development halted, forks present, C++, LGPL
+
+
 - name: Curse of the Azure Bonds
   clones:
     - name: coab
@@ -511,6 +550,11 @@
           url: https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_atr.png
         - image: https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_ord.png/182/137
           url: https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_ord.png
+    - name: Dune II - The Maker
+      url: http://dune2themaker.fundynamic.com/
+      repo: git://github.com/stefanhendriks/Dune-II---The-Maker.git
+      added: 2014-09-05
+      info: development halted, C++, MIT
 
 
 - name: Dungeon Keeper
@@ -637,6 +681,7 @@
 - names:
     - Grim Fandango
     - Escape from Monkey Island
+    - "Myst III: Exile"
   clones:
     - name: ResidualVM
       url: http://residualvm.org/
@@ -805,6 +850,14 @@
       url: https://github.com/JACoders/OpenJK
       added: 2014-08-15
       info: active development, playable, C++
+
+
+- name: Jumpgate
+  clones:
+    - name: Open Jumpgate
+      url: http://sourceforge.net/projects/opengate/
+      added: 2014-09-05
+      info: active development, C++
 
 
 - name: Knights and Merchants
