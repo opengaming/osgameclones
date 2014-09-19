@@ -142,7 +142,7 @@
       media:
         - image: http://cyxdown.free.fr/bs/bs-1.png
         - image: http://cyxdown.free.fr/bs/bs-2.png
-        
+
 - name: Betrayal at Krondor
   clones:
     - name: xBaK
@@ -931,7 +931,7 @@
       url: http://www.xdr.com/dash/scavenger.html
       info: development halted, playable, C
       added: 2014-01-12
-      
+
 
 - name: ["Log!cal", "http://hol.abime.net/906"]
   clones:
@@ -2115,6 +2115,20 @@
           url: http://opendungeons.sourceforge.net/public/images/screenshots/0_4_8_S02.jpg
         - image: http://opendungeons.sourceforge.net/public/images/screenshots/0_4_8_S03-thumb.jpg
           url: http://opendungeons.sourceforge.net/public/images/screenshots/0_4_8_S03.jpg
+
+
+- names:
+    - Guitar Hero
+    - SingStar
+    - Dance Dance Revolution
+  reimplementations:
+    - name: Performous
+      url: http://performous.org/
+      repo: https://github.com/performous/performous
+      info: active development, C++, playable
+      added: 2014-09-19
+      media:
+        - raw: <iframe width="420" height="315" src="//www.youtube.com/embed/soYIbsVmcyU?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 - name: Elasto Mania
