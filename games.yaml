@@ -703,12 +703,19 @@
       url: http://fretsonfire.sourceforge.net/
       repo: http://sourceforge.net/p/fretsonfire/code/HEAD/tree/trunk/
       added: 2014-08-20
-      info: development halted, playable, Python (look songs on the <a href="http://fretsonfire.wikidot.com/start">wiki</a>)
+      info: development halted, playable, Python (look for songs on the <a href="http://fretsonfire.wikidot.com/start">wiki</a>)
       media:
         - image: http://fretsonfire.sourceforge.net/screenshots/thumbnails/fretsonfire1.png
           url: http://fretsonfire.sourceforge.net/screenshots/fretsonfire1.png
         - image: http://fretsonfire.sourceforge.net/screenshots/thumbnails/fretsonfire4.png
           url: http://fretsonfire.sourceforge.net/screenshots/fretsonfire4.png
+    - name: Frets on Fire X
+      url: https://code.google.com/p/fofix/
+      repo: https://github.com/fofix/fofix
+      added: 2014-09-19
+      info: active development, playable, Python
+      media:
+        - raw: <iframe width="420" height="315" src="//www.youtube.com/embed/JBjdzWomC4M?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 - name: [Half-Life, Half-Life (video game)]
@@ -1398,6 +1405,22 @@
       added: 2014-01-05
       media:
         - image: https://github.com/fabianschuiki/OpenSkyscaper/wiki/current.png
+
+
+- name: SingStar
+  clones:
+    - name: UltraStar Deluxe
+      url: http://ultrastardx.sourceforge.net/
+      repo: http://sourceforge.net/p/ultrastardx/svn/HEAD/tree/trunk/
+      info: active development, Object Pascal, playable
+      added: 2014-09-19
+      media:
+        - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/sing_singscreen.jpg
+          url: http://ultrastardx.sourceforge.net/screenshots/sing_singscreen.jpg
+        - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/game_visualisations.png
+          url: http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png
+        - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/partymode_teams.png
+          url: http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
 
 
 - name: Sopwith
