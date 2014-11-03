@@ -1,29 +1,32 @@
 # Open Source Game Clones
 
-This is a source of [http://osgameclones.com][1]. Feel free to submit pull
-requests to add new games and improve information about those already in the
-database.
+This is a source of [http://osgameclones.com](http://osgameclones.com). Feel
+free to submit pull requests to add new games and improve information about
+those already in the database.
 
 ## How
 
 Check `games.yaml` out. All information is inside, and you should more or less
-understand what's going on by reading it.
+understand what's going on by reading it. Sorting is alphabetical, with an
+exception of ScummVM, just because it's so many games at once.
 
 Use this template:
 
-    - name: Some Game
-      clones:
-        - name: Some Free Game
-          url: somefreegame.com
-          repo: https://github.com/foobar/SomeFreeGame
-          info: active development, playable, C++
-          added: 2014-04-04
-          media:
-            - url: http://somefreegame.com/img1.jpg
-              image: http://somefreegame.com/img1_thumbnail.jpg
-            - url: http://somefreegame.com/img2.jpg
-              image: http://somefreegame.com/img2_thumbnail.jpg
-            - raw: <iframe width="320" height="240" src="//www.youtube.com/embed/abcdefg1234?rel=0" frameborder="0" allowfullscreen></iframe>
+```
+- name: Some Game
+  clones:
+    - name: Some Free Game
+      url: somefreegame.com
+      repo: https://github.com/foobar/SomeFreeGame
+      info: active development, playable, C++
+      added: 2014-04-04
+      media:
+        - url: http://somefreegame.com/img1.jpg
+          image: http://somefreegame.com/img1_thumbnail.jpg
+        - url: http://somefreegame.com/img2.jpg
+          image: http://somefreegame.com/img2_thumbnail.jpg
+        - raw: <iframe width="320" height="240" src="//www.youtube.com/embed/abcdefg1234?rel=0" frameborder="0" allowfullscreen></iframe>
+```
 
 - `name`/`names`: Name of the original game
   - If the game goes under multiple names, or if the clone is inspired by multiple related games, use `names`
@@ -38,5 +41,3 @@ Use this template:
     - `image`: URL of an image to display, preferrably a thumbnail
     - `url`: (optional) link to a bigger image, when the user clicks the thumbnail
     - `raw`: to embed raw HTML, e.g. to embed a video, use this tag followed by raw HTML
-
-[1]:http://osgameclones.com
