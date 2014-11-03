@@ -10,6 +10,10 @@ Check `games.yaml` out. All information is inside, and you should more or less
 understand what's going on by reading it. Sorting is alphabetical, with an
 exception of ScummVM, just because it's so many games at once.
 
+Simplest way to contribute:
+[edit games.yaml](https://github.com/piranha/osgameclones/edit/master/games.yaml),
+and then your changes will be submitted as a pull request.
+
 Use this template:
 
 ```
