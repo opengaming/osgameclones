@@ -1299,6 +1299,19 @@
         - image: http://night-hawk.sourceforge.net/nh_intro_1.png
 
 
+- name: Pokémon
+  clones:
+    - name: Tuxemon
+      url: http://www.tuxemon.org/
+      repo: https://git.tuxemon.org:3000/tuxemon/tuxemon
+      info: active development, alpha, playable, Python/Pygame
+      added: 2015-01-21
+      media:
+        - image: http://www.tuxemon.org/images/featurette-01.png
+        - image: http://www.tuxemon.org/images/screenshot-01.png
+        - image: http://www.tuxemon.org/images/featurette-02.png
+
+
 - name: [Pushover, Pushover (video game)]
   clones:
     - name: Pushover
