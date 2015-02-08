@@ -42,7 +42,7 @@
     <input id="filter" type="text" placeholder="Type to filter by name or information">
   </div>
 
-{% macro render_name(name, idx) %}
+{% macro render_name(name, idx, mode) %}
   {%- if name|length == 2 -%}
     {% set name, wiki = name %}
   {%- else -%}
@@ -63,7 +63,7 @@
 
 {% macro render(names, items, mode) %}
   {% for name in names %}
-    {{ render_name(name, loop.index0) }}
+    {{ render_name(name, loop.index0, mode) }}
   {% endfor %}
 
   {% for game in items %}
