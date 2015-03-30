@@ -100,7 +100,7 @@
       info: development halted, C++, GPL
 
 
-- name: Asteroids
+- name: [Asteroids, Asteroids (video game)]
   clones:
     - name: Maelstrom
       url: http://www.libsdl.org/projects/Maelstrom/
@@ -138,7 +138,7 @@
         - image: http://sourceforge.net/dbimage.php?id=105344
 
 
-- name: [Battle City, Battle City (open source game)]
+- name: [Battle City, Battle City (video game)]
   clones:
     - name: Battle City
       url: http://battlecity.org/
@@ -235,7 +235,7 @@
       added: 2013-05-27
 
 
-- name: Cannon Fodder
+- name: [Cannon Fodder, Cannon Fodder (series)]
   clones:
     - name: OpenFodder
       url: https://github.com/segrax/openfodder
@@ -309,7 +309,7 @@
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/zydiZSXpn0w" frameborder="0" allowfullscreen></iframe>
 
 
-- name: Colonization
+- name: [Colonization, Sid Meier's Colonization]
   clones:
     - name: FreeCol
       url: http://www.freecol.org/
@@ -352,7 +352,7 @@
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/d2k-ingame.png
 
 
-- name: Creatures
+- name: [Creatures, Creatures (video game)]
   clones:
     - name: Open Creatures
       url: https://github.com/ccdevnet/openc2e
@@ -426,7 +426,7 @@
       info: halted development, playable, C
       added: 2014-01-12
 
-  name: Diablo
+  name: [Diablo, Diablo (video game)]
   clones:
     - name: freeablo
       url: http://freeablo.org/
@@ -437,7 +437,7 @@
 - names:
     - Doom
     - Doom II
-    - Heretic
+    - [Heretic, Heretic (video game)]
     - Hexen
   clones:
     - name: Doomsday
@@ -632,7 +632,7 @@
       repo: https://github.com/alexeevdv/falltergeist
       info: active development, C++, not playable, needs game data
 
-- name: [Flashback, Flashback (video game)]
+- name: [Flashback, Flashback (1992 video game)]
   clones:
     - name: REminiscence
       url: http://cyxdown.free.fr/reminiscence/
@@ -644,7 +644,7 @@
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-4.png
 
 
-- name: Forsaken
+- name: [Forsaken, Forsaken (video game)]
   clones:
     - name: ProjectX
       url: http://forsakenx.github.io/
@@ -719,7 +719,7 @@
       info: active development, C++
       added: 2013-05-27
 
-- name: Grand Theft Auto
+- name: [Grand Theft Auto, Grand Theft Auto 2]
   clones:
     - name: OpenGTA
       url: http://ogta.fifengine.de/
@@ -924,7 +924,7 @@
           url: http://www.kamremake.com/wp-content/uploads/2011/10/Multiplayer1.jpg
 
 
-- name: The Lord of the Rings Volume 1
+- name: [The Lord of the Rings Volume 1, J.R.R. Tolkien's The Lord of the Rings, Vol. I (1990 video game)]
   clones:
     - name: Lord of the Rings game engine
       url: http://www.wonderland.cz/lotr/
@@ -1003,7 +1003,7 @@
 
 
 
-- name: Mad TV
+- name: [Mad TV, Mad TV (video game)]
   clones:
     - name: TVTower
       url: http://www.tvgigant.de/en/index
@@ -1210,7 +1210,7 @@
 
 
 - names:
-    - Neverwinter Night
+    - Neverwinter Nights
     - Neverwinter Nights 2
     - "Star Wars: Knights of the Old Republic"
     - "Star Wars: Knights of the Old Republic II – The Sith Lords"
@@ -1298,7 +1298,7 @@
         - image: http://night-hawk.sourceforge.net/nh_intro_1.png
 
 
-- name: Pokémon
+- name: [Pokémon, Pokémon (video game series)]
   clones:
     - name: Tuxemon
       url: http://www.tuxemon.org/
@@ -1377,7 +1377,7 @@
       added: 2014-03-21
 
 
-- name: Scorched Earth
+- name: [Scorched Earth, Scorched Earth (video game)]
   clones:
     - name: Atomic Tanks
       url: http://atanks.sourceforge.net/
@@ -1499,7 +1499,7 @@
           url: http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
 
 
-- name: Sopwith
+- name: [Sopwith, Sopwith (video game)]
   clones:
     - url: http://sdl-sopwith.sourceforge.net/
       name: SDL Sopwith
@@ -1620,7 +1620,7 @@
         - image: http://a.fsdn.com/con/app/proj/creep/screenshots/250982.jpg
         - image: http://a.fsdn.com/con/app/proj/creep/screenshots/250990.jpg
 
-- name: The Last Ninja Remix
+- name: The Last Ninja
   clones:
     - name: LastNinja
       url: http://lastninja.sourceforge.net/
@@ -1663,13 +1663,13 @@
           url: http://www.siedler25.org/gallery/2011/2011.01.19_10.jpg
 
 
-- name: Tempest
+- name: [Tempest, Tempest (video game)]
   clones:
-    - name: Arashi-JS
+    - url: https://github.com/stephank/arashi-js
+      name: Arashi-JS
       repo: https://github.com/stephank/arashi-js
       info: development halted, javascript
       added: 2014-01-12
-
 
 - name: Tetris Attack
   clones:
@@ -1909,7 +1909,7 @@
           url: http://pentagram.sourceforge.net/images/screenshots/japanese.png
 
 
-- name: Warcraft
+- name: Warcraft II
   clones:
     - url: http://wargus.stratagus.com/index.shtml
       name: Wargus
@@ -2135,7 +2135,7 @@
           url: http://www.c-evo.org/shot4.jpg
 
 
-- name: Diablo
+- name: [Diablo, Diablo (series)]
   reimplementations:
     - url: http://www.sumwars.org/
       name: Summoning Wars
@@ -2265,7 +2265,7 @@
         - image: http://pioneerspacesim.net/assets/ss1.png.pagespeed.ce.U2_loVycEA.png
 
 
-- name: Lemmings
+- name: [Lemmings, Lemmings (video game)]
   reimplementations:
     - name: Pingus
       url: http://pingus.seul.org/welcome.html
