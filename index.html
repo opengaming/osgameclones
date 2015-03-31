@@ -43,10 +43,10 @@
   </div>
 
 {% macro render_name(name, idx, mode) %}
-  {%- if name|length == 2 -%}
-    {% set name, wiki = name %}
-  {%- else -%}
+  {%- if name is string -%}
     {% set wiki = name %}
+  {%- else -%}
+    {% set name, wiki = name %}
   {%- endif -%}
 
   {%- if wiki[:6] in ["http:/", "https:"] -%}
