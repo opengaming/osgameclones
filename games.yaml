@@ -2247,7 +2247,7 @@
     - name: GLFrontier
       url: http://tom.noflag.org.uk/glfrontier.html
       repo: http://tom.noflag.org.uk/glfrontier.html
-      added: 2013-05-27
+      added: 2015-04-01
       info: halted development, C++
       media:
         - image: http://tom.noflag.org.uk/frontier_logo.png
@@ -2318,7 +2318,6 @@
         - url: http://www.freeorion.org/images/a/ab/FreeOrion3215_Galaxy_Map.png
           image: http://www.freeorion.org/images/thumb/a/ab/FreeOrion3215_Galaxy_Map.png/256px-FreeOrion3215_Galaxy_Map.png
 
-
 - name: Microsoft Flight Simulator
   reimplementations:
     - url: http://www.flightgear.org/
@@ -2336,6 +2335,15 @@
         - image: http://www.flightgear.org/wp-content/gallery/cache/265__530x331_fgfs-screen-019.jpg
           url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
 
+- name: Microsoft Train Simulator
+  reimplementations:
+    - name: OpenRails
+      url: http://openrails.org/
+      repo: http://code.openhub.net/project?pid=&ipid=450644&fp=450644&mp&projSelected=true&filterChecked
+      added: 2015-04-01
+      info: active development, C#
+      media:
+        - image: http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
 
 - name: [Similar to Natural Selection, Natural Selection (video game)]
   reimplementations:
