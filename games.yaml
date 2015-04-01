@@ -2219,7 +2219,6 @@
       info: active development, C++, Lua, playable
       added: 2014-12-21
 
-
 - name: [Elite, Elite_(video_game)]
   reimplementations:
     - url: http://www.oolite.org/
@@ -2236,6 +2235,22 @@
         - url: http://www.oolite.org/images/gallery/full/advanced-nav-array
           image: http://www.oolite.org/images/gallery/advanced-nav-array
 
+- name: [Elite II, "Frontier: Elite II"]
+  reimplementations:
+    - name: Pioneer
+      url: http://pioneerspacesim.net/
+      repo: https://github.com/pioneerspacesim/pioneer
+      added: 2013-05-27
+      info: active development, C++
+      media:
+        - image: http://pioneerspacesim.net/assets/ss1.png.pagespeed.ce.U2_loVycEA.png
+    - name: GLFrontier
+      url: http://tom.noflag.org.uk/glfrontier.html
+      repo: http://tom.noflag.org.uk/glfrontier.html
+      added: 2013-05-27
+      info: halted development, C++
+      media:
+        - image: http://tom.noflag.org.uk/frontier_logo.png
 
 - name: [Escape Velocity, Escape Velocity (video game)]
   reimplementations:
@@ -2252,18 +2267,6 @@
           url: http://blog.naev.org/wp-content/gallery/media/slotsizes.png
         - image: http://blog.naev.org/wp-content/gallery/media/thumbs/thumbs_siriusskirmish.png
           url: http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png
-
-
-- name: "Frontier: Elite II"
-  reimplementations:
-    - name: Pioneer
-      url: http://pioneerspacesim.net/
-      repo: https://github.com/pioneerspacesim/pioneer
-      added: 2013-05-27
-      info: active development, C++
-      media:
-        - image: http://pioneerspacesim.net/assets/ss1.png.pagespeed.ce.U2_loVycEA.png
-
 
 - name: [Lemmings, Lemmings (video game)]
   reimplementations:
