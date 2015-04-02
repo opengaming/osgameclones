@@ -603,7 +603,6 @@
       info: active development, playable, C++
       added: 2014-06-16
 
-
 - name: "The Elder Scrolls III: Morrowind"
   clones:
     - name: OpenMW
@@ -2034,6 +2033,16 @@
           url: http://zod.sourceforge.net/screenshots/gameplay_13.png
         - raw: <embed src="http://www.youtube.com/v/8VehUvuWHqw&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed>
 
+- name: A-Train
+  reimplementations:
+    - name: FreeRails
+      url: http://freetrain.sourceforge.net/
+      repo: http://sourceforge.net/p/freetrain/code/
+      info: stalled development, C#
+      added: 2015-04-02
+      media:
+        - image: http://freetrain.sourceforge.net/forum/download/file.php?id=1&sid=37becf1a18f1ec69f1ee191e92e88092
+          url: http://freetrain.sourceforge.net/forum/viewtopic.php?f=2&t=13
 
 - name: Age of Empires
   reimplementations:
@@ -2219,7 +2228,6 @@
       info: active development, C++, Lua, playable
       added: 2014-12-21
 
-
 - name: [Elite, Elite_(video_game)]
   reimplementations:
     - url: http://www.oolite.org/
@@ -2236,6 +2244,22 @@
         - url: http://www.oolite.org/images/gallery/full/advanced-nav-array
           image: http://www.oolite.org/images/gallery/advanced-nav-array
 
+- name: [Elite II, "Frontier: Elite II"]
+  reimplementations:
+    - name: Pioneer
+      url: http://pioneerspacesim.net/
+      repo: https://github.com/pioneerspacesim/pioneer
+      added: 2013-05-27
+      info: active development, C++
+      media:
+        - image: http://pioneerspacesim.net/assets/ss1.png.pagespeed.ce.U2_loVycEA.png
+    - name: GLFrontier
+      url: http://tom.noflag.org.uk/glfrontier.html
+      repo: http://tom.noflag.org.uk/glfrontier.html
+      added: 2015-04-01
+      info: halted development, C++
+      media:
+        - image: http://tom.noflag.org.uk/frontier_logo.png
 
 - name: [Escape Velocity, Escape Velocity (video game)]
   reimplementations:
@@ -2252,18 +2276,6 @@
           url: http://blog.naev.org/wp-content/gallery/media/slotsizes.png
         - image: http://blog.naev.org/wp-content/gallery/media/thumbs/thumbs_siriusskirmish.png
           url: http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png
-
-
-- name: "Frontier: Elite II"
-  reimplementations:
-    - name: Pioneer
-      url: http://pioneerspacesim.net/
-      repo: https://github.com/pioneerspacesim/pioneer
-      added: 2013-05-27
-      info: active development, C++
-      media:
-        - image: http://pioneerspacesim.net/assets/ss1.png.pagespeed.ce.U2_loVycEA.png
-
 
 - name: [Lemmings, Lemmings (video game)]
   reimplementations:
@@ -2315,7 +2327,6 @@
         - url: http://www.freeorion.org/images/a/ab/FreeOrion3215_Galaxy_Map.png
           image: http://www.freeorion.org/images/thumb/a/ab/FreeOrion3215_Galaxy_Map.png/256px-FreeOrion3215_Galaxy_Map.png
 
-
 - name: Microsoft Flight Simulator
   reimplementations:
     - url: http://www.flightgear.org/
@@ -2333,6 +2344,15 @@
         - image: http://www.flightgear.org/wp-content/gallery/cache/265__530x331_fgfs-screen-019.jpg
           url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
 
+- name: Microsoft Train Simulator
+  reimplementations:
+    - name: OpenRails
+      url: http://openrails.org/
+      repo: http://code.openhub.net/project?pid=&ipid=450644&fp=450644&mp&projSelected=true&filterChecked
+      added: 2015-04-01
+      info: active development, C#
+      media:
+        - image: http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
 
 - name: [Similar to Natural Selection, Natural Selection (video game)]
   reimplementations:
