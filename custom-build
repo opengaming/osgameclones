@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-sudo apt-get install -qq python-pip python-yaml python-jinja2 python-smartypants
-pip install cyrax
-cyrax $1 -d $1/www
