@@ -603,7 +603,6 @@
       info: active development, playable, C++
       added: 2014-06-16
 
-
 - name: "The Elder Scrolls III: Morrowind"
   clones:
     - name: OpenMW
@@ -2034,6 +2033,16 @@
           url: http://zod.sourceforge.net/screenshots/gameplay_13.png
         - raw: <embed src="http://www.youtube.com/v/8VehUvuWHqw&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed>
 
+- name: A-Train
+  reimplementations:
+    - name: FreeRails
+      url: http://freetrain.sourceforge.net/
+      repo: https://github.com/Mandarancio/OpenGOO
+      info: stalled development, C#
+      added: 2015-04-02
+      media:
+        - image: http://freetrain.sourceforge.net/forum/download/file.php?id=1&sid=37becf1a18f1ec69f1ee191e92e88092
+          url: http://freetrain.sourceforge.net/forum/viewtopic.php?f=2&t=13
 
 - name: Age of Empires
   reimplementations:
