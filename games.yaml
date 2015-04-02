@@ -50,7 +50,7 @@
       info: development halted, C, GPL
 
 
-- name: "Another World (video game)"
+- name: [Another World, "Another World (video game)"
   clones:
     - name: New RAW
       url: http://sourceforge.net/projects/newraw/
@@ -58,6 +58,13 @@
       added: 2014-09-05
       info: development halted, C++, GPL
 
+- name: [Another World 2: Heart of the Alien, "Heart of the Alien"
+  clones:
+    - name: Heart of the Alien
+      url: http://hota.sourceforge.net/
+      repo: http://hota.cvs.sourceforge.net/viewvc/hota/
+      added: 2015-04-02
+      info: development halted, C
 
 - name: [Ares, Ares (video game)]
   clones:
