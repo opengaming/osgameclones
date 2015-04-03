@@ -50,7 +50,7 @@
       info: development halted, C, GPL
 
 
-- name: "Another World (video game)"
+- name: [Another World, "Another World (video game)"]
   clones:
     - name: New RAW
       url: http://sourceforge.net/projects/newraw/
@@ -58,6 +58,13 @@
       added: 2014-09-05
       info: development halted, C++, GPL
 
+- name: [Another World 2: Heart of the Alien, "Heart of the Alien"]
+  clones:
+    - name: Heart of the Alien
+      url: http://hota.sourceforge.net/
+      repo: http://hota.cvs.sourceforge.net/viewvc/hota/
+      added: 2015-04-02
+      info: development halted, C
 
 - name: [Ares, Ares (video game)]
   clones:
@@ -225,7 +232,13 @@
       url: http://www.artsoft.org/rocksndiamonds/
       info: sporadic development, playable, C
       added: 2014-01-12
-
+    - name: GDash
+      url: https://bitbucket.org/czirkoszoltan/gdash
+      info: active development, C++
+      repo: https://bitbucket.org/czirkoszoltan/gdash.git
+      added: 2015-04-03
+      media:
+        - image: https://bitbucket-assetroot.s3.amazonaws.com/repository/ejzABR/4034423466-gdashgame.png?Signature=o2QfvjwJ88fFCWZTTaamGfiml70%3D&Expires=1428046717&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82
 
 - name: Caesar 3
   clones:
@@ -503,7 +516,13 @@
       media:
         - image: http://doomlegacy.sourceforge.net/images/legacy/multibf1.gif
         - image: http://doomlegacy.sourceforge.net/images/legacy/3dfx.gif
-
+    - name: GZDoom
+      url: http://www.osnanet.de/c.oelckers/gzdoom/
+      repo: https://github.com/coelckers/gzdoom
+      info: active development, C++
+      added: 2015-04-03
+      media:
+        - image: http://forum.drdteam.org/download/file.php?id=2219
 
 - name: Drugwars
   clones:
@@ -518,6 +537,13 @@
       - image: http://dopewars.sourceforge.net/screenshots/winxp-multi-small.png
         url: http://dopewars.sourceforge.net/screenshots/winxp-multi.png
 
+- name: [Duke Nukem, Duke Nukem (video game)]
+  clones:
+    - name: Freenukum Jump'n Run
+      url: https://launchpad.net/freenukum/
+      repo: https://bazaar.launchpad.net/~silwol/freenukum/trunk/files
+      info: stalled development, C, GPL3
+      added: 2015-04-03
 
 - name: Duke Nukem 3D
   clones:
@@ -642,6 +668,13 @@
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-3.png
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-4.png
 
+- name: [Floor 13, Floor 13 (video game)]
+  clones:
+    - name: Floor 13
+      url: http://agriculture-and-fisheries.tumblr.com/
+      repo: https://bitbucket.org/eastmad/floor-13-releases/src
+      info: active development, Ruby
+      added: 2015-04-03
 
 - name: [Forsaken, Forsaken (video game)]
   clones:
@@ -734,6 +767,13 @@
       info: development halted, C#
       added: 2014-02-05
 
+- name: Gravity Force
+  clones:
+    - name: Galaxy Forces V2
+      url: http://www.galaxy-forces.com/
+      repo: svn://svn.code.sf.net/p/galaxyv2/code/
+      info: active development, C++
+      added: 2015-04-03
 
 - name: Guitar Hero
   clones:
@@ -988,6 +1028,17 @@
       info: sporadic development, HTML5/JS, playable, GPL2
       added: 2014-08-20
 
+- name: Marble Madness
+  clones:
+    - name: Marble Madness 3d
+      repo: https://github.com/davido262/marble-madness-3d
+      info: stalled development, C++
+      added: 2015-04-03
+    - name: Trackballs
+      url: http://sourceforge.net/projects/trackballs/
+      repo: http://trackballs.cvs.sourceforge.net/viewvc/trackballs/
+      info: stalled development, C++
+      added: 2015-04-03
 
 - name: Missile Command
   clones:
@@ -1052,6 +1103,25 @@
       info: C, halted development, mostly playable
       added: 2014-01-12
 
+- name: Quake
+  clones:
+    - name: TyrQuake
+      url: http://disenchant.net/tyrquake/
+      repo: https://github.com/libretro/tyrquake
+      info: active development, C, GPL2
+      added: 2015-04-03
+
+- name: Quake 2
+  clones:
+    - name: Jake2
+      url: http://bytonic.de/html/jake2.html
+      repo: git://git.code.sf.net/p/jake2/git
+      added: 2015-04-03
+      info: active development, Java, GPL2
+      media:
+        image: https://a.fsdn.com/con/app/proj/jake2/screenshots/31155.jpg
+        uri: https://a.fsdn.com/con/app/proj/jake2/screenshots/31155.jpg
+
 - name: Quake 3
   clones:
     - name: ioquake3
@@ -1105,7 +1175,14 @@
           url: http://secretmaryo.org/index.php?page=media
         - image: http://picload.org/thumbnail/lopgiwp/smc3.png
           url: http://secretmaryo.org/index.php?page=media
-
+    - name: Mari0
+      url: http://stabyourself.net/mari0/
+      repo: http://stabyourself.net/dl.php?file=mari0-1006/mari0-source.zip
+      info: LÖVE & Lua
+      added: 2015-04-03
+      media:
+        - image: https://i.imgur.com/M8NcU.gif
+          url: https://i.imgur.com/M8NcU.gif
 
 - name: Master of Orion 2
   clones:
@@ -1137,6 +1214,16 @@
           image: http://www.maxr.org/images/screenshots/thumb/11-thumb.jpg
         - url: http://www.maxr.org/images/screenshots/10.jpg
           image: http://www.maxr.org/images/screenshots/thumb/10-thumb.jpg
+
+- name: [Mech Warrior, MechWarrior (video game series)]
+  clones:
+    - name: LinWarrior
+      repo: https://github.com/hackcraft-de/linwarrior
+      info: stalled development, C++, Apache License
+      url: http://www.hackcraft.de/games/linwarrior_3d/index.htm
+      added: 2015-04-03
+      media:
+        - url: http://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg
 
 - name: Mega Lo Mania
   clones:
@@ -1341,6 +1428,24 @@
         - image: http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png/182/137
           url: http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png
 
+- name: Railroad_Tycoon
+  clones:
+     - name: FreeRails
+       url: http://freerails.sourceforge.net/
+       info: halted development, C++ & Java
+       repo: freerails.cvs.sourceforge.net
+       added: 2015-04-03
+       media:
+         - image: http://freerails.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
+         - url: http://freerails.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
+     - name: FreeRails 2
+       url: http://freerails2.sourceforge.net/
+       info: halted development, Java
+       repo: svn://svn.code.sf.net/p/freerails2/code/
+       added: 2015-04-03
+       media:
+         - image: http://freerails2.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
+         - url: http://freerails2.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
 
 - name: Redneck Rampage
   clones:
@@ -1357,6 +1462,11 @@
       url: http://www.bigorno.net/xrick
       info: halted development, playable, C
       added: 2014-01-12
+    - name: rickyd
+      url: http://sourceforge.net/projects/rickyd/
+      repo: git://git.code.sf.net/p/rickyd/code
+      info: sporadic development, playable, C++
+      added: 2015-04-03
 
 - name: Rise of the Triad
   clones:
@@ -1366,7 +1476,6 @@
       info: sporadic development, C
       added: 2013-05-27
 
-
 - name: The Adventures of Robbo
   clones:
     - name: Robbo
@@ -1375,6 +1484,27 @@
       info: active development, JavaScript, playable
       added: 2014-03-21
 
+- name: RollerCoaster Tycoon
+  clones:
+    - name: FreeRCT
+      url: http://freerct.blogspot.com.es/
+      repo: http://freerct.googlecode.com/svn/trunk/
+      info: active development, C++
+      added: 2013-07-05
+      media:
+        - image: http://freerct.googlecode.com/svn/images/path_demo.png
+        - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/jPNVrK7zxd8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+- name: RollerCoaster Tycoon 2
+  clones:
+    - name: OpenRCT2
+      url: https://openrct2.com/
+      repo: https://github.com/IntelOrca/OpenRCT2
+      added: 2014-08-20
+      info: active development, C, GPL3
+      media:
+        - image: http://i.imgur.com/kTkK5Gw.png
+        - image: http://dev.intelorca.co.uk/2014/openrct2/cheats.png
 
 - name: [Scorched Earth, Scorched Earth (video game)]
   clones:
@@ -1388,6 +1518,13 @@
         - image: http://atanks.sourceforge.net/Screenshots/small-scrnshot23.png
           url: http://atanks.sourceforge.net/Screenshots/scrnshot23.png
 
+- name: "Space Rangers 2: Dominators"
+  clones:
+    - name: OpenSR
+      repo: https://github.com/ObKo/OpenSR
+      added: 2015-04-03
+      info: active development, C++ & Python
+
 - name: Strike Commander
   clones:
     - name: libRealSpace
@@ -1396,29 +1533,18 @@
       info: active development, C++
       added: 2014-01-05
 
-- name: RollerCoaster Tycoon
+- name: Sensible Soccer
   clones:
-    - name: FreeRCT
-      url: http://freerct.blogspot.com.es/
-      repo: http://freerct.googlecode.com/svn/trunk/
-      info: active development, C++
-      added: 2013-07-05
-      media:
-        - image: http://freerct.googlecode.com/svn/images/path_demo.png
-        - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/jPNVrK7zxd8?rel=0" frameborder="0" allowfullscreen></iframe>
-
-
-- name: RollerCoaster Tycoon 2
-  clones:
-    - name: OpenRCT2
-      url: https://openrct2.com/
-      repo: https://github.com/IntelOrca/OpenRCT2
-      added: 2014-08-20
-      info: active development, C, GPL3
-      media:
-        - image: http://i.imgur.com/kTkK5Gw.png
-        - image: http://dev.intelorca.co.uk/2014/openrct2/cheats.png
-
+    - name: FreeKick
+      url: https://codeflow.wordpress.com/tag/sensible-soccer/
+      repo: https://github.com/anttisalonen/freekick3
+      added: 2015-04-03
+      info: active development, C++, GPL
+    - name: YSoccer
+      url: http://ysoccer.sourceforge.net/
+      repo: git://git.code.sf.net/p/ysoccer/code ysoccer-code
+      added: 2015-04-03
+      info: sporadic development, BlitzMax, GPL
 
 - name: [Seven Kingdoms, Seven_Kingdoms_(computer_game)]
   clones:
@@ -1427,6 +1553,16 @@
       url: http://7kfans.com/
       repo: http://7kfans.com/git/?p=7kaa.git;a=summary
 
+- name: Shadow Warrior
+  clones:
+    - name: JonoF's Shadow Warrior Port (JFSW)
+      url: http://www.jonof.id.au/jfsw
+      repo: http://svnweb.freebsd.org/ports/head/games/jfsw/
+      info: active development, C, playable
+      added: 2015-04-03
+      media:
+        - image: http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
+          url: http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
 
 - name: [Siege, Siege (video game)]
   clones:
@@ -1439,7 +1575,6 @@
         - image: http://freesiege.sourceforge.net/screens/screen0.png
         - image: http://freesiege.sourceforge.net/screens/screen1.png
 
-
 - name: [Silencer, Silencer (video game)]
   clones:
     - name: zSILENCER
@@ -1451,7 +1586,6 @@
         - image: http://zsilencer.com/ss9.png
         - image: http://zsilencer.com/ss1.png
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/mojUQUONp4M?rel=0" frameborder="0" allowfullscreen></iframe>
-
 
 - name: Silent Hunter 4
   clones:
@@ -1480,7 +1614,6 @@
       added: 2014-01-05
       media:
         - image: https://github.com/fabianschuiki/OpenSkyscaper/wiki/current.png
-
 
 - name: SingStar
   clones:
@@ -1828,12 +1961,13 @@
 
 - name: [Tyrian, Tyrian (video game)]
   clones:
-    - url: http://code.google.com/p/opentyrian/
+    - url: https://bitbucket.org/opentyrian/opentyrian/wiki/Home
       name: OpenTyrian
       info: moderately active development, C
-      repo: http://code.google.com/p/opentyrian/source/list
+      repo: https://bitbucket.org/opentyrian/opentyrian/srchttp://code.google.com/p/opentyrian/source/list
+      added: 2015-04-03
       media:
-        - image: http://wiki.opentyrian.googlecode.com/hg/opentyrian_torm.png
+        - image: https://bytebucket.org/opentyrian/opentyrian/wiki/opentyrian_torm.png
 
 
 - name: Ultima Online
@@ -1950,6 +2084,18 @@
         - image: http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion-preview.png
           url: http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
 
+- names:
+    - "Wolfenstein 3D"
+    - [Spear of Destiny (video game), "Spear of Destiny (video game)"]
+  clones:
+    - url: http://maniacsvault.net/ecwolf/
+      name: ECWolf
+      info: active development, C++
+      repo: https://bitbucket.org/Blzut3/ecwolf
+      added: 2015-04-03
+      media:
+        - image: http://maniacsvault.net/ecwolf/ecwolf_fullres.png
+          url: http://maniacsvault.net/ecwolf/ecwolf_fullres.png
 
 - name: "Wolfenstein: Enemy Territory"
   clones:
@@ -2073,7 +2219,6 @@
         - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/thumb_2011.2-6.png
           url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
 
-
 - name: [Battle Isle series, Battle Isle (series)]
   reimplementations:
     - name: Crimson Fields
@@ -2095,7 +2240,6 @@
         - image: http://www.asc-hq.org/screenshots/screen05.jpg
         - image: http://www.asc-hq.org/screenshots/screen07.jpg
 
-
 - name: [Battle Zone, Battlezone_(1980_video_game)]
   reimplementations:
     - name: BZFlag
@@ -2111,7 +2255,6 @@
           url: http://bzflag.org/resources/screenshots/h2o_02.jpg
         - image: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01_t.jpg
           url: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01.jpg
-
 
 - name: Civilization II
   reimplementations:
@@ -2277,6 +2420,12 @@
         - image: http://blog.naev.org/wp-content/gallery/media/thumbs/thumbs_siriusskirmish.png
           url: http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png
 
+- name: [Falcon, Falcon (video game series)]
+  reimplementations:
+    - name: FreeFalcon
+      repo: https://github.com/FreeFalcon/freefalcon-central
+      info: active development, C++, win32, BSD2
+
 - name: [Lemmings, Lemmings (video game)]
   reimplementations:
     - name: Pingus
@@ -2354,6 +2503,16 @@
       media:
         - image: http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
 
+- name: Mortal Kombat
+  reimplementations:
+    - name: OpenMortal
+      url: http://apocalypse.rulez.org/~upi/Mortal/
+      repo: http://openmortal.cvs.sourceforge.net/openmortal/openmortal/
+      info: sporadic development, C++
+      added: 2015-04-03
+      media:
+        - image: http://openmortal.sourceforge.net/images/screenshot3.jpg
+
 - name: [Similar to Natural Selection, Natural Selection (video game)]
   reimplementations:
     - url: http://www.unvanquished.net/
@@ -2395,7 +2554,6 @@
       media:
         - image: https://easy-rpg.org/images/easyrpg-player.png
 
-
 - name: Simcity
   reimplementations:
     - url: http://lincity-ng.berlios.de/
@@ -2415,7 +2573,11 @@
       name: Micropolis
       info: active development, C++/Python
       added: 2013-05-27
-
+    - url: http://www.opencity.info/
+      repo: svn://svn.code.sf.net/p/opencity/code/trunk
+      name: OpenCity
+      info: active development, C++
+      added: 2015-04-03
 
 - names:
     - [The Settlers, The Settlers (video game)]
