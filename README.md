@@ -16,7 +16,7 @@ and then your changes will be submitted as a pull request.
 
 Use this template:
 
-```
+```yaml
 - name: Some Game
   clones:
     - name: Some Free Game
