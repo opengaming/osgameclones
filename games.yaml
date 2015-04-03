@@ -1495,6 +1495,16 @@
       url: http://7kfans.com/
       repo: http://7kfans.com/git/?p=7kaa.git;a=summary
 
+- name: Shadow Warrior
+  clones:
+    - name: JonoF's Shadow Warrior Port (JFSW)
+      url: http://www.jonof.id.au/jfsw
+      repo: http://svnweb.freebsd.org/ports/head/games/jfsw/
+      info: active development, C, playable
+      added: 2015-04-03
+      media:
+        - image: http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
+          url: http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
 
 - name: [Siege, Siege (video game)]
   clones:
@@ -2153,7 +2163,6 @@
         - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/thumb_2011.2-6.png
           url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
 
-
 - name: [Battle Isle series, Battle Isle (series)]
   reimplementations:
     - name: Crimson Fields
@@ -2174,7 +2183,6 @@
       media:
         - image: http://www.asc-hq.org/screenshots/screen05.jpg
         - image: http://www.asc-hq.org/screenshots/screen07.jpg
-
 
 - name: [Battle Zone, Battlezone_(1980_video_game)]
   reimplementations:
@@ -2433,6 +2441,16 @@
       media:
         - image: http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
 
+- name: Mortal Kombat
+  reimplementations:
+    - name: OpenMortal
+      url: http://apocalypse.rulez.org/~upi/Mortal/
+      repo: http://openmortal.cvs.sourceforge.net/openmortal/openmortal/
+      info: sporadic development, C++
+      added: 2015-04-03
+      media:
+        - image: http://openmortal.sourceforge.net/images/screenshot3.jpg
+
 - name: [Similar to Natural Selection, Natural Selection (video game)]
   reimplementations:
     - url: http://www.unvanquished.net/
@@ -2473,7 +2491,6 @@
       added: 2013-05-27
       media:
         - image: https://easy-rpg.org/images/easyrpg-player.png
-
 
 - name: Simcity
   reimplementations:
