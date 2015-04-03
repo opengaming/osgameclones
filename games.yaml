@@ -1426,6 +1426,18 @@
         - image: http://i.imgur.com/kTkK5Gw.png
         - image: http://dev.intelorca.co.uk/2014/openrct2/cheats.png
 
+- name: Sensible Soccer
+  clones:
+    - name: FreeKick
+      url: https://codeflow.wordpress.com/tag/sensible-soccer/
+      repo: https://github.com/anttisalonen/freekick3
+      added: 2015-04-03
+      info: active development, C++, GPL
+    - name: YSoccer
+      url: http://ysoccer.sourceforge.net/
+      repo: git://git.code.sf.net/p/ysoccer/code ysoccer-code
+      added: 2015-04-03
+      info: sporadic development, BlitzMax, GPL
 
 - name: [Seven Kingdoms, Seven_Kingdoms_(computer_game)]
   clones:
@@ -2118,7 +2130,6 @@
           url: http://bzflag.org/resources/screenshots/h2o_02.jpg
         - image: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01_t.jpg
           url: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01.jpg
-
 
 - name: Civilization II
   reimplementations:
