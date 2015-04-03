@@ -1083,6 +1083,14 @@
       info: C, halted development, mostly playable
       added: 2014-01-12
 
+- name: Quake
+  clones:
+    - name: TyrQuake
+      url: http://disenchant.net/tyrquake/
+      repo: https://github.com/libretro/tyrquake
+      info: active development, C, GPL2
+      added: 2015-04-03
+
 - name: Quake 3
   clones:
     - name: ioquake3
@@ -1392,6 +1400,7 @@
       url: http://sourceforge.net/projects/rickyd/
       repo: git://git.code.sf.net/p/rickyd/code
       info: sporadic development, playable, C++
+      added: 2015-04-03
 
 - name: Rise of the Triad
   clones:
