@@ -2402,6 +2402,12 @@
         - image: http://blog.naev.org/wp-content/gallery/media/thumbs/thumbs_siriusskirmish.png
           url: http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png
 
+- name: [Falcon, Falcon (video game series)]
+  reimplementations:
+    - name: FreeFalcon
+      repo: https://github.com/FreeFalcon/freefalcon-central
+      info: active development, C++, win32, BSD2
+
 - name: [Lemmings, Lemmings (video game)]
   reimplementations:
     - name: Pingus
