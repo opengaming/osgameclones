@@ -1428,29 +1428,6 @@
         - image: http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png/182/137
           url: http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png
 
-- name: Railroad_Tycoon
-  clones:
-     - name: FreeRails
-       url: http://freerails.sourceforge.net/
-       info: halted development, C++ & Java
-       repo: freerails.cvs.sourceforge.net
-       added: 2015-04-03
-       media:
-         - image: http://freerails.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
-         - url: http://freerails.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
-     - name: FreeRails 2
-       url: http://freerails2.sourceforge.net/
-       info: halted development, Java
-       repo: svn://svn.code.sf.net/p/freerails2/code/
-       added: 2015-04-03
-       media:
-         - image: http://freerails2.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
-         - url: http://freerails2.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
-     - name: Rail Mogul
-       url: http://sourceforge.net/projects/railmogul/
-       info: halted development, Java
-       repo: svn://svn.code.sf.net/p/railmogul/code/
-       added: 2015-04-03
 
 - name: Redneck Rampage
   clones:
