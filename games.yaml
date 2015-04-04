@@ -178,6 +178,13 @@
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/62665.jpg
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/71372.jpg
 
+- name: [Blade Runner, "Blade Runner (1997 video game)"]
+  clones:
+    - name: replicant
+      repo: https://github.com/madmoose/replicant
+      added: 2015-04-04
+      info: stalled development, WIP, C++
+
 - name: "Blake Stone: Planet Strike"
   clones:
     - name: bstone
