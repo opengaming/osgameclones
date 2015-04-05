@@ -2107,6 +2107,7 @@
           url: http://pentagram.sourceforge.net/images/screenshots/japanese.png
 
 - name: Uncharted Waters
+  clones:
     - name: Uncharted waters 2 remake
       repo: https://github.com/Jackyjjc/Uncharted-waters-2-remake
       url: http://jackyjjc.com/
@@ -2114,10 +2115,19 @@
       info: active development, Java, GPL2
 
 - name: [Uninvited, "Uninvited (video game)"]
+  clones:
     - name: uninvited
       added: 2015-04-04
       repo: https://github.com/DavidGriffith/uninvited
       info: sporadic development, Inform, Artistic License 2.0
+
+- name: [Utopia, "Utopia_(video_game)"]
+  clones:
+    - name: Utopia (video game)
+      added: 2015-04-05
+      url: http://apps.gamejs.org/newutopia/
+      repo: https://github.com/gamejs/newutopia
+      info: stalled development, JavaScript
 
 - name: Warcraft II
   clones:
