@@ -1546,6 +1546,7 @@
 
 - name: Robotfindskitten
   clones:
+    - name: rfk-inform
       url: https://661.org/if/rfk/
       repo: https://github.com/DavidGriffith/rfk-inform
       info: stalled development, Inform6
@@ -1591,6 +1592,21 @@
           url: http://atanks.sourceforge.net/Screenshots/scrnshot28.png
         - image: http://atanks.sourceforge.net/Screenshots/small-scrnshot23.png
           url: http://atanks.sourceforge.net/Screenshots/scrnshot23.png
+
+- name: Skool Daze
+  clones:
+    - name: pyskool
+      url: http://pyskool.ca/
+      repo: https://github.com/skoolkid/pyskool
+      added: 2015-04-05
+      info: active development, Python, GPL3
+      media:
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-0.4.png
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool-0.4.png
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/skool_daze_take_too-0.4.png
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/ezad_looks-0.4.png
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool_daze-0.4.png
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-wide-0.4.png
 
 - name: "Space Rangers 2: Dominators"
   clones:
