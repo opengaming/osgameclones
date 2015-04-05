@@ -648,7 +648,6 @@
         Keeper run on recent OSes
       repo: https://code.google.com/p/keeperfx/source/list
 
-
 - name: Eye of the Beholder II
   clones:
     - name: Dungeon Eye
@@ -948,6 +947,16 @@
         - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/screen04.png
           url: http://www.thereisnospork.com/projects/homeworld/images/screen04.png
 
+- name: [Imperialism, "Imperialism (video game)"]
+  clones:
+    - name: imperialism-remake
+      repo: https://github.com/Trilarion/Imperialism-Remake
+      url: http://remake.twelvepm.de/
+      added: 2015-04-05
+      info: active development, Python, GPL3
+      media:
+        - image: http://remake.twelvepm.de/wp/wp-content/uploads/2014/04/EditorScreen.0.1.0.jpg
+          url: http://remake.twelvepm.de/wp/wp-content/uploads/2014/04/EditorScreen.0.1.0-150x150.jpg
 
 - name: Imperium Galactica
   clones:
