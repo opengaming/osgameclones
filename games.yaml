@@ -1992,7 +1992,8 @@
 
 - name: The Settlers III
   clones:
-    - url: http://www.settlers-android-clone.com/
+    - name: JSettlers
+      url: http://www.settlers-android-clone.com/
       repo: https://github.com/jsettlers/settlers-remake
       added: 2015-04-06
       info: active development, needs original files, Java
@@ -3045,6 +3046,20 @@
         - image: http://www.caveproductions.org/images/screenshots/mainmenu.jpg
         - image: http://www.caveproductions.org/images/screenshots/angry-dino.jpg
         - image: http://www.caveproductions.org/images/screenshots/multi-packages.jpg
+
+- name: Warcraft II
+  reimplementations:
+    - name: Dark Oberon
+      url: http://dark-oberon.sourceforge.net/
+      repo: http://dark-oberon.cvs.sourceforge.net/viewvc/dark-oberon/
+      added: 2015-04-06
+      media:
+        - image: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_1_1024x768.jpg
+          url: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_1_256x192.jpg
+        - image: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_4_1024x768.jpg
+          url: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_4_256x192.jpg
+        - image: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_1024x768.jpg
+          url: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_256x192.jpg
 
 - name: [Wipeout, "Wipeout (video game)"]
   reimplementations:
