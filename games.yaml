@@ -263,13 +263,21 @@
       media:
         - image: http://www.raceintospace.org/images/screenshots/splash_screen.png
 
+- name: [Cadaver, Cadaver (video game)]
+  clones:
+    - name: Cadaver
+      info: halted development, incomplete, PC game files required, C++
+      added: 2015-04-06
+      repo: http://jotd.pagesperso-orange.fr/cadaver/bin/Cadaver-001.zip
+      media:
+        - image: http://jotd.pagesperso-orange.fr/cadaver/cadaver_remake_pic.png
+
 - name: Caesar 3
   clones:
     - name: CaesarIA
       url: https://bitbucket.org/dalerank/caesaria
       info: active development, C++, somewhat playable
       added: 2013-05-27
-
 
 - name: [Cannon Fodder, Cannon Fodder (series)]
   clones:
@@ -580,6 +588,14 @@
         url: http://dopewars.sourceforge.net/screenshots/linux-gtk-multi.png
       - image: http://dopewars.sourceforge.net/screenshots/winxp-multi-small.png
         url: http://dopewars.sourceforge.net/screenshots/winxp-multi.png
+
+- name: Deuteros
+  clones:
+    - name: Deuteros X
+      repo: svn://svn.code.sf.net/p/deuterosx/code/
+      url: http://sourceforge.net/projects/deuterosx/
+      added: 2015-04-06
+      info: halted development, C#
 
 - name: Duck Hunt
   clones:
@@ -1040,7 +1056,6 @@
       url: https://github.com/JACoders/OpenJK
       added: 2014-08-15
       info: active development, playable, C++
-
 
 - name: "Jumpgate: The Reconstruction Initiative"
   clones:
