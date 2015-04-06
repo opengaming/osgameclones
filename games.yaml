@@ -50,7 +50,10 @@
       info: development halted, C, GPL
 
 
-- name: [Another World, "Another World (video game)"]
+- names: 
+    - [Another World, "Another World (video game)"]
+    - [Out of This World, "Another World (video game)"]
+    - [Outer World (アウターワールド Autā Wārudo), "Another World (video game)"]
   clones:
     - name: New RAW
       url: http://sourceforge.net/projects/newraw/
@@ -144,7 +147,6 @@
         - image: http://sourceforge.net/dbimage.php?id=105346
         - image: http://sourceforge.net/dbimage.php?id=105344
 
-
 - name: [Battle City, Battle City (video game)]
   clones:
     - name: Battle City
@@ -155,7 +157,11 @@
       media:
         - image: http://battlecity.org/wp-content/uploads/your-city-has-been-destroyed-by-the-power-of-an-orb.png
         - image: http://farm6.staticflickr.com/5246/5313969457_15de8df27f_z.jpg
-
+    - name: TZOD (Tank Zone Of Death)
+      url: https://code.google.com/p/tzod/
+      repo: https://code.google.com/p/tzod/
+      info: sporadic development, C++ & Lua, GPL3
+      added: 2015-04-06
 
 - name: Bermuda Syndrome
   clones:
@@ -821,6 +827,14 @@
       info: stalled development, Java
       media:
         - image: http://jotd.pagesperso-orange.fr/gods/snapshots/classic_level_1/images/view_0000.jpg
+
+- names: [Gorillas, Gorillas (video game)]
+  clones:
+    - name: Gorillas
+      url: https://github.com/Lyndir/Gorillas
+      repo: https://github.com/Lyndir/Gorillas
+      added: 2015-04-06
+      info: sporadic development, Objective-C, iOS, Java Research License 1.6
 
 - names:
     - Grim Fandango
@@ -1987,6 +2001,15 @@
         - image: http://www.siedler25.org/thumbnail.php?file=/gallery/2011/2011.01.19_10.jpg
           url: http://www.siedler25.org/gallery/2011/2011.01.19_10.jpg
 
+- name: The Settlers III
+  clones:
+    - name: JSettlers
+      url: http://www.settlers-android-clone.com/
+      repo: https://github.com/jsettlers/settlers-remake
+      added: 2015-04-06
+      info: active development, needs original files, Java
+      media: 
+        - image: http://www.settlers-android-clone.com/wp-content/gallery/screenshots_win7/SoldiersFighting_1.png
 
 - name: [Tempest, Tempest (video game)]
   clones:
@@ -2385,6 +2408,20 @@
       info: active development, C++, MIT
       repo: https://github.com/pmprog/OpenApoc
       url: http://openapoc.pmprog.co.uk/
+
+- name: XPilot
+  clones:
+    - name: XPilot NG
+      url: http://xpilot.sourceforge.net/
+      repo: http://xpilot.cvs.sourceforge.net/viewvc/xpilot/
+      added: 2015-04-06
+      info: stalled development, C, GPL2
+      media:
+        - image: http://xpilot.sourceforge.net/shots/polybloods1.png
+        - image: http://xpilot.sourceforge.net/shots/xpilot_sdl.png
+        - image: http://xpilot.sourceforge.net/shots/fishtank.png
+        - image: http://xpilot.sourceforge.net/shots/dragon.png
+        - image: http://xpilot.sourceforge.net/shots/spaceball.png
 
 - name: Legend of Zelda
   clones:
@@ -2978,6 +3015,13 @@
       info: sporadic development, Perl
       added: 2013-06-06
 
+- name: [Scorched Earth, Scorched Earth (video game)]
+  reimplementations:
+    - url: http://www.scorched3d.co.uk/
+      name: Scorched3D
+      added: 2015-04-06
+      repo: git://git.code.sf.net/p/scorched3d/git
+      info: active development, C++, GPL2
 
 - name: Crimsonland
   reimplementations:
@@ -3034,6 +3078,20 @@
         - image: http://www.caveproductions.org/images/screenshots/mainmenu.jpg
         - image: http://www.caveproductions.org/images/screenshots/angry-dino.jpg
         - image: http://www.caveproductions.org/images/screenshots/multi-packages.jpg
+
+- name: Warcraft II
+  reimplementations:
+    - name: Dark Oberon
+      url: http://dark-oberon.sourceforge.net/
+      repo: http://dark-oberon.cvs.sourceforge.net/viewvc/dark-oberon/
+      added: 2015-04-06
+      media:
+        - image: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_1_1024x768.jpg
+          url: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_1_256x192.jpg
+        - image: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_4_1024x768.jpg
+          url: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_4_256x192.jpg
+        - image: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_1024x768.jpg
+          url: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_256x192.jpg
 
 - name: [Wipeout, "Wipeout (video game)"]
   reimplementations:
