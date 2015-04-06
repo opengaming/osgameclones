@@ -147,7 +147,6 @@
         - image: http://sourceforge.net/dbimage.php?id=105346
         - image: http://sourceforge.net/dbimage.php?id=105344
 
-
 - name: [Battle City, Battle City (video game)]
   clones:
     - name: Battle City
@@ -158,7 +157,10 @@
       media:
         - image: http://battlecity.org/wp-content/uploads/your-city-has-been-destroyed-by-the-power-of-an-orb.png
         - image: http://farm6.staticflickr.com/5246/5313969457_15de8df27f_z.jpg
-
+    - name: TZOD (Tank Zone Of Death(
+      url: https://code.google.com/p/tzod/
+      repo: https://code.google.com/p/tzod/
+      info: sporadic development, C++ & Lua, GPL3
 
 - name: Bermuda Syndrome
   clones:
