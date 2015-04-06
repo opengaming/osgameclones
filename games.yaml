@@ -178,6 +178,13 @@
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/62665.jpg
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/71372.jpg
 
+- name: [Blade Runner, "Blade Runner (1997 video game)"]
+  clones:
+    - name: replicant
+      repo: https://github.com/madmoose/replicant
+      added: 2015-04-04
+      info: stalled development, WIP, C++
+
 - name: "Blake Stone: Planet Strike"
   clones:
     - name: bstone
@@ -239,6 +246,16 @@
       added: 2015-04-03
       media:
         - image: https://bitbucket-assetroot.s3.amazonaws.com/repository/ejzABR/4034423466-gdashgame.png?Signature=o2QfvjwJ88fFCWZTTaamGfiml70%3D&Expires=1428046717&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82
+
+- name: "Buzz Aldrin's Race Into Space"
+  clones:
+    - name: Race Into Space
+      url: http://www.raceintospace.org/
+      added: 2015-04-05
+      repo: https://github.com/raceintospace/raceintospace
+      info: active development, C++, GPL2
+      media:
+        - image: http://www.raceintospace.org/images/screenshots/splash_screen.png
 
 - name: Caesar 3
   clones:
@@ -348,7 +365,20 @@
         - image: http://clonekeenplus.sourceforge.net/img/ckpoptions.jpg
         - image: http://clonekeenplus.sourceforge.net/img/lampk2cg.jpg
         - image: http://clonekeenplus.sourceforge.net/img/keen4flag.png
-
+    - name: Keen Dreams
+      url: http://steamcommunity.com/sharedfiles/filedetails/?id=315040793
+      added: 2015-04-04
+      repo: https://github.com/keendreams/keen
+      info: active development, C, GPL 2
+      media:
+        - image: http://cloud-4.steamusercontent.com/ugc/27349800890275925/878B16455C9D0D615DDDCA036167FB496A2623DC/637x358.resizedimage
+    - name : Omnispeak
+      url: http://davidgow.net/keen/omnispeak.html
+      repo: https://github.com/sulix/omnispeak
+      info: active development, C, GPL2
+      added: 2015-04-04
+      media:
+        - image: http://davidgow.net/images/omnispeak-2.png
 
 - names:
     - Command & Conquer
@@ -427,6 +457,14 @@
         - image: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/thumbs/thumbs_d2xr-scrn18.jpg
           url: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn18.jpg
 
+- name: 
+    - "DesertStrike: Return to the Gulf"
+    - Jungle Strike
+  clones:
+    - name: openstrike
+      repo: https://github.com/AMDmi3/openstrike
+      info: sporadic development, not playable, C++, GPL3
+      added: 2015-04-04
 
 - name: Deflektor
   clones:
@@ -537,6 +575,17 @@
       - image: http://dopewars.sourceforge.net/screenshots/winxp-multi-small.png
         url: http://dopewars.sourceforge.net/screenshots/winxp-multi.png
 
+- name: Duck Hunt
+  clones:
+    - name: duckhunt
+      added: 2015-04-05
+      repo: https://github.com/aosyborg/duckhunt
+      url: http://pygame.org/project-Duck+Hunt+Remake-2045-.html
+      info: sporadic development, Python
+      media:
+        - image: http://pygame.org/shots/2045.png
+          url: http://pygame.org/thumb/8e99204a4dc0d6c55841638c49c750fe.png
+
 - name: [Duke Nukem, Duke Nukem (video game)]
   clones:
     - name: Freenukum Jump'n Run
@@ -609,7 +658,6 @@
         Keeper run on recent OSes
       repo: https://code.google.com/p/keeperfx/source/list
 
-
 - name: Eye of the Beholder II
   clones:
     - name: Dungeon Eye
@@ -629,6 +677,13 @@
       info: active development, playable, C++
       added: 2014-06-16
 
+- name: "The Elder Scrolls II: Daggerfall"
+  clones:
+    - name: Daggerfall.NET
+      repo: https://github.com/Burton-Radons/Daggerfall.NET
+      info: stalled development, C#
+      added: 2015-04-05
+
 - name: "The Elder Scrolls III: Morrowind"
   clones:
     - name: OpenMW
@@ -643,6 +698,15 @@
         - image: http://wiki.openmw.org/images/thumb/c/cc/Screenshot003_zps07cee328.jpg/180px-Screenshot003_zps07cee328.jpg
           url: http://wiki.openmw.org/images/c/cc/Screenshot003_zps07cee328.jpg
 
+- name: Exolon
+  clones:
+    - name: exolon
+      url: https://newagebegins.github.io/exolon/exolon.html
+      repo: https://github.com/newagebegins/exolon
+      added: 2015-04-05
+      info: active development, JavaScript
+      media:
+        - image: http://imgchr.com/image/LXf
 
 - name: [Fade to Black, Fade to Black (video game)]
   clones:
@@ -675,6 +739,14 @@
       repo: https://bitbucket.org/eastmad/floor-13-releases/src
       info: active development, Ruby
       added: 2015-04-03
+
+- name: Flying Shark
+  clones:
+    - name: Friking Shark
+      url: https://code.google.com/p/friking-shark/
+      added: 2015-04-06
+      repo: http://friking-shark.googlecode.com/svn/trunk/
+      info: stalled development, C++, GPL3
 
 - name: [Forsaken, Forsaken (video game)]
   clones:
@@ -740,6 +812,15 @@
         - image: http://a.fsdn.com/con/app/proj/glestae/screenshots/226560.jpg/182/137
           url: http://a.fsdn.com/con/app/proj/glestae/screenshots/226560.jpg/182/137
 
+- names: [Gods, Gods (video game)]
+  clones:
+    - name: Gods -Deluxe-
+      url: http://jotd.pagesperso-orange.fr/gods/index.html
+      added: 2015-04-04
+      repo: http://jotd.pagesperso-orange.fr/gods/GodsDeluxe-0_8-B.zip
+      info: stalled development, Java
+      media:
+        - image: http://jotd.pagesperso-orange.fr/gods/snapshots/classic_level_1/images/view_0000.jpg
 
 - names:
     - Grim Fandango
@@ -885,6 +966,16 @@
         - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/screen04.png
           url: http://www.thereisnospork.com/projects/homeworld/images/screen04.png
 
+- name: [Imperialism, "Imperialism (video game)"]
+  clones:
+    - name: imperialism-remake
+      repo: https://github.com/Trilarion/Imperialism-Remake
+      url: http://remake.twelvepm.de/
+      added: 2015-04-05
+      info: active development, Python, GPL3
+      media:
+        - image: http://remake.twelvepm.de/wp/wp-content/uploads/2014/04/EditorScreen.0.1.0.jpg
+          url: http://remake.twelvepm.de/wp/wp-content/uploads/2014/04/EditorScreen.0.1.0-150x150.jpg
 
 - name: Imperium Galactica
   clones:
@@ -1051,8 +1142,6 @@
         - raw: <iframe width="320" height="240" src="//www.youtube.com/embed/DviEWbUvv2Y?rel=0" frameborder="0" allowfullscreen></iframe>
         - image: https://camo.githubusercontent.com/7e8455e7b2c909a2977815c861ab6bf9a053bee4/687474703a2f2f692e696d6775722e636f6d2f7747556a592e706e67
 
-
-
 - name: [Mad TV, Mad TV (video game)]
   clones:
     - name: TVTower
@@ -1121,6 +1210,11 @@
       media:
         image: https://a.fsdn.com/con/app/proj/jake2/screenshots/31155.jpg
         uri: https://a.fsdn.com/con/app/proj/jake2/screenshots/31155.jpg
+    - name: Yamagi Quake II
+      added: 2015-04-05
+      repo: https://github.com/yquake2
+      url: http://www.yamagi.org/quake2/
+      info: active development, C, GPL2
 
 - name: Quake 3
   clones:
@@ -1183,6 +1277,11 @@
       media:
         - image: https://i.imgur.com/M8NcU.gif
           url: https://i.imgur.com/M8NcU.gif
+    - name: Full Screen Mario
+      repo: https://github.com/FullScreenShenanigans/FullScreenMario/
+      url: http://www.fullscreenmario.com/
+      added: 2015-04-04
+      info: active development, playable, JavaScript, CCPL
 
 - name: Master of Orion 2
   clones:
@@ -1490,6 +1589,29 @@
       info: active development, JavaScript, playable
       added: 2014-03-21
 
+- name: Robotfindskitten
+  clones:
+    - name: rfk-inform
+      url: https://661.org/if/rfk/
+      repo: https://github.com/DavidGriffith/rfk-inform
+      info: stalled development, Inform6
+      media:
+        - image: https://661.org/if/rfk/files/rfk-inform01.png
+        - image: https://661.org/if/rfk/files/rfk-inform02.png
+        - image: https://661.org/if/rfk/files/rfk-inform03.png
+        - image: https://661.org/if/rfk/files/rfk-inform04.png
+        - image: https://661.org/if/rfk/files/rfk-inform05.png
+        - image: https://661.org/if/rfk/files/rfk-inform06.png
+        - image: https://661.org/if/rfk/files/rfk-inform03.png
+
+- name: "Robotron: 2084"
+  clones:
+    - name: robotron
+      repo: https://github.com/Ernir/robotron
+      url: https://github.com/Ernir/robotron
+      added: 2015-04-06
+      info: active development, JavaScript
+
 - name: RollerCoaster Tycoon
   clones:
     - name: FreeRCT
@@ -1523,6 +1645,21 @@
           url: http://atanks.sourceforge.net/Screenshots/scrnshot28.png
         - image: http://atanks.sourceforge.net/Screenshots/small-scrnshot23.png
           url: http://atanks.sourceforge.net/Screenshots/scrnshot23.png
+
+- name: Skool Daze
+  clones:
+    - name: pyskool
+      url: http://pyskool.ca/
+      repo: https://github.com/skoolkid/pyskool
+      added: 2015-04-05
+      info: active development, Python, GPL3
+      media:
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-0.4.png
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool-0.4.png
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/skool_daze_take_too-0.4.png
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/ezad_looks-0.4.png
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool_daze-0.4.png
+        - image: http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-wide-0.4.png
 
 - name: "Space Rangers 2: Dominators"
   clones:
@@ -1636,6 +1773,12 @@
         - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/partymode_teams.png
           url: http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
 
+- name: Speedball 2
+  clones:
+    - name: Speedball 2
+      url: http://bringerp.free.fr/RE/Speedball2/remake.php5
+      info: halted development, reverse engineered prototype, not fully playable, C#
+      added: 2015-04-05
 
 - name: [Sopwith, Sopwith (video game)]
   clones:
@@ -1676,8 +1819,19 @@
       info: moderately active development, C++/Lua
       added: 2013-06-08
 
+- name: "Stunt Car Racer"
+  clones:
+    - url: http://sourceforge.net/projects/stuntcarremake/
+      repo: git://git.code.sf.net/p/stuntcarremake/code
+      name: Stunt Car Racer Remake
+      added: 2015-04-04
+      info: stalled development, C++
+      media:
+        - url: https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
 
-- name: [Stunts, Stunts (video game)]
+- names: 
+  - [Stunts, Stunts (video game)]
+  - 4D Sports Driving
   clones:
     - url: http://www.ultimatestunts.nl/
       name: Ultimate Stunts
@@ -1693,6 +1847,22 @@
         - url: http://www.ultimatestunts.nl/screenshots/0742.jpg
           image: http://www.ultimatestunts.nl/screenshots/0742_small.jpg
 
+- name: Super Cars
+  clones:
+    - name: Supercars III
+      url: http://jotd.pagesperso-orange.fr/supercars3/
+      repo: http://jotd.pagesperso-orange.fr/supercars3/Supercars3_06.zip
+      info: sporadic development, Java
+      added: 2015-04-04
+      media:
+        - image: http://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
+
+- name: Super Foul Egg
+  clones:
+    - name: SuperFoulEgg
+      repo: https://github.com/ant512/SuperFoulEgg
+      added: 2015-04-05
+      info: stalled development, Objective C, custom licence
 
 - name: [Super Mario, Super Mario (series)]
   clones:
@@ -1746,6 +1916,13 @@
         - image: http://swars.vexillium.org/shots/swars-macos-1-thumb.jpg
           url: http://swars.vexillium.org/shots/swars-macos-1.png
 
+- name: Terraria
+  clones:
+    - name: Open Terraria Rewrite
+      added: 2015-04-05
+      repo: https://github.com/Shockah/Open-Terraria-Rewrite
+      info: stalled development, WIP, Java
+
 - name: The Castles of Dr. Creep
   clones:
     - name: DrCreep
@@ -1757,6 +1934,16 @@
         - image: http://a.fsdn.com/con/app/proj/creep/screenshots/250988.jpg
         - image: http://a.fsdn.com/con/app/proj/creep/screenshots/250982.jpg
         - image: http://a.fsdn.com/con/app/proj/creep/screenshots/250990.jpg
+
+- names: [The Hobbit, "The Hobbit (1982 video game)"]
+  clones:
+    - name: hobbitgfx
+      repo: https://github.com/richcarl/hobbitgfx
+      added: 2015-04-05
+      url: http://richardcarlsson.blogspot.co.uk/2014/11/the-hobbit-1982-game-graphics-engine-in.html
+      info: actve development, JavaScript
+      media:
+        - image: data:image/png;base64,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
 
 - name: The Last Ninja
   clones:
@@ -1808,6 +1995,11 @@
       repo: https://github.com/stephank/arashi-js
       info: development halted, javascript
       added: 2014-01-12
+    - name: Space Twitch
+      url: https://github.com/KirbyAu2/SpaceTwitch
+      repo: https://github.com/KirbyAu2/SpaceTwitch
+      added: 2015-04-06
+      info: active development, C#
 
 - name: Tetris Attack
   clones:
@@ -2047,6 +2239,36 @@
         - image: http://pentagram.sourceforge.net/images/screenshots/thumbs/japanese.png
           url: http://pentagram.sourceforge.net/images/screenshots/japanese.png
 
+- name: Uncharted Waters
+  clones:
+    - name: Uncharted waters 2 remake
+      repo: https://github.com/Jackyjjc/Uncharted-waters-2-remake
+      url: http://jackyjjc.com/
+      added: 2015-04-05
+      info: active development, Java, GPL2
+
+- name: [Uninvited, "Uninvited (video game)"]
+  clones:
+    - name: uninvited
+      added: 2015-04-04
+      repo: https://github.com/DavidGriffith/uninvited
+      info: sporadic development, Inform, Artistic License 2.0
+
+- name: [Utopia, "Utopia (video game)"]
+  clones:
+    - name: Utopia (video game)
+      added: 2015-04-05
+      url: http://apps.gamejs.org/newutopia/
+      repo: https://github.com/gamejs/newutopia
+      info: stalled development, JavaScript
+
+- name: [Warlords II, "Warlords (game series)#Warlords II"]
+  clones: 
+    - name: FreeLords
+      url: http://sourceforge.net/projects/freelords/
+      info: active development, Java, GPL2
+      repo: git://git.code.sf.net/p/freelords/git
+      added: 2015-04-06
 
 - name: Warcraft II
   clones:
@@ -2129,7 +2351,6 @@
       info: active development, not playable
       added: 2013-05-29
 
-
 - names:
     - "X-COM: UFO Defence"
     - "UFO: Enemy Unknown"
@@ -2159,7 +2380,11 @@
           url: http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66447.jpg
         - image: http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg/182/137
           url: http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg
-
+    - name: OpenApoc
+      added: 2015-04-04
+      info: active development, C++, MIT
+      repo: https://github.com/pmprog/OpenApoc
+      url: http://openapoc.pmprog.co.uk/
 
 - name: Legend of Zelda
   clones:
@@ -2224,6 +2449,23 @@
           url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png
         - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/thumb_2011.2-6.png
           url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
+
+- name: Arkanoid
+  reimplementations:
+    - name: PyBreak360
+      url: http://sourceforge.net/projects/pybreak360/
+      repo: git://git.code.sf.net/p/pybreak360/code
+      added: 2015-04-05
+      info: active development, Python
+      media:
+        - url: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg
+        - url: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360b.png/182/137
+          image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360b.png
+        - url: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png/182/137
+          image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png
+        - url: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png/182/137
+          image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png
 
 - name: [Battle Isle series, Battle Isle (series)]
   reimplementations:
@@ -2656,7 +2898,6 @@
         - image: http://picload.org/thumbnail/lopgipl/srb23.png
           url: https://www.srb2.org/media/
 
-
 - name: Super Hexagon
   reimplementations:
     - name: Open Hexagon
@@ -2719,6 +2960,15 @@
       url: http://dzgame.org
       added: 2013-05-28
 
+- name: Pizza Tycoon
+  reimplementations:
+    - name: Pizza Business
+      url: http://pizza-business.sourceforge.net/
+      added: 2015-04-03
+      repo: http://pizza-business.cvs.sourceforge.net/viewvc/pizza-business/
+      info: stalled development, C++, GPL2
+      media:
+        - image: http://pizza-business.sourceforge.net/gtk1.png
 
 - name: "Puzzle Bobble"
   reimplementations:
@@ -2785,6 +3035,12 @@
         - image: http://www.caveproductions.org/images/screenshots/angry-dino.jpg
         - image: http://www.caveproductions.org/images/screenshots/multi-packages.jpg
 
+- name: [Wipeout, "Wipeout (video game)"]
+  reimplementations:
+    - name: Core Breach
+      repo: https://github.com/core-code/CoreBreach
+      url: http://corebreach.corecode.at/CoreBreach/CoreBreach.html
+      added: 2015-04-05
 
 - name: [X-COM Series, X-COM]
   reimplementations:
