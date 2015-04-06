@@ -1590,6 +1590,14 @@
         - image: https://661.org/if/rfk/files/rfk-inform06.png
         - image: https://661.org/if/rfk/files/rfk-inform03.png
 
+- name: "Robotron: 2084"
+  clones:
+    - name: robotron
+      repo: https://github.com/Ernir/robotron
+      url: https://github.com/Ernir/robotron
+      added: 2015-04-06
+      info: active development, JavaScript
+
 - name: RollerCoaster Tycoon
   clones:
     - name: FreeRCT
