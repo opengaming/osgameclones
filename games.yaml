@@ -130,7 +130,24 @@
       url: http://www.libsdl.org/projects/Maelstrom/
       info: development halted, playable, C
       added: 2014-01-12
-
+    - name: Vectoroids
+      added: 2015-04-07
+      url: http://www.newbreedsoftware.com/vectoroids/
+      repo: ftp://ftp.tuxpaint.org/unix/x/vectoroids/src/vectoroids-1.1.0.tar.gz
+      info: halted development, C, GPL2
+      media:
+        - image: http://www.newbreedsoftware.com/vectoroids/screenshots/title.gif
+        - image: http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids.gif
+        - image: http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids-embedded.jpg
+    - name: Agendaroids
+      url: http://www.newbreedsoftware.com/agendaroids/
+      repo: ftp://ftp.tuxpaint.org/unix/agenda/agendaroids/src/agendaroids-2002.03.07.tar.gz
+      added: 2015-04-07
+      info: halted development, C, GPL2
+      media:
+        - image: http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids-title.gif
+        - image: http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids.gif
+        - image: http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids-zaurus.gif
 
 - name: [Atomix, Atomix (video game)]
   clones:
@@ -2943,7 +2960,6 @@
         - image: http://www.xonotic.org/m/uploads/2012/07/frontpage_013_small.jpg
           url: http://www.xonotic.org/m/uploads/2012/07/frontpage_013.jpg
         - raw: <iframe width="560" height="315" src="http://www.youtube.com/embed/Io920ID423A?rel=0" frameborder="0" allowfullscreen></iframe>
-
 
 - name: RPG Maker
   reimplementations:
