@@ -474,6 +474,21 @@
       media:
         - image: http://www.newbreedsoftware.com/fop/screenshots/fop-alpha.png
 
+- name: [Defender, "Defender (video game)"]
+  clones:
+    - name: Defendguin
+      added: 2015-04-07
+      info: sporadic development, C, GPL2
+      url: http://www.newbreedsoftware.com/defendguin/
+      repo: ftp://ftp.tuxpaint.org/unix/x/defendguin/src/defendguin-0.0.12.tar.gz
+      media:
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/title.gif
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/main.gif
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/options.gif
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/game.gif
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/bonus.gif
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/mutants.gif
+
 - names:
     - [Descent, Descent (video game)]
     - Descent 2
@@ -2870,6 +2885,24 @@
       info: active development, C#
       media:
         - image: http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
+
+- name: Missle Command
+  reimplementations:
+    - name: ICBM3D
+      url: http://www.newbreedsoftware.com/icbm3d/
+      added: 2015-04-07
+      repo: ftp://ftp.tuxpaint.org/unix/x/icbm3d/icbm3d.0.4.tar.gz
+      info: halted development, C, no specified licence
+      image:
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/1.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/2.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/3.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/4.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/5.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/6.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/7.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/8.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/icbm3d-agenda.gif
 
 - name: Mortal Kombat
   reimplementations:
