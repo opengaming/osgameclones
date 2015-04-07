@@ -1010,6 +1010,13 @@
         - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/screen04.png
           url: http://www.thereisnospork.com/projects/homeworld/images/screen04.png
 
+- name: Hovertank 3D
+  clones:
+    - name: Hovertank3D
+      repo: https://github.com/FlatRockSoft/Hovertank3D
+      added: 2015-04-07
+      info: finished development, C & Assembly, GPL2
+
 - name: [Imperialism, "Imperialism (video game)"]
   clones:
     - name: imperialism-remake
@@ -1211,6 +1218,16 @@
       info: active development, C++
       added: 2013-05-27
 
+- name: "Populous: The Beginning"
+  clones:
+    - name: OpenPop
+      repo: svn://svn.code.sf.net/p/openpopulous/code/trunk
+      added: 2015-04-07
+      url: http://openpopulous.sourceforge.net/
+      info: halted development, C++, GPL3
+      media:
+        - url: https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg
 
 - name: [Portal, Portal (video game)]
   clones:
@@ -1576,6 +1593,18 @@
         - image: http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png/182/137
           url: http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png
 
+- name: "R-Type"
+  clones:
+    - name: R-Type Clone from Octobinz
+      url: http://www.mobuware.net/nintendo-ds-os/r-type-clone-from-octobinz-nds-and-source-code-get-free-170451.html
+      repo: http://www.mobuware.net/get-software-170451.html
+      added: 2015-04-07
+      info: development status unavailable, demo only, C++, no licence
+    - name: rtype
+      repo: https://github.com/leurqum/Rtype
+      added: 2015-04-07
+      info: halted development, C++, no licence
+
 - name: Railroad_Tycoon
   clones:
      - name: FreeRails
@@ -1868,6 +1897,14 @@
       info: stalled development, C++
       media:
         - url: https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
+
+- name: Starshatter
+  clones:
+    - name: starshatter-open
+      url: https://code.google.com/p/starshatter-open/
+      repo: http://starshatter-open.googlecode.com/svn/trunk/
+      added: 2015-04-07
+      info: sporadic development, C++, custom licence (Starshatter OpenSource Distribution)
 
 - names: 
   - [Stunts, Stunts (video game)]
