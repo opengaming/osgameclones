@@ -130,7 +130,24 @@
       url: http://www.libsdl.org/projects/Maelstrom/
       info: development halted, playable, C
       added: 2014-01-12
-
+    - name: Vectoroids
+      added: 2015-04-07
+      url: http://www.newbreedsoftware.com/vectoroids/
+      repo: ftp://ftp.tuxpaint.org/unix/x/vectoroids/src/vectoroids-1.1.0.tar.gz
+      info: halted development, C, GPL2
+      media:
+        - image: http://www.newbreedsoftware.com/vectoroids/screenshots/title.gif
+        - image: http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids.gif
+        - image: http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids-embedded.jpg
+    - name: Agendaroids
+      url: http://www.newbreedsoftware.com/agendaroids/
+      repo: ftp://ftp.tuxpaint.org/unix/agenda/agendaroids/src/agendaroids-2002.03.07.tar.gz
+      added: 2015-04-07
+      info: halted development, C, GPL2
+      media:
+        - image: http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids-title.gif
+        - image: http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids.gif
+        - image: http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids-zaurus.gif
 
 - name: [Atomix, Atomix (video game)]
   clones:
@@ -355,6 +372,16 @@
           image: http://tangramgames.dk/games/duckmarines/images/vacuum.gif
         - raw: <iframe width="320" height="240" src="http://www.youtube.com/embed/SAz0BsTSXy4?rel=0" frameborder="0" allowfullscreen></iframe>
 
+- name: [Circus Atari, Circus (video game)]
+  clones:
+    - name: Circus Linux!
+      url: http://www.newbreedsoftware.com/circus-linux/
+      repo: ftp://ftp.tuxpaint.org/unix/x/circus-linux/win32/circuslinux-1.0.0.zip
+      added: 2015-04-07
+      info: halted development, C, GPL2
+      media:
+        - image: http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-title.gif
+        - image: http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-game.gif
 
 - name: Clonk
   clones:
@@ -453,6 +480,31 @@
         - image: https://a.fsdn.com/con/app/proj/c-dogs-sdl/screenshots/hqx_new.png/182/137
         - image: https://a.fsdn.com/con/app/proj/c-dogs-sdl/screenshots/editor.png/182/137
         - image: https://a.fsdn.com/con/app/proj/c-dogs-sdl/screenshots/4p_split_osx.png/182/137
+
+- name: [Dandy, "Dandy (video game)"]
+  clones:
+    - name: Fight Or Perish
+      url: http://www.newbreedsoftware.com/fop/
+      repo: ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz
+      added: 2015-04-07
+      info: sporadic development, C, GPL2
+      media:
+        - image: http://www.newbreedsoftware.com/fop/screenshots/fop-alpha.png
+
+- name: [Defender, "Defender (video game)"]
+  clones:
+    - name: Defendguin
+      added: 2015-04-07
+      info: sporadic development, C, GPL2
+      url: http://www.newbreedsoftware.com/defendguin/
+      repo: ftp://ftp.tuxpaint.org/unix/x/defendguin/src/defendguin-0.0.12.tar.gz
+      media:
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/title.gif
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/main.gif
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/options.gif
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/game.gif
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/bonus.gif
+        - image: http://www.newbreedsoftware.com/defendguin/screenshots/mutants.gif
 
 - names:
     - [Descent, Descent (video game)]
@@ -2851,6 +2903,24 @@
       media:
         - image: http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
 
+- name: Missle Command
+  reimplementations:
+    - name: ICBM3D
+      url: http://www.newbreedsoftware.com/icbm3d/
+      added: 2015-04-07
+      repo: ftp://ftp.tuxpaint.org/unix/x/icbm3d/icbm3d.0.4.tar.gz
+      info: halted development, C, no specified licence
+      image:
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/1.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/2.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/3.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/4.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/5.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/6.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/7.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/8.gif
+        - image: http://www.newbreedsoftware.com/icbm3d/screenshots/icbm3d-agenda.gif
+
 - name: Mortal Kombat
   reimplementations:
     - name: OpenMortal
@@ -2890,7 +2960,6 @@
         - image: http://www.xonotic.org/m/uploads/2012/07/frontpage_013_small.jpg
           url: http://www.xonotic.org/m/uploads/2012/07/frontpage_013.jpg
         - raw: <iframe width="560" height="315" src="http://www.youtube.com/embed/Io920ID423A?rel=0" frameborder="0" allowfullscreen></iframe>
-
 
 - name: RPG Maker
   reimplementations:
