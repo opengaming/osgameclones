@@ -178,6 +178,33 @@
         - image: http://sourceforge.net/dbimage.php?id=105346
         - image: http://sourceforge.net/dbimage.php?id=105344
 
+- name: Battle Chess
+  clones:
+    - name: Open BattleChess
+      repo: http://openbattlechess.googlecode.com/svn/trunk/
+      url: https://code.google.com/p/openbattlechess/
+      added: 2015-04-08
+      info: halted development, C#, LGPL
+  reimplementations:
+    - name: Brutal Chess
+      added: 2015-04-08
+      url: http://sourceforge.net/projects/brutalchess/
+      repo: svn://svn.code.sf.net/p/brutalchess/code/trunk
+      info: halted develpment, C++, GPL2
+      media:
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/68227.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/68227.jpg
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/59140.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/59140.jpg
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/107538.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/107538.jpg
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
+
 - name: [Battle City, Battle City (video game)]
   clones:
     - name: Battle City
