@@ -163,6 +163,26 @@
       url: https://github.com/GNOME/atomix
       info: C, development halted
 
+- name: AstroMenace
+  clones:
+    - name: AstroMenace
+      url: http://sourceforge.net/projects/openastromenace/
+      added: 2015-04-08
+      repo: svn://svn.code.sf.net/p/openastromenace/code/
+      info: active development, C++, GPL3
+      media:
+        - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am2.jpg
+          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am2.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am11.jpg
+          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am11.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am9.jpg
+          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am9.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am10.jpg
+          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am10.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am6.jpg
+          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am6.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am7.jpg
+          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am7.jpg/182/137
 
 - names:
     - "Baldur's Gate series"
@@ -177,6 +197,33 @@
         - image: http://sourceforge.net/dbimage.php?id=105342
         - image: http://sourceforge.net/dbimage.php?id=105346
         - image: http://sourceforge.net/dbimage.php?id=105344
+
+- name: Battle Chess
+  clones:
+    - name: Open BattleChess
+      repo: http://openbattlechess.googlecode.com/svn/trunk/
+      url: https://code.google.com/p/openbattlechess/
+      added: 2015-04-08
+      info: halted development, C#, LGPL
+  reimplementations:
+    - name: Brutal Chess
+      added: 2015-04-08
+      url: http://sourceforge.net/projects/brutalchess/
+      repo: svn://svn.code.sf.net/p/brutalchess/code/trunk
+      info: halted develpment, C++, GPL2
+      media:
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/68227.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/68227.jpg
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/59140.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/59140.jpg
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/107538.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/107538.jpg
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
+        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
 
 - name: [Battle City, Battle City (video game)]
   clones:
@@ -491,6 +538,13 @@
       media:
         - image: http://www.newbreedsoftware.com/fop/screenshots/fop-alpha.png
 
+- name: Dark Reign 2
+  clones:
+    - name: Dark Reign 2
+      url: https://code.google.com/p/darkreign2/
+      repo: http://darkreign2.googlecode.com/svn/
+      info: in-active development, C++, dubious licence (see project page)
+
 - name: [Defender, "Defender (video game)"]
   clones:
     - name: Defendguin
@@ -746,6 +800,26 @@
         Keeper run on recent OSes
       repo: https://code.google.com/p/keeperfx/source/list
 
+- name: [Earth Shaker, Earth Shaker (video game)]
+  clones:
+    - name: EarthShakerDS
+      repo: https://github.com/ant512/EarthShakerDS
+      url: http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released
+      added: 2015-04-08
+      info: active development, C++, custom licence, Nintendo DS port
+      media:
+        - image: http://simianzombie.com/media/2011/05/1.png
+        - image: http://simianzombie.com/media/2011/05/2.png
+        - image: http://simianzombie.com/media/2011/05/3.png
+
+- name: [Entombed!, "Entombed (1982 video game)"]
+  clones:
+    - name: Entombed!
+      url: http://www.newbreedsoftware.com/entombed/
+      added: 2015-04-08
+      repo: ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz
+      info: halted development, C, no specified license
+
 - name: Eye of the Beholder II
   clones:
     - name: Dungeon Eye
@@ -868,6 +942,12 @@
         - url: http://scp.indiegames.us/scn/Earth%20Defense/in-game01.jpg
           image: http://scp.indiegames.us/scn/Earth%20Defense/in-game01_tn.jpg
 
+- name: [Gish, "Gish (video game)"]
+  clones:
+    - name: freegish
+      repo: https://github.com/freegish/freegish
+      added: 2015-04-08
+      info: active development, C, custom licence
 
 - name: Gladiator
   clones:
@@ -1062,6 +1142,13 @@
         - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/screen04.png
           url: http://www.thereisnospork.com/projects/homeworld/images/screen04.png
 
+- name: HoverRace
+  clones:
+    - name: HoverRace
+      repo: https://github.com/HoverRace/HoverRace
+      added: 2015-04-08
+      info: active development, C++, custom license (GrokkSoft HoverRace SourceCode License v1.0)
+
 - name: Hovertank 3D
   clones:
     - name: Hovertank3D
@@ -1093,6 +1180,13 @@
         - raw: <iframe width="560" height="315" src="http://www.youtube.com/embed/qHBUdUqqI-k?rel=0" frameborder="0" allowfullscreen></iframe>
         - raw: <iframe width="560" height="315" src="http://www.youtube.com/embed/lImUf9gHWAs?rel=0" frameborder="0" allowfullscreen></iframe>
 
+- name: Iron Seed
+  clones:
+    - name: Iron Seed
+      added: 2015-04-08
+      url: http://www.ironseed.com/
+      repo: http://www.ironseed.com/ironseed-v1.20.0016-2013-03-17.zip
+      info: halted development, Pascal, GPL3
 
 - name: Jagged Alliance 2
   clones:
@@ -1435,6 +1529,13 @@
       added: 2015-04-03
       media:
         - url: http://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg
+
+- name: MechCommander 2
+  clones:
+    - name: MechCommander 2 Omnitech
+      added: 2015-04-08
+      repo: https://github.com/Echelon9/mechcommander2-open
+      info: halted development, C++, mixed licence; Shared Source Limited Permissive License & GPL
 
 - name: Mega Lo Mania
   clones:
@@ -1839,6 +1940,21 @@
         - image: http://freesiege.sourceforge.net/screens/screen0.png
         - image: http://freesiege.sourceforge.net/screens/screen1.png
 
+- name: Siege of Avalon
+  clones:
+    - name: Siege of Avalon Open Source
+      added: 2015-04-08
+      url: http://soaos.sourceforge.net/
+      repo: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source
+      info: stalled development, Pascal, custom license
+      media:
+        - image: http://soaos.sourceforge.net/images/shots/scrshot2.jpg
+          url: http://soaos.sourceforge.net/images/shots/scrshot2_small.jpg
+        - image: http://soaos.sourceforge.net/images/shots/scrshot1.jpg
+          url: http://soaos.sourceforge.net/images/shots/scrshot1_small.jpg
+        - image: http://soaos.sourceforge.net/images/shots/scrshot4.jpg
+          url: http://soaos.sourceforge.net/images/shots/scrshot4_small.jpg
+
 - name: [Silencer, Silencer (video game)]
   clones:
     - name: zSILENCER
@@ -2017,6 +2133,15 @@
       media:
         - image: http://a.fsdn.com/con/app/proj/methane/screenshots/14915.jpg
 
+- name: [Survivor (1986), "Survivor (video game)"]
+  clones:
+    - name: Survivor
+      repo: https://github.com/scottschiller/SURVIVOR
+      added: 2015-04-08
+      url: http://www.schillmania.com/survivor/
+      info: sporadic development, HTML + CSS + JavaScript, CC BY-NC 3.0
+      media:
+        - image: https://www.flickr.com/photos/schill/10177812825/in/album-72157628885315581/player/
 
 - name: [Syndicate, Syndicate (video game)]
   clones:
@@ -2786,6 +2911,14 @@
           image: http://www.oolite.org/images/gallery/coriolis!jpg
         - url: http://www.oolite.org/images/gallery/full/advanced-nav-array
           image: http://www.oolite.org/images/gallery/advanced-nav-array
+  clones:
+    - name: "Mission ELITE: The Battle For Birera"
+      added: 2015-04-08
+      url: http://polarelephant.blogspot.co.uk/2007/10/elite-remake.html
+      repo: http://www.mediafire.com/?ddmmswi1ngw
+      info: halted development, C, no specified licence
+      media:
+        - image: https://1.bp.blogspot.com/_zJ6-FHWQvDE/R0e_NhJFakI/AAAAAAAAACw/tgysRPXJfeU/s400/el-14.jpg
 
 - name: [Elite II, "Frontier: Elite II"]
   reimplementations:
@@ -2796,6 +2929,7 @@
       info: active development, C++
       media:
         - image: http://pioneerspacesim.net/assets/ss1.png.pagespeed.ce.U2_loVycEA.png
+  clones:
     - name: GLFrontier
       url: http://tom.noflag.org.uk/glfrontier.html
       repo: http://tom.noflag.org.uk/glfrontier.html
@@ -2803,6 +2937,13 @@
       info: halted development, C++
       media:
         - image: http://tom.noflag.org.uk/frontier_logo.png
+    - name: Frontier 1337
+      repo: http://www.txori.com/data/documents/frontier/frontier_1337.rar
+      url: http://www.txori.com/?static2/frontier
+      added: 2015-04-08
+      info: C, no specified licence, PSP port
+      media:
+        - image: http://www.txori.com/data/images/frontier/icon.png
 
 - name: [Escape Velocity, Escape Velocity (video game)]
   reimplementations:
