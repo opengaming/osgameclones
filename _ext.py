@@ -1,4 +1,5 @@
 import sys
+import pprint
 import os.path as op
 from datetime import date, timedelta
 
@@ -11,12 +12,17 @@ def abort(msg):
     sys.exit(1)
 
 
-def validate(names, games):
-    for name in names:
+def validate(item, key):
+    for name in names(item):
         if not (isinstance(name, basestring) or
                 (len(name) == 2 and
                  all(isinstance(x, basestring) for x in name))):
-            abort('%r should be a string or a list of two strings' % name)
+            abort('Error: %r should be a string or a list of two strings' % name)
+    games = item[key]
+    if (not isinstance(games, list) or
+        not all(map(lambda x: isinstance(x, dict), games))):
+        print 'Error: this should be a list of dicts:'
+        abort(pprint.pformat(games))
     return names, games
 
 
@@ -24,9 +30,9 @@ def names(item):
     return item.get('names') or [item['name']]
 
 
-def mark_new(item):
-    added = item.get('added') or date(1970, 1, 1)
-    return dict(item,
+def mark_new(entry):
+    added = entry.get('added') or date(1970, 1, 1)
+    return dict(entry,
                 new=(date.today() - added) < timedelta(days=30))
 
 
@@ -34,13 +40,13 @@ def parse_data(site):
     data = yaml.load(file(op.join(op.dirname(__file__), 'games.yaml')))
 
     site.clones = [
-        validate(names(item), map(mark_new, item['clones']))
+        (names(item), map(mark_new, item['clones']))
         for item in data
-        if 'clones' in item]
+        if 'clones' in item and validate(item, 'clones')]
     site.reimplementations = [
-        validate(names(item), map(mark_new, item['reimplementations']))
+        (names(item), map(mark_new, item['reimplementations']))
         for item in data
-        if 'reimplementations' in item]
+        if 'reimplementations' in item and validate(item, 'reimplementations')]
 
 
 def callback(site):
