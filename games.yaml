@@ -819,6 +819,18 @@
         - image: http://simianzombie.com/media/2011/05/2.png
         - image: http://simianzombie.com/media/2011/05/3.png
 
+- name: [Eat The Whistle, "Eat the whistle (video game)"]
+  clones:
+    - name: Eat The Whistle
+      url: http://www.ggsoft.org/etw/
+      repo: svn://svn.code.sf.net/p/etw/code/trunk
+      added: 2015-04-10
+      info: sporadic development, C, GPL2
+      media:
+        - image: https://a.fsdn.com/con/app/proj/etw/screenshots/172852.jpg
+        - image: https://a.fsdn.com/con/app/proj/etw/screenshots/172854.jpg
+        - image: https://a.fsdn.com/con/app/proj/etw/screenshots/172856.jpg
+
 - name: [Entombed!, "Entombed (1982 video game)"]
   clones:
     - name: Entombed!
