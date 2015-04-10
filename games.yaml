@@ -1533,6 +1533,18 @@
         - image: http://openarena.ws/e107_images/custom/s085-16.jpg
           url: http://openarena.ws/e107_images/custom/085-16.jpg
 
+- name: "Ken's Labyrinth"
+  clones:
+    - name: LAB3D/SDL
+      added: 2015-04-10
+      url: https://icculus.org/LAB3D/
+      repo: svn://svn.icculus.org/LAB3D/trunk
+      info: sporadic development, C, no licence found
+      media:
+        - image: https://icculus.org/LAB3D/captur00.png
+        - image: https://icculus.org/LAB3D/captur04.png
+        - image: https://icculus.org/LAB3D/captur02.png
+        - image: https://icculus.org/LAB3D/captur03.png
 
 - names:
     - [Marathon, Marathon_(video_game)]
