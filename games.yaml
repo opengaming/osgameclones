@@ -1220,7 +1220,7 @@
       info: sporadic development, C/C++
       added: 2013-05-27
 
-- name: Heart of Darkness (video game)
+- name: [Heart of Darkness, "Heart of Darkness (video game)"]
   clones:
     - name: HODe
       repo: https://code.google.com/p/tombexcavator/source/browse/branches/v0/unsorted/hode-20090726
@@ -1501,6 +1501,16 @@
       repo: https://github.com/GWRon/TVTower
       added: 2014-08-16
 
+- name: [Outcast, Outcast (video game)]
+  clones:
+    - name: OpenOutcast
+      added: 2014-04-11
+      url: http://www.openoutcast.org/wp/
+      info: halted development, C++, GPL2
+      repo: svn://svn.code.sf.net/p/ocmod/code/
+      image:
+        - url: https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg
 
 - name: Outrun
   clones:
