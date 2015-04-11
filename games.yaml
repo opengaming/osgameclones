@@ -2190,13 +2190,6 @@
         - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/partymode_teams.png
           url: http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
 
-- name: Speedball 2
-  clones:
-    - name: Speedball 2
-      url: http://bringerp.free.fr/RE/Speedball2/remake.php5
-      info: halted development, reverse engineered prototype, not fully playable, C#
-      added: 2015-04-05
-
 - name: [Sopwith, Sopwith (video game)]
   clones:
     - url: http://sdl-sopwith.sourceforge.net/
@@ -2209,6 +2202,23 @@
         - image: http://sdl-sopwith.sourceforge.net/sshot/runway.png
         - image: http://sdl-sopwith.sourceforge.net/sshot/sopwith_metacity.png
 
+- name: Space Invaders
+  clones:
+    - name: pyspaceinvaders
+      added: 2015-04-11
+      url: http://www.jimbrooks.org/programming/python/pyspaceinvaders/
+      repo: http://www.jimbrooks.org/software/python/pyspaceinvaders_20090823.tar.bz2
+      info: halted development, Python, GPL2
+      media:
+        - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090818_splash.png
+        - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090823.png
+
+- name: Speedball 2
+  clones:
+    - name: Speedball 2
+      url: http://bringerp.free.fr/RE/Speedball2/remake.php5
+      info: halted development, reverse engineered prototype, not fully playable, C#
+      added: 2015-04-05
 
 - name: Star Control 2
   clones:
