@@ -1421,12 +1421,12 @@
 
 - name: [Jumping Jack, "Jumping Jack (arcade game)"]
   clones:
-    - name: Jumping Jack: Further Adventures
+    - name: "Jumping Jack: Further Adventures"
       added: 2015-04-13
       url: http://retrospec.sgn.net/game/jj
       info: halted development, C++, no licence specified
       repo: http://retrospec.sgn.net/users/nwalker/jack/jj.zip
-    - name: Jumping Jack 2 : Worryingly Familiar
+    - name: "Jumping Jack 2: Worryingly Familiar"
       added: 2015-04-13
       url: http://retrospec.sgn.net/game/jj2
       info: halted development, C++, no licence specified
@@ -2113,6 +2113,23 @@
       repo: https://github.com/Zibx/robbo
       info: active development, JavaScript, playable
       added: 2014-03-21
+
+- name: Road Fighter
+  clones:
+   - name: Road Fighter
+     added: 2015-04-13
+     url: http://www.braingames.getput.com/roadf/default.asp
+     repo: http://braingames.jorito.net/roadfighter/downloads/roadfighter.src_1.0.1269.tgz
+     info: C++, LGPL2
+     media:
+       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot1.jpg
+         image: http://www.braingames.getput.com/roadf/pics/screenshot1.jpg
+       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot2.jpg
+         image: http://www.braingames.getput.com/roadf/pics/screenshot2.jpg
+       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot3.jpg
+         image: http://www.braingames.getput.com/roadf/pics/screenshot3.jpg
+       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot4.jpg
+         image: http://www.braingames.getput.com/roadf/pics/screenshot4.jpg
 
 - name: Robotfindskitten
   clones:
