@@ -5,6 +5,21 @@
       repo: https://github.com/scummvm/scummvm
       info: very active development, C++. List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
 
+- name: ["1945", Strikers 1945]
+  clones:
+    - name: Py1945
+      added: 2015-04-13
+      url: https://code.google.com/p/py1945game/
+      info: halted development, Python, GPL
+      repo: http://py1945game.googlecode.com/svn/trunk/
+
+- name: 3D Deathchase
+  clones:
+    - name: Deathchase 3D
+      url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
+      added: 2015-04-13
+      repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/deathchase3d-0.9.tar.gz
+      info: C, GPL2
 
 - name: [Abuse, Abuse (video game)]
   clones:
@@ -17,6 +32,20 @@
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png
 
+- name: [Ace of Spades, Ace of Spades (video game)]
+  clones:
+    - name: OpenSpades
+      added: 2015-04-10
+      url: https://sites.google.com/a/yvt.jp/openspades/
+      repo: https://github.com/yvt/openspades
+      info: active development, C++, GPL3
+      media:
+        - image: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg
+          url: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg?height=180&width=320
+        - image: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240107290/media/shot0097.jpg
+          url: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240107290/media/shot0097.jpg?height=180&width=320
+        - image: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240124607/media/shot0252.jpg
+          url: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240124607/media/shot0252.jpg?height=180&width=320
 
 - name: Age of Empires II
   clones:
@@ -28,6 +57,13 @@
       media:
         - image: http://openage.sft.mx/pics/openage_0.png
 
+- name: "Akalabeth: World of Doom"
+  clones:
+    - name: Aklabeth
+      url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
+      repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/aklabeth-1.0.tar.gz
+      added: 2015-04-13
+      info: C, GPL2
 
 - name: Alien 8
   clones:
@@ -35,6 +71,15 @@
       url: http://retrospec.sgn.net/game/alien8
       added: 2014-01-12
       info: development halted, playable, C
+      media:
+        - url: http://retrospec.sgn.net/config/screenshots/alien8.t.img0.jpg
+          image: http://retrospec.sgn.net/config/screenshots/alien8.f.img0.jpg
+        - url: http://retrospec.sgn.net/config/screenshots/alien8.t.img1.jpg
+          image: http://retrospec.sgn.net/config/screenshots/alien8.f.img1.jpg
+        - url: http://retrospec.sgn.net/config/screenshots/alien8.t.img2.jpg
+          image: http://retrospec.sgn.net/config/screenshots/alien8.f.img2.jpg
+        - url: http://retrospec.sgn.net/config/screenshots/alien8.t.menu.jpg
+          image: http://retrospec.sgn.net/config/screenshots/alien8.f.menu.jpg
 
 - names: [Allegiance, "Allegiance (video game)"]
   clones:
@@ -106,6 +151,16 @@
           url: http://www.flickr.com/photos/sfiera/4103065046/in/pool-1519223@N24/
         - raw: <iframe width="560" height="315" src="//www.youtube.com/embed/4s44qu5zgXE?rel=0" frameborder="0" allowfullscreen></iframe>
 
+- name: Artillery Duel
+  clones:
+    - name: Artillery Duel
+      added: 2015-04-11
+      url: https://code.google.com/p/artillery-duel-reloaded/
+      repo: http://artillery-duel-reloaded.googlecode.com/files/Artillery-0.61-src.zip
+      info: halted development, Python, GPL3
+      media:
+        - image: http://pygame.org/shots/1519.jpg
+          url: http://pygame.org/thumb/939c31cfc605bdf865ada0e7acbce5ee.png
 
 - name: Arx Fatalis
   clones:
@@ -169,6 +224,11 @@
     - name: GNOME Atomix
       url: https://github.com/GNOME/atomix
       info: C, development halted
+    - name: WAtomic
+      url: http://watomic.sourceforge.net/
+      added: 2015-04-10
+      repo: http://sourceforge.net/projects/watomic/files/watomic/1.2.3/WAtomic_src_1_2_3_257.zip/download
+      info: halted development, Delphi/Kylix, GPL2
 
 - name: AstroMenace
   clones:
@@ -190,6 +250,18 @@
           url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am6.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am7.jpg
           url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am7.jpg/182/137
+
+- name: [Babaliba, "Dinamic Software"]
+  clones:
+    - name: Babaliba
+      added: 2015-04-13
+      url: http://compiler.speccy.org/index.php?lang=eng&game=babaliba
+      repo: http://compiler.speccy.org/files/sources/Babaliba_Source.zip
+      info: Microsoft Visual FoxPro, no specified licence
+      media:
+        - image: http://compiler.speccy.org/images/screens/babaliba-scr1.png
+        - image: http://compiler.speccy.org/images/screens/babaliba-scr2.png
+        - image: http://compiler.speccy.org/images/screens/babaliba-scr3.png
 
 - names:
     - "Baldur's Gate series"
@@ -313,8 +385,9 @@
       info: development halted, playable, HTML5
       added: 2013-06-06
 
-
-- name: Bomberman
+- names:
+    - Bomberman
+    - Dynablaster
   clones:
     - name: SDL Bomber
       url: http://www.linuxmotors.com/SDL_bomber/
@@ -322,7 +395,48 @@
       added: 2014-01-12
       media:
         - image: http://www.linuxmotors.com/SDL_bomber/bomber.gif
-
+    - name: Bombic
+      added: 2015-04-14
+      url: http://bombic.sourceforge.net/
+      repo: svn://svn.code.sf.net/p/bombic/code/
+      info: halted development, C++, GPL2
+      media:
+        - image: https://a.fsdn.com/con/app/proj/bombic/screenshots/22410.jpg
+          url: https://a.fsdn.com/con/app/proj/bombic/screenshots/22410.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/bombic/screenshots/22408.jpg
+          url: https://a.fsdn.com/con/app/proj/bombic/screenshots/22408.jpg/182/137
+    - name: Bombic2
+      added: 2015-04-14
+      url: http://bombic2.sourceforge.net/
+      repo: svn://svn.code.sf.net/p/bombic2/code/
+      info: halted development, C++, GPL2
+      media:
+        - url: http://bombic2.sourceforge.net/screenshots/small/cooperative_multiplayer.jpg
+          image: http://bombic2.sourceforge.net/screenshots/big/cooperative_multiplayer.png
+        - url: http://bombic2.sourceforge.net/screenshots/small/final.jpg
+          image: http://bombic2.sourceforge.net/screenshots/big/final.png
+        - url: http://bombic2.sourceforge.net/screenshots/small/fireman.jpg
+          image: http://bombic2.sourceforge.net/screenshots/big/fireman.png
+        - url: http://bombic2.sourceforge.net/screenshots/small/tvboss.jpg
+          image: http://bombic2.sourceforge.net/screenshots/big/tvboss.png
+    - name:  Bomb Mania Reloaded
+      added: 2015-04-14
+      url: http://sourceforge.net/p/bomb-mania/wiki/Home/
+      repo: svn://svn.code.sf.net/p/bomb-mania/code-0/trunk
+      info: halted development, C++, GPL2
+      media:
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125901.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125901.jpg
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275181.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275181.jpg
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275183.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275183.jpg
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125905.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125905.jpg
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275185.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275185.jpg
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/logo.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/logo.jpg
 
 - name: Boulder Dash
   clones:
@@ -337,6 +451,19 @@
       added: 2015-04-03
       media:
         - image: https://bitbucket-assetroot.s3.amazonaws.com/repository/ejzABR/4034423466-gdashgame.png?Signature=o2QfvjwJ88fFCWZTTaamGfiml70%3D&Expires=1428046717&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82
+
+- name: Bubble Bobble
+  clones:
+    - name: The Bub's Brothers
+      url: http://bub-n-bros.sourceforge.net/
+      added: 2015-04-10
+      repo: http://bub-n-bros.cvs.sourceforge.net/viewvc/bub-n-bros/
+      info: halted development, Python, MIT
+      media:
+        - image: http://bub-n-bros.sourceforge.net/images/extend.png
+        - image: http://bub-n-bros.sourceforge.net/images/crashed-down.png
+        - image: http://bub-n-bros.sourceforge.net/images/alone-in-the-world.png
+        - image: http://bub-n-bros.sourceforge.net/images/pacman.png
 
 - name: "Buzz Aldrin's Race Into Space"
   clones:
@@ -364,6 +491,14 @@
       info: active development, C++, somewhat playable
       added: 2013-05-27
 
+- name: Call to Power II
+  clones:
+    - name: "Civilization: Call To Power 2 Source Project"
+      added: 2015-04-10
+      url: http://ctp2.darkdust.net/
+      repo: https://ctp2.darkdust.net/svn/
+      info: C, custom licence
+
 - name: [Cannon Fodder, Cannon Fodder (series)]
   clones:
     - name: OpenFodder
@@ -371,6 +506,10 @@
       info: development halted, resources are loaded / maps drawn, C++
       repo: https://github.com/segrax/openfodder
       added: 2013-11-20
+    - name: Cannon Fodder
+      repo: https://github.com/krazyjakee/CannonFodder
+      added: 2015-04-13
+      info: halted development, HTML5, no licence specified
 
 - name: Carmageddon
   clones:
@@ -507,7 +646,8 @@
 - name: [Creatures, Creatures (video game)]
   clones:
     - name: Open Creatures
-      url: https://github.com/ccdevnet/openc2e
+      url: http://creatures.wikia.com/wiki/Openc2e
+      repo: https://github.com/ccdevnet/openc2e
       added: 2014-09-05
       info: development halted, forks present, C++, LGPL
 
@@ -613,6 +753,13 @@
       url: http://retrospec.sgn.net/game/deflektorx4
       info: halted development, C
       added: 2014-01-12
+      media:
+        - image: http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX40.gif
+          url: http://retrospec.sgn.net/config/screenshots/deflektorx4.t.DeflektorX40.gif
+        - image: http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX42.gif
+          url: http://retrospec.sgn.net/config/screenshots/deflektorx4.t.DeflektorX42.gif
+        - image: http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX41.gif
+          url: http://retrospec.sgn.net/config/screenshots/deflektorx4.t.DeflektorX41.gif
     - name: Mirror Magic
       url: http://www.artsoft.org/mirrormagic/
       info: halted development, playable, C
@@ -702,6 +849,28 @@
       added: 2015-04-03
       media:
         - image: http://forum.drdteam.org/download/file.php?id=2219
+    - name: Mocha Doom
+      added: 2015-04-10
+      url: http://mochadoom.sourceforge.net/
+      repo: http://mochadoom.cvs.sourceforge.net/viewvc/mochadoom/
+      info: active development, Java, GPL3
+      media:
+        - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331375.jpg
+          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331375.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331379.jpg
+          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331379.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331381.jpg
+          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331381.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331377.jpg
+          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331377.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331383.jpg
+          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331383.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/287749.jpg
+          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/287749.jpg/182/137
+    - name: "DOOM-iOS"
+      repo: https://github.com/id-Software/DOOM-iOS
+      added: 2015-04-12
+      info: halted development, C++, GPL2, iOS
 
 - name: Drugwars
   clones:
@@ -724,6 +893,19 @@
       added: 2015-04-06
       info: halted development, C#
 
+- name: Dink Smallwood
+  clones:
+    - name: GNU FreeDink
+      added: 2015-04-11
+      url: https://www.gnu.org/software/freedink/
+      repo: http://git.savannah.gnu.org/cgit/freedink.git
+      info: sporadic development, C, GPL3
+      image:
+        - url: https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10_thumbnail.jpg
+          image: https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10.jpg
+        - url: https://www.gnu.org/software/freedink/screenshots/freedink-1.08_2008-07-31_thumbnail.jpg
+          image: https://www.gnu.org/software/freedink/screenshots/freedink-1.08_2008-07-31.jpg
+
 - name: Duck Hunt
   clones:
     - name: duckhunt
@@ -734,6 +916,22 @@
       media:
         - image: http://pygame.org/shots/2045.png
           url: http://pygame.org/thumb/8e99204a4dc0d6c55841638c49c750fe.png
+    - name: Duck-Rehunt
+      repo: https://github.com/Serioussam24/Duck-Rehunt
+      info: halted development, Python, GPL
+      url: http://pygame.org/project-Duck+Rehunt-1862-.html
+      added: 2015-04-11
+      media:
+        - image: http://pygame.org/shots/1862.png
+          url: http://pygame.org/thumb/fbb0af09dea3c3cbd2077e5eceb349ab.png
+    - name: Duck Hunter
+      added: 2015-04-11
+      url: http://pygame.org/project-Duck+Hunter-1615-.html
+      repo: https://app.box.com/shared/zkh7rt575i
+      info: halted development, Python, no licence specified
+      media:
+        - image: http://pygame.org/shots/1615.png
+          url: http://pygame.org/thumb/9d1fd15254c8d7ae6425d0daffc887cd.png
 
 - name: [Duke Nukem, Duke Nukem (video game)]
   clones:
@@ -839,6 +1037,20 @@
       repo: ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz
       info: halted development, C, no specified license
 
+- name: Escape from Colditz
+  clones:
+    - name: Colditz Escape!
+      repo: https://github.com/aperture-software/colditz-escape
+      added: 2015-04-10
+      url: https://sites.google.com/site/colditzescape/
+      info: active development, C, GPL3
+      media:
+        - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot0.png
+        - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot1.png
+        - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot2.png
+        - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot3.png
+        - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot4.png
+
 - name: Eye of the Beholder II
   clones:
     - name: Dungeon Eye
@@ -879,6 +1091,16 @@
         - image: http://wiki.openmw.org/images/thumb/c/cc/Screenshot003_zps07cee328.jpg/180px-Screenshot003_zps07cee328.jpg
           url: http://wiki.openmw.org/images/c/cc/Screenshot003_zps07cee328.jpg
 
+- names:
+    - [Exile, Exile (video game series)]
+    - Blades of Exile
+  clones:
+    - name: Blades of Exile
+      added: 2015-04-11
+      url: http://spiderwebforums.ipbhost.com/index.php?/forum/12-blades-of-exile/
+      repo: https://github.com/calref/cboe
+      info: active development, C++, GPL2
+
 - name: Exolon
   clones:
     - name: exolon
@@ -888,6 +1110,31 @@
       info: active development, JavaScript
       media:
         - image: http://imgchr.com/image/LXf
+
+- name: ["F-1 Spirit", "F-1 Spirit (series)"]
+  clones:
+    - name: "F-1 Spirit"
+      added: 2015-04-13
+      url: http://www.braingames.getput.com/f1spirit/
+      repo: http://braingames.jorito.net/f1spirit/f1spirit.src_0.rc9-1615.tgz
+      info: C++, no licence specified
+      media:
+        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot1.jpg
+          image: http://www.braingames.getput.com/f1spirit/pics/screenshot1.jpg
+        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot2.jpg
+          image: http://www.braingames.getput.com/f1spirit/pics/screenshot2.jpg
+        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot3.jpg
+          image: http://www.braingames.getput.com/f1spirit/pics/screenshot3.jpg
+        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot4.jpg
+          image: http://www.braingames.getput.com/f1spirit/pics/screenshot4.jpg
+        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot5.jpg
+          image: http://www.braingames.getput.com/f1spirit/pics/screenshot5.jpg
+        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot6.jpg
+          image: http://www.braingames.getput.com/f1spirit/pics/screenshot6.jpg
+        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot7.jpg
+          image: http://www.braingames.getput.com/f1spirit/pics/screenshot7.jpg
+        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot8.jpg
+          image: http://www.braingames.getput.com/f1spirit/pics/screenshot8.jpg
 
 - name: [Fade to Black, Fade to Black (video game)]
   clones:
@@ -901,6 +1148,16 @@
       url: https://falltergeist.org/
       repo: https://github.com/alexeevdv/falltergeist
       info: active development, C++, not playable, needs game data
+
+- name: ["Fallout 3: Van Buren", "Van Buren (video game)"]
+  clones: 
+    - name: Van Buren Project
+      url: http://vanburenproject.blogspot.co.uk/
+      repo: http://van-buren-project.googlecode.com/svn/trunk/
+      added: 2015-04-10
+      info: halted development, C#, custom licence (NeoAxis 3D Engine 2.0 Free SDK License Agreement)
+      media:
+        - image: http://s689.photobucket.com/user/razvan2140/media/van%20buren/post13_3_zpsfe75e66a.png.html
 
 - name: [Flashback, Flashback (1992 video game)]
   clones:
@@ -928,6 +1185,22 @@
       added: 2015-04-06
       repo: http://friking-shark.googlecode.com/svn/trunk/
       info: stalled development, C++, GPL3
+
+- names:
+    - Final Fantasy VIII
+  clones:
+    - name: OpenTriad
+      url: https://github.com/benjaminfoo/OpenTriad
+      added: 2015-04-12
+      info: active development, Java, no specified licence
+
+- name: [Football Manager, "Football Manager (1982 series)"]
+  clones:
+    - name: Football Manager
+      added: 2015-04-13
+      url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
+      repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/fm-0.99.tar.gz
+      info: C, GPL2
 
 - name: [Forsaken, Forsaken (video game)]
   clones:
@@ -960,6 +1233,14 @@
           image: http://scp.indiegames.us/scn/Beyond%20the%20Red%20Line/4pu20pg_tn.jpg
         - url: http://scp.indiegames.us/scn/Earth%20Defense/in-game01.jpg
           image: http://scp.indiegames.us/scn/Earth%20Defense/in-game01_tn.jpg
+
+- name: Geometry Wars
+  clones:
+    - name: Geometry Wars Remake
+      added: 2015-04-13
+      url: https://code.google.com/p/geomwarsremake/
+      info: halted development, Java, GPL
+      repo: http://geomwarsremake.googlecode.com/svn/trunk/
 
 - name: [Gish, "Gish (video game)"]
   clones:
@@ -1008,6 +1289,23 @@
       info: stalled development, Java
       media:
         - image: http://jotd.pagesperso-orange.fr/gods/snapshots/classic_level_1/images/view_0000.jpg
+
+- name: [The Goonies, "The Goonies (video game)"]
+  clones:
+    - name: The Goonies
+      added: 2015-04-13
+      url: http://www.braingames.getput.com/goonies/
+      info: C++, no specified licence
+      repo: http://braingames.jorito.net/goonies/downloads/goonies.src_1.4.1528.tgz
+      media:
+        - url: http://www.braingames.getput.com/goonies/pics/thumb_screenshot1.jpg
+          image: http://www.braingames.getput.com/goonies/pics/screenshot1.jpg
+        - url: http://www.braingames.getput.com/goonies/pics/thumb_screenshot2.jpg
+          image: http://www.braingames.getput.com/goonies/pics/screenshot2.jpg
+        - url: http://www.braingames.getput.com/goonies/pics/thumb_screenshot3.jpg
+          image: http://www.braingames.getput.com/goonies/pics/screenshot3.jpg
+        - url: http://www.braingames.getput.com/goonies/pics/thumb_screenshot4.jpg
+          image: http://www.braingames.getput.com/goonies/pics/screenshot4.jpg
 
 - names: [Gorillas, Gorillas (video game)]
   clones:
@@ -1089,6 +1387,11 @@
       info: sporadic development, C/C++
       added: 2013-05-27
 
+- name: [Heart of Darkness, "Heart of Darkness (video game)"]
+  clones:
+    - name: HODe
+      repo: https://code.google.com/p/tombexcavator/source/browse/branches/v0/unsorted/hode-20090726
+      info: unknown development status, C++
 
 - name: Hexen II
   clones:
@@ -1250,6 +1553,18 @@
       added: 2014-09-05
       info: active development, C++
 
+- name: [Jumping Jack, "Jumping Jack (arcade game)"]
+  clones:
+    - name: "Jumping Jack: Further Adventures"
+      added: 2015-04-13
+      url: http://retrospec.sgn.net/game/jj
+      info: halted development, C++, no licence specified
+      repo: http://retrospec.sgn.net/users/nwalker/jack/jj.zip
+    - name: "Jumping Jack 2: Worryingly Familiar"
+      added: 2015-04-13
+      url: http://retrospec.sgn.net/game/jj2
+      info: halted development, C++, no licence specified
+      repo: http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip
 
 - name: Knights and Merchants
   clones:
@@ -1268,6 +1583,16 @@
         - image: http://www.kamremake.com/wp-content/uploads/2011/10/Multiplayer1-150x150.jpg
           url: http://www.kamremake.com/wp-content/uploads/2011/10/Multiplayer1.jpg
 
+- names:
+    - Kula World
+    - Roll Away
+    - Kula Quest
+  clones:
+    - name: Cubosphere
+      added: 2015-04-14
+      url: http://sourceforge.net/projects/cubosphere/
+      repo: http://cubosphere.bzr.sourceforge.net/bzr/cubosphere/changes
+      info: halted development, C++, GPL3
 
 - name: [The Lord of the Rings Volume 1, "J.R.R. Tolkien's The Lord of the Rings, Vol. I (1990 video game)"]
   clones:
@@ -1308,6 +1633,19 @@
       info: development halted, seems to be playable
       added: 2013-05-27
 
+- name: [Lionheart, Lionheart (video game)]
+  clones:
+    - name: Lionheart Remake
+      added: 2015-04-12
+      repo: https://github.com/DjThunder/lionheart-remake
+      info: active development, Java, GPL2
+      media:
+        - url: https://camo.githubusercontent.com/b9e4f75cc99a4deed81afc6b55a8a5364356384f/687474703a2f2f7777772e62336467732e636f6d2f76362f70726f6a656374732f6c696f6e656e67696e652f73637265656e732f6d696e692f312e706e67
+          image: http://www.b3dgs.com/v6/projects/lionengine/screens/1.png
+        - url: https://camo.githubusercontent.com/cf9eb0d690fc527f7e29b5abc0dfaedf63313866/687474703a2f2f7777772e62336467732e636f6d2f76362f70726f6a656374732f6c696f6e656e67696e652f73637265656e732f6d696e692f322e706e67
+          image: http://www.b3dgs.com/v6/projects/lionengine/screens/2.png
+        - url: https://camo.githubusercontent.com/561ef6ba983051988fec16d2bb3bb34dcb57b7e6/687474703a2f2f7777772e62336467732e636f6d2f76362f70726f6a656374732f6c696f6e656e67696e652f73637265656e732f6d696e692f332e706e67
+          image: http://www.b3dgs.com/v6/projects/lionengine/screens/3.png
 
 - name: Little Big Adventure
   clones:
@@ -1333,6 +1671,23 @@
       repo: https://github.com/bni/orbium
       info: sporadic development, HTML5/JS, playable, GPL2
       added: 2014-08-20
+
+- name: [Lose Your Marbles, Sega Puzzle Pack]
+  clones:
+    - name: Lose Your Marbles
+      added: 2015-04-12
+      repo: https://github.com/eguneys/lose-your-marbles
+      info: sporadic development, JavaScript, MIT
+
+- name: Lumines
+  clones:
+    - name: luminesk5
+      added: 2015-04-13
+      url: https://code.google.com/p/luminesk5/
+      repo: http://luminesk5.googlecode.com/svn/trunk/
+      info: halted development, Objective-C, GPL3
+      media:
+        - image: http://luminesk5.googlecode.com/files/lumines.PNG
 
 - name: Marble Madness
   clones:
@@ -1365,6 +1720,71 @@
       repo: https://github.com/GWRon/TVTower
       added: 2014-08-16
 
+- name: The Maze of Galious
+  clones:
+    - name: The Maze of Galious
+      added: 2015-04-13
+      url: http://www.braingames.getput.com/mog/
+      repo: http://braingames.jorito.net/mog/downloads/mog.src_0.63-1548.tgz
+      info: C++, GPL2
+      media:
+        - image: http://www.braingames.getput.com/mog/pics/screenshot1.jpg
+        - image: http://www.braingames.getput.com/mog/pics/screenshot2.jpg
+        - image: http://www.braingames.getput.com/mog/pics/screenshot3.jpg
+        - image: http://www.braingames.getput.com/mog/pics/screenshot4.jpg
+        - image: http://www.braingames.getput.com/mog/pics/screenshot5.jpg
+        - image: http://www.braingames.getput.com/mog/pics/screenshot6.jpg
+        - image: http://www.braingames.getput.com/mog/pics/screenshot7.jpg
+        - image: http://www.braingames.getput.com/mog/pics/screenshot8.jpg
+
+- name: "Medal of Honor: Allied Assault"
+  clones:
+    - name:  OpenMoHAA
+      url: http://sourceforge.net/projects/openmohaa/
+      added: 2015-04-11
+      repo: svn://svn.code.sf.net/p/openmohaa/code/trunk
+      info: halted development, C, GPL2
+      media:
+        - url: https://a.fsdn.com/con/app/proj/openmohaa/screenshots/282379.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/openmohaa/screenshots/282379.jpg
+
+- name: Monty Mole
+  clones:
+    - name:  Monty Mole PC remake
+      added: 2015-04-13
+      url: http://sourceforge.net/projects/montymole/
+      info: halted development, C++, no specified licence
+      repo: http://montymole.cvs.sourceforge.net/viewvc/montymole/
+      media:
+        - image: https://a.fsdn.com/con/app/proj/montymole/screenshots/28062.jpg
+          url: https://a.fsdn.com/con/app/proj/montymole/screenshots/28062.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/montymole/screenshots/28060.jpg
+          url: https://a.fsdn.com/con/app/proj/montymole/screenshots/28060.jpg/182/137
+
+- name: The Need for Speed
+  clones:
+    - name: OpenNFS1
+      added: 2015-04-11
+      url: http://1amstudios.com/projects/opennfs1/
+      repo: https://github.com/jeff-1amstudios/OpenNFS1
+      info: halted development, C#, no specified licence
+      media:
+        - image: http://1amstudios.com/img/opennfs1/viper-vertigoridge.jpg
+        - image: http://1amstudios.com/img/opennfs1/vette-transtropolis.jpg
+        - image: http://1amstudios.com/img/opennfs1/image16.jpg
+        - image: http://1amstudios.com/img/opennfs1/image13.jpg
+        - image: http://1amstudios.com/img/opennfs1/image10.jpg
+
+- name: [Outcast, Outcast (video game)]
+  clones:
+    - name: OpenOutcast
+      added: 2014-04-11
+      url: http://www.openoutcast.org/wp/
+      info: halted development, C++, GPL2
+      repo: svn://svn.code.sf.net/p/ocmod/code/
+      image:
+        - url: https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg
 
 - name: Outrun
   clones:
@@ -1424,6 +1844,11 @@
       repo: https://github.com/libretro/tyrquake
       info: active development, C, GPL2
       added: 2015-04-03
+    - name: ProQuake 4
+      added: 2015-04-03
+      url: http://quakeone.com/proquake/
+      repo: http://quakeone.com/proquake/proquake_493_src.rar
+      info: C, GPL2
 
 - name: Quake 2
   clones:
@@ -1465,6 +1890,26 @@
         - image: http://openarena.ws/e107_images/custom/s085-16.jpg
           url: http://openarena.ws/e107_images/custom/085-16.jpg
 
+- name: "Ken's Labyrinth"
+  clones:
+    - name: LAB3D/SDL
+      added: 2015-04-10
+      url: https://icculus.org/LAB3D/
+      repo: svn://svn.icculus.org/LAB3D/trunk
+      info: sporadic development, C, no licence found
+      media:
+        - image: https://icculus.org/LAB3D/captur00.png
+        - image: https://icculus.org/LAB3D/captur04.png
+        - image: https://icculus.org/LAB3D/captur02.png
+        - image: https://icculus.org/LAB3D/captur03.png
+
+- name: ["Lugaru: The Rabbit's Foot", Lugaru]
+  clones:
+    - name: Lugaru
+      added: 2015-04-11
+      url: https://hg.icculus.org/icculus/lugaru/
+      repo: https://hg.icculus.org/icculus/lugaru/file/97b303e79826
+      info: halted development, C++, GPL2
 
 - names:
     - [Marathon, Marathon_(video_game)]
@@ -1572,6 +2017,17 @@
           image: https://sourceforge.net/projects/gigalomania/screenshots/glm_0_27_windows_ss1.jpg/182/137/
         - raw: <iframe width="320" height="240" src="//www.youtube.com/embed/lTtT9p9DVL8?rel=0" frameborder="0" allowfullscreen></iframe>
 
+- name: [Millipede, Millipede (video game)]
+  clones:
+    - name: Monsters and Mushrooms
+      added: 2015-04-11
+      url: http://pygame.org/project-Monsters+and+Mushrooms-989-.html
+      repo: https://github.com/machinezilla/monsters_and_mushrooms
+      info: halted development, Python, GPL2
+      media:
+        - url: http://pygame.org/thumb/f584b67f81a990a77d8ab6fe90f6faa6.png
+          image: http://pygame.org/shots/989.png
+
 - name: Minecraft
   clones:
     - url: http://www.minetest.net/
@@ -1631,6 +2087,16 @@
         - image: http://toppler.sourceforge.net/images/old-atari.png
         - image: http://toppler.sourceforge.net/images/old-c64.png
 
+- name: Nether Earth
+  clones:
+    - name: Nether Earth Remake
+      added: 2015-04-13
+      url: http://www2.braingames.getput.com/nether/default.asp
+      repo: http://www2.braingames.getput.com/nether/sources.zip
+      info: C++, no specified licence
+      media:
+        - image: http://www2.braingames.getput.com/nether/images/original00.jpg
+        - image: http://www2.braingames.getput.com/nether/images/remake00.jpg
 
 - names:
     - Neverwinter Nights
@@ -1679,7 +2145,11 @@
         - image: http://www.openomf.org/screenshots/thumb_end.png
           url: http://www.openomf.org/screenshots/end.png
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/RYiUsDSApM8" frameborder="0" allowfullscreen></iframe>
-
+    - name: Ruby OMF 2097 Remake
+      added: 2015-04-13
+      url: http://rubyomf2097.rubyforge.org/
+      repo: svn://rubyforge.org/var/svn/rubyomf2097
+      info: halted development, Ruby, BSD4
 
 - name: Panzer General
   clones:
@@ -1720,6 +2190,16 @@
       media:
         - image: http://night-hawk.sourceforge.net/nh_intro_1.png
 
+- name: [Paratrooper, Paratrooper (video game)]
+  clones:
+    - name: Paratrooper
+      added: 2015-04-11
+      url: http://pygame.org/project-Paratrooper-706-.html
+      repo: http://www.onderstekop.nl/coding/24_Paratrooper_1.2.3.zip
+      active: development halted, Python, no licence specified
+      media:
+        - image: http://pygame.org/shots/706.jpg
+          url: http://pygame.org/thumb/65b19eb3798f52835fe9b4b12f9d69ba.png
 
 - name: [Pokémon, Pokémon (video game series)]
   clones:
@@ -1833,6 +2313,23 @@
       info: active development, JavaScript, playable
       added: 2014-03-21
 
+- name: Road Fighter
+  clones:
+   - name: Road Fighter
+     added: 2015-04-13
+     url: http://www.braingames.getput.com/roadf/default.asp
+     repo: http://braingames.jorito.net/roadfighter/downloads/roadfighter.src_1.0.1269.tgz
+     info: C++, LGPL2
+     media:
+       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot1.jpg
+         image: http://www.braingames.getput.com/roadf/pics/screenshot1.jpg
+       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot2.jpg
+         image: http://www.braingames.getput.com/roadf/pics/screenshot2.jpg
+       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot3.jpg
+         image: http://www.braingames.getput.com/roadf/pics/screenshot3.jpg
+       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot4.jpg
+         image: http://www.braingames.getput.com/roadf/pics/screenshot4.jpg
+
 - name: Robotfindskitten
   clones:
     - name: rfk-inform
@@ -1875,6 +2372,19 @@
         - image: http://i.imgur.com/kTkK5Gw.png
         - image: http://dev.intelorca.co.uk/2014/openrct2/cheats.png
 
+- name: Ryzom
+  clones:
+    - name: Ryzom Core
+      added: 2015-04-13
+      url: http://www.ryzomcore.org/
+      info: active development, C++, (AGPLv3 & Creative Commons Attributions-ShareAlike 3.0)
+      repo: https://bitbucket.org/ryzom/ryzomcore/overview
+      media:
+        - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot008.png
+        - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot013.png
+        - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot010.png
+        - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot004_sound_debug-1.png
+
 - name: [Scorched Earth, Scorched Earth (video game)]
   clones:
     - name: Atomic Tanks
@@ -1886,6 +2396,13 @@
           url: http://atanks.sourceforge.net/Screenshots/scrnshot28.png
         - image: http://atanks.sourceforge.net/Screenshots/small-scrnshot23.png
           url: http://atanks.sourceforge.net/Screenshots/scrnshot23.png
+
+- name: "Shadowgrounds: Survivor"
+  clones:
+    - name: shadowgrounds
+      repo: https://github.com/vayerx/shadowgrounds
+      added: 2015-04-14
+      info: halted development, C++, Shadowgrounds & Shadowgrounds Survivor Source Code License
 
 - name: Skool Daze
   clones:
@@ -1930,12 +2447,22 @@
       added: 2015-04-03
       info: sporadic development, BlitzMax, GPL
 
-- name: [Seven Kingdoms, Seven_Kingdoms_(computer_game)]
+- name: [Seven Kingdoms, Seven Kingdoms (computer game)]
   clones:
     - name: "Seven Kingdoms: Ancient Adversaries"
       info: active development, C++
       url: http://7kfans.com/
       repo: http://7kfans.com/git/?p=7kaa.git;a=summary
+
+- names: Sid Meier's Alpha Centauri
+  clones:
+    - name: Freeciv Alpha Centauri project
+      added: 2015-04-11
+      url: http://freecivac.sourceforge.net/
+      repo: http://freecivac.cvs.sourceforge.net/viewvc/freecivac/
+      info: halted development, C, GPL2
+      media:
+        - image: http://freecivac.sourceforge.net/pics/govchange.png
 
 - name: Shadow Warrior
   clones:
@@ -1947,6 +2474,14 @@
       media:
         - image: http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
           url: http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
+    - name: SWP
+      added: 2015-04-14
+      url: http://www.proasm.com/sw/swp.html
+      repo: http://www.proasm.com/files/sw/SwpSrc432.zip
+      info: C, GPL2
+      media:
+        - image: http://www.proasm.com/sw/images/swpa.jpg
+        - image: http://www.proasm.com/sw/images/swp3.jpg
 
 - name: [Siege, Siege (video game)]
   clones:
@@ -2029,13 +2564,6 @@
         - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/partymode_teams.png
           url: http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
 
-- name: Speedball 2
-  clones:
-    - name: Speedball 2
-      url: http://bringerp.free.fr/RE/Speedball2/remake.php5
-      info: halted development, reverse engineered prototype, not fully playable, C#
-      added: 2015-04-05
-
 - name: [Sopwith, Sopwith (video game)]
   clones:
     - url: http://sdl-sopwith.sourceforge.net/
@@ -2047,7 +2575,31 @@
         - image: http://sdl-sopwith.sourceforge.net/sshot/title.png
         - image: http://sdl-sopwith.sourceforge.net/sshot/runway.png
         - image: http://sdl-sopwith.sourceforge.net/sshot/sopwith_metacity.png
+    - name: Sopwith 3
+      url: http://www.wingkong.net/sopwith2b/sopwith3.html
+      repo: http://sopwith3.cvs.sourceforge.net/viewvc/sopwith3/
+      added: 2015-04-13
+      info: C++, GPL2
+      media:
+        - image: http://www.wingkong.net/sopwith2b/images/sop3_title.gif
 
+- name: Space Invaders
+  clones:
+    - name: pyspaceinvaders
+      added: 2015-04-11
+      url: http://www.jimbrooks.org/programming/python/pyspaceinvaders/
+      repo: http://www.jimbrooks.org/software/python/pyspaceinvaders_20090823.tar.bz2
+      info: halted development, Python, GPL2
+      media:
+        - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090818_splash.png
+        - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090823.png
+
+- name: Speedball 2
+  clones:
+    - name: Speedball 2
+      url: http://bringerp.free.fr/RE/Speedball2/remake.php5
+      info: halted development, reverse engineered prototype, not fully playable, C#
+      added: 2015-04-05
 
 - name: Star Control 2
   clones:
@@ -2067,6 +2619,16 @@
         - url: http://sc2.sourceforge.net/screenshots/meleestep.png
           image: http://sc2.sourceforge.net/screenshots/meleestep_tn.png
 
+- name: "Star Trek: Voyager – Elite Force"
+  clones:
+    - name: "RPG-X"
+      added: 2015-04-10
+      url: http://www.last-outpost.net/rpg-x/
+      repo: https://github.com/UberGames/rpgxEF
+      info: active development, C, GPL2
+      media:
+        - image: http://last-outpost.net/wp-content/uploads/2012/08/timewarp.jpg
+
 - name: Starcraft
   clones:
     - url: http://stargus.stratagus.com/
@@ -2084,6 +2646,14 @@
       info: stalled development, C++
       media:
         - url: https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
+
+- name: Stars!
+  clones:
+    - name:  Freestars
+      added: 2015-04-11
+      url: http://freestars.sourceforge.net/
+      repo: svn://svn.code.sf.net/p/freestars/code/trunk
+      info: halted development, C++, GPL2
 
 - name: Starshatter
   clones:
@@ -2110,6 +2680,14 @@
           image: http://www.ultimatestunts.nl/screenshots/0722_small.jpg
         - url: http://www.ultimatestunts.nl/screenshots/0742.jpg
           image: http://www.ultimatestunts.nl/screenshots/0742_small.jpg
+
+- name: [Styx, Styx (Spectrum video game)]
+  clones:
+    - name: Styx
+      url: http://retrospec.sgn.net/game/styx
+      added: 2015-04-12
+      repo: http://retrospec.sgn.net/users/nwalker/styx/styx.zip
+      info: halted development, C++, no specified licence
 
 - name: Super Cars
   clones:
@@ -2270,6 +2848,14 @@
       media: 
         - image: http://www.settlers-android-clone.com/wp-content/gallery/screenshots_win7/SoldiersFighting_1.png
 
+- name: Shobon Action
+  clones:
+    - name: Open Syobon Action
+      added: 2015-04-13
+      url: http://sourceforge.net/projects/opensyobon/
+      info: halted development, C++, GPL2
+      repo: http://sourceforge.net/projects/opensyobon/files/src/
+
 - name: [Tempest, Tempest (video game)]
   clones:
     - url: https://github.com/stephank/arashi-js
@@ -2282,6 +2868,10 @@
       repo: https://github.com/KirbyAu2/SpaceTwitch
       added: 2015-04-06
       info: active development, C#
+    - name: wbta
+      repo: https://github.com/awlzac/wbta
+      info: active development, Java, Android, no specified licence
+      added: 2015-04-12
 
 - name: Tetris Attack
   clones:
@@ -2411,6 +3001,13 @@
         - image: http://taisei-project.org/static/media/taisei_kurumi.png
         - image: http://taisei-project.org/static/media/taisei_mansion.png
 
+- name: [Transplant, Transplant (video game)]
+  clones:
+    - name: Spaceship Duel
+      added: 2015-04-11
+      url: https://spaceshipduel.codeplex.com/
+      repo: https://spaceshipduel.codeplex.com/SourceControl/latest
+      info: sporadic development, C#, BSD
 
 - names:
     - Transport Tycoon
@@ -2430,6 +3027,24 @@
         - url: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d.png
           image: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d_thumb.png
 
+- name: Tranz Am
+  clones:
+    - name: Tranzam
+      added: 2015-04-12
+      url: http://retrospec.sgn.net/game/tranzam
+      repo: http://retrospec.sgn.net/download/files/TranzAm.1.1.zip
+      info: halted development, C++
+      media:
+        - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.2.jpg
+          url: http://retrospec.sgn.net/config/screenshots/tranzam.t.2.jpg
+        - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.4.jpg
+          url: http://retrospec.sgn.net/config/screenshots/tranzam.t.4.jpg
+        - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.5.jpg
+          url: http://retrospec.sgn.net/config/screenshots/tranzam.t.5.jpg
+        - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.3.jpg
+          url: http://retrospec.sgn.net/config/screenshots/tranzam.t.3.jpg
+        - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.1.jpg
+          url: http://retrospec.sgn.net/config/screenshots/tranzam.t.1.jpg
 
 - name: Turrican
   clones:
@@ -2449,6 +3064,13 @@
       media:
         - image: https://bytebucket.org/opentyrian/opentyrian/wiki/opentyrian_torm.png
 
+- name: Ugh!
+  clones:
+    - name: "UGH-remake"
+      url: https://bitbucket.org/Andy51/ugh-remake
+      added: 2015-04-13
+      repo: https://bitbucket.org/Andy51/ugh-remake.git
+      info: halted development, C, no licence specified
 
 - name: Ultima Online
   clones:
@@ -2459,7 +3081,6 @@
       media:
         - image: http://www.iris2.de/images/thumb/4/48/20080106175329_188.png/256px-20080106175329_188.png
           url: http://www.iris2.de/images/4/48/20080106175329_188.png
-
 
 - name: Ultima IV
   clones:
@@ -2594,6 +3215,34 @@
         - image: http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion-preview.png
           url: http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
 
+- name: Wizardry
+  clones:
+    - name: Wizardry Legacy
+      added: 2015-04-11
+      url: http://wl.lariennalibrary.com/
+      repo: http://wl.lariennalibrary.com/uploads/Main/Download/Wizardrylegacy_05_source.zip
+      info: active development, C++, GPL3
+      media:
+        - image: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect.png
+          url: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect_thumb.png
+        - image: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
+          url: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat_sm.png
+        - image: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
+          url: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat_sm.png
+  reimplementations:
+    - name: jClassicRPG
+      url: http://javacrpg.sourceforge.net/
+      added: 2015-04-11
+      info: stalled development, Java, GPL3
+      repo: svn://svn.code.sf.net/p/javacrpg/code/trunk
+      media:
+        - image: http://javacrpg.sourceforge.net/screenshots/combat_woman.jpg
+          url: http://javacrpg.sourceforge.net/screenshots/combat_woman_thumb.jpg
+        - image: http://javacrpg.sourceforge.net/screenshots/misc_scene_1.jpg
+          url: http://javacrpg.sourceforge.net/screenshots/misc_scene_1_thumb.jpg
+        - image: http://javacrpg.sourceforge.net/screenshots/misc_scene_2.jpg
+          url: http://javacrpg.sourceforge.net/screenshots/misc_scene_2_thumb.jpg
+
 - names:
     - "Wolfenstein 3D"
     - [Spear of Destiny (video game), "Spear of Destiny (video game)"]
@@ -2694,6 +3343,13 @@
         - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_1.png
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/BUxREyXILLs?rel=0" frameborder="0" allowfullscreen></iframe>
 
+- name: [Legend of Zelda - A Link to the Past, "The Legend of Zelda: A Link to the Past"]
+  clones:
+    - name: lttp
+      added: 2015-04-12
+      repo: https://github.com/englercj/lttp
+      url: http://www.grapefruitjs.org/demos/lttp/
+      info: halted development, (JavaScript, WebGL), MIT
 
 - name: [Z, Z (video game)]
   clones:
@@ -2705,6 +3361,21 @@
         - image: http://zod.sourceforge.net/screenshots/gameplay_13_mini.png
           url: http://zod.sourceforge.net/screenshots/gameplay_13.png
         - raw: <embed src="http://www.youtube.com/v/8VehUvuWHqw&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed>
+
+- name: [Zuma, Zuma (video game)]
+  clones:
+    - name: Zaz
+      added: 2015-04-14
+      url: http://zaz.sourceforge.net/
+      repo: https://zaz.svn.sourceforge.net/svnroot/zaz
+      info: halted development, C++, GPL3
+      media:
+        - url: https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg
+        - url: https://a.fsdn.com/con/app/proj/zaz/screenshots/229087.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/zaz/screenshots/229087.jpg
+        - url: https://a.fsdn.com/con/app/proj/zaz/screenshots/271617.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/zaz/screenshots/271617.jpg
 
 - name: A-Train
   reimplementations:
@@ -2799,6 +3470,13 @@
           url: http://bzflag.org/resources/screenshots/h2o_02.jpg
         - image: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01_t.jpg
           url: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01.jpg
+
+- name: [Civilization, Civilization (video game)]
+  clones:
+    - name: Civ-Remake
+      added: 2015-04-12
+      repo: https://github.com/aarnwri/Civ-Remake
+      info: active development, incomplete, Ruby, no specified licence
 
 - name: Civilization II
   reimplementations:
@@ -3000,11 +3678,10 @@
     - name: Lix
       url: http://asdfasdf.ethz.ch/~simon/index.php
       repo: https://github.com/SimonN/Lix
-      info: sporadic development, playable, C++
+      info: active development, playable, C++
       added: 2013-05-30
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/dWXXK8QlnME?rel=0" frameborder="0" allowfullscreen></iframe>
-
 
 - name: Mario Kart
   reimplementations:
@@ -3091,6 +3768,20 @@
       media:
         - image: http://openmortal.sourceforge.net/images/screenshot3.jpg
 
+- name: Paradroid
+  reimplementations:
+    - name: FreedroidRPG
+      url: http://www.freedroid.org/
+      repo: git://git.code.sf.net/p/freedroid/code
+      info: active development, (Python, C, Lua), GPL2
+      media:
+        - url: http://www.freedroid.org/typo3temp/pics/1a05e07c79.jpg
+          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Fbeginning-cryolab-3455.jpg&md5=a23bdfc7733b5af61b88e3fdd7b86fad7f7ea7b3&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
+        - url: http://www.freedroid.org/typo3temp/pics/bf0f5a5110.jpg
+          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Ffight-cryoentrance-3455.jpg&md5=5ff77ef9b8a1387efd05de4045a3f8f16e84dc3b&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
+        - url: http://www.freedroid.org/typo3temp/pics/8e73eab80e.jpg
+          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Fitemaddons-upgrading-3455.jpg&md5=6e3cc2483e9cfc7c75b8a2d9edb56c6170bcc41e&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
+
 - name: [Similar to Natural Selection, Natural Selection (video game)]
   reimplementations:
     - url: http://www.unvanquished.net/
@@ -3104,6 +3795,18 @@
       repo: http://svn.icculus.org/tremulous/
       added: 2013-06-08
 
+- name: NetHack
+  reimplementations:
+    - url: http://www.slashem.org/
+      name: SLASH'EM
+      info:  halted development, (C, C++), Nethack General Public License
+      added: 2015-04-11
+      repo: http://slashem.cvs.sourceforge.net/viewvc/slashem/
+      media:
+        - url: http://www.slashem.org/3ddrag.png
+        - url: http://www.slashem.org/32tour.png
+        - url: http://www.slashem.org/fireball.png
+        - url: http://www.slashem.org/trad-tty.png
 
 - name: Nexuiz
   reimplementations:
@@ -3419,7 +4122,26 @@
         - image: http://xenowar.net/images/cap03.png
         - image: http://xenowar.net/images/cap04.png
         - image: http://xenowar.net/images/cap05.png
-
+    - name: "Project: Xenocide"
+      added: 2015-04-11
+      url: http://www.projectxenocide.com/
+      info: C++, GPL2
+      repo: http://xenocide.cvs.sourceforge.net/viewvc/xenocide/
+      media:
+        - url: http://www.projectxenocide.com/images/geoscape/thumbs/xnet_laboratory-100.jpg
+          image: http://www.projectxenocide.com/images/geoscape/xnet_laboratory-800.jpg
+        - url: http://www.projectxenocide.com/images/geoscape/thumbs/xnet_alien_containment-100.jpg
+          image: http://www.projectxenocide.com/images/geoscape/xnet_alien_containment-800.jpg
+    - name: "X-Force: Fight For Destiny"
+      added: 2015-04-11
+      url: http://www.xforce-online.de/
+      repo: svn://svn.code.sf.net/p/xforceffd/code/trunk
+      info: sporadic development, Delhi/Kylix, GPL2
+      media:
+        - image: https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg
+          url: https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg
+          url: https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg/182/137
 
 - name: [XOR, XOR (video game)]
   reimplementations:
