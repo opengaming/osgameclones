@@ -385,8 +385,9 @@
       info: development halted, playable, HTML5
       added: 2013-06-06
 
-
-- name: Bomberman
+- names:
+    - Bomberman
+    - Dynablaster
   clones:
     - name: SDL Bomber
       url: http://www.linuxmotors.com/SDL_bomber/
@@ -394,7 +395,48 @@
       added: 2014-01-12
       media:
         - image: http://www.linuxmotors.com/SDL_bomber/bomber.gif
-
+    - name: Bombic
+      added: 2015-04-14
+      url: http://bombic.sourceforge.net/
+      repo: svn://svn.code.sf.net/p/bombic/code/
+      info: halted development, C++, GPL2
+      media:
+        - image: https://a.fsdn.com/con/app/proj/bombic/screenshots/22410.jpg
+          url: https://a.fsdn.com/con/app/proj/bombic/screenshots/22410.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/bombic/screenshots/22408.jpg
+          url: https://a.fsdn.com/con/app/proj/bombic/screenshots/22408.jpg/182/137
+    - name: Bombic2
+      added: 2015-04-14
+      url: http://bombic2.sourceforge.net/
+      repo: svn://svn.code.sf.net/p/bombic2/code/
+      info: halted development, C++, GPL2
+      media:
+        - url: http://bombic2.sourceforge.net/screenshots/small/cooperative_multiplayer.jpg
+          image: http://bombic2.sourceforge.net/screenshots/big/cooperative_multiplayer.png
+        - url: http://bombic2.sourceforge.net/screenshots/small/final.jpg
+          image: http://bombic2.sourceforge.net/screenshots/big/final.png
+        - url: http://bombic2.sourceforge.net/screenshots/small/fireman.jpg
+          image: http://bombic2.sourceforge.net/screenshots/big/fireman.png
+        - url: http://bombic2.sourceforge.net/screenshots/small/tvboss.jpg
+          image: http://bombic2.sourceforge.net/screenshots/big/tvboss.png
+    - name:  Bomb Mania Reloaded
+      added: 2015-04-14
+      url: http://sourceforge.net/p/bomb-mania/wiki/Home/
+      repo: svn://svn.code.sf.net/p/bomb-mania/code-0/trunk
+      info: halted development, C++, GPL2
+      media:
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125901.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125901.jpg
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275181.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275181.jpg
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275183.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275183.jpg
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125905.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125905.jpg
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275185.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275185.jpg
+        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/logo.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/logo.jpg
 
 - name: Boulder Dash
   clones:
