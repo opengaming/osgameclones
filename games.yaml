@@ -586,22 +586,6 @@
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/zydiZSXpn0w" frameborder="0" allowfullscreen></iframe>
 
-
-- name: [Colonization, Sid Meier's Colonization]
-  clones:
-    - name: FreeCol
-      url: http://www.freecol.org/
-      repo: http://freecol.svn.sourceforge.net/viewvc/freecol/
-      info: active development, Java
-      media:
-        - url: http://www.freecol.org/images/screen-0.8.0-large.jpg
-          image: http://www.freecol.org/images/screen-0.8.0-small.jpg
-        - url: http://www.freecol.org/images/java-shot15.jpg
-          image: http://www.freecol.org/images/java-shot15_s.jpg
-        - url: http://www.freecol.org/images/java-shot16.jpg
-          image: http://www.freecol.org/images/java-shot16_s.jpg
-
-
 - name: [Commander Keen Series, Commander Keen]
   clones:
     - name: Commander Genius
@@ -2495,6 +2479,35 @@
       info: halted development, C, GPL2
       media:
         - image: http://freecivac.sourceforge.net/pics/govchange.png
+
+- name: ["Sid Meier's Colonization", Sid Meier's Colonization]
+  clones:
+    - name: FreeCol
+      url: http://www.freecol.org/
+      repo: http://freecol.svn.sourceforge.net/viewvc/freecol/
+      info: active development, Java
+      media:
+        - url: http://www.freecol.org/images/screen-0.8.0-large.jpg
+          image: http://www.freecol.org/images/screen-0.8.0-small.jpg
+        - url: http://www.freecol.org/images/java-shot15.jpg
+          image: http://www.freecol.org/images/java-shot15_s.jpg
+        - url: http://www.freecol.org/images/java-shot16.jpg
+          image: http://www.freecol.org/images/java-shot16_s.jpg
+
+- name: "Sid Meier's Pirates!"
+  clones:
+    - name: Crown and Cutlass
+      added: 2015-04-15
+      url: http://www.crownandcutlass.com/
+      info: halted development, C++, BSD
+      repo: svn://svn.code.sf.net/p/crownandcutlass/code/trunk
+      media:
+        - image: http://www.crownandcutlass.com/screenshots/images/CCNewMenu.png
+          url: http://www.crownandcutlass.com/screenshots/images/CCNewMenu_thumb.jpg
+        - image: http://www.crownandcutlass.com/screenshots/images/CCNewCities.png
+          url: http://www.crownandcutlass.com/screenshots/images/CCNewCities_thumb.jpg
+        - image: http://www.crownandcutlass.com/screenshots/images/CCNavalBattle.png
+          url: http://www.crownandcutlass.com/screenshots/images/CCNavalBattle_thumb.jpg
 
 - name: Shadow Warrior
   clones:
