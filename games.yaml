@@ -2486,7 +2486,7 @@
       url: http://7kfans.com/
       repo: http://7kfans.com/git/?p=7kaa.git;a=summary
 
-- names: "Sid Meier's Alpha Centauri"
+- name: "Sid Meier's Alpha Centauri"
   clones:
     - name: Freeciv Alpha Centauri project
       added: 2015-04-11
@@ -3735,8 +3735,8 @@
   reimplementations:
     - url: http://www.freeorion.org/
       name: FreeOrion
-      info: moderately active development, C++
-      repo: http://freeorion.svn.sourceforge.net/viewvc/freeorion/trunk/FreeOrion/
+      info: moderately active development, (C++, Python), Code GPL2, Content CC-BY-SA 3.0
+      repo: https://github.com/freeorion/freeorion
       media:
         - url: http://www.freeorion.org/images/8/82/Galaxy_Map_AIs_SVN3100.png
           image: http://www.freeorion.org/images/thumb/8/82/Galaxy_Map_AIs_SVN3100.png/256px-Galaxy_Map_AIs_SVN3100.png
