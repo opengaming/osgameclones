@@ -1771,7 +1771,6 @@
       info: development halted, playable, C
       added: 2014-01-12
 
-
 - name: ["Log!cal", "http://hol.abime.net/906"]
   clones:
     - name: Orbium
@@ -1779,6 +1778,22 @@
       repo: https://github.com/bni/orbium
       info: sporadic development, HTML5/JS, playable, GPL2
       added: 2014-08-20
+    - name: Pathological
+      added: 2015-04-16
+      url: http://pathological.sourceforge.net/
+      info: halted development, Python, GPL2
+      repo: http://pathological.cvs.sourceforge.net/viewvc/pathological/
+      media:
+        - url: http://pathological.sourceforge.net/screenshots/intro-small.jpg
+          image: http://pathological.sourceforge.net/screenshots/intro.png
+        - url: http://pathological.sourceforge.net/screenshots/theabyss-small.jpg
+          image: http://pathological.sourceforge.net/screenshots/theabyss.png
+        - url: http://pathological.sourceforge.net/screenshots/ketchupandmustard-small.jpg
+          image: http://pathological.sourceforge.net/screenshots/ketchupandmustard.png
+        - url: http://pathological.sourceforge.net/screenshots/wildberries-small.jpg
+          image: http://pathological.sourceforge.net/screenshots/wildberries.png
+        - url: http://pathological.sourceforge.net/screenshots/triggerpractice-small.jpg
+          image: http://pathological.sourceforge.net/screenshots/triggerpractice.png
 
 - name: [Lose Your Marbles, Sega Puzzle Pack]
   clones:
