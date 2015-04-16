@@ -451,6 +451,24 @@
       added: 2015-04-03
       media:
         - image: https://bitbucket-assetroot.s3.amazonaws.com/repository/ejzABR/4034423466-gdashgame.png?Signature=o2QfvjwJ88fFCWZTTaamGfiml70%3D&Expires=1428046717&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82
+    - name: Mining Haze
+      url: http://sourceforge.net/projects/mininghaze/
+      added: 2015-04-15
+      info: halted development, C, GPL2
+      repo: http://iweb.dl.sourceforge.net/project/mininghaze/mininghaze/0.1/mining-haze-0.1.tar.gz
+      media:
+        - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177162.jpg
+          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177162.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177272.jpg
+          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177272.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177625.jpg
+          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177625.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177621.jpg
+          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177621.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177623.jpg
+          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177623.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177270.jpg
+          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177270.jpg/182/137
 
 - name: Bubble Bobble
   clones:
@@ -585,22 +603,6 @@
       added: 2012-04-07
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/zydiZSXpn0w" frameborder="0" allowfullscreen></iframe>
-
-
-- name: [Colonization, Sid Meier's Colonization]
-  clones:
-    - name: FreeCol
-      url: http://www.freecol.org/
-      repo: http://freecol.svn.sourceforge.net/viewvc/freecol/
-      info: active development, Java
-      media:
-        - url: http://www.freecol.org/images/screen-0.8.0-large.jpg
-          image: http://www.freecol.org/images/screen-0.8.0-small.jpg
-        - url: http://www.freecol.org/images/java-shot15.jpg
-          image: http://www.freecol.org/images/java-shot15_s.jpg
-        - url: http://www.freecol.org/images/java-shot16.jpg
-          image: http://www.freecol.org/images/java-shot16_s.jpg
-
 
 - name: [Commander Keen Series, Commander Keen]
   clones:
@@ -1029,6 +1031,17 @@
         - image: https://a.fsdn.com/con/app/proj/etw/screenshots/172854.jpg
         - image: https://a.fsdn.com/con/app/proj/etw/screenshots/172856.jpg
 
+- names:
+    - Echochrome
+    - Mugen Kairō
+    - 無限回廊
+  clones:
+    - name: l-echo
+      url: https://code.google.com/p/l-echo/
+      added: 2015-04-15
+      info: halted development, C++, GPL3
+      repo: http://l-echo.googlecode.com/svn/trunk/
+
 - name: [Entombed!, "Entombed (1982 video game)"]
   clones:
     - name: Entombed!
@@ -1233,6 +1246,17 @@
           image: http://scp.indiegames.us/scn/Beyond%20the%20Red%20Line/4pu20pg_tn.jpg
         - url: http://scp.indiegames.us/scn/Earth%20Defense/in-game01.jpg
           image: http://scp.indiegames.us/scn/Earth%20Defense/in-game01_tn.jpg
+
+- name: Frogger
+  clones:
+    - name: Froggix
+      added: 2015-04-15
+      url: http://sourceforge.net/projects/froggix/
+      repo: svn://svn.code.sf.net/p/froggix/code/trunk
+      info: halted development, Python, GPL2
+      media:
+        - image: https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg
+          url: https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg/182/137
 
 - name: Geometry Wars
   clones:
@@ -1563,6 +1587,19 @@
       added: 2014-08-15
       info: active development, playable, C++
 
+- name: [Joust, Joust (video game)]
+  clones:
+    - name: Ostrich Riders
+      added: 2015-04-15
+      url: http://sourceforge.net/projects/ostrichriders/
+      info: halted development, C++, GPL3
+      repo: http://sourceforge.net/projects/ostrichriders/files/ostrichriders/0.6.1/OstrichRiders061_SRC.tar.gz/download
+      media:
+        - image: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229619.jpg
+          url: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229619.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229617.jpg
+          url: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229617.jpg/182/137
+
 - name: "Jumpgate: The Reconstruction Initiative"
   clones:
     - name: Open Jumpgate
@@ -1720,6 +1757,31 @@
       info: halted development, Objective-C, GPL3
       media:
         - image: http://luminesk5.googlecode.com/files/lumines.PNG
+
+- names:
+    - Magical Drop
+    - マジカルドロップ
+    - MagiDro
+    - マジドロ
+  clones:
+    - name: Krystal Drop
+      url: http://krystaldrop.sourceforge.net/
+      added: 2015-04-15
+      repo: http://prdownloads.sourceforge.net/krystaldrop/src_0.7.2.tgz?download
+      info: halted development, C++, GPL2
+      media:
+        - url: http://krystaldrop.sourceforge.net/images/tshot1.png
+          image: http://krystaldrop.sourceforge.net/images/sshot1.png
+        - url: http://krystaldrop.sourceforge.net/images/tshot2.png
+          image: http://krystaldrop.sourceforge.net/images/sshot2.png
+        - url: http://krystaldrop.sourceforge.net/images/tshot3.png
+          image: http://krystaldrop.sourceforge.net/images/sshot3.png
+        - url: http://krystaldrop.sourceforge.net/images/tshot4.png
+          image: http://krystaldrop.sourceforge.net/images/sshot4.png
+        - url: http://krystaldrop.sourceforge.net/images/tshot5.png
+          image: http://krystaldrop.sourceforge.net/images/sshot5.png
+        - url: http://krystaldrop.sourceforge.net/images/tshot6.png
+          image: http://krystaldrop.sourceforge.net/images/sshot6.png
 
 - name: Marble Madness
   clones:
@@ -2496,6 +2558,35 @@
       media:
         - image: http://freecivac.sourceforge.net/pics/govchange.png
 
+- name: ["Sid Meier's Colonization", Sid Meier's Colonization]
+  clones:
+    - name: FreeCol
+      url: http://www.freecol.org/
+      repo: http://freecol.svn.sourceforge.net/viewvc/freecol/
+      info: active development, Java
+      media:
+        - url: http://www.freecol.org/images/screen-0.8.0-large.jpg
+          image: http://www.freecol.org/images/screen-0.8.0-small.jpg
+        - url: http://www.freecol.org/images/java-shot15.jpg
+          image: http://www.freecol.org/images/java-shot15_s.jpg
+        - url: http://www.freecol.org/images/java-shot16.jpg
+          image: http://www.freecol.org/images/java-shot16_s.jpg
+
+- name: "Sid Meier's Pirates!"
+  clones:
+    - name: Crown and Cutlass
+      added: 2015-04-15
+      url: http://www.crownandcutlass.com/
+      info: halted development, C++, BSD
+      repo: svn://svn.code.sf.net/p/crownandcutlass/code/trunk
+      media:
+        - image: http://www.crownandcutlass.com/screenshots/images/CCNewMenu.png
+          url: http://www.crownandcutlass.com/screenshots/images/CCNewMenu_thumb.jpg
+        - image: http://www.crownandcutlass.com/screenshots/images/CCNewCities.png
+          url: http://www.crownandcutlass.com/screenshots/images/CCNewCities_thumb.jpg
+        - image: http://www.crownandcutlass.com/screenshots/images/CCNavalBattle.png
+          url: http://www.crownandcutlass.com/screenshots/images/CCNavalBattle_thumb.jpg
+
 - name: Shadow Warrior
   clones:
     - name: JonoF's Shadow Warrior Port (JFSW)
@@ -2942,6 +3033,16 @@
         - url: http://cecp.biz/beta4.jpg
           image: http://cecp.biz/beta4.jpg
 
+- name: [Thrust, Thrust (video game)]
+  clones:
+    - name: Thrust
+      added: 2015-04-15
+      url: https://www.lysator.liu.se/~peda/thrust/
+      repo: https://www.lysator.liu.se/~peda/thrust/src/
+      info: halted development, C, GPL2
+      media:
+        - image: https://www.lysator.liu.se/~peda/thrust/thrust.gif
+
 - names:
     - Titus the Fox
     - [Moktar, Titus the Fox]
@@ -3349,6 +3450,17 @@
       repo: https://github.com/pmprog/OpenApoc
       url: http://openapoc.pmprog.co.uk/
 
+- name: Xenon 2 Megablast
+  clones:
+    - name: Phavon
+      added: 2015-04-15
+      url: http://phavon.sourceforge.net/
+      repo: http://phavon.cvs.sourceforge.net/viewvc/phavon/
+      info: halted development, C, WIP, GPL2
+      media:
+        - url: http://phavon.sourceforge.net/snap001_sm.jpg
+          image: http://phavon.sourceforge.net/snap001.jpg
+
 - name: XPilot
   clones:
     - name: XPilot NG
@@ -3744,6 +3856,21 @@
           image: http://www.freeorion.org/images/thumb/1/14/Design_Screen_SVN3097.png/256px-Design_Screen_SVN3097.png
         - url: http://www.freeorion.org/images/a/ab/FreeOrion3215_Galaxy_Map.png
           image: http://www.freeorion.org/images/thumb/a/ab/FreeOrion3215_Galaxy_Map.png/256px-FreeOrion3215_Galaxy_Map.png
+
+- name: [Micro Machines, Micro Machines (video game series)]
+  clones:
+    - name: Microracers
+      added: 2015-04-15
+      url: http://microracers.sourceforge.net/
+      info: halted development, C++, GPL2
+      repo: http://microracers.cvs.sourceforge.net/viewvc/microracers/
+      media:
+        - url: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-1-small.jpg
+          image: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-1.jpg
+        - url: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-2-small.jpg
+          image: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-2.jpg
+        - url: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-3-small.jpg
+          image: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-3.jpg
 
 - name: Microsoft Flight Simulator
   reimplementations:
