@@ -494,6 +494,21 @@
         - image: http://bub-n-bros.sourceforge.net/images/alone-in-the-world.png
         - image: http://bub-n-bros.sourceforge.net/images/pacman.png
 
+- names:
+    - BurgerTime
+    - バーガータイム
+    - Hamburger
+    - ハンバーガー
+  clones:
+    - name: BurgerSpace
+      added: 2015-04-16
+      url: http://perso.b2b2c.ca/sarrazip/dev/burgerspace.html
+      repo: http://perso.b2b2c.ca/sarrazip/dev/burgerspace-1.9.2.tar.gz
+      info: halted development, C++, GPL2
+      media:
+        - image: http://perso.b2b2c.ca/sarrazip/dev/images/burgerspace-1.png
+          url: http://perso.b2b2c.ca/sarrazip/dev/images/burgerspace-1-tn.png
+
 - name: "Buzz Aldrin's Race Into Space"
   clones:
     - name: Race Into Space
