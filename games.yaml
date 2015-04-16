@@ -1893,6 +1893,17 @@
         - image: http://1amstudios.com/img/opennfs1/image13.jpg
         - image: http://1amstudios.com/img/opennfs1/image10.jpg
 
+- name: [Night Stalker, Night Stalker (video game)]
+  clones:
+    - name: Afternoon Stalker
+      url: http://perso.b2b2c.ca/sarrazip/dev/afternoonstalker.html
+      repo: http://perso.b2b2c.ca/sarrazip/dev/afternoonstalker-1.1.5.tar.gz
+      added: 2015-04-16
+      info: sporadic development, C++, GPL2
+      media:
+        - image: http://perso.b2b2c.ca/sarrazip/dev/images/afternoonstalker-1.png
+          url: http://perso.b2b2c.ca/sarrazip/dev/images/afternoonstalker-1-tn.png
+
 - name: [Outcast, Outcast (video game)]
   clones:
     - name: OpenOutcast
