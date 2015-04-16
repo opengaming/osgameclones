@@ -722,6 +722,19 @@
         - image: http://coab.googlecode.com/svn/pics/title-screen.png
         - image: http://coab.googlecode.com/svn/pics/world-map.png
 
+- name: [Cytadela, "http://www.ppa.pl/gry/cytadela.html"]
+  clones:
+    - name: Cytadela
+      added: 2015-04-16
+      url: http://cytadela.sourceforge.net/about.php
+      info: sporadic development, C++, GPL3
+      repo: http://heanet.dl.sourceforge.net/project/cytadela/cytadela/1.1.0/cytadela-1.1.0.tar.bz2
+      media:
+        - image: http://cytadela.sourceforge.net/images/901.png
+        - image: http://cytadela.sourceforge.net/images/912.png
+        - image: http://cytadela.sourceforge.net/images/915.png
+        - image: http://cytadela.sourceforge.net/images/923.png
+
 - name: C-Dogs
   clones:
     - name: C-Dogs SDL
