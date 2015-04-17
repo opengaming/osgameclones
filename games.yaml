@@ -2510,6 +2510,13 @@
          - image: http://freerails2.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
          - url: http://freerails2.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
 
+- name: [Rampart, Rampart (video game)]
+  clones:
+    - name: Escalade
+      added: 2015-04-17
+      repo: https://github.com/mdr/escalade
+      info: halted development, Scala, no specified licence
+
 - name: Redneck Rampage
   clones:
     - name: erampage (EDuke32 fork)
