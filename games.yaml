@@ -1266,6 +1266,31 @@
         - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot8.jpg
           image: http://www.braingames.getput.com/f1spirit/pics/screenshot8.jpg
 
+- name: "F-Zero"
+  clones:
+    - name: "F-Zero Clone"
+      added: 2015-04-25
+      repo: https://github.com/chipbell4/F-Zero-Clone
+      info: active development, (JavaScript - CoffeeScript, WebGL), no specified licence
+    - name: Racer
+      url: http://sourceforge.net/projects/racer/
+      info: active development, (C++ & Python), GPL3
+      repo: svn://svn.code.sf.net/p/racer/code/trunk
+      added: 2015-04-25
+      media:
+        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269275.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269275.jpg
+        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269265.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269265.jpg
+        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269271.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269271.jpg
+        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269273.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269273.jpg
+        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269267.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269267.jpg
+        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269269.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269269.jpg
+
 - name: [Fade to Black, Fade to Black (video game)]
   clones:
     - name: f2bgl
@@ -1736,6 +1761,13 @@
       url: http://sourceforge.net/projects/opengate/
       added: 2014-09-05
       info: active development, C++
+
+- name: "Jump 'n Bump"
+  clones:
+    - name: Jump'n'Bump
+      added: 2015-04-25
+      url: https://www.icculus.org/jumpnbump/
+      info: halted development, C, GPL2
 
 - name: [Jumping Jack, "Jumping Jack (arcade game)"]
   clones:
@@ -2560,6 +2592,18 @@
       repo: https://code.google.com/p/erampage/source/checkout
       added: 2013-05-29
 
+- name: Rescue!
+  clones:
+    - name: Rescue! Max
+      added: 2015-04-25
+      url: http://rescue.sourceforge.net/
+      repo: http://sf.net/p/rescue/code/
+      info: halted development, Java, GPL2
+      media:
+        - url: http://rescue.sourceforge.net/screenshots/rescue1.0a_small.png
+          image: http://rescue.sourceforge.net/screenshots/rescue1.0a.png
+        - url: http://rescue.sourceforge.net/screenshots/rescue1.0b_small.png
+          image: http://rescue.sourceforge.net/screenshots/rescue1.0b.png
 
 - name: Rick Dangerous
   clones:
@@ -2868,6 +2912,27 @@
           url: http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png
         - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/partymode_teams.png
           url: http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
+
+- name: Solar Fox
+  clones:
+    - name: SolarWolf
+      added: 2015-04-25
+      url: http://pygame.org/shredwheat/solarwolf/index.shtml
+      repo: http://pygame.org/shredwheat/solarwolf/solarwolf-1.5.tar.gz
+      info: Python, LGPL 2.1
+      media:
+        - url: http://pygame.org/shredwheat/solarwolf/screen/mini1.jpg
+          image: http://pygame.org/shredwheat/solarwolf/screen/shot1.jpg
+        - url: http://pygame.org/shredwheat/solarwolf/screen/mini2.jpg
+          image: http://pygame.org/shredwheat/solarwolf/screen/shot2.jpg
+        - url: http://pygame.org/shredwheat/solarwolf/screen/mini3.jpg
+          image: http://pygame.org/shredwheat/solarwolf/screen/shot3.jpg
+        - url: http://pygame.org/shredwheat/solarwolf/screen/mini4.jpg
+          image: http://pygame.org/shredwheat/solarwolf/screen/shot4.jpg
+        - url: http://pygame.org/shredwheat/solarwolf/screen/mini5.jpg
+          image: http://pygame.org/shredwheat/solarwolf/screen/shot5.jpg
+        - url: http://pygame.org/shredwheat/solarwolf/screen/mini6.jpg
+          image: http://pygame.org/shredwheat/solarwolf/screen/shot6.jpg
 
 - name: [Sopwith, Sopwith (video game)]
   clones:
@@ -3810,6 +3875,21 @@
         - image: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01_t.jpg
           url: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01.jpg
 
+- name: [Breakout, Breakout (video game)]
+  reimplementations:
+    - name: BRIQUOLO
+      added: 2015-04-25
+      info: halted development, C++, GPL3
+      repo: http://briquolo.free.fr/download/briquolo-0.5.7.tar.bz2
+      url: http://briquolo.free.fr/en/index.html
+      media:
+        - url: http://briquolo.free.fr/images/thumbnail-Briquolo-0.5-briquolo01.jpg
+          image: http://briquolo.free.fr/images/Briquolo-0.5-briquolo01.jpg
+        - url: http://briquolo.free.fr/images/thumbnail-Briquolo-0.5-briquolo04.jpg
+          image: http://briquolo.free.fr/images/Briquolo-0.5-briquolo04.jpg
+        - url: http://briquolo.free.fr/images/thumbnail-Briquolo-0.3-briquolo10.jpg
+          image: http://briquolo.free.fr/images/Briquolo-0.3-briquolo10.jpg
+
 - name: [Civilization, Civilization (video game)]
   clones:
     - name: Civ-Remake
@@ -4463,6 +4543,36 @@
       repo: https://github.com/core-code/CoreBreach
       url: http://corebreach.corecode.at/CoreBreach/CoreBreach.html
       added: 2015-04-05
+    - name: H-Craft Championship
+      added: 2015-04-25
+      url: http://www.irrgheist.com/games.htm
+      repo: https://bitbucket.org/mzeilfelder/trunk_hc1
+      info: active development, C++, ZLIB
+      media:
+        - url: http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f01_t.jpg
+          image: http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f01.jpg
+        - url: http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f07_t.jpg
+          image: http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f07.jpg
+        - url: http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f02_t.jpg
+          image: http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f02.jpg
+    - name: Ecksdee
+      url: http://sourceforge.net/projects/ecksdee/
+      info: halted development, C++, GPL2
+      repo: git://git.code.sf.net/p/ecksdee/ecksdee
+      added: 2015-04-25
+      media:
+        - url: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/98817.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/98817.jpg
+        - url: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/98811.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/98811.jpg
+        - url: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99927.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99927.jpg
+        - url: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/67869.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/67869.jpg
+        - url: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99925.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99925.jpg
+        - url: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/90020.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/ecksdee/screenshots/90020.jpg
 
 - name: [X-COM Series, X-COM]
   reimplementations:
