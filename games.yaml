@@ -2567,6 +2567,18 @@
       repo: https://code.google.com/p/erampage/source/checkout
       added: 2013-05-29
 
+- name: Rescue!
+  clones:
+    - name: Rescue! Max
+      added: 2015-04-25
+      url: http://rescue.sourceforge.net/
+      repo: http://sf.net/p/rescue/code/
+      info: halted development, Java, GPL2
+      media:
+        - url: http://rescue.sourceforge.net/screenshots/rescue1.0a_small.png
+          image: http://rescue.sourceforge.net/screenshots/rescue1.0a.png
+        - url: http://rescue.sourceforge.net/screenshots/rescue1.0b_small.png
+          image: http://rescue.sourceforge.net/screenshots/rescue1.0b.png
 
 - name: Rick Dangerous
   clones:
@@ -4470,6 +4482,7 @@
       repo: https://github.com/core-code/CoreBreach
       url: http://corebreach.corecode.at/CoreBreach/CoreBreach.html
       added: 2015-04-05
+    
 
 - name: [X-COM Series, X-COM]
   reimplementations:
