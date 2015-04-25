@@ -3836,6 +3836,20 @@
         - image: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01_t.jpg
           url: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01.jpg
 
+- name: [Breakout, Breakout (video game)]
+  reimplementations:
+    - name: BRIQUOLO
+      added: 2015-04-25
+      info: halted development, C++, GPL3
+      repo: http://briquolo.free.fr/download/briquolo-0.5.7.tar.bz2
+      media:
+        - url: http://briquolo.free.fr/images/thumbnail-Briquolo-0.5-briquolo01.jpg
+          image: http://briquolo.free.fr/images/Briquolo-0.5-briquolo01.jpg
+        - url: http://briquolo.free.fr/images/thumbnail-Briquolo-0.5-briquolo04.jpg
+          image: http://briquolo.free.fr/images/Briquolo-0.5-briquolo04.jpg
+        - url: http://briquolo.free.fr/images/thumbnail-Briquolo-0.3-briquolo10.jpg
+          image: http://briquolo.free.fr/images/Briquolo-0.3-briquolo10.jpg
+
 - name: [Civilization, Civilization (video game)]
   clones:
     - name: Civ-Remake
