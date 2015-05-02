@@ -3259,6 +3259,13 @@
       info: halted development, C++, GPL2
       repo: http://sourceforge.net/projects/opensyobon/files/src/
 
+- name: SkiFree
+  clones:
+    - name: skifree.js
+      added: 2015-05-02
+      repo: https://github.com/basicallydan/skifree.js
+      info: active development, JavaScript, custom licence
+
 - name: [Tempest, Tempest (video game)]
   clones:
     - url: https://github.com/stephank/arashi-js
@@ -4536,6 +4543,14 @@
           url: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/thumb/m3.png
         - image: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/m7.png
           url: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/thumb/m7.png
+
+- name: Tetris
+  reimplementations:
+    - name: 4DTris
+      url: http://sourceforge.net/projects/dtris/
+      added: 2015-05-02
+      repo: https://bazaar.launchpad.net/~4dtris-dev/4dtris/trunk/files
+      info: halted development, C, GPL2
 
 - name: Crimsonland
   reimplementations:
