@@ -147,6 +147,17 @@
       added: 2015-04-02
       info: development halted, C
 
+- name: "Archon: The Light and the Dark"
+  clones:
+    - name: XArchon
+      added: 2015-05-03
+      url: http://xarchon.seul.org/
+      info: halted development, (C, C++), GPL3
+      repo: http://xarchon.seul.org/xarchon-0.50.tar.gz
+      media:
+        - image: http://xarchon.seul.org/img/snap-1.gif
+        - image: http://xarchon.seul.org/img/snap-2.gif
+
 - name: [Ares, Ares (video game)]
   clones:
     - name: Antares
@@ -162,6 +173,14 @@
         - image: http://farm3.static.flickr.com/2597/4103065046_f52a39003f_m.jpg
           url: http://www.flickr.com/photos/sfiera/4103065046/in/pool-1519223@N24/
         - raw: <iframe width="560" height="315" src="//www.youtube.com/embed/4s44qu5zgXE?rel=0" frameborder="0" allowfullscreen></iframe>
+
+- name: Armor Alley
+  clones:
+    - name: Armor Alley
+      added: 2015-05-05
+      url: http://www.schillmania.com/armor-alley/
+      repo: https://github.com/scottschiller/ArmorAlley
+      info: active development, JavaScript, CC3.0
 
 - name: Artillery Duel
   clones:
@@ -500,6 +519,20 @@
           image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275185.jpg
         - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/logo.jpg/182/137
           image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/logo.jpg
+    - name: I Have No Tomatoes
+      url: http://tomatoes.sourceforge.net/screenshots.html
+      repo: http://kent.dl.sourceforge.net/project/tomatoes/tomatoes/1.5/tomatoes-win32-src-1.5.zip
+      added: 2015-05-02
+      info: halted development, C++, custom licence
+      media:
+        - url: http://tomatoes.sourceforge.net/ss1s.jpg
+          image: http://tomatoes.sourceforge.net/ss1.jpg
+        - url: http://tomatoes.sourceforge.net/ss2s.jpg
+          image: http://tomatoes.sourceforge.net/ss2.jpg
+        - url: http://tomatoes.sourceforge.net/ss3s.jpg
+          image: http://tomatoes.sourceforge.net/ss3.jpg
+        - url: http://tomatoes.sourceforge.net/ss4s.jpg
+          image: http://tomatoes.sourceforge.net/ss4.jpg
 
 - name: Boulder Dash
   clones:
@@ -532,6 +565,10 @@
           url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177623.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177270.jpg
           url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177270.jpg/182/137
+    - name: Digger
+      added: 2015-05-02
+      repo: https://github.com/lutzroeder/digger
+      info: active development, TypeScript, no specified licence
 
 - name: Bubble Bobble
   clones:
@@ -737,6 +774,13 @@
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/OpenRA-20120504-CnC-Shellmap.png
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/invasion.png
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/d2k-ingame.png
+
+- name: Cookie Clicker
+  clones:
+    - name: CookieClickerRemake
+      added: 2015-05-03
+      repo: https://github.com/ricodejong02/CookieClickerRemake
+      info: active development, C#, no specified licence
 
 - name: [Crazy Cars, Titus Software]
   clones:
@@ -1297,6 +1341,13 @@
       url: https://github.com/cyxx/f2bgl
       info: sporadic development, C++
 
+- name: [Fall Down, "https://www.mobygames.com/game/fall-down"]
+  clones:
+    - name: ativayeban
+      added: 2015-05-03
+      repo: https://github.com/Nebuleon/ativayeban
+      info: active development, C, GPL2
+
 - name: Fallout 2
   clones:
     - name: Falltergeist
@@ -1313,6 +1364,17 @@
       info: halted development, C#, custom licence (NeoAxis 3D Engine 2.0 Free SDK License Agreement)
       media:
         - image: http://s689.photobucket.com/user/razvan2140/media/van%20buren/post13_3_zpsfe75e66a.png.html
+
+- name: Flappy Bird
+  clones:
+    - name: CrappyBird
+      added: 2015-05-02
+      repo: https://github.com/varunpant/CrappyBird
+      info: sporadic development, JavaScript, MIT
+    - name: Clumsy Bird
+      added: 2015-05-02
+      repo: https://github.com/ellisonleao/clumsy-bird
+      info: active development, MelonJS, MIT
 
 - name: [Flashback, Flashback (1992 video game)]
   clones:
@@ -1574,6 +1636,13 @@
       info: development halted, C
       added: 2013-06-08
 
+- name: Halls of the Things
+  clones:
+    - name: Halls of the Things 2008/2011/2014 Remake
+      added: 2015-05-03
+      url: http://whatisblueandfurry.com/hott/halls08.html
+      repo: http://whatisblueandfurry.com/hott/Halls08Srcv100.zip
+      info: sporadic development, C#, no specified licence
 
 - name: [Hardwar, Hardwar (video game)]
   clones:
@@ -1643,6 +1712,33 @@
         - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=41
           url: http://forum.vcmi.eu/album_pic.php?pic_id=41
 
+- name: Highway Encounter
+  clones:
+    - name: Vorton
+      added: 2015-05-03
+      url: http://vorton.sourceforge.net/
+      info: halted development, C, GPL3
+      repo: http://iweb.dl.sourceforge.net/project/vorton/Vorton-Source/Beta-2/vorton-src-beta2.zip
+      media:
+        - url: http://vorton.sourceforge.net/sshot2.png
+          image: http://vorton.sourceforge.net/shot3.png
+        - url: http://vorton.sourceforge.net/sshot3.png
+          image: http://vorton.sourceforge.net/shot3.png
+        - url: http://vorton.sourceforge.net/sshot5.png
+          image: http://vorton.sourceforge.net/shot5.png
+
+- name: "History Line: 1914-1918"
+  clones:
+    - name: Historyline
+      added: 2015-05-03
+      repo: https://github.com/oliverdb/Historyline
+      url: https://conquertheworldbycode.wordpress.com/nostalgia-2/
+      info: halted development, (Unity, C#)
+      media:
+        - url: https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png?w=300&h=194
+          image: https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png
+        - url: https://conquertheworldbycode.files.wordpress.com/2013/10/screen.png?w=300&h=195
+          image: https://conquertheworldbycode.files.wordpress.com/2013/10/screen.png
 
 - name: Homeworld
   clones:
@@ -2310,6 +2406,15 @@
           image: https://sourceforge.net/projects/gigalomania/screenshots/glm_0_27_windows_ss1.jpg/182/137/
         - raw: <iframe width="320" height="240" src="//www.youtube.com/embed/lTtT9p9DVL8?rel=0" frameborder="0" allowfullscreen></iframe>
 
+- name: [MegaMan, MegaMan (video game)]
+  clones:
+    - name: Executive Man
+      repo: https://github.com/CamHenlin/ExecutiveMan
+      added: 2015-05-02
+      info: active development, JavaScript, custom licence
+      media:
+        - image: https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png
+
 - name: [Millipede, Millipede (video game)]
   clones:
     - name: Monsters and Mushrooms
@@ -2376,6 +2481,13 @@
       media:
         - image: http://blog.mezeske.com/wp-content/uploads/2011/07/digbuild-screenshot-1.jpg
           url: http://blog.mezeske.com/wp-content/uploads/2011/07/digbuild-screenshot-1-small.jpg
+    - name: TrueCraft
+      added: 2015-05-02
+      url: http://truecraft.io/
+      repo: https://github.com/SirCmpwn/TrueCraft
+      info: active development, C#, custom licence
+      media:
+        - image: http://a.pomf.se/jksvcq.png
 
 - name: [Nebulus, Nebulus (video game)]
   clones:
@@ -2419,7 +2531,6 @@
         - image: http://xoreos.org/images/NWN_20130528T054618_500.png
           url: http://xoreos.org/images/NWN_20130528T054618.png
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/WaRfBsZVO3Y?rel=0" frameborder="0" allowfullscreen></iframe>
-
 
 - name: "One Must Fall: 2097"
   clones:
@@ -2584,6 +2695,13 @@
       repo: https://github.com/mdr/escalade
       info: halted development, Scala, no specified licence
 
+- name: "Raptor: Call of the Shadows"
+  clones:
+    - name: raptor
+      added: 2015-05-03
+      repo: https://github.com/robgietema/raptor
+      info: halted development, JavaScript, no specified licence
+
 - name: Redneck Rampage
   clones:
     - name: erampage (EDuke32 fork)
@@ -2672,6 +2790,26 @@
       url: https://github.com/Ernir/robotron
       added: 2015-04-06
       info: active development, JavaScript
+
+- name: "Rodent's Revenge"
+  clones:
+    - name: Open Rodent's Revenge
+      added: 2015-05-03
+      repo: svn://svn.code.sf.net/p/o2r/code/trunk
+      info: halted development, C++, GPL3
+      media:
+        - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/254642.jpg
+          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/254642.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/254636.jpg
+          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/254636.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/254640.jpg
+          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/254640.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/267538.jpg
+          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/267538.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/255628.jpg
+          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/255628.jpg/182/137
+        - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/267946.jpg
+          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/267946.jpg/182/137
 
 - name: RollerCoaster Tycoon
   clones:
@@ -2766,6 +2904,18 @@
       repo: git://git.code.sf.net/p/ysoccer/code ysoccer-code
       added: 2015-04-03
       info: sporadic development, BlitzMax, GPL
+
+- name: [Sensitive, "https://www.mobygames.com/game/c64/sensitive"]
+  clones:
+    - name: One Way To Go
+      repo: https://github.com/purplehuman/onewaytogo
+      info: active development, Lua, GPL3
+      added: 2015-05-02
+      media:
+        - url: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/screenshot_zps0048f6d4.PNG/182/137
+          image: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/screenshot_zps0048f6d4.PNG
+        - url: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/owtg_zpsc6792600.PNG/182/137
+          image: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/owtg_zpsc6792600.PNG
 
 - name: [Seven Kingdoms, Seven Kingdoms (computer game)]
   clones:
@@ -3226,6 +3376,13 @@
       info: halted development, C++, GPL2
       repo: http://sourceforge.net/projects/opensyobon/files/src/
 
+- name: SkiFree
+  clones:
+    - name: skifree.js
+      added: 2015-05-02
+      repo: https://github.com/basicallydan/skifree.js
+      info: active development, JavaScript, custom licence
+
 - name: [Tempest, Tempest (video game)]
   clones:
     - url: https://github.com/stephank/arashi-js
@@ -3242,6 +3399,17 @@
       repo: https://github.com/awlzac/wbta
       info: active development, Java, Android, no specified licence
       added: 2015-04-12
+
+- name: [Test Drive, Test Drive (video game)]
+  clones:
+    - name: opengl_test_drive_clone
+      added: 2015-05-03
+      repo: https://github.com/capnramses/opengl_test_drive_clone
+      url: http://antongerdelan.net/blog/?post=2014_12_10_test_drive
+      info: C, GPL3
+      media:
+        - image: http://antongerdelan.net/blog/images/tdrive_speedo.png
+        - image: http://antongerdelan.net/blog/images/tdrive_tacho.png
 
 - name: Tetris Attack
   clones:
@@ -3289,6 +3457,13 @@
       info: halted development, C, GPL2
       media:
         - image: https://www.lysator.liu.se/~peda/thrust/thrust.gif
+
+- name: Tiny Wings
+  clones:
+    - name: Tiny Wings
+      added: 2015-05-02
+      repo: https://github.com/haqu/tiny-wings
+      info: halted development, Objective-C, MIT
 
 - names:
     - Titus the Fox
@@ -3837,6 +4012,17 @@
           image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png
         - url: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png/182/137
           image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png
+    - name: Ball And Wall
+      repo: https://github.com/budnix/ball-and-wall
+      added: 2015-05-03
+      info: active development, JavaScript, MIT
+
+- name: "Artemis: Spaceship Bridge Simulator"
+  reimplementations:
+    - name: Space Nerds In Space
+      repo: https://github.com/smcameron/space-nerds-in-space
+      added: 2015-05-02
+      info: active development, C, GPL2
 
 - name: [Battle Isle series, Battle Isle (series)]
   reimplementations:
@@ -4076,6 +4262,17 @@
           url: http://blog.naev.org/wp-content/gallery/media/slotsizes.png
         - image: http://blog.naev.org/wp-content/gallery/media/thumbs/thumbs_siriusskirmish.png
           url: http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png
+    - url: https://endless-sky.github.io/
+      repo: https://github.com/endless-sky
+      added: 2015-05-02
+      info: active development, C++, GPL3
+      name: Endless Sky
+      media:
+        - image: https://endless-sky.github.io/screenshots/fight.jpg
+        - image: https://endless-sky.github.io/screenshots/trading.jpg
+        - image: https://endless-sky.github.io/screenshots/map.jpg
+        - image: https://endless-sky.github.io/screenshots/plunder.jpg
+        - image: https://endless-sky.github.io/screenshots/missions.jpg
 
 - name: [Falcon, Falcon (video game series)]
   reimplementations:
@@ -4202,20 +4399,6 @@
       media:
         - image: http://openmortal.sourceforge.net/images/screenshot3.jpg
 
-- name: Paradroid
-  reimplementations:
-    - name: FreedroidRPG
-      url: http://www.freedroid.org/
-      repo: git://git.code.sf.net/p/freedroid/code
-      info: active development, (Python, C, Lua), GPL2
-      media:
-        - url: http://www.freedroid.org/typo3temp/pics/1a05e07c79.jpg
-          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Fbeginning-cryolab-3455.jpg&md5=a23bdfc7733b5af61b88e3fdd7b86fad7f7ea7b3&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
-        - url: http://www.freedroid.org/typo3temp/pics/bf0f5a5110.jpg
-          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Ffight-cryoentrance-3455.jpg&md5=5ff77ef9b8a1387efd05de4045a3f8f16e84dc3b&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
-        - url: http://www.freedroid.org/typo3temp/pics/8e73eab80e.jpg
-          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Fitemaddons-upgrading-3455.jpg&md5=6e3cc2483e9cfc7c75b8a2d9edb56c6170bcc41e&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
-
 - name: [Similar to Natural Selection, Natural Selection (video game)]
   reimplementations:
     - url: http://www.unvanquished.net/
@@ -4257,6 +4440,27 @@
         - image: http://www.xonotic.org/m/uploads/2012/07/frontpage_013_small.jpg
           url: http://www.xonotic.org/m/uploads/2012/07/frontpage_013.jpg
         - raw: <iframe width="560" height="315" src="http://www.youtube.com/embed/Io920ID423A?rel=0" frameborder="0" allowfullscreen></iframe>
+
+- name: Omega Race
+  reimplementations:
+    - name: Torrega Race
+      repo: https://github.com/andwj/torrega
+      added: 2015-05-02
+      info: active development, (LÖVE, Lua), GPL3
+
+- name: Paradroid
+  reimplementations:
+    - name: FreedroidRPG
+      url: http://www.freedroid.org/
+      repo: git://git.code.sf.net/p/freedroid/code
+      info: active development, (Python, C, Lua), GPL2
+      media:
+        - url: http://www.freedroid.org/typo3temp/pics/1a05e07c79.jpg
+          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Fbeginning-cryolab-3455.jpg&md5=a23bdfc7733b5af61b88e3fdd7b86fad7f7ea7b3&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
+        - url: http://www.freedroid.org/typo3temp/pics/bf0f5a5110.jpg
+          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Ffight-cryoentrance-3455.jpg&md5=5ff77ef9b8a1387efd05de4045a3f8f16e84dc3b&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
+        - url: http://www.freedroid.org/typo3temp/pics/8e73eab80e.jpg
+          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Fitemaddons-upgrading-3455.jpg&md5=6e3cc2483e9cfc7c75b8a2d9edb56c6170bcc41e&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
 
 - name: RPG Maker
   reimplementations:
@@ -4408,7 +4612,11 @@
           url: http://supertux.lethargik.org/images/supertux-0.1.3-1.jpg
         - image: http://supertux.lethargik.org/images/supertux-0.1.3-6_small.jpg
           url: http://supertux.lethargik.org/images/supertux-0.1.3-6.jpg
-
+    - name: Super Mario Bros With SFML in C#
+      url: https://mario.codeplex.com/
+      added: 2015-05-03
+      repo: https://mario.codeplex.com/SourceControl/latest
+      info: active development, C#, GPL2
 
 - name: Transport Tycoon Deluxe
   reimplementations:
@@ -4478,6 +4686,19 @@
           url: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/thumb/m3.png
         - image: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/m7.png
           url: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/thumb/m7.png
+
+- name: Tetris
+  reimplementations:
+    - name: 4DTris
+      url: http://sourceforge.net/projects/dtris/
+      added: 2015-05-02
+      repo: https://bazaar.launchpad.net/~4dtris-dev/4dtris/trunk/files
+      info: halted development, C, GPL2
+    - name: Hextris
+      url: https://hextris.github.io/
+      repo: https://github.com/Hextris/Hextris
+      added: 2015-05-02
+      info: active development, JavaScript, GPL3
 
 - name: Crimsonland
   reimplementations:
