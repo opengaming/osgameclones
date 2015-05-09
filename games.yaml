@@ -3176,11 +3176,20 @@
 
 - name: Stars!
   clones:
-    - name:  Freestars
+    - name: Freestars
       added: 2015-04-11
       url: http://freestars.sourceforge.net/
       repo: svn://svn.code.sf.net/p/freestars/code/trunk
       info: halted development, C++, GPL2
+    - name: NStars!
+      added: 2015-05-09
+      url: http://nstars.sourceforge.net/
+      info: halted development, C#, GPL2
+      repo: http://nstars.cvs.sourceforge.net/viewvc/nstars/
+      media:
+        - image: http://nstars.sourceforge.net/nstars01.png
+        - image: http://nstars.sourceforge.net/nstars02.png
+        - image: http://nstars.sourceforge.net/nstars03.png
 
 - name: Starshatter
   clones:
