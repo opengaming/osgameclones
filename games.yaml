@@ -3948,6 +3948,24 @@
           url: http://zod.sourceforge.net/screenshots/gameplay_13.png
         - raw: <embed src="http://www.youtube.com/v/8VehUvuWHqw&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed>
 
+- name: Zoop
+  clones:
+    - name: KZap
+      added: 2015-05-09
+      url: http://kzap.sourceforge.net/
+      repo: http://prdownloads.sourceforge.net/kzap/kzap-0.2.tar.gz
+      info: halted development, C++, GPL2
+      media:
+        - url: http://kzap.sourceforge.net/kzap-small.png
+          image: http://kzap.sourceforge.net/kzap.png
+    - name: Zoop
+      added: 2015-05-09
+      url: http://gamesoft.ca/remakes.html
+      repo: http://gamesoft.ca/bestgames/zoop_src.zip
+      info: Java, no specified licence
+      media:
+        - image: http://gamesoft.ca/bestgames/images/zoop_java.png
+
 - name: [Zuma, Zuma (video game)]
   clones:
     - name: Zaz
