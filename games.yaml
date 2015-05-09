@@ -2301,13 +2301,14 @@
       added: 2014-01-12
 
 - name: [Quadnet, "https://www.mobygames.com/game/dos/quadnet"]
-  - name: Mauvenet
-    added: 2015-05-09
-    repo: http://gamesoft.ca/bestgames/mauvenet_.zip
-    info: C++, no specified licence
-    url: http://gamesoft.ca/remakes.html
-    media:
-      - image: http://gamesoft.ca/bestgames/images/mauvenet3.png
+  clones:
+    - name: Mauvenet
+      added: 2015-05-09
+      repo: http://gamesoft.ca/bestgames/mauvenet_.zip
+      info: C++, no specified licence
+      url: http://gamesoft.ca/remakes.html
+      media:
+        - image: http://gamesoft.ca/bestgames/images/mauvenet3.png
 
 - name: Quake
   clones:
