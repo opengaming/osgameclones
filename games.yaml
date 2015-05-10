@@ -1434,7 +1434,6 @@
         - image: http://fly.thruhere.net/fsplanet/images/I_ins_koth007_thumb.jpg
           url: http://fly.thruhere.net/fsplanet/images/I_ins_koth007.JPG
 
-
 - name: FreeSpace 2
   clones:
     - name: FreeSpace Source Code Project
@@ -1482,6 +1481,17 @@
       url: https://code.google.com/p/geomwarsremake/
       info: halted development, Java, GPL
       repo: http://geomwarsremake.googlecode.com/svn/trunk/
+    - name: Grid Wars 2
+      added: 2015-05-09
+      url: http://worldofstuart.excellentcontent.com/grid/wars.htm
+      repo: http://worldofstuart.excellentcontent.com/grid/GridWars54.zip
+      info: Blitz Max, no specified licence
+      media:
+        - image: http://worldofstuart.excellentcontent.com/grid/gw1.jpg
+        - image: http://worldofstuart.excellentcontent.com/grid/gw2.jpg
+        - image: http://worldofstuart.excellentcontent.com/grid/gw3.jpg
+        - image: http://worldofstuart.excellentcontent.com/grid/gw4.jpg
+        - image: http://worldofstuart.excellentcontent.com/grid/gw5.jpg
 
 - name: [Gish, "Gish (video game)"]
   clones:
@@ -1838,6 +1848,33 @@
       added: 2014-08-15
       info: active development, playable, C++
 
+- name: Jetpac
+  clones:
+    - name: Jetpac remake
+      added: 2015-05-10
+      url: http://homepage.ntlworld.com/ian.wigley2/jet_pac_remake.html
+      repo: https://github.com/ian-wigley/JetPac
+      info: finished developent, (XNA & C#), no specified licence
+      media:
+        - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Jetpac%20Remake.JPG
+        - image: http://homepage.ntlworld.com/ian.wigley2/graphics/XNA%20JetPac%20screen.PNG
+
+- name: JezzBall
+  clones:
+    - name: Ice Breaker
+      added: 2015-05-09
+      url: http://mattdm.org/icebreaker/
+      repo: http://mattdm.org/icebreaker/1.2.x/icebreaker-1.2.1.tgz
+      media:
+        - image: http://mattdm.org/icebreaker/images/screenshot-level1-linux.png
+          url: http://mattdm.org/icebreaker/images/screenshot-level1-linux-thumb.png
+        - image: http://mattdm.org/icebreaker/images/screenshot-level2-billg.png
+          url: http://mattdm.org/icebreaker/images/screenshot-level2-billg-thumb.png
+        - image: http://mattdm.org/icebreaker/images/screenshot-level5-jz-like.png
+          url: http://mattdm.org/icebreaker/images/screenshot-level5-jz-like-thumb.png
+        - image: http://mattdm.org/icebreaker/images/screenshot-level6-stars.png
+          url: http://mattdm.org/icebreaker/images/screenshot-level6-stars-thumb.png
+
 - name: [Joust, Joust (video game)]
   clones:
     - name: Ostrich Riders
@@ -1877,6 +1914,16 @@
       url: http://retrospec.sgn.net/game/jj2
       info: halted development, C++, no licence specified
       repo: http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip
+
+- name: Jumpman
+  clones:
+    - name: Jumpman
+      url: http://www.oldskool.org/pc/jumpman
+      added: 2015-05-09
+      info: halted development, Assembly
+      repo: http://www.oldskool.org/pc/jumpman/jump_src.zip
+      media:
+        - image: http://www.oldskool.org/pc/jumpman/level01.gif
 
 - name: [Knights, Knights (video game)]
   clones:
@@ -1920,6 +1967,24 @@
       url: http://sourceforge.net/projects/cubosphere/
       repo: http://cubosphere.bzr.sourceforge.net/bzr/cubosphere/changes
       info: halted development, C++, GPL3
+
+- name: [Ladder, Ladder (video game)]
+  clones: 
+    - name: Ladder
+      added: 2015-05-09
+      url: http://gamesoft.ca/remakes.html
+      repo: http://gamesoft.ca/bestgames/ladder_src.zip
+      info: C#, no specified licence
+      media:
+        - image: http://gamesoft.ca/bestgames/images/ladder_snp.png
+    - name: Ladder
+      added: 2015-05-10
+      info: Java (source inside JAR file), GPL2
+      repo: http://ostermiller.org/ladder/ladder.jar
+      url: http://ostermiller.org/ladder/
+      media:
+        - image: http://gamesoft.ca/java/images/ladder_secret%20road.png
+        - image: http://gamesoft.ca/java/images/ladder_snp.png
 
 - name: [The Lord of the Rings Volume 1, "J.R.R. Tolkien's The Lord of the Rings, Vol. I (1990 video game)"]
   clones:
@@ -2087,6 +2152,27 @@
       repo: https://github.com/GWRon/TVTower
       added: 2014-08-16
 
+- name: [Maxit, "https://www.mobygames.com/game/dos/maxit/reviews/reviewerId,246576/"]
+  clones:
+    - name: Maxit
+      repo: http://gamesoft.ca/bestgames/maxit%20-%20src.zip
+      info: Java, no specified licence
+      added: 2015-05-09
+      media:
+        - image: http://gamesoft.ca/bestgames/images/maxit.png
+    - name: Maxit
+      added: 2015-05-09
+      url: http://sourceforge.net/projects/maxit/
+      info: sporadic development, C++, BSD
+      repo: svn://svn.code.sf.net/p/maxit/code/
+      media:
+        - url: https://a.fsdn.com/con/app/proj/maxit/screenshots/183592.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/maxit/screenshots/183592.jpg
+        - url: https://a.fsdn.com/con/app/proj/maxit/screenshots/183590.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/maxit/screenshots/183590.jpg
+        - url: https://a.fsdn.com/con/app/proj/maxit/screenshots/183588.jpg/182/137
+          image: https://a.fsdn.com/con/app/proj/maxit/screenshots/183588.jpg
+
 - name: The Maze of Galious
   clones:
     - name: The Maze of Galious
@@ -2226,6 +2312,16 @@
       info: C, halted development, mostly playable
       added: 2014-01-12
 
+- name: [Quadnet, "https://www.mobygames.com/game/dos/quadnet"]
+  clones:
+    - name: Mauvenet
+      added: 2015-05-09
+      repo: http://gamesoft.ca/bestgames/mauvenet_.zip
+      info: C++, no specified licence
+      url: http://gamesoft.ca/remakes.html
+      media:
+        - image: http://gamesoft.ca/bestgames/images/mauvenet3.png
+
 - name: Quake
   clones:
     - name: TyrQuake
@@ -2299,6 +2395,14 @@
       url: https://hg.icculus.org/icculus/lugaru/
       repo: https://hg.icculus.org/icculus/lugaru/file/97b303e79826
       info: halted development, C++, GPL2
+
+- name: Manic Miner
+  clones:
+    - name: Manic Miner
+      added: 2015-05-09
+      url: http://www.andynoble.co.uk/games.htm
+      repo: http://www.andynoble.co.uk/files/ManicBB.zip
+      info: Blitz Basic, freeware but no specified licence for source
 
 - names:
     - [Marathon, Marathon_(video_game)]
@@ -2531,6 +2635,18 @@
         - image: http://xoreos.org/images/NWN_20130528T054618_500.png
           url: http://xoreos.org/images/NWN_20130528T054618.png
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/WaRfBsZVO3Y?rel=0" frameborder="0" allowfullscreen></iframe>
+
+- name: Nodes of Yesod
+  clones:
+    - name: Nodes of Yesnod remake
+      added: 2015-05-10
+      url: http://homepage.ntlworld.com/ian.wigley2/nodes_of_yesod_remake.html
+      repo: https://github.com/ian-wigley/Nodes-of-Yesod
+      info: halted development, (XNA, C#), no specified licence
+      media:
+        - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Nodes.png
+        - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Map%20Maker.png
+        - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Nodes%20XNA.png
 
 - name: "One Must Fall: 2097"
   clones:
@@ -2855,6 +2971,15 @@
         - image: http://atanks.sourceforge.net/Screenshots/small-scrnshot23.png
           url: http://atanks.sourceforge.net/Screenshots/scrnshot23.png
 
+- name: [Scramble, Scramble (video game)]
+  clones:
+    - name: Scramble
+      added: 2015-05-09
+      info: PowerBASIC, no specified licence
+      repo: http://gamesoft.ca/bestgames/scramble_source.zip
+      media:
+        - image: http://gamesoft.ca/bestgames/images/scrcap06.png
+
 - name: "Shadowgrounds: Survivor"
   clones:
     - name: shadowgrounds
@@ -2923,6 +3048,13 @@
       info: active development, C++
       url: http://7kfans.com/
       repo: http://7kfans.com/git/?p=7kaa.git;a=summary
+
+- name: Shining Force II
+  clones:
+    - name: Shining Force 2 Reverse Engineer (SF2RE)
+      added: 2015-05-10
+      repo: https://github.com/ShiningForceCentral/SF2RE
+      info: sporadic development, reverse engineering project, C, no specified licence
 
 - name: "Sid Meier's Alpha Centauri"
   clones:
@@ -3169,11 +3301,29 @@
 
 - name: Stars!
   clones:
-    - name:  Freestars
+    - name: Freestars
       added: 2015-04-11
       url: http://freestars.sourceforge.net/
       repo: svn://svn.code.sf.net/p/freestars/code/trunk
       info: halted development, C++, GPL2
+    - name: NStars!
+      added: 2015-05-09
+      url: http://nstars.sourceforge.net/
+      info: halted development, C#, GPL2
+      repo: http://nstars.cvs.sourceforge.net/viewvc/nstars/
+      media:
+        - image: http://nstars.sourceforge.net/nstars01.png
+        - image: http://nstars.sourceforge.net/nstars02.png
+        - image: http://nstars.sourceforge.net/nstars03.png
+
+- name: Star Castle
+  clones:
+    - name: Star Castle
+      added: 2015-05-09
+      repo: http://gamesoft.ca/bestgames/starcastle_src.zip
+      info: C++, resuse forbidden without permission
+      media:
+        - image: http://gamesoft.ca/bestgames/images/starcastle-ss.gif
 
 - name: Starshatter
   clones:
@@ -3457,6 +3607,28 @@
       info: halted development, C, GPL2
       media:
         - image: https://www.lysator.liu.se/~peda/thrust/thrust.gif
+  reimplementations:
+    - name: Transball GL
+      url: http://www2.braingames.getput.com/transballgl/default.asp
+      added: 2015-05-10
+      repo: http://transball.googlecode.com/svn/trunk/
+      info: halted development, C++, GPL2
+      media:
+        - image: http://www2.braingames.getput.com/transballgl/images/tgl-ss4.jpg
+        - image: http://www2.braingames.getput.com/transballgl/images/tgl-ss5.jpg
+        - image: http://www2.braingames.getput.com/transballgl/images/tgl-ss6.jpg
+        - image: http://www2.braingames.getput.com/transballgl/images/tgl-ss7.jpg
+    - name: Super Transball 2
+      added: 2015-05-10
+      url: http://www2.braingames.getput.com/stransball2/default.asp
+      repo: http://www2.braingames.getput.com/stransball2/downloads/stransball2-v15-windows.zip
+      info: finished development, C++, GPL3
+      media:
+        - image: http://www2.braingames.getput.com/stransball2/tittle.jpg
+        - image: http://www2.braingames.getput.com/stransball2/selection.jpg
+        - image: http://www2.braingames.getput.com/stransball2/shot2.jpg
+        - image: http://www2.braingames.getput.com/stransball2/shot3.jpg
+        - image: http://www2.braingames.getput.com/stransball2/shot5.jpg
 
 - name: Tiny Wings
   clones:
@@ -3940,6 +4112,24 @@
         - image: http://zod.sourceforge.net/screenshots/gameplay_13_mini.png
           url: http://zod.sourceforge.net/screenshots/gameplay_13.png
         - raw: <embed src="http://www.youtube.com/v/8VehUvuWHqw&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed>
+
+- name: Zoop
+  clones:
+    - name: KZap
+      added: 2015-05-09
+      url: http://kzap.sourceforge.net/
+      repo: http://prdownloads.sourceforge.net/kzap/kzap-0.2.tar.gz
+      info: halted development, C++, GPL2
+      media:
+        - url: http://kzap.sourceforge.net/kzap-small.png
+          image: http://kzap.sourceforge.net/kzap.png
+    - name: Zoop
+      added: 2015-05-09
+      url: http://gamesoft.ca/remakes.html
+      repo: http://gamesoft.ca/bestgames/zoop_src.zip
+      info: Java, no specified licence
+      media:
+        - image: http://gamesoft.ca/bestgames/images/zoop_java.png
 
 - name: [Zuma, Zuma (video game)]
   clones:
