@@ -3432,7 +3432,7 @@
       media:
         - image: http://a.fsdn.com/con/app/proj/methane/screenshots/14915.jpg
     - name: super-methane-brothers-gx
-      addedL 2015-05-18
+      added: 2015-05-18
       repo: https://github.com/carstene1ns/super-methane-brothers-gx
       info: sporadic development, C++, GPL2, (Wii and GameCube port)
 
@@ -4297,6 +4297,13 @@
           url: http://bzflag.org/resources/screenshots/h2o_02.jpg
         - image: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01_t.jpg
           url: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01.jpg
+
+- name: [Brain Blasters, "http://www.mobygames.com/game/brain-blasters"]
+  reimplementations:
+    - name: brainblast
+      repo: https://github.com/Zitrax/brainblast
+      added: 2015-05-18
+      info: sporadic development, C++, no specified licence
 
 - name: [Breakout, Breakout (video game)]
   reimplementations:
