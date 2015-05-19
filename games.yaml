@@ -2240,6 +2240,21 @@
         - image: https://a.fsdn.com/con/app/proj/montymole/screenshots/28060.jpg
           url: https://a.fsdn.com/con/app/proj/montymole/screenshots/28060.jpg/182/137
 
+- name: Mortal Kombat
+  clones:
+    - name: mk.js
+      added: 2015-05-19
+      repo: https://github.com/mgechev/mk.js
+      info: halted development and basic game, JavaScript, MIT
+  reimplementations:
+    - name: OpenMortal
+      url: http://apocalypse.rulez.org/~upi/Mortal/
+      repo: http://openmortal.cvs.sourceforge.net/openmortal/openmortal/
+      info: sporadic development, C++
+      added: 2015-04-03
+      media:
+        - image: http://openmortal.sourceforge.net/images/screenshot3.jpg
+
 - name: The Need for Speed
   clones:
     - name: OpenNFS1
@@ -4682,16 +4697,6 @@
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/7.gif
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/8.gif
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/icbm3d-agenda.gif
-
-- name: Mortal Kombat
-  reimplementations:
-    - name: OpenMortal
-      url: http://apocalypse.rulez.org/~upi/Mortal/
-      repo: http://openmortal.cvs.sourceforge.net/openmortal/openmortal/
-      info: sporadic development, C++
-      added: 2015-04-03
-      media:
-        - image: http://openmortal.sourceforge.net/images/screenshot3.jpg
 
 - name: [Similar to Natural Selection, Natural Selection (video game)]
   reimplementations:
