@@ -2324,19 +2324,24 @@
   clones:
     - name: pacman
       added: 2015-05-19
-	  repo: https://github.com/daleharvey/pacman
-	  info: halted development, JavaScript, custom licence
+      repo: https://github.com/daleharvey/pacman
+      info: halted development, JavaScript, custom licence
     - name: pacman-canvas
-	  repo: https://github.com/platzhersh/pacman-canvas
-	  url: http://pacman.platzh1rsch.ch/
-	  info: active development, HTML5, minimal licence
-	  added: 2015-05-19
-	- name: pacman
-	  url: http://harto.github.io/pacman/
-	  repo: https://github.com/harto/pacman
-	  added: 2015-05-19
-	  info: sporadic development, HTML5, no specified licence
-	  
+      repo: https://github.com/platzhersh/pacman-canvas
+      url: http://pacman.platzh1rsch.ch/
+      info: active development, HTML5, minimal licence
+      added: 2015-05-19
+    - name: pacman
+      url: http://harto.github.io/pacman/
+      repo: https://github.com/harto/pacman
+      added: 2015-05-19
+      info: sporadic development, HTML5, no specified licence
+    - name: Google Pacman
+      repo: https://github.com/livingston/google-pacman
+      url: http://livingston.github.io/google-pacman/
+      info: finished development, (JavaScript & Flash), no specified licence
+      added: 2015-05-20
+
 - name: "Populous: The Beginning"
   clones:
     - name: OpenPop
