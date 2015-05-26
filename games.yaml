@@ -1348,13 +1348,6 @@
       url: https://github.com/cyxx/f2bgl
       info: sporadic development, C++
 
-- name: [Fall Down, "https://www.mobygames.com/game/fall-down"]
-  clones:
-    - name: ativayeban
-      added: 2015-05-03
-      repo: https://github.com/Nebuleon/ativayeban
-      info: active development, C, GPL2
-
 - name: Fallout 2
   clones:
     - name: Falltergeist
@@ -4474,6 +4467,20 @@
         - image: https://endless-sky.github.io/screenshots/map.jpg
         - image: https://endless-sky.github.io/screenshots/plunder.jpg
         - image: https://endless-sky.github.io/screenshots/missions.jpg
+
+- name: [Fall Down, "http://web.eecs.umich.edu/~gameprof/gamewiki/index.php/Fall_Down"]
+  reimplementations:
+    - name: ativayeban
+      added: 2015-05-03
+      repo: https://github.com/Nebuleon/ativayeban
+      info: halted development, C, SDL, GPL2, playable
+    - name: Falling Time
+      added: 2015-05-26
+      repo: https://github.com/cxong/FallingTime
+      info: halted development, C, SDL2, GPL2, playable
+      media:
+        - image: https://raw.github.com/cxong/fallingtime/master/screenshot.png
+        - raw: <iframe width="320" height="240" src="http://www.youtube.com/embed/3MVMJkOYHSg?rel=0" frameborder="0" allowfullscreen></iframe>
 
 - name: [Falcon, Falcon (video game series)]
   reimplementations:
