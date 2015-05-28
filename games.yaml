@@ -801,6 +801,13 @@
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/invasion.png
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/d2k-ingame.png
 
+- name: [Contra, Contra (video game)]
+  clones:
+    - name: Contra_remake
+      added: 2015-05-28
+      repo: https://github.com/EmileSonneveld/Contra_remake
+      info: halted development, C++, GPL2
+
 - name: Cookie Clicker
   clones:
     - name: CookieClickerRemake
