@@ -52,8 +52,8 @@
     - name: Zatacka
       added: 2015-04-16
       url: http://zatacka.sourceforge.net/
-      repo: http://garr.dl.sourceforge.net/project/zatacka/zatacka/0.1.8/zatacka-0.1.8_src.tar.gz
-      info: halted development, C++, GPL
+      repo: https://github.com/simenheg/zatackax/
+      info: halted development, C, SDL, GPL
       media:
         - image: http://zatacka.sourceforge.net/img/sc1.jpg
         - image: http://zatacka.sourceforge.net/img/sc2.jpg
@@ -308,6 +308,13 @@
         - image: http://perso.b2b2c.ca/sarrazip/dev/images/cosmosmash-1.png
           url: http://perso.b2b2c.ca/sarrazip/dev/images/cosmosmash-1.png
 
+- name: Awesomenauts
+  clones:
+    - name: BlakedAwesomenaughts
+      added: 2015-05-28
+      repo: https://github.com/zombieman1041/BlakedAwesomenaughts
+      info: active development, (JavaScript & PHP), MIT
+
 - name: [Babaliba, "Dinamic Software"]
   clones:
     - name: Babaliba
@@ -402,6 +409,13 @@
       added: 2015-05-19
       repo: https://github.com/ggc87/BattleCity2014
       info: sporadic development, (C++, Ogre3D and EntityX), no specified licence
+
+- name: Bejeweled
+  clones:
+    - name: biju-game
+      added: 2015-05-28
+      repo: https://github.com/CrociDB/biju-game
+      info: halted development & WIP, (JavaScript & CraftJS), no specified licence
 
 - name: Bermuda Syndrome
   clones:
@@ -758,6 +772,13 @@
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/zydiZSXpn0w" frameborder="0" allowfullscreen></iframe>
 
+- name: Commando
+  clones:
+    - name: CommandoJS
+      added: 2015-05-28
+      repo: https://github.com/commandojs/CommandoJS
+      info: halted development, (HTML & JavaScript), MIT
+
 - name: [Commander Keen Series, Commander Keen]
   clones:
     - name: Commander Genius
@@ -797,6 +818,13 @@
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/OpenRA-20120504-CnC-Shellmap.png
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/invasion.png
         - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/d2k-ingame.png
+
+- name: [Contra, Contra (video game)]
+  clones:
+    - name: Contra_remake
+      added: 2015-05-28
+      repo: https://github.com/EmileSonneveld/Contra_remake
+      info: halted development, C++, GPL2
 
 - name: Cookie Clicker
   clones:
@@ -929,6 +957,10 @@
           url: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn1.jpg
         - image: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/thumbs/thumbs_d2xr-scrn18.jpg
           url: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn18.jpg
+    - name: Kathodos
+      repo: https://github.com/jvranish/Kathodos
+      added: 2015-05-28
+      info: halted development, (Python & Panda3D), no specified licence
 
 - name: 
     - "DesertStrike: Return to the Gulf"
@@ -964,6 +996,13 @@
       repo: https://github.com/wheybags/freeablo
       info: active development, needs game data, C++
       added: 2014-04-22
+
+- name: Digimon World
+  clones:
+    - name: Digimon World Project Ark
+      added: 2015-05-28
+      repo: https://github.com/dwProjectark/Digimon-World-Project-Ark
+      info: active development, (Unity & C#), no specified licence
 
 - name: [Dodger, "http://www.mobygames.com/game/win3x/dodger"]
   clones:
@@ -1138,6 +1177,11 @@
       media:
         - image: http://pygame.org/shots/1615.png
           url: http://pygame.org/thumb/9d1fd15254c8d7ae6425d0daffc887cd.png
+    - name: duckhunt
+      added: 2015-05-28
+      repo: https://github.com/grosbouddha/duckhunt
+      url: http://grosbouddha.github.io/duckhunt/
+      info: halted development, JavaScript, no specified licence
 
 - name: [Duke Nukem, Duke Nukem (video game)]
   clones:
@@ -1245,6 +1289,14 @@
       added: 2015-04-15
       info: halted development, C++, GPL3
       repo: http://l-echo.googlecode.com/svn/trunk/
+
+- name: [Encounter, Encounter (video game)]
+  clones:
+    - name: encounter
+      added: 2015-05-28
+      repo: https://github.com/air/encounter
+      info: active development, (JavaScript & WebGL), no specified licence
+      url: http://air.github.io/encounter/
 
 - name: [Entombed!, "Entombed (1982 video game)"]
   clones:
@@ -1391,13 +1443,6 @@
       url: https://github.com/cyxx/f2bgl
       info: sporadic development, C++
 
-- name: [Fall Down, "https://www.mobygames.com/game/fall-down"]
-  clones:
-    - name: ativayeban
-      added: 2015-05-03
-      repo: https://github.com/Nebuleon/ativayeban
-      info: active development, C, GPL2
-
 - name: Fallout 2
   clones:
     - name: Falltergeist
@@ -1425,6 +1470,13 @@
       added: 2015-05-02
       repo: https://github.com/ellisonleao/clumsy-bird
       info: active development, MelonJS, MIT
+    - name: Hocoslamfy
+      added: 2015-06-01
+      repo: https://github.com/Nebuleon/hocoslamfy
+      info: halted development, C, SDL, GPL
+      media:
+       - image: http://www.gcw-zero.com/images/articles/hocoslamfy-score-shown-2.png
+       - raw: <iframe width="420" height="315" src="//www.youtube.com/embed/rPWK6kO3D0M?rel=0" frameborder="0" allowfullscreen></iframe>
 
 - name: [Flashback, Flashback (1992 video game)]
   clones:
@@ -1532,6 +1584,13 @@
       media:
         - image: https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg
           url: https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg/182/137
+
+- name: Galaxian
+  clones:
+    - name: galaxian
+      repo: https://github.com/codedrive/galaxian
+      added: 2015-05-28
+      info: halted development, ActionScript, no specified licence
 
 - name: Geometry Wars
   clones:
@@ -1726,6 +1785,13 @@
     - name: HODe
       repo: https://code.google.com/p/tombexcavator/source/browse/branches/v0/unsorted/hode-20090726
       info: unknown development status, C++
+
+- name: [Heavy Smash, "http://www.mobygames.com/game/arcade/heavy-smash"]
+  clones:
+    - name: open-heavy-smash
+      added: 2015-05-28
+      repo: https://github.com/namelivia/open-heavy-smash
+      info: halted development, C++, no specified licence
 
 - name: Hexen II
   clones:
@@ -2421,6 +2487,11 @@
 
 - name: Prince of Persia
   clones:
+    - name: SDLPoP
+      url: http://www.popot.org/get_the_games.php?game=SDLPoP
+      repo: https://github.com/NagyD/SDLPoP
+      info: C, active development, playable
+      added: 2015-05-30
     - name: FreePrince
       url: http://www.princed.org/downloads/FreePrince/FP_2011-12-04_source.tar.gz
       info: C, halted development, mostly playable
@@ -2855,6 +2926,13 @@
         - image: http://pygame.org/shots/706.jpg
           url: http://pygame.org/thumb/65b19eb3798f52835fe9b4b12f9d69ba.png
 
+- name: [Phantasy, Phantasy Star (video game)]
+  clones:
+    - name: Phantasy
+      added: 2015-05-28
+      repo: https://github.com/rafael-esper/Phantasy
+      info: halted development, Java, no specified licence
+
 - name: Pipe Mania
   clones:
     - name: Pipemania
@@ -3138,6 +3216,13 @@
       added: 2015-04-14
       info: halted development, C++, Shadowgrounds & Shadowgrounds Survivor Source Code License
 
+- name: [Simon, Simon (game)]
+  clones:
+    - name: asdf
+      added: 2015-05-28
+      repo: https://github.com/TimPietrusky/asdf
+      info: finished development, JavaScript, MIT
+
 - name: Skool Daze
   clones:
     - name: pyskool
@@ -3408,6 +3493,13 @@
         - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090818_splash.png
         - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090823.png
 
+- name: [Space Rangers, Space Rangers (video game)]
+  clones:
+    - name: Space-rangers
+      repo: https://github.com/markevich/Space-rangers
+      added: 2015-05-28
+      info: halted development, C#, no specified licence
+
 - name: Speedball 2
   clones:
     - name: Speedball 2
@@ -3527,6 +3619,13 @@
       added: 2015-04-12
       repo: http://retrospec.sgn.net/users/nwalker/styx/styx.zip
       info: halted development, C++, no specified licence
+
+- name: Supaplex
+  clones:
+    - name: splexhd
+      added: 2015-05-28
+      repo: https://github.com/radu124/splexhd
+      info: halted development, C++, GPL2
 
 - name: Super Cars
   clones:
@@ -4095,6 +4194,13 @@
       repo: https://github.com/gamejs/newutopia
       info: stalled development, JavaScript
 
+- name: [Vlak, "http://www.mobygames.com/game/dos/vlak"]
+  clones:
+    - name: Train
+      added: 2015-05-28
+      repo: https://github.com/nenadalm/Train
+      info: sporadic development, Java, BSD
+
 - name: [Viper, "http://www.mobygames.com/game/amiga/viper__"]
   clones:
     - name: viper
@@ -4142,6 +4248,12 @@
         - image: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands-thumb.jpg
           url: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
 
+- name: [Willow, Willow (arcade game)]
+  clones:
+    - name: Willow-Game-Remake
+      added: 2015-06-28
+      repo: https://github.com/Kwintenvdb/Willow-Game-Remake
+      info: halted development, C++, only basic copyright
 
 - name: "Wing Commander: Privateer"
   clones:
@@ -4715,6 +4827,20 @@
         - image: https://endless-sky.github.io/screenshots/plunder.jpg
         - image: https://endless-sky.github.io/screenshots/missions.jpg
 
+- name: [Fall Down, "http://www.mobygames.com/game/fall-down"]
+  reimplementations:
+    - name: ativayeban
+      added: 2015-05-03
+      repo: https://github.com/Nebuleon/ativayeban
+      info: halted development, C, SDL, GPL2, playable
+    - name: Falling Time
+      added: 2015-05-26
+      repo: https://github.com/cxong/FallingTime
+      info: halted development, C, SDL2, GPL2, playable
+      media:
+        - image: https://raw.github.com/cxong/fallingtime/master/screenshot.png
+        - raw: <iframe width="320" height="240" src="http://www.youtube.com/embed/3MVMJkOYHSg?rel=0" frameborder="0" allowfullscreen></iframe>
+
 - name: [Falcon, Falcon (video game series)]
   reimplementations:
     - name: FreeFalcon
@@ -5132,6 +5258,11 @@
       info: active development, C++, GPL2
 
 - name: [SkyRoads, SkyRoads (video game)]
+  clones:
+    - name: spaceroads
+      repo: https://github.com/sebhd/spaceroads
+      added: 2015-05-28
+      info: halted development, (C++ & Ogre3D), only basic copyright licence
   reimplementations:
     - name: Orbit-Hopper
       added: 2015-04-16
