@@ -12,3 +12,5 @@ script:
  - test 6000 -lt $(cat _build/index.html | wc -l)
 after_success:
  - .travis/deploy.sh
+addons:
+  ssh_known_hosts: maia.solovyov.net
