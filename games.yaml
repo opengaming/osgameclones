@@ -2573,16 +2573,41 @@
 
 - name: Quake
   clones:
-    - name: TyrQuake
-      url: http://disenchant.net/tyrquake/
-      repo: https://github.com/libretro/tyrquake
+    - name: DarkPlaces
+      url: https://icculus.org/twilight/darkplaces/
+      repo: https://svn.icculus.org/twilight/trunk/darkplaces/
       info: active development, C, GPL2
-      added: 2015-04-03
+      added: 2015-07-02
+      media:
+        - url: https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty1.jpg
+          image: https://icculus.org/twilight/darkplaces/pics/thumbnails/rygelpack_pretty1.jpg
+        - url: https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty6.jpg
+          image: https://icculus.org/twilight/darkplaces/pics/thumbnails/rygelpack_pretty6.jpg
+        - url: https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty10.jpg
+          image: https://icculus.org/twilight/darkplaces/pics/thumbnails/rygelpack_pretty10.jpg
+    - name: ezQuake
+      url: http://ezquake.sourceforge.net/
+      repo: https://github.com/ezQuake/ezquake-source
+      info: active development, C, GPL2
+      added: 2015-07-02
+      media:
+        - url: http://ezquake.sourceforge.net/gallery/armor_battle.png
+          image: http://ezquake.sourceforge.net/gallery/_th_armor_battle.jpg
     - name: ProQuake 4
       added: 2015-04-03
       url: http://quakeone.com/proquake/
       repo: http://quakeone.com/proquake/proquake_493_src.rar
       info: C, GPL2
+    - name: QuakeSpasm
+      url: http://quakespasm.sourceforge.net/
+      repo: http://sourceforge.net/p/quakespasm/code/HEAD/tree/trunk/quakespasm/
+      info: active development, C, GPL2
+      added: 2015-07-02
+    - name: TyrQuake
+      url: http://disenchant.net/tyrquake/
+      repo: https://github.com/libretro/tyrquake
+      info: active development, C, GPL2
+      added: 2015-04-03
 
 - name: Quake 2
   clones:
