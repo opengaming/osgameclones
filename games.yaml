@@ -1995,6 +1995,11 @@
       info: halted development, Python, GPL
       url: http://www.interstateoutlaws.com/
       repo: http://www.interstateoutlaws.com/downloads/Outlaws-0.1.1a-linux.tar.gz
+      media:
+        - url: http://www.interstateoutlaws.com/media/craterpreview-t.jpg
+          image: http://www.interstateoutlaws.com/media/craterpreview.jpg
+        - image: http://www.interstateoutlaws.com/media/io_poem_tmpl2.jpg
+        - image: http://www.interstateoutlaws.com/media/io_poem_tmpl1.jpg
 
 - name: Iron Seed
   clones:
@@ -4058,6 +4063,14 @@
           image: http://th.corsix.org/CorsixTH08.jpg
         - url: http://cecp.biz/beta4.jpg
           image: http://cecp.biz/beta4.jpg
+
+- name: Theme Park
+  clones:
+    - name: Theme Park Builder 3D CAD
+      added: 2015-07-04
+      url: http://sourceforge.net/projects/tpb3d/
+      repo: svn://svn.code.sf.net/p/tpb3d/code/trunk
+      info: halted development, (C++, OpenGL, SDL), GPL2
 
 - name: [Thromolus, "http://hol.abime.net/1386"]
   clones:
