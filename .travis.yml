@@ -3,14 +3,15 @@ python:
  - '2.7'
 virtualenv:
   system_site_packages: true
-before_install:
- - sudo apt-get install -qq python-yaml python-jinja2 python-smartypants
+addons:
+  ssh_known_hosts: maia.solovyov.net
+  apt_packages:
+    - python-yaml
+    - python-jinja2
+    - python-smartypants
 install:
  - pip install cyrax
 script:
  - cyrax
  - test 6000 -lt $(cat _build/index.html | wc -l)
-after_success:
- - .travis/deploy.sh
-addons:
-  ssh_known_hosts: maia.solovyov.net
+ - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] || .travis/deploy.sh'
