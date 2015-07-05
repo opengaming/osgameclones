@@ -1988,6 +1988,19 @@
         - raw: <iframe width="560" height="315" src="http://www.youtube.com/embed/qHBUdUqqI-k?rel=0" frameborder="0" allowfullscreen></iframe>
         - raw: <iframe width="560" height="315" src="http://www.youtube.com/embed/lImUf9gHWAs?rel=0" frameborder="0" allowfullscreen></iframe>
 
+- name: "Interstate '76"
+  clones:
+    - name: Interstate Outlaws
+      added: 2015-07-04
+      info: halted development, Python, GPL
+      url: http://www.interstateoutlaws.com/
+      repo: http://www.interstateoutlaws.com/downloads/Outlaws-0.1.1a-linux.tar.gz
+      media:
+        - url: http://www.interstateoutlaws.com/media/craterpreview-t.jpg
+          image: http://www.interstateoutlaws.com/media/craterpreview.jpg
+        - image: http://www.interstateoutlaws.com/media/io_poem_tmpl2.jpg
+        - image: http://www.interstateoutlaws.com/media/io_poem_tmpl1.jpg
+
 - name: Iron Seed
   clones:
     - name: Iron Seed
@@ -4051,6 +4064,14 @@
         - url: http://cecp.biz/beta4.jpg
           image: http://cecp.biz/beta4.jpg
 
+- name: [Theme Park, Theme Park (video game)]
+  clones:
+    - name: Theme Park Builder 3D CAD
+      added: 2015-07-04
+      url: http://sourceforge.net/projects/tpb3d/
+      repo: svn://svn.code.sf.net/p/tpb3d/code/trunk
+      info: halted development, (C++, OpenGL, SDL), GPL2
+
 - name: [Thromolus, "http://hol.abime.net/1386"]
   clones:
     - name: thromolusng
@@ -5282,11 +5303,21 @@
       name: Micropolis
       info: active development, C++/Python
       added: 2013-05-27
+    - name: MicropolisJS
+      url: http://www.graememcc.co.uk/micropolisJS/
+      repo: https://github.com/graememcc/micropolisJS
+      added: 2015-07-04
+      info: active development, (JavaScript & HTML5), port of Micropolis, GPL3
     - url: http://www.opencity.info/
       repo: svn://svn.code.sf.net/p/opencity/code/trunk
       name: OpenCity
       info: active development, C++
       added: 2015-04-03
+    - name: 3d.city
+      added: 2015-07-04
+      url: http://lo-th.github.io/3d.city/index.html
+      repo: https://github.com/lo-th/3d.city
+      info: active development, (JavaScript & HTML5), GPL3
 
 - names:
     - [The Settlers, The Settlers (video game)]
