@@ -4649,6 +4649,18 @@
         - image: http://xpilot.sourceforge.net/shots/dragon.png
         - image: http://xpilot.sourceforge.net/shots/spaceball.png
 
+- name: [XQuest, "http://www.swallowtail.org/xquest/"]
+  clones:
+    - name: XQuest 2
+      added: 2015-07-11
+      url: http://www.swallowtail.org/xquest/
+      repo: http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz
+      info: Pascal, custom licence
+      media:
+        - image: http://www.swallowtail.org/xquest/xquest1.gif
+        - image: http://www.swallowtail.org/xquest/xquest2.gif
+        - image: http://www.swallowtail.org/xquest/xquest3.gif
+
 - name: Legend of Zelda
   clones:
     - name: Solarus
