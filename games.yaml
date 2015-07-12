@@ -2197,6 +2197,14 @@
         - image: http://gamesoft.ca/java/images/ladder_secret%20road.png
         - image: http://gamesoft.ca/java/images/ladder_snp.png
 
+- name: [Larn, Larn (video game)]
+  clones:
+    - name: NLarn
+      added: 2015-07-12
+      url: http://nlarn.sourceforge.net/
+      repo: git://git.code.sf.net/p/nlarn/git nlarn-git
+      info: active development, (C & Lua), GPL2
+
 - name: [Legion, "http://www.mobygames.com/game/legion__"]
   clones:
     - name: legion
