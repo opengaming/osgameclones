@@ -34,6 +34,11 @@
 
 - name: [Ace of Spades, Ace of Spades (video game)]
   clones:
+    - name: Iceball
+      added: 2015-07-22
+      url: http://iceball.build/
+      repo: https://github.com/iamgreaser/iceball
+      info: active development, C/Lua, multiple licences
     - name: OpenSpades
       added: 2015-04-10
       url: https://sites.google.com/a/yvt.jp/openspades/
@@ -2939,6 +2944,17 @@
       info: active development, C#, custom licence
       media:
         - image: http://a.pomf.se/jksvcq.png
+    - name: Voxelands
+      added: 2015-07-22
+      url: http://www.voxelands.com/
+      repo: https://gitlab.com/voxelands/voxelands
+      info: active development, C++, GPLv3
+      media:
+        - image: http://www.voxelands.com/images/survival-small.png
+        - image: http://www.voxelands.com/images/farming-small.png
+        - image: http://www.voxelands.com/images/circuits-small.png
+        - image: http://www.voxelands.com/images/craftguide-small.png
+        - image: http://www.voxelands.com/images/village-small.png
 
 - name: [Movie Business, "http://www.gamebase64.com/game.php?id=14674&d=18"]
   clones:
