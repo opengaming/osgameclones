@@ -4681,22 +4681,23 @@
       added: 2013-05-29
 
 - names:
-    - "X-COM: UFO Defence"
+    - "X-COM: UFO Defense"
     - "UFO: Enemy Unknown"
+    - "X-COM: Terror from the Deep"
   clones:
     - name: OpenXcom
       url: http://openxcom.org/
-      info: active development, C++
+      info: active development, C++, GPL3
       repo: https://github.com/SupSuper/OpenXcom
       media:
-        - image: http://openxcom.org/wp-content/gallery/cache/48__320x240_18102011_manufacture.png
-          url: http://openxcom.org/wp-content/gallery/v0-4/18102011_manufacture.png
-        - image: http://openxcom.org/wp-content/gallery/cache/40__320x240_310310_weapons.png
-          url: http://openxcom.org/wp-content/gallery/v0-3/310310_weapons.png
-        - image: http://openxcom.org/wp-content/gallery/cache/41__320x240_01052011_basetransfer.png
-          url: http://openxcom.org/wp-content/gallery/v0-3/01052011_basetransfer.png
-        - image: http://openxcom.org/wp-content/gallery/v0-3/thumbs/thumbs_09032011_ufopaedia.png
-          url: http://openxcom.org/wp-content/gallery/v0-3/09032011_ufopaedia.png
+        - image: http://openxcom.org/wp-content/gallery/v1-0/thumbs/thumbs_00_mainmenu.png
+          url: http://openxcom.org/wp-content/gallery/v1-0/00_mainmenu.png
+        - image: http://openxcom.org/wp-content/gallery/v1-0/thumbs/thumbs_01_globe.png
+          url: http://openxcom.org/wp-content/gallery/v1-0/01_globe.png
+        - image: http://openxcom.org/wp-content/gallery/v1-0/thumbs/thumbs_04_inventory.png
+          url: http://openxcom.org/wp-content/gallery/v1-0/04_inventory.png
+        - image: http://openxcom.org/wp-content/gallery/v1-0/thumbs/thumbs_07_pathpreview.png
+          url: http://openxcom.org/wp-content/gallery/v1-0/07_pathpreview.png
     - name: UFO2000
       url: http://ufo2000.sourceforge.net/
       info: development halted, playable, C++
@@ -4709,6 +4710,9 @@
           url: http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66447.jpg
         - image: http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg/182/137
           url: http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg
+
+- name: "X-COM: Apocalypse"
+  clones:
     - name: OpenApoc
       added: 2015-04-04
       info: active development, C++, MIT
@@ -5805,7 +5809,7 @@
     - name: "Project: Xenocide"
       added: 2015-04-11
       url: http://www.projectxenocide.com/
-      info: C++, GPL2
+      info: development halted, C++, GPL2
       repo: http://xenocide.cvs.sourceforge.net/viewvc/xenocide/
       media:
         - url: http://www.projectxenocide.com/images/geoscape/thumbs/xnet_laboratory-100.jpg
