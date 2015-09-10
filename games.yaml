@@ -442,6 +442,16 @@
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/126405.jpg
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/62665.jpg
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/71372.jpg
+        
+- name: [The Binding of Isaac,  "The Binding of Isaac (video game)"]
+  clones:
+    - name: Witch Blast
+      repo: https://github.com/Cirrus-Minor/witchblast
+      info: active development, playable, C++, SFML, GPL3, CC BY-NC-SA
+      added: 2015-09-11
+      media:
+        - image: http://dev.sfmlprojects.org/themes/responsiv-flat/assets/images/games/thumb/witch_blast.png
+        - raw: <iframe width="320" height="240" src="//www.youtube.com/embed/c1Ymyfm-P8s?rel=0" frameborder="0" allowfullscreen></iframe>
 
 - name: [Blade Runner, "Blade Runner (1997 video game)"]
   clones:
