@@ -1295,7 +1295,6 @@
       added: 2014-09-05
       info: development halted, C++, MIT
 
-
 - name: Dungeon Keeper
   clones:
     - name: KeeperFX
@@ -1304,6 +1303,16 @@
         active development, C; not really a clone, but a hack to make Dungeon
         Keeper run on recent OSes
       repo: https://code.google.com/p/keeperfx/source/list
+
+- name: [Dungeon Master, Dungeon Master (video game)]
+  clones:
+    - name: Chaos Strikes Back
+      added: 2015-09-27
+      repo: http://dmweb.free.fr/files/Clone-CSBwin-SourceCode-12_100.zip
+      url: http://dmweb.free.fr/?q=node/851
+      info: halted development, C++, Stolenware
+      media:
+        - image: http://dmweb.free.fr/files/Clone-Screenshot-CSBLinux.jpg
 
 - name: [E.T. the Extra-Terrestrial, E.T. the Extra-Terrestrial (video game)]
   clones:
