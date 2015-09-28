@@ -1305,7 +1305,6 @@
       added: 2014-09-05
       info: development halted, C++, MIT
 
-
 - name: Dungeon Keeper
   clones:
     - name: KeeperFX
@@ -1314,6 +1313,16 @@
         active development, C; not really a clone, but a hack to make Dungeon
         Keeper run on recent OSes
       repo: https://code.google.com/p/keeperfx/source/list
+
+- name: [Dungeon Master, Dungeon Master (video game)]
+  clones:
+    - name: Chaos Strikes Back
+      added: 2015-09-27
+      repo: http://dmweb.free.fr/files/Clone-CSBwin-SourceCode-12_100.zip
+      url: http://dmweb.free.fr/?q=node/851
+      info: halted development, C++, Stolenware
+      media:
+        - image: http://dmweb.free.fr/files/Clone-Screenshot-CSBLinux.jpg
 
 - name: [E.T. the Extra-Terrestrial, E.T. the Extra-Terrestrial (video game)]
   clones:
@@ -5917,6 +5926,56 @@
       media:
         - image: http://openzelda.net/i/screen.png
         - raw: <iframe width="420" height="315" src="//www.youtube.com/embed/secXtfqKo1c?rel=0" frameborder="0" allowfullscreen></iframe>
+    - name: The Legend Of Zelda - Return Of The Hylan
+      added: 2015-09-27
+      url: http://www.zeldaroth.fr/us/zroth.php
+      info: finished development, C++, no specified licence
+      repo: http://www.zeldaroth.fr/us/files/ROTH/Windows/ZeldaROTH_US-src-windows.zip
+      media:
+        - image: http://www.zeldaroth.fr/images/roth/s14.png
+          url: http://www.zeldaroth.fr/images/roth/essai.png
+        - image: http://www.zeldaroth.fr/images/roth/s1.png
+          url: http://www.zeldaroth.fr/images/roth/s1p.png
+        - image: http://www.zeldaroth.fr/images/roth/s13.png
+          url: http://www.zeldaroth.fr/images/roth/s13p.png
+    - name: The Legend Of Zelda - Oni Link Begins
+      added: 2015-09-27
+      url: http://www.zeldaroth.fr/us/zolb.php
+      info: finished development, C++, no specified licence
+      repo: http://www.zeldaroth.fr/us/files/OLB/Windows/ZeldaOLB_US-src-windows.zip
+      media:
+        - image: http://www.zeldaroth.fr/images/olb/s1.JPG
+          url: http://www.zeldaroth.fr/images/olb/s1p.JPG
+        - image: http://www.zeldaroth.fr/images/olb/s5.JPG
+          url: http://www.zeldaroth.fr/images/olb/s5p.JPG
+        - image: http://www.zeldaroth.fr/images/olb/s10.JPG
+          url: http://www.zeldaroth.fr/images/olb/s10p.JPG
+    - name: The Legend Of Zelda - Time To Triumph
+      url: http://www.zeldaroth.fr/us/z3t.php
+      added: 2015-09-27
+      repo: http://www.zeldaroth.fr/us/files/3T/Windows/Zelda3T_US-src-windows.zip
+      info: finished development, C++, no specified licence
+      media:
+        - image: http://www.zeldaroth.fr/images/3t/s1.png
+          url: http://www.zeldaroth.fr/images/3t/s1p.png
+        - image: http://www.zeldaroth.fr/images/3t/s12.png
+          url: http://www.zeldaroth.fr/images/3t/s12p.png
+        - image: http://www.zeldaroth.fr/images/3t/s6.png
+          url: http://www.zeldaroth.fr/images/3t/s6p.png
+    - name: The Legend Of Zelda - Navi's Quest
+      added: 2015-09-27
+      url: http://www.zeldaroth.fr/us/dlnsq.php
+      repo: http://www.zeldaroth.fr/us/files/NSQ/Windows/ZeldaNSQ_US-src-windows.zip
+      info: finished development, (SDL & C++), no specified licence
+      media:
+        - image: http://www.zeldaroth.fr/images/nsq/s1.png
+    - name: The Legend Of Zelda - Picross
+      added: 2015-09-27
+      url: http://www.zeldaroth.fr/us/dlpicross.php
+      repo: http://www.zeldaroth.fr/us/files/Picross/Windows/ZeldaPicross_US-src-windows.zip
+      info: finished development, C++, no specified licence
+      media:
+        - image: http://www.zeldaroth.fr/images/picross/s1.png
 
 - name: VVVVVV
   reimplementations:
