@@ -73,7 +73,7 @@
                   {{ game['info']|lower|e }}">
     <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
-    <a href="{{ game['url'] }}">{{ game['name'] }}</a> - {{ game['info'] }}
+    {%- if 'url' in game %}<a href="{{ game['url'] }}">{% endif %}{{ game['name'] }}{%- if 'url' in game %}</a>{% endif %} - {{ game['info'] }}
     {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repository</a>){% endif %}.
 
     <script type="text/screenshots">
