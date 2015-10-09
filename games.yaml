@@ -4824,6 +4824,28 @@
         - image: http://www.swallowtail.org/xquest/xquest2.gif
         - image: http://www.swallowtail.org/xquest/xquest3.gif
 
+- name: Zarch
+  clones:
+    - name: Ajax3d
+      url: http://ajax3d.sourceforge.net/
+      added: 2015-10-09
+      info: halted development, JavaScript, GPL2
+      repo: http://ajax3d.cvs.sourceforge.net/viewvc/ajax3d/
+      media:
+        - url: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113223.jpg/182/137
+          image: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113223.jpg
+        - url: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113221.jpg/182/137
+          image: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113221.jpg
+    - name: Z Virus
+      added: 2015-10-09
+      url: http://www.blitzbasic.com/Community/posts.php?topic=38995
+      repo: http://www.steviegoodwin.plus.com/Z_Virus.zip
+      info: Blitz Basic, no specified licence
+    - name: Z Virus V2
+      added: 2015-10-09
+      repo: http://www.steviegoodwin.plus.com/Z_Virus_V2.zip
+      info: Blitz Basic, no specified licence
+
 - name: Legend of Zelda
   clones:
     - name: Solarus
