@@ -3037,6 +3037,10 @@
         - image: http://www.voxelands.com/images/circuits-small.png
         - image: http://www.voxelands.com/images/craftguide-small.png
         - image: http://www.voxelands.com/images/village-small.png
+    - name: pycraft
+      added: 2015-12-29
+      repo: https://github.com/itsapi/pycraft
+      info: active development, Python, GPL2
 
 - name: [Minesweeper, Minesweeper (video game)]
   clones:
@@ -3972,6 +3976,41 @@
       added: 2015-05-18
       repo: https://github.com/carstene1ns/super-methane-brothers-gx
       info: sporadic development, C++, GPL2, (Wii and GameCube port)
+
+- name: Super Monkey Ball
+  clones:
+    - name: Veraball
+      repo: https://github.com/Veraball/veraball
+      added: 2015-12-29
+      info: active development, Gobot, MIT
+      media:
+        - image: http://i.imgur.com/uDY7tI4.jpg
+        - image: http://i.imgur.com/4SsHUvQ.jpg
+        - image: http://i.imgur.com/UWWdJZn.jpg
+        - image: http://i.imgur.com/09oXtsO.jpg
+    - name: irrlamb
+      repo: https://github.com/jazztickets/irrlamb
+      added: 2015-12-29
+      info: active development, C++ & Irrlicht, GPL3
+      media:
+        - image: http://i.imgur.com/EZhOF2Z.jpg
+        - image: http://i.imgur.com/MoKnLml.jpg
+        - image: http://i.imgur.com/B0Yg78D.jpg
+        - image: http://i.imgur.com/FUiVvbl.jpg
+        - image: http://i.imgur.com/8ibJCaB.jpg
+        - image: http://i.imgur.com/cI3CN7W.jpg
+    - name: Neverball
+      url: http://neverball.org/
+      added: 2015-12-29
+      info: active development, C++ & SDL, GPL2
+      repo: http://neverball.org/neverball-1.6.0.tar.gz
+      media:
+        - image: http://i.imgur.com/4ja9xmS.jpg
+        - image: http://i.imgur.com/xU6TJZP.jpg
+        - image: http://i.imgur.com/KJG0K0C.jpg
+        - image: http://i.imgur.com/KpzrmNp.jpg
+        - image: http://i.imgur.com/4sJM8Ji.jpg
+        - image: http://i.imgur.com/fzcotpu.jpg
 
 - name: [Survivor (1986), "Survivor (video game)"]
   clones:
