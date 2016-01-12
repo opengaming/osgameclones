@@ -442,6 +442,16 @@
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/126405.jpg
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/62665.jpg
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/71372.jpg
+        
+- name: [The Binding of Isaac,  "The Binding of Isaac (video game)"]
+  clones:
+    - name: Witch Blast
+      repo: https://github.com/Cirrus-Minor/witchblast
+      info: active development, playable, C++, SFML, GPL3, CC BY-NC-SA
+      added: 2015-09-11
+      media:
+        - image: http://dev.sfmlprojects.org/themes/responsiv-flat/assets/images/games/thumb/witch_blast.png
+        - raw: <iframe width="320" height="240" src="//www.youtube.com/embed/c1Ymyfm-P8s?rel=0" frameborder="0" allowfullscreen></iframe>
 
 - name: [Blade Runner, "Blade Runner (1997 video game)"]
   clones:
@@ -705,7 +715,7 @@
   clones:
     - name: Open Fodder
       url: https://github.com/segrax/openfodder
-      info: active development, intro & recruitment screen done, C++
+      info: active development, playable, C++
       repo: https://github.com/segrax/openfodder
       added: 2013-11-20
     - name: Cannon Fodder
@@ -838,13 +848,13 @@
     - Dune 2000
   clones:
     - name: OpenRA
-      url: http://www.open-ra.org
+      url: http://www.openra.net
       repo: https://github.com/OpenRA/OpenRA
       info: active development, C#
       media:
-        - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/OpenRA-20120504-CnC-Shellmap.png
-        - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/invasion.png
-        - image: http://media.moddb.com/cache/images/games/1/15/14718/thumb_300x150/d2k-ingame.png
+        - image: http://www.openra.net/images/news/20150531-ra-editor.png
+        - image: http://www.openra.net/images/news/20140405-beacons.png
+        - image: http://www.openra.net/images/news/20150808-d2k-range-circles.png
 
 - name: [Contra, Contra (video game)]
   clones:
@@ -1304,6 +1314,13 @@
         Keeper run on recent OSes
       repo: https://code.google.com/p/keeperfx/source/list
 
+- name: Dungeon Keeper 2
+  reimplementations:
+    - name: OpenKeeper
+      url: https://github.com/tonihele/OpenKeeper
+      repo: https://github.com/tonihele/OpenKeeper
+      info: active development; Java; needs original game files; not playable yet; GPLv3
+
 - name: [Dungeon Master, Dungeon Master (video game)]
   clones:
     - name: Chaos Strikes Back
@@ -1541,6 +1558,10 @@
 
 - name: Fallout 2
   clones:
+    - name: DarkFO
+      added: 2015-12-30
+      url: https://github.com/darkf/darkfo
+      info: active development, (JavaScript & Python), not playable, needs game data, Apache License
     - name: Falltergeist
       url: https://falltergeist.org/
       repo: https://github.com/alexeevdv/falltergeist
@@ -1897,15 +1918,6 @@
       media:
         - raw: <iframe width="420" height="315" src="//www.youtube.com/embed/JBjdzWomC4M?rel=0" frameborder="0" allowfullscreen></iframe>
 
-
-- name: [Half-Life, Half-Life (video game)]
-  clones:
-    - name: Sing
-      url: http://code.google.com/p/sing-engine/
-      repo: http://code.google.com/p/sing-engine/source/browse/trunk
-      info: development halted, C
-      added: 2013-06-08
-
 - name: Halls of the Things
   clones:
     - name: Halls of the Things 2008/2011/2014 Remake
@@ -1986,8 +1998,8 @@
           url: http://i.minus.com/ibfNF7yxaU15Rb.jpg
     - name: VCMI
       url: http://forum.vcmi.eu/portal.php
-      repo: http://vcmi.svn.sourceforge.net/
-      info: active development, time-based releases, C++
+      repo: https://github.com/vcmi/vcmi
+      info: active development, time-based releases, playable, requires original files, C++, SDL, GPL2
       media:
         - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=35
           url: http://forum.vcmi.eu/album_pic.php?pic_id=35
@@ -2876,6 +2888,24 @@
       url: http://www.fullscreenmario.com/
       added: 2015-04-04
       info: active development, playable, JavaScript, CCPL
+
+- names: [Master of Monsters, Warsong]
+  reimplementations:
+    - name: The Battle for Wesnoth
+      url: https://www.wesnoth.org/
+      repo: http://wiki.wesnoth.org/WesnothRepository
+      info: The Battle for Wesnoth is a Free, turn-based tactical strategy game with a high fantasy theme, featuring both single-player, and online/hotseat multiplayer combat. Active Development, C++, C, Java, Python, Lua, Emacs Lisp, GPL2.
+      added: 2016-01-01
+      media:
+        - url: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg
+          image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg
+        - url: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-11.jpg
+          image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-11.jpg
+        - url: https://www.wesnoth.org/images/sshots/wesnoth-1.12.4-3.jpg
+          image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.4-3.jpg
+        - url: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-5.jpg
+          image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-5.jpg
+        - raw: <iframe width="320" height="240" src="https://www.youtube.com/embed/w3P39lppcH4" frameborder="0" allowfullscreen></iframe>
 
 - name: Master of Orion 2
   clones:
@@ -4707,7 +4737,7 @@
     - name: KnightOfWor
       added: 2015-05-29
       repo: https://github.com/Sanguinik/KnightOfWor
-      info: active development, Java, no specified licence
+      info: active development, Java, GPL3
 
 - name: Wizardry
   clones:
@@ -4790,22 +4820,23 @@
       added: 2013-05-29
 
 - names:
-    - "X-COM: UFO Defence"
+    - "X-COM: UFO Defense"
     - "UFO: Enemy Unknown"
+    - "X-COM: Terror from the Deep"
   clones:
     - name: OpenXcom
       url: http://openxcom.org/
-      info: active development, C++
+      info: active development, C++, GPL3
       repo: https://github.com/SupSuper/OpenXcom
       media:
-        - image: http://openxcom.org/wp-content/gallery/cache/48__320x240_18102011_manufacture.png
-          url: http://openxcom.org/wp-content/gallery/v0-4/18102011_manufacture.png
-        - image: http://openxcom.org/wp-content/gallery/cache/40__320x240_310310_weapons.png
-          url: http://openxcom.org/wp-content/gallery/v0-3/310310_weapons.png
-        - image: http://openxcom.org/wp-content/gallery/cache/41__320x240_01052011_basetransfer.png
-          url: http://openxcom.org/wp-content/gallery/v0-3/01052011_basetransfer.png
-        - image: http://openxcom.org/wp-content/gallery/v0-3/thumbs/thumbs_09032011_ufopaedia.png
-          url: http://openxcom.org/wp-content/gallery/v0-3/09032011_ufopaedia.png
+        - image: http://openxcom.org/wp-content/gallery/v1-0/thumbs/thumbs_00_mainmenu.png
+          url: http://openxcom.org/wp-content/gallery/v1-0/00_mainmenu.png
+        - image: http://openxcom.org/wp-content/gallery/v1-0/thumbs/thumbs_01_globe.png
+          url: http://openxcom.org/wp-content/gallery/v1-0/01_globe.png
+        - image: http://openxcom.org/wp-content/gallery/v1-0/thumbs/thumbs_04_inventory.png
+          url: http://openxcom.org/wp-content/gallery/v1-0/04_inventory.png
+        - image: http://openxcom.org/wp-content/gallery/v1-0/thumbs/thumbs_07_pathpreview.png
+          url: http://openxcom.org/wp-content/gallery/v1-0/07_pathpreview.png
     - name: UFO2000
       url: http://ufo2000.sourceforge.net/
       info: development halted, playable, C++
@@ -4818,6 +4849,9 @@
           url: http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66447.jpg
         - image: http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg/182/137
           url: http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg
+
+- name: "X-COM: Apocalypse"
+  clones:
     - name: OpenApoc
       added: 2015-04-04
       info: active development, C++, MIT
@@ -5940,7 +5974,7 @@
     - name: "Project: Xenocide"
       added: 2015-04-11
       url: http://www.projectxenocide.com/
-      info: C++, GPL2
+      info: development halted, C++, GPL2
       repo: http://xenocide.cvs.sourceforge.net/viewvc/xenocide/
       media:
         - url: http://www.projectxenocide.com/images/geoscape/thumbs/xnet_laboratory-100.jpg
