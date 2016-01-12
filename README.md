@@ -39,7 +39,7 @@ Use this template:
   - `name`: Name of the clone
   - `url`: URL of clone main page
   - `repo`: (optional) if the clone has an online code repository (e.g. GitHub), link here
-  - `info`: free text, but try to use terms already used in the list. HTML is supported
+  - `info`: free text, but try to use terms already used in the list. Should include code details. HTML is supported
   - `added`: (optional) date when this clone was first added. Newly added clones are highlighted
   - `media`: (optional) list of screenshots or videos for the clone
     - `image`: URL of an image to display, preferrably a thumbnail
