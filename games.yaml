@@ -5097,12 +5097,12 @@
         - image: http://www.asc-hq.org/screenshots/screen05.jpg
         - image: http://www.asc-hq.org/screenshots/screen07.jpg
 
-- name: [Battle Zone, Battlezone_(1980_video_game)]
+- name: [Battle Zone, Battlezone_(1980_video_game), Battle Zone Capture The Flag]
   reimplementations:
     - name: BZFlag
       url: http://bzflag.org/
-      repo: http://bzflag.svn.sourceforge.net/viewvc/bzflag/
-      info: active development, C++
+      repo: https://github.com/BZFlag-Dev/bzflag
+      info: active development, C++, playable
       media:
         - image: http://bzflag.org/resources/screenshots/dantes_inferno_01_t.jpg
           url: http://bzflag.org/resources/screenshots/dantes_inferno_01.jpg
