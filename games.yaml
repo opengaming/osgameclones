@@ -1566,6 +1566,14 @@
       url: https://falltergeist.org/
       repo: https://github.com/alexeevdv/falltergeist
       info: active development, C++, not playable, needs game data
+    - name: parpg
+      added: 2016-02-08
+      url: http://blog.parpg.net/
+      repo: http://parpg-trac.cvsdude.com/parpg/browser
+      info: halted development, (Python, FOSS & C++), GPL
+      media:
+        - url: http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg/182/137
+          image: http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg
 
 - name: ["Fallout 3: Van Buren", "Van Buren (video game)"]
   clones: 
@@ -1583,6 +1591,14 @@
       added: 2016-01-12
       repo: https://github.com/nadult/FreeFT
       info: active development, C++, (AS-IS) licence
+
+- name: Fallout Online
+  clones:
+    - names: fonline
+      repo: https://github.com/alexknvl/fonline
+      url: http://fodev.net/
+      added: 2016-02-08
+      info: active development, C++, GPL3
 
 - names:
     - Fantastic Journey
@@ -2154,6 +2170,13 @@
       added: 2014-08-15
       info: active development, playable, C++
 
+- name: "Jet-Story"
+  clones:
+    - name: "Jet-Story"
+      added: 2016-02-08
+      repo: https://github.com/adamenkov/jet-story
+      info: active development, C++, MIT
+
 - name: Jetpac
   clones:
     - name: Jetpac remake
@@ -2616,6 +2639,16 @@
         - image: http://perso.b2b2c.ca/sarrazip/dev/images/afternoonstalker-1.png
           url: http://perso.b2b2c.ca/sarrazip/dev/images/afternoonstalker-1-tn.png
 
+- name: [Octopus, "List of Game & Watch games#Octopus"]
+  clones:
+    - name: Octopus
+      added: 2016-08-02
+      repo: https://github.com/roger-wetzel/Octopus
+      added: 2016-02-08
+      info: active development, Swift, no licence found, Apple TV 4 required
+      media:
+        - image: https://cloud.githubusercontent.com/assets/16686245/12429085/98761c3c-bee8-11e5-9399-1f7cc162e9bd.png
+
 - name: [Outcast, Outcast (video game)]
   clones:
     - name: OpenOutcast
@@ -3064,9 +3097,10 @@
       added: 2015-05-02
       url: http://truecraft.io/
       repo: https://github.com/SirCmpwn/TrueCraft
-      info: active development, C#, custom licence
+      info: active development, C#, MIT
       media:
-        - image: http://a.pomf.se/jksvcq.png
+        - image: https://sr.ht/aKPe.png
+        - image: https://sr.ht/OGQM.png
     - name: Voxelands
       added: 2015-07-22
       url: http://www.voxelands.com/
