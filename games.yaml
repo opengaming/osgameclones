@@ -1953,6 +1953,19 @@
       media:
         - raw: <iframe width="420" height="315" src="//www.youtube.com/embed/JBjdzWomC4M?rel=0" frameborder="0" allowfullscreen></iframe>
 
+- name: Half-Life
+  clones:
+    - name: Xash3D
+      url: http://www.moddb.com/engines/xash3d-engine
+      repo: https://github.com/SDLash3D/xash3d
+      info: active development, playable, C, GPLv3
+      added: 2016-02-10
+      media:
+        - url: http://media.moddb.com/images/engines/1/1/312/hl_2012-02-24_02-32-00-60.png
+          image: http://media.moddb.com/cache/images/engines/1/1/312/thumb_620x2000/hl_2012-02-24_02-32-00-60.png
+        - url: http://media.moddb.com/images/engines/1/1/312/cns.1.jpg
+          image: http://media.moddb.com/cache/images/engines/1/1/312/thumb_620x2000/cns.1.jpg
+        
 - name: Halls of the Things
   clones:
     - name: Halls of the Things 2008/2011/2014 Remake
