@@ -52,6 +52,18 @@
         - image: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240124607/media/shot0252.jpg
           url: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240124607/media/shot0252.jpg?height=180&width=320
 
+- name: "Ace Combat: Assault Horizon"
+  clones:
+    - name: open-horizon
+      added: 2016-02-09
+      url: http://zxstudio.org/blog/author/razgriz/
+      repo: https://github.com/undefined-darkness/open-horizon
+      info: active development, C++, SDL, MIT
+      media:
+        - image: http://zxstudio.org/blog/wp-content/uploads/2015/04/open-horizon-progress-report-01.png
+        - image: http://zxstudio.org/blog/wp-content/uploads/2016/01/open-horizon-effects.png
+        - image: http://zxstudio.org/blog/wp-content/uploads/2015/05/cockpit2.png
+
 - name: "Achtung, die Kurve!"
   clones:
     - name: Zatacka
@@ -414,6 +426,14 @@
       added: 2015-05-19
       repo: https://github.com/ggc87/BattleCity2014
       info: sporadic development, (C++, Ogre3D and EntityX), no specified licence
+
+- name: Bard's Tale Contruction Set
+  clones:
+    - name: Bt Builder
+      url: http://identicalsoftware.com/btbuilder/
+      repo: https://github.com/dulsi/btbuilder
+      info: active development, C++, GPL3
+      added: 2016-02-23
 
 - name: Bejeweled
   clones:
@@ -2208,9 +2228,9 @@
   clones:
     - name: Ostrich Riders
       added: 2015-04-15
-      url: http://sourceforge.net/projects/ostrichriders/
-      info: halted development, C++, GPL3
-      repo: http://sourceforge.net/projects/ostrichriders/files/ostrichriders/0.6.1/OstrichRiders061_SRC.tar.gz/download
+      url: http://identicalsoftware.com/ostrichriders/
+      info: sporadic development, C++, GPL3
+      repo: https://github.com/dulsi/ostrichriders
       media:
         - image: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229619.jpg
           url: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229619.jpg/182/137
@@ -5135,8 +5155,8 @@
   reimplementations:
     - name: BZFlag
       url: http://bzflag.org/
-      repo: http://bzflag.svn.sourceforge.net/viewvc/bzflag/
-      info: active development, C++
+      repo: https://github.com/BZFlag-Dev/bzflag
+      info: active development, C++, playable
       media:
         - image: http://bzflag.org/resources/screenshots/dantes_inferno_01_t.jpg
           url: http://bzflag.org/resources/screenshots/dantes_inferno_01.jpg
@@ -5612,7 +5632,7 @@
   reimplementations:
     - url: http://lincity-ng.berlios.de/
       name: LinCity
-      info: moderately active development, C++
+      info: halted development, C++
       repo: http://svn.berlios.de/viewvc/lincity-ng/trunk/
       media:
         - image: http://lincity-ng.berlios.de/wiki/images/thumb/1/15/Height.png/120px-Height.png
@@ -5625,23 +5645,23 @@
           url: http://lincity-ng.berlios.de/wiki/images/4/42/Bridges.jpg
     - url: https://github.com/SimHacker/micropolis
       name: Micropolis
-      info: active development, C++/Python
+      info: halted development, C++/Python
       added: 2013-05-27
     - name: MicropolisJS
       url: http://www.graememcc.co.uk/micropolisJS/
       repo: https://github.com/graememcc/micropolisJS
       added: 2015-07-04
-      info: active development, (JavaScript & HTML5), port of Micropolis, GPL3
+      info: halted development, (JavaScript & HTML5), port of Micropolis, GPL3
     - url: http://www.opencity.info/
       repo: svn://svn.code.sf.net/p/opencity/code/trunk
       name: OpenCity
-      info: active development, C++
+      info: halted development, C++
       added: 2015-04-03
     - name: 3d.city
       added: 2015-07-04
       url: http://lo-th.github.io/3d.city/index.html
       repo: https://github.com/lo-th/3d.city
-      info: active development, (JavaScript & HTML5), GPL3
+      info: halted development, (JavaScript & HTML5), GPL3
 
 - names:
     - [The Settlers, The Settlers (video game)]
