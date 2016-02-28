@@ -826,6 +826,14 @@
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/zydiZSXpn0w" frameborder="0" allowfullscreen></iframe>
 
+- name: [Columns, Columns (video game)]
+  clones:
+    - name: div-columns
+      added: 2016-02-26
+      url: http://js.mikedx.co.uk/columns.html
+      repo: https://github.com/MikeDX/div-columns
+      info: active development, DIV Games Studio, MIT
+
 - name: [Commando, Commando (video game)]
   clones:
     - name: CommandoJS
@@ -2348,6 +2356,12 @@
       media:
         - image: http://gamesoft.ca/java/images/ladder_secret%20road.png
         - image: http://gamesoft.ca/java/images/ladder_snp.png
+    - name: ladder
+      added: 2016-02-26
+      repo: https://github.com/SmallRoomLabs/ladder
+      info: active development, GO, MIT
+      media:
+        - image: https://raw.githubusercontent.com/SmallRoomLabs/ladder/master/images/GameRunning1.png
 
 - name: [Larn, Larn (video game)]
   clones:
