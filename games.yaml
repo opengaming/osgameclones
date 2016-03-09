@@ -2569,6 +2569,13 @@
       info: stalled development, C++
       added: 2015-04-03
 
+- name: Metroid Prime
+  clones:
+    - name: urde
+      added: 2016-03-08
+      repo: https://github.com/AxioDL/urde
+      info: active development, (engine only), C++ and Python, MIT
+
 - name: Missile Command
   clones:
     - name: Missile Command
@@ -2708,6 +2715,17 @@
       info: active development, Swift, no licence found, Apple TV 4 required
       media:
         - image: https://cloud.githubusercontent.com/assets/16686245/12429085/98761c3c-bee8-11e5-9399-1f7cc162e9bd.png
+
+- names:
+    - "Oddworld: Abe's Oddysee"
+    - "Oddworld: Abe's Exoddus"
+  clones:
+    - name: alive
+      repo: https://github.com/paulsapps/alive
+      added: 2016-03-08
+      info: active development, C++, MIT
+      media:
+        - image: https://raw.githubusercontent.com/paulsapps/alive/dev/doc/screenshots/alive1.png
 
 - name: [Outcast, Outcast (video game)]
   clones:
