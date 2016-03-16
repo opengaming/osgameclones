@@ -3116,9 +3116,20 @@
 
 - name: Meridian 59
   clones:
-    - name: Meridian59_103
+    - name: Open Meridian
       added: 2015-06-02
-      repo: https://github.com/Daenks/Meridian59_103
+      url: http://openmeridian.org
+      repo: https://github.com/OpenMeridian/Meridian59
+      info: active development, C, GPL2
+    - name: Meridian 59 Server 105
+      added: 2016-03-16
+      url: https://www.meridiannext.com
+      repo: https://github.com/OpenMeridian105/Meridian59
+      info: active development, C, GPL2
+    - name: Meridian 59 German Server 112
+      added: 2016-03-16
+      url: http://meridian59.de
+      repo: https://github.com/Arantis/Meridian59_112
       info: active development, C, GPL2
 
 - name: [Millipede, Millipede (video game)]
