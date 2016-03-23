@@ -5070,7 +5070,7 @@
       repo: http://www.steviegoodwin.plus.com/Z_Virus_V2.zip
       info: Blitz Basic, no specified licence
 
-- name: Legend of Zelda
+- name: [Legend of Zelda - A Link to the Past, "The Legend of Zelda: A Link to the Past"]
   clones:
     - name: Solarus
       url: http://www.solarus-games.org/
@@ -5081,9 +5081,6 @@
         - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_outside.png
         - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_1.png
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/BUxREyXILLs?rel=0" frameborder="0" allowfullscreen></iframe>
-
-- name: [Legend of Zelda - A Link to the Past, "The Legend of Zelda: A Link to the Past"]
-  clones:
     - name: lttp-phaser
       added: 2015-05-28
       repo: https://github.com/englercj/lttp-phaser
@@ -5495,6 +5492,17 @@
     - name: FreeFalcon
       repo: https://github.com/FreeFalcon/freefalcon-central
       info: active development, C++, win32, BSD2
+
+- name: Legend of Zelda
+  reimplementations:
+    - name: Fanwor
+      added: 2016-03-23
+      url: http://fanwor.tuxfamily.org/
+      repo: https://git.tuxfamily.org/fanwor/fanwor.git
+      info: active development, C, SDL, GPL2, playable
+      media:
+        - image: http://fanwor.tuxfamily.org/fanwor-1.png
+        - image: http://fanwor.tuxfamily.org/fanwor-2.png
 
 - name: [Lemmings, Lemmings (video game)]
   reimplementations:
