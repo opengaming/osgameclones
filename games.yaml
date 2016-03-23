@@ -5493,17 +5493,6 @@
       repo: https://github.com/FreeFalcon/freefalcon-central
       info: active development, C++, win32, BSD2
 
-- name: Legend of Zelda
-  reimplementations:
-    - name: Fanwor
-      added: 2016-03-23
-      url: http://fanwor.tuxfamily.org/
-      repo: https://git.tuxfamily.org/fanwor/fanwor.git
-      info: active development, C, SDL, GPL2, playable
-      media:
-        - image: http://fanwor.tuxfamily.org/fanwor-1.png
-        - image: http://fanwor.tuxfamily.org/fanwor-2.png
-
 - name: [Lemmings, Lemmings (video game)]
   reimplementations:
     - name: Pingus
@@ -6223,6 +6212,14 @@
       info: finished development, C++, no specified licence
       media:
         - image: http://www.zeldaroth.fr/images/picross/s1.png
+    - name: Fanwor
+      added: 2016-03-23
+      url: http://fanwor.tuxfamily.org/
+      repo: https://git.tuxfamily.org/fanwor/fanwor.git
+      info: active development, C, SDL, GPL2, playable
+      media:
+        - image: http://fanwor.tuxfamily.org/fanwor-1.png
+        - image: http://fanwor.tuxfamily.org/fanwor-2.png
 
 - name: VVVVVV
   reimplementations:
