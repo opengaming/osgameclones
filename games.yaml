@@ -191,16 +191,6 @@
         - image: http://xarchon.seul.org/img/snap-1.gif
         - image: http://xarchon.seul.org/img/snap-2.gif
 
-- name: ["Area 51", "Area 51 (2005 video game)"]
-  clones:
-    - name: Project Dreamland
-      added: 2016-04-03
-      url: https://github.com/projectdreamland
-      info: active development, playable (C++, c#, PHP), MIT
-      repo: https://github.com/ProjectDreamland/game/releases
-      media:
-        - image: https://i.imgur.com/fRgXzq9.jpg
-
 - name: [Ares, Ares (video game)]
   clones:
     - name: Antares
@@ -453,7 +443,7 @@
       repo: https://github.com/ggc87/BattleCity2014
       info: sporadic development, (C++, Ogre3D and EntityX), no specified licence
 
-- name: Bard's Tale Contruction Set
+- name: "Bard's Tale Contruction Set"
   clones:
     - name: Bt Builder
       url: http://identicalsoftware.com/btbuilder/
@@ -3116,9 +3106,20 @@
 
 - name: Meridian 59
   clones:
-    - name: Meridian59_103
+    - name: Open Meridian
       added: 2015-06-02
-      repo: https://github.com/Daenks/Meridian59_103
+      url: http://openmeridian.org
+      repo: https://github.com/OpenMeridian/Meridian59
+      info: active development, C, GPL2
+    - name: Meridian 59 Server 105
+      added: 2016-03-16
+      url: https://www.meridiannext.com
+      repo: https://github.com/OpenMeridian105/Meridian59
+      info: active development, C, GPL2
+    - name: Meridian 59 German Server 112
+      added: 2016-03-16
+      url: http://meridian59.de
+      repo: https://github.com/Arantis/Meridian59_112
       info: active development, C, GPL2
 
 - name: [Millipede, Millipede (video game)]
@@ -4132,6 +4133,10 @@
       added: 2015-06-02
       repo: https://github.com/jvlppm/pucpr-ld-mario3
       info: halted development, <a href='http://en.wikipedia.org/wiki/Construct_%28game_engine%29#Construct_2'>Construct2</a>, no specified licence
+    - name: uMario
+      added: 2016-03-24
+      repo: https://github.com/jakowskidev/uMario_Jakowski
+      info: Fully playable, C++, SDL2, development halted, GPLv2
 
 - name: [Super Methane Brothers, Super Methane Bros.]
   clones:
@@ -5059,7 +5064,7 @@
       repo: http://www.steviegoodwin.plus.com/Z_Virus_V2.zip
       info: Blitz Basic, no specified licence
 
-- name: Legend of Zelda
+- name: [Legend of Zelda - A Link to the Past, "The Legend of Zelda: A Link to the Past"]
   clones:
     - name: Solarus
       url: http://www.solarus-games.org/
@@ -5070,9 +5075,6 @@
         - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_outside.png
         - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_1.png
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/BUxREyXILLs?rel=0" frameborder="0" allowfullscreen></iframe>
-
-- name: [Legend of Zelda - A Link to the Past, "The Legend of Zelda: A Link to the Past"]
-  clones:
     - name: lttp-phaser
       added: 2015-05-28
       repo: https://github.com/englercj/lttp-phaser
@@ -6204,6 +6206,14 @@
       info: finished development, C++, no specified licence
       media:
         - image: http://www.zeldaroth.fr/images/picross/s1.png
+    - name: Fanwor
+      added: 2016-03-23
+      url: http://fanwor.tuxfamily.org/
+      repo: https://git.tuxfamily.org/fanwor/fanwor.git
+      info: active development, C, SDL, GPL2, playable
+      media:
+        - image: http://fanwor.tuxfamily.org/fanwor-1.png
+        - image: http://fanwor.tuxfamily.org/fanwor-2.png
 
 - name: VVVVVV
   reimplementations:

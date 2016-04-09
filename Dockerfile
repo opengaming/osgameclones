@@ -5,6 +5,6 @@ WORKDIR /src
 COPY . /src/
 COPY vhost.conf /etc/nginx/conf.d/default.conf
 COPY CHECKS /app/CHECKS
-EXPOSE 5000
+EXPOSE 80
 
 RUN cyrax /src -d /www
