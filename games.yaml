@@ -675,6 +675,13 @@
         - image: http://bub-n-bros.sourceforge.net/images/alone-in-the-world.png
         - image: http://bub-n-bros.sourceforge.net/images/pacman.png
 
+- name: ["Bug Bomber", "http://www.mobygames.com/game/bug-bomber"]
+  clones:
+    - name: BitRiot
+      added: 2016-04-11
+      repo: https://github.com/VenKamikaze/BitRiot
+      info: active development, (C++ & SDL), Apache License
+
 - names:
     - BurgerTime
     - バーガータイム
@@ -1390,6 +1397,10 @@
       info: halted development, C++, Stolenware
       media:
         - image: http://dmweb.free.fr/files/Clone-Screenshot-CSBLinux.jpg
+    - name: DungeonMaster
+      repo: https://github.com/ggrrin/DungeonMaster
+      added: 2016-04-11
+      info: active development, C#, no specified licence
 
 - name: [E.T. the Extra-Terrestrial, E.T. the Extra-Terrestrial (video game)]
   clones:
@@ -3989,6 +4000,10 @@
           image: http://sc2.sourceforge.net/screenshots/setupmenu_tn.png
         - url: http://sc2.sourceforge.net/screenshots/meleestep.png
           image: http://sc2.sourceforge.net/screenshots/meleestep_tn.png
+    - name: star-control2
+      repo: https://github.com/jjimenezg93/star-control2
+      info: active development, C++, MIT
+      added: 2016-04-11
 
 - name: "Star Trek: Voyager – Elite Force"
   clones:
@@ -4632,6 +4647,13 @@
       repo: https://github.com/sursonico/newtron
       added: 2015-06-01
       info: halted development, (HTML & JavaScript), no specified licence
+
+- name: [Turmoil, Turmoil (1984 video game)]
+  clones:
+    - name: datastorm
+      added: 2016-04-11
+      repo: https://github.com/haroldo-ok/datastorm
+      info: active development, C, (AS-IS) licence
 
 - name: [Turnabout, Turnabout (video game)]
   clones:
