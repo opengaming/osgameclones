@@ -48,6 +48,20 @@ def parse_data(site):
         for item in data
         if 'reimplementations' in item and validate(item, 'reimplementations')]
 
+    langs = []
+    for item in data:
+        if 'clones' in item: 
+            which = item['clones']
+        else: 
+            which = item['reimplementations']
+        for clone in which:
+            if 'lang' in clone:
+                lang = clone['lang']
+                if isinstance(lang, basestring):
+					lang = [lang]
+                for l in lang:
+                    langs.append(l)
+    site.langs = list(set(langs))
 
 def callback(site):
     events.events.connect('traverse-started', parse_data)

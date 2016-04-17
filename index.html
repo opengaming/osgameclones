@@ -104,6 +104,14 @@
   </dd>
   {% endfor %}
 {% endmacro %}
+ 
+  <section>
+	<h4>Languages</h4>
+
+    {% for tag in site.langs %}
+      {{ render_tag(tag, 'lang') }}
+    {% endfor %}
+  </section>
 
   <h2>List of complete clones</h2>
   <article>Some of these games aren&#39;t reimplementations but evolution of original ones, which were eventually open sourced.</article>
