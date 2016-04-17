@@ -89,6 +89,11 @@ dd + dt { margin-top: 1em; }
 .new { background-color: #e3f9d7; }
 .hash { color: grey; text-decoration: none; }
 
+.tag { display: inline-block; font-size: 0.8rem; padding: 2px 6px; margin: 0 2px; }
+.tag.status { color: white; background-color: black; }
+.tag.license { color: black; background-color: yellow; }
+.tag.lang { color: white; background-color: blue; }
+
 #filter {
     display: inline-block;
     height: 20px;

@@ -3,14 +3,18 @@
     - name: ScummVM
       url: http://scummvm.org/
       repo: https://github.com/scummvm/scummvm
-      info: very active development, C++. List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
+      status: very active
+      lang: C++
+      info: List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
 
 - name: ["1945", Strikers 1945]
   clones:
     - name: Py1945
       added: 2015-04-13
       url: https://code.google.com/p/py1945game/
-      info: halted development, Python, GPL
+      status: halted
+      lang: Python
+      license: GPL
       repo: http://py1945game.googlecode.com/svn/trunk/
 
 - name: 3D Deathchase
@@ -19,7 +23,8 @@
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
       added: 2015-04-13
       repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/deathchase3d-0.9.tar.gz
-      info: C, GPL2
+      lang: C
+      license: GPL2
 
 - name: [Abuse, Abuse (video game)]
   clones:
@@ -27,7 +32,11 @@
       url: http://abuse.zoy.org/
       repo: http://abuse.zoy.org/browser/abuse/trunk
       added: 2013-05-27
-      info: development halted, playable, C++, Lisp
+      status: halted
+      lang:
+        - C++
+        - Lisp
+      info: playable
       media:
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png
@@ -38,12 +47,18 @@
       added: 2015-07-22
       url: http://iceball.build/
       repo: https://github.com/iamgreaser/iceball
-      info: active development, C/Lua, multiple licences
+      status: active
+      licsense: Multiple
+      lang: 
+        - C
+        - Lua
     - name: OpenSpades
       added: 2015-04-10
       url: https://sites.google.com/a/yvt.jp/openspades/
       repo: https://github.com/yvt/openspades
-      info: active development, C++, GPL3
+      status: active
+      lang: C++
+      license: GPL3
       media:
         - image: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg
           url: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg?height=180&width=320
@@ -58,7 +73,10 @@
       added: 2016-02-09
       url: http://zxstudio.org/blog/author/razgriz/
       repo: https://github.com/undefined-darkness/open-horizon
-      info: active development, C++, nya-engine, MIT
+      status: active
+      lang: C++
+      info: nya-engine
+      license: MIT
       media:
         - image: http://zxstudio.org/blog/wp-content/uploads/2015/04/open-horizon-progress-report-01.png
         - image: http://zxstudio.org/blog/wp-content/uploads/2016/01/open-horizon-effects.png
