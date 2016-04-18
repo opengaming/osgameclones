@@ -30,13 +30,25 @@ def names(item):
     return item.get('names') or [item['name']]
 
 
-def mark_new(entry):
-    added = entry.get('added') or date(1970, 1, 1)
-    return dict(entry,
-                new=(date.today() - added) < timedelta(days=30))
+def parse_tag(tag):
+    return tag.replace(' ', '-').lower()
 
 
-def parse_tags(site, games, tag):
+def parse_tags(entry):
+    fields = ['status', 'license', 'lang', 'framework']
+    tags = []
+
+    for field in fields:
+        if field in entry:
+            if isinstance(entry[field], basestring):
+                tags.append(parse_tag(entry[field]))
+            else:
+                tags += map(parse_tag, entry[field])
+
+    return tags
+
+
+def parse_global_tags(site, games, tag):
     for game in games:
         if tag in game:
             if not getattr(site, tag, False):
@@ -52,21 +64,28 @@ def parse_tags(site, games, tag):
                 tagObj[t]['tag_count'] += 1
 
 
-def parse_item(site, item, key):
+def parse_item(entry):
+    added = entry.get('added') or date(1970, 1, 1)
+    return dict(entry,
+                new=(date.today() - added) < timedelta(days=30),
+                tags=parse_tags(entry))
+
+
+def parse_items(site, item, key):
     if key in item and validate(item, key):
         if not getattr(site, key, False):
             setattr(site, key, [])
 
-        parse_tags(site, item[key], 'lang')
-        getattr(site, key).append((names(item), map(mark_new, item[key])))
+        parse_global_tags(site, item[key], 'lang')
+        getattr(site, key).append((names(item), map(parse_item, item[key])))
 
 
 def parse_data(site):
     data = yaml.load(file(op.join(op.dirname(__file__), 'games.yaml')))
 
     for item in data:
-        parse_item(site, item, 'clones')
-        parse_item(site, item, 'reimplementations')
+        parse_items(site, item, 'clones')
+        parse_items(site, item, 'reimplementations')
 
 
 def callback(site):
