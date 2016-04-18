@@ -71,7 +71,7 @@
   {%- endif -%}
 
   {%- for tag_name in tag_names -%}
-    <span class="tag {{ tag_class | lower }}"
+    <span class="tag {{ tag_class | lower }} tag-{{ tag_name | lower }}"
           data-name="{{ tag_name | lower }}">
       {{- tag_name -}}
       {%- if tag_props -%}<span class="tag-pill">{{ tag_props }}</span>{%- endif -%}
@@ -123,7 +123,7 @@
 
     {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif -%}
 
-    {{ render_tag('status', game['status']|title) }}
+    {{ render_tag('status', game['status'] | title) }}
     {{ render_tag('license', game['license']) }}
     {{ render_tag('lang', game['lang']) }}
     {{ render_tag('framework', game['framework']) }}
@@ -230,7 +230,6 @@
 
     // tag handling
     (function() {
-      var lists = document.getElementsByTagName('dl');
       var games = document.getElementsByTagName('dd');
       var tags = document.getElementsByClassName('tag');
 
@@ -243,7 +242,9 @@
         var parent;
         var game, gameTags;
 
-        setTagsActive();
+        if (!hasClass(document.body, 'tags-active')) {
+          document.body.className += ' tags-active';
+        }
 
         for (var i = 0, len = games.length; i < len; i += 1) {
           game = games[i];
@@ -257,16 +258,8 @@
               parent.className += ' active';
             }
           } else if (hasClass(game, 'active')) {
-            game.className = game.className.replace('active', '');
-            parent.className = parent.className.replace('active', '');
-          }
-        }
-      }
-
-      function setTagsActive() {
-        for (var i = 0, l = lists.length; i < l; i += 1) {
-          if (!hasClass(lists[i], 'tags-active')) {
-            lists[i].className += ' tags-active';
+            game.className = game.className.replace('active', '').trim();
+            parent.className = parent.className.replace('active', '').trim();
           }
         }
       }
