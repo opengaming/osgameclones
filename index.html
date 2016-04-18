@@ -171,8 +171,8 @@
     <a href="https://github.com/piranha/osgameclones/graphs/contributors">and other contributors.</a>
   </footer>
 
-  <style id="filter-style">
-  </style>
+  <style id="filter-style"></style>
+  <style id="tag-style"></style>
 
   <script type="text/javascript">
     // screenshot handling
@@ -256,11 +256,25 @@
             if (!hasClass(game, 'active')) {
               game.className += ' active';
               parent.className += ' active';
+              selectTags(t.getAttribute('data-name'))
             }
           } else if (hasClass(game, 'active')) {
             game.className = game.className.replace('active', '').trim();
             parent.className = parent.className.replace('active', '').trim();
           }
+        }
+      }
+
+      function selectTags(tag) {
+        var style = document.getElementById('tag-style');
+        var lines = [
+          '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; };'
+        ];
+
+        if (tag) {
+          style.innerHTML = lines.join('\n');
+        } else {
+          style.innerHTML = '';
         }
       }
 
