@@ -80,8 +80,9 @@
 {% endmacro %}
 
 {% macro show_keywords(game, names) -%}
-  {{ game['name'] | lower | e -}}{{ ' ' -}}
+  {{ game.name | lower | e -}}{{ ' ' -}}
   {{ game.tags | join(' ') -}}{{ ' ' -}}
+  {{ game.info | lower | e -}}{{ ' ' -}}
 
   {% for n in names -%}
     {% if n is not string -%}
