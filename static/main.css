@@ -1,6 +1,6 @@
 /* Default to some sans-serif font at a specific size */
 html { font-size: 100%; }
-body { font-family: sans-serif; }
+body { font-family: sans-serif; overflow-y: scroll; }
 h1, h2, h3, h4, h5 { font-family: 'Ubuntu', 'Trebuchet MS', sans-serif; }
 pre, tt.literal { font: 0.8em Monaco, monospace; }
 pre { margin: 0 0 1em 1em; overflow: auto; }
