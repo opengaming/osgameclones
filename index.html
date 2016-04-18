@@ -74,14 +74,23 @@
   {%- endfor -%}
 {% endmacro %}
 
-{% macro show_keywords(game, other) %}
-  {{- game['name']|lower|e }}
-  {% if 'status' in game %}{{- game['status']|lower|e }}{% endif %}
-  {% if 'lang' in game %}{{- game['lang']|lower|e }}{% endif %}
-  {% if 'license' in game %}{{- game['license']|lower|e }}{% endif %}
-  {{ game['info']|lower|e }}
-  {{ other|join(' ')|lower|e -}}
-{% endmacro %}
+{% macro show_keywords(game, names) -%}
+  {{ game['name'] | lower | e -}}{{ ' ' -}}
+  {{ game['status'] | lower | e -}}{{ ' ' -}}
+  {{ game['lang'] | join(' ') | lower |e -}}{{ ' ' -}}
+  {{ game['license'] | lower |e -}}{{ ' ' -}}
+  {{ game['info'] | lower | e -}}{{ ' ' -}}
+
+  {% for n in names -%}
+    {% if n is not string -%}
+      {% for i in n -%}
+        {{ i | lower | e -}}{{ ' ' -}}
+      {% endfor -%}
+    {% else -%}
+      {{ n | lower | e -}}
+    {% endif -%}
+  {% endfor -%}
+{%- endmacro %}
 
 {% macro render(names, items, mode) %}
   {% for name in names %}
