@@ -55,11 +55,15 @@
     {% set wikilink = "http://en.wikipedia.org/wiki/" + wiki %}
   {%- endif -%}
 
-  <dt {% if not idx %}id="{{ name }}-{{ mode }}"{% endif -%} class="searchable">
+  <dt {% if not idx %}id="{{ show_id(name, mode) }}"{% endif -%} class="searchable">
     <a href="{{ wikilink }}">{{ name }}</a>
-    {% if not idx %}<a href="#{{ name }}-{{ mode }}" class="hash">#</a>{% endif %}
+    {% if not idx %}<a href="#{{ show_id(name, mode) }}" class="hash">#</a>{% endif %}
   </dt>
 {% endmacro %}
+
+{% macro show_id(name, mode) -%}
+  {{ name | lower | replace(' ', '-') }}-{{mode}}
+{%- endmacro %}
 
 {% macro render_tag(tag_class, tag_names, tag_props) %}
   {%- if tag_names is string -%}
@@ -104,8 +108,15 @@
 
   {% for game in items %}
   <dd class="searchable {% if game.new %}new{% endif %}"
-      data-index="{{ show_keywords(game, names) }}"
-      data-tags="{{ show_tags(game) }}">
+      data-parent="
+        {%- if names.0 is string -%}
+          {% set name = names.0 %}
+        {%- else -%}
+          {% set name = names.0.0 %}
+        {%- endif -%}
+        {{ show_id(name, mode) }}"
+      data-tags="{{ show_tags(game) }}"
+      data-index="{{ show_keywords(game, names) }}">
     <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     {%- if 'url' in game %}<a href="{{ game['url'] }}">{% endif %}{{ game['name'] }}{%- if 'url' in game %}</a>{% endif %}
