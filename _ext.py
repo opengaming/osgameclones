@@ -36,32 +36,38 @@ def mark_new(entry):
                 new=(date.today() - added) < timedelta(days=30))
 
 
+def parse_tags(site, games, tag):
+    for game in games:
+        if tag in game:
+            if not getattr(site, tag, False):
+                setattr(site, tag, {})
+
+            if isinstance(game[tag], basestring):
+                game[tag] = [game[tag]]
+
+            for t in game[tag]:
+                tagObj = getattr(site, tag, False)
+                if not tagObj.get(t, False):
+                    tagObj[t] = {'tag_count': 0}
+                tagObj[t]['tag_count'] += 1
+
+
+def parse_item(site, item, key):
+    if key in item and validate(item, key):
+        if not getattr(site, key, False):
+            setattr(site, key, [])
+
+        parse_tags(site, item[key], 'lang')
+        getattr(site, key).append((names(item), map(mark_new, item[key])))
+
+
 def parse_data(site):
     data = yaml.load(file(op.join(op.dirname(__file__), 'games.yaml')))
 
-    site.clones = [
-        (names(item), map(mark_new, item['clones']))
-        for item in data
-        if 'clones' in item and validate(item, 'clones')]
-    site.reimplementations = [
-        (names(item), map(mark_new, item['reimplementations']))
-        for item in data
-        if 'reimplementations' in item and validate(item, 'reimplementations')]
-
-    langs = []
     for item in data:
-        if 'clones' in item: 
-            which = item['clones']
-        else: 
-            which = item['reimplementations']
-        for clone in which:
-            if 'lang' in clone:
-                lang = clone['lang']
-                if isinstance(lang, basestring):
-					lang = [lang]
-                for l in lang:
-                    langs.append(l)
-    site.langs = list(set(langs))
+        parse_item(site, item, 'clones')
+        parse_item(site, item, 'reimplementations')
+
 
 def callback(site):
     events.events.connect('traverse-started', parse_data)

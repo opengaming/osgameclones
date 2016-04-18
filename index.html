@@ -61,13 +61,16 @@
   </dt>
 {% endmacro %}
 
-{% macro render_tag(tag_names, tag_class) %}
+{% macro render_tag(tag_class, tag_names, tag_props) %}
   {%- if tag_names is string -%}
     {% set tag_names = [tag_names] %}
   {%- endif -%}
-  
+
   {%- for tag_name in tag_names -%}
-    <span class="tag {{ tag_class|lower }}">{{ tag_name }}</span>
+    <span class="tag {{ tag_class|lower }}">
+      {{- tag_name -}}
+      {%- if tag_props -%}<span class="tag-pill">{{ tag_props }}</span>{%- endif -%}
+    </span>
   {%- endfor -%}
 {% endmacro %}
 
@@ -94,9 +97,9 @@
 
 	{%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif -%}
 
-	{{ render_tag(game['status'], 'status') }}
-	{{ render_tag(game['license'], 'license') }}
-	{{ render_tag(game['lang'], 'lang') }}
+	{{ render_tag('status', game['status']) }}
+	{{ render_tag('license', game['license']) }}
+	{{ render_tag('lang', game['lang']) }}
 
 	{%- if 'info' in game %}<div>{{ game['info'] }}</div>{% endif %}
 
@@ -111,12 +114,12 @@
   </dd>
   {% endfor %}
 {% endmacro %}
- 
+
   <section>
 	<h4>Languages</h4>
 
-    {% for tag in site.langs %}
-      {{ render_tag(tag, 'lang') }}
+    {% for tag, tag_props in site.lang.iteritems() %}
+      {{ render_tag('lang', tag, tag_props['tag_count']) }}
     {% endfor %}
   </section>
 
