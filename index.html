@@ -238,7 +238,7 @@
       }
 
       function onclick(e) {
-        var t = e.target;
+        var t = e.target.hasAttribute('data-name') ? e.target : e.target.parentNode;
         var parent;
         var game, gameTags;
 
