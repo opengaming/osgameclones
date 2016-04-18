@@ -240,6 +240,7 @@
 
       function onclick(e) {
         var t = e.target;
+        var parent;
         var game, gameTags;
 
         setTagsActive();
@@ -247,13 +248,17 @@
         for (var i = 0, len = games.length; i < len; i += 1) {
           game = games[i];
           gameTags = game.getAttribute('data-tags');
+          parent = document.getElementById(game.getAttribute('data-parent'));
+
           if (gameTags &&
             gameTags.split(' ').indexOf(t.getAttribute('data-name')) > -1) {
             if (!hasClass(game, 'active')) {
-              game.className += 'active';
+              game.className += ' active';
+              parent.className += ' active';
             }
           } else if (hasClass(game, 'active')) {
             game.className = game.className.replace('active', '');
+            parent.className = parent.className.replace('active', '');
           }
         }
       }
