@@ -89,6 +89,9 @@ dd + dt { margin-top: 1em; }
 .new { background-color: #e3f9d7; }
 .hash { color: grey; text-decoration: none; }
 
+.tags-active dt, .tags-active dd {display: none}
+.tags-active dt.active, .tags-active dd.active {display: block}
+
 .tag { display: inline-block; font-size: 0.8rem; padding: 0px 6px; margin: 0 2px;
     color: #444; background-color: #eee; }
 .tag.status:hover { background-color: #8AFF99; }
