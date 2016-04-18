@@ -95,13 +95,14 @@
 
     {%- if 'url' in game %}<a href="{{ game['url'] }}">{% endif %}{{ game['name'] }}{%- if 'url' in game %}</a>{% endif %}
 
-	{%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif -%}
+  {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif -%}
 
-	{{ render_tag('status', game['status']) }}
-	{{ render_tag('license', game['license']) }}
-	{{ render_tag('lang', game['lang']) }}
+  {{ render_tag('status', game['status']) }}
+  {{ render_tag('license', game['license']) }}
+  {{ render_tag('lang', game['lang']) }}
+  {{ render_tag('framework', game['framework']) }}
 
-	{%- if 'info' in game %}<div>{{ game['info'] }}</div>{% endif %}
+  {%- if 'info' in game %}<div>{{ game['info'] }}</div>{% endif %}
 
     <script type="text/screenshots">
       {% for item in game.get('media', []) %}
@@ -116,7 +117,7 @@
 {% endmacro %}
 
   <section>
-	<h4>Languages</h4>
+    <h4>Languages</h4>
 
     {% for tag, tag_props in site.lang.iteritems() %}
       {{ render_tag('lang', tag, tag_props['tag_count']) }}
