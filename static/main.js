@@ -92,15 +92,8 @@
 
   function highlightTags(tag) {
     var style = document.getElementById('tag-style');
-    var lines = [
-      '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; };'
-    ];
-
-    if (tag) {
-      style.innerHTML = lines.join('\n');
-    } else {
-      style.innerHTML = '';
-    }
+    var line = '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; }';
+    style.innerHTML = tag ? line : '';
   }
 
   function hasClass(node, name) {
