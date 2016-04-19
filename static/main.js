@@ -73,15 +73,15 @@
 
     for (var i = 0, len = games.length; i < len; i += 1) {
       game = games[i];
-      gameTags = game.getAttribute('data-tags');
+      gameTags = game.getAttribute('data-tags').split(' ');
       parent = document.getElementById(game.getAttribute('data-parent'));
 
-      if (gameTags &&
-        gameTags.split(' ').indexOf(t.getAttribute('data-name')) > -1) {
+      if (gameTags && gameTags.indexOf(t.getAttribute('data-name')) > -1) {
+        highlightTags(t.getAttribute('data-name'));
+
         if (!hasClass(game, 'active')) {
           game.className += ' active';
           parent.className += ' active';
-          selectTags(t.getAttribute('data-name'))
         }
       } else if (hasClass(game, 'active')) {
         game.className = game.className.replace('active', '').trim();
@@ -90,7 +90,7 @@
     }
   }
 
-  function selectTags(tag) {
+  function highlightTags(tag) {
     var style = document.getElementById('tag-style');
     var lines = [
       '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; };'
