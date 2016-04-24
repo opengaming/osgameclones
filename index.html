@@ -53,11 +53,45 @@
     {% set wikilink = "http://en.wikipedia.org/wiki/" + wiki %}
   {%- endif -%}
 
-  <dt {% if not idx %}id="{{ name }}-{{ mode }}"{% endif -%} class="searchable">
+  <dt {% if not idx %}id="{{ show_id(name, mode) }}"{% endif -%} class="searchable">
     <a href="{{ wikilink }}">{{ name }}</a>
-    {% if not idx %}<a href="#{{ name }}-{{ mode }}" class="hash">#</a>{% endif %}
+    {% if not idx %}<a href="#{{ show_id(name, mode) }}" class="hash">#</a>{% endif %}
   </dt>
 {% endmacro %}
+
+{% macro show_id(name, mode) -%}
+  {{ name | lower | replace(' ', '-') }}-{{mode}}
+{%- endmacro %}
+
+{% macro render_tag(tag_class, tag_names, tag_props) %}
+  {%- if tag_names is string -%}
+    {% set tag_names = [tag_names] %}
+  {%- endif -%}
+
+  {%- for tag_name in tag_names -%}
+    <span class="tag {{ tag_class | lower }} tag-{{ tag_name | lower }}"
+          data-name="{{ tag_name | replace(' ', '-') | lower }}">
+      {{- tag_name -}}
+      {%- if tag_props -%}<span class="tag-pill">{{ tag_props }}</span>{%- endif -%}
+    </span>
+  {%- endfor -%}
+{% endmacro %}
+
+{% macro show_keywords(game, names) -%}
+  {{ game.name | lower | e -}}{{ ' ' -}}
+  {{ game.tags | join(' ') -}}{{ ' ' -}}
+  {{ game.info | lower | e -}}{{ ' ' -}}
+
+  {% for n in names -%}
+    {% if n is not string -%}
+      {% for i in n -%}
+        {{ i | lower | e -}}{{ ' ' -}}
+      {% endfor -%}
+    {% else -%}
+      {{ n | lower | e -}}
+    {% endif -%}
+  {% endfor -%}
+{%- endmacro %}
 
 {% macro render(names, items, mode) %}
   {% for name in names %}
@@ -66,13 +100,27 @@
 
   {% for game in items %}
   <dd class="searchable {% if game.new %}new{% endif %}"
-      data-index="{{ names|join(' ')|lower|e }}
-                  {{ game['name']|lower|e }}
-                  {{ game['info']|lower|e }}">
+      data-parent="
+        {%- if names.0 is string -%}
+          {% set name = names.0 %}
+        {%- else -%}
+          {% set name = names.0.0 %}
+        {%- endif -%}
+        {{ show_id(name, mode) }}"
+      data-tags="{{ game.tags | join(' ') }}"
+      data-index="{{ show_keywords(game, names) }}">
     <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
-    {%- if 'url' in game %}<a href="{{ game['url'] }}">{% endif %}{{ game['name'] }}{%- if 'url' in game %}</a>{% endif %} - {{ game['info'] }}
-    {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repository</a>){% endif %}.
+    {%- if 'url' in game %}<a href="{{ game['url'] }}">{% endif %}{{ game['name'] }}{%- if 'url' in game %}</a>{% endif %}
+
+    {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif -%}
+
+    {{ render_tag('status', game['status'] | title) }}
+    {{ render_tag('license', game['license']) }}
+    {{ render_tag('lang', game['lang']) }}
+    {{ render_tag('framework', game['framework']) }}
+
+    {%- if 'info' in game %}<div>{{ game['info'] }}</div>{% endif %}
 
     <script type="text/screenshots">
       {% for item in game.get('media', []) %}
@@ -85,6 +133,14 @@
   </dd>
   {% endfor %}
 {% endmacro %}
+
+  <section class="tag-group">
+    <h4>Languages</h4>
+
+    {% for tag, tag_props in site.lang.iteritems() %}
+      {{ render_tag('lang', tag, tag_props['tag_count']) }}
+    {% endfor %}
+  </section>
 
   <h2>List of complete clones</h2>
   <article>Some of these games aren&#39;t reimplementations but evolution of original ones, which were eventually open sourced.</article>
@@ -107,63 +163,10 @@
     <a href="https://github.com/piranha/osgameclones/graphs/contributors">and other contributors.</a>
   </footer>
 
-  <style id="filter-style">
-  </style>
+  <style id="filter-style"></style>
+  <style id="tag-style"></style>
 
-  <script type="text/javascript">
-    // screenshot handling
-    (function() {
-      var onclick = function() {
-        var screenshots = this.parentNode.getElementsByTagName("script");
-        if (screenshots.length) {
-            var innerHTML = '<div class="screenshots" style="display: none">' +
-                            screenshots[0].innerHTML + '</div>';
-            this.parentNode.insertAdjacentHTML('beforeend', innerHTML);
-            this.parentNode.removeChild(screenshots[0]);
-        }
-        screenshots = this.parentNode.getElementsByClassName("screenshots")[0];
-        var show_now = screenshots.style.display == "none";
-        this.innerHTML = show_now ? "&#x25bc;" : "&#x25b6;";
-        screenshots.style.display = show_now ? "block" : "none";
-      }
-      var els = document.getElementsByClassName("toggler");
-      for (var i = 0, l = els.length; i < l; i++) {
-        els[i].addEventListener("click", onclick);
-      }
-    })();
-
-    // search handling
-    (function() {
-        // collect indexes on dt
-        var nodes = document.getElementsByTagName('dt');
-        for (var i = 0, l = nodes.length; i < l; i++) {
-            var el = nodes[i], next = el, index = [];
-            while ((next = next.nextElementSibling) && !next.id) {
-                if (next.tagName != 'DD')
-                    continue;
-                index.push(next.getAttribute('data-index'));
-            }
-            el.setAttribute('data-index', index.join(' '));
-        };
-
-        var getfilter = function(term) {
-            return !term ? "" :
-                '[data-index*="' + term.toLowerCase().replace('"', '') + '"]';
-        }
-
-        var style = document.getElementById('filter-style');
-        document.getElementById('filter').addEventListener('input', function() {
-            if (!this.value) {
-                style.innerHTML = "";
-                return;
-            }
-            style.innerHTML =
-                ".searchable {display: none} .searchable" +
-                this.value.split(' ').map(getfilter).join('') +
-                "{display: block}";
-        });
-    })();
-  </script>
+  <script type="text/javascript" src="static/main.js"></script>
 
   <script type="text/javascript">
   var _gaq = [['_setAccount', 'UA-23716824-1'], ['_trackPageview']];

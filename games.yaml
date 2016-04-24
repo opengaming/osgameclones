@@ -3,14 +3,18 @@
     - name: ScummVM
       url: http://scummvm.org/
       repo: https://github.com/scummvm/scummvm
-      info: very active development, C++. List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
+      status: very active
+      lang: C++
+      info: List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
 
 - name: ["1945", Strikers 1945]
   clones:
     - name: Py1945
       added: 2015-04-13
       url: https://code.google.com/p/py1945game/
-      info: halted development, Python, GPL
+      status: halted
+      lang: Python
+      license: GPL
       repo: http://py1945game.googlecode.com/svn/trunk/
 
 - name: 3D Deathchase
@@ -19,7 +23,8 @@
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
       added: 2015-04-13
       repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/deathchase3d-0.9.tar.gz
-      info: C, GPL2
+      lang: C
+      license: GPL2
 
 - name: [Abuse, Abuse (video game)]
   clones:
@@ -27,7 +32,11 @@
       url: http://abuse.zoy.org/
       repo: http://abuse.zoy.org/browser/abuse/trunk
       added: 2013-05-27
-      info: development halted, playable, C++, Lisp
+      status: halted
+      lang:
+        - C++
+        - Lisp
+      info: playable
       media:
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png
@@ -38,12 +47,18 @@
       added: 2015-07-22
       url: http://iceball.build/
       repo: https://github.com/iamgreaser/iceball
-      info: active development, C/Lua, multiple licences
+      status: active
+      license: Multiple
+      lang:
+        - C
+        - Lua
     - name: OpenSpades
       added: 2015-04-10
       url: https://sites.google.com/a/yvt.jp/openspades/
       repo: https://github.com/yvt/openspades
-      info: active development, C++, GPL3
+      status: active
+      lang: C++
+      license: GPL3
       media:
         - image: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg
           url: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg?height=180&width=320
@@ -58,7 +73,10 @@
       added: 2016-02-09
       url: http://zxstudio.org/blog/author/razgriz/
       repo: https://github.com/undefined-darkness/open-horizon
-      info: active development, C++, nya-engine, MIT
+      status: active
+      lang: C++
+      framework: nya-engine
+      license: MIT
       media:
         - image: http://zxstudio.org/blog/wp-content/uploads/2015/04/open-horizon-progress-report-01.png
         - image: http://zxstudio.org/blog/wp-content/uploads/2016/01/open-horizon-effects.png
@@ -70,7 +88,10 @@
       added: 2015-04-16
       url: http://zatacka.sourceforge.net/
       repo: https://github.com/simenheg/zatackax/
-      info: halted development, C, SDL, GPL
+      status: halted
+      lang: C
+      framework: SDL
+      license: GPL
       media:
         - image: http://zatacka.sourceforge.net/img/sc1.jpg
         - image: http://zatacka.sourceforge.net/img/sc2.jpg
@@ -78,7 +99,8 @@
     - name: Netacka
       added: 2016-03-06
       url: https://pwmarcz.pl/netacka/
-      info: halted development, C
+      status: halted
+      lang: C
       media:
         - image: https://pwmarcz.pl/netacka/sshots.png
 
@@ -88,7 +110,13 @@
       url: http://openage.sft.mx/
       repo: https://github.com/SFTtech/openage
       added: 2014-10-26
-      info: active development, runnable (not playable yet), requires original files, C++14, Python, SDL, GPL3
+      status: active
+      info: runnable (not playable yet), requires original files
+      lang:
+        - C++
+        - Python
+      framework: SDL
+      license: GPL3
       media:
         - image: http://openage.sft.mx/pics/openage_0.png
 
@@ -98,14 +126,17 @@
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
       repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/aklabeth-1.0.tar.gz
       added: 2015-04-13
-      info: C, GPL2
+      lang: C
+      license: GPL2
 
 - name: Alien 8
   clones:
     - name: Alien 8
       url: http://retrospec.sgn.net/game/alien8
       added: 2014-01-12
-      info: development halted, playable, C
+      status: halted
+      info: playable
+      lang: C
       media:
         - url: http://retrospec.sgn.net/config/screenshots/alien8.t.img0.jpg
           image: http://retrospec.sgn.net/config/screenshots/alien8.f.img0.jpg
@@ -122,7 +153,9 @@
       repo: http://freeallegiance.cvs.sourceforge.net/viewvc/freeallegiance/
       url: http://www.freeallegiance.org/
       added: 2015-04-06
-      info: sporadic development, C, Shared source
+      status: sporadic
+      lang: C
+      info: Shared source
       media:
         - image: http://www.freeallegiance.org/screenshots/CapitalShips/BelterCapsLaunchTogether.jpg
           url: http://www.freeallegiance.org/screenshots/CapitalShips/BelterCapsLaunchTogether.thumb.jpg
@@ -141,7 +174,9 @@
       url: http://sourceforge.net/projects/fitd/
       repo: http://fitd.svn.sf.net/viewvc/fitd/trunk/
       added: 2014-09-05
-      info: development halted, C, GPL
+      status: halted
+      lang: C
+      license: GPL
 
 - name: "Anacreon: Reconstruction 4021"
   clones:
@@ -149,7 +184,13 @@
       url: http://ardreil.sourceforge.net/
       repo: http://ardreil.cvs.sourceforge.net/viewvc/ardreil/
       added: 2015-04-09
-      info: halted development, C, C++, Java, Pascal, GPL2
+      status: halted
+      lang:
+        - C
+        - C++
+        - Java
+        - Pascal
+      license: GPL2
 
 - names:
     - [Another World, "Another World (video game)"]
@@ -160,12 +201,17 @@
       url: http://sourceforge.net/projects/newraw/
       repo: svn://svn.code.sf.net/p/newraw/code/
       added: 2014-09-05
-      info: development halted, C++, GPL
+      status: halted
+      lang: C++
+      license: GPL
     - name: rawgl
       url: http://cyxdown.free.fr/rawgl/
       repo: https://github.com/cyxx/rawgl
       added: 2016-03-06
-      info: active development, completable, C++, GPL
+      status: active
+      info: completable
+      lang: C++
+      license: GPL
       media:
         - image: http://cyxdown.free.fr/rawgl/raw-1.png
         - image: http://cyxdown.free.fr/rawgl/raw-2.png
@@ -178,7 +224,8 @@
       url: http://hota.sourceforge.net/
       repo: http://hota.cvs.sourceforge.net/viewvc/hota/
       added: 2015-04-02
-      info: development halted, C
+      status: halted
+      lang: C
 
 - name: "Archon: The Light and the Dark"
   clones:

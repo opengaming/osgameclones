@@ -1,6 +1,6 @@
 /* Default to some sans-serif font at a specific size */
 html { font-size: 100%; }
-body { font-family: sans-serif; }
+body { font-family: sans-serif; overflow-y: scroll; }
 h1, h2, h3, h4, h5 { font-family: 'Ubuntu', 'Trebuchet MS', sans-serif; }
 pre, tt.literal { font: 0.8em Monaco, monospace; }
 pre { margin: 0 0 1em 1em; overflow: auto; }
@@ -33,7 +33,7 @@ time { color: grey; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.7em; }
 h3 { font-size: 1.5em; }
-h4 { font-size: 1.3em; }
+h4 { font-size: 1.3em; margin-bottom: 0}
 h1 a, h2 a { text-decoration: none; }
 h1 a:hover, h2 a:hover { text-decoration: underline; }
 h1, h2 { margin: 0.5em 0 0.5em 0; }
@@ -88,6 +88,18 @@ dd + dt { margin-top: 1em; }
 .feed-icon a { float: right; padding-top: 0.5em; }
 .new { background-color: #e3f9d7; }
 .hash { color: grey; text-decoration: none; }
+
+.tags-active dt, .tags-active dd {display: none}
+.tags-active dt.active, .tags-active dd.active {display: block}
+
+.tag { display: inline-block; font-size: 0.8rem; padding: 0 6px; margin: 0 2px;
+       color: #444; background-color: #eee; cursor: pointer; }
+.tag.status:hover { color: #444; background-color: #8AFF99; }
+.tag.license:hover { color: #444; background-color: #FFFF8C; }
+.tag.lang:hover { color: #444; background-color: #9CFFFF; }
+.tag.framework:hover { color: #444; background-color: #FF786B; }
+.tag-pill { margin: 0 -7px 0 6px; padding: 2px 6px;
+            color: #666; background-color: #ddd; }
 
 #filter {
     display: inline-block;
