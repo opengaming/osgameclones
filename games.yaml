@@ -1562,19 +1562,33 @@
   clones:
     - name: Daggerfall.NET
       repo: https://github.com/Burton-Radons/Daggerfall.NET
-      info: stalled development, C#
+      status: stalled development
+      lang: C#
       added: 2015-04-05
     - name: opendf
       repo: https://github.com/kcat/opendf
-      info: active development, C++, GPL3, not playable
+      status: active development
+      lang: C++
+      license: GPL3
+      info: not playable
       added: 2015-07-17
+    - name: XL-Engine
+      repo: https://github.com/luciusDXL/XL-Engine
+      url: http://xlengine.com/
+      added: 2016-04-24
+      lang: C++
+      media:
+        - image: http://wiki.openmw.org/images/thumb/6/6b/017-5.png/180px-017-5.png
+          url: http://wiki.openmw.org/images/6/6b/017-5.png
 
 - name: "The Elder Scrolls III: Morrowind"
   clones:
     - name: OpenMW
       url: http://openmw.org/
-      info: active development, C++
+      status: active development
+      lang: C++
       repo: https://github.com/OpenMW/openmw
+      license: GPL3
       media:
         - image: http://wiki.openmw.org/images/thumb/6/6b/017-5.png/180px-017-5.png
           url: http://wiki.openmw.org/images/6/6b/017-5.png
@@ -1588,7 +1602,9 @@
     - name: Phoenix
       repo: https://github.com/joulupunikki/Phoenix
       added: 2015-05-29
-      info: active development, Java, no specified licence
+      status: active development
+      lang: Java
+      license: no specified licence
 
 - names:
     - [Exile, Exile (video game series)]
