@@ -432,6 +432,14 @@
         - image: http://baller.tuxfamily.org/screenshot1.png
         - image: http://baller.tuxfamily.org/screenshot2.png
 
+- name: [Balloon Fight]
+  clones:
+    - name: Balloon Fight
+      added: 2016-04-30
+      url: http://js.mikedx.co.uk/balloonfight.html
+      repo: https://github.com/MikeDX/balloon-fight
+      info: active development, DIV Games Studio, MIT
+
 - name: "Barbarian: The Ultimate Warrior"
   clones:
     - name: Barbarian
@@ -2877,6 +2885,19 @@
       added: 2015-05-20
       url: http://www.hg10101.com/games/jspacman/index.html
       info: halted development, (JavaScript & HTML canvas), no specified licence
+    - name: div-pacman2600
+      repo: https://github.com/MikeDX/div-pacman2600
+      added: 2016-04-30
+      url: http://js.mikedx.co.uk/pacman2600.html
+      info: active development, DIV Games Studio, MIT
+
+- name: "Pitfall!"
+  clones:
+    - name: div-pitfall
+      repo: https://github.com/MikeDX/div-pitfall
+      added: 2016-04-30
+      url: http://js.mikedx.co.uk/pitfall.html
+      info: active development, DIV Games Studio, MIT
 
 - name: "Populous: The Beginning"
   clones:
@@ -4045,6 +4066,11 @@
       media:
         - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090818_splash.png
         - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090823.png
+    - name: div-spaceinvaders2600
+      repo: https://github.com/MikeDX/div-spaceinvaders2600
+      url: http://js.mikedx.co.uk/invadersa2600.html
+      added: 2016-04-30
+      info: active development, DIV Games Studio, MIT
 
 - name: [Space Rangers, Space Rangers (video game)]
   clones:
@@ -4505,6 +4531,17 @@
         - image: http://i.imgur.com/XDBQy0o.png
         - image: http://i.imgur.com/TryDIGI.png
         - image: http://i.imgur.com/PysfvNR.png
+  reimplementations:
+    - name: Block Attack - Rise of the Blocks
+      url: http://www.blockattack.net
+      repo: https://github.com/blockattack/blockattack-game
+      lang: C++
+      framework: SDL2
+      license: GPL
+      status: active
+      added: 2016-05-01
+      media:
+        - image: http://www.blockattack.net/images/blockattack-2.0.0-1.png
 
 
 - name: Theme Hospital
