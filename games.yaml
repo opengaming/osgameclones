@@ -290,7 +290,7 @@
       added: 2013-05-27
       info: needs original game files
       status: active development
-      lang: C++;
+      lang: C++
       media:
         - raw: <iframe width="560" height="315" src="http://www.youtube.com/embed/mIribIqKee8?rel=0" frameborder="0" allowfullscreen></iframe>
         - image: http://wiki.arx-libertatis.org/images/thumb/e/e1/Castle.jpg/120px-Castle.jpg
@@ -1663,7 +1663,9 @@
       added: 2015-04-11
       url: http://spiderwebforums.ipbhost.com/index.php?/forum/12-blades-of-exile/
       repo: https://github.com/calref/cboe
-      info: active development, C++, GPL2
+      info: active development
+      lang: C++
+      license: GPL2
 
 - names:
     - [Exile 1988, Exile (1988 video game)]
@@ -1671,7 +1673,10 @@
     - name: EXILE
       added: 2015-06-22
       repo: https://github.com/Geti/EXILE
-      info: halted development, (LÖVE, Lua), custom (AS-IS) licence
+      status: halted development
+      framework: LÖVE
+      lang: Lua
+      license: custom (AS-IS) licence
 
 - name: Exolon
   clones:
@@ -1679,7 +1684,8 @@
       url: https://newagebegins.github.io/exolon/exolon.html
       repo: https://github.com/newagebegins/exolon
       added: 2015-04-05
-      info: active development, JavaScript
+      status: active development
+      lang: JavaScript
       media:
         - image: http://imgchr.com/image/LXf
 
@@ -1689,7 +1695,8 @@
       added: 2015-04-13
       url: http://www.braingames.getput.com/f1spirit/
       repo: http://braingames.jorito.net/f1spirit/f1spirit.src_0.rc9-1615.tgz
-      info: C++, no licence specified
+      lang: C++
+      license: no licence specified
       media:
         - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot1.jpg
           image: http://www.braingames.getput.com/f1spirit/pics/screenshot1.jpg
@@ -1713,10 +1720,14 @@
     - name: "F-Zero Clone"
       added: 2015-04-25
       repo: https://github.com/chipbell4/F-Zero-Clone
-      info: active development, (JavaScript - CoffeeScript, WebGL), no specified licence
+      status: active development
+      lang: JavaScript - CoffeeScript, WebGL
+      license: no specified licence
     - name: Racer
       url: http://sourceforge.net/projects/racer/
-      info: active development, (C++ & Python), GPL3
+      status: active development
+      lang: C++ & Python
+      license: GPL3
       repo: svn://svn.code.sf.net/p/racer/code/trunk
       added: 2015-04-25
       media:
@@ -1737,7 +1748,9 @@
   clones:
     - name: f2bgl
       url: https://github.com/cyxx/f2bgl
-      info: sporadic development, C++
+      status: sporadic development
+      lang: C++
+      framework: SDL
 
 - name: Fallout 2
   clones:
@@ -1764,7 +1777,9 @@
       url: http://vanburenproject.blogspot.co.uk/
       repo: http://van-buren-project.googlecode.com/svn/trunk/
       added: 2015-04-10
-      info: halted development, C#, custom licence (NeoAxis 3D Engine 2.0 Free SDK License Agreement)
+      status: halted development
+      lang: C#
+      license: custom licence (NeoAxis 3D Engine 2.0 Free SDK License Agreement)
       media:
         - image: http://s689.photobucket.com/user/razvan2140/media/van%20buren/post13_3_zpsfe75e66a.png.html
 
@@ -1773,7 +1788,9 @@
     - name: FreeFT
       added: 2016-01-12
       repo: https://github.com/nadult/FreeFT
-      info: active development, C++, (AS-IS) licence
+      status: active development
+      lang: C++
+      license: (AS-IS) licence
 
 - name: Fallout Online
   clones:
@@ -1781,7 +1798,9 @@
       repo: https://github.com/alexknvl/fonline
       url: http://fodev.net/
       added: 2016-02-08
-      info: active development, C++, GPL3
+      status: active development
+      lang: C++
+      license: GPL3
 
 - names:
     - Fantastic Journey
@@ -1790,14 +1809,18 @@
     - name: pucpr-ld-parodius
       added: 2015-06-01
       repo: https://github.com/jvlppm/pucpr-ld-parodius
-      info: halted development, <a href='http://en.wikipedia.org/wiki/Construct_%28game_engine%29#Construct_2'>Construct2</a>, no specified licence
+      status: halted development
+      framework: <a href='http://en.wikipedia.org/wiki/Construct_%28game_engine%29#Construct_2'>Construct2</a>
+      license: no specified licence
 
 - name: Flappy Bird
   clones:
     - name: CrappyBird
       added: 2015-05-02
       repo: https://github.com/varunpant/CrappyBird
-      info: sporadic development, JavaScript, MIT
+      status: sporadic development
+      lang: JavaScript
+      license: MIT
     - name: Clumsy Bird
       added: 2015-05-02
       repo: https://github.com/ellisonleao/clumsy-bird
@@ -1814,7 +1837,8 @@
   clones:
     - name: REminiscence
       url: http://cyxdown.free.fr/reminiscence/
-      info: moderately active development
+      status: moderately active development
+      framework: SDL
       media:
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-1.png
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-2.png
@@ -1826,7 +1850,8 @@
     - name: Floor 13
       url: http://agriculture-and-fisheries.tumblr.com/
       repo: https://bitbucket.org/eastmad/floor-13-releases/src
-      info: active development, Ruby
+      status: active development
+      lang: Ruby
       added: 2015-04-03
 
 - name: Flying Shark
@@ -1835,7 +1860,9 @@
       url: https://code.google.com/p/friking-shark/
       added: 2015-04-06
       repo: http://friking-shark.googlecode.com/svn/trunk/
-      info: stalled development, C++, GPL3
+      status: stalled development
+      lang: C++
+      license: GPL3
 
 - names:
     - Final Fantasy VIII
@@ -6373,21 +6400,29 @@
       added: 2015-09-27
       url: http://www.zeldaroth.fr/us/dlnsq.php
       repo: http://www.zeldaroth.fr/us/files/NSQ/Windows/ZeldaNSQ_US-src-windows.zip
-      info: finished development, (SDL & C++), no specified licence
+      status: finished development
+      framework: SDL
+      lang: C++
+      license: no specified licence
       media:
         - image: http://www.zeldaroth.fr/images/nsq/s1.png
     - name: The Legend Of Zelda - Picross
       added: 2015-09-27
       url: http://www.zeldaroth.fr/us/dlpicross.php
       repo: http://www.zeldaroth.fr/us/files/Picross/Windows/ZeldaPicross_US-src-windows.zip
-      info: finished development, C++, no specified licence
+      status: finished development
+      lang: C++
+      license: no specified licence
       media:
         - image: http://www.zeldaroth.fr/images/picross/s1.png
     - name: Fanwor
       added: 2016-03-23
       url: http://fanwor.tuxfamily.org/
       repo: https://git.tuxfamily.org/fanwor/fanwor.git
-      info: active development, C, SDL, GPL2, playable
+      status: active development (playable)
+      lang: C
+      framework: SDL
+      license: GPL2
       media:
         - image: http://fanwor.tuxfamily.org/fanwor-1.png
         - image: http://fanwor.tuxfamily.org/fanwor-2.png
@@ -6397,7 +6432,9 @@
     - name: WWW
       url: http://alexdantas.net/games/www/
       repo: https://github.com/alexdantas/www
-      info: halted development, (HTML5, JavaScript), GPL3
+      status: halted development
+      lang: (HTML5, JavaScript)
+      license: GPL3
       added: 2015-07-02
       media:
         - image: https://camo.githubusercontent.com/b9d8c6819d45e8181d09bdea6c5e2e7a88f62fa0/687474703a2f2f616c657864616e7461732e6e65742f73747566662f77702d636f6e74656e742f75706c6f6164732f323031342f30352f7777772d302e352e332e676966
