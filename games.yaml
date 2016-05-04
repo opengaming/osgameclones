@@ -445,7 +445,8 @@
     - name: GemRB
       url: http://www.gemrb.org/
       repo: https://github.com/gemrb/gemrb
-      info: active development, C++
+      status: active development
+      lang: C++
       media:
         - image: http://sourceforge.net/dbimage.php?id=105342
         - image: http://sourceforge.net/dbimage.php?id=105346
@@ -457,7 +458,9 @@
       added: 2015-04-17
       url: http://baller.tuxfamily.org/
       repo: http://git.tuxfamily.org/baller/baller.git/
-      info: active development, C, GPL3
+      status: active development
+      lang: C
+      license: GPL3
       media:
         - image: http://baller.tuxfamily.org/screenshot1.png
         - image: http://baller.tuxfamily.org/screenshot2.png
@@ -468,7 +471,9 @@
       added: 2016-04-30
       url: http://js.mikedx.co.uk/balloonfight.html
       repo: https://github.com/MikeDX/balloon-fight
-      info: active development, DIV Games Studio, MIT
+      status: active development
+      framework: DIV Games Studio
+      license: MIT
 
 - name: "Barbarian: The Ultimate Warrior"
   clones:
@@ -476,7 +481,9 @@
       added: 2015-04-16
       repo: https://www.dropbox.com/s/4n5kvajfmcu132o/barbarianAMIGAwin.zip
       url: http://barbarian.1987.free.fr/indexEN.htm
-      info: active development, Quick Basic (QB64), no licence specified
+      status: active development
+      lang: Quick Basic (QB64)
+      license: no licence specified
       media:
         - image: http://barbarian.1987.free.fr/images/AMIGA01.jpg
 
@@ -486,13 +493,17 @@
       repo: http://openbattlechess.googlecode.com/svn/trunk/
       url: https://code.google.com/p/openbattlechess/
       added: 2015-04-08
-      info: halted development, C#, LGPL
+      status: halted development
+      lang: C#
+      license: LGPL
   reimplementations:
     - name: Brutal Chess
       added: 2015-04-08
       url: http://sourceforge.net/projects/brutalchess/
       repo: svn://svn.code.sf.net/p/brutalchess/code/trunk
-      info: halted develpment, C++, GPL2
+      status: halted develpment
+      lang: C++
+      license: GPL2
       media:
         - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg/182/137
           image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg
