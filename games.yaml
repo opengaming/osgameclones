@@ -4008,7 +4008,8 @@
     - name: JonoF's Shadow Warrior Port (JFSW)
       url: http://www.jonof.id.au/jfsw
       repo: http://svnweb.freebsd.org/ports/head/games/jfsw/
-      info: active development, C, playable
+      status: active (playable)
+      lang: C
       added: 2015-04-03
       media:
         - image: http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
@@ -4017,7 +4018,8 @@
       added: 2015-04-14
       url: http://www.proasm.com/sw/swp.html
       repo: http://www.proasm.com/files/sw/SwpSrc432.zip
-      info: C, GPL2
+      lang: C
+      license: GPL2
       media:
         - image: http://www.proasm.com/sw/images/swpa.jpg
         - image: http://www.proasm.com/sw/images/swp3.jpg
@@ -4027,7 +4029,8 @@
     - name: FreeSiege
       url: http://freesiege.sourceforge.net/
       repo: https://github.com/MCMic/freesiege
-      info: sporadic development, C++, playable
+      status: sporadic (playable)
+      lang: C++
       added: 2013-06-06
       media:
         - image: http://freesiege.sourceforge.net/screens/screen0.png
@@ -4039,7 +4042,9 @@
       added: 2015-04-08
       url: http://soaos.sourceforge.net/
       repo: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source
-      info: stalled development, Pascal, custom license
+      status: stalled
+      lang: Pascal
+      license: custom license
       media:
         - image: http://soaos.sourceforge.net/images/shots/scrshot2.jpg
           url: http://soaos.sourceforge.net/images/shots/scrshot2_small.jpg
@@ -4052,7 +4057,8 @@
   clones:
     - name: zSILENCER
       url: http://zsilencer.com/
-      info: playable, C++
+      status: playable
+      lang: C++
       added: 2013-09-22
       repo: https://github.com/zsilencer/zSILENCER/
       media:
@@ -4063,7 +4069,8 @@
 - name: Silent Hunter 4
   clones:
     - name: Danger from the Deep
-      info: sporadic development, C++
+      status: sporadic
+      lang: C++
       url: http://dangerdeep.sourceforge.net/
       added: 2012-04-05
       repo: http://dangerdeep.svn.sourceforge.net/viewvc/dangerdeep/
@@ -4077,13 +4084,13 @@
         - image: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/thumbs/thumbs_screen_11.jpg
           url: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
 
-
 - name: SimTower
   clones:
     - name: OpenSkyscraper
       url: https://github.com/fabianschuiki/OpenSkyscraper/wiki
       repo: https://github.com/fabianschuiki/OpenSkyscraper
-      info: active development, C++, playable
+      status: active (playable)
+      lang: C++
       added: 2014-01-05
       media:
         - image: https://github.com/fabianschuiki/OpenSkyscaper/wiki/current.png
@@ -4093,7 +4100,8 @@
     - name: UltraStar Deluxe
       url: http://ultrastardx.sourceforge.net/
       repo: http://sourceforge.net/p/ultrastardx/svn/HEAD/tree/trunk/
-      info: active development, Object Pascal, playable
+      status: active (playable)
+      lang: Object Pascal
       added: 2014-09-19
       media:
         - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/sing_singscreen.jpg
@@ -4109,7 +4117,8 @@
       added: 2015-04-25
       url: http://pygame.org/shredwheat/solarwolf/index.shtml
       repo: http://pygame.org/shredwheat/solarwolf/solarwolf-1.5.tar.gz
-      info: Python, LGPL 2.1
+      lang: Python
+      license: LGPL 2.1
       media:
         - url: http://pygame.org/shredwheat/solarwolf/screen/mini1.jpg
           image: http://pygame.org/shredwheat/solarwolf/screen/shot1.jpg
@@ -4128,7 +4137,9 @@
   clones:
     - url: http://sdl-sopwith.sourceforge.net/
       name: SDL Sopwith
-      info: development halted, playable, C
+      framework: SDL
+      status: halted (playable)
+      lang: C
       added: 2014-03-17
       repo: http://sourceforge.net/p/sdl-sopwith/code/HEAD/tree/trunk/sopwith/
       media:
@@ -4139,7 +4150,8 @@
       url: http://www.wingkong.net/sopwith2b/sopwith3.html
       repo: http://sopwith3.cvs.sourceforge.net/viewvc/sopwith3/
       added: 2015-04-13
-      info: C++, GPL2
+      lang: C++
+      license: GPL2
       media:
         - image: http://www.wingkong.net/sopwith2b/images/sop3_title.gif
 
@@ -4149,7 +4161,9 @@
       added: 2015-04-11
       url: http://www.jimbrooks.org/programming/python/pyspaceinvaders/
       repo: http://www.jimbrooks.org/software/python/pyspaceinvaders_20090823.tar.bz2
-      info: halted development, Python, GPL2
+      status: halted
+      lang: Python
+      license: GPL2
       media:
         - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090818_splash.png
         - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090823.png
@@ -4157,20 +4171,26 @@
       repo: https://github.com/MikeDX/div-spaceinvaders2600
       url: http://js.mikedx.co.uk/invadersa2600.html
       added: 2016-04-30
-      info: active development, DIV Games Studio, MIT
+      status: active development
+      framework: DIV Games Studio
+      license: MIT
 
 - name: [Space Rangers, Space Rangers (video game)]
   clones:
     - name: Space-rangers
       repo: https://github.com/markevich/Space-rangers
       added: 2015-05-28
-      info: halted development, C#, no specified licence
+      status: halted
+      lang: C#
+      license: no specified licence
 
 - name: Speedball 2
   clones:
     - name: Speedball 2
       url: http://bringerp.free.fr/RE/Speedball2/remake.php5
-      info: halted development, reverse engineered prototype, not fully playable, C#
+      status: halted (not fully playable)
+      info: reverse engineered prototype
+      lang: C#
       added: 2015-04-05
 
 - name: Star Control 2
