@@ -1012,7 +1012,9 @@
     - name: OpenRA
       url: http://www.openra.net
       repo: https://github.com/OpenRA/OpenRA
-      info: active development, C#
+      status: active
+      lang: C#
+      license: GPL3
       media:
         - image: http://www.openra.net/images/news/20150531-ra-editor.png
         - image: http://www.openra.net/images/news/20140405-beacons.png
@@ -1023,7 +1025,9 @@
     - name: Contra_remake
       added: 2015-05-28
       repo: https://github.com/EmileSonneveld/Contra_remake
-      info: halted development, C++, GPL2
+      status: halted
+      lang: C++
+      license: GPL2
       media:
         - raw: <iframe src="https://player.vimeo.com/video/79514269?portrait=0" width="320" height="329" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -1032,7 +1036,9 @@
     - name: CookieClickerRemake
       added: 2015-05-03
       repo: https://github.com/ricodejong02/CookieClickerRemake
-      info: active development, C#, no specified licence
+      status: active
+      lang: C#
+      license: no specified licence
 
 - name: [Crazy Cars, Titus Software]
   clones:
@@ -1040,7 +1046,8 @@
       added: 2015-04-16
       url: http://crazycarscpc.free.fr/indexEN.htm
       repo: https://www.dropbox.com/s/lad1nm9fvmd3ugs/crazycarsFL.zip
-      info: Quick Basic (QB64), no specified licence
+      lang: Quick Basic (QB64)
+      license: no specified licence
       media:
         - image: http://crazycarscpc.free.fr/images/crazy01.jpg
 
@@ -1050,21 +1057,29 @@
       url: http://creatures.wikia.com/wiki/Openc2e
       repo: https://github.com/ccdevnet/openc2e
       added: 2014-09-05
-      info: development halted, forks present, C++, LGPL
+      status: halted, forks present
+      lang: C++
+      license: LGPL
 
 - name: Crystal Quest
   clones:
     - name: CrystalQuest
       added: 2015-05-29
       repo: https://github.com/haleymt/CrystalQuest
-      info: active development, (HTML5, JavaScript & JQuery), MIT
+      status: active
+      framework:
+        - HTML5
+        - JQuery
+      lang: JavaScript
+      license: MIT
 
 - name: Curse of the Azure Bonds
   clones:
     - name: coab
       url: https://code.google.com/p/coab/
       repo: https://code.google.com/p/coab/source/list
-      info: sporadic development, playable, C#
+      status: sporadic (playable)
+      lang: C#
       added: 2013-05-28
       media:
         - image: http://coab.googlecode.com/svn/pics/title-screen.png
@@ -1075,7 +1090,9 @@
     - name: Cytadela
       added: 2015-04-16
       url: http://cytadela.sourceforge.net/about.php
-      info: sporadic development, C++, GPL3
+      status: sporadic
+      lang: C++, 
+      license: GPL3
       repo: http://heanet.dl.sourceforge.net/project/cytadela/cytadela/1.1.0/cytadela-1.1.0.tar.bz2
       media:
         - image: http://cytadela.sourceforge.net/images/901.png
@@ -1089,7 +1106,9 @@
     - name: C-Dogs SDL
       url: http://cxong.github.io/cdogs-sdl/
       repo: https://github.com/cxong/cdogs-sdl
-      info: active development, playable, C, SDL
+      status: active (playable)
+      lang: C
+      framework: SDL
       added: 2014-03-08
       media:
         - url: http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/1.png
@@ -1108,7 +1127,9 @@
       url: http://www.newbreedsoftware.com/fop/
       repo: ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz
       added: 2015-04-07
-      info: sporadic development, C, GPL2
+      info: sporadic
+      lang: C
+      license: GPL2
       media:
         - image: http://www.newbreedsoftware.com/fop/screenshots/fop-alpha.png
 
@@ -1117,13 +1138,17 @@
     - name: Dark Reign 2
       url: https://code.google.com/p/darkreign2/
       repo: http://darkreign2.googlecode.com/svn/
-      info: in-active development, C++, dubious licence (see project page)
+      status: in-active
+      lang: C++
+      license: dubious (see project page)
 
 - name: [Defender, "Defender (video game)"]
   clones:
     - name: Defendguin
       added: 2015-04-07
-      info: sporadic development, C, GPL2
+      status: sporadic
+      lang: C
+      license: GPL2
       url: http://www.newbreedsoftware.com/defendguin/
       repo: ftp://ftp.tuxpaint.org/unix/x/defendguin/src/defendguin-0.0.12.tar.gz
       media:
@@ -1141,7 +1166,8 @@
     - name: D2X
       url: http://www.descent2.de/
       repo: http://d2x-xl.svn.sourceforge.net/viewvc/d2x-xl/
-      info: active development, C++
+      status: active development
+      lang: C++
       media:
         - url: http://www.descent2.de/images/screenshots/d2x-xl-screens1_4.jpg
           image: http://www.descent2.de/images/screenshots/d2x-xl-screens1_4s.jpg
@@ -1154,7 +1180,8 @@
     - name: DXX-Rebirth
       url: http://www.dxx-rebirth.com/
       repo: http://dxx-rebirth.bzr.sourceforge.net/bzr/dxx-rebirth/
-      info: active development, C
+      status: active development
+      lang: C
       media:
         - image: http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/thumbs/thumbs_d1xr-scrn10.jpg
           url: http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn10.jpg
@@ -5884,7 +5911,9 @@
       url: http://www.newbreedsoftware.com/icbm3d/
       added: 2015-04-07
       repo: ftp://ftp.tuxpaint.org/unix/x/icbm3d/icbm3d.0.4.tar.gz
-      info: halted development, C, no specified licence
+      status: halted development
+      lang: C
+      license: no specified licence
       image:
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/1.gif
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/2.gif
@@ -5900,12 +5929,14 @@
   reimplementations:
     - url: http://www.unvanquished.net/
       name: Unvanquished
-      info: active development, C
+      status: active development
+      lang: C
       repo: https://github.com/Unvanquished/Unvanquished
       added: 2013-06-08
     - url: http://www.tremulous.net/
       name: Tremulous
-      info: no development, C
+      status: no development
+      lang: C
       repo: http://svn.icculus.org/tremulous/
       added: 2013-06-08
 
@@ -5993,7 +6024,10 @@
           url: http://lincity-ng.berlios.de/wiki/images/4/42/Bridges.jpg
     - url: https://github.com/SimHacker/micropolis
       name: Micropolis
-      info: halted development, C++/Python
+      status: halted
+      lang:
+        - C++
+        - Python
       added: 2013-05-27
     - name: MicropolisJS
       url: http://www.graememcc.co.uk/micropolisJS/
@@ -6003,7 +6037,8 @@
     - url: http://www.opencity.info/
       repo: svn://svn.code.sf.net/p/opencity/code/trunk
       name: OpenCity
-      info: halted development, C++
+      status: halted
+      lang: C++
       added: 2015-04-03
     - name: 3d.city
       added: 2015-07-04
@@ -6218,12 +6253,16 @@
       url: http://sourceforge.net/projects/dtris/
       added: 2015-05-02
       repo: https://bazaar.launchpad.net/~4dtris-dev/4dtris/trunk/files
-      info: halted development, C, GPL2
+      status: halted
+      lang: C
+      license: GPL2
     - name: Hextris
       url: https://hextris.github.io/
       repo: https://github.com/Hextris/Hextris
       added: 2015-05-02
-      info: active development, JavaScript, GPL3
+      status: active
+      lang: JavaScript
+      license: GPL3
 
 - name: Crimsonland
   reimplementations:
@@ -6231,7 +6270,8 @@
       name: Violetland
       repo: https://code.google.com/p/violetland/source/list
       added: 2013-05-29
-      info: development halted, playable, C++
+      status: development (playable)
+      lang: C++
       media:
         - image: http://img594.imageshack.us/img594/6028/violetlandv0210q.th.png
           url: http://imageshack.us/photo/my-images/594/violetlandv0210q.png/
@@ -6358,7 +6398,8 @@
   reimplementations:
     - url: http://ufoai.ninex.info/
       name: "UFO: Alien Invasion"
-      info: active development, C
+      status: active development
+      lang: C
       repo: http://ufoai.git.sourceforge.net/git/gitweb.cgi?p=ufoai/ufoai;a=summary
       media:
         - url: http://ufoai.ninex.info/wiki/images/Nation_Overlay.jpg
