@@ -36,7 +36,7 @@
       lang:
         - C++
         - Lisp
-      info: playable
+      status: playable
       media:
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png
@@ -134,8 +134,7 @@
     - name: Alien 8
       url: http://retrospec.sgn.net/game/alien8
       added: 2014-01-12
-      status: halted
-      info: playable
+      status: halted (playable)
       lang: C
       media:
         - url: http://retrospec.sgn.net/config/screenshots/alien8.t.img0.jpg
@@ -251,7 +250,7 @@
       status: active
       lang: C++
       license: GPL3
-      info: playable
+      status: playable
       media:
         - image: http://farm3.static.flickr.com/2606/4103057024_0b577de0a2_m.jpg
           url: http://www.flickr.com/photos/sfiera/4103057024/in/pool-1519223@N24/
@@ -361,7 +360,7 @@
   clones:
     - name: Atomiks
       url: http://www.viste-family.net/mateusz/software/atomiks/
-      info: playable
+      status: playable
       lang: C
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/t8FP44Gv8QY?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -851,7 +850,8 @@
       added: 2015-04-10
       url: http://ctp2.darkdust.net/
       repo: https://ctp2.darkdust.net/svn/
-      info: C, custom licence
+      lang: C
+      license: custom licence
 
 - name: Candy Crush Saga
   reimplementations:
@@ -1304,7 +1304,8 @@
           url: http://zdoom.org/w/images/8/8a/DOOM0003.png
     - name: PrBoom+
       url: http://sourceforge.net/dbimage.php?id=222124
-      info: active development, C
+      status: active
+      lang: C
       repo: http://www.crowproductions.de/repos/prboom/branches/prboom-plus-24/prboom2/
       media:
         - image: http://sourceforge.net/dbimage.php?id=222124
@@ -1314,7 +1315,7 @@
       repo: http://www.odamex.net/svn/log.php?isdir=1
     - name: GLHeretic
       url: http://heretic.linuxgames.com/
-      info: C
+      lang: C
       repo: http://freecode.com/projects/glhereticforlinux
       media:
         - image: http://heretic.linuxgames.com/screenshots/heretic_1.jpg
@@ -1322,7 +1323,8 @@
     - name: Freedoom
       url: http://www.nongnu.org/freedoom/
       repo: https://github.com/chungy/freedoom
-      info: free resources for Doom II, sporadic development
+      info: free resources for Doom II
+      license: sporadic development
       added: 2013-06-06
       media:
         - image: http://www.nongnu.org/freedoom/img/screenshots/th_0.6.3_01.jpg
@@ -1340,7 +1342,8 @@
     - name: GZDoom
       url: http://www.osnanet.de/c.oelckers/gzdoom/
       repo: https://github.com/coelckers/gzdoom
-      info: active development, C++
+      status: active development
+      lang: C++
       added: 2015-04-03
       media:
         - image: http://forum.drdteam.org/download/file.php?id=2219
@@ -1492,11 +1495,13 @@
     - name: OpenDUNE
       url: http://www.opendune.org/
       repo: https://github.com/OpenDUNE/OpenDUNE
-      info: active development, C
+      status: active
+      lang: C
     - name: Dune Dynasty
       url: http://dunedynasty.sourceforge.net/
       repo: http://sourceforge.net/p/dunedynasty/dunedynasty/ci/master/tree/
-      info: active development, C
+      status: active
+      lang: C
       media:
         - image: https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_hark.png/182/137
           url: https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_hark.png
@@ -1514,9 +1519,8 @@
   clones:
     - name: KeeperFX
       url: http://keeper.lubiki.pl/html/dk_keeperfx.php
-      info: >
-        active development, C; not really a clone, but a hack to make Dungeon
-        Keeper run on recent OSes
+      status: active (not really a clone, but a hack to make Dungeon Keeper run on recent OSes
+      lang: C
       repo: https://code.google.com/p/keeperfx/source/list
 
 - name: Dungeon Keeper 2
@@ -1661,7 +1665,7 @@
       status: active
       lang: C++
       license: GPL3
-      info: not playable
+      status: not playable
       added: 2015-07-17
     - name: XL-Engine
       repo: https://github.com/luciusDXL/XL-Engine
@@ -1705,7 +1709,7 @@
       added: 2015-04-11
       url: http://spiderwebforums.ipbhost.com/index.php?/forum/12-blades-of-exile/
       repo: https://github.com/calref/cboe
-      info: active
+      status: active
       lang: C++
       license: GPL2
 
@@ -1936,14 +1940,15 @@
       added: 2015-04-13
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
       repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/fm-0.99.tar.gz
-      info: C, GPL2
+      lang: C
+      license: GPL2
 
 - name: [Forsaken, Forsaken (video game)]
   clones:
     - name: ProjectX
       url: http://forsakenx.github.io/
       repo: https://github.com/ForsakenX/forsaken
-      info: playable
+      status: playable
       added: 2013-05-29
       media:
         - image: http://fly.thruhere.net/fsplanet/images/I_ins_koth001_thumb.jpg
@@ -2020,7 +2025,8 @@
       added: 2015-05-09
       url: http://worldofstuart.excellentcontent.com/grid/wars.htm
       repo: http://worldofstuart.excellentcontent.com/grid/GridWars54.zip
-      info: Blitz Max, no specified licence
+      lang: Blitz Max
+      license: no specified licence
       media:
         - image: http://worldofstuart.excellentcontent.com/grid/gw1.jpg
         - image: http://worldofstuart.excellentcontent.com/grid/gw2.jpg
@@ -2482,14 +2488,17 @@
     - name: Open Jumpgate
       url: http://sourceforge.net/projects/opengate/
       added: 2014-09-05
-      info: active development, C++
+      status: active
+      lang: C++
 
 - name: "Jump 'n Bump"
   clones:
     - name: Jump'n'Bump
       added: 2015-04-25
       url: https://www.icculus.org/jumpnbump/
-      info: halted development, C, GPL2
+      status: halted
+      lang: C
+      license: GPL2
 
 - name: [Jumping Jack, "Jumping Jack (arcade game)"]
   clones:
@@ -2828,7 +2837,8 @@
       added: 2015-04-13
       url: http://www.braingames.getput.com/mog/
       repo: http://braingames.jorito.net/mog/downloads/mog.src_0.63-1548.tgz
-      info: C++, GPL2
+      lang: C++
+      license: GPL2
       media:
         - image: http://www.braingames.getput.com/mog/pics/screenshot1.jpg
         - image: http://www.braingames.getput.com/mog/pics/screenshot2.jpg
@@ -3087,7 +3097,8 @@
       added: 2015-04-03
       url: http://quakeone.com/proquake/
       repo: http://quakeone.com/proquake/proquake_493_src.rar
-      info: C, GPL2
+      lang: C
+      license: GPL2
     - name: QuakeSpasm
       url: http://quakespasm.sourceforge.net/
       repo: http://sourceforge.net/p/quakespasm/code/HEAD/tree/trunk/quakespasm/
@@ -3222,7 +3233,8 @@
     - name: Mari0
       url: http://stabyourself.net/mari0/
       repo: http://stabyourself.net/dl.php?file=mari0-1006/mari0-source.zip
-      info: LÖVE & Lua
+      framework: LÖVE
+      lang: Lua
       added: 2015-04-03
       media:
         - image: https://i.imgur.com/M8NcU.gif
@@ -3444,14 +3456,19 @@
     - name: movbizz
       repo: https://github.com/teruk/movbizz
       added: 2015-06-01
-      info: active development, (PHP & JavaScript), MIT
+      status: active development
+      lang:
+         - PHP
+         - JavaScript
+      license: MIT
       url: http://movbizz.sebbmeyer.de/
 
 - name: [Nebulus, Nebulus (video game)]
   clones:
     - name: Toppler
       url: http://toppler.sourceforge.net/
-      info: sporadic development, C++
+      status: sporadic
+      lang: C++
       added: 2013-05-27
       media:
         - image: http://toppler.sourceforge.net/images/old-amiga.png
@@ -3780,7 +3797,8 @@
      added: 2015-04-13
      url: http://www.braingames.getput.com/roadf/default.asp
      repo: http://braingames.jorito.net/roadfighter/downloads/roadfighter.src_1.0.1269.tgz
-     info: C++, LGPL2
+     lang: C++
+     license: LGPL2
      media:
        - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot1.jpg
          image: http://www.braingames.getput.com/roadf/pics/screenshot1.jpg
@@ -4649,7 +4667,8 @@
       added: 2015-05-03
       repo: https://github.com/capnramses/opengl_test_drive_clone
       url: http://antongerdelan.net/blog/?post=2014_12_10_test_drive
-      info: C, GPL3
+      lang: C
+      license: GPL3
       media:
         - image: http://antongerdelan.net/blog/images/tdrive_speedo.png
         - image: http://antongerdelan.net/blog/images/tdrive_tacho.png
@@ -5320,7 +5339,8 @@
       added: 2015-07-11
       url: http://www.swallowtail.org/xquest/
       repo: http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz
-      info: Pascal, custom licence
+      lang: Pascal
+      license: custom licence
       media:
         - image: http://www.swallowtail.org/xquest/xquest1.gif
         - image: http://www.swallowtail.org/xquest/xquest2.gif
@@ -5435,7 +5455,7 @@
     - name: FreeRails
       url: http://freetrain.sourceforge.net/
       repo: http://sourceforge.net/p/freetrain/code/
-      info: stalled
+      status: stalled
       lang: C#
       added: 2015-04-02
       media:
@@ -5447,7 +5467,7 @@
     - name: 0 A.D.
       url: http://play0ad.com/
       repo: http://trac.wildfiregames.com/timeline
-      info: active
+      status: active
       lang: C++
       media:
         - image: http://wildfiregames.com/0ad/album_thumbnail.php?pic_id=13043
@@ -5944,7 +5964,11 @@
   reimplementations:
     - url: http://www.slashem.org/
       name: SLASH'EM
-      info:  halted development, (C, C++), Nethack General Public License
+      status: halted
+      lang:
+        - C
+        - C++
+      license: Nethack General Public License
       added: 2015-04-11
       repo: http://slashem.cvs.sourceforge.net/viewvc/slashem/
       media:
