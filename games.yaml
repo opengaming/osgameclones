@@ -749,14 +749,17 @@
     - name: bratwurst
       added: 2015-05-15
       repo: https://github.com/sabetts/bratwurst
-      info: halted development, Lisp, GPL2
+      status: halted
+      license: GPL2
 
 - name: [Bruce Lee, "Bruce Lee (video game)"]
   clones:
     - name: Jet Lee
       added: 2015-08-23
       repo: https://github.com/Uvadzucumi/JetLee
-      info: active development, C++, no specified licence
+      status: active
+      lang: C++
+      license: no specified licence
       media:
         - image: https://camo.githubusercontent.com/1bb9d1b6520dbefb609254a3d19b8565ee79e36a/68747470733a2f2f7261772e6769746875622e636f6d2f557661647a7563756d692f6a65746c65652f6d61737465722f7372632f646174612f7363722f7363722d30312e706e67
         - image: https://camo.githubusercontent.com/a6f4b342651016f20950e567b4e4a77eefa7e99c/68747470733a2f2f7261772e6769746875622e636f6d2f557661647a7563756d692f6a65746c65652f6d61737465722f7372632f646174612f7363722f7363722d30322e706e67
@@ -768,7 +771,9 @@
       url: http://bub-n-bros.sourceforge.net/
       added: 2015-04-10
       repo: http://bub-n-bros.cvs.sourceforge.net/viewvc/bub-n-bros/
-      info: halted development, Python, MIT
+      status: halted
+      lang: Python
+      license: MIT
       media:
         - image: http://bub-n-bros.sourceforge.net/images/extend.png
         - image: http://bub-n-bros.sourceforge.net/images/crashed-down.png
@@ -934,7 +939,8 @@
       url: http://www.newbreedsoftware.com/circus-linux/
       repo: ftp://ftp.tuxpaint.org/unix/x/circus-linux/win32/circuslinux-1.0.0.zip
       added: 2015-04-07
-      info: halted development, C, GPL2
+      status: halted
+      license: GPL2
       media:
         - image: http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-title.gif
         - image: http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-game.gif
@@ -944,7 +950,8 @@
     - name: OpenClonk
       url: http://www.openclonk.org/
       repo: http://git.openclonk.org/openclonk.git/
-      info: active development, C++
+      status: active
+      lang: C++
       added: 2012-04-07
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/zydiZSXpn0w" frameborder="0" allowfullscreen></iframe>
@@ -955,7 +962,9 @@
       added: 2016-02-26
       url: http://js.mikedx.co.uk/columns.html
       repo: https://github.com/MikeDX/div-columns
-      info: active development, DIV Games Studio, MIT
+      status: active
+      framework: DIV Games Studio
+      license: MIT
 
 - name: [Commando, Commando (video game)]
   clones:
@@ -5343,7 +5352,9 @@
       added: 2015-05-09
       url: http://kzap.sourceforge.net/
       repo: http://prdownloads.sourceforge.net/kzap/kzap-0.2.tar.gz
-      info: halted development, C++, GPL2
+      status: halted
+      lang: C++
+      license: GPL2
       media:
         - url: http://kzap.sourceforge.net/kzap-small.png
           image: http://kzap.sourceforge.net/kzap.png
@@ -5351,14 +5362,18 @@
       added: 2015-05-09
       url: http://gamesoft.ca/remakes.html
       repo: http://gamesoft.ca/bestgames/zoop_src.zip
-      info: Java, no specified licence
+      lang: Java
+      license: no specified licence
       media:
         - image: http://gamesoft.ca/bestgames/images/zoop_java.png
 
 - name: [Zombie Apocalypse, "http://www.mobygames.com/game/zombie-apocalypse"]
   clones:
     - name: zombie apocalypse html5
-      info: halted development & WIP, (HTML5 & JavaScript), no specified licence
+      status: halted (WIP)
+      framework: HTML5
+      lang: JavaScript
+      license: no specified licence
       repo: https://github.com/andymason/zombie-apocalypse-html5
       added: 2015-05-16
 
@@ -5367,7 +5382,9 @@
     - name: Zorkish
       repo: https://github.com/jgardner8/Zorkish
       added: 2015-06-01
-      info: sporadic development, C++, no specified licence
+      status: sporadic
+      lang: C++
+      license: no specified licence
 
 - name: [Zuma, Zuma (video game)]
   clones:
@@ -5389,7 +5406,8 @@
     - name: FreeRails
       url: http://freetrain.sourceforge.net/
       repo: http://sourceforge.net/p/freetrain/code/
-      info: stalled development, C#
+      info: stalled
+      lang: C#
       added: 2015-04-02
       media:
         - image: http://freetrain.sourceforge.net/forum/download/file.php?id=1&sid=37becf1a18f1ec69f1ee191e92e88092
@@ -5400,7 +5418,8 @@
     - name: 0 A.D.
       url: http://play0ad.com/
       repo: http://trac.wildfiregames.com/timeline
-      info: active development, C++
+      info: active
+      lang: C++
       media:
         - image: http://wildfiregames.com/0ad/album_thumbnail.php?pic_id=13043
           url: http://wildfiregames.com/0ad/album_image.php?pic_id=13043
@@ -5411,13 +5430,13 @@
         - image: http://wildfiregames.com/0ad/album_thumbnail.php?pic_id=12782
           url: http://wildfiregames.com/0ad/album_image.php?pic_id=12782
 
-
 - name: [Anno series, Anno_1602]
   reimplementations:
     - name: Unknown Horizons
       url: http://www.unknown-horizons.org/
       repo: https://github.com/unknown-horizons/unknown-horizons
-      info: active development, Python
+      status: active
+      lang: Python
       media:
         - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/thumb_2011.2-7.png
           url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png
@@ -5430,7 +5449,8 @@
       url: http://sourceforge.net/projects/pybreak360/
       repo: git://git.code.sf.net/p/pybreak360/code
       added: 2015-04-05
-      info: active development, Python
+      status: active
+      lang: Python
       media:
         - url: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg/182/137
           image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg
@@ -5443,14 +5463,18 @@
     - name: Ball And Wall
       repo: https://github.com/budnix/ball-and-wall
       added: 2015-05-03
-      info: active development, JavaScript, MIT
+      status: active
+      lang: JavaScript
+      license: MIT
 
 - name: "Artemis: Spaceship Bridge Simulator"
   reimplementations:
     - name: Space Nerds In Space
       repo: https://github.com/smcameron/space-nerds-in-space
       added: 2015-05-02
-      info: active development, C, GPL2
+      status: active
+      lang: C
+      license: GPL2
 
 - name: [Battle Isle series, Battle Isle (series)]
   reimplementations:
@@ -6030,18 +6054,19 @@
           url: http://www.thedarkmod.com/wp-content/gallery/environments/rttc2v_10.jpg
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/hNtUQ32eeRM?rel=0" frameborder="0" allowfullscreen></iframe>
 
-
 - name: Sokoban
   reimplementations:
     - name: CavePacker
       url: http://www.caveproductions.org/
-      info: playable, active development, C, SDL, GPL3
+      status: active (playable)
+      lang: C
+      framework: SDL
+      license: GPL3
       repo: https://github.com/mgerhardy/caveexpress
       added: 2014-08-14
       media:
         - image: http://www.caveproductions.org/images/screenshots/cavepacker-01.png
         - image: http://www.caveproductions.org/images/screenshots/cavepacker-02.png
-
 
 - name: Sonic the Hedgehog
   reimplementations:
