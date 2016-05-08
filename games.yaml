@@ -232,7 +232,9 @@
     - name: XArchon
       added: 2015-05-03
       url: http://xarchon.seul.org/
-      lang: C, & C++
+      lang:
+        - C
+        - C++
       status: halted
       license: GPL3
       repo: http://xarchon.seul.org/xarchon-0.50.tar.gz
@@ -421,7 +423,9 @@
       added: 2015-05-28
       repo: https://github.com/zombieman1041/BlakedAwesomenaughts
       status: active
-      lang: JavaScript & PHP
+      lang:
+        - JavaScript
+        - PHP
       license: MIT
 
 - name: [Babaliba, "Dinamic Software"]
@@ -3886,7 +3890,10 @@
     - name: OpenSR
       repo: https://github.com/ObKo/OpenSR
       added: 2015-04-03
-      info: active development, C++ & Python
+      status: active
+      lang:
+        - C++
+        - Python
 
 - name: Strike Commander
   clones:
@@ -3975,7 +3982,11 @@
     - name: cc94
       repo: https://github.com/institution/cc94
       added: 2015-05-29
-      info: required original files, active development, (C++ & Python), AGPL3
+      status: active development (required original files)
+      lang: 
+        - C++
+        - Python
+      license: AGPL3
 
 - name: "Sid Meier's Pirates!"
   clones:
