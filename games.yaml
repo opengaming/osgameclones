@@ -714,7 +714,8 @@
       added: 2014-01-12
     - name: GDash
       url: https://bitbucket.org/czirkoszoltan/gdash
-      info: active development, C++
+      status: active
+      lang: C++
       repo: https://bitbucket.org/czirkoszoltan/gdash.git
       added: 2015-04-03
       media:
@@ -1002,7 +1003,9 @@
     - name : Omnispeak
       url: http://davidgow.net/keen/omnispeak.html
       repo: https://github.com/sulix/omnispeak
-      info: active development, C, GPL2
+      status: active
+      lang: C
+      license: GPL2
       added: 2015-04-04
       media:
         - image: http://davidgow.net/images/omnispeak-2.png
@@ -1130,7 +1133,7 @@
       url: http://www.newbreedsoftware.com/fop/
       repo: ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz
       added: 2015-04-07
-      info: sporadic
+      status: sporadic
       lang: C
       license: GPL2
       media:
@@ -1602,7 +1605,7 @@
       url: http://www.ggsoft.org/etw/
       repo: svn://svn.code.sf.net/p/etw/code/trunk
       added: 2015-04-10
-      info: sporadic development
+      ststus: sporadic development
       lang: C
       license: GPL2
       media:
@@ -2444,15 +2447,16 @@
       added: 2015-04-08
       url: http://www.ironseed.com/
       repo: http://www.ironseed.com/ironseed-v1.20.0016-2013-03-17.zip
-      info: halted development, Pascal, GPL3
+      status: halted
+      lang: Pascal
+      license: GPL3
 
 - name: Jagged Alliance 2
   clones:
     - name: Jagged Alliance 2 - Stracciatella
       url: https://bitbucket.org/gennady/ja2-stracciatella
-      info: active development, playable
+      status: active (playable)
       added: 2013-05-27
-
 
 - name: Jazz Jackrabbit
   clones:
@@ -2925,20 +2929,25 @@
       added: 2015-06-24
       url: http://scorched-moon.github.io/site/
       repo: https://github.com/Scorched-Moon/client
-      info: sporadic development, Python, GPL3
+      status: sporadic
+      lang: Python
+      license: GPL3
 
 - name: Mortal Kombat
   clones:
     - name: mk.js
       added: 2015-05-19
       repo: https://github.com/mgechev/mk.js
-      info: halted development and basic game, JavaScript, MIT
+      status: halted (basic game)
+      lang: JavaScript
+      license: MIT
       url: http://mk.mgechev.com/
   reimplementations:
     - name: OpenMortal
       url: http://apocalypse.rulez.org/~upi/Mortal/
       repo: http://openmortal.cvs.sourceforge.net/openmortal/openmortal/
-      info: sporadic development, C++
+      status: sporadic
+      lang: C++
       added: 2015-04-03
       media:
         - image: http://openmortal.sourceforge.net/images/screenshot3.jpg
@@ -2949,7 +2958,9 @@
       added: 2015-04-11
       url: http://1amstudios.com/projects/opennfs1/
       repo: https://github.com/jeff-1amstudios/OpenNFS1
-      info: halted development, C#, no specified licence
+      status: halted
+      lang: C#
+      license: no specified licence
       media:
         - image: http://1amstudios.com/img/opennfs1/viper-vertigoridge.jpg
         - image: http://1amstudios.com/img/opennfs1/vette-transtropolis.jpg
@@ -2963,7 +2974,9 @@
       url: http://perso.b2b2c.ca/sarrazip/dev/afternoonstalker.html
       repo: http://perso.b2b2c.ca/sarrazip/dev/afternoonstalker-1.1.5.tar.gz
       added: 2015-04-16
-      info: sporadic development, C++, GPL2
+      status: sporadic
+      lang: C++
+      license: GPL2
       media:
         - image: http://perso.b2b2c.ca/sarrazip/dev/images/afternoonstalker-1.png
           url: http://perso.b2b2c.ca/sarrazip/dev/images/afternoonstalker-1-tn.png
@@ -2974,7 +2987,10 @@
       added: 2016-08-02
       repo: https://github.com/roger-wetzel/Octopus
       added: 2016-02-08
-      info: active development, Swift, no licence found, Apple TV 4 required
+      info: Apple TV 4 required
+      status: active development
+      lang: Swift
+      license: no licence found
       media:
         - image: https://cloud.githubusercontent.com/assets/16686245/12429085/98761c3c-bee8-11e5-9399-1f7cc162e9bd.png
 
@@ -2985,7 +3001,9 @@
     - name: alive
       repo: https://github.com/paulsapps/alive
       added: 2016-03-08
-      info: active development, C++, MIT
+      status: active
+      lang: C++
+      license: MIT
       media:
         - image: https://raw.githubusercontent.com/paulsapps/alive/dev/doc/screenshots/alive1.png
 
@@ -2994,7 +3012,9 @@
     - name: OpenOutcast
       added: 2014-04-11
       url: http://www.openoutcast.org/wp/
-      info: halted development, C++, GPL2
+      status: halted
+      lang: C++
+      license: GPL2
       repo: svn://svn.code.sf.net/p/ocmod/code/
       image:
         - url: https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg/182/137
@@ -3242,7 +3262,9 @@
       added: 2015-04-10
       url: https://icculus.org/LAB3D/
       repo: svn://svn.icculus.org/LAB3D/trunk
-      info: sporadic development, C, no licence found
+      status: sporadic development
+      lang: C
+      license: no licence found
       media:
         - image: https://icculus.org/LAB3D/captur00.png
         - image: https://icculus.org/LAB3D/captur04.png
@@ -3255,20 +3277,26 @@
       added: 2015-04-11
       url: https://hg.icculus.org/icculus/lugaru/
       repo: https://hg.icculus.org/icculus/lugaru/file/97b303e79826
-      info: halted development, C++, GPL2
+      status: halted
+      lang: C++
+      license: GPL2
 
 - name: M.U.L.E.
   clones:
     - name: mewl
       added: 2015-09-21
       repo: https://github.com/LionsPhil/mewl
-      info: sporadic development, C++, GPL2
+      status: sporadic
+      lang: C++
+      license: GPL2
 
 - name: [Magic Carpet, Magic Carpet (video game)]
   clones:
     - name: magiccarpet
       repo: https://github.com/wonea/magiccarpet
-      info: halted development, C++, no specified licence
+      status: halted
+      lang: C++
+      license: no specified licence
       added: 2016-04-20
 
 - name: Manic Miner
@@ -3277,7 +3305,8 @@
       added: 2015-05-09
       url: http://www.andynoble.co.uk/games.htm
       repo: http://www.andynoble.co.uk/files/ManicBB.zip
-      info: Blitz Basic, freeware but no specified licence for source
+      lang: Blitz Basic
+      license: freeware but no specified licence for source
 
 - names:
     - [Marathon, Marathon_(video_game)]
@@ -6600,7 +6629,7 @@
           image: http://ufoai.ninex.info/wiki/images/thumb/Ufoaiold_base01.jpg/120px-Ufoaiold_base01.jpg
     - name: Xenowar
       url: http://xenowar.net/
-      info: halted (playable)
+      status: halted (playable)
       lang: C++
       repo: https://github.com/leethomason/unflobtactical
       added: 2014-11-26
@@ -6669,7 +6698,9 @@
     - name: The Legend Of Zelda - Return Of The Hylan
       added: 2015-09-27
       url: http://www.zeldaroth.fr/us/zroth.php
-      info: finished development, C++, no specified licence
+      status: finished
+      lang: C++
+      license: no specified licence
       repo: http://www.zeldaroth.fr/us/files/ROTH/Windows/ZeldaROTH_US-src-windows.zip
       media:
         - image: http://www.zeldaroth.fr/images/roth/s14.png
