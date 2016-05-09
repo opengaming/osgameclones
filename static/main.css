@@ -26,8 +26,8 @@ body {
   margin: 0 auto;
 }
 
-a { color: #055580; }
-a:hover { text-decoration: none; }
+a { color: #055580; text-decoration: none; }
+a:hover { border-bottom: 1px solid #055580; }
 time { color: grey; }
 
 h1 { font-size: 2em; }
@@ -92,7 +92,7 @@ dd + dt { margin-top: 1em; }
 .tags-active dt, .tags-active dd {display: none}
 .tags-active dt.active, .tags-active dd.active {display: block}
 
-.tag { display: inline-block; font-size: 0.8rem; padding: 0 6px; margin: 0 2px;
+.tag { display: inline-block; font-size: 12px; padding: 0 6px; margin: 0 2px;
        color: #444; background-color: #eee; cursor: pointer; }
 .tag.status:hover { color: #444; background-color: #8AFF99; }
 .tag.license:hover { color: #444; background-color: #FFFF8C; }
