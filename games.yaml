@@ -377,7 +377,9 @@
       added: 2015-04-10
       repo: http://sourceforge.net/projects/watomic/files/watomic/1.2.3/WAtomic_src_1_2_3_257.zip/download
       status: halted
-      lang: Delphi/Kylix
+      lang:
+        - Delphi
+        - Kylix
       license: GPL2
 
 - name: AstroMenace
@@ -1092,7 +1094,7 @@
       added: 2015-04-16
       url: http://cytadela.sourceforge.net/about.php
       status: sporadic
-      lang: C++, 
+      lang: C++
       license: GPL3
       repo: http://heanet.dl.sourceforge.net/project/cytadela/cytadela/1.1.0/cytadela-1.1.0.tar.bz2
       media:
@@ -3064,7 +3066,9 @@
       repo: https://github.com/MikeDX/div-pacman2600
       added: 2016-04-30
       url: http://js.mikedx.co.uk/pacman2600.html
-      info: active development, DIV Games Studio, MIT
+      status: active
+      framework: DIV Games Studio
+      license: MIT
 
 - name: "Pitfall!"
   clones:
@@ -3072,7 +3076,9 @@
       repo: https://github.com/MikeDX/div-pitfall
       added: 2016-04-30
       url: http://js.mikedx.co.uk/pitfall.html
-      info: active development, DIV Games Studio, MIT
+      status: active
+      framework: DIV Games Studio
+      license: MIT
 
 - name: "Populous: The Beginning"
   clones:
@@ -3080,7 +3086,9 @@
       repo: svn://svn.code.sf.net/p/openpopulous/code/trunk
       added: 2015-04-07
       url: http://openpopulous.sourceforge.net/
-      info: halted development, C++, GPL3
+      status: halted
+      lang: C++
+      license: GPL3
       media:
         - url: https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg/182/137
           image: https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg
@@ -3090,7 +3098,8 @@
     - name: glPortal
       url: http://glportal.de/
       repo: https://github.com/GlPortal/glPortal
-      info: active development, C++, playable
+      status: active (playable)
+      lang: C++
       added: 2013-06-25
       media:
         - image: http://glportal.de/wp-content/uploads/2013/06/glPortal1-1000x250.png
@@ -3101,11 +3110,13 @@
     - name: SDLPoP
       url: http://www.popot.org/get_the_games.php?game=SDLPoP
       repo: https://github.com/NagyD/SDLPoP
-      info: C, active development, playable
+      lang: C
+      status: active (playable)
       added: 2015-05-30
     - name: FreePrince
       url: http://www.princed.org/downloads/FreePrince/FP_2011-12-04_source.tar.gz
-      info: C, halted development, mostly playable
+      lang:: C
+      status: halted (mostly playable)
       added: 2014-01-12
 
 - name: [Quadnet, "https://www.mobygames.com/game/dos/quadnet"]
@@ -3113,7 +3124,8 @@
     - name: Mauvenet
       added: 2015-05-09
       repo: http://gamesoft.ca/bestgames/mauvenet_.zip
-      info: C++, no specified licence
+      lang: C++
+      license: no specified licence
       url: http://gamesoft.ca/remakes.html
       media:
         - image: http://gamesoft.ca/bestgames/images/mauvenet3.png
@@ -3123,7 +3135,9 @@
     - name: DarkPlaces
       url: https://icculus.org/twilight/darkplaces/
       repo: https://svn.icculus.org/twilight/trunk/darkplaces/
-      info: active development, C, GPL2
+      status: active
+      lang: C
+      license: GPL2
       added: 2015-07-02
       media:
         - url: https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty1.jpg
@@ -3135,7 +3149,9 @@
     - name: ezQuake
       url: http://ezquake.sourceforge.net/
       repo: https://github.com/ezQuake/ezquake-source
-      info: active development, C, GPL2
+      status: active
+      lang: C
+      license: GPL2
       added: 2015-07-02
       media:
         - url: http://ezquake.sourceforge.net/gallery/armor_battle.png
@@ -3149,12 +3165,16 @@
     - name: QuakeSpasm
       url: http://quakespasm.sourceforge.net/
       repo: http://sourceforge.net/p/quakespasm/code/HEAD/tree/trunk/quakespasm/
-      info: active development, C, GPL2
+      status: active
+      lang: C
+      license: GPL2
       added: 2015-07-02
     - name: TyrQuake
       url: http://disenchant.net/tyrquake/
       repo: https://github.com/libretro/tyrquake
-      info: active development, C, GPL2
+      status: active
+      lang: C
+      license: GPL2
       added: 2015-04-03
 
 - name: Quake 2
@@ -3163,7 +3183,9 @@
       url: http://bytonic.de/html/jake2.html
       repo: git://git.code.sf.net/p/jake2/git
       added: 2015-04-03
-      info: active development, Java, GPL2
+      status: active
+      lang: Java
+      license: GPL2
       media:
         image: https://a.fsdn.com/con/app/proj/jake2/screenshots/31155.jpg
         uri: https://a.fsdn.com/con/app/proj/jake2/screenshots/31155.jpg
@@ -3171,14 +3193,17 @@
       added: 2015-04-05
       repo: https://github.com/yquake2
       url: http://www.yamagi.org/quake2/
-      info: active development, C, GPL2
+      status: active
+      lang: C
+      license: GPL2
 
 - name: Quake 3
   clones:
     - name: ioquake3
       url: http://ioquake3.org/
       repo: https://github.com/ioquake/ioq3
-      info: active development, C
+      status: active development
+      lang: C
       media:
         - image: http://ioquake3.org/images/screenshots/arenalinux.jpeg
         - image: http://ioquake3.org/images/screenshots/arenaosx.jpeg
@@ -3186,7 +3211,8 @@
     - name: OpenArena
       url: http://openarena.ws/
       repo: http://openarena.ws/svn
-      info: sporadic development, C
+      status: sporadic
+      lang: C
       media:
         - image: http://openarena.ws/e107_images/custom/s085-8.jpg
           url: http://openarena.ws/e107_images/custom/085-8.jpg
@@ -3199,12 +3225,16 @@
     - name: FQuake3
       added: 2015-05-11
       repo: https://github.com/TIHan/FQuake3
-      info: sporadic development, F#, GPL2
+      status: sporadic
+      lang: F#
+      license GPL2
     - name: QuakeJS
       added: 2016-01-09
       repo: https://github.com/inolen/quakejs
       url: http://www.quakejs.com/
-      info: halted development, JavaScript, MIT
+      status: halted
+      lang: JavaScript
+      license: MIT
 
 - name: "Ken's Labyrinth"
   clones:
