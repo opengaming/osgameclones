@@ -58,8 +58,10 @@ article header h1, #posts h2 { margin-top: 0; }
 article header details { color: #ccc; margin-top: -1.5em; margin-bottom: 1em; }
 article header details a { color: grey; }
 
-.toggler { cursor: pointer; }
-.notoggler { color: lightgrey; cursor: default; }
+.toggler, .notoggler { display: inline-block; width: 20px; margin-left: -20px; }
+.toggler { cursor: pointer; color: lightgray; }
+.toggler:hover { color: #404040; }
+.notoggler { display: none; }
 
 #posts tr.year { text-align: center; }
 #posts tr.year h2 { margin-bottom: 0; }
