@@ -72,7 +72,7 @@
     <span class="tag {{ tag_class | lower }} tag-{{ tag_name | lower }}"
           data-name="{{ tag_name | replace(' ', '-') | lower }}">
       {{- tag_name -}}
-      {%- if tag_props -%}<span class="tag-pill">{{ tag_props }}</span>{%- endif -%}
+      {%- if tag_props -%}<span class="tag-badge">{{ tag_props }}</span>{%- endif -%}
     </span>
   {%- endfor -%}
 {% endmacro %}
