@@ -4639,7 +4639,6 @@
         - image: http://freesynd.sourceforge.net/images/screenshots/thumb.ss3.png
           url: http://freesynd.sourceforge.net/images/screenshots/ss3.png
 
-
 - name: Syndicate Wars
   clones:
     - name: Syndicate Wars Port
@@ -4652,6 +4651,13 @@
         - image: http://swars.vexillium.org/shots/swars-macos-1-thumb.jpg
           url: http://swars.vexillium.org/shots/swars-macos-1.png
 
+- name: System Shock
+  clones:
+    - name: Citadel
+      added: 2016-05-09
+      repo: https://github.com/JosiahJack/Citadel
+      framework: Unity
+
 - name: Terraria
   clones:
     - name: Open Terraria Rewrite
@@ -4661,7 +4667,9 @@
     - name: terrarium
       repo: https://github.com/hydren/terrarium
       added: 2015-06-18
-      info: active development, C++, no specified licence
+      status: active
+      lang: C++
+      license: no specified licence
 
 - name: The Castles of Dr. Creep
   clones:
