@@ -5841,11 +5841,23 @@
       repo: http://svn.icculus.org/tremulous/
       added: 2013-06-08
 
-- name: NetHack
+- name: Rogue
+  reimplementations:
+    - url: http://www.nethack.org/
+      name: NetHack
+      status: active
+      lang: C
+      license: Nethack General Public License
+      info: playable, complete
+      added: 2016-05-09
+      repo: https://sourceforge.net/p/nethack/NetHack/
   reimplementations:
     - url: http://www.slashem.org/
       name: SLASH'EM
-      info:  halted development, (C, C++), Nethack General Public License
+      status: halted
+      lang: C
+      license: Nethack General Public License
+      info: playable, complete, extended version of NetHack
       added: 2015-04-11
       repo: http://slashem.cvs.sourceforge.net/viewvc/slashem/
       media:
