@@ -1568,7 +1568,9 @@
     - name: DungeonMaster
       repo: https://github.com/ggrrin/DungeonMaster
       added: 2016-04-11
-      info: active development, C#, no specified licence
+      status: active development
+      lang: C#
+      license: no specified licence
 
 - name: [E.T. the Extra-Terrestrial, E.T. the Extra-Terrestrial (video game)]
   clones:
@@ -1583,7 +1585,10 @@
       repo: https://github.com/ant512/EarthShakerDS
       url: http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released
       added: 2015-04-08
-      info: active development, C++, custom licence, Nintendo DS port
+      info: Nintendo DS port
+      status: active
+      lang: C++
+      license: custom licence
       media:
         - image: http://simianzombie.com/media/2011/05/1.png
         - image: http://simianzombie.com/media/2011/05/2.png
@@ -1595,7 +1600,9 @@
       url: http://www.ggsoft.org/etw/
       repo: svn://svn.code.sf.net/p/etw/code/trunk
       added: 2015-04-10
-      info: sporadic development, C, GPL2
+      info: sporadic development
+      lang: C
+      license: GPL2
       media:
         - image: https://a.fsdn.com/con/app/proj/etw/screenshots/172852.jpg
         - image: https://a.fsdn.com/con/app/proj/etw/screenshots/172854.jpg
@@ -1609,7 +1616,9 @@
     - name: l-echo
       url: https://code.google.com/p/l-echo/
       added: 2015-04-15
-      info: halted development, C++, GPL3
+      status: halted
+      lang: C++
+      license: GPL3
       repo: http://l-echo.googlecode.com/svn/trunk/
 
 - name: [Elements, "http://www.mobygames.com/game/browser/elements_"]
@@ -1618,14 +1627,19 @@
       added: 2015-09-25
       url: http://etg.dek.im/
       repo: https://github.com/serprex/openEtG
-      info: active development, JavaScript, (AS-IS) licence
+      status: active
+      lang: JavaScript
+      license: (AS-IS) licence
 
 - name: [Encounter, Encounter (video game)]
   clones:
     - name: encounter
       added: 2015-05-28
       repo: https://github.com/air/encounter
-      info: active development, (JavaScript & WebGL), no specified licence
+      status: active
+      lang: JavaScript
+      framework: WebGL
+      license: no specified licence
       url: http://air.github.io/encounter/
 
 - name: [Entombed!, "Entombed (1982 video game)"]
@@ -1634,7 +1648,9 @@
       url: http://www.newbreedsoftware.com/entombed/
       added: 2015-04-08
       repo: ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz
-      info: halted development, C, no specified license
+      status: halted
+      lang: C
+      license: no specified license
 
 - name: Escape from Colditz
   clones:
@@ -1642,7 +1658,9 @@
       repo: https://github.com/aperture-software/colditz-escape
       added: 2015-04-10
       url: https://sites.google.com/site/colditzescape/
-      info: active development, C, GPL3
+      status: active
+      lang: C
+      license: GPL3
       media:
         - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot0.png
         - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot1.png
