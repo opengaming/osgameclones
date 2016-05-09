@@ -2,6 +2,7 @@ import sys
 import pprint
 import os.path as op
 from datetime import date, timedelta
+from collections import OrderedDict
 
 import yaml
 from cyrax import events
@@ -62,6 +63,8 @@ def parse_global_tags(site, games, tag):
                 if not tagObj.get(t, False):
                     tagObj[t] = {'tag_count': 0}
                 tagObj[t]['tag_count'] += 1
+
+    setattr(site, tag, OrderedDict(sorted(getattr(site, tag, {}).items())))
 
 
 def parse_item(entry):
