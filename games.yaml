@@ -564,7 +564,7 @@
   clones:
     - name: Bermuda Syndrome
       url: http://cyxdown.free.fr/bs/
-      info: sporadic (or halted) development, playable
+      status: sporadic (or halted), playable
       added: 2013-05-27
       media:
         - image: http://cyxdown.free.fr/bs/bs-1.png
@@ -574,7 +574,7 @@
   clones:
     - name: xBaK
       url: http://xbak.sourceforge.net/
-      info: sporadic (or halted) development, playable
+      info: sporadic (or halted), playable
       added: 2014-08-15
       media:
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/126405.jpg
@@ -614,12 +614,12 @@
   clones:
     - name: Blood Crossmatching (EDuke32 vanilla)
       url: http://www.moddb.com/games/bloodcm
-      info: active development
+      status: active development
       repo: http://m210.ucoz.ru/
       added: 2013-05-29
     - name: Transfusion
       url: http://www.transfusion-game.com/
-      info: sporadic development, playable
+      status: sporadic development, playable
       repo: http://sourceforge.net/p/blood/code/ci/default/tree/
       added: 2013-11-12
       media:
@@ -5719,7 +5719,8 @@
       repo: https://github.com/freeciv/freeciv-web
     - url: http://www.c-evo.org/
       name: C-Evo
-      info: playable, Delphi
+      info: playable
+      lang: Delphi
       repo: http://www.c-evo.org/files/download.php?cevosrc.cevosrc.zip
       added: 2013-09-19
       media:
@@ -5825,7 +5826,7 @@
   reimplementations:
     - url: http://www.oolite.org/
       name: Oolite
-      info: active development
+      status: active
       repo: http://svn.berlios.de/wsvn/oolite-linux/?op=log&isdir=1&
       media:
         - url: http://www.oolite.org/images/gallery/full/all-ships.jpg
