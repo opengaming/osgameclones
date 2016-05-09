@@ -5775,7 +5775,9 @@
   reimplementations:
     - name: BRIQUOLO
       added: 2015-04-25
-      info: halted development, C++, GPL3
+      status: halted
+      lang: C++
+      license: GPL3
       repo: http://briquolo.free.fr/download/briquolo-0.5.7.tar.bz2
       url: http://briquolo.free.fr/en/index.html
       media:
@@ -5791,13 +5793,24 @@
     - name: Civ-Remake
       added: 2015-04-12
       repo: https://github.com/aarnwri/Civ-Remake
-      info: active development, incomplete, Ruby, no specified licence
+      status: active (incomplete)
+      lang: Ruby
+      license: no specified licence
+    - name: CivOne
+      url: http://www.civone.com/
+      repo: https://github.com/SWY1985/CivOne
+      status: active
+      lang: C#
+      license: CC0
+      info: requires original files
+      added: 2016-05-09
 
 - name: Civilization II
   reimplementations:
     - url: http://freeciv.wikia.com/
       name: Freeciv
-      info: active development, C
+      info: active
+      lang: C
       repo: http://svn.gna.org/viewcvs/freeciv/
       media:
         - url: http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
