@@ -377,9 +377,8 @@
       added: 2015-04-10
       repo: http://sourceforge.net/projects/watomic/files/watomic/1.2.3/WAtomic_src_1_2_3_257.zip/download
       status: halted
-      lang:
-        - Delphi
-        - Kylix
+      lang: Delphi
+      framework: Kylix
       license: GPL2
 
 - name: AstroMenace
@@ -435,8 +434,7 @@
       added: 2015-04-13
       url: http://compiler.speccy.org/index.php?lang=eng&game=babaliba
       repo: http://compiler.speccy.org/files/sources/Babaliba_Source.zip
-      lang: Microsoft Visual FoxPro
-      license: no specified licence
+      lang: Visual FoxPro
       media:
         - image: http://compiler.speccy.org/images/screens/babaliba-scr1.png
         - image: http://compiler.speccy.org/images/screens/babaliba-scr2.png
@@ -487,8 +485,8 @@
       repo: https://www.dropbox.com/s/4n5kvajfmcu132o/barbarianAMIGAwin.zip
       url: http://barbarian.1987.free.fr/indexEN.htm
       status: active
-      lang: Quick Basic (QB64)
-      license: no licence specified
+      lang: QuickBASIC
+      framework: QB64
       media:
         - image: http://barbarian.1987.free.fr/images/AMIGA01.jpg
 
@@ -570,9 +568,8 @@
       added: 2015-05-28
       repo: https://github.com/CrociDB/biju-game
       status: halted (incomplete)
-      lang:
-        - JavaScript
-        - CraftJS
+      lang: JavaScript
+      framework: CraftyJS
       license: no specified licence
 
 - name: Bermuda Syndrome
@@ -603,7 +600,7 @@
       status: active (playable)
       lang: C++
       framework: SFML
-      license: 
+      license:
          - GPL3
          - CC BY-NC-SA
       added: 2015-09-11
@@ -1076,7 +1073,8 @@
       added: 2015-04-16
       url: http://crazycarscpc.free.fr/indexEN.htm
       repo: https://www.dropbox.com/s/lad1nm9fvmd3ugs/crazycarsFL.zip
-      lang: Quick Basic (QB64)
+      lang: QuickBASIC
+      framework: QB64
       license: no specified licence
       media:
         - image: http://crazycarscpc.free.fr/images/crazy01.jpg
@@ -1845,7 +1843,7 @@
       added: 2015-04-25
       repo: https://github.com/chipbell4/F-Zero-Clone
       status: active
-      lang: 
+      lang:
         - JavaScript
         - CoffeeScript
       framework: WebGL
@@ -2103,7 +2101,7 @@
       added: 2015-05-09
       url: http://worldofstuart.excellentcontent.com/grid/wars.htm
       repo: http://worldofstuart.excellentcontent.com/grid/GridWars54.zip
-      lang: Blitz Max
+      lang: Blitz BASIC
       license: no specified licence
       media:
         - image: http://worldofstuart.excellentcontent.com/grid/gw1.jpg
@@ -2912,7 +2910,10 @@
   clones:
     - name: TVTower
       url: http://www.tvgigant.de/en/index
-      info: active development, BlitzMax, C
+      status: active
+      lang:
+        - Blitz BASIC
+        - C
       repo: https://github.com/GWRon/TVTower
       added: 2014-08-16
 
@@ -3090,7 +3091,9 @@
       url: http://outruncpc.free.fr/
       repo: https://www.dropbox.com/s/d803ueu0l4cgk6k/outrunBETA.zip
       added: 2015-04-16
-      info: active development (WIP), Quick Basic (QB64), no specified licence
+      status: active
+      lang: QuickBASIC
+      framework: QB64
       media:
         - image: http://outruncpc.free.fr/images/CPC01.jpg
         - image: http://outruncpc.free.fr/images/CPC02.jpg
@@ -3361,7 +3364,7 @@
       added: 2015-05-09
       url: http://www.andynoble.co.uk/games.htm
       repo: http://www.andynoble.co.uk/files/ManicBB.zip
-      lang: Blitz Basic
+      lang: Blitz BASIC
       license: freeware but no specified licence for source
 
 - names:
@@ -4146,7 +4149,9 @@
       url: http://ysoccer.sourceforge.net/
       repo: git://git.code.sf.net/p/ysoccer/code ysoccer-code
       added: 2015-04-03
-      info: sporadic development, BlitzMax, GPL
+      status: sporadic
+      lang: Blitz BASIC
+      license: GPL
 
 - name: [Sensitive, "https://www.mobygames.com/game/c64/sensitive"]
   clones:
@@ -4215,7 +4220,7 @@
       repo: https://github.com/institution/cc94
       added: 2015-05-29
       status: active (required original files)
-      lang: 
+      lang:
         - C++
         - Python
       license: AGPL3
@@ -5594,11 +5599,11 @@
       added: 2015-10-09
       url: http://www.blitzbasic.com/Community/posts.php?topic=38995
       repo: http://www.steviegoodwin.plus.com/Z_Virus.zip
-      info: Blitz Basic, no specified licence
+      lang: Blitz BASIC
     - name: Z Virus V2
       added: 2015-10-09
       repo: http://www.steviegoodwin.plus.com/Z_Virus_V2.zip
-      info: Blitz Basic, no specified licence
+      lang: Blitz BASIC
 
 - name: [Legend of Zelda - A Link to the Past, "The Legend of Zelda: A Link to the Past"]
   clones:
@@ -6452,7 +6457,7 @@
       url: http://vittorioromeo.info/projects.html
       repo: http://github.com/SuperV1234/SSVOpenHexagon
       status: active (playable)
-      lang: C++11
+      lang: C++
       added: 2013-09-11
       media:
         - image: http://vittorioromeo.info/Resources/img/openHexagon.png
@@ -6622,7 +6627,7 @@
     - url: http://hedgewars.org/
       name: Hedgewars
       status: active
-      lang: 
+      lang:
         - Pascal
         - C++
         - Haskell
@@ -6800,9 +6805,8 @@
       url: http://www.xforce-online.de/
       repo: svn://svn.code.sf.net/p/xforceffd/code/trunk
       status: sporadic
-      lang:
-        - Delhi
-        - Kylix
+      lang: Delphi
+      framework: Kylix
       license: GPL2
       media:
         - image: https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg
