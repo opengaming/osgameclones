@@ -2518,7 +2518,9 @@
     - name: "Jet-Story"
       added: 2016-02-08
       repo: https://github.com/adamenkov/jet-story
-      info: active development, C++, MIT
+      status: active
+      lang: C++
+      license: MIT
 
 - name: Jetpac
   clones:
@@ -2526,7 +2528,10 @@
       added: 2015-05-10
       url: http://homepage.ntlworld.com/ian.wigley2/jet_pac_remake.html
       repo: https://github.com/ian-wigley/JetPac
-      info: finished developent, (XNA & C#), no specified licence
+      status: finished
+      framework: XNA
+      lang: C#
+      license: no specified licence
       media:
         - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Jetpac%20Remake.JPG
         - image: http://homepage.ntlworld.com/ian.wigley2/graphics/XNA%20JetPac%20screen.PNG
@@ -2552,7 +2557,9 @@
     - name: Ostrich Riders
       added: 2015-04-15
       url: http://identicalsoftware.com/ostrichriders/
-      info: sporadic development, C++, GPL3
+      status: sporadic
+      lang: C++
+      license: GPL3
       repo: https://github.com/dulsi/ostrichriders
       media:
         - image: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229619.jpg
@@ -2582,12 +2589,16 @@
     - name: "Jumping Jack: Further Adventures"
       added: 2015-04-13
       url: http://retrospec.sgn.net/game/jj
-      info: halted development, C++, no licence specified
+      status: halted
+      lang: C++
+      license: no licence specified
       repo: http://retrospec.sgn.net/users/nwalker/jack/jj.zip
     - name: "Jumping Jack 2: Worryingly Familiar"
       added: 2015-04-13
       url: http://retrospec.sgn.net/game/jj2
-      info: halted development, C++, no licence specified
+      status: halted
+      lang: C++
+      license: no licence specified
       repo: http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip
 
 - name: Jumpman
@@ -2595,7 +2606,8 @@
     - name: Jumpman
       url: http://www.oldskool.org/pc/jumpman
       added: 2015-05-09
-      info: halted development, Assembly
+      status: halted
+      lang: Assembly
       repo: http://www.oldskool.org/pc/jumpman/jump_src.zip
       media:
         - image: http://www.oldskool.org/pc/jumpman/level01.gif
@@ -2605,14 +2617,19 @@
     - name: DonkeyInTrouble
       added: 2015-06-22
       repo: https://github.com/Zap123/DonkeyInTrouble
-      info: sporadic development, (Lua & LÖVE), no specified licence
+      status: sporadic
+      lang: Lua
+      framework: LÖVE
+      license: no specified licence
 
 - name: [Kid Chameleon, Kid Chameleon (video game)]
   clones:
     - name: KidChameleonRemake
       added: 2015-05-29
       repo: https://github.com/mp1011/KidChameleonRemake
-      info: active development, C#, no specified licence#
+      status: active
+      lang: C#
+      license: no specified licence#
 
 - name: [Knights, Knights (video game)]
   clones:
@@ -2620,7 +2637,9 @@
       added: 2015-04-15
       url: http://www.knightsgame.org.uk/
       repo: http://www.knightsgame.org.uk/files/knights_025_src.tar.gz
-      info: active development, C++, GPL3
+      status: active
+      lang: C++
+      license: GPL3
       media:
         - image: http://www.knightsgame.org.uk/images/knights1.png
         - image: http://www.knightsgame.org.uk/images/knights2.png
@@ -2634,7 +2653,8 @@
     - name: KaM Remake
       url: http://www.kamremake.com/
       repo: https://github.com/Kromster80/kam_remake
-      info: active development, Delphi
+      status: active
+      lang: Delphi
       added: 2012-04-05
       media:
         - image: http://www.kamremake.com/wp-content/uploads/2011/10/Menu-150x150.png
@@ -2655,7 +2675,9 @@
       added: 2015-04-14
       url: http://sourceforge.net/projects/cubosphere/
       repo: http://cubosphere.bzr.sourceforge.net/bzr/cubosphere/changes
-      info: halted development, C++, GPL3
+      status: halted
+      lang: C++
+      license: GPL3
 
 - name: [Ladder, Ladder (video game)]
   clones:
@@ -2663,12 +2685,15 @@
       added: 2015-05-09
       url: http://gamesoft.ca/remakes.html
       repo: http://gamesoft.ca/bestgames/ladder_src.zip
-      info: C#, no specified licence
+      lang: C#
+      license: no specified licence
       media:
         - image: http://gamesoft.ca/bestgames/images/ladder_snp.png
     - name: Ladder
       added: 2015-05-10
-      info: Java (source inside JAR file), GPL2
+      lang: Java
+      info: (source inside JAR file)
+      license: GPL2
       repo: http://ostermiller.org/ladder/ladder.jar
       url: http://ostermiller.org/ladder/
       media:
@@ -2677,7 +2702,9 @@
     - name: ladder
       added: 2016-02-26
       repo: https://github.com/SmallRoomLabs/ladder
-      info: active development, GO, MIT
+      status: active
+      lang: GO
+      license: MIT
       media:
         - image: https://raw.githubusercontent.com/SmallRoomLabs/ladder/master/images/GameRunning1.png
 
@@ -3347,20 +3374,21 @@
   clones:
     - name: Aleph One
       url: http://marathon.sourceforge.net/
-      info: active development, C++
+      status: active
+      lang: C++
       repo: http://sourceforge.net/p/marathon/code/
       media:
         - image: http://marathon.sourceforge.net/images/m1_collage.png
         - image: http://marathon.sourceforge.net/images/m2_collage.png
         - image: http://marathon.sourceforge.net/images/m3_collage.png
 
-
 - name: Mario World
   clones:
     - name: Secret Maryo Chronicles
       url: http://secretmaryo.org/
       repo: https://github.com/FluXy/SMC
-      info: sporadic development, C++
+      status: sporadic
+      lang: C++
       media:
         - image: http://picload.org/thumbnail/lopgiwo/smc1.png
           url: http://secretmaryo.org/index.php?page=media
@@ -3381,7 +3409,9 @@
       repo: https://github.com/FullScreenShenanigans/FullScreenMario/
       url: http://www.fullscreenmario.com/
       added: 2015-04-04
-      info: active development, playable, JavaScript, CCPL
+      status: active (playable)
+      lang: JavaScript
+      license: CCPL
 
 - names: [Master of Monsters, Warsong]
   reimplementations:
@@ -4644,7 +4674,6 @@
         - image: http://freesynd.sourceforge.net/images/screenshots/thumb.ss3.png
           url: http://freesynd.sourceforge.net/images/screenshots/ss3.png
 
-
 - name: Syndicate Wars
   clones:
     - name: Syndicate Wars Port
@@ -4657,6 +4686,13 @@
         - image: http://swars.vexillium.org/shots/swars-macos-1-thumb.jpg
           url: http://swars.vexillium.org/shots/swars-macos-1.png
 
+- name: System Shock
+  clones:
+    - name: Citadel
+      added: 2016-05-09
+      repo: https://github.com/JosiahJack/Citadel
+      framework: Unity
+
 - name: Terraria
   clones:
     - name: Open Terraria Rewrite
@@ -4666,7 +4702,9 @@
     - name: terrarium
       repo: https://github.com/hydren/terrarium
       added: 2015-06-18
-      info: active development, C++, no specified licence
+      status: active
+      lang: C++
+      license: no specified licence
 
 - name: The Castles of Dr. Creep
   clones:
@@ -5766,13 +5804,17 @@
     - name: brainblast
       repo: https://github.com/Zitrax/brainblast
       added: 2015-05-18
-      info: sporadic development, C++, no specified licence
+      info: sporadic
+      lang: C++
+      license: no specified licence
 
 - name: [Breakout, Breakout (video game)]
   reimplementations:
     - name: BRIQUOLO
       added: 2015-04-25
-      info: halted development, C++, GPL3
+      status: halted
+      lang: C++
+      license: GPL3
       repo: http://briquolo.free.fr/download/briquolo-0.5.7.tar.bz2
       url: http://briquolo.free.fr/en/index.html
       media:
@@ -5788,13 +5830,24 @@
     - name: Civ-Remake
       added: 2015-04-12
       repo: https://github.com/aarnwri/Civ-Remake
-      info: active development, incomplete, Ruby, no specified licence
+      status: active (incomplete)
+      lang: Ruby
+      license: no specified licence
+    - name: CivOne
+      url: http://www.civone.com/
+      repo: https://github.com/SWY1985/CivOne
+      status: active
+      lang: C#
+      license: CC0
+      info: requires original files
+      added: 2016-05-09
 
 - name: Civilization II
   reimplementations:
     - url: http://freeciv.wikia.com/
       name: Freeciv
-      info: active development, C
+      info: active
+      lang: C
       repo: http://svn.gna.org/viewcvs/freeciv/
       media:
         - url: http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
@@ -5803,7 +5856,12 @@
           image: http://images1.wikia.nocookie.net/__cb20061222015333/freeciv/images/thumb/9/94/Big_window.png/185px-Big_window.png
     - url: http://play.freeciv.org/
       name: Play Freeciv!
-      info: active development, online browser game, C, Java, JavaScript
+      status: active
+      info: online browser game
+      lang:
+        - C
+        - Java
+        - JavaScript
       repo: https://github.com/freeciv/freeciv-web
     - url: http://www.c-evo.org/
       name: C-Evo
