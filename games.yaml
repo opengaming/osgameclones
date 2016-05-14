@@ -3837,7 +3837,9 @@
       added: 2015-04-11
       url: http://pygame.org/project-Paratrooper-706-.html
       repo: http://www.onderstekop.nl/coding/24_Paratrooper_1.2.3.zip
-      active: development halted, Python, no licence specified
+      status: halted
+      lang: Python
+      license: no licence specified
       media:
         - image: http://pygame.org/shots/706.jpg
           url: http://pygame.org/thumb/65b19eb3798f52835fe9b4b12f9d69ba.png
@@ -3847,14 +3849,19 @@
     - name: Phantasy
       added: 2015-05-28
       repo: https://github.com/rafael-esper/Phantasy
-      info: halted development, Java, no specified licence
+      status: halted
+      lang: Java
+      license: no specified licence
 
 - name: Pipe Mania
   clones:
     - name: Pipemania
       added: 2015-06-01
       repo: https://github.com/zbiq13/Pipemania
-      info: halted development, (Lua & Love3D), no specified licence
+      status: halted
+      lang: Lua
+      framework: Love3D
+      license: no specified licence
 
 - name: [Pokémon, Pokémon (video game series)]
   clones:
@@ -3884,20 +3891,26 @@
     - name: grid-leader
       added: 2015-06-22
       repo: https://github.com/jonathanopalise/grid-leader
-      info: halted development, (Python & Panda3D), no specified licence
+      info: halted
+      lang: Python
+      framework: Panda3D
+      license: no specified licence
 
 - name: [Punch-Out!!, Punch-Out!! (arcade game)]
   clones:
     - name: THREEPunchOut
       added: 2015-08-15
       repo: https://github.com/MattSzik/THREEPunchOut
-      info: active development, JavaScript, no specified licence
+      status: active
+      lang: JavaScript
+      license: no specified licence
 
 - name: [Pushover, Pushover (video game)]
   clones:
     - name: Pushover
       url: http://pushover.sourceforge.net/
-      info: moderately active development, C++, playable
+      status: moderately active (playable)
+      lang: C++
       added: 2013-05-29
       repo: http://pushover.sourceforge.net/repos/head/
       media:
@@ -3908,12 +3921,12 @@
         - image: http://pushover.sourceforge.net/images/Screenshot4_tn.jpg
           url: http://pushover.sourceforge.net/images/Screenshot4.jpg
 
-
 - name: [Puzznic / Brix, Brix (video game)]
   clones:
     - name: Wizznic!
       url: http://dustedgames.blogspot.com.au/p/wizznic.html
-      info: active development, C, playable
+      status: active (playable)
+      lang: C
       added: 2015-03-06
       repo: https://github.com/DusteDdk/Wizznic
       media:
@@ -3929,7 +3942,9 @@
     - name: ReQbert
       repo: https://github.com/leonicolas/ReQbert
       added: 2015-05-18
-      info: halted development, HTML 5, GPL3
+      status: halted
+      framework: HTML5
+      license: GPL3
 
 - name: "R-Type"
   clones:
@@ -4024,12 +4039,14 @@
   clones:
     - name: xrick
       url: http://www.bigorno.net/xrick
-      info: halted development, playable, C
+      status: halted (playable)
+      lang: C
       added: 2014-01-12
     - name: rickyd
       url: http://sourceforge.net/projects/rickyd/
       repo: git://git.code.sf.net/p/rickyd/code
-      info: sporadic development, playable, C++
+      status: sporadic (playable)
+      lang: C++
       added: 2015-04-03
 
 - name: Rise of the Triad
@@ -4082,7 +4099,8 @@
     - name: rfk-inform
       url: https://661.org/if/rfk/
       repo: https://github.com/DavidGriffith/rfk-inform
-      info: stalled development, Inform6
+      status: stalled
+      framework: Inform6
       media:
         - image: https://661.org/if/rfk/files/rfk-inform01.png
         - image: https://661.org/if/rfk/files/rfk-inform02.png
@@ -4098,14 +4116,17 @@
       repo: https://github.com/Ernir/robotron
       url: https://github.com/Ernir/robotron
       added: 2015-04-06
-      info: active development, JavaScript
+      status: active
+      lang: JavaScript
 
 - name: "Rodent's Revenge"
   clones:
     - name: Open Rodent's Revenge
       added: 2015-05-03
       repo: svn://svn.code.sf.net/p/o2r/code/trunk
-      info: halted development, C++, GPL3
+      status: halted
+      lang: C++
+      license: GPL3
       media:
         - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/254642.jpg
           url: https://a.fsdn.com/con/app/proj/o2r/screenshots/254642.jpg/182/137
@@ -4125,7 +4146,8 @@
     - name: FreeRCT
       url: http://freerct.org/
       repo: http://github.com/FreeRCT/FreeRCT
-      info: active development, C++
+      status: active
+      lang: C++
       added: 2013-07-05
 
 - name: RollerCoaster Tycoon 2
@@ -4134,7 +4156,9 @@
       url: https://openrct2.com/
       repo: https://github.com/IntelOrca/OpenRCT2
       added: 2014-08-20
-      info: active development, C, GPL3
+      status: active
+      lang: C
+      license: GPL3
       media:
         - image: http://i.imgur.com/kTkK5Gw.png
         - image: http://dev.intelorca.co.uk/2014/openrct2/cheats.png
@@ -4144,7 +4168,9 @@
     - name: Ryzom Core
       added: 2015-04-13
       url: http://www.ryzomcore.org/
-      info: active development, C++, (AGPLv3 & Creative Commons Attributions-ShareAlike 3.0)
+      status: active
+      lang: C++
+      license: AGPLv3 & Creative Commons Attributions-ShareAlike 3.0
       repo: https://bitbucket.org/ryzom/ryzomcore/overview
       media:
         - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot008.png
@@ -4156,7 +4182,7 @@
   clones:
     - name: Atomic Tanks
       url: http://atanks.sourceforge.net/
-      info: sporadic development, playable
+      status: sporadic (playable)
       added: 2013-06-06
       media:
         - image: http://atanks.sourceforge.net/Screenshots/small-scrnshot28.png
@@ -4168,7 +4194,8 @@
   clones:
     - name: Scramble
       added: 2015-05-09
-      info: PowerBASIC, no specified licence
+      lang: PowerBASIC
+      license: no specified licence
       repo: http://gamesoft.ca/bestgames/scramble_source.zip
       media:
         - image: http://gamesoft.ca/bestgames/images/scrcap06.png
@@ -4178,21 +4205,27 @@
     - name: Seaquest
       repo: https://github.com/brunocmorais/Seaquest
       added: 2015-06-22
-      info: sporadic development, C#, no specified licence
+      status: sporadic
+      lang: C#
+      license: no specified licence
 
 - name: "Shadowgrounds: Survivor"
   clones:
     - name: shadowgrounds
       repo: https://github.com/vayerx/shadowgrounds
       added: 2015-04-14
-      info: halted development, C++, Shadowgrounds & Shadowgrounds Survivor Source Code License
+      status: halted
+      lang: C++
+      info: Shadowgrounds & Shadowgrounds Survivor Source Code License
 
 - name: [Simon, Simon (game)]
   clones:
     - name: asdf
       added: 2015-05-28
       repo: https://github.com/TimPietrusky/asdf
-      info: finished development, JavaScript, MIT
+      status: finished
+      lang: JavaScript
+      license: MIT
 
 - name: Skool Daze
   clones:
@@ -4200,7 +4233,9 @@
       url: http://pyskool.ca/
       repo: https://github.com/skoolkid/pyskool
       added: 2015-04-05
-      info: active development, Python, GPL3
+      status: active
+      lang: Python
+      license: GPL3
       media:
         - image: http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-0.4.png
         - image: http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool-0.4.png
