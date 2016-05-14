@@ -6226,14 +6226,16 @@
       repo: http://svn.icculus.org/tremulous/
       added: 2013-06-08
 
-- name: NetHack
+- names:
+    - [Hack, Hack (video game)]
+    - [Rogue, Rogue_(video_game)]
+    - NetHack
   reimplementations:
     - url: http://www.slashem.org/
       name: SLASH'EM
       status: halted
       lang:
         - C
-        - C++
       license: Nethack General Public License
       added: 2015-04-11
       repo: http://slashem.cvs.sourceforge.net/viewvc/slashem/
