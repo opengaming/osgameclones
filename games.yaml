@@ -1036,7 +1036,12 @@
       url: http://commandojs.org/
       added: 2015-05-28
       repo: https://github.com/commandojs/CommandoJS
-      info: halted development, playable, JavaScript, Coffeescript, melonJS, MIT
+      status: halted (playable)
+      lang:
+        - JavaScript
+        - Coffeescript
+      framework: melonJS
+      license: MIT
       media:
         - image: http://i.imgur.com/e4ChdOL.png
 
@@ -1045,7 +1050,8 @@
     - name: Commander Genius
       url: http://clonekeenplus.sourceforge.net/
       repo: http://clonekeenplus.git.sourceforge.net/git/gitweb.cgi?p=clonekeenplus/clonekeenplus;a=summary
-      info: active development, C++
+      status: active
+      lang: C++
       media:
         - image: http://clonekeenplus.sourceforge.net/img/ckp1.jpg
         - image: http://clonekeenplus.sourceforge.net/img/ckpoptions.jpg
@@ -1055,7 +1061,9 @@
       url: http://steamcommunity.com/sharedfiles/filedetails/?id=315040793
       added: 2015-04-04
       repo: https://github.com/keendreams/keen
-      info: active development, C, GPL 2
+      status: active
+      lang: C
+      license: GPL2
       media:
         - image: http://cloud-4.steamusercontent.com/ugc/27349800890275925/878B16455C9D0D615DDDCA036167FB496A2623DC/637x358.resizedimage
     - name : Omnispeak
@@ -3869,7 +3877,7 @@
       url: http://www.tuxemon.org/
       repo: https://github.com/Tuxemon/Tuxemon
       status: active (alpha, playable)
-      lang Python
+      lang: Python
       framework: Pygame
       added: 2015-01-21
       media:
