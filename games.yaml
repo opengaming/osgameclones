@@ -4259,7 +4259,8 @@
     - name: libRealSpace
       url: http://fabiensanglard.net/reverse_engineering_strike_commander/index.php
       repo: https://github.com/fabiensanglard/libRealSpace
-      info: active development, C++
+      status: active
+      lang: C++
       added: 2014-01-05
 
 - name: Sensible Soccer
@@ -4268,7 +4269,9 @@
       url: https://codeflow.wordpress.com/tag/sensible-soccer/
       repo: https://github.com/anttisalonen/freekick3
       added: 2015-04-03
-      info: active development, C++, GPL
+      status: active
+      lang: C++
+      license: GPL
     - name: YSoccer
       url: http://ysoccer.sourceforge.net/
       repo: git://git.code.sf.net/p/ysoccer/code ysoccer-code
@@ -4281,7 +4284,9 @@
   clones:
     - name: One Way To Go
       repo: https://github.com/purplehuman/onewaytogo
-      info: active development, Lua, GPL3
+      status: active
+      lang: Lua
+      license: GPL3
       added: 2015-05-02
       media:
         - url: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/screenshot_zps0048f6d4.PNG/182/137
@@ -4294,12 +4299,15 @@
     - name: sentinel
       repo: https://github.com/virgo47/sentinel
       added: 2015-05-29
-      info: sporadic development, JavaFX, no specified licence
+      status: sporadic
+      lang: JavaFX
+      license: no specified licence
 
 - name: [Seven Kingdoms, Seven Kingdoms (computer game)]
   clones:
     - name: "Seven Kingdoms: Ancient Adversaries"
-      info: active development, C++
+      info: active
+      lang: C++
       url: http://7kfans.com/
       repo: http://7kfans.com/git/?p=7kaa.git;a=summary
 
@@ -4308,14 +4316,19 @@
     - name: Shining Force 2 Reverse Engineer (SF2RE)
       added: 2015-05-10
       repo: https://github.com/ShiningForceCentral/SF2RE
-      info: sporadic development, reverse engineering project, C, no specified licence
+      status: sporadic
+      info: reverse engineering project
+      lang: C
+      license: no specified licence
 
 - name: Shining Soul
   clones:
     - name: Shining-Soul-Remake
       added: 2016-04-11
       repo: https://github.com/CharlieIsMyName/Shining-Soul-Remake
-      info: active development, Python, no specified licence
+      status: active
+      lang: Python
+      license: no specified licence
 
 - name: "Sid Meier's Alpha Centauri"
   clones:
@@ -4323,7 +4336,9 @@
       added: 2015-04-11
       url: http://freecivac.sourceforge.net/
       repo: http://freecivac.cvs.sourceforge.net/viewvc/freecivac/
-      info: halted development, C, GPL2
+      status: halted
+      lang: C
+      license: GPL2
       media:
         - image: http://freecivac.sourceforge.net/pics/govchange.png
 
@@ -4332,7 +4347,8 @@
     - name: FreeCol
       url: http://www.freecol.org/
       repo: http://freecol.svn.sourceforge.net/viewvc/freecol/
-      info: active development, Java
+      status: active
+      lang: Java
       media:
         - url: http://www.freecol.org/images/screen-0.8.0-large.jpg
           image: http://www.freecol.org/images/screen-0.8.0-small.jpg
@@ -4560,7 +4576,8 @@
   clones:
     - url: http://sc2.sourceforge.net/
       name: The Ur-Quan Masters
-      info: active development, C
+      status: active
+      lang: C
       repo: http://sc2.svn.sourceforge.net/viewvc/sc2/
       media:
         - url: http://sc2.sourceforge.net/screenshots/pcintro.jpg
@@ -4575,7 +4592,9 @@
           image: http://sc2.sourceforge.net/screenshots/meleestep_tn.png
     - name: star-control2
       repo: https://github.com/jjimenezg93/star-control2
-      info: active development, C++, MIT
+      status: active
+      lang: C++
+      license: MIT
       added: 2016-04-11
 
 - name: "Star Trek: Voyager – Elite Force"
@@ -4584,7 +4603,9 @@
       added: 2015-04-10
       url: http://www.last-outpost.net/rpg-x/
       repo: https://github.com/UberGames/rpgxEF
-      info: active development, C, GPL2
+      info: active
+      lang: C
+      license: GPL2
       media:
         - image: http://last-outpost.net/wp-content/uploads/2012/08/timewarp.jpg
 
@@ -4593,7 +4614,10 @@
     - url: http://stargus.stratagus.com/
       name: Stargus
       repo: https://code.launchpad.net/stargus
-      info: moderately active development, C++/Lua
+      status: moderately active
+      lang:
+        - C++
+        - Lua
       added: 2013-06-08
 
 - name: "Stunt Car Racer"
@@ -4602,7 +4626,8 @@
       repo: git://git.code.sf.net/p/stuntcarremake/code
       name: Stunt Car Racer Remake
       added: 2015-04-04
-      info: stalled development, C++
+      status: stalled
+      lang: C++
       media:
         - url: https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
 
