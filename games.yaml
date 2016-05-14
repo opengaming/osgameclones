@@ -753,7 +753,9 @@
     - name: Mining Haze
       url: http://sourceforge.net/projects/mininghaze/
       added: 2015-04-15
-      info: halted development, C, GPL2
+      status: halted
+      lang: C
+      license: GPL2
       repo: http://iweb.dl.sourceforge.net/project/mininghaze/mininghaze/0.1/mining-haze-0.1.tar.gz
       media:
         - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177162.jpg
@@ -943,7 +945,8 @@
       added: 2015-08-31
       repo: https://github.com/mordrax/cotwmtor
       url: http://mordrax.github.io/cotwmtor/
-      info: active development, JavaScript, React, Redux, Meteor, MIT
+      info: active development, JavaScript, React, Redux, Meteor
+      license: MIT
 
 - name: Catacomb II
   clones:
@@ -1374,7 +1377,8 @@
           url: http://www.chocolate-doom.org/wiki/images/d/d5/Obituary.png
     - name: ZDoom
       url: http://zdoom.org/
-      info: active development, C
+      status: active
+      lang: C
       repo: http://mancubus.net/svn/zdoom/?op=log&isdir=1&
       media:
         - image: http://zdoom.org/w/images/thumb/7/7e/AltHUD1.png/120px-AltHUD1.png.jpg
@@ -2524,17 +2528,17 @@
     - name: OpenJazz
       url: http://www.alister.eu/jazz/oj/
       repo: https://openjazz.svn.sourceforge.net/svnroot/openjazz/
-      info: sporadic development, C++
+      status: sporadic
+      lang: C++
       added: 2013-05-27
-
 
 - name: "Jedi Knight II: Jedi Outcast"
   clones:
     - name: JediOutcastLinux
       url: https://github.com/xLAva/JediOutcastLinux
       added: 2013-05-28
-      info: active development, playable, C++
-
+      status: active (playable)
+      lang: C++
 
 - name: "Jedi Knight: Jedi Academy"
   clones:
@@ -2800,7 +2804,7 @@
     - name: Gusanos
       url: http://gusanos.sourceforge.net/
       repo: http://sourceforge.net/p/gusanos/code/?source=navbar
-      info: development halted, seems to be playable
+      status: halted (seems to be playable)
       added: 2013-05-27
 
 - name: [Lionheart, Lionheart (video game)]
@@ -2808,7 +2812,9 @@
     - name: Lionheart Remake
       added: 2015-04-12
       repo: https://github.com/DjThunder/lionheart-remake
-      info: active development, Java, GPL2
+      status: active
+      lang: Java
+      license: GPL2
       media:
         - url: https://camo.githubusercontent.com/b9e4f75cc99a4deed81afc6b55a8a5364356384f/687474703a2f2f7777772e62336467732e636f6d2f76362f70726f6a656374732f6c696f6e656e67696e652f73637265656e732f6d696e692f312e706e67
           image: http://www.b3dgs.com/v6/projects/lionengine/screens/1.png
@@ -2914,12 +2920,14 @@
   clones:
     - name: Marble Madness 3d
       repo: https://github.com/davido262/marble-madness-3d
-      info: stalled development, C++
+      status: stalled
+      lang: C++
       added: 2015-04-03
     - name: Trackballs
       url: http://sourceforge.net/projects/trackballs/
       repo: http://trackballs.cvs.sourceforge.net/viewvc/trackballs/
-      info: stalled development, C++
+      status: stalled
+      lang: C++
       added: 2015-04-03
 
 - name: Metroid Prime
@@ -2955,7 +2963,8 @@
   clones:
     - name: Maxit
       repo: http://gamesoft.ca/bestgames/maxit%20-%20src.zip
-      info: Java, no specified licence
+      lang: Java
+      license: no specified licence
       added: 2015-05-09
       media:
         - image: http://gamesoft.ca/bestgames/images/maxit.png
@@ -3589,7 +3598,8 @@
           image: http://www.minetest.net/_media/screenshot_4032289578.png?w=450
     - url: http://manicdigger.sourceforge.net/
       name: Manic Digger
-      info: moderately active development, C#
+      status: moderately active
+      lang: C#
       repo: http://sourceforge.net/p/manicdigger/code/ci/master/tree/
       added: 2013-10-10
       media:
@@ -3694,7 +3704,8 @@
       added: 2015-04-13
       url: http://www2.braingames.getput.com/nether/default.asp
       repo: http://www2.braingames.getput.com/nether/sources.zip
-      info: C++, no specified licence
+      lang: C++
+      license: no specified licence
       media:
         - image: http://www2.braingames.getput.com/nether/images/original00.jpg
         - image: http://www2.braingames.getput.com/nether/images/remake00.jpg
@@ -3795,16 +3806,17 @@
         - image: http://lgames.sourceforge.net/LGeneral/t_ss1.jpg
           url: http://lgames.sourceforge.net/LGeneral/ss1.jpg
 
-
 - name: Paradroid
   clones:
     - name: FreedroidClassic
-      info: development completed, C
+      status: completed
+      lang: C
       url: "http://www.freedroid.org/download/#c46"
     - name: Nighthawk
       url: http://night-hawk.sourceforge.net/
       repo: http://night-hawk.cvs.sourceforge.net/viewvc/night-hawk/
-      info: development halted, playable, C++
+      status: halted (playable)
+      lang: C++
       added: 2013-05-27
       media:
         - image: http://night-hawk.sourceforge.net/nh_intro_1.png
@@ -3931,7 +3943,8 @@
          - url: http://freerails.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
      - name: FreeRails 2
        url: http://freerails2.sourceforge.net/
-       info: halted development, Java
+       status: halted
+       lang: Java
        repo: svn://svn.code.sf.net/p/freerails2/code/
        added: 2015-04-03
        media:
@@ -4634,13 +4647,16 @@
     - name: SuperFoulEgg
       repo: https://github.com/ant512/SuperFoulEgg
       added: 2015-04-05
-      info: stalled development, Objective C, custom licence
+      status: stalled
+      lang: Objective C
+      license: custom licence
 
 - name: [Super Mario, Super Mario (series)]
   clones:
     - name: Mega Mario
       url: http://sourceforge.net/projects/mmario/
-      info: development halted, playable, C++
+      status: halted (playable)
+      lang: C++
       added: 2014-04-16
       media:
         - image: http://a.fsdn.com/con/app/proj/mmario/screenshots/206808.jpg/182/137
@@ -4652,7 +4668,9 @@
     - name: pucpr-ld-mario3
       added: 2015-06-02
       repo: https://github.com/jvlppm/pucpr-ld-mario3
-      info: halted development, <a href='http://en.wikipedia.org/wiki/Construct_%28game_engine%29#Construct_2'>Construct2</a>, no specified licence
+      status: halted development, 
+      framework: Construct2
+      license: no specified licence
     - name: uMario
       added: 2016-03-24
       repo: https://github.com/jakowskidev/uMario_Jakowski
@@ -4720,7 +4738,8 @@
   clones:
     - url: http://freesynd.sourceforge.net/
       name: FreeSynd
-      info: active development, C++
+      status: active
+      lang: C++
       repo: http://freesynd.svn.sourceforge.net/viewvc/freesynd/
       media:
         - image: http://freesynd.sourceforge.net/images/screenshots/thumb.ss1.png
@@ -4889,14 +4908,17 @@
       added: 2015-06-24
       repo: https://xswingplus.svn.codeplex.com/svn
       url: http://xswing.net/
-      info: sporadic development, Java, GPL3
+      status: sporadic
+      lang: Java
+      license: GPL3
 
 - name: [Tempest, Tempest (video game)]
   clones:
     - url: https://github.com/stephank/arashi-js
       name: Arashi-JS
       repo: https://github.com/stephank/arashi-js
-      info: development halted, javascript
+      status: halted
+      lang: JavaScript
       added: 2014-01-12
     - name: Space Twitch
       url: https://github.com/KirbyAu2/SpaceTwitch
@@ -5117,7 +5139,7 @@
     - url: http://taisei-project.org/
       name: Taisai Project
       repo: https://github.com/laochailan/taisei
-      info: halted (playable)
+      status: halted (playable)
       lang: C
       added: 2014-04-16
       media:
@@ -5342,7 +5364,7 @@
       added: 2015-04-04
       repo: https://github.com/DavidGriffith/uninvited
       status: sporadic
-      info: Inform
+      framework: Inform
       license: Artistic License 2.0
 
 - name: [Utopia, "Utopia (video game)"]
@@ -5682,7 +5704,7 @@
     - name: The Zod Engine
       url: http://zod.sourceforge.net/
       repo: http://sourceforge.net/projects/zod/files/
-      info: active development
+      status: active
       media:
         - image: http://zod.sourceforge.net/screenshots/gameplay_13_mini.png
           url: http://zod.sourceforge.net/screenshots/gameplay_13.png
