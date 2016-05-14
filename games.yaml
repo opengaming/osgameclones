@@ -3912,7 +3912,7 @@
     - name: rtype
       repo: https://github.com/leurqum/Rtype
       added: 2015-04-07
-      info: halted development
+      status: halted development
       lang: C++
       license: no licence
 
@@ -3943,24 +3943,32 @@
     - name: Escalade
       added: 2015-04-17
       repo: https://github.com/mdr/escalade
-      info: halted development, Scala, no specified licence
+      status: halted
+      lang: Scala
+      license: no specified licence
     - name: Rampart-Android
       added: 2015-05-29
       repo: https://github.com/dwmai/Rampart-Android
-      info: active development, Android, Java, no specified licence
+      status: active
+      info: Android
+      lang: Java
+      license: no specified licence
 
 - name: "Raptor: Call of the Shadows"
   clones:
     - name: raptor
       added: 2015-05-03
       repo: https://github.com/robgietema/raptor
-      info: halted development, JavaScript, no specified licence
+      status: halted
+      lang: JavaScript
+      license: no specified licence
 
 - name: Redneck Rampage
   clones:
     - name: erampage (EDuke32 fork)
       url: https://code.google.com/p/erampage/
-      info: active development, C
+      status: active
+      lang: C
       repo: https://code.google.com/p/erampage/source/checkout
       added: 2013-05-29
 
@@ -3970,7 +3978,9 @@
       added: 2015-04-25
       url: http://rescue.sourceforge.net/
       repo: http://sf.net/p/rescue/code/
-      info: halted development, Java, GPL2
+      status: halted
+      lang: Java
+      license: GPL2
       media:
         - url: http://rescue.sourceforge.net/screenshots/rescue1.0a_small.png
           image: http://rescue.sourceforge.net/screenshots/rescue1.0a.png
@@ -3994,7 +4004,8 @@
     - name: Rise of the Triad for Linux
       url: http://icculus.org/rott/
       repo: http://svn.icculus.org/rott/trunk/
-      info: sporadic development, C
+      status: sporadic
+      lang: C
       added: 2013-05-27
 
 - name: River Raid
@@ -4002,14 +4013,17 @@
     - name: Ruby Raid
       added: 2015-05-15
       repo: https://github.com/zukunftsalick/ruby-raid
-      info: halted development, Ruby, no specified licence
+      status: halted
+      lang: Ruby
+      license: no specified licence
 
 - name: The Adventures of Robbo
   clones:
     - name: Robbo
       url: http://dizaina.net/z/robbo/
       repo: https://github.com/Zibx/robbo
-      info: active development, JavaScript, playable
+      status: active (playable)
+      lang: JavaScript
       added: 2014-03-21
 
 - name: Road Fighter
