@@ -5240,7 +5240,9 @@
       added: 2015-04-11
       url: https://spaceshipduel.codeplex.com/
       repo: https://spaceshipduel.codeplex.com/SourceControl/latest
-      info: sporadic development, C#, BSD
+      status: sporadic development
+      lang: C#
+      license: BSD
 
 - names:
     - Transport Tycoon
@@ -5248,7 +5250,8 @@
   clones:
     - url: http://www.openttd.org/
       name: OpenTTD
-      info: active development, C++, extremely playable
+      status: active (extremely playable)
+      lang: C++
       repo: http://vcs.openttd.org/svn/timeline
       media:
         - url: http://media.openttd.org/images/screens/1.0/20101010_panswat_tongvorarat.png
@@ -5266,7 +5269,8 @@
       added: 2015-04-12
       url: http://retrospec.sgn.net/game/tranzam
       repo: http://retrospec.sgn.net/download/files/TranzAm.1.1.zip
-      info: halted development, C++
+      status: halted
+      lang: C++
       media:
         - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.2.jpg
           url: http://retrospec.sgn.net/config/screenshots/tranzam.t.2.jpg
@@ -5662,13 +5666,12 @@
         - image: http://www.splashdamage.com/screens_wet/004_s.jpg
           url: http://www.splashdamage.com/screens_wet/004.jpg
 
-
 - name: World of Goo
   clones:
     - name: OpenGoo
       url: http://mandarancio.github.io/OpenGOO/
       repo: https://github.com/Mandarancio/OpenGOO
-      info: active development, not playable
+      status: active (not playable)
       added: 2013-05-29
 
 - names:
@@ -5694,7 +5697,8 @@
           url: http://openxcom.org/wp-content/gallery/v1-0/07_pathpreview.png
     - name: UFO2000
       url: http://ufo2000.sourceforge.net/
-      info: development halted, playable, C++
+      status: halted (playable)
+      lang: C++
       repo: http://sourceforge.net/p/ufo2000/code/1176/tree/
       added: 2013-07-05
       media:
@@ -5853,7 +5857,9 @@
       added: 2015-04-14
       url: http://zaz.sourceforge.net/
       repo: https://zaz.svn.sourceforge.net/svnroot/zaz
-      info: halted development, C++, GPL3
+      status: halted
+      lang: C++
+      license: GPL3
       media:
         - url: https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg/182/137
           image: https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg
@@ -5983,7 +5989,7 @@
     - name: brainblast
       repo: https://github.com/Zitrax/brainblast
       added: 2015-05-18
-      info: sporadic
+      status: sporadic
       lang: C++
       license: no specified licence
 
@@ -6025,7 +6031,7 @@
   reimplementations:
     - url: http://freeciv.wikia.com/
       name: Freeciv
-      info: active
+      status: active
       lang: C
       repo: http://svn.gna.org/viewcvs/freeciv/
       media:
