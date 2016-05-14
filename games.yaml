@@ -3856,18 +3856,28 @@
       repo: https://github.com/zbiq13/Pipemania
       info: halted development, (Lua & Love3D), no specified licence
 
-
 - name: [Pokémon, Pokémon (video game series)]
   clones:
     - name: Tuxemon
       url: http://www.tuxemon.org/
       repo: https://github.com/Tuxemon/Tuxemon
-      info: active development, alpha, playable, Python/Pygame
+      status: active (alpha, playable)
+      lang Python
+      framework: Pygame
       added: 2015-01-21
       media:
         - image: http://www.tuxemon.org/images/featurette-01.png
         - image: http://www.tuxemon.org/images/screenshot-01.png
         - image: http://www.tuxemon.org/images/featurette-02.png
+
+- name: Pokémon Mystery Dungeon
+  clones:
+    - name: "PKMN-FX
+      repo: https://github.com/jonasdemoor/PKMN-FX
+      status: active
+      added: 2016-05-14
+      license: GPL3
+      lang: Java
 
 - name: [Pole Position, Pole Position (video game)]
   clones:
