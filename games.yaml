@@ -2023,11 +2023,16 @@
     - name: Clumsy Bird
       added: 2015-05-02
       repo: https://github.com/ellisonleao/clumsy-bird
-      info: active development, MelonJS, MIT
+      info: active development
+      framework: MelonJS
+      license: MIT
     - name: Hocoslamfy
       added: 2015-06-01
       repo: https://github.com/Nebuleon/hocoslamfy
-      info: halted development, C, SDL, GPL
+      status: halted
+      lang: C
+      framework: SDL
+      license: GPL
       media:
        - image: http://www.gcw-zero.com/images/articles/hocoslamfy-score-shown-2.png
        - raw: <iframe width="420" height="315" src="//www.youtube.com/embed/rPWK6kO3D0M?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -2079,7 +2084,10 @@
       added: 2015-08-31
       url: https://ceva24.github.io/
       repo: https://github.com/Ceva24/ceva24.github.io
-      info: active development, (JavaScript & BackBone.js), no specified licence
+      status: active
+      lang: JavaScript
+      framework: BackBone.js
+      license: no specified licence
 
 - name: [Football Manager, "Football Manager (1982 series)"]
   clones:
@@ -2110,7 +2118,8 @@
     - name: FreeSpace Source Code Project
       url: http://scp.indiegames.us/
       repo: http://svn.icculus.org/fs2open/
-      info: active development, C++
+      status: active
+      lang: C++
       media:
         - url: http://scp.indiegames.us/scn/Diaspora/screen1568.jpg
           image: http://scp.indiegames.us/scn/Diaspora/screen1568_tn.jpg
@@ -2128,7 +2137,10 @@
     - name: back-to-nature-c64-remake
       added: 2015-05-29
       repo: https://github.com/gborp/back-to-nature-c64-remake
-      info: multi-platform, active development, Java, no specified licence
+      info: multi-platform
+      status: active
+      lang: Java
+      license: no specified licence
 
 - names:
     - Frogs and Flies
@@ -2137,7 +2149,9 @@
     - name: Batrachians
       added: 2015-04-16
       url: http://perso.b2b2c.ca/sarrazip/dev/batrachians.html
-      info: halted development, C++, GPL2
+      status: halted
+      lang: C++
+      license: GPL2
       repo: http://perso.b2b2c.ca/sarrazip/dev/batrachians-0.1.6.tar.gz
       media:
         - image: http://perso.b2b2c.ca/sarrazip/dev/images/batrachians-1.png
@@ -2149,7 +2163,9 @@
       added: 2015-04-15
       url: http://sourceforge.net/projects/froggix/
       repo: svn://svn.code.sf.net/p/froggix/code/trunk
-      info: halted development, Python, GPL2
+      status: halted
+      lang: Python
+      license: GPL2
       media:
         - image: https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg
           url: https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg/182/137
@@ -2159,7 +2175,9 @@
     - name: galaxian
       repo: https://github.com/codedrive/galaxian
       added: 2015-05-28
-      info: halted development, ActionScript, no specified licence
+      status: halted
+      lang: ActionScript
+      license: no specified licence
 
 - name: Geometry Wars
   clones:
@@ -2186,14 +2204,17 @@
     - name: freegish
       repo: https://github.com/freegish/freegish
       added: 2015-04-08
-      info: active development, C, custom licence
+      info: active
+      lang: C
+      license: custom licence
 
 - name: Gladiator
   clones:
     - name: Openglad
       url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi
       repo: http://snowstorm.svn.sourceforge.net/viewvc/snowstorm/
-      info: sporadic development, C++
+      status: sporadic
+      lang: C++
       media:
         - url: http://snowstorm.sourceforge.net/screenshots/1.png
           image: http://snowstorm.sourceforge.net/screenshots/1-thumb.png
@@ -2204,12 +2225,12 @@
         - url: http://snowstorm.sourceforge.net/screenshots/4.png
           image: http://snowstorm.sourceforge.net/screenshots/4-thumb.png
 
-
 - name: Glest
   clones:
     - name: Glest Advanced Engine
       url: http://sourceforge.net/projects/glestae/
-      info: sporadic development, C++, playable
+      status: sporadic (playable)
+      lang: C++
       added: 2013-08-04
       media:
         - image: http://a.fsdn.com/con/app/proj/glestae/screenshots/226566.jpg/182/137
@@ -2225,7 +2246,8 @@
       url: http://jotd.pagesperso-orange.fr/gods/index.html
       added: 2015-04-04
       repo: http://jotd.pagesperso-orange.fr/gods/GodsDeluxe-0_8-B.zip
-      info: stalled development, Java
+      status: stalled
+      lang: Java
       media:
         - image: http://jotd.pagesperso-orange.fr/gods/snapshots/classic_level_1/images/view_0000.jpg
 
@@ -2235,7 +2257,9 @@
       added: 2015-04-15
       url: http://www.moddb.com/mods/goldeneye-source
       repo: https://github.com/goldeneye-source/ges-code
-      info: active development, C++, GPL3
+      status: active
+      lang: C++
+      license: GPL3
       media:
         - url: http://media.moddb.com/cache/images/mods/1/5/4506/thumb_300x150/Archives2.jpg
           image: http://media.moddb.com/images/mods/1/5/4506/Archives2.jpg
@@ -2251,7 +2275,8 @@
     - name: The Goonies
       added: 2015-04-13
       url: http://www.braingames.getput.com/goonies/
-      info: C++, no specified licence
+      lang: C++, 
+      license: no specified licence
       repo: http://braingames.jorito.net/goonies/downloads/goonies.src_1.4.1528.tgz
       media:
         - url: http://www.braingames.getput.com/goonies/pics/thumb_screenshot1.jpg
@@ -2269,14 +2294,19 @@
       url: https://github.com/Lyndir/Gorillas
       repo: https://github.com/Lyndir/Gorillas
       added: 2015-04-06
-      info: sporadic development, Objective-C, iOS, Java Research License 1.6
+      status: sporadic
+      lang: Objective-C
+      info: iOS
+      license: Java Research License 1.6
 
 - name: Gravity Wars
   clones:
     - name: Slingshot
       added: 2015-07-23
       url: http://slingshot.wikispot.org/
-      info: Python, playable, halted development, GPL2
+      status: halted (playable)
+      lang: Python
+      license: GPL2
       media:
           - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot1.png
           - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot2.png
@@ -2289,7 +2319,9 @@
       added: 2015-06-28
       url: http://openggs.romanhoegg.ch/
       repo: svn://svn.code.sf.net/p/openggs/code/
-      info: active development, C++, GPL2
+      status: active
+      lang: C++
+      license: GPL2
       media:
         - url: http://a.fsdn.com/con/app/proj/openggs/screenshots/231110.jpg/182/137
           image: http://a.fsdn.com/con/app/proj/openggs/screenshots/231110.jpg
@@ -2307,7 +2339,8 @@
   clones:
     - name: ResidualVM
       url: http://residualvm.org/
-      info: active development, C++
+      status: active
+      lang: C++
       added: 2013-05-27
 
 - name: [Grand Theft Auto, Grand Theft Auto 2]
@@ -2315,7 +2348,8 @@
     - name: OpenGTA
       url: http://ogta.fifengine.de/
       repo: http://ogta.fifengine.de/cvs.html
-      info: development halted, C++
+      status: halted
+      lang: C++
       added: 2015-01-02
 
 - name: Grand Theft Auto 2
