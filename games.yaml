@@ -5687,7 +5687,9 @@
     - name: KnightOfWor
       added: 2015-05-29
       repo: https://github.com/Sanguinik/KnightOfWor
-      info: active development, Java, GPL3
+      status: active
+      lang: Java
+      license: GPL3
 
 - name: Wizardry
   clones:
@@ -5695,7 +5697,9 @@
       added: 2015-04-11
       url: http://wl.lariennalibrary.com/
       repo: http://wl.lariennalibrary.com/uploads/Main/Download/Wizardrylegacy_05_source.zip
-      info: active development, C++, GPL3
+      status: active
+      lang: C++
+      license: GPL3
       media:
         - image: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect.png
           url: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect_thumb.png
@@ -5707,7 +5711,9 @@
     - name: jClassicRPG
       url: http://javacrpg.sourceforge.net/
       added: 2015-04-11
-      info: stalled development, Java, GPL3
+      status: stalled
+      lang: Java
+      license: GPL3
       repo: svn://svn.code.sf.net/p/javacrpg/code/trunk
       media:
         - image: http://javacrpg.sourceforge.net/screenshots/combat_woman.jpg
@@ -5723,7 +5729,8 @@
   clones:
     - url: http://maniacsvault.net/ecwolf/
       name: ECWolf
-      info: active development, C++
+      status: active
+      lang: C++
       repo: https://bitbucket.org/Blzut3/ecwolf
       added: 2015-04-03
       media:
@@ -5734,7 +5741,9 @@
       added: 2015-04-16
       url: http://voxelstein3d.sourceforge.net/
       repo: http://kent.dl.sourceforge.net/project/voxelstein3d/voxelstein3d/0.101/Voxelstein3D_src_0.101.zip
-      info: halted development, C++, MIT
+      status: halted
+      lang: C++
+      license: MIT
       media:
         - url: http://voxelstein3d.sourceforge.net/screen1_small.png
           image: http://voxelstein3d.sourceforge.net/screen1.png
@@ -5747,7 +5756,12 @@
   clones:
     - url: http://etlegacy.com/
       name: "ET: Legacy"
-      info: active development, C, C++, Lua; needs original game files
+      info: needs original game files
+      status: active
+      lang:
+        - C
+        - C++
+        - Lua
       repo: https://github.com/etlegacy/etlegacy
       added: 2013-05-28
       media:
@@ -5807,7 +5821,9 @@
   clones:
     - name: OpenApoc
       added: 2015-04-04
-      info: active development, C++, MIT
+      status: active
+      lang: C++
+      license: MIT
       repo: https://github.com/pmprog/OpenApoc
       url: http://openapoc.pmprog.co.uk/
 
