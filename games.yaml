@@ -2323,7 +2323,8 @@
     - name: gta2net
       url: http://code.google.com/p/gta2net/
       repo: http://code.google.com/p/gta2net/source/browse/trunk
-      info: development halted, C#
+      status: halted
+      lang: C#
       added: 2014-02-05
 
 - name: Gravity Force
@@ -2331,7 +2332,8 @@
     - name: Galaxy Forces V2
       url: http://www.galaxy-forces.com/
       repo: svn://svn.code.sf.net/p/galaxyv2/code/
-      info: active development, C++
+      status: active
+      lang: C++
       added: 2015-04-03
 
 - name: Guitar Hero
@@ -2340,7 +2342,9 @@
       url: http://fretsonfire.sourceforge.net/
       repo: http://sourceforge.net/p/fretsonfire/code/HEAD/tree/trunk/
       added: 2014-08-20
-      info: development halted, playable, Python (look for songs on the <a href="http://fretsonfire.wikidot.com/start">wiki</a>)
+      status: halted (playable)
+      info: (look for songs on the <a href="http://fretsonfire.wikidot.com/start">wiki</a>)
+      lang: Python
       media:
         - image: http://fretsonfire.sourceforge.net/screenshots/thumbnails/fretsonfire1.png
           url: http://fretsonfire.sourceforge.net/screenshots/fretsonfire1.png
@@ -2350,7 +2354,8 @@
       url: https://code.google.com/p/fofix/
       repo: https://github.com/fofix/fofix
       added: 2014-09-19
-      info: active development, playable, Python
+      status: active (playable)
+      lang: Python
       media:
         - raw: <iframe width="420" height="315" src="//www.youtube.com/embed/JBjdzWomC4M?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -2360,7 +2365,9 @@
       added: 2015-05-03
       url: http://whatisblueandfurry.com/hott/halls08.html
       repo: http://whatisblueandfurry.com/hott/Halls08Srcv100.zip
-      info: sporadic development, C#, no specified licence
+      status: sporadic
+      lang: C#
+      license: no specified licence
 
 - name: [Hardwar, Hardwar (video game)]
   clones:
