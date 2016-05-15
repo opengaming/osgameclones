@@ -892,7 +892,13 @@
   clones:
     - name: CaesarIA
       url: https://bitbucket.org/dalerank/caesaria
-      info: active development, C++(game engine), Javascript (game logic,gui), most of original game functionality playable, except war logic
+      repo: https://github.com/dalerank/caesaria-game
+      license: GPL3
+      status: active
+      lang:
+        - C++
+        - JavaScript
+      info: C++ (game engine), Javascript (game logic,gui), most of original game functionality playable, except war logic
       added: 2013-05-27
 
 - name: Call to Power II
@@ -1438,7 +1444,8 @@
       url: http://doomlegacy.sourceforge.net/
       repo: http://sourceforge.net/p/doomlegacy/legacy2/ci/master/tree/
       added: 2014-08-20
-      info: active development, playable, C++
+      status: active (playable)
+      lang: C++
       media:
         - image: http://doomlegacy.sourceforge.net/images/legacy/multibf1.gif
         - image: http://doomlegacy.sourceforge.net/images/legacy/3dfx.gif
@@ -1471,18 +1478,26 @@
     - name: "DOOM-iOS"
       repo: https://github.com/id-Software/DOOM-iOS
       added: 2015-04-12
-      info: halted development, C++, GPL2, iOS
+      status: halted
+      lang: C++
+      license: GPL2
+      info: iOS
 
 - name: [Doom 3, Doom_3]
   clones:
     - name: dhewm3
       added: 2015-07-29
       repo: https://github.com/dhewm/dhewm3
-      info: active development, C++, GPL3
+      status: active
+      lang: C++
+      license: GPL3
     - name: RBDOOM-3-BFG
       added: 2015-07-29
       repo: https://github.com/RobertBeckebans/RBDOOM-3-BFG
-      info: active development, C++, GPL3, BFG edition only
+      info: works with BFG edition only
+      status: active
+      lang: C++
+      license: GPL3
 
 - name: Drugwars
   clones:
@@ -5801,7 +5816,9 @@
     - name: xit
       added: 2015-05-18
       repo: https://github.com/qfel13/xit
-      info: halted development, JavaScript, no specified licence
+      status: halted
+      lang: JavaScript
+      license: no specified licence
 
 - name: Xenon 2 Megablast
   clones:
@@ -5809,7 +5826,9 @@
       added: 2015-04-15
       url: http://phavon.sourceforge.net/
       repo: http://phavon.cvs.sourceforge.net/viewvc/phavon/
-      info: halted development, C, WIP, GPL2
+      status: halted (WIP)
+      lang: C
+      license: GPL2
       media:
         - url: http://phavon.sourceforge.net/snap001_sm.jpg
           image: http://phavon.sourceforge.net/snap001.jpg
@@ -5820,7 +5839,9 @@
       url: http://xpilot.sourceforge.net/
       repo: http://xpilot.cvs.sourceforge.net/viewvc/xpilot/
       added: 2015-04-06
-      info: stalled development, C, GPL2
+      status: stalled development
+      lang: C
+      license: GPL2
       media:
         - image: http://xpilot.sourceforge.net/shots/polybloods1.png
         - image: http://xpilot.sourceforge.net/shots/xpilot_sdl.png
