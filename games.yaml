@@ -4380,7 +4380,7 @@
       added: 2015-04-14
       status: halted
       lang: C++
-      info: Shadowgrounds & Shadowgrounds Survivor Source Code License
+      license: Shadowgrounds & Shadowgrounds Survivor Source Code License
 
 - name: [Simon, Simon (game)]
   clones:
@@ -5118,7 +5118,9 @@
       url: http://www.settlers-android-clone.com/
       repo: https://github.com/jsettlers/settlers-remake
       added: 2015-04-06
-      info: active development, needs original files, Java
+      status: active
+      info: needs original files
+      lang: Java
       media:
         - image: http://www.settlers-android-clone.com/wp-content/gallery/screenshots_win7/SoldiersFighting_1.png
 
@@ -5140,7 +5142,9 @@
       info: active development, JavaScript, custom licence
     - name: Skifree-HTML5-clone
       added: 2015-06-18
-      info: halted development, HTML5, GPL3
+      status: halted
+      framework: HTML5
+      license: GPL3
       repo: https://github.com/andymason/Skifree-HTML5-clone
 
 - name: Slot Racers
@@ -5148,14 +5152,18 @@
     - name: Slot-Racers
       repo: https://github.com/Zillode/Slot-Racers
       added: 2015-06-25
-      info: halted development, C, GPL3
+      status: halted
+      lang: C
+      license: GPL3
 
 - name: Space Station 13
   clones:
     - name: ss13remake
       added: 2015-06-24
       repo: https://github.com/ss13remake/ss13remake
-      info: halted development, C#, GPL3
+      status: halted
+      lang: C#
+      license: GPL3
 
 - name: Star Fox 64
   clones:
