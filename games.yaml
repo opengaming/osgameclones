@@ -1369,10 +1369,12 @@
     - name: Doomsday
       url: http://dengine.net/
       repo: http://deng.git.sourceforge.net/git/gitweb.cgi?p=deng/deng;a=summary
-      info: active development, C
+      status: active
+      lang: C
     - name: Chocolate Doom
       url: http://www.chocolate-doom.org/
-      info: active development, C
+      status: active
+      lang: C
       repo: http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/
       media:
         - image: http://www.chocolate-doom.org/wiki/images/thumb/9/9f/Chocolate-aliens-doom.png/120px-Chocolate-aliens-doom.png
@@ -1481,7 +1483,8 @@
       url: http://dopewars.sourceforge.net/
       repo: http://sourceforge.net/p/dopewars/code/HEAD/tree/
       added: 2013-05-27
-      info: sporadic development, C
+      status: sporadic
+      lang: C
       media:
       - image: http://dopewars.sourceforge.net/screenshots/linux-gtk-multi-small.png
         url: http://dopewars.sourceforge.net/screenshots/linux-gtk-multi.png
@@ -1490,7 +1493,9 @@
     - name: RxWars
       added: 2015-06-25
       repo: https://github.com/gtheilman/RxWars
-      info: active development, JavaScript, no specified licence
+      status: active
+      lang: JavaScript
+      license: no specified licence
 
 - name: Deuteros
   clones:
@@ -1498,7 +1503,8 @@
       repo: svn://svn.code.sf.net/p/deuterosx/code/
       url: http://sourceforge.net/projects/deuterosx/
       added: 2015-04-06
-      info: halted development, C#
+      status: halted
+      lang: C#
 
 - name: Dink Smallwood
   clones:
@@ -1506,7 +1512,9 @@
       added: 2015-04-11
       url: https://www.gnu.org/software/freedink/
       repo: http://git.savannah.gnu.org/cgit/freedink.git
-      info: sporadic development, C, GPL3
+      status: sporadic
+      lang: C
+      license: GPL3
       image:
         - url: https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10_thumbnail.jpg
           image: https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10.jpg
@@ -1519,13 +1527,16 @@
       added: 2015-04-05
       repo: https://github.com/aosyborg/duckhunt
       url: http://pygame.org/project-Duck+Hunt+Remake-2045-.html
-      info: sporadic development, Python
+      status: sporadic
+      lang: Python
       media:
         - image: http://pygame.org/shots/2045.png
           url: http://pygame.org/thumb/8e99204a4dc0d6c55841638c49c750fe.png
     - name: Duck-Rehunt
       repo: https://github.com/Serioussam24/Duck-Rehunt
-      info: halted development, Python, GPL
+      status: halted
+      lang: Python
+      license: GPL
       url: http://pygame.org/project-Duck+Rehunt-1862-.html
       added: 2015-04-11
       media:
@@ -1535,7 +1546,9 @@
       added: 2015-04-11
       url: http://pygame.org/project-Duck+Hunter-1615-.html
       repo: https://app.box.com/shared/zkh7rt575i
-      info: halted development, Python, no licence specified
+      info: halted
+      lang: Python
+      license: no licence specified
       media:
         - image: http://pygame.org/shots/1615.png
           url: http://pygame.org/thumb/9d1fd15254c8d7ae6425d0daffc887cd.png
@@ -1543,7 +1556,9 @@
       added: 2015-05-28
       repo: https://github.com/grosbouddha/duckhunt
       url: http://grosbouddha.github.io/duckhunt/
-      info: halted development, JavaScript, no specified licence
+      status: halted
+      lang: JavaScript
+      license: no specified licence
 
 - name: [Duke Nukem, Duke Nukem (video game)]
   clones:
@@ -2478,14 +2493,20 @@
     - name: HoverRace
       repo: https://github.com/HoverRace/HoverRace
       added: 2015-04-08
-      info: active development, C++, custom license (GrokkSoft HoverRace SourceCode License v1.0)
+      status: active
+      lang: C++
+      license: custom license (GrokkSoft HoverRace SourceCode License v1.0)
 
 - name: Hovertank 3D
   clones:
     - name: Hovertank3D
       repo: https://github.com/FlatRockSoft/Hovertank3D
       added: 2015-04-07
-      info: finished development, C & Assembly, GPL2
+      status: finished development
+      lang:
+        - C
+        - Assembly
+      license: GPL2
 
 - name: [Imperialism, "Imperialism (video game)"]
   clones:
@@ -2493,7 +2514,9 @@
       repo: https://github.com/Trilarion/Imperialism-Remake
       url: http://remake.twelvepm.de/
       added: 2015-04-05
-      info: active development, Python, GPL3
+      status: active
+      lang: Python
+      license: GPL3
       media:
         - image: http://remake.twelvepm.de/wp/wp-content/uploads/2014/04/EditorScreen.0.1.0.jpg
           url: http://remake.twelvepm.de/wp/wp-content/uploads/2014/04/EditorScreen.0.1.0-150x150.jpg
@@ -2503,7 +2526,8 @@
     - name: Open Imperium Galactica
       url: https://github.com/akarnokd/open-ig
       repo: https://github.com/akarnokd/open-ig
-      info: occasional development, playable, Java
+      status: occasional (playable)
+      lang: Java
       added: 2013-12-11
       media:
         - image: http://open-ig.googlecode.com/svn/trunk/open-ig/src/hu/openig/gfx/OpenIG_Splash_medium.png
@@ -2515,7 +2539,9 @@
   clones:
     - name: Interstate Outlaws
       added: 2015-07-04
-      info: halted development, Python, GPL
+      status: halted
+      lang: Python
+      license: GPL
       url: http://www.interstateoutlaws.com/
       repo: http://www.interstateoutlaws.com/downloads/Outlaws-0.1.1a-linux.tar.gz
       media:
@@ -5767,7 +5793,9 @@
     - name: Ajax3d
       url: http://ajax3d.sourceforge.net/
       added: 2015-10-09
-      info: halted development, JavaScript, GPL2
+      status: halted
+      lang: JavaScript
+      license: GPL2
       repo: http://ajax3d.cvs.sourceforge.net/viewvc/ajax3d/
       media:
         - url: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113223.jpg/182/137
@@ -5789,7 +5817,10 @@
     - name: Solarus
       url: http://www.solarus-games.org/
       repo: https://github.com/christopho/solarus
-      info: active development, C++/Lua
+      status: active
+      lang:
+        - C++
+        - Lua
       added: 2013-05-28
       media:
         - image: http://www.zelda-solarus.com/images/zsdx/dungeon1_outside.png
@@ -5798,7 +5829,12 @@
     - name: lttp-phaser
       added: 2015-05-28
       repo: https://github.com/englercj/lttp-phaser
-      info: active development, (JavaScript, WebGL & Phaser), MIT
+      status: active
+      lang: JavaScript
+      framework:
+        - WebGL
+        - Phaser
+      license: MIT
 
 - name: [Z, Z (video game)]
   clones:
@@ -6215,7 +6251,7 @@
       url: http://www.txori.com/?static2/frontier
       added: 2015-04-08
       lang: C
-      info: no specified licence, 
+      license: no specified licence
       info: PSP port
       media:
         - image: http://www.txori.com/data/images/frontier/icon.png
