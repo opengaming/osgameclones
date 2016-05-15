@@ -1662,9 +1662,12 @@
 - name: Dungeon Keeper 2
   reimplementations:
     - name: OpenKeeper
-      url: https://github.com/tonihele/OpenKeeper
+      framework: JMonkeyEngine
       repo: https://github.com/tonihele/OpenKeeper
-      info: active development; Java; needs original game files; not playable yet; GPLv3
+      status: active (not playable yet)
+      lang: Java
+      info: needs original game files
+      license: GPLv3
 
 - name: [Dungeon Master, Dungeon Master (video game)]
   clones:
@@ -1799,7 +1802,8 @@
       url: http://www.dungeoneye.net/
       repo: https://github.com/iliak/dungeoneye
       added: 2013-05-27
-      info: sporadic development, C#
+      status: sporadic
+      lang: C#
       media:
         - image: http://www.dungeoneye.net/wp-content/uploads/2011/03/forest-300x187.png
           url: http://www.dungeoneye.net/wp-content/uploads/2011/03/forest.png
@@ -1982,17 +1986,26 @@
     - name: DarkFO
       added: 2015-12-30
       url: https://github.com/darkf/darkfo
-      info: active development, (JavaScript & Python), not playable, needs game data, Apache License
+      status: active (not playable)
+      lang:
+        - JavaScript
+        - Python
+      info: needs original game data
+      license: Apache License
     - name: Falltergeist
       url: https://falltergeist.org/
       repo: https://github.com/alexeevdv/falltergeist
-      info: active (not playable, needs game data)
+      status: active (not playable, needs game data)
       lang: C++
     - name: parpg
       added: 2016-02-08
       url: http://blog.parpg.net/
       repo: http://parpg-trac.cvsdude.com/parpg/browser
-      info: halted development, (Python, FOSS & C++), GPL
+      status: halted
+      lang:
+        - Python
+        - C++
+      license: GPL
       media:
         - url: http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg/182/137
           image: http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg
@@ -2050,7 +2063,7 @@
     - name: Clumsy Bird
       added: 2015-05-02
       repo: https://github.com/ellisonleao/clumsy-bird
-      info: active development
+      status: active development
       framework: MelonJS
       license: MIT
     - name: Hocoslamfy
@@ -3047,14 +3060,20 @@
     - name: urde
       added: 2016-03-08
       repo: https://github.com/AxioDL/urde
-      info: active development, (engine only), C++ and Python, MIT
+      status: active
+      info: engine only
+      lang:
+        - C++
+        - Python
+      license: MIT
 
 - name: Missile Command
   clones:
     - name: Missile Command
       url: https://github.com/chadpaulson/missile-command
       repo: https://github.com/chadpaulson/missile-command
-      info: development halted, playable, Lua
+      status: halted (playable)
+      lang: Lua
       added: 2014-08-16
       media:
         - raw: <iframe width="320" height="240" src="//www.youtube.com/embed/DviEWbUvv2Y?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -3993,7 +4012,7 @@
     - name: grid-leader
       added: 2015-06-22
       repo: https://github.com/jonathanopalise/grid-leader
-      info: halted
+      status: halted
       lang: Python
       framework: Panda3D
       license: no specified licence
@@ -4408,7 +4427,7 @@
 - name: [Seven Kingdoms, Seven Kingdoms (computer game)]
   clones:
     - name: "Seven Kingdoms: Ancient Adversaries"
-      info: active
+      status: active
       lang: C++
       url: http://7kfans.com/
       repo: http://7kfans.com/git/?p=7kaa.git;a=summary
@@ -5158,13 +5177,17 @@
       media:
         - image: http://www.blockattack.net/images/blockattack-2.0.0-1.png
 
-
 - name: Theme Hospital
   clones:
     - url: http://forums.corsixth.com/
       name: CorsixTH
-      info: active development, time-based releases, C++, Lua, SDL 2
+      status: active development, time-based releases
+      lang:
+        - C++
+        - Lua
+      framework: SDL2
       repo: https://github.com/CorsixTH
+      license: (AS-IS) licence
       media:
         - raw: <embed src="http://www.youtube.com/v/4OvNZjoe_JE&amp;rel=0" type="application/x-shockwave-flash" id="swfContainer0" wmode="opaque" base="http://www.youtube.com/v/" height="360" width="100%">
         - url: http://th.corsix.org/CorsixTH08.jpg
@@ -5178,14 +5201,21 @@
       added: 2015-07-04
       url: http://sourceforge.net/projects/tpb3d/
       repo: svn://svn.code.sf.net/p/tpb3d/code/trunk
-      info: halted development, (C++, OpenGL, SDL), GPL2
+      status: halted
+      lang: C++
+      framework:
+        - OpenGL
+        - SDL
+      license: GPL2
 
 - name: [Thromolus, "http://hol.abime.net/1386"]
   clones:
     - name: thromolusng
       added: 2015-06-22
       repo: https://github.com/segfaulthunter/thromolusng
-      info: halted development, Python, GPL3
+      status: halted
+      lang: Python
+      license: GPL3
 
 - name: [Thrust, Thrust (video game)]
   clones:
@@ -5193,7 +5223,9 @@
       added: 2015-04-15
       url: https://www.lysator.liu.se/~peda/thrust/
       repo: https://www.lysator.liu.se/~peda/thrust/src/
-      info: halted development, C, GPL2
+      status: halted
+      lang: C
+      license: GPL2
       media:
         - image: https://www.lysator.liu.se/~peda/thrust/thrust.gif
   reimplementations:
@@ -5201,7 +5233,9 @@
       url: http://www2.braingames.getput.com/transballgl/default.asp
       added: 2015-05-10
       repo: http://transball.googlecode.com/svn/trunk/
-      info: halted development, C++, GPL2
+      status: halted
+      lang: C++
+      license: GPL2
       media:
         - image: http://www2.braingames.getput.com/transballgl/images/tgl-ss4.jpg
         - image: http://www2.braingames.getput.com/transballgl/images/tgl-ss5.jpg
@@ -5211,7 +5245,9 @@
       added: 2015-05-10
       url: http://www2.braingames.getput.com/stransball2/default.asp
       repo: http://www2.braingames.getput.com/stransball2/downloads/stransball2-v15-windows.zip
-      info: finished development, C++, GPL3
+      status: finished development
+      lang: C++
+      license: GPL3
       media:
         - image: http://www2.braingames.getput.com/stransball2/tittle.jpg
         - image: http://www2.braingames.getput.com/stransball2/selection.jpg
