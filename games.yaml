@@ -945,7 +945,12 @@
       added: 2015-08-31
       repo: https://github.com/mordrax/cotwmtor
       url: http://mordrax.github.io/cotwmtor/
-      info: active development, JavaScript, React, Redux, Meteor
+      status: active
+      lang: JavaScript
+      framework:
+        - React
+        - Redux
+        - Meteor
       license: MIT
 
 - name: Catacomb II
@@ -985,7 +990,9 @@
     - name: Duck Marines
       url: http://tangramgames.dk/games/duckmarines/
       repo: https://github.com/SimonLarsen/duckmarines
-      info: active development, playable, Lua, music is CC-BY-NC-ND
+      status: active (playable)
+      lang: Lua
+      info: music is CC-BY-NC-ND
       added: 2014-07-23
       media:
         - url: http://tangramgames.dk/games/duckmarines/images/teaser.png
@@ -1786,7 +1793,8 @@
   clones:
     - name: X-Moto
       url: http://xmoto.tuxfamily.org/
-      info: active development, playable, C++
+      status: active (playable)
+      lang: C++
       added: 2014-06-16
 
 - name: "The Elder Scrolls: Arena"
@@ -1794,11 +1802,15 @@
     - name: opentesarena
       added: 2015-06-25
       repo: https://github.com/trankas/opentesarena
-      info: halted development, Python, no specified licence
+      status: halted
+      lang: Python
+      license: no specified licence
     - name: opentesarenapp
       added: 2015-06-25
       repo: https://github.com/trankas/opentesarenapp
-      info: halted development, C++, no specified licence
+      status: halted
+      lang: C++
+      license: no specified licence
 
 - name: "The Elder Scrolls II: Daggerfall"
   clones:
