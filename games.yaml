@@ -2499,26 +2499,27 @@
         - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9153.jpg/182/137
           url: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9153.jpg
 
-
 - name: Heroes of Might and Magic II
   clones:
     - name: fheroes2
       url: http://sourceforge.net/projects/fheroes2/
       repo: http://fheroes2.svn.sourceforge.net/viewvc/fheroes2/
-      info: active development, C++
+      status: active
+      lang: C++
       media:
         - image: http://sourceforge.net/dbimage.php?id=171624
           url: http://sourceforge.net/dbimage.php?id=171624
         - image: http://sourceforge.net/dbimage.php?id=191635
           url: http://sourceforge.net/dbimage.php?id=191635
 
-
 - name: Heroes of Might and Magic III
   clones:
     - name: Ancient Beast
       url: http://AncientBeast.com
       repo: https://github.com/FreezingMoon/AncientBeast
-      info: active development, playable, HTML5, javascript
+      status: active (playable)
+      framework: HTML5
+      lang: JavaScript
       media:
         - image: http://ancientbeast.com/images/thumbs/screenie1.png
           url: http://ancientbeast.com/media/?type=screenshots#id=0
@@ -2547,7 +2548,9 @@
     - name: Vorton
       added: 2015-05-03
       url: http://vorton.sourceforge.net/
-      info: halted development, C, GPL3
+      status: halted
+      lang: C
+      license: GPL3
       repo: http://iweb.dl.sourceforge.net/project/vorton/Vorton-Source/Beta-2/vorton-src-beta2.zip
       media:
         - url: http://vorton.sourceforge.net/sshot2.png
@@ -2690,11 +2693,13 @@
     - name: JediAcademyLinux
       url: https://github.com/xLAva/JediAcademyLinux
       added: 2013-05-28
-      info: active development, playable, C++
+      status: active (playable)
+      lang: C++
     - name: OpenJK
       url: https://github.com/JACoders/OpenJK
       added: 2014-08-15
-      info: active development, playable, C++
+      status: active (playable)
+      lang: C++
 
 - name: "Jet-Story"
   clones:
@@ -2897,21 +2902,30 @@
       added: 2015-07-12
       url: http://nlarn.sourceforge.net/
       repo: git://git.code.sf.net/p/nlarn/git nlarn-git
-      info: active development, (C & Lua), GPL2
+      status: active
+      lang:
+        - C
+        - Lua
+      license: GPL2
 
 - name: [Legion, "http://www.mobygames.com/game/legion__"]
   clones:
     - name: legion
       added: 2015-06-22
       repo: https://github.com/mahho/legion
-      info: halted development, (C++ & Irrlict), custom (AS-IS) licence
+      status: halted
+      lang: C++
+      framework: Irrlict
+      license: custom (AS-IS) licence
 
 - name: [Lego Rock Raiders, Lego Rock Raiders (video game)]
   clones:
     - name: rock-raiders-remake
       added: 2015-09-21
       repo: https://github.com/rystills/rock-raiders-remake
-      info: active development, JavaScript, no specified licence
+      status: active
+      lang: JavaScript
+      license: no specified licence
 
 - name: [The Lord of the Rings Volume 1, "J.R.R. Tolkien's The Lord of the Rings, Vol. I (1990 video game)"]
   clones:
@@ -2919,23 +2933,25 @@
       url: http://www.wonderland.cz/lotr/
       repo: http://git.wonderland.cz/lotr/
       added: 2013-05-27
-      info: development halted, playable, C
+      status: halted (playable)
+      lang: C
       media:
         - image: http://media.wonderland.cz/stockphoto/cache/thumbs/2008/11/16/lotr1.png
           url: http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr1.png
         - image: http://media.wonderland.cz/stockphoto/cache/thumbs/2008/11/16/lotr2.png
           url: http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr2.png
 
-
 - name: Liero
   clones:
     - name: OpenLiero
       url: http://code.google.com/p/liero/
-      info: development halted, C++
+      status: halted
+      lang: C++
       repo: http://code.google.com/p/liero/source/list
     - name: OpenLieroX
       url: http://www.openlierox.net/
-      info: active development, C++
+      status: active
+      lang: C++
       repo: https://github.com/albertz/openlierox
       media:
         - url: http://www.openlierox.net/official/screenshots/olx2.png
@@ -2973,7 +2989,10 @@
     - name: twin-e
       url: https://code.google.com/p/twin-e/
       repo: https://code.google.com/p/twin-e/source/browse/
-      info: sporadic development, playable, needs game data, C, GPL
+      status: sporadic (playable)
+      info: needs game data
+      lang: C
+      license: GPL
       added: 2014-11-09
 
 - name: [Locomotion (Amiga 1992), "http://www.mobygames.com/game/locomotion"]
@@ -2981,18 +3000,23 @@
     - name: Pendomotion
       added: 2015-07-14
       repo: https://github.com/Pafycio/Pendomotion
-      info: active development, Python, no specified licence
+      status: active
+      lang: Python
+      license: no specified licence
 
 - name: Lode Runner
   clones:
     - name: XScavenger
       url: http://www.xdr.com/dash/scavenger.html
-      info: development halted, playable, C
+      status: halted (playable)
+      lang: C
       added: 2014-01-12
     - name: Lode Runner - Total Recall
       url: http://loderunnerwebgame.com/LodeRunner/
       repo: https://github.com/SimonHung/LodeRunner_TotalRecall
-      info: active development, HTML5, no specified licence
+      status: active
+      framework: HTML5
+      license: no specified licence
       added: 2015-08-15
 
 - name: ["Log!cal", "http://hol.abime.net/906"]
@@ -3000,12 +3024,17 @@
     - name: Orbium
       url: http://bni.github.io/orbium/
       repo: https://github.com/bni/orbium
-      info: sporadic development, HTML5/JS, playable, GPL2
+      status: sporadic (playable)
+      framework: HTML5
+      lang: JavaScript
+      license: GPL2
       added: 2014-08-20
     - name: Pathological
       added: 2015-04-16
       url: http://pathological.sourceforge.net/
-      info: halted development, Python, GPL2
+      status: halted
+      lang: Python
+      license: GPL2
       repo: http://pathological.cvs.sourceforge.net/viewvc/pathological/
       media:
         - url: http://pathological.sourceforge.net/screenshots/intro-small.jpg
@@ -3164,7 +3193,10 @@
       url: https://github.com/openmoh/openmohaa
       added: 2015-04-11
       repo: https://github.com/openmoh/openmohaa
-      info: sporadic development, based on ioquake3 (not playable yet), C, GPL2
+      info: based on ioquake3
+      status: sporadic (not playable yet)
+      lang: C
+      framework: GPL2
       media:
         - url: https://a.fsdn.com/con/app/proj/openmohaa/screenshots/282379.jpg/182/137
           image: https://a.fsdn.com/con/app/proj/openmohaa/screenshots/282379.jpg
@@ -3339,13 +3371,19 @@
     - name: Google Pacman
       repo: https://github.com/livingston/google-pacman
       url: http://livingston.github.io/google-pacman/
-      info: finished development, (JavaScript & Flash), no specified licence
+      status: finished
+      lang: JavaScript
+      framework: Flash
+      license: no specified licence
       added: 2015-05-20
     - name: pacman
       added: 2015-05-20
       repo: https://github.com/snozza/pacman
       url: http://hacman.herokuapp.com/
-      info: active development, (HTM5 & JavaScript), no specified licence
+      status: active development
+      framework: HTML5
+      lang: JavaScript
+      license: no specified licence
     - name: jspacman-canvas
       repo: https://github.com/hguillermo/jspacman-canvas
       added: 2015-05-20
@@ -3656,7 +3694,8 @@
   clones:
     - url: http://openmoo2.org/en/
       name: OpenMOO2
-      info: moderately active development, Python
+      status: moderately active
+      lang: Python
       repo: http://repository.openmoo2.org/cgi-bin/hgwebdir.cgi/PUBLIC/
       media:
         - url: http://openmoo2.org/static/20/main-screen-moo2-screenshot.png
@@ -3666,12 +3705,12 @@
         - url: http://openmoo2.org/static/20/colony-moo2-screenshot.png
           image: http://openmoo2.org/static/20/colony-moo2-small.png
 
-
 - name: [M.A.X., Mechanized Assault & Exploration]
   clones:
     - url: http://www.maxr.org/
       name: Mechanized Assault and eXploration Reloaded
-      info: moderately active development, C++
+      status: moderately active
+      lang: C++
       repo: http://www.maxr.org/trac/timeline
       media:
         - url: http://www.maxr.org/images/screenshots/03.jpg
@@ -3726,7 +3765,9 @@
     - name: Executive Man
       repo: https://github.com/CamHenlin/ExecutiveMan
       added: 2015-05-02
-      info: active development, JavaScript, custom licence
+      status: active
+      lang: JavaScript
+      license: custom licence
       media:
         - image: https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png
 
@@ -3736,17 +3777,23 @@
       added: 2015-06-02
       url: http://openmeridian.org
       repo: https://github.com/OpenMeridian/Meridian59
-      info: active development, C, GPL2
+      status: active
+      lang: C
+      license: GPL2
     - name: Meridian 59 Server 105
       added: 2016-03-16
       url: https://www.meridiannext.com
       repo: https://github.com/OpenMeridian105/Meridian59
-      info: active development, C, GPL2
+      status: active
+      lang: C
+      license: GPL2
     - name: Meridian 59 German Server 112
       added: 2016-03-16
       url: http://meridian59.de
       repo: https://github.com/Arantis/Meridian59_112
-      info: active development, C, GPL2
+      status: active
+      lang: C
+      license: GPL2
 
 - name: [Millipede, Millipede (video game)]
   clones:
@@ -3754,7 +3801,9 @@
       added: 2015-04-11
       url: http://pygame.org/project-Monsters+and+Mushrooms-989-.html
       repo: https://github.com/machinezilla/monsters_and_mushrooms
-      info: halted development, Python, GPL2
+      status: halted
+      lang: Python
+      license: GPL2
       media:
         - url: http://pygame.org/thumb/f584b67f81a990a77d8ab6fe90f6faa6.png
           image: http://pygame.org/shots/989.png
@@ -3763,7 +3812,10 @@
   clones:
     - url: http://www.minetest.net/
       name: Minetest
-      info: active development, C/C++
+      status: active
+      lang:
+        - C
+        - C++
       repo: https://github.com/minetest/minetest
       added: 2013-10-10
       media:
@@ -3913,7 +3965,8 @@
     - name: xoreos
       url: https://xoreos.org/
       repo: https://github.com/xoreos/xoreos
-      info: sporadic development, not playable, C++
+      status: sporadic (not playable)
+      lang: C++
       added: 2013-05-28
       media:
         - image: https://xoreos.org/images/NWN_20130528T054618_500.png
@@ -3926,7 +3979,10 @@
       added: 2015-05-10
       url: http://homepage.ntlworld.com/ian.wigley2/nodes_of_yesod_remake.html
       repo: https://github.com/ian-wigley/Nodes-of-Yesod
-      info: halted development, (XNA, C#), no specified licence
+      status: halted
+      framework: XNA
+      lang: C#
+      license: no specified licence
       media:
         - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Nodes.png
         - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Map%20Maker.png
@@ -3937,7 +3993,8 @@
     - name: OpenOMF
       url: http://www.openomf.org/
       repo: https://github.com/omf2097/openomf/
-      info: active development, single player, 2 player and network play are playable, needs free resources from omf2097.com
+      info: single player, 2 player and network play are playable, needs free resources from omf2097.com
+      status: active
       added: 2014-08-16
       media:
         - image: http://www.openomf.org/screenshots/thumb_mainmenu.png
@@ -4853,14 +4910,19 @@
     - name: Atari8bit_StarRaiders
       added: 2015-07-14
       repo: https://github.com/sidneycadot/Atari8bit_StarRaiders
-      info: halted development, reverse engineering project, Assembly
+      status: halted
+      info: reverse engineering project
+      lang: Assembly
 
 - name: [Star Wars (1983 arcade game), Star Wars (1983 video game)]
   clones:
     - name: Star-Wars-III
       added: 2015-06-01
       repo: https://github.com/abhinandanramesh/Star-Wars-III
-      info: finished development (only level 3 implemented), Python, GPL2
+      status: finished
+      lang: only level 3 implemented
+      lang: Python
+      license: GPL2
 
 - name: Starshatter
   clones:
@@ -5024,7 +5086,11 @@
       repo: https://github.com/scottschiller/SURVIVOR
       added: 2015-04-08
       url: http://www.schillmania.com/survivor/
-      info: sporadic development, HTML + CSS + JavaScript, CC BY-NC 3.0
+      status: sporadic
+      framework:
+        - HTML
+      lang: JavaScript
+      license: CC BY-NC 3.0
       media:
         - image: https://www.flickr.com/photos/schill/10177812825/in/album-72157628885315581/player/
 
@@ -5047,7 +5113,9 @@
   clones:
     - name: Syndicate Wars Port
       url: http://swars.vexillium.org/
-      info: playable (no network support), inactive, GPL3, requires original data
+      status: inactive (playable)
+      info: no network support, requires original data
+      license: GPL3
       added: 2013-05-30
       media:
         - image: http://swars.vexillium.org/shots/swars-gnu-1-thumb.jpg
@@ -5067,7 +5135,8 @@
     - name: Open Terraria Rewrite
       added: 2015-04-05
       repo: https://github.com/Shockah/Open-Terraria-Rewrite
-      info: stalled development, WIP, Java
+      status: stalled (WIP)
+      lang: Java
     - name: terrarium
       repo: https://github.com/hydren/terrarium
       added: 2015-06-18
@@ -5079,7 +5148,8 @@
   clones:
     - name: DrCreep
       url: http://creep.sourceforge.net/
-      info: development completed, C++
+      status: completed
+      lang: C++
       repo: https://github.com/segrax/DrCreep
       added: 2013-11-20
       media:
@@ -5093,7 +5163,8 @@
       repo: https://github.com/richcarl/hobbitgfx
       added: 2015-04-05
       url: http://richardcarlsson.blogspot.co.uk/2014/11/the-hobbit-1982-game-graphics-engine-in.html
-      info: actve development, JavaScript
+      status: active
+      lang: JavaScript
       media:
         - image: data:image/png;base64,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
 
@@ -5101,18 +5172,19 @@
   clones:
     - name: LastNinja
       url: http://lastninja.sourceforge.net/
-      info: playable, sporadic development, C++
+      status: sporadic (playable)
+      lang: C++
       repo: https://github.com/segrax/TheLastNinja
       added: 2013-11-20
       media:
         - image: http://lastninja.sourceforge.net/images/lvl1.png
 
-
 - name: The Settlers
   clones:
     - name: Freeserf
       url: http://jonls.dk/freeserf/
-      info: active development, playable, C
+      status: active (playable)
+      lang: C
       repo: https://github.com/freeserf/freeserf
       added: 2012-04-15
       media:
@@ -5122,12 +5194,12 @@
         - image: http://jonls.dk/wp-content/uploads/sett-pre_20100605-3-150x150.jpg
           url: http://jonls.dk/wp-content/uploads/sett-pre_20100605-3.jpg
 
-
 - name: The Settlers II
   clones:
     - url: http://www.siedler25.org/
       name: Return to the Roots
-      info: active development, C++
+      status: active
+      lang: C++
       repo: https://code.launchpad.net/~flosoft/s25rttr/trunk
       media:
         - image: http://www.siedler25.org/thumbnail.php?file=/gallery/2011/2011.01.19_12.jpg
@@ -5199,14 +5271,20 @@
     - name: UnnamedStarFoxClone
       added: 2015-06-18
       repo: https://github.com/ChristianBorst/UnnamedStarFoxClone
-      info: active development, (C# & Unity), no specified licence
+      status: active
+      lang: C#
+      framework: Unity
+      license: no specified licence
 
 - name: ["Stratosphere: Conquest of the Skies", "http://www.mobygames.com/game/windows/stratosphere-conquest-of-the-skies"]
   clones:
     - name: openStrato
       repo: https://github.com/gerdl/openStrato
       added: 2015-06-18
-      info: active development, (JavaScript & WebGL), GPL2
+      status: active
+      lang: JavaScript
+      framework: WebGL
+      license: GPL2
 
 - name: [Swing, Swing (video game)]
   clones:
@@ -5257,7 +5335,9 @@
     - url: https://github.com/sharpobject/panel-attack
       name: Panel Attack
       repo: https://github.com/sharpobject/panel-attack
-      info: active development, Lua, playable, basic networking support
+      info: basic networking support
+      status: active (playable)
+      lang: Lua
       added: 2013-05-27
     - url: http://www.nongnu.org/crack-attack/
       name: Crack Attack!
@@ -5383,7 +5463,9 @@
   clones:
     - url: http://opentitus.wikia.com/wiki/OpenTitus_Wiki
       name: OpenTitus
-      info: sporadic development, C, SDL
+      status: sporadic
+      lang: C
+      framework: SDL
       repo: https://github.com/stople/OpenTitus
       added: 2014-02-04
       media:
@@ -5625,7 +5707,9 @@
     - name: gosugh
       added: 2015-05-15
       repo: https://github.com/Amunds/gosugh
-      info: halted development, (Gosu and Chipmunk)
+      status: halted
+      lang: Gosu
+      framework: Chipmunk
       license: MIT
 
 - name: Ultima Online
