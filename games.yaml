@@ -2452,7 +2452,10 @@
     - name: Hardwar
       url: http://www.hardwar.org/
       repo: https://github.com/andrewfenn/Hardwar
-      info: sporadic development, C/C++
+      status: sporadic
+      lang:
+        - C
+        - C++
       added: 2013-05-27
 
 - name: Haunted House
@@ -2460,7 +2463,9 @@
     - name: HauntedHouse
       added: 2015-07-14
       repo: https://github.com/KunoNoOni/HauntedHouse
-      info: finished development, ActionScript, no specified licence
+      status: finished
+      lang: ActionScript
+      license: no specified licence
 
 - name: [Heart of Darkness, "Heart of Darkness (video game)"]
   clones:
@@ -2558,7 +2563,9 @@
       added: 2015-05-03
       repo: https://github.com/oliverdb/Historyline
       url: https://conquertheworldbycode.wordpress.com/nostalgia-2/
-      info: halted development, (Unity, C#)
+      status: halted
+      framework: Unity
+      lang: C#
       media:
         - url: https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png?w=300&h=194
           image: https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png
@@ -2570,7 +2577,8 @@
     - name: Homeworld SDL
       url: http://www.thereisnospork.com/projects/homeworld/
       repo: http://www.thereisnospork.com/projects/homeworld/#download
-      info: development halted, playable
+      status: halted (playable)
+      framework: SDL
       media:
         - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/test01.png
           url: http://www.thereisnospork.com/projects/homeworld/images/test01.png
@@ -3302,7 +3310,8 @@
     - name: Enigma
       url: http://www.nongnu.org/enigma/
       repo: svn://svn.code.sf.net/p/enigma-game/source
-      info: active development, C++
+      status: active
+      lang: C++
       added: 2013-05-27
 
 - name: Pac-Man
@@ -3310,17 +3319,23 @@
     - name: pacman
       added: 2015-05-19
       repo: https://github.com/daleharvey/pacman
-      info: halted development, JavaScript, custom licence
+      status: halted
+      lang: JavaScript
+      license: custom licence
     - name: pacman-canvas
       repo: https://github.com/platzhersh/pacman-canvas
       url: http://pacman.platzh1rsch.ch/
-      info: active development, HTML5, minimal licence
+      status: active
+      framework: HTML5
+      license: minimal licence
       added: 2015-05-19
     - name: pacman
       url: http://harto.github.io/pacman/
       repo: https://github.com/harto/pacman
       added: 2015-05-19
-      info: sporadic development, HTML5, no specified licence
+      status: sporadic
+      framework: HTML5
+      license: no specified licence
     - name: Google Pacman
       repo: https://github.com/livingston/google-pacman
       url: http://livingston.github.io/google-pacman/
@@ -3946,23 +3961,29 @@
       added: 2015-04-13
       url: http://rubyomf2097.rubyforge.org/
       repo: svn://rubyforge.org/var/svn/rubyomf2097
-      info: halted development, Ruby, BSD4
+      status: halted
+      lang: Ruby
+      license: BSD4
 
 - name: [Overflow, "http://amigagamer.blogspot.co.uk/2012/11/overflow-amiga-pipemania-clone.html"]
   clones:
     - name: JOverflow
       added: 2015-06-22
       repo: https://github.com/bluepoke/JOverflow
-      info: halted development, Java, no specified licence
+      status: halted
+      lang: Java
+      license: no specified licence
 
 - name: Panzer General
   clones:
     - name: OpenGeneral
-      info: sporadic development, C++
+      status: sporadic
+      lang: C++
       added: 2012-06-29
       url: "http://sourceforge.net/apps/mediawiki/opengeneral/index.php?title=Main_Page"
     - name: Open Panzer
-      info: active development, HTML5
+      status: active
+      framework: HTML5
       added: 2012-06-29
       url: http://www.linuxconsulting.ro/openpanzer/
       repo: https://github.com/nicupavel/openpanzer
@@ -3972,7 +3993,8 @@
     - name: LGeneral
       url: http://lgames.sourceforge.net/index.php?project=LGeneral
       repo: http://sourceforge.net/p/lgeneral/code/HEAD/tree/trunk/lgeneral/
-      info: development halted (or very sporadic), playable, C
+      status: halted (or very sporadic) (playable)
+      lang: C
       added: 2013-05-30
       media:
         - image: http://lgames.sourceforge.net/LGeneral/t_ss0.jpg
@@ -4807,7 +4829,9 @@
     - name: NStars!
       added: 2015-05-09
       url: http://nstars.sourceforge.net/
-      info: halted development, C#, GPL2
+      status: halted
+      lang: C#
+      license: GPL2
       repo: http://nstars.cvs.sourceforge.net/viewvc/nstars/
       media:
         - image: http://nstars.sourceforge.net/nstars01.png
@@ -4981,7 +5005,10 @@
     - name: Neverball
       url: http://neverball.org/
       added: 2015-12-29
-      info: active development, C++ & SDL, GPL2
+      status: active
+      lang: C++
+      framework: SDL
+      license: GPL2
       repo: http://neverball.org/neverball-1.6.0.tar.gz
       media:
         - image: http://i.imgur.com/4ja9xmS.jpg
@@ -5139,7 +5166,9 @@
     - name: skifree.js
       added: 2015-05-02
       repo: https://github.com/basicallydan/skifree.js
-      info: active development, JavaScript, custom licence
+      status: active
+      lang: JavaScript
+      license: custom licence
     - name: Skifree-HTML5-clone
       added: 2015-06-18
       status: halted
@@ -5241,7 +5270,9 @@
         - image: http://www.nongnu.org/crack-attack/gui-1.1.14-normal.png
     - name: FreeBlocks
       url: https://github.com/dorkster/freeblocks
-      info: active development, C, SDL, playable
+      status: active (playable)
+      lang: C
+      framework: SDL
       added: 2015-02-02
       media:
         - image: http://i.imgur.com/XDBQy0o.png
@@ -5450,6 +5481,17 @@
       media:
         - image: http://taisei-project.org/static/media/taisei_kurumi.png
         - image: http://taisei-project.org/static/media/taisei_mansion.png
+
+- name: TrackMania
+  clones:
+    - name: ManiaDrive
+      url: http://maniadrive.raydium.org/
+      added: 2016-05-16
+      repo: https://sourceforge.net/projects/maniadrive/files/maniadrive/1.2/ManiaDrive-1.2-src.tar.gz
+      lang:
+        - C
+        - PHP
+      license: no license specified
 
 - name: [Transplant, Transplant (video game)]
   clones:
