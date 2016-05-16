@@ -2452,7 +2452,10 @@
     - name: Hardwar
       url: http://www.hardwar.org/
       repo: https://github.com/andrewfenn/Hardwar
-      info: sporadic development, C/C++
+      status: sporadic
+      lang:
+        - C
+        - C++
       added: 2013-05-27
 
 - name: Haunted House
@@ -2460,7 +2463,9 @@
     - name: HauntedHouse
       added: 2015-07-14
       repo: https://github.com/KunoNoOni/HauntedHouse
-      info: finished development, ActionScript, no specified licence
+      status: finished
+      lang: ActionScript
+      license: no specified licence
 
 - name: [Heart of Darkness, "Heart of Darkness (video game)"]
   clones:
@@ -2558,7 +2563,9 @@
       added: 2015-05-03
       repo: https://github.com/oliverdb/Historyline
       url: https://conquertheworldbycode.wordpress.com/nostalgia-2/
-      info: halted development, (Unity, C#)
+      status: halted
+      framework: Unity
+      lang: C#
       media:
         - url: https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png?w=300&h=194
           image: https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png
@@ -2570,7 +2577,8 @@
     - name: Homeworld SDL
       url: http://www.thereisnospork.com/projects/homeworld/
       repo: http://www.thereisnospork.com/projects/homeworld/#download
-      info: development halted, playable
+      status: halted (playable)
+      framework: SDL
       media:
         - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/test01.png
           url: http://www.thereisnospork.com/projects/homeworld/images/test01.png
@@ -5139,7 +5147,9 @@
     - name: skifree.js
       added: 2015-05-02
       repo: https://github.com/basicallydan/skifree.js
-      info: active development, JavaScript, custom licence
+      status: active
+      lang: JavaScript
+      license: custom licence
     - name: Skifree-HTML5-clone
       added: 2015-06-18
       status: halted
@@ -5241,7 +5251,9 @@
         - image: http://www.nongnu.org/crack-attack/gui-1.1.14-normal.png
     - name: FreeBlocks
       url: https://github.com/dorkster/freeblocks
-      info: active development, C, SDL, playable
+      status: active (playable)
+      lang: C
+      framework: SDL
       added: 2015-02-02
       media:
         - image: http://i.imgur.com/XDBQy0o.png
