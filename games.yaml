@@ -2392,7 +2392,7 @@
       lang: C++
       added: 2013-05-27
 
-- name: [Grand Theft Auto, Grand Theft Auto 2]
+- name: [Grand Theft Auto, Grand Theft Auto (video game)]
   clones:
     - name: OpenGTA
       url: http://ogta.fifengine.de/
@@ -2409,6 +2409,15 @@
       status: halted
       lang: C#
       added: 2014-02-05
+
+- name: Grand Theft Auto III
+  clones:
+    - name: OpenRW "Open ReWrite"
+      repo: https://github.com/danhedron/openrw
+      added: 2016-05-18
+      license: GPL3
+      lang: C++
+      status: active
 
 - name: Gravity Force
   clones:
