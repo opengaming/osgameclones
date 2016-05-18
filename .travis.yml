@@ -8,6 +8,7 @@ addons:
   ssh_known_hosts: maia.solovyov.net
 install:
  - pip install cyrax
+ - pip install pyyaml
 script:
  - cyrax
  - test 6000 -lt $(cat _build/index.html | wc -l)
