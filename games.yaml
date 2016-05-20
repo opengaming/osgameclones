@@ -2528,19 +2528,6 @@
 
 - name: Heroes of Might and Magic III
   clones:
-    - name: Ancient Beast
-      url: http://AncientBeast.com
-      repo: https://github.com/FreezingMoon/AncientBeast
-      status: active (playable)
-      framework: HTML5
-      lang: JavaScript
-      media:
-        - image: http://ancientbeast.com/images/thumbs/screenie1.png
-          url: http://ancientbeast.com/media/?type=screenshots#id=0
-        - image: http://ancientbeast.com/images/thumbs/screenie2.png
-          url: http://ancientbeast.com/media/?type=screenshots#id=1
-        - image: http://ancientbeast.com/images/thumbs/screenie3.png
-          url: http://ancientbeast.com/media/?type=screenshots#id=2
     - name: VCMI
       url: http://forum.vcmi.eu/portal.php
       repo: https://github.com/vcmi/vcmi
@@ -2556,6 +2543,22 @@
           url: http://forum.vcmi.eu/album_pic.php?pic_id=40
         - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=41
           url: http://forum.vcmi.eu/album_pic.php?pic_id=41
+  reimplementations:
+    - name: Ancient Beast
+      url: http://AncientBeast.com
+      repo: https://github.com/FreezingMoon/AncientBeast
+      status: active (playable)
+      framework:
+        - HTML5
+        - Phaser
+      lang: JavaScript
+      media:
+        - image: http://ancientbeast.com/images/thumbs/screenie1.png
+          url: http://ancientbeast.com/media/?type=screenshots#id=0
+        - image: http://ancientbeast.com/images/thumbs/screenie2.png
+          url: http://ancientbeast.com/media/?type=screenshots#id=1
+        - image: http://ancientbeast.com/images/thumbs/screenie3.png
+          url: http://ancientbeast.com/media/?type=screenshots#id=2
 
 - name: Highway Encounter
   clones:
