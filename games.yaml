@@ -1493,6 +1493,8 @@
       status: active
       url: https://doom64ex.wordpress.com/
       added: 2016-05-28
+      lang: C
+      license: GPL2
       media:
         - url: https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png?w=150&h=112
           image: https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png
@@ -5710,6 +5712,15 @@
       status: halted (working in progress)
       lang: CoffeeScript
       license: no specified licence
+
+- name: [Turok, Turok (video game)]
+  clones:
+    - name: TurokEX
+      status: stalled
+      repo: https://github.com/svkaiser/TurokEX
+      licence: GPL2
+      lang: C++
+      added: 2016-05-28
 
 - name: Turrican
   clones:
