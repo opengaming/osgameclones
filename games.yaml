@@ -1194,7 +1194,8 @@
       repo: https://github.com/cxong/cdogs-sdl
       status: active (playable)
       lang: C
-      framework: SDL
+      license: GPL2
+      framework: SDL2
       added: 2014-03-08
       media:
         - url: http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/1.png
@@ -2177,6 +2178,22 @@
         - url: http://scp.indiegames.us/scn/Earth%20Defense/in-game01.jpg
           image: http://scp.indiegames.us/scn/Earth%20Defense/in-game01_tn.jpg
 
+- name: [Freelancer, Freelancer (video game)]
+  clones:
+    - name: Librelancer
+      added: 2016-05-23
+      url: https://github.com/CallumDev/Librelancer
+      status: active
+      lang: C#
+      license: MPL1.1, MIT
+      framework:
+        - OpenGL
+      media:
+        - image: https://i.imgur.com/sYzlAh9t.png
+          url: https://i.imgur.com/sYzlAh9.png
+        - image: https://i.imgur.com/xIs46Qzt.png
+          url: https://i.imgur.com/xIs46Qz.png
+
 - names:
     - [Frog!, "http://www.mobygames.com/game/frog"]
     - [Back To Nature, "http://www.mobygames.com/game/frog"]
@@ -2528,19 +2545,6 @@
 
 - name: Heroes of Might and Magic III
   clones:
-    - name: Ancient Beast
-      url: http://AncientBeast.com
-      repo: https://github.com/FreezingMoon/AncientBeast
-      status: active (playable)
-      framework: HTML5
-      lang: JavaScript
-      media:
-        - image: http://ancientbeast.com/images/thumbs/screenie1.png
-          url: http://ancientbeast.com/media/?type=screenshots#id=0
-        - image: http://ancientbeast.com/images/thumbs/screenie2.png
-          url: http://ancientbeast.com/media/?type=screenshots#id=1
-        - image: http://ancientbeast.com/images/thumbs/screenie3.png
-          url: http://ancientbeast.com/media/?type=screenshots#id=2
     - name: VCMI
       url: http://forum.vcmi.eu/portal.php
       repo: https://github.com/vcmi/vcmi
@@ -2556,6 +2560,22 @@
           url: http://forum.vcmi.eu/album_pic.php?pic_id=40
         - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=41
           url: http://forum.vcmi.eu/album_pic.php?pic_id=41
+  reimplementations:
+    - name: Ancient Beast
+      url: http://AncientBeast.com
+      repo: https://github.com/FreezingMoon/AncientBeast
+      status: active (playable)
+      framework:
+        - HTML5
+        - Phaser
+      lang: JavaScript
+      media:
+        - image: http://ancientbeast.com/images/thumbs/screenie1.png
+          url: http://ancientbeast.com/media/?type=screenshots#id=0
+        - image: http://ancientbeast.com/images/thumbs/screenie2.png
+          url: http://ancientbeast.com/media/?type=screenshots#id=1
+        - image: http://ancientbeast.com/images/thumbs/screenie3.png
+          url: http://ancientbeast.com/media/?type=screenshots#id=2
 
 - name: Highway Encounter
   clones:
@@ -7108,6 +7128,17 @@
       status: active
       lang: C#
       license: GPL2
+    - name: Super Mario Bros And Level Editor in C#
+      url: http://www.myandroidonline.com
+      added: 2015-05-25
+      repo: https://github.com/jazzyjester/Mario-Game
+      status: active
+      lang: C#
+      license: MIT
+       media:
+        - image: https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
+          url: https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
+    
 
 - name: Transport Tycoon Deluxe
   reimplementations:
