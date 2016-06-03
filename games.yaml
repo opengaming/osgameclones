@@ -1741,6 +1741,12 @@
         - image: http://simianzombie.com/media/2011/05/1.png
         - image: http://simianzombie.com/media/2011/05/2.png
         - image: http://simianzombie.com/media/2011/05/3.png
+    - name: earth-shaker
+      added: 2016-06-03
+      framework: Unity
+      repo: https://github.com/Palevolg/earth-shaker
+      license: no licence specified
+      status: active
 
 - name: [Eat The Whistle, "Eat the whistle (video game)"]
   clones:
@@ -3326,15 +3332,15 @@
 - name: Need For Speed II SE
   clones:
     - name: NFSIISE
-      url: https://github.com/zaps166/NFSIISE
       repo: https://github.com/zaps166/NFSIISE
-      info: active development, playable, C++/SDL2, requires original files
+      status: active (playable)
+      lang: C++
+      framework: SDL2
+      info: requires original files
       added: 2016-06-02
       media:
-        - url: https://i.imgur.com/ZL3V5XB.jpg
-          image: https://i.imgur.com/ZL3V5XB.jpg
-        - url: https://i.imgur.com/DRyjX57.jpg
-          image: https://i.imgur.com/DRyjX57.jpg
+        - image: https://i.imgur.com/ZL3V5XB.jpg
+        - image: https://i.imgur.com/DRyjX57.jpg
 
 - name: [Night Stalker, Night Stalker (video game)]
   clones:
@@ -4213,6 +4219,16 @@
       lang: Python
       framework: Panda3D
       license: no specified licence
+
+- name: Progress Quest
+  clones:
+    - name: pq2
+      added: 2016-06-03
+      repo: https://github.com/nbollom/pq2
+      lang: C++
+      framework: ncurses
+      licence: GPL3
+      status: active
 
 - name: [Punch-Out!!, Punch-Out!! (arcade game)]
   clones:
