@@ -4223,6 +4223,16 @@
       framework: Panda3D
       license: no specified licence
 
+- name: Progress Quest
+  clones:
+    - name: pq2
+      added: 2016-06-03
+      repo: https://github.com/nbollom/pq2
+      lang: C++
+      framework: ncurses
+      licence: GPL3
+      status: active
+
 - name: [Punch-Out!!, Punch-Out!! (arcade game)]
   clones:
     - name: THREEPunchOut
