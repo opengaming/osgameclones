@@ -14,23 +14,7 @@ Simplest way to contribute:
 [edit games.yaml](https://github.com/piranha/osgameclones/edit/master/games.yaml),
 and then your changes will be submitted as a pull request.
 
-Use this template:
-
-```yaml
-- name: Some Game
-  clones:
-    - name: Some Free Game
-      url: somefreegame.com
-      repo: https://github.com/foobar/SomeFreeGame
-      info: active development, playable, C++
-      added: 2014-04-04
-      media:
-        - url: http://somefreegame.com/img1.jpg
-          image: http://somefreegame.com/img1_thumbnail.jpg
-        - url: http://somefreegame.com/img2.jpg
-          image: http://somefreegame.com/img2_thumbnail.jpg
-        - raw: <iframe width="320" height="240" src="//www.youtube.com/embed/abcdefg1234?rel=0" frameborder="0" allowfullscreen></iframe>
-```
+Please refer to [this template](https://github.com/piranha/osgameclones/blob/master/.github/ISSUE_TEMPLATE.md).
 
 - `name`/`names`: Name of the original game
   - If the game goes under multiple names, or if the clone is inspired by multiple related games, use `names`
