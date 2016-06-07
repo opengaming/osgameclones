@@ -70,9 +70,9 @@
     var game, gameTags;
 
     if (curTag === activeTag) {
-      activeTag = null;
+      activeTag = false;
       document.body.className = '';
-      highlightTags();
+      highlightTags(false);
     } else {
       activeTag = curTag;
       document.body.className = 'tags-active';
@@ -100,10 +100,6 @@
     var style = document.getElementById('tag-style');
     var line = '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; }';
     style.innerHTML = tag ? line : '';
-  }
-
-  function removeClass(nodem, name) {
-    return node.className.split(' ');
   }
 
   function hasClass(node, name) {
