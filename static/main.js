@@ -57,6 +57,7 @@
 (function() {
   var games = document.getElementsByTagName('dd');
   var tags = document.getElementsByClassName('tag');
+  var activeTag;
 
   for (var i = 0, l = tags.length; i < l; i += 1) {
     tags[i].addEventListener('click', onclick);
@@ -64,11 +65,18 @@
 
   function onclick(e) {
     var t = e.target.hasAttribute('data-name') ? e.target : e.target.parentNode;
+    var curTag = t.getAttribute('data-name');
     var parent;
     var game, gameTags;
 
-    if (!hasClass(document.body, 'tags-active')) {
-      document.body.className += ' tags-active';
+    if (curTag === activeTag) {
+      activeTag = null;
+      document.body.className = '';
+      highlightTags();
+    } else {
+      activeTag = curTag;
+      document.body.className = 'tags-active';
+      highlightTags(curTag);
     }
 
     for (var i = 0, len = games.length; i < len; i += 1) {
@@ -76,9 +84,7 @@
       gameTags = game.getAttribute('data-tags').split(' ');
       parent = document.getElementById(game.getAttribute('data-parent'));
 
-      if (gameTags && gameTags.indexOf(t.getAttribute('data-name')) > -1) {
-        highlightTags(t.getAttribute('data-name'));
-
+      if (gameTags && gameTags.indexOf(curTag) > -1) {
         if (!hasClass(game, 'active')) {
           game.className += ' active';
           parent.className += ' active';
@@ -94,6 +100,10 @@
     var style = document.getElementById('tag-style');
     var line = '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; }';
     style.innerHTML = tag ? line : '';
+  }
+
+  function removeClass(nodem, name) {
+    return node.className.split(' ');
   }
 
   function hasClass(node, name) {
