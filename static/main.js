@@ -70,12 +70,12 @@
     var game, gameTags;
 
     if (curTag === activeTag) {
-      activeTag = false;
-      document.body.className = '';
-      highlightTags(false);
+      activeTag = null;
+      removeClass(document.body, 'tags-active');
+      highlightTags(null);
     } else {
       activeTag = curTag;
-      document.body.className = 'tags-active';
+      document.body.className = (document.body.className + 'tags-active').trim();
       highlightTags(curTag);
     }
 
@@ -100,6 +100,11 @@
     var style = document.getElementById('tag-style');
     var line = '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; }';
     style.innerHTML = tag ? line : '';
+  }
+
+  function removeClass(node, name) {
+    var re = new RegExp('(?:^|\\s)' + name + '(?!\\S)', 'g');
+    return node.className = node.className.replace(re, '');
   }
 
   function hasClass(node, name) {
