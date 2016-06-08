@@ -110,7 +110,7 @@
 
   function removeClass(node, name) {
     var re = new RegExp('(?:^|\\s)' + name + '(?!\\S)', 'g');
-    return node.className = node.className.replace(re, '');
+    return node.className = node.className.replace(re, '').trim();
   }
 
   function hasClass(node, name) {
