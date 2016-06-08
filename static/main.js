@@ -86,12 +86,12 @@
 
       if (gameTags && gameTags.indexOf(curTag) > -1) {
         if (!hasClass(game, 'active')) {
-          game.className += ' active';
-          parent.className += ' active';
+          addClass(game, 'active');
+          addClass(parent, 'active');
         }
       } else if (hasClass(game, 'active')) {
-        game.className = game.className.replace('active', '').trim();
-        parent.className = parent.className.replace('active', '').trim();
+        removeClass(game, 'active');
+        removeClass(parent, 'active');
       }
     }
   }
