@@ -75,7 +75,7 @@
       highlightTags(null);
     } else {
       activeTag = curTag;
-      document.body.className = (document.body.className + 'tags-active').trim();
+      addClass(document.body, 'tags-active');
       highlightTags(curTag);
     }
 
@@ -100,6 +100,12 @@
     var style = document.getElementById('tag-style');
     var line = '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; }';
     style.innerHTML = tag ? line : '';
+  }
+
+  function addClass(node, name) {
+    if (!hasClass(node, name)) {
+      return node.className = (node.className + ' ' + name).trim();
+    }
   }
 
   function removeClass(node, name) {
