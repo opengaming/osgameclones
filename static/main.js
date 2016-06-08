@@ -71,11 +71,11 @@
 
     if (curTag === activeTag) {
       activeTag = null;
-      removeClass(document.body, 'tags-active');
+      document.body.classList.remove('tags-active');
       highlightTags(null);
     } else {
       activeTag = curTag;
-      addClass(document.body, 'tags-active');
+      document.body.classList.add('tags-active');
       highlightTags(curTag);
     }
 
@@ -85,13 +85,13 @@
       parent = document.getElementById(game.getAttribute('data-parent'));
 
       if (gameTags && gameTags.indexOf(curTag) > -1) {
-        if (!hasClass(game, 'active')) {
-          addClass(game, 'active');
-          addClass(parent, 'active');
+        if (!game.classList.contains('active')) {
+          game.classList.add('active');
+          parent.classList.add('active');
         }
-      } else if (hasClass(game, 'active')) {
-        removeClass(game, 'active');
-        removeClass(parent, 'active');
+      } else if (game.classList.contains('active')) {
+        game.classList.remove('active');
+        parent.classList.remove('active');
       }
     }
   }
@@ -100,20 +100,5 @@
     var style = document.getElementById('tag-style');
     var line = '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; }';
     style.innerHTML = tag ? line : '';
-  }
-
-  function addClass(node, name) {
-    if (!hasClass(node, name)) {
-      return node.className = (node.className + ' ' + name).trim();
-    }
-  }
-
-  function removeClass(node, name) {
-    var re = new RegExp('(?:^|\\s)' + name + '(?!\\S)', 'g');
-    return node.className = node.className.replace(re, '').trim();
-  }
-
-  function hasClass(node, name) {
-    return node.className.indexOf(name) === -1 ? false : true;
   }
 })();
