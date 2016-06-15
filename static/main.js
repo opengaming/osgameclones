@@ -57,6 +57,7 @@
 (function() {
   var games = document.getElementsByTagName('dd');
   var tags = document.getElementsByClassName('tag');
+  var activeTag;
 
   for (var i = 0, l = tags.length; i < l; i += 1) {
     tags[i].addEventListener('click', onclick);
@@ -64,11 +65,18 @@
 
   function onclick(e) {
     var t = e.target.hasAttribute('data-name') ? e.target : e.target.parentNode;
+    var curTag = t.getAttribute('data-name');
     var parent;
     var game, gameTags;
 
-    if (!hasClass(document.body, 'tags-active')) {
-      document.body.className += ' tags-active';
+    if (curTag === activeTag) {
+      activeTag = null;
+      document.body.classList.remove('tags-active');
+      highlightTags(null);
+    } else {
+      activeTag = curTag;
+      document.body.classList.add('tags-active');
+      highlightTags(curTag);
     }
 
     for (var i = 0, len = games.length; i < len; i += 1) {
@@ -76,16 +84,14 @@
       gameTags = game.getAttribute('data-tags').split(' ');
       parent = document.getElementById(game.getAttribute('data-parent'));
 
-      if (gameTags && gameTags.indexOf(t.getAttribute('data-name')) > -1) {
-        highlightTags(t.getAttribute('data-name'));
-
-        if (!hasClass(game, 'active')) {
-          game.className += ' active';
-          parent.className += ' active';
+      if (gameTags && gameTags.indexOf(curTag) > -1) {
+        if (!game.classList.contains('active')) {
+          game.classList.add('active');
+          parent.classList.add('active');
         }
-      } else if (hasClass(game, 'active')) {
-        game.className = game.className.replace('active', '').trim();
-        parent.className = parent.className.replace('active', '').trim();
+      } else if (game.classList.contains('active')) {
+        game.classList.remove('active');
+        parent.classList.remove('active');
       }
     }
   }
@@ -94,9 +100,5 @@
     var style = document.getElementById('tag-style');
     var line = '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; }';
     style.innerHTML = tag ? line : '';
-  }
-
-  function hasClass(node, name) {
-    return node.className.indexOf(name) === -1 ? false : true;
   }
 })();

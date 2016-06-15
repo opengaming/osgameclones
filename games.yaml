@@ -550,7 +550,6 @@
       framework:
         - Ogre3D
         - EntityX
-      license: no specified licence
 
 - name: "Bard's Tale Contruction Set"
   clones:
@@ -570,7 +569,6 @@
       status: halted (incomplete)
       lang: JavaScript
       framework: CraftyJS
-      license: no specified licence
 
 - name: Bermuda Syndrome
   clones:
@@ -722,7 +720,7 @@
       url: http://tomatoes.sourceforge.net/screenshots.html
       repo: http://kent.dl.sourceforge.net/project/tomatoes/tomatoes/1.5/tomatoes-win32-src-1.5.zip
       added: 2015-05-02
-      status: halted development
+      status: halted
       lang: C++
       license: custom licence
       media:
@@ -775,13 +773,11 @@
       repo: https://github.com/lutzroeder/digger
       status: active
       lang: TypeScript
-      license: no specified licence
     - name: boulder-dash
       added: 2015-05-29
       repo: https://github.com/valeriansaliou/boulder-dash
       status: active
       lang: Java
-      license: no specified licence
 
 - name: [Bratwurst, "http://www.mobygames.com/game/bratwurst"]
   clones:
@@ -799,7 +795,6 @@
       repo: https://github.com/Uvadzucumi/JetLee
       status: active
       lang: C++
-      license: no specified licence
       media:
         - image: https://camo.githubusercontent.com/1bb9d1b6520dbefb609254a3d19b8565ee79e36a/68747470733a2f2f7261772e6769746875622e636f6d2f557661647a7563756d692f6a65746c65652f6d61737465722f7372632f646174612f7363722f7363722d30312e706e67
         - image: https://camo.githubusercontent.com/a6f4b342651016f20950e567b4e4a77eefa7e99c/68747470733a2f2f7261772e6769746875622e636f6d2f557661647a7563756d692f6a65746c65652f6d61737465722f7372632f646174612f7363722f7363722d30322e706e67
@@ -932,7 +927,6 @@
       added: 2015-04-13
       status: halted
       framework: HTML5
-      license: no licence specified
 
 - name: Carmageddon
   clones:
@@ -1052,7 +1046,7 @@
       status: halted (playable)
       lang:
         - JavaScript
-        - Coffeescript
+        - CoffeeScript
       framework: melonJS
       license: MIT
       media:
@@ -1123,7 +1117,6 @@
       repo: https://github.com/ricodejong02/CookieClickerRemake
       status: active
       lang: C#
-      license: no specified licence
 
 - name: [Crazy Cars, Titus Software]
   clones:
@@ -1133,7 +1126,6 @@
       repo: https://www.dropbox.com/s/lad1nm9fvmd3ugs/crazycarsFL.zip
       lang: QuickBASIC
       framework: QB64
-      license: no specified licence
       media:
         - image: http://crazycarscpc.free.fr/images/crazy01.jpg
 
@@ -1284,7 +1276,6 @@
       status: halted
       lang: Python
       framework: Panda3D
-      license: no specified licence
 
 - name:
     - "DesertStrike: Return to the Gulf"
@@ -1336,6 +1327,15 @@
       lang: C
       added: 2014-01-12
 
+  name: [Desperados: Wanted Dead or Alive]
+  clones:
+    - name: OpenDeathValley
+      repo: https://github.com/OpenDeathValley/OpenDeathValley
+      status: sporadic
+      lang: C
+      license: GPL3
+      added: 2016-06-15
+
   name: [Diablo, Diablo (video game)]
   clones:
     - name: freeablo
@@ -1354,7 +1354,6 @@
       status: active
       framework: Unity
       lang: C#
-      license: no specified licence
 
 - name: [Dodger, "http://www.mobygames.com/game/win3x/dodger"]
   clones:
@@ -1363,7 +1362,6 @@
       added: 2015-05-12
       status: halted
       lang: C++
-      license: no specified licence
 
 - name: [Dogs of War, Dogs of War (1989 video game)]
   clones:
@@ -1537,7 +1535,6 @@
       repo: https://github.com/gtheilman/RxWars
       status: active
       lang: JavaScript
-      license: no specified licence
 
 - name: Deuteros
   clones:
@@ -1590,7 +1587,6 @@
       repo: https://app.box.com/shared/zkh7rt575i
       status: halted
       lang: Python
-      license: no licence specified
       media:
         - image: http://pygame.org/shots/1615.png
           url: http://pygame.org/thumb/9d1fd15254c8d7ae6425d0daffc887cd.png
@@ -1600,7 +1596,6 @@
       url: http://grosbouddha.github.io/duckhunt/
       status: halted
       lang: JavaScript
-      license: no specified licence
 
 - name: [Duke Nukem, Duke Nukem (video game)]
   clones:
@@ -1705,7 +1700,6 @@
       added: 2016-04-11
       status: active
       lang: C#
-      license: no specified licence
 
 - name: "DX-Ball"
   clones:
@@ -1745,7 +1739,6 @@
       added: 2016-06-03
       framework: Unity
       repo: https://github.com/Palevolg/earth-shaker
-      license: no licence specified
       status: active
 
 - name: [Eat The Whistle, "Eat the whistle (video game)"]
@@ -1793,7 +1786,6 @@
       status: active
       lang: JavaScript
       framework: WebGL
-      license: no specified licence
       url: http://air.github.io/encounter/
 
 - name: [Entombed!, "Entombed (1982 video game)"]
@@ -1804,7 +1796,6 @@
       repo: ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz
       status: halted
       lang: C
-      license: no specified license
 
 - name: Escape from Colditz
   clones:
@@ -1849,13 +1840,11 @@
       repo: https://github.com/trankas/opentesarena
       status: halted
       lang: Python
-      license: no specified licence
     - name: opentesarenapp
       added: 2015-06-25
       repo: https://github.com/trankas/opentesarenapp
       status: halted
       lang: C++
-      license: no specified licence
 
 - name: "The Elder Scrolls II: Daggerfall"
   clones:
@@ -1908,7 +1897,6 @@
       added: 2015-05-29
       status: active
       lang: Java
-      license: no specified licence
 
 - names:
     - [Exile, Exile (video game series)]
@@ -1951,7 +1939,6 @@
       url: http://www.braingames.getput.com/f1spirit/
       repo: http://braingames.jorito.net/f1spirit/f1spirit.src_0.rc9-1615.tgz
       lang: C++
-      license: no licence specified
       media:
         - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot1.jpg
           image: http://www.braingames.getput.com/f1spirit/pics/screenshot1.jpg
@@ -1980,7 +1967,6 @@
         - JavaScript
         - CoffeeScript
       framework: WebGL
-      license: no specified licence
     - name: Racer
       url: http://sourceforge.net/projects/racer/
       status: active
@@ -2081,7 +2067,6 @@
       repo: https://github.com/jvlppm/pucpr-ld-parodius
       status: halted
       framework: <a href='http://en.wikipedia.org/wiki/Construct_%28game_engine%29#Construct_2'>Construct2</a>
-      license: no specified licence
 
 - name: Flappy Bird
   clones:
@@ -2094,7 +2079,7 @@
     - name: Clumsy Bird
       added: 2015-05-02
       repo: https://github.com/ellisonleao/clumsy-bird
-      status: active development
+      status: active
       framework: MelonJS
       license: MIT
     - name: Hocoslamfy
@@ -2147,7 +2132,6 @@
       added: 2015-04-12
       status: active
       lang: Java
-      license: no specified licence
 
 - name: [Flag Catcher, "http://hol.abime.net/5578"]
   clones:
@@ -2158,7 +2142,6 @@
       status: active
       lang: JavaScript
       framework: BackBone.js
-      license: no specified licence
 
 - name: [Football Manager, "Football Manager (1982 series)"]
   clones:
@@ -2227,7 +2210,6 @@
       info: multi-platform
       status: active
       lang: Java
-      license: no specified licence
 
 - names:
     - Frogs and Flies
@@ -2264,7 +2246,6 @@
       added: 2015-05-28
       status: halted
       lang: ActionScript
-      license: no specified licence
 
 - name: Geometry Wars
   clones:
@@ -2280,7 +2261,6 @@
       url: http://worldofstuart.excellentcontent.com/grid/wars.htm
       repo: http://worldofstuart.excellentcontent.com/grid/GridWars54.zip
       lang: Blitz BASIC
-      license: no specified licence
       media:
         - image: http://worldofstuart.excellentcontent.com/grid/gw1.jpg
         - image: http://worldofstuart.excellentcontent.com/grid/gw2.jpg
@@ -2365,7 +2345,6 @@
       added: 2015-04-13
       url: http://www.braingames.getput.com/goonies/
       lang: C++
-      license: no specified licence
       repo: http://braingames.jorito.net/goonies/downloads/goonies.src_1.4.1528.tgz
       media:
         - url: http://www.braingames.getput.com/goonies/pics/thumb_screenshot1.jpg
@@ -2499,7 +2478,6 @@
       repo: http://whatisblueandfurry.com/hott/Halls08Srcv100.zip
       status: sporadic
       lang: C#
-      license: no specified licence
 
 - name: [Hardwar, Hardwar (video game)]
   clones:
@@ -2519,7 +2497,6 @@
       repo: https://github.com/KunoNoOni/HauntedHouse
       status: finished
       lang: ActionScript
-      license: no specified licence
 
 - name: [Heart of Darkness, "Heart of Darkness (video game)"]
   clones:
@@ -2535,7 +2512,6 @@
       repo: https://github.com/namelivia/open-heavy-smash
       status: halted
       lang: C++
-      license: no specified licence
 
 - name: Hexen II
   clones:
@@ -2776,7 +2752,6 @@
       status: finished
       framework: XNA
       lang: C#
-      license: no specified licence
       media:
         - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Jetpac%20Remake.JPG
         - image: http://homepage.ntlworld.com/ian.wigley2/graphics/XNA%20JetPac%20screen.PNG
@@ -2836,14 +2811,12 @@
       url: http://retrospec.sgn.net/game/jj
       status: halted
       lang: C++
-      license: no licence specified
       repo: http://retrospec.sgn.net/users/nwalker/jack/jj.zip
     - name: "Jumping Jack 2: Worryingly Familiar"
       added: 2015-04-13
       url: http://retrospec.sgn.net/game/jj2
       status: halted
       lang: C++
-      license: no licence specified
       repo: http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip
 
 - name: Jumpman
@@ -2865,7 +2838,6 @@
       status: sporadic
       lang: Lua
       framework: LÖVE
-      license: no specified licence
 
 - name: [Kid Chameleon, Kid Chameleon (video game)]
   clones:
@@ -2874,7 +2846,6 @@
       repo: https://github.com/mp1011/KidChameleonRemake
       status: active
       lang: C#
-      license: no specified licence#
 
 - name: [Knights, Knights (video game)]
   clones:
@@ -2931,7 +2902,6 @@
       url: http://gamesoft.ca/remakes.html
       repo: http://gamesoft.ca/bestgames/ladder_src.zip
       lang: C#
-      license: no specified licence
       media:
         - image: http://gamesoft.ca/bestgames/images/ladder_snp.png
     - name: Ladder
@@ -2982,7 +2952,6 @@
       repo: https://github.com/rystills/rock-raiders-remake
       status: active
       lang: JavaScript
-      license: no specified licence
 
 - name: [The Lord of the Rings Volume 1, "J.R.R. Tolkien's The Lord of the Rings, Vol. I (1990 video game)"]
   clones:
@@ -3059,7 +3028,6 @@
       repo: https://github.com/Pafycio/Pendomotion
       status: active
       lang: Python
-      license: no specified licence
 
 - name: Lode Runner
   clones:
@@ -3073,7 +3041,6 @@
       repo: https://github.com/SimonHung/LodeRunner_TotalRecall
       status: active
       framework: HTML5
-      license: no specified licence
       added: 2015-08-15
     - name: KGoldrunner
       url: https://www.kde.org/applications/games/kgoldrunner/
@@ -3218,7 +3185,6 @@
     - name: Maxit
       repo: http://gamesoft.ca/bestgames/maxit%20-%20src.zip
       lang: Java
-      license: no specified licence
       added: 2015-05-09
       media:
         - image: http://gamesoft.ca/bestgames/images/maxit.png
@@ -3274,9 +3240,8 @@
     - name:  Monty Mole PC remake
       added: 2015-04-13
       url: http://sourceforge.net/projects/montymole/
-      status: halted development
+      status: halted
       lang: C++
-      license: no specified licence
       repo: http://montymole.cvs.sourceforge.net/viewvc/montymole/
       media:
         - image: https://a.fsdn.com/con/app/proj/montymole/screenshots/28062.jpg
@@ -3321,7 +3286,6 @@
       repo: https://github.com/jeff-1amstudios/OpenNFS1
       status: halted
       lang: C#
-      license: no specified licence
       media:
         - image: http://1amstudios.com/img/opennfs1/viper-vertigoridge.jpg
         - image: http://1amstudios.com/img/opennfs1/vette-transtropolis.jpg
@@ -3364,7 +3328,6 @@
       info: Apple TV 4 required
       status: active
       lang: Swift
-      license: no licence found
       media:
         - image: https://cloud.githubusercontent.com/assets/16686245/12429085/98761c3c-bee8-11e5-9399-1f7cc162e9bd.png
 
@@ -3448,23 +3411,20 @@
       added: 2015-05-19
       status: sporadic
       framework: HTML5
-      license: no specified licence
     - name: Google Pacman
       repo: https://github.com/livingston/google-pacman
       url: http://livingston.github.io/google-pacman/
       status: finished
       lang: JavaScript
       framework: Flash
-      license: no specified licence
       added: 2015-05-20
     - name: pacman
       added: 2015-05-20
       repo: https://github.com/snozza/pacman
       url: http://hacman.herokuapp.com/
-      status: active development
+      status: active
       framework: HTML5
       lang: JavaScript
-      license: no specified licence
     - name: jspacman-canvas
       repo: https://github.com/hguillermo/jspacman-canvas
       added: 2015-05-20
@@ -3472,7 +3432,6 @@
       status: halted
       lang: JavaScript
       framework: HTML canvas
-      license: no specified licence
     - name: div-pacman2600
       repo: https://github.com/MikeDX/div-pacman2600
       added: 2016-04-30
@@ -3536,7 +3495,6 @@
       added: 2015-05-09
       repo: http://gamesoft.ca/bestgames/mauvenet_.zip
       lang: C++
-      license: no specified licence
       url: http://gamesoft.ca/remakes.html
       media:
         - image: http://gamesoft.ca/bestgames/images/mauvenet3.png
@@ -3655,7 +3613,6 @@
       repo: svn://svn.icculus.org/LAB3D/trunk
       status: sporadic
       lang: C
-      license: no licence found
       media:
         - image: https://icculus.org/LAB3D/captur00.png
         - image: https://icculus.org/LAB3D/captur04.png
@@ -3687,7 +3644,6 @@
       repo: https://github.com/wonea/magiccarpet
       status: halted
       lang: C++
-      license: no specified licence
       added: 2016-04-20
 
 - name: Manic Miner
@@ -3697,7 +3653,6 @@
       url: http://www.andynoble.co.uk/games.htm
       repo: http://www.andynoble.co.uk/files/ManicBB.zip
       lang: Blitz BASIC
-      license: freeware but no specified licence for source
 
 - names:
     - [Marathon, Marathon_(video_game)]
@@ -3820,7 +3775,7 @@
     - name: MechCommander 2 Omnitech
       added: 2015-04-08
       repo: https://github.com/Echelon9/mechcommander2-open
-      status: halted development
+      status: halted
       lang: C++
       licence: Shared Source Limited Permissive License & GPL
 
@@ -3941,7 +3896,7 @@
       url: http://hematite.piston.rs/
       repo: https://github.com/PistonDevelopers/hematite
       added: 2014-05-04
-      status: active development
+      status: active
       lang: Rust
       license: MIT
       media:
@@ -3970,7 +3925,7 @@
       added: 2015-07-22
       url: http://www.voxelands.com/
       repo: https://gitlab.com/voxelands/voxelands
-      status: active development
+      status: active
       lang: C++
       license: GPLv3
       media:
@@ -3994,7 +3949,6 @@
       status: halted
       lang: F#
       info: iOS
-      license: no specified licence
 
 - name: [Movie Business, "http://www.gamebase64.com/game.php?id=14674&d=18"]
   clones:
@@ -4027,7 +3981,6 @@
       url: http://www2.braingames.getput.com/nether/default.asp
       repo: http://www2.braingames.getput.com/nether/sources.zip
       lang: C++
-      license: no specified licence
       media:
         - image: http://www2.braingames.getput.com/nether/images/original00.jpg
         - image: http://www2.braingames.getput.com/nether/images/remake00.jpg
@@ -4063,7 +4016,6 @@
       status: halted
       framework: XNA
       lang: C#
-      license: no specified licence
       media:
         - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Nodes.png
         - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Map%20Maker.png
@@ -4110,7 +4062,6 @@
       repo: https://github.com/bluepoke/JOverflow
       status: halted
       lang: Java
-      license: no specified licence
 
 - name: Panzer General
   clones:
@@ -4163,7 +4114,6 @@
       repo: http://www.onderstekop.nl/coding/24_Paratrooper_1.2.3.zip
       status: halted
       lang: Python
-      license: no licence specified
       media:
         - image: http://pygame.org/shots/706.jpg
           url: http://pygame.org/thumb/65b19eb3798f52835fe9b4b12f9d69ba.png
@@ -4175,7 +4125,6 @@
       repo: https://github.com/rafael-esper/Phantasy
       status: halted
       lang: Java
-      license: no specified licence
 
 - name: Pipe Mania
   clones:
@@ -4185,7 +4134,6 @@
       status: halted
       lang: Lua
       framework: Love3D
-      license: no specified licence
 
 - name: [Pokémon, Pokémon (video game series)]
   clones:
@@ -4218,7 +4166,6 @@
       status: halted
       lang: Python
       framework: Panda3D
-      license: no specified licence
 
 - name: Progress Quest
   clones:
@@ -4237,7 +4184,6 @@
       repo: https://github.com/MattSzik/THREEPunchOut
       status: active
       lang: JavaScript
-      license: no specified licence
 
 - name: [Pushover, Pushover (video game)]
   clones:
@@ -4289,13 +4235,11 @@
       status: status unavailable
       info: demo only
       lang: C++
-      status: no licence
     - name: rtype
       repo: https://github.com/leurqum/Rtype
       added: 2015-04-07
-      status: halted development
+      status: halted
       lang: C++
-      license: no licence
 
 - name: Railroad_Tycoon
   clones:
@@ -4327,14 +4271,12 @@
       repo: https://github.com/mdr/escalade
       status: halted
       lang: Scala
-      license: no specified licence
     - name: Rampart-Android
       added: 2015-05-29
       repo: https://github.com/dwmai/Rampart-Android
       status: active
       info: Android
       lang: Java
-      license: no specified licence
 
 - name: "Raptor: Call of the Shadows"
   clones:
@@ -4343,7 +4285,6 @@
       repo: https://github.com/robgietema/raptor
       status: halted
       lang: JavaScript
-      license: no specified licence
 
 - name: Redneck Rampage
   clones:
@@ -4399,7 +4340,6 @@
       repo: https://github.com/zukunftsalick/ruby-raid
       status: halted
       lang: Ruby
-      license: no specified licence
 
 - name: The Adventures of Robbo
   clones:
@@ -4529,7 +4469,6 @@
     - name: Scramble
       added: 2015-05-09
       lang: PowerBASIC
-      license: no specified licence
       repo: http://gamesoft.ca/bestgames/scramble_source.zip
       media:
         - image: http://gamesoft.ca/bestgames/images/scrcap06.png
@@ -4541,7 +4480,6 @@
       added: 2015-06-22
       status: sporadic
       lang: C#
-      license: no specified licence
 
 - name: "Shadowgrounds: Survivor"
   clones:
@@ -4635,7 +4573,6 @@
       added: 2015-05-29
       status: sporadic
       lang: JavaFX
-      license: no specified licence
 
 - name: [Seven Kingdoms, Seven Kingdoms (computer game)]
   clones:
@@ -4653,7 +4590,6 @@
       status: sporadic
       info: reverse engineering project
       lang: C
-      license: no specified licence
 
 - name: Shining Soul
   clones:
@@ -4662,7 +4598,6 @@
       repo: https://github.com/CharlieIsMyName/Shining-Soul-Remake
       status: active
       lang: Python
-      license: no specified licence
 
 - name: "Sid Meier's Alpha Centauri"
   clones:
@@ -4895,7 +4830,6 @@
       added: 2015-05-28
       status: halted
       lang: C#
-      license: no specified licence
 
 - name: Speedball 2
   clones:
@@ -5052,7 +4986,6 @@
       repo: http://retrospec.sgn.net/users/nwalker/styx/styx.zip
       status: halted
       lang: C++
-      license: no specified licence
 
 - name: Supaplex
   clones:
@@ -5100,9 +5033,8 @@
     - name: pucpr-ld-mario3
       added: 2015-06-02
       repo: https://github.com/jvlppm/pucpr-ld-mario3
-      status: halted development
+      status: halted
       framework: Construct2
-      license: no specified licence
     - name: uMario
       added: 2016-03-24
       repo: https://github.com/jakowskidev/uMario_Jakowski
@@ -5133,7 +5065,7 @@
     - name: Veraball
       repo: https://github.com/Veraball/veraball
       added: 2015-12-29
-      status: active development
+      status: active
       framework: Gobot
       license: MIT
       media:
@@ -5233,7 +5165,6 @@
       added: 2015-06-18
       status: active
       lang: C++
-      license: no specified licence
 
 - name: The Castles of Dr. Creep
   clones:
@@ -5365,7 +5296,6 @@
       status: active
       lang: C#
       framework: Unity
-      license: no specified licence
 
 - name: ["Stratosphere: Conquest of the Skies", "http://www.mobygames.com/game/windows/stratosphere-conquest-of-the-skies"]
   clones:
@@ -5406,7 +5336,6 @@
       status: active
       lang: Java
       info: Android
-      license: no specified licence
       added: 2015-04-12
 
 - name: [Test Drive, Test Drive (video game)]
@@ -5465,7 +5394,7 @@
   clones:
     - url: http://forums.corsixth.com/
       name: CorsixTH
-      status: active development, time-based releases
+      status: active, time-based releases
       lang:
         - C++
         - Lua
@@ -5664,7 +5593,6 @@
       lang:
         - C
         - PHP
-      license: no license specified
 
 - name: [Transplant, Transplant (video game)]
   clones:
@@ -5722,9 +5650,9 @@
       added: 2015-06-01
       status: halted
       lang:
-        - HTML
         - JavaScript
-      license: no specified licence
+      framework:
+        - HTML
     - name: Tron
       repo: https://github.com/momajd/Tron
       url: http://momajd.github.io/Tron/
@@ -5751,7 +5679,6 @@
       repo: https://github.com/sch/turnabout
       status: halted (working in progress)
       lang: CoffeeScript
-      license: no specified licence
 
 - name: [Turok, Turok (video game)]
   clones:
@@ -5803,14 +5730,6 @@
       repo: https://bitbucket.org/Andy51/ugh-remake.git
       status: halted
       lang: C
-      license: no licence specified
-    - name: gosugh
-      added: 2015-05-15
-      repo: https://github.com/Amunds/gosugh
-      status: halted
-      lang: Gosu
-      framework: Chipmunk
-      license: MIT
 
 - name: Ultima Online
   clones:
@@ -5829,7 +5748,6 @@
       added: 2015-06-01
       status: halted
       lang: JavaScript
-      license: no specified licence
 
 - name: Ultima IV
   clones:
@@ -5936,7 +5854,6 @@
       added: 2015-05-18
       status: halted
       lang: CoffeeScript
-      license: no specified licence
 
 - name: [Warlords II, "Warlords (game series)#Warlords II"]
   clones:
@@ -5977,7 +5894,6 @@
       status: active
       lang: Python
       framework: Pygame
-      license: no specified licence
 
 - name: Warzone 2100
   clones:
@@ -6183,7 +6099,6 @@
       repo: https://github.com/qfel13/xit
       status: halted
       lang: JavaScript
-      license: no specified licence
 
 - name: Xenon 2 Megablast
   clones:
@@ -6303,7 +6218,6 @@
       url: http://gamesoft.ca/remakes.html
       repo: http://gamesoft.ca/bestgames/zoop_src.zip
       lang: Java
-      license: no specified licence
       media:
         - image: http://gamesoft.ca/bestgames/images/zoop_java.png
 
@@ -6313,7 +6227,6 @@
       status: halted (WIP)
       framework: HTML5
       lang: JavaScript
-      license: no specified licence
       repo: https://github.com/andymason/zombie-apocalypse-html5
       added: 2015-05-16
 
@@ -6324,7 +6237,6 @@
       added: 2015-06-01
       status: sporadic
       lang: C++
-      license: no specified licence
 
 - name: [Zuma, Zuma (video game)]
   clones:
@@ -6466,7 +6378,6 @@
       added: 2015-05-18
       status: sporadic
       lang: C++
-      license: no specified licence
 
 - name: [Breakout, Breakout (video game)]
   reimplementations:
@@ -6492,7 +6403,6 @@
       repo: https://github.com/aarnwri/Civ-Remake
       status: active (incomplete)
       lang: Ruby
-      license: no specified licence
     - name: CivOne
       url: http://www.civone.com/
       repo: https://github.com/SWY1985/CivOne
@@ -6660,9 +6570,8 @@
       added: 2015-04-08
       url: http://polarelephant.blogspot.co.uk/2007/10/elite-remake.html
       repo: http://www.mediafire.com/?ddmmswi1ngw
-      status: halted development
+      status: halted
       lang: C
-      license: no specified licence
       media:
         - image: https://1.bp.blogspot.com/_zJ6-FHWQvDE/R0e_NhJFakI/AAAAAAAAACw/tgysRPXJfeU/s400/el-14.jpg
 
@@ -6690,7 +6599,6 @@
       url: http://www.txori.com/?static2/frontier
       added: 2015-04-08
       lang: C
-      license: no specified licence
       info: PSP port
       media:
         - image: http://www.txori.com/data/images/frontier/icon.png
@@ -6814,7 +6722,7 @@
     - name: SuperTuxKart
       url: http://supertuxkart.sourceforge.net/
       repo: https://github.com/supertuxkart/stk-code
-      status: active development, playable
+      status: active, playable
       lang: C++
       added: 2014-05-08
       media:
@@ -6897,7 +6805,6 @@
       repo: ftp://ftp.tuxpaint.org/unix/x/icbm3d/icbm3d.0.4.tar.gz
       status: halted
       lang: C
-      license: no specified licence
       image:
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/1.gif
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/2.gif
@@ -6977,7 +6884,6 @@
       added: 2015-05-29
       status: sporadic
       lang: C#
-      license: no specified licence
 
 - name: Paradroid
   reimplementations:
@@ -7462,7 +7368,6 @@
       status: stalled
       lang: Python
       framework: Blender
-      license: no specified licence
       repo: https://dl.dropboxusercontent.com/u/11542084/RGPv01.zip
       media:
         - image: https://dl.dropboxusercontent.com/u/11542084/rgp_screen_06.jpg
@@ -7557,7 +7462,6 @@
       url: http://www.zeldaroth.fr/us/zroth.php
       status: finished
       lang: C++
-      license: no specified licence
       repo: http://www.zeldaroth.fr/us/files/ROTH/Windows/ZeldaROTH_US-src-windows.zip
       media:
         - image: http://www.zeldaroth.fr/images/roth/s14.png
@@ -7571,7 +7475,6 @@
       url: http://www.zeldaroth.fr/us/zolb.php
       status: finished
       lang: C++
-      license: no specified licence
       repo: http://www.zeldaroth.fr/us/files/OLB/Windows/ZeldaOLB_US-src-windows.zip
       media:
         - image: http://www.zeldaroth.fr/images/olb/s1.JPG
@@ -7586,7 +7489,6 @@
       repo: http://www.zeldaroth.fr/us/files/3T/Windows/Zelda3T_US-src-windows.zip
       status: finished
       lang: C++
-      license: no specified licence
       media:
         - image: http://www.zeldaroth.fr/images/3t/s1.png
           url: http://www.zeldaroth.fr/images/3t/s1p.png
@@ -7601,7 +7503,6 @@
       status: finished
       framework: SDL
       lang: C++
-      license: no specified licence
       media:
         - image: http://www.zeldaroth.fr/images/nsq/s1.png
     - name: The Legend Of Zelda - Picross
@@ -7610,7 +7511,6 @@
       repo: http://www.zeldaroth.fr/us/files/Picross/Windows/ZeldaPicross_US-src-windows.zip
       status: finished
       lang: C++
-      license: no specified licence
       media:
         - image: http://www.zeldaroth.fr/images/picross/s1.png
     - name: Fanwor
