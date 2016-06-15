@@ -95,7 +95,8 @@ dd + dt { margin-top: 1em; }
 .tags-active dt.active, .tags-active dd.active {display: block}
 
 .tag { display: inline-block; font-size: 12px; padding: 0 6px; margin: 0 2px;
-       color: #444; background-color: #eee; cursor: pointer; white-space: nowrap; }
+       color: #444; background-color: #eee; cursor: pointer; white-space: nowrap;
+       -webkit-user-select: none; -moz-user-select: none; user-select: none; }
 .tag.status:hover { color: #444; background-color: #8AFF99; }
 .tag.license:hover { color: #444; background-color: #FFFF8C; }
 .tag.lang:hover { color: #444; background-color: #9CFFFF; }
