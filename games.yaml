@@ -5281,6 +5281,13 @@
 
 - name: Space Station 13
   clones:
+    - name: Griefly
+      url: https://grief.ly/
+      repo: https://github.com/griefly/griefly
+      status: active
+      lang: C++, Go, Python
+      license: MIT
+      added: 2016-06-18
     - name: ss13remake
       added: 2015-06-24
       repo: https://github.com/ss13remake/ss13remake
@@ -6661,6 +6668,24 @@
       lang: C++
       info: win32
       license: BSD2
+
+- name: Herzog Zwei
+  reimplementations:
+    - name: Herzog 3D
+      url: http://herzog3d.sourceforge.net/
+      repo: https://sourceforge.net/p/herzog3d/code/HEAD/tree/
+      status: halted
+      license: GPL2
+      added: 2016-06-18
+      media:
+        - url: http://herzog3d.sourceforge.net/images/hz_1.jpeg
+          image: http://herzog3d.sourceforge.net/images/hz_1.jpeg
+        - url: http://herzog3d.sourceforge.net/images/hz_2.jpeg
+          image: http://herzog3d.sourceforge.net/images/hz_2.jpeg
+        - url: http://herzog3d.sourceforge.net/images/hz_3.jpeg
+          image: http://herzog3d.sourceforge.net/images/hz_3.jpeg
+        - url: http://herzog3d.sourceforge.net/images/hz_4.jpeg
+          image: http://herzog3d.sourceforge.net/images/hz_4.jpeg
 
 - name: [Lemmings, Lemmings (video game)]
   reimplementations:
