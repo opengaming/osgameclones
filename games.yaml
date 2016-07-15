@@ -417,6 +417,17 @@
         - image: http://perso.b2b2c.ca/sarrazip/dev/images/cosmosmash-1.png
           url: http://perso.b2b2c.ca/sarrazip/dev/images/cosmosmash-1.png
 
+- name: Atomic Bomberman
+  clones:
+    - name: Bombman
+      repo: https://github.com/drummyfish/bombman
+      status: sporadic
+      lang: Python
+      license: GPL
+      added: 2016-07-11
+      media:
+        - image: https://camo.githubusercontent.com/8ab6d36689583359d2904c9c4a573e3dcf68d76a/687474703a2f2f692e696d6775722e636f6d2f3378626741504d2e706e67
+
 - name: Awesomenauts
   clones:
     - name: BlakedAwesomenaughts
