@@ -5,7 +5,7 @@ python:
 virtualenv:
   system_site_packages: true
 addons:
-  ssh_known_hosts: maia.solovyov.net
+  ssh_known_hosts: sirius.solovyov.net
 install:
  - pip install cyrax
  - pip install pyyaml
