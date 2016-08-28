@@ -2819,6 +2819,20 @@
         - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Jetpac%20Remake.JPG
         - image: http://homepage.ntlworld.com/ian.wigley2/graphics/XNA%20JetPac%20screen.PNG
 
+- name: [Jewel Thief, "http://www.mobygames.com/game/win3x/jewel-thief"]
+  clones:
+    - name: jewelthief
+      repo: https://github.com/frittatenbank/jewelthief
+      added: 2016-08-28
+      status: active
+      license: CC
+      lang: Java
+      media:
+        - image: https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163225.png
+        - image: https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163328.png
+        - image: https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163342.png
+        - image: https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163421.png
+
 - name: JezzBall
   clones:
     - name: Ice Breaker
