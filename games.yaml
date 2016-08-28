@@ -5395,6 +5395,16 @@
         - image: http://antongerdelan.net/blog/images/tdrive_speedo.png
         - image: http://antongerdelan.net/blog/images/tdrive_tacho.png
 
+- name: Tetris
+  clones:
+    - name: tetris
+      repo: https://github.com/spypunk/tetris
+      lang: java 8
+      license: WTFPL
+      added: 2016-08-19
+      media:
+        - url: https://a.fsdn.com/con/app/proj/spypunk-tetris/screenshots/s.png
+
 - name: Tetris Attack
   clones:
     - url: https://github.com/sharpobject/panel-attack
