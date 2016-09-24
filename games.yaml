@@ -5369,6 +5369,17 @@
       lang: C
       license: GPL3
 
+- name: [Snake, Snake (video game)]
+  clones:
+    - name: snake
+      repo: https://github.com/spypunk/snake
+      lang: Java
+      framework: WTFPL
+      status: active (playable)
+      added: 2016-09-14
+      media:
+        - image: https://a.fsdn.com/con/app/proj/spypunk-snake/screenshots/screenshot.png
+
 - name: Space Station 13
   clones:
     - name: Griefly
