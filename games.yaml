@@ -2428,6 +2428,19 @@
       info: iOS
       license: Java Research License 1.6
 
+- names:
+    - [Gothic, "Gothic (video game)"]
+    - Gothic II
+  clones:
+    - name: REGoth
+      repo: https://github.com/degenerated1123/REGoth
+      status: active (playable)
+      lang: C++
+      license: GPLv3
+      info: requires original files
+      media:
+        - image: http://oi65.tinypic.com/14mzzi8.jpg
+
 - name: Gravity Wars
   clones:
     - name: Slingshot
@@ -2437,10 +2450,10 @@
       lang: Python
       license: GPL2
       media:
-          - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot1.png
-          - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot2.png
-          - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot3.png
-          - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot4.png
+         - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot1.png
+         - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot2.png
+         - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot3.png
+         - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot4.png
 
 - name: The Great Giana Sisters
   clones:
@@ -5355,6 +5368,17 @@
       status: halted
       lang: C
       license: GPL3
+
+- name: [Snake, Snake (video game)]
+  clones:
+    - name: snake
+      repo: https://github.com/spypunk/snake
+      lang: Java
+      framework: WTFPL
+      status: active (playable)
+      added: 2016-09-14
+      media:
+        - image: https://a.fsdn.com/con/app/proj/spypunk-snake/screenshots/screenshot.png
 
 - name: Space Station 13
   clones:
