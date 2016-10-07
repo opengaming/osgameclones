@@ -33,7 +33,7 @@ schema;game:
       type: str
       enum: ['complete', 'very active', 'active', 'sporadic', 'halted']
     license:
-      type: any
+      include: licenses
     lang:
       type: any
     framework:
@@ -51,3 +51,34 @@ schema;game:
               type: str
             url:
               type: str
+
+# Based on SPDX license codes
+# https://spdx.org/licenses/
+schema;licenses:
+  type: str
+  enum: [
+    'Custom', # Catch-all for custom licenses
+    'Multiple', # Catch-all for multiple licenses
+    'AGPL3',
+    'Apache',
+    'Artistic',
+    'BSD',
+    'BSD2',
+    'BSD4',
+    'CC0',
+    'CC-BY',
+    'CC-BY-NC',
+    'CC-BY-NC-SA',
+    'CC-BY-SA',
+    'GPL',
+    'GPL2',
+    'GPL3',
+    'JRL', # Java Research License
+    'LGPL',
+    'LGPL2',
+    'MIT',
+    'MPL', # Mozilla Public License
+    'MS-PL', # Microsoft Public License
+    'NGPL', # Nethack General Public License,
+    'WTFPL' # Do What The F*ck You Want To Public License
+  ]

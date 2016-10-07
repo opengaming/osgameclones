@@ -272,7 +272,7 @@
       repo: https://github.com/scottschiller/ArmorAlley
       development: active
       lang: JavaScript
-      license: CC3.0
+      license: CC-BY-NC
 
 - name: "Artemis: Spaceship Bridge Simulator"
   clones:
@@ -634,9 +634,8 @@
       development: active
       lang: C++
       framework: SFML
-      license:
-         - GPL3
-         - CC BY-NC-SA
+      license: GPL
+      info: Content license CC-BY-NC-SA
       added: 2015-09-11
       media:
         - image: http://dev.sfmlprojects.org/themes/responsiv-flat/assets/images/games/thumb/witch_blast.png
@@ -762,7 +761,6 @@
       added: 2015-05-02
       development: halted
       lang: C++
-      license: custom license
       media:
         - url: http://tomatoes.sourceforge.net/ss1s.jpg
           image: http://tomatoes.sourceforge.net/ss1.jpg
@@ -779,7 +777,7 @@
       url: http://www.artsoft.org/rocksndiamonds/
       status: playable
       development: sporadic
-      license: C
+      lang: C
       added: 2014-01-12
     - name: GDash
       url: https://bitbucket.org/czirkoszoltan/gdash
@@ -864,7 +862,7 @@
       development: active
       lang: C++
       framework: SDL
-      license: Apache License
+      license: Apache
 
 - names:
     - BurgerTime
@@ -945,7 +943,6 @@
       url: http://ctp2.darkdust.net/
       repo: https://ctp2.darkdust.net/svn/
       lang: C
-      license: custom license
 
 - name: Candy Crush Saga
   reimplementations:
@@ -954,7 +951,6 @@
       added: 2015-05-29
       development: sporadic
       lang: Swift
-      license: basic copyright license
 
 - name: [Cannon Fodder, Cannon Fodder (series)]
   clones:
@@ -1295,7 +1291,6 @@
       repo: http://darkreign2.googlecode.com/svn/
       development: halted
       lang: C++
-      license: dubious (see project page)
 
 - name: [Defender, "Defender (video game)"]
   clones:
@@ -1770,7 +1765,7 @@
       development: active
       lang: Java
       info: needs original game files
-      license: GPLv3
+      license: GPL3
 
 - name: [Dungeon Master, Dungeon Master (video game)]
   clones:
@@ -1780,7 +1775,6 @@
       url: http://dmweb.free.fr/?q=node/851
       development: halted
       lang: C++
-      license: Stolenware
       media:
         - image: http://dmweb.free.fr/files/Clone-Screenshot-CSBLinux.jpg
     - name: DungeonMaster
@@ -1807,7 +1801,7 @@
       development: sporadic
       framework: HTML5
       lang: JavaScript
-      license: (AS-IS) license
+      license: MIT
 
 - name: [Earth Shaker, Earth Shaker (video game)]
   clones:
@@ -1815,10 +1809,10 @@
       repo: https://github.com/ant512/EarthShakerDS
       url: http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released
       added: 2015-04-08
-      info: Nintendo DS port
+      info: Nintendo DS port, content copyrighted
       development: active
       lang: C++
-      license: custom license
+      license: BSD
       media:
         - image: http://simianzombie.com/media/2011/05/1.png
         - image: http://simianzombie.com/media/2011/05/2.png
@@ -1864,7 +1858,7 @@
       repo: https://github.com/serprex/openEtG
       development: active
       lang: JavaScript
-      license: (AS-IS) license
+      license: MIT
 
 - name: [Encounter, Encounter (video game)]
   clones:
@@ -2001,7 +1995,7 @@
       development: halted
       framework: LÖVE
       lang: Lua
-      license: custom (AS-IS) license
+      license: Custom
 
 - name: Exolon
   clones:
@@ -2091,7 +2085,7 @@
         - JavaScript
         - Python
       info: needs original game data
-      license: Apache License
+      license: Apache
     - name: Falltergeist
       url: https://falltergeist.org/
       repo: https://github.com/alexeevdv/falltergeist
@@ -2120,7 +2114,7 @@
       added: 2015-04-10
       development: halted
       lang: C#
-      license: custom license (NeoAxis 3D Engine 2.0 Free SDK License Agreement)
+      license: Custom
       media:
         - image: http://s689.photobucket.com/user/razvan2140/media/van%20buren/post13_3_zpsfe75e66a.png.html
 
@@ -2131,7 +2125,7 @@
       repo: https://github.com/nadult/FreeFT
       development: active
       lang: C++
-      license: (AS-IS) license
+      license: BSD
 
 - name: Fallout Online
   clones:
@@ -2291,7 +2285,7 @@
       url: https://github.com/CallumDev/Librelancer
       development: active
       lang: C#
-      license: MPL1.1, MIT
+      license: MPL
       framework:
         - OpenGL
       media:
@@ -2375,7 +2369,8 @@
       added: 2015-04-08
       development: active
       lang: C
-      license: custom license
+      license: GPL2
+      info: Content license CC-BY-SA
 
 - name: Gladiator
   clones:
@@ -2466,7 +2461,7 @@
       development: sporadic
       lang: Objective-C
       info: iOS
-      license: Java Research License 1.6
+      license: JRL
 
 - names:
     - [Gothic, "Gothic (video game)"]
@@ -2477,7 +2472,7 @@
       status: playable
       development: active
       lang: C++
-      license: GPLv3
+      license: GPL3
       info: requires original files
       media:
         - image: http://oi65.tinypic.com/14mzzi8.jpg
@@ -2753,7 +2748,7 @@
       added: 2015-04-08
       development: active
       lang: C++
-      license: custom license (GrokkSoft HoverRace SourceCode License v1.0)
+      license: Custom
 
 - name: Hovertank 3D
   clones:
@@ -2890,7 +2885,7 @@
       repo: https://github.com/frittatenbank/jewelthief
       added: 2016-08-28
       development: active
-      license: CC
+      license: CC-BY
       lang: Java
       media:
         - image: https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163225.png
@@ -3085,7 +3080,7 @@
       development: halted
       lang: C++
       framework: Irrlict
-      license: custom (AS-IS) license
+      license: Custom
 
 - name: [Lego Rock Raiders, Lego Rock Raiders (video game)]
   clones:
@@ -3550,13 +3545,13 @@
       repo: https://github.com/daleharvey/pacman
       development: halted
       lang: JavaScript
-      license: custom license
+      license: Custom
     - name: pacman-canvas
       repo: https://github.com/platzhersh/pacman-canvas
       url: http://pacman.platzh1rsch.ch/
       development: active
       framework: HTML5
-      license: minimal license
+      license: CC-BY-SA
       added: 2015-05-19
     - name: pacman
       url: http://harto.github.io/pacman/
@@ -3855,7 +3850,6 @@
       status: playable
       development: active
       lang: JavaScript
-      license: CCPL
 
 - names: [Master of Monsters, Warsong]
   reimplementations:
@@ -3921,7 +3915,7 @@
       repo: https://github.com/hackcraft-de/linwarrior
       development: halted
       lang: C++
-      license: Apache License
+      license: Apache
       url: http://www.hackcraft.de/games/linwarrior_3d/index.htm
       added: 2015-04-03
       media:
@@ -3934,7 +3928,7 @@
       repo: https://github.com/Echelon9/mechcommander2-open
       development: halted
       lang: C++
-      license: Shared Source Limited Permissive License & GPL
+      license: MS-PL
 
 - name: Mega Lo Mania
   clones:
@@ -3961,7 +3955,7 @@
       added: 2015-05-02
       development: active
       lang: JavaScript
-      license: custom license
+      license: Custom
       media:
         - image: https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png
 
@@ -4049,7 +4043,7 @@
       status: playable
       development: active
       lang: Java
-      license: Apache License
+      license: Apache
       media:
         - image: https://github.com/MovingBlocks/Terasology/raw/develop/engine/src/main/resources/assets/textures/menuBackground.jpg
     - name: Hematite
@@ -4087,7 +4081,7 @@
       repo: https://gitlab.com/voxelands/voxelands
       development: active
       lang: C++
-      license: GPLv3
+      license: GPL3
       media:
         - image: http://www.voxelands.com/images/survival-small.png
         - image: http://www.voxelands.com/images/farming-small.png
@@ -4613,7 +4607,7 @@
       url: http://www.ryzomcore.org/
       development: active
       lang: C++
-      license: AGPLv3 & Creative Commons Attributions-ShareAlike 3.0
+      license: AGPL3
       repo: https://bitbucket.org/ryzom/ryzomcore/overview
       media:
         - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot008.png
@@ -4658,7 +4652,7 @@
       added: 2015-04-14
       development: halted
       lang: C++
-      license: Shadowgrounds & Shadowgrounds Survivor Source Code License
+      license: Custom
 
 - name: [Simon, Simon (game)]
   clones:
@@ -4865,7 +4859,7 @@
       repo: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source
       development: halted
       lang: Pascal
-      license: custom license
+      license: Custom
       media:
         - image: http://soaos.sourceforge.net/images/shots/scrshot2.jpg
           url: http://soaos.sourceforge.net/images/shots/scrshot2_small.jpg
@@ -4942,7 +4936,7 @@
       url: http://pygame.org/shredwheat/solarwolf/index.shtml
       repo: http://pygame.org/shredwheat/solarwolf/solarwolf-1.5.tar.gz
       lang: Python
-      license: LGPL 2.1
+      license: LGPL2
       media:
         - url: http://pygame.org/shredwheat/solarwolf/screen/mini1.jpg
           image: http://pygame.org/shredwheat/solarwolf/screen/shot1.jpg
@@ -5135,7 +5129,7 @@
       added: 2015-04-07
       development: sporadic
       lang: C++
-      license: custom license (Starshatter OpenSource Distribution)
+      license: Custom
 
 - names:
   - [Stunts, Stunts (video game)]
@@ -5180,7 +5174,7 @@
       url: http://jotd.pagesperso-orange.fr/supercars3/
       repo: http://jotd.pagesperso-orange.fr/supercars3/Supercars3_06.zip
       development: sporadic
-      license: Java
+      license: JRL
       added: 2015-04-04
       media:
         - image: http://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
@@ -5192,7 +5186,7 @@
       added: 2015-04-05
       development: halted
       lang: Objective-C
-      license: custom license
+      license: Custom
 
 - name: [Super Mario, Super Mario (series)]
   clones:
@@ -5221,7 +5215,7 @@
       development: halted
       lang: C++
       framework: SDL2
-      license: GPLv2
+      license: GPL2
 
 - name: [Super Methane Brothers, Super Methane Bros.]
   clones:
@@ -5294,7 +5288,7 @@
       framework:
         - HTML
       lang: JavaScript
-      license: CC BY-NC 3.0
+      license: CC-BY-NC
       media:
         - image: https://www.flickr.com/photos/schill/10177812825/in/album-72157628885315581/player/
 
@@ -5446,7 +5440,7 @@
       repo: https://github.com/basicallydan/skifree.js
       development: active
       lang: JavaScript
-      license: custom license
+      license: Custom
     - name: Skifree-HTML5-clone
       added: 2015-06-18
       development: halted
@@ -5620,7 +5614,7 @@
         - Lua
       framework: SDL2
       repo: https://github.com/CorsixTH
-      license: (AS-IS) license
+      license: Multiple
       media:
         - raw: <embed src="http://www.youtube.com/v/4OvNZjoe_JE&amp;rel=0" type="application/x-shockwave-flash" id="swfContainer0" wmode="opaque" base="http://www.youtube.com/v/" height="360" width="100%">
         - url: http://th.corsix.org/CorsixTH08.jpg
@@ -5892,7 +5886,7 @@
       repo: https://github.com/haroldo-ok/datastorm
       development: active
       lang: C
-      license: (AS-IS) license
+      license: Apache
 
 - name: [Turnabout, Turnabout (video game)]
   clones:
@@ -6052,7 +6046,7 @@
       repo: https://github.com/DavidGriffith/uninvited
       development: sporadic
       framework: Inform
-      license: Artistic License 2.0
+      license: Artistic
 
 - name: [Utopia, "Utopia (video game)"]
   clones:
@@ -6166,7 +6160,6 @@
       repo: https://github.com/Kwintenvdb/Willow-Game-Remake
       development: halted
       lang: C++
-      license: only basic copyright
 
 - name: "Wing Commander: Privateer"
   clones:
@@ -6377,7 +6370,7 @@
       url: http://www.swallowtail.org/xquest/
       repo: http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz
       lang: Pascal
-      license: custom license
+      license: Custom
       media:
         - image: http://www.swallowtail.org/xquest/xquest1.gif
         - image: http://www.swallowtail.org/xquest/xquest2.gif
@@ -7007,8 +7000,9 @@
       lang:
         - C++
         - Python
-      license: Code GPL2, Content CC-BY-SA 3.0
+      license: GPL2
       repo: https://github.com/freeorion/freeorion
+      info: Content lisense CC-BY-SA 3.0
       media:
         - url: http://www.freeorion.org/images/8/82/Galaxy_Map_AIs_SVN3100.png
           image: http://www.freeorion.org/images/thumb/8/82/Galaxy_Map_AIs_SVN3100.png/256px-Galaxy_Map_AIs_SVN3100.png
@@ -7107,7 +7101,7 @@
       development: halted
       lang:
         - C
-      license: Nethack General Public License
+      license: NGPL
       added: 2015-04-11
       repo: http://slashem.cvs.sourceforge.net/viewvc/slashem/
       media:
@@ -7453,7 +7447,6 @@
       development: halted
       lang: C++
       framework: Ogre3D
-      license: only basic copyright license
     - name: OpenRoads
       added: 2015-07-02
       url: http://openroadsgame.com/
@@ -7626,7 +7619,7 @@
       framework:
          - HTML5
          - WebGL
-      license: CC 3.0
+      license: MIT
     - name: The Rush
       added: 2015-04-26
       url: http://sourceforge.net/projects/therush/
