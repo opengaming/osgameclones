@@ -26,23 +26,12 @@ schema;game:
       type: str
     info:
       type: str
+    status:
+      type: str
+      enum: ['playable', 'unplayable']
     development:
       type: str
-      enum: [
-        'very active',
-        'complete',
-        'complete (playable)',
-        'complete (not playable)',
-        'active',
-        'active (playable)',
-        'active (not playable)',
-        'sporadic',
-        'sporadic (playable)',
-        'sporadic (not playable)',
-        'halted',
-        'halted (playable)',
-        'halted (not playable)'
-      ]
+      enum: ['very active', 'complete', 'active', 'sporadic', 'halted']
     license:
       type: any
     lang:

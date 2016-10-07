@@ -117,6 +117,7 @@
 
     {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif -%}
 
+    {{ render_tag('status', game['status'] | title) }}
     {{ render_tag('development', game['development'] | title) }}
     {{ render_tag('license', game['license']) }}
     {{ render_tag('lang', game['lang']) }}

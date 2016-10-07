@@ -37,7 +37,7 @@ def parse_tag(tag):
 
 
 def parse_tags(entry):
-    fields = ['development', 'license', 'lang', 'framework']
+    fields = ['status', 'development', 'license', 'lang', 'framework']
     tags = []
 
     for field in fields:
