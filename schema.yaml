@@ -1,0 +1,57 @@
+type: seq
+sequence:
+  - type: map
+    mapping:
+      name:
+        type: any
+      names:
+        type: any
+      clones:
+        type: seq
+        sequence:
+          - include: game
+      reimplementations:
+        type: seq
+        sequence:
+          - include: game
+
+schema;game:
+  type: map
+  mapping:
+    name:
+      type: str
+    url:
+      type: str
+    repo:
+      type: str
+    info:
+      type: str
+    status:
+      type: str
+      enum: [
+        'very active',
+        'complete',
+        'complete (playable)',
+        'complete (not playable)',
+        'active',
+        'active (playable)',
+        'active (not playable)',
+        'sporadic',
+        'sporadic (playable)',
+        'sporadic (not playable)',
+        'halted',
+        'halted (playable)',
+        'halted (not playable)'
+      ]
+    license:
+      type: any
+    lang:
+      type: any
+    framework:
+      type: any
+    added:
+      type: any
+    media:
+      type: any
+
+

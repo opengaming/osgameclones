@@ -6,6 +6,7 @@ from collections import OrderedDict
 
 import yaml
 from cyrax import events
+from pykwalify.core import Core
 
 
 def abort(msg):
@@ -84,8 +85,10 @@ def parse_items(site, item, key):
 
 
 def parse_data(site):
-    data = yaml.load(file(op.join(op.dirname(__file__), 'games.yaml')))
+    c = Core(source_file='games.yaml', schema_files=['schema.yaml'])
+    c.validate(raise_exception=True)
 
+    data = yaml.load(file(op.join(op.dirname(__file__), 'games.yaml')))
     for item in data:
         parse_items(site, item, 'clones')
         parse_items(site, item, 'reimplementations')

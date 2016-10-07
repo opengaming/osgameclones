@@ -36,7 +36,7 @@
       lang:
         - C++
         - Lisp
-      status: playable
+      status: halted (playable)
       media:
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png
@@ -110,8 +110,8 @@
       url: http://openage.sft.mx/
       repo: https://github.com/SFTtech/openage
       added: 2014-10-26
-      status: active
-      info: runnable (not playable yet), requires original files
+      status: active (not playable)
+      info: runnable, requires original files
       lang:
         - C++
         - Python
@@ -250,7 +250,7 @@
       status: active
       lang: C++
       license: GPL3
-      status: playable
+      status: active (playable)
       media:
         - image: http://farm3.static.flickr.com/2606/4103057024_0b577de0a2_m.jpg
           url: http://www.flickr.com/photos/sfiera/4103057024/in/pool-1519223@N24/
@@ -374,7 +374,7 @@
   clones:
     - name: Atomiks
       url: http://www.viste-family.net/mateusz/software/atomiks/
-      status: playable
+      status: halted (playable)
       lang: C
       media:
         - raw: <iframe width="420" height="315" src="http://www.youtube.com/embed/t8FP44Gv8QY?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -591,7 +591,7 @@
     - name: biju-game
       added: 2015-05-28
       repo: https://github.com/CrociDB/biju-game
-      status: halted (incomplete)
+      status: halted
       lang: JavaScript
       framework: CraftyJS
 
@@ -599,7 +599,7 @@
   clones:
     - name: Bermuda Syndrome
       url: http://cyxdown.free.fr/bs/
-      status: sporadic (or halted), playable
+      status: halted (playable)
       added: 2013-05-27
       media:
         - image: http://cyxdown.free.fr/bs/bs-1.png
@@ -609,7 +609,7 @@
   clones:
     - name: xBaK
       url: http://xbak.sourceforge.net/
-      status: sporadic (or halted), playable
+      status: halted (playable)
       added: 2014-08-15
       media:
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/126405.jpg
@@ -636,7 +636,7 @@
     - name: replicant
       repo: https://github.com/madmoose/replicant
       added: 2015-04-04
-      status: stalled (incomplete)
+      status: halted
       lang: C++
     - name: bladerunner (Engine within SCUMMVM)
       added: 2015-04-17
@@ -747,7 +747,7 @@
       added: 2015-05-02
       status: halted
       lang: C++
-      license: custom licence
+      license: custom license
       media:
         - url: http://tomatoes.sourceforge.net/ss1s.jpg
           image: http://tomatoes.sourceforge.net/ss1.jpg
@@ -900,7 +900,7 @@
 - name: [Cadaver, Cadaver (video game)]
   clones:
     - name: Cadaver
-      status: halted (incomplete)
+      status: halted
       info: PC game files required
       lang: C++
       added: 2015-04-06
@@ -928,7 +928,7 @@
       url: http://ctp2.darkdust.net/
       repo: https://ctp2.darkdust.net/svn/
       lang: C
-      license: custom licence
+      license: custom license
 
 - name: Candy Crush Saga
   reimplementations:
@@ -937,7 +937,7 @@
       added: 2015-05-29
       status: sporadic
       lang: Swift
-      license: basic copyright licence
+      license: basic copyright license
 
 - name: [Cannon Fodder, Cannon Fodder (series)]
   clones:
@@ -983,7 +983,7 @@
     - name: CatacombSDL
       url: https://github.com/Blzut3/CatacombSDL
       repo: https://github.com/Blzut3/CatacombSDL
-      status: playable
+      status: halted (playable)
       info: needs game data
       lang: C
       added: 2014-07-23
@@ -1000,13 +1000,13 @@
   clones:
     - name: Tile World
       url: http://www.muppetlabs.com/~breadbox/software/tworld/
-      status: playable
+      status: sporadic (playable)
       lang: C
       added: 2014-01-05
     - name: Tile World 2
       url: https://github.com/Qalthos/Tile-World
       repo: https://github.com/Qalthos/Tile-World
-      status: playable
+      status: halted (playable)
       lang: C
       added: 2014-01-05
 
@@ -1160,7 +1160,8 @@
       url: http://creatures.wikia.com/wiki/Openc2e
       repo: https://github.com/ccdevnet/openc2e
       added: 2014-09-05
-      status: halted, forks present
+      status: halted
+      info: forks present
       lang: C++
       license: LGPL
 
@@ -1265,7 +1266,7 @@
     - name: Dark Reign 2
       url: https://code.google.com/p/darkreign2/
       repo: http://darkreign2.googlecode.com/svn/
-      status: in-active
+      status: halted
       lang: C++
       license: dubious (see project page)
 
@@ -1344,7 +1345,7 @@
     - name: Return of Dr. Destructo
       url: http://zxstudio.org/projects/drdestructo/
       repo: https://github.com/MaxSavenkov/drdestructo2/
-      status: completed
+      status: complete
       framework: Allegro
       lang: C++
       license: MIT
@@ -1609,7 +1610,7 @@
       status: sporadic
       lang: C
       license: GPL3
-      image:
+      media:
         - url: https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10_thumbnail.jpg
           image: https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10.jpg
         - url: https://www.gnu.org/software/freedink/screenshots/freedink-1.08_2008-07-31_thumbnail.jpg
@@ -1657,7 +1658,7 @@
     - name: Freenukum Jump'n Run
       url: https://launchpad.net/freenukum/
       repo: https://bazaar.launchpad.net/~silwol/freenukum/trunk/files
-      status: stalled
+      status: halted
       lang: C
       license: GPL3
       added: 2015-04-03
@@ -1725,7 +1726,8 @@
   clones:
     - name: KeeperFX
       url: http://keeper.lubiki.pl/html/dk_keeperfx.php
-      status: active (not really a clone, but a hack to make Dungeon Keeper run on recent OSes
+      status: active
+      info: not really a clone, but a hack to make Dungeon Keeper run on recent OSes
       lang: C
       repo: https://code.google.com/p/keeperfx/source/list
 
@@ -1734,7 +1736,7 @@
     - name: OpenKeeper
       framework: JMonkeyEngine
       repo: https://github.com/tonihele/OpenKeeper
-      status: active (not playable yet)
+      status: active (not playable)
       lang: Java
       info: needs original game files
       license: GPLv3
@@ -1774,7 +1776,7 @@
       status: sporadic
       framework: HTML5
       lang: JavaScript
-      license: (AS-IS) licence
+      license: (AS-IS) license
 
 - name: [Earth Shaker, Earth Shaker (video game)]
   clones:
@@ -1785,7 +1787,7 @@
       info: Nintendo DS port
       status: active
       lang: C++
-      license: custom licence
+      license: custom license
       media:
         - image: http://simianzombie.com/media/2011/05/1.png
         - image: http://simianzombie.com/media/2011/05/2.png
@@ -1802,7 +1804,7 @@
       url: http://www.ggsoft.org/etw/
       repo: svn://svn.code.sf.net/p/etw/code/trunk
       added: 2015-04-10
-      ststus: sporadic
+      status: sporadic
       lang: C
       license: GPL2
       media:
@@ -1831,7 +1833,7 @@
       repo: https://github.com/serprex/openEtG
       status: active
       lang: JavaScript
-      license: (AS-IS) licence
+      license: (AS-IS) license
 
 - name: [Encounter, Encounter (video game)]
   clones:
@@ -1905,7 +1907,7 @@
   clones:
     - name: Daggerfall.NET
       repo: https://github.com/Burton-Radons/Daggerfall.NET
-      status: stalled
+      status: halted
       lang: C#
       added: 2015-04-05
     - name: opendf
@@ -1913,7 +1915,7 @@
       status: active
       lang: C++
       license: GPL3
-      status: not playable
+      status: sporadic (not playable)
       added: 2015-07-17
     - name: Daggerfall Unity
       url: http://www.dfworkshop.net/
@@ -1966,7 +1968,7 @@
       status: halted
       framework: LÖVE
       lang: Lua
-      license: custom (AS-IS) licence
+      license: custom (AS-IS) license
 
 - name: Exolon
   clones:
@@ -2059,7 +2061,8 @@
     - name: Falltergeist
       url: https://falltergeist.org/
       repo: https://github.com/alexeevdv/falltergeist
-      status: active (not playable, needs game data)
+      status: active (not playable)
+      info: needs game data
       lang: C++
     - name: parpg
       added: 2016-02-08
@@ -2082,7 +2085,7 @@
       added: 2015-04-10
       status: halted
       lang: C#
-      license: custom licence (NeoAxis 3D Engine 2.0 Free SDK License Agreement)
+      license: custom license (NeoAxis 3D Engine 2.0 Free SDK License Agreement)
       media:
         - image: http://s689.photobucket.com/user/razvan2140/media/van%20buren/post13_3_zpsfe75e66a.png.html
 
@@ -2093,11 +2096,11 @@
       repo: https://github.com/nadult/FreeFT
       status: active
       lang: C++
-      license: (AS-IS) licence
+      license: (AS-IS) license
 
 - name: Fallout Online
   clones:
-    - names: fonline
+    - name: fonline
       repo: https://github.com/alexknvl/fonline
       url: http://fodev.net/
       added: 2016-02-08
@@ -2144,7 +2147,7 @@
   clones:
     - name: REminiscence
       url: http://cyxdown.free.fr/reminiscence/
-      status: moderately active
+      status: sporadic
       framework: SDL
       media:
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-1.png
@@ -2167,7 +2170,7 @@
       url: https://code.google.com/p/friking-shark/
       added: 2015-04-06
       repo: http://friking-shark.googlecode.com/svn/trunk/
-      status: stalled
+      status: halted
       lang: C++
       license: GPL3
 
@@ -2218,7 +2221,7 @@
     - name: ProjectX
       url: http://forsakenx.github.io/
       repo: https://github.com/ForsakenX/forsaken
-      status: playable
+      status: halted (playable)
       added: 2013-05-29
       media:
         - image: http://fly.thruhere.net/fsplanet/images/I_ins_koth001_thumb.jpg
@@ -2336,7 +2339,7 @@
       added: 2015-04-08
       status: active
       lang: C
-      license: custom licence
+      license: custom license
 
 - name: Gladiator
   clones:
@@ -2376,7 +2379,7 @@
       url: http://jotd.pagesperso-orange.fr/gods/index.html
       added: 2015-04-04
       repo: http://jotd.pagesperso-orange.fr/gods/GodsDeluxe-0_8-B.zip
-      status: stalled
+      status: halted
       lang: Java
       media:
         - image: http://jotd.pagesperso-orange.fr/gods/snapshots/classic_level_1/images/view_0000.jpg
@@ -2569,14 +2572,14 @@
     - name: HauntedHouse
       added: 2015-07-14
       repo: https://github.com/KunoNoOni/HauntedHouse
-      status: finished
+      status: complete
       lang: ActionScript
 
 - name: [Heart of Darkness, "Heart of Darkness (video game)"]
   clones:
     - name: HODe
       repo: https://code.google.com/p/tombexcavator/source/browse/branches/v0/unsorted/hode-20090726
-      status: unknown
+      status: halted
       lang: C++
 
 - name: [Heavy Smash, "http://www.mobygames.com/game/arcade/heavy-smash"]
@@ -2713,7 +2716,7 @@
     - name: Hovertank3D
       repo: https://github.com/FlatRockSoft/Hovertank3D
       added: 2015-04-07
-      status: finished development
+      status: complete
       lang:
         - C
         - Assembly
@@ -2737,7 +2740,7 @@
     - name: Open Imperium Galactica
       url: https://github.com/akarnokd/open-ig
       repo: https://github.com/akarnokd/open-ig
-      status: occasional (playable)
+      status: sporadic (playable)
       lang: Java
       added: 2013-12-11
       media:
@@ -2825,7 +2828,7 @@
       added: 2015-05-10
       url: http://homepage.ntlworld.com/ian.wigley2/jet_pac_remake.html
       repo: https://github.com/ian-wigley/JetPac
-      status: finished
+      status: complete
       framework: XNA
       lang: C#
       media:
@@ -3033,7 +3036,7 @@
       status: halted
       lang: C++
       framework: Irrlict
-      license: custom (AS-IS) licence
+      license: custom (AS-IS) license
 
 - name: [Lego Rock Raiders, Lego Rock Raiders (video game)]
   clones:
@@ -3081,7 +3084,7 @@
     - name: Gusanos
       url: http://gusanos.sourceforge.net/
       repo: http://sourceforge.net/p/gusanos/code/?source=navbar
-      status: halted (seems to be playable)
+      status: halted (playable)
       added: 2013-05-27
 
 - name: [Lionheart, Lionheart (video game)]
@@ -3138,7 +3141,7 @@
       status: active (playable)
       lang: C++
       framework: SDL2
-      licence: GPL2
+      license: GPL2
       added: 2016-05-31
       media:
         - url: https://www.kde.org/images/screenshots/resized/kgoldrunner.png
@@ -3225,13 +3228,13 @@
   clones:
     - name: Marble Madness 3d
       repo: https://github.com/davido262/marble-madness-3d
-      status: stalled
+      status: halted
       lang: C++
       added: 2015-04-03
     - name: Trackballs
       url: http://sourceforge.net/projects/trackballs/
       repo: http://trackballs.cvs.sourceforge.net/viewvc/trackballs/
-      status: stalled
+      status: halted
       lang: C++
       added: 2015-04-03
 
@@ -3318,7 +3321,7 @@
       added: 2015-04-11
       repo: https://github.com/openmoh/openmohaa
       info: based on ioquake3
-      status: sporadic (not playable yet)
+      status: sporadic (not playable)
       lang: C
       framework: GPL2
       media:
@@ -3354,7 +3357,7 @@
     - name: mk.js
       added: 2015-05-19
       repo: https://github.com/mgechev/mk.js
-      status: halted (basic game)
+      status: halted (playable)
       lang: JavaScript
       license: MIT
       url: http://mk.mgechev.com/
@@ -3443,7 +3446,7 @@
       lang: C++
       license: GPL2
       repo: svn://svn.code.sf.net/p/ocmod/code/
-      image:
+      media:
         - url: https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg/182/137
           image: https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg
 
@@ -3487,13 +3490,13 @@
       repo: https://github.com/daleharvey/pacman
       status: halted
       lang: JavaScript
-      license: custom licence
+      license: custom license
     - name: pacman-canvas
       repo: https://github.com/platzhersh/pacman-canvas
       url: http://pacman.platzh1rsch.ch/
       status: active
       framework: HTML5
-      license: minimal licence
+      license: minimal license
       added: 2015-05-19
     - name: pacman
       url: http://harto.github.io/pacman/
@@ -3504,7 +3507,7 @@
     - name: Google Pacman
       repo: https://github.com/livingston/google-pacman
       url: http://livingston.github.io/google-pacman/
-      status: finished
+      status: complete
       lang: JavaScript
       framework: Flash
       added: 2015-05-20
@@ -3575,8 +3578,8 @@
       added: 2015-05-30
     - name: FreePrince
       url: http://www.princed.org/downloads/FreePrince/FP_2011-12-04_source.tar.gz
-      lang:: C
-      status: halted (mostly playable)
+      lang: C
+      status: halted (playable)
       added: 2014-01-12
 
 - name: [Quadnet, "https://www.mobygames.com/game/dos/quadnet"]
@@ -3820,7 +3823,7 @@
   clones:
     - url: http://openmoo2.org/en/
       name: OpenMOO2
-      status: moderately active
+      status: sporadic
       lang: Python
       repo: http://repository.openmoo2.org/cgi-bin/hgwebdir.cgi/PUBLIC/
       media:
@@ -3835,7 +3838,7 @@
   clones:
     - url: http://www.maxr.org/
       name: Mechanized Assault and eXploration Reloaded
-      status: moderately active
+      status: sporadic
       lang: C++
       repo: http://www.maxr.org/trac/timeline
       media:
@@ -3852,7 +3855,7 @@
   clones:
     - name: LinWarrior
       repo: https://github.com/hackcraft-de/linwarrior
-      status: stalled
+      status: halted
       lang: C++
       license: Apache License
       url: http://www.hackcraft.de/games/linwarrior_3d/index.htm
@@ -3867,14 +3870,14 @@
       repo: https://github.com/Echelon9/mechcommander2-open
       status: halted
       lang: C++
-      licence: Shared Source Limited Permissive License & GPL
+      license: Shared Source Limited Permissive License & GPL
 
 - name: Mega Lo Mania
   clones:
     - name: Gigalomania
       url: http://homepage.ntlworld.com/mark.harman/comp_gigalomania.html
       repo: http://sourceforge.net/p/gigalomania/code/ci/master/tree/
-      status: moderately active (playable)
+      status: sporadic (playable)
       lang: C++
       added: 2014-08-17
       media:
@@ -3893,7 +3896,7 @@
       added: 2015-05-02
       status: active
       lang: JavaScript
-      license: custom licence
+      license: custom license
       media:
         - image: https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png
 
@@ -3951,7 +3954,7 @@
           image: http://www.minetest.net/_media/screenshot_4032289578.png?w=450
     - url: http://manicdigger.sourceforge.net/
       name: Manic Digger
-      status: moderately active
+      status: sporadic
       lang: C#
       repo: http://sourceforge.net/p/manicdigger/code/ci/master/tree/
       added: 2013-10-10
@@ -4172,7 +4175,7 @@
     - name: LGeneral
       url: http://lgames.sourceforge.net/index.php?project=LGeneral
       repo: http://sourceforge.net/p/lgeneral/code/HEAD/tree/trunk/lgeneral/
-      status: halted (or very sporadic) (playable)
+      status: halted (playable)
       lang: C
       added: 2013-05-30
       media:
@@ -4184,7 +4187,7 @@
 - name: Paradroid
   clones:
     - name: FreedroidClassic
-      status: completed
+      status: complete
       lang: C
       url: "http://www.freedroid.org/download/#c46"
     - name: Nighthawk
@@ -4230,7 +4233,7 @@
     - name: Tuxemon
       url: http://www.tuxemon.org/
       repo: https://github.com/Tuxemon/Tuxemon
-      status: active (alpha, playable)
+      status: active (playable)
       lang: Python
       framework: Pygame
       added: 2015-01-21
@@ -4264,7 +4267,7 @@
       repo: https://github.com/nbollom/pq2
       lang: C++
       framework: ncurses
-      licence: GPL3
+      license: GPL3
       status: active
 
 - name: [Punch-Out!!, Punch-Out!! (arcade game)]
@@ -4279,7 +4282,7 @@
   clones:
     - name: Pushover
       url: http://pushover.sourceforge.net/
-      status: moderately active (playable)
+      status: sporadic (playable)
       lang: C++
       added: 2013-05-29
       repo: http://pushover.sourceforge.net/repos/head/
@@ -4322,7 +4325,6 @@
       url: http://www.mobuware.net/nintendo-ds-os/r-type-clone-from-octobinz-nds-and-source-code-get-free-170451.html
       repo: http://www.mobuware.net/get-software-170451.html
       added: 2015-04-07
-      status: status unavailable
       info: demo only
       lang: C++
     - name: rtype
@@ -4463,7 +4465,7 @@
     - name: rfk-inform
       url: https://661.org/if/rfk/
       repo: https://github.com/DavidGriffith/rfk-inform
-      status: stalled
+      status: halted
       framework: Inform6
       media:
         - image: https://661.org/if/rfk/files/rfk-inform01.png
@@ -4585,7 +4587,7 @@
     - name: asdf
       added: 2015-05-28
       repo: https://github.com/TimPietrusky/asdf
-      status: finished
+      status: complete
       lang: JavaScript
       license: MIT
 
@@ -4718,7 +4720,8 @@
     - name: cc94
       repo: https://github.com/institution/cc94
       added: 2015-05-29
-      status: active (required original files)
+      status: active
+      info: requires original files
       lang:
         - C++
         - Python
@@ -4780,7 +4783,7 @@
       added: 2015-04-08
       url: http://soaos.sourceforge.net/
       repo: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source
-      status: stalled
+      status: halted
       lang: Pascal
       license: custom license
       media:
@@ -4795,7 +4798,7 @@
   clones:
     - name: zSILENCER
       url: http://zsilencer.com/
-      status: playable
+      status: halted (playable)
       lang: C++
       added: 2013-09-22
       repo: https://github.com/zsilencer/zSILENCER/
@@ -4925,7 +4928,7 @@
   clones:
     - name: Speedball 2
       url: http://bringerp.free.fr/RE/Speedball2/remake.php5
-      status: halted (not fully playable)
+      status: halted (not playable)
       info: reverse engineered prototype
       lang: C#
       added: 2015-04-05
@@ -4972,7 +4975,7 @@
     - url: http://stargus.stratagus.com/
       name: Stargus
       repo: https://code.launchpad.net/stargus
-      status: moderately active
+      status: sporadic
       lang:
         - C++
         - Lua
@@ -4984,7 +4987,7 @@
       repo: git://git.code.sf.net/p/stuntcarremake/code
       name: Stunt Car Racer Remake
       added: 2015-04-04
-      status: stalled
+      status: halted
       lang: C++
       media:
         - url: https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
@@ -5034,7 +5037,7 @@
     - name: Star-Wars-III
       added: 2015-06-01
       repo: https://github.com/abhinandanramesh/Star-Wars-III
-      status: finished
+      status: complete
       lang: only level 3 implemented
       lang: Python
       license: GPL2
@@ -5047,7 +5050,7 @@
       added: 2015-04-07
       status: sporadic
       lang: C++
-      license: custom licence (Starshatter OpenSource Distribution)
+      license: custom license (Starshatter OpenSource Distribution)
 
 - names:
   - [Stunts, Stunts (video game)]
@@ -5055,7 +5058,7 @@
   clones:
     - url: http://www.ultimatestunts.nl/
       name: Ultimate Stunts
-      status: moderately active
+      status: sporadic
       lang: C++
       repo: http://ultimatestunts.svn.sourceforge.net/viewvc/ultimatestunts/
       media:
@@ -5102,9 +5105,9 @@
     - name: SuperFoulEgg
       repo: https://github.com/ant512/SuperFoulEgg
       added: 2015-04-05
-      status: stalled
+      status: halted
       lang: Objective-C
-      license: custom licence
+      license: custom license
 
 - name: [Super Mario, Super Mario (series)]
   clones:
@@ -5128,7 +5131,7 @@
     - name: uMario
       added: 2016-03-24
       repo: https://github.com/jakowskidev/uMario_Jakowski
-      stats: halted (Fully playable)
+      status: halted (playable)
       lang: C++
       framework: SDL2
       license: GPLv2
@@ -5226,7 +5229,7 @@
   clones:
     - name: Syndicate Wars Port
       url: http://swars.vexillium.org/
-      status: inactive (playable)
+      status: halted (playable)
       info: no network support, requires original data
       license: GPL3
       added: 2013-05-30
@@ -5248,7 +5251,7 @@
     - name: Open Terraria Rewrite
       added: 2015-04-05
       repo: https://github.com/Shockah/Open-Terraria-Rewrite
-      status: stalled (WIP)
+      status: halted
       lang: Java
     - name: terrarium
       repo: https://github.com/hydren/terrarium
@@ -5260,7 +5263,7 @@
   clones:
     - name: DrCreep
       url: http://creep.sourceforge.net/
-      status: completed
+      status: complete
       lang: C++
       repo: https://github.com/segrax/DrCreep
       added: 2013-11-20
@@ -5352,7 +5355,7 @@
       repo: https://github.com/basicallydan/skifree.js
       status: active
       lang: JavaScript
-      license: custom licence
+      license: custom license
     - name: Skifree-HTML5-clone
       added: 2015-06-18
       status: halted
@@ -5513,15 +5516,16 @@
 
 - name: Theme Hospital
   clones:
-    - url: http://forums.corsixth.com/
-      name: CorsixTH
-      status: active, time-based releases
+    - name: CorsixTH
+      url: http://forums.corsixth.com/
+      info: time-based releases
+      status: active
       lang:
         - C++
         - Lua
       framework: SDL2
       repo: https://github.com/CorsixTH
-      license: (AS-IS) licence
+      license: (AS-IS) license
       media:
         - raw: <embed src="http://www.youtube.com/v/4OvNZjoe_JE&amp;rel=0" type="application/x-shockwave-flash" id="swfContainer0" wmode="opaque" base="http://www.youtube.com/v/" height="360" width="100%">
         - url: http://th.corsix.org/CorsixTH08.jpg
@@ -5579,7 +5583,7 @@
       added: 2015-05-10
       url: http://www2.braingames.getput.com/stransball2/default.asp
       repo: http://www2.braingames.getput.com/stransball2/downloads/stransball2-v15-windows.zip
-      status: finished development
+      status: complete
       lang: C++
       license: GPL3
       media:
@@ -5634,7 +5638,7 @@
           image: http://springrts.com/thumbs/6059_d61ae9f79d970adc9a45ae9e97a487c5_thumb_142_80.jpg
     - url: http://www.ta3d.org/
       name: Total Annihilation 3D
-      status: moderately active
+      status: sporadic
       lang: C++
       repo: http://trac.ta3d.org/timeline
       media:
@@ -5721,7 +5725,7 @@
       added: 2015-04-11
       url: https://spaceshipduel.codeplex.com/
       repo: https://spaceshipduel.codeplex.com/SourceControl/latest
-      status: sporadic development
+      status: sporadic
       lang: C#
       license: BSD
 
@@ -5731,7 +5735,7 @@
   clones:
     - url: http://www.openttd.org/
       name: OpenTTD
-      status: active (extremely playable)
+      status: active (playable)
       lang: C++
       repo: http://vcs.openttd.org/svn/timeline
       media:
@@ -5791,22 +5795,22 @@
       repo: https://github.com/haroldo-ok/datastorm
       status: active
       lang: C
-      license: (AS-IS) licence
+      license: (AS-IS) license
 
 - name: [Turnabout, Turnabout (video game)]
   clones:
     - name: turnabout
       added: 2015-07-19
       repo: https://github.com/sch/turnabout
-      status: halted (working in progress)
+      status: halted
       lang: CoffeeScript
 
 - name: [Turok, Turok (video game)]
   clones:
     - name: TurokEX
-      status: stalled
+      status: halted
       repo: https://github.com/svkaiser/TurokEX
-      licence: GPL2
+      license: GPL2
       lang: C++
       added: 2016-05-28
 
@@ -5814,7 +5818,8 @@
   clones:
     - name: Hurrican
       url: http://sourceforge.net/p/hurrican/code/HEAD/tree/trunk/
-      status: halted, playable (Makefile needs edits to compile on Linux)
+      status: halted (playable)
+      info: Makefile needs edits to compile on Linux
       lang: C++
       added: 2012-05-28
 
@@ -5822,7 +5827,7 @@
   clones:
     - url: https://bitbucket.org/opentyrian/opentyrian/wiki/Home
       name: OpenTyrian
-      status: moderately active
+      status: sporadic
       lang: C
       repo: https://bitbucket.org/opentyrian/opentyrian/src
       added: 2015-04-03
@@ -5856,7 +5861,7 @@
   clones:
     - name: Iris2
       url: http://www.iris2.de/
-      status: development, playable
+      status: halted (playable)
       repo: http://iris.schattenkind.net/svn/trunk/
       media:
         - image: http://www.iris2.de/images/thumb/4/48/20080106175329_188.png/256px-20080106175329_188.png
@@ -5902,7 +5907,7 @@
     - url: http://exult.sourceforge.net/
       name: Exult
       repo: http://sourceforge.net/projects/exult/develop
-      status: moderately active
+      status: sporadic
       lang: C++
       media:
         - image: http://exult.sourceforge.net/images/screenshots/thumbs/stage.png
@@ -5956,7 +5961,7 @@
       added: 2015-04-05
       url: http://apps.gamejs.org/newutopia/
       repo: https://github.com/gamejs/newutopia
-      status: stalled
+      status: halted
       lang: JavaScript
 
 - name: [Vlak, "http://www.mobygames.com/game/dos/vlak"]
@@ -6013,7 +6018,7 @@
     - url: http://wargus.stratagus.com/index.shtml
       name: Wargus
       repo: https://code.launchpad.net/wargus
-      status: moderately active
+      status: sporadic
       lang:
         - C++
         - Lua
@@ -6067,7 +6072,7 @@
   clones:
     - url: http://privateer.sourceforge.net/
       name: Privateer - Gemini Gold
-      status: moderately active
+      status: sporadic
       lang: C++
       repo: http://privateer.svn.sourceforge.net/viewvc/privateer/
       media:
@@ -6109,7 +6114,7 @@
     - name: jClassicRPG
       url: http://javacrpg.sourceforge.net/
       added: 2015-04-11
-      status: stalled
+      status: halted
       lang: Java
       license: GPL3
       repo: svn://svn.code.sf.net/p/javacrpg/code/trunk
@@ -6239,7 +6244,7 @@
       added: 2015-04-15
       url: http://phavon.sourceforge.net/
       repo: http://phavon.cvs.sourceforge.net/viewvc/phavon/
-      status: halted (WIP)
+      status: halted
       lang: C
       license: GPL2
       media:
@@ -6252,7 +6257,7 @@
       url: http://xpilot.sourceforge.net/
       repo: http://xpilot.cvs.sourceforge.net/viewvc/xpilot/
       added: 2015-04-06
-      status: stalled
+      status: halted
       lang: C
       license: GPL2
       media:
@@ -6269,7 +6274,7 @@
       url: http://www.swallowtail.org/xquest/
       repo: http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz
       lang: Pascal
-      license: custom licence
+      license: custom license
       media:
         - image: http://www.swallowtail.org/xquest/xquest1.gif
         - image: http://www.swallowtail.org/xquest/xquest2.gif
@@ -6357,7 +6362,7 @@
 - name: [Zombie Apocalypse, "http://www.mobygames.com/game/zombie-apocalypse"]
   clones:
     - name: zombie apocalypse html5
-      status: halted (WIP)
+      status: halted
       framework: HTML5
       lang: JavaScript
       repo: https://github.com/andymason/zombie-apocalypse-html5
@@ -6393,7 +6398,7 @@
     - name: FreeRails
       url: http://freetrain.sourceforge.net/
       repo: http://sourceforge.net/p/freetrain/code/
-      status: stalled
+      status: halted
       lang: C#
       added: 2015-04-02
       media:
@@ -6468,7 +6473,7 @@
     - name: Crimson Fields
       url: http://crimson.seul.org/
       repo: http://svn.seul.org/viewcvs/viewvc.cgi/games/crimson/?root=SEUL
-      status: development (playable)
+      status: sporadic (playable)
       lang: C++
       added: 2013-05-29
       media:
@@ -6534,7 +6539,7 @@
     - name: Civ-Remake
       added: 2015-04-12
       repo: https://github.com/aarnwri/Civ-Remake
-      status: active (incomplete)
+      status: active
       lang: Ruby
     - name: CivOne
       url: http://www.civone.com/
@@ -6602,7 +6607,7 @@
           url: http://sumwars.org/mediawiki/images/2/2c/The_blizzard_-_highly_effective_when_used_correct.jpg
     - url: http://www.freedroid.org/
       name: FreedroidRPG
-      status: active,
+      status: active
       lang:
         - C
         - Lua
@@ -6871,7 +6876,7 @@
     - name: SuperTuxKart
       url: http://supertuxkart.sourceforge.net/
       repo: https://github.com/supertuxkart/stk-code
-      status: active, playable
+      status: active (playable)
       lang: C++
       added: 2014-05-08
       media:
@@ -6886,7 +6891,7 @@
   reimplementations:
     - url: http://www.freeorion.org/
       name: FreeOrion
-      status: moderately active
+      status: sporadic
       lang:
         - C++
         - Python
@@ -6954,7 +6959,7 @@
       repo: ftp://ftp.tuxpaint.org/unix/x/icbm3d/icbm3d.0.4.tar.gz
       status: halted
       lang: C
-      image:
+      media:
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/1.gif
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/2.gif
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/3.gif
@@ -6975,7 +6980,7 @@
       added: 2013-06-08
     - url: http://www.tremulous.net/
       name: Tremulous
-      status: no development
+      status: halted
       lang: C
       repo: http://svn.icculus.org/tremulous/
       added: 2013-06-08
@@ -7283,7 +7288,7 @@
 - name: Tribal Hero
   reimplementations:
     - name: Danger Zone
-      status: active (somewhat sporadic) - not yet playable
+      status: active (not playable)
       lang: Java
       repo: https://github.com/alasershark/dangerzone
       url: http://dzgame.org
@@ -7295,7 +7300,7 @@
       url: http://pizza-business.sourceforge.net/
       added: 2015-04-03
       repo: http://pizza-business.cvs.sourceforge.net/viewvc/pizza-business/
-      status: stalled
+      status: halted
       lang: C++
       license: GPL2
       media:
@@ -7328,7 +7333,7 @@
       status: halted
       lang: C++
       framework: Ogre3D
-      license: only basic copyright licence
+      license: only basic copyright license
     - name: OpenRoads
       added: 2015-07-02
       url: http://openroadsgame.com/
@@ -7514,7 +7519,7 @@
     - name: "RGP - Racing Game Project"
       added: 2015-04-26
       url: http://devlog-martinsh.blogspot.co.uk/search/label/Racing game
-      status: stalled
+      status: halted
       lang: Python
       framework: Blender
       repo: https://dl.dropboxusercontent.com/u/11542084/RGPv01.zip
@@ -7583,7 +7588,7 @@
     - url: http://jwm-art.net/?p=XorCurses
       name: XorCurses
       repo: https://github.com/jwm-art-net/XorCurses
-      status: completed
+      status: complete
       added: 2013-06-06
       media:
         - image: http://jwm-art.net/scaled_images/0_375//art/image/xorcurses-0.0.8-lvl9-newschool-xfceterm.png
@@ -7592,7 +7597,7 @@
           url: http://jwm-art.net/art/image/xorcurses-0.0.8-menu-xterm.png
     - url: http://jwm-art.net/XorGramana/
       name: XorGramana
-      status: completed
+      status: complete
       added: 2013-06-06
 
 - name: Legend of Zelda
@@ -7609,7 +7614,7 @@
     - name: The Legend Of Zelda - Return Of The Hylan
       added: 2015-09-27
       url: http://www.zeldaroth.fr/us/zroth.php
-      status: finished
+      status: complete
       lang: C++
       repo: http://www.zeldaroth.fr/us/files/ROTH/Windows/ZeldaROTH_US-src-windows.zip
       media:
@@ -7622,7 +7627,7 @@
     - name: The Legend Of Zelda - Oni Link Begins
       added: 2015-09-27
       url: http://www.zeldaroth.fr/us/zolb.php
-      status: finished
+      status: complete
       lang: C++
       repo: http://www.zeldaroth.fr/us/files/OLB/Windows/ZeldaOLB_US-src-windows.zip
       media:
@@ -7636,7 +7641,7 @@
       url: http://www.zeldaroth.fr/us/z3t.php
       added: 2015-09-27
       repo: http://www.zeldaroth.fr/us/files/3T/Windows/Zelda3T_US-src-windows.zip
-      status: finished
+      status: complete
       lang: C++
       media:
         - image: http://www.zeldaroth.fr/images/3t/s1.png
@@ -7649,7 +7654,7 @@
       added: 2015-09-27
       url: http://www.zeldaroth.fr/us/dlnsq.php
       repo: http://www.zeldaroth.fr/us/files/NSQ/Windows/ZeldaNSQ_US-src-windows.zip
-      status: finished
+      status: complete
       framework: SDL
       lang: C++
       media:
@@ -7658,7 +7663,7 @@
       added: 2015-09-27
       url: http://www.zeldaroth.fr/us/dlpicross.php
       repo: http://www.zeldaroth.fr/us/files/Picross/Windows/ZeldaPicross_US-src-windows.zip
-      status: finished
+      status: complete
       lang: C++
       media:
         - image: http://www.zeldaroth.fr/images/picross/s1.png
