@@ -28,10 +28,10 @@ schema;game:
       type: str
     status:
       type: str
-      enum: ['playable', 'unplayable']
+      enum: ['complete', 'playable', 'unplayable']
     development:
       type: str
-      enum: ['very active', 'complete', 'active', 'sporadic', 'halted']
+      enum: ['complete', 'very active', 'active', 'sporadic', 'halted']
     license:
       type: any
     lang:
