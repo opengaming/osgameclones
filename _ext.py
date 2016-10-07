@@ -85,10 +85,11 @@ def parse_items(site, item, key):
 
 
 def parse_data(site):
-    c = Core(source_file='games.yaml', schema_files=['schema.yaml'])
-    c.validate(raise_exception=True)
-
     data = yaml.load(file(op.join(op.dirname(__file__), 'games.yaml')))
+
+    core = Core(source_data=data, schema_files=['schema.yaml'])
+    core.validate(raise_exception=True)
+
     for item in data:
         parse_items(site, item, 'clones')
         parse_items(site, item, 'reimplementations')
