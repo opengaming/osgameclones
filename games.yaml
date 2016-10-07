@@ -1464,10 +1464,12 @@
       url: http://dengine.net/
       repo: http://deng.git.sourceforge.net/git/gitweb.cgi?p=deng/deng;a=summary
       development: active
+      license: GPL2
       lang: C
     - name: Chocolate Doom
       url: http://www.chocolate-doom.org/
       development: active
+      license: GPL2
       lang: C
       repo: http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/
       media:
@@ -1495,12 +1497,15 @@
       url: http://sourceforge.net/dbimage.php?id=222124
       development: active
       lang: C
+      license: GPL2
       repo: http://www.crowproductions.de/repos/prboom/branches/prboom-plus-24/prboom2/
       media:
         - image: http://sourceforge.net/dbimage.php?id=222124
     - name: Odamex
       url: http://www.odamex.net/
+      status: playable
       development: active
+      license: GPL2
       lang: C
       repo: http://www.odamex.net/svn/log.php?isdir=1
     - name: GLHeretic
