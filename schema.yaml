@@ -28,7 +28,7 @@ schema;game:
       type: str
     status:
       type: str
-      enum: ['complete', 'playable', 'unplayable']
+      enum: ['playable', 'semi-playable', 'unplayable']
     development:
       type: str
       enum: ['complete', 'very active', 'active', 'sporadic', 'halted']
@@ -42,5 +42,3 @@ schema;game:
       type: any
     media:
       type: any
-
-
