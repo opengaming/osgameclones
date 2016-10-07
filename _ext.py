@@ -91,13 +91,14 @@ def parse_data(site):
         core = Core(source_data=data, schema_files=['schema.yaml'])
         core.validate(raise_exception=True)
     except:
+        print('\n')
         for error in core.errors:
             path = error.path.split('/')
             game = data[int(path[1])]
             name = game.get('name') or game.get('names')
-            print('\033[91m' + error.__repr__() + '\033[0m')
-            print(' -- ' + str(name))
-        print(str(len(core.errors)) + ' errors')
+            print('\033[91m' + '  ' + str(name) + '\033[0m')
+            print('    ' + error.__repr__())
+        print('\n  ' + str(len(core.errors)) + ' errors\n')
         sys.exit(1)
 
     for item in data:
