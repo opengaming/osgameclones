@@ -41,4 +41,13 @@ schema;game:
     added:
       type: any
     media:
-      type: any
+      type: seq
+      sequence:
+        - type: map
+          mapping:
+            raw:
+              type: str
+            image:
+              type: str
+            url:
+              type: str
