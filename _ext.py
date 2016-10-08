@@ -3,6 +3,7 @@ import pprint
 import os.path as op
 from datetime import date, timedelta
 from collections import OrderedDict
+from functools import partial
 
 import yaml
 from cyrax import events
@@ -36,8 +37,7 @@ def parse_tag(tag):
     return tag.replace(' ', '-').lower()
 
 
-def parse_tags(entry):
-    fields = ['status', 'development', 'license', 'lang', 'framework']
+def parse_tags(entry, fields):
     tags = []
 
     for field in fields:
@@ -68,11 +68,11 @@ def parse_global_tags(site, games, tag):
     setattr(site, tag, OrderedDict(sorted(getattr(site, tag, {}).items())))
 
 
-def parse_item(entry):
+def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
     added = entry.get('added') or date(1970, 1, 1)
     return dict(entry,
                 new=(date.today() - added) < timedelta(days=30),
-                tags=parse_tags(entry))
+                tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
 
 
 def parse_items(site, item, key):
@@ -80,9 +80,13 @@ def parse_items(site, item, key):
         if not getattr(site, key, False):
             setattr(site, key, [])
 
+        meta = item.get('meta', {})
+        meta_tags = ['genre', 'theme']
+        game_tags = ['status', 'development', 'license', 'lang', 'framework']
+        parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)
+
         parse_global_tags(site, item[key], 'lang')
-        getattr(site, key).append(
-            (names(item), item.get('meta', {}), map(parse_item, item[key])))
+        getattr(site, key).append((names(item), meta, map(parse_fn, item[key])))
 
 
 def show_validation_errors(data, errors):
