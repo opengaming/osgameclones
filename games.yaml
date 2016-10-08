@@ -1049,6 +1049,30 @@
         - Meteor
       license: MIT
 
+- name: Cataclysm
+  meta: 
+    genre:
+      - Role-Playing
+      - Survival
+    theme:
+      - Horror
+  clones:
+    - name: "Cataclysm: Dark Days Ahead"
+      url: http://en.cataclysmdda.com/
+      repo: https://github.com/CleverRaven/Cataclysm-DDA
+      status: playable
+      development: active
+      lang:
+        - C++
+        - Lua
+      framework: ncurses
+      license: CC-BY-SA
+      added: 2016-10-09
+      media:
+        - image: http://en.cataclysmdda.com/assets/drive.png
+        - image: http://en.cataclysmdda.com/assets/status.png
+        - youtube: iHfpBze8ecA
+
 - name: Catacomb II
   clones:
     - name: CatacombSDL
@@ -2206,7 +2230,7 @@
       added: 2015-06-01
       repo: https://github.com/jvlppm/pucpr-ld-parodius
       development: halted
-      framework: <a href='http://en.wikipedia.org/wiki/Construct_%28game_engine%29#Construct_2'>Construct2</a>
+      framework: Construct
 
 - name: Flappy Bird
   clones:
