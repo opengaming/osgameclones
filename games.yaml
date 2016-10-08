@@ -20,6 +20,9 @@
       repo: http://py1945game.googlecode.com/svn/trunk/
 
 - name: 3D Deathchase
+  meta:
+    genre: 
+      - Driving/Racing
   clones:
     - name: Deathchase 3D
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
@@ -29,6 +32,13 @@
       license: GPL2
 
 - name: [Abuse, Abuse (video game)]
+  meta:
+    genre:
+      - Action
+      - Shooter
+    theme:
+      - Horror
+      - Sci-Fi
   clones:
     - name: Abuse
       url: http://abuse.zoy.org/

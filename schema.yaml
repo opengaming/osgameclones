@@ -6,6 +6,8 @@ sequence:
         type: any
       names:
         type: any
+      meta:
+        include: meta
       clones:
         type: seq
         sequence:
@@ -14,6 +16,18 @@ sequence:
         type: seq
         sequence:
           - include: game
+
+schema;meta:
+  type: map
+  mapping:
+    genre: 
+      type: seq
+      sequence:
+        - include: genres
+    theme: 
+      type: seq
+      sequence:
+        - include: themes
 
 schema;game:
   type: map
@@ -51,6 +65,100 @@ schema;game:
               type: str
             url:
               type: str
+
+# Based on Giant Bomb genres
+# http://www.giantbomb.com/games/
+schema;genres:
+  type: str
+  enum: [
+    'Action', 
+    'Action-Adventure', 
+    'Adventure', 
+    'Baseball', 
+    'Basketball', 
+    'Billiards', 
+    'Block-Breaking', 
+    'Bowling', 
+    'Boxing', 
+    'Brawler', 
+    'Card Game', 
+    'Compilation', 
+    'Cricket', 
+    'Driving/Racing', 
+    'Dual-Joystick Shooter', 
+    'Educational', 
+    'Fighting', 
+    'First-Person Shooter', 
+    'Fishing', 
+    'Fitness', 
+    'Flight Simulator', 
+    'Football', 
+    'Gambling', 
+    'Golf', 
+    'Hockey', 
+    'Light-Gun Shooter', 
+    'Minigame Collection', 
+    'MMORPG', 
+    'MOBA', 
+    'Music/Rhythm', 
+    'Pinball', 
+    'Platformer', 
+    'Puzzle', 
+    'Real-Time Strategy', 
+    'Role-Playing', 
+    'Shoot ''Em Up', 
+    'Shooter', 
+    'Simulation', 
+    'Skateboarding', 
+    'Snowboarding/Skiing', 
+    'Soccer', 
+    'Sports', 
+    'Strategy', 
+    'Surfing', 
+    'Tennis', 
+    'Text Adventure', 
+    'Track & Field', 
+    'Trivia/Board Game', 
+    'Vehicular Combat', 
+    'Wrestling'
+  ]
+
+# Based on Giant Bomb themes
+# http://www.giantbomb.com/games/
+schema;themes:
+  type: str
+  enum: [
+    'Abstract', 
+    'Adult', 
+    'Alternate Historical', 
+    'Anime', 
+    'Aquatic', 
+    'Civil War', 
+    'Comedy', 
+    'Comic Book', 
+    'Crime', 
+    'Cyberpunk', 
+    'Dating', 
+    'Egyptian', 
+    'Espionage', 
+    'Fantasy', 
+    'Game Show', 
+    'Horror', 
+    'Management', 
+    'Martial Arts', 
+    'Mayan', 
+    'Medieval', 
+    'Modern Military', 
+    'Motorsports', 
+    'Post-Apocalyptic', 
+    'Prehistoric', 
+    'Sci-Fi', 
+    'Steampunk', 
+    'Superhero', 
+    'Vietnam', 
+    'Western', 
+    'World War II'
+  ]
 
 # Based on SPDX license codes
 # https://spdx.org/licenses/
