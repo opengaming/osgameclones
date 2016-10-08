@@ -50,20 +50,19 @@ def parse_tags(entry, fields):
     return tags
 
 
-def parse_global_tags(site, games, tag):
-    for game in games:
-        if tag in game:
-            if not getattr(site, tag, False):
-                setattr(site, tag, {})
+def parse_global_tags(site, item, tag):
+    if tag in item:
+        if not getattr(site, tag, False):
+            setattr(site, tag, {})
 
-            if isinstance(game[tag], basestring):
-                game[tag] = [game[tag]]
+        if isinstance(item[tag], basestring):
+            item[tag] = [item[tag]]
 
-            for t in game[tag]:
-                tagObj = getattr(site, tag, False)
-                if not tagObj.get(t, False):
-                    tagObj[t] = {'tag_count': 0}
-                tagObj[t]['tag_count'] += 1
+        for t in item[tag]:
+            tagObj = getattr(site, tag, False)
+            if not tagObj.get(t, False):
+                tagObj[t] = {'tag_count': 0}
+            tagObj[t]['tag_count'] += 1
 
     setattr(site, tag, OrderedDict(sorted(getattr(site, tag, {}).items())))
 
@@ -85,7 +84,8 @@ def parse_items(site, item, key):
         game_tags = ['status', 'development', 'license', 'lang', 'framework']
         parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)
 
-        parse_global_tags(site, item[key], 'lang')
+        for game in item[key]:
+            parse_global_tags(site, game, 'lang')
         getattr(site, key).append((names(item), meta, map(parse_fn, item[key])))
 
 
@@ -114,6 +114,7 @@ def parse_data(site):
             raise error
 
     for item in data:
+        parse_global_tags(site, item.get('meta', {}), 'genre')
         parse_items(site, item, 'clones')
         parse_items(site, item, 'reimplementations')
 

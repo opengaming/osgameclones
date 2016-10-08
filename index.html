@@ -152,6 +152,14 @@
     {% endfor %}
   </section>
 
+  <section class="tag-group">
+    <h4>Genres</h4>
+
+    {% for tag, tag_props in site.genre.iteritems() %}
+      {{ render_tag('genre', tag, tag_props['tag_count']) }}
+    {% endfor %}
+  </section>
+
   <h2>List of complete clones</h2>
   <article>Some of these games aren&#39;t reimplementations but evolution of original ones, which were eventually open sourced.</article>
   <dl>
