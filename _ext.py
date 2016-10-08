@@ -84,22 +84,29 @@ def parse_items(site, item, key):
         getattr(site, key).append((names(item), map(parse_item, item[key])))
 
 
+def show_validation_errors(data, errors):
+    print('\n')
+    for error in errors:
+        path = error.path.split('/')
+        game = data[int(path[1])]
+        name = game.get('name') or game.get('names')
+        print('\033[91m' + '  ' + str(name) + '\033[0m')
+        print('    ' + error.__repr__())
+    print('\n  ' + str(len(errors)) + ' errors\n')
+    sys.exit(1)
+
+
 def parse_data(site):
     data = yaml.load(file(op.join(op.dirname(__file__), 'games.yaml')))
 
     try:
         core = Core(source_data=data, schema_files=['schema.yaml'])
         core.validate(raise_exception=True)
-    except:
-        print('\n')
-        for error in core.errors:
-            path = error.path.split('/')
-            game = data[int(path[1])]
-            name = game.get('name') or game.get('names')
-            print('\033[91m' + '  ' + str(name) + '\033[0m')
-            print('    ' + error.__repr__())
-        print('\n  ' + str(len(core.errors)) + ' errors\n')
-        sys.exit(1)
+    except Exception as error:
+        if len(core.errors) > 0:
+            show_validation_errors(data, core.errors)
+        else:
+            raise error
 
     for item in data:
         parse_items(site, item, 'clones')
