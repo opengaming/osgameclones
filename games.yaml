@@ -1284,6 +1284,10 @@
         - image: http://cytadela.sourceforge.net/images/925.png
 
 - name: C-Dogs
+  meta:
+    genre: 
+      - Action
+      - Shoot 'Em Up
   clones:
     - name: C-Dogs SDL
       url: http://cxong.github.io/cdogs-sdl/
@@ -1291,7 +1295,7 @@
       status: playable
       development: active
       lang: C
-      license: GPL2
+      license: CC-BY
       framework: SDL2
       added: 2014-03-08
       media:
