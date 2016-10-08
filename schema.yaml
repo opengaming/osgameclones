@@ -65,6 +65,11 @@ schema;game:
               type: str
             url:
               type: str
+            youtube:
+              type: str
+              range:
+                min: 11
+                max: 11
 
 # Based on Giant Bomb genres
 # http://www.giantbomb.com/games/

@@ -100,6 +100,10 @@
   {% endfor -%}
 {%- endmacro %}
 
+{% macro render_youtube(youtube_id) -%}
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ youtube_id }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+{%- endmacro %}
+
 {% macro render(names, meta, items, mode) %}
   {% for name in names %}
     {{ render_name(name, meta, loop.index0, mode) }}
@@ -137,12 +141,13 @@
 
     <script type="text/screenshots">
       {% for item in game.get('media', []) %}
-      {% if 'raw' in item %}{{ item['raw'] }}{% endif %}
-      {% if 'image' in item -%}
-        {%- if 'url' in item -%} <a href="{{ item['url'] }}"> {%- endif -%}
-          <img src="{{ item['image'] }}">
-        {%- if 'url' in item -%} </a> {%- endif -%}
-      {%- endif %}
+        {% if 'youtube' in item %}{{ render_youtube(item['youtube']) }}{% endif %}
+        {% if 'raw' in item %}{{ item['raw'] }}{% endif %}
+        {% if 'image' in item -%}
+          {%- if 'url' in item -%} <a href="{{ item['url'] }}"> {%- endif -%}
+            <img src="{{ item['image'] }}">
+          {%- if 'url' in item -%} </a> {%- endif -%}
+        {%- endif %}
       {% endfor %}
     </script>
   </dd>
