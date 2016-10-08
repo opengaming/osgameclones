@@ -81,7 +81,8 @@ def parse_items(site, item, key):
             setattr(site, key, [])
 
         parse_global_tags(site, item[key], 'lang')
-        getattr(site, key).append((names(item), map(parse_item, item[key])))
+        getattr(site, key).append(
+            (names(item), item.get('meta', {}), map(parse_item, item[key])))
 
 
 def show_validation_errors(data, errors):

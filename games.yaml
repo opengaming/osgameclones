@@ -9,16 +9,6 @@
       lang: C++
       info: List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
 
-- name: ["1945", Strikers 1945]
-  clones:
-    - name: Py1945
-      added: 2015-04-13
-      url: https://code.google.com/p/py1945game/
-      development: halted
-      lang: Python
-      license: GPL
-      repo: http://py1945game.googlecode.com/svn/trunk/
-
 - name: 3D Deathchase
   meta:
     genre: 
@@ -55,6 +45,11 @@
         - image: http://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png
 
 - name: [Ace of Spades, Ace of Spades (video game)]
+  meta:
+    genre: 
+      - First-Person Shooter
+    theme:
+      - World War II
   clones:
     - name: Iceball
       added: 2015-07-22
@@ -81,6 +76,13 @@
           url: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240124607/media/shot0252.jpg?height=180&width=320
 
 - name: "Ace Combat: Assault Horizon"
+  meta:
+    genre:
+      - Action
+      - Flight Simulator
+    theme:
+      - Modern Military
+
   clones:
     - name: open-horizon
       added: 2016-02-09
@@ -96,6 +98,9 @@
         - image: http://zxstudio.org/blog/wp-content/uploads/2015/05/cockpit2.png
 
 - name: "Achtung, die Kurve!"
+  meta:
+    genre:
+      - Strategy
   clones:
     - name: Zatacka
       added: 2015-04-16
@@ -118,6 +123,12 @@
         - image: https://pwmarcz.pl/netacka/sshots.png
 
 - name: Age of Empires II
+  meta:
+    genre:
+      - Strategy
+      - Real-Time Strategy
+    theme:
+      - Medieval
   clones:
     - name: openage
       url: http://openage.sft.mx/
@@ -135,6 +146,11 @@
         - image: http://openage.sft.mx/pics/openage_0.png
 
 - name: "Akalabeth: World of Doom"
+  meta: 
+    genre:
+      - Role-Playing
+    theme:
+      - Fantasy
   clones:
     - name: Aklabeth
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
@@ -144,6 +160,9 @@
       license: GPL2
 
 - name: Alien 8
+  meta:
+    genre:
+      - Action
   clones:
     - name: Alien 8
       url: http://retrospec.sgn.net/game/alien8
@@ -162,6 +181,13 @@
           image: http://retrospec.sgn.net/config/screenshots/alien8.f.menu.jpg
 
 - name: [Allegiance, "Allegiance (video game)"]
+  meta:
+    genre:
+      - Action
+      - Simulation
+      - Real-Time Strategy
+    theme:
+      - Sci-Fi
   clones:
     - name: Free Allegiance
       repo: http://freeallegiance.cvs.sourceforge.net/viewvc/freeallegiance/
@@ -183,6 +209,12 @@
     - Alone in the Dark 2
     - Jack in the Dark
     - Alone in the Dark 3
+  meta:
+    genre:
+      - Action-Adventure
+    theme:
+      - Horror
+      - Alternate Historical
   clones:
     - name: Free in the Dark
       url: http://sourceforge.net/projects/fitd/
@@ -193,6 +225,12 @@
       license: GPL
 
 - name: "Anacreon: Reconstruction 4021"
+  meta:
+    genre:
+      - Strategy
+    theme:
+      - Sci-Fi
+      - Management
   clones:
     - name: "Ard-Reil: Anacreon Reconstruction Project"
       url: http://ardreil.sourceforge.net/
@@ -210,6 +248,12 @@
     - [Another World, "Another World (video game)"]
     - [Out of This World, "Another World (video game)"]
     - [Outer World (アウターワールド Autā Wārudo), "Another World (video game)"]
+  meta:
+    genre:
+      - Platformer
+      - Action-Adventure
+    theme:
+      - Sci-Fi
   clones:
     - name: New RAW
       url: http://sourceforge.net/projects/newraw/
@@ -4715,6 +4759,16 @@
       development: active
       lang: C++
       added: 2014-01-05
+
+- name: Strikers 1945
+  clones:
+    - name: Py1945
+      added: 2015-04-13
+      url: https://code.google.com/p/py1945game/
+      development: halted
+      lang: Python
+      license: GPL
+      repo: http://py1945game.googlecode.com/svn/trunk/
 
 - name: Sensible Soccer
   clones:
