@@ -149,7 +149,6 @@
       {% for item in game.get('media', []) %}
         {% if 'youtube' in item %}{{ render_youtube(item['youtube']) }}{% endif %}
         {% if 'vimeo' in item %}{{ render_vimeo(item['vimeo']) }}{% endif %}
-        {% if 'raw' in item %}{{ item['raw'] }}{% endif %}
         {% if 'image' in item -%}
           {%- if 'url' in item -%} <a href="{{ item['url'] }}"> {%- endif -%}
             <img src="{{ item['image'] }}">
