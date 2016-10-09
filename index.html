@@ -40,7 +40,7 @@
     <input id="filter" type="text" placeholder="Type to filter by name or information">
   </div>
 
-{% macro render_name(name, idx, mode) %}
+{% macro render_name(name, meta, idx, mode) %}
   {%- if name is string -%}
     {% set wiki = name %}
   {%- else -%}
@@ -53,9 +53,15 @@
     {% set wikilink = "http://en.wikipedia.org/wiki/" + wiki %}
   {%- endif -%}
 
-  <dt {% if not idx %}id="{{ show_id(name, mode) }}"{% endif -%} class="searchable">
+  <dt {% if not idx %}id="{{ show_id(name, mode) }}"{% endif %} class="searchable">
     <a href="{{ wikilink }}">{{ name }}</a>
     {% if not idx %}<a href="#{{ show_id(name, mode) }}" class="hash">#</a>{% endif %}
+
+    {% if not idx %}
+      {{ render_tag('genre', meta['genre']) }}
+      {{ render_tag('subgenre', meta['subgenre']) }}
+      {{ render_tag('theme', meta['theme']) }}
+    {% endif %}
   </dt>
 {% endmacro %}
 
@@ -69,13 +75,14 @@
       {% set tag_names = [tag_names] %}
     {%- endif -%}
 
-    {%- for tag_name in tag_names -%}
-      <span class="tag {{ tag_class | lower }} tag-{{ tag_name | lower | replace(' ', '-') }}"
-            data-name="{{ tag_name | replace(' ', '-') | lower | replace(' ', '-') }}">
+    {%- for tag_name in tag_names %}
+      {%- set className = ["tag", tag_class.lower(), "tag-"+tag_name.lower().replace(' ', '-')] -%}
+      {%- set dataName = tag_name.lower().replace(' ', '-') -%}
+      <span class="{{ className | join(' ') }}" data-name="{{ dataName }}">
         {{- tag_name -}}
         {%- if tag_props -%}<span class="tag-badge">{{ tag_props }}</span>{%- endif -%}
       </span>
-    {%- endfor -%}
+    {% endfor -%}
   {%- endif -%}
 {% endmacro %}
 
@@ -95,9 +102,19 @@
   {% endfor -%}
 {%- endmacro %}
 
-{% macro render(names, items, mode) %}
+{% macro render_youtube(youtube_id) -%}
+  <iframe src="https://www.youtube-nocookie.com/embed/{{ youtube_id }}?rel=0&amp;showinfo=0"
+    width="560" height="315" frameborder="0" allowfullscreen></iframe>
+{%- endmacro %}
+
+{% macro render_vimeo(vimeo_id) -%}
+  <iframe src="https://player.vimeo.com/video/{{ vimeo_id }}?title=0&amp;byline=0&amp;portrait=0" 
+    width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{%- endmacro %}
+
+{% macro render(names, meta, items, mode) %}
   {% for name in names %}
-    {{ render_name(name, loop.index0, mode) }}
+    {{ render_name(name, meta, loop.index0, mode) }}
   {% endfor %}
 
   {% for game in items %}
@@ -113,23 +130,33 @@
       data-index="{{ show_keywords(game, names) }}">
     <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
-    {%- if 'url' in game %}<a href="{{ game['url'] }}">{% endif %}{{ game['name'] }}{%- if 'url' in game %}</a>{% endif %}
+    {%- if 'url' in game -%}
+      <a href="{{ game['url'] }}">
+    {%- endif -%}
+      {{ game['name'] }}
+    {%- if 'url' in game %}</a>{% endif %}
 
-    {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif -%}
+
+    {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif %}
 
     {{ render_tag('status', game['status'] | title) }}
+    {{ render_tag('development', game['development'] | title) }}
     {{ render_tag('license', game['license']) }}
     {{ render_tag('lang', game['lang']) }}
     {{ render_tag('framework', game['framework']) }}
 
     {%- if 'info' in game %}<div>{{ game['info'] }}</div>{% endif %}
-
-    <script type="text/screenshots">
+    
+    <div class="gallery" style="display: none"></div>
+    <script class="gallery-raw" type="text/plain">
       {% for item in game.get('media', []) %}
-      {% if 'raw' in item %}{{ item['raw'] }}{% endif %}
-      {% if 'image' in item -%}
-        <a {%- if 'url' in item %} href="{{ item['url'] }}" {%- endif %}><img src="{{ item['image'] }}"></a>
-      {%- endif %}
+        {% if 'youtube' in item %}{{ render_youtube(item['youtube']) }}{% endif %}
+        {% if 'vimeo' in item %}{{ render_vimeo(item['vimeo']) }}{% endif %}
+        {% if 'image' in item -%}
+          {%- if 'url' in item -%} <a href="{{ item['url'] }}"> {%- endif -%}
+            <img src="{{ item['image'] }}">
+          {%- if 'url' in item -%} </a> {%- endif -%}
+        {%- endif %}
       {% endfor %}
     </script>
   </dd>
@@ -144,18 +171,26 @@
     {% endfor %}
   </section>
 
+  <section class="tag-group">
+    <h4>Genres</h4>
+
+    {% for tag, tag_props in site.genre.iteritems() %}
+      {{ render_tag('genre', tag, tag_props['tag_count']) }}
+    {% endfor %}
+  </section>
+
   <h2>List of complete clones</h2>
   <article>Some of these games aren&#39;t reimplementations but evolution of original ones, which were eventually open sourced.</article>
   <dl>
-    {% for names, items in site.clones %}
-    {{ render(names, items, 'clones') }}
+    {% for names, meta, items in site.clones %}
+    {{ render(names, meta, items, 'clones') }}
     {% endfor %}
   </dl>
 
   <h2>Inspired by original game series</h2>
   <dl>
-    {% for names, items in site.reimplementations %}
-    {{ render(names, items, 'inspired') }}
+    {% for names, meta, items in site.reimplementations %}
+      {{ render(names, meta, items, 'inspired') }}
     {% endfor %}
   </dl>
 

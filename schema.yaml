@@ -1,0 +1,212 @@
+type: seq
+sequence:
+  - type: map
+    mapping:
+      name:
+        type: any
+      names:
+        type: any
+      meta:
+        include: meta
+      clones:
+        type: seq
+        sequence:
+          - include: game
+      reimplementations:
+        type: seq
+        sequence:
+          - include: game
+
+schema;meta:
+  type: map
+  mapping:
+    genre: 
+      type: seq
+      sequence:
+        - include: genres
+    subgenre: 
+      type: seq
+      sequence:
+        - include: subgenres
+    theme: 
+      type: seq
+      sequence:
+        - include: themes
+
+schema;game:
+  type: map
+  mapping:
+    name:
+      type: str
+    url:
+      type: str
+    repo:
+      type: str
+    info:
+      type: str
+    status:
+      type: str
+      enum: ['playable', 'semi-playable', 'unplayable']
+    development:
+      type: str
+      enum: ['complete', 'very active', 'active', 'sporadic', 'halted']
+    license:
+      include: licenses
+    lang:
+      type: any
+    framework:
+      type: any
+    added:
+      type: any
+    media:
+      type: seq
+      sequence:
+        - type: map
+          mapping:
+            image:
+              type: str
+            url:
+              type: str
+            youtube:
+              type: str
+              range:
+                min: 11
+                max: 11
+            vimeo:
+              type: int
+
+
+# -- ADD NEW GENRES TO 'SUBGENRE' SCHEMA --
+# Based on Giant Bomb genres
+# http://www.giantbomb.com/games/
+schema;genres:
+  type: str
+  enum: [
+    'Action', 
+    'Action-Adventure', 
+    'Adventure', 
+    'Beat ''Em Up', 
+    'Block-Breaking', 
+    'Compilation', 
+    'Driving/Racing', 
+    'Educational', 
+    'Fighting', 
+    'First-Person Shooter', 
+    'Minigame Collection', 
+    'MMORPG', 
+    'MOBA', 
+    'Music/Rhythm', 
+    'Platformer', 
+    'Puzzle', 
+    'Real-Time Strategy', 
+    'Role-Playing', 
+    'Shoot ''Em Up', 
+    'Shooter', 
+    'Simulation', 
+    'Sports', 
+    'Strategy', 
+  ]
+
+schema;subgenres:
+  type: str
+  enum: [
+    "Action RPG",
+    "Baseball", 
+    "Basketball", 
+    "Billiards", 
+    "Bowling", 
+    "Boxing", 
+    "Card Game", 
+    "Cricket", 
+    "Dual-Joystick Shooter", 
+    "Fishing", 
+    "Fitness", 
+    "Flight Simulator", 
+    "Football", 
+    "Gambling", 
+    "Golf", 
+    "Hockey", 
+    "Light-Gun Shooter", 
+    "Pinball", 
+    "Roguelike",
+    "Run and gun", 
+    "Skateboarding", 
+    "Snowboarding/Skiing", 
+    "Soccer", 
+    "Surfing", 
+    "Survival", 
+    "Tennis", 
+    "Text Adventure", 
+    "Track & Field", 
+    "Trivia/Board Game", 
+    "Vehicular Combat", 
+    "Wrestling"
+  ]
+
+# Based on Giant Bomb themes
+# http://www.giantbomb.com/games/
+schema;themes:
+  type: str
+  enum: [
+    'Abstract', 
+    'Adult', 
+    'Alternate Historical', 
+    'Anime', 
+    'Aquatic', 
+    'Civil War', 
+    'Comedy', 
+    'Comic Book', 
+    'Crime', 
+    'Cyberpunk', 
+    'Dating', 
+    'Egyptian', 
+    'Espionage', 
+    'Fantasy', 
+    'Game Show', 
+    'Horror', 
+    'Management', 
+    'Martial Arts', 
+    'Mayan', 
+    'Medieval', 
+    'Modern Military', 
+    'Motorsports', 
+    'Post-Apocalyptic', 
+    'Prehistoric', 
+    'Sci-Fi', 
+    'Steampunk', 
+    'Superhero', 
+    'Vietnam', 
+    'Western', 
+    'World War II'
+  ]
+
+# Based on SPDX license codes
+# https://spdx.org/licenses/
+schema;licenses:
+  type: str
+  enum: [
+    'Custom', # Catch-all for custom licenses
+    'Multiple', # Catch-all for multiple licenses
+    'AGPL3',
+    'Apache',
+    'Artistic',
+    'BSD',
+    'BSD2',
+    'BSD4',
+    'CC0',
+    'CC-BY',
+    'CC-BY-NC',
+    'CC-BY-NC-SA',
+    'CC-BY-SA',
+    'GPL',
+    'GPL2',
+    'GPL3',
+    'JRL', # Java Research License
+    'LGPL',
+    'LGPL2',
+    'MIT',
+    'MPL', # Mozilla Public License
+    'MS-PL', # Microsoft Public License
+    'NGPL', # Nethack General Public License,
+    'WTFPL' # Do What The F*ck You Want To Public License
+  ]

@@ -5,6 +5,9 @@ CYRAX ?= cyrax
 build:
 	$(CYRAX)
 
+install:
+	pip install -r requirements.txt
+
 update:
 	git pull
 	$(CYRAX)

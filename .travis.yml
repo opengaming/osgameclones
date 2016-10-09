@@ -7,8 +7,7 @@ virtualenv:
 addons:
   ssh_known_hosts: sirius.solovyov.net
 install:
- - pip install cyrax
- - pip install pyyaml
+ - pip install -r requirements.txt
 script:
  - cyrax
  - test 6000 -lt $(cat _build/index.html | wc -l)
