@@ -5521,23 +5521,30 @@
         - image: https://a.fsdn.com/con/app/proj/spypunk-snake/screenshots/screenshot.png
 
 - name: Space Station 13
+  meta: 
+    genre: [Role-Playing, Simulation]
+    theme: [Sci-Fi, Comedy, Espionage]
   clones:
     - name: Griefly
       url: https://grief.ly/
       repo: https://github.com/griefly/griefly
       development: active
-      lang:
-        - C++
-        - Go
-        - Python
+      lang: [C++, Go, Python]
       license: MIT
       added: 2016-06-18
+    - name: Space Station 14
+      url: http://www.spacestation14.com/
+      repo: https://github.com/ss13remake/ss13remake
+      development: active
+      lang: C#
+      license: GPL3
+      added: 2016-10-09
     - name: ss13remake
-      added: 2015-06-24
       repo: https://github.com/ss13remake/ss13remake
       development: halted
       lang: C#
       license: GPL3
+      added: 2015-06-24
 
 - name: Star Fox 64
   clones:
