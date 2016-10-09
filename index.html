@@ -53,7 +53,7 @@
     {% set wikilink = "http://en.wikipedia.org/wiki/" + wiki %}
   {%- endif -%}
 
-  <dt {% if not idx %}id="{{ show_id(name, mode) }}"{% endif -%} class="searchable">
+  <dt {% if not idx %}id="{{ show_id(name, mode) }}"{% endif %} class="searchable">
     <a href="{{ wikilink }}">{{ name }}</a>
     {% if not idx %}<a href="#{{ show_id(name, mode) }}" class="hash">#</a>{% endif %}
 
@@ -75,13 +75,14 @@
       {% set tag_names = [tag_names] %}
     {%- endif -%}
 
-    {%- for tag_name in tag_names -%}
-      <span class="tag {{ tag_class | lower }} tag-{{ tag_name | lower | replace(' ', '-') }}"
-            data-name="{{ tag_name | replace(' ', '-') | lower | replace(' ', '-') }}">
+    {%- for tag_name in tag_names %}
+      {%- set className = ["tag", tag_class.lower(), "tag-"+tag_name.lower().replace(' ', '-')] -%}
+      {%- set dataName = tag_name.lower().replace(' ', '-') -%}
+      <span class="{{ className | join(' ') }}" data-name="{{ dataName }}">
         {{- tag_name -}}
         {%- if tag_props -%}<span class="tag-badge">{{ tag_props }}</span>{%- endif -%}
       </span>
-    {%- endfor -%}
+    {% endfor -%}
   {%- endif -%}
 {% endmacro %}
 
