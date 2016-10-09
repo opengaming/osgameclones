@@ -3,9 +3,11 @@ import pprint
 import os.path as op
 from datetime import date, timedelta
 from collections import OrderedDict
+from functools import partial
 
 import yaml
 from cyrax import events
+from pykwalify.core import Core
 
 
 def abort(msg):
@@ -35,8 +37,7 @@ def parse_tag(tag):
     return tag.replace(' ', '-').lower()
 
 
-def parse_tags(entry):
-    fields = ['status', 'license', 'lang', 'framework']
+def parse_tags(entry, fields):
     tags = []
 
     for field in fields:
@@ -49,29 +50,28 @@ def parse_tags(entry):
     return tags
 
 
-def parse_global_tags(site, games, tag):
-    for game in games:
-        if tag in game:
-            if not getattr(site, tag, False):
-                setattr(site, tag, {})
+def parse_global_tags(site, item, tag):
+    if tag in item:
+        if not getattr(site, tag, False):
+            setattr(site, tag, {})
 
-            if isinstance(game[tag], basestring):
-                game[tag] = [game[tag]]
+        if isinstance(item[tag], basestring):
+            item[tag] = [item[tag]]
 
-            for t in game[tag]:
-                tagObj = getattr(site, tag, False)
-                if not tagObj.get(t, False):
-                    tagObj[t] = {'tag_count': 0}
-                tagObj[t]['tag_count'] += 1
+        for t in item[tag]:
+            tagObj = getattr(site, tag, False)
+            if not tagObj.get(t, False):
+                tagObj[t] = {'tag_count': 0}
+            tagObj[t]['tag_count'] += 1
 
     setattr(site, tag, OrderedDict(sorted(getattr(site, tag, {}).items())))
 
 
-def parse_item(entry):
+def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
     added = entry.get('added') or date(1970, 1, 1)
     return dict(entry,
                 new=(date.today() - added) < timedelta(days=30),
-                tags=parse_tags(entry))
+                tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
 
 
 def parse_items(site, item, key):
@@ -79,14 +79,42 @@ def parse_items(site, item, key):
         if not getattr(site, key, False):
             setattr(site, key, [])
 
-        parse_global_tags(site, item[key], 'lang')
-        getattr(site, key).append((names(item), map(parse_item, item[key])))
+        meta = item.get('meta', {})
+        meta_tags = ['genre', 'subgenre', 'theme']
+        game_tags = ['status', 'development', 'license', 'lang', 'framework']
+        parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)
+
+        for game in item[key]:
+            parse_global_tags(site, game, 'lang')
+        getattr(site, key).append((names(item), meta, map(parse_fn, item[key])))
+
+
+def show_validation_errors(data, errors):
+    print('\n')
+    for error in errors:
+        path = error.path.split('/')
+        game = data[int(path[1])]
+        name = game.get('name') or game.get('names')
+        print('\033[91m' + '  ' + str(name) + '\033[0m')
+        print('    ' + error.__repr__())
+    print('\n  ' + str(len(errors)) + ' errors\n')
+    sys.exit(1)
 
 
 def parse_data(site):
     data = yaml.load(file(op.join(op.dirname(__file__), 'games.yaml')))
 
+    try:
+        core = Core(source_data=data, schema_files=['schema.yaml'])
+        core.validate(raise_exception=True)
+    except Exception as error:
+        if len(core.errors) > 0:
+            show_validation_errors(data, core.errors)
+        else:
+            raise error
+
     for item in data:
+        parse_global_tags(site, item.get('meta', {}), 'genre')
         parse_items(site, item, 'clones')
         parse_items(site, item, 'reimplementations')
 

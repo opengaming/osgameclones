@@ -9,8 +9,8 @@ pre { margin: 0 0 1em 1em; overflow: auto; }
 ul, ol { margin-left: 10px; }
 li  { margin-left:10px; padding-left:10px; }
 
-/* Bye bye ugly blue border */
-a img { border:0px; }
+img { max-width: 500px; } /* Make all screenshots fit */
+.screenshots a:hover { border: 0px; } /* Bye bye ugly blue border */
 
 /* No dots around clicked links */
 a, a:active { outline: none; }
@@ -97,7 +97,9 @@ dd + dt { margin-top: 1em; }
 .tag { display: inline-block; font-size: 12px; padding: 0 6px; margin: 0 2px;
        color: #444; background-color: #eee; cursor: pointer; white-space: nowrap;
        -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+
 .tag.status:hover { color: #444; background-color: #8AFF99; }
+.tag.development:hover { color: #444; background-color: #FF7878; }
 .tag.license:hover { color: #444; background-color: #FFFF8C; }
 .tag.lang:hover { color: #444; background-color: #9CFFFF; }
 .tag.framework:hover { color: #444; background-color: #FF786B; }
