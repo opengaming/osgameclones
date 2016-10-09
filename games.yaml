@@ -1965,16 +1965,23 @@
 
 - name: "The Elder Scrolls: Arena"
   clones:
-    - name: opentesarena
-      added: 2015-06-25
-      repo: https://github.com/trankas/opentesarena
-      development: halted
-      lang: Python
     - name: opentesarenapp
-      added: 2015-06-25
-      repo: https://github.com/trankas/opentesarenapp
+      added: 2016-10-07
+      repo: https://github.com/pralinor/opentesarenapp
       development: halted
+      status: not playable
       lang: C++
+      info: requires original files
+      framework: SDL2
+      license: MIT
+    - name: OpenTESArena
+      repo: https://github.com/afritz1/OpenTESArena
+      development: active
+      status: not playable
+      lang: C++
+      framework: SDL2
+      license: MIT
+      info: requires original files
 
 - name: "The Elder Scrolls II: Daggerfall"
   clones:
