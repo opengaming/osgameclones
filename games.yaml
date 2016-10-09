@@ -1788,8 +1788,8 @@
           url: https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_ord.png
     - name: Dune II - The Maker
       url: http://dune2themaker.fundynamic.com/
-      repo: git://github.com/stefanhendriks/Dune-II---The-Maker.git
-      added: 2014-09-05
+      repo: https://github.com/Fundynamic/dune2themaker4j
+      added: 2016-10-09
       development: halted
       lang: C++
       license: MIT
@@ -1966,7 +1966,7 @@
 - name: "The Elder Scrolls: Arena"
   clones:
     - name: opentesarenapp
-      added: 2016-10-07
+      added: 2016-10-09
       repo: https://github.com/pralinor/opentesarenapp
       development: halted
       status: not playable
@@ -1982,6 +1982,7 @@
       framework: SDL2
       license: MIT
       info: requires original files
+      added: 2016-10-09
 
 - name: "The Elder Scrolls II: Daggerfall"
   clones:
