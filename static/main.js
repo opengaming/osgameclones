@@ -1,23 +1,24 @@
 'use strict';
 
-// screenshot handling
+// gallery handling
 (function() {
-  var onclick = function() {
-    var screenshots = this.parentNode.getElementsByTagName("script");
-    if (screenshots.length) {
-        var innerHTML = '<div class="screenshots" style="display: none">' +
-                        screenshots[0].innerHTML + '</div>';
-        this.parentNode.insertAdjacentHTML('beforeend', innerHTML);
-        this.parentNode.removeChild(screenshots[0]);
-    }
-    screenshots = this.parentNode.getElementsByClassName("screenshots")[0];
-    var show_now = screenshots.style.display == "none";
-    this.innerHTML = show_now ? "&#x25bc;" : "&#x25b6;";
-    screenshots.style.display = show_now ? "block" : "none";
-  }
-  var els = document.getElementsByClassName("toggler");
+  var els = document.getElementsByClassName('toggler');
+  
   for (var i = 0, l = els.length; i < l; i++) {
-    els[i].addEventListener("click", onclick);
+    els[i].addEventListener('click', onclick);
+  }
+
+  function onclick(ev) {
+    var t = ev.target;
+    var gallery = t.parentNode.getElementsByClassName('gallery')[0];
+    var raw = t.parentNode.getElementsByClassName('gallery-raw')[0];
+    var show_now = gallery.style.display == 'none';
+
+    t.innerHTML = show_now ? '&#x25bc;' : '&#x25b6;';
+    gallery.style.display = show_now ? 'block' : 'none';
+
+    if (raw && show_now) { gallery.insertAdjacentHTML('beforeend', raw.innerHTML); }
+    else { gallery.innerHTML = ''; }
   }
 })();
 
