@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-RUN apk add --no-cache python py-pip py-yaml && pip install cyrax
+RUN apk add --no-cache python py-pip py-yaml && pip install -r requirements.txt
 RUN mkdir /src /app
 WORKDIR /src
 COPY . /src/
