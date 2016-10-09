@@ -80,7 +80,7 @@ def parse_items(site, item, key):
             setattr(site, key, [])
 
         meta = item.get('meta', {})
-        meta_tags = ['genre', 'theme']
+        meta_tags = ['genre', 'subgenre', 'theme']
         game_tags = ['status', 'development', 'license', 'lang', 'framework']
         parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)
 
