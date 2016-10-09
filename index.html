@@ -136,7 +136,6 @@
       {{ game['name'] }}
     {%- if 'url' in game %}</a>{% endif %}
 
-
     {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif %}
 
     {{ render_tag('status', game['status'] | title) }}
@@ -147,7 +146,16 @@
 
     {%- if 'info' in game %}<div>{{ game['info'] }}</div>{% endif %}
 
+    {%- set images = [] %}
+    {% for item in game.get('media', []) %}
+      {% if 'image' in item -%}
+        {% do images.append(item['image']) %}
+      {%- endif %}
+    {% endfor -%}
     <div class="gallery" style="display: none"></div>
+    {% if images | length > 0 -%}
+      <script class="gallery-json" type="text/json">{{ images | join(',') }}</script>
+    {% endif %}
     <script class="gallery-raw" type="text/plain">
       {% for item in game.get('media', []) %}
         {% if 'youtube' in item %}{{ render_youtube(item['youtube']) }}{% endif %}
