@@ -11,8 +11,7 @@
 
 - name: 3D Deathchase
   meta:
-    genre: 
-      - Driving/Racing
+    genre: [Driving/Racing]
   clones:
     - name: Deathchase 3D
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
@@ -23,12 +22,8 @@
 
 - name: [Abuse, Abuse (video game)]
   meta:
-    genre:
-      - Action
-      - Shooter
-    theme:
-      - Horror
-      - Sci-Fi
+    genre: [Action, Shooter]
+    theme: [Horror, Sci-Fi]
   clones:
     - name: Abuse
       url: http://abuse.zoy.org/
@@ -46,10 +41,8 @@
 
 - name: [Ace of Spades, Ace of Spades (video game)]
   meta:
-    genre: 
-      - First-Person Shooter
-    theme:
-      - World War II
+    genre: [First-Person Shooter]
+    theme: [World War II]
   clones:
     - name: Iceball
       added: 2015-07-22
@@ -77,11 +70,9 @@
 
 - name: "Ace Combat: Assault Horizon"
   meta:
-    genre:
-      - Action
-      - Flight Simulator
-    theme:
-      - Modern Military
+    genre: [Action]
+    subgenre: [Flight Simulator]
+    theme: [Modern Military]
   clones:
     - name: open-horizon
       added: 2016-02-09
@@ -98,8 +89,7 @@
 
 - name: "Achtung, die Kurve!"
   meta:
-    genre:
-      - Strategy
+    genre: [Strategy]
   clones:
     - name: Zatacka
       added: 2015-04-16
@@ -123,11 +113,8 @@
 
 - name: Age of Empires II
   meta:
-    genre:
-      - Strategy
-      - Real-Time Strategy
-    theme:
-      - Medieval
+    genre: [Strategy, Real-Time Strategy]
+    theme: [Medieval]
   clones:
     - name: openage
       url: http://openage.sft.mx/
@@ -146,10 +133,8 @@
 
 - name: "Akalabeth: World of Doom"
   meta: 
-    genre:
-      - Role-Playing
-    theme:
-      - Fantasy
+    genre: [Role-Playing]
+    theme: [Fantasy]
   clones:
     - name: Aklabeth
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
@@ -160,8 +145,7 @@
 
 - name: Alien 8
   meta:
-    genre:
-      - Action
+    genre: [Action]
   clones:
     - name: Alien 8
       url: http://retrospec.sgn.net/game/alien8
@@ -181,12 +165,8 @@
 
 - name: [Allegiance, "Allegiance (video game)"]
   meta:
-    genre:
-      - Action
-      - Simulation
-      - Real-Time Strategy
-    theme:
-      - Sci-Fi
+    genre: [Action, Simulation, Real-Time Strategy]
+    theme: [Sci-Fi]
   clones:
     - name: Free Allegiance
       repo: http://freeallegiance.cvs.sourceforge.net/viewvc/freeallegiance/
@@ -209,11 +189,8 @@
     - Jack in the Dark
     - Alone in the Dark 3
   meta:
-    genre:
-      - Action-Adventure
-    theme:
-      - Horror
-      - Alternate Historical
+    genre: [Action-Adventure]
+    theme: [Horror, Alternate Historical]
   clones:
     - name: Free in the Dark
       url: http://sourceforge.net/projects/fitd/
@@ -225,11 +202,8 @@
 
 - name: "Anacreon: Reconstruction 4021"
   meta:
-    genre:
-      - Strategy
-    theme:
-      - Sci-Fi
-      - Management
+    genre: [Strategy]
+    theme: [Sci-Fi, Management]
   clones:
     - name: "Ard-Reil: Anacreon Reconstruction Project"
       url: http://ardreil.sourceforge.net/
@@ -248,11 +222,8 @@
     - [Out of This World, "Another World (video game)"]
     - [Outer World (アウターワールド Autā Wārudo), "Another World (video game)"]
   meta:
-    genre:
-      - Platformer
-      - Action-Adventure
-    theme:
-      - Sci-Fi
+    genre: [Platformer, Action-Adventure]
+    theme: [Sci-Fi]
   clones:
     - name: New RAW
       url: http://sourceforge.net/projects/newraw/
@@ -1051,11 +1022,9 @@
 
 - name: Cataclysm
   meta: 
-    genre:
-      - Role-Playing
-      - Survival
-    theme:
-      - Horror
+    genre: [Role-Playing]
+    subgenre: [Roguelike, Survival]
+    theme: [Horror]
   clones:
     - name: "Cataclysm: Dark Days Ahead"
       url: http://en.cataclysmdda.com/
@@ -1309,9 +1278,8 @@
 
 - name: C-Dogs
   meta:
-    genre: 
-      - Action
-      - Shoot 'Em Up
+    genre: [Action, Shoot 'Em Up]
+    subgenre: [Run and gun]
   clones:
     - name: C-Dogs SDL
       url: http://cxong.github.io/cdogs-sdl/
@@ -7171,6 +7139,9 @@
     - [Hack, Hack (video game)]
     - [Rogue, Rogue_(video_game)]
     - NetHack
+  meta:
+    genre: [Role-Playing]
+    subgenre: [Roguelike]
   reimplementations:
     - url: http://www.slashem.org/
       name: SLASH'EM

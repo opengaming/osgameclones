@@ -24,6 +24,10 @@ schema;meta:
       type: seq
       sequence:
         - include: genres
+    subgenre: 
+      type: seq
+      sequence:
+        - include: subgenres
     theme: 
       type: seq
       sequence:
@@ -71,6 +75,8 @@ schema;game:
             vimeo:
               type: int
 
+
+# -- ADD NEW GENRES TO 'SUBGENRE' SCHEMA --
 # Based on Giant Bomb genres
 # http://www.giantbomb.com/games/
 schema;genres:
@@ -79,34 +85,17 @@ schema;genres:
     'Action', 
     'Action-Adventure', 
     'Adventure', 
-    'Baseball', 
-    'Basketball', 
-    'Billiards', 
+    'Beat ''Em Up', 
     'Block-Breaking', 
-    'Bowling', 
-    'Boxing', 
-    'Brawler', 
-    'Card Game', 
     'Compilation', 
-    'Cricket', 
     'Driving/Racing', 
-    'Dual-Joystick Shooter', 
     'Educational', 
     'Fighting', 
     'First-Person Shooter', 
-    'Fishing', 
-    'Fitness', 
-    'Flight Simulator', 
-    'Football', 
-    'Gambling', 
-    'Golf', 
-    'Hockey', 
-    'Light-Gun Shooter', 
     'Minigame Collection', 
     'MMORPG', 
     'MOBA', 
     'Music/Rhythm', 
-    'Pinball', 
     'Platformer', 
     'Puzzle', 
     'Real-Time Strategy', 
@@ -114,19 +103,44 @@ schema;genres:
     'Shoot ''Em Up', 
     'Shooter', 
     'Simulation', 
-    'Skateboarding', 
-    'Snowboarding/Skiing', 
-    'Soccer', 
     'Sports', 
     'Strategy', 
-    'Surfing', 
-    'Survival',
-    'Tennis', 
-    'Text Adventure', 
-    'Track & Field', 
-    'Trivia/Board Game', 
-    'Vehicular Combat', 
-    'Wrestling'
+  ]
+
+schema;subgenres:
+  type: str
+  enum: [
+    "Action RPG",
+    "Baseball", 
+    "Basketball", 
+    "Billiards", 
+    "Bowling", 
+    "Boxing", 
+    "Card Game", 
+    "Cricket", 
+    "Dual-Joystick Shooter", 
+    "Fishing", 
+    "Fitness", 
+    "Flight Simulator", 
+    "Football", 
+    "Gambling", 
+    "Golf", 
+    "Hockey", 
+    "Light-Gun Shooter", 
+    "Pinball", 
+    "Roguelike",
+    "Run and gun", 
+    "Skateboarding", 
+    "Snowboarding/Skiing", 
+    "Soccer", 
+    "Surfing", 
+    "Survival", 
+    "Tennis", 
+    "Text Adventure", 
+    "Track & Field", 
+    "Trivia/Board Game", 
+    "Vehicular Combat", 
+    "Wrestling"
   ]
 
 # Based on Giant Bomb themes
