@@ -5832,6 +5832,9 @@
 - names:
     - Transport Tycoon
     - Transport Tycoon Deluxe
+  meta:
+    genre: [Strategy, Simulation]
+    theme: [Management]
   clones:
     - url: http://www.openttd.org/
       name: OpenTTD
@@ -5839,15 +5842,20 @@
       development: active
       lang: C++
       repo: http://vcs.openttd.org/svn/timeline
+      license: GPL2
       media:
-        - url: http://media.openttd.org/images/screens/1.0/20101010_panswat_tongvorarat.png
-          image: http://media.openttd.org/images/screens/1.0/20101010_panswat_tongvorarat_thumb.png
-        - url: http://media.openttd.org/images/screens/1.0/20100326_rick_schoenman.png
-          image: http://media.openttd.org/images/screens/1.0/20100326_rick_schoenman_thumb.png
-        - url: http://media.openttd.org/images/screens/1.0/20100509_cw_gardenart.png
-          image: http://media.openttd.org/images/screens/1.0/20100509_cw_gardenart_thumb.png
-        - url: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d.png
-          image: http://media.openttd.org/images/screens/1.0/20100313_rakim-89_d_thumb.png
+        - image: https://media.openttd.org/images/screens/1.4/02-opengfx-1920x1200.png
+        - image: https://media.openttd.org/images/screens/1.3/realgrowth.png
+  reimplementations:
+    - name: Simutrans
+      development: active
+      status: playable
+      lang: C++
+      repo: https://github.com/aburch/simutrans
+      url: http://www.simutrans.com/
+      license: Artistic
+      media:
+        - image: https://upload.wikimedia.org/wikipedia/commons/d/de/Simutrans_pak64.png
 
 - name: Tranz Am
   clones:
@@ -7391,26 +7399,6 @@
       media:
         - image: https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
           url: https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
-
-- name: Transport Tycoon Deluxe
-  reimplementations:
-    - name: Simutrans
-      development: active
-      lang: C++
-      repo: https://github.com/aburch/simutrans
-      url: http://www.simutrans.com/
-      media:
-        - image: http://www.simutrans.com/gallery/pak64/pak64_1_th.jpg
-          url: http://www.simutrans.com/gallery/pak64/pak64_1.jpg
-        - image: http://www.simutrans.com/gallery/pak64/pak64_2_th.jpg
-          url: http://www.simutrans.com/gallery/pak64/pak64_2.jpg
-        - image: http://www.simutrans.com/gallery/pakjapan/pakjapan_1_th.jpg
-          url: http://www.simutrans.com/gallery/pakjapan/pakjapan_1.jpg
-        - image: http://www.simutrans.com/gallery/pak128britain/pak128britain_1_th.jpg
-          url: http://www.simutrans.com/gallery/pak128britain/pak128britain_1.jpg
-        - image: http://www.simutrans.com/gallery/pak32comic/pak32comic_1_th.png
-        - image: http://www.simutrans.com/gallery/pak96comic/pak96comic_3_th.jpg
-          url: http://www.simutrans.com/gallery/pak96comic/pak96comic_3.jpg
 
 - name: Tribal Hero
   reimplementations:
