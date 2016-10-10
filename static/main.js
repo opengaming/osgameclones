@@ -117,7 +117,8 @@ var OSGC = window.OSGC = {};
     OSGC.invalidImages = {
       forAnts: [],
       tooSmall: [],
-      tooBig: []
+      tooBig: [],
+      tooSlow: []
     };
   }
 
@@ -129,40 +130,39 @@ var OSGC = window.OSGC = {};
 
     for (let i = 0; i < galleries.length; i += 1) {
       let cur = galleries[i].innerHTML.split(',');
-      images = images.concat(cur)
+      images = images.concat(cur);
     }
     console.info('Galleries:', galleries.length);
     console.info('Images:', images.length);
     return images;
   }
 
-  function validateImage(image) {
+  function validateImage(image, loadTime) {
     let width = image.naturalWidth;
     if (width < 200) { OSGC.invalidImages.forAnts.push(image.src); }
     else if (width < 400) { OSGC.invalidImages.tooSmall.push(image.src); }
     else if (width > 2000) { OSGC.invalidImages.tooBig.push(image.src); }
+
+    if (loadTime > 5000) { OSGC.invalidImages.tooSlow.push(image.src); }
   }
 
   function downloadImage(url) {
     return new Promise(function (resolve, reject) {
+      let timeStart = new Date().getTime();
       let image = new Image();
       image.onload = onload;
       image.onerror = onerror;
       image.src = url;
 
-      function onload() {
-        resolve(image);
-      }
-
-      function onerror() {
-        reject(url);
-      }
+      function time() { return new Date().getTime() - timeStart; }
+      function onload() { resolve({image: image, time: time()}); }
+      function onerror() { reject({url: url, time: time()}); }
     });
   }
 
   function reflect(promise){
-      function resolved(image) { validateImage(image); }
-      function rejected(err) { OSGC.brokenLinks.push(err); };
+      function resolved(value) { validateImage(value.image, value.time); }
+      function rejected(err) { OSGC.brokenLinks.push(err.url); };
 
       return promise.then(resolved, rejected);
   }
@@ -198,7 +198,7 @@ var OSGC = window.OSGC = {};
     }
 
     function queue() {
-      if (cur === turns|| cur >= images_len / max) {
+      if (cur === turns || cur >= images_len / max) {
         return Promise.resolve();
       } else {
         return next().then(queue);
