@@ -132,7 +132,7 @@
         - image: http://openage.sft.mx/pics/openage_0.png
 
 - name: "Akalabeth: World of Doom"
-  meta: 
+  meta:
     genre: [Role-Playing]
     theme: [Fantasy]
   clones:
@@ -448,15 +448,15 @@
 - name: Astrosmash
   clones:
     - name: Cosmosmash
-      url: http://perso.b2b2c.ca/sarrazip/dev/cosmosmash.html
+      url: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html
       added: 2015-04-16
       development: sporadic
       lang: C++
+      framework: SDL
       license: GPL2
-      repo: http://perso.b2b2c.ca/sarrazip/dev/cosmosmash-1.4.7.tar.gz
+      repo: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash-1.4.7.tar.gz
       media:
-        - image: http://perso.b2b2c.ca/sarrazip/dev/images/cosmosmash-1.png
-          url: http://perso.b2b2c.ca/sarrazip/dev/images/cosmosmash-1.png
+        - image: http://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
 
 - name: Atomic Bomberman
   clones:
@@ -484,13 +484,13 @@
   clones:
     - name: Babaliba
       added: 2015-04-13
-      url: http://compiler.speccy.org/index.php?lang=eng&game=babaliba
-      repo: http://compiler.speccy.org/files/sources/Babaliba_Source.zip
+      url: https://compiler.speccy.org/remakes-babaliba.html
+      repo: https://compiler.speccy.org/files/sources/Babaliba_Source.zip
       lang: Visual FoxPro
       media:
-        - image: http://compiler.speccy.org/images/screens/babaliba-scr1.png
-        - image: http://compiler.speccy.org/images/screens/babaliba-scr2.png
-        - image: http://compiler.speccy.org/images/screens/babaliba-scr3.png
+        - image: https://compiler.speccy.org/img/screens/babaliba-scr1.png
+        - image: https://compiler.speccy.org/img/screens/babaliba-scr2.png
+        - image: https://compiler.speccy.org/img/screens/babaliba-scr3.png
 
 - names:
     - "Baldur's Gate series"
@@ -807,7 +807,7 @@
       repo: https://bitbucket.org/czirkoszoltan/gdash.git
       added: 2015-04-03
       media:
-        - image: https://bitbucket-assetroot.s3.amazonaws.com/repository/ejzABR/4034423466-gdashgame.png?Signature=o2QfvjwJ88fFCWZTTaamGfiml70%3D&Expires=1428046717&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82
+        - image: https://bitbucket.org/repo/ejzABR/images/4034423466-gdashgame.png
     - name: Mining Haze
       url: http://sourceforge.net/projects/mininghaze/
       added: 2015-04-15
@@ -856,9 +856,8 @@
       development: active
       lang: C++
       media:
-        - image: https://camo.githubusercontent.com/1bb9d1b6520dbefb609254a3d19b8565ee79e36a/68747470733a2f2f7261772e6769746875622e636f6d2f557661647a7563756d692f6a65746c65652f6d61737465722f7372632f646174612f7363722f7363722d30312e706e67
-        - image: https://camo.githubusercontent.com/a6f4b342651016f20950e567b4e4a77eefa7e99c/68747470733a2f2f7261772e6769746875622e636f6d2f557661647a7563756d692f6a65746c65652f6d61737465722f7372632f646174612f7363722f7363722d30322e706e67
-        - image: https://camo.githubusercontent.com/5ec2f487d035932e0205b779551f7d44821b942e/68747470733a2f2f7261772e6769746875622e636f6d2f557661647a7563756d692f6a65746c65652f6d61737465722f7372632f646174612f7363722f7363722d30332e706e67
+        - image: https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-01.png
+        - image: https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-03.png
 
 - name: Bubble Bobble
   clones:
@@ -893,14 +892,13 @@
   clones:
     - name: BurgerSpace
       added: 2015-04-16
-      url: http://perso.b2b2c.ca/sarrazip/dev/burgerspace.html
-      repo: http://perso.b2b2c.ca/sarrazip/dev/burgerspace-1.9.2.tar.gz
+      url: https://perso.b2b2c.ca/~sarrazip/dev/burgerspace.html
+      repo: https://perso.b2b2c.ca/~sarrazip/dev/burgerspace-1.9.2.tar.gz
       development: halted
       lang: C++
       license: GPL2
       media:
-        - image: http://perso.b2b2c.ca/sarrazip/dev/images/burgerspace-1.png
-          url: http://perso.b2b2c.ca/sarrazip/dev/images/burgerspace-1-tn.png
+        - image: http://perso.b2b2c.ca/~sarrazip/dev/images/burgerspace-1.png
 
 - names:
     - Buster Bros
@@ -1015,7 +1013,7 @@
       license: MIT
 
 - name: Cataclysm
-  meta: 
+  meta:
     genre: [Role-Playing]
     subgenre: [Roguelike, Survival]
     theme: [Horror]
@@ -1244,15 +1242,11 @@
 - name: Curse of the Azure Bonds
   clones:
     - name: coab
-      url: https://code.google.com/p/coab/
-      repo: https://code.google.com/p/coab/source/list
+      repo: https://github.com/simeonpilgrim/coab
       status: playable
       development: sporadic
       lang: C#
       added: 2013-05-28
-      media:
-        - image: http://coab.googlecode.com/svn/pics/title-screen.png
-        - image: http://coab.googlecode.com/svn/pics/world-map.png
 
 - name: [Cytadela, "http://www.ppa.pl/gry/cytadela.html"]
   clones:
@@ -1355,20 +1349,13 @@
     - [Descent, Descent (video game)]
     - Descent 2
   clones:
-    - name: D2X
+    - name: D2X-XL
       url: http://www.descent2.de/
       repo: http://d2x-xl.svn.sourceforge.net/viewvc/d2x-xl/
       development: active
       lang: C++
       media:
-        - url: http://www.descent2.de/images/screenshots/d2x-xl-screens1_4.jpg
-          image: http://www.descent2.de/images/screenshots/d2x-xl-screens1_4s.jpg
-        - url: http://www.descent2.de/images/screenshots/d2x-xl-screens1_5.jpg
-          image: http://www.descent2.de/images/screenshots/d2x-xl-screens1_5s.jpg
-        - url: http://www.descent2.de/images/screenshots/d2x-xl-screens3_1.jpg
-          image: http://www.descent2.de/images/screenshots/d2x-xl-screens3_1s.jpg
-        - url: http://www.descent2.de/images/screenshots/d2x-xl-screens7_8.jpg
-          image: http://www.descent2.de/images/screenshots/d2x-xl-screens7_8s.jpg
+        - youtube: AJwOTmmbze4
     - name: DXX-Rebirth
       url: http://www.dxx-rebirth.com/
       repo: http://dxx-rebirth.bzr.sourceforge.net/bzr/dxx-rebirth/
@@ -1549,23 +1536,20 @@
       lang: C
       repo: http://www.odamex.net/svn/log.php?isdir=1
     - name: GLHeretic
-      url: http://heretic.linuxgames.com/
       lang: C
       repo: http://freecode.com/projects/glhereticforlinux
       media:
-        - image: http://heretic.linuxgames.com/screenshots/heretic_1.jpg
-        - image: http://heretic.linuxgames.com/screenshots/heretic_2.jpg
+        - image: https://www.icewalkers.com/medias/screen/145/1/glheretic-for-linux.jpg
     - name: Freedoom
-      url: http://www.nongnu.org/freedoom/
+      url: http://freedoom.github.io/
       repo: https://github.com/chungy/freedoom
       info: free resources for Doom II
       development: sporadic
       added: 2013-06-06
       media:
-        - image: http://www.nongnu.org/freedoom/img/screenshots/th_0.6.3_01.jpg
-          url: http://www.nongnu.org/freedoom/img/screenshots/0.6.3_01.png
-        - image: http://www.nongnu.org/freedoom/img/screenshots/th_0.6.3_05.jpg
-          url: http://www.nongnu.org/freedoom/img/screenshots/0.6.3_05.jpg
+        - image: http://freedoom.github.io/img/screenshots/phase1-0.10_01.png
+        - image: http://freedoom.github.io/img/screenshots/phase1-0.10_02.png
+        - image: http://freedoom.github.io/img/screenshots/phase1-0.10_03.png
     - name: Doom Legacy
       url: http://doomlegacy.sourceforge.net/
       repo: http://sourceforge.net/p/doomlegacy/legacy2/ci/master/tree/
@@ -1951,8 +1935,7 @@
       development: sporadic
       lang: C#
       media:
-        - image: http://www.dungeoneye.net/wp-content/uploads/2011/03/forest-300x187.png
-          url: http://www.dungeoneye.net/wp-content/uploads/2011/03/forest.png
+        - image: http://www.dungeoneye.net/wp-content/uploads/sites/2/2016/05/forest.png
 
 - name: Elasto Mania
   clones:
@@ -2171,7 +2154,8 @@
       lang: C#
       license: Custom
       media:
-        - image: http://s689.photobucket.com/user/razvan2140/media/van%20buren/post13_3_zpsfe75e66a.png.html
+        - image: http://media.indiedb.com/images/games/1/24/23884/post13_3_zpsfe75e66a.png
+
 
 - name: "Fallout Tactics: Brotherhood of Steel"
   clones:
@@ -2366,14 +2350,13 @@
   clones:
     - name: Batrachians
       added: 2015-04-16
-      url: http://perso.b2b2c.ca/sarrazip/dev/batrachians.html
+      url: http://perso.b2b2c.ca/~sarrazip/dev/batrachians.html
       development: halted
       lang: C++
       license: GPL2
-      repo: http://perso.b2b2c.ca/sarrazip/dev/batrachians-0.1.6.tar.gz
+      repo: http://perso.b2b2c.ca/~sarrazip/dev/batrachians-0.1.6.tar.gz
       media:
-        - image: http://perso.b2b2c.ca/sarrazip/dev/images/batrachians-1.png
-          url: http://perso.b2b2c.ca/sarrazip/dev/images/batrachians-1-tn.png
+        - image: http://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
 
 - name: Frogger
   clones:
@@ -2922,14 +2905,10 @@
   clones:
     - name: Jetpac remake
       added: 2015-05-10
-      url: http://homepage.ntlworld.com/ian.wigley2/jet_pac_remake.html
       repo: https://github.com/ian-wigley/JetPac
       development: complete
       framework: XNA
       lang: C#
-      media:
-        - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Jetpac%20Remake.JPG
-        - image: http://homepage.ntlworld.com/ian.wigley2/graphics/XNA%20JetPac%20screen.PNG
 
 - name: [Jewel Thief, "http://www.mobygames.com/game/win3x/jewel-thief"]
   clones:
@@ -3190,16 +3169,14 @@
     - name: Lionheart Remake
       added: 2015-04-12
       repo: https://github.com/DjThunder/lionheart-remake
+      website: http://www.b3dgs.com/
       development: active
       lang: Java
       license: GPL2
       media:
-        - url: https://camo.githubusercontent.com/b9e4f75cc99a4deed81afc6b55a8a5364356384f/687474703a2f2f7777772e62336467732e636f6d2f76362f70726f6a656374732f6c696f6e656e67696e652f73637265656e732f6d696e692f312e706e67
-          image: http://www.b3dgs.com/v6/projects/lionengine/screens/1.png
-        - url: https://camo.githubusercontent.com/cf9eb0d690fc527f7e29b5abc0dfaedf63313866/687474703a2f2f7777772e62336467732e636f6d2f76362f70726f6a656374732f6c696f6e656e67696e652f73637265656e732f6d696e692f322e706e67
-          image: http://www.b3dgs.com/v6/projects/lionengine/screens/2.png
-        - url: https://camo.githubusercontent.com/561ef6ba983051988fec16d2bb3bb34dcb57b7e6/687474703a2f2f7777772e62336467732e636f6d2f76362f70726f6a656374732f6c696f6e656e67696e652f73637265656e732f6d696e692f332e706e67
-          image: http://www.b3dgs.com/v6/projects/lionengine/screens/3.png
+          image: http://www.b3dgs.com/v7/projects/lionheart_remake/screens/1.png
+          image: http://www.b3dgs.com/v7/projects/lionheart_remake/screens/2.png
+          image: http://www.b3dgs.com/v7/projects/lionheart_remake/screens/3.png
 
 - name: Little Big Adventure
   clones:
@@ -3291,13 +3268,10 @@
   clones:
     - name: luminesk5
       added: 2015-04-13
-      url: https://code.google.com/p/luminesk5/
-      repo: http://luminesk5.googlecode.com/svn/trunk/
+      repo: https://github.com/kaikai2/luminesk5
       development: halted
       lang: Objective-C
       license: GPL3
-      media:
-        - image: http://luminesk5.googlecode.com/files/lumines.PNG
 
 - names:
     - Magical Drop
@@ -3420,17 +3394,17 @@
 - name: "Medal of Honor: Allied Assault"
   clones:
     - name:  OpenMoHAA
-      url: https://github.com/openmoh/openmohaa
-      added: 2015-04-11
       repo: https://github.com/openmoh/openmohaa
+      url: http://openmohaa.sourceforge.net/
       info: based on ioquake3
       status: unplayable
       development: sporadic
       lang: C
-      framework: GPL2
+      license: GPL2
+      framework: SDL
+      added: 2015-04-11
       media:
-        - url: https://a.fsdn.com/con/app/proj/openmohaa/screenshots/282379.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/openmohaa/screenshots/282379.jpg
+        - image: http://openmohaa.sourceforge.net/media/hud.jpg
 
 - name: Monty Mole
   clones:
@@ -3509,15 +3483,15 @@
 - name: [Night Stalker, Night Stalker (video game)]
   clones:
     - name: Afternoon Stalker
-      url: http://perso.b2b2c.ca/sarrazip/dev/afternoonstalker.html
-      repo: http://perso.b2b2c.ca/sarrazip/dev/afternoonstalker-1.1.5.tar.gz
+      url: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html
+      repo: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker-1.1.5.tar.gz
       added: 2015-04-16
       development: sporadic
       lang: C++
       license: GPL2
       media:
-        - image: http://perso.b2b2c.ca/sarrazip/dev/images/afternoonstalker-1.png
-          url: http://perso.b2b2c.ca/sarrazip/dev/images/afternoonstalker-1-tn.png
+        - image: http://perso.b2b2c.ca/~sarrazip/dev/images/afternoonstalker-1.png
+          url: http://perso.b2b2c.ca/~sarrazip/dev/images/afternoonstalker-1-tn.png
 
 - name: [Octopus, "List of Game & Watch games#Octopus"]
   clones:
@@ -4060,19 +4034,14 @@
           image: http://www.minetest.net/_media/screen2.png?w=450
         - url: http://www.minetest.net/_detail/screenshot_4032289578.png?id=start
           image: http://www.minetest.net/_media/screenshot_4032289578.png?w=450
-    - url: http://manicdigger.sourceforge.net/
-      name: Manic Digger
+    - name: Manic Digger
+      url: http://manicdigger.github.io/
+      repo: https://github.com/manicdigger/manicdigger
       development: sporadic
       lang: C#
-      repo: http://sourceforge.net/p/manicdigger/code/ci/master/tree/
       added: 2013-10-10
       media:
-        - url: http://manicdigger.sourceforge.net/news/wp-content/uploads/2012/07/2011-06-23_18-34-58.png
-          image: http://manicdigger.sourceforge.net/news/wp-content/uploads/2012/07/2011-06-23_18-34-58-300x240.png
-        - url: http://manicdigger.sourceforge.net/news/wp-content/uploads/2012/07/2011-07-01_07-47-14.png
-          image: http://manicdigger.sourceforge.net/news/wp-content/uploads/2012/07/2011-07-01_07-47-14-300x240.png
-        - url: http://manicdigger.sourceforge.net/news/wp-content/uploads/2012/07/9c1d22eac9aac5f36bf12a5fb5c8a856.png
-          image: http://manicdigger.sourceforge.net/news/wp-content/uploads/2012/07/9c1d22eac9aac5f36bf12a5fb5c8a856-300x240.png
+        - image: http://manicdigger.github.io/images/release_2015-08-22.png
     - name: Gnomescroll
       url: https://github.com/Gnomescroll/Gnomescroll
       added: 2014-08-20
@@ -4215,15 +4184,10 @@
   clones:
     - name: Nodes of Yesnod remake
       added: 2015-05-10
-      url: http://homepage.ntlworld.com/ian.wigley2/nodes_of_yesod_remake.html
       repo: https://github.com/ian-wigley/Nodes-of-Yesod
       development: halted
       framework: XNA
       lang: C#
-      media:
-        - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Nodes.png
-        - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Map%20Maker.png
-        - image: http://homepage.ntlworld.com/ian.wigley2/graphics/Nodes%20XNA.png
 
 - name: "One Must Fall: 2097"
   clones:
@@ -4583,18 +4547,13 @@
 - name: Robotfindskitten
   clones:
     - name: rfk-inform
-      url: https://661.org/if/rfk/
       repo: https://github.com/DavidGriffith/rfk-inform
       development: halted
       framework: Inform6
       media:
-        - image: https://661.org/if/rfk/files/rfk-inform01.png
-        - image: https://661.org/if/rfk/files/rfk-inform02.png
-        - image: https://661.org/if/rfk/files/rfk-inform03.png
-        - image: https://661.org/if/rfk/files/rfk-inform04.png
-        - image: https://661.org/if/rfk/files/rfk-inform05.png
-        - image: https://661.org/if/rfk/files/rfk-inform06.png
-        - image: https://661.org/if/rfk/files/rfk-inform03.png
+        - image: http://robotfindskitten.org/shots/Inform/rfk-inform01.png
+        - image: http://robotfindskitten.org/shots/Inform/rfk-inform02.png
+        - image: http://robotfindskitten.org/shots/Inform/rfk-inform03.png
 
 - name: "Robotron: 2084"
   clones:
@@ -4885,17 +4844,17 @@
       lang: C
       added: 2015-04-03
       media:
+        - image: http://static.jonof.id.au/modsuppt/jfsw/shot_gl1.png
+        - image: http://static.jonof.id.au/modsuppt/jfsw/shot_gl2.png
         - image: http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
-          url: http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
     - name: SWP
       added: 2015-04-14
       url: http://www.proasm.com/sw/swp.html
-      repo: http://www.proasm.com/files/sw/SwpSrc432.zip
+      repo: https://github.com/Hendricks266/SWP
       lang: C
       license: GPL2
       media:
-        - image: http://www.proasm.com/sw/images/swpa.jpg
-        - image: http://www.proasm.com/sw/images/swp3.jpg
+        - youtube: JePqKJd4hhw
 
 - name: [Siege, Siege (video game)]
   clones:
@@ -5529,7 +5488,7 @@
         - image: https://a.fsdn.com/con/app/proj/spypunk-snake/screenshots/screenshot.png
 
 - name: Space Station 13
-  meta: 
+  meta:
     genre: [Role-Playing, Simulation]
     theme: [Sci-Fi, Comedy, Espionage]
   clones:
@@ -7727,16 +7686,11 @@
         - image: http://xenowar.net/images/cap05.png
     - name: "Project: Xenocide"
       added: 2015-04-11
-      url: http://www.projectxenocide.com/
+      repo: http://xenocide.cvs.sourceforge.net/viewvc/xenocide/
+      url: https://sourceforge.net/projects/xenocide/
       development: halted
       lang: C++
       license: GPL2
-      repo: http://xenocide.cvs.sourceforge.net/viewvc/xenocide/
-      media:
-        - url: http://www.projectxenocide.com/images/geoscape/thumbs/xnet_laboratory-100.jpg
-          image: http://www.projectxenocide.com/images/geoscape/xnet_laboratory-800.jpg
-        - url: http://www.projectxenocide.com/images/geoscape/thumbs/xnet_alien_containment-100.jpg
-          image: http://www.projectxenocide.com/images/geoscape/xnet_alien_containment-800.jpg
     - name: "X-Force: Fight For Destiny"
       added: 2015-04-11
       url: http://www.xforce-online.de/
