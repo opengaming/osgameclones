@@ -1521,13 +1521,13 @@
         - image: http://zdoom.org/w/images/thumb/8/8a/DOOM0003.png/120px-DOOM0003.png.jpg
           url: http://zdoom.org/w/images/8/8a/DOOM0003.png
     - name: PrBoom+
-      url: http://sourceforge.net/dbimage.php?id=222124
+      url: https://sourceforge.net/projects/prboom-plus/
       development: active
       lang: C
       license: GPL2
       repo: http://www.crowproductions.de/repos/prboom/branches/prboom-plus-24/prboom2/
       media:
-        - image: http://sourceforge.net/dbimage.php?id=222124
+        - image: https://sourceforge.net/p/prboom-plus/screenshot/222124.jpg
     - name: Odamex
       url: http://www.odamex.net/
       status: playable
@@ -2039,7 +2039,7 @@
       development: active
       lang: JavaScript
       media:
-        - image: http://imgchr.com/image/LXf
+        - image: https://raw.githubusercontent.com/newagebegins/exolon/master/screenshot.gif
 
 - name: ["F-1 Spirit", "F-1 Spirit (series)"]
   clones:
@@ -4019,16 +4019,12 @@
     - url: http://www.minetest.net/
       name: Minetest
       development: active
-      lang:
-        - C
-        - C++
+      lang: [C, C++]
       repo: https://github.com/minetest/minetest
       added: 2013-10-10
       media:
-        - url: http://www.minetest.net/_detail/screen2.png?id=start
-          image: http://www.minetest.net/_media/screen2.png?w=450
-        - url: http://www.minetest.net/_detail/screenshot_4032289578.png?id=start
-          image: http://www.minetest.net/_media/screenshot_4032289578.png?w=450
+        - image: http://www.minetest.net/media/gallery/1.jpg
+        - image: http://www.minetest.net/media/gallery/6.jpg
     - name: Manic Digger
       url: http://manicdigger.github.io/
       repo: https://github.com/manicdigger/manicdigger
@@ -4044,11 +4040,6 @@
       development: halted
       lang: C++
       license: GPL3
-      media:
-        - image: http://gnomescroll.com/static/img/homepage_screenshots/1.png
-        - image: http://gnomescroll.com/static/img/homepage_screenshots/2.png
-        - image: http://gnomescroll.com/static/img/homepage_screenshots/3.png
-        - image: http://gnomescroll.com/static/img/homepage_screenshots/4.png
     - name: Terasology
       url: http://terasology.org/
       repo: https://github.com/MovingBlocks/Terasology
@@ -4058,7 +4049,7 @@
       lang: Java
       license: Apache
       media:
-        - image: https://github.com/MovingBlocks/Terasology/raw/develop/engine/src/main/resources/assets/textures/menuBackground.jpg
+        - youtube: cU6LL5BXi5E
     - name: Hematite
       url: http://hematite.piston.rs/
       repo: https://github.com/PistonDevelopers/hematite
@@ -4255,22 +4246,6 @@
           url: http://lgames.sourceforge.net/LGeneral/ss0.jpg
         - image: http://lgames.sourceforge.net/LGeneral/t_ss1.jpg
           url: http://lgames.sourceforge.net/LGeneral/ss1.jpg
-
-- name: Paradroid
-  clones:
-    - name: FreedroidClassic
-      development: complete
-      lang: C
-      url: "http://www.freedroid.org/download/#c46"
-    - name: Nighthawk
-      url: http://night-hawk.sourceforge.net/
-      repo: http://night-hawk.cvs.sourceforge.net/viewvc/night-hawk/
-      status: playable
-      development: halted
-      lang: C++
-      added: 2013-05-27
-      media:
-        - image: http://night-hawk.sourceforge.net/nh_intro_1.png
 
 - name: [Paratrooper, Paratrooper (video game)]
   clones:
@@ -4601,7 +4576,6 @@
       license: GPL3
       media:
         - image: http://i.imgur.com/kTkK5Gw.png
-        - image: http://dev.intelorca.co.uk/2014/openrct2/cheats.png
 
 - name: Ryzom
   clones:
@@ -4923,7 +4897,7 @@
       lang: C++
       added: 2014-01-05
       media:
-        - image: https://github.com/fabianschuiki/OpenSkyscaper/wiki/current.png
+        - image: https://raw.githubusercontent.com/wiki/fabianschuiki/OpenSkyscraper/current.png
 
 - name: SingStar
   clones:
@@ -4991,14 +4965,12 @@
   clones:
     - name: pyspaceinvaders
       added: 2015-04-11
-      url: http://www.jimbrooks.org/programming/python/pyspaceinvaders/
-      repo: http://www.jimbrooks.org/software/python/pyspaceinvaders_20090823.tar.bz2
+      repo: https://github.com/map0logo/pyspaceinvaders
       development: halted
       lang: Python
       license: GPL2
       media:
-        - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090818_splash.png
-        - image: http://www.jimbrooks.org/programming/python/pyspaceinvaders/img/screenshots/pyspaceinvaders_screenshot_20090823.png
+        - image: http://www.pygame.org/shots/1259.gif
     - name: div-spaceinvaders2600
       repo: https://github.com/MikeDX/div-spaceinvaders2600
       url: http://js.mikedx.co.uk/invadersa2600.html
@@ -5297,13 +5269,13 @@
       repo: https://github.com/scottschiller/SURVIVOR
       added: 2015-04-08
       url: http://www.schillmania.com/survivor/
+      status: playable
       development: sporadic
-      framework:
-        - HTML
-      lang: JavaScript
+      framework: [HTML]
+      lang: [JavaScript]
       license: CC-BY-NC
       media:
-        - image: https://www.flickr.com/photos/schill/10177812825/in/album-72157628885315581/player/
+        - image: https://farm8.staticflickr.com/7427/10177812825_1a524cb34d_h.jpg
 
 - name: [Syndicate, Syndicate (video game)]
   clones:
@@ -5376,8 +5348,6 @@
       url: http://richardcarlsson.blogspot.co.uk/2014/11/the-hobbit-1982-game-graphics-engine-in.html
       development: active
       lang: JavaScript
-      media:
-        - image: data:image/png;base64,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
 
 - name: The Last Ninja
   clones:
@@ -5401,11 +5371,7 @@
       repo: https://github.com/freeserf/freeserf
       added: 2012-04-15
       media:
-        - image: http://jonls.dk/wp-content/uploads/sett-pre_20100605-1.jpg
-        - image: http://jonls.dk/wp-content/uploads/sett-pre_20100605-2-150x150.jpg
-          url: http://jonls.dk/wp-content/uploads/sett-pre_20100605-2.jpg
-        - image: http://jonls.dk/wp-content/uploads/sett-pre_20100605-3-150x150.jpg
-          url: http://jonls.dk/wp-content/uploads/sett-pre_20100605-3.jpg
+        - youtube: DdVtOhIIjow
 
 - name: The Settlers II
   clones:
@@ -5480,7 +5446,7 @@
       development: active
       added: 2016-09-14
       media:
-        - image: https://a.fsdn.com/con/app/proj/spypunk-snake/screenshots/screenshot.png
+        - image: https://raw.githubusercontent.com/spypunk/snake/master/img/screenshot.png
 
 - name: Space Station 13
   meta:
@@ -5949,14 +5915,11 @@
       development: sporadic
       lang: Java
       license: GPL2
-      url: http://www.b3dgs.com/v6/page.php?lang=en&section=tyrian_remake
+      url: http://www.b3dgs.com
       media:
-        - image: http://www.b3dgs.com/v6/projects/tyrian_remake/screens/1.png
-          url: https://camo.githubusercontent.com/5ff474648b79186e89d6301546d05d14b9bf328e/687474703a2f2f7777772e62336467732e636f6d2f76362f70726f6a656374732f74797269616e5f72656d616b652f73637265656e732f6d696e692f312e706e67
-        - image: http://www.b3dgs.com/v6/projects/tyrian_remake/screens/7.png
-          url: https://camo.githubusercontent.com/38cfa9bcf5f4e6042361a414b43084d585bbbecc/687474703a2f2f7777772e62336467732e636f6d2f76362f70726f6a656374732f74797269616e5f72656d616b652f73637265656e732f6d696e692f372e706e67
-        - image: http://www.b3dgs.com/v6/projects/tyrian_remake/screens/8.png
-          url: https://camo.githubusercontent.com/828401acd38ba2ee3cb2dcb9fda09a59525bd31a/687474703a2f2f7777772e62336467732e636f6d2f76362f70726f6a656374732f74797269616e5f72656d616b652f73637265656e732f6d696e692f382e706e67
+        - image: http://www.b3dgs.com/v7/projects/tyrian_remake/screens/1.png
+        - image: http://www.b3dgs.com/v7/projects/tyrian_remake/screens/7.png
+        - image: http://www.b3dgs.com/v7/projects/tyrian_remake/screens/8.png
 
 - name: Ugh!
   clones:
@@ -6223,19 +6186,11 @@
           url: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat_sm.png
   reimplementations:
     - name: jClassicRPG
-      url: http://javacrpg.sourceforge.net/
+      url: http://jcrpg.blogspot.com.au/
       added: 2015-04-11
       development: halted
       lang: Java
       license: GPL3
-      repo: svn://svn.code.sf.net/p/javacrpg/code/trunk
-      media:
-        - image: http://javacrpg.sourceforge.net/screenshots/combat_woman.jpg
-          url: http://javacrpg.sourceforge.net/screenshots/combat_woman_thumb.jpg
-        - image: http://javacrpg.sourceforge.net/screenshots/misc_scene_1.jpg
-          url: http://javacrpg.sourceforge.net/screenshots/misc_scene_1_thumb.jpg
-        - image: http://javacrpg.sourceforge.net/screenshots/misc_scene_2.jpg
-          url: http://javacrpg.sourceforge.net/screenshots/misc_scene_2_thumb.jpg
 
 - names:
     - "Wolfenstein 3D"
@@ -6523,17 +6478,14 @@
     - name: 0 A.D.
       url: http://play0ad.com/
       repo: http://trac.wildfiregames.com/timeline
+      status: playable
       development: active
       lang: C++
+      license: GPL2
       media:
-        - image: http://wildfiregames.com/0ad/album_thumbnail.php?pic_id=13043
-          url: http://wildfiregames.com/0ad/album_image.php?pic_id=13043
-        - image: http://wildfiregames.com/0ad/album_thumbnail.php?pic_id=14162
-          url: http://wildfiregames.com/0ad/album_image.php?pic_id=14162
-        - image: http://wildfiregames.com/0ad/album_thumbnail.php?pic_id=13769
-          url: http://wildfiregames.com/0ad/album_image.php?pic_id=13769
-        - image: http://wildfiregames.com/0ad/album_thumbnail.php?pic_id=12782
-          url: http://wildfiregames.com/0ad/album_image.php?pic_id=12782
+        - image: https://play0ad.com/wp-content/gallery/screenshots/screenshot0088.png
+        - image: https://play0ad.com/wp-content/gallery/screenshots/screenshot0072.jpg
+        - image: https://play0ad.com/wp-content/gallery/screenshots/water-depth-rendering.jpg
 
 - name: [Anno series, Anno_1602]
   reimplementations:
@@ -6616,14 +6568,9 @@
       development: active
       lang: C++
       media:
-        - image: http://bzflag.org/resources/screenshots/dantes_inferno_01_t.jpg
-          url: http://bzflag.org/resources/screenshots/dantes_inferno_01.jpg
-        - image: http://bzflag.org/resources/screenshots/collaborator_2010_01_t.jpg
-          url: http://bzflag.org/resources/screenshots/collaborator_2010_01.jpg
-        - image: http://bzflag.org/resources/screenshots/h2o_02_t.jpg
-          url: http://bzflag.org/resources/screenshots/h2o_02.jpg
-        - image: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01_t.jpg
-          url: http://bzflag.org/resources/screenshots/the_battle_of_midway_island_01.jpg
+        - image: http://bzflag.org/images/screenshots/dantes_inferno_01.jpg
+        - image: http://bzflag.org/images/screenshots/collaborator_2010_01.jpg
+        - image: http://bzflag.org/images/screenshots/delirious_city_03.jpg
 
 - name: [Brain Blasters, "http://www.mobygames.com/game/brain-blasters"]
   reimplementations:
@@ -6721,24 +6668,6 @@
           url: http://sumwars.org/mediawiki/images/5/5c/What_a_cute_skeleton_this_is%21.jpg
         - image: http://sumwars.org/mediawiki/images/thumb/2/2c/The_blizzard_-_highly_effective_when_used_correct.jpg/200px-The_blizzard_-_highly_effective_when_used_correct.jpg
           url: http://sumwars.org/mediawiki/images/2/2c/The_blizzard_-_highly_effective_when_used_correct.jpg
-    - url: http://www.freedroid.org/
-      name: FreedroidRPG
-      development: active
-      lang:
-        - C
-        - Lua
-        - Python
-      license: GPL2
-      repo: http://sourceforge.net/projects/freedroid/develop
-      media:
-        - image: http://www.freedroid.org/typo3temp/pics/1a05e07c79.jpg
-          url: http://www.freedroid.org/typo3temp/pics/12b3e3a02e.jpg
-        - image: http://www.freedroid.org/typo3temp/pics/f03a0a4ccd.jpg
-          url: http://www.freedroid.org/typo3temp/pics/282261c89f.jpg
-        - image: http://www.freedroid.org/typo3temp/pics/9f008bc1fc.jpg
-          url: http://www.freedroid.org/typo3temp/pics/8239fa6778.jpg
-        - image: http://www.freedroid.org/typo3temp/pics/96a82609d3.jpg
-          url: http://www.freedroid.org/typo3temp/pics/88d276f8fa.jpg
     - url: http://clintbellanger.net/rpg/
       name: Flare
       development: active
@@ -6758,8 +6687,7 @@
       framework: HTML5
       repo: https://github.com/gtanczyk/Dupocracy
       media:
-        - image: http://www.gamedev.pl/images/m/557,fogofwarpng.jpg
-          url: http://www.gamedev.pl/images/l/557,fogofwarpng.jpg
+        - image: http://www.gamedev.pl/images/l/557,fogofwarpng.jpg
 
 - name: Dungeon Keeper
   reimplementations:
@@ -6811,14 +6739,10 @@
       development: active
       repo: http://svn.berlios.de/wsvn/oolite-linux/?op=log&isdir=1&
       media:
-        - url: http://www.oolite.org/images/gallery/full/all-ships.jpg
-          image: http://www.oolite.org/images/gallery/all-ships!jpg
-        - url: http://www.oolite.org/images/gallery/full/full-of-stars.jpg
-          image: http://www.oolite.org/images/gallery/full-of-stars!jpg
-        - url: http://www.oolite.org/images/gallery/full/coriolis.jpg
-          image: http://www.oolite.org/images/gallery/coriolis!jpg
-        - url: http://www.oolite.org/images/gallery/full/advanced-nav-array
-          image: http://www.oolite.org/images/gallery/advanced-nav-array
+        - image: http://www.oolite.org/images/gallery/large/TradePost.jpg
+        - image: http://www.oolite.org/images/gallery/large/Kiota.png
+        - image: http://www.oolite.org/images/gallery/large/Contracts.png
+
   clones:
     - name: "Mission ELITE: The Battle For Birera"
       added: 2015-04-08
@@ -6830,15 +6754,22 @@
         - image: https://1.bp.blogspot.com/_zJ6-FHWQvDE/R0e_NhJFakI/AAAAAAAAACw/tgysRPXJfeU/s400/el-14.jpg
 
 - name: [Elite II, "Frontier: Elite II"]
+  meta:
+    genre: [Action, Simulation]
+    theme: [Sci-Fi, Espionage]
   reimplementations:
     - name: Pioneer
       url: http://pioneerspacesim.net/
       repo: https://github.com/pioneerspacesim/pioneer
       added: 2013-05-27
+      status: playable
       development: active
-      lang: C++
+      lang: [C++, C, Lua]
+      license: GPL3
       media:
-        - image: http://pioneerspacesim.net/assets/ss1.png.pagespeed.ce.U2_loVycEA.png
+        - image: http://pioneerspacesim.net/assets/ss2.png
+        - image: http://pioneerspacesim.net/assets/ss1.png
+        - vimeo: 78452479
   clones:
     - name: GLFrontier
       url: http://tom.noflag.org.uk/glfrontier.html
@@ -6847,7 +6778,8 @@
       development: halted
       lang: C++
       media:
-        - image: http://tom.noflag.org.uk/frontier_logo.png
+        - image: http://www.theisozone.com/images/screens/pc-58582-21416982975.jpg
+        - youtube: r8cmyo29NME
     - name: Frontier 1337
       repo: http://www.txori.com/data/documents/frontier/frontier_1337.rar
       url: http://www.txori.com/?static2/frontier
@@ -6855,7 +6787,7 @@
       lang: C
       info: PSP port
       media:
-        - image: http://www.txori.com/data/images/frontier/icon.png
+        - image: http://www.txori.com/data/images/articles/140205_frontier_ppsspp_android.png
 
 - name: [Escape Velocity, Escape Velocity (video game)]
   reimplementations:
@@ -7163,23 +7095,37 @@
       lang: C#
 
 - name: Paradroid
+  meta:
+    genre: [Action, Puzzle]
+    theme: [Fantasy, Sci-Fi]
+  clones:
+    - name: FreedroidClassic
+      development: complete
+      lang: C
+      url: "http://www.freedroid.org/download/#c46"
+      media:
+        - image: http://a.fsdn.com/con/app/proj/freedroid/screenshots/25826.jpg
+    - name: Nighthawk
+      url: http://night-hawk.sourceforge.net/
+      repo: http://night-hawk.cvs.sourceforge.net/viewvc/night-hawk/
+      status: playable
+      development: halted
+      lang: C++
+      added: 2013-05-27
+      media:
+        - image: http://night-hawk.sourceforge.net/nh_intro_1.png
   reimplementations:
     - name: FreedroidRPG
       url: http://www.freedroid.org/
       repo: git://git.code.sf.net/p/freedroid/code
+      status: playable
       development: active
-      lang:
-        - Python
-        - C
-        - Lua
+      lang: [Python, C, Lua]
       license: GPL2
       media:
-        - url: http://www.freedroid.org/typo3temp/pics/1a05e07c79.jpg
-          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Fbeginning-cryolab-3455.jpg&md5=a23bdfc7733b5af61b88e3fdd7b86fad7f7ea7b3&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
-        - url: http://www.freedroid.org/typo3temp/pics/bf0f5a5110.jpg
-          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Ffight-cryoentrance-3455.jpg&md5=5ff77ef9b8a1387efd05de4045a3f8f16e84dc3b&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
-        - url: http://www.freedroid.org/typo3temp/pics/8e73eab80e.jpg
-          image: http://www.freedroid.org/index.php?eID=tx_cms_showpic&file=uploads%2Fpics%2Fitemaddons-upgrading-3455.jpg&md5=6e3cc2483e9cfc7c75b8a2d9edb56c6170bcc41e&parameters[0]=YTo0OntzOjU6IndpZHRoIjtzOjQ6IjgwMG0iO3M6NjoiaGVpZ2h0IjtzOjQ6IjYw&parameters[1]=MG0iO3M6NzoiYm9keVRhZyI7czo0MToiPGJvZHkgc3R5bGU9Im1hcmdpbjowOyBi&parameters[2]=YWNrZ3JvdW5kOiNmZmY7Ij4iO3M6NDoid3JhcCI7czozNzoiPGEgaHJlZj0iamF2&parameters[3]=YXNjcmlwdDpjbG9zZSgpOyI%2BIHwgPC9hPiI7fQ%3D%3D
+        - image: http://www.freedroid.org/images/screenshots/hell_fortress.png
+        - image: http://www.freedroid.org/images/screenshots/editor_zoom.png
+        - image: http://www.freedroid.org/images/screenshots/editor.png
 
 - name: RPG Maker
   reimplementations:
@@ -7378,10 +7324,9 @@
       repo: https://github.com/SuperTux/supertux
       added: 2014-08-14
       media:
-        - image: http://supertux.lethargik.org/images/supertux-0.1.3-1_small.jpg
-          url: http://supertux.lethargik.org/images/supertux-0.1.3-1.jpg
-        - image: http://supertux.lethargik.org/images/supertux-0.1.3-6_small.jpg
-          url: http://supertux.lethargik.org/images/supertux-0.1.3-6.jpg
+        - image: http://supertux.github.io/images/0_3_5_7.png
+        - image: http://supertux.github.io/images/0_3_5_8.png
+        - image: http://supertux.github.io/images/0_3_5_11.png
     - name: Super Mario Bros With SFML in C#
       url: https://mario.codeplex.com/
       added: 2015-05-03
@@ -7464,18 +7409,14 @@
   reimplementations:
     - name: Orbit-Hopper
       added: 2015-04-16
-      url: http://www.zneaker.com/joomla/index.php?view=article&catid=40%3Aprojects&id=48%3Aorbit-hopper&option=com_content&Itemid=27
+      url: http://www.zneaker.com/projects.html#orbit
       development: halted
       lang: C++
       license: GPL2
-      repo: http://www.zneaker.com/down/orbithopper116c.tar.gz
+      repo: http://www.zneaker.com/downloads/orbithopper116c.tar.gz
       media:
-        - image: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/m8.png
-          url: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/thumb/m8.png
-        - image: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/m3.png
-          url: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/thumb/m3.png
-        - image: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/m7.png
-          url: http://www.zneaker.com/joomla/images/stories/imagebrowser/Orbit-Hopper/thumb/m7.png
+        - image: https://lgdb.org/sites/default/files/node_images/134/496.jpg
+        - image: https://lgdb.org/sites/default/files/node_images/134/497.jpg
 
 - name: Tetris
   reimplementations:
@@ -7504,10 +7445,8 @@
       development: active
       lang: C++
       media:
-        - image: http://img594.imageshack.us/img594/6028/violetlandv0210q.th.png
-          url: http://imageshack.us/photo/my-images/594/violetlandv0210q.png/
-        - image: http://img156.imageshack.us/img156/1433/violetlandv02101.th.png
-          url: http://img156.imageshack.us/i/violetlandv02101.png/
+        - image: http://violetland.github.io/images/screenshots/thumbnail/violetland-illumination-630x475.png
+        - image: http://violetland.github.io/images/screenshots/thumbnail/violetland-flashlight-630x475.png
 
 - name: [Worms Series, Worms (series)]
   reimplementations:
@@ -7534,14 +7473,8 @@
       lang: C++
       repo: http://svn.gna.org/viewcvs/warmux/
       media:
-        - url: http://www.wormux.org/phpboost/gallery/pics/1101a.jpg
-          image: http://www.wormux.org/phpboost/gallery/pics/thumbnails/1101a.jpg
-        - url: http://www.wormux.org/phpboost/gallery/pics/1101b.jpg
-          image: http://www.wormux.org/phpboost/gallery/pics/thumbnails/1101b.jpg
-        - url: http://www.wormux.org/phpboost/gallery/pics/1101c.jpg
-          image: http://www.wormux.org/phpboost/gallery/pics/thumbnails/1101c.jpg
-        - url: http://www.wormux.org/phpboost/gallery/pics/0_9_0_a.png
-          image: http://www.wormux.org/phpboost/gallery/pics/thumbnails/0_9_0_a.png
+        - image: https://lgdb.org/sites/default/files/node_images/29/160.jpg
+        - youtube: X3ZkTg-QkAo
 
 - name: UGH!
   reimplementations:
@@ -7797,12 +7730,9 @@
 - name: VVVVVV
   reimplementations:
     - name: WWW
-      url: http://alexdantas.net/games/www/
       repo: https://github.com/alexdantas/www
       development: halted
       framework: HTML5
       lang: JavaScript
       license: GPL3
       added: 2015-07-02
-      media:
-        - image: https://camo.githubusercontent.com/b9d8c6819d45e8181d09bdea6c5e2e7a88f62fa0/687474703a2f2f616c657864616e7461732e6e65742f73747566662f77702d636f6e74656e742f75706c6f6164732f323031342f30352f7777772d302e352e332e676966
