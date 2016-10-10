@@ -20,15 +20,15 @@ sequence:
 schema;meta:
   type: map
   mapping:
-    genre: 
+    genre:
       type: seq
       sequence:
         - include: genres
-    subgenre: 
+    subgenre:
       type: seq
       sequence:
         - include: subgenres
-    theme: 
+    theme:
       type: seq
       sequence:
         - include: themes
@@ -56,7 +56,7 @@ schema;game:
       type: any
     framework:
       type: any
-    added:
+    updated:
       type: any
     media:
       type: seq
@@ -82,64 +82,64 @@ schema;game:
 schema;genres:
   type: str
   enum: [
-    'Action', 
-    'Action-Adventure', 
-    'Adventure', 
-    'Beat ''Em Up', 
-    'Block-Breaking', 
-    'Compilation', 
-    'Driving/Racing', 
-    'Educational', 
-    'Fighting', 
-    'First-Person Shooter', 
-    'Minigame Collection', 
-    'MMORPG', 
-    'MOBA', 
-    'Music/Rhythm', 
-    'Platformer', 
-    'Puzzle', 
-    'Real-Time Strategy', 
-    'Role-Playing', 
-    'Shoot ''Em Up', 
-    'Shooter', 
-    'Simulation', 
-    'Sports', 
-    'Strategy', 
+    'Action',
+    'Action-Adventure',
+    'Adventure',
+    'Beat ''Em Up',
+    'Block-Breaking',
+    'Compilation',
+    'Driving/Racing',
+    'Educational',
+    'Fighting',
+    'First-Person Shooter',
+    'Minigame Collection',
+    'MMORPG',
+    'MOBA',
+    'Music/Rhythm',
+    'Platformer',
+    'Puzzle',
+    'Real-Time Strategy',
+    'Role-Playing',
+    'Shoot ''Em Up',
+    'Shooter',
+    'Simulation',
+    'Sports',
+    'Strategy',
   ]
 
 schema;subgenres:
   type: str
   enum: [
     "Action RPG",
-    "Baseball", 
-    "Basketball", 
-    "Billiards", 
-    "Bowling", 
-    "Boxing", 
-    "Card Game", 
-    "Cricket", 
-    "Dual-Joystick Shooter", 
-    "Fishing", 
-    "Fitness", 
-    "Flight Simulator", 
-    "Football", 
-    "Gambling", 
-    "Golf", 
-    "Hockey", 
-    "Light-Gun Shooter", 
-    "Pinball", 
+    "Baseball",
+    "Basketball",
+    "Billiards",
+    "Bowling",
+    "Boxing",
+    "Card Game",
+    "Cricket",
+    "Dual-Joystick Shooter",
+    "Fishing",
+    "Fitness",
+    "Flight Simulator",
+    "Football",
+    "Gambling",
+    "Golf",
+    "Hockey",
+    "Light-Gun Shooter",
+    "Pinball",
     "Roguelike",
-    "Run and gun", 
-    "Skateboarding", 
-    "Snowboarding/Skiing", 
-    "Soccer", 
-    "Surfing", 
-    "Survival", 
-    "Tennis", 
-    "Text Adventure", 
-    "Track & Field", 
-    "Trivia/Board Game", 
-    "Vehicular Combat", 
+    "Run and gun",
+    "Skateboarding",
+    "Snowboarding/Skiing",
+    "Soccer",
+    "Surfing",
+    "Survival",
+    "Tennis",
+    "Text Adventure",
+    "Track & Field",
+    "Trivia/Board Game",
+    "Vehicular Combat",
     "Wrestling"
   ]
 
@@ -148,35 +148,35 @@ schema;subgenres:
 schema;themes:
   type: str
   enum: [
-    'Abstract', 
-    'Adult', 
-    'Alternate Historical', 
-    'Anime', 
-    'Aquatic', 
-    'Civil War', 
-    'Comedy', 
-    'Comic Book', 
-    'Crime', 
-    'Cyberpunk', 
-    'Dating', 
-    'Egyptian', 
-    'Espionage', 
-    'Fantasy', 
-    'Game Show', 
-    'Horror', 
-    'Management', 
-    'Martial Arts', 
-    'Mayan', 
-    'Medieval', 
-    'Modern Military', 
-    'Motorsports', 
-    'Post-Apocalyptic', 
-    'Prehistoric', 
-    'Sci-Fi', 
-    'Steampunk', 
-    'Superhero', 
-    'Vietnam', 
-    'Western', 
+    'Abstract',
+    'Adult',
+    'Alternate Historical',
+    'Anime',
+    'Aquatic',
+    'Civil War',
+    'Comedy',
+    'Comic Book',
+    'Crime',
+    'Cyberpunk',
+    'Dating',
+    'Egyptian',
+    'Espionage',
+    'Fantasy',
+    'Game Show',
+    'Horror',
+    'Management',
+    'Martial Arts',
+    'Mayan',
+    'Medieval',
+    'Modern Military',
+    'Motorsports',
+    'Post-Apocalyptic',
+    'Prehistoric',
+    'Sci-Fi',
+    'Steampunk',
+    'Superhero',
+    'Vietnam',
+    'Western',
     'World War II'
   ]
 

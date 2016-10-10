@@ -68,9 +68,9 @@ def parse_global_tags(site, item, tag):
 
 
 def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
-    added = entry.get('added') or date(1970, 1, 1)
+    updated = entry.get('updated') or date(1970, 1, 1)
     return dict(entry,
-                new=(date.today() - added) < timedelta(days=30),
+                new=(date.today() - updated) < timedelta(days=30),
                 tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
 
 
