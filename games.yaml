@@ -1925,11 +1925,11 @@
       lang: C
       license: GPL3
       media:
-        - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot0.png
-        - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot1.png
-        - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot2.png
-        - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot3.png
-        - image: https://72b370c8-a-62cb3a1a-s-sites.googlegroups.com/site/colditzescape/home/screenshot4.png
+        - image: https://sites.google.com/site/colditzescape/home/screenshot0.png
+        - image: https://sites.google.com/site/colditzescape/home/screenshot1.png
+        - image: https://sites.google.com/site/colditzescape/home/screenshot2.png
+        - image: https://sites.google.com/site/colditzescape/home/screenshot3.png
+        - image: https://sites.google.com/site/colditzescape/home/screenshot4.png
 
 - name: Eye of the Beholder II
   clones:
@@ -2284,17 +2284,22 @@
         - image: http://uaf.sourceforge.net/images/ss06.png
 
 - name: [Forsaken, Forsaken (video game)]
+  meta:
+    genre: [First-Person Shooter]
+    theme: [Sci-Fi, Post-Apocalyptic]
   clones:
     - name: ProjectX
       url: http://forsakenx.github.io/
       repo: https://github.com/ForsakenX/forsaken
       status: playable
       development: halted
+      lang: [C]
+      license: GPL2
       updated: 2013-05-29
       media:
-        - image: http://fly.thruhere.net/fsplanet/images/I_ins_koth001.JPG
-        - image: http://fly.thruhere.net/fsplanet/I_ins_koth005.JPG
-        - image: http://fly.thruhere.net/fsplanet/images/I_ins_koth007.JPG
+        - image: http://forsakenx.github.io/fsplanet/images/I_ins_koth001.JPG
+        - image: http://forsakenx.github.io/fsplanet/images/I_ins_koth006.JPG
+        - image: http://forsakenx.github.io/fsplanet/images/I_ins_koth011.JPG
 
 - name: FreeSpace 2
   meta:

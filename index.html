@@ -154,7 +154,7 @@
     {% endfor -%}
     <div class="gallery" style="display: none"></div>
     {% if images | length > 0 -%}
-      <script class="gallery-json" type="text/json">{{ images | join(',') }}</script>
+      <script class="gallery-json" type="text/json">{{ images | join(', ') }}</script>
     {% endif %}
     <script class="gallery-raw" type="text/plain">
       {% for item in game.get('media', []) %}
