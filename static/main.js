@@ -1,9 +1,11 @@
 'use strict';
 
+var OSGC = window.OSGC = {};
+
 // gallery handling
 (function() {
   var els = document.getElementsByClassName('toggler');
-  
+
   for (var i = 0, l = els.length; i < l; i++) {
     els[i].addEventListener('click', onclick);
   }
@@ -101,5 +103,108 @@
     var style = document.getElementById('tag-style');
     var line = '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; }';
     style.innerHTML = tag ? line : '';
+  }
+})();
+
+// image validation
+(function() {
+  OSGC.getImages = getImages;
+  OSGC.downloadImage = downloadImage;
+  OSGC.validate = validate;
+
+  function init() {
+    OSGC.brokenLinks = [];
+    OSGC.invalidImages = {
+      forAnts: [],
+      tooSmall: [],
+      tooBig: [],
+      tooSlow: []
+    };
+  }
+
+  init();
+
+  function getImages() {
+    let galleries = document.getElementsByClassName('gallery-json');
+    let images = [];
+
+    for (let i = 0; i < galleries.length; i += 1) {
+      let cur = galleries[i].innerHTML.split(',');
+      images = images.concat(cur);
+    }
+    console.info('Galleries:', galleries.length);
+    console.info('Images:', images.length);
+    return images;
+  }
+
+  function validateImage(image, loadTime) {
+    let width = image.naturalWidth;
+    if (width < 200) { OSGC.invalidImages.forAnts.push(image.src); }
+    else if (width < 400) { OSGC.invalidImages.tooSmall.push(image.src); }
+    else if (width > 2000) { OSGC.invalidImages.tooBig.push(image.src); }
+
+    if (loadTime > 5000) { OSGC.invalidImages.tooSlow.push(image.src); }
+  }
+
+  function downloadImage(url) {
+    return new Promise(function (resolve, reject) {
+      let timeStart = new Date().getTime();
+      let image = new Image();
+      image.onload = onload;
+      image.onerror = onerror;
+      image.src = url;
+
+      function time() { return new Date().getTime() - timeStart; }
+      function onload() { resolve({image: image, time: time()}); }
+      function onerror() { reject({url: url, time: time()}); }
+    });
+  }
+
+  function reflect(promise){
+      function resolved(value) { validateImage(value.image, value.time); }
+      function rejected(err) { OSGC.brokenLinks.push(err.url); };
+
+      return promise.then(resolved, rejected);
+  }
+
+  function downloadImages(images) {
+    return Promise.all(images.map(downloadImage).map(reflect));
+  }
+
+  function showResults() {
+    console.group('Results');
+    console.log('Invalid images: %O', OSGC.invalidImages);
+    console.log('Bad links: %O', OSGC.brokenLinks);
+    console.groupEnd();
+  }
+
+  function validate(beginAt, turnsMax, concurrentMax) {
+    let images = getImages();
+    let images_len = images.length;
+
+    let cur = beginAt - 1 || -1;
+    let turns = cur && turnsMax ? cur + turnsMax : -2;
+    let max = concurrentMax || 10;
+
+    let arrBegin, arrEnd;
+    init(); // reset
+
+    function next() {
+      cur += 1;
+      arrBegin = cur * max;
+      arrEnd = cur * max + max;
+      console.log('Progress:', arrEnd, '/', images_len);
+      return downloadImages(images.slice(arrBegin, arrEnd));
+    }
+
+    function queue() {
+      if (cur === turns || cur >= images_len / max) {
+        return Promise.resolve();
+      } else {
+        return next().then(queue);
+      }
+    }
+
+    return Promise.resolve().then(queue).then(showResults);
   }
 })();

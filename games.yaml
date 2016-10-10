@@ -1,4 +1,6 @@
 - name: SCUMM
+  meta:
+    genre: [Compilation]
   clones:
     - name: ScummVM
       url: http://scummvm.org/
@@ -1737,6 +1739,9 @@
           url: http://hrp.duke4.net/screens/ep2/e2l3_04.jpg
 
 - name: Dune 2
+  meta:
+    genre: [Real-Time Strategy]
+    theme: [Sci-Fi]
   clones:
     - name: Dune Legacy
       url: http://dunelegacy.sourceforge.net/
@@ -1850,6 +1855,9 @@
       development: active
 
 - name: [Eat The Whistle, "Eat the whistle (video game)"]
+  meta:
+    genre: [Sports]
+    subgenre: [Soccer]
   clones:
     - name: Eat The Whistle
       url: http://www.ggsoft.org/etw/
@@ -1906,6 +1914,8 @@
       lang: C
 
 - name: Escape from Colditz
+  meta:
+    genre: [Action, Adventure, Role-Playing, Strategy]
   clones:
     - name: Colditz Escape!
       repo: https://github.com/aperture-software/colditz-escape
@@ -1984,20 +1994,21 @@
       framework: Unity
 
 - name: "The Elder Scrolls III: Morrowind"
+  meta:
+    genre: [Role-Playing]
+    theme: [Fantasy]
   clones:
     - name: OpenMW
       url: http://openmw.org/
+      status: playable
       development: active
       lang: C++
       repo: https://github.com/OpenMW/openmw
       license: GPL3
       media:
-        - image: http://wiki.openmw.org/images/thumb/6/6b/017-5.png/180px-017-5.png
-          url: http://wiki.openmw.org/images/6/6b/017-5.png
-        - image: http://wiki.openmw.org/images/thumb/8/84/24-1.png/180px-24-1.png
-          url: http://wiki.openmw.org/images/8/84/24-1.png
-        - image: http://wiki.openmw.org/images/thumb/c/cc/Screenshot003_zps07cee328.jpg/180px-Screenshot003_zps07cee328.jpg
-          url: http://wiki.openmw.org/images/c/cc/Screenshot003_zps07cee328.jpg
+        - image: http://wiki.openmw.org/images/6/65/0.40_Screenshot-Balmora_1.png
+        - image: http://wiki.openmw.org/images/c/c1/0.40_Screenshot-Seyda_Neen_2.png
+        - youtube: avPbctre9Qw
 
 - name: Emperor of the Fading Suns
   clones:
@@ -2042,6 +2053,9 @@
         - image: https://raw.githubusercontent.com/newagebegins/exolon/master/screenshot.gif
 
 - name: ["F-1 Spirit", "F-1 Spirit (series)"]
+  meta:
+    genre: [Driving/Racing]
+    theme: [Motorsports]
   clones:
     - name: "F-1 Spirit"
       updated: 2015-04-13
@@ -2049,22 +2063,12 @@
       repo: http://braingames.jorito.net/f1spirit/f1spirit.src_0.rc9-1615.tgz
       lang: C++
       media:
-        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot1.jpg
-          image: http://www.braingames.getput.com/f1spirit/pics/screenshot1.jpg
-        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot2.jpg
-          image: http://www.braingames.getput.com/f1spirit/pics/screenshot2.jpg
-        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot3.jpg
-          image: http://www.braingames.getput.com/f1spirit/pics/screenshot3.jpg
-        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot4.jpg
-          image: http://www.braingames.getput.com/f1spirit/pics/screenshot4.jpg
-        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot5.jpg
-          image: http://www.braingames.getput.com/f1spirit/pics/screenshot5.jpg
-        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot6.jpg
-          image: http://www.braingames.getput.com/f1spirit/pics/screenshot6.jpg
-        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot7.jpg
-          image: http://www.braingames.getput.com/f1spirit/pics/screenshot7.jpg
-        - url: http://www.braingames.getput.com/f1spirit/pics/thumb_screenshot8.jpg
-          image: http://www.braingames.getput.com/f1spirit/pics/screenshot8.jpg
+        - image: http://www.braingames.getput.com/f1spirit/pics/screenshot3.jpg
+        - image: http://www.braingames.getput.com/f1spirit/pics/screenshot4.jpg
+        - image: http://www.braingames.getput.com/f1spirit/pics/screenshot5.jpg
+        - image: http://www.braingames.getput.com/f1spirit/pics/screenshot6.jpg
+        - image: http://www.braingames.getput.com/f1spirit/pics/screenshot7.jpg
+        - image: http://www.braingames.getput.com/f1spirit/pics/screenshot8.jpg
 
 - name: "F-Zero"
   clones:
@@ -2288,14 +2292,14 @@
       development: halted
       updated: 2013-05-29
       media:
-        - image: http://fly.thruhere.net/fsplanet/images/I_ins_koth001_thumb.jpg
-          url: http://fly.thruhere.net/fsplanet/images/I_ins_koth001.JPG
-        - image: http://fly.thruhere.net/fsplanet/images/I_ins_koth005_thumb.jpg
-          url: http://fly.thruhere.net/fsplanet/I_ins_koth005.JPG
-        - image: http://fly.thruhere.net/fsplanet/images/I_ins_koth007_thumb.jpg
-          url: http://fly.thruhere.net/fsplanet/images/I_ins_koth007.JPG
+        - image: http://fly.thruhere.net/fsplanet/images/I_ins_koth001.JPG
+        - image: http://fly.thruhere.net/fsplanet/I_ins_koth005.JPG
+        - image: http://fly.thruhere.net/fsplanet/images/I_ins_koth007.JPG
 
 - name: FreeSpace 2
+  meta:
+    genre: [Action, Simulation]
+    theme: [Sci-Fi]
   clones:
     - name: FreeSpace Source Code Project
       url: http://scp.indiegames.us/
@@ -2303,14 +2307,9 @@
       development: active
       lang: C++
       media:
-        - url: http://scp.indiegames.us/scn/Diaspora/screen1568.jpg
-          image: http://scp.indiegames.us/scn/Diaspora/screen1568_tn.jpg
-        - url: http://scp.indiegames.us/scn/Shadows%20of%20Lylat/screen9999zt4.jpg
-          image: http://scp.indiegames.us/scn/Shadows%20of%20Lylat/screen9999zt4_tn.jpg
-        - url: http://scp.indiegames.us/scn/Beyond%20the%20Red%20Line/4pu20pg.jpg
-          image: http://scp.indiegames.us/scn/Beyond%20the%20Red%20Line/4pu20pg_tn.jpg
-        - url: http://scp.indiegames.us/scn/Earth%20Defense/in-game01.jpg
-          image: http://scp.indiegames.us/scn/Earth%20Defense/in-game01_tn.jpg
+        - image: http://scp.indiegames.us/scn/Diaspora/screen1568.jpg
+        - image: http://scp.indiegames.us/scn/Shadows%20of%20Lylat/screen9999zt4.jpg
+        - image: http://scp.indiegames.us/scn/Beyond%20the%20Red%20Line/4pu20pg.jpg
 
 - name: [Freelancer, Freelancer (video game)]
   clones:
@@ -2556,6 +2555,9 @@
       updated: 2013-05-27
 
 - name: [Grand Theft Auto, Grand Theft Auto (video game)]
+  meta:
+    genre: [Action, Driving/Racing]
+    theme: [Crime]
   clones:
     - name: OpenGTA
       url: http://ogta.fifengine.de/
@@ -2565,6 +2567,9 @@
       updated: 2015-01-02
 
 - name: Grand Theft Auto 2
+  meta:
+    genre: [Action, Driving/Racing]
+    theme: [Crime]
   clones:
     - name: gta2net
       url: http://code.google.com/p/gta2net/
@@ -2668,12 +2673,9 @@
       lang: C
       updated: 2013-05-27
       media:
-        - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/284891.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/284891.jpg
-        - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9151.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9151.jpg
-        - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9153.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9153.jpg
+        - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/284891.jpg
+        - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9151.jpg
+        - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9153.jpg
 
 - name: Heroes of Might and Magic II
   clones:
@@ -2683,10 +2685,8 @@
       development: active
       lang: C++
       media:
-        - image: http://sourceforge.net/dbimage.php?id=171624
-          url: http://sourceforge.net/dbimage.php?id=171624
-        - image: http://sourceforge.net/dbimage.php?id=191635
-          url: http://sourceforge.net/dbimage.php?id=191635
+        - image: https://sourceforge.net/p/fheroes2/screenshot/171624.jpg
+        - image: https://sourceforge.net/p/fheroes2/screenshot/191635.jpg
 
 - name: Heroes of Might and Magic III
   clones:
@@ -2700,12 +2700,9 @@
       framework: SDL
       license: GPL2
       media:
-        - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=35
-          url: http://forum.vcmi.eu/album_pic.php?pic_id=35
-        - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=40
-          url: http://forum.vcmi.eu/album_pic.php?pic_id=40
-        - image: http://forum.vcmi.eu/album_thumbnail.php?pic_id=41
-          url: http://forum.vcmi.eu/album_pic.php?pic_id=41
+        - image: http://forum.vcmi.eu/album_pic.php?pic_id=35
+        - image: http://forum.vcmi.eu/album_pic.php?pic_id=40
+        - image: http://forum.vcmi.eu/album_pic.php?pic_id=41
   reimplementations:
     - name: Ancient Beast
       url: http://AncientBeast.com
@@ -4687,6 +4684,9 @@
       repo: http://py1945game.googlecode.com/svn/trunk/
 
 - name: Sensible Soccer
+  meta:
+    genre: [Sports]
+    subgenre: [Soccer]
   clones:
     - name: FreeKick
       url: https://codeflow.wordpress.com/tag/sensible-soccer/
@@ -7232,6 +7232,9 @@
           image: https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218296.jpg
 
 - name: [Thief, Thief (series)]
+  meta:
+    genre: [Action-Adventure]
+    theme: [Crime, Fantasy]
   reimplementations:
     - url: http://www.thedarkmod.com/
       name: The Dark Mod
