@@ -129,7 +129,7 @@ var OSGC = window.OSGC = {};
     let images = [];
 
     for (let i = 0; i < galleries.length; i += 1) {
-      let cur = galleries[i].innerHTML.split(',');
+      let cur = galleries[i].innerHTML.trim().split(', ');
       images = images.concat(cur);
     }
     console.info('Galleries:', galleries.length);
