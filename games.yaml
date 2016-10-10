@@ -7185,43 +7185,52 @@
         - image: https://easy-rpg.org/images/easyrpg-player.png
 
 - name: Simcity
+  meta:
+    genre: [Simulation]
+    theme: [Management]
   reimplementations:
-    - url: http://lincity-ng.berlios.de/
-      name: LinCity
+    - name : Lincity
+      repo: https://sourceforge.net/projects/lincity/
+      url: http://lincity.sourceforge.net/
       development: halted
-      lang: C++
-      repo: http://svn.berlios.de/viewvc/lincity-ng/trunk/
+      lang: [C]
+      license: GPL
       media:
-        - image: http://lincity-ng.berlios.de/wiki/images/thumb/1/15/Height.png/120px-Height.png
-          url: http://lincity-ng.berlios.de/wiki/images/1/15/Height.png
-        - image: http://lincity-ng.berlios.de/wiki/images/thumb/0/0b/Lincity-ng-2.0.png/120px-Lincity-ng-2.0.png
-          url: http://lincity-ng.berlios.de/wiki/images/0/0b/Lincity-ng-2.0.png
-        - image: http://lincity-ng.berlios.de/wiki/images/thumb/3/3b/Newgrass.png/120px-Newgrass.png
-          url: http://lincity-ng.berlios.de/wiki/images/3/3b/Newgrass.png
-        - image: http://lincity-ng.berlios.de/wiki/images/thumb/4/42/Bridges.jpg/120px-Bridges.jpg
-          url: http://lincity-ng.berlios.de/wiki/images/4/42/Bridges.jpg
-    - url: https://github.com/SimHacker/micropolis
-      name: Micropolis
+        - image: http://lincity.sourceforge.net/screenshots/power.png
+    - name: LinCity-NG
+      repo: https://github.com/lincity-ng/lincity-ng
+      url: https://sourceforge.net/projects/lincity-ng.berlios/
+      development: active
+      lang: C++
+      license: GPL2
+      media:
+        - image: http://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/Lincity-ng-2.0.png
+        - image: http://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/NewSolar.png
+    - name: Micropolis
+      repo: https://github.com/SimHacker/micropolis
       development: halted
-      lang:
-        - C++
-        - Python
+      license: GPL
+      lang: [C++, Python]
       added: 2013-05-27
     - name: MicropolisJS
       url: http://www.graememcc.co.uk/micropolisJS/
       repo: https://github.com/graememcc/micropolisJS
       added: 2015-07-04
-      info: port of Micropolis
       development: halted
       lang: JavaScript
       framework: HTML5
       license: GPL3
-    - url: http://www.opencity.info/
+    - name: OpenCity
+      url: http://www.opencity.info/
       repo: svn://svn.code.sf.net/p/opencity/code/trunk
-      name: OpenCity
       development: halted
       lang: C++
+      license: GPL2
       added: 2015-04-03
+      media:
+        - image: http://www.opencity.info/screenshot/full/opencity-0.0.5-mainstatusbar.jpg
+        - image: http://www.opencity.info/screenshot/full/opencity-0.0.5-island.jpg
+
     - name: 3d.city
       added: 2015-07-04
       url: http://lo-th.github.io/3d.city/index.html
