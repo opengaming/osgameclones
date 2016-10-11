@@ -1,0 +1,143 @@
+- name: Jagged Alliance 2
+  remakes:
+  - name: Jagged Alliance 2 - Stracciatella
+    url: http://ja2-stracciatella.github.io/
+    repo: https://github.com/ja2-stracciatella/ja2-stracciatella
+    status: playable
+    development: active
+    lang: C++
+    updated: 2013-05-27
+
+- name: Jazz Jackrabbit
+  remakes:
+  - name: OpenJazz
+    url: http://www.alister.eu/jazz/oj/
+    repo: https://openjazz.svn.sourceforge.net/svnroot/openjazz/
+    development: sporadic
+    lang: C++
+    updated: 2013-05-27
+
+- name: 'Jedi Knight II: Jedi Outcast'
+  remakes:
+  - name: JediOutcastLinux
+    url: https://github.com/xLAva/JediOutcastLinux
+    updated: 2013-05-28
+    status: playable
+    development: active
+    lang: C++
+
+- name: 'Jedi Knight: Jedi Academy'
+  remakes:
+  - name: JediAcademyLinux
+    url: https://github.com/xLAva/JediAcademyLinux
+    updated: 2013-05-28
+    status: playable
+    development: active
+    lang: C++
+  - name: OpenJK
+    url: https://github.com/JACoders/OpenJK
+    updated: 2014-08-15
+    status: playable
+    development: active
+    lang: C++
+
+- name: Jet-Story
+  remakes:
+  - name: Jet-Story
+    updated: 2016-02-08
+    repo: https://github.com/adamenkov/jet-story
+    development: active
+    lang: C++
+    license: MIT
+
+- name: Jetpac
+  remakes:
+  - name: Jetpac remake
+    updated: 2015-05-10
+    repo: https://github.com/ian-wigley/JetPac
+    development: complete
+    framework: XNA
+    lang: C#
+
+- name: [Jewel Thief, 'http://www.mobygames.com/game/win3x/jewel-thief']
+  remakes:
+  - name: jewelthief
+    repo: https://github.com/frittatenbank/jewelthief
+    updated: 2016-08-28
+    development: active
+    license: CC-BY
+    lang: Java
+    images:
+    - https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163225.png
+    - https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163328.png
+    - https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163342.png
+    - https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163421.png
+
+- name: JezzBall
+  remakes:
+  - name: Ice Breaker
+    updated: 2015-05-09
+    url: http://mattdm.org/icebreaker/
+    repo: http://mattdm.org/icebreaker/1.2.x/icebreaker-1.2.1.tgz
+    images:
+    - http://mattdm.org/icebreaker/images/screenshot-level1-linux.png
+    - http://mattdm.org/icebreaker/images/screenshot-level2-billg.png
+    - http://mattdm.org/icebreaker/images/screenshot-level5-jz-like.png
+    - http://mattdm.org/icebreaker/images/screenshot-level6-stars.png
+
+- name: [Joust, Joust (video game)]
+  remakes:
+  - name: Ostrich Riders
+    updated: 2015-04-15
+    url: http://identicalsoftware.com/ostrichriders/
+    development: sporadic
+    lang: C++
+    license: GPL3
+    repo: https://github.com/dulsi/ostrichriders
+    images:
+    - https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229619.jpg
+    - https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229617.jpg
+
+- name: 'Jumpgate: The Reconstruction Initiative'
+  remakes:
+  - name: Open Jumpgate
+    url: http://sourceforge.net/projects/opengate/
+    updated: 2014-09-05
+    development: active
+    lang: C++
+
+- name: Jump 'n Bump
+  remakes:
+  - name: Jump'n'Bump
+    updated: 2015-04-25
+    url: https://www.icculus.org/jumpnbump/
+    development: halted
+    lang: C
+    license: GPL2
+
+- name: [Jumping Jack, Jumping Jack (arcade game)]
+  remakes:
+  - name: 'Jumping Jack: Further Adventures'
+    updated: 2015-04-13
+    url: http://retrospec.sgn.net/game/jj
+    development: halted
+    lang: C++
+    repo: http://retrospec.sgn.net/users/nwalker/jack/jj.zip
+  - name: 'Jumping Jack 2: Worryingly Familiar'
+    updated: 2015-04-13
+    url: http://retrospec.sgn.net/game/jj2
+    development: halted
+    lang: C++
+    repo: http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip
+
+- name: Jumpman
+  remakes:
+  - name: Jumpman
+    url: http://www.oldskool.org/pc/jumpman
+    updated: 2015-05-09
+    development: halted
+    lang: Assembly
+    repo: http://www.oldskool.org/pc/jumpman/jump_src.zip
+    images:
+    - http://www.oldskool.org/pc/jumpman/level01.gif
+

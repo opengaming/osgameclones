@@ -1,0 +1,149 @@
+- name: [X-COM Series, X-COM]
+  names:
+  - 'X-COM: UFO Defense'
+  - 'X-COM: Terror from the Deep'
+  - 'X-COM: Apocalypse'
+  - 'UFO: Enemy Unknown'
+  meta:
+    genre: [Strategy]
+    theme: [Horror, Sci-Fi]
+  remakes:
+  - name: OpenXcom
+    url: http://openxcom.org/
+    info: EU fully playable, TftD in development
+    status: playable
+    development: active
+    license: GPL3
+    lang: C++
+    repo: https://github.com/SupSuper/OpenXcom
+    images:
+    - http://openxcom.org/wp-content/gallery/v1-0/00_mainmenu.png
+    - http://openxcom.org/wp-content/gallery/v1-0/01_globe.png
+    - http://openxcom.org/wp-content/gallery/v1-0/04_inventory.png
+    - http://openxcom.org/wp-content/gallery/v1-0/07_pathpreview.png
+  - name: UFO2000
+    url: http://ufo2000.sourceforge.net/
+    status: playable
+    development: halted
+    lang: C++
+    repo: http://sourceforge.net/p/ufo2000/code/1176/tree/
+    updated: 2013-07-05
+    images:
+    - http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66443.jpg
+    - http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66447.jpg
+    - http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg
+  - name: OpenApoc
+    updated: 2015-04-04
+    development: active
+    lang: C++
+    license: MIT
+    repo: https://github.com/pmprog/OpenApoc
+    url: http://openapoc.pmprog.co.uk/
+  clones:
+  - url: http://ufoai.ninex.info/
+    name: 'UFO: Alien Invasion'
+    development: active
+    lang: C
+    repo: http://ufoai.git.sourceforge.net/git/gitweb.cgi?p=ufoai/ufoai;a=summary
+    images:
+    - http://ufoai.ninex.info/wiki/images/Nation_Overlay.jpg
+    - http://ufoai.ninex.info/wiki/images/Ufo01.png
+    - http://ufoai.ninex.info/wiki/images/Ufoai2.2_aircraft_team.jpg
+    - http://ufoai.ninex.info/wiki/images/Ufoaiold_base01.jpg
+  - name: Xenowar
+    url: http://xenowar.net/
+    status: playable
+    development: halted
+    lang: C++
+    repo: https://github.com/leethomason/unflobtactical
+    updated: 2014-11-26
+    images:
+    - http://xenowar.net/images/cap00.png
+    - http://xenowar.net/images/cap01.png
+    - http://xenowar.net/images/cap02.png
+    - http://xenowar.net/images/cap03.png
+    - http://xenowar.net/images/cap04.png
+    - http://xenowar.net/images/cap05.png
+  - name: 'Project: Xenocide'
+    updated: 2015-04-11
+    repo: http://xenocide.cvs.sourceforge.net/viewvc/xenocide/
+    url: https://sourceforge.net/projects/xenocide/
+    development: halted
+    lang: C++
+    license: GPL2
+  - name: 'X-Force: Fight For Destiny'
+    updated: 2015-04-11
+    url: http://www.xforce-online.de/
+    repo: svn://svn.code.sf.net/p/xforceffd/code/trunk
+    development: sporadic
+    lang: Delphi
+    framework: Kylix
+    license: GPL2
+    images:
+    - https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg
+    - https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg
+
+- name: [X-It, 'http://www.mobygames.com/game/x-it']
+  remakes:
+  - name: xit
+    updated: 2015-05-18
+    repo: https://github.com/qfel13/xit
+    development: halted
+    lang: JavaScript
+
+- name: Xenon 2 Megablast
+  remakes:
+  - name: Phavon
+    updated: 2015-04-15
+    url: http://phavon.sourceforge.net/
+    repo: http://phavon.cvs.sourceforge.net/viewvc/phavon/
+    development: halted
+    lang: C
+    license: GPL2
+    images:
+    - http://phavon.sourceforge.net/snap001.jpg
+
+- name: XPilot
+  remakes:
+  - name: XPilot NG
+    url: http://xpilot.sourceforge.net/
+    repo: http://xpilot.cvs.sourceforge.net/viewvc/xpilot/
+    updated: 2015-04-06
+    development: halted
+    lang: C
+    license: GPL2
+    images:
+    - http://xpilot.sourceforge.net/shots/polybloods1.png
+    - http://xpilot.sourceforge.net/shots/xpilot_sdl.png
+    - http://xpilot.sourceforge.net/shots/fishtank.png
+    - http://xpilot.sourceforge.net/shots/dragon.png
+    - http://xpilot.sourceforge.net/shots/spaceball.png
+
+- name: [XQuest, 'http://www.swallowtail.org/xquest/']
+  remakes:
+  - name: XQuest 2
+    updated: 2015-07-11
+    url: http://www.swallowtail.org/xquest/
+    repo: http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz
+    lang: Pascal
+    license: Custom
+    images:
+    - http://www.swallowtail.org/xquest/xquest1.gif
+    - http://www.swallowtail.org/xquest/xquest2.gif
+    - http://www.swallowtail.org/xquest/xquest3.gif
+
+- name: [XOR, XOR (video game)]
+  clones:
+  - url: http://jwm-art.net/?p=XorCurses
+    name: XorCurses
+    repo: https://github.com/jwm-art-net/XorCurses
+    development: complete
+    updated: 2013-06-06
+    images:
+    - http://jwm-art.net/art/image/xorcurses-0.0.8-lvl9-newschool-xfceterm.png
+    - http://jwm-art.net/art/image/xorcurses-0.0.8-menu-xterm.png
+  - url: http://jwm-art.net/XorGramana/
+    name: XorGramana
+    development: complete
+    updated: 2013-06-06
+

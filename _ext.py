@@ -1,6 +1,6 @@
 import sys
 import pprint
-import os.path as op
+import os, os.path as op
 from datetime import date, timedelta
 from collections import OrderedDict
 from functools import partial
@@ -102,7 +102,11 @@ def show_validation_errors(data, errors):
 
 
 def parse_data(site):
-    data = yaml.load(file(op.join(op.dirname(__file__), 'games.yaml')))
+    base = op.join(op.dirname(__file__), 'games')
+    data = []
+    for fn in os.listdir(base):
+        if fn.endswith('.yaml'):
+            data.extend(yaml.load(open(op.join(base, fn))))
 
     try:
         core = Core(source_data=data, schema_files=['schema.yaml'])

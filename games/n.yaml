@@ -1,0 +1,97 @@
+- name: Need For Speed II SE
+  remakes:
+  - name: NFSIISE
+    repo: https://github.com/zaps166/NFSIISE
+    status: playable
+    development: active
+    lang: C++
+    framework: SDL2
+    info: requires original files
+    updated: 2016-06-02
+    images:
+    - https://i.imgur.com/ZL3V5XB.jpg
+    - https://i.imgur.com/DRyjX57.jpg
+
+- name: [Night Stalker, Night Stalker (video game)]
+  remakes:
+  - name: Afternoon Stalker
+    url: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html
+    repo: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker-1.1.5.tar.gz
+    updated: 2015-04-16
+    development: sporadic
+    lang: C++
+    license: GPL2
+    images:
+    - http://perso.b2b2c.ca/~sarrazip/dev/images/afternoonstalker-1.png
+
+- name: [Nebulus, Nebulus (video game)]
+  remakes:
+  - name: Toppler
+    url: http://toppler.sourceforge.net/
+    development: sporadic
+    lang: C++
+    updated: 2013-05-27
+    images:
+    - http://toppler.sourceforge.net/images/old-amiga.png
+    - http://toppler.sourceforge.net/images/old-atari.png
+    - http://toppler.sourceforge.net/images/old-c64.png
+
+- name: Nether Earth
+  remakes:
+  - name: Nether Earth Remake
+    updated: 2015-04-13
+    url: http://www2.braingames.getput.com/nether/default.asp
+    repo: http://www2.braingames.getput.com/nether/sources.zip
+    lang: C++
+    images:
+    - http://www2.braingames.getput.com/nether/images/original00.jpg
+    - http://www2.braingames.getput.com/nether/images/remake00.jpg
+
+- name: Neverwinter Nights
+  names:
+  - Neverwinter Nights 2
+  - 'Star Wars: Knights of the Old Republic'
+  - "Star Wars: Knights of the Old Republic II \u2013 The Sith Lords"
+  - Jade Empire
+  - 'Sonic Chronicles: The Dark Brotherhood'
+  - [The Witcher, The Witcher (video game)]
+  - 'Dragon Age: Origins'
+  - Dragon Age II
+  remakes:
+  - name: xoreos
+    url: https://xoreos.org/
+    repo: https://github.com/xoreos/xoreos
+    status: unplayable
+    development: sporadic
+    lang: C++
+    updated: 2013-05-28
+    images:
+    - https://xoreos.org/images/NWN_20130528T054618.png
+    video:
+      youtube: WaRfBsZVO3Y
+
+- name: Nodes of Yesod
+  remakes:
+  - name: Nodes of Yesnod remake
+    updated: 2015-05-10
+    repo: https://github.com/ian-wigley/Nodes-of-Yesod
+    development: halted
+    framework: XNA
+    lang: C#
+
+- name: Nexuiz
+  clones:
+  - url: http://www.xonotic.org/
+    name: Xonotic
+    status: playable
+    development: active
+    lang: C
+    repo: http://git.xonotic.org/?p=xonotic/xonotic.git;a=summary;js=1
+    updated: 2013-09-20
+    images:
+    - http://www.xonotic.org/m/uploads/2012/07/frontpage_005.jpg
+    - http://www.xonotic.org/m/uploads/2012/07/frontpage_008.jpg
+    - http://www.xonotic.org/m/uploads/2012/07/frontpage_013.jpg
+    video:
+      youtube: Io920ID423A
+

@@ -1,0 +1,123 @@
+- name: [Octopus, List of Game & Watch games#Octopus]
+  remakes:
+  - name: Octopus
+    updated: 2016-02-08
+    repo: https://github.com/roger-wetzel/Octopus
+    info: Apple TV 4 required
+    development: active
+    lang: Swift
+    images:
+    - https://cloud.githubusercontent.com/assets/16686245/12429085/98761c3c-bee8-11e5-9399-1f7cc162e9bd.png
+
+- name: Oddworld
+  names:
+  - 'Oddworld: Abe''s Oddysee'
+  - 'Oddworld: Abe''s Exoddus'
+  remakes:
+  - name: alive
+    repo: https://github.com/paulsapps/alive
+    updated: 2016-03-08
+    development: active
+    lang: C++
+    license: MIT
+    images:
+    - https://raw.githubusercontent.com/paulsapps/alive/dev/doc/screenshots/alive1.png
+
+- name: [Outcast, Outcast (video game)]
+  remakes:
+  - name: OpenOutcast
+    updated: 2014-04-11
+    url: http://www.openoutcast.org/wp/
+    development: halted
+    lang: C++
+    license: GPL2
+    repo: svn://svn.code.sf.net/p/ocmod/code/
+    images:
+    - https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg
+
+- name: Outrun
+  names:
+  - "\u30A2\u30A6\u30C8 \u30E9\u30F3"
+  - Auto Ran
+  remakes:
+  - name: Cannonball
+    url: https://github.com/djyt/cannonball/wiki
+    repo: https://github.com/djyt/cannonball
+    info: needs game data
+    status: playable
+    development: active
+    lang: C++
+    updated: 2014-02-06
+  - name: Outrun
+    url: http://outruncpc.free.fr/
+    repo: https://www.dropbox.com/s/d803ueu0l4cgk6k/outrunBETA.zip
+    updated: 2015-04-16
+    development: active
+    lang: QuickBASIC
+    framework: QB64
+    images:
+    - http://outruncpc.free.fr/images/CPC01.jpg
+    - http://outruncpc.free.fr/images/CPC02.jpg
+    - http://outruncpc.free.fr/images/CPC03.jpg
+
+- name: Oxyd
+  remakes:
+  - name: Enigma
+    url: http://www.nongnu.org/enigma/
+    repo: svn://svn.code.sf.net/p/enigma-game/source
+    development: active
+    lang: C++
+    updated: 2013-05-27
+
+- name: 'One Must Fall: 2097'
+  remakes:
+  - name: OpenOMF
+    url: http://www.openomf.org/
+    repo: https://github.com/omf2097/openomf/
+    info: single player, 2 player and network play work, needs free resources from
+      omf2097.com
+    status: playable
+    development: active
+    updated: 2014-08-16
+    images:
+    - http://www.openomf.org/screenshots/mainmenu.png
+    - http://www.openomf.org/screenshots/single_player.png
+    - http://www.openomf.org/screenshots/two_player.png
+    - http://www.openomf.org/screenshots/vs.png
+    - http://www.openomf.org/screenshots/victory.png
+    video:
+      youtube: RYiUsDSApM8
+  - name: Ruby OMF 2097 Remake
+    updated: 2015-04-13
+    url: http://rubyomf2097.rubyforge.org/
+    repo: svn://rubyforge.org/var/svn/rubyomf2097
+    development: halted
+    lang: Ruby
+    license: BSD4
+
+- name: [Overflow, 'http://amigagamer.blogspot.co.uk/2012/11/overflow-amiga-pipemania-clone.html']
+  remakes:
+  - name: JOverflow
+    updated: 2015-06-22
+    repo: https://github.com/bluepoke/JOverflow
+    development: halted
+    lang: Java
+
+- name: Omega Race
+  clones:
+  - name: Torrega Race
+    repo: https://github.com/andwj/torrega
+    updated: 2015-05-02
+    status: playable
+    development: halted
+    framework: "L\xD6VE"
+    lang: Lua
+    license: GPL3
+    images:
+    - http://i.imgur.com/qWgWeXA.png
+  - name: Omega Race Remake
+    repo: https://github.com/UnforgivenRob/Omega-Race-Remake
+    updated: 2015-05-29
+    development: sporadic
+    lang: C#
+

@@ -1,0 +1,75 @@
+- name: [Kaboom!, Kaboom! (video game)]
+  remakes:
+  - name: DonkeyInTrouble
+    updated: 2015-06-22
+    repo: https://github.com/Zap123/DonkeyInTrouble
+    development: sporadic
+    lang: Lua
+    framework: "L\xD6VE"
+
+- name: [Kid Chameleon, Kid Chameleon (video game)]
+  remakes:
+  - name: KidChameleonRemake
+    updated: 2015-05-29
+    repo: https://github.com/mp1011/KidChameleonRemake
+    development: active
+    lang: C#
+
+- name: [Knights, Knights (video game)]
+  remakes:
+  - name: Knights
+    updated: 2015-04-15
+    url: http://www.knightsgame.org.uk/
+    repo: http://www.knightsgame.org.uk/files/knights_025_src.tar.gz
+    development: active
+    lang: C++
+    license: GPL3
+    images:
+    - http://www.knightsgame.org.uk/images/knights1.png
+    - http://www.knightsgame.org.uk/images/knights2.png
+    - http://www.knightsgame.org.uk/images/knights3.png
+    - http://www.knightsgame.org.uk/images/knights4.png
+    - http://www.knightsgame.org.uk/images/knights5.png
+    - http://www.knightsgame.org.uk/images/quest_selection.png
+
+- name: Knights and Merchants
+  remakes:
+  - name: KaM Remake
+    url: http://www.kamremake.com/
+    repo: https://github.com/Kromster80/kam_remake
+    development: active
+    lang: Delphi
+    updated: 2012-04-05
+    images:
+    - http://www.kamremake.com/wp-content/uploads/2011/10/Menu.png
+    - http://www.kamremake.com/wp-content/uploads/2011/11/tnp.jpg
+    - http://www.kamremake.com/wp-content/uploads/2011/10/RiverOfGold-4.jpg
+    - http://www.kamremake.com/wp-content/uploads/2011/10/Multiplayer1.jpg
+
+- name: Kula World
+  names:
+  - Roll Away
+  - Kula Quest
+  remakes:
+  - name: Cubosphere
+    updated: 2015-04-14
+    url: http://sourceforge.net/projects/cubosphere/
+    repo: http://cubosphere.bzr.sourceforge.net/bzr/cubosphere/changes
+    development: halted
+    lang: C++
+    license: GPL3
+
+- name: Ken's Labyrinth
+  remakes:
+  - name: LAB3D/SDL
+    updated: 2015-04-10
+    url: https://icculus.org/LAB3D/
+    repo: svn://svn.icculus.org/LAB3D/trunk
+    development: sporadic
+    lang: C
+    images:
+    - https://icculus.org/LAB3D/captur00.png
+    - https://icculus.org/LAB3D/captur04.png
+    - https://icculus.org/LAB3D/captur02.png
+    - https://icculus.org/LAB3D/captur03.png
+

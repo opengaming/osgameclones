@@ -1,0 +1,288 @@
+- name: Pac-Man
+  remakes:
+  - name: pacman
+    updated: 2015-05-19
+    repo: https://github.com/daleharvey/pacman
+    development: halted
+    lang: JavaScript
+    license: Custom
+  - name: pacman-canvas
+    repo: https://github.com/platzhersh/pacman-canvas
+    url: http://pacman.platzh1rsch.ch/
+    development: active
+    framework: HTML5
+    license: CC-BY-SA
+    updated: 2015-05-19
+  - name: pacman
+    url: http://harto.github.io/pacman/
+    repo: https://github.com/harto/pacman
+    updated: 2015-05-19
+    development: sporadic
+    framework: HTML5
+  - name: Google Pacman
+    repo: https://github.com/livingston/google-pacman
+    url: http://livingston.github.io/google-pacman/
+    development: complete
+    lang: JavaScript
+    framework: Flash
+    updated: 2015-05-20
+  - name: pacman
+    updated: 2015-05-20
+    repo: https://github.com/snozza/pacman
+    url: http://hacman.herokuapp.com/
+    development: active
+    framework: HTML5
+    lang: JavaScript
+  - name: jspacman-canvas
+    repo: https://github.com/hguillermo/jspacman-canvas
+    updated: 2015-05-20
+    url: http://www.hg10101.com/games/jspacman/index.html
+    development: halted
+    lang: JavaScript
+    framework: HTML canvas
+  - name: div-pacman2600
+    repo: https://github.com/MikeDX/div-pacman2600
+    updated: 2016-04-30
+    url: http://js.mikedx.co.uk/pacman2600.html
+    development: active
+    framework: DIV Games Studio
+    license: MIT
+
+- name: Pitfall!
+  remakes:
+  - name: div-pitfall
+    repo: https://github.com/MikeDX/div-pitfall
+    updated: 2016-04-30
+    url: http://js.mikedx.co.uk/pitfall.html
+    development: active
+    framework: DIV Games Studio
+    license: MIT
+
+- name: 'Populous: The Beginning'
+  remakes:
+  - name: OpenPop
+    repo: svn://svn.code.sf.net/p/openpopulous/code/trunk
+    updated: 2015-04-07
+    url: http://openpopulous.sourceforge.net/
+    development: halted
+    lang: C++
+    license: GPL3
+    images:
+    - https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg
+
+- name: [Portal, Portal (video game)]
+  remakes:
+  - name: glPortal
+    url: http://glportal.de/
+    repo: https://github.com/GlPortal/glPortal
+    status: playable
+    development: active
+    lang: C++
+    updated: 2013-06-25
+    images:
+    - http://glportal.de/wp-content/uploads/2013/06/glPortal1-1000x250.png
+    - http://glportal.de/wp-content/uploads/2013/06/NewCake1-1000x250.png
+
+- name: Prince of Persia
+  remakes:
+  - name: SDLPoP
+    url: http://www.popot.org/get_the_games.php?game=SDLPoP
+    repo: https://github.com/NagyD/SDLPoP
+    lang: C
+    status: playable
+    development: active
+    updated: 2015-05-30
+  - name: FreePrince
+    url: http://www.princed.org/downloads/FreePrince/FP_2011-12-04_source.tar.gz
+    lang: C
+    status: playable
+    development: halted
+    updated: 2014-01-12
+
+- name: Panzer General
+  remakes:
+  - name: OpenGeneral
+    development: sporadic
+    lang: C++
+    updated: 2012-06-29
+    url: http://sourceforge.net/apps/mediawiki/opengeneral/index.php?title=Main_Page
+  - name: Open Panzer
+    development: active
+    framework: HTML5
+    updated: 2012-06-29
+    url: http://www.linuxconsulting.ro/openpanzer/
+    repo: https://github.com/nicupavel/openpanzer
+    images:
+    - http://i.imgur.com/NiJGQ.jpg
+  - name: LGeneral
+    url: http://lgames.sourceforge.net/index.php?project=LGeneral
+    repo: http://sourceforge.net/p/lgeneral/code/HEAD/tree/trunk/lgeneral/
+    status: playable
+    development: halted
+    lang: C
+    updated: 2013-05-30
+    images:
+    - http://lgames.sourceforge.net/LGeneral/ss0.jpg
+    - http://lgames.sourceforge.net/LGeneral/ss1.jpg
+
+- name: [Paratrooper, Paratrooper (video game)]
+  remakes:
+  - name: Paratrooper
+    updated: 2015-04-11
+    url: http://pygame.org/project-Paratrooper-706-.html
+    repo: http://www.onderstekop.nl/coding/24_Paratrooper_1.2.3.zip
+    development: halted
+    lang: Python
+    images:
+    - http://pygame.org/shots/706.jpg
+
+- name: [Phantasy, Phantasy Star (video game)]
+  remakes:
+  - name: Phantasy
+    updated: 2015-05-28
+    repo: https://github.com/rafael-esper/Phantasy
+    development: halted
+    lang: Java
+
+- name: Pipe Mania
+  remakes:
+  - name: Pipemania
+    updated: 2015-06-01
+    repo: https://github.com/zbiq13/Pipemania
+    development: halted
+    lang: Lua
+    framework: Love3D
+
+- name: ["Pok\xE9mon", "Pok\xE9mon (video game series)"]
+  remakes:
+  - name: Tuxemon
+    url: http://www.tuxemon.org/
+    repo: https://github.com/Tuxemon/Tuxemon
+    status: playable
+    development: active
+    lang: Python
+    framework: Pygame
+    updated: 2015-01-21
+    images:
+    - http://www.tuxemon.org/images/featurette-01.png
+    - http://www.tuxemon.org/images/screenshot-01.png
+    - http://www.tuxemon.org/images/featurette-02.png
+
+- name: "Pok\xE9mon Mystery Dungeon"
+  remakes:
+  - name: PKMN-FX
+    repo: https://github.com/jonasdemoor/PKMN-FX
+    development: active
+    updated: 2016-05-14
+    license: GPL3
+    lang: Java
+
+- name: [Pole Position, Pole Position (video game)]
+  remakes:
+  - name: grid-leader
+    updated: 2015-06-22
+    repo: https://github.com/jonathanopalise/grid-leader
+    development: halted
+    lang: Python
+    framework: Panda3D
+
+- name: Progress Quest
+  remakes:
+  - name: pq2
+    updated: 2016-06-03
+    repo: https://github.com/nbollom/pq2
+    lang: C++
+    framework: ncurses
+    license: GPL3
+    development: active
+
+- name: [Punch-Out!!, Punch-Out!! (arcade game)]
+  remakes:
+  - name: THREEPunchOut
+    updated: 2015-08-15
+    repo: https://github.com/MattSzik/THREEPunchOut
+    development: active
+    lang: JavaScript
+
+- name: [Pushover, Pushover (video game)]
+  remakes:
+  - name: Pushover
+    url: http://pushover.sourceforge.net/
+    status: playable
+    development: sporadic
+    lang: C++
+    updated: 2013-05-29
+    repo: http://pushover.sourceforge.net/repos/head/
+    images:
+    - http://pushover.sourceforge.net/images/Screenshot2.jpg
+    - http://pushover.sourceforge.net/images/Screenshot3n.jpg
+    - http://pushover.sourceforge.net/images/Screenshot4.jpg
+
+- name: [Puzznic / Brix, Brix (video game)]
+  remakes:
+  - name: Wizznic!
+    url: http://dustedgames.blogspot.com.au/p/wizznic.html
+    status: playable
+    development: active
+    lang: C
+    updated: 2015-03-06
+    repo: https://github.com/DusteDdk/Wizznic
+    images:
+    - http://a.fsdn.com/con/app/proj/wizznic/screenshots/lvl0.png
+    - http://a.fsdn.com/con/app/proj/wizznic/screenshots/271261.jpg
+    - http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png
+
+- name: Paradroid
+  meta:
+    genre: [Action, Puzzle]
+    theme: [Fantasy, Sci-Fi]
+  remakes:
+  - name: FreedroidClassic
+    development: complete
+    lang: C
+    url: http://www.freedroid.org/download/#c46
+    images:
+    - http://a.fsdn.com/con/app/proj/freedroid/screenshots/25826.jpg
+  - name: Nighthawk
+    url: http://night-hawk.sourceforge.net/
+    repo: http://night-hawk.cvs.sourceforge.net/viewvc/night-hawk/
+    status: playable
+    development: halted
+    lang: C++
+    updated: 2013-05-27
+    images:
+    - http://night-hawk.sourceforge.net/nh_intro_1.png
+  clones:
+  - name: FreedroidRPG
+    url: http://www.freedroid.org/
+    repo: git://git.code.sf.net/p/freedroid/code
+    status: playable
+    development: active
+    lang: [Python, C, Lua]
+    license: GPL2
+    images:
+    - http://www.freedroid.org/images/screenshots/hell_fortress.png
+    - http://www.freedroid.org/images/screenshots/editor_zoom.png
+    - http://www.freedroid.org/images/screenshots/editor.png
+
+- name: Pizza Tycoon
+  clones:
+  - name: Pizza Business
+    url: http://pizza-business.sourceforge.net/
+    updated: 2015-04-03
+    repo: http://pizza-business.cvs.sourceforge.net/viewvc/pizza-business/
+    development: halted
+    lang: C++
+    license: GPL2
+    images:
+    - http://pizza-business.sourceforge.net/gtk1.png
+
+- name: Puzzle Bobble
+  clones:
+  - name: Frozen Bubble
+    url: http://frozen-bubble.org/
+    repo: http://github.com/kthakore/frozen-bubble
+    development: sporadic
+    lang: Perl
+    updated: 2013-06-06
+

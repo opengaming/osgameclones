@@ -1,0 +1,196 @@
+- name: Halls of the Things
+  remakes:
+  - name: Halls of the Things 2008/2011/2014 Remake
+    updated: 2015-05-03
+    url: http://whatisblueandfurry.com/hott/halls08.html
+    repo: http://whatisblueandfurry.com/hott/Halls08Srcv100.zip
+    development: sporadic
+    lang: C#
+
+- name: [Hardwar, Hardwar (video game)]
+  remakes:
+  - name: Hardwar
+    url: http://www.hardwar.org/
+    repo: https://github.com/andrewfenn/Hardwar
+    development: sporadic
+    lang:
+    - C
+    - C++
+    updated: 2013-05-27
+
+- name: Haunted House
+  remakes:
+  - name: HauntedHouse
+    updated: 2015-07-14
+    repo: https://github.com/KunoNoOni/HauntedHouse
+    development: complete
+    lang: ActionScript
+
+- name: [Heart of Darkness, Heart of Darkness (video game)]
+  remakes:
+  - name: HODe
+    repo: https://code.google.com/p/tombexcavator/source/browse/branches/v0/unsorted/hode-20090726
+    development: halted
+    lang: C++
+
+- name: [Heavy Smash, 'http://www.mobygames.com/game/arcade/heavy-smash']
+  remakes:
+  - name: open-heavy-smash
+    updated: 2015-05-28
+    repo: https://github.com/namelivia/open-heavy-smash
+    development: halted
+    lang: C++
+
+- name: Hexen II
+  remakes:
+  - name: Hammer of Thyrion
+    url: http://uhexen2.sourceforge.net/
+    repo: http://sourceforge.net/p/uhexen2/code/
+    development: active
+    lang: C
+    updated: 2013-05-27
+    images:
+    - http://a.fsdn.com/con/app/proj/uhexen2/screenshots/284891.jpg
+    - http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9151.jpg
+    - http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9153.jpg
+
+- name: Heroes of Might and Magic II
+  remakes:
+  - name: fheroes2
+    url: http://sourceforge.net/projects/fheroes2/
+    repo: http://fheroes2.svn.sourceforge.net/viewvc/fheroes2/
+    development: active
+    lang: C++
+    images:
+    - https://sourceforge.net/p/fheroes2/screenshot/171624.jpg
+    - https://sourceforge.net/p/fheroes2/screenshot/191635.jpg
+
+- name: Heroes of Might and Magic III
+  remakes:
+  - name: VCMI
+    url: http://forum.vcmi.eu/portal.php
+    repo: https://github.com/vcmi/vcmi
+    status: playable
+    development: active
+    info: time-based releases, requires original files
+    lang: C++
+    framework: SDL
+    license: GPL2
+    images:
+    - http://forum.vcmi.eu/album_pic.php?pic_id=35
+    - http://forum.vcmi.eu/album_pic.php?pic_id=40
+    - http://forum.vcmi.eu/album_pic.php?pic_id=41
+  clones:
+  - name: Ancient Beast
+    url: http://AncientBeast.com
+    repo: https://github.com/FreezingMoon/AncientBeast
+    status: playable
+    development: active
+    framework:
+    - HTML5
+    - Phaser
+    lang: JavaScript
+    images:
+    - http://ancientbeast.com/media/screenshots/v0.1%20Frozen%20Skull.jpg
+    - http://ancientbeast.com/media/screenshots/v0.1%20Dark%20Forest.jpg
+
+- name: Highway Encounter
+  remakes:
+  - name: Vorton
+    updated: 2015-05-03
+    url: http://vorton.sourceforge.net/
+    development: halted
+    lang: C
+    license: GPL3
+    repo: http://iweb.dl.sourceforge.net/project/vorton/Vorton-Source/Beta-2/vorton-src-beta2.zip
+    images:
+    - http://vorton.sourceforge.net/shot2.png
+    - http://vorton.sourceforge.net/shot3.png
+    - http://vorton.sourceforge.net/shot5.png
+
+- name: 'History Line: 1914-1918'
+  meta:
+    genre: [Strategy]
+    subgenre: [Turn-Based Tactics]
+    theme: [World War I]
+  remakes:
+  - name: Historyline
+    updated: 2015-05-03
+    repo: https://github.com/oliverdb/Historyline
+    url: https://conquertheworldbycode.wordpress.com/nostalgia-2/
+    development: halted
+    framework: Unity
+    lang: C#
+    images:
+    - https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png
+    - https://conquertheworldbycode.files.wordpress.com/2013/10/screen.png
+
+- name: Homeworld
+  remakes:
+  - name: Homeworld SDL
+    url: http://www.thereisnospork.com/projects/homeworld/
+    repo: http://www.thereisnospork.com/projects/homeworld/#download
+    status: playable
+    development: halted
+    framework: SDL
+    images:
+    - http://www.thereisnospork.com/projects/homeworld/images/test01.png
+    - http://www.thereisnospork.com/projects/homeworld/images/screen01.png
+    - http://www.thereisnospork.com/projects/homeworld/images/screen02.png
+    - http://www.thereisnospork.com/projects/homeworld/images/screen04.png
+
+- name: HoverRace
+  remakes:
+  - name: HoverRace
+    repo: https://github.com/HoverRace/HoverRace
+    updated: 2015-04-08
+    development: active
+    lang: C++
+    license: Custom
+
+- name: Hovertank 3D
+  remakes:
+  - name: Hovertank3D
+    repo: https://github.com/FlatRockSoft/Hovertank3D
+    updated: 2015-04-07
+    development: complete
+    lang:
+    - C
+    - Assembly
+    license: GPL2
+
+- name: Herzog Zwei
+  clones:
+  - name: Herzog 3D
+    url: http://herzog3d.sourceforge.net/
+    repo: https://sourceforge.net/p/herzog3d/code/HEAD/tree/
+    development: halted
+    license: GPL2
+    updated: 2016-06-18
+    images:
+    - http://herzog3d.sourceforge.net/images/hz_1.jpeg
+    - http://herzog3d.sourceforge.net/images/hz_2.jpeg
+    - http://herzog3d.sourceforge.net/images/hz_3.jpeg
+    - http://herzog3d.sourceforge.net/images/hz_4.jpeg
+
+- name: [Hack, Hack (video game)]
+  names:
+  - [Rogue, Rogue_(video_game)]
+  - NetHack
+  meta:
+    genre: [Role-Playing]
+    subgenre: [Roguelike]
+  clones:
+  - url: http://www.slashem.org/
+    name: SLASH'EM
+    development: halted
+    lang: [C]
+    license: NGPL
+    updated: 2015-04-11
+    repo: http://slashem.cvs.sourceforge.net/viewvc/slashem/
+    images:
+    - http://www.slashem.org/3ddrag.png
+    - http://www.slashem.org/32tour.png
+    - http://www.slashem.org/fireball.png
+    - http://www.slashem.org/trad-tty.png
+

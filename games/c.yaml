@@ -1,0 +1,411 @@
+- name: [Cadaver, Cadaver (video game)]
+  remakes:
+  - name: Cadaver
+    development: halted
+    info: PC game files required
+    lang: C++
+    updated: 2015-04-06
+    repo: http://jotd.pagesperso-orange.fr/cadaver/bin/Cadaver-001.zip
+    images:
+    - http://jotd.pagesperso-orange.fr/cadaver/cadaver_remake_pic.png
+
+- name: Caesar 3
+  remakes:
+  - name: CaesarIA
+    url: https://bitbucket.org/dalerank/caesaria
+    repo: https://github.com/dalerank/caesaria-game
+    license: GPL3
+    status: playable
+    development: active
+    lang:
+    - C++
+    - JavaScript
+    info: most of original game works, except war logic
+    updated: 2013-05-27
+
+- name: Call to Power II
+  remakes:
+  - name: 'Civilization: Call To Power 2 Source Project'
+    updated: 2015-04-10
+    url: http://ctp2.darkdust.net/
+    repo: https://ctp2.darkdust.net/svn/
+    lang: C 
+
+- name: Candy Crush Saga
+  clones:
+  - name: CookieCrunch
+    repo: https://github.com/renatomcamilio/CookieCrunch
+    updated: 2015-05-29
+    development: sporadic
+    lang: Swift
+
+- name: [Cannon Fodder, Cannon Fodder (series)]
+  remakes:
+  - name: Open Fodder
+    url: https://github.com/segrax/openfodder
+    status: playable
+    development: active
+    lang: C++
+    repo: https://github.com/segrax/openfodder
+    updated: 2013-11-20
+  - name: Cannon Fodder
+    repo: https://github.com/krazyjakee/CannonFodder
+    updated: 2015-04-13
+    development: halted
+    framework: HTML5
+
+- name: Carmageddon
+  remakes:
+  - name: OpenC1
+    url: http://www.1amstudios.com/projects/openc1/
+    repo: http://code.google.com/p/openc1/
+    status: playable
+    development: sporadic
+    info: needs game data
+    lang: C#
+    video:
+      youtube: 0afl6ruHZgI
+
+- name: Castle of the Winds
+  remakes:
+  - name: Castle of the Winds (React/MeteorJS Remake)
+    updated: 2015-08-31
+    repo: https://github.com/mordrax/cotwmtor
+    url: http://mordrax.github.io/cotwmtor/
+    development: active
+    lang: JavaScript
+    framework: [React, Redux, Meteor]
+    license: MIT
+
+- name: Cataclysm
+  meta:
+    genre: [Role-Playing]
+    subgenre: [Roguelike, Survival]
+    theme: [Horror]
+  remakes:
+  - name: 'Cataclysm: Dark Days Ahead'
+    url: http://en.cataclysmdda.com/
+    repo: https://github.com/CleverRaven/Cataclysm-DDA
+    status: playable
+    development: active
+    lang: [C++, Lua]
+    framework: ncurses
+    license: CC-BY-SA
+    updated: 2016-10-09
+    images:
+    - http://en.cataclysmdda.com/assets/drive.png
+    - http://en.cataclysmdda.com/assets/status.png
+    video:
+      youtube: iHfpBze8ecA
+
+- name: Catacomb II
+  remakes:
+  - name: CatacombSDL
+    url: https://github.com/Blzut3/CatacombSDL
+    repo: https://github.com/Blzut3/CatacombSDL
+    status: playable
+    development: halted
+    info: needs game data
+    lang: C
+    updated: 2014-07-23
+
+- name: Cave Story
+  remakes:
+  - name: NXEngine
+    url: http://nxengine.sourceforge.net/
+    status: playable
+    development: sporadic
+    info: needs game data (but it's free!)
+    updated: 2013-05-29
+
+- name: Chip's Challenge
+  remakes:
+  - name: Tile World
+    url: http://www.muppetlabs.com/~breadbox/software/tworld/
+    status: playable
+    development: sporadic
+    lang: C
+    updated: 2014-01-05
+  - name: Tile World 2
+    url: https://github.com/Qalthos/Tile-World
+    repo: https://github.com/Qalthos/Tile-World
+    status: playable
+    development: halted
+    lang: C
+    updated: 2014-01-05
+
+- name: ChuChu Rocket!
+  remakes:
+  - name: Duck Marines
+    url: http://tangramgames.dk/games/duckmarines/
+    repo: https://github.com/SimonLarsen/duckmarines
+    status: playable
+    development: active
+    lang: Lua
+    info: music is CC-BY-NC-ND
+    updated: 2014-07-23
+    images:
+    - http://tangramgames.dk/games/duckmarines/images/teaser.png
+    - http://tangramgames.dk/games/duckmarines/images/duckbeat.png
+    - http://tangramgames.dk/games/duckmarines/images/vacuum.gif
+    video:
+      youtube: SAz0BsTSXy4
+
+- name: [Circus Atari, Circus (video game)]
+  remakes:
+  - name: Circus Linux!
+    url: http://www.newbreedsoftware.com/circus-linux/
+    repo: ftp://ftp.tuxpaint.org/unix/x/circus-linux/win32/circuslinux-1.0.0.zip
+    updated: 2015-04-07
+    development: halted
+    lang: C
+    license: GPL2
+    images:
+    - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-title.gif
+    - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-game.gif
+
+- name: Clonk
+  remakes:
+  - name: OpenClonk
+    url: http://www.openclonk.org/
+    repo: http://git.openclonk.org/openclonk.git/
+    development: active
+    lang: C++
+    updated: 2012-04-07
+    video:
+      youtube: zydiZSXpn0w
+
+- name: [Columns, Columns (video game)]
+  remakes:
+  - name: div-columns
+    updated: 2016-02-26
+    url: http://js.mikedx.co.uk/columns.html
+    repo: https://github.com/MikeDX/div-columns
+    development: active
+    framework: DIV Games Studio
+    license: MIT
+
+- name: [Commando, Commando (video game)]
+  remakes:
+  - name: CommandoJS
+    url: http://commandojs.org/
+    updated: 2015-05-28
+    repo: https://github.com/commandojs/CommandoJS
+    status: playable
+    development: halted
+    lang: [JavaScript, CoffeeScript]
+    framework: melonJS
+    license: MIT
+    images:
+    - http://i.imgur.com/e4ChdOL.png
+
+- name: [Commander Keen Series, Commander Keen]
+  remakes:
+  - name: Commander Genius
+    url: http://clonekeenplus.sourceforge.net/
+    repo: http://clonekeenplus.git.sourceforge.net/git/gitweb.cgi?p=clonekeenplus/clonekeenplus;a=summary
+    development: active
+    lang: C++
+    images:
+    - http://clonekeenplus.sourceforge.net/img/ckp1.jpg
+    - http://clonekeenplus.sourceforge.net/img/ckpoptions.jpg
+    - http://clonekeenplus.sourceforge.net/img/lampk2cg.jpg
+    - http://clonekeenplus.sourceforge.net/img/keen4flag.png
+  - name: Keen Dreams
+    url: http://steamcommunity.com/sharedfiles/filedetails/?id=315040793
+    updated: 2015-04-04
+    repo: https://github.com/keendreams/keen
+    development: active
+    lang: C
+    license: GPL2
+    images:
+    - http://cloud-3.steamusercontent.com/ugc/26216921914590827/8AECCAA9C1AA07D02F357A41AEFB074FC02A75A1/
+    video:
+      youtube: 23SahL6eG6A
+  - name: Omnispeak
+    url: http://davidgow.net/keen/omnispeak.html
+    repo: https://github.com/sulix/omnispeak
+    development: active
+    lang: C
+    license: GPL2
+    updated: 2015-04-04
+    images:
+    - http://davidgow.net/images/omnispeak-2.png
+
+- name: Command & Conquer
+  names:
+  - 'Command & Conquer: Red Alert'
+  - Dune 2000
+  remakes:
+  - name: OpenRA
+    url: http://www.openra.net
+    repo: https://github.com/OpenRA/OpenRA
+    development: active
+    lang: C#
+    license: GPL3
+    images:
+    - http://www.openra.net/images/news/20150531-ra-editor.png
+    - http://www.openra.net/images/news/20140405-beacons.png
+    - http://www.openra.net/images/news/20150808-d2k-range-circles.png
+
+- name: [Contra, Contra (video game)]
+  remakes:
+  - name: Contra_remake
+    updated: 2015-05-28
+    repo: https://github.com/EmileSonneveld/Contra_remake
+    development: halted
+    lang: C++
+    license: GPL2
+    video:
+      vimeo: 79514269
+
+- name: Cookie Clicker
+  remakes:
+  - name: CookieClickerRemake
+    updated: 2015-05-03
+    repo: https://github.com/ricodejong02/CookieClickerRemake
+    development: active
+    lang: C#
+
+- name: [Crazy Cars, Titus Software]
+  remakes:
+  - name: Crazy Cars
+    updated: 2015-04-16
+    url: http://crazycarscpc.free.fr/indexEN.htm
+    repo: https://www.dropbox.com/s/lad1nm9fvmd3ugs/crazycarsFL.zip
+    lang: QuickBASIC
+    framework: QB64
+    images:
+    - http://crazycarscpc.free.fr/images/crazy01.jpg
+
+- name: [Creatures, Creatures (video game)]
+  remakes:
+  - name: Open Creatures
+    url: http://creatures.wikia.com/wiki/Openc2e
+    repo: https://github.com/ccdevnet/openc2e
+    updated: 2014-09-05
+    development: halted
+    info: forks present
+    lang: C++
+    license: LGPL
+
+- name: Crystal Quest
+  remakes:
+  - name: CrystalQuest
+    updated: 2015-05-29
+    repo: https://github.com/haleymt/CrystalQuest
+    development: active
+    framework:
+    - HTML5
+    - JQuery
+    lang: JavaScript
+    license: MIT
+
+- name: Curse of the Azure Bonds
+  remakes:
+  - name: coab
+    repo: https://github.com/simeonpilgrim/coab
+    status: playable
+    development: sporadic
+    lang: C#
+    updated: 2013-05-28
+
+- name: [Cytadela, 'http://www.ppa.pl/gry/cytadela.html']
+  remakes:
+  - name: Cytadela
+    updated: 2015-04-16
+    url: http://cytadela.sourceforge.net/about.php
+    development: sporadic
+    lang: C++
+    license: GPL3
+    repo: http://heanet.dl.sourceforge.net/project/cytadela/cytadela/1.1.0/cytadela-1.1.0.tar.bz2
+    images:
+    - http://cytadela.sourceforge.net/images/901.png
+    - http://cytadela.sourceforge.net/images/912.png
+    - http://cytadela.sourceforge.net/images/915.png
+    - http://cytadela.sourceforge.net/images/923.png
+    - http://cytadela.sourceforge.net/images/925.png
+
+- name: C-Dogs
+  meta:
+    genre: [Action, Shoot 'Em Up]
+    subgenre: [Run and gun]
+  remakes:
+  - name: C-Dogs SDL
+    url: http://cxong.github.io/cdogs-sdl/
+    repo: https://github.com/cxong/cdogs-sdl
+    status: playable
+    development: active
+    lang: C
+    license: CC-BY
+    framework: SDL2
+    updated: 2014-03-08
+    images:
+    - http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/1.png
+    - http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/2.png
+    - http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/3.png
+    - http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/4.png
+    video:
+      youtube: fSIOdqZFM48
+
+- name: [Civilization, Civilization (video game)]
+  remakes:
+  - name: Civ-Remake
+    updated: 2015-04-12
+    repo: https://github.com/aarnwri/Civ-Remake
+    development: active
+    lang: Ruby
+  - name: CivOne
+    url: http://www.civone.com/
+    repo: https://github.com/SWY1985/CivOne
+    development: active
+    lang: C#
+    license: CC0
+    info: requires original files
+    updated: 2016-05-09
+
+- name: Civilization II
+  meta:
+    genre: [Strategy]
+    subgenre: [Turn-Based Strategy, 4X]
+    theme: [Alternate Historical, Management]
+  clones:
+  - url: http://freeciv.wikia.com/
+    name: Freeciv
+    development: active
+    lang: C
+    repo: http://svn.gna.org/viewcvs/freeciv/
+    images:
+    - http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
+    - http://images4.wikia.nocookie.net/__cb20061222015333/freeciv/images/9/94/Big_window.png
+  - url: http://play.freeciv.org/
+    name: Play Freeciv!
+    development: active
+    info: online browser game
+    lang: [C, Java, JavaScript]
+    repo: https://github.com/freeciv/freeciv-web
+  - url: http://www.c-evo.org/
+    name: C-Evo
+    status: playable
+    lang: Delphi
+    repo: http://www.c-evo.org/files/download.php?cevosrc.cevosrc.zip
+    updated: 2013-09-19
+    images:
+    - http://www.c-evo.org/shot1.jpg
+    - http://www.c-evo.org/shot2.jpg
+    - http://www.c-evo.org/shot3.jpg
+    - http://www.c-evo.org/shot4.jpg
+
+- name: Crimsonland
+  clones:
+  - url: http://violetland.github.io/
+    name: Violetland
+    repo: https://github.com/ooxi/violetland
+    updated: 2013-05-29
+    status: playable
+    development: active
+    lang: C++
+    images:
+    - http://violetland.github.io/images/screenshots/thumbnail/violetland-illumination-630x475.png
+    - http://violetland.github.io/images/screenshots/thumbnail/violetland-flashlight-630x475.png
+

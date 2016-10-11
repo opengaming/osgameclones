@@ -1,0 +1,497 @@
+- name: [Abuse, Abuse (video game)]
+  meta:
+    genre: [Action, Shooter]
+    theme: [Horror, Sci-Fi]
+  remakes:
+  - name: Abuse
+    url: http://abuse.zoy.org/
+    repo: http://abuse.zoy.org/browser/abuse/trunk
+    updated: 2013-05-27
+    development: halted
+    lang: [C++, Lisp]
+    status: playable
+    images:
+    - http://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png
+    - http://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png
+
+- name: [Ace of Spades, Ace of Spades (video game)]
+  meta:
+    genre: [First-Person Shooter]
+    theme: [World War II]
+  remakes:
+  - name: Iceball
+    updated: 2015-07-22
+    url: http://iceball.build/
+    repo: https://github.com/iamgreaser/iceball
+    development: active
+    license: Multiple
+    lang: [C, Lua]
+  - name: OpenSpades
+    updated: 2015-04-10
+    url: https://sites.google.com/a/yvt.jp/openspades/
+    repo: https://github.com/yvt/openspades
+    development: active
+    lang: C++
+    license: GPL3
+    images:
+    - https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg
+    - https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240107290/media/shot0097.jpg
+    - https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240124607/media/shot0252.jpg
+
+- name: 'Ace Combat: Assault Horizon'
+  meta:
+    genre: [Action]
+    subgenre: [Flight Simulator]
+    theme: [Modern Military]
+  remakes:
+  - name: open-horizon
+    updated: 2016-02-09
+    url: http://zxstudio.org/blog/author/razgriz/
+    repo: https://github.com/undefined-darkness/open-horizon
+    development: active
+    lang: C++
+    framework: nya-engine
+    license: MIT
+    images:
+    - http://zxstudio.org/blog/wp-content/uploads/2015/04/open-horizon-progress-report-01.png
+    - http://zxstudio.org/blog/wp-content/uploads/2016/01/open-horizon-effects.png
+    - http://zxstudio.org/blog/wp-content/uploads/2015/05/cockpit2.png
+
+- name: Achtung, die Kurve!
+  meta:
+    genre: [Strategy]
+  remakes:
+  - name: Zatacka
+    updated: 2015-04-16
+    url: http://zatacka.sourceforge.net/
+    repo: https://github.com/simenheg/zatackax/
+    development: halted
+    lang: C
+    framework: SDL
+    license: GPL
+    images:
+    - http://zatacka.sourceforge.net/img/sc1.jpg
+    - http://zatacka.sourceforge.net/img/sc2.jpg
+    - http://zatacka.sourceforge.net/img/sc3.jpg
+  - name: Netacka
+    updated: 2016-03-06
+    url: https://pwmarcz.pl/netacka/
+    development: halted
+    lang: C
+    images:
+    - https://pwmarcz.pl/netacka/sshots.png
+
+- name: Age of Empires II
+  meta:
+    genre: [Strategy]
+    subgenre: [Real-Time Strategy]
+    theme: [Medieval]
+  remakes:
+  - name: openage
+    url: http://openage.sft.mx/
+    repo: https://github.com/SFTtech/openage
+    updated: 2014-10-26
+    status: unplayable
+    development: active
+    info: runnable, requires original files
+    lang: [C++, Python]
+    framework: SDL
+    license: GPL3
+    images:
+    - http://openage.sft.mx/pics/openage_0.png
+
+- name: 'Akalabeth: World of Doom'
+  meta:
+    genre: [Role-Playing]
+    theme: [Fantasy]
+  remakes:
+  - name: Aklabeth
+    url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
+    repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/aklabeth-1.0.tar.gz
+    updated: 2015-04-13
+    lang: C
+    license: GPL2
+
+- name: Alien 8
+  meta:
+    genre: [Action]
+  remakes:
+  - name: Alien 8
+    url: http://retrospec.sgn.net/game/alien8
+    updated: 2014-01-12
+    status: playable
+    development: halted
+    lang: C
+    images:
+    - http://retrospec.sgn.net/config/screenshots/alien8.f.img0.jpg
+    - http://retrospec.sgn.net/config/screenshots/alien8.f.img1.jpg
+    - http://retrospec.sgn.net/config/screenshots/alien8.f.img2.jpg
+    - http://retrospec.sgn.net/config/screenshots/alien8.f.menu.jpg
+
+- name: [Allegiance, Allegiance (video game)]
+  meta:
+    genre: [Action, Simulation]
+    subgenre: [Real-Time Strategy]
+    theme: [Sci-Fi]
+  remakes:
+  - name: Free Allegiance
+    repo: http://freeallegiance.cvs.sourceforge.net/viewvc/freeallegiance/
+    url: http://www.freeallegiance.org/
+    updated: 2015-04-06
+    development: sporadic
+    lang: C
+    info: Shared source
+    images:
+    - http://www.freeallegiance.org/screenshots/CapitalShips/BelterCapsLaunchTogether.jpg
+    - http://www.freeallegiance.org/screenshots/CapitalShips/ICBattlecruisersResonateAleph.jpg
+    - http://www.freeallegiance.org/screenshots/Dogfights/BigGameVeryBusy.jpg
+
+- name: Alone in the Dark
+  names:
+  - Alone in the Dark 2
+  - Jack in the Dark
+  - Alone in the Dark 3
+  meta:
+    genre: [Action-Adventure]
+    theme: [Horror, Alternate Historical]
+  remakes:
+  - name: Free in the Dark
+    url: http://sourceforge.net/projects/fitd/
+    repo: http://fitd.svn.sf.net/viewvc/fitd/trunk/
+    updated: 2014-09-05
+    development: halted
+    lang: C
+    license: GPL
+
+- name: 'Anacreon: Reconstruction 4021'
+  meta:
+    genre: [Strategy]
+    theme: [Sci-Fi, Management]
+  remakes:
+  - name: 'Ard-Reil: Anacreon Reconstruction Project'
+    url: http://ardreil.sourceforge.net/
+    repo: http://ardreil.cvs.sourceforge.net/viewvc/ardreil/
+    updated: 2015-04-09
+    development: halted
+    lang: [C, C++, Java, Pascal]
+    license: GPL2
+
+- name: [Another World, Another World (video game)]
+  names:
+  - [Out of This World, Another World (video game)]
+  - ["Outer World (\u30A2\u30A6\u30BF\u30FC\u30EF\u30FC\u30EB\u30C9 Aut\u0101 W\u0101\
+      rudo)", Another World (video game)]
+  meta:
+    genre: [Platformer, Action-Adventure]
+    theme: [Sci-Fi]
+  remakes:
+  - name: New RAW
+    url: http://sourceforge.net/projects/newraw/
+    repo: svn://svn.code.sf.net/p/newraw/code/
+    updated: 2014-09-05
+    development: halted
+    lang: C++
+    license: GPL
+  - name: rawgl
+    url: http://cyxdown.free.fr/rawgl/
+    repo: https://github.com/cyxx/rawgl
+    updated: 2016-03-06
+    development: active
+    info: completable
+    lang: C++
+    license: GPL
+    images:
+    - http://cyxdown.free.fr/rawgl/raw-1.png
+    - http://cyxdown.free.fr/rawgl/raw-2.png
+    - http://cyxdown.free.fr/rawgl/rawgl-1.png
+    - http://cyxdown.free.fr/rawgl/rawgl-2.png
+
+- name: ['Another World 2: Heart of the Alien', Heart of the Alien]
+  remakes:
+  - name: Heart of the Alien
+    url: http://hota.sourceforge.net/
+    repo: http://hota.cvs.sourceforge.net/viewvc/hota/
+    updated: 2015-04-02
+    development: halted
+    lang: C 
+
+- name: 'Archon: The Light and the Dark'
+  remakes:
+  - name: XArchon
+    updated: 2015-05-03
+    url: http://xarchon.seul.org/
+    lang: [C, C++]
+    development: halted
+    license: GPL3
+    repo: http://xarchon.seul.org/xarchon-0.50.tar.gz
+    images:
+    - http://xarchon.seul.org/img/snap-1.gif
+    - http://xarchon.seul.org/img/snap-2.gif
+
+- name: [Ares, Ares (video game)]
+  remakes:
+  - name: Antares
+    url: http://arescentral.org/antares/
+    repo: https://github.com/arescentral/antares
+    updated: 2014-08-20
+    development: active
+    lang: C++
+    license: GPL3
+    status: playable
+    images:
+    - http://farm3.static.flickr.com/2606/4103057024_0b577de0a2.jpg
+    - http://farm3.static.flickr.com/2742/4102298687_8c2e12276b.jpg
+    - http://farm3.static.flickr.com/2597/4103065046_f52a39003f.jpg
+    video:
+      youtube: 4s44qu5zgXE
+
+- name: Armor Alley
+  remakes:
+  - name: Armor Alley
+    updated: 2015-05-05
+    url: http://www.schillmania.com/armor-alley/
+    repo: https://github.com/scottschiller/ArmorAlley
+    development: active
+    lang: JavaScript
+    license: CC-BY-NC
+
+- name: 'Artemis: Spaceship Bridge Simulator'
+  remakes:
+  - name: EmptyEpsilon
+    url: http://daid.github.io/EmptyEpsilon/
+    repo: https://github.com/daid/EmptyEpsilon
+    status: playable
+    development: active
+    lang: C++
+    license: GPL2
+    info: multiplayer
+    updated: 2016-08-27
+    images:
+    - http://daid.github.io/EmptyEpsilon/screenshots/mainscreen.png
+    - http://daid.github.io/EmptyEpsilon/screenshots/helms.png
+
+- name: Artillery Duel
+  remakes:
+  - name: Artillery Duel
+    updated: 2015-04-11
+    url: https://code.google.com/p/artillery-duel-reloaded/
+    repo: http://artillery-duel-reloaded.googlecode.com/files/Artillery-0.61-src.zip
+    development: halted
+    lang: Python
+    license: GPL3
+    images:
+    - http://pygame.org/shots/1519.jpg
+
+- name: Arx Fatalis
+  remakes:
+  - name: Arx Libertatis
+    url: http://arx-libertatis.org/
+    repo: https://github.com/arx/ArxLibertatis
+    updated: 2013-05-27
+    info: needs original game files
+    development: active
+    lang: C++
+    images:
+    - http://wiki.arx-libertatis.org/images/d/d7/Polsius_%28imprisoned%29.jpg
+    - http://wiki.arx-libertatis.org/images/5/59/Jumping.jpg
+    video:
+      youtube: mIribIqKee8
+
+- name: Ascendancy
+  remakes:
+  - name: Starlane Empire
+    url: https://gna.org/projects/starlane/
+    repo: http://cvs.gna.org/cvsweb/starlane/?cvsroot=starlane
+    updated: 2014-09-05
+    development: halted
+    lang: C++
+    license: GPL
+
+- name: [Asteroids, Asteroids (video game)]
+  remakes:
+  - name: Maelstrom
+    url: http://www.libsdl.org/projects/Maelstrom/
+    status: playable
+    development: halted
+    lang: C
+    updated: 2014-01-12
+  - name: Vectoroids
+    updated: 2015-04-07
+    url: http://www.newbreedsoftware.com/vectoroids/
+    repo: ftp://ftp.tuxpaint.org/unix/x/vectoroids/src/vectoroids-1.1.0.tar.gz
+    development: halted
+    lang: C
+    license: GPL2
+    images:
+    - http://www.newbreedsoftware.com/vectoroids/screenshots/title.gif
+    - http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids.gif
+    - http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids-embedded.jpg
+  - name: Agendaroids
+    url: http://www.newbreedsoftware.com/agendaroids/
+    repo: ftp://ftp.tuxpaint.org/unix/agenda/agendaroids/src/agendaroids-2002.03.07.tar.gz
+    updated: 2015-04-07
+    development: halted
+    lang: C
+    license: GPL2
+    images:
+    - http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids-title.gif
+    - http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids.gif
+    - http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids-zaurus.gif
+
+- name: [Asylum, 'https://www.mobygames.com/game/acorn-32-bit/asylum']
+  remakes:
+  - name: SDL Asylum
+    updated: 2015-04-17
+    url: http://sdl-asylum.sourceforge.net/
+    development: halted
+    lang: C++
+    license: GPL3
+    repo: svn://svn.code.sf.net/p/sdl-asylum/code/trunk
+    images:
+    - https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136705.jpg
+    - https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/134775.jpg
+    - https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136451.jpg
+
+- name: [Atomix, Atomix (video game)]
+  remakes:
+  - name: Atomiks
+    url: http://www.viste-family.net/mateusz/software/atomiks/
+    status: playable
+    development: halted
+    lang: C
+    video:
+      youtube: t8FP44Gv8QY
+  - name: KAtomic
+    url: https://www.kde.org/applications/games/katomic/
+    development: active
+    lang: C++
+  - name: GNOME Atomix
+    url: https://github.com/GNOME/atomix
+    development: halted
+    lang: C
+  - name: WAtomic
+    url: http://watomic.sourceforge.net/
+    updated: 2015-04-10
+    repo: http://sourceforge.net/projects/watomic/files/watomic/1.2.3/WAtomic_src_1_2_3_257.zip/download
+    development: halted
+    lang: Delphi
+    framework: Kylix
+    license: GPL2
+
+- name: AstroMenace
+  remakes:
+  - name: AstroMenace
+    url: http://sourceforge.net/projects/openastromenace/
+    updated: 2015-04-08
+    repo: svn://svn.code.sf.net/p/openastromenace/code/
+    development: active
+    lang: C++
+    license: GPL3
+    images:
+    - https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am2.jpg
+    - https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am11.jpg
+    - https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am9.jpg
+    - https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am10.jpg
+    - https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am6.jpg
+    - https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am7.jpg
+
+- name: Astrosmash
+  remakes:
+  - name: Cosmosmash
+    url: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html
+    updated: 2015-04-16
+    development: sporadic
+    lang: C++
+    framework: SDL
+    license: GPL2
+    repo: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash-1.4.7.tar.gz
+    images:
+    - http://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
+
+- name: Atomic Bomberman
+  remakes:
+  - name: Bombman
+    repo: https://github.com/drummyfish/bombman
+    development: sporadic
+    lang: Python
+    license: GPL
+    updated: 2016-07-11
+    images:
+    - https://camo.githubusercontent.com/8ab6d36689583359d2904c9c4a573e3dcf68d76a/687474703a2f2f692e696d6775722e636f6d2f3378626741504d2e706e67
+
+- name: Awesomenauts
+  remakes:
+  - name: BlakedAwesomenaughts
+    updated: 2015-05-28
+    repo: https://github.com/zombieman1041/BlakedAwesomenaughts
+    development: active
+    lang:
+    - JavaScript
+    - PHP
+    license: MIT
+
+- name: A-Train
+  clones:
+  - name: FreeRails
+    url: http://freetrain.sourceforge.net/
+    repo: http://sourceforge.net/p/freetrain/code/
+    development: halted
+    lang: C#
+    updated: 2015-04-02
+    images:
+    - http://freetrain.sourceforge.net/forum/download/file.php?id=1&sid=36293a0660c06ec093a27abe384ffc78
+
+- name: Age of Empires
+  clones:
+  - name: 0 A.D.
+    url: http://play0ad.com/
+    repo: http://trac.wildfiregames.com/timeline
+    status: playable
+    development: active
+    lang: C++
+    license: GPL2
+    images:
+    - https://play0ad.com/wp-content/gallery/screenshots/screenshot0088.png
+    - https://play0ad.com/wp-content/gallery/screenshots/screenshot0072.jpg
+    - https://play0ad.com/wp-content/gallery/screenshots/water-depth-rendering.jpg
+
+- name: [Anno series, Anno_1602]
+  clones:
+  - name: Unknown Horizons
+    url: http://www.unknown-horizons.org/
+    repo: https://github.com/unknown-horizons/unknown-horizons
+    development: active
+    lang: Python
+    images:
+    - http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png
+    - http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
+
+- name: Arkanoid
+  clones:
+  - name: PyBreak360
+    url: http://sourceforge.net/projects/pybreak360/
+    repo: git://git.code.sf.net/p/pybreak360/code
+    updated: 2015-04-05
+    development: active
+    lang: Python
+    images:
+    - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg
+    - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360b.png
+    - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png
+    - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png
+  - name: Ball And Wall
+    repo: https://github.com/budnix/ball-and-wall
+    updated: 2015-05-03
+    development: active
+    lang: JavaScript
+    license: MIT
+
+- name: 'Artemis: Spaceship Bridge Simulator'
+  clones:
+  - name: Space Nerds In Space
+    repo: https://github.com/smcameron/space-nerds-in-space
+    updated: 2015-05-02
+    development: active
+    lang: C
+    license: GPL2
+

@@ -1,0 +1,323 @@
+- name: [Ladder, Ladder (video game)]
+  remakes:
+  - name: Ladder
+    updated: 2015-05-09
+    url: http://gamesoft.ca/remakes.html
+    repo: http://gamesoft.ca/bestgames/ladder_src.zip
+    lang: C#
+    images:
+    - http://gamesoft.ca/bestgames/images/ladder_snp.png
+  - name: Ladder
+    updated: 2015-05-10
+    lang: Java
+    info: (source inside JAR file)
+    license: GPL2
+    repo: http://ostermiller.org/ladder/ladder.jar
+    url: http://ostermiller.org/ladder/
+    images:
+    - http://gamesoft.ca/java/images/ladder_secret%20road.png
+    - http://gamesoft.ca/java/images/ladder_snp.png
+  - name: ladder
+    updated: 2016-02-26
+    repo: https://github.com/SmallRoomLabs/ladder
+    development: active
+    lang: GO
+    license: MIT
+    images:
+    - https://raw.githubusercontent.com/SmallRoomLabs/ladder/master/images/GameRunning1.png
+
+- name: [Larn, Larn (video game)]
+  remakes:
+  - name: NLarn
+    updated: 2015-07-12
+    url: http://nlarn.sourceforge.net/
+    repo: git://git.code.sf.net/p/nlarn/git nlarn-git
+    development: active
+    lang: [C, Lua]
+    license: GPL2
+
+- name: [Legion, 'http://www.mobygames.com/game/legion__']
+  remakes:
+  - name: legion
+    updated: 2015-06-22
+    repo: https://github.com/mahho/legion
+    development: halted
+    lang: C++
+    framework: Irrlict
+    license: Custom
+
+- name: [Lego Rock Raiders, Lego Rock Raiders (video game)]
+  remakes:
+  - name: rock-raiders-remake
+    updated: 2015-09-21
+    repo: https://github.com/rystills/rock-raiders-remake
+    development: active
+    lang: JavaScript
+
+- name: Liero
+  remakes:
+  - name: OpenLiero
+    url: http://code.google.com/p/liero/
+    development: halted
+    lang: C++
+    repo: http://code.google.com/p/liero/source/list
+  - name: OpenLieroX
+    url: http://www.openlierox.net/
+    development: active
+    lang: C++
+    repo: https://github.com/albertz/openlierox
+    images:
+    - http://www.openlierox.net/official/screenshots/olx2.png
+    - http://www.openlierox.net/official/screenshots/olx4.png
+    - http://www.openlierox.net/official/screenshots/olx11.png
+    - http://www.openlierox.net/official/screenshots/olx6.png
+  - name: Gusanos
+    url: http://gusanos.sourceforge.net/
+    repo: http://sourceforge.net/p/gusanos/code/?source=navbar
+    status: playable
+    development: halted
+    updated: 2013-05-27
+
+- name: [Lionheart, Lionheart (video game)]
+  remakes:
+  - name: Lionheart Remake
+    updated: 2015-04-12
+    repo: https://github.com/DjThunder/lionheart-remake
+    url: http://www.b3dgs.com/
+    development: active
+    lang: Java
+    license: GPL2
+    images:
+    - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/1.png
+    - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/2.png
+    - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/3.png
+
+- name: Little Big Adventure
+  remakes:
+  - name: twin-e
+    url: https://code.google.com/p/twin-e/
+    repo: https://code.google.com/p/twin-e/source/browse/
+    status: playable
+    development: sporadic
+    info: needs game data
+    lang: C
+    license: GPL
+    updated: 2014-11-09
+
+- name: [Locomotion (Amiga 1992), 'http://www.mobygames.com/game/locomotion']
+  remakes:
+  - name: Pendomotion
+    updated: 2015-07-14
+    repo: https://github.com/Pafycio/Pendomotion
+    development: active
+    lang: Python
+
+- name: Lode Runner
+  remakes:
+  - name: XScavenger
+    url: http://www.xdr.com/dash/scavenger.html
+    status: playable
+    development: halted
+    lang: C
+    updated: 2014-01-12
+  - name: Lode Runner - Total Recall
+    url: http://loderunnerwebgame.com/LodeRunner/
+    repo: https://github.com/SimonHung/LodeRunner_TotalRecall
+    development: active
+    framework: HTML5
+    updated: 2015-08-15
+  - name: KGoldrunner
+    url: https://www.kde.org/applications/games/kgoldrunner/
+    repo: https://quickgit.kde.org/?p=kgoldrunner.git
+    status: playable
+    development: active
+    lang: C++
+    framework: SDL2
+    license: GPL2
+    updated: 2016-05-31
+    images:
+    - https://www.kde.org/images/screenshots/kgoldrunner.png
+
+- name: [Log!cal, 'http://hol.abime.net/906']
+  remakes:
+  - name: Orbium
+    url: http://bni.github.io/orbium/
+    repo: https://github.com/bni/orbium
+    status: playable
+    development: sporadic
+    framework: HTML5
+    lang: JavaScript
+    license: GPL2
+    updated: 2014-08-20
+  - name: Pathological
+    updated: 2015-04-16
+    url: http://pathological.sourceforge.net/
+    development: halted
+    lang: Python
+    license: GPL2
+    repo: http://pathological.cvs.sourceforge.net/viewvc/pathological/
+    images:
+    - http://pathological.sourceforge.net/screenshots/intro.png
+    - http://pathological.sourceforge.net/screenshots/theabyss.png
+    - http://pathological.sourceforge.net/screenshots/ketchupandmustard.png
+    - http://pathological.sourceforge.net/screenshots/wildberries.png
+    - http://pathological.sourceforge.net/screenshots/triggerpractice.png
+
+- name: [Lose Your Marbles, Sega Puzzle Pack]
+  remakes:
+  - name: Lose Your Marbles
+    updated: 2015-04-12
+    repo: https://github.com/eguneys/lose-your-marbles
+    development: sporadic
+    lang: JavaScript
+    license: MIT
+
+- name: Lumines
+  remakes:
+  - name: luminesk5
+    updated: 2015-04-13
+    repo: https://github.com/kaikai2/luminesk5
+    development: halted
+    lang: Objective-C
+    license: GPL3
+
+- name: ['Lugaru: The Rabbit''s Foot', Lugaru]
+  remakes:
+  - name: Lugaru
+    updated: 2015-04-11
+    url: https://hg.icculus.org/icculus/lugaru/
+    repo: https://hg.icculus.org/icculus/lugaru/file/97b303e79826
+    development: halted
+    lang: C++
+    license: GPL2
+
+- name: [Legend of Zelda - A Link to the Past, 'The Legend of Zelda: A Link to the
+      Past']
+  remakes:
+  - name: Solarus
+    url: http://www.solarus-games.org/
+    repo: https://github.com/christopho/solarus
+    development: active
+    lang: [C++, Lua]
+    updated: 2013-05-28
+    images:
+    - http://www.zelda-solarus.com/images/zsdx/dungeon1_outside.png
+    - http://www.zelda-solarus.com/images/zsdx/dungeon1_1.png
+    video:
+      youtube: BUxREyXILLs
+  - name: lttp-phaser
+    updated: 2015-05-28
+    repo: https://github.com/englercj/lttp-phaser
+    development: active
+    lang: JavaScript
+    framework:
+    - WebGL
+    - Phaser
+    license: MIT
+
+- name: [Lemmings, Lemmings (video game)]
+  clones:
+  - name: Pingus
+    url: http://pingus.seul.org/welcome.html
+    repo: http://developer.berlios.de/svn/?group_id=2301
+    development: active
+    lang: C++
+    images:
+    - http://pingus.seul.org/images/screen_0.7.0-3.jpg
+    - http://pingus.seul.org/images/screen_0.7.0-4.jpg
+  - name: Lix
+    url: http://asdfasdf.ethz.ch/~simon/index.php
+    repo: https://github.com/SimonN/Lix
+    status: playable
+    development: active
+    lang: C++
+    updated: 2013-05-30
+    video:
+      youtube: dWXXK8QlnME
+  - name: JavaFXLemmings
+    updated: 2015-09-21
+    repo: https://github.com/lukaswerner/JavaFXLemmings
+    development: active
+    lang: JavaFX
+    license: GPL2
+
+- name: [Lotus Esprit Turbo Challenge, Lotus (series)]
+  clones:
+  - name: RacerJS
+    updated: 2015-05-15
+    repo: https://github.com/onaluf/RacerJS
+    development: halted
+    lang: JavaScript
+    license: MIT
+
+- name: Legend of Zelda
+  clones:
+  - name: Open Zelda
+    url: http://openzelda.net/
+    repo: https://code.google.com/p/openzelda/
+    status: playable
+    development: sporadic
+    lang: C++
+    updated: 2014-04-28
+    video:
+      youtube: secXtfqKo1c
+  - name: The Legend Of Zelda - Return Of The Hylan
+    updated: 2015-09-27
+    url: http://www.zeldaroth.fr/us/zroth.php
+    development: complete
+    lang: C++
+    repo: http://www.zeldaroth.fr/us/files/ROTH/Windows/ZeldaROTH_US-src-windows.zip
+    images:
+    - http://www.zeldaroth.fr/images/roth/s14.png
+    - http://www.zeldaroth.fr/images/roth/s1.png
+    - http://www.zeldaroth.fr/images/roth/s13.png
+  - name: The Legend Of Zelda - Oni Link Begins
+    updated: 2015-09-27
+    url: http://www.zeldaroth.fr/us/zolb.php
+    development: complete
+    lang: C++
+    repo: http://www.zeldaroth.fr/us/files/OLB/Windows/ZeldaOLB_US-src-windows.zip
+    images:
+    - http://www.zeldaroth.fr/images/olb/s1.JPG
+    - http://www.zeldaroth.fr/images/olb/s5.JPG
+    - http://www.zeldaroth.fr/images/olb/s10.JPG
+  - name: The Legend Of Zelda - Time To Triumph
+    url: http://www.zeldaroth.fr/us/z3t.php
+    updated: 2015-09-27
+    repo: http://www.zeldaroth.fr/us/files/3T/Windows/Zelda3T_US-src-windows.zip
+    development: complete
+    lang: C++
+    images:
+    - http://www.zeldaroth.fr/images/3t/s1.png
+    - http://www.zeldaroth.fr/images/3t/s12.png
+    - http://www.zeldaroth.fr/images/3t/s6.png
+  - name: The Legend Of Zelda - Navi's Quest
+    updated: 2015-09-27
+    url: http://www.zeldaroth.fr/us/dlnsq.php
+    repo: http://www.zeldaroth.fr/us/files/NSQ/Windows/ZeldaNSQ_US-src-windows.zip
+    development: complete
+    framework: SDL
+    lang: C++
+    images:
+    - http://www.zeldaroth.fr/images/nsq/s1.png
+  - name: The Legend Of Zelda - Picross
+    updated: 2015-09-27
+    url: http://www.zeldaroth.fr/us/dlpicross.php
+    repo: http://www.zeldaroth.fr/us/files/Picross/Windows/ZeldaPicross_US-src-windows.zip
+    development: complete
+    lang: C++
+    images:
+    - http://www.zeldaroth.fr/images/picross/s1.png
+  - name: Fanwor
+    updated: 2016-03-23
+    url: http://fanwor.tuxfamily.org/
+    repo: https://git.tuxfamily.org/fanwor/fanwor.git
+    status: playable
+    development: active
+    lang: C
+    framework: SDL
+    license: GPL2
+    images:
+    - http://fanwor.tuxfamily.org/fanwor-1.png
+    - http://fanwor.tuxfamily.org/fanwor-2.png
+

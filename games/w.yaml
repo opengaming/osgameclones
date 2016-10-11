@@ -1,0 +1,267 @@
+- name: [Warlords II, Warlords (game series)#Warlords II]
+  remakes:
+  - name: FreeLords
+    url: http://sourceforge.net/projects/freelords/
+    development: active
+    lang: Java
+    license: GPL2
+    repo: git://git.code.sf.net/p/freelords/git
+    updated: 2015-04-06
+
+- name: 'Warcraft: Orcs & Humans'
+  remakes:
+  - name: warcraft-remake
+    updated: 2015-05-29
+    repo: https://github.com/b3dgs/warcraft-remake
+    info: needs original files
+    development: active
+    lang: Java
+    license: GPL2
+  - name: OpenWar
+    repo: https://github.com/andreas-jonsson/openwar
+    url: http://www.openwar.io
+    status: unplayable
+    development: sporadic
+    lang: Go
+    license: GPL3
+    info: requires original files
+    updated: 2016-08-09
+    images:
+    - https://raw.githubusercontent.com/andreas-jonsson/openwar/master/doc/screenshot1.png
+    - https://raw.githubusercontent.com/andreas-jonsson/openwar/master/doc/screenshot2.png
+    - https://raw.githubusercontent.com/andreas-jonsson/openwar/master/doc/screenshot3.gif
+
+- name: Warcraft II
+  remakes:
+  - url: http://wargus.stratagus.com/index.shtml
+    name: Wargus
+    repo: https://code.launchpad.net/wargus
+    development: sporadic
+    lang: [C++, Lua]
+    updated: 2013-05-27
+  clones:
+  - name: Dark Oberon
+    url: http://dark-oberon.sourceforge.net/
+    repo: http://dark-oberon.cvs.sourceforge.net/viewvc/dark-oberon/
+    updated: 2015-04-06
+    images:
+    - http://dark-oberon.sourceforge.net/screenshots/2005-08-16_1_1024x768.jpg
+    - http://dark-oberon.sourceforge.net/screenshots/2005-08-16_4_1024x768.jpg
+    - http://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_1024x768.jpg
+
+- name: Wario Land 3
+  remakes:
+  - name: Wario-Land-3
+    updated: 2015-07-14
+    repo: https://github.com/NSasquatch/Wario-Land-3
+    development: active
+    lang: Python
+    framework: Pygame
+
+- name: Warzone 2100
+  remakes:
+  - url: http://wz2100.net/
+    name: Warzone 2100
+    development: active
+    lang: C++
+    repo: http://developer.wz2100.net/timeline
+    images:
+    - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/elite-force.jpg
+    - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/artillery-and-sensors.jpeg
+    - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/new-hq-and-powergen.jpeg
+    - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
+
+- name: Where in the World Is Carmen Sandiego? (1985)
+  remakes:
+  - name: thiefcatcher
+    updated: 2015-06-18
+    repo: https://github.com/Ponup/thiefcatcher
+    development: active
+    lang: C++
+    license: GPL3
+
+- name: [Willow, Willow (arcade game)]
+  remakes:
+  - name: Willow-Game-Remake
+    updated: 2015-06-28
+    repo: https://github.com/Kwintenvdb/Willow-Game-Remake
+    development: halted
+    lang: C++
+
+- name: 'Wing Commander: Privateer'
+  remakes:
+  - url: http://privateer.sourceforge.net/
+    name: Privateer - Gemini Gold
+    development: sporadic
+    lang: C++
+    repo: http://privateer.svn.sourceforge.net/viewvc/privateer/
+    images:
+    - http://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad.png
+    - http://privateer.sourceforge.net/images/screenshot-1-approaching-planet-under-attack.png
+    - http://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png
+    - http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
+
+- name: Wizard of Wor
+  remakes:
+  - name: KnightOfWor
+    updated: 2015-05-29
+    repo: https://github.com/Sanguinik/KnightOfWor
+    development: active
+    lang: Java
+    license: GPL3
+
+- name: Wizardry
+  remakes:
+  - name: Wizardry Legacy
+    updated: 2015-04-11
+    url: http://wl.lariennalibrary.com/
+    repo: http://wl.lariennalibrary.com/uploads/Main/Download/Wizardrylegacy_05_source.zip
+    development: active
+    lang: C++
+    license: GPL3
+    images:
+    - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect.png
+    - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
+    - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
+  clones:
+  - name: jClassicRPG
+    url: http://jcrpg.blogspot.com.au/
+    updated: 2015-04-11
+    development: halted
+    lang: Java
+    license: GPL3
+
+- name: Wolfenstein 3D
+  names:
+  - [Spear of Destiny, Spear of Destiny (video game)]
+  remakes:
+  - url: http://maniacsvault.net/ecwolf/
+    name: ECWolf
+    development: active
+    lang: C++
+    repo: https://bitbucket.org/Blzut3/ecwolf
+    updated: 2015-04-03
+    images:
+    - http://maniacsvault.net/ecwolf/ecwolf_fullres.png
+  clones:
+  - name: Voxelstein 3D
+    updated: 2015-04-16
+    url: http://voxelstein3d.sourceforge.net/
+    repo: http://kent.dl.sourceforge.net/project/voxelstein3d/voxelstein3d/0.101/Voxelstein3D_src_0.101.zip
+    development: halted
+    lang: C++
+    license: MIT
+    images:
+    - http://voxelstein3d.sourceforge.net/screen1.png
+    - http://voxelstein3d.sourceforge.net/screen3.png
+    - http://voxelstein3d.sourceforge.net/screen5.png
+
+- name: 'Wolfenstein: Enemy Territory'
+  remakes:
+  - url: http://etlegacy.com/
+    name: 'ET: Legacy'
+    info: needs original game files
+    development: active
+    lang: [C, C++, Lua]
+    repo: https://github.com/etlegacy/etlegacy
+    updated: 2013-05-28
+    images:
+    - http://www.splashdamage.com/screens_wet/001.jpg
+    - http://www.splashdamage.com/screens_wet/002.jpg
+    - http://www.splashdamage.com/screens_wet/003.jpg
+    - http://www.splashdamage.com/screens_wet/004.jpg
+
+- name: World of Goo
+  remakes:
+  - name: OpenGoo
+    url: http://mandarancio.github.io/OpenGOO/
+    repo: https://github.com/Mandarancio/OpenGOO
+    status: unplayable
+    development: active
+    updated: 2013-05-29
+
+
+- name: [Worms Series, Worms (series)]
+  clones:
+  - url: http://hedgewars.org/
+    name: Hedgewars
+    development: active
+    lang: [Pascal, C++, Haskell]
+    repo: http://code.google.com/p/hedgewars/
+    images:
+    - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu_s.png
+    - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-christmas_s.png
+    - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-nature_s.png
+    - http://hedgewars.org/images/screenshots/hedgewars-0.9.6-001_s.png
+  - url: http://gna.org/projects/warmux/
+    name: WarMUX
+    development: sporadic
+    lang: C++
+    repo: http://svn.gna.org/viewcvs/warmux/
+    images:
+    - https://lgdb.org/sites/default/files/node_images/29/160.jpg
+    video:
+      youtube: X3ZkTg-QkAo
+
+- name: [Wipeout, Wipeout (video game)]
+  clones:
+  - name: Core Breach
+    repo: https://github.com/core-code/CoreBreach
+    url: http://corebreach.corecode.at/CoreBreach/CoreBreach.html
+    updated: 2015-04-05
+  - name: H-Craft Championship
+    updated: 2015-04-25
+    url: http://www.irrgheist.com/games.htm
+    repo: https://bitbucket.org/mzeilfelder/trunk_hc1
+    development: active
+    lang: C++
+    framework: ZLIB
+    images:
+    - http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f01.jpg
+    - http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f07.jpg
+    - http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f02.jpg
+  - name: Ecksdee
+    url: http://sourceforge.net/projects/ecksdee/
+    development: halted
+    lang: C++
+    license: GPL2
+    repo: git://git.code.sf.net/p/ecksdee/ecksdee
+    updated: 2015-04-25
+    images:
+    - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/98817.jpg
+    - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/98811.jpg
+    - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99927.jpg
+    - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/67869.jpg
+    - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99925.jpg
+    - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/90020.jpg
+  - name: HexGL
+    updated: 2015-04-26
+    url: http://hexgl.bkcore.com/
+    repo: https://github.com/BKcore/HexGL
+    development: active
+    framework:
+    - HTML5
+    - WebGL
+    license: MIT
+  - name: The Rush
+    updated: 2015-04-26
+    url: http://sourceforge.net/projects/therush/
+    development: halted
+    lang: C++
+    license: GPL2
+    repo: svn://svn.code.sf.net/p/therush/code/
+    images:
+    - https://a.fsdn.com/con/app/proj/therush/screenshots/193556.jpg
+    - https://a.fsdn.com/con/app/proj/therush/screenshots/193554.jpg
+  - name: RGP - Racing Game Project
+    updated: 2015-04-26
+    url: http://devlog-martinsh.blogspot.co.uk/search/label/Racing game
+    development: halted
+    lang: Python
+    framework: Blender
+    repo: https://dl.dropboxusercontent.com/u/11542084/RGPv01.zip
+    images:
+    - https://dl.dropboxusercontent.com/u/11542084/rgp_screen_06.jpg
+    - https://dl.dropboxusercontent.com/u/11542084/rgp_screen_03.jpg
+    - https://dl.dropboxusercontent.com/u/11542084/rgp_screen_04.jpg
+

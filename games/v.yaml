@@ -1,0 +1,26 @@
+- name: [Vlak, 'http://www.mobygames.com/game/dos/vlak']
+  remakes:
+  - name: Train
+    updated: 2015-05-28
+    repo: https://github.com/nenadalm/Train
+    development: sporadic
+    lang: Java
+    license: BSD
+
+- name: [Viper, 'http://www.mobygames.com/game/amiga/viper__']
+  remakes:
+  - name: viper
+    repo: https://github.com/bjornharrtell/viper
+    updated: 2015-05-18
+    development: halted
+    lang: CoffeeScript
+
+- name: VVVVVV
+  clones:
+  - name: WWW
+    repo: https://github.com/alexdantas/www
+    development: halted
+    framework: HTML5
+    lang: JavaScript
+    license: GPL3
+    updated: 2015-07-02

@@ -1,0 +1,985 @@
+- name: [Scorched Earth, Scorched Earth (video game)]
+  remakes:
+  - name: Atomic Tanks
+    url: http://atanks.sourceforge.net/
+    status: playable
+    development: sporadic
+    updated: 2013-06-06
+    images:
+    - http://atanks.sourceforge.net/Screenshots/scrnshot28.png
+    - http://atanks.sourceforge.net/Screenshots/scrnshot23.png
+
+- name: [Scramble, Scramble (video game)]
+  remakes:
+  - name: Scramble
+    updated: 2015-05-09
+    lang: PowerBASIC
+    repo: http://gamesoft.ca/bestgames/scramble_source.zip
+    images:
+    - http://gamesoft.ca/bestgames/images/scrcap06.png
+
+- name: [Seaquest, Seaquest (video game)]
+  remakes:
+  - name: Seaquest
+    repo: https://github.com/brunocmorais/Seaquest
+    updated: 2015-06-22
+    development: sporadic
+    lang: C#
+
+- name: 'Shadowgrounds: Survivor'
+  remakes:
+  - name: shadowgrounds
+    repo: https://github.com/vayerx/shadowgrounds
+    updated: 2015-04-14
+    development: halted
+    lang: C++
+    license: Custom
+
+- name: [Simon, Simon (game)]
+  remakes:
+  - name: asdf
+    updated: 2015-05-28
+    repo: https://github.com/TimPietrusky/asdf
+    development: complete
+    lang: JavaScript
+    license: MIT
+
+- name: Skool Daze
+  remakes:
+  - name: pyskool
+    url: http://pyskool.ca/
+    repo: https://github.com/skoolkid/pyskool
+    updated: 2015-04-05
+    development: active
+    lang: Python
+    license: GPL3
+    images:
+    - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-0.4.png
+    - http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool-0.4.png
+    - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze_take_too-0.4.png
+    - http://pyskool.ca/wp-content/uploads/2010/05/ezad_looks-0.4.png
+    - http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool_daze-0.4.png
+    - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-wide-0.4.png
+
+- name: 'Space Rangers 2: Dominators'
+  remakes:
+  - name: OpenSR
+    repo: https://github.com/ObKo/OpenSR
+    updated: 2015-04-03
+    development: active
+    lang: [C++, Python]
+
+- name: Strike Commander
+  remakes:
+  - name: libRealSpace
+    url: http://fabiensanglard.net/reverse_engineering_strike_commander/index.php
+    repo: https://github.com/fabiensanglard/libRealSpace
+    development: active
+    lang: C++
+    updated: 2014-01-05
+
+- name: Strikers 1945
+  remakes:
+  - name: Py1945
+    updated: 2015-04-13
+    url: https://code.google.com/p/py1945game/
+    development: halted
+    lang: Python
+    license: GPL
+    repo: http://py1945game.googlecode.com/svn/trunk/
+
+- name: Sensible Soccer
+  meta:
+    genre: [Sports]
+    subgenre: [Soccer]
+  remakes:
+  - name: FreeKick
+    url: https://codeflow.wordpress.com/tag/sensible-soccer/
+    repo: https://github.com/anttisalonen/freekick3
+    updated: 2015-04-03
+    development: active
+    lang: C++
+    license: GPL
+  - name: YSoccer
+    url: http://ysoccer.sourceforge.net/
+    repo: git://git.code.sf.net/p/ysoccer/code ysoccer-code
+    updated: 2015-04-03
+    development: sporadic
+    lang: Blitz BASIC
+    license: GPL
+
+- name: [Sensitive, 'https://www.mobygames.com/game/c64/sensitive']
+  remakes:
+  - name: One Way To Go
+    repo: https://github.com/purplehuman/onewaytogo
+    development: active
+    lang: Lua
+    license: GPL3
+    updated: 2015-05-02
+    images:
+    - https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/screenshot_zps0048f6d4.PNG
+    - https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/owtg_zpsc6792600.PNG
+
+- name: [Seven Kingdoms, Seven Kingdoms (computer game)]
+  remakes:
+  - name: 'Seven Kingdoms: Ancient Adversaries'
+    development: active
+    lang: C++
+    url: http://7kfans.com/
+    repo: http://7kfans.com/git/?p=7kaa.git;a=summary
+
+- name: Shining Force II
+  remakes:
+  - name: Shining Force 2 Reverse Engineer (SF2RE)
+    updated: 2015-05-10
+    repo: https://github.com/ShiningForceCentral/SF2RE
+    development: sporadic
+    info: reverse engineering project
+    lang: C 
+
+- name: Shining Soul
+  remakes:
+  - name: Shining-Soul-Remake
+    updated: 2016-04-11
+    repo: https://github.com/CharlieIsMyName/Shining-Soul-Remake
+    development: active
+    lang: Python
+
+- name: Sid Meier's Alpha Centauri
+  remakes:
+  - name: Freeciv Alpha Centauri project
+    updated: 2015-04-11
+    url: http://freecivac.sourceforge.net/
+    repo: http://freecivac.cvs.sourceforge.net/viewvc/freecivac/
+    development: halted
+    lang: C
+    license: GPL2
+    images:
+    - http://freecivac.sourceforge.net/pics/govchange.png
+
+- name: Sid Meier's Colonization
+  remakes:
+  - name: FreeCol
+    url: http://www.freecol.org/
+    repo: http://freecol.svn.sourceforge.net/viewvc/freecol/
+    development: active
+    lang: Java
+    images:
+    - http://www.freecol.org/images/screen-0.8.0-large.jpg
+    - http://www.freecol.org/images/java-shot15.jpg
+    - http://www.freecol.org/images/java-shot16.jpg
+  - name: cc94
+    repo: https://github.com/institution/cc94
+    updated: 2015-05-29
+    development: active
+    info: requires original files
+    lang: [C++, Python]
+    license: AGPL3
+
+- name: Sid Meier's Pirates!
+  remakes:
+  - name: Crown and Cutlass
+    updated: 2015-04-15
+    url: http://www.crownandcutlass.com/
+    development: halted
+    lang: C++
+    license: BSD
+    repo: svn://svn.code.sf.net/p/crownandcutlass/code/trunk
+    images:
+    - http://www.crownandcutlass.com/screenshots/images/CCNewMenu.png
+    - http://www.crownandcutlass.com/screenshots/images/CCNewCities.png
+    - http://www.crownandcutlass.com/screenshots/images/CCNavalBattle.png
+
+- name: Shadow Warrior
+  remakes:
+  - name: JonoF's Shadow Warrior Port (JFSW)
+    url: http://www.jonof.id.au/jfsw
+    repo: http://svnweb.freebsd.org/ports/head/games/jfsw/
+    status: playable
+    development: active
+    lang: C
+    updated: 2015-04-03
+    images:
+    - http://static.jonof.id.au/modsuppt/jfsw/shot_gl1.png
+    - http://static.jonof.id.au/modsuppt/jfsw/shot_gl2.png
+    - http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
+  - name: SWP
+    updated: 2015-04-14
+    url: http://www.proasm.com/sw/swp.html
+    repo: https://github.com/Hendricks266/SWP
+    lang: C
+    license: GPL2
+    video:
+      youtube: JePqKJd4hhw
+
+- name: [Siege, Siege (video game)]
+  remakes:
+  - name: FreeSiege
+    url: http://freesiege.sourceforge.net/
+    repo: https://github.com/MCMic/freesiege
+    status: playable
+    development: sporadic
+    lang: C++
+    updated: 2013-06-06
+    images:
+    - http://freesiege.sourceforge.net/screens/screen0.png
+    - http://freesiege.sourceforge.net/screens/screen1.png
+
+- name: Siege of Avalon
+  remakes:
+  - name: Siege of Avalon Open Source
+    updated: 2015-04-08
+    url: http://soaos.sourceforge.net/
+    repo: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source
+    development: halted
+    lang: Pascal
+    license: Custom
+    images:
+    - http://soaos.sourceforge.net/images/shots/scrshot2.jpg
+    - http://soaos.sourceforge.net/images/shots/scrshot1.jpg
+    - http://soaos.sourceforge.net/images/shots/scrshot4.jpg
+
+- name: [Silencer, Silencer (video game)]
+  remakes:
+  - name: zSILENCER
+    url: http://zsilencer.com/
+    status: playable
+    development: halted
+    lang: C++
+    updated: 2013-09-22
+    repo: https://github.com/zsilencer/zSILENCER/
+    images:
+    - http://zsilencer.com/ss9.png
+    - http://zsilencer.com/ss1.png
+    video:
+      youtube: mojUQUONp4M
+
+- name: Silent Hunter 4
+  remakes:
+  - name: Danger from the Deep
+    development: sporadic
+    lang: C++
+    url: http://dangerdeep.sourceforge.net/
+    updated: 2012-04-05
+    repo: http://dangerdeep.svn.sourceforge.net/viewvc/dangerdeep/
+    images:
+    - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_1.jpg
+    - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_2.jpg
+    - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_4.jpg
+    - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
+
+- name: SimTower
+  remakes:
+  - name: OpenSkyscraper
+    url: https://github.com/fabianschuiki/OpenSkyscraper/wiki
+    repo: https://github.com/fabianschuiki/OpenSkyscraper
+    status: playable
+    development: active
+    lang: C++
+    updated: 2014-01-05
+    images:
+    - https://raw.githubusercontent.com/wiki/fabianschuiki/OpenSkyscraper/current.png
+
+- name: SingStar
+  remakes:
+  - name: UltraStar Deluxe
+    url: http://ultrastardx.sourceforge.net/
+    repo: http://sourceforge.net/p/ultrastardx/svn/HEAD/tree/trunk/
+    status: playable
+    development: active
+    lang: Object Pascal
+    updated: 2014-09-19
+    images:
+    - http://ultrastardx.sourceforge.net/screenshots/sing_singscreen.jpg
+    - http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png
+    - http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
+
+- name: Solar Fox
+  remakes:
+  - name: SolarWolf
+    updated: 2015-04-25
+    url: http://pygame.org/shredwheat/solarwolf/index.shtml
+    repo: http://pygame.org/shredwheat/solarwolf/solarwolf-1.5.tar.gz
+    lang: Python
+    license: LGPL2
+    images:
+    - http://pygame.org/shredwheat/solarwolf/screen/shot1.jpg
+    - http://pygame.org/shredwheat/solarwolf/screen/shot2.jpg
+    - http://pygame.org/shredwheat/solarwolf/screen/shot3.jpg
+    - http://pygame.org/shredwheat/solarwolf/screen/shot4.jpg
+    - http://pygame.org/shredwheat/solarwolf/screen/shot5.jpg
+
+- name: [Sopwith, Sopwith (video game)]
+  remakes:
+  - url: http://sdl-sopwith.sourceforge.net/
+    name: SDL Sopwith
+    framework: SDL
+    status: playable
+    development: halted
+    lang: C
+    updated: 2014-03-17
+    repo: http://sourceforge.net/p/sdl-sopwith/code/HEAD/tree/trunk/sopwith/
+    images:
+    - http://sdl-sopwith.sourceforge.net/sshot/title.png
+    - http://sdl-sopwith.sourceforge.net/sshot/runway.png
+    - http://sdl-sopwith.sourceforge.net/sshot/sopwith_metacity.png
+  - name: Sopwith 3
+    url: http://www.wingkong.net/sopwith2b/sopwith3.html
+    repo: http://sopwith3.cvs.sourceforge.net/viewvc/sopwith3/
+    updated: 2015-04-13
+    lang: C++
+    license: GPL2
+    images:
+    - http://www.wingkong.net/sopwith2b/images/sop3_title.gif
+
+- name: Space Invaders
+  remakes:
+  - name: pyspaceinvaders
+    updated: 2015-04-11
+    repo: https://github.com/map0logo/pyspaceinvaders
+    development: halted
+    lang: Python
+    license: GPL2
+    images:
+    - http://www.pygame.org/shots/1259.gif
+  - name: div-spaceinvaders2600
+    repo: https://github.com/MikeDX/div-spaceinvaders2600
+    url: http://js.mikedx.co.uk/invadersa2600.html
+    updated: 2016-04-30
+    development: active
+    framework: DIV Games Studio
+    license: MIT
+
+- name: [Space Rangers, Space Rangers (video game)]
+  remakes:
+  - name: Space-rangers
+    repo: https://github.com/markevich/Space-rangers
+    updated: 2015-05-28
+    development: halted
+    lang: C#
+
+- name: Speedball 2
+  remakes:
+  - name: Speedball 2
+    url: http://bringerp.free.fr/RE/Speedball2/remake.php5
+    status: unplayable
+    development: halted
+    info: reverse engineered prototype
+    lang: C#
+    updated: 2015-04-05
+
+- name: Star Control 2
+  remakes:
+  - url: http://sc2.sourceforge.net/
+    name: The Ur-Quan Masters
+    development: active
+    lang: C
+    repo: http://sc2.svn.sourceforge.net/viewvc/sc2/
+    images:
+    - http://sc2.sourceforge.net/screenshots/pcintro.jpg
+    - http://sc2.sourceforge.net/screenshots/slaveshield.png
+    - http://sc2.sourceforge.net/screenshots/scale_triscan.png
+    - http://sc2.sourceforge.net/screenshots/setupmenu.png
+    - http://sc2.sourceforge.net/screenshots/meleestep.png
+  - name: star-control2
+    repo: https://github.com/jjimenezg93/star-control2
+    development: active
+    lang: C++
+    license: MIT
+    updated: 2016-04-11
+
+- name: "Star Trek: Voyager \u2013 Elite Force"
+  remakes:
+  - name: RPG-X
+    updated: 2015-04-10
+    url: http://www.last-outpost.net/rpg-x/
+    repo: https://github.com/UberGames/rpgxEF
+    development: active
+    lang: C
+    license: GPL2
+    images:
+    - http://last-outpost.net/wp-content/uploads/2012/08/timewarp.jpg
+
+- name: Starcraft
+  remakes:
+  - url: http://stargus.stratagus.com/
+    name: Stargus
+    repo: https://code.launchpad.net/stargus
+    development: sporadic
+    lang: [C++, Lua]
+    updated: 2013-06-08
+
+- name: Stunt Car Racer
+  remakes:
+  - url: http://sourceforge.net/projects/stuntcarremake/
+    repo: git://git.code.sf.net/p/stuntcarremake/code
+    name: Stunt Car Racer Remake
+    updated: 2015-04-04
+    development: halted
+    lang: C++
+    images:
+    - https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
+
+- name: Stars!
+  remakes:
+  - name: Freestars
+    updated: 2015-04-11
+    url: http://freestars.sourceforge.net/
+    repo: svn://svn.code.sf.net/p/freestars/code/trunk
+    development: halted
+    lang: C++
+    license: GPL2
+  - name: NStars!
+    updated: 2015-05-09
+    url: http://nstars.sourceforge.net/
+    development: halted
+    lang: C#
+    license: GPL2
+    repo: http://nstars.cvs.sourceforge.net/viewvc/nstars/
+    images:
+    - http://nstars.sourceforge.net/nstars01.png
+    - http://nstars.sourceforge.net/nstars02.png
+    - http://nstars.sourceforge.net/nstars03.png
+
+- name: Star Castle
+  remakes:
+  - name: Star Castle
+    updated: 2015-05-09
+    repo: http://gamesoft.ca/bestgames/starcastle_src.zip
+    lang: C++
+    info: reuse forbidden without permission
+    images:
+    - http://gamesoft.ca/bestgames/images/starcastle-ss.gif
+
+- name: [Star Raiders (Atari), Star Raiders]
+  remakes:
+  - name: Atari8bit_StarRaiders
+    updated: 2015-07-14
+    repo: https://github.com/sidneycadot/Atari8bit_StarRaiders
+    development: halted
+    info: reverse engineering project
+    lang: Assembly
+
+- name: [Star Wars (1983 arcade game), Star Wars (1983 video game)]
+  remakes:
+  - name: Star-Wars-III
+    updated: 2015-06-01
+    repo: https://github.com/abhinandanramesh/Star-Wars-III
+    development: complete
+    lang: Python
+    license: GPL2
+
+- name: Starshatter
+  remakes:
+  - name: starshatter-open
+    url: https://code.google.com/p/starshatter-open/
+    repo: http://starshatter-open.googlecode.com/svn/trunk/
+    updated: 2015-04-07
+    development: sporadic
+    lang: C++
+    license: Custom
+
+- name: [Stunts, Stunts (video game)]
+  names:
+  - 4D Sports Driving
+  remakes:
+  - url: http://www.ultimatestunts.nl/
+    name: Ultimate Stunts
+    development: sporadic
+    lang: C++
+    repo: http://ultimatestunts.svn.sourceforge.net/viewvc/ultimatestunts/
+    images:
+    - http://www.ultimatestunts.nl/screenshots/0721.jpg
+    - http://www.ultimatestunts.nl/screenshots/0711.jpg
+    - http://www.ultimatestunts.nl/screenshots/0722.jpg
+    - http://www.ultimatestunts.nl/screenshots/0742.jpg
+
+- name: [Styx, Styx (Spectrum video game)]
+  remakes:
+  - name: Styx
+    url: http://retrospec.sgn.net/game/styx
+    updated: 2015-04-12
+    repo: http://retrospec.sgn.net/users/nwalker/styx/styx.zip
+    development: halted
+    lang: C++
+
+- name: Supaplex
+  remakes:
+  - name: splexhd
+    updated: 2015-05-28
+    repo: https://github.com/radu124/splexhd
+    development: halted
+    lang: C++
+    license: GPL2
+
+- name: Super Cars
+  remakes:
+  - name: Supercars III
+    url: http://jotd.pagesperso-orange.fr/supercars3/
+    repo: http://jotd.pagesperso-orange.fr/supercars3/Supercars3_06.zip
+    development: sporadic
+    license: JRL
+    updated: 2015-04-04
+    images:
+    - http://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
+
+- name: Super Foul Egg
+  remakes:
+  - name: SuperFoulEgg
+    repo: https://github.com/ant512/SuperFoulEgg
+    updated: 2015-04-05
+    development: halted
+    lang: Objective-C
+    license: Custom
+
+- name: [Super Mario, Super Mario (series)]
+  remakes:
+  - name: Mega Mario
+    url: http://sourceforge.net/projects/mmario/
+    status: playable
+    development: halted
+    lang: C++
+    updated: 2014-04-16
+    images:
+    - http://a.fsdn.com/con/app/proj/mmario/screenshots/206808.jpg
+    - http://a.fsdn.com/con/app/proj/mmario/screenshots/206814.jpg
+    - http://a.fsdn.com/con/app/proj/mmario/screenshots/206810.jpg
+  - name: pucpr-ld-mario3
+    updated: 2015-06-02
+    repo: https://github.com/jvlppm/pucpr-ld-mario3
+    development: halted
+    framework: Construct2
+  - name: uMario
+    updated: 2016-03-24
+    repo: https://github.com/jakowskidev/uMario_Jakowski
+    status: playable
+    development: halted
+    lang: C++
+    framework: SDL2
+    license: GPL2
+
+- name: [Super Methane Brothers, Super Methane Bros.]
+  remakes:
+  - name: Super Methane Brothers
+    url: http://methane.sourceforge.net/
+    status: playable
+    development: halted
+    lang: C++
+    updated: 2014-04-16
+    images:
+    - http://a.fsdn.com/con/app/proj/methane/screenshots/14915.jpg
+  - name: super-methane-brothers-gx
+    updated: 2015-05-18
+    repo: https://github.com/carstene1ns/super-methane-brothers-gx
+    development: sporadic
+    lang: C++
+    license: GPL2
+    info: Wii and GameCube port
+
+- name: Super Monkey Ball
+  remakes:
+  - name: Veraball
+    repo: https://github.com/Veraball/veraball
+    updated: 2015-12-29
+    development: active
+    framework: Gobot
+    license: MIT
+    images:
+    - http://i.imgur.com/uDY7tI4.jpg
+    - http://i.imgur.com/4SsHUvQ.jpg
+    - http://i.imgur.com/UWWdJZn.jpg
+    - http://i.imgur.com/09oXtsO.jpg
+  - name: irrlamb
+    repo: https://github.com/jazztickets/irrlamb
+    updated: 2015-12-29
+    development: active
+    lang: C++
+    framework: Irrlicht
+    license: GPL3
+    images:
+    - http://i.imgur.com/EZhOF2Z.jpg
+    - http://i.imgur.com/MoKnLml.jpg
+    - http://i.imgur.com/B0Yg78D.jpg
+    - http://i.imgur.com/FUiVvbl.jpg
+    - http://i.imgur.com/8ibJCaB.jpg
+    - http://i.imgur.com/cI3CN7W.jpg
+  - name: Neverball
+    url: http://neverball.org/
+    updated: 2015-12-29
+    development: active
+    lang: C++
+    framework: SDL
+    license: GPL2
+    repo: http://neverball.org/neverball-1.6.0.tar.gz
+    images:
+    - http://i.imgur.com/4ja9xmS.jpg
+    - http://i.imgur.com/xU6TJZP.jpg
+    - http://i.imgur.com/KJG0K0C.jpg
+    - http://i.imgur.com/KpzrmNp.jpg
+    - http://i.imgur.com/4sJM8Ji.jpg
+    - http://i.imgur.com/fzcotpu.jpg
+
+- name: [Survivor (1986), Survivor (video game)]
+  remakes:
+  - name: Survivor
+    repo: https://github.com/scottschiller/SURVIVOR
+    updated: 2015-04-08
+    url: http://www.schillmania.com/survivor/
+    status: playable
+    development: sporadic
+    framework: [HTML]
+    lang: [JavaScript]
+    license: CC-BY-NC
+    images:
+    - https://farm8.staticflickr.com/7427/10177812825_1a524cb34d_h.jpg
+
+- name: [Syndicate, Syndicate (video game)]
+  remakes:
+  - url: http://freesynd.sourceforge.net/
+    name: FreeSynd
+    development: active
+    lang: C++
+    repo: http://freesynd.svn.sourceforge.net/viewvc/freesynd/
+    images:
+    - http://freesynd.sourceforge.net/images/screenshots/ss1.png
+    - http://freesynd.sourceforge.net/images/screenshots/ss2.png
+    - http://freesynd.sourceforge.net/images/screenshots/ss3.png
+
+- name: Syndicate Wars
+  remakes:
+  - name: Syndicate Wars Port
+    url: http://swars.vexillium.org/
+    status: playable
+    development: halted
+    info: no network support, requires original data
+    license: GPL3
+    updated: 2013-05-30
+    images:
+    - http://swars.vexillium.org/shots/swars-gnu-1.png
+    - http://swars.vexillium.org/shots/swars-macos-1.png
+
+- name: System Shock
+  remakes:
+  - name: Citadel
+    updated: 2016-05-09
+    repo: https://github.com/JosiahJack/Citadel
+    framework: Unity
+
+- name: Shobon Action
+  remakes:
+  - name: Open Syobon Action
+    updated: 2015-04-13
+    url: http://sourceforge.net/projects/opensyobon/
+    development: halted
+    lang: C++
+    license: GPL2
+    repo: http://sourceforge.net/projects/opensyobon/files/src/
+
+- name: SkiFree
+  remakes:
+  - name: skifree.js
+    updated: 2015-05-02
+    repo: https://github.com/basicallydan/skifree.js
+    development: active
+    lang: JavaScript
+    license: Custom
+  - name: Skifree-HTML5-clone
+    updated: 2015-06-18
+    development: halted
+    framework: HTML5
+    license: GPL3
+    repo: https://github.com/andymason/Skifree-HTML5-clone
+
+- name: Slot Racers
+  remakes:
+  - name: Slot-Racers
+    repo: https://github.com/Zillode/Slot-Racers
+    updated: 2015-06-25
+    development: halted
+    lang: C
+    license: GPL3
+
+- name: [Snake, Snake (video game)]
+  remakes:
+  - name: snake
+    repo: https://github.com/spypunk/snake
+    lang: Java
+    framework: WTFPL
+    status: playable
+    development: active
+    updated: 2016-09-14
+    images:
+    - https://raw.githubusercontent.com/spypunk/snake/master/img/screenshot.png
+
+- name: Space Station 13
+  meta:
+    genre: [Role-Playing, Simulation]
+    theme: [Sci-Fi, Comedy, Espionage]
+  remakes:
+  - name: Griefly
+    url: https://grief.ly/
+    repo: https://github.com/griefly/griefly
+    development: active
+    lang: [C++, Go, Python]
+    license: MIT
+    updated: 2016-06-18
+  - name: Space Station 14
+    url: http://www.spacestation14.com/
+    repo: https://github.com/ss13remake/ss13remake
+    development: active
+    lang: C#
+    license: GPL3
+    updated: 2016-10-09
+  - name: ss13remake
+    repo: https://github.com/ss13remake/ss13remake
+    development: halted
+    lang: C#
+    license: GPL3
+    updated: 2015-06-24
+
+- name: Star Fox 64
+  remakes:
+  - name: UnnamedStarFoxClone
+    updated: 2015-06-18
+    repo: https://github.com/ChristianBorst/UnnamedStarFoxClone
+    development: active
+    lang: C#
+    framework: Unity
+
+- name: ['Stratosphere: Conquest of the Skies', 'http://www.mobygames.com/game/windows/stratosphere-conquest-of-the-skies']
+  remakes:
+  - name: openStrato
+    repo: https://github.com/gerdl/openStrato
+    updated: 2015-06-18
+    development: active
+    lang: JavaScript
+    framework: WebGL
+    license: GPL2
+
+- name: [Swing, Swing (video game)]
+  remakes:
+  - name: XSwing Plus
+    updated: 2015-06-24
+    repo: https://xswingplus.svn.codeplex.com/svn
+    url: http://xswing.net/
+    development: sporadic
+    lang: Java
+    license: GPL3
+
+- name: [Similar to Natural Selection, Natural Selection (video game)]
+  clones:
+  - url: http://www.unvanquished.net/
+    name: Unvanquished
+    development: active
+    lang: C
+    repo: https://github.com/Unvanquished/Unvanquished
+    updated: 2013-06-08
+  - url: http://www.tremulous.net/
+    name: Tremulous
+    development: halted
+    lang: C
+    repo: http://svn.icculus.org/tremulous/
+    updated: 2013-06-08
+
+- name: Simcity
+  meta:
+    genre: [Simulation]
+    theme: [Management]
+  clones:
+  - name: Lincity
+    repo: https://sourceforge.net/projects/lincity/
+    url: http://lincity.sourceforge.net/
+    development: halted
+    lang: [C]
+    license: GPL
+    images:
+    - http://lincity.sourceforge.net/screenshots/power.png
+  - name: LinCity-NG
+    repo: https://github.com/lincity-ng/lincity-ng
+    url: https://sourceforge.net/projects/lincity-ng.berlios/
+    development: active
+    lang: C++
+    license: GPL2
+    images:
+    - http://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/Lincity-ng-2.0.png
+    - http://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/NewSolar.png
+  - name: Micropolis
+    repo: https://github.com/SimHacker/micropolis
+    development: halted
+    license: GPL
+    lang: [C++, Python]
+    updated: 2013-05-27
+  - name: MicropolisJS
+    url: http://www.graememcc.co.uk/micropolisJS/
+    repo: https://github.com/graememcc/micropolisJS
+    updated: 2015-07-04
+    development: halted
+    lang: JavaScript
+    framework: HTML5
+    license: GPL3
+  - name: OpenCity
+    url: http://www.opencity.info/
+    repo: svn://svn.code.sf.net/p/opencity/code/trunk
+    development: halted
+    lang: C++
+    license: GPL2
+    updated: 2015-04-03
+    images:
+    - http://www.opencity.info/screenshot/full/opencity-0.0.5-mainstatusbar.jpg
+    - http://www.opencity.info/screenshot/full/opencity-0.0.5-island.jpg
+  - name: 3d.city
+    updated: 2015-07-04
+    url: http://lo-th.github.io/3d.city/index.html
+    repo: https://github.com/lo-th/3d.city
+    development: halted
+    lang: JavaScript
+    framework: HTML5
+    license: GPL3
+
+- name: [Snake, Snake (video game)]
+  clones:
+  - name: Gusty's Serpents
+    updated: 2015-04-25
+    url: http://sourceforge.net/projects/gustysserpents/
+    repo: svn://svn.code.sf.net/p/gustysserpents/svn/trunk
+    development: halted
+    lang: C++
+    license: GPL2
+    images:
+    - https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218294.jpg
+    - https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218296.jpg
+
+- name: Sokoban
+  clones:
+  - name: CavePacker
+    url: http://www.caveproductions.org/
+    status: playable
+    development: active
+    lang: C
+    framework: SDL
+    license: GPL3
+    repo: https://github.com/mgerhardy/caveexpress
+    updated: 2014-08-14
+    images:
+    - http://www.caveproductions.org/images/screenshots/cavepacker-01.png
+    - http://www.caveproductions.org/images/screenshots/cavepacker-02.png
+
+- name: Sonic the Hedgehog
+  clones:
+  - name: Open Surge
+    development: sporadic
+    lang: C
+    url: http://opensnc.sourceforge.net/home/
+    repo: http://sourceforge.net/projects/opensnc/develop
+    updated: 2012-04-05
+    images:
+    - http://opensnc.sourceforge.net/home/screenshots/0_1_3/4.png
+    - http://opensnc.sourceforge.net/home/screenshots/0_1_3/0.png
+    - http://opensnc.sourceforge.net/home/screenshots/0_1_3/3.png
+    - http://opensnc.sourceforge.net/home/screenshots/0_1_3/9.png
+  - name: Sonic Robo Blast 2
+    development: active
+    lang: [C, Lua]
+    url: https://www.srb2.org/
+    repo: https://github.com/STJr/SRB2
+    updated: 2014-04-16
+    images:
+    - https://www.srb2.org/wp-content/uploads/21-gfz1.png
+    - https://www.srb2.org/wp-content/uploads/21-thz2.png
+    - https://www.srb2.org/wp-content/uploads/21-acz1.png
+
+- name: Super Hexagon
+  clones:
+  - name: Open Hexagon
+    url: http://vittorioromeo.info/projects.html
+    repo: http://github.com/SuperV1234/SSVOpenHexagon
+    status: playable
+    development: active
+    lang: C++
+    updated: 2013-09-11
+    images:
+    - http://vittorioromeo.info/Resources/img/openHexagon.png
+    video:
+      youtube: Wth0Z2eMezE
+
+- name: Super Mario
+  clones:
+  - name: Super Mario War
+    url: http://smw.supersanctuary.net/site/
+    repo: https://github.com/erlehmann/Super-Mario-War
+    status: playable
+    development: halted
+    lang: C++
+    updated: 2013-05-28
+    images:
+    - http://i1-linux.softpedia-static.com/screenshots/Super-Mario-War_1.png
+    - http://s4.7ba.ru/ex/filecontent/screen_ors/9/f/f/9ffbc941653d781f353db1d73b01ed30.deb.jpg
+  - name: SuperTux
+    url: http://supertux.lethargik.org/
+    status: playable
+    development: active
+    lang: C++
+    framework: SDL
+    license: GPL3
+    repo: https://github.com/SuperTux/supertux
+    updated: 2014-08-14
+    images:
+    - http://supertux.github.io/images/0_3_5_7.png
+    - http://supertux.github.io/images/0_3_5_8.png
+    - http://supertux.github.io/images/0_3_5_11.png
+  - name: Super Mario Bros With SFML in C#
+    url: https://mario.codeplex.com/
+    updated: 2015-05-03
+    repo: https://mario.codeplex.com/SourceControl/latest
+    development: active
+    lang: C#
+    license: GPL2
+  - name: Super Mario Bros And Level Editor in C#
+    url: http://www.myandroidonline.com
+    updated: 2015-05-25
+    repo: https://github.com/jazzyjester/Mario-Game
+    development: active
+    lang: C#
+    license: MIT
+    images:
+    - https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
+
+- name: [Scorched Earth, Scorched Earth (video game)]
+  clones:
+  - url: http://www.scorched3d.co.uk/
+    name: Scorched3D
+    updated: 2015-04-06
+    repo: git://git.code.sf.net/p/scorched3d/git
+    development: active
+    lang: C++
+    license: GPL2
+
+- name: [SkyRoads, SkyRoads (video game)]
+  remakes:
+  - name: spaceroads
+    repo: https://github.com/sebhd/spaceroads
+    updated: 2015-05-28
+    development: halted
+    lang: C++
+    framework: Ogre3D
+  - name: OpenRoads
+    updated: 2015-07-02
+    url: http://openroadsgame.com/
+    repo: https://github.com/anprogrammer/OpenRoads
+    status: playable
+    development: halted
+    lang: [TypeScript]
+    framework: [HTML5, WebGL]
+    license: MIT
+  clones:
+  - name: Orbit-Hopper
+    updated: 2015-04-16
+    url: http://www.zneaker.com/projects.html#orbit
+    development: halted
+    lang: C++
+    license: GPL2
+    repo: http://www.zneaker.com/downloads/orbithopper116c.tar.gz
+    images:
+    - https://lgdb.org/sites/default/files/node_images/134/496.jpg
+    - https://lgdb.org/sites/default/files/node_images/134/497.jpg
+

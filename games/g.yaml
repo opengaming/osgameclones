@@ -1,0 +1,216 @@
+- name: Galaxian
+  remakes:
+  - name: galaxian
+    repo: https://github.com/codedrive/galaxian
+    updated: 2015-05-28
+    development: halted
+    lang: ActionScript
+
+- name: Geometry Wars
+  remakes:
+  - name: Geometry Wars Remake
+    updated: 2015-04-13
+    url: https://code.google.com/p/geomwarsremake/
+    development: halted
+    lang: Java
+    license: GPL
+    repo: http://geomwarsremake.googlecode.com/svn/trunk/
+  - name: Grid Wars 2
+    updated: 2015-05-09
+    url: http://worldofstuart.excellentcontent.com/grid/wars.htm
+    repo: http://worldofstuart.excellentcontent.com/grid/GridWars54.zip
+    lang: Blitz BASIC
+    images:
+    - http://worldofstuart.excellentcontent.com/grid/gw1.jpg
+    - http://worldofstuart.excellentcontent.com/grid/gw2.jpg
+    - http://worldofstuart.excellentcontent.com/grid/gw3.jpg
+    - http://worldofstuart.excellentcontent.com/grid/gw4.jpg
+    - http://worldofstuart.excellentcontent.com/grid/gw5.jpg
+
+- name: [Gish, Gish (video game)]
+  remakes:
+  - name: freegish
+    repo: https://github.com/freegish/freegish
+    updated: 2015-04-08
+    development: active
+    lang: C
+    license: GPL2
+    info: Content license CC-BY-SA
+
+- name: Gladiator
+  remakes:
+  - name: Openglad
+    url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi
+    repo: http://snowstorm.svn.sourceforge.net/viewvc/snowstorm/
+    development: sporadic
+    lang: C++
+    images:
+    - http://snowstorm.sourceforge.net/screenshots/1.png
+    - http://snowstorm.sourceforge.net/screenshots/2.png
+    - http://snowstorm.sourceforge.net/screenshots/3.png
+    - http://snowstorm.sourceforge.net/screenshots/4.png
+
+- name: Glest
+  remakes:
+  - name: Glest Advanced Engine
+    url: http://sourceforge.net/projects/glestae/
+    status: playable
+    development: sporadic
+    lang: C++
+    updated: 2013-08-04
+    images:
+    - http://a.fsdn.com/con/app/proj/glestae/screenshots/226566.jpg
+    - http://a.fsdn.com/con/app/proj/glestae/screenshots/258718.jpg
+    - http://a.fsdn.com/con/app/proj/glestae/screenshots/226560.jpg
+
+- name: [Gods, Gods (video game)]
+  remakes:
+  - name: Gods -Deluxe-
+    url: http://jotd.pagesperso-orange.fr/gods/index.html
+    updated: 2015-04-04
+    repo: http://jotd.pagesperso-orange.fr/gods/GodsDeluxe-0_8-B.zip
+    development: halted
+    lang: Java
+    images:
+    - http://jotd.pagesperso-orange.fr/gods/snapshots/classic_level_1/images/view_0000.jpg
+
+- name: [GoldenEye 007, GoldenEye 007 (1997 video game)]
+  remakes:
+  - name: ges-code
+    updated: 2015-04-15
+    url: http://www.moddb.com/mods/goldeneye-source
+    repo: https://github.com/goldeneye-source/ges-code
+    development: active
+    lang: C++
+    license: GPL3
+    images:
+    - http://media.moddb.com/images/mods/1/5/4506/Archives2.jpg
+    - http://media.moddb.com/images/mods/1/5/4506/Archives3.jpg
+    - http://media.moddb.com/images/mods/1/5/4506/Archives4.jpg
+    - http://media.moddb.com/images/mods/1/5/4506/ro3.jpg
+
+- name: [Gorillas, Gorillas (video game)]
+  remakes:
+  - name: Gorillas
+    url: https://github.com/Lyndir/Gorillas
+    repo: https://github.com/Lyndir/Gorillas
+    updated: 2015-04-06
+    development: sporadic
+    lang: Objective-C
+    info: iOS
+    license: JRL
+
+- name: [Gothic, Gothic (video game)]
+  names:
+  - Gothic II
+  remakes:
+  - name: REGoth
+    repo: https://github.com/degenerated1123/REGoth
+    status: playable
+    development: active
+    lang: C++
+    license: GPL3
+    info: requires original files
+    images:
+    - http://oi65.tinypic.com/14mzzi8.jpg
+
+- name: Grim Fandango
+  names:
+  - Escape from Monkey Island
+  - 'Myst III: Exile'
+  remakes:
+  - name: ResidualVM
+    url: http://residualvm.org/
+    development: active
+    lang: C++
+    updated: 2013-05-27
+
+- name: [Grand Theft Auto, Grand Theft Auto (video game)]
+  meta:
+    genre: [Action, Driving/Racing]
+    theme: [Crime]
+  remakes:
+  - name: OpenGTA
+    url: http://ogta.fifengine.de/
+    repo: http://ogta.fifengine.de/cvs.html
+    development: halted
+    lang: C++
+    updated: 2015-01-02
+
+- name: Grand Theft Auto 2
+  meta:
+    genre: [Action, Driving/Racing]
+    theme: [Crime]
+  remakes:
+  - name: gta2net
+    url: http://code.google.com/p/gta2net/
+    repo: http://code.google.com/p/gta2net/source/browse/trunk
+    development: halted
+    lang: C#
+    updated: 2014-02-05
+
+- name: Grand Theft Auto III
+  remakes:
+  - name: OpenRW "Open ReWrite"
+    repo: https://github.com/danhedron/openrw
+    updated: 2016-05-18
+    license: GPL3
+    lang: C++
+    development: active
+
+- name: Gravity Force
+  remakes:
+  - name: Galaxy Forces V2
+    url: http://www.galaxy-forces.com/
+    repo: svn://svn.code.sf.net/p/galaxyv2/code/
+    development: active
+    lang: C++
+    updated: 2015-04-03
+
+- name: Guitar Hero
+  remakes:
+  - name: Frets on Fire
+    url: http://fretsonfire.sourceforge.net/
+    repo: http://sourceforge.net/p/fretsonfire/code/HEAD/tree/trunk/
+    updated: 2014-08-20
+    status: playable
+    development: halted
+    info: (look for songs on the <a href="http://fretsonfire.wikidot.com/start">wiki</a>)
+    lang: Python
+    images:
+    - http://fretsonfire.sourceforge.net/screenshots/fretsonfire1.png
+    - http://fretsonfire.sourceforge.net/screenshots/fretsonfire4.png
+  - name: Frets on Fire X
+    url: https://code.google.com/p/fofix/
+    repo: https://github.com/fofix/fofix
+    updated: 2014-09-19
+    status: playable
+    development: active
+    lang: Python
+    video:
+      youtube: JBjdzWomC4M
+
+- name: Guitar Hero
+  names:
+  - SingStar
+  - Dance Dance Revolution
+  meta:
+    genre: [Music/Rhythm]
+  clones:
+  - name: Performous
+    url: http://performous.org/
+    repo: https://github.com/performous/performous
+    status: playable
+    development: active
+    lang: C++
+    updated: 2014-09-19
+    video:
+      youtube: soYIbsVmcyU
+  - name: Stepmania
+    url: http://www.stepmania.com/
+    repo: https://github.com/stepmania/stepmania
+    status: playable
+    development: active
+    lang: [C++, Lua]
+    updated: 2014-12-21
+

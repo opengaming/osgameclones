@@ -1,0 +1,460 @@
+- name: [Babaliba, Dinamic Software]
+  remakes:
+  - name: Babaliba
+    updated: 2015-04-13
+    url: https://compiler.speccy.org/remakes-babaliba.html
+    repo: https://compiler.speccy.org/files/sources/Babaliba_Source.zip
+    lang: Visual FoxPro
+    images:
+    - https://compiler.speccy.org/img/screens/babaliba-scr1.png
+    - https://compiler.speccy.org/img/screens/babaliba-scr2.png
+    - https://compiler.speccy.org/img/screens/babaliba-scr3.png
+
+- name: Baldur's Gate series
+  names:
+  - Icewind Dale series
+  - 'Planescape: Torment'
+  remakes:
+  - name: GemRB
+    url: http://www.gemrb.org/
+    repo: https://github.com/gemrb/gemrb
+    development: active
+    lang: C++
+    images:
+    - http://sourceforge.net/dbimage.php?id=105342
+    - http://sourceforge.net/dbimage.php?id=105346
+    - http://sourceforge.net/dbimage.php?id=105344
+
+- name: Ballerburg
+  remakes:
+  - name: Ballerburg SDL
+    updated: 2015-04-17
+    url: http://baller.tuxfamily.org/
+    repo: http://git.tuxfamily.org/baller/baller.git/
+    development: active
+    lang: C
+    license: GPL3
+    images:
+    - http://baller.tuxfamily.org/screenshot1.png
+    - http://baller.tuxfamily.org/screenshot2.png
+
+- name: Balloon Fight
+  remakes:
+  - name: Balloon Fight
+    updated: 2016-04-30
+    url: http://js.mikedx.co.uk/balloonfight.html
+    repo: https://github.com/MikeDX/balloon-fight
+    development: active
+    framework: DIV Games Studio
+    license: MIT
+
+- name: 'Barbarian: The Ultimate Warrior'
+  remakes:
+  - name: Barbarian
+    updated: 2015-04-16
+    repo: https://www.dropbox.com/s/4n5kvajfmcu132o/barbarianAMIGAwin.zip
+    url: http://barbarian.1987.free.fr/indexEN.htm
+    development: active
+    lang: QuickBASIC
+    framework: QB64
+    images:
+    - http://barbarian.1987.free.fr/images/AMIGA01.jpg
+
+- name: Battle Chess
+  remakes:
+  - name: Open BattleChess
+    repo: http://openbattlechess.googlecode.com/svn/trunk/
+    url: https://code.google.com/p/openbattlechess/
+    updated: 2015-04-08
+    development: halted
+    lang: C#
+    license: LGPL
+  clones:
+  - name: Brutal Chess
+    updated: 2015-04-08
+    url: http://sourceforge.net/projects/brutalchess/
+    repo: svn://svn.code.sf.net/p/brutalchess/code/trunk
+    development: halted
+    lang: C++
+    license: GPL2
+    images:
+    - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg
+    - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/68227.jpg
+    - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/59140.jpg
+    - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/107538.jpg
+    - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
+    - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
+
+- name: [Battle City, Battle City (video game)]
+  remakes:
+  - name: Battle City
+    url: http://battlecity.org/
+    repo: https://github.com/Deceth/Battle-City
+    updated: 2013-12-04
+    status: playable
+    development: sporadic
+    lang: C++
+    images:
+    - http://battlecity.org/wp-content/uploads/your-city-has-been-destroyed-by-the-power-of-an-orb.png
+    - http://farm6.staticflickr.com/5246/5313969457_15de8df27f_z.jpg
+  - name: TZOD (Tank Zone Of Death)
+    url: https://code.google.com/p/tzod/
+    repo: https://code.google.com/p/tzod/
+    development: sporadic
+    lang:
+    - C++
+    - Lua
+    license: GPL3
+    updated: 2015-04-06
+  clones:
+  - name: BattleCity2014
+    updated: 2015-05-19
+    repo: https://github.com/ggc87/BattleCity2014
+    development: sporadic
+    lang: C++
+    framework:
+    - Ogre3D
+    - EntityX
+
+- name: Bard's Tale Contruction Set
+  remakes:
+  - name: Bt Builder
+    url: http://identicalsoftware.com/btbuilder/
+    repo: https://github.com/dulsi/btbuilder
+    development: active
+    lang: C++
+    license: GPL3
+    updated: 2016-02-23
+
+- name: Bejeweled
+  remakes:
+  - name: biju-game
+    updated: 2015-05-28
+    repo: https://github.com/CrociDB/biju-game
+    development: halted
+    lang: JavaScript
+    framework: CraftyJS
+
+- name: Bermuda Syndrome
+  remakes:
+  - name: Bermuda Syndrome
+    url: http://cyxdown.free.fr/bs/
+    status: playable
+    development: halted
+    updated: 2013-05-27
+    images:
+    - http://cyxdown.free.fr/bs/bs-1.png
+    - http://cyxdown.free.fr/bs/bs-2.png
+
+- name: Betrayal at Krondor
+  remakes:
+  - name: xBaK
+    url: http://xbak.sourceforge.net/
+    status: playable
+    development: halted
+    updated: 2014-08-15
+    images:
+    - http://a.fsdn.com/con/app/proj/xbak/screenshots/126405.jpg
+    - http://a.fsdn.com/con/app/proj/xbak/screenshots/62665.jpg
+    - http://a.fsdn.com/con/app/proj/xbak/screenshots/71372.jpg
+
+- name: [Blade Runner, Blade Runner (1997 video game)]
+  remakes:
+  - name: replicant
+    repo: https://github.com/madmoose/replicant
+    updated: 2015-04-04
+    development: halted
+    lang: C++
+  - name: bladerunner (Engine within SCUMMVM)
+    updated: 2015-04-17
+    repo: https://github.com/madmoose/scummvm/tree/bladerunner/engines/bladerunner
+    development: active
+    lang: C++
+    license: GPL2
+
+- name: 'Blake Stone: Planet Strike'
+  remakes:
+  - name: bstone
+    url: https://github.com/bibendovsky/bstone
+    status: playable
+    development: active
+    lang: C++
+    updated: 2013-12-02
+
+- name: [Blood, Blood (video game)]
+  remakes:
+  - name: Blood Crossmatching (EDuke32 vanilla)
+    url: http://www.moddb.com/games/bloodcm
+    development: active
+    repo: http://m210.ucoz.ru/
+    updated: 2013-05-29
+  - name: Transfusion
+    url: http://www.transfusion-game.com/
+    status: playable
+    development: sporadic
+    repo: http://sourceforge.net/p/blood/code/ci/default/tree/
+    updated: 2013-11-12
+    images:
+    - http://www.transfusion-game.com/images/e1m2-00.jpg
+    - http://www.transfusion-game.com/images/e3m7-02.jpg
+    - http://www.transfusion-game.com/images/action08.jpg
+
+- name: [Bolo, Bolo (1987 video game)]
+  remakes:
+  - name: orona
+    url: http://stephank.github.io/orona/
+    repo: https://github.com/stephank/orona
+    status: playable
+    development: halted
+    framework: HTML5
+    updated: 2013-06-06
+
+- name: Bomberman
+  names:
+  - Dynablaster
+  remakes:
+  - name: SDL Bomber
+    url: http://www.linuxmotors.com/SDL_bomber/
+    status: playable
+    development: halted
+    lang: C
+    updated: 2014-01-12
+    images:
+    - http://www.linuxmotors.com/SDL_bomber/bomber.gif
+  - name: Bombic
+    updated: 2015-04-14
+    url: http://bombic.sourceforge.net/
+    repo: svn://svn.code.sf.net/p/bombic/code/
+    development: halted
+    lang: C++
+    license: GPL2
+    images:
+    - https://a.fsdn.com/con/app/proj/bombic/screenshots/22410.jpg
+    - https://a.fsdn.com/con/app/proj/bombic/screenshots/22408.jpg
+  - name: Bombic2
+    updated: 2015-04-14
+    url: http://bombic2.sourceforge.net/
+    repo: svn://svn.code.sf.net/p/bombic2/code/
+    development: halted
+    lang: C++
+    license: GPL2
+    images:
+    - http://bombic2.sourceforge.net/screenshots/big/cooperative_multiplayer.png
+    - http://bombic2.sourceforge.net/screenshots/big/final.png
+    - http://bombic2.sourceforge.net/screenshots/big/fireman.png
+    - http://bombic2.sourceforge.net/screenshots/big/tvboss.png
+  - name: Bomb Mania Reloaded
+    updated: 2015-04-14
+    url: http://sourceforge.net/p/bomb-mania/wiki/Home/
+    repo: svn://svn.code.sf.net/p/bomb-mania/code-0/trunk
+    development: halted
+    lang: C++
+    license: GPL2
+    images:
+    - https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125901.jpg
+    - https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275181.jpg
+    - https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275183.jpg
+    - https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125905.jpg
+    - https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275185.jpg
+    - https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/logo.jpg
+  - name: I Have No Tomatoes
+    url: http://tomatoes.sourceforge.net/screenshots.html
+    repo: http://kent.dl.sourceforge.net/project/tomatoes/tomatoes/1.5/tomatoes-win32-src-1.5.zip
+    updated: 2015-05-02
+    development: halted
+    lang: C++
+    images:
+    - http://tomatoes.sourceforge.net/ss1.jpg
+    - http://tomatoes.sourceforge.net/ss2.jpg
+    - http://tomatoes.sourceforge.net/ss3.jpg
+    - http://tomatoes.sourceforge.net/ss4.jpg
+
+- name: Boulder Dash
+  remakes:
+  - name: Rocks n diamonds
+    url: http://www.artsoft.org/rocksndiamonds/
+    status: playable
+    development: sporadic
+    lang: C
+    updated: 2014-01-12
+  - name: GDash
+    url: https://bitbucket.org/czirkoszoltan/gdash
+    development: active
+    lang: C++
+    repo: https://bitbucket.org/czirkoszoltan/gdash.git
+    updated: 2015-04-03
+    images:
+    - https://bitbucket.org/repo/ejzABR/images/4034423466-gdashgame.png
+  - name: Mining Haze
+    url: http://sourceforge.net/projects/mininghaze/
+    updated: 2015-04-15
+    development: halted
+    lang: C
+    license: GPL2
+    repo: http://iweb.dl.sourceforge.net/project/mininghaze/mininghaze/0.1/mining-haze-0.1.tar.gz
+    images:
+    - https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177162.jpg
+    - https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177272.jpg
+    - https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177625.jpg
+    - https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177621.jpg
+    - https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177623.jpg
+  - name: Digger
+    updated: 2015-05-02
+    repo: https://github.com/lutzroeder/digger
+    development: active
+    lang: TypeScript
+  - name: boulder-dash
+    updated: 2015-05-29
+    repo: https://github.com/valeriansaliou/boulder-dash
+    development: active
+    lang: Java
+
+- name: [Bratwurst, 'http://www.mobygames.com/game/bratwurst']
+  remakes:
+  - name: bratwurst
+    updated: 2015-05-15
+    repo: https://github.com/sabetts/bratwurst
+    development: halted
+    lang: Lisp
+    license: GPL2
+
+- name: [Bruce Lee, Bruce Lee (video game)]
+  remakes:
+  - name: Jet Lee
+    updated: 2015-08-23
+    repo: https://github.com/Uvadzucumi/JetLee
+    development: active
+    lang: C++
+    images:
+    - https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-01.png
+    - https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-03.png
+
+- name: Bubble Bobble
+  remakes:
+  - name: The Bub's Brothers
+    url: http://bub-n-bros.sourceforge.net/
+    updated: 2015-04-10
+    repo: http://bub-n-bros.cvs.sourceforge.net/viewvc/bub-n-bros/
+    development: halted
+    lang: Python
+    license: MIT
+    images:
+    - http://bub-n-bros.sourceforge.net/images/extend.png
+    - http://bub-n-bros.sourceforge.net/images/crashed-down.png
+    - http://bub-n-bros.sourceforge.net/images/alone-in-the-world.png
+    - http://bub-n-bros.sourceforge.net/images/pacman.png
+
+- name: [Bug Bomber, 'http://www.mobygames.com/game/bug-bomber']
+  remakes:
+  - name: BitRiot
+    updated: 2016-04-11
+    repo: https://github.com/VenKamikaze/BitRiot
+    development: active
+    lang: C++
+    framework: SDL
+    license: Apache
+
+- name: BurgerTime
+  names:
+  - "\u30D0\u30FC\u30AC\u30FC\u30BF\u30A4\u30E0"
+  - Hamburger
+  - "\u30CF\u30F3\u30D0\u30FC\u30AC\u30FC"
+  remakes:
+  - name: BurgerSpace
+    updated: 2015-04-16
+    url: https://perso.b2b2c.ca/~sarrazip/dev/burgerspace.html
+    repo: https://perso.b2b2c.ca/~sarrazip/dev/burgerspace-1.9.2.tar.gz
+    development: halted
+    lang: C++
+    license: GPL2
+    images:
+    - http://perso.b2b2c.ca/~sarrazip/dev/images/burgerspace-1.png
+
+- name: Buster Bros
+  names:
+  - Pang
+  - "\u30D1\u30F3"
+  - Pomping World
+  - "\u30DD\u30F3\u30D4\u30F3\u30B0\u30FB\u30EF\u30FC\u30EB\u30C9"
+  remakes:
+  - name: Pang Zero
+    url: http://apocalypse.rulez.org/pangzero
+    repo: http://pangzero.cvs.sourceforge.net/pangzero/pangzero/
+    updated: 2015-04-18
+    development: halted
+    lang: Perl
+    license: GPL2
+    images:
+    - http://apocalypse.rulez.org/kozosfiles/upipang11/version_1.0.jpg
+
+- name: Buzz Aldrin's Race Into Space
+  remakes:
+  - name: Race Into Space
+    url: http://www.raceintospace.org/
+    updated: 2015-04-05
+    repo: https://github.com/raceintospace/raceintospace
+    development: active
+    lang: C++
+    license: GPL2
+    images:
+    - http://www.raceintospace.org/images/screenshots/splash_screen.png
+
+- name: [Battle Isle series, Battle Isle (series)]
+  clones:
+  - name: Crimson Fields
+    url: http://crimson.seul.org/
+    repo: http://svn.seul.org/viewcvs/viewvc.cgi/games/crimson/?root=SEUL
+    status: playable
+    development: sporadic
+    lang: C++
+    updated: 2013-05-29
+    images:
+    - http://crimson.seul.org/screenshots/screen17.png
+    - http://crimson.seul.org/screenshots/screen18.png
+  - name: Advanced Strategic Command
+    url: http://www.asc-hq.org/
+    status: playable
+    development: sporadic
+    lang: C++
+    license: GPL2
+    repo: http://hg.asc-hq.org/hg/asc
+    updated: 2014-08-14
+    images:
+    - http://www.asc-hq.org/screenshots/screen05.jpg
+    - http://www.asc-hq.org/screenshots/screen07.jpg
+
+- name: [Battle Zone, Battlezone_(1980_video_game)]
+  clones:
+  - name: BZFlag
+    url: http://bzflag.org/
+    repo: https://github.com/BZFlag-Dev/bzflag
+    status: playable
+    development: active
+    lang: C++
+    images:
+    - http://bzflag.org/images/screenshots/dantes_inferno_01.jpg
+    - http://bzflag.org/images/screenshots/collaborator_2010_01.jpg
+    - http://bzflag.org/images/screenshots/delirious_city_03.jpg
+
+- name: [Brain Blasters, 'http://www.mobygames.com/game/brain-blasters']
+  clones:
+  - name: brainblast
+    repo: https://github.com/Zitrax/brainblast
+    updated: 2015-05-18
+    development: sporadic
+    lang: C++
+
+- name: [Breakout, Breakout (video game)]
+  clones:
+  - name: BRIQUOLO
+    updated: 2015-04-25
+    development: halted
+    lang: C++
+    license: GPL3
+    repo: http://briquolo.free.fr/download/briquolo-0.5.7.tar.bz2
+    url: http://briquolo.free.fr/en/index.html
+    images:
+    - http://briquolo.free.fr/images/Briquolo-0.5-briquolo01.jpg
+    - http://briquolo.free.fr/images/Briquolo-0.5-briquolo04.jpg
+    - http://briquolo.free.fr/images/Briquolo-0.3-briquolo10.jpg
+
