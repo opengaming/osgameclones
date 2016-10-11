@@ -29,10 +29,11 @@ framework: [] # List of engines/tools used
 license: # See licenses in schema.yaml
 info: # Notes about the game
 updated: # Date when game was added or updated
-media:
-  - image: # Link to screenshot
-  - youtube: # YouTube video ID
-  - vimeo: # Vimeo video ID
+images:
+  - # Link(s) to screenshot(s)
+video:
+  youtube: # YouTube video ID
+  vimeo: # Vimeo video ID
 ```
 
 ## Add a game parent

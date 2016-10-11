@@ -60,20 +60,20 @@ schema;game:
       type: str
     updated:
       type: any
-    media:
+    images:
       type: seq
       sequence:
-        - type: map
-          mapping:
-            image:
-              type: str
-            youtube:
-              type: str
-              range:
-                min: 11
-                max: 11
-            vimeo:
-              type: int
+        - type: str
+    video:
+      type: map
+      mapping:
+        youtube:
+          type: str
+          range:
+            min: 11
+            max: 11
+        vimeo:
+          type: int
 
 
 # -- ADD NEW GENRES TO 'SUBGENRE' SCHEMA --

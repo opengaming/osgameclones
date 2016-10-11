@@ -21,8 +21,9 @@ New game
       license:
       info:
       updated:
-      media:
-        - image:
-        - youtube:
-        - vimeo:
+      images:
+        -
+      video:
+        youtube:
+        vimeo:
 ```
