@@ -24,6 +24,8 @@ If you're adding a new game group:
 
 ```yaml
 - name:
+  names:
+    -
   meta:
     genre: []
     subgenre: []

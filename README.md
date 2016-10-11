@@ -19,7 +19,7 @@ changes will be submitted as a pull request.
 If you're adding a new clone/remake:
 
 ```yaml
-name: # Name of clone/remake
+name: # required : Name of clone/remake
 repo: # Link to source code
 url: # Link to website
 development: # One of: complete, very active, active, sporadic, halted
@@ -40,9 +40,9 @@ media:
 If you're adding a new game group:
 
 ```yaml
-- name: # Name of the original game
+- name: # required : Name of the original game
   names:
-    - # If the game is know under multiple names
+    - # Other names for the game, or other games in the series
   meta:
     genre: [] # See genres in schema.yaml
     subgenre: [] # See genres in schema.yaml
@@ -53,7 +53,11 @@ If you're adding a new game group:
     - # List of clones, see above
 ```
 
-A Wikipedia link is created for all original game names; if the article link is different, use the syntax `[Name, Name of Wikipedia article]`
+A Wikipedia link is created for all original game names; if the article link is different, use the following syntax:
+
+```yaml
+name: [Name, Name of Wikipedia article]`
+```
 
 Please refer to the [template][template] and the [`schema.yaml`][schema] file
 when adding new games.
