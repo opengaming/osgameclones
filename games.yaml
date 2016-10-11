@@ -110,7 +110,8 @@
 
 - name: Age of Empires II
   meta:
-    genre: [Strategy, Real-Time Strategy]
+    genre: [Strategy]
+    subgenre: [Real-Time Strategy]
     theme: [Medieval]
   remakes:
     - name: openage
@@ -158,7 +159,8 @@
 
 - name: [Allegiance, "Allegiance (video game)"]
   meta:
-    genre: [Action, Simulation, Real-Time Strategy]
+    genre: [Action, Simulation]
+    subgenre: [Real-Time Strategy]
     theme: [Sci-Fi]
   remakes:
     - name: Free Allegiance
@@ -1675,7 +1677,8 @@
 
 - name: Dune 2
   meta:
-    genre: [Real-Time Strategy]
+    genre: [Strategy]
+    subgenre: [Real-Time Strategy]
     theme: [Sci-Fi]
   remakes:
     - name: Dune Legacy
@@ -2621,6 +2624,10 @@
         - http://vorton.sourceforge.net/shot5.png
 
 - name: "History Line: 1914-1918"
+  meta:
+    genre: [Strategy]
+    subgenre: [Turn-Based Tactics]
+    theme: [World War I]
   remakes:
     - name: Historyline
       updated: 2015-05-03
@@ -6593,6 +6600,10 @@
 - name: [Master of Orion Series, Master of Orion]
   names:
     - Master of Orion 2
+  meta:
+    genre: [Strategy]
+    subgenre: [4X, Turn-Based Strategy]
+    theme: [Sci-Fi]
   clones:
     - url: http://www.freeorion.org/
       name: FreeOrion
