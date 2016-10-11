@@ -104,7 +104,7 @@ def show_validation_errors(data, errors):
 def parse_data(site):
     base = op.join(op.dirname(__file__), 'games')
     data = []
-    for fn in os.listdir(base):
+    for fn in sorted(os.listdir(base)):
         if fn.endswith('.yaml'):
             data.extend(yaml.load(open(op.join(base, fn))))
 
