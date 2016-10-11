@@ -32,9 +32,7 @@
       repo: http://abuse.zoy.org/browser/abuse/trunk
       updated: 2013-05-27
       development: halted
-      lang:
-        - C++
-        - Lisp
+      lang: [C++, Lisp]
       status: playable
       development: halted
       images:
@@ -121,9 +119,7 @@
       status: unplayable
       development: active
       info: runnable, requires original files
-      lang:
-        - C++
-        - Python
+      lang: [C++, Python]
       framework: SDL
       license: GPL3
       images:
@@ -2709,8 +2705,6 @@
       repo: http://www.interstateoutlaws.com/downloads/Outlaws-0.1.1a-linux.tar.gz
       images:
         - http://www.interstateoutlaws.com/media/craterpreview.jpg
-        - http://www.interstateoutlaws.com/media/io_poem_tmpl2.jpg
-        - http://www.interstateoutlaws.com/media/io_poem_tmpl1.jpg
 
 - name: Iron Seed
   remakes:
@@ -2961,9 +2955,7 @@
       url: http://nlarn.sourceforge.net/
       repo: git://git.code.sf.net/p/nlarn/git nlarn-git
       development: active
-      lang:
-        - C
-        - Lua
+      lang: [C, Lua]
       license: GPL2
 
 - name: [Legion, "http://www.mobygames.com/game/legion__"]
@@ -3165,9 +3157,7 @@
       repo: https://github.com/AxioDL/urde
       development: active
       info: engine only
-      lang:
-        - C++
-        - Python
+      lang: [C++, Python]
       license: MIT
 
 - name: Missile Command
@@ -3189,9 +3179,7 @@
     - name: TVTower
       url: http://www.tvgigant.de/en/index
       development: active
-      lang:
-        - Blitz BASIC
-        - C
+      lang: [Blitz BASIC, C]
       repo: https://github.com/GWRon/TVTower
       updated: 2014-08-16
 
@@ -3707,18 +3695,16 @@
 - name: Master of Monsters
   names:
     - Warsong
+  meta:
+    genre: [Strategy]
+    subgenre: [Turn-Based Strategy]
+    theme: [Fantasy]
   clones:
     - name: The Battle for Wesnoth
       url: https://www.wesnoth.org/
       repo: http://wiki.wesnoth.org/WesnothRepository
       development: active
-      lang:
-        - C++
-        - C
-        - Java
-        - Python
-        - Lua
-        - Emacs Lisp
+      lang: [C++, C, Java, Python, Lua, Emacs Lisp]
       license: GPL2
       updated: 2016-01-01
       images:
@@ -4427,9 +4413,7 @@
       repo: https://github.com/ObKo/OpenSR
       updated: 2015-04-03
       development: active
-      lang:
-        - C++
-        - Python
+      lang: [C++, Python]
 
 - name: Strike Commander
   remakes:
@@ -4543,9 +4527,7 @@
       updated: 2015-05-29
       development: active
       info: requires original files
-      lang:
-        - C++
-        - Python
+      lang: [C++, Python]
       license: AGPL3
 
 - name: "Sid Meier's Pirates!"
@@ -4778,9 +4760,7 @@
       name: Stargus
       repo: https://code.launchpad.net/stargus
       development: sporadic
-      lang:
-        - C++
-        - Lua
+      lang: [C++, Lua]
       updated: 2013-06-08
 
 - name: "Stunt Car Racer"
@@ -5317,9 +5297,7 @@
       url: http://forums.corsixth.com/
       info: time-based releases
       development: active
-      lang:
-        - C++
-        - Lua
+      lang: [C++, Lua]
       framework: SDL2
       repo: https://github.com/CorsixTH
       license: Multiple
@@ -5336,9 +5314,7 @@
       repo: svn://svn.code.sf.net/p/tpb3d/code/trunk
       development: halted
       lang: C++
-      framework:
-        - OpenGL
-        - SDL
+      framework: [OpenGL, SDL]
       license: GPL2
 
 - name: [Thromolus, "http://hol.abime.net/1386"]
@@ -5416,10 +5392,7 @@
     - url: http://springrts.com/
       name: Spring
       development: active
-      lang:
-        - C++
-        - Java
-        - Python
+      lang: [C++, Java, Python]
       repo: https://github.com/spring/spring/
       images:
         - http://springrts.com/screenshot.php?id=5673
@@ -5489,9 +5462,7 @@
       url: http://maniadrive.raydium.org/
       updated: 2016-05-16
       repo: https://sourceforge.net/projects/maniadrive/files/maniadrive/1.2/ManiaDrive-1.2-src.tar.gz
-      lang:
-        - C
-        - PHP
+      lang: [C, PHP]
 
 - name: [Transplant, Transplant (video game)]
   remakes:
@@ -5552,10 +5523,7 @@
       repo: https://github.com/sursonico/newtron
       updated: 2015-06-01
       development: halted
-      lang:
-        - JavaScript
-      framework:
-        - HTML
+      lang: [JavaScript]
     - name: Tron
       repo: https://github.com/momajd/Tron
       url: http://momajd.github.io/Tron/
@@ -5788,9 +5756,7 @@
       name: Wargus
       repo: https://code.launchpad.net/wargus
       development: sporadic
-      lang:
-        - C++
-        - Lua
+      lang: [C++, Lua]
       updated: 2013-05-27
   clones:
     - name: Dark Oberon
@@ -5915,10 +5881,7 @@
       name: "ET: Legacy"
       info: needs original game files
       development: active
-      lang:
-        - C
-        - C++
-        - Lua
+      lang: [C, C++, Lua]
       repo: https://github.com/etlegacy/etlegacy
       updated: 2013-05-28
       images:
@@ -6099,9 +6062,7 @@
       url: http://www.solarus-games.org/
       repo: https://github.com/christopho/solarus
       development: active
-      lang:
-        - C++
-        - Lua
+      lang: [C++, Lua]
       updated: 2013-05-28
       images:
         - http://www.zelda-solarus.com/images/zsdx/dungeon1_outside.png
@@ -6320,6 +6281,10 @@
       updated: 2016-05-09
 
 - name: Civilization II
+  meta:
+    genre: [Strategy]
+    subgenre: [Turn-Based Strategy, 4X]
+    theme: [Alternate Historical, Management]
   clones:
     - url: http://freeciv.wikia.com/
       name: Freeciv
@@ -6333,10 +6298,7 @@
       name: Play Freeciv!
       development: active
       info: online browser game
-      lang:
-        - C
-        - Java
-        - JavaScript
+      lang: [C, Java, JavaScript]
       repo: https://github.com/freeciv/freeciv-web
     - url: http://www.c-evo.org/
       name: C-Evo
@@ -6395,9 +6357,7 @@
       repo: https://github.com/stepmania/stepmania
       status: playable
       development: active
-      lang:
-        - C++
-        - Lua
+      lang: [C++, Lua]
       updated: 2014-12-21
 
 - name: [Elite, Elite_(video_game)]
@@ -6608,9 +6568,7 @@
     - url: http://www.freeorion.org/
       name: FreeOrion
       development: sporadic
-      lang:
-        - C++
-        - Python
+      lang: [C++, Python]
       license: GPL2
       repo: https://github.com/freeorion/freeorion
       info: Content lisense CC-BY-SA 3.0
@@ -6713,8 +6671,7 @@
     - url: http://www.slashem.org/
       name: SLASH'EM
       development: halted
-      lang:
-        - C
+      lang: [C]
       license: NGPL
       updated: 2015-04-11
       repo: http://slashem.cvs.sourceforge.net/viewvc/slashem/
@@ -6864,10 +6821,7 @@
     - url: http://wl.widelands.org/
       name: Widelands
       development: active
-      lang:
-        - C++
-        - Lua
-        - Python
+      lang: [C++, Lua, Python]
       repo: https://launchpad.net/widelands
       images:
         - http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Completed%20barbarian%20workers.jpg
@@ -7056,11 +7010,8 @@
       repo: https://github.com/anprogrammer/OpenRoads
       status: playable
       development: halted
-      lang:
-        - TypeScript
-      framework:
-        - HTML5
-        - WebGL
+      lang: [TypeScript]
+      framework: [HTML5, WebGL]
       license: MIT
   clones:
     - name: Orbit-Hopper
@@ -7109,10 +7060,7 @@
     - url: http://hedgewars.org/
       name: Hedgewars
       development: active
-      lang:
-        - Pascal
-        - C++
-        - Haskell
+      lang: [Pascal, C++, Haskell]
       repo: http://code.google.com/p/hedgewars/
       images:
         - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu_s.png
