@@ -29,7 +29,7 @@
     updated: 2015-04-10
     url: http://ctp2.darkdust.net/
     repo: https://ctp2.darkdust.net/svn/
-    lang: C 
+    lang: C
 
 - name: Candy Crush Saga
   clones:
@@ -110,13 +110,22 @@
     updated: 2014-07-23
 
 - name: Cave Story
+  names:
+    - Doukutsu Monogatari
+  meta:
+    genre: [Action-Adventure, Platformer]
+    theme: [Sci-Fi]
   remakes:
   - name: NXEngine
     url: http://nxengine.sourceforge.net/
     status: playable
     development: sporadic
+    lang: [C++]
     info: needs game data (but it's free!)
+    license: GPL3
     updated: 2013-05-29
+    images:
+      - https://repo.openpandora.org/files/pnd/nxengine/previews/nxengine2.png
 
 - name: Chip's Challenge
   remakes:
