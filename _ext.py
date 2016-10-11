@@ -30,7 +30,7 @@ def validate(item, key):
 
 
 def names(item):
-    return item.get('names') or [item['name']]
+    return [item['name']] + item.get('names', [])
 
 
 def parse_tag(tag):
@@ -94,7 +94,7 @@ def show_validation_errors(data, errors):
     for error in errors:
         path = error.path.split('/')
         game = data[int(path[1])]
-        name = game.get('name') or game.get('names')
+        name = game.get('name')
         print('\033[91m' + '  ' + str(name) + '\033[0m')
         print('    ' + error.__repr__())
     print('\n  ' + str(len(errors)) + ' errors\n')
@@ -115,8 +115,8 @@ def parse_data(site):
 
     for item in data:
         parse_global_tags(site, item.get('meta', {}), 'genre')
+        parse_items(site, item, 'remakes')
         parse_items(site, item, 'clones')
-        parse_items(site, item, 'reimplementations')
 
 
 def callback(site):

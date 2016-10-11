@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="author" content="Vsevolod Solovyov">
   <meta name="keywords" content="open source, game, clone, remake, remakes">
-  <meta name="description" content="List of open source clones of popular old-school games.">
+  <meta name="description" content="List of open source clones and remakes of popular old-school games.">
   <meta name="application-name" content="OS Game Clones">
   <meta name="application-url" content="http://osgameclones.com/">
   <link rel="stylesheet" href="static/main.css">
@@ -16,9 +16,8 @@
 
   <article>
     <p>
-      This site tries to
-      gather <a href="http://en.wikipedia.org/wiki/Open_source">open-source</a>
-      reimplementations of great old games in one place. If you think that
+      This site tries to gather <a href="http://en.wikipedia.org/wiki/Open_source">open-source</a>
+      remakes of great old games in one place. If you think that
       something is missing from the list - please go to
       our <a href="http://github.com/piranha/osgameclones/">Github
       repository</a> and create an issue or even a pull request!
@@ -128,7 +127,7 @@
         {{ show_id(name, mode) }}"
       data-tags="{{ game.tags | join(' ') }}"
       data-index="{{ show_keywords(game, names) }}">
-    <span class="{% if 'media' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
+    <span class="{% if 'images' in game or 'video' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     {%- if 'url' in game -%}
       <a href="{{ game['url'] }}">
@@ -146,26 +145,21 @@
 
     {%- if 'info' in game %}<div>{{ game['info'] }}</div>{% endif %}
 
-    {%- set images = [] %}
-    {% for item in game.get('media', []) %}
-      {% if 'image' in item -%}
-        {% do images.append(item['image']) %}
-      {%- endif %}
-    {% endfor -%}
     <div class="gallery" style="display: none"></div>
-    {% if images | length > 0 -%}
-      <script class="gallery-json" type="text/json">{{ images | join(', ') }}</script>
+
+    {% if game['images'] | length > 0 -%}
+      <script class="gallery-json" type="text/json">{{ game['images'] | join(', ') }}</script>
     {% endif %}
+
     <script class="gallery-raw" type="text/plain">
-      {% for item in game.get('media', []) %}
-        {% if 'youtube' in item %}{{ render_youtube(item['youtube']) }}{% endif %}
-        {% if 'vimeo' in item %}{{ render_vimeo(item['vimeo']) }}{% endif %}
-        {% if 'image' in item -%}
-          {%- if 'url' in item -%} <a href="{{ item['url'] }}"> {%- endif -%}
-            <img src="{{ item['image'] }}">
-          {%- if 'url' in item -%} </a> {%- endif -%}
-        {%- endif %}
+      {% for imageUrl in game.get('images', []) %}
+        <img src="{{ imageUrl }}">
       {% endfor %}
+
+      {% if 'video' in game %}
+        {% if 'youtube' in game['video'] %}{{ render_youtube(game['video']['youtube']) }}{% endif %}
+        {% if 'vimeo' in game['video'] %}{{ render_vimeo(game['video']['vimeo']) }}{% endif %}
+      {%- endif %}
     </script>
   </dd>
   {% endfor %}
@@ -187,17 +181,18 @@
     {% endfor %}
   </section>
 
-  <h2>List of complete clones</h2>
-  <article>Some of these games aren&#39;t reimplementations but evolution of original ones, which were eventually open sourced.</article>
+  <h2>List of remakes</h2>
+  <article>Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.</article>
   <dl>
-    {% for names, meta, items in site.clones %}
-    {{ render(names, meta, items, 'clones') }}
+    {% for names, meta, items in site.remakes %}
+    {{ render(names, meta, items, 'remakes') }}
     {% endfor %}
   </dl>
 
-  <h2>Inspired by original game series</h2>
+  <h2>List of clones</h2>
+  <article>Games which are very similar to or heavily inspired by a game or series.</article>
   <dl>
-    {% for names, meta, items in site.reimplementations %}
+    {% for names, meta, items in site.clones %}
       {{ render(names, meta, items, 'inspired') }}
     {% endfor %}
   </dl>
