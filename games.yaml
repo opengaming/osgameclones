@@ -64,11 +64,8 @@
       license: GPL3
       media:
         - image: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg
-          url: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg?height=180&width=320
         - image: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240107290/media/shot0097.jpg
-          url: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240107290/media/shot0097.jpg?height=180&width=320
         - image: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240124607/media/shot0252.jpg
-          url: https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240124607/media/shot0252.jpg?height=180&width=320
 
 - name: "Ace Combat: Assault Horizon"
   meta:
@@ -156,14 +153,10 @@
       development: halted
       lang: C
       media:
-        - url: http://retrospec.sgn.net/config/screenshots/alien8.t.img0.jpg
-          image: http://retrospec.sgn.net/config/screenshots/alien8.f.img0.jpg
-        - url: http://retrospec.sgn.net/config/screenshots/alien8.t.img1.jpg
-          image: http://retrospec.sgn.net/config/screenshots/alien8.f.img1.jpg
-        - url: http://retrospec.sgn.net/config/screenshots/alien8.t.img2.jpg
-          image: http://retrospec.sgn.net/config/screenshots/alien8.f.img2.jpg
-        - url: http://retrospec.sgn.net/config/screenshots/alien8.t.menu.jpg
-          image: http://retrospec.sgn.net/config/screenshots/alien8.f.menu.jpg
+        - image: http://retrospec.sgn.net/config/screenshots/alien8.f.img0.jpg
+        - image: http://retrospec.sgn.net/config/screenshots/alien8.f.img1.jpg
+        - image: http://retrospec.sgn.net/config/screenshots/alien8.f.img2.jpg
+        - image: http://retrospec.sgn.net/config/screenshots/alien8.f.menu.jpg
 
 - name: [Allegiance, "Allegiance (video game)"]
   meta:
@@ -179,11 +172,8 @@
       info: Shared source
       media:
         - image: http://www.freeallegiance.org/screenshots/CapitalShips/BelterCapsLaunchTogether.jpg
-          url: http://www.freeallegiance.org/screenshots/CapitalShips/BelterCapsLaunchTogether.thumb.jpg
         - image: http://www.freeallegiance.org/screenshots/CapitalShips/ICBattlecruisersResonateAleph.jpg
-          url: http://www.freeallegiance.org/screenshots/CapitalShips/ICBattlecruisersResonateAleph.thumb.jpg
         - image: http://www.freeallegiance.org/screenshots/Dogfights/BigGameVeryBusy.jpg
-          url: http://www.freeallegiance.org/screenshots/Dogfights/BigGameVeryBusy.thumb.jpg
 
 - name: Alone in the Dark
   names:
@@ -212,11 +202,7 @@
       repo: http://ardreil.cvs.sourceforge.net/viewvc/ardreil/
       updated: 2015-04-09
       development: halted
-      lang:
-        - C
-        - C++
-        - Java
-        - Pascal
+      lang: [C, C++, Java, Pascal]
       license: GPL2
 
 - name: [Another World, "Another World (video game)"]
@@ -262,9 +248,7 @@
     - name: XArchon
       updated: 2015-05-03
       url: http://xarchon.seul.org/
-      lang:
-        - C
-        - C++
+      lang: [C, C++]
       development: halted
       license: GPL3
       repo: http://xarchon.seul.org/xarchon-0.50.tar.gz
@@ -391,12 +375,9 @@
       license: GPL3
       repo: svn://svn.code.sf.net/p/sdl-asylum/code/trunk
       media:
-        - url: https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136705.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136705.jpg
-        - url: https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/134775.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/134775.jpg
-        - url: https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136451.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136451.jpg
+        - image: https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136705.jpg
+        - image: https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/134775.jpg
+        - image: https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136451.jpg
 
 - name: [Atomix, Atomix (video game)]
   remakes:
@@ -435,17 +416,11 @@
       license: GPL3
       media:
         - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am2.jpg
-          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am2.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am11.jpg
-          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am11.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am9.jpg
-          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am9.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am10.jpg
-          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am10.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am6.jpg
-          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am6.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am7.jpg
-          url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am7.jpg/182/137
 
 - name: Astrosmash
   remakes:
@@ -562,18 +537,12 @@
       lang: C++
       license: GPL2
       media:
-        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg
-        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/68227.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/68227.jpg
-        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/59140.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/59140.jpg
-        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/107538.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/107538.jpg
-        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
-        - url: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
+        - image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg
+        - image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/68227.jpg
+        - image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/59140.jpg
+        - image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/107538.jpg
+        - image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
+        - image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
 
 - name: [Battle City, Battle City (video game)]
   remakes:
@@ -701,12 +670,9 @@
       repo: http://sourceforge.net/p/blood/code/ci/default/tree/
       updated: 2013-11-12
       media:
-        - image: http://www.transfusion-game.com/images/thum_e1m2-00.jpg
-          url: http://www.transfusion-game.com/images/e1m2-00.jpg
-        - image: http://www.transfusion-game.com/images/thum_e3m7-02.jpg
-          url: http://www.transfusion-game.com/images/e3m7-02.jpg
-        - image: http://www.transfusion-game.com/images/thum_action08.jpg
-          url: http://www.transfusion-game.com/images/action08.jpg
+        - image: http://www.transfusion-game.com/images/e1m2-00.jpg
+        - image: http://www.transfusion-game.com/images/e3m7-02.jpg
+        - image: http://www.transfusion-game.com/images/action08.jpg
 
 - name: [Bolo, Bolo (1987 video game)]
   remakes:
@@ -739,9 +705,7 @@
       license: GPL2
       media:
         - image: https://a.fsdn.com/con/app/proj/bombic/screenshots/22410.jpg
-          url: https://a.fsdn.com/con/app/proj/bombic/screenshots/22410.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/bombic/screenshots/22408.jpg
-          url: https://a.fsdn.com/con/app/proj/bombic/screenshots/22408.jpg/182/137
     - name: Bombic2
       updated: 2015-04-14
       url: http://bombic2.sourceforge.net/
@@ -750,14 +714,10 @@
       lang: C++
       license: GPL2
       media:
-        - url: http://bombic2.sourceforge.net/screenshots/small/cooperative_multiplayer.jpg
-          image: http://bombic2.sourceforge.net/screenshots/big/cooperative_multiplayer.png
-        - url: http://bombic2.sourceforge.net/screenshots/small/final.jpg
-          image: http://bombic2.sourceforge.net/screenshots/big/final.png
-        - url: http://bombic2.sourceforge.net/screenshots/small/fireman.jpg
-          image: http://bombic2.sourceforge.net/screenshots/big/fireman.png
-        - url: http://bombic2.sourceforge.net/screenshots/small/tvboss.jpg
-          image: http://bombic2.sourceforge.net/screenshots/big/tvboss.png
+        - image: http://bombic2.sourceforge.net/screenshots/big/cooperative_multiplayer.png
+        - image: http://bombic2.sourceforge.net/screenshots/big/final.png
+        - image: http://bombic2.sourceforge.net/screenshots/big/fireman.png
+        - image: http://bombic2.sourceforge.net/screenshots/big/tvboss.png
     - name:  Bomb Mania Reloaded
       updated: 2015-04-14
       url: http://sourceforge.net/p/bomb-mania/wiki/Home/
@@ -766,18 +726,12 @@
       lang: C++
       license: GPL2
       media:
-        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125901.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125901.jpg
-        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275181.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275181.jpg
-        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275183.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275183.jpg
-        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125905.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125905.jpg
-        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275185.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275185.jpg
-        - url: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/logo.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/logo.jpg
+        - image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125901.jpg
+        - image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275181.jpg
+        - image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275183.jpg
+        - image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125905.jpg
+        - image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/275185.jpg
+        - image: https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/logo.jpg
     - name: I Have No Tomatoes
       url: http://tomatoes.sourceforge.net/screenshots.html
       repo: http://kent.dl.sourceforge.net/project/tomatoes/tomatoes/1.5/tomatoes-win32-src-1.5.zip
@@ -785,14 +739,10 @@
       development: halted
       lang: C++
       media:
-        - url: http://tomatoes.sourceforge.net/ss1s.jpg
-          image: http://tomatoes.sourceforge.net/ss1.jpg
-        - url: http://tomatoes.sourceforge.net/ss2s.jpg
-          image: http://tomatoes.sourceforge.net/ss2.jpg
-        - url: http://tomatoes.sourceforge.net/ss3s.jpg
-          image: http://tomatoes.sourceforge.net/ss3.jpg
-        - url: http://tomatoes.sourceforge.net/ss4s.jpg
-          image: http://tomatoes.sourceforge.net/ss4.jpg
+        - image: http://tomatoes.sourceforge.net/ss1.jpg
+        - image: http://tomatoes.sourceforge.net/ss2.jpg
+        - image: http://tomatoes.sourceforge.net/ss3.jpg
+        - image: http://tomatoes.sourceforge.net/ss4.jpg
 
 - name: Boulder Dash
   remakes:
@@ -819,17 +769,10 @@
       repo: http://iweb.dl.sourceforge.net/project/mininghaze/mininghaze/0.1/mining-haze-0.1.tar.gz
       media:
         - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177162.jpg
-          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177162.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177272.jpg
-          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177272.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177625.jpg
-          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177625.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177621.jpg
-          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177621.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177623.jpg
-          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177623.jpg/182/137
-        - image: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177270.jpg
-          url: https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177270.jpg/182/137
     - name: Digger
       updated: 2015-05-02
       repo: https://github.com/lutzroeder/digger
@@ -918,7 +861,6 @@
       license: GPL2
       media:
         - image: http://apocalypse.rulez.org/kozosfiles/upipang11/version_1.0.jpg
-          url: http://apocalypse.rulez.org/kozosfiles/upipang11/tn_version_1.0.jpg
 
 - name: "Buzz Aldrin's Race Into Space"
   remakes:
@@ -1008,10 +950,7 @@
       url: http://mordrax.github.io/cotwmtor/
       development: active
       lang: JavaScript
-      framework:
-        - React
-        - Redux
-        - Meteor
+      framework: [React, Redux, Meteor]
       license: MIT
 
 - name: Cataclysm
@@ -1025,9 +964,7 @@
       repo: https://github.com/CleverRaven/Cataclysm-DDA
       status: playable
       development: active
-      lang:
-        - C++
-        - Lua
+      lang: [C++, Lua]
       framework: ncurses
       license: CC-BY-SA
       updated: 2016-10-09
@@ -1083,12 +1020,9 @@
       info: music is CC-BY-NC-ND
       updated: 2014-07-23
       media:
-        - url: http://tangramgames.dk/games/duckmarines/images/teaser.png
-          image: http://tangramgames.dk/games/duckmarines/images/teaser.png
-        - url: http://tangramgames.dk/games/duckmarines/images/duckbeat.png
-          image: http://tangramgames.dk/games/duckmarines/images/duckbeat.png
-        - url: http://tangramgames.dk/games/duckmarines/images/vacuum.gif
-          image: http://tangramgames.dk/games/duckmarines/images/vacuum.gif
+        - image: http://tangramgames.dk/games/duckmarines/images/teaser.png
+        - image: http://tangramgames.dk/games/duckmarines/images/duckbeat.png
+        - image: http://tangramgames.dk/games/duckmarines/images/vacuum.gif
         - youtube: SAz0BsTSXy4
 
 - name: [Circus Atari, Circus (video game)]
@@ -1133,9 +1067,7 @@
       repo: https://github.com/commandojs/CommandoJS
       status: playable
       development: halted
-      lang:
-        - JavaScript
-        - CoffeeScript
+      lang: [JavaScript, CoffeeScript]
       framework: melonJS
       license: MIT
       media:
@@ -1364,14 +1296,10 @@
       development: active
       lang: C
       media:
-        - image: http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/thumbs/thumbs_d1xr-scrn10.jpg
-          url: http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn10.jpg
-        - image: http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/thumbs/thumbs_d1xr-scrn17.jpg
-          url: http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn17.jpg
-        - image: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/thumbs/thumbs_d2xr-scrn1.jpg
-          url: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn1.jpg
-        - image: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/thumbs/thumbs_d2xr-scrn18.jpg
-          url: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn18.jpg
+        - image: http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn10.jpg
+        - image: http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn17.jpg
+        - image: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn1.jpg
+        - image: http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn18.jpg
     - name: Kathodos
       repo: https://github.com/jvranish/Kathodos
       updated: 2015-05-28
@@ -1419,11 +1347,8 @@
       updated: 2014-01-12
       media:
         - image: http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX40.gif
-          url: http://retrospec.sgn.net/config/screenshots/deflektorx4.t.DeflektorX40.gif
         - image: http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX42.gif
-          url: http://retrospec.sgn.net/config/screenshots/deflektorx4.t.DeflektorX42.gif
         - image: http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX41.gif
-          url: http://retrospec.sgn.net/config/screenshots/deflektorx4.t.DeflektorX41.gif
     - name: Mirror Magic
       url: http://www.artsoft.org/mirrormagic/
       status: playable
@@ -1532,26 +1457,19 @@
       lang: C
       repo: http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/
       media:
-        - image: http://www.chocolate-doom.org/wiki/images/thumb/9/9f/Chocolate-aliens-doom.png/120px-Chocolate-aliens-doom.png
-          url: http://www.chocolate-doom.org/wiki/images/9/9f/Chocolate-aliens-doom.png
-        - image: http://www.chocolate-doom.org/wiki/images/thumb/6/6b/Chocolate-aod-doom.png/120px-Chocolate-aod-doom.png
-          url: http://www.chocolate-doom.org/wiki/images/6/6b/Chocolate-aod-doom.png
-        - image: http://www.chocolate-doom.org/wiki/images/thumb/e/e3/Chocolate-batman-doom.png/120px-Chocolate-batman-doom.png
-          url: http://www.chocolate-doom.org/wiki/images/e/e3/Chocolate-batman-doom.png
-        - image: http://www.chocolate-doom.org/wiki/images/thumb/d/d5/Obituary.png/120px-Obituary.png
-          url: http://www.chocolate-doom.org/wiki/images/d/d5/Obituary.png
+        - image: http://www.chocolate-doom.org/wiki/images/9/9f/Chocolate-aliens-doom.png
+        - image: http://www.chocolate-doom.org/wiki/images/6/6b/Chocolate-aod-doom.png
+        - image: http://www.chocolate-doom.org/wiki/images/e/e3/Chocolate-batman-doom.png
+        - image: http://www.chocolate-doom.org/wiki/images/d/d5/Obituary.png
     - name: ZDoom
       url: http://zdoom.org/
       development: active
       lang: C
       repo: http://mancubus.net/svn/zdoom/?op=log&isdir=1&
       media:
-        - image: http://zdoom.org/w/images/thumb/7/7e/AltHUD1.png/120px-AltHUD1.png.jpg
-          url: http://zdoom.org/w/images/7/7e/AltHUD1.png
-        - image: http://zdoom.org/w/images/thumb/c/c4/DynamicLightOptions.png/120px-DynamicLightOptions.png.jpg
-          url: http://zdoom.org/w/images/c/c4/DynamicLightOptions.png
-        - image: http://zdoom.org/w/images/thumb/8/8a/DOOM0003.png/120px-DOOM0003.png.jpg
-          url: http://zdoom.org/w/images/8/8a/DOOM0003.png
+        - image: http://zdoom.org/w/images/7/7e/AltHUD1.png
+        - image: http://zdoom.org/w/images/c/c4/DynamicLightOptions.png
+        - image: http://zdoom.org/w/images/8/8a/DOOM0003.png
     - name: PrBoom+
       url: https://sourceforge.net/projects/prboom-plus/
       development: active
@@ -1609,17 +1527,11 @@
       license: GPL3
       media:
         - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331375.jpg
-          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331375.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331379.jpg
-          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331379.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331381.jpg
-          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331381.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331377.jpg
-          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331377.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331383.jpg
-          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331383.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/287749.jpg
-          url: https://a.fsdn.com/con/app/proj/mochadoom/screenshots/287749.jpg/182/137
     - name: "DOOM-iOS"
       repo: https://github.com/id-Software/DOOM-iOS
       updated: 2015-04-12
@@ -1638,12 +1550,9 @@
       lang: C
       license: GPL2
       media:
-        - url: https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png?w=150&h=112
-          image: https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png
-        - url: https://doom64ex.files.wordpress.com/2011/08/d64ex_12.png?w=150&h=112
-          image: https://doom64ex.files.wordpress.com/2011/08/d64ex_12.png
-        - url: https://doom64ex.files.wordpress.com/2011/08/d64ex_03.png?w=150&h=112
-          image: https://doom64ex.files.wordpress.com/2011/08/d64ex_03.png
+        - image: https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png
+        - image: https://doom64ex.files.wordpress.com/2011/08/d64ex_12.png
+        - image: https://doom64ex.files.wordpress.com/2011/08/d64ex_03.png
 
 - name: [Doom 3, Doom_3]
   remakes:
@@ -1670,10 +1579,8 @@
       development: sporadic
       lang: C
       media:
-      - image: http://dopewars.sourceforge.net/screenshots/linux-gtk-multi-small.png
-        url: http://dopewars.sourceforge.net/screenshots/linux-gtk-multi.png
-      - image: http://dopewars.sourceforge.net/screenshots/winxp-multi-small.png
-        url: http://dopewars.sourceforge.net/screenshots/winxp-multi.png
+      - image: http://dopewars.sourceforge.net/screenshots/linux-gtk-multi.png
+      - image: http://dopewars.sourceforge.net/screenshots/winxp-multi.png
     - name: RxWars
       updated: 2015-06-25
       repo: https://github.com/gtheilman/RxWars
@@ -1699,10 +1606,8 @@
       lang: C
       license: GPL3
       media:
-        - url: https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10_thumbnail.jpg
-          image: https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10.jpg
-        - url: https://www.gnu.org/software/freedink/screenshots/freedink-1.08_2008-07-31_thumbnail.jpg
-          image: https://www.gnu.org/software/freedink/screenshots/freedink-1.08_2008-07-31.jpg
+        - image: https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10.jpg
+        - image: https://www.gnu.org/software/freedink/screenshots/freedink-1.08_2008-07-31.jpg
 
 - name: Duck Hunt
   remakes:
@@ -1714,7 +1619,6 @@
       lang: Python
       media:
         - image: http://pygame.org/shots/2045.png
-          url: http://pygame.org/thumb/8e99204a4dc0d6c55841638c49c750fe.png
     - name: Duck-Rehunt
       repo: https://github.com/Serioussam24/Duck-Rehunt
       development: halted
@@ -1724,7 +1628,6 @@
       updated: 2015-04-11
       media:
         - image: http://pygame.org/shots/1862.png
-          url: http://pygame.org/thumb/fbb0af09dea3c3cbd2077e5eceb349ab.png
     - name: Duck Hunter
       updated: 2015-04-11
       url: http://pygame.org/project-Duck+Hunter-1615-.html
@@ -1733,7 +1636,6 @@
       lang: Python
       media:
         - image: http://pygame.org/shots/1615.png
-          url: http://pygame.org/thumb/9d1fd15254c8d7ae6425d0daffc887cd.png
     - name: duckhunt
       updated: 2015-05-28
       repo: https://github.com/grosbouddha/duckhunt
@@ -1760,13 +1662,9 @@
       repo: http://sourceforge.net/projects/eduke32/develop
       media:
         - image: http://hrp.duke4.net/screens/ep1/e1l1_01s.jpg
-          url: http://hrp.duke4.net/screens/ep1/e1l1_01.jpg
         - image: http://hrp.duke4.net/screens/ep1/e1l2_02s.jpg
-          url: http://hrp.duke4.net/screens/ep1/e1l2_02.jpg
         - image: http://hrp.duke4.net/screens/ep1/e1l5_01s.jpg
-          url: http://hrp.duke4.net/screens/ep1/e1l5_01.jpg
         - image: http://hrp.duke4.net/screens/ep2/e2l3_04s.jpg
-          url: http://hrp.duke4.net/screens/ep2/e2l3_04.jpg
 
 - name: Dune 2
   meta:
@@ -2104,32 +2002,21 @@
       updated: 2015-04-25
       repo: https://github.com/chipbell4/F-Zero-Clone
       development: active
-      lang:
-        - JavaScript
-        - CoffeeScript
+      lang: [JavaScript, CoffeeScript]
       framework: WebGL
     - name: Racer
       url: http://sourceforge.net/projects/racer/
       development: active
-      lang:
-        - C++
-        - Python
+      lang: [C++, Python]
       license: GPL3
       repo: svn://svn.code.sf.net/p/racer/code/trunk
       updated: 2015-04-25
       media:
-        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269275.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269275.jpg
-        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269265.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269265.jpg
-        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269271.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269271.jpg
-        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269273.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269273.jpg
-        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269267.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269267.jpg
-        - url: https://a.fsdn.com/con/app/proj/racer/screenshots/269269.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/racer/screenshots/269269.jpg
+        - image: https://a.fsdn.com/con/app/proj/racer/screenshots/269275.jpg
+        - image: https://a.fsdn.com/con/app/proj/racer/screenshots/269265.jpg
+        - image: https://a.fsdn.com/con/app/proj/racer/screenshots/269271.jpg
+        - image: https://a.fsdn.com/con/app/proj/racer/screenshots/269273.jpg
+        - image: https://a.fsdn.com/con/app/proj/racer/screenshots/269267.jpg
 
 - name: [Fade to Black, Fade to Black (video game)]
   remakes:
@@ -2168,8 +2055,7 @@
         - C++
       license: GPL
       media:
-        - url: http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg/182/137
-          image: http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg
+        - image: http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg
 
 - name: ["Fallout 3: Van Buren", "Van Buren (video game)"]
   remakes:
@@ -2354,10 +2240,8 @@
       framework:
         - OpenGL
       media:
-        - image: https://i.imgur.com/sYzlAh9t.png
-          url: https://i.imgur.com/sYzlAh9.png
-        - image: https://i.imgur.com/xIs46Qzt.png
-          url: https://i.imgur.com/xIs46Qz.png
+        - image: https://i.imgur.com/sYzlAh9.png
+        - image: https://i.imgur.com/xIs46Qz.png
 
 - name: [Frog!, "http://www.mobygames.com/game/frog"]
   names:
@@ -2395,7 +2279,6 @@
       license: GPL2
       media:
         - image: https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg
-          url: https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg/182/137
 
 - name: Galaxian
   remakes:
@@ -2444,14 +2327,10 @@
       development: sporadic
       lang: C++
       media:
-        - url: http://snowstorm.sourceforge.net/screenshots/1.png
-          image: http://snowstorm.sourceforge.net/screenshots/1-thumb.png
-        - url: http://snowstorm.sourceforge.net/screenshots/2.png
-          image: http://snowstorm.sourceforge.net/screenshots/2-thumb.png
-        - url: http://snowstorm.sourceforge.net/screenshots/3.png
-          image: http://snowstorm.sourceforge.net/screenshots/3-thumb.png
-        - url: http://snowstorm.sourceforge.net/screenshots/4.png
-          image: http://snowstorm.sourceforge.net/screenshots/4-thumb.png
+        - image: http://snowstorm.sourceforge.net/screenshots/1.png
+        - image: http://snowstorm.sourceforge.net/screenshots/2.png
+        - image: http://snowstorm.sourceforge.net/screenshots/3.png
+        - image: http://snowstorm.sourceforge.net/screenshots/4.png
 
 - name: Glest
   remakes:
@@ -2462,12 +2341,9 @@
       lang: C++
       updated: 2013-08-04
       media:
-        - image: http://a.fsdn.com/con/app/proj/glestae/screenshots/226566.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/glestae/screenshots/226566.jpg/182/137
-        - image: http://a.fsdn.com/con/app/proj/glestae/screenshots/258718.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/glestae/screenshots/258718.jpg/182/137
-        - image: http://a.fsdn.com/con/app/proj/glestae/screenshots/226560.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/glestae/screenshots/226560.jpg/182/137
+        - image: http://a.fsdn.com/con/app/proj/glestae/screenshots/226566.jpg
+        - image: http://a.fsdn.com/con/app/proj/glestae/screenshots/258718.jpg
+        - image: http://a.fsdn.com/con/app/proj/glestae/screenshots/226560.jpg
 
 - name: [Gods, Gods (video game)]
   remakes:
@@ -2490,14 +2366,10 @@
       lang: C++
       license: GPL3
       media:
-        - url: http://media.moddb.com/cache/images/mods/1/5/4506/thumb_300x150/Archives2.jpg
-          image: http://media.moddb.com/images/mods/1/5/4506/Archives2.jpg
-        - url: http://media.moddb.com/cache/images/mods/1/5/4506/thumb_300x150/Archives3.jpg
-          image: http://media.moddb.com/images/mods/1/5/4506/Archives3.jpg
-        - url: http://media.moddb.com/cache/images/mods/1/5/4506/thumb_300x150/Archives4.jpg
-          image: http://media.moddb.com/images/mods/1/5/4506/Archives4.jpg
-        - url: http://media.moddb.com/cache/images/mods/1/5/4506/thumb_620x2000/ro3.jpg
-          image: http://media.moddb.com/images/mods/1/5/4506/ro3.jpg
+        - image: http://media.moddb.com/images/mods/1/5/4506/Archives2.jpg
+        - image: http://media.moddb.com/images/mods/1/5/4506/Archives3.jpg
+        - image: http://media.moddb.com/images/mods/1/5/4506/Archives4.jpg
+        - image: http://media.moddb.com/images/mods/1/5/4506/ro3.jpg
 
 - name: [The Goonies, "The Goonies (video game)"]
   remakes:
@@ -2507,14 +2379,10 @@
       lang: C++
       repo: http://braingames.jorito.net/goonies/downloads/goonies.src_1.4.1528.tgz
       media:
-        - url: http://www.braingames.getput.com/goonies/pics/thumb_screenshot1.jpg
-          image: http://www.braingames.getput.com/goonies/pics/screenshot1.jpg
-        - url: http://www.braingames.getput.com/goonies/pics/thumb_screenshot2.jpg
-          image: http://www.braingames.getput.com/goonies/pics/screenshot2.jpg
-        - url: http://www.braingames.getput.com/goonies/pics/thumb_screenshot3.jpg
-          image: http://www.braingames.getput.com/goonies/pics/screenshot3.jpg
-        - url: http://www.braingames.getput.com/goonies/pics/thumb_screenshot4.jpg
-          image: http://www.braingames.getput.com/goonies/pics/screenshot4.jpg
+        - image: http://www.braingames.getput.com/goonies/pics/screenshot1.jpg
+        - image: http://www.braingames.getput.com/goonies/pics/screenshot2.jpg
+        - image: http://www.braingames.getput.com/goonies/pics/screenshot3.jpg
+        - image: http://www.braingames.getput.com/goonies/pics/screenshot4.jpg
 
 - name: [Gorillas, Gorillas (video game)]
   remakes:
@@ -2541,21 +2409,6 @@
       media:
         - image: http://oi65.tinypic.com/14mzzi8.jpg
 
-- name: Gravity Wars
-  remakes:
-    - name: Slingshot
-      updated: 2015-07-23
-      url: http://slingshot.wikispot.org/
-      status: playable
-      development: halted
-      lang: Python
-      license: GPL2
-      media:
-         - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot1.png
-         - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot2.png
-         - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot3.png
-         - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot4.png
-
 - name: The Great Giana Sisters
   remakes:
     - name: OpenGGS
@@ -2566,14 +2419,10 @@
       lang: C++
       license: GPL2
       media:
-        - url: http://a.fsdn.com/con/app/proj/openggs/screenshots/231110.jpg/182/137
-          image: http://a.fsdn.com/con/app/proj/openggs/screenshots/231110.jpg
-        - url: http://a.fsdn.com/con/app/proj/openggs/screenshots/OpenGGS_SDL2_01.png/182/137
-          image: http://a.fsdn.com/con/app/proj/openggs/screenshots/OpenGGS_SDL2_01.png
-        - url: http://a.fsdn.com/con/app/proj/openggs/screenshots/231108.jpg/182/137
-          image: http://a.fsdn.com/con/app/proj/openggs/screenshots/231108.jpg
-        - url: http://a.fsdn.com/con/app/proj/openggs/screenshots/OpenGGS_SDL2_03.png/182/137
-          image: http://a.fsdn.com/con/app/proj/openggs/screenshots/OpenGGS_SDL2_03.png
+        - image: http://a.fsdn.com/con/app/proj/openggs/screenshots/231110.jpg
+        - image: http://a.fsdn.com/con/app/proj/openggs/screenshots/OpenGGS_SDL2_01.png
+        - image: http://a.fsdn.com/con/app/proj/openggs/screenshots/231108.jpg
+        - image: http://a.fsdn.com/con/app/proj/openggs/screenshots/OpenGGS_SDL2_03.png
 
 - name: Grim Fandango
   names:
@@ -2639,10 +2488,8 @@
       info: (look for songs on the <a href="http://fretsonfire.wikidot.com/start">wiki</a>)
       lang: Python
       media:
-        - image: http://fretsonfire.sourceforge.net/screenshots/thumbnails/fretsonfire1.png
-          url: http://fretsonfire.sourceforge.net/screenshots/fretsonfire1.png
-        - image: http://fretsonfire.sourceforge.net/screenshots/thumbnails/fretsonfire4.png
-          url: http://fretsonfire.sourceforge.net/screenshots/fretsonfire4.png
+        - image: http://fretsonfire.sourceforge.net/screenshots/fretsonfire1.png
+        - image: http://fretsonfire.sourceforge.net/screenshots/fretsonfire4.png
     - name: Frets on Fire X
       url: https://code.google.com/p/fofix/
       repo: https://github.com/fofix/fofix
@@ -2746,12 +2593,8 @@
         - Phaser
       lang: JavaScript
       media:
-        - image: http://ancientbeast.com/images/thumbs/screenie1.png
-          url: http://ancientbeast.com/media/?type=screenshots#id=0
-        - image: http://ancientbeast.com/images/thumbs/screenie2.png
-          url: http://ancientbeast.com/media/?type=screenshots#id=1
-        - image: http://ancientbeast.com/images/thumbs/screenie3.png
-          url: http://ancientbeast.com/media/?type=screenshots#id=2
+        - image: http://ancientbeast.com/media/screenshots/v0.1%20Frozen%20Skull.jpg
+        - image: http://ancientbeast.com/media/screenshots/v0.1%20Dark%20Forest.jpg
 
 - name: Highway Encounter
   remakes:
@@ -2763,12 +2606,9 @@
       license: GPL3
       repo: http://iweb.dl.sourceforge.net/project/vorton/Vorton-Source/Beta-2/vorton-src-beta2.zip
       media:
-        - url: http://vorton.sourceforge.net/sshot2.png
-          image: http://vorton.sourceforge.net/shot3.png
-        - url: http://vorton.sourceforge.net/sshot3.png
-          image: http://vorton.sourceforge.net/shot3.png
-        - url: http://vorton.sourceforge.net/sshot5.png
-          image: http://vorton.sourceforge.net/shot5.png
+        - image: http://vorton.sourceforge.net/shot2.png
+        - image: http://vorton.sourceforge.net/shot3.png
+        - image: http://vorton.sourceforge.net/shot5.png
 
 - name: "History Line: 1914-1918"
   remakes:
@@ -2780,10 +2620,8 @@
       framework: Unity
       lang: C#
       media:
-        - url: https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png?w=300&h=194
-          image: https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png
-        - url: https://conquertheworldbycode.files.wordpress.com/2013/10/screen.png?w=300&h=195
-          image: https://conquertheworldbycode.files.wordpress.com/2013/10/screen.png
+        - image: https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png
+        - image: https://conquertheworldbycode.files.wordpress.com/2013/10/screen.png
 
 - name: Homeworld
   remakes:
@@ -2794,14 +2632,10 @@
       development: halted
       framework: SDL
       media:
-        - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/test01.png
-          url: http://www.thereisnospork.com/projects/homeworld/images/test01.png
-        - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/screen01.png
-          url: http://www.thereisnospork.com/projects/homeworld/images/screen01.png
-        - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/screen02.png
-          url: http://www.thereisnospork.com/projects/homeworld/images/screen02.png
-        - image: http://www.thereisnospork.com/projects/homeworld/images/thumbs/screen04.png
-          url: http://www.thereisnospork.com/projects/homeworld/images/screen04.png
+        - image: http://www.thereisnospork.com/projects/homeworld/images/test01.png
+        - image: http://www.thereisnospork.com/projects/homeworld/images/screen01.png
+        - image: http://www.thereisnospork.com/projects/homeworld/images/screen02.png
+        - image: http://www.thereisnospork.com/projects/homeworld/images/screen04.png
 
 - name: HoverRace
   remakes:
@@ -2834,7 +2668,6 @@
       license: GPL3
       media:
         - image: http://remake.twelvepm.de/wp/wp-content/uploads/2014/04/EditorScreen.0.1.0.jpg
-          url: http://remake.twelvepm.de/wp/wp-content/uploads/2014/04/EditorScreen.0.1.0-150x150.jpg
 
 - name: Imperium Galactica
   remakes:
@@ -2858,8 +2691,7 @@
       url: http://www.interstateoutlaws.com/
       repo: http://www.interstateoutlaws.com/downloads/Outlaws-0.1.1a-linux.tar.gz
       media:
-        - url: http://www.interstateoutlaws.com/media/craterpreview-t.jpg
-          image: http://www.interstateoutlaws.com/media/craterpreview.jpg
+        - image: http://www.interstateoutlaws.com/media/craterpreview.jpg
         - image: http://www.interstateoutlaws.com/media/io_poem_tmpl2.jpg
         - image: http://www.interstateoutlaws.com/media/io_poem_tmpl1.jpg
 
@@ -2956,13 +2788,9 @@
       repo: http://mattdm.org/icebreaker/1.2.x/icebreaker-1.2.1.tgz
       media:
         - image: http://mattdm.org/icebreaker/images/screenshot-level1-linux.png
-          url: http://mattdm.org/icebreaker/images/screenshot-level1-linux-thumb.png
         - image: http://mattdm.org/icebreaker/images/screenshot-level2-billg.png
-          url: http://mattdm.org/icebreaker/images/screenshot-level2-billg-thumb.png
         - image: http://mattdm.org/icebreaker/images/screenshot-level5-jz-like.png
-          url: http://mattdm.org/icebreaker/images/screenshot-level5-jz-like-thumb.png
         - image: http://mattdm.org/icebreaker/images/screenshot-level6-stars.png
-          url: http://mattdm.org/icebreaker/images/screenshot-level6-stars-thumb.png
 
 - name: [Joust, Joust (video game)]
   remakes:
@@ -2975,9 +2803,7 @@
       repo: https://github.com/dulsi/ostrichriders
       media:
         - image: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229619.jpg
-          url: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229619.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229617.jpg
-          url: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229617.jpg/182/137
 
 - name: "Jumpgate: The Reconstruction Initiative"
   remakes:
@@ -3065,14 +2891,10 @@
       lang: Delphi
       updated: 2012-04-05
       media:
-        - image: http://www.kamremake.com/wp-content/uploads/2011/10/Menu-150x150.png
-          url: http://www.kamremake.com/wp-content/uploads/2011/10/Menu.png
-        - image: http://www.kamremake.com/wp-content/uploads/2011/11/tnp-150x150.jpg
-          url: http://www.kamremake.com/wp-content/uploads/2011/11/tnp.jpg
-        - image: http://www.kamremake.com/wp-content/uploads/2011/10/RiverOfGold-4-150x150.jpg
-          url: http://www.kamremake.com/wp-content/uploads/2011/10/RiverOfGold-4.jpg
-        - image: http://www.kamremake.com/wp-content/uploads/2011/10/Multiplayer1-150x150.jpg
-          url: http://www.kamremake.com/wp-content/uploads/2011/10/Multiplayer1.jpg
+        - image: http://www.kamremake.com/wp-content/uploads/2011/10/Menu.png
+        - image: http://www.kamremake.com/wp-content/uploads/2011/11/tnp.jpg
+        - image: http://www.kamremake.com/wp-content/uploads/2011/10/RiverOfGold-4.jpg
+        - image: http://www.kamremake.com/wp-content/uploads/2011/10/Multiplayer1.jpg
 
 - name: Kula World
   names:
@@ -3155,10 +2977,8 @@
       development: halted
       lang: C
       media:
-        - image: http://media.wonderland.cz/stockphoto/cache/thumbs/2008/11/16/lotr1.png
-          url: http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr1.png
-        - image: http://media.wonderland.cz/stockphoto/cache/thumbs/2008/11/16/lotr2.png
-          url: http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr2.png
+        - image: http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr1.png
+        - image: http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr2.png
 
 - name: Liero
   remakes:
@@ -3173,14 +2993,10 @@
       lang: C++
       repo: https://github.com/albertz/openlierox
       media:
-        - url: http://www.openlierox.net/official/screenshots/olx2.png
-          image: http://www.openlierox.net/official/screenshots/olx2-small.png
-        - url: http://www.openlierox.net/official/screenshots/olx4.png
-          image: http://www.openlierox.net/official/screenshots/olx4-small.png
-        - url: http://www.openlierox.net/official/screenshots/olx11.png
-          image: http://www.openlierox.net/official/screenshots/olx11-small.png
-        - url: http://www.openlierox.net/official/screenshots/olx6.png
-          image: http://www.openlierox.net/official/screenshots/olx6-small.png
+        - image: http://www.openlierox.net/official/screenshots/olx2.png
+        - image: http://www.openlierox.net/official/screenshots/olx4.png
+        - image: http://www.openlierox.net/official/screenshots/olx11.png
+        - image: http://www.openlierox.net/official/screenshots/olx6.png
     - name: Gusanos
       url: http://gusanos.sourceforge.net/
       repo: http://sourceforge.net/p/gusanos/code/?source=navbar
@@ -3246,8 +3062,7 @@
       license: GPL2
       updated: 2016-05-31
       media:
-        - url: https://www.kde.org/images/screenshots/resized/kgoldrunner.png
-          image: https://www.kde.org/images/screenshots/kgoldrunner.png
+        - image: https://www.kde.org/images/screenshots/kgoldrunner.png
 
 - name: ["Log!cal", "http://hol.abime.net/906"]
   remakes:
@@ -3268,16 +3083,11 @@
       license: GPL2
       repo: http://pathological.cvs.sourceforge.net/viewvc/pathological/
       media:
-        - url: http://pathological.sourceforge.net/screenshots/intro-small.jpg
-          image: http://pathological.sourceforge.net/screenshots/intro.png
-        - url: http://pathological.sourceforge.net/screenshots/theabyss-small.jpg
-          image: http://pathological.sourceforge.net/screenshots/theabyss.png
-        - url: http://pathological.sourceforge.net/screenshots/ketchupandmustard-small.jpg
-          image: http://pathological.sourceforge.net/screenshots/ketchupandmustard.png
-        - url: http://pathological.sourceforge.net/screenshots/wildberries-small.jpg
-          image: http://pathological.sourceforge.net/screenshots/wildberries.png
-        - url: http://pathological.sourceforge.net/screenshots/triggerpractice-small.jpg
-          image: http://pathological.sourceforge.net/screenshots/triggerpractice.png
+        - image: http://pathological.sourceforge.net/screenshots/intro.png
+        - image: http://pathological.sourceforge.net/screenshots/theabyss.png
+        - image: http://pathological.sourceforge.net/screenshots/ketchupandmustard.png
+        - image: http://pathological.sourceforge.net/screenshots/wildberries.png
+        - image: http://pathological.sourceforge.net/screenshots/triggerpractice.png
 
 - name: [Lose Your Marbles, Sega Puzzle Pack]
   remakes:
@@ -3311,18 +3121,11 @@
       lang: C++
       license: GPL2
       media:
-        - url: http://krystaldrop.sourceforge.net/images/tshot1.png
-          image: http://krystaldrop.sourceforge.net/images/sshot1.png
-        - url: http://krystaldrop.sourceforge.net/images/tshot2.png
-          image: http://krystaldrop.sourceforge.net/images/sshot2.png
-        - url: http://krystaldrop.sourceforge.net/images/tshot3.png
-          image: http://krystaldrop.sourceforge.net/images/sshot3.png
-        - url: http://krystaldrop.sourceforge.net/images/tshot4.png
-          image: http://krystaldrop.sourceforge.net/images/sshot4.png
-        - url: http://krystaldrop.sourceforge.net/images/tshot5.png
-          image: http://krystaldrop.sourceforge.net/images/sshot5.png
-        - url: http://krystaldrop.sourceforge.net/images/tshot6.png
-          image: http://krystaldrop.sourceforge.net/images/sshot6.png
+        - image: http://krystaldrop.sourceforge.net/images/sshot1.png
+        - image: http://krystaldrop.sourceforge.net/images/sshot2.png
+        - image: http://krystaldrop.sourceforge.net/images/sshot3.png
+        - image: http://krystaldrop.sourceforge.net/images/sshot4.png
+        - image: http://krystaldrop.sourceforge.net/images/sshot5.png
 
 - name: Marble Madness
   remakes:
@@ -3390,12 +3193,9 @@
       license: BSD
       repo: https://github.com/textbrowser/maxit
       media:
-        - url: https://a.fsdn.com/con/app/proj/maxit/screenshots/183592.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/maxit/screenshots/183592.jpg
-        - url: https://a.fsdn.com/con/app/proj/maxit/screenshots/183590.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/maxit/screenshots/183590.jpg
-        - url: https://a.fsdn.com/con/app/proj/maxit/screenshots/183588.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/maxit/screenshots/183588.jpg
+        - image: https://a.fsdn.com/con/app/proj/maxit/screenshots/183592.jpg
+        - image: https://a.fsdn.com/con/app/proj/maxit/screenshots/183590.jpg
+        - image: https://a.fsdn.com/con/app/proj/maxit/screenshots/183588.jpg
 
 - name: The Maze of Galious
   remakes:
@@ -3440,9 +3240,7 @@
       repo: http://montymole.cvs.sourceforge.net/viewvc/montymole/
       media:
         - image: https://a.fsdn.com/con/app/proj/montymole/screenshots/28062.jpg
-          url: https://a.fsdn.com/con/app/proj/montymole/screenshots/28062.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/montymole/screenshots/28060.jpg
-          url: https://a.fsdn.com/con/app/proj/montymole/screenshots/28060.jpg/182/137
 
 - name: Moonbase Commander
   remakes:
@@ -3515,7 +3313,6 @@
       license: GPL2
       media:
         - image: http://perso.b2b2c.ca/~sarrazip/dev/images/afternoonstalker-1.png
-          url: http://perso.b2b2c.ca/~sarrazip/dev/images/afternoonstalker-1-tn.png
 
 - name: [Octopus, "List of Game & Watch games#Octopus"]
   remakes:
@@ -3553,8 +3350,7 @@
       license: GPL2
       repo: svn://svn.code.sf.net/p/ocmod/code/
       media:
-        - url: https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg
+        - image: https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg
 
 - name: Outrun
   names:
@@ -3660,8 +3456,7 @@
       lang: C++
       license: GPL3
       media:
-        - url: https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg
+        - image: https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg
 
 - name: [Portal, Portal (video game)]
   remakes:
@@ -3712,12 +3507,9 @@
       license: GPL2
       updated: 2015-07-02
       media:
-        - url: https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty1.jpg
-          image: https://icculus.org/twilight/darkplaces/pics/thumbnails/rygelpack_pretty1.jpg
-        - url: https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty6.jpg
-          image: https://icculus.org/twilight/darkplaces/pics/thumbnails/rygelpack_pretty6.jpg
-        - url: https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty10.jpg
-          image: https://icculus.org/twilight/darkplaces/pics/thumbnails/rygelpack_pretty10.jpg
+        - image: https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty1.jpg
+        - image: https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty6.jpg
+        - image: https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty10.jpg
     - name: ezQuake
       url: http://ezquake.sourceforge.net/
       repo: https://github.com/ezQuake/ezquake-source
@@ -3726,8 +3518,7 @@
       license: GPL2
       updated: 2015-07-02
       media:
-        - url: http://ezquake.sourceforge.net/gallery/armor_battle.png
-          image: http://ezquake.sourceforge.net/gallery/_th_armor_battle.jpg
+        - image: http://ezquake.sourceforge.net/gallery/armor_battle.png
     - name: ProQuake 4
       updated: 2015-04-03
       url: http://quakeone.com/proquake/
@@ -3786,14 +3577,10 @@
       development: sporadic
       lang: C
       media:
-        - image: http://openarena.ws/e107_images/custom/s085-8.jpg
-          url: http://openarena.ws/e107_images/custom/085-8.jpg
-        - image: http://openarena.ws/e107_images/custom/s085-13.jpg
-          url: http://openarena.ws/e107_images/custom/085-13.jpg
-        - image: http://openarena.ws/e107_images/custom/s085-14.jpg
-          url: http://openarena.ws/e107_images/custom/085-14.jpg
-        - image: http://openarena.ws/e107_images/custom/s085-16.jpg
-          url: http://openarena.ws/e107_images/custom/085-16.jpg
+        - image: http://openarena.ws/e107_images/custom/085-8.jpg
+        - image: http://openarena.ws/e107_images/custom/085-13.jpg
+        - image: http://openarena.ws/e107_images/custom/085-14.jpg
+        - image: http://openarena.ws/e107_images/custom/085-16.jpg
     - name: FQuake3
       updated: 2015-05-11
       repo: https://github.com/TIHan/FQuake3
@@ -3880,12 +3667,9 @@
       development: sporadic
       lang: C++
       media:
-        - image: http://picload.org/thumbnail/lopgiwo/smc1.png
-          url: http://secretmaryo.org/index.php?page=media
-        - image: http://picload.org/thumbnail/lopgiwc/smc2.png
-          url: http://secretmaryo.org/index.php?page=media
-        - image: http://picload.org/thumbnail/lopgiwp/smc3.png
-          url: http://secretmaryo.org/index.php?page=media
+        - image: http://secretmaryo.org/images/screenshot/2.0/media/1.png
+        - image: http://secretmaryo.org/images/screenshot/2.0/media/2.png
+        - image: http://secretmaryo.org/images/screenshot/2.0/media/3.png
     - name: Mari0
       url: http://stabyourself.net/mari0/
       repo: http://stabyourself.net/dl.php?file=mari0-1006/mari0-source.zip
@@ -3894,7 +3678,6 @@
       updated: 2015-04-03
       media:
         - image: https://i.imgur.com/M8NcU.gif
-          url: https://i.imgur.com/M8NcU.gif
     - name: Full Screen Mario
       repo: https://github.com/FullScreenShenanigans/FullScreenMario/
       url: http://www.fullscreenmario.com/
@@ -3921,30 +3704,11 @@
       license: GPL2
       updated: 2016-01-01
       media:
-        - url: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg
-          image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg
-        - url: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-11.jpg
-          image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-11.jpg
-        - url: https://www.wesnoth.org/images/sshots/wesnoth-1.12.4-3.jpg
-          image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.4-3.jpg
-        - url: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-5.jpg
-          image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-5.jpg
+        - image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg
+        - image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-11.jpg
+        - image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.4-3.jpg
+        - image: https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-5.jpg
         - youtube: w3P39lppcH4
-
-- name: Master of Orion 2
-  remakes:
-    - url: http://openmoo2.org/en/
-      name: OpenMOO2
-      development: sporadic
-      lang: Python
-      repo: http://repository.openmoo2.org/cgi-bin/hgwebdir.cgi/PUBLIC/
-      media:
-        - url: http://openmoo2.org/static/20/main-screen-moo2-screenshot.png
-          image: http://openmoo2.org/static/20/main-screen-moo2-small.png
-        - url: http://openmoo2.org/static/20/colonies-moo2-screenshot.png
-          image: http://openmoo2.org/static/20/colonies-moo2-small.png
-        - url: http://openmoo2.org/static/20/colony-moo2-screenshot.png
-          image: http://openmoo2.org/static/20/colony-moo2-small.png
 
 - name: [M.A.X., Mechanized Assault & Exploration]
   remakes:
@@ -3954,14 +3718,10 @@
       lang: C++
       repo: http://www.maxr.org/trac/timeline
       media:
-        - url: http://www.maxr.org/images/screenshots/03.jpg
-          image: http://www.maxr.org/images/screenshots/thumb/03-thumb.jpg
-        - url: http://www.maxr.org/images/screenshots/04.jpg
-          image: http://www.maxr.org/images/screenshots/thumb/04-thumb.jpg
-        - url: http://www.maxr.org/images/screenshots/11.jpg
-          image: http://www.maxr.org/images/screenshots/thumb/11-thumb.jpg
-        - url: http://www.maxr.org/images/screenshots/10.jpg
-          image: http://www.maxr.org/images/screenshots/thumb/10-thumb.jpg
+        - image: http://www.maxr.org/images/screenshots/03.jpg
+        - image: http://www.maxr.org/images/screenshots/04.jpg
+        - image: http://www.maxr.org/images/screenshots/11.jpg
+        - image: http://www.maxr.org/images/screenshots/10.jpg
 
 - name: [Mech Warrior, MechWarrior (video game series)]
   remakes:
@@ -3973,7 +3733,7 @@
       url: http://www.hackcraft.de/games/linwarrior_3d/index.htm
       updated: 2015-04-03
       media:
-        - url: http://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg
+        - image: http://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg
 
 - name: MechCommander 2
   remakes:
@@ -4043,8 +3803,7 @@
       lang: Python
       license: GPL2
       media:
-        - url: http://pygame.org/thumb/f584b67f81a990a77d8ab6fe90f6faa6.png
-          image: http://pygame.org/shots/989.png
+        - image: http://pygame.org/shots/989.png
 
 - name: Minecraft
   remakes:
@@ -4100,7 +3859,6 @@
       license: GPL2
       media:
         - image: http://blog.mezeske.com/wp-content/uploads/2011/07/digbuild-screenshot-1.jpg
-          url: http://blog.mezeske.com/wp-content/uploads/2011/07/digbuild-screenshot-1-small.jpg
     - name: TrueCraft
       updated: 2015-05-02
       url: http://truecraft.io/
@@ -4146,9 +3904,7 @@
       repo: https://github.com/teruk/movbizz
       updated: 2015-06-01
       development: active
-      lang:
-         - PHP
-         - JavaScript
+      lang: [PHP, JavaScript]
       license: MIT
       url: http://movbizz.sebbmeyer.de/
 
@@ -4194,8 +3950,7 @@
       lang: C++
       updated: 2013-05-28
       media:
-        - image: https://xoreos.org/images/NWN_20130528T054618_500.png
-          url: https://xoreos.org/images/NWN_20130528T054618.png
+        - image: https://xoreos.org/images/NWN_20130528T054618.png
         - youtube: WaRfBsZVO3Y
 
 - name: Nodes of Yesod
@@ -4217,22 +3972,11 @@
       development: active
       updated: 2014-08-16
       media:
-        - image: http://www.openomf.org/screenshots/thumb_mainmenu.png
-          url: http://www.openomf.org/screenshots/mainmenu.png
-        - image: http://www.openomf.org/screenshots/thumb_single_player.png
-          url: http://www.openomf.org/screenshots/single_player.png
-        - image: http://www.openomf.org/screenshots/thumb_two_player.png
-          url: http://www.openomf.org/screenshots/two_player.png
-        - image: http://www.openomf.org/screenshots/thumb_vs.png
-          url: http://www.openomf.org/screenshots/vs.png
-        - image: http://www.openomf.org/screenshots/thumb_victory.png
-          url: http://www.openomf.org/screenshots/victory.png
-        - image: http://www.openomf.org/screenshots/thumb_power_plant.png
-          url: http://www.openomf.org/screenshots/power_plant.png
-        - image: http://www.openomf.org/screenshots/thumb_newsroom.png
-          url: http://www.openomf.org/screenshots/newsroom.png
-        - image: http://www.openomf.org/screenshots/thumb_end.png
-          url: http://www.openomf.org/screenshots/end.png
+        - image: http://www.openomf.org/screenshots/mainmenu.png
+        - image: http://www.openomf.org/screenshots/single_player.png
+        - image: http://www.openomf.org/screenshots/two_player.png
+        - image: http://www.openomf.org/screenshots/vs.png
+        - image: http://www.openomf.org/screenshots/victory.png
         - youtube: RYiUsDSApM8
     - name: Ruby OMF 2097 Remake
       updated: 2015-04-13
@@ -4264,8 +4008,7 @@
       url: http://www.linuxconsulting.ro/openpanzer/
       repo: https://github.com/nicupavel/openpanzer
       media:
-        - image: http://i.imgur.com/NiJGQl.jpg
-          url: http://i.imgur.com/NiJGQ.jpg
+        - image: http://i.imgur.com/NiJGQ.jpg
     - name: LGeneral
       url: http://lgames.sourceforge.net/index.php?project=LGeneral
       repo: http://sourceforge.net/p/lgeneral/code/HEAD/tree/trunk/lgeneral/
@@ -4274,10 +4017,8 @@
       lang: C
       updated: 2013-05-30
       media:
-        - image: http://lgames.sourceforge.net/LGeneral/t_ss0.jpg
-          url: http://lgames.sourceforge.net/LGeneral/ss0.jpg
-        - image: http://lgames.sourceforge.net/LGeneral/t_ss1.jpg
-          url: http://lgames.sourceforge.net/LGeneral/ss1.jpg
+        - image: http://lgames.sourceforge.net/LGeneral/ss0.jpg
+        - image: http://lgames.sourceforge.net/LGeneral/ss1.jpg
 
 - name: [Paratrooper, Paratrooper (video game)]
   remakes:
@@ -4289,7 +4030,6 @@
       lang: Python
       media:
         - image: http://pygame.org/shots/706.jpg
-          url: http://pygame.org/thumb/65b19eb3798f52835fe9b4b12f9d69ba.png
 
 - name: [Phantasy, Phantasy Star (video game)]
   remakes:
@@ -4369,12 +4109,9 @@
       updated: 2013-05-29
       repo: http://pushover.sourceforge.net/repos/head/
       media:
-        - image: http://pushover.sourceforge.net/images/Screenshot2_tn.jpg
-          url: http://pushover.sourceforge.net/images/Screenshot2.jpg
-        - image: http://pushover.sourceforge.net/images/Screenshot3n_tn.jpg
-          url: http://pushover.sourceforge.net/images/Screenshot3n.jpg
-        - image: http://pushover.sourceforge.net/images/Screenshot4_tn.jpg
-          url: http://pushover.sourceforge.net/images/Screenshot4.jpg
+        - image: http://pushover.sourceforge.net/images/Screenshot2.jpg
+        - image: http://pushover.sourceforge.net/images/Screenshot3n.jpg
+        - image: http://pushover.sourceforge.net/images/Screenshot4.jpg
 
 - name: [Puzznic / Brix, Brix (video game)]
   remakes:
@@ -4386,12 +4123,9 @@
       updated: 2015-03-06
       repo: https://github.com/DusteDdk/Wizznic
       media:
-        - image: http://a.fsdn.com/con/app/proj/wizznic/screenshots/lvl0.png/182/137
-          url: http://a.fsdn.com/con/app/proj/wizznic/screenshots/lvl0.png
-        - image: http://a.fsdn.com/con/app/proj/wizznic/screenshots/271261.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/wizznic/screenshots/271261.jpg
-        - image: http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png/182/137
-          url: http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png
+        - image: http://a.fsdn.com/con/app/proj/wizznic/screenshots/lvl0.png
+        - image: http://a.fsdn.com/con/app/proj/wizznic/screenshots/271261.jpg
+        - image: http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png
 
 - name: Q*bert
   remakes:
@@ -4421,14 +4155,11 @@
      - name: FreeRails
        url: http://freerails.sourceforge.net/
        development: halted
-       lang:
-         - C++
-         - Java
+       lang: [C++, Java]
        repo: freerails.cvs.sourceforge.net
        updated: 2015-04-03
        media:
          - image: http://freerails.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
-         - url: http://freerails.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
      - name: FreeRails 2
        url: http://freerails2.sourceforge.net/
        development: halted
@@ -4437,7 +4168,6 @@
        updated: 2015-04-03
        media:
          - image: http://freerails2.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
-         - url: http://freerails2.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
 
 - name: [Rampart, Rampart (video game)]
   remakes:
@@ -4480,10 +4210,8 @@
       lang: Java
       license: GPL2
       media:
-        - url: http://rescue.sourceforge.net/screenshots/rescue1.0a_small.png
-          image: http://rescue.sourceforge.net/screenshots/rescue1.0a.png
-        - url: http://rescue.sourceforge.net/screenshots/rescue1.0b_small.png
-          image: http://rescue.sourceforge.net/screenshots/rescue1.0b.png
+        - image: http://rescue.sourceforge.net/screenshots/rescue1.0a.png
+        - image: http://rescue.sourceforge.net/screenshots/rescue1.0b.png
 
 - name: Rick Dangerous
   remakes:
@@ -4537,14 +4265,10 @@
      lang: C++
      license: LGPL2
      media:
-       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot1.jpg
-         image: http://www.braingames.getput.com/roadf/pics/screenshot1.jpg
-       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot2.jpg
-         image: http://www.braingames.getput.com/roadf/pics/screenshot2.jpg
-       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot3.jpg
-         image: http://www.braingames.getput.com/roadf/pics/screenshot3.jpg
-       - url: http://www.braingames.getput.com/roadf/pics/thumb_screenshot4.jpg
-         image: http://www.braingames.getput.com/roadf/pics/screenshot4.jpg
+       - image: http://www.braingames.getput.com/roadf/pics/screenshot1.jpg
+       - image: http://www.braingames.getput.com/roadf/pics/screenshot2.jpg
+       - image: http://www.braingames.getput.com/roadf/pics/screenshot3.jpg
+       - image: http://www.braingames.getput.com/roadf/pics/screenshot4.jpg
 
 - name: Robotfindskitten
   remakes:
@@ -4576,17 +4300,10 @@
       license: GPL3
       media:
         - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/254642.jpg
-          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/254642.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/254636.jpg
-          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/254636.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/254640.jpg
-          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/254640.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/267538.jpg
-          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/267538.jpg/182/137
         - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/255628.jpg
-          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/255628.jpg/182/137
-        - image: https://a.fsdn.com/con/app/proj/o2r/screenshots/267946.jpg
-          url: https://a.fsdn.com/con/app/proj/o2r/screenshots/267946.jpg/182/137
 
 - name: RollerCoaster Tycoon
   remakes:
@@ -4618,11 +4335,6 @@
       lang: C++
       license: AGPL3
       repo: https://bitbucket.org/ryzom/ryzomcore/overview
-      media:
-        - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot008.png
-        - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot013.png
-        - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot010.png
-        - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot004_sound_debug-1.png
 
 - name: [Scorched Earth, Scorched Earth (video game)]
   remakes:
@@ -4632,10 +4344,8 @@
       development: sporadic
       updated: 2013-06-06
       media:
-        - image: http://atanks.sourceforge.net/Screenshots/small-scrnshot28.png
-          url: http://atanks.sourceforge.net/Screenshots/scrnshot28.png
-        - image: http://atanks.sourceforge.net/Screenshots/small-scrnshot23.png
-          url: http://atanks.sourceforge.net/Screenshots/scrnshot23.png
+        - image: http://atanks.sourceforge.net/Screenshots/scrnshot28.png
+        - image: http://atanks.sourceforge.net/Screenshots/scrnshot23.png
 
 - name: [Scramble, Scramble (video game)]
   remakes:
@@ -4747,10 +4457,8 @@
       license: GPL3
       updated: 2015-05-02
       media:
-        - url: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/screenshot_zps0048f6d4.PNG/182/137
-          image: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/screenshot_zps0048f6d4.PNG
-        - url: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/owtg_zpsc6792600.PNG/182/137
-          image: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/owtg_zpsc6792600.PNG
+        - image: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/screenshot_zps0048f6d4.PNG
+        - image: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/owtg_zpsc6792600.PNG
 
 - name: [The Sentinel, The Sentinel (video game)]
   remakes:
@@ -4805,12 +4513,9 @@
       development: active
       lang: Java
       media:
-        - url: http://www.freecol.org/images/screen-0.8.0-large.jpg
-          image: http://www.freecol.org/images/screen-0.8.0-small.jpg
-        - url: http://www.freecol.org/images/java-shot15.jpg
-          image: http://www.freecol.org/images/java-shot15_s.jpg
-        - url: http://www.freecol.org/images/java-shot16.jpg
-          image: http://www.freecol.org/images/java-shot16_s.jpg
+        - image: http://www.freecol.org/images/screen-0.8.0-large.jpg
+        - image: http://www.freecol.org/images/java-shot15.jpg
+        - image: http://www.freecol.org/images/java-shot16.jpg
     - name: cc94
       repo: https://github.com/institution/cc94
       updated: 2015-05-29
@@ -4832,11 +4537,8 @@
       repo: svn://svn.code.sf.net/p/crownandcutlass/code/trunk
       media:
         - image: http://www.crownandcutlass.com/screenshots/images/CCNewMenu.png
-          url: http://www.crownandcutlass.com/screenshots/images/CCNewMenu_thumb.jpg
         - image: http://www.crownandcutlass.com/screenshots/images/CCNewCities.png
-          url: http://www.crownandcutlass.com/screenshots/images/CCNewCities_thumb.jpg
         - image: http://www.crownandcutlass.com/screenshots/images/CCNavalBattle.png
-          url: http://www.crownandcutlass.com/screenshots/images/CCNavalBattle_thumb.jpg
 
 - name: Shadow Warrior
   remakes:
@@ -4884,11 +4586,8 @@
       license: Custom
       media:
         - image: http://soaos.sourceforge.net/images/shots/scrshot2.jpg
-          url: http://soaos.sourceforge.net/images/shots/scrshot2_small.jpg
         - image: http://soaos.sourceforge.net/images/shots/scrshot1.jpg
-          url: http://soaos.sourceforge.net/images/shots/scrshot1_small.jpg
         - image: http://soaos.sourceforge.net/images/shots/scrshot4.jpg
-          url: http://soaos.sourceforge.net/images/shots/scrshot4_small.jpg
 
 - name: [Silencer, Silencer (video game)]
   remakes:
@@ -4913,14 +4612,10 @@
       updated: 2012-04-05
       repo: http://dangerdeep.svn.sourceforge.net/viewvc/dangerdeep/
       media:
-        - image: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/thumbs/thumbs_screen_1.jpg
-          url: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_1.jpg
-        - image: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/thumbs/thumbs_screen_2.jpg
-          url: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_2.jpg
-        - image: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/thumbs/thumbs_screen_4.jpg
-          url: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_4.jpg
-        - image: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/thumbs/thumbs_screen_11.jpg
-          url: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
+        - image: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_1.jpg
+        - image: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_2.jpg
+        - image: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_4.jpg
+        - image: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
 
 - name: SimTower
   remakes:
@@ -4944,12 +4639,9 @@
       lang: Object Pascal
       updated: 2014-09-19
       media:
-        - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/sing_singscreen.jpg
-          url: http://ultrastardx.sourceforge.net/screenshots/sing_singscreen.jpg
-        - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/game_visualisations.png
-          url: http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png
-        - image: http://ultrastardx.sourceforge.net/screenshots/thumbs/partymode_teams.png
-          url: http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
+        - image: http://ultrastardx.sourceforge.net/screenshots/sing_singscreen.jpg
+        - image: http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png
+        - image: http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
 
 - name: Solar Fox
   remakes:
@@ -4960,18 +4652,11 @@
       lang: Python
       license: LGPL2
       media:
-        - url: http://pygame.org/shredwheat/solarwolf/screen/mini1.jpg
-          image: http://pygame.org/shredwheat/solarwolf/screen/shot1.jpg
-        - url: http://pygame.org/shredwheat/solarwolf/screen/mini2.jpg
-          image: http://pygame.org/shredwheat/solarwolf/screen/shot2.jpg
-        - url: http://pygame.org/shredwheat/solarwolf/screen/mini3.jpg
-          image: http://pygame.org/shredwheat/solarwolf/screen/shot3.jpg
-        - url: http://pygame.org/shredwheat/solarwolf/screen/mini4.jpg
-          image: http://pygame.org/shredwheat/solarwolf/screen/shot4.jpg
-        - url: http://pygame.org/shredwheat/solarwolf/screen/mini5.jpg
-          image: http://pygame.org/shredwheat/solarwolf/screen/shot5.jpg
-        - url: http://pygame.org/shredwheat/solarwolf/screen/mini6.jpg
-          image: http://pygame.org/shredwheat/solarwolf/screen/shot6.jpg
+        - image: http://pygame.org/shredwheat/solarwolf/screen/shot1.jpg
+        - image: http://pygame.org/shredwheat/solarwolf/screen/shot2.jpg
+        - image: http://pygame.org/shredwheat/solarwolf/screen/shot3.jpg
+        - image: http://pygame.org/shredwheat/solarwolf/screen/shot4.jpg
+        - image: http://pygame.org/shredwheat/solarwolf/screen/shot5.jpg
 
 - name: [Sopwith, Sopwith (video game)]
   remakes:
@@ -5040,16 +4725,11 @@
       lang: C
       repo: http://sc2.svn.sourceforge.net/viewvc/sc2/
       media:
-        - url: http://sc2.sourceforge.net/screenshots/pcintro.jpg
-          image: http://sc2.sourceforge.net/screenshots/pcintro_tn.jpg
-        - url: http://sc2.sourceforge.net/screenshots/slaveshield.png
-          image: http://sc2.sourceforge.net/screenshots/slaveshield_tn.png
-        - url: http://sc2.sourceforge.net/screenshots/scale_triscan.png
-          image: http://sc2.sourceforge.net/screenshots/scale_triscan_tn.png
-        - url: http://sc2.sourceforge.net/screenshots/setupmenu.png
-          image: http://sc2.sourceforge.net/screenshots/setupmenu_tn.png
-        - url: http://sc2.sourceforge.net/screenshots/meleestep.png
-          image: http://sc2.sourceforge.net/screenshots/meleestep_tn.png
+        - image: http://sc2.sourceforge.net/screenshots/pcintro.jpg
+        - image: http://sc2.sourceforge.net/screenshots/slaveshield.png
+        - image: http://sc2.sourceforge.net/screenshots/scale_triscan.png
+        - image: http://sc2.sourceforge.net/screenshots/setupmenu.png
+        - image: http://sc2.sourceforge.net/screenshots/meleestep.png
     - name: star-control2
       repo: https://github.com/jjimenezg93/star-control2
       development: active
@@ -5089,7 +4769,7 @@
       development: halted
       lang: C++
       media:
-        - url: https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
+        - image: https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
 
 - name: Stars!
   remakes:
@@ -5213,12 +4893,9 @@
       lang: C++
       updated: 2014-04-16
       media:
-        - image: http://a.fsdn.com/con/app/proj/mmario/screenshots/206808.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/mmario/screenshots/206808.jpg
-        - image: http://a.fsdn.com/con/app/proj/mmario/screenshots/206814.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/mmario/screenshots/206814.jpg
-        - image: http://a.fsdn.com/con/app/proj/mmario/screenshots/206810.jpg/182/137
-          url: http://a.fsdn.com/con/app/proj/mmario/screenshots/206810.jpg
+        - image: http://a.fsdn.com/con/app/proj/mmario/screenshots/206808.jpg
+        - image: http://a.fsdn.com/con/app/proj/mmario/screenshots/206814.jpg
+        - image: http://a.fsdn.com/con/app/proj/mmario/screenshots/206810.jpg
     - name: pucpr-ld-mario3
       updated: 2015-06-02
       repo: https://github.com/jvlppm/pucpr-ld-mario3
@@ -5316,12 +4993,9 @@
       lang: C++
       repo: http://freesynd.svn.sourceforge.net/viewvc/freesynd/
       media:
-        - image: http://freesynd.sourceforge.net/images/screenshots/thumb.ss1.png
-          url: http://freesynd.sourceforge.net/images/screenshots/ss1.png
-        - image: http://freesynd.sourceforge.net/images/screenshots/thumb.ss2.png
-          url: http://freesynd.sourceforge.net/images/screenshots/ss2.png
-        - image: http://freesynd.sourceforge.net/images/screenshots/thumb.ss3.png
-          url: http://freesynd.sourceforge.net/images/screenshots/ss3.png
+        - image: http://freesynd.sourceforge.net/images/screenshots/ss1.png
+        - image: http://freesynd.sourceforge.net/images/screenshots/ss2.png
+        - image: http://freesynd.sourceforge.net/images/screenshots/ss3.png
 
 - name: Syndicate Wars
   remakes:
@@ -5333,10 +5007,8 @@
       license: GPL3
       updated: 2013-05-30
       media:
-        - image: http://swars.vexillium.org/shots/swars-gnu-1-thumb.jpg
-          url: http://swars.vexillium.org/shots/swars-gnu-1.png
-        - image: http://swars.vexillium.org/shots/swars-macos-1-thumb.jpg
-          url: http://swars.vexillium.org/shots/swars-macos-1.png
+        - image: http://swars.vexillium.org/shots/swars-gnu-1.png
+        - image: http://swars.vexillium.org/shots/swars-macos-1.png
 
 - name: System Shock
   remakes:
@@ -5412,14 +5084,10 @@
       lang: C++
       repo: https://code.launchpad.net/~flosoft/s25rttr/trunk
       media:
-        - image: http://www.siedler25.org/thumbnail.php?file=/gallery/2011/2011.01.19_12.jpg
-          url: http://www.siedler25.org/gallery/2011/2011.01.19_12.jpg
-        - image: http://www.siedler25.org/thumbnail.php?file=/gallery/2011/2011.01.19_8.jpg
-          url: http://www.siedler25.org/gallery/2011/2011.01.19_8.jpg
-        - image: http://www.siedler25.org/thumbnail.php?file=/gallery/2011/2011.01.19_3.jpg
-          url: http://www.siedler25.org/gallery/2011/2011.01.19_3.jpg
-        - image: http://www.siedler25.org/thumbnail.php?file=/gallery/2011/2011.01.19_10.jpg
-          url: http://www.siedler25.org/gallery/2011/2011.01.19_10.jpg
+        - image: http://www.siedler25.org/gallery/2011/2011.01.19_12.jpg
+        - image: http://www.siedler25.org/gallery/2011/2011.01.19_8.jpg
+        - image: http://www.siedler25.org/gallery/2011/2011.01.19_3.jpg
+        - image: http://www.siedler25.org/gallery/2011/2011.01.19_10.jpg
 
 - name: The Settlers III
   remakes:
@@ -5575,7 +5243,7 @@
       license: WTFPL
       updated: 2016-08-19
       media:
-        - url: https://a.fsdn.com/con/app/proj/spypunk-tetris/screenshots/s.png
+        - image: https://raw.githubusercontent.com/spypunk/tetris/master/img/screenshot_start.png
 
 - name: Tetris Attack
   remakes:
@@ -5717,8 +5385,7 @@
       repo: https://github.com/stople/OpenTitus
       updated: 2014-02-04
       media:
-        - url: http://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png
-          image: http://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png
+        - image: http://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png
 
 - name: Total Annihilation
   remakes:
@@ -5731,28 +5398,19 @@
         - Python
       repo: https://github.com/spring/spring/
       media:
-        - url: http://springrts.com/screenshot.php?id=5673
-          image: http://springrts.com/thumbs/1561_2fc956f1512292af0833366a38dfb1fb_thumb_142_80.jpg
-        - url: http://springrts.com/screenshot.php?id=1787
-          image: http://springrts.com/thumbs/210_cf267d02720cd386c6809e7b7a7a1958_thumb_142_80.jpg
-        - url: http://springrts.com/screenshot.php?id=2567
-          image: http://springrts.com/thumbs/7027_5e2c529fbb3c88c9b8728f485e6c0627_thumb_142_80.jpg
-        - url: http://springrts.com/screenshot.php?id=3432
-          image: http://springrts.com/thumbs/6059_d61ae9f79d970adc9a45ae9e97a487c5_thumb_142_80.jpg
+        - image: http://springrts.com/screenshot.php?id=5673
+        - image: http://springrts.com/screenshot.php?id=1787
+        - image: http://springrts.com/screenshot.php?id=2567
     - url: http://www.ta3d.org/
       name: Total Annihilation 3D
       development: sporadic
       lang: C++
       repo: http://trac.ta3d.org/timeline
       media:
-        - url: http://www.ta3d.org/snapshots/shoot117.jpg
-          image: http://www.ta3d.org/snapshots/shoot117-mini.jpg
-        - url: http://www.ta3d.org/snapshots/shoot118.jpg
-          image: http://www.ta3d.org/snapshots/shoot118-mini.jpg
-        - url: http://www.ta3d.org/snapshots/shoot122.jpg
-          image: http://www.ta3d.org/snapshots/shoot122-mini.jpg
-        - url: http://www.ta3d.org/snapshots/shoot127.jpg
-          image: http://www.ta3d.org/snapshots/shoot127-mini.jpg
+        - image: http://www.ta3d.org/snapshots/shoot117.jpg
+        - image: http://www.ta3d.org/snapshots/shoot118.jpg
+        - image: http://www.ta3d.org/snapshots/shoot122.jpg
+        - image: http://www.ta3d.org/snapshots/shoot127.jpg
 
 - name: Tomb Raider
   remakes:
@@ -5762,12 +5420,9 @@
       lang: C++
       updated: 2014-04-28
       media:
-        - url: http://picload.org/image/llawpip/openraider_sdl2.png
-          image: http://picload.org/thumbnail/llawpip/openraider_sdl2.png
-        - url: http://picload.org/image/llawpic/openraider_old2.png
-          image: http://picload.org/thumbnail/llawpic/openraider_old2.png
-        - url: http://picload.org/image/llawpia/openraider_old.png
-          image: http://picload.org/thumbnail/llawpia/openraider_old.png
+        - image: http://picload.org/image/llawpip/openraider_sdl2.png
+        - image: http://picload.org/image/llawpic/openraider_old2.png
+        - image: http://picload.org/image/llawpia/openraider_old.png
     - name: OpenTomb
       url: https://opentomb.github.io/
       repo: https://github.com/opentomb/OpenTomb
@@ -5789,12 +5444,9 @@
       lang: Python
       updated: 2015-07-11 # updated, added on 2013-05-27
       media:
-        - image: http://pytouhou.linkmauve.fr/screenshots/s1-01.jpeg
-          url: http://pytouhou.linkmauve.fr/screenshots/big/s1-01.png
-        - image: http://pytouhou.linkmauve.fr/screenshots/s6-06.jpeg
-          url: http://pytouhou.linkmauve.fr/screenshots/big/s6-06.png
-        - image: http://pytouhou.linkmauve.fr/screenshots/s7-06.jpeg
-          url: http://pytouhou.linkmauve.fr/screenshots/big/s7-06.png
+        - image: http://pytouhou.linkmauve.fr/screenshots/big/s1-01.png
+        - image: http://pytouhou.linkmauve.fr/screenshots/big/s6-06.png
+        - image: http://pytouhou.linkmauve.fr/screenshots/big/s7-06.png
     - url: http://taisei-project.org/
       name: Taisai Project
       repo: https://github.com/laochailan/taisei
@@ -5864,15 +5516,10 @@
       lang: C++
       media:
         - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.2.jpg
-          url: http://retrospec.sgn.net/config/screenshots/tranzam.t.2.jpg
         - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.4.jpg
-          url: http://retrospec.sgn.net/config/screenshots/tranzam.t.4.jpg
         - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.5.jpg
-          url: http://retrospec.sgn.net/config/screenshots/tranzam.t.5.jpg
         - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.3.jpg
-          url: http://retrospec.sgn.net/config/screenshots/tranzam.t.3.jpg
         - image: http://retrospec.sgn.net/config/screenshots/tranzam.f.1.jpg
-          url: http://retrospec.sgn.net/config/screenshots/tranzam.t.1.jpg
 
 - name: [Tron, Tron (video game)]
   remakes:
@@ -5969,8 +5616,7 @@
       development: halted
       repo: http://iris.schattenkind.net/svn/trunk/
       media:
-        - image: http://www.iris2.de/images/thumb/4/48/20080106175329_188.png/256px-20080106175329_188.png
-          url: http://www.iris2.de/images/4/48/20080106175329_188.png
+        - image: http://www.iris2.de/images/4/48/20080106175329_188.png
 
 - name: "Ultima II: The Revenge of the Enchantress"
   remakes:
@@ -6015,14 +5661,10 @@
       development: sporadic
       lang: C++
       media:
-        - image: http://exult.sourceforge.net/images/screenshots/thumbs/stage.png
-          url: http://exult.sourceforge.net/images/screenshots/stage.png
-        - image: http://exult.sourceforge.net/images/screenshots/thumbs/bgpaper.png
-          url: http://exult.sourceforge.net/images/screenshots/bgpaper.png
-        - image: http://exult.sourceforge.net/images/screenshots/thumbs/blackgate.png
-          url: http://exult.sourceforge.net/images/screenshots/blackgate.png
-        - image: http://exult.sourceforge.net/images/screenshots/thumbs/teleportmap.png
-          url: http://exult.sourceforge.net/images/screenshots/teleportmap.png
+        - image: http://exult.sourceforge.net/images/screenshots/stage.png
+        - image: http://exult.sourceforge.net/images/screenshots/bgpaper.png
+        - image: http://exult.sourceforge.net/images/screenshots/blackgate.png
+        - image: http://exult.sourceforge.net/images/screenshots/teleportmap.png
 
 - name: Ultima VIII
   remakes:
@@ -6032,14 +5674,10 @@
       development: sporadic
       lang: C++
       media:
-        - image: http://pentagram.sourceforge.net/images/screenshots/thumbs/pagan.png
-          url: http://pentagram.sourceforge.net/images/screenshots/pagan.png
-        - image: http://pentagram.sourceforge.net/images/screenshots/thumbs/noremorse.png
-          url: http://pentagram.sourceforge.net/images/screenshots/noremorse.png
-        - image: http://pentagram.sourceforge.net/images/screenshots/thumbs/noregret.png
-          url: http://pentagram.sourceforge.net/images/screenshots/noregret.png
-        - image: http://pentagram.sourceforge.net/images/screenshots/thumbs/japanese.png
-          url: http://pentagram.sourceforge.net/images/screenshots/japanese.png
+        - image: http://pentagram.sourceforge.net/images/screenshots/pagan.png
+        - image: http://pentagram.sourceforge.net/images/screenshots/noremorse.png
+        - image: http://pentagram.sourceforge.net/images/screenshots/noregret.png
+        - image: http://pentagram.sourceforge.net/images/screenshots/japanese.png
 
 - name: Uncharted Waters
   remakes:
@@ -6156,14 +5794,10 @@
       lang: C++
       repo: http://developer.wz2100.net/timeline
       media:
-        - image: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/elite-force-thumb.png
-          url: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/elite-force.jpg
-        - image: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/artillery-and-sensors-thumb.jpeg
-          url: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/artillery-and-sensors.jpeg
-        - image: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/new-hq-and-powergen-thumb.jpeg
-          url: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/new-hq-and-powergen.jpeg
-        - image: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands-thumb.jpg
-          url: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
+        - image: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/elite-force.jpg
+        - image: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/artillery-and-sensors.jpeg
+        - image: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/new-hq-and-powergen.jpeg
+        - image: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
 
 - name: Where in the World Is Carmen Sandiego? (1985)
   remakes:
@@ -6190,14 +5824,10 @@
       lang: C++
       repo: http://privateer.svn.sourceforge.net/viewvc/privateer/
       media:
-        - image: http://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad-preview.png
-          url: http://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad.png
-        - image: http://privateer.sourceforge.net/images/screenshot-1-approaching-planet-preview.png
-          url: http://privateer.sourceforge.net/images/screenshot-1-approaching-planet.png
-        - image: http://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room-preview.png
-          url: http://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png
-        - image: http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion-preview.png
-          url: http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
+        - image: http://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad.png
+        - image: http://privateer.sourceforge.net/images/screenshot-1-approaching-planet.png
+        - image: http://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png
+        - image: http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
 
 - name: Wizard of Wor
   remakes:
@@ -6219,11 +5849,8 @@
       license: GPL3
       media:
         - image: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect.png
-          url: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect_thumb.png
         - image: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
-          url: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat_sm.png
         - image: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
-          url: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat_sm.png
   clones:
     - name: jClassicRPG
       url: http://jcrpg.blogspot.com.au/
@@ -6244,7 +5871,6 @@
       updated: 2015-04-03
       media:
         - image: http://maniacsvault.net/ecwolf/ecwolf_fullres.png
-          url: http://maniacsvault.net/ecwolf/ecwolf_fullres.png
   clones:
     - name: Voxelstein 3D
       updated: 2015-04-16
@@ -6254,12 +5880,9 @@
       lang: C++
       license: MIT
       media:
-        - url: http://voxelstein3d.sourceforge.net/screen1_small.png
-          image: http://voxelstein3d.sourceforge.net/screen1.png
-        - url: http://voxelstein3d.sourceforge.net/screen3_small.png
-          image: http://voxelstein3d.sourceforge.net/screen3.png
-        - url: http://voxelstein3d.sourceforge.net/screen5_small.png
-          image: http://voxelstein3d.sourceforge.net/screen5.png
+        - image: http://voxelstein3d.sourceforge.net/screen1.png
+        - image: http://voxelstein3d.sourceforge.net/screen3.png
+        - image: http://voxelstein3d.sourceforge.net/screen5.png
 
 - name: "Wolfenstein: Enemy Territory"
   remakes:
@@ -6274,14 +5897,10 @@
       repo: https://github.com/etlegacy/etlegacy
       updated: 2013-05-28
       media:
-        - image: http://www.splashdamage.com/screens_wet/001_s.jpg
-          url: http://www.splashdamage.com/screens_wet/001.jpg
-        - image: http://www.splashdamage.com/screens_wet/002_s.jpg
-          url: http://www.splashdamage.com/screens_wet/002.jpg
-        - image: http://www.splashdamage.com/screens_wet/003_s.jpg
-          url: http://www.splashdamage.com/screens_wet/003.jpg
-        - image: http://www.splashdamage.com/screens_wet/004_s.jpg
-          url: http://www.splashdamage.com/screens_wet/004.jpg
+        - image: http://www.splashdamage.com/screens_wet/001.jpg
+        - image: http://www.splashdamage.com/screens_wet/002.jpg
+        - image: http://www.splashdamage.com/screens_wet/003.jpg
+        - image: http://www.splashdamage.com/screens_wet/004.jpg
 
 - name: World of Goo
   remakes:
@@ -6396,8 +6015,7 @@
       lang: C
       license: GPL2
       media:
-        - url: http://phavon.sourceforge.net/snap001_sm.jpg
-          image: http://phavon.sourceforge.net/snap001.jpg
+        - image: http://phavon.sourceforge.net/snap001.jpg
 
 - name: XPilot
   remakes:
@@ -6438,10 +6056,8 @@
       license: GPL2
       repo: http://ajax3d.cvs.sourceforge.net/viewvc/ajax3d/
       media:
-        - url: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113223.jpg/182/137
-          image: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113223.jpg
-        - url: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113221.jpg/182/137
-          image: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113221.jpg
+        - image: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113223.jpg
+        - image: http://a.fsdn.com/con/app/proj/ajax3d/screenshots/113221.jpg
     - name: Z Virus
       updated: 2015-10-09
       url: http://www.blitzbasic.com/Community/posts.php?topic=38995
@@ -6496,8 +6112,7 @@
       lang: C++
       license: GPL2
       media:
-        - url: http://kzap.sourceforge.net/kzap-small.png
-          image: http://kzap.sourceforge.net/kzap.png
+        - image: http://kzap.sourceforge.net/kzap.png
     - name: Zoop
       updated: 2015-05-09
       url: http://gamesoft.ca/remakes.html
@@ -6533,12 +6148,9 @@
       lang: C++
       license: GPL3
       media:
-        - url: https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg
-        - url: https://a.fsdn.com/con/app/proj/zaz/screenshots/229087.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/zaz/screenshots/229087.jpg
-        - url: https://a.fsdn.com/con/app/proj/zaz/screenshots/271617.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/zaz/screenshots/271617.jpg
+        - image: https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg
+        - image: https://a.fsdn.com/con/app/proj/zaz/screenshots/229087.jpg
+        - image: https://a.fsdn.com/con/app/proj/zaz/screenshots/271617.jpg
 
 - name: A-Train
   clones:
@@ -6549,8 +6161,7 @@
       lang: C#
       updated: 2015-04-02
       media:
-        - image: http://freetrain.sourceforge.net/forum/download/file.php?id=1&sid=37becf1a18f1ec69f1ee191e92e88092
-          url: http://freetrain.sourceforge.net/forum/viewtopic.php?f=2&t=13
+        - image: http://freetrain.sourceforge.net/forum/download/file.php?id=1&sid=36293a0660c06ec093a27abe384ffc78
 
 - name: Age of Empires
   clones:
@@ -6574,10 +6185,8 @@
       development: active
       lang: Python
       media:
-        - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/thumb_2011.2-7.png
-          url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png
-        - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/thumb_2011.2-6.png
-          url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
+        - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png
+        - image: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
 
 - name: Arkanoid
   clones:
@@ -6588,14 +6197,10 @@
       development: active
       lang: Python
       media:
-        - url: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg
-        - url: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360b.png/182/137
-          image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360b.png
-        - url: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png/182/137
-          image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png
-        - url: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png/182/137
-          image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png
+        - image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg
+        - image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360b.png
+        - image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png
+        - image: https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png
     - name: Ball And Wall
       repo: https://github.com/budnix/ball-and-wall
       updated: 2015-05-03
@@ -6622,10 +6227,8 @@
       lang: C++
       updated: 2013-05-29
       media:
-        - image: http://crimson.seul.org/screenshots/thumb17.png
-          url: http://crimson.seul.org/screenshots/screen17.png
-        - image: http://crimson.seul.org/screenshots/thumb18.png
-          url: http://crimson.seul.org/screenshots/screen18.png
+        - image: http://crimson.seul.org/screenshots/screen17.png
+        - image: http://crimson.seul.org/screenshots/screen18.png
     - name: Advanced Strategic Command
       url: http://www.asc-hq.org/
       status: playable
@@ -6669,12 +6272,9 @@
       repo: http://briquolo.free.fr/download/briquolo-0.5.7.tar.bz2
       url: http://briquolo.free.fr/en/index.html
       media:
-        - url: http://briquolo.free.fr/images/thumbnail-Briquolo-0.5-briquolo01.jpg
-          image: http://briquolo.free.fr/images/Briquolo-0.5-briquolo01.jpg
-        - url: http://briquolo.free.fr/images/thumbnail-Briquolo-0.5-briquolo04.jpg
-          image: http://briquolo.free.fr/images/Briquolo-0.5-briquolo04.jpg
-        - url: http://briquolo.free.fr/images/thumbnail-Briquolo-0.3-briquolo10.jpg
-          image: http://briquolo.free.fr/images/Briquolo-0.3-briquolo10.jpg
+        - image: http://briquolo.free.fr/images/Briquolo-0.5-briquolo01.jpg
+        - image: http://briquolo.free.fr/images/Briquolo-0.5-briquolo04.jpg
+        - image: http://briquolo.free.fr/images/Briquolo-0.3-briquolo10.jpg
 
 - name: [Civilization, Civilization (video game)]
   remakes:
@@ -6700,10 +6300,8 @@
       lang: C
       repo: http://svn.gna.org/viewcvs/freeciv/
       media:
-        - url: http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
-          image: http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/thumb/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png/185px-Freeciv-2.1.0-beta3-sdl_slack11.0.png
-        - url: http://images4.wikia.nocookie.net/__cb20061222015333/freeciv/images/9/94/Big_window.png
-          image: http://images1.wikia.nocookie.net/__cb20061222015333/freeciv/images/thumb/9/94/Big_window.png/185px-Big_window.png
+        - image: http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
+        - image: http://images4.wikia.nocookie.net/__cb20061222015333/freeciv/images/9/94/Big_window.png
     - url: http://play.freeciv.org/
       name: Play Freeciv!
       development: active
@@ -6720,14 +6318,10 @@
       repo: http://www.c-evo.org/files/download.php?cevosrc.cevosrc.zip
       updated: 2013-09-19
       media:
-        - image: http://www.c-evo.org/_thumb1.jpg
-          url: http://www.c-evo.org/shot1.jpg
-        - image: http://www.c-evo.org/_thumb2.jpg
-          url: http://www.c-evo.org/shot2.jpg
-        - image: http://www.c-evo.org/_thumb3.jpg
-          url: http://www.c-evo.org/shot3.jpg
-        - image: http://www.c-evo.org/_thumb4.jpg
-          url: http://www.c-evo.org/shot4.jpg
+        - image: http://www.c-evo.org/shot1.jpg
+        - image: http://www.c-evo.org/shot2.jpg
+        - image: http://www.c-evo.org/shot3.jpg
+        - image: http://www.c-evo.org/shot4.jpg
 
 - name: [DEFCON, DEFCON_(video_game)]
   clones:
@@ -6748,15 +6342,10 @@
       repo: https://github.com/OpenDungeons/OpenDungeons
       media:
         - image: https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_attacking.jpg
-          url: https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_attacking.jpg
         - image: https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_dungeon_and_skullflags.jpg
-          url: https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_dungeon_and_skullflags.jpg
         - image: https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_mainnewsimg.png
-          url: https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_mainnewsimg.png
         - image: https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_research%20tree.jpg
-          url: https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_research%20tree.jpg
         - image: https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_rooms.jpg
-          url: https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_rooms.jpg
 
 - name: Guitar Hero
   names:
@@ -6849,14 +6438,10 @@
       lang: C
       repo: https://github.com/bobbens/naev
       media:
-        - image: http://blog.naev.org/wp-content/gallery/media/thumbs/thumbs_bigplanet.png
-          url: http://blog.naev.org/wp-content/gallery/media/bigplanet.png
-        - image: http://blog.naev.org/wp-content/gallery/media/thumbs/thumbs_jumppoint.png
-          url: http://blog.naev.org/wp-content/gallery/media/jumppoint.png
-        - image: http://blog.naev.org/wp-content/gallery/media/thumbs/thumbs_slotsizes.png
-          url: http://blog.naev.org/wp-content/gallery/media/slotsizes.png
-        - image: http://blog.naev.org/wp-content/gallery/media/thumbs/thumbs_siriusskirmish.png
-          url: http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png
+        - image: http://blog.naev.org/wp-content/gallery/media/bigplanet.png
+        - image: http://blog.naev.org/wp-content/gallery/media/jumppoint.png
+        - image: http://blog.naev.org/wp-content/gallery/media/slotsizes.png
+        - image: http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png
     - url: https://endless-sky.github.io/
       repo: https://github.com/endless-sky
       updated: 2015-05-02
@@ -6911,14 +6496,10 @@
       license: GPL2
       updated: 2016-06-18
       media:
-        - url: http://herzog3d.sourceforge.net/images/hz_1.jpeg
-          image: http://herzog3d.sourceforge.net/images/hz_1.jpeg
-        - url: http://herzog3d.sourceforge.net/images/hz_2.jpeg
-          image: http://herzog3d.sourceforge.net/images/hz_2.jpeg
-        - url: http://herzog3d.sourceforge.net/images/hz_3.jpeg
-          image: http://herzog3d.sourceforge.net/images/hz_3.jpeg
-        - url: http://herzog3d.sourceforge.net/images/hz_4.jpeg
-          image: http://herzog3d.sourceforge.net/images/hz_4.jpeg
+        - image: http://herzog3d.sourceforge.net/images/hz_1.jpeg
+        - image: http://herzog3d.sourceforge.net/images/hz_2.jpeg
+        - image: http://herzog3d.sourceforge.net/images/hz_3.jpeg
+        - image: http://herzog3d.sourceforge.net/images/hz_4.jpeg
 
 - name: [Lemmings, Lemmings (video game)]
   clones:
@@ -6928,10 +6509,8 @@
       development: active
       lang: C++
       media:
-        - url: http://pingus.seul.org/images/screen_0.7.0-3.jpg
-          image: http://pingus.seul.org/images/screen_0.7.0-3_small.jpg
-        - url: http://pingus.seul.org/images/screen_0.7.0-4.jpg
-          image: http://pingus.seul.org/images/screen_0.7.0-4_small.jpg
+        - image: http://pingus.seul.org/images/screen_0.7.0-3.jpg
+        - image: http://pingus.seul.org/images/screen_0.7.0-4.jpg
     - name: Lix
       url: http://asdfasdf.ethz.ch/~simon/index.php
       repo: https://github.com/SimonN/Lix
@@ -6958,14 +6537,10 @@
       lang: Ruby
       license: GPL2
       media:
-        - url: http://a.fsdn.com/con/app/proj/freevikings/screenshots/186371.jpg/182/137
-          image: http://a.fsdn.com/con/app/proj/freevikings/screenshots/186371.jpg
-        - url: http://a.fsdn.com/con/app/proj/freevikings/screenshots/186373.jpg/182/137
-          image: http://a.fsdn.com/con/app/proj/freevikings/screenshots/186373.jpg
-        - url: http://a.fsdn.com/con/app/proj/freevikings/screenshots/199282.jpg/182/137
-          image: http://a.fsdn.com/con/app/proj/freevikings/screenshots/199282.jpg
-        - url: http://a.fsdn.com/con/app/proj/freevikings/screenshots/186375.jpg/182/137
-          image: http://a.fsdn.com/con/app/proj/freevikings/screenshots/186375.jpg
+        - image: http://a.fsdn.com/con/app/proj/freevikings/screenshots/186371.jpg
+        - image: http://a.fsdn.com/con/app/proj/freevikings/screenshots/186373.jpg
+        - image: http://a.fsdn.com/con/app/proj/freevikings/screenshots/199282.jpg
+        - image: http://a.fsdn.com/con/app/proj/freevikings/screenshots/186375.jpg
 
 - name: [Lotus Esprit Turbo Challenge, Lotus (series)]
   clones:
@@ -6992,6 +6567,8 @@
         - youtube: ev8Zltau4zw
 
 - name: [Master of Orion Series, Master of Orion]
+  names:
+    - Master of Orion 2
   clones:
     - url: http://www.freeorion.org/
       name: FreeOrion
@@ -7003,12 +6580,19 @@
       repo: https://github.com/freeorion/freeorion
       info: Content lisense CC-BY-SA 3.0
       media:
-        - url: http://www.freeorion.org/images/8/82/Galaxy_Map_AIs_SVN3100.png
-          image: http://www.freeorion.org/images/thumb/8/82/Galaxy_Map_AIs_SVN3100.png/256px-Galaxy_Map_AIs_SVN3100.png
-        - url: http://www.freeorion.org/images/1/14/Design_Screen_SVN3097.png
-          image: http://www.freeorion.org/images/thumb/1/14/Design_Screen_SVN3097.png/256px-Design_Screen_SVN3097.png
-        - url: http://www.freeorion.org/images/a/ab/FreeOrion3215_Galaxy_Map.png
-          image: http://www.freeorion.org/images/thumb/a/ab/FreeOrion3215_Galaxy_Map.png/256px-FreeOrion3215_Galaxy_Map.png
+        - image: http://www.freeorion.org/images/8/82/Galaxy_Map_AIs_SVN3100.png
+        - image: http://www.freeorion.org/images/1/14/Design_Screen_SVN3097.png
+        - image: http://www.freeorion.org/images/a/ab/FreeOrion3215_Galaxy_Map.png
+  remakes:
+    - url: http://openmoo2.org/en/
+      name: OpenMOO2
+      development: sporadic
+      lang: Python
+      repo: http://repository.openmoo2.org/cgi-bin/hgwebdir.cgi/PUBLIC/
+      media:
+        - image: http://openmoo2.org/static/20/main-screen-moo2-screenshot.png
+        - image: http://openmoo2.org/static/20/colonies-moo2-screenshot.png
+        - image: http://openmoo2.org/static/20/colony-moo2-screenshot.png
 
 - name: [Micro Machines, Micro Machines (video game series)]
   remakes:
@@ -7020,12 +6604,9 @@
       license: GPL2
       repo: http://microracers.cvs.sourceforge.net/viewvc/microracers/
       media:
-        - url: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-1-small.jpg
-          image: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-1.jpg
-        - url: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-2-small.jpg
-          image: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-2.jpg
-        - url: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-3-small.jpg
-          image: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-3.jpg
+        - image: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-1.jpg
+        - image: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-2.jpg
+        - image: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-3.jpg
 
 - name: Microsoft Flight Simulator
   clones:
@@ -7036,14 +6617,10 @@
       updated: 2012-04-05
       repo: http://gitorious.org/fg/flightgear
       media:
-        - image: http://www.flightgear.org/wp-content/gallery/cache/268__530x331_fgfs-screen-029.jpg
-          url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-029.jpg
-        - image: http://www.flightgear.org/wp-content/gallery/cache/277__530x331_fgfs-screen-194.jpg
-          url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-194.jpg
-        - image: http://www.flightgear.org/wp-content/gallery/cache/274__530x331_fgfs-screen-166.jpg
-          url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-166.jpg
-        - image: http://www.flightgear.org/wp-content/gallery/cache/265__530x331_fgfs-screen-019.jpg
-          url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
+        - image: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-029.jpg
+        - image: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-194.jpg
+        - image: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-166.jpg
+        - image: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
 
 - name: Microsoft Train Simulator
   clones:
@@ -7107,10 +6684,10 @@
       updated: 2015-04-11
       repo: http://slashem.cvs.sourceforge.net/viewvc/slashem/
       media:
-        - url: http://www.slashem.org/3ddrag.png
-        - url: http://www.slashem.org/32tour.png
-        - url: http://www.slashem.org/fireball.png
-        - url: http://www.slashem.org/trad-tty.png
+        - image: http://www.slashem.org/3ddrag.png
+        - image: http://www.slashem.org/32tour.png
+        - image: http://www.slashem.org/fireball.png
+        - image: http://www.slashem.org/trad-tty.png
 
 - name: Nexuiz
   clones:
@@ -7138,8 +6715,7 @@
       lang: Lua
       license: GPL3
       media:
-        - image: http://i.imgur.com/Ca89wEy.png
-          url: http://i.imgur.com/qWgWeXA.png
+        - image: http://i.imgur.com/qWgWeXA.png
     - name: Omega Race Remake
       repo: https://github.com/UnforgivenRob/Omega-Race-Remake
       updated: 2015-05-29
@@ -7258,14 +6834,10 @@
         - Python
       repo: https://launchpad.net/widelands
       media:
-        - url: http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Completed%20barbarian%20workers.jpg
-          image: http://wl.widelands.org/wlmedia/wlscreens/thumbs/Current%20Developments/Completed%20barbarian%20workers.png
-        - url: http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Atlantean%20worker%20animation.jpg
-          image: http://wl.widelands.org/wlmedia/wlscreens/thumbs/Current%20Developments/Atlantean%20worker%20animation.png
-        - url: http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/New%20Multiplayer%20UI.jpg
-          image: http://wl.widelands.org/wlmedia/wlscreens/thumbs/Current%20Developments/New%20Multiplayer%20UI.png
-        - url: http://wl.widelands.org/wlmedia/wlscreens/screens/Build%2016/Graphic%20improvements.png
-          image: http://wl.widelands.org/wlmedia/wlscreens/thumbs/Build%2016/Graphic%20improvements.png
+        - image: http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Completed%20barbarian%20workers.jpg
+        - image: http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Atlantean%20worker%20animation.jpg
+        - image: http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/New%20Multiplayer%20UI.jpg
+        - image: http://wl.widelands.org/wlmedia/wlscreens/screens/Build%2016/Graphic%20improvements.png
 
 - name: [Snake, Snake (video game)]
   clones:
@@ -7277,10 +6849,8 @@
       lang: C++
       license: GPL2
       media:
-        - url: https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218294.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218294.jpg
-        - url: https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218296.jpg/182/137
-          image: https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218296.jpg
+        - image: https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218294.jpg
+        - image: https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218296.jpg
 
 - name: [Thief, Thief (series)]
   meta:
@@ -7329,19 +6899,14 @@
         - image: http://opensnc.sourceforge.net/home/screenshots/0_1_3/9.png
     - name: Sonic Robo Blast 2
       development: active
-      lang:
-        - C
-        - Lua
+      lang: [C, Lua]
       url: https://www.srb2.org/
       repo: https://github.com/STJr/SRB2
       updated: 2014-04-16
       media:
-        - image: http://picload.org/thumbnail/lopgipr/srb21.png
-          url: https://www.srb2.org/media/
-        - image: http://picload.org/thumbnail/lopgipa/srb22.png
-          url: https://www.srb2.org/media/
-        - image: http://picload.org/thumbnail/lopgipl/srb23.png
-          url: https://www.srb2.org/media/
+        - image: https://www.srb2.org/wp-content/uploads/21-gfz1.png
+        - image: https://www.srb2.org/wp-content/uploads/21-thz2.png
+        - image: https://www.srb2.org/wp-content/uploads/21-acz1.png
 
 - name: Super Hexagon
   clones:
@@ -7397,7 +6962,6 @@
       license: MIT
       media:
         - image: https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
-          url: https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
 
 - name: Tribal Hero
   clones:
@@ -7513,14 +7077,10 @@
         - Haskell
       repo: http://code.google.com/p/hedgewars/
       media:
-        - url: http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu.png
-          image: http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu_s.png
-        - url: http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-christmas.png
-          image: http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-christmas_s.png
-        - url: http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-nature.png
-          image: http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-nature_s.png
-        - url: http://hedgewars.org/images/screenshots/hedgewars-0.9.6-001.png
-          image: http://hedgewars.org/images/screenshots/hedgewars-0.9.6-001_s.png
+        - image: http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu_s.png
+        - image: http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-christmas_s.png
+        - image: http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-nature_s.png
+        - image: http://hedgewars.org/images/screenshots/hedgewars-0.9.6-001_s.png
     - url: http://gna.org/projects/warmux/
       name: WarMUX
       development: sporadic
