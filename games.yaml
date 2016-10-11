@@ -1431,7 +1431,7 @@
       lang: C
       updated: 2014-01-12
 
-  name: [Desperados: Wanted Dead or Alive]
+- name: "Desperados: Wanted Dead or Alive"
   clones:
     - name: OpenDeathValley
       repo: https://github.com/OpenDeathValley/OpenDeathValley
@@ -1440,22 +1440,52 @@
       license: GPL3
       updated: 2016-06-15
 
-  name: [Diablo, Diablo (video game)]
+- name: [Diablo, Diablo (series)]
+  meta:
+    genre: [Action, Role-Playing]
+    theme: [Horror, Fantasy, Medieval]
   clones:
     - name: freeablo
       url: http://freeablo.org/
       repo: https://github.com/wheybags/freeablo
       development: active
+      status: playable
       info: needs game data
-      lang: C++
+      lang: [C++, Python]
+      license: GPL3
       updated: 2014-04-22
+      media:
+        - image: https://freeablo.org/wp-content/uploads/2014/11/Screenshot-from-2014-11-13-191438.jpg
+        - image: https://freeablo.org/wp-content/uploads/2014/11/Screenshot-from-2014-11-13-151043.jpg
     - name: DGEngine
       repo: https://github.com/dgengin/DGEngine
       updated: 2016-06-20
-      license: GPL3
-      lang: C++
+      lang: [C++]
       url: https://github.com/dgengin/DGEngine/wiki
       development: active
+      license: Zlib
+      media:
+        - image: https://cloud.githubusercontent.com/assets/20025614/16467025/4bd77ef0-3e3d-11e6-872a-38ca8eb2c9f8.gif
+  reimplementations:
+    - name: Summoning Wars
+      repo: https://bitbucket.org/sumwars/sumwars-code
+      url: http://www.sumwars.org/
+      development: active
+      lang: [C++, Lua]
+      license: GPL3
+      media:
+        - image: http://sumwars.org/mediawiki/images/0/08/Sumwars_0.5.5_mainmenu.jpg
+        - image: http://sumwars.org/mediawiki/images/9/95/Sumwars_0.5.5_-Trading_a_bit.jpg
+        - image: http://sumwars.org/mediawiki/images/5/5c/What_a_cute_skeleton_this_is%21.jpg
+    - name: Flare
+      repo: https://github.com/clintbellanger/flare
+      url: http://clintbellanger.net/rpg/
+      development: active
+      lang: [C++]
+      license: GPL3
+      media:
+        - image: http://clintbellanger.net/rpg/images/screenshots/0020.jpg
+        - image: http://clintbellanger.net/rpg/images/screenshots/0022.jpg
 
 - name: Digimon World
   clones:
@@ -6654,35 +6684,6 @@
           url: http://www.c-evo.org/shot3.jpg
         - image: http://www.c-evo.org/_thumb4.jpg
           url: http://www.c-evo.org/shot4.jpg
-
-- name: [Diablo, Diablo (series)]
-  reimplementations:
-    - url: http://www.sumwars.org/
-      name: Summoning Wars
-      development: active
-      lang:
-        - C++
-        - Lua
-      repo: https://bitbucket.org/sumwars/sumwars-code
-      media:
-        - image: http://sumwars.org/mediawiki/images/thumb/0/08/Sumwars_0.5.5_mainmenu.jpg/200px-Sumwars_0.5.5_mainmenu.jpg
-          url: http://sumwars.org/mediawiki/images/0/08/Sumwars_0.5.5_mainmenu.jpg
-        - image: http://sumwars.org/mediawiki/images/thumb/9/95/Sumwars_0.5.5_-Trading_a_bit.jpg/200px-Sumwars_0.5.5_-Trading_a_bit.jpg
-          url: http://sumwars.org/mediawiki/images/9/95/Sumwars_0.5.5_-Trading_a_bit.jpg
-        - image: http://sumwars.org/mediawiki/images/thumb/5/5c/What_a_cute_skeleton_this_is%21.jpg/200px-What_a_cute_skeleton_this_is%21.jpg
-          url: http://sumwars.org/mediawiki/images/5/5c/What_a_cute_skeleton_this_is%21.jpg
-        - image: http://sumwars.org/mediawiki/images/thumb/2/2c/The_blizzard_-_highly_effective_when_used_correct.jpg/200px-The_blizzard_-_highly_effective_when_used_correct.jpg
-          url: http://sumwars.org/mediawiki/images/2/2c/The_blizzard_-_highly_effective_when_used_correct.jpg
-    - url: http://clintbellanger.net/rpg/
-      name: Flare
-      development: active
-      lang: C++
-      repo: https://github.com/clintbellanger/flare
-      media:
-        - image: http://clintbellanger.net/rpg/images/screenshots/t0020.jpg
-          url: http://clintbellanger.net/rpg/images/screenshots/0020.jpg
-        - image: http://clintbellanger.net/rpg/images/screenshots/t0022.jpg
-          url: http://clintbellanger.net/rpg/images/screenshots/0022.jpg
 
 - name: [DEFCON, DEFCON_(video_game)]
   reimplementations:
