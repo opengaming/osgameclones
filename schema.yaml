@@ -38,24 +38,24 @@ schema;game:
   mapping:
     name:
       type: str
-    url:
-      type: str
     repo:
       type: str
-    info:
+    url:
       type: str
-    status:
-      type: str
-      enum: ['playable', 'semi-playable', 'unplayable']
     development:
       type: str
       enum: ['complete', 'very active', 'active', 'sporadic', 'halted']
-    license:
-      include: licenses
+    status:
+      type: str
+      enum: ['playable', 'semi-playable', 'unplayable']
     lang:
       type: any
     framework:
       type: any
+    license:
+      include: licenses
+    info:
+      type: str
     updated:
       type: any
     media:
