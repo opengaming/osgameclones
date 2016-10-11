@@ -28,8 +28,8 @@ If you're adding a new game group:
     genre: []
     subgenre: []
     theme: []
-  clones:
+  remakes:
     -
-  reimplementations:
+  clones:
     -
 ```

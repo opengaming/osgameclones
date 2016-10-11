@@ -1,7 +1,7 @@
 - name: SCUMM
   meta:
     genre: [Compilation]
-  clones:
+  remakes:
     - name: ScummVM
       url: http://scummvm.org/
       repo: https://github.com/scummvm/scummvm
@@ -14,7 +14,7 @@
 - name: 3D Deathchase
   meta:
     genre: [Driving/Racing]
-  clones:
+  remakes:
     - name: Deathchase 3D
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
       updated: 2015-04-13
@@ -26,7 +26,7 @@
   meta:
     genre: [Action, Shooter]
     theme: [Horror, Sci-Fi]
-  clones:
+  remakes:
     - name: Abuse
       url: http://abuse.zoy.org/
       repo: http://abuse.zoy.org/browser/abuse/trunk
@@ -45,7 +45,7 @@
   meta:
     genre: [First-Person Shooter]
     theme: [World War II]
-  clones:
+  remakes:
     - name: Iceball
       updated: 2015-07-22
       url: http://iceball.build/
@@ -75,7 +75,7 @@
     genre: [Action]
     subgenre: [Flight Simulator]
     theme: [Modern Military]
-  clones:
+  remakes:
     - name: open-horizon
       updated: 2016-02-09
       url: http://zxstudio.org/blog/author/razgriz/
@@ -92,7 +92,7 @@
 - name: "Achtung, die Kurve!"
   meta:
     genre: [Strategy]
-  clones:
+  remakes:
     - name: Zatacka
       updated: 2015-04-16
       url: http://zatacka.sourceforge.net/
@@ -117,7 +117,7 @@
   meta:
     genre: [Strategy, Real-Time Strategy]
     theme: [Medieval]
-  clones:
+  remakes:
     - name: openage
       url: http://openage.sft.mx/
       repo: https://github.com/SFTtech/openage
@@ -137,7 +137,7 @@
   meta:
     genre: [Role-Playing]
     theme: [Fantasy]
-  clones:
+  remakes:
     - name: Aklabeth
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
       repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/aklabeth-1.0.tar.gz
@@ -148,7 +148,7 @@
 - name: Alien 8
   meta:
     genre: [Action]
-  clones:
+  remakes:
     - name: Alien 8
       url: http://retrospec.sgn.net/game/alien8
       updated: 2014-01-12
@@ -169,7 +169,7 @@
   meta:
     genre: [Action, Simulation, Real-Time Strategy]
     theme: [Sci-Fi]
-  clones:
+  remakes:
     - name: Free Allegiance
       repo: http://freeallegiance.cvs.sourceforge.net/viewvc/freeallegiance/
       url: http://www.freeallegiance.org/
@@ -193,7 +193,7 @@
   meta:
     genre: [Action-Adventure]
     theme: [Horror, Alternate Historical]
-  clones:
+  remakes:
     - name: Free in the Dark
       url: http://sourceforge.net/projects/fitd/
       repo: http://fitd.svn.sf.net/viewvc/fitd/trunk/
@@ -206,7 +206,7 @@
   meta:
     genre: [Strategy]
     theme: [Sci-Fi, Management]
-  clones:
+  remakes:
     - name: "Ard-Reil: Anacreon Reconstruction Project"
       url: http://ardreil.sourceforge.net/
       repo: http://ardreil.cvs.sourceforge.net/viewvc/ardreil/
@@ -226,7 +226,7 @@
   meta:
     genre: [Platformer, Action-Adventure]
     theme: [Sci-Fi]
-  clones:
+  remakes:
     - name: New RAW
       url: http://sourceforge.net/projects/newraw/
       repo: svn://svn.code.sf.net/p/newraw/code/
@@ -249,7 +249,7 @@
         - image: http://cyxdown.free.fr/rawgl/rawgl-2.png
 
 - name: ["Another World 2: Heart of the Alien", "Heart of the Alien"]
-  clones:
+  remakes:
     - name: Heart of the Alien
       url: http://hota.sourceforge.net/
       repo: http://hota.cvs.sourceforge.net/viewvc/hota/
@@ -258,7 +258,7 @@
       lang: C
 
 - name: "Archon: The Light and the Dark"
-  clones:
+  remakes:
     - name: XArchon
       updated: 2015-05-03
       url: http://xarchon.seul.org/
@@ -273,7 +273,7 @@
         - image: http://xarchon.seul.org/img/snap-2.gif
 
 - name: [Ares, Ares (video game)]
-  clones:
+  remakes:
     - name: Antares
       url: http://arescentral.org/antares/
       repo: https://github.com/arescentral/antares
@@ -290,7 +290,7 @@
         - youtube: 4s44qu5zgXE
 
 - name: Armor Alley
-  clones:
+  remakes:
     - name: Armor Alley
       updated: 2015-05-05
       url: http://www.schillmania.com/armor-alley/
@@ -300,7 +300,7 @@
       license: CC-BY-NC
 
 - name: "Artemis: Spaceship Bridge Simulator"
-  clones:
+  remakes:
     - name: EmptyEpsilon
       url: http://daid.github.io/EmptyEpsilon/
       repo: https://github.com/daid/EmptyEpsilon
@@ -315,7 +315,7 @@
         - image: http://daid.github.io/EmptyEpsilon/screenshots/helms.png
 
 - name: Artillery Duel
-  clones:
+  remakes:
     - name: Artillery Duel
       updated: 2015-04-11
       url: https://code.google.com/p/artillery-duel-reloaded/
@@ -327,7 +327,7 @@
         - image: http://pygame.org/shots/1519.jpg
 
 - name: Arx Fatalis
-  clones:
+  remakes:
     - name: Arx Libertatis
       url: http://arx-libertatis.org/
       repo: https://github.com/arx/ArxLibertatis
@@ -341,7 +341,7 @@
         - youtube: mIribIqKee8
 
 - name: Ascendancy
-  clones:
+  remakes:
     - name: Starlane Empire
       url: https://gna.org/projects/starlane/
       repo: http://cvs.gna.org/cvsweb/starlane/?cvsroot=starlane
@@ -351,7 +351,7 @@
       license: GPL
 
 - name: [Asteroids, Asteroids (video game)]
-  clones:
+  remakes:
     - name: Maelstrom
       url: http://www.libsdl.org/projects/Maelstrom/
       status: playable
@@ -382,7 +382,7 @@
         - image: http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids-zaurus.gif
 
 - name: [Asylum, "https://www.mobygames.com/game/acorn-32-bit/asylum"]
-  clones:
+  remakes:
     - name: SDL Asylum
       updated: 2015-04-17
       url: http://sdl-asylum.sourceforge.net/
@@ -399,7 +399,7 @@
           image: https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136451.jpg
 
 - name: [Atomix, Atomix (video game)]
-  clones:
+  remakes:
     - name: Atomiks
       url: http://www.viste-family.net/mateusz/software/atomiks/
       status: playable
@@ -425,7 +425,7 @@
       license: GPL2
 
 - name: AstroMenace
-  clones:
+  remakes:
     - name: AstroMenace
       url: http://sourceforge.net/projects/openastromenace/
       updated: 2015-04-08
@@ -448,7 +448,7 @@
           url: https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am7.jpg/182/137
 
 - name: Astrosmash
-  clones:
+  remakes:
     - name: Cosmosmash
       url: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html
       updated: 2015-04-16
@@ -461,7 +461,7 @@
         - image: http://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
 
 - name: Atomic Bomberman
-  clones:
+  remakes:
     - name: Bombman
       repo: https://github.com/drummyfish/bombman
       development: sporadic
@@ -472,7 +472,7 @@
         - image: https://camo.githubusercontent.com/8ab6d36689583359d2904c9c4a573e3dcf68d76a/687474703a2f2f692e696d6775722e636f6d2f3378626741504d2e706e67
 
 - name: Awesomenauts
-  clones:
+  remakes:
     - name: BlakedAwesomenaughts
       updated: 2015-05-28
       repo: https://github.com/zombieman1041/BlakedAwesomenaughts
@@ -483,7 +483,7 @@
       license: MIT
 
 - name: [Babaliba, "Dinamic Software"]
-  clones:
+  remakes:
     - name: Babaliba
       updated: 2015-04-13
       url: https://compiler.speccy.org/remakes-babaliba.html
@@ -498,7 +498,7 @@
     - "Baldur's Gate series"
     - Icewind Dale series
     - "Planescape: Torment"
-  clones:
+  remakes:
     - name: GemRB
       url: http://www.gemrb.org/
       repo: https://github.com/gemrb/gemrb
@@ -510,7 +510,7 @@
         - image: http://sourceforge.net/dbimage.php?id=105344
 
 - name: Ballerburg
-  clones:
+  remakes:
     - name: Ballerburg SDL
       updated: 2015-04-17
       url: http://baller.tuxfamily.org/
@@ -523,7 +523,7 @@
         - image: http://baller.tuxfamily.org/screenshot2.png
 
 - name: Balloon Fight
-  clones:
+  remakes:
     - name: Balloon Fight
       updated: 2016-04-30
       url: http://js.mikedx.co.uk/balloonfight.html
@@ -533,7 +533,7 @@
       license: MIT
 
 - name: "Barbarian: The Ultimate Warrior"
-  clones:
+  remakes:
     - name: Barbarian
       updated: 2015-04-16
       repo: https://www.dropbox.com/s/4n5kvajfmcu132o/barbarianAMIGAwin.zip
@@ -545,7 +545,7 @@
         - image: http://barbarian.1987.free.fr/images/AMIGA01.jpg
 
 - name: Battle Chess
-  clones:
+  remakes:
     - name: Open BattleChess
       repo: http://openbattlechess.googlecode.com/svn/trunk/
       url: https://code.google.com/p/openbattlechess/
@@ -553,7 +553,7 @@
       development: halted
       lang: C#
       license: LGPL
-  reimplementations:
+  clones:
     - name: Brutal Chess
       updated: 2015-04-08
       url: http://sourceforge.net/projects/brutalchess/
@@ -576,7 +576,7 @@
           image: https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
 
 - name: [Battle City, Battle City (video game)]
-  clones:
+  remakes:
     - name: Battle City
       url: http://battlecity.org/
       repo: https://github.com/Deceth/Battle-City
@@ -596,7 +596,7 @@
         - Lua
       license: GPL3
       updated: 2015-04-06
-  reimplementations:
+  clones:
     - name: BattleCity2014
       updated: 2015-05-19
       repo: https://github.com/ggc87/BattleCity2014
@@ -607,7 +607,7 @@
         - EntityX
 
 - name: "Bard's Tale Contruction Set"
-  clones:
+  remakes:
     - name: Bt Builder
       url: http://identicalsoftware.com/btbuilder/
       repo: https://github.com/dulsi/btbuilder
@@ -617,7 +617,7 @@
       updated: 2016-02-23
 
 - name: Bejeweled
-  clones:
+  remakes:
     - name: biju-game
       updated: 2015-05-28
       repo: https://github.com/CrociDB/biju-game
@@ -626,7 +626,7 @@
       framework: CraftyJS
 
 - name: Bermuda Syndrome
-  clones:
+  remakes:
     - name: Bermuda Syndrome
       url: http://cyxdown.free.fr/bs/
       status: playable
@@ -637,7 +637,7 @@
         - image: http://cyxdown.free.fr/bs/bs-2.png
 
 - name: Betrayal at Krondor
-  clones:
+  remakes:
     - name: xBaK
       url: http://xbak.sourceforge.net/
       status: playable
@@ -649,7 +649,7 @@
         - image: http://a.fsdn.com/con/app/proj/xbak/screenshots/71372.jpg
 
 - name: [The Binding of Isaac,  "The Binding of Isaac (video game)"]
-  clones:
+  remakes:
     - name: Witch Blast
       repo: https://github.com/Cirrus-Minor/witchblast
       status: playable
@@ -665,7 +665,7 @@
         - youtube: FsHqu0JpP_k
 
 - name: [Blade Runner, "Blade Runner (1997 video game)"]
-  clones:
+  remakes:
     - name: replicant
       repo: https://github.com/madmoose/replicant
       updated: 2015-04-04
@@ -679,7 +679,7 @@
       license: GPL2
 
 - name: "Blake Stone: Planet Strike"
-  clones:
+  remakes:
     - name: bstone
       url: https://github.com/bibendovsky/bstone
       status: playable
@@ -688,7 +688,7 @@
       updated: 2013-12-02
 
 - name: [Blood, Blood (video game)]
-  clones:
+  remakes:
     - name: Blood Crossmatching (EDuke32 vanilla)
       url: http://www.moddb.com/games/bloodcm
       development: active
@@ -709,7 +709,7 @@
           url: http://www.transfusion-game.com/images/action08.jpg
 
 - name: [Bolo, Bolo (1987 video game)]
-  clones:
+  remakes:
     - name: orona
       url: http://stephank.github.io/orona/
       repo: https://github.com/stephank/orona
@@ -721,7 +721,7 @@
 - names:
     - Bomberman
     - Dynablaster
-  clones:
+  remakes:
     - name: SDL Bomber
       url: http://www.linuxmotors.com/SDL_bomber/
       status: playable
@@ -795,7 +795,7 @@
           image: http://tomatoes.sourceforge.net/ss4.jpg
 
 - name: Boulder Dash
-  clones:
+  remakes:
     - name: Rocks n diamonds
       url: http://www.artsoft.org/rocksndiamonds/
       status: playable
@@ -842,7 +842,7 @@
       lang: Java
 
 - name: [Bratwurst, "http://www.mobygames.com/game/bratwurst"]
-  clones:
+  remakes:
     - name: bratwurst
       updated: 2015-05-15
       repo: https://github.com/sabetts/bratwurst
@@ -851,7 +851,7 @@
       license: GPL2
 
 - name: [Bruce Lee, "Bruce Lee (video game)"]
-  clones:
+  remakes:
     - name: Jet Lee
       updated: 2015-08-23
       repo: https://github.com/Uvadzucumi/JetLee
@@ -862,7 +862,7 @@
         - image: https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-03.png
 
 - name: Bubble Bobble
-  clones:
+  remakes:
     - name: The Bub's Brothers
       url: http://bub-n-bros.sourceforge.net/
       updated: 2015-04-10
@@ -877,7 +877,7 @@
         - image: http://bub-n-bros.sourceforge.net/images/pacman.png
 
 - name: ["Bug Bomber", "http://www.mobygames.com/game/bug-bomber"]
-  clones:
+  remakes:
     - name: BitRiot
       updated: 2016-04-11
       repo: https://github.com/VenKamikaze/BitRiot
@@ -891,7 +891,7 @@
     - バーガータイム
     - Hamburger
     - ハンバーガー
-  clones:
+  remakes:
     - name: BurgerSpace
       updated: 2015-04-16
       url: https://perso.b2b2c.ca/~sarrazip/dev/burgerspace.html
@@ -908,7 +908,7 @@
     - パン
     - Pomping World
     - ポンピング・ワールド
-  clones:
+  remakes:
     - name: Pang Zero
       url: http://apocalypse.rulez.org/pangzero
       repo: http://pangzero.cvs.sourceforge.net/pangzero/pangzero/
@@ -921,7 +921,7 @@
           url: http://apocalypse.rulez.org/kozosfiles/upipang11/tn_version_1.0.jpg
 
 - name: "Buzz Aldrin's Race Into Space"
-  clones:
+  remakes:
     - name: Race Into Space
       url: http://www.raceintospace.org/
       updated: 2015-04-05
@@ -933,7 +933,7 @@
         - image: http://www.raceintospace.org/images/screenshots/splash_screen.png
 
 - name: [Cadaver, Cadaver (video game)]
-  clones:
+  remakes:
     - name: Cadaver
       development: halted
       info: PC game files required
@@ -944,7 +944,7 @@
         - image: http://jotd.pagesperso-orange.fr/cadaver/cadaver_remake_pic.png
 
 - name: Caesar 3
-  clones:
+  remakes:
     - name: CaesarIA
       url: https://bitbucket.org/dalerank/caesaria
       repo: https://github.com/dalerank/caesaria-game
@@ -958,7 +958,7 @@
       updated: 2013-05-27
 
 - name: Call to Power II
-  clones:
+  remakes:
     - name: "Civilization: Call To Power 2 Source Project"
       updated: 2015-04-10
       url: http://ctp2.darkdust.net/
@@ -966,7 +966,7 @@
       lang: C
 
 - name: Candy Crush Saga
-  reimplementations:
+  clones:
     - name: CookieCrunch
       repo: https://github.com/renatomcamilio/CookieCrunch
       updated: 2015-05-29
@@ -974,7 +974,7 @@
       lang: Swift
 
 - name: [Cannon Fodder, Cannon Fodder (series)]
-  clones:
+  remakes:
     - name: Open Fodder
       url: https://github.com/segrax/openfodder
       status: playable
@@ -989,7 +989,7 @@
       framework: HTML5
 
 - name: Carmageddon
-  clones:
+  remakes:
     - name: OpenC1
       url: http://www.1amstudios.com/projects/openc1/
       repo: http://code.google.com/p/openc1/
@@ -1001,7 +1001,7 @@
         - youtube: 0afl6ruHZgI
 
 - name: Castle of the Winds
-  clones:
+  remakes:
     - name: Castle of the Winds (React/MeteorJS Remake)
       updated: 2015-08-31
       repo: https://github.com/mordrax/cotwmtor
@@ -1019,7 +1019,7 @@
     genre: [Role-Playing]
     subgenre: [Roguelike, Survival]
     theme: [Horror]
-  clones:
+  remakes:
     - name: "Cataclysm: Dark Days Ahead"
       url: http://en.cataclysmdda.com/
       repo: https://github.com/CleverRaven/Cataclysm-DDA
@@ -1037,7 +1037,7 @@
         - youtube: iHfpBze8ecA
 
 - name: Catacomb II
-  clones:
+  remakes:
     - name: CatacombSDL
       url: https://github.com/Blzut3/CatacombSDL
       repo: https://github.com/Blzut3/CatacombSDL
@@ -1048,7 +1048,7 @@
       updated: 2014-07-23
 
 - name: Cave Story
-  clones:
+  remakes:
     - name: NXEngine
       url: http://nxengine.sourceforge.net/
       status: playable
@@ -1057,7 +1057,7 @@
       updated: 2013-05-29
 
 - name: "Chip's Challenge"
-  clones:
+  remakes:
     - name: Tile World
       url: http://www.muppetlabs.com/~breadbox/software/tworld/
       status: playable
@@ -1073,7 +1073,7 @@
       updated: 2014-01-05
 
 - name: ChuChu Rocket!
-  clones:
+  remakes:
     - name: Duck Marines
       url: http://tangramgames.dk/games/duckmarines/
       repo: https://github.com/SimonLarsen/duckmarines
@@ -1092,7 +1092,7 @@
         - youtube: SAz0BsTSXy4
 
 - name: [Circus Atari, Circus (video game)]
-  clones:
+  remakes:
     - name: Circus Linux!
       url: http://www.newbreedsoftware.com/circus-linux/
       repo: ftp://ftp.tuxpaint.org/unix/x/circus-linux/win32/circuslinux-1.0.0.zip
@@ -1105,7 +1105,7 @@
         - image: http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-game.gif
 
 - name: Clonk
-  clones:
+  remakes:
     - name: OpenClonk
       url: http://www.openclonk.org/
       repo: http://git.openclonk.org/openclonk.git/
@@ -1116,7 +1116,7 @@
         - youtube: zydiZSXpn0w
 
 - name: [Columns, Columns (video game)]
-  clones:
+  remakes:
     - name: div-columns
       updated: 2016-02-26
       url: http://js.mikedx.co.uk/columns.html
@@ -1126,7 +1126,7 @@
       license: MIT
 
 - name: [Commando, Commando (video game)]
-  clones:
+  remakes:
     - name: CommandoJS
       url: http://commandojs.org/
       updated: 2015-05-28
@@ -1142,7 +1142,7 @@
         - image: http://i.imgur.com/e4ChdOL.png
 
 - name: [Commander Keen Series, Commander Keen]
-  clones:
+  remakes:
     - name: Commander Genius
       url: http://clonekeenplus.sourceforge.net/
       repo: http://clonekeenplus.git.sourceforge.net/git/gitweb.cgi?p=clonekeenplus/clonekeenplus;a=summary
@@ -1176,7 +1176,7 @@
     - Command & Conquer
     - "Command & Conquer: Red Alert"
     - Dune 2000
-  clones:
+  remakes:
     - name: OpenRA
       url: http://www.openra.net
       repo: https://github.com/OpenRA/OpenRA
@@ -1189,7 +1189,7 @@
         - image: http://www.openra.net/images/news/20150808-d2k-range-circles.png
 
 - name: [Contra, Contra (video game)]
-  clones:
+  remakes:
     - name: Contra_remake
       updated: 2015-05-28
       repo: https://github.com/EmileSonneveld/Contra_remake
@@ -1200,7 +1200,7 @@
         - vimeo: 79514269
 
 - name: Cookie Clicker
-  clones:
+  remakes:
     - name: CookieClickerRemake
       updated: 2015-05-03
       repo: https://github.com/ricodejong02/CookieClickerRemake
@@ -1208,7 +1208,7 @@
       lang: C#
 
 - name: [Crazy Cars, Titus Software]
-  clones:
+  remakes:
     - name: Crazy Cars
       updated: 2015-04-16
       url: http://crazycarscpc.free.fr/indexEN.htm
@@ -1219,7 +1219,7 @@
         - image: http://crazycarscpc.free.fr/images/crazy01.jpg
 
 - name: [Creatures, Creatures (video game)]
-  clones:
+  remakes:
     - name: Open Creatures
       url: http://creatures.wikia.com/wiki/Openc2e
       repo: https://github.com/ccdevnet/openc2e
@@ -1230,7 +1230,7 @@
       license: LGPL
 
 - name: Crystal Quest
-  clones:
+  remakes:
     - name: CrystalQuest
       updated: 2015-05-29
       repo: https://github.com/haleymt/CrystalQuest
@@ -1242,7 +1242,7 @@
       license: MIT
 
 - name: Curse of the Azure Bonds
-  clones:
+  remakes:
     - name: coab
       repo: https://github.com/simeonpilgrim/coab
       status: playable
@@ -1251,7 +1251,7 @@
       updated: 2013-05-28
 
 - name: [Cytadela, "http://www.ppa.pl/gry/cytadela.html"]
-  clones:
+  remakes:
     - name: Cytadela
       updated: 2015-04-16
       url: http://cytadela.sourceforge.net/about.php
@@ -1270,7 +1270,7 @@
   meta:
     genre: [Action, Shoot 'Em Up]
     subgenre: [Run and gun]
-  clones:
+  remakes:
     - name: C-Dogs SDL
       url: http://cxong.github.io/cdogs-sdl/
       repo: https://github.com/cxong/cdogs-sdl
@@ -1293,7 +1293,7 @@
     - Blood
     - Outlaws
     - Shadow Warrior
-  clones:
+  remakes:
     - name: XL Engine
       url: http://xlengine.com
       repo: https://github.com/luciusDXL/XL-Engine
@@ -1311,7 +1311,7 @@
         - image: https://darkxl.files.wordpress.com/2009/09/dxl_tarsalus9.jpg
 
 - name: [Dandy, "Dandy (video game)"]
-  clones:
+  remakes:
     - name: Fight Or Perish
       url: http://www.newbreedsoftware.com/fop/
       repo: ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz
@@ -1323,7 +1323,7 @@
         - image: http://www.newbreedsoftware.com/fop/screenshots/fop-alpha.png
 
 - name: Dark Reign 2
-  clones:
+  remakes:
     - name: Dark Reign 2
       url: https://code.google.com/p/darkreign2/
       repo: http://darkreign2.googlecode.com/svn/
@@ -1331,7 +1331,7 @@
       lang: C++
 
 - name: [Defender, "Defender (video game)"]
-  clones:
+  remakes:
     - name: Defendguin
       updated: 2015-04-07
       development: sporadic
@@ -1350,7 +1350,7 @@
 - names:
     - [Descent, Descent (video game)]
     - Descent 2
-  clones:
+  remakes:
     - name: D2X-XL
       url: http://www.descent2.de/
       repo: http://d2x-xl.svn.sourceforge.net/viewvc/d2x-xl/
@@ -1382,7 +1382,7 @@
 - name:
     - "DesertStrike: Return to the Gulf"
     - Jungle Strike
-  clones:
+  remakes:
     - name: openstrike
       repo: https://github.com/AMDmi3/openstrike
       status: unplayable
@@ -1395,7 +1395,7 @@
     - [Destructo, "http://www.mobygames.com/game/destructo"]
     - [Island of Dr. Destructo, "http://www.mobygames.com/game/destructo"]
     - [The Island of Doctor Destructo, "http://www.mobygames.com/game/destructo"]
-  clones:
+  remakes:
     - name: Return of Dr. Destructo
       url: http://zxstudio.org/projects/drdestructo/
       repo: https://github.com/MaxSavenkov/drdestructo2/
@@ -1411,7 +1411,7 @@
         - youtube: aruCsdxWCCQ
 
 - name: Deflektor
-  clones:
+  remakes:
     - name: Deflektor X4
       url: http://retrospec.sgn.net/game/deflektorx4
       development: halted
@@ -1432,7 +1432,7 @@
       updated: 2014-01-12
 
 - name: "Desperados: Wanted Dead or Alive"
-  clones:
+  remakes:
     - name: OpenDeathValley
       repo: https://github.com/OpenDeathValley/OpenDeathValley
       development: sporadic
@@ -1444,7 +1444,7 @@
   meta:
     genre: [Action, Role-Playing]
     theme: [Horror, Fantasy, Medieval]
-  clones:
+  remakes:
     - name: freeablo
       url: http://freeablo.org/
       repo: https://github.com/wheybags/freeablo
@@ -1466,7 +1466,7 @@
       license: Zlib
       media:
         - image: https://cloud.githubusercontent.com/assets/20025614/16467025/4bd77ef0-3e3d-11e6-872a-38ca8eb2c9f8.gif
-  reimplementations:
+  clones:
     - name: Summoning Wars
       repo: https://bitbucket.org/sumwars/sumwars-code
       url: http://www.sumwars.org/
@@ -1488,7 +1488,7 @@
         - image: http://clintbellanger.net/rpg/images/screenshots/0022.jpg
 
 - name: Digimon World
-  clones:
+  remakes:
     - name: Digimon World Project Ark
       updated: 2015-05-28
       repo: https://github.com/dwProjectark/Digimon-World-Project-Ark
@@ -1497,7 +1497,7 @@
       lang: C#
 
 - name: [Dodger, "http://www.mobygames.com/game/win3x/dodger"]
-  clones:
+  remakes:
     - name: dodger-remake
       repo: https://github.com/funchal/dodger-remake
       updated: 2015-05-12
@@ -1505,7 +1505,7 @@
       lang: C++
 
 - name: [Dogs of War, Dogs of War (1989 video game)]
-  clones:
+  remakes:
     - name: openDOW
       updated: 2015-05-15
       repo: https://github.com/rofl0r/openDOW
@@ -1518,7 +1518,7 @@
     - Doom II
     - [Heretic, Heretic (video game)]
     - Hexen
-  clones:
+  remakes:
     - name: Doomsday
       url: http://dengine.net/
       repo: http://deng.git.sourceforge.net/git/gitweb.cgi?p=deng/deng;a=summary
@@ -1629,7 +1629,7 @@
       info: iOS
 
 - name: Doom 64
-  clones:
+  remakes:
     - name: Doom64EX
       repo: https://github.com/svkaiser/Doom64EX
       development: active
@@ -1646,7 +1646,7 @@
           image: https://doom64ex.files.wordpress.com/2011/08/d64ex_03.png
 
 - name: [Doom 3, Doom_3]
-  clones:
+  remakes:
     - name: dhewm3
       updated: 2015-07-29
       repo: https://github.com/dhewm/dhewm3
@@ -1662,7 +1662,7 @@
       license: GPL3
 
 - name: Drugwars
-  clones:
+  remakes:
     - name: Dope Wars
       url: http://dopewars.sourceforge.net/
       repo: http://sourceforge.net/p/dopewars/code/HEAD/tree/
@@ -1681,7 +1681,7 @@
       lang: JavaScript
 
 - name: Deuteros
-  clones:
+  remakes:
     - name: Deuteros X
       repo: svn://svn.code.sf.net/p/deuterosx/code/
       url: http://sourceforge.net/projects/deuterosx/
@@ -1690,7 +1690,7 @@
       lang: C#
 
 - name: Dink Smallwood
-  clones:
+  remakes:
     - name: GNU FreeDink
       updated: 2015-04-11
       url: https://www.gnu.org/software/freedink/
@@ -1705,7 +1705,7 @@
           image: https://www.gnu.org/software/freedink/screenshots/freedink-1.08_2008-07-31.jpg
 
 - name: Duck Hunt
-  clones:
+  remakes:
     - name: duckhunt
       updated: 2015-04-05
       repo: https://github.com/aosyborg/duckhunt
@@ -1742,7 +1742,7 @@
       lang: JavaScript
 
 - name: [Duke Nukem, Duke Nukem (video game)]
-  clones:
+  remakes:
     - name: Freenukum Jump'n Run
       url: https://launchpad.net/freenukum/
       repo: https://bazaar.launchpad.net/~silwol/freenukum/trunk/files
@@ -1752,7 +1752,7 @@
       updated: 2015-04-03
 
 - name: Duke Nukem 3D
-  clones:
+  remakes:
     - name: EDuke32
       url: http://eduke32.com/
       development: active
@@ -1772,7 +1772,7 @@
   meta:
     genre: [Real-Time Strategy]
     theme: [Sci-Fi]
-  clones:
+  remakes:
     - name: Dune Legacy
       url: http://dunelegacy.sourceforge.net/
       repo: http://sourceforge.net/projects/dunelegacy/develop
@@ -1809,7 +1809,7 @@
       license: MIT
 
 - name: Dungeon Keeper
-  clones:
+  remakes:
     - name: KeeperFX
       url: http://keeper.lubiki.pl/html/dk_keeperfx.php
       development: active
@@ -1818,7 +1818,7 @@
       repo: https://code.google.com/p/keeperfx/source/list
 
 - name: Dungeon Keeper 2
-  reimplementations:
+  clones:
     - name: OpenKeeper
       framework: JMonkeyEngine
       repo: https://github.com/tonihele/OpenKeeper
@@ -1829,7 +1829,7 @@
       license: GPL3
 
 - name: [Dungeon Master, Dungeon Master (video game)]
-  clones:
+  remakes:
     - name: Chaos Strikes Back
       updated: 2015-09-27
       repo: http://dmweb.free.fr/files/Clone-CSBwin-SourceCode-12_100.zip
@@ -1845,7 +1845,7 @@
       lang: C#
 
 - name: "DX-Ball"
-  clones:
+  remakes:
     - name: DXBall
       repo: https://github.com/nomanHasan/DXBall
       updated: 2016-05-14
@@ -1855,7 +1855,7 @@
       development: active
 
 - name: [E.T. the Extra-Terrestrial, E.T. the Extra-Terrestrial (video game)]
-  clones:
+  remakes:
     - name: javascript-E.T.
       updated: 2015-07-14
       repo: https://github.com/FranciscoG/javascript-E.T.
@@ -1865,7 +1865,7 @@
       license: MIT
 
 - name: [Earth Shaker, Earth Shaker (video game)]
-  clones:
+  remakes:
     - name: EarthShakerDS
       repo: https://github.com/ant512/EarthShakerDS
       url: http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released
@@ -1888,7 +1888,7 @@
   meta:
     genre: [Sports]
     subgenre: [Soccer]
-  clones:
+  remakes:
     - name: Eat The Whistle
       url: http://www.ggsoft.org/etw/
       repo: svn://svn.code.sf.net/p/etw/code/trunk
@@ -1905,7 +1905,7 @@
     - Echochrome
     - Mugen Kairō
     - 無限回廊
-  clones:
+  remakes:
     - name: l-echo
       url: https://code.google.com/p/l-echo/
       updated: 2015-04-15
@@ -1915,7 +1915,7 @@
       repo: http://l-echo.googlecode.com/svn/trunk/
 
 - name: [Elements, "http://www.mobygames.com/game/browser/elements_"]
-  clones:
+  remakes:
     - name: OpenEtG
       updated: 2015-09-25
       url: http://etg.dek.im/
@@ -1925,7 +1925,7 @@
       license: MIT
 
 - name: [Encounter, Encounter (video game)]
-  clones:
+  remakes:
     - name: encounter
       updated: 2015-05-28
       repo: https://github.com/air/encounter
@@ -1935,7 +1935,7 @@
       url: http://air.github.io/encounter/
 
 - name: [Entombed!, "Entombed (1982 video game)"]
-  clones:
+  remakes:
     - name: Entombed!
       url: http://www.newbreedsoftware.com/entombed/
       updated: 2015-04-08
@@ -1946,7 +1946,7 @@
 - name: Escape from Colditz
   meta:
     genre: [Action, Adventure, Role-Playing, Strategy]
-  clones:
+  remakes:
     - name: Colditz Escape!
       repo: https://github.com/aperture-software/colditz-escape
       updated: 2015-04-10
@@ -1962,7 +1962,7 @@
         - image: https://sites.google.com/site/colditzescape/home/screenshot4.png
 
 - name: Eye of the Beholder II
-  clones:
+  remakes:
     - name: Dungeon Eye
       url: http://www.dungeoneye.net/
       repo: https://github.com/iliak/dungeoneye
@@ -1973,7 +1973,7 @@
         - image: http://www.dungeoneye.net/wp-content/uploads/sites/2/2016/05/forest.png
 
 - name: Elasto Mania
-  clones:
+  remakes:
     - name: X-Moto
       url: http://xmoto.tuxfamily.org/
       status: playable
@@ -1982,7 +1982,7 @@
       updated: 2014-06-16
 
 - name: "The Elder Scrolls: Arena"
-  clones:
+  remakes:
     - name: opentesarenapp
       updated: 2016-10-09
       repo: https://github.com/pralinor/opentesarenapp
@@ -2003,7 +2003,7 @@
       updated: 2016-10-09
 
 - name: "The Elder Scrolls II: Daggerfall"
-  clones:
+  remakes:
     - name: Daggerfall.NET
       repo: https://github.com/Burton-Radons/Daggerfall.NET
       development: halted
@@ -2027,7 +2027,7 @@
   meta:
     genre: [Role-Playing]
     theme: [Fantasy]
-  clones:
+  remakes:
     - name: OpenMW
       url: http://openmw.org/
       status: playable
@@ -2041,7 +2041,7 @@
         - youtube: avPbctre9Qw
 
 - name: Emperor of the Fading Suns
-  clones:
+  remakes:
     - name: Phoenix
       repo: https://github.com/joulupunikki/Phoenix
       updated: 2015-05-29
@@ -2051,7 +2051,7 @@
 - names:
     - [Exile, Exile (video game series)]
     - Blades of Exile
-  clones:
+  remakes:
     - name: Blades of Exile
       updated: 2015-04-11
       url: http://spiderwebforums.ipbhost.com/index.php?/forum/12-blades-of-exile/
@@ -2062,7 +2062,7 @@
 
 - names:
     - [Exile 1988, Exile (1988 video game)]
-  clones:
+  remakes:
     - name: EXILE
       updated: 2015-06-22
       repo: https://github.com/Geti/EXILE
@@ -2072,7 +2072,7 @@
       license: Custom
 
 - name: Exolon
-  clones:
+  remakes:
     - name: exolon
       url: https://newagebegins.github.io/exolon/exolon.html
       repo: https://github.com/newagebegins/exolon
@@ -2086,7 +2086,7 @@
   meta:
     genre: [Driving/Racing]
     theme: [Motorsports]
-  clones:
+  remakes:
     - name: "F-1 Spirit"
       updated: 2015-04-13
       url: http://www.braingames.getput.com/f1spirit/
@@ -2101,7 +2101,7 @@
         - image: http://www.braingames.getput.com/f1spirit/pics/screenshot8.jpg
 
 - name: "F-Zero"
-  clones:
+  remakes:
     - name: "F-Zero Clone"
       updated: 2015-04-25
       repo: https://github.com/chipbell4/F-Zero-Clone
@@ -2134,7 +2134,7 @@
           image: https://a.fsdn.com/con/app/proj/racer/screenshots/269269.jpg
 
 - name: [Fade to Black, Fade to Black (video game)]
-  clones:
+  remakes:
     - name: f2bgl
       url: https://github.com/cyxx/f2bgl
       development: sporadic
@@ -2142,7 +2142,7 @@
       framework: SDL
 
 - name: Fallout 2
-  clones:
+  remakes:
     - name: DarkFO
       updated: 2015-12-30
       url: https://github.com/darkf/darkfo
@@ -2174,7 +2174,7 @@
           image: http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg
 
 - name: ["Fallout 3: Van Buren", "Van Buren (video game)"]
-  clones:
+  remakes:
     - name: Van Buren Project
       url: http://vanburenproject.blogspot.co.uk/
       repo: http://van-buren-project.googlecode.com/svn/trunk/
@@ -2187,7 +2187,7 @@
 
 
 - name: "Fallout Tactics: Brotherhood of Steel"
-  clones:
+  remakes:
     - name: FreeFT
       updated: 2016-01-12
       repo: https://github.com/nadult/FreeFT
@@ -2196,7 +2196,7 @@
       license: BSD
 
 - name: Fallout Online
-  clones:
+  remakes:
     - name: fonline
       repo: https://github.com/alexknvl/fonline
       url: http://fodev.net/
@@ -2208,7 +2208,7 @@
 - names:
     - Fantastic Journey
     - Gokujō Parodius!
-  clones:
+  remakes:
     - name: pucpr-ld-parodius
       updated: 2015-06-01
       repo: https://github.com/jvlppm/pucpr-ld-parodius
@@ -2216,7 +2216,7 @@
       framework: Construct
 
 - name: Flappy Bird
-  clones:
+  remakes:
     - name: CrappyBird
       updated: 2015-05-02
       repo: https://github.com/varunpant/CrappyBird
@@ -2241,7 +2241,7 @@
        - youtube: rPWK6kO3D0M
 
 - name: [Flashback, Flashback (1992 video game)]
-  clones:
+  remakes:
     - name: REminiscence
       url: http://cyxdown.free.fr/reminiscence/
       development: sporadic
@@ -2253,7 +2253,7 @@
         - image: http://cyxdown.free.fr/reminiscence/reminiscence-4.png
 
 - name: [Floor 13, Floor 13 (video game)]
-  clones:
+  remakes:
     - name: Floor 13
       url: http://agriculture-and-fisheries.tumblr.com/
       repo: https://bitbucket.org/eastmad/floor-13-releases/src
@@ -2262,7 +2262,7 @@
       updated: 2015-04-03
 
 - name: Flying Shark
-  clones:
+  remakes:
     - name: Friking Shark
       url: https://code.google.com/p/friking-shark/
       updated: 2015-04-06
@@ -2273,7 +2273,7 @@
 
 - names:
     - Final Fantasy VIII
-  clones:
+  remakes:
     - name: OpenTriad
       url: https://github.com/benjaminfoo/OpenTriad
       updated: 2015-04-12
@@ -2281,7 +2281,7 @@
       lang: Java
 
 - name: [Flag Catcher, "http://hol.abime.net/5578"]
-  clones:
+  remakes:
     - name: Gift Grabber
       updated: 2015-08-31
       url: https://ceva24.github.io/
@@ -2291,7 +2291,7 @@
       framework: BackBone.js
 
 - name: [Football Manager, "Football Manager (1982 series)"]
-  clones:
+  remakes:
     - name: Football Manager
       updated: 2015-04-13
       url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
@@ -2300,7 +2300,7 @@
       license: GPL2
 
 - name: "Forgotten Realms: Unlimited Adventures"
-  clones:
+  remakes:
     - name: Dungeon Craft
       url: http://uaf.sourceforge.net/index.html
       repo: http://uaf.sourceforge.net/download.html
@@ -2317,7 +2317,7 @@
   meta:
     genre: [First-Person Shooter]
     theme: [Sci-Fi, Post-Apocalyptic]
-  clones:
+  remakes:
     - name: ProjectX
       url: http://forsakenx.github.io/
       repo: https://github.com/ForsakenX/forsaken
@@ -2335,7 +2335,7 @@
   meta:
     genre: [Action, Simulation]
     theme: [Sci-Fi]
-  clones:
+  remakes:
     - name: FreeSpace Source Code Project
       url: http://scp.indiegames.us/
       repo: http://svn.icculus.org/fs2open/
@@ -2347,7 +2347,7 @@
         - image: http://scp.indiegames.us/scn/Beyond%20the%20Red%20Line/4pu20pg.jpg
 
 - name: [Freelancer, Freelancer (video game)]
-  clones:
+  remakes:
     - name: Librelancer
       updated: 2016-05-23
       url: https://github.com/CallumDev/Librelancer
@@ -2365,7 +2365,7 @@
 - names:
     - [Frog!, "http://www.mobygames.com/game/frog"]
     - [Back To Nature, "http://www.mobygames.com/game/frog"]
-  clones:
+  remakes:
     - name: back-to-nature-c64-remake
       updated: 2015-05-29
       repo: https://github.com/gborp/back-to-nature-c64-remake
@@ -2376,7 +2376,7 @@
 - names:
     - Frogs and Flies
     - Frog Bog
-  clones:
+  remakes:
     - name: Batrachians
       updated: 2015-04-16
       url: http://perso.b2b2c.ca/~sarrazip/dev/batrachians.html
@@ -2388,7 +2388,7 @@
         - image: http://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
 
 - name: Frogger
-  clones:
+  remakes:
     - name: Froggix
       updated: 2015-04-15
       url: http://sourceforge.net/projects/froggix/
@@ -2401,7 +2401,7 @@
           url: https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg/182/137
 
 - name: Galaxian
-  clones:
+  remakes:
     - name: galaxian
       repo: https://github.com/codedrive/galaxian
       updated: 2015-05-28
@@ -2409,7 +2409,7 @@
       lang: ActionScript
 
 - name: Geometry Wars
-  clones:
+  remakes:
     - name: Geometry Wars Remake
       updated: 2015-04-13
       url: https://code.google.com/p/geomwarsremake/
@@ -2430,7 +2430,7 @@
         - image: http://worldofstuart.excellentcontent.com/grid/gw5.jpg
 
 - name: [Gish, "Gish (video game)"]
-  clones:
+  remakes:
     - name: freegish
       repo: https://github.com/freegish/freegish
       updated: 2015-04-08
@@ -2440,7 +2440,7 @@
       info: Content license CC-BY-SA
 
 - name: Gladiator
-  clones:
+  remakes:
     - name: Openglad
       url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi
       repo: http://snowstorm.svn.sourceforge.net/viewvc/snowstorm/
@@ -2457,7 +2457,7 @@
           image: http://snowstorm.sourceforge.net/screenshots/4-thumb.png
 
 - name: Glest
-  clones:
+  remakes:
     - name: Glest Advanced Engine
       url: http://sourceforge.net/projects/glestae/
       status: playable
@@ -2473,7 +2473,7 @@
           url: http://a.fsdn.com/con/app/proj/glestae/screenshots/226560.jpg/182/137
 
 - name: [Gods, Gods (video game)]
-  clones:
+  remakes:
     - name: Gods -Deluxe-
       url: http://jotd.pagesperso-orange.fr/gods/index.html
       updated: 2015-04-04
@@ -2484,7 +2484,7 @@
         - image: http://jotd.pagesperso-orange.fr/gods/snapshots/classic_level_1/images/view_0000.jpg
 
 - name: [GoldenEye 007, GoldenEye 007 (1997 video game)]
-  clones:
+  remakes:
     - name: ges-code
       updated: 2015-04-15
       url: http://www.moddb.com/mods/goldeneye-source
@@ -2503,7 +2503,7 @@
           image: http://media.moddb.com/images/mods/1/5/4506/ro3.jpg
 
 - name: [The Goonies, "The Goonies (video game)"]
-  clones:
+  remakes:
     - name: The Goonies
       updated: 2015-04-13
       url: http://www.braingames.getput.com/goonies/
@@ -2520,7 +2520,7 @@
           image: http://www.braingames.getput.com/goonies/pics/screenshot4.jpg
 
 - name: [Gorillas, Gorillas (video game)]
-  clones:
+  remakes:
     - name: Gorillas
       url: https://github.com/Lyndir/Gorillas
       repo: https://github.com/Lyndir/Gorillas
@@ -2533,7 +2533,7 @@
 - names:
     - [Gothic, "Gothic (video game)"]
     - Gothic II
-  clones:
+  remakes:
     - name: REGoth
       repo: https://github.com/degenerated1123/REGoth
       status: playable
@@ -2545,7 +2545,7 @@
         - image: http://oi65.tinypic.com/14mzzi8.jpg
 
 - name: Gravity Wars
-  clones:
+  remakes:
     - name: Slingshot
       updated: 2015-07-23
       url: http://slingshot.wikispot.org/
@@ -2560,7 +2560,7 @@
          - url: http://slingshot.wikispot.org/Screenshots?sendfile=true&file=sshot4.png
 
 - name: The Great Giana Sisters
-  clones:
+  remakes:
     - name: OpenGGS
       updated: 2015-06-28
       url: http://openggs.romanhoegg.ch/
@@ -2582,7 +2582,7 @@
     - Grim Fandango
     - Escape from Monkey Island
     - "Myst III: Exile"
-  clones:
+  remakes:
     - name: ResidualVM
       url: http://residualvm.org/
       development: active
@@ -2593,7 +2593,7 @@
   meta:
     genre: [Action, Driving/Racing]
     theme: [Crime]
-  clones:
+  remakes:
     - name: OpenGTA
       url: http://ogta.fifengine.de/
       repo: http://ogta.fifengine.de/cvs.html
@@ -2605,7 +2605,7 @@
   meta:
     genre: [Action, Driving/Racing]
     theme: [Crime]
-  clones:
+  remakes:
     - name: gta2net
       url: http://code.google.com/p/gta2net/
       repo: http://code.google.com/p/gta2net/source/browse/trunk
@@ -2614,7 +2614,7 @@
       updated: 2014-02-05
 
 - name: Grand Theft Auto III
-  clones:
+  remakes:
     - name: OpenRW "Open ReWrite"
       repo: https://github.com/danhedron/openrw
       updated: 2016-05-18
@@ -2623,7 +2623,7 @@
       development: active
 
 - name: Gravity Force
-  clones:
+  remakes:
     - name: Galaxy Forces V2
       url: http://www.galaxy-forces.com/
       repo: svn://svn.code.sf.net/p/galaxyv2/code/
@@ -2632,7 +2632,7 @@
       updated: 2015-04-03
 
 - name: Guitar Hero
-  clones:
+  remakes:
     - name: Frets on Fire
       url: http://fretsonfire.sourceforge.net/
       repo: http://sourceforge.net/p/fretsonfire/code/HEAD/tree/trunk/
@@ -2657,7 +2657,7 @@
         - youtube: JBjdzWomC4M
 
 - name: Halls of the Things
-  clones:
+  remakes:
     - name: Halls of the Things 2008/2011/2014 Remake
       updated: 2015-05-03
       url: http://whatisblueandfurry.com/hott/halls08.html
@@ -2666,7 +2666,7 @@
       lang: C#
 
 - name: [Hardwar, Hardwar (video game)]
-  clones:
+  remakes:
     - name: Hardwar
       url: http://www.hardwar.org/
       repo: https://github.com/andrewfenn/Hardwar
@@ -2677,7 +2677,7 @@
       updated: 2013-05-27
 
 - name: Haunted House
-  clones:
+  remakes:
     - name: HauntedHouse
       updated: 2015-07-14
       repo: https://github.com/KunoNoOni/HauntedHouse
@@ -2685,14 +2685,14 @@
       lang: ActionScript
 
 - name: [Heart of Darkness, "Heart of Darkness (video game)"]
-  clones:
+  remakes:
     - name: HODe
       repo: https://code.google.com/p/tombexcavator/source/browse/branches/v0/unsorted/hode-20090726
       development: halted
       lang: C++
 
 - name: [Heavy Smash, "http://www.mobygames.com/game/arcade/heavy-smash"]
-  clones:
+  remakes:
     - name: open-heavy-smash
       updated: 2015-05-28
       repo: https://github.com/namelivia/open-heavy-smash
@@ -2700,7 +2700,7 @@
       lang: C++
 
 - name: Hexen II
-  clones:
+  remakes:
     - name: Hammer of Thyrion
       url: http://uhexen2.sourceforge.net/
       repo: http://sourceforge.net/p/uhexen2/code/
@@ -2713,7 +2713,7 @@
         - image: http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9153.jpg
 
 - name: Heroes of Might and Magic II
-  clones:
+  remakes:
     - name: fheroes2
       url: http://sourceforge.net/projects/fheroes2/
       repo: http://fheroes2.svn.sourceforge.net/viewvc/fheroes2/
@@ -2724,7 +2724,7 @@
         - image: https://sourceforge.net/p/fheroes2/screenshot/191635.jpg
 
 - name: Heroes of Might and Magic III
-  clones:
+  remakes:
     - name: VCMI
       url: http://forum.vcmi.eu/portal.php
       repo: https://github.com/vcmi/vcmi
@@ -2738,7 +2738,7 @@
         - image: http://forum.vcmi.eu/album_pic.php?pic_id=35
         - image: http://forum.vcmi.eu/album_pic.php?pic_id=40
         - image: http://forum.vcmi.eu/album_pic.php?pic_id=41
-  reimplementations:
+  clones:
     - name: Ancient Beast
       url: http://AncientBeast.com
       repo: https://github.com/FreezingMoon/AncientBeast
@@ -2757,7 +2757,7 @@
           url: http://ancientbeast.com/media/?type=screenshots#id=2
 
 - name: Highway Encounter
-  clones:
+  remakes:
     - name: Vorton
       updated: 2015-05-03
       url: http://vorton.sourceforge.net/
@@ -2774,7 +2774,7 @@
           image: http://vorton.sourceforge.net/shot5.png
 
 - name: "History Line: 1914-1918"
-  clones:
+  remakes:
     - name: Historyline
       updated: 2015-05-03
       repo: https://github.com/oliverdb/Historyline
@@ -2789,7 +2789,7 @@
           image: https://conquertheworldbycode.files.wordpress.com/2013/10/screen.png
 
 - name: Homeworld
-  clones:
+  remakes:
     - name: Homeworld SDL
       url: http://www.thereisnospork.com/projects/homeworld/
       repo: http://www.thereisnospork.com/projects/homeworld/#download
@@ -2807,7 +2807,7 @@
           url: http://www.thereisnospork.com/projects/homeworld/images/screen04.png
 
 - name: HoverRace
-  clones:
+  remakes:
     - name: HoverRace
       repo: https://github.com/HoverRace/HoverRace
       updated: 2015-04-08
@@ -2816,7 +2816,7 @@
       license: Custom
 
 - name: Hovertank 3D
-  clones:
+  remakes:
     - name: Hovertank3D
       repo: https://github.com/FlatRockSoft/Hovertank3D
       updated: 2015-04-07
@@ -2827,7 +2827,7 @@
       license: GPL2
 
 - name: [Imperialism, "Imperialism (video game)"]
-  clones:
+  remakes:
     - name: imperialism-remake
       repo: https://github.com/Trilarion/Imperialism-Remake
       url: http://remake.twelvepm.de/
@@ -2840,7 +2840,7 @@
           url: http://remake.twelvepm.de/wp/wp-content/uploads/2014/04/EditorScreen.0.1.0-150x150.jpg
 
 - name: Imperium Galactica
-  clones:
+  remakes:
     - name: Open Imperium Galactica
       url: https://github.com/akarnokd/open-ig
       repo: https://github.com/akarnokd/open-ig
@@ -2852,7 +2852,7 @@
         - youtube: qHBUdUqqI-k
 
 - name: "Interstate '76"
-  clones:
+  remakes:
     - name: Interstate Outlaws
       updated: 2015-07-04
       development: halted
@@ -2867,7 +2867,7 @@
         - image: http://www.interstateoutlaws.com/media/io_poem_tmpl1.jpg
 
 - name: Iron Seed
-  clones:
+  remakes:
     - name: Iron Seed
       updated: 2015-04-08
       url: http://www.ironseed.com/
@@ -2877,7 +2877,7 @@
       license: GPL3
 
 - name: Jagged Alliance 2
-  clones:
+  remakes:
     - name: Jagged Alliance 2 - Stracciatella
       url: http://ja2-stracciatella.github.io/
       repo: https://github.com/ja2-stracciatella/ja2-stracciatella
@@ -2887,7 +2887,7 @@
       updated: 2013-05-27
 
 - name: Jazz Jackrabbit
-  clones:
+  remakes:
     - name: OpenJazz
       url: http://www.alister.eu/jazz/oj/
       repo: https://openjazz.svn.sourceforge.net/svnroot/openjazz/
@@ -2896,7 +2896,7 @@
       updated: 2013-05-27
 
 - name: "Jedi Knight II: Jedi Outcast"
-  clones:
+  remakes:
     - name: JediOutcastLinux
       url: https://github.com/xLAva/JediOutcastLinux
       updated: 2013-05-28
@@ -2905,7 +2905,7 @@
       lang: C++
 
 - name: "Jedi Knight: Jedi Academy"
-  clones:
+  remakes:
     - name: JediAcademyLinux
       url: https://github.com/xLAva/JediAcademyLinux
       updated: 2013-05-28
@@ -2920,7 +2920,7 @@
       lang: C++
 
 - name: "Jet-Story"
-  clones:
+  remakes:
     - name: "Jet-Story"
       updated: 2016-02-08
       repo: https://github.com/adamenkov/jet-story
@@ -2929,7 +2929,7 @@
       license: MIT
 
 - name: Jetpac
-  clones:
+  remakes:
     - name: Jetpac remake
       updated: 2015-05-10
       repo: https://github.com/ian-wigley/JetPac
@@ -2938,7 +2938,7 @@
       lang: C#
 
 - name: [Jewel Thief, "http://www.mobygames.com/game/win3x/jewel-thief"]
-  clones:
+  remakes:
     - name: jewelthief
       repo: https://github.com/frittatenbank/jewelthief
       updated: 2016-08-28
@@ -2952,7 +2952,7 @@
         - image: https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163421.png
 
 - name: JezzBall
-  clones:
+  remakes:
     - name: Ice Breaker
       updated: 2015-05-09
       url: http://mattdm.org/icebreaker/
@@ -2968,7 +2968,7 @@
           url: http://mattdm.org/icebreaker/images/screenshot-level6-stars-thumb.png
 
 - name: [Joust, Joust (video game)]
-  clones:
+  remakes:
     - name: Ostrich Riders
       updated: 2015-04-15
       url: http://identicalsoftware.com/ostrichriders/
@@ -2983,7 +2983,7 @@
           url: https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229617.jpg/182/137
 
 - name: "Jumpgate: The Reconstruction Initiative"
-  clones:
+  remakes:
     - name: Open Jumpgate
       url: http://sourceforge.net/projects/opengate/
       updated: 2014-09-05
@@ -2991,7 +2991,7 @@
       lang: C++
 
 - name: "Jump 'n Bump"
-  clones:
+  remakes:
     - name: Jump'n'Bump
       updated: 2015-04-25
       url: https://www.icculus.org/jumpnbump/
@@ -3000,7 +3000,7 @@
       license: GPL2
 
 - name: [Jumping Jack, "Jumping Jack (arcade game)"]
-  clones:
+  remakes:
     - name: "Jumping Jack: Further Adventures"
       updated: 2015-04-13
       url: http://retrospec.sgn.net/game/jj
@@ -3015,7 +3015,7 @@
       repo: http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip
 
 - name: Jumpman
-  clones:
+  remakes:
     - name: Jumpman
       url: http://www.oldskool.org/pc/jumpman
       updated: 2015-05-09
@@ -3026,7 +3026,7 @@
         - image: http://www.oldskool.org/pc/jumpman/level01.gif
 
 - name: [Kaboom!, Kaboom! (video game)]
-  clones:
+  remakes:
     - name: DonkeyInTrouble
       updated: 2015-06-22
       repo: https://github.com/Zap123/DonkeyInTrouble
@@ -3035,7 +3035,7 @@
       framework: LÖVE
 
 - name: [Kid Chameleon, Kid Chameleon (video game)]
-  clones:
+  remakes:
     - name: KidChameleonRemake
       updated: 2015-05-29
       repo: https://github.com/mp1011/KidChameleonRemake
@@ -3043,7 +3043,7 @@
       lang: C#
 
 - name: [Knights, Knights (video game)]
-  clones:
+  remakes:
     - name: Knights
       updated: 2015-04-15
       url: http://www.knightsgame.org.uk/
@@ -3060,7 +3060,7 @@
         - image: http://www.knightsgame.org.uk/images/quest_selection.png
 
 - name: Knights and Merchants
-  clones:
+  remakes:
     - name: KaM Remake
       url: http://www.kamremake.com/
       repo: https://github.com/Kromster80/kam_remake
@@ -3081,7 +3081,7 @@
     - Kula World
     - Roll Away
     - Kula Quest
-  clones:
+  remakes:
     - name: Cubosphere
       updated: 2015-04-14
       url: http://sourceforge.net/projects/cubosphere/
@@ -3091,7 +3091,7 @@
       license: GPL3
 
 - name: [Ladder, Ladder (video game)]
-  clones:
+  remakes:
     - name: Ladder
       updated: 2015-05-09
       url: http://gamesoft.ca/remakes.html
@@ -3119,7 +3119,7 @@
         - image: https://raw.githubusercontent.com/SmallRoomLabs/ladder/master/images/GameRunning1.png
 
 - name: [Larn, Larn (video game)]
-  clones:
+  remakes:
     - name: NLarn
       updated: 2015-07-12
       url: http://nlarn.sourceforge.net/
@@ -3131,7 +3131,7 @@
       license: GPL2
 
 - name: [Legion, "http://www.mobygames.com/game/legion__"]
-  clones:
+  remakes:
     - name: legion
       updated: 2015-06-22
       repo: https://github.com/mahho/legion
@@ -3141,7 +3141,7 @@
       license: Custom
 
 - name: [Lego Rock Raiders, Lego Rock Raiders (video game)]
-  clones:
+  remakes:
     - name: rock-raiders-remake
       updated: 2015-09-21
       repo: https://github.com/rystills/rock-raiders-remake
@@ -3149,7 +3149,7 @@
       lang: JavaScript
 
 - name: [The Lord of the Rings Volume 1, "J.R.R. Tolkien's The Lord of the Rings, Vol. I (1990 video game)"]
-  clones:
+  remakes:
     - name: Lord of the Rings game engine
       url: http://www.wonderland.cz/lotr/
       repo: http://git.wonderland.cz/lotr/
@@ -3164,7 +3164,7 @@
           url: http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr2.png
 
 - name: Liero
-  clones:
+  remakes:
     - name: OpenLiero
       url: http://code.google.com/p/liero/
       development: halted
@@ -3192,7 +3192,7 @@
       updated: 2013-05-27
 
 - name: [Lionheart, Lionheart (video game)]
-  clones:
+  remakes:
     - name: Lionheart Remake
       updated: 2015-04-12
       repo: https://github.com/DjThunder/lionheart-remake
@@ -3206,7 +3206,7 @@
           image: http://www.b3dgs.com/v7/projects/lionheart_remake/screens/3.png
 
 - name: Little Big Adventure
-  clones:
+  remakes:
     - name: twin-e
       url: https://code.google.com/p/twin-e/
       repo: https://code.google.com/p/twin-e/source/browse/
@@ -3218,7 +3218,7 @@
       updated: 2014-11-09
 
 - name: [Locomotion (Amiga 1992), "http://www.mobygames.com/game/locomotion"]
-  clones:
+  remakes:
     - name: Pendomotion
       updated: 2015-07-14
       repo: https://github.com/Pafycio/Pendomotion
@@ -3226,7 +3226,7 @@
       lang: Python
 
 - name: Lode Runner
-  clones:
+  remakes:
     - name: XScavenger
       url: http://www.xdr.com/dash/scavenger.html
       status: playable
@@ -3253,7 +3253,7 @@
           image: https://www.kde.org/images/screenshots/kgoldrunner.png
 
 - name: ["Log!cal", "http://hol.abime.net/906"]
-  clones:
+  remakes:
     - name: Orbium
       url: http://bni.github.io/orbium/
       repo: https://github.com/bni/orbium
@@ -3283,7 +3283,7 @@
           image: http://pathological.sourceforge.net/screenshots/triggerpractice.png
 
 - name: [Lose Your Marbles, Sega Puzzle Pack]
-  clones:
+  remakes:
     - name: Lose Your Marbles
       updated: 2015-04-12
       repo: https://github.com/eguneys/lose-your-marbles
@@ -3292,7 +3292,7 @@
       license: MIT
 
 - name: Lumines
-  clones:
+  remakes:
     - name: luminesk5
       updated: 2015-04-13
       repo: https://github.com/kaikai2/luminesk5
@@ -3305,7 +3305,7 @@
     - マジカルドロップ
     - MagiDro
     - マジドロ
-  clones:
+  remakes:
     - name: Krystal Drop
       url: http://krystaldrop.sourceforge.net/
       updated: 2015-04-15
@@ -3328,7 +3328,7 @@
           image: http://krystaldrop.sourceforge.net/images/sshot6.png
 
 - name: Marble Madness
-  clones:
+  remakes:
     - name: Marble Madness 3d
       repo: https://github.com/davido262/marble-madness-3d
       development: halted
@@ -3342,7 +3342,7 @@
       updated: 2015-04-03
 
 - name: Metroid Prime
-  clones:
+  remakes:
     - name: urde
       updated: 2016-03-08
       repo: https://github.com/AxioDL/urde
@@ -3354,7 +3354,7 @@
       license: MIT
 
 - name: Missile Command
-  clones:
+  remakes:
     - name: Missile Command
       url: https://github.com/chadpaulson/missile-command
       repo: https://github.com/chadpaulson/missile-command
@@ -3367,7 +3367,7 @@
         - youtube: DviEWbUvv2Y
 
 - name: [Mad TV, Mad TV (video game)]
-  clones:
+  remakes:
     - name: TVTower
       url: http://www.tvgigant.de/en/index
       development: active
@@ -3378,7 +3378,7 @@
       updated: 2014-08-16
 
 - name: [Maxit, "https://www.mobygames.com/game/dos/maxit/reviews/reviewerId,246576/"]
-  clones:
+  remakes:
     - name: Maxit
       repo: http://gamesoft.ca/bestgames/maxit%20-%20src.zip
       lang: Java
@@ -3401,7 +3401,7 @@
           image: https://a.fsdn.com/con/app/proj/maxit/screenshots/183588.jpg
 
 - name: The Maze of Galious
-  clones:
+  remakes:
     - name: The Maze of Galious
       updated: 2015-04-13
       url: http://www.braingames.getput.com/mog/
@@ -3419,7 +3419,7 @@
         - image: http://www.braingames.getput.com/mog/pics/screenshot8.jpg
 
 - name: "Medal of Honor: Allied Assault"
-  clones:
+  remakes:
     - name:  OpenMoHAA
       repo: https://github.com/openmoh/openmohaa
       url: http://openmohaa.sourceforge.net/
@@ -3434,7 +3434,7 @@
         - image: http://openmohaa.sourceforge.net/media/hud.jpg
 
 - name: Monty Mole
-  clones:
+  remakes:
     - name:  Monty Mole PC remake
       updated: 2015-04-13
       url: http://sourceforge.net/projects/montymole/
@@ -3448,7 +3448,7 @@
           url: https://a.fsdn.com/con/app/proj/montymole/screenshots/28060.jpg/182/137
 
 - name: Moonbase Commander
-  clones:
+  remakes:
     - name: Scorched Moon
       updated: 2015-06-24
       url: http://scorched-moon.github.io/site/
@@ -3458,7 +3458,7 @@
       license: GPL3
 
 - name: Mortal Kombat
-  clones:
+  remakes:
     - name: mk.js
       updated: 2015-05-19
       repo: https://github.com/mgechev/mk.js
@@ -3467,7 +3467,7 @@
       lang: JavaScript
       license: MIT
       url: http://mk.mgechev.com/
-  reimplementations:
+  clones:
     - name: OpenMortal
       url: http://apocalypse.rulez.org/~upi/Mortal/
       repo: http://openmortal.cvs.sourceforge.net/openmortal/openmortal/
@@ -3478,7 +3478,7 @@
         - image: http://openmortal.sourceforge.net/images/screenshot3.jpg
 
 - name: The Need for Speed
-  clones:
+  remakes:
     - name: OpenNFS1
       updated: 2015-04-11
       url: http://1amstudios.com/projects/opennfs1/
@@ -3494,7 +3494,7 @@
         - youtube: Xfv_UrDq-As
 
 - name: Need For Speed II SE
-  clones:
+  remakes:
     - name: NFSIISE
       repo: https://github.com/zaps166/NFSIISE
       status: playable
@@ -3508,7 +3508,7 @@
         - image: https://i.imgur.com/DRyjX57.jpg
 
 - name: [Night Stalker, Night Stalker (video game)]
-  clones:
+  remakes:
     - name: Afternoon Stalker
       url: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html
       repo: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker-1.1.5.tar.gz
@@ -3521,7 +3521,7 @@
           url: http://perso.b2b2c.ca/~sarrazip/dev/images/afternoonstalker-1-tn.png
 
 - name: [Octopus, "List of Game & Watch games#Octopus"]
-  clones:
+  remakes:
     - name: Octopus
       updated: 2016-08-02
       repo: https://github.com/roger-wetzel/Octopus
@@ -3535,7 +3535,7 @@
 - names:
     - "Oddworld: Abe's Oddysee"
     - "Oddworld: Abe's Exoddus"
-  clones:
+  remakes:
     - name: alive
       repo: https://github.com/paulsapps/alive
       updated: 2016-03-08
@@ -3546,7 +3546,7 @@
         - image: https://raw.githubusercontent.com/paulsapps/alive/dev/doc/screenshots/alive1.png
 
 - name: [Outcast, Outcast (video game)]
-  clones:
+  remakes:
     - name: OpenOutcast
       updated: 2014-04-11
       url: http://www.openoutcast.org/wp/
@@ -3562,7 +3562,7 @@
     - Outrun
     - アウト ラン
     - Auto Ran
-  clones:
+  remakes:
     - name: Cannonball
       url: https://github.com/djyt/cannonball/wiki
       repo: https://github.com/djyt/cannonball
@@ -3584,7 +3584,7 @@
         - image: http://outruncpc.free.fr/images/CPC03.jpg
 
 - name: Oxyd
-  clones:
+  remakes:
     - name: Enigma
       url: http://www.nongnu.org/enigma/
       repo: svn://svn.code.sf.net/p/enigma-game/source
@@ -3593,7 +3593,7 @@
       updated: 2013-05-27
 
 - name: Pac-Man
-  clones:
+  remakes:
     - name: pacman
       updated: 2015-05-19
       repo: https://github.com/daleharvey/pacman
@@ -3643,7 +3643,7 @@
       license: MIT
 
 - name: "Pitfall!"
-  clones:
+  remakes:
     - name: div-pitfall
       repo: https://github.com/MikeDX/div-pitfall
       updated: 2016-04-30
@@ -3653,7 +3653,7 @@
       license: MIT
 
 - name: "Populous: The Beginning"
-  clones:
+  remakes:
     - name: OpenPop
       repo: svn://svn.code.sf.net/p/openpopulous/code/trunk
       updated: 2015-04-07
@@ -3666,7 +3666,7 @@
           image: https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg
 
 - name: [Portal, Portal (video game)]
-  clones:
+  remakes:
     - name: glPortal
       url: http://glportal.de/
       repo: https://github.com/GlPortal/glPortal
@@ -3679,7 +3679,7 @@
         - image: http://glportal.de/wp-content/uploads/2013/06/NewCake1-1000x250.png
 
 - name: Prince of Persia
-  clones:
+  remakes:
     - name: SDLPoP
       url: http://www.popot.org/get_the_games.php?game=SDLPoP
       repo: https://github.com/NagyD/SDLPoP
@@ -3695,7 +3695,7 @@
       updated: 2014-01-12
 
 - name: [Quadnet, "https://www.mobygames.com/game/dos/quadnet"]
-  clones:
+  remakes:
     - name: Mauvenet
       updated: 2015-05-09
       repo: http://gamesoft.ca/bestgames/mauvenet_.zip
@@ -3705,7 +3705,7 @@
         - image: http://gamesoft.ca/bestgames/images/mauvenet3.png
 
 - name: Quake
-  clones:
+  remakes:
     - name: DarkPlaces
       url: https://icculus.org/twilight/darkplaces/
       repo: https://svn.icculus.org/twilight/trunk/darkplaces/
@@ -3752,7 +3752,7 @@
       updated: 2015-04-03
 
 - name: Quake 2
-  clones:
+  remakes:
     - name: Jake2
       url: http://bytonic.de/html/jake2.html
       repo: git://git.code.sf.net/p/jake2/git
@@ -3772,7 +3772,7 @@
       license: GPL2
 
 - name: Quake 3
-  clones:
+  remakes:
     - name: ioquake3
       url: http://ioquake3.org/
       repo: https://github.com/ioquake/ioq3
@@ -3811,7 +3811,7 @@
       license: MIT
 
 - name: "Ken's Labyrinth"
-  clones:
+  remakes:
     - name: LAB3D/SDL
       updated: 2015-04-10
       url: https://icculus.org/LAB3D/
@@ -3825,7 +3825,7 @@
         - image: https://icculus.org/LAB3D/captur03.png
 
 - name: ["Lugaru: The Rabbit's Foot", Lugaru]
-  clones:
+  remakes:
     - name: Lugaru
       updated: 2015-04-11
       url: https://hg.icculus.org/icculus/lugaru/
@@ -3835,7 +3835,7 @@
       license: GPL2
 
 - name: M.U.L.E.
-  clones:
+  remakes:
     - name: mewl
       updated: 2015-09-21
       repo: https://github.com/LionsPhil/mewl
@@ -3844,7 +3844,7 @@
       license: GPL2
 
 - name: [Magic Carpet, Magic Carpet (video game)]
-  clones:
+  remakes:
     - name: magiccarpet
       repo: https://github.com/wonea/magiccarpet
       development: halted
@@ -3852,7 +3852,7 @@
       updated: 2016-04-20
 
 - name: Manic Miner
-  clones:
+  remakes:
     - name: Manic Miner
       updated: 2015-05-09
       url: http://www.andynoble.co.uk/games.htm
@@ -3863,7 +3863,7 @@
     - [Marathon, Marathon_(video_game)]
     - Marathon 2
     - Marathon Infinity
-  clones:
+  remakes:
     - name: Aleph One
       url: http://marathon.sourceforge.net/
       development: active
@@ -3875,7 +3875,7 @@
         - image: http://marathon.sourceforge.net/images/m3_collage.png
 
 - name: Mario World
-  clones:
+  remakes:
     - name: Secret Maryo Chronicles
       url: http://secretmaryo.org/
       repo: https://github.com/FluXy/SMC
@@ -3906,7 +3906,7 @@
       lang: JavaScript
 
 - names: [Master of Monsters, Warsong]
-  reimplementations:
+  clones:
     - name: The Battle for Wesnoth
       url: https://www.wesnoth.org/
       repo: http://wiki.wesnoth.org/WesnothRepository
@@ -3932,7 +3932,7 @@
         - youtube: w3P39lppcH4
 
 - name: Master of Orion 2
-  clones:
+  remakes:
     - url: http://openmoo2.org/en/
       name: OpenMOO2
       development: sporadic
@@ -3947,7 +3947,7 @@
           image: http://openmoo2.org/static/20/colony-moo2-small.png
 
 - name: [M.A.X., Mechanized Assault & Exploration]
-  clones:
+  remakes:
     - url: http://www.maxr.org/
       name: Mechanized Assault and eXploration Reloaded
       development: sporadic
@@ -3964,7 +3964,7 @@
           image: http://www.maxr.org/images/screenshots/thumb/10-thumb.jpg
 
 - name: [Mech Warrior, MechWarrior (video game series)]
-  clones:
+  remakes:
     - name: LinWarrior
       repo: https://github.com/hackcraft-de/linwarrior
       development: halted
@@ -3976,7 +3976,7 @@
         - url: http://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg
 
 - name: MechCommander 2
-  clones:
+  remakes:
     - name: MechCommander 2 Omnitech
       updated: 2015-04-08
       repo: https://github.com/Echelon9/mechcommander2-open
@@ -3985,7 +3985,7 @@
       license: MS-PL
 
 - name: Mega Lo Mania
-  clones:
+  remakes:
     - name: Gigalomania
       url: http://homepage.ntlworld.com/mark.harman/comp_gigalomania.html
       repo: http://sourceforge.net/p/gigalomania/code/ci/master/tree/
@@ -3999,7 +3999,7 @@
         - youtube: lTtT9p9DVL8
 
 - name: [MegaMan, MegaMan (video game)]
-  clones:
+  remakes:
     - name: Executive Man
       repo: https://github.com/CamHenlin/ExecutiveMan
       updated: 2015-05-02
@@ -4010,7 +4010,7 @@
         - image: https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png
 
 - name: Meridian 59
-  clones:
+  remakes:
     - name: Open Meridian
       updated: 2015-06-02
       url: http://openmeridian.org
@@ -4034,7 +4034,7 @@
       license: GPL2
 
 - name: [Millipede, Millipede (video game)]
-  clones:
+  remakes:
     - name: Monsters and Mushrooms
       updated: 2015-04-11
       url: http://pygame.org/project-Monsters+and+Mushrooms-989-.html
@@ -4047,7 +4047,7 @@
           image: http://pygame.org/shots/989.png
 
 - name: Minecraft
-  clones:
+  remakes:
     - url: http://www.minetest.net/
       name: Minetest
       development: active
@@ -4132,7 +4132,7 @@
       license: GPL2
 
 - name: [Minesweeper, Minesweeper (video game)]
-  clones:
+  remakes:
     - name: Minesweeper
       updated: 2015-09-28
       repo: https://github.com/rachelreese/Minesweeper
@@ -4141,7 +4141,7 @@
       info: iOS
 
 - name: [Movie Business, "http://www.gamebase64.com/game.php?id=14674&d=18"]
-  clones:
+  remakes:
     - name: movbizz
       repo: https://github.com/teruk/movbizz
       updated: 2015-06-01
@@ -4153,7 +4153,7 @@
       url: http://movbizz.sebbmeyer.de/
 
 - name: [Nebulus, Nebulus (video game)]
-  clones:
+  remakes:
     - name: Toppler
       url: http://toppler.sourceforge.net/
       development: sporadic
@@ -4165,7 +4165,7 @@
         - image: http://toppler.sourceforge.net/images/old-c64.png
 
 - name: Nether Earth
-  clones:
+  remakes:
     - name: Nether Earth Remake
       updated: 2015-04-13
       url: http://www2.braingames.getput.com/nether/default.asp
@@ -4185,7 +4185,7 @@
     - [The Witcher, The Witcher (video game)]
     - "Dragon Age: Origins"
     - Dragon Age II
-  clones:
+  remakes:
     - name: xoreos
       url: https://xoreos.org/
       repo: https://github.com/xoreos/xoreos
@@ -4199,7 +4199,7 @@
         - youtube: WaRfBsZVO3Y
 
 - name: Nodes of Yesod
-  clones:
+  remakes:
     - name: Nodes of Yesnod remake
       updated: 2015-05-10
       repo: https://github.com/ian-wigley/Nodes-of-Yesod
@@ -4208,7 +4208,7 @@
       lang: C#
 
 - name: "One Must Fall: 2097"
-  clones:
+  remakes:
     - name: OpenOMF
       url: http://www.openomf.org/
       repo: https://github.com/omf2097/openomf/
@@ -4243,7 +4243,7 @@
       license: BSD4
 
 - name: [Overflow, "http://amigagamer.blogspot.co.uk/2012/11/overflow-amiga-pipemania-clone.html"]
-  clones:
+  remakes:
     - name: JOverflow
       updated: 2015-06-22
       repo: https://github.com/bluepoke/JOverflow
@@ -4251,7 +4251,7 @@
       lang: Java
 
 - name: Panzer General
-  clones:
+  remakes:
     - name: OpenGeneral
       development: sporadic
       lang: C++
@@ -4280,7 +4280,7 @@
           url: http://lgames.sourceforge.net/LGeneral/ss1.jpg
 
 - name: [Paratrooper, Paratrooper (video game)]
-  clones:
+  remakes:
     - name: Paratrooper
       updated: 2015-04-11
       url: http://pygame.org/project-Paratrooper-706-.html
@@ -4292,7 +4292,7 @@
           url: http://pygame.org/thumb/65b19eb3798f52835fe9b4b12f9d69ba.png
 
 - name: [Phantasy, Phantasy Star (video game)]
-  clones:
+  remakes:
     - name: Phantasy
       updated: 2015-05-28
       repo: https://github.com/rafael-esper/Phantasy
@@ -4300,7 +4300,7 @@
       lang: Java
 
 - name: Pipe Mania
-  clones:
+  remakes:
     - name: Pipemania
       updated: 2015-06-01
       repo: https://github.com/zbiq13/Pipemania
@@ -4309,7 +4309,7 @@
       framework: Love3D
 
 - name: [Pokémon, Pokémon (video game series)]
-  clones:
+  remakes:
     - name: Tuxemon
       url: http://www.tuxemon.org/
       repo: https://github.com/Tuxemon/Tuxemon
@@ -4324,7 +4324,7 @@
         - image: http://www.tuxemon.org/images/featurette-02.png
 
 - name: Pokémon Mystery Dungeon
-  clones:
+  remakes:
     - name: "PKMN-FX"
       repo: https://github.com/jonasdemoor/PKMN-FX
       development: active
@@ -4333,7 +4333,7 @@
       lang: Java
 
 - name: [Pole Position, Pole Position (video game)]
-  clones:
+  remakes:
     - name: grid-leader
       updated: 2015-06-22
       repo: https://github.com/jonathanopalise/grid-leader
@@ -4342,7 +4342,7 @@
       framework: Panda3D
 
 - name: Progress Quest
-  clones:
+  remakes:
     - name: pq2
       updated: 2016-06-03
       repo: https://github.com/nbollom/pq2
@@ -4352,7 +4352,7 @@
       development: active
 
 - name: [Punch-Out!!, Punch-Out!! (arcade game)]
-  clones:
+  remakes:
     - name: THREEPunchOut
       updated: 2015-08-15
       repo: https://github.com/MattSzik/THREEPunchOut
@@ -4360,7 +4360,7 @@
       lang: JavaScript
 
 - name: [Pushover, Pushover (video game)]
-  clones:
+  remakes:
     - name: Pushover
       url: http://pushover.sourceforge.net/
       status: playable
@@ -4377,7 +4377,7 @@
           url: http://pushover.sourceforge.net/images/Screenshot4.jpg
 
 - name: [Puzznic / Brix, Brix (video game)]
-  clones:
+  remakes:
     - name: Wizznic!
       url: http://dustedgames.blogspot.com.au/p/wizznic.html
       status: playable
@@ -4394,7 +4394,7 @@
           url: http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png
 
 - name: Q*bert
-  clones:
+  remakes:
     - name: ReQbert
       repo: https://github.com/leonicolas/ReQbert
       updated: 2015-05-18
@@ -4403,7 +4403,7 @@
       license: GPL3
 
 - name: "R-Type"
-  clones:
+  remakes:
     - name: R-Type Clone from Octobinz
       url: http://www.mobuware.net/nintendo-ds-os/r-type-clone-from-octobinz-nds-and-source-code-get-free-170451.html
       repo: http://www.mobuware.net/get-software-170451.html
@@ -4417,7 +4417,7 @@
       lang: C++
 
 - name: Railroad_Tycoon
-  clones:
+  remakes:
      - name: FreeRails
        url: http://freerails.sourceforge.net/
        development: halted
@@ -4440,7 +4440,7 @@
          - url: http://freerails2.sourceforge.net/screenshots/jfreerails_0_2_6_320x240.png
 
 - name: [Rampart, Rampart (video game)]
-  clones:
+  remakes:
     - name: Escalade
       updated: 2015-04-17
       repo: https://github.com/mdr/escalade
@@ -4454,7 +4454,7 @@
       lang: Java
 
 - name: "Raptor: Call of the Shadows"
-  clones:
+  remakes:
     - name: raptor
       updated: 2015-05-03
       repo: https://github.com/robgietema/raptor
@@ -4462,7 +4462,7 @@
       lang: JavaScript
 
 - name: Redneck Rampage
-  clones:
+  remakes:
     - name: erampage (EDuke32 fork)
       url: https://code.google.com/p/erampage/
       development: active
@@ -4471,7 +4471,7 @@
       updated: 2013-05-29
 
 - name: Rescue!
-  clones:
+  remakes:
     - name: Rescue! Max
       updated: 2015-04-25
       url: http://rescue.sourceforge.net/
@@ -4486,7 +4486,7 @@
           image: http://rescue.sourceforge.net/screenshots/rescue1.0b.png
 
 - name: Rick Dangerous
-  clones:
+  remakes:
     - name: xrick
       url: http://www.bigorno.net/xrick
       status: playable
@@ -4502,7 +4502,7 @@
       updated: 2015-04-03
 
 - name: Rise of the Triad
-  clones:
+  remakes:
     - name: Rise of the Triad for Linux
       url: http://icculus.org/rott/
       repo: http://svn.icculus.org/rott/trunk/
@@ -4511,7 +4511,7 @@
       updated: 2013-05-27
 
 - name: River Raid
-  clones:
+  remakes:
     - name: Ruby Raid
       updated: 2015-05-15
       repo: https://github.com/zukunftsalick/ruby-raid
@@ -4519,7 +4519,7 @@
       lang: Ruby
 
 - name: The Adventures of Robbo
-  clones:
+  remakes:
     - name: Robbo
       url: http://dizaina.net/z/robbo/
       repo: https://github.com/Zibx/robbo
@@ -4529,7 +4529,7 @@
       updated: 2014-03-21
 
 - name: Road Fighter
-  clones:
+  remakes:
    - name: Road Fighter
      updated: 2015-04-13
      url: http://www.braingames.getput.com/roadf/default.asp
@@ -4547,7 +4547,7 @@
          image: http://www.braingames.getput.com/roadf/pics/screenshot4.jpg
 
 - name: Robotfindskitten
-  clones:
+  remakes:
     - name: rfk-inform
       repo: https://github.com/DavidGriffith/rfk-inform
       development: halted
@@ -4558,7 +4558,7 @@
         - image: http://robotfindskitten.org/shots/Inform/rfk-inform03.png
 
 - name: "Robotron: 2084"
-  clones:
+  remakes:
     - name: robotron
       repo: https://github.com/Ernir/robotron
       url: https://github.com/Ernir/robotron
@@ -4567,7 +4567,7 @@
       lang: JavaScript
 
 - name: "Rodent's Revenge"
-  clones:
+  remakes:
     - name: Open Rodent's Revenge
       updated: 2015-05-03
       repo: svn://svn.code.sf.net/p/o2r/code/trunk
@@ -4589,7 +4589,7 @@
           url: https://a.fsdn.com/con/app/proj/o2r/screenshots/267946.jpg/182/137
 
 - name: RollerCoaster Tycoon
-  clones:
+  remakes:
     - name: FreeRCT
       url: http://freerct.org/
       repo: http://github.com/FreeRCT/FreeRCT
@@ -4598,7 +4598,7 @@
       updated: 2013-07-05
 
 - name: RollerCoaster Tycoon 2
-  clones:
+  remakes:
     - name: OpenRCT2
       url: https://openrct2.com/
       repo: https://github.com/IntelOrca/OpenRCT2
@@ -4610,7 +4610,7 @@
         - image: http://i.imgur.com/kTkK5Gw.png
 
 - name: Ryzom
-  clones:
+  remakes:
     - name: Ryzom Core
       updated: 2015-04-13
       url: http://www.ryzomcore.org/
@@ -4625,7 +4625,7 @@
         - url: http://www.ryzomcore.org/content/images/2014/Apr/screenshot004_sound_debug-1.png
 
 - name: [Scorched Earth, Scorched Earth (video game)]
-  clones:
+  remakes:
     - name: Atomic Tanks
       url: http://atanks.sourceforge.net/
       status: playable
@@ -4638,7 +4638,7 @@
           url: http://atanks.sourceforge.net/Screenshots/scrnshot23.png
 
 - name: [Scramble, Scramble (video game)]
-  clones:
+  remakes:
     - name: Scramble
       updated: 2015-05-09
       lang: PowerBASIC
@@ -4647,7 +4647,7 @@
         - image: http://gamesoft.ca/bestgames/images/scrcap06.png
 
 - name: [Seaquest, Seaquest (video game)]
-  clones:
+  remakes:
     - name: Seaquest
       repo: https://github.com/brunocmorais/Seaquest
       updated: 2015-06-22
@@ -4655,7 +4655,7 @@
       lang: C#
 
 - name: "Shadowgrounds: Survivor"
-  clones:
+  remakes:
     - name: shadowgrounds
       repo: https://github.com/vayerx/shadowgrounds
       updated: 2015-04-14
@@ -4664,7 +4664,7 @@
       license: Custom
 
 - name: [Simon, Simon (game)]
-  clones:
+  remakes:
     - name: asdf
       updated: 2015-05-28
       repo: https://github.com/TimPietrusky/asdf
@@ -4673,7 +4673,7 @@
       license: MIT
 
 - name: Skool Daze
-  clones:
+  remakes:
     - name: pyskool
       url: http://pyskool.ca/
       repo: https://github.com/skoolkid/pyskool
@@ -4690,7 +4690,7 @@
         - image: http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-wide-0.4.png
 
 - name: "Space Rangers 2: Dominators"
-  clones:
+  remakes:
     - name: OpenSR
       repo: https://github.com/ObKo/OpenSR
       updated: 2015-04-03
@@ -4700,7 +4700,7 @@
         - Python
 
 - name: Strike Commander
-  clones:
+  remakes:
     - name: libRealSpace
       url: http://fabiensanglard.net/reverse_engineering_strike_commander/index.php
       repo: https://github.com/fabiensanglard/libRealSpace
@@ -4709,7 +4709,7 @@
       updated: 2014-01-05
 
 - name: Strikers 1945
-  clones:
+  remakes:
     - name: Py1945
       updated: 2015-04-13
       url: https://code.google.com/p/py1945game/
@@ -4722,7 +4722,7 @@
   meta:
     genre: [Sports]
     subgenre: [Soccer]
-  clones:
+  remakes:
     - name: FreeKick
       url: https://codeflow.wordpress.com/tag/sensible-soccer/
       repo: https://github.com/anttisalonen/freekick3
@@ -4739,7 +4739,7 @@
       license: GPL
 
 - name: [Sensitive, "https://www.mobygames.com/game/c64/sensitive"]
-  clones:
+  remakes:
     - name: One Way To Go
       repo: https://github.com/purplehuman/onewaytogo
       development: active
@@ -4753,7 +4753,7 @@
           image: https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/owtg_zpsc6792600.PNG
 
 - name: [The Sentinel, The Sentinel (video game)]
-  clones:
+  remakes:
     - name: sentinel
       repo: https://github.com/virgo47/sentinel
       updated: 2015-05-29
@@ -4761,7 +4761,7 @@
       lang: JavaFX
 
 - name: [Seven Kingdoms, Seven Kingdoms (computer game)]
-  clones:
+  remakes:
     - name: "Seven Kingdoms: Ancient Adversaries"
       development: active
       lang: C++
@@ -4769,7 +4769,7 @@
       repo: http://7kfans.com/git/?p=7kaa.git;a=summary
 
 - name: Shining Force II
-  clones:
+  remakes:
     - name: Shining Force 2 Reverse Engineer (SF2RE)
       updated: 2015-05-10
       repo: https://github.com/ShiningForceCentral/SF2RE
@@ -4778,7 +4778,7 @@
       lang: C
 
 - name: Shining Soul
-  clones:
+  remakes:
     - name: Shining-Soul-Remake
       updated: 2016-04-11
       repo: https://github.com/CharlieIsMyName/Shining-Soul-Remake
@@ -4786,7 +4786,7 @@
       lang: Python
 
 - name: "Sid Meier's Alpha Centauri"
-  clones:
+  remakes:
     - name: Freeciv Alpha Centauri project
       updated: 2015-04-11
       url: http://freecivac.sourceforge.net/
@@ -4798,7 +4798,7 @@
         - image: http://freecivac.sourceforge.net/pics/govchange.png
 
 - name: "Sid Meier's Colonization"
-  clones:
+  remakes:
     - name: FreeCol
       url: http://www.freecol.org/
       repo: http://freecol.svn.sourceforge.net/viewvc/freecol/
@@ -4822,7 +4822,7 @@
       license: AGPL3
 
 - name: "Sid Meier's Pirates!"
-  clones:
+  remakes:
     - name: Crown and Cutlass
       updated: 2015-04-15
       url: http://www.crownandcutlass.com/
@@ -4839,7 +4839,7 @@
           url: http://www.crownandcutlass.com/screenshots/images/CCNavalBattle_thumb.jpg
 
 - name: Shadow Warrior
-  clones:
+  remakes:
     - name: JonoF's Shadow Warrior Port (JFSW)
       url: http://www.jonof.id.au/jfsw
       repo: http://svnweb.freebsd.org/ports/head/games/jfsw/
@@ -4861,7 +4861,7 @@
         - youtube: JePqKJd4hhw
 
 - name: [Siege, Siege (video game)]
-  clones:
+  remakes:
     - name: FreeSiege
       url: http://freesiege.sourceforge.net/
       repo: https://github.com/MCMic/freesiege
@@ -4874,7 +4874,7 @@
         - image: http://freesiege.sourceforge.net/screens/screen1.png
 
 - name: Siege of Avalon
-  clones:
+  remakes:
     - name: Siege of Avalon Open Source
       updated: 2015-04-08
       url: http://soaos.sourceforge.net/
@@ -4891,7 +4891,7 @@
           url: http://soaos.sourceforge.net/images/shots/scrshot4_small.jpg
 
 - name: [Silencer, Silencer (video game)]
-  clones:
+  remakes:
     - name: zSILENCER
       url: http://zsilencer.com/
       status: playable
@@ -4905,7 +4905,7 @@
         - youtube: mojUQUONp4M
 
 - name: Silent Hunter 4
-  clones:
+  remakes:
     - name: Danger from the Deep
       development: sporadic
       lang: C++
@@ -4923,7 +4923,7 @@
           url: http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
 
 - name: SimTower
-  clones:
+  remakes:
     - name: OpenSkyscraper
       url: https://github.com/fabianschuiki/OpenSkyscraper/wiki
       repo: https://github.com/fabianschuiki/OpenSkyscraper
@@ -4935,7 +4935,7 @@
         - image: https://raw.githubusercontent.com/wiki/fabianschuiki/OpenSkyscraper/current.png
 
 - name: SingStar
-  clones:
+  remakes:
     - name: UltraStar Deluxe
       url: http://ultrastardx.sourceforge.net/
       repo: http://sourceforge.net/p/ultrastardx/svn/HEAD/tree/trunk/
@@ -4952,7 +4952,7 @@
           url: http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
 
 - name: Solar Fox
-  clones:
+  remakes:
     - name: SolarWolf
       updated: 2015-04-25
       url: http://pygame.org/shredwheat/solarwolf/index.shtml
@@ -4974,7 +4974,7 @@
           image: http://pygame.org/shredwheat/solarwolf/screen/shot6.jpg
 
 - name: [Sopwith, Sopwith (video game)]
-  clones:
+  remakes:
     - url: http://sdl-sopwith.sourceforge.net/
       name: SDL Sopwith
       framework: SDL
@@ -4997,7 +4997,7 @@
         - image: http://www.wingkong.net/sopwith2b/images/sop3_title.gif
 
 - name: Space Invaders
-  clones:
+  remakes:
     - name: pyspaceinvaders
       updated: 2015-04-11
       repo: https://github.com/map0logo/pyspaceinvaders
@@ -5015,7 +5015,7 @@
       license: MIT
 
 - name: [Space Rangers, Space Rangers (video game)]
-  clones:
+  remakes:
     - name: Space-rangers
       repo: https://github.com/markevich/Space-rangers
       updated: 2015-05-28
@@ -5023,7 +5023,7 @@
       lang: C#
 
 - name: Speedball 2
-  clones:
+  remakes:
     - name: Speedball 2
       url: http://bringerp.free.fr/RE/Speedball2/remake.php5
       status: unplayable
@@ -5033,7 +5033,7 @@
       updated: 2015-04-05
 
 - name: Star Control 2
-  clones:
+  remakes:
     - url: http://sc2.sourceforge.net/
       name: The Ur-Quan Masters
       development: active
@@ -5058,7 +5058,7 @@
       updated: 2016-04-11
 
 - name: "Star Trek: Voyager – Elite Force"
-  clones:
+  remakes:
     - name: "RPG-X"
       updated: 2015-04-10
       url: http://www.last-outpost.net/rpg-x/
@@ -5070,7 +5070,7 @@
         - image: http://last-outpost.net/wp-content/uploads/2012/08/timewarp.jpg
 
 - name: Starcraft
-  clones:
+  remakes:
     - url: http://stargus.stratagus.com/
       name: Stargus
       repo: https://code.launchpad.net/stargus
@@ -5081,7 +5081,7 @@
       updated: 2013-06-08
 
 - name: "Stunt Car Racer"
-  clones:
+  remakes:
     - url: http://sourceforge.net/projects/stuntcarremake/
       repo: git://git.code.sf.net/p/stuntcarremake/code
       name: Stunt Car Racer Remake
@@ -5092,7 +5092,7 @@
         - url: https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
 
 - name: Stars!
-  clones:
+  remakes:
     - name: Freestars
       updated: 2015-04-11
       url: http://freestars.sourceforge.net/
@@ -5113,7 +5113,7 @@
         - image: http://nstars.sourceforge.net/nstars03.png
 
 - name: Star Castle
-  clones:
+  remakes:
     - name: Star Castle
       updated: 2015-05-09
       repo: http://gamesoft.ca/bestgames/starcastle_src.zip
@@ -5123,7 +5123,7 @@
         - image: http://gamesoft.ca/bestgames/images/starcastle-ss.gif
 
 - name: [Star Raiders (Atari), Star Raiders]
-  clones:
+  remakes:
     - name: Atari8bit_StarRaiders
       updated: 2015-07-14
       repo: https://github.com/sidneycadot/Atari8bit_StarRaiders
@@ -5132,7 +5132,7 @@
       lang: Assembly
 
 - name: [Star Wars (1983 arcade game), Star Wars (1983 video game)]
-  clones:
+  remakes:
     - name: Star-Wars-III
       updated: 2015-06-01
       repo: https://github.com/abhinandanramesh/Star-Wars-III
@@ -5142,7 +5142,7 @@
       license: GPL2
 
 - name: Starshatter
-  clones:
+  remakes:
     - name: starshatter-open
       url: https://code.google.com/p/starshatter-open/
       repo: http://starshatter-open.googlecode.com/svn/trunk/
@@ -5154,7 +5154,7 @@
 - names:
   - [Stunts, Stunts (video game)]
   - 4D Sports Driving
-  clones:
+  remakes:
     - url: http://www.ultimatestunts.nl/
       name: Ultimate Stunts
       development: sporadic
@@ -5171,7 +5171,7 @@
           image: http://www.ultimatestunts.nl/screenshots/0742_small.jpg
 
 - name: [Styx, Styx (Spectrum video game)]
-  clones:
+  remakes:
     - name: Styx
       url: http://retrospec.sgn.net/game/styx
       updated: 2015-04-12
@@ -5180,7 +5180,7 @@
       lang: C++
 
 - name: Supaplex
-  clones:
+  remakes:
     - name: splexhd
       updated: 2015-05-28
       repo: https://github.com/radu124/splexhd
@@ -5189,7 +5189,7 @@
       license: GPL2
 
 - name: Super Cars
-  clones:
+  remakes:
     - name: Supercars III
       url: http://jotd.pagesperso-orange.fr/supercars3/
       repo: http://jotd.pagesperso-orange.fr/supercars3/Supercars3_06.zip
@@ -5200,7 +5200,7 @@
         - image: http://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
 
 - name: Super Foul Egg
-  clones:
+  remakes:
     - name: SuperFoulEgg
       repo: https://github.com/ant512/SuperFoulEgg
       updated: 2015-04-05
@@ -5209,7 +5209,7 @@
       license: Custom
 
 - name: [Super Mario, Super Mario (series)]
-  clones:
+  remakes:
     - name: Mega Mario
       url: http://sourceforge.net/projects/mmario/
       status: playable
@@ -5238,7 +5238,7 @@
       license: GPL2
 
 - name: [Super Methane Brothers, Super Methane Bros.]
-  clones:
+  remakes:
     - name: Super Methane Brothers
       url: http://methane.sourceforge.net/
       status: playable
@@ -5256,7 +5256,7 @@
       info: Wii and GameCube port
 
 - name: Super Monkey Ball
-  clones:
+  remakes:
     - name: Veraball
       repo: https://github.com/Veraball/veraball
       updated: 2015-12-29
@@ -5299,7 +5299,7 @@
         - image: http://i.imgur.com/fzcotpu.jpg
 
 - name: [Survivor (1986), "Survivor (video game)"]
-  clones:
+  remakes:
     - name: Survivor
       repo: https://github.com/scottschiller/SURVIVOR
       updated: 2015-04-08
@@ -5313,7 +5313,7 @@
         - image: https://farm8.staticflickr.com/7427/10177812825_1a524cb34d_h.jpg
 
 - name: [Syndicate, Syndicate (video game)]
-  clones:
+  remakes:
     - url: http://freesynd.sourceforge.net/
       name: FreeSynd
       development: active
@@ -5328,7 +5328,7 @@
           url: http://freesynd.sourceforge.net/images/screenshots/ss3.png
 
 - name: Syndicate Wars
-  clones:
+  remakes:
     - name: Syndicate Wars Port
       url: http://swars.vexillium.org/
       status: playable
@@ -5343,14 +5343,14 @@
           url: http://swars.vexillium.org/shots/swars-macos-1.png
 
 - name: System Shock
-  clones:
+  remakes:
     - name: Citadel
       updated: 2016-05-09
       repo: https://github.com/JosiahJack/Citadel
       framework: Unity
 
 - name: Terraria
-  clones:
+  remakes:
     - name: Open Terraria Rewrite
       updated: 2015-04-05
       repo: https://github.com/Shockah/Open-Terraria-Rewrite
@@ -5363,7 +5363,7 @@
       lang: C++
 
 - name: The Castles of Dr. Creep
-  clones:
+  remakes:
     - name: DrCreep
       url: http://creep.sourceforge.net/
       development: complete
@@ -5376,7 +5376,7 @@
         - image: http://a.fsdn.com/con/app/proj/creep/screenshots/250990.jpg
 
 - name: [The Hobbit, "The Hobbit (1982 video game)"]
-  clones:
+  remakes:
     - name: hobbitgfx
       repo: https://github.com/richcarl/hobbitgfx
       updated: 2015-04-05
@@ -5385,7 +5385,7 @@
       lang: JavaScript
 
 - name: The Last Ninja
-  clones:
+  remakes:
     - name: LastNinja
       url: http://lastninja.sourceforge.net/
       status: playable
@@ -5397,7 +5397,7 @@
         - image: http://lastninja.sourceforge.net/images/lvl1.png
 
 - name: The Settlers
-  clones:
+  remakes:
     - name: Freeserf
       url: http://jonls.dk/freeserf/
       status: playable
@@ -5409,7 +5409,7 @@
         - youtube: DdVtOhIIjow
 
 - name: The Settlers II
-  clones:
+  remakes:
     - url: http://www.siedler25.org/
       name: Return to the Roots
       development: active
@@ -5426,7 +5426,7 @@
           url: http://www.siedler25.org/gallery/2011/2011.01.19_10.jpg
 
 - name: The Settlers III
-  clones:
+  remakes:
     - name: JSettlers
       url: http://www.settlers-android-clone.com/
       repo: https://github.com/jsettlers/settlers-remake
@@ -5438,7 +5438,7 @@
         - image: http://www.settlers-android-clone.com/wp-content/gallery/screenshots_win7/SoldiersFighting_1.png
 
 - name: Shobon Action
-  clones:
+  remakes:
     - name: Open Syobon Action
       updated: 2015-04-13
       url: http://sourceforge.net/projects/opensyobon/
@@ -5448,7 +5448,7 @@
       repo: http://sourceforge.net/projects/opensyobon/files/src/
 
 - name: SkiFree
-  clones:
+  remakes:
     - name: skifree.js
       updated: 2015-05-02
       repo: https://github.com/basicallydan/skifree.js
@@ -5463,7 +5463,7 @@
       repo: https://github.com/andymason/Skifree-HTML5-clone
 
 - name: Slot Racers
-  clones:
+  remakes:
     - name: Slot-Racers
       repo: https://github.com/Zillode/Slot-Racers
       updated: 2015-06-25
@@ -5472,7 +5472,7 @@
       license: GPL3
 
 - name: [Snake, Snake (video game)]
-  clones:
+  remakes:
     - name: snake
       repo: https://github.com/spypunk/snake
       lang: Java
@@ -5487,7 +5487,7 @@
   meta:
     genre: [Role-Playing, Simulation]
     theme: [Sci-Fi, Comedy, Espionage]
-  clones:
+  remakes:
     - name: Griefly
       url: https://grief.ly/
       repo: https://github.com/griefly/griefly
@@ -5510,7 +5510,7 @@
       updated: 2015-06-24
 
 - name: Star Fox 64
-  clones:
+  remakes:
     - name: UnnamedStarFoxClone
       updated: 2015-06-18
       repo: https://github.com/ChristianBorst/UnnamedStarFoxClone
@@ -5519,7 +5519,7 @@
       framework: Unity
 
 - name: ["Stratosphere: Conquest of the Skies", "http://www.mobygames.com/game/windows/stratosphere-conquest-of-the-skies"]
-  clones:
+  remakes:
     - name: openStrato
       repo: https://github.com/gerdl/openStrato
       updated: 2015-06-18
@@ -5529,7 +5529,7 @@
       license: GPL2
 
 - name: [Swing, Swing (video game)]
-  clones:
+  remakes:
     - name: XSwing Plus
       updated: 2015-06-24
       repo: https://xswingplus.svn.codeplex.com/svn
@@ -5539,7 +5539,7 @@
       license: GPL3
 
 - name: [Tempest, Tempest (video game)]
-  clones:
+  remakes:
     - url: https://github.com/stephank/arashi-js
       name: Arashi-JS
       repo: https://github.com/stephank/arashi-js
@@ -5560,7 +5560,7 @@
       updated: 2015-04-12
 
 - name: [Test Drive, Test Drive (video game)]
-  clones:
+  remakes:
     - name: opengl_test_drive_clone
       updated: 2015-05-03
       repo: https://github.com/capnramses/opengl_test_drive_clone
@@ -5572,7 +5572,7 @@
         - image: http://antongerdelan.net/blog/images/tdrive_tacho.png
 
 - name: Tetris
-  clones:
+  remakes:
     - name: tetris
       repo: https://github.com/spypunk/tetris
       lang: Java
@@ -5582,7 +5582,7 @@
         - url: https://a.fsdn.com/con/app/proj/spypunk-tetris/screenshots/s.png
 
 - name: Tetris Attack
-  clones:
+  remakes:
     - url: https://github.com/sharpobject/panel-attack
       name: Panel Attack
       repo: https://github.com/sharpobject/panel-attack
@@ -5612,7 +5612,7 @@
         - image: http://i.imgur.com/XDBQy0o.png
         - image: http://i.imgur.com/TryDIGI.png
         - image: http://i.imgur.com/PysfvNR.png
-  reimplementations:
+  clones:
     - name: Block Attack - Rise of the Blocks
       url: http://www.blockattack.net
       repo: https://github.com/blockattack/blockattack-game
@@ -5625,7 +5625,7 @@
         - image: http://www.blockattack.net/images/blockattack-2.0.0-1.png
 
 - name: Theme Hospital
-  clones:
+  remakes:
     - name: CorsixTH
       url: http://forums.corsixth.com/
       info: time-based releases
@@ -5641,7 +5641,7 @@
         - youtube: rSN1p247J74
 
 - name: [Theme Park, Theme Park (video game)]
-  clones:
+  remakes:
     - name: Theme Park Builder 3D CAD
       updated: 2015-07-04
       url: http://sourceforge.net/projects/tpb3d/
@@ -5654,7 +5654,7 @@
       license: GPL2
 
 - name: [Thromolus, "http://hol.abime.net/1386"]
-  clones:
+  remakes:
     - name: thromolusng
       updated: 2015-06-22
       repo: https://github.com/segfaulthunter/thromolusng
@@ -5663,7 +5663,7 @@
       license: GPL3
 
 - name: [Thrust, Thrust (video game)]
-  clones:
+  remakes:
     - name: Thrust
       updated: 2015-04-15
       url: https://www.lysator.liu.se/~peda/thrust/
@@ -5673,7 +5673,7 @@
       license: GPL2
       media:
         - image: https://www.lysator.liu.se/~peda/thrust/thrust.gif
-  reimplementations:
+  clones:
     - name: Transball GL
       url: http://www2.braingames.getput.com/transballgl/default.asp
       updated: 2015-05-10
@@ -5701,7 +5701,7 @@
         - image: http://www2.braingames.getput.com/stransball2/shot5.jpg
 
 - name: Tiny Wings
-  clones:
+  remakes:
     - name: Tiny Wings
       updated: 2015-05-02
       repo: https://github.com/haqu/tiny-wings
@@ -5712,7 +5712,7 @@
 - names:
     - Titus the Fox
     - [Moktar, Titus the Fox]
-  clones:
+  remakes:
     - url: http://opentitus.wikia.com/wiki/OpenTitus_Wiki
       name: OpenTitus
       development: sporadic
@@ -5725,7 +5725,7 @@
           image: http://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png
 
 - name: Total Annihilation
-  clones:
+  remakes:
     - url: http://springrts.com/
       name: Spring
       development: active
@@ -5759,7 +5759,7 @@
           image: http://www.ta3d.org/snapshots/shoot127-mini.jpg
 
 - name: Tomb Raider
-  clones:
+  remakes:
     - name: OpenRaider
       url: https://github.com/xythobuz/OpenRaider
       development: active
@@ -5785,7 +5785,7 @@
         - youtube: Jf3JGm67oS0
 
 - name: [Touhou, Touhou Project]
-  clones:
+  remakes:
     - url: http://pytouhou.linkmauve.fr/
       name: PyTouhou
       repo: http://hg.linkmauve.fr/touhou
@@ -5811,7 +5811,7 @@
         - image: http://taisei-project.org/static/media/taisei_mansion.png
 
 - name: TrackMania
-  clones:
+  remakes:
     - name: ManiaDrive
       url: http://maniadrive.raydium.org/
       updated: 2016-05-16
@@ -5821,7 +5821,7 @@
         - PHP
 
 - name: [Transplant, Transplant (video game)]
-  clones:
+  remakes:
     - name: Spaceship Duel
       updated: 2015-04-11
       url: https://spaceshipduel.codeplex.com/
@@ -5836,7 +5836,7 @@
   meta:
     genre: [Strategy, Simulation]
     theme: [Management]
-  clones:
+  remakes:
     - url: http://www.openttd.org/
       name: OpenTTD
       status: playable
@@ -5847,7 +5847,7 @@
       media:
         - image: https://media.openttd.org/images/screens/1.4/02-opengfx-1920x1200.png
         - image: https://media.openttd.org/images/screens/1.3/realgrowth.png
-  reimplementations:
+  clones:
     - name: Simutrans
       development: active
       status: playable
@@ -5859,7 +5859,7 @@
         - image: https://upload.wikimedia.org/wikipedia/commons/d/de/Simutrans_pak64.png
 
 - name: Tranz Am
-  clones:
+  remakes:
     - name: Tranzam
       updated: 2015-04-12
       url: http://retrospec.sgn.net/game/tranzam
@@ -5879,7 +5879,7 @@
           url: http://retrospec.sgn.net/config/screenshots/tranzam.t.1.jpg
 
 - name: [Tron, Tron (video game)]
-  clones:
+  remakes:
     - name: newtron
       repo: https://github.com/sursonico/newtron
       updated: 2015-06-01
@@ -5899,7 +5899,7 @@
         - CSS
 
 - name: [Turmoil, Turmoil (1984 video game)]
-  clones:
+  remakes:
     - name: datastorm
       updated: 2016-04-11
       repo: https://github.com/haroldo-ok/datastorm
@@ -5908,7 +5908,7 @@
       license: Apache
 
 - name: [Turnabout, Turnabout (video game)]
-  clones:
+  remakes:
     - name: turnabout
       updated: 2015-07-19
       repo: https://github.com/sch/turnabout
@@ -5916,7 +5916,7 @@
       lang: CoffeeScript
 
 - name: [Turok, Turok (video game)]
-  clones:
+  remakes:
     - name: TurokEX
       development: halted
       repo: https://github.com/svkaiser/TurokEX
@@ -5925,7 +5925,7 @@
       updated: 2016-05-28
 
 - name: Turrican
-  clones:
+  remakes:
     - name: Hurrican
       url: http://sourceforge.net/p/hurrican/code/HEAD/tree/trunk/
       status: playable
@@ -5935,7 +5935,7 @@
       updated: 2012-05-28
 
 - name: [Tyrian, Tyrian (video game)]
-  clones:
+  remakes:
     - url: https://bitbucket.org/opentyrian/opentyrian/wiki/Home
       name: OpenTyrian
       development: sporadic
@@ -5957,7 +5957,7 @@
         - image: http://www.b3dgs.com/v7/projects/tyrian_remake/screens/8.png
 
 - name: Ugh!
-  clones:
+  remakes:
     - name: "UGH-remake"
       url: https://bitbucket.org/Andy51/ugh-remake
       updated: 2015-04-13
@@ -5966,7 +5966,7 @@
       lang: C
 
 - name: Ultima Online
-  clones:
+  remakes:
     - name: Iris2
       url: http://www.iris2.de/
       status: playable
@@ -5977,7 +5977,7 @@
           url: http://www.iris2.de/images/4/48/20080106175329_188.png
 
 - name: "Ultima II: The Revenge of the Enchantress"
-  clones:
+  remakes:
     - name: UiirJS
       repo: https://github.com/ObviouslySorna/UiirJS
       updated: 2015-06-01
@@ -5985,7 +5985,7 @@
       lang: JavaScript
 
 - name: Ultima IV
-  clones:
+  remakes:
     - url: http://xu4.sourceforge.net/
       name: xu4
       repo: http://sourceforge.net/projects/xu4/develop
@@ -6000,7 +6000,7 @@
     - Ultima VI
     - The Savage Empire
     - Martian Dreams
-  clones:
+  remakes:
     - url: http://nuvie.sourceforge.net/
       name: Nuvie
       repo: http://sourceforge.net/projects/nuvie/develop
@@ -6012,7 +6012,7 @@
         - image: http://nuvie.sourceforge.net/images/shots/nuvie_21.png
 
 - name: Ultima VII
-  clones:
+  remakes:
     - url: http://exult.sourceforge.net/
       name: Exult
       repo: http://sourceforge.net/projects/exult/develop
@@ -6029,7 +6029,7 @@
           url: http://exult.sourceforge.net/images/screenshots/teleportmap.png
 
 - name: Ultima VIII
-  clones:
+  remakes:
     - url: http://pentagram.sourceforge.net/
       name: Pentagram
       repo: http://sourceforge.net/projects/pentagram/develop
@@ -6046,7 +6046,7 @@
           url: http://pentagram.sourceforge.net/images/screenshots/japanese.png
 
 - name: Uncharted Waters
-  clones:
+  remakes:
     - name: Uncharted waters 2 remake
       repo: https://github.com/Jackyjjc/Uncharted-waters-2-remake
       url: http://jackyjjc.com/
@@ -6056,7 +6056,7 @@
       license: GPL2
 
 - name: [Uninvited, "Uninvited (video game)"]
-  clones:
+  remakes:
     - name: uninvited
       updated: 2015-04-04
       repo: https://github.com/DavidGriffith/uninvited
@@ -6065,7 +6065,7 @@
       license: Artistic
 
 - name: [Utopia, "Utopia (video game)"]
-  clones:
+  remakes:
     - name: Utopia
       updated: 2015-04-05
       url: http://apps.gamejs.org/newutopia/
@@ -6074,7 +6074,7 @@
       lang: JavaScript
 
 - name: [Vlak, "http://www.mobygames.com/game/dos/vlak"]
-  clones:
+  remakes:
     - name: Train
       updated: 2015-05-28
       repo: https://github.com/nenadalm/Train
@@ -6083,7 +6083,7 @@
       license: BSD
 
 - name: [Viper, "http://www.mobygames.com/game/amiga/viper__"]
-  clones:
+  remakes:
     - name: viper
       repo: https://github.com/bjornharrtell/viper
       updated: 2015-05-18
@@ -6091,7 +6091,7 @@
       lang: CoffeeScript
 
 - name: [Warlords II, "Warlords (game series)#Warlords II"]
-  clones:
+  remakes:
     - name: FreeLords
       url: http://sourceforge.net/projects/freelords/
       development: active
@@ -6101,7 +6101,7 @@
       updated: 2015-04-06
 
 - name: "Warcraft: Orcs & Humans"
-  clones:
+  remakes:
     - name: warcraft-remake
       updated: 2015-05-29
       repo: https://github.com/b3dgs/warcraft-remake
@@ -6124,7 +6124,7 @@
         - image: https://raw.githubusercontent.com/andreas-jonsson/openwar/master/doc/screenshot3.gif
 
 - name: Warcraft II
-  clones:
+  remakes:
     - url: http://wargus.stratagus.com/index.shtml
       name: Wargus
       repo: https://code.launchpad.net/wargus
@@ -6135,7 +6135,7 @@
       updated: 2013-05-27
 
 - name: Wario Land 3
-  clones:
+  remakes:
     - name: Wario-Land-3
       updated: 2015-07-14
       repo: https://github.com/NSasquatch/Wario-Land-3
@@ -6144,7 +6144,7 @@
       framework: Pygame
 
 - name: Warzone 2100
-  clones:
+  remakes:
     - url: http://wz2100.net/
       name: Warzone 2100
       development: active
@@ -6161,7 +6161,7 @@
           url: http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
 
 - name: Where in the World Is Carmen Sandiego? (1985)
-  clones:
+  remakes:
     - name: thiefcatcher
       updated: 2015-06-18
       repo: https://github.com/Ponup/thiefcatcher
@@ -6170,7 +6170,7 @@
       license: GPL3
 
 - name: [Willow, Willow (arcade game)]
-  clones:
+  remakes:
     - name: Willow-Game-Remake
       updated: 2015-06-28
       repo: https://github.com/Kwintenvdb/Willow-Game-Remake
@@ -6178,7 +6178,7 @@
       lang: C++
 
 - name: "Wing Commander: Privateer"
-  clones:
+  remakes:
     - url: http://privateer.sourceforge.net/
       name: Privateer - Gemini Gold
       development: sporadic
@@ -6195,7 +6195,7 @@
           url: http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
 
 - name: Wizard of Wor
-  clones:
+  remakes:
     - name: KnightOfWor
       updated: 2015-05-29
       repo: https://github.com/Sanguinik/KnightOfWor
@@ -6204,7 +6204,7 @@
       license: GPL3
 
 - name: Wizardry
-  clones:
+  remakes:
     - name: Wizardry Legacy
       updated: 2015-04-11
       url: http://wl.lariennalibrary.com/
@@ -6219,7 +6219,7 @@
           url: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat_sm.png
         - image: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
           url: http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat_sm.png
-  reimplementations:
+  clones:
     - name: jClassicRPG
       url: http://jcrpg.blogspot.com.au/
       updated: 2015-04-11
@@ -6230,7 +6230,7 @@
 - names:
     - "Wolfenstein 3D"
     - [Spear of Destiny, "Spear of Destiny (video game)"]
-  clones:
+  remakes:
     - url: http://maniacsvault.net/ecwolf/
       name: ECWolf
       development: active
@@ -6240,7 +6240,7 @@
       media:
         - image: http://maniacsvault.net/ecwolf/ecwolf_fullres.png
           url: http://maniacsvault.net/ecwolf/ecwolf_fullres.png
-  reimplementations:
+  clones:
     - name: Voxelstein 3D
       updated: 2015-04-16
       url: http://voxelstein3d.sourceforge.net/
@@ -6257,7 +6257,7 @@
           image: http://voxelstein3d.sourceforge.net/screen5.png
 
 - name: "Wolfenstein: Enemy Territory"
-  clones:
+  remakes:
     - url: http://etlegacy.com/
       name: "ET: Legacy"
       info: needs original game files
@@ -6279,7 +6279,7 @@
           url: http://www.splashdamage.com/screens_wet/004.jpg
 
 - name: World of Goo
-  clones:
+  remakes:
     - name: OpenGoo
       url: http://mandarancio.github.io/OpenGOO/
       repo: https://github.com/Mandarancio/OpenGOO
@@ -6291,7 +6291,7 @@
     - "X-COM: UFO Defense"
     - "UFO: Enemy Unknown"
     - "X-COM: Terror from the Deep"
-  clones:
+  remakes:
     - name: OpenXcom
       url: http://openxcom.org/
       info: EU fully playable, TftD in development
@@ -6325,7 +6325,7 @@
           url: http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg
 
 - name: "X-COM: Apocalypse"
-  clones:
+  remakes:
     - name: OpenApoc
       updated: 2015-04-04
       development: active
@@ -6335,7 +6335,7 @@
       url: http://openapoc.pmprog.co.uk/
 
 - name: [X-It, "http://www.mobygames.com/game/x-it"]
-  clones:
+  remakes:
     - name: xit
       updated: 2015-05-18
       repo: https://github.com/qfel13/xit
@@ -6343,7 +6343,7 @@
       lang: JavaScript
 
 - name: Xenon 2 Megablast
-  clones:
+  remakes:
     - name: Phavon
       updated: 2015-04-15
       url: http://phavon.sourceforge.net/
@@ -6356,7 +6356,7 @@
           image: http://phavon.sourceforge.net/snap001.jpg
 
 - name: XPilot
-  clones:
+  remakes:
     - name: XPilot NG
       url: http://xpilot.sourceforge.net/
       repo: http://xpilot.cvs.sourceforge.net/viewvc/xpilot/
@@ -6372,7 +6372,7 @@
         - image: http://xpilot.sourceforge.net/shots/spaceball.png
 
 - name: [XQuest, "http://www.swallowtail.org/xquest/"]
-  clones:
+  remakes:
     - name: XQuest 2
       updated: 2015-07-11
       url: http://www.swallowtail.org/xquest/
@@ -6385,7 +6385,7 @@
         - image: http://www.swallowtail.org/xquest/xquest3.gif
 
 - name: Zarch
-  clones:
+  remakes:
     - name: Ajax3d
       url: http://ajax3d.sourceforge.net/
       updated: 2015-10-09
@@ -6409,7 +6409,7 @@
       lang: Blitz BASIC
 
 - name: [Legend of Zelda - A Link to the Past, "The Legend of Zelda: A Link to the Past"]
-  clones:
+  remakes:
     - name: Solarus
       url: http://www.solarus-games.org/
       repo: https://github.com/christopho/solarus
@@ -6433,7 +6433,7 @@
       license: MIT
 
 - name: [Z, Z (video game)]
-  clones:
+  remakes:
     - name: The Zod Engine
       url: http://zod.sourceforge.net/
       repo: http://sourceforge.net/projects/zod/files/
@@ -6443,7 +6443,7 @@
         - youtube: 8VehUvuWHqw
 
 - name: Zoop
-  clones:
+  remakes:
     - name: KZap
       updated: 2015-05-09
       url: http://kzap.sourceforge.net/
@@ -6463,7 +6463,7 @@
         - image: http://gamesoft.ca/bestgames/images/zoop_java.png
 
 - name: [Zombie Apocalypse, "http://www.mobygames.com/game/zombie-apocalypse"]
-  clones:
+  remakes:
     - name: zombie apocalypse html5
       development: halted
       framework: HTML5
@@ -6472,7 +6472,7 @@
       updated: 2015-05-16
 
 - name: Zork
-  clones:
+  remakes:
     - name: Zorkish
       repo: https://github.com/jgardner8/Zorkish
       updated: 2015-06-01
@@ -6480,7 +6480,7 @@
       lang: C++
 
 - name: [Zuma, Zuma (video game)]
-  clones:
+  remakes:
     - name: Zaz
       updated: 2015-04-14
       url: http://zaz.sourceforge.net/
@@ -6497,7 +6497,7 @@
           image: https://a.fsdn.com/con/app/proj/zaz/screenshots/271617.jpg
 
 - name: A-Train
-  reimplementations:
+  clones:
     - name: FreeRails
       url: http://freetrain.sourceforge.net/
       repo: http://sourceforge.net/p/freetrain/code/
@@ -6509,7 +6509,7 @@
           url: http://freetrain.sourceforge.net/forum/viewtopic.php?f=2&t=13
 
 - name: Age of Empires
-  reimplementations:
+  clones:
     - name: 0 A.D.
       url: http://play0ad.com/
       repo: http://trac.wildfiregames.com/timeline
@@ -6523,7 +6523,7 @@
         - image: https://play0ad.com/wp-content/gallery/screenshots/water-depth-rendering.jpg
 
 - name: [Anno series, Anno_1602]
-  reimplementations:
+  clones:
     - name: Unknown Horizons
       url: http://www.unknown-horizons.org/
       repo: https://github.com/unknown-horizons/unknown-horizons
@@ -6536,7 +6536,7 @@
           url: http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
 
 - name: Arkanoid
-  reimplementations:
+  clones:
     - name: PyBreak360
       url: http://sourceforge.net/projects/pybreak360/
       repo: git://git.code.sf.net/p/pybreak360/code
@@ -6560,7 +6560,7 @@
       license: MIT
 
 - name: "Artemis: Spaceship Bridge Simulator"
-  reimplementations:
+  clones:
     - name: Space Nerds In Space
       repo: https://github.com/smcameron/space-nerds-in-space
       updated: 2015-05-02
@@ -6569,7 +6569,7 @@
       license: GPL2
 
 - name: [Battle Isle series, Battle Isle (series)]
-  reimplementations:
+  clones:
     - name: Crimson Fields
       url: http://crimson.seul.org/
       repo: http://svn.seul.org/viewcvs/viewvc.cgi/games/crimson/?root=SEUL
@@ -6595,7 +6595,7 @@
         - image: http://www.asc-hq.org/screenshots/screen07.jpg
 
 - name: [Battle Zone, Battlezone_(1980_video_game)]
-  reimplementations:
+  clones:
     - name: BZFlag
       url: http://bzflag.org/
       repo: https://github.com/BZFlag-Dev/bzflag
@@ -6608,7 +6608,7 @@
         - image: http://bzflag.org/images/screenshots/delirious_city_03.jpg
 
 - name: [Brain Blasters, "http://www.mobygames.com/game/brain-blasters"]
-  reimplementations:
+  clones:
     - name: brainblast
       repo: https://github.com/Zitrax/brainblast
       updated: 2015-05-18
@@ -6616,7 +6616,7 @@
       lang: C++
 
 - name: [Breakout, Breakout (video game)]
-  reimplementations:
+  clones:
     - name: BRIQUOLO
       updated: 2015-04-25
       development: halted
@@ -6633,7 +6633,7 @@
           image: http://briquolo.free.fr/images/Briquolo-0.3-briquolo10.jpg
 
 - name: [Civilization, Civilization (video game)]
-  clones:
+  remakes:
     - name: Civ-Remake
       updated: 2015-04-12
       repo: https://github.com/aarnwri/Civ-Remake
@@ -6649,7 +6649,7 @@
       updated: 2016-05-09
 
 - name: Civilization II
-  reimplementations:
+  clones:
     - url: http://freeciv.wikia.com/
       name: Freeciv
       development: active
@@ -6686,7 +6686,7 @@
           url: http://www.c-evo.org/shot4.jpg
 
 - name: [DEFCON, DEFCON_(video_game)]
-  reimplementations:
+  clones:
     - url: https://github.com/gtanczyk/Dupocracy
       name: Dupocracy
       development: active
@@ -6696,7 +6696,7 @@
         - image: http://www.gamedev.pl/images/l/557,fogofwarpng.jpg
 
 - name: Dungeon Keeper
-  reimplementations:
+  clones:
     - url: https://opendungeons.github.io/
       name: OpenDungeons
       development: active
@@ -6718,7 +6718,7 @@
     - Guitar Hero
     - SingStar
     - Dance Dance Revolution
-  reimplementations:
+  clones:
     - name: Performous
       url: http://performous.org/
       repo: https://github.com/performous/performous
@@ -6739,7 +6739,7 @@
       updated: 2014-12-21
 
 - name: [Elite, Elite_(video_game)]
-  reimplementations:
+  clones:
     - url: http://www.oolite.org/
       name: Oolite
       development: active
@@ -6749,7 +6749,7 @@
         - image: http://www.oolite.org/images/gallery/large/Kiota.png
         - image: http://www.oolite.org/images/gallery/large/Contracts.png
 
-  clones:
+  remakes:
     - name: "Mission ELITE: The Battle For Birera"
       updated: 2015-04-08
       url: http://polarelephant.blogspot.co.uk/2007/10/elite-remake.html
@@ -6763,7 +6763,7 @@
   meta:
     genre: [Action, Simulation]
     theme: [Sci-Fi, Espionage]
-  reimplementations:
+  clones:
     - name: Pioneer
       url: http://pioneerspacesim.net/
       repo: https://github.com/pioneerspacesim/pioneer
@@ -6776,7 +6776,7 @@
         - image: http://pioneerspacesim.net/assets/ss2.png
         - image: http://pioneerspacesim.net/assets/ss1.png
         - vimeo: 78452479
-  clones:
+  remakes:
     - name: GLFrontier
       url: http://tom.noflag.org.uk/glfrontier.html
       repo: http://tom.noflag.org.uk/glfrontier.html
@@ -6796,7 +6796,7 @@
         - image: http://www.txori.com/data/images/articles/140205_frontier_ppsspp_android.png
 
 - name: [Escape Velocity, Escape Velocity (video game)]
-  reimplementations:
+  clones:
     - url: http://naev.org/
       name: Naev
       development: active
@@ -6826,7 +6826,7 @@
         - image: https://endless-sky.github.io/screenshots/missions.jpg
 
 - name: [Fall Down, "http://www.mobygames.com/game/fall-down"]
-  reimplementations:
+  clones:
     - name: ativayeban
       updated: 2015-05-03
       repo: https://github.com/Nebuleon/ativayeban
@@ -6848,7 +6848,7 @@
         - youtube: 3MVMJkOYHSg
 
 - name: [Falcon, Falcon (video game series)]
-  reimplementations:
+  clones:
     - name: FreeFalcon
       repo: https://github.com/FreeFalcon/freefalcon-central
       development: active
@@ -6857,7 +6857,7 @@
       license: BSD2
 
 - name: Herzog Zwei
-  reimplementations:
+  clones:
     - name: Herzog 3D
       url: http://herzog3d.sourceforge.net/
       repo: https://sourceforge.net/p/herzog3d/code/HEAD/tree/
@@ -6875,7 +6875,7 @@
           image: http://herzog3d.sourceforge.net/images/hz_4.jpeg
 
 - name: [Lemmings, Lemmings (video game)]
-  reimplementations:
+  clones:
     - name: Pingus
       url: http://pingus.seul.org/welcome.html
       repo: http://developer.berlios.de/svn/?group_id=2301
@@ -6903,7 +6903,7 @@
       license: GPL2
 
 - name: The Lost Vikings
-  reimplementations:
+  clones:
     - name: freeVikings
       updated: 2015-05-12
       url: http://freevikings.wz.cz/
@@ -6922,7 +6922,7 @@
           image: http://a.fsdn.com/con/app/proj/freevikings/screenshots/186375.jpg
 
 - name: [Lotus Esprit Turbo Challenge, Lotus (series)]
-  reimplementations:
+  clones:
     - name: RacerJS
       updated: 2015-05-15
       repo: https://github.com/onaluf/RacerJS
@@ -6931,7 +6931,7 @@
       license: MIT
 
 - name: Mario Kart
-  reimplementations:
+  clones:
     - name: SuperTuxKart
       url: http://supertuxkart.sourceforge.net/
       repo: https://github.com/supertuxkart/stk-code
@@ -6946,7 +6946,7 @@
         - youtube: ev8Zltau4zw
 
 - name: [Master of Orion Series, Master of Orion]
-  reimplementations:
+  clones:
     - url: http://www.freeorion.org/
       name: FreeOrion
       development: sporadic
@@ -6965,7 +6965,7 @@
           image: http://www.freeorion.org/images/thumb/a/ab/FreeOrion3215_Galaxy_Map.png/256px-FreeOrion3215_Galaxy_Map.png
 
 - name: [Micro Machines, Micro Machines (video game series)]
-  clones:
+  remakes:
     - name: Microracers
       updated: 2015-04-15
       url: http://microracers.sourceforge.net/
@@ -6982,7 +6982,7 @@
           image: http://microracers.sourceforge.net/images/screenshots/microracers-0.2-3.jpg
 
 - name: Microsoft Flight Simulator
-  reimplementations:
+  clones:
     - url: http://www.flightgear.org/
       name: FlightGear
       development: active
@@ -7000,7 +7000,7 @@
           url: http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
 
 - name: Microsoft Train Simulator
-  reimplementations:
+  clones:
     - name: OpenRails
       url: http://openrails.org/
       repo: http://code.openhub.net/project?pid=&ipid=450644&fp=450644&mp&projSelected=true&filterChecked
@@ -7011,7 +7011,7 @@
         - image: http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
 
 - name: Missle Command
-  reimplementations:
+  clones:
     - name: ICBM3D
       url: http://www.newbreedsoftware.com/icbm3d/
       updated: 2015-04-07
@@ -7030,7 +7030,7 @@
         - image: http://www.newbreedsoftware.com/icbm3d/screenshots/icbm3d-agenda.gif
 
 - name: [Similar to Natural Selection, Natural Selection (video game)]
-  reimplementations:
+  clones:
     - url: http://www.unvanquished.net/
       name: Unvanquished
       development: active
@@ -7051,7 +7051,7 @@
   meta:
     genre: [Role-Playing]
     subgenre: [Roguelike]
-  reimplementations:
+  clones:
     - url: http://www.slashem.org/
       name: SLASH'EM
       development: halted
@@ -7067,7 +7067,7 @@
         - url: http://www.slashem.org/trad-tty.png
 
 - name: Nexuiz
-  reimplementations:
+  clones:
     - url: http://www.xonotic.org/
       name: Xonotic
       status: playable
@@ -7082,7 +7082,7 @@
         - youtube: Io920ID423A
 
 - name: Omega Race
-  reimplementations:
+  clones:
     - name: Torrega Race
       repo: https://github.com/andwj/torrega
       updated: 2015-05-02
@@ -7104,7 +7104,7 @@
   meta:
     genre: [Action, Puzzle]
     theme: [Fantasy, Sci-Fi]
-  clones:
+  remakes:
     - name: FreedroidClassic
       development: complete
       lang: C
@@ -7120,7 +7120,7 @@
       updated: 2013-05-27
       media:
         - image: http://night-hawk.sourceforge.net/nh_intro_1.png
-  reimplementations:
+  clones:
     - name: FreedroidRPG
       url: http://www.freedroid.org/
       repo: git://git.code.sf.net/p/freedroid/code
@@ -7134,7 +7134,7 @@
         - image: http://www.freedroid.org/images/screenshots/editor.png
 
 - name: RPG Maker
-  reimplementations:
+  clones:
     - name: EasyRPG
       url: https://easy-rpg.org/
       repo: https://github.com/EasyRPG/
@@ -7148,7 +7148,7 @@
   meta:
     genre: [Simulation]
     theme: [Management]
-  reimplementations:
+  clones:
     - name : Lincity
       repo: https://sourceforge.net/projects/lincity/
       url: http://lincity.sourceforge.net/
@@ -7203,7 +7203,7 @@
 - names:
     - [The Settlers, The Settlers (video game)]
     - The Settlers II
-  reimplementations:
+  clones:
     - url: http://wl.widelands.org/
       name: Widelands
       development: active
@@ -7223,7 +7223,7 @@
           image: http://wl.widelands.org/wlmedia/wlscreens/thumbs/Build%2016/Graphic%20improvements.png
 
 - name: [Snake, Snake (video game)]
-  reimplementations:
+  clones:
     - name:  Gusty's Serpents
       updated: 2015-04-25
       url: http://sourceforge.net/projects/gustysserpents/
@@ -7241,7 +7241,7 @@
   meta:
     genre: [Action-Adventure]
     theme: [Crime, Fantasy]
-  reimplementations:
+  clones:
     - url: http://www.thedarkmod.com/
       name: The Dark Mod
       status: playable
@@ -7255,7 +7255,7 @@
         - youtube: hNtUQ32eeRM
 
 - name: Sokoban
-  reimplementations:
+  clones:
     - name: CavePacker
       url: http://www.caveproductions.org/
       status: playable
@@ -7270,7 +7270,7 @@
         - image: http://www.caveproductions.org/images/screenshots/cavepacker-02.png
 
 - name: Sonic the Hedgehog
-  reimplementations:
+  clones:
     - name: Open Surge
       development: sporadic
       lang: C
@@ -7299,7 +7299,7 @@
           url: https://www.srb2.org/media/
 
 - name: Super Hexagon
-  reimplementations:
+  clones:
     - name: Open Hexagon
       url: http://vittorioromeo.info/projects.html
       repo: http://github.com/SuperV1234/SSVOpenHexagon
@@ -7312,7 +7312,7 @@
         - youtube: Wth0Z2eMezE
 
 - name: Super Mario
-  reimplementations:
+  clones:
     - name: Super Mario War
       url: http://smw.supersanctuary.net/site/
       repo: https://github.com/erlehmann/Super-Mario-War
@@ -7355,7 +7355,7 @@
           url: https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
 
 - name: Tribal Hero
-  reimplementations:
+  clones:
     - name: Danger Zone
       status: unplayable
       development: active
@@ -7365,7 +7365,7 @@
       updated: 2013-05-28
 
 - name: Pizza Tycoon
-  reimplementations:
+  clones:
     - name: Pizza Business
       url: http://pizza-business.sourceforge.net/
       updated: 2015-04-03
@@ -7377,7 +7377,7 @@
         - image: http://pizza-business.sourceforge.net/gtk1.png
 
 - name: "Puzzle Bobble"
-  reimplementations:
+  clones:
     - name: Frozen Bubble
       url: http://frozen-bubble.org/
       repo: http://github.com/kthakore/frozen-bubble
@@ -7386,7 +7386,7 @@
       updated: 2013-06-06
 
 - name: [Scorched Earth, Scorched Earth (video game)]
-  reimplementations:
+  clones:
     - url: http://www.scorched3d.co.uk/
       name: Scorched3D
       updated: 2015-04-06
@@ -7396,7 +7396,7 @@
       license: GPL2
 
 - name: [SkyRoads, SkyRoads (video game)]
-  clones:
+  remakes:
     - name: spaceroads
       repo: https://github.com/sebhd/spaceroads
       updated: 2015-05-28
@@ -7415,7 +7415,7 @@
         - HTML5
         - WebGL
       license: MIT
-  reimplementations:
+  clones:
     - name: Orbit-Hopper
       updated: 2015-04-16
       url: http://www.zneaker.com/projects.html#orbit
@@ -7428,7 +7428,7 @@
         - image: https://lgdb.org/sites/default/files/node_images/134/497.jpg
 
 - name: Tetris
-  reimplementations:
+  clones:
     - name: 4DTris
       url: http://sourceforge.net/projects/dtris/
       updated: 2015-05-02
@@ -7445,7 +7445,7 @@
       license: GPL3
 
 - name: Crimsonland
-  reimplementations:
+  clones:
     - url: http://violetland.github.io/
       name: Violetland
       repo: https://github.com/ooxi/violetland
@@ -7458,7 +7458,7 @@
         - image: http://violetland.github.io/images/screenshots/thumbnail/violetland-flashlight-630x475.png
 
 - name: [Worms Series, Worms (series)]
-  reimplementations:
+  clones:
     - url: http://hedgewars.org/
       name: Hedgewars
       development: active
@@ -7486,7 +7486,7 @@
         - youtube: X3ZkTg-QkAo
 
 - name: UGH!
-  reimplementations:
+  clones:
     - name: CaveExpress
       url: http://www.caveproductions.org/
       status: playable
@@ -7502,7 +7502,7 @@
         - image: http://www.caveproductions.org/images/screenshots/multi-packages.jpg
 
 - name: Warcraft II
-  reimplementations:
+  clones:
     - name: Dark Oberon
       url: http://dark-oberon.sourceforge.net/
       repo: http://dark-oberon.cvs.sourceforge.net/viewvc/dark-oberon/
@@ -7516,7 +7516,7 @@
           url: http://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_256x192.jpg
 
 - name: [Wipeout, "Wipeout (video game)"]
-  reimplementations:
+  clones:
     - name: Core Breach
       repo: https://github.com/core-code/CoreBreach
       url: http://corebreach.corecode.at/CoreBreach/CoreBreach.html
@@ -7589,7 +7589,7 @@
         - image: https://dl.dropboxusercontent.com/u/11542084/rgp_screen_04.jpg
 
 - name: [X-COM Series, X-COM]
-  reimplementations:
+  clones:
     - url: http://ufoai.ninex.info/
       name: "UFO: Alien Invasion"
       development: active
@@ -7640,7 +7640,7 @@
           url: https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg/182/137
 
 - name: [XOR, XOR (video game)]
-  reimplementations:
+  clones:
     - url: http://jwm-art.net/?p=XorCurses
       name: XorCurses
       repo: https://github.com/jwm-art-net/XorCurses
@@ -7657,7 +7657,7 @@
       updated: 2013-06-06
 
 - name: Legend of Zelda
-  reimplementations:
+  clones:
     - name: Open Zelda
       url: http://openzelda.net/
       repo: https://code.google.com/p/openzelda/
@@ -7737,7 +7737,7 @@
         - image: http://fanwor.tuxfamily.org/fanwor-2.png
 
 - name: VVVVVV
-  reimplementations:
+  clones:
     - name: WWW
       repo: https://github.com/alexdantas/www
       development: halted

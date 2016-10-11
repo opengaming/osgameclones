@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="author" content="Vsevolod Solovyov">
   <meta name="keywords" content="open source, game, clone, remake, remakes">
-  <meta name="description" content="List of open source clones of popular old-school games.">
+  <meta name="description" content="List of open source clones and remakes of popular old-school games.">
   <meta name="application-name" content="OS Game Clones">
   <meta name="application-url" content="http://osgameclones.com/">
   <link rel="stylesheet" href="static/main.css">
@@ -16,9 +16,8 @@
 
   <article>
     <p>
-      This site tries to
-      gather <a href="http://en.wikipedia.org/wiki/Open_source">open-source</a>
-      reimplementations of great old games in one place. If you think that
+      This site tries to gather <a href="http://en.wikipedia.org/wiki/Open_source">open-source</a>
+      remakes of great old games in one place. If you think that
       something is missing from the list - please go to
       our <a href="http://github.com/piranha/osgameclones/">Github
       repository</a> and create an issue or even a pull request!
@@ -187,17 +186,18 @@
     {% endfor %}
   </section>
 
-  <h2>List of complete clones</h2>
-  <article>Some of these games aren&#39;t reimplementations but evolution of original ones, which were eventually open sourced.</article>
+  <h2>List of remakes</h2>
+  <article>Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.</article>
   <dl>
-    {% for names, meta, items in site.clones %}
-    {{ render(names, meta, items, 'clones') }}
+    {% for names, meta, items in site.remakes %}
+    {{ render(names, meta, items, 'remakes') }}
     {% endfor %}
   </dl>
 
-  <h2>Inspired by original game series</h2>
+  <h2>List of clones</h2>
+  <article>Games which are very similar to or heavily inspired by a game or series.</article>
   <dl>
-    {% for names, meta, items in site.reimplementations %}
+    {% for names, meta, items in site.clones %}
       {{ render(names, meta, items, 'inspired') }}
     {% endfor %}
   </dl>

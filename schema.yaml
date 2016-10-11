@@ -8,11 +8,11 @@ sequence:
         type: any
       meta:
         include: meta
-      clones:
+      remakes:
         type: seq
         sequence:
           - include: game
-      reimplementations:
+      clones:
         type: seq
         sequence:
           - include: game

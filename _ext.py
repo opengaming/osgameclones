@@ -115,8 +115,8 @@ def parse_data(site):
 
     for item in data:
         parse_global_tags(site, item.get('meta', {}), 'genre')
+        parse_items(site, item, 'remakes')
         parse_items(site, item, 'clones')
-        parse_items(site, item, 'reimplementations')
 
 
 def callback(site):

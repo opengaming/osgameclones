@@ -47,10 +47,10 @@ If you're adding a new game group:
     genre: [] # See genres in schema.yaml
     subgenre: [] # See genres in schema.yaml
     theme: [] # See genres in schema.yaml
+  remakes:
+    - # List of remakes, see above
   clones:
-    - # List of clones/remakes, see above
-  reimplementations:
-    - # List of clones/remakes, see above
+    - # List of clones, see above
 ```
 
 A Wikipedia link is created for all original game names; if the article link is different, use the syntax `[Name, Name of Wikipedia article]`
