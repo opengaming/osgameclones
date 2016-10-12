@@ -6,18 +6,21 @@
     development: sporadic
     framework: HTML5
     lang: JavaScript
-    license: MIT
+    license: [MIT]
 
 - name: [Earth Shaker, Earth Shaker (video game)]
+  meta:
+    genre: [Puzzle]
   remakes:
   - name: EarthShakerDS
     repo: https://github.com/ant512/EarthShakerDS
     url: http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released
     updated: 2015-04-08
-    info: Nintendo DS port, content copyrighted
+    info: Nintendo DS port
+    content: commercial
     development: active
     lang: C++
-    license: BSD
+    license: [BSD]
     images:
     - http://simianzombie.com/media/2011/05/1.png
     - http://simianzombie.com/media/2011/05/2.png
@@ -39,7 +42,7 @@
     updated: 2015-04-10
     development: sporadic
     lang: C
-    license: GPL2
+    license: [GPL2]
     images:
     - https://a.fsdn.com/con/app/proj/etw/screenshots/172852.jpg
     - https://a.fsdn.com/con/app/proj/etw/screenshots/172854.jpg
@@ -55,7 +58,7 @@
     updated: 2015-04-15
     development: halted
     lang: C++
-    license: GPL3
+    license: [GPL3]
     repo: http://l-echo.googlecode.com/svn/trunk/
 
 - name: [Elements, 'http://www.mobygames.com/game/browser/elements_']
@@ -66,7 +69,7 @@
     repo: https://github.com/serprex/openEtG
     development: active
     lang: JavaScript
-    license: MIT
+    license: [MIT]
 
 - name: [Encounter, Encounter (video game)]
   remakes:
@@ -85,7 +88,7 @@
     updated: 2015-04-08
     repo: ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz
     development: halted
-    lang: C 
+    lang: C
 
 - name: Escape from Colditz
   meta:
@@ -97,7 +100,7 @@
     url: https://sites.google.com/site/colditzescape/
     development: active
     lang: C
-    license: GPL3
+    license: [GPL3]
     images:
     - https://sites.google.com/site/colditzescape/home/screenshot0.png
     - https://sites.google.com/site/colditzescape/home/screenshot1.png
@@ -117,13 +120,21 @@
     - http://www.dungeoneye.net/wp-content/uploads/sites/2/2016/05/forest.png
 
 - name: Elasto Mania
+  meta:
+    genre: [Sports, Driving/Racing, Platformer]
   remakes:
   - name: X-Moto
+    repo: https://svn.tuxfamily.org/viewvc.cgi/xmoto_xmoto/
     url: http://xmoto.tuxfamily.org/
     status: playable
     development: active
     lang: C++
+    license: [GPL2]
     updated: 2014-06-16
+    images:
+      - http://wiki.xmoto.tuxfamily.org/images/d/d8/Screenshot0018.png
+      - http://wiki.xmoto.tuxfamily.org/images/0/04/Screenshot0005.png
+      - http://wiki.xmoto.tuxfamily.org/images/7/7f/Screenshot0036.png
 
 - name: Emperor of the Fading Suns
   remakes:
@@ -132,6 +143,7 @@
     updated: 2015-05-29
     development: active
     lang: Java
+    license: [As-is]
 
 - name: [Exile, Exile (video game series)]
   names:
@@ -144,7 +156,7 @@
     development: halted
     framework: "L\xD6VE"
     lang: Lua
-    license: Custom
+    license: [Custom]
 
 - name: Exolon
   remakes:
@@ -190,7 +202,7 @@
     status: playable
     development: active
     lang: [C++, C, Lua]
-    license: GPL3
+    license: [GPL3]
     images:
     - http://pioneerspacesim.net/assets/ss2.png
     - http://pioneerspacesim.net/assets/ss1.png
@@ -233,7 +245,7 @@
     updated: 2015-05-02
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
     name: Endless Sky
     images:
     - https://endless-sky.github.io/screenshots/fight.jpg

@@ -6,8 +6,8 @@
     development: active
     lang: C++
     framework: SFML
-    license: GPL
-    info: Content license CC-BY-NC-SA
+    license: [GPL, CC-BY-NC-SA]
+    content: open
     updated: 2015-09-11
     images:
     - http://img11.hostingpics.net/pics/927609screenshot20151029203852.png
@@ -23,15 +23,15 @@
     development: halted
     status: unplayable
     lang: C++
-    info: requires original files
+    content: commercial
   - name: OpenTESArena
     repo: https://github.com/afritz1/OpenTESArena
     development: active
     status: unplayable
     lang: C++
     framework: SDL2
-    license: MIT
-    info: requires original files
+    license: [MIT]
+    content: commercial
     updated: 2016-10-09
 
 - name: 'The Elder Scrolls II: Daggerfall'
@@ -45,14 +45,14 @@
     repo: https://github.com/kcat/opendf
     development: sporadic
     lang: C++
-    license: GPL3
+    license: [GPL3]
     status: unplayable
     updated: 2015-07-17
   - name: Daggerfall Unity
     url: http://www.dfworkshop.net/
     repo: https://github.com/Interkarma/daggerfall-unity
     updated: 2016-10-11
-    license: MIT
+    license: [MIT]
     framework: Unity
 
 - name: 'The Elder Scrolls III: Morrowind'
@@ -66,7 +66,7 @@
     development: active
     lang: C++
     repo: https://github.com/OpenMW/openmw
-    license: GPL3
+    license: [GPL3]
     images:
     - http://wiki.openmw.org/images/6/65/0.40_Screenshot-Balmora_1.png
     - http://wiki.openmw.org/images/c/c1/0.40_Screenshot-Seyda_Neen_2.png
@@ -94,7 +94,7 @@
     repo: svn://svn.code.sf.net/p/openggs/code/
     development: active
     lang: C++
-    license: GPL2
+    license: [GPL2]
     images:
     - http://a.fsdn.com/con/app/proj/openggs/screenshots/231110.jpg
     - http://a.fsdn.com/con/app/proj/openggs/screenshots/OpenGGS_SDL2_01.png
@@ -122,7 +122,7 @@
     url: http://www.braingames.getput.com/mog/
     repo: http://braingames.jorito.net/mog/downloads/mog.src_0.63-1548.tgz
     lang: C++
-    license: GPL2
+    license: [GPL2]
     images:
     - http://www.braingames.getput.com/mog/pics/screenshot1.jpg
     - http://www.braingames.getput.com/mog/pics/screenshot2.jpg
@@ -247,7 +247,7 @@
     repo: https://github.com/jsettlers/settlers-remake
     updated: 2015-04-06
     development: active
-    info: needs original files
+    content: commercial
     lang: Java
     images:
     - http://www.settlers-android-clone.com/wp-content/gallery/screenshots_win7/SoldiersFighting_1.png
@@ -280,7 +280,7 @@
     repo: https://github.com/capnramses/opengl_test_drive_clone
     url: http://antongerdelan.net/blog/?post=2014_12_10_test_drive
     lang: C
-    license: GPL3
+    license: [GPL3]
     images:
     - http://antongerdelan.net/blog/images/tdrive_speedo.png
     - http://antongerdelan.net/blog/images/tdrive_tacho.png
@@ -290,7 +290,7 @@
   - name: tetris
     repo: https://github.com/spypunk/tetris
     lang: Java
-    license: WTFPL
+    license: [WTFPL]
     updated: 2016-08-19
     images:
     - https://raw.githubusercontent.com/spypunk/tetris/master/img/screenshot_start.png
@@ -332,7 +332,7 @@
     repo: https://github.com/blockattack/blockattack-game
     lang: C++
     framework: SDL2
-    license: GPL
+    license: [GPL]
     development: active
     updated: 2016-05-01
     images:
@@ -342,12 +342,13 @@
   remakes:
   - name: CorsixTH
     url: http://forums.corsixth.com/
+    repo: https://github.com/CorsixTH
     info: time-based releases
+    status: playable
     development: active
     lang: [C++, Lua]
-    framework: SDL2
-    repo: https://github.com/CorsixTH
-    license: Multiple
+    framework: [SDL2]
+    license: [Multiple]
     images:
     - http://th.corsix.org/CorsixTH08.jpg
     video:
@@ -362,7 +363,7 @@
     development: halted
     lang: C++
     framework: [OpenGL, SDL]
-    license: GPL2
+    license: [GPL2]
 
 - name: [Thromolus, 'http://hol.abime.net/1386']
   remakes:
@@ -371,7 +372,7 @@
     repo: https://github.com/segfaulthunter/thromolusng
     development: halted
     lang: Python
-    license: GPL3
+    license: [GPL3]
 
 - name: [Thrust, Thrust (video game)]
   remakes:
@@ -381,7 +382,7 @@
     repo: https://www.lysator.liu.se/~peda/thrust/src/
     development: halted
     lang: C
-    license: GPL2
+    license: [GPL2]
     images:
     - https://www.lysator.liu.se/~peda/thrust/thrust.gif
   clones:
@@ -391,7 +392,7 @@
     repo: http://transball.googlecode.com/svn/trunk/
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     images:
     - http://www2.braingames.getput.com/transballgl/images/tgl-ss4.jpg
     - http://www2.braingames.getput.com/transballgl/images/tgl-ss5.jpg
@@ -403,7 +404,7 @@
     repo: http://www2.braingames.getput.com/stransball2/downloads/stransball2-v15-windows.zip
     development: complete
     lang: C++
-    license: GPL3
+    license: [GPL3]
     images:
     - http://www2.braingames.getput.com/stransball2/tittle.jpg
     - http://www2.braingames.getput.com/stransball2/selection.jpg
@@ -418,7 +419,7 @@
     repo: https://github.com/haqu/tiny-wings
     development: halted
     lang: Objective-C
-    license: MIT
+    license: [MIT]
 
 - name: Titus the Fox
   names:
@@ -519,9 +520,12 @@
     repo: https://spaceshipduel.codeplex.com/SourceControl/latest
     development: sporadic
     lang: C#
-    license: BSD
+    license: [BSD]
 
 - name: Transport Tycoon
+  meta:
+    genre: [Strategy, Simulation]
+    theme: [Management]
   names:
   - Transport Tycoon Deluxe
   meta:
@@ -534,7 +538,8 @@
     development: active
     lang: C++
     repo: http://vcs.openttd.org/svn/timeline
-    license: GPL2
+    license: [GPL2]
+    content: swapable
     images:
     - https://media.openttd.org/images/screens/1.4/02-opengfx-1920x1200.png
     - https://media.openttd.org/images/screens/1.3/realgrowth.png
@@ -545,7 +550,7 @@
     lang: C++
     repo: https://github.com/aburch/simutrans
     url: http://www.simutrans.com/
-    license: Artistic
+    license: [Artistic]
     images:
     - https://upload.wikimedia.org/wikipedia/commons/d/de/Simutrans_pak64.png
 
@@ -579,7 +584,7 @@
     framework:
     - HTML
     - jQuery
-    - CSS 
+    - CSS
 
 - name: [Turmoil, Turmoil (1984 video game)]
   remakes:
@@ -588,7 +593,7 @@
     repo: https://github.com/haroldo-ok/datastorm
     development: active
     lang: C
-    license: Apache
+    license: [Apache]
 
 - name: [Turnabout, Turnabout (video game)]
   remakes:
@@ -603,7 +608,7 @@
   - name: TurokEX
     development: halted
     repo: https://github.com/svkaiser/TurokEX
-    license: GPL2
+    license: [GPL2]
     lang: C++
     updated: 2016-05-28
 
@@ -632,7 +637,7 @@
     updated: 2015-05-29
     development: sporadic
     lang: Java
-    license: GPL2
+    license: [GPL2]
     url: http://www.b3dgs.com
     images:
     - http://www.b3dgs.com/v7/projects/tyrian_remake/screens/1.png
@@ -647,7 +652,7 @@
     repo: git://git.code.sf.net/p/freevikings/git
     development: sporadic
     lang: Ruby
-    license: GPL2
+    license: [GPL2]
     images:
     - http://a.fsdn.com/con/app/proj/freevikings/screenshots/186371.jpg
     - http://a.fsdn.com/con/app/proj/freevikings/screenshots/186373.jpg
@@ -705,12 +710,12 @@
     repo: https://bazaar.launchpad.net/~4dtris-dev/4dtris/trunk/files
     development: halted
     lang: C
-    license: GPL2
+    license: [GPL2]
   - name: Hextris
     url: https://hextris.github.io/
     repo: https://github.com/Hextris/Hextris
     updated: 2015-05-02
     development: active
     lang: JavaScript
-    license: GPL3
+    license: [GPL3]
 

@@ -13,7 +13,7 @@
     url: https://code.google.com/p/geomwarsremake/
     development: halted
     lang: Java
-    license: GPL
+    license: [GPL]
     repo: http://geomwarsremake.googlecode.com/svn/trunk/
   - name: Grid Wars 2
     updated: 2015-05-09
@@ -28,14 +28,21 @@
     - http://worldofstuart.excellentcontent.com/grid/gw5.jpg
 
 - name: [Gish, Gish (video game)]
+  meta:
+    genre: [Platformer]
+    theme: [Comedy]
   remakes:
   - name: freegish
     repo: https://github.com/freegish/freegish
     updated: 2015-04-08
     development: active
-    lang: C
-    license: GPL2
-    info: Content license CC-BY-SA
+    lang: [C]
+    framework: [SDL]
+    license: [GPL2, CC-BY-SA]
+    content: open
+    images:
+    - https://upload.wikimedia.org/wikipedia/commons/f/f7/FreeGish_1-2.png
+    - https://upload.wikimedia.org/wikipedia/commons/0/00/FreeGish_1-5.png
 
 - name: Gladiator
   remakes:
@@ -82,7 +89,7 @@
     repo: https://github.com/goldeneye-source/ges-code
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
     images:
     - http://media.moddb.com/images/mods/1/5/4506/Archives2.jpg
     - http://media.moddb.com/images/mods/1/5/4506/Archives3.jpg
@@ -98,7 +105,7 @@
     development: sporadic
     lang: Objective-C
     info: iOS
-    license: JRL
+    license: [JRL]
 
 - name: [Gothic, Gothic (video game)]
   names:
@@ -109,8 +116,8 @@
     status: playable
     development: active
     lang: C++
-    license: GPL3
-    info: requires original files
+    license: [GPL3]
+    content: commercial
     images:
     - http://oi65.tinypic.com/14mzzi8.jpg
 
@@ -154,7 +161,7 @@
   - name: OpenRW "Open ReWrite"
     repo: https://github.com/danhedron/openrw
     updated: 2016-05-18
-    license: GPL3
+    license: [GPL3]
     lang: C++
     development: active
 

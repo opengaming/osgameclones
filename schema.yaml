@@ -3,8 +3,8 @@ sequence:
   - type: map
     mapping:
       name:
-        type: any
         required: True
+        type: any
       names:
         type: any
       meta:
@@ -38,9 +38,10 @@ schema;game:
   type: map
   mapping:
     name:
-      type: str
       required: True
+      type: str
     repo:
+      required: False # Work towards making it True
       type: str
     url:
       type: str
@@ -50,12 +51,18 @@ schema;game:
     status:
       type: str
       enum: ['playable', 'semi-playable', 'unplayable']
+    content:
+      type: str
+      enum: ['commercial', 'free', 'open', 'swapable']
     lang:
       type: any
     framework:
       type: any
     license:
-      include: licenses
+      required: False # Work towards making it True
+      type: seq
+      sequence:
+        - include: licenses
     info:
       type: str
     updated:
@@ -129,6 +136,7 @@ schema;subgenres:
     'Light-Gun Shooter',
     'Pinball',
     'Real-Time Strategy',
+    'Real-Time Tactics',
     'Roguelike',
     'Run and gun',
     'Skateboarding',
@@ -190,6 +198,7 @@ schema;licenses:
   enum: [
     'Custom', # Catch-all for custom licenses
     'Multiple', # Catch-all for multiple licenses
+    'As-is', # Catch-all for as-is, as-available licenses
     'AGPL3',
     'Apache',
     'Artistic',
@@ -199,11 +208,13 @@ schema;licenses:
     'CC0',
     'CC-BY',
     'CC-BY-NC',
+    'CC-BY-NC-ND',
     'CC-BY-NC-SA',
     'CC-BY-SA',
     'GPL',
     'GPL2',
     'GPL3',
+    'ISC',
     'JRL', # Java Research License
     'LGPL',
     'LGPL2',

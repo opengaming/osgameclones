@@ -77,7 +77,7 @@
     {%- for tag_name in tag_names %}
       {%- set className = ["tag", tag_class.lower(), "tag-"+tag_name.lower().replace(' ', '-')] -%}
       {%- set dataName = tag_name.lower().replace(' ', '-') -%}
-      <span class="{{ className | join(' ') }}" data-name="{{ dataName }}">
+      <span title="{{ tag_class | title }}" class="{{ className | join(' ') }}" data-name="{{ dataName }}">
         {{- tag_name -}}
         {%- if tag_props -%}<span class="tag-badge">{{ tag_props }}</span>{%- endif -%}
       </span>
@@ -139,9 +139,10 @@
 
     {{ render_tag('status', game['status'] | title) }}
     {{ render_tag('development', game['development'] | title) }}
-    {{ render_tag('license', game['license']) }}
     {{ render_tag('lang', game['lang']) }}
     {{ render_tag('framework', game['framework']) }}
+    {{ render_tag('content', game['content'] | title) }}
+    {{ render_tag('license', game['license']) }}
 
     {%- if 'info' in game %}<div>{{ game['info'] }}</div>{% endif %}
 

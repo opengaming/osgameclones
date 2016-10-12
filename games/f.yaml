@@ -28,7 +28,7 @@
     url: http://sourceforge.net/projects/racer/
     development: active
     lang: [C++, Python]
-    license: GPL3
+    license: [GPL3]
     repo: svn://svn.code.sf.net/p/racer/code/trunk
     updated: 2015-04-25
     images:
@@ -56,14 +56,14 @@
     lang:
     - JavaScript
     - Python
-    info: needs original game data
-    license: Apache
+    content: commercial
+    license: [Apache]
   - name: Falltergeist
     url: https://falltergeist.org/
     repo: https://github.com/alexeevdv/falltergeist
     status: unplayable
     development: active
-    info: needs game data
+    content: commercial
     lang: C++
   - name: parpg
     updated: 2016-02-08
@@ -73,7 +73,7 @@
     lang:
     - Python
     - C++
-    license: GPL
+    license: [GPL]
     images:
     - http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg
 
@@ -85,7 +85,7 @@
     updated: 2015-04-10
     development: halted
     lang: C#
-    license: Custom
+    license: [Custom]
     images:
     - http://media.indiedb.com/images/games/1/24/23884/post13_3_zpsfe75e66a.png
 
@@ -97,7 +97,7 @@
     repo: https://github.com/nadult/FreeFT
     development: active
     lang: C++
-    license: BSD
+    license: [BSD]
 
 - name: Fallout Online
   remakes:
@@ -107,7 +107,7 @@
     updated: 2016-02-08
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
 
 - name: Fantastic Journey
   names:
@@ -126,20 +126,20 @@
     repo: https://github.com/varunpant/CrappyBird
     development: sporadic
     lang: JavaScript
-    license: MIT
+    license: [MIT]
   - name: Clumsy Bird
     updated: 2015-05-02
     repo: https://github.com/ellisonleao/clumsy-bird
     development: active
     framework: MelonJS
-    license: MIT
+    license: [MIT]
   - name: Hocoslamfy
     updated: 2015-06-01
     repo: https://github.com/Nebuleon/hocoslamfy
     development: halted
     lang: C
     framework: SDL
-    license: GPL
+    license: [GPL]
     images:
     - http://www.gcw-zero.com/images/articles/hocoslamfy-score-shown-2.png
     video:
@@ -174,7 +174,7 @@
     repo: http://friking-shark.googlecode.com/svn/trunk/
     development: halted
     lang: C++
-    license: GPL3
+    license: [GPL3]
 
 - name: Final Fantasy VIII
   remakes:
@@ -201,7 +201,7 @@
     url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
     repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/fm-0.99.tar.gz
     lang: C
-    license: GPL2
+    license: [GPL2]
 
 - name: 'Forgotten Realms: Unlimited Adventures'
   remakes:
@@ -210,7 +210,7 @@
     repo: http://uaf.sourceforge.net/download.html
     development: active
     status: playable
-    license: GPL2
+    license: [GPL2]
     updated: 2016-08-25
     images:
     - http://uaf.sourceforge.net/images/ss01.png
@@ -228,7 +228,7 @@
     status: playable
     development: halted
     lang: [C]
-    license: GPL2
+    license: [GPL2]
     updated: 2013-05-29
     images:
     - http://forsakenx.github.io/fsplanet/images/I_ins_koth001.JPG
@@ -257,7 +257,7 @@
     url: https://github.com/CallumDev/Librelancer
     development: active
     lang: C#
-    license: MPL
+    license: [MPL]
     framework:
     - OpenGL
     images:
@@ -284,7 +284,7 @@
     url: http://perso.b2b2c.ca/~sarrazip/dev/batrachians.html
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     repo: http://perso.b2b2c.ca/~sarrazip/dev/batrachians-0.1.6.tar.gz
     images:
     - http://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
@@ -297,7 +297,7 @@
     repo: svn://svn.code.sf.net/p/froggix/code/trunk
     development: halted
     lang: Python
-    license: GPL2
+    license: [GPL2]
     images:
     - https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg
 
@@ -310,7 +310,7 @@
     development: halted
     lang: C
     framework: SDL
-    license: GPL2
+    license: [GPL2]
   - name: Falling Time
     updated: 2015-05-26
     repo: https://github.com/cxong/FallingTime
@@ -318,7 +318,7 @@
     development: halted
     lang: C
     framework: SDL2
-    license: GPL2
+    license: [GPL2]
     images:
     - https://raw.github.com/cxong/fallingtime/master/screenshot.png
     video:
@@ -331,5 +331,5 @@
     development: active
     lang: C++
     info: win32
-    license: BSD2
+    license: [BSD2]
 

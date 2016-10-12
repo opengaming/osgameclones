@@ -2,7 +2,7 @@
   remakes:
   - name: Cadaver
     development: halted
-    info: PC game files required
+    content: commercial
     lang: C++
     updated: 2015-04-06
     repo: http://jotd.pagesperso-orange.fr/cadaver/bin/Cadaver-001.zip
@@ -14,7 +14,7 @@
   - name: CaesarIA
     url: https://bitbucket.org/dalerank/caesaria
     repo: https://github.com/dalerank/caesaria-game
-    license: GPL3
+    license: [GPL3]
     status: playable
     development: active
     lang:
@@ -29,7 +29,7 @@
     updated: 2015-04-10
     url: http://ctp2.darkdust.net/
     repo: https://ctp2.darkdust.net/svn/
-    lang: C 
+    lang: C
 
 - name: Candy Crush Saga
   clones:
@@ -61,21 +61,23 @@
     repo: http://code.google.com/p/openc1/
     status: playable
     development: sporadic
-    info: needs game data
+    content: commercial
     lang: C#
     video:
       youtube: 0afl6ruHZgI
 
 - name: Castle of the Winds
+  meta:
+    genre: [Role-Playing]
+    subgenre: [Roguelike]
   remakes:
-  - name: Castle of the Winds (React/MeteorJS Remake)
+  - name: Castle of the Winds in Elm
     updated: 2015-08-31
-    repo: https://github.com/mordrax/cotwmtor
-    url: http://mordrax.github.io/cotwmtor/
+    repo: https://github.com/mordrax/cotwelm
+    url: http://game.castleofthewinds.com/
     development: active
-    lang: JavaScript
-    framework: [React, Redux, Meteor]
-    license: MIT
+    lang: [Elm, JavaScript]
+    license: [MIT]
 
 - name: Cataclysm
   meta:
@@ -90,7 +92,7 @@
     development: active
     lang: [C++, Lua]
     framework: ncurses
-    license: CC-BY-SA
+    license: [CC-BY-SA]
     updated: 2016-10-09
     images:
     - http://en.cataclysmdda.com/assets/drive.png
@@ -105,18 +107,28 @@
     repo: https://github.com/Blzut3/CatacombSDL
     status: playable
     development: halted
-    info: needs game data
+    content: commercial
     lang: C
     updated: 2014-07-23
 
 - name: Cave Story
+  names:
+    - Doukutsu Monogatari
+  meta:
+    genre: [Action-Adventure, Platformer]
+    theme: [Sci-Fi]
   remakes:
   - name: NXEngine
     url: http://nxengine.sourceforge.net/
+    repo: http://nxengine.sourceforge.net/dl/nx-src-1006.tar.bz2
     status: playable
     development: sporadic
-    info: needs game data (but it's free!)
+    lang: [C++]
+    content: free
+    license: [GPL3]
     updated: 2013-05-29
+    images:
+      - https://repo.openpandora.org/files/pnd/nxengine/previews/nxengine2.png
 
 - name: Chip's Challenge
   remakes:
@@ -141,8 +153,8 @@
     repo: https://github.com/SimonLarsen/duckmarines
     status: playable
     development: active
-    lang: Lua
-    info: music is CC-BY-NC-ND
+    lang: [Lua]
+    license: [CC-BY-SA, CC-BY-NC-ND]
     updated: 2014-07-23
     images:
     - http://tangramgames.dk/games/duckmarines/images/teaser.png
@@ -159,7 +171,7 @@
     updated: 2015-04-07
     development: halted
     lang: C
-    license: GPL2
+    license: [GPL2]
     images:
     - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-title.gif
     - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-game.gif
@@ -183,7 +195,7 @@
     repo: https://github.com/MikeDX/div-columns
     development: active
     framework: DIV Games Studio
-    license: MIT
+    license: [MIT]
 
 - name: [Commando, Commando (video game)]
   remakes:
@@ -195,7 +207,7 @@
     development: halted
     lang: [JavaScript, CoffeeScript]
     framework: melonJS
-    license: MIT
+    license: [MIT]
     images:
     - http://i.imgur.com/e4ChdOL.png
 
@@ -217,7 +229,7 @@
     repo: https://github.com/keendreams/keen
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
     images:
     - http://cloud-3.steamusercontent.com/ugc/26216921914590827/8AECCAA9C1AA07D02F357A41AEFB074FC02A75A1/
     video:
@@ -227,7 +239,7 @@
     repo: https://github.com/sulix/omnispeak
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
     updated: 2015-04-04
     images:
     - http://davidgow.net/images/omnispeak-2.png
@@ -242,7 +254,7 @@
     repo: https://github.com/OpenRA/OpenRA
     development: active
     lang: C#
-    license: GPL3
+    license: [GPL3]
     images:
     - http://www.openra.net/images/news/20150531-ra-editor.png
     - http://www.openra.net/images/news/20140405-beacons.png
@@ -255,7 +267,7 @@
     repo: https://github.com/EmileSonneveld/Contra_remake
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     video:
       vimeo: 79514269
 
@@ -287,7 +299,7 @@
     development: halted
     info: forks present
     lang: C++
-    license: LGPL
+    license: [LGPL]
 
 - name: Crystal Quest
   remakes:
@@ -299,7 +311,7 @@
     - HTML5
     - JQuery
     lang: JavaScript
-    license: MIT
+    license: [MIT]
 
 - name: Curse of the Azure Bonds
   remakes:
@@ -317,7 +329,7 @@
     url: http://cytadela.sourceforge.net/about.php
     development: sporadic
     lang: C++
-    license: GPL3
+    license: [GPL3]
     repo: http://heanet.dl.sourceforge.net/project/cytadela/cytadela/1.1.0/cytadela-1.1.0.tar.bz2
     images:
     - http://cytadela.sourceforge.net/images/901.png
@@ -337,7 +349,7 @@
     status: playable
     development: active
     lang: C
-    license: CC-BY
+    license: [CC-BY]
     framework: SDL2
     updated: 2014-03-08
     images:
@@ -360,8 +372,8 @@
     repo: https://github.com/SWY1985/CivOne
     development: active
     lang: C#
-    license: CC0
-    info: requires original files
+    license: [CC0]
+    content: commercial
     updated: 2016-05-09
 
 - name: Civilization II

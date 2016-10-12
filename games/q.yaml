@@ -15,7 +15,7 @@
     repo: https://svn.icculus.org/twilight/trunk/darkplaces/
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
     updated: 2015-07-02
     images:
     - https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty1.jpg
@@ -26,7 +26,7 @@
     repo: https://github.com/ezQuake/ezquake-source
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
     updated: 2015-07-02
     images:
     - http://ezquake.sourceforge.net/gallery/armor_battle.png
@@ -35,20 +35,20 @@
     url: http://quakeone.com/proquake/
     repo: http://quakeone.com/proquake/proquake_493_src.rar
     lang: C
-    license: GPL2
+    license: [GPL2]
   - name: QuakeSpasm
     url: http://quakespasm.sourceforge.net/
     repo: http://sourceforge.net/p/quakespasm/code/HEAD/tree/trunk/quakespasm/
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
     updated: 2015-07-02
   - name: TyrQuake
     url: http://disenchant.net/tyrquake/
     repo: https://github.com/libretro/tyrquake
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
     updated: 2015-04-03
 
 - name: Quake 2
@@ -59,7 +59,7 @@
     updated: 2015-04-03
     development: active
     lang: Java
-    license: GPL2
+    license: [GPL2]
     images:
     - https://a.fsdn.com/con/app/proj/jake2/screenshots/31155.jpg
   - name: Yamagi Quake II
@@ -68,7 +68,7 @@
     url: http://www.yamagi.org/quake2/
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
 
 - name: Quake 3
   remakes:
@@ -96,14 +96,14 @@
     repo: https://github.com/TIHan/FQuake3
     development: sporadic
     lang: F#
-    license: GPL2
+    license: [GPL2]
   - name: QuakeJS
     updated: 2016-01-09
     repo: https://github.com/inolen/quakejs
     url: http://www.quakejs.com/
     development: halted
     lang: JavaScript
-    license: MIT
+    license: [MIT]
 
 - name: Q*bert
   remakes:
@@ -112,5 +112,5 @@
     updated: 2015-05-18
     development: halted
     framework: HTML5
-    license: GPL3
+    license: [GPL3]
 

@@ -19,7 +19,7 @@
     updated: 2016-03-08
     development: active
     lang: C++
-    license: MIT
+    license: [MIT]
     images:
     - https://raw.githubusercontent.com/paulsapps/alive/dev/doc/screenshots/alive1.png
 
@@ -30,7 +30,7 @@
     url: http://www.openoutcast.org/wp/
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     repo: svn://svn.code.sf.net/p/ocmod/code/
     images:
     - https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg
@@ -43,7 +43,7 @@
   - name: Cannonball
     url: https://github.com/djyt/cannonball/wiki
     repo: https://github.com/djyt/cannonball
-    info: needs game data
+    content: commercial
     status: playable
     development: active
     lang: C++
@@ -70,14 +70,20 @@
     updated: 2013-05-27
 
 - name: 'One Must Fall: 2097'
+  meta:
+    genre: [Fighting]
+    theme: [Sci-Fi]
   remakes:
   - name: OpenOMF
     url: http://www.openomf.org/
     repo: https://github.com/omf2097/openomf/
-    info: single player, 2 player and network play work, needs free resources from
-      omf2097.com
+    info: single player, 2 player and network play work, content from omf2097.com
+    content: free
     status: playable
     development: active
+    lang: [C]
+    license: [MIT]
+    content: free
     updated: 2014-08-16
     images:
     - http://www.openomf.org/screenshots/mainmenu.png
@@ -93,7 +99,7 @@
     repo: svn://rubyforge.org/var/svn/rubyomf2097
     development: halted
     lang: Ruby
-    license: BSD4
+    license: [BSD4]
 
 - name: [Overflow, 'http://amigagamer.blogspot.co.uk/2012/11/overflow-amiga-pipemania-clone.html']
   remakes:
@@ -112,7 +118,7 @@
     development: halted
     framework: "L\xD6VE"
     lang: Lua
-    license: GPL3
+    license: [GPL3]
     images:
     - http://i.imgur.com/qWgWeXA.png
   - name: Omega Race Remake

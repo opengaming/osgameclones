@@ -11,7 +11,7 @@
     updated: 2015-05-10
     lang: Java
     info: (source inside JAR file)
-    license: GPL2
+    license: [GPL2]
     repo: http://ostermiller.org/ladder/ladder.jar
     url: http://ostermiller.org/ladder/
     images:
@@ -22,7 +22,7 @@
     repo: https://github.com/SmallRoomLabs/ladder
     development: active
     lang: GO
-    license: MIT
+    license: [MIT]
     images:
     - https://raw.githubusercontent.com/SmallRoomLabs/ladder/master/images/GameRunning1.png
 
@@ -34,7 +34,7 @@
     repo: git://git.code.sf.net/p/nlarn/git nlarn-git
     development: active
     lang: [C, Lua]
-    license: GPL2
+    license: [GPL2]
 
 - name: [Legion, 'http://www.mobygames.com/game/legion__']
   remakes:
@@ -44,7 +44,7 @@
     development: halted
     lang: C++
     framework: Irrlict
-    license: Custom
+    license: [Custom]
 
 - name: [Lego Rock Raiders, Lego Rock Raiders (video game)]
   remakes:
@@ -86,7 +86,7 @@
     url: http://www.b3dgs.com/
     development: active
     lang: Java
-    license: GPL2
+    license: [GPL2]
     images:
     - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/1.png
     - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/2.png
@@ -99,9 +99,9 @@
     repo: https://code.google.com/p/twin-e/source/browse/
     status: playable
     development: sporadic
-    info: needs game data
+    content: commercial
     lang: C
-    license: GPL
+    license: [GPL]
     updated: 2014-11-09
 
 - name: [Locomotion (Amiga 1992), 'http://www.mobygames.com/game/locomotion']
@@ -133,7 +133,7 @@
     development: active
     lang: C++
     framework: SDL2
-    license: GPL2
+    license: [GPL2]
     updated: 2016-05-31
     images:
     - https://www.kde.org/images/screenshots/kgoldrunner.png
@@ -147,14 +147,14 @@
     development: sporadic
     framework: HTML5
     lang: JavaScript
-    license: GPL2
+    license: [GPL2]
     updated: 2014-08-20
   - name: Pathological
     updated: 2015-04-16
     url: http://pathological.sourceforge.net/
     development: halted
     lang: Python
-    license: GPL2
+    license: [GPL2]
     repo: http://pathological.cvs.sourceforge.net/viewvc/pathological/
     images:
     - http://pathological.sourceforge.net/screenshots/intro.png
@@ -170,7 +170,7 @@
     repo: https://github.com/eguneys/lose-your-marbles
     development: sporadic
     lang: JavaScript
-    license: MIT
+    license: [MIT]
 
 - name: Lumines
   remakes:
@@ -179,7 +179,7 @@
     repo: https://github.com/kaikai2/luminesk5
     development: halted
     lang: Objective-C
-    license: GPL3
+    license: [GPL3]
 
 - name: ['Lugaru: The Rabbit''s Foot', Lugaru]
   remakes:
@@ -189,7 +189,7 @@
     repo: https://hg.icculus.org/icculus/lugaru/file/97b303e79826
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
 
 - name: [Legend of Zelda - A Link to the Past, 'The Legend of Zelda: A Link to the
       Past']
@@ -213,7 +213,7 @@
     framework:
     - WebGL
     - Phaser
-    license: MIT
+    license: [MIT]
 
 - name: [Lemmings, Lemmings (video game)]
   clones:
@@ -239,7 +239,7 @@
     repo: https://github.com/lukaswerner/JavaFXLemmings
     development: active
     lang: JavaFX
-    license: GPL2
+    license: [GPL2]
 
 - name: [Lotus Esprit Turbo Challenge, Lotus (series)]
   clones:
@@ -248,7 +248,7 @@
     repo: https://github.com/onaluf/RacerJS
     development: halted
     lang: JavaScript
-    license: MIT
+    license: [MIT]
 
 - name: Legend of Zelda
   clones:
@@ -316,7 +316,7 @@
     development: active
     lang: C
     framework: SDL
-    license: GPL2
+    license: [GPL2]
     images:
     - http://fanwor.tuxfamily.org/fanwor-1.png
     - http://fanwor.tuxfamily.org/fanwor-2.png
