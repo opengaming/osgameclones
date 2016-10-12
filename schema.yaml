@@ -50,6 +50,9 @@ schema;game:
     status:
       type: str
       enum: ['playable', 'semi-playable', 'unplayable']
+    content:
+      type: str
+      enum: ['commercial', 'free', 'open', 'swapable']
     lang:
       type: any
     framework:

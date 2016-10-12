@@ -9,12 +9,15 @@
     license: [MIT]
 
 - name: [Earth Shaker, Earth Shaker (video game)]
+  meta:
+    genre: [Puzzle]
   remakes:
   - name: EarthShakerDS
     repo: https://github.com/ant512/EarthShakerDS
     url: http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released
     updated: 2015-04-08
-    info: Nintendo DS port, content copyrighted
+    info: Nintendo DS port
+    content: commercial
     development: active
     lang: C++
     license: [BSD]
