@@ -77,7 +77,7 @@
     {%- for tag_name in tag_names %}
       {%- set className = ["tag", tag_class.lower(), "tag-"+tag_name.lower().replace(' ', '-')] -%}
       {%- set dataName = tag_name.lower().replace(' ', '-') -%}
-      <span class="{{ className | join(' ') }}" data-name="{{ dataName }}">
+      <span title="{{ tag_class | title }}" class="{{ className | join(' ') }}" data-name="{{ dataName }}">
         {{- tag_name -}}
         {%- if tag_props -%}<span class="tag-badge">{{ tag_props }}</span>{%- endif -%}
       </span>
