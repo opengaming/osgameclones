@@ -3,8 +3,8 @@ sequence:
   - type: map
     mapping:
       name:
-        type: any
         required: True
+        type: any
       names:
         type: any
       meta:
@@ -38,8 +38,8 @@ schema;game:
   type: map
   mapping:
     name:
-      type: str
       required: True
+      type: str
     repo:
       type: str
     url:
