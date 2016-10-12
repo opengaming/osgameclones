@@ -2,7 +2,7 @@
   remakes:
   - name: Cadaver
     development: halted
-    info: PC game files required
+    content: commercial
     lang: C++
     updated: 2015-04-06
     repo: http://jotd.pagesperso-orange.fr/cadaver/bin/Cadaver-001.zip
@@ -61,7 +61,7 @@
     repo: http://code.google.com/p/openc1/
     status: playable
     development: sporadic
-    info: needs game data
+    content: commercial
     lang: C#
     video:
       youtube: 0afl6ruHZgI
@@ -107,7 +107,7 @@
     repo: https://github.com/Blzut3/CatacombSDL
     status: playable
     development: halted
-    info: needs game data
+    content: commercial
     lang: C
     updated: 2014-07-23
 
@@ -153,8 +153,8 @@
     repo: https://github.com/SimonLarsen/duckmarines
     status: playable
     development: active
-    lang: Lua
-    info: music is CC-BY-NC-ND
+    lang: [Lua]
+    license: [CC-BY-SA, CC-BY-NC-ND]
     updated: 2014-07-23
     images:
     - http://tangramgames.dk/games/duckmarines/images/teaser.png
@@ -373,7 +373,7 @@
     development: active
     lang: C#
     license: [CC0]
-    info: requires original files
+    content: commercial
     updated: 2016-05-09
 
 - name: Civilization II
