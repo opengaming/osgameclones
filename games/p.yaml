@@ -5,13 +5,13 @@
     repo: https://github.com/daleharvey/pacman
     development: halted
     lang: JavaScript
-    license: Custom
+    license: [Custom]
   - name: pacman-canvas
     repo: https://github.com/platzhersh/pacman-canvas
     url: http://pacman.platzh1rsch.ch/
     development: active
     framework: HTML5
-    license: CC-BY-SA
+    license: [CC-BY-SA]
     updated: 2015-05-19
   - name: pacman
     url: http://harto.github.io/pacman/
@@ -46,7 +46,7 @@
     url: http://js.mikedx.co.uk/pacman2600.html
     development: active
     framework: DIV Games Studio
-    license: MIT
+    license: [MIT]
 
 - name: Pitfall!
   remakes:
@@ -56,7 +56,7 @@
     url: http://js.mikedx.co.uk/pitfall.html
     development: active
     framework: DIV Games Studio
-    license: MIT
+    license: [MIT]
 
 - name: 'Populous: The Beginning'
   remakes:
@@ -66,7 +66,7 @@
     url: http://openpopulous.sourceforge.net/
     development: halted
     lang: C++
-    license: GPL3
+    license: [GPL3]
     images:
     - https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg
 
@@ -174,7 +174,7 @@
     repo: https://github.com/jonasdemoor/PKMN-FX
     development: active
     updated: 2016-05-14
-    license: GPL3
+    license: [GPL3]
     lang: Java
 
 - name: [Pole Position, Pole Position (video game)]
@@ -193,7 +193,7 @@
     repo: https://github.com/nbollom/pq2
     lang: C++
     framework: ncurses
-    license: GPL3
+    license: [GPL3]
     development: active
 
 - name: [Punch-Out!!, Punch-Out!! (arcade game)]
@@ -259,7 +259,7 @@
     status: playable
     development: active
     lang: [Python, C, Lua]
-    license: GPL2
+    license: [GPL2]
     images:
     - http://www.freedroid.org/images/screenshots/hell_fortress.png
     - http://www.freedroid.org/images/screenshots/editor_zoom.png
@@ -273,7 +273,7 @@
     repo: http://pizza-business.cvs.sourceforge.net/viewvc/pizza-business/
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     images:
     - http://pizza-business.sourceforge.net/gtk1.png
 
@@ -285,4 +285,3 @@
     development: sporadic
     lang: Perl
     updated: 2013-06-06
-

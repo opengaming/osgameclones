@@ -55,7 +55,9 @@ schema;game:
     framework:
       type: any
     license:
-      include: licenses
+      type: seq
+      sequence:
+        - include: licenses
     info:
       type: str
     updated:

@@ -10,7 +10,7 @@
     repo: http://prdownloads.sourceforge.net/krystaldrop/src_0.7.2.tgz?download
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     images:
     - http://krystaldrop.sourceforge.net/images/sshot1.png
     - http://krystaldrop.sourceforge.net/images/sshot2.png
@@ -40,7 +40,7 @@
     development: active
     info: engine only
     lang: [C++, Python]
-    license: MIT
+    license: [MIT]
 
 - name: Missile Command
   remakes:
@@ -78,7 +78,7 @@
     url: http://sourceforge.net/projects/maxit/
     development: sporadic
     lang: C++
-    license: BSD
+    license: [BSD]
     repo: https://github.com/textbrowser/maxit
     images:
     - https://a.fsdn.com/con/app/proj/maxit/screenshots/183592.jpg
@@ -94,7 +94,7 @@
     status: unplayable
     development: sporadic
     lang: C
-    license: GPL2
+    license: [GPL2]
     framework: SDL
     updated: 2015-04-11
     images:
@@ -120,7 +120,7 @@
     repo: https://github.com/Scorched-Moon/client
     development: sporadic
     lang: Python
-    license: GPL3
+    license: [GPL3]
 
 - name: Mortal Kombat
   remakes:
@@ -130,7 +130,7 @@
     status: playable
     development: halted
     lang: JavaScript
-    license: MIT
+    license: [MIT]
     url: http://mk.mgechev.com/
   clones:
   - name: OpenMortal
@@ -149,7 +149,7 @@
     repo: https://github.com/LionsPhil/mewl
     development: sporadic
     lang: C++
-    license: GPL2
+    license: [GPL2]
 
 - name: [Magic Carpet, Magic Carpet (video game)]
   remakes:
@@ -222,7 +222,7 @@
     repo: http://wiki.wesnoth.org/WesnothRepository
     development: active
     lang: [C++, C, Java, Python, Lua, Emacs Lisp]
-    license: GPL2
+    license: [GPL2]
     updated: 2016-01-01
     images:
     - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg
@@ -251,7 +251,7 @@
     repo: https://github.com/hackcraft-de/linwarrior
     development: halted
     lang: C++
-    license: Apache
+    license: [Apache]
     url: http://www.hackcraft.de/games/linwarrior_3d/index.htm
     updated: 2015-04-03
     images:
@@ -264,7 +264,7 @@
     repo: https://github.com/Echelon9/mechcommander2-open
     development: halted
     lang: C++
-    license: MS-PL
+    license: [MS-PL]
 
 - name: Mega Lo Mania
   remakes:
@@ -288,7 +288,7 @@
     updated: 2015-05-02
     development: active
     lang: JavaScript
-    license: Custom
+    license: [Custom]
     images:
     - https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png
 
@@ -300,21 +300,21 @@
     repo: https://github.com/OpenMeridian/Meridian59
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
   - name: Meridian 59 Server 105
     updated: 2016-03-16
     url: https://www.meridiannext.com
     repo: https://github.com/OpenMeridian105/Meridian59
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
   - name: Meridian 59 German Server 112
     updated: 2016-03-16
     url: http://meridian59.de
     repo: https://github.com/Arantis/Meridian59_112
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
 
 - name: [Millipede, Millipede (video game)]
   remakes:
@@ -324,7 +324,7 @@
     repo: https://github.com/machinezilla/monsters_and_mushrooms
     development: halted
     lang: Python
-    license: GPL2
+    license: [GPL2]
     images:
     - http://pygame.org/shots/989.png
 
@@ -353,7 +353,7 @@
     status: playable
     development: halted
     lang: C++
-    license: GPL3
+    license: [GPL3]
   - name: Terasology
     url: http://terasology.org/
     repo: https://github.com/MovingBlocks/Terasology
@@ -361,7 +361,7 @@
     status: playable
     development: active
     lang: Java
-    license: Apache
+    license: [Apache]
     video:
       youtube: cU6LL5BXi5E
   - name: Hematite
@@ -370,7 +370,7 @@
     updated: 2014-05-04
     development: active
     lang: Rust
-    license: MIT
+    license: [MIT]
     images:
     - https://raw.githubusercontent.com/PistonDevelopers/hematite/master/screenshot.png
   - name: Digbuild
@@ -379,7 +379,7 @@
     repo: https://github.com/emezeske/digbuild
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     images:
     - http://blog.mezeske.com/wp-content/uploads/2011/07/digbuild-screenshot-1.jpg
   - name: TrueCraft
@@ -388,7 +388,7 @@
     repo: https://github.com/SirCmpwn/TrueCraft
     development: active
     lang: C#
-    license: MIT
+    license: [MIT]
     images:
     - https://sr.ht/aKPe.png
     - https://sr.ht/OGQM.png
@@ -398,7 +398,7 @@
     repo: https://gitlab.com/voxelands/voxelands
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
     images:
     - http://www.voxelands.com/images/survival-small.png
     - http://www.voxelands.com/images/farming-small.png
@@ -410,7 +410,7 @@
     repo: https://github.com/itsapi/pycraft
     development: active
     lang: Python
-    license: GPL2
+    license: [GPL2]
 
 - name: [Minesweeper, Minesweeper (video game)]
   remakes:
@@ -428,7 +428,7 @@
     updated: 2015-06-01
     development: active
     lang: [PHP, JavaScript]
-    license: MIT
+    license: [MIT]
     url: http://movbizz.sebbmeyer.de/
 
 - name: Mario Kart
@@ -459,7 +459,7 @@
     name: FreeOrion
     development: sporadic
     lang: [C++, Python]
-    license: GPL2
+    license: [GPL2]
     repo: https://github.com/freeorion/freeorion
     info: Content lisense CC-BY-SA 3.0
     images:
@@ -484,7 +484,7 @@
     url: http://microracers.sourceforge.net/
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     repo: http://microracers.cvs.sourceforge.net/viewvc/microracers/
     images:
     - http://microracers.sourceforge.net/images/screenshots/microracers-0.2-1.jpg

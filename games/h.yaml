@@ -75,7 +75,7 @@
     info: time-based releases, requires original files
     lang: C++
     framework: SDL
-    license: GPL2
+    license: [GPL2]
     images:
     - http://forum.vcmi.eu/album_pic.php?pic_id=35
     - http://forum.vcmi.eu/album_pic.php?pic_id=40
@@ -101,7 +101,7 @@
     url: http://vorton.sourceforge.net/
     development: halted
     lang: C
-    license: GPL3
+    license: [GPL3]
     repo: http://iweb.dl.sourceforge.net/project/vorton/Vorton-Source/Beta-2/vorton-src-beta2.zip
     images:
     - http://vorton.sourceforge.net/shot2.png
@@ -146,7 +146,7 @@
     updated: 2015-04-08
     development: active
     lang: C++
-    license: Custom
+    license: [Custom]
 
 - name: Hovertank 3D
   remakes:
@@ -157,7 +157,7 @@
     lang:
     - C
     - Assembly
-    license: GPL2
+    license: [GPL2]
 
 - name: Herzog Zwei
   clones:
@@ -165,7 +165,7 @@
     url: http://herzog3d.sourceforge.net/
     repo: https://sourceforge.net/p/herzog3d/code/HEAD/tree/
     development: halted
-    license: GPL2
+    license: [GPL2]
     updated: 2016-06-18
     images:
     - http://herzog3d.sourceforge.net/images/hz_1.jpeg
@@ -185,7 +185,7 @@
     name: SLASH'EM
     development: halted
     lang: [C]
-    license: NGPL
+    license: [NGPL]
     updated: 2015-04-11
     repo: http://slashem.cvs.sourceforge.net/viewvc/slashem/
     images:

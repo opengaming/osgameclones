@@ -4,7 +4,7 @@
     url: http://sourceforge.net/projects/freelords/
     development: active
     lang: Java
-    license: GPL2
+    license: [GPL2]
     repo: git://git.code.sf.net/p/freelords/git
     updated: 2015-04-06
 
@@ -16,14 +16,14 @@
     info: needs original files
     development: active
     lang: Java
-    license: GPL2
+    license: [GPL2]
   - name: OpenWar
     repo: https://github.com/andreas-jonsson/openwar
     url: http://www.openwar.io
     status: unplayable
     development: sporadic
     lang: Go
-    license: GPL3
+    license: [GPL3]
     info: requires original files
     updated: 2016-08-09
     images:
@@ -78,7 +78,7 @@
     repo: https://github.com/Ponup/thiefcatcher
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
 
 - name: [Willow, Willow (arcade game)]
   remakes:
@@ -108,7 +108,7 @@
     repo: https://github.com/Sanguinik/KnightOfWor
     development: active
     lang: Java
-    license: GPL3
+    license: [GPL3]
 
 - name: Wizardry
   remakes:
@@ -118,7 +118,7 @@
     repo: http://wl.lariennalibrary.com/uploads/Main/Download/Wizardrylegacy_05_source.zip
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
     images:
     - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect.png
     - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
@@ -129,7 +129,7 @@
     updated: 2015-04-11
     development: halted
     lang: Java
-    license: GPL3
+    license: [GPL3]
 
 - name: Wolfenstein 3D
   names:
@@ -150,7 +150,7 @@
     repo: http://kent.dl.sourceforge.net/project/voxelstein3d/voxelstein3d/0.101/Voxelstein3D_src_0.101.zip
     development: halted
     lang: C++
-    license: MIT
+    license: [MIT]
     images:
     - http://voxelstein3d.sourceforge.net/screen1.png
     - http://voxelstein3d.sourceforge.net/screen3.png
@@ -224,7 +224,7 @@
     url: http://sourceforge.net/projects/ecksdee/
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     repo: git://git.code.sf.net/p/ecksdee/ecksdee
     updated: 2015-04-25
     images:
@@ -242,13 +242,13 @@
     framework:
     - HTML5
     - WebGL
-    license: MIT
+    license: [MIT]
   - name: The Rush
     updated: 2015-04-26
     url: http://sourceforge.net/projects/therush/
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     repo: svn://svn.code.sf.net/p/therush/code/
     images:
     - https://a.fsdn.com/con/app/proj/therush/screenshots/193556.jpg

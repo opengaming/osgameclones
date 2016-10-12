@@ -24,7 +24,7 @@
     url: http://iceball.build/
     repo: https://github.com/iamgreaser/iceball
     development: active
-    license: Multiple
+    license: [Multiple]
     lang: [C, Lua]
   - name: OpenSpades
     updated: 2015-04-10
@@ -32,7 +32,7 @@
     repo: https://github.com/yvt/openspades
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
     images:
     - https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg
     - https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240107290/media/shot0097.jpg
@@ -51,7 +51,7 @@
     development: active
     lang: C++
     framework: nya-engine
-    license: MIT
+    license: [MIT]
     images:
     - http://zxstudio.org/blog/wp-content/uploads/2015/04/open-horizon-progress-report-01.png
     - http://zxstudio.org/blog/wp-content/uploads/2016/01/open-horizon-effects.png
@@ -68,7 +68,7 @@
     development: halted
     lang: C
     framework: SDL
-    license: GPL
+    license: [GPL]
     images:
     - http://zatacka.sourceforge.net/img/sc1.jpg
     - http://zatacka.sourceforge.net/img/sc2.jpg
@@ -96,7 +96,7 @@
     info: runnable, requires original files
     lang: [C++, Python]
     framework: SDL
-    license: GPL3
+    license: [GPL3]
     images:
     - http://openage.sft.mx/pics/openage_0.png
 
@@ -110,7 +110,7 @@
     repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/aklabeth-1.0.tar.gz
     updated: 2015-04-13
     lang: C
-    license: GPL2
+    license: [GPL2]
 
 - name: Alien 8
   meta:
@@ -161,7 +161,7 @@
     updated: 2014-09-05
     development: halted
     lang: C
-    license: GPL
+    license: [GPL]
 
 - name: 'Anacreon: Reconstruction 4021'
   meta:
@@ -174,7 +174,7 @@
     updated: 2015-04-09
     development: halted
     lang: [C, C++, Java, Pascal]
-    license: GPL2
+    license: [GPL2]
 
 - name: [Another World, Another World (video game)]
   names:
@@ -191,7 +191,7 @@
     updated: 2014-09-05
     development: halted
     lang: C++
-    license: GPL
+    license: [GPL]
   - name: rawgl
     url: http://cyxdown.free.fr/rawgl/
     repo: https://github.com/cyxx/rawgl
@@ -199,7 +199,7 @@
     development: active
     info: completable
     lang: C++
-    license: GPL
+    license: [GPL]
     images:
     - http://cyxdown.free.fr/rawgl/raw-1.png
     - http://cyxdown.free.fr/rawgl/raw-2.png
@@ -222,7 +222,7 @@
     url: http://xarchon.seul.org/
     lang: [C, C++]
     development: halted
-    license: GPL3
+    license: [GPL3]
     repo: http://xarchon.seul.org/xarchon-0.50.tar.gz
     images:
     - http://xarchon.seul.org/img/snap-1.gif
@@ -236,7 +236,7 @@
     updated: 2014-08-20
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
     status: playable
     images:
     - http://farm3.static.flickr.com/2606/4103057024_0b577de0a2.jpg
@@ -253,7 +253,7 @@
     repo: https://github.com/scottschiller/ArmorAlley
     development: active
     lang: JavaScript
-    license: CC-BY-NC
+    license: [CC-BY-NC]
 
 - name: 'Artemis: Spaceship Bridge Simulator'
   remakes:
@@ -263,7 +263,7 @@
     status: playable
     development: active
     lang: C++
-    license: GPL2
+    license: [GPL2]
     info: multiplayer
     updated: 2016-08-27
     images:
@@ -278,7 +278,7 @@
     repo: http://artillery-duel-reloaded.googlecode.com/files/Artillery-0.61-src.zip
     development: halted
     lang: Python
-    license: GPL3
+    license: [GPL3]
     images:
     - http://pygame.org/shots/1519.jpg
 
@@ -305,7 +305,7 @@
     updated: 2014-09-05
     development: halted
     lang: C++
-    license: GPL
+    license: [GPL]
 
 - name: [Asteroids, Asteroids (video game)]
   remakes:
@@ -321,7 +321,7 @@
     repo: ftp://ftp.tuxpaint.org/unix/x/vectoroids/src/vectoroids-1.1.0.tar.gz
     development: halted
     lang: C
-    license: GPL2
+    license: [GPL2]
     images:
     - http://www.newbreedsoftware.com/vectoroids/screenshots/title.gif
     - http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids.gif
@@ -332,7 +332,7 @@
     updated: 2015-04-07
     development: halted
     lang: C
-    license: GPL2
+    license: [GPL2]
     images:
     - http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids-title.gif
     - http://www.newbreedsoftware.com/agendaroids/screenshots/agendaroids.gif
@@ -345,7 +345,7 @@
     url: http://sdl-asylum.sourceforge.net/
     development: halted
     lang: C++
-    license: GPL3
+    license: [GPL3]
     repo: svn://svn.code.sf.net/p/sdl-asylum/code/trunk
     images:
     - https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136705.jpg
@@ -376,7 +376,7 @@
     development: halted
     lang: Delphi
     framework: Kylix
-    license: GPL2
+    license: [GPL2]
 
 - name: AstroMenace
   remakes:
@@ -386,7 +386,7 @@
     repo: svn://svn.code.sf.net/p/openastromenace/code/
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
     images:
     - https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am2.jpg
     - https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am11.jpg
@@ -403,7 +403,7 @@
     development: sporadic
     lang: C++
     framework: SDL
-    license: GPL2
+    license: [GPL2]
     repo: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash-1.4.7.tar.gz
     images:
     - http://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
@@ -414,7 +414,7 @@
     repo: https://github.com/drummyfish/bombman
     development: sporadic
     lang: Python
-    license: GPL
+    license: [GPL]
     updated: 2016-07-11
     images:
     - https://camo.githubusercontent.com/8ab6d36689583359d2904c9c4a573e3dcf68d76a/687474703a2f2f692e696d6775722e636f6d2f3378626741504d2e706e67
@@ -428,7 +428,7 @@
     lang:
     - JavaScript
     - PHP
-    license: MIT
+    license: [MIT]
 
 - name: A-Train
   clones:
@@ -449,7 +449,7 @@
     status: playable
     development: active
     lang: C++
-    license: GPL2
+    license: [GPL2]
     images:
     - https://play0ad.com/wp-content/gallery/screenshots/screenshot0088.png
     - https://play0ad.com/wp-content/gallery/screenshots/screenshot0072.jpg
@@ -484,7 +484,7 @@
     updated: 2015-05-03
     development: active
     lang: JavaScript
-    license: MIT
+    license: [MIT]
 
 - name: 'Artemis: Spaceship Bridge Simulator'
   clones:
@@ -493,5 +493,5 @@
     updated: 2015-05-02
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
 

@@ -29,7 +29,7 @@
     updated: 2015-04-07
     development: sporadic
     lang: C
-    license: GPL2
+    license: [GPL2]
     images:
     - http://www.newbreedsoftware.com/fop/screenshots/fop-alpha.png
 
@@ -47,7 +47,7 @@
     updated: 2015-04-07
     development: sporadic
     lang: C
-    license: GPL2
+    license: [GPL2]
     url: http://www.newbreedsoftware.com/defendguin/
     repo: ftp://ftp.tuxpaint.org/unix/x/defendguin/src/defendguin-0.0.12.tar.gz
     images:
@@ -95,7 +95,7 @@
     status: unplayable
     development: sporadic
     lang: C++
-    license: GPL3
+    license: [GPL3]
     updated: 2015-04-04
 
 - name: [Destructo, 'http://www.mobygames.com/game/destructo']
@@ -109,7 +109,7 @@
     development: complete
     framework: Allegro
     lang: C++
-    license: MIT
+    license: [MIT]
     updated: 2016-03-15
     images:
     - http://zxstudio.org/projects/drdestructo/screenshots/screen_10_title.png
@@ -142,7 +142,7 @@
     repo: https://github.com/OpenDeathValley/OpenDeathValley
     development: sporadic
     lang: C
-    license: GPL3
+    license: [GPL3]
     updated: 2016-06-15
 
 - name: [Diablo, Diablo (series)]
@@ -157,7 +157,7 @@
     status: playable
     info: needs game data
     lang: [C++, Python]
-    license: GPL3
+    license: [GPL3]
     updated: 2014-04-22
     images:
     - https://freeablo.org/wp-content/uploads/2014/11/Screenshot-from-2014-11-13-191438.jpg
@@ -168,7 +168,7 @@
     lang: [C++]
     url: https://github.com/dgengin/DGEngine/wiki
     development: active
-    license: Zlib
+    license: [Zlib]
     images:
     - https://cloud.githubusercontent.com/assets/20025614/16467025/4bd77ef0-3e3d-11e6-872a-38ca8eb2c9f8.gif
   clones:
@@ -177,7 +177,7 @@
     url: http://www.sumwars.org/
     development: active
     lang: [C++, Lua]
-    license: GPL3
+    license: [GPL3]
     images:
     - http://sumwars.org/mediawiki/images/0/08/Sumwars_0.5.5_mainmenu.jpg
     - http://sumwars.org/mediawiki/images/9/95/Sumwars_0.5.5_-Trading_a_bit.jpg
@@ -187,7 +187,7 @@
     url: http://clintbellanger.net/rpg/
     development: active
     lang: [C++]
-    license: GPL3
+    license: [GPL3]
     images:
     - http://clintbellanger.net/rpg/images/screenshots/0020.jpg
     - http://clintbellanger.net/rpg/images/screenshots/0022.jpg
@@ -216,7 +216,7 @@
     repo: https://github.com/rofl0r/openDOW
     development: sporadic
     lang: C
-    license: GPL3
+    license: [GPL3]
 
 - name: Doom
   names:
@@ -228,12 +228,12 @@
     url: http://dengine.net/
     repo: http://deng.git.sourceforge.net/git/gitweb.cgi?p=deng/deng;a=summary
     development: active
-    license: GPL2
+    license: [GPL2]
     lang: C
   - name: Chocolate Doom
     url: http://www.chocolate-doom.org/
     development: active
-    license: GPL2
+    license: [GPL2]
     lang: C
     repo: http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/
     images:
@@ -254,7 +254,7 @@
     url: https://sourceforge.net/projects/prboom-plus/
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
     repo: http://www.crowproductions.de/repos/prboom/branches/prboom-plus-24/prboom2/
     images:
     - https://sourceforge.net/p/prboom-plus/screenshot/222124.jpg
@@ -262,7 +262,7 @@
     url: http://www.odamex.net/
     status: playable
     development: active
-    license: GPL2
+    license: [GPL2]
     lang: C
     repo: http://www.odamex.net/svn/log.php?isdir=1
   - name: GLHeretic
@@ -304,7 +304,7 @@
     repo: http://mochadoom.cvs.sourceforge.net/viewvc/mochadoom/
     development: active
     lang: Java
-    license: GPL3
+    license: [GPL3]
     images:
     - https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331375.jpg
     - https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331379.jpg
@@ -317,7 +317,7 @@
     updated: 2015-04-12
     development: halted
     lang: C++
-    license: GPL2
+    license: [GPL2]
     info: iOS
 
 - name: Doom 64
@@ -328,7 +328,7 @@
     url: https://doom64ex.wordpress.com/
     updated: 2016-05-28
     lang: C
-    license: GPL2
+    license: [GPL2]
     images:
     - https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png
     - https://doom64ex.files.wordpress.com/2011/08/d64ex_12.png
@@ -341,14 +341,14 @@
     repo: https://github.com/dhewm/dhewm3
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
   - name: RBDOOM-3-BFG
     updated: 2015-07-29
     repo: https://github.com/RobertBeckebans/RBDOOM-3-BFG
     info: works with BFG edition only
     development: active
     lang: C++
-    license: GPL3
+    license: [GPL3]
 
 - name: Drugwars
   remakes:
@@ -384,7 +384,7 @@
     repo: http://git.savannah.gnu.org/cgit/freedink.git
     development: sporadic
     lang: C
-    license: GPL3
+    license: [GPL3]
     images:
     - https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10.jpg
     - https://www.gnu.org/software/freedink/screenshots/freedink-1.08_2008-07-31.jpg
@@ -403,7 +403,7 @@
     repo: https://github.com/Serioussam24/Duck-Rehunt
     development: halted
     lang: Python
-    license: GPL
+    license: [GPL]
     url: http://pygame.org/project-Duck+Rehunt-1862-.html
     updated: 2015-04-11
     images:
@@ -430,7 +430,7 @@
     repo: https://bazaar.launchpad.net/~silwol/freenukum/trunk/files
     development: halted
     lang: C
-    license: GPL3
+    license: [GPL3]
     updated: 2015-04-03
 
 - name: Duke Nukem 3D
@@ -457,7 +457,7 @@
     repo: http://sourceforge.net/projects/dunelegacy/develop
     development: active
     lang: C++
-    license: GPL2
+    license: [GPL2]
     updated: 2012-04-05
     images:
     - http://dunelegacy.sourceforge.net/website/screenshots/Dunelegacy-0.96-mission7.png
@@ -469,13 +469,13 @@
     repo: https://github.com/OpenDUNE/OpenDUNE
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
   - name: Dune Dynasty
     url: http://dunedynasty.sourceforge.net/
     repo: http://sourceforge.net/p/dunedynasty/dunedynasty/ci/master/tree/
     development: active
     lang: C
-    license: GPL2
+    license: [GPL2]
     images:
     - https://sourceforge.net/projects/dunedynasty/screenshots/screenshot_hark2.png
     - https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_hark.png
@@ -486,7 +486,7 @@
     updated: 2016-10-09
     development: halted
     lang: C++
-    license: MIT
+    license: [MIT]
 
 - name: Dungeon Keeper
   remakes:
@@ -506,7 +506,7 @@
     development: active
     lang: Java
     info: needs original game files
-    license: GPL3
+    license: [GPL3]
 
 - name: [Dungeon Master, Dungeon Master (video game)]
   remakes:
