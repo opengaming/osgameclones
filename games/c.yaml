@@ -67,14 +67,16 @@
       youtube: 0afl6ruHZgI
 
 - name: Castle of the Winds
+  meta:
+    genre: [Role-Playing]
+    subgenre: [Roguelike]
   remakes:
-  - name: Castle of the Winds (React/MeteorJS Remake)
+  - name: Castle of the Winds in Elm
     updated: 2015-08-31
-    repo: https://github.com/mordrax/cotwmtor
-    url: http://mordrax.github.io/cotwmtor/
+    repo: https://github.com/mordrax/cotwelm
+    url: http://game.castleofthewinds.com/
     development: active
-    lang: JavaScript
-    framework: [React, Redux, Meteor]
+    lang: [Elm, JavaScript]
     license: [MIT]
 
 - name: Cataclysm

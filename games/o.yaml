@@ -70,14 +70,19 @@
     updated: 2013-05-27
 
 - name: 'One Must Fall: 2097'
+  meta:
+    genre: [Fighting]
+    theme: [Sci-Fi]
   remakes:
   - name: OpenOMF
     url: http://www.openomf.org/
     repo: https://github.com/omf2097/openomf/
-    info: single player, 2 player and network play work, needs free resources from
-      omf2097.com
+    info: single player, 2 player and network play work, content from omf2097.com
     status: playable
     development: active
+    lang: [C]
+    license: [MIT]
+    content: free
     updated: 2014-08-16
     images:
     - http://www.openomf.org/screenshots/mainmenu.png
