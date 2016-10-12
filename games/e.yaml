@@ -120,13 +120,21 @@
     - http://www.dungeoneye.net/wp-content/uploads/sites/2/2016/05/forest.png
 
 - name: Elasto Mania
+  meta:
+    genre: [Sports, Driving/Racing, Platformer]
   remakes:
   - name: X-Moto
+    repo: https://svn.tuxfamily.org/viewvc.cgi/xmoto_xmoto/
     url: http://xmoto.tuxfamily.org/
     status: playable
     development: active
     lang: C++
+    license: [GPL2]
     updated: 2014-06-16
+    images:
+      - http://wiki.xmoto.tuxfamily.org/images/d/d8/Screenshot0018.png
+      - http://wiki.xmoto.tuxfamily.org/images/0/04/Screenshot0005.png
+      - http://wiki.xmoto.tuxfamily.org/images/7/7f/Screenshot0036.png
 
 - name: Emperor of the Fading Suns
   remakes:
@@ -135,6 +143,7 @@
     updated: 2015-05-29
     development: active
     lang: Java
+    license: [As-is]
 
 - name: [Exile, Exile (video game series)]
   names:
