@@ -74,6 +74,7 @@
     - http://zatacka.sourceforge.net/img/sc2.jpg
     - http://zatacka.sourceforge.net/img/sc3.jpg
   - name: Netacka
+    repo: https://pwmarcz.pl/netacka/src/
     updated: 2016-03-06
     url: https://pwmarcz.pl/netacka/
     development: halted
@@ -118,6 +119,7 @@
   remakes:
   - name: Alien 8
     url: http://retrospec.sgn.net/game/alien8
+    repo: http://retrospec.sgn.net/users/ignacio/downloads/alien8_f.zip
     updated: 2014-01-12
     status: playable
     development: halted
@@ -319,9 +321,11 @@
   remakes:
   - name: Maelstrom
     url: http://www.libsdl.org/projects/Maelstrom/
+    repo: http://www.libsdl.org/projects/Maelstrom/src/
     status: playable
     development: halted
-    lang: C
+    lang: [C]
+    framework: [SDL]
     updated: 2014-01-12
   - name: Vectoroids
     updated: 2015-04-07
@@ -363,22 +367,31 @@
 - name: [Atomix, Atomix (video game)]
   remakes:
   - name: Atomiks
-    url: http://www.viste-family.net/mateusz/software/atomiks/
+    url: http://atomiks.sourceforge.net/
+    repo: https://sourceforge.net/projects/atomiks/files/
     status: playable
     development: halted
     lang: C
+    license: [GPL]
+    content: commercial
     video:
       youtube: t8FP44Gv8QY
   - name: KAtomic
     url: https://www.kde.org/applications/games/katomic/
+    repo: https://quickgit.kde.org/?p=katomic.git
     development: active
     lang: C++
+    license: [GPL2]
+    images:
+      - https://www.kde.org/images/screenshots/katomic.png
   - name: GNOME Atomix
-    url: https://github.com/GNOME/atomix
+    repo: https://github.com/GNOME/atomix
     development: halted
     lang: C
+    license: [GPL2]
   - name: WAtomic
     url: http://watomic.sourceforge.net/
+    repo: https://sourceforge.net/projects/watomic/files/
     updated: 2015-04-10
     repo: http://sourceforge.net/projects/watomic/files/watomic/1.2.3/WAtomic_src_1_2_3_257.zip/download
     development: halted

@@ -139,8 +139,11 @@
   remakes:
   - name: Bermuda Syndrome
     url: http://cyxdown.free.fr/bs/
+    repo: https://github.com/cyxx/bermuda
     status: playable
     development: halted
+    lang: [C++]
+    content: commercial
     updated: 2013-05-27
     images:
     - http://cyxdown.free.fr/bs/bs-1.png
@@ -149,10 +152,14 @@
 - name: Betrayal at Krondor
   remakes:
   - name: xBaK
+    repo: https://sourceforge.net/projects/xbak/files/xbak/
     url: http://xbak.sourceforge.net/
     status: playable
     development: halted
     updated: 2014-08-15
+    lang: [C++]
+    framework: [SDL]
+    license: [GPL3]
     images:
     - http://a.fsdn.com/con/app/proj/xbak/screenshots/126405.jpg
     - http://a.fsdn.com/con/app/proj/xbak/screenshots/62665.jpg
@@ -175,7 +182,7 @@
 - name: 'Blake Stone: Planet Strike'
   remakes:
   - name: bstone
-    url: https://github.com/bibendovsky/bstone
+    repo: https://github.com/bibendovsky/bstone
     status: playable
     development: active
     lang: C++
@@ -214,10 +221,12 @@
   - Dynablaster
   remakes:
   - name: SDL Bomber
+    repo: http://www.linuxmotors.com/SDL_bomber/downloads/
     url: http://www.linuxmotors.com/SDL_bomber/
     status: playable
     development: halted
-    lang: C
+    lang: [C]
+    framework: [SDL]
     updated: 2014-01-12
     images:
     - http://www.linuxmotors.com/SDL_bomber/bomber.gif
@@ -273,10 +282,15 @@
   remakes:
   - name: Rocks n diamonds
     url: http://www.artsoft.org/rocksndiamonds/
+    repo: http://git.artsoft.org/?p=rocksndiamonds.git
     status: playable
     development: sporadic
     lang: C
     updated: 2014-01-12
+    images:
+    - http://www.artsoft.org/rocksndiamonds/screenshots/mainmenu.gif
+    - http://www.artsoft.org/rocksndiamonds/screenshots/emeraldmine.gif
+    - http://www.artsoft.org/rocksndiamonds/screenshots/editor1.gif
   - name: GDash
     url: https://bitbucket.org/czirkoszoltan/gdash
     development: active
