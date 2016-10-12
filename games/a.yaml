@@ -187,17 +187,20 @@
   remakes:
   - name: New RAW
     url: http://sourceforge.net/projects/newraw/
-    repo: svn://svn.code.sf.net/p/newraw/code/
+    repo: http://svn.code.sf.net/p/newraw/code/
     updated: 2014-09-05
     development: halted
     lang: C++
     license: [GPL]
+    images:
+      - https://a.fsdn.com/con/app/proj/newraw/screenshots/67451.jpg
+      - https://a.fsdn.com/con/app/proj/newraw/screenshots/67449.jpg
   - name: rawgl
     url: http://cyxdown.free.fr/rawgl/
     repo: https://github.com/cyxx/rawgl
     updated: 2016-03-06
     development: active
-    info: completable
+    status: playable
     lang: C++
     license: [GPL]
     images:
