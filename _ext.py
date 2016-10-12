@@ -81,7 +81,7 @@ def parse_items(site, item, key):
 
         meta = item.get('meta', {})
         meta_tags = ['genre', 'subgenre', 'theme']
-        game_tags = ['status', 'development', 'license', 'lang', 'framework']
+        game_tags = ['status', 'development', 'lang', 'framework', 'content', 'license']
         parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)
 
         for game in item[key]:
