@@ -1,4 +1,6 @@
 - name: Pac-Man
+  meta:
+    genre: []
   remakes:
   - name: pacman
     updated: 2015-05-19
@@ -13,6 +15,10 @@
     framework: HTML5
     license: [CC-BY-SA]
     updated: 2015-05-19
+    images:
+    - http://pacman.platzh1rsch.ch/img/instructions/instructions_scatter.PNG
+    - http://pacman.platzh1rsch.ch/img/instructions/instructions_chase.PNG
+    - http://pacman.platzh1rsch.ch/img/instructions/instructions_powerpill.PNG
   - name: pacman
     url: http://harto.github.io/pacman/
     repo: https://github.com/harto/pacman

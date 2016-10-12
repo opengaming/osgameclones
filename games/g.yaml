@@ -28,14 +28,21 @@
     - http://worldofstuart.excellentcontent.com/grid/gw5.jpg
 
 - name: [Gish, Gish (video game)]
+  meta:
+    genre: [Platformer]
+    theme: [Comedy]
   remakes:
   - name: freegish
     repo: https://github.com/freegish/freegish
     updated: 2015-04-08
     development: active
-    lang: C
+    lang: [C]
+    framework: [SDL]
     license: [GPL2, CC-BY-SA]
     content: open
+    images:
+    - https://upload.wikimedia.org/wikipedia/commons/f/f7/FreeGish_1-2.png
+    - https://upload.wikimedia.org/wikipedia/commons/0/00/FreeGish_1-5.png
 
 - name: Gladiator
   remakes:
