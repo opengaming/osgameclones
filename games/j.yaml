@@ -1,12 +1,20 @@
 - name: Jagged Alliance 2
+  meta:
+    genre: [Role-Playing, Strategy]
+    subgenre: [Turn-Based Tactics]
+    theme: [Sci-Fi, Modern Military]
   remakes:
   - name: Jagged Alliance 2 - Stracciatella
     url: http://ja2-stracciatella.github.io/
     repo: https://github.com/ja2-stracciatella/ja2-stracciatella
     status: playable
     development: active
-    lang: C++
+    lang: [C++, C]
+    license: [PD]
     updated: 2013-05-27
+    images:
+    - https://ja2-stracciatella.github.io/img/features/high-res.jpg
+    - https://ja2-stracciatella.github.io/img/features/integrated-editor.jpg
 
 - name: Jazz Jackrabbit
   remakes:

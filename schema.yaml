@@ -198,6 +198,7 @@ schema;licenses:
   enum: [
     'Custom', # Catch-all for custom licenses
     'Multiple', # Catch-all for multiple licenses
+    'PD', # Public Domain
     'As-is', # Catch-all for as-is, as-available licenses
     'AGPL3',
     'Apache',
