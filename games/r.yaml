@@ -33,6 +33,15 @@
 
 - name: [Rampart, Rampart (video game)]
   remakes:
+  - name: Castle-Combat
+    url: http://www.linux-games.com/castle-combat/
+    repo: https://sourceforge.net/projects/castle-combat/files/castle-combat/
+    development: halted
+    lang: Python
+    status: playable
+    images:
+    - http://www.linux-games.com/castle-combat/shot1.png
+    - http://www.linux-games.com/castle-combat/shot2.png
   - name: Escalade
     updated: 2015-04-17
     repo: https://github.com/mdr/escalade
