@@ -57,18 +57,24 @@
   - [The Witcher, The Witcher (video game)]
   - 'Dragon Age: Origins'
   - Dragon Age II
+  meta:
+    genre: [Role-Playing]
+    theme: [Fantasy, Sci-Fi, Martial Arts]
   remakes:
   - name: xoreos
     url: https://xoreos.org/
     repo: https://github.com/xoreos/xoreos
     status: unplayable
-    development: sporadic
+    development: active
     lang: C++
-    updated: 2013-05-28
+    content: commercial
+    license: [GPL3]
+    framework: [OpenGL, SDL2]
+    updated: 2016-10-14
     images:
     - https://xoreos.org/images/NWN_20130528T054618.png
     video:
-      youtube: WaRfBsZVO3Y
+      youtube: _EZRvDIB7wI
 
 - name: Nodes of Yesod
   remakes:
