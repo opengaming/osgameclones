@@ -261,13 +261,16 @@
     - http://www.openra.net/images/news/20150808-d2k-range-circles.png
     
 - name: [Company of Heroes series, Company of Heroes]
-    names: [Company of Heroes, Company of Heroes: Opposing Fronts, Company of Heroes: Tales of Valor, Company of Heroes 2]
+    names: 
+    - 'Company of Heroes: Opposing Fronts'
+    - 'Company of Heroes: Tales of Valor'
+    - Company of Heroes 2
     meta:
     genre: [Strategy]
     subgenre: [Real-Time Strategy]
     theme: [World War II]
   clones:
-    - name: Spring: 1944
+    - name: 'Spring: 1944'
       repo: https://github.com/spring1944/spring1944
       url: http://spring1944.net
       development: very active
