@@ -126,6 +126,28 @@
     license: [GPL3]
     updated: 2016-02-23
 
+- name: BeamNG.drive
+  meta:
+    genre: [Simulation]
+    subgenre: [] # See genres in schema.yaml
+    theme: [] # See genres in schema.yaml
+  clones:
+  - name: Rigs of Rods
+    repo: https://github.com/RigsOfRods/rigs-of-rods
+    url: http://rigsofrods.org/
+    development: active
+    status: playable
+    lang: [C, C++, Angelscript, Python]
+    framework: [OGRE3D Engine]
+    license: GPL3
+    updated: 2016-11-30
+    images:
+      - http://rigsofrods.org/images/screenshots/ror-screenshot5.jpg
+      - http://rigsofrods.org/images/screenshots/ror-screenshot6.jpg
+      - http://rigsofrods.org/images/screenshots/ror-screenshot7.jpg
+    video:
+      youtube: bRbQ4OaljWs
+
 - name: Bejeweled
   remakes:
   - name: biju-game
