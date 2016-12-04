@@ -172,7 +172,23 @@
     status: unplayable
     development: active
     updated: 2013-05-29
-
+    
+- name: World of Warcraft
+  meta:
+    genre: [MMORPG]
+    subgenre: []
+    theme: [Fantasy]
+  remakes:
+    - name: PseuWoW
+      repo: https://github.com/shlainn/pseuwow
+      development: halted
+      status: semi-playable
+      lang: [C, C++]
+      license: [GPL2]
+      info: Can only connect to MaNGOS Servers (FOSS reimplementation of World of Warcraft servers).
+      updated: 2016-12-04
+      images:
+      - https://camo.githubusercontent.com/6fc54f5f0ce41476adf68c27e767e9975483cdb0/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313130323639352f3235333934332f37633465663061322d386265362d313165322d386166392d3939633063393635663631612e706e67
 
 - name: [Worms Series, Worms (series)]
   clones:
