@@ -245,6 +245,10 @@
     - http://davidgow.net/images/omnispeak-2.png
 
 - name: Command & Conquer
+  meta:
+    genre: [Strategy]
+    subgenre: [Real-Time Strategy]
+    theme: [Modern Military, Sci-Fi]
   names:
   - 'Command & Conquer: Red Alert'
   - Dune 2000
@@ -259,6 +263,24 @@
     - http://www.openra.net/images/news/20150531-ra-editor.png
     - http://www.openra.net/images/news/20140405-beacons.png
     - http://www.openra.net/images/news/20150808-d2k-range-circles.png
+  clones:
+  - name: 'Annex: Conquer The World'
+    repo: http://bitbucket.org/annexctw
+    url: http://annexconquer.com/
+    development: active
+    status: playable
+    lang: [XML]
+    framework: [MegaGlest]
+    license: GPL3
+    content: [CC-BY-SA, CC0]
+    info: Gameplay is a mix of multiple C&C titles.
+    updated: 2016-12-08
+    images:
+    - http://media.indiedb.com/cache/images/mods/1/26/25985/thumb_620x2000/astromarinesbymrwar2.1.jpg
+    - http://media.indiedb.com/images/games/1/9/8080/Annex_Screen_4.png
+    - http://media.indiedb.com/images/games/1/9/8080/Annex_Screen_2.jpg
+    video:
+      youtube: [JsF48yObcAI, jk4MDGS3jpk]
     
 - name: [Company of Heroes series, Company of Heroes]
   names: 
