@@ -212,6 +212,30 @@
     video:
       youtube: JePqKJd4hhw
 
+- name: [Ship Simulator series, Ship Simulator (video game)]
+  names:
+    - Ship Simulator 2006
+    - Ship Simulator 2008
+    - Ship Simulator Extremes
+  meta:
+    genre: [Simulation]
+    subgenre: []
+    theme: []
+  clones:
+    - name: Bridge Command
+      repo: https://github.com/bridgecommand/bc
+      url: https://www.bridgecommand.co.uk
+      development: active
+      status: playable
+      lang: [C++]
+      framework: [Irrlicht]
+      license: GPL2
+      updated: 2016-12-03
+      images:
+      - https://www.bridgecommand.co.uk/data/_uploaded/image/5.0b3ScreenShot.png
+      - https://www.bridgecommand.co.uk/data/_uploaded/image/DSC_0172-1.jpg
+      - https://www.bridgecommand.co.uk/data/_uploaded/image/sar.jpg
+  
 - name: [Siege, Siege (video game)]
   remakes:
   - name: FreeSiege
