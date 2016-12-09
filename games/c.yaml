@@ -370,6 +370,23 @@
     - JQuery
     lang: JavaScript
     license: [MIT]
+    
+- name: 'Cube 2: Sauerbraten'
+  meta:
+    genre: [Shooter]
+    subgenre: []
+    theme: []
+  remakes:
+  - name: Inexor
+    repo: https://github.com/inexor-game/code
+    url: https://inexor.org/
+    development: active
+    status: semi-playable
+    lang: [C++, HTML, CSS, JavaScript]
+    framework: [Cube 2 engine]
+    license: [Zlib]
+    info: In addition to improving Sauerbraten one of the stated goals of the project is to remove/replace all content with unclear or non-free licenses from the game.
+    updated: 2016-12-03
 
 - name: Curse of the Azure Bonds
   remakes:
