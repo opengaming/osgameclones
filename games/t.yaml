@@ -542,12 +542,32 @@
     - http://taisei-project.org/static/media/taisei_mansion.png
 
 - name: TrackMania
+  meta:
+    genre: [Driving/Racing]
+    subgenre: []
+    theme: []
   remakes:
   - name: ManiaDrive
     url: http://maniadrive.raydium.org/
     updated: 2016-05-16
     repo: https://sourceforge.net/projects/maniadrive/files/maniadrive/1.2/ManiaDrive-1.2-src.tar.gz
     lang: [C, PHP]
+  clones:
+  - name: Stunt Rally
+    repo: https://github.com/stuntrally/stuntrally
+    url: https://stuntrally.tuxfamily.org
+    development: active
+    status: playable
+    lang: [C, C++]
+    framework: [OGRE3D Engine, VDrift Engine]
+    license: [GPL3]
+    updated: 2016-12-02
+    images:
+    - https://lh3.googleusercontent.com/--nAX73WF5Q4/Ve70DV9pXfI/AAAAAAAAFXA/w3HmGY4-uj0ZiogxvwgVEWJXBQFf_clRwCHM/w1280/12.jpg
+    - https://lh3.googleusercontent.com/-pJJgMyldewE/Ve70a0UMYqI/AAAAAAAAFYI/Hy_-d6Iqzk0PkTCzMEV2wo6WJHIOuBnVQCHM/w1280/19.jpg
+    - https://lh3.googleusercontent.com/-U71R4-8BVD8/Ve70FGfuhyI/AAAAAAAAFXI/0EgsrSHgRMs-O1GBVCPumZ_Rejsw0qdQwCHM/w1280/11.jpg
+    video:
+      youtube: Ar7TJMnOHlg
 
 - name: [Transplant, Transplant (video game)]
   remakes:
