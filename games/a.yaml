@@ -250,6 +250,32 @@
     video:
       youtube: 4s44qu5zgXE
 
+- name: ARMA series
+  names:
+  - 'ARMA: Armed Assault'
+  - ARMA 2
+  - ARMA 3
+  - Operation Flashpoint
+  meta:
+    genre: [Shooter]
+    subgenre: []
+    theme: [Modern Military]
+  clones:
+  - name: Uebergame
+    repo: https://github.com/Duion/Uebergame
+    url: http://duion.com/games/uebergame/main
+    development: active
+    status: playable
+    lang: [TorqueScript, HLSL, GLSL, C]
+    framework: [Torque 3D]
+    license: MIT
+    content: CC0
+    updated: 2016-12-08
+    images:
+    - http://duion.com/files/blog/Uebergame-1.0.6.0-Release.jpg
+    video:
+      youtube: s_xM-0zVM3M
+    
 - name: Armor Alley
   meta:
     genre: [Strategy, Shooter]
