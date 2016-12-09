@@ -58,6 +58,10 @@
     - http://snowstorm.sourceforge.net/screenshots/4.png
 
 - name: Glest
+  meta:
+    genre: [Strategy]
+    subgenre: [Real-Time Strategy]
+    theme: [Medieval, Fantasy]
   remakes:
   - name: Glest Advanced Engine
     url: http://sourceforge.net/projects/glestae/
@@ -69,6 +73,21 @@
     - http://a.fsdn.com/con/app/proj/glestae/screenshots/226566.jpg
     - http://a.fsdn.com/con/app/proj/glestae/screenshots/258718.jpg
     - http://a.fsdn.com/con/app/proj/glestae/screenshots/226560.jpg
+  - name: MegaGlest
+    repo: https://github.com/MegaGlest/megaglest-source
+    url: https://megaglest.org/
+    development: active
+    status: playable
+    lang: [C, C++]
+    license: [GPL3, CC-BY-SA]
+    info: Gameplay and atmosphere comparable to Warcraft 3 in some regards. Various mods are available.
+    updated: 2016-12-02
+    images:
+    - https://megaglest.org/uploads/images/Gallery/Screenshots/more_screens10.jpg
+    - https://megaglest.org/uploads/images/Gallery/Screenshots/screen44.jpg
+    - https://megaglest.org/uploads/images/Gallery/Screenshots/more_screens10.jpg
+    video:
+      youtube: glWKT8hDmjw
 
 - name: [Gods, Gods (video game)]
   remakes:
