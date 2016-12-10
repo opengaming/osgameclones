@@ -19,6 +19,7 @@ New game
       lang: []
       framework: []
       license:
+      content:
       info:
       updated:
       images:
