@@ -58,21 +58,25 @@
     - http://zxstudio.org/blog/wp-content/uploads/2015/05/cockpit2.png
 
 - name: Achtung, die Kurve!
+  names:
+  - Curve Fever
+  - Zatacka
   meta:
     genre: [Strategy]
-  remakes:
-  - name: Zatacka
-    updated: 2015-04-16
+  reamkes:
+  - name: Zatacka X
+    updated: 2016-12-11
     url: http://zatacka.sourceforge.net/
     repo: https://github.com/simenheg/zatackax/
-    development: halted
+    development: sporadic
     lang: C
     framework: SDL
-    license: [GPL]
+    license: [GPL3]
+    info: Has powerups and AI.
     images:
     - http://zatacka.sourceforge.net/img/sc1.jpg
     - http://zatacka.sourceforge.net/img/sc2.jpg
-    - http://zatacka.sourceforge.net/img/sc3.jpg
+    - https://camo.githubusercontent.com/bf7621a6846244c8f74679220aae2e66f1e5a526/687474703a2f2f666f6c6b2e75696f2e6e6f2f73696d656e6865672f7a617461636b61785f736d616c6c2e706e67
   - name: Netacka
     repo: https://pwmarcz.pl/netacka/src/
     updated: 2016-03-06
@@ -81,7 +85,15 @@
     lang: C
     images:
     - https://pwmarcz.pl/netacka/sshots.png
-
+  - name: Achtung, die Kurve!
+    repo: https://github.com/maechler/kurve
+    url: http://achtungkurve.com/
+    development: sporadic
+    status: playable
+    lang: [Javascript, CSS, HTML]
+    license: GPL3
+    updated: 2016-12-11
+    
 - name: Age of Empires II
   meta:
     genre: [Strategy]
