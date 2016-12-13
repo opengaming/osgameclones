@@ -27,6 +27,7 @@ status: # One of: playable, semi-playable, unplayable
 lang: [] # List of programming languages used
 framework: [] # List of engines/tools used
 license: # See licenses in schema.yaml
+content: # One of: commercial, free, open, swapable # free means no cost, open means liberally licensed
 info: # Notes about the game
 updated: # Date when game was added or updated
 images:
