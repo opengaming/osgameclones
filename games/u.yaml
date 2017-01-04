@@ -1,4 +1,6 @@
 - name: Ugh!
+  meta:
+    genre: [arcade]
   remakes:
   - name: UGH-remake
     url: https://bitbucket.org/Andy51/ugh-remake
@@ -8,6 +10,8 @@
     lang: C
 
 - name: Ultima Online
+  meta:
+    genre: [MMORPG]
   remakes:
   - name: Iris2
     url: http://www.iris2.de/
@@ -18,6 +22,8 @@
     - http://www.iris2.de/images/4/48/20080106175329_188.png
 
 - name: 'Ultima II: The Revenge of the Enchantress'
+  meta:
+    genre: [RPG]
   remakes:
   - name: UiirJS
     repo: https://github.com/ObviouslySorna/UiirJS
@@ -26,6 +32,8 @@
     lang: JavaScript
 
 - name: Ultima IV
+  meta:
+    genre: [RPG]
   remakes:
   - url: http://xu4.sourceforge.net/
     name: xu4
@@ -38,6 +46,8 @@
     - http://xu4.sourceforge.net/images/codex.png
 
 - name: Ultima VI
+  meta:
+    genre: [RPG]
   names:
   - The Savage Empire
   - Martian Dreams
@@ -53,6 +63,8 @@
     - http://nuvie.sourceforge.net/images/shots/nuvie_21.png
 
 - name: Ultima VII
+  meta:
+    genre: [RPG]
   remakes:
   - url: http://exult.sourceforge.net/
     name: Exult
@@ -66,6 +78,8 @@
     - http://exult.sourceforge.net/images/screenshots/teleportmap.png
 
 - name: Ultima VIII
+  meta:
+    genre: [RPG]
   remakes:
   - url: http://pentagram.sourceforge.net/
     name: Pentagram
@@ -79,6 +93,8 @@
     - http://pentagram.sourceforge.net/images/screenshots/japanese.png
 
 - name: Uncharted Waters
+  meta:
+    genre: [simulation,RPG]
   remakes:
   - name: Uncharted waters 2 remake
     repo: https://github.com/Jackyjjc/Uncharted-waters-2-remake
@@ -89,6 +105,8 @@
     license: [GPL2]
 
 - name: [Uninvited, Uninvited (video game)]
+  meta:
+    genre: [adventure]
   remakes:
   - name: uninvited
     updated: 2015-04-04
@@ -98,6 +116,8 @@
     license: [Artistic]
 
 - name: [Utopia, Utopia (video game)]
+  meta:
+    genre: [TBS]
   remakes:
   - name: Utopia
     updated: 2015-04-05
@@ -107,6 +127,8 @@
     lang: JavaScript
 
 - name: UGH!
+  meta:
+    genre: [arcade]
   clones:
   - name: CaveExpress
     url: http://www.caveproductions.org/

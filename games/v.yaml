@@ -1,4 +1,6 @@
 - name: [Vlak, 'http://www.mobygames.com/game/dos/vlak']
+  meta:
+    genre: [arcade]
   remakes:
   - name: Train
     updated: 2015-05-28
@@ -8,6 +10,8 @@
     license: [BSD]
 
 - name: [Viper, 'http://www.mobygames.com/game/amiga/viper__']
+  meta:
+    genre: [arcade]
   remakes:
   - name: viper
     repo: https://github.com/bjornharrtell/viper
@@ -16,6 +20,8 @@
     lang: CoffeeScript
 
 - name: VVVVVV
+  meta:
+    genre: [puzzle,platform]
   clones:
   - name: WWW
     repo: https://github.com/alexdantas/www

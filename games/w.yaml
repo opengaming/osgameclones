@@ -1,4 +1,6 @@
 - name: [Warlords II, Warlords (game series)#Warlords II]
+  meta:
+    genre: [TBS]
   remakes:
   - name: FreeLords
     url: http://sourceforge.net/projects/freelords/
@@ -9,6 +11,8 @@
     updated: 2015-04-06
 
 - name: 'Warcraft: Orcs & Humans'
+  meta:
+    genre: [RTS]
   remakes:
   - name: warcraft-remake
     updated: 2015-05-29
@@ -32,6 +36,8 @@
     - https://raw.githubusercontent.com/andreas-jonsson/openwar/master/doc/screenshot3.gif
 
 - name: Warcraft II
+  meta:
+    genre: [RTS]
   remakes:
   - url: http://wargus.stratagus.com/index.shtml
     name: Wargus
@@ -50,6 +56,8 @@
     - http://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_1024x768.jpg
 
 - name: Wario Land 3
+  meta:
+    genre: [platform]
   remakes:
   - name: Wario-Land-3
     updated: 2015-07-14
@@ -59,6 +67,8 @@
     framework: Pygame
 
 - name: Warzone 2100
+  meta:
+    genre: [RTS]
   remakes:
   - url: http://wz2100.net/
     name: Warzone 2100
@@ -72,6 +82,8 @@
     - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
 
 - name: Where in the World Is Carmen Sandiego? (1985)
+  meta:
+    genre: [puzzle]
   remakes:
   - name: thiefcatcher
     updated: 2015-06-18
@@ -81,6 +93,8 @@
     license: [GPL3]
 
 - name: [Willow, Willow (arcade game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Willow-Game-Remake
     updated: 2015-06-28
@@ -89,6 +103,8 @@
     lang: C++
 
 - name: 'Wing Commander: Privateer'
+  meta:
+    genre: [action,adventure,simulation]
   remakes:
   - url: http://privateer.sourceforge.net/
     name: Privateer - Gemini Gold
@@ -102,6 +118,8 @@
     - http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
 
 - name: Wizard of Wor
+  meta:
+    genre: [arcade]
   remakes:
   - name: KnightOfWor
     updated: 2015-05-29
@@ -111,6 +129,8 @@
     license: [GPL3]
 
 - name: Wizardry
+  meta:
+    genre: [RPG]
   remakes:
   - name: Wizardry Legacy
     updated: 2015-04-11
@@ -125,6 +145,8 @@
     - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
 
 - name: Wolfenstein 3D
+  meta:
+    genre: [FPS]
   names:
   - [Spear of Destiny, Spear of Destiny (video game)]
   remakes:
@@ -150,6 +172,8 @@
     - http://voxelstein3d.sourceforge.net/screen5.png
 
 - name: 'Wolfenstein: Enemy Territory'
+  meta:
+    genre: [FPS]
   remakes:
   - url: http://etlegacy.com/
     name: 'ET: Legacy'
@@ -165,6 +189,8 @@
     - http://www.splashdamage.com/screens_wet/004.jpg
 
 - name: World of Goo
+  meta:
+    genre: [puzzle]
   remakes:
   - name: OpenGoo
     url: http://mandarancio.github.io/OpenGOO/
@@ -174,6 +200,8 @@
     updated: 2013-05-29
     
 - name: World of Warcraft
+  meta:
+    genre: [MMORPG]
   meta:
     genre: [MMORPG]
     subgenre: []
@@ -191,6 +219,8 @@
       - https://camo.githubusercontent.com/6fc54f5f0ce41476adf68c27e767e9975483cdb0/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313130323639352f3235333934332f37633465663061322d386265362d313165322d386166392d3939633063393635663631612e706e67
 
 - name: [Worms Series, Worms (series)]
+  meta:
+    genre: [TBS]
   clones:
   - url: http://hedgewars.org/
     name: Hedgewars
@@ -213,6 +243,8 @@
       youtube: X3ZkTg-QkAo
 
 - name: [Wipeout, Wipeout (video game)]
+  meta:
+    genre: [racing]
   clones:
   - name: Core Breach
     repo: https://github.com/core-code/CoreBreach

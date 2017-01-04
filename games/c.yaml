@@ -1,4 +1,6 @@
 - name: [Cadaver, Cadaver (video game)]
+  meta:
+    genre: [action,adventure]
   remakes:
   - name: Cadaver
     development: halted
@@ -10,6 +12,8 @@
     - http://jotd.pagesperso-orange.fr/cadaver/cadaver_remake_pic.png
 
 - name: Caesar 3
+  meta:
+    genre: [simulation]
   remakes:
   - name: CaesarIA
     url: https://bitbucket.org/dalerank/caesaria
@@ -24,6 +28,8 @@
     updated: 2013-05-27
 
 - name: Call to Power II
+  meta:
+    genre: [tbs]
   remakes:
   - name: 'Civilization: Call To Power 2 Source Project'
     updated: 2015-04-10
@@ -32,6 +38,8 @@
     lang: C
 
 - name: Candy Crush Saga
+  meta:
+    genre: [puzzle]
   clones:
   - name: CookieCrunch
     repo: https://github.com/renatomcamilio/CookieCrunch
@@ -40,6 +48,8 @@
     lang: Swift
 
 - name: [Cannon Fodder, Cannon Fodder (series)]
+  meta:
+    genre: [action,RTS,shmup]
   remakes:
   - name: Open Fodder
     url: https://github.com/segrax/openfodder
@@ -55,6 +65,8 @@
     framework: HTML5
 
 - name: Carmageddon
+  meta:
+    genre: [racing]
   remakes:
   - name: OpenC1
     url: http://www.1amstudios.com/projects/openc1/
@@ -68,8 +80,7 @@
 
 - name: Castle of the Winds
   meta:
-    genre: [Role-Playing]
-    subgenre: [Roguelike]
+    genre: [roguelike]
   remakes:
   - name: Castle of the Winds in Elm
     updated: 2015-08-31
@@ -81,8 +92,8 @@
 
 - name: Cataclysm
   meta:
-    genre: [Role-Playing]
-    subgenre: [Roguelike, Survival]
+    genre: [roguelike]
+    subgenre: [Survival]
     theme: [Horror]
   remakes:
   - name: 'Cataclysm: Dark Days Ahead'
@@ -101,6 +112,8 @@
       youtube: iHfpBze8ecA
 
 - name: Catacomb II
+  meta:
+    genre: [TPS]
   remakes:
   - name: CatacombSDL
     url: https://github.com/Blzut3/CatacombSDL
@@ -115,7 +128,7 @@
   names:
     - Doukutsu Monogatari
   meta:
-    genre: [Action-Adventure, Platformer]
+    genre: [adventure,platformer]
     theme: [Sci-Fi]
   remakes:
   - name: NXEngine
@@ -131,6 +144,8 @@
       - https://repo.openpandora.org/files/pnd/nxengine/previews/nxengine2.png
 
 - name: Chip's Challenge
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Tile World
     url: http://www.muppetlabs.com/~breadbox/software/tworld/
@@ -147,6 +162,8 @@
     updated: 2014-01-05
 
 - name: ChuChu Rocket!
+  meta:
+    genre: [puzzle,action]
   remakes:
   - name: Duck Marines
     url: http://tangramgames.dk/games/duckmarines/
@@ -164,6 +181,8 @@
       youtube: SAz0BsTSXy4
 
 - name: [Circus Atari, Circus (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Circus Linux!
     url: http://www.newbreedsoftware.com/circus-linux/
@@ -177,6 +196,8 @@
     - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-game.gif
 
 - name: Clonk
+  meta:
+    genre: [action,platformer,RTS]
   remakes:
   - name: OpenClonk
     url: http://www.openclonk.org/
@@ -188,6 +209,8 @@
       youtube: zydiZSXpn0w
 
 - name: [Columns, Columns (video game)]
+  meta:
+    genre: [puzzle]
   remakes:
   - name: div-columns
     updated: 2016-02-26
@@ -198,6 +221,8 @@
     license: [MIT]
 
 - name: [Commando, Commando (video game)]
+  meta:
+    genre: [shmup]
   remakes:
   - name: CommandoJS
     url: http://commandojs.org/
@@ -212,6 +237,8 @@
     - http://i.imgur.com/e4ChdOL.png
 
 - name: [Commander Keen Series, Commander Keen]
+  meta:
+    genre: [platformer]
   remakes:
   - name: Commander Genius
     url: http://clonekeenplus.sourceforge.net/
@@ -248,6 +275,8 @@
   names:
   - 'Command & Conquer: Red Alert'
   - Dune 2000
+  meta:
+    genre: [RTS]
   remakes:
   - name: OpenRA
     url: http://www.openra.net
@@ -266,8 +295,7 @@
   - 'Company of Heroes: Tales of Valor'
   - Company of Heroes 2
   meta:
-    genre: [Strategy]
-    subgenre: [Real-Time Strategy]
+    genre: [RTS]
     theme: [World War II]
   clones:
   - name: 'Spring: 1944'
@@ -288,6 +316,8 @@
       youtube: 76jFZvpvwoA
 
 - name: [Contra, Contra (video game)]
+  meta:
+    genre: [platformer]
   remakes:
   - name: Contra_remake
     updated: 2015-05-28
@@ -307,6 +337,8 @@
     lang: C#
 
 - name: [Crazy Cars, Titus Software]
+  meta:
+    genre: [racing]
   remakes:
   - name: Crazy Cars
     updated: 2015-04-16
@@ -328,9 +360,7 @@
   - 'The Incredible Machine: Even More Contraptions'
   - Incredible Toons
   meta:
-    genre: [Puzzle]
-    subgenre: []
-    theme: []
+    genre: [puzzle,simulation]
   clones:
   - name: The Butterfly Effect
     repo: https://github.com/the-butterfly-effect/tbe
@@ -349,6 +379,8 @@
       youtube: yLysg1pyLK0
 
 - name: [Creatures, Creatures (video game)]
+  meta:
+    genre: [educational]
   remakes:
   - name: Open Creatures
     url: http://creatures.wikia.com/wiki/Openc2e
@@ -360,6 +392,8 @@
     license: [LGPL]
 
 - name: Crystal Quest
+  meta:
+    genre: [arcade]
   remakes:
   - name: CrystalQuest
     updated: 2015-05-29
@@ -373,7 +407,7 @@
     
 - name: 'Cube 2: Sauerbraten'
   meta:
-    genre: [Shooter]
+    genre: [FPS]
     subgenre: []
     theme: []
   remakes:
@@ -389,6 +423,8 @@
     updated: 2016-12-03
 
 - name: Curse of the Azure Bonds
+  meta:
+    genre: [RPG]
   remakes:
   - name: coab
     repo: https://github.com/simeonpilgrim/coab
@@ -398,6 +434,8 @@
     updated: 2013-05-28
 
 - name: [Cytadela, 'http://www.ppa.pl/gry/cytadela.html']
+  meta:
+    genre: [FPS]
   remakes:
   - name: Cytadela
     updated: 2015-04-16
@@ -415,7 +453,7 @@
 
 - name: C-Dogs
   meta:
-    genre: [Action, Shoot 'Em Up]
+    genre: [shmup]
     subgenre: [Run and gun]
   remakes:
   - name: C-Dogs SDL
@@ -436,6 +474,8 @@
       youtube: hgX3jz_HajE
 
 - name: [Civilization, Civilization (video game)]
+  meta:
+    genre: [TBS]
   remakes:
   - name: Civ-Remake
     updated: 2015-04-12
@@ -453,8 +493,8 @@
 
 - name: Civilization II
   meta:
-    genre: [Strategy]
-    subgenre: [Turn-Based Strategy, 4X]
+    genre: [TBS]
+    subgenre: [4X]
     theme: [Alternate Historical, Management]
   clones:
   - url: http://freeciv.wikia.com/
@@ -484,6 +524,8 @@
     - http://www.c-evo.org/shot4.jpg
 
 - name: Crimsonland
+  meta:
+    genre: [shmup]
   clones:
   - url: http://violetland.github.io/
     name: Violetland

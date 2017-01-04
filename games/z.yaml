@@ -1,4 +1,6 @@
 - name: Zarch
+  meta:
+    genre: [TPS]
   remakes:
   - name: Ajax3d
     url: http://ajax3d.sourceforge.net/
@@ -21,6 +23,8 @@
     lang: Blitz BASIC
 
 - name: [Z, Z (video game)]
+  meta:
+    genre: [RTS]
   remakes:
   - name: The Zod Engine
     url: http://zod.sourceforge.net/
@@ -32,6 +36,8 @@
       youtube: 8VehUvuWHqw
 
 - name: Zoop
+  meta:
+    genre: [puzzle]
   remakes:
   - name: KZap
     updated: 2015-05-09
@@ -51,6 +57,8 @@
     - http://gamesoft.ca/bestgames/images/zoop_java.png
 
 - name: [Zombie Apocalypse, 'http://www.mobygames.com/game/zombie-apocalypse']
+  meta:
+    genre: [shmup]
   remakes:
   - name: zombie apocalypse html5
     development: halted
@@ -60,6 +68,8 @@
     updated: 2015-05-16
 
 - name: Zork
+  meta:
+    genre: [adventure]
   remakes:
   - name: Zorkish
     repo: https://github.com/jgardner8/Zorkish
@@ -68,6 +78,8 @@
     lang: C++
 
 - name: [Zuma, Zuma (video game)]
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Zaz
     updated: 2015-04-14

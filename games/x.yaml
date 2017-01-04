@@ -5,8 +5,7 @@
   - 'X-COM: Apocalypse'
   - 'UFO: Enemy Unknown'
   meta:
-    genre: [Strategy]
-    subgenre: [Turn-Based Tactics]
+    genre: [TBS]
     theme: [Horror, Sci-Fi]
   remakes:
   - name: OpenXcom
@@ -85,6 +84,8 @@
     - https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg
 
 - name: [X-It, 'http://www.mobygames.com/game/x-it']
+  meta:
+    genre: [puzzle]
   remakes:
   - name: xit
     updated: 2015-05-18
@@ -93,6 +94,8 @@
     lang: JavaScript
 
 - name: Xenon 2 Megablast
+  meta:
+    genre: [shmup]
   remakes:
   - name: Phavon
     updated: 2015-04-15
@@ -105,6 +108,8 @@
     - http://phavon.sourceforge.net/snap001.jpg
 
 - name: XPilot
+  meta:
+    genre: [arcade]
   remakes:
   - name: XPilot NG
     url: http://xpilot.sourceforge.net/
@@ -121,6 +126,8 @@
     - http://xpilot.sourceforge.net/shots/spaceball.png
 
 - name: [XQuest, 'http://www.swallowtail.org/xquest/']
+  meta:
+    genre: [arcade]
   remakes:
   - name: XQuest 2
     updated: 2015-07-11
@@ -134,6 +141,8 @@
     - http://www.swallowtail.org/xquest/xquest3.gif
 
 - name: [XOR, XOR (video game)]
+  meta:
+    genre: [puzzle]
   clones:
   - url: http://jwm-art.net/?p=XorCurses
     name: XorCurses

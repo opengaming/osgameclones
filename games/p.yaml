@@ -1,6 +1,6 @@
 - name: Pac-Man
   meta:
-    genre: []
+    genre: [arcade]
   remakes:
   - name: pacman
     updated: 2015-05-19
@@ -55,6 +55,8 @@
     license: [MIT]
 
 - name: Pitfall!
+  meta:
+    genre: [arcade,platform]
   remakes:
   - name: div-pitfall
     repo: https://github.com/MikeDX/div-pitfall
@@ -65,6 +67,8 @@
     license: [MIT]
 
 - name: 'Populous: The Beginning'
+  meta:
+    genre: [RTS]
   remakes:
   - name: OpenPop
     repo: svn://svn.code.sf.net/p/openpopulous/code/trunk
@@ -77,6 +81,8 @@
     - https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg
 
 - name: [Portal, Portal (video game)]
+  meta:
+    genre: [FPS,puzzle]
   remakes:
   - name: glPortal
     url: http://glportal.de/
@@ -90,6 +96,8 @@
     - http://glportal.de/wp-content/uploads/2013/06/NewCake1-1000x250.png
 
 - name: Prince of Persia
+  meta:
+    genre: [platform]
   remakes:
   - name: SDLPoP
     url: http://www.popot.org/get_the_games.php?game=SDLPoP
@@ -106,6 +114,8 @@
     updated: 2014-01-12
 
 - name: Panzer General
+  meta:
+    genre: [TBS]
   remakes:
   - name: OpenGeneral
     development: sporadic
@@ -132,6 +142,8 @@
     - http://lgames.sourceforge.net/LGeneral/ss1.jpg
 
 - name: [Paratrooper, Paratrooper (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Paratrooper
     updated: 2015-04-11
@@ -143,6 +155,8 @@
     - http://pygame.org/shots/706.jpg
 
 - name: [Phantasy, Phantasy Star (video game)]
+  meta:
+    genre: [RPG]
   remakes:
   - name: Phantasy
     updated: 2015-05-28
@@ -151,6 +165,8 @@
     lang: Java
 
 - name: Pipe Mania
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Pipemania
     updated: 2015-06-01
@@ -160,6 +176,8 @@
     framework: Love3D
 
 - name: ["Pok\xE9mon", "Pok\xE9mon (video game series)"]
+  meta:
+    genre: [RPG]
   remakes:
   - name: Tuxemon
     url: http://www.tuxemon.org/
@@ -175,6 +193,8 @@
     - http://www.tuxemon.org/images/featurette-02.png
 
 - name: "Pok\xE9mon Mystery Dungeon"
+  meta:
+    genre: [RPG]
   remakes:
   - name: PKMN-FX
     repo: https://github.com/jonasdemoor/PKMN-FX
@@ -184,6 +204,8 @@
     lang: Java
 
 - name: [Pole Position, Pole Position (video game)]
+  meta:
+    genre: [racing]
   remakes:
   - name: grid-leader
     updated: 2015-06-22
@@ -193,6 +215,8 @@
     framework: Panda3D
 
 - name: Progress Quest
+  meta:
+    genre: [simulation]
   remakes:
   - name: pq2
     updated: 2016-06-03
@@ -203,6 +227,8 @@
     development: active
 
 - name: [Punch-Out!!, Punch-Out!! (arcade game)]
+  meta:
+    genre: [fighting]
   remakes:
   - name: THREEPunchOut
     updated: 2015-08-15
@@ -211,6 +237,8 @@
     lang: JavaScript
 
 - name: [Pushover, Pushover (video game)]
+  meta:
+    genre: [platform,puzzle]
   remakes:
   - name: Pushover
     url: http://pushover.sourceforge.net/
@@ -225,6 +253,8 @@
     - http://pushover.sourceforge.net/images/Screenshot4.jpg
 
 - name: [Puzznic / Brix, Brix (video game)]
+  meta:
+    genre: [puzzle,arcade]
   remakes:
   - name: Wizznic!
     url: http://dustedgames.blogspot.com.au/p/wizznic.html
@@ -240,7 +270,7 @@
 
 - name: Paradroid
   meta:
-    genre: [Action, Puzzle]
+    genre: [shmup,puzzle]
     theme: [Fantasy, Sci-Fi]
   remakes:
   - name: FreedroidClassic
@@ -272,6 +302,8 @@
     - http://www.freedroid.org/images/screenshots/editor.png
 
 - name: Pizza Tycoon
+  meta:
+    genre: [simulation]
   clones:
   - name: Pizza Business
     url: http://pizza-business.sourceforge.net/
@@ -284,6 +316,8 @@
     - http://pizza-business.sourceforge.net/gtk1.png
 
 - name: Puzzle Bobble
+  meta:
+    genre: [puzzle,arcade]
   clones:
   - name: Frozen Bubble
     url: http://frozen-bubble.org/

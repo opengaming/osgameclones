@@ -1,4 +1,6 @@
 - name: [E.T. the Extra-Terrestrial, E.T. the Extra-Terrestrial (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: javascript-E.T.
     updated: 2015-07-14
@@ -10,7 +12,7 @@
 
 - name: [Earth Shaker, Earth Shaker (video game)]
   meta:
-    genre: [Puzzle]
+    genre: [puzzle]
   remakes:
   - name: EarthShakerDS
     repo: https://github.com/ant512/EarthShakerDS
@@ -33,7 +35,7 @@
 
 - name: [Eat The Whistle, Eat the whistle (video game)]
   meta:
-    genre: [Sports]
+    genre: [sports]
     subgenre: [Soccer]
   remakes:
   - name: Eat The Whistle
@@ -52,6 +54,8 @@
   names:
   - "Mugen Kair\u014D"
   - "\u7121\u9650\u56DE\u5ECA"
+  meta:
+    genre: [puzzle]
   remakes:
   - name: l-echo
     url: https://code.google.com/p/l-echo/
@@ -62,6 +66,8 @@
     repo: http://l-echo.googlecode.com/svn/trunk/
 
 - name: [Elements, 'http://www.mobygames.com/game/browser/elements_']
+  meta:
+    genre: [TBS]
   remakes:
   - name: OpenEtG
     updated: 2015-09-25
@@ -72,6 +78,8 @@
     license: [MIT]
 
 - name: [Encounter, Encounter (video game)]
+  meta:
+    genre: [shmup]
   remakes:
   - name: encounter
     updated: 2015-05-28
@@ -82,6 +90,8 @@
     url: http://air.github.io/encounter/
 
 - name: [Entombed!, Entombed (1982 video game)]
+  meta:
+    genre: [adventure]
   remakes:
   - name: Entombed!
     url: http://www.newbreedsoftware.com/entombed/
@@ -92,7 +102,7 @@
 
 - name: Escape from Colditz
   meta:
-    genre: [Action, Adventure, Role-Playing, Strategy]
+    genre: [action, adventure]
   remakes:
   - name: Colditz Escape!
     repo: https://github.com/aperture-software/colditz-escape
@@ -109,6 +119,8 @@
     - https://sites.google.com/site/colditzescape/home/screenshot4.png
 
 - name: Eye of the Beholder II
+  meta:
+    genre: [RPG,action]
   remakes:
   - name: Dungeon Eye
     url: http://www.dungeoneye.net/
@@ -121,7 +133,7 @@
 
 - name: Elasto Mania
   meta:
-    genre: [Sports, Driving/Racing, Platformer]
+    genre: [platformer]
   remakes:
   - name: X-Moto
     repo: https://svn.tuxfamily.org/viewvc.cgi/xmoto_xmoto/
@@ -137,6 +149,8 @@
       - http://wiki.xmoto.tuxfamily.org/images/7/7f/Screenshot0036.png
 
 - name: Emperor of the Fading Suns
+  meta:
+    genre: [TBS]
   remakes:
   - name: Phoenix
     repo: https://github.com/joulupunikki/Phoenix
@@ -146,6 +160,8 @@
     license: [As-is]
 
 - name: [Exile, Exile (video game series)]
+  meta:
+    genre: [action,adventure]
   names:
   - [Exile 1988, Exile (1988 video game)]
   - Blades of Exile
@@ -159,6 +175,8 @@
     license: [Custom]
 
 - name: Exolon
+  meta:
+    genre: [shmup]
   remakes:
   - name: exolon
     url: https://newagebegins.github.io/exolon/exolon.html
@@ -170,6 +188,8 @@
     - https://raw.githubusercontent.com/newagebegins/exolon/master/screenshot.gif
 
 - name: [Elite, Elite_(video_game)]
+  meta:
+    genre: [action,simulation]
   clones:
   - url: http://www.oolite.org/
     name: Oolite
@@ -192,7 +212,7 @@
 
 - name: [Elite II, 'Frontier: Elite II']
   meta:
-    genre: [Action, Simulation]
+    genre: [action,simulation]
     theme: [Sci-Fi, Espionage]
   clones:
   - name: Pioneer
@@ -229,6 +249,8 @@
     - http://www.txori.com/data/images/articles/140205_frontier_ppsspp_android.png
 
 - name: [Escape Velocity, Escape Velocity (video game)]
+  meta:
+    genre: [action,simulation]
   clones:
   - url: http://naev.org/
     name: Naev
