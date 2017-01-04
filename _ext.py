@@ -121,6 +121,7 @@ def parse_data(site):
         parse_global_tags(site, item.get('meta', {}), 'genre')
         parse_items(site, item, 'remakes')
         parse_items(site, item, 'clones')
+    print(str(len(data))+' games in total')
 
 
 def callback(site):
