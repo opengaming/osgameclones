@@ -8,6 +8,20 @@
     repo: https://bitbucket.org/Andy51/ugh-remake.git
     development: halted
     lang: C
+  clones:
+  - name: CaveExpress
+    url: http://www.caveproductions.org/
+    status: playable
+    development: active
+    lang: C
+    framework: SDL
+    license: [GPL3]
+    repo: https://github.com/mgerhardy/caveexpress
+    updated: 2014-06-24
+    images:
+    - http://www.caveproductions.org/images/screenshots/mainmenu.jpg
+    - http://www.caveproductions.org/images/screenshots/angry-dino.jpg
+    - http://www.caveproductions.org/images/screenshots/multi-packages.jpg
 
 - name: Ultima Online
   meta:
@@ -125,22 +139,3 @@
     repo: https://github.com/gamejs/newutopia
     development: halted
     lang: JavaScript
-
-- name: UGH!
-  meta:
-    genre: [arcade]
-  clones:
-  - name: CaveExpress
-    url: http://www.caveproductions.org/
-    status: playable
-    development: active
-    lang: C
-    framework: SDL
-    license: [GPL3]
-    repo: https://github.com/mgerhardy/caveexpress
-    updated: 2014-06-24
-    images:
-    - http://www.caveproductions.org/images/screenshots/mainmenu.jpg
-    - http://www.caveproductions.org/images/screenshots/angry-dino.jpg
-    - http://www.caveproductions.org/images/screenshots/multi-packages.jpg
-
