@@ -827,6 +827,17 @@
     updated: 2016-09-14
     images:
     - https://raw.githubusercontent.com/spypunk/snake/master/img/screenshot.png
+  clones:
+  - name: Gusty's Serpents
+    updated: 2015-04-25
+    url: http://sourceforge.net/projects/gustysserpents/
+    repo: svn://svn.code.sf.net/p/gustysserpents/svn/trunk
+    development: halted
+    lang: C++
+    license: [GPL2]
+    images:
+    - https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218294.jpg
+    - https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218296.jpg
 
 - name: Space Station 13
   meta:
@@ -961,21 +972,6 @@
     lang: JavaScript
     framework: HTML5
     license: [GPL3]
-
-- name: [Snake, Snake (video game)]
-  meta:
-    genre: [arcade]
-  clones:
-  - name: Gusty's Serpents
-    updated: 2015-04-25
-    url: http://sourceforge.net/projects/gustysserpents/
-    repo: svn://svn.code.sf.net/p/gustysserpents/svn/trunk
-    development: halted
-    lang: C++
-    license: [GPL2]
-    images:
-    - https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218294.jpg
-    - https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218296.jpg
 
 - name: Sokoban
   meta:
