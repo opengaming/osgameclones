@@ -10,6 +10,14 @@
     images:
     - http://atanks.sourceforge.net/Screenshots/scrnshot28.png
     - http://atanks.sourceforge.net/Screenshots/scrnshot23.png
+  clones:
+  - url: http://www.scorched3d.co.uk/
+    name: Scorched3D
+    updated: 2015-04-06
+    repo: git://git.code.sf.net/p/scorched3d/git
+    development: active
+    lang: C++
+    license: [GPL2]
 
 - name: [Scramble, Scramble (video game)]
   meta:
@@ -1075,18 +1083,6 @@
     license: [MIT]
     images:
     - https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
-
-- name: [Scorched Earth, Scorched Earth (video game)]
-  meta:
-    genre: [arcade]
-  clones:
-  - url: http://www.scorched3d.co.uk/
-    name: Scorched3D
-    updated: 2015-04-06
-    repo: git://git.code.sf.net/p/scorched3d/git
-    development: active
-    lang: C++
-    license: [GPL2]
 
 - name: [SkyRoads, SkyRoads (video game)]
   meta:
