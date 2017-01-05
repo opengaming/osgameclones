@@ -325,6 +325,13 @@
     images:
     - http://daid.github.io/EmptyEpsilon/screenshots/mainscreen.png
     - http://daid.github.io/EmptyEpsilon/screenshots/helms.png
+  clones:
+  - name: Space Nerds In Space
+    repo: https://github.com/smcameron/space-nerds-in-space
+    updated: 2015-05-02
+    development: active
+    lang: C
+    license: [GPL2]
 
 - name: Artillery Duel
   meta:
@@ -591,15 +598,4 @@
     development: active
     lang: JavaScript
     license: [MIT]
-
-- name: 'Artemis: Spaceship Bridge Simulator'
-  meta:
-    genre: [simulation]
-  clones:
-  - name: Space Nerds In Space
-    repo: https://github.com/smcameron/space-nerds-in-space
-    updated: 2015-05-02
-    development: active
-    lang: C
-    license: [GPL2]
-
+    
