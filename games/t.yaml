@@ -370,6 +370,21 @@
     updated: 2016-08-19
     images:
     - https://raw.githubusercontent.com/spypunk/tetris/master/img/screenshot_start.png
+  clones:
+  - name: 4DTris
+    url: http://sourceforge.net/projects/dtris/
+    updated: 2015-05-02
+    repo: https://bazaar.launchpad.net/~4dtris-dev/4dtris/trunk/files
+    development: halted
+    lang: C
+    license: [GPL2]
+  - name: Hextris
+    url: https://hextris.github.io/
+    repo: https://github.com/Hextris/Hextris
+    updated: 2015-05-02
+    development: active
+    lang: JavaScript
+    license: [GPL3]
 
 - name: Tetris Attack
   meta:
@@ -848,23 +863,4 @@
     repo: https://github.com/alasershark/dangerzone
     url: http://dzgame.org
     updated: 2013-05-28
-
-- name: Tetris
-  meta:
-    genre: [puzzle,platform]
-  clones:
-  - name: 4DTris
-    url: http://sourceforge.net/projects/dtris/
-    updated: 2015-05-02
-    repo: https://bazaar.launchpad.net/~4dtris-dev/4dtris/trunk/files
-    development: halted
-    lang: C
-    license: [GPL2]
-  - name: Hextris
-    url: https://hextris.github.io/
-    repo: https://github.com/Hextris/Hextris
-    updated: 2015-05-02
-    development: active
-    lang: JavaScript
-    license: [GPL3]
 
