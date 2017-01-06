@@ -1,7 +1,6 @@
 - name: Jagged Alliance 2
   meta:
-    genre: [Role-Playing, Strategy]
-    subgenre: [Turn-Based Tactics]
+    genre: [TBS]
     theme: [Sci-Fi, Modern Military]
   remakes:
   - name: Jagged Alliance 2 - Stracciatella
@@ -17,6 +16,8 @@
     - https://ja2-stracciatella.github.io/img/features/integrated-editor.jpg
 
 - name: Jazz Jackrabbit
+  meta:
+    genre: [platform]
   remakes:
   - name: OpenJazz
     url: http://www.alister.eu/jazz/oj/
@@ -26,6 +27,8 @@
     updated: 2013-05-27
 
 - name: 'Jedi Knight II: Jedi Outcast'
+  meta:
+    genre: [FPS,TPS]
   remakes:
   - name: JediOutcastLinux
     url: https://github.com/xLAva/JediOutcastLinux
@@ -35,6 +38,8 @@
     lang: C++
 
 - name: 'Jedi Knight: Jedi Academy'
+  meta:
+    genre: [FPS,TPS]
   remakes:
   - name: JediAcademyLinux
     url: https://github.com/xLAva/JediAcademyLinux
@@ -50,6 +55,8 @@
     lang: C++
 
 - name: Jet-Story
+  meta:
+    genre: [platform]
   remakes:
   - name: Jet-Story
     updated: 2016-02-08
@@ -59,6 +66,8 @@
     license: [MIT]
 
 - name: Jetpac
+  meta:
+    genre: [arcade]
   remakes:
   - name: Jetpac remake
     updated: 2015-05-10
@@ -68,6 +77,8 @@
     lang: C#
 
 - name: [Jewel Thief, 'http://www.mobygames.com/game/win3x/jewel-thief']
+  meta:
+    genre: [arcade]
   remakes:
   - name: jewelthief
     repo: https://github.com/frittatenbank/jewelthief
@@ -82,6 +93,8 @@
     - https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163421.png
 
 - name: JezzBall
+  meta:
+    genre: [arcade]
   remakes:
   - name: Ice Breaker
     updated: 2015-05-09
@@ -94,6 +107,8 @@
     - http://mattdm.org/icebreaker/images/screenshot-level6-stars.png
 
 - name: [Joust, Joust (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Ostrich Riders
     updated: 2015-04-15
@@ -107,6 +122,8 @@
     - https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229617.jpg
 
 - name: 'Jumpgate: The Reconstruction Initiative'
+  meta:
+    genre: [MMORPG]
   remakes:
   - name: Open Jumpgate
     url: http://sourceforge.net/projects/opengate/
@@ -115,6 +132,8 @@
     lang: C++
 
 - name: Jump 'n Bump
+  meta:
+    genre: [platform]
   remakes:
   - name: Jump'n'Bump
     updated: 2015-04-25
@@ -124,6 +143,8 @@
     license: [GPL2]
 
 - name: [Jumping Jack, Jumping Jack (arcade game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: 'Jumping Jack: Further Adventures'
     updated: 2015-04-13
@@ -139,6 +160,8 @@
     repo: http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip
 
 - name: Jumpman
+  meta:
+    genre: [platform]
   remakes:
   - name: Jumpman
     url: http://www.oldskool.org/pc/jumpman

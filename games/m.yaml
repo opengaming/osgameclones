@@ -3,6 +3,8 @@
   - "\u30DE\u30B8\u30AB\u30EB\u30C9\u30ED\u30C3\u30D7"
   - MagiDro
   - "\u30DE\u30B8\u30C9\u30ED"
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Krystal Drop
     url: http://krystaldrop.sourceforge.net/
@@ -19,6 +21,8 @@
     - http://krystaldrop.sourceforge.net/images/sshot5.png
 
 - name: Marble Madness
+  meta:
+    genre: [arcade]
   remakes:
   - name: Marble Madness 3d
     repo: https://github.com/davido262/marble-madness-3d
@@ -33,6 +37,8 @@
     updated: 2015-04-03
 
 - name: Metroid Prime
+  meta:
+    genre: [FPS,adventure]
   remakes:
   - name: urde
     updated: 2016-03-08
@@ -43,6 +49,8 @@
     license: [MIT]
 
 - name: Missile Command
+  meta:
+    genre: [arcade]
   remakes:
   - name: Missile Command
     url: https://github.com/chadpaulson/missile-command
@@ -57,6 +65,8 @@
       youtube: DviEWbUvv2Y
 
 - name: [Mad TV, Mad TV (video game)]
+  meta:
+    genre: [simulation]
   remakes:
   - name: TVTower
     url: http://www.tvgigant.de/en/index
@@ -66,6 +76,8 @@
     updated: 2014-08-16
 
 - name: [Maxit, 'https://www.mobygames.com/game/dos/maxit/reviews/reviewerId,246576/']
+  meta:
+    genre: [TBS]
   remakes:
   - name: Maxit
     repo: http://gamesoft.ca/bestgames/maxit%20-%20src.zip
@@ -86,6 +98,8 @@
     - https://a.fsdn.com/con/app/proj/maxit/screenshots/183588.jpg
 
 - name: 'Medal of Honor: Allied Assault'
+  meta:
+    genre: [FPS]
   remakes:
   - name: OpenMoHAA
     repo: https://github.com/openmoh/openmohaa
@@ -101,6 +115,8 @@
     - http://openmohaa.sourceforge.net/media/hud.jpg
 
 - name: Monty Mole
+  meta:
+    genre: [platform]
   remakes:
   - name: Monty Mole PC remake
     updated: 2015-04-13
@@ -113,6 +129,8 @@
     - https://a.fsdn.com/con/app/proj/montymole/screenshots/28060.jpg
 
 - name: Moonbase Commander
+  meta:
+    genre: [TBS]
   remakes:
   - name: Scorched Moon
     updated: 2015-06-24
@@ -123,6 +141,8 @@
     license: [GPL3]
 
 - name: Mortal Kombat
+  meta:
+    genre: [fighting]
   remakes:
   - name: mk.js
     updated: 2015-05-19
@@ -143,6 +163,8 @@
     - http://openmortal.sourceforge.net/images/screenshot3.jpg
 
 - name: M.U.L.E.
+  meta:
+    genre: [TBS]
   remakes:
   - name: mewl
     updated: 2015-09-21
@@ -152,6 +174,8 @@
     license: [GPL2]
 
 - name: [Magic Carpet, Magic Carpet (video game)]
+  meta:
+    genre: [FPS]
   remakes:
   - name: magiccarpet
     repo: https://github.com/wonea/magiccarpet
@@ -160,6 +184,8 @@
     updated: 2016-04-20
 
 - name: Manic Miner
+  meta:
+    genre: [platform]
   remakes:
   - name: Manic Miner
     updated: 2015-05-09
@@ -168,6 +194,8 @@
     lang: Blitz BASIC
 
 - name: [Marathon, Marathon_(video_game)]
+  meta:
+    genre: [FPS]
   names:
   - Marathon 2
   - Marathon Infinity
@@ -183,6 +211,8 @@
     - http://marathon.sourceforge.net/images/m3_collage.png
 
 - name: Mario World
+  meta:
+    genre: [platform]
   remakes:
   - name: Secret Maryo Chronicles
     url: http://secretmaryo.org/
@@ -213,8 +243,7 @@
   names:
   - Warsong
   meta:
-    genre: [Strategy]
-    subgenre: [Turn-Based Strategy]
+    genre: [TBS]
     theme: [Fantasy]
   clones:
   - name: The Battle for Wesnoth
@@ -233,6 +262,8 @@
       youtube: w3P39lppcH4
 
 - name: [M.A.X., Mechanized Assault & Exploration]
+  meta:
+    genre: [RTS,TBS]
   remakes:
   - url: http://www.maxr.org/
     name: Mechanized Assault and eXploration Reloaded
@@ -246,6 +277,8 @@
     - http://www.maxr.org/images/screenshots/10.jpg
 
 - name: [Mech Warrior, MechWarrior (video game series)]
+  meta:
+    genre: [simulation , FPS]
   remakes:
   - name: LinWarrior
     repo: https://github.com/hackcraft-de/linwarrior
@@ -258,6 +291,8 @@
     - http://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg
 
 - name: MechCommander 2
+  meta:
+    genre: [RTS]
   remakes:
   - name: MechCommander 2 Omnitech
     updated: 2015-04-08
@@ -267,6 +302,8 @@
     license: [MS-PL]
 
 - name: Mega Lo Mania
+  meta:
+    genre: [RTS]
   remakes:
   - name: Gigalomania
     url: http://homepage.ntlworld.com/mark.harman/comp_gigalomania.html
@@ -282,6 +319,8 @@
       youtube: lTtT9p9DVL8
 
 - name: [MegaMan, MegaMan (video game)]
+  meta:
+    genre: [platform]
   remakes:
   - name: Executive Man
     repo: https://github.com/CamHenlin/ExecutiveMan
@@ -293,6 +332,8 @@
     - https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png
 
 - name: Meridian 59
+  meta:
+    genre: [RPG]
   remakes:
   - name: Open Meridian
     updated: 2015-06-02
@@ -317,6 +358,8 @@
     license: [GPL2]
 
 - name: [Millipede, Millipede (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Monsters and Mushrooms
     updated: 2015-04-11
@@ -329,6 +372,8 @@
     - http://pygame.org/shots/989.png
 
 - name: Minecraft
+  meta:
+    genre: [simulation]
   remakes:
   - url: http://www.minetest.net/
     name: Minetest
@@ -413,6 +458,8 @@
     license: [GPL2]
 
 - name: [Minesweeper, Minesweeper (video game)]
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Minesweeper
     updated: 2015-09-28
@@ -422,6 +469,8 @@
     info: iOS
 
 - name: [Movie Business, 'http://www.gamebase64.com/game.php?id=14674&d=18']
+  meta:
+    genre: [simulation]
   remakes:
   - name: movbizz
     repo: https://github.com/teruk/movbizz
@@ -432,6 +481,8 @@
     url: http://movbizz.sebbmeyer.de/
 
 - name: Mario Kart
+  meta:
+    genre: [racing]
   clones:
   - name: SuperTuxKart
     url: http://supertuxkart.sourceforge.net/
@@ -451,8 +502,8 @@
   names:
   - Master of Orion 2
   meta:
-    genre: [Strategy]
-    subgenre: [4X, Turn-Based Strategy]
+    genre: [TBS]
+    subgenre: [4X]
     theme: [Sci-Fi]
   clones:
   - url: http://www.freeorion.org/
@@ -478,6 +529,8 @@
     - http://openmoo2.org/static/20/colony-moo2-screenshot.png
 
 - name: [Micro Machines, Micro Machines (video game series)]
+  meta:
+    genre: [racing]
   remakes:
   - name: Microracers
     updated: 2015-04-15
@@ -492,6 +545,8 @@
     - http://microracers.sourceforge.net/images/screenshots/microracers-0.2-3.jpg
 
 - name: Microsoft Flight Simulator
+  meta:
+    genre: [simulation]
   clones:
   - url: http://www.flightgear.org/
     name: FlightGear
@@ -506,6 +561,8 @@
     - http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
 
 - name: Microsoft Train Simulator
+  meta:
+    genre: [simulation]
   clones:
   - name: OpenRails
     url: http://openrails.org/
@@ -517,6 +574,8 @@
     - http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
 
 - name: Missle Command
+  meta:
+    genre: [arcade]
   clones:
   - name: ICBM3D
     url: http://www.newbreedsoftware.com/icbm3d/

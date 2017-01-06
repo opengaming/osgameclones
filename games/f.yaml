@@ -1,6 +1,6 @@
 - name: [F-1 Spirit, F-1 Spirit (series)]
   meta:
-    genre: [Driving/Racing]
+    genre: [racing]
     theme: [Motorsports]
   remakes:
   - name: F-1 Spirit
@@ -20,6 +20,8 @@
     - http://www.braingames.getput.com/f1spirit/pics/screenshot8.jpg
 
 - name: F-Zero
+  meta:
+    genre: [racing]
   remakes:
   - name: F-Zero Clone
     updated: 2015-04-25
@@ -42,6 +44,8 @@
     - https://a.fsdn.com/con/app/proj/racer/screenshots/269267.jpg
 
 - name: [Fade to Black, Fade to Black (video game)]
+  meta:
+    genre: [action,adventure]
   remakes:
   - name: f2bgl
     url: https://github.com/cyxx/f2bgl
@@ -50,6 +54,8 @@
     framework: SDL
 
 - name: Fallout 2
+  meta:
+    genre: [RPG]
   remakes:
   - name: DarkFO
     updated: 2015-12-30
@@ -81,6 +87,8 @@
     - http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg
 
 - name: ['Fallout 3: Van Buren', Van Buren (video game)]
+  meta:
+    genre: [RPG]
   remakes:
   - name: Van Buren Project
     url: http://vanburenproject.blogspot.co.uk/
@@ -94,6 +102,8 @@
 
 
 - name: 'Fallout Tactics: Brotherhood of Steel'
+  meta:
+    genre: [RTS]
   remakes:
   - name: FreeFT
     updated: 2016-01-12
@@ -103,6 +113,8 @@
     license: [BSD]
 
 - name: Fallout Online
+  meta:
+    genre: [MMORPG]
   remakes:
   - name: fonline
     repo: https://github.com/alexknvl/fonline
@@ -113,6 +125,8 @@
     license: [GPL3]
 
 - name: Fantastic Journey
+  meta:
+    genre: [shmup]
   names:
   - "Gokuj\u014D Parodius!"
   remakes:
@@ -123,6 +137,8 @@
     framework: Construct
 
 - name: Flappy Bird
+  meta:
+    genre: [arcade, platform]
   remakes:
   - name: CrappyBird
     updated: 2015-05-02
@@ -149,6 +165,8 @@
       youtube: rPWK6kO3D0M
 
 - name: [Flashback, Flashback (1992 video game)]
+  meta:
+    genre: [adventure,platform]
   remakes:
   - name: REminiscence
     url: http://cyxdown.free.fr/reminiscence/
@@ -161,6 +179,8 @@
     - http://cyxdown.free.fr/reminiscence/reminiscence-4.png
 
 - name: [Floor 13, Floor 13 (video game)]
+  meta:
+    genre: [TBS]
   remakes:
   - name: Floor 13
     url: http://agriculture-and-fisheries.tumblr.com/
@@ -170,6 +190,8 @@
     updated: 2015-04-03
 
 - name: Flying Shark
+  meta:
+    genre: [shmup]
   remakes:
   - name: Friking Shark
     url: https://code.google.com/p/friking-shark/
@@ -180,6 +202,8 @@
     license: [GPL3]
 
 - name: Final Fantasy VIII
+  meta:
+    genre: [RPG]
   remakes:
   - name: OpenTriad
     url: https://github.com/benjaminfoo/OpenTriad
@@ -188,6 +212,8 @@
     lang: Java
 
 - name: [Flag Catcher, 'http://hol.abime.net/5578']
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Gift Grabber
     updated: 2015-08-31
@@ -198,6 +224,8 @@
     framework: BackBone.js
 
 - name: [Football Manager, Football Manager (1982 series)]
+  meta:
+    genre: [simulation]
   remakes:
   - name: Football Manager
     updated: 2015-04-13
@@ -207,6 +235,8 @@
     license: [GPL2]
 
 - name: 'Forgotten Realms: Unlimited Adventures'
+  meta:
+    genre: [RPG]
   remakes:
   - name: Dungeon Craft
     url: http://uaf.sourceforge.net/index.html
@@ -222,7 +252,7 @@
 
 - name: [Forsaken, Forsaken (video game)]
   meta:
-    genre: [First-Person Shooter]
+    genre: [FPS]
     theme: [Sci-Fi, Post-Apocalyptic]
   remakes:
   - name: ProjectX
@@ -240,7 +270,7 @@
 
 - name: FreeSpace 2
   meta:
-    genre: [Action, Simulation]
+    genre: [action,simulation]
     theme: [Sci-Fi]
   remakes:
   - name: FreeSpace Source Code Project
@@ -254,6 +284,8 @@
     - http://scp.indiegames.us/scn/Beyond%20the%20Red%20Line/4pu20pg.jpg
 
 - name: [Freelancer, Freelancer (video game)]
+  meta:
+    genre: [action,simulation]
   remakes:
   - name: Librelancer
     updated: 2016-05-23
@@ -270,6 +302,8 @@
 - name: [Frog!, 'http://www.mobygames.com/game/frog']
   names:
   - [Back To Nature, 'http://www.mobygames.com/game/frog']
+  meta:
+    genre: [arcade]
   remakes:
   - name: back-to-nature-c64-remake
     updated: 2015-05-29
@@ -279,6 +313,8 @@
     lang: Java
 
 - name: Frogs and Flies
+  meta:
+    genre: [arcade]
   names:
   - Frog Bog
   remakes:
@@ -293,6 +329,8 @@
     - http://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
 
 - name: Frogger
+  meta:
+    genre: [arcade]
   remakes:
   - name: Froggix
     updated: 2015-04-15
@@ -305,6 +343,8 @@
     - https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg
 
 - name: [Fall Down, 'http://www.mobygames.com/game/fall-down']
+  meta:
+    genre: [arcade]
   clones:
   - name: ativayeban
     updated: 2015-05-03
@@ -328,6 +368,8 @@
       youtube: 3MVMJkOYHSg
 
 - name: [Falcon, Falcon (video game series)]
+  meta:
+    genre: [simulation]
   clones:
   - name: FreeFalcon
     repo: https://github.com/FreeFalcon/freefalcon-central

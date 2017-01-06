@@ -1,4 +1,6 @@
 - name: Ugh!
+  meta:
+    genre: [arcade]
   remakes:
   - name: UGH-remake
     url: https://bitbucket.org/Andy51/ugh-remake
@@ -6,107 +8,6 @@
     repo: https://bitbucket.org/Andy51/ugh-remake.git
     development: halted
     lang: C
-
-- name: Ultima Online
-  remakes:
-  - name: Iris2
-    url: http://www.iris2.de/
-    status: playable
-    development: halted
-    repo: http://iris.schattenkind.net/svn/trunk/
-    images:
-    - http://www.iris2.de/images/4/48/20080106175329_188.png
-
-- name: 'Ultima II: The Revenge of the Enchantress'
-  remakes:
-  - name: UiirJS
-    repo: https://github.com/ObviouslySorna/UiirJS
-    updated: 2015-06-01
-    development: halted
-    lang: JavaScript
-
-- name: Ultima IV
-  remakes:
-  - url: http://xu4.sourceforge.net/
-    name: xu4
-    repo: http://sourceforge.net/projects/xu4/develop
-    development: active
-    lang: C++
-    images:
-    - http://xu4.sourceforge.net/images/intro1.png
-    - http://xu4.sourceforge.net/images/forest.png
-    - http://xu4.sourceforge.net/images/codex.png
-
-- name: Ultima VI
-  names:
-  - The Savage Empire
-  - Martian Dreams
-  remakes:
-  - url: http://nuvie.sourceforge.net/
-    name: Nuvie
-    repo: http://sourceforge.net/projects/nuvie/develop
-    development: active
-    lang: C++
-    images:
-    - http://nuvie.sourceforge.net/images/shots/nuvie_24.png
-    - http://nuvie.sourceforge.net/images/shots/nuvie_22.png
-    - http://nuvie.sourceforge.net/images/shots/nuvie_21.png
-
-- name: Ultima VII
-  remakes:
-  - url: http://exult.sourceforge.net/
-    name: Exult
-    repo: http://sourceforge.net/projects/exult/develop
-    development: sporadic
-    lang: C++
-    images:
-    - http://exult.sourceforge.net/images/screenshots/stage.png
-    - http://exult.sourceforge.net/images/screenshots/bgpaper.png
-    - http://exult.sourceforge.net/images/screenshots/blackgate.png
-    - http://exult.sourceforge.net/images/screenshots/teleportmap.png
-
-- name: Ultima VIII
-  remakes:
-  - url: http://pentagram.sourceforge.net/
-    name: Pentagram
-    repo: http://sourceforge.net/projects/pentagram/develop
-    development: sporadic
-    lang: C++
-    images:
-    - http://pentagram.sourceforge.net/images/screenshots/pagan.png
-    - http://pentagram.sourceforge.net/images/screenshots/noremorse.png
-    - http://pentagram.sourceforge.net/images/screenshots/noregret.png
-    - http://pentagram.sourceforge.net/images/screenshots/japanese.png
-
-- name: Uncharted Waters
-  remakes:
-  - name: Uncharted waters 2 remake
-    repo: https://github.com/Jackyjjc/Uncharted-waters-2-remake
-    url: http://jackyjjc.com/
-    updated: 2015-04-05
-    development: active
-    lang: Java
-    license: [GPL2]
-
-- name: [Uninvited, Uninvited (video game)]
-  remakes:
-  - name: uninvited
-    updated: 2015-04-04
-    repo: https://github.com/DavidGriffith/uninvited
-    development: sporadic
-    framework: Inform
-    license: [Artistic]
-
-- name: [Utopia, Utopia (video game)]
-  remakes:
-  - name: Utopia
-    updated: 2015-04-05
-    url: http://apps.gamejs.org/newutopia/
-    repo: https://github.com/gamejs/newutopia
-    development: halted
-    lang: JavaScript
-
-- name: UGH!
   clones:
   - name: CaveExpress
     url: http://www.caveproductions.org/
@@ -122,3 +23,119 @@
     - http://www.caveproductions.org/images/screenshots/angry-dino.jpg
     - http://www.caveproductions.org/images/screenshots/multi-packages.jpg
 
+- name: Ultima Online
+  meta:
+    genre: [MMORPG]
+  remakes:
+  - name: Iris2
+    url: http://www.iris2.de/
+    status: playable
+    development: halted
+    repo: http://iris.schattenkind.net/svn/trunk/
+    images:
+    - http://www.iris2.de/images/4/48/20080106175329_188.png
+
+- name: 'Ultima II: The Revenge of the Enchantress'
+  meta:
+    genre: [RPG]
+  remakes:
+  - name: UiirJS
+    repo: https://github.com/ObviouslySorna/UiirJS
+    updated: 2015-06-01
+    development: halted
+    lang: JavaScript
+
+- name: Ultima IV
+  meta:
+    genre: [RPG]
+  remakes:
+  - url: http://xu4.sourceforge.net/
+    name: xu4
+    repo: http://sourceforge.net/projects/xu4/develop
+    development: active
+    lang: C++
+    images:
+    - http://xu4.sourceforge.net/images/intro1.png
+    - http://xu4.sourceforge.net/images/forest.png
+    - http://xu4.sourceforge.net/images/codex.png
+
+- name: Ultima VI
+  meta:
+    genre: [RPG]
+  names:
+  - The Savage Empire
+  - Martian Dreams
+  remakes:
+  - url: http://nuvie.sourceforge.net/
+    name: Nuvie
+    repo: http://sourceforge.net/projects/nuvie/develop
+    development: active
+    lang: C++
+    images:
+    - http://nuvie.sourceforge.net/images/shots/nuvie_24.png
+    - http://nuvie.sourceforge.net/images/shots/nuvie_22.png
+    - http://nuvie.sourceforge.net/images/shots/nuvie_21.png
+
+- name: Ultima VII
+  meta:
+    genre: [RPG]
+  remakes:
+  - url: http://exult.sourceforge.net/
+    name: Exult
+    repo: http://sourceforge.net/projects/exult/develop
+    development: sporadic
+    lang: C++
+    images:
+    - http://exult.sourceforge.net/images/screenshots/stage.png
+    - http://exult.sourceforge.net/images/screenshots/bgpaper.png
+    - http://exult.sourceforge.net/images/screenshots/blackgate.png
+    - http://exult.sourceforge.net/images/screenshots/teleportmap.png
+
+- name: Ultima VIII
+  meta:
+    genre: [RPG]
+  remakes:
+  - url: http://pentagram.sourceforge.net/
+    name: Pentagram
+    repo: http://sourceforge.net/projects/pentagram/develop
+    development: sporadic
+    lang: C++
+    images:
+    - http://pentagram.sourceforge.net/images/screenshots/pagan.png
+    - http://pentagram.sourceforge.net/images/screenshots/noremorse.png
+    - http://pentagram.sourceforge.net/images/screenshots/noregret.png
+    - http://pentagram.sourceforge.net/images/screenshots/japanese.png
+
+- name: Uncharted Waters
+  meta:
+    genre: [simulation,RPG]
+  remakes:
+  - name: Uncharted waters 2 remake
+    repo: https://github.com/Jackyjjc/Uncharted-waters-2-remake
+    url: http://jackyjjc.com/
+    updated: 2015-04-05
+    development: active
+    lang: Java
+    license: [GPL2]
+
+- name: [Uninvited, Uninvited (video game)]
+  meta:
+    genre: [adventure]
+  remakes:
+  - name: uninvited
+    updated: 2015-04-04
+    repo: https://github.com/DavidGriffith/uninvited
+    development: sporadic
+    framework: Inform
+    license: [Artistic]
+
+- name: [Utopia, Utopia (video game)]
+  meta:
+    genre: [TBS]
+  remakes:
+  - name: Utopia
+    updated: 2015-04-05
+    url: http://apps.gamejs.org/newutopia/
+    repo: https://github.com/gamejs/newutopia
+    development: halted
+    lang: JavaScript

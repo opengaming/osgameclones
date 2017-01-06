@@ -1,4 +1,6 @@
 - name: Galaxian
+  meta:
+    genre: [arcade]
   remakes:
   - name: galaxian
     repo: https://github.com/codedrive/galaxian
@@ -7,6 +9,8 @@
     lang: ActionScript
 
 - name: Geometry Wars
+  meta:
+    genre: [shmup]
   remakes:
   - name: Geometry Wars Remake
     updated: 2015-04-13
@@ -29,7 +33,7 @@
 
 - name: [Gish, Gish (video game)]
   meta:
-    genre: [Platformer]
+    genre: [platform]
     theme: [Comedy]
   remakes:
   - name: freegish
@@ -45,6 +49,8 @@
     - https://upload.wikimedia.org/wikipedia/commons/0/00/FreeGish_1-5.png
 
 - name: Gladiator
+  meta:
+    genre: [action,RPG]
   remakes:
   - name: Openglad
     url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi
@@ -59,8 +65,7 @@
 
 - name: Glest
   meta:
-    genre: [Strategy]
-    subgenre: [Real-Time Strategy]
+    genre: [RTS]
     theme: [Medieval, Fantasy]
   remakes:
   - name: Glest Advanced Engine
@@ -90,6 +95,8 @@
       youtube: glWKT8hDmjw
 
 - name: [Gods, Gods (video game)]
+  meta:
+    genre: [platform]
   remakes:
   - name: Gods -Deluxe-
     url: http://jotd.pagesperso-orange.fr/gods/index.html
@@ -101,6 +108,8 @@
     - http://jotd.pagesperso-orange.fr/gods/snapshots/classic_level_1/images/view_0000.jpg
 
 - name: [GoldenEye 007, GoldenEye 007 (1997 video game)]
+  meta:
+    genre: [FPS]
   remakes:
   - name: ges-code
     updated: 2015-04-15
@@ -116,6 +125,8 @@
     - http://media.moddb.com/images/mods/1/5/4506/ro3.jpg
 
 - name: [Gorillas, Gorillas (video game)]
+  meta:
+    genre: [arcade, artillery]
   remakes:
   - name: Gorillas
     url: https://github.com/Lyndir/Gorillas
@@ -127,6 +138,8 @@
     license: [JRL]
 
 - name: [Gothic, Gothic (video game)]
+  meta:
+    genre: [RPG,action]
   names:
   - Gothic II
   remakes:
@@ -144,6 +157,8 @@
   names:
   - Escape from Monkey Island
   - 'Myst III: Exile'
+  meta:
+    genre: [adventure]
   remakes:
   - name: ResidualVM
     url: http://residualvm.org/
@@ -153,7 +168,7 @@
 
 - name: [Grand Theft Auto, Grand Theft Auto (video game)]
   meta:
-    genre: [Action, Driving/Racing]
+    genre: [action,adventure]
     theme: [Crime]
   remakes:
   - name: OpenGTA
@@ -165,7 +180,7 @@
 
 - name: Grand Theft Auto 2
   meta:
-    genre: [Action, Driving/Racing]
+    genre: [action,adventure]
     theme: [Crime]
   remakes:
   - name: gta2net
@@ -176,6 +191,8 @@
     updated: 2014-02-05
 
 - name: Grand Theft Auto III
+  meta:
+    genre: [action,adventure]
   remakes:
   - name: OpenRW "Open ReWrite"
     repo: https://github.com/danhedron/openrw
@@ -185,6 +202,8 @@
     development: active
 
 - name: Gravity Force
+  meta:
+    genre: [arcade]
   remakes:
   - name: Galaxy Forces V2
     url: http://www.galaxy-forces.com/
@@ -194,6 +213,8 @@
     updated: 2015-04-03
 
 - name: Guitar Hero
+  meta:
+    genre: [rhythm]
   remakes:
   - name: Frets on Fire
     url: http://fretsonfire.sourceforge.net/
@@ -221,7 +242,7 @@
   - SingStar
   - Dance Dance Revolution
   meta:
-    genre: [Music/Rhythm]
+    genre: [rhythm]
   clones:
   - name: Performous
     url: http://performous.org/

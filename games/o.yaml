@@ -1,4 +1,6 @@
 - name: [Octopus, List of Game & Watch games#Octopus]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Octopus
     updated: 2016-02-08
@@ -10,6 +12,8 @@
     - https://cloud.githubusercontent.com/assets/16686245/12429085/98761c3c-bee8-11e5-9399-1f7cc162e9bd.png
 
 - name: Oddworld
+  meta:
+    genre: [platform,adventure]
   names:
   - 'Oddworld: Abe''s Oddysee'
   - 'Oddworld: Abe''s Exoddus'
@@ -24,6 +28,8 @@
     - https://raw.githubusercontent.com/paulsapps/alive/dev/doc/screenshots/alive1.png
 
 - name: [Outcast, Outcast (video game)]
+  meta:
+    genre: [adventure,action]
   remakes:
   - name: OpenOutcast
     updated: 2014-04-11
@@ -39,6 +45,8 @@
   names:
   - "\u30A2\u30A6\u30C8 \u30E9\u30F3"
   - Auto Ran
+  meta:
+    genre: [arcade,racing]
   remakes:
   - name: Cannonball
     url: https://github.com/djyt/cannonball/wiki
@@ -61,6 +69,8 @@
     - http://outruncpc.free.fr/images/CPC03.jpg
 
 - name: Oxyd
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Enigma
     url: http://www.nongnu.org/enigma/
@@ -71,7 +81,7 @@
 
 - name: 'One Must Fall: 2097'
   meta:
-    genre: [Fighting]
+    genre: [fighting]
     theme: [Sci-Fi]
   remakes:
   - name: OpenOMF
@@ -102,6 +112,8 @@
     license: [BSD4]
 
 - name: [Overflow, 'http://amigagamer.blogspot.co.uk/2012/11/overflow-amiga-pipemania-clone.html']
+  meta:
+    genre: [puzzle]
   remakes:
   - name: JOverflow
     updated: 2015-06-22
@@ -110,6 +122,8 @@
     lang: Java
 
 - name: Omega Race
+  meta:
+    genre: [arcade]
   clones:
   - name: Torrega Race
     repo: https://github.com/andwj/torrega

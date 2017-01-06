@@ -4,6 +4,8 @@
   - Blood
   - Outlaws
   - Shadow Warrior
+  meta:
+    genre: [RPG]
   remakes:
   - name: XL Engine
     url: http://xlengine.com
@@ -22,6 +24,8 @@
     - https://darkxl.files.wordpress.com/2009/09/dxl_tarsalus9.jpg
 
 - name: [Dandy, Dandy (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Fight Or Perish
     url: http://www.newbreedsoftware.com/fop/
@@ -34,6 +38,8 @@
     - http://www.newbreedsoftware.com/fop/screenshots/fop-alpha.png
 
 - name: Dark Reign 2
+  meta:
+    genre: [RTS]
   remakes:
   - name: Dark Reign 2
     url: https://code.google.com/p/darkreign2/
@@ -42,6 +48,8 @@
     lang: C++
 
 - name: [Defender, Defender (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Defendguin
     updated: 2015-04-07
@@ -61,6 +69,8 @@
 - name: [Descent, Descent (video game)]
   names:
   - Descent 2
+  meta:
+    genre: [FPS]
   remakes:
   - name: D2X-XL
     url: http://www.descent2.de/
@@ -89,6 +99,8 @@
 - name:
   - 'DesertStrike: Return to the Gulf'
   - Jungle Strike
+  meta:
+    genre: [shmup]
   remakes:
   - name: openstrike
     repo: https://github.com/AMDmi3/openstrike
@@ -102,6 +114,8 @@
   names:
   - [Island of Dr. Destructo, 'http://www.mobygames.com/game/destructo']
   - [The Island of Doctor Destructo, 'http://www.mobygames.com/game/destructo']
+  meta:
+    genre: [arcade]
   remakes:
   - name: Return of Dr. Destructo
     url: http://zxstudio.org/projects/drdestructo/
@@ -119,6 +133,8 @@
       youtube: aruCsdxWCCQ
 
 - name: Deflektor
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Deflektor X4
     url: http://retrospec.sgn.net/game/deflektorx4
@@ -137,6 +153,8 @@
     updated: 2014-01-12
 
 - name: 'Desperados: Wanted Dead or Alive'
+  meta:
+    genre: [RTS]
   remakes:
   - name: OpenDeathValley
     repo: https://github.com/OpenDeathValley/OpenDeathValley
@@ -147,7 +165,7 @@
 
 - name: [Diablo, Diablo (series)]
   meta:
-    genre: [Action, Role-Playing]
+    genre: [RPG,action]
     theme: [Horror, Fantasy, Medieval]
   remakes:
   - name: freeablo
@@ -194,7 +212,7 @@
 
 - name: [Digger, Digger (video game)]
   meta:
-    genre: [Action]
+    genre: [arcade]
   remakes:
   - name: Digger Remastered
     url: http://digger.org/
@@ -207,6 +225,8 @@
     - https://upload.wikimedia.org/wikipedia/commons/b/be/Digger_Remastered.png
 
 - name: Digimon World
+  meta:
+    genre: [RPG]
   remakes:
   - name: Digimon World Project Ark
     updated: 2015-05-28
@@ -216,6 +236,8 @@
     lang: C#
 
 - name: [Dodger, 'http://www.mobygames.com/game/win3x/dodger']
+  meta:
+    genre: [arcade]
   remakes:
   - name: dodger-remake
     repo: https://github.com/funchal/dodger-remake
@@ -224,6 +246,8 @@
     lang: C++
 
 - name: [Dogs of War, Dogs of War (1989 video game)]
+  meta:
+    genre: [shmup]
   remakes:
   - name: openDOW
     updated: 2015-05-15
@@ -237,6 +261,8 @@
   - Doom II
   - [Heretic, Heretic (video game)]
   - Hexen
+  meta:
+    genre: [FPS]
   remakes:
   - name: Doomsday
     url: http://dengine.net/
@@ -335,6 +361,8 @@
     info: iOS
 
 - name: Doom 64
+  meta:
+    genre: [FPS]
   remakes:
   - name: Doom64EX
     repo: https://github.com/svkaiser/Doom64EX
@@ -349,6 +377,8 @@
     - https://doom64ex.files.wordpress.com/2011/08/d64ex_03.png
 
 - name: [Doom 3, Doom_3]
+  meta:
+    genre: [FPS]
   remakes:
   - name: dhewm3
     updated: 2015-07-29
@@ -365,6 +395,8 @@
     license: [GPL3]
 
 - name: Drugwars
+  meta:
+    genre: [simulation]
   remakes:
   - name: Dope Wars
     url: http://dopewars.sourceforge.net/
@@ -382,6 +414,8 @@
     lang: JavaScript
 
 - name: Deuteros
+  meta:
+    genre: [RTS]
   remakes:
   - name: Deuteros X
     repo: svn://svn.code.sf.net/p/deuterosx/code/
@@ -391,6 +425,8 @@
     lang: C#
 
 - name: Dink Smallwood
+  meta:
+    genre: [RPG]
   remakes:
   - name: GNU FreeDink
     updated: 2015-04-11
@@ -404,6 +440,8 @@
     - https://www.gnu.org/software/freedink/screenshots/freedink-1.08_2008-07-31.jpg
 
 - name: Duck Hunt
+  meta:
+    genre: [arcade]
   remakes:
   - name: duckhunt
     updated: 2015-04-05
@@ -438,6 +476,8 @@
     lang: JavaScript
 
 - name: [Duke Nukem, Duke Nukem (video game)]
+  meta:
+    genre: [platform]
   remakes:
   - name: Freenukum Jump'n Run
     url: https://launchpad.net/freenukum/
@@ -448,6 +488,8 @@
     updated: 2015-04-03
 
 - name: Duke Nukem 3D
+  meta:
+    genre: [FPS]
   remakes:
   - name: EDuke32
     url: http://eduke32.com/
@@ -462,8 +504,7 @@
 
 - name: Dune 2
   meta:
-    genre: [Strategy]
-    subgenre: [Real-Time Strategy]
+    genre: [RTS]
     theme: [Sci-Fi]
   remakes:
   - name: Dune Legacy
@@ -507,6 +548,8 @@
       youtube: J93yDhXwNtA
 
 - name: Dungeon Keeper
+  meta:
+    genre: [simulation,RTS]
   remakes:
   - name: KeeperFX
     url: http://keeper.lubiki.pl/html/dk_keeperfx.php
@@ -515,6 +558,8 @@
     repo: https://code.google.com/p/keeperfx/source/list
 
 - name: Dungeon Keeper 2
+  meta:
+    genre: [simulation,RTS]
   clones:
   - name: OpenKeeper
     framework: JMonkeyEngine
@@ -526,6 +571,8 @@
     license: [GPL3]
 
 - name: [Dungeon Master, Dungeon Master (video game)]
+  meta:
+    genre: [RPG,action]
   remakes:
   - name: Chaos Strikes Back
     updated: 2015-09-27
@@ -542,6 +589,8 @@
     lang: C#
 
 - name: DX-Ball
+  meta:
+    genre: [arcade]
   remakes:
   - name: DXBall
     repo: https://github.com/nomanHasan/DXBall
@@ -552,6 +601,8 @@
     development: active
 
 - name: [DEFCON, DEFCON_(video_game)]
+  meta:
+    genre: [RTS]
   clones:
   - url: https://github.com/gtanczyk/Dupocracy
     name: Dupocracy
@@ -562,6 +613,8 @@
     - http://www.gamedev.pl/images/l/557,fogofwarpng.jpg
 
 - name: Dungeon Keeper
+  meta:
+    genre: [simulation,RTS]
   clones:
   - url: https://opendungeons.github.io/
     name: OpenDungeons

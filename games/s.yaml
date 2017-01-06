@@ -1,4 +1,6 @@
 - name: [Scorched Earth, Scorched Earth (video game)]
+  meta:
+    genre: [arcade, artillery]
   remakes:
   - name: Atomic Tanks
     url: http://atanks.sourceforge.net/
@@ -8,8 +10,18 @@
     images:
     - http://atanks.sourceforge.net/Screenshots/scrnshot28.png
     - http://atanks.sourceforge.net/Screenshots/scrnshot23.png
+  clones:
+  - url: http://www.scorched3d.co.uk/
+    name: Scorched3D
+    updated: 2015-04-06
+    repo: git://git.code.sf.net/p/scorched3d/git
+    development: active
+    lang: C++
+    license: [GPL2]
 
 - name: [Scramble, Scramble (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Scramble
     updated: 2015-05-09
@@ -19,6 +31,8 @@
     - http://gamesoft.ca/bestgames/images/scrcap06.png
 
 - name: [Seaquest, Seaquest (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Seaquest
     repo: https://github.com/brunocmorais/Seaquest
@@ -27,6 +41,8 @@
     lang: C#
 
 - name: 'Shadowgrounds: Survivor'
+  meta:
+    genre: [shmup]
   remakes:
   - name: shadowgrounds
     repo: https://github.com/vayerx/shadowgrounds
@@ -36,6 +52,8 @@
     license: [Custom]
 
 - name: [Simon, Simon (game)]
+  meta:
+    genre: [puzzle]
   remakes:
   - name: asdf
     updated: 2015-05-28
@@ -45,6 +63,8 @@
     license: [MIT]
 
 - name: Skool Daze
+  meta:
+    genre: [adventure, simulation]
   remakes:
   - name: pyskool
     url: http://pyskool.ca/
@@ -62,6 +82,8 @@
     - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-wide-0.4.png
 
 - name: 'Space Rangers 2: Dominators'
+  meta:
+    genre: [RTS,adventure,shmup,RPG,TPS]
   remakes:
   - name: OpenSR
     repo: https://github.com/ObKo/OpenSR
@@ -70,6 +92,8 @@
     lang: [C++, Python]
 
 - name: Strike Commander
+  meta:
+    genre: [simulation]
   remakes:
   - name: libRealSpace
     url: http://fabiensanglard.net/reverse_engineering_strike_commander/index.php
@@ -79,6 +103,8 @@
     updated: 2014-01-05
 
 - name: Strikers 1945
+  meta:
+    genre: [shmup]
   remakes:
   - name: Py1945
     updated: 2015-04-13
@@ -90,7 +116,7 @@
 
 - name: Sensible Soccer
   meta:
-    genre: [Sports]
+    genre: [sports]
     subgenre: [Soccer]
   remakes:
   - name: FreeKick
@@ -109,6 +135,8 @@
     license: [GPL]
 
 - name: [Sensitive, 'https://www.mobygames.com/game/c64/sensitive']
+  meta:
+    genre: [puzzle,arcade]
   remakes:
   - name: One Way To Go
     repo: https://github.com/purplehuman/onewaytogo
@@ -121,6 +149,8 @@
     - https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/owtg_zpsc6792600.PNG
 
 - name: [Seven Kingdoms, Seven Kingdoms (computer game)]
+  meta:
+    genre: [RTS]
   remakes:
   - name: 'Seven Kingdoms: Ancient Adversaries'
     development: active
@@ -129,6 +159,8 @@
     repo: http://7kfans.com/git/?p=7kaa.git;a=summary
 
 - name: Shining Force II
+  meta:
+    genre: [RPG]
   remakes:
   - name: Shining Force 2 Reverse Engineer (SF2RE)
     updated: 2015-05-10
@@ -138,6 +170,8 @@
     lang: C
 
 - name: Shining Soul
+  meta:
+    genre: [action,RPG]
   remakes:
   - name: Shining-Soul-Remake
     updated: 2016-04-11
@@ -146,6 +180,8 @@
     lang: Python
 
 - name: Sid Meier's Alpha Centauri
+  meta:
+    genre: [TBS]
   remakes:
   - name: Freeciv Alpha Centauri project
     updated: 2015-04-11
@@ -158,6 +194,8 @@
     - http://freecivac.sourceforge.net/pics/govchange.png
 
 - name: Sid Meier's Colonization
+  meta:
+    genre: [TBS]
   remakes:
   - name: FreeCol
     url: http://www.freecol.org/
@@ -177,6 +215,8 @@
     license: [AGPL3]
 
 - name: Sid Meier's Pirates!
+  meta:
+    genre: [action,adventure,RTS]
   remakes:
   - name: Crown and Cutlass
     updated: 2015-04-15
@@ -191,6 +231,8 @@
     - http://www.crownandcutlass.com/screenshots/images/CCNavalBattle.png
 
 - name: Shadow Warrior
+  meta:
+    genre: [FPS]
   remakes:
   - name: JonoF's Shadow Warrior Port (JFSW)
     url: http://www.jonof.id.au/jfsw
@@ -218,9 +260,7 @@
     - Ship Simulator 2008
     - Ship Simulator Extremes
   meta:
-    genre: [Simulation]
-    subgenre: []
-    theme: []
+    genre: [simulation]
   clones:
     - name: Bridge Command
       repo: https://github.com/bridgecommand/bc
@@ -237,6 +277,8 @@
       - https://www.bridgecommand.co.uk/data/_uploaded/image/sar.jpg
   
 - name: [Siege, Siege (video game)]
+  meta:
+    genre: [puzzle,arcade]
   remakes:
   - name: FreeSiege
     url: http://freesiege.sourceforge.net/
@@ -250,6 +292,8 @@
     - http://freesiege.sourceforge.net/screens/screen1.png
 
 - name: Siege of Avalon
+  meta:
+    genre: [action,RPG]
   remakes:
   - name: Siege of Avalon Open Source
     updated: 2015-04-08
@@ -264,6 +308,8 @@
     - http://soaos.sourceforge.net/images/shots/scrshot4.jpg
 
 - name: [Silencer, Silencer (video game)]
+  meta:
+    genre: [action]
   remakes:
   - name: zSILENCER
     url: http://zsilencer.com/
@@ -279,6 +325,8 @@
       youtube: mojUQUONp4M
 
 - name: Silent Hunter 4
+  meta:
+    genre: [simulation]
   remakes:
   - name: Danger from the Deep
     development: sporadic
@@ -293,6 +341,8 @@
     - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
 
 - name: SimTower
+  meta:
+    genre: [simulation]
   remakes:
   - name: OpenSkyscraper
     url: https://github.com/fabianschuiki/OpenSkyscraper/wiki
@@ -305,6 +355,8 @@
     - https://raw.githubusercontent.com/wiki/fabianschuiki/OpenSkyscraper/current.png
 
 - name: SingStar
+  meta:
+    genre: [rhythm]
   remakes:
   - name: UltraStar Deluxe
     url: http://ultrastardx.sourceforge.net/
@@ -319,6 +371,8 @@
     - http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
 
 - name: Solar Fox
+  meta:
+    genre: [arcade]
   remakes:
   - name: SolarWolf
     updated: 2015-04-25
@@ -334,6 +388,8 @@
     - http://pygame.org/shredwheat/solarwolf/screen/shot5.jpg
 
 - name: [Sopwith, Sopwith (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - url: http://sdl-sopwith.sourceforge.net/
     name: SDL Sopwith
@@ -357,6 +413,8 @@
     - http://www.wingkong.net/sopwith2b/images/sop3_title.gif
 
 - name: Space Invaders
+  meta:
+    genre: [arcade]
   remakes:
   - name: pyspaceinvaders
     updated: 2015-04-11
@@ -375,6 +433,8 @@
     license: [MIT]
 
 - name: [Space Rangers, Space Rangers (video game)]
+  meta:
+    genre: [TBS]
   remakes:
   - name: Space-rangers
     repo: https://github.com/markevich/Space-rangers
@@ -383,6 +443,8 @@
     lang: C#
 
 - name: Speedball 2
+  meta:
+    genre: [sports]
   remakes:
   - name: Speedball 2
     url: http://bringerp.free.fr/RE/Speedball2/remake.php5
@@ -393,6 +455,8 @@
     updated: 2015-04-05
 
 - name: Star Control 2
+  meta:
+    genre: [RTS]
   remakes:
   - url: http://sc2.sourceforge.net/
     name: The Ur-Quan Masters
@@ -413,6 +477,8 @@
     updated: 2016-04-11
 
 - name: "Star Trek: Voyager \u2013 Elite Force"
+  meta:
+    genre: [FPS]
   remakes:
   - name: RPG-X
     updated: 2015-04-10
@@ -425,6 +491,8 @@
     - http://last-outpost.net/wp-content/uploads/2012/08/timewarp.jpg
 
 - name: Starcraft
+  meta:
+    genre: [RTS]
   remakes:
   - url: http://stargus.stratagus.com/
     name: Stargus
@@ -434,6 +502,8 @@
     updated: 2013-06-08
 
 - name: Stunt Car Racer
+  meta:
+    genre: [racing]
   remakes:
   - url: http://sourceforge.net/projects/stuntcarremake/
     repo: git://git.code.sf.net/p/stuntcarremake/code
@@ -445,6 +515,8 @@
     - https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
 
 - name: Stars!
+  meta:
+    genre: [TBS]
   remakes:
   - name: Freestars
     updated: 2015-04-11
@@ -466,6 +538,8 @@
     - http://nstars.sourceforge.net/nstars03.png
 
 - name: [Star Raiders (Atari), Star Raiders]
+  meta:
+    genre: [simulation]
   remakes:
   - name: Atari8bit_StarRaiders
     updated: 2015-07-14
@@ -475,6 +549,8 @@
     lang: Assembly
 
 - name: [Star Wars (1983 arcade game), Star Wars (1983 video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Star-Wars-III
     updated: 2015-06-01
@@ -484,6 +560,8 @@
     license: [GPL2]
 
 - name: Starshatter
+  meta:
+    genre: [RTS,simulation]
   remakes:
   - name: starshatter-open
     url: https://code.google.com/p/starshatter-open/
@@ -496,6 +574,8 @@
 - name: [Stunts, Stunts (video game)]
   names:
   - 4D Sports Driving
+  meta:
+    genre: [racing]
   remakes:
   - url: http://www.ultimatestunts.nl/
     name: Ultimate Stunts
@@ -509,6 +589,8 @@
     - http://www.ultimatestunts.nl/screenshots/0742.jpg
 
 - name: [Styx, Styx (Spectrum video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Styx
     url: http://retrospec.sgn.net/game/styx
@@ -518,6 +600,8 @@
     lang: C++
 
 - name: Supaplex
+  meta:
+    genre: [puzzle]
   remakes:
   - name: splexhd
     updated: 2015-05-28
@@ -527,6 +611,8 @@
     license: [GPL2]
 
 - name: Super Cars
+  meta:
+    genre: [racing]
   remakes:
   - name: Supercars III
     url: http://jotd.pagesperso-orange.fr/supercars3/
@@ -538,6 +624,8 @@
     - http://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
 
 - name: Super Foul Egg
+  meta:
+    genre: [puzzle,arcade]
   remakes:
   - name: SuperFoulEgg
     repo: https://github.com/ant512/SuperFoulEgg
@@ -547,6 +635,8 @@
     license: [Custom]
 
 - name: [Super Mario, Super Mario (series)]
+  meta:
+    genre: [platform]
   remakes:
   - name: Mega Mario
     url: http://sourceforge.net/projects/mmario/
@@ -573,6 +663,8 @@
     license: [GPL2]
 
 - name: [Super Methane Brothers, Super Methane Bros.]
+  meta:
+    genre: [platform,arcade]
   remakes:
   - name: Super Methane Brothers
     url: http://methane.sourceforge.net/
@@ -591,6 +683,8 @@
     info: Wii and GameCube port
 
 - name: Super Monkey Ball
+  meta:
+    genre: [arcade,platform]
   remakes:
   - name: Veraball
     repo: https://github.com/Veraball/veraball
@@ -634,6 +728,8 @@
     - http://i.imgur.com/fzcotpu.jpg
 
 - name: [Survivor (1986), Survivor (video game)]
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Survivor
     repo: https://github.com/scottschiller/SURVIVOR
@@ -648,6 +744,8 @@
     - https://farm8.staticflickr.com/7427/10177812825_1a524cb34d_h.jpg
 
 - name: [Syndicate, Syndicate (video game)]
+  meta:
+    genre: [RTS]
   remakes:
   - url: http://freesynd.sourceforge.net/
     name: FreeSynd
@@ -660,6 +758,8 @@
     - http://freesynd.sourceforge.net/images/screenshots/ss3.png
 
 - name: Syndicate Wars
+  meta:
+    genre: [RTS]
   remakes:
   - name: Syndicate Wars Port
     url: http://swars.vexillium.org/
@@ -674,6 +774,8 @@
     - http://swars.vexillium.org/shots/swars-macos-1.png
 
 - name: System Shock
+  meta:
+    genre: [RPG,FPS]
   remakes:
   - name: Citadel
     updated: 2016-05-09
@@ -681,6 +783,8 @@
     framework: Unity]
 
 - name: Shobon Action
+  meta:
+    genre: [platform]
   remakes:
   - name: Open Syobon Action
     updated: 2015-04-13
@@ -691,6 +795,8 @@
     repo: http://sourceforge.net/projects/opensyobon/files/src/
 
 - name: SkiFree
+  meta:
+    genre: [sports]
   remakes:
   - name: skifree.js
     updated: 2015-05-02
@@ -706,6 +812,8 @@
     repo: https://github.com/andymason/Skifree-HTML5-clone
 
 - name: Slot Racers
+  meta:
+    genre: [arcade]
   remakes:
   - name: Slot-Racers
     repo: https://github.com/Zillode/Slot-Racers
@@ -715,6 +823,8 @@
     license: [GPL3]
 
 - name: [Snake, Snake (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: snake
     repo: https://github.com/spypunk/snake
@@ -725,10 +835,21 @@
     updated: 2016-09-14
     images:
     - https://raw.githubusercontent.com/spypunk/snake/master/img/screenshot.png
+  clones:
+  - name: Gusty's Serpents
+    updated: 2015-04-25
+    url: http://sourceforge.net/projects/gustysserpents/
+    repo: svn://svn.code.sf.net/p/gustysserpents/svn/trunk
+    development: halted
+    lang: C++
+    license: [GPL2]
+    images:
+    - https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218294.jpg
+    - https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218296.jpg
 
 - name: Space Station 13
   meta:
-    genre: [Role-Playing, Simulation]
+    genre: [RPG,simulation]
     theme: [Sci-Fi, Comedy, Espionage]
   remakes:
   - name: Griefly
@@ -753,6 +874,8 @@
     updated: 2015-06-24
 
 - name: Star Fox 64
+  meta:
+    genre: [TPS]
   remakes:
   - name: UnnamedStarFoxClone
     updated: 2015-06-18
@@ -765,8 +888,8 @@
   names:
     - Harvest Moon
   meta:
-    genre: [Role-Playing, Simulation]
-    theme: [Anime, Dating]
+    genre: [simulation]
+    theme: [Anime]
   clones:
   - name: Harvest Cynthia
     repo: https://github.com/whiteshampoo/moon
@@ -780,6 +903,8 @@
     - https://camo.githubusercontent.com/737f3a6811bce5e9ce2bb54a89d92a78cc1a5986/687474703a2f2f6673352e64697265637475706c6f61642e6e65742f696d616765732f3136303330382f787077797132736e2e6a7067
 
 - name: ['Stratosphere: Conquest of the Skies', 'http://www.mobygames.com/game/windows/stratosphere-conquest-of-the-skies']
+  meta:
+    genre: [RTS,TPS]
   remakes:
   - name: openStrato
     repo: https://github.com/gerdl/openStrato
@@ -790,6 +915,8 @@
     license: [GPL2]
 
 - name: [Swing, Swing (video game)]
+  meta:
+    genre: [puzzle,arcade]
   remakes:
   - name: XSwing Plus
     updated: 2015-06-24
@@ -799,24 +926,9 @@
     lang: Java
     license: [GPL3]
 
-- name: [Similar to Natural Selection, Natural Selection (video game)]
-  clones:
-  - url: http://www.unvanquished.net/
-    name: Unvanquished
-    development: active
-    lang: C
-    repo: https://github.com/Unvanquished/Unvanquished
-    updated: 2013-06-08
-  - url: http://www.tremulous.net/
-    name: Tremulous
-    development: halted
-    lang: C
-    repo: http://svn.icculus.org/tremulous/
-    updated: 2013-06-08
-
 - name: Simcity
   meta:
-    genre: [Simulation]
+    genre: [simulation]
     theme: [Management]
   clones:
   - name: Lincity
@@ -869,20 +981,9 @@
     framework: HTML5
     license: [GPL3]
 
-- name: [Snake, Snake (video game)]
-  clones:
-  - name: Gusty's Serpents
-    updated: 2015-04-25
-    url: http://sourceforge.net/projects/gustysserpents/
-    repo: svn://svn.code.sf.net/p/gustysserpents/svn/trunk
-    development: halted
-    lang: C++
-    license: [GPL2]
-    images:
-    - https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218294.jpg
-    - https://a.fsdn.com/con/app/proj/gustysserpents/screenshots/218296.jpg
-
 - name: Sokoban
+  meta:
+    genre: [puzzle]
   clones:
   - name: CavePacker
     url: http://www.caveproductions.org/
@@ -898,6 +999,8 @@
     - http://www.caveproductions.org/images/screenshots/cavepacker-02.png
 
 - name: Sonic the Hedgehog
+  meta:
+    genre: [platform]
   clones:
   - name: Open Surge
     development: sporadic
@@ -922,6 +1025,8 @@
     - https://www.srb2.org/wp-content/uploads/21-acz1.png
 
 - name: Super Hexagon
+  meta:
+    genre: [rhythm]
   clones:
   - name: Open Hexagon
     url: http://vittorioromeo.info/projects.html
@@ -936,6 +1041,8 @@
       youtube: Wth0Z2eMezE
 
 - name: Super Mario
+  meta:
+    genre: [platform]
   clones:
   - name: Super Mario War
     url: http://smw.supersanctuary.net/site/
@@ -977,17 +1084,9 @@
     images:
     - https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
 
-- name: [Scorched Earth, Scorched Earth (video game)]
-  clones:
-  - url: http://www.scorched3d.co.uk/
-    name: Scorched3D
-    updated: 2015-04-06
-    repo: git://git.code.sf.net/p/scorched3d/git
-    development: active
-    lang: C++
-    license: [GPL2]
-
 - name: [SkyRoads, SkyRoads (video game)]
+  meta:
+    genre: [platform]
   remakes:
   - name: spaceroads
     repo: https://github.com/sebhd/spaceroads

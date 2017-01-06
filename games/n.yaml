@@ -1,4 +1,23 @@
+- name: [Natural Selection, Natural Selection (video game)]
+  meta:
+    genre: [FPS]
+  clones:
+  - url: http://www.unvanquished.net/
+    name: Unvanquished
+    development: active
+    lang: C
+    repo: https://github.com/Unvanquished/Unvanquished
+    updated: 2013-06-08
+  - url: http://www.tremulous.net/
+    name: Tremulous
+    development: halted
+    lang: C
+    repo: http://svn.icculus.org/tremulous/
+    updated: 2013-06-08
+    
 - name: Need For Speed II SE
+  meta:
+    genre: [racing]
   remakes:
   - name: NFSIISE
     repo: https://github.com/zaps166/NFSIISE
@@ -13,6 +32,8 @@
     - https://i.imgur.com/DRyjX57.jpg
 
 - name: [Night Stalker, Night Stalker (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Afternoon Stalker
     url: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html
@@ -25,6 +46,8 @@
     - http://perso.b2b2c.ca/~sarrazip/dev/images/afternoonstalker-1.png
 
 - name: [Nebulus, Nebulus (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Toppler
     url: http://toppler.sourceforge.net/
@@ -37,6 +60,8 @@
     - http://toppler.sourceforge.net/images/old-c64.png
 
 - name: Nether Earth
+  meta:
+    genre: [RTS]
   remakes:
   - name: Nether Earth Remake
     updated: 2015-04-13
@@ -58,7 +83,7 @@
   - 'Dragon Age: Origins'
   - Dragon Age II
   meta:
-    genre: [Role-Playing]
+    genre: [RPG]
     theme: [Fantasy, Sci-Fi, Martial Arts]
   remakes:
   - name: xoreos
@@ -77,6 +102,8 @@
       youtube: _EZRvDIB7wI
 
 - name: Nodes of Yesod
+  meta:
+    genre: [platform]
   remakes:
   - name: Nodes of Yesnod remake
     updated: 2015-05-10
@@ -86,6 +113,8 @@
     lang: C#
 
 - name: Nexuiz
+  meta:
+    genre: [FPS]
   clones:
   - url: http://www.xonotic.org/
     name: Xonotic

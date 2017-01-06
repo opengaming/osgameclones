@@ -1,4 +1,6 @@
 - name: [The Binding of Isaac, The Binding of Isaac (video game)]
+  meta:
+    genre: [roguelike]
   remakes:
   - name: Witch Blast
     repo: https://github.com/Cirrus-Minor/witchblast
@@ -16,6 +18,8 @@
       youtube: FsHqu0JpP_k
 
 - name: 'The Elder Scrolls: Arena'
+  meta:
+    genre: [RPG]
   remakes:
   - name: opentesarenapp
     updated: 2016-10-09
@@ -35,6 +39,8 @@
     updated: 2016-10-09
 
 - name: 'The Elder Scrolls II: Daggerfall'
+  meta:
+    genre: [RPG]
   remakes:
   - name: Daggerfall.NET
     repo: https://github.com/Burton-Radons/Daggerfall.NET
@@ -57,7 +63,7 @@
 
 - name: 'The Elder Scrolls III: Morrowind'
   meta:
-    genre: [Role-Playing]
+    genre: [RPG]
     theme: [Fantasy]
   remakes:
   - name: OpenMW
@@ -74,6 +80,8 @@
       youtube: avPbctre9Qw
 
 - name: [The Goonies, The Goonies (video game)]
+  meta:
+    genre: [platform]
   remakes:
   - name: The Goonies
     updated: 2015-04-13
@@ -87,6 +95,8 @@
     - http://www.braingames.getput.com/goonies/pics/screenshot4.jpg
 
 - name: The Great Giana Sisters
+  meta:
+    genre: [platform]
   remakes:
   - name: OpenGGS
     updated: 2015-06-28
@@ -103,9 +113,7 @@
     
 - name: The Sims Online
   meta:
-    genre: [Simulation]
-    subgenre: []
-    theme: []
+    genre: [simulation]
   remakes:
   - name: FreeSO
     repo: https://github.com/RHY3756547/FreeSO
@@ -123,8 +131,9 @@
     video:
       youtube: x35aPzAi55M
 
-- name: [The Lord of the Rings Volume 1, 'J.R.R. Tolkien''s The Lord of the Rings,
-      Vol. I (1990 video game)']
+- name: [The Lord of the Rings Volume 1, 'J.R.R. Tolkien''s The Lord of the Rings, Vol. I (1990 video game)']
+  meta:
+    genre: [action,RPG]
   remakes:
   - name: Lord of the Rings game engine
     url: http://www.wonderland.cz/lotr/
@@ -138,6 +147,8 @@
     - http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr2.png
 
 - name: The Maze of Galious
+  meta:
+    genre: [platform]
   remakes:
   - name: The Maze of Galious
     updated: 2015-04-13
@@ -156,6 +167,8 @@
     - http://www.braingames.getput.com/mog/pics/screenshot8.jpg
 
 - name: The Need for Speed
+  meta:
+    genre: [racing]
   remakes:
   - name: OpenNFS1
     updated: 2015-04-11
@@ -173,6 +186,8 @@
       youtube: Xfv_UrDq-As
 
 - name: The Adventures of Robbo
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Robbo
     url: http://dizaina.net/z/robbo/
@@ -183,6 +198,8 @@
     updated: 2014-03-21
 
 - name: [The Sentinel, The Sentinel (video game)]
+  meta:
+    genre: [puzzle]
   remakes:
   - name: sentinel
     repo: https://github.com/virgo47/sentinel
@@ -191,6 +208,8 @@
     lang: JavaFX
 
 - name: Terraria
+  meta:
+    genre: [simulation]
   remakes:
   - name: Open Terraria Rewrite
     updated: 2015-04-05
@@ -204,6 +223,8 @@
     lang: C++
 
 - name: The Castles of Dr. Creep
+  meta:
+    genre: [arcade]
   remakes:
   - name: DrCreep
     url: http://creep.sourceforge.net/
@@ -217,6 +238,8 @@
     - http://a.fsdn.com/con/app/proj/creep/screenshots/250990.jpg
     
 - name: The Clue!
+  meta:
+    genre: [adventure]
   clones:
   - name: Der Clou!
     url: https://sites.google.com/site/vascocosta/theclue
@@ -232,6 +255,8 @@
       youtube: UlQovLvleKg
 
 - name: [The Hobbit, The Hobbit (1982 video game)]
+  meta:
+    genre: [adventure]
   remakes:
   - name: hobbitgfx
     repo: https://github.com/richcarl/hobbitgfx
@@ -241,6 +266,8 @@
     lang: JavaScript
 
 - name: The Last Ninja
+  meta:
+    genre: [action,adventure]
   remakes:
   - name: LastNinja
     url: http://lastninja.sourceforge.net/
@@ -253,6 +280,8 @@
     - http://lastninja.sourceforge.net/images/lvl1.png
 
 - name: The Settlers
+  meta:
+    genre: [RTS]
   remakes:
   - name: Freeserf
     url: http://jonls.dk/freeserf/
@@ -265,6 +294,8 @@
       youtube: DdVtOhIIjow
 
 - name: The Settlers II
+  meta:
+    genre: [RTS]
   remakes:
   - url: http://www.siedler25.org/
     name: Return to the Roots
@@ -278,6 +309,8 @@
     - http://www.siedler25.org/gallery/2011/2011.01.19_10.jpg
 
 - name: The Settlers III
+  meta:
+    genre: [RTS]
   remakes:
   - name: JSettlers
     url: http://www.settlers-android-clone.com/
@@ -290,6 +323,8 @@
     - http://www.settlers-android-clone.com/wp-content/gallery/screenshots_win7/SoldiersFighting_1.png
 
 - name: [Tempest, Tempest (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - url: https://github.com/stephank/arashi-js
     name: Arashi-JS
@@ -311,6 +346,8 @@
     updated: 2015-04-12
 
 - name: [Test Drive, Test Drive (video game)]
+  meta:
+    genre: [racing]
   remakes:
   - name: opengl_test_drive_clone
     updated: 2015-05-03
@@ -323,6 +360,8 @@
     - http://antongerdelan.net/blog/images/tdrive_tacho.png
 
 - name: Tetris
+  meta:
+    genre: [puzzle,arcade]
   remakes:
   - name: tetris
     repo: https://github.com/spypunk/tetris
@@ -331,8 +370,25 @@
     updated: 2016-08-19
     images:
     - https://raw.githubusercontent.com/spypunk/tetris/master/img/screenshot_start.png
+  clones:
+  - name: 4DTris
+    url: http://sourceforge.net/projects/dtris/
+    updated: 2015-05-02
+    repo: https://bazaar.launchpad.net/~4dtris-dev/4dtris/trunk/files
+    development: halted
+    lang: C
+    license: [GPL2]
+  - name: Hextris
+    url: https://hextris.github.io/
+    repo: https://github.com/Hextris/Hextris
+    updated: 2015-05-02
+    development: active
+    lang: JavaScript
+    license: [GPL3]
 
 - name: Tetris Attack
+  meta:
+    genre: [puzzle,arcade]
   remakes:
   - url: https://github.com/sharpobject/panel-attack
     name: Panel Attack
@@ -376,6 +432,8 @@
     - http://www.blockattack.net/images/blockattack-2.0.0-1.png
 
 - name: Theme Hospital
+  meta:
+    genre: [simulation]
   remakes:
   - name: CorsixTH
     url: http://forums.corsixth.com/
@@ -392,6 +450,8 @@
       youtube: rSN1p247J74
 
 - name: [Theme Park, Theme Park (video game)]
+  meta:
+    genre: [simulation]
   remakes:
   - name: Theme Park Builder 3D CAD
     updated: 2015-07-04
@@ -403,6 +463,8 @@
     license: [GPL2]
 
 - name: [Thromolus, 'http://hol.abime.net/1386']
+  meta:
+    genre: [puzzle]
   remakes:
   - name: thromolusng
     updated: 2015-06-22
@@ -412,6 +474,8 @@
     license: [GPL3]
 
 - name: [Thrust, Thrust (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Thrust
     updated: 2015-04-15
@@ -450,6 +514,8 @@
     - http://www2.braingames.getput.com/stransball2/shot5.jpg
 
 - name: Tiny Wings
+  meta:
+    genre: [arcade]
   remakes:
   - name: Tiny Wings
     updated: 2015-05-02
@@ -461,6 +527,8 @@
 - name: Titus the Fox
   names:
   - [Moktar, Titus the Fox]
+  meta:
+    genre: [platform]
   remakes:
   - url: http://opentitus.wikia.com/wiki/OpenTitus_Wiki
     name: OpenTitus
@@ -473,6 +541,8 @@
     - http://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png
 
 - name: Total Annihilation
+  meta:
+    genre: [RTS]
   remakes:
   - url: http://springrts.com/
     name: Spring
@@ -495,6 +565,8 @@
     - http://www.ta3d.org/snapshots/shoot127.jpg
 
 - name: Tomb Raider
+  meta:
+    genre: [platform,adventure,action]
   remakes:
   - name: OpenRaider
     url: https://github.com/xythobuz/OpenRaider
@@ -519,6 +591,8 @@
       youtube: Jf3JGm67oS0
 
 - name: [Touhou, Touhou Project]
+  meta:
+    genre: [shmup,fighting]
   remakes:
   - url: http://pytouhou.linkmauve.fr/
     name: PyTouhou
@@ -543,9 +617,7 @@
 
 - name: TrackMania
   meta:
-    genre: [Driving/Racing]
-    subgenre: []
-    theme: []
+    genre: [racing]
   remakes:
   - name: ManiaDrive
     url: http://maniadrive.raydium.org/
@@ -570,6 +642,8 @@
       youtube: Ar7TJMnOHlg
 
 - name: [Transplant, Transplant (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Spaceship Duel
     updated: 2015-04-11
@@ -581,12 +655,12 @@
 
 - name: Transport Tycoon
   meta:
-    genre: [Strategy, Simulation]
+    genre: [simulation]
     theme: [Management]
   names:
   - Transport Tycoon Deluxe
   meta:
-    genre: [Strategy, Simulation]
+    genre: [simulation]
     theme: [Management]
   remakes:
   - url: http://www.openttd.org/
@@ -612,6 +686,8 @@
     - https://upload.wikimedia.org/wikipedia/commons/d/de/Simutrans_pak64.png
 
 - name: Tranz Am
+  meta:
+    genre: [arcade]
   remakes:
   - name: Tranzam
     updated: 2015-04-12
@@ -627,6 +703,8 @@
     - http://retrospec.sgn.net/config/screenshots/tranzam.f.1.jpg
 
 - name: [Tron, Tron (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: newtron
     repo: https://github.com/sursonico/newtron
@@ -644,6 +722,8 @@
     - CSS
 
 - name: [Turmoil, Turmoil (1984 video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: datastorm
     updated: 2016-04-11
@@ -653,6 +733,8 @@
     license: [Apache]
 
 - name: [Turnabout, Turnabout (video game)]
+  meta:
+    genre: [puzzle]
   remakes:
   - name: turnabout
     updated: 2015-07-19
@@ -661,6 +743,8 @@
     lang: CoffeeScript
 
 - name: [Turok, Turok (video game)]
+  meta:
+    genre: [FPS]
   remakes:
   - name: TurokEX
     development: halted
@@ -670,6 +754,8 @@
     updated: 2016-05-28
 
 - name: Turrican
+  meta:
+    genre: [shmup]
   remakes:
   - name: Hurrican
     url: http://sourceforge.net/p/hurrican/code/HEAD/tree/trunk/
@@ -680,6 +766,8 @@
     updated: 2012-05-28
 
 - name: [Tyrian, Tyrian (video game)]
+  meta:
+    genre: [shmup]
   remakes:
   - url: https://bitbucket.org/opentyrian/opentyrian/wiki/Home
     name: OpenTyrian
@@ -702,6 +790,8 @@
     - http://www.b3dgs.com/v7/projects/tyrian_remake/screens/8.png
 
 - name: The Lost Vikings
+  meta:
+    genre: [platform]
   clones:
   - name: freeVikings
     updated: 2015-05-12
@@ -719,6 +809,8 @@
 - name: [The Settlers, The Settlers (video game)]
   names:
   - The Settlers II
+  meta:
+    genre: [RTS]
   clones:
   - url: http://wl.widelands.org/
     name: Widelands
@@ -733,7 +825,7 @@
 
 - name: [Thief, Thief (series)]
   meta:
-    genre: [Action-Adventure]
+    genre: [action,adventure]
     theme: [Crime, Fantasy]
   remakes:
   - name: openDarkEngine
@@ -761,6 +853,8 @@
       youtube: hNtUQ32eeRM
 
 - name: Tribal Hero
+  meta:
+    genre: [MMORPG]
   clones:
   - name: Danger Zone
     status: unplayable
@@ -769,21 +863,4 @@
     repo: https://github.com/alasershark/dangerzone
     url: http://dzgame.org
     updated: 2013-05-28
-
-- name: Tetris
-  clones:
-  - name: 4DTris
-    url: http://sourceforge.net/projects/dtris/
-    updated: 2015-05-02
-    repo: https://bazaar.launchpad.net/~4dtris-dev/4dtris/trunk/files
-    development: halted
-    lang: C
-    license: [GPL2]
-  - name: Hextris
-    url: https://hextris.github.io/
-    repo: https://github.com/Hextris/Hextris
-    updated: 2015-05-02
-    development: active
-    lang: JavaScript
-    license: [GPL3]
 

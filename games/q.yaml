@@ -1,4 +1,6 @@
 - name: [Quadnet, 'https://www.mobygames.com/game/dos/quadnet']
+  meta:
+    genre: [arcade]
   remakes:
   - name: Mauvenet
     updated: 2015-05-09
@@ -9,6 +11,8 @@
     - http://gamesoft.ca/bestgames/images/mauvenet3.png
 
 - name: Quake
+  meta:
+    genre: [FPS]
   remakes:
   - name: DarkPlaces
     url: https://icculus.org/twilight/darkplaces/
@@ -52,6 +56,8 @@
     updated: 2015-04-03
 
 - name: Quake 2
+  meta:
+    genre: [FPS]
   remakes:
   - name: Jake2
     url: http://bytonic.de/html/jake2.html
@@ -71,6 +77,8 @@
     license: [GPL2]
 
 - name: Quake 3
+  meta:
+    genre: [FPS]
   remakes:
   - name: ioquake3
     url: http://ioquake3.org/
@@ -106,6 +114,8 @@
     license: [MIT]
 
 - name: Q*bert
+  meta:
+    genre: [arcade]
   remakes:
   - name: ReQbert
     repo: https://github.com/leonicolas/ReQbert

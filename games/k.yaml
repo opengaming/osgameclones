@@ -1,4 +1,6 @@
 - name: [Kaboom!, Kaboom! (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: DonkeyInTrouble
     updated: 2015-06-22
@@ -8,6 +10,8 @@
     framework: "L\xD6VE"
 
 - name: [Kid Chameleon, Kid Chameleon (video game)]
+  meta:
+    genre: [platform]
   remakes:
   - name: KidChameleonRemake
     updated: 2015-05-29
@@ -16,6 +20,8 @@
     lang: C#
 
 - name: [Knights, Knights (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Knights
     updated: 2015-04-15
@@ -33,6 +39,8 @@
     - http://www.knightsgame.org.uk/images/quest_selection.png
 
 - name: Knights and Merchants
+  meta:
+    genre: [RTS]
   remakes:
   - name: KaM Remake
     url: http://www.kamremake.com/
@@ -50,6 +58,8 @@
   names:
   - Roll Away
   - Kula Quest
+  meta:
+    genre: [platform,puzzle]
   remakes:
   - name: Cubosphere
     updated: 2015-04-14
@@ -60,6 +70,8 @@
     license: [GPL3]
 
 - name: Ken's Labyrinth
+  meta:
+    genre: [FPS]
   remakes:
   - name: LAB3D/SDL
     updated: 2015-04-10

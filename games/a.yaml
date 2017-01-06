@@ -1,6 +1,6 @@
 - name: [Abuse, Abuse (video game)]
   meta:
-    genre: [Action, Shooter]
+    genre: [action, platform]
     theme: [Horror, Sci-Fi]
   remakes:
   - name: Abuse
@@ -16,7 +16,7 @@
 
 - name: [Ace of Spades, Ace of Spades (video game)]
   meta:
-    genre: [First-Person Shooter]
+    genre: [FPS]
     theme: [World War II]
   remakes:
   - name: Iceball
@@ -40,7 +40,7 @@
 
 - name: 'Ace Combat: Assault Horizon'
   meta:
-    genre: [Action]
+    genre: [action,simulation]
     subgenre: [Flight Simulator]
     theme: [Modern Military]
   remakes:
@@ -62,7 +62,7 @@
   - Curve Fever
   - Zatacka
   meta:
-    genre: [Strategy]
+    genre: [arcade]
   remakes:
   - name: Zatacka X
     updated: 2016-12-11
@@ -97,8 +97,8 @@
     
 - name: Age of Empires II
   meta:
-    genre: [Strategy]
-    subgenre: [Real-Time Strategy]
+    genre: [RTS]
+    subgenre: []
     theme: [Medieval]
   remakes:
   - name: openage
@@ -116,7 +116,7 @@
 
 - name: 'Akalabeth: World of Doom'
   meta:
-    genre: [Role-Playing]
+    genre: [RPG]
     theme: [Fantasy]
   remakes:
   - name: Aklabeth
@@ -128,7 +128,7 @@
 
 - name: Alien 8
   meta:
-    genre: [Action]
+    genre: [action]
   remakes:
   - name: Alien 8
     url: http://retrospec.sgn.net/game/alien8
@@ -145,7 +145,7 @@
 
 - name: [Allegiance, Allegiance (video game)]
   meta:
-    genre: [Action, Simulation]
+    genre: [action, simulation, RTS]
     subgenre: [Real-Time Strategy]
     theme: [Sci-Fi]
   remakes:
@@ -167,7 +167,7 @@
   - Jack in the Dark
   - Alone in the Dark 3
   meta:
-    genre: [Action-Adventure]
+    genre: [horror]
     theme: [Horror, Alternate Historical]
   remakes:
   - name: Free in the Dark
@@ -180,7 +180,7 @@
 
 - name: 'Anacreon: Reconstruction 4021'
   meta:
-    genre: [Strategy]
+    genre: [TBS]
     theme: [Sci-Fi, Management]
   remakes:
   - name: 'Ard-Reil'
@@ -197,7 +197,7 @@
   - ["Outer World (\u30A2\u30A6\u30BF\u30FC\u30EF\u30FC\u30EB\u30C9 Aut\u0101 W\u0101\
       rudo)", Another World (video game)]
   meta:
-    genre: [Action-Adventure, Platformer]
+    genre: [adventure, platform]
     theme: [Sci-Fi]
   remakes:
   - name: New RAW
@@ -225,6 +225,8 @@
     - http://cyxdown.free.fr/rawgl/rawgl-2.png
 
 - name: ['Another World 2: Heart of the Alien', Heart of the Alien]
+  meta:
+    genre: [adventure, platform]
   remakes:
   - name: Heart of the Alien
     url: http://hota.sourceforge.net/
@@ -234,6 +236,8 @@
     lang: C
 
 - name: 'Archon: The Light and the Dark'
+  meta:
+    genre: [TBS]
   remakes:
   - name: XArchon
     updated: 2015-05-03
@@ -247,6 +251,8 @@
     - http://xarchon.seul.org/img/snap-2.gif
 
 - name: [Ares, Ares (video game)]
+  meta:
+    genre: [arcade,RTS]
   remakes:
   - name: Antares
     url: http://arescentral.org/antares/
@@ -270,7 +276,7 @@
   - ARMA 3
   - Operation Flashpoint
   meta:
-    genre: [Shooter]
+    genre: [FPS]
     theme: [Modern Military]
   clones:
   - name: Uebergame
@@ -290,7 +296,7 @@
     
 - name: Armor Alley
   meta:
-    genre: [Strategy, Shooter]
+    genre: [arcade]
     subgenre: [Real-Time Tactics]
   remakes:
   - name: Armor Alley
@@ -304,6 +310,8 @@
       youtube: Fxf6glufkWQ
 
 - name: 'Artemis: Spaceship Bridge Simulator'
+  meta:
+    genre: [simulation]
   remakes:
   - name: EmptyEpsilon
     url: http://daid.github.io/EmptyEpsilon/
@@ -317,8 +325,17 @@
     images:
     - http://daid.github.io/EmptyEpsilon/screenshots/mainscreen.png
     - http://daid.github.io/EmptyEpsilon/screenshots/helms.png
+  clones:
+  - name: Space Nerds In Space
+    repo: https://github.com/smcameron/space-nerds-in-space
+    updated: 2015-05-02
+    development: active
+    lang: C
+    license: [GPL2]
 
 - name: Artillery Duel
+  meta:
+    genre: [artillery]
   remakes:
   - name: Artillery Duel
     updated: 2015-04-11
@@ -331,6 +348,8 @@
     - http://pygame.org/shots/1519.jpg
 
 - name: Arx Fatalis
+  meta:
+    genre: [RPG]
   remakes:
   - name: Arx Libertatis
     url: http://arx-libertatis.org/
@@ -346,6 +365,8 @@
       youtube: mIribIqKee8
 
 - name: Ascendancy
+  meta:
+    genre: [TBS]
   remakes:
   - name: Starlane Empire
     url: https://gna.org/projects/starlane/
@@ -356,6 +377,8 @@
     license: [GPL]
 
 - name: [Asteroids, Asteroids (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Maelstrom
     url: http://www.libsdl.org/projects/Maelstrom/
@@ -400,6 +423,8 @@
     - https://i.imgur.com/IxtKdOS.png
 
 - name: [Asylum, 'https://www.mobygames.com/game/acorn-32-bit/asylum']
+  meta:
+    genre: [action]
   remakes:
   - name: SDL Asylum
     updated: 2015-04-17
@@ -414,6 +439,8 @@
     - https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136451.jpg
 
 - name: [Atomix, Atomix (video game)]
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Atomiks
     url: http://atomiks.sourceforge.net/
@@ -449,6 +476,8 @@
     license: [GPL2]
 
 - name: AstroMenace
+  meta:
+    genre: [shmup]
   remakes:
   - name: AstroMenace
     url: http://sourceforge.net/projects/openastromenace/
@@ -466,6 +495,8 @@
     - https://a.fsdn.com/con/app/proj/openastromenace/screenshots/am7.jpg
 
 - name: Astrosmash
+  meta:
+    genre: [arcade]
   remakes:
   - name: Cosmosmash
     url: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html
@@ -479,6 +510,8 @@
     - http://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
 
 - name: Atomic Bomberman
+  meta:
+    genre: [action]
   remakes:
   - name: Bombman
     repo: https://github.com/drummyfish/bombman
@@ -490,6 +523,8 @@
     - https://camo.githubusercontent.com/8ab6d36689583359d2904c9c4a573e3dcf68d76a/687474703a2f2f692e696d6775722e636f6d2f3378626741504d2e706e67
 
 - name: Awesomenauts
+  meta:
+    genre: [RPG,RTS]
   remakes:
   - name: BlakedAwesomenaughts
     updated: 2015-05-28
@@ -501,6 +536,8 @@
     license: [MIT]
 
 - name: A-Train
+  meta:
+    genre: [simulation]
   clones:
   - name: FreeRails
     url: http://freetrain.sourceforge.net/
@@ -512,6 +549,8 @@
     - http://freetrain.sourceforge.net/forum/download/file.php?id=1&sid=36293a0660c06ec093a27abe384ffc78
 
 - name: Age of Empires
+  meta:
+    genre: [RTS]
   clones:
   - name: 0 A.D.
     url: http://play0ad.com/
@@ -526,6 +565,8 @@
     - https://play0ad.com/wp-content/gallery/screenshots/water-depth-rendering.jpg
 
 - name: [Anno series, Anno_1602]
+  meta:
+    genre: [RTS]
   clones:
   - name: Unknown Horizons
     url: http://www.unknown-horizons.org/
@@ -537,6 +578,8 @@
     - http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
 
 - name: Arkanoid
+  meta:
+    genre: [arcade]
   clones:
   - name: PyBreak360
     url: http://sourceforge.net/projects/pybreak360/
@@ -555,13 +598,4 @@
     development: active
     lang: JavaScript
     license: [MIT]
-
-- name: 'Artemis: Spaceship Bridge Simulator'
-  clones:
-  - name: Space Nerds In Space
-    repo: https://github.com/smcameron/space-nerds-in-space
-    updated: 2015-05-02
-    development: active
-    lang: C
-    license: [GPL2]
-
+    

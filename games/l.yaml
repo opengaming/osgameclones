@@ -1,4 +1,6 @@
 - name: [Ladder, Ladder (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Ladder
     updated: 2015-05-09
@@ -27,6 +29,8 @@
     - https://raw.githubusercontent.com/SmallRoomLabs/ladder/master/images/GameRunning1.png
 
 - name: [Larn, Larn (video game)]
+  meta:
+    genre: [roguelike]
   remakes:
   - name: NLarn
     updated: 2015-07-12
@@ -37,6 +41,8 @@
     license: [GPL2]
 
 - name: [Legion, 'http://www.mobygames.com/game/legion__']
+  meta:
+    genre: [adventure]
   remakes:
   - name: legion
     updated: 2015-06-22
@@ -47,6 +53,8 @@
     license: [Custom]
 
 - name: [Lego Rock Raiders, Lego Rock Raiders (video game)]
+  meta:
+    genre: [RTS]
   remakes:
   - name: rock-raiders-remake
     updated: 2015-09-21
@@ -55,6 +63,8 @@
     lang: JavaScript
 
 - name: Liero
+  meta:
+    genre: [platform, shmup]
   remakes:
   - name: OpenLiero
     url: http://code.google.com/p/liero/
@@ -79,6 +89,8 @@
     updated: 2013-05-27
 
 - name: [Lionheart, Lionheart (video game)]
+  meta:
+    genre: [RPG,action]
   remakes:
   - name: Lionheart Remake
     updated: 2015-04-12
@@ -93,6 +105,8 @@
     - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/3.png
 
 - name: Little Big Adventure
+  meta:
+    genre: [adventure]
   remakes:
   - name: twin-e
     url: https://code.google.com/p/twin-e/
@@ -105,6 +119,8 @@
     updated: 2014-11-09
 
 - name: [Locomotion (Amiga 1992), 'http://www.mobygames.com/game/locomotion']
+  meta:
+    genre: [simulation]
   remakes:
   - name: Pendomotion
     updated: 2015-07-14
@@ -113,6 +129,8 @@
     lang: Python
 
 - name: Lode Runner
+  meta:
+    genre: [arcade]
   remakes:
   - name: XScavenger
     url: http://www.xdr.com/dash/scavenger.html
@@ -139,6 +157,8 @@
     - https://www.kde.org/images/screenshots/kgoldrunner.png
 
 - name: [Log!cal, 'http://hol.abime.net/906']
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Orbium
     url: http://bni.github.io/orbium/
@@ -164,6 +184,8 @@
     - http://pathological.sourceforge.net/screenshots/triggerpractice.png
 
 - name: [Lose Your Marbles, Sega Puzzle Pack]
+  meta:
+    genre: [puzzle]
   remakes:
   - name: Lose Your Marbles
     updated: 2015-04-12
@@ -173,6 +195,8 @@
     license: [MIT]
 
 - name: Lumines
+  meta:
+    genre: [puzzle]
   remakes:
   - name: luminesk5
     updated: 2015-04-13
@@ -182,6 +206,8 @@
     license: [GPL3]
 
 - name: ['Lugaru: The Rabbit''s Foot', Lugaru]
+  meta:
+    genre: [action]
   remakes:
   - name: Lugaru
     updated: 2015-04-11
@@ -191,8 +217,9 @@
     lang: C++
     license: [GPL2]
 
-- name: [Legend of Zelda - A Link to the Past, 'The Legend of Zelda: A Link to the
-      Past']
+- name: [Legend of Zelda - A Link to the Past, 'The Legend of Zelda: A Link to the Past']
+  meta:
+    genre: [action,adventure]
   remakes:
   - name: Solarus
     url: http://www.solarus-games.org/
@@ -216,6 +243,8 @@
     license: [MIT]
 
 - name: [Lemmings, Lemmings (video game)]
+  meta:
+    genre: [puzzle]
   clones:
   - name: Pingus
     url: http://pingus.seul.org/welcome.html
@@ -242,6 +271,8 @@
     license: [GPL2]
 
 - name: [Lotus Esprit Turbo Challenge, Lotus (series)]
+  meta:
+    genre: [racing]
   clones:
   - name: RacerJS
     updated: 2015-05-15
@@ -251,6 +282,8 @@
     license: [MIT]
 
 - name: Legend of Zelda
+  meta:
+    genre: [action,adventure]
   clones:
   - name: Open Zelda
     url: http://openzelda.net/

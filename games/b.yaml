@@ -1,4 +1,6 @@
 - name: [Babaliba, Dinamic Software]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Babaliba
     updated: 2015-04-13
@@ -14,6 +16,8 @@
   names:
   - Icewind Dale series
   - 'Planescape: Torment'
+  meta:
+    genre: [RPG]
   remakes:
   - name: GemRB
     url: http://www.gemrb.org/
@@ -26,6 +30,8 @@
     - http://sourceforge.net/dbimage.php?id=105344
 
 - name: Ballerburg
+  meta:
+    genre: [artillery]
   remakes:
   - name: Ballerburg SDL
     updated: 2015-04-17
@@ -39,6 +45,8 @@
     - http://baller.tuxfamily.org/screenshot2.png
 
 - name: Balloon Fight
+  meta:
+    genre: [arcade]
   remakes:
   - name: Balloon Fight
     updated: 2016-04-30
@@ -49,6 +57,8 @@
     license: [MIT]
 
 - name: 'Barbarian: The Ultimate Warrior'
+  meta:
+    genre: [fighting]
   remakes:
   - name: Barbarian
     updated: 2015-04-16
@@ -61,6 +71,8 @@
     - http://barbarian.1987.free.fr/images/AMIGA01.jpg
 
 - name: Battle Chess
+  meta:
+    genre: [TBS]
   remakes:
   - name: Open BattleChess
     repo: http://openbattlechess.googlecode.com/svn/trunk/
@@ -86,6 +98,8 @@
     - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
 
 - name: [Battle City, Battle City (video game)]
+  meta:
+    genre: [arcade]
   remakes:
   - name: Battle City
     url: http://battlecity.org/
@@ -117,6 +131,8 @@
     - EntityX
 
 - name: Bard's Tale Contruction Set
+  meta:
+    genre: [RPG]
   remakes:
   - name: Bt Builder
     url: http://identicalsoftware.com/btbuilder/
@@ -128,7 +144,7 @@
 
 - name: BeamNG.drive
   meta:
-    genre: [Simulation]
+    genre: [simulation]
     subgenre: [] # See genres in schema.yaml
     theme: [] # See genres in schema.yaml
   clones:
@@ -149,6 +165,8 @@
       youtube: bRbQ4OaljWs
 
 - name: Bejeweled
+  meta:
+    genre: [puzzle]
   remakes:
   - name: biju-game
     updated: 2015-05-28
@@ -158,6 +176,8 @@
     framework: CraftyJS
 
 - name: Bermuda Syndrome
+  meta:
+    genre: [adventure,platform]
   remakes:
   - name: Bermuda Syndrome
     url: http://cyxdown.free.fr/bs/
@@ -172,6 +192,8 @@
     - http://cyxdown.free.fr/bs/bs-2.png
 
 - name: Betrayal at Krondor
+  meta:
+    genre: [RPG]
   remakes:
   - name: xBaK
     repo: https://sourceforge.net/projects/xbak/files/xbak/
@@ -188,6 +210,8 @@
     - http://a.fsdn.com/con/app/proj/xbak/screenshots/71372.jpg
 
 - name: [Blade Runner, Blade Runner (1997 video game)]
+  meta:
+    genre: [adventure]
   remakes:
   - name: replicant
     repo: https://github.com/madmoose/replicant
@@ -202,6 +226,8 @@
     license: [GPL2]
 
 - name: 'Blake Stone: Planet Strike'
+  meta:
+    genre: [FPS]
   remakes:
   - name: bstone
     repo: https://github.com/bibendovsky/bstone
@@ -211,6 +237,8 @@
     updated: 2013-12-02
 
 - name: [Blood, Blood (video game)]
+  meta:
+    genre: [FPS]
   remakes:
   - name: Blood Crossmatching (EDuke32 vanilla)
     url: http://www.moddb.com/games/bloodcm
@@ -229,6 +257,8 @@
     - http://www.transfusion-game.com/images/action08.jpg
 
 - name: [Bolo, Bolo (1987 video game)]
+  meta:
+    genre: [shmup]
   remakes:
   - name: orona
     url: http://stephank.github.io/orona/
@@ -241,6 +271,8 @@
 - name: Bomberman
   names:
   - Dynablaster
+  meta:
+    genre: [arcade]
   remakes:
   - name: SDL Bomber
     repo: http://www.linuxmotors.com/SDL_bomber/downloads/
@@ -301,6 +333,8 @@
     - http://tomatoes.sourceforge.net/ss4.jpg
 
 - name: Boulder Dash
+  meta:
+    genre: [arcade]
   remakes:
   - name: Rocks n diamonds
     url: http://www.artsoft.org/rocksndiamonds/
@@ -346,6 +380,8 @@
     lang: Java
 
 - name: [Bratwurst, 'http://www.mobygames.com/game/bratwurst']
+  meta:
+    genre: [arcade]
   remakes:
   - name: bratwurst
     updated: 2015-05-15
@@ -355,6 +391,8 @@
     license: [GPL2]
 
 - name: [Bruce Lee, Bruce Lee (video game)]
+  meta:
+    genre: [action]
   remakes:
   - name: Jet Lee
     updated: 2015-08-23
@@ -366,6 +404,8 @@
     - https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-03.png
 
 - name: Bubble Bobble
+  meta:
+    genre: [arcade]
   remakes:
   - name: The Bub's Brothers
     url: http://bub-n-bros.sourceforge.net/
@@ -381,6 +421,8 @@
     - http://bub-n-bros.sourceforge.net/images/pacman.png
 
 - name: [Bug Bomber, 'http://www.mobygames.com/game/bug-bomber']
+  meta:
+    genre: [arcade]
   remakes:
   - name: BitRiot
     updated: 2016-04-11
@@ -395,6 +437,8 @@
   - "\u30D0\u30FC\u30AC\u30FC\u30BF\u30A4\u30E0"
   - Hamburger
   - "\u30CF\u30F3\u30D0\u30FC\u30AC\u30FC"
+  meta:
+    genre: [platform]
   remakes:
   - name: BurgerSpace
     updated: 2015-04-16
@@ -407,6 +451,8 @@
     - http://perso.b2b2c.ca/~sarrazip/dev/images/burgerspace-1.png
 
 - name: Buster Bros
+  meta:
+    genre: [arcade]
   names:
   - Pang
   - "\u30D1\u30F3"
@@ -424,6 +470,8 @@
     - http://apocalypse.rulez.org/kozosfiles/upipang11/version_1.0.jpg
 
 - name: Buzz Aldrin's Race Into Space
+  meta:
+    genre: [simulation,TBS]
   remakes:
   - name: Race Into Space
     url: http://www.raceintospace.org/
@@ -436,6 +484,8 @@
     - http://www.raceintospace.org/images/screenshots/splash_screen.png
 
 - name: [Battle Isle series, Battle Isle (series)]
+  meta:
+    genre: [TBS]
   clones:
   - name: Crimson Fields
     url: http://crimson.seul.org/
@@ -460,6 +510,8 @@
     - http://www.asc-hq.org/screenshots/screen07.jpg
 
 - name: [Battle Zone, Battlezone_(1980_video_game)]
+  meta:
+    genre: [FPS,arcade]
   clones:
   - name: BZFlag
     url: http://bzflag.org/
@@ -473,6 +525,8 @@
     - http://bzflag.org/images/screenshots/delirious_city_03.jpg
 
 - name: [Brain Blasters, 'http://www.mobygames.com/game/brain-blasters']
+  meta:
+    genre: [puzzle]
   clones:
   - name: brainblast
     repo: https://github.com/Zitrax/brainblast
@@ -481,6 +535,8 @@
     lang: C++
 
 - name: [Breakout, Breakout (video game)]
+  meta:
+    genre: [arcade]
   clones:
   - name: BRIQUOLO
     updated: 2015-04-25
