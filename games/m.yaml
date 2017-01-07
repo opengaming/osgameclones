@@ -184,6 +184,31 @@
     lang: C++
     updated: 2016-04-20
 
+- name: 'Magic: The Gathering Online'
+  meta:
+    genre: [Strategy]
+    subgenre: [Card Game]
+    theme: [Fantasy]
+  clones:
+    - name: Forge
+      repo: http://svn.slightlymagic.net/websvn/listing.php?repname=forge
+      url: http://www.slightlymagic.net/wiki/Forge
+      development: very active
+      status: playable
+      lang: [Java]
+    - name: XMage
+      repo: https://github.com/magefree/mage
+      url: http://xmage.de/
+      development: very active
+      status: playable
+      lang: [Java]
+    - name: Magarena
+      repo: https://github.com/magarena/magarena
+      url: https://magarena.github.io/
+      development: very active
+      status: playable
+      lang: [Java]
+
 - name: Manic Miner
   meta:
     genre: [Platform]
