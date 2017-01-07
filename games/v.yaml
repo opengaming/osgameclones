@@ -19,6 +19,20 @@
     development: halted
     lang: CoffeeScript
 
+- name: Visual Pinball
+  meta:
+    genre: [Arcade]
+    subgenre: [Pinball]
+  clones:
+    - name: Visual Pinball
+      repo: https://sourceforge.net/p/vpinball/code/HEAD/tree/
+      url: https://sourceforge.net/projects/vpinball/
+      license: [MAME]
+      lang: [C++]
+      development: active
+      status: playable
+      updated: 2017-01-07
+
 - name: VVVVVV
   meta:
     genre: [Puzzle,Platform]
