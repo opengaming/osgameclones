@@ -66,7 +66,8 @@
 
 - name: [Mad TV, Mad TV (video game)]
   meta:
-    genre: [Simulation]
+    genre: [Strategy, Simulation]
+    theme: [Management]
   remakes:
   - name: TVTower
     url: http://www.tvgigant.de/en/index
@@ -289,7 +290,7 @@
 
 - name: [M.A.X., Mechanized Assault & Exploration]
   meta:
-    genre: [RTS,TBS]
+    genre: [RTS, TBS]
   remakes:
   - url: http://www.maxr.org/
     name: Mechanized Assault and eXploration Reloaded
@@ -302,9 +303,11 @@
     - http://www.maxr.org/images/screenshots/11.jpg
     - http://www.maxr.org/images/screenshots/10.jpg
 
-- name: [Mech Warrior, MechWarrior (video game series)]
+- name: MechWarrior
   meta:
-    genre: [Simulation , FPS]
+    genre: [Simulation, FPS]
+    subgenre: [Vehicular Combat]
+    theme: [Sci-Fi, Management]
   remakes:
   - name: LinWarrior
     repo: https://github.com/hackcraft-de/linwarrior
@@ -399,7 +402,9 @@
 
 - name: Minecraft
   meta:
-    genre: [Simulation]
+    genre: [Action, FPS]
+    subgenre: [Survival, Sandbox]
+    theme: [Fantasy]
   remakes:
   - url: http://www.minetest.net/
     name: Minetest
@@ -496,7 +501,8 @@
 
 - name: [Movie Business, 'http://www.gamebase64.com/game.php?id=14674&d=18']
   meta:
-    genre: [Simulation]
+    genre: [Strategy, TBS]
+    theme: [Management]
   remakes:
   - name: movbizz
     repo: https://github.com/teruk/movbizz

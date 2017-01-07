@@ -189,7 +189,9 @@
 
 - name: [Elite, Elite_(video_game)]
   meta:
-    genre: [Action,Simulation]
+    genre: [Action, Simulation]
+    subgenre: [Flight Simulator]
+    theme: [Sci-Fi]
   clones:
   - url: http://www.oolite.org/
     name: Oolite
@@ -212,7 +214,8 @@
 
 - name: [Elite II, 'Frontier: Elite II']
   meta:
-    genre: [Action,Simulation]
+    genre: [Action, Simulation]
+    subgenre: [Flight Simulator]
     theme: [Sci-Fi, Espionage]
   clones:
   - name: Pioneer

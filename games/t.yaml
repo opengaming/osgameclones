@@ -114,6 +114,7 @@
 - name: The Sims Online
   meta:
     genre: [Simulation]
+    theme: [Management]
   remakes:
   - name: FreeSO
     repo: https://github.com/RHY3756547/FreeSO
@@ -209,7 +210,9 @@
 
 - name: Terraria
   meta:
-    genre: [Simulation]
+    genre: [Action, Platform]
+    subgenre: [Survival, Sandbox]
+    theme: [Fantasy]
   remakes:
   - name: Open Terraria Rewrite
     updated: 2015-04-05
@@ -433,7 +436,8 @@
 
 - name: Theme Hospital
   meta:
-    genre: [Simulation]
+    genre: [Strategy, Simulation]
+    theme: [Management, Comedy]
   remakes:
   - name: CorsixTH
     url: http://forums.corsixth.com/
@@ -451,7 +455,8 @@
 
 - name: [Theme Park, Theme Park (video game)]
   meta:
-    genre: [Simulation]
+    genre: [Strategy, Simulation]
+    theme: [Management, Comedy]
   remakes:
   - name: Theme Park Builder 3D CAD
     updated: 2015-07-04
@@ -656,13 +661,10 @@
     license: [BSD]
 
 - name: Transport Tycoon
-  meta:
-    genre: [Simulation]
-    theme: [Management]
   names:
   - Transport Tycoon Deluxe
   meta:
-    genre: [Simulation]
+    genre: [Strategy, Simulation]
     theme: [Management]
   remakes:
   - url: http://www.openttd.org/

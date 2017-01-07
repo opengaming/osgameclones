@@ -64,7 +64,7 @@
 
 - name: Skool Daze
   meta:
-    genre: [Adventure, Simulation]
+    genre: [Action, Adventure, Platform]
   remakes:
   - name: pyskool
     url: http://pyskool.ca/
@@ -93,14 +93,19 @@
 
 - name: Strike Commander
   meta:
-    genre: [Simulation]
+    genre: [Action, Simulation]
+    subgenre: [Flight Simulator]
+    theme: [Modern Military]
   remakes:
   - name: libRealSpace
     url: http://fabiensanglard.net/reverse_engineering_strike_commander/index.php
     repo: https://github.com/fabiensanglard/libRealSpace
     development: active
-    lang: C++
+    lang: [C++]
     updated: 2014-01-05
+    images:
+    - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/nice_sc_scene.png
+    - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/F-22.png
 
 - name: Strikers 1945
   meta:
@@ -326,7 +331,9 @@
 
 - name: Silent Hunter 4
   meta:
-    genre: [Simulation]
+    genre: [Action, Simulation]
+    subgenre: [Submarine Simulator]
+    theme: [World War II]
   remakes:
   - name: Danger from the Deep
     development: sporadic
@@ -342,7 +349,8 @@
 
 - name: SimTower
   meta:
-    genre: [Simulation]
+    genre: [Simulation, Strategy]
+    theme: [Management]
   remakes:
   - name: OpenSkyscraper
     url: https://github.com/fabianschuiki/OpenSkyscraper/wiki
@@ -537,9 +545,10 @@
     - http://nstars.sourceforge.net/nstars02.png
     - http://nstars.sourceforge.net/nstars03.png
 
-- name: [Star Raiders (Atari), Star Raiders]
+- name: Star Raiders
   meta:
-    genre: [Simulation]
+    genre: [Action, Simulation]
+    theme: [Sci-Fi]
   remakes:
   - name: Atari8bit_StarRaiders
     updated: 2015-07-14
@@ -561,7 +570,9 @@
 
 - name: Starshatter
   meta:
-    genre: [RTS,Simulation]
+    genre: [Simulation]
+    subgenre: [Space Flight]
+    theme: [Sci-Fi]
   remakes:
   - name: starshatter-open
     url: https://code.google.com/p/starshatter-open/

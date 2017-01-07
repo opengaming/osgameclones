@@ -14,9 +14,10 @@
     development: halted
     lang: C++
 
-- name: Railroad_Tycoon
+- name: Railroad Tycoon
   meta:
-    genre: [Simulation]
+    genre: [Simulation, Strategy]
+    theme: [Management]
   remakes:
   - name: FreeRails
     url: http://freerails.sourceforge.net/
@@ -153,12 +154,13 @@
 
 - name: Robotfindskitten
   meta:
-    genre: [Simulation]
+    genre: [Adventure, Roguelike]
+    theme: [Sci-Fi, Meditative, Comedy]
   remakes:
   - name: rfk-inform
     repo: https://github.com/DavidGriffith/rfk-inform
     development: halted
-    framework: Inform6
+    lang: [Perl]
     images:
     - http://robotfindskitten.org/shots/Inform/rfk-inform01.png
     - http://robotfindskitten.org/shots/Inform/rfk-inform02.png
@@ -194,7 +196,8 @@
 
 - name: RollerCoaster Tycoon
   meta:
-    genre: [Simulation]
+    genre: [Simulation, Strategy]
+    theme: [Management]
   remakes:
   - name: FreeRCT
     url: http://freerct.org/
@@ -205,7 +208,8 @@
 
 - name: RollerCoaster Tycoon 2
   meta:
-    genre: [Simulation]
+    genre: [Simulation, Strategy]
+    theme: [Management]
   remakes:
   - name: OpenRCT2
     url: https://openrct2.com/
