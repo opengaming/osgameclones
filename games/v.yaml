@@ -1,6 +1,6 @@
 - name: [Vlak, 'http://www.mobygames.com/game/dos/vlak']
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Train
     updated: 2015-05-28
@@ -11,7 +11,7 @@
 
 - name: [Viper, 'http://www.mobygames.com/game/amiga/viper__']
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: viper
     repo: https://github.com/bjornharrtell/viper
@@ -19,9 +19,23 @@
     development: halted
     lang: CoffeeScript
 
+- name: Visual Pinball
+  meta:
+    genre: [Arcade, Compilation]
+    subgenre: [Pinball]
+  clones:
+    - name: Visual Pinball
+      repo: https://sourceforge.net/p/vpinball/code/HEAD/tree/
+      url: https://sourceforge.net/projects/vpinball/
+      license: [MAME]
+      lang: [C++]
+      development: active
+      status: playable
+      updated: 2017-01-07
+
 - name: VVVVVV
   meta:
-    genre: [puzzle,platform]
+    genre: [Puzzle,Platform]
   clones:
   - name: WWW
     repo: https://github.com/alexdantas/www

@@ -1,6 +1,6 @@
 - name: [Cadaver, Cadaver (video game)]
   meta:
-    genre: [action,adventure]
+    genre: [Action,Adventure]
   remakes:
   - name: Cadaver
     development: halted
@@ -13,7 +13,9 @@
 
 - name: Caesar 3
   meta:
-    genre: [simulation]
+    genre: [Simulation, Strategy]
+    subgenre: [City Building]
+    theme: [Management]
   remakes:
   - name: CaesarIA
     url: https://bitbucket.org/dalerank/caesaria
@@ -39,7 +41,7 @@
 
 - name: Candy Crush Saga
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   clones:
   - name: CookieCrunch
     repo: https://github.com/renatomcamilio/CookieCrunch
@@ -49,7 +51,7 @@
 
 - name: [Cannon Fodder, Cannon Fodder (series)]
   meta:
-    genre: [action,RTS,shmup]
+    genre: [Action,RTS,Shmup]
   remakes:
   - name: Open Fodder
     url: https://github.com/segrax/openfodder
@@ -66,7 +68,7 @@
 
 - name: Carmageddon
   meta:
-    genre: [racing]
+    genre: [Racing]
   remakes:
   - name: OpenC1
     url: http://www.1amstudios.com/projects/openc1/
@@ -80,7 +82,7 @@
 
 - name: Castle of the Winds
   meta:
-    genre: [roguelike]
+    genre: [Roguelike]
   remakes:
   - name: Castle of the Winds in Elm
     updated: 2015-08-31
@@ -92,7 +94,7 @@
 
 - name: Cataclysm
   meta:
-    genre: [roguelike]
+    genre: [Roguelike]
     subgenre: [Survival]
     theme: [Horror]
   remakes:
@@ -128,7 +130,7 @@
   names:
     - Doukutsu Monogatari
   meta:
-    genre: [adventure,platform]
+    genre: [Adventure,Platform]
     theme: [Sci-Fi]
   remakes:
   - name: NXEngine
@@ -145,7 +147,7 @@
 
 - name: Chip's Challenge
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: Tile World
     url: http://www.muppetlabs.com/~breadbox/software/tworld/
@@ -163,7 +165,7 @@
 
 - name: ChuChu Rocket!
   meta:
-    genre: [puzzle,action]
+    genre: [Puzzle,Action]
   remakes:
   - name: Duck Marines
     url: http://tangramgames.dk/games/duckmarines/
@@ -182,7 +184,7 @@
 
 - name: [Circus Atari, Circus (video game)]
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Circus Linux!
     url: http://www.newbreedsoftware.com/circus-linux/
@@ -197,7 +199,7 @@
 
 - name: Clonk
   meta:
-    genre: [action,platform,RTS]
+    genre: [Action,Platform,RTS]
   remakes:
   - name: OpenClonk
     url: http://www.openclonk.org/
@@ -210,7 +212,7 @@
 
 - name: [Columns, Columns (video game)]
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: div-columns
     updated: 2016-02-26
@@ -222,7 +224,7 @@
 
 - name: [Commando, Commando (video game)]
   meta:
-    genre: [shmup]
+    genre: [Shmup]
   remakes:
   - name: CommandoJS
     url: http://commandojs.org/
@@ -238,7 +240,7 @@
 
 - name: [Commander Keen Series, Commander Keen]
   meta:
-    genre: [platform]
+    genre: [Platform]
   remakes:
   - name: Commander Genius
     url: http://clonekeenplus.sourceforge.net/
@@ -317,7 +319,7 @@
 
 - name: [Contra, Contra (video game)]
   meta:
-    genre: [platform]
+    genre: [Platform]
   remakes:
   - name: Contra_remake
     updated: 2015-05-28
@@ -338,7 +340,7 @@
 
 - name: [Crazy Cars, Titus Software]
   meta:
-    genre: [racing]
+    genre: [Racing]
   remakes:
   - name: Crazy Cars
     updated: 2015-04-16
@@ -348,9 +350,9 @@
     framework: QB64
     images:
     - http://crazycarscpc.free.fr/images/crazy01.jpg
-    
+
 - name: [Crazy Machines series, Crazy Machines]
-  names: 
+  names:
   - 'Crazy Machines: The Wacky Contraptions Game'
   - Crazy Machines 2
   - The Incredible Machine
@@ -360,7 +362,7 @@
   - 'The Incredible Machine: Even More Contraptions'
   - Incredible Toons
   meta:
-    genre: [puzzle,simulation]
+    genre: [Puzzle,Simulation]
   clones:
   - name: The Butterfly Effect
     repo: https://github.com/the-butterfly-effect/tbe
@@ -380,7 +382,7 @@
 
 - name: [Creatures, Creatures (video game)]
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: Open Creatures
     url: http://creatures.wikia.com/wiki/Openc2e
@@ -393,7 +395,7 @@
 
 - name: Crystal Quest
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: CrystalQuest
     updated: 2015-05-29
@@ -404,7 +406,7 @@
     - JQuery
     lang: JavaScript
     license: [MIT]
-    
+
 - name: 'Cube 2: Sauerbraten'
   meta:
     genre: [FPS]
@@ -453,7 +455,7 @@
 
 - name: C-Dogs
   meta:
-    genre: [shmup]
+    genre: [Shmup]
     subgenre: [Run and gun]
   remakes:
   - name: C-Dogs SDL
@@ -525,7 +527,7 @@
 
 - name: Crimsonland
   meta:
-    genre: [shmup]
+    genre: [Shmup]
   clones:
   - url: http://violetland.github.io/
     name: Violetland

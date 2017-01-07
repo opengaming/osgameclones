@@ -1,6 +1,6 @@
 - name: [Abuse, Abuse (video game)]
   meta:
-    genre: [action, platform]
+    genre: [Action, Platform]
     theme: [Horror, Sci-Fi]
   remakes:
   - name: Abuse
@@ -40,7 +40,7 @@
 
 - name: 'Ace Combat: Assault Horizon'
   meta:
-    genre: [action,simulation]
+    genre: [Action, Simulation]
     subgenre: [Flight Simulator]
     theme: [Modern Military]
   remakes:
@@ -62,7 +62,7 @@
   - Curve Fever
   - Zatacka
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Zatacka X
     updated: 2016-12-11
@@ -94,7 +94,7 @@
     lang: [Javascript, CSS, HTML]
     license: GPL3
     updated: 2016-12-11
-    
+
 - name: Age of Empires II
   meta:
     genre: [RTS]
@@ -128,7 +128,7 @@
 
 - name: Alien 8
   meta:
-    genre: [action]
+    genre: [Action]
   remakes:
   - name: Alien 8
     url: http://retrospec.sgn.net/game/alien8
@@ -145,7 +145,7 @@
 
 - name: [Allegiance, Allegiance (video game)]
   meta:
-    genre: [action, simulation, RTS]
+    genre: [Action, Simulation, RTS]
     subgenre: [Real-Time Strategy]
     theme: [Sci-Fi]
   remakes:
@@ -167,7 +167,7 @@
   - Jack in the Dark
   - Alone in the Dark 3
   meta:
-    genre: [horror]
+    genre: [Action, Adventure]
     theme: [Horror, Alternate Historical]
   remakes:
   - name: Free in the Dark
@@ -197,7 +197,7 @@
   - ["Outer World (\u30A2\u30A6\u30BF\u30FC\u30EF\u30FC\u30EB\u30C9 Aut\u0101 W\u0101\
       rudo)", Another World (video game)]
   meta:
-    genre: [adventure, platform]
+    genre: [Adventure, Platform]
     theme: [Sci-Fi]
   remakes:
   - name: New RAW
@@ -226,7 +226,7 @@
 
 - name: ['Another World 2: Heart of the Alien', Heart of the Alien]
   meta:
-    genre: [adventure, platform]
+    genre: [Adventure, Platform]
   remakes:
   - name: Heart of the Alien
     url: http://hota.sourceforge.net/
@@ -252,7 +252,7 @@
 
 - name: [Ares, Ares (video game)]
   meta:
-    genre: [arcade,RTS]
+    genre: [Arcade,RTS]
   remakes:
   - name: Antares
     url: http://arescentral.org/antares/
@@ -293,10 +293,10 @@
     - http://duion.com/files/blog/Uebergame-1.0.6.0-Release.jpg
     video:
       youtube: s_xM-0zVM3M
-    
+
 - name: Armor Alley
   meta:
-    genre: [arcade]
+    genre: [Arcade]
     subgenre: [Real-Time Tactics]
   remakes:
   - name: Armor Alley
@@ -311,7 +311,8 @@
 
 - name: 'Artemis: Spaceship Bridge Simulator'
   meta:
-    genre: [simulation]
+    genre: [Simulation]
+    theme: [Sci-Fi]
   remakes:
   - name: EmptyEpsilon
     url: http://daid.github.io/EmptyEpsilon/
@@ -335,7 +336,7 @@
 
 - name: Artillery Duel
   meta:
-    genre: [artillery]
+    genre: [Artillery]
   remakes:
   - name: Artillery Duel
     updated: 2015-04-11
@@ -378,7 +379,7 @@
 
 - name: [Asteroids, Asteroids (video game)]
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Maelstrom
     url: http://www.libsdl.org/projects/Maelstrom/
@@ -424,7 +425,7 @@
 
 - name: [Asylum, 'https://www.mobygames.com/game/acorn-32-bit/asylum']
   meta:
-    genre: [action]
+    genre: [Action]
   remakes:
   - name: SDL Asylum
     updated: 2015-04-17
@@ -440,7 +441,7 @@
 
 - name: [Atomix, Atomix (video game)]
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: Atomiks
     url: http://atomiks.sourceforge.net/
@@ -477,7 +478,7 @@
 
 - name: AstroMenace
   meta:
-    genre: [shmup]
+    genre: [Shmup]
   remakes:
   - name: AstroMenace
     url: http://sourceforge.net/projects/openastromenace/
@@ -496,7 +497,7 @@
 
 - name: Astrosmash
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Cosmosmash
     url: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html
@@ -511,7 +512,7 @@
 
 - name: Atomic Bomberman
   meta:
-    genre: [action]
+    genre: [Action]
   remakes:
   - name: Bombman
     repo: https://github.com/drummyfish/bombman
@@ -537,7 +538,7 @@
 
 - name: A-Train
   meta:
-    genre: [simulation]
+    genre: [Simulation]
   clones:
   - name: FreeRails
     url: http://freetrain.sourceforge.net/
@@ -579,7 +580,7 @@
 
 - name: Arkanoid
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   clones:
   - name: PyBreak360
     url: http://sourceforge.net/projects/pybreak360/
@@ -598,4 +599,4 @@
     development: active
     lang: JavaScript
     license: [MIT]
-    
+

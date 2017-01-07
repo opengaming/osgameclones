@@ -4,7 +4,7 @@
   - MagiDro
   - "\u30DE\u30B8\u30C9\u30ED"
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: Krystal Drop
     url: http://krystaldrop.sourceforge.net/
@@ -22,7 +22,7 @@
 
 - name: Marble Madness
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Marble Madness 3d
     repo: https://github.com/davido262/marble-madness-3d
@@ -38,7 +38,7 @@
 
 - name: Metroid Prime
   meta:
-    genre: [FPS,adventure]
+    genre: [FPS,Adventure]
   remakes:
   - name: urde
     updated: 2016-03-08
@@ -50,7 +50,7 @@
 
 - name: Missile Command
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Missile Command
     url: https://github.com/chadpaulson/missile-command
@@ -66,7 +66,8 @@
 
 - name: [Mad TV, Mad TV (video game)]
   meta:
-    genre: [simulation]
+    genre: [Strategy, Simulation]
+    theme: [Management]
   remakes:
   - name: TVTower
     url: http://www.tvgigant.de/en/index
@@ -116,7 +117,7 @@
 
 - name: Monty Mole
   meta:
-    genre: [platform]
+    genre: [Platform]
   remakes:
   - name: Monty Mole PC remake
     updated: 2015-04-13
@@ -142,7 +143,8 @@
 
 - name: Mortal Kombat
   meta:
-    genre: [fighting]
+    genre: [Fighting]
+    theme: [Fantasy]
   remakes:
   - name: mk.js
     updated: 2015-05-19
@@ -183,9 +185,34 @@
     lang: C++
     updated: 2016-04-20
 
+- name: 'Magic: The Gathering Online'
+  meta:
+    genre: [Strategy]
+    subgenre: [Card Game]
+    theme: [Fantasy]
+  clones:
+    - name: Forge
+      repo: http://svn.slightlymagic.net/websvn/listing.php?repname=forge
+      url: http://www.slightlymagic.net/wiki/Forge
+      development: very active
+      status: playable
+      lang: [Java]
+    - name: XMage
+      repo: https://github.com/magefree/mage
+      url: http://xmage.de/
+      development: very active
+      status: playable
+      lang: [Java]
+    - name: Magarena
+      repo: https://github.com/magarena/magarena
+      url: https://magarena.github.io/
+      development: very active
+      status: playable
+      lang: [Java]
+
 - name: Manic Miner
   meta:
-    genre: [platform]
+    genre: [Platform]
   remakes:
   - name: Manic Miner
     updated: 2015-05-09
@@ -212,7 +239,7 @@
 
 - name: Mario World
   meta:
-    genre: [platform]
+    genre: [Platform]
   remakes:
   - name: Secret Maryo Chronicles
     url: http://secretmaryo.org/
@@ -263,7 +290,7 @@
 
 - name: [M.A.X., Mechanized Assault & Exploration]
   meta:
-    genre: [RTS,TBS]
+    genre: [RTS, TBS]
   remakes:
   - url: http://www.maxr.org/
     name: Mechanized Assault and eXploration Reloaded
@@ -276,9 +303,11 @@
     - http://www.maxr.org/images/screenshots/11.jpg
     - http://www.maxr.org/images/screenshots/10.jpg
 
-- name: [Mech Warrior, MechWarrior (video game series)]
+- name: MechWarrior
   meta:
-    genre: [simulation , FPS]
+    genre: [Simulation, FPS]
+    subgenre: [Vehicular Combat]
+    theme: [Sci-Fi, Management]
   remakes:
   - name: LinWarrior
     repo: https://github.com/hackcraft-de/linwarrior
@@ -320,7 +349,7 @@
 
 - name: [MegaMan, MegaMan (video game)]
   meta:
-    genre: [platform]
+    genre: [Platform]
   remakes:
   - name: Executive Man
     repo: https://github.com/CamHenlin/ExecutiveMan
@@ -359,7 +388,7 @@
 
 - name: [Millipede, Millipede (video game)]
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Monsters and Mushrooms
     updated: 2015-04-11
@@ -373,7 +402,9 @@
 
 - name: Minecraft
   meta:
-    genre: [simulation]
+    genre: [Action, FPS]
+    subgenre: [Survival, Sandbox]
+    theme: [Fantasy]
   remakes:
   - url: http://www.minetest.net/
     name: Minetest
@@ -459,7 +490,7 @@
 
 - name: [Minesweeper, Minesweeper (video game)]
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: Minesweeper
     updated: 2015-09-28
@@ -470,7 +501,8 @@
 
 - name: [Movie Business, 'http://www.gamebase64.com/game.php?id=14674&d=18']
   meta:
-    genre: [simulation]
+    genre: [Strategy, TBS]
+    theme: [Management]
   remakes:
   - name: movbizz
     repo: https://github.com/teruk/movbizz
@@ -482,7 +514,7 @@
 
 - name: Mario Kart
   meta:
-    genre: [racing]
+    genre: [Racing]
   clones:
   - name: SuperTuxKart
     url: http://supertuxkart.sourceforge.net/
@@ -530,7 +562,7 @@
 
 - name: [Micro Machines, Micro Machines (video game series)]
   meta:
-    genre: [racing]
+    genre: [Racing]
   remakes:
   - name: Microracers
     updated: 2015-04-15
@@ -546,7 +578,7 @@
 
 - name: Microsoft Flight Simulator
   meta:
-    genre: [simulation]
+    genre: [Simulation]
   clones:
   - url: http://www.flightgear.org/
     name: FlightGear
@@ -562,7 +594,7 @@
 
 - name: Microsoft Train Simulator
   meta:
-    genre: [simulation]
+    genre: [Simulation]
   clones:
   - name: OpenRails
     url: http://openrails.org/
@@ -575,7 +607,7 @@
 
 - name: Missle Command
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   clones:
   - name: ICBM3D
     url: http://www.newbreedsoftware.com/icbm3d/

@@ -57,7 +57,7 @@
 
 - name: Wario Land 3
   meta:
-    genre: [platform]
+    genre: [Platform]
   remakes:
   - name: Wario-Land-3
     updated: 2015-07-14
@@ -83,7 +83,7 @@
 
 - name: Where in the World Is Carmen Sandiego? (1985)
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: thiefcatcher
     updated: 2015-06-18
@@ -94,7 +94,7 @@
 
 - name: [Willow, Willow (arcade game)]
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Willow-Game-Remake
     updated: 2015-06-28
@@ -104,7 +104,8 @@
 
 - name: 'Wing Commander: Privateer'
   meta:
-    genre: [action,adventure,simulation]
+    genre: [Action, Adventure, Simulation]
+    theme: [Sci-Fi]
   remakes:
   - url: http://privateer.sourceforge.net/
     name: Privateer - Gemini Gold
@@ -119,7 +120,7 @@
 
 - name: Wizard of Wor
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: KnightOfWor
     updated: 2015-05-29
@@ -190,7 +191,7 @@
 
 - name: World of Goo
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: OpenGoo
     url: http://mandarancio.github.io/OpenGOO/
@@ -198,7 +199,7 @@
     status: unplayable
     development: active
     updated: 2013-05-29
-    
+
 - name: World of Warcraft
   meta:
     genre: [MMORPG]
@@ -244,7 +245,7 @@
 
 - name: [Wipeout, Wipeout (video game)]
   meta:
-    genre: [racing]
+    genre: [Racing]
   clones:
   - name: Core Breach
     repo: https://github.com/core-code/CoreBreach

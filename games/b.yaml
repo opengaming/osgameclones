@@ -1,6 +1,6 @@
 - name: [Babaliba, Dinamic Software]
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Babaliba
     updated: 2015-04-13
@@ -31,7 +31,7 @@
 
 - name: Ballerburg
   meta:
-    genre: [artillery]
+    genre: [Artillery]
   remakes:
   - name: Ballerburg SDL
     updated: 2015-04-17
@@ -46,7 +46,7 @@
 
 - name: Balloon Fight
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Balloon Fight
     updated: 2016-04-30
@@ -58,7 +58,8 @@
 
 - name: 'Barbarian: The Ultimate Warrior'
   meta:
-    genre: [fighting]
+    genre: [Fighting, Platform]
+    theme: [Fantasy]
   remakes:
   - name: Barbarian
     updated: 2015-04-16
@@ -99,7 +100,7 @@
 
 - name: [Battle City, Battle City (video game)]
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Battle City
     url: http://battlecity.org/
@@ -144,7 +145,7 @@
 
 - name: BeamNG.drive
   meta:
-    genre: [simulation]
+    genre: [Simulation]
     subgenre: [] # See genres in schema.yaml
     theme: [] # See genres in schema.yaml
   clones:
@@ -166,7 +167,7 @@
 
 - name: Bejeweled
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: biju-game
     updated: 2015-05-28
@@ -177,7 +178,7 @@
 
 - name: Bermuda Syndrome
   meta:
-    genre: [adventure,platform]
+    genre: [Adventure,Platform]
   remakes:
   - name: Bermuda Syndrome
     url: http://cyxdown.free.fr/bs/
@@ -211,7 +212,7 @@
 
 - name: [Blade Runner, Blade Runner (1997 video game)]
   meta:
-    genre: [adventure]
+    genre: [Adventure]
   remakes:
   - name: replicant
     repo: https://github.com/madmoose/replicant
@@ -258,7 +259,7 @@
 
 - name: [Bolo, Bolo (1987 video game)]
   meta:
-    genre: [shmup]
+    genre: [Shmup]
   remakes:
   - name: orona
     url: http://stephank.github.io/orona/
@@ -272,7 +273,7 @@
   names:
   - Dynablaster
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: SDL Bomber
     repo: http://www.linuxmotors.com/SDL_bomber/downloads/
@@ -334,7 +335,7 @@
 
 - name: Boulder Dash
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Rocks n diamonds
     url: http://www.artsoft.org/rocksndiamonds/
@@ -381,7 +382,7 @@
 
 - name: [Bratwurst, 'http://www.mobygames.com/game/bratwurst']
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: bratwurst
     updated: 2015-05-15
@@ -392,7 +393,7 @@
 
 - name: [Bruce Lee, Bruce Lee (video game)]
   meta:
-    genre: [action]
+    genre: [Action]
   remakes:
   - name: Jet Lee
     updated: 2015-08-23
@@ -405,7 +406,7 @@
 
 - name: Bubble Bobble
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: The Bub's Brothers
     url: http://bub-n-bros.sourceforge.net/
@@ -422,7 +423,7 @@
 
 - name: [Bug Bomber, 'http://www.mobygames.com/game/bug-bomber']
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: BitRiot
     updated: 2016-04-11
@@ -438,7 +439,7 @@
   - Hamburger
   - "\u30CF\u30F3\u30D0\u30FC\u30AC\u30FC"
   meta:
-    genre: [platform]
+    genre: [Platform]
   remakes:
   - name: BurgerSpace
     updated: 2015-04-16
@@ -452,7 +453,7 @@
 
 - name: Buster Bros
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   names:
   - Pang
   - "\u30D1\u30F3"
@@ -471,7 +472,8 @@
 
 - name: Buzz Aldrin's Race Into Space
   meta:
-    genre: [simulation,TBS]
+    genre: [Strategy, Simulation, TBS]
+    theme: [Management]
   remakes:
   - name: Race Into Space
     url: http://www.raceintospace.org/
@@ -511,7 +513,7 @@
 
 - name: [Battle Zone, Battlezone_(1980_video_game)]
   meta:
-    genre: [FPS,arcade]
+    genre: [FPS,Arcade]
   clones:
   - name: BZFlag
     url: http://bzflag.org/
@@ -526,7 +528,7 @@
 
 - name: [Brain Blasters, 'http://www.mobygames.com/game/brain-blasters']
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   clones:
   - name: brainblast
     repo: https://github.com/Zitrax/brainblast
@@ -536,7 +538,7 @@
 
 - name: [Breakout, Breakout (video game)]
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   clones:
   - name: BRIQUOLO
     updated: 2015-04-25

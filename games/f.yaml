@@ -1,6 +1,6 @@
 - name: [F-1 Spirit, F-1 Spirit (series)]
   meta:
-    genre: [racing]
+    genre: [Racing]
     theme: [Motorsports]
   remakes:
   - name: F-1 Spirit
@@ -21,7 +21,7 @@
 
 - name: F-Zero
   meta:
-    genre: [racing]
+    genre: [Racing]
   remakes:
   - name: F-Zero Clone
     updated: 2015-04-25
@@ -45,7 +45,7 @@
 
 - name: [Fade to Black, Fade to Black (video game)]
   meta:
-    genre: [action,adventure]
+    genre: [Action,Adventure]
   remakes:
   - name: f2bgl
     url: https://github.com/cyxx/f2bgl
@@ -126,7 +126,7 @@
 
 - name: Fantastic Journey
   meta:
-    genre: [shmup]
+    genre: [Shmup]
   names:
   - "Gokuj\u014D Parodius!"
   remakes:
@@ -138,7 +138,7 @@
 
 - name: Flappy Bird
   meta:
-    genre: [arcade, platform]
+    genre: [Arcade, Platform]
   remakes:
   - name: CrappyBird
     updated: 2015-05-02
@@ -166,7 +166,7 @@
 
 - name: [Flashback, Flashback (1992 video game)]
   meta:
-    genre: [adventure,platform]
+    genre: [Adventure,Platform]
   remakes:
   - name: REminiscence
     url: http://cyxdown.free.fr/reminiscence/
@@ -191,7 +191,7 @@
 
 - name: Flying Shark
   meta:
-    genre: [shmup]
+    genre: [Shmup]
   remakes:
   - name: Friking Shark
     url: https://code.google.com/p/friking-shark/
@@ -213,7 +213,7 @@
 
 - name: [Flag Catcher, 'http://hol.abime.net/5578']
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: Gift Grabber
     updated: 2015-08-31
@@ -225,7 +225,9 @@
 
 - name: [Football Manager, Football Manager (1982 series)]
   meta:
-    genre: [simulation]
+    genre: [Strategy, Sports]
+    subgenre: [Soccer]
+    theme: [Management]
   remakes:
   - name: Football Manager
     updated: 2015-04-13
@@ -270,7 +272,7 @@
 
 - name: FreeSpace 2
   meta:
-    genre: [action,simulation]
+    genre: [Action,Simulation]
     theme: [Sci-Fi]
   remakes:
   - name: FreeSpace Source Code Project
@@ -285,7 +287,8 @@
 
 - name: [Freelancer, Freelancer (video game)]
   meta:
-    genre: [action,simulation]
+    genre: [Action, Simulation, TPS]
+    theme: [Sci-Fi]
   remakes:
   - name: Librelancer
     updated: 2016-05-23
@@ -303,7 +306,7 @@
   names:
   - [Back To Nature, 'http://www.mobygames.com/game/frog']
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: back-to-nature-c64-remake
     updated: 2015-05-29
@@ -314,7 +317,7 @@
 
 - name: Frogs and Flies
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   names:
   - Frog Bog
   remakes:
@@ -330,7 +333,7 @@
 
 - name: Frogger
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Froggix
     updated: 2015-04-15
@@ -344,7 +347,7 @@
 
 - name: [Fall Down, 'http://www.mobygames.com/game/fall-down']
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   clones:
   - name: ativayeban
     updated: 2015-05-03
@@ -369,7 +372,7 @@
 
 - name: [Falcon, Falcon (video game series)]
   meta:
-    genre: [simulation]
+    genre: [Simulation]
   clones:
   - name: FreeFalcon
     repo: https://github.com/FreeFalcon/freefalcon-central

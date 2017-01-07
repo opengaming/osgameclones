@@ -98,13 +98,18 @@ dd + dt { margin-top: 1em; }
        color: #444; background-color: #eee; cursor: pointer; white-space: nowrap;
        -webkit-user-select: none; -moz-user-select: none; user-select: none; }
 
+.tag-badge { margin: 0 -6px 0 6px; padding: 2px 6px;
+            color: #666; background-color: #ddd; }
+
+.tag.genre:hover { color: #FFF; background-color: #202020; }
+.tag.subgenre:hover { color: #CCC; background-color: #202020; }
+.tag.theme:hover { color: #FFFF8C; background-color: #202020; }
+
 .tag.status:hover { color: #444; background-color: #8AFF99; }
 .tag.development:hover { color: #444; background-color: #FF7878; }
 .tag.license:hover { color: #444; background-color: #FFFF8C; }
 .tag.lang:hover { color: #444; background-color: #9CFFFF; }
 .tag.framework:hover { color: #444; background-color: #FF786B; }
-.tag-badge { margin: 0 -6px 0 6px; padding: 2px 6px;
-            color: #666; background-color: #ddd; }
 
 #filter {
     display: inline-block;

@@ -104,9 +104,12 @@ def show_validation_errors(data, errors):
 def parse_data(site):
     base = op.join(op.dirname(__file__), 'games')
     data = []
+
     for fn in sorted(os.listdir(base)):
         if fn.endswith('.yaml'):
             data.extend(yaml.load(open(op.join(base, fn))))
+
+    print(str(len(data)) + ' games in total')
 
     try:
         core = Core(source_data=data, schema_files=['schema.yaml'])
@@ -121,7 +124,6 @@ def parse_data(site):
         parse_global_tags(site, item.get('meta', {}), 'genre')
         parse_items(site, item, 'remakes')
         parse_items(site, item, 'clones')
-    print(str(len(data))+' games in total')
 
 
 def callback(site):

@@ -1,6 +1,8 @@
 - name: [Hardwar, Hardwar (video game)]
   meta:
-    genre: [action,simulation]
+    genre: [Action, Simulation]
+    subgenre: [Flight Simulator]
+    theme: [Sci-Fi, Cyberpunk]
   remakes:
   - name: Hardwar
     url: http://www.hardwar.org/
@@ -13,7 +15,9 @@
 
 - name: Haunted House
   meta:
-    genre: [horror]
+    genre: [Action, Adventure]
+    subgenre: [Survival]
+    theme: [Horror]
   remakes:
   - name: HauntedHouse
     updated: 2015-07-14
@@ -23,7 +27,7 @@
 
 - name: [Heart of Darkness, Heart of Darkness (video game)]
   meta:
-    genre: [platform,adventure]
+    genre: [Platform, Adventure]
   remakes:
   - name: HODe
     repo: https://code.google.com/p/tombexcavator/source/browse/branches/v0/unsorted/hode-20090726
@@ -32,7 +36,9 @@
 
 - name: [Heavy Smash, 'http://www.mobygames.com/game/arcade/heavy-smash']
   meta:
-    genre: [sports]
+    genre: [Sports]
+    subgenre: [Handball]
+    theme: [Sci-Fi]
   remakes:
   - name: open-heavy-smash
     updated: 2015-05-28
@@ -150,7 +156,7 @@
 
 - name: HoverRace
   meta:
-    genre: [racing]
+    genre: [Racing]
   remakes:
   - name: HoverRace
     repo: https://github.com/HoverRace/HoverRace
@@ -193,7 +199,7 @@
   - [Rogue, Rogue_(video_game)]
   - NetHack
   meta:
-    genre: [roguelike]
+    genre: [Roguelike]
   clones:
   - url: http://www.slashem.org/
     name: SLASH'EM
