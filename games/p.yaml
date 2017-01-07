@@ -1,6 +1,6 @@
 - name: Pac-Man
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: pacman
     updated: 2015-05-19
@@ -56,7 +56,7 @@
 
 - name: Pitfall!
   meta:
-    genre: [arcade,platform]
+    genre: [Arcade,Platform]
   remakes:
   - name: div-pitfall
     repo: https://github.com/MikeDX/div-pitfall
@@ -82,7 +82,7 @@
 
 - name: [Portal, Portal (video game)]
   meta:
-    genre: [FPS,puzzle]
+    genre: [FPS,Puzzle]
   remakes:
   - name: glPortal
     url: http://glportal.de/
@@ -97,7 +97,7 @@
 
 - name: Prince of Persia
   meta:
-    genre: [platform]
+    genre: [Platform]
   remakes:
   - name: SDLPoP
     url: http://www.popot.org/get_the_games.php?game=SDLPoP
@@ -143,7 +143,7 @@
 
 - name: [Paratrooper, Paratrooper (video game)]
   meta:
-    genre: [arcade]
+    genre: [Arcade]
   remakes:
   - name: Paratrooper
     updated: 2015-04-11
@@ -166,7 +166,7 @@
 
 - name: Pipe Mania
   meta:
-    genre: [puzzle]
+    genre: [Puzzle]
   remakes:
   - name: Pipemania
     updated: 2015-06-01
@@ -205,7 +205,7 @@
 
 - name: [Pole Position, Pole Position (video game)]
   meta:
-    genre: [racing]
+    genre: [Racing]
   remakes:
   - name: grid-leader
     updated: 2015-06-22
@@ -216,7 +216,7 @@
 
 - name: Progress Quest
   meta:
-    genre: [simulation]
+    genre: [Simulation]
   remakes:
   - name: pq2
     updated: 2016-06-03
@@ -226,9 +226,11 @@
     license: [GPL3]
     development: active
 
-- name: [Punch-Out!!, Punch-Out!! (arcade game)]
+- name: [Punch-Out!!, Punch-Out!! (Arcade game)]
   meta:
-    genre: [fighting]
+    genre: [Fighting, Sports]
+    subgenre: [Boxing]
+    theme: [Comedy]
   remakes:
   - name: THREEPunchOut
     updated: 2015-08-15
@@ -238,7 +240,7 @@
 
 - name: [Pushover, Pushover (video game)]
   meta:
-    genre: [platform,puzzle]
+    genre: [Platform,Puzzle]
   remakes:
   - name: Pushover
     url: http://pushover.sourceforge.net/
@@ -254,7 +256,7 @@
 
 - name: [Puzznic / Brix, Brix (video game)]
   meta:
-    genre: [puzzle,arcade]
+    genre: [Puzzle,Arcade]
   remakes:
   - name: Wizznic!
     url: http://dustedgames.blogspot.com.au/p/wizznic.html
@@ -270,7 +272,7 @@
 
 - name: Paradroid
   meta:
-    genre: [shmup,puzzle]
+    genre: [Shmup,Puzzle]
     theme: [Fantasy, Sci-Fi]
   remakes:
   - name: FreedroidClassic
@@ -303,7 +305,7 @@
 
 - name: Pizza Tycoon
   meta:
-    genre: [simulation]
+    genre: [Simulation]
   clones:
   - name: Pizza Business
     url: http://pizza-business.sourceforge.net/
@@ -317,7 +319,7 @@
 
 - name: Puzzle Bobble
   meta:
-    genre: [puzzle,arcade]
+    genre: [Puzzle,Arcade]
   clones:
   - name: Frozen Bubble
     url: http://frozen-bubble.org/
