@@ -205,7 +205,8 @@
 
 - name: [Pole Position, Pole Position (video game)]
   meta:
-    genre: [Racing]
+    genre: [Sports, Racing]
+    theme: [Motorsports]
   remakes:
   - name: grid-leader
     updated: 2015-06-22
@@ -232,10 +233,11 @@
     genre: [Fighting, Sports]
     subgenre: [Boxing]
     theme: [Comedy]
-  remakes:
+  clones:
   - name: THREEPunchOut
     updated: 2015-08-15
     repo: https://github.com/MattSzik/THREEPunchOut
+    url: http://matthewsziklay.github.io/THREEPunchOut/
     development: active
     lang: JavaScript
 
