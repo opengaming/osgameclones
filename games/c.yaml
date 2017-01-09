@@ -114,8 +114,11 @@
       youtube: iHfpBze8ecA
 
 - name: Catacomb II
+  names:
+  - The Catacomb
   meta:
-    genre: [TPS]
+    genre: [Action, TPS]
+    theme: [Fantasy]
   remakes:
   - name: CatacombSDL
     url: https://github.com/Blzut3/CatacombSDL
@@ -123,7 +126,8 @@
     status: playable
     development: halted
     content: commercial
-    lang: C
+    lang: [C]
+    license: [GPL2]
     updated: 2014-07-23
 
 - name: Cave Story
@@ -418,8 +422,8 @@
     url: https://inexor.org/
     development: active
     status: semi-playable
-    lang: [C++, HTML, CSS, JavaScript]
-    framework: [Cube 2 engine]
+    lang: [C++, JavaScript]
+    framework: [HTML, CSS, Cube 2 Engine]
     license: [Zlib]
     info: In addition to improving Sauerbraten one of the stated goals of the project is to remove/replace all content with unclear or non-free licenses from the game.
     updated: 2016-12-03

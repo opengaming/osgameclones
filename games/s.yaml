@@ -131,13 +131,23 @@
     development: active
     lang: C++
     license: [GPL]
+    images:
+    - https://codeflow.files.wordpress.com/2012/12/2012-12-02_122257_6892124921.png
+    - https://codeflow.files.wordpress.com/2012/12/2012-12-02_123619_4607386701.png
   - name: YSoccer
     url: http://ysoccer.sourceforge.net/
     repo: git://git.code.sf.net/p/ysoccer/code ysoccer-code
-    updated: 2015-04-03
+    updated: 2017-01-08
     development: sporadic
+    status: playable
     lang: Blitz BASIC
     license: [GPL]
+    images:
+    - http://ysoccer.sourceforge.net/images/screenshot_goal.jpg
+    - http://ysoccer.sourceforge.net/images/screenshot_rain.jpg
+    - http://ysoccer.sourceforge.net/images/screenshot_tactics.jpg
+    - http://ysoccer.sourceforge.net/images/screenshot_set_team.png
+    - http://ysoccer.sourceforge.net/images/screenshot_team_editor.jpg
 
 - name: [Sensitive, 'https://www.mobygames.com/game/c64/sensitive']
   meta:
@@ -452,15 +462,22 @@
 
 - name: Speedball 2
   meta:
-    genre: [Sports]
+    genre: [Action, Sports]
+    subgenre: [Handball, Hockey]
+    theme: [Sci-Fi, Cyberpunk]
   remakes:
   - name: Speedball 2
     url: http://bringerp.free.fr/RE/Speedball2/remake.php5
-    status: unplayable
+    status: semi-playable
     development: halted
     info: reverse engineered prototype
     lang: C#
     updated: 2015-04-05
+    images:
+    - http://bringerp.free.fr/RE/Speedball2/Images/WIP%2001.png
+    - http://bringerp.free.fr/RE/Speedball2/Images/WIP%2004.png
+    - http://bringerp.free.fr/RE/Speedball2/Images/WIP%2005.png
+
 
 - name: Star Control 2
   meta:
@@ -807,7 +824,8 @@
 
 - name: SkiFree
   meta:
-    genre: [Sports]
+    genre: [Arcade, Sports]
+    subgenre: [Skiing]
   remakes:
   - name: skifree.js
     updated: 2015-05-02
@@ -886,7 +904,8 @@
 
 - name: Star Fox 64
   meta:
-    genre: [TPS]
+    genre: [Action, Flight, TPS]
+    theme: [Sci-Fi]
   remakes:
   - name: UnnamedStarFoxClone
     updated: 2015-06-18

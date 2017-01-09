@@ -91,7 +91,8 @@
     url: http://achtungkurve.com/
     development: sporadic
     status: playable
-    lang: [Javascript, CSS, HTML]
+    lang: [JavaScript]
+    framework: [HTML, CSS]
     license: GPL3
     updated: 2016-12-11
 
@@ -146,7 +147,6 @@
 - name: [Allegiance, Allegiance (video game)]
   meta:
     genre: [Action, Simulation, RTS]
-    subgenre: [Real-Time Strategy]
     theme: [Sci-Fi]
   remakes:
   - name: Free Allegiance
@@ -296,8 +296,8 @@
 
 - name: Armor Alley
   meta:
-    genre: [Arcade]
-    subgenre: [Real-Time Tactics]
+    genre: [Arcade, Real-Time Tactics]
+    theme: [Modern Military]
   remakes:
   - name: Armor Alley
     updated: 2015-05-05
