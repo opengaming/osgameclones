@@ -357,6 +357,17 @@
     - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_4.jpg
     - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
 
+- name: SimCopter
+  meta:
+    genre: [Simulation]
+  remakes:
+  - name: sccopter
+    repo: https://github.com/fr0zi/sccopter
+    development: active
+    licence: MIT
+    lang: C++
+    updated: 2016-01-10
+
 - name: SimTower
   meta:
     genre: [Simulation, Strategy]
