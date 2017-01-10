@@ -105,12 +105,21 @@ dt { font-weight: bold; }
 dd { padding-left: 1em; padding-bottom: 0.5em; }
 dd + dt { margin-top: 1em; }
 
+.new:before {
+  position: absolute;
+  content: 'NEW';
+  margin: 2px 0 0 -55px;
+  padding: 1px 5px;
+  font-size: 10px;
+  background-color: red;
+  color: white;
+}
+
 .note { color: grey; }
 .photo { float: right; }
 .readers { float: right; font-size: small; }
 .icon { float: left; padding: 0.5em 0.3em 0 0; }
 .feed-icon a { float: right; padding-top: 0.5em; }
-.new { background-color: #e3f9d7; }
 .hash { color: grey; text-decoration: none; }
 
 .tags-active dt, .tags-active dd {display: none}

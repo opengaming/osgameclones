@@ -58,7 +58,8 @@
         {%- endif -%}
         {{ show_id(name, mode) }}"
       data-tags="{{ game.tags | join(' ') }}"
-      data-index="{{ show_keywords(game, names) }}">
+      data-index="{{ show_keywords(game, names) -}}
+        {%- if game.new %} new updated added{% endif %}">
     <span class="{% if 'images' in game or 'video' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     {%- if 'url' in game -%}
