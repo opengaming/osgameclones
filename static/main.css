@@ -16,8 +16,8 @@ header, section, footer, aside, nav, article, figure { display: block; }
 
 /* Markup */
 
-body, .container { max-width: 40em; margin: 0 auto; }
-body { line-height: 1.5; margin: 60px auto 0; }
+body, .container { max-width: 640px; margin: 0 auto; }
+body { line-height: 1.5; margin: 50px auto 0; }
 
 header {
   position: fixed;
@@ -49,7 +49,8 @@ li { display: inline-block; }
 
 li > span {
   display: inline-block;
-  line-height: 40px;
+  font-size: 14px;
+  line-height: 30px;
   padding: 0 10px;
   color: #555;
   cursor: pointer; }
@@ -158,14 +159,12 @@ dd + dt { margin-top: 1em; }
 
 #filter {
   display: inline-block;
-  float: right;
-  height: 20px;
-  padding: 4px 14px;
+  padding: 4px 10px;
   margin: 0;
-  border: 1px solid #ccc;
-  border-radius: 15px;
+  border: 0 none;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 22px;
   color: #555;
+  background-color: #fff;
   outline: 0;
 }
