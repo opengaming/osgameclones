@@ -7,14 +7,49 @@
   <meta name="description" content="List of open source clones and remakes of popular old-school games.">
   <meta name="application-name" content="OS Game Clones">
   <meta name="application-url" content="http://osgameclones.com/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="static/main.css">
   <title>Open Source Game Clones</title>
 </head>
 
+{% import 'templates/tags.html' as tags %}
+{% import 'templates/video.html' as video %}
+{% import 'templates/games.html' as games with context %}
+
 <body>
-  <header><h1>Open Source Game Clones</h1></header>
+  <header>
+    <div class="container">
+      <input id="filter" type="search" placeholder="Type to filter">
+
+      <ul>
+        <li>
+          <span>Languages</span>
+          <div class="tag-group">
+            <div class="container">
+            {% for tag, tag_props in site.lang.iteritems() %}
+              {{ tags.render_tag('lang', tag, tag_props['tag_count']) }}
+            {% endfor %}
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <span>Genres</span>
+          <div class="tag-group">
+            <div class="container">
+            {% for tag, tag_props in site.genre.iteritems() %}
+              {{ tags.render_tag('genre', tag, tag_props['tag_count']) }}
+            {% endfor %}
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
 
   <article>
+    <h1>Open Source Game Clones</h1>
+
     <p>
       This site tries to gather <a href="http://en.wikipedia.org/wiki/Open_source">open-source</a>
       remakes of great old games in one place. If you think that
@@ -32,173 +67,27 @@
       out <a href="http://freegamer.blogspot.com/">Free Gamer</a>, a blog
       dedicated to open source game news, and <a href="https://bronevichok.ru/ttygames/">Unix ASCII games</a>, a list of opensource text-based games.
     </p>
-    <p class="new">All games that were added or updated in the last month are highlighted like this.</p>
   </article>
 
-  <div>
-    <input id="filter" type="text" placeholder="Type to filter by name or information">
+  <div id="content">
+    <h2>List of remakes</h2>
+    <article>Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.</article>
+    <dl>
+      {% for names, meta, items in site.remakes %}
+        {{ games.render(names, meta, items, 'remakes') }}
+      {% endfor %}
+    </dl>
+
+    <h2>List of clones</h2>
+    <article>Games which are very similar to or heavily inspired by a game or series.</article>
+    <dl>
+      {% for names, meta, items in site.clones %}
+        {{ games.render(names, meta, items, 'inspired') }}
+      {% endfor %}
+    </dl>
   </div>
 
-{% macro render_name(name, meta, idx, mode) %}
-  {%- if name is string -%}
-    {% set wiki = name %}
-  {%- else -%}
-    {% set name, wiki = name %}
-  {%- endif -%}
-
-  {%- if wiki[:6] in ["http:/", "https:"] -%}
-    {% set wikilink = wiki %}
-  {%- else -%}
-    {% set wikilink = "http://en.wikipedia.org/wiki/" + wiki %}
-  {%- endif -%}
-
-  <dt {% if not idx %}id="{{ show_id(name, mode) }}"{% endif %} class="searchable">
-    <a href="{{ wikilink }}">{{ name }}</a>
-    {% if not idx %}<a href="#{{ show_id(name, mode) }}" class="hash">#</a>{% endif %}
-
-    {% if not idx %}
-      {{ render_tag('genre', meta['genre']) }}
-      {{ render_tag('subgenre', meta['subgenre']) }}
-      {{ render_tag('theme', meta['theme']) }}
-    {% endif %}
-  </dt>
-{% endmacro %}
-
-{% macro show_id(name, mode) -%}
-  {{ name | lower | replace(' ', '-') }}-{{mode}}
-{%- endmacro %}
-
-{% macro render_tag(tag_class, tag_names, tag_props) %}
-  {%- if tag_names -%}
-    {%- if tag_names is string -%}
-      {% set tag_names = [tag_names] %}
-    {%- endif -%}
-
-    {%- for tag_name in tag_names %}
-      {%- set className = ["tag", tag_class.lower(), "tag-"+tag_name.lower().replace(' ', '-')] -%}
-      {%- set dataName = tag_name.lower().replace(' ', '-') -%}
-      <span title="{{ tag_class | title }}" class="{{ className | join(' ') }}" data-name="{{ dataName }}">
-        {{- tag_name -}}
-        {%- if tag_props -%}<span class="tag-badge">{{ tag_props }}</span>{%- endif -%}
-      </span>
-    {% endfor -%}
-  {%- endif -%}
-{% endmacro %}
-
-{% macro show_keywords(game, names) -%}
-  {{ game.name | lower | e -}}{{ ' ' -}}
-  {{ game.tags | join(' ') -}}{{ ' ' -}}
-  {{ game.info | lower | e -}}{{ ' ' -}}
-
-  {% for n in names -%}
-    {% if n is not string -%}
-      {% for i in n -%}
-        {{ i | lower | e -}}{{ ' ' -}}
-      {% endfor -%}
-    {% else -%}
-      {{ n | lower | e -}}
-    {% endif -%}
-  {% endfor -%}
-{%- endmacro %}
-
-{% macro render_youtube(youtube_id) -%}
-  <iframe src="https://www.youtube-nocookie.com/embed/{{ youtube_id }}?rel=0&amp;showinfo=0"
-    width="560" height="315" frameborder="0" allowfullscreen></iframe>
-{%- endmacro %}
-
-{% macro render_vimeo(vimeo_id) -%}
-  <iframe src="https://player.vimeo.com/video/{{ vimeo_id }}?title=0&amp;byline=0&amp;portrait=0"
-    width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-{%- endmacro %}
-
-{% macro render(names, meta, items, mode) %}
-  {% for name in names %}
-    {{ render_name(name, meta, loop.index0, mode) }}
-  {% endfor %}
-
-  {% for game in items %}
-  <dd class="searchable {% if game.new %}new{% endif %}"
-      data-parent="
-        {%- if names.0 is string -%}
-          {% set name = names.0 %}
-        {%- else -%}
-          {% set name = names.0.0 %}
-        {%- endif -%}
-        {{ show_id(name, mode) }}"
-      data-tags="{{ game.tags | join(' ') }}"
-      data-index="{{ show_keywords(game, names) }}">
-    <span class="{% if 'images' in game or 'video' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
-
-    {%- if 'url' in game -%}
-      <a href="{{ game['url'] }}">
-    {%- endif -%}
-      {{ game['name'] }}
-    {%- if 'url' in game %}</a>{% endif %}
-
-    {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif %}
-
-    {{ render_tag('status', game['status'] | title) }}
-    {{ render_tag('development', game['development'] | title) }}
-    {{ render_tag('lang', game['lang']) }}
-    {{ render_tag('framework', game['framework']) }}
-    {{ render_tag('content', game['content'] | title) }}
-    {{ render_tag('license', game['license']) }}
-
-    {%- if 'info' in game %}<div>{{ game['info'] }}</div>{% endif %}
-
-    <div class="gallery" style="display: none"></div>
-
-    {% if game['images'] | length > 0 -%}
-      <script class="gallery-json" type="text/json">{{ game['images'] | join(', ') }}</script>
-    {% endif %}
-
-    <script class="gallery-raw" type="text/plain">
-      {% for imageUrl in game.get('images', []) %}
-        <img src="{{ imageUrl }}">
-      {% endfor %}
-
-      {% if 'video' in game %}
-        {% if 'youtube' in game['video'] %}{{ render_youtube(game['video']['youtube']) }}{% endif %}
-        {% if 'vimeo' in game['video'] %}{{ render_vimeo(game['video']['vimeo']) }}{% endif %}
-      {%- endif %}
-    </script>
-  </dd>
-  {% endfor %}
-{% endmacro %}
-
-  <section class="tag-group">
-    <h4>Languages</h4>
-
-    {% for tag, tag_props in site.lang.iteritems() %}
-      {{ render_tag('lang', tag, tag_props['tag_count']) }}
-    {% endfor %}
-  </section>
-
-  <section class="tag-group">
-    <h4>Genres</h4>
-
-    {% for tag, tag_props in site.genre.iteritems() %}
-      {{ render_tag('genre', tag, tag_props['tag_count']) }}
-    {% endfor %}
-  </section>
-
-  <h2>List of remakes</h2>
-  <article>Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.</article>
-  <dl>
-    {% for names, meta, items in site.remakes %}
-    {{ render(names, meta, items, 'remakes') }}
-    {% endfor %}
-  </dl>
-
-  <h2>List of clones</h2>
-  <article>Games which are very similar to or heavily inspired by a game or series.</article>
-  <dl>
-    {% for names, meta, items in site.clones %}
-      {{ render(names, meta, items, 'inspired') }}
-    {% endfor %}
-  </dl>
-
-  <footer>&#169; 2011-2016
+  <footer>&#169; 2011-2017
     <a href="mailto:vsevolod.solovyov@gmail.com">Vsevolod Solovyov</a>,
     <a href="mailto:alexander@solovyov.net">Alexander Solovyov</a>,
     <a href="https://github.com/piranha/osgameclones/graphs/contributors">and other contributors.</a>

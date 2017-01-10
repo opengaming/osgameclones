@@ -1,0 +1,9 @@
+{% macro render_youtube(youtube_id) -%}
+  <iframe src="https://www.youtube-nocookie.com/embed/{{ youtube_id }}?rel=0&amp;showinfo=0"
+    width="560" height="315" frameborder="0" allowfullscreen></iframe>
+{%- endmacro %}
+
+{% macro render_vimeo(vimeo_id) -%}
+  <iframe src="https://player.vimeo.com/video/{{ vimeo_id }}?title=0&amp;byline=0&amp;portrait=0"
+    width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{%- endmacro %}
