@@ -16,9 +16,39 @@
 {% import 'templates/games.html' as games with context %}
 
 <body>
-  <header><h1>Open Source Game Clones</h1></header>
+  <header>
+    <div class="container">
+      <ul>
+        <li>
+          <span>Languages</span>
+          <div class="tag-group">
+            <div class="container">
+            {% for tag, tag_props in site.lang.iteritems() %}
+              {{ tags.render_tag('lang', tag, tag_props['tag_count']) }}
+            {% endfor %}
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <span>Genres</span>
+          <div class="tag-group">
+            <div class="container">
+            {% for tag, tag_props in site.genre.iteritems() %}
+              {{ tags.render_tag('genre', tag, tag_props['tag_count']) }}
+            {% endfor %}
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <input id="filter" type="text" placeholder="Type to filter">
+    </div>
+  </header>
 
   <article>
+    <h1>Open Source Game Clones</h1>
+
     <p>
       This site tries to gather <a href="http://en.wikipedia.org/wiki/Open_source">open-source</a>
       remakes of great old games in one place. If you think that
@@ -37,41 +67,25 @@
       dedicated to open source game news, and <a href="https://bronevichok.ru/ttygames/">Unix ASCII games</a>, a list of opensource text-based games.
     </p>
     <p class="new">All games that were added or updated in the last month are highlighted like this.</p>
-
-    <input id="filter" type="text" placeholder="Type to filter by name or information">
   </article>
 
-  <section class="tag-group">
-    <h4>Languages</h4>
+  <div id="content">
+    <h2>List of remakes</h2>
+    <article>Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.</article>
+    <dl>
+      {% for names, meta, items in site.remakes %}
+        {{ games.render(names, meta, items, 'remakes') }}
+      {% endfor %}
+    </dl>
 
-    {% for tag, tag_props in site.lang.iteritems() %}
-      {{ tags.render_tag('lang', tag, tag_props['tag_count']) }}
-    {% endfor %}
-  </section>
-
-  <section class="tag-group">
-    <h4>Genres</h4>
-
-    {% for tag, tag_props in site.genre.iteritems() %}
-      {{ tags.render_tag('genre', tag, tag_props['tag_count']) }}
-    {% endfor %}
-  </section>
-
-  <h2>List of remakes</h2>
-  <article>Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.</article>
-  <dl>
-    {% for names, meta, items in site.remakes %}
-      {{ games.render(names, meta, items, 'remakes') }}
-    {% endfor %}
-  </dl>
-
-  <h2>List of clones</h2>
-  <article>Games which are very similar to or heavily inspired by a game or series.</article>
-  <dl>
-    {% for names, meta, items in site.clones %}
-      {{ games.render(names, meta, items, 'inspired') }}
-    {% endfor %}
-  </dl>
+    <h2>List of clones</h2>
+    <article>Games which are very similar to or heavily inspired by a game or series.</article>
+    <dl>
+      {% for names, meta, items in site.clones %}
+        {{ games.render(names, meta, items, 'inspired') }}
+      {% endfor %}
+    </dl>
+  </div>
 
   <footer>&#169; 2011-2017
     <a href="mailto:vsevolod.solovyov@gmail.com">Vsevolod Solovyov</a>,

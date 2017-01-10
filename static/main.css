@@ -5,10 +5,6 @@ h1, h2, h3, h4, h5 { font-family: 'Ubuntu', 'Trebuchet MS', sans-serif; }
 pre, tt.literal { font: 0.8em Monaco, monospace; }
 pre { margin: 0 0 1em 1em; overflow: auto; }
 
-/* Put some padding back onto our list elements */
-ul, ol { margin-left: 10px; }
-li  { margin-left:10px; padding-left:10px; }
-
 img { max-width: 500px; } /* Make all screenshots fit */
 .gallery a:hover { border: 0px; } /* Bye bye ugly blue border */
 
@@ -20,10 +16,15 @@ header, section, footer, aside, nav, article, figure { display: block; }
 
 /* Markup */
 
-body {
-  line-height: 1.5;
-  max-width: 40em;
-  margin: 0 auto;
+body, .container { max-width: 40em; margin: 0 auto; }
+body { line-height: 1.5; margin: 60px auto 0; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  width: 100%;
 }
 
 a { color: #055580; text-decoration: none; }
@@ -41,20 +42,31 @@ h1, h2 { margin: 0.5em 0 0.5em 0; }
 h5 { margin: 0; font-size: 1em; font-weight: normal; }
 p { margin: 1em 0; line-height:1.4em; }
 article > p { margin-top: 0; }
-header > h1 { margin: 0; }
-
-/* Header/Footer */
-
-body > header { padding: 1em 0; }
-
-/* body > header h1 { font-size: 2.5em; font-family: Georgia, serif; } */
-
 footer { text-align: center; margin-top: 2em; }
+
+ul { display: inline-block; list-style: none; margin: 0; padding: 0; }
+li { display: inline-block; }
+
+li > span {
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 10px;
+  color: #555;
+  cursor: pointer; }
+li:hover > span { color: #000; background-color: #fbfbfb; }
+
+li .tag-group {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  padding: 10px 0;
+  background-color: #fbfbfb }
+li:hover .tag-group { display: block; }
 
 /* content */
 
 article header h1, #posts h2 { margin-top: 0; }
-
 article header details { color: #ccc; margin-top: -1.5em; margin-bottom: 1em; }
 article header details a { color: grey; }
 
@@ -70,12 +82,22 @@ article header details a { color: grey; }
 #posts td.title a { font-size: 1.4em; text-decoration: none; }
 
 blockquote { margin: 1.5em 0 0 1.5em; }
-blockquote:before { content: "\201C"; color: grey; font-size: 4em; line-height: 0.1em;
-                    margin-left: -0.4em; vertical-align: bottom;
-                    font-family: 'Lucida Grande', Verdana, serif; }
-blockquote:after { content: "\201D"; color: grey; font-size: 4em; line-height: 0.1em;
-                   margin-left: 9.5em; vertical-align: bottom;
-                   font-family: 'Lucida Grande', Verdana, serif; }
+blockquote:before {
+  content: "\201C";
+  color: grey;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: -0.4em;
+  vertical-align: bottom;
+  font-family: 'Lucida Grande', Verdana, serif; }
+blockquote:after {
+  content: "\201D";
+  color: grey;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 9.5em;
+  vertical-align: bottom;
+  font-family: 'Lucida Grande', Verdana, serif; }
 blockquote :first-child { margin-top: -1.5em; }
 blockquote :last-child { margin-bottom: -0.8em; }
 
@@ -94,12 +116,26 @@ dd + dt { margin-top: 1em; }
 .tags-active dt, .tags-active dd {display: none}
 .tags-active dt.active, .tags-active dd.active {display: block}
 
-.tag { display: inline-block; font-size: 12px; padding: 0 6px; margin: 0 2px;
-       color: #444; background-color: #eee; cursor: pointer; white-space: nowrap;
-       -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0 6px;
+  margin: 0 2px;
+  color: #444;
+  background-color: #eee;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
 
-.tag-badge { margin: 0 -6px 0 6px; padding: 2px 6px;
-            color: #666; background-color: #ddd; }
+.tag-badge {
+  margin: 0 -6px 0 6px;
+  padding: 2px 6px;
+  color: #666;
+  background-color: #ddd;
+}
 
 .tag.genre:hover { color: #FFF; background-color: #202020; }
 .tag.subgenre:hover { color: #CCC; background-color: #202020; }
@@ -112,14 +148,15 @@ dd + dt { margin-top: 1em; }
 .tag.framework:hover { color: #444; background-color: #FF786B; }
 
 #filter {
-    display: inline-block;
-    height: 20px;
-    padding: 4px 14px;
-    margin: 0;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    font-size: 14px;
-    line-height: 20px;
-    color: #555;
-    outline: 0;
+  display: inline-block;
+  float: right;
+  height: 20px;
+  padding: 4px 14px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  outline: 0;
 }
