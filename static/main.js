@@ -2,6 +2,23 @@
 
 var OSGC = window.OSGC = {};
 
+// menu
+(function() {
+  const nav = document.getElementById('nav');
+  const btns = Array.from(document.getElementsByClassName('nav-btn'));
+  nav.addEventListener('click', menuclick);
+
+  function menuclick(ev) {
+    const t = ev.target;
+
+    if (t.classList.contains('nav-btn')) {
+      const wasActive = t.parentNode.classList.contains('active');
+      btns.forEach((btn) => btn.parentNode.classList.remove('active'));
+      if (!wasActive) { t.parentNode.classList.add('active') };
+    }
+  }
+})();
+
 // gallery handling
 (function() {
   var els = document.getElementsByClassName('toggler');
