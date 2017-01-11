@@ -21,9 +21,9 @@
     <div class="container">
       <input id="filter" type="search" placeholder="Type to filter">
 
-      <ul>
+      <ul id="nav">
         <li>
-          <span>Languages</span>
+          <span class="nav-btn">Languages</span>
           <div class="tag-group">
             <div class="container">
             {% for tag, tag_props in site.lang.iteritems() %}
@@ -34,7 +34,7 @@
         </li>
 
         <li>
-          <span>Genres</span>
+          <span class="nav-btn">Genres</span>
           <div class="tag-group">
             <div class="container">
             {% for tag, tag_props in site.genre.iteritems() %}
