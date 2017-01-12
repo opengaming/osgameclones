@@ -251,6 +251,28 @@
     images:
     - http://www.txori.com/data/images/articles/140205_frontier_ppsspp_android.png
 
+- name: [Elite III, 'Frontier: First Encounters']
+  names:
+  - "Frontier: First Encounters"
+  - "FFE"
+  meta:
+    genre: [Action, Simulation]
+    subgenre: [Flight Simulator]
+    theme: [Sci-Fi, Espionage]
+  remakes:
+  - name: jffe
+    updated: 2016-01-10
+    development: halted
+    lang: C++
+    repo: https://github.com/videogamepreservation/jjffe
+    framework: SDL
+  - name: "GLFFE - Nic Mod"
+    updated: 2016-01-10
+    url: http://nic.dnsalias.com/FFE.html
+    repo: http://nic.dnsalias.com/GLFFE_NicMod_v1.4_src.zip
+    lang: [C++, Assembly]
+    framework: SDL
+
 - name: [Escape Velocity, Escape Velocity (video game)]
   meta:
     genre: [Action,Simulation]
