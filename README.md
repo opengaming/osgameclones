@@ -6,14 +6,14 @@ those already in the database.
 
 ## Games database
 
-Check [`games.yaml`][games] out. All information is inside, and you should more or less
-understand what's going on by reading it. Sorting is alphabetical, with an
+Check out the YAML files under [`/games`][games]. All information is inside, and you should more or less
+understand what's going on by reading it. Sorting is alphabetical, with the
 exception of ScummVM, just because it's so many games at once.
 
 ## Add a clone/remake
 
 Simplest way to contribute is to open a new issue and fill in the template.
-Even better if you edit the [`games.yaml`][games] file directly. Your
+Even better if you edit the [`/games`][games] files directly. Your
 changes will be submitted as a pull request.
 
 If you're adding a new clone/remake:
@@ -65,6 +65,6 @@ Please refer to the [template][template] and the [`schema.yaml`][schema] file
 when adding new games.
 
 
-[games]: https://github.com/piranha/osgameclones/edit/master/games.yaml
+[games]: https://github.com/piranha/osgameclones/tree/master/games
 [schema]: https://github.com/piranha/osgameclones/edit/master/schema.yaml
 [template]: https://github.com/piranha/osgameclones/blob/master/.github/ISSUE_TEMPLATE.md
