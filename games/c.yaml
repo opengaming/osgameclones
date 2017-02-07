@@ -3,6 +3,8 @@
     genre: [Action,Adventure]
   remakes:
   - name: Cadaver
+    url: http://jotd.pagesperso-orange.fr/cadaver/
+    license: [GPL2]
     development: halted
     content: commercial
     lang: C++
@@ -34,6 +36,7 @@
     genre: [TBS]
   remakes:
   - name: 'Civilization: Call To Power 2 Source Project'
+    license: [Custom]
     updated: 2015-04-10
     url: http://ctp2.darkdust.net/
     repo: https://ctp2.darkdust.net/svn/
@@ -45,6 +48,7 @@
   clones:
   - name: CookieCrunch
     repo: https://github.com/renatomcamilio/CookieCrunch
+    license: [As-is]
     updated: 2015-05-29
     development: sporadic
     lang: Swift
@@ -58,11 +62,13 @@
     status: playable
     development: active
     lang: C++
+    license: [GPL3]
     repo: https://github.com/segrax/openfodder
     updated: 2013-11-20
   - name: Cannon Fodder
     repo: https://github.com/krazyjakee/CannonFodder
     updated: 2015-04-13
+    license: [MIT]
     development: halted
     framework: HTML5
 
@@ -72,9 +78,11 @@
   remakes:
   - name: OpenC1
     url: http://www.1amstudios.com/projects/openc1/
-    repo: http://code.google.com/p/openc1/
+    repo: https://github.com/jeff-1amstudios/OpenC1
+    updated: 2017-02-08
+    license: [Custom]
     status: playable
-    development: sporadic
+    development: halted
     content: commercial
     lang: C#
     video:
@@ -158,6 +166,7 @@
     status: playable
     development: sporadic
     lang: C
+    license: [GPL2]
     updated: 2014-01-05
   - name: Tile World 2
     url: https://github.com/Qalthos/Tile-World
@@ -165,6 +174,7 @@
     status: playable
     development: halted
     lang: C
+    license: [GPL2]
     updated: 2014-01-05
 
 - name: ChuChu Rocket!
@@ -210,6 +220,7 @@
     repo: http://git.openclonk.org/openclonk.git/
     development: active
     lang: C++
+    license: [ISC]
     updated: 2012-04-07
     video:
       youtube: zydiZSXpn0w
@@ -251,6 +262,7 @@
     repo: https://github.com/gerstrong/Commander-Genius
     development: active
     lang: C++
+    license: [GPL2]
     images:
     - http://clonekeenplus.sourceforge.net/img/ckp1.jpg
     - http://clonekeenplus.sourceforge.net/img/ckpoptions.jpg
@@ -341,6 +353,7 @@
     repo: https://github.com/ricodejong02/CookieClickerRemake
     development: active
     lang: C#
+    license: [As-is]
 
 - name: [Crazy Cars, Titus Software]
   meta:
@@ -350,6 +363,7 @@
     updated: 2015-04-16
     url: http://crazycarscpc.free.fr/indexEN.htm
     repo: https://www.dropbox.com/s/lad1nm9fvmd3ugs/crazycarsFL.zip
+    license: [As-is]
     lang: QuickBASIC
     framework: QB64
     images:
@@ -434,6 +448,7 @@
   remakes:
   - name: coab
     repo: https://github.com/simeonpilgrim/coab
+    license: [BSD]
     status: playable
     development: sporadic
     lang: C#
@@ -468,7 +483,7 @@
     status: playable
     development: active
     lang: C
-    license: [CC-BY]
+    license: [GPL2, CC-BY]
     framework: SDL2
     updated: 2014-03-08
     images:
@@ -484,9 +499,10 @@
     genre: [TBS]
   remakes:
   - name: Civ-Remake
-    updated: 2015-04-12
+    updated: 2017-02-08
     repo: https://github.com/aarnwri/Civ-Remake
-    development: active
+    license: [As-is]
+    development: halted
     lang: Ruby
   - name: CivOne
     url: http://www.civone.com/
@@ -507,6 +523,7 @@
     name: Freeciv
     development: active
     lang: C
+    license: [GPL2]
     repo: http://svn.gna.org/viewcvs/freeciv/
     images:
     - http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
@@ -516,11 +533,13 @@
     development: active
     info: online browser game
     lang: [C, Java, JavaScript]
+    license: [AGPL3]
     repo: https://github.com/freeciv/freeciv-web
   - url: http://www.c-evo.org/
     name: C-Evo
     status: playable
     lang: Delphi
+    license: [PD]
     repo: http://www.c-evo.org/files/download.php?cevosrc.cevosrc.zip
     updated: 2013-09-19
     images:
@@ -536,7 +555,8 @@
   - url: http://violetland.github.io/
     name: Violetland
     repo: https://github.com/ooxi/violetland
-    updated: 2013-05-29
+    license: [GPL3, CC-BY-SA]
+    updated: 2017-02-08
     status: playable
     development: active
     lang: C++
