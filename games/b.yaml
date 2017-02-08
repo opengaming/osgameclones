@@ -98,20 +98,29 @@
     - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
     - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
 
-- name: [Battle City, Battle City (video game)]
+- name: Battlecity
+  names:
+  - Codehammer's Battlecity
+  - Battlecity DX
   meta:
-    genre: [Arcade]
+    genre: [RTS]
   remakes:
   - name: Battle City
     url: http://battlecity.org/
+    license: [GPL3]
     repo: https://github.com/Deceth/Battle-City
-    updated: 2013-12-04
+    updated: 2017-02-09
     status: playable
-    development: sporadic
+    development: halted
     lang: C++
     images:
     - http://battlecity.org/wp-content/uploads/your-city-has-been-destroyed-by-the-power-of-an-orb.png
     - http://farm6.staticflickr.com/5246/5313969457_15de8df27f_z.jpg
+
+- name: [Battle City, Battle City (video game)]
+  meta:
+    genre: [Arcade]
+  remakes:
   - name: TZOD (Tank Zone Of Death)
     url: https://code.google.com/p/tzod/
     repo: https://code.google.com/p/tzod/
