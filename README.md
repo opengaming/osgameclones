@@ -58,7 +58,13 @@ If you're adding a new game group:
 A Wikipedia link is created for all original game names; if the article link is different, use the following syntax:
 
 ```yaml
-name: [Name, Name of Wikipedia article]`
+name: [Name, Name of Wikipedia article]
+```
+
+If the game has a non-Wikipedia link:
+
+```yaml
+name: [Name, 'http://www.example.com']
 ```
 
 Please refer to the [template][template] and the [`schema.yaml`][schema] file
