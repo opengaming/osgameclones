@@ -1,21 +1,4 @@
 
-- name: Board Game
-  meta:
-    genre: [Compilation]
-    subgenre: [Board Game]
-  clones:
-  - name: VASSAL
-    repo: https://sourceforge.net/projects/vassalengine/
-    url: http://www.vassalengine.org/
-    development: active
-    status: playable
-    lang: [Java]
-    license: [GPL2]
-    updated: 2017-02-12
-    images:
-    - http://www.vassalengine.org/images/screenshot1.png
-    - http://www.vassalengine.org/images/screenshot2.png
-
 - name: [Vlak, 'http://www.mobygames.com/game/dos/vlak']
   meta:
     genre: [Arcade]
@@ -36,22 +19,6 @@
     updated: 2015-05-18
     development: halted
     lang: CoffeeScript
-
-- name: Visual Pinball
-  meta:
-    genre: [Arcade, Compilation]
-    subgenre: [Pinball]
-  clones:
-    - name: Visual Pinball
-      repo: https://sourceforge.net/p/vpinball/code/HEAD/tree/
-      url: https://sourceforge.net/projects/vpinball/
-      license: [MAME]
-      lang: [C++]
-      development: active
-      status: playable
-      updated: 2017-01-07
-      video:
-        youtube: IoF-kqXF2JQ
 
 - name: VVVVVV
   meta:
