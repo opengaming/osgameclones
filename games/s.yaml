@@ -390,11 +390,13 @@
   remakes:
   - name: UltraStar Deluxe
     url: http://ultrastardx.sourceforge.net/
-    repo: http://sourceforge.net/p/ultrastardx/svn/HEAD/tree/trunk/
+    repo: https://github.com/UltraStar-Deluxe/USDX/
     status: playable
     development: active
-    lang: Object Pascal
-    updated: 2014-09-19
+    lang: [Object Pascal, Lua]
+    framework: [SDL2]
+    license: [GPL2]
+    updated: 2017-02-16
     images:
     - http://ultrastardx.sourceforge.net/screenshots/sing_singscreen.jpg
     - http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png
