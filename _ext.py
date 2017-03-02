@@ -94,8 +94,10 @@ def show_validation_errors(data, errors):
     for error in errors:
         path = error.path.split('/')
         game = data[int(path[1])]
-        name = game.get('name')
-        print('\033[91m' + '  ' + str(name) + '\033[0m')
+        nameRaw = game.get('name')
+        name = nameRaw if type(nameRaw) != list else nameRaw[0]
+
+        print('\033[91m' + '  ' + name.encode('utf-8') + '\033[0m')
         print('    ' + error.__repr__())
     print('\n  ' + str(len(errors)) + ' errors\n')
     sys.exit(1)

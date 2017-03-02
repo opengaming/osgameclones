@@ -54,6 +54,22 @@
     framework: DIV Games Studio
     license: [MIT]
 
+- name: Visual Pinball
+  meta:
+    genre: [Arcade, Compilation]
+    subgenre: [Pinball]
+  clones:
+    - name: Visual Pinball
+      repo: https://sourceforge.net/p/vpinball/code/HEAD/tree/
+      url: https://sourceforge.net/projects/vpinball/
+      license: [MAME]
+      lang: [C++]
+      development: active
+      status: playable
+      updated: 2017-01-07
+      video:
+        youtube: IoF-kqXF2JQ
+
 - name: Pitfall!
   meta:
     genre: [Arcade,Platform]
@@ -175,7 +191,7 @@
     lang: Lua
     framework: Love3D
 
-- name: ["Pok\xE9mon", "Pok\xE9mon (video game series)"]
+- name: ["Pokémon", "Pokémon (video game series)"]
   meta:
     genre: [RPG]
   remakes:
@@ -192,7 +208,7 @@
     - http://www.tuxemon.org/images/screenshot-01.png
     - http://www.tuxemon.org/images/featurette-02.png
 
-- name: "Pok\xE9mon Mystery Dungeon"
+- name: "Pokémon Mystery Dungeon"
   meta:
     genre: [RPG]
   remakes:
