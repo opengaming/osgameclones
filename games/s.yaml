@@ -402,6 +402,19 @@
     - http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png
     - http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
 
+- name: [Snipes, Snipes (video game)]
+  remakes:
+    repo: https://github.com/Davidebyzero/Snipes
+    url: https://www.vogons.org/viewtopic.php?f=7&t=49073
+    development: complete
+    status: playable
+    lang: [C++]
+    framework: [SDL2]
+    license: Custom
+    content: free
+    info: reverse-engineered from original binary, aims for 100% logic compatibility with original game
+    updated: 2017-04-04
+
 - name: Solar Fox
   meta:
     genre: [Arcade]
