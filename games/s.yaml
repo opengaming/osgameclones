@@ -40,6 +40,18 @@
     development: sporadic
     lang: C#
 
+- name: Shadow of the Beast
+  meta:
+    genre: [Platform]
+  remakes:
+  - name: "shadow-of-the-beast-html5"
+    repo: https://github.com/spleennooname/shadow-of-the-beast-html5
+    development: active
+    framework: [HTML5, PandaJS]
+    updated: 2017-04-04
+    lang: JavaScript
+    license: Apache 2.0
+
 - name: 'Shadowgrounds: Survivor'
   meta:
     genre: [Shmup]
@@ -402,6 +414,20 @@
     - http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png
     - http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
 
+- name: [Snipes, Snipes (video game)]
+  remakes:
+  - name: Snipes
+    repo: https://github.com/Davidebyzero/Snipes
+    url: https://www.vogons.org/viewtopic.php?f=7&t=49073
+    development: complete
+    status: playable
+    lang: [C++]
+    framework: [SDL2]
+    license: Custom
+    content: free
+    info: reverse-engineered from original binary, aims for 100% logic compatibility with original game
+    updated: 2017-04-04
+
 - name: Solar Fox
   meta:
     genre: [Arcade]
@@ -552,6 +578,11 @@
     lang: C++
     images:
     - https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
+  - name: stuntcarremake
+    repo: https://github.com/ptitSeb/stuntcarremake
+    development: active
+    lang: C++
+    updated: 2017-04-04
 
 - name: Stars!
   meta:
