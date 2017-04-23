@@ -74,6 +74,20 @@
     lang: JavaScript
     license: [MIT]
 
+- name: The Sims Online
+  meta:
+    genre: [MMORPG]
+    subgenre: [Life]
+    theme: [Management]
+  remakes:
+    - name: Project Dollhouse
+      repo: https://github.com/Afr0Games/Project-Dollhouse
+      url: http://www.afr0games.com
+      development: active
+      lang: [C#]
+      framework: [Monogame]
+      license: Mozilla
+
 - name: Skool Daze
   meta:
     genre: [Action, Adventure, Platform]
@@ -671,6 +685,30 @@
     repo: http://retrospec.sgn.net/users/nwalker/styx/styx.zip
     development: halted
     lang: C++
+
+- name: "SunDog: Frozen Legacy"
+  meta:
+    genre: Role Playing
+  remakes:
+  - name: sundog
+    repo: https://github.com/laanwj/sundog
+    updated: 2017-04-19
+    license: MIT
+    lang: C
+    development: sporadic
+    images:
+    - https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/title_screen.png
+    - https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/moveonship.png
+    - https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/ship_cockpit.png
+  - name: SunDog Resurrection
+    updated: 2017-04-20
+    url: http://www.sundogresurrectionproject.com/
+    repo: https://svn.code.sf.net/p/sundog/code/
+    lang: [Java, Python]
+    development: sporadic
+    images:
+    - https://a.fsdn.com/con/app/proj/sundog/screenshots/328849.jpg
+    - https://a.fsdn.com/con/app/proj/sundog/screenshots/328851.jpg
 
 - name: Supaplex
   meta:

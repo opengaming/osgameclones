@@ -197,10 +197,13 @@
   remakes:
   - name: OpenRW "Open ReWrite"
     repo: https://github.com/rwengine/openrw
+    url: http://openrw.org/
     updated: 2017-04-21
     license: [GPL3]
     lang: C++
-    development: active
+    development: sporadic
+    status: unplayable
+    framework: [SDL]
 
 - name: Gravity Force
   meta:
