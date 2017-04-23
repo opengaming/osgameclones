@@ -37,15 +37,21 @@ def parse_tag(tag):
     return tag.replace(' ', '-').lower()
 
 
-def parse_tags(entry, fields):
+def parse_tags(entry, keys):
     tags = []
 
-    for field in fields:
-        if field in entry:
-            if isinstance(entry[field], basestring):
-                tags.append(parse_tag(entry[field]))
+    for key in keys:
+        if key in entry:
+            val = entry.get(key)
+            val_type = type(val)
+
+            if val_type == str or val_type == unicode:
+                tags.append(parse_tag(val))
+            elif val_type == list:
+                tags += map(parse_tag, val)
             else:
-                tags += map(parse_tag, entry[field])
+                abort('Error: %s\'s key "%s" is not valid (%s)' %
+                    (entry['name'], key, val_type.__name__))
 
     return tags
 
