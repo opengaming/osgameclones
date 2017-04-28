@@ -40,6 +40,18 @@
     development: sporadic
     lang: C#
 
+- name: [Sensitive, "http://www.mobygames.com/game/c64/sensitive"]
+  meta:
+    genre: [Puzzle]
+  remakes:
+  - name: "sensitive-js"
+    updated: 2017-04-27
+    repo: https://github.com/bylexus/sensitive-js
+    lang: JavaScript
+    development: active
+    images:
+    - https://raw.githubusercontent.com/bylexus/sensitive-js/master/screen-remake.png
+
 - name: Shadow of the Beast
   meta:
     genre: [Platform]
