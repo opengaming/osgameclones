@@ -82,7 +82,9 @@
     <div class="gallery" style="display: none"></div>
 
     {% if game['images'] | length > 0 -%}
-      <script class="gallery-json" type="text/json">{{ game['images'] | join(', ') }}</script>
+      <script class="gallery-json" data-game="{{ game['name'] }}" type="text/json">
+        {{- game['images'] | join(', ') -}}
+      </script>
     {% endif %}
 
     <script class="gallery-raw" type="text/plain">

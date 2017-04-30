@@ -130,7 +130,7 @@ var OSGC = window.OSGC = {};
   OSGC.validate = validate;
 
   function init() {
-    OSGC.brokenLinks = [];
+    OSGC.brokenLinks = {};
     OSGC.invalidImages = {
       forAnts: [],
       tooSmall: [],
@@ -143,14 +143,23 @@ var OSGC = window.OSGC = {};
 
   function getImages() {
     let galleries = document.getElementsByClassName('gallery-json');
+    let galleries_len = galleries.length;
     let images = [];
 
-    for (let i = 0; i < galleries.length; i += 1) {
-      let cur = galleries[i].innerHTML.trim().split(', ');
+    for (let i = 0; i < galleries_len; i += 1) {
+      let g = galleries[i];
+      let game = g.getAttribute('data-game');
+      let cur = g.innerHTML.trim().split(', ').map(
+        function addGameName(url) {
+          return { url: url, name: game };
+        }
+      );
       images = images.concat(cur);
     }
+
     console.info('Galleries:', galleries.length);
     console.info('Images:', images.length);
+
     return images;
   }
 
@@ -163,23 +172,33 @@ var OSGC = window.OSGC = {};
     if (loadTime > 5000) { OSGC.invalidImages.tooSlow.push(image.src); }
   }
 
-  function downloadImage(url) {
+  function downloadImage(dimage) {
     return new Promise(function (resolve, reject) {
       let timeStart = new Date().getTime();
       let image = new Image();
       image.onload = onload;
       image.onerror = onerror;
-      image.src = url;
+      image.src = dimage.url;
 
       function time() { return new Date().getTime() - timeStart; }
       function onload() { resolve({image: image, time: time()}); }
-      function onerror() { reject({url: url, time: time()}); }
+      function onerror() {
+        reject({
+          name: dimage.name,
+          url: dimage.url,
+          time: time()
+        });
+      }
     });
   }
 
   function reflect(promise){
       function resolved(value) { validateImage(value.image, value.time); }
-      function rejected(err) { OSGC.brokenLinks.push(err.url); };
+      function rejected(err) {
+        let bad = OSGC.brokenLinks[err.name];
+        if (!bad) { bad = OSGC.brokenLinks[err.name] = []; }
+        bad.push(err.url);
+      }
 
       return promise.then(resolved, rejected);
   }
