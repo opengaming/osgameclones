@@ -96,6 +96,25 @@
     license: GPL3
     updated: 2016-12-11
 
+- name: Age of Empires
+  meta:
+    genre: [RTS]
+    subgenre: []
+    theme: []
+  remakes:
+  - name: Chariot
+    url: https://github.com/ChariotEngine/Chariot
+    repo: https://github.com/ChariotEngine/Chariot
+    updated: 2017-05-27
+    status: unplayable
+    development: active
+    content: commercial
+    lang: [Rust]
+    framework: SDL2
+    license: [MIT]
+    images:
+    - https://cloud.githubusercontent.com/assets/20009343/16906794/daccd474-4c71-11e6-90ec-6821e5797b5c.png
+
 - name: Age of Empires II
   meta:
     genre: [RTS]
