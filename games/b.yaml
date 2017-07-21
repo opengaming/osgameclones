@@ -375,7 +375,21 @@
     - http://tomatoes.sourceforge.net/ss2.jpg
     - http://tomatoes.sourceforge.net/ss3.jpg
     - http://tomatoes.sourceforge.net/ss4.jpg
-
+  - name: Mr.Boom
+    updated: 2017-07-18
+    url: http://mrboom.mumblecore.org
+    repo: https://github.com/Javanaise/mrboom-libretro
+    development: active
+    lang: C++
+    framework: [SDL]
+    license: [MIT]
+    images:
+    - https://github.com/Javanaise/mrboom-libretro/raw/master/Assets/mrb0.png
+    - https://github.com/Javanaise/mrboom-libretro/raw/master/Assets/mrb1.png
+    - https://github.com/Javanaise/mrboom-libretro/raw/master/Assets/mrb2.png
+    - https://github.com/Javanaise/mrboom-libretro/raw/master/Assets/mrb4.png
+    - https://github.com/Javanaise/mrboom-libretro/raw/master/Assets/mrb5.png
+    
 - name: Boulder Dash
   meta:
     genre: [Arcade]
