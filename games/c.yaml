@@ -211,6 +211,21 @@
     - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-title.gif
     - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-game.gif
 
+- name: [Claw, Claw (video game)]
+- meta:
+    genre: [Platform]
+  remakes:
+  - name: OpenClaw
+    repo: https://github.com/pjasicek/OpenClaw
+    updated: 2017-09-08
+    licence: [GPL3]
+    framework: [SDL]
+    lang: C++
+    images:
+    - https://camo.githubusercontent.com/023e157c9fcb232997de1066fda8bda7b392f9b2/687474703a2f2f73322e706f7374696d672e6f72672f6777646d30696937742f73637265656e73686f745f32362e706e67
+    - https://camo.githubusercontent.com/fd86c4c2b2bb5224f9033afb6ffd202f57cf325d/68747470733a2f2f73332e706f7374696d672e6f72672f337930613937786b6a2f73637265656e73686f745f32372e706e67
+    - https://camo.githubusercontent.com/836928b3cecd666e7cb2313c569f29cee3d1868f/68747470733a2f2f7331372e706f7374696d672e6f72672f66686439686d3977762f73637265656e73686f745f32362e706e67
+
 - name: Clonk
   meta:
     genre: [Action,Platform,RTS]
