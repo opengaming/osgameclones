@@ -252,5 +252,5 @@ var OSGC = window.OSGC = {};
     }
   }
 
-  document.getElementById('darkThemeButton').addEventListener('click', toggledarkTheme)
+  document.getElementById('darkThemeButton').addEventListener('click', toggleDarkTheme)
 })();
