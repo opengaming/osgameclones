@@ -244,13 +244,13 @@ var OSGC = window.OSGC = {};
     return Promise.resolve().then(queue).then(showResults);
   }
 
-  function toggleDarkMode() {
-    if (document.body.classList.contains('darkMode')) {
-      document.body.classList.remove('darkMode');
+  function toggleDarkTheme() {
+    if (document.body.classList.contains('darkTheme')) {
+      document.body.classList.remove('darkTheme');
     } else {
-      document.body.classList.add('darkMode');
+      document.body.classList.add('darkTheme');
     }
   }
 
-  document.getElementById('darkModeButton').addEventListener('click', toggleDarkMode)
+  document.getElementById('darkThemeButton').addEventListener('click', toggledarkTheme)
 })();
