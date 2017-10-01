@@ -176,3 +176,36 @@ dd + dt { margin-top: 1em; }
   background-color: #fff;
   outline: 0;
 }
+
+
+.darkMode {
+  background-color: #303030;
+  color: #E4E4E4;
+}
+.darkMode header {
+  background-color: #252525;
+}
+
+.darkMode #nav .nav-btn {
+  color: #817F7F;
+}
+
+.darkMode #filter{
+  color: #E3E3E3;
+  background-color: #555;
+}
+
+
+.darkMode a { color: #0686CB}
+
+.darkMode #nav li.active .nav-btn {
+   color: #000
+   }
+
+.darkMode #darkModeButton {
+  background-color: #E3E3E3
+}
+
+#darkModeButtonLi {
+  background-color: transparent;
+}
