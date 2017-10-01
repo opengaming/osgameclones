@@ -243,4 +243,14 @@ var OSGC = window.OSGC = {};
 
     return Promise.resolve().then(queue).then(showResults);
   }
+
+  function toggleDarkMode() {
+    if (document.body.classList.contains('darkMode')) {
+      document.body.classList.remove('darkMode');
+    } else {
+      document.body.classList.add('darkMode');
+    }
+  }
+
+  document.getElementById('darkModeButton').addEventListener('click', toggleDarkMode)
 })();
