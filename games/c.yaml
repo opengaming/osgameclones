@@ -211,6 +211,21 @@
     - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-title.gif
     - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-game.gif
 
+- name: [Claw, Claw (video game)]
+  meta:
+    genre: [Platform]
+  remakes:
+  - name: OpenClaw
+    repo: https://github.com/pjasicek/OpenClaw
+    updated: 2017-09-08
+    license: [GPL3]
+    framework: [SDL]
+    lang: C++
+    images:
+    - https://camo.githubusercontent.com/023e157c9fcb232997de1066fda8bda7b392f9b2/687474703a2f2f73322e706f7374696d672e6f72672f6777646d30696937742f73637265656e73686f745f32362e706e67
+    - https://camo.githubusercontent.com/fd86c4c2b2bb5224f9033afb6ffd202f57cf325d/68747470733a2f2f73332e706f7374696d672e6f72672f337930613937786b6a2f73637265656e73686f745f32372e706e67
+    - https://camo.githubusercontent.com/836928b3cecd666e7cb2313c569f29cee3d1868f/68747470733a2f2f7331372e706f7374696d672e6f72672f66686439686d3977762f73637265656e73686f745f32362e706e67
+
 - name: Clonk
   meta:
     genre: [Action,Platform,RTS]
@@ -586,3 +601,16 @@
     - http://violetland.github.io/images/screenshots/thumbnail/violetland-illumination-630x475.png
     - http://violetland.github.io/images/screenshots/thumbnail/violetland-flashlight-630x475.png
 
+- name: Crystal Caves
+  meta:
+   genre: [Platform]
+  remakes:
+  - name: OpenCrystalCaves
+    updated: 2017-09-08
+    repo: https://github.com/gurka/OpenCrystalCaves
+    lang: C++
+    license: MIT
+    images:
+    - https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot1.png?raw=true
+    - https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot2.png?raw=true
+    - https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot3.png?raw=true
