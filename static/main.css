@@ -47,7 +47,7 @@ footer { text-align: center; margin-top: 2em; }
 #nav { display: inline-block; list-style: none; margin: 0; padding: 0; }
 #nav li { display: inline-block; }
 
-#nav .nav-btn {
+#nav .nav-btn, #darkThemeButton {
   display: inline-block;
   font-size: 14px;
   line-height: 30px;
@@ -200,12 +200,25 @@ dd + dt { margin-top: 1em; }
 
 .darkTheme #nav li.active .nav-btn {
    color: #000
-   }
-
-.darkTheme #darkThemeButton {
-  background-color: #E3E3E3
 }
 
-#darkThemeButtonLi {
+.darkTheme #darkThemeButton {
+  background-color: #323232;
+  color: #E3E3E3;
+}
+
+#darkThemeButton {
   background-color: transparent;
+  float: right;
+}
+
+.darkTheme #nav .tag-group {
+  background-color:  #323232;
+  border-bottom: 1px solid #1C1C1C;
+}
+
+
+.darkTheme #nav li:hover .nav-btn, .darkTheme #nav li.active .nav-btn {
+  background-color:  #323232;
+  color: #E3E3E3;
 }
