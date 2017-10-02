@@ -209,4 +209,17 @@ dd + dt { margin-top: 1em; }
 
 #darkThemeButton {
   background-color: transparent;
+  float: right;
 }
+
+.darkTheme #nav .tag-group {
+  background-color:  #414141;
+  border-bottom: 1px solid #353535;
+}
+
+
+.darkTheme #nav li:hover .nav-btn, .darkTheme #nav li.active .nav-btn {
+  background-color:  #575757;
+  color: #E3E3E3;
+}
+
