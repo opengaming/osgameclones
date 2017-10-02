@@ -243,4 +243,14 @@ var OSGC = window.OSGC = {};
 
     return Promise.resolve().then(queue).then(showResults);
   }
+
+  function toggleDarkTheme() {
+    if (document.body.classList.contains('darkTheme')) {
+      document.body.classList.remove('darkTheme');
+    } else {
+      document.body.classList.add('darkTheme');
+    }
+  }
+
+  document.getElementById('darkThemeButton').addEventListener('click', toggleDarkTheme)
 })();

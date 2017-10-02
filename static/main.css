@@ -176,3 +176,36 @@ dd + dt { margin-top: 1em; }
   background-color: #fff;
   outline: 0;
 }
+
+
+.darkTheme {
+  background-color: #303030;
+  color: #E4E4E4;
+}
+.darkTheme header {
+  background-color: #252525;
+}
+
+.darkTheme #nav .nav-btn {
+  color: #817F7F;
+}
+
+.darkTheme #filter{
+  color: #E3E3E3;
+  background-color: #555;
+}
+
+
+.darkTheme a { color: #0686CB}
+
+.darkTheme #nav li.active .nav-btn {
+   color: #000
+   }
+
+.darkTheme #darkThemeButton {
+  background-color: #E3E3E3
+}
+
+#darkThemeButtonLi {
+  background-color: transparent;
+}
