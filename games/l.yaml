@@ -248,10 +248,15 @@
     genre: [Puzzle]
   clones:
   - name: Pingus
-    url: http://pingus.seul.org/welcome.html
     repo: https://github.com/Pingus/pingus
-    development: active
+    url: http://pingus.seul.org/welcome.html
+    development: sporadic
+    status: playable
     lang: C++
+    framework: SDL2, boost (partial)
+    license: GPL3
+    content: open
+    updated: 2017-10-13
     images:
     - http://pingus.seul.org/images/screen_0.7.0-3.jpg
     - http://pingus.seul.org/images/screen_0.7.0-4.jpg
