@@ -252,9 +252,10 @@
   remakes:
   - name: FreeCol
     url: http://www.freecol.org/
-    repo: http://freecol.svn.sourceforge.net/viewvc/freecol/
+    repo: https://git.code.sf.net/p/freecol/git
     development: active
     lang: Java
+    license: GPL2
     images:
     - http://www.freecol.org/images/screen-0.8.0-large.jpg
     - http://www.freecol.org/images/java-shot15.jpg
@@ -1045,7 +1046,7 @@
   remakes:
   - name: XSwing Plus
     updated: 2015-06-24
-    repo: https://xswingplus.svn.codeplex.com/svn
+    repo: https://sourceforge.net/p/xswingplus/code/HEAD/tree/
     url: http://xswing.net/
     development: sporadic
     lang: Java
