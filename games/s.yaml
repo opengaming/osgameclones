@@ -1180,18 +1180,19 @@
     - http://i1-linux.softpedia-static.com/screenshots/Super-Mario-War_1.png
     - http://s4.7ba.ru/ex/filecontent/screen_ors/9/f/f/9ffbc941653d781f353db1d73b01ed30.deb.jpg
   - name: SuperTux
-    url: http://supertux.lethargik.org/
-    status: playable
-    development: active
-    lang: C++
-    framework: SDL
-    license: [GPL3]
     repo: https://github.com/SuperTux/supertux
-    updated: 2014-08-14
+    url: https://supertux.org/
+    development: active
+    status: playable
+    lang: C++
+    framework: SDL2, boost (partial)
+    license: [GPL3]
+    content: open
+    updated: 2017-10-13
     images:
-    - http://supertux.github.io/images/0_3_5_7.png
-    - http://supertux.github.io/images/0_3_5_8.png
-    - http://supertux.github.io/images/0_3_5_11.png
+    - https://supertux.org/images/0_4_0/0_4_0_3.png
+    - https://supertux.org/images/0_4_0/0_4_0_10.png
+    - https://supertux.org/images/0_4_0/0_4_0_5.png
   - name: Super Mario Bros With SFML in C#
     url: https://mario.codeplex.com/
     updated: 2015-05-03
