@@ -223,16 +223,23 @@
     subgenre: [Survival, Sandbox]
     theme: [Fantasy]
   remakes:
-  - name: Open Terraria Rewrite
-    updated: 2015-04-05
-    repo: https://github.com/Shockah/Open-Terraria-Rewrite
-    development: halted
+  - name: LastTry
+    updated: 2017-10-15
+    repo: https://github.com/LastTryR/LastTry
+    development: active
     lang: Java
+    framework: LibGDX
+    license: MIT
   - name: terrarium
     repo: https://github.com/hydren/terrarium
     updated: 2015-06-18
     development: active
     lang: C++
+  - name: Terraria
+    repo: https://github.com/csnxs/Terraria
+    updated: 2017-10-15
+    info: Reverse engineered code
+    lang: C#
 
 - name: The Castles of Dr. Creep
   meta:
