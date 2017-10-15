@@ -269,13 +269,23 @@
     updated: 2013-05-30
     video:
       youtube: dWXXK8QlnME
-  - name: JavaFXLemmings
-    updated: 2015-09-21
-    repo: https://github.com/lukaswerner/JavaFXLemmings
+  - name: Lemmix
+    url: http://www.ericenzwaan.nl/eric/lemmings/lemmix.htm
+    repo: http://www.ericenzwaan.nl/eric/lemmings/LemOpenSource.zip
+    status: playable
+    development: halted
+    lang: Delphi
+    updated: 2017-10-15
+  - name: Lemmini
+    url: http://lemmini.de/
+    repo: https://bitbucket.org/fade0ff/lemmini
+    status: playable
     development: active
-    lang: [Java]
-    framework: [JavaFX]
-    license: [GPL2]
+    lang: Java
+    license: Apache 2.0
+    updated: 2017-10-15
+    images:
+    - http://lemmini.de/lemmini_screenshot_win.png
 
 - name: [Lotus Esprit Turbo Challenge, Lotus (series)]
   meta:
