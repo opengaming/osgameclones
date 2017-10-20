@@ -70,14 +70,16 @@
 
 - name: Oxyd
   meta:
-    genre: [Puzzle]
+    genre: Puzzle
   remakes:
   - name: Enigma
     url: http://www.nongnu.org/enigma/
-    repo: svn://svn.code.sf.net/p/enigma-game/source
-    development: active
+    repo: https://github.com/Enigma-Game/Enigma
+    development: sporadic
     lang: C++
-    updated: 2013-05-27
+    license: GPL2
+    framework: SDL
+    updated: 2017-10-20
 
 - name: 'One Must Fall: 2097'
   meta:
