@@ -240,14 +240,24 @@
 
 - name: RPG Maker
   meta:
-    genre: [RPG]
+    genre: RPG
   clones:
-  - name: EasyRPG
-    url: https://easy-rpg.org/
+  - name: EasyRPG Player
+    info: 2000/2003 interpreter
+    url: https://easyrpg.org/
     repo: https://github.com/EasyRPG/
     development: active
     lang: C++
-    updated: 2013-05-27
+    license: GPL3
+    status: playable
+    updated: 2017-10-20
     images:
-    - https://easy-rpg.org/images/easyrpg-player.png
-
+    - https://easyrpg.org/images/easyrpg-player.png
+  - name: mkxp
+    info: RGSS (XP, VX, VX Ace) implementation
+    repo: https://github.com/Ancurio/mkxp
+    development: sporadic
+    lang: C++
+    license: GPL2
+    status: playable
+    updated: 2017-10-20
