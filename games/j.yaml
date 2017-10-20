@@ -17,14 +17,18 @@
 
 - name: Jazz Jackrabbit
   meta:
-    genre: [Platform]
+    genre: Platform
   remakes:
   - name: OpenJazz
     url: http://www.alister.eu/jazz/oj/
-    repo: https://openjazz.svn.sourceforge.net/svnroot/openjazz/
+    repo: https://github.com/AlisterT/openjazz
+    status: playable
     development: sporadic
     lang: C++
-    updated: 2013-05-27
+    framework: SDL
+    license: GPL2
+    info: Needs original game data
+    updated: 2017-10-20
 
 - name: 'Jedi Knight II: Jedi Outcast'
   meta:
