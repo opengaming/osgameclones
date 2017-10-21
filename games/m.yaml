@@ -222,20 +222,24 @@
 
 - name: [Marathon, Marathon_(video_game)]
   meta:
-    genre: [FPS]
+    genre: FPS
+    theme: Sci-Fi
   names:
   - Marathon 2
   - Marathon Infinity
   remakes:
   - name: Aleph One
-    url: http://marathon.sourceforge.net/
+    url: https://alephone.lhowon.org/
     development: active
-    lang: C++
-    repo: http://sourceforge.net/p/marathon/code/
+    status: playable
+    lang: [C++, Lua]
+    repo: https://github.com/Aleph-One-Marathon/alephone
+    license: GPL3
+    updated: 2017-10-20
     images:
-    - http://marathon.sourceforge.net/images/m1_collage.png
-    - http://marathon.sourceforge.net/images/m2_collage.png
-    - http://marathon.sourceforge.net/images/m3_collage.png
+    - https://alephone.lhowon.org/images/marathon_collage.png
+    - https://alephone.lhowon.org/images/marathon2_collage.png
+    - https://alephone.lhowon.org/images/infinity_collage.png
 
 - name: Mario World
   meta:
@@ -359,6 +363,18 @@
     license: [Custom]
     images:
     - https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png
+  - name: Rockbot
+    repo: https://github.com/protoman/rockbot
+    url: http://rockbot.upperland.net/
+    updated: 2017-10-20
+    development: active
+    lang: C++
+    license: GPL2
+    framework: SDL
+    images:
+    - http://rockbot.upperland.net/wp-content/uploads/2010/12/game_0021.png
+    - http://rockbot.upperland.net/wp-content/uploads/2014/01/game_1.0RC1_016.png
+    - http://rockbot.upperland.net/wp-content/uploads/2014/01/game_1.0RC1_010.png
 
 - name: Meridian 59
   meta:
