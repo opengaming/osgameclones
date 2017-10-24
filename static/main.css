@@ -165,15 +165,15 @@ dd + dt { margin-top: 1em; }
 .tag.lang:hover { color: #444; background-color: #9CFFFF; }
 .tag.framework:hover { color: #444; background-color: #FF786B; }
 
-.tag-playable {
+.tag.playable {
   background-color: #8AFF99;
 }
 
-.tag-semi-playable {
+.tag.semi-playable {
   background-color: #FBB463;
 }
 
-.tag-unplayable {
+.tag.unplayable {
   background-color: #FF786B;
 }
 
@@ -247,17 +247,17 @@ dd + dt { margin-top: 1em; }
 }
 
 
-.darkTheme .tag-playable {
+.darkTheme .tag.playable {
   background-color: #8AFF99;
   color: #444;
 }
 
-.darkTheme .tag-semi-playable {
+.darkTheme .tag.semi-playable {
   background-color: #FBB463;
   color: #444;
 }
 
-.darkTheme .tag-unplayable {
+.darkTheme .tag.unplayable {
   background-color: #FF786B;
   color: #444;
 }
