@@ -159,11 +159,24 @@ dd + dt { margin-top: 1em; }
 .tag.subgenre:hover { color: #CCC; background-color: #202020; }
 .tag.theme:hover { color: #FFFF8C; background-color: #202020; }
 
-.tag.status:hover { color: #444; background-color: #8AFF99; }
+.tag.status:hover { color: #444}
 .tag.development:hover { color: #444; background-color: #FF7878; }
 .tag.license:hover { color: #444; background-color: #FFFF8C; }
 .tag.lang:hover { color: #444; background-color: #9CFFFF; }
 .tag.framework:hover { color: #444; background-color: #FF786B; }
+
+.tag.playable {
+  background-color: #8AFF99;
+}
+
+.tag.semi-playable {
+  background-color: #FBB463;
+}
+
+.tag.unplayable {
+  background-color: #FF786B;
+}
+
 
 #filter {
   display: inline-block;
@@ -221,4 +234,30 @@ dd + dt { margin-top: 1em; }
 .darkTheme #nav li:hover .nav-btn, .darkTheme #nav li.active .nav-btn {
   background-color:  #323232;
   color: #E3E3E3;
+}
+
+.darkTheme .tag {
+  background-color: #5C5C5C;
+  color: #E3E3E3;
+}
+
+.darkTheme .tag-badge {
+  color: #E3E3E3;
+  background-color: #888888;
+}
+
+
+.darkTheme .tag.playable {
+  background-color: #8AFF99;
+  color: #444;
+}
+
+.darkTheme .tag.semi-playable {
+  background-color: #FBB463;
+  color: #444;
+}
+
+.darkTheme .tag.unplayable {
+  background-color: #FF786B;
+  color: #444;
 }
