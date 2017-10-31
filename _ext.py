@@ -158,7 +158,7 @@ def parse_data(site):
             combined['remakes'] = combined_remakes
         combined_clones = [
             clone for clone in clones
-            if 'remakes' in clone and name in clone['remakes']
+            if 'clones' in clone and name in clone['clones']
         ]
         if len(combined_clones) > 0:
             combined['clones'] = combined_clones
