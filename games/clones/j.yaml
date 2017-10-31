@@ -1,0 +1,144 @@
+- name: Jagged Alliance 2 - Stracciatella
+  url: http://ja2-stracciatella.github.io/
+  repo: https://github.com/ja2-stracciatella/ja2-stracciatella
+  status: playable
+  development: active
+  lang: [C++, C]
+  license: [PD]
+  updated: 2013-05-27
+  images: ['https://ja2-stracciatella.github.io/img/features/high-res.jpg', 'https://ja2-stracciatella.github.io/img/features/integrated-editor.jpg']
+  remakes: [Jagged Alliance 2]
+- name: Jake2
+  url: http://bytonic.de/html/jake2.html
+  repo: git://git.code.sf.net/p/jake2/git
+  updated: 2015-04-03
+  development: active
+  lang: Java
+  license: [GPL2]
+  images: ['https://a.fsdn.com/con/app/proj/jake2/screenshots/31155.jpg']
+  remakes: [Quake 2]
+- name: javascript-E.T.
+  updated: 2015-07-14
+  repo: https://github.com/FranciscoG/javascript-E.T.
+  development: sporadic
+  framework: HTML5
+  lang: JavaScript
+  license: [MIT]
+  remakes: [E.T. the Extra-Terrestrial]
+- name: JediAcademyLinux
+  url: https://github.com/xLAva/JediAcademyLinux
+  updated: 2013-05-28
+  status: playable
+  development: active
+  lang: C++
+  remakes: ['Jedi Knight: Jedi Academy']
+- name: JediOutcastLinux
+  url: https://github.com/xLAva/JediOutcastLinux
+  updated: 2013-05-28
+  status: playable
+  development: active
+  lang: C++
+  remakes: ['Jedi Knight II: Jedi Outcast']
+- name: Jet Lee
+  updated: 2015-08-23
+  repo: https://github.com/Uvadzucumi/JetLee
+  development: active
+  lang: C++
+  images: ['https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-01.png',
+    'https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-03.png']
+  remakes: [Bruce Lee]
+- name: Jet-Story
+  updated: 2016-02-08
+  repo: https://github.com/adamenkov/jet-story
+  development: active
+  lang: C++
+  license: [MIT]
+  remakes: [Jet-Story]
+- name: Jetpac remake
+  updated: 2015-05-10
+  repo: https://github.com/ian-wigley/JetPac
+  development: complete
+  framework: XNA
+  lang: C#
+  remakes: [Jetpac]
+- name: jewelthief
+  repo: https://github.com/frittatenbank/jewelthief
+  updated: 2016-08-28
+  development: active
+  license: [CC-BY]
+  lang: Java
+  images: ['https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163225.png',
+    'https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163328.png',
+    'https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163342.png',
+    'https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163421.png']
+  remakes: [Jewel Thief]
+- name: jffe
+  updated: 2016-01-10
+  development: halted
+  lang: C++
+  repo: https://github.com/videogamepreservation/jjffe
+  framework: SDL
+  remakes: [Elite III]
+- name: JonoF's Shadow Warrior Port (JFSW)
+  url: http://www.jonof.id.au/jfsw
+  repo: http://svnweb.freebsd.org/ports/head/games/jfsw/
+  status: playable
+  development: active
+  lang: C
+  updated: 2015-04-03
+  images: ['http://static.jonof.id.au/modsuppt/jfsw/shot_gl1.png', 'http://static.jonof.id.au/modsuppt/jfsw/shot_gl2.png',
+    'http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png']
+  remakes: [Shadow Warrior]
+- name: JOverflow
+  updated: 2015-06-22
+  repo: https://github.com/bluepoke/JOverflow
+  development: halted
+  lang: Java
+  remakes: [Overflow]
+- name: JSettlers
+  url: http://www.settlers-android-clone.com/
+  repo: https://github.com/jsettlers/settlers-remake
+  updated: 2015-04-06
+  development: active
+  content: commercial
+  lang: Java
+  license: [MIT]
+  images: ['http://www.settlers-android-clone.com/wp-content/gallery/screenshots_win7/SoldiersFighting_1.png']
+  remakes: [The Settlers III]
+- name: jspacman-canvas
+  repo: https://github.com/hguillermo/jspacman-canvas
+  updated: 2015-05-20
+  url: http://www.hg10101.com/games/jspacman/index.html
+  development: halted
+  lang: JavaScript
+  framework: HTML canvas
+  remakes: [Pac-Man]
+- name: Jump'n'Bump
+  updated: 2015-04-25
+  url: https://www.icculus.org/jumpnbump/
+  development: halted
+  lang: C
+  license: [GPL2]
+  remakes: [Jump 'n Bump]
+- name: 'Jumping Jack 2: Worryingly Familiar'
+  updated: 2015-04-13
+  url: http://retrospec.sgn.net/game/jj2
+  development: halted
+  lang: C++
+  repo: http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip
+  remakes: [Jumping Jack]
+- name: 'Jumping Jack: Further Adventures'
+  updated: 2015-04-13
+  url: http://retrospec.sgn.net/game/jj
+  development: halted
+  lang: C++
+  repo: http://retrospec.sgn.net/users/nwalker/jack/jj.zip
+  remakes: [Jumping Jack]
+- name: Jumpman
+  url: http://www.oldskool.org/pc/jumpman
+  updated: 2015-05-09
+  development: halted
+  lang: Assembly
+  repo: http://www.oldskool.org/pc/jumpman/jump_src.zip
+  images: ['http://www.oldskool.org/pc/jumpman/level01.gif']
+  remakes: [Jumpman]
