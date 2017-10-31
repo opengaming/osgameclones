@@ -1,3 +1,4 @@
+import copy
 import sys
 import pprint
 import os, os.path as op
@@ -111,27 +112,58 @@ def show_validation_errors(data, errors):
 
 def parse_data(site):
     base = op.join(op.dirname(__file__), 'games')
-    data = []
 
-    for fn in sorted(os.listdir(base)):
+    originals = []
+    for fn in sorted(os.listdir(op.join(base, 'originals'))):
         if fn.endswith('.yaml'):
-            data.extend(yaml.load(open(op.join(base, fn))))
-
-    print(str(len(data)) + ' games in total')
+            originals.extend(yaml.load(open(op.join(base, 'originals', fn))))
+    print(str(len(originals)) + ' games in total')
 
     try:
-        core = Core(source_data=data, schema_files=['schema.yaml'])
+        core = Core(source_data=originals, schema_files=['schema_originals.yaml'])
         core.validate(raise_exception=True)
     except Exception as error:
         if len(core.errors) > 0:
-            show_validation_errors(data, core.errors)
+            show_validation_errors(originals, core.errors)
         else:
             raise error
 
-    for item in data:
+    clones = []
+    for fn in sorted(os.listdir(op.join(base, 'clones'))):
+        if fn.endswith('.yaml'):
+            clones.extend(yaml.load(open(op.join(base, 'clones', fn))))
+    print(str(len(clones)) + ' clones in total')
+
+    try:
+        core = Core(source_data=clones, schema_files=['schema_clones.yaml'])
+        core.validate(raise_exception=True)
+    except Exception as error:
+        if len(core.errors) > 0:
+            show_validation_errors(clones, core.errors)
+        else:
+            raise error
+
+    for item in originals:
         parse_global_tags(site, item.get('meta', {}), 'genre')
-        parse_items(site, item, 'remakes')
-        parse_items(site, item, 'clones')
+        # Recombine originals and clones
+        combined = copy.deepcopy(item)
+        name = combined['name']
+        if isinstance(name, list):
+            name = name[0]
+        combined_remakes = [
+            clone for clone in clones
+            if 'remakes' in clone and name in clone['remakes']
+        ]
+        if len(combined_remakes) > 0:
+            combined['remakes'] = combined_remakes
+        combined_clones = [
+            clone for clone in clones
+            if 'remakes' in clone and name in clone['remakes']
+        ]
+        if len(combined_clones) > 0:
+            combined['clones'] = combined_clones
+        parse_items(site, combined, 'remakes')
+        parse_items(site, combined, 'clones')
 
 
 def callback(site):

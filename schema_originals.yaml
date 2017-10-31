@@ -9,14 +9,6 @@ sequence:
         type: any
       meta:
         include: meta
-      remakes:
-        type: seq
-        sequence:
-          - include: game
-      clones:
-        type: seq
-        sequence:
-          - include: game
 
 schema;meta:
   type: map
@@ -33,54 +25,6 @@ schema;meta:
       type: seq
       sequence:
         - include: themes
-
-schema;game:
-  type: map
-  mapping:
-    name:
-      required: True
-      type: str
-    repo:
-      required: False # Work towards making it True
-      type: str
-    url:
-      type: str
-    development:
-      type: str
-      enum: ['complete', 'very active', 'active', 'sporadic', 'halted']
-    status:
-      type: str
-      enum: ['playable', 'semi-playable', 'unplayable']
-    content:
-      type: str
-      enum: ['commercial', 'free', 'open', 'swapable']
-    lang:
-      type: any
-    framework:
-      type: any
-    license:
-      required: False # Work towards making it True
-      type: seq
-      sequence:
-        - include: licenses
-    info:
-      type: str
-    updated:
-      type: any
-    images:
-      type: seq
-      sequence:
-        - type: str
-    video:
-      type: map
-      mapping:
-        youtube:
-          type: str
-          range:
-            min: 11
-            max: 11
-        vimeo:
-          type: int
 
 
 # -- ADD NEW GENRES TO 'SUBGENRE' SCHEMA --
@@ -199,41 +143,4 @@ schema;themes:
     'Western',
     'World War I',
     'World War II',
-  ]
-
-# Based on SPDX license codes
-# https://spdx.org/licenses/
-schema;licenses:
-  type: str
-  enum: [
-    'Custom', # Catch-all for custom licenses
-    'Multiple', # Catch-all for multiple licenses
-    'PD', # Public Domain
-    'As-is', # Catch-all for as-is, as-available licenses
-    'AGPL3',
-    'Apache',
-    'Artistic',
-    'BSD',
-    'BSD2',
-    'BSD4',
-    'CC0',
-    'CC-BY',
-    'CC-BY-NC',
-    'CC-BY-NC-ND',
-    'CC-BY-NC-SA',
-    'CC-BY-SA',
-    'GPL',
-    'GPL2',
-    'GPL3',
-    'ISC',
-    'JRL', # Java Research License
-    'LGPL',
-    'LGPL2',
-    'MAME', # MAME or MAME-like License
-    'MIT',
-    'MPL', # Mozilla Public License
-    'MS-PL', # Microsoft Public License
-    'NGPL', # Nethack General Public License,
-    'WTFPL', # Do What The F*ck You Want To Public License
-    'Zlib',
   ]
