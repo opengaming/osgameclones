@@ -20,6 +20,10 @@ If you're adding a new clone/remake:
 
 ```yaml
 name: # required : Name of clone/remake
+remakes:
+  - # List names of original games that this game remakes (usually just one), see below
+clones:
+  - # List names of original games that this game clones (usually just one), see below
 repo: # Link to source code
 url: # Link to website
 development: # One of: complete, very active, active, sporadic, halted
@@ -49,10 +53,6 @@ If you're adding a new game group:
     genre: [] # See genres in schema.yaml
     subgenre: [] # See genres in schema.yaml
     theme: [] # See genres in schema.yaml
-  remakes:
-    - # List of remakes, see above
-  clones:
-    - # List of clones, see above
 ```
 
 A Wikipedia link is created for all original game names; if the article link is different, use the following syntax:
@@ -67,10 +67,11 @@ If the game has a non-Wikipedia link:
 name: [Name, 'http://www.example.com']
 ```
 
-Please refer to the [template][template] and the [`schema.yaml`][schema] file
+Please refer to the [template][template] and the schema files ([original][schema_original], [clone][schema_clone])
 when adding new games.
 
 
 [games]: https://github.com/piranha/osgameclones/tree/master/games
-[schema]: https://github.com/piranha/osgameclones/edit/master/schema.yaml
+[schema_original]: https://github.com/piranha/osgameclones/edit/master/schema_original.yaml
+[schema_clone]: https://github.com/piranha/osgameclones/edit/master/schema_clone.yaml
 [template]: https://github.com/piranha/osgameclones/blob/master/.github/ISSUE_TEMPLATE.md
