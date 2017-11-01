@@ -67,11 +67,11 @@ If the game has a non-Wikipedia link:
 name: [Name, 'http://www.example.com']
 ```
 
-Please refer to the [template][template] and the schema files ([original][schema_original], [clone][schema_clone])
+Please refer to the [template][template] and the schema files ([originals][schema_originals], [clones][schema_clones])
 when adding new games.
 
 
 [games]: https://github.com/piranha/osgameclones/tree/master/games
-[schema_original]: https://github.com/piranha/osgameclones/edit/master/schema_original.yaml
-[schema_clone]: https://github.com/piranha/osgameclones/edit/master/schema_clone.yaml
+[schema_originals]: https://github.com/piranha/osgameclones/edit/master/schema_originals.yaml
+[schema_clones]: https://github.com/piranha/osgameclones/edit/master/schema_clones.yaml
 [template]: https://github.com/piranha/osgameclones/blob/master/.github/ISSUE_TEMPLATE.md
