@@ -4,7 +4,8 @@ New game
 
 ```yaml
 - name:
-  remakes:
+  remakes: []
+  clones: []
   repo:
   url:
   development:
