@@ -21,11 +21,12 @@ If you're adding a new clone/remake:
 ```yaml
 name: # required : Name of clone/remake
 remakes:
-  - # List names of original games that this game remakes (usually just one), see below
+  - [] # List names of original games that this game remakes (usually just one), see below
 clones:
-  - # List names of original games that this game clones (usually just one), see below
+  - [] # List names of original games that this game clones (usually just one), see below
 repo: # Link to source code
 url: # Link to website
+feed: # Link to RSS/Atom feed
 development: # One of: complete, very active, active, sporadic, halted
 status: # One of: playable, semi-playable, unplayable
 lang: [] # List of programming languages used

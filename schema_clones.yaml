@@ -23,6 +23,8 @@ schema;game:
       type: str
     url:
       type: str
+    feed:
+      type: str
     development:
       type: str
       enum: ['complete', 'very active', 'active', 'sporadic', 'halted']

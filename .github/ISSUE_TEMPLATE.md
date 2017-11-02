@@ -8,6 +8,7 @@ New game
   clones: []
   repo:
   url:
+  feed:
   development:
   status:
   lang: []

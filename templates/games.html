@@ -70,6 +70,10 @@
 
     {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif %}
 
+    {%- if 'feed' in game %}
+      <a href="{{ game['feed'] }}"><img src="static/feed-icon-14x14.png"/></a>
+    {%- endif %}
+
     {{ tags.render_tag('status', game['status'] | title) }}
     {{ tags.render_tag('development', game['development'] | title) }}
     {{ tags.render_tag('lang', game['lang']) }}
