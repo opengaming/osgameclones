@@ -30,7 +30,7 @@ development: # One of: complete, very active, active, sporadic, halted
 status: # One of: playable, semi-playable, unplayable
 lang: [] # List of programming languages used
 framework: [] # List of engines/tools used
-license: # See licenses in schema.yaml
+license: # See licenses in schema_clones.yaml
 content: # One of: commercial, free, open, swapable # free means no cost, open means liberally licensed
 info: # Notes about the game
 updated: # Date when game was added or updated
@@ -50,9 +50,9 @@ If you're adding a new game group:
   names:
     - # Other names for the game, or other games in the series
   meta:
-    genre: [] # See genres in schema.yaml
-    subgenre: [] # See genres in schema.yaml
-    theme: [] # See genres in schema.yaml
+    genre: [] # See genres in schema_originals.yaml
+    subgenre: [] # See genres in schema_originals.yaml
+    theme: [] # See genres in schema_originals.yaml
 ```
 
 A Wikipedia link is created for all original game names; if the article link is different, use the following syntax:
