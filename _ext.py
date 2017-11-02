@@ -8,6 +8,7 @@ from functools import partial
 
 import yaml
 from cyrax import events
+from natsort import natsorted, ns
 from pykwalify.core import Core
 
 
@@ -32,6 +33,10 @@ def validate(item, key):
 
 def names(item):
     return [item['name']] + item.get('names', [])
+
+
+def game_name(game):
+    return game['name'][0] if isinstance(game['name'], list) else game['name']
 
 
 def parse_tag(tag):
@@ -101,8 +106,7 @@ def show_validation_errors(data, errors):
     for error in errors:
         path = error.path.split('/')
         game = data[int(path[1])]
-        nameRaw = game.get('name')
-        name = nameRaw if type(nameRaw) != list else nameRaw[0]
+        name = game_name(game)
 
         print('\033[91m' + '  ' + name.encode('utf-8') + '\033[0m')
         print('    ' + error.__repr__())
@@ -114,9 +118,18 @@ def parse_data(site):
     base = op.join(op.dirname(__file__), 'games')
 
     originals = []
-    for fn in sorted(os.listdir(op.join(base, 'originals'))):
+    for fn in os.listdir(op.join(base, 'originals')):
         if fn.endswith('.yaml'):
             originals.extend(yaml.load(open(op.join(base, 'originals', fn))))
+    def sort_key(game):
+        name = game_name(game)
+        # Always sort SCUMM first
+        if name == 'SCUMM':
+            return '0'
+        if name.startswith('The '):
+            return name[4:]
+        return name
+    originals = natsorted(originals, key=sort_key, alg=ns.IGNORECASE)
     print(str(len(originals)) + ' games in total')
 
     try:
@@ -147,9 +160,7 @@ def parse_data(site):
         parse_global_tags(site, item.get('meta', {}), 'genre')
         # Recombine originals and clones
         combined = copy.deepcopy(item)
-        name = combined['name']
-        if isinstance(name, list):
-            name = name[0]
+        name = game_name(combined)
         combined_remakes = [
             clone for clone in clones
             if 'remakes' in clone and name in clone['remakes']
