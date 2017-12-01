@@ -133,7 +133,7 @@ def parse_data(site):
     print(str(len(originals)) + ' games in total')
 
     try:
-        core = Core(source_data=originals, schema_files=['schema_originals.yaml'])
+        core = Core(source_data=originals, schema_files=['schema/originals.yaml'])
         core.validate(raise_exception=True)
     except Exception as error:
         if len(core.errors) > 0:
@@ -148,7 +148,7 @@ def parse_data(site):
     print(str(len(clones)) + ' clones in total')
 
     try:
-        core = Core(source_data=clones, schema_files=['schema_clones.yaml'])
+        core = Core(source_data=clones, schema_files=['schema/games.yaml'])
         core.validate(raise_exception=True)
     except Exception as error:
         if len(core.errors) > 0:
