@@ -489,22 +489,29 @@
   images: ['https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg']
   remakes: ['Populous: The Beginning']
 - name: OpenRA
+  remakes: [Command & Conquer]
   url: http://www.openra.net
   repo: https://github.com/OpenRA/OpenRA
   development: active
   lang: C#
   license: [GPL3]
-  images: ['http://www.openra.net/images/news/20150531-ra-editor.png', 'http://www.openra.net/images/news/20140405-beacons.png',
-    'http://www.openra.net/images/news/20150808-d2k-range-circles.png']
-  video: {youtube: CAK-SwSZjbY}
-  remakes: [Command & Conquer]
+  multiplayer: [online, lan]
+  images:
+    - http://www.openra.net/images/news/20150531-ra-editor.png
+    - http://www.openra.net/images/news/20140405-beacons.png
+    - http://www.openra.net/images/news/20150808-d2k-range-circles.png
+  video:
+    youtube: CAK-SwSZjbY
+
 - name: OpenRaider
   url: https://github.com/xythobuz/OpenRaider
   development: active
   lang: C++
   updated: 2014-04-28
-  images: ['http://picload.org/image/llawpip/openraider_sdl2.png', 'http://picload.org/image/llawpic/openraider_old2.png',
-    'http://picload.org/image/llawpia/openraider_old.png']
+  images:
+    - http://picload.org/image/llawpip/openraider_sdl2.png
+    - http://picload.org/image/llawpic/openraider_old2.png
+    - http://picload.org/image/llawpia/openraider_old.png
   remakes: [Tomb Raider]
 - name: OpenRails
   url: http://openrails.org/
