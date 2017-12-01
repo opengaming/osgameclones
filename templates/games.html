@@ -78,7 +78,11 @@
     {{ tags.render_tag('development', game['development'] | title) }}
     {{ tags.render_tag('lang', game['lang']) }}
     {{ tags.render_tag('framework', game['framework']) }}
-    {{ tags.render_tag('multiplayer', game['multiplayer']) }}
+
+    {%- if 'multiplayer' in game %}
+      {{ tags.render_tag('multiplayer', 'Multiplayer') }}
+    {%- endif %}
+
     {{ tags.render_tag('content', game['content'] | title) }}
     {{ tags.render_tag('license', game['license']) }}
 
