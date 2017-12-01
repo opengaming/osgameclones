@@ -35,7 +35,7 @@ schema;game:
       type: seq
       sequence:
         - type: str
-          enum: ['online', 'lan', 'split-screen', 'co-op', 'hotseat', 'matchmaking']
+          enum: ['Online', 'LAN', 'Split-screen', 'Co-Op', 'Hotseat', 'Matchmaking']
     content:
       type: str
       enum: ['commercial', 'free', 'open', 'swapable']
