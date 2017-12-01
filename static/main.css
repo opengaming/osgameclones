@@ -164,19 +164,11 @@ dd + dt { margin-top: 1em; }
 .tag.license:hover { color: #444; background-color: #FFFF8C; }
 .tag.lang:hover { color: #444; background-color: #9CFFFF; }
 .tag.framework:hover { color: #444; background-color: #FF786B; }
+.tag.multiplayer:hover { color: #444; background-color: #F8B5B3; }
 
-.tag.playable {
-  background-color: #8AFF99;
-}
-
-.tag.semi-playable {
-  background-color: #FBB463;
-}
-
-.tag.unplayable {
-  background-color: #FF786B;
-}
-
+.tag.playable { background-color: #8AFF99; }
+.tag.semi-playable { background-color: #FBB463; }
+.tag.unplayable { background-color: #FF786B; }
 
 #filter {
   display: inline-block;
