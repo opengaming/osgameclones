@@ -31,6 +31,11 @@ schema;game:
     status:
       type: str
       enum: ['playable', 'semi-playable', 'unplayable']
+    multiplayer:
+      type: seq
+      sequence:
+        - type: str
+          enum: ['online', 'lan', 'split-screen', 'co-op', 'hotseat', 'matchmaking']
     content:
       type: str
       enum: ['commercial', 'free', 'open', 'swapable']
