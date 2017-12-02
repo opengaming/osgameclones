@@ -76,6 +76,37 @@ If the game has a non-Wikipedia link:
 name: [Name, 'http://www.example.com']
 ```
 
+## Contributing
+
+### Pre-requisites
+
+* [Python 2][python]
+* [virtualenv][virtualenv]
+
+
+### Install
+
+Clone this repository and run inside the directory:
+
+```
+virtualenv .env
+source .env/bin/activate
+make install
+```
+### Building
+
+Make sure the virtual env is active, if not run:
+
+```
+source .env/bin/activate
+```
+
+Then simply run the following to build the project into the `_build` directory.
+
+```
+make
+```
+
 ## License
 
 See [LICENSE][license]
@@ -86,3 +117,6 @@ See [LICENSE][license]
 [schema_originals]: schema/originals.yaml
 [template]: .github/ISSUE_TEMPLATE.md
 [license]: LICENSE
+
+[python]: https://www.python.org
+[virtualenv]: https://virtualenv.pypa.io
