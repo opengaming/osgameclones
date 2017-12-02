@@ -76,9 +76,13 @@ If the game has a non-Wikipedia link:
 name: [Name, 'http://www.example.com']
 ```
 
+## License
+
+See [LICENSE][license]
 
 [games]: games/
 [originals]: originals/
 [schema_games]: schema/games.yaml
 [schema_originals]: schema/originals.yaml
 [template]: .github/ISSUE_TEMPLATE.md
+[license]: ./LICENSE
