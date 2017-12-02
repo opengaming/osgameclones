@@ -6,7 +6,7 @@ those already in the database.
 
 ## Games database
 
-Check out the YAML files under [`/games`][games]. All information is inside, and you should more or less
+Check out the YAML files under [`/games`][games] and [`/originals`][originals]. All information is inside, and you should more or less
 understand what's going on by reading it. Sorting is alphabetical, with the
 exception of ScummVM, just because it's so many games at once.
 
@@ -72,7 +72,8 @@ Please refer to the [template][template] and the schema files ([originals][schem
 when adding new games.
 
 
-[games]: https://github.com/piranha/osgameclones/tree/master/games
-[schema_originals]: https://github.com/piranha/osgameclones/edit/master/schema_originals.yaml
-[schema_clones]: https://github.com/piranha/osgameclones/edit/master/schema_clones.yaml
-[template]: https://github.com/piranha/osgameclones/blob/master/.github/ISSUE_TEMPLATE.md
+[games]: games/
+[originals]: originals/
+[schema_originals]: schema_originals.yaml
+[schema_clones]: schema_clones.yaml
+[template]: .github/ISSUE_TEMPLATE.md
