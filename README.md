@@ -16,7 +16,7 @@ exception of ScummVM, just because it's so many games at once.
 Simplest way to contribute is to fill in the [template][template] presented when you create
 a new issue. Even better if you edit the files in the [`games`][games] directory directly. Your
 changes will be submitted as a pull request. All games are validated against the rules
-in the [`/schema/games.yaml`][schema_games] validation file.
+in the [`schema/games.yaml`][schema_games] validation file.
 
 If you're adding a new clone/remake:
 
@@ -34,7 +34,7 @@ multiplayer:    enum       # Any of: Online, LAN, Split-screen, Co-op, Hotseat, 
 lang:           array      # List of programming languages used
 framework:      array      # List of engines/tools used
 license:        enum       # One of licenses listed in games schema
-content:        string     # One of: commercial, free, open, swapable*
+content:        string     # One of: commercial, free, open, swappable*
 info:           string     # Miscellaneous notes about the game
 updated:        string     # Date when game was added or updated
 images:         array      # Link(s) to screenshot(s)

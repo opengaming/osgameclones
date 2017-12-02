@@ -38,7 +38,7 @@ schema;game:
           enum: ['Online', 'LAN', 'Split-screen', 'Co-op', 'Hotseat', 'Matchmaking']
     content:
       type: str
-      enum: ['commercial', 'free', 'open', 'swapable']
+      enum: ['commercial', 'free', 'open', 'swappable']
     lang:
       type: any
     framework:
