@@ -27,10 +27,22 @@
   {{ name | lower | replace(' ', '-') }}-{{mode}}
 {%- endmacro %}
 
+{% macro show_tags(game) -%}
+  {%- if 'multiplayer' in game %}
+    {{ game.tags.append('multiplayer') }}
+  {% endif -%}
+
+  {{ game.tags | join(' ') }}
+{%- endmacro %}
+
 {% macro show_keywords(game, names) -%}
   {{ game.name | lower | e -}}{{ ' ' -}}
   {{ game.tags | join(' ') -}}{{ ' ' -}}
   {{ game.info | lower | e -}}{{ ' ' -}}
+
+  {%- if game.new %}
+    {{ 'new updated added' }}
+  {% endif %}
 
   {%- if 'multiplayer' in game -%}
     {{ 'multiplayer' }}
@@ -61,9 +73,8 @@
           {% set name = names.0.0 %}
         {%- endif -%}
         {{ show_id(name, mode) }}"
-      data-tags="{{ game.tags | join(' ') }}"
-      data-index="{{ show_keywords(game, names) -}}
-        {%- if game.new %} new updated added{% endif %}">
+      data-tags="{{ show_tags(game) -}}"
+      data-index="{{ show_keywords(game, names) -}}">
     <span class="{% if 'images' in game or 'video' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     {%- if 'url' in game -%}
