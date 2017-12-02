@@ -91,9 +91,18 @@ def parse_items(site, item, key):
         if not getattr(site, key, False):
             setattr(site, key, [])
 
-        meta = item.get('meta', {})
         meta_tags = ['genre', 'subgenre', 'theme']
-        game_tags = ['status', 'development', 'lang', 'framework', 'content', 'license']
+        game_tags = [
+            'status',
+            'development',
+            'lang',
+            'framework',
+            'content',
+            'license',
+            'multiplayer'
+        ]
+
+        meta = item.get('meta', {})
         parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)
 
         for game in item[key]:
