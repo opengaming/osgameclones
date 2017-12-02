@@ -20,25 +20,25 @@ If you're adding a new clone/remake:
 
 ```yaml
 
-name: string            # Name of clone/remake (required)
-remakes: array          # Name reference to original game(s) that this game remakes
-clones: array           # Name reference to original game(s) that this game clones
-repo: string            # Link to source code
-url: string             # Link to website
-feed: string            # Link to RSS/Atom feed
-development: enum       # One of: complete, very active, active, sporadic, halted
-status: enum            # One of: playable, semi-playable, unplayable
-multiplayer: enum       # One of: Online, LAN, Split-screen, Co-op, Hotseat, Matchmaking
-lang: array             # List of programming languages used
-framework: array        # List of engines/tools used
-license: enum           # One of licenses listed in games schema file
-content: string         # One of: commercial, free, open, swapable*
-info: string            # Miscellaneous notes about the game
-updated: string         # Date when game was added or updated
-images: array           # Link(s) to screenshot(s)
+name:           string     # Name of clone/remake (required)
+remakes:        array      # Name reference to original game(s) that this game remakes
+clones:         array      # Name reference to original game(s) that this game clones
+repo:           string     # Link to source code
+url:            string     # Link to website
+feed:           string     # Link to RSS/Atom feed
+development:    enum       # One of: complete, very active, active, sporadic, halted
+status:         enum       # One of: playable, semi-playable, unplayable
+multiplayer:    enum       # Any of: Online, LAN, Split-screen, Co-op, Hotseat, Matchmaking
+lang:           array      # List of programming languages used
+framework:      array      # List of engines/tools used
+license:        enum       # One of licenses listed in games schema
+content:        string     # One of: commercial, free, open, swapable*
+info:           string     # Miscellaneous notes about the game
+updated:        string     # Date when game was added or updated
+images:         array      # Link(s) to screenshot(s)
 video:
-  youtube: string       # YouTube video ID
-  vimeo: number         # Vimeo video ID
+  youtube:      string     # YouTube video ID
+  vimeo:        number     # Vimeo video ID
 
 # * free means no cost, open means liberally licensed
 ```
@@ -48,12 +48,12 @@ video:
 If you're adding a new game group:
 
 ```yaml
-- name: string          # Name of the original game (required)
-  names: array          # Other names for the game, or other games in the series
+- name:         string     # Name of the original game (required)
+  names:        array      # Other names for the game, or other games in the series
   meta:
-    genre: array        # See genres in originals schema
-    subgenre: array     # See genres in originals schema
-    theme: array        # See genres in originals schema
+    genre:      enum       # Any of genres in originals schema
+    subgenre:   enum       # Any of subgenres in originals schema
+    theme:      enum       # Any of themes in originals schema
 ```
 
 A Wikipedia link is created for all original game names; if the article link is different, use the following syntax:
