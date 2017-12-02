@@ -61,7 +61,7 @@ in the [`schema/originals.yaml`][schema_originals] validation file.
     theme:      enum       # Any of themes in originals schema
 ```
 
-### Linking
+### External links to article about an original game
 
 A Wikipedia link is created for all original game names; if the article link is different,
 use the following syntax:
