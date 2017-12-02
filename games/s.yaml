@@ -1,3 +1,4 @@
+
 - name: sccopter
   repo: https://github.com/fr0zi/sccopter
   development: active
@@ -6,6 +7,7 @@
   updated: 2016-01-10
   status: unplayable
   remakes: [SimCopter]
+
 - name: Scorched Moon
   updated: 2015-06-24
   url: http://scorched-moon.github.io/site/
@@ -22,12 +24,14 @@
   lang: C++
   license: [GPL2]
   clones: [Scorched Earth]
+
 - name: Scramble
   updated: 2015-05-09
   lang: PowerBASIC
   repo: http://gamesoft.ca/bestgames/scramble_source.zip
   images: ['http://gamesoft.ca/bestgames/images/scrcap06.png']
   remakes: [Scramble]
+
 - name: ScummVM
   url: http://scummvm.org/
   repo: https://github.com/scummvm/scummvm
@@ -40,6 +44,7 @@
     'http://scummvm.org/data/screenshots/revolution/sky/scummvm_2_5_0-full.png', 'http://scummvm.org/data/screenshots/tinsel/dw2-1-full.png',
     'http://scummvm.org/data/screenshots/sci/pq/pq1sci-3-full.png', 'http://scummvm.org/data/screenshots/revolution/sword/sword2-de-1-full.png']
   remakes: [SCUMM]
+
 - name: SDL Asylum
   updated: 2015-04-17
   url: http://sdl-asylum.sourceforge.net/
@@ -50,6 +55,7 @@
   images: ['https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136705.jpg', 'https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/134775.jpg',
     'https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136451.jpg']
   remakes: [Asylum]
+
 - name: SDL Bomber
   repo: http://www.linuxmotors.com/SDL_bomber/downloads/
   url: http://www.linuxmotors.com/SDL_bomber/
@@ -71,6 +77,7 @@
   images: ['http://sdl-sopwith.sourceforge.net/sshot/title.png', 'http://sdl-sopwith.sourceforge.net/sshot/runway.png',
     'http://sdl-sopwith.sourceforge.net/sshot/sopwith_metacity.png']
   remakes: [Sopwith]
+
 - name: SDLPoP
   url: http://www.popot.org/get_the_games.php?game=SDLPoP
   repo: https://github.com/NagyD/SDLPoP
@@ -79,12 +86,14 @@
   development: active
   updated: 2015-05-30
   remakes: [Prince of Persia]
+
 - name: Seaquest
   repo: https://github.com/brunocmorais/Seaquest
   updated: 2015-06-22
   development: sporadic
   lang: C#
   remakes: [Seaquest]
+
 - name: Secret Maryo Chronicles
   url: http://secretmaryo.org/
   repo: https://github.com/FluXy/SMC
@@ -93,6 +102,7 @@
   images: ['http://secretmaryo.org/images/screenshot/2.0/media/1.png', 'http://secretmaryo.org/images/screenshot/2.0/media/2.png',
     'http://secretmaryo.org/images/screenshot/2.0/media/3.png']
   remakes: [Mario World]
+
 - name: sensitive-js
   updated: 2017-04-27
   repo: https://github.com/bylexus/sensitive-js
@@ -100,6 +110,7 @@
   development: active
   images: ['https://raw.githubusercontent.com/bylexus/sensitive-js/master/screen-remake.png']
   remakes: [Sensitive]
+
 - name: sentinel
   repo: https://github.com/virgo47/sentinel
   updated: 2015-05-29
@@ -107,12 +118,14 @@
   lang: [Java]
   framework: [JavaFX]
   remakes: [The Sentinel]
+
 - name: 'Seven Kingdoms: Ancient Adversaries'
   development: active
   lang: C++
   url: http://7kfans.com/
   repo: http://7kfans.com/git/?p=7kaa.git;a=summary
   remakes: [Seven Kingdoms]
+
 - name: shadow-of-the-beast-html5
   repo: https://github.com/spleennooname/shadow-of-the-beast-html5
   development: active
@@ -121,6 +134,7 @@
   lang: JavaScript
   license: Apache 2.0
   remakes: [Shadow of the Beast]
+
 - name: shadowgrounds
   repo: https://github.com/vayerx/shadowgrounds
   updated: 2015-04-14
@@ -128,6 +142,7 @@
   lang: C++
   license: [Custom]
   remakes: ['Shadowgrounds: Survivor']
+
 - name: Shining Force 2 Reverse Engineer (SF2RE)
   updated: 2015-05-10
   repo: https://github.com/ShiningForceCentral/SF2RE
@@ -135,6 +150,7 @@
   info: reverse engineering project
   lang: C
   remakes: [Shining Force II]
+
 - name: Shining Soul Remake
   updated: 2016-04-11
   repo: https://github.com/CharlieIsMyName/ShiningSoulRemake
@@ -143,6 +159,7 @@
   framework: [pygame]
   license: [As-is]
   remakes: [Shining Soul]
+
 - name: Siege of Avalon Open Source
   updated: 2015-04-08
   url: http://soaos.sourceforge.net/
@@ -153,6 +170,7 @@
   images: ['http://soaos.sourceforge.net/images/shots/scrshot2.jpg', 'http://soaos.sourceforge.net/images/shots/scrshot1.jpg',
     'http://soaos.sourceforge.net/images/shots/scrshot4.jpg']
   remakes: [Siege of Avalon]
+
 - name: Simutrans
   development: active
   status: playable
@@ -162,6 +180,7 @@
   license: [Artistic]
   images: ['https://upload.wikimedia.org/wikipedia/commons/d/de/Simutrans_pak64.png']
   clones: [Transport Tycoon]
+
 - name: Sine
   repo: https://github.com/slx7R4GDZM/Sine
   development: sporadic
@@ -172,6 +191,7 @@
   updated: 2016-10-30
   images: ['https://i.imgur.com/7W8ZdCS.png', 'https://i.imgur.com/IxtKdOS.png']
   remakes: [Asteroids]
+
 - name: Skifree-HTML5-clone
   updated: 2015-06-18
   development: halted
@@ -179,6 +199,7 @@
   license: [GPL3]
   repo: https://github.com/andymason/Skifree-HTML5-clone
   remakes: [SkiFree]
+
 - name: skifree.js
   updated: 2015-05-02
   repo: https://github.com/basicallydan/skifree.js
@@ -196,6 +217,7 @@
   images: ['http://www.slashem.org/3ddrag.png', 'http://www.slashem.org/32tour.png',
     'http://www.slashem.org/fireball.png', 'http://www.slashem.org/trad-tty.png']
   clones: [Hack]
+
 - name: Slot-Racers
   repo: https://github.com/Zillode/Slot-Racers
   updated: 2015-06-25
@@ -203,6 +225,7 @@
   lang: C
   license: [GPL3]
   remakes: [Slot Racers]
+
 - name: snake
   repo: https://github.com/spypunk/snake
   lang: Java
@@ -212,6 +235,7 @@
   updated: 2016-09-14
   images: ['https://raw.githubusercontent.com/spypunk/snake/master/img/screenshot.png']
   remakes: [Snake]
+
 - name: Snipes
   repo: https://github.com/Davidebyzero/Snipes
   url: https://www.vogons.org/viewtopic.php?f=7&t=49073
@@ -225,6 +249,7 @@
     with original game
   updated: 2017-04-04
   remakes: [Snipes]
+
 - name: Solarus
   url: http://www.solarus-games.org/
   repo: https://github.com/christopho/solarus
@@ -234,6 +259,7 @@
   images: ['http://www.zelda-solarus.com/images/zsdx/dungeon1_outside.png', 'http://www.zelda-solarus.com/images/zsdx/dungeon1_1.png']
   video: {youtube: BUxREyXILLs}
   remakes: [Legend of Zelda - A Link to the Past]
+
 - name: SolarWolf
   updated: 2015-04-25
   url: http://pygame.org/shredwheat/solarwolf/index.shtml
@@ -244,6 +270,7 @@
     'http://pygame.org/shredwheat/solarwolf/screen/shot3.jpg', 'http://pygame.org/shredwheat/solarwolf/screen/shot4.jpg',
     'http://pygame.org/shredwheat/solarwolf/screen/shot5.jpg']
   remakes: [Solar Fox]
+
 - name: Sonic Robo Blast 2
   development: active
   lang: [C, Lua]
@@ -253,6 +280,7 @@
   images: ['https://www.srb2.org/wp-content/uploads/21-gfz1.png', 'https://www.srb2.org/wp-content/uploads/21-thz2.png',
     'https://www.srb2.org/wp-content/uploads/21-acz1.png']
   clones: [Sonic the Hedgehog]
+
 - name: Sopwith 3
   url: http://www.wingkong.net/sopwith2b/sopwith3.html
   repo: http://sopwith3.cvs.sourceforge.net/viewvc/sopwith3/
@@ -261,6 +289,7 @@
   license: [GPL2]
   images: ['http://www.wingkong.net/sopwith2b/images/sop3_title.gif']
   remakes: [Sopwith]
+
 - name: Space Nerds In Space
   repo: https://github.com/smcameron/space-nerds-in-space
   updated: 2015-05-02
@@ -268,6 +297,7 @@
   lang: C
   license: [GPL2]
   clones: ['Artemis: Spaceship Bridge Simulator']
+
 - name: Space Station 14
   url: http://www.spacestation14.com/
   repo: https://github.com/ss13remake/ss13remake
@@ -276,6 +306,7 @@
   license: [GPL3]
   updated: 2016-10-09
   remakes: [Space Station 13]
+
 - name: Space Twitch
   url: https://github.com/KirbyAu2/SpaceTwitch
   repo: https://github.com/KirbyAu2/SpaceTwitch
@@ -283,12 +314,14 @@
   development: active
   lang: C#
   remakes: [Tempest]
+
 - name: Space-rangers
   repo: https://github.com/markevich/Space-rangers
   updated: 2015-05-28
   development: halted
   lang: C#
   remakes: [Space Rangers]
+
 - name: spaceroads
   repo: https://github.com/sebhd/spaceroads
   updated: 2015-05-28
@@ -296,6 +329,7 @@
   lang: C++
   framework: Ogre3D
   remakes: [SkyRoads]
+
 - name: Spaceship Duel
   updated: 2015-04-11
   url: https://spaceshipduel.codeplex.com/
@@ -304,6 +338,7 @@
   lang: C#
   license: [BSD]
   remakes: [Transplant]
+
 - name: Speedball 2
   url: http://bringerp.free.fr/RE/Speedball2/remake.php5
   status: semi-playable
@@ -314,6 +349,7 @@
   images: ['http://bringerp.free.fr/RE/Speedball2/Images/WIP%2001.png', 'http://bringerp.free.fr/RE/Speedball2/Images/WIP%2004.png',
     'http://bringerp.free.fr/RE/Speedball2/Images/WIP%2005.png']
   remakes: [Speedball 2]
+
 - name: splexhd
   updated: 2015-05-28
   repo: https://github.com/radu124/splexhd
@@ -329,6 +365,7 @@
   images: ['http://springrts.com/screenshot.php?id=5673', 'http://springrts.com/screenshot.php?id=1787',
     'http://springrts.com/screenshot.php?id=2567']
   remakes: [Total Annihilation]
+
 - name: 'Spring: 1944'
   repo: https://github.com/spring1944/spring1944
   url: http://spring1944.net
@@ -343,6 +380,7 @@
     'http://spring1944.net/wp-content/uploads/2011/07/9_001.jpg']
   video: {youtube: 76jFZvpvwoA}
   clones: [Company of Heroes series]
+
 - name: ss13remake
   repo: https://github.com/ss13remake/ss13remake
   development: halted
@@ -350,6 +388,7 @@
   license: [GPL3]
   updated: 2015-06-24
   remakes: [Space Station 13]
+
 - name: star-control2
   repo: https://github.com/jjimenezg93/star-control2
   development: active
@@ -357,6 +396,7 @@
   license: [MIT]
   updated: 2016-04-11
   remakes: [Star Control 2]
+
 - name: Star-Wars-III
   updated: 2015-06-01
   repo: https://github.com/abhinandanramesh/Star-Wars-III
@@ -371,6 +411,7 @@
   lang: [C++, Lua]
   updated: 2013-06-08
   remakes: [Starcraft]
+
 - name: Starlane Empire
   url: https://gna.org/projects/starlane/
   repo: http://cvs.gna.org/cvsweb/starlane/?cvsroot=starlane
@@ -379,6 +420,7 @@
   lang: C++
   license: [GPL]
   remakes: [Ascendancy]
+
 - name: starshatter-open
   url: https://code.google.com/p/starshatter-open/
   repo: http://starshatter-open.googlecode.com/svn/trunk/
@@ -387,6 +429,7 @@
   lang: C++
   license: [Custom]
   remakes: [Starshatter]
+
 - name: Stepmania
   url: http://www.stepmania.com/
   repo: https://github.com/stepmania/stepmania
@@ -403,6 +446,7 @@
   lang: C++
   images: ['https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png']
   remakes: [Stunt Car Racer]
+
 - name: Stunt Rally
   repo: https://github.com/stuntrally/stuntrally
   url: https://stuntrally.tuxfamily.org
@@ -417,12 +461,14 @@
     'https://lh3.googleusercontent.com/-U71R4-8BVD8/Ve70FGfuhyI/AAAAAAAAFXI/0EgsrSHgRMs-O1GBVCPumZ_Rejsw0qdQwCHM/w1280/11.jpg']
   video: {youtube: Ar7TJMnOHlg}
   clones: [TrackMania]
+
 - name: stuntcarremake
   repo: https://github.com/ptitSeb/stuntcarremake
   development: active
   lang: C++
   updated: 2017-04-04
   remakes: [Stunt Car Racer]
+
 - name: Styx
   url: http://retrospec.sgn.net/game/styx
   updated: 2015-04-12
@@ -430,6 +476,7 @@
   development: halted
   lang: C++
   remakes: [Styx]
+
 - name: Summoning Wars
   repo: https://bitbucket.org/sumwars/sumwars-code
   url: http://www.sumwars.org/
@@ -439,6 +486,7 @@
   images: ['http://sumwars.org/mediawiki/images/0/08/Sumwars_0.5.5_mainmenu.jpg',
     'http://sumwars.org/mediawiki/images/9/95/Sumwars_0.5.5_-Trading_a_bit.jpg', 'http://sumwars.org/mediawiki/images/5/5c/What_a_cute_skeleton_this_is%21.jpg']
   clones: [Diablo]
+
 - name: sundog
   repo: https://github.com/laanwj/sundog
   updated: 2017-04-19
@@ -449,6 +497,7 @@
     'https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/moveonship.png',
     'https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/ship_cockpit.png']
   remakes: ['SunDog: Frozen Legacy']
+
 - name: SunDog Resurrection
   updated: 2017-04-20
   url: http://www.sundogresurrectionproject.com/
@@ -457,6 +506,7 @@
   development: sporadic
   images: ['https://a.fsdn.com/con/app/proj/sundog/screenshots/328849.jpg', 'https://a.fsdn.com/con/app/proj/sundog/screenshots/328851.jpg']
   remakes: ['SunDog: Frozen Legacy']
+
 - name: Super Mario Bros And Level Editor in C#
   url: http://www.myandroidonline.com
   updated: 2015-05-25
@@ -466,6 +516,7 @@
   license: [MIT]
   images: ['https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png']
   clones: [Super Mario]
+
 - name: Super Mario Bros With SFML in C#
   url: https://mario.codeplex.com/
   updated: 2015-05-03
@@ -474,6 +525,7 @@
   lang: C#
   license: [GPL2]
   clones: [Super Mario]
+
 - name: Super Mario War
   url: http://smw.supersanctuary.net/site/
   repo: https://github.com/erlehmann/Super-Mario-War
@@ -484,6 +536,7 @@
   images: ['http://i1-linux.softpedia-static.com/screenshots/Super-Mario-War_1.png',
     'http://s4.7ba.ru/ex/filecontent/screen_ors/9/f/f/9ffbc941653d781f353db1d73b01ed30.deb.jpg']
   clones: [Super Mario]
+
 - name: Super Methane Brothers
   url: http://methane.sourceforge.net/
   status: playable
@@ -492,6 +545,7 @@
   updated: 2014-04-16
   images: ['http://a.fsdn.com/con/app/proj/methane/screenshots/14915.jpg']
   remakes: [Super Methane Brothers]
+
 - name: Super Transball 2
   updated: 2015-05-10
   url: http://www2.braingames.getput.com/stransball2/default.asp
@@ -503,6 +557,7 @@
     'http://www2.braingames.getput.com/stransball2/shot2.jpg', 'http://www2.braingames.getput.com/stransball2/shot3.jpg',
     'http://www2.braingames.getput.com/stransball2/shot5.jpg']
   clones: [Thrust]
+
 - name: super-methane-brothers-gx
   updated: 2015-05-18
   repo: https://github.com/carstene1ns/super-methane-brothers-gx
@@ -511,6 +566,7 @@
   license: [GPL2]
   info: Wii and GameCube port
   remakes: [Super Methane Brothers]
+
 - name: Supercars III
   url: http://jotd.pagesperso-orange.fr/supercars3/
   repo: http://jotd.pagesperso-orange.fr/supercars3/Supercars3_06.zip
@@ -519,6 +575,7 @@
   updated: 2015-04-04
   images: ['http://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg']
   remakes: [Super Cars]
+
 - name: SuperFoulEgg
   repo: https://github.com/ant512/SuperFoulEgg
   updated: 2015-04-05
@@ -526,6 +583,7 @@
   lang: Objective-C
   license: [Custom]
   remakes: [Super Foul Egg]
+
 - name: SuperTux
   repo: https://github.com/SuperTux/supertux
   url: https://supertux.org/
@@ -539,6 +597,7 @@
   images: ['https://supertux.org/images/0_4_0/0_4_0_3.png', 'https://supertux.org/images/0_4_0/0_4_0_10.png',
     'https://supertux.org/images/0_4_0/0_4_0_5.png']
   clones: [Super Mario]
+
 - name: SuperTuxKart
   url: http://supertuxkart.sourceforge.net/
   repo: https://github.com/supertuxkart/stk-code
@@ -550,6 +609,7 @@
     'https://supertuxkart.net/images/6/6a/Supertuxkart-0.9.2-screenshot-6.jpg', 'https://supertuxkart.net/images/d/d3/Supertuxkart-0.9.1-screenshot-3.jpg']
   video: {youtube: ev8Zltau4zw}
   clones: [Mario Kart]
+
 - name: Survivor
   repo: https://github.com/scottschiller/SURVIVOR
   updated: 2015-04-08
@@ -561,6 +621,7 @@
   license: [CC-BY-NC]
   images: ['https://farm8.staticflickr.com/7427/10177812825_1a524cb34d_h.jpg']
   remakes: [Survivor (1986)]
+
 - name: SWP
   updated: 2015-04-14
   url: http://www.proasm.com/sw/swp.html
@@ -569,6 +630,7 @@
   license: [GPL2]
   video: {youtube: JePqKJd4hhw}
   remakes: [Shadow Warrior]
+
 - name: Syndicate Wars Port
   url: http://swars.vexillium.org/
   status: playable
