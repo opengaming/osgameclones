@@ -21,8 +21,8 @@ If you're adding a new clone/remake:
 ```yaml
 
 name: string            # Name of clone/remake (required)
-remakes: array          # Reference to original games that this game remakes
-clones: array           # Reference to original games that this game clones
+remakes: array          # Name reference to original game(s) that this game remakes
+clones: array           # Name reference to original game(s) that this game clones
 repo: string            # Link to source code
 url: string             # Link to website
 feed: string            # Link to RSS/Atom feed
@@ -30,15 +30,16 @@ development: enum       # One of: complete, very active, active, sporadic, halte
 status: enum            # One of: playable, semi-playable, unplayable
 lang: array             # List of programming languages used
 framework: array        # List of engines/tools used
-license: array          # See licenses in schema_clones.yaml
-content: string         # One of: commercial, free, open, swapable
-                        # free means no cost, open means liberally licensed
-info: string            # Notes about the game
+license: array          # See licenses in games schema
+content: string         # One of: commercial, free, open, swapable*
+info: string            # Miscellaneous notes about the game
 updated: string         # Date when game was added or updated
 images: array           # Link(s) to screenshot(s)
 video:
   youtube: string       # YouTube video ID
   vimeo: number         # Vimeo video ID
+
+# * free means no cost, open means liberally licensed
 ```
 
 ## Add a game parent
@@ -49,9 +50,9 @@ If you're adding a new game group:
 - name: string          # Name of the original game (required)
   names: array          # Other names for the game, or other games in the series
   meta:
-    genre: array        # See genres in schema_originals.yaml
-    subgenre: array     # See genres in schema_originals.yaml
-    theme: array        # See genres in schema_originals.yaml
+    genre: array        # See genres in originals schema
+    subgenre: array     # See genres in originals schema
+    theme: array        # See genres in originals schema
 ```
 
 A Wikipedia link is created for all original game names; if the article link is different, use the following syntax:
