@@ -28,9 +28,10 @@ url: string             # Link to website
 feed: string            # Link to RSS/Atom feed
 development: enum       # One of: complete, very active, active, sporadic, halted
 status: enum            # One of: playable, semi-playable, unplayable
+multiplayer: enum       # One of: Online, LAN, Split-screen, Co-op, Hotseat, Matchmaking
 lang: array             # List of programming languages used
 framework: array        # List of engines/tools used
-license: array          # See licenses in games schema
+license: enum           # One of licenses listed in games schema file
 content: string         # One of: commercial, free, open, swapable*
 info: string            # Miscellaneous notes about the game
 updated: string         # Date when game was added or updated

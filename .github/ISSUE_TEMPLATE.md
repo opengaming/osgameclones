@@ -11,6 +11,7 @@ New game
   feed:
   development:
   status:
+  multiplayer: []
   lang: []
   framework: []
   license:
