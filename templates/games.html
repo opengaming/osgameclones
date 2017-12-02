@@ -32,6 +32,10 @@
   {{ game.tags | join(' ') -}}{{ ' ' -}}
   {{ game.info | lower | e -}}{{ ' ' -}}
 
+  {%- if 'multiplayer' in game -%}
+    {{ 'multiplayer' }}
+  {%- endif -%}
+
   {% for n in names -%}
     {% if n is not string -%}
       {% for i in n -%}
