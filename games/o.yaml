@@ -1,0 +1,812 @@
+
+- name: Octopus
+  updated: 2016-02-08
+  repo: https://github.com/roger-wetzel/Octopus
+  info: Apple TV 4 required
+  development: active
+  lang: Swift
+  images: ['https://cloud.githubusercontent.com/assets/16686245/12429085/98761c3c-bee8-11e5-9399-1f7cc162e9bd.png']
+  remakes: [Octopus]
+
+- name: Odamex
+  url: http://www.odamex.net/
+  status: playable
+  development: active
+  license: [GPL2]
+  lang: C
+  repo: http://www.odamex.net/svn/log.php?isdir=1
+  remakes: [Doom]
+
+- name: Omega Race Remake
+  repo: https://github.com/UnforgivenRob/Omega-Race-Remake
+  updated: 2015-05-29
+  development: sporadic
+  lang: C#
+  clones: [Omega Race]
+
+- name: Omnispeak
+  url: http://davidgow.net/keen/omnispeak.html
+  repo: https://github.com/sulix/omnispeak
+  development: active
+  lang: C
+  license: [GPL2]
+  updated: 2015-04-04
+  images: ['http://davidgow.net/images/omnispeak-2.png']
+  remakes: [Commander Keen Series]
+
+- name: One Way To Go
+  repo: https://github.com/purplehuman/onewaytogo
+  development: active
+  lang: Lua
+  license: [GPL3]
+  updated: 2015-05-02
+  images: ['https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/screenshot_zps0048f6d4.PNG',
+    'https://a.fsdn.com/con/app/proj/onewaytogo/screenshots/owtg_zpsc6792600.PNG']
+  remakes: [Sensitive]
+- url: http://www.oolite.org/
+  name: Oolite
+  development: active
+  repo: http://svn.berlios.de/wsvn/oolite-linux/?op=log&isdir=1&
+  images: ['http://www.oolite.org/images/gallery/large/TradePost.jpg', 'http://www.oolite.org/images/gallery/large/Kiota.png',
+    'http://www.oolite.org/images/gallery/large/Contracts.png']
+  clones: [Elite]
+
+- name: Open BattleChess
+  repo: http://openbattlechess.googlecode.com/svn/trunk/
+  url: https://code.google.com/p/openbattlechess/
+  updated: 2015-04-08
+  development: halted
+  lang: C#
+  license: [LGPL]
+  remakes: [Battle Chess]
+
+- name: Open Creatures
+  url: http://creatures.wikia.com/wiki/Openc2e
+  repo: https://github.com/ccdevnet/openc2e
+  updated: 2014-09-05
+  development: halted
+  info: forks present
+  lang: C++
+  license: [LGPL]
+  remakes: [Creatures]
+
+- name: Open Fodder
+  url: http://openfodder.com/
+  status: playable
+  development: active
+  lang: C++
+  license: [GPL3]
+  repo: https://github.com/OpenFodder/openfodder
+  updated: 2017-04-15
+  remakes: [Cannon Fodder]
+
+- name: Open Hexagon
+  url: http://vittorioromeo.info/projects.html
+  repo: http://github.com/SuperV1234/SSVOpenHexagon
+  status: playable
+  development: active
+  lang: C++
+  updated: 2013-09-11
+  images: ['http://vittorioromeo.info/Resources/img/openHexagon.png']
+  video: {youtube: Wth0Z2eMezE}
+  clones: [Super Hexagon]
+
+- name: Open Imperium Galactica
+  url: https://github.com/akarnokd/open-ig
+  repo: https://github.com/akarnokd/open-ig
+  status: playable
+  development: sporadic
+  lang: Java
+  updated: 2013-12-11
+  video: {youtube: qHBUdUqqI-k}
+  remakes: [Imperium Galactica]
+
+- name: Open Jumpgate
+  url: http://sourceforge.net/projects/opengate/
+  updated: 2014-09-05
+  development: active
+  lang: C++
+  remakes: ['Jumpgate: The Reconstruction Initiative']
+
+- name: Open Meridian
+  updated: 2015-06-02
+  url: http://openmeridian.org
+  repo: https://github.com/OpenMeridian/Meridian59
+  development: active
+  lang: C
+  license: [GPL2]
+  remakes: [Meridian 59]
+
+- name: Open Panzer
+  development: active
+  framework: HTML5
+  updated: 2012-06-29
+  url: http://www.linuxconsulting.ro/openpanzer/
+  repo: https://github.com/nicupavel/openpanzer
+  images: ['http://i.imgur.com/NiJGQ.jpg']
+  remakes: [Panzer General]
+
+- name: Open Rodent's Revenge
+  updated: 2015-05-03
+  repo: svn://svn.code.sf.net/p/o2r/code/trunk
+  development: halted
+  lang: C++
+  license: [GPL3]
+  images: ['https://a.fsdn.com/con/app/proj/o2r/screenshots/254642.jpg', 'https://a.fsdn.com/con/app/proj/o2r/screenshots/254636.jpg',
+    'https://a.fsdn.com/con/app/proj/o2r/screenshots/254640.jpg', 'https://a.fsdn.com/con/app/proj/o2r/screenshots/267538.jpg',
+    'https://a.fsdn.com/con/app/proj/o2r/screenshots/255628.jpg']
+  remakes: [Rodent's Revenge]
+
+- name: Open Surge
+  development: sporadic
+  lang: C
+  url: http://opensnc.sourceforge.net/home/
+  repo: http://sourceforge.net/projects/opensnc/develop
+  updated: 2012-04-05
+  images: ['http://opensnc.sourceforge.net/home/screenshots/0_1_3/4.png', 'http://opensnc.sourceforge.net/home/screenshots/0_1_3/0.png',
+    'http://opensnc.sourceforge.net/home/screenshots/0_1_3/3.png', 'http://opensnc.sourceforge.net/home/screenshots/0_1_3/9.png']
+  clones: [Sonic the Hedgehog]
+
+- name: Open Syobon Action
+  updated: 2015-04-13
+  url: http://sourceforge.net/projects/opensyobon/
+  development: halted
+  lang: C++
+  license: [GPL2]
+  repo: http://sourceforge.net/projects/opensyobon/files/src/
+  remakes: [Shobon Action]
+
+- name: Open Zelda
+  url: http://openzelda.nfshost.com/
+  repo: https://github.com/openzelda/openzelda-source
+  status: playable
+  development: halted
+  lang: C++
+  updated: 2017-10-23
+  video: {youtube: secXtfqKo1c}
+  clones: [Legend of Zelda]
+
+- name: open-cube
+  repo: https://github.com/team-cube/open-cube
+  url: http://team-cube.github.io/
+  development: sporadic
+  status: semi-playable
+  lang: [C++]
+  license: [Zlib]
+  info: A modification of tesseract so basically Cube 2 with better graphics and developed
+    on github in a modern vcs.
+  updated: 2017-04-27
+  remakes: ['Cube 2: Sauerbraten']
+
+- name: open-heavy-smash
+  updated: 2015-05-28
+  repo: https://github.com/namelivia/open-heavy-smash
+  development: halted
+  lang: C++
+  remakes: [Heavy Smash]
+
+- name: open-horizon
+  updated: 2016-02-09
+  url: http://zxstudio.org/blog/author/razgriz/
+  repo: https://github.com/undefined-darkness/open-horizon
+  development: active
+  lang: C++
+  framework: nya-engine
+  license: [MIT]
+  images: ['http://zxstudio.org/blog/wp-content/uploads/2015/04/open-horizon-progress-report-01.png',
+    'http://zxstudio.org/blog/wp-content/uploads/2016/01/open-horizon-effects.png',
+    'http://zxstudio.org/blog/wp-content/uploads/2015/05/cockpit2.png']
+  remakes: ['Ace Combat: Assault Horizon']
+
+- name: openage
+  url: http://openage.sft.mx/
+  repo: https://github.com/SFTtech/openage
+  updated: 2014-10-26
+  status: semi-playable
+  development: active
+  content: commercial
+  lang: [C++, Python]
+  framework: SDL
+  license: [GPL3]
+  images: ['http://openage.sft.mx/pics/openage_0.png']
+  remakes: [Age of Empires II]
+
+- name: OpenApoc
+  updated: 2015-04-04
+  development: active
+  lang: C++
+  license: [MIT]
+  repo: https://github.com/pmprog/OpenApoc
+  url: http://openapoc.pmprog.co.uk/
+  remakes: [X-COM Series]
+
+- name: OpenArena
+  url: http://openarena.ws/
+  repo: http://openarena.ws/svn
+  development: sporadic
+  lang: C
+  images: ['http://openarena.ws/e107_images/custom/085-8.jpg', 'http://openarena.ws/e107_images/custom/085-13.jpg',
+    'http://openarena.ws/e107_images/custom/085-14.jpg', 'http://openarena.ws/e107_images/custom/085-16.jpg']
+  remakes: [Quake 3]
+
+- name: OpenC1
+  url: http://www.1amstudios.com/projects/openc1/
+  repo: https://github.com/jeff-1amstudios/OpenC1
+  updated: 2017-02-08
+  license: [Custom]
+  status: playable
+  development: halted
+  content: commercial
+  lang: C#
+  video: {youtube: 0afl6ruHZgI}
+  remakes: [Carmageddon]
+
+- name: OpenCity
+  url: http://www.opencity.info/
+  repo: svn://svn.code.sf.net/p/opencity/code/trunk
+  development: halted
+  lang: C++
+  license: [GPL2]
+  updated: 2015-04-03
+  images: ['http://www.opencity.info/screenshot/full/opencity-0.0.5-mainstatusbar.jpg',
+    'http://www.opencity.info/screenshot/full/opencity-0.0.5-island.jpg']
+  clones: [Simcity]
+
+- name: OpenClaw
+  repo: https://github.com/pjasicek/OpenClaw
+  updated: 2017-09-08
+  license: [GPL3]
+  framework: [SDL]
+  lang: C++
+  images: ['https://camo.githubusercontent.com/023e157c9fcb232997de1066fda8bda7b392f9b2/687474703a2f2f73322e706f7374696d672e6f72672f6777646d30696937742f73637265656e73686f745f32362e706e67',
+    'https://camo.githubusercontent.com/fd86c4c2b2bb5224f9033afb6ffd202f57cf325d/68747470733a2f2f73332e706f7374696d672e6f72672f337930613937786b6a2f73637265656e73686f745f32372e706e67',
+    'https://camo.githubusercontent.com/836928b3cecd666e7cb2313c569f29cee3d1868f/68747470733a2f2f7331372e706f7374696d672e6f72672f66686439686d3977762f73637265656e73686f745f32362e706e67']
+  remakes: [Claw]
+
+- name: OpenClonk
+  url: http://www.openclonk.org/
+  repo: http://git.openclonk.org/openclonk.git/
+  development: active
+  lang: C++
+  license: [ISC]
+  updated: 2012-04-07
+  video: {youtube: zydiZSXpn0w}
+  remakes: [Clonk]
+
+- name: OpenCrystalCaves
+  updated: 2017-09-08
+  repo: https://github.com/gurka/OpenCrystalCaves
+  lang: C++
+  license: MIT
+  images: ['https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot1.png?raw=true',
+    'https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot2.png?raw=true',
+    'https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot3.png?raw=true']
+  remakes: [Crystal Caves]
+
+- name: openDarkEngine
+  repo: https://github.com/volca02/openDarkEngine
+  development: halted
+  status: unplayable
+  lang: C++
+  license: GPL2
+  updated: 2016-11-30
+  images: ['https://a.fsdn.com/con/app/proj/opde/screenshots/51078.jpg/182/137', 'https://a.fsdn.com/con/app/proj/opde/screenshots/50724.jpg/182/137']
+  remakes: [Thief]
+
+- name: OpenDeathValley
+  repo: https://github.com/OpenDeathValley/OpenDeathValley
+  development: sporadic
+  lang: C
+  license: [GPL3]
+  updated: 2016-06-15
+  remakes: ['Desperados: Wanted Dead or Alive']
+
+- name: opendf
+  repo: https://github.com/kcat/opendf
+  development: sporadic
+  lang: C++
+  license: [GPL3]
+  status: unplayable
+  updated: 2015-07-17
+  remakes: ['The Elder Scrolls II: Daggerfall']
+
+- name: openDOW
+  updated: 2015-05-15
+  repo: https://github.com/rofl0r/openDOW
+  development: sporadic
+  lang: C
+  license: [GPL3]
+  remakes: [Dogs of War]
+
+- name: OpenDUNE
+  url: http://www.opendune.org/
+  repo: https://github.com/OpenDUNE/OpenDUNE
+  development: active
+  lang: C
+  license: [GPL2]
+  remakes: [Dune 2]
+- url: https://opendungeons.github.io/
+  name: OpenDungeons
+  development: active
+  lang: C++
+  repo: https://github.com/OpenDungeons/OpenDungeons
+  images: ['https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_attacking.jpg',
+    'https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_dungeon_and_skullflags.jpg',
+    'https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_mainnewsimg.png',
+    'https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_research%20tree.jpg',
+    'https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_rooms.jpg']
+  clones: [Dungeon Keeper]
+
+- name: OpenEtG
+  updated: 2015-09-25
+  url: http://etg.dek.im/
+  repo: https://github.com/serprex/openEtG
+  development: active
+  lang: JavaScript
+  license: [MIT]
+  remakes: [Elements]
+
+- name: OpenGeneral
+  development: sporadic
+  lang: C++
+  updated: 2012-06-29
+  url: http://sourceforge.net/apps/mediawiki/opengeneral/index.php?title=Main_Page
+  remakes: [Panzer General]
+
+- name: OpenGGS
+  repo: https://sourceforge.net/projects/openggs/files/
+  url: https://sourceforge.net/projects/openggs/
+  development: active
+  lang: [C++]
+  license: [GPL2]
+  updated: 2017-05-01
+  images: ['https://a.fsdn.com/con/app/proj/openggs/screenshots/OpenGGS.png/1']
+  remakes: [The Great Giana Sisters]
+
+- name: opengl_test_drive_clone
+  updated: 2015-05-03
+  repo: https://github.com/capnramses/opengl_test_drive_clone
+  url: http://antongerdelan.net/blog/?post=2014_12_10_test_drive
+  lang: C
+  license: [GPL3]
+  images: ['http://antongerdelan.net/blog/images/tdrive_speedo.png', 'http://antongerdelan.net/blog/images/tdrive_tacho.png']
+  remakes: [Test Drive]
+
+- name: Openglad
+  url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi
+  repo: http://snowstorm.svn.sourceforge.net/viewvc/snowstorm/
+  development: sporadic
+  lang: C++
+  images: ['http://snowstorm.sourceforge.net/screenshots/1.png', 'http://snowstorm.sourceforge.net/screenshots/2.png',
+    'http://snowstorm.sourceforge.net/screenshots/3.png', 'http://snowstorm.sourceforge.net/screenshots/4.png']
+  remakes: [Gladiator]
+
+- name: OpenGoo
+  url: http://mandarancio.github.io/OpenGOO/
+  repo: https://github.com/Mandarancio/OpenGOO
+  status: unplayable
+  development: active
+  updated: 2013-05-29
+  remakes: [World of Goo]
+
+- name: OpenGTA
+  url: http://ogta.fifengine.de/
+  repo: http://ogta.fifengine.de/cvs.html
+  development: halted
+  lang: C++
+  license: [As-is]
+  updated: 2015-01-02
+  remakes: [Grand Theft Auto]
+
+- name: OpenJazz
+  url: http://www.alister.eu/jazz/oj/
+  repo: https://github.com/AlisterT/openjazz
+  status: playable
+  development: sporadic
+  lang: C++
+  framework: SDL
+  license: GPL2
+  info: Needs original game data
+  updated: 2017-10-20
+  remakes: [Jazz Jackrabbit]
+
+- name: OpenJK
+  url: https://github.com/JACoders/OpenJK
+  updated: 2014-08-15
+  status: playable
+  development: active
+  lang: C++
+  remakes: ['Jedi Knight: Jedi Academy']
+
+- name: OpenKeeper
+  framework: JMonkeyEngine
+  repo: https://github.com/tonihele/OpenKeeper
+  status: unplayable
+  development: active
+  lang: Java
+  content: commercial
+  license: [GPL3]
+  clones: [Dungeon Keeper 2]
+
+- name: OpenLara
+  repo: https://github.com/XProger/OpenLara
+  url: http://xproger.info/projects/OpenLara/
+  framework: WebGL
+  license: BSD 2-Clause
+  updated: 2017-04-27
+  lang: C++
+  remakes: [Tomb Raider]
+
+- name: OpenLiero
+  url: http://code.google.com/p/liero/
+  development: halted
+  lang: C++
+  repo: http://code.google.com/p/liero/source/list
+  remakes: [Liero]
+
+- name: OpenLieroX
+  url: http://www.openlierox.net/
+  development: active
+  lang: C++
+  repo: https://github.com/albertz/openlierox
+  images: ['http://www.openlierox.net/official/screenshots/olx2.png', 'http://www.openlierox.net/official/screenshots/olx4.png',
+    'http://www.openlierox.net/official/screenshots/olx11.png', 'http://www.openlierox.net/official/screenshots/olx6.png']
+  remakes: [Liero]
+
+- name: OpenMoHAA
+  repo: https://github.com/openmoh/openmohaa
+  url: http://openmohaa.sourceforge.net/
+  info: based on ioquake3
+  status: unplayable
+  development: sporadic
+  lang: C
+  license: [GPL2]
+  framework: SDL
+  updated: 2015-04-11
+  images: ['http://openmohaa.sourceforge.net/media/hud.jpg']
+  remakes: ['Medal of Honor: Allied Assault']
+- url: http://openmoo2.org/en/
+  name: OpenMOO2
+  development: sporadic
+  lang: Python
+  repo: http://repository.openmoo2.org/cgi-bin/hgwebdir.cgi/PUBLIC/
+  images: ['http://openmoo2.org/static/20/main-screen-moo2-screenshot.png', 'http://openmoo2.org/static/20/colonies-moo2-screenshot.png',
+    'http://openmoo2.org/static/20/colony-moo2-screenshot.png']
+  remakes: [Master of Orion Series]
+
+- name: OpenMortal
+  url: http://apocalypse.rulez.org/~upi/Mortal/
+  repo: http://openmortal.cvs.sourceforge.net/openmortal/openmortal/
+  development: sporadic
+  lang: C++
+  updated: 2015-04-03
+  images: ['http://openmortal.sourceforge.net/images/screenshot3.jpg']
+  clones: [Mortal Kombat]
+
+- name: OpenMW
+  url: http://openmw.org/
+  status: playable
+  development: active
+  lang: C++
+  repo: https://github.com/OpenMW/openmw
+  license: [GPL3]
+  images: ['http://wiki.openmw.org/images/6/65/0.40_Screenshot-Balmora_1.png', 'http://wiki.openmw.org/images/c/c1/0.40_Screenshot-Seyda_Neen_2.png']
+  video: {youtube: avPbctre9Qw}
+  remakes: ['The Elder Scrolls III: Morrowind']
+
+- name: OpenNFS1
+  updated: 2015-04-11
+  url: http://1amstudios.com/projects/opennfs1/
+  repo: https://github.com/jeff-1amstudios/OpenNFS1
+  development: halted
+  lang: C#
+  images: ['http://1amstudios.com/img/opennfs1/viper-vertigoridge.jpg', 'http://1amstudios.com/img/opennfs1/vette-transtropolis.jpg',
+    'http://1amstudios.com/img/opennfs1/image16.jpg', 'http://1amstudios.com/img/opennfs1/image13.jpg',
+    'http://1amstudios.com/img/opennfs1/image10.jpg']
+  video: {youtube: Xfv_UrDq-As}
+  remakes: [The Need for Speed]
+
+- name: OpenOMF
+  url: http://www.openomf.org/
+  repo: https://github.com/omf2097/openomf/
+  info: single player, 2 player and network play work, content from omf2097.com
+  content: free
+  status: playable
+  development: active
+  lang: [C]
+  license: [MIT]
+  updated: 2014-08-16
+  images: ['http://www.openomf.org/screenshots/mainmenu.png', 'http://www.openomf.org/screenshots/single_player.png',
+    'http://www.openomf.org/screenshots/two_player.png', 'http://www.openomf.org/screenshots/vs.png',
+    'http://www.openomf.org/screenshots/victory.png']
+  video: {youtube: RYiUsDSApM8}
+  remakes: ['One Must Fall: 2097']
+
+- name: OpenOutcast
+  updated: 2014-04-11
+  url: https://sourceforge.net/projects/ocmod/
+  development: halted
+  lang: C++
+  license: [GPL2]
+  repo: svn://svn.code.sf.net/p/ocmod/code/
+  images: ['https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg']
+  remakes: [Outcast]
+
+- name: OpenPop
+  repo: svn://svn.code.sf.net/p/openpopulous/code/trunk
+  updated: 2015-04-07
+  url: http://openpopulous.sourceforge.net/
+  development: halted
+  lang: C++
+  license: [GPL3]
+  images: ['https://a.fsdn.com/con/app/proj/openpopulous/screenshots/236454.jpg']
+  remakes: ['Populous: The Beginning']
+
+- name: OpenRA
+  remakes: [Command & Conquer]
+  url: http://www.openra.net
+  repo: https://github.com/OpenRA/OpenRA
+  development: active
+  lang: C#
+  license: [GPL3]
+  multiplayer: [Online, LAN]
+  images:
+    - http://www.openra.net/images/news/20150531-ra-editor.png
+    - http://www.openra.net/images/news/20140405-beacons.png
+    - http://www.openra.net/images/news/20150808-d2k-range-circles.png
+  video:
+    youtube: CAK-SwSZjbY
+
+- name: OpenRaider
+  url: https://github.com/xythobuz/OpenRaider
+  development: active
+  lang: C++
+  updated: 2014-04-28
+  images:
+    - http://picload.org/image/llawpip/openraider_sdl2.png
+    - http://picload.org/image/llawpic/openraider_old2.png
+    - http://picload.org/image/llawpia/openraider_old.png
+  remakes: [Tomb Raider]
+
+- name: OpenRails
+  url: http://openrails.org/
+  repo: http://code.openhub.net/project?pid=&ipid=450644&fp=450644&mp&projSelected=true&filterChecked
+  updated: 2015-04-01
+  development: active
+  lang: C#
+  images: ['http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg']
+  clones: [Microsoft Train Simulator]
+
+- name: OpenRCT2
+  url: https://openrct2.com/
+  repo: https://github.com/OpenRCT2/OpenRCT2
+  updated: 2017-10-29
+  development: active
+  lang: C++
+  license: [GPL3]
+  status: playable
+  images: ['http://i.imgur.com/fpoZdze.png']
+  remakes: [RollerCoaster Tycoon, RollerCoaster Tycoon 2]
+
+- name: OpenRoads
+  updated: 2015-07-02
+  url: http://openroadsgame.com/
+  repo: https://github.com/anprogrammer/OpenRoads
+  status: playable
+  development: halted
+  lang: [TypeScript]
+  framework: [HTML5, WebGL]
+  license: [MIT]
+  remakes: [SkyRoads]
+
+- name: OpenRW "Open ReWrite"
+  repo: https://github.com/rwengine/openrw
+  url: http://openrw.org/
+  updated: 2017-04-21
+  license: [GPL3]
+  lang: C++
+  development: sporadic
+  status: unplayable
+  framework: [SDL]
+  remakes: [Grand Theft Auto III]
+
+- name: OpenSkyscraper
+  url: https://github.com/fabianschuiki/OpenSkyscraper/wiki
+  repo: https://github.com/fabianschuiki/OpenSkyscraper
+  status: playable
+  development: active
+  lang: C++
+  updated: 2014-01-05
+  images: ['https://raw.githubusercontent.com/wiki/fabianschuiki/OpenSkyscraper/current.png']
+  remakes: [SimTower]
+
+- name: OpenSpades
+  updated: 2015-04-10
+  url: https://sites.google.com/a/yvt.jp/openspades/
+  repo: https://github.com/yvt/openspades
+  development: active
+  lang: C++
+  license: [GPL3]
+  images: ['https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240084030/media/shot0091.jpg',
+    'https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240107290/media/shot0097.jpg',
+    'https://sites.google.com/a/yvt.jp/openspades/_/rsrc/1383240124607/media/shot0252.jpg']
+  remakes: [Ace of Spades]
+
+- name: OpenSR
+  repo: https://github.com/ObKo/OpenSR
+  updated: 2015-04-03
+  development: active
+  lang: [C++, Python]
+  remakes: ['Space Rangers 2: Dominators']
+
+- name: openStrato
+  repo: https://github.com/gerdl/openStrato
+  updated: 2015-06-18
+  development: active
+  lang: JavaScript
+  framework: WebGL
+  license: [GPL2]
+  remakes: ['Stratosphere: Conquest of the Skies']
+
+- name: openstrike
+  repo: https://github.com/AMDmi3/openstrike
+  status: unplayable
+  development: sporadic
+  lang: C++
+  license: [GPL3]
+  updated: 2015-04-04
+  remakes: ['DesertStrike: Return to the Gulf']
+
+- name: OpenTESArena
+  repo: https://github.com/afritz1/OpenTESArena
+  development: active
+  status: unplayable
+  lang: C++
+  framework: SDL2
+  license: [MIT]
+  content: commercial
+  updated: 2016-10-09
+  remakes: ['The Elder Scrolls: Arena']
+
+- name: opentesarenapp
+  updated: 2016-10-09
+  repo: https://github.com/pralinor/opentesarenapp
+  development: halted
+  status: unplayable
+  lang: C++
+  content: commercial
+  remakes: ['The Elder Scrolls: Arena']
+- url: http://opentitus.wikia.com/wiki/OpenTitus_Wiki
+  name: OpenTitus
+  development: sporadic
+  lang: C
+  framework: SDL
+  repo: https://github.com/stople/OpenTitus
+  updated: 2014-02-04
+  images: ['http://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png']
+  remakes: [Titus the Fox]
+
+- name: OpenTomb
+  url: https://opentomb.github.io/
+  repo: https://github.com/opentomb/OpenTomb
+  development: active
+  lang: C++
+  updated: 2013-06-06
+  images: ['https://opentomb.github.io/img/media/01.jpg', 'https://opentomb.github.io/img/media/02.jpg',
+    'https://opentomb.github.io/img/media/03.jpg']
+  video: {youtube: Jf3JGm67oS0}
+  remakes: [Tomb Raider]
+
+- name: OpenTriad
+  url: https://github.com/benjaminfoo/OpenTriad
+  updated: 2015-04-12
+  development: active
+  lang: Java
+  remakes: [Final Fantasy VIII]
+- url: http://www.openttd.org/
+  name: OpenTTD
+  status: playable
+  development: active
+  lang: C++
+  repo: http://vcs.openttd.org/svn/timeline
+  license: [GPL2]
+  content: swappable
+  images: ['https://media.openttd.org/images/screens/1.4/02-opengfx-1920x1200.png',
+    'https://media.openttd.org/images/screens/1.3/realgrowth.png']
+  remakes: [Transport Tycoon]
+- url: https://bitbucket.org/opentyrian/opentyrian/wiki/Home
+  name: OpenTyrian
+  development: sporadic
+  lang: C
+  repo: https://bitbucket.org/opentyrian/opentyrian/src
+  updated: 2015-04-03
+  images: ['https://bytebucket.org/opentyrian/opentyrian/wiki/opentyrian_torm.png']
+  remakes: [Tyrian]
+
+- name: OpenWar
+  repo: https://github.com/andreas-jonsson/openwar
+  url: http://www.openwar.io
+  status: unplayable
+  development: sporadic
+  lang: Go
+  license: [GPL3]
+  content: commercial
+  updated: 2017-04-19
+  images: ['https://raw.githubusercontent.com/andreas-jonsson/openwar/master/doc/screenshot2.png',
+    'https://raw.githubusercontent.com/andreas-jonsson/openwar/master/doc/screenshot3.gif',
+    'https://raw.githubusercontent.com/andreas-jonsson/openwar/master/doc/screenshot4.png']
+  remakes: ['Warcraft: Orcs & Humans']
+
+- name: OpenXcom
+  url: http://openxcom.org/
+  info: EU fully playable, TftD in development
+  status: playable
+  development: active
+  license: [GPL3]
+  lang: C++
+  repo: https://github.com/SupSuper/OpenXcom
+  images: ['http://openxcom.org/wp-content/gallery/v1-0/00_mainmenu.png', 'http://openxcom.org/wp-content/gallery/v1-0/01_globe.png',
+    'http://openxcom.org/wp-content/gallery/v1-0/04_inventory.png', 'http://openxcom.org/wp-content/gallery/v1-0/07_pathpreview.png']
+  remakes: [X-COM Series]
+
+- name: OpMon
+  url: http://www.opmon-game.ga/
+  repo: https://github.com/jlppc/OpMon
+  development: active
+  lang: C++
+  framework: SFML
+  updated: 2017-10-27
+  images: ['https://raw.githubusercontent.com/jlppc/OpMon/master/Resources/Other/screenshot_1.png']
+  remakes: ["Pok\xE9mon"]
+
+- name: Orbit-Hopper
+  updated: 2015-04-16
+  url: http://www.zneaker.com/projects.html#orbit
+  development: halted
+  lang: C++
+  license: [GPL2]
+  repo: http://www.zneaker.com/downloads/orbithopper116c.tar.gz
+  images: ['https://lgdb.org/sites/default/files/node_images/134/496.jpg', 'https://lgdb.org/sites/default/files/node_images/134/497.jpg']
+  clones: [SkyRoads]
+
+- name: Orbium
+  url: http://bni.github.io/orbium/
+  repo: https://github.com/bni/orbium
+  status: playable
+  development: sporadic
+  framework: HTML5
+  lang: JavaScript
+  license: [GPL2]
+  updated: 2014-08-20
+  remakes: [Log!cal]
+
+- name: orona
+  url: http://stephank.github.io/orona/
+  repo: https://github.com/stephank/orona
+  status: playable
+  development: halted
+  framework: HTML5
+  updated: 2013-06-06
+  remakes: [Bolo]
+
+- name: Ostrich Riders
+  updated: 2015-04-15
+  url: http://identicalsoftware.com/ostrichriders/
+  development: sporadic
+  lang: C++
+  license: [GPL3]
+  repo: https://github.com/dulsi/ostrichriders
+  images: ['https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229619.jpg',
+    'https://a.fsdn.com/con/app/proj/ostrichriders/screenshots/229617.jpg']
+  remakes: [Joust]
+
+- name: Outrun
+  url: http://outruncpc.free.fr/
+  repo: https://www.dropbox.com/s/d803ueu0l4cgk6k/outrunBETA.zip
+  updated: 2015-04-16
+  development: active
+  lang: QuickBASIC
+  framework: QB64
+  images: ['http://outruncpc.free.fr/images/CPC01.jpg', 'http://outruncpc.free.fr/images/CPC02.jpg',
+    'http://outruncpc.free.fr/images/CPC03.jpg']
+  remakes: [Outrun]

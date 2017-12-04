@@ -1,0 +1,301 @@
+
+- name: R-Type Clone from Octobinz
+  url: http://www.mobuware.net/nintendo-ds-os/r-type-clone-from-octobinz-nds-and-source-code-get-free-170451.html
+  repo: http://www.mobuware.net/get-software-170451.html
+  updated: 2015-04-07
+  info: demo only
+  lang: C++
+  remakes: [R-Type]
+
+- name: Race Into Space
+  url: http://www.raceintospace.org/
+  updated: 2015-04-05
+  repo: https://github.com/raceintospace/raceintospace
+  development: active
+  lang: C++
+  license: [GPL2]
+  images: ['http://www.raceintospace.org/images/screenshots/splash_screen.png']
+  remakes: [Buzz Aldrin's Race Into Space]
+
+- name: Racer
+  url: http://sourceforge.net/projects/racer/
+  development: active
+  lang: [C++, Python]
+  license: [GPL3]
+  repo: svn://svn.code.sf.net/p/racer/code/trunk
+  updated: 2015-04-25
+  images: ['https://a.fsdn.com/con/app/proj/racer/screenshots/269275.jpg', 'https://a.fsdn.com/con/app/proj/racer/screenshots/269265.jpg',
+    'https://a.fsdn.com/con/app/proj/racer/screenshots/269271.jpg', 'https://a.fsdn.com/con/app/proj/racer/screenshots/269273.jpg',
+    'https://a.fsdn.com/con/app/proj/racer/screenshots/269267.jpg']
+  remakes: [F-Zero]
+
+- name: RacerJS
+  updated: 2015-05-15
+  repo: https://github.com/onaluf/RacerJS
+  development: halted
+  lang: JavaScript
+  license: [MIT]
+  clones: [Lotus Esprit Turbo Challenge]
+
+- name: Rampart-Android
+  updated: 2015-05-29
+  repo: https://github.com/dwmai/Rampart-Android
+  development: active
+  info: Android
+  lang: Java
+  remakes: [Rampart]
+
+- name: raptor
+  updated: 2015-05-03
+  repo: https://github.com/robgietema/raptor
+  development: halted
+  lang: JavaScript
+  remakes: ['Raptor: Call of the Shadows']
+
+- name: rawgl
+  repo: https://github.com/cyxx/rawgl
+  updated: 2016-03-06
+  development: active
+  status: playable
+  lang: [C++]
+  license: [GPL]
+  remakes: [Another World]
+
+- name: RBDOOM-3-BFG
+  updated: 2015-07-29
+  repo: https://github.com/RobertBeckebans/RBDOOM-3-BFG
+  info: works with BFG edition only
+  development: active
+  lang: C++
+  license: [GPL3]
+  remakes: [Doom 3]
+
+- name: REGoth
+  repo: https://github.com/REGoth-project/REGoth
+  status: playable
+  development: active
+  lang: C++
+  license: [GPL3]
+  content: commercial
+  images: ['http://oi65.tinypic.com/14mzzi8.jpg']
+  remakes: [Gothic]
+
+- name: REminiscence
+  url: http://cyxdown.free.fr/reminiscence/
+  development: sporadic
+  framework: SDL
+  images: ['http://cyxdown.free.fr/reminiscence/reminiscence-1.png', 'http://cyxdown.free.fr/reminiscence/reminiscence-2.png',
+    'http://cyxdown.free.fr/reminiscence/reminiscence-3.png', 'http://cyxdown.free.fr/reminiscence/reminiscence-4.png']
+  remakes: [Flashback]
+
+- name: replicant
+  repo: https://github.com/madmoose/replicant
+  updated: 2015-04-04
+  development: halted
+  lang: C++
+  remakes: [Blade Runner]
+
+- name: ReQbert
+  repo: https://github.com/leonicolas/ReQbert
+  updated: 2015-05-18
+  development: halted
+  framework: HTML5
+  license: [GPL3]
+  remakes: [Q*bert]
+
+- name: Rescue! Max
+  updated: 2015-04-25
+  url: http://rescue.sourceforge.net/
+  repo: http://sf.net/p/rescue/code/
+  development: halted
+  lang: Java
+  license: [GPL2]
+  images: ['http://rescue.sourceforge.net/screenshots/rescue1.0a.png', 'http://rescue.sourceforge.net/screenshots/rescue1.0b.png']
+  remakes: [Rescue!]
+
+- name: ResidualVM
+  url: http://residualvm.org/
+  development: active
+  lang: C++
+  updated: 2013-05-27
+  remakes: [Grim Fandango]
+
+- name: Return of Dr. Destructo
+  url: http://zxstudio.org/projects/drdestructo/
+  repo: https://github.com/MaxSavenkov/drdestructo2/
+  development: complete
+  framework: Allegro
+  lang: C++
+  license: [MIT]
+  updated: 2016-03-15
+  images: ['http://zxstudio.org/projects/drdestructo/screenshots/screen_10_title.png',
+    'http://zxstudio.org/projects/drdestructo/screenshots/screen_10_level_island.png',
+    'http://zxstudio.org/projects/drdestructo/screenshots/screen_10_briefing.png']
+  video: {youtube: aruCsdxWCCQ}
+  remakes: [Destructo]
+- url: http://www.siedler25.org/
+  name: Return to the Roots
+  development: active
+  lang: C++
+  repo: https://code.launchpad.net/~flosoft/s25rttr/trunk
+  images: ['http://www.siedler25.org/gallery/2011/2011.01.19_12.jpg', 'http://www.siedler25.org/gallery/2011/2011.01.19_8.jpg',
+    'http://www.siedler25.org/gallery/2011/2011.01.19_3.jpg', 'http://www.siedler25.org/gallery/2011/2011.01.19_10.jpg']
+  remakes: [The Settlers II]
+
+- name: rfk-inform
+  repo: https://github.com/DavidGriffith/rfk-inform
+  development: halted
+  lang: [Perl]
+  images: ['http://robotfindskitten.org/shots/Inform/rfk-inform01.png', 'http://robotfindskitten.org/shots/Inform/rfk-inform02.png',
+    'http://robotfindskitten.org/shots/Inform/rfk-inform03.png']
+  remakes: [Robotfindskitten]
+
+- name: RGP - Racing Game Project
+  updated: 2015-04-26
+  url: http://devlog-martinsh.blogspot.co.uk/search/label/Racing game
+  development: halted
+  lang: Python
+  framework: Blender
+  repo: https://dl.dropboxusercontent.com/u/11542084/RGPv01.zip
+  images: ['https://dl.dropboxusercontent.com/u/11542084/rgp_screen_06.jpg', 'https://dl.dropboxusercontent.com/u/11542084/rgp_screen_03.jpg',
+    'https://dl.dropboxusercontent.com/u/11542084/rgp_screen_04.jpg']
+  clones: [Wipeout]
+
+- name: rickyd
+  url: http://sourceforge.net/projects/rickyd/
+  repo: git://git.code.sf.net/p/rickyd/code
+  status: playable
+  development: sporadic
+  lang: C++
+  updated: 2015-04-03
+  remakes: [Rick Dangerous]
+
+- name: Rigs of Rods
+  repo: https://github.com/RigsOfRods/rigs-of-rods
+  url: http://rigsofrods.org/
+  development: active
+  status: playable
+  lang: [C, C++, AngelScript, Python]
+  framework: [OGRE3D Engine]
+  license: GPL3
+  updated: 2016-11-30
+  images: ['http://rigsofrods.org/images/screenshots/ror-screenshot5.jpg', 'http://rigsofrods.org/images/screenshots/ror-screenshot6.jpg',
+    'http://rigsofrods.org/images/screenshots/ror-screenshot7.jpg']
+  video: {youtube: bRbQ4OaljWs}
+  clones: [BeamNG.drive]
+
+- name: Rise of the Triad for Linux
+  url: http://icculus.org/rott/
+  repo: http://svn.icculus.org/rott/trunk/
+  development: sporadic
+  lang: C
+  updated: 2013-05-27
+  remakes: [Rise of the Triad]
+
+- name: Road Fighter
+  updated: 2015-04-13
+  url: http://www.braingames.getput.com/roadf/default.asp
+  repo: http://braingames.jorito.net/roadfighter/downloads/roadfighter.src_1.0.1269.tgz
+  lang: C++
+  license: [LGPL2]
+  images: ['http://www.braingames.getput.com/roadf/pics/screenshot1.jpg', 'http://www.braingames.getput.com/roadf/pics/screenshot2.jpg',
+    'http://www.braingames.getput.com/roadf/pics/screenshot3.jpg', 'http://www.braingames.getput.com/roadf/pics/screenshot4.jpg']
+  remakes: [Road Fighter]
+
+- name: Robbo
+  url: http://dizaina.net/z/robbo/
+  repo: https://github.com/Zibx/robbo
+  status: playable
+  development: active
+  lang: JavaScript
+  updated: 2014-03-21
+  remakes: [The Adventures of Robbo]
+
+- name: robotron
+  repo: https://github.com/Ernir/robotron
+  url: https://github.com/Ernir/robotron
+  updated: 2015-04-06
+  development: active
+  lang: JavaScript
+  remakes: ['Robotron: 2084']
+
+- name: rock-raiders-remake
+  updated: 2015-09-21
+  repo: https://github.com/rystills/rock-raiders-remake
+  url: http://rystills.github.io/rock-raiders-remake/
+  development: active
+  lang: JavaScript
+  remakes: [Lego Rock Raiders]
+
+- name: Rockbot
+  repo: https://github.com/protoman/rockbot
+  url: http://rockbot.upperland.net/
+  updated: 2017-10-20
+  development: active
+  lang: C++
+  license: GPL2
+  framework: SDL
+  images: ['http://rockbot.upperland.net/wp-content/uploads/2010/12/game_0021.png',
+    'http://rockbot.upperland.net/wp-content/uploads/2014/01/game_1.0RC1_016.png',
+    'http://rockbot.upperland.net/wp-content/uploads/2014/01/game_1.0RC1_010.png']
+  remakes: [MegaMan]
+
+- name: Rocks n diamonds
+  url: http://www.artsoft.org/rocksndiamonds/
+  repo: http://git.artsoft.org/?p=rocksndiamonds.git
+  status: playable
+  development: sporadic
+  lang: C
+  updated: 2014-01-12
+  images: ['http://www.artsoft.org/rocksndiamonds/screenshots/mainmenu.gif', 'http://www.artsoft.org/rocksndiamonds/screenshots/emeraldmine.gif',
+    'http://www.artsoft.org/rocksndiamonds/screenshots/editor1.gif']
+  remakes: [Boulder Dash]
+
+- name: RPG-X
+  updated: 2015-04-10
+  url: http://www.last-outpost.net/rpg-x/
+  repo: https://github.com/UberGames/rpgxEF
+  development: active
+  lang: C
+  license: [GPL2]
+  images: ['http://last-outpost.net/wp-content/uploads/2012/08/timewarp.jpg']
+  remakes: ["Star Trek: Voyager \u2013 Elite Force"]
+
+- name: rtype
+  repo: https://github.com/leurqum/Rtype
+  updated: 2015-04-07
+  development: halted
+  lang: C++
+  remakes: [R-Type]
+
+- name: Ruby OMF 2097 Remake
+  updated: 2015-04-13
+  url: http://rubyomf2097.rubyforge.org/
+  repo: svn://rubyforge.org/var/svn/rubyomf2097
+  development: halted
+  lang: Ruby
+  license: [BSD4]
+  remakes: ['One Must Fall: 2097']
+
+- name: Ruby Raid
+  updated: 2015-05-15
+  repo: https://github.com/zukunftsalick/ruby-raid
+  development: halted
+  lang: Ruby
+  remakes: [River Raid]
+
+- name: RxWars
+  updated: 2015-06-25
+  repo: https://github.com/gtheilman/RxWars
+  development: active
+  lang: JavaScript
+  remakes: [Drugwars]
+
+- name: Ryzom Core
+  updated: 2015-04-13
+  url: http://www.ryzomcore.org/
+  development: active
+  lang: C++
+  license: [AGPL3]
+  repo: https://bitbucket.org/ryzom/ryzomcore/overview
+  remakes: [Ryzom]

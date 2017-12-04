@@ -1,0 +1,350 @@
+
+- name: Maelstrom
+  url: http://www.libsdl.org/projects/Maelstrom/
+  repo: http://www.libsdl.org/projects/Maelstrom/src/
+  status: playable
+  development: halted
+  lang: [C]
+  framework: [SDL]
+  updated: 2014-01-12
+  remakes: [Asteroids]
+
+- name: Magarena
+  repo: https://github.com/magarena/magarena
+  url: https://magarena.github.io/
+  development: very active
+  status: playable
+  lang: [Java]
+  clones: ['Magic: The Gathering Online']
+
+- name: magiccarpet
+  repo: https://github.com/wonea/magiccarpet
+  development: halted
+  lang: C++
+  updated: 2016-04-20
+  remakes: [Magic Carpet]
+
+- name: ManiaDrive
+  url: http://maniadrive.raydium.org/
+  updated: 2016-05-16
+  repo: https://sourceforge.net/projects/maniadrive/files/maniadrive/1.2/ManiaDrive-1.2-src.tar.gz
+  lang: [C, PHP]
+  remakes: [TrackMania]
+
+- name: Manic Digger
+  url: http://manicdigger.github.io/
+  repo: https://github.com/manicdigger/manicdigger
+  development: sporadic
+  lang: C#
+  updated: 2013-10-10
+  images: ['http://manicdigger.github.io/images/release_2015-08-22.png']
+  remakes: [Minecraft]
+
+- name: Manic Miner
+  updated: 2015-05-09
+  url: http://www.andynoble.co.uk/games.htm
+  repo: http://www.andynoble.co.uk/files/ManicBB.zip
+  lang: Blitz BASIC
+  remakes: [Manic Miner]
+
+- name: Marble Madness 3d
+  repo: https://github.com/davido262/marble-madness-3d
+  development: halted
+  lang: C++
+  updated: 2015-04-03
+  remakes: [Marble Madness]
+
+- name: Mari0
+  url: http://stabyourself.net/mari0/
+  repo: http://stabyourself.net/dl.php?file=mari0-1006/mari0-source.zip
+  framework: "L\xD6VE"
+  lang: Lua
+  updated: 2015-04-03
+  images: ['https://i.imgur.com/M8NcU.gif']
+  remakes: [Mario World]
+
+- name: Mauvenet
+  updated: 2015-05-09
+  repo: http://gamesoft.ca/bestgames/mauvenet_.zip
+  lang: C++
+  url: http://gamesoft.ca/remakes.html
+  images: ['http://gamesoft.ca/bestgames/images/mauvenet3.png']
+  remakes: [Quadnet]
+
+- name: Maxit
+  repo: http://gamesoft.ca/bestgames/maxit%20-%20src.zip
+  lang: Java
+  updated: 2015-05-09
+  images: ['http://gamesoft.ca/bestgames/images/maxit.png']
+  remakes: [Maxit]
+
+- name: Maxit
+  updated: 2015-05-09
+  url: http://sourceforge.net/projects/maxit/
+  development: sporadic
+  lang: C++
+  license: [BSD]
+  repo: https://github.com/textbrowser/maxit
+  images: ['https://a.fsdn.com/con/app/proj/maxit/screenshots/183592.jpg', 'https://a.fsdn.com/con/app/proj/maxit/screenshots/183590.jpg',
+    'https://a.fsdn.com/con/app/proj/maxit/screenshots/183588.jpg']
+  remakes: [Maxit]
+- url: http://www.maxr.org/
+  name: Mechanized Assault and eXploration Reloaded
+  development: sporadic
+  lang: C++
+  repo: http://www.maxr.org/trac/timeline
+  images: ['http://www.maxr.org/images/screenshots/03.jpg', 'http://www.maxr.org/images/screenshots/04.jpg',
+    'http://www.maxr.org/images/screenshots/11.jpg', 'http://www.maxr.org/images/screenshots/10.jpg']
+  remakes: [M.A.X.]
+
+- name: MechCommander 2 Omnitech
+  updated: 2015-04-08
+  repo: https://github.com/Echelon9/mechcommander2-open
+  development: halted
+  lang: C++
+  license: [MS-PL]
+  remakes: [MechCommander 2]
+
+- name: Mega Mario
+  url: http://sourceforge.net/projects/mmario/
+  status: playable
+  development: halted
+  lang: C++
+  updated: 2014-04-16
+  images: ['http://a.fsdn.com/con/app/proj/mmario/screenshots/206808.jpg', 'http://a.fsdn.com/con/app/proj/mmario/screenshots/206814.jpg',
+    'http://a.fsdn.com/con/app/proj/mmario/screenshots/206810.jpg']
+  remakes: [Super Mario]
+
+- name: MegaGlest
+  repo: https://github.com/MegaGlest/megaglest-source
+  url: https://megaglest.org/
+  development: active
+  status: playable
+  lang: [C, C++]
+  license: [GPL3, CC-BY-SA]
+  info: Various mods are available.
+  updated: 2016-12-02
+  images: ['https://megaglest.org/uploads/images/Gallery/Screenshots/more_screens10.jpg',
+    'https://megaglest.org/uploads/images/Gallery/Screenshots/screen44.jpg', 'https://megaglest.org/uploads/images/Gallery/Screenshots/more_screens10.jpg']
+  video: {youtube: glWKT8hDmjw}
+  remakes: [Glest]
+
+- name: Meridian 59 German Server 112
+  updated: 2016-03-16
+  url: http://meridian59.de
+  repo: https://github.com/Arantis/Meridian59_112
+  development: active
+  lang: C
+  license: [GPL2]
+  remakes: [Meridian 59]
+
+- name: Meridian 59 Server 105
+  updated: 2016-03-16
+  url: https://www.meridiannext.com
+  repo: https://github.com/OpenMeridian105/Meridian59
+  development: active
+  lang: C
+  license: [GPL2]
+  remakes: [Meridian 59]
+
+- name: mewl
+  updated: 2015-09-21
+  repo: https://github.com/LionsPhil/mewl
+  development: sporadic
+  lang: C++
+  license: [GPL2]
+  remakes: [M.U.L.E.]
+
+- name: Micropolis
+  repo: https://github.com/SimHacker/micropolis
+  development: halted
+  license: [GPL]
+  lang: [C++, Python]
+  updated: 2013-05-27
+  clones: [Simcity]
+
+- name: MicropolisJS
+  url: http://www.graememcc.co.uk/micropolisJS/
+  repo: https://github.com/graememcc/micropolisJS
+  updated: 2015-07-04
+  development: halted
+  lang: JavaScript
+  framework: HTML5
+  license: [GPL3]
+  clones: [Simcity]
+
+- name: Microracers
+  updated: 2015-04-15
+  url: http://microracers.sourceforge.net/
+  development: halted
+  lang: C++
+  license: [GPL2]
+  repo: http://microracers.cvs.sourceforge.net/viewvc/microracers/
+  images: ['http://microracers.sourceforge.net/images/screenshots/microracers-0.2-1.jpg',
+    'http://microracers.sourceforge.net/images/screenshots/microracers-0.2-2.jpg',
+    'http://microracers.sourceforge.net/images/screenshots/microracers-0.2-3.jpg']
+  remakes: [Micro Machines]
+
+- name: Minesweeper
+  updated: 2015-09-28
+  repo: https://github.com/rachelreese/Minesweeper
+  development: halted
+  lang: F#
+  info: iOS
+  remakes: [Minesweeper]
+
+- name: Minesweeper
+  updated: 2016-02-06
+  repo: https://github.com/DouglasMeyer/minesweeper
+  url: http://www.douglas-meyer.name/minesweeper/
+  development: sporadic
+  status: playable
+  lang: JavaScript
+  framework: [React, Redux]
+  content: free
+  remakes: [Minesweeper]
+
+- name: Minesweeper.Zone
+  updated: 2017-04-12
+  repo: https://github.com/reed-jones/minesweeper_js
+  url: https://minesweeper.zone
+  development: active
+  status: playable
+  lang: JavaScript
+  content: open
+  info: Open source JavaScript Minesweeper clone with high scores
+  images: ['https://minesweeper.zone/minesweeper.jpg']
+  remakes: [Minesweeper]
+- url: http://www.minetest.net/
+  name: Minetest
+  development: active
+  lang: [C, C++]
+  repo: https://github.com/minetest/minetest
+  updated: 2013-10-10
+  images: ['http://www.minetest.net/media/gallery/1.jpg', 'http://www.minetest.net/media/gallery/6.jpg']
+  remakes: [Minecraft]
+
+- name: Mining Haze
+  url: http://sourceforge.net/projects/mininghaze/
+  updated: 2015-04-15
+  development: halted
+  lang: C
+  license: [GPL2]
+  repo: http://iweb.dl.sourceforge.net/project/mininghaze/mininghaze/0.1/mining-haze-0.1.tar.gz
+  images: ['https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177162.jpg', 'https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177272.jpg',
+    'https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177625.jpg', 'https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177621.jpg',
+    'https://a.fsdn.com/con/app/proj/mininghaze/screenshots/177623.jpg']
+  remakes: [Boulder Dash]
+
+- name: Mirror Magic
+  url: http://www.artsoft.org/mirrormagic/
+  status: playable
+  development: halted
+  lang: C
+  updated: 2014-01-12
+  remakes: [Deflektor]
+
+- name: Missile Command
+  url: https://github.com/chadpaulson/missile-command
+  repo: https://github.com/chadpaulson/missile-command
+  status: playable
+  development: halted
+  lang: Lua
+  updated: 2014-08-16
+  images: ['https://camo.githubusercontent.com/7e8455e7b2c909a2977815c861ab6bf9a053bee4/687474703a2f2f692e696d6775722e636f6d2f7747556a592e706e67']
+  video: {youtube: DviEWbUvv2Y}
+  remakes: [Missile Command]
+
+- name: 'Mission ELITE: The Battle For Birera'
+  updated: 2015-04-08
+  url: http://polarelephant.blogspot.co.uk/2007/10/elite-remake.html
+  repo: http://www.mediafire.com/?ddmmswi1ngw
+  development: halted
+  lang: C
+  images: ['https://1.bp.blogspot.com/_zJ6-FHWQvDE/R0e_NhJFakI/AAAAAAAAACw/tgysRPXJfeU/s400/el-14.jpg']
+  remakes: [Elite]
+
+- name: mk.js
+  updated: 2015-05-19
+  repo: https://github.com/mgechev/mk.js
+  status: playable
+  development: halted
+  lang: JavaScript
+  license: [MIT]
+  url: http://mk.mgechev.com/
+  remakes: [Mortal Kombat]
+
+- name: mkxp
+  info: RGSS (XP, VX, VX Ace) implementation
+  repo: https://github.com/Ancurio/mkxp
+  development: sporadic
+  lang: C++
+  license: GPL2
+  status: playable
+  updated: 2017-10-20
+  clones: [RPG Maker]
+
+- name: Mocha Doom
+  updated: 2015-04-10
+  url: http://mochadoom.sourceforge.net/
+  repo: http://mochadoom.cvs.sourceforge.net/viewvc/mochadoom/
+  development: active
+  lang: Java
+  license: [GPL3]
+  images: ['https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331375.jpg', 'https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331379.jpg',
+    'https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331381.jpg', 'https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331377.jpg',
+    'https://a.fsdn.com/con/app/proj/mochadoom/screenshots/331383.jpg', 'https://a.fsdn.com/con/app/proj/mochadoom/screenshots/287749.jpg']
+  remakes: [Doom]
+
+- name: MonoStrategy
+  url: https://monostrategy.codeplex.com/
+  repo: https://monostrategy.codeplex.com/SourceControl/latest
+  updated: 2017-05-29
+  development: halted
+  content: commercial
+  lang: C#
+  license: [AGPL3]
+  images: ['http://download-codeplex.sec.s-msft.com/Download?ProjectName=monostrategy&DownloadId=205876',
+    'http://download-codeplex.sec.s-msft.com/Download?ProjectName=monostrategy&DownloadId=219941']
+  remakes: [The Settlers III]
+
+- name: Monsters and Mushrooms
+  updated: 2015-04-11
+  url: http://pygame.org/project-Monsters+and+Mushrooms-989-.html
+  repo: https://github.com/machinezilla/monsters_and_mushrooms
+  development: halted
+  lang: Python
+  license: [GPL2]
+  images: ['http://pygame.org/shots/989.png']
+  remakes: [Millipede]
+
+- name: Monty Mole PC remake
+  updated: 2015-04-13
+  url: http://sourceforge.net/projects/montymole/
+  development: halted
+  lang: C++
+  repo: http://montymole.cvs.sourceforge.net/viewvc/montymole/
+  images: ['https://a.fsdn.com/con/app/proj/montymole/screenshots/28062.jpg', 'https://a.fsdn.com/con/app/proj/montymole/screenshots/28060.jpg']
+  remakes: [Monty Mole]
+
+- name: movbizz
+  repo: https://github.com/teruk/movbizz
+  updated: 2015-06-01
+  development: active
+  lang: [PHP, JavaScript]
+  license: [MIT]
+  url: http://movbizz.sebbmeyer.de/
+  remakes: [Movie Business]
+
+- name: Mr.Boom
+  updated: 2017-07-18
+  url: http://mrboom.mumblecore.org
+  repo: https://github.com/Javanaise/mrboom-libretro
+  development: active
+  lang: C++
+  framework: [SDL]
+  license: [MIT]
+  images: ['https://github.com/Javanaise/mrboom-libretro/raw/master/Assets/mrb0.png',
+    'https://github.com/Javanaise/mrboom-libretro/raw/master/Assets/mrb1.png', 'https://github.com/Javanaise/mrboom-libretro/raw/master/Assets/mrb2.png',
+    'https://github.com/Javanaise/mrboom-libretro/raw/master/Assets/mrb4.png', 'https://github.com/Javanaise/mrboom-libretro/raw/master/Assets/mrb5.png']
+  remakes: [Bomberman]

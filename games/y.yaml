@@ -1,0 +1,22 @@
+
+- name: Yamagi Quake II
+  updated: 2015-04-05
+  repo: https://github.com/yquake2
+  url: http://www.yamagi.org/quake2/
+  development: active
+  lang: C
+  license: [GPL2]
+  remakes: [Quake 2]
+
+- name: YSoccer
+  url: http://ysoccer.sourceforge.net/
+  repo: git://git.code.sf.net/p/ysoccer/code ysoccer-code
+  updated: 2017-01-08
+  development: sporadic
+  status: playable
+  lang: Blitz BASIC
+  license: [GPL]
+  images: ['http://ysoccer.sourceforge.net/images/screenshot_goal.jpg', 'http://ysoccer.sourceforge.net/images/screenshot_rain.jpg',
+    'http://ysoccer.sourceforge.net/images/screenshot_tactics.jpg', 'http://ysoccer.sourceforge.net/images/screenshot_set_team.png',
+    'http://ysoccer.sourceforge.net/images/screenshot_team_editor.jpg']
+  remakes: [Sensible Soccer]

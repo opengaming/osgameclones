@@ -1,0 +1,194 @@
+
+- name: earth-shaker
+  updated: 2016-06-03
+  framework: Unity
+  repo: https://github.com/Palevolg/earth-shaker
+  development: active
+  remakes: [Earth Shaker]
+
+- name: EarthShakerDS
+  repo: https://github.com/ant512/EarthShakerDS
+  url: http://simianzombie.com/posts/2011/05/10/earth-shaker-ds-released
+  updated: 2015-04-08
+  info: Nintendo DS port
+  content: commercial
+  development: active
+  lang: C++
+  license: [BSD]
+  images: ['http://simianzombie.com/media/2011/05/1.png', 'http://simianzombie.com/media/2011/05/2.png',
+    'http://simianzombie.com/media/2011/05/3.png']
+  remakes: [Earth Shaker]
+
+- name: EasyRPG Player
+  info: 2000/2003 interpreter
+  url: https://easyrpg.org/
+  repo: https://github.com/EasyRPG/
+  development: active
+  lang: C++
+  license: GPL3
+  status: playable
+  updated: 2017-10-20
+  images: ['https://easyrpg.org/images/easyrpg-player.png']
+  clones: [RPG Maker]
+
+- name: Eat The Whistle
+  url: http://www.ggsoft.org/etw/
+  repo: svn://svn.code.sf.net/p/etw/code/trunk
+  updated: 2015-04-10
+  development: sporadic
+  lang: C
+  license: [GPL2]
+  images: ['https://a.fsdn.com/con/app/proj/etw/screenshots/172852.jpg', 'https://a.fsdn.com/con/app/proj/etw/screenshots/172854.jpg',
+    'https://a.fsdn.com/con/app/proj/etw/screenshots/172856.jpg']
+  remakes: [Eat The Whistle]
+
+- name: Ecksdee
+  url: http://sourceforge.net/projects/ecksdee/
+  development: halted
+  lang: C++
+  license: [GPL2]
+  repo: git://git.code.sf.net/p/ecksdee/ecksdee
+  updated: 2015-04-25
+  images: ['https://a.fsdn.com/con/app/proj/ecksdee/screenshots/98817.jpg', 'https://a.fsdn.com/con/app/proj/ecksdee/screenshots/98811.jpg',
+    'https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99927.jpg', 'https://a.fsdn.com/con/app/proj/ecksdee/screenshots/67869.jpg',
+    'https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99925.jpg', 'https://a.fsdn.com/con/app/proj/ecksdee/screenshots/90020.jpg']
+  clones: [Wipeout]
+- url: http://maniacsvault.net/ecwolf/
+  name: ECWolf
+  development: active
+  lang: C++
+  repo: https://bitbucket.org/Blzut3/ecwolf
+  updated: 2015-04-03
+  images: ['http://maniacsvault.net/ecwolf/ecwolf_fullres.png']
+  remakes: [Wolfenstein 3D]
+
+- name: EDuke32
+  url: http://eduke32.com/
+  development: active
+  lang: C
+  repo: http://sourceforge.net/projects/eduke32/develop
+  images: ['http://hrp.duke4.net/screens/ep1/e1l1_01s.jpg', 'http://hrp.duke4.net/screens/ep1/e1l2_02s.jpg',
+    'http://hrp.duke4.net/screens/ep1/e1l5_01s.jpg', 'http://hrp.duke4.net/screens/ep2/e2l3_04s.jpg']
+  remakes: [Duke Nukem 3D]
+
+- name: EmptyEpsilon
+  remakes: ['Artemis: Spaceship Bridge Simulator']
+  url: http://daid.github.io/EmptyEpsilon/
+  repo: https://github.com/daid/EmptyEpsilon
+  status: playable
+  development: active
+  lang: C++
+  license: [GPL2]
+  multiplayer: [Online, LAN]
+  updated: 2016-08-27
+  images:
+    - http://daid.github.io/EmptyEpsilon/screenshots/mainscreen.png
+    - http://daid.github.io/EmptyEpsilon/screenshots/helms.png
+
+- name: encounter
+  updated: 2015-05-28
+  repo: https://github.com/air/encounter
+  development: active
+  lang: JavaScript
+  framework: WebGL
+  url: http://air.github.io/encounter/
+  remakes: [Encounter]
+- url: https://endless-sky.github.io/
+  repo: https://github.com/endless-sky
+  updated: 2015-05-02
+  development: active
+  lang: C++
+  license: [GPL3]
+  name: Endless Sky
+  images: ['https://endless-sky.github.io/screenshots/fight.jpg', 'https://endless-sky.github.io/screenshots/trading.jpg',
+    'https://endless-sky.github.io/screenshots/map.jpg', 'https://endless-sky.github.io/screenshots/plunder.jpg',
+    'https://endless-sky.github.io/screenshots/missions.jpg']
+  clones: [Escape Velocity]
+
+- name: Enigma
+  url: http://www.nongnu.org/enigma/
+  repo: https://github.com/Enigma-Game/Enigma
+  development: sporadic
+  lang: C++
+  license: GPL2
+  framework: SDL
+  updated: 2017-10-20
+  remakes: [Oxyd]
+
+- name: Entombed!
+  url: http://www.newbreedsoftware.com/entombed/
+  updated: 2015-04-08
+  repo: ftp://ftp.tuxpaint.org/unix/x/entombed/entombed-2007.07.04.tar.gz
+  development: halted
+  lang: C
+  remakes: [Entombed!]
+
+- name: erampage (EDuke32 fork)
+  url: https://code.google.com/p/erampage/
+  development: active
+  lang: C
+  repo: https://code.google.com/p/erampage/source/checkout
+  updated: 2013-05-29
+  remakes: [Redneck Rampage]
+
+- name: Escalade
+  updated: 2015-04-17
+  repo: https://github.com/mdr/escalade
+  development: halted
+  lang: Scala
+  remakes: [Rampart]
+- url: http://etlegacy.com/
+  name: 'ET: Legacy'
+  content: commercial
+  development: active
+  lang: [C, C++, Lua]
+  repo: https://github.com/etlegacy/etlegacy
+  updated: 2013-05-28
+  images: ['http://www.splashdamage.com/screens_wet/001.jpg', 'http://www.splashdamage.com/screens_wet/002.jpg',
+    'http://www.splashdamage.com/screens_wet/003.jpg', 'http://www.splashdamage.com/screens_wet/004.jpg']
+  remakes: ['Wolfenstein: Enemy Territory']
+
+- name: Executive Man
+  repo: https://github.com/CamHenlin/ExecutiveMan
+  updated: 2015-05-02
+  development: active
+  lang: JavaScript
+  license: [Custom]
+  images: ['https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png']
+  remakes: [MegaMan]
+
+- name: EXILE
+  updated: 2015-06-22
+  repo: https://github.com/Geti/EXILE
+  development: halted
+  framework: "L\xD6VE"
+  lang: Lua
+  license: [Custom]
+  remakes: [Exile]
+
+- name: exolon
+  url: https://newagebegins.github.io/exolon/exolon.html
+  repo: https://github.com/newagebegins/exolon
+  updated: 2015-04-05
+  development: active
+  lang: JavaScript
+  images: ['https://raw.githubusercontent.com/newagebegins/exolon/master/screenshot.gif']
+  remakes: [Exolon]
+- url: http://exult.sourceforge.net/
+  name: Exult
+  repo: http://sourceforge.net/projects/exult/develop
+  development: sporadic
+  lang: C++
+  images: ['http://exult.sourceforge.net/images/screenshots/stage.png', 'http://exult.sourceforge.net/images/screenshots/bgpaper.png',
+    'http://exult.sourceforge.net/images/screenshots/blackgate.png', 'http://exult.sourceforge.net/images/screenshots/teleportmap.png']
+  remakes: [Ultima VII]
+
+- name: ezQuake
+  url: http://ezquake.sourceforge.net/
+  repo: https://github.com/ezQuake/ezquake-source
+  development: active
+  lang: C
+  license: [GPL2]
+  updated: 2015-07-02
+  images: ['http://ezquake.sourceforge.net/gallery/armor_battle.png']
+  remakes: [Quake]

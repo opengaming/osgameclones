@@ -124,7 +124,7 @@ def show_validation_errors(data, errors):
 
 
 def parse_data(site):
-    base = op.join(op.dirname(__file__), 'games')
+    base = op.dirname(__file__)
 
     originals = []
     for fn in os.listdir(op.join(base, 'originals')):
@@ -151,9 +151,9 @@ def parse_data(site):
             raise error
 
     clones = []
-    for fn in sorted(os.listdir(op.join(base, 'clones'))):
+    for fn in sorted(os.listdir(op.join(base, 'games'))):
         if fn.endswith('.yaml'):
-            clones.extend(yaml.load(open(op.join(base, 'clones', fn))))
+            clones.extend(yaml.load(open(op.join(base, 'games', fn))))
     print(str(len(clones)) + ' clones in total')
 
     try:

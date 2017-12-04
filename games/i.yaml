@@ -1,0 +1,124 @@
+
+- name: I Have No Tomatoes
+  url: http://tomatoes.sourceforge.net/screenshots.html
+  repo: http://kent.dl.sourceforge.net/project/tomatoes/tomatoes/1.5/tomatoes-win32-src-1.5.zip
+  updated: 2015-05-02
+  development: halted
+  lang: C++
+  images: ['http://tomatoes.sourceforge.net/ss1.jpg', 'http://tomatoes.sourceforge.net/ss2.jpg',
+    'http://tomatoes.sourceforge.net/ss3.jpg', 'http://tomatoes.sourceforge.net/ss4.jpg']
+  remakes: [Bomberman]
+
+- name: ICBM3D
+  url: http://www.newbreedsoftware.com/icbm3d/
+  updated: 2015-04-07
+  repo: ftp://ftp.tuxpaint.org/unix/x/icbm3d/icbm3d.0.4.tar.gz
+  development: halted
+  lang: C
+  images: ['http://www.newbreedsoftware.com/icbm3d/screenshots/1.gif', 'http://www.newbreedsoftware.com/icbm3d/screenshots/2.gif',
+    'http://www.newbreedsoftware.com/icbm3d/screenshots/3.gif', 'http://www.newbreedsoftware.com/icbm3d/screenshots/4.gif',
+    'http://www.newbreedsoftware.com/icbm3d/screenshots/5.gif', 'http://www.newbreedsoftware.com/icbm3d/screenshots/6.gif',
+    'http://www.newbreedsoftware.com/icbm3d/screenshots/7.gif', 'http://www.newbreedsoftware.com/icbm3d/screenshots/8.gif',
+    'http://www.newbreedsoftware.com/icbm3d/screenshots/icbm3d-agenda.gif']
+  clones: [Missile Command]
+
+- name: Ice Breaker
+  updated: 2015-05-09
+  url: http://mattdm.org/icebreaker/
+  repo: http://mattdm.org/icebreaker/1.2.x/icebreaker-1.2.1.tgz
+  images: ['http://mattdm.org/icebreaker/images/screenshot-level1-linux.png', 'http://mattdm.org/icebreaker/images/screenshot-level2-billg.png',
+    'http://mattdm.org/icebreaker/images/screenshot-level5-jz-like.png', 'http://mattdm.org/icebreaker/images/screenshot-level6-stars.png']
+  remakes: [JezzBall]
+
+- name: Iceball
+  updated: 2015-07-22
+  url: http://iceball.build/
+  repo: https://github.com/iamgreaser/iceball
+  development: active
+  license: [GPL3, CC-BY-SA]
+  content: open
+  lang: [C, Lua]
+  remakes: [Ace of Spades]
+
+- name: imperialism-remake
+  repo: https://github.com/Trilarion/Imperialism-Remake
+  url: http://remake.twelvepm.de/
+  updated: 2015-04-05
+  development: active
+  lang: Python
+  license: [GPL3]
+  images: ['http://remake.twelvepm.de/wp/wp-content/uploads/2014/04/EditorScreen.0.1.0.jpg']
+  remakes: [Imperialism]
+
+- name: Inexor
+  repo: https://github.com/inexor-game/code
+  url: https://inexor.org/
+  development: active
+  status: semi-playable
+  lang: [C++, JavaScript]
+  framework: [HTML, CSS, Cube 2 Engine]
+  license: [Zlib]
+  info: In addition to improving Sauerbraten one of the stated goals of the project
+    is to remove/replace all content with unclear or non-free licenses from the game.
+  updated: 2016-12-03
+  remakes: ['Cube 2: Sauerbraten']
+
+- name: Interstate Outlaws
+  updated: 2015-07-04
+  development: halted
+  lang: Python
+  license: [GPL]
+  url: http://www.interstateoutlaws.com/
+  repo: http://www.interstateoutlaws.com/downloads/Outlaws-0.1.1a-linux.tar.gz
+  images: ['http://www.interstateoutlaws.com/media/craterpreview.jpg']
+  remakes: [Interstate '76]
+
+- name: IO Reboot
+  url: https://play.google.com/store/apps/details?id=omarchehab.io
+  repo: https://github.com/omarchehab98/ioreboot
+  status: playable
+  development: complete
+  lang: C#
+  framework: Unity
+  license: MIT
+  content: open
+  updated: 2017-02-14
+  images: ['https://lh3.googleusercontent.com/umCxkpuG_pBRWijjgE9i2Pc314qEdbg1uYgFCkCqtoRaiBGX4pBg9aFR7BFsSHjQ0sRe=h900-rw',
+    'https://lh3.googleusercontent.com/wXYHQFw9OKKcZZiDC9KEM-Qt6ZJVp6Vn1EJZlgRCwMmbuSqSQSFTC3YreAaZ2qF_KA=h900-rw',
+    'https://lh3.googleusercontent.com/jOWqEEME9LDyabTj2rHnb4iCyF1bElCWukqop98WVxrammgL8MfG1MuevnCmsivtpA=h900-rw']
+  clones: [Infinity Loop]
+
+- name: ioquake3
+  url: http://ioquake3.org/
+  repo: https://github.com/ioquake/ioq3
+  development: active
+  lang: [C]
+  remakes: [Quake 3]
+
+- name: Iris2
+  url: http://www.iris2.de/
+  status: playable
+  development: halted
+  repo: http://iris.schattenkind.net/svn/trunk/
+  images: ['http://www.iris2.de/images/4/48/20080106175329_188.png']
+  remakes: [Ultima Online]
+
+- name: Iron Seed
+  updated: 2015-04-08
+  url: http://www.ironseed.com/
+  repo: http://www.ironseed.com/ironseed-v1.20.0016-2013-03-17.zip
+  development: halted
+  lang: Pascal
+  license: [GPL3]
+  remakes: [Iron Seed]
+
+- name: irrlamb
+  repo: https://github.com/jazztickets/irrlamb
+  updated: 2015-12-29
+  development: active
+  lang: C++
+  framework: Irrlicht
+  license: [GPL3]
+  images: ['http://i.imgur.com/EZhOF2Z.jpg', 'http://i.imgur.com/MoKnLml.jpg', 'http://i.imgur.com/B0Yg78D.jpg',
+    'http://i.imgur.com/FUiVvbl.jpg', 'http://i.imgur.com/8ibJCaB.jpg', 'http://i.imgur.com/cI3CN7W.jpg']
+  remakes: [Super Monkey Ball]
