@@ -55,6 +55,7 @@ in the [`schema/originals.yaml`][schema_originals] validation file.
 ```yaml
 - name:         string     # Name of the original game (required)
   names:        array      # Other names for the game, or other games in the series
+  platform:     enum       # Game platform, i.e. Amiga. See platform in orginals schema
   meta:
     genre:      enum       # Any of genres in originals schema
     subgenre:   enum       # Any of subgenres in originals schema
