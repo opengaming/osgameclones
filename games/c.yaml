@@ -14,8 +14,9 @@
     'http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/4.png']
   video: {youtube: hgX3jz_HajE}
   remakes: [C-Dogs]
-- url: http://www.c-evo.org/
-  name: C-Evo
+
+- name: C-Evo
+  url: http://www.c-evo.org/
   status: playable
   lang: Delphi
   license: [PD]
@@ -24,6 +25,13 @@
   images: ['http://www.c-evo.org/shot1.jpg', 'http://www.c-evo.org/shot2.jpg', 'http://www.c-evo.org/shot3.jpg',
     'http://www.c-evo.org/shot4.jpg']
   clones: [Civilization II]
+
+- name: c64-nuclearreaction
+  repo: https://github.com/maikmerten/c64-nuclearreaction
+  lang: [C, Assembly]
+  license: [GPL3]
+  updated: 2017-12-12
+  remakes: [Nuclear Reaction]
 
 - name: Cadaver
   url: http://jotd.pagesperso-orange.fr/cadaver/
@@ -150,6 +158,14 @@
   lang: C++
   images: ['http://dmweb.free.fr/files/Clone-Screenshot-CSBLinux.jpg']
   remakes: [Dungeon Master]
+
+- name: chainreaction
+  repo: https://github.com/maikmerten/chainreaction
+  url: http://cr.freewarepoint.de/
+  remakes: [Nuclear Reaction]
+  lang: [Java]
+  license: [GPL3]
+  updated: 2017-12-12
 
 - name: Chariot
   url: https://github.com/ChariotEngine/Chariot
