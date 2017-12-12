@@ -25,15 +25,23 @@
   remakes: ['Achtung, die Kurve!']
 
 - name: Zaz
-  updated: 2015-04-14
   url: http://zaz.sourceforge.net/
   repo: https://zaz.svn.sourceforge.net/svnroot/zaz
   development: halted
   lang: C++
   license: [GPL3]
+  updated: 2015-04-14
   images: ['https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg', 'https://a.fsdn.com/con/app/proj/zaz/screenshots/229087.jpg',
     'https://a.fsdn.com/con/app/proj/zaz/screenshots/271617.jpg']
   remakes: [Zuma]
+
+- name: zedragon
+  repo: https://github.com/charlierobson/zedragon
+  remakes: [Sea Dragon]
+  lang: [Assembly]
+  license: [MIT]
+  development: active
+  updated: 2017-12-12
 
 - name: ZDoom
   url: http://zdoom.org/

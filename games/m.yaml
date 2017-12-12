@@ -54,6 +54,19 @@
   updated: 2015-04-03
   remakes: [Marble Madness]
 
+- name: Marblez
+  clones: [Toobz]
+  repo: https://github.com/mpgossage/Marblez
+  lang: [C#]
+  framework: [Unity]
+  license: [MIT]
+  status: playable
+  updated: 2017-12-12
+  images:
+    - https://raw.githubusercontent.com/mpgossage/Marblez/master/screen1.png
+    - https://raw.githubusercontent.com/mpgossage/Marblez/master/screen2.png
+    - https://raw.githubusercontent.com/mpgossage/Marblez/master/screen3.png
+
 - name: Mari0
   url: http://stabyourself.net/mari0/
   repo: http://stabyourself.net/dl.php?file=mari0-1006/mari0-source.zip
@@ -225,14 +238,19 @@
   info: Open source JavaScript Minesweeper clone with high scores
   images: ['https://minesweeper.zone/minesweeper.jpg']
   remakes: [Minesweeper]
-- url: http://www.minetest.net/
-  name: Minetest
-  development: active
-  lang: [C, C++]
+
+- name: Minetest
   repo: https://github.com/minetest/minetest
-  updated: 2013-10-10
-  images: ['http://www.minetest.net/media/gallery/1.jpg', 'http://www.minetest.net/media/gallery/6.jpg']
+  url: https://www.minetest.net/
   remakes: [Minecraft]
+  lang: [C, C++]
+  license: [GPL2, CC-BY-SA]
+  content: open
+  development: active
+  updated: 2013-10-10
+  images:
+    - http://www.minetest.net/media/gallery/1.jpg
+    - http://www.minetest.net/media/gallery/6.jpg
 
 - name: Mining Haze
   url: http://sourceforge.net/projects/mininghaze/

@@ -7,6 +7,10 @@ sequence:
         type: any
       names:
         type: any
+      platform:
+        type: seq
+        sequence:
+           - include: platform
       meta:
         include: meta
 
@@ -26,6 +30,21 @@ schema;meta:
       sequence:
         - include: themes
 
+
+schema;platform:
+  type: str
+  enum: [
+    'Amiga',
+    'Apple II',
+    'Atari',
+    'Commodore 64',
+    'DOS',
+    'Linux',
+    'Mobile',
+    'MS-DOS',
+    'Windows',
+    'OSX',
+  ]
 
 # -- ADD NEW GENRES TO 'SUBGENRE' SCHEMA --
 # Based on Giant Bomb genres
@@ -56,6 +75,7 @@ schema;genres:
     'TPS',
     'Rhythm',
     'Roguelike',
+    'Shooter',
     'Shmup',
     'Simulation',
     'Strategy',
