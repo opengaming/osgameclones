@@ -35,7 +35,10 @@ schema;platform:
   type: str
   enum: [
     'Amiga',
+    'Apple II',
+    'Atari',
     'Commodore 64',
+    'DOS',
     'Linux',
     'Mobile',
     'MS-DOS',
@@ -72,6 +75,7 @@ schema;genres:
     'TPS',
     'Rhythm',
     'Roguelike',
+    'Shooter',
     'Shmup',
     'Simulation',
     'Strategy',
