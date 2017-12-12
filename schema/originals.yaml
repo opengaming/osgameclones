@@ -7,6 +7,10 @@ sequence:
         type: any
       names:
         type: any
+      platform:
+        type: seq
+        sequence:
+           - include: platform
       meta:
         include: meta
 
@@ -26,6 +30,15 @@ schema;meta:
       sequence:
         - include: themes
 
+
+schema;platform:
+  type: str
+  enum: [
+    'Amiga',
+    'Linux',
+    'Windows',
+    'OSX',
+  ]
 
 # -- ADD NEW GENRES TO 'SUBGENRE' SCHEMA --
 # Based on Giant Bomb genres
