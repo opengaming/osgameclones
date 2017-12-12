@@ -209,18 +209,31 @@
   license: [GPL2]
   remakes: [Bratwurst]
 
+- name: Breakout VR
+  repo: https://github.com/marksteelz3/Breakout-VR
+  clones: [Breakout]
+  lang: [C#, ASP, GLSL]
+  license: [MIT]
+  development: sporadic
+  updated: 2017-12-12
+  images:
+    - https://raw.githubusercontent.com/marksteelz3/Breakout-VR/master/Breakout%20VR%201.0%20Capture.PNG
+    - https://raw.githubusercontent.com/marksteelz3/Breakout-VR/master/Breakout%20VR%201.0%20Capture%202.PNG
+
 - name: Bridge Command
   repo: https://github.com/bridgecommand/bc
   url: https://www.bridgecommand.co.uk
-  development: active
-  status: playable
+  clones: [Ship Simulator series]
   lang: [C++]
   framework: [Irrlicht]
+  development: active
+  status: playable
   license: GPL2
   updated: 2016-12-03
-  images: ['https://www.bridgecommand.co.uk/data/_uploaded/image/5.0b3ScreenShot.png',
-    'https://www.bridgecommand.co.uk/data/_uploaded/image/DSC_0172-1.jpg', 'https://www.bridgecommand.co.uk/data/_uploaded/image/sar.jpg']
-  clones: [Ship Simulator series]
+  images:
+    - https://www.bridgecommand.co.uk/data/_uploaded/image/5.0b3ScreenShot.png
+    - https://www.bridgecommand.co.uk/data/_uploaded/image/DSC_0172-1.jpg
+    - https://www.bridgecommand.co.uk/data/_uploaded/image/sar.jpg
 
 - name: BRIQUOLO
   updated: 2015-04-25
