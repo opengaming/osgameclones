@@ -178,10 +178,26 @@
   url: http://asdfasdf.ethz.ch/~simon/index.php
   repo: https://github.com/SimonN/Lix
   status: playable
-  development: active
+  development: halted
   lang: C++
-  updated: 2013-05-30
+  framework: [Allegro]
+  updated: 2018-01-15
   video: {youtube: dWXXK8QlnME}
+  clones: [Lemmings]
+
+- name: LixD
+  url: http://www.lixgame.com/
+  repo: https://github.com/SimonN/LixD
+  status: playable
+  development: active
+  multiplayer: Online
+  lang: [D]
+  framework: [Allegro]
+  license: [CC0]
+  content: open
+  info: Updated port of Lix to D and Allegro 5
+  updated: 2018-01-15
+  images: ['http://www.lixgame.com/img/lix-d-screenshot.png']
   clones: [Lemmings]
 
 - name: Lode Runner - Total Recall
