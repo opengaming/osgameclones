@@ -473,6 +473,7 @@
   updated: 2015-04-11
   images: ['http://openmohaa.sourceforge.net/media/hud.jpg']
   remakes: ['Medal of Honor: Allied Assault']
+  
 - url: http://openmoo2.org/en/
   name: OpenMOO2
   development: sporadic
@@ -490,6 +491,16 @@
   updated: 2015-04-03
   images: ['http://openmortal.sourceforge.net/images/screenshot3.jpg']
   clones: [Mortal Kombat]
+
+- name: OpenMF
+  status: unplayable
+  development: active
+  lang: C++
+  repo: https://github.com/OpenMafia/OpenMF
+  license: [GPL3]
+  content: commercial
+  images: ['https://github.com/OpenMafia/OpenMF/blob/master/resources/screens.jpg?raw=true']
+  remakes: ['Mafia: The City of Lost Heaven']
 
 - name: OpenMW
   url: http://openmw.org/
