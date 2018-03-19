@@ -328,15 +328,6 @@
   remakes: [Prince of Persia]
 
 - name: FreeRails
-  url: http://freetrain.sourceforge.net/
-  repo: http://sourceforge.net/p/freetrain/code/
-  development: halted
-  lang: C#
-  updated: 2015-04-02
-  images: ['http://freetrain.sourceforge.net/forum/download/file.php?id=1&sid=36293a0660c06ec093a27abe384ffc78']
-  clones: [A-Train]
-
-- name: FreeRails
   url: http://freerails.sourceforge.net/
   development: halted
   lang: [C++, Java]
@@ -411,7 +402,7 @@
   repo: svn://svn.code.sf.net/p/freestars/code/trunk
   development: halted
   lang: C++
-  license: [GPL2]
+  license: [LGPL2]
   remakes: [Stars!]
 - url: http://freesynd.sourceforge.net/
   name: FreeSynd
@@ -421,6 +412,19 @@
   images: ['http://freesynd.sourceforge.net/images/screenshots/ss1.png', 'http://freesynd.sourceforge.net/images/screenshots/ss2.png',
     'http://freesynd.sourceforge.net/images/screenshots/ss3.png']
   remakes: [Syndicate]
+
+- name: FreeTrain
+  url: http://freetrain.sourceforge.net/
+  repo: http://sourceforge.net/p/freetrain/code/
+  development: halted
+  status: playable
+  content: commercial
+  lang: C#
+  license: [GPL2]
+  updated: 2018-03-20
+  images: ['http://www.kohsuke.org/freetrain/screenshots/15.gif', 'http://www.kohsuke.org/freetrain/screenshots/10.png', 'http://www.kohsuke.org/freetrain/screenshots/1.png', 'http://www.kohsuke.org/freetrain/screenshots/3.jpg']
+  video: {youtube: N_W2ra_Lx80}
+  clones: [A-Train]
 
 - name: freeVikings
   updated: 2015-05-12
