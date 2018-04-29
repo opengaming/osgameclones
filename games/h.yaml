@@ -73,12 +73,14 @@
   updated: 2017-10-23
   name: Hedgewars
   development: active
-  lang: [Pascal, C++, Haskell]
+  lang: [Lua, C, C++, Pascal]
+  framework: [SDL, QT]
   repo: http://hg.hedgewars.org/hedgewars/
-  images: ['http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu_s.png',
-    'http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-christmas_s.png',
-    'http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-nature_s.png',
-    'http://hedgewars.org/images/screenshots/hedgewars-0.9.6-001_s.png']
+  images: 
+    - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu_s.png
+    - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-christmas_s.png
+    - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-nature_s.png
+    - http://hedgewars.org/images/screenshots/hedgewars-0.9.6-001_s.png
   clones: [Worms Series]
 
 - name: Hematite
