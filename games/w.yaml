@@ -7,8 +7,9 @@
   lang: Java
   license: [GPL2]
   remakes: ['Warcraft: Orcs & Humans']
-- url: http://wargus.stratagus.com/index.shtml
-  name: Wargus
+
+- name: Wargus
+  url: http://wargus.stratagus.com/index.shtml
   repo: https://code.launchpad.net/wargus
   development: sporadic
   lang: [C++, Lua]
@@ -22,16 +23,18 @@
   lang: Python
   framework: Pygame
   remakes: [Wario Land 3]
-- url: http://gna.org/projects/warmux/
-  name: WarMUX
+
+- name: WarMUX
+  url: http://gna.org/projects/warmux/
   development: sporadic
   lang: C++
   repo: http://svn.gna.org/viewcvs/warmux/
   images: ['https://lgdb.org/sites/default/files/node_images/29/160.jpg']
   video: {youtube: X3ZkTg-QkAo}
   clones: [Worms Series]
-- url: http://wz2100.net/
-  name: Warzone 2100
+
+- name: Warzone 2100
+  url: http://wz2100.net/
   development: active
   lang: C++
   repo: http://developer.wz2100.net/timeline
@@ -58,8 +61,9 @@
   info: Android
   updated: 2015-04-12
   remakes: [Tempest]
-- url: http://wl.widelands.org/
-  name: Widelands
+
+- name: Widelands
+  url: http://wl.widelands.org/
   development: active
   lang: [C++, Lua, Python]
   repo: https://launchpad.net/widelands
