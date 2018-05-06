@@ -53,8 +53,9 @@
     'https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99927.jpg', 'https://a.fsdn.com/con/app/proj/ecksdee/screenshots/67869.jpg',
     'https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99925.jpg', 'https://a.fsdn.com/con/app/proj/ecksdee/screenshots/90020.jpg']
   clones: [Wipeout]
-- url: http://maniacsvault.net/ecwolf/
-  name: ECWolf
+
+- name: ECWolf
+  url: http://maniacsvault.net/ecwolf/
   development: active
   lang: C++
   repo: https://bitbucket.org/Blzut3/ecwolf
@@ -93,13 +94,14 @@
   framework: WebGL
   url: http://air.github.io/encounter/
   remakes: [Encounter]
-- url: https://endless-sky.github.io/
+
+- name: Endless Sky
+  url: https://endless-sky.github.io/
   repo: https://github.com/endless-sky
   updated: 2015-05-02
   development: active
   lang: C++
   license: [GPL3]
-  name: Endless Sky
   images: ['https://endless-sky.github.io/screenshots/fight.jpg', 'https://endless-sky.github.io/screenshots/trading.jpg',
     'https://endless-sky.github.io/screenshots/map.jpg', 'https://endless-sky.github.io/screenshots/plunder.jpg',
     'https://endless-sky.github.io/screenshots/missions.jpg']
@@ -137,8 +139,9 @@
   development: halted
   lang: Scala
   remakes: [Rampart]
-- url: http://etlegacy.com/
-  name: 'ET: Legacy'
+
+- name: 'ET: Legacy'
+  url: http://etlegacy.com/
   content: commercial
   development: active
   lang: [C, C++, Lua]
@@ -174,8 +177,9 @@
   lang: JavaScript
   images: ['https://raw.githubusercontent.com/newagebegins/exolon/master/screenshot.gif']
   remakes: [Exolon]
-- url: http://exult.sourceforge.net/
-  name: Exult
+
+- name: Exult
+  url: http://exult.sourceforge.net/
   repo: http://sourceforge.net/projects/exult/develop
   development: sporadic
   lang: C++
