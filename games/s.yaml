@@ -162,6 +162,20 @@
   license: [As-is]
   remakes: [Shining Soul]
 
+- name: Shockolate
+  remakes: [System Shock]
+  repo: https://github.com/Interrupt/systemshock
+  development: active
+  status: playable
+  lang: [C]
+  framework: [SDL2]
+  license: GPL3
+  content: commercial
+  info: 'Needs game data from System Shock: Enhanced Edition'
+  updated: 2018-06-15
+  images:
+    - https://i.imgur.com/kbVWQj4.gif
+
 - name: Siege of Avalon Open Source
   updated: 2015-04-08
   url: http://soaos.sourceforge.net/
