@@ -71,6 +71,19 @@
   license: [LGPL]
   remakes: [Creatures]
 
+- name: OpenD2
+  remakes: [Diablo II]
+  repo: https://github.com/eezstreet/OpenD2
+  development: sporadic
+  status: unplayable
+  lang: [C, C++]
+  license: GPL3
+  content: commercial
+  info: Needs original Diablo II game data
+  updated: 2018-06-17
+  images:
+    - https://i.imgur.com/RFNbRiT.png
+
 - name: OpenFire
   repo: https://github.com/tehKaiN/openFire
   clones: [Fire Power]
@@ -505,7 +518,7 @@
   updated: 2015-04-11
   images: ['http://openmohaa.sourceforge.net/media/hud.jpg']
   remakes: ['Medal of Honor: Allied Assault']
-  
+
 - name: OpenMOO2
   url: http://openmoo2.org/en/
   development: sporadic
