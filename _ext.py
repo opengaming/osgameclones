@@ -279,20 +279,19 @@ def parse_data(site):
         # Recombine originals and clones
         combined = copy.deepcopy(item)
         name = game_name(combined)
+
         combined_remakes = [
             clone for clone in clones
             if 'remakes' in clone and name in clone['remakes']
         ]
-        if len(combined_remakes) > 0:
-            combined['remakes'] = combined_remakes
+
         combined_clones = [
             clone for clone in clones
             if 'clones' in clone and name in clone['clones']
         ]
-        if len(combined_clones) > 0:
-            combined['clones'] = combined_clones
-        combined['both'] = combined_remakes + combined_clones
-        parse_items(site, combined, 'both')
+
+        combined['games'] = combined_remakes + combined_clones
+        parse_items(site, combined, 'games')
 
 
 def callback(site):
