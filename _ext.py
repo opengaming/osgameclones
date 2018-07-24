@@ -162,7 +162,9 @@ def parse_items(site, item, key):
 
         for game in item[key]:
             parse_global_tags(site, game, 'lang')
-        getattr(site, key).append((names(item), meta, map(parse_fn, item[key])))
+
+        item = (names(item), meta, map(parse_fn, item[key]))
+        getattr(site, key).append(item)
 
 
 def show_error(game_name, error_str):
@@ -289,8 +291,8 @@ def parse_data(site):
         ]
         if len(combined_clones) > 0:
             combined['clones'] = combined_clones
-        parse_items(site, combined, 'remakes')
-        parse_items(site, combined, 'clones')
+        combined['both'] = combined_remakes + combined_clones
+        parse_items(site, combined, 'both')
 
 
 def callback(site):

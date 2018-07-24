@@ -74,19 +74,15 @@
   </article>
 
   <div id="content">
-    <h2>List of remakes</h2>
-    <article>Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.</article>
+    <h2>List of games</h2>
+    <article>
+      A <span class="tag" data-name="remake">Remake</span> is a game where the executable and sometimes the assets as well are remade open source. Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.
+      <br />
+      A <span class="tag" data-name="clone">Clone</span> is a game which is very similar to or heavily inspired by a game or series.
+    </article>
     <dl>
-      {% for names, meta, items in site.remakes %}
-        {{ games.render(names, meta, items, 'remakes') }}
-      {% endfor %}
-    </dl>
-
-    <h2>List of clones</h2>
-    <article>Games which are very similar to or heavily inspired by a game or series.</article>
-    <dl>
-      {% for names, meta, items in site.clones %}
-        {{ games.render(names, meta, items, 'inspired') }}
+      {% for names, meta, items in site.both %}
+        {{ games.render(names, meta, items, 'both') }}
       {% endfor %}
     </dl>
   </div>
