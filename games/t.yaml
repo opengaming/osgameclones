@@ -5,7 +5,7 @@
   status: playable
   development: active
   lang: C
-  license: MIT
+  license: [MIT]
   content: open
   updated: 2018-04-12
   images: ['https://taisei-project.org/static/screenshots/005_1.2/taisei_20180127_16-46-39+0200.png',
@@ -17,12 +17,12 @@
   clones: [Advance Wars]
   repo: https://github.com/w84death/Tanks-of-Freedom
   url: http://tof.p1x.in
-  status: active
+  development: active
   multiplayer: [Online, Hotseat]
   framework: [Godot]
-  license: MIT
+  license: [MIT]
   content: open
-  images: https://camo.githubuser.com/c9533920a76426abadae6282a17fee964a31ad34/687474703a2f2f746f662e7031782e696e2f6173736574732f73637265656e312e6a7067
+  images: ['https://camo.githubuser.com/c9533920a76426abadae6282a17fee964a31ad34/687474703a2f2f746f662e7031782e696e2f6173736574732f73637265656e312e6a7067']
   video: {youtube: Y7w5VhvG8hA}
 
 - name: Terasology
@@ -115,6 +115,13 @@
   images: ['http://www.braingames.getput.com/goonies/pics/screenshot1.jpg', 'http://www.braingames.getput.com/goonies/pics/screenshot2.jpg',
     'http://www.braingames.getput.com/goonies/pics/screenshot3.jpg', 'http://www.braingames.getput.com/goonies/pics/screenshot4.jpg']
   remakes: [The Goonies]
+
+- name: The-Great-Escape-in-C
+  repo: 'https://github.com/dpt/The-Great-Escape-in-C'
+  updated: 2018-06-14
+  lang: C++
+  development: active
+  info: reverse engineered from binary
 
 - name: The Legend Of Zelda - Navi's Quest
   updated: 2015-09-27
@@ -248,7 +255,7 @@
   license: [GPL2]
   images: ['https://www.lysator.liu.se/~peda/thrust/thrust.gif']
   remakes: [Thrust]
-  
+
 - name: Thyme
   development: active
   lang: C++
@@ -256,7 +263,7 @@
   repo: https://github.com/TheAssemblyArmada/Thyme
   updated: 2018-02-05
   remakes: ['Command & Conquer: Generals']
-  
+
 - name: Tile World
   url: http://www.muppetlabs.com/~breadbox/software/tworld/
   status: playable
