@@ -57,7 +57,7 @@
 - name: HeadOverHeels
   updated: 2017-04-19
   repo: https://github.com/dougmencken/HeadOverHeels
-  license: GPL3
+  license: [GPL3]
   development: sporadic
   lang: C++
   remakes: [Head over Heels]
@@ -77,7 +77,7 @@
   lang: [Lua, C, C++, Pascal, Haskell]
   framework: [SDL, QT]
   repo: http://hg.hedgewars.org/hedgewars/
-  images: 
+  images:
     - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu_s.png
     - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-christmas_s.png
     - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-nature_s.png

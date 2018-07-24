@@ -77,7 +77,7 @@
   development: sporadic
   status: unplayable
   lang: [C, C++]
-  license: GPL3
+  license: [GPL3]
   content: commercial
   info: Needs original Diablo II game data
   updated: 2018-06-17
@@ -90,7 +90,7 @@
   development: active
   status: unplayable
   lang: [C++]
-  license: GPL3
+  license: [GPL3]
   content: commercial
   info: Needs original game data
   updated: 2018-06-17
@@ -329,7 +329,7 @@
   updated: 2017-09-08
   repo: https://github.com/gurka/OpenCrystalCaves
   lang: C++
-  license: MIT
+  license: [MIT]
   images: ['https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot1.png?raw=true',
     'https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot2.png?raw=true',
     'https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot3.png?raw=true']
@@ -340,7 +340,7 @@
   development: halted
   status: unplayable
   lang: C++
-  license: GPL2
+  license: [GPL2]
   updated: 2016-11-30
   images: ['https://a.fsdn.com/con/app/proj/opde/screenshots/51078.jpg/182/137', 'https://a.fsdn.com/con/app/proj/opde/screenshots/50724.jpg/182/137']
   remakes: [Thief]
@@ -458,7 +458,7 @@
   development: sporadic
   lang: C++
   framework: SDL
-  license: GPL2
+  license: [GPL2]
   content: commercial
   updated: 2017-10-20
   remakes: [Jazz Jackrabbit]
@@ -485,7 +485,7 @@
   repo: https://github.com/XProger/OpenLara
   url: http://xproger.info/projects/OpenLara/
   framework: WebGL
-  license: BSD 2-Clause
+  license: [BSD2]
   updated: 2017-04-27
   lang: C++
   remakes: [Tomb Raider]
@@ -511,7 +511,7 @@
   updated: 2018-04-08
   development: sporadic
   status: playable
-  multiplayer: LAN
+  multiplayer: [LAN]
   lang: C++
   license: [GPL3]
   content: commercial

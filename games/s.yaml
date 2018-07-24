@@ -2,7 +2,7 @@
 - name: sccopter
   repo: https://github.com/fr0zi/sccopter
   development: active
-  license: MIT
+  license: [MIT]
   lang: C++
   updated: 2016-01-10
   status: unplayable
@@ -134,7 +134,7 @@
   development: active
   status: playable
   lang: [C++, C, C#, HLSL]
-  license: GPL3
+  license: [GPL3]
   content: commercial
   info: Needs full original game
   updated: 2018-06-20
@@ -145,7 +145,7 @@
   framework: [HTML5, PandaJS]
   updated: 2017-04-04
   lang: JavaScript
-  license: Apache 2.0
+  license: [Apache]
   remakes: [Shadow of the Beast]
 
 - name: shadowgrounds
@@ -180,7 +180,7 @@
   status: playable
   lang: [C]
   framework: [SDL2]
-  license: GPL3
+  license: [GPL3]
   content: commercial
   info: 'Needs game data from System Shock: Enhanced Edition'
   updated: 2018-06-15
@@ -271,7 +271,7 @@
   status: playable
   lang: [C++]
   framework: [SDL2]
-  license: Custom
+  license: [Custom]
   content: free
   info: reverse-engineered from original binary, aims for 100% logic compatibility
     with original game
@@ -521,7 +521,7 @@
 - name: sundog
   repo: https://github.com/laanwj/sundog
   updated: 2017-04-19
-  license: MIT
+  license: [MIT]
   lang: C
   development: sporadic
   images: ['https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/title_screen.png',
