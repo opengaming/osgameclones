@@ -10,6 +10,7 @@ import yaml
 from cyrax import events
 from natsort import natsorted, ns
 from pykwalify.core import Core
+from unidecode import unidecode
 
 
 def abort(msg):
@@ -43,6 +44,22 @@ def parse_tag(tag):
     return tag.replace(' ', '-').lower()
 
 
+def parse_unicode(text):
+    if type(text) == str:
+        text = unicode(text)
+    if type(text) == unicode:
+        return unidecode(text)
+    if type(text) in [list, tuple]:
+        result = []
+        for item in text:
+            result.append(parse_unicode(item))
+        return result
+
+
+def parse_unicode_tag(tag):
+    return parse_tag(parse_unicode(tag))
+
+
 def parse_tags(entry, keys):
     tags = []
 
@@ -53,13 +70,20 @@ def parse_tags(entry, keys):
 
             if val_type == str or val_type == unicode:
                 tags.append(parse_tag(val))
+                tags.append(parse_unicode_tag(val))
             elif val_type == list:
                 tags += map(parse_tag, val)
+                tags += map(parse_unicode_tag, val)
             else:
                 abort('Error: %s\'s key "%s" is not valid (%s)' %
                     (entry['name'], key, val_type.__name__))
 
-    return tags
+    result = []
+    for tag in tags:
+        if tag not in result:
+            result.append(tag)
+
+    return result
 
 
 def parse_global_tags(site, item, tag):
@@ -103,6 +127,8 @@ def parse_items(site, item, key):
         ]
 
         meta = item.get('meta', {})
+        meta["names_ascii"] = parse_unicode(names(item))
+
         parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)
 
         for game in item[key]:
