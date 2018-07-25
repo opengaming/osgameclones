@@ -107,6 +107,9 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
         elif "launchpad.net" in domain:
             result["repoicon"] = "launchpad.png"
             result["repotitle"] = "Launchpad"
+        elif "gitlab.com" in domain:
+            result["repoicon"] = "gitlab.svg"
+            result["repotitle"] = "Gitlab"
         elif ext in (".zip", ".tar", ".tgz", ".tbz2", ".bz2", ".xz", ".rar"):
             result["repoicon"] = "emblem-package.png"
             result["repotitle"] = "Archive"
