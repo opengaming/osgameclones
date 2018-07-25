@@ -182,10 +182,22 @@ dd + dt { margin-top: 1em; }
   outline: 0;
 }
 
-img.repoicon {
+
+.repoicon,.repoiconlight,.repoicondark {
   height: 14px;
-  width: 14px;
+  width: 100%;
   padding-left: .2em;
+  display: inline;
+}
+
+.repoicon svg {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+#icons {
+  display: none;
 }
 
 
@@ -258,4 +270,9 @@ img.repoicon {
 .darkTheme .tag.unplayable {
   background-color: #FF786B;
   color: #444;
+}
+
+.darkTheme .repoicon svg {
+  color: white;
+  fill: currentColor;
 }
