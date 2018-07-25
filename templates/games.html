@@ -35,7 +35,19 @@
   {{ game.tags | join(' ') }}
 {%- endmacro %}
 
-{% macro show_keywords(game, names) -%}
+{% macro show_keywords_names(names) -%}
+  {% for n in names -%}
+    {% if n is not string -%}
+      {% for i in n -%}
+        {{ i | lower | e -}}{{ ' ' -}}
+      {% endfor -%}
+    {% else -%}
+      {{ n | lower | e -}}
+    {% endif -%}
+  {% endfor -%}
+{%- endmacro %}
+
+{% macro show_keywords(game, names, meta) -%}
   {{ game.name | lower | e -}}{{ ' ' -}}
   {{ game.tags | join(' ') -}}{{ ' ' -}}
   {{ game.info | lower | e -}}{{ ' ' -}}
@@ -48,15 +60,8 @@
     {{ 'multiplayer' }}
   {%- endif -%}
 
-  {% for n in names -%}
-    {% if n is not string -%}
-      {% for i in n -%}
-        {{ i | lower | e -}}{{ ' ' -}}
-      {% endfor -%}
-    {% else -%}
-      {{ n | lower | e -}}
-    {% endif -%}
-  {% endfor -%}
+  {{ show_keywords_names(names) }}
+  {{ show_keywords_names(meta.names_ascii) }}
 {%- endmacro %}
 
 {% macro render(names, meta, items, mode) %}
@@ -74,7 +79,7 @@
         {%- endif -%}
         {{ show_id(name, mode) }}"
       data-tags="{{ show_tags(game) -}}"
-      data-index="{{ show_keywords(game, names) -}}">
+      data-index="{{ show_keywords(game, names, meta) -}}">
     <span class="{% if 'images' in game or 'video' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     {%- if 'url' in game -%}
