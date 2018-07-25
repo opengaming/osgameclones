@@ -5,6 +5,7 @@ import os, os.path as op
 from datetime import date, timedelta
 from collections import OrderedDict
 from functools import partial
+import re
 
 import yaml
 from cyrax import events
@@ -81,9 +82,38 @@ def parse_global_tags(site, item, tag):
 
 def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
     updated = entry.get('updated') or date(1970, 1, 1)
-    return dict(entry,
-                new=(date.today() - updated) < timedelta(days=30),
-                tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
+    result = dict(entry,
+                  new=(date.today() - updated) < timedelta(days=30),
+                  tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
+
+    if "repo" in result:
+        domain = re.sub(r".*://([^/]*)/.*", "\\1", result["repo"])
+        ext = re.sub(r".*?(\.[^/]*)$", "\\1", result["repo"])
+
+        if "github.com" in domain:
+            result["repoicon"] = "GitHub-Mark-32px.png"
+            result["repotitle"] = "GitHub"
+        elif ("sf.net" in domain or
+              "sourceforge.net" in domain):
+            result["repoicon"] = "sourceforge-icon.png"
+            result["repotitle"] = "Sourceforge"
+        elif (".google.com" in domain or
+              "googlecode.com" in domain):
+            result["repoicon"] = "google.svg"
+            result["repotitle"] = "Google Code"
+        elif "bitbucket.org" in domain:
+            result["repoicon"] = "bitbucket-32x32.png"
+            result["repotitle"] = "Bitbucket"
+        elif "launchpad.net" in domain:
+            result["repoicon"] = "launchpad.png"
+            result["repotitle"] = "Launchpad"
+        elif (".zip" in ext or
+              ".tar." in ext or
+              ".tgz" in ext):
+            result["repoicon"] = "emblem-package.png"
+            result["repotitle"] = "Archive"
+
+    return result
 
 
 def parse_items(site, item, key):
