@@ -1,472 +1,651 @@
-
 - name: D2X-XL
-  url: http://www.descent2.de/
-  repo: http://d2x-xl.svn.sourceforge.net/viewvc/d2x-xl/
-  development: active
   lang: C++
-  video: {youtube: AJwOTmmbze4}
-  remakes: [Descent]
+  development: active
+  originals:
+  - Descent
+  repo: http://d2x-xl.svn.sourceforge.net/viewvc/d2x-xl/
+  type: remake
+  url: http://www.descent2.de/
+  video:
+    youtube: AJwOTmmbze4
 
 - name: Daggerfall Unity
-  url: http://www.dfworkshop.net/
-  repo: https://github.com/Interkarma/daggerfall-unity
-  updated: 2016-10-11
-  license: [MIT]
   framework: Unity
-  status: playable
+  license:
+  - MIT
   development: active
-  remakes: ['The Elder Scrolls II: Daggerfall']
+  originals:
+  - 'The Elder Scrolls II: Daggerfall'
+  repo: https://github.com/Interkarma/daggerfall-unity
+  status: playable
+  type: remake
+  updated: 2016-10-11
+  url: http://www.dfworkshop.net/
 
 - name: Daggerfall.NET
-  repo: https://github.com/JohnathanGreen/Daggerfall.NET
-  development: halted
   lang: C#
+  development: halted
+  originals:
+  - 'The Elder Scrolls II: Daggerfall'
+  repo: https://github.com/JohnathanGreen/Daggerfall.NET
+  type: remake
   updated: 2017-04-20
-  remakes: ['The Elder Scrolls II: Daggerfall']
 
 - name: Danger from the Deep
-  development: sporadic
+  images:
+  - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_1.jpg
+  - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_2.jpg
+  - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_4.jpg
+  - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
   lang: C++
-  url: http://dangerdeep.sourceforge.net/
-  updated: 2012-04-05
+  development: sporadic
+  originals:
+  - Silent Hunter 4
   repo: http://dangerdeep.svn.sourceforge.net/viewvc/dangerdeep/
-  images: ['http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_1.jpg',
-    'http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_2.jpg',
-    'http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_4.jpg',
-    'http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg']
-  remakes: [Silent Hunter 4]
+  type: remake
+  updated: 2012-04-05
+  url: http://dangerdeep.sourceforge.net/
 
 - name: Danger Zone
-  status: unplayable
-  development: active
   lang: Java
+  development: active
+  originals:
+  - Tribal Hero
   repo: https://github.com/alasershark/dangerzone
-  url: http://dzgame.org
+  status: unplayable
+  type: clone
   updated: 2013-05-28
-  clones: [Tribal Hero]
+  url: http://dzgame.org
 
 - name: Dark Oberon
-  url: http://dark-oberon.sourceforge.net/
+  images:
+  - http://dark-oberon.sourceforge.net/screenshots/2005-08-16_1_1024x768.jpg
+  - http://dark-oberon.sourceforge.net/screenshots/2005-08-16_4_1024x768.jpg
+  - http://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_1024x768.jpg
+  originals:
+  - Warcraft II
   repo: http://dark-oberon.cvs.sourceforge.net/viewvc/dark-oberon/
+  type: clone
   updated: 2015-04-06
-  images: ['http://dark-oberon.sourceforge.net/screenshots/2005-08-16_1_1024x768.jpg',
-    'http://dark-oberon.sourceforge.net/screenshots/2005-08-16_4_1024x768.jpg', 'http://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_1024x768.jpg']
-  clones: [Warcraft II]
+  url: http://dark-oberon.sourceforge.net/
 
 - name: Dark Reign 2
-  url: https://code.google.com/p/darkreign2/
-  repo: http://darkreign2.googlecode.com/svn/
-  development: halted
   lang: C++
-  remakes: [Dark Reign 2]
+  development: halted
+  originals:
+  - Dark Reign 2
+  repo: http://darkreign2.googlecode.com/svn/
+  type: remake
+  url: https://code.google.com/p/darkreign2/
 
 - name: DarkFO
+  development: active
+  lang:
+  - JavaScript
+  - Python
+  license:
+  - Apache
+  content: commercial
+  originals:
+  - Fallout 2
+  status: unplayable
+  type: remake
   updated: 2015-12-30
   url: https://github.com/darkf/darkfo
-  status: unplayable
-  development: active
-  lang: [JavaScript, Python]
-  content: commercial
-  license: [Apache]
-  remakes: [Fallout 2]
 
 - name: DarkPlaces
-  url: https://icculus.org/twilight/darkplaces/
-  repo: https://svn.icculus.org/twilight/trunk/darkplaces/
-  development: active
+  images:
+  - https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty1.jpg
+  - https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty6.jpg
+  - https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty10.jpg
   lang: C
-  license: [GPL2]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Quake
+  repo: https://svn.icculus.org/twilight/trunk/darkplaces/
+  type: remake
   updated: 2015-07-02
-  images: ['https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty1.jpg', 'https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty6.jpg',
-    'https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty10.jpg']
-  remakes: [Quake]
+  url: https://icculus.org/twilight/darkplaces/
 
 - name: datastorm
-  updated: 2016-04-11
-  repo: https://github.com/haroldo-ok/datastorm
+  lang: C
+  license:
+  - Apache
   development: active
-  lang: C
-  license: [Apache]
-  remakes: [Turmoil]
-
-- name: Deathchase 3D
-  url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
-  updated: 2015-04-13
-  repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/deathchase3d-0.9.tar.gz
-  lang: C
-  license: [GPL2]
-  remakes: [3D Deathchase]
+  originals:
+  - Turmoil
+  repo: https://github.com/haroldo-ok/datastorm
+  type: remake
+  updated: 2016-04-11
 
 - name: Dave Gnukem
-  clones: [Duke Nukem]
-  repo: https://github.com/davidjoffe/dave_gnukem
-  url: http://djoffe.com/gnukem/
   development: active
-  status: playable
-  lang: [C++]
-  framework: [SDL]
-  license: [GPL2]
+  framework:
+  - SDL
+  images:
+  - http://scorpioncity.com/dave_gnukem/gallery/Dave%20Gnukem%20%280.71%202%20Jul%202017%29.png
+  - http://djoffe.com/gnukem/files/Dave_Gnukem_0.81.png
+  lang:
+  - C++
+  license:
+  - GPL2
   content: open
+  originals:
+  - Duke Nukem
+  repo: https://github.com/davidjoffe/dave_gnukem
+  status: playable
+  type: clone
   updated: 2018-01-23
-  images: ['http://scorpioncity.com/dave_gnukem/gallery/Dave%20Gnukem%20%280.71%202%20Jul%202017%29.png', 'http://djoffe.com/gnukem/files/Dave_Gnukem_0.81.png']
-  video: {youtube: Hi7WYnOA_fo}
+  url: http://djoffe.com/gnukem/
+  video:
+    youtube: Hi7WYnOA_fo
+
+- name: Deathchase 3D
+  license:
+  - GPL2
+  lang: C
+  originals:
+  - 3D Deathchase
+  repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/deathchase3d-0.9.tar.gz
+  type: remake
+  updated: 2015-04-13
+  url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
 
 - name: Defendguin
-  updated: 2015-04-07
-  development: sporadic
+  images:
+  - http://www.newbreedsoftware.com/defendguin/screenshots/title.gif
+  - http://www.newbreedsoftware.com/defendguin/screenshots/main.gif
+  - http://www.newbreedsoftware.com/defendguin/screenshots/options.gif
+  - http://www.newbreedsoftware.com/defendguin/screenshots/game.gif
+  - http://www.newbreedsoftware.com/defendguin/screenshots/bonus.gif
+  - http://www.newbreedsoftware.com/defendguin/screenshots/mutants.gif
   lang: C
-  license: [GPL2]
-  url: http://www.newbreedsoftware.com/defendguin/
+  license:
+  - GPL2
+  development: sporadic
+  originals:
+  - Defender
   repo: ftp://ftp.tuxpaint.org/unix/x/defendguin/src/defendguin-0.0.12.tar.gz
-  images: ['http://www.newbreedsoftware.com/defendguin/screenshots/title.gif', 'http://www.newbreedsoftware.com/defendguin/screenshots/main.gif',
-    'http://www.newbreedsoftware.com/defendguin/screenshots/options.gif', 'http://www.newbreedsoftware.com/defendguin/screenshots/game.gif',
-    'http://www.newbreedsoftware.com/defendguin/screenshots/bonus.gif', 'http://www.newbreedsoftware.com/defendguin/screenshots/mutants.gif']
-  remakes: [Defender]
+  type: remake
+  updated: 2015-04-07
+  url: http://www.newbreedsoftware.com/defendguin/
 
 - name: Deflektor X4
-  url: http://retrospec.sgn.net/game/deflektorx4
-  development: halted
+  images:
+  - http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX40.gif
+  - http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX42.gif
+  - http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX41.gif
   lang: C
+  development: halted
+  originals:
+  - Deflektor
+  type: remake
   updated: 2014-01-12
-  images: ['http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX40.gif',
-    'http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX42.gif',
-    'http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX41.gif']
-  remakes: [Deflektor]
+  url: http://retrospec.sgn.net/game/deflektorx4
 
 - name: Der Clou!
-  url: https://sites.google.com/site/vascocosta/theclue
-  development: sporadic
+  images:
+  - http://www.patje.de/wp-content/uploads/2006/12/clou_1.jpg
+  - http://www.patje.de/wp-content/uploads/2006/12/clou_2.jpg
+  - http://www.patje.de/wp-content/uploads/2006/12/clou_3.jpg
   lang: C
+  development: sporadic
+  originals:
+  - The Clue!
   repo: https://github.com/vcosta/derclou
+  type: clone
   updated: 2016-05-11
-  images: ['http://www.patje.de/wp-content/uploads/2006/12/clou_1.jpg', 'http://www.patje.de/wp-content/uploads/2006/12/clou_2.jpg',
-    'http://www.patje.de/wp-content/uploads/2006/12/clou_3.jpg']
-  video: {youtube: UlQovLvleKg}
-  clones: [The Clue!]
+  url: https://sites.google.com/site/vascocosta/theclue
+  video:
+    youtube: UlQovLvleKg
 
 - name: DesktopAdventures
-  repo: https://github.com/shinyquagsire23/DesktopAdventures
-  updated: 2018-06-26
-  lang: C
   development: active
-  status: semi-playable
+  lang: C
+  license:
+  - LGPL2
   content: commercial
-  license: [LGPL2]
-  remakes: [Indiana Jones and his Desktop Adventures, 'Star Wars: Yoda Stories']
+  originals:
+  - Indiana Jones and his Desktop Adventures
+  - 'Star Wars: Yoda Stories'
+  repo: https://github.com/shinyquagsire23/DesktopAdventures
+  status: semi-playable
+  type: remake
+  updated: 2018-06-26
 
 - name: Deuteros X
-  repo: svn://svn.code.sf.net/p/deuterosx/code/
-  url: http://sourceforge.net/projects/deuterosx/
-  updated: 2015-04-06
-  development: halted
   lang: C#
-  remakes: [Deuteros]
-
-- name: DGEngine
-  repo: https://github.com/dgengin/DGEngine
-  updated: 2016-06-20
-  lang: [C++]
-  url: https://github.com/dgengin/DGEngine/wiki
-  development: active
-  license: [Zlib]
-  images: ['https://cloud.githubusercontent.com/assets/20025614/16467025/4bd77ef0-3e3d-11e6-872a-38ca8eb2c9f8.gif']
-  remakes: [Diablo]
+  development: halted
+  originals:
+  - Deuteros
+  repo: svn://svn.code.sf.net/p/deuterosx/code/
+  type: remake
+  updated: 2015-04-06
+  url: http://sourceforge.net/projects/deuterosx/
 
 - name: Devilution
-  repo: https://github.com/galaxyhaxz/devilution
-  updated: 2018-06-18
-  lang: [C++]
+  images:
+  - https://camo.githubusercontent.com/9426dfe5fc03654a8f1d3c024019cd7c5fb468b6/68747470733a2f2f7333332e706f7374696d672e63632f36786e6e68686c6d6e2f6469616275696d6f6e2e706e67
+  lang:
+  - C++
+  license:
+  - PD
   development: active
+  originals:
+  - Diablo
+  repo: https://github.com/galaxyhaxz/devilution
   status: playable
-  license: [PD]
-  images: ['https://camo.githubusercontent.com/9426dfe5fc03654a8f1d3c024019cd7c5fb468b6/68747470733a2f2f7333332e706f7374696d672e63632f36786e6e68686c6d6e2f6469616275696d6f6e2e706e67']
-  remakes: [Diablo]
+  type: remake
+  updated: 2018-06-18
+
+- name: DGEngine
+  images:
+  - https://cloud.githubusercontent.com/assets/20025614/16467025/4bd77ef0-3e3d-11e6-872a-38ca8eb2c9f8.gif
+  lang:
+  - C++
+  license:
+  - Zlib
+  development: active
+  originals:
+  - Diablo
+  repo: https://github.com/dgengin/DGEngine
+  type: remake
+  updated: 2016-06-20
+  url: https://github.com/dgengin/DGEngine/wiki
 
 - name: dhewm3
-  updated: 2015-07-29
-  repo: https://github.com/dhewm/dhewm3
-  development: active
   lang: C++
-  license: [GPL3]
-  remakes: [Doom 3]
+  license:
+  - GPL3
+  development: active
+  originals:
+  - Doom 3
+  repo: https://github.com/dhewm/dhewm3
+  type: remake
+  updated: 2015-07-29
 
 - name: Digbuild
+  images:
+  - http://blog.mezeske.com/wp-content/uploads/2011/07/digbuild-screenshot-1.jpg
+  lang: C++
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Minecraft
+  repo: https://github.com/emezeske/digbuild
+  type: remake
   updated: 2015-04-16
   url: http://blog.mezeske.com/?p=507
-  repo: https://github.com/emezeske/digbuild
-  development: halted
-  lang: C++
-  license: [GPL2]
-  images: ['http://blog.mezeske.com/wp-content/uploads/2011/07/digbuild-screenshot-1.jpg']
-  remakes: [Minecraft]
 
 - name: Digger
-  updated: 2015-05-02
-  repo: https://github.com/lutzroeder/digger
-  development: active
   lang: TypeScript
-  remakes: [Boulder Dash]
+  development: active
+  originals:
+  - Boulder Dash
+  repo: https://github.com/lutzroeder/digger
+  type: remake
+  updated: 2015-05-02
 
 - name: Digger Remastered
-  url: http://digger.org/
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/b/be/Digger_Remastered.png
+  lang: C
+  license:
+  - GPL
+  development: halted
+  originals:
+  - Digger
   repo: http://digger.org/download.html
   status: playable
-  development: halted
-  lang: C
-  license: [GPL]
-  images: ['https://upload.wikimedia.org/wikipedia/commons/b/be/Digger_Remastered.png']
-  remakes: [Digger]
+  type: remake
+  url: http://digger.org/
 
 - name: Digimon World Project Ark
-  updated: 2015-05-28
-  repo: https://github.com/dwProjectark/Digimon-World-Project-Ark
-  development: active
   framework: Unity
   lang: C#
-  remakes: [Digimon World]
+  development: active
+  originals:
+  - Digimon World
+  repo: https://github.com/dwProjectark/Digimon-World-Project-Ark
+  type: remake
+  updated: 2015-05-28
 
 - name: div-columns
+  framework: DIV Games Studio
+  license:
+  - MIT
+  development: active
+  originals:
+  - Columns
+  repo: https://github.com/MikeDX/div-columns
+  type: remake
   updated: 2016-02-26
   url: http://js.mikedx.co.uk/columns.html
-  repo: https://github.com/MikeDX/div-columns
-  development: active
-  framework: DIV Games Studio
-  license: [MIT]
-  remakes: [Columns]
 
 - name: div-pacman2600
+  framework: DIV Games Studio
+  license:
+  - MIT
+  development: active
+  originals:
+  - Pac-Man
   repo: https://github.com/MikeDX/div-pacman2600
+  type: remake
   updated: 2016-04-30
   url: http://js.mikedx.co.uk/pacman2600.html
-  development: active
-  framework: DIV Games Studio
-  license: [MIT]
-  remakes: [Pac-Man]
 
 - name: div-pitfall
+  framework: DIV Games Studio
+  license:
+  - MIT
+  development: active
+  originals:
+  - Pitfall!
   repo: https://github.com/MikeDX/div-pitfall
+  type: remake
   updated: 2016-04-30
   url: http://js.mikedx.co.uk/pitfall.html
-  development: active
-  framework: DIV Games Studio
-  license: [MIT]
-  remakes: [Pitfall!]
 
 - name: div-spaceinvaders2600
-  repo: https://github.com/MikeDX/div-spaceinvaders2600
-  url: http://js.mikedx.co.uk/invadersa2600.html
-  updated: 2016-04-30
-  development: active
   framework: DIV Games Studio
-  license: [MIT]
-  remakes: [Space Invaders]
+  license:
+  - MIT
+  development: active
+  originals:
+  - Space Invaders
+  repo: https://github.com/MikeDX/div-spaceinvaders2600
+  type: remake
+  updated: 2016-04-30
+  url: http://js.mikedx.co.uk/invadersa2600.html
 
 - name: dodger-remake
-  repo: https://github.com/funchal/dodger-remake
-  updated: 2015-05-12
-  development: halted
   lang: C++
-  remakes: [Dodger]
+  development: halted
+  originals:
+  - Dodger
+  repo: https://github.com/funchal/dodger-remake
+  type: remake
+  updated: 2015-05-12
 
 - name: DonkeyInTrouble
-  updated: 2015-06-22
-  repo: https://github.com/Zap123/DonkeyInTrouble
-  development: sporadic
-  lang: Lua
   framework: "L\xD6VE"
-  remakes: [Kaboom!]
-
-- name: Doom Legacy
-  url: http://doomlegacy.sourceforge.net/
-  repo: http://sourceforge.net/p/doomlegacy/legacy2/ci/master/tree/
-  updated: 2014-08-20
-  status: playable
-  development: active
-  lang: C++
-  images: ['http://doomlegacy.sourceforge.net/images/legacy/multibf1.gif', 'http://doomlegacy.sourceforge.net/images/legacy/3dfx.gif']
-  remakes: [Doom]
-
-- name: DOOM-iOS
-  repo: https://github.com/id-Software/DOOM-iOS
-  updated: 2015-04-12
-  development: halted
-  lang: C++
-  license: [GPL2]
-  info: iOS
-  remakes: [Doom]
+  lang: Lua
+  development: sporadic
+  originals:
+  - Kaboom!
+  repo: https://github.com/Zap123/DonkeyInTrouble
+  type: remake
+  updated: 2015-06-22
 
 - name: Doom64EX
-  repo: https://github.com/svkaiser/Doom64EX
-  development: active
-  url: https://doom64ex.wordpress.com/
-  updated: 2016-05-28
+  images:
+  - https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png
+  - https://doom64ex.files.wordpress.com/2011/08/d64ex_12.png
+  - https://doom64ex.files.wordpress.com/2011/08/d64ex_03.png
   lang: C
-  license: [GPL2]
-  images: ['https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png', 'https://doom64ex.files.wordpress.com/2011/08/d64ex_12.png',
-    'https://doom64ex.files.wordpress.com/2011/08/d64ex_03.png']
-  remakes: [Doom 64]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Doom 64
+  repo: https://github.com/svkaiser/Doom64EX
+  type: remake
+  updated: 2016-05-28
+  url: https://doom64ex.wordpress.com/
+
+- name: Doom Legacy
+  images:
+  - http://doomlegacy.sourceforge.net/images/legacy/multibf1.gif
+  - http://doomlegacy.sourceforge.net/images/legacy/3dfx.gif
+  lang: C++
+  development: active
+  originals:
+  - Doom
+  repo: http://sourceforge.net/p/doomlegacy/legacy2/ci/master/tree/
+  status: playable
+  type: remake
+  updated: 2014-08-20
+  url: http://doomlegacy.sourceforge.net/
+
+- name: DOOM-iOS
+  info: iOS
+  lang: C++
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Doom
+  repo: https://github.com/id-Software/DOOM-iOS
+  type: remake
+  updated: 2015-04-12
 
 - name: Doomsday
-  url: http://dengine.net/
-  repo: http://deng.git.sourceforge.net/git/gitweb.cgi?p=deng/deng;a=summary
-  development: active
-  license: [GPL2]
   lang: C
-  remakes: [Doom]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Doom
+  repo: http://deng.git.sourceforge.net/git/gitweb.cgi?p=deng/deng;a=summary
+  type: remake
+  url: http://dengine.net/
 
 - name: Dope Wars
-  url: http://dopewars.sourceforge.net/
-  repo: http://sourceforge.net/p/dopewars/code/HEAD/tree/
-  updated: 2013-05-27
-  development: sporadic
+  images:
+  - http://dopewars.sourceforge.net/screenshots/linux-gtk-multi.png
+  - http://dopewars.sourceforge.net/screenshots/winxp-multi.png
   lang: C
-  images: ['http://dopewars.sourceforge.net/screenshots/linux-gtk-multi.png', 'http://dopewars.sourceforge.net/screenshots/winxp-multi.png']
-  remakes: [Drugwars]
+  development: sporadic
+  originals:
+  - Drugwars
+  repo: http://sourceforge.net/p/dopewars/code/HEAD/tree/
+  type: remake
+  updated: 2013-05-27
+  url: http://dopewars.sourceforge.net/
 
 - name: DrCreep
-  url: http://creep.sourceforge.net/
-  development: complete
+  images:
+  - http://a.fsdn.com/con/app/proj/creep/screenshots/250988.jpg
+  - http://a.fsdn.com/con/app/proj/creep/screenshots/250982.jpg
+  - http://a.fsdn.com/con/app/proj/creep/screenshots/250990.jpg
   lang: C++
+  development: complete
+  originals:
+  - The Castles of Dr. Creep
   repo: https://github.com/segrax/DrCreep
+  type: remake
   updated: 2013-11-20
-  images: ['http://a.fsdn.com/con/app/proj/creep/screenshots/250988.jpg', 'http://a.fsdn.com/con/app/proj/creep/screenshots/250982.jpg',
-    'http://a.fsdn.com/con/app/proj/creep/screenshots/250990.jpg']
-  remakes: [The Castles of Dr. Creep]
+  url: http://creep.sourceforge.net/
 
 - name: Duck Hunter
+  images:
+  - http://pygame.org/shots/1615.png
+  lang: Python
+  development: halted
+  originals:
+  - Duck Hunt
+  repo: https://app.box.com/shared/zkh7rt575i
+  type: remake
   updated: 2015-04-11
   url: http://pygame.org/project-Duck+Hunter-1615-.html
-  repo: https://app.box.com/shared/zkh7rt575i
-  development: halted
-  lang: Python
-  images: ['http://pygame.org/shots/1615.png']
-  remakes: [Duck Hunt]
 
 - name: Duck Marines
-  url: http://tangramgames.dk/games/duckmarines/
+  images:
+  - http://tangramgames.dk/games/duckmarines/images/teaser.png
+  - http://tangramgames.dk/games/duckmarines/images/duckbeat.png
+  - http://tangramgames.dk/games/duckmarines/images/vacuum.gif
+  lang:
+  - Lua
+  license:
+  - CC-BY-SA
+  - CC-BY-NC-ND
+  development: active
+  originals:
+  - ChuChu Rocket!
   repo: https://github.com/SimonLarsen/duckmarines
   status: playable
-  development: active
-  lang: [Lua]
-  license: [CC-BY-SA, CC-BY-NC-ND]
+  type: remake
   updated: 2014-07-23
-  images: ['http://tangramgames.dk/games/duckmarines/images/teaser.png', 'http://tangramgames.dk/games/duckmarines/images/duckbeat.png',
-    'http://tangramgames.dk/games/duckmarines/images/vacuum.gif']
-  video: {youtube: SAz0BsTSXy4}
-  remakes: [ChuChu Rocket!]
+  url: http://tangramgames.dk/games/duckmarines/
+  video:
+    youtube: SAz0BsTSXy4
 
 - name: Duck-Rehunt
+  images:
+  - http://pygame.org/shots/1862.png
+  lang: Python
+  license:
+  - GPL
+  development: halted
+  originals:
+  - Duck Hunt
   repo: https://github.com/Serioussam24/Duck-Rehunt
-  development: halted
-  lang: Python
-  license: [GPL]
-  url: http://pygame.org/project-Duck+Rehunt-1862-.html
+  type: remake
   updated: 2015-04-11
-  images: ['http://pygame.org/shots/1862.png']
-  remakes: [Duck Hunt]
+  url: http://pygame.org/project-Duck+Rehunt-1862-.html
 
 - name: duckhunt
-  updated: 2015-04-05
-  repo: https://github.com/aosyborg/duckhunt
-  url: http://pygame.org/project-Duck+Hunt+Remake-2045-.html
-  development: sporadic
+  images:
+  - http://pygame.org/shots/2045.png
   lang: Python
-  images: ['http://pygame.org/shots/2045.png']
-  remakes: [Duck Hunt]
+  development: sporadic
+  originals:
+  - Duck Hunt
+  repo: https://github.com/aosyborg/duckhunt
+  type: remake
+  updated: 2015-04-05
+  url: http://pygame.org/project-Duck+Hunt+Remake-2045-.html
 
 - name: duckhunt
-  updated: 2015-05-28
-  repo: https://github.com/grosbouddha/duckhunt
-  url: http://grosbouddha.github.io/duckhunt/
-  development: halted
   lang: JavaScript
-  remakes: [Duck Hunt]
+  development: halted
+  originals:
+  - Duck Hunt
+  repo: https://github.com/grosbouddha/duckhunt
+  type: remake
+  updated: 2015-05-28
+  url: http://grosbouddha.github.io/duckhunt/
 
 - name: Dune 2 - The Maker
-  url: http://dune2themaker.fundynamic.com/
-  repo: https://github.com/Fundynamic/dune2themaker4j
-  updated: 2016-11-21
-  development: active
+  images:
+  - http://dune2themaker.fundynamic.com/wp-content/uploads/2016/10/228d0266-88db-11e6-9442-6bebed3ced89-300x241.png
   lang: Java
-  license: [MIT]
-  images: ['http://dune2themaker.fundynamic.com/wp-content/uploads/2016/10/228d0266-88db-11e6-9442-6bebed3ced89-300x241.png']
-  video: {youtube: J93yDhXwNtA}
-  remakes: [Dune 2]
+  license:
+  - MIT
+  development: active
+  originals:
+  - Dune 2
+  repo: https://github.com/Fundynamic/dune2themaker4j
+  type: remake
+  updated: 2016-11-21
+  url: http://dune2themaker.fundynamic.com/
+  video:
+    youtube: J93yDhXwNtA
 
 - name: Dune Dynasty
-  url: http://dunedynasty.sourceforge.net/
-  repo: http://sourceforge.net/p/dunedynasty/dunedynasty/ci/master/tree/
-  development: active
+  images:
+  - https://sourceforge.net/projects/dunedynasty/screenshots/screenshot_hark2.png
+  - https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_hark.png
+  - https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_atr.png
   lang: C
-  license: [GPL2]
-  images: ['https://sourceforge.net/projects/dunedynasty/screenshots/screenshot_hark2.png',
-    'https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_hark.png',
-    'https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_atr.png']
-  remakes: [Dune 2]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Dune 2
+  repo: http://sourceforge.net/p/dunedynasty/dunedynasty/ci/master/tree/
+  type: remake
+  url: http://dunedynasty.sourceforge.net/
 
 - name: Dune Legacy
-  url: http://dunelegacy.sourceforge.net/
-  repo: http://sourceforge.net/projects/dunelegacy/develop
-  development: active
+  images:
+  - http://dunelegacy.sourceforge.net/website/screenshots/Dunelegacy-0.96-mission7.png
+  - http://dunelegacy.sourceforge.net/website/screenshots/Dunelegacy-0.96-mission9-2.png
   lang: C++
-  license: [GPL2]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Dune 2
+  repo: http://sourceforge.net/projects/dunelegacy/develop
+  type: remake
   updated: 2012-04-05
-  images: ['http://dunelegacy.sourceforge.net/website/screenshots/Dunelegacy-0.96-mission7.png',
-    'http://dunelegacy.sourceforge.net/website/screenshots/Dunelegacy-0.96-mission9-2.png']
-  video: {youtube: tX_3Ah7gFdI}
-  remakes: [Dune 2]
+  url: http://dunelegacy.sourceforge.net/
+  video:
+    youtube: tX_3Ah7gFdI
 
 - name: Dungeon Craft
-  url: http://uaf.sourceforge.net/index.html
-  repo: http://uaf.sourceforge.net/download.html
+  images:
+  - http://uaf.sourceforge.net/images/ss01.png
+  - http://uaf.sourceforge.net/images/ss03.png
+  - http://uaf.sourceforge.net/images/ss06.png
+  license:
+  - GPL2
   development: active
+  originals:
+  - 'Forgotten Realms: Unlimited Adventures'
+  repo: http://uaf.sourceforge.net/download.html
   status: playable
-  license: [GPL2]
+  type: remake
   updated: 2016-08-25
-  images: ['http://uaf.sourceforge.net/images/ss01.png', 'http://uaf.sourceforge.net/images/ss03.png',
-    'http://uaf.sourceforge.net/images/ss06.png']
-  remakes: ['Forgotten Realms: Unlimited Adventures']
+  url: http://uaf.sourceforge.net/index.html
 
 - name: Dungeon Eye
-  url: http://www.dungeoneye.net/
-  repo: https://github.com/iliak/dungeoneye
-  updated: 2013-05-27
-  development: sporadic
+  images:
+  - http://www.dungeoneye.net/wp-content/uploads/sites/2/2016/05/forest.png
   lang: C#
-  images: ['http://www.dungeoneye.net/wp-content/uploads/sites/2/2016/05/forest.png']
-  remakes: [Eye of the Beholder II]
+  development: sporadic
+  originals:
+  - Eye of the Beholder II
+  repo: https://github.com/iliak/dungeoneye
+  type: remake
+  updated: 2013-05-27
+  url: http://www.dungeoneye.net/
 
 - name: DungeonMaster
-  repo: https://github.com/ggrrin/DungeonMaster
-  updated: 2016-04-11
-  development: active
   lang: C#
-  remakes: [Dungeon Master]
+  development: active
+  originals:
+  - Dungeon Master
+  repo: https://github.com/ggrrin/DungeonMaster
+  type: remake
+  updated: 2016-04-11
 
 - name: Dupocracy
-  url: https://github.com/gtanczyk/Dupocracy
-  development: active
   framework: HTML5
+  images:
+  - http://www.gamedev.pl/images/l/557,fogofwarpng.jpg
+  development: active
+  originals:
+  - DEFCON
   repo: https://github.com/gtanczyk/Dupocracy
-  images: ['http://www.gamedev.pl/images/l/557,fogofwarpng.jpg']
-  clones: [DEFCON]
+  type: clone
+  url: https://github.com/gtanczyk/Dupocracy
 
 - name: DXBall
-  repo: https://github.com/nomanHasan/DXBall
-  updated: 2016-05-14
+  framework: Gradle
   info: Android
   lang: Java
-  framework: Gradle
   development: active
-  remakes: [DX-Ball]
+  originals:
+  - DX-Ball
+  repo: https://github.com/nomanHasan/DXBall
+  type: remake
+  updated: 2016-05-14
 
 - name: DXX-Rebirth
-  url: http://www.dxx-rebirth.com/
-  repo: http://dxx-rebirth.bzr.sourceforge.net/bzr/dxx-rebirth/
-  development: active
+  images:
+  - http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn10.jpg
+  - http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn17.jpg
+  - http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn1.jpg
+  - http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn18.jpg
   lang: C
-  images: ['http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn10.jpg',
-    'http://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn17.jpg',
-    'http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn1.jpg',
-    'http://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn18.jpg']
-  remakes: [Descent]
+  development: active
+  originals:
+  - Descent
+  repo: http://dxx-rebirth.bzr.sourceforge.net/bzr/dxx-rebirth/
+  type: remake
+  url: http://www.dxx-rebirth.com/

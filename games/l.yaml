@@ -1,253 +1,354 @@
-
 - name: l-echo
-  url: https://code.google.com/p/l-echo/
-  updated: 2015-04-15
-  development: halted
   lang: C++
-  license: [GPL3]
+  license:
+  - GPL3
+  development: halted
+  originals:
+  - Echochrome
   repo: http://l-echo.googlecode.com/svn/trunk/
-  remakes: [Echochrome]
+  type: remake
+  updated: 2015-04-15
+  url: https://code.google.com/p/l-echo/
 
 - name: LAB3D/SDL
+  images:
+  - https://icculus.org/LAB3D/captur00.png
+  - https://icculus.org/LAB3D/captur04.png
+  - https://icculus.org/LAB3D/captur02.png
+  - https://icculus.org/LAB3D/captur03.png
+  lang: C
+  development: sporadic
+  originals:
+  - Ken's Labyrinth
+  repo: svn://svn.icculus.org/LAB3D/trunk
+  type: remake
   updated: 2015-04-10
   url: https://icculus.org/LAB3D/
-  repo: svn://svn.icculus.org/LAB3D/trunk
-  development: sporadic
-  lang: C
-  images: ['https://icculus.org/LAB3D/captur00.png', 'https://icculus.org/LAB3D/captur04.png',
-    'https://icculus.org/LAB3D/captur02.png', 'https://icculus.org/LAB3D/captur03.png']
-  remakes: [Ken's Labyrinth]
 
 - name: Ladder
+  images:
+  - http://gamesoft.ca/bestgames/images/ladder_snp.png
+  lang: C#
+  originals:
+  - Ladder
+  repo: http://gamesoft.ca/bestgames/ladder_src.zip
+  type: remake
   updated: 2015-05-09
   url: http://gamesoft.ca/remakes.html
-  repo: http://gamesoft.ca/bestgames/ladder_src.zip
-  lang: C#
-  images: ['http://gamesoft.ca/bestgames/images/ladder_snp.png']
-  remakes: [Ladder]
 
 - name: Ladder
-  updated: 2015-05-10
-  lang: Java
+  images:
+  - http://gamesoft.ca/java/images/ladder_secret%20road.png
+  - http://gamesoft.ca/java/images/ladder_snp.png
   info: (source inside JAR file)
-  license: [GPL2]
+  lang: Java
+  license:
+  - GPL2
+  originals:
+  - Ladder
   repo: http://ostermiller.org/ladder/ladder.jar
+  type: remake
+  updated: 2015-05-10
   url: http://ostermiller.org/ladder/
-  images: ['http://gamesoft.ca/java/images/ladder_secret%20road.png', 'http://gamesoft.ca/java/images/ladder_snp.png']
-  remakes: [Ladder]
 
 - name: ladder
-  updated: 2016-02-26
-  repo: https://github.com/SmallRoomLabs/ladder
-  development: active
+  images:
+  - https://raw.githubusercontent.com/SmallRoomLabs/ladder/master/images/GameRunning1.png
   lang: Go
-  license: [MIT]
-  images: ['https://raw.githubusercontent.com/SmallRoomLabs/ladder/master/images/GameRunning1.png']
-  remakes: [Ladder]
+  license:
+  - MIT
+  development: active
+  originals:
+  - Ladder
+  repo: https://github.com/SmallRoomLabs/ladder
+  type: remake
+  updated: 2016-02-26
 
 - name: LastNinja
-  url: http://lastninja.sourceforge.net/
-  status: playable
-  development: sporadic
+  images:
+  - http://lastninja.sourceforge.net/images/lvl1.png
   lang: C++
+  development: sporadic
+  originals:
+  - The Last Ninja
   repo: https://github.com/segrax/TheLastNinja
+  status: playable
+  type: remake
   updated: 2013-11-20
-  images: ['http://lastninja.sourceforge.net/images/lvl1.png']
-  remakes: [The Last Ninja]
+  url: http://lastninja.sourceforge.net/
 
 - name: LastTry
-  updated: 2017-10-15
-  repo: https://github.com/LastTryR/LastTry
-  development: active
-  lang: Java
   framework: LibGDX
-  license: [MIT]
-  remakes: [Terraria]
+  lang: Java
+  license:
+  - MIT
+  development: active
+  originals:
+  - Terraria
+  repo: https://github.com/LastTryR/LastTry
+  type: remake
+  updated: 2017-10-15
 
 - name: legion
-  updated: 2015-06-22
-  repo: https://github.com/mahho/legion
-  development: halted
-  lang: C++
   framework: Irrlict
-  license: [Custom]
-  remakes: [Legion]
+  lang: C++
+  license:
+  - Custom
+  development: halted
+  originals:
+  - Legion
+  repo: https://github.com/mahho/legion
+  type: remake
+  updated: 2015-06-22
 
 - name: Lemmings.ts
-  repo: https://github.com/tomsoftware/Lemmings.ts
-  updated: 2017-10-22
+  images:
+  - https://raw.githubusercontent.com/tomsoftware/Lemmings.ts/master/docu/examples/demo_01.png
+  - https://raw.githubusercontent.com/tomsoftware/Lemmings.ts/master/docu/examples/demo_02.png
   lang: TypeScript
-  license: [MIT]
-  status: playable
+  license:
+  - MIT
   development: active
-  images: ['https://raw.githubusercontent.com/tomsoftware/Lemmings.ts/master/docu/examples/demo_01.png',
-    'https://raw.githubusercontent.com/tomsoftware/Lemmings.ts/master/docu/examples/demo_02.png']
-  clones: [Lemmings]
+  originals:
+  - Lemmings
+  repo: https://github.com/tomsoftware/Lemmings.ts
+  status: playable
+  type: clone
+  updated: 2017-10-22
 
 - name: Lemmini
-  url: http://lemmini.de/
+  images:
+  - http://lemmini.de/lemmini_screenshot_win.png
+  lang: Java
+  license:
+  - Apache
+  development: active
+  originals:
+  - Lemmings
   repo: https://bitbucket.org/fade0ff/lemmini
   status: playable
-  development: active
-  lang: Java
-  license: [Apache]
+  type: clone
   updated: 2017-10-15
-  images: ['http://lemmini.de/lemmini_screenshot_win.png']
-  clones: [Lemmings]
+  url: http://lemmini.de/
 
 - name: Lemmix
-  url: http://www.ericenzwaan.nl/eric/lemmings/lemmix.htm
+  lang: Delphi
+  development: halted
+  originals:
+  - Lemmings
   repo: http://www.ericenzwaan.nl/eric/lemmings/LemOpenSource.zip
   status: playable
-  development: halted
-  lang: Delphi
+  type: clone
   updated: 2017-10-15
-  clones: [Lemmings]
+  url: http://www.ericenzwaan.nl/eric/lemmings/lemmix.htm
 
 - name: LGeneral
-  url: http://lgames.sourceforge.net/index.php?project=LGeneral
+  images:
+  - http://lgames.sourceforge.net/LGeneral/ss0.jpg
+  - http://lgames.sourceforge.net/LGeneral/ss1.jpg
+  lang: C
+  development: halted
+  originals:
+  - Panzer General
   repo: http://sourceforge.net/p/lgeneral/code/HEAD/tree/trunk/lgeneral/
   status: playable
-  development: halted
-  lang: C
+  type: remake
   updated: 2013-05-30
-  images: ['http://lgames.sourceforge.net/LGeneral/ss0.jpg', 'http://lgames.sourceforge.net/LGeneral/ss1.jpg']
-  remakes: [Panzer General]
+  url: http://lgames.sourceforge.net/index.php?project=LGeneral
 
 - name: libRealSpace
-  url: http://fabiensanglard.net/reverse_engineering_strike_commander/index.php
-  repo: https://github.com/fabiensanglard/libRealSpace
+  images:
+  - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/nice_sc_scene.png
+  - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/F-22.png
+  lang:
+  - C++
   development: active
-  lang: [C++]
+  originals:
+  - Strike Commander
+  repo: https://github.com/fabiensanglard/libRealSpace
+  type: remake
   updated: 2014-01-05
-  images: ['https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/nice_sc_scene.png',
-    'https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/F-22.png']
-  remakes: [Strike Commander]
+  url: http://fabiensanglard.net/reverse_engineering_strike_commander/index.php
 
 - name: Librelancer
+  framework:
+  - OpenGL
+  images:
+  - https://i.imgur.com/sYzlAh9.png
+  - https://i.imgur.com/xIs46Qz.png
+  lang: C#
+  license:
+  - MPL
+  development: active
+  originals:
+  - Freelancer
+  type: remake
   updated: 2016-05-23
   url: https://github.com/CallumDev/Librelancer
-  development: active
-  lang: C#
-  license: [MPL]
-  framework: [OpenGL]
-  images: ['https://i.imgur.com/sYzlAh9.png', 'https://i.imgur.com/xIs46Qz.png']
-  remakes: [Freelancer]
 
 - name: Lincity
-  repo: https://sourceforge.net/projects/lincity/
-  url: http://lincity.sourceforge.net/
+  images:
+  - http://lincity.sourceforge.net/screenshots/power.png
+  lang:
+  - C
+  license:
+  - GPL
   development: halted
-  lang: [C]
-  license: [GPL]
-  images: ['http://lincity.sourceforge.net/screenshots/power.png']
-  clones: [Simcity]
+  originals:
+  - Simcity
+  repo: https://sourceforge.net/projects/lincity/
+  type: clone
+  url: http://lincity.sourceforge.net/
 
 - name: LinCity-NG
-  repo: https://github.com/lincity-ng/lincity-ng
-  url: https://sourceforge.net/projects/lincity-ng.berlios/
-  development: active
+  images:
+  - http://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/Lincity-ng-2.0.png
+  - http://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/NewSolar.png
   lang: C++
-  license: [GPL2]
-  images: ['http://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/Lincity-ng-2.0.png',
-    'http://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/NewSolar.png']
-  clones: [Simcity]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Simcity
+  repo: https://github.com/lincity-ng/lincity-ng
+  type: clone
+  url: https://sourceforge.net/projects/lincity-ng.berlios/
 
 - name: LinWarrior
-  repo: https://github.com/hackcraft-de/linwarrior
-  development: halted
+  images:
+  - http://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg
   lang: C++
-  license: [Apache]
-  url: http://www.hackcraft.de/games/linwarrior_3d/index.htm
+  license:
+  - Apache
+  development: halted
+  originals:
+  - MechWarrior
+  repo: https://github.com/hackcraft-de/linwarrior
+  type: remake
   updated: 2015-04-03
-  images: ['http://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg']
-  remakes: [MechWarrior]
+  url: http://www.hackcraft.de/games/linwarrior_3d/index.htm
 
 - name: Lionheart Remake
-  updated: 2015-04-12
-  repo: https://github.com/DjThunder/lionheart-remake
-  url: http://www.b3dgs.com/
-  development: active
+  images:
+  - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/1.png
+  - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/2.png
+  - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/3.png
   lang: Java
-  license: [GPL2]
-  images: ['http://www.b3dgs.com/v7/projects/lionheart_remake/screens/1.png', 'http://www.b3dgs.com/v7/projects/lionheart_remake/screens/2.png',
-    'http://www.b3dgs.com/v7/projects/lionheart_remake/screens/3.png']
-  remakes: [Lionheart]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Lionheart
+  repo: https://github.com/DjThunder/lionheart-remake
+  type: remake
+  updated: 2015-04-12
+  url: http://www.b3dgs.com/
 
 - name: Lix
-  url: http://asdfasdf.ethz.ch/~simon/index.php
+  framework:
+  - Allegro
+  lang: C++
+  development: halted
+  originals:
+  - Lemmings
   repo: https://github.com/SimonN/Lix
   status: playable
-  development: halted
-  lang: C++
-  framework: [Allegro]
+  type: clone
   updated: 2018-01-15
-  video: {youtube: dWXXK8QlnME}
-  clones: [Lemmings]
+  url: http://asdfasdf.ethz.ch/~simon/index.php
+  video:
+    youtube: dWXXK8QlnME
 
 - name: LixD
-  url: http://www.lixgame.com/
+  development: active
+  framework:
+  - Allegro
+  images:
+  - http://www.lixgame.com/img/lix-d-screenshot.png
+  info: Updated port of Lix to D and Allegro 5
+  lang:
+  - D
+  license:
+  - CC0
+  multiplayer:
+  - Online
+  content: open
+  originals:
+  - Lemmings
   repo: https://github.com/SimonN/LixD
   status: playable
-  development: active
-  multiplayer: [Online]
-  lang: [D]
-  framework: [Allegro]
-  license: [CC0]
-  content: open
-  info: Updated port of Lix to D and Allegro 5
+  type: clone
   updated: 2018-01-15
-  images: ['http://www.lixgame.com/img/lix-d-screenshot.png']
-  clones: [Lemmings]
+  url: http://www.lixgame.com/
 
 - name: Lode Runner - Total Recall
-  url: http://loderunnerwebgame.com/LodeRunner/
-  repo: https://github.com/SimonHung/LodeRunner_TotalRecall
-  development: active
   framework: HTML5
+  development: active
+  originals:
+  - Lode Runner
+  repo: https://github.com/SimonHung/LodeRunner_TotalRecall
+  type: remake
   updated: 2015-08-15
-  remakes: [Lode Runner]
+  url: http://loderunnerwebgame.com/LodeRunner/
 
 - name: Lord of the Rings game engine
-  url: http://www.wonderland.cz/lotr/
-  repo: http://git.wonderland.cz/lotr/
-  updated: 2013-05-27
-  status: playable
-  development: halted
+  images:
+  - http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr1.png
+  - http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr2.png
   lang: C
-  images: ['http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr1.png', 'http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr2.png']
-  remakes: [The Lord of the Rings Volume 1]
+  development: halted
+  originals:
+  - The Lord of the Rings Volume 1
+  repo: http://git.wonderland.cz/lotr/
+  status: playable
+  type: remake
+  updated: 2013-05-27
+  url: http://www.wonderland.cz/lotr/
 
 - name: Lose Your Marbles
-  updated: 2015-04-12
-  repo: https://github.com/eguneys/lose-your-marbles
-  development: sporadic
   lang: JavaScript
-  license: [MIT]
-  remakes: [Lose Your Marbles]
+  license:
+  - MIT
+  development: sporadic
+  originals:
+  - Lose Your Marbles
+  repo: https://github.com/eguneys/lose-your-marbles
+  type: remake
+  updated: 2015-04-12
 
 - name: lttp-phaser
-  updated: 2015-05-28
-  repo: https://github.com/englercj/lttp-phaser
-  development: active
+  framework:
+  - WebGL
+  - Phaser
   lang: JavaScript
-  framework: [WebGL, Phaser]
-  license: [MIT]
-  remakes: [Legend of Zelda - A Link to the Past]
+  license:
+  - MIT
+  development: active
+  originals:
+  - Legend of Zelda - A Link to the Past
+  repo: https://github.com/englercj/lttp-phaser
+  type: remake
+  updated: 2015-05-28
 
 - name: Lugaru
+  lang: C++
+  license:
+  - GPL2
+  development: active
+  originals:
+  - 'Lugaru: The Rabbit''s Foot'
+  repo: https://gitlab.com/osslugaru/lugaru
+  type: remake
   updated: 2017-03-02
   url: https://osslugaru.gitlab.io
-  repo: https://gitlab.com/osslugaru/lugaru
-  development: active
-  lang: C++
-  license: [GPL2]
-  remakes: ['Lugaru: The Rabbit''s Foot']
 
 - name: luminesk5
-  updated: 2015-04-13
-  repo: https://github.com/kaikai2/luminesk5
-  development: halted
   lang: Objective-C
-  license: [GPL3]
-  remakes: [Lumines]
+  license:
+  - GPL3
+  development: halted
+  originals:
+  - Lumines
+  repo: https://github.com/kaikai2/luminesk5
+  type: remake
+  updated: 2015-04-13

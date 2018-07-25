@@ -1,137 +1,197 @@
-
 - name: Naev
-  url: http://naev.org/
-  development: active
+  images:
+  - http://blog.naev.org/wp-content/gallery/media/bigplanet.png
+  - http://blog.naev.org/wp-content/gallery/media/jumppoint.png
+  - http://blog.naev.org/wp-content/gallery/media/slotsizes.png
+  - http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png
   lang: C
+  development: active
+  originals:
+  - Escape Velocity
   repo: https://github.com/bobbens/naev
-  images: ['http://blog.naev.org/wp-content/gallery/media/bigplanet.png', 'http://blog.naev.org/wp-content/gallery/media/jumppoint.png',
-    'http://blog.naev.org/wp-content/gallery/media/slotsizes.png', 'http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png']
-  clones: [Escape Velocity]
+  type: clone
+  url: http://naev.org/
 
 - name: Netacka
+  images:
+  - https://pwmarcz.pl/netacka/sshots.png
+  lang: C
+  development: halted
+  originals:
+  - Achtung, die Kurve!
   repo: https://pwmarcz.pl/netacka/src/
+  type: remake
   updated: 2016-03-06
   url: https://pwmarcz.pl/netacka/
-  development: halted
-  lang: C
-  images: ['https://pwmarcz.pl/netacka/sshots.png']
-  remakes: ['Achtung, die Kurve!']
 
 - name: Nether Earth Remake
+  images:
+  - http://www2.braingames.getput.com/nether/images/original00.jpg
+  - http://www2.braingames.getput.com/nether/images/remake00.jpg
+  lang: C++
+  originals:
+  - Nether Earth
+  repo: http://www2.braingames.getput.com/nether/sources.zip
+  type: remake
   updated: 2015-04-13
   url: http://www2.braingames.getput.com/nether/default.asp
-  repo: http://www2.braingames.getput.com/nether/sources.zip
-  lang: C++
-  images: ['http://www2.braingames.getput.com/nether/images/original00.jpg', 'http://www2.braingames.getput.com/nether/images/remake00.jpg']
-  remakes: [Nether Earth]
 
 - name: Neverball
-  url: http://neverball.org/
-  updated: 2015-12-29
-  development: active
-  lang: C++
   framework: SDL
-  license: [GPL2]
+  images:
+  - http://i.imgur.com/4ja9xmS.jpg
+  - http://i.imgur.com/xU6TJZP.jpg
+  - http://i.imgur.com/KJG0K0C.jpg
+  - http://i.imgur.com/KpzrmNp.jpg
+  - http://i.imgur.com/4sJM8Ji.jpg
+  - http://i.imgur.com/fzcotpu.jpg
+  lang: C++
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Super Monkey Ball
   repo: http://neverball.org/neverball-1.6.0.tar.gz
-  images: ['http://i.imgur.com/4ja9xmS.jpg', 'http://i.imgur.com/xU6TJZP.jpg', 'http://i.imgur.com/KJG0K0C.jpg',
-    'http://i.imgur.com/KpzrmNp.jpg', 'http://i.imgur.com/4sJM8Ji.jpg', 'http://i.imgur.com/fzcotpu.jpg']
-  remakes: [Super Monkey Ball]
+  type: remake
+  updated: 2015-12-29
+  url: http://neverball.org/
 
 - name: New RAW
-  url: http://sourceforge.net/projects/newraw/
-  repo: http://svn.code.sf.net/p/newraw/code/
-  updated: 2014-09-05
-  development: halted
+  images:
+  - https://a.fsdn.com/con/app/proj/newraw/screenshots/67451.jpg
+  - https://a.fsdn.com/con/app/proj/newraw/screenshots/67449.jpg
   lang: C++
-  license: [GPL]
-  images: ['https://a.fsdn.com/con/app/proj/newraw/screenshots/67451.jpg', 'https://a.fsdn.com/con/app/proj/newraw/screenshots/67449.jpg']
-  remakes: [Another World]
+  license:
+  - GPL
+  development: halted
+  originals:
+  - Another World
+  repo: http://svn.code.sf.net/p/newraw/code/
+  type: remake
+  updated: 2014-09-05
+  url: http://sourceforge.net/projects/newraw/
 
 - name: newtron
-  repo: https://github.com/sursonico/newtron
-  updated: 2015-06-01
+  lang:
+  - JavaScript
   development: halted
-  lang: [JavaScript]
-  remakes: [Tron]
+  originals:
+  - Tron
+  repo: https://github.com/sursonico/newtron
+  type: remake
+  updated: 2015-06-01
 
 - name: NFSIISE
+  development: active
+  framework: SDL2
+  images:
+  - https://i.imgur.com/ZL3V5XB.jpg
+  - https://i.imgur.com/DRyjX57.jpg
+  lang: C++
+  content: commercial
+  originals:
+  - Need For Speed II SE
   repo: https://github.com/zaps166/NFSIISE
   status: playable
-  development: active
-  lang: C++
-  framework: SDL2
-  content: commercial
+  type: remake
   updated: 2016-06-02
-  images: ['https://i.imgur.com/ZL3V5XB.jpg', 'https://i.imgur.com/DRyjX57.jpg']
-  remakes: [Need For Speed II SE]
 
 - name: Nighthawk
-  url: http://night-hawk.sourceforge.net/
+  images:
+  - http://night-hawk.sourceforge.net/nh_intro_1.png
+  lang: C++
+  development: halted
+  originals:
+  - Paradroid
   repo: http://night-hawk.cvs.sourceforge.net/viewvc/night-hawk/
   status: playable
-  development: halted
-  lang: C++
+  type: remake
   updated: 2013-05-27
-  images: ['http://night-hawk.sourceforge.net/nh_intro_1.png']
-  remakes: [Paradroid]
+  url: http://night-hawk.sourceforge.net/
 
 - name: NLarn
+  lang:
+  - C
+  - Lua
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Larn
+  repo: git://git.code.sf.net/p/nlarn/git nlarn-git
+  type: remake
   updated: 2015-07-12
   url: http://nlarn.sourceforge.net/
-  repo: git://git.code.sf.net/p/nlarn/git nlarn-git
-  development: active
-  lang: [C, Lua]
-  license: [GPL2]
-  remakes: [Larn]
 
 - name: Nodes of Yesnod remake
-  updated: 2015-05-10
-  repo: https://github.com/ian-wigley/Nodes-of-Yesod
-  development: halted
   framework: XNA
   lang: C#
-  remakes: [Nodes of Yesod]
+  development: halted
+  originals:
+  - Nodes of Yesod
+  repo: https://github.com/ian-wigley/Nodes-of-Yesod
+  type: remake
+  updated: 2015-05-10
 
 - name: NStars!
+  images:
+  - http://nstars.sourceforge.net/nstars01.png
+  - http://nstars.sourceforge.net/nstars02.png
+  - http://nstars.sourceforge.net/nstars03.png
+  lang: C#
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Stars!
+  repo: http://nstars.cvs.sourceforge.net/viewvc/nstars/
+  type: remake
   updated: 2015-05-09
   url: http://nstars.sourceforge.net/
-  development: halted
-  lang: C#
-  license: [GPL2]
-  repo: http://nstars.cvs.sourceforge.net/viewvc/nstars/
-  images: ['http://nstars.sourceforge.net/nstars01.png', 'http://nstars.sourceforge.net/nstars02.png',
-    'http://nstars.sourceforge.net/nstars03.png']
-  remakes: [Stars!]
 
 - name: Nuvie
-  url: http://nuvie.sourceforge.net/
-  repo: http://sourceforge.net/projects/nuvie/develop
-  development: active
+  images:
+  - http://nuvie.sourceforge.net/images/shots/nuvie_24.png
+  - http://nuvie.sourceforge.net/images/shots/nuvie_22.png
+  - http://nuvie.sourceforge.net/images/shots/nuvie_21.png
   lang: C++
-  images: ['http://nuvie.sourceforge.net/images/shots/nuvie_24.png', 'http://nuvie.sourceforge.net/images/shots/nuvie_22.png',
-    'http://nuvie.sourceforge.net/images/shots/nuvie_21.png']
-  remakes: [Ultima VI]
+  development: active
+  originals:
+  - Ultima VI
+  repo: http://sourceforge.net/projects/nuvie/develop
+  type: remake
+  url: http://nuvie.sourceforge.net/
 
 - name: NXEngine
-  url: http://nxengine.sourceforge.net/
+  development: sporadic
+  images:
+  - https://repo.openpandora.org/files/pnd/nxengine/previews/nxengine2.png
+  lang:
+  - C++
+  license:
+  - GPL3
+  content: free
+  originals:
+  - Cave Story
   repo: http://nxengine.sourceforge.net/dl/nx-src-1006.tar.bz2
   status: playable
-  development: sporadic
-  lang: [C++]
-  content: free
-  license: [GPL3]
+  type: remake
   updated: 2013-05-29
-  images: ['https://repo.openpandora.org/files/pnd/nxengine/previews/nxengine2.png']
-  remakes: [Cave Story]
+  url: http://nxengine.sourceforge.net/
 
 - name: NXEngine-evo
-  url: https://github.com/nxengine/nxengine-evo
+  development: active
+  images:
+  - https://raw.githubusercontent.com/nxengine/nxengine-evo/master/screenshot.png
+  lang:
+  - C++
+  license:
+  - GPL3
+  content: free
+  originals:
+  - Cave Story
   repo: https://github.com/nxengine/nxengine-evo
   status: playable
-  development: active
-  lang: [C++]
-  content: free
-  license: [GPL3]
+  type: remake
   updated: 2018-01-05
-  images: ['https://raw.githubusercontent.com/nxengine/nxengine-evo/master/screenshot.png']
-  remakes: [Cave Story]
+  url: https://github.com/nxengine/nxengine-evo

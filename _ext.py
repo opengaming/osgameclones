@@ -152,7 +152,8 @@ def parse_items(site, item, key):
             'framework',
             'content',
             'license',
-            'multiplayer'
+            'multiplayer',
+            'type'
         ]
 
         meta = item.get('meta', {})
@@ -280,17 +281,10 @@ def parse_data(site):
         combined = copy.deepcopy(item)
         name = game_name(combined)
 
-        combined_remakes = [
+        combined['games'] = [
             clone for clone in clones
-            if 'remakes' in clone and name in clone['remakes']
+            if name in clone['originals']
         ]
-
-        combined_clones = [
-            clone for clone in clones
-            if 'clones' in clone and name in clone['clones']
-        ]
-
-        combined['games'] = combined_remakes + combined_clones
         parse_items(site, combined, 'games')
 
 

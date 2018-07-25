@@ -1,148 +1,211 @@
-
 - name: UA_source
-  updated: 2017-09-08
-  repo: https://github.com/Marisa-Chan/UA_source
-  license: [GPL2]
   lang: C++
+  license:
+  - GPL2
   framework: SDL
-  remakes: [Urban Assault]
+  originals:
+  - Urban Assault
+  repo: https://github.com/Marisa-Chan/UA_source
+  type: remake
+  updated: 2017-09-08
 
 - name: Uebergame
-  repo: https://github.com/Duion/Uebergame
-  url: http://duion.com/games/uebergame/main
   development: active
-  status: playable
-  lang: [TorqueScript, HLSL, GLSL, C]
-  framework: [Torque 3D]
-  license: [MIT, CC0]
+  framework:
+  - Torque 3D
+  images:
+  - http://duion.com/files/blog/Uebergame-1.0.6.0-Release.jpg
+  lang:
+  - TorqueScript
+  - HLSL
+  - GLSL
+  - C
+  license:
+  - MIT
+  - CC0
   content: open
+  originals:
+  - ARMA series
+  repo: https://github.com/Duion/Uebergame
+  status: playable
+  type: clone
   updated: 2016-12-08
-  images: ['http://duion.com/files/blog/Uebergame-1.0.6.0-Release.jpg']
-  video: {youtube: s_xM-0zVM3M}
-  clones: [ARMA series]
+  url: http://duion.com/games/uebergame/main
+  video:
+    youtube: s_xM-0zVM3M
 
 - name: UFO2000
-  url: http://ufo2000.sourceforge.net/
-  status: playable
-  development: halted
+  images:
+  - http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66443.jpg
+  - http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66447.jpg
+  - http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg
   lang: C++
+  development: halted
+  originals:
+  - X-COM Series
   repo: http://sourceforge.net/p/ufo2000/code/1176/tree/
+  status: playable
+  type: remake
   updated: 2013-07-05
-  images: ['http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66443.jpg', 'http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66447.jpg',
-    'http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg']
-  remakes: [X-COM Series]
+  url: http://ufo2000.sourceforge.net/
 
 - name: 'UFO: Alien Invasion'
-  url: http://ufoai.ninex.info/
-  development: active
+  images:
+  - http://ufoai.ninex.info/wiki/images/Nation_Overlay.jpg
+  - http://ufoai.ninex.info/wiki/images/Ufo01.png
+  - http://ufoai.ninex.info/wiki/images/Ufoai2.2_aircraft_team.jpg
+  - http://ufoai.ninex.info/wiki/images/Ufoaiold_base01.jpg
   lang: C
+  development: active
+  originals:
+  - X-COM Series
   repo: http://ufoai.git.sourceforge.net/git/gitweb.cgi?p=ufoai/ufoai;a=summary
-  images: ['http://ufoai.ninex.info/wiki/images/Nation_Overlay.jpg', 'http://ufoai.ninex.info/wiki/images/Ufo01.png',
-    'http://ufoai.ninex.info/wiki/images/Ufoai2.2_aircraft_team.jpg', 'http://ufoai.ninex.info/wiki/images/Ufoaiold_base01.jpg']
-  clones: [X-COM Series]
+  type: clone
+  url: http://ufoai.ninex.info/
 
 - name: UGH-remake
-  url: https://bitbucket.org/Andy51/ugh-remake
-  updated: 2015-04-13
-  repo: https://bitbucket.org/Andy51/ugh-remake.git
-  development: halted
   lang: C
-  remakes: [Ugh!]
+  development: halted
+  originals:
+  - Ugh!
+  repo: https://bitbucket.org/Andy51/ugh-remake.git
+  type: remake
+  updated: 2015-04-13
+  url: https://bitbucket.org/Andy51/ugh-remake
 
 - name: UiirJS
-  repo: https://github.com/ObviouslySorna/UiirJS
-  updated: 2015-06-01
-  development: halted
   lang: JavaScript
-  remakes: ['Ultima II: The Revenge of the Enchantress']
+  development: halted
+  originals:
+  - 'Ultima II: The Revenge of the Enchantress'
+  repo: https://github.com/ObviouslySorna/UiirJS
+  type: remake
+  updated: 2015-06-01
 
 - name: Ultimate Stunts
-  url: http://www.ultimatestunts.nl/
-  development: sporadic
+  images:
+  - http://www.ultimatestunts.nl/screenshots/0721.jpg
+  - http://www.ultimatestunts.nl/screenshots/0711.jpg
+  - http://www.ultimatestunts.nl/screenshots/0722.jpg
+  - http://www.ultimatestunts.nl/screenshots/0742.jpg
   lang: C++
+  development: sporadic
+  originals:
+  - Stunts
   repo: http://ultimatestunts.svn.sourceforge.net/viewvc/ultimatestunts/
-  images: ['http://www.ultimatestunts.nl/screenshots/0721.jpg', 'http://www.ultimatestunts.nl/screenshots/0711.jpg',
-    'http://www.ultimatestunts.nl/screenshots/0722.jpg', 'http://www.ultimatestunts.nl/screenshots/0742.jpg']
-  remakes: [Stunts]
+  type: remake
+  url: http://www.ultimatestunts.nl/
 
 - name: UltraStar Deluxe
-  url: http://ultrastardx.sourceforge.net/
+  framework:
+  - SDL2
+  images:
+  - http://ultrastardx.sourceforge.net/screenshots/sing_singscreen.jpg
+  - http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png
+  - http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
+  lang:
+  - Object Pascal
+  - Lua
+  license:
+  - GPL2
+  development: active
+  originals:
+  - SingStar
   repo: https://github.com/UltraStar-Deluxe/USDX/
   status: playable
-  development: active
-  lang: [Object Pascal, Lua]
-  framework: [SDL2]
-  license: [GPL2]
+  type: remake
   updated: 2017-02-16
-  images: ['http://ultrastardx.sourceforge.net/screenshots/sing_singscreen.jpg', 'http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png',
-    'http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png']
-  remakes: [SingStar]
+  url: http://ultrastardx.sourceforge.net/
 
 - name: uMario
-  updated: 2016-03-24
+  framework: SDL2
+  lang: C++
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Super Mario
   repo: https://github.com/jakowskidev/uMario_Jakowski
   status: playable
-  development: halted
-  lang: C++
-  framework: SDL2
-  license: [GPL2]
-  remakes: [Super Mario]
+  type: remake
+  updated: 2016-03-24
 
 - name: Uncharted waters 2 remake
-  repo: https://github.com/Jackyjjc/Uncharted-waters-2-remake
-  url: http://jackyjjc.com/
-  updated: 2015-04-05
-  development: active
   lang: Java
-  license: [GPL2]
-  remakes: [Uncharted Waters]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Uncharted Waters
+  repo: https://github.com/Jackyjjc/Uncharted-waters-2-remake
+  type: remake
+  updated: 2015-04-05
+  url: http://jackyjjc.com/
 
 - name: uninvited
-  updated: 2015-04-04
-  repo: https://github.com/DavidGriffith/uninvited
-  development: sporadic
   framework: Inform
-  license: [Artistic]
-  remakes: [Uninvited]
+  license:
+  - Artistic
+  development: sporadic
+  originals:
+  - Uninvited
+  repo: https://github.com/DavidGriffith/uninvited
+  type: remake
+  updated: 2015-04-04
 
 - name: Unknown Horizons
-  url: http://www.unknown-horizons.org/
-  repo: https://github.com/unknown-horizons/unknown-horizons
-  development: active
+  images:
+  - http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png
+  - http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
   lang: Python
-  images: ['http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png',
-    'http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png']
-  clones: [Anno series]
+  development: active
+  originals:
+  - Anno series
+  repo: https://github.com/unknown-horizons/unknown-horizons
+  type: clone
+  url: http://www.unknown-horizons.org/
 
 - name: UnnamedStarFoxClone
-  updated: 2015-06-18
-  repo: https://github.com/ChristianBorst/UnnamedStarFoxClone
-  development: active
-  lang: C#
   framework: Unity
-  remakes: [Star Fox 64]
+  lang: C#
+  development: active
+  originals:
+  - Star Fox 64
+  repo: https://github.com/ChristianBorst/UnnamedStarFoxClone
+  type: remake
+  updated: 2015-06-18
 
 - name: Unvanquished
-  url: http://www.unvanquished.net/
-  development: active
   lang: C
+  development: active
+  originals:
+  - Natural Selection
   repo: https://github.com/Unvanquished/Unvanquished
+  type: clone
   updated: 2013-06-08
-  clones: [Natural Selection]
+  url: http://www.unvanquished.net/
 
 - name: urde
-  updated: 2016-03-08
-  repo: https://github.com/AxioDL/urde
-  development: active
   info: engine only
-  lang: [C++, Python]
-  license: [MIT]
-  remakes: [Metroid Prime]
+  lang:
+  - C++
+  - Python
+  license:
+  - MIT
+  development: active
+  originals:
+  - Metroid Prime
+  repo: https://github.com/AxioDL/urde
+  type: remake
+  updated: 2016-03-08
 
 - name: Utopia
+  lang: JavaScript
+  development: halted
+  originals:
+  - Utopia
+  repo: https://github.com/gamejs/newutopia
+  type: remake
   updated: 2015-04-05
   url: http://apps.gamejs.org/newutopia/
-  repo: https://github.com/gamejs/newutopia
-  development: halted
-  lang: JavaScript
-  remakes: [Utopia]
+

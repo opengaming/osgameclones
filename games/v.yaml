@@ -1,132 +1,188 @@
-
 - name: Van Buren Project
-  url: http://vanburenproject.blogspot.com
-  repo: https://code.google.com/archive/p/van-buren-project/
-  updated: 2017-04-20
-  development: halted
+  images:
+  - http://media.indiedb.com/images/games/1/24/23884/post13_3_zpsfe75e66a.png
   lang: C#
-  license: [Custom]
-  images: ['http://media.indiedb.com/images/games/1/24/23884/post13_3_zpsfe75e66a.png']
-  remakes: ['Fallout 3: Van Buren']
+  license:
+  - Custom
+  development: halted
+  originals:
+  - 'Fallout 3: Van Buren'
+  repo: https://code.google.com/archive/p/van-buren-project/
+  type: remake
+  updated: 2017-04-20
+  url: http://vanburenproject.blogspot.com
 
 - name: VASSAL
-  repo: https://sourceforge.net/projects/vassalengine/
-  url: http://www.vassalengine.org/
+  images:
+  - http://www.vassalengine.org/images/screenshot1.png
+  - http://www.vassalengine.org/images/screenshot2.png
+  lang:
+  - Java
+  license:
+  - GPL2
   development: active
+  originals:
+  - Board Game
+  repo: https://sourceforge.net/projects/vassalengine/
   status: playable
-  lang: [Java]
-  license: [GPL2]
+  type: clone
   updated: 2017-02-12
-  images: ['http://www.vassalengine.org/images/screenshot1.png', 'http://www.vassalengine.org/images/screenshot2.png']
-  clones: [Board Game]
+  url: http://www.vassalengine.org/
 
 - name: VCMI
-  url: http://forum.vcmi.eu/portal.php
+  development: active
+  framework: SDL
+  images:
+  - http://68.media.tumblr.com/c69e06e5f17abaa58c9e636ea324f51d/tumblr_ot0p9i6KSl1v51b1so6_1280.png
+  - http://68.media.tumblr.com/3340781f2a5ae99684a2942ffcf0bfc0/tumblr_ot0p9i6KSl1v51b1so7_1280.png
+  - http://68.media.tumblr.com/d801e66bb3b143945680f95762e63476/tumblr_otkcbgZUJb1v51b1so10_1280.png
+  - http://68.media.tumblr.com/49a7111bd9d5f9e0f8209a6a1a11ca9f/tumblr_otz6d2vuIj1v51b1so3_1280.png
+  - http://68.media.tumblr.com/bc8bd2e5b481a48f1b6b11a61106aa43/tumblr_otz6d2vuIj1v51b1so6_1280.png
+  info: time-based releases
+  lang: C++
+  license:
+  - GPL2
+  content: commercial
+  originals:
+  - Heroes of Might and Magic III
   repo: https://github.com/vcmi/vcmi
   status: playable
-  development: active
-  info: time-based releases
-  content: commercial
-  lang: C++
-  framework: SDL
-  license: [GPL2]
-  images: ['http://68.media.tumblr.com/c69e06e5f17abaa58c9e636ea324f51d/tumblr_ot0p9i6KSl1v51b1so6_1280.png',
-           'http://68.media.tumblr.com/3340781f2a5ae99684a2942ffcf0bfc0/tumblr_ot0p9i6KSl1v51b1so7_1280.png',
-           'http://68.media.tumblr.com/d801e66bb3b143945680f95762e63476/tumblr_otkcbgZUJb1v51b1so10_1280.png',
-           'http://68.media.tumblr.com/49a7111bd9d5f9e0f8209a6a1a11ca9f/tumblr_otz6d2vuIj1v51b1so3_1280.png',
-           'http://68.media.tumblr.com/bc8bd2e5b481a48f1b6b11a61106aa43/tumblr_otz6d2vuIj1v51b1so6_1280.png']
-  remakes: [Heroes of Might and Magic III]
+  type: remake
+  url: http://forum.vcmi.eu/portal.php
 
 - name: Vectoroids
+  images:
+  - http://www.newbreedsoftware.com/vectoroids/screenshots/title.gif
+  - http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids.gif
+  - http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids-embedded.jpg
+  lang: C
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Asteroids
+  repo: ftp://ftp.tuxpaint.org/unix/x/vectoroids/src/vectoroids-1.1.0.tar.gz
+  type: remake
   updated: 2015-04-07
   url: http://www.newbreedsoftware.com/vectoroids/
-  repo: ftp://ftp.tuxpaint.org/unix/x/vectoroids/src/vectoroids-1.1.0.tar.gz
-  development: halted
-  lang: C
-  license: [GPL2]
-  images: ['http://www.newbreedsoftware.com/vectoroids/screenshots/title.gif', 'http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids.gif',
-    'http://www.newbreedsoftware.com/vectoroids/screenshots/vectoroids-embedded.jpg']
-  remakes: [Asteroids]
 
 - name: Veraball
-  repo: https://github.com/Veraball/veraball
-  updated: 2015-12-29
-  development: active
   framework: Gobot
-  license: [MIT]
-  images: ['http://i.imgur.com/uDY7tI4.jpg', 'http://i.imgur.com/4SsHUvQ.jpg', 'http://i.imgur.com/UWWdJZn.jpg',
-    'http://i.imgur.com/09oXtsO.jpg']
-  remakes: [Super Monkey Ball]
+  images:
+  - http://i.imgur.com/uDY7tI4.jpg
+  - http://i.imgur.com/4SsHUvQ.jpg
+  - http://i.imgur.com/UWWdJZn.jpg
+  - http://i.imgur.com/09oXtsO.jpg
+  license:
+  - MIT
+  development: active
+  originals:
+  - Super Monkey Ball
+  repo: https://github.com/Veraball/veraball
+  type: remake
+  updated: 2015-12-29
 
 - name: Violetland
-  url: http://violetland.github.io/
-  repo: https://github.com/ooxi/violetland
-  license: [GPL3, CC-BY-SA]
-  updated: 2017-02-08
-  status: playable
-  development: active
+  images:
+  - http://violetland.github.io/images/screenshots/thumbnail/violetland-illumination-630x475.png
+  - http://violetland.github.io/images/screenshots/thumbnail/violetland-flashlight-630x475.png
   lang: C++
-  images: ['http://violetland.github.io/images/screenshots/thumbnail/violetland-illumination-630x475.png',
-    'http://violetland.github.io/images/screenshots/thumbnail/violetland-flashlight-630x475.png']
-  clones: [Crimsonland]
+  license:
+  - GPL3
+  - CC-BY-SA
+  development: active
+  originals:
+  - Crimsonland
+  repo: https://github.com/ooxi/violetland
+  status: playable
+  type: clone
+  updated: 2017-02-08
+  url: http://violetland.github.io/
 
 - name: viper
-  repo: https://github.com/bjornharrtell/viper
-  updated: 2015-05-18
-  development: halted
   lang: CoffeeScript
-  remakes: [Viper]
+  development: halted
+  originals:
+  - Viper
+  repo: https://github.com/bjornharrtell/viper
+  type: remake
+  updated: 2015-05-18
 
 - name: Visual Pinball
-  repo: https://sourceforge.net/p/vpinball/code/HEAD/tree/
-  url: https://sourceforge.net/projects/vpinball/
-  license: [MAME]
-  lang: [C++]
+  lang:
+  - C++
+  license:
+  - MAME
   development: active
+  originals:
+  - Visual Pinball
+  repo: https://sourceforge.net/p/vpinball/code/HEAD/tree/
   status: playable
+  type: clone
   updated: 2017-01-07
-  video: {youtube: IoF-kqXF2JQ}
-  clones: [Visual Pinball]
+  url: https://sourceforge.net/projects/vpinball/
+  video:
+    youtube: IoF-kqXF2JQ
 
 - name: vkQuake
-  repo: https://github.com/Novum/vkQuake
-  development: active
-  lang: C
-  license: [GPL2]
-  updated: 2017-04-04
   framework: Vulkan
-  remakes: [Quake]
+  lang: C
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Quake
+  repo: https://github.com/Novum/vkQuake
+  type: remake
+  updated: 2017-04-04
 
 - name: Vorton
+  images:
+  - http://vorton.sourceforge.net/shot2.png
+  - http://vorton.sourceforge.net/shot3.png
+  - http://vorton.sourceforge.net/shot5.png
+  lang: C
+  license:
+  - GPL3
+  development: halted
+  originals:
+  - Highway Encounter
+  repo: http://iweb.dl.sourceforge.net/project/vorton/Vorton-Source/Beta-2/vorton-src-beta2.zip
+  type: remake
   updated: 2015-05-03
   url: http://vorton.sourceforge.net/
-  development: halted
-  lang: C
-  license: [GPL3]
-  repo: http://iweb.dl.sourceforge.net/project/vorton/Vorton-Source/Beta-2/vorton-src-beta2.zip
-  images: ['http://vorton.sourceforge.net/shot2.png', 'http://vorton.sourceforge.net/shot3.png',
-    'http://vorton.sourceforge.net/shot5.png']
-  remakes: [Highway Encounter]
 
 - name: Voxelands
+  images:
+  - http://www.voxelands.com/images/survival-small.png
+  - http://www.voxelands.com/images/farming-small.png
+  - http://www.voxelands.com/images/circuits-small.png
+  - http://www.voxelands.com/images/craftguide-small.png
+  - http://www.voxelands.com/images/village-small.png
+  lang: C++
+  license:
+  - GPL3
+  development: active
+  originals:
+  - Minecraft
+  repo: https://gitlab.com/voxelands/voxelands
+  type: remake
   updated: 2015-07-22
   url: http://www.voxelands.com/
-  repo: https://gitlab.com/voxelands/voxelands
-  development: active
-  lang: C++
-  license: [GPL3]
-  images: ['http://www.voxelands.com/images/survival-small.png', 'http://www.voxelands.com/images/farming-small.png',
-    'http://www.voxelands.com/images/circuits-small.png', 'http://www.voxelands.com/images/craftguide-small.png',
-    'http://www.voxelands.com/images/village-small.png']
-  remakes: [Minecraft]
 
 - name: Voxelstein 3D
+  images:
+  - http://voxelstein3d.sourceforge.net/screen1.png
+  - http://voxelstein3d.sourceforge.net/screen3.png
+  - http://voxelstein3d.sourceforge.net/screen5.png
+  lang: C++
+  license:
+  - MIT
+  development: halted
+  originals:
+  - Wolfenstein 3D
+  repo: http://kent.dl.sourceforge.net/project/voxelstein3d/voxelstein3d/0.101/Voxelstein3D_src_0.101.zip
+  type: clone
   updated: 2015-04-16
   url: http://voxelstein3d.sourceforge.net/
-  repo: http://kent.dl.sourceforge.net/project/voxelstein3d/voxelstein3d/0.101/Voxelstein3D_src_0.101.zip
-  development: halted
-  lang: C++
-  license: [MIT]
-  images: ['http://voxelstein3d.sourceforge.net/screen1.png', 'http://voxelstein3d.sourceforge.net/screen3.png',
-    'http://voxelstein3d.sourceforge.net/screen5.png']
-  clones: [Wolfenstein 3D]
+
