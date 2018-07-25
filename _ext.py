@@ -5,7 +5,7 @@ import os, os.path as op
 from datetime import date, timedelta
 from collections import OrderedDict
 from functools import partial
-import re
+import urlparse
 
 import yaml
 from cyrax import events
@@ -87,8 +87,8 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
                   tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
 
     if "repo" in result:
-        domain = re.sub(r".*://([^/]*)/.*", "\\1", result["repo"])
-        ext = re.sub(r".*?(\.[^/]*)$", "\\1", result["repo"])
+        domain = urlparse.urlparse(result["repo"]).netloc
+        ext = os.path.splitext(result["repo"])[1]
 
         if "github.com" in domain:
             result["repoicon"] = "GitHub-Mark-32px.png"
@@ -107,9 +107,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
         elif "launchpad.net" in domain:
             result["repoicon"] = "launchpad.png"
             result["repotitle"] = "Launchpad"
-        elif (".zip" in ext or
-              ".tar." in ext or
-              ".tgz" in ext):
+        elif ext in (".zip", ".tar", ".tgz", ".tbz2", ".bz2", ".xz", ".rar"):
             result["repoicon"] = "emblem-package.png"
             result["repotitle"] = "Archive"
 
