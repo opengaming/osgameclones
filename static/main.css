@@ -201,12 +201,6 @@ dd + dt { margin-top: 1em; }
   padding: .2em;
 }
 
-.feed-icon:hover {
-  border-bottom: 0;
-  background-color: #f26522;
-  color: white;
-}
-
 
 .darkTheme {
   background-color: #303030;
@@ -282,4 +276,8 @@ dd + dt { margin-top: 1em; }
 .darkTheme .repoicon svg {
   color: white;
   fill: currentColor;
+}
+
+.darkTheme .feed-icon {
+  color: white;
 }
