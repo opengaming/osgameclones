@@ -183,21 +183,11 @@ dd + dt { margin-top: 1em; }
 }
 
 
-.repoicon,.repoiconlight,.repoicondark {
+.repoicon {
   height: 14px;
   width: 100%;
   padding-left: .2em;
-  display: inline;
-}
-
-.repoicon svg {
-  width: 14px;
-  height: 14px;
-  vertical-align: middle;
-}
-
-#icons {
-  display: none;
+  display: inline !important;
 }
 
 

@@ -91,20 +91,25 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
         ext = os.path.splitext(result["repo"])[1]
 
         if "github.com" in domain:
-            result["repoiconxlink"] = "github"
+            result["repoiconname"] = "github"
+            result["repoiconstyle"] = "fab"
             result["repotitle"] = "GitHub"
         elif (".google.com" in domain or
               "googlecode.com" in domain):
-            result["repoiconxlink"] = "google"
+            result["repoiconname"] = "google"
+            result["repoiconstyle"] = "fab"
             result["repotitle"] = "Google Code"
         elif "bitbucket.org" in domain:
-            result["repoiconxlink"] = "bitbucket"
+            result["repoiconname"] = "bitbucket"
+            result["repoiconstyle"] = "fab"
             result["repotitle"] = "Bitbucket"
         elif "gitlab.com" in domain:
-            result["repoiconxlink"] = "gitlab"
+            result["repoiconname"] = "gitlab"
+            result["repoiconstyle"] = "fab"
             result["repotitle"] = "Gitlab"
         elif ext in (".zip", ".tar", ".tgz", ".tbz2", ".bz2", ".xz", ".rar"):
-            result["repoiconxlink"] = "box"
+            result["repoiconname"] = "box"
+            result["repoiconstyle"] = "fas"
             result["repotitle"] = "Archive"
 
     return result
