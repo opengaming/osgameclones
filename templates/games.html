@@ -88,7 +88,7 @@
       {{ game['name'] }}
     {%- if 'url' in game %}</a>{% endif %}
 
-    {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a>){%- endif %}
+    {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a> {%- if 'repoiconname' in game %}<span class="repoicon {{ game['repoiconstyle'] }} fa-{{ game['repoiconname'] }}" title="{{ game['repotitle'] }}"></span>{%- endif %}){%- endif %}
 
     {%- if 'feed' in game %}
       <a href="{{ game['feed'] }}"><img src="static/feed-icon-14x14.png"/></a>

@@ -5,6 +5,7 @@ import os, os.path as op
 from datetime import date, timedelta
 from collections import OrderedDict
 from functools import partial
+import urlparse
 
 import yaml
 from cyrax import events
@@ -105,9 +106,37 @@ def parse_global_tags(site, item, tag):
 
 def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
     updated = entry.get('updated') or date(1970, 1, 1)
-    return dict(entry,
-                new=(date.today() - updated) < timedelta(days=30),
-                tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
+    result = dict(entry,
+                  new=(date.today() - updated) < timedelta(days=30),
+                  tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
+
+    if "repo" in result:
+        domain = urlparse.urlparse(result["repo"]).netloc
+        ext = os.path.splitext(result["repo"])[1]
+
+        if "github.com" in domain:
+            result["repoiconname"] = "github"
+            result["repoiconstyle"] = "fab"
+            result["repotitle"] = "GitHub"
+        elif (".google.com" in domain or
+              "googlecode.com" in domain):
+            result["repoiconname"] = "google"
+            result["repoiconstyle"] = "fab"
+            result["repotitle"] = "Google Code"
+        elif "bitbucket.org" in domain:
+            result["repoiconname"] = "bitbucket"
+            result["repoiconstyle"] = "fab"
+            result["repotitle"] = "Bitbucket"
+        elif "gitlab.com" in domain:
+            result["repoiconname"] = "gitlab"
+            result["repoiconstyle"] = "fab"
+            result["repotitle"] = "Gitlab"
+        elif ext in (".zip", ".tar", ".tgz", ".tbz2", ".bz2", ".xz", ".rar"):
+            result["repoiconname"] = "box"
+            result["repoiconstyle"] = "fas"
+            result["repotitle"] = "Archive"
+
+    return result
 
 
 def parse_items(site, item, key):

@@ -183,6 +183,14 @@ dd + dt { margin-top: 1em; }
 }
 
 
+.repoicon {
+  height: 14px;
+  width: 100%;
+  padding-left: .2em;
+  display: inline !important;
+}
+
+
 .darkTheme {
   background-color: #303030;
   color: #E4E4E4;
@@ -252,4 +260,9 @@ dd + dt { margin-top: 1em; }
 .darkTheme .tag.unplayable {
   background-color: #FF786B;
   color: #444;
+}
+
+.darkTheme .repoicon svg {
+  color: white;
+  fill: currentColor;
 }
