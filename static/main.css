@@ -190,6 +190,23 @@ dd + dt { margin-top: 1em; }
   display: inline !important;
 }
 
+.feed-icon {
+  color: #f26522;
+}
+
+.feed-icon span {
+  height: 14px;
+  width: 100%;
+  display: inline !important;
+  padding: .2em;
+}
+
+.feed-icon:hover {
+  border-bottom: 0;
+  background-color: #f26522;
+  color: white;
+}
+
 
 .darkTheme {
   background-color: #303030;
