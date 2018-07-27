@@ -165,17 +165,29 @@ def parse_items(site, item, key):
         getattr(site, key).append((names(item), meta, map(parse_fn, item[key])))
 
 
-def show_validation_errors(data, errors):
+def show_error(game_name, error_str):
+    print('\033[91m' + '  ' + game_name.encode('utf-8') + '\033[0m')
+    print('    ' + error_str)
+
+
+def show_errors(errors):
     print('\n')
     for error in errors:
+        show_error(error["name"], error["error"])
+    print('\n  ' + str(len(errors)) + ' errors\n')
+    sys.exit(1)
+
+
+def show_validation_errors(data, validation_errors):
+    errors = []
+    for error in validation_errors:
         path = error.path.split('/')
         game = data[int(path[1])]
         name = game_name(game)
 
-        print('\033[91m' + '  ' + name.encode('utf-8') + '\033[0m')
-        print('    ' + error.__repr__())
-    print('\n  ' + str(len(errors)) + ' errors\n')
-    sys.exit(1)
+        errors.append({"name": name, "error": error.__repr__()})
+
+    show_errors(errors)
 
 
 def parse_data(site):
@@ -219,6 +231,40 @@ def parse_data(site):
             show_validation_errors(clones, core.errors)
         else:
             raise error
+
+
+    originals_map = {}
+    for item in originals:
+        for name in names(item):
+            if type(name) not in [list, tuple]:
+                name = [name]
+
+            for subname in name:
+                originals_map[subname] = item
+
+    errors = []
+    for clone in clones:
+        clone_originals = []
+
+        if 'remakes' in clone:
+            clone_originals = clone['remakes']
+        elif 'clones' in clone:
+            clone_originals = clone['clones']
+        else:
+            show_errors([{
+                "name": clone["name"],
+                "error": "Unable to find 'remakes' or 'clones' in game"
+            }])
+
+        for original in clone_originals:
+            if original not in originals_map:
+                errors.append({
+                    "name": clone["name"],
+                    "error": "Original game '%s' not found" % original
+                })
+
+    if len(errors) > 0:
+        show_errors(errors)
 
     for item in originals:
         parse_global_tags(site, item.get('meta', {}), 'genre')
