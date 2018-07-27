@@ -190,6 +190,17 @@ dd + dt { margin-top: 1em; }
   display: inline !important;
 }
 
+.feed-icon {
+  color: #f26522;
+}
+
+.feed-icon span {
+  height: 14px;
+  width: 100%;
+  display: inline !important;
+  padding: .2em;
+}
+
 
 .darkTheme {
   background-color: #303030;
@@ -265,4 +276,8 @@ dd + dt { margin-top: 1em; }
 .darkTheme .repoicon svg {
   color: white;
   fill: currentColor;
+}
+
+.darkTheme .feed-icon {
+  color: white;
 }
