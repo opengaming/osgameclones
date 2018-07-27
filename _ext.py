@@ -253,19 +253,13 @@ def parse_data(site):
         show_errors(errors)
 
     for clone in clones:
-        clone_originals = []
-
-        if 'remakes' in clone:
-            clone_originals = clone['remakes']
-        elif 'clones' in clone:
-            clone_originals = clone['clones']
-        else:
+        if 'originals' not in clone:
             show_errors([{
                 "name": clone["name"],
                 "error": "Unable to find 'remakes' or 'clones' in game"
             }])
 
-        for original in clone_originals:
+        for original in clone['originals']:
             if original not in originals_map:
                 errors.append({
                     "name": clone["name"],
