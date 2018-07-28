@@ -232,17 +232,23 @@ def parse_data(site):
         else:
             raise error
 
-
-    originals_map = {}
-    for item in originals:
-        for name in names(item):
-            if type(name) not in [list, tuple]:
-                name = [name]
-
-            for subname in name:
-                originals_map[subname] = item
-
     errors = []
+    originals_map = {}
+
+    for item in originals:
+        name = game_name(item)
+
+        if name in originals_map:
+            errors.append({
+                "name": name,
+                "error": "Duplicate original game '%s'" % name
+            })
+
+        originals_map[name] = item
+
+    if len(errors) > 0:
+        show_errors(errors)
+
     for clone in clones:
         clone_originals = []
 
