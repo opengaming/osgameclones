@@ -1,185 +1,265 @@
-
 - name: 'X-Force: Fight For Destiny'
+  framework: Kylix
+  images:
+  - https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg
+  - https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg
+  lang: Delphi
+  license:
+  - GPL2
+  development: sporadic
+  originals:
+  - X-COM Series
+  repo: svn://svn.code.sf.net/p/xforceffd/code/trunk
+  type: clone
   updated: 2015-04-11
   url: http://www.xforce-online.de/
-  repo: svn://svn.code.sf.net/p/xforceffd/code/trunk
-  development: sporadic
-  lang: Delphi
-  framework: Kylix
-  license: [GPL2]
-  images: ['https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg', 'https://a.fsdn.com/con/app/proj/xforceffd/screenshots/33763.jpg']
-  clones: [X-COM Series]
 
 - name: X-Moto
-  repo: https://svn.tuxfamily.org/viewvc.cgi/xmoto_xmoto/
-  url: http://xmoto.tuxfamily.org/
-  status: playable
-  development: active
+  images:
+  - http://wiki.xmoto.tuxfamily.org/images/d/d8/Screenshot0018.png
+  - http://wiki.xmoto.tuxfamily.org/images/0/04/Screenshot0005.png
+  - http://wiki.xmoto.tuxfamily.org/images/7/7f/Screenshot0036.png
   lang: C++
-  license: [GPL2]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Elasto Mania
+  repo: https://svn.tuxfamily.org/viewvc.cgi/xmoto_xmoto/
+  status: playable
+  type: remake
   updated: 2014-06-16
-  images: ['http://wiki.xmoto.tuxfamily.org/images/d/d8/Screenshot0018.png', 'http://wiki.xmoto.tuxfamily.org/images/0/04/Screenshot0005.png',
-    'http://wiki.xmoto.tuxfamily.org/images/7/7f/Screenshot0036.png']
-  remakes: [Elasto Mania]
+  url: http://xmoto.tuxfamily.org/
 
 - name: XArchon
+  images:
+  - http://xarchon.seul.org/img/snap-1.gif
+  - http://xarchon.seul.org/img/snap-2.gif
+  lang:
+  - C
+  - C++
+  license:
+  - GPL3
+  development: halted
+  originals:
+  - 'Archon: The Light and the Dark'
+  repo: http://xarchon.seul.org/xarchon-0.50.tar.gz
+  type: remake
   updated: 2015-05-03
   url: http://xarchon.seul.org/
-  lang: [C, C++]
-  development: halted
-  license: [GPL3]
-  repo: http://xarchon.seul.org/xarchon-0.50.tar.gz
-  images: ['http://xarchon.seul.org/img/snap-1.gif', 'http://xarchon.seul.org/img/snap-2.gif']
-  remakes: ['Archon: The Light and the Dark']
 
 - name: xBaK
-  repo: https://sourceforge.net/projects/xbak/files/xbak/
-  url: http://xbak.sourceforge.net/
-  status: playable
+  framework:
+  - SDL
+  images:
+  - http://a.fsdn.com/con/app/proj/xbak/screenshots/126405.jpg
+  - http://a.fsdn.com/con/app/proj/xbak/screenshots/62665.jpg
+  - http://a.fsdn.com/con/app/proj/xbak/screenshots/71372.jpg
+  lang:
+  - C++
+  license:
+  - GPL3
   development: halted
+  originals:
+  - Betrayal at Krondor
+  repo: https://sourceforge.net/projects/xbak/files/xbak/
+  status: playable
+  type: remake
   updated: 2014-08-15
-  lang: [C++]
-  framework: [SDL]
-  license: [GPL3]
-  images: ['http://a.fsdn.com/con/app/proj/xbak/screenshots/126405.jpg', 'http://a.fsdn.com/con/app/proj/xbak/screenshots/62665.jpg',
-    'http://a.fsdn.com/con/app/proj/xbak/screenshots/71372.jpg']
-  remakes: [Betrayal at Krondor]
+  url: http://xbak.sourceforge.net/
 
 - name: Xenowar
-  url: http://xenowar.net/
-  status: playable
-  development: halted
+  images:
+  - http://xenowar.net/images/cap00.png
+  - http://xenowar.net/images/cap01.png
+  - http://xenowar.net/images/cap02.png
+  - http://xenowar.net/images/cap03.png
+  - http://xenowar.net/images/cap04.png
+  - http://xenowar.net/images/cap05.png
   lang: C++
+  development: halted
+  originals:
+  - X-COM Series
   repo: https://github.com/leethomason/unflobtactical
+  status: playable
+  type: clone
   updated: 2014-11-26
-  images: ['http://xenowar.net/images/cap00.png', 'http://xenowar.net/images/cap01.png',
-    'http://xenowar.net/images/cap02.png', 'http://xenowar.net/images/cap03.png',
-    'http://xenowar.net/images/cap04.png', 'http://xenowar.net/images/cap05.png']
-  clones: [X-COM Series]
+  url: http://xenowar.net/
 
 - name: xit
-  updated: 2015-05-18
-  repo: https://github.com/qfel13/xit
-  development: halted
   lang: JavaScript
-  remakes: [X-It]
+  development: halted
+  originals:
+  - X-It
+  repo: https://github.com/qfel13/xit
+  type: remake
+  updated: 2015-05-18
 
 - name: XL Engine
-  url: http://xlengine.com
-  repo: https://github.com/luciusDXL/XL-Engine
-  development: sporadic
+  images:
+  - http://xlengine.com/wp-content/uploads/2016/02/XLEngine_UI_3_sm.png
+  - http://xlengine.com/wp-content/uploads/2016/02/DaggerfallSoft1_sm.png
+  - http://xlengine.com/wp-content/uploads/2016/02/DaggerfallSoft2_sm.png
+  - https://darkxl.files.wordpress.com/2010/12/dxl_b9_4d11d6f6.png
+  - https://darkxl.files.wordpress.com/2010/12/dxl_bloodps_11.png
+  - http://xlengine.com/wp-content/uploads/2011/09/OutlawsSprites2.png
+  - https://darkxl.files.wordpress.com/2009/08/dxl_harkov1.jpg
+  - https://darkxl.files.wordpress.com/2009/09/dxl_tarsalus9.jpg
   lang: C++
+  development: sporadic
+  originals:
+  - Dark Forces
+  repo: https://github.com/luciusDXL/XL-Engine
+  type: remake
   updated: 2017-04-20
-  images: ['http://xlengine.com/wp-content/uploads/2016/02/XLEngine_UI_3_sm.png',
-    'http://xlengine.com/wp-content/uploads/2016/02/DaggerfallSoft1_sm.png', 'http://xlengine.com/wp-content/uploads/2016/02/DaggerfallSoft2_sm.png',
-    'https://darkxl.files.wordpress.com/2010/12/dxl_b9_4d11d6f6.png', 'https://darkxl.files.wordpress.com/2010/12/dxl_bloodps_11.png',
-    'http://xlengine.com/wp-content/uploads/2011/09/OutlawsSprites2.png', 'https://darkxl.files.wordpress.com/2009/08/dxl_harkov1.jpg',
-    'https://darkxl.files.wordpress.com/2009/09/dxl_tarsalus9.jpg']
-  remakes: [Dark Forces]
+  url: http://xlengine.com
 
 - name: XMage
-  repo: https://github.com/magefree/mage
-  url: http://xmage.de/
+  lang:
+  - Java
   development: very active
+  originals:
+  - 'Magic: The Gathering Online'
+  repo: https://github.com/magefree/mage
   status: playable
-  lang: [Java]
-  clones: ['Magic: The Gathering Online']
+  type: clone
+  url: http://xmage.de/
 
 - name: Xonotic
-  url: http://www.xonotic.org/
-  status: playable
-  development: active
+  images:
+  - http://www.xonotic.org/m/uploads/2012/07/frontpage_005.jpg
+  - http://www.xonotic.org/m/uploads/2012/07/frontpage_008.jpg
+  - http://www.xonotic.org/m/uploads/2012/07/frontpage_013.jpg
   lang: C
+  development: active
+  originals:
+  - Nexuiz
   repo: http://git.xonotic.org/?p=xonotic/xonotic.git;a=summary;js=1
+  status: playable
+  type: clone
   updated: 2013-09-20
-  images: ['http://www.xonotic.org/m/uploads/2012/07/frontpage_005.jpg', 'http://www.xonotic.org/m/uploads/2012/07/frontpage_008.jpg',
-    'http://www.xonotic.org/m/uploads/2012/07/frontpage_013.jpg']
-  video: {youtube: Io920ID423A}
-  clones: [Nexuiz]
+  url: http://www.xonotic.org/
+  video:
+    youtube: Io920ID423A
 
 - name: XorCurses
-  url: http://jwm-art.net/?p=XorCurses
-  repo: https://github.com/jwm-art-net/XorCurses
+  images:
+  - http://jwm-art.net/art/image/xorcurses-0.0.8-lvl9-newschool-xfceterm.png
+  - http://jwm-art.net/art/image/xorcurses-0.0.8-menu-xterm.png
   development: complete
+  originals:
+  - XOR
+  repo: https://github.com/jwm-art-net/XorCurses
+  type: clone
   updated: 2013-06-06
-  images: ['http://jwm-art.net/art/image/xorcurses-0.0.8-lvl9-newschool-xfceterm.png',
-    'http://jwm-art.net/art/image/xorcurses-0.0.8-menu-xterm.png']
-  clones: [XOR]
+  url: http://jwm-art.net/?p=XorCurses
 
 - name: xoreos
-  url: https://xoreos.org/
+  development: active
+  framework:
+  - OpenGL
+  - SDL2
+  images:
+  - https://xoreos.org/images/NWN_20130528T054618.png
+  lang: C++
+  license:
+  - GPL3
+  content: commercial
+  originals:
+  - Neverwinter Nights
   repo: https://github.com/xoreos/xoreos
   status: unplayable
-  development: active
-  lang: C++
-  content: commercial
-  license: [GPL3]
-  framework: [OpenGL, SDL2]
+  type: remake
   updated: 2016-10-14
-  images: ['https://xoreos.org/images/NWN_20130528T054618.png']
-  video: {youtube: _EZRvDIB7wI}
-  remakes: [Neverwinter Nights]
+  url: https://xoreos.org/
+  video:
+    youtube: _EZRvDIB7wI
 
 - name: XorGramana
-  url: http://jwm-art.net/XorGramana/
-  repo: http://www.jwm-art.net/XorGramana/XorGramana-0.0.8.tar.bz2
   development: complete
+  originals:
+  - XOR
+  repo: http://www.jwm-art.net/XorGramana/XorGramana-0.0.8.tar.bz2
+  type: clone
   updated: 2013-06-06
-  clones: [XOR]
+  url: http://jwm-art.net/XorGramana/
 
 - name: XPilot NG
-  url: http://xpilot.sourceforge.net/
-  repo: http://xpilot.cvs.sourceforge.net/viewvc/xpilot/
-  updated: 2015-04-06
-  development: halted
+  images:
+  - http://xpilot.sourceforge.net/shots/polybloods1.png
+  - http://xpilot.sourceforge.net/shots/xpilot_sdl.png
+  - http://xpilot.sourceforge.net/shots/fishtank.png
+  - http://xpilot.sourceforge.net/shots/dragon.png
+  - http://xpilot.sourceforge.net/shots/spaceball.png
   lang: C
-  license: [GPL2]
-  images: ['http://xpilot.sourceforge.net/shots/polybloods1.png', 'http://xpilot.sourceforge.net/shots/xpilot_sdl.png',
-    'http://xpilot.sourceforge.net/shots/fishtank.png', 'http://xpilot.sourceforge.net/shots/dragon.png',
-    'http://xpilot.sourceforge.net/shots/spaceball.png']
-  remakes: [XPilot]
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - XPilot
+  repo: http://xpilot.cvs.sourceforge.net/viewvc/xpilot/
+  type: remake
+  updated: 2015-04-06
+  url: http://xpilot.sourceforge.net/
 
 - name: XQuest 2
+  images:
+  - http://www.swallowtail.org/xquest/xquest1.gif
+  - http://www.swallowtail.org/xquest/xquest2.gif
+  - http://www.swallowtail.org/xquest/xquest3.gif
+  lang: Pascal
+  license:
+  - Custom
+  originals:
+  - XQuest
+  repo: http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz
+  type: remake
   updated: 2015-07-11
   url: http://www.swallowtail.org/xquest/
-  repo: http://www.swallowtail.org/xquest/xquest_1.3_src.tar.gz
-  lang: Pascal
-  license: [Custom]
-  images: ['http://www.swallowtail.org/xquest/xquest1.gif', 'http://www.swallowtail.org/xquest/xquest2.gif',
-    'http://www.swallowtail.org/xquest/xquest3.gif']
-  remakes: [XQuest]
 
 - name: xrick
-  url: http://www.bigorno.net/xrick
-  status: playable
-  development: halted
   lang: C
+  development: halted
+  originals:
+  - Rick Dangerous
+  status: playable
+  type: remake
   updated: 2014-01-12
-  remakes: [Rick Dangerous]
+  url: http://www.bigorno.net/xrick
 
 - name: XScavenger
-  url: https://www.linuxmotors.com/scavenger/index.html
-  status: playable
-  development: halted
+  images:
+  - https://www.linuxmotors.com/scavenger/scav.gif
   lang: C
+  development: halted
+  originals:
+  - Lode Runner
+  status: playable
+  type: remake
   updated: 2017-10-20
-  images: ['https://www.linuxmotors.com/scavenger/scav.gif']
-  remakes: [Lode Runner]
+  url: https://www.linuxmotors.com/scavenger/index.html
 
 - name: XSwing Plus
-  updated: 2015-06-24
-  repo: https://sourceforge.net/p/xswingplus/code/HEAD/tree/
-  url: http://xswing.net/
-  development: sporadic
   lang: Java
-  license: [GPL3]
-  remakes: [Swing]
+  license:
+  - GPL3
+  development: sporadic
+  originals:
+  - Swing
+  repo: https://sourceforge.net/p/xswingplus/code/HEAD/tree/
+  type: remake
+  updated: 2015-06-24
+  url: http://xswing.net/
 
 - name: xu4
-  url: http://xu4.sourceforge.net/
-  repo: http://sourceforge.net/projects/xu4/develop
-  development: active
+  images:
+  - http://xu4.sourceforge.net/images/intro1.png
+  - http://xu4.sourceforge.net/images/forest.png
+  - http://xu4.sourceforge.net/images/codex.png
   lang: C++
-  images: ['http://xu4.sourceforge.net/images/intro1.png', 'http://xu4.sourceforge.net/images/forest.png',
-    'http://xu4.sourceforge.net/images/codex.png']
-  remakes: [Ultima IV]
+  development: active
+  originals:
+  - Ultima IV
+  repo: http://sourceforge.net/projects/xu4/develop
+  type: remake
+  url: http://xu4.sourceforge.net/

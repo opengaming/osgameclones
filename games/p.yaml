@@ -1,373 +1,524 @@
-
 - name: pacman
-  updated: 2015-05-19
-  repo: https://github.com/daleharvey/pacman
+  lang: JavaScript
+  license:
+  - Custom
   development: halted
-  lang: JavaScript
-  license: [Custom]
-  remakes: [Pac-Man]
-
-- name: pacman
-  url: http://harto.github.io/pacman/
-  repo: https://github.com/harto/pacman
+  originals:
+  - Pac-Man
+  repo: https://github.com/daleharvey/pacman
+  type: remake
   updated: 2015-05-19
-  development: sporadic
-  framework: HTML5
-  remakes: [Pac-Man]
 
 - name: pacman
-  updated: 2015-05-20
-  repo: https://github.com/snozza/pacman
-  url: http://hacman.herokuapp.com/
-  development: active
+  framework: HTML5
+  development: sporadic
+  originals:
+  - Pac-Man
+  repo: https://github.com/harto/pacman
+  type: remake
+  updated: 2015-05-19
+  url: http://harto.github.io/pacman/
+
+- name: pacman
   framework: HTML5
   lang: JavaScript
-  remakes: [Pac-Man]
+  development: active
+  originals:
+  - Pac-Man
+  repo: https://github.com/snozza/pacman
+  type: remake
+  updated: 2015-05-20
+  url: http://hacman.herokuapp.com/
 
 - name: pacman-canvas
-  repo: https://github.com/platzhersh/pacman-canvas
-  url: http://pacman.platzh1rsch.ch/
-  development: active
   framework: HTML5
-  license: [CC-BY-SA]
+  images:
+  - http://pacman.platzh1rsch.ch/img/instructions/instructions_scatter.PNG
+  - http://pacman.platzh1rsch.ch/img/instructions/instructions_chase.PNG
+  - http://pacman.platzh1rsch.ch/img/instructions/instructions_powerpill.PNG
+  license:
+  - CC-BY-SA
+  development: active
+  originals:
+  - Pac-Man
+  repo: https://github.com/platzhersh/pacman-canvas
+  type: remake
   updated: 2015-05-19
-  images: ['http://pacman.platzh1rsch.ch/img/instructions/instructions_scatter.PNG',
-    'http://pacman.platzh1rsch.ch/img/instructions/instructions_chase.PNG', 'http://pacman.platzh1rsch.ch/img/instructions/instructions_powerpill.PNG']
-  remakes: [Pac-Man]
+  url: http://pacman.platzh1rsch.ch/
 
 - name: Panel Attack
-  url: https://github.com/sharpobject/panel-attack
-  repo: https://github.com/sharpobject/panel-attack
   info: basic networking support
-  status: playable
-  development: active
   lang: Lua
+  development: active
+  originals:
+  - Tetris Attack
+  repo: https://github.com/sharpobject/panel-attack
+  status: playable
+  type: remake
   updated: 2013-05-27
-  remakes: [Tetris Attack]
+  url: https://github.com/sharpobject/panel-attack
 
 - name: Pang Zero
-  url: http://apocalypse.rulez.org/pangzero
-  repo: http://pangzero.cvs.sourceforge.net/pangzero/pangzero/
-  updated: 2015-04-18
-  development: halted
+  images:
+  - http://apocalypse.rulez.org/kozosfiles/upipang11/version_1.0.jpg
   lang: Perl
-  license: [GPL2]
-  images: ['http://apocalypse.rulez.org/kozosfiles/upipang11/version_1.0.jpg']
-  remakes: [Buster Bros]
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Buster Bros
+  repo: http://pangzero.cvs.sourceforge.net/pangzero/pangzero/
+  type: remake
+  updated: 2015-04-18
+  url: http://apocalypse.rulez.org/pangzero
 
 - name: Paratrooper
+  images:
+  - http://pygame.org/shots/706.jpg
+  lang: Python
+  development: halted
+  originals:
+  - Paratrooper
+  repo: http://www.onderstekop.nl/coding/24_Paratrooper_1.2.3.zip
+  type: remake
   updated: 2015-04-11
   url: http://pygame.org/project-Paratrooper-706-.html
-  repo: http://www.onderstekop.nl/coding/24_Paratrooper_1.2.3.zip
-  development: halted
-  lang: Python
-  images: ['http://pygame.org/shots/706.jpg']
-  remakes: [Paratrooper]
 
 - name: parpg
+  images:
+  - http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg
+  lang:
+  - Python
+  - C++
+  license:
+  - GPL
+  development: halted
+  originals:
+  - Fallout 2
+  repo: http://parpg-trac.cvsdude.com/parpg/browser
+  type: remake
   updated: 2016-02-08
   url: http://blog.parpg.net/
-  repo: http://parpg-trac.cvsdude.com/parpg/browser
-  development: halted
-  lang: [Python, C++]
-  license: [GPL]
-  images: ['http://a.fsdn.com/con/app/proj/parpg/screenshots/286275.jpg']
-  remakes: [Fallout 2]
 
 - name: Pathological
+  images:
+  - http://pathological.sourceforge.net/screenshots/intro.png
+  - http://pathological.sourceforge.net/screenshots/theabyss.png
+  - http://pathological.sourceforge.net/screenshots/ketchupandmustard.png
+  - http://pathological.sourceforge.net/screenshots/wildberries.png
+  - http://pathological.sourceforge.net/screenshots/triggerpractice.png
+  lang: Python
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Log!cal
+  repo: http://pathological.cvs.sourceforge.net/viewvc/pathological/
+  type: remake
   updated: 2015-04-16
   url: http://pathological.sourceforge.net/
-  development: halted
-  lang: Python
-  license: [GPL2]
-  repo: http://pathological.cvs.sourceforge.net/viewvc/pathological/
-  images: ['http://pathological.sourceforge.net/screenshots/intro.png', 'http://pathological.sourceforge.net/screenshots/theabyss.png',
-    'http://pathological.sourceforge.net/screenshots/ketchupandmustard.png', 'http://pathological.sourceforge.net/screenshots/wildberries.png',
-    'http://pathological.sourceforge.net/screenshots/triggerpractice.png']
-  remakes: [Log!cal]
 
 - name: Pendomotion
-  updated: 2015-07-14
-  repo: https://github.com/Pafycio/Pendomotion
-  development: active
   lang: Python
-  remakes: [Locomotion (Amiga 1992)]
+  development: active
+  originals:
+  - Locomotion (Amiga 1992)
+  repo: https://github.com/Pafycio/Pendomotion
+  type: remake
+  updated: 2015-07-14
 
 - name: Pentagram
-  url: http://pentagram.sourceforge.net/
-  repo: https://github.com/pentagram-u8/pentagram
-  development: sporadic
+  images:
+  - http://pentagram.sourceforge.net/images/screenshots/pagan.png
+  - http://pentagram.sourceforge.net/images/screenshots/noremorse.png
+  - http://pentagram.sourceforge.net/images/screenshots/noregret.png
+  - http://pentagram.sourceforge.net/images/screenshots/japanese.png
   lang: C++
-  images: ['http://pentagram.sourceforge.net/images/screenshots/pagan.png', 'http://pentagram.sourceforge.net/images/screenshots/noremorse.png',
-    'http://pentagram.sourceforge.net/images/screenshots/noregret.png', 'http://pentagram.sourceforge.net/images/screenshots/japanese.png']
-  remakes: [Ultima VIII]
+  development: sporadic
+  originals:
+  - Ultima VIII
+  repo: https://github.com/pentagram-u8/pentagram
+  type: remake
+  url: http://pentagram.sourceforge.net/
 
 - name: Performous
-  url: http://performous.org/
+  lang: C++
+  development: active
+  originals:
+  - Dance Dance Revolution
+  - Guitar Hero
+  - SingStar
   repo: https://github.com/performous/performous
   status: playable
-  development: active
-  lang: C++
+  type: clone
   updated: 2014-09-19
-  video: {youtube: soYIbsVmcyU}
-  clones: [Guitar Hero, SingStar, Dance Dance Revolution]
+  url: http://performous.org/
+  video:
+    youtube: soYIbsVmcyU
 
 - name: Phantasy
-  updated: 2015-05-28
-  repo: https://github.com/rafael-esper/Phantasy
-  development: halted
   lang: Java
-  remakes: [Phantasy]
+  development: halted
+  originals:
+  - Phantasy
+  repo: https://github.com/rafael-esper/Phantasy
+  type: remake
+  updated: 2015-05-28
 
 - name: Phavon
+  images:
+  - http://phavon.sourceforge.net/snap001.jpg
+  lang: C
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Xenon 2 Megablast
+  repo: http://phavon.cvs.sourceforge.net/viewvc/phavon/
+  type: remake
   updated: 2015-04-15
   url: http://phavon.sourceforge.net/
-  repo: http://phavon.cvs.sourceforge.net/viewvc/phavon/
-  development: halted
-  lang: C
-  license: [GPL2]
-  images: ['http://phavon.sourceforge.net/snap001.jpg']
-  remakes: [Xenon 2 Megablast]
 
 - name: Phoenix
-  repo: https://github.com/joulupunikki/Phoenix
-  updated: 2015-05-29
-  development: active
   lang: Java
-  license: [As-is]
-  remakes: [Emperor of the Fading Suns]
+  license:
+  - As-is
+  development: active
+  originals:
+  - Emperor of the Fading Suns
+  repo: https://github.com/joulupunikki/Phoenix
+  type: remake
+  updated: 2015-05-29
 
 - name: Pingus
-  repo: https://github.com/Pingus/pingus
-  url: http://pingus.seul.org/welcome.html
   development: sporadic
-  status: playable
-  lang: C++
   framework: SDL2, boost (partial)
-  license: [GPL3]
+  images:
+  - http://pingus.seul.org/images/screen_0.7.0-3.jpg
+  - http://pingus.seul.org/images/screen_0.7.0-4.jpg
+  lang: C++
+  license:
+  - GPL3
   content: open
+  originals:
+  - Lemmings
+  repo: https://github.com/Pingus/pingus
+  status: playable
+  type: clone
   updated: 2017-10-13
-  images: ['http://pingus.seul.org/images/screen_0.7.0-3.jpg', 'http://pingus.seul.org/images/screen_0.7.0-4.jpg']
-  clones: [Lemmings]
+  url: http://pingus.seul.org/welcome.html
 
 - name: Pioneer
-  url: http://pioneerspacesim.net/
-  repo: https://github.com/pioneerspacesim/pioneer
-  updated: 2013-05-27
-  status: playable
+  images:
+  - http://pioneerspacesim.net/assets/ss2.png
+  - http://pioneerspacesim.net/assets/ss1.png
+  lang:
+  - C++
+  - C
+  - Lua
+  license:
+  - GPL3
   development: active
-  lang: [C++, C, Lua]
-  license: [GPL3]
-  images: ['http://pioneerspacesim.net/assets/ss2.png', 'http://pioneerspacesim.net/assets/ss1.png']
-  video: {vimeo: 78452479}
-  clones: [Elite II]
+  originals:
+  - Elite II
+  repo: https://github.com/pioneerspacesim/pioneer
+  status: playable
+  type: clone
+  updated: 2013-05-27
+  url: http://pioneerspacesim.net/
+  video:
+    vimeo: 78452479
 
 - name: Pipemania
-  updated: 2015-06-01
-  repo: https://github.com/zbiq13/Pipemania
-  development: halted
-  lang: Lua
   framework: Love3D
-  remakes: [Pipe Mania]
+  lang: Lua
+  development: halted
+  originals:
+  - Pipe Mania
+  repo: https://github.com/zbiq13/Pipemania
+  type: remake
+  updated: 2015-06-01
 
 - name: Pizza Business
-  url: http://pizza-business.sourceforge.net/
-  updated: 2015-04-03
-  repo: http://pizza-business.cvs.sourceforge.net/viewvc/pizza-business/
-  development: halted
+  images:
+  - http://pizza-business.sourceforge.net/gtk1.png
   lang: C++
-  license: [GPL2]
-  images: ['http://pizza-business.sourceforge.net/gtk1.png']
-  clones: [Pizza Tycoon]
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Pizza Tycoon
+  repo: http://pizza-business.cvs.sourceforge.net/viewvc/pizza-business/
+  type: clone
+  updated: 2015-04-03
+  url: http://pizza-business.sourceforge.net/
 
 - name: PKMN-FX
-  repo: https://github.com/jonasdemoor/PKMN-FX
-  development: active
-  updated: 2016-05-14
-  license: [GPL3]
   lang: Java
-  remakes: ["Pok\xE9mon Mystery Dungeon"]
+  license:
+  - GPL3
+  development: active
+  originals:
+  - "Pok\xE9mon Mystery Dungeon"
+  repo: https://github.com/jonasdemoor/PKMN-FX
+  type: remake
+  updated: 2016-05-14
 
 - name: Play Freeciv!
-  url: http://play.freeciv.org/
-  development: active
   info: online browser game
-  lang: [C, Java, JavaScript]
-  license: [AGPL3]
+  lang:
+  - C
+  - Java
+  - JavaScript
+  license:
+  - AGPL3
+  development: active
+  originals:
+  - Civilization II
   repo: https://github.com/freeciv/freeciv-web
-  clones: [Civilization II]
+  type: clone
+  url: http://play.freeciv.org/
 
 - name: pq2
-  updated: 2016-06-03
-  repo: https://github.com/nbollom/pq2
-  lang: C++
   framework: ncurses
-  license: [GPL3]
+  lang: C++
+  license:
+  - GPL3
   development: active
-  remakes: [Progress Quest]
+  originals:
+  - Progress Quest
+  repo: https://github.com/nbollom/pq2
+  type: remake
+  updated: 2016-06-03
 
 - name: PrBoom+
-  url: https://sourceforge.net/projects/prboom-plus/
-  development: active
+  images:
+  - https://sourceforge.net/p/prboom-plus/screenshot/222124.jpg
   lang: C
-  license: [GPL2]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Doom
   repo: http://www.crowproductions.de/repos/prboom/branches/prboom-plus-24/prboom2/
-  images: ['https://sourceforge.net/p/prboom-plus/screenshot/222124.jpg']
-  remakes: [Doom]
+  type: remake
+  url: https://sourceforge.net/projects/prboom-plus/
 
 - name: Privateer - Gemini Gold
-  url: http://privateer.sourceforge.net/
-  development: sporadic
+  images:
+  - http://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad.png
+  - http://privateer.sourceforge.net/images/screenshot-1-approaching-planet-under-attack.png
+  - http://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png
+  - http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
   lang: C++
+  development: sporadic
+  originals:
+  - 'Wing Commander: Privateer'
   repo: http://privateer.svn.sourceforge.net/viewvc/privateer/
-  images: ['http://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad.png',
-    'http://privateer.sourceforge.net/images/screenshot-1-approaching-planet-under-attack.png',
-    'http://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png',
-    'http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png']
-  remakes: ['Wing Commander: Privateer']
+  type: remake
+  url: http://privateer.sourceforge.net/
 
 - name: Project Carrot
-  url: https://carrot.soulweaver.fi/
+  framework: QT5
+  info: Needs original game data
+  lang: C++
+  license:
+  - MIT
+  development: sporadic
+  originals:
+  - Jazz Jackrabbit 2
   repo: https://github.com/soulweaver91/project-carrot
   status: semi-playable
-  development: sporadic
-  lang: C++
-  framework: QT5
-  license: [MIT]
-  info: Needs original game data
+  type: remake
   updated: 2017-11-01
-  remakes: [Jazz Jackrabbit 2]
+  url: https://carrot.soulweaver.fi/
 
 - name: Project Dollhouse
-  repo: https://github.com/Afr0Games/Project-Dollhouse
-  url: http://www.afr0games.com
+  framework:
+  - Monogame
+  lang:
+  - C#
+  license:
+  - MPL
   development: active
-  lang: [C#]
-  framework: [Monogame]
-  license: [MPL]
-  remakes: [The Sims Online]
+  originals:
+  - The Sims Online
+  repo: https://github.com/Afr0Games/Project-Dollhouse
+  type: remake
+  url: http://www.afr0games.com
 
 - name: 'Project: Xenocide'
-  updated: 2015-04-11
-  repo: http://xenocide.cvs.sourceforge.net/viewvc/xenocide/
-  url: https://sourceforge.net/projects/xenocide/
-  development: halted
   lang: C++
-  license: [GPL2]
-  clones: [X-COM Series]
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - X-COM Series
+  repo: http://xenocide.cvs.sourceforge.net/viewvc/xenocide/
+  type: clone
+  updated: 2015-04-11
+  url: https://sourceforge.net/projects/xenocide/
 
 - name: ProjectX
-  url: http://forsakenx.github.io/
+  images:
+  - http://forsakenx.github.io/fsplanet/images/I_ins_koth001.JPG
+  - http://forsakenx.github.io/fsplanet/images/I_ins_koth006.JPG
+  - http://forsakenx.github.io/fsplanet/images/I_ins_koth011.JPG
+  lang:
+  - C
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Forsaken
   repo: https://github.com/ForsakenX/forsaken
   status: playable
-  development: halted
-  lang: [C]
-  license: [GPL2]
+  type: remake
   updated: 2013-05-29
-  images: ['http://forsakenx.github.io/fsplanet/images/I_ins_koth001.JPG', 'http://forsakenx.github.io/fsplanet/images/I_ins_koth006.JPG',
-    'http://forsakenx.github.io/fsplanet/images/I_ins_koth011.JPG']
-  remakes: [Forsaken]
+  url: http://forsakenx.github.io/
 
 - name: ProQuake 4
+  license:
+  - GPL2
+  lang: C
+  originals:
+  - Quake
+  repo: http://quakeone.com/proquake/proquake_493_src.rar
+  type: remake
   updated: 2015-04-03
   url: http://quakeone.com/proquake/
-  repo: http://quakeone.com/proquake/proquake_493_src.rar
-  lang: C
-  license: [GPL2]
-  remakes: [Quake]
 
 - name: PseuWoW
-  repo: https://github.com/shlainn/pseuwow
-  development: halted
-  status: unplayable
-  lang: [C, C++]
-  license: [GPL2]
+  images:
+  - https://camo.githubusercontent.com/6fc54f5f0ce41476adf68c27e767e9975483cdb0/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313130323639352f3235333934332f37633465663061322d386265362d313165322d386166392d3939633063393635663631612e706e67
   info: Can only connect to MaNGOS Servers (FOSS reimplementation of World of Warcraft
     servers).
+  lang:
+  - C
+  - C++
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - World of Warcraft
+  repo: https://github.com/shlainn/pseuwow
+  status: unplayable
+  type: remake
   updated: 2016-12-08
-  images: ['https://camo.githubusercontent.com/6fc54f5f0ce41476adf68c27e767e9975483cdb0/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313130323639352f3235333934332f37633465663061322d386265362d313165322d386166392d3939633063393635663631612e706e67']
-  remakes: [World of Warcraft]
 
 - name: pucpr-ld-mario3
-  updated: 2015-06-02
-  repo: https://github.com/jvlppm/pucpr-ld-mario3
-  development: halted
   framework: Construct2
-  remakes: [Super Mario]
+  development: halted
+  originals:
+  - Super Mario
+  repo: https://github.com/jvlppm/pucpr-ld-mario3
+  type: remake
+  updated: 2015-06-02
 
 - name: pucpr-ld-parodius
-  updated: 2015-06-01
-  repo: https://github.com/jvlppm/pucpr-ld-parodius
-  development: halted
   framework: Construct
-  remakes: [Fantastic Journey]
+  development: halted
+  originals:
+  - Fantastic Journey
+  repo: https://github.com/jvlppm/pucpr-ld-parodius
+  type: remake
+  updated: 2015-06-01
 
 - name: Pushover
-  url: http://pushover.sourceforge.net/
-  status: playable
-  development: sporadic
+  images:
+  - http://pushover.sourceforge.net/images/Screenshot2.jpg
+  - http://pushover.sourceforge.net/images/Screenshot3n.jpg
+  - http://pushover.sourceforge.net/images/Screenshot4.jpg
   lang: C++
-  updated: 2013-05-29
+  development: sporadic
+  originals:
+  - Pushover
   repo: http://pushover.sourceforge.net/repos/head/
-  images: ['http://pushover.sourceforge.net/images/Screenshot2.jpg', 'http://pushover.sourceforge.net/images/Screenshot3n.jpg',
-    'http://pushover.sourceforge.net/images/Screenshot4.jpg']
-  remakes: [Pushover]
+  status: playable
+  type: remake
+  updated: 2013-05-29
+  url: http://pushover.sourceforge.net/
 
 - name: Py1945
+  lang: Python
+  license:
+  - GPL
+  development: halted
+  originals:
+  - Strikers 1945
+  repo: http://py1945game.googlecode.com/svn/trunk/
+  type: remake
   updated: 2015-04-13
   url: https://code.google.com/p/py1945game/
-  development: halted
-  lang: Python
-  license: [GPL]
-  repo: http://py1945game.googlecode.com/svn/trunk/
-  remakes: [Strikers 1945]
 
 - name: PyBreak360
-  url: http://sourceforge.net/projects/pybreak360/
-  repo: git://git.code.sf.net/p/pybreak360/code
-  updated: 2015-04-05
-  development: active
+  images:
+  - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg
+  - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360b.png
+  - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png
+  - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png
   lang: Python
-  images: ['https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg',
-    'https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360b.png', 'https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png',
-    'https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png']
-  clones: [Arkanoid]
+  development: active
+  originals:
+  - Arkanoid
+  repo: git://git.code.sf.net/p/pybreak360/code
+  type: clone
+  updated: 2015-04-05
+  url: http://sourceforge.net/projects/pybreak360/
 
 - name: pycraft
-  updated: 2015-12-29
-  repo: https://github.com/itsapi/pycraft
-  development: active
   lang: Python
-  license: [GPL2]
-  remakes: [Minecraft]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Minecraft
+  repo: https://github.com/itsapi/pycraft
+  type: remake
+  updated: 2015-12-29
 
 - name: pyskool
-  url: http://pyskool.ca/
-  repo: https://github.com/skoolkid/pyskool
-  updated: 2015-04-05
-  development: active
+  images:
+  - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-0.4.png
+  - http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool-0.4.png
+  - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze_take_too-0.4.png
+  - http://pyskool.ca/wp-content/uploads/2010/05/ezad_looks-0.4.png
+  - http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool_daze-0.4.png
+  - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-wide-0.4.png
   lang: Python
-  license: [GPL3]
-  images: ['http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-0.4.png', 'http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool-0.4.png',
-    'http://pyskool.ca/wp-content/uploads/2010/05/skool_daze_take_too-0.4.png', 'http://pyskool.ca/wp-content/uploads/2010/05/ezad_looks-0.4.png',
-    'http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool_daze-0.4.png', 'http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-wide-0.4.png']
-  remakes: [Skool Daze]
+  license:
+  - GPL3
+  development: active
+  originals:
+  - Skool Daze
+  repo: https://github.com/skoolkid/pyskool
+  type: remake
+  updated: 2015-04-05
+  url: http://pyskool.ca/
 
 - name: pyspaceinvaders
-  updated: 2015-04-11
-  repo: https://github.com/map0logo/pyspaceinvaders
-  development: halted
+  images:
+  - http://www.pygame.org/shots/1259.gif
   lang: Python
-  license: [GPL2]
-  images: ['http://www.pygame.org/shots/1259.gif']
-  remakes: [Space Invaders]
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Space Invaders
+  repo: https://github.com/map0logo/pyspaceinvaders
+  type: remake
+  updated: 2015-04-11
 
 - name: PyTouhou
-  url: http://pytouhou.linkmauve.fr/
-  repo: http://hg.linkmauve.fr/touhou
-  development: active
+  images:
+  - http://pytouhou.linkmauve.fr/screenshots/big/s1-01.png
+  - http://pytouhou.linkmauve.fr/screenshots/big/s6-06.png
+  - http://pytouhou.linkmauve.fr/screenshots/big/s7-06.png
   lang: Python
+  development: active
+  originals:
+  - Touhou
+  repo: http://hg.linkmauve.fr/touhou
+  type: remake
   updated: 2015-07-11
-  images: ['http://pytouhou.linkmauve.fr/screenshots/big/s1-01.png', 'http://pytouhou.linkmauve.fr/screenshots/big/s6-06.png',
-    'http://pytouhou.linkmauve.fr/screenshots/big/s7-06.png']
-  remakes: [Touhou]
+  url: http://pytouhou.linkmauve.fr/

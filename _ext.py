@@ -152,7 +152,8 @@ def parse_items(site, item, key):
             'framework',
             'content',
             'license',
-            'multiplayer'
+            'multiplayer',
+            'type'
         ]
 
         meta = item.get('meta', {})
@@ -162,7 +163,9 @@ def parse_items(site, item, key):
 
         for game in item[key]:
             parse_global_tags(site, game, 'lang')
-        getattr(site, key).append((names(item), meta, map(parse_fn, item[key])))
+
+        item = (names(item), meta, map(parse_fn, item[key]))
+        getattr(site, key).append(item)
 
 
 def show_error(game_name, error_str):
@@ -250,19 +253,13 @@ def parse_data(site):
         show_errors(errors)
 
     for clone in clones:
-        clone_originals = []
-
-        if 'remakes' in clone:
-            clone_originals = clone['remakes']
-        elif 'clones' in clone:
-            clone_originals = clone['clones']
-        else:
+        if 'originals' not in clone:
             show_errors([{
                 "name": clone["name"],
                 "error": "Unable to find 'remakes' or 'clones' in game"
             }])
 
-        for original in clone_originals:
+        for original in clone['originals']:
             if original not in originals_map:
                 errors.append({
                     "name": clone["name"],
@@ -277,20 +274,12 @@ def parse_data(site):
         # Recombine originals and clones
         combined = copy.deepcopy(item)
         name = game_name(combined)
-        combined_remakes = [
+
+        combined['games'] = [
             clone for clone in clones
-            if 'remakes' in clone and name in clone['remakes']
+            if name in clone['originals']
         ]
-        if len(combined_remakes) > 0:
-            combined['remakes'] = combined_remakes
-        combined_clones = [
-            clone for clone in clones
-            if 'clones' in clone and name in clone['clones']
-        ]
-        if len(combined_clones) > 0:
-            combined['clones'] = combined_clones
-        parse_items(site, combined, 'remakes')
-        parse_items(site, combined, 'clones')
+        parse_items(site, combined, 'games')
 
 
 def callback(site):

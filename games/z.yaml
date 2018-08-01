@@ -1,95 +1,130 @@
-
 - name: Z Virus
+  lang: Blitz BASIC
+  originals:
+  - Zarch
+  repo: http://www.steviegoodwin.plus.com/Z_Virus.zip
+  type: remake
   updated: 2015-10-09
   url: http://www.blitzbasic.com/Community/posts.php?topic=38995
-  repo: http://www.steviegoodwin.plus.com/Z_Virus.zip
-  lang: Blitz BASIC
-  remakes: [Zarch]
 
 - name: Z Virus V2
-  updated: 2015-10-09
-  repo: http://www.steviegoodwin.plus.com/Z_Virus_V2.zip
   lang: Blitz BASIC
-  remakes: [Zarch]
+  originals:
+  - Zarch
+  repo: http://www.steviegoodwin.plus.com/Z_Virus_V2.zip
+  type: remake
+  updated: 2015-10-09
 
 - name: Zatacka X
-  updated: 2017-10-28
-  repo: https://github.com/simenheg/zatackax/
-  development: sporadic
-  status: playable
-  lang: C
   framework: SDL
-  license: [GPL3]
+  images:
+  - https://camo.githubusercontent.com/bf7621a6846244c8f74679220aae2e66f1e5a526/687474703a2f2f666f6c6b2e75696f2e6e6f2f73696d656e6865672f7a617461636b61785f736d616c6c2e706e67
   info: Has powerups and AI.
-  images: ['https://camo.githubusercontent.com/bf7621a6846244c8f74679220aae2e66f1e5a526/687474703a2f2f666f6c6b2e75696f2e6e6f2f73696d656e6865672f7a617461636b61785f736d616c6c2e706e67']
-  remakes: ['Achtung, die Kurve!']
+  lang: C
+  license:
+  - GPL3
+  development: sporadic
+  originals:
+  - Achtung, die Kurve!
+  repo: https://github.com/simenheg/zatackax/
+  status: playable
+  type: remake
+  updated: 2017-10-28
 
 - name: Zaz
-  url: http://zaz.sourceforge.net/
-  repo: https://zaz.svn.sourceforge.net/svnroot/zaz
-  development: halted
+  images:
+  - https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg
+  - https://a.fsdn.com/con/app/proj/zaz/screenshots/229087.jpg
+  - https://a.fsdn.com/con/app/proj/zaz/screenshots/271617.jpg
   lang: C++
-  license: [GPL3]
+  license:
+  - GPL3
+  development: halted
+  originals:
+  - Zuma
+  repo: https://zaz.svn.sourceforge.net/svnroot/zaz
+  type: remake
   updated: 2015-04-14
-  images: ['https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg', 'https://a.fsdn.com/con/app/proj/zaz/screenshots/229087.jpg',
-    'https://a.fsdn.com/con/app/proj/zaz/screenshots/271617.jpg']
-  remakes: [Zuma]
-
-- name: zedragon
-  repo: https://github.com/charlierobson/zedragon
-  remakes: [Sea Dragon]
-  lang: [Assembly]
-  license: [MIT]
-  development: active
-  updated: 2017-12-12
+  url: http://zaz.sourceforge.net/
 
 - name: ZDoom
-  url: http://zdoom.org/
-  development: active
+  images:
+  - http://zdoom.org/w/images/7/7e/AltHUD1.png
+  - http://zdoom.org/w/images/c/c4/DynamicLightOptions.png
+  - http://zdoom.org/w/images/8/8a/DOOM0003.png
   lang: C
+  development: active
+  originals:
+  - Doom
   repo: http://mancubus.net/svn/zdoom/?op=log&isdir=1&
-  images: ['http://zdoom.org/w/images/7/7e/AltHUD1.png', 'http://zdoom.org/w/images/c/c4/DynamicLightOptions.png',
-    'http://zdoom.org/w/images/8/8a/DOOM0003.png']
-  remakes: [Doom]
+  type: remake
+  url: http://zdoom.org/
+
+- name: zedragon
+  lang:
+  - Assembly
+  license:
+  - MIT
+  development: active
+  originals:
+  - Sea Dragon
+  repo: https://github.com/charlierobson/zedragon
+  type: remake
+  updated: 2017-12-12
 
 - name: zombie apocalypse html5
-  development: halted
   framework: HTML5
   lang: JavaScript
+  development: halted
+  originals:
+  - Zombie Apocalypse
   repo: https://github.com/andymason/zombie-apocalypse-html5
+  type: remake
   updated: 2015-05-16
-  remakes: [Zombie Apocalypse]
 
 - name: Zoop
+  images:
+  - http://gamesoft.ca/bestgames/images/zoop_java.png
+  lang: Java
+  originals:
+  - Zoop
+  repo: http://gamesoft.ca/bestgames/zoop_src.zip
+  type: remake
   updated: 2015-05-09
   url: http://gamesoft.ca/remakes.html
-  repo: http://gamesoft.ca/bestgames/zoop_src.zip
-  lang: Java
-  images: ['http://gamesoft.ca/bestgames/images/zoop_java.png']
-  remakes: [Zoop]
 
 - name: zorkClone
-  repo: https://github.com/vatbub/zorkClone
-  updated: 2015-10-01
-  development: active
   lang: Java
-  license: [Apache]
-  remakes: [Zork]
+  license:
+  - Apache
+  development: active
+  originals:
+  - Zork
+  repo: https://github.com/vatbub/zorkClone
+  type: remake
+  updated: 2015-10-01
 
 - name: Zorkish
-  repo: https://github.com/jgardner8/Zorkish
-  updated: 2015-06-01
-  development: sporadic
   lang: C++
-  remakes: [Zork]
+  development: sporadic
+  originals:
+  - Zork
+  repo: https://github.com/jgardner8/Zorkish
+  type: remake
+  updated: 2015-06-01
 
 - name: zSILENCER
-  url: http://zsilencer.com/
-  status: playable
-  development: halted
+  images:
+  - http://zsilencer.com/ss9.png
+  - http://zsilencer.com/ss1.png
   lang: C++
-  updated: 2013-09-22
+  development: halted
+  originals:
+  - Silencer
   repo: https://github.com/zsilencer/zSILENCER/
-  images: ['http://zsilencer.com/ss9.png', 'http://zsilencer.com/ss1.png']
-  video: {youtube: mojUQUONp4M}
-  remakes: [Silencer]
+  status: playable
+  type: remake
+  updated: 2013-09-22
+  url: http://zsilencer.com/
+  video:
+    youtube: mojUQUONp4M

@@ -23,8 +23,8 @@ If you're adding a new clone/remake:
 ```yaml
 
 name:           string     # Name of clone/remake (required)
-remakes:        array      # Name reference to original game(s) that this game remakes
-clones:         array      # Name reference to original game(s) that this game clones
+type:           string     # One of: remake, clone
+originals:      array      # Name reference to original game(s) that this game remakes/clones
 repo:           string     # Link to source code
 url:            string     # Link to website
 feed:           string     # Link to RSS/Atom feed
