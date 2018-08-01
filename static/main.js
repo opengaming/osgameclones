@@ -118,7 +118,8 @@ var OSGC = window.OSGC = {};
 
   function highlightTags(tag) {
     var style = document.getElementById('tag-style');
-    var line = '[data-name=\"' + tag + '\"] { color: #ccc; background: #444; }';
+    var line = '.tag[data-name=\"' + tag + '\"] { color: #ccc; background-color: #444; }';
+    line += '.darkTheme .tag[data-name=\"' + tag + '\"] { color: #444; background-color: #ccc; }';
     style.innerHTML = tag ? line : '';
   }
 })();
