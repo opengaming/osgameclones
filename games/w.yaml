@@ -1,156 +1,214 @@
-
 - name: warcraft-remake
-  updated: 2015-05-29
-  repo: https://github.com/b3dgs/warcraft-remake
-  content: commercial
   development: active
   lang: Java
-  license: [GPL2]
-  remakes: ['Warcraft: Orcs & Humans']
+  license:
+  - GPL2
+  content: commercial
+  originals:
+  - 'Warcraft: Orcs & Humans'
+  repo: https://github.com/b3dgs/warcraft-remake
+  type: remake
+  updated: 2015-05-29
 
 - name: Wargus
-  url: http://wargus.stratagus.com/index.shtml
-  repo: https://code.launchpad.net/wargus
+  lang:
+  - C++
+  - Lua
   development: sporadic
-  lang: [C++, Lua]
+  originals:
+  - Warcraft II
+  repo: https://code.launchpad.net/wargus
+  type: remake
   updated: 2013-05-27
-  remakes: [Warcraft II]
+  url: http://wargus.stratagus.com/index.shtml
 
 - name: Wario-Land-3
-  updated: 2015-07-14
-  repo: https://github.com/NSasquatch/Wario-Land-3
-  development: active
-  lang: Python
   framework: Pygame
-  remakes: [Wario Land 3]
+  lang: Python
+  development: active
+  originals:
+  - Wario Land 3
+  repo: https://github.com/NSasquatch/Wario-Land-3
+  type: remake
+  updated: 2015-07-14
 
 - name: WarMUX
-  url: http://gna.org/projects/warmux/
-  development: sporadic
+  images:
+  - https://lgdb.org/sites/default/files/node_images/29/160.jpg
   lang: C++
+  development: sporadic
+  originals:
+  - Worms Series
   repo: http://svn.gna.org/viewcvs/warmux/
-  images: ['https://lgdb.org/sites/default/files/node_images/29/160.jpg']
-  video: {youtube: X3ZkTg-QkAo}
-  clones: [Worms Series]
+  type: clone
+  url: http://gna.org/projects/warmux/
+  video:
+    youtube: X3ZkTg-QkAo
 
 - name: Warzone 2100
-  url: http://wz2100.net/
-  development: active
+  images:
+  - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/elite-force.jpg
+  - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/artillery-and-sensors.jpeg
+  - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/new-hq-and-powergen.jpeg
+  - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
   lang: C++
+  development: active
+  originals:
+  - Warzone 2100
   repo: http://developer.wz2100.net/timeline
-  images: ['http://developer.wz2100.net/raw-attachment/wiki/Screenshots/elite-force.jpg',
-    'http://developer.wz2100.net/raw-attachment/wiki/Screenshots/artillery-and-sensors.jpeg',
-    'http://developer.wz2100.net/raw-attachment/wiki/Screenshots/new-hq-and-powergen.jpeg',
-    'http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg']
-  remakes: [Warzone 2100]
+  type: remake
+  url: http://wz2100.net/
 
 - name: WAtomic
-  url: http://watomic.sourceforge.net/
-  repo: http://sourceforge.net/projects/watomic/files/watomic/1.2.3/WAtomic_src_1_2_3_257.zip/download
-  updated: 2015-04-10
-  development: halted
-  lang: Delphi
   framework: Kylix
-  license: [GPL2]
-  remakes: [Atomix]
+  lang: Delphi
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Atomix
+  repo: http://sourceforge.net/projects/watomic/files/watomic/1.2.3/WAtomic_src_1_2_3_257.zip/download
+  type: remake
+  updated: 2015-04-10
+  url: http://watomic.sourceforge.net/
 
 - name: wbta
-  repo: https://github.com/awlzac/wbta
-  development: active
-  lang: Java
   info: Android
+  lang: Java
+  development: active
+  originals:
+  - Tempest
+  repo: https://github.com/awlzac/wbta
+  type: remake
   updated: 2015-04-12
-  remakes: [Tempest]
 
 - name: WebFun
-  repo: https://github.com/cyco/WebFun
   development: active
+  images:
+  - https://raw.githubusercontent.com/cyco/WebFun/master/docs/screenshots/game.png
+  - https://raw.githubusercontent.com/cyco/WebFun/master/docs/screenshots/in-game-debug.png
   lang: JavaScript
-  updated: 2018-04-10
-  status: semi-playable
   content: commercial
-  images: ['https://raw.githubusercontent.com/cyco/WebFun/master/docs/screenshots/game.png',
-    'https://raw.githubusercontent.com/cyco/WebFun/master/docs/screenshots/in-game-debug.png']
-  remakes: ['Star Wars: Yoda Stories']
+  originals:
+  - 'Star Wars: Yoda Stories'
+  repo: https://github.com/cyco/WebFun
+  status: semi-playable
+  type: remake
+  updated: 2018-04-10
 
 - name: Widelands
-  url: http://wl.widelands.org/
+  images:
+  - http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Completed%20barbarian%20workers.jpg
+  - http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Atlantean%20worker%20animation.jpg
+  - http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/New%20Multiplayer%20UI.jpg
+  - http://wl.widelands.org/wlmedia/wlscreens/screens/Build%2016/Graphic%20improvements.png
+  lang:
+  - C++
+  - Lua
+  - Python
   development: active
-  lang: [C++, Lua, Python]
+  originals:
+  - The Settlers
   repo: https://launchpad.net/widelands
-  images: ['http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Completed%20barbarian%20workers.jpg',
-    'http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Atlantean%20worker%20animation.jpg',
-    'http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/New%20Multiplayer%20UI.jpg',
-    'http://wl.widelands.org/wlmedia/wlscreens/screens/Build%2016/Graphic%20improvements.png']
-  clones: [The Settlers]
+  type: clone
+  url: http://wl.widelands.org/
 
 - name: Willow-Game-Remake
-  updated: 2015-06-28
-  repo: https://github.com/Kwintenvdb/Willow-Game-Remake
-  development: halted
   lang: C++
-  remakes: [Willow]
+  development: halted
+  originals:
+  - Willow
+  repo: https://github.com/Kwintenvdb/Willow-Game-Remake
+  type: remake
+  updated: 2015-06-28
 
 - name: WinWar
-  updated: 2017-02-07
-  repo: https://github.com/CAMongrel/WinWar
-  url: http://winwar.sourceforge.net/
-  content: commercial
   development: halted
+  images:
+  - https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt1.jpg/1
+  - https://a.fsdn.com/con/app/proj/winwar/screenshots/orc1linux.jpg/1
+  - https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt2.jpg/1
+  - https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt3.jpg/1
   lang: C#
-  images: ['https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt1.jpg/1', 'https://a.fsdn.com/con/app/proj/winwar/screenshots/orc1linux.jpg/1',
-    'https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt2.jpg/1', 'https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt3.jpg/1']
-  remakes: ['Warcraft: Orcs & Humans']
+  content: commercial
+  originals:
+  - 'Warcraft: Orcs & Humans'
+  repo: https://github.com/CAMongrel/WinWar
+  type: remake
+  updated: 2017-02-07
+  url: http://winwar.sourceforge.net/
 
 - name: Witch Blast
+  development: halted
+  framework: SFML
+  images:
+  - http://img11.hostingpics.net/pics/927609screenshot20151029203852.png
+  - http://img11.hostingpics.net/pics/267990screenshot20151029113142.png
+  lang: C++
+  license:
+  - GPL
+  - CC-BY-NC-SA
+  content: open
+  originals:
+  - The Binding of Isaac
   repo: https://github.com/Cirrus-Minor/witchblast
   status: playable
-  development: halted
-  lang: C++
-  framework: SFML
-  license: [GPL, CC-BY-NC-SA]
-  content: open
+  type: remake
   updated: 2018-03-19
-  images: ['http://img11.hostingpics.net/pics/927609screenshot20151029203852.png',
-    'http://img11.hostingpics.net/pics/267990screenshot20151029113142.png']
-  video: {youtube: FsHqu0JpP_k}
-  remakes: [The Binding of Isaac]
+  video:
+    youtube: FsHqu0JpP_k
 
 - name: Wizardry Legacy
+  images:
+  - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect.png
+  - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
+  - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
+  lang: C++
+  license:
+  - GPL3
+  development: active
+  originals:
+  - Wizardry
+  repo: http://wl.lariennalibrary.com/uploads/Main/Download/Wizardrylegacy_05_source.zip
+  type: remake
   updated: 2015-04-11
   url: http://wl.lariennalibrary.com/
-  repo: http://wl.lariennalibrary.com/uploads/Main/Download/Wizardrylegacy_05_source.zip
-  development: active
-  lang: C++
-  license: [GPL3]
-  images: ['http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect.png',
-    'http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png', 'http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png']
-  remakes: [Wizardry]
 
 - name: Wizznic!
-  url: http://dustedgames.blogspot.com.au/p/wizznic.html
-  status: playable
-  development: active
+  images:
+  - http://a.fsdn.com/con/app/proj/wizznic/screenshots/lvl0.png
+  - http://a.fsdn.com/con/app/proj/wizznic/screenshots/271261.jpg
+  - http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png
   lang: C
-  updated: 2015-03-06
+  development: active
+  originals:
+  - Puzznic / Brix
   repo: https://github.com/DusteDdk/Wizznic
-  images: ['http://a.fsdn.com/con/app/proj/wizznic/screenshots/lvl0.png', 'http://a.fsdn.com/con/app/proj/wizznic/screenshots/271261.jpg',
-    'http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png']
-  remakes: [Puzznic / Brix]
+  status: playable
+  type: remake
+  updated: 2015-03-06
+  url: http://dustedgames.blogspot.com.au/p/wizznic.html
 
 - name: wkbre
-  updated: 2018-06-04
-  repo: https://github.com/AdrienTD/wkbre
-  license: [GPL3]
   lang: C++
+  license:
+  - GPL3
   development: active
-  remakes: [Warrior Kings]
+  originals:
+  - Warrior Kings
+  repo: https://github.com/AdrienTD/wkbre
+  type: remake
+  updated: 2018-06-04
 
 - name: WWW
-  repo: https://github.com/alexdantas/www
-  development: halted
   framework: HTML5
   lang: JavaScript
-  license: [GPL3]
+  license:
+  - GPL3
+  development: halted
+  originals:
+  - VVVVVV
+  repo: https://github.com/alexdantas/www
+  type: clone
   updated: 2015-07-02
-  clones: [VVVVVV]
+

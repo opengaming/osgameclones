@@ -1,471 +1,676 @@
-- name: Taisei Project
-  url: https://taisei-project.org/
-  repo: https://github.com/taisei-project/taisei
-  feed: https://taisei-project.org/news.atom
-  status: playable
-  development: active
-  lang: C
-  license: [MIT]
-  content: open
-  updated: 2018-04-12
-  images: ['https://taisei-project.org/static/screenshots/005_1.2/taisei_20180127_16-46-39+0200.png',
-    'https://taisei-project.org/static/screenshots/005_1.2/taisei_20180127_16-52-45+0200.png']
-  video: {youtube: P22aVi0z6b8}
-  remakes: [Touhou]
-
-- name: Tanks of Freedom
-  clones: [Advance Wars]
-  repo: https://github.com/w84death/Tanks-of-Freedom
-  url: http://tof.p1x.in
-  development: active
-  multiplayer: [Online, Hotseat]
-  framework: [Godot]
-  license: [MIT]
-  content: open
-  images: ['https://camo.githubuser.com/c9533920a76426abadae6282a17fee964a31ad34/687474703a2f2f746f662e7031782e696e2f6173736574732f73637265656e312e6a7067']
-  video: {youtube: Y7w5VhvG8hA}
-
-- name: Terasology
-  url: http://terasology.org/
-  repo: https://github.com/MovingBlocks/Terasology
-  updated: 2014-08-20
-  status: playable
-  development: active
-  lang: Java
-  license: [Apache]
-  video: {youtube: cU6LL5BXi5E}
-  remakes: [Minecraft]
-
-- name: Terraria
-  repo: https://github.com/csnxs/Terraria
-  updated: 2017-10-15
-  info: Reverse engineered code
-  lang: C#
-  remakes: [Terraria]
-
-- name: terrarium
-  repo: https://github.com/hydren/terrarium
-  updated: 2015-06-18
-  development: active
-  lang: C++
-  remakes: [Terraria]
-
-- name: tetris
-  repo: https://github.com/spypunk/tetris
-  lang: Java
-  license: [WTFPL]
-  updated: 2016-08-19
-  images: ['https://raw.githubusercontent.com/spypunk/tetris/master/img/screenshot_start.png']
-  remakes: [Tetris]
-
 - name: The Battle for Wesnoth
-  url: https://www.wesnoth.org/
-  repo: http://wiki.wesnoth.org/WesnothRepository
+  images:
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-11.jpg
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.4-3.jpg
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-5.jpg
+  lang:
+  - C++
+  - C
+  - Java
+  - Python
+  - Lua
+  license:
+  - GPL2
   development: active
-  lang: [C++, C, Java, Python, Lua]
-  license: [GPL2]
+  originals:
+  - Master of Monsters
+  repo: http://wiki.wesnoth.org/WesnothRepository
+  type: clone
   updated: 2016-01-01
-  images: ['https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg', 'https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-11.jpg',
-    'https://www.wesnoth.org/images/sshots/wesnoth-1.12.4-3.jpg', 'https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-5.jpg']
-  video: {youtube: w3P39lppcH4}
-  clones: [Master of Monsters]
+  url: https://www.wesnoth.org/
+  video:
+    youtube: w3P39lppcH4
 
 - name: The Bub's Brothers
-  url: http://bub-n-bros.sourceforge.net/
-  updated: 2015-04-10
-  repo: http://bub-n-bros.cvs.sourceforge.net/viewvc/bub-n-bros/
-  development: halted
+  images:
+  - http://bub-n-bros.sourceforge.net/images/extend.png
+  - http://bub-n-bros.sourceforge.net/images/crashed-down.png
+  - http://bub-n-bros.sourceforge.net/images/alone-in-the-world.png
+  - http://bub-n-bros.sourceforge.net/images/pacman.png
   lang: Python
-  license: [MIT]
-  images: ['http://bub-n-bros.sourceforge.net/images/extend.png', 'http://bub-n-bros.sourceforge.net/images/crashed-down.png',
-    'http://bub-n-bros.sourceforge.net/images/alone-in-the-world.png', 'http://bub-n-bros.sourceforge.net/images/pacman.png']
-  remakes: [Bubble Bobble]
+  license:
+  - MIT
+  development: halted
+  originals:
+  - Bubble Bobble
+  repo: http://bub-n-bros.cvs.sourceforge.net/viewvc/bub-n-bros/
+  type: remake
+  updated: 2015-04-10
+  url: http://bub-n-bros.sourceforge.net/
 
 - name: The Butterfly Effect
-  repo: https://github.com/the-butterfly-effect/tbe
-  url: http://the-butterfly-effect.org
+  framework:
+  - Qt
+  - Box2D
+  images:
+  - http://the-butterfly-effect.org/images/lvl-angry-birds2.png
+  - http://the-butterfly-effect.org/images/lvl-draft-find-the-message.png
+  - http://the-butterfly-effect.org/images/lvl-draft-save-the-butterfly.png
+  lang:
+  - C++
+  license:
+  - GPL2
   development: active
+  originals:
+  - Crazy Machines series
+  repo: https://github.com/the-butterfly-effect/tbe
   status: playable
-  lang: [C++]
-  framework: [Qt, Box2D]
-  license: [GPL2]
+  type: clone
   updated: 2016-12-02
-  images: ['http://the-butterfly-effect.org/images/lvl-angry-birds2.png', 'http://the-butterfly-effect.org/images/lvl-draft-find-the-message.png',
-    'http://the-butterfly-effect.org/images/lvl-draft-save-the-butterfly.png']
-  video: {youtube: yLysg1pyLK0}
-  clones: [Crazy Machines series]
+  url: http://the-butterfly-effect.org
+  video:
+    youtube: yLysg1pyLK0
 
 - name: The Dark Mod
-  url: http://www.thedarkmod.com/
-  status: playable
-  development: active
+  images:
+  - http://www.thedarkmod.com/wp-content/gallery/environments/training1.jpg
+  - http://www.thedarkmod.com/wp-content/gallery/environments/rttc2v_10.jpg
   lang: C++
+  development: active
+  originals:
+  - Thief
   repo: https://svn.thedarkmod.com/svn/darkmod_src/trunk/
+  status: playable
+  type: clone
   updated: 2013-10-28
-  images: ['http://www.thedarkmod.com/wp-content/gallery/environments/training1.jpg',
-    'http://www.thedarkmod.com/wp-content/gallery/environments/rttc2v_10.jpg']
-  video: {youtube: hNtUQ32eeRM}
-  clones: [Thief]
+  url: http://www.thedarkmod.com/
+  video:
+    youtube: hNtUQ32eeRM
 
 - name: The Goonies
+  images:
+  - http://www.braingames.getput.com/goonies/pics/screenshot1.jpg
+  - http://www.braingames.getput.com/goonies/pics/screenshot2.jpg
+  - http://www.braingames.getput.com/goonies/pics/screenshot3.jpg
+  - http://www.braingames.getput.com/goonies/pics/screenshot4.jpg
+  lang: C++
+  originals:
+  - The Goonies
+  repo: http://braingames.jorito.net/goonies/downloads/goonies.src_1.4.1528.tgz
+  type: remake
   updated: 2015-04-13
   url: http://www.braingames.getput.com/goonies/
-  lang: C++
-  repo: http://braingames.jorito.net/goonies/downloads/goonies.src_1.4.1528.tgz
-  images: ['http://www.braingames.getput.com/goonies/pics/screenshot1.jpg', 'http://www.braingames.getput.com/goonies/pics/screenshot2.jpg',
-    'http://www.braingames.getput.com/goonies/pics/screenshot3.jpg', 'http://www.braingames.getput.com/goonies/pics/screenshot4.jpg']
-  remakes: [The Goonies]
-
-- name: The-Great-Escape-in-C
-  repo: 'https://github.com/dpt/The-Great-Escape-in-C'
-  updated: 2018-06-14
-  lang: C++
-  development: active
-  info: reverse engineered from binary
-  remakes: [The Great Escape]
 
 - name: The Legend Of Zelda - Navi's Quest
+  framework: SDL
+  images:
+  - http://www.zeldaroth.fr/images/nsq/s1.png
+  lang: C++
+  development: complete
+  originals:
+  - Legend of Zelda
+  repo: http://www.zeldaroth.fr/us/files/NSQ/Windows/ZeldaNSQ_US-src-windows.zip
+  type: clone
   updated: 2015-09-27
   url: http://www.zeldaroth.fr/us/dlnsq.php
-  repo: http://www.zeldaroth.fr/us/files/NSQ/Windows/ZeldaNSQ_US-src-windows.zip
-  development: complete
-  framework: SDL
-  lang: C++
-  images: ['http://www.zeldaroth.fr/images/nsq/s1.png']
-  clones: [Legend of Zelda]
 
 - name: The Legend Of Zelda - Oni Link Begins
+  images:
+  - http://www.zeldaroth.fr/images/olb/s1.JPG
+  - http://www.zeldaroth.fr/images/olb/s5.JPG
+  - http://www.zeldaroth.fr/images/olb/s10.JPG
+  lang: C++
+  development: complete
+  originals:
+  - Legend of Zelda
+  repo: http://www.zeldaroth.fr/us/files/OLB/Windows/ZeldaOLB_US-src-windows.zip
+  type: clone
   updated: 2015-09-27
   url: http://www.zeldaroth.fr/us/zolb.php
-  development: complete
-  lang: C++
-  repo: http://www.zeldaroth.fr/us/files/OLB/Windows/ZeldaOLB_US-src-windows.zip
-  images: ['http://www.zeldaroth.fr/images/olb/s1.JPG', 'http://www.zeldaroth.fr/images/olb/s5.JPG',
-    'http://www.zeldaroth.fr/images/olb/s10.JPG']
-  clones: [Legend of Zelda]
 
 - name: The Legend Of Zelda - Picross
+  images:
+  - http://www.zeldaroth.fr/images/picross/s1.png
+  lang: C++
+  development: complete
+  originals:
+  - Legend of Zelda
+  repo: http://www.zeldaroth.fr/us/files/Picross/Windows/ZeldaPicross_US-src-windows.zip
+  type: clone
   updated: 2015-09-27
   url: http://www.zeldaroth.fr/us/dlpicross.php
-  repo: http://www.zeldaroth.fr/us/files/Picross/Windows/ZeldaPicross_US-src-windows.zip
-  development: complete
-  lang: C++
-  images: ['http://www.zeldaroth.fr/images/picross/s1.png']
-  clones: [Legend of Zelda]
 
 - name: The Legend Of Zelda - Return Of The Hylan
+  images:
+  - http://www.zeldaroth.fr/images/roth/s14.png
+  - http://www.zeldaroth.fr/images/roth/s1.png
+  - http://www.zeldaroth.fr/images/roth/s13.png
+  lang: C++
+  development: complete
+  originals:
+  - Legend of Zelda
+  repo: http://www.zeldaroth.fr/us/files/ROTH/Windows/ZeldaROTH_US-src-windows.zip
+  type: clone
   updated: 2015-09-27
   url: http://www.zeldaroth.fr/us/zroth.php
-  development: complete
-  lang: C++
-  repo: http://www.zeldaroth.fr/us/files/ROTH/Windows/ZeldaROTH_US-src-windows.zip
-  images: ['http://www.zeldaroth.fr/images/roth/s14.png', 'http://www.zeldaroth.fr/images/roth/s1.png',
-    'http://www.zeldaroth.fr/images/roth/s13.png']
-  clones: [Legend of Zelda]
 
 - name: The Legend Of Zelda - Time To Triumph
-  url: http://www.zeldaroth.fr/us/z3t.php
-  updated: 2015-09-27
-  repo: http://www.zeldaroth.fr/us/files/3T/Windows/Zelda3T_US-src-windows.zip
-  development: complete
+  images:
+  - http://www.zeldaroth.fr/images/3t/s1.png
+  - http://www.zeldaroth.fr/images/3t/s12.png
+  - http://www.zeldaroth.fr/images/3t/s6.png
   lang: C++
-  images: ['http://www.zeldaroth.fr/images/3t/s1.png', 'http://www.zeldaroth.fr/images/3t/s12.png',
-    'http://www.zeldaroth.fr/images/3t/s6.png']
-  clones: [Legend of Zelda]
+  development: complete
+  originals:
+  - Legend of Zelda
+  repo: http://www.zeldaroth.fr/us/files/3T/Windows/Zelda3T_US-src-windows.zip
+  type: clone
+  updated: 2015-09-27
+  url: http://www.zeldaroth.fr/us/z3t.php
 
 - name: The Maze of Galious
+  images:
+  - http://www.braingames.getput.com/mog/pics/screenshot1.jpg
+  - http://www.braingames.getput.com/mog/pics/screenshot2.jpg
+  - http://www.braingames.getput.com/mog/pics/screenshot3.jpg
+  - http://www.braingames.getput.com/mog/pics/screenshot4.jpg
+  - http://www.braingames.getput.com/mog/pics/screenshot5.jpg
+  - http://www.braingames.getput.com/mog/pics/screenshot6.jpg
+  - http://www.braingames.getput.com/mog/pics/screenshot7.jpg
+  - http://www.braingames.getput.com/mog/pics/screenshot8.jpg
+  lang: C++
+  license:
+  - GPL2
+  originals:
+  - The Maze of Galious
+  repo: http://braingames.jorito.net/mog/downloads/mog.src_0.63-1548.tgz
+  type: remake
   updated: 2015-04-13
   url: http://www.braingames.getput.com/mog/
-  repo: http://braingames.jorito.net/mog/downloads/mog.src_0.63-1548.tgz
-  lang: C++
-  license: [GPL2]
-  images: ['http://www.braingames.getput.com/mog/pics/screenshot1.jpg', 'http://www.braingames.getput.com/mog/pics/screenshot2.jpg',
-    'http://www.braingames.getput.com/mog/pics/screenshot3.jpg', 'http://www.braingames.getput.com/mog/pics/screenshot4.jpg',
-    'http://www.braingames.getput.com/mog/pics/screenshot5.jpg', 'http://www.braingames.getput.com/mog/pics/screenshot6.jpg',
-    'http://www.braingames.getput.com/mog/pics/screenshot7.jpg', 'http://www.braingames.getput.com/mog/pics/screenshot8.jpg']
-  remakes: [The Maze of Galious]
 
 - name: The Rush
+  images:
+  - https://a.fsdn.com/con/app/proj/therush/screenshots/193556.jpg
+  - https://a.fsdn.com/con/app/proj/therush/screenshots/193554.jpg
+  lang: C++
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Wipeout
+  repo: svn://svn.code.sf.net/p/therush/code/
+  type: clone
   updated: 2015-04-26
   url: http://sourceforge.net/projects/therush/
-  development: halted
-  lang: C++
-  license: [GPL2]
-  repo: svn://svn.code.sf.net/p/therush/code/
-  images: ['https://a.fsdn.com/con/app/proj/therush/screenshots/193556.jpg', 'https://a.fsdn.com/con/app/proj/therush/screenshots/193554.jpg']
-  clones: [Wipeout]
 
-- name: The Ur-Quan Masters
-  url: http://sc2.sourceforge.net/
+- name: Taisei Project
   development: active
+  feed: https://taisei-project.org/news.atom
+  images:
+  - https://taisei-project.org/static/screenshots/005_1.2/taisei_20180127_16-46-39+0200.png
+  - https://taisei-project.org/static/screenshots/005_1.2/taisei_20180127_16-52-45+0200.png
   lang: C
-  repo: http://sc2.svn.sourceforge.net/viewvc/sc2/
-  images: ['http://sc2.sourceforge.net/screenshots/pcintro.jpg', 'http://sc2.sourceforge.net/screenshots/slaveshield.png',
-    'http://sc2.sourceforge.net/screenshots/scale_triscan.png', 'http://sc2.sourceforge.net/screenshots/setupmenu.png',
-    'http://sc2.sourceforge.net/screenshots/meleestep.png']
-  remakes: [Star Control 2]
+  license:
+  - MIT
+  content: open
+  originals:
+  - Touhou
+  repo: https://github.com/taisei-project/taisei
+  status: playable
+  type: remake
+  updated: 2018-04-12
+  url: https://taisei-project.org/
+  video:
+    youtube: P22aVi0z6b8
 
-- name: The Zod Engine
-  url: http://zod.sourceforge.net/
-  repo: http://sourceforge.net/projects/zod/files/
+- name: Tanks of Freedom
   development: active
-  images: ['http://zod.sourceforge.net/screenshots/gameplay_13.png']
-  video: {youtube: 8VehUvuWHqw}
-  remakes: [Z]
+  framework:
+  - Godot
+  images:
+  - https://camo.githubuser.com/c9533920a76426abadae6282a17fee964a31ad34/687474703a2f2f746f662e7031782e696e2f6173736574732f73637265656e312e6a7067
+  license:
+  - MIT
+  multiplayer:
+  - Online
+  - Hotseat
+  content: open
+  originals:
+  - Advance Wars
+  repo: https://github.com/w84death/Tanks-of-Freedom
+  type: clone
+  url: http://tof.p1x.in
+  video:
+    youtube: Y7w5VhvG8hA
+
+- name: Terasology
+  lang: Java
+  license:
+  - Apache
+  development: active
+  originals:
+  - Minecraft
+  repo: https://github.com/MovingBlocks/Terasology
+  status: playable
+  type: remake
+  updated: 2014-08-20
+  url: http://terasology.org/
+  video:
+    youtube: cU6LL5BXi5E
+
+- name: Terraria
+  lang: C#
+  info: Reverse engineered code
+  originals:
+  - Terraria
+  repo: https://github.com/csnxs/Terraria
+  type: remake
+  updated: 2017-10-15
+
+- name: terrarium
+  lang: C++
+  development: active
+  originals:
+  - Terraria
+  repo: https://github.com/hydren/terrarium
+  type: remake
+  updated: 2015-06-18
+
+- name: tetris
+  images:
+  - https://raw.githubusercontent.com/spypunk/tetris/master/img/screenshot_start.png
+  lang: Java
+  license:
+  - WTFPL
+  originals:
+  - Tetris
+  repo: https://github.com/spypunk/tetris
+  type: remake
+  updated: 2016-08-19
+
+- name: The-Great-Escape-in-C
+  info: reverse engineered from binary
+  lang: C++
+  development: active
+  originals:
+  - The Great Escape
+  repo: https://github.com/dpt/The-Great-Escape-in-C
+  type: remake
+  updated: 2018-06-14
 
 - name: Theme Park Builder 3D CAD
+  framework:
+  - OpenGL
+  - SDL
+  lang: C++
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Theme Park
+  repo: svn://svn.code.sf.net/p/tpb3d/code/trunk
+  type: remake
   updated: 2015-07-04
   url: http://sourceforge.net/projects/tpb3d/
-  repo: svn://svn.code.sf.net/p/tpb3d/code/trunk
-  development: halted
-  lang: C++
-  framework: [OpenGL, SDL]
-  license: [GPL2]
-  remakes: [Theme Park]
 
 - name: thiefcatcher
-  updated: 2015-06-18
-  repo: https://github.com/Ponup/thiefcatcher
-  development: active
   lang: C++
-  license: [GPL3]
-  remakes: ['Where in the World Is Carmen Sandiego? (1985)']
+  license:
+  - GPL3
+  development: active
+  originals:
+  - Where in the World Is Carmen Sandiego? (1985)
+  repo: https://github.com/Ponup/thiefcatcher
+  type: remake
+  updated: 2015-06-18
 
 - name: THREEPunchOut
-  updated: 2015-08-15
-  repo: https://github.com/MattSzik/THREEPunchOut
-  url: http://matthewsziklay.github.io/THREEPunchOut/
-  development: active
   lang: JavaScript
-  clones: [Punch-Out!!]
+  development: active
+  originals:
+  - Punch-Out!!
+  repo: https://github.com/MattSzik/THREEPunchOut
+  type: clone
+  updated: 2015-08-15
+  url: http://matthewsziklay.github.io/THREEPunchOut/
 
 - name: thromolusng
-  updated: 2015-06-22
-  repo: https://github.com/segfaulthunter/thromolusng
-  development: halted
   lang: Python
-  license: [GPL3]
-  remakes: [Thromolus]
+  license:
+  - GPL3
+  development: halted
+  originals:
+  - Thromolus
+  repo: https://github.com/segfaulthunter/thromolusng
+  type: remake
+  updated: 2015-06-22
 
 - name: Thrust
+  images:
+  - https://www.lysator.liu.se/~peda/thrust/thrust.gif
+  lang: C
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Thrust
+  repo: https://www.lysator.liu.se/~peda/thrust/src/
+  type: remake
   updated: 2015-04-15
   url: https://www.lysator.liu.se/~peda/thrust/
-  repo: https://www.lysator.liu.se/~peda/thrust/src/
-  development: halted
-  lang: C
-  license: [GPL2]
-  images: ['https://www.lysator.liu.se/~peda/thrust/thrust.gif']
-  remakes: [Thrust]
 
 - name: Thyme
-  development: active
   lang: C++
-  url: https://github.com/TheAssemblyArmada/Thyme
+  development: active
+  originals:
+  - 'Command & Conquer: Generals'
   repo: https://github.com/TheAssemblyArmada/Thyme
+  type: remake
   updated: 2018-02-05
-  remakes: ['Command & Conquer: Generals']
+  url: https://github.com/TheAssemblyArmada/Thyme
 
 - name: Tile World
-  url: http://www.muppetlabs.com/~breadbox/software/tworld/
-  status: playable
-  development: sporadic
   lang: C
-  license: [GPL2]
+  license:
+  - GPL2
+  development: sporadic
+  originals:
+  - Chip's Challenge
+  status: playable
+  type: remake
   updated: 2014-01-05
-  remakes: [Chip's Challenge]
+  url: http://www.muppetlabs.com/~breadbox/software/tworld/
 
 - name: Tile World 2
-  url: https://github.com/Qalthos/Tile-World
+  lang: C
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Chip's Challenge
   repo: https://github.com/Qalthos/Tile-World
   status: playable
-  development: halted
-  lang: C
-  license: [GPL2]
+  type: remake
   updated: 2014-01-05
-  remakes: [Chip's Challenge]
+  url: https://github.com/Qalthos/Tile-World
 
 - name: Tiny Wings
-  updated: 2015-05-02
-  repo: https://github.com/haqu/tiny-wings
-  development: halted
   lang: Objective-C
-  license: [MIT]
-  remakes: [Tiny Wings]
+  license:
+  - MIT
+  development: halted
+  originals:
+  - Tiny Wings
+  repo: https://github.com/haqu/tiny-wings
+  type: remake
+  updated: 2015-05-02
 
 - name: Toppler
-  url: http://toppler.sourceforge.net/
-  development: sporadic
+  images:
+  - http://toppler.sourceforge.net/images/old-amiga.png
+  - http://toppler.sourceforge.net/images/old-atari.png
+  - http://toppler.sourceforge.net/images/old-c64.png
   lang: C++
+  development: sporadic
+  originals:
+  - Nebulus
+  type: remake
   updated: 2013-05-27
-  images: ['http://toppler.sourceforge.net/images/old-amiga.png', 'http://toppler.sourceforge.net/images/old-atari.png',
-    'http://toppler.sourceforge.net/images/old-c64.png']
-  remakes: [Nebulus]
+  url: http://toppler.sourceforge.net/
 
 - name: Torrega Race
-  repo: https://github.com/andwj/torrega
-  updated: 2015-05-02
-  status: playable
-  development: halted
   framework: "L\xD6VE"
+  images:
+  - http://i.imgur.com/qWgWeXA.png
   lang: Lua
-  license: [GPL3]
-  images: ['http://i.imgur.com/qWgWeXA.png']
-  clones: [Omega Race]
+  license:
+  - GPL3
+  development: halted
+  originals:
+  - Omega Race
+  repo: https://github.com/andwj/torrega
+  status: playable
+  type: clone
+  updated: 2015-05-02
 
 - name: Total Annihilation 3D
-  url: http://www.ta3d.org/
-  development: sporadic
+  images:
+  - http://www.ta3d.org/snapshots/shoot117.jpg
+  - http://www.ta3d.org/snapshots/shoot118.jpg
+  - http://www.ta3d.org/snapshots/shoot122.jpg
+  - http://www.ta3d.org/snapshots/shoot127.jpg
   lang: C++
+  development: sporadic
+  originals:
+  - Total Annihilation
   repo: http://trac.ta3d.org/timeline
-  images: ['http://www.ta3d.org/snapshots/shoot117.jpg', 'http://www.ta3d.org/snapshots/shoot118.jpg',
-    'http://www.ta3d.org/snapshots/shoot122.jpg', 'http://www.ta3d.org/snapshots/shoot127.jpg']
-  remakes: [Total Annihilation]
+  type: remake
+  url: http://www.ta3d.org/
 
 - name: Trackballs
-  url: http://sourceforge.net/projects/trackballs/
-  repo: http://trackballs.cvs.sourceforge.net/viewvc/trackballs/
-  development: halted
   lang: C++
+  development: halted
+  originals:
+  - Marble Madness
+  repo: http://trackballs.cvs.sourceforge.net/viewvc/trackballs/
+  type: remake
   updated: 2015-04-03
-  remakes: [Marble Madness]
+  url: http://sourceforge.net/projects/trackballs/
 
 - name: Train
-  updated: 2015-05-28
-  repo: https://github.com/nenadalm/Train
-  development: sporadic
   lang: Java
-  license: [BSD]
-  remakes: [Vlak]
+  license:
+  - BSD
+  development: sporadic
+  originals:
+  - Vlak
+  repo: https://github.com/nenadalm/Train
+  type: remake
+  updated: 2015-05-28
 
 - name: Transball GL
-  url: http://www2.braingames.getput.com/transballgl/default.asp
-  updated: 2015-05-10
-  repo: http://transball.googlecode.com/svn/trunk/
-  development: halted
+  images:
+  - http://www2.braingames.getput.com/transballgl/images/tgl-ss4.jpg
+  - http://www2.braingames.getput.com/transballgl/images/tgl-ss5.jpg
+  - http://www2.braingames.getput.com/transballgl/images/tgl-ss6.jpg
+  - http://www2.braingames.getput.com/transballgl/images/tgl-ss7.jpg
   lang: C++
-  license: [GPL2]
-  images: ['http://www2.braingames.getput.com/transballgl/images/tgl-ss4.jpg', 'http://www2.braingames.getput.com/transballgl/images/tgl-ss5.jpg',
-    'http://www2.braingames.getput.com/transballgl/images/tgl-ss6.jpg', 'http://www2.braingames.getput.com/transballgl/images/tgl-ss7.jpg']
-  clones: [Thrust]
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Thrust
+  repo: http://transball.googlecode.com/svn/trunk/
+  type: clone
+  updated: 2015-05-10
+  url: http://www2.braingames.getput.com/transballgl/default.asp
 
 - name: Transfusion
-  url: http://www.transfusion-game.com/
-  status: playable
+  images:
+  - http://www.transfusion-game.com/images/e1m2-00.jpg
+  - http://www.transfusion-game.com/images/e3m7-02.jpg
+  - http://www.transfusion-game.com/images/action08.jpg
   development: sporadic
+  originals:
+  - Blood
   repo: http://sourceforge.net/p/blood/code/ci/default/tree/
+  status: playable
+  type: remake
   updated: 2013-11-12
-  images: ['http://www.transfusion-game.com/images/e1m2-00.jpg', 'http://www.transfusion-game.com/images/e3m7-02.jpg',
-    'http://www.transfusion-game.com/images/action08.jpg']
-  remakes: [Blood]
+  url: http://www.transfusion-game.com/
 
 - name: Tranzam
+  images:
+  - http://retrospec.sgn.net/config/screenshots/tranzam.f.2.jpg
+  - http://retrospec.sgn.net/config/screenshots/tranzam.f.4.jpg
+  - http://retrospec.sgn.net/config/screenshots/tranzam.f.5.jpg
+  - http://retrospec.sgn.net/config/screenshots/tranzam.f.3.jpg
+  - http://retrospec.sgn.net/config/screenshots/tranzam.f.1.jpg
+  lang: C++
+  development: halted
+  originals:
+  - Tranz Am
+  repo: http://retrospec.sgn.net/download/files/TranzAm.1.1.zip
+  type: remake
   updated: 2015-04-12
   url: http://retrospec.sgn.net/game/tranzam
-  repo: http://retrospec.sgn.net/download/files/TranzAm.1.1.zip
-  development: halted
-  lang: C++
-  images: ['http://retrospec.sgn.net/config/screenshots/tranzam.f.2.jpg', 'http://retrospec.sgn.net/config/screenshots/tranzam.f.4.jpg',
-    'http://retrospec.sgn.net/config/screenshots/tranzam.f.5.jpg', 'http://retrospec.sgn.net/config/screenshots/tranzam.f.3.jpg',
-    'http://retrospec.sgn.net/config/screenshots/tranzam.f.1.jpg']
-  remakes: [Tranz Am]
 
 - name: Tremulous
-  url: http://www.tremulous.net/
-  development: halted
   lang: C
+  development: halted
+  originals:
+  - Natural Selection
   repo: http://svn.icculus.org/tremulous/
+  type: clone
   updated: 2013-06-08
-  clones: [Natural Selection]
+  url: http://www.tremulous.net/
 
 - name: Tron
-  repo: https://github.com/momajd/Tron
-  url: http://momajd.github.io/Tron/
-  updated: 2016-05-14
+  framework:
+  - HTML
+  - jQuery
+  - CSS
   lang: JavaScript
-  framework: [HTML, jQuery, CSS]
-  remakes: [Tron]
+  originals:
+  - Tron
+  repo: https://github.com/momajd/Tron
+  type: remake
+  updated: 2016-05-14
+  url: http://momajd.github.io/Tron/
 
 - name: TrueCraft
+  images:
+  - https://sr.ht/aKPe.png
+  - https://sr.ht/OGQM.png
+  lang: C#
+  license:
+  - MIT
+  development: active
+  originals:
+  - Minecraft
+  repo: https://github.com/SirCmpwn/TrueCraft
+  type: remake
   updated: 2015-05-02
   url: http://truecraft.io/
-  repo: https://github.com/SirCmpwn/TrueCraft
-  development: active
-  lang: C#
-  license: [MIT]
-  images: ['https://sr.ht/aKPe.png', 'https://sr.ht/OGQM.png']
-  remakes: [Minecraft]
 
 - name: turnabout
-  updated: 2015-07-19
-  repo: https://github.com/sch/turnabout
-  development: halted
   lang: CoffeeScript
-  remakes: [Turnabout]
+  development: halted
+  originals:
+  - Turnabout
+  repo: https://github.com/sch/turnabout
+  type: remake
+  updated: 2015-07-19
 
 - name: TurokEX
-  development: halted
-  repo: https://github.com/svkaiser/TurokEX
-  license: [GPL2]
   lang: C++
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Turok
+  repo: https://github.com/svkaiser/TurokEX
+  type: remake
   updated: 2016-05-28
-  remakes: [Turok]
 
 - name: Tuxemon
-  url: http://www.tuxemon.org/
+  framework: Pygame
+  images:
+  - http://www.tuxemon.org/images/featurette-01.png
+  - http://www.tuxemon.org/images/screenshot-01.png
+  - http://www.tuxemon.org/images/featurette-02.png
+  lang: Python
+  development: active
+  originals:
+  - "Pok\xE9mon"
   repo: https://github.com/Tuxemon/Tuxemon
   status: playable
-  development: active
-  lang: Python
-  framework: Pygame
+  type: remake
   updated: 2015-01-21
-  images: ['http://www.tuxemon.org/images/featurette-01.png', 'http://www.tuxemon.org/images/screenshot-01.png',
-    'http://www.tuxemon.org/images/featurette-02.png']
-  remakes: ["Pok\xE9mon"]
+  url: http://www.tuxemon.org/
 
 - name: TVTower
-  url: http://www.tvgigant.de/en/index
+  lang:
+  - Blitz BASIC
+  - C
   development: active
-  lang: [Blitz BASIC, C]
+  originals:
+  - Mad TV
   repo: https://github.com/GWRon/TVTower
+  type: remake
   updated: 2014-08-16
-  remakes: [Mad TV]
+  url: http://www.tvgigant.de/en/index
 
 - name: twin-e
-  url: https://github.com/xesf/twin-e
+  development: halted
+  lang: C
+  license:
+  - GPL
+  content: commercial
+  originals:
+  - Little Big Adventure
   repo: https://github.com/xesf/twin-e
   status: playable
-  development: halted
-  content: commercial
-  lang: C
-  license: [GPL]
+  type: remake
   updated: 2017-10-23
-  remakes: [Little Big Adventure]
+  url: https://github.com/xesf/twin-e
 
 - name: Tyrian Remake
-  repo: https://github.com/b3dgs/tyrian-remake
-  updated: 2015-05-29
-  development: sporadic
+  images:
+  - http://www.b3dgs.com/v7/projects/tyrian_remake/screens/1.png
+  - http://www.b3dgs.com/v7/projects/tyrian_remake/screens/7.png
+  - http://www.b3dgs.com/v7/projects/tyrian_remake/screens/8.png
   lang: Java
-  license: [GPL2]
+  license:
+  - GPL2
+  development: sporadic
+  originals:
+  - Tyrian
+  repo: https://github.com/b3dgs/tyrian-remake
+  type: remake
+  updated: 2015-05-29
   url: http://www.b3dgs.com
-  images: ['http://www.b3dgs.com/v7/projects/tyrian_remake/screens/1.png', 'http://www.b3dgs.com/v7/projects/tyrian_remake/screens/7.png',
-    'http://www.b3dgs.com/v7/projects/tyrian_remake/screens/8.png']
-  remakes: [Tyrian]
 
 - name: TyrQuake
-  url: http://disenchant.net/tyrquake/
-  repo: https://github.com/libretro/tyrquake
-  development: active
   lang: C
-  license: [GPL2]
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Quake
+  repo: https://github.com/libretro/tyrquake
+  type: remake
   updated: 2015-04-03
-  remakes: [Quake]
+  url: http://disenchant.net/tyrquake/
 
 - name: TZOD (Tank Zone Of Death)
-  url: https://code.google.com/p/tzod/
-  repo: https://code.google.com/p/tzod/
+  lang:
+  - C++
+  - Lua
+  license:
+  - GPL3
   development: sporadic
-  lang: [C++, Lua]
-  license: [GPL3]
+  originals:
+  - Battle City
+  repo: https://code.google.com/p/tzod/
+  type: remake
   updated: 2015-04-06
-  remakes: [Battle City]
+  url: https://code.google.com/p/tzod/
+
+- name: The Ur-Quan Masters
+  images:
+  - http://sc2.sourceforge.net/screenshots/pcintro.jpg
+  - http://sc2.sourceforge.net/screenshots/slaveshield.png
+  - http://sc2.sourceforge.net/screenshots/scale_triscan.png
+  - http://sc2.sourceforge.net/screenshots/setupmenu.png
+  - http://sc2.sourceforge.net/screenshots/meleestep.png
+  lang: C
+  development: active
+  originals:
+  - Star Control 2
+  repo: http://sc2.svn.sourceforge.net/viewvc/sc2/
+  type: remake
+  url: http://sc2.sourceforge.net/
+
+- name: The Zod Engine
+  images:
+  - http://zod.sourceforge.net/screenshots/gameplay_13.png
+  development: active
+  originals:
+  - Z
+  repo: http://sourceforge.net/projects/zod/files/
+  type: remake
+  url: http://zod.sourceforge.net/
+  video:
+    youtube: 8VehUvuWHqw

@@ -94,6 +94,7 @@
 
     {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a> {%- if 'repoiconname' in game %}<span class="repoicon {{ game['repoiconstyle'] }} fa-{{ game['repoiconname'] }}" title="{{ game['repotitle'] }}"></span>{%- endif %}){%- endif %}
 
+    {{ tags.render_tag('type', game['type'] | title) }}
     {{ tags.render_tag('status', game['status'] | title) }}
     {{ tags.render_tag('development', game['development'] | title) }}
     {{ tags.render_tag('lang', game['lang']) }}

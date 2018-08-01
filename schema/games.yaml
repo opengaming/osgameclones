@@ -8,16 +8,15 @@ schema;game:
     name:
       required: True
       type: str
-    clones:
-      required: false
+    originals:
+      required: True
       type: seq
       sequence:
         - type: str
-    remakes:
-      required: false
-      type: seq
-      sequence:
-        - type: str
+    type:
+      required: True
+      type: str
+      enum: ['remake', 'clone']
     repo:
       required: False # Work towards making it True
       type: str
