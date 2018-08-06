@@ -1,176 +1,326 @@
-- name: 'Mafia: The City of Lost Heaven'
+- name: M.A.X.
+  external:
+    wikipedia: Mechanized Assault & Exploration
   meta:
-    genre: [Action, Adventure]
-    theme: [Crime]
-
-- name: Magical Drop
-  names: ["\u30DE\u30B8\u30AB\u30EB\u30C9\u30ED\u30C3\u30D7", MagiDro, "\u30DE\u30B8\
-      \u30C9\u30ED"]
-  meta:
-    genre: [Puzzle]
-
-- name: Marble Madness
-  meta:
-    genre: [Arcade]
-
-- name: [Maxit, 'http://www.mobygames.com/game/dos/maxit']
-  meta:
-    genre: [Strategy, TBS]
-
-- name: Metroid Prime
-  meta:
-    genre: [FPS, Adventure]
-
-- name: Missile Command
-  meta:
-    genre: [Arcade]
-
-- name: [Mad TV, Mad TV (video game)]
-  meta:
-    genre: [Strategy, Simulation]
-    theme: [Management]
-
-- name: 'Medal of Honor: Allied Assault'
-  meta:
-    genre: [FPS]
-
-- name: Monty Mole
-  meta:
-    genre: [Platform]
-
-- name: Moonbase Commander
-  meta:
-    genre: [TBS]
-
-- name: Mortal Kombat
-  meta:
-    genre: [Fighting]
-    theme: [Fantasy]
+    genre:
+    - RTS
+    - TBS
 
 - name: M.U.L.E.
+  external:
+    wikipedia: M.U.L.E.
   meta:
-    genre: [TBS]
+    genre:
+    - TBS
 
-- name: [Magic Carpet, Magic Carpet (video game)]
+- name: Mad TV
+  external:
+    wikipedia: Mad TV (video game)
   meta:
-    genre: [FPS]
+    genre:
+    - Strategy
+    - Simulation
+    theme:
+    - Management
+
+- name: 'Mafia: The City of Lost Heaven'
+  external:
+    wikipedia: 'Mafia: The City of Lost Heaven'
+  meta:
+    genre:
+    - Action
+    - Adventure
+    theme:
+    - Crime
+
+- name: Magic Carpet
+  external:
+    wikipedia: Magic Carpet (video game)
+  meta:
+    genre:
+    - FPS
 
 - name: 'Magic: The Gathering Online'
+  external:
+    wikipedia: 'Magic: The Gathering Online'
   meta:
-    genre: [Strategy, TBS]
-    subgenre: [Card Game]
-    theme: [Fantasy]
+    genre:
+    - Strategy
+    - TBS
+    subgenre:
+    - Card Game
+    theme:
+    - Fantasy
+
+- name: Magical Drop
+  external:
+    wikipedia: Magical Drop
+  meta:
+    genre:
+    - Puzzle
+  names:
+  - "\u30DE\u30B8\u30AB\u30EB\u30C9\u30ED\u30C3\u30D7"
+  - MagiDro
+  - "\u30DE\u30B8\u30C9\u30ED"
 
 - name: Manic Miner
+  external:
+    wikipedia: Manic Miner
   meta:
-    genre: [Platform]
+    genre:
+    - Platform
 
-- name: [Marathon, Marathon_(video_game)]
+- name: Marathon
+  external:
+    wikipedia: Marathon_(video_game)
   meta:
-    genre: [FPS]
-    theme: [Sci-Fi]
+    genre:
+    - FPS
+    theme:
+    - Sci-Fi
 
 - name: Marathon 2
+  external:
+    wikipedia: Marathon 2
   meta:
-    genre: [FPS]
-    theme: [Sci-Fi]
+    genre:
+    - FPS
+    theme:
+    - Sci-Fi
 
 - name: Marathon Infinity
+  external:
+    wikipedia: Marathon Infinity
   meta:
-    genre: [FPS]
-    theme: [Sci-Fi]
+    genre:
+    - FPS
+    theme:
+    - Sci-Fi
 
-- name: Mario World
+- name: Marble Madness
+  external:
+    wikipedia: Marble Madness
   meta:
-    genre: [Platform]
-
-- name: Master of Monsters
-  meta:
-    genre: [TBS]
-    theme: [Fantasy]
-
-- name: [M.A.X., Mechanized Assault & Exploration]
-  meta:
-    genre: [RTS, TBS]
-
-- name: MechWarrior
-  meta:
-    genre: [Simulation, FPS]
-    subgenre: [Vehicular Combat]
-    theme: [Sci-Fi, Management]
-
-- name: MechCommander 2
-  meta:
-    genre: [RTS]
-
-- name: Mega Lo Mania
-  meta:
-    genre: [RTS]
-
-- name: [MegaMan, MegaMan (video game)]
-  meta:
-    genre: [Platform]
-
-- name: Meridian 59
-  meta:
-    genre: [RPG]
-
-- name: [Mice Men, 'https://dosgamer.com/mice-men/']
-  meta:
-    genre: [Puzzle]
-
-- name: [Millipede, Millipede (video game)]
-  meta:
-    genre: [Arcade]
-
-- name: Minecraft
-  meta:
-    genre: [Action, FPS]
-    subgenre: [Survival, Sandbox]
-    theme: [Fantasy]
-
-- name: [Minesweeper, Minesweeper (video game)]
-  meta:
-    genre: [Puzzle]
-
-- name: [Movie Business, 'http://www.gamebase64.com/game.php?id=14674&d=18']
-  meta:
-    genre: [Strategy, TBS]
-    theme: [Management]
+    genre:
+    - Arcade
 
 - name: Mario Kart
+  external:
+    wikipedia: Mario Kart
   meta:
-    genre: [Racing]
+    genre:
+    - Racing
+
+- name: Mario World
+  external:
+    wikipedia: Mario World
+  meta:
+    genre:
+    - Platform
+
+- name: Master of Monsters
+  external:
+    wikipedia: Master of Monsters
+  meta:
+    genre:
+    - TBS
+    theme:
+    - Fantasy
 
 - name: Master of Orion
+  external:
+    wikipedia: Master of Orion
   meta:
-    genre: [TBS]
-    subgenre: [4X]
-    theme: [Sci-Fi]
+    genre:
+    - TBS
+    subgenre:
+    - 4X
+    theme:
+    - Sci-Fi
 
 - name: Master of Orion 2
+  external:
+    wikipedia: Master of Orion 2
   meta:
-    genre: [TBS]
-    subgenre: [4X]
-    theme: [Sci-Fi]
+    genre:
+    - TBS
+    subgenre:
+    - 4X
+    theme:
+    - Sci-Fi
 
-- name: [Micro Machines, Micro Machines (video game series)]
+- name: Maxit
+  external:
+    website: http://www.mobygames.com/game/dos/maxit
   meta:
-    genre: [Racing]
+    genre:
+    - Strategy
+    - TBS
+
+- name: MechCommander 2
+  external:
+    wikipedia: MechCommander 2
+  meta:
+    genre:
+    - RTS
+
+- name: MechWarrior
+  external:
+    wikipedia: MechWarrior
+  meta:
+    genre:
+    - Simulation
+    - FPS
+    subgenre:
+    - Vehicular Combat
+    theme:
+    - Sci-Fi
+    - Management
+
+- name: 'Medal of Honor: Allied Assault'
+  external:
+    wikipedia: 'Medal of Honor: Allied Assault'
+  meta:
+    genre:
+    - FPS
+
+- name: Mega Lo Mania
+  external:
+    wikipedia: Mega Lo Mania
+  meta:
+    genre:
+    - RTS
+
+- name: MegaMan
+  external:
+    wikipedia: MegaMan (video game)
+  meta:
+    genre:
+    - Platform
+
+- name: Meridian 59
+  external:
+    wikipedia: Meridian 59
+  meta:
+    genre:
+    - RPG
+
+- name: Metroid Prime
+  external:
+    wikipedia: Metroid Prime
+  meta:
+    genre:
+    - FPS
+    - Adventure
+
+- name: Mice Men
+  external:
+    website: https://dosgamer.com/mice-men/
+  meta:
+    genre:
+    - Puzzle
+
+- name: Micro Machines
+  external:
+    wikipedia: Micro Machines (video game series)
+  meta:
+    genre:
+    - Racing
 
 - name: Microsoft Flight Simulator
+  external:
+    wikipedia: Microsoft Flight Simulator
   meta:
-    genre: [Simulation]
+    genre:
+    - Simulation
 
 - name: Microsoft Train Simulator
+  external:
+    wikipedia: Microsoft Train Simulator
   meta:
-    genre: [Simulation]
+    genre:
+    - Simulation
 
 - name: Midnight Club II
-  names: [Midnight Club 2]
+  external:
+    wikipedia: Midnight Club II
   meta:
-    genre: [Racing]
+    genre:
+    - Racing
+  names:
+  - Midnight Club 2
+
+- name: Millipede
+  external:
+    wikipedia: Millipede (video game)
+  meta:
+    genre:
+    - Arcade
+
+- name: Minecraft
+  external:
+    wikipedia: Minecraft
+  meta:
+    genre:
+    - Action
+    - FPS
+    subgenre:
+    - Survival
+    - Sandbox
+    theme:
+    - Fantasy
+
+- name: Minesweeper
+  external:
+    wikipedia: Minesweeper (video game)
+  meta:
+    genre:
+    - Puzzle
+
+- name: Missile Command
+  external:
+    wikipedia: Missile Command
+  meta:
+    genre:
+    - Arcade
+
+- name: Monty Mole
+  external:
+    wikipedia: Monty Mole
+  meta:
+    genre:
+    - Platform
+
+- name: Moonbase Commander
+  external:
+    wikipedia: Moonbase Commander
+  meta:
+    genre:
+    - TBS
+
+- name: Mortal Kombat
+  external:
+    wikipedia: Mortal Kombat
+  meta:
+    genre:
+    - Fighting
+    theme:
+    - Fantasy
+
+- name: Movie Business
+  external:
+    website: http://www.gamebase64.com/game.php?id=14674&d=18
+  meta:
+    genre:
+    - Strategy
+    - TBS
+    theme:
+    - Management
 
 - name: 'Myst III: Exile'
+  external:
+    wikipedia: 'Myst III: Exile'
   meta:
-    genre: [Adventure]
+    genre:
+    - Adventure
+

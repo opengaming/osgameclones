@@ -1,42 +1,79 @@
-
-- name: [Octopus, List of Game & Watch games#Octopus]
+- name: Octopus
+  external:
+    wikipedia: List of Game & Watch games#Octopus
   meta:
-    genre: [Arcade]
-
-- name: 'Oddworld: Abe''s Oddysee'
-  meta:
-    genre: [Platform, Adventure]
+    genre:
+    - Arcade
 
 - name: 'Oddworld: Abe''s Exoddus'
+  external:
+    wikipedia: 'Oddworld: Abe''s Exoddus'
   meta:
-    genre: [Platform, Adventure]
+    genre:
+    - Platform
+    - Adventure
 
-- name: [Outcast, Outcast (video game)]
+- name: 'Oddworld: Abe''s Oddysee'
+  external:
+    wikipedia: 'Oddworld: Abe''s Oddysee'
   meta:
-    genre: [Adventure, Action]
-
-- name: [Outlaws, Outlaws (1997 video game)]
-  meta:
-    genre: [FPS]
-
-- name: Outrun
-  names: ["\u30A2\u30A6\u30C8 \u30E9\u30F3", Auto Ran]
-  meta:
-    genre: [Arcade, Racing]
-
-- name: Oxyd
-  meta:
-    genre: [Puzzle]
-
-- name: 'One Must Fall: 2097'
-  meta:
-    genre: [Fighting]
-    theme: [Sci-Fi]
-
-- name: [Overflow, 'http://amigagamer.blogspot.co.uk/2012/11/overflow-amiga-pipemania-clone.html']
-  meta:
-    genre: [Puzzle]
+    genre:
+    - Platform
+    - Adventure
 
 - name: Omega Race
+  external:
+    wikipedia: Omega Race
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
+
+- name: 'One Must Fall: 2097'
+  external:
+    wikipedia: 'One Must Fall: 2097'
+  meta:
+    genre:
+    - Fighting
+    theme:
+    - Sci-Fi
+
+- name: Outcast
+  external:
+    wikipedia: Outcast (video game)
+  meta:
+    genre:
+    - Adventure
+    - Action
+
+- name: Outlaws
+  external:
+    wikipedia: Outlaws (1997 video game)
+  meta:
+    genre:
+    - FPS
+
+- name: Outrun
+  external:
+    wikipedia: Outrun
+  meta:
+    genre:
+    - Arcade
+    - Racing
+  names:
+  - "\u30A2\u30A6\u30C8 \u30E9\u30F3"
+  - Auto Ran
+
+- name: Overflow
+  external:
+    website: http://amigagamer.blogspot.co.uk/2012/11/overflow-amiga-pipemania-clone.html
+  meta:
+    genre:
+    - Puzzle
+
+- name: Oxyd
+  external:
+    wikipedia: Oxyd
+  meta:
+    genre:
+    - Puzzle
+

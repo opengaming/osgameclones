@@ -1,241 +1,449 @@
-
-- name: [The Binding of Isaac, The Binding of Isaac (video game)]
+- name: Tempest
+  external:
+    wikipedia: Tempest (video game)
   meta:
-    genre: [Roguelike]
-
-- name: 'The Elder Scrolls: Arena'
-  meta:
-    genre: [RPG]
-
-- name: 'The Elder Scrolls II: Daggerfall'
-  meta:
-    genre: [RPG]
-
-- name: 'The Elder Scrolls III: Morrowind'
-  meta:
-    genre: [RPG]
-    theme: [Fantasy]
-
-- name: [The Goonies, The Goonies (video game)]
-  meta:
-    genre: [Platform]
-
-- name: [The Great Escape, The Great Escape (video game)]
-  meta:
-    genre: [Arcade]
-
-- name: The Great Giana Sisters
-  meta:
-    genre: [Platform]
-
-- name: The Sims Online
-  meta:
-    genre: [Simulation]
-    theme: [Management]
-
-- name: [The Lord of the Rings Volume 1, 'J.R.R. Tolkien''s The Lord of the Rings,
-      Vol. I (1990 video game)']
-  meta:
-    genre: [Action, RPG]
-
-- name: The Maze of Galious
-  meta:
-    genre: [Platform]
-
-- name: The Need for Speed
-  meta:
-    genre: [Racing]
-
-- name: The Adventures of Robbo
-  meta:
-    genre: [Puzzle]
-
-- name: [The Sentinel, The Sentinel (video game)]
-  meta:
-    genre: [Puzzle]
+    genre:
+    - Arcade
 
 - name: Terraria
+  external:
+    wikipedia: Terraria
   meta:
-    genre: [Action, Platform]
-    subgenre: [Survival, Sandbox]
-    theme: [Fantasy]
+    genre:
+    - Action
+    - Platform
+    subgenre:
+    - Survival
+    - Sandbox
+    theme:
+    - Fantasy
 
-- name: The Castles of Dr. Creep
+- name: Test Drive
+  external:
+    wikipedia: Test Drive (video game)
   meta:
-    genre: [Arcade]
-
-- name: The Clue!
-  meta:
-    genre: [Adventure]
-
-- name: [The Hobbit, The Hobbit (1982 video game)]
-  meta:
-    genre: [Adventure]
-
-- name: [The Incredible Machine, The_Incredible_Machine_(video_game)]
-  meta:
-    genre: [Puzzle, Simulation]
-
-- name: The Incredible Machine 2
-  meta:
-    genre: [Puzzle, Simulation]
-
-- name: The Incredible Machine 3
-  meta:
-    genre: [Puzzle, Simulation]
-
-- name: 'The Incredible Machine: Even More Contraptions'
-  meta:
-    genre: [Puzzle, Simulation]
-
-- name: The Last Ninja
-  meta:
-    genre: [Action, Adventure]
-
-- name: [The Settlers, The Settlers (video game)]
-  names: [Die Siedler, Serf City]
-  meta:
-    genre: [RTS]
-    subgenre: [City Building]
-    theme: [Medieval]
-
-- name: [The Settlers II, The Settlers II]
-  names: [Die Siedler II]
-  meta:
-    genre: [RTS]
-    subgenre: [City Building]
-    theme: [Medieval, Alternate Historical, Fantasy]
-
-- name: [The Settlers III, The Settlers III]
-  names: [Die Siedler III]
-  meta:
-    genre: [RTS]
-    subgenre: [City Building]
-    theme: [Egyptian, Alternate Historical, Fantasy]
-
-- name: [Tempest, Tempest (video game)]
-  meta:
-    genre: [Arcade]
-
-- name: [Test Drive, Test Drive (video game)]
-  meta:
-    genre: [Racing]
+    genre:
+    - Racing
 
 - name: Tetris
+  external:
+    wikipedia: Tetris
   meta:
-    genre: [Puzzle, Arcade]
+    genre:
+    - Puzzle
+    - Arcade
 
 - name: Tetris Attack
+  external:
+    wikipedia: Tetris Attack
   meta:
-    genre: [Puzzle, Arcade]
+    genre:
+    - Puzzle
+    - Arcade
 
-- name: Theme Hospital
+- name: The Adventures of Robbo
+  external:
+    wikipedia: The Adventures of Robbo
   meta:
-    genre: [Strategy, Simulation]
-    theme: [Management, Comedy]
+    genre:
+    - Puzzle
 
-- name: [Theme Park, Theme Park (video game)]
+- name: The Binding of Isaac
+  external:
+    wikipedia: The Binding of Isaac (video game)
   meta:
-    genre: [Strategy, Simulation]
-    theme: [Management, Comedy]
+    genre:
+    - Roguelike
 
-- name: [Thromolus, 'http://hol.abime.net/1386']
+- name: The Castles of Dr. Creep
+  external:
+    wikipedia: The Castles of Dr. Creep
   meta:
-    genre: [Puzzle]
+    genre:
+    - Arcade
 
-- name: [Thrust, Thrust (video game)]
+- name: The Clue!
+  external:
+    wikipedia: The Clue!
   meta:
-    genre: [Arcade]
+    genre:
+    - Adventure
 
-- name: Tiny Wings
+- name: 'The Elder Scrolls II: Daggerfall'
+  external:
+    wikipedia: 'The Elder Scrolls II: Daggerfall'
   meta:
-    genre: [Arcade]
+    genre:
+    - RPG
 
-- name: Titus the Fox
-  names:
-  - [Moktar, Titus the Fox]
+- name: 'The Elder Scrolls III: Morrowind'
+  external:
+    wikipedia: 'The Elder Scrolls III: Morrowind'
   meta:
-    genre: [Platform]
+    genre:
+    - RPG
+    theme:
+    - Fantasy
 
-- name: Total Annihilation
+- name: 'The Elder Scrolls: Arena'
+  external:
+    wikipedia: 'The Elder Scrolls: Arena'
   meta:
-    genre: [RTS]
+    genre:
+    - RPG
 
-- name: Tomb Raider
+- name: The Goonies
+  external:
+    wikipedia: The Goonies (video game)
   meta:
-    genre: [Platform, Adventure, Action]
+    genre:
+    - Platform
 
-- name: Toobz
-  platform: [Amiga]
+- name: The Great Escape
+  external:
+    wikipedia: The Great Escape (video game)
   meta:
-    genre: [Puzzle]
+    genre:
+    - Arcade
 
-- name: [Touhou, Touhou Project]
+- name: The Great Giana Sisters
+  external:
+    wikipedia: The Great Giana Sisters
   meta:
-    genre: [Shmup]
-    subgenre: [Bullet Hell]
-    theme: [Anime]
+    genre:
+    - Platform
 
-- name: TrackMania
+- name: The Hobbit
+  external:
+    wikipedia: The Hobbit (1982 video game)
   meta:
-    genre: [Racing]
+    genre:
+    - Adventure
 
-- name: [Transplant, Transplant (video game)]
+- name: The Incredible Machine
+  external:
+    wikipedia: The_Incredible_Machine_(video_game)
   meta:
-    genre: [Arcade]
+    genre:
+    - Puzzle
+    - Simulation
 
-- name: Transport Tycoon
+- name: The Incredible Machine 2
+  external:
+    wikipedia: The Incredible Machine 2
   meta:
-    genre: [Strategy, Simulation]
-    theme: [Management]
+    genre:
+    - Puzzle
+    - Simulation
 
-- name: Transport Tycoon Deluxe
+- name: The Incredible Machine 3
+  external:
+    wikipedia: The Incredible Machine 3
   meta:
-    genre: [Strategy, Simulation]
-    theme: [Management]
+    genre:
+    - Puzzle
+    - Simulation
 
-- name: Tranz Am
+- name: 'The Incredible Machine: Even More Contraptions'
+  external:
+    wikipedia: 'The Incredible Machine: Even More Contraptions'
   meta:
-    genre: [Arcade]
+    genre:
+    - Puzzle
+    - Simulation
 
-- name: [Tron, Tron (video game)]
+- name: The Last Ninja
+  external:
+    wikipedia: The Last Ninja
   meta:
-    genre: [Arcade]
+    genre:
+    - Action
+    - Adventure
 
-- name: [Turmoil, Turmoil (1984 video game)]
+- name: The Lord of the Rings Volume 1
+  external:
+    wikipedia: J.R.R. Tolkien's The Lord of the Rings, Vol. I (1990 video game)
   meta:
-    genre: [Arcade]
-
-- name: [Turnabout, Turnabout (video game)]
-  meta:
-    genre: [Puzzle]
-
-- name: [Turok, Turok (video game)]
-  meta:
-    genre: [FPS]
-
-- name: Turrican
-  meta:
-    genre: [Shmup]
-
-- name: [Tyrian, Tyrian (video game)]
-  meta:
-    genre: [Shmup]
+    genre:
+    - Action
+    - RPG
 
 - name: The Lost Vikings
+  external:
+    wikipedia: The Lost Vikings
   meta:
-    genre: [Platform]
+    genre:
+    - Platform
 
-- name: [The Witcher, The Witcher (video game)]
+- name: The Maze of Galious
+  external:
+    wikipedia: The Maze of Galious
   meta:
-    genre: [RPG]
-    theme: [Fantasy]
+    genre:
+    - Platform
 
-- name: [Thief, Thief (series)]
+- name: The Need for Speed
+  external:
+    wikipedia: The Need for Speed
   meta:
-    genre: [Action, Adventure]
-    theme: [Crime, Fantasy]
+    genre:
+    - Racing
+
+- name: The Sentinel
+  external:
+    wikipedia: The Sentinel (video game)
+  meta:
+    genre:
+    - Puzzle
+
+- name: The Settlers
+  external:
+    wikipedia: The Settlers (video game)
+  meta:
+    genre:
+    - RTS
+    subgenre:
+    - City Building
+    theme:
+    - Medieval
+  names:
+  - Die Siedler
+  - Serf City
+
+- name: The Settlers II
+  external:
+    wikipedia: The Settlers II
+  meta:
+    genre:
+    - RTS
+    subgenre:
+    - City Building
+    theme:
+    - Medieval
+    - Alternate Historical
+    - Fantasy
+  names:
+  - Die Siedler II
+
+- name: The Settlers III
+  external:
+    wikipedia: The Settlers III
+  meta:
+    genre:
+    - RTS
+    subgenre:
+    - City Building
+    theme:
+    - Egyptian
+    - Alternate Historical
+    - Fantasy
+  names:
+  - Die Siedler III
+
+- name: The Sims Online
+  external:
+    wikipedia: The Sims Online
+  meta:
+    genre:
+    - Simulation
+    theme:
+    - Management
+
+- name: The Witcher
+  external:
+    wikipedia: The Witcher (video game)
+  meta:
+    genre:
+    - RPG
+    theme:
+    - Fantasy
+
+- name: Theme Hospital
+  external:
+    wikipedia: Theme Hospital
+  meta:
+    genre:
+    - Strategy
+    - Simulation
+    theme:
+    - Management
+    - Comedy
+
+- name: Theme Park
+  external:
+    wikipedia: Theme Park (video game)
+  meta:
+    genre:
+    - Strategy
+    - Simulation
+    theme:
+    - Management
+    - Comedy
+
+- name: Thief
+  external:
+    wikipedia: Thief (series)
+  meta:
+    genre:
+    - Action
+    - Adventure
+    theme:
+    - Crime
+    - Fantasy
+
+- name: Thromolus
+  external:
+    website: http://hol.abime.net/1386
+  meta:
+    genre:
+    - Puzzle
+
+- name: Thrust
+  external:
+    wikipedia: Thrust (video game)
+  meta:
+    genre:
+    - Arcade
+
+- name: Tiny Wings
+  external:
+    wikipedia: Tiny Wings
+  meta:
+    genre:
+    - Arcade
+
+- name: Titus the Fox
+  external:
+    wikipedia: Titus the Fox
+  meta:
+    genre:
+    - Platform
+  names:
+  - Moktar
+
+- name: Tomb Raider
+  external:
+    wikipedia: Tomb Raider
+  meta:
+    genre:
+    - Platform
+    - Adventure
+    - Action
+
+- name: Toobz
+  external:
+    wikipedia: Toobz
+  meta:
+    genre:
+    - Puzzle
+  platform:
+  - Amiga
+
+- name: Total Annihilation
+  external:
+    wikipedia: Total Annihilation
+  meta:
+    genre:
+    - RTS
+
+- name: Touhou
+  external:
+    wikipedia: Touhou Project
+  meta:
+    genre:
+    - Shmup
+    subgenre:
+    - Bullet Hell
+    theme:
+    - Anime
+
+- name: TrackMania
+  external:
+    wikipedia: TrackMania
+  meta:
+    genre:
+    - Racing
+
+- name: Transplant
+  external:
+    wikipedia: Transplant (video game)
+  meta:
+    genre:
+    - Arcade
+
+- name: Transport Tycoon
+  external:
+    wikipedia: Transport Tycoon
+  meta:
+    genre:
+    - Strategy
+    - Simulation
+    theme:
+    - Management
+
+- name: Transport Tycoon Deluxe
+  external:
+    wikipedia: Transport Tycoon Deluxe
+  meta:
+    genre:
+    - Strategy
+    - Simulation
+    theme:
+    - Management
+
+- name: Tranz Am
+  external:
+    wikipedia: Tranz Am
+  meta:
+    genre:
+    - Arcade
 
 - name: Tribal Hero
+  external:
+    wikipedia: Tribal Hero
   meta:
-    genre: [MMORPG]
+    genre:
+    - MMORPG
+
+- name: Tron
+  external:
+    wikipedia: Tron (video game)
+  meta:
+    genre:
+    - Arcade
+
+- name: Turmoil
+  external:
+    wikipedia: Turmoil (1984 video game)
+  meta:
+    genre:
+    - Arcade
+
+- name: Turnabout
+  external:
+    wikipedia: Turnabout (video game)
+  meta:
+    genre:
+    - Puzzle
+
+- name: Turok
+  external:
+    wikipedia: Turok (video game)
+  meta:
+    genre:
+    - FPS
+
+- name: Turrican
+  external:
+    wikipedia: Turrican
+  meta:
+    genre:
+    - Shmup
+
+- name: Tyrian
+  external:
+    wikipedia: Tyrian (video game)
+  meta:
+    genre:
+    - Shmup
+

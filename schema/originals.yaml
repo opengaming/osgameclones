@@ -4,9 +4,19 @@ sequence:
     mapping:
       name:
         required: True
-        type: any
+        type: str
       names:
-        type: any
+        type: seq
+        sequence:
+          - type: str
+      external:
+        required: True
+        type: map
+        mapping:
+          website:
+            type: str
+          wikipedia:
+            type: str
       platform:
         type: seq
         sequence:

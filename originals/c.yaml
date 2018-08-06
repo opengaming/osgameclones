@@ -1,192 +1,354 @@
-
-- name: [Cadaver, Cadaver (video game)]
+- name: C-Dogs
+  external:
+    wikipedia: C-Dogs
   meta:
-    genre: [Action, Adventure]
+    genre:
+    - Shmup
+    subgenre:
+    - Run and gun
+
+- name: Cadaver
+  external:
+    wikipedia: Cadaver (video game)
+  meta:
+    genre:
+    - Action
+    - Adventure
 
 - name: Caesar 3
+  external:
+    wikipedia: Caesar 3
   meta:
-    genre: [Simulation, Strategy]
-    subgenre: [City Building]
-    theme: [Management]
+    genre:
+    - Simulation
+    - Strategy
+    subgenre:
+    - City Building
+    theme:
+    - Management
 
 - name: Call to Power II
+  external:
+    wikipedia: Call to Power II
   meta:
-    genre: [TBS]
+    genre:
+    - TBS
 
 - name: Candy Crush Saga
+  external:
+    wikipedia: Candy Crush Saga
   meta:
-    genre: [Puzzle]
+    genre:
+    - Puzzle
 
-- name: [Cannon Fodder, Cannon Fodder (series)]
+- name: Cannon Fodder
+  external:
+    wikipedia: Cannon Fodder (series)
   meta:
-    genre: [Action, RTS, Shmup]
+    genre:
+    - Action
+    - RTS
+    - Shmup
 
 - name: Carmageddon
+  external:
+    wikipedia: Carmageddon
   meta:
-    genre: [Racing]
+    genre:
+    - Racing
 
 - name: Castle of the Winds
+  external:
+    wikipedia: Castle of the Winds
   meta:
-    genre: [Roguelike]
+    genre:
+    - Roguelike
 
-- name: [Cataclysm, 'http://cataclysmrl.blogspot.com/']
+- name: Cataclysm
+  external:
+    website: http://cataclysmrl.blogspot.com/
   meta:
-    genre: [Roguelike]
-    subgenre: [Survival]
-    theme: [Horror]
+    genre:
+    - Roguelike
+    subgenre:
+    - Survival
+    theme:
+    - Horror
 
-- name: [Catacomb, Catacomb (video game)]
+- name: Catacomb
+  external:
+    wikipedia: Catacomb (video game)
   meta:
-    genre: [Action, TPS]
-    theme: [Fantasy]
+    genre:
+    - Action
+    - TPS
+    theme:
+    - Fantasy
 
 - name: Catacomb II
+  external:
+    wikipedia: Catacomb II
   meta:
-    genre: [Action, TPS]
-    theme: [Fantasy]
+    genre:
+    - Action
+    - TPS
+    theme:
+    - Fantasy
 
 - name: Cave Story
-  names: [Doukutsu Monogatari]
+  external:
+    wikipedia: Cave Story
   meta:
-    genre: [Adventure, Platform]
-    theme: [Sci-Fi]
+    genre:
+    - Adventure
+    - Platform
+    theme:
+    - Sci-Fi
+  names:
+  - Doukutsu Monogatari
 
 - name: Chip's Challenge
+  external:
+    wikipedia: Chip's Challenge
   meta:
-    genre: [Puzzle]
+    genre:
+    - Puzzle
 
 - name: ChuChu Rocket!
+  external:
+    wikipedia: ChuChu Rocket!
   meta:
-    genre: [Puzzle, Action]
+    genre:
+    - Puzzle
+    - Action
 
-- name: [Circus Atari, Circus (video game)]
+- name: Circus Atari
+  external:
+    wikipedia: Circus (video game)
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
-- name: [Claw, Claw (video game)]
+- name: Civilization
+  external:
+    wikipedia: Civilization (video game)
   meta:
-    genre: [Platform]
+    genre:
+    - TBS
+
+- name: Civilization II
+  external:
+    wikipedia: Civilization II
+  meta:
+    genre:
+    - TBS
+    subgenre:
+    - 4X
+    theme:
+    - Alternate Historical
+    - Management
+
+- name: Claw
+  external:
+    wikipedia: Claw (video game)
+  meta:
+    genre:
+    - Platform
 
 - name: Clonk
+  external:
+    wikipedia: Clonk
   meta:
-    genre: [Action, Platform, RTS]
+    genre:
+    - Action
+    - Platform
+    - RTS
 
-- name: [Columns, Columns (video game)]
+- name: Columns
+  external:
+    wikipedia: Columns (video game)
   meta:
-    genre: [Puzzle]
-
-- name: [Commando, Commando (video game)]
-  meta:
-    genre: [Shmup]
-
-- name: [Commander Keen Series, Commander Keen]
-  meta:
-    genre: [Platform]
+    genre:
+    - Puzzle
 
 - name: Command & Conquer
+  external:
+    wikipedia: Command & Conquer
   meta:
-    genre: [RTS]
-    theme: [Modern Military]
-
-- name: 'Command & Conquer: Red Alert'
-  meta:
-    genre: [RTS]
-    theme: [Modern Military]
+    genre:
+    - RTS
+    theme:
+    - Modern Military
 
 - name: 'Command & Conquer: Generals'
+  external:
+    wikipedia: 'Command & Conquer: Generals'
   meta:
-    genre: [RTS]
-    theme: [Sci-Fi, Modern Military]
+    genre:
+    - RTS
+    theme:
+    - Sci-Fi
+    - Modern Military
+
+- name: 'Command & Conquer: Red Alert'
+  external:
+    wikipedia: 'Command & Conquer: Red Alert'
+  meta:
+    genre:
+    - RTS
+    theme:
+    - Modern Military
+
+- name: Commander Keen Series
+  external:
+    wikipedia: Commander Keen
+  meta:
+    genre:
+    - Platform
+
+- name: Commando
+  external:
+    wikipedia: Commando (video game)
+  meta:
+    genre:
+    - Shmup
 
 - name: Company of Heroes
+  external:
+    wikipedia: Company of Heroes
   meta:
-    genre: [RTS]
-    theme: [World War II]
+    genre:
+    - RTS
+    theme:
+    - World War II
+
+- name: Company of Heroes 2
+  external:
+    wikipedia: Company of Heroes 2
+  meta:
+    genre:
+    - RTS
+    theme:
+    - World War II
 
 - name: 'Company of Heroes: Opposing Fronts'
+  external:
+    wikipedia: 'Company of Heroes: Opposing Fronts'
   meta:
-    genre: [RTS]
-    theme: [World War II]
+    genre:
+    - RTS
+    theme:
+    - World War II
 
 - name: 'Company of Heroes: Tales of Valor'
+  external:
+    wikipedia: 'Company of Heroes: Tales of Valor'
   meta:
-    genre: [RTS]
-    theme: [World War II]
+    genre:
+    - RTS
+    theme:
+    - World War II
 
-- name: 'Company of Heroes 2'
+- name: Contra
+  external:
+    wikipedia: Contra (video game)
   meta:
-    genre: [RTS]
-    theme: [World War II]
-
-- name: [Contra, Contra (video game)]
-  meta:
-    genre: [Platform]
+    genre:
+    - Platform
 
 - name: Cookie Clicker
+  external:
+    wikipedia: Cookie Clicker
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
 - name: Cosmic Ark
+  external:
+    wikipedia: Cosmic Ark
   meta:
-    genre: [Action]
+    genre:
+    - Action
 
-- name: [Crazy Cars, Titus Software]
+- name: Crazy Cars
+  external:
+    wikipedia: Titus Software
   meta:
-    genre: [Racing]
+    genre:
+    - Racing
 
 - name: Crazy Machines
+  external:
+    wikipedia: Crazy Machines
   meta:
-    genre: [Puzzle, Simulation]
-
-- name: 'Crazy Machines: The Wacky Contraptions Game'
-  meta:
-    genre: [Puzzle, Simulation]
+    genre:
+    - Puzzle
+    - Simulation
 
 - name: Crazy Machines 2
+  external:
+    wikipedia: Crazy Machines 2
   meta:
-    genre: [Puzzle, Simulation]
+    genre:
+    - Puzzle
+    - Simulation
 
-- name: [Creatures, Creatures (video game)]
+- name: 'Crazy Machines: The Wacky Contraptions Game'
+  external:
+    wikipedia: 'Crazy Machines: The Wacky Contraptions Game'
   meta:
-    genre: [Puzzle]
+    genre:
+    - Puzzle
+    - Simulation
+
+- name: Creatures
+  external:
+    wikipedia: Creatures (video game)
+  meta:
+    genre:
+    - Puzzle
+
+- name: Crimsonland
+  external:
+    wikipedia: Crimsonland
+  meta:
+    genre:
+    - Shmup
+
+- name: Crystal Caves
+  external:
+    wikipedia: Crystal Caves
+  meta:
+    genre:
+    - Platform
 
 - name: Crystal Quest
+  external:
+    wikipedia: Crystal Quest
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
 - name: 'Cube 2: Sauerbraten'
+  external:
+    wikipedia: 'Cube 2: Sauerbraten'
   meta:
-    genre: [FPS]
+    genre:
+    - FPS
     subgenre: []
     theme: []
 
 - name: Curse of the Azure Bonds
+  external:
+    wikipedia: Curse of the Azure Bonds
   meta:
-    genre: [RPG]
+    genre:
+    - RPG
 
-- name: [Cytadela, 'http://www.ppa.pl/gry/cytadela.html']
+- name: Cytadela
+  external:
+    website: http://www.ppa.pl/gry/cytadela.html
   meta:
-    genre: [FPS]
+    genre:
+    - FPS
 
-- name: C-Dogs
-  meta:
-    genre: [Shmup]
-    subgenre: [Run and gun]
-
-- name: [Civilization, Civilization (video game)]
-  meta:
-    genre: [TBS]
-
-- name: Civilization II
-  meta:
-    genre: [TBS]
-    subgenre: [4X]
-    theme: [Alternate Historical, Management]
-
-- name: Crimsonland
-  meta:
-    genre: [Shmup]
-
-- name: Crystal Caves
-  meta:
-    genre: [Platform]

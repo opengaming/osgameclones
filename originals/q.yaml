@@ -1,20 +1,35 @@
-
-- name: [Quadnet, 'https://www.mobygames.com/game/dos/quadnet']
+- name: Q*bert
+  external:
+    wikipedia: Q*bert
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
+
+- name: Quadnet
+  external:
+    website: https://www.mobygames.com/game/dos/quadnet
+  meta:
+    genre:
+    - Arcade
 
 - name: Quake
+  external:
+    wikipedia: Quake
   meta:
-    genre: [FPS]
+    genre:
+    - FPS
 
 - name: Quake 2
+  external:
+    wikipedia: Quake 2
   meta:
-    genre: [FPS]
+    genre:
+    - FPS
 
 - name: Quake 3
+  external:
+    wikipedia: Quake 3
   meta:
-    genre: [FPS]
+    genre:
+    - FPS
 
-- name: Q*bert
-  meta:
-    genre: [Arcade]

@@ -1,75 +1,138 @@
-
-- name: [Hardwar, Hardwar (video game)]
+- name: Hack
+  external:
+    wikipedia: Hack (video game)
   meta:
-    genre: [Action, Simulation]
-    subgenre: [Flight Simulator]
-    theme: [Sci-Fi, Cyberpunk]
+    genre:
+    - Roguelike
+
+- name: Hardwar
+  external:
+    wikipedia: Hardwar (video game)
+  meta:
+    genre:
+    - Action
+    - Simulation
+    subgenre:
+    - Flight Simulator
+    theme:
+    - Sci-Fi
+    - Cyberpunk
 
 - name: Haunted House
+  external:
+    wikipedia: Haunted House
   meta:
-    genre: [Action, Adventure]
-    subgenre: [Survival]
-    theme: [Horror]
+    genre:
+    - Action
+    - Adventure
+    subgenre:
+    - Survival
+    theme:
+    - Horror
 
-- name: [Head over Heels, Head over Heels (video game)]
+- name: Head over Heels
+  external:
+    wikipedia: Head over Heels (video game)
   meta:
-    genre: [Platform]
+    genre:
+    - Platform
 
-- name: [Heart of Darkness, Heart of Darkness (video game)]
+- name: Heart of Darkness
+  external:
+    wikipedia: Heart of Darkness (video game)
   meta:
-    genre: [Platform, Adventure]
+    genre:
+    - Platform
+    - Adventure
 
-- name: [Heavy Smash, 'http://www.mobygames.com/game/arcade/heavy-smash']
+- name: Heavy Smash
+  external:
+    website: http://www.mobygames.com/game/arcade/heavy-smash
   meta:
-    genre: [Sports]
-    subgenre: [Handball]
-    theme: [Sci-Fi]
+    genre:
+    - Sports
+    subgenre:
+    - Handball
+    theme:
+    - Sci-Fi
 
-- name: Hexen
+- name: Heretic
+  external:
+    wikipedia: Heretic (video game)
   meta:
-    genre: [FPS]
-
-- name: Hexen II
-  meta:
-    genre: [FPS]
-
-- name: [Heretic, Heretic (video game)]
-  meta:
-    genre: [FPS]
+    genre:
+    - FPS
 
 - name: Heroes of Might and Magic II
+  external:
+    wikipedia: Heroes of Might and Magic II
   meta:
-    genre: [TBS]
+    genre:
+    - TBS
 
 - name: Heroes of Might and Magic III
+  external:
+    wikipedia: Heroes of Might and Magic III
   meta:
-    genre: [TBS]
-
-- name: Highway Encounter
-  meta:
-    genre: [RTS]
-
-- name: 'History Line: 1914-1918'
-  meta:
-    genre: [Strategy, Turn-Based Tactics]
-    theme: [World War I]
-
-- name: Homeworld
-  meta:
-    genre: [RTS]
-
-- name: HoverRace
-  meta:
-    genre: [Racing]
-
-- name: Hovertank 3D
-  meta:
-    genre: [FPS]
+    genre:
+    - TBS
 
 - name: Herzog Zwei
+  external:
+    wikipedia: Herzog Zwei
   meta:
-    genre: [RTS]
+    genre:
+    - RTS
 
-- name: [Hack, Hack (video game)]
+- name: Hexen
+  external:
+    wikipedia: Hexen
   meta:
-    genre: [Roguelike]
+    genre:
+    - FPS
+
+- name: Hexen II
+  external:
+    wikipedia: Hexen II
+  meta:
+    genre:
+    - FPS
+
+- name: Highway Encounter
+  external:
+    wikipedia: Highway Encounter
+  meta:
+    genre:
+    - RTS
+
+- name: 'History Line: 1914-1918'
+  external:
+    wikipedia: 'History Line: 1914-1918'
+  meta:
+    genre:
+    - Strategy
+    - Turn-Based Tactics
+    theme:
+    - World War I
+
+- name: Homeworld
+  external:
+    wikipedia: Homeworld
+  meta:
+    genre:
+    - RTS
+
+- name: HoverRace
+  external:
+    wikipedia: HoverRace
+  meta:
+    genre:
+    - Racing
+
+- name: Hovertank 3D
+  external:
+    wikipedia: Hovertank 3D
+  meta:
+    genre:
+    - FPS
+

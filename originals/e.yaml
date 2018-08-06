@@ -1,81 +1,156 @@
-
-- name: [E.T. the Extra-Terrestrial, E.T. the Extra-Terrestrial (video game)]
+- name: E.T. the Extra-Terrestrial
+  external:
+    wikipedia: E.T. the Extra-Terrestrial (video game)
   meta:
-    genre: [Arcade, Adventure]
+    genre:
+    - Arcade
+    - Adventure
 
-- name: [Earth Shaker, Earth Shaker (video game)]
+- name: Earth Shaker
+  external:
+    wikipedia: Earth Shaker (video game)
   meta:
-    genre: [Puzzle]
+    genre:
+    - Puzzle
 
-- name: [Eat The Whistle, Eat the whistle (video game)]
+- name: Eat The Whistle
+  external:
+    wikipedia: Eat the whistle (video game)
   meta:
-    genre: [Sports]
-    subgenre: [Soccer]
+    genre:
+    - Sports
+    subgenre:
+    - Soccer
 
 - name: Echochrome
-  names: ["Mugen Kair\u014D", "\u7121\u9650\u56DE\u5ECA"]
+  external:
+    wikipedia: Echochrome
   meta:
-    genre: [Puzzle]
-
-- name: [Elements, 'http://www.mobygames.com/game/browser/elements_']
-  meta:
-    genre: [TBS]
-
-- name: [Encounter, Encounter (video game)]
-  meta:
-    genre: [Shmup]
-
-- name: [Entombed!, Entombed (1982 video game)]
-  meta:
-    genre: [Adventure]
-
-- name: Escape from Colditz
-  meta:
-    genre: [Action, Adventure]
-
-- name: Eye of the Beholder II
-  meta:
-    genre: [RPG, Action]
+    genre:
+    - Puzzle
+  names:
+  - "Mugen Kair\u014D"
+  - "\u7121\u9650\u56DE\u5ECA"
 
 - name: Elasto Mania
+  external:
+    wikipedia: Elasto Mania
   meta:
-    genre: [Platform]
+    genre:
+    - Platform
+
+- name: Elements
+  external:
+    website: http://www.mobygames.com/game/browser/elements_
+  meta:
+    genre:
+    - TBS
+
+- name: Elite
+  external:
+    wikipedia: Elite_(video_game)
+  meta:
+    genre:
+    - Action
+    - Simulation
+    subgenre:
+    - Flight Simulator
+    theme:
+    - Sci-Fi
+
+- name: Elite II
+  external:
+    wikipedia: 'Frontier: Elite II'
+  meta:
+    genre:
+    - Action
+    - Simulation
+    subgenre:
+    - Flight Simulator
+    theme:
+    - Sci-Fi
+    - Espionage
+
+- name: Elite III
+  external:
+    wikipedia: 'Frontier: First Encounters'
+  meta:
+    genre:
+    - Action
+    - Simulation
+    subgenre:
+    - Flight Simulator
+    theme:
+    - Sci-Fi
+    - Espionage
+  names:
+  - 'Frontier: First Encounters'
+  - FFE
 
 - name: Emperor of the Fading Suns
+  external:
+    wikipedia: Emperor of the Fading Suns
   meta:
-    genre: [TBS]
+    genre:
+    - TBS
 
-- name: [Exile 1988, Exile_(1988_video_game)]
+- name: Encounter
+  external:
+    wikipedia: Encounter (video game)
   meta:
-    genre: [Action, Adventure]
+    genre:
+    - Shmup
 
-- name: Exolon
+- name: Entombed!
+  external:
+    wikipedia: Entombed (1982 video game)
   meta:
-    genre: [Shmup]
+    genre:
+    - Adventure
 
-- name: [Elite, Elite_(video_game)]
+- name: Escape from Colditz
+  external:
+    wikipedia: Escape from Colditz
   meta:
-    genre: [Action, Simulation]
-    subgenre: [Flight Simulator]
-    theme: [Sci-Fi]
-
-- name: [Elite II, 'Frontier: Elite II']
-  meta:
-    genre: [Action, Simulation]
-    subgenre: [Flight Simulator]
-    theme: [Sci-Fi, Espionage]
-
-- name: [Elite III, 'Frontier: First Encounters']
-  names: ['Frontier: First Encounters', FFE]
-  meta:
-    genre: [Action, Simulation]
-    subgenre: [Flight Simulator]
-    theme: [Sci-Fi, Espionage]
+    genre:
+    - Action
+    - Adventure
 
 - name: Escape from Monkey Island
+  external:
+    wikipedia: Escape from Monkey Island
   meta:
-    genre: [Adventure]
+    genre:
+    - Adventure
 
-- name: [Escape Velocity, Escape Velocity (video game)]
+- name: Escape Velocity
+  external:
+    wikipedia: Escape Velocity (video game)
   meta:
-    genre: [Action, Simulation]
+    genre:
+    - Action
+    - Simulation
+
+- name: Exile 1988
+  external:
+    wikipedia: Exile_(1988_video_game)
+  meta:
+    genre:
+    - Action
+    - Adventure
+
+- name: Exolon
+  external:
+    wikipedia: Exolon
+  meta:
+    genre:
+    - Shmup
+
+- name: Eye of the Beholder II
+  external:
+    wikipedia: Eye of the Beholder II
+  meta:
+    genre:
+    - RPG
+    - Action
+

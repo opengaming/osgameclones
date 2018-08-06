@@ -1,35 +1,71 @@
-
-- name: 'X-COM: UFO Defense'
+- name: 'X-COM: Apocalypse'
+  external:
+    wikipedia: 'X-COM: Apocalypse'
   meta:
-    genre: [Strategy, RTS, Turn-Based Tactics]
-    theme: [Horror, Sci-Fi]
+    genre:
+    - Strategy
+    - RTS
+    - Turn-Based Tactics
+    theme:
+    - Horror
+    - Sci-Fi
 
 - name: 'X-COM: Terror from the Deep'
+  external:
+    wikipedia: 'X-COM: Terror from the Deep'
   meta:
-    genre: [Strategy, RTS, Turn-Based Tactics]
-    theme: [Horror, Sci-Fi]
+    genre:
+    - Strategy
+    - RTS
+    - Turn-Based Tactics
+    theme:
+    - Horror
+    - Sci-Fi
 
-- name: 'X-COM: Apocalypse'
+- name: 'X-COM: UFO Defense'
+  external:
+    wikipedia: 'X-COM: UFO Defense'
   meta:
-    genre: [Strategy, RTS, Turn-Based Tactics]
-    theme: [Horror, Sci-Fi]
+    genre:
+    - Strategy
+    - RTS
+    - Turn-Based Tactics
+    theme:
+    - Horror
+    - Sci-Fi
 
-- name: [X-It, 'http://www.mobygames.com/game/x-it']
+- name: X-It
+  external:
+    website: http://www.mobygames.com/game/x-it
   meta:
-    genre: [Puzzle]
+    genre:
+    - Puzzle
 
 - name: Xenon 2 Megablast
+  external:
+    wikipedia: Xenon 2 Megablast
   meta:
-    genre: [Shmup]
+    genre:
+    - Shmup
+
+- name: XOR
+  external:
+    wikipedia: XOR (video game)
+  meta:
+    genre:
+    - Puzzle
 
 - name: XPilot
+  external:
+    wikipedia: XPilot
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
-- name: [XQuest, 'http://www.swallowtail.org/xquest/']
+- name: XQuest
+  external:
+    website: http://www.swallowtail.org/xquest/
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
-- name: [XOR, XOR (video game)]
-  meta:
-    genre: [Puzzle]

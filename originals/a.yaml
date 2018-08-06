@@ -1,174 +1,323 @@
-
-- name: [Abuse, Abuse (video game)]
+- name: A-Train
+  external:
+    wikipedia: A-Train
   meta:
-    genre: [Action, Platform]
-    theme: [Horror, Sci-Fi]
+    genre:
+    - Simulation
 
-- name: [Ace of Spades, Ace of Spades (video game)]
+- name: Abuse
+  external:
+    wikipedia: Abuse (video game)
   meta:
-    genre: [FPS]
-    theme: [World War II]
+    genre:
+    - Action
+    - Platform
+    theme:
+    - Horror
+    - Sci-Fi
 
 - name: 'Ace Combat: Assault Horizon'
+  external:
+    wikipedia: 'Ace Combat: Assault Horizon'
   meta:
-    genre: [Action, Simulation]
-    subgenre: [Flight Simulator]
-    theme: [Modern Military]
+    genre:
+    - Action
+    - Simulation
+    subgenre:
+    - Flight Simulator
+    theme:
+    - Modern Military
 
-- name: Advance Wars
+- name: Ace of Spades
+  external:
+    wikipedia: Ace of Spades (video game)
   meta:
-    genre: [TBS]
+    genre:
+    - FPS
+    theme:
+    - World War II
 
 - name: Achtung, die Kurve!
-  names: [Curve Fever, Zatacka]
+  external:
+    wikipedia: Achtung, die Kurve!
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
+  names:
+  - Curve Fever
+  - Zatacka
+
+- name: Advance Wars
+  external:
+    wikipedia: Advance Wars
+  meta:
+    genre:
+    - TBS
 
 - name: Age of Empires
+  external:
+    wikipedia: Age of Empires
   meta:
-    genre: [RTS]
+    genre:
+    - RTS
     subgenre: []
     theme: []
 
 - name: Age of Empires II
+  external:
+    wikipedia: Age of Empires II
   meta:
-    genre: [RTS]
+    genre:
+    - RTS
     subgenre: []
-    theme: [Medieval]
+    theme:
+    - Medieval
 
 - name: 'Akalabeth: World of Doom'
+  external:
+    wikipedia: 'Akalabeth: World of Doom'
   meta:
-    genre: [RPG]
-    theme: [Fantasy]
+    genre:
+    - RPG
+    theme:
+    - Fantasy
 
 - name: Alien 8
+  external:
+    wikipedia: Alien 8
   meta:
-    genre: [Action]
+    genre:
+    - Action
 
-- name: [Allegiance, Allegiance (video game)]
+- name: Allegiance
+  external:
+    wikipedia: Allegiance (video game)
   meta:
-    genre: [Action, Simulation, RTS]
-    theme: [Sci-Fi]
+    genre:
+    - Action
+    - Simulation
+    - RTS
+    theme:
+    - Sci-Fi
 
 - name: Alone in the Dark
+  external:
+    wikipedia: Alone in the Dark
   meta:
-    genre: [Action, Adventure]
-    theme: [Horror, Alternate Historical]
+    genre:
+    - Action
+    - Adventure
+    theme:
+    - Horror
+    - Alternate Historical
 
 - name: Alone in the Dark 2
+  external:
+    wikipedia: Alone in the Dark 2
   meta:
-    genre: [Action, Adventure]
-    theme: [Horror, Alternate Historical]
+    genre:
+    - Action
+    - Adventure
+    theme:
+    - Horror
+    - Alternate Historical
 
 - name: Alone in the Dark 3
+  external:
+    wikipedia: Alone in the Dark 3
   meta:
-    genre: [Action, Adventure]
-    theme: [Horror, Alternate Historical]
+    genre:
+    - Action
+    - Adventure
+    theme:
+    - Horror
+    - Alternate Historical
 
 - name: 'Anacreon: Reconstruction 4021'
+  external:
+    wikipedia: 'Anacreon: Reconstruction 4021'
   meta:
-    genre: [TBS]
-    theme: [Sci-Fi, Management]
+    genre:
+    - TBS
+    theme:
+    - Sci-Fi
+    - Management
 
-- name: [Another World, Another World (video game)]
+- name: Anno series
+  external:
+    wikipedia: Anno_1602
+  meta:
+    genre:
+    - RTS
+
+- name: Another World
+  external:
+    wikipedia: Another World (video game)
+  meta:
+    genre:
+    - Adventure
+    - Platform
+    theme:
+    - Sci-Fi
   names:
-  - [Out of This World, Another World (video game)]
-  - ["Outer World (\u30A2\u30A6\u30BF\u30FC\u30EF\u30FC\u30EB\u30C9 Aut\u0101 W\u0101\
-      rudo)", Another World (video game)]
-  meta:
-    genre: [Adventure, Platform]
-    theme: [Sci-Fi]
+  - Out of This World
+  - "Outer World (\u30A2\u30A6\u30BF\u30FC\u30EF\u30FC\u30EB\u30C9 Aut\u0101 W\u0101\
+    rudo)"
 
-- name: ['Another World 2: Heart of the Alien', Heart of the Alien]
+- name: 'Another World 2: Heart of the Alien'
+  external:
+    wikipedia: Heart of the Alien
   meta:
-    genre: [Adventure, Platform]
+    genre:
+    - Adventure
+    - Platform
 
 - name: AquaStax
-  platform: [Mobile]
+  external:
+    wikipedia: AquaStax
   meta:
-    genre: [Puzzle, Platform]
+    genre:
+    - Puzzle
+    - Platform
+  platform:
+  - Mobile
 
 - name: 'Archon: The Light and the Dark'
+  external:
+    wikipedia: 'Archon: The Light and the Dark'
   meta:
-    genre: [TBS]
+    genre:
+    - TBS
 
-- name: [Ares, Ares (video game)]
+- name: Ares
+  external:
+    wikipedia: Ares (video game)
   meta:
-    genre: [Arcade, RTS]
-
-- name: 'ARMA: Armed Assault'
-  meta:
-    genre: [FPS]
-    theme: [Modern Military]
-
-- name: ARMA 2
-  meta:
-    genre: [FPS]
-    theme: [Modern Military]
-
-- name: ARMA 3
-  meta:
-    genre: [FPS]
-    theme: [Modern Military]
-
-- name: Armor Alley
-  meta:
-    genre: [Arcade, Real-Time Tactics]
-    theme: [Modern Military]
-
-- name: 'Artemis: Spaceship Bridge Simulator'
-  meta:
-    genre: [Simulation]
-    theme: [Sci-Fi]
-
-- name: Artillery Duel
-  meta:
-    genre: [Artillery]
-
-- name: Arx Fatalis
-  meta:
-    genre: [RPG]
-
-- name: Ascendancy
-  meta:
-    genre: [TBS]
-
-- name: [Asteroids, Asteroids (video game)]
-  meta:
-    genre: [Arcade]
-
-- name: [Asylum, 'https://www.mobygames.com/game/acorn-32-bit/asylum']
-  meta:
-    genre: [Action]
-
-- name: [Atomix, Atomix (video game)]
-  meta:
-    genre: [Puzzle]
-
-- name: AstroMenace
-  meta:
-    genre: [Shmup]
-
-- name: Astrosmash
-  meta:
-    genre: [Arcade]
-
-- name: Atomic Bomberman
-  meta:
-    genre: [Action]
-
-- name: Awesomenauts
-  meta:
-    genre: [RPG, RTS]
-
-- name: A-Train
-  meta:
-    genre: [Simulation]
-
-- name: [Anno series, Anno_1602]
-  meta:
-    genre: [RTS]
+    genre:
+    - Arcade
+    - RTS
 
 - name: Arkanoid
+  external:
+    wikipedia: Arkanoid
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
+
+- name: ARMA 2
+  external:
+    wikipedia: ARMA 2
+  meta:
+    genre:
+    - FPS
+    theme:
+    - Modern Military
+
+- name: ARMA 3
+  external:
+    wikipedia: ARMA 3
+  meta:
+    genre:
+    - FPS
+    theme:
+    - Modern Military
+
+- name: 'ARMA: Armed Assault'
+  external:
+    wikipedia: 'ARMA: Armed Assault'
+  meta:
+    genre:
+    - FPS
+    theme:
+    - Modern Military
+
+- name: Armor Alley
+  external:
+    wikipedia: Armor Alley
+  meta:
+    genre:
+    - Arcade
+    - Real-Time Tactics
+    theme:
+    - Modern Military
+
+- name: 'Artemis: Spaceship Bridge Simulator'
+  external:
+    wikipedia: 'Artemis: Spaceship Bridge Simulator'
+  meta:
+    genre:
+    - Simulation
+    theme:
+    - Sci-Fi
+
+- name: Artillery Duel
+  external:
+    wikipedia: Artillery Duel
+  meta:
+    genre:
+    - Artillery
+
+- name: Arx Fatalis
+  external:
+    wikipedia: Arx Fatalis
+  meta:
+    genre:
+    - RPG
+
+- name: Ascendancy
+  external:
+    wikipedia: Ascendancy
+  meta:
+    genre:
+    - TBS
+
+- name: Asteroids
+  external:
+    wikipedia: Asteroids (video game)
+  meta:
+    genre:
+    - Arcade
+
+- name: AstroMenace
+  external:
+    wikipedia: AstroMenace
+  meta:
+    genre:
+    - Shmup
+
+- name: Astrosmash
+  external:
+    wikipedia: Astrosmash
+  meta:
+    genre:
+    - Arcade
+
+- name: Asylum
+  external:
+    website: https://www.mobygames.com/game/acorn-32-bit/asylum
+  meta:
+    genre:
+    - Action
+
+- name: Atomic Bomberman
+  external:
+    wikipedia: Atomic Bomberman
+  meta:
+    genre:
+    - Action
+
+- name: Atomix
+  external:
+    wikipedia: Atomix (video game)
+  meta:
+    genre:
+    - Puzzle
+
+- name: Awesomenauts
+  external:
+    wikipedia: Awesomenauts
+  meta:
+    genre:
+    - RPG
+    - RTS
+
