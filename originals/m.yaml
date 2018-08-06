@@ -66,7 +66,16 @@
     genre: [Platform]
 
 - name: [Marathon, Marathon_(video_game)]
-  names: [Marathon 2, Marathon Infinity]
+  meta:
+    genre: [FPS]
+    theme: [Sci-Fi]
+
+- name: Marathon 2
+  meta:
+    genre: [FPS]
+    theme: [Sci-Fi]
+
+- name: Marathon Infinity
   meta:
     genre: [FPS]
     theme: [Sci-Fi]
@@ -76,7 +85,6 @@
     genre: [Platform]
 
 - name: Master of Monsters
-  names: [Warsong]
   meta:
     genre: [TBS]
     theme: [Fantasy]
@@ -134,8 +142,13 @@
   meta:
     genre: [Racing]
 
-- name: [Master of Orion Series, Master of Orion]
-  names: [Master of Orion 2]
+- name: Master of Orion
+  meta:
+    genre: [TBS]
+    subgenre: [4X]
+    theme: [Sci-Fi]
+
+- name: Master of Orion 2
   meta:
     genre: [TBS]
     subgenre: [4X]
@@ -157,3 +170,7 @@
   names: [Midnight Club 2]
   meta:
     genre: [Racing]
+
+- name: 'Myst III: Exile'
+  meta:
+    genre: [Adventure]

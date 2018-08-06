@@ -35,8 +35,12 @@
     subgenre: [Survival]
     theme: [Horror]
 
+- name: [Catacomb, Catacomb (video game)]
+  meta:
+    genre: [Action, TPS]
+    theme: [Fantasy]
+
 - name: Catacomb II
-  names: [The Catacomb]
   meta:
     genre: [Action, TPS]
     theme: [Fantasy]
@@ -80,19 +84,36 @@
     genre: [Platform]
 
 - name: Command & Conquer
-  names: ['Command & Conquer: Red Alert', Dune 2000]
   meta:
     genre: [RTS]
-    theme: [Sci-Fi, Modern Military]
+    theme: [Modern Military]
+
+- name: 'Command & Conquer: Red Alert'
+  meta:
+    genre: [RTS]
+    theme: [Modern Military]
 
 - name: 'Command & Conquer: Generals'
   meta:
     genre: [RTS]
     theme: [Sci-Fi, Modern Military]
 
-- name: [Company of Heroes series, Company of Heroes]
-  names: ['Company of Heroes: Opposing Fronts', 'Company of Heroes: Tales of Valor',
-    Company of Heroes 2]
+- name: Company of Heroes
+  meta:
+    genre: [RTS]
+    theme: [World War II]
+
+- name: 'Company of Heroes: Opposing Fronts'
+  meta:
+    genre: [RTS]
+    theme: [World War II]
+
+- name: 'Company of Heroes: Tales of Valor'
+  meta:
+    genre: [RTS]
+    theme: [World War II]
+
+- name: 'Company of Heroes 2'
   meta:
     genre: [RTS]
     theme: [World War II]
@@ -100,7 +121,10 @@
 - name: [Contra, Contra (video game)]
   meta:
     genre: [Platform]
-- {name: Cookie Clicker}
+
+- name: Cookie Clicker
+  meta:
+    genre: [Arcade]
 
 - name: Cosmic Ark
   meta:
@@ -110,11 +134,15 @@
   meta:
     genre: [Racing]
 
-- name: [Crazy Machines series, Crazy Machines]
-  names: ['Crazy Machines: The Wacky Contraptions Game', Crazy Machines 2, The Incredible
-      Machine, The Incredible Machine 2, The Incredible Machine 3, 'Return of the
-      Incredible Machine: Contraptions', 'The Incredible Machine: Even More Contraptions',
-    Incredible Toons]
+- name: Crazy Machines
+  meta:
+    genre: [Puzzle, Simulation]
+
+- name: 'Crazy Machines: The Wacky Contraptions Game'
+  meta:
+    genre: [Puzzle, Simulation]
+
+- name: Crazy Machines 2
   meta:
     genre: [Puzzle, Simulation]
 

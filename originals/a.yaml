@@ -51,7 +51,16 @@
     theme: [Sci-Fi]
 
 - name: Alone in the Dark
-  names: [Alone in the Dark 2, Jack in the Dark, Alone in the Dark 3]
+  meta:
+    genre: [Action, Adventure]
+    theme: [Horror, Alternate Historical]
+
+- name: Alone in the Dark 2
+  meta:
+    genre: [Action, Adventure]
+    theme: [Horror, Alternate Historical]
+
+- name: Alone in the Dark 3
   meta:
     genre: [Action, Adventure]
     theme: [Horror, Alternate Historical]
@@ -87,8 +96,17 @@
   meta:
     genre: [Arcade, RTS]
 
-- name: ARMA series
-  names: ['ARMA: Armed Assault', ARMA 2, ARMA 3, Operation Flashpoint]
+- name: 'ARMA: Armed Assault'
+  meta:
+    genre: [FPS]
+    theme: [Modern Military]
+
+- name: ARMA 2
+  meta:
+    genre: [FPS]
+    theme: [Modern Military]
+
+- name: ARMA 3
   meta:
     genre: [FPS]
     theme: [Modern Military]

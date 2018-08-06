@@ -1,8 +1,7 @@
 
 - name: Dark Forces
-  names: [Blood, Outlaws, Shadow Warrior, 'The Elder Scrolls II: Daggerfall']
   meta:
-    genre: [RPG]
+    genre: [FPS]
 
 - name: Dance Dance Revolution
   meta:
@@ -21,7 +20,10 @@
     genre: [Arcade]
 
 - name: [Descent, Descent (video game)]
-  names: [Descent 2]
+  meta:
+    genre: [FPS]
+
+- name: Descent II
   meta:
     genre: [FPS]
 
@@ -73,10 +75,10 @@
     genre: [Shmup]
 
 - name: Doom
-  names:
-  - Doom II
-  - [Heretic, Heretic (video game)]
-  - Hexen
+  meta:
+    genre: [FPS]
+
+- name: Doom II
   meta:
     genre: [FPS]
 
@@ -101,6 +103,16 @@
   meta:
     genre: [RPG]
 
+- name: 'Dragon Age: Origins'
+  meta:
+    genre: [RPG]
+    theme: [Fantasy]
+
+- name: Dragon Age II
+  meta:
+    genre: [RPG]
+    theme: [Fantasy]
+
 - name: 'Drakan: Order of the Flame'
   platform: [Windows]
   meta:
@@ -120,6 +132,11 @@
     genre: [FPS]
 
 - name: Dune 2
+  meta:
+    genre: [RTS]
+    theme: [Sci-Fi]
+
+- name: Dune 2000
   meta:
     genre: [RTS]
     theme: [Sci-Fi]
