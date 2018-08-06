@@ -1,84 +1,159 @@
 - name: Pac-Man
+  external:
+    wikipedia: Pac-Man
   meta:
-    genre: [Arcade]
-
-- name: Pitfall!
-  meta:
-    genre: [Arcade, Platform]
-
-- name: "Planescape: Torment"
-  meta:
-    genre: [RPG]
-
-- name: 'Populous: The Beginning'
-  meta:
-    genre: [RTS]
-
-- name: [Portal, Portal (video game)]
-  meta:
-    genre: [FPS, Puzzle]
-
-- name: Prince of Persia
-  meta:
-    genre: [Platform]
+    genre:
+    - Arcade
 
 - name: Panzer General
+  external:
+    wikipedia: Panzer General
   meta:
-    genre: [TBS]
-
-- name: [Paratrooper, Paratrooper (video game)]
-  meta:
-    genre: [Arcade]
-
-- name: [Phantasy, Phantasy Star (video game)]
-  meta:
-    genre: [RPG]
-
-- name: Pipe Mania
-  meta:
-    genre: [Puzzle]
-
-- name: ["Pok\xE9mon", "Pok\xE9mon (video game series)"]
-  meta:
-    genre: [RPG]
-
-- name: "Pok\xE9mon Mystery Dungeon"
-  meta:
-    genre: [RPG]
-
-- name: [Pole Position, Pole Position (video game)]
-  meta:
-    genre: [Sports, Racing]
-    theme: [Motorsports]
-
-- name: Progress Quest
-  meta:
-    genre: [MMORPG]
-    theme: [Comedy]
-
-- name: [Punch-Out!!, Punch-Out!! (arcade game)]
-  meta:
-    genre: [Fighting, Sports]
-    subgenre: [Boxing]
-    theme: [Comedy]
-
-- name: [Pushover, Pushover (video game)]
-  meta:
-    genre: [Platform, Puzzle]
-
-- name: [Puzznic / Brix, Brix (video game)]
-  meta:
-    genre: [Puzzle, Arcade]
+    genre:
+    - TBS
 
 - name: Paradroid
+  external:
+    wikipedia: Paradroid
   meta:
-    genre: [Shmup, Puzzle]
-    theme: [Fantasy, Sci-Fi]
+    genre:
+    - Shmup
+    - Puzzle
+    theme:
+    - Fantasy
+    - Sci-Fi
+
+- name: Paratrooper
+  external:
+    wikipedia: Paratrooper (video game)
+  meta:
+    genre:
+    - Arcade
+
+- name: Phantasy
+  external:
+    wikipedia: Phantasy Star (video game)
+  meta:
+    genre:
+    - RPG
+
+- name: Pipe Mania
+  external:
+    wikipedia: Pipe Mania
+  meta:
+    genre:
+    - Puzzle
+
+- name: Pitfall!
+  external:
+    wikipedia: Pitfall!
+  meta:
+    genre:
+    - Arcade
+    - Platform
 
 - name: Pizza Tycoon
+  external:
+    wikipedia: Pizza Tycoon
   meta:
-    genre: [Simulation]
+    genre:
+    - Simulation
+
+- name: 'Planescape: Torment'
+  external:
+    wikipedia: 'Planescape: Torment'
+  meta:
+    genre:
+    - RPG
+
+- name: "Pok\xE9mon"
+  external:
+    wikipedia: "Pok\xE9mon (video game series)"
+  meta:
+    genre:
+    - RPG
+
+- name: "Pok\xE9mon Mystery Dungeon"
+  external:
+    wikipedia: "Pok\xE9mon Mystery Dungeon"
+  meta:
+    genre:
+    - RPG
+
+- name: Pole Position
+  external:
+    wikipedia: Pole Position (video game)
+  meta:
+    genre:
+    - Sports
+    - Racing
+    theme:
+    - Motorsports
+
+- name: 'Populous: The Beginning'
+  external:
+    wikipedia: 'Populous: The Beginning'
+  meta:
+    genre:
+    - RTS
+
+- name: Portal
+  external:
+    wikipedia: Portal (video game)
+  meta:
+    genre:
+    - FPS
+    - Puzzle
+
+- name: Prince of Persia
+  external:
+    wikipedia: Prince of Persia
+  meta:
+    genre:
+    - Platform
+
+- name: Progress Quest
+  external:
+    wikipedia: Progress Quest
+  meta:
+    genre:
+    - MMORPG
+    theme:
+    - Comedy
+
+- name: Punch-Out!!
+  external:
+    wikipedia: Punch-Out!! (arcade game)
+  meta:
+    genre:
+    - Fighting
+    - Sports
+    subgenre:
+    - Boxing
+    theme:
+    - Comedy
+
+- name: Pushover
+  external:
+    wikipedia: Pushover (video game)
+  meta:
+    genre:
+    - Platform
+    - Puzzle
 
 - name: Puzzle Bobble
+  external:
+    wikipedia: Puzzle Bobble
   meta:
-    genre: [Puzzle, Arcade]
+    genre:
+    - Puzzle
+    - Arcade
+
+- name: Puzznic / Brix
+  external:
+    wikipedia: Brix (video game)
+  meta:
+    genre:
+    - Puzzle
+    - Arcade
+

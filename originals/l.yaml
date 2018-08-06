@@ -1,74 +1,133 @@
-
-- name: [Ladder, Ladder (video game)]
+- name: Ladder
+  external:
+    wikipedia: Ladder (video game)
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
-- name: [Larn, Larn (video game)]
+- name: Larn
+  external:
+    wikipedia: Larn (video game)
   meta:
-    genre: [Roguelike]
-
-- name: [Legion, 'http://www.mobygames.com/game/legion__']
-  meta:
-    genre: [Adventure]
-
-- name: [Lego Rock Raiders, Lego Rock Raiders (video game)]
-  meta:
-    genre: [RTS]
-
-- name: Liero
-  meta:
-    genre: [Platform, Shmup]
-
-- name: [Lionheart, Lionheart (video game)]
-  meta:
-    genre: [RPG, Action]
-
-- name: Little Big Adventure
-  meta:
-    genre: [Adventure]
-
-- name: [Locomotion (Amiga 1992), 'http://www.mobygames.com/game/locomotion']
-  meta:
-    genre: [Arcade, Puzzle]
-
-- name: Lode Runner
-  meta:
-    genre: [Arcade]
-
-- name: [Log!cal, 'http://hol.abime.net/906']
-  meta:
-    genre: [Puzzle]
-
-- name: [Lose Your Marbles, Sega Puzzle Pack]
-  meta:
-    genre: [Puzzle]
-
-- name: Lumines
-  meta:
-    genre: [Puzzle]
-
-- name: ['Lugaru: The Rabbit''s Foot', Lugaru]
-  meta:
-    genre: [Action]
-
-- name: [Legend of Zelda - A Link to the Past, 'The Legend of Zelda: A Link to the
-      Past']
-  meta:
-    genre: [Action, Adventure]
-
-- name: [Lemmings, Lemmings (video game)]
-  meta:
-    genre: [Puzzle]
-
-- name: [Lotus Esprit Turbo Challenge, Lotus (series)]
-  meta:
-    genre: [Racing]
+    genre:
+    - Roguelike
 
 - name: Legend of Zelda
+  external:
+    wikipedia: Legend of Zelda
   meta:
-    genre: [Action, Adventure]
+    genre:
+    - Action
+    - Adventure
+
+- name: Legend of Zelda - A Link to the Past
+  external:
+    wikipedia: 'The Legend of Zelda: A Link to the Past'
+  meta:
+    genre:
+    - Action
+    - Adventure
+
+- name: Legion
+  external:
+    website: http://www.mobygames.com/game/legion__
+  meta:
+    genre:
+    - Adventure
+
+- name: Lego Rock Raiders
+  external:
+    wikipedia: Lego Rock Raiders (video game)
+  meta:
+    genre:
+    - RTS
+
+- name: Lemmings
+  external:
+    wikipedia: Lemmings (video game)
+  meta:
+    genre:
+    - Puzzle
+
+- name: Liero
+  external:
+    wikipedia: Liero
+  meta:
+    genre:
+    - Platform
+    - Shmup
+
+- name: Lionheart
+  external:
+    wikipedia: Lionheart (video game)
+  meta:
+    genre:
+    - RPG
+    - Action
+
+- name: Little Big Adventure
+  external:
+    wikipedia: Little Big Adventure
+  meta:
+    genre:
+    - Adventure
 
 - name: Little Fighter 2
-  names: [LF2]
+  external:
+    wikipedia: Little Fighter 2
   meta:
-    genre: [Fighting]
+    genre:
+    - Fighting
+  names:
+  - LF2
+
+- name: Locomotion (Amiga 1992)
+  external:
+    website: http://www.mobygames.com/game/locomotion
+  meta:
+    genre:
+    - Arcade
+    - Puzzle
+
+- name: Lode Runner
+  external:
+    wikipedia: Lode Runner
+  meta:
+    genre:
+    - Arcade
+
+- name: Log!cal
+  external:
+    website: http://hol.abime.net/906
+  meta:
+    genre:
+    - Puzzle
+
+- name: Lose Your Marbles
+  external:
+    wikipedia: Sega Puzzle Pack
+  meta:
+    genre:
+    - Puzzle
+
+- name: Lotus Esprit Turbo Challenge
+  external:
+    wikipedia: Lotus (series)
+  meta:
+    genre:
+    - Racing
+
+- name: 'Lugaru: The Rabbit''s Foot'
+  external:
+    wikipedia: Lugaru
+  meta:
+    genre:
+    - Action
+
+- name: Lumines
+  external:
+    wikipedia: Lumines
+  meta:
+    genre:
+    - Puzzle
+

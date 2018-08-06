@@ -1,14 +1,8 @@
 {% macro render_name(name, meta, idx, mode) %}
-  {%- if name is string -%}
-    {% set wiki = name %}
+  {%- if meta['external']['wikipedia'] -%}
+    {% set wikilink = "http://en.wikipedia.org/wiki/" + meta['external']['wikipedia'] %}
   {%- else -%}
-    {% set name, wiki = name %}
-  {%- endif -%}
-
-  {%- if wiki[:6] in ["http:/", "https:"] -%}
-    {% set wikilink = wiki %}
-  {%- else -%}
-    {% set wikilink = "http://en.wikipedia.org/wiki/" + wiki %}
+    {% set wikilink = meta['external']['website'] %}
   {%- endif -%}
 
   <dt {% if not idx %}id="{{ show_id(name, mode) }}"{% endif %} class="searchable">

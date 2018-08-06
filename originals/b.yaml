@@ -1,147 +1,264 @@
-
-- name: [Babaliba, Dinamic Software]
+- name: Babaliba
+  external:
+    wikipedia: Dinamic Software
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
 - name: Baldur's Gate
+  external:
+    wikipedia: Baldur's Gate
   meta:
-    genre: [RPG]
+    genre:
+    - RPG
 
-- name: "Baldur's Gate: Tales of the Sword Coast"
+- name: 'Baldur''s Gate II: Shadows of Amn'
+  external:
+    wikipedia: 'Baldur''s Gate II: Shadows of Amn'
   meta:
-    genre: [RPG]
+    genre:
+    - RPG
 
-- name: "Baldur's Gate II: Shadows of Amn"
+- name: 'Baldur''s Gate II: Throne of Bhaal'
+  external:
+    wikipedia: 'Baldur''s Gate II: Throne of Bhaal'
   meta:
-    genre: [RPG]
+    genre:
+    - RPG
 
-- name: "Baldur's Gate II: Throne of Bhaal"
+- name: 'Baldur''s Gate: Tales of the Sword Coast'
+  external:
+    wikipedia: 'Baldur''s Gate: Tales of the Sword Coast'
   meta:
-    genre: [RPG]
+    genre:
+    - RPG
 
 - name: Ballerburg
+  external:
+    wikipedia: Ballerburg
   meta:
-    genre: [Artillery]
+    genre:
+    - Artillery
 
 - name: Balloon Fight
+  external:
+    wikipedia: Balloon Fight
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
 - name: 'Barbarian: The Ultimate Warrior'
+  external:
+    wikipedia: 'Barbarian: The Ultimate Warrior'
   meta:
-    genre: [Fighting, Platform]
-    theme: [Fantasy]
-
-- name: Battle Chess
-  meta:
-    genre: [TBS]
-
-- name: [Battlecity, 'https://github.com/Deceth/Battle-City/wiki/Battle-City-History']
-  meta:
-    genre: [RTS]
-
-- name: [Battle City, Battle City (video game)]
-  meta:
-    genre: [Arcade]
+    genre:
+    - Fighting
+    - Platform
+    theme:
+    - Fantasy
 
 - name: Bard's Tale Contruction Set
+  external:
+    wikipedia: Bard's Tale Contruction Set
   meta:
-    genre: [RPG]
+    genre:
+    - RPG
+
+- name: Battle Chess
+  external:
+    wikipedia: Battle Chess
+  meta:
+    genre:
+    - TBS
+
+- name: Battle City
+  external:
+    wikipedia: Battle City (video game)
+  meta:
+    genre:
+    - Arcade
+
+- name: Battle Isle series
+  external:
+    wikipedia: Battle Isle (series)
+  meta:
+    genre:
+    - TBS
+
+- name: Battle Zone
+  external:
+    wikipedia: Battlezone_(1980_video_game)
+  meta:
+    genre:
+    - FPS
+    - Arcade
+
+- name: Battlecity
+  external:
+    website: https://github.com/Deceth/Battle-City/wiki/Battle-City-History
+  meta:
+    genre:
+    - RTS
 
 - name: BeamNG.drive
+  external:
+    wikipedia: BeamNG.drive
   meta:
-    genre: [Simulation]
+    genre:
+    - Simulation
     subgenre: []
     theme: []
 
 - name: Bermuda Syndrome
+  external:
+    wikipedia: Bermuda Syndrome
   meta:
-    genre: [Adventure, Platform]
+    genre:
+    - Adventure
+    - Platform
 
 - name: Betrayal at Krondor
+  external:
+    wikipedia: Betrayal at Krondor
   meta:
-    genre: [RPG]
+    genre:
+    - RPG
 
-- name: [Blade Runner, Blade Runner (1997 video game)]
+- name: Blade Runner
+  external:
+    wikipedia: Blade Runner (1997 video game)
   meta:
-    genre: [Adventure]
+    genre:
+    - Adventure
 
 - name: 'Blake Stone: Planet Strike'
+  external:
+    wikipedia: 'Blake Stone: Planet Strike'
   meta:
-    genre: [FPS]
+    genre:
+    - FPS
 
-- name: [Blood, Blood (video game)]
+- name: Blood
+  external:
+    wikipedia: Blood (video game)
   meta:
-    genre: [FPS]
+    genre:
+    - FPS
 
 - name: Bloons Tower Defense
+  external:
+    wikipedia: Bloons Tower Defense
   meta:
-    genre: [RTS]
-    subgenre: [Tower Defense]
+    genre:
+    - RTS
+    subgenre:
+    - Tower Defense
 
 - name: Board Game
+  external:
+    wikipedia: Board Game
   meta:
-    genre: [Compilation]
-    subgenre: [Board Game]
+    genre:
+    - Compilation
+    subgenre:
+    - Board Game
 
-- name: [Bolo, Bolo (1987 video game)]
+- name: Bolo
+  external:
+    wikipedia: Bolo (1987 video game)
   meta:
-    genre: [Shmup]
+    genre:
+    - Shmup
 
 - name: Bomberman
-  names: [Dynablaster]
+  external:
+    wikipedia: Bomberman
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
+  names:
+  - Dynablaster
 
 - name: Boulder Dash
+  external:
+    wikipedia: Boulder Dash
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
-- name: [Bratwurst, 'http://www.mobygames.com/game/bratwurst']
+- name: Brain Blasters
+  external:
+    website: http://www.mobygames.com/game/brain-blasters
   meta:
-    genre: [Arcade]
+    genre:
+    - Puzzle
 
-- name: [Bruce Lee, Bruce Lee (video game)]
+- name: Bratwurst
+  external:
+    website: http://www.mobygames.com/game/bratwurst
   meta:
-    genre: [Action]
+    genre:
+    - Arcade
+
+- name: Breakout
+  external:
+    wikipedia: Breakout (video game)
+  meta:
+    genre:
+    - Arcade
+
+- name: Bruce Lee
+  external:
+    wikipedia: Bruce Lee (video game)
+  meta:
+    genre:
+    - Action
 
 - name: Bubble Bobble
+  external:
+    wikipedia: Bubble Bobble
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
-- name: [Bug Bomber, 'http://www.mobygames.com/game/bug-bomber']
+- name: Bug Bomber
+  external:
+    website: http://www.mobygames.com/game/bug-bomber
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
 - name: BurgerTime
-  names: ["\u30D0\u30FC\u30AC\u30FC\u30BF\u30A4\u30E0", Hamburger, "\u30CF\u30F3\u30D0\
-      \u30FC\u30AC\u30FC"]
+  external:
+    wikipedia: BurgerTime
   meta:
-    genre: [Platform]
+    genre:
+    - Platform
+  names:
+  - "\u30D0\u30FC\u30AC\u30FC\u30BF\u30A4\u30E0"
+  - Hamburger
+  - "\u30CF\u30F3\u30D0\u30FC\u30AC\u30FC"
 
 - name: Buster Bros
+  external:
+    wikipedia: Buster Bros
   meta:
-    genre: [Arcade]
-  names: [Pang, "\u30D1\u30F3", Pomping World, "\u30DD\u30F3\u30D4\u30F3\u30B0\u30FB\
-      \u30EF\u30FC\u30EB\u30C9"]
+    genre:
+    - Arcade
+  names:
+  - Pang
+  - "\u30D1\u30F3"
+  - Pomping World
+  - "\u30DD\u30F3\u30D4\u30F3\u30B0\u30FB\u30EF\u30FC\u30EB\u30C9"
 
 - name: Buzz Aldrin's Race Into Space
+  external:
+    wikipedia: Buzz Aldrin's Race Into Space
   meta:
-    genre: [Strategy, Simulation, TBS]
-    theme: [Management]
+    genre:
+    - Strategy
+    - Simulation
+    - TBS
+    theme:
+    - Management
 
-- name: [Battle Isle series, Battle Isle (series)]
-  meta:
-    genre: [TBS]
-
-- name: [Battle Zone, Battlezone_(1980_video_game)]
-  meta:
-    genre: [FPS, Arcade]
-
-- name: [Brain Blasters, 'http://www.mobygames.com/game/brain-blasters']
-  meta:
-    genre: [Puzzle]
-
-- name: [Breakout, Breakout (video game)]
-  meta:
-    genre: [Arcade]

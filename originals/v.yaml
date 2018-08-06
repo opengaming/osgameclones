@@ -1,16 +1,29 @@
-
-- name: [Vlak, 'http://www.mobygames.com/game/dos/vlak']
+- name: Viper
+  external:
+    website: http://www.mobygames.com/game/amiga/viper__
   meta:
-    genre: [Arcade]
-
-- name: [Viper, 'http://www.mobygames.com/game/amiga/viper__']
-  meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
 
 - name: Visual Pinball
+  external:
+    wikipedia: Visual Pinball
   meta:
-    genre: [Arcade]
+    genre:
+    - Arcade
+
+- name: Vlak
+  external:
+    website: http://www.mobygames.com/game/dos/vlak
+  meta:
+    genre:
+    - Arcade
 
 - name: VVVVVV
+  external:
+    wikipedia: VVVVVV
   meta:
-    genre: [Puzzle, Platform]
+    genre:
+    - Puzzle
+    - Platform
+

@@ -1,25 +1,45 @@
-
-- name: [Z, Z (video game)]
+- name: Z
+  external:
+    wikipedia: Z (video game)
   meta:
-    genre: [RTS]
+    genre:
+    - RTS
 
 - name: Zarch
-  names: [Virus]
+  external:
+    wikipedia: Zarch
   meta:
-    genre: [Action, TPS]
+    genre:
+    - Action
+    - TPS
+  names:
+  - Virus
+
+- name: Zombie Apocalypse
+  external:
+    website: http://www.mobygames.com/game/zombie-apocalypse
+  meta:
+    genre:
+    - Shmup
 
 - name: Zoop
+  external:
+    wikipedia: Zoop
   meta:
-    genre: [Puzzle]
-
-- name: [Zombie Apocalypse, 'http://www.mobygames.com/game/zombie-apocalypse']
-  meta:
-    genre: [Shmup]
+    genre:
+    - Puzzle
 
 - name: Zork
+  external:
+    wikipedia: Zork
   meta:
-    genre: [Adventure]
+    genre:
+    - Adventure
 
-- name: [Zuma, Zuma (video game)]
+- name: Zuma
+  external:
+    wikipedia: Zuma (video game)
   meta:
-    genre: [Puzzle]
+    genre:
+    - Puzzle
+

@@ -1,47 +1,83 @@
-
-- name: [Natural Selection, Natural Selection (video game)]
+- name: Natural Selection
+  external:
+    wikipedia: Natural Selection (video game)
   meta:
-    genre: [FPS]
+    genre:
+    - FPS
+
+- name: Nebulus
+  external:
+    wikipedia: Nebulus (video game)
+  meta:
+    genre:
+    - Arcade
 
 - name: Need For Speed II SE
+  external:
+    wikipedia: Need For Speed II SE
   meta:
-    genre: [Racing]
-
-- name: [Night Stalker, Night Stalker (video game)]
-  meta:
-    genre: [Arcade]
-
-- name: [Nebulus, Nebulus (video game)]
-  meta:
-    genre: [Arcade]
+    genre:
+    - Racing
 
 - name: NetHack
+  external:
+    wikipedia: NetHack
   meta:
-    genre: [Roguelike]
+    genre:
+    - Roguelike
 
 - name: Nether Earth
+  external:
+    wikipedia: Nether Earth
   meta:
-    genre: [RTS]
+    genre:
+    - RTS
 
 - name: Neverwinter Nights
+  external:
+    wikipedia: Neverwinter Nights
   meta:
-    genre: [RPG]
-    theme: [Fantasy]
+    genre:
+    - RPG
+    theme:
+    - Fantasy
 
 - name: Neverwinter Nights 2
+  external:
+    wikipedia: Neverwinter Nights 2
   meta:
-    genre: [RPG]
-    theme: [Fantasy]
+    genre:
+    - RPG
+    theme:
+    - Fantasy
 
 - name: Nexuiz
+  external:
+    wikipedia: Nexuiz
   meta:
-    genre: [FPS]
+    genre:
+    - FPS
+
+- name: Night Stalker
+  external:
+    wikipedia: Night Stalker (video game)
+  meta:
+    genre:
+    - Arcade
 
 - name: Nodes of Yesod
+  external:
+    wikipedia: Nodes of Yesod
   meta:
-    genre: [Platform]
+    genre:
+    - Platform
 
 - name: Nuclear Reaction
-  platform: [Amiga]
+  external:
+    wikipedia: Nuclear Reaction
   meta:
-    genre: [Puzzle]
+    genre:
+    - Puzzle
+  platform:
+  - Amiga
+

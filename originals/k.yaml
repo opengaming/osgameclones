@@ -1,25 +1,46 @@
-
-- name: [Kaboom!, Kaboom! (video game)]
+- name: Kaboom!
+  external:
+    wikipedia: Kaboom! (video game)
   meta:
-    genre: [Arcade]
-
-- name: [Kid Chameleon, Kid Chameleon (video game)]
-  meta:
-    genre: [Platform]
-
-- name: [Knights, Knights (video game)]
-  meta:
-    genre: [Arcade]
-
-- name: Knights and Merchants
-  meta:
-    genre: [RTS]
-
-- name: Kula World
-  names: [Roll Away, Kula Quest]
-  meta:
-    genre: [Platform, Puzzle]
+    genre:
+    - Arcade
 
 - name: Ken's Labyrinth
+  external:
+    wikipedia: Ken's Labyrinth
   meta:
-    genre: [FPS]
+    genre:
+    - FPS
+
+- name: Kid Chameleon
+  external:
+    wikipedia: Kid Chameleon (video game)
+  meta:
+    genre:
+    - Platform
+
+- name: Knights
+  external:
+    wikipedia: Knights (video game)
+  meta:
+    genre:
+    - Arcade
+
+- name: Knights and Merchants
+  external:
+    wikipedia: Knights and Merchants
+  meta:
+    genre:
+    - RTS
+
+- name: Kula World
+  external:
+    wikipedia: Kula World
+  meta:
+    genre:
+    - Platform
+    - Puzzle
+  names:
+  - Roll Away
+  - Kula Quest
+
