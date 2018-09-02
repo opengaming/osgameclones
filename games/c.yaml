@@ -14,10 +14,10 @@
   feed: http://cxong.github.io/cdogs-sdl/feed.xml
   framework: SDL2
   images:
-  - http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/1.png
-  - http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/2.png
-  - http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/3.png
-  - http://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/4.png
+  - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/1.png
+  - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/2.png
+  - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/3.png
+  - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/4.png
   lang: C
   license:
   - GPL2
@@ -29,7 +29,7 @@
   status: playable
   type: remake
   updated: 2014-03-08
-  url: http://cxong.github.io/cdogs-sdl/
+  url: https://cxong.github.io/cdogs-sdl/
   video:
     youtube: hgX3jz_HajE
 
@@ -129,7 +129,7 @@
   repo: https://sourceforge.net/projects/castle-combat/files/castle-combat/
   status: playable
   type: remake
-  url: http://www.linux-games.com/castle-combat/
+  url: https://www.linux-games.com/castle-combat/
 
 - name: 'Cataclysm: Dark Days Ahead'
   framework: ncurses
@@ -148,7 +148,7 @@
   status: playable
   type: remake
   updated: 2016-10-09
-  url: http://en.cataclysmdda.com/
+  url: https://cataclysmdda.org/
   video:
     youtube: iHfpBze8ecA
 
@@ -257,14 +257,13 @@
   status: unplayable
   type: remake
   updated: 2017-05-27
-  url: https://github.com/ChariotEngine/Chariot
 
 - name: Chocolate Doom
   images:
-  - http://www.chocolate-doom.org/wiki/images/9/9f/Chocolate-aliens-doom.png
-  - http://www.chocolate-doom.org/wiki/images/6/6b/Chocolate-aod-doom.png
-  - http://www.chocolate-doom.org/wiki/images/e/e3/Chocolate-batman-doom.png
-  - http://www.chocolate-doom.org/wiki/images/d/d5/Obituary.png
+  - https://www.chocolate-doom.org/wiki/images/9/9f/Chocolate-aliens-doom.png
+  - https://www.chocolate-doom.org/wiki/images/6/6b/Chocolate-aod-doom.png
+  - https://www.chocolate-doom.org/wiki/images/e/e3/Chocolate-batman-doom.png
+  - https://www.chocolate-doom.org/wiki/images/d/d5/Obituary.png
   lang: C
   license:
   - GPL2
@@ -276,7 +275,7 @@
   - Hexen
   repo: http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/
   type: remake
-  url: http://www.chocolate-doom.org/
+  url: https://www.chocolate-doom.org/
 
 - name: Circus Linux!
   images:
@@ -322,7 +321,7 @@
   repo: https://ctp2.darkdust.net/svn/
   type: remake
   updated: 2015-04-10
-  url: http://ctp2.darkdust.net/
+  url: https://ctp2.darkdust.net/
 
 - name: CivOne
   development: active
@@ -335,7 +334,7 @@
   repo: https://github.com/SWY1985/CivOne
   type: remake
   updated: 2016-05-09
-  url: http://www.civone.com/
+  url: https://www.civone.org/
 
 - name: Clumsy Bird
   framework: MelonJS
@@ -453,14 +452,14 @@
   repo: https://github.com/core-code/CoreBreach
   type: clone
   updated: 2015-04-05
-  url: http://corebreach.corecode.at/CoreBreach/CoreBreach.html
+  url: https://www.corecode.io/corebreach/CoreBreach/CoreBreach.html
 
 - name: CorsixTH
   development: active
   framework:
   - SDL2
   images:
-  - http://th.corsix.org/CorsixTH08.jpg
+  - https://th.corsix.org/CorsixTH08.jpg
   info: time-based releases
   lang:
   - C++
@@ -490,7 +489,7 @@
 - name: Cosmosmash
   framework: SDL
   images:
-  - http://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
+  - https://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
   lang: C++
   license:
   - GPL2
@@ -504,7 +503,7 @@
 
 - name: Crack Attack!
   images:
-  - http://www.nongnu.org/crack-attack/gui-1.1.14-normal.png
+  - https://www.nongnu.org/crack-attack/gui-1.1.14-normal.png
   info: networking support
   lang: C++
   development: halted
@@ -514,7 +513,7 @@
   status: playable
   type: remake
   updated: 2014-04-16
-  url: http://www.nongnu.org/crack-attack/
+  url: https://www.nongnu.org/crack-attack/
 
 - name: CrappyBird
   lang: JavaScript
