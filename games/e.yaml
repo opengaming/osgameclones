@@ -35,7 +35,7 @@
   development: active
   originals:
   - RPG Maker
-  repo: https://github.com/EasyRPG/
+  repo: https://github.com/EasyRPG/Player
   status: playable
   type: clone
   updated: 2017-10-20
@@ -52,7 +52,7 @@
   development: sporadic
   originals:
   - Eat The Whistle
-  repo: svn://svn.code.sf.net/p/etw/code/trunk
+  repo: https://sourceforge.net/projects/etw/
   type: remake
   updated: 2015-04-10
   url: http://www.ggsoft.org/etw/
@@ -71,23 +71,22 @@
   development: halted
   originals:
   - Wipeout
-  repo: git://git.code.sf.net/p/ecksdee/ecksdee
+  repo: https://sourceforge.net/projects/ecksdee/
   type: clone
   updated: 2015-04-25
-  url: http://sourceforge.net/projects/ecksdee/
 
 - name: ECWolf
   images:
-  - http://maniacsvault.net/ecwolf/ecwolf_fullres.png
+  - https://maniacsvault.net/ecwolf/ecwolf_fullres.png
   lang: C++
   development: active
   originals:
   - Wolfenstein 3D
   - Spear of Destiny
-  repo: https://bitbucket.org/Blzut3/ecwolf
+  repo: https://bitbucket.org/ecwolf/ecwolf
   type: remake
   updated: 2015-04-03
-  url: http://maniacsvault.net/ecwolf/
+  url: https://maniacsvault.net/ecwolf/
 
 - name: EDuke32
   images:
@@ -99,9 +98,9 @@
   development: active
   originals:
   - Duke Nukem 3D
-  repo: http://sourceforge.net/projects/eduke32/develop
+  repo: https://sourceforge.net/projects/eduke32/
   type: remake
-  url: http://eduke32.com/
+  url: https://www.eduke32.com/
 
 - name: EmptyEpsilon
   images:
@@ -120,7 +119,7 @@
   status: playable
   type: remake
   updated: 2016-08-27
-  url: http://daid.github.io/EmptyEpsilon/
+  url: https://daid.github.io/EmptyEpsilon/
 
 - name: encounter
   framework: WebGL
@@ -131,7 +130,7 @@
   repo: https://github.com/air/encounter
   type: remake
   updated: 2015-05-28
-  url: http://air.github.io/encounter/
+  url: https://air.github.io/encounter/
 
 - name: Endless Sky
   images:
@@ -146,7 +145,7 @@
   development: active
   originals:
   - Escape Velocity
-  repo: https://github.com/endless-sky
+  repo: https://github.com/endless-sky/endless-sky
   type: clone
   updated: 2015-05-02
   url: https://endless-sky.github.io/
@@ -162,7 +161,7 @@
   repo: https://github.com/Enigma-Game/Enigma
   type: remake
   updated: 2017-10-20
-  url: http://www.nongnu.org/enigma/
+  url: https://www.nongnu.org/enigma/
 
 - name: Entombed!
   lang: C
@@ -179,10 +178,10 @@
   development: active
   originals:
   - Redneck Rampage
-  repo: https://code.google.com/p/erampage/source/checkout
+  repo: https://code.google.com/archive/p/erampage/
   type: remake
   updated: 2013-05-29
-  url: https://code.google.com/p/erampage/
+  url: https://code.google.com/archive/p/erampage/wikis/MainPage.wiki
 
 - name: Escalade
   lang: Scala
@@ -195,11 +194,6 @@
 
 - name: 'ET: Legacy'
   development: active
-  images:
-  - http://www.splashdamage.com/screens_wet/001.jpg
-  - http://www.splashdamage.com/screens_wet/002.jpg
-  - http://www.splashdamage.com/screens_wet/003.jpg
-  - http://www.splashdamage.com/screens_wet/004.jpg
   lang:
   - C
   - C++
@@ -210,7 +204,7 @@
   repo: https://github.com/etlegacy/etlegacy
   type: remake
   updated: 2013-05-28
-  url: http://etlegacy.com/
+  url: https://www.etlegacy.com/
 
 - name: Executive Man
   images:
@@ -224,6 +218,7 @@
   repo: https://github.com/CamHenlin/ExecutiveMan
   type: remake
   updated: 2015-05-02
+  url: https://henlin.net/ExecutiveMan/
 
 - name: EXILE
   framework: "L\xD6VE"
@@ -236,6 +231,7 @@
   repo: https://github.com/Geti/EXILE
   type: remake
   updated: 2015-06-22
+  url: http://forums.datarealms.com/viewtopic.php?f=82&t=19266
 
 - name: exolon
   images:
@@ -259,7 +255,7 @@
   development: sporadic
   originals:
   - Ultima VII
-  repo: http://sourceforge.net/projects/exult/develop
+  repo: https://sourceforge.net/projects/exult/
   type: remake
   url: http://exult.sourceforge.net/
 
@@ -275,4 +271,4 @@
   repo: https://github.com/ezQuake/ezquake-source
   type: remake
   updated: 2015-07-02
-  url: http://ezquake.sourceforge.net/
+  url: https://ezquake.github.io/
