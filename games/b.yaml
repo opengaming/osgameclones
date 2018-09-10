@@ -9,7 +9,7 @@
   repo: https://compiler.speccy.org/files/sources/Babaliba_Source.zip
   type: remake
   updated: 2015-04-13
-  url: https://compiler.speccy.org/remakes-babaliba.html
+  url: https://compiler.speccy.org/en/remakes-babaliba.html
 
 - name: back-to-nature-c64-remake
   info: multi-platform
@@ -31,21 +31,22 @@
   repo: https://github.com/budnix/ball-and-wall
   type: clone
   updated: 2015-05-03
+  url: https://budnix.github.io/ball-and-wall/
 
 - name: Ballerburg SDL
   images:
-  - http://baller.tuxfamily.org/screenshot1.png
-  - http://baller.tuxfamily.org/screenshot2.png
+  - https://baller.tuxfamily.org/screenshot1.png
+  - https://baller.tuxfamily.org/screenshot2.png
   lang: C
   license:
   - GPL3
   development: active
   originals:
   - Ballerburg
-  repo: http://git.tuxfamily.org/baller/baller.git/
+  repo: https://git.tuxfamily.org/baller/baller.git/
   type: remake
   updated: 2015-04-17
-  url: http://baller.tuxfamily.org/
+  url: https://baller.tuxfamily.org/
 
 - name: Balloon Fight
   framework: DIV Games Studio
@@ -74,22 +75,22 @@
 
 - name: Batrachians
   images:
-  - http://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
+  - https://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
   lang: C++
   license:
   - GPL2
   development: halted
   originals:
   - Frogs and Flies
-  repo: http://perso.b2b2c.ca/~sarrazip/dev/batrachians-0.1.6.tar.gz
+  repo: https://perso.b2b2c.ca/~sarrazip/dev/batrachians-0.1.6.tar.gz
   type: remake
   updated: 2015-04-16
-  url: http://perso.b2b2c.ca/~sarrazip/dev/batrachians.html
+  url: https://perso.b2b2c.ca/~sarrazip/dev/batrachians.html
 
 - name: Battle City
   images:
-  - http://battlecity.org/wp-content/uploads/your-city-has-been-destroyed-by-the-power-of-an-orb.png
-  - http://farm6.staticflickr.com/5246/5313969457_15de8df27f_z.jpg
+  - https://battlecity.org/wp-content/uploads/your-city-has-been-destroyed-by-the-power-of-an-orb.png
+  - https://farm6.staticflickr.com/5246/5313969457_15de8df27f_z.jpg
   lang: C++
   license:
   - GPL3
@@ -100,7 +101,7 @@
   status: playable
   type: remake
   updated: 2017-02-09
-  url: http://battlecity.org/
+  url: https://battlecity.org/
 
 - name: BattleCity2014
   framework:
@@ -169,7 +170,7 @@
 - name: Block Attack - Rise of the Blocks
   framework: SDL2
   images:
-  - http://www.blockattack.net/images/blockattack-2.0.0-1.png
+  - https://blockattack.net/images/blockattack-2.0.0-1.png
   lang: C++
   license:
   - GPL
@@ -179,16 +180,16 @@
   repo: https://github.com/blockattack/blockattack-game
   type: clone
   updated: 2016-05-01
-  url: http://www.blockattack.net
+  url: https://blockattack.net/
 
 - name: Blood Crossmatching (EDuke32 vanilla)
   development: active
   originals:
   - Blood
-  repo: http://m210.ucoz.ru/
+  repo: https://m210.duke4.net/
   type: remake
   updated: 2013-05-29
-  url: http://www.moddb.com/games/bloodcm
+  url: https://www.moddb.com/games/bloodcm
 
 - name: BloonsTowerDefense6
   lang: Java
@@ -213,10 +214,10 @@
   development: halted
   originals:
   - Bomberman
-  repo: svn://svn.code.sf.net/p/bomb-mania/code-0/trunk
+  repo: https://sourceforge.net/projects/bomb-mania/
   type: remake
   updated: 2015-04-14
-  url: http://sourceforge.net/p/bomb-mania/wiki/Home/
+  url: https://sourceforge.net/p/bomb-mania/wiki/Home/
 
 - name: Bombic
   images:
@@ -228,7 +229,7 @@
   development: halted
   originals:
   - Bomberman
-  repo: svn://svn.code.sf.net/p/bombic/code/
+  repo: https://sourceforge.net/projects/bombic/
   type: remake
   updated: 2015-04-14
   url: http://bombic.sourceforge.net/
@@ -245,7 +246,7 @@
   development: halted
   originals:
   - Bomberman
-  repo: svn://svn.code.sf.net/p/bombic2/code/
+  repo: https://sourceforge.net/projects/bombic2/
   type: remake
   updated: 2015-04-14
   url: http://bombic2.sourceforge.net/
@@ -293,9 +294,6 @@
   updated: 2015-05-15
 
 - name: Breakout VR
-  images:
-  - https://raw.githubusercontent.com/marksteelz3/Breakout-VR/master/Breakout%20VR%201.0%20Capture.PNG
-  - https://raw.githubusercontent.com/marksteelz3/Breakout-VR/master/Breakout%20VR%201.0%20Capture%202.PNG
   lang:
   - C#
   - ASP
@@ -305,7 +303,7 @@
   development: sporadic
   originals:
   - Breakout
-  repo: https://github.com/marksteelz3/Breakout-VR
+  repo: https://github.com/marksteelz3/Atari-VR---Breakout
   type: clone
   updated: 2017-12-12
 
@@ -342,7 +340,7 @@
   development: halted
   originals:
   - Breakout
-  repo: http://briquolo.free.fr/download/briquolo-0.5.7.tar.bz2
+  repo: http://briquolo.free.fr/en/download.html
   type: clone
   updated: 2015-04-25
   url: http://briquolo.free.fr/en/index.html
@@ -354,19 +352,17 @@
   - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/59140.jpg
   - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/107538.jpg
   - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
-  - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/89261.jpg
   lang: C++
   license:
   - GPL2
   development: halted
   originals:
   - Battle Chess
-  repo: svn://svn.code.sf.net/p/brutalchess/code/trunk
+  repo: https://sourceforge.net/projects/brutalchess/
   type: clone
   updated: 2015-04-08
-  url: http://sourceforge.net/projects/brutalchess/
 
-- name: bstone
+- name: BStone
   lang: C++
   development: active
   originals:
@@ -375,6 +371,7 @@
   status: playable
   type: remake
   updated: 2013-12-02
+  url: https://bibendovsky.github.io/bstone/
 
 - name: Bt Builder
   lang: C++
@@ -390,7 +387,7 @@
 
 - name: BurgerSpace
   images:
-  - http://perso.b2b2c.ca/~sarrazip/dev/images/burgerspace-1.png
+  - https://perso.b2b2c.ca/~sarrazip/dev/images/burgerspace-1.png
   lang: C++
   license:
   - GPL2
@@ -404,9 +401,9 @@
 
 - name: BZFlag
   images:
-  - http://bzflag.org/images/screenshots/dantes_inferno_01.jpg
-  - http://bzflag.org/images/screenshots/collaborator_2010_01.jpg
-  - http://bzflag.org/images/screenshots/delirious_city_03.jpg
+  - https://www.bzflag.org/images/screenshots/dantes_inferno_01.jpg
+  - https://www.bzflag.org/images/screenshots/collaborator_2010_01.jpg
+  - https://www.bzflag.org/images/screenshots/delirious_city_03.jpg
   lang: C++
   development: active
   originals:
@@ -414,4 +411,4 @@
   repo: https://github.com/BZFlag-Dev/bzflag
   status: playable
   type: clone
-  url: http://bzflag.org/
+  url: https://bzflag.org/

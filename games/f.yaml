@@ -4,8 +4,8 @@
   development: sporadic
   originals:
   - Fade to Black
+  repo: https://github.com/cyxx/f2bgl
   type: remake
-  url: https://github.com/cyxx/f2bgl
 
 - name: F-1 Spirit
   framework:
@@ -56,7 +56,7 @@
   status: playable
   type: clone
   updated: 2017-08-29
-  url: http://www.ProjectF.hk/F.LF
+  url: https://www.ProjectF.hk/F.LF
 
 - name: Falling Time
   framework: SDL2
@@ -89,8 +89,8 @@
 - name: Fanwor
   framework: SDL
   images:
-  - http://fanwor.tuxfamily.org/fanwor-1.png
-  - http://fanwor.tuxfamily.org/fanwor-2.png
+  - https://fanwor.tuxfamily.org/fanwor-1.png
+  - https://fanwor.tuxfamily.org/fanwor-2.png
   lang: C
   license:
   - GPL2
@@ -101,7 +101,7 @@
   status: playable
   type: clone
   updated: 2016-03-23
-  url: http://fanwor.tuxfamily.org/
+  url: https://fanwor.tuxfamily.org/
 
 - name: fheroes2
   images:
@@ -111,9 +111,8 @@
   development: active
   originals:
   - Heroes of Might and Magic II
-  repo: http://fheroes2.svn.sourceforge.net/viewvc/fheroes2/
+  repo: https://sourceforge.net/projects/fheroes2/
   type: remake
-  url: http://sourceforge.net/projects/fheroes2/
 
 - name: Fight Or Perish
   images:
@@ -140,31 +139,31 @@
   development: active
   originals:
   - Diablo
-  repo: https://github.com/clintbellanger/flare
+  repo: https://github.com/clintbellanger/flare-game
   type: clone
-  url: http://clintbellanger.net/rpg/
+  url: http://flarerpg.org/
 
 - name: FlightGear
   images:
-  - http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-029.jpg
-  - http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-194.jpg
-  - http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-166.jpg
-  - http://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-029.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-194.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-166.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
   lang: C++
   development: active
   originals:
   - Microsoft Flight Simulator
-  repo: http://gitorious.org/fg/flightgear
+  repo: https://gitorious.org/fg/flightgear
   type: clone
   updated: 2012-04-05
-  url: http://www.flightgear.org/
+  url: https://home.flightgear.org/
 
 - name: Floor 13
   lang: Ruby
   development: active
   originals:
   - Floor 13
-  repo: https://bitbucket.org/eastmad/floor-13-releases/src
+  repo: https://bitbucket.org/eastmad/floor-13-releases
   type: remake
   updated: 2015-04-03
   url: http://agriculture-and-fisheries.tumblr.com/
@@ -179,7 +178,7 @@
   repo: https://github.com/alexknvl/fonline
   type: remake
   updated: 2016-02-08
-  url: http://fodev.net/
+  url: https://fodev.net/
 
 - name: Football Manager
   license:
@@ -187,10 +186,9 @@
   lang: C
   originals:
   - Football Manager
-  repo: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/fm-0.99.tar.gz
+  repo: https://github.com/autismuk/Football-Manager
   type: remake
   updated: 2015-04-13
-  url: http://www.robsons.org.uk/archive/www.autismuk.freeserve.co.uk/index.htm
 
 - name: Forge
   lang:
@@ -198,10 +196,10 @@
   development: very active
   originals:
   - 'Magic: The Gathering Online'
-  repo: http://svn.slightlymagic.net/websvn/listing.php?repname=Forge&path=%2F&
+  repo: https://git.cardforge.org/core-developers/forge
   status: playable
   type: clone
-  url: http://www.slightlymagic.net/wiki/Forge
+  url: https://www.slightlymagic.net/wiki/Forge
 
 - name: FQuake3
   lang: F#
@@ -216,18 +214,18 @@
 
 - name: Free Allegiance
   images:
-  - http://www.freeallegiance.org/screenshots/CapitalShips/BelterCapsLaunchTogether.jpg
-  - http://www.freeallegiance.org/screenshots/CapitalShips/ICBattlecruisersResonateAleph.jpg
-  - http://www.freeallegiance.org/screenshots/Dogfights/BigGameVeryBusy.jpg
+  - https://www.freeallegiance.org/screenshots/CapitalShips/BelterCapsLaunchTogether.jpg
+  - https://www.freeallegiance.org/screenshots/CapitalShips/ICBattlecruisersResonateAleph.jpg
+  - https://www.freeallegiance.org/screenshots/Dogfights/BigGameVeryBusy.jpg
   info: Shared source
   lang: C
   development: sporadic
   originals:
   - Allegiance
-  repo: http://freeallegiance.cvs.sourceforge.net/viewvc/freeallegiance/
+  repo: https://github.com/FreeAllegiance/Allegiance
   type: remake
   updated: 2015-04-06
-  url: http://www.freeallegiance.org/
+  url: https://www.freeallegiance.org/
 
 - name: Free in the Dark
   lang: C
@@ -239,16 +237,12 @@
   - Alone in the Dark 2
   - Alone in the Dark 3
   - Jack in the Dark
-  repo: http://fitd.svn.sf.net/viewvc/fitd/trunk/
+  repo: https://sourceforge.net/projects/fitd/
   type: remake
   updated: 2014-09-05
-  url: http://sourceforge.net/projects/fitd/
 
 - name: freeablo
   development: active
-  images:
-  - https://freeablo.org/wp-content/uploads/2014/11/Screenshot-from-2014-11-13-191438.jpg
-  - https://freeablo.org/wp-content/uploads/2014/11/Screenshot-from-2014-11-13-151043.jpg
   lang:
   - C++
   - Python
@@ -261,36 +255,36 @@
   status: playable
   type: remake
   updated: 2014-04-22
-  url: http://freeablo.org/
+  url: https://freeablo.org/
 
 - name: FreeBlocks
   framework: SDL2
   images:
-  - http://i.imgur.com/XDBQy0o.png
-  - http://i.imgur.com/TryDIGI.png
-  - http://i.imgur.com/PysfvNR.png
+  - https://i.imgur.com/XDBQy0o.png
+  - https://i.imgur.com/TryDIGI.png
+  - https://i.imgur.com/PysfvNR.png
   lang: C
   development: halted
   originals:
   - Tetris Attack
+  repo: https://github.com/dorkster/freeblocks
   status: playable
   type: remake
   updated: 2015-02-02
-  url: https://github.com/dorkster/freeblocks
 
 - name: Freeciv
   images:
-  - http://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
-  - http://images4.wikia.nocookie.net/__cb20061222015333/freeciv/images/9/94/Big_window.png
+  - https://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
+  - https://images4.wikia.nocookie.net/__cb20061222015333/freeciv/images/9/94/Big_window.png
   lang: C
   license:
   - GPL2
   development: active
   originals:
   - Civilization II
-  repo: http://svn.gna.org/viewcvs/freeciv/
+  repo: https://sourceforge.net/projects/freeciv/
   type: clone
-  url: http://freeciv.wikia.com/
+  url: http://www.freeciv.org/
 
 - name: Freeciv Alpha Centauri project
   images:
@@ -301,7 +295,7 @@
   development: halted
   originals:
   - Sid Meier's Alpha Centauri
-  repo: http://freecivac.cvs.sourceforge.net/viewvc/freecivac/
+  repo: https://sourceforge.net/projects/freecivac/
   type: remake
   updated: 2015-04-11
   url: http://freecivac.sourceforge.net/
@@ -317,34 +311,35 @@
   development: active
   originals:
   - Sid Meier's Colonization
-  repo: https://git.code.sf.net/p/freecol/git
+  repo: https://sourceforge.net/projects/freecol/
   type: remake
   url: http://www.freecol.org/
 
 - name: Freedoom
   development: sporadic
   images:
-  - http://freedoom.github.io/img/screenshots/phase1-0.10_01.png
-  - http://freedoom.github.io/img/screenshots/phase1-0.10_02.png
-  - http://freedoom.github.io/img/screenshots/phase1-0.10_03.png
+  - https://freedoom.github.io/img/screenshots/phase1-0.10_01.png
+  - https://freedoom.github.io/img/screenshots/phase1-0.10_02.png
+  - https://freedoom.github.io/img/screenshots/phase1-0.10_03.png
   content: free
   originals:
   - Doom
   - Doom II
-  repo: https://github.com/chungy/freedoom
+  repo: https://github.com/freedoom/freedoom
   type: remake
   updated: 2013-06-06
-  url: http://freedoom.github.io/
+  url: https://freedoom.github.io/
 
 - name: FreedroidClassic
   images:
-  - http://a.fsdn.com/con/app/proj/freedroid/screenshots/25826.jpg
+  - https://a.fsdn.com/con/app/proj/freedroid/screenshots/25826.jpg
   lang: C
   development: complete
   originals:
   - Paradroid
+  repo: https://gitlab.com/freedroid/freedroid-src
   type: remake
-  url: http://www.freedroid.org/download/#c46
+  url: http://www.freedroid.org/
 
 - name: FreedroidRPG
   images:
@@ -362,6 +357,7 @@
   - Paradroid
   repo: git://git.code.sf.net/p/freedroid/code
   status: playable
+  repo: https://gitlab.com/freedroid/freedroid-src
   type: clone
   url: http://www.freedroid.org/
 
@@ -428,10 +424,10 @@
   development: active
   originals:
   - Warlords II
-  repo: git://git.code.sf.net/p/freelords/git
+  repo: https://gitlab.com/freedroid/freedroid-src
   type: remake
   updated: 2015-04-06
-  url: http://sourceforge.net/projects/freelords/
+  url: https://sourceforge.net/p/freelords/wiki/Home/
 
 - name: Freenukum Jump'n Run
   lang: C
@@ -440,17 +436,16 @@
   development: halted
   originals:
   - Duke Nukem
-  repo: https://bazaar.launchpad.net/~silwol/freenukum/trunk/files
+  repo: https://launchpad.net/freenukum/
   type: remake
   updated: 2015-04-03
-  url: https://launchpad.net/freenukum/
 
 - name: FreeOrion
   development: sporadic
   images:
-  - http://www.freeorion.org/images/8/82/Galaxy_Map_AIs_SVN3100.png
-  - http://www.freeorion.org/images/1/14/Design_Screen_SVN3097.png
-  - http://www.freeorion.org/images/a/ab/FreeOrion3215_Galaxy_Map.png
+  - https://www.freeorion.org/images/8/82/Galaxy_Map_AIs_SVN3100.png
+  - https://www.freeorion.org/images/1/14/Design_Screen_SVN3097.png
+  - https://www.freeorion.org/images/a/ab/FreeOrion3215_Galaxy_Map.png
   lang:
   - C++
   - Python
@@ -463,7 +458,7 @@
   - Master of Orion 2
   repo: https://github.com/freeorion/freeorion
   type: clone
-  url: http://www.freeorion.org/
+  url: https://www.freeorion.org/index.php/Main_Page
 
 - name: FreePrince
   lang: C
@@ -471,9 +466,10 @@
   originals:
   - Prince of Persia
   status: playable
+  repo: http://www.princed.org/downloads/FreePrince/FP_2011-12-04_source.tar.gz
   type: remake
   updated: 2014-01-12
-  url: http://www.princed.org/downloads/FreePrince/FP_2011-12-04_source.tar.gz
+  url: https://www.princed.org/freeprincejsp/
 
 - name: FreeRails
   images:
@@ -484,7 +480,7 @@
   development: halted
   originals:
   - Railroad Tycoon
-  repo: freerails.cvs.sourceforge.net
+  repo: https://sourceforge.net/projects/freerails/
   type: remake
   updated: 2015-04-03
   url: http://freerails.sourceforge.net/
@@ -496,7 +492,7 @@
   development: halted
   originals:
   - Railroad Tycoon
-  repo: svn://svn.code.sf.net/p/freerails2/code/
+  repo: https://sourceforge.net/projects/freerails2/
   type: remake
   updated: 2015-04-03
   url: http://freerails2.sourceforge.net/
@@ -532,7 +528,7 @@
   development: sporadic
   originals:
   - Siege
-  repo: https://github.com/MCMic/freesiege
+  repo: https://gitlab.com/LibreGames/freesiege
   status: playable
   type: remake
   updated: 2013-06-06
@@ -542,9 +538,9 @@
   framework:
   - MonoGame
   images:
-  - http://freeso.org/wp-content/uploads/2016/06/head.bmp
-  - http://freeso.org/wp-content/uploads/2016/01/pool.png
-  - http://freeso.org/wp-content/uploads/2016/01/br.png
+  - https://freeso.org/wp-content/uploads/2016/06/head.bmp
+  - https://freeso.org/wp-content/uploads/2016/01/pool.png
+  - https://freeso.org/wp-content/uploads/2016/01/br.png
   lang:
   - C#
   license:
@@ -556,7 +552,7 @@
   status: playable
   type: remake
   updated: 2016-12-04
-  url: http://freeso.org
+  url: https://freeso.org/
   video:
     youtube: x35aPzAi55M
 
@@ -569,7 +565,7 @@
   development: active
   originals:
   - FreeSpace 2
-  repo: http://svn.icculus.org/fs2open/
+  repo: https://svn.icculus.org/fs2open/
   type: remake
   url: http://scp.indiegames.us/
 
@@ -580,7 +576,7 @@
   development: halted
   originals:
   - Stars!
-  repo: svn://svn.code.sf.net/p/freestars/code/trunk
+  repo: https://sourceforge.net/projects/freestars/
   type: remake
   updated: 2015-04-11
   url: http://freestars.sourceforge.net/
@@ -594,7 +590,7 @@
   development: active
   originals:
   - Syndicate
-  repo: http://freesynd.svn.sourceforge.net/viewvc/freesynd/
+  repo: https://sourceforge.net/projects/freesynd/
   type: remake
   url: http://freesynd.sourceforge.net/
 
@@ -611,7 +607,7 @@
   content: commercial
   originals:
   - A-Train
-  repo: http://sourceforge.net/p/freetrain/code/
+  repo: https://sourceforge.net/projects/freetrain/
   status: playable
   type: clone
   updated: 2018-03-20
@@ -621,17 +617,17 @@
 
 - name: freeVikings
   images:
-  - http://a.fsdn.com/con/app/proj/freevikings/screenshots/186371.jpg
-  - http://a.fsdn.com/con/app/proj/freevikings/screenshots/186373.jpg
-  - http://a.fsdn.com/con/app/proj/freevikings/screenshots/199282.jpg
-  - http://a.fsdn.com/con/app/proj/freevikings/screenshots/186375.jpg
+  - https://a.fsdn.com/con/app/proj/freevikings/screenshots/186371.jpg
+  - https://a.fsdn.com/con/app/proj/freevikings/screenshots/186373.jpg
+  - https://a.fsdn.com/con/app/proj/freevikings/screenshots/199282.jpg
+  - https://a.fsdn.com/con/app/proj/freevikings/screenshots/186375.jpg
   lang: Ruby
   license:
   - GPL2
   development: sporadic
   originals:
   - The Lost Vikings
-  repo: git://git.code.sf.net/p/freevikings/git
+  repo: https://sourceforge.net/projects/freevikings/
   type: clone
   updated: 2015-05-12
   url: http://freevikings.wz.cz/
@@ -645,7 +641,7 @@
   development: halted
   originals:
   - Guitar Hero
-  repo: http://sourceforge.net/p/fretsonfire/code/HEAD/tree/trunk/
+  repo: https://sourceforge.net/projects/fretsonfire/
   status: playable
   type: remake
   updated: 2014-08-20
@@ -670,10 +666,9 @@
   development: halted
   originals:
   - Flying Shark
-  repo: http://friking-shark.googlecode.com/svn/trunk/
+  repo: https://code.google.com/archive/p/friking-shark/
   type: remake
   updated: 2015-04-06
-  url: https://code.google.com/p/friking-shark/
 
 - name: Froggix
   images:
@@ -684,10 +679,9 @@
   development: halted
   originals:
   - Frogger
-  repo: svn://svn.code.sf.net/p/froggix/code/trunk
+  repo: https://sourceforge.net/projects/froggix/
   type: remake
   updated: 2015-04-15
-  url: http://sourceforge.net/projects/froggix/
 
 - name: Frontier 1337
   images:
@@ -706,18 +700,7 @@
   development: sporadic
   originals:
   - Puzzle Bobble
-  repo: http://github.com/kthakore/frozen-bubble
+  repo: https://github.com/kthakore/frozen-bubble
   type: clone
   updated: 2013-06-06
   url: http://frozen-bubble.org/
-
-- name: Full Screen Mario
-  lang: JavaScript
-  development: active
-  originals:
-  - Mario World
-  repo: https://github.com/FullScreenShenanigans/FullScreenMario/
-  status: playable
-  type: remake
-  updated: 2015-04-04
-  url: http://www.fullscreenmario.com/
