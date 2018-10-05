@@ -38,20 +38,28 @@
   url: https://www.kde.org/applications/games/katomic/
 
 - name: Keen Dreams
-  images:
-  - http://cloud-3.steamusercontent.com/ugc/26216921914590827/8AECCAA9C1AA07D02F357A41AEFB074FC02A75A1/
+  lang: C
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Commander Keen Series
+  repo: https://github.com/keendreams/keen
+  type: remake
+  updated: 2015-04-04
+  video:
+    youtube: 23SahL6eG6A
+    
+- name: Reflection Keen Dreams
   lang: C
   license:
   - GPL2
   development: active
   originals:
   - Commander Keen Series
-  repo: https://github.com/keendreams/keen
+  repo: https://github.com/NY00123/refkeen
   type: remake
-  updated: 2015-04-04
-  url: http://steamcommunity.com/sharedfiles/filedetails/?id=315040793
-  video:
-    youtube: 23SahL6eG6A
+  updated: 2018-04-23
 
 - name: KeeperFX
   lang: C
