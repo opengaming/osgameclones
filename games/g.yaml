@@ -1,5 +1,7 @@
 - name: galaxian
   lang: ActionScript
+  license:
+  - As-is
   development: halted
   originals:
   - Galaxian
@@ -9,10 +11,12 @@
 
 - name: Galaxy Forces V2
   lang: C++
+  license:
+  - PD
   development: active
   originals:
   - Gravity Force
-  repo: svn://svn.code.sf.net/p/galaxyv2/code/
+  repo: https://sourceforge.net/projects/galaxyv2/
   type: remake
   updated: 2015-04-03
   url: http://www.galaxy-forces.com/
@@ -21,6 +25,8 @@
   images:
   - https://bitbucket.org/repo/ejzABR/images/4034423466-gdashgame.png
   lang: C++
+  license:
+  - MIT
   development: active
   originals:
   - Boulder Dash
@@ -29,26 +35,14 @@
   updated: 2015-04-03
   url: https://bitbucket.org/czirkoszoltan/gdash
 
-- name: gdxBlood
-  images:
-  - http://m210.duke4.net/images/Screenshots/bloodcm/bloodcm_screenshots_10_20130610_1312349237.png
-  - http://m210.duke4.net/images/Screenshots/bloodcm/bloodcm_screenshots_18_20130610_2002640458.png
-  - http://m210.duke4.net/images/Screenshots/bloodcm/new_bloodcm_screenshots_14_20160131_1450422400.png
-  info: reverse engineered
-  lang: Java
-  originals:
-  - Blood
-  repo: http://m210.duke4.net/index.php/files/finish/3-eduke32/38-blood-crossmatching
-  type: remake
-  updated: 2017-04-04
-  url: http://m210.duke4.net/index.php/36-gdxblood-port
-
 - name: GemRB
   images:
   - http://sourceforge.net/dbimage.php?id=105342
   - http://sourceforge.net/dbimage.php?id=105346
   - http://sourceforge.net/dbimage.php?id=105344
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - Baldur's Gate
@@ -95,6 +89,8 @@
 - name: Gift Grabber
   framework: BackBone.js
   lang: JavaScript
+  license:
+  - Apache
   development: active
   originals:
   - Flag Catcher
@@ -108,10 +104,12 @@
   - https://sourceforge.net/p/gigalomania/screenshot/glm_0_28_android_ss8_small.jpg
   - https://sourceforge.net/p/gigalomania/screenshot/glm_0_28_android_ss3_small.jpg
   lang: C++
+  license:
+  - GPL2
   development: sporadic
   originals:
   - Mega Lo Mania
-  repo: http://sourceforge.net/p/gigalomania/code/ci/master/tree/
+  repo: https://sourceforge.net/projects/gigalomania/
   status: playable
   type: remake
   updated: 2014-08-17
@@ -125,7 +123,9 @@
   - http://a.fsdn.com/con/app/proj/glestae/screenshots/258718.jpg
   - http://a.fsdn.com/con/app/proj/glestae/screenshots/226560.jpg
   lang: C++
-  development: sporadic
+  license:
+  - GPL2
+  development: halted
   originals:
   - Glest
   status: playable
@@ -137,6 +137,8 @@
   lang:
   - C++
   - Assembly
+  license:
+  - As-is
   framework: SDL
   originals:
   - Elite III
@@ -145,34 +147,12 @@
   updated: 2016-01-10
   url: http://nic.dnsalias.com/FFE.html
 
-- name: GLFrontier
-  images:
-  - http://www.theisozone.com/images/screens/pc-58582-21416982975.jpg
-  lang: C++
-  development: halted
-  originals:
-  - Elite II
-  repo: http://tom.noflag.org.uk/glfrontier.html
-  type: remake
-  updated: 2015-04-01
-  url: http://tom.noflag.org.uk/glfrontier.html
-  video:
-    youtube: r8cmyo29NME
-
-- name: GLHeretic
-  lang: C
-  originals:
-  - Doom
-  - Doom II
-  - Heretic
-  - Hexen
-  repo: http://freecode.com/projects/glhereticforlinux
-  type: remake
-
 - name: glPortal
   images:
   - http://glportal.de/glportal.gif
   lang: C++
+  license:
+  - Zlib
   development: sporadic
   originals:
   - Portal
@@ -222,10 +202,11 @@
   images:
   - http://jotd.pagesperso-orange.fr/gods/snapshots/classic_level_1/images/view_0000.jpg
   lang: Java
+  license:
+  - As-is
   development: halted
   originals:
   - Gods
-  repo: http://jotd.pagesperso-orange.fr/gods/GodsDeluxe-0_8-B.zip
   type: remake
   updated: 2015-04-04
   url: http://jotd.pagesperso-orange.fr/gods/index.html
@@ -233,6 +214,8 @@
 - name: Google Pacman
   framework: Flash
   lang: JavaScript
+  license:
+  - As-is
   development: complete
   originals:
   - Pac-Man
@@ -254,24 +237,11 @@
   updated: 2015-04-06
   url: https://github.com/Lyndir/Gorillas
 
-- name: Grid Wars 2
-  images:
-  - http://worldofstuart.excellentcontent.com/grid/gw1.jpg
-  - http://worldofstuart.excellentcontent.com/grid/gw2.jpg
-  - http://worldofstuart.excellentcontent.com/grid/gw3.jpg
-  - http://worldofstuart.excellentcontent.com/grid/gw4.jpg
-  - http://worldofstuart.excellentcontent.com/grid/gw5.jpg
-  lang: Blitz BASIC
-  originals:
-  - Geometry Wars
-  repo: http://worldofstuart.excellentcontent.com/grid/GridWars54.zip
-  type: remake
-  updated: 2015-05-09
-  url: http://worldofstuart.excellentcontent.com/grid/wars.htm
-
 - name: grid-leader
   framework: Panda3D
   lang: Python
+  license:
+  - As-is
   development: halted
   originals:
   - Pole Position
@@ -296,19 +266,22 @@
 
 - name: gta2net
   lang: C#
+  license:
+  - As-is
   development: halted
   originals:
   - Grand Theft Auto 2
-  repo: http://code.google.com/p/gta2net/source/browse/trunk
   type: remake
-  updated: 2014-02-05
-  url: http://code.google.com/p/gta2net/
+  updated: 2018-10-05
+  url: https://github.com/andrecarlucci/gta2net
 
 - name: Gusanos
   development: halted
+  license:
+  - GPL2
   originals:
   - Liero
-  repo: http://sourceforge.net/p/gusanos/code/?source=navbar
+  repo: https://sourceforge.net/projects/gusanos/
   status: playable
   type: remake
   updated: 2013-05-27
@@ -333,6 +306,8 @@
   images:
   - http://forum.drdteam.org/download/file.php?id=2219
   lang: C++
+  license:
+  - GPL3
   development: active
   originals:
   - Doom

@@ -1,11 +1,14 @@
 - name: D2X-XL
   lang: C++
-  development: active
+  license:
+  - GPL2
+  development: halted
   originals:
   - Descent
   - Descent II
   repo: https://sourceforge.net/projects/d2x-xl/
   type: remake
+  updated: 2018-10-05
   url: http://www.descent2.de/
   video:
     youtube: AJwOTmmbze4
@@ -25,6 +28,8 @@
 
 - name: Daggerfall.NET
   lang: C#
+  license:
+  - As-is
   development: halted
   originals:
   - 'The Elder Scrolls II: Daggerfall'
@@ -39,13 +44,34 @@
   - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_4.jpg
   - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
   lang: C++
-  development: sporadic
+  license:
+  - CC-BY-NC-ND
+  - GPL2
+  development: halted
   originals:
   - Silent Hunter 4
   repo: https://sourceforge.net/projects/dangerdeep/
   type: remake
   updated: 2012-04-05
   url: http://dangerdeep.sourceforge.net/
+
+- name: The Dark Mod
+  images:
+  - http://www.thedarkmod.com/wp-content/gallery/environments/training1.jpg
+  - http://www.thedarkmod.com/wp-content/gallery/environments/rttc2v_10.jpg
+  lang: C++
+  license:
+  - GPL3
+  development: active
+  originals:
+  - Thief
+  repo: https://svn.thedarkmod.com/publicsvn/darkmod_src/trunk/
+  status: playable
+  type: clone
+  updated: 2013-10-28
+  url: http://www.thedarkmod.com/
+  video:
+    youtube: hNtUQ32eeRM
 
 - name: Dark Oberon
   images:
@@ -54,6 +80,9 @@
   - http://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_1024x768.jpg
   originals:
   - Warcraft II
+  license:
+  - GPL2
+  development: halted
   repo: https://sourceforge.net/projects/dark-oberon/
   type: clone
   updated: 2015-04-06
@@ -61,10 +90,12 @@
 
 - name: Dark Reign 2
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Dark Reign 2
-  repo: https://code.google.com/archive/p/darkreign2/
+  repo: https://github.com/grasmanek94/darkreign2
   type: remake
 
 - name: DarkFO
@@ -167,6 +198,8 @@
   - http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX42.gif
   - http://retrospec.sgn.net/config/screenshots/deflektorx4.f.DeflektorX41.gif
   lang: C
+  license:
+  - As-is
   development: halted
   originals:
   - Deflektor
@@ -181,7 +214,9 @@
   - http://www.patje.de/wp-content/uploads/2006/12/clou_2.jpg
   - http://www.patje.de/wp-content/uploads/2006/12/clou_3.jpg
   lang: C
-  development: sporadic
+  license:
+  - Custom
+  development: halted
   originals:
   - The Clue!
   repo: https://github.com/vcosta/derclou
@@ -207,10 +242,12 @@
 
 - name: Deuteros X
   lang: C#
+  license:
+  - GPL2
   development: halted
   originals:
   - Deuteros
-  repo: http://sourceforge.net/projects/deuterosx/
+  repo: http://sourceforge.net/ projects/deuterosx/
   type: remake
   updated: 2015-04-06
   url: http://deuterosx.org/
@@ -273,6 +310,8 @@
 
 - name: Digger
   lang: TypeScript
+  license:
+  - As-is
   development: active
   originals:
   - Boulder Dash
@@ -298,7 +337,9 @@
 - name: Digimon World Project Ark
   framework: Unity
   lang: C#
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Digimon World
   repo: https://github.com/dwProjectark/Digimon-World-Project-Ark
@@ -355,6 +396,8 @@
 
 - name: dodger-remake
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Dodger
@@ -365,7 +408,9 @@
 - name: DonkeyInTrouble
   framework: "L\xD6VE"
   lang: Lua
-  development: sporadic
+  license:
+  - As-is
+  development: halted
   originals:
   - Kaboom!
   repo: https://github.com/Zap123/DonkeyInTrouble
@@ -393,6 +438,8 @@
   - http://doomlegacy.sourceforge.net/images/legacy/multibf1.gif
   - http://doomlegacy.sourceforge.net/images/legacy/3dfx.gif
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - Doom
@@ -439,6 +486,8 @@
   - http://dopewars.sourceforge.net/screenshots/linux-gtk-multi.png
   - http://dopewars.sourceforge.net/screenshots/winxp-multi.png
   lang: C
+  license:
+  - GPL2
   development: sporadic
   originals:
   - Drugwars
@@ -453,6 +502,8 @@
   - https://a.fsdn.com/con/app/proj/creep/screenshots/250982.jpg
   - https://a.fsdn.com/con/app/proj/creep/screenshots/250990.jpg
   lang: C++
+  license:
+  - GPL3
   development: complete
   originals:
   - The Castles of Dr. Creep
@@ -465,6 +516,8 @@
   images:
   - https://pygame.org/shots/1615.png
   lang: Python
+  license:
+  - As-is
   development: halted
   originals:
   - Duck Hunt
@@ -508,11 +561,13 @@
   updated: 2015-04-11
   url: https://pygame.org/project-Duck+Rehunt-1862-.html
 
-- name: duckhunt
+- name: Duck Hunt
   images:
   - https://pygame.org/shots/2045.png
   lang: Python
-  development: sporadic
+  license:
+  - As-is
+  development: halted
   originals:
   - Duck Hunt
   repo: https://github.com/aosyborg/duckhunt
@@ -520,8 +575,10 @@
   updated: 2015-04-05
   url: https://pygame.org/project-Duck+Hunt+Remake-2045-.html
 
-- name: duckhunt
+- name: DuckHunt
   lang: JavaScript
+  license:
+  - As-is
   development: halted
   originals:
   - Duck Hunt
@@ -599,7 +656,9 @@
   images:
   - http://www.dungeoneye.net/static/img/screenshots/ingame_001.png
   lang: C#
-  development: sporadic
+  license:
+  - As-is
+  development: halted
   originals:
   - Eye of the Beholder II
   repo: https://github.com/iliak/dungeoneye
@@ -609,7 +668,9 @@
 
 - name: DungeonMaster
   lang: C#
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Dungeon Master
   repo: https://github.com/ggrrin/DungeonMaster
@@ -618,9 +679,11 @@
 
 - name: Dupocracy
   framework: HTML5
+  license:
+  - As-is
   images:
   - http://www.gamedev.pl/images/l/557,fogofwarpng.jpg
-  development: active
+  development: halted
   originals:
   - DEFCON
   repo: https://github.com/gtanczyk/Dupocracy
@@ -631,7 +694,9 @@
   framework: Gradle
   info: Android
   lang: Java
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - DX-Ball
   repo: https://github.com/nomanHasan/DXBall
@@ -645,6 +710,9 @@
   - https://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn1.jpg
   - https://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn18.jpg
   lang: C
+  license:
+  - GPL3
+  - Custom
   development: active
   originals:
   - Descent

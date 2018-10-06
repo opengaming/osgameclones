@@ -5,6 +5,8 @@
   - http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f07.jpg
   - http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f02.jpg
   lang: C++
+  license:
+  - Zlib
   development: active
   originals:
   - Wipeout
@@ -19,6 +21,8 @@
   - http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9151.jpg
   - http://a.fsdn.com/con/app/proj/uhexen2/screenshots/9153.jpg
   lang: C
+  license:
+  - GPL2
   development: active
   originals:
   - Hexen II
@@ -31,6 +35,8 @@
   lang:
   - C
   - C++
+  license:
+  - GPL3
   development: sporadic
   originals:
   - Hardwar
@@ -57,6 +63,8 @@
 
 - name: HauntedHouse
   lang: ActionScript
+  license:
+  - As-is
   development: complete
   originals:
   - Haunted House
@@ -66,6 +74,8 @@
 
 - name: Head over Heels 2
   lang: C++
+  license:
+  - GPL2
   framework: Allegro
   originals:
   - Head over Heels
@@ -87,10 +97,12 @@
 
 - name: Heart of the Alien
   lang: C
+  license:
+  - GPL2
   development: halted
   originals:
   - 'Another World 2: Heart of the Alien'
-  repo: http://hota.cvs.sourceforge.net/viewvc/hota/
+  repo: https://sourceforge.net/projects/hota/
   type: remake
   updated: 2015-04-02
   url: http://hota.sourceforge.net/
@@ -110,6 +122,8 @@
   - C++
   - Pascal
   - Haskell
+  license:
+  - GPL2
   development: active
   originals:
   - Worms Series
@@ -180,6 +194,8 @@
   - https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png
   - https://conquertheworldbycode.files.wordpress.com/2013/10/screen.png
   lang: C#
+  license:
+  - As-is
   development: halted
   originals:
   - 'History Line: 1914-1918'
@@ -190,7 +206,9 @@
 
 - name: hobbitgfx
   lang: JavaScript
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - The Hobbit
   repo: https://github.com/richcarl/hobbitgfx
@@ -216,26 +234,24 @@
 
 - name: HODe
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Heart of Darkness
-  repo: https://code.google.com/p/tombexcavator/source/browse/branches/v0/unsorted/hode-20090726
+  repo: https://github.com/timfel/tombexcavator
   type: remake
 
 - name: Homeworld SDL
   framework: SDL
-  images:
-  - http://www.thereisnospork.com/projects/homeworld/images/test01.png
-  - http://www.thereisnospork.com/projects/homeworld/images/screen01.png
-  - http://www.thereisnospork.com/projects/homeworld/images/screen02.png
-  - http://www.thereisnospork.com/projects/homeworld/images/screen04.png
+  license:
+  - Custom
   development: halted
   originals:
   - Homeworld
-  repo: http://www.thereisnospork.com/projects/homeworld/#download
   status: playable
   type: remake
-  url: http://www.thereisnospork.com/projects/homeworld/
+  url: https://github.com/aheadley/homeworld
 
 - name: HoverRace
   lang: C++
@@ -264,6 +280,8 @@
 - name: Hurrican
   info: Makefile needs edits to compile on Linux
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Turrican

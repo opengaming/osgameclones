@@ -3,10 +3,12 @@
   - SDL
   lang:
   - C
+  license:
+  - GPL2
   development: halted
   originals:
   - Asteroids
-  repo: http://www.libsdl.org/projects/Maelstrom/src/
+  repo: https://www.libsdl.org/projects/Maelstrom/source.html
   status: playable
   type: remake
   updated: 2014-01-12
@@ -15,6 +17,8 @@
 - name: Magarena
   lang:
   - Java
+  license:
+  - GPL3
   development: very active
   originals:
   - 'Magic: The Gathering Online'
@@ -25,6 +29,8 @@
 
 - name: magiccarpet
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Magic Carpet
@@ -36,6 +42,8 @@
   lang:
   - C
   - PHP
+  license:
+  - As-is
   originals:
   - TrackMania
   repo: https://sourceforge.net/projects/maniadrive/files/maniadrive/1.2/ManiaDrive-1.2-src.tar.gz
@@ -47,7 +55,9 @@
   images:
   - http://manicdigger.github.io/images/release_2015-08-22.png
   lang: C#
-  development: sporadic
+  license:
+  - PD
+  development: halted
   originals:
   - Minecraft
   repo: https://github.com/manicdigger/manicdigger
@@ -57,15 +67,19 @@
 
 - name: Manic Miner
   lang: Blitz BASIC
+  license:
+  - Custom
   originals:
   - Manic Miner
-  repo: http://www.andynoble.co.uk/files/ManicBB.zip
+  repo: http://retrospec.sgn.net/download.php?link=mm&url=http://www.retrospec.sgn.net/users/anoble/files/ManicBB.zip
   type: remake
-  updated: 2015-05-09
-  url: http://www.andynoble.co.uk/games.htm
+  updated: 2018-10-05
+  url: http://retrospec.sgn.net/game/mm
 
 - name: Marble Madness 3d
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Marble Madness
@@ -95,6 +109,8 @@
   images:
   - https://i.imgur.com/M8NcU.gif
   lang: Lua
+  license:
+  - CC-BY-NC-SA
   framework: "L\xD6VE"
   originals:
   - Mario World
@@ -102,27 +118,6 @@
   type: remake
   updated: 2015-04-03
   url: http://stabyourself.net/mari0/
-
-- name: Mauvenet
-  images:
-  - http://gamesoft.ca/bestgames/images/mauvenet3.png
-  lang: C++
-  originals:
-  - Quadnet
-  repo: http://gamesoft.ca/bestgames/mauvenet_.zip
-  type: remake
-  updated: 2015-05-09
-  url: http://gamesoft.ca/remakes.html
-
-- name: Maxit
-  images:
-  - http://gamesoft.ca/bestgames/images/maxit.png
-  lang: Java
-  originals:
-  - Maxit
-  repo: http://gamesoft.ca/bestgames/maxit%20-%20src.zip
-  type: remake
-  updated: 2015-05-09
 
 - name: Maxit
   images:
@@ -147,10 +142,13 @@
   - http://www.maxr.org/images/screenshots/11.jpg
   - http://www.maxr.org/images/screenshots/10.jpg
   lang: C++
+  license:
+  - GPL2
+  - CC-BY-SA
   development: sporadic
   originals:
   - M.A.X.
-  repo: http://www.maxr.org/trac/timeline
+  repo: https://git.maxr.org/maxr/maxr/
   type: remake
   url: http://www.maxr.org/
 
@@ -171,6 +169,8 @@
   - http://a.fsdn.com/con/app/proj/mmario/screenshots/206814.jpg
   - http://a.fsdn.com/con/app/proj/mmario/screenshots/206810.jpg
   lang: C++
+  license:
+  - LGPL2
   development: halted
   originals:
   - Super Mario
@@ -297,6 +297,8 @@
 - name: Minesweeper
   info: iOS
   lang: F#
+  license:
+  - As-is
   development: halted
   originals:
   - Minesweeper
@@ -310,6 +312,8 @@
   - React
   - Redux
   lang: JavaScript
+  license:
+  - As-is
   content: free
   originals:
   - Minesweeper
@@ -325,6 +329,8 @@
   - https://minesweeper.zone/minesweeper.jpg
   info: Open source JavaScript Minesweeper clone with high scores
   lang: JavaScript
+  license:
+  - MIT
   content: open
   originals:
   - Minesweeper
@@ -373,6 +379,8 @@
 
 - name: Mirror Magic
   lang: C
+  license:
+  - GPL2
   development: halted
   originals:
   - Deflektor
@@ -385,6 +393,8 @@
   images:
   - https://camo.githubusercontent.com/7e8455e7b2c909a2977815c861ab6bf9a053bee4/687474703a2f2f692e696d6775722e636f6d2f7747556a592e706e67
   lang: Lua
+  license:
+  - As-is
   development: halted
   originals:
   - Missile Command
@@ -400,6 +410,8 @@
   images:
   - https://1.bp.blogspot.com/_zJ6-FHWQvDE/R0e_NhJFakI/AAAAAAAAACw/tgysRPXJfeU/s400/el-14.jpg
   lang: C
+  license:
+  - As-is
   development: halted
   originals:
   - Elite
@@ -491,13 +503,15 @@
   - https://a.fsdn.com/con/app/proj/montymole/screenshots/28062.jpg
   - https://a.fsdn.com/con/app/proj/montymole/screenshots/28060.jpg
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Monty Mole
-  repo: http://montymole.cvs.sourceforge.net/viewvc/montymole/
+  repo: https://sourceforge.net/projects/montymole/
   type: remake
   updated: 2015-04-13
-  url: http://sourceforge.net/projects/montymole/
+  url: http://montymole.sourceforge.net
 
 - name: movbizz
   lang:

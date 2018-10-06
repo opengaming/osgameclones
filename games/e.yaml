@@ -1,6 +1,8 @@
 - name: earth-shaker
   framework: Unity
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Earth Shaker
   repo: https://github.com/Palevolg/earth-shaker
@@ -79,6 +81,16 @@
   images:
   - https://maniacsvault.net/ecwolf/ecwolf_fullres.png
   lang: C++
+  license:
+  - GPL2
+  - BSD
+  - LGPL2
+  - Libpng
+  - Zlib
+  - bzip2
+  - MIT
+  - IJG
+  - PD
   development: active
   originals:
   - Wolfenstein 3D
@@ -95,6 +107,8 @@
   - http://hrp.duke4.net/screens/ep1/e1l5_01s.jpg
   - http://hrp.duke4.net/screens/ep2/e2l3_04s.jpg
   lang: C
+  license:
+  - GPL2
   development: active
   originals:
   - Duke Nukem 3D
@@ -124,7 +138,9 @@
 - name: encounter
   framework: WebGL
   lang: JavaScript
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Encounter
   repo: https://github.com/air/encounter
@@ -165,6 +181,8 @@
 
 - name: Entombed!
   lang: C
+  license:
+  - GPL2
   development: halted
   originals:
   - Entombed!
@@ -175,16 +193,20 @@
 
 - name: erampage (EDuke32 fork)
   lang: C
-  development: active
+  license:
+  - GPL2
+  development: halted
   originals:
   - Redneck Rampage
-  repo: https://code.google.com/archive/p/erampage/
+  repo: https://github.com/ttyborg/erampage
   type: remake
-  updated: 2013-05-29
-  url: https://code.google.com/archive/p/erampage/wikis/MainPage.wiki
+  updated: 2018-10-05
+  url: http://www.jonhunt.com/redneck/erampage.html
 
 - name: Escalade
   lang: Scala
+  license:
+  - As-is
   development: halted
   originals:
   - Rampart
@@ -198,6 +220,8 @@
   - C
   - C++
   - Lua
+  license:
+  - GPL3
   content: commercial
   originals:
   - 'Wolfenstein: Enemy Territory'
@@ -237,7 +261,9 @@
   images:
   - https://raw.githubusercontent.com/newagebegins/exolon/master/screenshot.gif
   lang: JavaScript
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Exolon
   repo: https://github.com/newagebegins/exolon
@@ -252,7 +278,9 @@
   - http://exult.sourceforge.net/images/screenshots/blackgate.png
   - http://exult.sourceforge.net/images/screenshots/teleportmap.png
   lang: C++
-  development: sporadic
+  license:
+  - GPL2
+  development: halted
   originals:
   - Ultima VII
   repo: https://sourceforge.net/projects/exult/

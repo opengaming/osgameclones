@@ -5,6 +5,8 @@
   - http://blog.naev.org/wp-content/gallery/media/slotsizes.png
   - http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png
   lang: C
+  license:
+  - GPL3
   development: active
   originals:
   - Escape Velocity
@@ -16,25 +18,15 @@
   images:
   - https://pwmarcz.pl/netacka/sshots.png
   lang: C
+  license:
+  - MIT
   development: halted
   originals:
   - Achtung, die Kurve!
-  repo: https://pwmarcz.pl/netacka/src/
+  repo: https://github.com/pwmarcz/netacka/
   type: remake
   updated: 2016-03-06
   url: https://pwmarcz.pl/netacka/
-
-- name: Nether Earth Remake
-  images:
-  - http://www2.braingames.getput.com/nether/images/original00.jpg
-  - http://www2.braingames.getput.com/nether/images/remake00.jpg
-  lang: C++
-  originals:
-  - Nether Earth
-  repo: http://www2.braingames.getput.com/nether/sources.zip
-  type: remake
-  updated: 2015-04-13
-  url: http://www2.braingames.getput.com/nether/default.asp
 
 - name: Neverball
   framework: SDL
@@ -74,6 +66,8 @@
 - name: newtron
   lang:
   - JavaScript
+  license:
+  - As-is
   development: halted
   originals:
   - Tron
@@ -88,6 +82,8 @@
   - https://i.imgur.com/ZL3V5XB.jpg
   - https://i.imgur.com/DRyjX57.jpg
   lang: C++
+  license:
+  - MIT
   content: commercial
   originals:
   - Need For Speed II SE
@@ -100,10 +96,12 @@
   images:
   - http://night-hawk.sourceforge.net/nh_intro_1.png
   lang: C++
+  license:
+  - GPL2
   development: halted
   originals:
   - Paradroid
-  repo: http://night-hawk.cvs.sourceforge.net/viewvc/night-hawk/
+  repo: https://sourceforge.net/projects/night-hawk/
   status: playable
   type: remake
   updated: 2013-05-27
@@ -126,6 +124,8 @@
 - name: Nodes of Yesnod remake
   framework: XNA
   lang: C#
+  license:
+  - As-is
   development: halted
   originals:
   - Nodes of Yesod
@@ -155,6 +155,8 @@
   - http://nuvie.sourceforge.net/images/shots/nuvie_22.png
   - http://nuvie.sourceforge.net/images/shots/nuvie_21.png
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - Ultima VI

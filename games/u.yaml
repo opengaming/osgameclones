@@ -42,13 +42,15 @@
   - http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66447.jpg
   - http://a.fsdn.com/con/app/proj/ufo2000/screenshots/66445.jpg
   lang: C++
+  license:
+  - GPL2
   development: halted
   originals:
   - 'X-COM: UFO Defense'
   - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
   - 'UFO: Enemy Unknown'
-  repo: http://sourceforge.net/p/ufo2000/code/1176/tree/
+  repo: https://sourceforge.net/projects/ufo2000/
   status: playable
   type: remake
   updated: 2013-07-05
@@ -61,28 +63,34 @@
   - http://ufoai.ninex.info/wiki/images/Ufoai2.2_aircraft_team.jpg
   - http://ufoai.ninex.info/wiki/images/Ufoaiold_base01.jpg
   lang: C
+  license:
+  - GPL2
   development: active
   originals:
   - 'X-COM: UFO Defense'
   - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
   - 'UFO: Enemy Unknown'
-  repo: http://ufoai.git.sourceforge.net/git/gitweb.cgi?p=ufoai/ufoai;a=summary
+  repo: https://sourceforge.net/projects/ufoai/
   type: clone
   url: http://ufoai.ninex.info/
+  updated: 2018-10-06
 
 - name: UGH-remake
   lang: C
+  license:
+  - As-is
   development: halted
   originals:
   - Ugh!
-  repo: https://bitbucket.org/Andy51/ugh-remake.git
+  repo: https://bitbucket.org/Andy51/ugh-remake
   type: remake
   updated: 2015-04-13
-  url: https://bitbucket.org/Andy51/ugh-remake
 
 - name: UiirJS
   lang: JavaScript
+  license:
+  - As-is
   development: halted
   originals:
   - 'Ultima II: The Revenge of the Enchantress'
@@ -97,12 +105,15 @@
   - http://www.ultimatestunts.nl/screenshots/0722.jpg
   - http://www.ultimatestunts.nl/screenshots/0742.jpg
   lang: C++
-  development: sporadic
+  license:
+  - GPL2
+  development: halted
   originals:
   - Stunts
-  repo: http://ultimatestunts.svn.sourceforge.net/viewvc/ultimatestunts/
+  repo: https://sourceforge.net/projects/ultimatestunts/
   type: remake
   url: http://www.ultimatestunts.nl/
+  updated: 2018-10-06
 
 - name: UltraStar Deluxe
   framework:
@@ -166,25 +177,22 @@
   - http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png
   - http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
   lang: Python
+  license:
+  - GPL2
+  - Multiple
   development: active
   originals:
   - Anno series
   repo: https://github.com/unknown-horizons/unknown-horizons
   type: clone
   url: http://www.unknown-horizons.org/
-
-- name: UnnamedStarFoxClone
-  framework: Unity
-  lang: C#
-  development: active
-  originals:
-  - Star Fox 64
-  repo: https://github.com/ChristianBorst/UnnamedStarFoxClone
-  type: remake
-  updated: 2015-06-18
+  updated: 2018-10-06
 
 - name: Unvanquished
   lang: C
+  license:
+  - GPL2
+  - CC-BY-SA
   development: active
   originals:
   - Natural Selection
@@ -207,8 +215,28 @@
   type: remake
   updated: 2016-03-08
 
+- name: The Ur-Quan Masters
+  images:
+  - http://sc2.sourceforge.net/screenshots/pcintro.jpg
+  - http://sc2.sourceforge.net/screenshots/slaveshield.png
+  - http://sc2.sourceforge.net/screenshots/scale_triscan.png
+  - http://sc2.sourceforge.net/screenshots/setupmenu.png
+  - http://sc2.sourceforge.net/screenshots/meleestep.png
+  lang: C
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Star Control 2
+  repo: https://sourceforge.net/projects/sc2/
+  type: remake
+  url: http://sc2.sourceforge.net/
+  updated: 2018-10-06
+
 - name: Utopia
   lang: JavaScript
+  license:
+  - As-is
   development: halted
   originals:
   - Utopia

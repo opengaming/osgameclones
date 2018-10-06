@@ -34,16 +34,6 @@
   updated: 2015-06-24
   url: http://scorched-moon.github.io/site/
 
-- name: Scramble
-  images:
-  - http://gamesoft.ca/bestgames/images/scrcap06.png
-  lang: PowerBASIC
-  originals:
-  - Scramble
-  repo: http://gamesoft.ca/bestgames/scramble_source.zip
-  type: remake
-  updated: 2015-05-09
-
 - name: ScummVM
   images:
   - http://scummvm.org/data/screenshots/lec/tentacle/scummvm_0_8_1-full.png
@@ -86,6 +76,8 @@
   - http://www.linuxmotors.com/SDL_bomber/bomber.gif
   lang:
   - C
+  license:
+  - GPL2
   development: halted
   originals:
   - Bomberman
@@ -102,10 +94,12 @@
   - http://sdl-sopwith.sourceforge.net/sshot/runway.png
   - http://sdl-sopwith.sourceforge.net/sshot/sopwith_metacity.png
   lang: C
+  license:
+  - GPL2
   development: halted
   originals:
   - Sopwith
-  repo: http://sourceforge.net/p/sdl-sopwith/code/HEAD/tree/trunk/sopwith/
+  repo: https://sourceforge.net/projects/sdl-sopwith/
   status: playable
   type: remake
   updated: 2014-03-17
@@ -113,6 +107,8 @@
 
 - name: SDLPoP
   lang: C
+  license:
+  - GPL3
   development: active
   originals:
   - Prince of Persia
@@ -124,31 +120,51 @@
 
 - name: Seaquest
   lang: C#
-  development: sporadic
+  license:
+  - As-is
+  development: halted
   originals:
   - Seaquest
   repo: https://github.com/brunocmorais/Seaquest
   type: remake
   updated: 2015-06-22
 
+- name: The Secret Chronicles of Dr. M.
+  lang: C++
+  license:
+  - GPL3
+  development: active
+  originals:
+  - Mario World
+  repo: https://github.com/secretchronicles/TSC
+  type: remake
+  updated: 2018-10-06
+  url: https://secretchronicles.org
+
 - name: Secret Maryo Chronicles
+  info: 'SMC is no longer under active development. However, there is now a new game based on SMC: https://github.com/secretchronicles/TSC'
   images:
   - http://secretmaryo.org/images/screenshot/2.0/media/1.png
   - http://secretmaryo.org/images/screenshot/2.0/media/2.png
   - http://secretmaryo.org/images/screenshot/2.0/media/3.png
   lang: C++
-  development: sporadic
+  license:
+  - GPL3
+  development: halted
   originals:
   - Mario World
   repo: https://github.com/FluXy/SMC
   type: remake
+  updated: 2018-10-06
   url: http://secretmaryo.org/
 
 - name: sensitive-js
   images:
   - https://raw.githubusercontent.com/bylexus/sensitive-js/master/screen-remake.png
   lang: JavaScript
-  development: active
+  license:
+  - ISC
+  development: halted
   originals:
   - Sensitive
   repo: https://github.com/bylexus/sensitive-js
@@ -156,11 +172,14 @@
   updated: 2017-04-27
 
 - name: sentinel
+  info: JavaFX remake of the game Sentinel (for fun, WIP)
   framework:
   - JavaFX
   lang:
   - Java
-  development: sporadic
+  license:
+  - As-is
+  development: halted
   originals:
   - The Sentinel
   repo: https://github.com/virgo47/sentinel
@@ -169,12 +188,15 @@
 
 - name: 'Seven Kingdoms: Ancient Adversaries'
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - Seven Kingdoms
   repo: http://7kfans.com/git/?p=7kaa.git;a=summary
   type: remake
   url: http://7kfans.com/
+  updated: 2018-10-06
 
 - name: sfall
   development: active
@@ -222,6 +244,8 @@
 - name: Shining Force 2 Reverse Engineer (SF2RE)
   info: reverse engineering project
   lang: C
+  license:
+  - As-is
   development: sporadic
   originals:
   - Shining Force II
@@ -362,7 +386,8 @@
   updated: 2015-06-25
 
 - name: snake
-  framework: WTFPL
+  license:
+  - WTFPL
   images:
   - https://raw.githubusercontent.com/spypunk/snake/master/img/screenshot.png
   lang: Java
@@ -400,10 +425,13 @@
   lang:
   - C++
   - Lua
+  license:
+  - GPL3
+  - CC-BY-SA
   development: active
   originals:
   - Legend of Zelda - A Link to the Past
-  repo: https://github.com/christopho/solarus
+  repo: https://gitlab.com/solarus-games/solarus
   type: remake
   updated: 2013-05-28
   url: http://www.solarus-games.org/
@@ -435,6 +463,8 @@
   lang:
   - C
   - Lua
+  license:
+  - GPL2
   development: active
   originals:
   - Sonic the Hedgehog
@@ -482,16 +512,20 @@
 
 - name: Space Twitch
   lang: C#
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Tempest
   repo: https://github.com/KirbyAu2/SpaceTwitch
   type: remake
   updated: 2015-04-06
-  url: https://github.com/KirbyAu2/SpaceTwitch
 
 - name: Space-rangers
+  framework: XNA
   lang: C#
+  license:
+  - As-is
   development: halted
   originals:
   - Space Rangers
@@ -502,6 +536,8 @@
 - name: spaceroads
   framework: Ogre3D
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - SkyRoads
@@ -528,6 +564,8 @@
   - http://bringerp.free.fr/RE/Speedball2/Images/WIP%2005.png
   info: reverse engineered prototype
   lang: C#
+  license:
+  - As-is
   development: halted
   originals:
   - Speedball 2
@@ -556,12 +594,15 @@
   - C++
   - Java
   - Python
+  license:
+  - GPL2
   development: active
   originals:
   - Total Annihilation
   repo: https://github.com/spring/spring/
   type: remake
   url: http://springrts.com/
+  updated: 2018-10-06
 
 - name: 'Spring: 1944'
   framework:
@@ -627,6 +668,8 @@
   lang:
   - C++
   - Lua
+  license:
+  - GPL2
   development: sporadic
   originals:
   - Starcraft
@@ -672,6 +715,9 @@
   lang:
   - C++
   - Lua
+  license:
+  - MIT
+  - CC-BY-NC
   development: active
   originals:
   - Dance Dance Revolution
@@ -685,13 +731,15 @@
   images:
   - https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
   lang: C++
+  license:
+  - BSD 
   development: halted
   originals:
   - Stunt Car Racer
-  repo: git://git.code.sf.net/p/stuntcarremake/code
+  repo: https://sourceforge.net/projects/stuntcarremake/
   type: remake
-  updated: 2015-04-04
-  url: http://sourceforge.net/projects/stuntcarremake/
+  updated: 2018-10-06
+  url: http://stuntcarracerwin32.bravesites.com
 
 - name: Stunt Rally
   framework:
@@ -718,7 +766,10 @@
     youtube: Ar7TJMnOHlg
 
 - name: stuntcarremake
+  info: A port of Stunt Car Remake to OpenPandora and Linux.
   lang: C++
+  license:
+  - As-is
   development: active
   originals:
   - Stunt Car Racer
@@ -728,10 +779,12 @@
 
 - name: Styx
   lang: C++
+  license:
+  - Custom
   development: halted
   originals:
   - Styx
-  repo: http://retrospec.sgn.net/users/nwalker/styx/styx.zip
+  repo: http://retrospec.sgn.net/game-links.php?link=styx
   type: remake
   updated: 2015-04-12
   url: http://retrospec.sgn.net/game/styx
@@ -775,10 +828,12 @@
   lang:
   - Java
   - Python
+  license:
+  - Artistic
   development: sporadic
   originals:
   - 'SunDog: Frozen Legacy'
-  repo: https://svn.code.sf.net/p/sundog/code/
+  repo: https://sourceforge.net/projects/sundog/
   type: remake
   updated: 2017-04-20
   url: http://www.sundogresurrectionproject.com/
@@ -814,6 +869,8 @@
   - http://i1-linux.softpedia-static.com/screenshots/Super-Mario-War_1.png
   - http://s4.7ba.ru/ex/filecontent/screen_ors/9/f/f/9ffbc941653d781f353db1d73b01ed30.deb.jpg
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Super Mario
@@ -827,31 +884,16 @@
   images:
   - http://a.fsdn.com/con/app/proj/methane/screenshots/14915.jpg
   lang: C++
+  license:
+  - GPL2
   development: halted
   originals:
   - Super Methane Brothers
   status: playable
   type: remake
+  repo: https://sourceforge.net/projects/methane/
   updated: 2014-04-16
   url: http://methane.sourceforge.net/
-
-- name: Super Transball 2
-  images:
-  - http://www2.braingames.getput.com/stransball2/tittle.jpg
-  - http://www2.braingames.getput.com/stransball2/selection.jpg
-  - http://www2.braingames.getput.com/stransball2/shot2.jpg
-  - http://www2.braingames.getput.com/stransball2/shot3.jpg
-  - http://www2.braingames.getput.com/stransball2/shot5.jpg
-  lang: C++
-  license:
-  - GPL3
-  development: complete
-  originals:
-  - Thrust
-  repo: http://www2.braingames.getput.com/stransball2/downloads/stransball2-v15-windows.zip
-  type: clone
-  updated: 2015-05-10
-  url: http://www2.braingames.getput.com/stransball2/default.asp
 
 - name: super-methane-brothers-gx
   info: Wii and GameCube port
@@ -914,6 +956,8 @@
   - https://supertuxkart.net/images/6/6a/Supertuxkart-0.9.2-screenshot-6.jpg
   - https://supertuxkart.net/images/d/d3/Supertuxkart-0.9.1-screenshot-3.jpg
   lang: C++
+  license:
+  - GPL3
   development: active
   originals:
   - Mario Kart
