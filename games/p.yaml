@@ -1,7 +1,7 @@
 - name: pacman
   lang: JavaScript
   license:
-  - Custom
+  - WTFPL
   development: halted
   originals:
   - Pac-Man
@@ -11,7 +11,9 @@
 
 - name: pacman
   framework: HTML5
-  development: sporadic
+  license:
+  - As-is
+  development: halted
   originals:
   - Pac-Man
   repo: https://github.com/harto/pacman
@@ -22,6 +24,8 @@
 - name: pacman
   framework: HTML5
   lang: JavaScript
+  license:
+  - ISC
   development: active
   originals:
   - Pac-Man
@@ -49,14 +53,15 @@
 - name: Panel Attack
   info: basic networking support
   lang: Lua
-  development: active
+  license:
+  - Zlib
+  development: sporadic
   originals:
   - Tetris Attack
   repo: https://github.com/sharpobject/panel-attack
   status: playable
   type: remake
   updated: 2013-05-27
-  url: https://github.com/sharpobject/panel-attack
 
 - name: Pang Zero
   images:
@@ -76,6 +81,8 @@
   images:
   - http://pygame.org/shots/706.jpg
   lang: Python
+  license:
+  - As-is
   development: halted
   originals:
   - Paratrooper
@@ -119,7 +126,11 @@
   url: http://pathological.sourceforge.net/
 
 - name: Pendomotion
+  framework:
+  - pygame
   lang: Python
+  license:
+  - As-is
   development: active
   originals:
   - Locomotion (Amiga 1992)
@@ -134,15 +145,20 @@
   - http://pentagram.sourceforge.net/images/screenshots/noregret.png
   - http://pentagram.sourceforge.net/images/screenshots/japanese.png
   lang: C++
+  license:
+  - GPL2
   development: sporadic
   originals:
   - Ultima VIII
   repo: https://github.com/pentagram-u8/pentagram
   type: remake
   url: http://pentagram.sourceforge.net/
+  updated: 2018-10-06
 
 - name: Performous
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - Dance Dance Revolution
@@ -158,9 +174,12 @@
 
 - name: Phantasy
   lang: Java
+  license:
+  - As-is
   development: halted
+  info: DEPRECATED Use JLud2D instead
   originals:
-  - Phantasy
+  - Phantasy Star
   repo: https://github.com/rafael-esper/Phantasy
   type: remake
   updated: 2015-05-28
@@ -232,6 +251,8 @@
 - name: Pipemania
   framework: Love3D
   lang: Lua
+  license:
+  - As-is
   development: halted
   originals:
   - Pipe Mania
@@ -314,12 +335,15 @@
   - http://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png
   - http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
   lang: C++
+  license:
+  - GPL2
   development: sporadic
   originals:
   - 'Wing Commander: Privateer'
-  repo: http://privateer.svn.sourceforge.net/viewvc/privateer/
+  repo: https://sourceforge.net/projects/privateer/
   type: remake
   url: http://privateer.sourceforge.net/
+  updated: 2018-10-06
 
 - name: Project Carrot
   framework: QT5
@@ -414,6 +438,8 @@
 
 - name: pucpr-ld-mario3
   framework: Construct2
+  license:
+  - As-is
   development: halted
   originals:
   - Super Mario
@@ -422,7 +448,10 @@
   updated: 2015-06-02
 
 - name: pucpr-ld-parodius
+  info: Remake of the first levels of the snes game Gokujou Parodius
   framework: Construct
+  license:
+  - As-is
   development: halted
   originals:
   - Fantastic Journey
@@ -436,6 +465,8 @@
   - https://pushover.github.io/website/images/Screenshot3n.jpg
   - https://pushover.github.io/website/images/Screenshot4.jpg
   lang: C++
+  license:
+  - GPL3
   development: sporadic
   originals:
   - Pushover
@@ -464,6 +495,8 @@
   - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png
   - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png
   lang: Python
+  license:
+  - GPL3
   development: active
   originals:
   - Arkanoid
@@ -521,6 +554,8 @@
   - http://pytouhou.linkmauve.fr/screenshots/big/s6-06.png
   - http://pytouhou.linkmauve.fr/screenshots/big/s7-06.png
   lang: Python
+  license:
+  - GPL3
   development: active
   originals:
   - Touhou

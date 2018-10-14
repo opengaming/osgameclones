@@ -3,6 +3,8 @@
   - https://cloud.githubusercontent.com/assets/16686245/12429085/98761c3c-bee8-11e5-9399-1f7cc162e9bd.png
   info: Apple TV 4 required
   lang: Swift
+  license:
+  - As-is
   development: active
   originals:
   - Octopus
@@ -27,6 +29,8 @@
 
 - name: Omega Race Remake
   lang: C#
+  license:
+  - As-is
   development: sporadic
   originals:
   - Omega Race
@@ -67,12 +71,15 @@
   - http://www.oolite.org/images/gallery/large/TradePost.jpg
   - http://www.oolite.org/images/gallery/large/Kiota.png
   - http://www.oolite.org/images/gallery/large/Contracts.png
+  license:
+  - GPL2
   development: active
   originals:
   - Elite
-  repo: http://svn.berlios.de/wsvn/oolite-linux/?op=log&isdir=1&
+  repo: https://github.com/OoliteProject/oolite
   type: clone
   url: http://www.oolite.org/
+  updated: 2018-10-06
 
 - name: Open BattleChess
   lang: C#
@@ -116,6 +123,8 @@
   images:
   - http://vittorioromeo.info/Resources/img/openHexagon.png
   lang: C++
+  license:
+  - AFL3
   development: active
   originals:
   - Super Hexagon
@@ -129,19 +138,23 @@
 
 - name: Open Imperium Galactica
   lang: Java
+  license:
+  - LGPL3
   development: sporadic
   originals:
   - Imperium Galactica
   repo: https://github.com/akarnokd/open-ig
   status: playable
   type: remake
-  updated: 2013-12-11
-  url: https://github.com/akarnokd/open-ig
+  updated: 2018-10-06
+  url: http://open-ig-dev.blogspot.com
   video:
     youtube: qHBUdUqqI-k
 
 - name: Open Jumpgate
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - 'Jumpgate: The Reconstruction Initiative'
@@ -165,6 +178,8 @@
   framework: HTML5
   images:
   - http://i.imgur.com/NiJGQ.jpg
+  license:
+  - GPL2
   development: active
   originals:
   - Panzer General
@@ -197,10 +212,12 @@
   - http://opensnc.sourceforge.net/home/screenshots/0_1_3/3.png
   - http://opensnc.sourceforge.net/home/screenshots/0_1_3/9.png
   lang: C
+  license:
+  - GPL2
   development: sporadic
   originals:
   - Sonic the Hedgehog
-  repo: http://sourceforge.net/projects/opensnc/develop
+  repo: https://sourceforge.net/projects/opensnc/
   type: clone
   updated: 2012-04-05
   url: http://opensnc.sourceforge.net/home/
@@ -219,6 +236,9 @@
 
 - name: Open Zelda
   lang: C++
+  license:
+  - CC-BY-NC-SA
+  - Zlib
   development: halted
   originals:
   - Legend of Zelda
@@ -248,6 +268,8 @@
 
 - name: open-heavy-smash
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Heavy Smash
@@ -313,6 +335,8 @@
   - http://openarena.ws/e107_images/custom/085-14.jpg
   - http://openarena.ws/e107_images/custom/085-16.jpg
   lang: C
+  license:
+  - GPL2
   development: sporadic
   originals:
   - Quake 3
@@ -496,6 +520,9 @@
   - https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_research%20tree.jpg
   - https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_rooms.jpg
   lang: C++
+  license:
+  - GPL3
+  - Multiple
   development: active
   originals:
   - Dungeon Keeper
@@ -529,12 +556,14 @@
 
 - name: OpenGeneral
   lang: C++
+  license:
+  - BSD
   development: sporadic
   originals:
   - Panzer General
   type: remake
-  updated: 2012-06-29
-  url: http://sourceforge.net/apps/mediawiki/opengeneral/index.php?title=Main_Page
+  updated: 2018-10-06
+  url: http://www.open-general.com
 
 - name: OpenGGS
   images:
@@ -572,15 +601,21 @@
   - http://snowstorm.sourceforge.net/screenshots/3.png
   - http://snowstorm.sourceforge.net/screenshots/4.png
   lang: C++
+  license:
+  - GPL2
   development: sporadic
   originals:
   - Gladiator
-  repo: http://snowstorm.svn.sourceforge.net/viewvc/snowstorm/
+  repo: https://sourceforge.net/projects/snowstorm/
   type: remake
   url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi
 
 - name: OpenGoo
-  development: active
+  lang: C
+  license:
+  - GPL3
+  development: halted
+  framework: QT5
   originals:
   - World of Goo
   repo: https://github.com/Mandarancio/OpenGOO
@@ -618,6 +653,8 @@
 
 - name: OpenJK
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - 'Jedi Knight: Jedi Academy'
@@ -653,6 +690,8 @@
 
 - name: OpenLiero
   lang: C++
+  license:
+  - BSD2
   development: halted
   originals:
   - Liero
@@ -667,6 +706,8 @@
   - http://www.openlierox.net/official/screenshots/olx11.png
   - http://www.openlierox.net/official/screenshots/olx6.png
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - Liero
@@ -727,21 +768,26 @@
   - http://openmoo2.org/static/20/colonies-moo2-screenshot.png
   - http://openmoo2.org/static/20/colony-moo2-screenshot.png
   lang: Python
-  development: sporadic
+  license:
+  - GPL2
+  development: halted
   originals:
   - Master of Orion 2
-  repo: http://repository.openmoo2.org/cgi-bin/hgwebdir.cgi/PUBLIC/
+  repo: http://openmoo2.org/en/download
   type: remake
   url: http://openmoo2.org/en/
+  updated: 2018-10-06
 
 - name: OpenMortal
   images:
   - http://openmortal.sourceforge.net/images/screenshot3.jpg
   lang: C++
-  development: sporadic
+  license:
+  - GPL2
+  development: halted
   originals:
   - Mortal Kombat
-  repo: http://openmortal.cvs.sourceforge.net/openmortal/openmortal/
+  repo: https://sourceforge.net/projects/openmortal/
   type: clone
   updated: 2015-04-03
   url: http://apocalypse.rulez.org/~upi/Mortal/
@@ -771,6 +817,8 @@
   - http://1amstudios.com/img/opennfs1/image13.jpg
   - http://1amstudios.com/img/opennfs1/image10.jpg
   lang: C#
+  license:
+  - As-is
   development: halted
   originals:
   - The Need for Speed
@@ -861,6 +909,8 @@
   - http://picload.org/image/llawpic/openraider_old2.png
   - http://picload.org/image/llawpia/openraider_old.png
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - Tomb Raider
@@ -872,10 +922,12 @@
   images:
   - http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
   lang: C#
+  license:
+  - GPL3
   development: active
   originals:
   - Microsoft Train Simulator
-  repo: http://code.openhub.net/project?pid=&ipid=450644&fp=450644&mp&projSelected=true&filterChecked
+  repo: http://openrails.org/contribute/developing-code/
   type: clone
   updated: 2015-04-01
   url: http://openrails.org/
@@ -932,32 +984,22 @@
   images:
   - http://timjones.io/assets/resized/opensage-2018-02-10-map-viewer-1600x947.png
   lang: C#
+  license:
+  - GPL3
   development: active
   originals:
   - 'Command & Conquer: Generals'
   repo: https://github.com/OpenSAGE/OpenSAGE
   type: clone
   updated: 2018-02-22
-  url: https://github.com/OpenSAGE/OpenSAGE
-
-- name: OpenSC2K
-  images:
-  - https://raw.githubusercontent.com/rage8885/OpenSC2K/master/screenshots/1.png
-  - https://raw.githubusercontent.com/rage8885/OpenSC2K/master/screenshots/2.png
-  - https://raw.githubusercontent.com/rage8885/OpenSC2K/master/screenshots/3.png
-  lang: JavaScript
-  development: active
-  originals:
-  - SimCity 2000
-  repo: https://github.com/rage8885/OpenSC2K
-  type: clone
-  updated: 2018-02-09
-  url: https://github.com/rage8885/OpenSC2K
+  url: http://timjones.io/blog/tags/opensage/
 
 - name: OpenSkyscraper
   images:
   - https://raw.githubusercontent.com/wiki/fabianschuiki/OpenSkyscraper/current.png
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - SimTower
@@ -965,7 +1007,7 @@
   status: playable
   type: remake
   updated: 2014-01-05
-  url: https://github.com/fabianschuiki/OpenSkyscraper/wiki
+  url: http://openskyscraper.org
 
 - name: OpenSpades
   images:
@@ -984,10 +1026,13 @@
   url: https://sites.google.com/a/yvt.jp/openspades/
 
 - name: OpenSR
+  framework: Qt5
   lang:
   - C++
   - Python
-  development: active
+  license:
+  - GPL3
+  development: halted
   originals:
   - 'Space Rangers 2: Dominators'
   repo: https://github.com/ObKo/OpenSR
@@ -1032,9 +1077,11 @@
   type: remake
   updated: 2016-10-09
 
-- name: opentesarenapp
+- name: opentesarena
   development: halted
   lang: C++
+  license:
+  - As-is
   content: commercial
   originals:
   - 'The Elder Scrolls: Arena'
@@ -1048,13 +1095,15 @@
   images:
   - http://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png
   lang: C
+  license:
+  - GPL3
   development: sporadic
   originals:
   - Titus the Fox
   repo: https://github.com/stople/OpenTitus
   type: remake
   updated: 2014-02-04
-  url: http://opentitus.wikia.com/wiki/OpenTitus_Wiki
+  url: http://opentitus.sourceforge.net
 
 - name: OpenTomb
   images:
@@ -1062,6 +1111,8 @@
   - https://opentomb.github.io/img/media/02.jpg
   - https://opentomb.github.io/img/media/03.jpg
   lang: C++
+  license:
+  - LGPL3
   development: active
   originals:
   - Tomb Raider
@@ -1074,9 +1125,11 @@
 
 - name: OpenTriad
   lang: Java
+  license:
+  - GPL3
   development: active
   originals:
-  - Final Fantasy VIII
+  - Triple Triad
   type: remake
   updated: 2015-04-12
   url: https://github.com/benjaminfoo/OpenTriad
@@ -1103,6 +1156,8 @@
   images:
   - https://bytebucket.org/opentyrian/opentyrian/wiki/opentyrian_torm.png
   lang: C
+  license:
+  - GPL2
   development: sporadic
   originals:
   - Tyrian
@@ -1155,6 +1210,8 @@
   images:
   - https://raw.githubusercontent.com/jlppc/OpMon/master/Resources/Other/screenshot_1.png
   lang: C++
+  license:
+  - GPL3
   development: active
   originals:
   - "Pok\xE9mon"
@@ -1194,6 +1251,8 @@
 
 - name: orona
   framework: HTML5
+  license:
+  - GPL2
   development: halted
   originals:
   - Bolo
@@ -1218,14 +1277,16 @@
   updated: 2015-04-15
   url: http://identicalsoftware.com/ostrichriders/
 
-- name: Outrun
+- name: OutRun CPC
   framework: QB64
   images:
   - http://outruncpc.free.fr/images/CPC01.jpg
   - http://outruncpc.free.fr/images/CPC02.jpg
   - http://outruncpc.free.fr/images/CPC03.jpg
   lang: QuickBASIC
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Outrun
   repo: https://www.dropbox.com/s/d803ueu0l4cgk6k/outrunBETA.zip

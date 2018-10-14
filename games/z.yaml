@@ -1,5 +1,7 @@
 - name: Z Virus
   lang: Blitz BASIC
+  license:
+  - As-is
   originals:
   - Zarch
   repo: http://www.steviegoodwin.plus.com/Z_Virus.zip
@@ -9,6 +11,8 @@
 
 - name: Z Virus V2
   lang: Blitz BASIC
+  license:
+  - As-is
   originals:
   - Zarch
   repo: http://www.steviegoodwin.plus.com/Z_Virus_V2.zip
@@ -53,13 +57,15 @@
   - http://zdoom.org/w/images/c/c4/DynamicLightOptions.png
   - http://zdoom.org/w/images/8/8a/DOOM0003.png
   lang: C
+  license:
+  - BSD
   development: active
   originals:
   - Doom
   - Doom II
   - Heretic
   - Hexen
-  repo: http://mancubus.net/svn/zdoom/?op=log&isdir=1&
+  repo: https://sourceforge.net/projects/zdoom/
   type: remake
   url: http://zdoom.org/
 
@@ -75,26 +81,32 @@
   type: remake
   updated: 2017-12-12
 
+- name: Zod Engine
+  images:
+  - http://zod.sourceforge.net/screenshots/gameplay_13.png
+  license:
+  - GPL3
+  development: active
+  originals:
+  - Z
+  repo: http://sourceforge.net/projects/zod/
+  type: remake
+  url: http://zod.sourceforge.net/
+  video:
+    youtube: 8VehUvuWHqw
+  updated: 2018-10-06
+
 - name: zombie apocalypse html5
   framework: HTML5
   lang: JavaScript
+  license:
+  - As-is
   development: halted
   originals:
   - Zombie Apocalypse
   repo: https://github.com/andymason/zombie-apocalypse-html5
   type: remake
   updated: 2015-05-16
-
-- name: Zoop
-  images:
-  - http://gamesoft.ca/bestgames/images/zoop_java.png
-  lang: Java
-  originals:
-  - Zoop
-  repo: http://gamesoft.ca/bestgames/zoop_src.zip
-  type: remake
-  updated: 2015-05-09
-  url: http://gamesoft.ca/remakes.html
 
 - name: zorkClone
   lang: Java
@@ -109,7 +121,9 @@
 
 - name: Zorkish
   lang: C++
-  development: sporadic
+  license:
+  - As-is
+  development: halted
   originals:
   - Zork
   repo: https://github.com/jgardner8/Zorkish
@@ -117,10 +131,13 @@
   updated: 2015-06-01
 
 - name: zSILENCER
+  framework: SDL2
   images:
   - http://zsilencer.com/ss9.png
   - http://zsilencer.com/ss1.png
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Silencer

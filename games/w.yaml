@@ -14,7 +14,9 @@
   lang:
   - C++
   - Lua
-  development: sporadic
+  license:
+  - GPL2
+  development: active
   originals:
   - Warcraft II
   repo: https://code.launchpad.net/wargus
@@ -25,6 +27,8 @@
 - name: Wario-Land-3
   framework: Pygame
   lang: Python
+  license:
+  - MIT
   development: active
   originals:
   - Wario Land 3
@@ -36,14 +40,17 @@
   images:
   - https://lgdb.org/sites/default/files/node_images/29/160.jpg
   lang: C++
-  development: sporadic
+  license:
+  - GPL2
+  development: halted
   originals:
   - Worms Series
-  repo: http://svn.gna.org/viewcvs/warmux/
+  repo: https://github.com/yeKcim/warmux
   type: clone
   url: http://gna.org/projects/warmux/
   video:
     youtube: X3ZkTg-QkAo
+  updated: 2018-10-06
 
 - name: Warzone 2100
   images:
@@ -52,12 +59,15 @@
   - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/new-hq-and-powergen.jpeg
   - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - Warzone 2100
-  repo: http://developer.wz2100.net/timeline
+  repo: https://github.com/Warzone2100/warzone2100
   type: remake
   url: http://wz2100.net/
+  updated: 2018-10-06
 
 - name: WAtomic
   framework: Kylix
@@ -75,7 +85,9 @@
 - name: wbta
   info: Android
   lang: Java
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Tempest
   repo: https://github.com/awlzac/wbta
@@ -88,6 +100,8 @@
   - https://raw.githubusercontent.com/cyco/WebFun/master/docs/screenshots/game.png
   - https://raw.githubusercontent.com/cyco/WebFun/master/docs/screenshots/in-game-debug.png
   lang: JavaScript
+  license:
+  - MIT
   content: commercial
   originals:
   - 'Star Wars: Yoda Stories'
@@ -106,15 +120,20 @@
   - C++
   - Lua
   - Python
+  license:
+  - GPL2
   development: active
   originals:
   - The Settlers II
   repo: https://launchpad.net/widelands
   type: clone
   url: http://wl.widelands.org/
+  updated: 2018-10-06
 
 - name: Willow-Game-Remake
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Willow
@@ -130,6 +149,8 @@
   - https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt2.jpg/1
   - https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt3.jpg/1
   lang: C#
+  license:
+  - As-is
   content: commercial
   originals:
   - 'Warcraft: Orcs & Humans'
@@ -175,11 +196,16 @@
   url: http://wl.lariennalibrary.com/
 
 - name: Wizznic!
+  framework:
+  - SDL
   images:
   - http://a.fsdn.com/con/app/proj/wizznic/screenshots/lvl0.png
   - http://a.fsdn.com/con/app/proj/wizznic/screenshots/271261.jpg
   - http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png
   lang: C
+  license:
+  - GPL3
+  - Multiple
   development: active
   originals:
   - Puzznic / Brix
@@ -187,7 +213,7 @@
   status: playable
   type: remake
   updated: 2015-03-06
-  url: http://dustedgames.blogspot.com.au/p/wizznic.html
+  url: http://wizznic.org
 
 - name: wkbre
   lang: C++

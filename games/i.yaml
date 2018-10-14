@@ -5,13 +5,15 @@
   - http://tomatoes.sourceforge.net/ss3.jpg
   - http://tomatoes.sourceforge.net/ss4.jpg
   lang: C++
+  license:
+  - Zlib
   development: halted
   originals:
   - Bomberman
-  repo: http://kent.dl.sourceforge.net/project/tomatoes/tomatoes/1.5/tomatoes-win32-src-1.5.zip
+  repo: https://sourceforge.net/projects/tomatoes/
   type: remake
   updated: 2015-05-02
-  url: http://tomatoes.sourceforge.net/screenshots.html
+  url: http://tomatoes.sourceforge.net
 
 - name: ICBM3D
   images:
@@ -25,6 +27,8 @@
   - http://www.newbreedsoftware.com/icbm3d/screenshots/8.gif
   - http://www.newbreedsoftware.com/icbm3d/screenshots/icbm3d-agenda.gif
   lang: C
+  license:
+  - GPL2
   development: halted
   originals:
   - Missile Command
@@ -41,6 +45,8 @@
   - http://mattdm.org/icebreaker/images/screenshot-level6-stars.png
   originals:
   - JezzBall
+  license:
+  - GPL2
   repo: http://mattdm.org/icebreaker/1.2.x/icebreaker-1.2.1.tgz
   type: remake
   updated: 2015-05-09
@@ -133,6 +139,8 @@
 - name: ioquake3
   lang:
   - C
+  license:
+  - GPL2
   development: active
   originals:
   - Quake 3
@@ -143,10 +151,12 @@
 - name: Iris2
   images:
   - http://www.iris2.de/images/4/48/20080106175329_188.png
+  license:
+  - GPL3
   development: halted
   originals:
   - Ultima Online
-  repo: http://iris.schattenkind.net/svn/trunk/
+  repo: https://github.com/kblaschke/Iris2
   status: playable
   type: remake
   url: http://www.iris2.de/

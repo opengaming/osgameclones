@@ -17,29 +17,17 @@
   - https://icculus.org/LAB3D/captur02.png
   - https://icculus.org/LAB3D/captur03.png
   lang: C
-  development: sporadic
+  license:
+  - As-is
+  development: halted
   originals:
   - Ken's Labyrinth
-  repo: svn://svn.icculus.org/LAB3D/trunk
+  repo: https://svn.icculus.org/LAB3D/
   type: remake
   updated: 2015-04-10
   url: https://icculus.org/LAB3D/
 
 - name: Ladder
-  images:
-  - http://gamesoft.ca/bestgames/images/ladder_snp.png
-  lang: C#
-  originals:
-  - Ladder
-  repo: http://gamesoft.ca/bestgames/ladder_src.zip
-  type: remake
-  updated: 2015-05-09
-  url: http://gamesoft.ca/remakes.html
-
-- name: Ladder
-  images:
-  - http://gamesoft.ca/java/images/ladder_secret%20road.png
-  - http://gamesoft.ca/java/images/ladder_snp.png
   info: (source inside JAR file)
   lang: Java
   license:
@@ -68,13 +56,15 @@
   images:
   - http://lastninja.sourceforge.net/images/lvl1.png
   lang: C++
-  development: sporadic
+  license:
+  - GPL3
+  development: halted
   originals:
   - The Last Ninja
-  repo: https://github.com/segrax/TheLastNinja
+  repo: https://sourceforge.net/projects/lastninja/
   status: playable
   type: remake
-  updated: 2013-11-20
+  updated: 2018-10-05
   url: http://lastninja.sourceforge.net/
 
 - name: LastTry
@@ -88,6 +78,78 @@
   repo: https://github.com/LastTryR/LastTry
   type: remake
   updated: 2017-10-15
+
+- name: The Legend Of Zelda - Navi's Quest
+  framework: SDL
+  images:
+  - http://www.zeldaroth.fr/images/nsq/s1.png
+  lang: C++
+  license:
+  - As-is
+  development: complete
+  originals:
+  - Legend of Zelda
+  type: clone
+  updated: 2015-09-27
+  url: http://www.zeldaroth.fr/us/dlnsq.php
+
+- name: The Legend Of Zelda - Oni Link Begins
+  images:
+  - http://www.zeldaroth.fr/images/olb/s1.JPG
+  - http://www.zeldaroth.fr/images/olb/s5.JPG
+  - http://www.zeldaroth.fr/images/olb/s10.JPG
+  lang: C++
+  license:
+  - As-is
+  development: complete
+  originals:
+  - Legend of Zelda
+  type: clone
+  updated: 2015-09-27
+  url: http://www.zeldaroth.fr/us/zolb.php
+
+- name: The Legend Of Zelda - Picross
+  images:
+  - http://www.zeldaroth.fr/images/picross/s1.png
+  lang: C++
+  license:
+  - As-is
+  development: complete
+  originals:
+  - Legend of Zelda
+  type: clone
+  updated: 2015-09-27
+  url: http://www.zeldaroth.fr/us/dlpicross.php
+
+- name: The Legend Of Zelda - Return Of The Hylan
+  images:
+  - http://www.zeldaroth.fr/images/roth/s14.png
+  - http://www.zeldaroth.fr/images/roth/s1.png
+  - http://www.zeldaroth.fr/images/roth/s13.png
+  lang: C++
+  license:
+  - As-is
+  development: complete
+  originals:
+  - Legend of Zelda
+  type: clone
+  updated: 2015-09-27
+  url: http://www.zeldaroth.fr/us/zroth.php
+
+- name: The Legend Of Zelda - Time To Triumph
+  images:
+  - http://www.zeldaroth.fr/images/3t/s1.png
+  - http://www.zeldaroth.fr/images/3t/s12.png
+  - http://www.zeldaroth.fr/images/3t/s6.png
+  lang: C++
+  license:
+  - As-is
+  development: complete
+  originals:
+  - Legend of Zelda
+  type: clone
+  updated: 2015-09-27
+  url: http://www.zeldaroth.fr/us/z3t.php
 
 - name: legion
   framework: Irrlict
@@ -133,6 +195,8 @@
 
 - name: Lemmix
   lang: Delphi
+  license:
+  - Custom
   development: halted
   originals:
   - Lemmings
@@ -147,6 +211,8 @@
   - http://lgames.sourceforge.net/LGeneral/ss0.jpg
   - http://lgames.sourceforge.net/LGeneral/ss1.jpg
   lang: C
+  license:
+  - GPL2
   development: halted
   originals:
   - Panzer General
@@ -162,7 +228,9 @@
   - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/F-22.png
   lang:
   - C++
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Strike Commander
   repo: https://github.com/fabiensanglard/libRealSpace
@@ -248,6 +316,8 @@
   framework:
   - Allegro
   lang: C++
+  license:
+  - CC0
   development: halted
   originals:
   - Lemmings
@@ -255,7 +325,7 @@
   status: playable
   type: clone
   updated: 2018-01-15
-  url: http://asdfasdf.ethz.ch/~simon/index.php
+  url: http://www.lixgame.com
   video:
     youtube: dWXXK8QlnME
 
@@ -283,6 +353,8 @@
 
 - name: Lode Runner - Total Recall
   framework: HTML5
+  license:
+  - As-is
   development: active
   originals:
   - Lode Runner
@@ -290,20 +362,6 @@
   type: remake
   updated: 2015-08-15
   url: http://loderunnerwebgame.com/LodeRunner/
-
-- name: Lord of the Rings game engine
-  images:
-  - http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr1.png
-  - http://media.wonderland.cz/stockphoto/cache/2008/11/16/lotr2.png
-  lang: C
-  development: halted
-  originals:
-  - The Lord of the Rings Volume 1
-  repo: http://git.wonderland.cz/lotr/
-  status: playable
-  type: remake
-  updated: 2013-05-27
-  url: http://www.wonderland.cz/lotr/
 
 - name: Lose Your Marbles
   lang: JavaScript

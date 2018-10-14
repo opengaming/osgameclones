@@ -43,7 +43,7 @@ schema;game:
     framework:
       type: any
     license:
-      required: False # Work towards making it True
+      required: True
       type: seq
       sequence:
         - include: licenses
@@ -76,12 +76,14 @@ schema;licenses:
     'Multiple', # Catch-all for multiple licenses
     'PD', # Public Domain
     'As-is', # Catch-all for as-is, as-available licenses
+    'AFL3', # Academic Free License
     'AGPL3',
     'Apache',
     'Artistic',
     'BSD',
     'BSD2',
     'BSD4',
+    'bzip2',
     'CC0',
     'CC-BY',
     'CC-BY-NC',
@@ -91,10 +93,13 @@ schema;licenses:
     'GPL',
     'GPL2',
     'GPL3',
+    'IJG', # Independent JPEG Group License
     'ISC',
     'JRL', # Java Research License
     'LGPL',
     'LGPL2',
+    'LGPL3',
+    'Libpng',
     'MAME', # MAME or MAME-like License
     'MIT',
     'MPL', # Mozilla Public License

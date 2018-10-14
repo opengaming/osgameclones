@@ -71,123 +71,6 @@
   video:
     youtube: yLysg1pyLK0
 
-- name: The Dark Mod
-  images:
-  - http://www.thedarkmod.com/wp-content/gallery/environments/training1.jpg
-  - http://www.thedarkmod.com/wp-content/gallery/environments/rttc2v_10.jpg
-  lang: C++
-  development: active
-  originals:
-  - Thief
-  repo: https://svn.thedarkmod.com/svn/darkmod_src/trunk/
-  status: playable
-  type: clone
-  updated: 2013-10-28
-  url: http://www.thedarkmod.com/
-  video:
-    youtube: hNtUQ32eeRM
-
-- name: The Goonies
-  images:
-  - http://www.braingames.getput.com/goonies/pics/screenshot1.jpg
-  - http://www.braingames.getput.com/goonies/pics/screenshot2.jpg
-  - http://www.braingames.getput.com/goonies/pics/screenshot3.jpg
-  - http://www.braingames.getput.com/goonies/pics/screenshot4.jpg
-  lang: C++
-  originals:
-  - The Goonies
-  repo: http://braingames.jorito.net/goonies/downloads/goonies.src_1.4.1528.tgz
-  type: remake
-  updated: 2015-04-13
-  url: http://www.braingames.getput.com/goonies/
-
-- name: The Legend Of Zelda - Navi's Quest
-  framework: SDL
-  images:
-  - http://www.zeldaroth.fr/images/nsq/s1.png
-  lang: C++
-  development: complete
-  originals:
-  - Legend of Zelda
-  repo: http://www.zeldaroth.fr/us/files/NSQ/Windows/ZeldaNSQ_US-src-windows.zip
-  type: clone
-  updated: 2015-09-27
-  url: http://www.zeldaroth.fr/us/dlnsq.php
-
-- name: The Legend Of Zelda - Oni Link Begins
-  images:
-  - http://www.zeldaroth.fr/images/olb/s1.JPG
-  - http://www.zeldaroth.fr/images/olb/s5.JPG
-  - http://www.zeldaroth.fr/images/olb/s10.JPG
-  lang: C++
-  development: complete
-  originals:
-  - Legend of Zelda
-  repo: http://www.zeldaroth.fr/us/files/OLB/Windows/ZeldaOLB_US-src-windows.zip
-  type: clone
-  updated: 2015-09-27
-  url: http://www.zeldaroth.fr/us/zolb.php
-
-- name: The Legend Of Zelda - Picross
-  images:
-  - http://www.zeldaroth.fr/images/picross/s1.png
-  lang: C++
-  development: complete
-  originals:
-  - Legend of Zelda
-  repo: http://www.zeldaroth.fr/us/files/Picross/Windows/ZeldaPicross_US-src-windows.zip
-  type: clone
-  updated: 2015-09-27
-  url: http://www.zeldaroth.fr/us/dlpicross.php
-
-- name: The Legend Of Zelda - Return Of The Hylan
-  images:
-  - http://www.zeldaroth.fr/images/roth/s14.png
-  - http://www.zeldaroth.fr/images/roth/s1.png
-  - http://www.zeldaroth.fr/images/roth/s13.png
-  lang: C++
-  development: complete
-  originals:
-  - Legend of Zelda
-  repo: http://www.zeldaroth.fr/us/files/ROTH/Windows/ZeldaROTH_US-src-windows.zip
-  type: clone
-  updated: 2015-09-27
-  url: http://www.zeldaroth.fr/us/zroth.php
-
-- name: The Legend Of Zelda - Time To Triumph
-  images:
-  - http://www.zeldaroth.fr/images/3t/s1.png
-  - http://www.zeldaroth.fr/images/3t/s12.png
-  - http://www.zeldaroth.fr/images/3t/s6.png
-  lang: C++
-  development: complete
-  originals:
-  - Legend of Zelda
-  repo: http://www.zeldaroth.fr/us/files/3T/Windows/Zelda3T_US-src-windows.zip
-  type: clone
-  updated: 2015-09-27
-  url: http://www.zeldaroth.fr/us/z3t.php
-
-- name: The Maze of Galious
-  images:
-  - http://www.braingames.getput.com/mog/pics/screenshot1.jpg
-  - http://www.braingames.getput.com/mog/pics/screenshot2.jpg
-  - http://www.braingames.getput.com/mog/pics/screenshot3.jpg
-  - http://www.braingames.getput.com/mog/pics/screenshot4.jpg
-  - http://www.braingames.getput.com/mog/pics/screenshot5.jpg
-  - http://www.braingames.getput.com/mog/pics/screenshot6.jpg
-  - http://www.braingames.getput.com/mog/pics/screenshot7.jpg
-  - http://www.braingames.getput.com/mog/pics/screenshot8.jpg
-  lang: C++
-  license:
-  - GPL2
-  originals:
-  - The Maze of Galious
-  repo: http://braingames.jorito.net/mog/downloads/mog.src_0.63-1548.tgz
-  type: remake
-  updated: 2015-04-13
-  url: http://www.braingames.getput.com/mog/
-
 - name: The Rush
   images:
   - https://a.fsdn.com/con/app/proj/therush/screenshots/193556.jpg
@@ -260,6 +143,8 @@
 
 - name: Terraria
   lang: C#
+  license:
+  - As-is
   info: Reverse engineered code
   originals:
   - Terraria
@@ -269,10 +154,12 @@
 
 - name: terrarium
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - Terraria
-  repo: https://github.com/hydren/terrarium
+  repo: https://gitlab.com/hydren/terrarium
   type: remake
   updated: 2015-06-18
 
@@ -291,6 +178,8 @@
 - name: The-Great-Escape-in-C
   info: reverse engineered from binary
   lang: C++
+  license:
+  - As-is
   development: active
   originals:
   - The Great Escape
@@ -325,8 +214,11 @@
   updated: 2015-06-18
 
 - name: THREEPunchOut
+  framework: three.js
   lang: JavaScript
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Punch-Out!!
   repo: https://github.com/MattSzik/THREEPunchOut
@@ -361,13 +253,14 @@
 
 - name: Thyme
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - 'Command & Conquer: Generals'
   repo: https://github.com/TheAssemblyArmada/Thyme
   type: remake
   updated: 2018-02-05
-  url: https://github.com/TheAssemblyArmada/Thyme
 
 - name: Tile World
   lang: C
@@ -411,10 +304,13 @@
   - http://toppler.sourceforge.net/images/old-atari.png
   - http://toppler.sourceforge.net/images/old-c64.png
   lang: C++
-  development: sporadic
+  license:
+  - GPL2
+  development: halted
   originals:
   - Nebulus
   type: remake
+  repo: https://sourceforge.net/projects/toppler/
   updated: 2013-05-27
   url: http://toppler.sourceforge.net/
 
@@ -440,22 +336,32 @@
   - http://www.ta3d.org/snapshots/shoot122.jpg
   - http://www.ta3d.org/snapshots/shoot127.jpg
   lang: C++
-  development: sporadic
+  license:
+  - GPL2
+  development: halted
   originals:
   - Total Annihilation
-  repo: http://trac.ta3d.org/timeline
+  repo: https://github.com/zuzuf/TA3D
   type: remake
   url: http://www.ta3d.org/
 
 - name: Trackballs
+  images:
+  - https://trackballs.github.io/screenshots/b21.png
+  - https://trackballs.github.io/screenshots/b11.png
+  - https://trackballs.github.io/screenshots/b28.png
+  framework:
+  - SDL2
   lang: C++
-  development: halted
+  license:
+  - GPL2
+  development: sporadic
   originals:
   - Marble Madness
-  repo: http://trackballs.cvs.sourceforge.net/viewvc/trackballs/
+  repo: https://github.com/trackballs/trackballs
   type: remake
-  updated: 2015-04-03
-  url: http://sourceforge.net/projects/trackballs/
+  updated: 2018-10-06
+  url: https://trackballs.github.io
 
 - name: Train
   lang: Java
@@ -468,32 +374,17 @@
   type: remake
   updated: 2015-05-28
 
-- name: Transball GL
-  images:
-  - http://www2.braingames.getput.com/transballgl/images/tgl-ss4.jpg
-  - http://www2.braingames.getput.com/transballgl/images/tgl-ss5.jpg
-  - http://www2.braingames.getput.com/transballgl/images/tgl-ss6.jpg
-  - http://www2.braingames.getput.com/transballgl/images/tgl-ss7.jpg
-  lang: C++
-  license:
-  - GPL2
-  development: halted
-  originals:
-  - Thrust
-  repo: http://transball.googlecode.com/svn/trunk/
-  type: clone
-  updated: 2015-05-10
-  url: http://www2.braingames.getput.com/transballgl/default.asp
-
 - name: Transfusion
   images:
   - http://www.transfusion-game.com/images/e1m2-00.jpg
   - http://www.transfusion-game.com/images/e3m7-02.jpg
   - http://www.transfusion-game.com/images/action08.jpg
-  development: sporadic
+  license:
+  - GPL2
+  development: halted
   originals:
   - Blood
-  repo: http://sourceforge.net/p/blood/code/ci/default/tree/
+  repo: https://sourceforge.net/projects/blood/
   status: playable
   type: remake
   updated: 2013-11-12
@@ -507,6 +398,8 @@
   - http://retrospec.sgn.net/config/screenshots/tranzam.f.3.jpg
   - http://retrospec.sgn.net/config/screenshots/tranzam.f.1.jpg
   lang: C++
+  license:
+  - Custom
   development: halted
   originals:
   - Tranz Am
@@ -517,20 +410,27 @@
 
 - name: Tremulous
   lang: C
+  license:
+  - GPL2
+  - CC-BY-SA
   development: halted
   originals:
   - Natural Selection
-  repo: http://svn.icculus.org/tremulous/
+  repo: https://github.com/darklegion/tremulous
   type: clone
-  updated: 2013-06-08
+  updated: 2018-10-06
   url: http://www.tremulous.net/
 
 - name: Tron
   framework:
-  - HTML
   - jQuery
+  lang:
+  - HTML
+  - JavaScript
   - CSS
-  lang: JavaScript
+  license:
+  - As-is
+  development: halted
   originals:
   - Tron
   repo: https://github.com/momajd/Tron
@@ -554,7 +454,9 @@
   url: http://truecraft.io/
 
 - name: turnabout
-  lang: CoffeeScript
+  lang: Elm
+  license:
+  - As-is
   development: halted
   originals:
   - Turnabout
@@ -580,6 +482,8 @@
   - http://www.tuxemon.org/images/screenshot-01.png
   - http://www.tuxemon.org/images/featurette-02.png
   lang: Python
+  license:
+  - GPL3
   development: active
   originals:
   - "Pok\xE9mon"
@@ -593,6 +497,8 @@
   lang:
   - Blitz BASIC
   - C
+  license:
+  - Custom
   development: active
   originals:
   - Mad TV
@@ -656,30 +562,3 @@
   type: remake
   updated: 2015-04-06
   url: https://code.google.com/p/tzod/
-
-- name: The Ur-Quan Masters
-  images:
-  - http://sc2.sourceforge.net/screenshots/pcintro.jpg
-  - http://sc2.sourceforge.net/screenshots/slaveshield.png
-  - http://sc2.sourceforge.net/screenshots/scale_triscan.png
-  - http://sc2.sourceforge.net/screenshots/setupmenu.png
-  - http://sc2.sourceforge.net/screenshots/meleestep.png
-  lang: C
-  development: active
-  originals:
-  - Star Control 2
-  repo: http://sc2.svn.sourceforge.net/viewvc/sc2/
-  type: remake
-  url: http://sc2.sourceforge.net/
-
-- name: The Zod Engine
-  images:
-  - http://zod.sourceforge.net/screenshots/gameplay_13.png
-  development: active
-  originals:
-  - Z
-  repo: http://sourceforge.net/projects/zod/files/
-  type: remake
-  url: http://zod.sourceforge.net/
-  video:
-    youtube: 8VehUvuWHqw

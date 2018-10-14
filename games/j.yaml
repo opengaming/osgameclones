@@ -70,7 +70,9 @@
 
 - name: JediAcademyLinux
   lang: C++
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - 'Jedi Knight: Jedi Academy'
   status: playable
@@ -80,6 +82,8 @@
 
 - name: JediOutcastLinux
   lang: C++
+  license:
+  - GPL2
   development: active
   originals:
   - 'Jedi Knight II: Jedi Outcast'
@@ -93,7 +97,9 @@
   - https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-01.png
   - https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-03.png
   lang: C++
-  development: active
+  license:
+  - As-is
+  development: halted
   originals:
   - Bruce Lee
   repo: https://github.com/Uvadzucumi/JetLee
@@ -114,6 +120,8 @@
 - name: Jetpac remake
   framework: XNA
   lang: C#
+  license:
+  - As-is
   development: complete
   originals:
   - Jetpac
@@ -140,6 +148,8 @@
 - name: jffe
   framework: SDL
   lang: C++
+  license:
+  - As-is
   development: halted
   originals:
   - Elite III
@@ -147,16 +157,36 @@
   type: remake
   updated: 2016-01-10
 
+- name: JLud2D
+  images:
+  - https://raw.githubusercontent.com/rafael-esper/JLud2D/master/screenshots/Ak_1.png
+  - https://raw.githubusercontent.com/rafael-esper/JLud2D/master/screenshots/Ak_2.png
+  - https://raw.githubusercontent.com/rafael-esper/JLud2D/master/screenshots/PS_2.png
+  - https://raw.githubusercontent.com/rafael-esper/JLud2D/master/screenshots/PS_2.png
+  info: 2D old-school Engine for Games
+  lang: Java
+  license:
+  - As-is
+  development: sporadic
+  originals:
+  - Phantasy Star
+  - Alex Kidd in Miracle World
+  repo: https://github.com/rafael-esper/JLud2D
+  type: remake
+  updated: 2018-10-06
+
 - name: JonoF's Shadow Warrior Port (JFSW)
   images:
   - http://static.jonof.id.au/modsuppt/jfsw/shot_gl1.png
   - http://static.jonof.id.au/modsuppt/jfsw/shot_gl2.png
   - http://static.jonof.id.au/modsuppt/jfsw/shot_gl3.png
   lang: C
-  development: active
+  license:
+  - GPL2
+  development: halted
   originals:
   - Shadow Warrior
-  repo: http://svnweb.freebsd.org/ports/head/games/jfsw/
+  repo: http://static.jonof.id.au/dl/buildport/jfsw_src_20051009.zip
   status: playable
   type: remake
   updated: 2015-04-03
@@ -164,6 +194,8 @@
 
 - name: JOverflow
   lang: Java
+  license:
+  - As-is
   development: halted
   originals:
   - Overflow
@@ -190,6 +222,8 @@
 - name: jspacman-canvas
   framework: HTML canvas
   lang: JavaScript
+  license:
+  - As-is
   development: halted
   originals:
   - Pac-Man
@@ -225,6 +259,8 @@
 
 - name: 'Jumping Jack 2: Worryingly Familiar'
   lang: C++
+  license:
+  - Custom
   development: halted
   originals:
   - Jumping Jack
@@ -235,6 +271,8 @@
 
 - name: 'Jumping Jack: Further Adventures'
   lang: C++
+  license:
+  - Custom
   development: halted
   originals:
   - Jumping Jack
@@ -247,6 +285,8 @@
   images:
   - http://www.oldskool.org/pc/jumpman/level01.gif
   lang: Assembly
+  license:
+  - PD
   development: halted
   originals:
   - Jumpman

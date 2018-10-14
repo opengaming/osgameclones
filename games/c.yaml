@@ -20,8 +20,11 @@
   - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/4.png
   lang: C
   license:
+  - BSD2
   - GPL2
+  - CC0
   - CC-BY
+  - CC-BY-SA
   development: active
   originals:
   - C-Dogs
@@ -95,6 +98,8 @@
 - name: Cannonball
   development: active
   lang: C++
+  license:
+  - MAME
   content: commercial
   originals:
   - Outrun
@@ -123,6 +128,8 @@
   - http://www.linux-games.com/castle-combat/shot1.png
   - http://www.linux-games.com/castle-combat/shot2.png
   lang: Python
+  license:
+  - GPL2
   development: halted
   originals:
   - Rampart
@@ -229,18 +236,6 @@
   updated: 2017-12-12
   url: http://cr.freewarepoint.de/
 
-- name: Chaos Strikes Back
-  images:
-  - http://dmweb.free.fr/files/Clone-Screenshot-CSBLinux.jpg
-  lang: C++
-  development: halted
-  originals:
-  - Dungeon Master
-  repo: http://dmweb.free.fr/files/Clone-CSBwin-SourceCode-12_100.zip
-  type: remake
-  updated: 2015-09-27
-  url: http://dmweb.free.fr/?q=node/851
-
 - name: Chariot
   development: active
   framework: SDL2
@@ -295,6 +290,8 @@
 - name: Citadel
   framework:
   - Unity
+  license:
+  - As-is
   originals:
   - System Shock
   repo: https://github.com/JosiahJack/Citadel
@@ -450,6 +447,12 @@
 - name: Core Breach
   originals:
   - Wipeout
+  license:
+  - MIT
+  - Multiple
+  - GPL2
+  - CC-BY
+  - As-is
   repo: https://github.com/core-code/CoreBreach
   type: clone
   updated: 2015-04-05
@@ -507,6 +510,8 @@
   - https://www.nongnu.org/crack-attack/gui-1.1.14-normal.png
   info: networking support
   lang: C++
+  license:
+  - GPL2
   development: halted
   originals:
   - Tetris Attack
@@ -547,6 +552,8 @@
   - http://crimson.seul.org/screenshots/screen17.png
   - http://crimson.seul.org/screenshots/screen18.png
   lang: C++
+  license:
+  - GPL2
   development: sporadic
   originals:
   - Battle Isle series
