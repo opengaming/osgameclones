@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cyrax = "==2.7"
+natsort = "*"
+pykwalify = ">=1.6.1"
+PyYAML = "*"
+Unidecode = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
