@@ -13,3 +13,4 @@ script:
  - pipenv run cyrax
  - test 6000 -lt $(cat _build/index.html | wc -l)
  - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] || .travis/deploy.sh'
+ - yarn danger ci
