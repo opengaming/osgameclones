@@ -1,3 +1,4 @@
 const {danger, message} = require('danger')
 
-message('Files in change set:', danger.git.modified_files);
+const modifiedMD = danger.git.modified_files.join("- ")
+message("Changed Files in this PR: \n - " + modifiedMD)
