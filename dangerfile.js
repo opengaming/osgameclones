@@ -1,3 +1,3 @@
-const {danger, info} = require('danger')
+const {danger, message} = require('danger')
 
-info('Files in change set:', danger.git.modified_files);
+message('Files in change set:', danger.git.modified_files);
