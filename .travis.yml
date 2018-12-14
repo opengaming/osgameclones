@@ -7,8 +7,9 @@ virtualenv:
 addons:
   ssh_known_hosts: sirius.solovyov.net
 install:
- - pip install -r requirements.txt
+ - pip install pipenv
+ - pipenv install
 script:
- - cyrax
+ - pipenv run cyrax
  - test 6000 -lt $(cat _build/index.html | wc -l)
  - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] || .travis/deploy.sh'

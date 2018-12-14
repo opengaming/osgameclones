@@ -82,7 +82,7 @@ name: [Name, 'http://www.example.com']
 ### Pre-requisites
 
 * [Python 2][python]
-* [virtualenv][virtualenv]
+* [pipenv][pipenv]
 
 
 ### Install
@@ -90,22 +90,14 @@ name: [Name, 'http://www.example.com']
 Clone this repository and run inside the directory:
 
 ```
-virtualenv .env
-source .env/bin/activate
-make install
+pipenv install
 ```
 ### Building
 
-Make sure the virtual env is active, if not run:
+Simply run the following to build the project into the `_build` directory.
 
 ```
-source .env/bin/activate
-```
-
-Then simply run the following to build the project into the `_build` directory.
-
-```
-make
+pipenv run cyrax
 ```
 
 ## License
@@ -120,4 +112,4 @@ See [LICENSE][license]
 [license]: LICENSE
 
 [python]: https://www.python.org
-[virtualenv]: https://virtualenv.pypa.io
+[pipenv]: https://pipenv.readthedocs.io/en/latest/
