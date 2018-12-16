@@ -7,6 +7,6 @@ COPY vhost.conf /etc/nginx/conf.d/default.conf
 COPY CHECKS /app/CHECKS
 EXPOSE 80
 
-RUN apk add --no-cache python py-pip py-yaml && pip install -r requirements.txt
+RUN apk add --no-cache python py-pip py-yaml && pip install pipenv && pipenv install
 RUN env
-RUN cyrax /src -d /www
+RUN pipenv run cyrax /src -d /www
