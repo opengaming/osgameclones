@@ -256,16 +256,22 @@
 
 - name: Bombman
   images:
-  - https://camo.githubusercontent.com/8ab6d36689583359d2904c9c4a573e3dcf68d76a/687474703a2f2f692e696d6775722e636f6d2f3378626741504d2e706e67
+  - http://i.imgur.com/3xbgAPM.png
   lang: Python
   license:
-  - GPL
+  - CC0
+  framework:
+  - pygame
+  content: open
   development: sporadic
   originals:
   - Atomic Bomberman
-  repo: https://github.com/drummyfish/bombman
+  repo: https://gitlab.com/drummyfish/Bombman
   type: remake
-  updated: 2016-07-11
+  status: playable
+  updated: 2018-12-27
+  video:
+    youtube: N1pGgX_rFOQ
 
 - name: boulder-dash
   lang: Java
