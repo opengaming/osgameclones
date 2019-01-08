@@ -705,6 +705,32 @@
   type: clone
   url: http://gtanczyk.warsztat.io/Dupocracy/game/index.html
 
+- name: Dust Racing 2D
+  images:
+  - http://juzzlin.github.io/DustRacing2D/screenshots/1.10.0/1.jpg
+  - http://juzzlin.github.io/DustRacing2D/screenshots/1.10.0/2.jpg
+  - http://juzzlin.github.io/DustRacing2D/screenshots/1.10.0/3.jpg
+  - http://juzzlin.github.io/DustRacing2D/screenshots/1.10.0/4.jpg
+  lang: C++
+  framework:
+  - Qt
+  - OpenGL
+  license:
+  - GPL3
+  content: open
+  development: active
+  originals:
+  - Micro Machines
+  repo: https://github.com/juzzlin/DustRacing2D
+  type: remake
+  multiplayer:
+  - Split-screen
+  updated: 2018-12-14
+  url: http://juzzlin.github.io/DustRacing2D/index.html
+  status: playable
+  video:
+    youtube: 3hrIzzItggQ
+
 - name: DXBall
   framework: Gradle
   info: Android
