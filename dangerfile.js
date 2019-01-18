@@ -19,5 +19,5 @@ if (danger.git.modified_files.length || danger.git.created_files.length || dange
   changes += getChanges("Added", danger.git.created_files)
   changes += getChanges("Deleted", danger.git.deleted_files)
 
-  markdown(`<details><summary>Files in PR...</summary><p>{changes}</p></details>`)
+  markdown(`<details><summary>Files in PR...</summary><p>${changes}</p></details>`)
 }
