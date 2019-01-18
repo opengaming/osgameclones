@@ -10,7 +10,7 @@ if (danger.git.modified_files.length || danger.git.created_files.length || dange
   const getChanges = (title, files) => {
     const md = files.join("\n- ")
     if (md.length > 0) {
-      return title + ":\n - " + modifiedMD + "\n\n"
+      return title + ":\n - " + md + "\n\n"
     }
     return ""
   }
