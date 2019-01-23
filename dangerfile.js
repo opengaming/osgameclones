@@ -15,8 +15,9 @@ if (danger.git.modified_files.length || danger.git.created_files.length || dange
     const md = files.map(file => {
       if (isGame(file)) {
         const games = yaml.safeLoad(fs.readFileSync(file))
+        const gamesList = games.map(game => `\n  - ${game.name}`)
         danger.git.diffForFile(file).then(diff => markdown(`<!-- ${diff.diff} -->`))
-        return `\n- 🎮 \`${file}\` games.map(game => `\n  - ${game.name}`).join("")`)`
+        return `\n- 🎮 \`${file}\`${gamesList.join()})`
       }
       return return `\n- \`${file}\``
     })
