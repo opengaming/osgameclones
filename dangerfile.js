@@ -4,6 +4,8 @@ const fs = require('fs')
 
 markdown("Hey there! Thanks for contributing a PR to osgameclones! 🎉")
 
+const isGame = game => /^games\/\w+\.yaml$/.test(game)
+
 // Information summary of files in the PR
 // For debug purposes only
 if (danger.git.modified_files.length || danger.git.created_files.length || danger.git.deleted_files.length) {
@@ -11,13 +13,15 @@ if (danger.git.modified_files.length || danger.git.created_files.length || dange
 
   const getChanges = (title, files) => {
     const md = files.map(file => {
-      const fileTitle = `\n- \`${file}\``
-      const games = yaml.safeLoad(fs.readFileSync(file))
-      danger.git.diffForFile(file).then(diff => markdown(`<!-- ${diff.diff} -->`))
-      return fileTitle + games.map(game => `\n  - ${game.name}`)
+      if (isGame(file)) {
+        const games = yaml.safeLoad(fs.readFileSync(file))
+        danger.git.diffForFile(file).then(diff => markdown(`<!-- ${diff.diff} -->`))
+        return `\n- 🎮 \`${file}\` games.map(game => `\n  - ${game.name}`).join("")`)`
+      }
+      return return `\n- \`${file}\``
     })
     if (md.length > 0) {
-      return "\n\n" + title + ":\n - " + md
+      return `\n\n${title}:${md}`
     }
     return ""
   }
