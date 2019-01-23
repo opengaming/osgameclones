@@ -19,7 +19,7 @@ if (danger.git.modified_files.length || danger.git.created_files.length || dange
         danger.git.diffForFile(file).then(diff => markdown(`<!-- ${diff.diff} -->`))
         return `\n- 🎮 \`${file}\`${gamesList.join()})`
       }
-      return return `\n- \`${file}\``
+      return `\n- \`${file}\``
     })
     if (md.length > 0) {
       return `\n\n${title}:${md}`
