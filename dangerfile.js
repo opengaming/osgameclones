@@ -39,6 +39,7 @@ const getGameChanges = files => {
     }
   }))
 }
+getGameChanges(danger.git.modified_files.concat(danger.git.created_files, danger.git.deleted_files))
 
 // Information summary of files in the PR
 // For debug purposes only
