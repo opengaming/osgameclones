@@ -11,6 +11,7 @@ const getGameChanges = files => {
   .then(diffs => diffs.forEach(diff => {
     const gamesBefore = yaml.safeLoad(diff.before)
     const gamesAfter = yaml.safeLoad(diff.after)
+    const stringsAfter = gamesAfter.map(game => JSON.stringify(game))
     const namesBefore = gamesBefore.map(game => game.name)
     const namesAfter = gamesAfter.map(game => game.name)
     let namesAdded = []
@@ -19,7 +20,7 @@ const getGameChanges = files => {
     gamesBefore.forEach(game => {
       if (!namesAfter.includes(game.name)) {
         namesRemoved.push(game.name)
-      } else if (namesAfter.includes(game.name) && !gamesAfter.includes(game)) {
+      } else if (namesAfter.includes(game.name) && !stringsAfter.includes(JSON.stringify(game))) {
         namesChanged.push(game.name)
       }
     })
