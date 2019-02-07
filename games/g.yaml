@@ -37,9 +37,9 @@
 
 - name: GemRB
   images:
-  - http://sourceforge.net/dbimage.php?id=105342
-  - http://sourceforge.net/dbimage.php?id=105346
-  - http://sourceforge.net/dbimage.php?id=105344
+  - https://sourceforge.net/p/gemrb/screenshot/105342.jpg
+  - https://sourceforge.net/p/gemrb/screenshot/105346.jpg
+  - https://sourceforge.net/p/gemrb/screenshot/105344.jpg
   lang: C++
   license:
   - GPL2
@@ -54,8 +54,10 @@
   - Icewind Dale II
   - "Planescape: Torment"
   repo: https://github.com/gemrb/gemrb
+  status: playable
   type: remake
   url: http://www.gemrb.org/
+  updated: 2019-02-08
 
 - name: Geometry Wars Remake
   lang: Java
