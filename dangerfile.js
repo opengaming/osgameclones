@@ -15,16 +15,19 @@ const checkLink = link => {
   } catch (TypeError) {
     return
   }
-  console.log(`Checking link ${parsedLink}`)
-  /*const options = {method: 'HEAD', host: parsedLink.host, port: 80, path: parsedLink.pathname}
+  const options = {method: 'HEAD', host: parsedLink.host, port: 80, path: parsedLink.pathname}
   const req = http.request(options, res => {
     if (res.statusCode < 200 || res.statusCode >= 300) {
       warn(`Broken link detected: ${link} returned HTTP ${res.statusCode}`)
     }
     req.end()
   }).on('error', e => {
+    warn(`Broken link detected: ${link} ${e.code}`)
+  })
+  req.setTimeout(5000, () => {
+    req.abort()
     warn(`Broken link detected: ${link} timed out`)
-  })*/
+  })
 }
 
 const detectAndCheckLinks = obj => {
