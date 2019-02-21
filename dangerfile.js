@@ -9,20 +9,25 @@ markdown("Hey there! Thanks for contributing a PR to osgameclones! 🎉")
 const isURL = s => /^https?:\/\//.test(s)
 
 const checkLink = link => {
+  let parsedLink;
   try {
-    const parsedLink = url.parse(link)
-    const options = {method: 'HEAD', host: parsedLink.host, port: 80, path: parsedLink.pathname}
-    const req = http.request(options, res => {
-      if (res.statusCode < 200 || res.statusCode >= 300) {
-        warn(`Broken link detected: ${link} returned HTTP ${res.statusCode}`)
-      }
-      req.end()
-    })
-  } catch (TypeError) {}
+    parsedLink = url.parse(link)
+  } catch (TypeError) {
+    return
+  }
+  const options = {method: 'HEAD', host: parsedLink.host, port: 80, path: parsedLink.pathname}
+  const req = http.request(options, res => {
+    if (res.statusCode < 200 || res.statusCode >= 300) {
+      warn(`Broken link detected: ${link} returned HTTP ${res.statusCode}`)
+    }
+    req.end()
+  }).on('error', e => {
+    warn(`Broken link detected: ${link} timed out`)
+  })
 }
 
 const detectAndCheckLinks = obj => {
-  for (var key in obj) {
+  for (let key in obj) {
     if (isURL(obj[key])) {
       checkLink(obj[key])
     } else if (typeof obj[key] === 'object' && obj[key] != null) {
