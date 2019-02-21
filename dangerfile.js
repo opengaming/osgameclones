@@ -6,40 +6,6 @@ const fs = require('fs')
 
 markdown("Hey there! Thanks for contributing a PR to osgameclones! 🎉")
 
-const isURL = s => /^https?:\/\//.test(s)
-
-const checkLink = link => {
-  let parsedLink;
-  try {
-    parsedLink = url.parse(link)
-  } catch (TypeError) {
-    return
-  }
-  const options = {method: 'HEAD', host: parsedLink.host, port: 80, path: parsedLink.pathname}
-  const req = http.request(options, res => {
-    if (res.statusCode < 200 || res.statusCode >= 300) {
-      warn(`Broken link detected: ${link} returned HTTP ${res.statusCode}`)
-    }
-    req.end()
-  }).on('error', e => {
-    warn(`Broken link detected: ${link} ${e.code}`)
-  })
-  req.setTimeout(5000, () => {
-    req.abort()
-    warn(`Broken link detected: ${link} timed out`)
-  })
-}
-
-const detectAndCheckLinks = obj => {
-  for (let key in obj) {
-    if (isURL(obj[key])) {
-      checkLink(obj[key])
-    } else if (typeof obj[key] === 'object' && obj[key] != null) {
-      detectAndCheckLinks(obj[key])
-    }
-  }
-}  
-
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 const getGameChanges = files => {
@@ -64,7 +30,6 @@ const getGameChanges = files => {
       if (!namesBefore.includes(game.name)) {
         namesAdded.push(game.name)
       }
-      detectAndCheckLinks(game)
     })
     if (namesAdded.length > 0) {
       message(`Games added: ${danger.utils.sentence(namesAdded)} 🎊`)
