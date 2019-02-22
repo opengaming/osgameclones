@@ -14,7 +14,7 @@ const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 const updated = new Date().toISOString().slice(0, 10)
 const checkGameUpdated = game => {
-  const gameUpdated = game.updated || game.updated.toISOString().slice(0, 10)
+  const gameUpdated = game.updated && game.updated.toISOString().slice(0, 10)
   if (gameUpdated !== updated) {
     warn(`${game.name}'s "updated" value should be ${updated}; got ${gameUpdated} instead`)
   }
