@@ -6,7 +6,30 @@ const fs = require('fs')
 
 markdown("Hey there! Thanks for contributing a PR to osgameclones! 🎉")
 
+let namesAdded = []
+let namesChanged = []
+let namesRemoved = []
+
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
+
+const updated = new Date().toISOString().slice(0, 10)
+const checkGameUpdated = game => {
+  if (game.updated != updated) {
+    warn(`${game.name}'s "updated" value should be ${updated}; got ${game.updated} instead`)
+  }
+}
+
+const onGameAdded = game => {
+  namesAdded.push(game.name)
+  checkGameUpdated(game)
+}
+const onGameChanged = game => {
+  namesChanged.push(game.name)
+  checkGameUpdated(game)
+}
+const onGameRemoved = game => {
+  namesRemoved.push(game.name)
+}
 
 const getGameChanges = files => {
   Promise.all(files.filter(isGame).map(file => danger.git.diffForFile(file)))
@@ -16,19 +39,16 @@ const getGameChanges = files => {
     const stringsAfter = gamesAfter.map(game => JSON.stringify(game))
     const namesBefore = gamesBefore.map(game => game.name)
     const namesAfter = gamesAfter.map(game => game.name)
-    let namesAdded = []
-    let namesChanged = []
-    let namesRemoved = []
     gamesBefore.forEach(game => {
       if (!namesAfter.includes(game.name)) {
-        namesRemoved.push(game.name)
+        onGameRemoved(game)
       } else if (namesAfter.includes(game.name) && !stringsAfter.includes(JSON.stringify(game))) {
-        namesChanged.push(game.name)
+        onGameChanged(game)
       }
     })
     gamesAfter.forEach(game => {
       if (!namesBefore.includes(game.name)) {
-        namesAdded.push(game.name)
+        onGameAdded(game)
       }
     })
     if (namesAdded.length > 0) {
