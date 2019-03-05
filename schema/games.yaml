@@ -16,7 +16,7 @@ schema;game:
     type:
       required: True
       type: str
-      enum: ['remake', 'clone']
+      enum: ['remake', 'clone', 'similar']
     repo:
       required: False # Work towards making it True
       type: str
