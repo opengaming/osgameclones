@@ -17,7 +17,7 @@ const isDateWithinOneDayToday = d => {
   if (!d) {
     return false
   }
-  const timeDiff = Math.abs(new Date().getTime() - b.getTime())
+  const timeDiff = Math.abs(new Date().getTime() - d.getTime())
   return Math.ceil(timeDiff / (1000 * 3600 * 24)) <= 1
 }
 const checkGameUpdated = game => {
