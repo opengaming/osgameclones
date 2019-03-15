@@ -12,10 +12,18 @@ let namesRemoved = []
 
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
-const updated = new Date().toISOString().slice(0, 10)
+// Check that updated is within one day of today
+const isDateWithinOneDayToday = d => {
+  if (!d) {
+    return false
+  }
+  const timeDiff = Math.abs(new Date().getTime() - b.getTime())
+  return Math.ceil(timeDiff / (1000 * 3600 * 24)) <= 1
+}
 const checkGameUpdated = game => {
-  const gameUpdated = game.updated && game.updated.toISOString().slice(0, 10)
-  if (gameUpdated !== updated) {
+  if (!isDateWithinOneDayToday(game.updated)) {
+    const gameUpdated = game.updated && game.updated.toISOString().slice(0, 10)
+    const updated = new Date().toISOString().slice(0, 10)
     warn(`${game.name}'s "updated" value should be ${updated}; got ${gameUpdated} instead`)
   }
 }
