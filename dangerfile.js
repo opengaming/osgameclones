@@ -75,7 +75,7 @@ if (danger.git.modified_files.length || danger.git.created_files.length || dange
       if (isGame(file)) {
         const games = yaml.safeLoad(fs.readFileSync(file))
         const gamesList = games.map(game => `\n  - ${game.name}`)
-        return `\n- 🎮 \`${file}\`${gamesList.join()})`
+        return `\n- 🎮 \`${file}\`${gamesList.join()}`
       }
       return `\n- \`${file}\``
     })
