@@ -57,8 +57,9 @@ schema;platform:
   ]
 
 # -- ADD NEW GENRES TO 'SUBGENRE' SCHEMA --
-# Based on Giant Bomb genres
+# Based on Giant Bomb genres / Wikipedia
 # http://www.giantbomb.com/games/
+# https://en.wikipedia.org/wiki/Template:Video_game_genre
 schema;genres:
   type: str
   enum: [
@@ -74,6 +75,7 @@ schema;genres:
     'FPS',
     'MMORPG',
     'MOBA',
+    'Party',
     'Platform',
     'Puzzle',
     'Racing',
