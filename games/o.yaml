@@ -727,6 +727,20 @@
   type: remake
   url: http://www.openlierox.net/
 
+- name: OpenLoco
+  type: remake
+  originals:
+  - Chris Sawyer's Locomotion
+  repo: https://github.com/OpenLoco/OpenLoco
+  development: active
+  status: playable
+  lang: C++
+  license:
+  - MIT
+  content: commercial
+  info: The original game use the modified version of RollerCoaster Tycoon 2's engine. OpenLoco using modified version of OpenRCT2's engine.
+  updated: 2019-03-19
+
 - name: OpenMC2
   development: sporadic
   lang: C++

@@ -162,6 +162,24 @@
   repo: https://github.com/mahho/legion
   type: remake
   updated: 2015-06-22
+  
+- name: LegionGame
+  type: remake
+  originals:
+  - Legion
+  repo: https://github.com/bsoja/LegionGame
+  development: sporadic
+  status: unplayable
+  lang: C#
+  license:
+  - GPL3
+  content: open
+  updated: 2019-03-21
+  images:
+  - https://raw.githubusercontent.com/bsoja/LegionGame/master/data/screenshots/legion-debug.png
+  - https://raw.githubusercontent.com/bsoja/LegionGame/master/data/screenshots/legion-info-pl.png
+  - https://raw.githubusercontent.com/bsoja/LegionGame/master/data/screenshots/legion-info-en.png
+  - https://raw.githubusercontent.com/bsoja/LegionGame/master/data/screenshots/legion-terrain.png
 
 - name: Lemmings.ts
   images:
