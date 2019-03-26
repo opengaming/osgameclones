@@ -5,7 +5,7 @@ python:
 virtualenv:
   system_site_packages: true
 addons:
-  ssh_known_hosts: sirius.solovyov.net:2222
+  ssh_known_hosts: sirius.solovyov.net
 install:
  - pip install pipenv
  - pipenv install
