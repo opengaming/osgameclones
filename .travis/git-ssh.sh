@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ssh -i .travis/deploy_key -o PasswordAuthentication=no $1 $2 $3 $4
+ssh -i .travis/deploy_key -o PasswordAuthentication=no -p 2222 $1 $2 $3 $4
