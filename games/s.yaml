@@ -1045,6 +1045,23 @@
   url: http://www.proasm.com/sw/swp.html
   video:
     youtube: JePqKJd4hhw
+    
+- name: SwtPacMan
+  type: clone
+  originals:
+  - Pac-Man
+  repo: https://github.com/fogleman/SwtPacMan
+  url: https://www.michaelfogleman.com/projects/pac-man/
+  development: halted
+  status: playable
+  lang: Java
+  framework: SWT
+  license:
+  - As-is
+  content: open
+  updated: 2019-03-25
+  images:
+  - https://www.michaelfogleman.com/static/img/project/pac-man/thumbnail/1.png
 
 - name: Syndicate Wars Port
   development: halted
