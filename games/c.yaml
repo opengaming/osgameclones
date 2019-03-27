@@ -533,6 +533,32 @@
   type: remake
   updated: 2014-04-16
   url: https://www.nongnu.org/crack-attack/
+  
+- name: Craft
+  type: clone
+  originals:
+  - Minecraft
+  repo: https://github.com/fogleman/Craft
+  url: https://www.michaelfogleman.com/projects/craft/
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  lang:
+  - C
+  - Python
+  framework:
+  - OpenGL
+  license:
+  - MIT
+  content: open
+  updated: 2019-03-25
+  images:
+  - https://www.michaelfogleman.com/static/img/project/craft/thumbnail/1.png
+  - https://www.michaelfogleman.com/static/img/project/craft/thumbnail/2.png
+  - https://www.michaelfogleman.com/static/img/project/craft/thumbnail/3.png
+  video:
+    youtube: tScCneiTGm4
 
 - name: CrappyBird
   lang: JavaScript
