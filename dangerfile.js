@@ -51,13 +51,13 @@ const getGameChanges = files => {
     gamesBefore.forEach(game => {
       if (!namesAfter.includes(game.name)) {
         onGameRemoved(game)
-      } else if (namesAfter.includes(game.name) && !stringsAfter.includes(JSON.stringify(game))) {
-        onGameChanged(game)
       }
     })
     gamesAfter.forEach(game => {
       if (!namesBefore.includes(game.name)) {
         onGameAdded(game)
+      } else if (namesBefore.includes(game.name) && !stringsAfter.includes(JSON.stringify(game))) {
+        onGameChanged(game)
       }
     })
     if (namesAdded.length > 0) {
