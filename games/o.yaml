@@ -486,6 +486,26 @@
   status: unplayable
   type: remake
   updated: 2015-07-17
+  
+- name: OpenDominion
+  type: clone
+  originals:
+  - Dominion
+  repo: https://github.com/WaveHack/OpenDominion
+  url: https://beta.opendominion.net/
+  development: active
+  status: semi-playable
+  multiplayer:
+  - online
+  lang:
+  - HTML
+  - PHP
+  framework: Laravel
+  license:
+  - AGPL3
+  content: open
+  info: The project is a text-based PBBG (Persistant Browser-Based Game) played in the web browser on both desktop and mobile.
+  updated: 2019-03-29
 
 - name: openDOW
   lang: C
