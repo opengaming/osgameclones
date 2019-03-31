@@ -44,20 +44,21 @@ const getGameChanges = files => {
   Promise.all(files.filter(isGame).map(file => danger.git.diffForFile(file)))
   .then(diffs => diffs.forEach(diff => {
     const gamesBefore = yaml.safeLoad(diff.before)
+    // Compare any changes in games metadata
+    const stringsBefore = gamesBefore.map(game => JSON.stringify(game))
     const gamesAfter = yaml.safeLoad(diff.after)
-    const stringsAfter = gamesAfter.map(game => JSON.stringify(game))
     const namesBefore = gamesBefore.map(game => game.name)
     const namesAfter = gamesAfter.map(game => game.name)
     gamesBefore.forEach(game => {
       if (!namesAfter.includes(game.name)) {
         onGameRemoved(game)
-      } else if (namesAfter.includes(game.name) && !stringsAfter.includes(JSON.stringify(game))) {
-        onGameChanged(game)
       }
     })
     gamesAfter.forEach(game => {
       if (!namesBefore.includes(game.name)) {
         onGameAdded(game)
+      } else if (namesBefore.includes(game.name) && !stringsBefore.includes(JSON.stringify(game))) {
+        onGameChanged(game)
       }
     })
     if (namesAdded.length > 0) {
