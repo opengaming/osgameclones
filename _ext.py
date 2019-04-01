@@ -140,7 +140,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
 
 
 def parse_items(site, item, key):
-    if not (item.get(item) and validate(item, key)):
+    if not (item.get(key) and validate(item, key)):
         return
     if not getattr(site, key, False):
         setattr(site, key, [])
