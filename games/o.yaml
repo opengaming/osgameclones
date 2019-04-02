@@ -88,10 +88,9 @@
   development: halted
   originals:
   - Battle Chess
-  repo: http://openbattlechess.googlecode.com/svn/trunk/
+  repo: https://github.com/blueveno/openbattlechess
   type: remake
-  updated: 2015-04-08
-  url: https://code.google.com/p/openbattlechess/
+  updated: 2019-03-29
 
 - name: Open Creatures
   info: forks present
@@ -161,6 +160,22 @@
   type: remake
   updated: 2014-09-05
   url: http://sourceforge.net/projects/opengate/
+  
+- name: Open Kick-Off
+  type: remake
+  originals:
+  - Kick Off
+  repo: https://github.com/ssenegas/kickoff
+  development: active
+  status: playable
+  lang: Java
+  framework: libGDX
+  license:
+  - As-is
+  content: open
+  updated: 2019-03-29
+  images:
+  - https://user-images.githubusercontent.com/9662172/39470980-0051a248-4d41-11e8-9a60-182320e25b57.PNG
 
 - name: Open Meridian
   lang: C
@@ -486,6 +501,26 @@
   status: unplayable
   type: remake
   updated: 2015-07-17
+  
+- name: OpenDominion
+  type: clone
+  originals:
+  - Dominion
+  repo: https://github.com/WaveHack/OpenDominion
+  url: https://beta.opendominion.net/
+  development: sporadic
+  status: semi-playable
+  multiplayer:
+  - Online
+  lang:
+  - HTML
+  - PHP
+  framework: Laravel
+  license:
+  - AGPL3
+  content: open
+  info: The project is a text-based PBBG (Persistant Browser-Based Game) played in the web browser on both desktop and mobile.
+  updated: 2019-03-29
 
 - name: openDOW
   lang: C

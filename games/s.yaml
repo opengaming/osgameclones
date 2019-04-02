@@ -1014,6 +1014,24 @@
   url: http://supertuxkart.sourceforge.net/
   video:
     youtube: ev8Zltau4zw
+    
+- name: SuperTuxParty
+  type: clone
+  originals:
+  - Mario Party
+  repo: https://gitlab.com/SuperTuxParty/SuperTuxParty
+  development: active
+  status: playable
+  multiplayer:
+  - Split-screen
+  lang: GDScript
+  framework: Godot
+  license:
+  - GPL3
+  content: open
+  updated: 2019-03-21
+  images:
+  - https://gitlab.com/SuperTuxParty/SuperTuxParty/raw/dev/screenshot.png
 
 - name: Survivor
   framework:
