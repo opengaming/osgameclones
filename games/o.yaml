@@ -823,6 +823,25 @@
   updated: 2015-04-11
   url: http://openmohaa.sourceforge.net/
 
+- name: OpenMoM
+  type: clone
+  originals:
+  - Master of Magic
+  repo: https://github.com/Jakz/openmom
+  development: active
+  status: semi-playable
+  lang: C++
+  framework:
+  - SDL2
+  license:
+  - GPL3
+  content: commercial
+  updated: 2019-04-02
+  images:
+  - https://raw.githubusercontent.com/Jakz/openmom/master/docs/screenshots/screenshot-main.png
+  - https://raw.githubusercontent.com/Jakz/openmom/master/docs/screenshots/screenshot-city.png
+  - https://raw.githubusercontent.com/Jakz/openmom/master/docs/screenshots/screenshot-combat.png
+
 - name: OpenMOO2
   images:
   - http://openmoo2.org/static/20/main-screen-moo2-screenshot.png
