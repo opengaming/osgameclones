@@ -736,15 +736,27 @@
   url: http://xproger.info/projects/OpenLara/
 
 - name: OpenLiero
+  feed: https://twitter.com/lieroofficial
   lang: C++
   license:
-  - BSD2
+  - Custom
+  content: free
   development: halted
+  status: playable
+  multiplayer: Split-screen
+  framework:
+  - SDL
   originals:
   - Liero
-  repo: http://code.google.com/p/liero/source/list
+  repo: https://github.com/gliptic/liero
   type: remake
-  url: http://code.google.com/p/liero/
+  url: http://www.liero.be/
+  updated: 2019-04-09
+  info: 'Perfect clone of 1.33; a.k.a. Liero 1.36. License information at http://www.liero.be/licenses/135/license.txt'
+  images:
+  - https://happypenguin.altervista.org/screenshots/openliero.png
+  video:
+    youtube: BzvWW_SzZvk
 
 - name: OpenLieroX
   images:
