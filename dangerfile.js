@@ -33,7 +33,7 @@ const checkGameUpdated = game => {
 }
 
 const checkRepoGoogleCode = game => {
-  if (game.repo && (game.repo.contains('googlecode') || game.repo.contains('code.google'))) {
+  if (game.repo && (game.repo.indexOf('googlecode') >= 0 || game.repo.indexOf('code.google') >= 0)) {
     warn(`${game.name}'s repo is Google Code, a dead service. Please check if there is an updated repo elsewhere.`)
   }
 }
