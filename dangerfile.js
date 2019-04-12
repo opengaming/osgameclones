@@ -12,6 +12,10 @@ let namesRemoved = []
 
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
+// -----------
+// Game checks
+// -----------
+
 // Check that updated is within one day of today
 const isDateWithinOneDayToday = d => {
   if (!d) {
@@ -28,13 +32,23 @@ const checkGameUpdated = game => {
   }
 }
 
+const checkRepoGoogleCode = game => {
+  if (game.repo && (game.repo.indexOf('googlecode') >= 0 || game.repo.indexOf('code.google') >= 0)) {
+    warn(`${game.name}'s repo is Google Code, a dead service. Please check if there is an updated repo elsewhere.`)
+  }
+}
+
+// -----------
+
 const onGameAdded = game => {
   namesAdded.push(game.name)
   checkGameUpdated(game)
+  checkRepoGoogleCode(game)
 }
 const onGameChanged = game => {
   namesChanged.push(game.name)
   checkGameUpdated(game)
+  checkRepoGoogleCode(game)
 }
 const onGameRemoved = game => {
   namesRemoved.push(game.name)
