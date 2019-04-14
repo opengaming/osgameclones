@@ -244,17 +244,22 @@
   images:
   - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/nice_sc_scene.png
   - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/F-22.png
+  - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/face.png
   lang:
   - C++
+  framework:
+  - SDL2
   license:
   - As-is
   development: halted
   originals:
   - Strike Commander
   repo: https://github.com/fabiensanglard/libRealSpace
-  type: remake
-  updated: 2014-01-05
+  type: tool
+  content: commercial
+  updated: 2019-04-15
   url: http://fabiensanglard.net/reverse_engineering_strike_commander/index.php
+  info: Tools to parse and render Origin Systems RealSpace engine assets.
 
 - name: Librelancer
   framework:
