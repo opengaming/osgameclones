@@ -23,8 +23,11 @@
     youtube: SjDNRgVAdkc
 
 - name: 1oom
-  development: active
-  framework: SDL
+  development: complete
+  framework:
+  - SDL
+  - SDL2
+  - Allegro4
   images:
   - https://kilgoretroutmaskreplicant.gitlab.io/plain-html/pic01.png
   - https://kilgoretroutmaskreplicant.gitlab.io/plain-html/pic02.png
@@ -38,7 +41,7 @@
   repo: https://gitlab.com/KilgoreTroutMaskReplicant/1oom
   status: playable
   type: remake
-  updated: 2018-05-07
+  updated: 2019-04-15
   url: https://kilgoretroutmaskreplicant.gitlab.io/plain-html/
 
 - name: 3d.city
