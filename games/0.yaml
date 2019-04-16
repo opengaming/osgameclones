@@ -45,7 +45,9 @@
   url: https://kilgoretroutmaskreplicant.gitlab.io/plain-html/
 
 - name: 3d.city
-  framework: HTML5
+  framework:
+  - three.js
+  - Sea3D
   lang: JavaScript
   license:
   - GPL3
@@ -54,8 +56,14 @@
   - Simcity
   repo: https://github.com/lo-th/3d.city
   type: clone
-  updated: 2015-07-04
+  updated: 2019-04-15
   url: https://lo-th.github.io/3d.city/index.html
+  status: playable
+  content: open
+  images:
+  - http://lo-th.github.io/3d.city/img/preview01.jpg
+  - http://lo-th.github.io/3d.city/img/preview02.jpg
+  - http://lo-th.github.io/3d.city/img/preview03.jpg
 
 - name: 4DTris
   lang: C
