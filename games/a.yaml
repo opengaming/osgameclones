@@ -35,20 +35,20 @@
   - https://achtungkurve.com/dist/images/screenshot_1.png
   - https://achtungkurve.com/dist/images/screenshot_2.png
   - https://achtungkurve.com/dist/images/screenshot_3.png
-  framework:
-  - HTML
-  - CSS
   lang:
   - JavaScript
   license:
   - GPL3
-  development: sporadic
+  development: active
   originals:
   - Achtung, die Kurve!
   repo: https://github.com/maechler/kurve
   status: playable
-  type: remake
-  updated: 2016-12-11
+  type: clone
+  multiplayer:
+  - Competitive
+  - Local
+  updated: 2019-04-29
   url: https://achtungkurve.com/
 
 - name: Achtung, die Kurve!
@@ -57,9 +57,6 @@
   - https://kurve.se/screenshots/kurve-splash.png
   - https://kurve.se/screenshots/kurve-lobby.png
   info: The original <kbd>ZATACKA.EXE</kbd> in the browser
-  framework:
-  - HTML
-  - CSS
   lang:
   - JavaScript
   license:
@@ -72,8 +69,9 @@
   status: playable
   type: clone
   multiplayer:
-  - Split-screen
-  updated: 2019-04-18
+  - Competitive
+  - Local
+  updated: 2019-04-29
   url: https://kurve.se/
 
 - name: AdaDoom3
