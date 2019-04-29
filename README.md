@@ -84,6 +84,8 @@ name: [Name, 'http://www.example.com']
 * [Python 2][python]
 * [pipenv][pipenv]
 
+If you use [Nix][nix], you can run `nix-shell` to get a shell with all necessary dependencies.
+
 
 ### Install
 
@@ -113,3 +115,4 @@ See [LICENSE][license]
 
 [python]: https://www.python.org
 [pipenv]: https://pipenv.readthedocs.io/en/latest/
+[nix]: https://nixos.org/nix/
