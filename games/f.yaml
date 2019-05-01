@@ -261,6 +261,27 @@
   updated: 2014-04-22
   url: https://freeablo.org/
 
+- name: freeaoe
+  development: active
+  lang:
+  - C++
+  framework:
+  - SFML
+  license:
+  - GPL3
+  content: commercial
+  originals:
+  - 'Age of Empires II'
+  images:
+  - https://raw.githubusercontent.com/sandsmark/freeaoe/master/doc/screenshot.png
+  - https://raw.githubusercontent.com/sandsmark/freeaoe/master/doc/homescreen.png
+  - https://raw.githubusercontent.com/sandsmark/freeaoe/master/doc/historyscreen.png
+  repo: https://github.com/sandsmark/freeaoe
+  status: semi-playable
+  type: remake
+  updated: 2019-05-01
+  info: 'Only thing missing to be playable is opponents (AI and/or multiplayer). The engine supports data from all Genie games (Age of Empires 1, Star Wars: Galactic Battlegrounds, etc.), but the focus is on Age of Empires 2: The Conquerors.'
+
 - name: FreeBlocks
   framework: SDL2
   images:
