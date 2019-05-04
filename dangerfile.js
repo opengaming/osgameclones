@@ -76,13 +76,13 @@ const getGameChanges = files => {
       }
     })
     if (namesAdded.length > 0) {
-      message(`Games added: ${danger.utils.sentence(namesAdded)} 🎊`)
+      message(`Game(s) added: ${danger.utils.sentence(namesAdded)} 🎊`)
     }
     if (namesChanged.length > 0) {
-      message(`Games updated: ${danger.utils.sentence(namesChanged)} 👏`)
+      message(`Game(s) updated: ${danger.utils.sentence(namesChanged)} 👏`)
     }
     if (namesRemoved.length > 0) {
-      message(`Games removed: ${danger.utils.sentence(namesRemoved)} 😿`)
+      message(`Game(s) removed: ${danger.utils.sentence(namesRemoved)} 😿`)
     }
   }))
 }
