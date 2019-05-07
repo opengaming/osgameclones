@@ -142,7 +142,6 @@
   url: http://cyxdown.free.fr/bs/
 
 - name: BitRiot
-  framework: SDL
   lang: C++
   license:
   - Apache
@@ -156,6 +155,7 @@
   multiplayer:
   - Co-op
   framework:
+  - SDL
   - SDL2
   content: open
   images:
