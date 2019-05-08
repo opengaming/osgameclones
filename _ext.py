@@ -194,6 +194,17 @@ def show_validation_errors(data, validation_errors):
 
     show_errors(errors)
 
+    
+def validate_with_schema(source_data, schema_file):
+    core = Core(source_data=source_data, schema_files=[schema_file])
+    try:
+        core.validate(raise_exception=True)
+    except Exception as error:
+        if len(core.errors) > 0:
+            show_validation_errors(source_data, core.errors)
+        else:
+            raise error
+    
 
 def parse_data(site):
     base = op.dirname(__file__)
@@ -212,30 +223,14 @@ def parse_data(site):
         return name
     originals = natsorted(originals, key=sort_key, alg=ns.IGNORECASE)
     print(str(len(originals)) + ' games in total')
-
-    try:
-        core = Core(source_data=originals, schema_files=['schema/originals.yaml'])
-        core.validate(raise_exception=True)
-    except Exception as error:
-        if len(core.errors) > 0:
-            show_validation_errors(originals, core.errors)
-        else:
-            raise error
+    validate_with_schema(originals, 'schema/originals.yaml')
 
     clones = []
     for fn in sorted(os.listdir(op.join(base, 'games'))):
         if fn.endswith('.yaml'):
             clones.extend(yaml.load(open(op.join(base, 'games', fn))))
     print(str(len(clones)) + ' clones in total')
-
-    try:
-        core = Core(source_data=clones, schema_files=['schema/games.yaml'])
-        core.validate(raise_exception=True)
-    except Exception as error:
-        if len(core.errors) > 0:
-            show_validation_errors(clones, core.errors)
-        else:
-            raise error
+    validate_with_schema(clones, 'schema/games.yaml')
 
     errors = []
     originals_map = {}
