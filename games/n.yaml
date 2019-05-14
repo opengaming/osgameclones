@@ -13,6 +13,22 @@
   repo: https://github.com/bobbens/naev
   type: clone
   url: http://naev.org/
+  
+- name: NBlood
+  type: remake
+  originals:
+  - Blood
+  repo: https://github.com/nukeykt/NBlood
+  url: https://nukeykt.retrohost.net/
+  development: active
+  status: playable
+  lang:
+  - C++
+  license:
+  - GPL
+  content: commercial
+  info: NBlood use EDuke32 as base
+  updated: 2019-05-14
 
 - name: Netacka
   images:
