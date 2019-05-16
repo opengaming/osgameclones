@@ -127,6 +127,30 @@
   status: playable
   type: remake
 
+- name: remc2
+  type: remake
+  originals:
+  - Magic Carpet 2
+  repo: https://github.com/turican0/remc2
+  url: https://github.com/turican0/remc2/wiki
+  development: very active
+  status: unplayable
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - GPL3
+  content: commercial
+  info: Reverse engineering of game Magic Carpet 2 from assembler to c/c++ language
+  updated: 2019-05-07
+  images:
+  - https://raw.githubusercontent.com/turican0/remc2/wikiimg/2019-03-24%2016_24_21-Remake%20Magic%20Carpet%202.png
+  - https://raw.githubusercontent.com/turican0/remc2/wikiimg/2019-03-21%2020_46_03-Window.png
+  - https://raw.githubusercontent.com/turican0/remc2/wikiimg/2019-03-20%2019_20_08-Remake%20Magic%20Carpet%202.png
+  video:
+    youtube: 2g4Ro1ulMvg
+
 - name: REminiscence
   framework: SDL
   lang: C++
