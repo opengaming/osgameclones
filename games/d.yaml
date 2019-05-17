@@ -486,6 +486,29 @@
   type: remake
   updated: 2014-08-20
   url: http://doomlegacy.sourceforge.net/
+  
+- name: DOOM Retro
+  type: remake
+  originals:
+  - Doom
+  - Doom II
+  repo: https://github.com/bradharding/doomretro
+  url: https://www.doomretro.com/
+  development: active
+  status: playable
+  lang:
+  - C
+  framework:
+  - SDL2
+  license:
+  - GPL3
+  content: commercial
+  updated: 2019-05-17
+  images:
+  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot1.png
+  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot2.png
+  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot3.png
+  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot4.png
 
 - name: DOOM-iOS
   info: iOS
