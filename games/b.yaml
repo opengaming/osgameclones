@@ -142,16 +142,24 @@
   url: http://cyxdown.free.fr/bs/
 
 - name: BitRiot
-  framework: SDL
   lang: C++
   license:
   - Apache
-  development: active
+  development: halted
   originals:
   - Bug Bomber
   repo: https://github.com/VenKamikaze/BitRiot
-  type: remake
-  updated: 2016-04-11
+  type: clone
+  updated: 2019-05-07
+  status: playable
+  multiplayer:
+  - Co-op
+  framework:
+  - SDL2
+  content: open
+  images:
+  - https://raw.github.com/VenKamikaze/BitRiot/master/doco/screenshots/BitRiot-1.png
+  - https://raw.github.com/VenKamikaze/BitRiot/master/doco/screenshots/BitRiot-2.png
 
 - name: bladerunner (Engine within SCUMMVM)
   lang: C++
