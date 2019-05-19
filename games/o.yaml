@@ -919,6 +919,27 @@
   url: http://openmw.org/
   video:
     youtube: avPbctre9Qw
+    
+- name: OpenNFS
+  type: remake
+  originals:
+  - 'Need For Speed III: Hot Pursuit'
+  repo: https://github.com/AmrikSadhra/OpenNFS
+  url: http://opennfs.com/
+  development: active
+  status: semi-playable
+  lang:
+  - C++
+  framework:
+  - OpenGL
+  - Bullet3
+  license:
+  - MIT
+  content: commercial
+  info: The OpenNFS project wants to create one engine to play the NFS series (NFS1 - NFS6). The NFS3 implementation is almost done, the others semi-playable or not implemented yet.
+  updated: 2019-05-10
+  images:
+  - https://raw.githubusercontent.com/AmrikSadhra/OpenNFS/master/doc/BuildProgress.png
 
 - name: OpenNFS1
   images:
