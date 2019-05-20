@@ -173,6 +173,25 @@
   status: playable
   type: remake
   updated: 2014-07-23
+  
+- name: Cave Story Engine 2
+  type: remake
+  originals:
+  - Cave Story
+  repo: https://github.com/cuckydev/Cave-Story-Engine-2
+  development: active
+  status: playable
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - As-is
+  content: free
+  info: CSE2 is a decompiled engine from the original game, but dropped DirectX and ported to SDL2
+  updated: 2019-05-17
+  images:
+  - https://raw.githubusercontent.com/cuckydev/Cave-Story-Engine-2/master/screenshot.png
 
 - name: CaveExpress
   framework: SDL
