@@ -56,24 +56,26 @@ const onGameRemoved = game => {
 
 const getGameChanges = files => {
   Promise.all(files.filter(isGame).map(file => danger.git.diffForFile(file)))
-  .then(diffs => diffs.forEach(diff => {
-    const gamesBefore = yaml.safeLoad(diff.before)
-    // Compare any changes in games metadata
-    const stringsBefore = gamesBefore.map(game => JSON.stringify(game))
-    const gamesAfter = yaml.safeLoad(diff.after)
-    const namesBefore = gamesBefore.map(game => game.name)
-    const namesAfter = gamesAfter.map(game => game.name)
-    gamesBefore.forEach(game => {
-      if (!namesAfter.includes(game.name)) {
-        onGameRemoved(game)
-      }
-    })
-    gamesAfter.forEach(game => {
-      if (!namesBefore.includes(game.name)) {
-        onGameAdded(game)
-      } else if (namesBefore.includes(game.name) && !stringsBefore.includes(JSON.stringify(game))) {
-        onGameChanged(game)
-      }
+  .then(diffs => {
+    diffs.forEach(diff => {
+      const gamesBefore = yaml.safeLoad(diff.before)
+      // Compare any changes in games metadata
+      const stringsBefore = gamesBefore.map(game => JSON.stringify(game))
+      const gamesAfter = yaml.safeLoad(diff.after)
+      const namesBefore = gamesBefore.map(game => game.name)
+      const namesAfter = gamesAfter.map(game => game.name)
+      gamesBefore.forEach(game => {
+        if (!namesAfter.includes(game.name)) {
+          onGameRemoved(game)
+        }
+      })
+      gamesAfter.forEach(game => {
+        if (!namesBefore.includes(game.name)) {
+          onGameAdded(game)
+        } else if (namesBefore.includes(game.name) && !stringsBefore.includes(JSON.stringify(game))) {
+          onGameChanged(game)
+        }
+      })
     })
     if (namesAdded.length > 0) {
       message(`Game(s) added: ${danger.utils.sentence(namesAdded)} 🎊`)
@@ -84,7 +86,7 @@ const getGameChanges = files => {
     if (namesRemoved.length > 0) {
       message(`Game(s) removed: ${danger.utils.sentence(namesRemoved)} 😿`)
     }
-  }))
+  })
 }
 getGameChanges(danger.git.modified_files.concat(danger.git.created_files, danger.git.deleted_files))
 
