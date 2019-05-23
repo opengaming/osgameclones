@@ -33,7 +33,7 @@ status:         enum       # One of: playable, semi-playable, unplayable
 multiplayer:    enum       # Any of: Online, LAN, Split-screen, Co-op, Hotseat, Matchmaking
 lang:           array      # List of programming languages used
 framework:      array      # List of engines/tools used
-license:        enum       # One of licenses listed in games schema
+license:        array      # List of licenses listed in games schema
 content:        string     # One of: commercial, free, open, swappable*
 info:           string     # Miscellaneous notes about the game
 updated:        string     # Date when game was added or updated
