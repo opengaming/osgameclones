@@ -291,6 +291,22 @@
   repo: https://github.com/chocolate-doom/chocolate-doom
   type: remake
   url: https://www.chocolate-doom.org/
+  
+- name: Chocolate Duke3D
+  type: remake
+  originals:
+  - Duke Nukem 3D
+  repo: https://github.com/fabiensanglard/chocolate_duke3D
+  development: halted
+  status: playable
+  lang:
+  - C
+  framework:
+  - SDL
+  license:
+  - GPL2
+  content: commercial
+  updated: 2019-05-27
 
 - name: Chronoshift
   lang: C++
