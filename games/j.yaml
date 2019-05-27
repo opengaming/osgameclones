@@ -144,6 +144,28 @@
   repo: https://github.com/frittatenbank/jewelthief
   type: remake
   updated: 2016-08-28
+  
+- name: JFDuke3D
+  type: remake
+  originals:
+  - Duke Nukem 3D
+  repo: http://static.jonof.id.au/dl/buildport/jfduke3d_src_20051009.zip
+  url: http://www.jonof.id.au/jfduke3d
+  development: halted
+  status: playable
+  multiplayer:
+  - LAN
+  lang:
+  - C
+  license:
+  - GPL2
+  content: commercial
+  updated: 2019-05-27
+  images:
+  - http://static.jonof.id.au/modsuppt/jfduke3d.sshots/shot_new.png
+  - http://static.jonof.id.au/modsuppt/jfduke3d.sshots/shot_game.png
+  - http://static.jonof.id.au/modsuppt/jfduke3d.sshots/shot_gl.png
+  - http://static.jonof.id.au/modsuppt/jfduke3d/dukehrp.jpg
 
 - name: jffe
   framework: SDL
