@@ -311,9 +311,14 @@
 
 - name: openage
   development: active
-  framework: SDL
+  framework: 
+  - SDL
+  - OpenGL
   images:
-  - http://openage.sft.mx/pics/openage_0.png
+  - https://openage.sft.mx/pics/openage_0.png
+  - https://openage.sft.mx/pics/openage_2.png
+  video:
+    youtube: 4GujF6YGSBY
   lang:
   - C++
   - Python
@@ -321,11 +326,14 @@
   - GPL3
   content: commercial
   originals:
+  - Age of Empires
   - Age of Empires II
+  - 'Star Wars: Galactic Battlegrounds'
   repo: https://github.com/SFTtech/openage
   status: semi-playable
   type: remake
-  updated: 2014-10-26
+  updated: 2019-05-28
+  info: 'We create a modern RTS engine for AoE-style gameplay. Including modding API, curve-based gamestate, a new renderer and support for all operating systems.'
   url: http://openage.sft.mx/
 
 - name: OpenApoc
