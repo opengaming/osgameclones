@@ -203,6 +203,24 @@
   updated: 2012-06-29
   url: http://www.linuxconsulting.ro/openpanzer/
 
+- name: Open Portal Engine
+  type: clone
+  originals:
+  - Portal
+  repo: https://github.com/lpuglia/Open-Portal
+  development: sporadic
+  status: playable
+  lang:
+  - C++
+  framework:
+  - OpenGL
+  license:
+  - As-is
+  content: free
+  updated: 2019-05-24
+  video:
+    youtube: tqqeUCzWcdQ
+
 - name: Open Rodent's Revenge
   images:
   - https://a.fsdn.com/con/app/proj/o2r/screenshots/254642.jpg
