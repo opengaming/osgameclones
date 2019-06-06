@@ -599,19 +599,25 @@
     youtube: x35aPzAi55M
 
 - name: FreeSpace 2 Source Code Project
+  type: remake
+  originals:
+  - FreeSpace 2
+  repo: https://github.com/scp-fs2open/fs2open.github.com
+  url: http://scp.indiegames.us/
+  development: active
+  status: playable
+  lang: C++
+  license:
+  - As-is
+  content: commercial
+  info: Modding community at <a href="https://www.hard-light.net/">Hard-Light Productions</a>
+  updated: 2019-06-06
   images:
   - https://wiki.hard-light.net/images/d/dd/RScreen0185.jpg
   - https://wiki.hard-light.net/images/4/4a/RScreen0180.jpg
   - https://wiki.hard-light.net/images/e/e5/RScreen0176.jpg
-  lang: C++
-  license:
-  - As-is
-  development: active
-  originals:
-  - FreeSpace 2
-  repo: https://github.com/scp-fs2open/fs2open.github.com
-  type: remake
-  url: http://scp.indiegames.us/
+  video:
+    youtube: RM1YC_gK-qo
 
 - name: Freestars
   lang: C++
