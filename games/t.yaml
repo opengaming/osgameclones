@@ -566,6 +566,32 @@
   type: remake
   updated: 2016-05-28
 
+- name: TUSSLE
+  type: clone
+  originals:
+  - Super Smash Bros.
+  repo: https://github.com/digiholic/universalSmashSystem
+  url: https://projecttussle.com/
+  development: halted
+  status: playable
+  multiplayer:
+  -  Competitive
+  lang:
+  - Python
+  framework:
+  - PyGame
+  license:
+  - GPL3
+  content: free
+  info: TUSSLE is just an engine. You need to create your own characters or download them.
+  updated: 2019-06-11
+  images:
+  - https://i.gjcdn.net/data/games/2/53/170803/screenshots/tumblr_inline_oadma9jh9s1roqll8_1280-5fwyxvvj.png
+  - https://i.gjcdn.net/data/games/2/53/170803/screenshots/tumblr_inline_o5p6qwan9x1roqll8_1280-utuih5wt.jpg
+  - https://i.gjcdn.net/data/games/2/53/170803/screenshots/tumblr_inline_o5p6lkgowt1roqll8_1280-wbayd6jt.jpg
+  - https://i.gjcdn.net/data/games/2/53/170803/screenshots/tumblr_inline_o5p6d2ywen1roqll8_1280-cqgczxpx.jpg
+  - https://i.gjcdn.net/data/games/2/53/170803/screenshots/tumblr_inline_o5p5n7d2ri1roqll8_1280-qbyv5dtd.jpg
+
 - name: Tuxemon
   framework: Pygame
   images:
