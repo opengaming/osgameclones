@@ -342,6 +342,25 @@
   type: clone
   url: http://play.freeciv.org/
 
+- name: POSTAL 1 Open Source
+  originals:
+  - Postal
+  type: remake
+  repo: https://bitbucket.org/gopostal/postal-1-open-source
+  development: halted
+  status: playable
+  content: commercial
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - GPL2
+  info: POSTAL 1 source code
+  updated: 2019-06-29
+  images:
+  - https://runningwithscissors.com/wp-content/uploads/2016/09/p1_screen_02-300x225.png
+
 - name: pq2
   framework: ncurses
   lang: C++
