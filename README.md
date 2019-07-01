@@ -55,26 +55,14 @@ in the [`schema/originals.yaml`][schema_originals] validation file.
 ```yaml
 - name:         string     # Name of the original game (required)
   names:        array      # Other names for the game, or other games in the series
+  external:                # One of the following external links is required
+    website:    string     # URL of official website for the game
+    wikipedia:  string     # Title of Wikipedia article for the game
   platform:     enum       # Game platform, i.e. Amiga. See platform in orginals schema
   meta:
     genre:      enum       # Any of genres in originals schema
     subgenre:   enum       # Any of subgenres in originals schema
     theme:      enum       # Any of themes in originals schema
-```
-
-### External links to article about an original game
-
-A Wikipedia link is created for all original game names; if the article link is different,
-use the following syntax:
-
-```yaml
-name: [Name, Name of Wikipedia article]
-```
-
-If the game has a non-Wikipedia link:
-
-```yaml
-name: [Name, 'http://www.example.com']
 ```
 
 ## Contributing
