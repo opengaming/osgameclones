@@ -171,20 +171,20 @@ dd + dt { margin-top: 1em; }
 .tag.playable, .tag.playable:hover { background-color: #8AFF99; }
 .tag.semi-playable, .tag.semi-playable:hover { background-color: #FBB463; }
 .tag.unplayable, .tag.unplayable:hover { background-color: #FF786B; }
-.darkTheme .tag.playable { color: #444; }
-.darkTheme .tag.semi-playable { color: #444; }
-.darkTheme .tag.unplayable { color: #444; }
+.darkTheme .tag.playable { color: #444; background-color: #8AFF99; }
+.darkTheme .tag.semi-playable { color: #444; background-color: #FBB463; }
+.darkTheme .tag.unplayable { color: #444; background-color: #FF786B; }
 
 .tag.very-active, .tag.very-active:hover { background-color: #8AFF99; }
 .tag.active, .tag.active:hover { background-color: #8AFF99; }
 .tag.complete, .tag.complete:hover { background-color: #8AFF99; }
 .tag.sporadic, .tag.sporadic:hover { background-color: #FBB463; }
 .tag.halted, .tag.halted:hover { background-color: #FF786B; }
-.darkTheme .tag.very-active { color: #444; }
-.darkTheme .tag.active { color: #444; }
-.darkTheme .tag.complete { color: #444; }
-.darkTheme .tag.sporadic { color: #444; }
-.darkTheme .tag.halted { color: #444; }
+.darkTheme .tag.very-active { color: #444; background-color: #8AFF99; }
+.darkTheme .tag.active { color: #444; background-color: #8AFF99; }
+.darkTheme .tag.complete { color: #444; background-color: #8AFF99; }
+.darkTheme .tag.sporadic { color: #444; background-color: #FBB463; }
+.darkTheme .tag.halted { color: #444; background-color: #FF786B; }
 
 #filter {
   display: inline-block;
