@@ -45,6 +45,7 @@ schema;platform:
   type: str
   enum: [
     'Amiga',
+    'Amstrad CPC',
     'Apple II',
     'Arcade',
     'Atari',
@@ -54,8 +55,9 @@ schema;platform:
     'Mobile',
     'MS-DOS',
     'N64',
-    'Windows',
     'OSX',
+    'Windows',
+    'ZX Spectrum',
   ]
 
 # -- ADD NEW GENRES TO 'SUBGENRE' SCHEMA --
