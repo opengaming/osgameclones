@@ -1,3 +1,25 @@
+- name: WallBall
+  originals:
+  - JezzBall
+  type: clone
+  repo: https://github.com/plainsightcollection/plainsightcollection.github.io
+  url: http://montrose.is/#wallball
+  development: complete
+  status: playable
+  content: open
+  lang:
+  - Haxe
+  framework:
+  - Starling
+  license:
+  - GPL3
+  info: "Besides being playable on the development website, the game is available as a bookmarklet that lets it masquerade as a pop-up ad on most commercial websites."
+  updated: 2019-07-17
+  images:
+  - https://raw.githubusercontent.com/plainsightcollection/plainsightcollection.github.io/master/web/resources/jpg/20170813_wallball.jpg
+  video:
+    youtube: n9ALgxcTBU0
+
 - name: warcraft-remake
   development: active
   lang: Java
