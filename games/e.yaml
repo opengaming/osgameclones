@@ -234,6 +234,26 @@
   updated: 2015-04-08
   url: http://www.newbreedsoftware.com/entombed/
 
+- name: EnTT Pacman
+  originals:
+  - Pac-Man
+  type: clone
+  repo: https://github.com/Kerndog73/EnTT-Pacman
+  development: sporadic
+  status: playable
+  content: open
+  lang:
+  - C++
+  framework:
+  - SDL2
+  - EnTT
+  license:
+  - MIT
+  info: An example of how to use the ECS part of the EnTT framework
+  updated: 2019-07-11
+  images:
+  - https://i.imgur.com/J5RDcIz.png
+
 - name: erampage (EDuke32 fork)
   lang: C
   license:
