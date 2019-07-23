@@ -359,15 +359,21 @@
   license:
   - MIT
   development: active
+  status: semi-playable
   originals:
   - 'X-COM: UFO Defense'
   - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
   - 'UFO: Enemy Unknown'
-  repo: https://github.com/pmprog/OpenApoc
+  content: commercial
+  framework:
+  - SDL2
+  repo: https://github.com/OpenApoc/OpenApoc
   type: remake
-  updated: 2015-04-04
-  url: http://openapoc.pmprog.co.uk/
+  updated: 2019-07-24
+  url: http://openapoc.org/
+  video:
+    youtube: qMy4dYksZVg
 
 - name: OpenArena
   images:
