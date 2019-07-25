@@ -58,7 +58,7 @@ in the [`schema/originals.yaml`][schema_originals] validation file.
   external:                # One of the following external links is required
     website:    string     # URL of official website for the game
     wikipedia:  string     # Title of Wikipedia article for the game
-  platform:     enum       # Game platform, i.e. Amiga. See platform in orginals schema
+  platform:     array      # Game platforms, i.e. Amiga. See platform in orginals schema
   meta:
     genre:      enum       # Any of genres in originals schema
     subgenre:   enum       # Any of subgenres in originals schema
