@@ -120,7 +120,9 @@
   images:
   - http://daid.github.io/EmptyEpsilon/screenshots/mainscreen.png
   - http://daid.github.io/EmptyEpsilon/screenshots/helms.png
-  lang: C++
+  lang: 
+  - C++
+  - Lua
   license:
   - GPL2
   multiplayer:
@@ -131,9 +133,11 @@
   - 'Artemis: Spaceship Bridge Simulator'
   repo: https://github.com/daid/EmptyEpsilon
   status: playable
-  type: remake
-  updated: 2016-08-27
+  type: clone
+  updated: 2019-08-01
   url: https://daid.github.io/EmptyEpsilon/
+  framework:
+  - SFML
 
 - name: encounter
   framework: WebGL
