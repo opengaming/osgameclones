@@ -390,7 +390,24 @@
   repo: http://openarena.ws/svn
   type: remake
   url: http://openarena.ws/
-  
+
+- name: openblack
+  type: remake
+  originals:
+  - Black & White
+  repo: https://github.com/openblack/openblack
+  development: active
+  status: unplayable
+  lang:
+  - C++
+  framework: 
+  - SDL2
+  - OpenGL
+  license:
+  - GPL3
+  content: commercial
+  updated: 2019-08-06
+
 - name: OpenBlok
   lang: C++
   license:
