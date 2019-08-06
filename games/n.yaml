@@ -4,15 +4,20 @@
   - http://blog.naev.org/wp-content/gallery/media/jumppoint.png
   - http://blog.naev.org/wp-content/gallery/media/slotsizes.png
   - http://blog.naev.org/wp-content/gallery/media/siriusskirmish.png
-  lang: C
+  lang:
+  - C
+  - Lua
+  framework:
+  - SDL2
   license:
   - GPL3
   development: active
   originals:
   - Escape Velocity
-  repo: https://github.com/bobbens/naev
-  type: clone
+  repo: https://github.com/naev/naev
+  type: similar
   url: http://naev.org/
+  updated: 2019-07-30
   
 - name: NBlood
   type: remake
