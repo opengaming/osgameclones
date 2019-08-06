@@ -452,6 +452,23 @@
   type: remake
   updated: 2015-06-22
 
+- name: donut
+  type: remake
+  originals:
+  - 'The Simpsons: Hit & Run'
+  repo: https://github.com/plowteam/donut
+  development: active
+  status: unplayable
+  lang:
+  - C++
+  framework: 
+  - SDL2
+  - OpenGL
+  license:
+  - GPL3
+  content: commercial
+  updated: 2019-08-06
+
 - name: Doom64EX
   images:
   - https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png
