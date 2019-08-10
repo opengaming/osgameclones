@@ -7,3 +7,12 @@
   <iframe src="https://player.vimeo.com/video/{{ vimeo_id }}?title=0&amp;byline=0&amp;portrait=0"
     width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 {%- endmacro %}
+
+{%- macro render_moddb(moddb_id) -%}
+<iframe width="560" height="315" src="https://www.moddb.com/media/iframe/{{ moddb_id }}" frameborder="0" allowfullscreen></iframe>
+{%- endmacro %}
+
+{%- macro render_indiedb(indiedb_id) -%}
+  <iframe width="560" height="315" src="https://www.indiedb.com/media/iframe/{{ indiedb_id }}" frameborder="0" allowfullscreen></iframe>
+  {%- endmacro %}
+  

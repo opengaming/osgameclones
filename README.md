@@ -41,6 +41,8 @@ images:         array      # Link(s) to screenshot(s)
 video:
   youtube:      string     # YouTube video ID
   vimeo:        number     # Vimeo video ID
+  moddb:        number     # ModDB video ID
+  indiedb:      number     # IndieDB video ID
 
 # * free means no cost, open means liberally licensed
 ```

@@ -119,6 +119,8 @@
       {% if 'video' in game %}
         {% if 'youtube' in game['video'] %}{{ video.render_youtube(game['video']['youtube']) }}{% endif %}
         {% if 'vimeo' in game['video'] %}{{ video.render_vimeo(game['video']['vimeo']) }}{% endif %}
+        {% if 'moddb' in game['video'] %}{{ video.render_moddb(game['video']['moddb']) }}{% endif %}
+        {% if 'indiedb' in game['video'] %}{{ video.render_indiedb(game['video']['indiedb']) }}{% endif %}
       {%- endif %}
     </script>
   </dd>
