@@ -246,14 +246,14 @@
   - http://opensnc.sourceforge.net/home/screenshots/0_1_3/9.png
   lang: C
   license:
-  - GPL2
+  - GPL3
   development: sporadic
   originals:
   - Sonic the Hedgehog
-  repo: https://sourceforge.net/projects/opensnc/
+  repo: https://github.com/alemart/opensurge
   type: clone
-  updated: 2012-04-05
-  url: http://opensnc.sourceforge.net/home/
+  updated: 2019-08-27
+  url: http://opensurge2d.org/
 
 - name: Open Syobon Action
   lang: C++
@@ -387,8 +387,9 @@
   development: sporadic
   originals:
   - Quake 3
-  repo: http://openarena.ws/svn
+  repo: https://github.com/OpenArena/engine
   type: remake
+  updated: 2019-08-27
   url: http://openarena.ws/
 
 - name: openblack
@@ -474,10 +475,10 @@
   development: active
   originals:
   - Clonk
-  repo: http://git.openclonk.org/openclonk.git/
+  repo: https://github.com/openclonk/openclonk
   type: remake
-  updated: 2012-04-07
-  url: http://www.openclonk.org/
+  updated: 2019-08-27
+  url: https://www.openclonk.org/
   video:
     youtube: zydiZSXpn0w
 
@@ -851,12 +852,13 @@
   - http://www.openlierox.net/official/screenshots/olx6.png
   lang: C++
   license:
-  - GPL2
-  development: active
+  - LGPL2
+  development: sporadic
   originals:
   - Liero
   repo: https://github.com/albertz/openlierox
   type: remake
+  updated: 2019-08-27
   url: http://www.openlierox.net/
 
 - name: OpenLoco
