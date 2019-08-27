@@ -66,23 +66,6 @@
   updated: 2015-04-13
   url: https://code.google.com/p/geomwarsremake/
 
-- name: ges-code
-  images:
-  - http://media.moddb.com/images/mods/1/5/4506/Archives2.jpg
-  - http://media.moddb.com/images/mods/1/5/4506/Archives3.jpg
-  - http://media.moddb.com/images/mods/1/5/4506/Archives4.jpg
-  - http://media.moddb.com/images/mods/1/5/4506/ro3.jpg
-  lang: C++
-  license:
-  - GPL3
-  development: active
-  originals:
-  - GoldenEye 007
-  repo: https://github.com/goldeneye-source/ges-code
-  type: remake
-  updated: 2015-04-15
-  url: http://www.moddb.com/mods/goldeneye-source
-
 - name: Gift Grabber
   framework: BackBone.js
   lang: JavaScript
@@ -207,6 +190,35 @@
   type: remake
   updated: 2015-04-04
   url: http://jotd.pagesperso-orange.fr/gods/index.html
+
+- name: 'GoldenEye: Source'
+  originals:
+  - GoldenEye 007
+  type: remake
+  repo: https://github.com/goldeneye-source/ges-code
+  url: https://www.moddb.com/mods/goldeneye-source
+  feed: https://rss.moddb.com/mods/goldeneye-source/videos/feed/rss.xml
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  content: free
+  lang:
+  - C++
+  framework:
+  - Source SDK
+  license:
+  - GPL3
+  info: 'GoldenEye: Source is a multiplayer only total conversion modification of Half-Life 2.'
+  updated: 2019-08-27
+  images:
+  - http://media.moddb.com/images/mods/1/5/4506/Archives2.jpg
+  - http://media.moddb.com/images/mods/1/5/4506/Archives3.jpg
+  - http://media.moddb.com/images/mods/1/5/4506/Archives4.jpg
+  - http://media.moddb.com/images/mods/1/5/4506/ro3.jpg
+  video:
+    moddb: 1701377
 
 - name: Google Pacman
   framework: Flash
