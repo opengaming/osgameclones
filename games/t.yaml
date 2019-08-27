@@ -209,6 +209,26 @@
   type: remake
   updated: 2016-08-19
 
+- name: Tetris (in C and NCURSES)
+  originals:
+  - Tetris
+  type: remake
+  repo: https://github.com/brenns10/tetris
+  url: https://brennan.io/2015/06/12/tetris-reimplementation/
+  development: halted
+  status: playable
+  content: open
+  lang:
+  - C
+  framework:
+  - ncurses
+  - SDL
+  license:
+  - BSD
+  updated: 2019-08-28
+  images:
+  - https://raw.githubusercontent.com/brenns10/tetris/master/tetris.gif
+
 - name: The-Great-Escape-in-C
   info: reverse engineered from binary
   lang: C++
