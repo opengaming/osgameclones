@@ -185,6 +185,29 @@
   video:
     youtube: IoF-kqXF2JQ
 
+- name: vitetris
+  originals:
+  - Tetris
+  type: remake
+  repo: https://github.com/vicgeralds/vitetris
+  url: http://victornils.net/tetris/
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  content: open
+  lang:
+  - C
+  license:
+  - BSD2
+  info: Virtual terminal *tris clone
+  updated: 2019-08-29
+  images:
+  - http://victornils.net/tetris/img/vitetris050-brackets.png
+  - http://victornils.net/tetris/img/vitetris031-tt-rxvt.png
+  - http://victornils.net/tetris/img/vitetris031-tt-color-konsole.png
+
 - name: vkQuake
   framework: Vulkan
   lang: C
