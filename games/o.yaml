@@ -228,15 +228,20 @@
   - https://a.fsdn.com/con/app/proj/o2r/screenshots/254640.jpg
   - https://a.fsdn.com/con/app/proj/o2r/screenshots/267538.jpg
   - https://a.fsdn.com/con/app/proj/o2r/screenshots/255628.jpg
-  lang: C++
+  lang: 
+  - C++
+  framework:
+  - Qt
+  - SFML
   license:
-  - GPL3
+  - MIT
+  status: semi-playable
   development: halted
   originals:
   - Rodent's Revenge
-  repo: svn://svn.code.sf.net/p/o2r/code/trunk
+  repo: https://github.com/pierreyoda/o2r
   type: remake
-  updated: 2015-05-03
+  updated: 2019-09-01
 
 - name: Open Surge
   images:
