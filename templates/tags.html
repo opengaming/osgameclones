@@ -4,6 +4,7 @@
       {% set tag_names = [tag_names] %}
     {%- endif -%}
 
+    <span class="tag-group"> {{ tag_class }}: 
     {%- for tag_name in tag_names %}
       {%- set className = ["tag", tag_class.lower(), tag_name.lower().replace(' ', '-')] -%}
       {%- set dataName = tag_name.lower().replace(' ', '-') -%}
@@ -12,5 +13,6 @@
         {%- if tag_props -%}<span class="tag-badge">{{ tag_props }}</span>{%- endif -%}
       </span>
     {% endfor -%}
+    </span>
   {%- endif -%}
 {% endmacro %}
