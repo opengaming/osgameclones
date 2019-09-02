@@ -135,6 +135,19 @@ dd + dt { margin-top: 1em; }
 .tags-active dt, .tags-active dd {display: none}
 .tags-active dt.active, .tags-active dd.active {display: block}
 
+.tag-group {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0 6px;
+  margin: 0 2px;
+  color: #444;
+  background-color: #a9a9a9;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 .tag {
   display: inline-block;
   font-size: 12px;
