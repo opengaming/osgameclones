@@ -10,9 +10,9 @@
     {% if not idx %}<a href="#{{ show_id(name, mode) }}" class="hash">#</a>{% endif %}
 
     {% if not idx %}
-      {{ tags.render_tag('genre', meta['genre']) }}
-      {{ tags.render_tag('subgenre', meta['subgenre']) }}
-      {{ tags.render_tag('theme', meta['theme']) }}
+      {{ tags.render_tag_groups('genre', meta['genre']) }}
+      {{ tags.render_tag_groups('subgenre', meta['subgenre']) }}
+      {{ tags.render_tag_groups('theme', meta['theme']) }}
     {% endif %}
   </dt>
 {% endmacro %}
@@ -88,18 +88,18 @@
 
     {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a> {%- if 'repoiconname' in game %}<span class="repoicon {{ game['repoiconstyle'] }} fa-{{ game['repoiconname'] }}" title="{{ game['repotitle'] }}"></span>{%- endif %}){%- endif %}
 
-    {{ tags.render_tag('type', game['type'] | title) }}
-    {{ tags.render_tag('status', game['status'] | title) }}
-    {{ tags.render_tag('development', game['development'] | title) }}
-    {{ tags.render_tag('lang', game['lang']) }}
-    {{ tags.render_tag('framework', game['framework']) }}
+    {{ tags.render_tag_groups('type', game['type'] | title) }}
+    {{ tags.render_tag_groups('status', game['status'] | title) }}
+    {{ tags.render_tag_groups('development', game['development'] | title) }}
+    {{ tags.render_tag_groups('lang', game['lang']) }}
+    {{ tags.render_tag_groups('framework', game['framework']) }}
 
 
-    {{ tags.render_tag('content', game['content'] | title) }}
-    {{ tags.render_tag('license', game['license']) }}
+    {{ tags.render_tag_groups('content', game['content'] | title) }}
+    {{ tags.render_tag_groups('license', game['license']) }}
     
     {%- if 'multiplayer' in game %}
-      {{ tags.render_tag('multiplayer', game['multiplayer']) }}
+      {{ tags.render_tag_groups('multiplayer', game['multiplayer']) }}
     {%- endif %}
 
     {%- if 'info' in game %}<div>{{ game['info'] }}</div>{% endif %}
