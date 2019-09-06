@@ -1,7 +1,7 @@
 - name: SanAndreasUnity
   type: remake
   originals:
-  - "Grand Theft Auto: San Andreas"
+  - 'Grand Theft Auto: San Andreas'
   repo: https://github.com/GTA-ASM/SanAndreasUnity
   development: active
   lang: C#
@@ -33,18 +33,6 @@
   type: remake
   updated: 2019-01-21
 
-- name: Scorched3D
-  lang: C++
-  license:
-  - GPL2
-  development: active
-  originals:
-  - Scorched Earth
-  repo: git://git.code.sf.net/p/scorched3d/git
-  type: clone
-  updated: 2015-04-06
-  url: http://www.scorched3d.co.uk/
-
 - name: Scorched Moon
   lang: Python
   license:
@@ -56,6 +44,18 @@
   type: remake
   updated: 2015-06-24
   url: http://scorched-moon.github.io/site/
+
+- name: Scorched3D
+  lang: C++
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Scorched Earth
+  repo: git://git.code.sf.net/p/scorched3d/git
+  type: clone
+  updated: 2015-04-06
+  url: http://www.scorched3d.co.uk/
 
 - name: ScummVM
   images:
@@ -140,7 +140,7 @@
   type: remake
   updated: 2015-05-30
   url: http://www.popot.org/get_the_games.php?game=SDLPoP
-  
+
 - name: Sea-Wolf
   type: remake
   originals:
@@ -483,8 +483,7 @@
   development: complete
   framework:
   - SDL2
-  info: reverse-engineered from original binary, aims for 100% logic compatibility
-    with original game
+  info: reverse-engineered from original binary, aims for 100% logic compatibility with original game
   lang:
   - C++
   license:
@@ -565,7 +564,7 @@
   type: remake
   updated: 2015-04-13
   url: http://www.wingkong.net/sopwith2b/sopwith3.html
-  
+
 - name: Sourcehold
   type: remake
   originals:
@@ -583,8 +582,8 @@
   updated: 2019-06-07
   images:
   - https://camo.githubusercontent.com/f5171c837baca0c86dab2b7f55c68269850f42c1/68747470733a2f2f692e696d6775722e636f6d2f726b6b336b41742e706e67
-  
-  
+
+
 - name: Space Harrier Clone
   type: clone
   originals:
@@ -703,7 +702,7 @@
   repo: https://github.com/radu124/splexhd
   type: remake
   updated: 2015-05-28
-  
+
 - name: Spludlow Tetris
   type: clone
   originals:
@@ -712,7 +711,7 @@
   url: http://tetris.spludlow.co.uk/
   development: halted
   status: playable
-  multiplayer: 
+  multiplayer:
   - Online
   - LAN
   - Split-screen
@@ -764,7 +763,7 @@
   - Company of Heroes
   - 'Company of Heroes: Opposing Fronts'
   - 'Company of Heroes: Tales of Valor'
-  - 'Company of Heroes 2'
+  - Company of Heroes 2
   repo: https://github.com/spring1944/spring1944
   status: playable
   type: clone
@@ -783,6 +782,15 @@
   repo: https://github.com/ss13remake/ss13remake
   type: remake
   updated: 2015-06-24
+
+- name: Star Ruler 2
+  development: complete
+  lang: C++
+  license: [MIT, CC-BY-NC]
+  originals: [Star Ruler 2]
+  repo: https://github.com/BlindMindStudios/StarRuler2-Source
+  type: remake
+  updated: 2018-07-21
 
 - name: star-control2
   lang: C++
@@ -832,15 +840,6 @@
   updated: 2014-09-05
   url: https://gna.org/projects/starlane/
 
-- name: Star Ruler 2
-  development: complete
-  lang: C++
-  license: [MIT, CC-BY-NC]
-  originals: [Star Ruler 2]
-  repo: https://github.com/BlindMindStudios/StarRuler2-Source
-  type: remake
-  updated: 2018-07-21
-
 - name: starshatter-open
   lang: C++
   license:
@@ -874,20 +873,6 @@
   updated: 2019-08-17
   url: http://www.stepmania.com/
 
-- name: Stunt Car Racer Remake
-  images:
-  - https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
-  lang: C++
-  license:
-  - BSD
-  development: halted
-  originals:
-  - Stunt Car Racer
-  repo: https://sourceforge.net/projects/stuntcarremake/
-  type: remake
-  updated: 2018-10-06
-  url: http://stuntcarracerwin32.bravesites.com
-
 - name: 'Strife: Veteran Edition'
   url: https://doomwiki.org/wiki/Strife:_Veteran_Edition
   originals:
@@ -905,11 +890,25 @@
   multiplayer:
   - Online
   images:
-    - https://images.gog.com/a5203a80b8b5e34471285e4db42fdd418ae47cf9cc6e63838b8f06042382e5c0.jpg
-    - https://images.gog.com/88a97432fb109c0d9d22d0c3edcac691ec130643b407cd07f858973ce19178d1.jpg
-    - https://images.gog.com/975af96b61bf3d8fc3814d1afc93da844e153440a743522280c6ec72d3ea5769.jpg
+  - https://images.gog.com/a5203a80b8b5e34471285e4db42fdd418ae47cf9cc6e63838b8f06042382e5c0.jpg
+  - https://images.gog.com/88a97432fb109c0d9d22d0c3edcac691ec130643b407cd07f858973ce19178d1.jpg
+  - https://images.gog.com/975af96b61bf3d8fc3814d1afc93da844e153440a743522280c6ec72d3ea5769.jpg
   video:
     youtube: L7OUlGj4BWk
+
+- name: Stunt Car Racer Remake
+  images:
+  - https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
+  lang: C++
+  license:
+  - BSD
+  development: halted
+  originals:
+  - Stunt Car Racer
+  repo: https://sourceforge.net/projects/stuntcarremake/
+  type: remake
+  updated: 2018-10-06
+  url: http://stuntcarracerwin32.bravesites.com
 
 - name: Stunt Rally
   framework:
@@ -1178,7 +1177,7 @@
   url: https://supertuxkart.net/
   video:
     youtube: ev8Zltau4zw
-    
+
 - name: SuperTuxParty
   type: clone
   originals:
@@ -1227,7 +1226,7 @@
   url: http://www.proasm.com/sw/swp.html
   video:
     youtube: JePqKJd4hhw
-    
+
 - name: SwtPacMan
   type: clone
   originals:

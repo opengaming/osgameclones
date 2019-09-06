@@ -1,91 +1,3 @@
-- name: The Battle for Wesnoth
-  images:
-  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg
-  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-11.jpg
-  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.4-3.jpg
-  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-5.jpg
-  lang:
-  - C++
-  - C
-  - Java
-  - Python
-  - Lua
-  license:
-  - GPL2
-  development: active
-  originals:
-  - Master of Monsters
-  - Warsong
-  repo: https://github.com/wesnoth/wesnoth
-  type: clone
-  updated: 2019-08-27
-  url: https://www.wesnoth.org/
-  video:
-    youtube: w3P39lppcH4
-
-- name: The Bub's Brothers
-  images:
-  - http://bub-n-bros.sourceforge.net/images/extend.png
-  - http://bub-n-bros.sourceforge.net/images/crashed-down.png
-  - http://bub-n-bros.sourceforge.net/images/alone-in-the-world.png
-  - http://bub-n-bros.sourceforge.net/images/pacman.png
-  lang: Python
-  license:
-  - MIT
-  development: halted
-  originals:
-  - Bubble Bobble
-  repo: http://bub-n-bros.cvs.sourceforge.net/viewvc/bub-n-bros/
-  type: remake
-  updated: 2015-04-10
-  url: http://bub-n-bros.sourceforge.net/
-
-- name: The Butterfly Effect
-  framework:
-  - Qt
-  - Box2D
-  images:
-  - http://the-butterfly-effect.org/images/lvl-angry-birds2.png
-  - http://the-butterfly-effect.org/images/lvl-draft-find-the-message.png
-  - http://the-butterfly-effect.org/images/lvl-draft-save-the-butterfly.png
-  lang:
-  - C++
-  license:
-  - GPL2
-  development: active
-  originals:
-  - Crazy Machines
-  - 'Crazy Machines: The Wacky Contraptions Game'
-  - Crazy Machines 2
-  - The Incredible Machine
-  - The Incredible Machine 2
-  - The Incredible Machine 3
-  - 'Return of the Incredible Machine: Contraptions'
-  - 'The Incredible Machine: Even More Contraptions'
-  - Incredible Toons
-  repo: https://github.com/the-butterfly-effect/tbe
-  status: playable
-  type: clone
-  updated: 2016-12-02
-  url: http://the-butterfly-effect.org
-  video:
-    youtube: yLysg1pyLK0
-
-- name: The Rush
-  images:
-  - https://a.fsdn.com/con/app/proj/therush/screenshots/193556.jpg
-  - https://a.fsdn.com/con/app/proj/therush/screenshots/193554.jpg
-  lang: C++
-  license:
-  - GPL2
-  development: halted
-  originals:
-  - Wipeout
-  repo: svn://svn.code.sf.net/p/therush/code/
-  type: clone
-  updated: 2015-04-26
-  url: http://sourceforge.net/projects/therush/
-
 - name: Taisei Project
   development: active
   feed: https://taisei-project.org/news.atom
@@ -106,7 +18,7 @@
   video:
     youtube: P22aVi0z6b8
 
-- name: "Tank: Zone of Death"
+- name: 'Tank: Zone of Death'
   lang:
   - C++
   - Lua
@@ -142,6 +54,30 @@
   video:
     youtube: Y7w5VhvG8hA
 
+- name: Tapir
+  images:
+  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/vxace-title.png
+  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/vx-title.png
+  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/xp-title.png
+  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/talk1.png
+  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/enter-battle1.png
+  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/battle1.png
+  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/talk2.png
+  info: RGSS compatible runtime (RPG Maker XP, VX, and VX Ace)
+  lang:
+  - C
+  - Ruby
+  license:
+  - Apache
+  - MIT
+  development: sporadic
+  status: playable
+  originals:
+  - RPG Maker
+  repo: https://github.com/qnighy/tapir
+  type: remake
+  updated: 2019-08-22
+  url: https://qnighy.github.io/tapir/
 - name: Terasology
   lang: Java
   license:
@@ -279,7 +215,7 @@
   type: clone
   updated: 2015-08-15
   url: http://matthewsziklay.github.io/THREEPunchOut/
-  
+
 - name: Thrive
   type: similar
   originals:
@@ -375,7 +311,7 @@
   repo: https://github.com/haqu/tiny-wings
   type: remake
   updated: 2015-05-02
-  
+
 - name: TOMB5
   type: remake
   originals:
@@ -567,7 +503,7 @@
   - https://www.ttdpatch.net/newgrf.png
   - https://www.ttdpatch.net/bigstation.jpg
   - https://www.ttdpatch.net/longtrn.jpg
-  
+
 - name: Tumbly Towers
   type: remake
   originals:
@@ -616,7 +552,7 @@
   development: halted
   status: playable
   multiplayer:
-  -  Competitive
+  - Competitive
   lang:
   - Python
   framework:
@@ -724,27 +660,3 @@
   updated: 2015-04-03
   url: http://disenchant.net/tyrquake/
 
-- name: Tapir
-  images:
-  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/vxace-title.png
-  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/vx-title.png
-  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/xp-title.png
-  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/talk1.png
-  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/enter-battle1.png
-  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/battle1.png
-  - https://raw.githubusercontent.com/qnighy/tapir/master/imgs/talk2.png
-  info: RGSS compatible runtime (RPG Maker XP, VX, and VX Ace)
-  lang: 
-  - C
-  - Ruby
-  license:
-  - Apache
-  - MIT
-  development: sporadic
-  status: playable
-  originals:
-  - RPG Maker
-  repo: https://github.com/qnighy/tapir
-  type: remake
-  updated: 2019-08-22
-  url: https://qnighy.github.io/tapir/

@@ -160,7 +160,7 @@
   type: remake
   updated: 2014-09-05
   url: http://sourceforge.net/projects/opengate/
-  
+
 - name: Open Kick-Off
   type: remake
   originals:
@@ -221,6 +221,20 @@
   video:
     youtube: tqqeUCzWcdQ
 
+- name: Open Rails
+  images:
+  - http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
+  lang: C#
+  license:
+  - GPL3
+  development: active
+  originals:
+  - Microsoft Train Simulator
+  repo: http://openrails.org/contribute/developing-code/
+  type: clone
+  updated: 2019-08-17
+  url: http://openrails.org/
+
 - name: Open Rodent's Revenge
   images:
   - https://a.fsdn.com/con/app/proj/o2r/screenshots/254642.jpg
@@ -228,7 +242,7 @@
   - https://a.fsdn.com/con/app/proj/o2r/screenshots/254640.jpg
   - https://a.fsdn.com/con/app/proj/o2r/screenshots/267538.jpg
   - https://a.fsdn.com/con/app/proj/o2r/screenshots/255628.jpg
-  lang: 
+  lang:
   - C++
   framework:
   - Qt
@@ -242,6 +256,29 @@
   repo: https://github.com/pierreyoda/o2r
   type: remake
   updated: 2019-09-01
+
+- name: Open RSC
+  type: remake
+  originals:
+  - Runescape Classic
+  repo: https://gitlab.openrsc.com/open-rsc
+  url: https://openrsc.com/
+  development: active
+  status: playable
+  multiplayer:
+  - Online
+  lang:
+  - Java
+  license:
+  - GPL3
+  info: Recreation of the discontinued classic variation of the game.
+  updated: 2019-04-29
+  images:
+  - https://i.imgur.com/TqshOR4.jpg
+  - https://i.imgur.com/yOdxioS.jpg
+  - https://i.redd.it/9l3b4v9cbnu21.gif
+  video:
+    youtube: idePY0rGvvE
 
 - name: Open Surge
   images:
@@ -289,8 +326,7 @@
     youtube: secXtfqKo1c
 
 - name: open-cube
-  info: A modification of tesseract so basically Cube 2 with better graphics and developed
-    on github in a modern vcs.
+  info: A modification of tesseract so basically Cube 2 with better graphics and developed on github in a modern vcs.
   lang:
   - C++
   license:
@@ -334,7 +370,7 @@
 
 - name: openage
   development: active
-  framework: 
+  framework:
   - SDL
   - OpenGL
   images:
@@ -356,7 +392,8 @@
   status: semi-playable
   type: remake
   updated: 2019-05-28
-  info: 'We create a modern RTS engine for AoE-style gameplay. Including modding API, curve-based gamestate, a new renderer and support for all operating systems.'
+  info: We create a modern RTS engine for AoE-style gameplay. Including modding API, curve-based gamestate, a new renderer
+    and support for all operating systems.
   url: http://openage.sft.mx/
 
 - name: OpenApoc
@@ -406,7 +443,7 @@
   status: unplayable
   lang:
   - C++
-  framework: 
+  framework:
   - SDL2
   - OpenGL
   license:
@@ -556,7 +593,7 @@
   status: unplayable
   type: remake
   updated: 2015-07-17
-  
+
 - name: OpenDiablo2
   type: remake
   originals:
@@ -574,7 +611,7 @@
   content: commercial
   info: The project not have a website, just a placeholder for later.
   updated: 2019-05-07
-  
+
 - name: OpenDominion
   type: clone
   originals:
@@ -700,23 +737,6 @@
   updated: 2017-05-01
   url: https://sourceforge.net/projects/openggs/
 
-- name: OpenHoW
-  type: remake
-  originals:
-  - Hogs of War
-  repo: https://github.com/TalonBraveInfo/OpenHoW
-  development: active
-  status: unplayable
-  lang:
-  - C
-  - C++
-  framework:
-  - SDL2
-  license:
-  - GPL3
-  content: commercial
-  updated: 2019-05-14
-
 - name: opengl_test_drive_clone
   images:
   - http://antongerdelan.net/blog/images/tdrive_speedo.png
@@ -772,6 +792,23 @@
   type: remake
   updated: 2015-01-02
   url: http://ogta.fifengine.de/
+
+- name: OpenHoW
+  type: remake
+  originals:
+  - Hogs of War
+  repo: https://github.com/TalonBraveInfo/OpenHoW
+  development: active
+  status: unplayable
+  lang:
+  - C
+  - C++
+  framework:
+  - SDL2
+  license:
+  - GPL3
+  content: commercial
+  updated: 2019-05-14
 
 - name: OpenJazz
   development: sporadic
@@ -843,7 +880,7 @@
   type: remake
   url: http://www.liero.be/
   updated: 2019-04-09
-  info: 'Perfect clone of 1.33; a.k.a. Liero 1.36. License information at http://www.liero.be/licenses/135/license.txt'
+  info: Perfect clone of 1.33; a.k.a. Liero 1.36. License information at http://www.liero.be/licenses/135/license.txt
   images:
   - https://happypenguin.altervista.org/screenshots/openliero.png
   video:
@@ -877,7 +914,8 @@
   license:
   - MIT
   content: commercial
-  info: The original game use the modified version of RollerCoaster Tycoon 2's engine. OpenLoco using modified version of OpenRCT2's engine.
+  info: The original game use the modified version of RollerCoaster Tycoon 2's engine. OpenLoco using modified version of
+    OpenRCT2's engine.
   updated: 2019-03-19
 
 - name: OpenMC2
@@ -992,7 +1030,7 @@
   url: http://openmw.org/
   video:
     youtube: avPbctre9Qw
-    
+
 - name: OpenNFS
   type: remake
   originals:
@@ -1009,7 +1047,8 @@
   license:
   - MIT
   content: commercial
-  info: The OpenNFS project wants to create one engine to play the NFS series (NFS1 - NFS6). The NFS3 implementation is almost done, the others semi-playable or not implemented yet.
+  info: The OpenNFS project wants to create one engine to play the NFS series (NFS1 - NFS6). The NFS3 implementation is almost
+    done, the others semi-playable or not implemented yet.
   updated: 2019-05-10
   images:
   - https://raw.githubusercontent.com/AmrikSadhra/OpenNFS/master/doc/BuildProgress.png
@@ -1138,20 +1177,6 @@
   updated: 2014-04-28
   url: https://github.com/xythobuz/OpenRaider
 
-- name: Open Rails
-  images:
-  - http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
-  lang: C#
-  license:
-  - GPL3
-  development: active
-  originals:
-  - Microsoft Train Simulator
-  repo: http://openrails.org/contribute/developing-code/
-  type: clone
-  updated: 2019-08-17
-  url: http://openrails.org/
-
 - name: OpenRCT2
   images:
   - http://i.imgur.com/fpoZdze.png
@@ -1213,7 +1238,7 @@
   type: clone
   updated: 2018-02-22
   url: http://timjones.io/blog/tags/opensage/
-  
+
 - name: OpenSC2K
   development: active
   lang: JavaScript
@@ -1506,7 +1531,7 @@
 - name: Ordoor
   type: remake
   originals:
-  - "Warhammer 40,000: Chaos Gate"
+  - 'Warhammer 40,000: Chaos Gate'
   repo: https://gitlab.com/lupine-remakes/ordoor.git
   url: https://gitlab.com/lupine-remakes/ordoor
   feed: https://gitlab.com/lupine-remakes/ordoor/commits/master?format=atom

@@ -1,15 +1,3 @@
-- name: c64-nuclearreaction
-  lang:
-  - C
-  - Assembly
-  license:
-  - GPL3
-  originals:
-  - Nuclear Reaction
-  repo: https://github.com/maikmerten/c64-nuclearreaction
-  type: remake
-  updated: 2017-12-12
-
 - name: C-Dogs SDL
   feed: http://cxong.github.io/cdogs-sdl/feed.xml
   framework: SDL2
@@ -52,6 +40,18 @@
   type: clone
   updated: 2019-08-17
   url: http://www.c-evo.org/
+
+- name: c64-nuclearreaction
+  lang:
+  - C
+  - Assembly
+  license:
+  - GPL3
+  originals:
+  - Nuclear Reaction
+  repo: https://github.com/maikmerten/c64-nuclearreaction
+  type: remake
+  updated: 2017-12-12
 
 - name: Cadaver
   development: halted
@@ -173,7 +173,7 @@
   status: playable
   type: remake
   updated: 2014-07-23
-  
+
 - name: Cave Story Engine 2
   type: remake
   originals:
@@ -311,7 +311,7 @@
   repo: https://github.com/chocolate-doom/chocolate-doom
   type: remake
   url: https://www.chocolate-doom.org/
-  
+
 - name: Chocolate Duke3D
   type: remake
   originals:
@@ -403,15 +403,15 @@
 
 - name: Clonepoint
   type: clone
-  originals: 
+  originals:
   - Gunpoint
   repo: https://github.com/rohit-n/Clonepoint
   url: https://rohit.itch.io/clonepoint
   development: sporadic
   status: playable
-  lang: 
+  lang:
   - C++
-  framework: 
+  framework:
   - SDL2
   license:
   - GPL3
@@ -466,7 +466,7 @@
 - name: 'Colobot: Gold Edition'
   type: remake
   originals:
-    - Colobot
+  - Colobot
   repo: https://github.com/colobot/colobot
   url: https://colobot.info/
   development: active
@@ -487,11 +487,11 @@
   - https://colobot.info/wordpress/wp-content/uploads/Prayer-to-the-Fallen.png
   video:
     youtube: z67XZ155b6g
-  
-- name: 'Command & Conquer - HTML5'
+
+- name: Command & Conquer - HTML5
   type: remake
   originals:
-  - 'Command & Conquer'
+  - Command & Conquer
   repo: https://github.com/adityaravishankar/command-and-conquer
   url: http://www.adityaravishankar.com/projects/games/command-and-conquer/
   development: halted
@@ -650,7 +650,7 @@
   type: remake
   updated: 2014-04-16
   url: https://www.nongnu.org/crack-attack/
-  
+
 - name: Craft
   type: clone
   originals:
