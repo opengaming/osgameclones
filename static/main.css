@@ -16,7 +16,7 @@ header, section, footer, aside, nav, article, figure { display: block; }
 
 /* Markup */
 
-body, .container { max-width: 640px; margin: 0 auto; }
+body, .container { min-width: 320px; max-width: 75%; margin: 0 auto; }
 body { line-height: 1.5; margin: 50px auto 0; }
 
 header {
