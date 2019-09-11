@@ -138,6 +138,31 @@
   updated: 2017-02-09
   url: https://battlecity.org/
 
+- name: The Battle for Wesnoth
+  images:
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-11.jpg
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.4-3.jpg
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-5.jpg
+  lang:
+  - C++
+  - C
+  - Java
+  - Python
+  - Lua
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Master of Monsters
+  - Warsong
+  repo: https://github.com/wesnoth/wesnoth
+  type: clone
+  updated: 2019-08-27
+  url: https://www.wesnoth.org/
+  video:
+    youtube: w3P39lppcH4
+
 - name: BattleCity2014
   framework:
   - OGRE
@@ -232,7 +257,7 @@
 - name: Block Shooter
   type: remake
   originals:
-    - BrickShooter
+  - BrickShooter
   repo: https://github.com/towerofglass/block-shooter
   url: https://towerofglass.github.io/block-shooter/
   development: active
@@ -326,7 +351,7 @@
   updated: 2018-12-27
   video:
     youtube: N1pGgX_rFOQ
-    
+
 - name: 'BOOM: Remake'
   images:
   - https://silverweed.github.io/assets/img/boom/boom_screen1.png
@@ -345,7 +370,7 @@
   type: remake
   status: playable
   updated: 2019-06-30
-    
+
 - name: boulder-dash
   lang: Java
   license:
@@ -472,6 +497,23 @@
   updated: 2019-09-02
   url: http://identicalsoftware.com/btbuilder/
 
+- name: The Bub's Brothers
+  images:
+  - http://bub-n-bros.sourceforge.net/images/extend.png
+  - http://bub-n-bros.sourceforge.net/images/crashed-down.png
+  - http://bub-n-bros.sourceforge.net/images/alone-in-the-world.png
+  - http://bub-n-bros.sourceforge.net/images/pacman.png
+  lang: Python
+  license:
+  - MIT
+  development: halted
+  originals:
+  - Bubble Bobble
+  repo: http://bub-n-bros.cvs.sourceforge.net/viewvc/bub-n-bros/
+  type: remake
+  updated: 2015-04-10
+  url: http://bub-n-bros.sourceforge.net/
+
 - name: BurgerSpace
   images:
   - https://perso.b2b2c.ca/~sarrazip/dev/images/burgerspace-1.png
@@ -485,6 +527,37 @@
   type: remake
   updated: 2015-04-16
   url: https://perso.b2b2c.ca/~sarrazip/dev/burgerspace.html
+
+- name: The Butterfly Effect
+  framework:
+  - Qt
+  - Box2D
+  images:
+  - http://the-butterfly-effect.org/images/lvl-angry-birds2.png
+  - http://the-butterfly-effect.org/images/lvl-draft-find-the-message.png
+  - http://the-butterfly-effect.org/images/lvl-draft-save-the-butterfly.png
+  lang:
+  - C++
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Crazy Machines
+  - 'Crazy Machines: The Wacky Contraptions Game'
+  - Crazy Machines 2
+  - The Incredible Machine
+  - The Incredible Machine 2
+  - The Incredible Machine 3
+  - 'Return of the Incredible Machine: Contraptions'
+  - 'The Incredible Machine: Even More Contraptions'
+  - Incredible Toons
+  repo: https://github.com/the-butterfly-effect/tbe
+  status: playable
+  type: clone
+  updated: 2016-12-02
+  url: http://the-butterfly-effect.org
+  video:
+    youtube: yLysg1pyLK0
 
 - name: BZFlag
   images:

@@ -283,10 +283,10 @@
   type: remake
   info: Engine recreation (same bugs as original)
   updated: 2019-03-22
-  
+
 - name: DevilutionX
   type: remake
-  originals: 
+  originals:
   - Diablo
   repo: https://github.com/diasurgical/devilutionX
   development: active
@@ -301,7 +301,7 @@
   images:
   - https://camo.githubusercontent.com/9426dfe5fc03654a8f1d3c024019cd7c5fb468b6/68747470733a2f2f7333332e706f7374696d672e63632f36786e6e68686c6d6e2f6469616275696d6f6e2e706e67
   - https://camo.githubusercontent.com/07675909d85fddca41c71aa2805743b8124223d7/68747470733a2f2f7332322e706f7374696d672e63632f3569356b39317668742f6469616273746f72652e706e67
-  
+
 - name: DGEngine
   images:
   - https://user-images.githubusercontent.com/20025614/30250613-4033a546-9649-11e7-86d7-97a718d0f119.gif
@@ -461,29 +461,13 @@
   status: unplayable
   lang:
   - C++
-  framework: 
+  framework:
   - SDL2
   - OpenGL
   license:
   - GPL3
   content: commercial
   updated: 2019-08-06
-
-- name: Doom64EX
-  images:
-  - https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png
-  - https://doom64ex.files.wordpress.com/2011/08/d64ex_12.png
-  - https://doom64ex.files.wordpress.com/2011/08/d64ex_03.png
-  lang: C
-  license:
-  - GPL2
-  development: active
-  originals:
-  - Doom 64
-  repo: https://github.com/svkaiser/Doom64EX
-  type: remake
-  updated: 2016-05-28
-  url: https://doom64ex.wordpress.com/
 
 - name: Doom Legacy
   images:
@@ -503,7 +487,7 @@
   type: remake
   updated: 2014-08-20
   url: http://doomlegacy.sourceforge.net/
-  
+
 - name: DOOM Retro
   type: remake
   originals:
@@ -541,6 +525,22 @@
   repo: https://github.com/id-Software/DOOM-iOS
   type: remake
   updated: 2015-04-12
+
+- name: Doom64EX
+  images:
+  - https://doom64ex.files.wordpress.com/2011/08/d64ex_01.png
+  - https://doom64ex.files.wordpress.com/2011/08/d64ex_12.png
+  - https://doom64ex.files.wordpress.com/2011/08/d64ex_03.png
+  lang: C
+  license:
+  - GPL2
+  development: active
+  originals:
+  - Doom 64
+  repo: https://github.com/svkaiser/Doom64EX
+  type: remake
+  updated: 2016-05-28
+  url: https://doom64ex.wordpress.com/
 
 - name: Doomsday
   lang: C
@@ -586,6 +586,20 @@
   type: remake
   updated: 2013-11-20
   url: http://creep.sourceforge.net/
+
+- name: Duck Hunt
+  images:
+  - https://pygame.org/shots/2045.png
+  lang: Python
+  license:
+  - As-is
+  development: halted
+  originals:
+  - Duck Hunt
+  repo: https://github.com/aosyborg/duckhunt
+  type: remake
+  updated: 2015-04-05
+  url: https://pygame.org/project-Duck+Hunt+Remake-2045-.html
 
 - name: Duck Hunter
   images:
@@ -636,20 +650,6 @@
   updated: 2015-04-11
   url: https://pygame.org/project-Duck+Rehunt-1862-.html
 
-- name: Duck Hunt
-  images:
-  - https://pygame.org/shots/2045.png
-  lang: Python
-  license:
-  - As-is
-  development: halted
-  originals:
-  - Duck Hunt
-  repo: https://github.com/aosyborg/duckhunt
-  type: remake
-  updated: 2015-04-05
-  url: https://pygame.org/project-Duck+Hunt+Remake-2045-.html
-
 - name: DuckHunt
   lang: JavaScript
   license:
@@ -661,7 +661,7 @@
   type: remake
   updated: 2015-05-28
   url: https://grosbouddha.github.io/duckhunt/
-  
+
 - name: Duke3D
   type: remake
   originals:
@@ -682,7 +682,7 @@
   updated: 2019-05-27
   images:
   - http://icculus.org/duke3d/2003_04_03_150737_shot.jpg
-  
+
 - name: Duke3d_win32
   type: remake
   originals:

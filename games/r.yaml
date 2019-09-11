@@ -112,6 +112,23 @@
   type: remake
   updated: 2015-07-29
 
+- name: Reflection Keen
+  lang: C
+  license:
+  - GPL2
+  development: sporadic
+  originals:
+  - Commander Keen Series
+  - Catacomb 3-D
+  - Catacomb Adventure Series
+  repo: https://github.com/NY00123/refkeen
+  type: remake
+  updated: 2019-03-12
+  info: Ports of Keen Dreams, Catacomb 3-D and the Catacomb Adventure Series
+  status: playable
+  content: commercial
+  video:
+    youtube: EeWk6WFVZ4U
 - name: REGoth
   development: active
   images:
@@ -169,7 +186,8 @@
   url: http://cyxdown.free.fr/reminiscence/
 
 - name: replicant
-  info: This version is no longer being developed, please follow https://github.com/madmoose/scummvm/tree/bladerunner/engines/bladerunner for new development.
+  info: This version is no longer being developed, please follow https://github.com/madmoose/scummvm/tree/bladerunner/engines/bladerunner
+    for new development.
   lang: C++
   license:
   - As-is
@@ -287,7 +305,7 @@
   type: remake
   updated: 2015-04-03
   url: http://sourceforge.net/projects/rickyd/
-  
+
 - name: Rigel Engine
   type: remake
   originals:
@@ -335,7 +353,7 @@
   url: http://rigsofrods.org/
   video:
     youtube: bRbQ4OaljWs
-    
+
 - name: Riiablo
   type: remake
   originals:
@@ -485,28 +503,20 @@
   type: remake
   updated: 2015-05-15
 
-- name: Open RSC
-  type: remake
-  originals:
-  - Runescape Classic
-  repo: https://gitlab.openrsc.com/open-rsc
-  url: https://openrsc.com/
-  development: active
-  status: playable
-  multiplayer:
-  - Online
-  lang:
-  - Java
-  license: 
-  - GPL3
-  info: Recreation of the discontinued classic variation of the game.
-  updated: 2019-04-29
+- name: The Rush
   images:
-  - https://i.imgur.com/TqshOR4.jpg
-  - https://i.imgur.com/yOdxioS.jpg
-  - https://i.redd.it/9l3b4v9cbnu21.gif
-  video:
-    youtube: idePY0rGvvE
+  - https://a.fsdn.com/con/app/proj/therush/screenshots/193556.jpg
+  - https://a.fsdn.com/con/app/proj/therush/screenshots/193554.jpg
+  lang: C++
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Wipeout
+  repo: svn://svn.code.sf.net/p/therush/code/
+  type: clone
+  updated: 2015-04-26
+  url: http://sourceforge.net/projects/therush/
 
 - name: RxWars
   lang: JavaScript
@@ -530,21 +540,4 @@
   type: remake
   updated: 2015-04-13
   url: http://www.ryzomcore.org/
-  
-- name: Reflection Keen
-  lang: C
-  license:
-  - GPL2
-  development: sporadic
-  originals:
-  - Commander Keen Series
-  - Catacomb 3-D
-  - Catacomb Adventure Series
-  repo: https://github.com/NY00123/refkeen
-  type: remake
-  updated: 2019-03-12
-  info: Ports of Keen Dreams, Catacomb 3-D and the Catacomb Adventure Series
-  status: playable
-  content: commercial
-  video:
-    youtube: EeWk6WFVZ4U
+

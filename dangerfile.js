@@ -39,13 +39,14 @@ const checkRepoGoogleCode = game => {
 }
 
 const checkRepoAdded = game => {
-  if (game.repo && game.repo.indexOf('github.com') >= 0) {
-    const author = game.repo.match(/github.com\/(\w+)\//)[1]
-    message(
-      `Share the love and let @${author} know that you're adding their game to osgameclones! ` +
-      `Don't forget to mention this PR.`
-    )
-  }
+  if (!game.repo) return
+  const match = game.repo.match(/github.com\/(\w+)\//)
+  if (!match) return
+  const author = match[1]
+  message(
+    `Share the love and let @${author} know that you're adding their game to osgameclones! ` +
+    `Don't forget to mention this PR.`
+  )
 }
 
 // -----------

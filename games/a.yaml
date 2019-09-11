@@ -1,18 +1,3 @@
-- name: A Mouse's Vengeance
-  lang: Java
-  license:
-  - As-is
-  development: halted
-  originals:
-  - Rodent's Revenge
-  repo: https://github.com/maxxboehme/A_Mouses_Vengeance
-  type: remake
-  updated: 2019-04-16
-  status: playable
-  content: free
-  images:
-  - https://raw.githubusercontent.com/maxxboehme/A_Mouses_Vengeance/master/doc/images/ExampleAMousesVengeance.gif
-
 - name: Abuse
   images:
   - http://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png
@@ -34,27 +19,6 @@
   updated: 2019-04-16
   url: http://abuse.zoy.org/
   content: swappable
-
-- name: achtungkurve.com
-  images:
-  - https://achtungkurve.com/dist/images/screenshot_1.png
-  - https://achtungkurve.com/dist/images/screenshot_2.png
-  - https://achtungkurve.com/dist/images/screenshot_3.png
-  lang:
-  - JavaScript
-  license:
-  - GPL3
-  development: active
-  originals:
-  - Achtung, die Kurve!
-  repo: https://github.com/maechler/kurve
-  status: playable
-  type: clone
-  multiplayer:
-  - Competitive
-  - Local
-  updated: 2019-04-30
-  url: https://achtungkurve.com/
 
 - name: Achtung, die Kurve!
   images:
@@ -78,6 +42,27 @@
   - Local
   updated: 2019-04-29
   url: https://kurve.se/
+
+- name: achtungkurve.com
+  images:
+  - https://achtungkurve.com/dist/images/screenshot_1.png
+  - https://achtungkurve.com/dist/images/screenshot_2.png
+  - https://achtungkurve.com/dist/images/screenshot_3.png
+  lang:
+  - JavaScript
+  license:
+  - GPL3
+  development: active
+  originals:
+  - Achtung, die Kurve!
+  repo: https://github.com/maechler/kurve
+  status: playable
+  type: clone
+  multiplayer:
+  - Competitive
+  - Local
+  updated: 2019-04-30
+  url: https://achtungkurve.com/
 
 - name: AdaDoom3
   lang: Ada
@@ -208,8 +193,8 @@
   - MIT
   development: active
   originals:
-  - 'Oddworld: Abe''s Oddysee'
-  - 'Oddworld: Abe''s Exoddus'
+  - "Oddworld: Abe's Oddysee"
+  - "Oddworld: Abe's Exoddus"
   repo: https://github.com/paulsapps/alive
   type: remake
   updated: 2016-03-08
