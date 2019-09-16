@@ -16,16 +16,16 @@ const isGame = game => /^games\/\w+\.yaml$/.test(game)
 // Game checks
 // -----------
 
-// Check that updated is within one day of today
-const isDateWithinOneDayToday = d => {
+// Check that updated date is within the last 30 days
+const isDateCloseToToday = d => {
   if (!d) {
     return false
   }
   const timeDiff = Math.abs(new Date().getTime() - d.getTime())
-  return Math.ceil(timeDiff / (1000 * 3600 * 24)) <= 1
+  return Math.ceil(timeDiff / (1000 * 3600 * 24 * 30)) <= 1
 }
 const checkGameUpdated = game => {
-  if (!isDateWithinOneDayToday(game.updated)) {
+  if (!isDateCloseToToday(game.updated)) {
     const gameUpdated = game.updated && game.updated.toISOString().slice(0, 10)
     const updated = new Date().toISOString().slice(0, 10)
     warn(`${game.name}'s "updated" value should be ${updated}; got ${gameUpdated} instead`)
