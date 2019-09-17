@@ -1633,6 +1633,25 @@
   type: remake
   updated: 2015-04-15
   url: http://identicalsoftware.com/ostrichriders/
+  
+- name: osu!
+  type: clone
+  originals:
+  - Osu! Tatakae! Ouendan
+  - Taiko no Tatsujin
+  - Beatmania IIDX
+  repo: https://github.com/ppy/osu
+  url: https://osu.ppy.sh/home
+  development: active
+  status: playable
+  lang:
+  - C#
+  framework:
+  - .Net Core
+  license:
+  - MIT
+  content: free
+  updated: 2019-09-17
 
 - name: Outpost HD
   type: remake
