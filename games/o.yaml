@@ -279,6 +279,31 @@
   - https://i.redd.it/9l3b4v9cbnu21.gif
   video:
     youtube: idePY0rGvvE
+    
+- name: Open Sonic
+  type: clone
+  originals:
+  - Sonic the Hedgehog
+  repo: https://sourceforge.net/projects/opensnc/files/Open%20Sonic/0.1.4/opensnc-linux-0.1.4.tar.gz/download
+  url: http://opensnc.sourceforge.net/home/index.php
+  development: halted
+  status: playable
+  lang:
+  - C
+  framework:
+  - Allegro
+  license:
+  - GPL2
+  content: commercial
+  info: The game development stopped at 2010. Open Surge the official continuation with fully free assets.
+  updated: 2019-09-17
+  images:
+  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/0.png
+  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/1.png
+  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/2.png
+  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/4.png
+  video:
+    youtube: 2ke0ct4rVWY
 
 - name: Open Surge
   images:
@@ -461,6 +486,21 @@
   type: clone
   updated: 2018-12-05
   url: https://github.com/mmatyas/openblok
+  
+- name: OpenBVE
+  type: clone
+  originals:
+  - BVE Trainsim
+  repo: https://github.com/leezer3/OpenBVE
+  url: https://openbve-project.net/
+  development: active
+  status: playable
+  lang:
+  - C#
+  license:
+  - PD
+  content: open
+  updated: 2019-09-17
 
 - name: OpenC1
   development: halted
@@ -1460,6 +1500,26 @@
   type: remake
   updated: 2015-04-03
   url: https://bitbucket.org/opentyrian/opentyrian/wiki/Home
+  
+- name: OpenVIII
+  type: remake
+  originals:
+  - Final Fantasy VIII
+  repo: https://github.com/MaKiPL/OpenVIII
+  url: https://makipl.github.io/OpenVIII/
+  development: active
+  status: semi-playable
+  lang:
+  - C#
+  license:
+  - MIT
+  content: commercial
+  updated: 2019-09-17
+  images:
+  - https://i.postimg.cc/2SJRND9j/Screenshot-from-2019-06-11-11-46-24.png
+  - https://i.postimg.cc/5NsWpvwC/Screenshot-from-2019-06-11-11-44-38.png
+  - https://i.postimg.cc/rwzXHmJY/Screenshot-from-2019-06-11-11-44-19.png
+  - https://i.postimg.cc/RVSzcGnm/Screenshot-from-2019-06-11-11-45-14.png
 
 - name: OpenWar
   development: sporadic
@@ -1588,6 +1648,25 @@
   type: remake
   updated: 2015-04-15
   url: http://identicalsoftware.com/ostrichriders/
+  
+- name: osu!
+  type: clone
+  originals:
+  - Osu! Tatakae! Ouendan
+  - Taiko no Tatsujin
+  - Beatmania IIDX
+  repo: https://github.com/ppy/osu
+  url: https://osu.ppy.sh/home
+  development: active
+  status: playable
+  lang:
+  - C#
+  framework:
+  - .NET Core
+  license:
+  - MIT
+  content: free
+  updated: 2019-09-17
 
 - name: Outpost HD
   type: remake
