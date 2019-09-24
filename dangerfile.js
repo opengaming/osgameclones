@@ -12,6 +12,9 @@ let namesRemoved = []
 
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
+let unknownLanguageDetected = false
+const knownLanguages = ['ActionScript', 'Ada', 'AngelScript', 'Assembly', 'Blitz BASIC', 'C', 'C#', 'C++', 'CoffeeScript', 'D', 'Delphi', 'Elm', 'F#', 'GDScript', 'GML', 'Go', 'Haskell', 'Haxe', 'Java', 'JavaScript', 'Kotlin', 'Lisp', 'Lua', 'Object Pascal', 'Objective-C', 'ooc', 'Pascal', 'Perl', 'PHP', 'Python', 'QBasic', 'QuakeC', 'QuickBASIC', 'Ruby', 'Rust', 'Scala', 'Swift', 'TorqueScript', 'TypeScript', 'Visual FoxPro']
+
 // -----------
 // Game checks
 // -----------
@@ -49,6 +52,18 @@ const checkRepoAdded = game => {
   )
 }
 
+const checkLanguageKnown = game => {
+	if (!game.lang) return
+	let languages = game.lang
+	if (!Array.isArray(languages)) languages = [languages]
+	languages = languages.filter(l => !knownLanguages.includes(l))
+	if (languages) {
+		warn(`${game.name}'s contains ${languages} as language, which is not recognized as known language by us. ` +
+		`Please check for spelling errors.`)
+		unknownLanguageDetected = true
+	}
+}
+
 // -----------
 
 const onGameAdded = game => {
@@ -56,11 +71,13 @@ const onGameAdded = game => {
   checkGameUpdated(game)
   checkRepoGoogleCode(game)
   checkRepoAdded(game)
+  checkLanguageKnown(game)
 }
 const onGameChanged = game => {
   namesChanged.push(game.name)
   checkGameUpdated(game)
   checkRepoGoogleCode(game)
+  checkLanguageKnown(game)
 }
 const onGameRemoved = game => {
   namesRemoved.push(game.name)
@@ -89,6 +106,7 @@ const getGameChanges = files => {
         }
       })
     })
+	if (unknownLanguageDetected) message(`Known languages are ${knownLanguages}.`)
     if (namesAdded.length > 0) {
       message(`Game(s) added: ${danger.utils.sentence(namesAdded)} 🎊`)
     }

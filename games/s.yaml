@@ -244,7 +244,6 @@
   - C++
   - C
   - C#
-  - HLSL
   license:
   - GPL3
   content: commercial
@@ -257,7 +256,6 @@
 
 - name: shadow-of-the-beast-html5
   framework:
-  - HTML5
   - PandaJS
   lang: JavaScript
   license:
@@ -386,7 +384,6 @@
   updated: 2016-10-30
 
 - name: Skifree-HTML5-clone
-  framework: HTML5
   license:
   - GPL3
   development: halted
@@ -1030,9 +1027,7 @@
   url: https://eguneys.github.io/jsgames/
   development: sporadic
   status: playable
-  lang:
-  - HTML5
-  - JavaScript
+  lang: JavaScript
   framework:
   - pixi.js
   license:
@@ -1212,8 +1207,6 @@
   - https://gitlab.com/SuperTuxParty/SuperTuxParty/raw/dev/screenshot.png
 
 - name: Survivor
-  framework:
-  - HTML
   images:
   - https://farm8.staticflickr.com/7427/10177812825_1a524cb34d_h.jpg
   lang:
