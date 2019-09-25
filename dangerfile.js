@@ -97,7 +97,7 @@ const checkLanguageKnown = game => {
   let languages = game.lang
   if (!Array.isArray(languages)) languages = [languages]
   const unknownLanguages = languages.filter(l => !knownLanguages.includes(l))
-  if (languages.length) {
+  if (unknownLanguages.length) {
     warn(
       `${game.name}'s contains "${unknownLanguages}" as language, which is not known by us. ` +
       `Please check for spelling errors.`
