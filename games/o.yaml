@@ -190,7 +190,6 @@
   url: http://openmeridian.org
 
 - name: Open Panzer
-  framework: HTML5
   images:
   - http://i.imgur.com/NiJGQ.jpg
   license:
@@ -661,9 +660,7 @@
   status: playable
   multiplayer:
   - Online
-  lang:
-  - HTML
-  - PHP
+  lang: PHP
   framework: Laravel
   license:
   - AGPL3
@@ -1250,9 +1247,7 @@
   url: https://openrct2.com/
 
 - name: OpenRoads
-  framework:
-  - HTML5
-  - WebGL
+  framework: WebGL
   lang:
   - TypeScript
   license:
@@ -1591,7 +1586,6 @@
   url: http://www.zneaker.com/projects.html#orbit
 
 - name: Orbium
-  framework: HTML5
   lang: JavaScript
   license:
   - GPL2
@@ -1622,7 +1616,6 @@
   - https://gitlab.com/lupine-remakes/ordoor/raw/master/doc/formats/img/chapter01_rendered_2018-09-08.png
 
 - name: orona
-  framework: HTML5
   license:
   - GPL2
   development: halted
