@@ -53,7 +53,8 @@ const knownLanguages = [
   'Swift',
   'TorqueScript',
   'TypeScript',
-  'Visual FoxPro']
+  'Visual FoxPro'
+]
 
 // -----------
 // Game checks
@@ -71,13 +72,13 @@ const checkGameUpdated = game => {
   if (!isDateCloseToToday(game.updated)) {
     const gameUpdated = game.updated && game.updated.toISOString().slice(0, 10)
     const updated = new Date().toISOString().slice(0, 10)
-    warn(`${game.name}'s "updated" value should be ${updated}; got ${gameUpdated} instead`)
+    warn(`📅 ${game.name}'s "updated" value should be ${updated}; got ${gameUpdated} instead`)
   }
 }
 
 const checkRepoGoogleCode = game => {
   if (game.repo && (game.repo.indexOf('googlecode') >= 0 || game.repo.indexOf('code.google') >= 0)) {
-    warn(`${game.name}'s repo is Google Code, a dead service. Please check if there is an updated repo elsewhere.`)
+    warn(`⚰️ ${game.name}'s repo is Google Code, a dead service. Please check if there is an updated repo elsewhere.`)
   }
 }
 
@@ -86,10 +87,7 @@ const checkRepoAdded = game => {
   const match = game.repo.match(/github.com\/(\w+)\//)
   if (!match) return
   const author = match[1]
-  message(
-    `Share the love and let @${author} know that you're adding their game to osgameclones! ` +
-    `Don't forget to mention this PR.`
-  )
+  message(`💌 Hey @${author}, we're adding your game to osgameclones!`)
 }
 
 const checkLanguageKnown = game => {
@@ -99,10 +97,16 @@ const checkLanguageKnown = game => {
   const unknownLanguages = languages.filter(l => !knownLanguages.includes(l))
   if (unknownLanguages.length) {
     warn(
-      `${game.name}'s contains "${unknownLanguages}" as language, which is not known by us. ` +
+      `🔢 ${game.name}'s contains "${unknownLanguages}" as language, which is not known by us. ` +
       `Please check for spelling errors.`
     )
     unknownLanguageDetected = true
+  }
+}
+
+const checkHasImagesOrVideos = game => {
+  if (!game.images || !game.video) {
+    warn(`🖼 ${game.name} has no images or videos. Please help improve the entry by finding one!`)
   }
 }
 
@@ -161,30 +165,3 @@ const getGameChanges = files => {
   })
 }
 getGameChanges(danger.git.modified_files.concat(danger.git.created_files, danger.git.deleted_files))
-
-// Information summary of files in the PR
-// For debug purposes only
-if (danger.git.modified_files.length || danger.git.created_files.length || danger.git.deleted_files.length) {
-  let changes = ""
-
-  const getChanges = (title, files) => {
-    const md = files.map(file => {
-      if (isGame(file)) {
-        const games = yaml.safeLoad(fs.readFileSync(file))
-        const gamesList = games.map(game => `\n  - ${game.name}`)
-        return `\n- 🎮 \`${file}\`${gamesList.join()}`
-      }
-      return `\n- \`${file}\``
-    })
-    if (md.length > 0) {
-      return `\n\n${title}:${md}`
-    }
-    return ""
-  }
-
-  changes += getChanges("Changed", danger.git.modified_files)
-  changes += getChanges("Added", danger.git.created_files)
-  changes += getChanges("Deleted", danger.git.deleted_files)
-
-  markdown(`<details><summary>Files in PR...</summary><p>${changes}</p></details>`)
-}
