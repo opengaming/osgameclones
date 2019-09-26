@@ -105,7 +105,6 @@ const checkLanguageKnown = game => {
 }
 
 const checkHasImagesOrVideos = game => {
-  console.log(game)
   if (!game.images && !game.video) {
     warn(`🖼 ${game.name} has no images or videos. Please help improve the entry by finding one!`)
   }
@@ -119,12 +118,14 @@ const onGameAdded = game => {
   checkRepoGoogleCode(game)
   checkRepoAdded(game)
   checkLanguageKnown(game)
+  checkHasImagesOrVideos(game)
 }
 const onGameChanged = game => {
   namesChanged.push(game.name)
   checkGameUpdated(game)
   checkRepoGoogleCode(game)
   checkLanguageKnown(game)
+  checkHasImagesOrVideos(game)
 }
 const onGameRemoved = game => {
   namesRemoved.push(game.name)
