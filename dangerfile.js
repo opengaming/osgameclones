@@ -105,7 +105,8 @@ const checkLanguageKnown = game => {
 }
 
 const checkHasImagesOrVideos = game => {
-  if (!game.images || !game.video) {
+  console.log(game)
+  if (!game.images && !game.video) {
     warn(`🖼 ${game.name} has no images or videos. Please help improve the entry by finding one!`)
   }
 }
