@@ -228,7 +228,7 @@
 
 - name: Pingus
   development: sporadic
-  framework: SDL2, boost (partial)
+  framework: SDL2
   images:
   - http://pingus.seul.org/images/screen_0.7.0-3.jpg
   - http://pingus.seul.org/images/screen_0.7.0-4.jpg
@@ -467,7 +467,7 @@
   updated: 2019-09-14
 
 - name: Project Carrot
-  framework: QT5
+  framework: Qt
   info: Needs original game data
   lang: C++
   license:
@@ -483,7 +483,7 @@
 
 - name: Project Dollhouse
   framework:
-  - Monogame
+  - MonoGame
   lang:
   - C#
   license:
