@@ -56,6 +56,71 @@ const knownLanguages = [
   'Visual FoxPro'
 ]
 
+let unknownFrameworkDetected = false
+const knownFrameworks = [
+  '.NET Core',
+  'Allegro',
+  'BackBone.js',
+  'Box2D',
+  'Bullet3',
+  'Construct',
+  'Construct2',
+  'Cube 2 Engine',
+  'DIV Games Studio',
+  'Duality',
+  'EntityX',
+  'EnTT',
+  'Flash',
+  'GameMaker Studio',
+  'Godot',
+  'GTK+',
+  'Inform',
+  'Irrlicht',
+  'JavaFX',
+  'JMonkeyEngine',
+  'jQuery',
+  'Kylix',
+  'Laravel',
+  'LibGDX',
+  'Love3D',
+  'LÖVE',
+  'melonJS',
+  'Mono',
+  'MonoGame',
+  'ncurses',
+  'NeoAxis Engine',
+  'Netty.io',
+  'nya-engine',
+  'OGRE',
+  'OpenGL',
+  'Panda3D',
+  'PandaJS',
+  'Phaser',
+  'pixi.js',
+  'pygame',
+  'QB64',
+  'Qt',
+  'React',
+  'Redux',
+  'Rx.js',
+  'SDL',
+  'SDL2',
+  'Sea3D',
+  'SFML',
+  'Source SDK',
+  'Spring RTS Engine',
+  'Starling',
+  'SWT',
+  'three.js',
+  'Torque 3D',
+  'Tween.js',
+  'Unity',
+  'VDrift Engine',
+  'Vulkan',
+  'WebGL',
+  'XNA'
+]
+
 // -----------
 // Game checks
 // -----------
@@ -97,7 +162,21 @@ const checkLanguageKnown = game => {
   const unknownLanguages = languages.filter(l => !knownLanguages.includes(l))
   if (unknownLanguages.length) {
     warn(
-      `🔢 ${game.name}'s contains "${unknownLanguages}" as language, which is not known by us. ` +
+      `🔢 ${game.name} contains "${unknownLanguages}" as language, which is not known by us. ` +
+      `Please check for spelling errors.`
+    )
+    unknownLanguageDetected = true
+  }
+}
+
+const checkFrameworkKnown = game => {
+  if (!game.framework) return
+  let frameworks = game.framework
+  if (!Array.isArray(frameworks)) frameworks = [frameworks]
+  const unknownFrameworks = frameworks.filter(l => !knownFrameworks.includes(l))
+  if (unknownFrameworks.length) {
+    warn(
+      `🌇 ${game.name} contains "${unknownFrameworks}" as framework, which is not known by us. ` +
       `Please check for spelling errors.`
     )
     unknownLanguageDetected = true
@@ -110,22 +189,24 @@ const checkHasImagesOrVideos = game => {
   }
 }
 
+const commonChecks = game => {
+  checkGameUpdated(game)
+  checkRepoGoogleCode(game)
+  checkLanguageKnown(game)
+  checkFrameworkKnown(game)
+  checkHasImagesOrVideos(game)
+}
+
 // -----------
 
 const onGameAdded = game => {
   namesAdded.push(game.name)
-  checkGameUpdated(game)
-  checkRepoGoogleCode(game)
   checkRepoAdded(game)
-  checkLanguageKnown(game)
-  checkHasImagesOrVideos(game)
+  commonChecks(game)
 }
 const onGameChanged = game => {
   namesChanged.push(game.name)
-  checkGameUpdated(game)
-  checkRepoGoogleCode(game)
-  checkLanguageKnown(game)
-  checkHasImagesOrVideos(game)
+  commonChecks(game)
 }
 const onGameRemoved = game => {
   namesRemoved.push(game.name)
@@ -155,6 +236,7 @@ const getGameChanges = files => {
       })
     })
     if (unknownLanguageDetected) message(`Known languages are ${knownLanguages}.`)
+    if (unknownFrameworkDetected) message(`Known frameworks are ${knownFrameworks}.`)
     if (namesAdded.length > 0) {
       message(`Game(s) added: ${danger.utils.sentence(namesAdded)} 🎊`)
     }
