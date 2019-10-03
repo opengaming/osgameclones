@@ -50,7 +50,8 @@ schema;game:
     info:
       type: str
     updated:
-      type: any
+      type: date
+      format: "%Y-%m-%d"
     images:
       type: seq
       sequence:
