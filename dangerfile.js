@@ -66,6 +66,7 @@ const knownFrameworks = [
   'Construct',
   'Construct2',
   'Cube 2 Engine',
+  'DirectX',
   'DIV Games Studio',
   'Duality',
   'EntityX',
