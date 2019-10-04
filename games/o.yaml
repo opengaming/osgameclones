@@ -92,6 +92,28 @@
   type: remake
   updated: 2019-03-29
 
+- name: OpenBOR
+  type:  clone
+  originals:
+  - Streets of Rage
+  - Double Dragon
+  - Final Fight
+  repo: https://github.com/DCurrent/openbor
+  url: http://www.chronocrash.com/forum/
+  development: sporadic
+  status: playable
+  lang:
+  - C
+  framework:
+  - SDL2
+  license:
+  - BSD
+  content: free
+  info: OpenBOR is the ultimate 2D side scrolling engine for beat em' ups, shooters, and more!
+  updated: 2019-09-23
+  video:
+    youtube: TbZD1pWsJeI
+
 - name: Open Creatures
   info: forks present
   lang: C++
@@ -1083,6 +1105,23 @@
   url: http://openmw.org/
   video:
     youtube: avPbctre9Qw
+
+- name: OpenMW for Android
+  type: remake
+  originals:
+  - 'The Elder Scrolls III: Morrowind'
+  repo: https://github.com/xyzz/openmw-android
+  url: https://omw.xyz.is/
+  development: active
+  status: playable
+  lang:
+  - Kotlin
+  license:
+  - GPL3
+  content: commercial
+  updated: 2019-09-20
+  video:
+    youtube: E5VuN3d1fOM
 
 - name: OpenNFS
   type: remake

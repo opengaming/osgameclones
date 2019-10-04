@@ -242,7 +242,7 @@
     youtube: UlQovLvleKg
 
 - name: DesktopAdventures
-  development: active
+  development: sporadic
   lang: C
   license:
   - LGPL2
@@ -253,7 +253,20 @@
   repo: https://github.com/shinyquagsire23/DesktopAdventures
   status: semi-playable
   type: remake
-  updated: 2018-06-26
+  updated: 2019-10-02
+
+- name: Desktop Adventures Engine for ScummVM
+  development: halted
+  lang: C++
+  license:
+  - GPL2
+  content: commercial
+  originals:
+  - Indiana Jones and his Desktop Adventures
+  - 'Star Wars: Yoda Stories'
+  type: remake
+  updated: 2019-10-02
+  repo: https://github.com/digitall/scummvm-deskadv
 
 - name: Deuteros X
   lang: C#
