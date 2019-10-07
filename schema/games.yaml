@@ -35,6 +35,7 @@ schema;game:
       sequence:
         - type: str
           enum: ['Competitive', 'Local', 'Online', 'LAN', 'Split-screen', 'Co-op', 'Hotseat', 'Matchmaking']
+          unique: True
     content:
       type: str
       enum: ['commercial', 'free', 'open', 'swappable']
@@ -47,6 +48,7 @@ schema;game:
       type: seq
       sequence:
         - include: licenses
+          unique: True
     info:
       type: str
     updated:
@@ -56,6 +58,7 @@ schema;game:
       type: seq
       sequence:
         - type: str
+          unique: True
     video:
       type: map
       mapping:
