@@ -2,8 +2,6 @@ language: python
 cache: pip
 python:
  - '3.7'
-virtualenv:
-  system_site_packages: true
 addons:
   ssh_known_hosts: sirius.solovyov.net
 install:
