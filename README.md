@@ -71,7 +71,6 @@ in the [`schema/originals.yaml`][schema_originals] validation file.
 
 ### Pre-requisites
 
-* [Python 2][python]
 * [pipenv][pipenv]
 
 
