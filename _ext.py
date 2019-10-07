@@ -5,13 +5,12 @@ import os, os.path as op
 from datetime import date, timedelta
 from collections import OrderedDict
 from functools import partial
-import urlparse
+from urllib.parse import urlparse
 
 import yaml
 from cyrax import events
 from natsort import natsorted, ns
 from pykwalify.core import Core
-from unidecode import unidecode
 
 
 def abort(msg):
@@ -21,14 +20,14 @@ def abort(msg):
 
 def validate(item, key):
     for name in names(item):
-        if not (isinstance(name, basestring) or
+        if not (isinstance(name, str) or
                 (len(name) == 2 and
-                 all(isinstance(x, basestring) for x in name))):
+                 all(isinstance(x, str) for x in name))):
             abort('Error: %r should be a string or a list of two strings' % name)
     games = item[key]
     if (not isinstance(games, list) or
-        not all(map(lambda x: isinstance(x, dict), games))):
-        print 'Error: this should be a list of dicts:'
+        not all(isinstance(x, dict) for x in games)):
+        print('Error: this should be a list of dicts:')
         abort(pprint.pformat(games))
     return names, games
 
@@ -46,11 +45,9 @@ def parse_tag(tag):
 
 
 def parse_unicode(text):
-    if type(text) == str:
-        text = unicode(text)
-    if type(text) == unicode:
-        return unidecode(text)
-    if type(text) in [list, tuple]:
+    if isinstance(text, str):
+        return text
+    if isinstance(text, (list, tuple)):
         result = []
         for item in text:
             result.append(parse_unicode(item))
@@ -67,17 +64,16 @@ def parse_tags(entry, keys):
     for key in keys:
         if key in entry:
             val = entry.get(key)
-            val_type = type(val)
 
-            if val_type == str or val_type == unicode:
+            if isinstance(val, str):
                 tags.append(parse_tag(val))
                 tags.append(parse_unicode_tag(val))
-            elif val_type == list:
-                tags += map(parse_tag, val)
-                tags += map(parse_unicode_tag, val)
+            elif isinstance(val, list):
+                tags += [parse_tag(v) for v in val]
+                tags += [parse_unicode_tag(v) for v in val]
             else:
                 abort('Error: %s\'s key "%s" is not valid (%s)' %
-                    (entry['name'], key, val_type.__name__))
+                    (entry['name'], key, type(val).__name__))
 
     result = []
     for tag in tags:
@@ -92,7 +88,7 @@ def parse_global_tags(site, item, tag):
         if not getattr(site, tag, False):
             setattr(site, tag, {})
 
-        if isinstance(item[tag], basestring):
+        if isinstance(item[tag], str):
             item[tag] = [item[tag]]
 
         for t in item[tag]:
@@ -111,7 +107,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
                   tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
 
     if "repo" in result:
-        domain = urlparse.urlparse(result["repo"]).netloc
+        domain = urlparse(result["repo"]).netloc
         ext = os.path.splitext(result["repo"])[1]
 
         if "github.com" in domain:
@@ -166,7 +162,7 @@ def parse_items(site, item, key):
     for game in item[key]:
         parse_global_tags(site, game, 'lang')
 
-    item = (names(item), meta, map(parse_fn, item[key]))
+    item = (names(item), meta, [parse_fn(i) for i in item[key]])
     getattr(site, key).append(item)
 
 
@@ -212,7 +208,7 @@ def parse_data(site):
     originals = []
     for fn in os.listdir(op.join(base, 'originals')):
         if fn.endswith('.yaml'):
-            originals.extend(yaml.load(open(op.join(base, 'originals', fn))))
+            originals.extend(yaml.safe_load(open(op.join(base, 'originals', fn))))
     def sort_key(game):
         name = game_name(game)
         # Always sort SCUMM first
@@ -228,7 +224,7 @@ def parse_data(site):
     clones = []
     for fn in sorted(os.listdir(op.join(base, 'games'))):
         if fn.endswith('.yaml'):
-            clones.extend(yaml.load(open(op.join(base, 'games', fn))))
+            clones.extend(yaml.safe_load(open(op.join(base, 'games', fn))))
     print(str(len(clones)) + ' clones in total')
     validate_with_schema(clones, 'schema/games.yaml')
 

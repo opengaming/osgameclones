@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-cyrax = "==2.7"
+cyrax = ">=3.0"
 natsort = "*"
 pykwalify = ">=1.6.1"
 PyYAML = "*"
@@ -13,4 +13,4 @@ Unidecode = "*"
 [dev-packages]
 
 [requires]
-python_version = "2.7"
+python_version = "3.7"
