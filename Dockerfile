@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.17-alpine
 
 RUN mkdir /src /app
 WORKDIR /src
@@ -7,6 +7,9 @@ COPY vhost.conf /etc/nginx/conf.d/default.conf
 COPY CHECKS /app/CHECKS
 EXPOSE 80
 
-RUN apk add --no-cache python py-pip py-yaml && pip install pipenv && pipenv install
+ENV LANG C
+RUN apk add --no-cache python3 py3-yaml && \
+    pip3 --disable-pip-version-check install pipenv && \
+    pipenv install
 RUN env
 RUN pipenv run cyrax /src -d /www
