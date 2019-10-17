@@ -13,6 +13,7 @@ schema;game:
       type: seq
       sequence:
         - type: str
+          unique: True
     type:
       required: True
       type: str
