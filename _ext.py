@@ -167,15 +167,15 @@ def parse_items(site, item, key):
 
 
 def show_error(game_name, error_str):
-    print('\033[91m' + '  ' + game_name.encode('utf-8') + '\033[0m')
-    print('    ' + error_str)
+    print(f'\033[91m  {game_name}\033[0m')
+    print(f'    {error_str}')
 
 
 def show_errors(errors):
     print('\n')
     for error in errors:
         show_error(error["name"], error["error"])
-    print('\n  ' + str(len(errors)) + ' errors\n')
+    print(f'\n  {len(errors)} errors\n')
     sys.exit(1)
 
 
