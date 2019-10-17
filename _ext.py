@@ -107,13 +107,16 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
                   tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
 
     if "repo" in result:
-        domain = urlparse(result["repo"]).netloc
+        repo_parsed = urlparse(result["repo"])
+        domain = repo_parsed.netloc
         ext = os.path.splitext(result["repo"])[1]
 
         if "github.com" in domain:
             result["repoiconname"] = "github"
             result["repoiconstyle"] = "fab"
             result["repotitle"] = "GitHub"
+            _, user, repo, *_ = repo_parsed.path.split("/")
+            result["repobadge"] = f'<img alt="GitHub stars" src="https://img.shields.io/github/stars/{user}/{repo}?style=flat-square">'
         elif (".google.com" in domain or
               "googlecode.com" in domain):
             result["repoiconname"] = "google"
