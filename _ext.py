@@ -127,7 +127,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
             result["repoiconname"] = "gitlab"
             result["repoiconstyle"] = "fab"
             result["repotitle"] = "GitLab"
-        elif ext in (".zip", ".tar", ".tgz", ".tbz2", ".bz2", ".xz", ".rar"):
+        elif ext in (".gz", ".zip", ".tar", ".tgz", ".tbz2", ".bz2", ".xz", ".rar"):
             result["repoiconname"] = "box"
             result["repoiconstyle"] = "fas"
             result["repotitle"] = "Archive"
