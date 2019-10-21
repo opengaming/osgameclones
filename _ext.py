@@ -123,7 +123,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
             result["repoiconname"] = "bitbucket"
             result["repoiconstyle"] = "fab"
             result["repotitle"] = "Bitbucket"
-        elif "gitlab.com" in domain:
+        elif "gitlab.com" in domain or domain.startswith("gitlab."):
             result["repoiconname"] = "gitlab"
             result["repoiconstyle"] = "fab"
             result["repotitle"] = "GitLab"
