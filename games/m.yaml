@@ -657,3 +657,24 @@
   updated: 2018-08-04
   url: http://mrboom.mumblecore.org
   multiplayer: [Online]
+
+- name: multi-pong
+  originals:
+    - Pong
+  type: remake
+  repo: 'https://github.com/Hopson97/multi-pong'
+  development: sporadic
+  status: semi-playable
+  multiplayer:
+    - Online
+    - Competitive
+  content: free
+  lang: C++
+  framework: SFML
+  license:
+    - As-is
+  info: Multiplayer pong using UDP sockets and a client/server model.
+  updated: 2019-10-18
+  images:
+    - 'https://i.imgur.com/0LUS5bS.gif'
+    - 'https://i.imgur.com/i1iTugw.gif'
