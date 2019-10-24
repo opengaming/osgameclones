@@ -219,6 +219,14 @@ dd + dt { margin-top: 1em; }
   display: inline !important;
 }
 
+.badge {
+  position: relative;
+  top: 4px;
+  padding-left: 4px;
+  min-width: 54px;
+  min-height: 20;
+}
+
 .feed-icon {
   color: #f26522;
 }

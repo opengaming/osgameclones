@@ -120,7 +120,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
             except ValueError:
                 pass
             else:
-                result["repobadge"] = f'<img alt="GitHub stars" src="https://img.shields.io/github/stars/{user}/{repo}?style=flat-square">'
+                result["repobadge"] = f'<img class="badge lazyload" alt="GitHub stars" data-src="https://img.shields.io/github/stars/{user}/{repo}?style=flat-square">'
         elif (".google.com" in domain or
               "googlecode.com" in domain):
             result["repoiconname"] = "google"
