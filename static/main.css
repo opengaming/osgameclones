@@ -146,6 +146,8 @@ dd + dt { margin-top: 1em; }
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  position: relative;
+  top: -2px;
 }
 
 .tag {
@@ -223,8 +225,6 @@ dd + dt { margin-top: 1em; }
   position: relative;
   top: 4px;
   padding-left: 5px;
-  min-width: 54px;
-  min-height: 20;
 }
 
 .feed-icon {

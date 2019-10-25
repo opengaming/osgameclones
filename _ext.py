@@ -112,15 +112,14 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
         ext = os.path.splitext(result["repo"])[1]
 
         if "github.com" in domain:
-            result["repoiconname"] = "github"
-            result["repoiconstyle"] = "fab"
-            result["repotitle"] = "GitHub"
             try:
                 _, user, repo, *_ = repo_parsed.path.split("/")
             except ValueError:
-                pass
+                result["repoiconname"] = "github"
+                result["repoiconstyle"] = "fab"
+                result["repotitle"] = "GitHub"
             else:
-                result["repobadge"] = f'<img class="badge lazyload" alt="GitHub stars" data-src="https://img.shields.io/github/stars/{user}/{repo}?style=flat-square">'
+                result["repobadge"] = f'<img class="badge lazyload" alt="GitHub stars" data-src="https://img.shields.io/github/stars/{user}/{repo}?style=flat-square&logo=github" src="https://img.shields.io/badge/stars-%3F-blue?style=flat-square&logo=github">'
         elif (".google.com" in domain or
               "googlecode.com" in domain):
             result["repoiconname"] = "google"
