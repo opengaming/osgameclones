@@ -146,6 +146,8 @@ dd + dt { margin-top: 1em; }
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  position: relative;
+  top: -2px;
 }
 
 .tag {
@@ -217,6 +219,12 @@ dd + dt { margin-top: 1em; }
   width: 100%;
   padding-left: .2em;
   display: inline !important;
+}
+
+.badge {
+  position: relative;
+  top: 4px;
+  padding-left: 5px;
 }
 
 .feed-icon {

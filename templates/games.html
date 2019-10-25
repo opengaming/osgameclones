@@ -86,7 +86,16 @@
       <a href="{{ game['feed'] }}" class="feed-icon" title="Feed"><span class="fas fa-rss"></span></a>
     {%- endif %}
 
-    {%- if 'repo' in game %} (<a href="{{ game['repo'] }}">repo</a> {%- if 'repoiconname' in game %}<span class="repoicon {{ game['repoiconstyle'] }} fa-{{ game['repoiconname'] }}" title="{{ game['repotitle'] }}"></span>{%- endif %}){%- endif %}
+    {%- if 'repo' in game %}
+      (
+      <a href="{{ game['repo'] }}">repo
+      {%- if 'repoiconname' in game %}
+        <span class="repoicon {{ game['repoiconstyle'] }} fa-{{ game['repoiconname'] }}" title="{{ game['repotitle'] }}"></span>
+      {%- endif %}
+      {%- if 'repobadge' in game %}{{ game['repobadge'] }}{%- endif %}
+      </a>
+      )
+    {%- endif %}
 
     {{ tags.render_tag_groups('type', game['type'] | title) }}
     {{ tags.render_tag_groups('status', game['status'] | title) }}

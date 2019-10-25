@@ -245,6 +245,7 @@ var OSGC = window.OSGC = {};
     return Promise.resolve().then(queue).then(showResults);
   }
 
+  // Dark theme
   function toggleDarkTheme() {
     if (document.body.classList.contains('darkTheme')) {
       document.body.classList.remove('darkTheme');
@@ -256,4 +257,20 @@ var OSGC = window.OSGC = {};
   }
 
   document.getElementById('darkThemeButton').addEventListener('click', toggleDarkTheme)
+
+  // Lazy load badges when they become visible (avoid error 429)
+  var lazyloadHandler = function(e) {
+    var elements = document.querySelectorAll("img.lazyload");
+    for (var i = 0; i < elements.length; i++) {
+      var boundingClientRect = elements[i].getBoundingClientRect();
+      if (elements[i].hasAttribute("data-src") && boundingClientRect.top < window.innerHeight) {
+        elements[i].setAttribute("src", elements[i].getAttribute("data-src"));
+        elements[i].removeAttribute("data-src");
+      }
+    }
+  };
+
+  window.addEventListener('scroll', lazyloadHandler);
+  window.addEventListener('load', lazyloadHandler);
+  window.addEventListener('resize', lazyloadHandler);
 })();
