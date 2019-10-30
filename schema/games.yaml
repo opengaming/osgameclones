@@ -8,12 +8,14 @@ schema;game:
     name:
       required: True
       type: str
+      desc: Name of the clone
     originals:
       required: True
       type: seq
       sequence:
         - type: str
           unique: True
+      desc: Name(s) of games this clones
     type:
       required: True
       type: str
@@ -21,10 +23,13 @@ schema;game:
     repo:
       required: False # Work towards making it True
       type: str
+      desc: URL where the source code can be found; e.g. a GitHub project page
     url:
       type: str
+      desc: URL of the game's main page (if any; should be different from repo)
     feed:
       type: str
+      desc: URL of RSS/Atom feed for the game's news, or releases
     development:
       type: str
       enum: ['complete', 'very active', 'active', 'sporadic', 'halted']
@@ -42,8 +47,10 @@ schema;game:
       enum: ['commercial', 'free', 'open', 'swappable']
     lang:
       type: any
+      desc: Main programming language(s) used for the game, e.g. C++
     framework:
       type: any
+      desc: Framework(s) or engine(s) used for the game, e.g. SDL2
     license:
       required: True
       type: seq
@@ -52,14 +59,17 @@ schema;game:
           unique: True
     info:
       type: str
+      desc: Any notable information about the game
     updated:
       type: date
       format: "%Y-%m-%d"
+      desc: Use today's date
     images:
       type: seq
       sequence:
         - type: str
           unique: True
+      desc: URLs of screenshots for the game
     video:
       type: map
       mapping:
@@ -68,12 +78,16 @@ schema;game:
           range:
             min: 11
             max: 11
+          desc: 11-char video ID e.g. for https://www.youtube.com/watch?v=DowgWKtGAD8, use "DowgWKtGAD8"
         vimeo:
           type: int
+          desc: Numeric video ID e.g. for https://vimeo.com/10245458, use "10245458"
         moddb:
           type: int
+          desc: Numeric video ID; copy the embed code, look for e.g. https://www.moddb.com/media/iframe/535281, use "535281"
         indiedb:
           type: int
+          desc: Numeric video ID; copy the embed code, look for e.g. https://www.indiedb.com/media/iframe/535281, use "535281"
 
 
 # Based on SPDX license codes
