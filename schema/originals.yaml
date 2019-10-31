@@ -64,6 +64,7 @@ schema;platform:
     'Xbox 360',
     'ZX Spectrum',
   ]
+  unique: True
 
 # -- ADD NEW GENRES TO 'SUBGENRE' SCHEMA --
 # Based on Giant Bomb genres / Wikipedia
@@ -102,6 +103,7 @@ schema;genres:
     'Simulation',
     'Strategy',
   ]
+  unique: True
 
 schema;subgenres:
   type: str
@@ -151,6 +153,7 @@ schema;subgenres:
     'Volleyball',
     'Wrestling',
   ]
+  unique: True
 
 # Based on Giant Bomb themes
 # http://www.giantbomb.com/games/
@@ -190,3 +193,4 @@ schema;themes:
     'World War I',
     'World War II',
   ]
+  unique: True
