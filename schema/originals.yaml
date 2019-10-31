@@ -21,6 +21,7 @@ sequence:
         type: seq
         sequence:
            - include: platform
+             unique: True
       meta:
         include: meta
 
@@ -31,14 +32,17 @@ schema;meta:
       type: seq
       sequence:
         - include: genres
+          unique: True
     subgenre:
       type: seq
       sequence:
         - include: subgenres
+          unique: True
     theme:
       type: seq
       sequence:
         - include: themes
+          unique: True
 
 
 schema;platform:
@@ -64,7 +68,6 @@ schema;platform:
     'Xbox 360',
     'ZX Spectrum',
   ]
-  unique: True
 
 # -- ADD NEW GENRES TO 'SUBGENRE' SCHEMA --
 # Based on Giant Bomb genres / Wikipedia
@@ -103,7 +106,6 @@ schema;genres:
     'Simulation',
     'Strategy',
   ]
-  unique: True
 
 schema;subgenres:
   type: str
@@ -153,7 +155,6 @@ schema;subgenres:
     'Volleyball',
     'Wrestling',
   ]
-  unique: True
 
 # Based on Giant Bomb themes
 # http://www.giantbomb.com/games/
@@ -193,4 +194,3 @@ schema;themes:
     'World War I',
     'World War II',
   ]
-  unique: True
