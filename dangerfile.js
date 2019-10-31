@@ -131,6 +131,8 @@ const isDateCloseToToday = d => {
   if (!d) {
     return false
   }
+  // Parse date in case it is a string
+  d = new Date(d)
   const timeDiff = Math.abs(new Date().getTime() - d.getTime())
   return Math.ceil(timeDiff / (1000 * 3600 * 24 * 30)) <= 1
 }
