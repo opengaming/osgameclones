@@ -2,7 +2,7 @@ import copy
 import sys
 import pprint
 import os, os.path as op
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from collections import OrderedDict
 from functools import partial
 from urllib.parse import urlparse
@@ -102,6 +102,8 @@ def parse_global_tags(site, item, tag):
 
 def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
     updated = entry.get('updated') or date(1970, 1, 1)
+    if isinstance(updated, str):
+        updated = datetime.strptime(updated, "%Y-%m-%d").date()
     result = dict(entry,
                   new=(date.today() - updated) < timedelta(days=30),
                   tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
