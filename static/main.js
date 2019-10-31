@@ -263,7 +263,12 @@ var OSGC = window.OSGC = {};
     var elements = document.querySelectorAll("img.lazyload");
     for (var i = 0; i < elements.length; i++) {
       var boundingClientRect = elements[i].getBoundingClientRect();
-      if (elements[i].hasAttribute("data-src") && boundingClientRect.top < window.innerHeight) {
+      if (
+        elements[i].hasAttribute("data-src") &&
+        boundingClientRect.top < window.innerHeight &&
+        // Ensure parent game is not hidden
+        elements[i].offsetParent != null
+      ) {
         elements[i].setAttribute("src", elements[i].getAttribute("data-src"));
         elements[i].removeAttribute("data-src");
       }
