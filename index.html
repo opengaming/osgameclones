@@ -29,7 +29,7 @@
           <span class="nav-btn">Languages</span>
           <div class="tag-group">
             <div class="container">
-            {% for tag, tag_props in site.lang.iteritems() %}
+            {% for tag, tag_props in site.lang.items() %}
               {{ tags.render_tag('lang', tag, tag_props['tag_count']) }}
             {% endfor %}
             </div>
@@ -40,7 +40,7 @@
           <span class="nav-btn">Genres</span>
           <div class="tag-group">
             <div class="container">
-            {% for tag, tag_props in site.genre.iteritems() %}
+            {% for tag, tag_props in site.genre.items() %}
               {{ tags.render_tag('genre', tag, tag_props['tag_count']) }}
             {% endfor %}
             </div>
