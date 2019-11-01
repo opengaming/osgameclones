@@ -21,6 +21,7 @@ sequence:
         type: seq
         sequence:
            - include: platform
+             unique: True
       meta:
         include: meta
 
@@ -31,14 +32,17 @@ schema;meta:
       type: seq
       sequence:
         - include: genres
+          unique: True
     subgenre:
       type: seq
       sequence:
         - include: subgenres
+          unique: True
     theme:
       type: seq
       sequence:
         - include: themes
+          unique: True
 
 
 schema;platform:
