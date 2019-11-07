@@ -179,6 +179,27 @@
   type: remake
   updated: 2015-06-28
 
+- name: Wind Waker Randomizer
+  originals:
+  - 'The Legend of Zelda: The Wind Waker'
+  type: tool
+  repo: 'https://github.com/LagoLunatic/wwrando'
+  feed: 'https://github.com/LagoLunatic/wwrando/releases.atom'
+  development: sporadic
+  status: playable
+  content: commercial
+  lang:
+  - Python
+  - Assembly
+  license:
+  - MIT
+  info: >-
+    It randomizes all the items in the game so that each playthrough is unique and
+    you never know where a particular item will be.
+  updated: '2019-11-08'
+  video:
+    youtube: UuEI8h8a0zs
+
 - name: WinWar
   development: halted
   images:
