@@ -684,19 +684,22 @@
   type: remake
   originals:
   - Diablo II
-  repo: https://github.com/essial/OpenDiablo2
+  repo: https://github.com/OpenDiablo2/OpenDiablo2
   url: https://opendiablo2.com/
-  development: sporadic
+  development: active
   status: semi-playable
   lang:
-  - C++
+  - Go
   framework:
   - SDL2
   license:
   - As-is
   content: commercial
-  info: The project not have a website, just a placeholder for later.
-  updated: 2019-05-07
+  info: Needs original Diablo II + Lord of Destruction game data.
+  updated: 2019-11-09
+  images:
+  - https://raw.githubusercontent.com/OpenDiablo2/OpenDiablo2/master/docs/MainMenuSS.png
+  - https://raw.githubusercontent.com/OpenDiablo2/OpenDiablo2/master/docs/SelectHeroSS.png
 
 - name: OpenDominion
   type: clone
