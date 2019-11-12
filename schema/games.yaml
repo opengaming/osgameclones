@@ -46,8 +46,11 @@ schema;game:
       type: str
       enum: ['commercial', 'free', 'open', 'swappable']
     lang:
-      type: any
+      type: seq
       desc: Main programming language(s) used for the game, e.g. C++
+      sequence:
+        - type: str
+          unique: True
     framework:
       type: any
       desc: Framework(s) or engine(s) used for the game, e.g. SDL2

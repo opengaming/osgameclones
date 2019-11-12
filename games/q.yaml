@@ -1,7 +1,8 @@
 - name: Q-Gears
   images:
   - http://q-gears.sourceforge.net/ss.jpg
-  lang: C++
+  lang:
+  - C++
   framework: OGRE
   license:
   - GPL2
@@ -15,7 +16,8 @@
   url: http://q-gears.sourceforge.net/
 
 - name: QuakeJS
-  lang: JavaScript
+  lang:
+  - JavaScript
   license:
   - MIT
   development: halted
@@ -27,7 +29,8 @@
   url: http://www.quakejs.com/
 
 - name: QuakeSpasm
-  lang: C
+  lang:
+  - C
   license:
   - GPL2
   development: active
