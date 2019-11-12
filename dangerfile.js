@@ -69,6 +69,7 @@ const knownFrameworks = [
   'DirectX',
   'DIV Games Studio',
   'Duality',
+  'Ebiten',
   'EntityX',
   'EnTT',
   'Flash',
@@ -182,7 +183,7 @@ const checkFrameworkKnown = game => {
       `🌇 ${game.name} contains "${unknownFrameworks}" as framework, which is not known by us. ` +
       `Please check for spelling errors.`
     )
-    unknownLanguageDetected = true
+    unknownFrameworkDetected = true
   }
 }
 
