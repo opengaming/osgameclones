@@ -1,5 +1,6 @@
 - name: pacman
-  lang: JavaScript
+  lang:
+  - JavaScript
   license:
   - WTFPL
   development: halted
@@ -21,7 +22,8 @@
   url: http://harto.github.io/pacman/
 
 - name: pacman
-  lang: JavaScript
+  lang:
+  - JavaScript
   license:
   - ISC
   development: active
@@ -49,7 +51,8 @@
 
 - name: Panel Attack
   info: basic networking support
-  lang: Lua
+  lang:
+  - Lua
   license:
   - Zlib
   development: sporadic
@@ -63,7 +66,8 @@
 - name: Pang Zero
   images:
   - http://apocalypse.rulez.org/kozosfiles/upipang11/version_1.0.jpg
-  lang: Perl
+  lang:
+  - Perl
   license:
   - GPL2
   development: halted
@@ -96,7 +100,8 @@
 - name: Paratrooper
   images:
   - http://pygame.org/shots/706.jpg
-  lang: Python
+  lang:
+  - Python
   license:
   - As-is
   development: halted
@@ -131,7 +136,8 @@
   - http://pathological.sourceforge.net/screenshots/ketchupandmustard.png
   - http://pathological.sourceforge.net/screenshots/wildberries.png
   - http://pathological.sourceforge.net/screenshots/triggerpractice.png
-  lang: Python
+  lang:
+  - Python
   license:
   - GPL2
   development: halted
@@ -145,7 +151,8 @@
 - name: Pendomotion
   framework:
   - pygame
-  lang: Python
+  lang:
+  - Python
   license:
   - As-is
   development: active
@@ -161,7 +168,8 @@
   - http://pentagram.sourceforge.net/images/screenshots/noremorse.png
   - http://pentagram.sourceforge.net/images/screenshots/noregret.png
   - http://pentagram.sourceforge.net/images/screenshots/japanese.png
-  lang: C++
+  lang:
+  - C++
   license:
   - GPL2
   development: sporadic
@@ -173,7 +181,8 @@
   updated: 2018-10-06
 
 - name: Performous
-  lang: C++
+  lang:
+  - C++
   license:
   - GPL2
   development: active
@@ -190,7 +199,8 @@
     youtube: soYIbsVmcyU
 
 - name: Phantasy
-  lang: Java
+  lang:
+  - Java
   license:
   - As-is
   development: halted
@@ -204,7 +214,8 @@
 - name: Phavon
   images:
   - http://phavon.sourceforge.net/snap001.jpg
-  lang: C
+  lang:
+  - C
   license:
   - GPL2
   development: halted
@@ -216,7 +227,8 @@
   url: http://phavon.sourceforge.net/
 
 - name: Phoenix
-  lang: Java
+  lang:
+  - Java
   license:
   - As-is
   development: active
@@ -232,7 +244,8 @@
   images:
   - http://pingus.seul.org/images/screen_0.7.0-3.jpg
   - http://pingus.seul.org/images/screen_0.7.0-4.jpg
-  lang: C++
+  lang:
+  - C++
   license:
   - GPL3
   content: open
@@ -289,7 +302,8 @@
 
 - name: Pipemania
   framework: Love3D
-  lang: Lua
+  lang:
+  - Lua
   license:
   - As-is
   development: halted
@@ -302,7 +316,8 @@
 - name: Pizza Business
   images:
   - http://pizza-business.sourceforge.net/gtk1.png
-  lang: C++
+  lang:
+  - C++
   license:
   - GPL2
   development: halted
@@ -314,7 +329,8 @@
   url: http://pizza-business.sourceforge.net/
 
 - name: PKMN-FX
-  lang: Java
+  lang:
+  - Java
   license:
   - GPL3
   development: active
@@ -347,7 +363,8 @@
   development: active
   status: unplayable
   content: free
-  lang: GDScript
+  lang:
+  - GDScript
   framework: Godot
   license:
   - MIT
@@ -408,7 +425,8 @@
   updated: 2019-09-30
   framework:
     - SDL2
-  lang: C++
+  lang:
+  - C++
 
 - name: Powerslide remake
   originals:
@@ -439,7 +457,8 @@
 
 - name: pq2
   framework: ncurses
-  lang: C++
+  lang:
+  - C++
   license:
   - GPL3
   development: active
@@ -452,7 +471,8 @@
 - name: PrBoom+
   images:
   - https://sourceforge.net/p/prboom-plus/screenshot/222124.jpg
-  lang: C
+  lang:
+  - C
   license:
   - GPL2
   development: active
@@ -470,7 +490,8 @@
   - http://privateer.sourceforge.net/images/screenshot-1-approaching-planet-under-attack.png
   - http://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png
   - http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
-  lang: C++
+  lang:
+  - C++
   license:
   - GPL2
   development: sporadic
@@ -484,7 +505,8 @@
 - name: progress-quest
   framework: Qt
   info: More or less feature parity with the original, saving/loading/etc. works.
-  lang: C++
+  lang:
+  - C++
   license:
   - MIT
   development: active
@@ -497,7 +519,8 @@
 - name: Project Carrot
   framework: Qt
   info: Needs original game data
-  lang: C++
+  lang:
+  - C++
   license:
   - MIT
   development: sporadic
@@ -524,7 +547,8 @@
   url: http://www.afr0games.com
 
 - name: 'Project: Xenocide'
-  lang: C++
+  lang:
+  - C++
   license:
   - GPL2
   development: halted
@@ -559,7 +583,8 @@
 - name: ProQuake 4
   license:
   - GPL2
-  lang: C
+  lang:
+  - C
   originals:
   - Quake
   repo: http://quakeone.com/proquake/proquake_493_src.rar
@@ -577,7 +602,8 @@
   - Apache
   status: playable
   framework: WebGL
-  lang: TypeScript
+  lang:
+  - TypeScript
   originals:
   - Minesweeper
   type: clone
@@ -628,7 +654,8 @@
   - https://pushover.github.io/website/images/Screenshot2.jpg
   - https://pushover.github.io/website/images/Screenshot3n.jpg
   - https://pushover.github.io/website/images/Screenshot4.jpg
-  lang: C++
+  lang:
+  - C++
   license:
   - GPL3
   development: sporadic
@@ -641,7 +668,8 @@
   url: https://pushover.github.io/
 
 - name: Py1945
-  lang: Python
+  lang:
+  - Python
   license:
   - As-is
   development: halted
@@ -658,7 +686,8 @@
   - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360b.png
   - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360c.png
   - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360a.png
-  lang: Python
+  lang:
+  - Python
   license:
   - GPL3
   development: active
@@ -670,7 +699,8 @@
   url: http://sourceforge.net/projects/pybreak360/
 
 - name: pycraft
-  lang: Python
+  lang:
+  - Python
   license:
   - GPL2
   development: active
@@ -688,7 +718,8 @@
   - http://pyskool.ca/wp-content/uploads/2010/05/ezad_looks-0.4.png
   - http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool_daze-0.4.png
   - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-wide-0.4.png
-  lang: Python
+  lang:
+  - Python
   license:
   - GPL3
   development: active
@@ -702,7 +733,8 @@
 - name: pyspaceinvaders
   images:
   - http://www.pygame.org/shots/1259.gif
-  lang: Python
+  lang:
+  - Python
   license:
   - GPL2
   development: halted
@@ -717,7 +749,8 @@
   - http://pytouhou.linkmauve.fr/screenshots/big/s1-01.png
   - http://pytouhou.linkmauve.fr/screenshots/big/s6-06.png
   - http://pytouhou.linkmauve.fr/screenshots/big/s7-06.png
-  lang: Python
+  lang:
+  - Python
   license:
   - GPL3
   development: active

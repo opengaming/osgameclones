@@ -161,9 +161,7 @@ const checkRepoAdded = game => {
 
 const checkLanguageKnown = game => {
   if (!game.lang) return
-  let languages = game.lang
-  if (!Array.isArray(languages)) languages = [languages]
-  const unknownLanguages = languages.filter(l => !knownLanguages.includes(l))
+  const unknownLanguages = game.lang.filter(l => !knownLanguages.includes(l))
   if (unknownLanguages.length) {
     warn(
       `🔢 ${game.name} contains "${unknownLanguages}" as language, which is not known by us. ` +
