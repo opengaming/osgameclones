@@ -22,7 +22,8 @@
   updated: 2015-10-09
 
 - name: Zatacka X
-  framework: SDL
+  framework:
+  - SDL
   images:
   - https://camo.githubusercontent.com/bf7621a6846244c8f74679220aae2e66f1e5a526/687474703a2f2f666f6c6b2e75696f2e6e6f2f73696d656e6865672f7a617461636b61785f736d616c6c2e706e67
   info: Has powerups and AI.
@@ -179,7 +180,8 @@
   updated: 2015-06-01
 
 - name: zSILENCER
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - http://zsilencer.com/ss9.png
   - http://zsilencer.com/ss1.png

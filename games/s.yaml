@@ -10,7 +10,8 @@
   multiplayer:
   - Online
   - LAN
-  framework: Unity
+  framework:
+  - Unity
   license:
   - MIT
   content: commercial
@@ -117,7 +118,8 @@
   url: http://www.linuxmotors.com/SDL_bomber/
 
 - name: SDL Sopwith
-  framework: SDL
+  framework:
+  - SDL
   images:
   - http://sdl-sopwith.sourceforge.net/sshot/title.png
   - http://sdl-sopwith.sourceforge.net/sshot/runway.png
@@ -387,7 +389,8 @@
   url: http://www.simutrans.com/
 
 - name: Sine
-  framework: SFML
+  framework:
+  - SFML
   images:
   - https://i.imgur.com/7W8ZdCS.png
   - https://i.imgur.com/IxtKdOS.png
@@ -681,7 +684,8 @@
   updated: 2015-04-06
 
 - name: Space-rangers
-  framework: XNA
+  framework:
+  - XNA
   lang:
   - C#
   license:
@@ -694,7 +698,8 @@
   updated: 2015-05-28
 
 - name: spaceroads
-  framework: OGRE
+  framework:
+  - OGRE
   lang:
   - C++
   license:
@@ -1206,7 +1211,8 @@
 
 - name: SuperTux
   development: active
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - https://supertux.org/images/0_4_0/0_4_0_3.png
   - https://supertux.org/images/0_4_0/0_4_0_10.png
@@ -1255,7 +1261,8 @@
   - Split-screen
   lang:
   - GDScript
-  framework: Godot
+  framework:
+  - Godot
   license:
   - GPL3
   content: open
@@ -1303,7 +1310,8 @@
   status: playable
   lang:
   - Java
-  framework: SWT
+  framework:
+  - SWT
   license:
   - As-is
   content: open

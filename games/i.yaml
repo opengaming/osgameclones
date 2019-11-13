@@ -120,7 +120,8 @@
 
 - name: IO Reboot
   development: complete
-  framework: Unity
+  framework:
+  - Unity
   images:
   - https://lh3.googleusercontent.com/umCxkpuG_pBRWijjgE9i2Pc314qEdbg1uYgFCkCqtoRaiBGX4pBg9aFR7BFsSHjQ0sRe=h900-rw
   - https://lh3.googleusercontent.com/wXYHQFw9OKKcZZiDC9KEM-Qt6ZJVp6Vn1EJZlgRCwMmbuSqSQSFTC3YreAaZ2qF_KA=h900-rw
@@ -176,7 +177,8 @@
   updated: 2019-09-15
 
 - name: irrlamb
-  framework: Irrlicht
+  framework:
+  - Irrlicht
   images:
   - http://i.imgur.com/EZhOF2Z.jpg
   - http://i.imgur.com/MoKnLml.jpg

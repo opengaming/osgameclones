@@ -52,8 +52,11 @@ schema;game:
         - type: str
           unique: True
     framework:
-      type: any
+      type: seq
       desc: Framework(s) or engine(s) used for the game, e.g. SDL2
+      sequence:
+        - type: str
+          unique: True
     license:
       required: True
       type: seq

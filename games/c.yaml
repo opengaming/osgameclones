@@ -1,6 +1,7 @@
 - name: C-Dogs SDL
   feed: http://cxong.github.io/cdogs-sdl/feed.xml
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/1.png
   - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/2.png
@@ -161,7 +162,8 @@
   url: https://www.linux-games.com/castle-combat/
 
 - name: 'Cataclysm: Dark Days Ahead'
-  framework: ncurses
+  framework:
+  - ncurses
   images:
   - http://en.cataclysmdda.com/assets/drive.png
   - http://en.cataclysmdda.com/assets/status.png
@@ -191,7 +193,8 @@
   content: commercial
   lang:
   - C++
-  framework: OpenGL
+  framework:
+  - OpenGL
   license:
     - GPL3
   info: CatacombGL is a Windows source port with OpenGL graphics for the 1992 game The Catacomb Abyss.
@@ -235,7 +238,8 @@
   - https://raw.githubusercontent.com/cuckydev/Cave-Story-Engine-2/master/screenshot.png
 
 - name: CaveExpress
-  framework: SDL
+  framework:
+  - SDL
   images:
   - http://www.caveproductions.org/images/screenshots/mainmenu.jpg
   - http://www.caveproductions.org/images/screenshots/angry-dino.jpg
@@ -254,7 +258,8 @@
   url: http://www.caveproductions.org/
 
 - name: CavePacker
-  framework: SDL
+  framework:
+  - SDL
   images:
   - http://www.caveproductions.org/images/screenshots/cavepacker-01.png
   - http://www.caveproductions.org/images/screenshots/cavepacker-02.png
@@ -291,7 +296,8 @@
   status: playable
   lang:
   - C++
-  framework: Allegro
+  framework:
+  - Allegro
   license:
   - AGPL3
   content: commercial
@@ -320,7 +326,8 @@
 
 - name: Chariot
   development: halted
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - https://cloud.githubusercontent.com/assets/20009343/16906794/daccd474-4c71-11e6-90ec-6821e5797b5c.png
   lang:
@@ -496,7 +503,8 @@
   - https://img.itch.zone/aW1hZ2UvMTcyMzAvMjE2NDA5LmdpZg==/original/3ejXxh.gif
 
 - name: Clumsy Bird
-  framework: melonJS
+  framework:
+  - melonJS
   license:
   - MIT
   development: active
@@ -609,7 +617,8 @@
   url: http://clonekeenplus.sourceforge.net/
 
 - name: CommandoJS
-  framework: melonJS
+  framework:
+  - melonJS
   images:
   - http://i.imgur.com/e4ChdOL.png
   lang:
@@ -712,7 +721,8 @@
   updated: 2017-04-19
 
 - name: Cosmosmash
-  framework: SDL
+  framework:
+  - SDL
   images:
   - https://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
   lang:
@@ -790,7 +800,8 @@
   - QuickBASIC
   license:
   - As-is
-  framework: QB64
+  framework:
+  - QB64
   originals:
   - Crazy Cars
   repo: https://www.dropbox.com/s/lad1nm9fvmd3ugs/crazycarsFL.zip

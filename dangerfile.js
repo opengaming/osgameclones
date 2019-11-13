@@ -173,9 +173,7 @@ const checkLanguageKnown = game => {
 
 const checkFrameworkKnown = game => {
   if (!game.framework) return
-  let frameworks = game.framework
-  if (!Array.isArray(frameworks)) frameworks = [frameworks]
-  const unknownFrameworks = frameworks.filter(l => !knownFrameworks.includes(l))
+  const unknownFrameworks = game.framework.filter(l => !knownFrameworks.includes(l))
   if (unknownFrameworks.length) {
     warn(
       `🌇 ${game.name} contains "${unknownFrameworks}" as framework, which is not known by us. ` +

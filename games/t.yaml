@@ -216,7 +216,8 @@
   updated: 2015-06-18
 
 - name: THREEPunchOut
-  framework: three.js
+  framework:
+  - three.js
   lang:
   - JavaScript
   license:
@@ -366,7 +367,8 @@
   url: http://toppler.sourceforge.net/
 
 - name: Torrega Race
-  framework: "L\xD6VE"
+  framework:
+  - "L\xD6VE"
   images:
   - http://i.imgur.com/qWgWeXA.png
   lang:
@@ -607,7 +609,8 @@
   content: open
   lang:
   - GDScript
-  framework: Godot
+  framework:
+  - Godot
   license:
   - GPL3
   info: A Godot re-implementation of SuperTux
@@ -617,7 +620,8 @@
     https://forum.freegamedev.net/download/file.php?id=11922&sid=0143ee722a57a6af5adca2516bfe7979&mode=view
 
 - name: Tuxemon
-  framework: pygame
+  framework:
+  - pygame
   images:
   - http://www.tuxemon.org/images/featurette-01.png
   - http://www.tuxemon.org/images/screenshot-01.png

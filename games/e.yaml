@@ -1,5 +1,6 @@
 - name: earth-shaker
-  framework: Unity
+  framework:
+  - Unity
   license:
   - As-is
   development: halted
@@ -146,7 +147,8 @@
   - SFML
 
 - name: encounter
-  framework: WebGL
+  framework:
+  - WebGL
   lang:
   - JavaScript
   license:
@@ -196,7 +198,8 @@
   - https://img.itch.zone/aW1nLzIxMzUxNjcucG5n/315x250%23c/aGJJpv.png
 
 - name: Enigma
-  framework: SDL
+  framework:
+  - SDL
   lang:
   - C++
   license:
@@ -299,7 +302,8 @@
   url: https://henlin.net/ExecutiveMan/
 
 - name: EXILE
-  framework: "L\xD6VE"
+  framework:
+  - "L\xD6VE"
   lang:
   - Lua
   license:

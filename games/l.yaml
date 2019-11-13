@@ -73,7 +73,8 @@
   url: http://lastninja.sourceforge.net/
 
 - name: LastTry
-  framework: LibGDX
+  framework:
+  - LibGDX
   lang:
   - Java
   license:
@@ -86,7 +87,8 @@
   updated: 2017-10-15
 
 - name: The Legend Of Zelda - Navi's Quest
-  framework: SDL
+  framework:
+  - SDL
   images:
   - http://www.zeldaroth.fr/images/nsq/s1.png
   lang:
@@ -163,7 +165,8 @@
   url: http://www.zeldaroth.fr/us/z3t.php
 
 - name: legion
-  framework: Irrlicht
+  framework:
+  - Irrlicht
   lang:
   - C++
   license:

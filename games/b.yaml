@@ -73,7 +73,8 @@
   url: https://baller.tuxfamily.org/
 
 - name: Balloon Fight
-  framework: DIV Games Studio
+  framework:
+  - DIV Games Studio
   license:
   - MIT
   development: active
@@ -85,7 +86,8 @@
   url: http://js.mikedx.co.uk/balloonfight.html
 
 - name: Barbarian
-  framework: QB64
+  framework:
+  - QB64
   images:
   - http://barbarian.1987.free.fr/images/AMIGA01.jpg
   lang:
@@ -266,7 +268,8 @@
   updated: 2019-09-02
 
 - name: Block Attack - Rise of the Blocks
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - https://blockattack.net/images/blockattack-2.0.0-1.png
   lang:
@@ -443,7 +446,8 @@
 - name: Breakout-VR
   lang:
   - C#
-  framework: Unity
+  framework:
+  - Unity
   license:
   - MIT
   development: halted

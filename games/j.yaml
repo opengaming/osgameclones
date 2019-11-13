@@ -122,7 +122,8 @@
   updated: 2016-02-08
 
 - name: Jetpac remake
-  framework: XNA
+  framework:
+  - XNA
   lang:
   - C#
   license:
@@ -174,7 +175,8 @@
   - http://static.jonof.id.au/modsuppt/jfduke3d/dukehrp.jpg
 
 - name: jffe
-  framework: SDL
+  framework:
+  - SDL
   lang:
   - C++
   license:

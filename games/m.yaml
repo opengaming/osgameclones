@@ -135,7 +135,8 @@
   - Lua
   license:
   - CC-BY-NC-SA
-  framework: "L\xD6VE"
+  framework:
+  - "L\xD6VE"
   originals:
   - Mario World
   repo: http://stabyourself.net/dl.php?file=mari0-1006/mari0-source.zip
@@ -269,7 +270,8 @@
   updated: 2015-09-21
 
 - name: Mice Men Remix
-  framework: LibGDX
+  framework:
+  - LibGDX
   lang:
   - Java
   license:
@@ -335,7 +337,8 @@
   content: free
   lang:
   - C++
-  framework: OpenGL
+  framework:
+  - OpenGL
   license:
   - As-is
   info: A Minecraft clone written in C++ with OpenGL
@@ -469,7 +472,8 @@
 - name: Mininim
   lang:
   - C
-  framework: Allegro
+  framework:
+  - Allegro
   license:
   - GPL3
   development: sporadic
@@ -720,7 +724,8 @@
   content: free
   lang:
   - C++
-  framework: SFML
+  framework:
+  - SFML
   license:
     - As-is
   info: Multiplayer pong using UDP sockets and a client/server model.

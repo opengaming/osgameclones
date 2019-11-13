@@ -66,7 +66,8 @@
     youtube: pJtrxzGf1L0
 
 - name: Neverball
-  framework: SDL
+  framework:
+  - SDL
   images:
   - http://i.imgur.com/4ja9xmS.jpg
   - http://i.imgur.com/xU6TJZP.jpg
@@ -116,7 +117,8 @@
 
 - name: NFSIISE
   development: active
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - https://i.imgur.com/ZL3V5XB.jpg
   - https://i.imgur.com/DRyjX57.jpg
@@ -163,7 +165,8 @@
   url: https://nlarn.github.io/
 
 - name: Nodes of Yesnod remake
-  framework: XNA
+  framework:
+  - XNA
   lang:
   - C#
   license:

@@ -3,7 +3,8 @@
   - C++
   license:
   - GPL2
-  framework: SDL
+  framework:
+  - SDL
   originals:
   - Urban Assault
   repo: https://github.com/Marisa-Chan/UA_source
@@ -141,7 +142,8 @@
   url: http://ultrastardx.sourceforge.net/
 
 - name: uMario
-  framework: SDL2
+  framework:
+  - SDL2
   lang:
   - C++
   license:
@@ -199,7 +201,8 @@
   - https://lh3.googleusercontent.com/TSFQq6P2X9Ineomy-59C-DkiqD8elT9DVWBS1jhQGQ-3pdSq38tRwhzbL3nt4NrE8Ws=w1180-h932
 
 - name: uninvited
-  framework: Inform
+  framework:
+  - Inform
   license:
   - Artistic
   development: sporadic
