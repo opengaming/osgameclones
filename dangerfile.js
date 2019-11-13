@@ -50,6 +50,7 @@ const knownLanguages = [
   'Ruby',
   'Rust',
   'Scala',
+  'Squirrel',
   'Swift',
   'TorqueScript',
   'TypeScript',
