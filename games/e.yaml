@@ -197,6 +197,32 @@
   images:
   - https://img.itch.zone/aW1nLzIxMzUxNjcucG5n/315x250%23c/aGJJpv.png
 
+- name: engge
+  originals:
+  - Thimbleweed Park
+  type: remake
+  repo: 'https://github.com/scemino/engge'
+  url: 'https://twitter.com/engge_the_game'
+  feed: 'https://github.com/scemino/engge/releases.atom'
+  development: active
+  status: unplayable
+  content: commercial
+  lang:
+  - C++
+  - Squirrel
+  framework:
+  - SFML
+  license:
+  - MIT
+  info: >-
+    engge is an experimental game engine, its purpose is to be able (one day) to
+    run Thimbleweed park.
+  updated: '2019-11-14'
+  images:
+  - 'https://i.imgur.com/En75Mzx.png'
+  video:
+    youtube: 09VEPoX5SZk
+
 - name: Enigma
   framework:
   - SDL
