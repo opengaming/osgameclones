@@ -240,7 +240,8 @@
 
 - name: Pingus
   development: sporadic
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - http://pingus.seul.org/images/screen_0.7.0-3.jpg
   - http://pingus.seul.org/images/screen_0.7.0-4.jpg
@@ -301,7 +302,8 @@
     vimeo: 78452479
 
 - name: Pipemania
-  framework: Love3D
+  framework:
+  - Love3D
   lang:
   - Lua
   license:
@@ -365,7 +367,8 @@
   content: free
   lang:
   - GDScript
-  framework: Godot
+  framework:
+  - Godot
   license:
   - MIT
   info: A work in progress re-implementation of the game Pokemon Uranium in the Godot Engine.
@@ -456,7 +459,8 @@
     moddb: 2035338
 
 - name: pq2
-  framework: ncurses
+  framework:
+  - ncurses
   lang:
   - C++
   license:
@@ -503,7 +507,8 @@
   updated: 2018-10-06
 
 - name: progress-quest
-  framework: Qt
+  framework:
+  - Qt
   info: More or less feature parity with the original, saving/loading/etc. works.
   lang:
   - C++
@@ -517,7 +522,8 @@
   updated: 2019-09-14
 
 - name: Project Carrot
-  framework: Qt
+  framework:
+  - Qt
   info: Needs original game data
   lang:
   - C++
@@ -601,7 +607,8 @@
   license:
   - Apache
   status: playable
-  framework: WebGL
+  framework:
+  - WebGL
   lang:
   - TypeScript
   originals:
@@ -627,7 +634,8 @@
   updated: 2016-12-08
 
 - name: pucpr-ld-mario3
-  framework: Construct2
+  framework:
+  - Construct2
   license:
   - As-is
   development: halted
@@ -639,7 +647,8 @@
 
 - name: pucpr-ld-parodius
   info: Remake of the first levels of the snes game Gokujou Parodius
-  framework: Construct
+  framework:
+  - Construct
   license:
   - As-is
   development: halted

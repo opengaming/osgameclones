@@ -51,7 +51,8 @@
   info: Wargus is a Warcraft2 Mod that allows you to play Warcraft2 with the Stratagus engine.
 
 - name: Wario-Land-3
-  framework: pygame
+  framework:
+  - pygame
   lang:
   - Python
   license:
@@ -98,7 +99,8 @@
   updated: 2018-10-06
 
 - name: WAtomic
-  framework: Kylix
+  framework:
+  - Kylix
   lang:
   - Delphi
   license:
@@ -229,7 +231,8 @@
 
 - name: Witch Blast
   development: halted
-  framework: SFML
+  framework:
+  - SFML
   images:
   - http://img11.hostingpics.net/pics/927609screenshot20151029203852.png
   - http://img11.hostingpics.net/pics/267990screenshot20151029113142.png

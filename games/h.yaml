@@ -95,7 +95,8 @@
   - C++
   license:
   - GPL2
-  framework: Allegro
+  framework:
+  - Allegro
   originals:
   - Head over Heels
   repo: http://www.headoverheels2.com/descargas/headoverheels-1.0.1.tar.bz2
@@ -186,7 +187,8 @@
   url: http://herzog3d.sourceforge.net/
 
 - name: HexGL
-  framework: WebGL
+  framework:
+  - WebGL
   license:
   - MIT
   development: active
@@ -238,7 +240,8 @@
   url: https://hextris.github.io/
 
 - name: Historyline
-  framework: Unity
+  framework:
+  - Unity
   images:
   - https://conquertheworldbycode.files.wordpress.com/2013/10/movement.png
   - https://conquertheworldbycode.files.wordpress.com/2013/10/screen.png
@@ -268,7 +271,8 @@
   url: http://richardcarlsson.blogspot.co.uk/2014/11/the-hobbit-1982-game-graphics-engine-in.html
 
 - name: Hocoslamfy
-  framework: SDL
+  framework:
+  - SDL
   images:
   - http://www.gcw-zero.com/images/articles/hocoslamfy-score-shown-2.png
   lang:
@@ -296,7 +300,8 @@
   type: remake
 
 - name: Homeworld SDL
-  framework: SDL
+  framework:
+  - SDL
   license:
   - Custom
   development: halted
@@ -316,7 +321,8 @@
   content: open
   lang:
   - C++
-  framework: SFML
+  framework:
+  - SFML
   license:
     - GPL3
   info: Bunch of small arcade games made in C++ and SFML

@@ -101,7 +101,8 @@
   - https://raw.githubusercontent.com/sandsmark/aicompo-tg17/master/screenshot.png
   lang:
   - C++
-  framework: Qt
+  framework:
+  - Qt
   license:
   - GPL3
   development: sporadic
@@ -114,7 +115,8 @@
   info: Multiplayer Pac-Man where you control the ghosts. Designed as a programming game, but has human controls. Considered finished, but bugs will be fixed etc.
 
 - name: Gift Grabber
-  framework: BackBone.js
+  framework:
+  - BackBone.js
   lang:
   - JavaScript
   license:
@@ -169,7 +171,8 @@
   - Assembly
   license:
   - As-is
-  framework: SDL
+  framework:
+  - SDL
   originals:
   - Elite III
   repo: http://nic.dnsalias.com/GLFFE_NicMod_v1.4_src.zip
@@ -276,7 +279,8 @@
     moddb: 1701377
 
 - name: Google Pacman
-  framework: Flash
+  framework:
+  - Flash
   lang:
   - JavaScript
   license:
@@ -335,7 +339,8 @@
   updated: 2019-08-02
 
 - name: grid-leader
-  framework: Panda3D
+  framework:
+  - Panda3D
   lang:
   - Python
   license:

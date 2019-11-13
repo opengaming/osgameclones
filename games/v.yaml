@@ -54,7 +54,8 @@
 
 - name: VCMI
   development: active
-  framework: SDL
+  framework:
+  - SDL
   images:
   - http://68.media.tumblr.com/c69e06e5f17abaa58c9e636ea324f51d/tumblr_ot0p9i6KSl1v51b1so6_1280.png
   - http://68.media.tumblr.com/3340781f2a5ae99684a2942ffcf0bfc0/tumblr_ot0p9i6KSl1v51b1so7_1280.png
@@ -136,7 +137,8 @@
   content: open
 
 - name: Veraball
-  framework: Godot
+  framework:
+  - Godot
   images:
   - http://i.imgur.com/uDY7tI4.jpg
   - http://i.imgur.com/4SsHUvQ.jpg
@@ -239,7 +241,8 @@
   - http://victornils.net/tetris/img/vitetris031-tt-color-konsole.png
 
 - name: vkQuake
-  framework: Vulkan
+  framework:
+  - Vulkan
   lang:
   - C
   license:

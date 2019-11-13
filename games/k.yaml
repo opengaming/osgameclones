@@ -17,7 +17,8 @@
   url: http://www.kamremake.com/
 
 - name: Kartering
-  framework: SDL2
+  framework:
+  - SDL2
   lang:
   - C
   license:
@@ -33,7 +34,8 @@
   info: 2D racing game inspired by Mario Kart. Network play only, designed as a programming game, but supports human controls.
 
 - name: Kathodos
-  framework: Panda3D
+  framework:
+  - Panda3D
   lang:
   - Python
   license:
@@ -91,7 +93,8 @@
   url: http://keeper.lubiki.pl/html/dk_keeperfx.php
 
 - name: KGoldrunner
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - https://www.kde.org/images/screenshots/kgoldrunner.png
   lang:
@@ -120,7 +123,8 @@
   updated: 2015-05-29
 
 - name: KittenMaxit
-  framework: LibGDX
+  framework:
+  - LibGDX
   license:
   - MIT
   development: sporadic

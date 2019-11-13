@@ -180,7 +180,8 @@
     youtube: 2g4Ro1ulMvg
 
 - name: REminiscence
-  framework: SDL
+  framework:
+  - SDL
   lang:
   - C++
   license:
@@ -253,7 +254,8 @@
   url: http://residualvm.org/
 
 - name: Return of Dr. Destructo
-  framework: Allegro
+  framework:
+  - Allegro
   lang:
   - C++
   license:
@@ -375,7 +377,8 @@
   status: semi-playable
   lang:
   - Java
-  framework: LibGDX
+  framework:
+  - LibGDX
   license:
   - Apache
   content: commercial
@@ -437,7 +440,8 @@
   url: http://rystills.github.io/rock-raiders-remake/
 
 - name: Rockbot
-  framework: SDL
+  framework:
+  - SDL
   images:
   - http://rockbot.upperland.net/wp-content/uploads/2010/12/game_0021.png
   - http://rockbot.upperland.net/wp-content/uploads/2014/01/game_1.0RC1_016.png
@@ -455,7 +459,8 @@
   url: http://rockbot.upperland.net/
 
 - name: Rocks'n'Diamonds
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - http://www.artsoft.org/rocksndiamonds/screenshots/mainmenu.gif
   - http://www.artsoft.org/rocksndiamonds/screenshots/emeraldmine.gif

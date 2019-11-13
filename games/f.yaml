@@ -13,7 +13,8 @@
   updated: 2019-09-13
 
 - name: F-Zero Clone
-  framework: WebGL
+  framework:
+  - WebGL
   lang:
   - JavaScript
   - CoffeeScript
@@ -44,7 +45,8 @@
   url: https://www.ProjectF.hk/F.LF
 
 - name: f2bgl
-  framework: SDL
+  framework:
+  - SDL
   lang:
   - C++
   license:
@@ -56,7 +58,8 @@
   type: remake
 
 - name: Falling Time
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - https://raw.github.com/cxong/fallingtime/master/screenshot.png
   lang:
@@ -88,7 +91,8 @@
   url: https://falltergeist.org/
 
 - name: Fanwor
-  framework: SDL
+  framework:
+  - SDL
   images:
   - https://fanwor.tuxfamily.org/fanwor-1.png
   - https://fanwor.tuxfamily.org/fanwor-2.png
@@ -308,7 +312,8 @@
     (Age of Empires 1, Star Wars: Galactic Battlegrounds, etc.), but the focus is on Age of Empires 2: The Conquerors.'
 
 - name: FreeBlocks
-  framework: SDL2
+  framework:
+  - SDL2
   images:
   - https://i.imgur.com/XDBQy0o.png
   - https://i.imgur.com/TryDIGI.png
