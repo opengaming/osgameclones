@@ -153,7 +153,7 @@ const checkRepoGoogleCode = game => {
 
 const checkRepoAdded = game => {
   if (!game.repo) return
-  const match = game.repo.match(/github.com\/(\w+)\//)
+  const match = game.repo.match(/github.com\/([^/]+)\//)
   if (!match) return
   const author = match[1]
   message(`💌 Hey @${author}, we're adding your game to osgameclones!`)
