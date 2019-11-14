@@ -54,6 +54,7 @@ const knownLanguages = [
   'Swift',
   'TorqueScript',
   'TypeScript',
+  'Vala',
   'Visual FoxPro'
 ]
 
