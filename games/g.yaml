@@ -338,6 +338,28 @@
   content: open
   updated: 2019-08-02
 
+- name: Granatier
+  originals:
+  - Bomberman
+  type: clone
+  repo: https://cgit.kde.org/granatier.git
+  url: https://kde.org/applications/games/org.kde.granatier
+  development: very active
+  status: playable
+  multiplayer:
+  - Competitive
+  content: free
+  lang:
+  - C++
+  framework:
+  - Qt
+  license:
+  - GPL2
+  updated: 2019-11-14
+  images:
+  - https://kde.org/applications/thumbnails/org.kde.granatier/granatier.png
+
+
 - name: grid-leader
   framework:
   - Panda3D
