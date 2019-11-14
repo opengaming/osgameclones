@@ -291,6 +291,35 @@
   updated: 2019-06-09
   url: http://www.siedler25.org/
 
+- name: ReTux
+  originals:
+  - Super Mario
+  type: clone
+  repo: 'https://savannah.nongnu.org/projects/retux'
+  url: 'http://retux.nongnu.org/'
+  feed: 'https://savannah.nongnu.org/news/atom.php?group=retux'
+  development: halted
+  status: playable
+  content: open
+  lang:
+  - Python
+  framework:
+  - pygame
+  license:
+  - CC0
+  - CC-BY
+  - CC-BY-SA
+  - GPL2
+  - GPL3
+  info: >-
+    Loosely inspired by the Mario games, utilizing the art assets from the
+    SuperTux project. 
+  updated: '2019-11-15'
+  images:
+  - 'http://retux.nongnu.org/screenshots/screenshot1.jpg'
+  - 'http://retux.nongnu.org/screenshots/screenshot2.jpg'
+  - 'http://retux.nongnu.org/screenshots/screenshot3.jpg'
+
 - name: rfk-inform
   images:
   - http://robotfindskitten.org/shots/Inform/rfk-inform01.png
