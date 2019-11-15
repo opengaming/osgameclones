@@ -1,4 +1,5 @@
 # Open Source Game Clones
+[![Build Status](https://travis-ci.org/opengaming/osgameclones.svg?branch=master)](https://travis-ci.org/opengaming/osgameclones)
 
 This is the source of [http://osgameclones.com](http://osgameclones.com).
 Feel free to add new games or improve information about those already in the database
