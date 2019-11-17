@@ -418,6 +418,25 @@
   type: remake
   updated: 2016-05-09
 
+- name: Citybound
+  originals:
+  - Simcity
+  type: clone
+  repo: https://github.com/citybound/citybound
+  url: https://aeplay.org/citybound
+  development: active
+  status: semi-playable
+  content: open
+  lang:
+  - Rust
+  license:
+  - AGPL3
+  updated: 2019-11-14
+  images:
+  - http://157.245.209.254/content/images/2019/10/citybound-traffic.gif
+  video:
+    youtube: 5YIwHN1vRYk
+
 - name: Civ-Remake
   lang:
   - Ruby
@@ -908,3 +927,23 @@
   type: remake
   updated: 2015-04-16
   url: http://cytadela.sourceforge.net/
+
+- name: Cytopia
+  originals:
+  - Simcity
+  type: clone
+  repo: https://github.com/CytopiaTeam/Cytopia
+  url: https://cytopia.net/
+  development: active
+  status: playable
+  content: open
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - GPL3
+  updated: 2019-11-15
+  images:
+  - https://camo.githubusercontent.com/e47f829fc3e9cdf115ba46e72a8187f56c9485f2/68747470733a2f2f7777772e6379746f7069612e6e65742f6769746875622f53637265656e73686f74322e6a7067
+  - https://camo.githubusercontent.com/27d0697f21f286fd4c1f8b68cbfa342036c0d085/687474703a2f2f6379746f7069612e6e65742f6769746875622f53637265656e73686f74312e706e67
