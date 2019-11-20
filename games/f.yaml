@@ -85,10 +85,11 @@
   content: commercial
   originals:
   - Fallout 2
-  repo: https://github.com/alexeevdv/falltergeist
+  repo: https://github.com/falltergeist/falltergeist
   status: unplayable
   type: remake
   url: https://falltergeist.org/
+  updated: 2019-11-20
 
 - name: Fanwor
   framework:
@@ -513,12 +514,12 @@
   - Java
   license:
   - GPL2
-  development: active
+  development: halted
   originals:
   - Warlords II
-  repo: https://gitlab.com/freedroid/freedroid-src
+  repo: https://sourceforge.net/projects/freelords/
   type: remake
-  updated: 2015-04-06
+  updated: 2019-11-20
   url: https://sourceforge.net/p/freelords/wiki/Home/
 
 - name: Freenukum Jump'n Run
@@ -677,10 +678,10 @@
   development: active
   originals:
   - The Sims Online
-  repo: https://github.com/RHY3756547/FreeSO
+  repo: https://github.com/riperiperi/FreeSO
   status: playable
   type: remake
-  updated: 2016-12-04
+  updated: 2019-11-20
   url: https://freeso.org/
   video:
     youtube: x35aPzAi55M
@@ -788,10 +789,12 @@
   development: halted
   originals:
   - Guitar Hero
-  repo: https://sourceforge.net/projects/fretsonfire/
+  repo:
+  - https://github.com/skyostil/fretsonfire
+  - https://sourceforge.net/projects/fretsonfire/
   status: playable
   type: remake
-  updated: 2014-08-20
+  updated: 2019-11-20
   url: http://fretsonfire.sourceforge.net/
 
 - name: Frets on Fire X
@@ -834,13 +837,13 @@
   lang:
   - Python
   license:
-  - GPL2
+  - GPL3
   development: halted
   originals:
   - Frogger
   repo: https://sourceforge.net/projects/froggix/
   type: remake
-  updated: 2015-04-15
+  updated: 2019-11-20
 
 - name: Frontier 1337
   images:
