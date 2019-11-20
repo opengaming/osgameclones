@@ -164,6 +164,32 @@
   type: remake
   url: http://www.iris2.de/
 
+- name: iortcw
+  originals:
+  - Return to Castle Wolfenstein
+  type: remake
+  repo: 'https://github.com/iortcw/iortcw'
+  feed: 'https://github.com/iortcw/iortcw/releases.atom'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  - Co-op
+  content: commercial
+  lang:
+  - C
+  framework:
+  - SDL2
+  license:
+  - Custom
+  - GPL3
+  info: Merge of ioquake3 features and fixes into RTCW code bases
+  updated: '2019-11-20'
+  video:
+    youtube: iDwbo-ecJQw
+
 - name: Iron Seed
   lang:
   - Pascal
