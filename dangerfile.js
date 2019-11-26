@@ -106,6 +106,7 @@ const knownFrameworks = [
   'Qt',
   'React',
   'Redux',
+  'rot.js',
   'Rx.js',
   'SDL',
   'SDL2',
