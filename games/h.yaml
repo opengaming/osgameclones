@@ -46,21 +46,23 @@
   updated: 2013-05-27
   url: http://www.hardwar.org/
 
-- name: Harvest Cynthia
-  images:
-  - https://camo.githubusercontent.com/737f3a6811bce5e9ce2bb54a89d92a78cc1a5986/687474703a2f2f6673352e64697265637475706c6f61642e6e65742f696d616765732f3136303330382f787077797132736e2e6a7067
-  info: Project name undecided and may change in the future.
-  lang:
-  - C++
-  license:
-  - GPL3
-  development: sporadic
+- name: Harvest Moon 2.0
   originals:
   - Story of Seasons series
-  repo: https://github.com/whiteshampoo/moon
-  status: unplayable
   type: clone
-  updated: 2016-12-11
+  repo: 'https://github.com/Kenny-Haworth/Harvest-Moon-2.0'
+  development: sporadic
+  content: free
+  lang:
+  - GDScript
+  framework:
+  - Godot
+  license:
+  - As-is
+  updated: '2019-11-26'
+  images:
+  - >-
+    https://github.com/Kenny-Haworth/Harvest-Moon-2.0/raw/master/Harvest%20Moon%20Screenshot.PNG
   
 - name: Greentwip's Harvest Moon
   info: Harvest Moon (SNES) remake for UWP and Xbox One.
