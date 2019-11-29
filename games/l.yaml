@@ -86,6 +86,30 @@
   type: remake
   updated: 2017-10-15
 
+- name: LBreakoutHD
+  originals:
+  - Breakout
+  type: clone
+  repo: 'http://prdownloads.sourceforge.net/lgames/lbreakouthd-1.0.5.tar.gz'
+  url: 'http://lgames.sourceforge.net/LBreakoutHD/'
+  development: sporadic
+  status: playable
+  content: free
+  lang:
+  - C++
+  license:
+  - GPL2
+  info: >-
+    LBreakoutHD is a scaleable 16:9 remake of LBreakout2. You try to clear levels
+    full of different types of bricks and extras by using your paddle to aim balls
+    at the bricks. All LBreakout2 themes and levelsets work. New themes can be of
+    any resolution.
+  updated: '2019-11-29'
+  images:
+  - 'http://lgames.sourceforge.net/LBreakoutHD/ss0.jpg'
+  - 'http://lgames.sourceforge.net/LBreakoutHD/ss1.jpg'
+  - 'http://lgames.sourceforge.net/LBreakoutHD/ss2.jpg'
+
 - name: The Legend Of Zelda - Navi's Quest
   framework:
   - SDL
