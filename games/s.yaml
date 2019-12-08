@@ -720,19 +720,6 @@
   updated: 2019-03-06
   url: https://smcameron.github.io/space-nerds-in-space/
 
-- name: Space Station 14
-  lang:
-  - C#
-  license:
-  - GPL3
-  development: active
-  originals:
-  - Space Station 13
-  repo: https://github.com/ss13remake/ss13remake
-  type: remake
-  updated: 2016-10-09
-  url: http://www.spacestation14.com/
-
 - name: Space Twitch
   lang:
   - C#
@@ -887,16 +874,19 @@
     youtube: 76jFZvpvwoA
 
 - name: ss13remake
-  lang:
-  - C#
-  license:
-  - GPL3
-  development: halted
   originals:
   - Space Station 13
-  repo: https://github.com/ss13remake/ss13remake
   type: remake
-  updated: 2015-06-24
+  repo: 'https://github.com/ss13remake/ss13remake'
+  development: halted
+  content: open
+  lang:
+  - 'C#'
+  license:
+  - CC-BY-SA
+  - GPL3
+  info: This is a defunct attempt at an SS13 remake
+  updated: '2019-12-09'
 
 - name: Star Ruler 2
   development: complete
