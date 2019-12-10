@@ -154,6 +154,12 @@ const checkRepoGoogleCode = game => {
   }
 }
 
+const checkRepoSVN = game => {
+  if (game.repo && game.repo.startsWith("svn://")) {
+    warn(`🔗 ${game.name}'s repo is an SVN repo, which cannot be opened in browsers by default. Please change it to the project's developer web page.`)
+  }
+}
+
 const checkRepoAdded = game => {
   if (!game.repo) return
   const match = game.repo.match(/github.com\/([^/]+)\//)
@@ -195,6 +201,7 @@ const checkHasImagesOrVideos = game => {
 const commonChecks = game => {
   checkGameUpdated(game)
   checkRepoGoogleCode(game)
+  checkRepoSVN(game)
   checkLanguageKnown(game)
   checkFrameworkKnown(game)
   checkHasImagesOrVideos(game)
