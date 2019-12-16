@@ -946,18 +946,28 @@
   updated: 2015-06-01
 
 - name: Stargus
-  lang:
-  - C++
-  - Lua
-  license:
-  - GPL2
-  development: sporadic
   originals:
   - Starcraft
-  repo: https://code.launchpad.net/stargus
   type: remake
-  updated: 2013-06-08
-  url: http://stargus.stratagus.com/
+  repo: 'https://github.com/Wargus/stargus'
+  url: 'http://stargus.stratagus.com/'
+  feed: 'https://github.com/Wargus/stargus/releases.atom'
+  development: sporadic
+  status: semi-playable
+  content: commercial
+  lang:
+  - Lua
+  - C++
+  license:
+  - GPL2
+  info: Starcraft Mod that allows you to play Starcraft with the Stratagus engine
+  updated: '2019-12-16'
+  images:
+  - 'http://stargus.sourceforge.net/screenshots/screen01.jpg'
+  - 'http://stargus.sourceforge.net/screenshots/screen04.jpg'
+  - 'http://stargus.sourceforge.net/screenshots/screen07.jpg'
+  video:
+    youtube: vO4DxWZhqvc
 
 - name: Starlane Empire
   lang:
