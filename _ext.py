@@ -216,7 +216,7 @@ def parse_data(site):
     originals = []
     for fn in os.listdir(op.join(base, 'originals')):
         if fn.endswith('.yaml'):
-            originals.extend(yaml.safe_load(open(op.join(base, 'originals', fn))))
+            originals.extend(yaml.safe_load(open(op.join(base, 'originals', fn), encoding="utf-8")))
     def sort_key(game):
         name = game_name(game)
         # Always sort SCUMM first
@@ -232,7 +232,7 @@ def parse_data(site):
     clones = []
     for fn in sorted(os.listdir(op.join(base, 'games'))):
         if fn.endswith('.yaml'):
-            clones.extend(yaml.safe_load(open(op.join(base, 'games', fn))))
+            clones.extend(yaml.safe_load(open(op.join(base, 'games', fn), encoding="utf-8")))
     print(str(len(clones)) + ' clones in total')
     validate_with_schema(clones, 'schema/games.yaml')
 
