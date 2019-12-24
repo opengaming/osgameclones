@@ -83,7 +83,7 @@ def parse_tags(entry, keys):
     return result
 
 
-def parse_global_tags(site, item, tag):
+def parse_global_tags(site, item, tag, item_key: str):
     if tag in item:
         if not getattr(site, tag, False):
             setattr(site, tag, {})
@@ -94,8 +94,10 @@ def parse_global_tags(site, item, tag):
         for t in item[tag]:
             tagObj = getattr(site, tag, False)
             if not tagObj.get(t, False):
-                tagObj[t] = {'tag_count': 0}
-            tagObj[t]['tag_count'] += 1
+                tagObj[t] = {'tag_count': 0, 'keys': set()}
+            if item_key not in tagObj[t]['keys']:
+                tagObj[t]['tag_count'] += 1
+                tagObj[t]['keys'].add(item_key)
 
     setattr(site, tag, OrderedDict(sorted(getattr(site, tag, {}).items())))
 
@@ -164,11 +166,12 @@ def parse_items(site, item, key):
     meta = item.get('meta', {})
     meta["names_ascii"] = parse_unicode(names(item))
     meta["external"] = item.get('external', {})
+    parse_global_tags(site, meta, 'genre', item['name'])
 
     parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)
 
     for game in item[key]:
-        parse_global_tags(site, game, 'lang')
+        parse_global_tags(site, game, 'lang', game['name'])
 
     item = (names(item), meta, [parse_fn(i) for i in item[key]])
     getattr(site, key).append(item)
@@ -271,7 +274,6 @@ def parse_data(site):
         show_errors(errors)
 
     for item in originals:
-        parse_global_tags(site, item.get('meta', {}), 'genre')
         # Recombine originals and clones
         combined = copy.deepcopy(item)
         name = game_name(combined)
