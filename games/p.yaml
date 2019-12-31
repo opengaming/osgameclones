@@ -358,6 +358,29 @@
   type: remake
   updated: 2016-05-14
 
+- name: Planet Lander
+  originals:
+  - Lunar Lander
+  type: clone
+  repo: 'https://github.com/maxerbox/Planet-Lander-with-pygame'
+  development: active
+  status: playable
+  content: free
+  lang:
+  - Python
+  framework:
+  - pygame
+  license:
+  - As-is
+  updated: '2019-12-31'
+  images:
+  - >-
+    https://github.com/maxerbox/Planet-Lander-with-pygame/raw/master/media/media/intro.png
+  - >-
+    https://github.com/maxerbox/Planet-Lander-with-pygame/raw/master/media/media/ai.png
+  - >-
+    https://github.com/maxerbox/Planet-Lander-with-pygame/raw/master/media/media/credit.png
+
 - name: Play Freeciv!
   info: online browser game
   lang:
