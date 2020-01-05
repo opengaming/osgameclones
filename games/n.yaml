@@ -19,15 +19,25 @@
   - Blood
   repo: https://github.com/nukeykt/NBlood
   url: https://nukeykt.retrohost.net/
-  development: active
+  development: very active
   status: playable
+  multiplayer:
+  - Online
+  - LAN
+  - Co-op
   lang:
   - C++
+  framework:
+  - SDL
+  - SDL2
+  - OpenGL
   license:
   - GPL2
   content: commercial
-  info: NBlood use EDuke32 as base
-  updated: 2019-05-14
+  info: Blood port based on EDuke32
+  video:
+    youtube: Ocs-UDivylA
+  updated: 2020-01-05
 
 - name: Netacka
   images:
