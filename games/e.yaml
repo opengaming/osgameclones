@@ -107,21 +107,29 @@
   url: https://maniacsvault.net/ecwolf/
 
 - name: EDuke32
-  images:
-  - http://hrp.duke4.net/screens/ep1/e1l1_01s.jpg
-  - http://hrp.duke4.net/screens/ep1/e1l2_02s.jpg
-  - http://hrp.duke4.net/screens/ep1/e1l5_01s.jpg
-  - http://hrp.duke4.net/screens/ep2/e2l3_04s.jpg
-  lang:
-  - C
-  license:
-  - GPL2
-  development: active
   originals:
   - Duke Nukem 3D
-  repo: https://sourceforge.net/projects/eduke32/
   type: remake
+  status: playable
+  development: very active
+  repo: https://svn.eduke32.com/eduke32/
   url: https://www.eduke32.com/
+  license:
+  - Custom
+  lang:
+  - C++
+  framework:
+  - SDL
+  - SDL2
+  - OpenGL
+  images:
+  - https://eduke32.com/images/shots/polymer2.jpg
+  - https://eduke32.com/images/shots/polymer.jpg
+  - https://eduke32.com/images/shots/duke3d_2.jpg
+  - https://eduke32.com/images/shots/duke3d_3.jpg
+  video:
+    youtube: M30qo5oA5rs
+  updated: 2020-01-07
 
 - name: EmptyEpsilon
   images:
@@ -271,17 +279,18 @@
   images:
   - https://i.imgur.com/J5RDcIz.png
 
-- name: erampage (EDuke32 fork)
+- name: erampage
+  info: Based on EDuke32
   lang:
   - C
   license:
-  - GPL2
+  - Custom
   development: halted
   originals:
   - Redneck Rampage
   repo: https://github.com/ttyborg/erampage
   type: remake
-  updated: 2018-10-05
+  updated: 2020-01-07
   url: http://www.jonhunt.com/redneck/erampage.html
 
 - name: Escalade
