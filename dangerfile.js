@@ -61,6 +61,7 @@ const knownLanguages = [
 let unknownFrameworkDetected = false
 const knownFrameworks = [
   '.NET Core',
+  'Adobe AIR',
   'Allegro',
   'BackBone.js',
   'Box2D',
