@@ -11,6 +11,27 @@
   type: remake
   updated: 2017-09-08
 
+- name: UAlbion
+  type: remake
+  originals:
+  - Albion
+  repo: https://github.com/csinkers/ualbion
+  development: active
+  status: unplayable
+  lang:
+  - 'C#'
+  - 'F#'
+  license:
+  - MIT
+  content: commercial
+  images:
+  - https://raw.githubusercontent.com/csinkers/ualbion/master/data/Screenshots/1_FirstLevel.png
+  - https://raw.githubusercontent.com/csinkers/ualbion/master/data/Screenshots/2_3DWorld.png
+  - https://raw.githubusercontent.com/csinkers/ualbion/master/data/Screenshots/3_Outdoors.png
+  - https://raw.githubusercontent.com/csinkers/ualbion/master/data/Screenshots/4_Inventory.png
+  - https://raw.githubusercontent.com/csinkers/ualbion/master/data/Screenshots/5_MainMenu.png
+  updated: 2020-02-06
+
 - name: Uebergame
   development: active
   framework:
@@ -170,7 +191,7 @@
   url: http://jackyjjc.com/
   images:
   - https://media.githubusercontent.com/media/JohanLi/uncharted-waters-2/readme-assets/uncharted-waters-2.png
-  
+
 - name: UnCiv
   type: remake
   originals:
