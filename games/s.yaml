@@ -394,7 +394,7 @@
   updated: 2019-11-15
   video:
     youtube: 6v1USVhtfjQ
-  
+
 - name: Simitone
   type: remake
   originals:
@@ -895,6 +895,34 @@
   url: http://spring1944.net
   video:
     youtube: 76jFZvpvwoA
+
+- name: SR
+  type: tool
+  originals:
+  - Albion
+  - 'Septerra Core: Legacy of the Creator'
+  - 'Warcraft: Orcs & Humans'
+  - 'X-COM: Terror from the Deep'
+  - 'X-COM: UFO Defense'
+  repo: https://github.com/M-HT/SR
+  development: active
+  status: playable
+  lang:
+  - C
+  - Assembly
+  framework:
+  - SDL
+  - OpenGL
+  license:
+  - MIT
+  - GPL2
+  - LGPL2
+  content: commercial
+  info: >-
+    A tool to statically recompile the original game executable to create a
+    Windows or Linux (x86 or ARM) version of the game, including some
+    enhancements
+  updated: 2020-02-07
 
 - name: ss13remake
   originals:
