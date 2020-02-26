@@ -1,6 +1,7 @@
 'use strict';
 
 var OSGC = window.OSGC = {};
+var params = window.params = {};
 
 // menu
 (function() {
@@ -296,7 +297,19 @@ function getQueryParams() {
     return queryParams;
 }
 
-function setQueryParams(params) {
-  //history.replaceState({}, null, '?pepito=222');
+function setQueryParams(key, value) {
+  params[key] = value;
+  var url = '?';
+  Object.keys(params).map(function(key, i) {
+    if (i !== 0) {
+        url += '&';
+    }
+    url += encodeURIComponent(key) + '=' + encodeURIComponent(params[key]);
+  });
+  history.replaceState({}, null, url);
 }
 
+(function () {
+    params = getQueryParams();
+    
+})(); 
