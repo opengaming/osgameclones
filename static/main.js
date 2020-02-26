@@ -280,21 +280,23 @@ var OSGC = window.OSGC = {};
   window.addEventListener('resize', lazyloadHandler);
 })();
 
-(function() {
-    function getQueryParams() {
-        var queryParams = window.location.search.substr(1).split('&').reduce(function (q, query) {
-          var chunks = query.split('=');
-          var key = chunks[0];
-          var value = decodeURIComponent(chunks[1]);
-          value = isNaN(Number(value))? value : Number(value);
-          return (q[key] = value, q);
-        }, {});
-        
-        return queryParams;
-    }
 
-    function setQueryParams(params) {
-      //history.replaceState({}, null, '?pepito=222');
-    }
-})();
+function getQueryParams() {
+    var queryParams = window.location.search.substr(1).split('&').reduce(function (q, query) {
+      var chunks = query.split('=');
+      var key = chunks[0];
+      if (typeof(chunks[1]) == 'undefined') {
+          return ({}, q);
+      }
+      var value = decodeURIComponent(chunks[1]);
+      value = isNaN(Number(value))? value : Number(value);
+      return (q[key] = value, q);
+    }, {});
+    
+    return queryParams;
+}
+
+function setQueryParams(params) {
+  //history.replaceState({}, null, '?pepito=222');
+}
 
