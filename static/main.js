@@ -298,6 +298,14 @@ function getQueryParams() {
 }
 
 function setQueryParams(key, value) {
+  if (value === null) {
+    params = Object.keys(params).reduce(function(object, key_it) {
+      if (key_it !== key) {
+          object[key] = params[key];
+      }
+      return object;
+    }, {});
+  }
   params[key] = value;
   var url = '?';
   Object.keys(params).map(function(key, i) {
