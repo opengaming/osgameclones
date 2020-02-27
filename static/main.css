@@ -48,12 +48,14 @@ footer { text-align: center; margin-top: 2em; }
 #nav { display: inline-block; list-style: none; margin: 0; padding: 0; }
 #nav li { display: inline-block; }
 
-#nav .nav-btn, #darkThemeButton {
+#nav .nav-btn, .nav-count, #darkThemeButton {
   display: inline-block;
   font-size: 14px;
   line-height: 30px;
   padding: 0 10px;
-  color: #555;
+  color: #555; }
+
+#nav .nav-btn, #darkThemeButton {
   cursor: pointer; }
 
 #nav li:hover .nav-btn,
@@ -247,7 +249,8 @@ dd + dt { margin-top: 1em; }
   background-color: #252525;
 }
 
-.darkTheme #nav .nav-btn {
+.darkTheme #nav .nav-btn,
+.darkTheme #nav .nav-count {
   color: #817F7F;
 }
 
@@ -259,7 +262,8 @@ dd + dt { margin-top: 1em; }
 
 .darkTheme a { color: #0686CB}
 
-.darkTheme #nav li.active .nav-btn {
+.darkTheme #nav li.active .nav-btn,
+.darkTheme #nav li.active .nav-count {
    color: #000
 }
 

@@ -120,7 +120,6 @@ function highlightTags(tag) {
   }
 
   function onclick(e) {
-    console.log(activeTag);
     var t = e.target.hasAttribute('data-name') ? e.target : e.target.parentNode;
     var curTag = t.getAttribute('data-name');
 
@@ -332,6 +331,11 @@ function setQueryParams(key, value) {
     url += encodeURIComponent(key) + '=' + encodeURIComponent(params[key]);
   });
   history.replaceState({}, null, url);
+}
+
+function setCount() {
+  var count = ' games';
+  document.getElementsByClassName('nav-count')[0].innerHTML = count;
 }
 
 (function () {
