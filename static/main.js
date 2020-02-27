@@ -68,6 +68,7 @@ var activeTag = window.activeTag = null;
             style.innerHTML = "";
             return;
         }
+        setQueryParams('search', this.value);
         style.innerHTML =
             ".searchable {display: none} .searchable" +
             this.value.split(' ').map(getfilter).join('') +
