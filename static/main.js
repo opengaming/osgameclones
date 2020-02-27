@@ -44,36 +44,42 @@ var activeTag = window.activeTag = null;
 })();
 
 // search handling
+function getfilter(term) {
+  return !term ? "" :
+    '[data-index*="' + term.toLowerCase().replace('"', '') + '"]';
+}
+
+var filter_style = document.getElementById('filter-style');
+
+function filter(filter_value) {
+  if (!filter_value) {
+    setQueryParams('filter', null);
+    filter_style.innerHTML = "";
+    return;
+  }
+  setQueryParams('filter', filter_value);
+  filter_style.innerHTML =
+    ".searchable {display: none} .searchable" +
+    filter_value.split(' ').map(getfilter).join('') +
+    "{display: block}";
+}
+
 (function() {
-    // collect indexes on dt
-    var nodes = document.getElementsByTagName('dt');
-    for (var i = 0, l = nodes.length; i < l; i++) {
-        var el = nodes[i], next = el, index = [];
-        while ((next = next.nextElementSibling) && !next.id) {
-            if (next.tagName != 'DD')
-                continue;
-            index.push(next.getAttribute('data-index'));
-        }
-        el.setAttribute('data-index', index.join(' '));
-    };
-
-    var getfilter = function(term) {
-        return !term ? "" :
-            '[data-index*="' + term.toLowerCase().replace('"', '') + '"]';
+  // collect indexes on dt
+  var nodes = document.getElementsByTagName('dt');
+  for (var i = 0, l = nodes.length; i < l; i++) {
+    var el = nodes[i], next = el, index = [];
+    while ((next = next.nextElementSibling) && !next.id) {
+      if (next.tagName != 'DD')
+        continue;
+      index.push(next.getAttribute('data-index'));
     }
+    el.setAttribute('data-index', index.join(' '));
+  };
 
-    var style = document.getElementById('filter-style');
-    document.getElementById('filter').addEventListener('input', function() {
-        if (!this.value) {
-            style.innerHTML = "";
-            return;
-        }
-        setQueryParams('search', this.value);
-        style.innerHTML =
-            ".searchable {display: none} .searchable" +
-            this.value.split(' ').map(getfilter).join('') +
-            "{display: block}";
-    });
+  document.getElementById('filter').addEventListener('input', function() {
+    filter(this.value);
+  });
 })();
 
 // tag handling
@@ -337,5 +343,10 @@ function setQueryParams(key, value) {
     setQueryParams('tag', params['tag']);
     
     filterByTag(params['tag']);
+  }
+  
+  if (params.hasOwnProperty('filter')) {
+    filter(params['filter']);
+    document.getElementById('filter').value = params['filter'];
   }
 })(); 
