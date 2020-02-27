@@ -62,6 +62,7 @@ function filter(filter_value) {
     ".searchable {display: none} .searchable" +
     filter_value.split(' ').map(getfilter).join('') +
     "{display: block}";
+  setCount();
 }
 
 (function() {
@@ -103,6 +104,7 @@ function filterByTag(curTag) {
       parent.classList.remove('active');
     }
   }
+  setCount();
 }
 
 function highlightTags(tag) {
@@ -335,10 +337,18 @@ function setQueryParams(key, value) {
 
 function setCount() {
   var count = ' games';
-  document.getElementsByClassName('nav-count')[0].innerHTML = count;
+  var total = document.getElementsByTagName('dd').length;
+  var hidden = Array.prototype.slice.call(document.getElementsByTagName('dd')).reducer(function(count_hidden, game) {
+      if (game.getBoundingClientRect().width + game.getBoundingClientRect().height === 0) {
+          return count_hidden + 1
+      }
+  }, 0);
+  2
+  document.getElementsByClassName('nav-count')[0].innerHTML = (total - hidden) + "/" + total + count;
 }
 
 (function () {
+  setCount();
   params = getQueryParams();
   if (params.hasOwnProperty('tag')) {
     activeTag = params['tag'];
