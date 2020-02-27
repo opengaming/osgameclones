@@ -2,6 +2,7 @@
 
 var OSGC = window.OSGC = {};
 var params = window.params = {};
+var activeTag = window.activeTag = null;
 
 // menu
 (function() {
@@ -75,53 +76,60 @@ var params = window.params = {};
 })();
 
 // tag handling
-(function() {
+function filterByTag(curTag) {
   var games = document.getElementsByTagName('dd');
+  var game, gameTags;
+  var parent;
+
+  for (var i = 0, len = games.length; i < len; i += 1) {
+    game = games[i];
+    gameTags = game.getAttribute('data-tags').split(' ');
+    parent = document.getElementById(game.getAttribute('data-parent'));
+
+    if (gameTags && gameTags.indexOf(curTag) > -1) {
+      if (!game.classList.contains('active')) {
+        game.classList.add('active');
+        parent.classList.add('active');
+      }
+    } else if (game.classList.contains('active')) {
+      game.classList.remove('active');
+      parent.classList.remove('active');
+    }
+  }
+}
+
+function highlightTags(tag) {
+  var style = document.getElementById('tag-style');
+  var line = '.tag[data-name=\"' + tag + '\"] { color: #ccc; background-color: #444; }';
+  line += '.darkTheme .tag[data-name=\"' + tag + '\"] { color: #444; background-color: #ccc; }';
+  style.innerHTML = tag ? line : '';
+}
+
+(function() {
   var tags = document.getElementsByClassName('tag');
-  var activeTag;
 
   for (var i = 0, l = tags.length; i < l; i += 1) {
     tags[i].addEventListener('click', onclick);
   }
 
   function onclick(e) {
+    console.log(activeTag);
     var t = e.target.hasAttribute('data-name') ? e.target : e.target.parentNode;
     var curTag = t.getAttribute('data-name');
-    var parent;
-    var game, gameTags;
 
     if (curTag === activeTag) {
       activeTag = null;
       document.body.classList.remove('tags-active');
       highlightTags(null);
+      setQueryParams('tag', null);
     } else {
       activeTag = curTag;
       document.body.classList.add('tags-active');
       highlightTags(curTag);
+      setQueryParams('tag', curTag);
     }
-
-    for (var i = 0, len = games.length; i < len; i += 1) {
-      game = games[i];
-      gameTags = game.getAttribute('data-tags').split(' ');
-      parent = document.getElementById(game.getAttribute('data-parent'));
-
-      if (gameTags && gameTags.indexOf(curTag) > -1) {
-        if (!game.classList.contains('active')) {
-          game.classList.add('active');
-          parent.classList.add('active');
-        }
-      } else if (game.classList.contains('active')) {
-        game.classList.remove('active');
-        parent.classList.remove('active');
-      }
-    }
-  }
-
-  function highlightTags(tag) {
-    var style = document.getElementById('tag-style');
-    var line = '.tag[data-name=\"' + tag + '\"] { color: #ccc; background-color: #444; }';
-    line += '.darkTheme .tag[data-name=\"' + tag + '\"] { color: #444; background-color: #ccc; }';
-    style.innerHTML = tag ? line : '';
+    
+    filterByTag(curTag);
   }
 })();
 
@@ -306,7 +314,9 @@ function setQueryParams(key, value) {
       return object;
     }, {});
   }
-  params[key] = value;
+  else {
+    params[key] = value;
+  }
   var url = '?';
   Object.keys(params).map(function(key, i) {
     if (i !== 0) {
@@ -318,6 +328,13 @@ function setQueryParams(key, value) {
 }
 
 (function () {
-    params = getQueryParams();
+  params = getQueryParams();
+  if (params.hasOwnProperty('tag')) {
+    activeTag = params['tag'];
+    document.body.classList.add('tags-active');
+    highlightTags(params['tag']);
+    setQueryParams('tag', params['tag']);
     
+    filterByTag(params['tag']);
+  }
 })(); 
