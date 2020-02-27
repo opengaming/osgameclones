@@ -338,12 +338,13 @@ function setQueryParams(key, value) {
 function setCount() {
   var count = ' games';
   var total = document.getElementsByTagName('dd').length;
-  var hidden = Array.prototype.slice.call(document.getElementsByTagName('dd')).reducer(function(count_hidden, game) {
+  var hidden = Array.prototype.slice.call(document.getElementsByTagName('dd')).reduce(function(count_hidden, game) {
       if (game.getBoundingClientRect().width + game.getBoundingClientRect().height === 0) {
           return count_hidden + 1
       }
+      return count_hidden;
   }, 0);
-  2
+  
   document.getElementsByClassName('nav-count')[0].innerHTML = (total - hidden) + "/" + total + count;
 }
 
