@@ -44,23 +44,23 @@ var activeTag = window.activeTag = null;
 })();
 
 // search handling
-function getfilter(term) {
+function getFilter(term) {
   return !term ? "" :
     '[data-index*="' + term.toLowerCase().replace('"', '') + '"]';
 }
 
-var filter_style = document.getElementById('filter-style');
+var filterStyle = document.getElementById('filter-style');
 
 function filter(filter_value) {
   if (!filter_value) {
     setQueryParams('filter', null);
-    filter_style.innerHTML = "";
+    filterStyle.innerHTML = "";
     return;
   }
   setQueryParams('filter', filter_value);
-  filter_style.innerHTML =
+  filterStyle.innerHTML =
     ".searchable {display: none} .searchable" +
-    filter_value.split(' ').map(getfilter).join('') +
+    filter_value.split(' ').map(getFilter).join('') +
     "{display: block}";
   setCount();
 }
