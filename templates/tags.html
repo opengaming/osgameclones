@@ -21,11 +21,12 @@
       {% set tag_names = [tag_names] %}
     {%- endif -%}
 
-    <span class="tag-groups"> {{ tag_class }}: 
+    <span class="tag-groups" {% if tag_class != "lang" %}itemprop="description"{% endif %}> {{ tag_class }}:
     {%- for tag_name in tag_names %}
       {%- set className = ["tag", tag_class.lower(), tag_name.lower().replace(' ', '-')] -%}
       {%- set dataName = tag_name.lower().replace(' ', '-') -%}
-      <span title="{{ tag_class | title }}" class="{{ className | join(' ') }}" data-name="{{ dataName }}">
+      <span title="{{ tag_class | title }}" class="{{ className | join(' ') }}" data-name="{{ dataName }}"
+            {% if tag_class == "lang" %}itemprop="programmingLanguage"{% endif %}>
         {{- tag_name -}}
         {%- if tag_props -%}<span class="tag-badge">{{ tag_props }}</span>{%- endif -%}
       </span>
