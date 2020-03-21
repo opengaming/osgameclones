@@ -12,4 +12,4 @@ RUN apk add --no-cache python3 py3-yaml && \
     pip3 --disable-pip-version-check install pipenv && \
     pipenv install
 RUN env
-RUN pipenv run cyrax /src -d /www
+RUN pipenv run cyrax /src -d /www && pipenv run htmlmin /www/index.html /www/index.html
