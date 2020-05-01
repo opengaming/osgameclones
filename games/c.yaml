@@ -112,7 +112,7 @@
   type: remake
   updated: 2014-02-06
   url: https://reassembler.blogspot.com/
-  
+
 - name: Carnage3D
   lang:
   - C++
@@ -217,6 +217,20 @@
   status: playable
   type: remake
   updated: 2014-07-23
+
+- name: Cattle Bity
+  type: clone
+  originals:
+  - Battle City
+  repo: https://github.com/dogballs/cattle-bity
+  url: https://dogballs.github.io/cattle-bity/
+  development: complete
+  status: playable
+  lang:
+  - TypeScript
+  license:
+  - MIT
+  updated: 2020-05-01
 
 - name: Cave Story Engine 2
   type: remake
