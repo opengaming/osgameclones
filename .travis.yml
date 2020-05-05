@@ -2,8 +2,6 @@ language: python
 cache: pip
 python:
  - '3.7'
-addons:
-  ssh_known_hosts: sirius.solovyov.net
 install:
  - pip install pipenv
  - pipenv install
@@ -12,4 +10,3 @@ script:
  - test 6000 -lt $(cat _build/index.html | wc -l)
  - yarn install
  - yarn danger ci
- - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && .travis/deploy.sh'
