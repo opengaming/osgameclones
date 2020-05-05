@@ -15,6 +15,9 @@ script:
 - yarn install
 - yarn danger ci
 
+before_deploy:
+  - htmlmin _build/index.html _build/index.html
+
 # NETLIFY_AUTH is in env
 deploy:
   provider: netlify
