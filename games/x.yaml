@@ -1,3 +1,20 @@
+- name: Xconq
+  images:
+  - https://en.wikipedia.org/wiki/Xconq#/media/File:Xconq.jpg
+  lang:
+  - C
+  - C++
+  license:
+  - GPL2
+  development: sporadic
+  originals:
+  - Empire
+  repo: https://github.com/brentjohnson/xconq
+  status: playable
+  type: clone
+  updated: 2017-01-31
+  url: https://sourceware.org/xconq/
+
 - name: 'X-Force: Fight For Destiny'
   framework:
   - Kylix
@@ -332,7 +349,7 @@
   - GPL2
   development: halted
   originals:
-  - Ultima IV
+  - 'Ultima IV: Quest of the Avatar'
   repo: https://sourceforge.net/projects/xu4/
   type: remake
   url: http://xu4.sourceforge.net/
