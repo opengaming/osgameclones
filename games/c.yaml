@@ -759,6 +759,24 @@
   type: remake
   updated: 2017-04-19
 
+- name: Cosmo-Engine
+  type: remake
+  originals:
+  - Cosmo's Cosmic Adventure
+  repo: https://github.com/yuv422/cosmo-engine
+  development: active
+  status: playable
+  lang:
+  - C
+  framework:
+  - SDL2
+  license:
+  - GPL2
+  content: commercial
+  updated: 2020-06-14
+  images:
+  - https://raw.githubusercontent.com/yuv422/cosmo-engine/master/img/cosmo-engine.png
+
 - name: Cosmosmash
   framework:
   - SDL
