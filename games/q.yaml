@@ -33,6 +33,30 @@
   images:
   - https://people.gnome.org/~mcatanzaro/quadrapassel.png
 
+- name: Quake3e
+  originals:
+  - Quake 3
+  type: remake
+  repo: 'https://github.com/ec-/Quake3e'
+  url: 'https://github.com/ec-/Quake3e'
+  feed: 'https://github.com/ec-/Quake3e/releases.atom'
+  development: active
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  - LAN
+  content: commercial
+  lang:
+  - C
+  framework:
+  - Vulkan
+  - OpenGL
+  license:
+  - GPL2
+  updated: '2020-07-24'
+
+
 - name: QuakeJS
   lang:
   - JavaScript
