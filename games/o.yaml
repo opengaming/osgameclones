@@ -848,12 +848,13 @@
   - Five Nights at Freddy's
   type: clone
   repo: 'https://github.com/MotoLegacy/OpenFNaF'
-  url: 'https://github.com/MotoLegacy/OpenFNaF'
   development: sporadic
   status: semi-playable
   content: free
   lang:
   - C
+  framework:
+  - SFML
   license:
   - MIT
   updated: '2020-07-24'
@@ -1547,14 +1548,13 @@
   - Solomon's Key
   type: clone
   repo: 'https://github.com/mdodis/OpenSolomonsKey'
-  url: 'https://github.com/mdodis/OpenSolomonsKey'
   development: very active
   status: playable
   content: open
   lang:
   - C++
   license:
-  - PD
+  - Unlicense
   updated: '2020-07-24'
 
 - name: OpenSR
@@ -1815,7 +1815,6 @@
   - Yandere Simulator
   type: clone
   repo: 'https://github.com/Evilpersonwithnosoul/OpenYandere'
-  url: 'https://github.com/Evilpersonwithnosoul/OpenYandere'
   development: halted
   status: semi-playable
   content: free
