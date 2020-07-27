@@ -118,6 +118,34 @@
   type: remake
   updated: 2015-07-29
 
+- name: Reconstruction of Super ZZT
+  type: remake
+  originals:
+  - Super ZZT
+  repo: https://github.com/asiekierka/reconstruction-of-super-zzt
+  development: complete
+  status: playable
+  lang:
+  - Pascal
+  license:
+  - MIT
+  info: Binary-accurate source code reconstruction
+  updated: 2020-06-26
+
+- name: Reconstruction of ZZT
+  type: remake
+  originals:
+  - ZZT
+  repo: https://github.com/asiekierka/reconstruction-of-zzt
+  development: complete
+  status: playable
+  lang:
+  - Pascal
+  license:
+  - MIT
+  info: Binary-accurate source code reconstruction
+  updated: 2020-06-26
+
 - name: RedneckGDX
   originals:
   - Redneck Rampage
@@ -692,6 +720,23 @@
   type: clone
   updated: 2015-04-26
   url: http://sourceforge.net/projects/therush/
+
+- name: RuZZT
+  type: remake
+  originals:
+  - ZZT
+  repo: https://github.com/yokljo/ruzzt
+  development: halted
+  status: playable
+  lang:
+  - Rust
+  framework:
+  - SDL2
+  license:
+  - MIT
+  updated: 2020-06-26
+  images:
+  - https://raw.githubusercontent.com/yokljo/ruzzt/master/screenshot.png
 
 - name: RxWars
   lang:

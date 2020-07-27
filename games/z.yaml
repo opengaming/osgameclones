@@ -155,6 +155,24 @@
     youtube: dyhzqcf7NJM
   updated: 2019-10-21
 
+- name: Zeta
+  type: tool
+  originals:
+  - ZZT
+  - Super ZZT
+  repo: https://github.com/asiekierka/zeta
+  url: https://zeta.asie.pl/
+  development: complete
+  status: playable
+  lang:
+  - C
+  framework:
+  - SDL2
+  license:
+  - MIT
+  info: Dedicated emulator
+  updated: 2020-06-26
+
 - name: Zod Engine
   images:
   - http://zod.sourceforge.net/screenshots/gameplay_13.png
@@ -226,3 +244,16 @@
   url: http://zsilencer.com/
   video:
     youtube: mojUQUONp4M
+
+- name: zztgo
+  type: remake
+  originals:
+  - ZZT
+  repo: https://github.com/benhoyt/zztgo
+  development: halted
+  status: semi-playable
+  lang:
+  - Go
+  license:
+  - MIT
+  updated: 2020-06-26
