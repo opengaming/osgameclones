@@ -115,6 +115,7 @@ const knownFrameworks = [
   'SDL2',
   'Sea3D',
   'SFML',
+  'Slick2D',
   'Source SDK',
   'Spring RTS Engine',
   'Starling',
