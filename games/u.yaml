@@ -52,10 +52,8 @@
   repo: https://github.com/Duion/Uebergame
   status: playable
   type: clone
-  updated: 2016-12-08
+  updated: 2020-08-25
   url: http://duion.com/games/uebergame/main
-  video:
-    youtube: s_xM-0zVM3M
 
 - name: UFO2000
   images:
@@ -80,10 +78,13 @@
 
 - name: 'UFO: Alien Invasion'
   images:
-  - http://ufoai.ninex.info/wiki/images/Nation_Overlay.jpg
-  - http://ufoai.ninex.info/wiki/images/Ufo01.png
-  - http://ufoai.ninex.info/wiki/images/Ufoai2.2_aircraft_team.jpg
-  - http://ufoai.ninex.info/wiki/images/Ufoaiold_base01.jpg
+  - https://ufoai.org/w/images/Ui2_aliencontainment.jpg
+  - https://ufoai.org/w/images/Ui2_baseview_2.jpg
+  - https://ufoai.org/w/images/Ui2_baseview_1.jpg
+  - https://ufoai.org/w/images/Ui2_campaign.jpg
+  - https://ufoai.org/w/images/Ui2_main.jpg
+  - https://ufoai.org/w/images/Ui2_market.jpg
+  - https://ufoai.org/w/images/Ui2_research.jpg
   lang:
   - C
   license:
@@ -97,7 +98,7 @@
   repo: https://sourceforge.net/projects/ufoai/
   type: clone
   url: https://ufoai.org/wiki/News
-  updated: 2019-08-27
+  updated: 2020-08-25
 
 - name: UGH-remake
   lang:
@@ -160,10 +161,6 @@
 - name: UltraStar Deluxe
   framework:
   - SDL2
-  images:
-  - http://ultrastardx.sourceforge.net/screenshots/sing_singscreen.jpg
-  - http://ultrastardx.sourceforge.net/screenshots/game_visualisations.png
-  - http://ultrastardx.sourceforge.net/screenshots/partymode_teams.png
   lang:
   - Object Pascal
   - Lua
@@ -175,7 +172,7 @@
   repo: https://github.com/UltraStar-Deluxe/USDX
   status: playable
   type: remake
-  updated: 2019-11-20
+  updated: 2020-08-25
   url: https://usdx.eu/
 
 - name: uMario
@@ -314,8 +311,11 @@
 
 - name: Unknown Horizons
   images:
-  - http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-7.png
-  - http://www.unknown-horizons.org/uploads/images/uh-release-2011.2/2011.2-6.png
+  - http://unknown-horizons.org/static/screenshots/2013-04-04.18-14-10.036341.png
+  - http://unknown-horizons.org/static/screenshots/2013-04-04.18-13-39.515762.png
+  - http://unknown-horizons.org/static/screenshots/2013-04-04.18-13-09.917428.png
+  - http://unknown-horizons.org/static/screenshots/loading_screen.png
+  - http://unknown-horizons.org/static/screenshots/2019-01-11.23-36-47.502394.png
   lang:
   - Python
   license:

@@ -121,7 +121,7 @@
   framework:
   - SDL
   images:
-  - http://www.linuxmotors.com/SDL_bomber/bomber.gif
+  - http://www.linuxmotors.com/linux/SDL_bomber/bomber.gif
   lang:
   - C
   license:
@@ -547,8 +547,10 @@
 
 - name: Solarus
   images:
-  - http://www.zelda-solarus.com/images/zsdx/dungeon1_outside.png
-  - http://www.zelda-solarus.com/images/zsdx/dungeon1_1.png
+  - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-01.png
+  - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-02.png
+  - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-03.png
+  - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-04.png
   lang:
   - C++
   - Lua
@@ -559,11 +561,11 @@
   originals:
   - Legend of Zelda - A Link to the Past
   repo: https://gitlab.com/solarus-games/solarus
-  type: remake
-  updated: 2013-05-28
+  type: tool
+  updated: 2020-08-25
   url: http://www.solarus-games.org/
   video:
-    youtube: BUxREyXILLs
+    youtube: vt07FwzLo9A
 
 - name: SolarWolf
   images:
@@ -815,10 +817,10 @@
   license:
   - GPL3
   content: open
-  updated: 2019-03-20
+  updated: 2020-08-25
   images:
-  - http://tetris.spludlow.co.uk/Default_files/image001.png
-  - http://tetris.spludlow.co.uk/Default_files/image009.png
+  - https://tetris.spludlow.co.uk/Default_files/image001.png
+  - https://tetris.spludlow.co.uk/Default_files/image009.png
   video:
     youtube: lrjHPQX90gE
 
@@ -845,9 +847,10 @@
   framework:
   - Spring RTS Engine
   images:
-  - http://spring1944.net/wp-content/uploads/2011/07/28.jpg
-  - http://spring1944.net/wp-content/uploads/2011/07/27.jpg
-  - http://spring1944.net/wp-content/uploads/2011/07/9_001.jpg
+  - https://spring1944.net/media/media/large/Screenshot_20170630_122059.png
+  - https://spring1944.net/media/media/large/Screenshot_20170630_145713.png
+  - https://spring1944.net/media/media/large/Screenshot_20170630_113659.png
+  - https://spring1944.net/media/media/large/Screenshot_20171112_215631.png
   info: Gameplay is a mix of Company of Heroes and Supreme Commander
   lang:
   - Lua
@@ -863,7 +866,7 @@
   repo: https://github.com/spring1944/spring1944
   status: playable
   type: clone
-  updated: 2016-11-30
+  updated: 2020-08-25
   url: http://spring1944.net
   video:
     youtube: 76jFZvpvwoA

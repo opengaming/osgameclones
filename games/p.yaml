@@ -320,8 +320,10 @@
 
 - name: Pioneer
   images:
-  - http://pioneerspacesim.net/assets/ss2.png
-  - http://pioneerspacesim.net/assets/ss1.png
+  - https://pioneerspacesim.net//carousel/new-hope.jpg
+  - https://pioneerspacesim.net//carousel/mars-high.jpg
+  - https://pioneerspacesim.net//carousel/in-flight.jpg
+  - https://pioneerspacesim.net//carousel/gas-giant.jpg
   lang:
   - C++
   - C
@@ -334,7 +336,7 @@
   repo: https://github.com/pioneerspacesim/pioneer
   status: playable
   type: clone
-  updated: 2013-05-27
+  updated: 2020-08-25
   url: http://pioneerspacesim.net/
   video:
     vimeo: 78452479
@@ -446,9 +448,9 @@
   status: playable
   repo: https://github.com/salvadorc17/Prince-Monogame
   type: remake
-  updated: 2019-11-19
+  updated: 2020-08-25
   images:
-  - https://github.com/salvadorc17/Prince-Monogame/blob/master/preview.png
+  - https://raw.githubusercontent.com/salvadorc17/Prince-Monogame/master/preview.png
 
 - name: Project-Uranium-Godot
   originals:
@@ -779,10 +781,6 @@
   updated: 2015-06-01
 
 - name: Pushover
-  images:
-  - https://pushover.github.io/website/images/Screenshot2.jpg
-  - https://pushover.github.io/website/images/Screenshot3n.jpg
-  - https://pushover.github.io/website/images/Screenshot4.jpg
   lang:
   - C++
   license:
@@ -793,7 +791,7 @@
   repo: https://github.com/pushover/pushover.github.io
   status: playable
   type: remake
-  updated: 2013-05-19
+  updated: 2020-08-25
   url: https://pushover.github.io/
 
 - name: Py1945
@@ -841,12 +839,12 @@
 
 - name: pyskool
   images:
-  - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-0.4.png
-  - http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool-0.4.png
-  - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze_take_too-0.4.png
-  - http://pyskool.ca/wp-content/uploads/2010/05/ezad_looks-0.4.png
-  - http://pyskool.ca/wp-content/uploads/2010/05/back_to_skool_daze-0.4.png
-  - http://pyskool.ca/wp-content/uploads/2010/05/skool_daze-wide-0.4.png
+  - https://pyskool.ca/images/skool_daze-0.4.png
+  - https://pyskool.ca/images/back_to_skool-0.4.png
+  - https://pyskool.ca/images/skool_daze_take_too-0.4.png
+  - https://pyskool.ca/images/ezad_looks-0.4.png
+  - https://pyskool.ca/images/back_to_skool_daze-0.4.png
+  - https://pyskool.ca/images/skool_daze-wide-0.4.png
   lang:
   - Python
   license:
@@ -856,7 +854,7 @@
   - Skool Daze
   repo: https://github.com/skoolkid/pyskool
   type: remake
-  updated: 2015-04-05
+  updated: 2020-08-25
   url: http://pyskool.ca/
 
 - name: pyspaceinvaders
