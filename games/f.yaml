@@ -160,8 +160,7 @@
 
 - name: Flare
   images:
-  - http://clintbellanger.net/rpg/images/screenshots/0020.jpg
-  - http://clintbellanger.net/rpg/images/screenshots/0022.jpg
+  - https://raw.githubusercontent.com/clintbellanger/flare-game/master/distribution/screenshot1.jpg
   lang:
   - C++
   license:
@@ -172,6 +171,7 @@
   repo: https://github.com/clintbellanger/flare-game
   type: clone
   url: http://flarerpg.org/
+  updated: 2020-08-25
 
 - name: FlightGear
   images:
