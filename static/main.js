@@ -107,6 +107,37 @@ function filterByTag(curTag) {
   setCount();
 }
 
+document.getElementById('sortByUpdated').addEventListener('click', sortByUpdated)
+
+function sortByUpdated() {
+  var list = document.getElementById('list');
+  var sorted = document.getElementById('sorted');
+
+  if (list.style.display == "none") {
+    list.style.display = "block";
+    sorted.style.display = "none";
+    sorted.innerHTML = "";
+    document.getElementById('sortByUpdated').innerHTML = "Sort by Update";
+  } else {
+    list.style.display = "none";
+    sorted.style.display = "block";
+    document.getElementById('sortByUpdated').innerHTML = "Sort by Originals";
+
+    var games = document.getElementsByTagName('dd');
+    var gameList = [];
+    for (var i = 0, len = games.length; i < len; i += 1) {
+      gameList[i] = games[i].cloneNode(true);
+    }
+    gameList.sort(function(a,b) {
+      return b.dataset.updated.localeCompare(a.dataset.updated);
+    });
+
+    for (var i = 0, len = gameList.length; i < len; i += 1) {
+      sorted.appendChild(gameList[i]);
+    }
+  }
+}
+
 function highlightTags(tag) {
   var style = document.getElementById('tag-style');
   var line = '.tag[data-name=\"' + tag + '\"] { color: #ccc; background-color: #444; }';

@@ -58,6 +58,16 @@ footer { text-align: center; margin-top: 2em; }
 #nav .nav-btn, #darkThemeButton {
   cursor: pointer; }
 
+  #nav .nav-btn, .nav-count, #sortByUpdated {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: #555; }
+  
+  #nav .nav-btn, #sortByUpdated {
+    cursor: pointer; }
+
 #nav li:hover .nav-btn,
 #nav li.active .nav-btn { color: #000; background-color: #fbfbfb; }
 #nav li.active .nav-btn { font-weight: bold; }
@@ -277,6 +287,16 @@ dd + dt { margin-top: 1em; }
   float: right;
 }
 
+.darkTheme #sortByUpdated {
+  background-color: #323232;
+  color: #E3E3E3;
+}
+
+#sortByUpdated {
+  background-color: transparent;
+  float: right;
+}
+
 .darkTheme #nav .tag-group {
   background-color:  #323232;
   border-bottom: 1px solid #1C1C1C;
@@ -305,4 +325,8 @@ dd + dt { margin-top: 1em; }
 
 .darkTheme .feed-icon {
   color: white;
+}
+
+#dl {
+  display: none;
 }
