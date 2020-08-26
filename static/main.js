@@ -368,8 +368,18 @@ function setQueryParams(key, value) {
 
 function setCount() {
   var count = ' games';
-  var total = document.getElementsByTagName('dd').length;
-  var hidden = Array.prototype.slice.call(document.getElementsByTagName('dd')).reduce(function(count_hidden, game) {
+  var list = document.getElementById('list');
+  var sorted = document.getElementById('sorted');
+
+  if (list.style.display == "none") {
+    var dds = sorted.getElementsByTagName('dd');
+    var total = dds.length;
+  } else {
+    var dds = list.getElementsByTagName('dd');
+    var total = dds.length;
+  }
+
+  var hidden = Array.prototype.slice.call(dds).reduce(function(count_hidden, game) {
       if (game.getBoundingClientRect().width + game.getBoundingClientRect().height === 0) {
           return count_hidden + 1
       }
