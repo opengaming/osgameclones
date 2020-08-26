@@ -55,6 +55,7 @@ function filter(filter_value) {
   if (!filter_value) {
     setQueryParams('filter', null);
     filterStyle.innerHTML = "";
+    setCount();
     return;
   }
   setQueryParams('filter', filter_value);
