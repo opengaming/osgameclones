@@ -167,6 +167,8 @@ def parse_items(site, item, key):
     meta["names_ascii"] = parse_unicode(names(item))
     meta["external"] = item.get('external', {})
     parse_global_tags(site, meta, 'genre', item['name'])
+    parse_global_tags(site, meta, 'subgenre', item['name'])
+    parse_global_tags(site, meta, 'theme', item['name'])
 
     parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)
 

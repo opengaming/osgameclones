@@ -47,6 +47,29 @@
             </div>
           </div>
         </li>
+
+        <li>
+          <span class="nav-btn">Subgenres</span>
+          <div class="tag-group">
+            <div class="container">
+            {% for tag, tag_props in site.subgenre.items() %}
+              {{ tags.render_tag('subgenre', tag, tag_props['tag_count']) }}
+            {% endfor %}
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <span class="nav-btn">Themes</span>
+          <div class="tag-group">
+            <div class="container">
+            {% for tag, tag_props in site.theme.items() %}
+              {{ tags.render_tag('theme', tag, tag_props['tag_count']) }}
+            {% endfor %}
+            </div>
+          </div>
+        </li>
+
         <li>
           <span class="nav-count">xxxx/yyyy games</span>
         </li>
