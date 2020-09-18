@@ -72,9 +72,12 @@ function filter(filter_value) {
   for (var i = 0, l = nodes.length; i < l; i++) {
     var el = nodes[i], next = el, index = [];
     while ((next = next.nextElementSibling) && !next.id) {
-      if (next.tagName != 'DD')
+      if (next.tagName != 'DIV')
         continue;
-      index.push(next.getAttribute('data-index'));
+      var childs = next.children;
+      for (var child of childs) {
+        index.push(child.getAttribute('data-index'));
+      }
     }
     el.setAttribute('data-index', index.join(' '));
   };
