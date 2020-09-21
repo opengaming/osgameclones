@@ -98,6 +98,36 @@
   type: remake
   updated: 2019-03-29
 
+- name: Open-XRay
+  originals:
+  - S.T.A.L.K.E.R.
+  type: remake
+  repo: 'https://github.com/OpenXRay/xray-16'
+  development: very active
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: commercial
+  lang:
+  - C++
+  - Lua
+  framework:
+  - Open-XRay
+  - X-Ray
+  - SDL2
+  - DirectX
+  - OpenGL
+  - Open Dynamics Engine
+  license:
+  - BSD
+  info: 'Crossplatform implementation of the S.T.A.L.K.E.R. games - Windows, linux etc.'
+  images:
+  - 'https://github.com/OpenXRay/xray-16/blob/xd_dev/OpenXRayCover.png'
+  video:
+    youtube: Alr9YQv2JWQ
+  updated: 2020-09-21
+
 - name: OpenBOR
   type:  clone
   originals:
