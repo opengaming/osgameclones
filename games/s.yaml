@@ -984,6 +984,31 @@
   type: remake
   updated: 2020-08-25
 
+- name: 'StarMines: The Next Generation'
+  originals:
+  - Omega Race
+  - Asteroids
+  type: similar
+  repo: 'https://github.com/jkarjala/starmines-tng'
+  url: 'https://smtng.jpkware.com/'
+  development: complete
+  status: playable
+  content: open
+  lang:
+  - Scala
+  framework:
+  - Phaser
+  license:
+  - GPL3
+  info: >-
+    StarMines is a space shooter inspired by old classics like Asteroids and Omega
+    Race.
+  updated: '2020-09-21'
+  images:
+  - https://raw.githubusercontent.com/jkarjala/starmines-tng/master/raw/smtng-play3.gif
+  video:
+    youtube: TViAYO-AjdI
+
 - name: starshatter-open
   lang:
   - C++
