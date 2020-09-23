@@ -66,6 +66,7 @@
   {% for game in items %}
   <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
   <dd class="searchable {% if game.new %}new{% endif %}"
+      data-name="{{ game.name }}"
       data-parent="
         {%- if names.0 is string -%}
           {% set name = names.0 %}
@@ -75,7 +76,8 @@
         {{ show_id(name, mode) }}"
       data-tags="{{ show_tags(game) }}"
       data-index="{{ show_keywords(game, names, meta) }}"
-      data-updated="{{ game.updated}}">
+      data-updated="{{ game.updated }}"
+  >
     <span class="{% if 'images' in game or 'video' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
 
     {%- if 'url' in game -%}

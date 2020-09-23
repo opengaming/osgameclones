@@ -107,33 +107,37 @@ function filterByTag(curTag) {
   setCount();
 }
 
-document.getElementById('sortByUpdated').addEventListener('click', sortByUpdated)
-
-function sortByUpdated() {
+function sortByUpdated(e) {
+  const btn = e.target;
   var list = document.getElementById('list');
   var sorted = document.getElementById('sorted');
 
   if (list.style.display == "none") {
     list.style.display = "block";
     sorted.style.display = "none";
-    sorted.innerHTML = "";
-    document.getElementById('sortByUpdated').innerHTML = "Sort by Update";
+    btn.innerHTML = "Sort by Updated";
   } else {
     list.style.display = "none";
     sorted.style.display = "block";
-    document.getElementById('sortByUpdated').innerHTML = "Sort by Originals";
+    btn.innerHTML = "Sort by Originals";
 
-    var games = document.getElementsByTagName('dd');
-    var gameList = [];
-    for (var i = 0, len = games.length; i < len; i += 1) {
-      gameList[i] = games[i].cloneNode(true);
-    }
-    gameList.sort(function(a,b) {
-      return b.dataset.updated.localeCompare(a.dataset.updated);
-    });
+    if (!sorted.hasChildNodes()) {
+      const games = [...document.getElementsByTagName('dd')];
+      var gameList = [];
+      let gameNames = new Set();
+      games.forEach(game => {
+        if (!gameNames.has(game.dataset.name)) {
+          gameNames.add(game.dataset.name);
+          gameList.push(game.cloneNode(true));
+        }
+      });
+      gameList.sort(function(a,b) {
+        return b.dataset.updated.localeCompare(a.dataset.updated);
+      });
 
-    for (var i = 0, len = gameList.length; i < len; i += 1) {
-      sorted.appendChild(gameList[i]);
+      gameList.forEach(game => {
+        sorted.appendChild(game);
+      });
     }
   }
 }
@@ -405,4 +409,8 @@ function setCount() {
     filter(params['filter']);
     document.getElementById('filter').value = params['filter'];
   }
+
+  const sortBtn = document.getElementById('sortButton');
+  sortBtn.innerHTML = "Sort by Updated";
+  sortBtn.addEventListener('click', sortByUpdated);
 })(); 

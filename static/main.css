@@ -48,25 +48,16 @@ footer { text-align: center; margin-top: 2em; }
 #nav { display: inline-block; list-style: none; margin: 0; padding: 0; }
 #nav li { display: inline-block; }
 
-#nav .nav-btn, .nav-count, #darkThemeButton {
+.nav-btn, .nav-count {
   display: inline-block;
   font-size: 14px;
   line-height: 30px;
   padding: 0 10px;
   color: #555; }
 
-#nav .nav-btn, #darkThemeButton {
-  cursor: pointer; }
-
-  #nav .nav-btn, .nav-count, #sortByUpdated {
-    display: inline-block;
-    font-size: 14px;
-    line-height: 30px;
-    padding: 0 10px;
-    color: #555; }
-  
-  #nav .nav-btn, #sortByUpdated {
-    cursor: pointer; }
+.nav-btn {
+  cursor: pointer;
+}
 
 #nav li:hover .nav-btn,
 #nav li.active .nav-btn { color: #000; background-color: #fbfbfb; }
@@ -287,12 +278,12 @@ dd + dt { margin-top: 1em; }
   float: right;
 }
 
-.darkTheme #sortByUpdated {
+.darkTheme #sortButton {
   background-color: #323232;
   color: #E3E3E3;
 }
 
-#sortByUpdated {
+#sortButton {
   background-color: transparent;
   float: right;
 }
