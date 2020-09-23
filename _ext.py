@@ -108,7 +108,8 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
         updated = datetime.strptime(updated, "%Y-%m-%d").date()
     result = dict(entry,
                   new=(date.today() - updated) < timedelta(days=30),
-                  tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags))
+                  tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags),
+                  updated=updated)
 
     if "repo" in result:
         repo_parsed = urlparse(result["repo"])

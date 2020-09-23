@@ -111,6 +111,41 @@ function filterByTag(curTag) {
   setCount();
 }
 
+function sortByUpdated(e) {
+  const btn = e.target;
+  var list = document.getElementById('list');
+  var sorted = document.getElementById('sorted');
+
+  if (list.style.display == "none") {
+    list.style.display = "block";
+    sorted.style.display = "none";
+    btn.innerHTML = "Sort by Updated";
+  } else {
+    list.style.display = "none";
+    sorted.style.display = "block";
+    btn.innerHTML = "Sort by Originals";
+
+    if (!sorted.hasChildNodes()) {
+      const games = [...document.getElementsByTagName('dd')];
+      var gameList = [];
+      let gameNames = new Set();
+      games.forEach(game => {
+        if (!gameNames.has(game.dataset.name)) {
+          gameNames.add(game.dataset.name);
+          gameList.push(game.cloneNode(true));
+        }
+      });
+      gameList.sort(function(a,b) {
+        return b.dataset.updated.localeCompare(a.dataset.updated);
+      });
+
+      gameList.forEach(game => {
+        sorted.appendChild(game);
+      });
+    }
+  }
+}
+
 function highlightTags(tag) {
   var style = document.getElementById('tag-style');
   var line = '.tag[data-name=\"' + tag + '\"] { color: #ccc; background-color: #444; }';
@@ -341,8 +376,18 @@ function setQueryParams(key, value) {
 
 function setCount() {
   var count = ' games';
-  var total = document.getElementsByTagName('dd').length;
-  var hidden = Array.prototype.slice.call(document.getElementsByTagName('dd')).reduce(function(count_hidden, game) {
+  var list = document.getElementById('list');
+  var sorted = document.getElementById('sorted');
+
+  if (list.style.display == "none") {
+    var dds = sorted.getElementsByTagName('dd');
+    var total = dds.length;
+  } else {
+    var dds = list.getElementsByTagName('dd');
+    var total = dds.length;
+  }
+
+  var hidden = Array.prototype.slice.call(dds).reduce(function(count_hidden, game) {
       if (game.getBoundingClientRect().width + game.getBoundingClientRect().height === 0) {
           return count_hidden + 1
       }
@@ -368,4 +413,8 @@ function setCount() {
     filter(params['filter']);
     document.getElementById('filter').value = params['filter'];
   }
+
+  const sortBtn = document.getElementById('sortButton');
+  sortBtn.innerHTML = "Sort by Updated";
+  sortBtn.addEventListener('click', sortByUpdated);
 })(); 
