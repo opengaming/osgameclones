@@ -120,9 +120,9 @@
   development: halted
   originals:
   - 'Ultima II: The Revenge of the Enchantress'
-  repo: https://github.com/ObviouslySorna/UiirJS
+  repo: https://github.com/jaggedsoft/UiirJS
   type: remake
-  updated: 2015-06-01
+  updated: 2020-09-04
 
 - name: 'Ultima 5 Redux'
   images:
@@ -348,18 +348,41 @@
   updated: '2019-12-24'
 
 - name: Unvanquished
+  images:
+  - https://unvanquished.net/wp-content/uploads/2015/01/chasm_granger.png
+  - https://unvanquished.net/wp-content/uploads/2015/01/perseus_tyrant.png
+  - https://unvanquished.net/wp-content/uploads/2015/01/parpax_human.png
+  - https://unvanquished.net/wp-content/uploads/2015/01/perseus_mantis1.jpg
+  - https://unvanquished.net/wp-content/uploads/2015/01/yocto_mara.png
+  - https://unvanquished.net/wp-content/uploads/2015/01/perseus_dretch.png
+  - https://unvanquished.net/wp-content/uploads/2015/01/parpax_h1.png
+  - https://unvanquished.net/wp-content/uploads/2015/01/parpax_aliens.png
+  - https://unvanquished.net/wp-content/uploads/2015/01/antares_turrets.jpg
   lang:
-  - C
+  - C++
+  framework:
+  - Daemon Engine
+  - SDL2
+  - OpenGL
+  - OpenAL
   license:
   - GPL3
+  - BSD
   - CC-BY-SA
+  - CC-BY
   development: active
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
   originals:
+  - Gloom
   - Natural Selection
   repo: https://github.com/Unvanquished/Unvanquished
-  type: clone
-  updated: 2019-08-27
-  url: http://www.unvanquished.net/
+  type: similar
+  updated: 2020-09-06
+  url: https://unvanquished.net
+  feed: https://unvanquished.net/feed
 
 - name: The Ur-Quan Masters
   images:
