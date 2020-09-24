@@ -487,18 +487,32 @@
   url: http://retrospec.sgn.net/game/tranzam
 
 - name: Tremulous
+  images:
+  - https://tremulous.net/screenshots/1.jpg
+  - https://tremulous.net/screenshots/2.jpg
+  - https://tremulous.net/screenshots/3.jpg
+  - https://tremulous.net/screenshots/6.jpg
   lang:
   - C
+  framework:
+  - SDL
+  - OpenGL
+  - OpenAL
   license:
   - GPL2
   - CC-BY-SA
   development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
   originals:
+  - Gloom
   - Natural Selection
   repo: https://github.com/darklegion/tremulous
-  type: clone
-  updated: 2018-10-06
-  url: http://www.tremulous.net/
+  type: similar
+  updated: 2020-09-06
+  url: https://tremulous.net
 
 - name: Tron
   framework:
