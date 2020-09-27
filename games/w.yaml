@@ -422,3 +422,25 @@
   repo: https://github.com/alexdantas/www
   type: clone
   updated: 2015-07-02
+
+- name: wxLaserTank
+  originals:
+  - LaserTank
+  type: remake
+  repo: 'https://sourceforge.net/projects/wxlasertank/'
+  url: 'http://wxlasertank.sourceforge.net'
+  development: halted
+  status: playable
+  content: open
+  lang:
+  - C++
+  framework:
+  - wxWidgets
+  license:
+  - GPL2
+  info: wxLaserTank is a wxWidgets conversion of Laser Tank
+  updated: '2020-09-28'
+  images:
+  - 'http://wxlasertank.sourceforge.net/screenshots/main.png'
+  - 'http://wxlasertank.sourceforge.net/screenshots/game.png'
+  - 'http://wxlasertank.sourceforge.net/screenshots/game_petes.png'
