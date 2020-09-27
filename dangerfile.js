@@ -99,6 +99,7 @@ const knownFrameworks = [
   'Netty.io',
   'nya-engine',
   'OGRE',
+  'Open Dynamics Engine',
   'OpenAL',
   'OpenGL',
   'Panda3D',
