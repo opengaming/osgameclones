@@ -131,6 +131,7 @@ const knownFrameworks = [
   'VDrift Engine',
   'Vulkan',
   'WebGL',
+  'wxWidgets',
   'XNA'
 ]
 
