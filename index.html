@@ -1,141 +1,48 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="Vsevolod Solovyov">
-  <meta name="keywords" content="open source, game, clone, remake, remakes">
-  <meta name="description" content="List of open source clones and remakes of popular old-school games.">
-  <meta name="application-name" content="OS Game Clones">
-  <meta name="application-url" content="http://osgameclones.com/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="canonical" href=".">
-  <link rel="stylesheet" href="static/main.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
-  <title>Open Source Game Clones</title>
-</head>
+{%- import 'templates/common.html' as common with context %}
+{%- import 'templates/games.html' as games with context %}
 
-{% import 'templates/tags.html' as tags %}
-{% import 'templates/video.html' as video %}
-{% import 'templates/games.html' as games with context %}
+{{- common.head() }}
+{{ common.nav() }}
 
-<body>
-  <script type="text/javascript" src="static/startInDarkMode.js"></script>
+<article>
+  <h1>Open Source Game Clones</h1>
 
-  <header>
-    <div class="container">
-      <input id="filter" type="search" placeholder="Type to filter">
+  <p>
+    This site tries to gather <a href="http://en.wikipedia.org/wiki/Open_source">open-source</a>
+    remakes of great old games in one place. If you think that
+    something is missing from the list - please go to
+    our <a href="http://github.com/opengaming/osgameclones/">GitHub
+    repository</a> and create an issue or even a pull request!
+  </p>
+  <p>
+    Since all these projects are open-source you can help them and make this
+    world a better place. Or at least you can play something to appreciate the
+    effort people put in them.
+  </p>
+  <p>
+    Similar resources: check
+    out <a href="http://freegamer.blogspot.com/">Free Gamer</a>, a blog
+    dedicated to open source game news, and <a href="https://bronevichok.ru/ttygames/">Unix ASCII games</a>, a list of opensource text-based games.
+  </p>
+</article>
 
-      <ul id="nav">
-        <li>
-          <span class="nav-btn">Languages</span>
-          <div class="tag-group">
-            <div class="container">
-            {% for tag, tag_props in site.lang.items() %}
-              {{ tags.render_tag('lang', tag, tag_props['tag_count']) }}
-            {% endfor %}
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <span class="nav-btn">Genres</span>
-          <div class="tag-group">
-            <div class="container">
-            {% for tag, tag_props in site.genre.items() %}
-              {{ tags.render_tag('genre', tag, tag_props['tag_count']) }}
-            {% endfor %}
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <span class="nav-btn">Subgenres</span>
-          <div class="tag-group">
-            <div class="container">
-            {% for tag, tag_props in site.subgenre.items() %}
-              {{ tags.render_tag('subgenre', tag, tag_props['tag_count']) }}
-            {% endfor %}
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <span class="nav-btn">Themes</span>
-          <div class="tag-group">
-            <div class="container">
-            {% for tag, tag_props in site.theme.items() %}
-              {{ tags.render_tag('theme', tag, tag_props['tag_count']) }}
-            {% endfor %}
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <span class="nav-count">xxxx/yyyy games</span>
-        </li>
-      </ul>
-      <span id='darkThemeButton' class="nav-btn">Dark Theme</span>
-      <span id='sortButton' class="nav-btn">Sort by ........</span>
-    </div>
-  </header>
-
+<div id="content">
+  <h2>List of games</h2>
   <article>
-    <h1>Open Source Game Clones</h1>
-
-    <p>
-      This site tries to gather <a href="http://en.wikipedia.org/wiki/Open_source">open-source</a>
-      remakes of great old games in one place. If you think that
-      something is missing from the list - please go to
-      our <a href="http://github.com/opengaming/osgameclones/">GitHub
-      repository</a> and create an issue or even a pull request!
-    </p>
-    <p>
-      Since all these projects are open-source you can help them and make this
-      world a better place. Or at least you can play something to appreciate the
-      effort people put in them.
-    </p>
-    <p>
-      Similar resources:
-      <ul>
-        <li><a href="https://freegamer.blogspot.com">Free Gamer</a>, a blog dedicated to open source game news</li>
-        <li><a href="https://bronevichok.ru/ttygames/">Unix ASCII games</a>, a list of opensource text-based games</li>
-        <li><a href="https://trilarion.github.io/opensourcegames/">List of Open Source Games</a>, list of open source games in mature/beta state</li>
-        <li><a href="https://github.com/leereilly/games">Games on GitHub</a>, list of open source games and game-related projects that can be found on GitHub</li>
-        <li><a href="https://libregamewiki.org/Main_Page">LibreGameWiki</a>, the free gaming encyclopedia</li>
-      </ul>
-    </p>
+    A <span class="tag type" data-name="remake">Remake</span> is a game where the executable and sometimes the assets as well are remade open source. Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.
+    <br />
+    A <span class="tag type" data-name="clone">Clone</span> is a game which is very similar to or heavily inspired by a game or series.
+    <br />
+    A <span class="tag type" data-name="similar">Similar</span> game is one which has similar gameplay but is not a clone.
+    <br />
+    A <span class="tag type" data-name="tool">Tool</span> is not a game, but something that assists in playing or modding the game, such as a high resolution patch, or resource extractor.
   </article>
+  <dl id="list">
+    {% for names, meta, items in site.games %}
+      {{ games.render(names, meta, items, 'games') }}
+    {% endfor %}
+  </dl>
+  <dl id="sorted"></dl>
+</div>
 
-  <div id="content">
-    <h2>List of games</h2>
-    <article>
-      A <span class="tag type" data-name="remake">Remake</span> is a game where the executable and sometimes the assets as well are remade open source. Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.
-      <br />
-      A <span class="tag type" data-name="clone">Clone</span> is a game which is very similar to or heavily inspired by a game or series.
-      <br />
-      A <span class="tag type" data-name="similar">Similar</span> game is one which has similar gameplay but is not a clone.
-      <br />
-      A <span class="tag type" data-name="tool">Tool</span> is not a game, but something that assists in playing or modding the game, such as a high resolution patch, or resource extractor.
-    </article>
-    <dl id="list">
-      {% for names, meta, items in site.games %}
-        {{ games.render(names, meta, items, 'games') }}
-      {% endfor %}
-    </dl>
-    <dl id="sorted"></dl>
-  </div>
-
-  <footer>&#169; 2011-2020
-    <a href="mailto:vsevolod.solovyov@gmail.com">Vsevolod Solovyov</a>,
-    <a href="mailto:alexander@solovyov.net">Alexander Solovyov</a>,
-    <a href="https://github.com/opengaming/osgameclones/graphs/contributors">and other contributors.</a>
-  </footer>
-
-  <style id="filter-style"></style>
-  <style id="tag-style"></style>
-
-  <script type="text/javascript" src="static/main.js" async></script>
-
-  <script data-goatcounter="https://osgc.goatcounter.com/count" src="//gc.zgo.at/count.js" async></script>
-</body>
-</html>
+{{ common.footer() -}}

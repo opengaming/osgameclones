@@ -1,5 +1,5 @@
 run:
-	cyrax
+	pipenv run ./render.py
 
 prod:
-	cyrax && htmlmin _build/index.html _build/index.html
+	./render.py && htmlmin _build/index.html _build/index.html

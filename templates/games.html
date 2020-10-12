@@ -1,3 +1,6 @@
+{% import 'templates/video.html' as video %}
+{% import 'templates/tags.html' as tags %}
+
 {% macro render_name(name, meta, idx, mode) %}
   {%- if meta['external']['wikipedia'] -%}
     {% set wikilink = "http://en.wikipedia.org/wiki/" + meta['external']['wikipedia'] %}

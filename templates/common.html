@@ -1,0 +1,99 @@
+{% import 'templates/tags.html' as tags %}
+
+{% macro head(title, keywords, description) -%}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Open Gaming Collective">
+    <meta name="keywords" content="{{ keywords|default('open source, game, clone, remake, remakes', true) }}">
+    <meta name="description" content="{{ description|default('List of open source clones and remakes of popular old-school games.', true) }}">
+    <meta name="application-name" content="OS Game Clones">
+    <meta name="application-url" content="http://osgameclones.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+    <title>{{ title|default('Open Source Game Clones', true) }}</title>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="/static/startInDarkMode.js"></script>
+{%- endmacro %}
+
+
+{% macro footer() -%}
+    <footer>&#169; 2011-2020
+      <a href="mailto:vsevolod.solovyov@gmail.com">Vsevolod Solovyov</a>,
+      <a href="mailto:alexander@solovyov.net">Alexander Solovyov</a>,
+      <a href="https://github.com/opengaming/osgameclones/graphs/contributors">and other contributors.</a>
+    </footer>
+
+    <style id="filter-style"></style>
+    <style id="tag-style"></style>
+    <script type="text/javascript" src="/static/main.js" async></script>
+
+    <script data-goatcounter="https://osgc.goatcounter.com/count" src="//gc.zgo.at/count.js" async></script>
+  </body>
+</html>
+{%- endmacro %}
+
+
+{% macro nav() -%}
+<header>
+  <div class="container">
+    <input id="filter" type="search" placeholder="Type to filter">
+
+    <ul id="nav">
+      <li>
+        <span class="nav-btn">Languages</span>
+        <div class="tag-group">
+          <div class="container">
+            {% for tag, tag_props in site.lang.items() %}
+            {{ tags.render_tag('lang', tag, tag_props['tag_count']) }}
+            {% endfor %}
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <span class="nav-btn">Genres</span>
+        <div class="tag-group">
+          <div class="container">
+            {% for tag, tag_props in site.genre.items() %}
+            {{ tags.render_tag('genre', tag, tag_props['tag_count']) }}
+            {% endfor %}
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <span class="nav-btn">Subgenres</span>
+        <div class="tag-group">
+          <div class="container">
+            {% for tag, tag_props in site.subgenre.items() %}
+            {{ tags.render_tag('subgenre', tag, tag_props['tag_count']) }}
+            {% endfor %}
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <span class="nav-btn">Themes</span>
+        <div class="tag-group">
+          <div class="container">
+            {% for tag, tag_props in site.theme.items() %}
+            {{ tags.render_tag('theme', tag, tag_props['tag_count']) }}
+            {% endfor %}
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <span class="nav-count">xxxx/yyyy games</span>
+      </li>
+    </ul>
+    <span id='darkThemeButton' class="nav-btn">Dark Theme</span>
+    <span id='sortButton' class="nav-btn">Sort by ........</span>
+  </div>
+</header>
+{%- endmacro %}
