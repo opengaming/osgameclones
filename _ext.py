@@ -8,7 +8,6 @@ from functools import partial
 from urllib.parse import urlparse
 
 import yaml
-from cyrax import events
 from natsort import natsorted, ns
 from pykwalify.core import Core
 
@@ -286,7 +285,3 @@ def parse_data(site):
             if name in clone['originals']
         ]
         parse_items(site, combined, 'games')
-
-
-def callback(site):
-    events.events.connect('traverse-started', parse_data)

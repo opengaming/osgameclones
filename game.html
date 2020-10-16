@@ -1,0 +1,11 @@
+{%- import 'templates/common.html' as common with context %}
+{%- import 'templates/games.html' as games with context %}
+
+{{- common.head() }}
+{{ common.nav() }}
+
+<main class="single">
+  {{ games.render(game[0], game[1], game[2], 'game') }}
+</main>
+
+{{ common.footer() -}}

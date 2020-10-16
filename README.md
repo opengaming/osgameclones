@@ -89,7 +89,7 @@ pipenv install
 Simply run the following to build the project into the `_build` directory.
 
 ```
-pipenv run cyrax
+make
 ```
 
 ## License
