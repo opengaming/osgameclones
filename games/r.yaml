@@ -402,12 +402,12 @@
 
 - name: ReTux
   originals:
-  - Super Mario
-  type: clone
-  repo: 'https://savannah.nongnu.org/projects/retux'
-  url: 'http://retux.nongnu.org/'
-  feed: 'https://savannah.nongnu.org/news/atom.php?group=retux'
-  development: halted
+  - Super Mario World
+  type: similar
+  repo: 'https://github.com/retux-game/retux'
+  url: 'https://retux-game.github.io'
+  feed: 'https://github.com/retux-game/retux/releases.atom'
+  development: active
   status: playable
   content: open
   lang:
@@ -423,11 +423,11 @@
   info: >-
     Loosely inspired by the Mario games, utilizing the art assets from the
     SuperTux project. 
-  updated: '2019-11-15'
+  updated: '2020-10-19'
   images:
-  - 'http://retux.nongnu.org/screenshots/screenshot1.jpg'
-  - 'http://retux.nongnu.org/screenshots/screenshot2.jpg'
-  - 'http://retux.nongnu.org/screenshots/screenshot3.jpg'
+  - 'https://retux-game.github.io/images/screenshot1.png'
+  - 'https://retux-game.github.io/images/screenshot2.jpg'
+  - 'https://retux-game.github.io/images/screenshot3.jpg'
 
 - name: rfk-inform
   images:
