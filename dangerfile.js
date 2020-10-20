@@ -129,6 +129,7 @@ const knownFrameworks = [
   'Tween.js',
   'Unity',
   'VDrift Engine',
+  'Vue.js',
   'Vulkan',
   'WebGL',
   'wxWidgets',
