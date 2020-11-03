@@ -112,17 +112,23 @@
 
 - name: fheroes2
   images:
-  - https://sourceforge.net/p/fheroes2/screenshot/171624.jpg
-  - https://sourceforge.net/p/fheroes2/screenshot/191635.jpg
+  - https://raw.githubusercontent.com/ihhub/fheroes2/master/files/images/screenshots/screenshot_world_map.png
+  - https://raw.githubusercontent.com/ihhub/fheroes2/master/files/images/screenshots/screenshot_castle.png
   lang:
   - C++
+  framework:
+  - SDL
+  - SDL2
   license:
   - GPL2
   development: active
   originals:
   - Heroes of Might and Magic II
-  repo: https://sourceforge.net/projects/fheroes2/
+  url: https://ihhub.github.io/fheroes2/
+  repo: https://github.com/ihhub/fheroes2
   type: remake
+  updated: 2020-10-28
+  info: 'direct continuation of https://sourceforge.net/projects/fheroes2/'
 
 - name: Fight Or Perish
   images:
