@@ -111,12 +111,14 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
                   updated=updated)
 
     if "repo" in result:
+        # Try to add extra repo information, like icons, badges
         repo_parsed = urlparse(result["repo"])
         domain = repo_parsed.netloc
         ext = os.path.splitext(result["repo"])[1]
 
         if "github.com" in domain:
             try:
+                # https://github.com/<user>/<repo>
                 _, user, repo, *_ = repo_parsed.path.split("/")
             except ValueError:
                 result["repoiconname"] = "github"
@@ -137,6 +139,14 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
             result["repoiconname"] = "gitlab"
             result["repoiconstyle"] = "fab"
             result["repotitle"] = "GitLab"
+        elif "sourceforge.net" in domain:
+            try:
+                # https://sourceforge.net/projects/<repo>
+                _, _, repo, *_ = repo_parsed.path.split("/")
+            except ValueError:
+                pass
+            else:
+                result["repobadge"] = f'<img class="badge lazyload" alt="Sourceforge downloads" data-src="https://img.shields.io/sourceforge/dt/{repo}?style=flat-square" src="http://img.shields.io/badge/downloads-%3F-brightgreen?style=flat-square">'
         elif ext in (".gz", ".zip", ".tar", ".tgz", ".tbz2", ".bz2", ".xz", ".rar"):
             result["repoiconname"] = "box"
             result["repoiconstyle"] = "fas"
