@@ -146,7 +146,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
             except ValueError:
                 pass
             else:
-                result["repobadge"] = f'<img class="badge lazyload" alt="Sourceforge downloads" data-src="https://img.shields.io/sourceforge/dt/{repo}?style=flat-square" src="http://img.shields.io/badge/downloads-%3F-brightgreen?style=flat-square">'
+                result["repobadge"] = f'<img class="badge lazyload" alt="Sourceforge downloads" data-src="https://img.shields.io/sourceforge/dt/{repo}?style=flat-square" src="https://img.shields.io/badge/downloads-%3F-brightgreen?style=flat-square">'
         elif ext in (".gz", ".zip", ".tar", ".tgz", ".tbz2", ".bz2", ".xz", ".rar"):
             result["repoiconname"] = "box"
             result["repoiconstyle"] = "fas"
