@@ -4,6 +4,23 @@ var OSGC = window.OSGC = {};
 var params = window.params = {};
 var activeTag = window.activeTag = null;
 
+// Lazy load badges when they become visible (avoid error 429)
+var lazyloadHandler = function(e) {
+  var elements = document.querySelectorAll("img.lazyload");
+  for (var i = 0; i < elements.length; i++) {
+    var boundingClientRect = elements[i].getBoundingClientRect();
+    if (
+      elements[i].hasAttribute("data-src") &&
+      boundingClientRect.top < window.innerHeight &&
+      // Ensure parent game is not hidden
+      elements[i].offsetParent != null
+    ) {
+      elements[i].setAttribute("src", elements[i].getAttribute("data-src"));
+      elements[i].removeAttribute("data-src");
+    }
+  }
+};
+
 // menu
 (function() {
   const nav = document.getElementById('nav');
@@ -17,6 +34,9 @@ var activeTag = window.activeTag = null;
       const wasActive = t.parentNode.classList.contains('active');
       btns.forEach((btn) => btn.parentNode.classList.remove('active'));
       if (!wasActive) { t.parentNode.classList.add('active') };
+      
+      // Lazy load badges as the visible area has changed
+      lazyloadHandler();
     }
   }
 })();
@@ -300,8 +320,10 @@ function highlightTags(tag) {
 
     return Promise.resolve().then(queue).then(showResults);
   }
+})();
 
-  // Dark theme
+// Dark theme
+(function() {
   function toggleDarkTheme() {
     if (document.body.classList.contains('darkTheme')) {
       document.body.classList.remove('darkTheme');
@@ -313,24 +335,10 @@ function highlightTags(tag) {
   }
 
   document.getElementById('darkThemeButton').addEventListener('click', toggleDarkTheme)
+})();
 
-  // Lazy load badges when they become visible (avoid error 429)
-  var lazyloadHandler = function(e) {
-    var elements = document.querySelectorAll("img.lazyload");
-    for (var i = 0; i < elements.length; i++) {
-      var boundingClientRect = elements[i].getBoundingClientRect();
-      if (
-        elements[i].hasAttribute("data-src") &&
-        boundingClientRect.top < window.innerHeight &&
-        // Ensure parent game is not hidden
-        elements[i].offsetParent != null
-      ) {
-        elements[i].setAttribute("src", elements[i].getAttribute("data-src"));
-        elements[i].removeAttribute("data-src");
-      }
-    }
-  };
-
+// Lazy load badges
+(function() {
   window.addEventListener('scroll', lazyloadHandler);
   window.addEventListener('load', lazyloadHandler);
   window.addEventListener('resize', lazyloadHandler);
