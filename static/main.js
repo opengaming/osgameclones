@@ -5,7 +5,7 @@ var params = window.params = {};
 var activeTag = window.activeTag = null;
 
 // Lazy load badges when they become visible (avoid error 429)
-var lazyloadHandler = function(e) {
+function lazyloadHandler(e) {
   var elements = document.querySelectorAll("img.lazyload");
   for (var i = 0; i < elements.length; i++) {
     var boundingClientRect = elements[i].getBoundingClientRect();
@@ -21,10 +21,10 @@ var lazyloadHandler = function(e) {
   }
 };
 
-var handleContentChanged = function() {
+function handleContentChanged {
   setCount();
   lazyLoadHandler();
-};
+}
 
 // menu
 (function() {
