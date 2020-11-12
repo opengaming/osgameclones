@@ -19,11 +19,11 @@ function lazyloadHandler(e) {
       elements[i].removeAttribute("data-src");
     }
   }
-};
+}
 
-function handleContentChanged {
+function handleContentChanged() {
   setCount();
-  lazyLoadHandler();
+  lazyloadHandler();
 }
 
 // menu
