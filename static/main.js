@@ -21,10 +21,10 @@ var lazyloadHandler = function(e) {
   }
 };
 
-function handleContentChanged() {
+var handleContentChanged = function() {
   setCount();
   lazyLoadHandler();
-}
+};
 
 // menu
 (function() {
