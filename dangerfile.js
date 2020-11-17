@@ -13,7 +13,9 @@ let namesRemoved = []
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 let unknownLanguageDetected = false
+// Follow https://github.com/github/linguist/blob/master/lib/linguist/languages.yml for a list of languages
 const knownLanguages = [
+  'AGS Script',
   'ActionScript',
   'Ada',
   'AngelScript',
@@ -63,6 +65,7 @@ let unknownFrameworkDetected = false
 const knownFrameworks = [
   '.NET Core',
   'Adobe AIR',
+  'Adventure Game Studio',
   'Allegro',
   'BackBone.js',
   'Box2D',
