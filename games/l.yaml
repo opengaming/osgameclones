@@ -86,6 +86,28 @@
   type: remake
   updated: 2017-10-15
 
+- name: LBA2 Remake
+  originals:
+  - Little Big Adventure 2
+  type: remake
+  repo: 'https://github.com/agrande/lba2remake'
+  development: very active
+  status: semi-playable
+  content: commercial
+  lang:
+  - JavaScript
+  framework:
+  - three.js
+  - React
+  license:
+  - MIT
+  images:
+  - >-
+    https://raw.githubusercontent.com/agrande/lba2remake/master/doc/images/screenshot_game.jpeg
+  - >-
+    https://raw.githubusercontent.com/agrande/lba2remake/master/doc/images/screenshot_editor.jpeg
+
+
 - name: LBreakoutHD
   originals:
   - Breakout
