@@ -802,6 +802,25 @@
   images:
   - https://raw.githubusercontent.com/yuv422/cosmo-engine/master/img/cosmo-engine.png
 
+- name: Cosmore
+  type: remake
+  originals:
+  - Cosmo's Cosmic Adventure
+  repo: https://github.com/smitelli/cosmore
+  url: https://www.scottsmitelli.com/projects/cosmore
+  development: active
+  status: playable
+  lang:
+  - C
+  - Assembly
+  license:
+  - MIT
+  content: commercial
+  info: Reconstruction of the original source code, compiles under Turbo-C to an MS-DOS EXE
+  updated: 2020-11-23
+  images:
+  - https://repository-images.githubusercontent.com/310987686/1de32580-2cf4-11eb-9ebb-585aa9df3656
+
 - name: Cosmosmash
   framework:
   - SDL
