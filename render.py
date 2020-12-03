@@ -45,7 +45,7 @@ def render_to(src, dst, **ctx):
     res = t.render(**ctx)
 
     os.makedirs(op.dirname(dst), exist_ok=True)
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf-8') as f:
         f.write(res)
 
 

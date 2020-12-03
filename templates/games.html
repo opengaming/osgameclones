@@ -61,86 +61,90 @@
   {{ show_keywords_names(meta.names_ascii) }}
 {%- endmacro %}
 
+{% macro render_game(names, meta, game) %}
+  <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
+    <dd class="searchable {% if game.new %}new{% endif %}"
+        data-name="{{ game.name }}"
+        data-parent="
+          {%- if names.0 is string -%}
+            {% set name = names.0 %}
+          {%- else -%}
+            {% set name = names.0.0 %}
+          {%- endif -%}
+          {{ show_id(name, mode) }}"
+        data-tags="{{ show_tags(game) }}"
+        data-index="{{ show_keywords(game, names, meta) }}"
+        data-updated="{{ game.updated }}"
+    >
+      <span class="{% if 'images' in game or 'video' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
+
+      {%- if 'url' in game -%}
+        <a href="{{ game['url'] }}" itemprop="url"><span itemprop="name">{{ game['name'] }}</span></a>
+      {%- else -%}
+        <span itemprop="name">{{ game['name'] }}</span>
+      {%- endif %}
+
+      {%- if 'feed' in game %}
+        <a href="{{ game['feed'] }}" class="feed-icon" title="Feed"><span class="fas fa-rss"></span></a>
+      {%- endif %}
+
+      {%- if 'repo' in game %}
+        (
+        <a itemprop="codeRepository" href="{{ game['repo'] }}">repo
+        {%- if 'repoiconname' in game %}
+          <span class="repoicon {{ game['repoiconstyle'] }} fa-{{ game['repoiconname'] }}" title="{{ game['repotitle'] }}"></span>
+        {%- endif %}
+        {%- if 'repobadge' in game %}{{ game['repobadge'] }}{%- endif %}
+        </a>
+        )
+      {%- endif %}
+
+      {{ tags.render_tag_groups('type', game['type'] | title) }}
+      {{ tags.render_tag_groups('status', game['status'] | title) }}
+      {{ tags.render_tag_groups('development', game['development'] | title) }}
+      {{ tags.render_tag_groups('lang', game['lang']) }}
+      {{ tags.render_tag_groups('framework', game['framework']) }}
+
+
+      {{ tags.render_tag_groups('content', game['content'] | title) }}
+      {{ tags.render_tag_groups('license', game['license']) }}
+
+      {%- if 'multiplayer' in game %}
+        {{ tags.render_tag_groups('multiplayer', game['multiplayer']) }}
+      {%- endif %}
+
+      {%- if 'info' in game %}<div itemprop="description">{{ game['info'] }}</div>{% endif %}
+
+      <div class="gallery" style="display: none"></div>
+
+      {% if game['images'] | length > 0 -%}
+        <script class="gallery-json" data-game="{{ game['name'] }}" type="text/json">
+          {{- game['images'] | join(', ') -}}
+        </script>
+      {% endif %}
+
+      <script class="gallery-raw" type="text/plain">
+        {% for imageUrl in game.get('images', []) %}
+          <img src="{{ imageUrl }}" itemprop="image" alt="{{ game['name'] }}">
+        {% endfor %}
+
+        {% if 'video' in game %}
+          {% if 'youtube' in game['video'] %}{{ video.render_youtube(game['video']['youtube']) }}{% endif %}
+          {% if 'vimeo' in game['video'] %}{{ video.render_vimeo(game['video']['vimeo']) }}{% endif %}
+          {% if 'moddb' in game['video'] %}{{ video.render_moddb(game['video']['moddb']) }}{% endif %}
+          {% if 'indiedb' in game['video'] %}{{ video.render_indiedb(game['video']['indiedb']) }}{% endif %}
+        {%- endif %}
+      </script>
+    </dd>
+  </div>
+{% endmacro %}
+
 {% macro render(names, meta, items, mode) %}
   {% for name in names %}
     {{ render_name(name, meta, loop.index0, mode) }}
   {% endfor %}
 
   {% for game in items %}
-  <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
-  <dd class="searchable {% if game.new %}new{% endif %}"
-      data-name="{{ game.name }}"
-      data-parent="
-        {%- if names.0 is string -%}
-          {% set name = names.0 %}
-        {%- else -%}
-          {% set name = names.0.0 %}
-        {%- endif -%}
-        {{ show_id(name, mode) }}"
-      data-tags="{{ show_tags(game) }}"
-      data-index="{{ show_keywords(game, names, meta) }}"
-      data-updated="{{ game.updated }}"
-  >
-    <span class="{% if 'images' in game or 'video' in game %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
-
-    {%- if 'url' in game -%}
-      <a href="{{ game['url'] }}" itemprop="url"><span itemprop="name">{{ game['name'] }}</span></a>
-    {%- else -%}
-      <span itemprop="name">{{ game['name'] }}</span>
-    {%- endif %}
-
-    {%- if 'feed' in game %}
-      <a href="{{ game['feed'] }}" class="feed-icon" title="Feed"><span class="fas fa-rss"></span></a>
-    {%- endif %}
-
-    {%- if 'repo' in game %}
-      (
-      <a itemprop="codeRepository" href="{{ game['repo'] }}">repo
-      {%- if 'repoiconname' in game %}
-        <span class="repoicon {{ game['repoiconstyle'] }} fa-{{ game['repoiconname'] }}" title="{{ game['repotitle'] }}"></span>
-      {%- endif %}
-      {%- if 'repobadge' in game %}{{ game['repobadge'] }}{%- endif %}
-      </a>
-      )
-    {%- endif %}
-
-    {{ tags.render_tag_groups('type', game['type'] | title) }}
-    {{ tags.render_tag_groups('status', game['status'] | title) }}
-    {{ tags.render_tag_groups('development', game['development'] | title) }}
-    {{ tags.render_tag_groups('lang', game['lang']) }}
-    {{ tags.render_tag_groups('framework', game['framework']) }}
-
-
-    {{ tags.render_tag_groups('content', game['content'] | title) }}
-    {{ tags.render_tag_groups('license', game['license']) }}
-
-    {%- if 'multiplayer' in game %}
-      {{ tags.render_tag_groups('multiplayer', game['multiplayer']) }}
-    {%- endif %}
-
-    {%- if 'info' in game %}<div itemprop="description">{{ game['info'] }}</div>{% endif %}
-
-    <div class="gallery" style="display: none"></div>
-
-    {% if game['images'] | length > 0 -%}
-      <script class="gallery-json" data-game="{{ game['name'] }}" type="text/json">
-        {{- game['images'] | join(', ') -}}
-      </script>
-    {% endif %}
-
-    <script class="gallery-raw" type="text/plain">
-      {% for imageUrl in game.get('images', []) %}
-        <img src="{{ imageUrl }}" itemprop="image" alt="{{ game['name'] }}">
-      {% endfor %}
-
-      {% if 'video' in game %}
-        {% if 'youtube' in game['video'] %}{{ video.render_youtube(game['video']['youtube']) }}{% endif %}
-        {% if 'vimeo' in game['video'] %}{{ video.render_vimeo(game['video']['vimeo']) }}{% endif %}
-        {% if 'moddb' in game['video'] %}{{ video.render_moddb(game['video']['moddb']) }}{% endif %}
-        {% if 'indiedb' in game['video'] %}{{ video.render_indiedb(game['video']['indiedb']) }}{% endif %}
-      {%- endif %}
-    </script>
-  </dd>
-  </div>
+    {{ render_game(names, meta, game) }}
   {% endfor %}
 {% endmacro %}
