@@ -78,16 +78,28 @@
     theme:
     - Abstract
 
-- name: "Pok\xE9mon"
+- name: Pokémon
   external:
-    wikipedia: "Pok\xE9mon (video game series)"
+    wikipedia: Pokémon (video game series)
   meta:
     genre:
     - RPG
 
-- name: "Pok\xE9mon Mystery Dungeon"
+- name: Pokémon Gold
+  names:
+  - Pokémon Silver
+  - Pokémon Crystal
   external:
-    wikipedia: "Pok\xE9mon Mystery Dungeon"
+    wikipedia: Pokémon Gold and Silver
+  platform:
+  - Game Boy
+  meta:
+    genre:
+    - RPG
+
+- name: Pokémon Mystery Dungeon
+  external:
+    wikipedia: Pokémon Mystery Dungeon
   meta:
     genre:
     - RPG
