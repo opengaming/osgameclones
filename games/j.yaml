@@ -1,3 +1,23 @@
+- name: Jactorio
+  type: clone
+  originals:
+  - Factorio
+  repo: https://github.com/jaihysc/Jactorio
+  url: https://jaihysc.github.io/jactorio.html
+  development: active
+  status: playable
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - MIT
+  content: commercial
+  updated: 2020-11-27
+  images:
+  - https://i.imgur.com/MMwQvxn.png
+  - https://i.imgur.com/mwITVoY.png
+
 - name: Jagged Alliance 2 Stracciatella
   images:
   - https://ja2-stracciatella.github.io/img/features/high-res.jpg
@@ -342,4 +362,3 @@
   type: remake
   updated: 2015-05-09
   url: http://www.oldskool.org/pc/jumpman
-
