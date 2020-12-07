@@ -2,11 +2,11 @@ import copy
 import sys
 import pprint
 import os, os.path as op
+import unicodedata
 from datetime import date, datetime, timedelta
 from collections import OrderedDict
 from functools import partial
 from urllib.parse import urlparse
-
 import yaml
 from natsort import natsorted, ns
 from pykwalify.core import Core
@@ -40,7 +40,7 @@ def game_name(game):
 
 
 def parse_tag(tag):
-    return tag.replace(' ', '-').lower()
+    return unicodedata.normalize('NFC', tag.replace(' ', '-').lower())
 
 
 def parse_unicode(text):
