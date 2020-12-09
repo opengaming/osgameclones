@@ -36,25 +36,26 @@
   {% for n in names -%}
     {% if n is not string -%}
       {% for i in n -%}
-        {{ i | lower | e -}}{{ ' ' -}}
+        {{ i | normalize -}}{{ ' ' -}}
       {% endfor -%}
     {% else -%}
-      {{ n | lower | e -}}
+      {{ n | normalize -}}
     {% endif -%}
+    {{ ' ' -}}
   {% endfor -%}
 {%- endmacro %}
 
 {% macro show_keywords(game, names, meta) -%}
-  {{ game.name | lower | e -}}{{ ' ' -}}
-  {{ game.tags | join(' ') -}}{{ ' ' -}}
-  {{ game.info | lower | e -}}{{ ' ' -}}
+  {{ game.name | normalize -}}{{ ' ' -}}
+  {{ game.tags | join(' ') | normalize -}}{{ ' ' -}}
+  {{ game.info | normalize -}}{{ ' ' -}}
 
   {%- if game.new %}
-    {{ 'new updated added' }}
+    {{ 'new updated added ' -}}
   {% endif %}
 
   {%- if 'multiplayer' in game -%}
-    {{ 'multiplayer' }}
+    {{ 'multiplayer ' }}
   {%- endif -%}
 
   {{ show_keywords_names(names) }}
