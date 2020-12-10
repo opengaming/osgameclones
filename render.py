@@ -47,7 +47,7 @@ def render_to(src, dst, **ctx):
     res = t.render(**ctx)
 
     os.makedirs(op.dirname(dst), exist_ok=True)
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf-8') as f:
         f.write(res)
 
 
@@ -70,6 +70,8 @@ def render_all(target):
 
         
 def normalize(text):
+    if not text:
+        return ''
     return html.escape(unidecode.unidecode(text.lower()))
 
 
