@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
+import html
 import os, os.path as op
 import shutil
 import functools
 import argparse
 import logging
 import re
+import unidecode
 
 import jinja2
 import _ext
@@ -66,12 +68,19 @@ def render_all(target):
         name = slug(game[0][0])
         render_to('game.html', f'{target}/{name}/index.html', site=site, game=game)
 
+        
+def normalize(text):
+    if not text:
+        return ''
+    return html.escape(unidecode.unidecode(text.lower()))
+
 
 def main():
     parser = argparse.ArgumentParser(description='Render OSGC')
     parser.add_argument('-d', '--dest', default='_build')
     args = parser.parse_args()
 
+    env().filters['normalize'] = normalize
     render_all(args.dest)
 
 
