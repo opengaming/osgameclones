@@ -218,7 +218,7 @@ const checkHasImagesOrVideos = game => {
 }
 
 const checkHasStatus = game => {
-  if (!game.playable) {
+  if (!game.status) {
     warn(`🕹️ ${game.name} has no "status" field. Please add so users know whether the game is playable!`)
   }
 }
