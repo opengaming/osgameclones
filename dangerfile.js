@@ -217,9 +217,9 @@ const checkHasImagesOrVideos = game => {
   }
 }
 
-const checkHasPlayable = game => {
+const checkHasStatus = game => {
   if (!game.playable) {
-    warn(`🕹️ ${game.name} has no "playable" field.`)
+    warn(`🕹️ ${game.name} has no "status" field. Please add so users know whether the game is playable!`)
   }
 }
 
@@ -231,7 +231,7 @@ const commonChecks = game => {
   checkLanguageKnown(game)
   checkFrameworkKnown(game)
   checkHasImagesOrVideos(game)
-  checkHasPlayable(game)
+  checkHasStatus(game)
 }
 
 // -----------
