@@ -105,6 +105,7 @@ const knownFrameworks = [
   'Open Dynamics Engine',
   'OpenAL',
   'OpenGL',
+  'OpenRA',
   'Panda3D',
   'PandaJS',
   'Phaser',
