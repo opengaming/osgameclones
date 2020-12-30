@@ -217,6 +217,12 @@ const checkHasImagesOrVideos = game => {
   }
 }
 
+const checkHasStatus = game => {
+  if (!game.status) {
+    warn(`🕹️ ${game.name} has no "status" field. Please add so users know whether the game is playable!`)
+  }
+}
+
 const commonChecks = game => {
   checkGameUpdated(game)
   checkRepoGoogleCode(game)
@@ -225,6 +231,7 @@ const commonChecks = game => {
   checkLanguageKnown(game)
   checkFrameworkKnown(game)
   checkHasImagesOrVideos(game)
+  checkHasStatus(game)
 }
 
 // -----------
