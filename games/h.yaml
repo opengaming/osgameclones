@@ -34,16 +34,18 @@
 
 - name: Hardwar
   lang:
-  - C
   - C++
+  framework:
+  - OGRE
   license:
   - GPL3
-  development: sporadic
+  development: halted
+  status: unplayable
   originals:
   - Hardwar
   repo: https://github.com/andrewfenn/Hardwar
   type: remake
-  updated: 2013-05-27
+  updated: 2020-12-28
   url: http://www.hardwar.org/
 
 - name: Harvest Moon 2.0
