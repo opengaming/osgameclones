@@ -46,7 +46,7 @@
     {% for names, meta, items in site.games %}
       {% for game in items %}
         {% if game.new %}
-          {% new_games[game.name] = (names, meta, game) %}
+          {% set new_games[game.name] = (names, meta, game) %}
         {% endif %}
       {% endfor %}
     {% endfor %}
