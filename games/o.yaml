@@ -195,6 +195,33 @@
   video:
     youtube: Wth0Z2eMezE
 
+- name: OpenHV
+  images:
+  - https://img.itch.zone/aW1nLzQxOTM0MTMucG5n/original/StOJCR.png
+  - https://img.itch.zone/aW1nLzQxOTAxMDMucG5n/original/gtYy3b.png
+  - https://img.itch.zone/aW1nLzQxOTM0MTAucG5n/original/Fhisck.png
+  lang:
+  - C#
+  - Lua
+  framework:
+  - OpenRA
+  license:
+  - GPL3
+  - CC-BY
+  - CC-BY-SA
+  content: open
+  multiplayer:
+  - Online
+  - LAN
+  development: active
+  status: playable
+  originals:
+  - Hard Vacuum
+  repo: https://github.com/OpenHV/OpenHV
+  type: similar
+  url: https://openhv.itch.io/openhv
+  updated: 2020-12-30
+
 - name: Open Imperium Galactica
   lang:
   - Java
@@ -1391,21 +1418,30 @@
   - http://www.openra.net/images/news/20150808-d2k-range-circles.png
   lang:
   - C#
+  - Lua
+  framework:
+  - .NET Core
+  - SDL2
+  - OpenAL
+  - OpenGL
   license:
   - GPL3
   multiplayer:
   - Online
   - LAN
   development: active
+  status: playable
   originals:
   - Command & Conquer
   - 'Command & Conquer: Red Alert'
   - Dune 2000
+  content: free
   repo: https://github.com/OpenRA/OpenRA
   type: remake
   url: http://www.openra.net
   video:
     youtube: CAK-SwSZjbY
+  updated: 2020-12-30
 
 - name: OpenRaider
   lang:
