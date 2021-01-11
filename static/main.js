@@ -117,7 +117,7 @@ function filterByTag(curTag) {
   for (var i = 0, len = games.length; i < len; i += 1) {
     game = games[i];
     gameTags = game.getAttribute('data-tags').split(' ');
-    parent = document.getElementById(game.getAttribute('data-parent'));
+    parent = document.getElementById(game.getAttribute('data-parent') + 'games');
 
     if (gameTags && gameTags.indexOf(curTag) > -1) {
       if (!game.classList.contains('active')) {
