@@ -42,12 +42,16 @@
 <div>
   <h2>New and updated games</h2>
   <dl>
+    {% set new_games = {} %}
     {% for names, meta, items in site.games %}
       {% for game in items %}
         {% if game.new %}
-          {{ games.render_game(names, meta, game) }}
+          {% set _ = new_games.__setitem__(game.name, (names, meta, game)) %}
         {% endif %}
       {% endfor %}
+    {% endfor %}
+    {% for names, meta, game in new_games.values() %}
+      {{ games.render_game(names, meta, game) }}
     {% endfor %}
   </dl>
 </div>
