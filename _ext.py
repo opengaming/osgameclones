@@ -282,6 +282,11 @@ def parse_data(site):
                     "error": "Original game '%s' not found" % original
                 })
 
+        if "updated" not in clone:
+            print(f"{clone['name']} has no updated field")
+        if "status" not in clone:
+            print(f"{clone['name']} has no status field")
+
     if len(errors) > 0:
         show_errors(errors)
 
