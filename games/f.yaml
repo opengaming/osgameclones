@@ -46,16 +46,25 @@
 
 - name: f2bgl
   framework:
-  - SDL
+  - SDL2
+  - OpenGL
   lang:
   - C++
   license:
   - As-is
-  development: halted
+  content: commercial
+  development: sporadic
+  status: playable
   originals:
   - Fade to Black
   repo: https://github.com/cyxx/f2bgl
   type: remake
+  updated: 2021-02-03
+  url: http://cyxdown.free.fr/f2b/
+  images:
+  - http://cyxdown.free.fr/f2b/f2bgl-level4b-04.thumb.jpg
+  - http://cyxdown.free.fr/f2b/f2bgl-level1-10.thumb.jpg
+  - http://cyxdown.free.fr/f2b/f2bgl-level3-21.thumb.jpg
 
 - name: Falling Time
   framework:
