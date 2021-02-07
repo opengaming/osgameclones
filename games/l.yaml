@@ -391,16 +391,20 @@
 - name: Lincity
   images:
   - http://lincity.sourceforge.net/screenshots/power.png
+  - http://lincity.sourceforge.net/screenshots/power+pollution.png
+  - http://lincity.sourceforge.net/screenshots/fire.png
   lang:
   - C
   license:
   - GPL2
   development: halted
+  status: playable
   originals:
   - Simcity
   repo: https://sourceforge.net/projects/lincity/
   type: clone
   url: http://lincity.sourceforge.net/
+  updated: 2021-02-08
 
 - name: LinCity-NG
   images:
