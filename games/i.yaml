@@ -141,14 +141,21 @@
 - name: ioquake3
   lang:
   - C
+  framework:
+  - SDL2
   license:
   - GPL2
+  content: swappable
   development: active
   originals:
   - Quake 3
   repo: https://github.com/ioquake/ioq3
+  status: playable
   type: remake
   url: http://ioquake3.org/
+  updated: 2021-02-07
+  video:
+    youtube: KavcvHixd6A
 
 - name: Iris2
   images:
