@@ -292,8 +292,11 @@
 - name: Forge
   lang:
   - Java
+  framework:
+  - LibGDX
   license:
-  - As-is
+  - GPL3
+  content: free
   development: very active
   originals:
   - 'Magic: The Gathering Online'
@@ -301,6 +304,11 @@
   status: playable
   type: clone
   url: https://www.slightlymagic.net/wiki/Forge
+  updated: 2021-02-11
+  images:
+  - https://www.slightlymagic.net/forum/download/file.php?id=5121&mode=view
+  video:
+    youtube: TVIroBPwheU
 
 - name: FQuake3
   lang:
