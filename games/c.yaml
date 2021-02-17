@@ -749,20 +749,26 @@
 
 - name: Commander Genius
   images:
-  - http://clonekeenplus.sourceforge.net/img/ckp1.jpg
-  - http://clonekeenplus.sourceforge.net/img/ckpoptions.jpg
-  - http://clonekeenplus.sourceforge.net/img/lampk2cg.jpg
-  - http://clonekeenplus.sourceforge.net/img/keen4flag.png
+  - https://clonekeenplus.sourceforge.io/img/multiplayerVoritcon.png
+  - https://clonekeenplus.sourceforge.io/img/SecondplayerHelpsFirst.png
+  - https://clonekeenplus.sourceforge.io/img/keenvga1.jpg
+  - https://clonekeenplus.sourceforge.io/img/keendark.jpg
   lang:
   - C++
   license:
   - GPL2
+  content: commercial
+  status: playable
   development: active
+  multiplayer:
+  - Co-op
+  - Local
   originals:
   - Commander Keen Series
   repo: https://gitlab.com/Dringgstein/Commander-Genius
   type: remake
   url: http://clonekeenplus.sourceforge.net/
+  updated: 2021-02-18
 
 - name: CommandoJS
   framework:
