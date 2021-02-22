@@ -627,12 +627,16 @@
   updated: 2016-05-28
   url: https://doom64ex.wordpress.com/
 
-- name: Doomsday
+- name: Doomsday Engine
   lang:
-  - C
+  - C++
+  framework:
+  - SDL2
   license:
-  - GPL2
+  - GPL3
+  content: commercial
   development: active
+  status: playable
   originals:
   - Doom
   - Heretic
@@ -640,6 +644,14 @@
   repo: https://github.com/skyjake/Doomsday-Engine
   type: remake
   url: http://dengine.net/
+  feed: http://blog.dengine.net/category/news/feed/atom/
+  updated: 2021-02-15
+  images:
+  - https://a.fsdn.com/con/app/proj/deng/screenshots/240398.jpg/245/183/1.5
+  - https://a.fsdn.com/con/app/proj/deng/screenshots/11853.jpg/245/183/1.5
+  - https://a.fsdn.com/con/app/proj/deng/screenshots/11855.jpg/245/183/1.5
+  video:
+    youtube: p3UgWUcTxN0
 
 - name: Dope Wars
   images:
