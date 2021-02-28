@@ -16,7 +16,6 @@
   - https://raw.githubusercontent.com/lilybeevee/bab-be-u/master/docs/img1.png
   - https://raw.githubusercontent.com/lilybeevee/bab-be-u/master/docs/img2.png
   - https://raw.githubusercontent.com/lilybeevee/bab-be-u/master/docs/img3.png
-  
 
 - name: Babaliba
   images:
@@ -540,6 +539,27 @@
   type: clone
   updated: 2015-04-25
   url: http://briquolo.free.fr/en/index.html
+
+- name: Brogue CE
+  originals:
+  - Brogue
+  type: remake
+  repo: 'https://github.com/tmewett/BrogueCE'
+  development: active
+  status: playable
+  content: open
+  lang:
+  - C
+  framework:
+  - SDL2
+  license:
+  - AGPL3
+  info: >-
+    Brogue: Community Edition - a community-lead fork of the much-loved minimalist
+    roguelike game
+  updated: '2021-03-01'
+  images:
+  - 'https://syltefar.com/images_full/brogue_community_edition_html.png'
 
 - name: Brutal Chess
   images:
