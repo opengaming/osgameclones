@@ -843,10 +843,12 @@
 
 - name: CorsixTH
   development: active
+  feed: https://github.com/CorsixTH/CorsixTH/releases.atom
   framework:
   - SDL2
   images:
   - https://th.corsix.org/CorsixTH08.jpg
+  - http://i.imgur.com/fYp148T.jpg
   info: time-based releases
   lang:
   - C++
@@ -860,6 +862,7 @@
   status: playable
   type: remake
   url: http://corsixth.com/
+  updated: 2021-03-02
   video:
     youtube: rSN1p247J74
 
