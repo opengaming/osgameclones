@@ -195,6 +195,27 @@
   video:
     youtube: Wth0Z2eMezE
 
+- name: Open Horizon
+  framework:
+  - nya-engine
+  images:
+  - http://zxstudio.org/blog/wp-content/uploads/2019/03/open-horizon-screenshot.png
+  - http://zxstudio.org/blog/wp-content/uploads/2016/12/ac6_ok.png
+  - http://zxstudio.org/blog/wp-content/uploads/2016/12/ac6_ms01_raw.png
+  lang:
+  - C++
+  license:
+  - MIT
+  content: commercial
+  development: halted
+  status: semi-playable
+  originals:
+  - 'Ace Combat: Assault Horizon'
+  repo: https://github.com/undefined-darkness/open-horizon
+  type: remake
+  updated: 2021-02-25
+  url: http://zxstudio.org/blog/author/razgriz/
+
 - name: OpenHV
   images:
   - https://img.itch.zone/aW1nLzQxOTM0MTMucG5n/original/StOJCR.png
@@ -470,25 +491,6 @@
   repo: https://github.com/namelivia/open-heavy-smash
   type: remake
   updated: 2015-05-28
-
-- name: open-horizon
-  framework:
-  - nya-engine
-  images:
-  - http://zxstudio.org/blog/wp-content/uploads/2015/04/open-horizon-progress-report-01.png
-  - http://zxstudio.org/blog/wp-content/uploads/2016/01/open-horizon-effects.png
-  - http://zxstudio.org/blog/wp-content/uploads/2015/05/cockpit2.png
-  lang:
-  - C++
-  license:
-  - MIT
-  development: active
-  originals:
-  - 'Ace Combat: Assault Horizon'
-  repo: https://github.com/undefined-darkness/open-horizon
-  type: remake
-  updated: 2016-02-09
-  url: http://zxstudio.org/blog/author/razgriz/
 
 - name: openage
   development: active
