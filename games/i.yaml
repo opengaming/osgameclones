@@ -159,16 +159,24 @@
 
 - name: Iris2
   images:
+  - https://libregamewiki.org/images/thumb/a/a9/Iris-2D.png/320px-Iris-2D.png
+  - https://libregamewiki.org/images/thumb/e/e2/Iris-3D.png/320px-Iris-3D.png
   - http://www.iris2.de/images/4/48/20080106175329_188.png
   license:
   - GPL3
+  content: commercial
+  lang:
+  - C++
+  framework:
+  - OGRE
   development: halted
   originals:
   - Ultima Online
   repo: https://github.com/kblaschke/Iris2
   status: playable
   type: remake
-  url: http://www.iris2.de/
+  url: https://libregamewiki.org/Iris2_3D_Client_-_for_Ultima_Online
+  updated: 2021-03-10
 
 - name: iortcw
   originals:
