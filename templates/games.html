@@ -142,7 +142,7 @@
 
 {% macro render(names, meta, items, mode) %}
   {% for name in names %}
-    {{ render_name(name, meta, loop.index, mode) }}
+    {{ render_name(name, meta, loop.index0, mode) }}
   {% endfor %}
 
   {% for game in items %}
