@@ -68,7 +68,7 @@ def render_all(target):
         name = slug(game[0][0])
         render_to('game.html', f'{target}/{name}/index.html', site=site, game=game)
 
-        
+
 def normalize(text):
     if not text:
         return ''
