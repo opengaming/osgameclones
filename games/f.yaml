@@ -549,9 +549,10 @@
   - http://www.freedroid.org/images/screenshots/editor_zoom.png
   - http://www.freedroid.org/images/screenshots/editor.png
   lang:
-  - Python
   - C
   - Lua
+  framework:
+  - SDL
   license:
   - GPL2
   development: active
@@ -559,8 +560,9 @@
   - Paradroid
   status: playable
   repo: https://gitlab.com/freedroid/freedroid-src
-  type: clone
+  type: similar
   url: http://www.freedroid.org/
+  updated: 2021-03-18
 
 - name: FreeFalcon
   info: win32
