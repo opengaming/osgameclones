@@ -45,13 +45,7 @@ function handleContentChanged() {
 
 // gallery handling
 (function() {
-  var els = document.getElementsByClassName('toggler');
-
-  for (var i = 0, l = els.length; i < l; i++) {
-    els[i].addEventListener('click', onclick);
-  }
-
-  function onclick(ev) {
+  var onclick = function(ev) {
     var t = ev.target;
     var gallery = t.parentNode.getElementsByClassName('gallery')[0];
     var raw = t.parentNode.getElementsByClassName('gallery-raw')[0];
@@ -62,7 +56,13 @@ function handleContentChanged() {
 
     if (raw && show_now) { gallery.insertAdjacentHTML('beforeend', raw.innerHTML); }
     else { gallery.innerHTML = ''; }
-  }
+  };
+
+  document.body.addEventListener('click', function(ev) {
+      if (!ev.target || !ev.target.matches("span.toggler")) return;
+
+      onclick(ev);
+  })
 })();
 
 // search handling
