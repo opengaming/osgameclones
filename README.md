@@ -92,6 +92,27 @@ Simply run the following to build the project into the `_build` directory.
 make
 ```
 
+### Running the server with Docker
+
+You must first build a Docker image
+
+```bash
+make docker-build
+```
+
+After building the docker image, run the server with Docker
+
+```bash
+make docker-run
+```
+
+The server will be available at http://localhost:80, you can choose the port with the **PORT** variable.
+
+```bash
+# The server will be available at http://localhost:3000
+make docker-run PORT=3000
+```
+
 ## License
 
 See [LICENSE][license]
