@@ -83,6 +83,7 @@ const knownFrameworks = [
   'Flash',
   'GameMaker Studio',
   'Godot',
+  'Graphics32',
   'GTK+',
   'Inform',
   'Irrlicht',
