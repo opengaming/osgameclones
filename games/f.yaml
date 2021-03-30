@@ -659,7 +659,7 @@
   updated: 2015-04-03
 
 - name: FreeOrion
-  development: sporadic
+  development: active
   images:
   - https://www.freeorion.org/images/8/82/Galaxy_Map_AIs_SVN3100.png
   - https://www.freeorion.org/images/1/14/Design_Screen_SVN3097.png
@@ -667,16 +667,23 @@
   lang:
   - C++
   - Python
+  framework:
+  - SDL
+  - OpenGL
   license:
   - GPL2
   - CC-BY-SA
   content: open
+  status: 
   originals:
   - Master of Orion
   - Master of Orion 2
   repo: https://github.com/freeorion/freeorion
-  type: clone
+  type: similar
   url: https://www.freeorion.org/index.php/Main_Page
+  updated: 2021-03-31
+  video:
+    youtube: 2atHnYAFQgU
 
 - name: FreePrince
   lang:
