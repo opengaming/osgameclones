@@ -273,8 +273,8 @@ const getGameChanges = files => {
         }
       })
     })
-    if (unknownLanguageDetected) message(`Known languages are ${knownLanguages}.`)
-    if (unknownFrameworkDetected) message(`Known frameworks are ${knownFrameworks}.`)
+    if (unknownLanguageDetected) message(`Known languages are ${knownLanguages.join(", ")}.`)
+    if (unknownFrameworkDetected) message(`Known frameworks are ${knownFrameworks.join(", ")}.`)
     if (namesAdded.length > 0) {
       message(`Game(s) added: ${danger.utils.sentence(namesAdded)} 🎊`)
     }
