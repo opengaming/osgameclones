@@ -838,14 +838,20 @@
 - name: OpenDUNE
   lang:
   - C
+  framework:
+  - SDL
+  - SDL2
   license:
   - GPL2
   development: active
+  status: playable
   originals:
   - Dune 2
   repo: https://github.com/OpenDUNE/OpenDUNE
   type: remake
-  url: http://www.opendune.org/
+  updated: 2021-04-07
+  video:
+    youtube: TCZuY365tIE
 
 - name: OpenDungeons
   images:
