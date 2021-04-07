@@ -862,15 +862,20 @@
   - https://raw.githubusercontent.com/OpenDungeons/opendungeons.github.io/master/media/images/0.5.0_rooms.jpg
   lang:
   - C++
+  framework:
+  - OGRE3D
+  - SFML
   license:
   - GPL3
-  - Multiple
-  development: active
+  content: open
+  development: sporadic
   originals:
   - Dungeon Keeper
+  status: playable
   repo: https://github.com/OpenDungeons/OpenDungeons
   type: clone
   url: https://opendungeons.github.io/
+  updated: 2021-04-08
 
 - name: OpenEtG
   lang:
