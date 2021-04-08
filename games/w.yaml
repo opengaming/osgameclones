@@ -444,3 +444,22 @@
   - 'http://wxlasertank.sourceforge.net/screenshots/main.png'
   - 'http://wxlasertank.sourceforge.net/screenshots/game.png'
   - 'http://wxlasertank.sourceforge.net/screenshots/game_petes.png'
+  
+  
+-name: Walic
+  type: clone
+  originals:
+    -Gwent
+  repo: 'https://gitlab.com/mohofobodaktyl/mwalic'
+  development: halted
+  status: playable
+  multiplayer: Online
+  lang:
+    -kotlin
+  framework:
+    -libgdx
+  license:
+    -Apache 2.0
+  content:  open
+  info: Clone of beta
+  updated: '08-04-2021'
