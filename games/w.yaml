@@ -1,3 +1,25 @@
+- name: Walic
+  originals:
+  - Gwent
+  type: clone
+  repo: 'https://gitlab.com/mohofobodaktyl/mwalic'
+  development: halted
+  status: playable
+  multiplayer: 
+    - Online
+    - LAN
+  lang:
+    - Kotlin
+  framework:
+    - LibGDX
+  license:
+    - Apache
+  content: open
+  info: Clone of beta
+  updated: 2021-04-09
+  images:
+  - https://gitlab.com/mohofobodaktyl/mwalic/-/raw/master/Img/game.png
+
 - name: WallBall
   originals:
   - JezzBall
