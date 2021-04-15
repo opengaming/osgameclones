@@ -348,11 +348,12 @@
 
 - name: REminiscence
   framework:
-  - SDL
+  - SDL2
   lang:
   - C++
   license:
   - As-is
+  content: commercial
   images:
   - http://cyxdown.free.fr/reminiscence/reminiscence-1.png
   - http://cyxdown.free.fr/reminiscence/reminiscence-2.png
@@ -361,9 +362,10 @@
   development: sporadic
   originals:
   - Flashback
-  repo: http://cyxdown.free.fr/reminiscence/REminiscence-0.3.7.tar.bz2
+  status: playable
   type: remake
   url: http://cyxdown.free.fr/reminiscence/
+  updated: 2021-04-16
 
 - name: replicant
   info: This version is no longer being developed, please follow https://github.com/madmoose/scummvm/tree/bladerunner/engines/bladerunner
