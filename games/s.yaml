@@ -97,14 +97,16 @@
 
 - name: ScummVM
   images:
-  - http://scummvm.org/data/screenshots/lec/tentacle/scummvm_0_8_1-full.png
-  - http://scummvm.org/data/screenshots/revolution/sky/scummvm_2_5_0-full.png
-  - http://scummvm.org/data/screenshots/tinsel/dw2-1-full.png
-  - http://scummvm.org/data/screenshots/sci/pq/pq1sci-3-full.png
-  - http://scummvm.org/data/screenshots/revolution/sword/sword2-de-1-full.png
+  - https://www.scummvm.org/data/screenshots/lucasarts/tentacle/tentacle_dos_en_1_1_full.png
+  - https://www.scummvm.org/data/screenshots/revolution/sky/sky_dos_en_1_1_full.png
+  - https://www.scummvm.org/data/screenshots/perfect/dw2/dw2_dos_en_1_1_full.png
+  - https://www.scummvm.org/data/screenshots/sierra/pq3/pq3_amiga_en_1_1_full.png
+  - https://www.scummvm.org/data/screenshots/revolution/sword1/sword1_win_en_1_1_full.png
   info: List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
   lang:
   - C++
+  framework:
+  - SDL2
   license:
   - GPL2
   development: very active
@@ -114,6 +116,7 @@
   status: playable
   type: remake
   url: http://scummvm.org/
+  updated: 2021-04-19
 
 - name: SDL Asylum
   images:
