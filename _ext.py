@@ -284,8 +284,14 @@ def parse_data(site):
 
         if "updated" not in clone:
             print(f"{clone['name']} has no updated field")
+        else:
+            if isinstance(clone['updated'], str):
+                clone['updated'] = datetime.strptime(clone['updated'], "%Y-%m-%d").date()
         if "status" not in clone:
             print(f"{clone['name']} has no status field")
+
+    oldest_games = sorted([(clone['name'], clone['updated']) for clone in clones if 'updated' in clone], key=lambda x: x[1])[:5]
+    print(f"Oldest 5 games: {oldest_games}")
 
     if len(errors) > 0:
         show_errors(errors)
