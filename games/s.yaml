@@ -429,18 +429,27 @@
 
 - name: Simutrans
   images:
-  - https://upload.wikimedia.org/wikipedia/commons/d/de/Simutrans_pak64.png
+  - https://www.simutrans.com/images/paksets/pak128.cs.png
+  - https://www.simutrans.com/images/paksets/pak128.german.png
+  - https://www.simutrans.com/images/paksets/pak64.png
   lang:
   - C++
+  framework:
+  - SDL2
   license:
   - Artistic
-  development: active
+  development: very active
   originals:
   - Transport Tycoon
   repo: https://github.com/aburch/simutrans
   status: playable
+  multiplayer:
+  - Online
   type: clone
   url: http://www.simutrans.com/
+  updated: 2021-04-26
+  video:
+    youtube: e8Wp7rxVg88
 
 - name: Sine
   framework:
