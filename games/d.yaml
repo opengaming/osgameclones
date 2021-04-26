@@ -49,22 +49,26 @@
 
 - name: Danger from the Deep
   images:
-  - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_1.jpg
-  - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_2.jpg
-  - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_4.jpg
-  - http://dangerdeep.sourceforge.net/wp-content/gallery/screenshots-0_3_0/screen_11.jpg
+  - https://a.fsdn.com/con/app/proj/dangerdeep/screenshots/217888.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/dangerdeep/screenshots/217884.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/dangerdeep/screenshots/217886.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/dangerdeep/screenshots/218174.jpg/max/max/1
   lang:
   - C++
+  framework:
+  - SDL
   license:
   - CC-BY-NC-ND
   - GPL2
-  development: halted
+  development: sporadic
   originals:
   - Silent Hunter 4
   repo: https://sourceforge.net/projects/dangerdeep/
   type: remake
-  updated: 2012-04-05
+  updated: 2021-04-27
   url: http://dangerdeep.sourceforge.net/
+  video:
+    youtube: LU1aM_SmoSM
 
 - name: The Dark Mod
   images:
