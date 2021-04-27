@@ -107,6 +107,7 @@ const knownFrameworks = [
   'OpenAL',
   'OpenGL',
   'OpenRA',
+  'OpenSceneGraph',
   'Panda3D',
   'PandaJS',
   'Phaser',
