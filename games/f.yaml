@@ -744,17 +744,22 @@
 
 - name: Freeserf
   lang:
-  - C
+  - C++
+  framework:
+  - SDL2
   license:
   - GPL3
-  development: active
+  content: commercial
+  development: sporadic
   originals:
   - The Settlers
   repo: https://github.com/freeserf/freeserf
   status: playable
   type: remake
-  updated: 2012-04-15
+  updated: 2021-04-29
   url: http://jonls.dk/freeserf/
+  images:
+  - http://jonls.dk/assets/sett-pre_20100605-1.jpg
   video:
     youtube: DdVtOhIIjow
 
