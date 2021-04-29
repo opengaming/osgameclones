@@ -384,18 +384,28 @@
   updated: 2015-04-07
 
 - name: Hurrican
-  info: Makefile needs edits to compile on Linux
   lang:
   - C++
+  framework:
+  - SDL
+  - OpenGL
   license:
   - As-is
+  content: free
   development: halted
   originals:
   - Turrican
   status: playable
   type: remake
-  updated: 2012-05-28
-  url: http://sourceforge.net/p/hurrican/code/HEAD/tree/trunk/
+  updated: 2021-04-30
+  repo: https://github.com/thrimbor/Hurrican
+  url: https://www.winterworks.de/project/hurrican/
+  images:
+  - https://www.winterworks.de/wordpress/wp-content/uploads/2015/03/1.png
+  - https://www.winterworks.de/wordpress/wp-content/uploads/2015/03/2.png
+  - https://www.winterworks.de/wordpress/wp-content/uploads/2015/03/7.png
+  video:
+    youtube: -jk3DNTYx_w
 
 - name: HyperRogue
   originals:
