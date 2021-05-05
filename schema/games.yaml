@@ -67,6 +67,7 @@ schema;game:
       type: str
       desc: Any notable information about the game
     updated:
+      required: True
       type: date
       format: "%Y-%m-%d"
       desc: Use today's date
