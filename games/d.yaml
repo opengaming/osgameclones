@@ -945,19 +945,26 @@
   url: http://dunedynasty.sourceforge.net/
 
 - name: Dune Legacy
+  info: Updated clone which uses data files from the original game. New features include multiple unit selection/control, high resolution support, multiplayer gaming, improved gui and a selection of new AIs to play against.
   images:
   - http://dunelegacy.sourceforge.net/website/screenshots/Dunelegacy-0.96-mission7.png
   - http://dunelegacy.sourceforge.net/website/screenshots/Dunelegacy-0.96-mission9-2.png
+  - https://a.fsdn.com/con/app/proj/dunelegacy/screenshots/Dunelegacy-0.96-score.png/max/max/1
   lang:
   - C++
   license:
   - GPL2
+  content: commercial
   development: active
   originals:
   - Dune 2
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
   repo: https://sourceforge.net/projects/dunelegacy/
   type: remake
-  updated: 2012-04-05
+  updated: 2021-05-07
   url: http://dunelegacy.sourceforge.net/
   video:
     youtube: tX_3Ah7gFdI
