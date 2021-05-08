@@ -400,18 +400,24 @@
 - name: Arx Libertatis
   development: active
   images:
-  - http://wiki.arx-libertatis.org/images/d/d7/Polsius_%28imprisoned%29.jpg
-  - http://wiki.arx-libertatis.org/images/5/59/Jumping.jpg
+  - https://wiki.arx-libertatis.org/images/thumb/b/b9/Spell.jpg/288px-Spell.jpg
+  - https://wiki.arx-libertatis.org/images/e/e8/Spidernew.jpg
+  - https://wiki.arx-libertatis.org/images/e/e1/Castle.jpg
   lang:
   - C++
+  framework:
+  - SDL
+  - SDL2
+  - OpenGL
   license:
   - GPL3
   content: commercial
   originals:
   - Arx Fatalis
+  status: playable
   repo: https://github.com/arx/ArxLibertatis
   type: remake
-  updated: 2013-05-27
+  updated: 2021-05-08
   url: http://arx-libertatis.org/
   video:
     youtube: mIribIqKee8
