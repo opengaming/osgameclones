@@ -146,24 +146,6 @@ const knownFrameworks = [
 // Game checks
 // -----------
 
-// Check that updated date is within the last 30 days
-const isDateCloseToToday = d => {
-  if (!d) {
-    return false
-  }
-  // Parse date in case it is a string
-  d = new Date(d)
-  const timeDiff = Math.abs(new Date().getTime() - d.getTime())
-  return Math.ceil(timeDiff / (1000 * 3600 * 24 * 30)) <= 1
-}
-const checkGameUpdated = game => {
-  if (!isDateCloseToToday(game.updated)) {
-    const gameUpdated = game.updated && game.updated.toISOString().slice(0, 10)
-    const updated = new Date().toISOString().slice(0, 10)
-    warn(`📅 ${game.name}'s "updated" value should be ${updated}; got ${gameUpdated} instead`)
-  }
-}
-
 const checkRepoGoogleCode = game => {
   if (game.repo && (game.repo.indexOf('googlecode') >= 0 || game.repo.indexOf('code.google') >= 0)) {
     warn(`⚰️ ${game.name}'s repo is Google Code, a dead service. Please check if there is an updated repo elsewhere.`)
@@ -227,7 +209,6 @@ const checkHasStatus = game => {
 }
 
 const commonChecks = game => {
-  checkGameUpdated(game)
   checkRepoGoogleCode(game)
   checkRepoGit(game)
   checkRepoSVN(game)
