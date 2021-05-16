@@ -93,6 +93,7 @@ const knownFrameworks = [
   'Kylix',
   'Laravel',
   'LibGDX',
+  'libretro',
   'Love3D',
   'LÖVE',
   'melonJS',
