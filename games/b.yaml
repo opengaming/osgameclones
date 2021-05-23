@@ -16,7 +16,6 @@
   - https://raw.githubusercontent.com/lilybeevee/bab-be-u/master/docs/img1.png
   - https://raw.githubusercontent.com/lilybeevee/bab-be-u/master/docs/img2.png
   - https://raw.githubusercontent.com/lilybeevee/bab-be-u/master/docs/img3.png
-  
 
 - name: Babaliba
   images:
@@ -230,10 +229,14 @@
 - name: Bermuda Syndrome
   development: halted
   images:
-  - http://cyxdown.free.fr/bs/bs-1.png
-  - http://cyxdown.free.fr/bs/bs-2.png
+  - http://cyxdown.free.fr/bs/screenshot-002.thumb.jpg
+  - http://cyxdown.free.fr/bs/screenshot-003.thumb.jpg
+  - http://cyxdown.free.fr/bs/screenshot-004.thumb.jpg
   lang:
   - C++
+  framework:
+  - SDL2
+  - libretro
   license:
   - As-is
   content: commercial
@@ -242,7 +245,7 @@
   repo: https://github.com/cyxx/bermuda
   status: playable
   type: remake
-  updated: 2013-05-27
+  updated: 2021-05-17
   url: http://cyxdown.free.fr/bs/
   
 - name: BetterSpades
