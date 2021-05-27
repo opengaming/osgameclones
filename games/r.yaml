@@ -606,15 +606,22 @@
 - name: Rise of the Triad for Linux
   lang:
   - C
+  framework:
+  - SDL
   license:
   - GPL2
+  content: commercial
   development: halted
   originals:
   - Rise of the Triad
+  status: playable
   repo: http://svn.icculus.org/rott/trunk/
   type: remake
   updated: 2013-05-27
   url: http://icculus.org/rott/
+  images:
+  - https://i.stack.imgur.com/Nz443.png
+  - https://icculus.org/~ravage/rott/rott_installer.jpg
 
 - name: Robbo
   lang:
