@@ -216,33 +216,6 @@
   updated: 2021-02-25
   url: http://zxstudio.org/blog/author/razgriz/
 
-- name: OpenHV
-  images:
-  - https://img.itch.zone/aW1nLzQxOTM0MTMucG5n/original/StOJCR.png
-  - https://img.itch.zone/aW1nLzQxOTAxMDMucG5n/original/gtYy3b.png
-  - https://img.itch.zone/aW1nLzQxOTM0MTAucG5n/original/Fhisck.png
-  lang:
-  - C#
-  - Lua
-  framework:
-  - OpenRA
-  license:
-  - GPL3
-  - CC-BY
-  - CC-BY-SA
-  content: open
-  multiplayer:
-  - Online
-  - LAN
-  development: active
-  status: playable
-  originals:
-  - Hard Vacuum
-  repo: https://github.com/OpenHV/OpenHV
-  type: similar
-  url: https://openhv.itch.io/openhv
-  updated: 2020-12-30
-
 - name: Open Imperium Galactica
   lang:
   - Java
@@ -452,6 +425,28 @@
   type: remake
   updated: 2015-04-13
   url: http://sourceforge.net/projects/opensyobon/
+
+- name: Open Valley
+  originals:
+  - Stardew Valley
+  type: similar
+  repo: 'https://notabug.org/rixty/OpenValley'
+  url: 'https://mastodon.gamedev.place/@OpenValley'
+  feed: 'https://mastodon.gamedev.place/@OpenValley.rss'
+  development: active
+  status: semi-playable
+  content: open
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - CC-BY-NC-SA
+  info: Made in Flare engine
+  updated: '2021-05-29'
+  images:
+  - >-
+    https://cdn.masto.host/mastodongamedevplace/media_attachments/files/106/239/851/573/039/205/original/ccf384e1d27196dd.png
 
 - name: Open Zelda
   lang:
@@ -1046,6 +1041,33 @@
   - GPL3
   content: commercial
   updated: 2019-05-14
+
+- name: OpenHV
+  images:
+  - https://img.itch.zone/aW1nLzQxOTM0MTMucG5n/original/StOJCR.png
+  - https://img.itch.zone/aW1nLzQxOTAxMDMucG5n/original/gtYy3b.png
+  - https://img.itch.zone/aW1nLzQxOTM0MTAucG5n/original/Fhisck.png
+  lang:
+  - C#
+  - Lua
+  framework:
+  - OpenRA
+  license:
+  - GPL3
+  - CC-BY
+  - CC-BY-SA
+  content: open
+  multiplayer:
+  - Online
+  - LAN
+  development: active
+  status: playable
+  originals:
+  - Hard Vacuum
+  repo: https://github.com/OpenHV/OpenHV
+  type: similar
+  url: https://openhv.itch.io/openhv
+  updated: 2020-12-30
 
 - name: OpenJazz
   development: sporadic
