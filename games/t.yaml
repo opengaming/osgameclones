@@ -371,23 +371,6 @@
   images:
   - https://camo.githubusercontent.com/e8313bb523d4cddf6de2f5992a62d992f74eb7b8/68747470733a2f2f692e696d6775722e636f6d2f79725a446c61792e706e67
 
-- name: Toppler
-  images:
-  - http://toppler.sourceforge.net/images/old-amiga.png
-  - http://toppler.sourceforge.net/images/old-atari.png
-  - http://toppler.sourceforge.net/images/old-c64.png
-  lang:
-  - C++
-  license:
-  - GPL2
-  development: halted
-  originals:
-  - Nebulus
-  type: remake
-  repo: https://sourceforge.net/projects/toppler/
-  updated: 2013-05-27
-  url: http://toppler.sourceforge.net/
-
 - name: Torrega Race
   framework:
   - "L\xD6VE"
@@ -427,6 +410,26 @@
   type: remake
   url: http://www.ta3d.org/
   updated: 2021-04-20
+
+- name: Tower Toppler
+  images:
+  - http://toppler.sourceforge.net/images/shot1_hr.png
+  - http://toppler.sourceforge.net/images/shot2_hr.png
+  - http://toppler.sourceforge.net/images/shot3_hr.png
+  lang:
+  - C++
+  framework:
+  - SDL
+  license:
+  - GPL2
+  development: halted
+  originals:
+  - Nebulus
+  status: playable
+  type: remake
+  repo: https://sourceforge.net/projects/toppler/
+  updated: 2021-06-02
+  url: http://toppler.sourceforge.net/
 
 - name: Trackballs
   images:
