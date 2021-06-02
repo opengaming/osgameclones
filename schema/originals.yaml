@@ -48,10 +48,12 @@ schema;meta:
 schema;platform:
   type: str
   enum: [
+    '3DS',
     'Amiga',
     'Amstrad CPC',
     'Android',
     'Apple II',
+    'Apple TV',
     'Arcade',
     'Atari',
     'Commodore 64',
