@@ -1030,15 +1030,26 @@
 - name: Frozen Bubble
   lang:
   - Perl
+  framework:
+  - SDL
   license:
   - GPL2
   development: halted
   originals:
   - Puzzle Bobble
+  status: playable
+  multiplayer:
+  - Online
+  - Local
+  - Competitive
   repo: https://github.com/kthakore/frozen-bubble
   type: clone
-  updated: 2013-06-06
+  updated: 2021-06-17
   url: http://frozen-bubble.org/
+  images:
+  - http://www.frozen-bubble.org/images/screenshots.png
+  video:
+    youtube: bqKGWq0jG60
 
 - name: Future Blocks
   type: clone
