@@ -23,6 +23,8 @@ jobs:
         test 6000 -lt $(cat _build/index.html | wc -l)
         yarn install
         yarn danger ci
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Before Deploy
       run: |
