@@ -37,3 +37,4 @@ jobs:
       with:
         NETLIFY_SITE_ID: 6f222827-83c1-4882-8d4e-6781973be25d
         NETLIFY_DEPLOY_TO_PROD: true
+        build_directory: _build
