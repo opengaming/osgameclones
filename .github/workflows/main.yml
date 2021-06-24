@@ -1,0 +1,45 @@
+name: Build and Deploy
+on: [push, pull_request]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Setup Python
+      uses: actions/setup-python@v2.2.2
+      with:
+        python-version: '3.7'
+
+    - name: Setup pipenv
+      run: |
+        sudo -H pip install -U pipenv
+        pipenv install
+    
+    - name: Build
+      run: |
+        make
+        test 6000 -lt $(cat _build/index.html | wc -l)
+        yarn install
+        yarn danger ci
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Before Deploy
+      run: |
+        pipenv run htmlmin _build/index.html _build/index.html
+
+    - name: Netlify Actions
+      # You may pin to the exact commit or the version.
+      # uses: nwtgck/actions-netlify@f517512ae75beec8896aa7b027c1c72f01816200
+      uses: nwtgck/actions-netlify@v1.2.2
+      with:
+        publish-dir: _build
+        production-deploy: true
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        fails-without-credentials: true
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: 6f222827-83c1-4882-8d4e-6781973be25d
+      timeout-minutes: 1
