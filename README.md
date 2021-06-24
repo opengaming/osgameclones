@@ -1,6 +1,6 @@
 # Open Source Game Clones
 
-[![Build Status](https://travis-ci.com/opengaming/osgameclones.svg?branch=master)](https://travis-ci.com/opengaming/osgameclones)
+[![Build and Deploy](https://github.com/opengaming/osgameclones/actions/workflows/main.yml/badge.svg)](https://github.com/opengaming/osgameclones/actions/workflows/main.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6f222827-83c1-4882-8d4e-6781973be25d/deploy-status)](https://app.netlify.com/sites/osgameclones/deploys)
 
 This is the source of [http://osgameclones.com](http://osgameclones.com).
