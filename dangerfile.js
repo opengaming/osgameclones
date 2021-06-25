@@ -97,6 +97,7 @@ const knownFrameworks = [
   'Love3D',
   'LÖVE',
   'melonJS',
+  'Minetest Engine',
   'Mono',
   'MonoGame',
   'ncurses',
