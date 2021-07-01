@@ -398,10 +398,13 @@
   originals:
   - Minecraft
   status: playable
+  multiplayer:
+    - Online
+    - LAN
   repo: https://git.minetest.land/MineClone2/MineClone2
   type: clone
   info: A Minecraft Java Edition 1.12 clone built as a Minetest game
-  updated: 2021-06-18
+  updated: 2021-06-26
   url: https://content.minetest.net/packages/Wuzzy/mineclone2/
 
 - name: Minecraft
@@ -593,9 +596,13 @@
   originals:
   - Minecraft
   status: playable
+  multiplayer:
+    - Online
+    - LAN
   repo: https://github.com/minetest/minetest
-  type: remake
-  updated: 2019-08-27
+  info: Mintest is an engine, but ships with the game Minetest Game
+  type: similar
+  updated: 2021-06-26
   url: https://www.minetest.net/
 
 - name: Minima
