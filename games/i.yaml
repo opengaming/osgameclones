@@ -204,17 +204,41 @@
   video:
     youtube: iDwbo-ecJQw
 
-- name: Iron Seed
+- name: Ironseed
   lang:
   - Pascal
   license:
   - GPL3
+  content: open
   development: halted
   originals:
-  - Iron Seed
+  - Ironseed
+  status: playable
   repo: https://github.com/karynax/ironseed
   type: remake
-  updated: 2020-11-16
+  updated: 2021-07-02
+  info: original DOS source release with DMP library stubbed
+
+- name: ironseed_fpc
+  originals:
+  - Ironseed
+  type: remake
+  repo: 'https://github.com/mnalis/ironseed_fpc'
+  development: sporadic
+  status: playable
+  content: open
+  lang:
+  - Pascal
+  framework:
+  - SDL
+  license:
+  - GPL3
+  info: FreePascal SDL port with bug fixes
+  updated: '2021-07-02'
+  images:
+  - https://screenshots.debian.net/shrine/screenshot/19672/simage/large-4207f64f87b8fdbe46db0838d62f7e9a.png
+  - https://screenshots.debian.net/shrine/screenshot/19658/simage/large-648126d2bd794b3e69b6981dc5bb5dc4.png
+  - https://screenshots.debian.net/shrine/screenshot/19653/simage/large-07f0cd535bca6c4b9132ea62b2ec6629.png
 
 - name: irrlamb
   framework:
