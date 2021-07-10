@@ -267,15 +267,15 @@
   video:
     youtube: KSoVdF9SvNY
 
-- name: REDriver2
+- name: REDRIVER2
   type: remake
   originals:
   - Driver 2
-  repo: https://github.com/SoapyMan/REDRIVER2
+  repo: https://github.com/OpenDriver2/REDRIVER2
   development: active
   status: playable
   lang:
-  - C++
+  - C
   framework:
   - SDL
   - SDL2
@@ -283,7 +283,12 @@
   license:
   - MIT
   content: commercial
-  updated: 2020-08-31
+  updated: 2021-07-10
+  info: Driver 2 Playstation game reverse engineering effort
+  images:
+  - https://i.ibb.co/2q1pp06/red2.png
+  - https://i.ibb.co/JxfC5xX/aaa.png
+  - https://i.ibb.co/ydLsK9z/aaa.png
 
 - name: Reflection Keen
   lang:
