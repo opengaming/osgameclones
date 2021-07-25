@@ -99,17 +99,25 @@
 - name: Manic Digger
   images:
   - http://manicdigger.github.io/images/release_2015-08-22.png
+  - http://manicdigger.sourceforge.net/wiki/images/2/2c/2010-07-09_17-25-25.png
+  - http://manicdigger.sourceforge.net/wiki/images/5/55/2010-07-06_20-51-58.png
   lang:
   - C#
+  framework:
+  - OpenGL
   license:
   - PD
+  content: open
   development: halted
   originals:
   - Minecraft
+  status: playable
+  multiplayer:
+    - Online
   repo: https://github.com/manicdigger/manicdigger
   type: remake
-  updated: 2013-10-10
-  url: http://manicdigger.github.io/
+  updated: 2021-07-25
+  url: http://manicdigger.sourceforge.net
 
 - name: Manic Miner
   lang:
