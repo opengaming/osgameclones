@@ -63,7 +63,7 @@ const knownLanguages = [
 
 let unknownFrameworkDetected = false
 const knownFrameworks = [
-  '.NET Core',
+  '.NET',
   'Adobe AIR',
   'Adventure Game Studio',
   'Allegro',
