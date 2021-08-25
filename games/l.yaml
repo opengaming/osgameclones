@@ -364,6 +364,25 @@
   repo: https://github.com/Librelancer/Librelancer
   url: https://librelancer.net/
 
+- name: LibreQuake
+  originals:
+  - Quake
+  type: remake
+  repo: 'https://github.com/MissLav/LibreQuake'
+  development: active
+  status: semi-playable
+  content: open
+  lang:
+  - Python
+  license:
+  - Custom
+  info: >-
+    A project to create a libre game data replacement for the Quake engine, based
+    on Lovecraftian aesthetic.
+  images:
+  - https://raw.githubusercontent.com/MissLav/LibreQuake/master/screenshots/textures_example.png
+  - https://raw.githubusercontent.com/MissLav/LibreQuake/master/screenshots/weapons_example.png
+
 - name: Librerama
   framework:
   - Godot
