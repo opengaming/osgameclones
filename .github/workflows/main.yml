@@ -19,7 +19,7 @@ jobs:
     
     - name: Build
       run: |
-        make prod
+        make
         test 6000 -lt $(cat _build/index.html | wc -l)
         yarn install
         yarn danger ci

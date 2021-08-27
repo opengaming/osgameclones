@@ -2,11 +2,11 @@ PORT=80
 
 run:
 	pipenv run ./render.py
-
-prod:
-	pipenv run ./render.py && pipenv run htmlmin _build/index.html _build/index.html
 	pipenv run pykwalify_webform schema/games.yaml _build/add_game.html _build/_add_form "" --name="Add game" --static_url=/_add_form
 	pipenv run pykwalify_webform schema/originals.yaml _build/add_original.html _build/_add_form "" --name="Add original game" --static_url=/_add_form
+
+prod:
+	./render.py && htmlmin _build/index.html _build/index.html
 
 docker-build:
 	docker build -t opengaming/osgameclones .
