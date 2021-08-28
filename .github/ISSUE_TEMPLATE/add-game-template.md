@@ -10,6 +10,6 @@ assignees: ''
 <!--
 Adding a new game? Try the web forms here:
 
-- Game: <https://cxong.github.io/pykwalify-webform/osgameclones/game.html>
-- Add original game: <https://cxong.github.io/pykwalify-webform/osgameclones/original.html>
+- Game: <https://osgameclones.com/add_game.html>
+- Add original game: <https://osgameclones.com/add_original.html>
 -->
