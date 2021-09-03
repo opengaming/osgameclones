@@ -16,7 +16,7 @@ exception of ScummVM, just because it's so many games at once.
 
 ## Add a clone / remake of a game
 
-Simplest way to contribute is to fill in the [template][template] presented when you create
+Simplest way to contribute is to fill in the [game form][game_form] presented when you create
 a new issue. Even better if you edit the files in the [`games`][games] directory directly. Your
 changes will be submitted as a pull request. All games are validated against the rules
 in the [`schema/games.yaml`][schema_games] validation file.
@@ -121,7 +121,7 @@ See [LICENSE][license]
 [originals]: originals/
 [schema_games]: schema/games.yaml
 [schema_originals]: schema/originals.yaml
-[template]: .github/ISSUE_TEMPLATE.md
+[game_form]: https://osgameclones.com/add_game.html
 [license]: LICENSE
 
 [python]: https://www.python.org
