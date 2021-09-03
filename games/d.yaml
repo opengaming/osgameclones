@@ -298,16 +298,16 @@
   lang:
   - C++
   license:
-  - PD
+  - Custom
   content: commercial
-  development: sporadic
+  development: active
   originals:
   - Diablo
   repo: https://github.com/diasurgical/devilution
   status: playable
   type: remake
   info: Engine recreation (same bugs as original)
-  updated: 2019-11-11
+  updated: 2021-09-03
 
 - name: DevilutionX
   type: remake
@@ -318,14 +318,16 @@
   status: playable
   lang:
   - C++
+  framework:
+  - SDL
+  - SDL2
   license:
-  - PD
+  - Custom
   content: commercial
-  info: Improved engine recreation
-  updated: 2019-03-22
+  info: Improved engine recreation with improvements, bugfixes, and some optional quality of life features.
+  updated: 2021-09-03
   images:
-  - https://camo.githubusercontent.com/9426dfe5fc03654a8f1d3c024019cd7c5fb468b6/68747470733a2f2f7333332e706f7374696d672e63632f36786e6e68686c6d6e2f6469616275696d6f6e2e706e67
-  - https://camo.githubusercontent.com/07675909d85fddca41c71aa2805743b8124223d7/68747470733a2f2f7332322e706f7374696d672e63632f3569356b39317668742f6469616273746f72652e706e67
+  - https://user-images.githubusercontent.com/204594/113578478-26912400-9623-11eb-9ff6-9bd9717462b6.png
 
 - name: DGEngine
   images:
