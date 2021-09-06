@@ -684,21 +684,26 @@
 
 - name: Sonic Robo Blast 2
   images:
-  - https://www.srb2.org/wp-content/uploads/21-gfz1.png
-  - https://www.srb2.org/wp-content/uploads/21-thz2.png
-  - https://www.srb2.org/wp-content/uploads/21-acz1.png
+  - https://www.srb2.org/wp-content/uploads/gfz1st.png
+  - https://www.srb2.org/wp-content/uploads/GFZ2.png
+  - https://www.srb2.org/wp-content/uploads/gfz3knux.png
   lang:
   - C
   - Lua
+  framework:
+  - SDL2
   license:
   - GPL2
+  content: free
   development: active
   originals:
   - Sonic the Hedgehog
+  status: playable
   repo: https://github.com/STJr/SRB2
-  type: clone
-  updated: 2014-04-16
+  type: similar
+  updated: 2021-09-07
   url: https://www.srb2.org/
+  info: SRB2 is closely inspired by the original Sonic games from the Sega Genesis, and attempts to recreate the design in 3D.
 
 - name: Sonic-1-2-2013-Decompilation
   originals:
