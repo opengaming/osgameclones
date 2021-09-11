@@ -21,14 +21,14 @@
   </p>
   <p>
     Similar resources:
-    <ul>
-      <li><a href="https://freegamer.blogspot.com">Free Gamer</a>, a blog dedicated to open source game news</li>
-      <li><a href="https://bronevichok.ru/ttygames/">Unix ASCII games</a>, a list of opensource text-based games</li>
-      <li><a href="https://trilarion.github.io/opensourcegames/">List of Open Source Games</a>, list of open source games in mature/beta state</li>
-      <li><a href="https://github.com/leereilly/games">Games on GitHub</a>, list of open source games and game-related projects that can be found on GitHub</li>
-      <li><a href="https://libregamewiki.org/Main_Page">LibreGameWiki</a>, the free gaming encyclopedia</li>
-    </ul>
   </p>
+  <ul>
+    <li><a href="https://freegamer.blogspot.com">Free Gamer</a>, a blog dedicated to open source game news</li>
+    <li><a href="https://bronevichok.ru/ttygames/">Unix ASCII games</a>, a list of opensource text-based games</li>
+    <li><a href="https://trilarion.github.io/opensourcegames/">List of Open Source Games</a>, list of open source games in mature/beta state</li>
+    <li><a href="https://github.com/leereilly/games">Games on GitHub</a>, list of open source games and game-related projects that can be found on GitHub</li>
+    <li><a href="https://libregamewiki.org/Main_Page">LibreGameWiki</a>, the free gaming encyclopedia</li>
+  </ul>
   <p>
     A <span class="tag type" data-name="remake">Remake</span> is a game where the executable and sometimes the assets as well are remade open source. Some of these games aren&#39;t exact remakes but evolution of original ones, which were eventually open sourced.
     <br />
@@ -36,7 +36,8 @@
     <br />
     A <span class="tag type" data-name="similar">Similar</span> game is one which has similar gameplay but is not a clone.
     <br />
-    A <span class="tag type" data-name="tool">Tool</span> is not a game, but something that assists in playing or modding the game, such as a high resolution patch, or resource extractor.</p>
+    A <span class="tag type" data-name="tool">Tool</span> is not a game, but something that assists in playing or modding the game, such as a high resolution patch, or resource extractor.
+  </p>
 </article>
 
 <div>
@@ -57,7 +58,11 @@
 </div>
 
 <div id="content">
-  <h2>List of games</h2>
+  <h2>
+    List of games
+    <a class="add-link" href="/add_game.html" target="_blank"><i class="far fa-edit"></i>Add Game</a>
+    <a class="add-link" href="/add_original.html" target="_blank"><i class="far fa-edit"></i>Add Original Game</a>
+  </h2>
   <dl id="list">
     {% for names, meta, items in site.games %}
       {{ games.render(names, meta, items, 'games') }}
