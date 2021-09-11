@@ -1,18 +1,18 @@
 {% import 'templates/video.html' as video %}
 {% import 'templates/tags.html' as tags %}
 
-{% macro render_name(name, meta, idx, mode) %}
+{% macro render_name(name, meta, first, mode) %}
   {%- if meta['external']['wikipedia'] -%}
     {% set wikilink = "http://en.wikipedia.org/wiki/" + meta['external']['wikipedia'] %}
   {%- else -%}
     {% set wikilink = meta['external']['website'] %}
   {%- endif -%}
 
-  <dt {% if not idx %}id="{{ show_id(name, mode) }}"{% endif %} class="searchable">
+  <dt {% if first %}id="{{ show_id(name, mode) }}"{% endif %} class="searchable">
     <a href="{{ wikilink }}">{{ name }}</a>
     {% if not idx %}<a href="#{{ show_id(name, mode) }}" class="hash">#</a>{% endif %}
 
-    {% if not idx %}
+    {% if first %}
       {{ tags.render_tag_groups('genre', meta['genre']) }}
       {{ tags.render_tag_groups('subgenre', meta['subgenre']) }}
       {{ tags.render_tag_groups('theme', meta['theme']) }}
@@ -142,7 +142,7 @@
 
 {% macro render(names, meta, items, mode) %}
   {% for name in names %}
-    {{ render_name(name, meta, loop.index0, mode) }}
+    {{ render_name(name, meta, loop.index0 == 0, mode) }}
   {% endfor %}
 
   {% for game in items %}
