@@ -7,10 +7,18 @@ import functools
 import argparse
 import logging
 import re
+from distutils.dir_util import copy_tree
+from pathlib import Path
+
 import unidecode
 
 import jinja2
+from pykwalify_webform.renderer import Renderer
+from yaml import safe_load
+
 import _ext
+
+HERE = Path(__file__).parent
 
 
 logging.basicConfig(level=logging.INFO)
@@ -75,6 +83,15 @@ def normalize(text):
     return html.escape(unidecode.unidecode(text.lower()))
 
 
+def render_add_game_form(schema: str, out_path: str, form_name: str):
+    with open(schema) as f:
+        schemata = safe_load(f)
+    renderer = Renderer(schemata, HERE / "templates/forms")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w") as f:
+        f.write(renderer.render("", name=form_name, static_url="/_add_form"))
+
+
 def main():
     parser = argparse.ArgumentParser(description='Render OSGC')
     parser.add_argument('-d', '--dest', default='_build')
@@ -82,6 +99,13 @@ def main():
 
     env().filters['normalize'] = normalize
     render_all(args.dest)
+
+    # Render add game forms
+    render_add_game_form("schema/games.yaml", "_build/add_game.html", "Add Game")
+    render_add_game_form("schema/originals.yaml", "_build/add_original.html", "Add Original")
+
+    # Copy static files
+    copy_tree(str(HERE / "templates/forms/static"), "_build/_add_form")
 
 
 if __name__ == '__main__':

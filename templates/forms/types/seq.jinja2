@@ -1,0 +1,43 @@
+{#
+TODO: multiple sequences?
+#}
+{% extends "form_group.jinja2" %}
+{% block control %}
+
+{% set sequence = schema["sequence"][0] if "sequence" in schema else None %}
+{% set MAX_CHECKBOXES = 5 %}
+{# TODO non-unique enum sequences #}
+{% if sequence and "enum" in sequence and sequence.get("unique", False) %}
+  {# Need to use JS to validate required checkbox groups #}
+  <div class="{{ "checkbox-group-required" if required else "" }}">
+  {% for s_value in sequence["enum"] %}
+    <div class="form-check{{ " form-check-inline" if sequence["enum"]|length > MAX_CHECKBOXES else "" }}">
+      <input
+        type="checkbox"
+        class="form-check-input"
+        id="{{ path }}.{{ s_value }}"
+        name="{{ path }}[]" value="{{ s_value }}"
+        {% if value and s_value in value %}checked{% endif %}
+      >
+      <label for="{{ path }}.{{ s_value }}" class="form-check-label">{{ s_value }}</label>
+    </div>
+  {% endfor %}
+  </div>
+{% else %}
+<input
+  type="text"
+  {% if not schema.get("unique") %}data-allow-duplicates{% endif %}
+  id="{{ path }}"
+  name="{{ path }}:csv"
+  class="form-control tagsinput"
+  {{ "required" if required else "" }}
+  {% if "desc" in schema %}
+    placeholder="{{ schema["desc"]|e }} - comma to add another"
+  {% else %}
+    placeholder="Comma to add another"
+  {% endif %}
+  {% if value %}value="{{ ",".join(value) }}"{% endif %}
+>
+{% endif %}
+
+{% endblock %}

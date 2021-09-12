@@ -1,0 +1,63 @@
+{#
+TODO: range min-ex max-ex
+https://pykwalify.readthedocs.io/en/unstable/validation-rules.html#range
+#}
+{% extends "form_group.jinja2" %}
+{% block control %}
+
+{% set MAX_RADIO_BUTTONS = 5 %}
+{% if schema.get("enum") %}
+  {% if schema["enum"]|length <= MAX_RADIO_BUTTONS %}
+    {% for s_value in schema["enum"] %}
+      <div class="form-check">
+        <input
+          type="radio"
+          class="form-check-input"
+          id="{{ path }}.{{ s_value }}"
+          name="{{ path }}" value="{{ s_value }}"
+          {{ "required" if required else "" }}
+          {% if s_value == value %}checked{% endif %}
+        >
+        <label for="{{ path }}.{{ s_value }}" class="form-check-label">{{ s_value }}</label>
+      </div>
+    {% endfor %}
+  {% else %}
+    <select
+      id="{{ path }}"
+      name="{{ path }}"
+      class="form-control"
+      {{ "required" if required else "" }}
+    >
+    {% for s_value in schema["enum"] %}
+      <option
+        value="{{ s_value }}"
+        {% if s_value == value %}selected{% endif %}
+       >
+        {{ s_value }}
+       </option>
+    {% endfor %}
+    </select>
+  {% endif %}
+{% else %}
+  <input
+    type="text"
+    class="form-control"
+    id="{{ path }}"
+    name="{{ path }}"
+    {% if "range" in schema %}
+      {% if "min" in schema["range"] %}
+      minlength="{{ schema["range"]["min"] }}"
+      {% endif %}
+      {% if "max" in schema["range"] %}
+      maxlength="{{ schema["range"]["max"] }}"
+      {% endif %}
+    {% endif %}
+    {{ "required" if required else "" }}
+    {% if "desc" in schema %}
+      placeholder="{{ schema["desc"]|e }}"
+    {% endif %}
+    {% if value %}value="{{ value }}"{% endif %}
+  >
+{% endif %}
+
+{% endblock %}

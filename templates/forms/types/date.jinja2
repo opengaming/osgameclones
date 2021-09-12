@@ -1,0 +1,14 @@
+{% extends "form_group.jinja2" %}
+{% block control %}
+<input
+  type="text"
+  class="form-control datepicker"
+  id="{{ path }}"
+  name="{{ path }}"
+  {{ "required" if required else "" }}
+  {% if "desc" in schema %}
+    placeholder="{{ schema["desc"]|e }}"
+  {% endif %}
+  {% if value %}value="{{ value }}"{% endif %}
+>
+{% endblock %}
