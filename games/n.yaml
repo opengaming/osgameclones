@@ -82,6 +82,27 @@
   video:
     youtube: pJtrxzGf1L0
 
+- name: NEO-RAW
+  images:
+  - https://fabiensanglard.net/fd_proxy/anotherWorld_code_review/aw_before.jpg
+  - https://fabiensanglard.net/fd_proxy/anotherWorld_code_review/anotherWorldXP.png
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - GPL2
+  content: commercial
+  development: halted
+  originals:
+  - Another World
+  status: playable
+  repo: https://github.com/fabiensanglard/Another-World-Bytecode-Interpreter
+  type: remake
+  updated: 2021-09-13
+  url: https://fabiensanglard.net/anotherWorld_code_review/index.php
+  info: This is an Another World VM implementation. Based on Gregory Montoir's original work, the codebase has been cleaned up with legibility and readability in mind.
+
 - name: NeoLemmix
   originals:
   - Lemmings
@@ -130,15 +151,19 @@
   - https://a.fsdn.com/con/app/proj/newraw/screenshots/67449.jpg
   lang:
   - C++
+  framework:
+  - SDL
   license:
   - GPL2
+  content: commercial
   development: halted
   originals:
   - Another World
-  repo: http://svn.code.sf.net/p/newraw/code/
+  status: playable
+  repo: http://sourceforge.net/projects/newraw/
   type: remake
-  updated: 2014-09-05
-  url: http://sourceforge.net/projects/newraw/
+  updated: 2021-09-13
+  info: New RAW - an Another World / Out of this world interpreter. Based on work of Gregory Montoir
 
 - name: newtron
   lang:
