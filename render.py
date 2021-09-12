@@ -101,11 +101,11 @@ def main():
     render_all(args.dest)
 
     # Render add game forms
-    render_add_game_form("schema/games.yaml", "_build/add_game.html", "Add Game")
-    render_add_game_form("schema/originals.yaml", "_build/add_original.html", "Add Original")
+    render_add_game_form("schema/games.yaml", f"{args.dest}/add_game.html", "Add Game")
+    render_add_game_form("schema/originals.yaml", f"{args.dest}/add_original.html", "Add Original")
 
     # Copy static files
-    copy_tree(str(HERE / "templates/forms/static"), "_build/_add_form")
+    copy_tree(str(HERE / "templates/forms/static"), f"{args.dest}/_add_form")
 
 
 if __name__ == '__main__':
