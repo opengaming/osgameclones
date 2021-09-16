@@ -281,14 +281,23 @@
 - name: Open Jumpgate
   lang:
   - C++
+  framework:
+  - OGRE
   license:
   - GPL2
-  development: active
+  content: open
+  development: sporadic
   originals:
   - 'Jumpgate: The Reconstruction Initiative'
+  status: unplayable
   type: remake
-  updated: 2014-09-05
-  url: http://sourceforge.net/projects/opengate/
+  updated: 2021-09-17
+  repo: http://sourceforge.net/projects/opengate/
+  url: http://opengate.sourceforge.net/
+  images:
+  - https://a.fsdn.com/con/app/proj/opengate/screenshots/299347.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/opengate/screenshots/313299.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/opengate/screenshots/screenshot%5B2013.9.20-0%3A42%3A58%5D-1024-600.png/max/max/1
 
 - name: Open Kick-Off
   type: remake
