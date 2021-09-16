@@ -657,17 +657,25 @@
   updated: 2019-11-20
   url: https://sourceforge.net/p/freelords/wiki/Home/
 
-- name: Freenukum Jump'n Run
+- name: Freenukum
   lang:
-  - C
+  - Rust
+  framework:
+  - SDL2
   license:
-  - GPL3
-  development: halted
+  - AGPL3
+  development: sporadic
   originals:
   - Duke Nukem
-  repo: https://launchpad.net/freenukum/
+  status: semi-playable
+  repo: https://gitlab.com/silwol/freenukum/
   type: remake
-  updated: 2015-04-03
+  updated: 2021-09-16
+  images:
+  - https://gitlab.com/silwol/freenukum/-/wikis/uploads/df874d90278b7f5e36fa59e7589367c5/Screenshot_from_2020-12-15_18-46-59.png
+  - https://gitlab.com/silwol/freenukum/-/wikis/uploads/30ccdcac74df6c0b854a19bfe50562b2/Screenshot_from_2020-12-15_18-53-56.png
+  - https://gitlab.com/silwol/freenukum/-/wikis/uploads/e4c98e639f236fcacc632784cf5b658a/Screenshot_from_2020-12-15_18-58-16.png
+  info: Originally written in C, rewritten in Rust
 
 - name: FreeOrion
   development: active
