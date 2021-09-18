@@ -116,7 +116,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
         domain = repo_parsed.netloc
         ext = os.path.splitext(result["repo"])[1]
 
-        if "github.com" in domain:
+        if domain == "github.com":
             try:
                 # https://github.com/<user>/<repo>
                 _, user, repo, *_ = repo_parsed.path.split("/")
@@ -126,20 +126,19 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
                 result["repotitle"] = "GitHub"
             else:
                 result["repobadge"] = f'<img class="badge lazyload" alt="GitHub stars" data-src="https://img.shields.io/github/stars/{user}/{repo}?style=flat-square&logo=github" src="https://img.shields.io/badge/stars-%3F-blue?style=flat-square&logo=github">'
-        elif (".google.com" in domain or
-              "googlecode.com" in domain):
+        elif domain == "code.google.com":
             result["repoiconname"] = "google"
             result["repoiconstyle"] = "fab"
             result["repotitle"] = "Google Code"
-        elif "bitbucket.org" in domain:
+        elif domain == "bitbucket.org":
             result["repoiconname"] = "bitbucket"
             result["repoiconstyle"] = "fab"
             result["repotitle"] = "Bitbucket"
-        elif "gitlab.com" in domain or domain.startswith("gitlab."):
+        elif domain.startswith("gitlab."):
             result["repoiconname"] = "gitlab"
             result["repoiconstyle"] = "fab"
             result["repotitle"] = "GitLab"
-        elif "sourceforge.net" in domain:
+        elif domain == "sourceforge.net":
             try:
                 # https://sourceforge.net/projects/<repo>
                 _, _, repo, *_ = repo_parsed.path.split("/")
