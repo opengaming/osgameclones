@@ -33,9 +33,19 @@ schema;game:
     development:
       type: str
       enum: ['complete', 'very active', 'active', 'sporadic', 'halted']
+      desc: |
+        Complete: development stopped but game is complete<br>
+        Very active: many commits within the past week<br>
+        Active: commits within the past month<br>
+        Sporadic: commits within the past year<br>
+        Halted: no commits within the past year
     status:
       type: str
       enum: ['playable', 'semi-playable', 'unplayable']
+      desc: |
+        Playable: all major features working, full game can be completed<br>
+        Semi-playable: game runs and some parts of the game playable<br>
+        Unplayable: game cannot be played, e.g. can only load assets
     multiplayer:
       type: seq
       sequence:
@@ -45,6 +55,11 @@ schema;game:
     content:
       type: str
       enum: ['commercial', 'free', 'open', 'swappable']
+      desc: |
+        Commercial: requires data from original game, which is not free<br>
+        Free: game data is free or can be obtained for free<br>
+        Open: game data has an open source license<br>
+        Swappable: game data is commercial but can be swapped with open source replacements
     lang:
       type: seq
       desc: Main programming language(s) used for the game, e.g. C++

@@ -9,14 +9,17 @@ sequence:
         type: seq
         sequence:
           - type: str
+        desc: Alternate names for this game
       external:
         required: True
         type: map
         mapping:
           website:
             type: str
+            desc: URL of official website
           wikipedia:
             type: str
+            desc: Title of Wikipedia article
       platform:
         type: seq
         sequence:

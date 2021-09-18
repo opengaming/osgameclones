@@ -9,7 +9,9 @@ https://pykwalify.readthedocs.io/en/unstable/validation-rules.html#range
 {% if schema.get("enum") %}
   {% if schema["enum"]|length <= MAX_RADIO_BUTTONS %}
     {% for s_value in schema["enum"] %}
-      <div class="form-check">
+      <div class="form-check"
+        {% if "desc" in schema %}data-toggle="tooltip" data-placement="left" data-html="true" title="{{ schema["desc"]|e }}"{% endif %}
+      >
         <input
           type="radio"
           class="form-check-input"
