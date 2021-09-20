@@ -68,7 +68,7 @@ function handleContentChanged() {
 // search handling
 function getFilter(term) {
   return !term ? "" :
-    '[data-index*="' + term.toLowerCase().replace('"', '') + '"]';
+    '[data-index*="' + term.toLowerCase().replace(/"/g, '') + '"]';
 }
 
 var filterStyle = document.getElementById('filter-style');
