@@ -1126,15 +1126,22 @@
 - name: OpenGTA
   lang:
   - C++
+  framework:
+  - OpenGL
+  - SDL
   license:
-  - As-is
+  - Custom
+  content: commercial
   development: halted
   originals:
   - Grand Theft Auto
-  repo: http://ogta.fifengine.de/cvs.html
+  status: unplayable
+  repo: https://github.com/madebr/OpenGTA
   type: remake
-  updated: 2015-01-02
+  updated: 2021-09-22
   url: http://ogta.fifengine.de/
+  images:
+  - https://static.wikia.nocookie.net/gtawiki/images/c/c1/OpenGTA-GTA1.jpg/revision/latest?cb=20150921192322
 
 - name: OpenHoW
   type: remake
