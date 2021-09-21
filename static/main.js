@@ -169,9 +169,14 @@ function sortByUpdated(e) {
 
 function highlightTags(tag) {
   var style = document.getElementById('tag-style');
-  var line = '.tag[data-name=\"' + tag + '\"] { color: #ccc; background-color: #444; }';
-  line += '.darkTheme .tag[data-name=\"' + tag + '\"] { color: #444; background-color: #ccc; }';
-  style.innerHTML = tag ? line : '';
+  if (tag) {
+    tag = tag.replace(/"/g, '');
+    var line = '.tag[data-name=\"' + tag + '\"] { color: #ccc; background-color: #444; }';
+    line += '.darkTheme .tag[data-name=\"' + tag + '\"] { color: #444; background-color: #ccc; }';
+    style.innerHTML = line;
+  } else {
+    style.innerHTML = '';
+  }
 }
 
 (function() {
