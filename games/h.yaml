@@ -131,18 +131,28 @@
   type: remake
   updated: 2017-04-19
 
-- name: Heart of the Alien
+- name: Heart of the Alien Redux
   lang:
   - C
+  framework:
+  - SDL
   license:
   - GPL2
+  content: commercial
   development: halted
   originals:
   - 'Another World 2: Heart of the Alien'
-  repo: https://sourceforge.net/projects/hota/
+  status: playable
+  repo: https://github.com/carstene1ns/hota-redux
   type: remake
-  updated: 2015-04-02
+  updated: 2021-09-23
   url: http://hota.sourceforge.net/
+  images:
+  - http://hota.sourceforge.net/screenshots/room2-win32.png
+  - http://hota.sourceforge.net/screenshots/scale3x-win32.png
+  - http://hota.sourceforge.net/screenshots/hota-amigaos.jpg
+  video:
+    youtube: VLLfticgh6E
 
 - name: Hedgewars
   framework:
