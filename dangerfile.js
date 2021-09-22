@@ -239,10 +239,10 @@ const getGameChanges = files => {
   Promise.all(files.filter(isGame).map(file => danger.git.diffForFile(file)))
   .then(diffs => {
     diffs.forEach(diff => {
-      const gamesBefore = yaml.safeLoad(diff.before)
+      const gamesBefore = yaml.load(diff.before)
       // Compare any changes in games metadata
       const stringsBefore = gamesBefore.map(game => JSON.stringify(game))
-      const gamesAfter = yaml.safeLoad(diff.after)
+      const gamesAfter = yaml.load(diff.after)
       const namesBefore = gamesBefore.map(game => game.name)
       const namesAfter = gamesAfter.map(game => game.name)
       gamesBefore.forEach(game => {
