@@ -38,18 +38,25 @@
 
 - name: Jake2
   images:
-  - https://a.fsdn.com/con/app/proj/jake2/screenshots/31155.jpg
+  - https://bytonic.de/assets/images/db_images/db_javaquake14.jpg
+  - https://bytonic.de/assets/images/db_images/db_javaquake24.jpg
+  - https://bytonic.de/assets/images/db_images/db_snapshot206.jpg
   lang:
   - Java
+  framework:
+  - OpenGL
   license:
   - GPL2
-  development: active
+  content: commercial
+  development: halted
   originals:
   - Quake 2
-  repo: git://git.code.sf.net/p/jake2/git
+  status: playable
+  repo: https://sourceforge.net/projects/jake2/
   type: remake
-  updated: 2015-04-03
+  updated: 2021-09-28
   url: http://bytonic.de/html/jake2.html
+  info: Java port of the Quake2 game engine
 
 - name: javascript-E.T.
   lang:
