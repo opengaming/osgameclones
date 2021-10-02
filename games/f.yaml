@@ -132,8 +132,9 @@
 
 - name: fheroes2
   images:
-  - https://raw.githubusercontent.com/ihhub/fheroes2/master/files/images/screenshots/screenshot_world_map.png
-  - https://raw.githubusercontent.com/ihhub/fheroes2/master/files/images/screenshots/screenshot_castle.png
+  - https://github.com/ihhub/fheroes2/raw/master/docs/images/screenshots/screenshot_world_map.png?raw=true
+  - https://github.com/ihhub/fheroes2/raw/master/docs/images/screenshots/screenshot_castle.png?raw=true
+  - https://github.com/ihhub/fheroes2/raw/master/docs/images/screenshots/screenshot_battle.png?raw=true
   lang:
   - C++
   framework:
@@ -144,10 +145,11 @@
   development: active
   originals:
   - Heroes of Might and Magic II
+  status: playable
   url: https://ihhub.github.io/fheroes2/
   repo: https://github.com/ihhub/fheroes2
   type: remake
-  updated: 2020-10-28
+  updated: 2021-10-02
   info: 'direct continuation of https://sourceforge.net/projects/fheroes2/'
 
 - name: Fight Or Perish
