@@ -822,15 +822,22 @@
 - name: Space Nerds In Space
   lang:
   - C
+  framework:
+  - SDL2
+  - OpenGL
   license:
   - GPL2
+  content: open
   development: active
   originals:
   - 'Artemis: Spaceship Bridge Simulator'
+  status: playable
   repo: https://github.com/smcameron/space-nerds-in-space
   type: similar
-  updated: 2019-03-06
+  updated: 2021-10-05
   url: https://smcameron.github.io/space-nerds-in-space/
+  video:
+    youtube: 3fFl0VH-4zA
 
 - name: Space Station 14
   originals:
