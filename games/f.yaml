@@ -381,17 +381,26 @@
 - name: Free in the Dark
   lang:
   - C
+  framework:
+  - SDL
+  - Qt
   license:
   - GPL2
+  content: commercial
   development: halted
   originals:
   - Alone in the Dark
   - Alone in the Dark 2
   - Alone in the Dark 3
   - Jack in the Dark
-  repo: https://sourceforge.net/projects/fitd/
+  status: semi-playable
+  repo: https://github.com/jmimu/FITD
   type: remake
-  updated: 2014-09-05
+  updated: 2021-10-06
+  info: AITD1 should be completable with bugs; others are uncompletable
+  images:
+  - https://a.fsdn.com/con/app/proj/fitd/screenshots/10345.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/fitd/screenshots/10347.jpg/max/max/1
 
 - name: freeablo
   development: active
