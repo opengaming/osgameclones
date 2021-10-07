@@ -289,25 +289,6 @@
   - https://i.imgur.com/zplA29x.png
   - https://i.imgur.com/aamkvUB.png
 
-- name: Cave Story Engine 2
-  type: remake
-  originals:
-  - Cave Story
-  repo: https://github.com/Clownacy/CSE2
-  development: active
-  status: playable
-  lang:
-  - C++
-  framework:
-  - SDL2
-  license:
-  - As-is
-  content: free
-  info: CSE2 is a decompiled engine from the original game, but dropped DirectX and ported to SDL2
-  updated: 2020-08-25
-  images:
-  - https://raw.githubusercontent.com/Clownacy/CSE2/accurate/screenshot.png
-
 - name: CaveExpress
   framework:
   - SDL
@@ -1135,6 +1116,25 @@
   - 'http://dmweb.free.fr/files/Clone-Screenshot-CSBLinux.jpg'
   video:
     youtube: Aj9S9H9UdzY
+
+- name: CSE2
+  type: remake
+  originals:
+  - Cave Story
+  repo: https://github.com/gameblabla/CSE2
+  development: halted
+  status: playable
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - As-is
+  content: free
+  info: CSE2 is a decompiled engine from the original game, but dropped DirectX and ported to SDL2
+  updated: 2021-10-08
+  images:
+  - https://raw.githubusercontent.com/gameblabla/CSE2/rs97/screenshot.png
 
 - name: Cubosphere
   lang:
