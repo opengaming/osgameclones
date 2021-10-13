@@ -50,6 +50,7 @@ const knownLanguages = [
   'QBasic',
   'QuakeC',
   'QuickBASIC',
+  'ReScript',
   'Ruby',
   'Rust',
   'Scala',
