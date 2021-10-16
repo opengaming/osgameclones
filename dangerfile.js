@@ -13,53 +13,7 @@ let namesRemoved = []
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 let unknownLanguageDetected = false
-// Follow https://github.com/github/linguist/blob/master/lib/linguist/languages.yml for a list of languages
-const knownLanguages = [
-  'AGS Script',
-  'ActionScript',
-  'Ada',
-  'AngelScript',
-  'Assembly',
-  'Blitz BASIC',
-  'C',
-  'C#',
-  'C++',
-  'CoffeeScript',
-  'D',
-  'Delphi',
-  'Elm',
-  'F#',
-  'GDScript',
-  'GML',
-  'Go',
-  'Haskell',
-  'Haxe',
-  'Java',
-  'JavaScript',
-  'Kotlin',
-  'Lisp',
-  'Lua',
-  'Nim',
-  'Object Pascal',
-  'Objective-C',
-  'ooc',
-  'Pascal',
-  'Perl',
-  'PHP',
-  'Python',
-  'QBasic',
-  'QuakeC',
-  'QuickBASIC',
-  'Ruby',
-  'Rust',
-  'Scala',
-  'Squirrel',
-  'Swift',
-  'TorqueScript',
-  'TypeScript',
-  'Vala',
-  'Visual FoxPro'
-]
+const knownLanguages = Object.keys(require('linguist-languages'))
 
 let unknownFrameworkDetected = false
 const knownFrameworks = [
