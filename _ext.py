@@ -143,7 +143,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
                 result["repoiconstyle"] = "fab"
                 result["repotitle"] = "GitLab"
             else:
-                result["repobadge"] = f'<img class="badge lazyload" alt="GitLab stars" src="https://img.shields.io/badge/dynamic/json?color=green&label=gitlab%20stars&query=%24.star_count&url=https%3A%2F%2Fgitlab.com%2Fapi%2Fv4%2Fprojects%2F{user}%252F{repo}">'
+                result["repobadge"] = f'<img class="badge lazyload" alt="GitLab stars" src="https://img.shields.io/badge/dynamic/json?color=green&label=stars&logo=gitlab&&query=%24.star_count&url=https%3A%2F%2Fgitlab.com%2Fapi%2Fv4%2Fprojects%2F{user}%252F{repo}">'
         elif domain == "sourceforge.net":
             try:
                 # https://sourceforge.net/projects/<repo>
