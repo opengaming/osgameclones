@@ -194,6 +194,24 @@
   updated: 2015-05-09
   url: http://sourceforge.net/projects/maxit/
 
+- name: mc2
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - GPL3
+  development: complete
+  originals:
+  - MechCommander 2
+  status: playable
+  repo: https://github.com/alariq/mc2
+  type: remake
+  updated: 2021-10-25
+  url: https://alariq.github.io/mc2-website/
+  images:
+  - https://alariq.github.io/mc2-website//images/devblog/day83_2017-03-12-010816_3841x1201_scrot.png
+
 - name: Mechanized Assault & eXploration Reloaded
   images:
   - http://www.maxr.org/images/screenshots/03.jpg
@@ -734,21 +752,6 @@
   type: remake
   updated: 2015-04-08
   url: http://polarelephant.blogspot.co.uk/2007/10/elite-remake.html
-
-- name: mc2
-  lang:
-  - C++
-  framework:
-  - OpenGL
-  license:
-  - GPL3
-  development: sporadic
-  originals:
-  - MechCommander 2
-  repo: https://github.com/alariq/mc2
-  type: remake
-  updated: 2021-04-03
-  url: https://alariq.github.io/mc2-website/
   
 - name: mk.js
   lang:
