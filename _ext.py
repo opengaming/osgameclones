@@ -134,10 +134,16 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
             result["repoiconname"] = "bitbucket"
             result["repoiconstyle"] = "fab"
             result["repotitle"] = "Bitbucket"
-        elif domain.startswith("gitlab."):
-            result["repoiconname"] = "gitlab"
-            result["repoiconstyle"] = "fab"
-            result["repotitle"] = "GitLab"
+        elif domain == "gitlab.com":
+            try:
+                # https://gitlab.com/<user>/<repo>
+                _, user, repo, *_ = repo_parsed.path.split("/")
+            except ValueError:
+                result["repoiconname"] = "gitlab"
+                result["repoiconstyle"] = "fab"
+                result["repotitle"] = "GitLab"
+            else:
+                result["repobadge"] = f'<img class="badge lazyload" alt="GitLab stars" src="https://img.shields.io/badge/dynamic/json?color=green&label=stars&logo=gitlab&&query=%24.star_count&url=https%3A%2F%2Fgitlab.com%2Fapi%2Fv4%2Fprojects%2F{user}%252F{repo}">'
         elif domain == "sourceforge.net":
             try:
                 # https://sourceforge.net/projects/<repo>
