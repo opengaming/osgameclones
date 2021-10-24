@@ -50,6 +50,7 @@ const knownFrameworks = [
   'libretro',
   'Love3D',
   'LÖVE',
+  'LWJGL',
   'melonJS',
   'Minetest Engine',
   'Mono',

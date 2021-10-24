@@ -1150,7 +1150,7 @@
   updated: 2021-09-22
   url: http://ogta.fifengine.de/
   images:
-  - https://static.wikia.nocookie.net/gtawiki/images/c/c1/OpenGTA-GTA1.jpg/revision/latest?cb=20150921192322
+  - https://static.wikia.nocookie.net/gtawiki/images/c/c1/OpenGTA-GTA1.jpg
 
 - name: OpenHoW
   type: remake
@@ -2027,14 +2027,18 @@
 - name: OpenTyrian
   lang:
   - C
+  framework:
+  - SDL2
   license:
   - GPL2
   development: sporadic
   originals:
   - Tyrian
   repo: https://github.com/opentyrian/opentyrian
+  images:
+  - https://github.com/opentyrian/opentyrian/wiki/opentyrian_torm.png
   type: remake
-  updated: 2020-08-25
+  updated: 2021-10-11
 
 - name: OpenVIII
   type: remake
