@@ -18,13 +18,15 @@ from datetime import datetime, timedelta
 from github import Github, GithubException
 from gitlab import Gitlab
 
+GL_HOST = 'https://gitlab.com'
+
 GH_REGEX = re.compile(r'https://github.com/([^/]+)/([^/]+)')
-GL_REGEX = re.compile(r'https://gitlab.com/([^/]+/[^/]+)')
+GL_REGEX = re.compile(GL_HOST + r'/([^/]+/[^/]+)')
 
 
 def main():
     gh = Github(os.environ["GH_TOKEN"])
-    gl = Gitlab('https://gitlab.com', private_token=os.environ["GL_TOKEN"])
+    gl = Gitlab(GL_HOST, private_token=os.environ["GL_TOKEN"])
 
     for filename in Path('games').iterdir():
         if not filename.is_file() or filename.suffix != '.yaml':
@@ -58,11 +60,11 @@ def main():
 
 
 def is_github_repo(repo):
-    return 'https://github.' in repo
+    return repo.startswith('https://github.')
 
 
 def is_gitlab_repo(repo):
-    return 'https://gitlab.' in repo
+    return repo.startswith(GL_HOST)
 
 
 def get_latest_commit_date(repo_url, gh, gl):
