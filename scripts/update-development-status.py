@@ -36,7 +36,7 @@ def main():
         for game in games:
             repo_url = game.get('repo', '')
 
-            if game.get('development', '') == 'complete':
+            if len(repo_url) == 0 or game.get('development', '') == 'complete':
                 continue
 
             latest_commit_date = get_latest_commit_date(repo_url, gh, gl)
