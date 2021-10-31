@@ -43,7 +43,7 @@
 <div>
   <h2>New and updated games</h2>
   <dl>
-    {% for names, meta, game in site.new_games %}
+    {% for names, meta, game in site.new_games.values() %}
       {{ games.render_game(names, meta, game) }}
     {% endfor %}
   </dl>
