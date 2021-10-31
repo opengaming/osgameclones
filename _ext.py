@@ -308,3 +308,9 @@ def parse_data(site):
             if name in clone['originals']
         ]
         parse_items(site, combined, 'games')
+    site.new_games = sorted([
+        (_names, meta, game)
+        for _names, meta, items in site.games
+        for game in items
+        if game['new']
+    ], key=lambda args: args[2]['updated'], reverse=True)
