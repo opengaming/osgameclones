@@ -363,6 +363,26 @@
   - LAN
   updated: 2019-08-27
 
+- name: ccleste
+  originals:
+  - Celeste Classic
+  type: remake
+  repo: 'https://github.com/lemon32767/ccleste'
+  development: sporadic
+  status: playable
+  content: free
+  lang:
+  - C
+  framework:
+  - SDL
+  - SDL2
+  license:
+  - As-is
+  info: A port of Celeste Classic for 3DS and Windows
+  updated: '2021-10-20'
+  images:
+  - 'https://raw.githubusercontent.com/lemon-sherbet/ccleste/master/screenshot.png'
+
 - name: chainreaction
   lang:
   - Java
