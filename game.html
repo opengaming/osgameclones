@@ -4,8 +4,13 @@
 {{- common.head() }}
 {{ common.nav() }}
 
-<main class="single">
-  {{ games.render(game[0], game[1], game[2], 'game') }}
-</main>
+<div id="content">
+  <h2><a href="/">Back to list</a></h2>
+
+  <dl id="list">
+    {{ games.render(game, true) }}
+  </dl>
+  <dl id="sorted"></dl>
+</div>
 
 {{ common.footer() -}}
