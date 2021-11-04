@@ -1,15 +1,35 @@
 import copy
+import re
 import sys
 import pprint
 import os, os.path as op
+from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from collections import OrderedDict
 from functools import partial
+from typing import List, Dict
 from urllib.parse import urlparse
 
 import yaml
 from natsort import natsorted, ns
 from pykwalify.core import Core
+
+
+@dataclass
+class Game:
+    names: List[str]
+    meta: Dict
+    clones: List
+
+    @property
+    def slug(self) -> str:
+        return re.sub(r'[^a-z0-9]+', '-', self.names[0].lower()).strip('-')
+
+    @property
+    def wikilink(self) -> str:
+        if self.meta['external']['wikipedia']:
+            return "http://en.wikipedia.org/wiki/" + self.meta['external']['wikipedia']
+        return self.meta['external']['website']
 
 
 def abort(msg):
@@ -190,8 +210,7 @@ def parse_items(site, item, key):
     for game in item[key]:
         parse_global_tags(site, game, 'lang', game['name'])
 
-    item = (names(item), meta, [parse_fn(i) for i in item[key]])
-    getattr(site, key).append(item)
+    getattr(site, key).append(Game(names(item), meta, [parse_fn(i) for i in item[key]]))
 
 
 def show_error(game_name, error_str):
@@ -308,13 +327,13 @@ def parse_data(site):
             if name in clone['originals']
         ]
         parse_items(site, combined, 'games')
-    # Deduplicate games by using a dictionary
+    # Deduplicate clones by using a dictionary
     site.new_games = {
-        game['name']: (_names, meta, game)
-        for (_names, meta, game) in sorted([
-            (_names, meta, game)
-            for _names, meta, items in site.games
-            for game in items
-            if game['new']
+        clone['name']: (_names, meta, clone)
+        for (_names, meta, clone) in sorted([
+            (game.names, game.meta, clone)
+            for game in site.games
+            for clone in game.clones
+            if clone['new']
         ], key=lambda args: args[2]['updated'], reverse=True)
     }

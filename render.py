@@ -44,10 +44,6 @@ def ctx():
     return site
 
 
-def slug(s):
-    return re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
-
-
 def render_to(src, dst, **ctx):
     t = env().get_template(src)
 
@@ -73,8 +69,7 @@ def render_all(target):
     site = ctx()
     render_to('index.html', f'{target}/index.html', site=site)
     for game in ctx().games:
-        name = slug(game[0][0])
-        render_to('game.html', f'{target}/{name}/index.html', site=site, game=game)
+        render_to('game.html', f'{target}/{game.slug}/index.html', site=site, game=game)
 
 
 def normalize(text):
