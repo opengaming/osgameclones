@@ -27,9 +27,10 @@ class Game:
 
     @property
     def wikilink(self) -> str:
-        if self.meta['external']['wikipedia']:
+        try:
             return "http://en.wikipedia.org/wiki/" + self.meta['external']['wikipedia']
-        return self.meta['external']['website']
+        except KeyError:
+            return self.meta['external']['website']
 
 
 def abort(msg):
