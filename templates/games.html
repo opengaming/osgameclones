@@ -4,10 +4,8 @@
 {% macro render_name(name, game, first, use_external_link) %}
   {%- if not use_external_link -%}
     {% set link = "/" + game.slug %}
-  {%- elif game.meta['external']['wikipedia'] -%}
-    {% set link = "http://en.wikipedia.org/wiki/" + game.meta['external']['wikipedia'] %}
   {%- else -%}
-    {% set link = game.meta['external']['website'] %}
+    {% set link = game.wikilink %}
   {%- endif -%}
   <dt {% if first %}id="{{ show_id(name) }}"{% endif %} class="searchable">
     <a href="{{ link }}">{{ name }}</a>
