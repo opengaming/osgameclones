@@ -13,9 +13,9 @@ jobs:
         python-version: '3.7'
 
     - name: Setup pipenv
-      run: |
-        sudo -H pip install -U pipenv
-        python -m pipenv install
+      uses: VaultVulp/action-pipenv@v2.0.1
+      with:
+        command: install
     
     - name: Build
       run: |
