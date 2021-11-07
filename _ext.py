@@ -134,10 +134,16 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
             result["repoiconname"] = "bitbucket"
             result["repoiconstyle"] = "fab"
             result["repotitle"] = "Bitbucket"
-        elif domain.startswith("gitlab."):
-            result["repoiconname"] = "gitlab"
-            result["repoiconstyle"] = "fab"
-            result["repotitle"] = "GitLab"
+        elif domain == "gitlab.com":
+            try:
+                # https://gitlab.com/<user>/<repo>
+                _, user, repo, *_ = repo_parsed.path.split("/")
+            except ValueError:
+                result["repoiconname"] = "gitlab"
+                result["repoiconstyle"] = "fab"
+                result["repotitle"] = "GitLab"
+            else:
+                result["repobadge"] = f'<img class="badge lazyload" alt="GitLab stars" src="https://img.shields.io/badge/dynamic/json?color=green&label=stars&logo=gitlab&&query=%24.star_count&url=https%3A%2F%2Fgitlab.com%2Fapi%2Fv4%2Fprojects%2F{user}%252F{repo}">'
         elif domain == "sourceforge.net":
             try:
                 # https://sourceforge.net/projects/<repo>
@@ -145,7 +151,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
             except ValueError:
                 pass
             else:
-                result["repobadge"] = f'<img class="badge lazyload" alt="Sourceforge downloads" data-src="https://img.shields.io/sourceforge/dt/{repo}?style=flat-square" src="https://img.shields.io/badge/downloads-%3F-brightgreen?style=flat-square">'
+                result["repobadge"] = f'<img class="badge lazyload" alt="Sourceforge downloads" data-src="https://img.shields.io/sourceforge/dt/{repo}?style=flat-square&logo=sourceforge" src="https://img.shields.io/badge/downloads-%3F-brightgreen?style=flat-square&logo=sourceforge">'
         elif ext in (".gz", ".zip", ".tar", ".tgz", ".tbz2", ".bz2", ".xz", ".rar"):
             result["repoiconname"] = "box"
             result["repoiconstyle"] = "fas"
@@ -302,3 +308,13 @@ def parse_data(site):
             if name in clone['originals']
         ]
         parse_items(site, combined, 'games')
+    # Deduplicate games by using a dictionary
+    site.new_games = {
+        game['name']: (_names, meta, game)
+        for (_names, meta, game) in sorted([
+            (_names, meta, game)
+            for _names, meta, items in site.games
+            for game in items
+            if game['new']
+        ], key=lambda args: args[2]['updated'], reverse=True)
+    }

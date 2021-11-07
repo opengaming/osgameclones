@@ -52,6 +52,7 @@ video:
 
 ## Add a reference to the original game
 
+Simplest way to contribute is to fill in the [add original form][original_form].
 All the games listed need an original game they re-implement or clone. If there is no
 existing game entry in [`originals`][originals] directory you can create a new entry
 for it by following the following format. All originals are validated against the rules
@@ -122,6 +123,7 @@ See [LICENSE][license]
 [schema_games]: schema/games.yaml
 [schema_originals]: schema/originals.yaml
 [game_form]: https://osgameclones.com/add_game.html
+[original_form]: https://osgameclones.com/add_original.html
 [license]: LICENSE
 
 [python]: https://www.python.org

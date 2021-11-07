@@ -13,53 +13,7 @@ let namesRemoved = []
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 let unknownLanguageDetected = false
-// Follow https://github.com/github/linguist/blob/master/lib/linguist/languages.yml for a list of languages
-const knownLanguages = [
-  'AGS Script',
-  'ActionScript',
-  'Ada',
-  'AngelScript',
-  'Assembly',
-  'Blitz BASIC',
-  'C',
-  'C#',
-  'C++',
-  'CoffeeScript',
-  'D',
-  'Delphi',
-  'Elm',
-  'F#',
-  'GDScript',
-  'GML',
-  'Go',
-  'Haskell',
-  'Haxe',
-  'Java',
-  'JavaScript',
-  'Kotlin',
-  'Lisp',
-  'Lua',
-  'Nim',
-  'Object Pascal',
-  'Objective-C',
-  'ooc',
-  'Pascal',
-  'Perl',
-  'PHP',
-  'Python',
-  'QBasic',
-  'QuakeC',
-  'QuickBASIC',
-  'Ruby',
-  'Rust',
-  'Scala',
-  'Squirrel',
-  'Swift',
-  'TorqueScript',
-  'TypeScript',
-  'Vala',
-  'Visual FoxPro'
-]
+const knownLanguages = Object.keys(require('linguist-languages'))
 
 let unknownFrameworkDetected = false
 const knownFrameworks = [
@@ -96,6 +50,7 @@ const knownFrameworks = [
   'libretro',
   'Love3D',
   'LÖVE',
+  'LWJGL',
   'melonJS',
   'Minetest Engine',
   'Mono',
@@ -166,6 +121,12 @@ const checkRepoSVN = game => {
   }
 }
 
+const checkRepoFTP = game => {
+  if (game.repo && game.repo.startsWith("ftp://")) {
+    warn(`🔗 ${game.name}'s repo is on a FTP server, which cannot be opened in some browsers by default. Please change it to the project's developer web page.`)
+  }
+}
+
 const checkRepoAdded = game => {
   if (!game.repo) return
   const match = game.repo.match(/github.com\/([^/]+)\//)
@@ -214,6 +175,7 @@ const commonChecks = game => {
   checkRepoGoogleCode(game)
   checkRepoGit(game)
   checkRepoSVN(game)
+  checkRepoFTP(game)
   checkLanguageKnown(game)
   checkFrameworkKnown(game)
   checkHasImagesOrVideos(game)

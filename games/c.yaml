@@ -6,25 +6,24 @@
   - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/1.png
   - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/2.png
   - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/3.png
-  - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/4.png
   lang:
   - C
   license:
   - BSD2
   - GPL2
-  - CC0
-  - CC-BY
-  - CC-BY-SA
-  development: active
+  content: open
+  development: sporadic
   originals:
   - C-Dogs
+  - Wolfenstein 3D
+  - Spear of Destiny
   repo: https://github.com/cxong/cdogs-sdl
   status: playable
   type: remake
-  updated: 2014-03-08
+  updated: 2021-10-16
   url: https://cxong.github.io/cdogs-sdl/
   video:
-    youtube: hgX3jz_HajE
+    youtube: gnZX0IJV4oo
 
 - name: C-evo
   images:
@@ -363,6 +362,26 @@
   - Online
   - LAN
   updated: 2019-08-27
+
+- name: ccleste
+  originals:
+  - Celeste Classic
+  type: remake
+  repo: 'https://github.com/lemon32767/ccleste'
+  development: sporadic
+  status: playable
+  content: free
+  lang:
+  - C
+  framework:
+  - SDL
+  - SDL2
+  license:
+  - As-is
+  info: A port of Celeste Classic for 3DS and Windows
+  updated: '2021-10-20'
+  images:
+  - 'https://raw.githubusercontent.com/lemon-sherbet/ccleste/master/screenshot.png'
 
 - name: chainreaction
   lang:
@@ -1147,6 +1166,31 @@
   repo: https://github.com/cubosphere/cubosphere-code
   type: remake
   updated: 2019-11-20
+
+- name: Cubyz
+  originals:
+  - Minecraft
+  type: clone
+  repo: 'https://github.com/PixelGuys/Cubyz'
+  url: 'https://pixelguys.github.io/Cubyz/'
+  feed: 'https://github.com/PixelGuys/Cubyz/releases.atom'
+  development: very active
+  status: semi-playable
+  content: open
+  lang:
+  - Java
+  framework:
+  - LWJGL
+  license:
+  - GPL3
+  updated: '2021-10-15'
+  images:
+  - >-
+    https://pixelguys.github.io/Cubyz/assets/images/blog/crystal_caverns_2020-04-27.png
+  - >-
+    https://pixelguys.github.io/Cubyz/assets/images/blog/underwater_lighting_2020-05-04.png
+  video:
+    youtube: 0TDcqLFwQrE
 
 - name: Cytadela
   images:

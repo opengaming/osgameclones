@@ -4,8 +4,6 @@
 {{- common.head() }}
 {{ common.nav() }}
 
-<h5><a href="https://github.com/opengaming/osgameclones/issues/1435">Click here</a> to see projects participating in <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest 2021</a>!</h5>
-
 <article>
   <h1>Open Source Game Clones</h1>
 
@@ -45,15 +43,7 @@
 <div>
   <h2>New and updated games</h2>
   <dl>
-    {% set new_games = {} %}
-    {% for names, meta, items in site.games %}
-      {% for game in items %}
-        {% if game.new %}
-          {% set _ = new_games.__setitem__(game.name, (names, meta, game)) %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    {% for names, meta, game in new_games.values() %}
+    {% for names, meta, game in site.new_games.values() %}
       {{ games.render_game(names, meta, game) }}
     {% endfor %}
   </dl>
