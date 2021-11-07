@@ -15,7 +15,7 @@ jobs:
     - name: Setup pipenv
       run: |
         sudo -H pip install -U pipenv
-        pipenv install
+        python3 -m pipenv install
     
     - name: Build
       run: |
