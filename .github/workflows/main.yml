@@ -18,8 +18,12 @@ jobs:
         command: install
     
     - name: Build
+      uses: VaultVulp/action-pipenv@v2.0.1
+      with:
+        command: run ./render.py
+    
+    - name: Test
       run: |
-        make
         test 6000 -lt $(cat _build/index.html | wc -l)
         yarn install
         yarn danger ci
