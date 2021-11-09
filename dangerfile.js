@@ -233,4 +233,4 @@ const getGameChanges = files => {
     }
   })
 }
-getGameChanges(danger.git.modified_files.concat(danger.git.created_files, danger.git.deleted_files))
+getGameChanges([].concat(danger.git.modified_files || [], danger.git.created_files || [], danger.git.deleted_files || []))
