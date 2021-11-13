@@ -10,11 +10,11 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v2.2.2
       with:
-        python-version: '3.7'
+        python-version: '3.10'
 
     - name: Setup pipenv
       run: |
-        sudo -H pip install -U pipenv==2021.5.29
+        sudo -H pip install
         pipenv install
     
     - name: Build
