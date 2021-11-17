@@ -744,16 +744,22 @@
   images:
   - http://www.opencity.info/screenshot/full/opencity-0.0.5-mainstatusbar.jpg
   - http://www.opencity.info/screenshot/full/opencity-0.0.5-island.jpg
+  - http://www.opencity.info/screenshot/full/opencity-0.0.5-alphatree.jpg
   lang:
   - C++
+  framework:
+  - SDL
+  - OpenGL
   license:
   - GPL2
+  content: open
   development: halted
   originals:
   - Simcity
-  repo: svn://svn.code.sf.net/p/opencity/code/trunk
+  status: playable
+  repo: https://sourceforge.net/projects/opencity/
   type: clone
-  updated: 2015-04-03
+  updated: 2021-11-18
   url: http://www.opencity.info/
 
 - name: OpenClaw
