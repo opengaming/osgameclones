@@ -770,13 +770,18 @@
 - name: TyrQuake
   lang:
   - C
+  framework:
+  - OpenGL
   license:
   - GPL2
+  content: commercial
   development: active
   originals:
   - Quake
-  repo: https://github.com/libretro/tyrquake
+  status: playable
+  repo: https://disenchant.net/git/tyrquake.git/
   type: remake
-  updated: 2015-04-03
-  url: http://disenchant.net/tyrquake/
-
+  updated: 2021-11-23
+  url: https://disenchant.net/tyrquake/
+  images:
+  - https://docs.libretro.com/image/core/tyrquake/320x240.png
