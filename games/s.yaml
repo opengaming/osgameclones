@@ -88,7 +88,7 @@
   development: halted
   originals:
   - Starcraft
-  repo: https://github.com/toshok/scsharp/
+  repo: https://github.com/toshok/scsharp
   status: unplayable
   type: remake
   updated: 2021-01-07
@@ -433,6 +433,25 @@
   type: remake
   updated: 2015-04-08
   url: http://soaos.sourceforge.net/
+
+- name: 'Signus: The Artefact Wars'
+  type: remake
+  originals:
+  - 'Signus: The Artefact Wars'
+  repo: 'https://github.com/signus-game/signus'
+  development: complete
+  status: playable
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - GPL2
+  content: open
+  info: Complete source port of the original game
+  updated: 2021-11-12
+  video:
+    youtube: SHhLHVwoLFA
 
 - name: Silent Hill 2 Enhancement
   originals:
