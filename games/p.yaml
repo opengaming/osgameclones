@@ -774,14 +774,20 @@
 - name: ProQuake 4
   license:
   - GPL2
+  content: commercial
   lang:
   - C
   originals:
   - Quake
-  repo: http://quakeone.com/proquake/proquake_493_src.rar
+  status: playable
+  development: halted
   type: remake
-  updated: 2015-04-03
+  updated: 2021-11-30
   url: http://quakeone.com/proquake/
+  images:
+  - http://quakeone.com/proquake/media/fitzquake_mark_v.jpg
+  - http://quakeone.com/~images/news/enginex000.jpg
+  - http://quakeone.com/proquake/media/undergate.png
 
 - name: proxx
   development: complete
