@@ -62,17 +62,23 @@
 
 - name: Omnispeak
   images:
-  - http://davidgow.net/images/omnispeak-2.png
+  - https://davidgow.net/images/omnispeak-3.png
+  - https://davidgow.net/images/omnispeak-4.png
+  - https://davidgow.net/images/omnispeak-5.png
   lang:
   - C
+  framework:
+  - OpenGL
   license:
   - GPL2
-  development: active
+  content: commercial
+  development: sporadic
   originals:
   - Commander Keen Series
+  status: playable
   repo: https://github.com/sulix/omnispeak
   type: remake
-  updated: 2015-04-04
+  updated: 2021-12-01
   url: http://davidgow.net/keen/omnispeak.html
 
 - name: One Way To Go
