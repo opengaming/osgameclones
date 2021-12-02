@@ -12,14 +12,9 @@ jobs:
       with:
         python-version: '3.8'
 
-    - name: Setup pipenv
-      run: |
-        sudo -H pip install pipenv
-        pipenv install
-    
     - name: Build
       run: |
-        make
+        make ci
         test 6000 -lt $(cat _build/index.html | wc -l)
         yarn install
         yarn danger ci
