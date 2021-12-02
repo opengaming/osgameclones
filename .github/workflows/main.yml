@@ -10,7 +10,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v2.2.2
       with:
-        python-version: '3.7'
+        python-version: '3.8'
 
     - name: Setup pipenv
       run: |
