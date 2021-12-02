@@ -1,10 +1,17 @@
 PORT=80
 
 run:
-	pipenv run ./render.py
+	poetry run ./render.py
 
-prod:
-	./render.py && htmlmin _build/index.html _build/index.html
+min:
+	poetry run htmlmin _build/index.html _build/index.html
+
+poetry:
+	pip3 install -q poetry
+	poetry install -q
+
+prod: poetry run min
+ci: poetry run
 
 docker-build:
 	docker build -t opengaming/osgameclones .
