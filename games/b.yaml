@@ -173,10 +173,10 @@
 
 - name: The Battle for Wesnoth
   images:
-  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-1.jpg
-  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-11.jpg
-  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.4-3.jpg
-  - https://www.wesnoth.org/images/sshots/wesnoth-1.12.0-5.jpg
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-1.jpg
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-2.jpg
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-3.jpg
+  - https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-6.jpg
   lang:
   - C++
   - C
@@ -186,12 +186,18 @@
   license:
   - GPL2
   development: active
+  multiplayer:
+  - Online
+  - Co-op
+  - Hotseat
+  - Local
+  - Competitive
   originals:
   - Master of Monsters
   - Warsong
   repo: https://github.com/wesnoth/wesnoth
   type: clone
-  updated: 2019-08-27
+  updated: 2021-11-09
   url: https://www.wesnoth.org/
   video:
     youtube: w3P39lppcH4
