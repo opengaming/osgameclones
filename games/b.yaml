@@ -414,6 +414,27 @@
   type: remake
   updated: 2019-09-02
 
+- name: Blues
+  originals:
+  - The Blues Brothers
+  - 'The Blues Brothers: Jukebox Adventure'
+  - Prehistorik 2
+  type: remake
+  repo: 'https://github.com/cyxx/blues'
+  development: halted
+  status: playable
+  content: commercial
+  lang:
+  - C
+  framework:
+  - SDL2
+  license:
+  - As-is
+  updated: 2021-12-08
+  images:
+  - 'https://raw.githubusercontent.com/cyxx/blues/master/blues1.png'
+  - 'https://raw.githubusercontent.com/cyxx/blues/master/bbja2.png'
+
 - name: Bomb Mania Reloaded
   images:
   - https://a.fsdn.com/con/app/proj/bomb-mania/screenshots/125901.jpg
