@@ -1601,15 +1601,20 @@
 
 - name: Supercars III
   images:
-  - http://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
+  - https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
+  - https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_3.jpg
+  - https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_7.jpg
   license:
   - JRL
-  development: sporadic
+  development: halted
   originals:
   - Super Cars
+  status: playable
   repo: http://jotd.pagesperso-orange.fr/supercars3/Supercars3_06.zip
+  lang:
+  - Java
   type: remake
-  updated: 2015-04-04
+  updated: 2021-12-21
   url: http://jotd.pagesperso-orange.fr/supercars3/
 
 - name: SuperFoulEgg
