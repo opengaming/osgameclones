@@ -824,6 +824,26 @@
   type: remake
   updated: 2016-12-08
 
+- name: PsyDoom
+  originals:
+  - Doom
+  type: remake
+  repo: 'https://github.com/BodbDearg/PsyDoom'
+  development: sporadic
+  status: playable
+  content: commercial
+  lang:
+  - C++
+  framework:
+  - SDL2
+  - Vulkan
+  license:
+  - GPL3
+  info: Port of PlayStation Doom to modern PC platforms
+  updated: 2021-12-22
+  video:
+    youtube: 0miyRHptfeA
+
 - name: pucpr-ld-mario3
   framework:
   - Construct2
