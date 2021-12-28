@@ -75,7 +75,7 @@ in the [`schema/originals.yaml`][schema_originals] validation file.
 
 ### Pre-requisites
 
-* [pipenv][pipenv]
+* [poetry][poetry]
 
 
 ### Install
@@ -83,7 +83,7 @@ in the [`schema/originals.yaml`][schema_originals] validation file.
 Clone this repository and run inside the directory:
 
 ```
-pipenv install
+poetry install
 ```
 ### Building
 
@@ -127,4 +127,4 @@ See [LICENSE][license]
 [license]: LICENSE
 
 [python]: https://www.python.org
-[pipenv]: https://pipenv.readthedocs.io/en/latest/
+[poetry]: https://python-poetry.org/
