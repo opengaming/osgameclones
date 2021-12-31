@@ -6,7 +6,6 @@ import shutil
 import functools
 import argparse
 import logging
-import re
 from distutils.dir_util import copy_tree
 from pathlib import Path
 
@@ -70,6 +69,9 @@ def render_all(target):
     render_to('index.html', f'{target}/index.html', site=site)
     for game in ctx().games:
         render_to('game.html', f'{target}/{game.slug}/index.html', site=site, game=game)
+        render_game_form(
+            "schema/originals.yaml", f"{target}/{game.slug}/edit.html", f"Edit {game.names[0]}", value=game.item
+        )
 
 
 def normalize(text):
@@ -78,13 +80,13 @@ def normalize(text):
     return html.escape(unidecode.unidecode(text.lower()))
 
 
-def render_add_game_form(schema: str, out_path: str, form_name: str):
+def render_game_form(schema: str, out_path: str, form_name: str, value=None):
     with open(schema) as f:
         schemata = safe_load(f)
     renderer = Renderer(schemata, HERE / "templates/forms")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w") as f:
-        f.write(renderer.render("", name=form_name, static_url="/_add_form"))
+        f.write(renderer.render("", name=form_name, value=value, static_url="/_add_form"))
 
 
 def main():
@@ -96,8 +98,8 @@ def main():
     render_all(args.dest)
 
     # Render add game forms
-    render_add_game_form("schema/games.yaml", f"{args.dest}/add_game.html", "Add Game")
-    render_add_game_form("schema/originals.yaml", f"{args.dest}/add_original.html", "Add Original")
+    render_game_form("schema/games.yaml", f"{args.dest}/add_game.html", "Add Game")
+    render_game_form("schema/originals.yaml", f"{args.dest}/add_original.html", "Add Original")
 
     # Copy static files
     copy_tree(str(HERE / "templates/forms/static"), f"{args.dest}/_add_form")

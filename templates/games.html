@@ -1,11 +1,11 @@
 {% import 'templates/video.html' as video %}
 {% import 'templates/tags.html' as tags %}
 
-{% macro render_name(name, game, first, use_external_link) %}
-  {%- if not use_external_link -%}
-    {% set link = "/" + game.slug %}
-  {%- else -%}
+{% macro render_name(name, game, first, show_details) %}
+  {%- if show_details -%}
     {% set link = game.wikilink %}
+  {%- else -%}
+    {% set link = "/" + game.slug %}
   {%- endif -%}
   <dt {% if first %}id="{{ show_id(name) }}"{% endif %} class="searchable">
     <a href="{{ link }}">{{ name }}</a>
@@ -13,6 +13,9 @@
       {{ tags.render_tag_groups('genre', game.meta['genre']) }}
       {{ tags.render_tag_groups('subgenre', game.meta['subgenre']) }}
       {{ tags.render_tag_groups('theme', game.meta['theme']) }}
+      {% if show_details %}
+        <a class="add-link" href="/{{ game.slug }}/edit.html" target="_blank"><i class="far fa-edit"></i>Edit</a>
+      {% endif %}
     {% endif %}
   </dt>
 {% endmacro %}

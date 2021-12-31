@@ -17,9 +17,13 @@ from pykwalify.core import Core
 
 @dataclass
 class Game:
-    names: List[str]
+    item: Dict
     meta: Dict
     clones: List
+
+    @property
+    def names(self) -> List[str]:
+        return names(self.item)
 
     @property
     def slug(self) -> str:
@@ -211,7 +215,7 @@ def parse_items(site, item, key):
     for game in item[key]:
         parse_global_tags(site, game, 'lang', game['name'])
 
-    getattr(site, key).append(Game(names(item), meta, [parse_fn(i) for i in item[key]]))
+    getattr(site, key).append(Game(item, meta, [parse_fn(i) for i in item[key]]))
 
 
 def show_error(game_name, error_str):
