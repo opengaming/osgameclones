@@ -82,7 +82,7 @@ python-dateutil = ">=2.8.0"
 
 [[package]]
 name = "pykwalify-webform"
-version = "0.1.4"
+version = "0.2.1"
 description = "Generate webforms based on YAML schema with pykwalify"
 category = "main"
 optional = false
@@ -114,14 +114,14 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "ruamel.yaml"
-version = "0.17.17"
+version = "0.17.19"
 description = "ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order"
 category = "main"
 optional = false
 python-versions = ">=3"
 
 [package.dependencies]
-"ruamel.yaml.clib" = {version = ">=0.1.2", markers = "platform_python_implementation == \"CPython\" and python_version < \"3.10\""}
+"ruamel.yaml.clib" = {version = ">=0.2.6", markers = "platform_python_implementation == \"CPython\" and python_version < \"3.11\""}
 
 [package.extras]
 docs = ["ryd"]
@@ -154,7 +154,7 @@ python-versions = ">=3.5"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "326001d689902e65b3ccd2e85285bd4281d18222afefcbb3d8d318e007b28829"
+content-hash = "c490fee29cfd1ed75d03b0799327b59a5de32ccb028568056ee0b130ae3a7e31"
 
 [metadata.files]
 click = [
@@ -255,7 +255,7 @@ pykwalify = [
     {file = "pykwalify-1.8.0.tar.gz", hash = "sha256:796b2ad3ed4cb99b88308b533fb2f559c30fa6efb4fa9fda11347f483d245884"},
 ]
 pykwalify-webform = [
-    {file = "pykwalify_webform-0.1.4.tar.gz", hash = "sha256:01b1596903eef9a467cdbff97331652f77cf2830f7531a6aba93325600fa021e"},
+    {file = "pykwalify_webform-0.2.1.tar.gz", hash = "sha256:9908edfbb714110f2cdafc485fa27bc3d7abd7f5bfef71c672c8c4592654cc8b"},
 ]
 python-dateutil = [
     {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
@@ -297,10 +297,14 @@ pyyaml = [
     {file = "PyYAML-6.0.tar.gz", hash = "sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2"},
 ]
 "ruamel.yaml" = [
-    {file = "ruamel.yaml-0.17.17-py3-none-any.whl", hash = "sha256:9af3ec5d7f8065582f3aa841305465025d0afd26c5fb54e15b964e11838fc74f"},
-    {file = "ruamel.yaml-0.17.17.tar.gz", hash = "sha256:9751de4cbb57d4bfbf8fc394e125ed4a2f170fbff3dc3d78abf50be85924f8be"},
+    {file = "ruamel.yaml-0.17.19-py3-none-any.whl", hash = "sha256:92ac00b312c9a83ff3253a8f7b86dfe6f9996b4082b103af84b8df99175945bc"},
+    {file = "ruamel.yaml-0.17.19.tar.gz", hash = "sha256:b9ce9a925d0f0c35a1dbba56b40f253c53cd526b0fa81cf7b1d24996f28fb1d7"},
 ]
 "ruamel.yaml.clib" = [
+    {file = "ruamel.yaml.clib-0.2.6-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:6e7be2c5bcb297f5b82fee9c665eb2eb7001d1050deaba8471842979293a80b0"},
+    {file = "ruamel.yaml.clib-0.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl", hash = "sha256:221eca6f35076c6ae472a531afa1c223b9c29377e62936f61bc8e6e8bdc5f9e7"},
+    {file = "ruamel.yaml.clib-0.2.6-cp310-cp310-win32.whl", hash = "sha256:1070ba9dd7f9370d0513d649420c3b362ac2d687fe78c6e888f5b12bf8bc7bee"},
+    {file = "ruamel.yaml.clib-0.2.6-cp310-cp310-win_amd64.whl", hash = "sha256:77df077d32921ad46f34816a9a16e6356d8100374579bc35e15bab5d4e9377de"},
     {file = "ruamel.yaml.clib-0.2.6-cp35-cp35m-macosx_10_6_intel.whl", hash = "sha256:cfdb9389d888c5b74af297e51ce357b800dd844898af9d4a547ffc143fa56751"},
     {file = "ruamel.yaml.clib-0.2.6-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:7b2927e92feb51d830f531de4ccb11b320255ee95e791022555971c466af4527"},
     {file = "ruamel.yaml.clib-0.2.6-cp35-cp35m-win32.whl", hash = "sha256:ada3f400d9923a190ea8b59c8f60680c4ef8a4b0dfae134d2f2ff68429adfab5"},
