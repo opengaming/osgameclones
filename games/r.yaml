@@ -98,8 +98,25 @@
   type: remake
   updated: 2015-05-29
 
-- name: raptor
-  info: 'Raptor: Call of the Shadow in JavaScript in 96k'
+- name: Raptor
+  originals:
+  - 'Raptor: Call of the Shadows'
+  type: remake
+  repo: 'https://github.com/skynettx/raptor'
+  development: active
+  status: playable
+  content: commercial
+  lang:
+  - C
+  license:
+  - GPL2
+  updated: 2022-01-02
+  info: Based on the reverse-engineered codebase from Raptor Call Of The Shadows by nukeykt
+  video:
+    youtube: Nt2HfchiudY
+
+- name: Raptor (JS)
+  info: 'Raptor: Call of the Shadows in JavaScript in 96k; complete remake of the first level of the Bravo sector'
   lang:
   - JavaScript
   license:
