@@ -91,6 +91,24 @@
     - 'https://i.imgur.com/HxIctfS.png'
     - 'https://i.imgur.com/iDbwd2C.png'
 
+- name: 2048-in-terminal
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/alewmoose/2048-in-terminal'
+  development: complete
+  status: playable
+  content: open
+  lang:
+  - C
+  framework:
+  - ncurses
+  license:
+  - MIT
+  updated: '2022-01-03'
+  images:
+  - 'https://raw.githubusercontent.com/alewmoose/2048-in-terminal/master/screen.gif'
+
 - name: 2048-python
   originals:
   - '2048'
