@@ -1629,6 +1629,27 @@
   type: remake
   updated: 2015-04-05
 
+- name: SuperMarioBros-C
+  originals:
+  - Super Mario
+  type: remake
+  repo: 'https://github.com/MitchellSternke/SuperMarioBros-C'
+  development: complete
+  status: playable
+  content: commercial
+  lang:
+  - C++
+  framework:
+  - SDL2
+  license:
+  - As-is
+  info: >-
+    An attempt to translate the original Super Mario Bros. for the NES to readable
+    C/C++.
+  updated: 2022-01-07
+  images:
+  - 'https://github.com/MitchellSternke/SuperMarioBros-C/raw/master/demo.gif'
+
 - name: SuperTux
   development: active
   framework:
