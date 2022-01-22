@@ -669,15 +669,22 @@
 - name: Bt Builder
   lang:
   - C++
+  framework:
+  - SDL2
   license:
   - GPL3
+  content: open
   development: sporadic
   originals:
   - Bard's Tale Construction Set
+  status: semi-playable
   repo: https://github.com/dulsi/btbuilder
   type: remake
-  updated: 2020-08-25
+  updated: 2022-01-22
   url: http://identicalsoftware.com/btbuilder/
+  images:
+  - http://identicalsoftware.com/btbuilder/screen1.png
+  - http://identicalsoftware.com/btbuilder/screen2.png
 
 - name: The Bub's Brothers
   images:
