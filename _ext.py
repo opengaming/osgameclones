@@ -1,5 +1,4 @@
 import copy
-import re
 import sys
 import pprint
 import os, os.path as op
@@ -13,6 +12,7 @@ from urllib.parse import urlparse
 import yaml
 from natsort import natsorted, ns
 from pykwalify.core import Core
+from slugify import slugify
 
 
 @dataclass
@@ -27,7 +27,7 @@ class Game:
 
     @property
     def slug(self) -> str:
-        return re.sub(r'[^a-z0-9]+', '-', self.names[0].lower()).strip('-')
+        return slugify(self.names[0])
 
     @property
     def wikilink(self) -> str:

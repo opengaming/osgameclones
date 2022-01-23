@@ -105,6 +105,9 @@
       {{ tags.render_tag_groups('content', game['content'] | title) if show_details }}
       {{ tags.render_tag_groups('license', game['license']) }}
       {{ tags.render_tag_groups('multiplayer', game['multiplayer']) if 'multiplayer' in game and show_details }}
+      {% if show_details %}
+        <a class="add-link" href="/_clones/{{ game['name'] | slugify }}/edit.html" target="_blank"><i class="far fa-edit"></i>Edit</a>
+      {% endif %}
       {%- if 'info' in game and show_details %}
         <div itemprop="description">{{ game['info'] }}</div>
       {% endif %}
