@@ -13,6 +13,7 @@ import unidecode
 
 import jinja2
 from pykwalify_webform.renderer import Renderer
+from slugify import slugify
 from yaml import safe_load
 
 import _ext
@@ -72,6 +73,12 @@ def render_all(target):
         render_game_form(
             "schema/originals.yaml", f"{target}/{game.slug}/edit.html", f"Edit {game.names[0]}", value=game.item
         )
+    # Render edit clone forms
+    clones = {clone["name"]: clone for game in ctx().games for clone in game.clones}
+    for name, clone in clones.items():
+        render_game_form(
+            "schema/games.yaml", f"{target}/_clones/{slugify(name)}/edit.html", f"Edit {name}", value=clone
+        )
 
 
 def normalize(text):
@@ -81,6 +88,7 @@ def normalize(text):
 
 
 def render_game_form(schema: str, out_path: str, form_name: str, value=None):
+    log.info(f"Rendering game form {schema=} -> {out_path}")
     with open(schema) as f:
         schemata = safe_load(f)
     renderer = Renderer(schemata, HERE / "templates/forms")
@@ -95,6 +103,7 @@ def main():
     args = parser.parse_args()
 
     env().filters['normalize'] = normalize
+    env().filters['slugify'] = slugify
     render_all(args.dest)
 
     # Render add game forms
