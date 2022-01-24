@@ -1607,14 +1607,19 @@
 - name: SuperFoulEgg
   lang:
   - Objective-C
+  framework:
+  - Cocos2d
   license:
-  - Custom
+  - MIT
+  content: commercial
   development: halted
   originals:
   - Super Foul Egg
+  status: playable
   repo: https://github.com/ant512/SuperFoulEgg
   type: remake
-  updated: 2015-04-05
+  updated: 2022-01-25
+  info: MacOSX port of Super Foul Egg; re-write of Really Bad Eggs, a port of Super Foul Egg to the Nintendo DS
 
 - name: SuperMarioBros-C
   originals:
