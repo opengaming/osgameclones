@@ -1,15 +1,23 @@
 - name: Yamagi Quake II
   lang:
   - C
+  framework:
+  - SDL2
+  - Vulkan
+  - OpenGL
   license:
   - GPL2
+  content: commercial
   development: active
   originals:
   - Quake 2
+  status: playable
   repo: https://github.com/yquake2/yquake2
   type: remake
-  updated: 2015-04-05
-  url: http://www.yamagi.org/quake2/
+  updated: 2022-01-27
+  url: https://www.yamagi.org/quake2/
+  video:
+    youtube: oswh8-jsSV4
 
 - name: YKnytt
   type: remake
