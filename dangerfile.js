@@ -99,6 +99,18 @@ const knownFrameworks = [
   'wxWidgets',
   'XNA'
 ]
+const frameworkLangs = {
+  'SDL2': ['C++', 'C'],
+  'SDL': ['C++', 'C'],
+  'OpenGL': ['C++', 'C'],
+  'Unity': ['C#'],
+  'SFML': ['C++'],
+  'LibGDX': ['Java'],
+  'Qt': ['C++'],
+  'Allegro': ['C++', 'C'],
+  'pygame': ['Python'],
+  'OGRE': ['C++'],
+}
 
 // -----------
 // Game checks
@@ -160,6 +172,20 @@ const checkFrameworkKnown = game => {
   }
 }
 
+const checkFrameworkUsesLang = game => {
+  if (!game.framework) return
+  const commonFrameworks = game.framework.filter(framework => Object.keys(frameworkLangs).includes(framework))
+  commonFrameworks.forEach(framework => {
+    const langs = frameworkLangs[framework]
+    if (!game.lang || game.lang.filter(lang => langs.includes(lang)).length === 0) {
+      message(
+        `🏗 ${game.name} uses "${framework}" as a framework, but doesn't have languages ${langs}, ` +
+        'which are commonly used.'
+      )
+    }
+  })
+}
+
 const checkHasImagesOrVideos = game => {
   if (!game.images && !game.video) {
     warn(`🖼 ${game.name} has no images or videos. Please help improve the entry by finding one!`)
@@ -179,6 +205,7 @@ const commonChecks = game => {
   checkRepoFTP(game)
   checkLanguageKnown(game)
   checkFrameworkKnown(game)
+  checkFrameworkUsesLang(game)
   checkHasImagesOrVideos(game)
   checkHasStatus(game)
 }
