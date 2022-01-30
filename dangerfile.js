@@ -180,8 +180,7 @@ const checkFrameworkUsesLang = game => {
     const langs = frameworkLangs[framework]
     if (!game.lang || game.lang.filter(lang => langs.includes(lang)).length === 0) {
       message(
-        `🏗 ${game.name} uses "${framework}" as a framework, but doesn't have languages ${langs}, ` +
-        'which are commonly used.'
+        `🏗 ${game.name} uses "${framework}" as a framework, but doesn't have ${langs} in its languages.`
       )
     }
   })
