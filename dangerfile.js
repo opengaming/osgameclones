@@ -24,6 +24,7 @@ const knownFrameworks = [
   'BackBone.js',
   'Box2D',
   'Bullet3',
+  'Cocos2d',
   'Construct',
   'Construct2',
   'Cube 2 Engine',
