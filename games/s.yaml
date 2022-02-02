@@ -70,15 +70,30 @@
 - name: Scorched3D
   lang:
   - C++
+  framework:
+  - SDL
+  - OpenGL
   license:
   - GPL2
-  development: active
+  content: open
+  development: halted
   originals:
   - Scorched Earth
-  repo: git://git.code.sf.net/p/scorched3d/git
+  status: playable
+  multiplayer:
+  - Online
+  - Competitive
+  - Hotseat
+  repo: https://sourceforge.net/projects/scorched3d/
   type: clone
-  updated: 2015-04-06
+  updated: 2022-02-03
   url: http://www.scorched3d.co.uk/
+  images:
+  - https://a.fsdn.com/con/app/proj/scorched3d/screenshots/6702.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/scorched3d/screenshots/8943.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/scorched3d/screenshots/6704.jpg/max/max/1
+  video:
+    youtube: qyf8sghZOZ0
 
 - name: SCSharp
   lang:
