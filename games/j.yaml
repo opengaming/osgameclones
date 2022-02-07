@@ -238,7 +238,7 @@
   lang:
   - C
   license:
-  - Custom
+  - GPL2
   development: halted
   originals:
   - Shadow Warrior
@@ -247,6 +247,23 @@
   type: remake
   updated: 2020-08-25
   url: http://www.jonof.id.au/jfsw
+
+- name: JonoF's Witchaven Port
+  originals:
+  - Witchaven
+  type: remake
+  repo: 'https://github.com/jonof/jfwhaven'
+  development: halted
+  status: unplayable
+  content: commercial
+  lang:
+  - C
+  framework:
+  - SDL2
+  license:
+  - As-is
+  info: A WIP incomplete port of Witchaven using JFBuild.
+  updated: 2022-02-08
 
 - name: JOverflow
   lang:
