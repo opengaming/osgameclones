@@ -157,14 +157,21 @@
   - http://www.newbreedsoftware.com/fop/screenshots/fop-alpha.png
   lang:
   - C
+  framework:
+  - SDL
   license:
   - GPL2
-  development: sporadic
+  content: open
+  development: complete
   originals:
   - Dandy
-  repo: ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz
-  type: remake
-  updated: 2015-04-07
+  - Gauntlet
+  status: playable
+  multiplayer:
+  - Co-op
+  - Local
+  type: similar
+  updated: 2022-02-15
   url: http://www.newbreedsoftware.com/fop/
 
 - name: Flappy Bird TIC Edition
