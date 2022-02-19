@@ -45,8 +45,7 @@ function handleContentChanged() {
 
 // gallery handling
 (function() {
-  var onclick = function(ev) {
-    var t = ev.target;
+  var toggleGallery = function(t) {
     var gallery = t.parentNode.getElementsByClassName('gallery')[0];
     var raw = t.parentNode.getElementsByClassName('gallery-raw')[0];
     var show_now = gallery.style.display == 'none';
@@ -59,10 +58,15 @@ function handleContentChanged() {
   };
 
   document.body.addEventListener('click', function(ev) {
-      if (!ev.target || !ev.target.matches("span.toggler")) return;
+    if (!ev.target || !ev.target.matches("span.toggler")) return;
 
-      onclick(ev);
+    toggleGallery(ev.target);
   })
+
+  var visibleTogglers = document.querySelectorAll('span.toggler.visible');
+  for (var i = 0; i < visibleTogglers.length; i++) {
+    toggleGallery(visibleTogglers[i]);
+  }
 })();
 
 // search handling
