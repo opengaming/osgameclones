@@ -62,7 +62,7 @@
   {{ show_keywords_names(meta.names_ascii) }}
 {%- endmacro %}
 
-{% macro render_clone(names, meta, game, show_details) %}
+{% macro render_clone(names, meta, game, show_details, expand_gallery) %}
   <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
     {%- set show_gallery = show_details and ('images' in game or 'video' in game) -%}
     <dd class="searchable {% if game.new %}new{% endif %}"
@@ -78,7 +78,7 @@
         data-index="{{ show_keywords(game, names, meta) }}"
         data-updated="{{ game.updated }}"
     >
-      <span class="{% if show_gallery %}toggler{% else %}notoggler{% endif %}">&#x25b6;</span>
+      <span class="{% if show_gallery %}toggler {% if expand_gallery %}visible{% endif %}{% else %}notoggler{% endif %}">&#x25b6;</span>
       {%- if 'url' in game -%}
         <a href="{{ game['url'] }}" itemprop="url"><span itemprop="name">{{ game['name'] }}</span></a>
       {%- else -%}
@@ -112,23 +112,28 @@
         <div itemprop="description">{{ game['info'] }}</div>
       {% endif %}
       {% if show_gallery %}
-        <div class="gallery" style="display: none"></div>
+        <div class="gallery" style="display: none;"></div>
         {% if game['images'] | length > 0 -%}
           <script class="gallery-json" data-game="{{ game['name'] }}" type="text/json">
             {{- game['images'] | join(', ') -}}
           </script>
         {% endif %}
         <script class="gallery-raw" type="text/plain">
-          {% for imageUrl in game.get('images', []) %}
-            <img src="{{ imageUrl }}" itemprop="image" alt="{{ game['name'] }}">
-          {% endfor %}
-
           {% if 'video' in game %}
-            {% if 'youtube' in game['video'] %}{{ video.render_youtube(game['video']['youtube']) }}{% endif %}
-            {% if 'vimeo' in game['video'] %}{{ video.render_vimeo(game['video']['vimeo']) }}{% endif %}
-            {% if 'moddb' in game['video'] %}{{ video.render_moddb(game['video']['moddb']) }}{% endif %}
-            {% if 'indiedb' in game['video'] %}{{ video.render_indiedb(game['video']['indiedb']) }}{% endif %}
+            {% if 'youtube' in game['video'] %}{{ video.render_youtube(game['name'], game['video']['youtube']) }}{% endif %}
+            {% if 'vimeo' in game['video'] %}{{ video.render_vimeo(game['name'], game['video']['vimeo']) }}{% endif %}
+            {% if 'moddb' in game['video'] %}{{ video.render_moddb(game['name'], game['video']['moddb']) }}{% endif %}
+            {% if 'indiedb' in game['video'] %}{{ video.render_indiedb(game['name'], game['video']['indiedb']) }}{% endif %}
           {%- endif %}
+
+          {% for imageUrl in game.get('images', []) %}
+            <a
+              href="{{ imageUrl }}"
+              data-fancybox="gallery-{{ game['name'] }}"
+            >
+              <img class="thumb" src="{{ imageUrl }}" itemprop="image" alt="{{ game['name'] }}">
+            </a>
+          {% endfor %}
         </script>
       {% endif %}
     </dd>
@@ -142,6 +147,6 @@
   {% endfor %}
 
   {% for clone in game.clones %}
-    {{ render_clone(game.names, game.meta, clone, show_details) }}
+    {{ render_clone(game.names, game.meta, clone, show_details, show_details) }}
   {% endfor %}
 {% endmacro %}

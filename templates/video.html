@@ -1,17 +1,25 @@
-{% macro render_youtube(youtube_id) -%}
-  <iframe src="https://www.youtube-nocookie.com/embed/{{ youtube_id }}?rel=0&amp;showinfo=0"
-    width="560" height="315" frameborder="0" allowfullscreen></iframe>
+{% macro render_video(game_name, video_url, img_url) -%}
+<a
+  data-type="iframe"
+  data-fancybox="gallery-{{ game_name }}"
+  href="{{ video_url }}"
+>
+  <i class="fa fa-play thumb thumb-icon" style="background-image: url('{{ img_url }}')"></i>
+</a>
 {%- endmacro %}
 
-{% macro render_vimeo(vimeo_id) -%}
-  <iframe src="https://player.vimeo.com/video/{{ vimeo_id }}?title=0&amp;byline=0&amp;portrait=0"
-    width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% macro render_youtube(game_name, youtube_id) -%}
+  {{ render_video(game_name, 'https://www.youtube-nocookie.com/embed/%s?rel=0&amp;showinfo=0' % youtube_id, 'https://img.youtube.com/vi/%s/0.jpg' % youtube_id) }}
 {%- endmacro %}
 
-{%- macro render_moddb(moddb_id) -%}
-<iframe width="560" height="315" src="https://www.moddb.com/media/iframe/{{ moddb_id }}" frameborder="0" allowfullscreen></iframe>
+{% macro render_vimeo(game_name, vimeo_id) -%}
+  {{ render_video(game_name, 'https://player.vimeo.com/video/%s?title=0&amp;byline=0&amp;portrait=0' % vimeo_id, 'https://vumbnail.com/%s.jpg' % vimeo_id) }}
 {%- endmacro %}
 
-{%- macro render_indiedb(indiedb_id) -%}
-  <iframe width="560" height="315" src="https://www.indiedb.com/media/iframe/{{ indiedb_id }}" frameborder="0" allowfullscreen></iframe>
+{%- macro render_moddb(game_name, moddb_id) -%}
+  {{ render_video(game_name, 'https://www.moddb.com/media/iframe/%s' % moddb_id, '/static/black.png') }}
+{%- endmacro %}
+
+{%- macro render_indiedb(game_name, indiedb_id) -%}
+  {{ render_video(game_name, 'https://www.indiedb.com/media/iframe/%s' % indiedb_id, '/static/black.png') }}
 {%- endmacro %}

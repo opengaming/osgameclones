@@ -44,7 +44,7 @@
   <h2>New and updated games</h2>
   <dl>
     {% for names, meta, clone in site.new_games.values() %}
-      {{ games.render_clone(names, meta, clone, true) }}
+      {{ games.render_clone(names, meta, clone, true, false) }}
     {% endfor %}
   </dl>
 </div>

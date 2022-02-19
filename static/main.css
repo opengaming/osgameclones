@@ -5,7 +5,21 @@ h1, h2, h3, h4, h5 { font-family: 'Ubuntu', 'Trebuchet MS', sans-serif; }
 pre, tt.literal { font: 0.8em Monaco, monospace; }
 pre { margin: 0 0 1em 1em; overflow: auto; }
 
-img { max-width: 500px; } /* Make all screenshots fit */
+.thumb {
+  position: relative;
+  max-height: 64px;
+  max-width: 96px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 32px;
+  text-align: center;
+  vertical-align: middle;
+}
+.fa.thumb-icon {
+  height: 64px;
+  width: 96px;
+  background-size: 96px 64px;
+  line-height: 64px;
+}
 .gallery a:hover { border: 0px; } /* Bye bye ugly blue border */
 
 /* No dots around clicked links */
