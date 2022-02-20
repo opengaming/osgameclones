@@ -883,17 +883,21 @@
   updated: 2020-08-25
   url: http://www.last-outpost.net/rpg-x/
 
-- name: rtype
+- name: Rtype
   lang:
   - C++
+  framework:
+  - SFML
   license:
   - As-is
+  content: open
   development: halted
   originals:
   - R-Type
+  status: unplayable
   repo: https://github.com/leurqum/Rtype
   type: remake
-  updated: 2015-04-07
+  updated: 2022-02-20
 
 - name: Ruby OMF 2097 Remake
   lang:
