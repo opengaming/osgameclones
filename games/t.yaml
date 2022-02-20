@@ -145,26 +145,28 @@
   type: remake
   updated: 2015-06-18
 
-- name: TES3MP
-  images:
-  - https://i2.wp.com/openmw.org/wp-content/uploads/2017/07/hA3oZhX.png
+  name: TES3MP
+  originals:
+  - 'The Elder Scrolls III: Morrowind'
+  type: remake
+  repo: 'https://github.com/TES3MP/openmw-tes3mp'
+  url: 'http://tes3mp.com/'
+  development: active
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: swappable
   lang:
   - C++
   license:
   - GPL3
-  development: halted
-  originals:
-  - 'The Elder Scrolls III: Morrowind'
-  repo: https://github.com/TES3MP/openmw-tes3mp
-  status: playable
-  type: remake
-  multiplayer:
-  - Online
-  url: http://tes3mp.com/
+  info: TES3MP is a project adding multiplayer functionality to OpenMW
+  updated: '2022-02-07'
+  images:
+  - 'https://i2.wp.com/openmw.org/wp-content/uploads/2017/07/hA3oZhX.png'
   video:
     youtube: aZZ0piRvI58
-  info: TES3MP is a project adding multiplayer functionality to OpenMW
-  updated: 2020-10-26
 
 - name: tetris
   images:
