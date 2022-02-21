@@ -78,13 +78,22 @@
 - name: QuakeSpasm
   lang:
   - C
+  framework:
+  - SDL
+  - SDL2
   license:
   - GPL2
+  content: swappable
   development: active
   originals:
   - Quake
+  status: playable
   repo: https://sourceforge.net/projects/quakespasm/
   type: remake
-  updated: 2020-08-25
+  updated: 2022-02-14
   url: http://quakespasm.sourceforge.net/
-
+  info: https://sourceforge.net/projects/quakespasm
+  images:
+  - https://a.fsdn.com/con/app/proj/quakespasm/screenshots/ad_1.png/max/max/1
+  - https://a.fsdn.com/con/app/proj/quakespasm/screenshots/spasm0000.png/max/max/1
+  - https://a.fsdn.com/con/app/proj/quakespasm/screenshots/spasm0000-2173.png/max/max/1
