@@ -154,18 +154,27 @@
 
 - name: Fight Or Perish
   images:
-  - http://www.newbreedsoftware.com/fop/screenshots/fop-alpha.png
+  - https://s.uvlist.net/l/y2010/12/78504.jpg
+  - https://s.uvlist.net/l/y2010/12/78505.jpg
   lang:
   - C
+  framework:
+  - SDL
   license:
   - GPL2
-  development: sporadic
+  content: open
+  development: halted
   originals:
   - Dandy
-  repo: ftp://ftp.tuxpaint.org/unix/x/fop/src/fop-0.5.tar.gz
-  type: remake
-  updated: 2015-04-07
+  - Gauntlet
+  status: playable
+  multiplayer:
+  - Co-op
+  - Local
+  type: clone
+  updated: 2022-02-15
   url: http://www.newbreedsoftware.com/fop/
+  info: A Dandy clone with Gauntlet influences. Choose from 8 classes and roam the maze taking treasure, vanquishing monters, and finding the exit. Use explosives against enemies and keys on locked doors.
 
 - name: Flappy Bird TIC Edition
   originals:
