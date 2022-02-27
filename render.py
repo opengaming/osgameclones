@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import html
+import json
 import os, os.path as op
 import shutil
 import functools
@@ -70,15 +71,11 @@ def render_all(target):
     render_to('index.html', f'{target}/index.html', site=site)
     for game in ctx().games:
         render_to('game.html', f'{target}/{game.slug}/index.html', site=site, game=game)
-        render_game_form(
-            "schema/originals.yaml", f"{target}/{game.slug}/edit.html", f"Edit {game.names[0]}", value=game.item
-        )
-    # Render edit clone forms
+        render_data(f"{target}/{game.slug}/data.json", game.item)
+    # Render data for edit game/clone forms
     clones = {clone["name"]: clone for game in ctx().games for clone in game.clones}
     for name, clone in clones.items():
-        render_game_form(
-            "schema/games.yaml", f"{target}/_clones/{slugify(name)}/edit.html", f"Edit {name}", value=clone
-        )
+        render_data(f"{target}/_clones/{slugify(name)}.json", clone)
 
 
 def normalize(text):
@@ -95,6 +92,12 @@ def render_game_form(schema: str, out_path: str, form_name: str, value=None):
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w") as f:
         f.write(renderer.render("", name=form_name, value=value, static_url="/_add_form"))
+
+
+def render_data(out_path: str, value):
+    Path(out_path).parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w") as f:
+        json.dump(value, f, indent=2, default=str)
 
 
 def main():

@@ -92,9 +92,43 @@
 <script src="{{ static_url }}/tagsinput/tagsinput.js"></script>
 <script src="{{ static_url }}/main.js"></script>
 <script>
-$(document).ready(function() {
+const getFormId = (keys) => (
+  keys.map(key => `[${key}]`).join('')
+);
+const setFormValue = (keys, value) => {
+  const formId = getFormId(keys);
+  if (typeof value === 'object') {
+    if (value.constructor === Array) {
+      for (const childValue of value) {
+        // Checkboxes
+        $(document.getElementById(`${formId}.${childValue}`)).prop('checked', true);
+        // Tagsinput
+        $(document.getElementById(formId)).tagsinput('add', childValue);
+      }
+    } else {
+      for (const [childKey, childValue] of Object.entries(value)) {
+        setFormValue([...keys, childKey], childValue);
+      }
+    }
+  } else {
+    // Radio
+    $(document.getElementById(`${formId}.${value}`)).prop('checked', true);
+    // Fill normal inputs
+    $(document.getElementById(formId)).val(value);
+  }
+};
+$(document).ready(() => {
   $('[data-toggle="tooltip"]').tooltip()
-})
+
+  // Load data from params if provided
+  const dataUrl = new URL(window.location.href).searchParams.get('data');
+  if (dataUrl) {
+    $.get(dataUrl, (data) => {
+      setFormValue([], data);
+      document.title = `Edit ${data.name} form`;
+    });
+  }
+});
 </script>
 </body>
 </html>
