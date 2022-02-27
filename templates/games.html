@@ -14,7 +14,7 @@
       {{ tags.render_tag_groups('subgenre', game.meta['subgenre']) }}
       {{ tags.render_tag_groups('theme', game.meta['theme']) }}
       {% if show_details %}
-        <a class="add-link" href="/{{ game.slug }}/edit.html" target="_blank"><i class="far fa-edit"></i>Edit</a>
+        <a class="add-link" href="/add_original.html?data=/{{ game.slug }}/data.json" target="_blank"><i class="far fa-edit"></i>Edit</a>
       {% endif %}
     {% endif %}
   </dt>
@@ -106,7 +106,7 @@
       {{ tags.render_tag_groups('license', game['license']) }}
       {{ tags.render_tag_groups('multiplayer', game['multiplayer']) if 'multiplayer' in game and show_details }}
       {% if show_details %}
-        <a class="add-link" href="/_clones/{{ game['name'] | slugify }}/edit.html" target="_blank"><i class="far fa-edit"></i>Edit</a>
+        <a class="add-link" href="/add_game.html?data=_clones/{{ game['name'] | slugify }}.json" target="_blank"><i class="far fa-edit"></i>Edit</a>
       {% endif %}
       {%- if 'info' in game and show_details %}
         <div itemprop="description">{{ game['info'] }}</div>
