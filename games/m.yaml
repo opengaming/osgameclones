@@ -347,26 +347,25 @@
   updated: 2016-03-16
   url: https://www.meridiannext.com
 
-name: Metaforce
-originals:
-- Metroid Prime
-type: remake
-repo: 'https://github.com/AxioDL/metaforce'
-url: 'https://axiodl.com/'
-development: active
-status: playable
-lang:
-- C++
-- Python
-- C
-license:
-- MIT
-info: engine only
-updated: '2022-03-01'
-images:
-- >-
-  https://github.com/AxioDL/metaforce/blob/main/assets/metaforce-screen1.png?raw=true
-
+- name: Metaforce
+  lang:
+  - C++
+  - Python
+  - C
+  license:
+  - MIT
+  development: active
+  originals:
+  - Metroid Prime
+  repo: 'https://github.com/AxioDL/metaforce'
+  type: remake
+  url: 'https://axiodl.com/'
+  status: playable
+  info: engine only
+  updated: '2022-03-01'
+  images:
+  - https://github.com/AxioDL/metaforce/blob/main/assets/metaforce-screen1.png?raw=true
+ 
 
 - name: mewl
   lang:
