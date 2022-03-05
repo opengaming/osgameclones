@@ -192,6 +192,14 @@ const checkHasImagesOrVideos = game => {
   }
 }
 
+const checkImagesAreHTTPS = game => {
+  for (const image of game.images || []) {
+    if (image.startsWith("http://")) {
+      warn(`🖼 HTTP image url found: ${image}. This may not work as osgameclones is HTTPS-only. Please replace with a HTTPS image URL, and check that it still works.`)
+    }
+  }
+}
+
 const checkHasStatus = game => {
   if (!game.status) {
     warn(`🕹️ ${game.name} has no "status" field. Please add so users know whether the game is playable!`)
@@ -207,6 +215,7 @@ const commonChecks = game => {
   checkFrameworkKnown(game)
   checkFrameworkUsesLang(game)
   checkHasImagesOrVideos(game)
+  checkImagesAreHTTPS(game)
   checkHasStatus(game)
 }
 
