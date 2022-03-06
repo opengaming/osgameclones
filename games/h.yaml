@@ -381,14 +381,31 @@
 - name: HoverRace
   lang:
   - C++
+  framework:
+  - SDL2
   license:
   - Custom
+  content: free
   development: active
   originals:
   - HoverRace
+  status: playable
+  multiplayer:
+  - Split-screen
+  - Online
+  - LAN
+  - Competitive
   repo: https://github.com/HoverRace/HoverRace
   type: remake
-  updated: 2015-04-08
+  updated: 2022-03-06
+  images:
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1862020/ss_6939f22b2c83bf1527090167d9a1dccb2bd250d1.600x338.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1862020/ss_5f4fc94d7a4810ee86be23218cbf66189cdd8e3b.600x338.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1862020/ss_3e1a3dc53f1381fcce7656a11fb94e44d86ea13e.600x338.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1862020/ss_32870f6ea689d44e730d068ea427e4e7113cfac5.600x338.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1862020/ss_27635ea5fdce9fadff9fa50fc61fea40479ac330.600x338.jpg
+  video:
+    youtube: cDnrJW-qMts
 
 - name: Hovertank 3D
   lang:
