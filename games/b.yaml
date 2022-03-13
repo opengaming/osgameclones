@@ -693,20 +693,27 @@
 
 - name: The Bub's Brothers
   images:
-  - http://bub-n-bros.sourceforge.net/images/extend.png
-  - http://bub-n-bros.sourceforge.net/images/crashed-down.png
-  - http://bub-n-bros.sourceforge.net/images/alone-in-the-world.png
-  - http://bub-n-bros.sourceforge.net/images/pacman.png
+  - https://s.uvlist.net/l/y2009/05/58346.jpg
+  - https://s.uvlist.net/l/y2009/05/58345.jpg
   lang:
   - Python
+  framework:
+  - pygame
   license:
   - MIT
+  content: free
   development: halted
   originals:
   - Bubble Bobble
-  repo: http://bub-n-bros.cvs.sourceforge.net/viewvc/bub-n-bros/
+  status: playable
+  multiplayer:
+  - Local
+  - Online
+  - Competitive
+  - Co-op
+  repo: https://sourceforge.net/projects/bub-n-bros/
   type: remake
-  updated: 2015-04-10
+  updated: 2022-03-13
   url: http://bub-n-bros.sourceforge.net/
 
 - name: BurgerSpace
