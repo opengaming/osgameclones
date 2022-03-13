@@ -315,6 +315,9 @@ def parse_data(site):
             clone['updated'] = datetime.strptime(clone['updated'], "%Y-%m-%d").date()
         if "status" not in clone:
             print(f"{clone['name']} has no status field")
+        for image in clone.get('images', []):
+            if image.startswith('http://'):
+                print(f"{clone['name']} {image=} is HTTP")
 
     oldest_games = sorted([(clone['name'], clone['updated']) for clone in clones if 'status' not in clone], key=lambda x: x[1])[:5]
     print(f"Oldest 5 games with no status: {oldest_games}")
