@@ -13,7 +13,7 @@ let namesRemoved = []
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 let unknownLanguageDetected = false
-const knownLanguages = Object.keys(require('linguist-languages'))
+const knownLanguages = Object.keys(require('linguist-languages')).concat(['Delphi'])
 
 let unknownFrameworkDetected = false
 const knownFrameworks = [
