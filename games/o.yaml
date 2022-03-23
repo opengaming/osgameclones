@@ -1483,9 +1483,7 @@
 
 - name: OpenMOO2
   images:
-  - http://openmoo2.org/static/20/main-screen-moo2-screenshot.png
-  - http://openmoo2.org/static/20/colonies-moo2-screenshot.png
-  - http://openmoo2.org/static/20/colony-moo2-screenshot.png
+  - https://www.pygame.org/thumb/01974f1641f002c1433af3fa02d550dd.jpg
   lang:
   - Python
   license:
@@ -1493,9 +1491,10 @@
   development: halted
   originals:
   - Master of Orion 2
+  status: unplayable
   repo: https://github.com/mimi1vx/openmoo2
   type: remake
-  updated: 2020-08-25
+  updated: 2022-03-23
 
 - name: OpenMortal
   images:
