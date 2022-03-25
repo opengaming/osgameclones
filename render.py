@@ -70,7 +70,14 @@ def render_all(target):
     site = ctx()
     render_to('index.html', f'{target}/index.html', site=site)
     for game in ctx().games:
-        render_to('game.html', f'{target}/{game.slug}/index.html', site=site, game=game)
+        render_to(
+            'game.html',
+            f'{target}/{game.slug}/index.html',
+            site=site,
+            game=game,
+            title=f"{game.names[0]} clones - OSGC",
+            description=f"List of open source clones and remakes for {game.names[0]}"
+        )
         render_data(f"{target}/{game.slug}/data.json", game.item)
     # Render data for edit game/clone forms
     clones = {clone["name"]: clone for game in ctx().games for clone in game.clones}

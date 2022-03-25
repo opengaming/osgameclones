@@ -1,7 +1,8 @@
 {%- import 'templates/common.html' as common with context %}
 {%- import 'templates/games.html' as games with context %}
 
-{{- common.head() }}
+{# TODO: pass keywords #}
+{{- common.head(title, None, description) }}
 {{ common.nav() }}
 
 <div id="content">
