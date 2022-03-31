@@ -6,7 +6,10 @@
 {{ common.nav() }}
 
 <div id="content">
-  <h2><a href="/">Back to list</a></h2>
+  <h2>
+    <a href="/">Back to list</a>
+    <a class="add-link" href="/add_game.html?original={{ game.names[0] | urlencode }}" target="_blank"><i class="far fa-edit"></i>Add Game</a>
+  </h2>
 
   <dl id="list">
     {{ games.render(game, true) }}

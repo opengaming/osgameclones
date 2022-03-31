@@ -121,12 +121,17 @@ $(document).ready(() => {
   $('[data-toggle="tooltip"]').tooltip()
 
   // Load data from params if provided
-  const dataUrl = new URL(window.location.href).searchParams.get('data');
+  const params = new URL(window.location.href).searchParams;
+  const dataUrl = params.get('data');
   if (dataUrl) {
     $.get(dataUrl, (data) => {
       setFormValue([], data);
       document.title = `Edit ${data.name} form`;
     });
+  }
+  const original = params.get('original');
+  if (original) {
+    setFormValue([], {'originals': [original]});
   }
 });
 </script>
