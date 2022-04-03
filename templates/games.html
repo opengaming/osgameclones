@@ -98,7 +98,7 @@
         )
       {%- endif %}
       {{ tags.render_tag_groups('type', game['type'] | title) if show_details }}
-      {{ tags.render_tag_groups('status', game['status'] | title) }}
+      {{ tags.render_tag_groups('status', game['status'] | title) if game['type'] != 'tool' }}
       {{ tags.render_tag_groups('development', game['development'] | title) }}
       {{ tags.render_tag_groups('lang', game['lang']) }}
       {{ tags.render_tag_groups('framework', game['framework']) if show_details }}
