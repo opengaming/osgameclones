@@ -76,6 +76,22 @@
     - Action
     - Adventure
 
+- name: Resident Evil
+  external:
+    wikipedia: Resident Evil (1996 video game)
+  platform:
+  - DS
+  - PlayStation
+  - Saturn
+  - Windows
+  meta:
+    genre:
+    - Action
+    subgenre:
+    - Survival
+    theme:
+    - Horror
+
 - name: Resident Evil 2
   names:
   - BIOHAZARD 2
@@ -88,6 +104,22 @@
   - PlayStation
   - Windows
   meta:
+    subgenre:
+    - Survival
+    theme:
+    - Horror
+
+- name: 'Resident Evil 3: Nemesis'
+  external:
+    wikipedia: 'Resident Evil 3: Nemesis'
+  platform:
+  - Dreamcast
+  - GameCube
+  - PlayStation
+  - Windows
+  meta:
+    genre:
+    - Action
     subgenre:
     - Survival
     theme:
