@@ -291,18 +291,24 @@
 
 - name: GNU FreeDink
   images:
+  - https://www.gnu.org/software/freedink/screenshots/freedink-mk.jpg
+  - https://www.gnu.org/software/freedink/screenshots/freshmeat-67192.png
   - https://www.gnu.org/software/freedink/screenshots/freedink-1.07_2007-12-10.jpg
   - https://www.gnu.org/software/freedink/screenshots/freedink-1.08_2008-07-31.jpg
   lang:
   - C
+  framework:
+  - SDL2
   license:
   - GPL3
-  development: sporadic
+  content: open
+  development: complete
   originals:
   - Dink Smallwood
+  status: playable
   repo: http://git.savannah.gnu.org/cgit/freedink.git
   type: remake
-  updated: 2015-04-11
+  updated: 2022-04-04
   url: https://www.gnu.org/software/freedink/
 
 - name: Gods Deluxe
