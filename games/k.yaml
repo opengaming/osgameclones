@@ -163,36 +163,6 @@
   type: remake
   updated: 2020-08-31
 
-- name: KKnD
-  type: remake
-  originals:
-  - Krush, Kill 'n' Destroy
-  url: https://www.kknd-game.com/
-  development: sporadic
-  status: semi-playable
-  lang:
-  - C#
-  license:
-  - GPL3
-  content: free
-  info: KKnD is built on top of OpenRA engine
-  updated: 2020-08-25
-    
-- name: OpenKKnD
-  type: remake
-  originals:
-  - Krush, Kill 'n' Destroy
-  repo: https://github.com/gp-alex/OpenKKND
-  development: sporadic
-  status: semi-playable
-  lang:
-  - C++
-  license:
-  - GPL3
-  content: free
-  info: Based on original executable decompilation
-  updated: 2020-03-20
-
 - name: KnightOfWor
   lang:
   - Java
