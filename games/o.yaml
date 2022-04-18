@@ -1313,6 +1313,43 @@
   video:
     youtube: 5CXqWdbWrVs
 
+- name: OpenKKnD
+  type: remake
+  originals:
+  - Krush, Kill 'n' Destroy
+  repo: https://github.com/gp-alex/OpenKKND
+  development: halted
+  status: semi-playable
+  lang:
+  - C++ 
+  license:
+  - GPL3
+  content: free
+  info: Based on original executable decompilation
+  updated: 2022-04-18
+
+- name: OpenKrush
+  type: remake
+  originals:
+  - Krush, Kill 'n' Destroy
+  repo: https://github.com/IceReaper/OpenKrush
+  development: active
+  status: semi-playable
+  lang:
+  - C#
+  license:
+  - GPL3
+  framework:
+  - OpenRA
+  content: free
+  info: OpenRA mod
+  updated: 2022-05-01
+  url: https://www.kknd-game.com/about
+  images:
+  - https://media.moddb.com/images/mods/1/38/37924/OpenRA-2018-12-16T105029073Z.png
+  video:
+    youtube: 3UBOrp5YK6Q
+
 - name: OpenLara
   lang:
   - C++
