@@ -724,19 +724,24 @@
 
 - name: 'Project: Xenocide'
   lang:
-  - C++
+  - C#
+  framework:
+  - XNA
   license:
-  - GPL2
+  - MIT
+  content: commercial
   development: halted
   originals:
   - 'X-COM: UFO Defense'
   - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
   - 'UFO: Enemy Unknown'
-  repo: http://xenocide.cvs.sourceforge.net/viewvc/xenocide/
+  status: unplayable
   type: clone
-  updated: 2015-04-11
-  url: https://sourceforge.net/projects/xenocide/
+  updated: 2022-04-23
+  repo: https://github.com/astyanax/Project-Xenocide
+  video:
+    youtube: 0WZ4k61o0Kc
 
 - name: ProjectX
   images:
