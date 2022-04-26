@@ -635,16 +635,16 @@
   development: active
   status: semi-playable
   originals:
-  - 'X-COM: UFO Defense'
-  - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
   content: commercial
   framework:
   - SDL2
   repo: https://github.com/OpenApoc/OpenApoc
   type: remake
-  updated: 2019-07-24
+  updated: 2022-05-03
   url: http://openapoc.org/
+  images:
+  - https://i.imgur.com/CFS3nBK.png
   video:
     youtube: qMy4dYksZVg
 
@@ -2265,15 +2265,16 @@
 
 - name: OpenXcom
   images:
-  - http://openxcom.org/wp-content/gallery/v1-0/00_mainmenu.png
-  - http://openxcom.org/wp-content/gallery/v1-0/01_globe.png
-  - http://openxcom.org/wp-content/gallery/v1-0/04_inventory.png
-  - http://openxcom.org/wp-content/gallery/v1-0/07_pathpreview.png
+  - https://web.archive.org/web/20211231021730if_/https://openxcom.org/wp-content/gallery/v1-0/00_mainmenu.png
+  - https://web.archive.org/web/20211231023450if_/https://openxcom.org/wp-content/gallery/v1-0/01_globe.png
+  - https://web.archive.org/web/20211231021349if_/https://openxcom.org/wp-content/gallery/v1-0/04_inventory.png
+  - https://web.archive.org/web/20211231024034if_/https://openxcom.org/wp-content/gallery/v1-0/07_pathpreview.png
   info: EU and TftD fully playable, feature complete, now development focus on bug fix
   lang:
   - C++
   license:
   - GPL3
+  content: commercial
   development: active
   originals:
   - 'X-COM: UFO Defense'
@@ -2282,7 +2283,9 @@
   status: playable
   type: remake
   url: https://openxcom.org/
-  updated: 2020-04-09
+  video:
+    youtube: oxlRQGnGaDo
+  updated: 2022-05-03
 
 - name: OpenXRay
   originals:
