@@ -602,22 +602,19 @@
 
 - name: SLASH'EM
   images:
-  - http://www.slashem.org/3ddrag.png
-  - http://www.slashem.org/32tour.png
-  - http://www.slashem.org/fireball.png
-  - http://www.slashem.org/trad-tty.png
+  - https://i0.wp.com/www.linuxlinks.com/wp-content/uploads/2017/12/Screenshot-SlashEM.png
   lang:
   - C
   license:
   - NGPL
   development: halted
   originals:
-  - Hack
-  - Rogue
   - NetHack
-  repo: http://slashem.cvs.sourceforge.net/viewvc/slashem/
+  status: playable
+  info: SLASH'EM (SuperLotsaAddedStuffHack - Extended Magic) is a variant of Nethack.
+  repo: https://sourceforge.net/projects/slashem/
   type: clone
-  updated: 2015-04-11
+  updated: 2022-05-02
   url: http://www.slashem.org/
 
 - name: Slime Volleyball
