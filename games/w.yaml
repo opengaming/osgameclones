@@ -213,7 +213,7 @@
     youtube: cmS1sXWN4pE
 
 - name: wbt
-  type: remake
+  type: clone
   originals:
   - Tempest
   repo: https://github.com/awlzac/wbt
@@ -224,7 +224,9 @@
   license:
   - As-is
   content: free
-  updated: 2019-06-05
+  updated: 2022-05-27
+  images:
+  - https://lh3.ggpht.com/O0313eHvoYWtkWxyJ20OwEUkokDeFTbvfQCxh_dDnACCgybCbhPpIQwzkAgtYq9gPg=w300
 
 - name: wbta
   info: Android
@@ -232,12 +234,16 @@
   - Java
   license:
   - As-is
+  content: free
   development: halted
+  status: playable
   originals:
   - Tempest
   repo: https://github.com/awlzac/wbta
-  type: remake
-  updated: 2015-04-12
+  type: clone
+  updated: 2022-05-27
+  images:
+  - https://lh3.ggpht.com/O0313eHvoYWtkWxyJ20OwEUkokDeFTbvfQCxh_dDnACCgybCbhPpIQwzkAgtYq9gPg=w300
 
 - name: WebFun
   development: active
