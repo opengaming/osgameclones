@@ -472,6 +472,26 @@
   content: commercial
   updated: 2020-01-07
 
+- name: Chrono Trigger C
+  originals:
+  - Chrono Trigger
+  type: remake
+  repo: 'https://github.com/AandersonL/Chrono-Trigger-C'
+  development: halted
+  status: unplayable
+  content: commercial
+  lang:
+  - C
+  framework:
+  - SDL2
+  license:
+  - As-is
+  info: 'A simple remake of Chrono Trigger written in C, using the SDL API'
+  updated: 2022-06-01
+  images:
+  - >-
+    https://raw.githubusercontent.com/AandersonL/Chrono-Trigger-C/master/Resourcers/chrono.png
+
 - name: Chronoshift
   lang:
   - C++
