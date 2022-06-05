@@ -14,7 +14,7 @@ def main():
         if p.is_file() and p.suffix == ".yaml":
             games = yaml.safe_load(open(p, encoding="utf-8"))
             for game in games:
-                for framework in game.get("framework", []):
+                for framework in game.get("frameworks", []):
                     c[framework] += 1
                     for lang in game.get("lang", []):
                         framework_langs[framework][lang] += 1

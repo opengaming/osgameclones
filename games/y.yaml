@@ -1,7 +1,7 @@
 - name: Yamagi Quake II
   lang:
   - C
-  framework:
+  frameworks:
   - SDL2
   - Vulkan
   - OpenGL
@@ -28,7 +28,7 @@
   status: playable
   lang:
   - C#
-  framework:
+  frameworks:
   - Godot
   license:
   - MIT
@@ -55,7 +55,7 @@
   content: open
   lang:
   - Python
-  framework:
+  frameworks:
   - Panda3D
   license:
   - CC-BY-SA

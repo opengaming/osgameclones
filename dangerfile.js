@@ -163,11 +163,11 @@ const checkLanguageKnown = game => {
 }
 
 const checkFrameworkKnown = game => {
-  if (!game.framework) return
-  const unknownFrameworks = game.framework.filter(l => !knownFrameworks.includes(l))
+  if (!game.frameworks) return
+  const unknownFrameworks = game.frameworks.filter(l => !knownFrameworks.includes(l))
   if (unknownFrameworks.length) {
     warn(
-      `🌇 ${game.name} contains "${unknownFrameworks}" as framework, which is not known by us. ` +
+      `🌇 ${game.name} contains "${unknownFrameworks}" as frameworks, which is not known by us. ` +
       `Please check for spelling errors.`
     )
     unknownFrameworkDetected = true
@@ -175,8 +175,8 @@ const checkFrameworkKnown = game => {
 }
 
 const checkFrameworkUsesLang = game => {
-  if (!game.framework) return
-  const commonFrameworks = game.framework.filter(framework => Object.keys(frameworkLangs).includes(framework))
+  if (!game.frameworks) return
+  const commonFrameworks = game.frameworks.filter(frameworks => Object.keys(frameworkLangs).includes(frameworks))
   commonFrameworks.forEach(framework => {
     const langs = frameworkLangs[framework]
     if (!game.lang || game.lang.filter(lang => langs.includes(lang)).length === 0) {

@@ -196,7 +196,7 @@ def parse_items(site, item, key):
         'status',
         'development',
         'lang',
-        'framework',
+        'frameworks',
         'content',
         'license',
         'multiplayer',
