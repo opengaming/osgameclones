@@ -191,7 +191,7 @@ def parse_items(site, item, key):
     if not getattr(site, key, False):
         setattr(site, key, [])
 
-    meta_tags = ['genres', 'subgenre', 'theme']
+    meta_tags = ['genres', 'subgenres', 'theme']
     game_tags = [
         'status',
         'development',
@@ -207,7 +207,7 @@ def parse_items(site, item, key):
     meta["names_ascii"] = parse_unicode(names(item))
     meta["external"] = item.get('external', {})
     parse_global_tags(site, meta, 'genres', item['name'])
-    parse_global_tags(site, meta, 'subgenre', item['name'])
+    parse_global_tags(site, meta, 'subgenres', item['name'])
     parse_global_tags(site, meta, 'theme', item['name'])
 
     parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)

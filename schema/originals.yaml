@@ -36,7 +36,7 @@ schema;meta:
       sequence:
         - include: genres
           unique: True
-    subgenre:
+    subgenres:
       type: seq
       sequence:
         - include: subgenres

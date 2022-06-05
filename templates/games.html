@@ -11,7 +11,7 @@
     <a href="{{ link }}">{{ name }}</a>
     {% if first %}
       {{ tags.render_tag_groups('genres', game.meta['genres']) }}
-      {{ tags.render_tag_groups('subgenre', game.meta['subgenre']) }}
+      {{ tags.render_tag_groups('subgenres', game.meta['subgenres']) }}
       {{ tags.render_tag_groups('theme', game.meta['theme']) }}
       {% if show_details %}
         <a class="add-link" href="/add_original.html?data=/{{ game.slug }}/data.json" target="_blank"><i class="far fa-edit"></i>Edit</a>
