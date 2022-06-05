@@ -31,7 +31,7 @@ sequence:
 schema;meta:
   type: map
   mapping:
-    genre:
+    genres:
       type: seq
       sequence:
         - include: genres

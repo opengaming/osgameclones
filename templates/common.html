@@ -68,8 +68,8 @@
         <span class="nav-btn">Genres</span>
         <div class="tag-group">
           <div class="container">
-            {% for tag, tag_props in site.genre.items() %}
-            {{ tags.render_tag('genre', tag, tag_props['tag_count']) }}
+            {% for tag, tag_props in site.genres.items() %}
+            {{ tags.render_tag('genres', tag, tag_props['tag_count']) }}
             {% endfor %}
           </div>
         </div>

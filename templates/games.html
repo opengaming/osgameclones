@@ -10,7 +10,7 @@
   <dt {% if first %}id="{{ show_id(name) }}"{% endif %} class="searchable">
     <a href="{{ link }}">{{ name }}</a>
     {% if first %}
-      {{ tags.render_tag_groups('genre', game.meta['genre']) }}
+      {{ tags.render_tag_groups('genres', game.meta['genres']) }}
       {{ tags.render_tag_groups('subgenre', game.meta['subgenre']) }}
       {{ tags.render_tag_groups('theme', game.meta['theme']) }}
       {% if show_details %}
