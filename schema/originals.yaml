@@ -20,10 +20,10 @@ sequence:
           wikipedia:
             type: str
             desc: Title of Wikipedia article
-      platform:
+      platforms:
         type: seq
         sequence:
-           - include: platform
+           - include: platforms
              unique: True
       meta:
         include: meta
@@ -48,7 +48,7 @@ schema;meta:
           unique: True
 
 
-schema;platform:
+schema;platforms:
   type: str
   enum: [
     '3DS',
