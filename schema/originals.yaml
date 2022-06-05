@@ -41,7 +41,7 @@ schema;meta:
       sequence:
         - include: subgenres
           unique: True
-    theme:
+    themes:
       type: seq
       sequence:
         - include: themes
