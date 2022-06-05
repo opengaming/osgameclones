@@ -1,7 +1,7 @@
 - name: l-echo
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -17,11 +17,11 @@
   - https://icculus.org/LAB3D/captur04.png
   - https://icculus.org/LAB3D/captur02.png
   - https://icculus.org/LAB3D/captur03.png
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL
-  license:
+  licenses:
   - Custom
   content: free
   development: halted
@@ -42,11 +42,11 @@
   development: halted
   status: playable
   content: free
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - Custom
   info: >-
     This is an enhanced version of LAB3D-SDL which includes hi-res texture support
@@ -61,9 +61,9 @@
 
 - name: Ladder
   info: (source inside JAR file)
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - GPL2
   originals:
   - Ladder
@@ -75,9 +75,9 @@
 - name: ladder
   images:
   - https://raw.githubusercontent.com/SmallRoomLabs/ladder/master/images/GameRunning1.png
-  lang:
+  langs:
   - Go
-  license:
+  licenses:
   - MIT
   development: active
   originals:
@@ -89,9 +89,9 @@
 - name: LastNinja
   images:
   - http://lastninja.sourceforge.net/images/lvl1.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -103,11 +103,11 @@
   url: http://lastninja.sourceforge.net/
 
 - name: LastTry
-  framework:
+  frameworks:
   - LibGDX
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - MIT
   development: halted
   originals:
@@ -122,9 +122,9 @@
   type: remake
   repo: https://github.com/2point21/lba1-classic-community
   status: unplayable
-  lang:
+  langs:
     - Assembly
-  license:
+  licenses:
     - GPL2
   content: commercial
   info: >-
@@ -138,9 +138,9 @@
   type: remake
   repo: https://github.com/2point21/lba2-classic-community
   status: unplayable
-  lang:
+  langs:
     - Assembly
-  license:
+  licenses:
     - GPL2
   content: commercial
   info: >-
@@ -156,12 +156,12 @@
   development: very active
   status: semi-playable
   content: commercial
-  lang:
+  langs:
   - TypeScript
-  framework:
+  frameworks:
   - three.js
   - React
-  license:
+  licenses:
   - MIT
   updated: 2020-11-24
   images:
@@ -180,9 +180,9 @@
   development: sporadic
   status: playable
   content: open
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   info: >-
     LBreakoutHD is a scaleable 16:9 remake of LBreakout2. You try to clear levels
@@ -196,13 +196,13 @@
   - 'http://lgames.sourceforge.net/LBreakoutHD/ss2.jpg'
 
 - name: The Legend Of Zelda - Navi's Quest
-  framework:
+  frameworks:
   - SDL
   images:
   - http://www.zeldaroth.fr/images/nsq/s1.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   development: complete
   originals:
@@ -221,10 +221,10 @@
   - https://thenerdstash.com/wp-content/uploads/2021/11/Legend-of-Zelda-Ocarina-of-Time-Decompile.jpg
   development: active
   status: playable
-  license:
+  licenses:
   - As-is
   content: commercial
-  lang:
+  langs:
   - C
   updated: '2021-12-12'
 
@@ -233,9 +233,9 @@
   - http://www.zeldaroth.fr/images/olb/s1.JPG
   - http://www.zeldaroth.fr/images/olb/s5.JPG
   - http://www.zeldaroth.fr/images/olb/s10.JPG
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   development: complete
   originals:
@@ -247,9 +247,9 @@
 - name: The Legend Of Zelda - Picross
   images:
   - http://www.zeldaroth.fr/images/picross/s1.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   development: complete
   originals:
@@ -263,9 +263,9 @@
   - http://www.zeldaroth.fr/images/roth/s14.png
   - http://www.zeldaroth.fr/images/roth/s1.png
   - http://www.zeldaroth.fr/images/roth/s13.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   development: complete
   originals:
@@ -279,9 +279,9 @@
   - http://www.zeldaroth.fr/images/3t/s1.png
   - http://www.zeldaroth.fr/images/3t/s12.png
   - http://www.zeldaroth.fr/images/3t/s6.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   development: complete
   originals:
@@ -291,11 +291,11 @@
   url: http://www.zeldaroth.fr/us/z3t.php
 
 - name: legion
-  framework:
+  frameworks:
   - Irrlicht
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - Custom
   development: halted
   originals:
@@ -311,9 +311,9 @@
   repo: https://github.com/bsoja/LegionGame
   development: sporadic
   status: unplayable
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - GPL3
   content: open
   updated: 2019-03-21
@@ -327,9 +327,9 @@
   images:
   - https://raw.githubusercontent.com/tomsoftware/Lemmings.ts/master/docu/examples/demo_01.png
   - https://raw.githubusercontent.com/tomsoftware/Lemmings.ts/master/docu/examples/demo_02.png
-  lang:
+  langs:
   - TypeScript
-  license:
+  licenses:
   - MIT
   development: active
   originals:
@@ -342,9 +342,9 @@
 - name: Lemmini
   images:
   - http://lemmini.de/lemmini_screenshot_win.png
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - Apache
   development: active
   originals:
@@ -356,9 +356,9 @@
   url: http://lemmini.de/
 
 - name: Lemmix
-  lang:
+  langs:
   - Delphi
-  license:
+  licenses:
   - Custom
   development: halted
   originals:
@@ -372,9 +372,9 @@
   images:
   - http://lgames.sourceforge.net/LGeneral/ss0.jpg
   - http://lgames.sourceforge.net/LGeneral/ss1.jpg
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -394,11 +394,11 @@
   development: halted
   status: unplayable
   content: commercial
-  lang:
+  langs:
   - C#
-  framework:
+  frameworks:
   - Unity
-  license:
+  licenses:
   - MIT
   updated: 2020-08-25
   images:
@@ -409,11 +409,11 @@
   - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/nice_sc_scene.png
   - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/F-22.png
   - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/face.png
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -426,7 +426,7 @@
   info: Tools to parse and render Origin Systems RealSpace engine assets.
 
 - name: Librelancer
-  framework:
+  frameworks:
   - OpenGL
   images:
   - https://librelancer.net/assets/images/slideshow1.jpeg
@@ -434,9 +434,9 @@
   - https://librelancer.net/assets/images/slideshow3.jpeg
   - https://librelancer.net/assets/images/slideshow4.jpeg
   - https://librelancer.net/assets/images/slideshow5.jpeg
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - MIT
   development: active
   status: semi-playable
@@ -448,7 +448,7 @@
   url: https://librelancer.net/
 
 - name: LibreMines
-  framework:
+  frameworks:
   - Qt
   images:
   - https://raw.githubusercontent.com/Bollos00/LibreMines/master/share/Screenshots/Screenshot0.png
@@ -460,9 +460,9 @@
   - https://raw.githubusercontent.com/Bollos00/LibreMines/master/share/Screenshots/Screenshot6.png
   - https://raw.githubusercontent.com/Bollos00/LibreMines/master/share/Screenshots/Screenshot7.png
   - https://raw.githubusercontent.com/Bollos00/LibreMines/master/share/Screenshots/Screenshot8.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   status: playable
@@ -482,9 +482,9 @@
   development: active
   status: semi-playable
   content: open
-  lang:
+  langs:
   - Python
-  license:
+  licenses:
   - Custom
   info: >-
     A project to create a libre game data replacement for the Quake engine, based
@@ -495,7 +495,7 @@
   updated: 2021-08-25
 
 - name: Librerama
-  framework:
+  frameworks:
   - Godot
   images:
   - https://codeberg.org/Yeldham/librerama/raw/branch/master/export/screenshots/punchbag_wallop.png
@@ -504,9 +504,9 @@
   - https://codeberg.org/Yeldham/librerama/raw/branch/master/export/screenshots/neo_highway.png
   - https://codeberg.org/Yeldham/librerama/raw/branch/master/export/screenshots/anagogic_clock.png
   - https://codeberg.org/Yeldham/librerama/raw/branch/master/export/screenshots/void_avoider.png
-  lang:
+  langs:
   - GDScript
-  license:
+  licenses:
   - GPL3
   development: active
   status: playable
@@ -523,9 +523,9 @@
   - http://lincity.sourceforge.net/screenshots/power.png
   - http://lincity.sourceforge.net/screenshots/power+pollution.png
   - http://lincity.sourceforge.net/screenshots/fire.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: halted
   status: playable
@@ -540,11 +540,11 @@
   images:
   - http://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/Lincity-ng-2.0.png
   - http://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/NewSolar.png
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL
-  license:
+  licenses:
   - GPL2
   development: halted
   status: playable
@@ -560,9 +560,9 @@
 - name: LinWarrior
   images:
   - http://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - Apache
   development: halted
   originals:
@@ -581,9 +581,9 @@
   - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/1.png
   - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/2.png
   - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/3.png
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -594,11 +594,11 @@
   url: http://www.b3dgs.com/
 
 - name: Lix
-  framework:
+  frameworks:
   - Allegro
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - CC0
   development: halted
   originals:
@@ -613,14 +613,14 @@
 
 - name: LixD
   development: active
-  framework:
+  frameworks:
   - Allegro
   images:
   - http://www.lixgame.com/img/lix-d-screenshot.png
   info: Updated port of Lix to D and Allegro 5
-  lang:
+  langs:
   - D
-  license:
+  licenses:
   - CC0
   multiplayer:
   - Online
@@ -643,11 +643,11 @@
   development: complete
   status: playable
   content: open
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL
-  license:
+  licenses:
   - GPL2
   updated: '2019-12-04'
   images:
@@ -658,7 +658,7 @@
     youtube: pSdXftkK7M0
 
 - name: Lode Runner - Total Recall
-  license:
+  licenses:
   - As-is
   development: active
   originals:
@@ -675,11 +675,11 @@
   repo: 'https://github.com/Ma-Pe-Ma/Lode-Runner-2020'
   development: sporadic
   status: playable
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - GLFW
-  license:
+  licenses:
   - MIT
   content: commercial
   images:
@@ -690,11 +690,11 @@
   updated: 2022-01-04
 
 - name: Lose Your Marbles
-  lang:
+  langs:
   - JavaScript
-  framework:
+  frameworks:
   - Phaser
-  license:
+  licenses:
   - MIT
   development: halted
   originals:
@@ -712,19 +712,19 @@
   development: sporadic
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
   - 'C#'
-  framework:
+  frameworks:
   - Allegro
-  license:
+  licenses:
   - Apache
   updated: 2022-01-06
 
 - name: LTJS
-  framework:
+  frameworks:
   - SDL2
-  lang:
+  langs:
   - C++
   development: sporadic
   status: unplayable
@@ -732,18 +732,18 @@
   - No One Lives Forever 2
   repo: https://github.com/bibendovsky/ltjs
   type: remake
-  license:
+  licenses:
   - As-is
   content: commercial
   updated: 2022-02-15
 
 - name: lttp-phaser
-  framework:
+  frameworks:
   - WebGL
   - Phaser
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - MIT
   development: active
   originals:
@@ -753,9 +753,9 @@
   updated: 2020-08-31
 
 - name: Lugaru
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: active
   originals:
@@ -766,9 +766,9 @@
   url: https://osslugaru.gitlab.io
 
 - name: luminesk5
-  lang:
+  langs:
   - Objective-C
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -785,9 +785,9 @@
   repo: https://github.com/SaxxonPike/roton
   development: halted
   status: playable
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - ISC
   updated: 2020-06-26
   video:
@@ -802,11 +802,11 @@
   development: active
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - Custom
   info: >-
     An enhanced version of ECWolf with extra features and more graphical

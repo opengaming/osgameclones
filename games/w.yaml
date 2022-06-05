@@ -6,9 +6,9 @@
   development: halted
   status: playable
   content: commercial
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - MIT
   info: A source port for World Builder engine games.
   updated: 2022-04-06
@@ -25,11 +25,11 @@
   multiplayer: 
     - Online
     - LAN
-  lang:
+  langs:
     - Kotlin
-  framework:
+  frameworks:
     - LibGDX
-  license:
+  licenses:
     - Apache
   content: open
   info: Clone of beta
@@ -46,11 +46,11 @@
   development: complete
   status: playable
   content: open
-  lang:
+  langs:
   - Haxe
-  framework:
+  frameworks:
   - Starling
-  license:
+  licenses:
   - GPL3
   info: Besides being playable on the development website, the game is available as a bookmarklet that lets it masquerade
     as a pop-up ad on most commercial websites.
@@ -68,11 +68,11 @@
   development: sporadic
   status: semi-playable
   content: commercial
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - OpenGL
-  license:
+  licenses:
   - Zlib
   updated: '2020-07-24'
   images:
@@ -93,9 +93,9 @@
   development: halted
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   info: 'Source of original game, given away for free'
   updated: '2020-09-16'
@@ -111,9 +111,9 @@
 
 - name: warcraft-remake
   development: active
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - GPL3
   content: commercial
   originals:
@@ -127,10 +127,10 @@
   - https://www.b3dgs.com/v7/projects/warcraft_remake/screens/9.png
 
 - name: Wargus
-  lang:
+  langs:
   - C++
   - Lua
-  license:
+  licenses:
   - GPL2
   content: commercial
   development: active
@@ -143,11 +143,11 @@
   info: Wargus is a Warcraft2 Mod that allows you to play Warcraft2 with the Stratagus engine.
 
 - name: Wario-Land-3
-  framework:
+  frameworks:
   - pygame
-  lang:
+  langs:
   - Python
-  license:
+  licenses:
   - MIT
   development: active
   originals:
@@ -159,9 +159,9 @@
 - name: WarMUX
   images:
   - https://lgdb.org/sites/default/files/node_images/29/160.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -178,9 +178,9 @@
   - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/artillery-and-sensors.jpeg
   - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/new-hq-and-powergen.jpeg
   - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: active
   originals:
@@ -191,11 +191,11 @@
   updated: 2018-10-06
 
 - name: WAtomic
-  framework:
+  frameworks:
   - Kylix
-  lang:
+  langs:
   - Delphi
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -219,9 +219,9 @@
   repo: https://github.com/awlzac/wbt
   development: halted
   status: playable
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - As-is
   content: free
   updated: 2022-05-27
@@ -230,9 +230,9 @@
 
 - name: wbta
   info: Android
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - As-is
   content: free
   development: halted
@@ -250,9 +250,9 @@
   images:
   - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/game-start.png
   - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/game-fight.png
-  lang:
+  langs:
   - TypeScript
-  license:
+  licenses:
   - MIT
   content: commercial
   originals:
@@ -272,11 +272,11 @@
   development: halted
   status: playable
   content: commercial
-  lang:
+  langs:
   - JavaScript
-  framework:
+  frameworks:
   - WebGL
-  license:
+  licenses:
   - GPL2
   info: HTML5/WebGL source port of Quake
   updated: 2021-11-10
@@ -290,11 +290,11 @@
   - http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Atlantean%20worker%20animation.jpg
   - http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/New%20Multiplayer%20UI.jpg
   - http://wl.widelands.org/wlmedia/wlscreens/screens/Build%2016/Graphic%20improvements.png
-  lang:
+  langs:
   - C++
   - Lua
   - Python
-  license:
+  licenses:
   - GPL2
   development: active
   status: playable
@@ -309,9 +309,9 @@
   updated: 2021-11-20
 
 - name: Willow-Game-Remake
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -328,10 +328,10 @@
   feed: 'https://github.com/LagoLunatic/wwrando/releases.atom'
   development: sporadic
   content: commercial
-  lang:
+  langs:
   - Python
   - Assembly
-  license:
+  licenses:
   - MIT
   info: >-
     It randomizes all the items in the game so that each playthrough is unique and
@@ -347,9 +347,9 @@
   - https://a.fsdn.com/con/app/proj/winwar/screenshots/orc1linux.jpg/1
   - https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt2.jpg/1
   - https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt3.jpg/1
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - As-is
   content: commercial
   originals:
@@ -361,14 +361,14 @@
 
 - name: Witch Blast
   development: halted
-  framework:
+  frameworks:
   - SFML
   images:
   - http://img11.hostingpics.net/pics/927609screenshot20151029203852.png
   - http://img11.hostingpics.net/pics/267990screenshot20151029113142.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   - CC-BY-NC-SA
   content: open
@@ -390,11 +390,11 @@
   development: active
   status: playable
   content: commercial
-  lang:
+  langs:
   - Java
-  framework:
+  frameworks:
   - LibGDX
-  license:
+  licenses:
   - Custom
   updated: '2020-01-07'
   video:
@@ -404,9 +404,9 @@
   images:
   - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/SShot_WL05_ActiveEffect.png
   - http://wl.lariennalibrary.com/uploads/Main/ScreenShot/v04_combat.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -417,15 +417,15 @@
   url: http://wl.lariennalibrary.com/
 
 - name: Wizznic!
-  framework:
+  frameworks:
   - SDL
   images:
   - http://a.fsdn.com/con/app/proj/wizznic/screenshots/lvl0.png
   - http://a.fsdn.com/con/app/proj/wizznic/screenshots/271261.jpg
   - http://a.fsdn.com/con/app/proj/wizznic/screenshots/edit.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL3
   - Multiple
   development: active
@@ -438,9 +438,9 @@
   url: http://wizznic.org
 
 - name: wkbre
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -456,9 +456,9 @@
   repo: https://github.com/francot514/Wolf3dX
   development: active
   status: playable
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - GPL2
   info: Monogame implementation remake that works with any game version.
   updated: 2020-03-23
@@ -474,11 +474,11 @@
   development: halted
   status: playable
   content: commercial
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL
-  license:
+  licenses:
   - GPL2
   info: Vanilla-style port of Wolfenstein 3D into SDL
   updated: 2021-11-09
@@ -497,9 +497,9 @@
   development: complete
   status: playable
   content: open
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   info: Word War vi is a retro-styled old school side scrolling shooter reminiscent of Defender or Scramble, with an "Emacs vs. vi" theme.
   updated: 2019-09-12
@@ -512,9 +512,9 @@
     youtube: 9VaW2NVxpVg
 
 - name: WWW
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -532,11 +532,11 @@
   development: halted
   status: playable
   content: open
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - wxWidgets
-  license:
+  licenses:
   - GPL2
   info: wxLaserTank is a wxWidgets conversion of Laser Tank
   updated: '2020-09-28'

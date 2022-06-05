@@ -1,14 +1,14 @@
 - name: C-Dogs SDL
   feed: http://cxong.github.io/cdogs-sdl/feed.xml
-  framework:
+  frameworks:
   - SDL2
   images:
   - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/1.png
   - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/2.png
   - https://raw.github.com/cxong/cdogs-sdl/master/wiki/images/thumbs/3.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - BSD2
   - GPL2
   content: open
@@ -31,9 +31,9 @@
   - http://www.c-evo.org/shot2.jpg
   - http://www.c-evo.org/shot3.jpg
   - http://www.c-evo.org/shot4.jpg
-  lang:
+  langs:
   - Delphi
-  license:
+  licenses:
   - PD
   originals:
   - Civilization II
@@ -44,10 +44,10 @@
   url: http://www.c-evo.org/
 
 - name: c64-nuclearreaction
-  lang:
+  langs:
   - C
   - Assembly
-  license:
+  licenses:
   - GPL3
   originals:
   - Nuclear Reaction
@@ -59,9 +59,9 @@
   development: halted
   images:
   - http://jotd.pagesperso-orange.fr/cadaver/cadaver_remake_pic.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   content: commercial
   originals:
@@ -74,10 +74,10 @@
 
 - name: CaesarIA
   info: most of original game works, except war logic
-  lang:
+  langs:
   - C++
   - JavaScript
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -89,10 +89,10 @@
   url: https://bitbucket.org/dalerank/caesaria/wiki/Home
 
 - name: Cannon Fodder
-  license:
+  licenses:
   - As-is
   content: commercial
-  lang:
+  langs:
   - JavaScript
   development: halted
   originals:
@@ -104,9 +104,9 @@
 
 - name: Cannonball
   development: active
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - MAME
   content: commercial
   originals:
@@ -118,9 +118,9 @@
   url: https://reassembler.blogspot.com/
 
 - name: Carnage3D
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - MIT
   development: active
   status: unplayable
@@ -143,11 +143,11 @@
   development: complete
   status: playable
   content: free
-  lang:
+  langs:
   - AGS Script
-  framework:
+  frameworks:
   - Adventure Game Studio
-  license:
+  licenses:
   - MIT
   info: Source code to CartLife
   updated: '2020-11-18'
@@ -159,10 +159,10 @@
     youtube: lCjq7X_9wNs
 
 - name: Castle of the Winds in Elm
-  lang:
+  langs:
   - Elm
   - JavaScript
-  license:
+  licenses:
   - MIT
   development: active
   originals:
@@ -176,9 +176,9 @@
   images:
   - http://www.linux-games.com/castle-combat/shot1.png
   - http://www.linux-games.com/castle-combat/shot2.png
-  lang:
+  langs:
   - Python
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -194,11 +194,11 @@
   - https://cdn.cloudflare.steamstatic.com/steam/apps/517930/ss_16407973a1fc0347cbd718f1ea6ed10595fbf41e.600x338.jpg?t=1472936580
   - https://cdn.cloudflare.steamstatic.com/steam/apps/517930/ss_5d33c3e4afcb7f9de7e52e345a3e8d597d9447a5.600x338.jpg?t=1472936580
   - https://cdn.cloudflare.steamstatic.com/steam/apps/517930/ss_9b2b10d1ea1bfe0d8ed5137e59348e6096cabc68.600x338.jpg?t=1472936580
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL3
   content: commercial
   development: complete
@@ -216,15 +216,15 @@
   info: open source reimplementation of the original 1984 Commodore 64 game by Ed Hobbs
 
 - name: 'Cataclysm: Dark Days Ahead'
-  framework:
+  frameworks:
   - ncurses
   images:
   - http://en.cataclysmdda.com/assets/drive.png
   - http://en.cataclysmdda.com/assets/status.png
-  lang:
+  langs:
   - C++
   - Lua
-  license:
+  licenses:
   - CC-BY-SA
   development: active
   originals:
@@ -245,11 +245,11 @@
   development: active
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - OpenGL
-  license:
+  licenses:
     - GPL3
   info: CatacombGL is a Windows source port with OpenGL graphics for the 1992 game The Catacomb Abyss.
   updated: 2019-10-02
@@ -260,9 +260,9 @@
 
 - name: CatacombSDL
   development: halted
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   content: commercial
   originals:
@@ -280,9 +280,9 @@
   url: https://dogballs.github.io/cattle-bity/
   development: complete
   status: playable
-  lang:
+  langs:
   - TypeScript
-  license:
+  licenses:
   - MIT
   content: commercial
   updated: 2020-05-01
@@ -293,15 +293,15 @@
   - https://i.imgur.com/aamkvUB.png
 
 - name: CaveExpress
-  framework:
+  frameworks:
   - SDL
   images:
   - http://www.caveproductions.org/images/screenshots/mainmenu.jpg
   - http://www.caveproductions.org/images/screenshots/angry-dino.jpg
   - http://www.caveproductions.org/images/screenshots/multi-packages.jpg
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -313,14 +313,14 @@
   url: http://www.caveproductions.org/
 
 - name: CavePacker
-  framework:
+  frameworks:
   - SDL
   images:
   - http://www.caveproductions.org/images/screenshots/cavepacker-01.png
   - http://www.caveproductions.org/images/screenshots/cavepacker-02.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -333,10 +333,10 @@
 
 - name: cc94
   development: active
-  lang:
+  langs:
   - C++
   - Python
-  license:
+  licenses:
   - AGPL3
   content: commercial
   originals:
@@ -349,11 +349,11 @@
 - name: CCCP
   development: active
   status: playable
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - Allegro
-  license:
+  licenses:
   - AGPL3
   content: commercial
   originals:
@@ -375,9 +375,9 @@
   url: http://tradestar.datarealms.com/games.html
   development: complete
   status: playable
-  lang: 
+  langs: 
   - C++
-  license: 
+  licenses: 
   - AGPL3
   content: commercial
   updated: 2022-05-07
@@ -396,12 +396,12 @@
   development: sporadic
   status: playable
   content: free
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL
   - SDL2
-  license:
+  licenses:
   - As-is
   info: A port of Celeste Classic for 3DS and Windows
   updated: '2021-10-20'
@@ -409,9 +409,9 @@
   - 'https://raw.githubusercontent.com/lemon-sherbet/ccleste/master/screenshot.png'
 
 - name: chainreaction
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - LGPL3
   originals:
   - Nuclear Reaction
@@ -422,13 +422,13 @@
 
 - name: Chariot
   development: halted
-  framework:
+  frameworks:
   - SDL2
   images:
   - https://cloud.githubusercontent.com/assets/20009343/16906794/daccd474-4c71-11e6-90ec-6821e5797b5c.png
-  lang:
+  langs:
   - Rust
-  license:
+  licenses:
   - MIT
   content: commercial
   originals:
@@ -444,9 +444,9 @@
   - https://www.chocolate-doom.org/wiki/images/6/6b/Chocolate-aod-doom.png
   - https://www.chocolate-doom.org/wiki/images/e/e3/Chocolate-batman-doom.png
   - https://www.chocolate-doom.org/wiki/images/d/d5/Obituary.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: active
   status: playable
@@ -467,11 +467,11 @@
   repo: https://github.com/fabiensanglard/chocolate_duke3D
   development: halted
   status: playable
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL
-  license:
+  licenses:
   - Custom
   content: commercial
   updated: 2020-01-07
@@ -484,11 +484,11 @@
   development: halted
   status: unplayable
   content: commercial
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - As-is
   info: 'A simple remake of Chrono Trigger written in C, using the SDL API'
   updated: 2022-06-01
@@ -497,9 +497,9 @@
     https://raw.githubusercontent.com/AandersonL/Chrono-Trigger-C/master/Resourcers/chrono.png
 
 - name: Chronoshift
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -513,9 +513,9 @@
   images:
   - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-title.gif
   - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-game.gif
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: complete
   originals:
@@ -526,11 +526,11 @@
   url: http://www.newbreedsoftware.com/circus-linux/
 
 - name: Citadel
-  lang:
+  langs:
   - C#
-  framework:
+  frameworks:
   - Unity
-  license:
+  licenses:
   - As-is
   content: free
   originals:
@@ -557,9 +557,9 @@
   development: active
   status: semi-playable
   content: open
-  lang:
+  langs:
   - Rust
-  license:
+  licenses:
   - AGPL3
   updated: 2019-11-14
   images:
@@ -568,9 +568,9 @@
     youtube: 5YIwHN1vRYk
 
 - name: Civ-Remake
-  lang:
+  langs:
   - Ruby
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -587,18 +587,18 @@
   development: active
   status: unplayable
   content: commercial
-  lang:
+  langs:
   - C#
-  framework:
+  frameworks:
   - .NET
-  license:
+  licenses:
   - GPL3
   updated: '2021-03-21'
 
 - name: 'Civilization: Call To Power 2 Source Project'
-  license:
+  licenses:
   - Custom
-  lang:
+  langs:
   - C
   originals:
   - Call to Power II
@@ -609,9 +609,9 @@
 
 - name: CivOne
   development: active
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - CC0
   content: commercial
   originals:
@@ -629,11 +629,11 @@
   url: 'https://www.moddb.com/mods/classic-rbdoom-3-bfg-edition'
   development: sporadic
   content: commercial
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
     - GPL3
     - Custom
   info: Classic RBDoom 3 BFG is updating the classic DOOM engine inside DOOM 3 BFG Edition
@@ -656,11 +656,11 @@
   multiplayer:
   - Online
   content: open
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - OpenGL
-  license:
+  licenses:
   - BSD
   info: 'A complete re-implementation of Minecraft Classic, with optional additions.'
   updated: '2020-09-08'
@@ -671,9 +671,9 @@
     youtube: ufsasr0yqZk
     
 - name: 'ClassicUO'
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -701,11 +701,11 @@
   url: https://rohit.itch.io/clonepoint
   development: sporadic
   status: playable
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL3
   content: open
   updated: 2019-04-02
@@ -715,9 +715,9 @@
   - https://img.itch.zone/aW1hZ2UvMTcyMzAvMjE2NDA5LmdpZg==/original/3ejXxh.gif
 
 - name: Clumsy Bird
-  framework:
+  frameworks:
   - melonJS
-  license:
+  licenses:
   - MIT
   development: halted
   originals:
@@ -728,9 +728,9 @@
   url: https://ellisonleao.github.io/clumsy-bird/
 
 - name: coab
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - BSD
   development: sporadic
   originals:
@@ -746,11 +746,11 @@
   - https://aperture-software.github.io/colditz-escape/pics/screenshot2.png
   - https://aperture-software.github.io/colditz-escape/pics/screenshot3.png
   - https://aperture-software.github.io/colditz-escape/pics/screenshot4.png
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - OpenGL
-  license:
+  licenses:
   - GPL3
   content: free
   development: complete
@@ -771,11 +771,11 @@
   development: active
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SFML
-  license:
+  licenses:
   - Zlib
   images:
   - >-
@@ -790,11 +790,11 @@
   url: https://colobot.info/
   development: active
   status: playable
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL3
   content: open
   info: Updated version of the Colobot original source code
@@ -815,9 +815,9 @@
   repo: https://github.com/DanijelAskov/coloris
   images:
   - https://raw.githubusercontent.com/DanijelAskov/coloris/master/demo/gameplay.gif
-  license:
+  licenses:
   - As-is
-  lang:
+  langs:
   - Java
 
 - name: Command & Conquer - HTML5
@@ -828,9 +828,9 @@
   url: http://www.adityaravishankar.com/projects/games/command-and-conquer/
   development: halted
   status: playable
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - As-is
   content: free
   updated: 2019-05-24
@@ -844,9 +844,9 @@
   repo: https://github.com/pwiecz/command_series
   development: active
   status: playable
-  lang:
+  langs:
   - Go
-  license:
+  licenses:
   - GPL2
   updated: 2020-12-24
 
@@ -856,9 +856,9 @@
   - https://clonekeenplus.sourceforge.io/img/SecondplayerHelpsFirst.png
   - https://clonekeenplus.sourceforge.io/img/keenvga1.jpg
   - https://clonekeenplus.sourceforge.io/img/keendark.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   content: commercial
   status: playable
@@ -886,13 +886,13 @@
   - Online
   - LAN
   content: free
-  lang:
+  langs:
   - C++
   - JavaScript
-  framework:
+  frameworks:
   - Oxygine
   - Qt
-  license:
+  licenses:
   - LGPL3
   updated: '2022-05-15'
   images:
@@ -901,14 +901,14 @@
     youtube: JoRKQtoM0xE
 
 - name: CommandoJS
-  framework:
+  frameworks:
   - melonJS
   images:
   - http://i.imgur.com/e4ChdOL.png
-  lang:
+  langs:
   - JavaScript
   - CoffeeScript
-  license:
+  licenses:
   - MIT
   development: halted
   originals:
@@ -919,9 +919,9 @@
   updated: 2019-09-13
 
 - name: Contra_remake
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -934,9 +934,9 @@
     vimeo: 79514269
 
 - name: CookieClickerRemake
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - As-is
   development: active
   originals:
@@ -946,9 +946,9 @@
   updated: 2015-05-03
 
 - name: CookieCrunch
-  lang:
+  langs:
   - Swift
-  license:
+  licenses:
   - As-is
   development: sporadic
   originals:
@@ -961,7 +961,7 @@
   originals:
   - Wipeout
   status: playable
-  license:
+  licenses:
   - MIT
   - Multiple
   - GPL2
@@ -979,9 +979,9 @@
 - name: CorrinoEngine
   development: active
   status: unplayable
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - GPL3
   content: commercial
   originals:
@@ -994,16 +994,16 @@
 - name: CorsixTH
   development: active
   feed: https://github.com/CorsixTH/CorsixTH/releases.atom
-  framework:
+  frameworks:
   - SDL2
   images:
   - https://th.corsix.org/CorsixTH08.jpg
   - http://i.imgur.com/fYp148T.jpg
   info: time-based releases
-  lang:
+  langs:
   - C++
   - Lua
-  license:
+  licenses:
   - MIT
   content: commercial
   originals:
@@ -1017,9 +1017,9 @@
     youtube: rSN1p247J74
 
 - name: CosmicArk-Advanced
-  license:
+  licenses:
   - Custom
-  lang:
+  langs:
   - JavaScript
   originals:
   - Cosmic Ark
@@ -1034,11 +1034,11 @@
   repo: https://github.com/yuv422/cosmo-engine
   development: active
   status: playable
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL2
   content: commercial
   updated: 2020-06-14
@@ -1053,10 +1053,10 @@
   url: https://www.scottsmitelli.com/projects/cosmore
   development: active
   status: playable
-  lang:
+  langs:
   - C
   - Assembly
-  license:
+  licenses:
   - MIT
   content: commercial
   info: Reconstruction of the original source code, compiles under Turbo-C to an MS-DOS EXE
@@ -1065,13 +1065,13 @@
   - https://www.scottsmitelli.com/static-projects/cosmore.jpg
 
 - name: Cosmosmash
-  framework:
+  frameworks:
   - SDL
   images:
   - https://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: sporadic
   originals:
@@ -1085,9 +1085,9 @@
   images:
   - https://www.nongnu.org/crack-attack/gui-1.1.14-normal.png
   info: networking support
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -1108,12 +1108,12 @@
   status: playable
   multiplayer:
   - Online
-  lang:
+  langs:
   - C
   - Python
-  framework:
+  frameworks:
   - OpenGL
-  license:
+  licenses:
   - MIT
   content: open
   updated: 2019-03-25
@@ -1125,9 +1125,9 @@
     youtube: tScCneiTGm4
 
 - name: CrappyBird
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - MIT
   development: sporadic
   originals:
@@ -1140,11 +1140,11 @@
 - name: Crazy Cars
   images:
   - http://crazycarscpc.free.fr/images/crazy01.jpg
-  lang:
+  langs:
   - QuickBASIC
-  license:
+  licenses:
   - As-is
-  framework:
+  frameworks:
   - QB64
   originals:
   - Crazy Cars
@@ -1157,9 +1157,9 @@
   images:
   - http://crimson.seul.org/screenshots/screen17.png
   - http://crimson.seul.org/screenshots/screen18.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -1174,9 +1174,9 @@
   - https://crossuo.com/img/client.png
   - https://crossuo.com/img/intro-bg.jpg
   - https://crossuo.com/img/footer-bg.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -1195,9 +1195,9 @@
   - http://www.crownandcutlass.com/screenshots/images/CCNewMenu.png
   - http://www.crownandcutlass.com/screenshots/images/CCNewCities.png
   - http://www.crownandcutlass.com/screenshots/images/CCNavalBattle.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - BSD
   development: halted
   originals:
@@ -1208,11 +1208,11 @@
   url: http://www.crownandcutlass.com/
 
 - name: CrystalQuest
-  framework:
+  frameworks:
   - jQuery
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - MIT
   development: halted
   originals:
@@ -1231,11 +1231,11 @@
   development: halted
   status: playable
   content: free
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - As-is
   info: 'Based on disassembly, with many feature enhancements'
   updated: '2021-06-26'
@@ -1251,11 +1251,11 @@
   repo: https://github.com/gameblabla/CSE2
   development: halted
   status: playable
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - As-is
   content: free
   info: CSE2 is a decompiled engine from the original game, but dropped DirectX and ported to SDL2
@@ -1264,9 +1264,9 @@
   - https://raw.githubusercontent.com/gameblabla/CSE2/rs97/screenshot.png
 
 - name: Cubosphere
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -1285,11 +1285,11 @@
   development: very active
   status: semi-playable
   content: open
-  lang:
+  langs:
   - Java
-  framework:
+  frameworks:
   - LWJGL
-  license:
+  licenses:
   - GPL3
   updated: '2021-10-15'
   images:
@@ -1307,9 +1307,9 @@
   - http://cytadela.sourceforge.net/images/915.png
   - http://cytadela.sourceforge.net/images/923.png
   - http://cytadela.sourceforge.net/images/925.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: sporadic
   originals:
@@ -1328,11 +1328,11 @@
   development: active
   status: playable
   content: open
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL3
   updated: 2019-11-15
   images:

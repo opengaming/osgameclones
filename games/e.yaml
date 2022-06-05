@@ -1,9 +1,9 @@
 - name: earth-shaker
-  lang:
+  langs:
   - C#
-  framework:
+  frameworks:
   - Unity
-  license:
+  licenses:
   - As-is
   content: commercial
   development: halted
@@ -21,9 +21,9 @@
   - http://simianzombie.com/media/2011/05/2.png
   - http://simianzombie.com/media/2011/05/3.png
   info: Nintendo DS port
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - BSD
   content: commercial
   originals:
@@ -38,9 +38,9 @@
   images:
   - https://easyrpg.org/images/easyrpg-player.png
   info: 2000/2003 interpreter
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -56,11 +56,11 @@
   - https://a.fsdn.com/con/app/proj/etw/screenshots/172852.jpg
   - https://a.fsdn.com/con/app/proj/etw/screenshots/172854.jpg
   - https://a.fsdn.com/con/app/proj/etw/screenshots/172856.jpg
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL2
   development: sporadic
   originals:
@@ -81,9 +81,9 @@
   - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/67869.jpg
   - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/99925.jpg
   - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/90020.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -95,11 +95,11 @@
 - name: ECWolf
   images:
   - https://maniacsvault.net/ecwolf/ecwolf_fullres.png
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL2
   - BSD
   content: commercial
@@ -125,9 +125,9 @@
   development: active
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - LGPL3
   info: An open-source Tomb Raider 1 engine remake replicating the original gameplay
   updated: 2021-09-13
@@ -144,11 +144,11 @@
   development: very active
   repo: https://voidpoint.io/terminx/eduke32
   url: https://www.eduke32.com/
-  license:
+  licenses:
   - Custom
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL
   - SDL2
   - OpenGL
@@ -164,9 +164,9 @@
 - name: Elite remake
   images:
   - https://1.bp.blogspot.com/_zJ6-FHWQvDE/R0e_NhJFakI/AAAAAAAAACw/tgysRPXJfeU/s400/el-14.jpg
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -178,10 +178,10 @@
   info: Completely re-written AI, hard-coded 7 extra missions and added many other features
 
 - name: ElonaFoobar
-  lang:
+  langs:
   - C++
   - Lua
-  license:
+  licenses:
   - MIT
   development: active
   originals:
@@ -192,17 +192,17 @@
   updated: 2020-07-20
   content: commercial
   url: https://elonafoobar.com/en/
-  framework:
+  frameworks:
   - SDL2
 
 - name: EmptyEpsilon
   images:
   - http://daid.github.io/EmptyEpsilon/screenshots/mainscreen.png
   - http://daid.github.io/EmptyEpsilon/screenshots/helms.png
-  lang:
+  langs:
   - C++
   - Lua
-  license:
+  licenses:
   - GPL2
   multiplayer:
   - Online
@@ -215,15 +215,15 @@
   type: clone
   updated: 2019-08-01
   url: https://daid.github.io/EmptyEpsilon/
-  framework:
+  frameworks:
   - SFML
 
 - name: encounter
-  framework:
+  frameworks:
   - WebGL
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -240,9 +240,9 @@
   - https://endless-sky.github.io/screenshots/map.jpg
   - https://endless-sky.github.io/screenshots/plunder.jpg
   - https://endless-sky.github.io/screenshots/missions.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -261,9 +261,9 @@
   development: sporadic
   status: playable
   content: open
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - MIT
   updated: 2019-07-12
   images:
@@ -279,12 +279,12 @@
   development: active
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
   - Squirrel
-  framework:
+  frameworks:
   - SFML
-  license:
+  licenses:
   - MIT
   info: >-
     engge is an adventure game engine able to run Thimbleweed Park until the end, 
@@ -296,11 +296,11 @@
     youtube: 09VEPoX5SZk
 
 - name: Enigma
-  framework:
+  frameworks:
   - SDL
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: sporadic
   originals:
@@ -311,9 +311,9 @@
   url: https://www.nongnu.org/enigma/
 
 - name: Entombed!
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: complete
   originals:
@@ -333,23 +333,23 @@
   development: sporadic
   status: playable
   content: open
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
   - EnTT
-  license:
+  licenses:
   - MIT
-  info: An example of how to use the ECS part of the EnTT framework
+  info: An example of how to use the ECS part of the EnTT frameworks
   updated: 2019-07-11
   images:
   - https://i.imgur.com/J5RDcIz.png
 
 - name: erampage
   info: Based on EDuke32
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - Custom
   development: halted
   originals:
@@ -360,9 +360,9 @@
   url: http://www.jonhunt.com/redneck/erampage.html
 
 - name: Escalade
-  lang:
+  langs:
   - Scala
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -373,13 +373,13 @@
 
 - name: 'ET: Legacy'
   development: active
-  lang:
+  langs:
   - C
   - Lua
-  framework:
+  frameworks:
   - OpenGL
   - SDL2
-  license:
+  licenses:
   - GPL3
   content: commercial
   originals:
@@ -411,12 +411,12 @@
   - LAN
   - Co-op
   content: commercial
-  lang:
+  langs:
   - C++
   - C
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL3
   info: >-
     Eternity is an advanced DOOM source port maintained by James “Quasar” Haley,
@@ -431,9 +431,9 @@
 - name: Executive Man
   images:
   - https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - Custom
   development: active
   originals:
@@ -444,11 +444,11 @@
   url: https://henlin.net/ExecutiveMan/
 
 - name: EXILE
-  framework:
+  frameworks:
   - "L\xD6VE"
-  lang:
+  langs:
   - Lua
-  license:
+  licenses:
   - Custom
   development: halted
   originals:
@@ -461,11 +461,11 @@
 - name: Exolon
   images:
   - https://raw.githubusercontent.com/newagebegins/exolon/master/screenshot.gif
-  lang:
+  langs:
   - JavaScript
-  framework:
+  frameworks:
   - melonJS
-  license:
+  licenses:
   - MIT
   content: free
   development: sporadic
@@ -483,9 +483,9 @@
   - http://exult.sourceforge.net/images/screenshots/bgpaper.png
   - http://exult.sourceforge.net/images/screenshots/blackgate.png
   - http://exult.sourceforge.net/images/screenshots/teleportmap.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: active
   originals:
@@ -498,9 +498,9 @@
 - name: ezQuake
   images:
   - http://ezquake.sourceforge.net/gallery/armor_battle.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: active
   originals:

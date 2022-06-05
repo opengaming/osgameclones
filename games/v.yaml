@@ -3,9 +3,9 @@
   - https://media.indiedb.com/images/games/1/24/23884/post13_1_zps746064ba.png
   - https://media.indiedb.com/images/games/1/24/23884/post13_3_zpsfe75e66a.png
   - https://media.indiedb.com/images/games/1/24/23884/post12_1_zpseb05e85a.png
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - Custom
   development: halted
   originals:
@@ -16,7 +16,7 @@
   url: https://www.indiedb.com/games/van-buren-project
   feed: https://rss.indiedb.com/games/van-buren-project/articles/feed/rss.xml
   status: unplayable
-  framework:
+  frameworks:
   - NeoAxis Engine
 
 - name: Vangers
@@ -27,11 +27,11 @@
   development: active
   status: playable
   content: free
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL3
   info: Open source release of original game
   updated: '2020-09-14'
@@ -46,11 +46,11 @@
     youtube: 7QDNhZeQk-s
 
 - name: Vanilla-Conquer
-  lang:
+  langs:
   - C
   - C++
   - Assembly
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -66,9 +66,9 @@
   images:
   - http://www.vassalengine.org/images/screenshot1.png
   - http://www.vassalengine.org/images/screenshot2.png
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - LGPL2
   development: active
   originals:
@@ -86,9 +86,9 @@
   repo: https://github.com/pingw33n/vault13
   development: sporadic
   status: unplayable
-  lang:
+  langs:
   - Rust
-  license:
+  licenses:
   - GPL3
   content: commercial
   updated: 2020-08-25
@@ -99,7 +99,7 @@
 
 - name: VCMI
   development: active
-  framework:
+  frameworks:
   - SDL
   images:
   - http://68.media.tumblr.com/c69e06e5f17abaa58c9e636ea324f51d/tumblr_ot0p9i6KSl1v51b1so6_1280.png
@@ -108,9 +108,9 @@
   - http://68.media.tumblr.com/49a7111bd9d5f9e0f8209a6a1a11ca9f/tumblr_otz6d2vuIj1v51b1so3_1280.png
   - http://68.media.tumblr.com/bc8bd2e5b481a48f1b6b11a61106aa43/tumblr_otz6d2vuIj1v51b1so6_1280.png
   info: time-based releases
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   content: commercial
   originals:
@@ -129,11 +129,11 @@
   - https://www.mobygames.com/images/shots/l/326337-vectoroids-browser-screenshot-a-red-square-is-exploding-and.png
   - https://www.mobygames.com/images/shots/l/326338-vectoroids-browser-screenshot-shooting-some-small-asteroids.png
   - https://www.mobygames.com/images/shots/l/326339-vectoroids-browser-screenshot-new-enemies-will-appear-at-higher.png
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL
-  license:
+  licenses:
   - GPL2
   content: open
   development: complete
@@ -153,11 +153,11 @@
   feed: https://www.vega-strike.org/feed.xml
   development: active
   status: playable
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - OpenGL
-  license:
+  licenses:
   - GPL3
   content: open
   updated: 2020-08-31
@@ -169,9 +169,9 @@
 - name: Veloren
   images:
   - https://veloren.net/header2.png
-  lang:
+  langs:
   - Rust
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -188,14 +188,14 @@
   content: open
 
 - name: Veraball
-  framework:
+  frameworks:
   - Godot
   images:
   - http://i.imgur.com/uDY7tI4.jpg
   - http://i.imgur.com/4SsHUvQ.jpg
   - http://i.imgur.com/UWWdJZn.jpg
   - http://i.imgur.com/09oXtsO.jpg
-  license:
+  licenses:
   - MIT
   development: active
   originals:
@@ -208,9 +208,9 @@
   images:
   - http://violetland.github.io/images/screenshots/thumbnail/violetland-illumination-630x475.png
   - http://violetland.github.io/images/screenshots/thumbnail/violetland-flashlight-630x475.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   - CC-BY-SA
   development: active
@@ -223,9 +223,9 @@
   url: http://violetland.github.io/
 
 - name: viper
-  lang:
+  langs:
   - CoffeeScript
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -244,9 +244,9 @@
   status: playable
   multiplayer:
   - Online
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - Apache
   updated: 2021-02-09
   images:
@@ -264,18 +264,18 @@
   status: semi-playable
   multiplayer:
   - Online
-  lang:
+  langs:
   - Java
-  framework:
+  frameworks:
   - Netty.io
-  license:
+  licenses:
   - As-is
   updated: 2020-08-25
 
 - name: Visual Pinball
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - MAME
   development: active
   originals:
@@ -296,9 +296,9 @@
   repo: 'https://github.com/Rinnegatamante/vitaRTCW'
   development: sporadic
   content: commercial
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL3
   info: Return to Castle Wolfenstein port for PSVITA.
   updated: '2022-05-18'
@@ -326,9 +326,9 @@
   - Competitive
   - Online
   content: open
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - BSD2
   info: Virtual terminal *tris clone
   updated: 2019-08-29
@@ -338,11 +338,11 @@
   - http://victornils.net/tetris/img/vitetris031-tt-color-konsole.png
 
 - name: vkQuake
-  framework:
+  frameworks:
   - Vulkan
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: active
   originals:
@@ -356,9 +356,9 @@
   - http://vorton.sourceforge.net/shot2.png
   - http://vorton.sourceforge.net/shot3.png
   - http://vorton.sourceforge.net/shot5.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -369,9 +369,9 @@
   url: http://vorton.sourceforge.net/
 
 - name: Voxelands
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -385,9 +385,9 @@
   - http://voxelstein3d.sourceforge.net/screen1.png
   - http://voxelstein3d.sourceforge.net/screen3.png
   - http://voxelstein3d.sourceforge.net/screen5.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - MIT
   development: halted
   originals:
@@ -407,13 +407,13 @@
   development: very active
   status: playable
   content: commercial
-  lang:
+  langs:
   - ActionScript
   - C++
-  framework:
+  frameworks:
   - SDL2
   - Adobe AIR
-  license:
+  licenses:
   - Custom
   info: 'This is the source code to VVVVVV, version 2.0+.'
   updated: '2020-01-15'

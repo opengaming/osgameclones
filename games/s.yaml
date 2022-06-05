@@ -4,15 +4,15 @@
   - 'Grand Theft Auto: San Andreas'
   repo: https://github.com/GTA-ASM/SanAndreasUnity
   development: active
-  lang:
+  langs:
   - C#
   status: playable
   multiplayer:
   - Online
   - LAN
-  framework:
+  frameworks:
   - Unity
-  license:
+  licenses:
   - MIT
   content: commercial
   info: Open source recreation of GTA San Andreas in Unity
@@ -31,21 +31,21 @@
   url: https://sandspiel.club/
   development: sporadic
   content: open
-  lang:
+  langs:
   - Rust
   - JavaScript
-  framework:
+  frameworks:
   - WebGL
-  license:
+  licenses:
   - MIT
   updated: 2019-11-15
   images:
   - https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png
 
 - name: sccopter
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - MIT
   development: sporadic
   originals:
@@ -56,9 +56,9 @@
   updated: 2019-01-21
 
 - name: Scorched Moon
-  lang:
+  langs:
   - Python
-  license:
+  licenses:
   - GPL3
   development: sporadic
   originals:
@@ -68,12 +68,12 @@
   updated: 2020-08-25
 
 - name: Scorched3D
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL
   - OpenGL
-  license:
+  licenses:
   - GPL2
   content: open
   development: halted
@@ -96,9 +96,9 @@
     youtube: qyf8sghZOZ0
 
 - name: SCSharp
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - MIT
   development: halted
   originals:
@@ -118,11 +118,11 @@
   - https://www.scummvm.org/data/screenshots/sierra/pq3/pq3_amiga_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/revolution/sword1/sword1_win_en_1_1_full.png
   info: List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL2
   development: very active
   originals:
@@ -138,9 +138,9 @@
   - https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136705.jpg
   - https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/134775.jpg
   - https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136451.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -151,13 +151,13 @@
   url: http://sdl-asylum.sourceforge.net/
 
 - name: SDL Bomber
-  framework:
+  frameworks:
   - SDL
   images:
   - http://www.linuxmotors.com/linux/SDL_bomber/bomber.gif
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -169,15 +169,15 @@
   url: http://www.linuxmotors.com/linux/SDL_bomber/
 
 - name: SDL Sopwith
-  framework:
+  frameworks:
   - SDL
   images:
   - http://sdl-sopwith.sourceforge.net/sshot/title.png
   - http://sdl-sopwith.sourceforge.net/sshot/runway.png
   - http://sdl-sopwith.sourceforge.net/sshot/sopwith_metacity.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -189,9 +189,9 @@
   url: http://sdl-sopwith.sourceforge.net/
 
 - name: SDLPoP
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -209,11 +209,11 @@
   repo: https://github.com/DanJP2016/Sea-Wolf
   development: complete
   status: playable
-  lang:
+  langs:
   - JavaScript
-  framework:
+  frameworks:
   - Phaser
-  license:
+  licenses:
   - As-is
   content: free
   updated: 2019-05-09
@@ -226,11 +226,11 @@
   development: halted
   status: semi-playable
   content: free
-  lang:
+  langs:
   - Java
-  framework:
+  frameworks:
   - OpenGL
-  license:
+  licenses:
   - As-is
   info: 'Remake of old game Secret Agent (more weapons, better AI)'
   updated: '2021-09-12'
@@ -243,9 +243,9 @@
     https://a.fsdn.com/con/app/proj/secretagentremake/screenshots/sam4.png/max/max/1
 
 - name: The Secret Chronicles of Dr. M.
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -261,9 +261,9 @@
   - http://secretmaryo.org/images/screenshot/2.0/media/1.png
   - http://secretmaryo.org/images/screenshot/2.0/media/2.png
   - http://secretmaryo.org/images/screenshot/2.0/media/3.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -276,9 +276,9 @@
 - name: sensitive-js
   images:
   - https://raw.githubusercontent.com/bylexus/sensitive-js/master/screen-remake.png
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - ISC
   development: halted
   originals:
@@ -290,9 +290,9 @@
 - name: Serious-Sam-Android
   info: 'A port of Serious Sam: the Second Encounter to Android. There is also a fork
   for the Pandora.'
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   originals:
   - 'Serious Sam: the Second Encounter'
@@ -304,9 +304,9 @@
   updated: 2021-10-25
 
 - name: 'Seven Kingdoms: Ancient Adversaries'
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: active
   originals:
@@ -319,11 +319,11 @@
 - name: sfall
   development: active
   info: Needs full original game
-  lang:
+  langs:
   - C++
   - C
   - C#
-  license:
+  licenses:
   - GPL3
   content: commercial
   originals:
@@ -343,12 +343,12 @@
   development: halted
   status: unplayable
   content: commercial
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
   - OpenGL
-  license:
+  licenses:
   - GPL3
   info: SILENT HILL 3 Engine Remake in OpenGL and C++
   updated: '2020-12-03'
@@ -361,11 +361,11 @@
     https://4.bp.blogspot.com/-a-PRIyb1wl4/WLIv_inQPkI/AAAAAAAAAZk/5n5VFU5V1sk_YZd20LY44sGZQXLerl9qACLcB/s1600/output2.png
 
 - name: shadow-of-the-beast-html5
-  framework:
+  frameworks:
   - PandaJS
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - Apache
   development: active
   originals:
@@ -375,9 +375,9 @@
   updated: 2017-04-04
 
 - name: shadowgrounds
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - Custom
   development: halted
   originals:
@@ -388,9 +388,9 @@
 
 - name: Shining Force 2 Reverse Engineer (SF2RE)
   info: reverse engineering project
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - As-is
   development: sporadic
   originals:
@@ -400,11 +400,11 @@
   updated: 2015-05-10
 
 - name: Shining Soul Remake
-  framework:
+  frameworks:
   - pygame
-  lang:
+  langs:
   - Python
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -415,14 +415,14 @@
 
 - name: Shockolate
   development: active
-  framework:
+  frameworks:
   - SDL2
   images:
   - https://i.imgur.com/kbVWQj4.gif
   info: 'Needs game data from System Shock: Enhanced Edition'
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL3
   content: commercial
   originals:
@@ -435,9 +435,9 @@
 - name: 'Siege of Avalon : Open Source'
   images:
   - https://a.fsdn.com/con/app/proj/soaos/screenshots/114858.jpg/max/max/1
-  lang:
+  langs:
   - Delphi
-  license:
+  licenses:
   - Custom
   development: halted
   originals:
@@ -455,11 +455,11 @@
   repo: 'https://github.com/signus-game/signus'
   development: complete
   status: playable
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL2
   content: open
   info: Complete source port of the original game
@@ -475,9 +475,9 @@
   url: http://www.enhanced.townofsilenthill.com/SH2/
   development: active
   content: commercial
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   info: A project designed to enhance Silent Hill 2 graphics and audio for the PC.
   updated: 2019-11-15
@@ -491,9 +491,9 @@
   repo: https://github.com/riperiperi/Simitone
   development: sporadic
   status: semi-playable
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - MPL
   content: commercial
   info: Simitone is a singleplayer only version of FreeSO.
@@ -507,11 +507,11 @@
   development: sporadic
   status: unplayable
   content: commercial
-  lang:
+  langs:
   - C#
-  framework:
+  frameworks:
   - Unity
-  license:
+  licenses:
   - As-is
   updated: '2021-10-22'
   images:
@@ -522,11 +522,11 @@
   - https://www.simutrans.com/images/paksets/pak128.cs.png
   - https://www.simutrans.com/images/paksets/pak128.german.png
   - https://www.simutrans.com/images/paksets/pak64.png
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - Artistic
   development: very active
   originals:
@@ -542,14 +542,14 @@
     youtube: e8Wp7rxVg88
 
 - name: Sine
-  framework:
+  frameworks:
   - SFML
   images:
   - https://i.imgur.com/7W8ZdCS.png
   - https://i.imgur.com/IxtKdOS.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - MIT
   development: sporadic
   originals:
@@ -560,7 +560,7 @@
   updated: 2016-10-30
 
 - name: Skifree-HTML5-clone
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -570,9 +570,9 @@
   updated: 2015-06-18
 
 - name: skifree.js
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - Custom
   development: active
   originals:
@@ -589,9 +589,9 @@
   url: http://slade.mancubus.net/
   development: active
   content: swappable
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   info: SLADE3 is a modern editor for Doom-engine based games and source ports.
   updated: 2019-08-26
@@ -603,9 +603,9 @@
 - name: SLASH'EM
   images:
   - https://i0.wp.com/www.linuxlinks.com/wp-content/uploads/2017/12/Screenshot-SlashEM.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - NGPL
   development: halted
   originals:
@@ -618,9 +618,9 @@
   url: http://www.slashem.org/
 
 - name: Slime Volleyball
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - MIT
   images:
   - https://pixeldoctrine.com/img/slime-volleyball.png
@@ -641,9 +641,9 @@
     youtube: 3ckvPnatwPs
 
 - name: Slot-Racers
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -660,22 +660,22 @@
   development: sporadic
   status: playable
   content: commercial
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - OpenGL
-  license:
+  licenses:
   - As-is
   updated: '2021-07-08'
   video:
     youtube: iwBCFY7FqlU
 
 - name: snake
-  license:
+  licenses:
   - WTFPL
   images:
   - https://raw.githubusercontent.com/spypunk/snake/master/img/screenshot.png
-  lang:
+  langs:
   - Java
   development: active
   originals:
@@ -687,12 +687,12 @@
 
 - name: Snipes
   development: complete
-  framework:
+  frameworks:
   - SDL2
   info: reverse-engineered from original binary, aims for 100% logic compatibility with original game
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - Custom
   content: free
   originals:
@@ -709,10 +709,10 @@
   - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-02.png
   - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-03.png
   - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-04.png
-  lang:
+  langs:
   - C++
   - Lua
-  license:
+  licenses:
   - GPL3
   - CC-BY-SA
   development: active
@@ -732,9 +732,9 @@
   - http://pygame.org/shredwheat/solarwolf/screen/shot3.jpg
   - http://pygame.org/shredwheat/solarwolf/screen/shot4.jpg
   - http://pygame.org/shredwheat/solarwolf/screen/shot5.jpg
-  lang:
+  langs:
   - Python
-  license:
+  licenses:
   - LGPL2
   originals:
   - Solar Fox
@@ -754,9 +754,9 @@
   - Online
   - Competitive
   content: open
-  lang:
+  langs:
   - Rust
-  license:
+  licenses:
   - MIT
   updated: '2021-11-10'
   images:
@@ -770,11 +770,11 @@
   url: 'http://info.sonicretro.org/SA_Tools'
   development: active
   content: commercial
-  lang:
+  langs:
   - 'C#'
-  framework:
+  frameworks:
   - .NET
-  license:
+  licenses:
   - As-is
   info: >-
     SA Tools is a toolkit for modifying and extracting data from the Sonic
@@ -791,12 +791,12 @@
   - https://www.srb2.org/wp-content/uploads/gfz1st.png
   - https://www.srb2.org/wp-content/uploads/GFZ2.png
   - https://www.srb2.org/wp-content/uploads/gfz3knux.png
-  lang:
+  langs:
   - C
   - Lua
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL2
   content: free
   development: active
@@ -818,9 +818,9 @@
   development: active
   status: playable
   content: commercial
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - Custom
   updated: '2021-07-12'
   video:
@@ -835,11 +835,11 @@
   development: active
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - Custom
   info: based on decompilation of RSDK (Retro-Engine) version 3 or 4
   updated: '2021-07-22'
@@ -849,9 +849,9 @@
 - name: Sopwith 3
   images:
   - http://www.wingkong.net/sopwith2b/images/sop3_title.gif
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   originals:
   - Sopwith
@@ -867,11 +867,11 @@
   repo: https://github.com/sourcehold/Sourcehold
   development: active
   status: semi-playable
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - MIT
   content: commercial
   updated: 2020-08-31
@@ -887,12 +887,12 @@
   url: https://brunoaor.github.io/Space-Harrier-Clone/
   development: halted
   status: playable
-  lang:
+  langs:
   - C
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - MIT
   content: free
   updated: 2019-05-08
@@ -900,12 +900,12 @@
     youtube: IEfNoqLfxcs
 
 - name: Space Nerds In Space
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL2
   - OpenGL
-  license:
+  licenses:
   - GPL2
   content: open
   development: active
@@ -930,9 +930,9 @@
   status: playable
   multiplayer:
   - Online
-  lang:
+  langs:
   - 'C#'
-  license:
+  licenses:
   - MIT
   - CC-BY-SA
   - CC-BY-NC-SA
@@ -945,9 +945,9 @@
   - 'https://spacestation14.io/images/post/pr_29/monkey_murder.webp'
 
 - name: SpaceTwitch
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -967,11 +967,11 @@
   development: very active
   status: playable
   content: free
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - MIT
   info: Reverse engineering of 3D Pinball for Windows – Space Cadet
   updated: '2021-10-16'
@@ -979,11 +979,11 @@
     youtube: sAUu-Dl01OE
 
 - name: Space-rangers
-  framework:
+  frameworks:
   - XNA
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -993,11 +993,11 @@
   updated: 2015-05-28
 
 - name: spaceroads
-  framework:
+  frameworks:
   - OGRE
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -1012,9 +1012,9 @@
   - http://bringerp.free.fr/RE/Speedball2/Images/WIP%2004.png
   - http://bringerp.free.fr/RE/Speedball2/Images/WIP%2005.png
   info: reverse engineered prototype
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -1025,9 +1025,9 @@
   url: http://bringerp.free.fr/RE/Speedball2/remake.php5
 
 - name: splexhd
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -1048,9 +1048,9 @@
   - Online
   - LAN
   - Split-screen
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - GPL3
   content: open
   updated: 2020-08-25
@@ -1065,11 +1065,11 @@
   - http://springrts.com/screenshot.php?id=5673
   - http://springrts.com/screenshot.php?id=1787
   - http://springrts.com/screenshot.php?id=2567
-  lang:
+  langs:
   - C++
   - Java
   - Python
-  license:
+  licenses:
   - GPL2
   development: active
   originals:
@@ -1080,7 +1080,7 @@
   updated: 2018-10-06
 
 - name: 'Spring: 1944'
-  framework:
+  frameworks:
   - Spring RTS Engine
   images:
   - https://spring1944.net/media/media/large/Screenshot_20170630_122059.png
@@ -1088,9 +1088,9 @@
   - https://spring1944.net/media/media/large/Screenshot_20170630_113659.png
   - https://spring1944.net/media/media/large/Screenshot_20171112_215631.png
   info: Gameplay is a mix of Company of Heroes and Supreme Commander
-  lang:
+  langs:
   - Lua
-  license:
+  licenses:
   - GPL2
   - CC-BY-NC
   development: very active
@@ -1117,13 +1117,13 @@
   - 'X-COM: UFO Defense'
   repo: https://github.com/M-HT/SR
   development: active
-  lang:
+  langs:
   - C
   - Assembly
-  framework:
+  frameworks:
   - SDL
   - OpenGL
-  license:
+  licenses:
   - MIT
   - GPL2
   - LGPL2
@@ -1143,10 +1143,10 @@
   development: sporadic
   status: playable
   content: commercial
-  lang:
+  langs:
   - ReScript
   - Java
-  license:
+  licenses:
   - As-is
   info: A reverse-engineer port of the Nvidia Shield version of HL2.
   updated: 2021-10-13
@@ -1160,9 +1160,9 @@
   repo: 'https://github.com/ss13remake/ss13remake'
   development: halted
   content: open
-  lang:
+  langs:
   - 'C#'
-  license:
+  licenses:
   - CC-BY-SA
   - GPL3
   info: This is a defunct attempt at an SS13 remake
@@ -1170,18 +1170,18 @@
 
 - name: Star Ruler 2
   development: complete
-  lang:
+  langs:
   - C++
-  license: [MIT, CC-BY-NC]
+  licenses: [MIT, CC-BY-NC]
   originals: [Star Ruler 2]
   repo: https://github.com/BlindMindStudios/StarRuler2-Source
   type: remake
   updated: 2018-07-21
 
 - name: star-control2
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - MIT
   development: active
   originals:
@@ -1191,9 +1191,9 @@
   updated: 2016-04-11
 
 - name: Star-Wars-III
-  lang:
+  langs:
   - Python
-  license:
+  licenses:
   - GPL2
   development: complete
   originals:
@@ -1212,10 +1212,10 @@
   development: sporadic
   status: semi-playable
   content: commercial
-  lang:
+  langs:
   - Lua
   - C++
-  license:
+  licenses:
   - GPL2
   info: Starcraft Mod that allows you to play Starcraft with the Stratagus engine
   updated: '2019-12-16'
@@ -1227,9 +1227,9 @@
     youtube: vO4DxWZhqvc
 
 - name: Starlane Empire
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -1248,11 +1248,11 @@
   development: complete
   status: playable
   content: open
-  lang:
+  langs:
   - Scala
-  framework:
+  frameworks:
   - Phaser
-  license:
+  licenses:
   - GPL3
   info: >-
     StarMines is a space shooter inspired by old classics like Asteroids and Omega
@@ -1272,12 +1272,12 @@
   development: sporadic
   status: semi-playable
   content: open
-  license:
+  licenses:
   - CC-BY-SA
   - GPL2
-  lang:
+  langs:
   - C#
-  framework:
+  frameworks:
   - .NET
   updated: 2021-08-09
   images:
@@ -1286,9 +1286,9 @@
   - https://a.fsdn.com/con/app/proj/stars-nova/screenshots/265136.jpg/max/max/1
 
 - name: starshatter-open
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - BSD
   development: halted
   originals:
@@ -1304,10 +1304,10 @@
   - https://cdn.wcnews.com/newestshots/full/starshatter10.jpg
 
 - name: StepMania
-  lang:
+  langs:
   - C++
   - Lua
-  license:
+  licenses:
   - MIT
   - CC-BY-NC
   development: active
@@ -1327,11 +1327,11 @@
   development: active
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - DirectX
-  license:
+  licenses:
   - GPL3
   info: Open source engine for Sea Dogs / Pirates of the Caribbean games from Akella
   updated: '2021-03-26'
@@ -1343,14 +1343,14 @@
   originals:
   - Strife
   type: remake
-  license:
+  licenses:
   - GPL3
   repo: https://github.com/svkaiser/strife-ve
-  lang:
+  langs:
   - C
   - C++
   - Objective-C
-  framework:
+  frameworks:
   - SDL2
   status: playable
   content: commercial
@@ -1370,9 +1370,9 @@
   images:
   - https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR1.png
   - https://a.fsdn.com/con/app/proj/stuntcarremake/screenshots/SCR2.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - BSD
   development: halted
   originals:
@@ -1383,17 +1383,17 @@
   url: http://stuntcarracerwin32.bravesites.com
 
 - name: Stunt Rally
-  framework:
+  frameworks:
   - OGRE
   - VDrift Engine
   images:
   - https://lh3.googleusercontent.com/--nAX73WF5Q4/Ve70DV9pXfI/AAAAAAAAFXA/w3HmGY4-uj0ZiogxvwgVEWJXBQFf_clRwCHM/w1280/12.jpg
   - https://lh3.googleusercontent.com/-pJJgMyldewE/Ve70a0UMYqI/AAAAAAAAFYI/Hy_-d6Iqzk0PkTCzMEV2wo6WJHIOuBnVQCHM/w1280/19.jpg
   - https://lh3.googleusercontent.com/-U71R4-8BVD8/Ve70FGfuhyI/AAAAAAAAFXI/0EgsrSHgRMs-O1GBVCPumZ_Rejsw0qdQwCHM/w1280/11.jpg
-  lang:
+  langs:
   - C
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -1408,9 +1408,9 @@
 
 - name: stuntcarremake
   info: A port of Stunt Car Remake to OpenPandora and Linux.
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   development: active
   originals:
@@ -1421,9 +1421,9 @@
   updated: 2019-10-03
 
 - name: Styx
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   development: complete
   originals:
@@ -1439,10 +1439,10 @@
   - http://sumwars.org/mediawiki/images/0/08/Sumwars_0.5.5_mainmenu.jpg
   - http://sumwars.org/mediawiki/images/9/95/Sumwars_0.5.5_-Trading_a_bit.jpg
   - http://sumwars.org/mediawiki/images/5/5c/What_a_cute_skeleton_this_is%21.jpg
-  lang:
+  langs:
   - C++
   - Lua
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -1456,9 +1456,9 @@
   - https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/title_screen.png
   - https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/moveonship.png
   - https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/ship_cockpit.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - MIT
   development: sporadic
   originals:
@@ -1471,10 +1471,10 @@
   images:
   - https://a.fsdn.com/con/app/proj/sundog/screenshots/328849.jpg
   - https://a.fsdn.com/con/app/proj/sundog/screenshots/328851.jpg
-  lang:
+  langs:
   - Java
   - Python
-  license:
+  licenses:
   - Artistic
   development: sporadic
   originals:
@@ -1492,11 +1492,11 @@
   url: https://eguneys.github.io/jsgames/
   development: sporadic
   status: playable
-  lang:
+  langs:
   - JavaScript
-  framework:
+  frameworks:
   - pixi.js
-  license:
+  licenses:
   - MIT
   content: open
   updated: 2019-05-04
@@ -1504,9 +1504,9 @@
 - name: Super Mario Bros And Level Editor in C#
   images:
   - https://github.com/jazzyjester/Mario-Objects/raw/master/mario1.png
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - MIT
   development: active
   originals:
@@ -1520,9 +1520,9 @@
   images:
   - http://i1-linux.softpedia-static.com/screenshots/Super-Mario-War_1.png
   - http://s4.7ba.ru/ex/filecontent/screen_ors/9/f/f/9ffbc941653d781f353db1d73b01ed30.deb.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -1536,9 +1536,9 @@
 - name: Super Methane Brothers
   images:
   - http://a.fsdn.com/con/app/proj/methane/screenshots/14915.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -1559,9 +1559,9 @@
   status: playable
   multiplayer:
   - Competitive
-  lang:
+  langs:
   - Assembly
-  license:
+  licenses:
   - WTFPL
   content: free
   info: The game is made for NES, but available from browser based NES emulator.
@@ -1573,9 +1573,9 @@
 
 - name: super-methane-brothers-gx
   info: Wii and GameCube port
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: sporadic
   originals:
@@ -1589,25 +1589,25 @@
   - https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
   - https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_3.jpg
   - https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_7.jpg
-  license:
+  licenses:
   - JRL
   development: halted
   originals:
   - Super Cars
   status: playable
   repo: http://jotd.pagesperso-orange.fr/supercars3/Supercars3_06.zip
-  lang:
+  langs:
   - Java
   type: remake
   updated: 2021-12-21
   url: http://jotd.pagesperso-orange.fr/supercars3/
 
 - name: SuperFoulEgg
-  lang:
+  langs:
   - Objective-C
-  framework:
+  frameworks:
   - Cocos2d
-  license:
+  licenses:
   - MIT
   content: commercial
   development: halted
@@ -1627,11 +1627,11 @@
   development: complete
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - As-is
   info: >-
     An attempt to translate the original Super Mario Bros. for the NES to readable
@@ -1642,15 +1642,15 @@
 
 - name: SuperTux
   development: active
-  framework:
+  frameworks:
   - SDL2
   images:
   - https://supertux.org/images/0_4_0/0_4_0_3.png
   - https://supertux.org/images/0_4_0/0_4_0_10.png
   - https://supertux.org/images/0_4_0/0_4_0_5.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   content: open
   originals:
@@ -1666,9 +1666,9 @@
   - https://supertuxkart.net/images/f/f3/Supertuxkart-0.9.2-screenshot-5.jpg
   - https://supertuxkart.net/images/6/6a/Supertuxkart-0.9.2-screenshot-6.jpg
   - https://supertuxkart.net/images/d/d3/Supertuxkart-0.9.1-screenshot-3.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -1690,11 +1690,11 @@
   status: playable
   multiplayer:
   - Split-screen
-  lang:
+  langs:
   - GDScript
-  framework:
+  frameworks:
   - Godot
-  license:
+  licenses:
   - GPL3
   content: open
   updated: 2019-03-21
@@ -1704,9 +1704,9 @@
 - name: Survivor
   images:
   - https://farm8.staticflickr.com/7427/10177812825_1a524cb34d_h.jpg
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - CC-BY-NC
   development: sporadic
   originals:
@@ -1718,9 +1718,9 @@
   url: http://www.schillmania.com/survivor/
 
 - name: SWP
-  license:
+  licenses:
   - Custom
-  lang:
+  langs:
   - C
   originals:
   - Shadow Warrior
@@ -1739,11 +1739,11 @@
   url: https://www.michaelfogleman.com/projects/pac-man/
   development: halted
   status: playable
-  lang:
+  langs:
   - Java
-  framework:
+  frameworks:
   - SWT
-  license:
+  licenses:
   - As-is
   content: open
   updated: 2019-03-25
@@ -1756,7 +1756,7 @@
   - http://swars.vexillium.org/shots/swars-gnu-1.png
   - http://swars.vexillium.org/shots/swars-macos-1.png
   info: no network support
-  license:
+  licenses:
   - GPL3
   content: commercial
   originals:

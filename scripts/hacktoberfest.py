@@ -59,8 +59,8 @@ def main():
                             hacktober_games[game["name"]] = game
     for name, game in hacktober_games.items():
         stars_badge = f"![stars](https://img.shields.io/badge/{game['platform']}%20stars-{game['stars']}-blue)"
-        langs = ", ".join(f"`{lang}`" for lang in game.get('lang', []))
-        frameworks = ", ".join(f"`{fw}`" for fw in game.get('framework', []))
+        langs = ", ".join(f"`{lang}`" for lang in game.get('langs', []))
+        frameworks = ", ".join(f"`{fw}`" for fw in game.get('frameworks', []))
         print(f"- [**{name}** {stars_badge}]({game['repo']}): ({game.get('development', '')} {game.get('status', '')} {langs} {frameworks})")
 
 

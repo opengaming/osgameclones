@@ -57,8 +57,8 @@
         <span class="nav-btn">Languages</span>
         <div class="tag-group">
           <div class="container">
-            {% for tag, tag_props in site.lang.items() %}
-            {{ tags.render_tag('lang', tag, tag_props['tag_count']) }}
+            {% for tag, tag_props in site.langs.items() %}
+            {{ tags.render_tag('langs', tag, tag_props['tag_count']) }}
             {% endfor %}
           </div>
         </div>
@@ -68,8 +68,8 @@
         <span class="nav-btn">Genres</span>
         <div class="tag-group">
           <div class="container">
-            {% for tag, tag_props in site.genre.items() %}
-            {{ tags.render_tag('genre', tag, tag_props['tag_count']) }}
+            {% for tag, tag_props in site.genres.items() %}
+            {{ tags.render_tag('genres', tag, tag_props['tag_count']) }}
             {% endfor %}
           </div>
         </div>
@@ -79,8 +79,8 @@
         <span class="nav-btn">Subgenres</span>
         <div class="tag-group">
           <div class="container">
-            {% for tag, tag_props in site.subgenre.items() %}
-            {{ tags.render_tag('subgenre', tag, tag_props['tag_count']) }}
+            {% for tag, tag_props in site.subgenres.items() %}
+            {{ tags.render_tag('subgenres', tag, tag_props['tag_count']) }}
             {% endfor %}
           </div>
         </div>
@@ -90,8 +90,8 @@
         <span class="nav-btn">Themes</span>
         <div class="tag-group">
           <div class="container">
-            {% for tag, tag_props in site.theme.items() %}
-            {{ tags.render_tag('theme', tag, tag_props['tag_count']) }}
+            {% for tag, tag_props in site.themes.items() %}
+            {{ tags.render_tag('themes', tag, tag_props['tag_count']) }}
             {% endfor %}
           </div>
         </div>

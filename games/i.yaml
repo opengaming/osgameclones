@@ -4,9 +4,9 @@
   - http://tomatoes.sourceforge.net/ss2.jpg
   - http://tomatoes.sourceforge.net/ss3.jpg
   - http://tomatoes.sourceforge.net/ss4.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - Zlib
   development: halted
   originals:
@@ -27,9 +27,9 @@
   - http://www.newbreedsoftware.com/icbm3d/screenshots/7.gif
   - http://www.newbreedsoftware.com/icbm3d/screenshots/8.gif
   - http://www.newbreedsoftware.com/icbm3d/screenshots/icbm3d-agenda.gif
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: complete
   originals:
@@ -47,7 +47,7 @@
   - http://mattdm.org/icebreaker/images/screenshot-level6-stars.png
   originals:
   - JezzBall
-  license:
+  licenses:
   - GPL2
   repo: http://mattdm.org/icebreaker/1.2.x/icebreaker-1.2.1.tgz
   type: remake
@@ -57,10 +57,10 @@
 - name: Iceball
   development: halted
   status: playable
-  lang:
+  langs:
   - C
   - Lua
-  license:
+  licenses:
   - GPL3
   - CC-BY-SA
   content: open
@@ -77,9 +77,9 @@
   - https://remake.twelvepm.de/wp/wp-content/uploads/2014/09/Startscreen-0.2.0.jpg
   - https://remake.twelvepm.de/wp/wp-content/uploads/2015/02/Editor-0.2.1.jpg
   - https://remake.twelvepm.de/wp/wp-content/uploads/2015/02/Scenario-Preview-0.2.1.jpg
-  lang:
+  langs:
   - Python
-  license:
+  licenses:
   - GPL3
   content: open
   development: halted
@@ -92,9 +92,9 @@
   url: http://remake.twelvepm.de/
 
 - name: Inertia Blast
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: active
   originals:
@@ -106,14 +106,14 @@
   url: http://identicalsoftware.com/inertiablast/
 
 - name: Inexor
-  framework:
+  frameworks:
   - Cube 2 Engine
   info: In addition to improving Sauerbraten one of the stated goals of the project is to remove/replace all content with
     unclear or non-free licenses from the game.
-  lang:
+  langs:
   - C++
   - JavaScript
-  license:
+  licenses:
   - Zlib
   development: active
   originals:
@@ -127,9 +127,9 @@
 - name: Interstate Outlaws
   images:
   - http://www.interstateoutlaws.com/media/craterpreview.jpg
-  lang:
+  langs:
   - Python
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -141,15 +141,15 @@
 
 - name: IO Reboot
   development: complete
-  framework:
+  frameworks:
   - Unity
   images:
   - https://lh3.googleusercontent.com/umCxkpuG_pBRWijjgE9i2Pc314qEdbg1uYgFCkCqtoRaiBGX4pBg9aFR7BFsSHjQ0sRe=h900-rw
   - https://lh3.googleusercontent.com/wXYHQFw9OKKcZZiDC9KEM-Qt6ZJVp6Vn1EJZlgRCwMmbuSqSQSFTC3YreAaZ2qF_KA=h900-rw
   - https://lh3.googleusercontent.com/jOWqEEME9LDyabTj2rHnb4iCyF1bElCWukqop98WVxrammgL8MfG1MuevnCmsivtpA=h900-rw
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - MIT
   content: open
   originals:
@@ -160,11 +160,11 @@
   updated: 2020-08-31
 
 - name: ioquake3
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL2
   content: swappable
   development: active
@@ -183,12 +183,12 @@
   - https://libregamewiki.org/images/thumb/a/a9/Iris-2D.png/320px-Iris-2D.png
   - https://libregamewiki.org/images/thumb/e/e2/Iris-3D.png/320px-Iris-3D.png
   - http://www.iris2.de/images/4/48/20080106175329_188.png
-  license:
+  licenses:
   - GPL3
   content: commercial
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - OGRE
   development: halted
   originals:
@@ -213,11 +213,11 @@
   - LAN
   - Co-op
   content: commercial
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - Custom
   - GPL3
   info: Merge of ioquake3 features and fixes into RTCW code bases
@@ -226,9 +226,9 @@
     youtube: iDwbo-ecJQw
 
 - name: Ironseed
-  lang:
+  langs:
   - Pascal
-  license:
+  licenses:
   - GPL3
   content: open
   development: halted
@@ -248,11 +248,11 @@
   development: sporadic
   status: playable
   content: open
-  lang:
+  langs:
   - Pascal
-  framework:
+  frameworks:
   - SDL
-  license:
+  licenses:
   - GPL3
   info: FreePascal SDL port with bug fixes
   updated: '2021-07-02'
@@ -262,7 +262,7 @@
   - https://screenshots.debian.net/shrine/screenshot/19653/simage/large-07f0cd535bca6c4b9132ea62b2ec6629.png
 
 - name: irrlamb
-  framework:
+  frameworks:
   - Irrlicht
   images:
   - http://i.imgur.com/EZhOF2Z.jpg
@@ -271,9 +271,9 @@
   - http://i.imgur.com/FUiVvbl.jpg
   - http://i.imgur.com/8ibJCaB.jpg
   - http://i.imgur.com/cI3CN7W.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -290,11 +290,11 @@
   development: active
   status: playable
   content: open
-  lang:
+  langs:
   - Python
-  framework:
+  frameworks:
   - pygame
-  license:
+  licenses:
   - MIT
   updated: '2020-03-13'
   images:

@@ -3,10 +3,10 @@
   - https://play0ad.com/wp-content/gallery/screenshots/screenshot0088.png
   - https://play0ad.com/wp-content/gallery/screenshots/screenshot0072.jpg
   - https://play0ad.com/wp-content/gallery/screenshots/water-depth-rendering.jpg
-  lang:
+  langs:
   - C++
   - JavaScript
-  license:
+  licenses:
   - GPL2
   - CC-BY-SA
   development: active
@@ -33,11 +33,11 @@
   development: active
   status: semi-playable
   content: free
-  lang:
+  langs:
   - Lua
-  framework:
+  frameworks:
   - TIC-80
-  license:
+  licenses:
   - As-is
   updated: '2021-05-31'
   images:
@@ -46,7 +46,7 @@
 
 - name: 1oom
   development: complete
-  framework:
+  frameworks:
   - SDL
   - SDL2
   - Allegro
@@ -54,9 +54,9 @@
   - https://kilgoretroutmaskreplicant.gitlab.io/plain-html/pic01.png
   - https://kilgoretroutmaskreplicant.gitlab.io/plain-html/pic02.png
   - https://kilgoretroutmaskreplicant.gitlab.io/plain-html/pic03.png
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   content: commercial
   originals:
@@ -80,9 +80,9 @@
     - Online
     - Co-op
   content: commercial
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
     - BSD2
   info: Open source 2006 Runescape emulation with botting
   updated: 2021-11-20
@@ -99,11 +99,11 @@
   development: complete
   status: playable
   content: open
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - ncurses
-  license:
+  licenses:
   - MIT
   updated: '2022-01-03'
   images:
@@ -117,9 +117,9 @@
   development: sporadic
   status: playable
   content: open
-  lang:
+  langs:
   - Python
-  license:
+  licenses:
   - MIT
   updated: '2021-06-03'
   images:
@@ -135,20 +135,20 @@
   development: halted
   status: unplayable
   content: commercial
-  lang:
+  langs:
   - C++
   - C
-  license:
+  licenses:
   - GPL2
   updated: 2022-04-02
   
 - name: 3d.city
-  framework:
+  frameworks:
   - three.js
   - Sea3D
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - GPL3
   development: halted
   originals:
@@ -176,9 +176,9 @@
   development: sporadic
   status: playable
   content: commercial
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   info: 'A Doom source port that also supports other games like Rise of the Triad and Wolfenstein 3D'
   updated: 2021-10-25
@@ -188,9 +188,9 @@
   - https://a.fsdn.com/con/app/proj/edge2/screenshots/shot355.png/245/183/1
 
 - name: 4DTris
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -200,7 +200,7 @@
   updated: 2019-04-15
   url: https://sourceforge.net/projects/dtris/
   status: playable
-  framework:
+  frameworks:
   - SDL
   - OpenGL
   content: open
@@ -215,9 +215,9 @@
   development: sporadic
   status: playable
   content: commercial
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   info: >-
     A port of the PC Doom to the N64 (NOTE: this isn't the same as Doom 64, this

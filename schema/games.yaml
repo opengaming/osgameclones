@@ -60,19 +60,19 @@ schema;game:
         Free: game data is free or can be obtained for free<br>
         Open: game data has an open source license<br>
         Swappable: game data is commercial but can be swapped with open source replacements
-    lang:
+    langs:
       type: seq
       desc: Main programming language(s) used for the game, e.g. C++
       sequence:
         - type: str
           unique: True
-    framework:
+    frameworks:
       type: seq
       desc: Framework(s) or engine(s) used for the game, e.g. SDL2
       sequence:
         - type: str
           unique: True
-    license:
+    licenses:
       required: True
       type: seq
       sequence:

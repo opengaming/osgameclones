@@ -1,10 +1,10 @@
 - name: Naev
-  lang:
+  langs:
   - C
   - Lua
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -21,12 +21,12 @@
   development: active
   status: playable
   content: commercial
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - OpenGL
   - SDL2
-  license:
+  licenses:
   - CC-BY-NC-SA
   updated: 2021-10-14
   images:
@@ -45,13 +45,13 @@
   - Online
   - LAN
   - Co-op
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL
   - SDL2
   - OpenGL
-  license:
+  licenses:
   - Custom
   content: commercial
   info: Blood port based on EDuke32
@@ -62,11 +62,11 @@
 - name: Netacka
   images:
   - https://pwmarcz.pl/netacka/sshots.png
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - Allegro
-  license:
+  licenses:
   - MIT
   development: halted
   status: playable
@@ -88,11 +88,11 @@
   url: https://web.archive.org/web/20190608221012/http://www.braingames.getput.com/nether/
   development: complete
   status: playable
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL
-  license:
+  licenses:
   - As-is
   updated: 2020-08-25
   images:
@@ -106,11 +106,11 @@
   images:
   - https://fabiensanglard.net/fd_proxy/anotherWorld_code_review/aw_before.jpg
   - https://fabiensanglard.net/fd_proxy/anotherWorld_code_review/anotherWorldXP.png
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL2
-  license:
+  licenses:
   - GPL2
   content: commercial
   development: halted
@@ -129,14 +129,14 @@
   type: clone
   url: 'https://www.neolemmix.com/'
   repo: https://bitbucket.org/namida42/neolemmixplayer/
-  lang:
+  langs:
   - Delphi
-  framework:
+  frameworks:
   - Graphics32
   development: very active
   status: playable
   content: swappable
-  license:
+  licenses:
   - CC-BY-NC
   updated: 2021-03-30
   info: Has an active modding community (https://www.lemmingsforums.net/) and comes with an editor.
@@ -144,7 +144,7 @@
     youtube: i0CQtMjkyMk
 
 - name: Neverball
-  framework:
+  frameworks:
   - SDL
   images:
   - http://i.imgur.com/4ja9xmS.jpg
@@ -153,9 +153,9 @@
   - http://i.imgur.com/KpzrmNp.jpg
   - http://i.imgur.com/4sJM8Ji.jpg
   - http://i.imgur.com/fzcotpu.jpg
-  lang:
+  langs:
   - C
-  license:
+  licenses:
   - GPL2
   development: active
   originals:
@@ -169,11 +169,11 @@
   images:
   - https://a.fsdn.com/con/app/proj/newraw/screenshots/67451.jpg
   - https://a.fsdn.com/con/app/proj/newraw/screenshots/67449.jpg
-  lang:
+  langs:
   - C++
-  framework:
+  frameworks:
   - SDL
-  license:
+  licenses:
   - GPL2
   content: commercial
   development: halted
@@ -186,9 +186,9 @@
   info: New RAW - an Another World / Out of this world interpreter. Based on work of Gregory Montoir
 
 - name: New Utopia
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - As-is
   content: open
   development: halted
@@ -201,9 +201,9 @@
   url: http://apps.gamejs.org/newutopia/
 
 - name: newtron
-  lang:
+  langs:
   - JavaScript
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -214,14 +214,14 @@
 
 - name: NFSIISE
   development: active
-  framework:
+  frameworks:
   - SDL2
   images:
   - https://i.imgur.com/ZL3V5XB.jpg
   - https://i.imgur.com/DRyjX57.jpg
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - MIT
   content: commercial
   originals:
@@ -234,9 +234,9 @@
 - name: Nighthawk
   images:
   - http://night-hawk.sourceforge.net/nh_intro_1.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -255,19 +255,19 @@
   development: active
   status: semi-playable
   content: commercial
-  lang:
+  langs:
   - 'C#'
-  framework:
+  frameworks:
   - .NET
-  license:
+  licenses:
   - MIT
   updated: 2021-12-29
 
 - name: NLarn
-  lang:
+  langs:
   - C
   - Lua
-  license:
+  licenses:
   - GPL3
   development: active
   originals:
@@ -278,11 +278,11 @@
   url: https://nlarn.github.io/
 
 - name: Nodes of Yesnod remake
-  framework:
+  frameworks:
   - XNA
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - As-is
   development: halted
   originals:
@@ -300,9 +300,9 @@
   development: halted
   status: playable
   content: free
-  lang:
+  langs:
   - 'C#'
-  license:
+  licenses:
   - GPL3
   updated: '2021-08-17'
   images:
@@ -319,11 +319,11 @@
   development: halted
   status: playable
   content: open
-  lang:
+  langs:
   - C
-  framework:
+  frameworks:
   - SDL
-  license:
+  licenses:
   - GPL3
   info: Fork of Naev
   updated: '2020-05-11'
@@ -343,9 +343,9 @@
   - http://nstars.sourceforge.net/nstars01.png
   - http://nstars.sourceforge.net/nstars02.png
   - http://nstars.sourceforge.net/nstars03.png
-  lang:
+  langs:
   - C#
-  license:
+  licenses:
   - GPL2
   development: halted
   originals:
@@ -356,9 +356,9 @@
   url: http://nstars.sourceforge.net/
 
 - name: NullpoMino
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - BSD
   development: halted
   originals:
@@ -376,9 +376,9 @@
   url: http://uppgarn.com/nuncabola/
   development: halted
   status: playable
-  lang:
+  langs:
   - Java
-  license:
+  licenses:
   - GPL2
   content: open
   updated: 2020-08-25
@@ -391,9 +391,9 @@
   - http://nuvie.sourceforge.net/images/shots/nuvie_24.png
   - http://nuvie.sourceforge.net/images/shots/nuvie_22.png
   - http://nuvie.sourceforge.net/images/shots/nuvie_21.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL2
   development: active
   originals:
@@ -409,9 +409,9 @@
   development: sporadic
   images:
   - https://repo.openpandora.org/files/pnd/nxengine/previews/nxengine2.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   content: free
   originals:
@@ -426,9 +426,9 @@
   development: active
   images:
   - https://raw.githubusercontent.com/nxengine/nxengine-evo/master/screenshot.png
-  lang:
+  langs:
   - C++
-  license:
+  licenses:
   - GPL3
   content: free
   originals:

@@ -14,9 +14,9 @@ def main():
         if p.is_file() and p.suffix == ".yaml":
             games = yaml.safe_load(open(p, encoding="utf-8"))
             for game in games:
-                for framework in game.get("framework", []):
+                for framework in game.get("frameworks", []):
                     c[framework] += 1
-                    for lang in game.get("lang", []):
+                    for lang in game.get("langs", []):
                         framework_langs[framework][lang] += 1
     most_common = c.most_common(10)
     for framework, count in most_common:
