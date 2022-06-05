@@ -57,8 +57,8 @@
         <span class="nav-btn">Languages</span>
         <div class="tag-group">
           <div class="container">
-            {% for tag, tag_props in site.lang.items() %}
-            {{ tags.render_tag('lang', tag, tag_props['tag_count']) }}
+            {% for tag, tag_props in site.langs.items() %}
+            {{ tags.render_tag('langs', tag, tag_props['tag_count']) }}
             {% endfor %}
           </div>
         </div>

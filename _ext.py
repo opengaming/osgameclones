@@ -195,7 +195,7 @@ def parse_items(site, item, key):
     game_tags = [
         'status',
         'development',
-        'lang',
+        'langs',
         'frameworks',
         'content',
         'license',
@@ -213,7 +213,7 @@ def parse_items(site, item, key):
     parse_fn = partial(parse_item, entry_tags=game_tags, meta=meta, meta_tags=meta_tags)
 
     for game in item[key]:
-        parse_global_tags(site, game, 'lang', game['name'])
+        parse_global_tags(site, game, 'langs', game['name'])
 
     getattr(site, key).append(Game(item, meta, [parse_fn(i) for i in item[key]]))
 

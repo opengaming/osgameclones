@@ -151,8 +151,8 @@ const checkRepoAdded = game => {
 }
 
 const checkLanguageKnown = game => {
-  if (!game.lang) return
-  const unknownLanguages = game.lang.filter(l => !knownLanguages.includes(l))
+  if (!game.langs) return
+  const unknownLanguages = game.langs.filter(l => !knownLanguages.includes(l))
   if (unknownLanguages.length) {
     warn(
       `🔢 ${game.name} contains "${unknownLanguages}" as language, which is not known by us. ` +
@@ -179,7 +179,7 @@ const checkFrameworkUsesLang = game => {
   const commonFrameworks = game.frameworks.filter(frameworks => Object.keys(frameworkLangs).includes(frameworks))
   commonFrameworks.forEach(framework => {
     const langs = frameworkLangs[framework]
-    if (!game.lang || game.lang.filter(lang => langs.includes(lang)).length === 0) {
+    if (!game.langs || game.langs.filter(lang => langs.includes(lang)).length === 0) {
       message(
         `🏗 ${game.name} uses "${framework}" as a framework, but doesn't have ${langs} in its languages.`
       )

@@ -16,7 +16,7 @@ def main():
             for game in games:
                 for framework in game.get("frameworks", []):
                     c[framework] += 1
-                    for lang in game.get("lang", []):
+                    for lang in game.get("langs", []):
                         framework_langs[framework][lang] += 1
     most_common = c.most_common(10)
     for framework, count in most_common:
