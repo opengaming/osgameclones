@@ -103,7 +103,7 @@
       {{ tags.render_tag_groups('langs', game['langs']) }}
       {{ tags.render_tag_groups('frameworks', game['frameworks']) if show_details }}
       {{ tags.render_tag_groups('content', game['content'] | title) if show_details }}
-      {{ tags.render_tag_groups('license', game['license']) }}
+      {{ tags.render_tag_groups('licenses', game['licenses']) }}
       {{ tags.render_tag_groups('multiplayer', game['multiplayer']) if 'multiplayer' in game and show_details }}
       {% if show_details %}
         <a class="add-link" href="/add_game.html?data=_clones/{{ game['name'] | slugify }}.json" target="_blank"><i class="far fa-edit"></i>Edit</a>

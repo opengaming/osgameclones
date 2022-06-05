@@ -198,7 +198,7 @@ def parse_items(site, item, key):
         'langs',
         'frameworks',
         'content',
-        'license',
+        'licenses',
         'multiplayer',
         'type'
     ]
