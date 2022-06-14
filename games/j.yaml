@@ -348,19 +348,6 @@
   updated: 2015-04-25
   url: https://www.icculus.org/jumpnbump/
 
-- name: 'Jumping Jack 2: Worryingly Familiar'
-  langs:
-  - C++
-  licenses:
-  - Custom
-  development: halted
-  originals:
-  - Jumping Jack
-  repo: http://retrospec.sgn.net/users/nwalker/jack/jjwf.zip
-  type: remake
-  updated: 2015-04-13
-  url: http://retrospec.sgn.net/game/jj2
-
 - name: 'Jumping Jack: Further Adventures'
   langs:
   - C++
@@ -373,6 +360,23 @@
   type: remake
   updated: 2015-04-13
   url: http://retrospec.sgn.net/game/jj
+
+- name: 'Jumping Jack 2: Worryingly Familiar'
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - Custom
+  development: halted
+  originals:
+  - Jumping Jack
+  status: playable
+  type: remake
+  updated: 2022-06-15
+  url: https://retrospec.sgn.net/game/jj2
+  images:
+  - https://retrospec.sgn.net/config/gamelogos/jj2.gif
 
 - name: Jumpman
   images:
