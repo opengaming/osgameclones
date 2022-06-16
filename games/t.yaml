@@ -502,22 +502,24 @@
 
 - name: Tranzam
   images:
-  - http://retrospec.sgn.net/config/screenshots/tranzam.f.2.jpg
-  - http://retrospec.sgn.net/config/screenshots/tranzam.f.4.jpg
-  - http://retrospec.sgn.net/config/screenshots/tranzam.f.5.jpg
-  - http://retrospec.sgn.net/config/screenshots/tranzam.f.3.jpg
-  - http://retrospec.sgn.net/config/screenshots/tranzam.f.1.jpg
+  - https://retrospec.sgn.net/config/screenshots/tranzam.f.2.jpg
+  - https://retrospec.sgn.net/config/screenshots/tranzam.f.4.jpg
+  - https://retrospec.sgn.net/config/screenshots/tranzam.f.5.jpg
+  - https://retrospec.sgn.net/config/screenshots/tranzam.f.3.jpg
+  - https://retrospec.sgn.net/config/screenshots/tranzam.f.1.jpg
   langs:
   - C++
+  frameworks:
+  - Allegro
   licenses:
   - Custom
-  development: halted
+  development: complete
   originals:
   - Tranz Am
-  repo: http://retrospec.sgn.net/download/files/TranzAm.1.1.zip
+  status: playable
   type: remake
-  updated: 2015-04-12
-  url: http://retrospec.sgn.net/game/tranzam
+  updated: 2022-06-11
+  url: https://retrospec.sgn.net/game/tranzam
 
 - name: Tremulous
   images:
