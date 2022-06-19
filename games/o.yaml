@@ -503,15 +503,18 @@
 - name: Open Syobon Action
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - GPL2
-  development: halted
+  development: complete
   originals:
-  - Shobon Action
-  repo: http://sourceforge.net/projects/opensyobon/files/src/
+  - Syobon Action
+  status: playable
+  repo: https://sourceforge.net/projects/opensyobon
   type: remake
-  updated: 2015-04-13
-  url: http://sourceforge.net/projects/opensyobon/
+  updated: 2022-06-20
+  url: http://www.jezng.com/open-syobon-action.js/
 
 - name: Open Valley
   originals:
