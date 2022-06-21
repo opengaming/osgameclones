@@ -8,7 +8,11 @@ assignees: ''
 ---
 
 <!--
-Adding a new game? Try the web forms here:
+Adding a new game?
+
+It might be added already! Go to https://osgameclones.com/ and use the filter box!
+
+Try the web forms here:
 
 - Game: <https://osgameclones.com/add_game.html>
 - Add original game: <https://osgameclones.com/add_original.html>
