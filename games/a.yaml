@@ -188,9 +188,10 @@
   development: halted
   originals:
   - Zarch
+  status: playable
   repo: https://sourceforge.net/projects/ajax3d/
-  type: remake
-  updated: 2015-10-09
+  type: clone
+  updated: 2022-06-25
   url: http://ajax3d.sourceforge.net/
 
 - name: Aklabeth
@@ -198,13 +199,15 @@
   - GPL2
   langs:
   - C
+  frameworks:
+  - SDL
   originals:
   - 'Akalabeth: World of Doom'
+  status: playable
   repo: https://sourceforge.net/projects/aklabeth/
   type: remake
-  feed: https://sourceforge.net/p/aklabeth/activity/feed
   development: halted
-  updated: 2019-09-27
+  updated: 2022-06-25
 
 - name: Aleph One
   images:
@@ -245,35 +248,6 @@
   type: remake
   updated: 2014-01-12
   url: http://retrospec.sgn.net/users/ignacio/a8i.htm
-
-- name: Alive_Reversing
-  type: remake
-  originals:
-  - "Oddworld: Abe's Exoddus"
-  repo: https://github.com/AliveTeam/alive_reversing
-  development: active
-  status: semi-playable
-  langs:
-  - C++
-  licenses:
-  - MIT
-  content: commercial
-  updated: 2019-09-17
-
-- name: alive
-  images:
-  - https://raw.githubusercontent.com/paulsapps/alive/dev/doc/screenshots/alive1.png
-  langs:
-  - C++
-  licenses:
-  - MIT
-  development: active
-  originals:
-  - "Oddworld: Abe's Oddysee"
-  - "Oddworld: Abe's Exoddus"
-  repo: https://github.com/paulsapps/alive
-  type: remake
-  updated: 2016-03-08
 
 - name: Ambermoon.net
   type: remake
@@ -323,14 +297,16 @@
   type: remake
   originals:
   - Aladdin
+  status: unplayable
   langs:
   - C++
   frameworks:
   - DirectX
+  development: halted
   repo: https://github.com/phanletrunghieu/Aladdin_DirectX
-  updated: 2019-09-30
+  updated: 2022-06-25
   licenses:
-  - PD
+  - As-is
 
 - name: Antares
   images:
@@ -399,14 +375,17 @@
   - https://raw.githubusercontent.com/LongSteve/aquastax/master/reference/aquastax_anim_01_240x320_efigs.gif
   langs:
   - JavaScript
+  frameworks:
+  - Cocos2d
   licenses:
   - MIT
-  development: active
+  development: halted
   originals:
   - Aquastax
+  status: semi-playable
   repo: https://github.com/LongSteve/aquastax
   type: remake
-  updated: 2017-12-12
+  updated: 2022-06-25
 
 - name: Arashi-JS
   langs:
@@ -447,15 +426,19 @@
   - JavaScript
   licenses:
   - CC-BY-NC
+  content: open
   development: active
   originals:
   - Armor Alley
+  status: playable
   repo: https://github.com/scottschiller/ArmorAlley
   type: remake
-  updated: 2015-05-05
+  updated: 2022-06-25
   url: http://www.schillmania.com/armor-alley/
   video:
-    youtube: Fxf6glufkWQ
+    youtube: 9BQ62c7u2JM
+  images:
+  - https://user-images.githubusercontent.com/174437/148264540-d92c7440-8170-4413-b143-e113717ead8f.png
 
 - name: Arrakis
   originals:
@@ -527,10 +510,10 @@
   development: complete
   originals:
   - Simon
+  status: playable
   repo: https://github.com/TimPietrusky/asdf
   type: remake
-  updated: 2015-05-28
-  url: https://timpietrusky.github.io/asdf/
+  updated: 2022-06-25
 
 - name: AstroMenace
   images:
@@ -547,6 +530,7 @@
   development: active
   originals:
   - AstroMenace
+  status: playable
   repo: https://github.com/viewizard/astromenace
   type: official
   updated: 2019-08-27
@@ -560,9 +544,10 @@
   development: halted
   originals:
   - Star Raiders
+  status: unplayable
   repo: https://github.com/sidneycadot/Atari8bit_StarRaiders
   type: remake
-  updated: 2015-07-14
+  updated: 2022-06-25
 
 - name: ativayeban
   frameworks:
