@@ -82,6 +82,7 @@ const knownFrameworks = [
   'Rx.js',
   'SDL',
   'SDL2',
+  'SDL.NET',
   'Sea3D',
   'SFML',
   'Slick2D',
@@ -104,6 +105,7 @@ const knownFrameworks = [
 const frameworkLangs = {
   'SDL2': ['C++', 'C'],
   'SDL': ['C++', 'C'],
+  'SDL.NET': ['C#'],
   'OpenGL': ['C++', 'C'],
   'Unity': ['C#'],
   'SFML': ['C++'],
