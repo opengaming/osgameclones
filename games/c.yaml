@@ -1275,19 +1275,23 @@
 
 - name: Crown and Cutlass
   images:
-  - http://www.crownandcutlass.com/screenshots/images/CCNewMenu.png
-  - http://www.crownandcutlass.com/screenshots/images/CCNewCities.png
-  - http://www.crownandcutlass.com/screenshots/images/CCNavalBattle.png
+  - https://a.fsdn.com/con/app/proj/crownandcutlass/screenshots/82718.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/crownandcutlass/screenshots/82722.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/crownandcutlass/screenshots/82720.jpg/max/max/1
   langs:
   - C++
+  frameworks:
+  - SDL
+  - OpenGL
   licenses:
   - BSD
   development: halted
   originals:
   - Sid Meier's Pirates!
+  status: semi-playable
   repo: https://sourceforge.net/projects/crownandcutlass/
   type: remake
-  updated: 2015-04-15
+  updated: 2022-07-08
   url: http://www.crownandcutlass.com/
 
 - name: CrystalQuest
