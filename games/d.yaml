@@ -55,14 +55,17 @@
 - name: Daggerfall.NET
   langs:
   - C#
+  frameworks:
+  - MonoGame
   licenses:
   - As-is
   development: halted
   originals:
   - 'The Elder Scrolls II: Daggerfall'
+  status: unplayable
   repo: https://github.com/JohnathanGreen/Daggerfall.NET
   type: remake
-  updated: 2017-04-20
+  updated: 2022-07-02
 
 - name: Danger from the Deep
   images:
@@ -152,14 +155,17 @@
   - https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty10.jpg
   langs:
   - C
+  frameworks:
+  - OpenGL
   licenses:
   - GPL2
   development: active
   originals:
   - Quake
-  repo: https://gitlab.com/xonotic/darkplaces
+  status: playable
+  repo: https://github.com/DarkPlacesEngine/darkplaces
   type: remake
-  updated: 2021-11-20
+  updated: 2022-07-02
   url: https://icculus.org/twilight/darkplaces/
 
 - name: datastorm
@@ -167,12 +173,13 @@
   - C
   licenses:
   - Apache
-  development: active
+  development: halted
   originals:
   - Turmoil
+  status: playable
   repo: https://github.com/haroldo-ok/datastorm
   type: remake
-  updated: 2016-04-11
+  updated: 2022-07-02
 
 - name: Dave Gnukem
   development: active
@@ -261,31 +268,43 @@
   - https://camo.githubusercontent.com/66a1ba4602dd94e3ebca0d7ed7ef0e5d8c926c83/68747470733a2f2f692e696d6775722e636f6d2f747165654a71482e706e67
   langs:
   - Java
+  frameworks:
+  - LibGDX
   licenses:
-  - GPL2
+  - Zlib
   content: commercial
   development: complete
   originals:
   - Delver
+  status: playable
   repo: https://github.com/Interrupt/delverengine
-  type: remake
-  updated: 2018-11-15
-  url: https://github.com/Interrupt/delverengine
+  type: official
+  updated: 2022-07-02
+  url: http://www.delvergame.com
 
 - name: Der Clou!
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - Custom
+  content: commercial
   development: halted
   originals:
   - The Clue!
+  status: playable
   repo: https://github.com/vcosta/derclou
-  type: clone
-  updated: 2020-08-25
-  url: https://sites.google.com/site/vascocosta/theclue
+  type: remake
+  updated: 2022-07-02
   video:
     youtube: UlQovLvleKg
+  images:
+  - https://repo.openpandora.org/files/pnd/derclou-sdl/preview/1.png
+  - https://repo.openpandora.org/files/pnd/derclou-sdl/preview/2.png
+  - https://repo.openpandora.org/files/pnd/derclou-sdl/preview/3.png
+  - https://repo.openpandora.org/files/pnd/derclou-sdl/preview/4.png
+  - https://repo.openpandora.org/files/pnd/derclou-sdl/preview/5.png
 
 - name: DesktopAdventures
   development: sporadic
@@ -312,6 +331,7 @@
   originals:
   - Indiana Jones and his Desktop Adventures
   - 'Star Wars: Yoda Stories'
+  status: semi-playable
   type: remake
   updated: 2019-10-02
   repo: https://github.com/digitall/scummvm-deskadv
@@ -319,14 +339,17 @@
 - name: Deuteros X
   langs:
   - C#
+  frameworks:
+  - SDL.NET
   licenses:
   - GPL2
   development: halted
   originals:
   - Deuteros
+  status: unplayable
   repo: http://sourceforge.net/projects/deuterosx/
   type: remake
-  updated: 2020-08-25
+  updated: 2022-07-02
 
 - name: Devilution
   images:
@@ -388,15 +411,28 @@
 - name: dhewm3
   langs:
   - C++
+  frameworks:
+  - SDL
+  - SDL2
   licenses:
   - GPL3
+  content: commercial
   development: active
   originals:
   - Doom 3
+  status: playable
   repo: https://github.com/dhewm/dhewm3
   type: remake
-  updated: 2015-07-29
+  updated: 2022-07-02
   url: https://dhewm3.org/
+  images:
+  - https://dhewm3.org/dhewm3-linux.jpg
+  - https://dhewm3.org/dhewm3-win.jpg
+  - https://dhewm3.org/dhewm3-osx.jpg
+  - https://dhewm3.org/dhewm3-aros.jpg
+  - https://dhewm3.org/dhewm3-switch-linux.jpg
+  - https://dhewm3.org/dhewm3-1.jpg
+  - https://dhewm3.org/dhewm3-d3xp1.jpg
 
 - name: Diablerie
   originals:
@@ -437,18 +473,20 @@
     https://user-images.githubusercontent.com/20025614/103456786-56155500-4cf1-11eb-8911-954eb57fc886.png
 
 - name: Digbuild
-  images:
-  - http://blog.mezeske.com/wp-content/uploads/2011/07/digbuild-screenshot-1.jpg
   langs:
   - C++
+  frameworks:
+  - SDL
+  - OpenGL
   licenses:
   - GPL2
   development: halted
   originals:
   - Minecraft
+  status: semi-playable
   repo: https://github.com/emezeske/digbuild
-  type: remake
-  updated: 2015-04-16
+  type: similar
+  updated: 2022-07-02
   url: http://blog.mezeske.com/?p=507
 
 - name: Digger
@@ -456,13 +494,16 @@
   - TypeScript
   licenses:
   - As-is
-  development: active
+  content: open
+  development: sporadic
   originals:
   - Boulder Dash
+  status: playable
   repo: https://github.com/lutzroeder/digger
   type: remake
-  updated: 2015-05-02
+  updated: 2022-07-02
   url: https://lutzroeder.github.io/digger/
+  info: no license, but contains assets from xdigger (GPL3)
 
 - name: Digger Remastered
   langs:
@@ -490,21 +531,23 @@
   development: halted
   originals:
   - Digimon World
+  status: unplayable
   repo: https://github.com/dwProjectark/Digimon-World-Project-Ark
   type: remake
-  updated: 2015-05-28
+  updated: 2022-07-02
 
 - name: div-columns
   frameworks:
   - DIV Games Studio
   licenses:
   - MIT
-  development: active
+  development: complete
   originals:
   - Columns
+  status: playable
   repo: https://github.com/MikeDX/div-columns
   type: remake
-  updated: 2016-02-26
+  updated: 2022-07-02
   url: http://js.mikedx.co.uk/columns.html
 
 - name: div-pacman2600
@@ -512,25 +555,28 @@
   - DIV Games Studio
   licenses:
   - MIT
-  development: active
+  development: complete
   originals:
   - Pac-Man
+  status: playable
   repo: https://github.com/MikeDX/div-pacman2600
   type: remake
-  updated: 2016-04-30
+  updated: 2022-07-02
   url: http://js.mikedx.co.uk/pacman2600.html
+  info: clone of Atari Pac-Man
 
 - name: div-pitfall
   frameworks:
   - DIV Games Studio
   licenses:
   - MIT
-  development: active
+  development: complete
   originals:
   - Pitfall!
+  status: playable
   repo: https://github.com/MikeDX/div-pitfall
   type: remake
-  updated: 2016-04-30
+  updated: 2022-07-02
   url: http://js.mikedx.co.uk/pitfall.html
 
 - name: div-spaceinvaders2600
@@ -538,12 +584,13 @@
   - DIV Games Studio
   licenses:
   - MIT
-  development: active
+  development: complete
   originals:
   - Space Invaders
+  status: playable
   repo: https://github.com/MikeDX/div-spaceinvaders2600
   type: remake
-  updated: 2016-04-30
+  updated: 2022-07-02
   url: http://js.mikedx.co.uk/invadersa2600.html
 
 - name: Divercity
@@ -581,14 +628,17 @@
 - name: dodger-remake
   langs:
   - C++
+  frameworks:
+  - SFML
   licenses:
   - As-is
   development: halted
   originals:
   - Dodger
+  status: unplayable
   repo: https://github.com/funchal/dodger-remake
   type: remake
-  updated: 2015-05-12
+  updated: 2022-07-02
 
 - name: DonkeyInTrouble
   frameworks:
@@ -600,9 +650,12 @@
   development: halted
   originals:
   - Kaboom!
+  status: semi-playable
   repo: https://github.com/Zap123/DonkeyInTrouble
   type: remake
-  updated: 2015-06-22
+  updated: 2022-07-02
+  images:
+  - https://raw.githubusercontent.com/Zap123/DonkeyInTrouble/master/demo.png
 
 - name: donut
   type: remake
@@ -706,14 +759,17 @@
   - https://doom64ex.files.wordpress.com/2011/08/d64ex_03.png
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
-  development: active
+  development: halted
   originals:
   - Doom 64
   repo: https://github.com/svkaiser/Doom64EX
   type: remake
-  updated: 2016-05-28
+  status: semi-playable
+  updated: 2022-07-02
   url: https://doom64ex.wordpress.com/
 
 - name: Doomsday Engine
@@ -916,12 +972,14 @@
   - JavaScript
   licenses:
   - As-is
+  content: commercial
   development: halted
   originals:
   - Duck Hunt
+  status: playable
   repo: https://github.com/grosbouddha/duckhunt
   type: remake
-  updated: 2015-05-28
+  updated: 2022-07-02
   url: https://grosbouddha.github.io/duckhunt/
 
 - name: Duke3D
@@ -990,22 +1048,20 @@
   video:
     youtube: gBr9_pI6A1c
 
-- name: Dune 2 - The Maker
-  images:
-  - http://dune2themaker.fundynamic.com/wp-content/uploads/2016/10/228d0266-88db-11e6-9442-6bebed3ced89-300x241.png
+- name: Dune 2 - The Maker - Java version
   langs:
   - Java
   licenses:
   - MIT
-  development: active
+  development: halted
   originals:
   - Dune 2
+  status: semi-playable
   repo: https://github.com/Fundynamic/dune2themaker4j
   type: remake
-  updated: 2016-11-21
-  url: http://dune2themaker.fundynamic.com/
+  updated: 2022-07-02
   video:
-    youtube: J93yDhXwNtA
+    youtube: 8QgvRy5vS5Q
 
 - name: Dune Dynasty
   images:
@@ -1020,9 +1076,10 @@
   development: halted
   originals:
   - Dune 2
+  status: playable
   repo: https://sourceforge.net/projects/dunedynasty/
   type: remake
-  updated: 2019-08-27
+  updated: 2022-07-02
   url: http://dunedynasty.sourceforge.net/
 
 - name: Dune Legacy
@@ -1109,14 +1166,17 @@
 - name: DungeonMaster
   langs:
   - C#
+  frameworks:
+  - .NET
   licenses:
   - As-is
   development: halted
   originals:
   - Dungeon Master
+  status: unplayable
   repo: https://github.com/ggrrin/DungeonMaster
   type: remake
-  updated: 2016-04-11
+  updated: 2022-07-02
 
 - name: Dungeon of Quake
   langs:
@@ -1222,9 +1282,10 @@
   development: halted
   originals:
   - DX-Ball
+  status: unplayable
   repo: https://github.com/nomanHasan/DXBall
   type: remake
-  updated: 2016-05-14
+  updated: 2022-07-02
 
 - name: DXX-Rebirth
   images:
