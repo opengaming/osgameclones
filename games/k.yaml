@@ -219,12 +219,6 @@
   - https://a.fsdn.com/con/app/proj/kraptor/screenshots/71663.jpg/max/max/1
 
 - name: Krystal Drop
-  images:
-  - http://krystaldrop.sourceforge.net/images/sshot1.png
-  - http://krystaldrop.sourceforge.net/images/sshot2.png
-  - http://krystaldrop.sourceforge.net/images/sshot3.png
-  - http://krystaldrop.sourceforge.net/images/sshot4.png
-  - http://krystaldrop.sourceforge.net/images/sshot5.png
   langs:
   - C++
   licenses:
@@ -232,9 +226,13 @@
   development: halted
   originals:
   - Magical Drop
-  repo: http://prdownloads.sourceforge.net/krystaldrop/src_0.7.2.tgz?download
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  repo: https://sourceforge.net/projects/krystaldrop/
   type: remake
-  updated: 2015-04-15
+  updated: 2022-07-11
   url: http://krystaldrop.sourceforge.net/
 
 - name: KZap
