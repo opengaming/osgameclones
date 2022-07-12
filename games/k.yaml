@@ -177,23 +177,26 @@
 
 - name: Knights
   images:
-  - http://www.knightsgame.org.uk/images/knights1.png
-  - http://www.knightsgame.org.uk/images/knights2.png
-  - http://www.knightsgame.org.uk/images/knights3.png
-  - http://www.knightsgame.org.uk/images/knights4.png
-  - http://www.knightsgame.org.uk/images/knights5.png
-  - http://www.knightsgame.org.uk/images/quest_selection.png
+  - https://www.knightsgame.org.uk/images/knights1.png
+  - https://www.knightsgame.org.uk/images/knights2.png
+  - https://www.knightsgame.org.uk/images/knights3.png
+  - https://www.knightsgame.org.uk/images/knights4.png
+  - https://www.knightsgame.org.uk/images/knights5.png
+  - https://www.knightsgame.org.uk/images/quest_selection.png
   langs:
   - C++
   licenses:
   - GPL3
+  content: open
   development: active
   originals:
   - Knights
-  repo: http://www.knightsgame.org.uk/files/knights_025_src.tar.gz
+  status: playable
+  multiplayer:
+  - Online
   type: remake
-  updated: 2015-04-15
-  url: http://www.knightsgame.org.uk/
+  updated: 2022-07-13
+  url: https://www.knightsgame.org.uk/
 
 - name: KRaptor
   originals:
