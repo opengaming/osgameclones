@@ -56,13 +56,15 @@
   - JavaScript
   licenses:
   - MIT
-  development: halted
+  content: free
+  development: complete
   originals:
   - Arkanoid
+  status: playable
   repo: https://github.com/budnix/ball-and-wall
   type: clone
-  updated: 2019-11-20
-  url: https://budnix.github.io/ball-and-wall/
+  updated: 2022-07-09
+  url: https://ballandwall.com
 
 - name: Ballerburg SDL
   images:
@@ -72,42 +74,43 @@
   - C
   licenses:
   - GPL3
-  development: active
+  development: sporadic
   originals:
   - Ballerburg
+  status: playable
   repo: https://git.tuxfamily.org/baller/baller.git
   type: remake
-  updated: 2015-04-17
+  updated: 2022-07-09
   url: https://baller.tuxfamily.org/
 
 - name: Balloon Fight
   frameworks:
   - DIV Games Studio
   licenses:
-  - MIT
-  development: active
+  - As-is
+  content: commercial
+  development: complete
   originals:
   - Balloon Fight
+  status: playable
   repo: https://github.com/MikeDX/balloon-fight
   type: remake
-  updated: 2016-04-30
+  updated: 2022-07-09
   url: http://js.mikedx.co.uk/balloonfight.html
 
 - name: Barbarian
   frameworks:
   - QB64
-  images:
-  - http://barbarian.1987.free.fr/images/AMIGA01.jpg
   langs:
-  - QuickBASIC
+  - BASIC
   licenses:
   - As-is
-  development: active
+  development: halted
   originals:
   - 'Barbarian: The Ultimate Warrior'
-  repo: https://www.dropbox.com/s/4n5kvajfmcu132o/barbarianAMIGAwin.zip
+  status: playable
   type: remake
-  updated: 2015-04-16
+  updated: 2022-07-09
   url: http://barbarian.1987.free.fr/indexEN.htm
 
 - name: Barony
@@ -144,14 +147,16 @@
   - https://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - GPL2
   development: halted
   originals:
   - Frogs and Flies
-  repo: https://perso.b2b2c.ca/~sarrazip/dev/batrachians-0.1.6.tar.gz
+  status: semi-playable
   type: remake
-  updated: 2015-04-16
+  updated: 2022-07-09
   url: https://perso.b2b2c.ca/~sarrazip/dev/batrachians.html
 
 - name: Battle City
@@ -185,7 +190,7 @@
   - Lua
   licenses:
   - GPL2
-  development: active
+  development: very active
   multiplayer:
   - Online
   - Co-op
@@ -195,12 +200,13 @@
   originals:
   - Master of Monsters
   - Warsong
+  status: playable
   repo: https://github.com/wesnoth/wesnoth
   type: clone
-  updated: 2021-11-09
+  updated: 2022-07-09
   url: https://www.wesnoth.org/
   video:
-    youtube: w3P39lppcH4
+    youtube: 4Ebww6utt9I
 
 - name: BattleCity
   originals:
@@ -225,12 +231,13 @@
   - C++
   licenses:
   - As-is
-  development: sporadic
+  development: halted
   originals:
   - Battle City
+  status: unplayable
   repo: https://github.com/ggc87/BattleCity2014
   type: clone
-  updated: 2015-05-19
+  updated: 2022-07-09
 
 - name: 'Bedlam 2: Absolute Bedlam'
   development: active
@@ -321,36 +328,29 @@
   - https://raw.github.com/VenKamikaze/BitRiot/master/doco/screenshots/BitRiot-1.png
   - https://raw.github.com/VenKamikaze/BitRiot/master/doco/screenshots/BitRiot-2.png
 
-- name: bladerunner (Engine within SCUMMVM)
-  langs:
-  - C++
-  licenses:
-  - GPL2
-  development: active
-  originals:
-  - Blade Runner
-  repo: https://github.com/madmoose/scummvm/tree/bladerunner/engines/bladerunner
-  type: remake
-  updated: 2015-04-17
-
 - name: BlakedAwesomenaughts
   langs:
   - JavaScript
   - PHP
+  frameworks:
+  - melonJS
   licenses:
   - MIT
   development: halted
   originals:
   - Awesomenauts
+  status: unplayable
   repo: https://github.com/zombieman1041/BlakedAwesomenaughts
   type: remake
-  updated: 2019-09-02
+  updated: 2022-07-09
 
 - name: Block Attack - Rise of the Blocks
   frameworks:
   - SDL2
   images:
-  - https://blockattack.net/images/blockattack-2.0.0-1.png
+  - https://blockattack.net/images/screenshots/blockattack-2.3.0-1.png
+  - https://blockattack.net/images/screenshots/blockattack-2.3.0-2.png
+  - https://blockattack.net/images/screenshots/blockattack-2.3.0-3.png
   langs:
   - C++
   licenses:
@@ -358,10 +358,13 @@
   development: active
   originals:
   - Tetris Attack
+  status: playable
   repo: https://github.com/blockattack/blockattack-game
   type: clone
-  updated: 2016-05-01
+  updated: 2022-07-09
   url: https://blockattack.net/
+  video:
+    youtube: xHxnGB2y_lg
 
 - name: Block Shooter
   type: remake
@@ -412,6 +415,7 @@
   development: halted
   originals:
   - Bloons Tower Defense
+  status: unplayable
   repo: https://github.com/wtfaremyinitials/BloonsTowerDefense6
   type: remake
   updated: 2019-09-02
@@ -483,10 +487,7 @@
 
 - name: Bombic2
   images:
-  - http://bombic2.sourceforge.net/screenshots/big/cooperative_multiplayer.png
-  - http://bombic2.sourceforge.net/screenshots/big/final.png
-  - http://bombic2.sourceforge.net/screenshots/big/fireman.png
-  - http://bombic2.sourceforge.net/screenshots/big/tvboss.png
+  - https://download.tuxfamily.org/sdtraces/BottinHTML/Bottin_0-C_files/5d69afe9ea2eaf63928289c13a72f4e0.jpeg
   langs:
   - C++
   licenses:
@@ -494,10 +495,18 @@
   development: halted
   originals:
   - Bomberman
+  status: playable
+  multiplayer:
+  - Co-op
+  - Local
+  - Competitive
+  - Split-screen
   repo: https://sourceforge.net/projects/bombic2/
   type: remake
-  updated: 2015-04-14
+  updated: 2022-07-09
   url: http://bombic2.sourceforge.net/
+  video:
+    youtube: 11cwnt4MNt4
 
 - name: Bombman
   images:
@@ -547,6 +556,7 @@
   development: halted
   originals:
   - Boulder Dash
+  status: unplayable
   repo: https://github.com/valeriansaliou/boulder-dash
   type: remake
   updated: 2019-09-02
@@ -555,22 +565,24 @@
   langs:
   - C++
   licenses:
-  - As-is
-  development: sporadic
+  - GPL3
+  development: halted
   originals:
   - Brain Blasters
+  status: unplayable
   repo: https://github.com/Zitrax/brainblast
   type: clone
-  updated: 2015-05-18
+  updated: 2022-07-09
 
 - name: bratwurst
   langs:
-  - Lisp
+  - Common Lisp
   licenses:
   - GPL2
   development: halted
   originals:
   - Bratwurst
+  status: unplayable
   repo: https://github.com/sabetts/bratwurst
   type: remake
   updated: 2015-05-15
@@ -585,6 +597,7 @@
   development: halted
   originals:
   - Breakout
+  status: unplayable
   repo: https://github.com/marksteelz3/Atari-VR---Breakout
   type: clone
   updated: 2019-06-14
@@ -611,22 +624,22 @@
   updated: 2016-12-03
   url: https://www.bridgecommand.co.uk
 
-- name: BRIQUOLO
-  images:
-  - http://briquolo.free.fr/images/Briquolo-0.5-briquolo01.jpg
-  - http://briquolo.free.fr/images/Briquolo-0.5-briquolo04.jpg
-  - http://briquolo.free.fr/images/Briquolo-0.3-briquolo10.jpg
+- name: Briquolo
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - GPL3
   development: halted
   originals:
   - Breakout
-  repo: http://briquolo.free.fr/en/download.html
+  status: playable
   type: clone
-  updated: 2015-04-25
+  updated: 2022-07-09
   url: http://briquolo.free.fr/en/index.html
+  video:
+    youtube: 302T4_f0fyU
 
 - name: Brutal Chess
   images:
@@ -731,14 +744,16 @@
   - https://perso.b2b2c.ca/~sarrazip/dev/images/burgerspace-1.png
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - GPL2
-  development: halted
+  development: sporadic
   originals:
   - BurgerTime
-  repo: https://perso.b2b2c.ca/~sarrazip/dev/burgerspace-1.9.2.tar.gz
+  status: playable
   type: remake
-  updated: 2015-04-16
+  updated: 2022-07-09
   url: https://perso.b2b2c.ca/~sarrazip/dev/burgerspace.html
 
 - name: The Butterfly Effect
