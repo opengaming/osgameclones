@@ -236,17 +236,21 @@
 
 - name: Phavon
   images:
-  - http://phavon.sourceforge.net/snap001.jpg
+  - https://www.happypenguin.altervista.org/screenshots/snap001.jpg
   langs:
   - C
+  frameworks:
+  - SDL
   licenses:
   - GPL2
+  content: commercial
   development: halted
   originals:
   - Xenon 2 Megablast
-  repo: http://phavon.cvs.sourceforge.net/viewvc/phavon/
+  status: semi-playable
+  repo: https://sourceforge.net/projects/phavon/
   type: remake
-  updated: 2015-04-15
+  updated: 2022-07-18
   url: http://phavon.sourceforge.net/
 
 - name: Phoenix
