@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Open Source Game Clones: New/Updated Games</title>
+  <subtitle>Games entries that have been added or updated in the last 30 days</subtitle>
+  <link href="https://www.osgameclones.com/feed.xml"/>
+  <updated>{{ updated }}</updated>
+  <id>https://www.osgameclones.com</id>
+  <category term="games"/>
+  <category term="open source"/>
+  <category term="game clone"/>
+  {%- for names, meta, game in site.new_games.values() %}
+  <entry>
+    <title>{{ game.name }}</title>
+    <id>https://www.osgameclones.com/game/{{ game.name }}</id>
+    <link>https://www.osgameclones.com/{{ names[0] | slugify }}</link>
+    <updated>{{ game.updated.strftime('%Y-%m-%dT%H:%M:%S%z') }}</updated>
+    {%- if game.info %}
+    <summary>{{ game.info }}</summary>
+    {%- endif %}
+  </entry>
+  {%- endfor %}
+</feed>
