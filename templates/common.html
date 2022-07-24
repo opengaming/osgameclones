@@ -1,6 +1,6 @@
-{% import 'templates/tags.html' as tags %}
+{%- import 'templates/tags.html' as tags -%}
 
-{% macro head(title, keywords, description) -%}
+{%- macro head(title, keywords, description) -%}
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,16 +17,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
     />
+    <link type="application/atom+xml" rel="alternate" href="https://osgameclones.com/feed.xml" title="Open Source Game Clones" />
     <title>{{ title|default('Open Source Game Clones', true) }}</title>
   </head>
 
   <body>
     <script type="text/javascript" src="/static/startInDarkMode.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-{%- endmacro %}
+{%- endmacro -%}
 
 
-{% macro footer() -%}
+{%- macro footer() -%}
     <footer>
       site code &#169; 2011-2022
       <a href="mailto:vsevolod.solovyov@gmail.com">Vsevolod Solovyov</a>,
@@ -44,10 +45,10 @@
     <script data-goatcounter="https://osgc.goatcounter.com/count" src="//gc.zgo.at/count.js" async></script>
   </body>
 </html>
-{%- endmacro %}
+{%- endmacro -%}
 
 
-{% macro nav() -%}
+{%- macro nav() -%}
 <header>
   <div class="container">
     <input id="filter" type="search" placeholder="Type to filter">
@@ -105,4 +106,4 @@
     <span id='sortButton' class="nav-btn">Sort by ........</span>
   </div>
 </header>
-{%- endmacro %}
+{%- endmacro -%}
