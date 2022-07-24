@@ -11,7 +11,7 @@
   {%- for names, meta, game in site.new_games.values() %}
   <entry>
     <title>{{ game.name }}</title>
-    <author>OSGC</author>
+    <author name="OSGC" />
     <id>https://www.osgameclones.com/game/{{ game.name | slugify }}</id>
     <link href="https://www.osgameclones.com/{{ names[0] | slugify }}" />
     <updated>{{ game.updated.strftime('%Y-%m-%dT%H:%M:%SZ') }}</updated>
