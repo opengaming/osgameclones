@@ -11,13 +11,13 @@
   {%- for names, meta, game in site.new_games.values() %}
   <entry>
     <title>{{ game.name }}</title>
-    <author name="OSGC" />
+    <author>
+      <name>OSGC</name>
+    </author>
     <id>https://www.osgameclones.com/game/{{ game.name | slugify }}</id>
     <link href="https://www.osgameclones.com/{{ names[0] | slugify }}" />
     <updated>{{ game.updated.strftime('%Y-%m-%dT%H:%M:%SZ') }}</updated>
-    {%- if game.info %}
-    <summary>{{ game.info }}</summary>
-    {%- endif %}
+    <summary>{{ game.type }} of {{ ', '.join(names) }} {{ game.info }}</summary>
   </entry>
   {%- endfor %}
 </feed>
