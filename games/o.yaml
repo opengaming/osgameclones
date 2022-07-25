@@ -2581,10 +2581,6 @@
 - name: OutRun CPC
   frameworks:
   - QB64
-  images:
-  - http://outruncpc.free.fr/images/CPC01.jpg
-  - http://outruncpc.free.fr/images/CPC02.jpg
-  - http://outruncpc.free.fr/images/CPC03.jpg
   langs:
   - BASIC
   licenses:
@@ -2592,10 +2588,12 @@
   development: halted
   originals:
   - Out Run
-  repo: https://www.dropbox.com/s/d803ueu0l4cgk6k/outrunBETA.zip
+  status: semi-playable
   type: remake
-  updated: 2015-04-16
+  updated: 2022-07-26
   url: http://outruncpc.free.fr/
+  video:
+    youtube: u44uLqybwOc
 
 - name: Overgrowth
   type: official
