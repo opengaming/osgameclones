@@ -132,21 +132,20 @@
 
 - name: Pathological
   images:
-  - http://pathological.sourceforge.net/screenshots/intro.png
-  - http://pathological.sourceforge.net/screenshots/theabyss.png
-  - http://pathological.sourceforge.net/screenshots/ketchupandmustard.png
-  - http://pathological.sourceforge.net/screenshots/wildberries.png
-  - http://pathological.sourceforge.net/screenshots/triggerpractice.png
+  - https://taufanlubis.files.wordpress.com/2008/03/linux-game-pathological.png
   langs:
   - Python
+  frameworks:
+  - pygame
   licenses:
   - GPL2
   development: halted
   originals:
   - Log!cal
-  repo: http://pathological.cvs.sourceforge.net/viewvc/pathological/
+  status: playable
+  repo: https://sourceforge.net/projects/pathological/
   type: remake
-  updated: 2015-04-16
+  updated: 2022-07-28
   url: http://pathological.sourceforge.net/
 
 - name: PCExhumed
