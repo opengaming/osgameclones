@@ -381,22 +381,23 @@
   updated: 2020-08-25
 
 - name: Voxelstein 3D
-  images:
-  - http://voxelstein3d.sourceforge.net/screen1.png
-  - http://voxelstein3d.sourceforge.net/screen3.png
-  - http://voxelstein3d.sourceforge.net/screen5.png
   langs:
   - C++
   licenses:
   - MIT
+  content: commercial
   development: halted
   originals:
   - Wolfenstein 3D
   - Spear of Destiny
-  repo: http://kent.dl.sourceforge.net/project/voxelstein3d/voxelstein3d/0.101/Voxelstein3D_src_0.101.zip
+  repo: https://sourceforge.net/projects/voxelstein3d/
   type: clone
-  updated: 2015-04-16
+  updated: 2022-07-29
+  status: playable
   url: http://voxelstein3d.sourceforge.net/
+  info: Voxelstein 3D is a voxel based FPS game in the spirit of Wolfenstein 3D. It uses Ken Silverman's Voxlap engine.
+  video:
+    youtube: LqI9U7_w8BI
 
 - name: VVVVVV
   originals:
