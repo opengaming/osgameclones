@@ -69,7 +69,9 @@ def render_all(target):
 
     site = ctx()
     render_to('index.html', f'{target}/index.html', site=site)
-    for game in ctx().games:
+    updated = max(game['updated'] for names, meta, game in site.new_games.values())
+    render_to('feed.xml', f'{target}/feed.xml', site=site, updated=updated)
+    for game in site.games:
         render_to(
             'game.html',
             f'{target}/{game.slug}/index.html',
@@ -80,7 +82,7 @@ def render_all(target):
         )
         render_data(f"{target}/{game.slug}/data.json", game.item)
     # Render data for edit game/clone forms
-    clones = {clone["name"]: clone for game in ctx().games for clone in game.clones}
+    clones = {clone["name"]: clone for game in site.games for clone in game.clones}
     for name, clone in clones.items():
         render_data(f"{target}/_clones/{slugify(name)}.json", clone)
 
