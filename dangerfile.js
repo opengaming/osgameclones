@@ -91,6 +91,7 @@ const knownFrameworks = [
   'Starling',
   'SWT',
   'three.js',
+  'TGUI',
   'TIC-80',
   'Torque 3D',
   'Tween.js',
