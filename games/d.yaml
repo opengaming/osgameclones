@@ -336,6 +336,27 @@
   updated: 2019-10-02
   repo: https://github.com/digitall/scummvm-deskadv
 
+- name: Dethrace
+  originals:
+  - Carmageddon
+  type: remake
+  repo: 'https://github.com/dethrace-labs/dethrace'
+  url: 'https://twitter.com/dethrace_labs'
+  development: active
+  status: semi-playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: Reverse engineering the 1997 game "Carmageddon"
+  updated: '2022-08-03'
+  images:
+  - >-
+    https://user-images.githubusercontent.com/78985374/166819615-22a5446c-0ed1-4cab-a833-a0fcdcac8da8.png
+
 - name: Deuteros X
   langs:
   - C#
