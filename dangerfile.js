@@ -27,6 +27,7 @@ const knownFrameworks = [
   'Cocos2d',
   'Construct',
   'Construct2',
+  'Crystal Space',
   'Cube 2 Engine',
   'Daemon Engine',
   'DirectX',
