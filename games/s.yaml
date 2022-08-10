@@ -733,21 +733,24 @@
 
 - name: SolarWolf
   images:
-  - http://pygame.org/shredwheat/solarwolf/screen/shot1.jpg
-  - http://pygame.org/shredwheat/solarwolf/screen/shot2.jpg
-  - http://pygame.org/shredwheat/solarwolf/screen/shot3.jpg
-  - http://pygame.org/shredwheat/solarwolf/screen/shot4.jpg
-  - http://pygame.org/shredwheat/solarwolf/screen/shot5.jpg
+  - https://pygame.org/shredwheat/solarwolf/screen/shot1.jpg
+  - https://pygame.org/shredwheat/solarwolf/screen/shot2.jpg
+  - https://pygame.org/shredwheat/solarwolf/screen/shot3.jpg
+  - https://pygame.org/shredwheat/solarwolf/screen/shot4.jpg
+  - https://pygame.org/shredwheat/solarwolf/screen/shot5.jpg
   langs:
   - Python
+  frameworks:
+  - pygame
   licenses:
   - LGPL2
   originals:
   - Solar Fox
-  repo: http://pygame.org/shredwheat/solarwolf/solarwolf-1.5.tar.gz
+  status: playable
+  development: halted
   type: remake
-  updated: 2015-04-25
-  url: http://pygame.org/shredwheat/solarwolf/index.shtml
+  updated: 2022-08-11
+  url: https://pygame.org/shredwheat/solarwolf/index.shtml
 
 - name: Soldank
   originals:
