@@ -332,21 +332,6 @@ function highlightTags(tag) {
   }
 })();
 
-// Dark theme
-(function() {
-  function toggleDarkTheme() {
-    if (document.body.classList.contains('darkTheme')) {
-      document.body.classList.remove('darkTheme');
-      localStorage.setItem('startInDarkTheme', 'false')
-    } else {
-      document.body.classList.add('darkTheme');
-      localStorage.setItem('startInDarkTheme', 'true')
-    }
-  }
-
-  document.getElementById('darkThemeButton').addEventListener('click', toggleDarkTheme)
-})();
-
 // Lazy load badges
 (function() {
   window.addEventListener('scroll', lazyloadHandler);
