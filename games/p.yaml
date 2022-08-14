@@ -52,18 +52,22 @@
 
 - name: pacman-canvas
   images:
-  - http://pacman.platzh1rsch.ch/img/instructions/instructions_scatter.PNG
-  - http://pacman.platzh1rsch.ch/img/instructions/instructions_chase.PNG
-  - http://pacman.platzh1rsch.ch/img/instructions/instructions_powerpill.PNG
+  - https://pacman.platzh1rsch.ch/img/instructions/instructions_scatter.PNG
+  - https://pacman.platzh1rsch.ch/img/instructions/instructions_chase.PNG
+  - https://pacman.platzh1rsch.ch/img/instructions/instructions_powerpill.PNG
+  langs:
+  - JavaScript
   licenses:
-  - CC-BY-SA
+  - CC0
+  content: free
   development: active
   originals:
   - Pac-Man
+  status: playable
   repo: https://github.com/platzhersh/pacman-canvas
   type: remake
-  updated: 2015-05-19
-  url: http://pacman.platzh1rsch.ch/
+  updated: 2022-08-15
+  url: https://pacman.platzh1rsch.ch/
 
 - name: Panel Attack
   info: basic networking support
