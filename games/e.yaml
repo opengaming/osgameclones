@@ -202,38 +202,50 @@
   frameworks:
   - SFML
 
-- name: encounter
+- name: Encounter
   frameworks:
   - WebGL
   langs:
   - JavaScript
   licenses:
   - As-is
-  development: halted
+  development: sporadic
   originals:
   - Encounter
+  status: playable
   repo: https://github.com/air/encounter
   type: remake
-  updated: 2015-05-28
-  url: https://air.github.io/encounter/
+  updated: 2022-08-18
+  url: https://www.aaronbell.com/encounter/
 
 - name: Endless Sky
   images:
-  - https://endless-sky.github.io/screenshots/fight.jpg
-  - https://endless-sky.github.io/screenshots/trading.jpg
-  - https://endless-sky.github.io/screenshots/map.jpg
-  - https://endless-sky.github.io/screenshots/plunder.jpg
-  - https://endless-sky.github.io/screenshots/missions.jpg
+  - https://endless-sky.github.io/images/screenshots/battle.jpg
+  - https://endless-sky.github.io/images/screenshots/boarding.jpg
+  - https://endless-sky.github.io/images/screenshots/earth.jpg
+  - https://endless-sky.github.io/images/screenshots/hail.jpg
+  - https://endless-sky.github.io/images/screenshots/intro.jpg
+  - https://endless-sky.github.io/images/screenshots/jobs.jpg
+  - https://endless-sky.github.io/images/screenshots/outfitter.jpg
+  - https://endless-sky.github.io/images/screenshots/pirates.jpg
+  - https://endless-sky.github.io/images/screenshots/ship.jpg
+  - https://endless-sky.github.io/images/screenshots/shipyard.jpg
+  - https://endless-sky.github.io/images/screenshots/special.jpg
+  - https://endless-sky.github.io/images/screenshots/trading.jpg
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
+  content: open
   development: active
   originals:
   - Escape Velocity
+  status: playable
   repo: https://github.com/endless-sky/endless-sky
   type: clone
-  updated: 2015-05-02
+  updated: 2022-08-18
   url: https://endless-sky.github.io/
 
 - name: Enduro tribute
@@ -286,12 +298,13 @@
   - C++
   licenses:
   - GPL2
-  development: sporadic
+  development: active
   originals:
   - Oxyd
+  status: playable
   repo: https://github.com/Enigma-Game/Enigma
   type: remake
-  updated: 2017-10-20
+  updated: 2022-08-18
   url: https://www.nongnu.org/enigma/
 
 - name: Entombed!
@@ -333,15 +346,33 @@
   info: Based on EDuke32
   langs:
   - C
+  frameworks:
+  - SDL
   licenses:
   - Custom
+  content: commercial
   development: halted
   originals:
   - Redneck Rampage
+  status: playable
   repo: https://github.com/ttyborg/erampage
   type: remake
-  updated: 2020-01-07
-  url: http://www.jonhunt.com/redneck/erampage.html
+  updated: 2022-08-18
+  url: https://www.jonhunt.com/redneck/erampage.html
+  images:
+  - https://www.jonhunt.com/redneck/images/ered2.jpg
+  - https://www.jonhunt.com/redneck/images/ered3.jpg
+  - https://www.jonhunt.com/redneck/images/ered1.jpg
+  - https://www.jonhunt.com/redneck/images/ered4.jpg
+  - https://www.jonhunt.com/redneck/images/ered5.jpg
+  - https://www.jonhunt.com/redneck/images/01z.jpg
+  - https://www.jonhunt.com/redneck/images/02z.jpg
+  - https://www.jonhunt.com/redneck/images/03z.jpg
+  - https://www.jonhunt.com/redneck/images/04z.jpg
+  - https://www.jonhunt.com/redneck/images/05z.jpg
+  - https://www.jonhunt.com/redneck/images/06z.jpg
+  - https://www.jonhunt.com/redneck/images/07z.jpg
+  - https://www.jonhunt.com/redneck/images/08z.jpg
 
 - name: Escalade
   langs:
@@ -405,7 +436,7 @@
   - GPL3
   info: >-
     Eternity is an advanced DOOM source port maintained by James “Quasar” Haley,
-    descended from Simon “fraggle” Howard’s SMMU.
+    descended from Simon “fraggle” Howard's SMMU.
   updated: '2019-11-13'
   images:
   - >-
@@ -419,14 +450,15 @@
   langs:
   - JavaScript
   licenses:
-  - Custom
-  development: active
+  - BSD4
+  content: commercial
+  development: halted
   originals:
   - MegaMan
+  status: semi-playable
   repo: https://github.com/CamHenlin/ExecutiveMan
   type: remake
-  updated: 2015-05-02
-  url: https://henlin.net/ExecutiveMan/
+  updated: 2022-08-18
 
 - name: EXILE
   frameworks:
