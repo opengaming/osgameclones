@@ -220,26 +220,45 @@
   info: source is available by closing the game and pressing Esc
 
 - name: Flare
-  images:
-  - https://raw.githubusercontent.com/clintbellanger/flare-game/master/distribution/screenshot1.jpg
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
-  development: active
+  content: open
+  development: sporadic
   originals:
   - Diablo
-  repo: https://github.com/clintbellanger/flare-game
+  status: playable
+  repo: https://github.com/flareteam/flare-game
   type: clone
-  url: http://flarerpg.org/
-  updated: 2020-08-25
+  url: https://flarerpg.org
+  updated: 2022-08-20
+  images:
+  - https://flarerpg.org/wp-content/uploads/2018/03/empyrean_1.jpg
+  - https://flarerpg.org/wp-content/uploads/2018/03/empyrean_2.jpg
+  - https://flarerpg.org/wp-content/uploads/2018/03/empyrean_3.jpg
+  - https://flarerpg.org/wp-content/uploads/2018/03/empyrean_4.jpg
+  - https://flarerpg.org/wp-content/uploads/2018/03/empyrean_5.jpg
+  - https://flarerpg.org/wp-content/uploads/2018/03/empyrean_6.jpg
+  - https://flarerpg.org/wp-content/uploads/2018/03/empyrean_7.jpg
+  - https://flarerpg.org/wp-content/uploads/2018/03/empyrean_8.jpg
+  video:
+    youtube: OLrUYYulcss
 
 - name: FlightGear
   images:
-  - https://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-029.jpg
-  - https://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-194.jpg
-  - https://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-166.jpg
-  - https://www.flightgear.org/wp-content/gallery/gallery-v2-6/fgfs-screen-019.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-10/fgfs-screen-140.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-10/fgfs-screen-086.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-10/fgfs-screen-039.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-10/fgfs-screen-117.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-10/fgfs-screen-115.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-10/fgfs-screen-114.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-10/fgfs-screen-017_0.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-10/fgfs-screen-597.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-10/fgfs-screen-070.jpg
+  - https://www.flightgear.org/wp-content/gallery/gallery-v2-10/fgfs-screen-092.jpg
   langs:
   - C++
   licenses:
@@ -247,9 +266,10 @@
   development: active
   originals:
   - Microsoft Flight Simulator
+  status: playable
   repo: https://sourceforge.net/projects/flightgear/
   type: clone
-  updated: 2019-08-27
+  updated: 2022-08-20
   url: https://www.flightgear.org/
 
 - name: Floppy Birb
@@ -287,17 +307,18 @@
   video:
     youtube: gcF-ZenWEM4
 
-- name: fonline
+- name: FOnline
   langs:
   - C++
   licenses:
   - GPL3
-  development: active
+  development: halted
   originals:
   - Fallout Online
-  repo: https://github.com/alexknvl/fonline
+  status: unplayable
+  repo: https://github.com/hobwekiva/fonline
   type: remake
-  updated: 2016-02-08
+  updated: 2022-08-20
   url: https://fodev.net/
 
 - name: Football Manager
@@ -363,12 +384,14 @@
   - F#
   licenses:
   - GPL2
-  development: sporadic
+  development: halted
   originals:
   - Quake 3
+  status: unplayable
   repo: https://github.com/TIHan/FQuake3
   type: remake
-  updated: 2015-05-11
+  updated: 2022-08-20
+  info: Attempted F# Implementation of id Software's Quake III Arena.
 
 - name: Free Allegiance
   images:
@@ -382,10 +405,13 @@
   development: sporadic
   originals:
   - Allegiance
+  status: playable
   repo: https://github.com/FreeAllegiance/Allegiance
   type: remake
-  updated: 2019-12-03
+  updated: 2022-08-20
   url: https://www.freeallegiance.org/
+  video:
+    youtube: WcRmSt7Q_LA
 
 - name: Free Hero Mesh
   originals:
@@ -514,18 +540,26 @@
 
 - name: Freeciv
   images:
-  - https://images2.wikia.nocookie.net/__cb20070223045604/freeciv/images/b/b3/Freeciv-2.1.0-beta3-sdl_slack11.0.png
-  - https://images4.wikia.nocookie.net/__cb20061222015333/freeciv/images/9/94/Big_window.png
+  - https://upload.wikimedia.org/wikipedia/commons/5/55/Freeland2-big.png
+  - https://upload.wikimedia.org/wikipedia/commons/3/30/Freeland2-normal.png
+  - https://upload.wikimedia.org/wikipedia/commons/6/60/Freeciv_smg.png
+  - https://upload.wikimedia.org/wikipedia/commons/8/87/Freeciv2_1-beta1-zh.png
+  - https://upload.wikimedia.org/wikipedia/commons/0/00/Freeciv-no.png
+  - https://upload.wikimedia.org/wikipedia/commons/4/4d/Freeciv-2_1beta1.png
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
+  content: open
   development: active
   originals:
   - Civilization II
+  status: playable
   repo: https://github.com/freeciv/freeciv
   type: clone
-  updated: 2019-08-27
+  updated: 2022-08-20
   url: http://www.freeciv.org/
 
 - name: Freeciv Alpha Centauri project
@@ -569,34 +603,41 @@
   - https://a.fsdn.com/con/app/proj/freecs-1-5/screenshots/screen4.png/max/max/1
   - https://a.fsdn.com/con/app/proj/freecs-1-5/screenshots/portable.jpg/max/max/1
   langs:
-  - QuakeC
+  - Quake
   licenses:
   - GPL2
   development: sporadic
   originals:
   - Counter-Strike
+  status: playable
   repo: https://sourceforge.net/projects/freecs-1-5/
   type: remake
   content: free
   multiplayer:
   - Online
   - LAN
-  updated: 2019-06-11
+  updated: 2022-08-20
+  info: FreeCS is a free-software reimplementation of Counter-Strike 1.5 running on the FTEQW engine.
 
 - name: Freedoom
-  development: sporadic
+  development: active
   images:
-  - https://freedoom.github.io/img/screenshots/phase1-0.12_01.webp
-  - https://freedoom.github.io/img/screenshots/phase2-0.12_01.webp
-  - https://freedoom.github.io/img/screenshots/freedm-0.12_01.webp
+  - https://freedoom.github.io/img/screenshots/phase1-0.12_02.png
+  - https://freedoom.github.io/img/screenshots/phase1-0.12_03.png
+  - https://freedoom.github.io/img/screenshots/phase1-0.12_04.png
+  - https://freedoom.github.io/img/screenshots/phase1-0.12_05.png
+  - https://freedoom.github.io/img/screenshots/phase1-0.12_06.png
+  - https://freedoom.github.io/img/screenshots/phase1-0.12_07.png
+  - https://freedoom.github.io/img/screenshots/phase1-0.12_08.png
   content: open
   licenses:
   - BSD
   originals:
   - Doom
+  status: playable
   repo: https://github.com/freedoom/freedoom
   type: remake
-  updated: 2020-09-29
+  updated: 2022-08-20
   url: https://freedoom.github.io/
 
 - name: FreedroidClassic
@@ -663,14 +704,20 @@
 - name: FreeFT
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - BSD
-  development: active
+  content: commercial
+  development: halted
   originals:
   - 'Fallout Tactics: Brotherhood of Steel'
+  status: semi-playable
   repo: https://github.com/nadult/FreeFT
   type: remake
-  updated: 2016-01-12
+  updated: 2022-08-20
+  video:
+    vimeo: 91863672
 
 - name: FreeGemas
   development: sporadic
@@ -719,15 +766,18 @@
   - https://codeflow.files.wordpress.com/2012/12/2012-12-02_123619_4607386701.png
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - GPL3
   content: free
   development: halted
   originals:
   - Sensible World of Soccer
+  status: playable
   repo: https://github.com/anttisalonen/freekick3
   type: remake
-  updated: 2019-06-18
+  updated: 2022-08-20
   url: https://codeflow.wordpress.com/tag/sensible-soccer/
 
 - name: FreeLords
@@ -738,10 +788,10 @@
   development: halted
   originals:
   - Warlords II
+  status: unplayable
   repo: https://sourceforge.net/projects/freelords/
   type: remake
-  updated: 2019-11-20
-  url: https://sourceforge.net/p/freelords/wiki/Home/
+  updated: 2022-08-20
 
 - name: Freenukum
   langs:
@@ -1047,12 +1097,13 @@
   - Ruby
   licenses:
   - GPL2
-  development: sporadic
+  development: halted
   originals:
   - The Lost Vikings
+  status: playable
   repo: https://sourceforge.net/projects/freevikings/
   type: clone
-  updated: 2015-05-12
+  updated: 2022-08-20
   url: http://freevikings.wz.cz/
 
 - name: Frets on Fire
@@ -1114,7 +1165,7 @@
 
 - name: Froggix
   images:
-  - https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg
+  - https://a.fsdn.com/con/app/proj/froggix/screenshots/208238.jpg/max/max/1
   langs:
   - Python
   licenses:
@@ -1122,9 +1173,10 @@
   development: halted
   originals:
   - Frogger
+  status: playable
   repo: https://sourceforge.net/projects/froggix/
   type: remake
-  updated: 2019-11-20
+  updated: 2022-08-20
 
 - name: Frontier 1337
   images:
