@@ -23,8 +23,8 @@ sequence:
       platforms:
         type: seq
         sequence:
-           - include: platforms
-             unique: True
+          - include: platforms
+            unique: True
       meta:
         include: meta
 
