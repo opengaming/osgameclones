@@ -5,11 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Yamllint
-        uses: ibiqlik/action-yamllint@v3
-        with:
-          file_or_dir: games/*.yaml originals/*.yaml schema/*.yaml
-        env:
-          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: ibiqlik/action-yamllint@v3
+      with:
+        file_or_dir: games/*.yaml originals/*.yaml schema/*.yaml
+      env:
+        GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build-and-deploy:
     runs-on: ubuntu-latest
