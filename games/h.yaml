@@ -1,19 +1,21 @@
 - name: H-Craft Championship
-  images:
-  - http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f01.jpg
-  - http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f07.jpg
-  - http://www.irrgheist.com/media/screenshots/hcraft/hcraft_f02.jpg
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - Zlib
-  development: active
+  content: open
+  development: halted
   originals:
   - Wipeout
+  status: playable
   repo: https://github.com/mzeilfelder/hc1
   type: clone
-  updated: 2020-08-25
+  updated: 2022-08-29
   url: http://www.irrgheist.com/games.htm
+  video:
+    youtube: JW-WDZDI7Sc
 
 - name: Hammer of Thyrion
   images:
@@ -75,17 +77,18 @@
 - name: Harvest Moon 2.0
   originals:
   - Story of Seasons series
+  status: semi-playable
   type: clone
   repo: 'https://github.com/Kenny-Haworth/Harvest-Moon-2.0'
-  development: sporadic
+  development: halted
   content: free
   langs:
   - GDScript
   frameworks:
   - Godot
   licenses:
-  - As-is
-  updated: 2020-08-25
+  - MIT
+  updated: 2022-08-29
   images:
   - https://raw.githubusercontent.com/Kenny-Haworth/Harvest-Moon-2.0/master/Screenshots/Crops.png
   - https://raw.githubusercontent.com/Kenny-Haworth/Harvest-Moon-2.0/master/Screenshots/Forest.png
@@ -111,7 +114,6 @@
   updated: 2021-11-20
   url: http://twitter.com/GreentwipHealth
 
-
 - name: HauntedHouse
   langs:
   - ActionScript
@@ -120,9 +122,26 @@
   development: complete
   originals:
   - Haunted House
+  status: playable
   repo: https://github.com/KunoNoOni/HauntedHouse
   type: remake
-  updated: 2015-07-14
+  updated: 2022-08-29
+
+- name: Head over Heels
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - GPL3
+  development: halted
+  originals:
+  - Head over Heels
+  status: playable
+  repo: https://github.com/dougmencken/HeadOverHeels
+  type: remake
+  updated: 2022-08-29
+  info: Originated from version 1.0.1 by Jorge Rodríguez Santos http://www.headoverheels2.com/drupal/en/
 
 - name: Head over Heels 2
   langs:
@@ -131,24 +150,20 @@
   - GPL2
   frameworks:
   - Allegro
+  development: complete
   originals:
   - Head over Heels
-  repo: http://www.headoverheels2.com/descargas/headoverheels-1.0.1.tar.bz2
+  status: playable
   type: remake
-  updated: 2017-04-19
+  updated: 2022-08-29
   url: http://www.headoverheels2.com/drupal/en/
-
-- name: HeadOverHeels
-  langs:
-  - C++
-  licenses:
-  - GPL3
-  development: sporadic
-  originals:
-  - Head over Heels
-  repo: https://github.com/dougmencken/HeadOverHeels
-  type: remake
-  updated: 2017-04-19
+  images:
+  - https://headoverheels2.com/drupal/sites/default/files/images/safari01.png
+  - https://headoverheels2.com/drupal/sites/default/files/images/egyptus01.png
+  - https://headoverheels2.com/drupal/sites/default/files/images/byblos03.png
+  - https://headoverheels2.com/drupal/sites/default/files/images/egyptus02.png
+  - https://headoverheels2.com/drupal/sites/default/files/images/byblos01.png
+  - https://headoverheels2.com/drupal/sites/default/files/images/moonbase01.png
 
 - name: Heart of the Alien Redux
   langs:
@@ -221,27 +236,29 @@
   - https://raw.githubusercontent.com/francot514/CivHeroes/master/preview.png
   licenses:
   - GPL2
-  development: active
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Irrlicht
+  development: halted
   originals:
   - Yu-Gi-Oh!
+  status: playable
   repo: https://github.com/francot514/CivHeroes
   type: clone
-  updated: 2020-04-20
+  updated: 2022-08-29
 
 - name: Herzog 3D
-  images:
-  - http://herzog3d.sourceforge.net/images/hz_1.jpeg
-  - http://herzog3d.sourceforge.net/images/hz_2.jpeg
-  - http://herzog3d.sourceforge.net/images/hz_3.jpeg
-  - http://herzog3d.sourceforge.net/images/hz_4.jpeg
   licenses:
   - GPL2
   development: halted
   originals:
   - Herzog Zwei
-  repo: https://sourceforge.net/p/herzog3d/code/HEAD/tree/
+  status: unplayable
+  repo: https://sourceforge.net/projects/herzog3d/
   type: clone
-  updated: 2016-06-18
+  updated: 2022-08-29
   url: http://herzog3d.sourceforge.net/
 
 - name: HexGL
@@ -276,19 +293,19 @@
   content: open
   updated: 2021-02-06
   images:
-  - http://hexoshi.nongnu.org/screenshots/screenshot1.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot2.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot3.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot4.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot5.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot6.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot7.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot8.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot9.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot10.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot11.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot12.png
-  - http://hexoshi.nongnu.org/screenshots/screenshot13.png
+  - https://hexoshi.github.io/screenshots/screenshot1.png
+  - https://hexoshi.github.io/screenshots/screenshot2.png
+  - https://hexoshi.github.io/screenshots/screenshot3.png
+  - https://hexoshi.github.io/screenshots/screenshot4.png
+  - https://hexoshi.github.io/screenshots/screenshot5.png
+  - https://hexoshi.github.io/screenshots/screenshot6.png
+  - https://hexoshi.github.io/screenshots/screenshot7.png
+  - https://hexoshi.github.io/screenshots/screenshot8.png
+  - https://hexoshi.github.io/screenshots/screenshot9.png
+  - https://hexoshi.github.io/screenshots/screenshot10.png
+  - https://hexoshi.github.io/screenshots/screenshot11.png
+  - https://hexoshi.github.io/screenshots/screenshot12.png
+  - https://hexoshi.github.io/screenshots/screenshot13.png
 
 - name: Hextris
   langs:
@@ -315,14 +332,17 @@
   - https://conquertheworldbycode.files.wordpress.com/2013/10/screen.png
   langs:
   - C#
+  frameworks:
+  - Unity
   licenses:
   - As-is
   development: halted
   originals:
   - 'History Line: 1914-1918'
+  status: unplayable
   repo: https://github.com/oliverdb/Historyline
   type: remake
-  updated: 2015-05-03
+  updated: 2022-08-29
   url: https://conquertheworldbycode.wordpress.com/nostalgia-2/
 
 - name: hobbitgfx
@@ -343,8 +363,6 @@
 - name: Hocoslamfy
   frameworks:
   - SDL
-  images:
-  - http://www.gcw-zero.com/images/articles/hocoslamfy-score-shown-2.png
   langs:
   - C
   licenses:
@@ -352,23 +370,29 @@
   development: halted
   originals:
   - Flappy Bird
+  status: playable
   repo: https://github.com/Nebuleon/hocoslamfy
   type: remake
-  updated: 2015-06-01
+  updated: 2022-08-29
   video:
     youtube: rPWK6kO3D0M
 
-- name: HODe
+- name: hode
   langs:
   - C++
   licenses:
   - As-is
-  development: halted
+  content: commercial
+  development: sporadic
   originals:
   - Heart of Darkness
+  status: playable
   url: http://cyxdown.free.fr/hode/ 
+  repo: https://github.com/usineur/hode
   type: remake
-  updated: 2020-01-09
+  updated: 2022-08-29
+  video:
+    youtube: avtU8ng4QRE
 
 - name: Homeworld SDL
   frameworks:
