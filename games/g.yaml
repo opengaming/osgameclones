@@ -6,21 +6,23 @@
   development: halted
   originals:
   - Galaxian
+  status: unplayable
   repo: https://github.com/codedrive/galaxian
   type: remake
-  updated: 2015-05-28
+  updated: 2022-08-23
 
 - name: Galaxy Forces V2
   langs:
   - C++
   licenses:
   - PD
-  development: active
+  development: halted
   originals:
   - Gravity Force
+  status: playable
   repo: https://sourceforge.net/projects/galaxyv2/
   type: remake
-  updated: 2020-12-22
+  updated: 2022-08-23
   url: http://www.galaxy-forces.com/
   images:
   - https://a.fsdn.com/con/app/proj/galaxyv2/screenshots/317087.jpg/max/max/1
@@ -100,9 +102,10 @@
   development: halted
   originals:
   - Geometry Wars
+  status: unplayable
   repo: https://code.google.com/archive/p/geomwarsremake/source/default/source
   type: remake
-  updated: 2020-08-25
+  updated: 2022-08-23
   url: https://code.google.com/archive/p/geomwarsremake/
 
 - name: Ghostly
@@ -133,10 +136,14 @@
   development: active
   originals:
   - Flag Catcher
+  status: playable
   repo: https://github.com/ceva24/gift-grabber
   type: remake
-  updated: 2021-11-20
+  updated: 2022-08-23
   url: https://ceva24.github.io/gift-grabber/
+  images:
+  - https://ceva24.github.io/gift-grabber/images/arrow-tile.png
+  - https://ceva24.github.io/gift-grabber/images/number-tile.png
 
 - name: Gigalomania
   images:
@@ -384,13 +391,17 @@
   - JavaScript
   licenses:
   - As-is
+  content: commercial
   development: complete
   originals:
   - Pac-Man
+  status: playable
   repo: https://github.com/livingston/google-pacman
   type: remake
-  updated: 2015-05-20
+  updated: 2022-08-23
   url: http://livingston.github.io/google-pacman/
+  images:
+  - https://www.google.com/logos/pacman10-hp.2.png
 
 - name: Gorc
   type: remake
@@ -407,18 +418,21 @@
   updated: 2019-03-21
 
 - name: Gorillas
-  info: iOS
+  info: Gorillas is an artillery-style iOS game, based on the old Qbasic GORILLA.BAS.
   langs:
   - Objective-C
   licenses:
   - JRL
-  development: sporadic
+  development: halted
   originals:
   - Gorillas
+  status: playable
   repo: https://github.com/Lyndir/Gorillas
   type: remake
-  updated: 2020-08-31
+  updated: 2022-08-23
   url: https://gorillas.lyndir.com/index.html
+  video:
+    youtube: uKCZltvE21w
 
 - name: Gorillas-rs
   type: clone
@@ -468,23 +482,24 @@
   development: halted
   originals:
   - Pole Position
+  status: unplayable
   repo: https://github.com/jonathanopalise/grid-leader
   type: remake
-  updated: 2015-06-22
+  updated: 2022-08-23
 
 - name: Griefly
   langs:
   - C++
   - Go
-  - Python
   licenses:
   - MIT
-  development: active
+  development: halted
   originals:
   - Space Station 13
+  status: unplayable
   repo: https://github.com/griefly/griefly
   type: remake
-  updated: 2019-09-13
+  updated: 2022-08-23
 
 - name: Grimsonland
   type: clone
@@ -522,14 +537,17 @@
 - name: gta2net
   langs:
   - C#
+  frameworks:
+  - MonoGame
   licenses:
   - As-is
   development: halted
   originals:
   - Grand Theft Auto 2
+  status: unplayable
   type: remake
-  updated: 2021-01-30
-  url: https://code.google.com/archive/p/gta2net/
+  updated: 2022-08-23
+  url: https://github.com/peon501/GTA2.NET
 
 - name: GUSANOS
   development: halted
@@ -556,9 +574,10 @@
   development: halted
   originals:
   - Snake
+  status: playable
   repo: https://sourceforge.net/projects/gustysserpents/
   type: clone
-  updated: 2019-12-11
+  updated: 2022-08-23
   url: http://gustysserpents.sourceforge.net/
 
 - name: Gweled
@@ -587,7 +606,7 @@
 
 - name: GZDoom
   images:
-  - http://forum.drdteam.org/download/file.php?id=2219
+  - https://forum.drdteam.org/download/file.php?id=2219
   langs:
   - C++
   licenses:
@@ -597,7 +616,9 @@
   - Doom
   - Heretic
   - Hexen
+  status: playable
   repo: https://github.com/coelckers/gzdoom
   type: remake
-  updated: 2019-09-14
+  updated: 2022-08-23
   url: https://zdoom.org/index
+  info: GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine
