@@ -597,27 +597,49 @@
 
 - name: FreeCS
   images:
-  - https://a.fsdn.com/con/app/proj/freecs-1-5/screenshots/screen1.png/max/max/1
-  - https://a.fsdn.com/con/app/proj/freecs-1-5/screenshots/screen2.png/max/max/1
-  - https://a.fsdn.com/con/app/proj/freecs-1-5/screenshots/screen3.png/max/max/1
-  - https://a.fsdn.com/con/app/proj/freecs-1-5/screenshots/screen4.png/max/max/1
-  - https://a.fsdn.com/con/app/proj/freecs-1-5/screenshots/portable.jpg/max/max/1
+  - https://github.com/eukara/freecs/raw/master/img/preview1.jpg
+  - https://github.com/eukara/freecs/raw/master/img/preview2.jpg
+  - https://github.com/eukara/freecs/raw/master/img/preview3.jpg
+  - https://github.com/eukara/freecs/raw/master/img/preview4.jpg
   langs:
-  - Quake
+  - QuakeC
   licenses:
-  - GPL2
-  development: sporadic
+  - ISC
+  development: active
   originals:
   - Counter-Strike
   status: playable
-  repo: https://sourceforge.net/projects/freecs-1-5/
+  repo: https://github.com/eukara/freecs
   type: remake
   content: free
   multiplayer:
   - Online
   - LAN
-  updated: 2022-08-20
+  updated: 2022-09-01
   info: FreeCS is a free-software reimplementation of Counter-Strike 1.5 running on the FTEQW engine.
+
+- name: FreeHL
+  images:
+  - https://github.com/eukara/freehl/raw/master/img/preview1.jpg
+  - https://github.com/eukara/freehl/raw/master/img/preview2.jpg
+  - https://github.com/eukara/freehl/raw/master/img/preview3.jpg
+  - https://github.com/eukara/freehl/raw/master/img/preview4.jpg
+  langs:
+  - QuakeC
+  licenses:
+  - ISC
+  development: active
+  originals:
+  - Half-Life
+  status: semi-playable
+  repo: https://github.com/eukara/freehl
+  type: remake
+  content: free
+  multiplayer:
+  - Online
+  - LAN
+  updated: 2022-09-01
+  info: FreeHL is a free-software reimplementation of Half-Life running on the FTEQW engine.
 
 - name: Freedoom
   development: active
