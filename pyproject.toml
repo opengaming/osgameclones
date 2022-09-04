@@ -17,6 +17,7 @@ jinja2 = "3.0.3"
 python-slugify = "^5.0.2"
 
 [tool.poetry.dev-dependencies]
+yamllint = "^1.27.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

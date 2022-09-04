@@ -68,6 +68,14 @@ fast = ["fastnumbers (>=2.0.0)"]
 icu = ["PyICU (>=1.0.0)"]
 
 [[package]]
+name = "pathspec"
+version = "0.9.0"
+description = "Utility library for gitignore style pattern matching of file paths."
+category = "main"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
+
+[[package]]
 name = "pykwalify"
 version = "1.8.0"
 description = "Python lib/cli for JSON/YAML schema validation"
@@ -173,10 +181,22 @@ category = "main"
 optional = false
 python-versions = ">=3.5"
 
+[[package]]
+name = "yamllint"
+version = "1.27.1"
+description = "A linter for YAML files."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pathspec = ">=0.5.3"
+pyyaml = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "1cc411e7d9f5235086c93c64f700669e3a43dffae35a62c5e02250447af10e9b"
+content-hash = "85e6f99250c5d6086591dbf9227bc88143c22e161fb6bc21ad1e79339bb29aba"
 
 [metadata.files]
 click = [
@@ -272,6 +292,7 @@ natsort = [
     {file = "natsort-8.0.0-py3-none-any.whl", hash = "sha256:5f5f4ea471d655b1b1611eef1cf0c6d3397095d2d3a1aab7098d6a50e4c3901a"},
     {file = "natsort-8.0.0.tar.gz", hash = "sha256:a0a4fd71aee20a6d648da61e01180a63f7268e69983d0440bd3ad80ef1ba6981"},
 ]
+pathspec = []
 pykwalify = [
     {file = "pykwalify-1.8.0-py2.py3-none-any.whl", hash = "sha256:731dfa87338cca9f559d1fca2bdea37299116e3139b73f78ca90a543722d6651"},
     {file = "pykwalify-1.8.0.tar.gz", hash = "sha256:796b2ad3ed4cb99b88308b533fb2f559c30fa6efb4fa9fda11347f483d245884"},
@@ -365,3 +386,4 @@ unidecode = [
     {file = "Unidecode-1.3.2-py3-none-any.whl", hash = "sha256:215fe33c9d1c889fa823ccb66df91b02524eb8cc8c9c80f9c5b8129754d27829"},
     {file = "Unidecode-1.3.2.tar.gz", hash = "sha256:669898c1528912bcf07f9819dc60df18d057f7528271e31f8ec28cc88ef27504"},
 ]
+yamllint = []

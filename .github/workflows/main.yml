@@ -1,6 +1,19 @@
 name: Build and Deploy
 on: [push, pull_request, pull_request_target]
 jobs:
+  yamllint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Yamllint
+      uses: ibiqlik/action-yamllint@v3
+      with:
+        file_or_dir: games/*.yaml originals/*.yaml schema/*.yaml
+      env:
+        GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
