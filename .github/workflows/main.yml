@@ -21,9 +21,10 @@ jobs:
       uses: actions/checkout@master
 
     - name: Setup Python
-      uses: actions/setup-python@v2.2.2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.8'
+        cache: 'poetry'
 
     - name: Build
       run: |
