@@ -1,32 +1,32 @@
 type: seq
 sequence:
-  - type: map
-    mapping:
-      name:
-        required: True
-        type: str
-      names:
-        type: seq
-        sequence:
-          - type: str
-        desc: Alternate names for this game
-      external:
-        required: True
-        type: map
-        mapping:
-          website:
-            type: str
-            desc: URL of official website
-          wikipedia:
-            type: str
-            desc: Title of Wikipedia article
-      platforms:
-        type: seq
-        sequence:
-          - include: platforms
-            unique: True
-      meta:
-        include: meta
+- type: map
+  mapping:
+    name:
+      required: True
+      type: str
+    names:
+      type: seq
+      sequence:
+      - type: str
+      desc: Alternate names for this game
+    external:
+      required: True
+      type: map
+      mapping:
+        website:
+          type: str
+          desc: URL of official website
+        wikipedia:
+          type: str
+          desc: Title of Wikipedia article
+    platforms:
+      type: seq
+      sequence:
+      - include: platforms
+        unique: True
+    meta:
+      include: meta
 
 schema;meta:
   type: map
@@ -34,18 +34,18 @@ schema;meta:
     genres:
       type: seq
       sequence:
-        - include: genres
-          unique: True
+      - include: genres
+        unique: True
     subgenres:
       type: seq
       sequence:
-        - include: subgenres
-          unique: True
+      - include: subgenres
+        unique: True
     themes:
       type: seq
       sequence:
-        - include: themes
-          unique: True
+      - include: themes
+        unique: True
 
 
 schema;platforms:

@@ -1,6 +1,6 @@
 type: seq
 sequence:
-  - include: game
+- include: game
 
 schema;game:
   type: map
@@ -13,8 +13,8 @@ schema;game:
       required: True
       type: seq
       sequence:
-        - type: str
-          unique: True
+      - type: str
+        unique: True
       desc: Name(s) of games this clones
     type:
       required: True
@@ -49,9 +49,9 @@ schema;game:
     multiplayer:
       type: seq
       sequence:
-        - type: str
-          enum: ['Competitive', 'Local', 'Online', 'LAN', 'Split-screen', 'Co-op', 'Hotseat', 'Matchmaking']
-          unique: True
+      - type: str
+        enum: ['Competitive', 'Local', 'Online', 'LAN', 'Split-screen', 'Co-op', 'Hotseat', 'Matchmaking']
+        unique: True
     content:
       type: str
       enum: ['commercial', 'free', 'open', 'swappable']
@@ -64,20 +64,20 @@ schema;game:
       type: seq
       desc: Main programming language(s) used for the game, e.g. C++
       sequence:
-        - type: str
-          unique: True
+      - type: str
+        unique: True
     frameworks:
       type: seq
       desc: Framework(s) or engine(s) used for the game, e.g. SDL2
       sequence:
-        - type: str
-          unique: True
+      - type: str
+        unique: True
     licenses:
       required: True
       type: seq
       sequence:
-        - include: licenses
-          unique: True
+      - include: licenses
+        unique: True
     info:
       type: str
       desc: Any notable information about the game
@@ -89,8 +89,8 @@ schema;game:
     images:
       type: seq
       sequence:
-        - type: str
-          unique: True
+      - type: str
+        unique: True
       desc: URLs of screenshots for the game
     video:
       type: map
