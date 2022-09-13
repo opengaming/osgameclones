@@ -44,18 +44,23 @@
 
 - name: Ice Breaker
   images:
-  - http://mattdm.org/icebreaker/images/screenshot-level1-linux.png
-  - http://mattdm.org/icebreaker/images/screenshot-level2-billg.png
-  - http://mattdm.org/icebreaker/images/screenshot-level5-jz-like.png
-  - http://mattdm.org/icebreaker/images/screenshot-level6-stars.png
+  - https://mattdm.org/icebreaker/images/screenshot-level1-linux.png
+  - https://mattdm.org/icebreaker/images/screenshot-level2-billg.png
+  - https://mattdm.org/icebreaker/images/screenshot-level5-jz-like.png
+  - https://mattdm.org/icebreaker/images/screenshot-level6-stars.png
   originals:
   - JezzBall
+  status: playable
   licenses:
   - GPL2
-  repo: http://mattdm.org/icebreaker/1.2.x/icebreaker-1.2.1.tgz
   type: remake
-  updated: 2015-05-09
-  url: http://mattdm.org/icebreaker/
+  langs:
+  - C
+  frameworks:
+  - SDL
+  development: sporadic
+  updated: 2022-09-07
+  url: https://mattdm.org/icebreaker/
 
 - name: Iceball
   development: halted
@@ -128,19 +133,19 @@
   url: https://inexor.org/
 
 - name: Interstate Outlaws
-  images:
-  - http://www.interstateoutlaws.com/media/craterpreview.jpg
   langs:
   - Python
+  frameworks:
+  - Crystal Space
   licenses:
-  - As-is
+  - GPL2
   development: halted
   originals:
   - Interstate '76
-  repo: http://www.interstateoutlaws.com/downloads/Outlaws-0.1.1a-linux.tar.gz
+  status: semi-playable
   type: remake
-  updated: 2015-07-04
-  url: http://www.interstateoutlaws.com/
+  updated: 2022-09-07
+  url: http://web.archive.org/web/20071011202135/http://interstateoutlaws.com/
 
 - name: IO Reboot
   development: complete
@@ -278,12 +283,15 @@
   - C++
   licenses:
   - GPL3
-  development: active
+  content: open
+  development: sporadic
   originals:
   - Super Monkey Ball
+  status: playable
   repo: https://github.com/jazztickets/irrlamb
+  url: https://jazztickets.github.io/docs/irrlamb/
   type: remake
-  updated: 2015-12-29
+  updated: 2022-09-07
 
 - name: Isometric-Minesweeper
   originals:
