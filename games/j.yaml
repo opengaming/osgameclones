@@ -129,28 +129,32 @@
   - https://raw.githubusercontent.com/Uvadzucumi/JetLee/master/data/scr/scr-03.png
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - As-is
   development: halted
   originals:
   - Bruce Lee
+  status: playable
   repo: https://github.com/Uvadzucumi/JetLee
   type: remake
-  updated: 2015-08-23
+  updated: 2022-09-13
 
 - name: Jet-Story
   langs:
   - C++
   licenses:
   - MIT
-  development: active
+  development: sporadic
   originals:
   - Jet-Story
+  status: semi-playable
   repo: https://github.com/adamenkov/jet-story
   type: remake
-  updated: 2016-02-08
+  updated: 2022-09-13
 
-- name: Jetpac remake
+- name: JetPac
   frameworks:
   - XNA
   langs:
@@ -160,9 +164,12 @@
   development: complete
   originals:
   - Jetpac
+  status: playable
   repo: https://github.com/ian-wigley/JetPac
   type: remake
-  updated: 2015-05-10
+  updated: 2022-09-13
+  images:
+  - https://raw.githubusercontent.com/ian-wigley/JetPac/master/XNA_Jetpac/XNA_Jetpac_Remake.jpg
 
 - name: jewelthief
   images:
@@ -174,12 +181,17 @@
   - Java
   licenses:
   - CC-BY
-  development: active
+  content: open
+  development: halted
   originals:
   - Jewel Thief
+  status: playable
   repo: https://github.com/cdetamble/jewelthief
+  url: https://goo.gl/58hR5u
   type: remake
-  updated: 2020-08-31
+  updated: 2022-09-13
+  video:
+    youtube: RObU2xX5HiE
 
 - name: JFDuke3D
   type: remake
@@ -210,9 +222,10 @@
   development: halted
   originals:
   - Elite III
+  status: unplayable
   repo: https://github.com/videogamepreservation/jjffe
   type: remake
-  updated: 2016-01-10
+  updated: 2022-09-13
 
 - name: JLud2D
   images:
@@ -224,13 +237,15 @@
   - Java
   licenses:
   - As-is
-  development: sporadic
+  content: commercial
+  development: halted
   originals:
   - Phantasy Star
   - Alex Kidd in Miracle World
+  status: playable
   repo: https://github.com/rafael-esper/JLud2D
   type: remake
-  updated: 2018-10-06
+  updated: 2022-09-13
 
 - name: JonoF's Shadow Warrior Port (JFSW)
   images:
@@ -273,15 +288,17 @@
   development: halted
   originals:
   - Overflow
+  status: unplayable
   repo: https://github.com/bluepoke/JOverflow
   type: remake
-  updated: 2015-06-22
+  updated: 2022-09-13
 
 - name: JSettlers
-  development: active
+  development: halted
   images:
   - https://www.settlers-android-clone.com/wp-content/uploads/2017/01/Screenshot_20170127-222244.png
-  video: {youtube: DdVtOhIIjow}
+  video:
+    youtube: DdVtOhIIjow
   langs:
   - Java
   licenses:
@@ -289,9 +306,10 @@
   content: commercial
   originals:
   - The Settlers III
+  status: playable
   repo: https://github.com/jsettlers/settlers-remake
   type: remake
-  updated: 2018-05-28
+  updated: 2022-09-13
   url: http://www.settlers-android-clone.com/
 
 - name: jsFO
@@ -312,14 +330,17 @@
 - name: jspacman-canvas
   langs:
   - JavaScript
+  frameworks:
+  - Impact
   licenses:
   - As-is
   development: halted
   originals:
   - Pac-Man
+  status: playable
   repo: https://github.com/hguillermo/jspacman-canvas
   type: remake
-  updated: 2015-05-20
+  updated: 2022-09-13
   url: http://www.hg10101.com/games/jspacman/index.html
 
 - name: Julius
@@ -387,8 +408,6 @@
   - https://retrospec.sgn.net/config/gamelogos/jj2.gif
 
 - name: Jumpman
-  images:
-  - http://www.oldskool.org/pc/jumpman/level01.gif
   langs:
   - Assembly
   licenses:
@@ -396,7 +415,7 @@
   development: halted
   originals:
   - Jumpman
-  repo: http://www.oldskool.org/pc/jumpman/jump_src.zip
+  status: playable
   type: remake
-  updated: 2015-05-09
+  updated: 2022-09-13
   url: http://www.oldskool.org/pc/jumpman
