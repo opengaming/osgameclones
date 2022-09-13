@@ -41,6 +41,7 @@ const knownFrameworks = [
   'Godot',
   'Graphics32',
   'GTK+',
+  'Impact',
   'Inform',
   'Irrlicht',
   'JavaFX',
