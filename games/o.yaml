@@ -1201,21 +1201,6 @@
   type: remake
   updated: 2020-08-25
 
-- name: opengl_test_drive_clone
-  images:
-  - http://antongerdelan.net/blog/images/tdrive_speedo.png
-  - http://antongerdelan.net/blog/images/tdrive_tacho.png
-  langs:
-  - C
-  licenses:
-  - GPL3
-  originals:
-  - Test Drive
-  repo: https://github.com/capnramses/opengl_test_drive_clone
-  type: remake
-  updated: 2015-05-03
-  url: http://antongerdelan.net/blog/?post=2014_12_10_test_drive
-
 - name: Openglad
   images:
   - http://snowstorm.sourceforge.net/screenshots/1.png
@@ -1236,6 +1221,28 @@
   type: remake
   url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=openglad
   updated: 2021-04-09
+
+- name: OpenGL Test Drive Remake
+  images:
+  - https://antongerdelan.net/blog/images/tdrive_wheel.png
+  - https://antongerdelan.net/blog/images/tdrive_tacho.png
+  - https://antongerdelan.net/blog/images/tdrive_speedo.png
+  - https://antongerdelan.net/blog/images/tdrive_end.png
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL3
+  content: open
+  originals:
+  - Test Drive
+  status: semi-playable
+  repo: https://github.com/capnramses/opengl_test_drive_clone
+  development: halted
+  type: remake
+  updated: 2022-09-14
+  url: https://antongerdelan.net/blog/formatted/2014_12_10_test_drive.html
 
 - name: OpenGoo
   langs:
