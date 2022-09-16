@@ -353,19 +353,20 @@
 
 - name: Vorton
   images:
-  - http://vorton.sourceforge.net/shot2.png
-  - http://vorton.sourceforge.net/shot3.png
-  - http://vorton.sourceforge.net/shot5.png
+  - https://pyra-handheld.com/boards/proxy.php?image=http%3A%2F%2Frepo.openpandora.org%2Ffiles%2Fpnd%2Fvorton_ptitseb%2Fpreview1.png&hash=90458c2e81b5514df95acfd77b0fa32a
   langs:
   - C
+  frameworks:
+  - SDL
   licenses:
-  - GPL3
+  - GPL2
   development: halted
   originals:
   - Highway Encounter
-  repo: http://iweb.dl.sourceforge.net/project/vorton/Vorton-Source/Beta-2/vorton-src-beta2.zip
+  status: playable
+  repo: https://sourceforge.net/projects/vorton/
   type: remake
-  updated: 2015-05-03
+  updated: 2022-09-16
   url: http://vorton.sourceforge.net/
 
 - name: Voxelands
