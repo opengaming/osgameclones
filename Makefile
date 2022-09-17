@@ -8,10 +8,12 @@ min:
 
 poetry:
 	pip3 install -q poetry
+
+poetry-install:
 	poetry install -q
 
-prod: poetry run min
-ci: run
+prod: poetry poetry-install run min
+ci: poetry-install run
 
 docker-build:
 	docker build -t opengaming/osgameclones .
