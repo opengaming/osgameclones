@@ -11,7 +11,7 @@ poetry:
 	poetry install -q
 
 prod: poetry run min
-ci: poetry run
+ci: run
 
 docker-build:
 	docker build -t opengaming/osgameclones .
