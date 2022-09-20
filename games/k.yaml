@@ -29,13 +29,17 @@
   - GPL2
   - MIT
   - ISC
-  development: sporadic
+  development: halted
   originals:
   - Mario Kart
+  status: semi-playable
   repo: https://github.com/sandsmark/kart
   type: similar
-  updated: 2019-09-14
+  updated: 2022-09-20
   info: 2D racing game inspired by Mario Kart. Network play only, designed as a programming game, but supports human controls.
+  images:
+  - https://raw.githubusercontent.com/sandsmark/kart/master/startscreen.png
+  - https://raw.githubusercontent.com/sandsmark/kart/master/screenshot.png
 
 - name: Kathodos
   frameworks:
@@ -44,42 +48,47 @@
   - Python
   licenses:
   - As-is
+  content: commercial
   development: halted
   originals:
   - Descent
   - Descent II
+  status: unplayable
   repo: https://github.com/jvranish/Kathodos
   type: remake
-  updated: 2015-05-28
+  updated: 2022-09-20
 
 - name: KAtomic
   images:
   - https://cdn.kde.org/screenshots/katomic/katomic.png
   langs:
   - C++
+  frameworks:
+  - Qt
   licenses:
   - GPL2
   development: active
   originals:
   - Atomix
+  status: playable
   repo: https://invent.kde.org/games/katomic
   type: remake
-  updated: 2021-11-20
+  updated: 2022-09-20
   url: https://apps.kde.org/katomic/
 
 - name: Keen Dreams
-  images:
-  - http://cloud-3.steamusercontent.com/ugc/26216921914590827/8AECCAA9C1AA07D02F357A41AEFB074FC02A75A1/
   langs:
   - C
   licenses:
   - GPL2
-  development: halted
+  content: commercial
+  development: complete
   originals:
   - Commander Keen Series
+  status: playable
   repo: https://github.com/keendreams/keen
-  type: remake
-  updated: 2019-03-12
+  type: official
+  updated: 2022-09-20
   video:
     youtube: 23SahL6eG6A
 
@@ -147,33 +156,47 @@
   development: halted
   originals:
   - Kid Chameleon
+  status: unplayable
   repo: https://github.com/mp1011/KidChameleonRemake
   type: remake
-  updated: 2015-05-29
+  updated: 2022-09-20
 
 - name: KittenMaxit
+  langs:
+  - Java
   frameworks:
   - LibGDX
   licenses:
   - MIT
-  development: sporadic
+  development: halted
   originals:
   - Maxit
+  status: playable
   repo: https://github.com/ahmetkasif/kmaxit
   type: remake
-  updated: 2020-08-31
+  updated: 2022-09-20
+  images:
+  - https://i.imgur.com/3QvTDrN.png
+  - https://i.imgur.com/G1rezQr.png
 
 - name: KnightOfWor
   langs:
   - Java
   licenses:
   - GPL3
-  development: active
+  content: open
+  development: halted
   originals:
   - Wizard of Wor
+  status: semi-playable
   repo: https://github.com/Sanguinik/KnightOfWor
+  url: https://www.sanguinik.de/2012/11/11/knight-of-wor-ein-wizard-of-wor-remake/
   type: remake
-  updated: 2015-05-29
+  updated: 2022-09-20
+  images:
+  - https://www.sanguinik.de/wp-content/uploads/2012/11/titlescreen.png
+  - https://www.sanguinik.de/wp-content/uploads/2012/11/spiel.png
+  - https://www.sanguinik.de/wp-content/uploads/2012/11/credits.png
 
 - name: Knights
   images:
