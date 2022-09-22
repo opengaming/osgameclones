@@ -352,20 +352,19 @@
   updated: 2017-04-04
 
 - name: Vorton
-  images:
-  - http://vorton.sourceforge.net/shot2.png
-  - http://vorton.sourceforge.net/shot3.png
-  - http://vorton.sourceforge.net/shot5.png
   langs:
   - C
+  frameworks:
+  - SDL
   licenses:
-  - GPL3
+  - GPL2
   development: halted
   originals:
   - Highway Encounter
-  repo: http://iweb.dl.sourceforge.net/project/vorton/Vorton-Source/Beta-2/vorton-src-beta2.zip
+  status: playable
+  repo: https://sourceforge.net/projects/vorton/
   type: remake
-  updated: 2015-05-03
+  updated: 2022-09-16
   url: http://vorton.sourceforge.net/
 
 - name: Voxelands
