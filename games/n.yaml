@@ -340,19 +340,22 @@
 
 - name: NStars!
   images:
-  - http://nstars.sourceforge.net/nstars01.png
-  - http://nstars.sourceforge.net/nstars02.png
-  - http://nstars.sourceforge.net/nstars03.png
+  - https://nstars.sourceforge.net/nstars01.png
+  - https://nstars.sourceforge.net/nstars02.png
+  - https://nstars.sourceforge.net/nstars03.png
   langs:
   - C#
+  frameworks:
+  - .NET
   licenses:
   - GPL2
   development: halted
   originals:
   - Stars!
-  repo: http://nstars.cvs.sourceforge.net/viewvc/nstars/
+  status: playable
+  repo: https://sourceforge.net/projects/nstars/
   type: remake
-  updated: 2015-05-09
+  updated: 2022-09-23
   url: http://nstars.sourceforge.net/
 
 - name: NullpoMino
