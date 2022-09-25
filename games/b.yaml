@@ -266,6 +266,7 @@
   - ビートマニア ツーディーエックス
   - Bītomania Tsū Di Ekkusu
   type: clone
+  status: playable
   repo: 'https://github.com/bemusic/bemuse'
   url: 'https://bemuse.ninja/'
   development: sporadic
@@ -276,7 +277,15 @@
   licenses:
   - AGPL3
   updated: '2022-01-01'
-
+  images:
+  - >-
+    https://github.com/bemusic/bemuse/raw/master/website/static/img/screenshots/music-selection.jpg
+  - >-
+    https://github.com/bemusic/bemuse/raw/master/website/static/img/screenshots/gameplay-kbd.jpg
+  - >-
+    https://github.com/bemusic/bemuse/raw/master/website/static/img/screenshots/gameplay-bms.jpg
+  - >-
+    https://github.com/bemusic/bemuse/raw/master/website/static/img/screenshots/options.jpg
 
 - name: Bermuda Syndrome
   development: halted
