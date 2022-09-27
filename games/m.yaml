@@ -79,9 +79,11 @@
   development: halted
   originals:
   - Magic Carpet
+  status: unplayable
   repo: https://github.com/wonea/magiccarpet
   type: remake
   updated: 2016-04-20
+  info: Automatically exported from code.google.com/p/magiccarpet
 
 - name: Magnetar
   originals:
@@ -105,10 +107,15 @@
   - As-is
   originals:
   - TrackMania
-  repo: https://sourceforge.net/projects/maniadrive/files/maniadrive/1.2/ManiaDrive-1.2-src.tar.gz
+  status: playable
   type: remake
-  updated: 2016-05-16
+  updated: 2022-09-27
+  development: halted
   url: http://maniadrive.raydium.org/
+  images:
+  - https://ftp.cqfd-corp.org/raycap2006-09-17-144630-00.jpg
+  - https://ftp.cqfd-corp.org/raycap2006-09-17-145551-00.jpg
+  - https://ftp.cqfd-corp.org/raycap2006-09-17-145421-00.jpg
 
 - name: Manic Digger
   images:
@@ -133,17 +140,20 @@
   updated: 2021-07-25
   url: http://manicdigger.sourceforge.net
 
-- name: Manic Miner
+- name: Manic Miner PC
   langs:
   - Blitz BASIC
   licenses:
   - Custom
   originals:
   - Manic Miner
-  repo: http://retrospec.sgn.net/download.php?link=mm&url=http://www.retrospec.sgn.net/users/anoble/files/ManicBB.zip
+  status: playable
+  development: complete
   type: remake
   updated: 2018-10-05
   url: http://retrospec.sgn.net/game/mm
+  images:
+  - https://retrospec.sgn.net/config/gamelogos/mm.gif
 
 - name: Marble Madness 3d
   langs:
@@ -190,10 +200,14 @@
   - "L\xD6VE"
   originals:
   - Mario World
+  status: playable
   repo: https://github.com/Stabyourself/mari0
+  development: sporadic
   type: remake
   updated: 2019-11-20
   url: http://stabyourself.net/mari0/
+  video:
+    youtube: SaoHMjS04vU
 
 - name: Max_Vita
   originals:
@@ -249,18 +263,31 @@
 
 - name: Mechanized Assault & eXploration Reloaded
   images:
-  - http://www.maxr.org/images/screenshots/03.jpg
-  - http://www.maxr.org/images/screenshots/04.jpg
-  - http://www.maxr.org/images/screenshots/11.jpg
-  - http://www.maxr.org/images/screenshots/10.jpg
+  - https://www.maxr.org/images/screenshots/01.jpg
+  - https://www.maxr.org/images/screenshots/02.jpg
+  - https://www.maxr.org/images/screenshots/03.jpg
+  - https://www.maxr.org/images/screenshots/04.jpg
+  - https://www.maxr.org/images/screenshots/05.jpg
+  - https://www.maxr.org/images/screenshots/06.jpg
+  - https://www.maxr.org/images/screenshots/07.jpg
+  - https://www.maxr.org/images/screenshots/08.jpg
+  - https://www.maxr.org/images/screenshots/09.jpg
+  - https://www.maxr.org/images/screenshots/10.jpg
+  - https://www.maxr.org/images/screenshots/11.jpg
+  - https://www.maxr.org/images/screenshots/12.jpg
+  - https://www.maxr.org/images/screenshots/13.jpg
+  - https://www.maxr.org/images/screenshots/14.jpg
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
   - CC-BY-SA
   development: sporadic
   originals:
   - M.A.X.
+  status: playable
   repo: https://git.maxr.org/maxr/maxr
   type: remake
   updated: 2019-08-17
@@ -361,9 +388,10 @@
   - C
   licenses:
   - GPL2
-  development: active
+  development: halted
   originals:
   - Meridian 59
+  status: playable
   repo: https://github.com/Arantis/Meridian59_112
   type: remake
   updated: 2016-03-16
@@ -374,9 +402,10 @@
   - C
   licenses:
   - GPL2
-  development: active
+  development: halted
   originals:
   - Meridian 59
+  status: playable
   repo: https://github.com/OpenMeridian105/Meridian59
   type: remake
   updated: 2016-03-16
@@ -403,16 +432,16 @@
   - https://axiodl.com/images/pwe_hu7c7bec678fa5eef23b41aaa434dfa04c_1742668_0x480_resize_bg292a2d_box_2.png
   video:
     youtube: uMwqpL2_-LY
- 
 
 - name: mewl
   langs:
   - C++
   licenses:
   - GPL2
-  development: sporadic
+  development: halted
   originals:
   - M.U.L.E.
+  status: unplayable
   repo: https://github.com/LionsPhil/mewl
   type: remake
   updated: 2015-09-21
@@ -457,10 +486,13 @@
   development: sporadic
   originals:
   - SimCity
+  status: playable
   repo: https://github.com/graememcc/micropolisJS
   type: remake
-  updated: 2019-08-27
+  updated: 2022-09-27
   url: http://www.graememcc.co.uk/micropolisJS/
+  images:
+  - https://www.freegameplanet.com/wp-content/uploads/2017/08/micropolisJS-game.gif
 
 - name: Microracers
   langs:
@@ -611,9 +643,11 @@
   development: halted
   originals:
   - Minesweeper
+  status: unplayable
   repo: https://github.com/rachelreese/Minesweeper
   type: remake
   updated: 2015-09-28
+  info: Minesweeper in F# & iOS.
 
 - name: Minesweeper (DouglasMeyer)
   development: halted
@@ -637,6 +671,7 @@
   type: remake
   originals:
   - Minesweeper
+  status: playable
   repo: https://github.com/brenns10/minesweeper
   development: halted
   langs:
@@ -863,6 +898,7 @@
   - Doom
   - Heretic
   - Hexen
+  status: playable
   repo: https://github.com/AXDOOMER/mochadoom
   type: remake
   updated: 2019-12-06
@@ -881,37 +917,23 @@
   type: clone
   updated: 2021-09-18
 
-- name: MonoStrategy
-  development: halted
-  images:
-  - https://archive.codeplex.com/projects/monostrategy/04de7eb2-4534-4a93-bd89-9fb29773a4b2
-  - https://archive.codeplex.com/projects/monostrategy/701a748f-496d-4d0a-817e-52bc03df79c0
-  langs:
-  - C#
-  licenses:
-  - AGPL3
-  content: commercial
-  originals:
-  - The Settlers III
-  repo: https://monostrategy.codeplex.com/SourceControl/latest
-  type: remake
-  updated: 2017-05-29
-  url: https://monostrategy.codeplex.com/
-
 - name: Monsters and Mushrooms
   images:
-  - http://pygame.org/shots/989.png
+  - https://pygame.org/shots/989.png
   langs:
   - Python
+  frameworks:
+  - pygame
   licenses:
   - GPL2
   development: halted
   originals:
   - Millipede
+  status: playable
   repo: https://github.com/llopisdon/monsters_and_mushrooms
   type: remake
   updated: 2019-11-20
-  url: http://pygame.org/project-Monsters+and+Mushrooms-989-.html
+  url: https://pygame.org/project-Monsters+and+Mushrooms-989-.html
 
 - name: Monty Mole PC remake
   images:
@@ -976,14 +998,17 @@
   langs:
   - PHP
   - JavaScript
+  frameworks:
+  - Laravel
   licenses:
   - MIT
-  development: active
+  development: halted
   originals:
   - Movie Business
+  status: semi-playable
   repo: https://github.com/teruk/movbizz
   type: remake
-  updated: 2019-09-13
+  updated: 2022-09-27
 
 - name: Mr.Boom
   frameworks:
