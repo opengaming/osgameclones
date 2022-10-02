@@ -6,10 +6,12 @@
   development: halted
   originals:
   - Echochrome
-  repo: https://code.google.com/archive/p/l-echo/source/default/source
+  status: playable
+  repo: https://github.com/LibreGamesArchive/l-echo
   type: remake
-  updated: 2020-08-25
-  url: https://code.google.com/archive/p/l-echo/
+  updated: 2022-09-25
+  images:
+  - https://www.gamebrew.org/images/a/a3/Necho2.png
 
 - name: LAB3D/SDL
   images:
@@ -67,10 +69,11 @@
   - GPL2
   originals:
   - Ladder
-  repo: http://ostermiller.org/ladder/ladder.jar
+  status: playable
   type: remake
   updated: 2015-05-10
   url: http://ostermiller.org/ladder/
+  development: halted
 
 - name: ladder
   images:
@@ -79,9 +82,10 @@
   - Go
   licenses:
   - MIT
-  development: active
+  development: halted
   originals:
   - Ladder
+  status: semi-playable
   repo: https://github.com/SmallRoomLabs/ladder
   type: remake
   updated: 2016-02-26
@@ -112,6 +116,7 @@
   development: halted
   originals:
   - Terraria
+  status: unplayable
   repo: https://github.com/egordorichev/LastTry
   type: remake
   updated: 2021-11-20
@@ -197,19 +202,20 @@
 
 - name: The Legend Of Zelda - Navi's Quest
   frameworks:
-  - SDL
-  images:
-  - http://www.zeldaroth.fr/images/nsq/s1.png
+  - Solarus
   langs:
   - C++
   licenses:
   - As-is
   development: complete
   originals:
-  - Legend of Zelda
+  - Legend of Zelda - A Link to the Past
+  status: playable
   type: clone
   updated: 2015-09-27
   url: http://www.zeldaroth.fr/us/dlnsq.php
+  video:
+    youtube: HkpQpoQ8LGM
 
 - name: 'The Legend of Zelda: Ocarina of Time'
   originals:
@@ -229,66 +235,70 @@
   updated: '2021-12-12'
 
 - name: The Legend Of Zelda - Oni Link Begins
-  images:
-  - http://www.zeldaroth.fr/images/olb/s1.JPG
-  - http://www.zeldaroth.fr/images/olb/s5.JPG
-  - http://www.zeldaroth.fr/images/olb/s10.JPG
   langs:
   - C++
+  frameworks:
+  - Solarus
   licenses:
   - As-is
   development: complete
   originals:
-  - Legend of Zelda
+  - Legend of Zelda - A Link to the Past
+  status: playable
   type: clone
   updated: 2015-09-27
   url: http://www.zeldaroth.fr/us/zolb.php
+  video:
+    youtube: ATCSf3o19RY
 
 - name: The Legend Of Zelda - Picross
-  images:
-  - http://www.zeldaroth.fr/images/picross/s1.png
   langs:
   - C++
+  frameworks:
+  - Solarus
   licenses:
   - As-is
   development: complete
   originals:
-  - Legend of Zelda
+  - Legend of Zelda - A Link to the Past
+  status: playable
   type: clone
   updated: 2015-09-27
   url: http://www.zeldaroth.fr/us/dlpicross.php
 
 - name: The Legend Of Zelda - Return Of The Hylian
-  images:
-  - http://www.zeldaroth.fr/images/roth/s14.png
-  - http://www.zeldaroth.fr/images/roth/s1.png
-  - http://www.zeldaroth.fr/images/roth/s13.png
   langs:
   - C++
+  frameworks:
+  - Solarus
   licenses:
   - As-is
   development: complete
   originals:
-  - Legend of Zelda
+  - Legend of Zelda - A Link to the Past
+  status: playable
   type: clone
   updated: 2015-09-27
   url: http://www.zeldaroth.fr/us/zroth.php
+  video:
+    youtube: DUmeln2kDTg
 
 - name: The Legend Of Zelda - Time To Triumph
-  images:
-  - http://www.zeldaroth.fr/images/3t/s1.png
-  - http://www.zeldaroth.fr/images/3t/s12.png
-  - http://www.zeldaroth.fr/images/3t/s6.png
   langs:
   - C++
+  frameworks:
+  - Solarus
   licenses:
   - As-is
   development: complete
   originals:
-  - Legend of Zelda
+  - Legend of Zelda - A Link to the Past
+  status: playable
   type: clone
   updated: 2015-09-27
   url: http://www.zeldaroth.fr/us/z3t.php
+  video:
+    youtube: biPY10UcDy8
 
 - name: legion
   frameworks:
@@ -300,6 +310,7 @@
   development: halted
   originals:
   - Legion
+  status: unplayable
   repo: https://github.com/mahho/legion
   type: remake
   updated: 2015-06-22
@@ -578,9 +589,9 @@
 
 - name: Lionheart Remake
   images:
-  - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/1.png
-  - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/2.png
-  - http://www.b3dgs.com/v7/projects/lionheart_remake/screens/3.png
+  - https://www.b3dgs.com/v7/projects/lionheart_remake/screens/1.png
+  - https://www.b3dgs.com/v7/projects/lionheart_remake/screens/2.png
+  - https://www.b3dgs.com/v7/projects/lionheart_remake/screens/3.png
   langs:
   - Java
   licenses:
@@ -588,10 +599,11 @@
   development: active
   originals:
   - Lionheart
+  status: playable
   repo: https://github.com/b3dgs/lionheart-remake
   type: remake
   updated: 2021-11-20
-  url: http://www.b3dgs.com/
+  url: https://lionheart.b3dgs.com
 
 - name: Lix
   frameworks:
@@ -658,15 +670,22 @@
     youtube: pSdXftkK7M0
 
 - name: Lode Runner - Total Recall
+  langs:
+  - JavaScript
+  frameworks:
+  - CreateJS
   licenses:
   - As-is
-  development: active
+  development: sporadic
   originals:
   - Lode Runner
+  status: playable
   repo: https://github.com/SimonHung/LodeRunner_TotalRecall
   type: remake
-  updated: 2015-08-15
-  url: http://loderunnerwebgame.com/LodeRunner/
+  updated: 2022-09-25
+  url: https://loderunnerwebgame.com/LodeRunner/
+  video:
+    youtube: 277m7navGRQ
 
 - name: Lode Runner 2020
   originals:
@@ -745,9 +764,11 @@
   - JavaScript
   licenses:
   - MIT
-  development: active
+  content: commercial
+  development: halted
   originals:
   - Legend of Zelda - A Link to the Past
+  status: unplayable
   repo: https://github.com/englercj/lttp
   type: remake
   updated: 2020-08-31
@@ -760,10 +781,13 @@
   development: active
   originals:
   - "Lugaru: The Rabbit's Foot"
+  status: playable
   repo: https://gitlab.com/osslugaru/lugaru
   type: official
   updated: 2017-03-02
   url: https://osslugaru.gitlab.io
+  images:
+  - https://osslugaru.gitlab.io/images/lugaru-banner.png
 
 - name: luminesk5
   langs:
