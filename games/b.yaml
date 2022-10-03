@@ -256,6 +256,31 @@
   type: remake
   updated: 2021-10-03
 
+- name: Bemuse
+  originals:
+  - Beatmania IIDX
+  type: clone
+  status: playable
+  repo: 'https://github.com/bemusic/bemuse'
+  url: 'https://bemuse.ninja/'
+  development: sporadic
+  content: free
+  langs:
+  - JavaScript
+  - TypeScript
+  licenses:
+  - AGPL3
+  updated: 2022-09-26
+  images:
+  - >-
+    https://github.com/bemusic/bemuse/raw/master/website/static/img/screenshots/music-selection.jpg
+  - >-
+    https://github.com/bemusic/bemuse/raw/master/website/static/img/screenshots/gameplay-kbd.jpg
+  - >-
+    https://github.com/bemusic/bemuse/raw/master/website/static/img/screenshots/gameplay-bms.jpg
+  - >-
+    https://github.com/bemusic/bemuse/raw/master/website/static/img/screenshots/options.jpg
+
 - name: Bermuda Syndrome
   development: halted
   langs:
