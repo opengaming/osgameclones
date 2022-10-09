@@ -1,6 +1,6 @@
 """
-This script finds repos participating in hacktoberfest 2021:
-- Hosted on github or gitlab
+This script finds repos participating in hacktoberfest:
+- Hosted on GitHub or gitlab
 - Includes the "hacktoberfest" topic
 
 To run, install from pip:
@@ -9,7 +9,9 @@ To run, install from pip:
 
 Add environment variables:
 - GH_TOKEN (see https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token)
+  - with public_repo permission
 - GL_TOKEN (see https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token)
+  - with read_api scope
 """
 import os
 import re
