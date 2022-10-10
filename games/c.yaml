@@ -1,5 +1,5 @@
 - name: C-Dogs SDL
-  feed: http://cxong.github.io/cdogs-sdl/feed.xml
+  feed: https://cxong.github.io/cdogs-sdl/feed.xml
   frameworks:
   - SDL2
   images:
@@ -27,17 +27,20 @@
 
 - name: C-evo
   images:
-  - http://www.c-evo.org/shot1.jpg
-  - http://www.c-evo.org/shot2.jpg
-  - http://www.c-evo.org/shot3.jpg
-  - http://www.c-evo.org/shot4.jpg
+  - https://media.indiedb.com/cache/images/games/1/14/13047/thumb_620x2000/two_settlements_up_two_to_go.jpg
+  - https://media.indiedb.com/cache/images/games/1/14/13047/thumb_620x2000/military_research.jpg
+  - https://media.indiedb.com/cache/images/games/1/14/13047/thumb_620x2000/The_Pyramids_wonder.jpg
+  - https://media.indiedb.com/cache/images/games/1/14/13047/thumb_620x2000/the_first_contact_with_French.jpg
+  - https://media.indiedb.com/cache/images/games/1/14/13047/thumb_620x2000/city_production.jpg
+  - https://media.indiedb.com/cache/images/games/1/14/13047/thumb_620x2000/full_map.jpg
+  - https://media.indiedb.com/cache/images/games/1/14/13047/thumb_620x2000/beginning.jpg
   langs:
   - Delphi
   licenses:
   - PD
   originals:
   - Civilization II
-  repo: http://www.c-evo.org/files/download.php?cevosrc.cevosrc.zip
+  repo: http://www.c-evo.org/files/files.php
   status: playable
   type: clone
   updated: 2019-08-17
@@ -60,7 +63,7 @@
 - name: Cadaver
   development: halted
   images:
-  - http://jotd.pagesperso-orange.fr/cadaver/cadaver_remake_pic.png
+  - https://jotd.pagesperso-orange.fr/cadaver/cadaver_remake_pic.png
   langs:
   - C++
   licenses:
@@ -68,11 +71,10 @@
   content: commercial
   originals:
   - Cadaver
-  repo: http://jotd.pagesperso-orange.fr/cadaver/bin/Cadaver-001.zip
   status: semi-playable
   type: remake
   updated: 2021-01-21
-  url: http://jotd.pagesperso-orange.fr/cadaver/
+  url: https://jotd.pagesperso-orange.fr/cadaver/
 
 - name: CaesarIA
   info: most of original game works, except war logic
@@ -202,8 +204,8 @@
 
 - name: Castle-Combat
   images:
-  - http://www.linux-games.com/castle-combat/shot1.png
-  - http://www.linux-games.com/castle-combat/shot2.png
+  - https://www.linux-games.com/castle-combat/shot1.png
+  - https://www.linux-games.com/castle-combat/shot2.png
   langs:
   - Python
   licenses:
@@ -247,8 +249,7 @@
   frameworks:
   - ncurses
   images:
-  - http://en.cataclysmdda.com/assets/drive.png
-  - http://en.cataclysmdda.com/assets/status.png
+  - https://cataclysmdda.org/assets/images/showcase-ultica.png
   langs:
   - C++
   - Lua
@@ -324,9 +325,8 @@
   frameworks:
   - SDL
   images:
-  - http://www.caveproductions.org/images/screenshots/mainmenu.jpg
-  - http://www.caveproductions.org/images/screenshots/angry-dino.jpg
-  - http://www.caveproductions.org/images/screenshots/multi-packages.jpg
+  - https://i0.wp.com/www.linuxlinks.com/wp-content/uploads/2021/03/CaveExpress-tutorial.png?resize=700%2C394&ssl=1
+  - https://i0.wp.com/www.linuxlinks.com/wp-content/uploads/2021/03/CaveExpress-map-editor.png?resize=700%2C394&ssl=1
   langs:
   - C
   licenses:
@@ -339,13 +339,12 @@
   type: clone
   updated: 2014-06-24
   url: http://www.caveproductions.org/
+  video:
+    vimeo: 79598975
 
 - name: CavePacker
   frameworks:
   - SDL
-  images:
-  - http://www.caveproductions.org/images/screenshots/cavepacker-01.png
-  - http://www.caveproductions.org/images/screenshots/cavepacker-02.png
   langs:
   - C
   licenses:
@@ -358,6 +357,8 @@
   type: clone
   updated: 2014-08-14
   url: http://www.caveproductions.org/
+  video:
+    vimeo: 105909375
 
 - name: cc94
   development: halted
@@ -546,8 +547,7 @@
 
 - name: Circus Linux!
   images:
-  - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-title.gif
-  - http://www.newbreedsoftware.com/circus-linux/screenshots/circus-linux-game.gif
+  - https://libregamewiki.org/images/f/fb/Circus-Linux.png
   langs:
   - C
   licenses:
@@ -597,8 +597,6 @@
   licenses:
   - AGPL3
   updated: 2019-11-14
-  images:
-  - http://157.245.209.254/content/images/2019/10/citybound-traffic.gif
   video:
     youtube: 5YIwHN1vRYk
 
@@ -621,17 +619,19 @@
 - name: 'Civilization: Call To Power 2 Source Project'
   licenses:
   - Custom
+  content: commercial
   langs:
   - C
   originals:
   - Call to Power II
+  status: playable
   repo: https://github.com/civctp2/civctp2
   type: remake
   updated: 2020-08-25
   url: https://ctp2.darkdust.net/
 
 - name: CivOne
-  development: active
+  development: halted
   langs:
   - C#
   licenses:
@@ -639,9 +639,10 @@
   content: commercial
   originals:
   - Civilization
+  status: unplayable
   repo: https://github.com/SWY1985/CivOne
   type: remake
-  updated: 2019-09-13
+  updated: 2022-10-10
 
 - name: Classic RBDoom 3 BFG
   originals:
@@ -1252,8 +1253,7 @@
 
 - name: Crimson Fields
   images:
-  - http://crimson.seul.org/screenshots/screen17.png
-  - http://crimson.seul.org/screenshots/screen18.png
+  - https://libregamewiki.org/images/b/ba/Crimson_Fields_-_screen17.png
   langs:
   - C++
   licenses:
@@ -1369,8 +1369,6 @@
   - As-is
   info: 'Based on disassembly, with many feature enhancements'
   updated: '2021-06-26'
-  images:
-  - 'http://dmweb.free.fr/files/Clone-Screenshot-CSBLinux.jpg'
   video:
     youtube: Aj9S9H9UdzY
 
