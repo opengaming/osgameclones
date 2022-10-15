@@ -6,9 +6,11 @@
   - Swift
   licenses:
   - As-is
-  development: active
+  content: commercial
+  development: halted
   originals:
   - Octopus
+  status: playable
   repo: https://github.com/roger-wetzel/Octopus
   type: remake
   updated: 2016-02-08
@@ -51,11 +53,14 @@
 - name: Omega Race Remake
   langs:
   - C#
+  frameworks:
+  - XNA
   licenses:
   - As-is
-  development: sporadic
+  development: halted
   originals:
   - Omega Race
+  status: unplayable
   repo: https://github.com/UnforgivenRob/Omega-Race-Remake
   type: clone
   updated: 2015-05-29
@@ -89,23 +94,23 @@
   - Lua
   licenses:
   - GPL3
-  development: active
+  development: halted
   originals:
   - Sensitive
+  status: semi-playable
   type: remake
   updated: 2019-11-20
   url: https://gordebak.itch.io/onewaytogo
 
 - name: Oolite
   images:
-  - http://www.oolite.org/images/gallery/large/TradePost.jpg
-  - http://www.oolite.org/images/gallery/large/Kiota.png
-  - http://www.oolite.org/images/gallery/large/Contracts.png
+  - https://camo.githubusercontent.com/7891aa32f19781623450c1a790611998ca9af4fc8b1c45ef2f73483ededc7524/687474703a2f2f6f6f6c6974652e6f72672f696d616765732f67616c6c6572792f6c617267652f616e6f746865725f636f6d6d616e6465722d3231303231305f4c656176696e67436f72696f6c6973416761696e2e706e67
   licenses:
   - GPL2
   development: active
   originals:
   - Elite
+  status: playable
   repo: https://github.com/OoliteProject/oolite
   type: clone
   url: http://www.oolite.org/
@@ -119,6 +124,7 @@
   development: halted
   originals:
   - Battle Chess
+  status: unplayable
   repo: https://github.com/blueveno/openbattlechess
   type: remake
   updated: 2019-03-29
@@ -168,9 +174,10 @@
   licenses:
   - LGPL2
   - GPL2
-  development: active
+  development: sporadic
   originals:
   - Creatures
+  status: unplayable
   repo: https://github.com/openc2e/openc2e
   type: remake
   updated: 2020-05-05
@@ -189,34 +196,6 @@
   type: remake
   updated: 2017-04-15
   url: http://openfodder.com/
-
-- name: Open Fortress
-  originals:
-  - Team Fortress 2
-  type: tool
-  repo: https://svn.openfortress.fun/svn/open_fortress/
-  url: 'http://openfortress.fun/'
-  development: active
-  multiplayer:
-  - Competitive
-  - Online
-  - LAN
-  - Co-op
-  - Matchmaking
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - Source SDK
-  licenses:
-  - Custom
-  - CC-BY-NC-SA
-  info: >-
-    A Sourcemod that aims to add Fun and interesting New modes in the Team
-    Fortress 2 Universe
-  updated: '2020-08-25'
-  video:
-    youtube: vnUIWB7Mixw
 
 - name: OpenGOAL
   originals: 
@@ -371,13 +350,18 @@
   - C
   licenses:
   - GPL2
-  development: active
+  development: halted
   originals:
   - Meridian 59
+  status: playable
   repo: https://github.com/OpenMeridian/Meridian59
   type: remake
   updated: 2015-06-02
-  url: http://openmeridian.org
+  url: https://openmeridian.org
+  images:
+  - https://openmeridian.org/wp-content/uploads/2014/01/ancient-trinket.png
+  - https://openmeridian.org/wp-content/uploads/2014/01/battle-arena.png
+  - https://openmeridian.org/wp-content/uploads/2014/01/new-lore.png
 
 - name: Open Panzer
   images:
@@ -442,19 +426,22 @@
   - http://openquartz.sourceforge.net/images/oq001.jpg
 
 - name: Open Rails
-  images:
-  - http://openrails.org/web1/images/HOMEPAGEmaingraphic6.jpg
   langs:
   - C#
+  frameworks:
+  - XNA
   licenses:
   - GPL3
   development: active
   originals:
   - Microsoft Train Simulator
-  repo: http://openrails.org/contribute/developing-code/
+  status: playable
+  repo: https://github.com/openrails/openrails
   type: clone
-  updated: 2019-08-17
+  updated: 2022-10-15
   url: http://openrails.org/
+  video:
+    youtube: RThvP7OvDxM
 
 - name: Open Rodent's Revenge
   images:
@@ -528,21 +515,25 @@
 
 - name: Open Surge
   images:
-  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/4.png
-  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/0.png
-  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/3.png
-  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/9.png
+  - https://opensurge2d.org/surge-demo.gif
+  - https://opensnc.sourceforge.net/home/screenshots/0_1_3/4.png
+  - https://opensnc.sourceforge.net/home/screenshots/0_1_3/0.png
+  - https://opensnc.sourceforge.net/home/screenshots/0_1_3/3.png
+  - https://opensnc.sourceforge.net/home/screenshots/0_1_3/9.png
   langs:
   - C
+  frameworks:
+  - Allegro
   licenses:
   - GPL3
-  development: sporadic
+  development: active
   originals:
   - Sonic the Hedgehog
+  status: playable
   repo: https://github.com/alemart/opensurge
   type: clone
   updated: 2019-08-27
-  url: http://opensurge2d.org/
+  url: https://opensurge2d.org
 
 - name: Open Syobon Action
   langs:
@@ -623,6 +614,7 @@
   development: halted
   originals:
   - Heavy Smash
+  status: unplayable
   repo: https://github.com/namelivia/open-heavy-smash
   type: remake
   updated: 2015-05-28
@@ -699,10 +691,10 @@
 
 - name: OpenArena
   images:
-  - http://openarena.ws/e107_images/custom/085-8.jpg
-  - http://openarena.ws/e107_images/custom/085-13.jpg
-  - http://openarena.ws/e107_images/custom/085-14.jpg
-  - http://openarena.ws/e107_images/custom/085-16.jpg
+  - https://openarena.ws/e107_images/custom/085-8.jpg
+  - https://openarena.ws/e107_images/custom/085-13.jpg
+  - https://openarena.ws/e107_images/custom/085-14.jpg
+  - https://openarena.ws/e107_images/custom/085-16.jpg
   langs:
   - C
   licenses:
@@ -710,10 +702,11 @@
   development: sporadic
   originals:
   - Quake 3
+  status: playable
   repo: https://github.com/OpenArena/engine
   type: remake
   updated: 2019-08-27
-  url: http://openarena.ws/
+  url: https://openarena.ws/
 
 - name: OpenArena (gladiator management game)
   originals:
@@ -786,15 +779,19 @@
 - name: OpenBlok
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
-  development: halted
+  development: sporadic
   originals:
   - Tetris
+  status: playable
   repo: https://github.com/mmatyas/openblok
   type: clone
   updated: 2018-12-05
-  url: https://github.com/mmatyas/openblok
+  images:
+  - https://raw.githubusercontent.com/mmatyas/openblok/master/etc/promo/screenshot01.png
 
 - name: OpenBound
   originals:
@@ -907,9 +904,13 @@
   - GPL3
   originals:
   - Claw
+  status: playable
   repo: https://github.com/pjasicek/OpenClaw
+  development: sporadic
   type: remake
-  updated: 2020-08-25
+  updated: 2022-10-15
+  video:
+    youtube: ikXQNV_aw68
 
 - name: OpenClonk
   langs:
@@ -937,10 +938,14 @@
   - https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot3.png?raw=true
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - MIT
+  content: commercial
   originals:
   - Crystal Caves
+  status: unplayable
   repo: https://github.com/gurka/OpenCrystalCaves
   type: remake
   updated: 2017-09-08
@@ -984,9 +989,10 @@
   - C
   licenses:
   - GPL3
-  development: sporadic
+  development: halted
   originals:
   - 'Desperados: Wanted Dead or Alive'
+  status: unplayable
   repo: https://github.com/OpenDeathValley/OpenDeathValley
   type: remake
   updated: 2016-06-15
@@ -1121,24 +1127,30 @@
 - name: OpenEtG
   langs:
   - JavaScript
+  - Rust
   licenses:
   - MIT
   development: active
   originals:
   - Elements
+  status: playable
   repo: https://github.com/serprex/openEtG
   type: remake
-  updated: 2015-09-25
+  updated: 2022-10-15
   url: http://etg.dek.im/
+  video:
+    youtube: LSyJiG_wSdg
 
 - name: OpenFire
   langs:
   - C
   licenses:
   - MIT
-  development: active
+  content: open
+  development: halted
   originals:
   - Fire Power
+  status: semi-playable
   repo: https://github.com/Last-Minute-Creations/openFire
   type: clone
   updated: 2020-08-31
@@ -1181,29 +1193,26 @@
   - MIT
   updated: '2020-07-24'
 
-- name: OpenGeneral
-  langs:
-  - C++
-  licenses:
-  - BSD
-  development: sporadic
-  originals:
-  - Panzer General
-  type: remake
-  updated: 2018-10-06
-  url: http://www.open-general.com
-
 - name: OpenGGS
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
-  development: active
+  development: sporadic
   originals:
   - The Great Giana Sisters
+  status: playable
   repo: https://github.com/bugix/OpenGGS
   type: remake
   updated: 2020-08-25
+  images:
+  - https://games-cdn.softpedia.com/screenshots/OpenGGS_1.jpg
+  - https://games-cdn.softpedia.com/screenshots/OpenGGS_2.jpg
+  - https://games-cdn.softpedia.com/screenshots/OpenGGS_3.jpg
+  - https://games-cdn.softpedia.com/screenshots/OpenGGS_4.jpg
+  - https://games-cdn.softpedia.com/screenshots/OpenGGS_5.jpg
 
 - name: Openglad
   images:
@@ -1455,14 +1464,28 @@
   - C++
   licenses:
   - BSD2
+  content: commercial
   frameworks:
   - WebGL
   originals:
   - Tomb Raider
+  status: playable
   repo: https://github.com/XProger/OpenLara
+  development: sporadic
   type: remake
-  updated: 2017-04-27
+  updated: 2022-10-15
   url: http://xproger.info/projects/OpenLara/
+  video:
+    youtube: 4DqJOv-wmuU
+  images:
+  - https://camo.githubusercontent.com/9aaeccfe8535e07bc05f4bdf7f15040d89889f18a927334254f1d3e1b8a0f748/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f776174657266616c6c2e6a7067
+  - https://camo.githubusercontent.com/6d044e7ed1661fa3520e2482defea593e8ab2f5bbade6f34e4bd8a813ef7e4ed/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f6d756c74692d61696d2e6a7067
+  - https://camo.githubusercontent.com/d644049ddd7b1b40f8cd28ecd067d793de741e93c999fe40b91690e0bd446dd1/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f63617573746963732e6a7067
+  - https://camo.githubusercontent.com/064cf195462ac84fc5739d537a59a80f0504b4c8d31cc716e931574e5a29fe12/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f637574312e6a7067
+  - https://camo.githubusercontent.com/3aee2ca44e5566cb48da92eac4aed6a9837c0f8d1fa4c45bc606aa127ffb0bf0/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f666c69706d61702e6a7067
+  - https://camo.githubusercontent.com/9cf320cfb8c337863347721e59dff21ae1ee9673109dbe9cf54e415abe66f44c/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f7472325f6f706572612e6a7067
+  - https://camo.githubusercontent.com/2dd895a53604d21df06a443a081c325bf4c4096d776c1dd87493c380a997cf4a/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f7472325f756e7761746572312e6a7067
+  - https://camo.githubusercontent.com/02d0d53ccbe0f885e73482b49b962c1c3cb741aa6d5701f02d683c9945aaaaad/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f7472335f74656d706c652e6a7067
 
 - name: OpenLGR
   originals:
@@ -1512,10 +1535,10 @@
 
 - name: OpenLieroX
   images:
-  - http://www.openlierox.net/official/screenshots/olx2.png
-  - http://www.openlierox.net/official/screenshots/olx4.png
-  - http://www.openlierox.net/official/screenshots/olx11.png
-  - http://www.openlierox.net/official/screenshots/olx6.png
+  - https://www.openlierox.net/official/screenshots/olx2.png
+  - https://www.openlierox.net/official/screenshots/olx4.png
+  - https://www.openlierox.net/official/screenshots/olx11.png
+  - https://www.openlierox.net/official/screenshots/olx6.png
   langs:
   - C++
   licenses:
@@ -1523,10 +1546,15 @@
   development: sporadic
   originals:
   - Liero
+  status: playable
+  multiplayer:
+  - Online
+  - Competitive
+  - LAN
   repo: https://github.com/albertz/openlierox
   type: remake
   updated: 2019-08-27
-  url: http://www.openlierox.net/
+  url: https://www.openlierox.net/
 
 - name: OpenLoco
   type: remake
@@ -1653,7 +1681,12 @@
 
 - name: OpenMortal
   images:
-  - http://openmortal.sourceforge.net/images/screenshot3.jpg
+  - https://a.fsdn.com/con/app/proj/openmortal/screenshots/17056.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/openmortal/screenshots/17060.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/openmortal/screenshots/17064.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/openmortal/screenshots/17066.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/openmortal/screenshots/17070.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/openmortal/screenshots/17068.jpg/max/max/1
   langs:
   - C++
   licenses:
@@ -1661,6 +1694,7 @@
   development: halted
   originals:
   - Mortal Kombat
+  status: playable
   repo: https://sourceforge.net/projects/openmortal/
   type: clone
   updated: 2020-08-25
@@ -1931,6 +1965,7 @@
   - OpenAL
   originals:
   - Tomb Raider
+  status: playable
   type: remake
   updated: 2020-09-30
   repo: https://github.com/xythobuz/OpenRaider
@@ -2014,14 +2049,20 @@
 
 - name: OpenSAGE
   images:
-  - http://timjones.io/assets/resized/opensage-2018-02-10-map-viewer-1600x947.png
+  - https://opensage.github.io/static/2a7caced5abe9863c97676a6314b01a5/70bed/main-menu.jpg
+  - https://opensage.github.io/static/add231520a965b3f2c11c9f69005bc27/5c63f/viewer-2.png
+  - https://opensage.github.io/static/0459d41e5abc70d874254a93d80b71ec/5c63f/in-game-1.png
+  - https://opensage.github.io/static/14e48d0593bb9c5a07e3396b9cf3b3cf/5c63f/viewer-3.png
   langs:
   - C#
+  frameworks:
+  - .NET
   licenses:
   - LGPL3
   development: active
   originals:
   - 'Command & Conquer: Generals'
+  status: unplayable
   repo: https://github.com/OpenSAGE/OpenSAGE
   type: remake
   updated: 2019-11-20
@@ -2128,9 +2169,10 @@
   - JavaScript
   licenses:
   - GPL2
-  development: active
+  development: halted
   originals:
   - 'Stratosphere: Conquest of the Skies'
+  status: unplayable
   repo: https://github.com/gerdl/openStrato
   type: remake
   updated: 2015-06-18
@@ -2302,14 +2344,18 @@
   - SDL2
   licenses:
   - GPL2
+  content: free
   development: sporadic
   originals:
   - Tyrian
+  status: playable
   repo: https://github.com/opentyrian/opentyrian
   images:
   - https://github.com/opentyrian/opentyrian/wiki/opentyrian_torm.png
   type: remake
   updated: 2021-10-11
+  video:
+    youtube: gsjX-duCyiQ
 
 - name: OpenTyrian2000
   originals:
@@ -2460,20 +2506,18 @@
 
 - name: OpMon
   frameworks:
-  - SFML
-  images:
-  - http://concept.opmon-game.ga/OpMon-Concept-Files/Other/screenshot_2.png
-  - https://camo.githubusercontent.com/face5ad0b93679a8cde72fae7181602e1d824fe0/687474703a2f2f636f6e636570742e6f706d6f6e2d67616d652e67612f4f704d6f6e2d436f6e636570742d46696c65732f4f746865722f73637265656e73686f745f322e706e67
+  - Godot
   langs:
-  - C++
+  - GDScript
   licenses:
   - GPL3
-  development: active
+  development: sporadic
   originals:
   - Pokémon
+  status: unplayable
   repo: https://github.com/OpMonTeam/OpMon
   type: remake
-  updated: 2020-08-25
+  updated: 2022-10-15
   url: http://www.opmon-game.ga/
 
 - name: opsu!
@@ -2506,15 +2550,18 @@
 
 - name: Orbit-Hopper
   images:
-  - http://www.zneaker.com/images/orbithopper.png
+  - https://libregamewiki.org/images/3/38/Orbit-Hopper_-_m1.png
   langs:
   - C++
+  frameworks:
+  - SDL
+  - OpenGL
   licenses:
   - GPL2
   development: halted
   originals:
   - SkyRoads
-  repo: http://www.zneaker.com/downloads/orbithopper116c.tar.gz
+  status: playable
   type: clone
   updated: 2020-08-25
   url: http://www.zneaker.com/projects.html#orbit

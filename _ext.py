@@ -313,7 +313,7 @@ def parse_data(site):
 
         if isinstance(clone['updated'], str):
             clone['updated'] = datetime.strptime(clone['updated'], "%Y-%m-%d").date()
-        if "status" not in clone:
+        if clone["type"] not in ("official", "tool") and "status" not in clone:
             print(f"{clone['name']} has no status field")
         for image in clone.get('images', []):
             if image.startswith('http://'):
