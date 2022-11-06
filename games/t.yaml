@@ -466,11 +466,14 @@
 - name: Train
   langs:
   - Java
+  frameworks:
+  - Slick2D
   licenses:
   - BSD
-  development: sporadic
+  development: halted
   originals:
   - Vlak
+  status: unplayable
   repo: https://github.com/nenadalm/Train
   type: remake
   updated: 2015-05-28
