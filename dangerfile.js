@@ -93,6 +93,7 @@ const knownFrameworks = [
   'Source SDK',
   'Spring RTS Engine',
   'Starling',
+  'Swing',
   'SWT',
   'three.js',
   'TGUI',
