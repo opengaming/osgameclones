@@ -8,10 +8,12 @@
   - Java
   licenses:
   - GPL2
-  development: active
+  content: open
+  development: complete
   info: Android, Linux, Windows, Mac
   originals:
   - Lemmings
+  status: playable
   repo: https://github.com/andybalaam/rabbit-escape
   type: clone
   updated: 2018-08-20
@@ -53,8 +55,9 @@
   development: halted
   originals:
   - F-Zero
+  status: playable
   repo: http://sourceforge.net/projects/racer/
-  type: remake
+  type: similar
   updated: 2019-01-18
   url: http://racer.sourceforge.net/
 
@@ -100,6 +103,7 @@
   development: halted
   originals:
   - Rampart
+  status: unplayable
   repo: https://github.com/dwmai/Rampart-Android
   type: remake
   updated: 2015-05-29
@@ -192,14 +196,19 @@
   info: works with BFG edition only
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
+  content: commercial
   development: active
   originals:
   - Doom 3
+  status: playable
   repo: https://github.com/RobertBeckebans/RBDOOM-3-BFG
+  url: https://www.moddb.com/mods/rbdoom-3-bfg
   type: remake
-  updated: 2015-07-29
+  updated: 2022-11-13
 
 - name: ReC98
   originals:
@@ -327,7 +336,7 @@
   - 'Resident Evil 3: Nemesis'
   type: tool
   repo: 'https://github.com/pmandin/reevengi'
-  development: sporadic
+  development: halted
   langs:
   - C
   frameworks:
@@ -517,30 +526,33 @@
 
 - name: Rescue! Max
   images:
-  - http://rescue.sourceforge.net/screenshots/rescue1.0a.png
-  - http://rescue.sourceforge.net/screenshots/rescue1.0b.png
+  - https://rescue.sourceforge.net/screenshots/rescue1.0a.png
+  - https://rescue.sourceforge.net/screenshots/rescue1.0b.png
   langs:
   - Java
   licenses:
   - GPL3
-  development: halted
+  development: sporadic
   originals:
   - Rescue!
+  status: playable
   repo: https://sourceforge.net/projects/rescue/
   type: remake
-  updated: 2021-11-20
-  url: http://rescue.sourceforge.net/
+  updated: 2022-11-13
+  url: https://rescue.sourceforge.net/
 
 - name: ResidualVM
   langs:
   - C++
   licenses:
   - GPL2
-  development: active
+  content: commercial
+  development: halted
   originals:
   - Grim Fandango
   - Escape from Monkey Island
   - 'Myst III: Exile'
+  status: playable
   type: remake
   repo: https://github.com/residualvm/residualvm
   updated: 2018-10-06
@@ -556,6 +568,7 @@
   development: complete
   originals:
   - Destructo
+  status: playable
   repo: https://github.com/MaxSavenkov/drdestructo2
   type: remake
   updated: 2019-09-13
@@ -632,17 +645,14 @@
   - https://raw.githubusercontent.com/neuromancer/re-private-eye/main/screen-3.png
 
 - name: rfk-inform
-  images:
-  - http://robotfindskitten.org/shots/Inform/rfk-inform01.png
-  - http://robotfindskitten.org/shots/Inform/rfk-inform02.png
-  - http://robotfindskitten.org/shots/Inform/rfk-inform03.png
   langs:
   - Perl
   licenses:
   - As-is
-  development: halted
+  development: sporadic
   originals:
   - Robotfindskitten
+  status: playable
   repo: https://gitlab.com/DavidGriffith/rfk-inform
   type: remake
   updated: 2018-10-06
@@ -843,31 +853,40 @@
   - JavaScript
   licenses:
   - MIT
-  development: active
+  content: commercial
+  development: halted
   originals:
   - Lego Rock Raiders
+  status: semi-playable
   repo: https://github.com/rystills/rock-raiders-remake
   type: remake
-  updated: 2015-09-21
+  updated: 2022-11-13
   url: http://rystills.github.io/rock-raiders-remake/
+  images:
+  - https://raw.githubusercontent.com/rystills/rock-raiders-remake/master/screenshots/preview%201.png
+  - https://raw.githubusercontent.com/rystills/rock-raiders-remake/master/screenshots/preview%202.png
+  - https://raw.githubusercontent.com/rystills/rock-raiders-remake/master/screenshots/preview%203.png
 
 - name: Rockbot
   frameworks:
   - SDL
+  - Qt
   images:
-  - http://rockbot.upperland.net/wp-content/uploads/2010/12/game_0021.png
-  - http://rockbot.upperland.net/wp-content/uploads/2014/01/game_1.0RC1_016.png
-  - http://rockbot.upperland.net/wp-content/uploads/2014/01/game_1.0RC1_010.png
+  - https://rockbot.upperland.net/wp-content/uploads/2010/12/game_0021.png
+  - https://rockbot.upperland.net/wp-content/uploads/2014/01/game_1.0RC1_016.png
+  - https://rockbot.upperland.net/wp-content/uploads/2014/01/game_1.0RC1_010.png
   langs:
   - C++
   licenses:
   - GPL2
-  development: active
+  content: open
+  development: halted
   originals:
   - MegaMan
+  status: playable
   repo: https://github.com/protoman/rockbot
   type: remake
-  updated: 2017-10-20
+  updated: 2022-11-13
   url: http://rockbot.upperland.net/
 
 - name: Rocks'n'Diamonds
@@ -965,15 +984,21 @@
   - https://last-outpost.net/images/old/turbomenu.jpg
   langs:
   - C
+  frameworks:
+  - SDL
   licenses:
   - GPL2
-  development: active
+  content: commercial
+  development: halted
   originals:
   - "Star Trek: Voyager \u2013 Elite Force"
+  status: playable
   repo: https://github.com/UberGames/rpgxEF
   type: remake
-  updated: 2020-08-25
+  updated: 2022-11-13
   url: http://www.last-outpost.net/rpg-x/
+  video:
+    youtube: QCYMLoTGPh0
 
 - name: Rtype
   langs:
@@ -990,18 +1015,6 @@
   repo: https://github.com/leurqum/Rtype
   type: remake
   updated: 2022-02-20
-
-- name: Ruby OMF 2097 Remake
-  langs:
-  - Ruby
-  licenses:
-  - BSD4
-  development: halted
-  originals:
-  - 'One Must Fall: 2097'
-  repo: http://mirrors.infowest.com/rubyforge/rubyomf2097/
-  type: remake
-  updated: 2020-08-25
 
 - name: Ruby Raid
   langs:
@@ -1084,6 +1097,7 @@
   development: halted
   originals:
   - Drugwars
+  status: playable
   repo: https://github.com/gtheilman/RxWars
   type: remake
   updated: 2015-06-25
@@ -1096,6 +1110,7 @@
   development: active
   originals:
   - Ryzom
+  status: playable
   repo: https://gitlab.com/ryzom/ryzom-core
   type: remake
   updated: 2020-08-25
