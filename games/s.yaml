@@ -1230,11 +1230,15 @@
 - name: splexhd
   langs:
   - C++
+  frameworks:
+  - SDL
+  - OpenGL
   licenses:
   - GPL2
   development: halted
   originals:
   - Supaplex
+  status: unplayable
   repo: https://github.com/radu124/splexhd
   type: remake
   updated: 2015-05-28
