@@ -22,12 +22,12 @@
 - name: 'Tank: Zone of Death'
   langs:
   - C++
-  - Lua
   licenses:
   - GPL3
   development: halted
   originals:
   - Battle City
+  status: playable
   repo: https://github.com/les-sosna/tzod
   type: clone
   updated: 2019-03-27
@@ -36,7 +36,9 @@
   - https://vignette.wikia.nocookie.net/zod/images/7/76/Ss04.jpg/revision/latest?cb=20070528214052&path-prefix=ru
 
 - name: Tanks of Freedom
-  development: active
+  development: sporadic
+  langs:
+  - GDScript
   frameworks:
   - Godot
   images:
@@ -51,6 +53,7 @@
   content: open
   originals:
   - Advance Wars
+  status: playable
   repo: https://github.com/w84death/Tanks-of-Freedom
   type: clone
   updated: 2019-10-22
@@ -121,11 +124,17 @@
 - name: terrarium
   langs:
   - C++
+  frameworks:
+  - SDL
+  - SDL2
+  - Allegro
+  - Box2D
   licenses:
   - GPL2
-  development: active
+  development: sporadic
   originals:
   - Terraria
+  status: unplayable
   repo: https://gitlab.com/hydren/terrarium
   type: remake
   updated: 2015-06-18
@@ -167,7 +176,9 @@
   - WTFPL
   originals:
   - Tetris
+  status: playable
   repo: https://github.com/spypunk/tetris
+  development: sporadic
   type: remake
   updated: 2016-08-19
 
@@ -194,20 +205,26 @@
 - name: The-Great-Escape-in-C
   info: reverse engineered from binary
   langs:
-  - C++
+  - C
   licenses:
   - As-is
   development: active
   originals:
   - The Great Escape
+  status: playable
   repo: https://github.com/dpt/The-Great-Escape-in-C
   type: remake
-  updated: 2018-06-14
+  url: http://www.davespace.co.uk/the.great.escape/
+  updated: 2022-11-15
+  images:
+  - https://raw.githubusercontent.com/dpt/The-Great-Escape-in-C/master/demo.gif
+  - https://www.davespace.co.uk/the.great.escape/tge/diagram.png
 
 - name: The-Trail
   type: remake
   originals:
   - The Oregon Trail
+  status: semi-playable
   langs:
   - Java
   updated: 2019-09-30
@@ -227,19 +244,22 @@
   development: halted
   originals:
   - Theme Park
-  repo: svn://svn.code.sf.net/p/tpb3d/code/trunk
+  status: unplayable
   type: remake
   updated: 2019-11-20
-  url: http://sourceforge.net/projects/tpb3d/
+  repo: https://sourceforge.net/projects/tpb3d/
 
 - name: thiefcatcher
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
-  development: active
+  development: sporadic
   originals:
   - Where in the World Is Carmen Sandiego? (1985)
+  status: semi-playable
   repo: https://github.com/Ponup/thiefcatcher
   type: remake
   updated: 2015-06-18
@@ -254,6 +274,7 @@
   development: halted
   originals:
   - Punch-Out!!
+  status: playable
   repo: https://github.com/MattSzik/THREEPunchOut
   type: clone
   updated: 2015-08-15
@@ -290,6 +311,7 @@
   development: halted
   originals:
   - Thromolus
+  status: unplayable
   repo: https://github.com/segfaulthunter/thromolusng
   type: remake
   updated: 2015-06-22
@@ -402,11 +424,6 @@
   updated: 2015-05-02
 
 - name: Total Annihilation 3D
-  images:
-  - http://www.ta3d.org/snapshots/shoot117.jpg
-  - http://www.ta3d.org/snapshots/shoot118.jpg
-  - http://www.ta3d.org/snapshots/shoot122.jpg
-  - http://www.ta3d.org/snapshots/shoot127.jpg
   langs:
   - C++
   - Lua
@@ -415,7 +432,7 @@
   - Qt
   licenses:
   - GPL2
-  development: halted
+  development: sporadic
   originals:
   - Total Annihilation
   status: semi-playable
@@ -423,12 +440,14 @@
   type: remake
   url: http://www.ta3d.org/
   updated: 2021-04-20
+  video:
+    indiedb: 206215
 
 - name: Tower Toppler
   images:
-  - http://toppler.sourceforge.net/images/shot1_hr.png
-  - http://toppler.sourceforge.net/images/shot2_hr.png
-  - http://toppler.sourceforge.net/images/shot3_hr.png
+  - https://toppler.sourceforge.net/images/shot1_hr.png
+  - https://toppler.sourceforge.net/images/shot2_hr.png
+  - https://toppler.sourceforge.net/images/shot3_hr.png
   langs:
   - C++
   frameworks:
@@ -458,6 +477,7 @@
   development: sporadic
   originals:
   - Marble Madness
+  status: playable
   repo: https://github.com/trackballs/trackballs
   type: remake
   updated: 2018-10-06
@@ -553,10 +573,14 @@
   development: halted
   originals:
   - Tron
+  status: playable
   repo: https://github.com/momajd/Tron
   type: remake
   updated: 2016-05-14
   url: http://momajd.github.io/Tron/
+  images:
+  - https://raw.githubusercontent.com/momajd/Tron/master/docs/intro.png
+  - https://raw.githubusercontent.com/momajd/Tron/master/docs/game_end.png
 
 - name: TrueCraft
   images:
@@ -569,6 +593,7 @@
   development: halted
   originals:
   - Minecraft
+  status: playable
   repo: https://github.com/ddevault/TrueCraft
   type: remake
   updated: 2020-08-31
@@ -619,6 +644,7 @@
   development: halted
   originals:
   - Turnabout
+  status: unplayable
   repo: https://github.com/sch/turnabout
   type: remake
   updated: 2015-07-19
@@ -631,6 +657,7 @@
   development: halted
   originals:
   - Turok
+  status: unplayable
   repo: https://github.com/svkaiser/TurokEX
   type: remake
   updated: 2016-05-28
@@ -685,9 +712,9 @@
   frameworks:
   - pygame
   images:
-  - http://www.tuxemon.org/images/featurette-01.png
-  - http://www.tuxemon.org/images/screenshot-01.png
-  - http://www.tuxemon.org/images/featurette-02.png
+  - https://www.tuxemon.org/images/featurette-01.png
+  - https://www.tuxemon.org/images/screenshot-01.png
+  - https://www.tuxemon.org/images/featurette-02.png
   langs:
   - Python
   licenses:
@@ -703,13 +730,13 @@
 
 - name: TVTower
   langs:
-  - Blitz BASIC
-  - C
+  - BlitzMax
   licenses:
   - Custom
   development: active
   originals:
   - Mad TV
+  status: playable
   repo: https://github.com/TVTower/TVTower
   type: remake
   updated: 2021-10-17
@@ -769,20 +796,21 @@
 
 - name: Tyrian Remake
   images:
-  - http://www.b3dgs.com/v7/projects/tyrian_remake/screens/1.png
-  - http://www.b3dgs.com/v7/projects/tyrian_remake/screens/7.png
-  - http://www.b3dgs.com/v7/projects/tyrian_remake/screens/8.png
+  - https://www.b3dgs.com/v7/projects/tyrian_remake/screens/1.png
+  - https://www.b3dgs.com/v7/projects/tyrian_remake/screens/7.png
+  - https://www.b3dgs.com/v7/projects/tyrian_remake/screens/8.png
   langs:
   - Java
   licenses:
   - GPL2
-  development: sporadic
+  development: halted
   originals:
   - Tyrian
+  status: playable
   repo: https://github.com/b3dgs/tyrian-remake
   type: remake
   updated: 2015-05-29
-  url: http://www.b3dgs.com
+  url: https://www.b3dgs.com
 
 - name: TyrQuake
   langs:
