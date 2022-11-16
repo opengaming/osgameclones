@@ -6,12 +6,25 @@
   - SDL2
   licenses:
   - GPL3
-  development: active
+  development: very active
   originals:
   - Escape Velocity
+  status: playable
   repo: https://github.com/naev/naev
+  url: https://naev.org
   type: similar
-  updated: 2019-09-13
+  updated: 2022-11-12
+  images:
+  - https://naev.org/imgs/screenshots_0.9.0/attack.webp
+  - https://naev.org/imgs/screenshots_0.9.0/equipment.webp
+  - https://naev.org/imgs/screenshots_0.9.0/fight1.webp
+  - https://naev.org/imgs/screenshots_0.9.0/gas_giant.webp
+  - https://naev.org/imgs/screenshots_0.9.0/minerva_station.webp
+  - https://naev.org/imgs/screenshots_0.9.0/missions.webp
+  - https://naev.org/imgs/screenshots_0.9.0/nebula.webp
+  - https://naev.org/imgs/screenshots_0.9.0/scanned.webp
+  - https://naev.org/imgs/screenshots_0.9.0/shipyard.webp
+  - https://naev.org/imgs/screenshots_0.9.0/stealth.webp
 
 - name: Nanosaur Source Port
   originals:
@@ -144,8 +157,6 @@
     youtube: i0CQtMjkyMk
 
 - name: Neverball
-  frameworks:
-  - SDL
   images:
   - https://i.imgur.com/4ja9xmS.jpg
   - https://i.imgur.com/xU6TJZP.jpg
@@ -155,11 +166,15 @@
   - https://i.imgur.com/fzcotpu.jpg
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
-  development: active
+  content: open
+  development: sporadic
   originals:
   - Super Monkey Ball
+  status: playable
   repo: https://github.com/Neverball/neverball
   type: clone
   updated: 2019-11-20
@@ -208,6 +223,7 @@
   development: halted
   originals:
   - Tron
+  status: unplayable
   repo: https://github.com/sursonico/newtron
   type: remake
   updated: 2015-06-01
@@ -267,15 +283,25 @@
   langs:
   - C
   - Lua
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
-  development: active
+  development: halted
   originals:
   - Larn
+  status: playable
   repo: https://github.com/nlarn/nlarn
   type: remake
-  updated: 2019-08-27
+  updated: 2022-11-12
   url: https://nlarn.github.io/
+  feed: https://nlarn.github.io/feed.xml
+  images:
+  - https://nlarn.github.io/images/2020-04-12_NLarn_0.7.4-g3e6706e_cloak_of_invisibility.png
+  - https://nlarn.github.io/images/2020-04-12_NLarn_0.7.4-g1d4f341_obituary.png
+  - https://nlarn.github.io/images/2020-04-12_NLarn_0.7.4-g3e6706e_picking_read.png
+  - https://nlarn.github.io/images/2020-04-12_NLarn_0.7.4-g3e6706e_trading_gems.png
+  - https://nlarn.github.io/images/2020-04-12_NLarn_0.7.4-g3e6706e_treasure_room.png
 
 - name: Nodes of Yesnod remake
   frameworks:
@@ -366,15 +392,25 @@
 - name: NullpoMino
   langs:
   - Java
+  frameworks:
+  - Slick2D
+  - Swing
   licenses:
   - BSD
   development: halted
   originals:
   - Tetris
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  - Competitive
   repo: https://github.com/NullpoMino/NullpoMino
   type: remake
-  updated: 2018-12-02
-  url: https://github.com/NullpoMino/NullpoMino
+  updated: 2022-11-12
+  images:
+  - https://tetris.wiki/images/5/55/Nullpomino_title.png
+  - https://tetris.wiki/images/4/4a/Nullpomino_ingame.png
 
 - name: Nuncabola
   type: clone
@@ -396,21 +432,25 @@
 
 - name: Nuvie
   images:
-  - http://nuvie.sourceforge.net/images/shots/nuvie_24.png
-  - http://nuvie.sourceforge.net/images/shots/nuvie_22.png
-  - http://nuvie.sourceforge.net/images/shots/nuvie_21.png
+  - https://nuvie.sourceforge.net/images/shots/nuvie_24.png
+  - https://nuvie.sourceforge.net/images/shots/nuvie_22.png
+  - https://nuvie.sourceforge.net/images/shots/nuvie_21.png
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - GPL2
-  development: active
+  content: commercial
+  development: halted
   originals:
   - 'Ultima VI: The False Prophet'
   - 'Ultima: Worlds of Adventure 2: Martian Dreams'
   - 'Worlds of Ultima: The Savage Empire'
+  status: playable
   repo: https://github.com/nuvie/nuvie
   type: remake
-  url: http://nuvie.sourceforge.net/
+  url: https://nuvie.sourceforge.net/
   updated: 2020-05-19
 
 - name: NXEngine
