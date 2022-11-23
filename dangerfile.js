@@ -52,7 +52,6 @@ const knownFrameworks = [
   'Laravel',
   'LibGDX',
   'libretro',
-  'Love3D',
   'LÖVE',
   'LWJGL',
   'melonJS',
