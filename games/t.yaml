@@ -57,7 +57,7 @@
   repo: https://github.com/w84death/Tanks-of-Freedom
   type: clone
   updated: 2019-10-22
-  url: http://tof.p1x.in
+  url: https://tof.p1x.in
   video:
     youtube: Y7w5VhvG8hA
 
@@ -98,7 +98,12 @@
   status: playable
   type: remake
   updated: 2014-08-20
-  url: http://terasology.org/
+  url: https://terasology.org/
+  images:
+  - https://terasology.org/img/ss_1.jpg
+  - https://terasology.org/img/ss_2.jpg
+  - https://terasology.org/img/ss_3.jpg
+  - https://terasology.org/img/ss_4.jpg
   video:
     youtube: cU6LL5BXi5E
 
@@ -107,7 +112,7 @@
   - TekWar
   type: remake
   repo: 'https://gitlab.com/m210/TekwarGDX'
-  url: 'http://m210.duke4.net/'
+  url: 'https://m210.duke4.net/'
   development: active
   status: playable
   content: commercial
@@ -144,7 +149,7 @@
   - 'The Elder Scrolls III: Morrowind'
   type: remake
   repo: 'https://github.com/TES3MP/openmw-tes3mp'
-  url: 'http://tes3mp.com/'
+  url: 'https://tes3mp.com/'
   development: active
   status: playable
   multiplayer:
@@ -214,7 +219,7 @@
   status: playable
   repo: https://github.com/dpt/The-Great-Escape-in-C
   type: remake
-  url: http://www.davespace.co.uk/the.great.escape/
+  url: https://www.davespace.co.uk/the.great.escape/
   updated: 2022-11-15
   images:
   - https://raw.githubusercontent.com/dpt/The-Great-Escape-in-C/master/demo.gif
@@ -278,7 +283,7 @@
   repo: https://github.com/MattSzik/THREEPunchOut
   type: clone
   updated: 2015-08-15
-  url: http://matthewsziklay.github.io/THREEPunchOut/
+  url: https://matthewsziklay.github.io/THREEPunchOut/
 
 - name: Thrive
   type: similar
@@ -356,7 +361,7 @@
   status: playable
   type: remake
   updated: 2014-01-05
-  url: http://www.muppetlabs.com/~breadbox/software/tworld/
+  url: https://www.muppetlabs.com/~breadbox/software/tworld/
 
 - name: Tile World 2
   langs:
@@ -451,17 +456,16 @@
   langs:
   - C++
   frameworks:
-  - SDL
+  - SDL2
   licenses:
   - GPL2
-  development: halted
+  development: sporadic
   originals:
   - Nebulus
   status: playable
   type: remake
-  repo: https://sourceforge.net/projects/toppler/
-  updated: 2021-06-02
-  url: http://toppler.sourceforge.net/
+  repo: https://gitlab.com/roever/toppler/
+  updated: 2022-11-27
 
 - name: Trackballs
   images:
@@ -500,9 +504,9 @@
 
 - name: Transfusion
   images:
-  - http://www.transfusion-game.com/images/e1m2-00.jpg
-  - http://www.transfusion-game.com/images/e3m7-02.jpg
-  - http://www.transfusion-game.com/images/action08.jpg
+  - https://www.transfusion-game.com/images/e1m2-00.jpg
+  - https://www.transfusion-game.com/images/e3m7-02.jpg
+  - https://www.transfusion-game.com/images/action08.jpg
   licenses:
   - GPL2
   development: halted
@@ -512,7 +516,7 @@
   status: playable
   type: remake
   updated: 2013-11-12
-  url: http://www.transfusion-game.com/
+  url: https://www.transfusion-game.com/
 
 - name: Tranzam
   images:
@@ -577,7 +581,7 @@
   repo: https://github.com/momajd/Tron
   type: remake
   updated: 2016-05-14
-  url: http://momajd.github.io/Tron/
+  url: https://momajd.github.io/Tron/
   images:
   - https://raw.githubusercontent.com/momajd/Tron/master/docs/intro.png
   - https://raw.githubusercontent.com/momajd/Tron/master/docs/game_end.png
@@ -726,7 +730,7 @@
   status: playable
   type: remake
   updated: 2015-01-21
-  url: http://www.tuxemon.org/
+  url: https://www.tuxemon.org/
 
 - name: TVTower
   langs:
@@ -774,15 +778,15 @@
   - MIT
   updated: 2020-06-26
   images:
-  - http://zzt.org/dr_dos/tyger/TygerTitle.png
-  - http://zzt.org/dr_dos/tyger/TOWN-25.png
+  - https://zzt.org/dr_dos/tyger/TygerTitle.png
+  - https://zzt.org/dr_dos/tyger/TOWN-25.png
 
 - name: TypeScript Xenon
   type: remake
   originals:
   - Xenon 2 Megablast
   repo: https://github.com/ian-wigley/Xenon
-  url: http://ianwigley.co.uk/Xenon/Xenon.html
+  url: https://ianwigley.co.uk/Xenon/Xenon.html
   development: halted
   status: semi-playable
   langs:
