@@ -44,15 +44,22 @@
   repo: https://github.com/odamex/odamex
   status: playable
   type: remake
-  url: http://www.odamex.net/
+  url: https://odamex.net
   updated: 2019-11-20
+  images:
+  - https://odamex.net/w/images/thumb/8/8b/Odamex-r103-winxp.png/640px-Odamex-r103-winxp.png
+  - https://odamex.net/w/images/thumb/b/be/Odamex-r86-fbsd62.png/640px-Odamex-r86-fbsd62.png
+  - https://odamex.net/w/images/thumb/8/8d/Odamex-r100-openbsd.png/640px-Odamex-r100-openbsd.png
+  - https://odamex.net/w/images/thumb/8/8c/Odamex-r120-solaris.png/640px-Odamex-r120-solaris.png
+  - https://odamex.net/w/images/thumb/0/01/Odamex-r166-linuxppc.png/640px-Odamex-r166-linuxppc.png
+  - https://odamex.net/w/images/thumb/7/74/Odamex-r166-osxppc.png/640px-Odamex-r166-osxppc.png
 
 - name: Ogrian Carpet
   originals:
   - Magic Carpet
   type: similar
   repo: 'https://sourceforge.net/projects/ogrian/'
-  url: 'http://ogrian.sourceforge.net/'
+  url: https://ogrian.sourceforge.net
   development: halted
   status: playable
   content: open
@@ -100,7 +107,7 @@
   repo: https://github.com/sulix/omnispeak
   type: remake
   updated: 2021-12-01
-  url: http://davidgow.net/keen/omnispeak.html
+  url: https://davidgow.net/keen/omnispeak.html
 
 - name: One Way To Go
   images:
@@ -152,7 +159,7 @@
   - Double Dragon
   - Final Fight
   repo: https://github.com/DCurrent/openbor
-  url: http://www.chronocrash.com/forum/
+  url: https://www.chronocrash.com/forum/#openbor.12
   development: sporadic
   status: playable
   langs:
@@ -197,21 +204,26 @@
   repo: https://github.com/openc2e/openc2e
   type: remake
   updated: 2020-05-05
-  url: http://creatures.wiki/Openc2e
+  url: https://creatures.wiki/Openc2e
+  images:
+  - https://creatures.wiki/images/d/df/C2-vista-injector.jpg
+  - https://creatures.wiki/images/2/22/Openc2e-c1-april2008.jpg
 
 - name: Open Fodder
   langs:
   - C++
   licenses:
   - GPL3
-  development: active
+  development: sporadic
   originals:
   - Cannon Fodder
   repo: https://github.com/OpenFodder/openfodder
   status: playable
   type: remake
-  updated: 2017-04-15
+  updated: 2022-11-29
   url: http://openfodder.com/
+  images:
+  - https://user-images.githubusercontent.com/1327406/49718991-f1bd6e00-fcaf-11e8-88e3-68136828c2d1.png
 
 - name: OpenGOAL
   originals: 
@@ -245,7 +257,7 @@
   - Pac-Man
   type: remake
   repo: https://github.com/atroel/open-greedy
-  url: 'http://troel.net/opengreedy/'
+  url: https://troel.net/opengreedy/
   development: halted
   status: playable
   content: free
@@ -263,25 +275,25 @@
     cross-platform compatibility.
   updated: 2021-08-18
   images:
-  - http://troel.net/opengreedy/menu_thumbnail.png
-  - http://troel.net/opengreedy/greedy_xp_01_thumbnail.png
-  - http://troel.net/opengreedy/credits_thumbnail.png
+  - https://troel.net/opengreedy/menu_thumbnail.png
+  - https://troel.net/opengreedy/greedy_xp_01_thumbnail.png
+  - https://troel.net/opengreedy/credits_thumbnail.png
 
 - name: Open Hexagon
   images:
-  - http://vittorioromeo.info/Resources/img/openHexagon.png
+  - https://vittorioromeo.info/Resources/img/openHexagon.png
   langs:
   - C++
   licenses:
   - AFL3
-  development: active
+  development: sporadic
   originals:
   - Super Hexagon
-  repo: http://github.com/SuperV1234/SSVOpenHexagon
+  repo: https://github.com/SuperV1234/SSVOpenHexagon
   status: playable
   type: clone
   updated: 2013-09-11
-  url: http://vittorioromeo.info/projects.html
+  url: https://vittorioromeo.info/projects.html
   video:
     youtube: Wth0Z2eMezE
 
@@ -289,9 +301,9 @@
   frameworks:
   - nya-engine
   images:
-  - http://zxstudio.org/blog/wp-content/uploads/2019/03/open-horizon-screenshot.png
-  - http://zxstudio.org/blog/wp-content/uploads/2016/12/ac6_ok.png
-  - http://zxstudio.org/blog/wp-content/uploads/2016/12/ac6_ms01_raw.png
+  - https://camo.githubusercontent.com/1b2f1c9e758639b57b2a123204f3211de2e490a357ac37c83f08056e7da9f757/687474703a2f2f7a7873747564696f2e6f72672f626c6f672f77702d636f6e74656e742f75706c6f6164732f323031362f30312f6f70656e2d686f72697a6f6e2d656666656374732e706e67
+  - https://camo.githubusercontent.com/d5b184385d506a125227319be547d4e0cdbb75f2a5724e427d44e6b267edae7f/687474703a2f2f7a7873747564696f2e6f72672f626c6f672f77702d636f6e74656e742f75706c6f6164732f323031362f30372f4d697373696f6e30312e706e67
+  - https://camo.githubusercontent.com/3c5f8dbdaa0c156b984c38488c3a9edfd0c84705ed3aeff6a454347824c11222/687474703a2f2f7a7873747564696f2e6f72672f626c6f672f77702d636f6e74656e742f75706c6f6164732f323031362f30372f4d697373696f6e30332e706e67
   langs:
   - C++
   licenses:
@@ -318,7 +330,7 @@
   status: playable
   type: remake
   updated: 2018-10-06
-  url: http://open-ig-dev.blogspot.com
+  url: https://open-ig-dev.blogspot.com
   video:
     youtube: qHBUdUqqI-k
 
@@ -336,8 +348,8 @@
   status: unplayable
   type: remake
   updated: 2021-09-17
-  repo: http://sourceforge.net/projects/opengate/
-  url: http://opengate.sourceforge.net/
+  repo: https://sourceforge.net/projects/opengate/
+  url: https://opengate.sourceforge.net/
   images:
   - https://a.fsdn.com/con/app/proj/opengate/screenshots/299347.jpg/max/max/1
   - https://a.fsdn.com/con/app/proj/opengate/screenshots/313299.jpg/max/max/1
@@ -394,7 +406,7 @@
   repo: https://github.com/nicupavel/openpanzer
   type: remake
   updated: 2021-05-01
-  url: http://panzermarshal.com
+  url: https://panzermarshal.com
 
 - name: Open Portal Engine
   type: clone
@@ -419,7 +431,7 @@
   - Quake
   type: remake
   repo: 'https://sourceforge.net/projects/openquartz/'
-  url: 'http://openquartz.sourceforge.net/index.html'
+  url: https://openquartz.sourceforge.net/index.html
   development: halted
   status: semi-playable
   multiplayer:
@@ -437,9 +449,9 @@
     also run Quake mods and custom maps.
   updated: 2021-08-23
   images:
-  - http://openquartz.sourceforge.net/images/oq002.jpg
-  - http://openquartz.sourceforge.net/images/oq003.jpg
-  - http://openquartz.sourceforge.net/images/oq001.jpg
+  - https://openquartz.sourceforge.net/images/oq002.jpg
+  - https://openquartz.sourceforge.net/images/oq003.jpg
+  - https://openquartz.sourceforge.net/images/oq001.jpg
 
 - name: Open Rails
   langs:
@@ -509,7 +521,7 @@
   originals:
   - Sonic the Hedgehog
   repo: https://sourceforge.net/projects/opensnc/files/Open%20Sonic/0.1.4/opensnc-linux-0.1.4.tar.gz/download
-  url: http://opensnc.sourceforge.net/home/index.php
+  url: https://opensnc.sourceforge.net/home/index.php
   development: halted
   status: playable
   langs:
@@ -522,10 +534,10 @@
   info: The game development stopped at 2010. Open Surge the official continuation with fully free assets.
   updated: 2019-09-17
   images:
-  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/0.png
-  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/1.png
-  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/2.png
-  - http://opensnc.sourceforge.net/home/screenshots/0_1_3/4.png
+  - https://opensnc.sourceforge.net/home/screenshots/0_1_3/0.png
+  - https://opensnc.sourceforge.net/home/screenshots/0_1_3/1.png
+  - https://opensnc.sourceforge.net/home/screenshots/0_1_3/2.png
+  - https://opensnc.sourceforge.net/home/screenshots/0_1_3/4.png
   video:
     youtube: 2ke0ct4rVWY
 
@@ -565,7 +577,7 @@
   repo: https://sourceforge.net/projects/opensyobon
   type: remake
   updated: 2022-06-20
-  url: http://www.jezng.com/open-syobon-action.js/
+  url: https://www.jezng.com/open-syobon-action.js/
   video:
     youtube: rzP0FeBN_AE
 
@@ -620,7 +632,7 @@
   status: semi-playable
   type: remake
   updated: 2017-04-27
-  url: http://team-cube.github.io/
+  url: https://team-cube.github.io
 
 - name: open-heavy-smash
   langs:
@@ -682,7 +694,7 @@
   updated: 2019-05-28
   info: We create a modern RTS engine for AoE-style gameplay. Including modding API, curve-based gamestate, a new renderer
     and support for all operating systems.
-  url: http://openage.sft.mx/
+  url: https://openage.sft.mx
 
 - name: OpenApoc
   langs:
@@ -699,7 +711,6 @@
   repo: https://github.com/OpenApoc/OpenApoc
   type: remake
   updated: 2022-05-03
-  url: http://openapoc.org/
   images:
   - https://i.imgur.com/CFS3nBK.png
   video:
@@ -889,9 +900,9 @@
 
 - name: OpenCity
   images:
-  - http://www.opencity.info/screenshot/full/opencity-0.0.5-mainstatusbar.jpg
-  - http://www.opencity.info/screenshot/full/opencity-0.0.5-island.jpg
-  - http://www.opencity.info/screenshot/full/opencity-0.0.5-alphatree.jpg
+  - https://upload.wikimedia.org/wikipedia/commons/7/77/OpenCity-0.0.5-mainstatusbar.jpg
+  - https://upload.wikimedia.org/wikipedia/commons/7/7b/Opencity-0.0.3-textured-terrain.png
+  - https://upload.wikimedia.org/wikipedia/commons/5/50/OpenCity0.0.5.png
   langs:
   - C++
   frameworks:
@@ -1175,7 +1186,7 @@
   repo: https://github.com/serprex/openEtG
   type: remake
   updated: 2022-10-15
-  url: http://etg.dek.im/
+  url: https://etg.dek.im
   video:
     youtube: LSyJiG_wSdg
 
@@ -1192,28 +1203,6 @@
   repo: https://github.com/Last-Minute-Creations/openFire
   type: clone
   updated: 2020-08-31
-
-- name: OpenFly
-  originals:
-  - Flight Sim Toolkit
-  type: remake
-  url: 'http://ariel.ucs.unimelb.edu.au/~gjo/'
-  development: halted
-  status: playable
-  content: free
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  info: >-
-    The project aimed to create an updated flight simulation engine compatible
-    with Domark Software and Simis Limited's Flight Sim Toolkit (FST), and support
-    user-made games created with FST. The WEBCVS page is no longer available.
-  updated: 2021-08-19
-  images:
-  - http://ariel.ucs.unimelb.edu.au/~gjo/demosim2.jpg
 
 - name: OpenFNaF
   originals:
@@ -1254,10 +1243,10 @@
 
 - name: Openglad
   images:
-  - http://snowstorm.sourceforge.net/screenshots/1.png
-  - http://snowstorm.sourceforge.net/screenshots/2.png
-  - http://snowstorm.sourceforge.net/screenshots/3.png
-  - http://snowstorm.sourceforge.net/screenshots/4.png
+  - https://snowstorm.sourceforge.net/screenshots/1.png
+  - https://snowstorm.sourceforge.net/screenshots/2.png
+  - https://snowstorm.sourceforge.net/screenshots/3.png
+  - https://snowstorm.sourceforge.net/screenshots/4.png
   langs:
   - C++
   frameworks:
@@ -1270,7 +1259,7 @@
   status: playable
   repo: https://sourceforge.net/projects/snowstorm/
   type: remake
-  url: http://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=openglad
+  url: https://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=openglad
   updated: 2021-04-09
 
 - name: OpenGL Test Drive Remake
@@ -1306,10 +1295,19 @@
   originals:
   - World of Goo
   repo: https://github.com/Mandarancio/OpenGOO
-  status: unplayable
+  status: semi-playable
   type: remake
-  updated: 2013-05-29
-  url: http://mandarancio.github.io/OpenGOO/
+  updated: 2022-11-29
+  url: https://mandarancio.github.io/OpenGOO/
+  images:
+  - https://mandarancio.github.io/OpenGOO/images/gallery/dimostrativeGoal.thumb.png
+  - https://mandarancio.github.io/OpenGOO/images/gallery/debugMode.thumb1.png
+  - https://mandarancio.github.io/OpenGOO/images/gallery/onTablet.thumb.png
+  - https://mandarancio.github.io/OpenGOO/images/gallery/jointProposal.thumb.png
+  - https://mandarancio.github.io/OpenGOO/images/gallery/gooBallons.thumb.png
+  - https://mandarancio.github.io/OpenGOO/images/gallery/ballonsAndSticky.thumb.png
+  - https://mandarancio.github.io/OpenGOO/images/gallery/tablet.thumb.jpg
+  - https://mandarancio.github.io/OpenGOO/images/gallery/gameMenu.thumb.jpg
 
 - name: OpenGothic
   originals:
@@ -1563,9 +1561,9 @@
   - Liero
   repo: https://github.com/gliptic/liero
   type: official
-  url: http://www.liero.be/
+  url: https://www.liero.be
   updated: 2019-04-09
-  info: Perfect clone of 1.33; a.k.a. Liero 1.36. License information at http://www.liero.be/licenses/135/licenses.txt
+  info: Perfect clone of 1.33; a.k.a. Liero 1.36
   images:
   - https://happypenguin.altervista.org/screenshots/openliero.png
   video:
@@ -1665,9 +1663,9 @@
 
 - name: OpenMoHAA
   frameworks:
-  - SDL
+  - SDL2
   images:
-  - http://openmohaa.sourceforge.net/media/hud.jpg
+  - https://openmohaa.sourceforge.net/media/hud.jpg
   info: based on ioquake3
   langs:
   - C
@@ -1680,7 +1678,7 @@
   status: unplayable
   type: remake
   updated: 2015-04-11
-  url: http://openmohaa.sourceforge.net/
+  url: https://openmohaa.sourceforge.net/
 
 - name: OpenMoM
   type: clone
@@ -1736,12 +1734,18 @@
   repo: https://sourceforge.net/projects/openmortal/
   type: clone
   updated: 2020-08-25
-  url: http://openmortal.sourceforge.net/
+  url: https://openmortal.sourceforge.net
 
 - name: OpenMW
   images:
-  - http://wiki.openmw.org/images/6/65/0.40_Screenshot-Balmora_1.png
-  - http://wiki.openmw.org/images/c/c1/0.40_Screenshot-Seyda_Neen_2.png
+  - https://wiki.openmw.org/images/0.40_Screenshot-Balmora_1.png
+  - https://wiki.openmw.org/images/0.40_Screenshot-Balmora_3.png
+  - https://wiki.openmw.org/images/0.40_Screenshot-Bitter_Coast_1.png
+  - https://wiki.openmw.org/images/0.40_Screenshot-Foyada_Mamaea.png
+  - https://wiki.openmw.org/images/0.40_Screenshot-Halfway_Tavern.png
+  - https://wiki.openmw.org/images/0.40_Screenshot-Nevrasa_Dralor.png
+  - https://wiki.openmw.org/images/0.40_Screenshot-Panat.png
+  - https://wiki.openmw.org/images/0.40_Screenshot-Seyda_Neen_1.png
   langs:
   - C++
   frameworks:
@@ -1755,7 +1759,7 @@
   repo: https://gitlab.com/OpenMW/openmw
   status: playable
   type: remake
-  url: http://openmw.org/
+  url: https://openmw.org/en/
   updated: 2021-04-21
   video:
     youtube: UeJc3e_qQWY
@@ -1798,7 +1802,6 @@
   originals:
   - 'Need For Speed III: Hot Pursuit'
   repo: https://github.com/OpenNFS/OpenNFS
-  url: http://opennfs.com/
   development: active
   status: semi-playable
   langs:
@@ -1902,12 +1905,6 @@
 
 - name: OpenOMF
   development: active
-  images:
-  - http://www.openomf.org/screenshots/mainmenu.png
-  - http://www.openomf.org/screenshots/single_player.png
-  - http://www.openomf.org/screenshots/two_player.png
-  - http://www.openomf.org/screenshots/vs.png
-  - http://www.openomf.org/screenshots/victory.png
   info: single player, 2 player and network play work, content from omf2097.com
   langs:
   - C
@@ -1920,7 +1917,7 @@
   status: playable
   type: remake
   updated: 2014-08-16
-  url: http://www.openomf.org/
+  url: https://www.openomf.org
   video:
     youtube: RYiUsDSApM8
 
@@ -1955,14 +1952,14 @@
   repo: https://sourceforge.net/projects/openpopulous/
   type: remake
   updated: 2022-02-19
-  url: http://openpopulous.sourceforge.net/
+  url: https://openpopulous.sourceforge.net
   info: only supports 2D view
 
 - name: OpenRA
   images:
-  - http://www.openra.net/images/news/20150531-ra-editor.png
-  - http://www.openra.net/images/news/20140405-beacons.png
-  - http://www.openra.net/images/news/20150808-d2k-range-circles.png
+  - https://www.openra.net/images/news/20150531-ra-editor.png
+  - https://www.openra.net/images/news/20140405-beacons.png
+  - https://www.openra.net/images/news/20150808-d2k-range-circles.png
   langs:
   - C#
   - Lua
@@ -2059,7 +2056,12 @@
   status: unplayable
   type: remake
   updated: 2017-04-21
-  url: http://openrw.org/
+  url: https://openrw.org
+  images:
+  - https://openrw.org/media/gallery/1.jpg
+  - https://openrw.org/media/gallery/2.jpg
+  - https://openrw.org/media/gallery/3.jpg
+  - https://openrw.org/media/gallery/4.jpg
 
 - name: OpenSA
   images:
@@ -2143,7 +2145,7 @@
   status: playable
   type: remake
   updated: 2014-01-05
-  url: http://openskyscraper.org
+  url: https://openskyscraper.org
 
 - name: OpenSpades
   langs:
@@ -2161,7 +2163,7 @@
   repo: https://github.com/yvt/openspades
   type: remake
   updated: 2022-04-26
-  url: http://openspades.yvt.jp/
+  url: https://openspades.yvt.jp
   images:
   - https://openspades.yvt.jp/media/images/ss1.jpg
   - https://openspades.yvt.jp/media/images/ss2.jpg
@@ -2301,7 +2303,7 @@
   frameworks:
   - SDL
   images:
-  - http://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png
+  - https://repo.openpandora.org/files/pnd/package.id.here/preview/titus-the-fox3.png
   langs:
   - C
   licenses:
@@ -2314,7 +2316,7 @@
   repo: https://github.com/stople/OpenTitus
   type: remake
   updated: 2021-08-03
-  url: http://opentitus.sourceforge.net
+  url: https://opentitus.sourceforge.net
 
 - name: OpenTomb
   images:
@@ -2373,7 +2375,7 @@
   status: playable
   type: remake
   updated: 2018-05-03
-  url: http://www.openttd.org/
+  url: https://www.openttd.org
 
 - name: OpenTyrian
   langs:
@@ -2552,11 +2554,13 @@
   development: sporadic
   originals:
   - Pokémon
-  status: unplayable
+  status: semi-playable
   repo: https://github.com/OpMonTeam/OpMon
   type: remake
   updated: 2022-10-15
-  url: http://www.opmon-game.ga/
+  url: https://opmon-game.ga
+  images:
+  - https://opmon-game.ga/img/screenshot_2.png
 
 - name: opsu!
   originals:
@@ -2616,7 +2620,7 @@
   status: playable
   type: remake
   updated: 2014-08-20
-  url: http://bni.github.io/orbium/
+  url: https://bni.github.io/orbium/
 
 - name: Ordoor
   type: remake
@@ -2650,14 +2654,17 @@
 - name: orona
   licenses:
   - GPL2
+  content: free
   development: halted
+  langs:
+  - CoffeeScript
   originals:
   - Bolo
   repo: https://github.com/stephank/orona
-  status: playable
+  status: semi-playable
   type: remake
-  updated: 2013-06-06
-  url: http://stephank.github.io/orona/
+  updated: 2022-11-29
+  url: https://stephank.github.io/orona/bolo.html
 
 - name: Ostrich Riders
   images:
@@ -2677,7 +2684,7 @@
   repo: https://github.com/dulsi/ostrichriders
   type: clone
   updated: 2022-07-17
-  url: http://identicalsoftware.com/ostrichriders/
+  url: https://identicalsoftware.com/ostrichriders/
 
 - name: osu!
   type: clone
