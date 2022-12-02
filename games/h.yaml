@@ -29,7 +29,6 @@
   repo: https://github.com/snozza/pacman
   type: remake
   updated: 2022-10-28
-  url: http://hacman.herokuapp.com/
   info: multiplayer Pac-Man
   multiplayer:
   - Online
@@ -56,7 +55,7 @@
   repo: https://sourceforge.net/projects/uhexen2/
   type: remake
   updated: 2021-05-18
-  url: http://uhexen2.sourceforge.net/
+  url: https://uhexen2.sourceforge.net/
 
 - name: Hardwar
   langs:
@@ -72,7 +71,7 @@
   repo: https://github.com/andrewfenn/Hardwar
   type: remake
   updated: 2020-12-28
-  url: http://www.hardwar.org/
+  url: https://www.hardwar.org/
   
 - name: Harold
   development: active
@@ -129,7 +128,6 @@
   status: semi-playable
   type: remake
   updated: 2021-11-20
-  url: http://twitter.com/GreentwipHealth
 
 - name: HauntedHouse
   langs:
@@ -158,7 +156,7 @@
   repo: https://github.com/dougmencken/HeadOverHeels
   type: remake
   updated: 2022-08-29
-  info: Originated from version 1.0.1 by Jorge Rodríguez Santos http://www.headoverheels2.com/drupal/en/
+  info: Originated from version 1.0.1 by Jorge Rodríguez Santos https://www.headoverheels2.com/drupal/en/
 
 - name: Head over Heels 2
   langs:
@@ -173,7 +171,7 @@
   status: playable
   type: remake
   updated: 2022-08-29
-  url: http://www.headoverheels2.com/drupal/en/
+  url: https://www.headoverheels2.com/drupal/en/
   images:
   - https://headoverheels2.com/drupal/sites/default/files/images/safari01.png
   - https://headoverheels2.com/drupal/sites/default/files/images/egyptus01.png
@@ -197,11 +195,11 @@
   repo: https://github.com/carstene1ns/hota-redux
   type: remake
   updated: 2021-09-23
-  url: http://hota.sourceforge.net/
+  url: https://hota.sourceforge.net/
   images:
-  - http://hota.sourceforge.net/screenshots/room2-win32.png
-  - http://hota.sourceforge.net/screenshots/scale3x-win32.png
-  - http://hota.sourceforge.net/screenshots/hota-amigaos.jpg
+  - https://hota.sourceforge.net/screenshots/room2-win32.png
+  - https://hota.sourceforge.net/screenshots/scale3x-win32.png
+  - https://hota.sourceforge.net/screenshots/hota-amigaos.jpg
   video:
     youtube: VLLfticgh6E
 
@@ -210,10 +208,10 @@
   - SDL
   - Qt
   images:
-  - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu_s.png
-  - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-christmas_s.png
-  - http://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-nature_s.png
-  - http://hedgewars.org/images/screenshots/hedgewars-0.9.6-001_s.png
+  - https://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-main-menu_s.png
+  - https://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-christmas_s.png
+  - https://hedgewars.org/files/fck_upload/image/screenshots/0_9_15-nature_s.png
+  - https://hedgewars.org/images/screenshots/hedgewars-0.9.6-001_s.png
   langs:
   - Lua
   - C
@@ -226,10 +224,10 @@
   originals:
   - Worms Series
   status: playable
-  repo: http://hg.hedgewars.org/hedgewars/
+  repo: https://hg.hedgewars.org/hedgewars/
   type: clone
   updated: 2019-06-07
-  url: http://hedgewars.org/
+  url: https://hedgewars.org/
 
 - name: Hematite
   images:
@@ -245,7 +243,7 @@
   repo: https://github.com/PistonDevelopers/hematite
   type: remake
   updated: 2021-09-10
-  url: http://hematite.piston.rs/
+  url: https://hematite.piston.rs/
   info: Hematite is a project aiming to implement Minecraft in Rust.
 
 - name: Heroes of Civilizations
@@ -276,7 +274,12 @@
   repo: https://sourceforge.net/projects/herzog3d/
   type: clone
   updated: 2022-08-29
-  url: http://herzog3d.sourceforge.net/
+  url: https://herzog3d.sourceforge.net/
+  images:
+  - https://herzog3d.sourceforge.net/images/hz_1.jpeg
+  - https://herzog3d.sourceforge.net/images/hz_2.jpeg
+  - https://herzog3d.sourceforge.net/images/hz_3.jpeg
+  - https://herzog3d.sourceforge.net/images/hz_4.jpeg
 
 - name: HexGL
   frameworks:
@@ -291,7 +294,7 @@
   repo: https://github.com/BKcore/HexGL
   type: clone
   updated: 2022-08-12
-  url: http://hexgl.bkcore.com/
+  url: https://hexgl.bkcore.com/
   video:
     youtube: se-oorr2zM8
 
@@ -372,7 +375,7 @@
   repo: https://github.com/richcarl/hobbitgfx
   type: tool
   updated: 2022-01-15
-  url: http://richardcarlsson.blogspot.co.uk/2014/11/the-hobbit-1982-game-graphics-engine-in.html
+  url: https://richardcarlsson.blogspot.co.uk/2014/11/the-hobbit-1982-game-graphics-engine-in.html
   info: This implements the graphics engine from the 1982 text adventure game The Hobbit
 
 - name: Hocoslamfy
@@ -520,8 +523,8 @@
   - HyperRogue
   type: remake
   repo: 'https://github.com/zenorogue/hyperrogue'
-  url: 'http://roguetemple.com/z/hyper/'
-  feed: 'http://zenorogue.blogspot.com/feeds/posts/default'
+  url: https://roguetemple.com/z/hyper/
+  feed: https://zenorogue.blogspot.com/feeds/posts/default
   development: active
   status: playable
   content: swappable
@@ -534,8 +537,8 @@
   info: Original source code of game
   updated: '2020-02-24'
   images:
-  - 'http://roguetemple.com/z/hyper/barriers.png'
-  - 'http://roguetemple.com/z/hyper/caves2.png'
-  - 'http://roguetemple.com/z/hyper/alchemist.png'
+  - 'https://roguetemple.com/z/hyper/barriers.png'
+  - 'https://roguetemple.com/z/hyper/caves2.png'
+  - 'https://roguetemple.com/z/hyper/alchemist.png'
   video:
     youtube: xAFrKKApHTY
