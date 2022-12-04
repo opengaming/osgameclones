@@ -1,13 +1,16 @@
-const DARK_THEME_CLASS = 'darkTheme';
+const DARK_THEME_CLASS = 'dark-theme';
+const LIGHT_THEME_CLASS = 'light-theme';
 const DARK_THEME_KEY = 'startInDarkTheme';
 
 function setDarkTheme() {
+  document.body.classList.remove(LIGHT_THEME_CLASS);
   document.body.classList.add(DARK_THEME_CLASS);
   setThemeButtonText("Light Theme");
 }
 
 function setLightTheme() {
   document.body.classList.remove(DARK_THEME_CLASS);
+  document.body.classList.add(LIGHT_THEME_CLASS);
   setThemeButtonText("Dark Theme");
 }
 
