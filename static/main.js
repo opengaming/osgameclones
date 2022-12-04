@@ -176,7 +176,7 @@ function highlightTags(tag) {
   if (tag) {
     tag = tag.replace(/"/g, '');
     var line = '.tag[data-name=\"' + tag + '\"] { color: #ccc; background-color: #444; }';
-    line += '.darkTheme .tag[data-name=\"' + tag + '\"] { color: #444; background-color: #ccc; }';
+    line += '.dark-theme .tag[data-name=\"' + tag + '\"] { color: #444; background-color: #ccc; }';
     style.innerHTML = line;
   } else {
     style.innerHTML = '';
