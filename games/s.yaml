@@ -26,10 +26,11 @@
 - name: sandspiel
   originals:
   - Powder Game
+  status: playable
   type: clone
   repo: https://github.com/maxbittker/sandspiel
   url: https://sandspiel.club/
-  development: sporadic
+  development: active
   content: open
   langs:
   - Rust
@@ -60,9 +61,10 @@
   - Python
   licenses:
   - GPL3
-  development: sporadic
+  development: halted
   originals:
   - Moonbase Commander
+  status: unplayable
   repo: https://github.com/Scorched-Moon/client
   type: remake
   updated: 2020-08-25
@@ -252,13 +254,23 @@
   - C++
   licenses:
   - GPL3
-  development: active
+  development: sporadic
   originals:
   - Mario World
+  status: playable
   repo: https://github.com/secretchronicles/TSC
   type: remake
-  updated: 2018-10-06
+  updated: 2022-12-08
   url: https://secretchronicles.org
+  images:
+  - https://secretchronicles.org/assets/screenshots/1.png
+  - https://secretchronicles.org/assets/screenshots/2.png
+  - https://secretchronicles.org/assets/screenshots/3.png
+  - https://secretchronicles.org/assets/screenshots/4.png
+  - https://secretchronicles.org/assets/screenshots/5.png
+  - https://secretchronicles.org/assets/screenshots/6.png
+  - https://secretchronicles.org/assets/screenshots/7.png
+  - https://secretchronicles.org/assets/screenshots/8.png
 
 - name: Secret Maryo Chronicles
   info: 'SMC is no longer under active development. However, there is now a new game based on SMC: https://github.com/secretchronicles/TSC'
@@ -273,6 +285,7 @@
   development: halted
   originals:
   - Mario World
+  status: playable
   repo: https://github.com/FluXy/SMC
   type: remake
   updated: 2018-10-06
@@ -288,6 +301,7 @@
   development: halted
   originals:
   - Sensitive
+  status: semi-playable
   repo: https://github.com/bylexus/sensitive-js
   type: remake
   updated: 2017-04-27
@@ -316,10 +330,13 @@
   development: active
   originals:
   - Seven Kingdoms
+  status: playable
   repo: https://github.com/the3dfxdude/7kaa
   type: remake
-  url: http://7kfans.com/
+  url: https://7kfans.com
   updated: 2018-10-06
+  video:
+    youtube: nRE3HX1Tx3g
 
 - name: sfall
   development: active
@@ -372,10 +389,12 @@
   - JavaScript
   licenses:
   - Apache
-  development: active
+  development: halted
   originals:
   - Shadow of the Beast
+  status: unplayable
   repo: https://github.com/spleennooname/shadow-of-the-beast-html5
+  url: http://spleennooname.github.io/shadow-of-the-beast-html5/
   type: remake
   updated: 2017-04-04
 
@@ -416,9 +435,15 @@
   development: halted
   originals:
   - Shining Soul
+  status: unplayable
   repo: https://github.com/CharlieIsMyName/ShiningSoulRemake
   type: remake
-  updated: 2016-04-11
+  updated: 2022-12-08
+  images:
+  - https://camo.githubusercontent.com/b3b143b465cd63fc763afb5886489ac4e54d158e345b9746e9c0ee73c4a71b77/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f647177796a6e7a67692f696d6167652f75706c6f61642f76313437333730393539302f305f6d76777a6e712e706e67
+  - https://camo.githubusercontent.com/008dde4ba4a26e0a488e9109297c6364944c8d258487c5bca17be730c3a20461/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f647177796a6e7a67692f696d6167652f75706c6f61642f76313437333730393539302f315f6e31696170352e706e67
+  - https://camo.githubusercontent.com/ed0697f38c1dc5986bb26830ce7e8478a101d05dad24d31704220fcea8455e6d/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f647177796a6e7a67692f696d6167652f75706c6f61642f76313437333730393539302f325f796a66766b712e706e67
+  - https://camo.githubusercontent.com/d446f9207ca19823bfc26caca26b97635ed6c41690bd84a60455080055b7cb94/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f647177796a6e7a67692f696d6167652f75706c6f61642f76313437333730393539302f335f7a7435636e352e706e67
 
 - name: Ship of Harkinian
   originals:
@@ -498,6 +523,7 @@
 - name: Silent Hill 2 Enhancement
   originals:
   - Silent Hill 2
+  status: playable
   type: tool
   repo: https://github.com/elishacloud/Silent-Hill-2-Enhancements
   url: http://www.enhanced.townofsilenthill.com/SH2/
@@ -620,7 +646,7 @@
   - Doom
   type: tool
   repo: https://github.com/sirjuddington/SLADE
-  url: http://slade.mancubus.net/
+  url: https://slade.mancubus.net/
   development: active
   content: swappable
   langs:
@@ -630,9 +656,9 @@
   info: SLADE3 is a modern editor for Doom-engine based games and source ports.
   updated: 2019-08-26
   images:
-  - http://slade.mancubus.net/shots/gfx.png
-  - http://slade.mancubus.net/shots/map.png
-  - http://slade.mancubus.net/shots/map3d.png
+  - https://slade.mancubus.net/shots/gfx.png
+  - https://slade.mancubus.net/shots/map.png
+  - https://slade.mancubus.net/shots/map3d.png
 
 - name: SLASH'EM
   images:
@@ -893,6 +919,7 @@
   development: active
   originals:
   - Legend of Zelda - A Link to the Past
+  status: playable
   repo: https://gitlab.com/solarus-games/solarus
   type: tool
   updated: 2020-08-25
@@ -1271,9 +1298,9 @@
 
 - name: Spring
   images:
-  - http://springrts.com/screenshot.php?id=5673
-  - http://springrts.com/screenshot.php?id=1787
-  - http://springrts.com/screenshot.php?id=2567
+  - https://springrts.com/screenshot.php?id=5673
+  - https://springrts.com/screenshot.php?id=1787
+  - https://springrts.com/screenshot.php?id=2567
   langs:
   - C++
   - Java
@@ -1283,10 +1310,13 @@
   development: active
   originals:
   - Total Annihilation
+  status: playable
   repo: https://github.com/spring/spring
   type: remake
-  url: http://springrts.com/
+  url: https://springrts.com/
   updated: 2018-10-06
+  video:
+    youtube: GAM_vcVJiL4
 
 - name: 'Spring: 1944'
   frameworks:
@@ -1365,6 +1395,7 @@
 - name: ss13remake
   originals:
   - Space Station 13
+  status: unplayable
   type: remake
   repo: 'https://github.com/ss13remake/ss13remake'
   development: halted
@@ -1381,20 +1412,27 @@
   development: complete
   langs:
   - C++
-  licenses: [MIT, CC-BY-NC]
-  originals: [Star Ruler 2]
+  licenses:
+  - MIT
+  - CC-BY-NC
+  originals:
+  - Star Ruler 2
+  status: playable
   repo: https://github.com/BlindMindStudios/StarRuler2-Source
-  type: remake
+  type: official
   updated: 2018-07-21
+  video:
+    youtube: 3OFhVtqfDBQ
 
 - name: star-control2
   langs:
   - C++
   licenses:
   - MIT
-  development: active
+  development: halted
   originals:
   - Star Control 2
+  status: unplayable
   repo: https://github.com/jjimenezg93/star-control2
   type: remake
   updated: 2016-04-11
@@ -1444,9 +1482,12 @@
   development: halted
   originals:
   - Ascendancy
+  status: playable
   repo: https://github.com/karona75/starlane-empire
   type: remake
   updated: 2020-08-25
+  images:
+  - https://happypenguin.altervista.org/screenshots/starlane.jpg
 
 - name: 'StarMines: The Next Generation'
   originals:
@@ -1503,6 +1544,7 @@
   development: halted
   originals:
   - Starshatter
+  status: playable
   repo: https://github.com/Luomu/starshatter-open
   type: remake
   updated: 2019-04-05
@@ -1605,6 +1647,7 @@
   development: halted
   originals:
   - Stunt Car Racer
+  status: playable
   repo: https://sourceforge.net/projects/stuntcarremake/
   type: remake
   updated: 2018-10-06
@@ -1640,9 +1683,10 @@
   - C++
   licenses:
   - As-is
-  development: active
+  development: halted
   originals:
   - Stunt Car Racer
+  status: playable
   repo: https://github.com/ptitSeb/stuntcarremake
   url: http://ptitseb.github.io/stuntcarremake/
   type: remake
@@ -1664,33 +1708,37 @@
 
 - name: Summoning Wars
   images:
-  - http://sumwars.org/mediawiki/images/0/08/Sumwars_0.5.5_mainmenu.jpg
-  - http://sumwars.org/mediawiki/images/9/95/Sumwars_0.5.5_-Trading_a_bit.jpg
-  - http://sumwars.org/mediawiki/images/5/5c/What_a_cute_skeleton_this_is%21.jpg
+  - https://a.fsdn.com/con/app/proj/sumwars/screenshots/0_5_8_wizard3.png/max/max/1
+  - https://a.fsdn.com/con/app/proj/sumwars/screenshots/mighty_creatures.png/max/max/1
+  - https://a.fsdn.com/con/app/proj/sumwars/screenshots/item_trade.png/max/max/1
   langs:
   - C++
   - Lua
   licenses:
   - GPL3
-  development: active
+  development: halted
   originals:
   - Diablo
+  status: semi-playable
   repo: https://sourceforge.net/projects/sumwars/
   type: clone
   updated: 2020-08-25
 
-- name: sundog
+- name: 'Sundog: Frozen Legacy'
   images:
   - https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/title_screen.png
   - https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/moveonship.png
   - https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/ship_cockpit.png
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - MIT
   development: sporadic
   originals:
   - 'SunDog: Frozen Legacy'
+  status: playable
   repo: https://github.com/laanwj/sundog
   type: remake
   updated: 2017-04-19
@@ -1704,9 +1752,10 @@
   - Python
   licenses:
   - Artistic
-  development: sporadic
+  development: halted
   originals:
   - 'SunDog: Frozen Legacy'
+  status: playable
   repo: https://sourceforge.net/projects/sundog/
   type: remake
   updated: 2017-04-20
@@ -1762,6 +1811,20 @@
   updated: 2014-04-16
   url: http://methane.sourceforge.net/
 
+- name: Super Methane Brothers for Wii and GameCube
+  info: Wii and GameCube port
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  development: halted
+  originals:
+  - Super Methane Brothers
+  status: playable
+  repo: https://github.com/carstene1ns/super-methane-brothers
+  type: remake
+  updated: 2020-08-31
+
 - name: Super Tilt Bro
   type: clone
   originals:
@@ -1783,19 +1846,6 @@
   - https://img.itch.zone/aW1nLzE2MTUxNzgucG5n/original/OzQp7n.png
   - https://img.itch.zone/aW1nLzE2MTUxODEucG5n/original/9XgmUx.png
   - https://img.itch.zone/aW1nLzE2MTUxODIucG5n/original/ujDNEx.png
-
-- name: super-methane-brothers-gx
-  info: Wii and GameCube port
-  langs:
-  - C++
-  licenses:
-  - GPL2
-  development: sporadic
-  originals:
-  - Super Methane Brothers
-  repo: https://github.com/carstene1ns/super-methane-brothers
-  type: remake
-  updated: 2020-08-31
 
 - name: Supercars III
   images:
@@ -1937,6 +1987,7 @@
   - C
   originals:
   - Shadow Warrior
+  status: playable
   repo: https://github.com/Hendricks266/SWP
   type: remake
   updated: 2020-01-07
