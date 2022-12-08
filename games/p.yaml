@@ -1083,17 +1083,21 @@
 
 - name: PyTouhou
   images:
-  - http://pytouhou.linkmauve.fr/screenshots/big/s1-01.png
-  - http://pytouhou.linkmauve.fr/screenshots/big/s6-06.png
-  - http://pytouhou.linkmauve.fr/screenshots/big/s7-06.png
+  - https://pytouhou.linkmauve.fr/screenshots/big/s1-01.png
+  - https://pytouhou.linkmauve.fr/screenshots/big/s6-06.png
+  - https://pytouhou.linkmauve.fr/screenshots/big/s7-06.png
   langs:
   - Python
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
-  development: active
+  content: commercial
+  development: sporadic
   originals:
   - Touhou
-  repo: http://hg.linkmauve.fr/touhou
+  status: playable
+  repo: https://hg.linkmauve.fr/touhou
   type: remake
-  updated: 2015-07-11
-  url: http://pytouhou.linkmauve.fr/
+  updated: 2022-12-09
+  url: https://pytouhou.linkmauve.fr/
