@@ -1020,14 +1020,20 @@
 - name: pycraft
   langs:
   - Python
+  - C
   licenses:
   - GPL2
-  development: active
+  development: halted
   originals:
   - Minecraft
+  status: playable
   repo: https://github.com/itsapi/pycraft
+  feed: https://github.com/itsapi/pycraft/releases.atom
   type: remake
-  updated: 2015-12-29
+  updated: 2022-12-16
+  info: A command line based 2D Minecraft
+  images:
+  - https://cdn.dvbris.com/pycraft-2.gif
 
 - name: pyskool
   images:
