@@ -410,20 +410,22 @@
 
 - name: xu4
   images:
-  - http://xu4.sourceforge.net/images/intro1.png
-  - http://xu4.sourceforge.net/images/forest.png
-  - http://xu4.sourceforge.net/images/codex.png
+  - 'https://xu4.sourceforge.net/images/intro1-vu.png'
+  - 'https://xu4.sourceforge.net/images/forest.png'
+  - 'https://xu4.sourceforge.net/images/codex.png'
   langs:
   - C++
   licenses:
   - GPL2
-  development: halted
+  content: free
+  development: active
   originals:
   - 'Ultima IV: Quest of the Avatar'
+  status: playable
   repo: https://sourceforge.net/projects/xu4/
   type: remake
-  url: http://xu4.sourceforge.net/
-  updated: 2020-05-19
+  url: https://xu4.sourceforge.net/
+  updated: 2022-12-17
 
 - name: Xye
   images:
