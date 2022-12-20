@@ -689,16 +689,18 @@
 - name: pq2
   frameworks:
   - ncurses
+  - Qt
   langs:
   - C++
   licenses:
   - GPL3
-  development: active
+  development: halted
   originals:
   - Progress Quest
+  status: semi-playable
   repo: https://github.com/nbollom/pq2
   type: remake
-  updated: 2016-06-03
+  updated: 2022-12-21
 
 - name: PrBoom+
   images:
