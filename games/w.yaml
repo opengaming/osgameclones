@@ -343,12 +343,11 @@
     youtube: UuEI8h8a0zs
 
 - name: WinWar
-  development: halted
+  development: active
   images:
-  - https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt1.jpg/1
-  - https://a.fsdn.com/con/app/proj/winwar/screenshots/orc1linux.jpg/1
-  - https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt2.jpg/1
-  - https://a.fsdn.com/con/app/proj/winwar/screenshots/winwarrt3.jpg/1
+  - https://raw.githubusercontent.com/CAMongrel/WinWar/screenshots/Screenshots/Intro.png
+  - https://raw.githubusercontent.com/CAMongrel/WinWar/screenshots/Screenshots/Orc1.png
+  - https://raw.githubusercontent.com/CAMongrel/WinWar/screenshots/Screenshots/iPad.jpg
   langs:
   - C#
   licenses:
@@ -356,10 +355,12 @@
   content: commercial
   originals:
   - 'Warcraft: Orcs & Humans'
+  status: playable
   repo: https://github.com/CAMongrel/WinWar
   type: remake
-  updated: 2017-02-07
-  url: http://winwar.sourceforge.net/
+  updated: 2022-12-22
+  video:
+    youtube: AIqp-OhKuHM
 
 - name: Witch Blast
   development: halted
