@@ -537,15 +537,32 @@
 
 - name: ezQuake
   images:
-  - https://ezquake.sourceforge.net/gallery/armor_battle.png
+  - https://ezquake.com/assets/img/screenshots/armor_battle.jpg
+  - https://ezquake.com/assets/img/screenshots/observing_features.jpg
+  - https://ezquake.com/assets/img/screenshots/bloom.jpg
+  - https://ezquake.com/assets/img/screenshots/powerupshells.jpg
+  - https://ezquake.com/assets/img/screenshots/rich_menus.jpg
+  - https://ezquake.com/assets/img/screenshots/underwater.jpg
+  - https://ezquake.com/assets/img/screenshots/shambler_cutf_bluefog.jpg
+  - https://ezquake.com/assets/img/screenshots/drawflat_fastturb_multiview.jpg
+  - https://ezquake.com/assets/img/screenshots/lightning_sparks.jpg
+  - https://ezquake.com/assets/img/screenshots/fog_fogsky_grenadetrail_flame.jpg
+  - https://ezquake.com/assets/img/screenshots/nailtrail_muzzleflash.jpg
+  - https://ezquake.com/assets/img/screenshots/nailtrail_plasma.jpg
+  - https://ezquake.com/assets/img/screenshots/part_zap.jpg
   langs:
   - C
+  frameworks:
+  - OpenGL
+  - SDL2
   licenses:
   - GPL2
+  content: commercial
   development: active
   originals:
   - Quake
+  status: playable
   repo: https://github.com/ezQuake/ezquake-source
   type: remake
-  updated: 2020-08-31
+  updated: 2022-12-24
   url: https://www.ezquake.com/
