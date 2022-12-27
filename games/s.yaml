@@ -466,6 +466,26 @@
   video:
     youtube: 4ZNIE5xwjsY
 
+- name: shiromino
+  originals:
+  - 'Tetris: The Grand Master'
+  type: clone
+  repo: 'https://github.com/shiromino/shiromino'
+  feed: 'https://github.com/shiromino/shiromino/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  updated: '2022-12-28'
+  images:
+  - 'https://tetris.wiki/images/f/fa/Shiromino_title.jpg'
+  - 'https://tetris.wiki/images/1/10/Shiromino_ingame.jpg'
+
 - name: Shockolate
   development: active
   frameworks:
