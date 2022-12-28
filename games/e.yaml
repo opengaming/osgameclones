@@ -505,21 +505,35 @@
 
 - name: Exult
   images:
-  - https://exult.sourceforge.net/images/screenshots/stage.png
-  - https://exult.sourceforge.net/images/screenshots/bgpaper.png
-  - https://exult.sourceforge.net/images/screenshots/blackgate.png
-  - https://exult.sourceforge.net/images/screenshots/teleportmap.png
+  - https://exult.sourceforge.io/images/screenshots/mainmenu.png
+  - https://exult.sourceforge.io/images/screenshots/cheat.png
+  - https://exult.sourceforge.io/images/screenshots/stage.png
+  - https://exult.sourceforge.io/images/screenshots/love.png
+  - https://exult.sourceforge.io/images/screenshots/bgpaper.png
+  - https://exult.sourceforge.io/images/screenshots/si.png
+  - https://exult.sourceforge.io/images/screenshots/alagnar.png
+  - https://exult.sourceforge.io/images/screenshots/blackgate.png
+  - https://exult.sourceforge.io/images/screenshots/savescrn.png
+  - https://exult.sourceforge.io/images/screenshots/stats2.png
+  - https://exult.sourceforge.io/images/screenshots/exult_studio1.jpg
+  - https://exult.sourceforge.io/images/screenshots/exult_studio2.png
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
+  content: commercial
   development: active
   originals:
   - 'Ultima VII: The Black Gate'
+  status: playable
   repo: https://github.com/exult/exult
   type: remake
-  updated: 2020-05-19
-  url: https://exult.sourceforge.net/
+  updated: 2022-12-23
+  url: http://exult.info/
+  video:
+    youtube: Tl_7HbBw0Gk
 
 - name: ezQuake
   images:
