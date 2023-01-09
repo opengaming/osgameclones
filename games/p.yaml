@@ -741,21 +741,24 @@
 
 - name: Privateer - Gemini Gold
   images:
-  - http://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad.png
-  - http://privateer.sourceforge.net/images/screenshot-1-approaching-planet-under-attack.png
-  - http://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png
-  - http://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
+  - https://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad.png
+  - https://privateer.sourceforge.net/images/screenshot-1-approaching-planet-under-attack.png
+  - https://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png
+  - https://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
   langs:
   - C++
   licenses:
   - GPL2
-  development: sporadic
+  development: halted
   originals:
   - 'Wing Commander: Privateer'
+  status: playable
   repo: https://sourceforge.net/projects/privateer/
   type: remake
-  url: http://privateer.sourceforge.net/
-  updated: 2018-10-06
+  url: https://privateer.sourceforge.net/
+  updated: 2023-01-10
+  video:
+    youtube: OtjV-rXNKjk
 
 - name: progress-quest
   frameworks:
