@@ -459,22 +459,26 @@
 
 - name: The Ur-Quan Masters
   images:
-  - http://sc2.sourceforge.net/screenshots/pcintro.jpg
-  - http://sc2.sourceforge.net/screenshots/slaveshield.png
-  - http://sc2.sourceforge.net/screenshots/scale_triscan.png
-  - http://sc2.sourceforge.net/screenshots/setupmenu.png
-  - http://sc2.sourceforge.net/screenshots/meleestep.png
+  - https://sc2.sourceforge.net/screenshots/pcintro.jpg
+  - https://sc2.sourceforge.net/screenshots/slaveshield.png
+  - https://sc2.sourceforge.net/screenshots/scale_triscan.png
+  - https://sc2.sourceforge.net/screenshots/setupmenu.png
+  - https://sc2.sourceforge.net/screenshots/meleestep.png
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
-  development: active
+  content: swappable
+  development: sporadic
   originals:
   - Star Control 2
+  status: playable
   repo: https://sourceforge.net/projects/sc2/
   type: remake
-  url: http://sc2.sourceforge.net/
-  updated: 2018-10-06
+  url: https://sc2.sourceforge.net/
+  updated: 2023-01-12
 
 - name: UTEngine
   originals:
