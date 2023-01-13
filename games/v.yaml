@@ -64,8 +64,8 @@
 
 - name: VASSAL
   images:
-  - http://www.vassalengine.org/images/screenshot1.png
-  - http://www.vassalengine.org/images/screenshot2.png
+  - https://vassalengine.org/images/screenshots/screenshot2-1044.webp
+  - https://a.fsdn.com/con/app/proj/vassalengine/screenshots/screenshot1.png/max/max/1
   langs:
   - Java
   licenses:
@@ -76,8 +76,9 @@
   repo: https://sourceforge.net/projects/vassalengine/
   status: playable
   type: clone
-  updated: 2019-11-20
-  url: http://www.vassalengine.org/
+  updated: 2023-01-13
+  url: https://www.vassalengine.org/
+  info: VASSAL is a game engine for creating electronic versions of traditional board and card games.
 
 - name: Vault13
   type: remake
@@ -100,13 +101,13 @@
 - name: VCMI
   development: active
   frameworks:
-  - SDL
+  - SDL2
   images:
-  - http://68.media.tumblr.com/c69e06e5f17abaa58c9e636ea324f51d/tumblr_ot0p9i6KSl1v51b1so6_1280.png
-  - http://68.media.tumblr.com/3340781f2a5ae99684a2942ffcf0bfc0/tumblr_ot0p9i6KSl1v51b1so7_1280.png
-  - http://68.media.tumblr.com/d801e66bb3b143945680f95762e63476/tumblr_otkcbgZUJb1v51b1so10_1280.png
-  - http://68.media.tumblr.com/49a7111bd9d5f9e0f8209a6a1a11ca9f/tumblr_otz6d2vuIj1v51b1so3_1280.png
-  - http://68.media.tumblr.com/bc8bd2e5b481a48f1b6b11a61106aa43/tumblr_otz6d2vuIj1v51b1so6_1280.png
+  - https://68.media.tumblr.com/c69e06e5f17abaa58c9e636ea324f51d/tumblr_ot0p9i6KSl1v51b1so6_1280.png
+  - https://68.media.tumblr.com/3340781f2a5ae99684a2942ffcf0bfc0/tumblr_ot0p9i6KSl1v51b1so7_1280.png
+  - https://68.media.tumblr.com/d801e66bb3b143945680f95762e63476/tumblr_otkcbgZUJb1v51b1so10_1280.png
+  - https://68.media.tumblr.com/49a7111bd9d5f9e0f8209a6a1a11ca9f/tumblr_otz6d2vuIj1v51b1so3_1280.png
+  - https://68.media.tumblr.com/bc8bd2e5b481a48f1b6b11a61106aa43/tumblr_otz6d2vuIj1v51b1so6_1280.png
   info: time-based releases
   langs:
   - C++
@@ -119,7 +120,7 @@
   status: playable
   type: remake
   url: https://vcmi.eu/
-  updated: 2019-11-20
+  updated: 2023-01-13
 
 - name: Vectoroids
   images:
@@ -162,13 +163,19 @@
   content: open
   updated: 2020-08-31
   images:
-  - http://vegastrike.sourceforge.net/forums/cpg/albums/user_screenshots/normal_lazer_rain_redux.jpg
-  - http://vegastrike.sourceforge.net/forums/cpg/albums/vs_screenshots/normal_starting_system_fighterbase.jpg
-  - http://vegastrike.sourceforge.net/forums/cpg/albums/vs_screenshots/normal_PlowSPEC.jpg
+  - https://vegastrike.sourceforge.net/forums/cpg/albums/user_screenshots/normal_lazer_rain_redux.jpg
+  - https://vegastrike.sourceforge.net/forums/cpg/albums/vs_screenshots/normal_starting_system_fighterbase.jpg
+  - https://vegastrike.sourceforge.net/forums/cpg/albums/vs_screenshots/normal_PlowSPEC.jpg
 
 - name: Veloren
   images:
   - https://veloren.net/header2.png
+  - https://veloren.net/processed_images/543e2a12f95a834a00.jpg
+  - https://veloren.net/processed_images/dea13f8adf85b3d400.jpg
+  - https://veloren.net/processed_images/7522bb46bc1867d100.jpg
+  - https://veloren.net/processed_images/399a6574e3b558e200.jpg
+  - https://veloren.net/processed_images/72467bafa0b4826f00.jpg
+  - https://veloren.net/processed_images/92fe6d5b53166d5600.jpg
   langs:
   - Rust
   licenses:
@@ -178,9 +185,10 @@
   - Cube World
   - Dwarf Fortress
   - Minecraft
+  status: playable
   repo: https://www.gitlab.com/veloren/veloren
   type: similar
-  updated: 2019-06-09
+  updated: 2023-01-13
   url: https://www.veloren.net
   multiplayer:
   - Online
@@ -204,13 +212,13 @@
   status: playable
   repo: https://github.com/Veraball/veraball
   type: remake
-  url: http://veraball.github.io/
+  url: https://veraball.github.io/
   updated: 2015-12-29
 
 - name: Violetland
   images:
-  - http://violetland.github.io/images/screenshots/thumbnail/violetland-illumination-630x475.png
-  - http://violetland.github.io/images/screenshots/thumbnail/violetland-flashlight-630x475.png
+  - https://violetland.github.io/images/screenshots/thumbnail/violetland-illumination-630x475.png
+  - https://violetland.github.io/images/screenshots/thumbnail/violetland-flashlight-630x475.png
   langs:
   - C++
   licenses:
@@ -223,7 +231,7 @@
   status: playable
   type: clone
   updated: 2017-02-08
-  url: http://violetland.github.io/
+  url: https://violetland.github.io/
 
 - name: viper
   langs:
@@ -324,7 +332,7 @@
   - Tetris
   type: remake
   repo: https://github.com/vicgeralds/vitetris
-  url: http://victornils.net/tetris/
+  url: https://victornils.net/tetris/
   development: complete
   status: playable
   multiplayer:
@@ -338,9 +346,9 @@
   info: Virtual terminal *tris clone
   updated: 2019-08-29
   images:
-  - http://victornils.net/tetris/img/vitetris050-brackets.png
-  - http://victornils.net/tetris/img/vitetris031-tt-rxvt.png
-  - http://victornils.net/tetris/img/vitetris031-tt-color-konsole.png
+  - https://victornils.net/tetris/img/vitetris050-brackets.png
+  - https://victornils.net/tetris/img/vitetris031-tt-rxvt.png
+  - https://victornils.net/tetris/img/vitetris031-tt-color-konsole.png
 
 - name: vkQuake
   frameworks:
@@ -376,19 +384,25 @@
   repo: https://sourceforge.net/projects/vorton/
   type: remake
   updated: 2022-09-16
-  url: http://vorton.sourceforge.net/
+  url: https://vorton.sourceforge.net/
 
 - name: Voxelands
   langs:
   - C++
+  frameworks:
+  - irrlicht
   licenses:
   - GPL3
-  development: active
+  development: halted
   originals:
   - Minecraft
+  status: playable
   repo: https://gitlab.com/voxelands/voxelands
   type: remake
-  updated: 2020-08-25
+  updated: 2023-01-13
+  video:
+    youtube: s5kV-TuJc7c
+  info: Forked from Minetest 0.3.x
 
 - name: Voxelstein 3D
   langs:
@@ -404,7 +418,7 @@
   type: clone
   updated: 2022-07-29
   status: playable
-  url: http://voxelstein3d.sourceforge.net/
+  url: https://voxelstein3d.sourceforge.net/
   info: Voxelstein 3D is a voxel based FPS game in the spirit of Wolfenstein 3D. It uses Ken Silverman's Voxlap engine.
   video:
     youtube: LqI9U7_w8BI
@@ -414,7 +428,7 @@
   - VVVVVV
   type: official
   repo: 'https://github.com/TerryCavanagh/vvvvvv'
-  url: 'http://distractionware.com/blog/2020/01/vvvvvv-is-now-open-source/'
+  url: 'https://distractionware.com/blog/2020/01/vvvvvv-is-now-open-source/'
   development: very active
   status: playable
   content: commercial
@@ -429,5 +443,5 @@
   info: 'This is the source code to VVVVVV, version 2.0+.'
   updated: '2020-01-15'
   images:
-  - 'http://distractionware.com/blog/wp-content/uploads/2020/01/ending10year.png'
-  - 'http://distractionware.com/blog/wp-content/uploads/2020/01/evvvvvvent1.gif'
+  - 'https://distractionware.com/blog/wp-content/uploads/2020/01/ending10year.png'
+  - 'https://distractionware.com/blog/wp-content/uploads/2020/01/evvvvvvent1.gif'
