@@ -215,18 +215,21 @@
 
 - name: Zod Engine
   images:
-  - http://zod.sourceforge.net/screenshots/gameplay_13.png
+  - https://zod.sourceforge.net/screenshots/gameplay_13.png
   licenses:
   - GPL3
-  development: active
+  langs:
+  - C++
+  development: sporadic
   originals:
   - Z
-  repo: http://sourceforge.net/projects/zod/
+  status: playable
+  repo: https://sourceforge.net/projects/zod/
   type: remake
-  url: http://zod.sourceforge.net/
+  url: https://zod.sourceforge.net/
   video:
     youtube: 8VehUvuWHqw
-  updated: 2018-10-06
+  updated: 2023-01-16
 
 - name: zombie apocalypse html5
   langs:
