@@ -174,21 +174,25 @@
 
 - name: Warzone 2100
   images:
-  - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/elite-force.jpg
-  - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/artillery-and-sensors.jpeg
-  - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/new-hq-and-powergen.jpeg
-  - http://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
+  - https://developer.wz2100.net/raw-attachment/wiki/Screenshots/elite-force.jpg
+  - https://developer.wz2100.net/raw-attachment/wiki/Screenshots/artillery-and-sensors.jpeg
+  - https://developer.wz2100.net/raw-attachment/wiki/Screenshots/new-hq-and-powergen.jpeg
+  - https://developer.wz2100.net/raw-attachment/wiki/Screenshots/highlands.jpg
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
+  content: open
   development: active
   originals:
   - Warzone 2100
+  status: playable
   repo: https://github.com/Warzone2100/warzone2100
   type: remake
-  url: http://wz2100.net/
-  updated: 2018-10-06
+  url: https://wz2100.net/
+  updated: 2023-01-17
 
 - name: WAtomic
   frameworks:
