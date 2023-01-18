@@ -297,6 +297,9 @@ def parse_data(site):
     if len(errors) > 0:
         show_errors(errors)
 
+    def has_no_status(clone) -> bool:
+        return clone["type"] not in ("official", "tool") and "status" not in clone
+
     for clone in clones:
         if 'originals' not in clone:
             show_errors([{
@@ -313,13 +316,13 @@ def parse_data(site):
 
         if isinstance(clone['updated'], str):
             clone['updated'] = datetime.strptime(clone['updated'], "%Y-%m-%d").date()
-        if clone["type"] not in ("official", "tool") and "status" not in clone:
+        if has_no_status(clone):
             print(f"{clone['name']} has no status field")
         for image in clone.get('images', []):
             if image.startswith('http://'):
                 print(f"{clone['name']} {image=} is HTTP")
 
-    oldest_games = sorted([(clone['name'], clone['updated']) for clone in clones if 'status' not in clone], key=lambda x: x[1])[:5]
+    oldest_games = sorted([(clone['name'], clone['updated']) for clone in clones if has_no_status(clone)], key=lambda x: x[1])[:5]
     print(f"Oldest 5 games with no status: {oldest_games}")
 
     if len(errors) > 0:
