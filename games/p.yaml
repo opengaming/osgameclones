@@ -95,18 +95,28 @@
 
 - name: Pang Zero
   images:
-  - http://apocalypse.rulez.org/kozosfiles/upipang11/version_1.0.jpg
+  - https://apocalypse.rulez.org/kozosfiles/upipang11/version_1.0.jpg
+  - https://a.fsdn.com/con/app/proj/pangzero/screenshots/102928.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/pangzero/screenshots/101037.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/pangzero/screenshots/101035.jpg/max/max/1
   langs:
   - Perl
+  frameworks:
+  - SDL
   licenses:
   - GPL2
   development: halted
   originals:
   - Buster Bros
-  repo: http://pangzero.cvs.sourceforge.net/pangzero/pangzero/
+  status: playable
+  multiplayer:
+  - Local
+  repo: https://sourceforge.net/projects/pangzero/
   type: remake
-  updated: 2019-09-14
+  updated: 2023-01-20
   url: https://apocalypse.rulez.org/kozos/UpiPangBlog
+  video:
+    youtube: oWfEp_d3EeU
 
 - name: Paper Isaac
   type: clone
@@ -139,10 +149,12 @@
   development: halted
   originals:
   - Fallout 2
-  repo: http://hg.assembla.com/parpg-core
+  status: unplayable
+  repo: https://sourceforge.net/projects/parpg/
   type: remake
-  updated: 2020-08-25
-  url: http://blog.parpg.net/
+  updated: 2023-01-20
+  video:
+    youtube: WaVqYqA5Vv0
 
 - name: Pathological
   images:
@@ -160,14 +172,14 @@
   repo: https://sourceforge.net/projects/pathological/
   type: remake
   updated: 2022-07-28
-  url: http://pathological.sourceforge.net/
+  url: https://pathological.sourceforge.net/
 
 - name: PCExhumed
   type: remake
   originals:
   - Powerslave
   repo: https://github.com/nukeykt/NBlood
-  url: http://pcex.retrohost.net/
+  url: https://pcex.retrohost.net/
   development: very active
   status: playable
   langs:
@@ -199,24 +211,6 @@
   type: remake
   updated: 2015-07-14
 
-- name: Pentagram
-  images:
-  - http://pentagram.sourceforge.net/images/screenshots/pagan.png
-  - http://pentagram.sourceforge.net/images/screenshots/noremorse.png
-  - http://pentagram.sourceforge.net/images/screenshots/noregret.png
-  - http://pentagram.sourceforge.net/images/screenshots/japanese.png
-  langs:
-  - C++
-  licenses:
-  - GPL2
-  development: sporadic
-  originals:
-  - 'Ultima VIII: Pagan'
-  repo: https://github.com/pentagram-u8/pentagram
-  type: remake
-  url: http://pentagram.sourceforge.net/
-  updated: 2020-05-19
-
 - name: Performous
   langs:
   - C++
@@ -231,7 +225,7 @@
   status: playable
   type: clone
   updated: 2014-09-19
-  url: http://performous.org/
+  url: https://performous.org/
   video:
     youtube: soYIbsVmcyU
 
@@ -266,7 +260,7 @@
   repo: https://sourceforge.net/projects/phavon/
   type: remake
   updated: 2022-07-18
-  url: http://phavon.sourceforge.net/
+  url: https://phavon.sourceforge.net/
 
 - name: Phoenix
   langs:
@@ -291,8 +285,8 @@
   frameworks:
   - SDL2
   images:
-  - http://pingus.seul.org/images/screen_0.7.0-3.jpg
-  - http://pingus.seul.org/images/screen_0.7.0-4.jpg
+  - https://pingus.seul.org/images/screen_0.7.0-3.jpg
+  - https://pingus.seul.org/images/screen_0.7.0-4.jpg
   langs:
   - C++
   licenses:
@@ -304,7 +298,7 @@
   status: playable
   type: clone
   updated: 2018-07-14
-  url: http://pingus.seul.org
+  url: https://pingus.seul.org
 
 - name: Pink Pony
   type: clone
@@ -347,7 +341,7 @@
   status: playable
   type: clone
   updated: 2020-08-25
-  url: http://pioneerspacesim.net/
+  url: https://pioneerspacesim.net/
   video:
     vimeo: 78452479
 
@@ -368,9 +362,9 @@
 
 - name: Pizza Business
   images:
-  - http://pizza-business.sourceforge.net/gtk1.png
-  - http://pizza-business.sourceforge.net/screenshot1.png
-  - http://pizza-business.sourceforge.net/screenshot5.png
+  - https://pizza-business.sourceforge.net/gtk1.png
+  - https://pizza-business.sourceforge.net/screenshot1.png
+  - https://pizza-business.sourceforge.net/screenshot5.png
   langs:
   - C++
   licenses:
@@ -382,7 +376,7 @@
   repo: https://sourceforge.net/projects/pizza-business/
   type: clone
   updated: 2021-11-22
-  url: http://pizza-business.sourceforge.net/
+  url: https://pizza-business.sourceforge.net/
 
 - name: Planet Lander
   originals:
@@ -406,22 +400,6 @@
     https://github.com/maxerbox/Planet-Lander-with-pygame/raw/master/media/media/ai.png
   - >-
     https://github.com/maxerbox/Planet-Lander-with-pygame/raw/master/media/media/credit.png
-
-- name: Play Freeciv!
-  info: online browser game
-  langs:
-  - C
-  - Java
-  - JavaScript
-  licenses:
-  - AGPL3
-  development: active
-  originals:
-  - Civilization II
-  repo: https://github.com/freeciv/freeciv-web
-  type: clone
-  url: https://www.freecivweb.org/
-  updated: 2019-11-20
 
 - name: PokeTraveler
   originals:
@@ -624,7 +602,7 @@
   - Powerslave
   type: remake
   repo: 'https://gitlab.com/m210/PowerslaveGDX'
-  url: 'http://m210.duke4.net/'
+  url: 'https://m210.duke4.net/'
   development: very active
   status: playable
   content: commercial
@@ -719,7 +697,7 @@
   status: playable
   repo: https://github.com/coelckers/prboom-plus
   type: remake
-  url: http://prboom-plus.sourceforge.net/
+  url: https://prboom-plus.sourceforge.net/
   updated: 2021-04-15
 
 - name: Prince of Persia Apple II
@@ -727,7 +705,7 @@
   - Prince of Persia
   type: official
   repo: 'https://github.com/jmechner/Prince-of-Persia-Apple-II'
-  url: 'http://jordanmechner.com/books/journals'
+  url: https://www.jordanmechner.com/books/journals
   development: complete
   status: playable
   content: commercial
@@ -768,12 +746,13 @@
   - C++
   licenses:
   - MIT
-  development: active
+  development: halted
   originals:
   - Progress Quest
+  status: unplayable
   repo: https://github.com/sandsmark/progress-quest
   type: remake
-  updated: 2019-09-14
+  updated: 2023-01-20
 
 - name: Project Carrot
   frameworks:
@@ -805,12 +784,7 @@
   status: semi-playable
   repo: https://github.com/Afr0Games/Project-Dollhouse
   type: remake
-  url: http://www.afr0games.com
   updated: 2021-04-24
-  images:
-  - http://afr0games.com/wp-content/gallery/project-dollhouse/1080.png
-  - http://afr0games.com/wp-content/gallery/project-dollhouse/557951_10151824053981341_1799269210_n.jpg
-  - http://afr0games.com/wp-content/gallery/project-dollhouse/base-window-styles.png
   video:
     youtube: -iNQ-6LHMUs
 
@@ -836,9 +810,9 @@
 
 - name: ProjectX
   images:
-  - http://forsakenx.github.io/fsplanet/images/I_ins_koth001.JPG
-  - http://forsakenx.github.io/fsplanet/images/I_ins_koth006.JPG
-  - http://forsakenx.github.io/fsplanet/images/I_ins_koth011.JPG
+  - https://forsakenx.github.io/fsplanet/images/I_ins_koth001.JPG
+  - https://forsakenx.github.io/fsplanet/images/I_ins_koth006.JPG
+  - https://forsakenx.github.io/fsplanet/images/I_ins_koth011.JPG
   langs:
   - C
   licenses:
@@ -850,7 +824,7 @@
   status: playable
   type: remake
   updated: 2013-05-29
-  url: http://forsakenx.github.io/
+  url: https://forsakenx.github.io/
 
 - name: ProQuake 4
   licenses:
@@ -864,11 +838,11 @@
   development: halted
   type: remake
   updated: 2021-11-30
-  url: http://quakeone.com/proquake/
+  url: https://quakeone.com/proquake/
   images:
-  - http://quakeone.com/proquake/media/fitzquake_mark_v.jpg
-  - http://quakeone.com/~images/news/enginex000.jpg
-  - http://quakeone.com/proquake/media/undergate.png
+  - https://quakeone.com/proquake/media/fitzquake_mark_v.jpg
+  - https://quakeone.com/~images/news/enginex000.jpg
+  - https://quakeone.com/proquake/media/undergate.png
 
 - name: proxx
   development: complete
@@ -992,10 +966,10 @@
   development: halted
   originals:
   - Strikers 1945
-  repo: https://code.google.com/archive/p/py1945game/source/default/source
+  status: unplayable
+  repo: https://github.com/mauricio-jmmendes/py1945game
   type: remake
-  updated: 2020-08-25
-  url: https://code.google.com/archive/p/py1945game/
+  updated: 2023-01-20
 
 - name: PyBreak360
   images:
@@ -1040,7 +1014,7 @@
   images:
   - https://cdn.dvbris.com/pycraft-2.gif
 
-- name: pyskool
+- name: Pyskool
   images:
   - https://pyskool.ca/images/skool_daze-0.4.png
   - https://pyskool.ca/images/back_to_skool-0.4.png
@@ -1050,15 +1024,18 @@
   - https://pyskool.ca/images/skool_daze-wide-0.4.png
   langs:
   - Python
+  frameworks:
+  - pygame
   licenses:
   - GPL3
-  development: active
+  development: halted
   originals:
   - Skool Daze
+  status: playable
   repo: https://github.com/skoolkid/pyskool
   type: remake
-  updated: 2020-08-25
-  url: http://pyskool.ca/
+  updated: 2023-01-20
+  url: https://pyskool.ca/
 
 - name: pyspaceinvaders
   images:
