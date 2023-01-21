@@ -2,22 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Open Source Game Clones: New/Updated Games</title>
   <subtitle>Games entries that have been added or updated in the last 30 days</subtitle>
-  <link href="https://www.osgameclones.com/feed.xml" rel="self" />
+  <link href="https://osgameclones.com/feed.xml" rel="self" />
   <updated>{{ updated.strftime('%Y-%m-%dT%H:%M:%SZ') }}</updated>
-  <id>https://www.osgameclones.com/</id>
+  <id>https://osgameclones.com/</id>
   <category term="games"/>
   <category term="open source"/>
   <category term="game clone"/>
   {%- for names, meta, game in site.new_games.values() %}
   <entry>
-    <title>{{ game.name | xml_escape }}</title>
+    <title>{{ game.name | e }}</title>
     <author>
       <name>OSGC</name>
     </author>
-    <id>https://www.osgameclones.com/game/{{ game.name | slugify }}</id>
-    <link href="https://www.osgameclones.com/{{ names[0] | slugify }}" />
+    <id>https://osgameclones.com/game/{{ game.name | slugify }}</id>
+    <link href="https://osgameclones.com/{{ names[0] | slugify }}" />
     <updated>{{ game.updated.strftime('%Y-%m-%dT%H:%M:%SZ') }}</updated>
-    <summary>{{ game.type }} of {{ ', '.join(names) }} {{ game.info | xml_escape }}</summary>
+    <summary>{{ game.type }} of {{ ', '.join(names) }} {{ game.info | e }}</summary>
   </entry>
   {%- endfor %}
 </feed>
