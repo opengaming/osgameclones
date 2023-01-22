@@ -116,6 +116,7 @@ def main():
 
     env().filters['normalize'] = normalize
     env().filters['slugify'] = slugify
+    env().filters['e'] = jinja2.escape
     render_all(args.dest)
 
     # Render add game forms
