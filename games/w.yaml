@@ -143,6 +143,8 @@
   info: Wargus is a Warcraft2 Mod that allows you to play Warcraft2 with the Stratagus engine.
 
 - name:  WarsmashModEngine
+  frameworks:
+    - LibGDX
   langs:
   - Java
   licenses:
@@ -158,6 +160,7 @@
   info: This project attempts to be an open source remake of the game program portion of the Warcraft III game.
   video:
     youtube: 2YDPQW7uyQ8
+  status: semi-playable
 
 - name: Wario-Land-3
   frameworks:
