@@ -185,19 +185,26 @@
 
 - name: WarMUX
   images:
-  - https://lgdb.org/sites/default/files/node_images/29/160.jpg
+  - https://raw.githubusercontent.com/yeKcim/warmux/master/screenshots/warmux_end__A.png
+  - https://raw.githubusercontent.com/yeKcim/warmux/master/screenshots/warmux_end__B.png
+  - https://raw.githubusercontent.com/yeKcim/warmux/master/screenshots/warmux11.01.png
+  - https://raw.githubusercontent.com/yeKcim/warmux/master/screenshots/warmux%2011.04%20characters.png
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - GPL2
+  content: open
   development: halted
   originals:
   - Worms Series
+  status: playable
   repo: https://github.com/yeKcim/warmux
   type: clone
   video:
     youtube: X3ZkTg-QkAo
-  updated: 2019-09-13
+  updated: 2023-01-25
 
 - name: Warzone 2100
   images:
