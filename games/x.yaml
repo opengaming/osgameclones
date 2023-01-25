@@ -1,47 +1,3 @@
-- name: Xargon
-  originals:
-  - Xargon
-  type: remake
-  repo: 'https://github.com/Malvineous/xargon'
-  development: halted
-  status: playable
-  content: free
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  licenses:
-  - GPL3
-  info: SDL port of the DOS game Xargon
-  updated: '2021-02-19'
-  images:
-  - >-
-    https://pyra-handheld.com/boards/proxy.php?image=http%3A%2F%2Frepo.openpandora.org%2Ffiles%2Fpnd%2Fxargon_ptitseb%2Fpreview1.png&hash=827f70abcb22585a1bf93ee0c1a883c1
-  - 'http://www.shikadi.net/wiki/main/images/5/58/Xargon_port.png'
-  - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview3.png'
-
-- name: Xconq
-  images:
-  - https://upload.wikimedia.org/wikipedia/commons/d/d4/Xconq.jpg
-  - https://sourceware.org/xconq/20000804a.png
-  - https://sourceware.org/xconq/ww2-bn-utah-beach.gif
-  - https://sourceware.org/xconq/20000804c.png
-  - https://sourceware.org/xconq/panzer-attack.gif
-  - https://sourceware.org/xconq/e50-4.gif
-  langs:
-  - C
-  - C++
-  licenses:
-  - GPL2
-  development: sporadic
-  originals:
-  - Empire
-  repo: https://github.com/brentjohnson/xconq
-  status: playable
-  type: similar
-  updated: 2020-05-19
-  url: https://sourceware.org/xconq/
-
 - name: 'X-Force: Fight For Destiny'
   frameworks:
   - Kylix
@@ -103,21 +59,44 @@
   updated: 2021-03-14
 
 - name: XArchon
-  images:
-  - http://xarchon.seul.org/img/snap-1.gif
-  - http://xarchon.seul.org/img/snap-2.gif
   langs:
   - C
   - C++
+  frameworks:
+  - Qt
   licenses:
   - GPL2
+  content: open
   development: halted
   originals:
   - 'Archon: The Light and the Dark'
-  repo: http://xarchon.seul.org/xarchon-0.50.tar.gz
+  status: playable
+  repo: http://xarchon.seul.org/xarchon-0.60.tar.gz
   type: remake
-  updated: 2019-08-27
+  updated: 2023-01-25
   url: http://xarchon.seul.org/
+
+- name: Xargon
+  originals:
+  - Xargon
+  type: remake
+  repo: 'https://github.com/Malvineous/xargon'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  info: SDL port of the DOS game Xargon
+  updated: '2021-02-19'
+  images:
+  - >-
+    https://pyra-handheld.com/boards/proxy.php?image=http%3A%2F%2Frepo.openpandora.org%2Ffiles%2Fpnd%2Fxargon_ptitseb%2Fpreview1.png&hash=827f70abcb22585a1bf93ee0c1a883c1
+  - 'http://www.shikadi.net/wiki/main/images/5/58/Xargon_port.png'
+  - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview3.png'
 
 - name: xBaK
   frameworks:
@@ -138,6 +117,28 @@
   type: remake
   updated: 2014-08-15
   url: http://xbak.sourceforge.net/
+
+- name: Xconq
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/d/d4/Xconq.jpg
+  - https://sourceware.org/xconq/20000804a.png
+  - https://sourceware.org/xconq/ww2-bn-utah-beach.gif
+  - https://sourceware.org/xconq/20000804c.png
+  - https://sourceware.org/xconq/panzer-attack.gif
+  - https://sourceware.org/xconq/e50-4.gif
+  langs:
+  - C
+  - C++
+  licenses:
+  - GPL2
+  development: sporadic
+  originals:
+  - Empire
+  repo: https://github.com/brentjohnson/xconq
+  status: playable
+  type: similar
+  updated: 2020-05-19
+  url: https://sourceware.org/xconq/
 
 - name: xDuke
   type: remake
