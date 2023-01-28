@@ -92,19 +92,20 @@
 
 - name: LastNinja
   images:
-  - http://lastninja.sourceforge.net/images/lvl1.png
+  - https://lastninja.sourceforge.net/images/lvl1.png
   langs:
   - C++
   licenses:
   - GPL3
+  content: commercial
   development: halted
   originals:
   - The Last Ninja
   repo: https://sourceforge.net/projects/lastninja/
-  status: playable
+  status: semi-playable
   type: remake
-  updated: 2018-10-05
-  url: http://lastninja.sourceforge.net/
+  updated: 2023-01-28
+  url: https://lastninja.sourceforge.net
 
 - name: LastTry
   frameworks:
@@ -181,12 +182,14 @@
   - Breakout
   type: clone
   repo: https://sourceforge.net/projects/lgames/
-  url: 'http://lgames.sourceforge.net/LBreakoutHD/'
-  development: sporadic
+  url: https://lgames.sourceforge.io/LBreakoutHD/
+  development: halted
   status: playable
   content: open
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
   info: >-
@@ -194,11 +197,11 @@
     full of different types of bricks and extras by using your paddle to aim balls
     at the bricks. All LBreakout2 themes and levelsets work. New themes can be of
     any resolution.
-  updated: '2019-11-29'
+  updated: 2023-01-28
   images:
-  - 'http://lgames.sourceforge.net/LBreakoutHD/ss0.jpg'
-  - 'http://lgames.sourceforge.net/LBreakoutHD/ss1.jpg'
-  - 'http://lgames.sourceforge.net/LBreakoutHD/ss2.jpg'
+  - https://lgames.sourceforge.io/LBreakoutHD/ss0.jpg
+  - 'https://lgames.sourceforge.net/LBreakoutHD/ss1.jpg'
+  - 'https://lgames.sourceforge.net/LBreakoutHD/ss2.jpg'
 
 - name: The Legend Of Zelda - Navi's Quest
   frameworks:
@@ -352,18 +355,19 @@
 
 - name: Lemmini
   images:
-  - http://lemmini.de/lemmini_screenshot_win.png
+  - https://happypenguin.altervista.org/screenshots/lemmini.png
   langs:
   - Java
   licenses:
   - Apache
-  development: active
+  content: commercial
+  development: halted
   originals:
   - Lemmings
   repo: https://bitbucket.org/fade0ff/lemmini
   status: playable
   type: clone
-  updated: 2017-10-15
+  updated: 2023-01-28
   url: http://lemmini.de/
 
 - name: Lemmix
@@ -381,20 +385,23 @@
 
 - name: LGeneral
   images:
-  - http://lgames.sourceforge.net/LGeneral/ss0.jpg
-  - http://lgames.sourceforge.net/LGeneral/ss1.jpg
+  - https://lgames.sourceforge.io/LGeneral/ss0.jpg
+  - https://lgames.sourceforge.io/LGeneral/ss1.jpg
+  - https://lgames.sourceforge.io/LGeneral/ss2.jpg
   langs:
   - C
+  frameworks:
+  - SDL
   licenses:
   - GPL2
   development: halted
   originals:
   - Panzer General
-  repo: http://sourceforge.net/p/lgeneral/code/HEAD/tree/trunk/lgeneral/
+  repo: https://sourceforge.net/projects/lgeneral/
   status: playable
   type: remake
-  updated: 2019-08-27
-  url: http://lgames.sourceforge.net/LGeneral/
+  updated: 2023-01-28
+  url: https://lgames.sourceforge.net/LGeneral/
 
 - name: LibDay
   originals:
@@ -433,7 +440,7 @@
   type: tool
   content: commercial
   updated: 2019-04-15
-  url: http://fabiensanglard.net/reverse_engineering_strike_commander/index.php
+  url: https://fabiensanglard.net/reverse_engineering_strike_commander/index.php
   info: Tools to parse and render Origin Systems RealSpace engine assets.
 
 - name: Librelancer
@@ -531,20 +538,21 @@
 
 - name: Lincity
   images:
-  - http://lincity.sourceforge.net/screenshots/power.png
-  - http://lincity.sourceforge.net/screenshots/power+pollution.png
-  - http://lincity.sourceforge.net/screenshots/fire.png
+  - https://lincity.sourceforge.net/screenshots/power.png
+  - https://lincity.sourceforge.net/screenshots/power+pollution.png
+  - https://lincity.sourceforge.net/screenshots/fire.png
   langs:
   - C
   licenses:
   - GPL2
+  content: open
   development: halted
   status: playable
   originals:
   - SimCity
   repo: https://sourceforge.net/projects/lincity/
   type: clone
-  url: http://lincity.sourceforge.net/
+  url: https://lincity.sourceforge.net/
   updated: 2021-02-08
 
 - name: LinCity-NG
@@ -570,7 +578,7 @@
 
 - name: LinWarrior
   images:
-  - http://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg
+  - https://www.hackcraft.de/games/linwarrior_3d/screenshots/20110417.jpg
   langs:
   - C++
   licenses:
@@ -581,7 +589,7 @@
   repo: https://github.com/hackcraft-de/linwarrior
   type: clone
   updated: 2019-05-04
-  url: http://www.hackcraft.de/games/linwarrior_3d/index.htm
+  url: https://www.hackcraft.de/games/linwarrior_3d/index.htm
   status: playable
   content: free
   video:
@@ -619,7 +627,8 @@
   status: playable
   type: clone
   updated: 2018-01-15
-  url: http://www.lixgame.com
+  url: https://www.lixgame.com
+  info: obsolete; continued as LixD
   video:
     youtube: dWXXK8QlnME
 
@@ -628,7 +637,7 @@
   frameworks:
   - Allegro
   images:
-  - http://www.lixgame.com/img/lix-d-screenshot.png
+  - https://www.lixgame.com/img/lix-d-screenshot.png
   info: Updated port of Lix to D and Allegro 5
   langs:
   - D
@@ -636,6 +645,7 @@
   - CC0
   multiplayer:
   - Online
+  - Competitive
   content: open
   originals:
   - Lemmings
@@ -643,14 +653,14 @@
   status: playable
   type: clone
   updated: 2018-01-15
-  url: http://www.lixgame.com/
+  url: https://www.lixgame.com/
 
 - name: LMarbles
   originals:
   - Atomix
   type: clone
   repo: 'https://sourceforge.net/projects/lgames/'
-  url: 'http://lgames.sourceforge.net/LMarbles/'
+  url: 'https://lgames.sourceforge.io/LMarbles/'
   feed: 'https://sourceforge.net/p/lgames/activity/feed'
   development: complete
   status: playable
@@ -663,9 +673,9 @@
   - GPL2
   updated: '2019-12-04'
   images:
-  - 'http://lgames.sourceforge.net/LMarbles/ss0.jpg'
-  - 'http://lgames.sourceforge.net/LMarbles/ss1.jpg'
-  - 'http://lgames.sourceforge.net/LMarbles/ss2.jpg'
+  - 'https://lgames.sourceforge.io/LMarbles/ss0.jpg'
+  - 'https://lgames.sourceforge.io/LMarbles/ss1.jpg'
+  - 'https://lgames.sourceforge.io/LMarbles/ss2.jpg'
   video:
     youtube: pSdXftkK7M0
 
@@ -822,9 +832,9 @@
   originals:
   - Wolfenstein 3D
   type: remake
-  repo: 'https://bitbucket.org/linuxwolf6/lzwolf/src/master/'
-  url: 'http://wolf3d.net/lzwolf/'
-  development: active
+  repo: https://bitbucket.org/linuxwolf6/lzwolf/
+  url: https://beta.wolf3d.net/engines/LZWolf
+  development: very active
   status: playable
   content: commercial
   langs:
