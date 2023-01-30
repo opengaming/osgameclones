@@ -400,23 +400,25 @@
 
 - name: Unknown Horizons
   images:
-  - http://unknown-horizons.org/static/screenshots/2013-04-04.18-14-10.036341.png
-  - http://unknown-horizons.org/static/screenshots/2013-04-04.18-13-39.515762.png
-  - http://unknown-horizons.org/static/screenshots/2013-04-04.18-13-09.917428.png
-  - http://unknown-horizons.org/static/screenshots/loading_screen.png
-  - http://unknown-horizons.org/static/screenshots/2019-01-11.23-36-47.502394.png
+  - https://unknown-horizons.org/static/screenshots/godot/main_menu_godot.png
+  - https://unknown-horizons.org/static/screenshots/godot/ingame_dev_map_godot.png
+  - https://unknown-horizons.org/static/screenshots/godot/ingame_dev_map_2_godot.png
   langs:
-  - Python
+  - GDScript
+  frameworks:
+  - Godot
   licenses:
   - GPL2
-  - Multiple
-  development: active
+  content: open
+  development: sporadic
   originals:
   - Anno series
-  repo: https://github.com/unknown-horizons/unknown-horizons
+  status: unplayable
+  repo: https://github.com/unknown-horizons/godot-port
   type: clone
-  url: http://www.unknown-horizons.org/
-  updated: 2020-08-25
+  url: https://www.unknown-horizons.org/
+  updated: 2023-01-30
+  info: porting old python/FIFE codebase to Godot
 
 - name: Unknown Horizons Godot Engine Port
   originals:
