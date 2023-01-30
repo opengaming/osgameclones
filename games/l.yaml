@@ -61,6 +61,28 @@
   - 'https://ktpanda.org/software/lab3d_sdl/images/shot03.jpeg'
   - 'https://ktpanda.org/software/lab3d_sdl/images/shot04.jpeg'
 
+- name: Laser Kombat
+  originals:
+  - Laser Tank
+  type: clone
+  repo: 'https://github.com/sharkwouter/laserkombat'
+  url: 'https://github.com/sharkwouter/laserkombat'
+  development: active
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: Modern port of the 1999 Laser Tank clone
+  updated: '2023-01-30'
+  images:
+  - >-
+    https://raw.githubusercontent.com/sharkwouter/laserkombat/master/laserkombat.jpg
+
+
 - name: Ladder
   info: (source inside JAR file)
   langs:
