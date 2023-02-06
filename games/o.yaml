@@ -1173,6 +1173,46 @@
   url: https://opendungeons.github.io/
   updated: 2021-04-08
 
+- name: OpenE2140
+  type: remake
+  originals:
+  - Earth 2140
+  repo: https://github.com/michaeldgg2/OpenE2140
+  development: active
+  status: semi-playable
+  langs:
+  - C#
+  licenses:
+  - GPL3
+  frameworks:
+  - OpenRA
+  content: commercial
+  info: OpenRA mod
+  updated: 2023-01-31
+  images:
+  - https://dalek.zone/lazy-static/previews/1f3c3fc9-e347-4dfb-94d7-4107a5d2c2a2.jpg
+  - https://dalek.zone/lazy-static/previews/4d70f8c5-5b5f-41b1-832f-dd979039172c.jpg
+
+- name: opene2140
+  type: remake
+  originals:
+  - Earth 2140
+  repo: https://gitlab.com/opene2140/opene2140
+  development: halted
+  status: unplayable
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  frameworks:
+  - SDL2
+  - OpenGL
+  content: commercial
+  updated: 2023-01-31
+  images:
+  - https://user-images.githubusercontent.com/750553/72228544-d22a0080-35a7-11ea-87d0-9c3c72f0454f.png
+  - https://user-images.githubusercontent.com/750553/72228576-2b922f80-35a8-11ea-8616-4a40fba55edf.png
+
 - name: OpenEtG
   langs:
   - JavaScript
@@ -1469,7 +1509,7 @@
   - C++ 
   licenses:
   - GPL3
-  content: free
+  content: commercial
   info: Based on original executable decompilation
   updated: 2022-04-18
 
@@ -1486,7 +1526,7 @@
   - GPL3
   frameworks:
   - OpenRA
-  content: free
+  content: commercial
   info: OpenRA mod
   updated: 2022-05-01
   url: https://www.kknd-game.com/about
