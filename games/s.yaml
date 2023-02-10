@@ -119,7 +119,7 @@
   - https://www.scummvm.org/data/screenshots/perfect/dw2/dw2_dos_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/sierra/pq3/pq3_amiga_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/revolution/sword1/sword1_win_en_1_1_full.png
-  info: List of supported games <a href="http://scummvm.org/compatibility/">is here</a>
+  info: List of supported games <a href="https://scummvm.org/compatibility/">is here</a>
   langs:
   - C++
   frameworks:
@@ -134,7 +134,7 @@
   repo: https://github.com/scummvm/scummvm
   status: playable
   type: remake
-  url: http://scummvm.org/
+  url: https://scummvm.org/
   updated: 2023-01-20
 
 - name: SDL Asylum
@@ -156,13 +156,13 @@
   repo: https://sourceforge.net/projects/sdl-asylum/
   type: remake
   updated: 2022-08-05
-  url: http://sdl-asylum.sourceforge.net/
+  url: https://sdl-asylum.sourceforge.net/
 
 - name: SDL Bomber
   frameworks:
   - SDL
   images:
-  - http://www.linuxmotors.com/linux/SDL_bomber/bomber.gif
+  - https://www.linuxmotors.com/linux/SDL_bomber/bomber.gif
   langs:
   - C
   licenses:
@@ -170,35 +170,43 @@
   development: halted
   originals:
   - Bomberman
-  repo: http://www.linuxmotors.com/linux/SDL_bomber/downloads/
+  repo: https://www.linuxmotors.com/linux/SDL_bomber/downloads/
   status: playable
   type: remake
   updated: 2020-08-25
-  url: http://www.linuxmotors.com/linux/SDL_bomber/
+  url: https://www.linuxmotors.com/linux/SDL_bomber/
 
 - name: SDL Sopwith
-  frameworks:
-  - SDL
   images:
-  - http://sdl-sopwith.sourceforge.net/sshot/title.png
-  - http://sdl-sopwith.sourceforge.net/sshot/runway.png
-  - http://sdl-sopwith.sourceforge.net/sshot/sopwith_metacity.png
+  - https://fragglet.github.io/sdl-sopwith/sshot/sopwith-win7.png
+  - https://fragglet.github.io/sdl-sopwith/sshot/sopwith-linux-xfce.png
+  - https://fragglet.github.io/sdl-sopwith/sshot/sopwith-macos.png
+  - https://fragglet.github.io/sdl-sopwith/sshot/sopwith-haiku.png
+  - https://fragglet.github.io/sdl-sopwith/sshot/sopwith-netbsd.png
+  - https://fragglet.github.io/sdl-sopwith/sshot/sopwith-multi.png
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
-  development: halted
+  development: sporadic
   originals:
   - Sopwith
-  repo: https://sourceforge.net/projects/sdl-sopwith/
+  repo: https://github.com/fragglet/sdl-sopwith
   status: playable
+  multiplayer:
+  - Online
+  - Competitive
   type: remake
-  updated: 2014-03-17
-  url: http://sdl-sopwith.sourceforge.net/
+  updated: 2023-02-04
+  url: https://fragglet.github.io/sdl-sopwith/
 
 - name: SDLPoP
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
   development: active
@@ -208,7 +216,11 @@
   status: playable
   type: remake
   updated: 2015-05-30
-  url: http://www.popot.org/get_the_games.php?game=SDLPoP
+  url: https://www.popot.org/get_the_games.php?game=SDLPoP
+  images:
+  - https://www.popot.org/get_the_games/images/SDLPoP_1_big.png
+  - https://www.popot.org/get_the_games/images/SDLPoP_2_big.png
+  - https://www.popot.org/get_the_games/images/SDLPoP_3_big.png
 
 - name: Sea-Wolf
   type: remake
@@ -276,9 +288,8 @@
 - name: Secret Maryo Chronicles
   info: 'SMC is no longer under active development. However, there is now a new game based on SMC: https://github.com/secretchronicles/TSC'
   images:
-  - http://secretmaryo.org/images/screenshot/2.0/media/1.png
-  - http://secretmaryo.org/images/screenshot/2.0/media/2.png
-  - http://secretmaryo.org/images/screenshot/2.0/media/3.png
+  - https://upload.wikimedia.org/wikipedia/commons/d/da/SMC15PromoShot.png
+  - https://upload.wikimedia.org/wikipedia/commons/6/68/Smc-4-v2.0.png
   langs:
   - C++
   licenses:
@@ -361,8 +372,8 @@
   - Silent Hill 3
   type: remake
   repo: 'https://github.com/Palm-Studios/sh3redux'
-  url: 'http://sh3redux.blogspot.com/'
-  feed: 'http://sh3redux.blogspot.com/feeds/posts/default'
+  url: https://sh3redux.blogspot.com
+  feed: https://sh3redux.blogspot.com/feeds/posts/default
   development: halted
   status: unplayable
   content: commercial
@@ -395,7 +406,7 @@
   - Shadow of the Beast
   status: unplayable
   repo: https://github.com/spleennooname/shadow-of-the-beast-html5
-  url: http://spleennooname.github.io/shadow-of-the-beast-html5/
+  url: https://spleennooname.github.io/shadow-of-the-beast-html5/
   type: remake
   updated: 2017-04-04
 
@@ -547,7 +558,7 @@
   status: playable
   type: tool
   repo: https://github.com/elishacloud/Silent-Hill-2-Enhancements
-  url: http://www.enhanced.townofsilenthill.com/SH2/
+  url: https://enhanced.townofsilenthill.com/SH2/
   development: active
   content: commercial
   langs:
@@ -558,6 +569,13 @@
   updated: 2019-11-15
   video:
     youtube: 6v1USVhtfjQ
+  images:
+  - https://enhanced.townofsilenthill.com/SH2/images/aboutBeauty/beauty_01.png
+  - https://enhanced.townofsilenthill.com/SH2/images/aboutBeauty/beauty_02.png
+  - https://enhanced.townofsilenthill.com/SH2/images/aboutBeauty/beauty_03.png
+  - https://enhanced.townofsilenthill.com/SH2/images/aboutBeauty/beauty_04.png
+  - https://enhanced.townofsilenthill.com/SH2/images/aboutBeauty/beauty_05.png
+  - https://enhanced.townofsilenthill.com/SH2/images/aboutBeauty/beauty_06.png
 
 - name: Simitone
   type: remake
@@ -611,7 +629,7 @@
   multiplayer:
   - Online
   type: clone
-  url: http://www.simutrans.com/
+  url: https://www.simutrans.com/en/
   updated: 2021-04-26
   video:
     youtube: e8Wp7rxVg88
@@ -944,7 +962,7 @@
   repo: https://gitlab.com/solarus-games/solarus
   type: tool
   updated: 2020-08-25
-  url: http://www.solarus-games.org/
+  url: https://www.solarus-games.org
   video:
     youtube: vt07FwzLo9A
 
@@ -993,7 +1011,7 @@
   - Sonic Adventure
   type: tool
   repo: 'https://github.com/sonicretro/sa_tools'
-  url: 'http://info.sonicretro.org/SA_Tools'
+  url: https://info.sonicretro.org/SA_Tools
   development: active
   content: commercial
   langs:
@@ -1242,9 +1260,7 @@
 
 - name: Speedball 2
   images:
-  - http://bringerp.free.fr/RE/Speedball2/Images/WIP%2001.png
-  - http://bringerp.free.fr/RE/Speedball2/Images/WIP%2004.png
-  - http://bringerp.free.fr/RE/Speedball2/Images/WIP%2005.png
+  - https://eab.abime.net/attachment.php?s=559a07f19493c7257cc65f34de09c88e&attachmentid=29568&d=1317823782
   info: reverse engineered prototype
   langs:
   - C#
@@ -1298,7 +1314,7 @@
   originals:
   - Tetris
   repo: http://www.spludlow.co.uk/Source/Spludlow.Tetris/
-  url: http://tetris.spludlow.co.uk/
+  url: https://tetris.spludlow.co.uk
   development: halted
   status: playable
   multiplayer:
@@ -1353,17 +1369,15 @@
   licenses:
   - GPL2
   - CC-BY-NC
-  development: very active
+  development: sporadic
   originals:
   - Company of Heroes
-  - 'Company of Heroes: Opposing Fronts'
-  - 'Company of Heroes: Tales of Valor'
   - Company of Heroes 2
   repo: https://github.com/spring1944/spring1944
   status: playable
   type: clone
   updated: 2020-08-25
-  url: http://spring1944.net
+  url: https://spring1944.net
   video:
     youtube: 76jFZvpvwoA
 
@@ -1506,7 +1520,7 @@
   - Starcraft
   type: remake
   repo: 'https://github.com/Wargus/stargus'
-  url: 'http://stargus.stratagus.com/'
+  url: https://stratagus.com/stargus.html
   feed: 'https://github.com/Wargus/stargus/releases.atom'
   development: sporadic
   status: semi-playable
@@ -1519,9 +1533,7 @@
   info: Starcraft Mod that allows you to play Starcraft with the Stratagus engine
   updated: '2019-12-16'
   images:
-  - 'http://stargus.sourceforge.net/screenshots/screen01.jpg'
-  - 'http://stargus.sourceforge.net/screenshots/screen04.jpg'
-  - 'http://stargus.sourceforge.net/screenshots/screen07.jpg'
+  - https://stratagus.com/img/screenshotStargus.png
   video:
     youtube: vO4DxWZhqvc
 
@@ -1613,14 +1625,18 @@
   licenses:
   - MIT
   - CC-BY-NC
-  development: active
+  development: sporadic
   originals:
   - Dance Dance Revolution
   repo: https://github.com/stepmania/stepmania
   status: playable
   type: clone
   updated: 2019-08-17
-  url: http://www.stepmania.com/
+  url: https://www.stepmania.com
+  images:
+  - https://i.imgur.com/5nlHcWV.png
+  - https://i.imgur.com/zQTr5ww.jpeg
+  - https://i.imgur.com/9wpVUi5.jpeg
 
 - name: Stone Kingdoms
   originals:
@@ -1694,7 +1710,7 @@
   langs:
   - C++
   licenses:
-  - BSD
+  - As-is
   development: halted
   originals:
   - Stunt Car Racer
@@ -1702,7 +1718,7 @@
   repo: https://sourceforge.net/projects/stuntcarremake/
   type: remake
   updated: 2018-10-06
-  url: http://stuntcarracerwin32.bravesites.com
+  url: https://stuntcarracerwin32.bravesites.com
 
 - name: Stunt Rally
   frameworks:
@@ -1739,7 +1755,7 @@
   - Stunt Car Racer
   status: playable
   repo: https://github.com/ptitSeb/stuntcarremake
-  url: http://ptitseb.github.io/stuntcarremake/
+  url: https://ptitseb.github.io/stuntcarremake/
   type: remake
   updated: 2019-10-03
 
@@ -1752,10 +1768,12 @@
   originals:
   - Styx
   status: playable
-  repo: http://retrospec.sgn.net/game-links.php?link=styx
+  repo: https://retrospec.sgn.net/game-links.php?link=styx
   type: remake
   updated: 2022-05-28
-  url: http://retrospec.sgn.net/game/styx
+  url: https://retrospec.sgn.net/game/styx
+  images:
+  - https://retrospec.sgn.net/config/gamelogos/styx.gif
 
 - name: Summoning Wars
   images:
@@ -1831,8 +1849,7 @@
 
 - name: Super Mario War
   images:
-  - http://i1-linux.softpedia-static.com/screenshots/Super-Mario-War_1.png
-  - http://s4.7ba.ru/ex/filecontent/screen_ors/9/f/f/9ffbc941653d781f353db1d73b01ed30.deb.jpg
+  - https://upload.wikimedia.org/wikipedia/en/b/bd/Super_Mario_War_Gameplay.jpg
   langs:
   - C++
   licenses:
@@ -1860,7 +1877,7 @@
   type: remake
   repo: https://sourceforge.net/projects/methane/
   updated: 2014-04-16
-  url: http://methane.sourceforge.net/
+  url: https://methane.sourceforge.net
 
 - name: Super Methane Brothers (homebrew edition)
   info: Wii and GameCube port
@@ -2072,10 +2089,7 @@
   - https://www.michaelfogleman.com/static/img/project/pac-man/thumbnail/1.png
 
 - name: Syndicate Wars Port
-  development: halted
-  images:
-  - http://swars.vexillium.org/shots/swars-gnu-1.png
-  - http://swars.vexillium.org/shots/swars-macos-1.png
+  development: sporadic
   info: no network support
   licenses:
   - GPL3
@@ -2084,5 +2098,12 @@
   - Syndicate Wars
   status: playable
   type: remake
-  updated: 2013-05-30
+  updated: 2023-02-04
   url: http://swars.vexillium.org/
+  repo: https://github.com/mefistotelis/swars
+  langs:
+  - C
+  frameworks:
+  - SDL
+  video:
+    vimeo: 8942527
