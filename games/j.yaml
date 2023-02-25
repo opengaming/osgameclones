@@ -198,19 +198,22 @@
   originals:
   - Duke Nukem 3D
   repo: https://github.com/jonof/jfduke3d
-  url: http://www.jonof.id.au/jfduke3d
-  development: halted
+  url: https://www.jonof.id.au/jfduke3d
+  development: sporadic
   status: playable
   multiplayer:
   - LAN
   langs:
   - C
+  frameworks:
+  - SDL2
+  - OpenGL
   licenses:
   - Custom
   content: commercial
-  updated: 2020-08-25
+  updated: 2023-02-25
   images:
-  - http://www.jonof.id.au/jfduke3d/splash.jpg
+  - https://www.jonof.id.au/jfduke3d/splash.jpg
 
 - name: jffe
   frameworks:
