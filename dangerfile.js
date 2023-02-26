@@ -208,12 +208,6 @@ const checkImagesAreHTTPS = game => {
   }
 }
 
-const checkHasStatus = game => {
-  if (game.type !== 'tool' && !game.status) {
-    warn(`🕹️ ${game.name} has no "status" field. Please add so users know whether the game is playable!`)
-  }
-}
-
 const commonChecks = game => {
   checkRepoGoogleCode(game)
   checkRepoGit(game)
@@ -224,7 +218,6 @@ const commonChecks = game => {
   checkFrameworkUsesLang(game)
   checkHasImagesOrVideos(game)
   checkImagesAreHTTPS(game)
-  checkHasStatus(game)
 }
 
 // -----------
