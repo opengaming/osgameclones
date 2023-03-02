@@ -378,26 +378,20 @@ function setQueryParams(key, value) {
 }
 
 function setCount() {
-  var count = ' games';
   var list = document.getElementById('list');
   var sorted = document.getElementById('sorted');
 
   if (list.style.display == "none") {
-    var dds = sorted.getElementsByTagName('dd');
+    var dds = Array.from(sorted.getElementsByTagName('dd'));
     var total = dds.length;
   } else {
-    var dds = list.getElementsByTagName('dd');
-    var total = dds.length;
+    var dds = Array.from(list.getElementsByTagName('dd'));
+    var total = new Set(dds.map(dd => dd.getAttribute('data-name'))).size;
   }
+  var shownGames = dds.filter(dd => dd.getBoundingClientRect().width + dd.getBoundingClientRect().height > 0)
+  var shown = new Set(shownGames.map(dd => dd.getAttribute('data-name'))).size;
 
-  var hidden = Array.prototype.slice.call(dds).reduce(function(count_hidden, game) {
-      if (game.getBoundingClientRect().width + game.getBoundingClientRect().height === 0) {
-          return count_hidden + 1
-      }
-      return count_hidden;
-  }, 0);
-  
-  document.getElementsByClassName('nav-count')[0].innerHTML = (total - hidden) + "/" + total + count;
+  document.getElementsByClassName('nav-count')[0].innerHTML = shown + "/" + total + " games";
 }
 
 (function () {
