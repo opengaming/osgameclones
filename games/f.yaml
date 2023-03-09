@@ -618,22 +618,25 @@
   url: https://freecivac.sourceforge.net/
 
 - name: FreeCol
-  images:
-  - https://www.freecol.org/images/screen-0.8.0-large.jpg
-  - https://www.freecol.org/images/java-shot15.jpg
-  - https://www.freecol.org/images/java-shot16.jpg
+  type: clone
+  originals:
+  - Colonization
+  repo: https://github.com/FreeCol/freecol
+  url: https://www.freecol.org/
+  development: active
+  status: playable
   langs:
   - Java
   licenses:
   - GPL2
-  development: active
-  status: playable
-  originals:
-  - Sid Meier's Colonization
-  repo: https://github.com/FreeCol/freecol
-  type: remake
-  url: https://www.freecol.org/
-  updated: 2021-02-24
+  content: open
+  info: FreeCol is a turn-based strategy game based on the old game Colonization, and similar to Civilization. The objective of the game is to create an independent nation.
+  updated: 2023-03-09
+  images:
+  - https://www.freecol.org/images/screen-1.0.0.jpg
+  - https://www.freecol.org/images/screen-1.0.0-colopedia.jpg
+  - https://www.freecol.org/images/screen-1.0.0-map-editor.jpg
+  - https://www.freecol.org/images/screen-1.0.0-indian-advisor.jpg
 
 - name: FreeCS
   images:
