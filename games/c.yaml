@@ -912,6 +912,27 @@
   video:
     youtube: z67XZ155b6g
 
+- name: FreeCol
+  type: clone
+  originals:
+  - Colonization
+  repo: https://github.com/FreeCol/freecol
+  url: https://www.freecol.org/
+  development: active
+  status: playable
+  langs:
+  - Java
+  licenses:
+  - GPL2
+  content: open
+  info: FreeCol: FreeCol is a turn-based strategy game based on the old game Colonization, and similar to Civilization. The objective of the game is to create an independent nation.
+  updated: 2023-03-09
+  images:
+  - https://www.freecol.org/images/screen-1.0.0.jpg
+  - https://www.freecol.org/images/screen-1.0.0-colopedia.jpg
+  - https://www.freecol.org/images/screen-1.0.0-map-editor.jpg
+  - https://www.freecol.org/images/screen-1.0.0-indian-advisor.jpg
+
 - name: Coloris
   type: clone
   updated: 2022-07-16
