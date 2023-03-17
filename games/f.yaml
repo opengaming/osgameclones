@@ -97,12 +97,12 @@
   video:
     youtube: 3MVMJkOYHSg
 
-- name: Fallout 2 Community Edition
+- name: Fallout Community Edition
   originals:
-  - Fallout 2
+  - Fallout
   type: remake
-  repo: 'https://github.com/alexbatalov/fallout2-ce/'
-  development: very active
+  repo: 'https://github.com/alexbatalov/fallout1-ce'
+  development: halted
   status: playable
   content: commercial
   langs:
@@ -111,7 +111,28 @@
   - SDL2
   licenses:
   - Custom
-  updated: 2022-11-15
+  info: >-
+    fully working re-implementation of Fallout, with the same original gameplay,
+    engine bugfixes, and some quality of life improvements
+  updated: '2023-03-17'
+  video:
+    youtube: mt5KpyNVBR8
+
+- name: Fallout 2 Community Edition
+  originals:
+  - Fallout 2
+  type: remake
+  repo: 'https://github.com/alexbatalov/fallout2-ce/'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - Custom
+  updated: 2023-03-17
   video:
     youtube: aw3pEhF3eJo
 
