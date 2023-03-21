@@ -42,11 +42,11 @@
   updated: 2020-02-06
 
 - name: Uebergame
-  development: active
+  development: halted
   frameworks:
   - Torque 3D
   images:
-  - http://duion.com/files/blog/Uebergame-1.0.6.0-Release.jpg
+  - https://duion.com/files/blog/Uebergame-1.0.6.0-Release.jpg
   langs:
   - TorqueScript
   - C
@@ -61,8 +61,8 @@
   repo: https://github.com/Duion/Uebergame
   status: playable
   type: clone
-  updated: 2020-08-25
-  url: http://duion.com/games/uebergame/main
+  updated: 2023-03-21
+  url: https://duion.com/games/uebergame/main
 
 - name: UFO2000
   images:
@@ -83,7 +83,7 @@
   status: playable
   type: remake
   updated: 2021-01-06
-  url: http://ufo2000.sourceforge.net/
+  url: https://ufo2000.sourceforge.net
   video:
     youtube: F8qKn6u2zWI
 
@@ -429,9 +429,9 @@
   originals:
   - Anno series
   type: clone
-  repo: 'https://github.com/unknown-horizons/godot-port'
-  url: 'http://unknown-horizons.org/'
-  development: sporadic
+  repo: https://github.com/unknown-horizons/godot-port
+  url: https://unknown-horizons.org
+  development: active
   status: unplayable
   content: open
   langs:
@@ -441,7 +441,11 @@
   licenses:
   - GPL2
   info: We are searching for developers for our Godot Engine port.
-  updated: '2019-12-24'
+  updated: 2023-03-21
+  images:
+  - https://unknown-horizons.org/static/screenshots/godot/main_menu_godot.png
+  - https://unknown-horizons.org/static/screenshots/godot/ingame_dev_map_godot.png
+  - https://unknown-horizons.org/static/screenshots/godot/ingame_dev_map_2_godot.png
 
 - name: Unvanquished
   images:
