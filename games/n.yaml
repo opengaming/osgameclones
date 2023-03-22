@@ -178,7 +178,7 @@
   repo: https://github.com/Neverball/neverball
   type: clone
   updated: 2019-11-20
-  url: http://neverball.org/
+  url: https://neverball.org
 
 - name: New RAW
   images:
@@ -195,7 +195,7 @@
   originals:
   - Another World
   status: playable
-  repo: http://sourceforge.net/projects/newraw/
+  repo: https://sourceforge.net/projects/newraw/
   type: remake
   updated: 2021-09-13
   info: New RAW - an Another World / Out of this world interpreter. Based on work of Gregory Montoir
@@ -213,7 +213,9 @@
   repo: https://github.com/gamejs/newutopia
   type: remake
   updated: 2022-01-26
-  url: http://apps.gamejs.org/newutopia/
+  url: https://apps.gamejs.org/newutopia/
+  images:
+  - https://gamejs.org/files/utopia_bcb8d499cc07.png
 
 - name: newtron
   langs:
@@ -378,7 +380,7 @@
   repo: https://sourceforge.net/projects/nstars/
   type: remake
   updated: 2022-09-23
-  url: http://nstars.sourceforge.net/
+  url: https://nstars.sourceforge.net
 
 - name: NullpoMino
   langs:
@@ -418,10 +420,9 @@
   licenses:
   - GPL2
   content: open
-  updated: 2020-08-25
-  images:
-  - https://uppgarn.com/nuncabola/screenshot-1.png
-  - https://uppgarn.com/nuncabola/screenshot-2.png
+  updated: 2023-03-12
+  video:
+    youtube: 7AcXlTSoivk
 
 - name: Nuvie
   images:
@@ -447,21 +448,24 @@
   updated: 2020-05-19
 
 - name: NXEngine
-  development: sporadic
   images:
-  - https://repo.openpandora.org/files/pnd/nxengine/previews/nxengine2.png
+  - https://nxengine.sourceforge.io/nxshot1.png
+  - https://nxengine.sourceforge.io/nxshot2.png
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - GPL3
   content: free
   originals:
   - Cave Story
   repo: https://github.com/EXL/NXEngine
+  development: halted
   status: playable
   type: remake
-  updated: 2019-11-20
-  url: http://nxengine.sourceforge.net/
+  updated: 2023-03-12
+  url: https://nxengine.sourceforge.io
 
 - name: NXEngine-evo
   development: active

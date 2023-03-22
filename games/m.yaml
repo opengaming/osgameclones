@@ -1,18 +1,21 @@
 - name: Maelstrom
   frameworks:
-  - SDL
+  - SDL2
   langs:
-  - C
+  - C++
   licenses:
   - GPL2
-  development: halted
+  content: open
+  development: sporadic
   originals:
   - Asteroids
-  repo: https://www.libsdl.org/projects/Maelstrom/source.html
+  repo: https://github.com/libsdl-org/Maelstrom
   status: playable
   type: remake
-  updated: 2014-01-12
-  url: http://www.libsdl.org/projects/Maelstrom/
+  updated: 2023-03-12
+  url: https://www.libsdl.org/projects/Maelstrom/
+  video:
+    youtube: UQeSnOUqx-M
 
 - name: 'Mafia II: Toolkit'
   originals:
@@ -151,7 +154,7 @@
   development: complete
   type: remake
   updated: 2018-10-05
-  url: http://retrospec.sgn.net/game/mm
+  url: https://retrospec.sgn.net/game/mm
   images:
   - https://retrospec.sgn.net/config/gamelogos/mm.gif
 
@@ -191,7 +194,11 @@
 
 - name: Mari0
   images:
-  - https://i.imgur.com/M8NcU.gif
+  - https://stabyourself.net/images/screenshots/mari0-1.png
+  - https://stabyourself.net/images/screenshots/mari0-2.png
+  - https://stabyourself.net/images/screenshots/mari0-3.png
+  - https://stabyourself.net/images/screenshots/mari0-4.png
+  - https://stabyourself.net/images/screenshots/mari0-5.png
   langs:
   - Lua
   licenses:
@@ -205,7 +212,7 @@
   development: sporadic
   type: remake
   updated: 2019-11-20
-  url: http://stabyourself.net/mari0/
+  url: https://stabyourself.net/mari0/
   video:
     youtube: SaoHMjS04vU
 
@@ -261,7 +268,7 @@
   repo: https://github.com/nurfalie/maxit
   type: remake
   updated: 2022-09-19
-  url: http://sourceforge.net/projects/maxit/
+  url: https://sourceforge.net/projects/maxit/
 
 - name: mc2
   langs:
@@ -311,7 +318,7 @@
   repo: https://git.maxr.org/maxr/maxr
   type: remake
   updated: 2019-08-17
-  url: http://www.maxr.org/
+  url: https://www.maxr.org/
 
 - name: MechCommander 2 Omnitech
   langs:
@@ -361,7 +368,7 @@
   status: playable
   type: remake
   updated: 2014-04-16
-  url: http://sourceforge.net/projects/mmario/
+  url: https://sourceforge.net/projects/mmario/
 
 - name: MegaGlest
   images:
@@ -432,7 +439,7 @@
   repo: https://github.com/Arantis/Meridian59_112
   type: remake
   updated: 2016-03-16
-  url: http://meridian59.de
+  url: https://meridian59.de
   images:
   - https://meridian59.de/images/1.jpg
   - https://meridian59.de/images/2.jpg
@@ -534,7 +541,7 @@
   repo: https://github.com/graememcc/micropolisJS
   type: remake
   updated: 2022-09-27
-  url: http://www.graememcc.co.uk/micropolisJS/
+  url: https://www.graememcc.co.uk/micropolisJS/
   images:
   - https://www.freegameplanet.com/wp-content/uploads/2017/08/micropolisJS-game.gif
 
@@ -552,7 +559,7 @@
   repo: https://sourceforge.net/projects/microracers/
   type: similar
   updated: 2022-07-14
-  url: http://microracers.sourceforge.net/
+  url: https://microracers.sourceforge.net/
 
 - name: Mindustry
   type: similar
@@ -708,7 +715,7 @@
   status: playable
   type: remake
   updated: 2016-02-06
-  url: http://www.douglas-meyer.name/minesweeper/
+  url: https://www.douglas-meyer.name/minesweeper/
 
 - name: Minesweeper (in C)
   type: remake
@@ -783,8 +790,8 @@
 - name: Minetest
   development: active
   images:
-  - http://www.minetest.net/media/gallery/1.jpg
-  - http://www.minetest.net/media/gallery/6.jpg
+  - https://www.minetest.net/media/gallery/1.jpg
+  - https://www.minetest.net/media/gallery/6.jpg
   langs:
   - C
   - C++
@@ -842,7 +849,7 @@
   originals:
   - Boulder Dash
   status: playable
-  repo: http://sourceforge.net/projects/mininghaze/
+  repo: https://sourceforge.net/projects/mininghaze/
   type: remake
   updated: 2022-07-15
 
@@ -853,7 +860,7 @@
   - Allegro
   licenses:
   - GPL3
-  development: sporadic
+  development: halted
   status: playable
   content: open
   originals:
@@ -861,7 +868,7 @@
   repo: https://github.com/oitofelix/mininim
   type: remake
   updated: 2017-01-12
-  url: http://oitofelix.github.io/mininim/
+  url: https://oitofelix.github.io/mininim/
   video:
     youtube: 91QCqPMssj4
 
@@ -875,8 +882,14 @@
   - Deflektor
   status: playable
   type: remake
-  updated: 2014-01-12
-  url: http://www.artsoft.org/mirrormagic/
+  updated: 2023-03-12
+  url: https://www.artsoft.org/mirrormagic/
+  images:
+  - https://www.artsoft.org/mirrormagic/screenshots/mainmenu.png
+  - https://www.artsoft.org/mirrormagic/screenshots/playing1.png
+  - https://www.artsoft.org/mirrormagic/screenshots/playing2.png
+  - https://www.artsoft.org/mirrormagic/screenshots/infoscreen.png
+  - https://www.artsoft.org/mirrormagic/screenshots/editor.png
 
 - name: Missile Command
   images:
@@ -908,7 +921,7 @@
   status: playable
   type: remake
   updated: 2015-05-19
-  url: http://mk.mgechev.com/
+  url: https://mk.mgechev.com
 
 - name: mkxp
   info: RGSS (XP, VX, VX Ace) implementation
@@ -945,7 +958,7 @@
   repo: https://github.com/AXDOOMER/mochadoom
   type: remake
   updated: 2019-12-06
-  url: http://mochadoom.sourceforge.net/
+  url: https://mochadoom.sourceforge.net
 
 - name: 'Mojotron: Robot Wars'
   langs:
@@ -995,7 +1008,7 @@
   repo: https://sourceforge.net/projects/montymole/
   type: remake
   updated: 2022-06-17
-  url: http://montymole.sourceforge.net
+  url: https://montymole.sourceforge.net
 
 - name: Morpheus Web Remake
   content: free
