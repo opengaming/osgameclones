@@ -604,10 +604,10 @@
   originals:
   - Super Mario
   type: clone
-  repo: 'https://savannah.nongnu.org/projects/retux'
-  url: 'http://retux.nongnu.org/'
-  feed: 'https://savannah.nongnu.org/news/atom.php?group=retux'
-  development: halted
+  repo: https://github.com/retux-game/retux
+  url: https://retux-game.github.io/
+  feed: https://github.com/retux-game/retux/releases.atom
+  development: sporadic
   status: playable
   content: open
   langs:
@@ -623,11 +623,18 @@
   info: >-
     Loosely inspired by the Mario games, utilizing the art assets from the
     SuperTux project. 
-  updated: '2019-11-15'
+  updated: 2023-03-24
   images:
-  - 'http://retux.nongnu.org/screenshots/screenshot1.jpg'
-  - 'http://retux.nongnu.org/screenshots/screenshot2.jpg'
-  - 'http://retux.nongnu.org/screenshots/screenshot3.jpg'
+  - https://retux-game.github.io/images/screenshot1.png
+  - https://retux-game.github.io/images/screenshot2.png
+  - https://retux-game.github.io/images/screenshot3.png
+  - https://retux-game.github.io/images/screenshot4.png
+  - https://retux-game.github.io/images/screenshot5.png
+  - https://retux-game.github.io/images/screenshot6.png
+  - https://retux-game.github.io/images/screenshot7.png
+  - https://retux-game.github.io/images/screenshot8.png
+  video:
+    youtube: guKH_OgaF8U
 
 - name: re-private-eye
   originals:
