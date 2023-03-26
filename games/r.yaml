@@ -903,22 +903,26 @@
   frameworks:
   - SDL2
   images:
-  - http://www.artsoft.org/rocksndiamonds/screenshots/mainmenu.gif
-  - http://www.artsoft.org/rocksndiamonds/screenshots/emeraldmine.gif
-  - http://www.artsoft.org/rocksndiamonds/screenshots/editor1.gif
+  - https://www.artsoft.org/rocksndiamonds/screenshots/mainmenu.gif
+  - https://www.artsoft.org/rocksndiamonds/screenshots/emeraldmine.gif
+  - https://www.artsoft.org/rocksndiamonds/screenshots/editor1.gif
   langs:
   - C
   licenses:
   - GPL2
+  content: free
   development: active
   originals:
   - Boulder Dash
   - Supaplex
   repo: https://git.artsoft.org/rocksndiamonds.git/
   status: playable
+  multiplayer:
+  - Local
+  - Online
   type: remake
-  updated: 2019-08-27
-  url: http://www.artsoft.org/rocksndiamonds/
+  updated: 2023-03-27
+  url: https://www.artsoft.org/rocksndiamonds/
 
 - name: Rot Magus
   originals:
