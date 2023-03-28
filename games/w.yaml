@@ -250,7 +250,7 @@
   repo: https://sourceforge.net/projects/watomic/
   type: remake
   updated: 2022-03-20
-  url: http://watomic.sourceforge.net/
+  url: https://watomic.sourceforge.net
   info: Windows clone of Linux KAtomic logic game, developed using the GLScene OpenGl based library for Delphi.
   images:
   - https://a.fsdn.com/con/app/proj/watomic/screenshots/66437.jpg/max/max/1
@@ -332,16 +332,21 @@
 
 - name: Widelands
   images:
-  - http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Completed%20barbarian%20workers.jpg
-  - http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/Atlantean%20worker%20animation.jpg
-  - http://wl.widelands.org/wlmedia/wlscreens/screens/Current%20Developments/New%20Multiplayer%20UI.jpg
-  - http://wl.widelands.org/wlmedia/wlscreens/screens/Build%2016/Graphic%20improvements.png
+  - https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.1/Main_Menu.jpg
+  - https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.1/Splash_Screen.jpg
+  - https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.1/New_Editor_Features.jpg
+  - https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.1/Immovables_Help.jpg
+  - https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.1/Production_Help.jpg
+  - https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.1/Atlantean_Lore.jpg
+  - https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.1/Empire_Lore.jpg
+  - https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.1/Diplomacy.jpg
   langs:
   - C++
   - Lua
   - Python
   licenses:
   - GPL2
+  content: open
   development: active
   status: playable
   multiplayer:
@@ -351,7 +356,7 @@
   - The Settlers II
   repo: https://github.com/widelands/widelands
   type: clone
-  url: http://wl.widelands.org/
+  url: https://www.widelands.org
   updated: 2021-11-20
 
 - name: Willow-Game-Remake
@@ -412,9 +417,6 @@
   development: halted
   frameworks:
   - SFML
-  images:
-  - http://img11.hostingpics.net/pics/927609screenshot20151029203852.png
-  - http://img11.hostingpics.net/pics/267990screenshot20151029113142.png
   langs:
   - C++
   licenses:
@@ -435,8 +437,8 @@
   - Witchaven
   type: remake
   repo: 'https://gitlab.com/m210/WitchavenGDX'
-  url: 'http://m210.duke4.net/'
-  development: active
+  url: https://m210.duke4.net
+  development: sporadic
   status: playable
   content: commercial
   langs:
@@ -463,7 +465,7 @@
   repo: https://gitlab.com/larienna/cppgame_wizardry
   type: remake
   updated: 2023-01-27
-  url: http://wl.lariennalibrary.com/
+  url: http://wl.lariennalibrary.com
 
 - name: Wizznic!
   frameworks:
@@ -477,14 +479,14 @@
   licenses:
   - GPL3
   - Multiple
-  development: active
+  development: halted
   originals:
   - Puzznic / Brix
   repo: https://github.com/DusteDdk/Wizznic
   status: playable
   type: remake
-  updated: 2015-03-06
-  url: http://wizznic.org
+  updated: 2023-03-21
+  url: https://sourceforge.net/projects/wizznic/
 
 - name: wkbre
   langs:
@@ -541,7 +543,7 @@
   - Wolfenstein 3D
   type: remake
   repo: https://github.com/11001011101001011/Wolf4SDL
-  url: 'http://wolf3d.net/wolf4sdl/'
+  url: https://beta.wolf3d.net/engines/Wolf4SDL
   development: halted
   status: playable
   content: commercial
@@ -564,7 +566,7 @@
   - Defender
   type: similar
   repo: https://github.com/smcameron/wordwarvi
-  url: http://smcameron.github.io/wordwarvi/
+  url: https://smcameron.github.io/wordwarvi/
   development: complete
   status: playable
   content: open
@@ -575,10 +577,10 @@
   info: Word War vi is a retro-styled old school side scrolling shooter reminiscent of Defender or Scramble, with an "Emacs vs. vi" theme.
   updated: 2019-09-12
   images:
-  - http://wordwarvi.sourceforge.net/wordwarvi_snap_007_3.jpg
-  - http://wordwarvi.sourceforge.net/20_wordwarvis.png
-  - http://wordwarvi.sourceforge.net/retrogreen.png
-  - http://wordwarvi.sourceforge.net/wordwarvi_brightsparks.png
+  - https://wordwarvi.sourceforge.net/wordwarvi_snap_007_3.jpg
+  - https://wordwarvi.sourceforge.net/20_wordwarvis.png
+  - https://wordwarvi.sourceforge.net/retrogreen.png
+  - https://wordwarvi.sourceforge.net/wordwarvi_brightsparks.png
   video:
     youtube: 9VaW2NVxpVg
 
@@ -607,7 +609,7 @@
   - LaserTank
   type: remake
   repo: 'https://sourceforge.net/projects/wxlasertank/'
-  url: 'http://wxlasertank.sourceforge.net'
+  url: https://wxlasertank.sourceforge.net
   development: halted
   status: playable
   content: open
@@ -620,6 +622,6 @@
   info: wxLaserTank is a wxWidgets conversion of Laser Tank
   updated: '2020-09-28'
   images:
-  - 'http://wxlasertank.sourceforge.net/screenshots/main.png'
-  - 'http://wxlasertank.sourceforge.net/screenshots/game.png'
-  - 'http://wxlasertank.sourceforge.net/screenshots/game_petes.png'
+  - 'https://wxlasertank.sourceforge.net/screenshots/main.png'
+  - 'https://wxlasertank.sourceforge.net/screenshots/game.png'
+  - 'https://wxlasertank.sourceforge.net/screenshots/game_petes.png'
