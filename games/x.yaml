@@ -21,13 +21,16 @@
 
 - name: X-Moto
   images:
-  - http://wiki.xmoto.tuxfamily.org/images/d/d8/Screenshot0018.png
-  - http://wiki.xmoto.tuxfamily.org/images/0/04/Screenshot0005.png
-  - http://wiki.xmoto.tuxfamily.org/images/7/7f/Screenshot0036.png
+  - https://wiki.xmoto.tuxfamily.org/images/f/fb/Screenshot0023.png
+  - https://wiki.xmoto.tuxfamily.org/images/0/04/Screenshot0005.png
+  - https://wiki.xmoto.tuxfamily.org/images/d/d8/Screenshot0018.png
+  - https://wiki.xmoto.tuxfamily.org/images/7/7d/Screenshot0022.png
+  - https://wiki.xmoto.tuxfamily.org/images/a/a3/Screenshot0020.png
+  - https://wiki.xmoto.tuxfamily.org/images/f/f5/Screenshot0019.png
   langs:
   - C++
   frameworks:
-  - SDL
+  - SDL2
   licenses:
   - GPL2
   content: open
@@ -37,8 +40,8 @@
   repo: https://github.com/xmoto/xmoto
   status: playable
   type: clone
-  updated: 2020-12-16
-  url: http://xmoto.tuxfamily.org/
+  updated: 2023-03-26
+  url: https://xmoto.tuxfamily.org
 
 - name: X-Settlers
   development: active
@@ -82,7 +85,7 @@
   type: remake
   repo: 'https://github.com/Malvineous/xargon'
   development: halted
-  status: playable
+  status: unplayable
   content: free
   langs:
   - C++
@@ -91,11 +94,8 @@
   licenses:
   - GPL3
   info: SDL port of the DOS game Xargon
-  updated: '2021-02-19'
+  updated: 2023-03-26
   images:
-  - >-
-    https://pyra-handheld.com/boards/proxy.php?image=http%3A%2F%2Frepo.openpandora.org%2Ffiles%2Fpnd%2Fxargon_ptitseb%2Fpreview1.png&hash=827f70abcb22585a1bf93ee0c1a883c1
-  - 'http://www.shikadi.net/wiki/main/images/5/58/Xargon_port.png'
   - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview3.png'
 
 - name: xBaK
@@ -112,11 +112,11 @@
   development: halted
   originals:
   - Betrayal at Krondor
-  repo: https://sourceforge.net/projects/xbak/files/xbak/
+  repo: https://sourceforge.net/projects/xbak/
   status: playable
   type: remake
   updated: 2014-08-15
-  url: http://xbak.sourceforge.net/
+  url: https://xbak.sourceforge.net
 
 - name: Xconq
   images:
@@ -144,8 +144,7 @@
   type: remake
   originals:
   - Duke Nukem 3D
-  repo: http://vision.gel.ulaval.ca/~klein/duke3d/xDuke_19.7.1_Source_Code.rar
-  url: http://vision.gel.ulaval.ca/~klein/duke3d/
+  url: https://vision.gel.ulaval.ca/~klein/duke3d/
   development: halted
   status: playable
   multiplayer:
@@ -158,18 +157,18 @@
   content: commercial
   updated: 2020-01-07
   images:
-  - http://vision.gel.ulaval.ca/~klein/duke3d/index_fichiers/image001.jpg
+  - https://vision.gel.ulaval.ca/~klein/duke3d/index_fichiers/image001.jpg
 
 - name: Xenowar
   images:
-  - http://xenowar.net/images/cap00.png
-  - http://xenowar.net/images/cap01.png
-  - http://xenowar.net/images/cap02.png
-  - http://xenowar.net/images/cap03.png
-  - http://xenowar.net/images/cap04.png
-  - http://xenowar.net/images/cap05.png
+  - https://drodin.com/assets/screens/xenowar1.jpg
+  - https://drodin.com/assets/screens/xenowar2.jpg
+  - https://drodin.com/assets/screens/xenowar3.jpg
+  - https://drodin.com/assets/screens/xenowar4.jpg
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
   development: halted
@@ -177,11 +176,11 @@
   - 'X-COM: UFO Defense'
   - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
-  repo: https://github.com/leethomason/unflobtactical
+  repo: https://github.com/drodin/xenowar
   status: playable
   type: clone
-  updated: 2014-11-26
-  url: http://xenowar.net/
+  updated: 2023-03-26
+  url: https://drodin.com/xenowar/
 
 - name: xGreed
   originals:
@@ -243,7 +242,6 @@
   repo: https://github.com/Mindwerks/XLEngine
   type: remake
   updated: 2023-02-06
-  url: http://xlengine.com
 
 - name: XMage
   langs:
@@ -256,33 +254,41 @@
   repo: https://github.com/magefree/mage
   status: playable
   type: clone
-  url: http://xmage.de/
-  updated: 2018-10-06
+  url: http://xmage.today
+  updated: 2023-03-26
+  images:
+  - https://user-images.githubusercontent.com/8344157/131311065-b77cb24f-9b10-4265-a61f-69d304040da0.png
+  - https://user-images.githubusercontent.com/8344157/117028249-940d9e80-ad0e-11eb-84da-70fdbe41e0f2.png
 
 - name: Xonotic
   images:
-  - http://www.xonotic.org/m/uploads/2012/07/frontpage_005.jpg
-  - http://www.xonotic.org/m/uploads/2012/07/frontpage_008.jpg
-  - http://www.xonotic.org/m/uploads/2012/07/frontpage_013.jpg
+  - https://xonotic.org/m/uploads/2011/09/stormkeep-keyhunt-3.jpg
+  - https://xonotic.org/m/uploads/2011/09/stormkeep-keyhunt-2.jpg
+  - https://xonotic.org/m/uploads/2011/09/stormkeep-keyhunt-1.jpg
+  - https://xonotic.org/m/uploads/2011/09/stormkeep-dm.jpg
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
-  - GPL2
+  - GPL3
+  content: open
   development: active
   originals:
   - Nexuiz
-  repo: http://git.xonotic.org/?p=xonotic/xonotic.git;a=summary;js=1
+  repo: https://gitlab.com/xonotic/xonotic
   status: playable
   type: clone
-  updated: 2013-09-20
-  url: http://www.xonotic.org/
+  updated: 2023-03-26
+  url: https://xonotic.org
   video:
-    youtube: Io920ID423A
+    youtube: 9ufjRoidV_E
 
 - name: XorCurses
   images:
-  - http://jwm-art.net/art/image/xorcurses-0.0.8-lvl9-newschool-xfceterm.png
-  - http://jwm-art.net/art/image/xorcurses-0.0.8-menu-xterm.png
+  - https://inconsolation.files.wordpress.com/2013/01/2012-12-28-solo-2150-xorcurses.png
+  - https://i0.wp.com/www.linuxlinks.com/wp-content/uploads/2017/12/Screenshot-XorCurses.jpg?resize=500%2C441&ssl=1
+  - https://happypenguin.altervista.org/screenshots/xorcurses-0.0.8-menu-xterm.png
   langs:
   - C
   frameworks:
@@ -332,11 +338,11 @@
 
 - name: XPilot NG
   images:
-  - http://xpilot.sourceforge.net/shots/polybloods1.png
-  - http://xpilot.sourceforge.net/shots/xpilot_sdl.png
-  - http://xpilot.sourceforge.net/shots/fishtank.png
-  - http://xpilot.sourceforge.net/shots/dragon.png
-  - http://xpilot.sourceforge.net/shots/spaceball.png
+  - https://xpilot.sourceforge.net/shots/polybloods1.png
+  - https://xpilot.sourceforge.net/shots/xpilot_sdl.png
+  - https://xpilot.sourceforge.net/shots/fishtank.png
+  - https://xpilot.sourceforge.net/shots/dragon.png
+  - https://xpilot.sourceforge.net/shots/spaceball.png
   langs:
   - C
   frameworks:
@@ -350,7 +356,7 @@
   repo: https://sourceforge.net/projects/xpilot/
   type: remake
   updated: 2022-02-04
-  url: http://xpilot.sourceforge.net/
+  url: https://xpilot.sourceforge.net
 
 - name: XQuest 2
   images:
@@ -379,8 +385,14 @@
   - Rick Dangerous
   status: playable
   type: remake
-  updated: 2014-01-12
-  url: http://www.bigorno.net/xrick
+  updated: 2023-03-26
+  url: https://www.bigorno.net/xrick/
+  images:
+  - https://www.bigorno.net/xrick/shot01.gif
+  - https://www.bigorno.net/xrick/shot02.gif
+  - https://www.bigorno.net/xrick/shot03.gif
+  - https://www.bigorno.net/xrick/shot04.gif
+  - https://www.bigorno.net/xrick/shot05.gif
 
 - name: XScavenger
   images:
@@ -410,7 +422,7 @@
   repo: https://sourceforge.net/projects/xswingplus/
   type: remake
   updated: 2022-11-30
-  url: http://xswing.net/
+  url: https://xswing.net
   images:
   - https://a.fsdn.com/con/app/proj/xswingplus/screenshots/258322.jpg/max/max/1
   - https://a.fsdn.com/con/app/proj/xswingplus/screenshots/195990.jpg/max/max/1
@@ -470,8 +482,12 @@
 
 - name: Xye
   images:
-  - http://xye.sourceforge.net/screens/s1.png
-  - http://xye.sourceforge.net/screens/s6.png
+  - https://xye.sourceforge.net/screens/s1.png
+  - https://xye.sourceforge.net/screens/s10.png
+  - https://xye.sourceforge.net/screens/s6.png
+  - https://xye.sourceforge.net/screens/s7.png
+  - https://xye.sourceforge.net/screens/s8.png
+  - https://xye.sourceforge.net/screens/s9.png
   langs:
   - C++
   licenses:
@@ -481,6 +497,7 @@
   originals:
   - Kye
   repo: https://sourceforge.net/projects/xye/
+  feed: http://xyegame.blogspot.com/feeds/posts/default
   type: clone
-  url: http://xye.sourceforge.net/
+  url: https://xye.sourceforge.net
   updated: 2020-06-26
