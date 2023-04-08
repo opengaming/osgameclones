@@ -90,8 +90,9 @@ schema;game:
       type: seq
       sequence:
       - type: str
+        pattern: https:\/\/.+
         unique: True
-      desc: URLs of screenshots for the game
+      desc: URLs of screenshots for the game (HTTPS only)
     video:
       type: map
       mapping:

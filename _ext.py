@@ -322,10 +322,6 @@ def parse_data(site):
                 "error": "Has no status field"
             })
 
-        for image in clone.get('images', []):
-            if image.startswith('http://'):
-                print(f"{clone['name']} {image=} is HTTP")
-
     if len(errors) > 0:
         show_errors(errors)
 
