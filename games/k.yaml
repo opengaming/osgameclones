@@ -95,16 +95,28 @@
 - name: KeeperFX
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
-  - As-is
+  - GPL2
+  content: commercial
   development: active
   originals:
   - Dungeon Keeper
   status: playable
+  multiplayer:
+  - Local
+  - Online
+  - LAN
   repo: https://github.com/dkfans/keeperfx
   type: remake
-  updated: 2023-01-18
-  url: https://lubiki.keeperklan.com/html/dk_keeperfx.php
+  updated: 2023-04-09
+  url: https://keeperfx.net
+  images:
+  - 'https://keeperfx.net/screenshots/keeperfx-far-zoom.jpg'
+  - 'https://keeperfx.net/screenshots/keeperfx-new-map-scripts.png'
+  - 'https://keeperfx.net/screenshots/keeperfx-render-distance.png'
+  - 'https://keeperfx.net/screenshots/keeperfx-shift-room-creation.png'
   video:
     youtube: JwDdLynZPag
   
