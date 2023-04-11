@@ -114,9 +114,10 @@
 
 - name: ScummVM
   images:
+  - https://www.scummvm.org/data/screenshots/wintermute/ritter/ritter_win_de_1_10_full.png
   - https://www.scummvm.org/data/screenshots/toltecs/toltecs/toltecs_dos_de_1_1_full.png
   - https://www.scummvm.org/data/screenshots/bladerunner/bladerunner/bladerunner_win_en_1_1_full.png
-  - https://www.scummvm.org/data/screenshots/wintermute/ritter/ritter_win_de_1_10_full.png
+  - https://www.scummvm.org/data/screenshots/zvision/znemesis/znemesis_dos_de_1_10_full.png
   info: List of supported games <a href="https://scummvm.org/compatibility/">is here</a>
   langs:
   - C++
@@ -140,6 +141,7 @@
   - Troll's Tale
   - 'Ultima VIII: Pagan'
   - 'Zork: Grand Inquisitor'
+  - Zork Nemesis
   repo: https://github.com/scummvm/scummvm
   status: playable
   type: remake
