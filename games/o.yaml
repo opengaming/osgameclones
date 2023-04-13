@@ -1206,7 +1206,7 @@
   licenses:
   - GPL3
   content: open
-  development: sporadic
+  development: halted
   originals:
   - Dungeon Keeper
   status: playable
@@ -1214,7 +1214,38 @@
   type: clone
   url: https://opendungeons.github.io/
   updated: 2021-04-08
-  
+
+- name: OpenDungeonsPlus
+  originals:
+  - Dungeon Keeper
+  type: clone
+  repo: 'https://github.com/tomluchowski/OpenDungeonsPlus'
+  url: 'https://snapcraft.io/opendungeons-plus'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OGRE
+  - SFML
+  licenses:
+  - GPL3
+  info: >-
+    a better fork of Opendungeons : with enhanced editor and tile - geometry
+    distortions
+  updated: '2023-04-14'
+  images:
+  - >-
+    https://dashboard.snapcraft.io/site_media/appmedia/2021/11/Screenshot_2021-11-26_18-53-52.jpg
+  - >-
+    https://dashboard.snapcraft.io/site_media/appmedia/2021/10/Screenshot_2021-10-12_20-07-10.jpg
+  - >-
+    https://dashboard.snapcraft.io/site_media/appmedia/2021/10/Screenshot_2021-10-12_20-07-30.jpg
+  - >-
+    https://dashboard.snapcraft.io/site_media/appmedia/2023/01/Screenshot_2023-01-27_12-23-07_dOnEYHu.jpg
+  - 'https://dashboard.snapcraft.io/site_media/appmedia/2023/02/ivUC4Tr.jpeg'
+
 - name: OpenEnroth
   originals:
   - 'Might and Magic VI: The Mandate of Heaven'
