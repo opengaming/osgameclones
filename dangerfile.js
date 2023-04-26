@@ -69,6 +69,7 @@ const knownFrameworks = [
   'OpenRA',
   'OpenSceneGraph',
   'OpenTK',
+  'osu!framework',
   'Oxygine',
   'Panda3D',
   'PandaJS',
