@@ -343,6 +343,28 @@
   - https://i.imgur.com/zplA29x.png
   - https://i.imgur.com/aamkvUB.png
 
+- name: CaveCube
+  originals:
+  - Minecraft
+  type: clone
+  repo: 'https://github.com/PQCraft/CaveCube'
+  feed: 'https://github.com/PQCraft/CaveCube/releases.atom'
+  development: very active
+  status: unplayable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - BSL
+  info: An in-development Minecraft/Infiniminer clone
+  updated: '2023-04-26'
+  images:
+  - >-
+    https://raw.githubusercontent.com/PQCraft/PQCraft/master/Screenshot_20221128_010856.png
+
 - name: CaveExpress
   frameworks:
   - SDL
