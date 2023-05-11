@@ -14,7 +14,7 @@ jobs:
       env:
         GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -38,3 +38,24 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DANGER_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Minify
+      run: make min
+
+    - uses: actions/upload-pages-artifact@v1
+      with:
+        path: _build
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/master'
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
