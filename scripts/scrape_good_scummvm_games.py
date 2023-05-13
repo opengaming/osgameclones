@@ -15,6 +15,7 @@ import aiohttp
 import yaml
 from bs4 import BeautifulSoup
 from tenacity import stop_after_attempt, retry, wait_exponential
+from scripts.utils import originals
 
 SCUMMVM_LIST = "https://www.scummvm.org/compatibility/"
 SCUMMVM_BASE_URL = "https://www.scummvm.org"
@@ -29,12 +30,9 @@ PLATFORM_ALIASES = {
 
 async def main():
     # Get list of OSGC originals
-    osgc_originals = set()
-    for p in Path("originals").iterdir():
-        if p.is_file() and p.suffix == ".yaml":
-            originals = yaml.safe_load(open(p, encoding="utf-8"))
-            for original in originals:
-                osgc_originals.add(original["name"])
+    osgc_originals = {
+        original["name"] for original in originals()
+    }
 
     # Get platforms
     platforms = yaml.safe_load(open(Path("schema") / "originals.yaml", encoding="utf-8"))["schema;platforms"]["enum"]

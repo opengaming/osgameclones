@@ -6,15 +6,14 @@ To run, install from pip:
 - markdown
 - lxml
 """
-from pathlib import Path
-
 import aiohttp
 import asyncio
 import markdown
 import re
 
-import yaml
 from lxml import etree
+
+from scripts.utils import games
 
 URL = "https://raw.githubusercontent.com/radek-sprta/awesome-game-remakes/master/README.md"
 BLACKLIST_PATTERNS = [
@@ -41,14 +40,11 @@ async def main():
       urls.add(url)
   # Find URLs and repos from OSGC
   osgc_urls = set()
-  for p in Path('games').iterdir():
-    if p.is_file() and p.suffix == ".yaml":
-      games = yaml.safe_load(open(p, encoding="utf-8"))
-      for game in games:
-        if repo := game.get("repo", ""):
-          osgc_urls.add(repo)
-        if url := game.get("repo", ""):
-          osgc_urls.add(url)
+  for game in games():
+    if repo := game.get("repo", ""):
+      osgc_urls.add(repo)
+    if url := game.get("repo", ""):
+      osgc_urls.add(url)
   # Print URLS that OSGC doesn't have
   for url in urls - osgc_urls:
     print(url)
