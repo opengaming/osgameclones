@@ -1,5 +1,5 @@
 """
-Check gamme URLs and repos for broken links
+Check game URLs and repos for broken links
 
 To run, install from pip:
 - aiohttp
