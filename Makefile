@@ -1,7 +1,7 @@
 PORT=80
 
 run:
-	poetry run ./render.py
+	poetry run render.py
 
 min:
 	poetry run htmlmin _build/index.html _build/index.html
