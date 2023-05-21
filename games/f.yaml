@@ -521,10 +521,11 @@
   - https://a.fsdn.com/con/app/proj/fitd/screenshots/10347.jpg/max/max/1
 
 - name: freeablo
-  development: active
+  development: halted
   langs:
   - C++
-  - Python
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
   content: commercial
@@ -533,8 +534,9 @@
   repo: https://github.com/wheybags/freeablo
   status: playable
   type: remake
-  updated: 2014-04-22
-  url: https://freeablo.org/
+  updated: 2023-05-22
+  video:
+    youtube: 1a4iOQpgudY
 
 - name: freeaoe
   development: active
