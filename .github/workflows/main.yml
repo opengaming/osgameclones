@@ -31,7 +31,6 @@ jobs:
 
     - name: Build
       run: |
-        chmod a+x render.py
         make ci
         test 6000 -lt $(cat _build/index.html | wc -l)
         yarn install
