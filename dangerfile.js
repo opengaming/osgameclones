@@ -53,6 +53,7 @@ const knownFrameworks = [
   'LibGDX',
   'libretro',
   'LÖVE',
+  'LowRes NX',
   'LWJGL',
   'melonJS',
   'Minetest Engine',
