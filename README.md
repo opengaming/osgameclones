@@ -1,7 +1,6 @@
 # Open Source Game Clones
 
 [![Build and Deploy](https://github.com/opengaming/osgameclones/actions/workflows/main.yml/badge.svg)](https://github.com/opengaming/osgameclones/actions/workflows/main.yml)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6f222827-83c1-4882-8d4e-6781973be25d/deploy-status)](https://app.netlify.com/sites/osgameclones/deploys)
 
 This is the source of [http://osgameclones.com](http://osgameclones.com).
 Feel free to add new games or improve information about those already in the database
