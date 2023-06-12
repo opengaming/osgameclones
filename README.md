@@ -2,7 +2,7 @@
 
 [![Build and Deploy](https://github.com/opengaming/osgameclones/actions/workflows/main.yml/badge.svg)](https://github.com/opengaming/osgameclones/actions/workflows/main.yml)
 
-This is the source of [http://osgameclones.com](http://osgameclones.com).
+This is the source of [https://osgameclones.com](https://osgameclones.com).
 Feel free to add new games or improve information about those already in the database
 by submitting a pull request or opening an issue.
 
