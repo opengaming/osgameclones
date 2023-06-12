@@ -1784,18 +1784,24 @@
   - SDL2
   images:
   - https://openmohaa.sourceforge.net/media/hud.jpg
+  - https://github.com/openmoh/openmohaa/blob/main/docs/images/opm_53_tt_1.png
+  - https://github.com/openmoh/openmohaa/blob/main/docs/images/opm_50b_1.png
+  - https://github.com/openmoh/openmohaa/blob/main/docs/images/opm_50b_2.png
+  - https://github.com/openmoh/openmohaa/blob/main/docs/images/opm-arm_53_tt_1.png
   info: based on ioquake3
   langs:
   - C
+  - C++
   licenses:
   - GPL2
-  development: sporadic
+  content: commercial
+  development: very active
   originals:
   - 'Medal of Honor: Allied Assault'
   repo: https://github.com/openmoh/openmohaa
   status: unplayable
   type: remake
-  updated: 2015-04-11
+  updated: 2023-06-12
   url: https://openmohaa.sourceforge.net/
 
 - name: OpenMoM
