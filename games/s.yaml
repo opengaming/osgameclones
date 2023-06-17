@@ -1365,7 +1365,6 @@
   images:
   - https://camo.githubusercontent.com/f5171c837baca0c86dab2b7f55c68269850f42c1/68747470733a2f2f692e696d6775722e636f6d2f726b6b336b41742e706e67
 
-
 - name: Space Harrier Clone
   type: clone
   originals:
@@ -1430,6 +1429,36 @@
   - 'https://spacestation14.io/images/post/pr_30/rollerbed.webp'
   - 'https://spacestation14.io/images/post/pr_30/accents.webp'
   - 'https://spacestation14.io/images/post/pr_29/monkey_murder.webp'
+
+- name: Space Station 3D
+  originals:
+  - Space Station 13
+  type: clone
+  repo: 'https://github.com/RE-SS3D/SS3D'
+  url: 'https://ss3d.space'
+  feed: 'https://ss3d.space/feed.xml'
+  development: active
+  status: unplayable
+  content: free
+  langs:
+  - 'C#'
+  frameworks:
+  - Unity
+  licenses:
+  - CC-BY-NC-SA
+  - MIT
+  info: >-
+    Space Station 3D is an open-source resurrection of *beep's original SS3D, a 3D
+    take on the infamous Space Station 13 (tm).
+  updated: '2023-06-17'
+  images:
+  - 'https://ss3d.space/assets/img/art/Brukas/BrukasBar.png'
+  - 'https://ss3d.space/assets/img/art/Bug/BugCult.png'
+  - 'https://ss3d.space/assets/img/art/Bug/Bug_CargoAnimals.png'
+  - 'https://ss3d.space/assets/img/art/Bug/Bug_Spacegiving.png'
+  - 'https://ss3d.space/assets/img/art/Bug/Bug_Halloween2020.png'
+  video:
+    youtube: uzLdgxOBPrc
 
 - name: SpaceTwitch
   langs:
