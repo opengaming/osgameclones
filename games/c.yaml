@@ -1381,6 +1381,30 @@
   updated: 2022-07-08
   url: http://www.crownandcutlass.com/
 
+- name: Cryogenic
+  originals:
+  - Dune
+  type: remake
+  repo: 'https://github.com/OpenRakis/Cryogenic/'
+  development: active
+  status: playable
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - .NET
+  licenses:
+  - Apache
+  info: >-
+    Trying to understand how the game works with Spice86 reverse engineering
+    toolkit which allows to run real mode x86 ASM / C# hybrids.
+  updated: '2023-06-20'
+  images:
+  - >-
+    https://raw.githubusercontent.com/OpenRakis/Cryogenic/main/doc/cryodune_worm.png
+  - >-
+    https://raw.githubusercontent.com/OpenRakis/Cryogenic/main/doc/cryodune_send_spice.png
+
 - name: CrystalQuest
   frameworks:
   - jQuery
