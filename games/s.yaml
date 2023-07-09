@@ -150,6 +150,7 @@
   - https://www.scummvm.org/data/screenshots/hdb/hdb/hdb_win_en_1_10_full.png
   - https://www.scummvm.org/data/screenshots/saga/ihnm/ihnm_dos_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/scumm/atlantis/atlantis_dos_en_1_1_full.png
+  - https://www.scummvm.org/data/screenshots/agi/kq1/kq1_dos_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/made/lgop2/lgop2_dos_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/gob/littlered/littlered_dos_de_1_1_full.png
   - https://www.scummvm.org/data/screenshots/lure/lure/lure_dos_en_1_1_full.png
@@ -159,6 +160,11 @@
   - https://www.scummvm.org/data/screenshots/agi/pq1/pq1_amiga_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/gob/ween/ween_dos_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/scumm/balloon/balloon_win_en_1_1_full.png
+  - https://www.scummvm.org/data/screenshots/sci/rama/rama_dos_en_1_10_full.png
+  - https://www.scummvm.org/data/screenshots/mads/nebular/nebular_dos_en_1_10_full.png
+  - https://www.scummvm.org/data/screenshots/tsage/ringworld/ringworld_dos_es_1_1_full.png
+  - https://www.scummvm.org/data/screenshots/made/rodney/rodney_dos_en_1_1_full.png
+  - https://www.scummvm.org/data/screenshots/wintermute/rosemary/rosemary_win_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/cge2/sfinx/sfinx_dos_en_1_10_full.png
   - https://www.scummvm.org/data/screenshots/agos/dimp/dimp_win_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/cge/soltys/soltys_dos_en_1_1_full.png
@@ -170,6 +176,8 @@
   - https://www.scummvm.org/data/screenshots/tony/tony/tony_win_de_1_10_full.png
   - https://www.scummvm.org/data/screenshots/toon/toon/toon_win_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/touche/touche/touche_dos_en_1_1_full.png
+  - https://www.scummvm.org/data/screenshots/gnap/gnap/gnap_win_en_1_10_full.png
+  - https://www.scummvm.org/data/screenshots/gob/urban/urban_dos_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/agi/qfg1/qfg1_dos_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/agos/waxworks/waxworks_dos_en_1_1_full.png
   - https://www.scummvm.org/data/screenshots/hypno/wetlands/wetlands_dos_en_1_10_full.png
@@ -185,6 +193,7 @@
   development: very active
   originals:
   - SCUMM
+  - The 11th Hour
   - '1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde'
   - 3 Skulls of the Toltecs
   - The 7th Guest
@@ -195,6 +204,7 @@
   - Backyard Baseball
   - Backyard Football
   - Bargon Attack
+  - 'The Beast Within: A Gabriel Knight Mystery'
   - Beavis and Butt-Head in Virtual Stupidity
   - Beneath a Steel Sky
   - Bickadoodle
@@ -250,6 +260,7 @@
   - Gold Rush!
   - Green Eggs and Ham
   - Gregory and the Hot Air Balloon
+  - The Griffon Legend
   - Grim Fandango
   - Hades Challenge
   - 'Halls of the Dead: Faery Tale Adventure II'
@@ -270,6 +281,14 @@
   - Indiana Jones and the Fate of Atlantis
   - Jinxter
   - Jones in the Fast Lane
+  - Kathy Rain
+  - King's Quest I
+  - King's Quest II
+  - King's Quest III
+  - King's Quest IV
+  - King's Quest V
+  - King's Quest VI
+  - King's Quest VII
   - L-ZONE
   - 'Lands of Lore: The Throne of Chaos'
   - Leather Goddesses 2
@@ -313,6 +332,18 @@
   - 'Quest for Glory II: Trial by Fire'
   - 'Quest for Glory III: Wages of War'
   - Quest for Glory IV
+  - Rama
+  - Red Comrades Save the Galaxy
+  - Red Comrades 2
+  - Resonance
+  - Return to Ringworld
+  - Return to Zork
+  - Rex Nebular and the Cosmic Gender Bender
+  - 'Ringworld: Revenge of the Patriarch'
+  - Riven
+  - Rodney's Funscreen
+  - Rosemary
+  - Ruff's Bone
   - 'Sam & Max: Hit the Road'
   - Sanitarium
   - Sfinx
@@ -352,8 +383,13 @@
   - 'Touché: The Adventures of the Fifth Musketeer'
   - Transylvania
   - Troll's Tale
-  - 'Ultima VIII: Pagan'
+  - U.F.O.s
+  - Ultima IV
+  - Ultima VI
+  - Ultima VIII
   - Ulysses and the Golden Fleece
+  - Uncle Henry's Playhouse
+  - Urban Runner
   - Waxworks
   - Wetlands
   - The White Chamber
@@ -732,6 +768,23 @@
   repo: https://github.com/vayerx/shadowgrounds
   type: remake
   updated: 2022-07-04
+
+- name: shin
+  originals:
+  - 'Umineko: When They Cry Saku'
+  type: remake
+  repo: 'https://github.com/dcnick3/shin'
+  development: active
+  status: semi-playable
+  content: commercial
+  langs:
+  - Rust
+  licenses:
+  - MPL
+  updated: '2023-06-23'
+  images:
+  - 'https://raw.githubusercontent.com/DCNick3/shin/master/screenshot.png'
+
 
 - name: Shining Force 2 Reverse Engineer (SF2RE)
   info: reverse engineering project
@@ -1380,6 +1433,29 @@
   video:
     youtube: gzIfRW91IxE
 
+- name: 'Sonic 3: Angel Island Revistied'
+  originals:
+  - Sonic the Hedgehog
+  type: remake
+  repo: 'https://github.com/Eukaryot/sonic3air'
+  url: 'https://sonic3air.org/'
+  development: very active
+  status: playable
+  multiplayer:
+  - Split-screen
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  updated: '2023-07-05'
+  images:
+  - 'https://sonic3air.org/images/icecap01.png'
+  - 'https://sonic3air.org/images/skysanctuary01.png'
+
+
 - name: Sonic-CD-11-Decompilation
   originals:
   - Sonic the Hedgehog
@@ -1399,6 +1475,21 @@
   updated: '2021-07-22'
   video:
     youtube: tTErcMRznkk
+
+- name: Sonic-Mania-Decompilation
+  originals:
+  - Sonic the Hedgehog
+  type: remake
+  repo: 'https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation'
+  development: very active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - Custom
+  updated: '2023-07-05'
+
 
 - name: Sopwith 3
   langs:

@@ -1,3 +1,19 @@
+- name: U.F.O.s
+  external:
+    website: https://www.mobygames.com/game/4556
+    wikipedia: U.F.O.s (video game)
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Point and click
+    themes:
+    - Comedy
+    - Sci-Fi
+  platforms:
+  - Classic Mac OS
+  - Windows
+
 - name: Ugh!
   external:
     wikipedia: Ugh!
@@ -19,12 +35,16 @@
     genres:
     - RPG
 
-- name: 'Ultima IV: Quest of the Avatar'
+- name: Ultima IV
+  names:
+  - 'Ultima IV: Quest of the Avatar'
   external:
     wikipedia: Ultima IV
   meta:
     genres:
     - RPG
+  platforms:
+  - DOS
 
 - name: Ultima Online
   external:
@@ -67,12 +87,16 @@
     genres:
     - RPG
 
-- name: 'Ultima VI: The False Prophet'
+- name: Ultima VI
+  names:
+  - 'Ultima VI: The False Prophet'
   external:
     wikipedia: Ultima VI
   meta:
     genres:
     - RPG
+  platforms:
+  - DOS
 
 - name: 'Ultima VII: The Black Gate'
   external:
@@ -81,7 +105,9 @@
     genres:
     - RPG
 
-- name: 'Ultima VIII: Pagan'
+- name: Ultima VIII
+  names:
+  - 'Ultima VIII: Pagan'
   external:
     wikipedia: Ultima VIII
   meta:
@@ -115,6 +141,24 @@
   - FM Towns
   - PC-98
 
+- name: 'Umineko: When They Cry Saku'
+  external:
+    website: 'https://entergram.co.jp/umineko/'
+    wikipedia: Umineko When They Cry
+  platforms:
+  - Nintendo Switch
+  - PlayStation 4
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Visual Novel
+    themes:
+    - Anime
+    - Comedy
+    - Crime
+    - Fantasy
+
 - name: Uncharted Waters
   external:
     wikipedia: Uncharted Waters
@@ -125,6 +169,16 @@
     - RPG
     themes:
     - Alternate Historical
+
+- name: Uncle Henry's Playhouse
+  external:
+    website: https://www.mobygames.com/game/4531
+    wikipedia: Uncle Henry%27s Playhouse
+  meta:
+    genres:
+    - Puzzle
+  platforms:
+  - Windows
 
 - name: Undertale
   external:
@@ -171,6 +225,18 @@
   meta:
     genres:
     - FPS
+
+- name: Urban Runner
+  external:
+    website: https://www.mobygames.com/game/3809
+    wikipedia: Urban Runner
+  meta:
+    genres:
+    - Adventure
+    themes:
+    - Crime
+  platforms:
+  - Windows
 
 - name: Utopia
   external:
