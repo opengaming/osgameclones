@@ -76,7 +76,7 @@ const knownFrameworks = [
   'PandaJS',
   'Phaser',
   'PICO-8',
-  'pixi.js',
+  'PixiJS',
   'pygame',
   'QB64',
   'Qt',
