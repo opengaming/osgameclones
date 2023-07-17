@@ -41,7 +41,7 @@ const knownFrameworks = [
   'GameMaker Studio',
   'Godot',
   'Graphics32',
-  'GTK+',
+  'GTK',
   'Impact',
   'Inform',
   'Irrlicht',
