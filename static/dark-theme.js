@@ -5,13 +5,11 @@ const DARK_THEME_KEY = 'startInDarkTheme';
 function setDarkTheme() {
   document.body.classList.remove(LIGHT_THEME_CLASS);
   document.body.classList.add(DARK_THEME_CLASS);
-  setThemeButtonText("Light Theme");
 }
 
 function setLightTheme() {
   document.body.classList.remove(DARK_THEME_CLASS);
   document.body.classList.add(LIGHT_THEME_CLASS);
-  setThemeButtonText("Dark Theme");
 }
 
 function toggleDarkTheme() {
@@ -21,17 +19,6 @@ function toggleDarkTheme() {
   } else {
     setDarkTheme();
     localStorage.setItem(DARK_THEME_KEY, 'true')
-  }
-}
-
-/**
- * Safely modify theme button text only if it exists
- * @param {string} text label for button
- */
-function setThemeButtonText(text) {
-  const button = document.getElementById('dark-theme-button')
-  if (button) {
-    button.innerHTML = text
   }
 }
 
@@ -54,6 +41,5 @@ function setThemeButtonText(text) {
 // handle theme button label and listener once DOM fully loaded
 window.addEventListener('DOMContentLoaded', function () {
   const isDarkTheme = document.body.classList.contains(DARK_THEME_CLASS)
-  setThemeButtonText(isDarkTheme ? "Light Theme" : "Dark Theme")
   document.getElementById('dark-theme-button').addEventListener('click', toggleDarkTheme)
 })
