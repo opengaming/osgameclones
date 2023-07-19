@@ -199,6 +199,11 @@ dd + dt { margin-top: 1em; }
   background-color: #fff;
 }
 
+.dark-theme #dark-theme-label { display: none; }
+.dark-theme #light-theme-label { display: block; }
+.light-theme #dark-theme-label { display: block; }
+.light-theme #light-theme-label { display: none; }
+
 .light-theme .tag.playable { color: #28a745; }
 .light-theme .tag.semi-playable { color: #CB9423; }
 .light-theme .tag.unplayable { color: #dc3545; }
@@ -359,4 +364,19 @@ dd + dt { margin-top: 1em; }
 
 .game-spacer {
   margin: 10px;
+}
+
+.lg-view{
+   display:inline-block;
+}
+.sm-view{
+   display:none;
+}
+@media screen and (max-width: 500px) {
+    .lg-view{
+       display:none;
+    }
+    .sm-view{
+       display:inline-block;
+    }
 }
