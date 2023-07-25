@@ -144,11 +144,11 @@ function sortByUpdated(e) {
   if (list.style.display == "none") {
     list.style.display = "block";
     sorted.style.display = "none";
-    btn.innerHTML = "Sort by Updated";
+    btn.innerHTML = "Updated";
   } else {
     list.style.display = "none";
     sorted.style.display = "block";
-    btn.innerHTML = "Sort by Originals";
+    btn.innerHTML = "Originals";
 
     if (!sorted.hasChildNodes()) {
       const games = [...document.getElementsByTagName('dd')];
@@ -411,7 +411,7 @@ function setCount() {
     document.getElementById('filter').value = params['filter'];
   }
 
-  const sortBtn = document.getElementById('sortButton');
-  sortBtn.innerHTML = "Sort by Updated";
-  sortBtn.addEventListener('click', sortByUpdated);
+  const sortBtnLbl = document.getElementById('sort-button-label');
+  sortBtnLbl.innerHTML = "Updated";
+  sortBtnLbl.addEventListener('click', sortByUpdated);
 })(); 
