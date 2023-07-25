@@ -317,11 +317,7 @@ dd + dt { margin-top: 1em; }
    color: #000
 }
 
-#dark-theme-button {
-  float: right;
-}
-
-#sortButton {
+.nav-btn-right {
   float: right;
 }
 
@@ -372,7 +368,7 @@ dd + dt { margin-top: 1em; }
 .sm-view{
    display:none;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     .lg-view{
        display:none;
     }
