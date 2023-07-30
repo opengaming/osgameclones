@@ -36,23 +36,21 @@
   type: remake
   updated: 2023-06-04
 
-- name: 'Mafia II: Toolkit'
+- name: 'Mafia: Toolkit'
   originals:
   - Mafia II
+  - Mafia III
+  - 'Mafia: Definitive Edition'
   type: tool
   repo: 'https://github.com/Greavesy1899/Mafia2Toolkit'
-  url: 'https://mafiamods.com/mods/mafia-2-toolkit/'
+  feed: https://github.com/Greavesy1899/MafiaToolkit/releases.atom
   development: active
   langs:
   - 'C#'
   licenses:
   - MIT
   info: 'Modding tools such as a map editor, model exporter, material editor'
-  updated: 2020-08-25
-  images:
-  - https://mafiamods.com/wp-content/uploads/cmdm/165255/1580170866_132-1579280887-1378041516.png
-  - https://mafiamods.com/wp-content/uploads/cmdm/165255/1580170881_132-1579280933-563824247.png
-  - https://mafiamods.com/wp-content/uploads/cmdm/165255/1580170906_132-1579281675-1092920346.png
+  updated: 2023-07-30
   video:
     youtube: Hw44ayHVV90
 
