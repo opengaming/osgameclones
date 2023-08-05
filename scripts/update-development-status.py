@@ -6,8 +6,12 @@ To run, install from pip:
 - python-gitlab
 
 Add environment variables:
-- GH_TOKEN (see https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token)
-- GL_TOKEN (see https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token)
+- GH_TOKEN
+  - https://github.com/settings/tokens?type=beta
+  - (see https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token)
+- GL_TOKEN
+  - https://gitlab.com/-/profile/personal_access_tokens
+  - (see https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token)
 """
 import os
 import re
@@ -22,6 +26,8 @@ GL_HOST = 'https://gitlab.com'
 
 GH_REGEX = re.compile(r'https://github.com/([^/]+)/([^/]+)')
 GL_REGEX = re.compile(GL_HOST + r'/([^/]+/[^/]+)')
+
+GH_DT_FMT = "%a, %d %b %Y %H:%M:%S %Z"
 
 
 def main():
@@ -39,13 +45,12 @@ def main():
             if len(repo_url) == 0 or game.get('development', '') == 'complete':
                 continue
 
-            latest_commit_date = get_latest_commit_date(repo_url, gh, gl)
-
-            if latest_commit_date is None:
+            if (latest_commit_date := get_latest_commit_date(repo_url, gh, gl)) is None:
                 continue
 
             diff = datetime.now() - latest_commit_date
 
+            status_original = game.get("development", "unknown")
             if diff < timedelta(weeks=1):
                 game['development'] = 'very active'
             elif diff < timedelta(weeks=4):
@@ -54,9 +59,11 @@ def main():
                 game['development'] = 'sporadic'
             else:
                 game['development'] = 'halted'
+            if status_original != game["development"]:
+                print(f"{game['name']} status should be {game['development']} ({status_original=})")
 
-        yaml.dump(games, open(filename, 'w', encoding='utf-8'), sort_keys=False)
-        print(filename, 'has been updated')
+        # yaml.dump(games, open(filename, 'w', encoding='utf-8'), sort_keys=False)
+        # print(filename, 'has been updated')
 
 
 def is_github_repo(repo):
@@ -87,10 +94,9 @@ def get_latest_commit_date_for_github(gh, repo_url):
         commits = gh_repo.get_commits()
     except GithubException as e:
         print(f'Error getting repo info for {owner}/{repo}: {e}')
-
         return
 
-    return list(commits)[0].committer.created_at
+    return datetime.strptime(commits[0].last_modified, GH_DT_FMT)
 
 
 def get_latest_commit_date_for_gitlab(gl, repo_url):
@@ -102,10 +108,10 @@ def get_latest_commit_date_for_gitlab(gl, repo_url):
     project_namespace = match.groups()[0]
     project = gl.projects.get(project_namespace)
 
-    commits = project.commits.list()
+    last_commit = next(project.commits.list(iterator=True))
 
     return datetime.strptime(
-        ''.join(commits[0].committed_date.rsplit(':', 1)),
+        ''.join(last_commit.committed_date.rsplit(':', 1)),
         '%Y-%m-%dT%H:%M:%S.%f%z'
     ).replace(tzinfo=None)
 
