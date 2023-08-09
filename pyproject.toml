@@ -18,6 +18,8 @@ python-slugify = "^5.0.2"
 
 [tool.poetry.dev-dependencies]
 yamllint = "^1.27.1"
+beautifulsoup4 = "^4.12.2"
+tenacity = "^8.2.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

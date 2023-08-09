@@ -3,7 +3,6 @@ Scrape ScummVM supported games at good or excellent level, and create YAML clone
 
 Uses libraries:
 - aiohttp
-- asyncio
 - beautifulsoup4
 - tenacity
 """
@@ -15,7 +14,7 @@ import aiohttp
 import yaml
 from bs4 import BeautifulSoup
 from tenacity import stop_after_attempt, retry, wait_exponential
-from scripts.utils import originals
+from utils import originals
 
 SCUMMVM_LIST = "https://www.scummvm.org/compatibility/"
 SCUMMVM_BASE_URL = "https://www.scummvm.org"
@@ -30,9 +29,11 @@ PLATFORM_ALIASES = {
 
 async def main():
     # Get list of OSGC originals
-    osgc_originals = {
-        original["name"] for original in originals()
-    }
+    osgc_originals = set()
+    for original in originals():
+        osgc_originals.add(original["name"])
+        for name in original.get("names", []):
+            osgc_originals.add(name)
 
     # Get platforms
     platforms = yaml.safe_load(open(Path("schema") / "originals.yaml", encoding="utf-8"))["schema;platforms"]["enum"]
@@ -47,16 +48,19 @@ async def main():
             # Filter out those that aren't good enough
             if td_support_level.text not in SUPPORT_LEVELS:
                 continue
+            # Filter out engines
+            if td_name.text.endswith(" games"):
+                continue
             game_links[td_name.text] = SCUMMVM_BASE_URL + td_name.a.attrs["href"]
 
         # Generate originals list
-        originals = list(game_links)
-        print("ScummVM originals:")
-        for original in sorted(originals):
-            print(f"- {original}")
+        origs = list(game_links)
 
         # Filter out those we already have
-        missing_originals = {original for original in originals if original not in osgc_originals}
+        missing_originals = {original for original in origs if original not in osgc_originals}
+        print("ScummVM originals:")
+        for original in sorted(missing_originals):
+            print(f"- {original}")
 
         for original in missing_originals:
             if game_info := await scrape_game_info(session, game_links[original], platforms):
