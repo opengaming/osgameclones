@@ -116,7 +116,7 @@ const frameworkLangs = {
   'OpenGL': ['C++', 'C'],
   'Unity': ['C#'],
   'SFML': ['C++'],
-  'libGDX': ['Java'],
+  'libGDX': ['Java', 'Kotlin'],
   'Qt': ['C++'],
   'Allegro': ['C++', 'C'],
   'pygame': ['Python'],
