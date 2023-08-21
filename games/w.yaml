@@ -413,6 +413,28 @@
   video:
     youtube: AIqp-OhKuHM
 
+- name: wipEout Rewrite
+  originals:
+  - Wipeout
+  type: remake
+  repo: 'https://github.com/phoboslab/wipeout-rewrite'
+  url: 'https://phoboslab.org/wipegame/'
+  development: very active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - As-is
+  info: based on Wipeout leaked source code
+  updated: '2023-08-22'
+  images:
+  - >-
+    https://uploads.golmedia.net/uploads/articles/article_media/12624739471692021213gol1.jpg
+  - 'https://phoboslab.org/content/assets/wipeout-wasm.png'
+
 - name: Witch Blast
   development: halted
   frameworks:
