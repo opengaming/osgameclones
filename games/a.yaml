@@ -5,6 +5,8 @@
   langs:
   - C++
   - Common Lisp
+  frameworks:
+  - SDL
   licenses:
   - PD
   - WTFPL
@@ -13,19 +15,19 @@
   development: halted
   originals:
   - Abuse
-  repo: http://abuse.zoy.org/browser/abuse/trunk
+  repo: http://abuse.zoy.org/wiki/download
   status: playable
   type: remake
-  updated: 2019-04-16
+  updated: 2023-08-26
   url: http://abuse.zoy.org/
   content: swappable
 
-- name: Abuse
+- name: Abuse (Xenoveritas)
   originals:
   - Abuse
   type: remake
   repo: https://github.com/Xenoveritas/abuse
-  development: active
+  development: sporadic
   status: playable
   content: free
   langs:
