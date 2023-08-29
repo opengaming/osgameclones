@@ -214,6 +214,21 @@
   development: halted
   updated: 2022-06-25
 
+- name: Aladdin_DirectX
+  type: remake
+  originals:
+  - Aladdin
+  status: unplayable
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  development: halted
+  repo: https://github.com/phanletrunghieu/Aladdin_DirectX
+  updated: 2022-06-25
+  licenses:
+  - As-is
+
 - name: Aleph One
   images:
   - https://alephone.lhowon.org/images/marathon_collage.png
@@ -253,6 +268,21 @@
   type: remake
   updated: 2014-01-12
   url: https://retrospec.sgn.net/users/ignacio/a8i.htm
+
+- name: Ambermoon
+  originals:
+  - Ambermoon
+  type: official
+  repo: 'https://github.com/jhorneman/ambermoon'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Historical source code and documents related to Ambermoon
+  updated: '2023-06-03'
 
 - name: Ambermoon.net
   type: remake
@@ -298,36 +328,6 @@
   updated: 2020-08-25
   url: https://ancientbeast.com/
 
-- name: Aladdin_DirectX
-  type: remake
-  originals:
-  - Aladdin
-  status: unplayable
-  langs:
-  - C++
-  frameworks:
-  - DirectX
-  development: halted
-  repo: https://github.com/phanletrunghieu/Aladdin_DirectX
-  updated: 2022-06-25
-  licenses:
-  - As-is
-
-- name: Ambermoon
-  originals:
-  - Ambermoon
-  type: official
-  repo: 'https://github.com/jhorneman/ambermoon'
-  development: halted
-  status: unplayable
-  content: commercial
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: Historical source code and documents related to Ambermoon
-  updated: '2023-06-03'
-
 - name: Antares
   images:
   - https://farm3.static.flickr.com/2606/4103057024_0b577de0a2.jpg
@@ -359,14 +359,14 @@
   - PICO-8
   licenses:
   - GPL3
-  development: active
+  development: halted
   originals:
   - 'Ultima III: Exodus'
   repo: https://github.com/Feneric/Anteform
   status: playable
   type: similar
   url: https://feneric.itch.io/anteform
-  updated: 2020-05-19
+  updated: 2023-08-30
 
 - name: aoe
   development: active
