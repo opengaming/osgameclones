@@ -472,6 +472,24 @@
   images:
   - https://apps.kde.org/thumbnails/org.kde.granatier/granatier.png
 
+- name: “The Great Escape” Ported to C
+  info: reverse engineered from binary
+  langs:
+  - C
+  licenses:
+  - As-is
+  development: sporadic
+  originals:
+  - The Great Escape
+  status: playable
+  repo: https://github.com/dpt/The-Great-Escape-in-C
+  type: remake
+  url: https://www.davespace.co.uk/the.great.escape/
+  updated: 2023-09-10
+  images:
+  - https://raw.githubusercontent.com/dpt/The-Great-Escape-in-C/master/demo.gif
+  - https://www.davespace.co.uk/the.great.escape/tge/diagram.png
+
 - name: grid-leader
   frameworks:
   - Panda3D
