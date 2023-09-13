@@ -207,9 +207,12 @@
     youtube: aZZ0piRvI58
     moddb: 1907883
 
-- name: tetris
+- name: tetris - Just another Tetris™ clone
   images:
   - https://raw.githubusercontent.com/spypunk/tetris/master/img/screenshot_start.png
+  - https://github.com/spypunk/tetris/blob/master/img/screenshot.png?raw=true
+  - https://github.com/spypunk/tetris/blob/master/img/screenshot_pause.png?raw=true
+  - https://github.com/spypunk/tetris/blob/master/img/screenshot_gameover.png?raw=true
   langs:
   - Java
   licenses:
@@ -218,9 +221,9 @@
   - Tetris
   status: playable
   repo: https://github.com/spypunk/tetris
-  development: sporadic
+  development: halted
   type: remake
-  updated: 2016-08-19
+  updated: 2023-09-08
 
 - name: Tetris (in C and NCURSES)
   originals:
