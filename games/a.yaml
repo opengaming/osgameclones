@@ -326,6 +326,30 @@
   - GPL3
   updated: '2023-09-09'
 
+- name: 'Amnesia: The Dark Descent (rework)'
+  originals:
+  - 'Amnesia: The Dark Descent'
+  type: remake
+  repo: 'https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent'
+  feed: 'https://github.com/OSS-Cosmic/AmnesiaTheDarkDescent/releases.atom'
+  development: active
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - SDL2
+  - OpenGL
+  licenses:
+  - Apache
+  - GPL3
+  info: This is a heavy rework of the core engine
+  updated: '2023-09-17'
+  images:
+  - >-
+    https://raw.githubusercontent.com/OSS-Cosmic/AmnesiaTheDarkDescent/master/imgs/shot1.png
+
 - name: Ancient Beast
   frameworks:
   - Phaser
