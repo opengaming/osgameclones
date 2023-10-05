@@ -989,15 +989,21 @@
 - name: 'Mojotron: Robot Wars'
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
-  development: active
+  content: open
+  development: sporadic
   originals:
   - 'Robotron: 2084'
   repo: https://gitlab.com/dulsi/mojotron/
   status: playable
   type: clone
-  updated: 2021-09-18
+  url: https://identicalsoftware.com/mojotron/
+  updated: 2023-10-06
+  images:
+  - https://identicalsoftware.com/mojotron/screenshot1.png
 
 - name: Monsters and Mushrooms
   images:
