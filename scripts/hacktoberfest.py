@@ -17,7 +17,7 @@ import os
 import re
 
 from github import Github, GithubException
-from gitlab import Gitlab
+from gitlab import Gitlab, GitlabHttpError, GitlabGetError
 
 from scripts.utils import games
 
@@ -39,7 +39,7 @@ def main():
             try:
                 gh_repo = gh.get_repo(f"{owner}/{repo}")
             except GithubException as e:
-                print(f"Error getting repo info for {owner}/{repo}: {e}")
+                print(f"Error getting GitHub repo info for {owner}/{repo}: {e}")
                 continue
             topics = gh_repo.get_topics()
             if "hacktoberfest" in topics:
@@ -50,7 +50,11 @@ def main():
             match = re.match(GL_REGEX, repo_url)
             if match:
                 project_namespace = match.groups()[0]
-                project = gl.projects.get(project_namespace)
+                try:
+                    project = gl.projects.get(project_namespace)
+                except (GitlabHttpError, GitlabGetError) as e:
+                    print(f"Error getting Gitlab repo info for {project_namespace}: {e}")
+                    continue
                 if "hacktoberfest" in project.topics:
                     game["platform"] = "gitlab"
                     game["stars"] = project.star_count
