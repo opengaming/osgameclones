@@ -414,19 +414,25 @@
 - name: XSwing Plus
   langs:
   - Java
+  frameworks:
+  - LWJGL
+  - Slick2D
   licenses:
-  - GPL3
-  development: halted
+  - MIT
+  content: open
+  development: sporadic
   originals:
   - Swing
   status: playable
-  repo: https://sourceforge.net/projects/xswingplus/
+  repo: https://github.com/TobseF/XSwing-Plus
   type: remake
-  updated: 2022-11-30
+  updated: 2023-10-17
   url: https://xswing.net
   images:
   - https://a.fsdn.com/con/app/proj/xswingplus/screenshots/258322.jpg/max/max/1
   - https://a.fsdn.com/con/app/proj/xswingplus/screenshots/195990.jpg/max/max/1
+  video:
+    youtube: cLm7sDkO8Z8
 
 - name: TheXTech
   originals:
