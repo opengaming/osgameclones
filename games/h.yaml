@@ -143,20 +143,26 @@
   updated: 2022-08-29
 
 - name: Head over Heels
+  type: remake
   langs:
   - C++
   frameworks:
   - Allegro
-  licenses:
-  - GPL3
-  development: halted
   originals:
   - Head over Heels
+  repo: 'https://github.com/dougmencken/HeadOverHeels'
   status: playable
-  repo: https://github.com/dougmencken/HeadOverHeels
-  type: remake
-  updated: 2022-08-29
-  info: Originated from version 1.0.1 by Jorge Rodríguez Santos https://www.headoverheels2.com/drupal/en/
+  development: active
+  licenses:
+  - GPL3
+  content: open
+  info: Originated from the remake by Jorge Rodríguez Santos
+  updated: '2023-10-25'
+  images:
+  - https://raw.githubusercontent.com/dougmencken/HeadOverHeels/master/gamedata/gfx/gui.gfx/head.gif
+  - https://raw.githubusercontent.com/dougmencken/HeadOverHeels/master/gamedata/gfx/gui.gfx/heels.gif
+  - https://user-images.githubusercontent.com/3457110/49519576-38b6f800-f899-11e8-9066-7a75f6285a9e.png
+  - https://user-images.githubusercontent.com/3457110/275205173-1fa6287a-54ec-43e4-bff9-c6a3107c0208.gif
 
 - name: Head over Heels 2
   langs:
