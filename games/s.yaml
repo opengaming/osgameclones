@@ -2585,13 +2585,13 @@
   - 'https://github.com/MitchellSternke/SuperMarioBros-C/raw/master/demo.gif'
 
 - name: SuperTux
-  development: active
+  development: very active
   frameworks:
   - SDL2
   images:
-  - https://supertux.org/images/0_4_0/0_4_0_3.png
-  - https://supertux.org/images/0_4_0/0_4_0_10.png
-  - https://supertux.org/images/0_4_0/0_4_0_5.png
+  - https://www.supertux.org/images/0_6_0/0_6_0_2.png
+  - https://www.supertux.org/images/0_6_0/0_6_0_5.png
+  - https://www.supertux.org/images/0_6_0/0_6_0_17.png
   langs:
   - C++
   licenses:
@@ -2602,8 +2602,9 @@
   repo: https://github.com/SuperTux/supertux
   status: playable
   type: clone
-  updated: 2017-10-13
+  updated: 2023-11-09
   url: https://supertux.org/
+  feed: https://www.supertux.org/feed.xml
 
 - name: SuperTux Classic
   development: active
