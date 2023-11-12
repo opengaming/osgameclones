@@ -2711,15 +2711,22 @@
 
 - name: SWP
   licenses:
+  - GPL2
   - Custom
+  content: commercial
   langs:
   - C
+  frameworks:
+  - OpenGL
+  - DirectX
+  - SDL
   originals:
   - Shadow Warrior
   status: playable
   repo: https://github.com/Hendricks266/SWP
+  development: halted
   type: remake
-  updated: 2020-01-07
+  updated: 2023-11-13
   url: http://www.proasm.com/sw/swp.html
   video:
     youtube: JePqKJd4hhw
