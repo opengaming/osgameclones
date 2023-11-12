@@ -60,6 +60,31 @@
   video:
     youtube: n9ALgxcTBU0
 
+- name: War Thunder
+  originals:
+  - War Thunder
+  type: official
+  repo: 'https://github.com/GaijinEntertainment/DagorEngine'
+  feed: 'https://github.com/GaijinEntertainment/DagorEngine/releases.atom'
+  development: active
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - FMOD
+  - OpenXR
+  licenses:
+  - BSD
+  info: Dagor Engine and Tools source code from Gaijin Games KFT
+  updated: '2023-11-12'
+  images:
+  - >-
+    https://uploads.golmedia.net/uploads/articles/article_media/9368082791698855425gol1.jpg
+
 - name: War1
   originals:
   - 'Warcraft: Orcs & Humans'
