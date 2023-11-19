@@ -139,9 +139,12 @@
     youtube: aw3pEhF3eJo
 
 - name: Falltergeist
-  development: active
+  development: halted
   langs:
   - C++
+  frameworks:
+  - SDL2
+  - OpenGL
   licenses:
   - GPL3
   content: commercial
@@ -151,7 +154,8 @@
   status: unplayable
   type: remake
   url: https://falltergeist.org/
-  updated: 2019-11-20
+  feed: https://falltergeist.org/rss
+  updated: 2023-11-20
 
 - name: Fanwor
   frameworks:
