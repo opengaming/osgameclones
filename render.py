@@ -7,9 +7,9 @@ import shutil
 import functools
 import argparse
 import logging
-from distutils.dir_util import copy_tree
 from pathlib import Path
 
+import markupsafe
 import unidecode
 
 import jinja2
@@ -116,7 +116,7 @@ def main():
 
     env().filters['normalize'] = normalize
     env().filters['slugify'] = slugify
-    env().filters['e'] = jinja2.escape
+    env().filters['e'] = markupsafe.escape
     render_all(args.dest)
 
     # Render add game forms
@@ -124,7 +124,7 @@ def main():
     render_game_form("schema/originals.yaml", f"{args.dest}/add_original.html", "Add Original")
 
     # Copy static files
-    copy_tree(str(HERE / "templates/forms/static"), f"{args.dest}/_add_form")
+    shutil.copytree(str(HERE / "templates/forms/static"), f"{args.dest}/_add_form")
 
 
 if __name__ == '__main__':
