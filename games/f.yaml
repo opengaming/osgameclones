@@ -370,18 +370,19 @@
   - Dark Forces
   - Outlaws
   type: remake
-  repo: 'https://github.com/luciusDXL/TheForceEngine'
+  repo: https://github.com/luciusDXL/TheForceEngine
   url: 'https://theforceengine.github.io/'
-  development: active
-  status: semi-playable
+  development: very active
+  status: playable
   content: commercial
   langs:
   - C++
   frameworks:
   - OpenGL
+  - SDL2
   licenses:
   - GPL2
-  updated: '2020-07-24'
+  updated: 2023-11-23
   images:
   - 'https://theforceengine.github.io/screenshots/DarkForces1.jpg'
   - 'https://theforceengine.github.io/screenshots/DarkForces2.jpg'
