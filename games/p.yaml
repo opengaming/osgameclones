@@ -80,18 +80,26 @@
   - 'https://inews.gtimg.com/newsapp_bt/0/13183252358/1000'
 
 - name: Panel Attack
-  info: basic networking support
+  frameworks:
+  - LÖVE
   langs:
   - Lua
   licenses:
   - Zlib
-  development: sporadic
+  multiplayer:
+  - Local
+  - Online
+  - Split-screen
+  development: active
   originals:
   - Tetris Attack
-  repo: https://github.com/sharpobject/panel-attack
+  repo: https://github.com/panel-attack/panel-attack
+  url: http://panelattack.com/
   status: playable
   type: remake
-  updated: 2013-05-27
+  updated: 2023-11-16
+  video:
+    youtube: lm5zW5yPsr0
 
 - name: Pang Zero
   images:
