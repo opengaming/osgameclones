@@ -677,52 +677,8 @@
   updated: 2022-09-01
   info: FreeCS is a free-software reimplementation of Counter-Strike 1.5 running on the FTEQW engine.
 
-- name: FreeHeroes
-  development: sporadic
-  frameworks:
-  - Qt
-  images:
-  - https://github.com/mapron/FreeHeroes/raw/c84877ca37c10476182a755cb64f836725dd2f5c/docs/en/images/battle_emulator.png
-  - https://github.com/mapron/FreeHeroes/raw/c84877ca37c10476182a755cb64f836725dd2f5c/docs/en/images/battle_widget.png
-  - https://github.com/mapron/FreeHeroes/raw/c84877ca37c10476182a755cb64f836725dd2f5c/docs/en/images/hero_dialog.png
-  info: FreeHeroes is free engine for Heroes of Might and Magic 3.
-  langs:
-  - C++
-  licenses:
-  - MIT
-  content: commercial
-  originals:
-  - Heroes of Might and Magic III
-  repo: https://github.com/mapron/FreeHeroes
-  status: unplayable
-  type: remake
-  updated: 2022-11-04
-
-- name: FreeHL
-  images:
-  - https://github.com/eukara/freehl/raw/master/img/preview1.jpg
-  - https://github.com/eukara/freehl/raw/master/img/preview2.jpg
-  - https://github.com/eukara/freehl/raw/master/img/preview3.jpg
-  - https://github.com/eukara/freehl/raw/master/img/preview4.jpg
-  langs:
-  - QuakeC
-  licenses:
-  - ISC
-  development: active
-  originals:
-  - Half-Life
-  status: semi-playable
-  repo: https://github.com/eukara/freehl
-  type: remake
-  content: commercial
-  multiplayer:
-  - Online
-  - LAN
-  updated: 2022-09-01
-  info: FreeHL is a free-software reimplementation of Half-Life running on the FTEQW engine.
-
 - name: Freedoom
-  development: active
+  development: very active
   images:
   - https://freedoom.github.io/img/screenshots/phase1-0.12_02.png
   - https://freedoom.github.io/img/screenshots/phase1-0.12_03.png
@@ -739,8 +695,9 @@
   status: playable
   repo: https://github.com/freedoom/freedoom
   type: remake
-  updated: 2022-08-20
+  updated: 2023-11-29
   url: https://freedoom.github.io/
+  info: The Freedoom project aims to create a complete free content game based on the Doom engine
 
 - name: FreedroidClassic
   images:
@@ -861,6 +818,50 @@
   updated: 2022-02-25
   video:
     youtube: FBgk5kSjn5M
+
+- name: FreeHeroes
+  development: sporadic
+  frameworks:
+  - Qt
+  images:
+  - https://github.com/mapron/FreeHeroes/raw/c84877ca37c10476182a755cb64f836725dd2f5c/docs/en/images/battle_emulator.png
+  - https://github.com/mapron/FreeHeroes/raw/c84877ca37c10476182a755cb64f836725dd2f5c/docs/en/images/battle_widget.png
+  - https://github.com/mapron/FreeHeroes/raw/c84877ca37c10476182a755cb64f836725dd2f5c/docs/en/images/hero_dialog.png
+  info: FreeHeroes is free engine for Heroes of Might and Magic 3.
+  langs:
+  - C++
+  licenses:
+  - MIT
+  content: commercial
+  originals:
+  - Heroes of Might and Magic III
+  repo: https://github.com/mapron/FreeHeroes
+  status: unplayable
+  type: remake
+  updated: 2022-11-04
+
+- name: FreeHL
+  images:
+  - https://github.com/eukara/freehl/raw/master/img/preview1.jpg
+  - https://github.com/eukara/freehl/raw/master/img/preview2.jpg
+  - https://github.com/eukara/freehl/raw/master/img/preview3.jpg
+  - https://github.com/eukara/freehl/raw/master/img/preview4.jpg
+  langs:
+  - QuakeC
+  licenses:
+  - ISC
+  development: active
+  originals:
+  - Half-Life
+  status: semi-playable
+  repo: https://github.com/eukara/freehl
+  type: remake
+  content: commercial
+  multiplayer:
+  - Online
+  - LAN
+  updated: 2022-09-01
+  info: FreeHL is a free-software reimplementation of Half-Life running on the FTEQW engine.
 
 - name: Freekick 3
   images:
