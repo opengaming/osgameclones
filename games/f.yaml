@@ -1128,15 +1128,21 @@
   - FreeSpace 2
   repo: https://github.com/scp-fs2open/fs2open.github.com
   url: http://scp.indiegames.us/
-  development: active
+  feed: https://github.com/scp-fs2open/fs2open.github.com/releases.atom
+  development: very active
   status: playable
   langs:
   - C++
+  frameworks:
+  - OpenGL
+  - SDL2
   licenses:
+  - Custom
   - As-is
+  - Unlicense
   content: commercial
   info: Modding community at <a href="https://www.hard-light.net/">Hard-Light Productions</a>
-  updated: 2019-06-06
+  updated: 2023-12-08
   images:
   - https://wiki.hard-light.net/images/d/dd/RScreen0185.jpg
   - https://wiki.hard-light.net/images/4/4a/RScreen0180.jpg
