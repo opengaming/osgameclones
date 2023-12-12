@@ -24,6 +24,7 @@ const knownFrameworks = [
   'BackBone.js',
   'Box2D',
   'Bullet3',
+  'ClanLib',
   'CreateJS',
   'Cocos2d',
   'Construct',
@@ -40,6 +41,7 @@ const knownFrameworks = [
   'Flash',
   'FMOD',
   'GameMaker Studio',
+  'GLUT',
   'Godot',
   'Graphics32',
   'GTK',
@@ -48,6 +50,7 @@ const knownFrameworks = [
   'Irrlicht',
   'JavaFX',
   'JMonkeyEngine',
+  'JOGL',
   'jQuery',
   'Kylix',
   'Laravel',
@@ -123,6 +126,8 @@ const frameworkLangs = {
   'Allegro': ['C++', 'C'],
   'pygame': ['Python'],
   'OGRE': ['C++'],
+  'JOGL': ['Java'],
+  'LWJGL': ['Java'],
 }
 
 // -----------
