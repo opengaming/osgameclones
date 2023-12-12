@@ -25,6 +25,7 @@ const knownFrameworks = [
   'Box2D',
   'Bullet3',
   'Carbon',
+  'ClanLib',
   'CreateJS',
   'Cocos2d',
   'Construct',
@@ -42,6 +43,7 @@ const knownFrameworks = [
   'FMOD',
   'GameMaker Studio',
   'GameSprockets',
+  'GLUT',
   'Godot',
   'Graphics32',
   'GTK',
@@ -50,6 +52,7 @@ const knownFrameworks = [
   'Irrlicht',
   'JavaFX',
   'JMonkeyEngine',
+  'JOGL',
   'jQuery',
   'Kylix',
   'Laravel',
@@ -125,6 +128,8 @@ const frameworkLangs = {
   'Allegro': ['C++', 'C'],
   'pygame': ['Python'],
   'OGRE': ['C++'],
+  'JOGL': ['Java'],
+  'LWJGL': ['Java'],
 }
 
 // -----------
