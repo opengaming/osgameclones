@@ -13,7 +13,7 @@ let namesRemoved = []
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 let unknownLanguageDetected = false
-const knownLanguages = Object.keys(require('linguist-languages')).concat(['Delphi', 'TorqueScript'])
+const knownLanguages = Object.keys(require('linguist-languages')).concat(['Delphi', 'TorqueScript', 'Classic Visual Basic', 'DarkBASIC'])
 
 let unknownFrameworkDetected = false
 const knownFrameworks = [
@@ -128,8 +128,9 @@ const frameworkLangs = {
   'Allegro': ['C++', 'C'],
   'pygame': ['Python'],
   'OGRE': ['C++'],
-  'JOGL': ['Java'],
-  'LWJGL': ['Java'],
+  'JOGL': ['Java', 'Kotlin'],
+  'LWJGL': ['Java', 'Kotlin'],
+  'DarkBASIC': ['DarkBASIC'],
 }
 
 // -----------
