@@ -255,6 +255,41 @@
   type: clone
   updated: 2022-07-09
 
+- name: BBTools
+  originals:
+  - Beasts and Bumpkins
+  type: tool
+  repo: 'https://github.com/JonMagon/BBTools'
+  development: sporadic
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - .NET
+  licenses:
+  - GPL3
+  updated: '2023-12-13'
+  images:
+  - >-
+    https://camo.githubusercontent.com/a4b9ca88496dd6f5e865cb9909ff27881dd4e9fa1d2ddcb4acfe306ef2ed2532/68747470733a2f2f692e696d6775722e636f6d2f657176586d74642e706e67
+  - >-
+    https://camo.githubusercontent.com/cc6ffbb1766f0d84dbfc84c87b8562caee3d0608e31536c803e173e30edfa5a4/68747470733a2f2f692e696d6775722e636f6d2f7532765053764f2e706e67
+
+- name: Beasts and Bumpkins Fan Patch
+  originals:
+  - Beasts and Bumpkins
+  type: tool
+  repo: 'https://github.com/bb-patch/bb-patch'
+  development: sporadic
+  content: commercial
+  langs:
+  - Go
+  frameworks:
+  - Fyne
+  licenses:
+  - GPL3
+  updated: '2023-12-13'
+
 - name: 'Bedlam 2: Absolute Bedlam'
   development: active
   images:
