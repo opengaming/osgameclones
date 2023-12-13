@@ -553,6 +553,42 @@
   - GPL3
   updated: '2023-12-12'
 
+- name: PopSoundEditor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/Toksisitee/PopSoundEditor'
+  url: 'https://toksisitee.github.io/blog/pop-sound-editor'
+  development: halted
+  content: swappable
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL3
+  updated: '2023-12-13'
+  images:
+  - >-
+    https://toksisitee.github.io/assets/images/pop-sound-editor-309db5fc13f4a6967dd4dd993c074bb6.png
+
+- name: PopSpriteEditor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/Toksisitee/PopSpriteEditor'
+  url: 'https://toksisitee.github.io/blog/pop-sprite-editor'
+  development: halted
+  content: swappable
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  updated: '2023-12-13'
+  images:
+  - >-
+    https://toksisitee.github.io/assets/images/pop-sprite-editor-8b57061a4105962dc4a5470d17867bc6.png
+
 - name: popss
   originals:
   - 'Populous: The Beginning'
@@ -569,6 +605,28 @@
   - Custom
   info: No licence specified
   updated: '2023-12-12'
+
+- name: PopWorldEditor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/Toksisitee/ALACNPopWorldEditor'
+  url: 'https://toksisitee.github.io/blog/pop-world-editor'
+  development: halted
+  content: swappable
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  licenses:
+  - Custom
+  info: >-
+    Based on Alacn's editor, so presumably also public domain?
+    https://github.com/OpenPop/notes#alacn
+  updated: '2023-12-13'
+  images:
+  - >-
+    https://toksisitee.github.io/assets/images/pop-world-editor-8bb906eb25290f5479bc9d82eab013f1.gif
 
 - name: Populous - The Aftermath
   originals:
