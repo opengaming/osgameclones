@@ -72,16 +72,16 @@
   type: remake
   updated: 2022-02-07
 
-- name: "Jazz\xB2 Resurrection"
+- name: Jazz² Resurrection
   development: active
   frameworks:
-  - Mono
-  - Duality
+  - SDL2
+  - OpenGL
   images:
   - https://raw.githubusercontent.com/deathkiller/jazz2/master/Docs/Screen2.gif
-  info: Runs on Windows, Linux, macOS and Android.
+  info: Rewritten from C# to C++ since version 1.0.0
   langs:
-  - C#
+  - C++
   licenses:
   - GPL3
   multiplayer:
@@ -89,10 +89,10 @@
   content: commercial
   originals:
   - Jazz Jackrabbit 2
-  repo: https://github.com/deathkiller/jazz2
+  repo: https://github.com/deathkiller/jazz2-native
   status: playable
   type: remake
-  updated: 2019-06-05
+  updated: 2023-12-14
   url: http://deat.tk/jazz2/
   video:
     youtube: M794QHwfMXg
