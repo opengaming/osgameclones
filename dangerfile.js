@@ -38,6 +38,7 @@ const knownFrameworks = [
   'EntityX',
   'EnTT',
   'Flash',
+  'Fyne',
   'FMOD',
   'GameMaker Studio',
   'Godot',
@@ -123,6 +124,7 @@ const frameworkLangs = {
   'Allegro': ['C++', 'C'],
   'pygame': ['Python'],
   'OGRE': ['C++'],
+  'Fyne': ['Go'],
 }
 
 // -----------
