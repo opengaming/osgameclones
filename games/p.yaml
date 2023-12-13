@@ -1,3 +1,16 @@
+- name: P3MEditor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://sourceforge.net/projects/p3meditor/'
+  development: halted
+  content: swappable
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  updated: '2023-12-12'
+
 - name: Pac Go
   originals:
   - Pac-Man
@@ -486,6 +499,364 @@
   - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo3.png'
   - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo4.png'
 
+- name: Pop3-Scripts
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/MrKosjaK/Pop3-Scripts'
+  development: halted
+  langs:
+  - Lua
+  licenses:
+  - Custom
+  info: No licence specified
+  updated: '2023-12-13'
+
+- name: pop3dobj
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/OpenPop/pop3dobj'
+  development: halted
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - Custom
+  info: 'Public domain; see https://github.com/OpenPop/notes#alacn'
+  updated: '2023-12-13'
+
+- name: popdisp
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/OpenPop/popdisp'
+  development: halted
+  content: swappable
+  langs:
+  - Component Pascal
+  licenses:
+  - Custom
+  info: 'Public domain; see https://github.com/OpenPop/notes#alacn'
+  updated: '2023-12-13'
+
+- name: poplib
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://sourceforge.net/projects/pop3lib/'
+  development: halted
+  content: swappable
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  updated: '2023-12-12'
+
+- name: PopSoundEditor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/Toksisitee/PopSoundEditor'
+  url: 'https://toksisitee.github.io/blog/pop-sound-editor'
+  development: halted
+  content: swappable
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL3
+  updated: '2023-12-13'
+  images:
+  - >-
+    https://toksisitee.github.io/assets/images/pop-sound-editor-309db5fc13f4a6967dd4dd993c074bb6.png
+
+- name: PopSpriteEditor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/Toksisitee/PopSpriteEditor'
+  url: 'https://toksisitee.github.io/blog/pop-sprite-editor'
+  development: halted
+  content: swappable
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  updated: '2023-12-13'
+  images:
+  - >-
+    https://toksisitee.github.io/assets/images/pop-sprite-editor-8b57061a4105962dc4a5470d17867bc6.png
+
+- name: popss
+  originals:
+  - 'Populous: The Beginning'
+  type: clone
+  repo: 'https://github.com/IntelOrca/popss'
+  development: halted
+  status: semi-playable
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - SDL2
+  licenses:
+  - Custom
+  info: No licence specified
+  updated: '2023-12-12'
+
+- name: PopWorldEditor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/Toksisitee/ALACNPopWorldEditor'
+  url: 'https://toksisitee.github.io/blog/pop-world-editor'
+  development: halted
+  content: swappable
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  licenses:
+  - Custom
+  info: >-
+    Based on Alacn's editor, so presumably also public domain?
+    https://github.com/OpenPop/notes#alacn
+  updated: '2023-12-13'
+  images:
+  - >-
+    https://toksisitee.github.io/assets/images/pop-world-editor-8bb906eb25290f5479bc9d82eab013f1.gif
+
+- name: Populous - The Aftermath
+  originals:
+  - 'Populous: The Beginning'
+  type: clone
+  repo: >-
+    https://web.archive.org/web/20110518174920/http://b3dgs.com/v4/projects/populous_the_aftermath/populous_the_aftermath_sources.rar
+  url: >-
+    https://www.popre.net/forum/interesting-find-populous-the-aftermath-source-code-t10123.html
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - DarkBASIC
+  frameworks:
+  - DarkBASIC
+  licenses:
+  - Custom
+  info: >-
+    No licence specified, but DarkBASIC itself is now FOSS:
+    https://github.com/TheGameCreators/Dark-Basic-Pro
+  updated: '2023-12-13'
+  images:
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/1.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/2.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/3.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/4.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/5.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/6.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/7.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/8.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/9.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/10.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/11.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/12.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/13.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/14.jpg'
+  - 'https://www.b3dgs.com/v7/chronology/populous_the_aftermath/15.jpg'
+
+- name: Populous Background Extractor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/OpenPop/PopBgExtract'
+  development: halted
+  content: swappable
+  langs:
+  - Component Pascal
+  licenses:
+  - Custom
+  info: 'Public domain; see https://github.com/OpenPop/notes#alacn'
+  updated: '2023-12-13'
+
+- name: Populous Colour Changer
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/IntelOrca/archived-VB6/tree/master/Populous/ColourChanger'
+  development: halted
+  content: swappable
+  langs:
+  - Classic Visual Basic
+  licenses:
+  - Custom
+  info: No licence specified
+  updated: '2023-12-13'
+
+- name: Populous HDR Editor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/OpenPop/PopHdrEdt'
+  development: halted
+  content: swappable
+  langs:
+  - Component Pascal
+  licenses:
+  - Custom
+  info: 'Public domain; see https://github.com/OpenPop/notes#alacn'
+  updated: '2023-12-13'
+
+- name: Populous Map Viewer
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/TambourineReindeer/populousmapviewer'
+  url: 'https://code.google.com/archive/p/populousmapviewer/'
+  development: halted
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - MIT
+  info: Unofficial mirror
+  updated: '2023-12-13'
+
+- name: Populous Matchmaker Web App
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/PopRe/popmm-webapp'
+  url: 'https://play.google.com/store/apps/details?id=net.popre.mm'
+  development: halted
+  langs:
+  - TypeScript
+  frameworks:
+  - Ionic
+  licenses:
+  - Custom
+  info: >-
+    No licence specified; has companion bot for hosting games
+    (https://github.com/PopRe/HostBot) and an older version
+    (https://github.com/PopRe/PopMM-Mobile), both under the MIT licence
+  updated: '2023-12-13'
+  images:
+  - >-
+    https://play-lh.googleusercontent.com/nvA6W6d7wwTHhCRD8QbBARhiJEen0WZnPstqd7KSo8kqk0IQEoeH9NTEZkOB4z_0oR-c=w2560-h1440
+  - >-
+    https://play-lh.googleusercontent.com/ArbQBhd6m5S68vUUm06d6VfC8LRsQBhiXvasMJL5YJk_qd0yihnGrWKT9KhvBtf4Q6A=w2560-h1440
+  - >-
+    https://play-lh.googleusercontent.com/CDUeQ_Ku-ekCosyRC3x4p37e7PBSGdcGAwAz6GlFRpYkKPQXdPnGGk8cNr1BOatZkr0=w2560-h1440
+  - >-
+    https://play-lh.googleusercontent.com/MtCkebaTLWxLVf2cpBYcxoZec62h7N2REQEbxCC1ts-KongXCGZlidyhcPeQLb-0C-4=w2560-h1440
+  - >-
+    https://play-lh.googleusercontent.com/U2oNWAtxWVKslzn_MRwH18MYvOO0QB4gexPZAvRN5lImWzAYaRCgCvBwSRQnOTN_Am6v=w2560-h1440
+  - >-
+    https://play-lh.googleusercontent.com/Jy3Jw29X-Ns7Vmgs5U6TZ2Los6CsMHGj0Zdj1HnPIk2ECYr0e6twVeUadMvhTB-CZA=w2560-h1440
+
+- name: Populous Palette Editor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/IntelOrca/archived-VB6/tree/master/Populous/PaletteEditor'
+  development: halted
+  content: swappable
+  langs:
+  - Classic Visual Basic
+  licenses:
+  - Custom
+  info: No licence specified
+  updated: '2023-12-13'
+
+- name: Populous Spell Editor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/IntelOrca/archived-VB6/tree/master/Populous/SpellEditor'
+  development: halted
+  content: swappable
+  langs:
+  - Classic Visual Basic
+  licenses:
+  - Custom
+  info: No licence specified
+  updated: '2023-12-13'
+
+- name: Pop Sprite Extractor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/OpenPop/popspr'
+  development: halted
+  content: swappable
+  langs:
+  - Component Pascal
+  licenses:
+  - Custom
+  info: 'Public domain; see https://github.com/OpenPop/notes#alacn'
+  updated: '2023-12-13'
+
+- name: Populous Symmetry Tool
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/IntelOrca/archived-VB6/tree/master/Populous/SymmetryTool'
+  development: halted
+  content: swappable
+  langs:
+  - Classic Visual Basic
+  licenses:
+  - Custom
+  info: No licence specified
+  updated: '2023-12-13'
+
+- name: Populous Symmetry Tool (poptools.net)
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/IntelOrca/poptools.net'
+  development: halted
+  content: swappable
+  langs:
+  - Visual Basic .NET
+  frameworks:
+  - .NET
+  licenses:
+  - MIT
+  updated: '2023-12-13'
+
+- name: Populous The Beginning Fix
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/OpenPop/popfix'
+  development: halted
+  content: commercial
+  langs:
+  - Component Pascal
+  licenses:
+  - Custom
+  info: 'Public domain; see https://github.com/OpenPop/notes#alacn'
+  updated: '2023-12-13'
+
+- name: Populous World Editor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/PopRe/Pop-World-Editor'
+  development: halted
+  content: swappable
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  licenses:
+  - Custom
+  info: 'No licence specified; older version (https://github.com/OpenPop/PopWorldEditor) is in public domain according to https://github.com/OpenPop/notes#alacn'
+  updated: '2023-12-13'
+
 - name: Prepare Carefully
   originals:
   - RimWorld
@@ -591,6 +962,21 @@
     https://cloud.githubusercontent.com/assets/22880786/19826387/7ad0f0d2-9dd4-11e6-92f3-eb47b395ac63.png
   video:
     youtube: mVzuBIBCL5o
+
+- name: propop
+  originals:
+  - Populous
+  type: clone
+  repo: 'https://github.com/TambourineReindeer/propop'
+  url: 'https://code.google.com/archive/p/propop/'
+  development: halted
+  status: unplayable
+  langs:
+  - C++
+  licenses:
+  - MIT
+  info: Unofficial mirror
+  updated: '2023-12-13'
 
 - name: Pokémon Polished Crystal
   originals:

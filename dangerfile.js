@@ -13,7 +13,7 @@ let namesRemoved = []
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 let unknownLanguageDetected = false
-const knownLanguages = Object.keys(require('linguist-languages')).concat(['Delphi', 'TorqueScript'])
+const knownLanguages = Object.keys(require('linguist-languages')).concat(['Delphi', 'TorqueScript', 'Classic Visual Basic', 'DarkBASIC'])
 
 let unknownFrameworkDetected = false
 const knownFrameworks = [
@@ -24,6 +24,7 @@ const knownFrameworks = [
   'BackBone.js',
   'Box2D',
   'Bullet3',
+  'ClanLib',
   'CreateJS',
   'Cocos2d',
   'Construct',
@@ -31,6 +32,7 @@ const knownFrameworks = [
   'Crystal Space',
   'Cube 2 Engine',
   'Daemon Engine',
+  'DarkBASIC',
   'DirectX',
   'DIV Games Studio',
   'Duality',
@@ -40,14 +42,17 @@ const knownFrameworks = [
   'Flash',
   'FMOD',
   'GameMaker Studio',
+  'GLUT',
   'Godot',
   'Graphics32',
   'GTK',
   'Impact',
   'Inform',
+  'Ionic',
   'Irrlicht',
   'JavaFX',
   'JMonkeyEngine',
+  'JOGL',
   'jQuery',
   'Kylix',
   'Laravel',
@@ -123,6 +128,9 @@ const frameworkLangs = {
   'Allegro': ['C++', 'C'],
   'pygame': ['Python'],
   'OGRE': ['C++'],
+  'JOGL': ['Java', 'Kotlin'],
+  'LWJGL': ['Java', 'Kotlin'],
+  'DarkBASIC': ['DarkBASIC'],
 }
 
 // -----------
