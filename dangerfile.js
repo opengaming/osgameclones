@@ -33,6 +33,7 @@ const knownFrameworks = [
   'Crystal Space',
   'Cube 2 Engine',
   'Daemon Engine',
+  'DarkBASIC',
   'DirectX',
   'DIV Games Studio',
   'Duality',
