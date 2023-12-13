@@ -50,6 +50,7 @@ const knownFrameworks = [
   'GTK',
   'Impact',
   'Inform',
+  'Ionic',
   'Irrlicht',
   'JavaFX',
   'JMonkeyEngine',
