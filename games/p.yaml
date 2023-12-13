@@ -610,6 +610,38 @@
   info: Unofficial mirror
   updated: '2023-12-13'
 
+- name: Populous Matchmaker Web App
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/PopRe/popmm-webapp'
+  url: 'https://play.google.com/store/apps/details?id=net.popre.mm'
+  development: halted
+  langs:
+  - TypeScript
+  frameworks:
+  - Ionic
+  licenses:
+  - Custom
+  info: >-
+    No licence specified; has companion bot for hosting games
+    (https://github.com/PopRe/HostBot) and an older version
+    (https://github.com/PopRe/PopMM-Mobile), both under the MIT licence
+  updated: '2023-12-13'
+  images:
+  - >-
+    https://play-lh.googleusercontent.com/nvA6W6d7wwTHhCRD8QbBARhiJEen0WZnPstqd7KSo8kqk0IQEoeH9NTEZkOB4z_0oR-c=w2560-h1440
+  - >-
+    https://play-lh.googleusercontent.com/ArbQBhd6m5S68vUUm06d6VfC8LRsQBhiXvasMJL5YJk_qd0yihnGrWKT9KhvBtf4Q6A=w2560-h1440
+  - >-
+    https://play-lh.googleusercontent.com/CDUeQ_Ku-ekCosyRC3x4p37e7PBSGdcGAwAz6GlFRpYkKPQXdPnGGk8cNr1BOatZkr0=w2560-h1440
+  - >-
+    https://play-lh.googleusercontent.com/MtCkebaTLWxLVf2cpBYcxoZec62h7N2REQEbxCC1ts-KongXCGZlidyhcPeQLb-0C-4=w2560-h1440
+  - >-
+    https://play-lh.googleusercontent.com/U2oNWAtxWVKslzn_MRwH18MYvOO0QB4gexPZAvRN5lImWzAYaRCgCvBwSRQnOTN_Am6v=w2560-h1440
+  - >-
+    https://play-lh.googleusercontent.com/Jy3Jw29X-Ns7Vmgs5U6TZ2Los6CsMHGj0Zdj1HnPIk2ECYr0e6twVeUadMvhTB-CZA=w2560-h1440
+
 - name: Populous Palette Editor
   originals:
   - 'Populous: The Beginning'
@@ -665,6 +697,22 @@
   - .NET
   licenses:
   - MIT
+  updated: '2023-12-13'
+
+- name: Populous World Editor
+  originals:
+  - 'Populous: The Beginning'
+  type: tool
+  repo: 'https://github.com/PopRe/Pop-World-Editor'
+  development: halted
+  content: swappable
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  licenses:
+  - Custom
+  info: No licence specified
   updated: '2023-12-13'
 
 - name: Prepare Carefully
