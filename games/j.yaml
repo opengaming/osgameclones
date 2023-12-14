@@ -144,15 +144,18 @@
 - name: Jet-Story
   langs:
   - C++
+  frameworks:
+  - DirectX
   licenses:
   - MIT
-  development: sporadic
+  development: halted
   originals:
   - Jet-Story
   status: semi-playable
   repo: https://github.com/adamenkov/jet-story
   type: remake
-  updated: 2022-09-13
+  updated: 2023-12-15
+  info: Remake of the ZX Spectrum game "Jet-Story" based on reverse engineering
 
 - name: JetPac
   frameworks:
