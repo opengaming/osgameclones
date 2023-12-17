@@ -369,16 +369,21 @@
 - name: Julius
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - AGPL3
-  development: active
+  content: commercial
+  development: sporadic
   originals:
   - Caesar III
   repo: https://github.com/bvschaik/julius
+  feed: https://github.com/bvschaik/julius/releases.atom
   status: playable
   type: remake
-  updated: 2018-08-18
-  url: https://github.com/bvschaik/julius
+  updated: 2023-12-17
+  images:
+  - https://github.com/bvschaik/julius/blob/master/res/vita/bg.png?raw=true
 
 - name: Jump'n'Bump
   langs:
