@@ -1891,6 +1891,30 @@
   images:
   - https://raw.githubusercontent.com/yancharkin/SpelunkyClassicHDhtml5/master/screenshots/screenshot_00.jpg
 
+- name: SpelunkyPSP
+  originals:
+  - Spelunky Classic
+  type: remake
+  repo: 'https://github.com/dbeef/spelunky-psp'
+  url: https://dbeef.github.io/spelunky-psp/
+  development: sporadic
+  status: semi-playable
+  multiplayer:
+  - Local
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  - OpenGL
+  - EnTT
+  licenses:
+  - Custom
+  info: It’s a complete rewrite from scratch.
+  updated: 2023-12-28
+  video:
+    youtube: eKG-O0Q9Q88
+    
 - name: splexhd
   langs:
   - C++
