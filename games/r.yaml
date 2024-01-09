@@ -168,15 +168,20 @@
 - name: rawgl
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - As-is
-  development: active
+  development: halted
   originals:
   - Another World
   repo: https://github.com/cyxx/rawgl
   status: playable
   type: remake
-  updated: 2016-03-06
+  updated: 2024-01-10
+  images:
+  - https://github.com/cyxx/rawgl/blob/master/docs/screenshot-intro-amiga.png?raw=true
+  - https://github.com/cyxx/rawgl/blob/master/docs/screenshot-intro-3do.png?raw=true
 
 - name: Raze
   originals:
