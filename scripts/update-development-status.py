@@ -12,6 +12,7 @@ Add environment variables:
 - GL_TOKEN
   - https://gitlab.com/-/profile/personal_access_tokens
   - (see https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token)
+  - With read_api scope
 """
 import os
 import re
@@ -108,7 +109,9 @@ def get_latest_commit_date_for_gitlab(gl, repo_url):
     project_namespace = match.groups()[0]
     project = gl.projects.get(project_namespace)
 
-    last_commit = next(project.commits.list(iterator=True))
+    branches = project.branches.list()
+    created_dates = {branch.commit["created_at"] for branch in branches}
+    last_commit = min(created_dates)
 
     return datetime.strptime(
         ''.join(last_commit.committed_date.rsplit(':', 1)),
