@@ -51,28 +51,28 @@
   video:
     youtube: GOmoWe_Flvs
 
-name: BaKGL
-originals:
-- Betrayal at Krondor
-type: remake
-repo: 'https://github.com/xavieran/BaKGL'
-development: active
-status: semi-playable
-content: free
-langs:
-- C++
-frameworks:
-- OpenGL
-- SDL2
-licenses:
-- GPL3
-info: Remake of the 1993 classic CRPG Betrayal at Krondor using OpenGL and SDL2
-updated: '2024-01-13'
-images:
-- 'https://github.com/xavieran/BaKGL/blob/master/screenshots/sumani.png'
-- 'https://raw.githubusercontent.com/xavieran/BaKGL/master/screenshots/macmordain.png'
-- 'https://github.com/xavieran/BaKGL/blob/master/screenshots/northlands.png'
-- 'https://github.com/xavieran/BaKGL/blob/master/screenshots/waterfall_ui.png'
+- name: BaKGL
+  originals:
+  - Betrayal at Krondor
+  type: remake
+  repo: 'https://github.com/xavieran/BaKGL'
+  development: active
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - SDL2
+  licenses:
+  - GPL3
+  info: Remake of the 1993 classic CRPG Betrayal at Krondor using OpenGL and SDL2
+  updated: '2024-01-13'
+  images:
+  - 'https://github.com/xavieran/BaKGL/blob/master/screenshots/sumani.png'
+  - 'https://raw.githubusercontent.com/xavieran/BaKGL/master/screenshots/macmordain.png'
+  - 'https://github.com/xavieran/BaKGL/blob/master/screenshots/northlands.png'
+  - 'https://github.com/xavieran/BaKGL/blob/master/screenshots/waterfall_ui.png'
 
 - name: Ball And Wall
   langs:
