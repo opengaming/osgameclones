@@ -92,12 +92,12 @@ def get_latest_commit_date_for_github(gh, repo_url):
     owner, repo = match.groups()
     try:
         gh_repo = gh.get_repo(f"{owner}/{repo}")
-        commits = gh_repo.get_commits()
+        branches = list(gh_repo.get_branches())
+        commit_dates = {datetime.strptime(branch.commit.last_modified, GH_DT_FMT) for branch in branches}
     except GithubException as e:
         print(f'Error getting repo info for {owner}/{repo}: {e}')
         return
-
-    return datetime.strptime(commits[0].last_modified, GH_DT_FMT)
+    return max(commit_dates)
 
 
 def get_latest_commit_date_for_gitlab(gl, repo_url):
@@ -111,7 +111,7 @@ def get_latest_commit_date_for_gitlab(gl, repo_url):
 
     branches = project.branches.list()
     created_dates = {branch.commit["created_at"] for branch in branches}
-    last_commit = min(created_dates)
+    last_commit = max(created_dates)
 
     return datetime.strptime(
         ''.join(last_commit.committed_date.rsplit(':', 1)),
