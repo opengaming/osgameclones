@@ -586,13 +586,15 @@
 - name: Blutfest
   originals:
   - Crimsonland
-  type: similar
+  type: clone
   repo: 'https://github.com/hepfnepf/Blutfest'
   development: sporadic
   status: playable
   content: open
   langs:
   - GDScript
+  frameworks:
+  - Godot
   licenses:
   - GPL3
   updated: '2024-01-27'
