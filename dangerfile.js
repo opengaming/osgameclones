@@ -54,6 +54,7 @@ const knownFrameworks = [
   'jQuery',
   'Kylix',
   'Laravel',
+  'Lazarus',
   'libGDX',
   'libretro',
   'LÖVE',
