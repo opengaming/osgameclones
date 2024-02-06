@@ -376,9 +376,11 @@
   - https://repo.openpandora.org/files/pnd/derclou-sdl/preview/5.png
 
 - name: DesktopAdventures
-  development: sporadic
+  development: halted
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - LGPL2
   content: commercial
@@ -388,7 +390,9 @@
   repo: https://github.com/shinyquagsire23/DesktopAdventures
   status: semi-playable
   type: remake
-  updated: 2019-10-02
+  updated: 2024-01-31
+  video:
+    youtube: zD0fdu-dhTw
 
 - name: Desktop Adventures Engine for ScummVM
   development: halted
