@@ -1338,22 +1338,21 @@
 
 - name: Dune Dynasty
   images:
-  - https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_ord.png/max/max/1
-  - https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_hark2.png/max/max/1
-  - https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_hark.png/max/max/1
-  - https://a.fsdn.com/con/app/proj/dunedynasty/screenshots/screenshot_atr.png/max/max/1
+  - https://github.com/gameflorist/dunedynasty/blob/master/docs/screenshots.jpg?raw=true
   langs:
   - C
   licenses:
   - GPL2
-  development: halted
+  development: sporadic
   originals:
   - Dune 2
   status: playable
-  repo: https://sourceforge.net/projects/dunedynasty/
+  repo: https://github.com/gameflorist/dunedynasty
   type: remake
-  updated: 2022-07-02
+  updated: 2024-02-09
   url: http://dunedynasty.sourceforge.net/
+  feed: https://github.com/gameflorist/dunedynasty/releases.atom
+  info: continuation of the abandoned sourceforge project by David Wang
 
 - name: Dune Legacy
   info: Updated clone which uses data files from the original game. New features include multiple unit selection/control, high resolution support, multiplayer gaming, improved gui and a selection of new AIs to play against.
