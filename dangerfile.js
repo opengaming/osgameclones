@@ -86,6 +86,7 @@ const knownFrameworks = [
   'pygame',
   'QB64',
   'Qt',
+  'raylib',
   'React',
   'Redux',
   'rot.js',
