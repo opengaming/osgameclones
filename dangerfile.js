@@ -22,6 +22,7 @@ const knownFrameworks = [
   'Adventure Game Studio',
   'Allegro',
   'BackBone.js',
+  'bgfx',
   'Box2D',
   'Bullet3',
   'Carbon',
