@@ -186,6 +186,31 @@
   url: http://dark-oberon.sourceforge.net/
   video:
     youtube: pgFWAeM4Rm8
+  
+- name: Darkflame Universe
+  originals:
+  - Lego Universe
+  type: remake
+  repo: https://github.com/DarkflameUniverse/DarkflameServer
+  url: 'https://darkflameuniverse.org/'
+  development: active
+  status: playable
+  multiplayer:
+  - Local
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - AGPL3
+  info: This project is a server emulating an MMO developed by NetDevil and released in 2010.
+  updated: '2022-02-15'
+  images:
+  - 'https://pbs.twimg.com/media/E5jL9BvWQAQOeYQ?format=jpg&name=900x900'
+  - 'https://pbs.twimg.com/media/E17cXShWYAMLJI9?format=jpg&name=large'
+  video:
+    youtube: ZhzMy-o0ByM
 
 - name: DarkFO
   development: halted
@@ -797,6 +822,20 @@
   type: remake
   updated: 2022-07-02
 
+- name: Domino-Chain
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  development: sporadic
+  originals:
+  - Pushover
+  repo: https://gitlab.com/domino-chain/domino-chain.gitlab.io
+  status: playable
+  type: remake
+  updated: 2020-08-25
+  url: https://domino-chain.gitlab.io/
+
 - name: DonkeyInTrouble
   frameworks:
   - "L\xD6VE"
@@ -1386,16 +1425,22 @@
   - https://uaf.sourceforge.net/images/ss01.png
   - https://uaf.sourceforge.net/images/ss03.png
   - https://uaf.sourceforge.net/images/ss06.png
+  langs:
+  - C++
+  frameworks:
+  - DirectX
   licenses:
   - GPL2
-  development: active
+  content: commercial
+  development: sporadic
   originals:
   - 'Forgotten Realms: Unlimited Adventures'
-  repo: https://sourceforge.net/projects/uaf/
+  repo: https://github.com/grannypron/uaf
   status: playable
   type: remake
-  updated: 2016-08-25
+  updated: 2024-02-13
   url: http://uaf.sourceforge.net/
+  info: 'Updated emulator of Forgotten Realms: Unlimited Adventures'
 
 - name: Dungeon Digger
   images:
@@ -1604,42 +1649,3 @@
   updated: 2019-11-14
   images:
   - https://raw.githubusercontent.com/akien-mga/dynadungeons/master/background.png
-  
-- name: Darkflame Universe
-  originals:
-  - Lego Universe
-  type: remake
-  repo: https://github.com/DarkflameUniverse/DarkflameServer
-  url: 'https://darkflameuniverse.org/'
-  development: active
-  status: playable
-  multiplayer:
-  - Local
-  - Online
-  - LAN
-  content: commercial
-  langs:
-  - C++
-  licenses:
-  - AGPL3
-  info: This project is a server emulating an MMO developed by NetDevil and released in 2010.
-  updated: '2022-02-15'
-  images:
-  - 'https://pbs.twimg.com/media/E5jL9BvWQAQOeYQ?format=jpg&name=900x900'
-  - 'https://pbs.twimg.com/media/E17cXShWYAMLJI9?format=jpg&name=large'
-  video:
-    youtube: ZhzMy-o0ByM
-
-- name: Domino-Chain
-  langs:
-  - C++
-  licenses:
-  - GPL3
-  development: sporadic
-  originals:
-  - Pushover
-  repo: https://gitlab.com/domino-chain/domino-chain.gitlab.io
-  status: playable
-  type: remake
-  updated: 2020-08-25
-  url: https://domino-chain.gitlab.io/
