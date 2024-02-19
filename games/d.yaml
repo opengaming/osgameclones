@@ -826,16 +826,20 @@
 - name: Domino-Chain
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
-  development: sporadic
+  development: active
   originals:
   - Pushover
   repo: https://gitlab.com/domino-chain/domino-chain.gitlab.io
   status: playable
   type: remake
-  updated: 2020-08-25
+  updated: 2024-02-20
   url: https://domino-chain.gitlab.io/
+  images:
+  - https://domino-chain.gitlab.io/assets/domino-chain-header.jpg
 
 - name: DonkeyInTrouble
   frameworks:
