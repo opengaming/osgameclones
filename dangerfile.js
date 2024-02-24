@@ -83,6 +83,7 @@ const knownFrameworks = [
   'PandaJS',
   'Phaser',
   'PICO-8',
+  'Piston',
   'PixiJS',
   'pygame',
   'QB64',
