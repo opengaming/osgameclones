@@ -61,6 +61,7 @@ const knownFrameworks = [
   'LÖVE',
   'LowRes NX',
   'LWJGL',
+  'macroquad',
   'melonJS',
   'Minetest Engine',
   'Mono',
