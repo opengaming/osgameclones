@@ -864,19 +864,24 @@
 - name: Project Carrot
   frameworks:
   - Qt
+  - SFML
   info: Needs original game data
   langs:
   - C++
   licenses:
   - MIT
-  development: sporadic
+  development: halted
   originals:
   - Jazz Jackrabbit 2
   repo: https://github.com/soulweaver91/project-carrot
   status: semi-playable
   type: remake
-  updated: 2017-11-01
+  updated: 2024-03-23
   url: https://carrot.soulweaver.fi/
+  images:
+  - https://carrot.soulweaver.fi/assets/screen1.png
+  video:
+    youtube: dQqU2YRLoqU
 
 - name: Project Dollhouse
   frameworks:
