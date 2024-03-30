@@ -271,20 +271,18 @@
   repo: 'https://github.com/scemino/engge'
   url: 'https://scemino.github.io/'
   feed: 'https://github.com/scemino/engge/releases.atom'
-  development: active
+  development: halted
   status: playable
   content: commercial
   langs:
   - C++
   - Squirrel
   frameworks:
-  - SFML
+  - SDL2
   licenses:
   - MIT
-  info: >-
-    engge is an adventure game engine able to run Thimbleweed Park until the end, 
-    but still under development to fix its bugs. 
-  updated: '2020-12-11'
+  info: abandoned in favor of engge2
+  updated: 2024-03-30
   images:
   - 'https://i.imgur.com/En75Mzx.png'
   video:
