@@ -231,23 +231,29 @@
   updated: 2015-06-01
 
 - name: NFSIISE
-  development: active
+  development: sporadic
   frameworks:
   - SDL2
+  - OpenGL
   images:
   - https://i.imgur.com/ZL3V5XB.jpg
   - https://i.imgur.com/DRyjX57.jpg
   langs:
-  - C++
+  - C
   licenses:
   - MIT
   content: commercial
   originals:
   - Need For Speed II SE
   repo: https://github.com/zaps166/NFSIISE
+  feed: https://github.com/zaps166/NFSIISE/releases.atom
   status: playable
+  multiplayer:
+  - Online
+  - Competitive
   type: remake
-  updated: 2016-06-02
+  updated: 2024-04-05
+  info: Cross-platform wrapper with 3D acceleration and TCP protocol
 
 - name: Nighthawk
   images:
