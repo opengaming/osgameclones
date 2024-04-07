@@ -270,16 +270,19 @@
   - Chaos;Head
   type: remake
   repo: 'https://github.com/CommitteeOfZero/nitrosharp'
-  development: active
+  development: halted
   status: semi-playable
   content: commercial
   langs:
   - 'C#'
   frameworks:
   - .NET
+  - Vulkan
+  - DirectX
   licenses:
   - MIT
-  updated: 2021-12-29
+  updated: 2024-04-08
+  info: supports Chaos;Head Noah
 
 - name: NLarn
   langs:
