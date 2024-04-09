@@ -468,18 +468,20 @@
   url: https://nxengine.sourceforge.io
 
 - name: NXEngine-evo
-  development: active
+  development: sporadic
   images:
   - https://raw.githubusercontent.com/nxengine/nxengine-evo/master/screenshot.png
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
   content: free
   originals:
   - Cave Story
   repo: https://github.com/nxengine/nxengine-evo
+  feed: https://github.com/nxengine/nxengine-evo/releases.atom
   status: playable
   type: remake
-  updated: 2018-01-05
-  url: https://github.com/nxengine/nxengine-evo
+  updated: 2024-04-10
