@@ -567,14 +567,20 @@
   - Wolfenstein 3D
   type: remake
   repo: https://github.com/francot514/Wolf3dX
-  development: active
-  status: playable
+  development: halted
+  status: semi-playable
   langs:
   - C#
+  frameworks:
+  - MonoGame
+  - SDL2
+  - OpenGL
+  - OpenTK
   licenses:
   - GPL2
+  content: commercial
   info: Monogame implementation remake that works with any game version.
-  updated: 2020-03-23
+  updated: 2024-05-01
   images:
   - https://github.com/francot514/Wolf3dX/raw/master/image1.png
 
