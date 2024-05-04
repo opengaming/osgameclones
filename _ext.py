@@ -127,11 +127,15 @@ def parse_global_tags(site, item, tag, item_key: str):
 
 
 def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
-    updated = entry.get('updated') or date(1970, 1, 1)
+    updated = entry.get('updated')
     if isinstance(updated, str):
         updated = datetime.strptime(updated, "%Y-%m-%d").date()
+    added = entry.get('added') or date.min
+    if isinstance(added, str):
+        added = datetime.strptime(added, "%Y-%m-%d").date()
     result = dict(entry,
-                  new=(date.today() - updated) < timedelta(days=30),
+                  new=added == updated and (date.today() - added) < timedelta(days=30),
+                  is_updated=(date.today() - updated) < timedelta(days=30),
                   tags=parse_tags(entry, entry_tags) + parse_tags(meta, meta_tags),
                   updated=updated)
 
@@ -316,6 +320,13 @@ def parse_data(site):
 
         if isinstance(clone['updated'], str):
             clone['updated'] = datetime.strptime(clone['updated'], "%Y-%m-%d").date()
+        if isinstance(clone.get('added'), str):
+            clone['added'] = datetime.strptime(clone['added'], "%Y-%m-%d").date()
+        if clone.get('added', date.min) > clone['updated']:
+            errors.append({
+                "name": clone['name'],
+                "error": "Added date is after updated date"
+            })
         if has_no_status(clone):
             errors.append({
                 "name": clone['name'],
@@ -342,6 +353,6 @@ def parse_data(site):
             (game.names, game.meta, clone)
             for game in site.games
             for clone in game.clones
-            if clone['new']
+            if clone['is_updated']
         ], key=lambda args: args[2]['updated'], reverse=True)
     }

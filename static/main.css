@@ -147,14 +147,19 @@ dt { font-weight: bold; }
 dd { padding-left: 1em; padding-bottom: 0.5em; }
 dd + dt { margin-top: 1em; }
 
-.new:before {
-  position: absolute;
-  content: 'NEW';
-  margin: 2px 0 0 -55px;
-  padding: 1px 5px;
-  font-size: 10px;
+.badge-new {
   background-color: red;
   color: white;
+  margin-left: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+.badge-updated {
+  background-color: red;
+  color: white;
+  margin-left: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
 }
 
 .note { color: grey; }
