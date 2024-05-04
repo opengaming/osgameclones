@@ -65,7 +65,12 @@
 {% macro render_clone(names, meta, game, show_details, expand_gallery) %}
   <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
     {%- set show_gallery = show_details and ('images' in game or 'video' in game) -%}
-    <dd class="searchable {% if game.new %}new{% endif %}"
+    <dd class="searchable
+          {% if game.new -%}
+            new
+          {%- elif game.is_updated -%}
+            updated
+          {%- endif -%}"
         data-name="{{ game.name }}"
         data-parent="
           {%- if names.0 is string -%}
@@ -84,6 +89,11 @@
       {%- else -%}
         <span itemprop="name">{{ game['name'] }}</span>
       {%- endif %}
+      {%- if game.new -%}
+        <span class="badge-new">NEW</span>
+      {%- elif game.is_updated -%}
+        <span class="badge-updated">UPDATED</span>
+      {%- endif -%}
       {%- if 'feed' in game %}
         <a href="{{ game['feed'] }}" class="feed-icon" title="Feed"><span class="fas fa-rss"></span></a>
       {%- endif %}

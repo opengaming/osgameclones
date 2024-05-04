@@ -214,6 +214,12 @@ const checkHasImagesOrVideos = game => {
   }
 }
 
+const checkHasAdded = game => {
+  if (!game.added) {
+    warn(`📅 ${game.name} has no added date`)
+  }
+}
+
 const commonChecks = game => {
   checkRepoGoogleCode(game)
   checkRepoGit(game)
@@ -223,6 +229,7 @@ const commonChecks = game => {
   checkFrameworkKnown(game)
   checkFrameworkUsesLang(game)
   checkHasImagesOrVideos(game)
+  checkHasAdded(game)
 }
 
 // -----------

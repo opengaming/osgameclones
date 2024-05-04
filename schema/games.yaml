@@ -81,11 +81,15 @@ schema;game:
     info:
       type: str
       desc: Any notable information about the game
+    added:
+      type: date
+      format: "%Y-%m-%d"
+      desc: Date when this game was first added to OSGC
     updated:
       required: True
       type: date
       format: "%Y-%m-%d"
-      desc: Use today's date
+      desc: Date when this game entry was last updated in OSGC (use today's date)
     images:
       type: seq
       sequence:
