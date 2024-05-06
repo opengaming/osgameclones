@@ -313,17 +313,23 @@
   type: clone
   originals:
   - Second Life
-  repo: 'https://github.com/vircadia/vircadia'
+  repo: https://github.com/vircadia/vircadia-native-core
+  feed: https://github.com/vircadia/vircadia-native-core/releases.atom
   url: 'https://vircadia.com/'
-  development: active
+  development: sporadic
   status: playable
   multiplayer:
   - Online
   langs:
   - C++
+  frameworks:
+  - OpenGL
+  - Qt
+  - SDL2
   licenses:
   - Apache
-  updated: 2021-02-09
+  added: 2021-02-09
+  updated: 2024-05-07
   images:
   - https://vircadia.com/wp-content/uploads/2019/12/c8fdf93beea1bfcb0d18d40c7bf05c91a1fe4de6.jpeg
   - https://vircadia.com/wp-content/uploads/2020/09/startupasiax.jpg
