@@ -1091,6 +1091,35 @@
   video:
     youtube: QCYMLoTGPh0
 
+- name: rsc-c
+  originals:
+  - RuneScape Classic
+  type: remake
+  repo: 'https://github.com/2003scape/rsc-c'
+  development: very active
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - AGPL3
+  info: >-
+    rsc-c is a portable re-implementation of the RuneScape Classic "mudclient"
+    in C, with optional enhancements such as support for OpenGL. It supports
+    platforms such as the 3DS, Wii, and legacy operating systems going back to
+    Windows 98.
+  added: '2024-05-07'
+  updated: '2024-05-07'
+  images:
+    - https://i.imgur.com/1SLxDzE.png
+  video:
+    youtube: _l39NfOHPcY
+
 - name: Rtype
   langs:
   - C++
