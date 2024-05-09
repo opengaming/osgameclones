@@ -366,14 +366,20 @@
   - C++
   licenses:
   - MAME
+  - GPL3
+  frameworks:
+  - DirectX
+  - OpenGL
   development: active
   originals:
   - Visual Pinball
-  repo: https://sourceforge.net/p/vpinball/code/HEAD/tree/
+  repo: https://github.com/vpinball/vpinball
+  feed: https://github.com/vpinball/vpinball/releases.atom
   status: playable
   type: clone
-  updated: 2017-01-07
-  url: https://sourceforge.net/projects/vpinball/
+  added: 2017-01-07
+  updated: 2024-05-09
+  url: https://www.vpforums.org/
   video:
     youtube: IoF-kqXF2JQ
 
