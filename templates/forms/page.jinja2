@@ -133,6 +133,12 @@ $(document).ready(() => {
   if (original) {
     setFormValue([], {'originals': [original]});
   }
+
+  // Set dark theme from setting in main site
+  const THEME_KEY = 'theme';
+  if (localStorage.getItem(THEME_KEY) === 'dark') {
+    $("html").attr("data-bs-theme", "dark");
+  }
 });
 </script>
 </body>
