@@ -138,7 +138,10 @@ $(document).ready(() => {
   const THEME_KEY = 'theme';
   if (localStorage.getItem(THEME_KEY) === 'dark') {
     $("html").attr("data-bs-theme", "dark");
-  }
+  } else if (localStorage.getItem(THEME_KEY) === 'light') {
+  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    $("html").attr("data-bs-theme", "dark");
+  } 
 });
 </script>
 </body>
