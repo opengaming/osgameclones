@@ -110,9 +110,11 @@
   updated: 2022-06-03
 
 - name: Cannonball
-  development: active
+  development: halted
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - MAME
   content: commercial
@@ -121,8 +123,15 @@
   repo: https://github.com/djyt/cannonball
   status: playable
   type: remake
-  updated: 2014-02-06
-  url: https://reassembler.blogspot.com/
+  added: 2014-02-06
+  updated: 2024-05-16
+  url: https://github.com/djyt/cannonball/wiki
+  images:
+  - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSo2-aVA4K1MzsUor1t3n51n3a68Kzgzs-6F3NEg44BnvA-IOg1tou-UAq1kLRzOlSUtqxBHgrSr4DRrP1UpXOaAxiAUJ63YTiUGlAe-YowTz5wH9qjFkGDsFU4HM_jt6p5g6S/s1600/view1.png
+  - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1VWm_8GDU8orNGwCRdrHXvYObouiwqw50II8Os8D5kPGoSXAu96k4KDd2x_3RnLWonwPUfMbCiIa6D2Q88NRua9c76Q88BfrhGMYuHPPpqQTYaenyA67Pd85UBIKbJhfAXBN5/s1600/view2.png
+  - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw2is-f_L9SzMtcTWTsbcpWzTZDsD1H3lsaqrx-Jxx6ybIG0d-u42ngvSeC16Wyv1JIiG3nbeTStR-JJgOZ9y2iav1pXGfoID-b82LCL6Pw-Jh-Dm8fjb8EbZSBQVbuFlbiv5F/s1600/view3.png
+  video:
+    youtube: 2omri7L7Av0
 
 - name: canvas-tetris
   originals:
