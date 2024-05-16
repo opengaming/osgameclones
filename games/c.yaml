@@ -178,19 +178,25 @@
 - name: Carnage3D
   langs:
   - C++
+  frameworks:
+  - OpenGL
   licenses:
   - MIT
-  development: active
+  content: free
+  development: halted
   status: unplayable
   originals:
   - Grand Theft Auto
   repo: https://github.com/codenamecpp/carnage3d
   type: remake
+  url: https://codenamecpp.github.io/carnage3d/web/carnage3D_wasm.html
   images:
-  - https://github.com/codenamecpp/carnage3d/raw/master/screenshots/WorksOnLinux.png
+  - https://raw.githubusercontent.com/codenamecpp/carnage3d/master/screenshots/WorksOnLinux.png
+  - https://raw.githubusercontent.com/codenamecpp/carnage3d/master/screenshots/SplitScreenTest.png
   video:
-    youtube: 91L_CJ0teEA
-  updated: 2019-10-21
+    youtube: KnqaO0YZzZY
+  added: 2019-10-21
+  updated: 2024-05-17
 
 - name: Cart Life
   originals:
