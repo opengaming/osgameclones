@@ -288,20 +288,21 @@
 - name: 'Cataclysm: Dark Days Ahead'
   frameworks:
   - ncurses
+  - SDL2
   images:
   - https://cataclysmdda.org/assets/images/showcase-ultica.png
   langs:
   - C++
-  - Lua
   licenses:
   - CC-BY-SA
-  development: active
+  development: very active
   originals:
   - Cataclysm
   repo: https://github.com/CleverRaven/Cataclysm-DDA
   status: playable
   type: remake
-  updated: 2016-10-09
+  added: 2016-10-09
+  updated: 2024-05-18
   url: https://cataclysmdda.org/
   video:
     youtube: iHfpBze8ecA
