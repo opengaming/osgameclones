@@ -457,19 +457,26 @@
   - C++
   frameworks:
   - Allegro
+  - SDL2
   licenses:
   - AGPL3
-  content: commercial
+  content: free
   originals:
   - Cortex Command
   info: Cortex Command Community Project is based on the open sourced code of Cortex Command
-  repo: https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source
+  repo: https://github.com/cortex-command-community/Cortex-Command-Community-Project
+  feed: https://github.com/cortex-command-community/Cortex-Command-Community-Project/releases.atom
   type: remake
   multiplayer:
   - Split-screen
   - Online
   - LAN
-  updated: 2019-08-27
+  added: 2019-08-20
+  updated: 2024-05-23
+  images:
+  - https://cortex-command-community.github.io/static/media/content-laden.5f066946a3126bd6cc7e.gif
+  - https://cortex-command-community.github.io/static/media/new-content.fe88597c5a6fe22ce735.gif
+  - https://cortex-command-community.github.io/static/media/improved-gameplay.4cf4dd5ca9ede24ce88b.gif
 
 - name: CCOSS
   type: official
