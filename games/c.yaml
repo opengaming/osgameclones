@@ -776,15 +776,19 @@
 - name: 'ClassicUO'
   langs:
   - C#
+  frameworks:
+  - FNA
   licenses:
   - GPL3
   development: active
   originals:
   - Ultima Online
-  repo: https://github.com/andreakarasho/ClassicUO
+  repo: https://github.com/ClassicUO/ClassicUO
+  feed: https://github.com/ClassicUO/ClassicUO/releases.atom
   status: playable
   type: clone
-  updated: 2020-12-16
+  added: 2020-12-16
+  updated: 2024-05-30
   url: https://www.classicuo.eu/
   multiplayer:
   - Online
