@@ -37,7 +37,7 @@ const knownFrameworks = [
   'DirectX',
   'DIV Games Studio',
   'Duality',
-  'Ebiten',
+  'Ebitengine',
   'EntityX',
   'EnTT',
   'Flash',
