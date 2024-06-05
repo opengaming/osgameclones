@@ -43,6 +43,7 @@ const knownFrameworks = [
   'Flash',
   'Fyne',
   'FMOD',
+  'FNA',
   'GameMaker Studio',
   'GameSprockets',
   'Godot',
