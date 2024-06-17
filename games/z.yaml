@@ -118,7 +118,7 @@
   type: remake
   repo: https://sourceforge.net/projects/zedonline/
   url: https://zzone.lewe.com/zed-online-game/
-  development: active
+  development: halted
   status: playable
   multiplayer:
   - Online
@@ -128,7 +128,8 @@
   - C++
   licenses:
   - GPL3
-  updated: 2019-09-17
+  added: 2019-09-17
+  updated: 2024-06-08
   images:
   - https://a.fsdn.com/con/app/proj/zedonline/screenshots/Screenshot%20%288%29.png/245/183/1
   - https://a.fsdn.com/con/app/proj/zedonline/screenshots/Screenshot%20%2842%29.png/245/183/1
@@ -140,10 +141,10 @@
   originals:
   - Legend of Zelda
   type: remake
-  repo: 'https://github.com/ArmageddonGames/ZeldaClassic'
+  repo: https://github.com/ZeldaClassic/ZeldaClassic
   url: 'https://www.zeldaclassic.com/'
   feed: 'https://www.zeldaclassic.com/feed/'
-  development: active
+  development: sporadic
   status: playable
   content: swappable
   langs:
@@ -155,7 +156,8 @@
   info: >-
     Zelda Classic is a game and editing tool that lets you create custom Legend of
     Zelda quests.
-  updated: '2019-11-19'
+  added: '2019-11-19'
+  updated: 2024-06-09
   images:
   - 'https://www.zeldaclassic.com/wp-content/uploads/2016/12/ss_bszelda.png'
   - >-
@@ -168,7 +170,8 @@
   - Legend of Zelda - A Link to the Past
   type: remake
   repo: https://github.com/snesrev/zelda3
-  development: active
+  feed: https://github.com/snesrev/zelda3/releases.atom
+  development: sporadic
   status: playable
   content: commercial
   licenses:
@@ -180,7 +183,8 @@
   info: >-
     Reverse engineered clone of Zelda 3 - A Link to the Past.
     A bunch of features have been added that are not supported by the original game.
-  updated: 2022-11-04
+  added: 2022-11-04
+  updated: 2024-06-10
 
 - name: Zero-K
   type: similar
