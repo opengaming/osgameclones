@@ -666,15 +666,19 @@
   info: A modification of tesseract so basically Cube 2 with better graphics and developed on github in a modern vcs.
   langs:
   - C++
+  frameworks:
+  - OpenGL
+  - SDL2
   licenses:
   - Zlib
-  development: sporadic
+  development: halted
   originals:
   - 'Cube 2: Sauerbraten'
   repo: https://github.com/team-cube/open-cube
   status: semi-playable
   type: remake
-  updated: 2017-04-27
+  updated: 2016-04-20
+  updated: 2024-06-24
   url: https://team-cube.github.io
 
 - name: open-heavy-smash
