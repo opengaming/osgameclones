@@ -1041,9 +1041,13 @@
 - name: OpenClonk
   langs:
   - C++
+  frameworks:
+  - SDL2
+  - OpenGL
+  - Qt
   licenses:
   - ISC
-  development: active
+  development: halted
   status: playable
   multiplayer:
   - Online
@@ -1052,7 +1056,8 @@
   - Clonk
   repo: https://github.com/openclonk/openclonk
   type: remake
-  updated: 2019-12-28
+  added: 2012-04-08
+  updated: 2024-07-01
   url: https://www.openclonk.org/
   video:
     youtube: zydiZSXpn0w
