@@ -1049,8 +1049,7 @@
 
 - name: OpenCrystalCaves
   images:
-  - https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot1.png?raw=true
-  - https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot2.png?raw=true
+  - https://raw.githubusercontent.com/gurka/OpenCrystalCaves/master/screenshots/animation.gif
   - https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot3.png?raw=true
   langs:
   - C++
@@ -1058,13 +1057,15 @@
   - SDL2
   licenses:
   - MIT
-  content: commercial
+  content: free
   originals:
   - Crystal Caves
   status: unplayable
   repo: https://github.com/gurka/OpenCrystalCaves
+  development: sporadic
   type: remake
-  updated: 2017-09-08
+  added: 2017-09-08
+  updated: 2024-07-02
 
 - name: OpenD2
   development: sporadic
