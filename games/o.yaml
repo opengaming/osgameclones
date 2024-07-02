@@ -1070,13 +1070,15 @@
   updated: 2017-09-08
 
 - name: OpenD2
-  development: sporadic
+  development: halted
   images:
   - https://i.imgur.com/RFNbRiT.png
   info: Needs original Diablo II game data
   langs:
-  - C
   - C++
+  frameworks:
+  - SDL2
+  - OpenGL
   licenses:
   - GPL3
   content: commercial
@@ -1085,7 +1087,8 @@
   repo: https://github.com/eezstreet/OpenD2
   status: unplayable
   type: remake
-  updated: 2018-06-17
+  added: 2018-06-17
+  updated: 2024-07-03
 
 - name: openDarkEngine
   images:
