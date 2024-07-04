@@ -1120,15 +1120,20 @@
 - name: opendf
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
-  development: sporadic
+  development: halted
   originals:
   - 'The Elder Scrolls II: Daggerfall'
   repo: https://github.com/kcat/opendf
   status: unplayable
   type: remake
-  updated: 2015-07-17
+  added: 2015-07-17
+  updated: 2024-07-04
+  images:
+  - https://forum.openmw.org/download/file.php?id=628&mode=view
 
 - name: OpenDiablo2
   type: remake
