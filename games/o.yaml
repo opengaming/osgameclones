@@ -1213,7 +1213,8 @@
   - 'Dark Reign: The Future of War'
   type: remake
   repo: 'https://github.com/drogoganor/OpenDR'
-  development: active
+  feed: https://github.com/drogoganor/OpenDR/releases.atom
+  development: halted
   status: semi-playable
   content: free
   langs:
@@ -1225,10 +1226,12 @@
   info: >-
     A work-in-progress recreation of the Auran RTS classic for the OpenRA strategy
     game engine.
-  updated: '2022-11-02'
+  added: '2022-11-02'
+  updated: 2024-07-08
   images:
   - >-
     https://uploads.golmedia.net/uploads/articles/article_media/15060194471666886645gol1.jpg
+  - https://raw.githubusercontent.com/drogoganor/OpenDR/master/mods/dr/reference/images/mainmenu.jpg
 
 - name: OpenDrakan
   development: active
