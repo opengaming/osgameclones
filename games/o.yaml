@@ -1234,10 +1234,12 @@
   - https://raw.githubusercontent.com/drogoganor/OpenDR/master/mods/dr/reference/images/mainmenu.jpg
 
 - name: OpenDrakan
-  development: active
+  development: sporadic
   info: Needs original game data
   langs:
   - C++
+  frameworks:
+  - OpenSceneGraph
   licenses:
   - GPL3
   content: commercial
@@ -1246,7 +1248,8 @@
   repo: https://github.com/Zalasus/opendrakan
   status: unplayable
   type: remake
-  updated: 2018-06-17
+  added: 2018-06-17
+  updated: 2024-07-09
 
 - name: OpenDUNE
   langs:
