@@ -2,15 +2,15 @@
 Scrape ScummVM supported games at good or excellent level, and create YAML clone templates
 
 Uses libraries:
-- aiohttp
 - beautifulsoup4
+- httpx
 - tenacity
 """
-import asyncio
+import re
 from pathlib import Path
 from typing import Container, Optional
 
-import aiohttp
+import httpx
 import yaml
 from bs4 import BeautifulSoup
 from tenacity import stop_after_attempt, retry, wait_exponential
@@ -26,8 +26,17 @@ PLATFORM_ALIASES = {
     "Steam": "Windows",
     "Tandy Color Computer 3": "CoCo",
 }
+# These games are not games or compilations/demos that shouldn't have their own game entries
+BLACKLIST = {
+    "Inside the Chest",
+    "King's Questions",
+    "Passport to Adventure (Indiana Jones and the Last Crusade, The Secret of Monkey Island, Loom)",
+    "Mission Supernova 1",
+    "Mission Supernova 2"
+}
 
-async def main():
+
+def main():
     # Get list of OSGC originals
     osgc_originals = set()
     for original in originals():
@@ -39,39 +48,58 @@ async def main():
     platforms = yaml.safe_load(open(Path("schema") / "originals.yaml", encoding="utf-8"))["schema;platforms"]["enum"]
 
     # Get list of games
-    async with aiohttp.ClientSession() as session:
-        async with session.get(SCUMMVM_LIST) as resp:
-            content = await resp.text()
-        soup = BeautifulSoup(content, "html.parser")
-        game_links = {}
-        for td_name, td_support_level in zip(soup.find_all("td", class_="gameFullName"), soup.find_all("td", class_="gameSupportLevel")):
-            # Filter out those that aren't good enough
-            if td_support_level.text not in SUPPORT_LEVELS:
-                continue
-            # Filter out engines
-            if td_name.text.endswith(" games"):
-                continue
-            game_links[td_name.text] = SCUMMVM_BASE_URL + td_name.a.attrs["href"]
+    resp = httpx.get(SCUMMVM_LIST)
+    content = resp.text
+    soup = BeautifulSoup(content, "html.parser")
+    game_links = {}
+    for td_name, td_support_level in zip(soup.find_all("td", class_="gameFullName"), soup.find_all("td", class_="gameSupportLevel")):
+        # Filter out those that aren't good enough
+        if td_support_level.text not in SUPPORT_LEVELS:
+            continue
+        name = td_name.text.strip()
+        # Filter out engines
+        if name.endswith(" games"):
+            continue
+        # Filter out blacklist
+        if name in BLACKLIST:
+            continue
+        # Use name in parens if present
+        if match := re.match(r".+ \((.+)\)", name):
+            name = match.group(1)
+        game_links[name] = SCUMMVM_BASE_URL + td_name.a.attrs["href"]
 
-        # Generate originals list
-        origs = list(game_links)
+    # Generate originals list
+    origs = list(game_links)
 
-        # Filter out those we already have
-        missing_originals = {original for original in origs if original not in osgc_originals}
-        print("ScummVM originals:")
-        for original in sorted(missing_originals):
-            print(f"- {original}")
+    # Filter out those we already have (match case-insensitive)
+    def game_is_in_original(game: str) -> bool:
+        if game in osgc_originals:
+            return True
+        # Try case-insensitive
+        if game.lower() in {o.lower() for o in osgc_originals}:
+            return True
+        # Try using the name before or after the colon
+        if (match := re.match(r"(.+):(.+)", game)) and (match.group(1).strip() in osgc_originals or match.group(2).strip() in osgc_originals):
+           return True
+        # Try matching without certain punctuation
+        if game.replace("!", "") in {o.replace("!", "") for o in osgc_originals}:
+            return True
+        return False
+    missing_originals = {original for original in origs if not game_is_in_original(original)}
+    print("ScummVM originals:")
+    for original in sorted(missing_originals):
+        print(f"- {original}")
 
-        for original in missing_originals:
-            if game_info := await scrape_game_info(session, game_links[original], platforms):
-                print(yaml.dump(game_info))
+    for original in missing_originals:
+        if game_info := scrape_game_info(game_links[original], platforms):
+            print(yaml.dump(game_info))
 
 
 @retry(stop=stop_after_attempt(10), wait=wait_exponential(multiplier=1, min=2, max=10))
-async def scrape_game_info(session: aiohttp.ClientSession, link: str, platforms: Container[str]) -> Optional[dict]:
+def scrape_game_info(link: str, platforms: Container[str]) -> Optional[dict]:
     # Go to game subpage
-    async with session.get(link) as resp:
-        content = await resp.text()
+    resp = httpx.get(link)
+    content = resp.text
     soup = BeautifulSoup(content, "html.parser")
 
     # Don't add games that aren't clones
@@ -123,4 +151,4 @@ def wikipedia_name(link: str) -> str:
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
