@@ -46,6 +46,7 @@ const knownFrameworks = [
   'FNA',
   'GameMaker Studio',
   'GameSprockets',
+  'gLib2D',
   'Godot',
   'Graphics32',
   'GTK',
