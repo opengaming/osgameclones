@@ -74,15 +74,20 @@
     genres:
     - Shmup
 
-- name: Redneck Rampage
+- name: 'Reah: Face the Unknown'
+  names:
+  - Reah
   external:
-    wikipedia: Redneck Rampage
-  platforms:
-  - DOS
-  - OSX
+    website: https://www.mobygames.com/game/1684
+    wikipedia: 'Reah: Face the Unknown'
   meta:
     genres:
-    - FPS
+    - Adventure
+    - Puzzle
+    themes:
+    - Sci-Fi
+  platforms:
+  - Windows
 
 - name: RealLive
   external:
@@ -100,6 +105,8 @@
     - Visual Novel
 
 - name: Red Comrades Save the Galaxy
+  names:
+  - Red Comrades 1
   external:
     website: https://www.mobygames.com/game/1854
     wikipedia: Red Comrades Save the Galaxy
@@ -132,6 +139,16 @@
   - Android
   - iOS
   - Windows
+
+- name: Redneck Rampage
+  external:
+    wikipedia: Redneck Rampage
+  platforms:
+  - DOS
+  - OSX
+  meta:
+    genres:
+    - FPS
 
 - name: Rescue!
   external:
