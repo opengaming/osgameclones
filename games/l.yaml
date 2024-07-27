@@ -71,8 +71,9 @@
   - Ladder
   status: playable
   type: remake
+  added: 2015-05-09
   updated: 2015-05-10
-  url: http://ostermiller.org/ladder/
+  url: https://ostermiller.org/ladder/
   development: halted
 
 - name: ladder
@@ -86,8 +87,9 @@
   originals:
   - Ladder
   status: semi-playable
-  repo: https://github.com/SmallRoomLabs/ladder
+  repo: https://github.com/mengstr/ladder
   type: remake
+  added: 2016-02-26
   updated: 2016-02-26
 
 - name: Laser Kombat
@@ -146,7 +148,7 @@
   originals:
   - Little Big Adventure
   type: remake
-  repo: https://github.com/2point21/lba1-classic-community
+  repo: https://github.com/LBALab/lba1-classic-community
   development: sporadic
   status: unplayable
   langs:
@@ -157,13 +159,14 @@
   info: >-
     Official source code of the original game's engine (not a remake). This is
     the community-enhanced version of the repository.
+  added: 2021-10-29
   updated: 2023-08-08
 
 - name: LBA2 Classic (Community)
   originals:
   - Little Big Adventure 2
   type: remake
-  repo: https://github.com/2point21/lba2-classic-community
+  repo: https://github.com/LBALab/lba2-classic-community
   development: halted
   status: unplayable
   langs:
@@ -174,13 +177,14 @@
   info: >-
     Official source code of the original game's engine (not a remake). This is
     the community-enhanced version of the repository.
+  added: 2021-10-29
   updated: 2023-08-08
 
 - name: LBA2 Remake
   originals:
   - Little Big Adventure 2
   type: remake
-  repo: 'https://github.com/agrande/lba2remake'
+  repo: https://github.com/LBALab/lba2remake
   development: very active
   status: semi-playable
   content: commercial
@@ -191,6 +195,7 @@
   - React
   licenses:
   - MIT
+  added: 2020-11-24
   updated: 2020-11-24
   images:
   - >-
@@ -218,11 +223,12 @@
     full of different types of bricks and extras by using your paddle to aim balls
     at the bricks. All LBreakout2 themes and levelsets work. New themes can be of
     any resolution.
+  added: 2019-12-02
   updated: 2023-01-28
   images:
   - https://lgames.sourceforge.io/LBreakoutHD/ss0.jpg
-  - 'https://lgames.sourceforge.net/LBreakoutHD/ss1.jpg'
-  - 'https://lgames.sourceforge.net/LBreakoutHD/ss2.jpg'
+  - https://lgames.sourceforge.io/LBreakoutHD/ss1.jpg
+  - https://lgames.sourceforge.io/LBreakoutHD/ss2.jpg
 
 - name: 'Legacy of Kain: Soul Reaver Decompile'
   originals:
@@ -270,9 +276,7 @@
   - 'The Legend of Zelda: Ocarina of Time'
   type: remake
   repo: 'https://github.com/zeldaret/oot'
-  url: 'https://zelda64.dev/'
-  images:
-  - https://thenerdstash.com/wp-content/uploads/2021/11/Legend-of-Zelda-Ocarina-of-Time-Decompile.jpg
+  url: https://zelda64.dev/games/oot
   development: active
   status: unplayable
   licenses:
@@ -280,7 +284,8 @@
   content: commercial
   langs:
   - C
-  updated: '2021-12-12'
+  added: 2021-12-12
+  updated: 2021-12-12
 
 - name: The Legend Of Zelda - Oni Link Begins
   langs:
@@ -448,8 +453,9 @@
   repo: https://sourceforge.net/projects/lgeneral/
   status: playable
   type: remake
+  added: 2013-05-30
   updated: 2023-01-28
-  url: https://lgames.sourceforge.net/LGeneral/
+  url: https://lgames.sourceforge.io/LGeneral/
 
 - name: LibDay
   originals:
@@ -466,9 +472,10 @@
   - Unity
   licenses:
   - MIT
+  added: 2019-07-08
   updated: 2020-08-25
   images:
-  - https://gamesnippets.files.wordpress.com/2017/04/11.png
+  - https://gamesnippets.wordpress.com/wp-content/uploads/2017/04/11.png
 
 - name: libRealSpace
   images:
