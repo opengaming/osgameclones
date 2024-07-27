@@ -1,23 +1,19 @@
 """
 Check game URLs and repos for broken links
-
-To run, install from pip:
-- aiohttp
 """
-import aiohttp
 import asyncio
+import httpx
 
 from scripts.utils import games
 
 
 async def check_link(q):
-    async with aiohttp.ClientSession() as session:
-        while True:
-            game, url = await q.get()
-            async with session.get(url) as resp:
-                if not resp.ok:
-                    print(f"{url} returned {resp.status} ({game['name']})")
-            q.task_done()
+    while True:
+        game, url = await q.get()
+        resp = httpx.get(url)
+        if not resp.is_success:
+            print(f"{url} returned {resp.status_code} ({game['name']})")
+        q.task_done()
 
 
 async def main():
