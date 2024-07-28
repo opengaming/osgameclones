@@ -551,21 +551,27 @@
   originals:
   - Quake
   type: remake
-  repo: 'https://github.com/MissLav/LibreQuake'
+  repo: https://github.com/lavenderdotpet/LibreQuake
+  feed: https://github.com/lavenderdotpet/LibreQuake/releases.atom
+  url: https://librequake.queer.sh
   development: active
   status: semi-playable
   content: open
   langs:
   - Python
   licenses:
-  - Custom
+  - BSD
   info: >-
     A project to create a libre game data replacement for the Quake engine, based
     on Lovecraftian aesthetic.
   images:
-  - https://raw.githubusercontent.com/MissLav/LibreQuake/master/screenshots/textures_example.png
-  - https://raw.githubusercontent.com/MissLav/LibreQuake/master/screenshots/weapons_example.png
-  updated: 2021-08-25
+  - https://librequake.queer.sh/media/screenshot01.png
+  - https://librequake.queer.sh/media/screenshot02.png
+  - https://librequake.queer.sh/media/screenshot03.png
+  - https://librequake.queer.sh/media/screenshot04.png
+  - https://librequake.queer.sh/media/screenshot05.png
+  added: 2021-08-25
+  updated: 2024-07-28
 
 - name: Librerama
   frameworks:
