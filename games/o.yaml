@@ -2289,18 +2289,21 @@
 
 - name: OpenRW "Open ReWrite"
   frameworks:
-  - SDL
+  - SDL2
+  - OpenGL
   langs:
   - C++
   licenses:
   - GPL3
-  development: sporadic
+  content: commercial
+  development: halted
   originals:
   - Grand Theft Auto III
   repo: https://github.com/rwengine/openrw
-  status: unplayable
+  status: semi-playable
   type: remake
-  updated: 2017-04-21
+  added: 2016-05-18
+  updated: 2024-08-01
   url: https://openrw.org
   images:
   - https://openrw.org/media/gallery/1.jpg
