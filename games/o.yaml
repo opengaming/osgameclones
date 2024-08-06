@@ -2410,9 +2410,12 @@
 - name: OpenSpades
   langs:
   - C++
+  frameworks:
+  - SDL2
+  - OpenGL
   licenses:
   - GPL3
-  development: active
+  development: sporadic
   status: playable
   info: OpenSpades is a compatible client of Ace of Spades 0.75.
   multiplayer:
@@ -2422,7 +2425,8 @@
   - Ace of Spades
   repo: https://github.com/yvt/openspades
   type: remake
-  updated: 2022-04-26
+  added: 2015-04-10
+  updated: 2024-08-07
   url: https://openspades.yvt.jp
   images:
   - https://openspades.yvt.jp/media/images/ss1.jpg
