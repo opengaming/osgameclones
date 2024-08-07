@@ -2446,14 +2446,20 @@
   - Solomon's Key
   type: clone
   repo: 'https://github.com/mdodis/OpenSolomonsKey'
-  development: very active
+  development: halted
   status: playable
-  content: open
+  content: commercial
   langs:
   - C++
+  frameworks:
+  - OpenGL
+  - SDL2
   licenses:
   - Unlicense
-  updated: '2020-07-24'
+  added: '2020-07-24'
+  updated: 2024-08-08
+  images:
+  - https://github.com/mdodis/OpenSolomonsKey/blob/master/page/banner.png?raw=true
 
 - name: OpenSR
   frameworks:
