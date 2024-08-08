@@ -2495,15 +2495,19 @@
 - name: openstrike
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
-  development: sporadic
+  content: commercial
+  development: halted
   originals:
   - 'DesertStrike: Return to the Gulf'
   repo: https://github.com/AMDmi3/openstrike
   status: unplayable
   type: remake
-  updated: 2015-04-04
+  added: 2015-04-04
+  updated: 2024-08-09
 
 - name: OpenSupaplex
   langs:
