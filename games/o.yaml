@@ -2560,20 +2560,6 @@
   type: remake
   updated: 2016-10-09
 
-- name: opentesarena
-  development: halted
-  langs:
-  - C++
-  licenses:
-  - As-is
-  content: commercial
-  originals:
-  - 'The Elder Scrolls: Arena'
-  repo: https://github.com/pralinor/opentesarenapp
-  status: unplayable
-  type: remake
-  updated: 2016-10-09
-
 - name: OpenTitus
   frameworks:
   - SDL
@@ -2607,13 +2593,14 @@
   licenses:
   - LGPL3
   content: commercial
-  development: active
+  development: halted
   originals:
   - Tomb Raider
   status: playable
   repo: https://github.com/opentomb/OpenTomb
   type: remake
-  updated: 2021-06-18
+  added: 2014-04-29
+  updated: 2024-08-14
   url: https://opentomb.github.io/
   video:
     youtube: ouGs29woi0k
