@@ -41,6 +41,10 @@ def main():
 
         games = yaml.safe_load(open(filename, encoding='utf-8'))
         for game in games:
+            if 'added' not in game:
+                print(f"{game['name']} has no added field")
+                continue
+
             repo_url = game.get('repo', '')
 
             if len(repo_url) == 0 or game.get('development', '') == 'complete':
@@ -93,11 +97,11 @@ def get_latest_commit_date_for_github(gh, repo_url):
     try:
         gh_repo = gh.get_repo(f"{owner}/{repo}")
         branches = list(gh_repo.get_branches())
-        commit_dates = {datetime.strptime(branch.commit.last_modified, GH_DT_FMT) for branch in branches}
+        commit_dates = {datetime.strptime(branch.commit.last_modified, GH_DT_FMT) for branch in branches if branch.commit.last_modified}
     except GithubException as e:
         print(f'Error getting repo info for {owner}/{repo}: {e}')
         return
-    return max(commit_dates)
+    return max(commit_dates) if commit_dates else None
 
 
 def get_latest_commit_date_for_gitlab(gl, repo_url):
@@ -109,12 +113,12 @@ def get_latest_commit_date_for_gitlab(gl, repo_url):
     project_namespace = match.groups()[0]
     project = gl.projects.get(project_namespace)
 
-    branches = project.branches.list()
+    branches = project.branches.list(get_all=True)
     created_dates = {branch.commit["created_at"] for branch in branches}
     last_commit = max(created_dates)
 
     return datetime.strptime(
-        ''.join(last_commit.committed_date.rsplit(':', 1)),
+        ''.join(last_commit.rsplit(':', 1)),
         '%Y-%m-%dT%H:%M:%S.%f%z'
     ).replace(tzinfo=None)
 
