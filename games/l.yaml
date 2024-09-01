@@ -1,6 +1,8 @@
 - name: l-echo
   langs:
   - C++
+  frameworks:
+  - OpenGL
   licenses:
   - GPL3
   development: halted
@@ -9,6 +11,7 @@
   status: playable
   repo: https://github.com/LibreGamesArchive/l-echo
   type: remake
+  added: 2015-04-15
   updated: 2022-09-25
   images:
   - https://www.gamebrew.org/images/a/a3/Necho2.png
