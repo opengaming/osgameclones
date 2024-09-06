@@ -463,13 +463,33 @@
   - iOS
   - Windows
 
+- name: RuneScape
+  external:
+    wikipedia: RuneScape
+  platforms:
+  - Android
+  - iOS
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - MMORPG
+    themes:
+    - Fantasy
+    - Medieval
+
 - name: RuneScape Classic
   external:
     website: 'https://classic.runescape.wiki/'
+  platforms:
+  - Web
   meta:
     genres: 
     - MMORPG
-    - Adventure
+    themes:
+    - Fantasy
+    - Medieval
 
 - name: Ryzom
   external:
