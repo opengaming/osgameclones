@@ -152,6 +152,24 @@
   type: remake
   updated: 2019-03-29
 
+- name: openblack
+  type: remake
+  originals:
+  - Black & White
+  repo: https://github.com/openblack/openblack
+  status: semi-playable
+  development: active
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - Vulkan
+  licenses:
+  - GPL-3
+  content: commercial
+  info: openblack is an open source reimplementation of Black & White (2001) written in modern C++ and modern rendering engines (OpenGL, Vulkan).
+  updated: 2024-09-04
+
 - name: OpenBOR
   type:  clone
   originals:
