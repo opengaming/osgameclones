@@ -14,7 +14,7 @@ ENV PATH /etc/poetry/bin/:$PATH
 RUN poetry install
 RUN make run 
 
-FROM nginx:1.17-alpine
+FROM nginx:1.23.2-alpine
 
 COPY --from=builder /src/_build /www
 COPY vhost.conf /etc/nginx/conf.d/default.conf
