@@ -27,20 +27,21 @@
   type: remake
   updated: 2015-05-19
 
-- name: pacman
+- name: pacman (harto)
   langs:
   - JavaScript
   licenses:
   - As-is
   content: free
-  development: halted
+  development: complete
   originals:
   - Pac-Man
   repo: https://github.com/harto/pacman
   type: remake
-  updated: 2015-05-19
+  added: 2015-05-19
+  updated: 2024-09-13
   status: playable
-  url: http://harto.github.io/pacman/
+  url: https://harto.github.io/pacman/
 
 - name: pacman-canvas
   images:
@@ -75,6 +76,23 @@
   - MIT
   info: continuation of pacman-canvas-next
   updated: '2024-03-10'
+
+- name: pacman (Rust)
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://github.com/denix666/pacman'
+  development: complete
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  content: free
+  added: 2024-09-13
+  updated: 2024-09-13
+  images:
+  - https://github.com/denix666/pacman/blob/main/screenshots/screenshot.png
 
 - name: Pacman 吃豆游戏
   originals:
