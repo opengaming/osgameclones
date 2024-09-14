@@ -3,9 +3,11 @@ from typing import Iterable
 
 import yaml
 
+PROJECT_ROOT_PATH = Path(__file__).parent.parent.resolve()
+
 
 def originals() -> Iterable[dict]:
-    for p in Path("originals").iterdir():
+    for p in (PROJECT_ROOT_PATH / "originals").iterdir():
         if p.is_file() and p.suffix == ".yaml":
             originals = yaml.safe_load(open(p, encoding="utf-8"))
             for original in originals:
@@ -13,7 +15,7 @@ def originals() -> Iterable[dict]:
 
 
 def games() -> Iterable[dict]:
-    for p in Path('games').iterdir():
+    for p in (PROJECT_ROOT_PATH / "games").iterdir():
         if p.is_file() and p.suffix == ".yaml":
             games = yaml.safe_load(open(p, encoding="utf-8"))
             for game in games:
