@@ -23,6 +23,7 @@ PLATFORM_ALIASES = {
     "Apple IIgs": "Apple II",
     "Atari ST": "Atari",
     "Macintosh": "Classic Mac OS",
+    "Sega CD": "Genesis",
     "Steam": "Windows",
     "Tandy Color Computer 3": "CoCo",
 }
