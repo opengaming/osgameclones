@@ -7,6 +7,33 @@ from scripts.utils import games, originals
 
 INSPIRATION_PATTERN = re.compile(r"(.+) \[\d+\]")
 INSPIRED_PATTERN = re.compile(r"Inspired entries: (.+)")
+# OSGL name to OSGC alias
+ALIASES = {
+    "Alone in the Dark series": "Alone in the Dark",
+    "Anno (series)": "Anno series",
+    "BioWare's Aurora engine": "Neverwinter Nights",
+    "Blake Stone: Aliens of Gold": "Blake Stone: Planet Strike",
+    "Blasteroids": "Asteroids",
+    "Caesar 3": "Caesar III",
+    "Civilization series": "Civilization",
+    "Company of Heroes: Opposing Fronts": "Company of Heroes",
+    "Company of Heroes: Tales of Valor": "Company of Heroes",
+}
+# Games that aren't interesting enough or weren't closed source
+BLACKLIST = {
+    "arithmetic",
+    "Black Shades",
+    "Blob Wars Attrition",
+    "Blobby Volley",
+    "Chromium B.S.U.",
+    "CorsixTH",
+    "Crossfire",
+    "Cube",
+    "Cube 2: Sauerbraten",
+    "CUBE engine",
+    "Daimonin",
+    "TuxMath",
+}
 
 
 def main():
@@ -33,7 +60,10 @@ def main():
         for name in original.get("names", []):
             osgc_originals.add(name)
     for game in osgl_games:
-        if game not in osgc_originals:
+        if game in BLACKLIST:
+            continue
+        alias = ALIASES.get(game)
+        if game not in osgc_originals and (not alias or alias not in osgc_originals):
             print(f"Missing original: {game}")
     osgc_games = set(game["name"] for game in games())
     for game, inspireds in osgl_games.items():
