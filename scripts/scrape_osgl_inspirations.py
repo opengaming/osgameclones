@@ -18,8 +18,29 @@ ALIASES = {
     "Civilization series": "Civilization",
     "Company of Heroes: Opposing Fronts": "Company of Heroes",
     "Company of Heroes: Tales of Valor": "Company of Heroes",
+    "Final Fantasy series": "Final Fantasy",
+    "Krush Kill 'n' Destroy": "Krush, Kill 'n' Destroy",
+    "Marathon 2: Durandal": "Marathon 2",
+    "Microprose Falcon 4.0 Combat Simulator": "Falcon",
+    "Panzer General 2": "Panzer General",
+    "Quake II": "Quake 2",
+    "Quake III Arena": "Quake 3",
+    "QUakeWorld": "Quake",
+    "Runescape Classic": "RuneScape Classic",
+    "S.T.A.L.K.E.R: Call of Pripyat": "S.T.A.L.K.E.R.: Call of Pripyat",
+    "Settlers": "The Settlers",
+    "Shobon Action": "Syobon Action",
+    "Simon Says": "Simon",
+    "Sonic the Hedgehog series": "Sonic the Hedgehog",
+    "Super Pang": "Pang",
+    "The Incredible Machine series": "The Incredible Machine",
+    "Ultima series": "Ultima",
+    "Ultima Underworld 1": "Ultima Underworld",
+    "Warcraft": "Warcraft: Orcs & Humans",
+    "Worms": "Worms Series",
+    "X-COM: Enemy Unknown": "X-COM: UFO Defense",
 }
-# Games that aren't interesting enough or weren't closed source
+# Games that aren't games, aren't interesting enough or weren't closed source
 BLACKLIST = {
     "arithmetic",
     "Black Shades",
@@ -32,7 +53,44 @@ BLACKLIST = {
     "Cube 2: Sauerbraten",
     "CUBE engine",
     "Daimonin",
+    "DragonBall",
+    "Dungeon Crawl Stone Soup",
+    "Eternal Lands",
+    "Falcon's Eye",
+    "Flixel",
+    "FooBillard",
+    "GalaxyMage",
+    "GearHead",
+    "GL-117",
+    "Kobold's Quest",
+    "Konquest",
+    "LBreakout",
+    "Linley's Dungeon Crawl",
+    "Liquid War",
+    "LÖVE",
+    "Metroidvania",
+    "Noiz2",
+    "NScripter",
+    "OGRE",
+    "Open Dune",
+    "RARS",
+    "Red Eclipse",
+    "Revenge Of The Cats: Ethernet",
+    "sfxr",
+    "Teeworlds",
+    "The Clans",
+    "The Mana World",
+    "Tower defense",
+    "Transball",
     "TuxMath",
+    "Tux Racer",
+    "Urho3D",
+    "Vavoom",
+    "Volleyball",
+    "Webhangman",
+    "XKobo",
+    "XRay engine",
+    "Xtank",
 }
 
 
@@ -59,17 +117,27 @@ def main():
         osgc_originals.add(original["name"])
         for name in original.get("names", []):
             osgc_originals.add(name)
+    osgc_games = {game["name"] for game in games()}
+    osgl_inspireds = {
+        inspired
+        for inspireds in osgl_games.values()
+        for inspired in inspireds
+    }
     for game in osgl_games:
         if game in BLACKLIST:
+            continue
+        # Exclude games that are open source clones to begin with
+        if game in osgc_games and game not in osgc_originals:
+            continue
+        # Exclude transitive inspirations - we only want the originals
+        if game in osgl_inspireds:
             continue
         alias = ALIASES.get(game)
         if game not in osgc_originals and (not alias or alias not in osgc_originals):
             print(f"Missing original: {game}")
-    osgc_games = set(game["name"] for game in games())
-    for game, inspireds in osgl_games.items():
-        for inspired in inspireds:
-            if inspired not in osgc_games:
-                print(f"Missing clone: {inspired} (inspired by {game})")
+    for inspired in osgl_inspireds:
+        if inspired not in osgc_games:
+            print(f"Missing clone: {inspired}")
 
 
 if __name__ == "__main__":

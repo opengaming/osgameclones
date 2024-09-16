@@ -435,6 +435,21 @@
   platforms:
   - Classic Mac OS
   - Windows
+
+- name: Shobon no Action
+  names:
+  - Syobon Action
+  - Cat Mario
+  external:
+    wikipedia: Shobon no Action
+  platforms:
+  - Android
+  - Dreamcast
+  - iOS
+  - Windows
+  meta:
+    genres:
+    - Platform
     
 - name: Sid Meier's Alpha Centauri
   external:
@@ -1395,9 +1410,9 @@
     themes:
     - Sci-Fi
 
-- name: Starcraft
+- name: StarCraft
   external:
-    wikipedia: Starcraft
+    wikipedia: StarCraft
   meta:
     genres:
     - Real-Time Strategy
@@ -1491,6 +1506,7 @@
     - Anime
   names:
   - Harvest Moon
+  - 'Innocent Life: A Futuristic Harvest Moon'
 
 - name: 'Stratosphere: Conquest of the Skies'
   external:
@@ -1760,18 +1776,6 @@
     - Real-Time Tactics
     themes:
     - Cyberpunk
-
-- name: Syobon Action
-  external:
-    wikipedia: Syobon Action
-  platforms:
-  - Android
-  - Dreamcast
-  - iOS
-  - Windows
-  meta:
-    genres:
-    - Platform
 
 - name: System Shock
   external:
