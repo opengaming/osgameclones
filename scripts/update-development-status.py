@@ -10,23 +10,30 @@ Add environment variables:
   - https://github.com/settings/tokens?type=beta
   - (see https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token)
 - GL_TOKEN
-  - https://gitlab.com/-/profile/personal_access_tokens
+  - https://gitlab.com/-/user_settings/personal_access_tokens
   - (see https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token)
   - With read_api scope
 """
 import os
 import re
+from typing import Optional
+
 import yaml
+
+import feedparser
 
 from pathlib import Path
 from datetime import datetime, timedelta
 from github import Github, GithubException
 from gitlab import Gitlab
+from time import mktime
 
 GL_HOST = 'https://gitlab.com'
+SF_HOST = 'https://sourceforge.net'
 
 GH_REGEX = re.compile(r'https://github.com/([^/]+)/([^/]+)')
 GL_REGEX = re.compile(GL_HOST + r'/([^/]+/[^/]+)')
+SF_REGEX = re.compile(SF_HOST + r"/projects/([^/]+)")
 
 GH_DT_FMT = "%a, %d %b %Y %H:%M:%S %Z"
 
@@ -79,11 +86,17 @@ def is_gitlab_repo(repo):
     return repo.startswith(GL_HOST)
 
 
+def is_sourceforge_repo(repo):
+    return repo.startswith(SF_HOST)
+
+
 def get_latest_commit_date(repo_url, gh, gl):
     if is_github_repo(repo_url):
         return get_latest_commit_date_for_github(gh, repo_url)
     elif is_gitlab_repo(repo_url):
         return get_latest_commit_date_for_gitlab(gl, repo_url)
+    elif is_sourceforge_repo(repo_url):
+        return get_latest_commit_date_for_sourceforge(repo_url)
 
     print('The', repo_url, 'repository could not be updated')
 
@@ -121,6 +134,20 @@ def get_latest_commit_date_for_gitlab(gl, repo_url):
         ''.join(last_commit.rsplit(':', 1)),
         '%Y-%m-%dT%H:%M:%S.%f%z'
     ).replace(tzinfo=None)
+
+
+def get_latest_commit_date_for_sourceforge(repo_url: str) -> Optional[datetime]:
+    if not (match := re.match(SF_REGEX, repo_url)):
+        return
+
+    project_name = match.groups()[0]
+    feed = feedparser.parse(f"https://sourceforge.net/p/{project_name}/activity/feed.rss")
+    for entry in feed.entries:
+        # Only look for commits
+        if " committed " not in entry["title"]:
+            continue
+        return datetime.fromtimestamp(mktime(entry["published_parsed"]))
+    return None
 
 
 if __name__ == "__main__":
