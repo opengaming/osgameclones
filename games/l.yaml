@@ -549,6 +549,8 @@
 - name: Librelancer
   frameworks:
   - OpenGL
+  - SDL2
+  - .NET
   images:
   - https://librelancer.net/assets/images/slideshow1.jpeg
   - https://librelancer.net/assets/images/slideshow2.jpeg
@@ -564,9 +566,11 @@
   originals:
   - Freelancer
   type: remake
-  updated: 2022-04-18
+  added: 2016-05-23
+  updated: 2024-10-02
   repo: https://github.com/Librelancer/Librelancer
   url: https://librelancer.net/
+  info: As of 2024, the first mission of the game (Mission 01A) can be played through.
 
 - name: LibreMines
   frameworks:
