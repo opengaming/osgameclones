@@ -672,24 +672,25 @@
 
 - name: LinCity-NG
   images:
-  - https://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/Lincity-ng-2.0.png
-  - https://a.fsdn.com/con/app/proj/lincity-ng.berlios/screenshots/NewSolar.png
+  - https://www.linuxlinks.com/wp-content/uploads/2022/05/LinCity-NG.png
   langs:
   - C++
   frameworks:
-  - SDL
+  - SDL2
   licenses:
   - GPL2
-  development: halted
+  content: open
+  development: very active
   status: playable
   originals:
   - SimCity
   repo: https://github.com/lincity-ng/lincity-ng
+  feed: https://github.com/lincity-ng/lincity-ng/releases.atom
   type: clone
-  url: https://www.berlios.de/software/lincity-ng/
-  updated: 2021-03-12
+  added: 2011-06-15
+  updated: 2024-10-07
   video:
-    youtube: kub1cBPqe6o
+    youtube: vLmiqLxD2Eo
 
 - name: LinWarrior
   images:
