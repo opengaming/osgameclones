@@ -50,15 +50,12 @@ BLACKLIST = {
     "Blob Wars Attrition",
     "Blobby Volley",
     "Chromium B.S.U.",
-    "Colonization too",  # halted long ago, status unknown
-    "CommonDrops",  # halted, unknown status
     "CorsixTH",
     "Crossfire",
     "Cube",
     "Cube 2: Sauerbraten",
     "CUBE engine",
     "Daimonin",
-    "DOOM-iOS",  # Superseded by DOOM-iOS2
     "DragonBall",
     "Dungeon Crawl Stone Soup",
     "Eternal Lands",
@@ -83,7 +80,6 @@ BLACKLIST = {
     "Red Eclipse",
     "Revenge Of The Cats: Ethernet",
     "sfxr",
-    "Slot-Racers",  # 404, inactive
     "Teeworlds",
     "The Clans",
     "The Mana World",
@@ -98,6 +94,13 @@ BLACKLIST = {
     "XKobo",
     "XRay engine",
     "Xtank",
+}
+# Valid clones but we don't want to add it to OSGC unless we really have to
+BLACKLIST_CLONES = {
+    "Colonization too",  # halted long ago, status unknown
+    "CommonDrops",  # halted, unknown status
+    "DOOM-iOS",  # Superseded by DOOM-iOS2
+    "Slot-Racers",  # 404, inactive
 }
 
 
@@ -143,6 +146,8 @@ def main():
         if game not in osgc_originals and (not alias or alias not in osgc_originals):
             print(f"Missing original: {game}")
     for inspired in osgl_inspireds:
+        if inspired in BLACKLIST_CLONES:
+            continue
         if inspired not in osgc_games:
             print(f"Missing clone: {inspired}")
 
