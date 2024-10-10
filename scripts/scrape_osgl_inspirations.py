@@ -18,6 +18,7 @@ ALIASES = {
     "Civilization series": "Civilization",
     "Company of Heroes: Opposing Fronts": "Company of Heroes",
     "Company of Heroes: Tales of Valor": "Company of Heroes",
+    "CrossUO": "CrossUO: Ultima Online",
     "Final Fantasy series": "Final Fantasy",
     "Krush Kill 'n' Destroy": "Krush, Kill 'n' Destroy",
     "Marathon 2: Durandal": "Marathon 2",
@@ -32,11 +33,13 @@ ALIASES = {
     "Shobon Action": "Syobon Action",
     "Simon Says": "Simon",
     "Sonic the Hedgehog series": "Sonic the Hedgehog",
+    "Super Methane Brothers for Wii and GameCube": "Super Methane Brothers (homebrew edition)",
     "Super Pang": "Pang",
     "The Incredible Machine series": "The Incredible Machine",
     "Ultima series": "Ultima",
     "Ultima Underworld 1": "Ultima Underworld",
     "Warcraft": "Warcraft: Orcs & Humans",
+    "World of Might and Magic": "OpenEnroth",
     "Worms": "Worms Series",
     "X-COM: Enemy Unknown": "X-COM: UFO Defense",
 }
@@ -47,12 +50,15 @@ BLACKLIST = {
     "Blob Wars Attrition",
     "Blobby Volley",
     "Chromium B.S.U.",
+    "Colonization too",  # halted long ago, status unknown
+    "CommonDrops",  # halted, unknown status
     "CorsixTH",
     "Crossfire",
     "Cube",
     "Cube 2: Sauerbraten",
     "CUBE engine",
     "Daimonin",
+    "DOOM-iOS",  # Superseded by DOOM-iOS2
     "DragonBall",
     "Dungeon Crawl Stone Soup",
     "Eternal Lands",
@@ -77,6 +83,7 @@ BLACKLIST = {
     "Red Eclipse",
     "Revenge Of The Cats: Ethernet",
     "sfxr",
+    "Slot-Racers",  # 404, inactive
     "Teeworlds",
     "The Clans",
     "The Mana World",
