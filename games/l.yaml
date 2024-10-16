@@ -1007,6 +1007,31 @@
   type: remake
   updated: 2022-06-16
 
+- name: Lunar Lander
+  originals:
+  - Lunar Lander
+  type: clone
+  repo: 'https://github.com/nickg/lander'
+  url: 'https://www.doof.me.uk/lunar-lander/'
+  feed: 'https://github.com/nickg/lander/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - SDL2
+  licenses:
+  - GPL3
+  added: '2024-10-16'
+  updated: '2024-10-16'
+  images:
+  - 'https://www.nickg.me.uk/images/lander1.png'
+  - 'https://www.nickg.me.uk/images/lander2.png'
+  - 'https://www.nickg.me.uk/images/lander3.png'
+  - 'https://www.nickg.me.uk/images/lander4.png'
+
 - name: Lyon
   type: remake
   originals:
