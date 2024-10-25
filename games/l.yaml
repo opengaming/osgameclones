@@ -1000,6 +1000,9 @@
 - name: luminesk5
   langs:
   - Objective-C
+  - C++
+  frameworks:
+  - OpenGL
   licenses:
   - GPL3
   development: halted
@@ -1008,6 +1011,7 @@
   status: unplayable
   repo: https://github.com/kaikai2/luminesk5
   type: remake
+  added: 2015-04-13
   updated: 2022-06-16
 
 - name: Lunar Lander
