@@ -11,6 +11,7 @@ INSPIRED_PATTERN = re.compile(r"Inspired entries: (.+)")
 ALIASES = {
     "Alone in the Dark series": "Alone in the Dark",
     "Anno (series)": "Anno series",
+    "Anno 1404": "Anno series",
     "BioWare's Aurora engine": "Neverwinter Nights",
     "Blake Stone: Aliens of Gold": "Blake Stone: Planet Strike",
     "Blasteroids": "Asteroids",
@@ -45,10 +46,12 @@ ALIASES = {
 }
 # Games that aren't games, aren't interesting enough or weren't closed source
 BLACKLIST = {
+    "Angband",
     "arithmetic",
     "Black Shades",
     "Blob Wars Attrition",
     "Blobby Volley",
+    "Brogue",
     "Chromium B.S.U.",
     "CorsixTH",
     "Crossfire",
