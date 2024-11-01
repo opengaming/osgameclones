@@ -77,19 +77,27 @@
   langs:
   - C
   frameworks:
-  - SDL
+  - SDL2
+  - OpenGL
   licenses:
   - GPL2
+  content: open
   development: sporadic
   originals:
   - 'X-COM: UFO Defense'
   - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
   status: playable
+  multiplayer:
+  - LAN
+  - Online
+  - Competitive
+  - Co-op
   repo: https://sourceforge.net/projects/ufoai/
   type: clone
   url: https://ufoai.org/wiki/News
-  updated: 2023-08-18
+  added: 2011-06-01
+  updated: 2024-11-01
 
 - name: UGH-remake
   langs:
