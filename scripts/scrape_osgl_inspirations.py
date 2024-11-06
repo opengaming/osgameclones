@@ -52,6 +52,7 @@ BLACKLIST = {
     "Blob Wars Attrition",
     "Blobby Volley",
     "Brogue",
+    "Cards Against Humanity",
     "Chromium B.S.U.",
     "CorsixTH",
     "Crossfire",
