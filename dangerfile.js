@@ -27,6 +27,7 @@ const knownFrameworks = [
   'Box2D',
   'Bullet3',
   'Carbon',
+  'Castle Game Engine',
   'CreateJS',
   'Cocos2d',
   'Construct',
