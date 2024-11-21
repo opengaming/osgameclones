@@ -588,7 +588,7 @@
   - Lego Universe
   type: remake
   repo: 'https://github.com/UchuServer/Uchu'
-  development: active
+  development: halted
   status: playable
   multiplayer:
   - Local
@@ -597,9 +597,12 @@
   content: commercial
   langs:
   - 'C#'
+  frameworks:
+  - .NET
   licenses:
-  - GPL3
+  - AGPL3
   info: A Server project emulating original data from NetDevil's Lego Universe (2010)
-  updated: '2022-02-15'
+  added: 2022-02-15
+  updated: 2024-11-21
   video:
     youtube: _b6HYmdcA8c
