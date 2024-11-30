@@ -61,6 +61,7 @@ BLACKLIST = {
     "Cube 2: Sauerbraten",
     "CUBE engine",
     "Daimonin",
+    "Dragon Wars",
     "DragonBall",
     "Dungeon Crawl Stone Soup",
     "Eternal Lands",
