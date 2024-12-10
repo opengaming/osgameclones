@@ -21,6 +21,7 @@ const knownFrameworks = [
   'Adobe AIR',
   'Adventure Game Studio',
   'Allegro',
+  'angular',
   'Avalonia',
   'BackBone.js',
   'bgfx',
