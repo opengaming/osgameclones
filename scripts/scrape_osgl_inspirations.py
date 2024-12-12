@@ -64,8 +64,11 @@ BLACKLIST = {
     "Dragon Wars",
     "DragonBall",
     "Dungeon Crawl Stone Soup",
+    "Elite Command",
+    "Emerald Mine",     # clone of Boulder Dash
     "Eternal Lands",
     "Falcon's Eye",
+    "Final Fantasy series",   # not specific enough
     "Flixel",
     "FooBillard",
     "GalaxyMage",
@@ -107,6 +110,7 @@ BLACKLIST_CLONES = {
     "CommonDrops",  # halted, unknown status
     "DOOM-iOS",  # Superseded by DOOM-iOS2
     "Slot-Racers",  # 404, inactive
+    "Story of a Lost Sky",  # halted, unclear how good/playable it is
 }
 
 
