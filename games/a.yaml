@@ -853,17 +853,31 @@
 
 - name: Atomic Tanks
   images:
-  - https://atanks.sourceforge.net/Screenshots/scrnshot28.png
-  - https://atanks.sourceforge.net/Screenshots/scrnshot23.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot28.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot29.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot30.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot27.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot19.png
+  - https://atanks.sourceforge.io/Screenshots/scrnshot20.png
   licenses:
   - GPL2
-  development: sporadic
+  content: open
+  development: halted
+  langs:
+  - C++
+  frameworks:
+  - Allegro
   originals:
   - Scorched Earth
   repo: https://sourceforge.net/projects/atanks/
+  feed: https://sourceforge.net/p/atanks/activity/feed
   status: playable
+  multiplayer:
+  - Competitive
+  - Hotseat
   type: remake
-  updated: 2013-06-06
+  added: 2013-06-06
+  updated: 2025-01-03
   url: https://atanks.sourceforge.io
 
 - name: Atomiks
