@@ -10,7 +10,7 @@ poetry:
 	pip3 install -q poetry
 
 poetry-install:
-	poetry install -q
+	poetry install
 
 prod: poetry poetry-install run min
 ci: poetry-install run
