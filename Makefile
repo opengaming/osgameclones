@@ -7,10 +7,10 @@ min:
 	poetry run htmlmin _build/index.html _build/index.html
 
 poetry:
-	pip3 install -q poetry
+	pipx install poetry
 
 poetry-install:
-	poetry install -q
+	poetry install --no-root
 
 prod: poetry poetry-install run min
 ci: poetry-install run
