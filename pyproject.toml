@@ -14,16 +14,14 @@ Unidecode = "1.3.2"
 htmlmin = "0.1.12"
 python-slugify = "^8.0.1"
 
-[tool.poetry.dev-dependencies]
-yamllint = "^1.27.1"
-beautifulsoup4 = "^4.12.2"
-tenacity = "^8.2.2"
-
 [tool.poetry.group.dev.dependencies]
+beautifulsoup4 = "^4.12.2"
 httpx = "^0.27.0"
 mistletoe = "^1.4.0"
 pandas = "^2.2.2"
 feedparser = "^6.0.11"
+tenacity = "^8.2.2"
+yamllint = "^1.27.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
