@@ -303,7 +303,7 @@ def parse_data(site):
 
     def has_invalid_status(clone) -> bool:
         # Tools and only tools must have N/A status
-        return (clone["type"] == "tool") != (clone["status"] != "N/A")
+        return (clone["type"] == "tool") != (clone["status"] == "N/A")
 
     for clone in clones:
         if 'originals' not in clone:
