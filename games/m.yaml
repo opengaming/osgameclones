@@ -639,7 +639,7 @@
   langs:
   - Lua
   frameworks:
-  - Minetest Engine
+  - Luanti
   licenses:
   - GPL3
   - CC-BY-SA
@@ -833,14 +833,21 @@
   updated: 2023-10-02
   url: https://minesweeper.zone
 
-- name: Minetest
+- name: Minetest Game
   development: very active
   images:
-  - https://www.minetest.net/media/gallery/1.jpg
-  - https://www.minetest.net/media/gallery/6.jpg
+  - https://www.luanti.org/media/gallery/1.jpg
+  - https://www.luanti.org/media/gallery/2.jpg
+  - https://www.luanti.org/media/gallery/3.jpg
+  - https://www.luanti.org/media/gallery/4.jpg
+  - https://www.luanti.org/media/gallery/5.jpg
+  - https://www.luanti.org/media/gallery/6.jpg
+  - https://www.luanti.org/media/gallery/7.jpg
+  - https://www.luanti.org/media/gallery/8.jpg
   langs:
-  - C++
   - Lua
+  frameworks:
+  - Luanti
   licenses:
   - LGPL2
   - CC-BY-SA
@@ -851,11 +858,13 @@
   multiplayer:
   - Online
   - LAN
-  repo: https://github.com/minetest/minetest
-  info: Mintest is an engine, but ships with the game Minetest Game
+  repo: https://github.com/minetest/minetest_game
+  info: Minetest Game (abbreviated MTG) is a simple and peaceful sandbox game, with no real goals or built-in enemy mobs.
   type: similar
-  updated: 2023-10-03
-  url: https://www.minetest.net/
+  added: 2013-10-10
+  updated: 2025-01-08
+  url: https://www.luanti.org
+  feed: https://blog.luanti.org/feed.rss
 
 - name: Minima
   images:
