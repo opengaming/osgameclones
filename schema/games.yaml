@@ -40,12 +40,14 @@ schema;game:
         Sporadic: commits within the past year<br>
         Halted: no commits within the past year
     status:
+      required: True
       type: str
-      enum: ['playable', 'semi-playable', 'unplayable']
+      enum: ['playable', 'semi-playable', 'unplayable', 'N/A']
       desc: |
         Playable: all major features working, full game can be completed<br>
         Semi-playable: game runs and some parts of the game playable<br>
-        Unplayable: game cannot be played, e.g. can only load assets
+        Unplayable: game cannot be played, e.g. can only load assets<br>
+        N/A: does not apply, i.e. for tools
     multiplayer:
       type: seq
       sequence:

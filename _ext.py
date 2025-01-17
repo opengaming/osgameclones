@@ -301,8 +301,9 @@ def parse_data(site):
     if len(errors) > 0:
         show_errors(errors)
 
-    def has_no_status(clone) -> bool:
-        return clone["type"] not in ("official", "tool") and "status" not in clone
+    def has_invalid_status(clone) -> bool:
+        # Tools and only tools must have N/A status
+        return (clone["type"] == "tool") != (clone["status"] == "N/A")
 
     for clone in clones:
         if 'originals' not in clone:
@@ -327,10 +328,10 @@ def parse_data(site):
                 "name": clone['name'],
                 "error": "Added date is after updated date"
             })
-        if has_no_status(clone):
+        if has_invalid_status(clone):
             errors.append({
-                "name": clone['name'],
-                "error": "Has no status field"
+                "name": clone["name"],
+                "error": "Has invalid status - tools must be N/A"
             })
 
     if len(errors) > 0:
