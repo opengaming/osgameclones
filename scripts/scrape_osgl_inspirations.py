@@ -72,6 +72,7 @@ BLACKLIST = {
     "Flixel",
     "FooBillard",
     "GalaxyMage",
+    "Game of Life",  # ambiguous, combines >1 game
     "GearHead",
     "GL-117",
     "Kobold's Quest",
