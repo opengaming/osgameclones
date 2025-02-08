@@ -483,15 +483,19 @@
 - name: Thyme
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
-  development: active
+  content: commercial
+  development: sporadic
   originals:
   - 'Command & Conquer: Generals'
   repo: https://github.com/TheAssemblyArmada/Thyme
   type: remake
   status: playable
-  updated: 2018-11-02
+  added: 2018-02-05
+  updated: 2025-02-08
 
 - name: Tile World
   langs:
