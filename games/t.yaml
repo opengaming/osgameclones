@@ -506,29 +506,46 @@
 - name: Tile World
   langs:
   - C
+  frameworks:
+  - SDL
   licenses:
   - GPL2
-  development: sporadic
+  content: commercial
+  development: halted
   originals:
   - Chip's Challenge
   status: playable
   type: remake
-  updated: 2014-01-05
+  added: 2014-01-05
+  updated: 2025-02-09
   url: https://www.muppetlabs.com/~breadbox/software/tworld/
+  images:
+  - https://www.muppetlabs.com/~breadbox/software/tworld/ss/full1.jpg
+  - https://www.muppetlabs.com/~breadbox/software/tworld/ss/full2.jpg
+  info: emulation of the game engine, does not include game data
 
 - name: Tile World 2
   langs:
   - C
+  frameworks:
+  - SDL
+  - Qt
   licenses:
   - GPL2
-  development: halted
+  content: commercial
+  development: sporadic
   originals:
   - Chip's Challenge
-  repo: https://github.com/Qalthos/Tile-World
+  repo: https://github.com/SicklySilverMoon/tworld
+  url: https://tw2.bitbusters.club
   status: playable
   type: remake
-  updated: 2014-01-05
-  url: https://github.com/Qalthos/Tile-World
+  added: 2014-01-05
+  updated: 2025-02-09
+  info: improves upon Tile World
+  images:
+  - https://tw2.bitbusters.club/play.png
+  - https://tw2.bitbusters.club/replay.png
 
 - name: Tiny Wings
   langs:
