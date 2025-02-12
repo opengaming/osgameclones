@@ -312,6 +312,57 @@
   updated: 2022-09-19
   url: https://sourceforge.net/projects/maxit/
 
+- name: Mayhem
+  originals:
+  - Mayhem
+  type: remake
+  repo: 'https://github.com/devpack/mayhem'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  - Split-screen
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  info: PC port
+  added: '2025-02-12'
+  updated: '2025-02-12'
+  images:
+  - 'https://raw.githubusercontent.com/devpack/mayhem/master/wiki/mayhem.jpg'
+
+- name: Mayhem 2
+  originals:
+  - Mayhem
+  type: remake
+  repo: 'https://github.com/martinohanlon/mayhem'
+  url: 'https://www.stuffaboutcode.com/2016/06/mayhem-2-open-source-cave-shooter.html'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  - Split-screen
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - BSD
+  info: 'raspberry pi port also available at https://github.com/martinohanlon/mayhem-pi'
+  added: '2025-02-12'
+  updated: '2025-02-12'
+  images:
+  - 'https://github.com/martinohanlon/mayhem/blob/master/mayhem2.jpg?raw=true'
+  video:
+    youtube: Vxozz0Ijdr0
+
 - name: mc2
   langs:
   - C++
