@@ -650,9 +650,7 @@
 
 - name: Tower Toppler
   images:
-  - https://toppler.sourceforge.net/images/shot1_hr.png
-  - https://toppler.sourceforge.net/images/shot2_hr.png
-  - https://toppler.sourceforge.net/images/shot3_hr.png
+  - https://gitlab.com/roever/toppler/-/raw/main/doc/TowerGraphicsCompare12.png
   langs:
   - C++
   frameworks:
@@ -665,6 +663,7 @@
   status: playable
   type: remake
   repo: https://gitlab.com/roever/toppler/
+  added: 2013-05-27
   updated: 2023-09-14
 
 - name: Trackballs
