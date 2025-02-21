@@ -811,22 +811,26 @@
   langs:
   - C
   frameworks:
-  - SDL
+  - SDL2
   - OpenGL
   - OpenAL
   licenses:
   - GPL2
   - CC-BY-SA
+  content: open
   development: halted
   status: playable
   multiplayer:
   - Online
   - LAN
+  - Competitive
+  - Co-op
   originals:
   - Gloom (Quake)
   - Natural Selection
   repo: https://github.com/darklegion/tremulous
   type: similar
+  added: 2013-06-08
   updated: 2020-09-06
   url: https://tremulous.net
 
