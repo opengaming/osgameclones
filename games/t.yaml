@@ -886,12 +886,12 @@
   type: remake
   updated: 2020-08-31
 
-- name: TR1X
+- name: TRX
   originals:
   - Tomb Raider
   type: remake
-  repo: 'https://github.com/LostArtefacts/TR1X'
-  feed: 'https://github.com/LostArtefacts/TR1X/releases.atom'
+  repo: https://github.com/LostArtefacts/TRX
+  feed: https://github.com/LostArtefacts/TRX/releases.atom
   development: active
   status: playable
   content: commercial
@@ -901,25 +901,18 @@
   - SDL2
   licenses:
   - GPL3
-  info: made by reverse engineering the TombATI / GLRage variant of the original game
-  updated: '2023-12-02'
+  info: merged TR1X + TR2X, reimplements both Tomb Raiders 1 + 2
+  added: 2023-12-02
+  updated: 2025-02-27
   images:
-  - >-
-    https://github.com/LostArtefacts/TR1X/blob/develop/docs/showcase/braid.jpg?raw=true
-  - >-
-    https://github.com/LostArtefacts/TR1X/blob/develop/docs/showcase/enemy_health_bar_and_scaling.jpg?raw=true
-  - >-
-    https://github.com/LostArtefacts/TR1X/blob/develop/docs/showcase/3d_pickups.jpg?raw=true
-  - >-
-    https://github.com/LostArtefacts/TR1X/blob/develop/docs/showcase/compass_stats.jpg?raw=true
-  - >-
-    https://raw.githubusercontent.com/LostArtefacts/TR1X/develop/docs/showcase/draw_distance.webp
-  - >-
-    https://github.com/LostArtefacts/TR1X/blob/develop/docs/showcase/fly_cheat.jpg?raw=true
-  - >-
-    https://github.com/LostArtefacts/TR1X/blob/develop/docs/showcase/free_camera.jpg?raw=true
-  - >-
-    https://github.com/LostArtefacts/TR1X/blob/develop/docs/showcase/ps1_ui_and_gfx.jpg?raw=true
+  - https://github.com/LostArtefacts/TRX/raw/develop/docs/tr1/showcase/braid.jpg
+  - https://github.com/LostArtefacts/TRX/raw/develop/docs/tr1/showcase/enemy_health_bar_and_scaling.jpg
+  - https://github.com/LostArtefacts/TRX/raw/develop/docs/tr1/showcase/3d_pickups.jpg
+  - https://github.com/LostArtefacts/TRX/raw/develop/docs/tr1/showcase/skybox.jpg
+  - https://github.com/LostArtefacts/TRX/raw/develop/docs/tr1/showcase/draw_distance.webp
+  - https://github.com/LostArtefacts/TRX/raw/develop/docs/tr1/showcase/console.webp
+  - https://github.com/LostArtefacts/TRX/raw/develop/docs/tr1/showcase/free_camera.jpg
+  - https://github.com/LostArtefacts/TRX/raw/develop/docs/tr1/showcase/ps1_ui_and_gfx.jpg
 
 - name: TTDPatch
   originals:
