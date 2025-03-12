@@ -1103,10 +1103,12 @@
   images:
   - https://user-images.githubusercontent.com/2625226/64739997-2935a100-d4f4-11e9-93e2-0b8c9ca00095.png
 
-- name: twin-e
-  development: halted
+- name: TwinEngine
+  development: sporadic
   langs:
   - C
+  frameworks:
+  - SDL
   licenses:
   - GPL2
   content: commercial
@@ -1115,8 +1117,11 @@
   repo: https://github.com/xesf/twin-e
   status: playable
   type: remake
-  updated: 2017-10-23
-  url: https://github.com/xesf/twin-e
+  added: 2014-11-09
+  updated: 2025-03-12
+  url: https://lbalab.github.io/lba-engine-architecture/
+  images:
+  - https://github.com/LBALab/twin-e/raw/main/docs/twin-e.png
 
 - name: Tyger
   type: remake
