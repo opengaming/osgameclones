@@ -242,16 +242,18 @@
   - ZZT
   - Super ZZT
   repo: https://github.com/asiekierka/zeta
+  feed: https://github.com/asiekierka/zeta/releases.atom
   url: https://zeta.asie.pl/
-  development: complete
+  development: active
   langs:
   - C
   frameworks:
   - SDL2
   licenses:
   - MIT
-  info: Dedicated emulator
-  updated: 2020-06-26
+  info: DOS emulator designed to run ZZT
+  added: 2020-06-26
+  updated: 2025-03-13
 
 - name: ZGloom
   originals:
@@ -385,6 +387,7 @@
   - Go
   licenses:
   - MIT
+  added: 2020-06-26
   updated: 2020-12-15
   images:
   - https://benhoyt.com/images/zztgo.png
