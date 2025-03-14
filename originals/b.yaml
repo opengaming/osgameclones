@@ -370,6 +370,19 @@
   platforms:
   - Windows
 
+- name: Black & White
+  external:
+    wikipedia: Black & White (video game)
+  platforms:
+  - Windows
+  - OSX
+  meta:
+    genres:
+    - Simulation
+    - Strategy
+    themes:
+    - Fantasy
+
 - name: The Black Cauldron
   external:
     website: https://www.mobygames.com/game/194
@@ -415,16 +428,15 @@
     genres:
     - Adventure
 
-- name: Black & White
+- name: Blades of Exile
   external:
-    wikipedia: Black & White (video game)
+    website: 'https://www.spiderwebsoftware.com/blades/opensource.html'
   platforms:
+  - Classic Mac OS
   - Windows
-  - OSX
   meta:
     genres:
-    - Simulation
-    - Strategy
+    - RPG
     themes:
     - Fantasy
 
