@@ -1035,15 +1035,25 @@
 - name: FreePrince
   langs:
   - C
+  frameworks:
+  - SDL
   licenses:
   - GPL2
+  content: commercial
   development: halted
   originals:
   - Prince of Persia
   status: playable
   type: remake
-  updated: 2014-01-12
+  added: 2014-01-12
+  updated: 2025-03-18
+  repo: https://sdfg.com.ar/git/r/fp-git.git/
   url: https://www.princed.org/downloads/#FreePrince
+  images:
+  - https://www.princed.org/content/files/screenshots/freeprince1.png
+  - https://www.princed.org/content/files/screenshots/freeprince2.png
+  - https://www.princed.org/content/files/screenshots/freeprince3.png
+  - https://www.princed.org/content/files/screenshots/freeprince4.png
 
 - name: FreeRails
   images:
