@@ -18,7 +18,7 @@
   type: remake
   repo: 'https://github.com/TorrSamaho/zandronum'
   url: 'https://zandronum.com'
-  development: halted
+  development: sporadic
   status: playable
   multiplayer:
   - Competitive
@@ -28,13 +28,17 @@
   langs:
   - C++
   - C
+  frameworks:
+  - SDL
+  - OpenGL
   licenses:
   - Custom
   info: >-
     Zandronum is a source port focused on offering a modernized multiplayer
     experience, offering new game modes such as capture the flag, invasion or
     domination.
-  updated: '2023-06-04'
+  added: 2023-06-04
+  updated: 2023-06-04
   video:
     youtube: 5mLDugjh0Ro
 
