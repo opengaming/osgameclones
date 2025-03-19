@@ -381,35 +381,43 @@
 - name: xrick
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
+  content: free
   development: halted
   originals:
   - Rick Dangerous
   status: playable
   type: remake
-  updated: 2023-03-26
-  url: https://www.bigorno.net/xrick/
-  images:
-  - https://www.bigorno.net/xrick/shot01.gif
-  - https://www.bigorno.net/xrick/shot02.gif
-  - https://www.bigorno.net/xrick/shot03.gif
-  - https://www.bigorno.net/xrick/shot04.gif
-  - https://www.bigorno.net/xrick/shot05.gif
+  added: 2014-01-12
+  updated: 2025-03-18
+  repo: https://github.com/zpqrtbnk/xrick
+  url: https://www.xrick.net
+  video:
+    youtube: V09CwrlFgA8
 
 - name: XScavenger
   images:
   - https://www.linuxmotors.com/linux/scavenger/scav.gif
+  - https://a.fsdn.com/con/app/proj/sdlscavenger/screenshots/281235.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/sdlscavenger/screenshots/281239.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/sdlscavenger/screenshots/281237.jpg/max/max/1
   langs:
   - C
+  frameworks:
+  - SDL
   licenses:
   - GPL2
+  content: open
   development: halted
   originals:
   - Lode Runner
   status: playable
   type: remake
   repo: https://sourceforge.net/projects/sdlscavenger/
+  added: 2014-01-12
   updated: 2020-08-25
   url: https://www.linuxmotors.com/linux/scavenger/index.html
 
