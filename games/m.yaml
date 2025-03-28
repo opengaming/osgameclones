@@ -169,9 +169,9 @@
 
 - name: Manic Digger
   images:
-  - https://manicdigger.github.io/images/release_2015-08-22.png
-  - https://manicdigger.sourceforge.net/wiki/images/2/2c/2010-07-09_17-25-25.png
-  - https://manicdigger.sourceforge.net/wiki/images/5/55/2010-07-06_20-51-58.png
+  - https://raw.githubusercontent.com/manicdigger/manicdigger-screenshots/master/2014-11-27_18-35-13.png
+  - https://raw.githubusercontent.com/manicdigger/manicdigger-screenshots/master/9c1d22eac9aac5f36bf12a5fb5c8a856.png
+  - https://raw.githubusercontent.com/manicdigger/manicdigger-screenshots/master/2012-10-15_02-13-14.png
   langs:
   - C#
   frameworks:
@@ -179,16 +179,18 @@
   licenses:
   - PD
   content: open
-  development: halted
+  development: sporadic
   originals:
   - Minecraft
   status: playable
   multiplayer:
   - Online
   repo: https://github.com/manicdigger/manicdigger
+  feed: https://github.com/manicdigger/manicdigger/releases.atom
   type: remake
+  added: 2013-10-10
   updated: 2021-07-25
-  url: https://manicdigger.sourceforge.net
+  url: https://sourceforge.net/projects/manicdigger/
 
 - name: Manic Miner PC
   langs:
