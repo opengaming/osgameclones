@@ -14,6 +14,31 @@ jobs:
       env:
         GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+  pr_check:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Install poetry
+      uses: abatilo/actions-poetry@v4.0.0
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+        cache: 'poetry'
+
+    - name: PR Check
+      run: |
+        poetry install --no-root --with dev
+        poetry run python .github/workflows/pr_check.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+        PR_NUMBER: ${{ github.event.pull_request.number }}
+
   build:
     runs-on: ubuntu-latest
     steps:

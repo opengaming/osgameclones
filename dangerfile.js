@@ -4,8 +4,6 @@ const url = require('url')
 const yaml = require('js-yaml')
 const fs = require('fs')
 
-markdown("Hey there! Thanks for contributing a PR to osgameclones! 🎉")
-
 let namesAdded = []
 let namesChanged = []
 let namesRemoved = []
