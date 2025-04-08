@@ -101,6 +101,7 @@ const knownFrameworks = [
   'Rx.js',
   'SDL',
   'SDL2',
+  'SDL3',
   'SDL.NET',
   'Sea3D',
   'SFML',
