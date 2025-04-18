@@ -606,9 +606,12 @@
 - name: Metaforce
   langs:
   - C++
+  frameworks:
+  - SDL3
   licenses:
   - MIT
-  development: sporadic
+  content: commercial
+  development: active
   originals:
   - Metroid Prime
   repo: 'https://github.com/AxioDL/metaforce'
@@ -616,7 +619,8 @@
   url: 'https://axiodl.com/'
   status: unplayable
   info: A reverse-engineered, native reimplementation of Metroid Prime
-  updated: '2023-07-28'
+  added: 2015-03-08
+  updated: 2025-04-18
   images:
   - https://github.com/AxioDL/metaforce/blob/main/assets/metaforce-screen1.png?raw=true
   - https://axiodl.com/images/hecl_hu25398d5c0d2da88c4a5221db09696c79_1724775_0x480_resize_bg292a2d_box_3.png
