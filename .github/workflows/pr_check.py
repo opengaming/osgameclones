@@ -28,6 +28,8 @@ if removed:
     change_comment += f"\nRemoved files: {', '.join(removed)}"
 if change_comment:
     content += f"\n<!--{change_comment}-->"
+else:
+    content += f"\n<!--No changes found!-->"
 
 # Update GitHub PR
 for c in pr.get_comments():
