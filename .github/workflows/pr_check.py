@@ -13,10 +13,11 @@ content = "Hey there! Thanks for contributing a PR to osgameclones! 🎉"
 g = Github(GITHUB_TOKEN)
 repo = g.get_repo(GITHUB_REPOSITORY)
 pr = repo.get_pull(PR_NUMBER)
+print("PR", pr.url)
 
 # Get game changes
 print("reading diff", pr.diff_url)
-diff = httpx.get(pr.diff_url).read().decode()
+diff = httpx.get(pr.diff_url, follow_redirects=True).text
 print("diff", diff)
 patchset = PatchSet(diff)
 added = [patch.target_file for patch in patchset.added_files]
