@@ -1,7 +1,7 @@
 import os
 
 import httpx
-from github import Github
+from github import Github, GithubException
 from unidiff import PatchSet
 
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
@@ -18,7 +18,6 @@ print("PR", pr.url)
 # Get game changes
 print("reading diff", pr.diff_url)
 diff = httpx.get(pr.diff_url, follow_redirects=True).text
-print("diff", diff)
 patchset = PatchSet(diff)
 added = [patch.target_file for patch in patchset.added_files]
 modified = [patch.target_file for patch in patchset.modified_files]
@@ -36,7 +35,7 @@ else:
     content += "\n<!--No changes found!-->"
 
 # Update GitHub PR
-for c in pr.get_comments():
+for c in pr.get_issue_comments():
     print("checking comment", c.user.login)
     if c.user.login == GITHUB_BOT_LOGIN:
         print("found bot comment", c.body)
@@ -46,4 +45,13 @@ for c in pr.get_comments():
         break
 else:
     print("bot comment not found")
-    comment = pr.create_issue_comment(content)
+    try:
+        comment = pr.create_issue_comment(content)
+    except GithubException as e:
+        print("cannot create issue comment - possibly a non-standard PR", e)
+
+"""
+Ideas for more PR suggestions
+- If repo is github, suggest releases feed
+- Scrape repo and url and look for screenshot candidates
+"""
