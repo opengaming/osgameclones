@@ -1,8 +1,6 @@
 import os
 
-import httpx
 from github import Github, GithubException
-from unidiff import PatchSet
 
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
@@ -16,23 +14,14 @@ pr = repo.get_pull(PR_NUMBER)
 print("PR", pr.url)
 
 # Get game changes
-print("reading diff", pr.diff_url)
-diff = httpx.get(pr.diff_url, follow_redirects=True).text
-patchset = PatchSet(diff)
-added = [patch.target_file for patch in patchset.added_files]
-modified = [patch.target_file for patch in patchset.modified_files]
-removed = [patch.target_file for patch in patchset.removed_files]
-change_comment = ""
-if added:
-    change_comment += f"\nAdded files: {', '.join(added)}"
-if modified:
-    change_comment += f"\nModified files: {', '.join(modified)}"
-if removed:
-    change_comment += f"\nRemoved files: {', '.join(removed)}"
-if change_comment:
-    content += f"\n<!--{change_comment}-->"
+files = pr.get_files()
+changed_files = [str(file) for file in files]
+change_comment: str
+if changed_files:
+    change_comment = f"\nFiles in PR: {', '.join(changed_files)}"
 else:
-    content += "\n<!--No changes found!-->"
+    change_comment = "\n<!--No changes found!-->"
+content += f"\n<!--{change_comment}-->"
 
 # Update GitHub PR
 for c in pr.get_issue_comments():
