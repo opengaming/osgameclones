@@ -118,6 +118,7 @@ const knownFrameworks = [
   'Torque 3D',
   'Tween.js',
   'Unity',
+  'Unreal Engine 5',
   'VDrift Engine',
   'Vue.js',
   'Vulkan',
