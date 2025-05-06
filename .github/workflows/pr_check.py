@@ -31,7 +31,7 @@ def load_games_file(filename: str, sha: str):
     except GithubException as e:
         print("Cannot get file at", filename, e)
         return {}
-    file = contents.content
+    file = contents.decoded_content.decode()
     parsed = yaml.safe_load(file)
     print(parsed)
     return {game["name"]: game for game in parsed}
