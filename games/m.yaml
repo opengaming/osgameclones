@@ -921,7 +921,7 @@
   originals:
   - Minesweeper
   type: clone
-  repo: 'https://github.com/robmikh/minesweeper-rs'
+  repo: https://github.com/robmikh/minesweeper-rs
   development: sporadic
   status: playable
   content: open
@@ -929,8 +929,9 @@
   - Rust
   licenses:
   - MIT
-  info: A port of robmikh/Minesweeper using winrt-rs
-  updated: '2020-10-11'
+  info: A port of robmikh/Minesweeper using windows-rs
+  added: 2020-10-11
+  updated: 2020-10-11
   images:
   - https://user-images.githubusercontent.com/7089228/80656536-45ac2c80-8a36-11ea-8521-ab40fc922ce1.gif
 

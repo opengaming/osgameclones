@@ -23,6 +23,18 @@ else:
     change_comment = "\n<!--No changes found!-->"
 content += f"\n<!--{change_comment}-->"
 
+# Update issue
+labels = set(pr.labels)
+for file in files:
+    if file.filename.endswith(".py"):
+        labels.add("python")
+    elif file.filename.endswith(".js"):
+        labels.add("javascript")
+    # TODO: set game-correction, game-addition
+if labels != set(pr.labels):
+    print("Updating labels from", pr.labels, "to", labels)
+    pr.set_labels(*labels)
+
 # Update GitHub PR
 for c in pr.get_issue_comments():
     print("checking comment", c.user.login)
