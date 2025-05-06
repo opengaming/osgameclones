@@ -33,6 +33,7 @@ def load_games_file(filename: str, sha: str):
         return {}
     file = contents.content
     parsed = yaml.safe_load(file)
+    print(parsed)
     return {game["name"]: game for game in parsed}
 
 
