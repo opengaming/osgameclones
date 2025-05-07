@@ -1,5 +1,6 @@
 import os
-
+import re
+import yaml
 from github import Github, GithubException
 
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
@@ -23,6 +24,19 @@ else:
     change_comment = "\n<!--No changes found!-->"
 content += f"\n<!--{change_comment}-->"
 
+
+def load_games_file(filename: str, sha: str):
+    try:
+        contents = repo.get_contents(filename, sha)
+    except GithubException as e:
+        print("Cannot get file at", filename, e)
+        return {}
+    file = contents.decoded_content.decode()
+    parsed = yaml.safe_load(file)
+    print(parsed)
+    return {game["name"]: game for game in parsed}
+
+
 # Update issue
 labels = set(pr.labels)
 for file in files:
@@ -30,7 +44,23 @@ for file in files:
         labels.add("python")
     elif file.filename.endswith(".js"):
         labels.add("javascript")
-    # TODO: set game-correction, game-addition
+    elif re.match(r"^games/\w+\.yaml$", file.filename):
+        print("Game file changed", file)
+        old_games = load_games_file(file.filename, pr.base.sha)
+        new_games = load_games_file(file.filename, pr.head.sha)
+
+        for game in old_games:
+            if game not in new_games:
+                print("Removed game", game)
+        for game in new_games:
+            if game not in old_games:
+                print("Added game", game)
+        for game in old_games:
+            if game in new_games:
+                if old_games[game] != new_games[game]:
+                    print("Changed game", game)
+
+        # TODO: set game-correction, game-addition
 if labels != set(pr.labels):
     print("Updating labels from", pr.labels, "to", labels)
     pr.set_labels(*labels)
