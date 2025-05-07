@@ -33,7 +33,6 @@ def load_games_file(filename: str, sha: str):
         return {}
     file = contents.decoded_content.decode()
     parsed = yaml.safe_load(file)
-    print(parsed)
     return {game["name"]: game for game in parsed}
 
 
@@ -52,15 +51,17 @@ for file in files:
         for game in old_games:
             if game not in new_games:
                 print("Removed game", game)
+                labels.add("game-correction")
         for game in new_games:
             if game not in old_games:
                 print("Added game", game)
+                labels.add("game-addition")
         for game in old_games:
             if game in new_games:
                 if old_games[game] != new_games[game]:
                     print("Changed game", game)
+                    labels.add("game-correction")
 
-        # TODO: set game-correction, game-addition
 if labels != set(pr.labels):
     print("Updating labels from", pr.labels, "to", labels)
     pr.set_labels(*labels)
