@@ -4,10 +4,6 @@ const url = require('url')
 const yaml = require('js-yaml')
 const fs = require('fs')
 
-let namesAdded = []
-let namesChanged = []
-let namesRemoved = []
-
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 let unknownLanguageDetected = false
@@ -241,16 +237,13 @@ const commonChecks = game => {
 // -----------
 
 const onGameAdded = game => {
-  namesAdded.push(game.name)
   checkRepoAdded(game)
   commonChecks(game)
 }
 const onGameChanged = game => {
-  namesChanged.push(game.name)
   commonChecks(game)
 }
 const onGameRemoved = game => {
-  namesRemoved.push(game.name)
 }
 
 const getGameChanges = files => {
@@ -278,15 +271,6 @@ const getGameChanges = files => {
     })
     if (unknownLanguageDetected) message(`Known languages are ${knownLanguages.join(", ")}.`)
     if (unknownFrameworkDetected) message(`Known frameworks are ${knownFrameworks.join(", ")}.`)
-    if (namesAdded.length > 0) {
-      message(`Game(s) added: ${danger.utils.sentence(namesAdded)} 🎊`)
-    }
-    if (namesChanged.length > 0) {
-      message(`Game(s) updated: ${danger.utils.sentence(namesChanged)} 👏`)
-    }
-    if (namesRemoved.length > 0) {
-      message(`Game(s) removed: ${danger.utils.sentence(namesRemoved)} 😿`)
-    }
   })
 }
 getGameChanges([].concat(danger.git.modified_files || [], danger.git.created_files || [], danger.git.deleted_files || []))
