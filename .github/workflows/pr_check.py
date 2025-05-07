@@ -17,12 +17,7 @@ print("PR", pr.url)
 # Get game changes
 files = pr.get_files()
 changed_files = [str(file) for file in files]
-change_comment: str
-if changed_files:
-    change_comment = f"\nFiles in PR: {', '.join(changed_files)}"
-else:
-    change_comment = "\n<!--No changes found!-->"
-content += f"\n<!--{change_comment}-->"
+print("Changed files", changed_files)
 
 
 def load_games_file(filename: str, sha: str):
@@ -35,14 +30,17 @@ def load_games_file(filename: str, sha: str):
     parsed = yaml.safe_load(file)
     return {game["name"]: game for game in parsed}
 
-
-# Update issue
-labels = set(pr.labels)
+# Scan files for changes
+games_added = set()
+games_changed = set()
+games_removed = set()
+has_py = False
+has_js = False
 for file in files:
     if file.filename.endswith(".py"):
-        labels.add("python")
+        has_py = True
     elif file.filename.endswith(".js"):
-        labels.add("javascript")
+        has_js = True
     elif re.match(r"^games/\w+\.yaml$", file.filename):
         print("Game file changed", file)
         old_games = load_games_file(file.filename, pr.base.sha)
@@ -50,18 +48,33 @@ for file in files:
 
         for game in old_games:
             if game not in new_games:
-                print("Removed game", game)
-                labels.add("game-correction")
+                games_removed.add(game)
         for game in new_games:
             if game not in old_games:
-                print("Added game", game)
-                labels.add("game-addition")
+                games_added.add(game)
         for game in old_games:
             if game in new_games:
                 if old_games[game] != new_games[game]:
-                    print("Changed game", game)
-                    labels.add("game-correction")
+                    games_changed.add(game)
 
+# Update comment based on changed games
+if games_added:
+    content += f"\nGame{'s'[:len(games_added) ^ 1]} added: {', '.join(games_added)} 🎊"
+if games_changed:
+    content += f"\nGame{'s'[:len(games_changed) ^ 1]} updated: {', '.join(games_changed)} 👏"
+if games_removed:
+    content += f"\nGame{'s'[:len(games_removed) ^ 1]} removed: {', '.join(games_removed)} 😿"
+
+# Update issue labels
+labels = set(pr.labels)
+if has_py:
+    labels.add("python")
+if has_js:
+    labels.add("javascript")
+if games_added:
+    labels.add("game-addition")
+if games_changed or games_removed:
+    labels.add("game-correction")
 if labels != set(pr.labels):
     print("Updating labels from", pr.labels, "to", labels)
     pr.set_labels(*labels)
