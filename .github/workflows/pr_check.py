@@ -30,12 +30,22 @@ def load_games_file(filename: str, sha: str):
     parsed = yaml.safe_load(file)
     return {game["name"]: game for game in parsed}
 
+def common_checks(game):
+    yield from check_has_added(game)
+
+
+def check_has_added(game):
+    if "added" not in game:
+        yield f"📅 {game['name']} has no added date"
+
+
 # Scan files for changes
 games_added = set()
 games_changed = set()
 games_removed = set()
 has_py = False
 has_js = False
+check_messages = []
 for file in files:
     if file.filename.endswith(".py"):
         has_py = True
@@ -52,18 +62,24 @@ for file in files:
         for game in new_games:
             if game not in old_games:
                 games_added.add(game)
+                for message in common_checks(new_games[game]):
+                    check_messages.append(message)
         for game in old_games:
             if game in new_games:
                 if old_games[game] != new_games[game]:
                     games_changed.add(game)
+                    for message in common_checks(new_games[game]):
+                        check_messages.append(message)
 
-# Update comment based on changed games
+# Update comment based on changed games and checks
 if games_added:
     content += f"\nGame{'s'[:len(games_added) ^ 1]} added: {', '.join(games_added)} 🎊"
 if games_changed:
     content += f"\nGame{'s'[:len(games_changed) ^ 1]} updated: {', '.join(games_changed)} 👏"
 if games_removed:
     content += f"\nGame{'s'[:len(games_removed) ^ 1]} removed: {', '.join(games_removed)} 😿"
+if check_messages:
+    content += "\n### Issues found\n- " + "\n- ".join(check_messages)
 
 # Update issue labels
 labels = set(pr.labels)
