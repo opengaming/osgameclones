@@ -210,12 +210,6 @@ const checkFrameworkUsesLang = game => {
   })
 }
 
-const checkHasImagesOrVideos = game => {
-  if (!game.images && !game.video) {
-    warn(`🖼 ${game.name} has no images or videos. Please help improve the entry by finding one!`)
-  }
-}
-
 const commonChecks = game => {
   checkRepoGoogleCode(game)
   checkRepoGit(game)
@@ -224,7 +218,6 @@ const commonChecks = game => {
   checkLanguageKnown(game)
   checkFrameworkKnown(game)
   checkFrameworkUsesLang(game)
-  checkHasImagesOrVideos(game)
 }
 
 // -----------
