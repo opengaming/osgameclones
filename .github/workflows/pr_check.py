@@ -30,9 +30,11 @@ def load_games_file(filename: str, sha: str):
     parsed = yaml.safe_load(file)
     return {game["name"]: game for game in parsed}
 
+
 def common_checks(game):
     yield from check_has_added(game)
     yield from check_not_same_repo_and_url(game)
+    yield from check_has_images_or_videos(game)
 
 
 def check_has_added(game):
@@ -45,6 +47,12 @@ def check_not_same_repo_and_url(game):
         yield f"👯 {game['name']}'s url and repo are the same - " \
               "please use repo for the development project page (such as GitHub) " \
               "and url as the public-facing page, if any"
+
+
+def check_has_images_or_videos(game):
+    if not game.get("images") and not game.get("video"):
+        yield f"🖼 {game['name']} has no images or videos. " \
+              "Please help improve the entry by finding some!"
 
 
 # Scan files for changes
