@@ -2,12 +2,127 @@ import os
 import re
 import yaml
 from github import Github, GithubException
+from thefuzz import process
 
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
 PR_NUMBER = int(os.environ["PR_NUMBER"])
 GITHUB_BOT_LOGIN = "github-actions[bot]"
+KNOWN_FRAMEWORKS = [
+  '.NET',
+  'Adobe AIR',
+  'Adventure Game Studio',
+  'Allegro',
+  'angular',
+  'Avalonia',
+  'BackBone.js',
+  'bgfx',
+  'Box2D',
+  'Bullet3',
+  'Carbon',
+  'Castle Game Engine',
+  'CreateJS',
+  'Cocos2d',
+  'Construct',
+  'Construct2',
+  'Crystal Space',
+  'Cube 2 Engine',
+  'Daemon Engine',
+  'DirectX',
+  'DIV Games Studio',
+  'Duality',
+  'Ebitengine',
+  'EntityX',
+  'EnTT',
+  'Flash',
+  'Fyne',
+  'FMOD',
+  'FNA',
+  'GameMaker Studio',
+  'GameSprockets',
+  'gLib2D',
+  'Godot',
+  'Graphics32',
+  'GTK',
+  'HaxeFlixel',
+  'Impact',
+  'Inform',
+  'Irrlicht',
+  'JavaFX',
+  'JMonkeyEngine',
+  'jQuery',
+  'Kylix',
+  'Laravel',
+  'Lazarus',
+  'libGDX',
+  'libretro',
+  'LÖVE',
+  'LowRes NX',
+  'Luanti',
+  'LWJGL',
+  'macroquad',
+  'melonJS',
+  'Mono',
+  'MonoGame',
+  'ncurses',
+  'NeoAxis Engine',
+  'Netty.io',
+  'nya-engine',
+  'OGRE',
+  'Open Dynamics Engine',
+  'OpenAL',
+  'OpenFL',
+  'OpenGL',
+  'OpenRA',
+  'OpenSceneGraph',
+  'OpenTK',
+  'OpenXR',
+  'osu!framework',
+  'Oxygine',
+  'Panda3D',
+  'PandaJS',
+  'Phaser',
+  'PICO-8',
+  'Piston',
+  'PixiJS',
+  'pygame',
+  'QB64',
+  'Qt',
+  'raylib',
+  'React',
+  'Redux',
+  'rot.js',
+  'Rx.js',
+  'SDL',
+  'SDL2',
+  'SDL3',
+  'SDL.NET',
+  'Sea3D',
+  'SFML',
+  'Slick2D',
+  'Solarus',
+  'Source SDK',
+  'Spring RTS Engine',
+  'Starling',
+  'Swing',
+  'SWT',
+  'three.js',
+  'TGUI',
+  'TIC-80',
+  'Torque 3D',
+  'Tween.js',
+  'Unity',
+  'Unreal Engine 5',
+  'VDrift Engine',
+  'Vue.js',
+  'Vulkan',
+  'WebGL',
+  'wxWidgets',
+  'XNA'
+]
+MIN_FUZZ_SCORE = 90
 content = "Hey there! Thanks for contributing a PR to osgameclones! 🎉"
+unknown_frameworks = False
 
 g = Github(GITHUB_TOKEN)
 repo = g.get_repo(GITHUB_REPOSITORY)
@@ -35,6 +150,7 @@ def common_checks(game):
     yield from check_has_added(game)
     yield from check_not_same_repo_and_url(game)
     yield from check_has_images_or_videos(game)
+    yield from check_framework_known(game)
 
 
 def check_has_added(game):
@@ -53,6 +169,21 @@ def check_has_images_or_videos(game):
     if not game.get("images") and not game.get("video"):
         yield f"🖼 {game['name']} has no images or videos. " \
               "Please help improve the entry by finding some!"
+
+
+def check_framework_known(game):
+    if not (frameworks := game.get("frameworks")):
+        return
+    if u := [f for f in frameworks if f not in KNOWN_FRAMEWORKS]:
+        yield f"🌇 {game['name']} has unknown framework{'s'[:len(u)^1]} \"{', '.join(u)}\". " \
+              "Please check for spelling errors."
+        for uf in u:
+            choice, score = process.extractOne(uf, KNOWN_FRAMEWORKS)
+            print("Fuzz match framework", uf, "->", choice, ":", score)
+            if score >= MIN_FUZZ_SCORE:
+                yield f"- Suggested fix: {uf} -> **{choice}**"
+        global unknown_frameworks
+        unknown_frameworks = True
 
 
 # Scan files for changes
@@ -96,6 +227,8 @@ if games_removed:
     content += f"\nGame{'s'[:len(games_removed) ^ 1]} removed: {', '.join(games_removed)} 😿"
 if check_messages:
     content += "\n### Issues found\n- " + "\n- ".join(check_messages)
+if unknown_frameworks:
+    content += "\n### Known Frameworks\n" + ", ".join(KNOWN_FRAMEWORKS)
 
 # Update issue labels
 labels = set(pr.labels)
@@ -129,7 +262,11 @@ else:
 
 """
 Ideas for more PR suggestions
-- If repo is github, suggest releases feed
 - Scrape repo and url and look for screenshot candidates
-- Scrape github repo to find matching license
+- Scrape github repo to find
+  - matching license
+  - dev status
+  - releases feed
+  - languages
+- Make suggested changes in PR
 """
