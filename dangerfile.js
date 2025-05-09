@@ -8,120 +8,6 @@ const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 let unknownLanguageDetected = false
 const knownLanguages = Object.keys(require('linguist-languages')).concat(['Delphi', 'TorqueScript'])
-
-let unknownFrameworkDetected = false
-const knownFrameworks = [
-  '.NET',
-  'Adobe AIR',
-  'Adventure Game Studio',
-  'Allegro',
-  'angular',
-  'Avalonia',
-  'BackBone.js',
-  'bgfx',
-  'Box2D',
-  'Bullet3',
-  'Carbon',
-  'Castle Game Engine',
-  'CreateJS',
-  'Cocos2d',
-  'Construct',
-  'Construct2',
-  'Crystal Space',
-  'Cube 2 Engine',
-  'Daemon Engine',
-  'DirectX',
-  'DIV Games Studio',
-  'Duality',
-  'Ebitengine',
-  'EntityX',
-  'EnTT',
-  'Flash',
-  'Fyne',
-  'FMOD',
-  'FNA',
-  'GameMaker Studio',
-  'GameSprockets',
-  'gLib2D',
-  'Godot',
-  'Graphics32',
-  'GTK',
-  'HaxeFlixel',
-  'Impact',
-  'Inform',
-  'Irrlicht',
-  'JavaFX',
-  'JMonkeyEngine',
-  'jQuery',
-  'Kylix',
-  'Laravel',
-  'Lazarus',
-  'libGDX',
-  'libretro',
-  'LÖVE',
-  'LowRes NX',
-  'Luanti',
-  'LWJGL',
-  'macroquad',
-  'melonJS',
-  'Mono',
-  'MonoGame',
-  'ncurses',
-  'NeoAxis Engine',
-  'Netty.io',
-  'nya-engine',
-  'OGRE',
-  'Open Dynamics Engine',
-  'OpenAL',
-  'OpenFL',
-  'OpenGL',
-  'OpenRA',
-  'OpenSceneGraph',
-  'OpenTK',
-  'OpenXR',
-  'osu!framework',
-  'Oxygine',
-  'Panda3D',
-  'PandaJS',
-  'Phaser',
-  'PICO-8',
-  'Piston',
-  'PixiJS',
-  'pygame',
-  'QB64',
-  'Qt',
-  'raylib',
-  'React',
-  'Redux',
-  'rot.js',
-  'Rx.js',
-  'SDL',
-  'SDL2',
-  'SDL3',
-  'SDL.NET',
-  'Sea3D',
-  'SFML',
-  'Slick2D',
-  'Solarus',
-  'Source SDK',
-  'Spring RTS Engine',
-  'Starling',
-  'Swing',
-  'SWT',
-  'three.js',
-  'TGUI',
-  'TIC-80',
-  'Torque 3D',
-  'Tween.js',
-  'Unity',
-  'Unreal Engine 5',
-  'VDrift Engine',
-  'Vue.js',
-  'Vulkan',
-  'WebGL',
-  'wxWidgets',
-  'XNA'
-]
 const frameworkLangs = {
   'SDL2': ['C++', 'C'],
   'SDL': ['C++', 'C'],
@@ -185,18 +71,6 @@ const checkLanguageKnown = game => {
   }
 }
 
-const checkFrameworkKnown = game => {
-  if (!game.frameworks) return
-  const unknownFrameworks = game.frameworks.filter(l => !knownFrameworks.includes(l))
-  if (unknownFrameworks.length) {
-    warn(
-      `🌇 ${game.name} contains "${unknownFrameworks}" as frameworks, which is not known by us. ` +
-      `Please check for spelling errors.`
-    )
-    unknownFrameworkDetected = true
-  }
-}
-
 const checkFrameworkUsesLang = game => {
   if (!game.frameworks) return
   const commonFrameworks = game.frameworks.filter(frameworks => Object.keys(frameworkLangs).includes(frameworks))
@@ -216,7 +90,6 @@ const commonChecks = game => {
   checkRepoSVN(game)
   checkRepoFTP(game)
   checkLanguageKnown(game)
-  checkFrameworkKnown(game)
   checkFrameworkUsesLang(game)
 }
 
@@ -256,7 +129,6 @@ const getGameChanges = files => {
       })
     })
     if (unknownLanguageDetected) message(`Known languages are ${knownLanguages.join(", ")}.`)
-    if (unknownFrameworkDetected) message(`Known frameworks are ${knownFrameworks.join(", ")}.`)
   })
 }
 getGameChanges([].concat(danger.git.modified_files || [], danger.git.created_files || [], danger.git.deleted_files || []))
