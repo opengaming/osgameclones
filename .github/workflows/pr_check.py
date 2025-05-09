@@ -32,11 +32,19 @@ def load_games_file(filename: str, sha: str):
 
 def common_checks(game):
     yield from check_has_added(game)
+    yield from check_not_same_repo_and_url(game)
 
 
 def check_has_added(game):
     if "added" not in game:
         yield f"📅 {game['name']} has no added date"
+
+
+def check_not_same_repo_and_url(game):
+    if game.get("url") == game.get("repo"):
+        yield f"👯 {game['name']}'s url and repo are the same - " \
+              "please use repo for the development project page (such as GitHub) " \
+              "and url as the public-facing page, if any"
 
 
 # Scan files for changes
@@ -115,4 +123,5 @@ else:
 Ideas for more PR suggestions
 - If repo is github, suggest releases feed
 - Scrape repo and url and look for screenshot candidates
+- Scrape github repo to find matching license
 """
