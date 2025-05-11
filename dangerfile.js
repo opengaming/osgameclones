@@ -1,37 +1,14 @@
-const {danger, markdown, message, warn} = require('danger')
-const http = require('http')
-const url = require('url')
+const {danger, message, warn} = require('danger')
 const yaml = require('js-yaml')
-const fs = require('fs')
 
 const isGame = game => /^games\/\w+\.yaml$/.test(game)
 
 let unknownLanguageDetected = false
 const knownLanguages = Object.keys(require('linguist-languages')).concat(['Delphi', 'TorqueScript'])
-const frameworkLangs = {
-  'SDL2': ['C++', 'C'],
-  'SDL': ['C++', 'C'],
-  'SDL.NET': ['C#'],
-  'OpenGL': ['C++', 'C'],
-  'Unity': ['C#'],
-  'SFML': ['C++'],
-  'libGDX': ['Java', 'Kotlin'],
-  'Qt': ['C++'],
-  'Allegro': ['C++', 'C'],
-  'pygame': ['Python'],
-  'OGRE': ['C++'],
-  'Fyne': ['Go'],
-}
 
 // -----------
 // Game checks
 // -----------
-
-const checkRepoFTP = game => {
-  if (game.repo && game.repo.startsWith("ftp://")) {
-    warn(`🔗 ${game.name}'s repo is on a FTP server, which cannot be opened in some browsers by default. Please change it to the project's developer web page.`)
-  }
-}
 
 const checkRepoAdded = game => {
   if (!game.repo) return
@@ -53,23 +30,8 @@ const checkLanguageKnown = game => {
   }
 }
 
-const checkFrameworkUsesLang = game => {
-  if (!game.frameworks) return
-  const commonFrameworks = game.frameworks.filter(frameworks => Object.keys(frameworkLangs).includes(frameworks))
-  commonFrameworks.forEach(framework => {
-    const langs = frameworkLangs[framework]
-    if (!game.langs || game.langs.filter(lang => langs.includes(lang)).length === 0) {
-      message(
-        `🏗 ${game.name} uses "${framework}" as a framework, but doesn't have ${langs} in its languages.`
-      )
-    }
-  })
-}
-
 const commonChecks = game => {
-  checkRepoFTP(game)
   checkLanguageKnown(game)
-  checkFrameworkUsesLang(game)
 }
 
 // -----------
