@@ -120,6 +120,20 @@ KNOWN_FRAMEWORKS = [
   'wxWidgets',
   'XNA'
 ]
+FRAMEWORK_LANGUAGES = {
+  "SDL2": {"C++", "C"},
+  "SDL": {"C++", "C"},
+  "SDL.NET": {"C#"},
+  "OpenGL": {"C++", "C"},
+  "Unity": {"C#"},
+  "SFML": {"C++"},
+  "libGDX": {"Java", "Kotlin"},
+  "Qt": {"C++"},
+  "Allegro": {"C++", "C"},
+  "pygame": {"Python"},
+  "OGRE": {"C++"},
+  "Fyne": {"Go"},
+}
 MIN_FUZZ_SCORE = 90
 content = "Hey there! Thanks for contributing a PR to osgameclones! 🎉"
 unknown_frameworks = False
@@ -151,6 +165,7 @@ def common_checks(game):
     yield from check_not_same_repo_and_url(game)
     yield from check_has_images_or_videos(game)
     yield from check_framework_known(game)
+    yield from check_framework_language(game)
     yield from check_repo_google_code(game)
 
 
@@ -185,6 +200,17 @@ def check_framework_known(game):
                 yield f"- Suggested fix: {uf} -> **{choice}**"
         global unknown_frameworks
         unknown_frameworks = True
+
+
+def check_framework_language(game):
+    if not (frameworks := game.get("frameworks")):
+        return
+    for framework in frameworks:
+        if not (framework_langs := FRAMEWORK_LANGUAGES.get(framework, set())):
+            continue
+        if not set(game.get("langs", [])) & framework_langs:
+            yield f"🏗 {game['name']} uses \"{framework}\" as a framework, " \
+                  f"but doesn't have {', '.join(framework_langs)} in its languages."
 
 
 def check_repo_google_code(game):
