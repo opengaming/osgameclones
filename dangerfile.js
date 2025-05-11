@@ -27,24 +27,6 @@ const frameworkLangs = {
 // Game checks
 // -----------
 
-const checkRepoGoogleCode = game => {
-  if (game.repo && (game.repo.indexOf('googlecode') >= 0 || game.repo.indexOf('code.google') >= 0)) {
-    warn(`⚰️ ${game.name}'s repo is Google Code, a dead service. Please check if there is an updated repo elsewhere.`)
-  }
-}
-
-const checkRepoGit = game => {
-  if (game.repo && game.repo.startsWith("git://")) {
-    warn(`🔗 ${game.name}'s repo is a git repo, which cannot be opened in browsers by default. Please change it to the project's developer web page.`)
-  }
-}
-
-const checkRepoSVN = game => {
-  if (game.repo && game.repo.startsWith("svn://")) {
-    warn(`🔗 ${game.name}'s repo is an SVN repo, which cannot be opened in browsers by default. Please change it to the project's developer web page.`)
-  }
-}
-
 const checkRepoFTP = game => {
   if (game.repo && game.repo.startsWith("ftp://")) {
     warn(`🔗 ${game.name}'s repo is on a FTP server, which cannot be opened in some browsers by default. Please change it to the project's developer web page.`)
@@ -85,9 +67,6 @@ const checkFrameworkUsesLang = game => {
 }
 
 const commonChecks = game => {
-  checkRepoGoogleCode(game)
-  checkRepoGit(game)
-  checkRepoSVN(game)
   checkRepoFTP(game)
   checkLanguageKnown(game)
   checkFrameworkUsesLang(game)

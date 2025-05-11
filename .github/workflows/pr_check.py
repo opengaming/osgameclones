@@ -151,6 +151,7 @@ def common_checks(game):
     yield from check_not_same_repo_and_url(game)
     yield from check_has_images_or_videos(game)
     yield from check_framework_known(game)
+    yield from check_repo_google_code(game)
 
 
 def check_has_added(game):
@@ -184,6 +185,12 @@ def check_framework_known(game):
                 yield f"- Suggested fix: {uf} -> **{choice}**"
         global unknown_frameworks
         unknown_frameworks = True
+
+
+def check_repo_google_code(game):
+    if "code.google" in game.get("repo", ""):
+        yield f"⚰️ {game['name']}'s repo is Google Code, a dead service. " \
+              "Please check if there is an updated repo elsewhere."
 
 
 # Scan files for changes
