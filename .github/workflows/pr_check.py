@@ -166,6 +166,12 @@ def load_games_file(filename: str, sha: str):
     return {game["name"]: game for game in parsed}
 
 
+def added_checks(game):
+    if match := re.search(r"github.com/([^/]+)/", game.get("repo", "")):
+        author = match[1]
+        yield f"💌 Hey @{author}, we're adding your game to osgameclones!"
+
+
 def common_checks(game):
     yield from check_has_added(game)
     yield from check_not_same_repo_and_url(game)
@@ -262,6 +268,8 @@ for file in files:
         for game in new_games:
             if game not in old_games:
                 games_added.add(game)
+                for message in added_checks(new_games[game]):
+                    check_messages.append(message)
                 for message in common_checks(new_games[game]):
                     check_messages.append(message)
         for game in old_games:
