@@ -1,5 +1,7 @@
 import os
 import re
+from pathlib import Path
+
 import yaml
 from github import Github, GithubException
 from thefuzz import process
@@ -8,6 +10,9 @@ GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
 PR_NUMBER = int(os.environ["PR_NUMBER"])
 GITHUB_BOT_LOGIN = "github-actions[bot]"
+GH_PATH = Path(__file__).parent.parent
+# https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml
+GH_LANGUAGES = set(yaml.safe_load(open(GH_PATH / "languages.yml")).keys())
 KNOWN_FRAMEWORKS = [
   '.NET',
   'Adobe AIR',
@@ -136,6 +141,7 @@ FRAMEWORK_LANGUAGES = {
 }
 MIN_FUZZ_SCORE = 90
 content = "Hey there! Thanks for contributing a PR to osgameclones! 🎉"
+unknown_languages = False
 unknown_frameworks = False
 
 g = Github(GITHUB_TOKEN)
@@ -164,6 +170,7 @@ def common_checks(game):
     yield from check_has_added(game)
     yield from check_not_same_repo_and_url(game)
     yield from check_has_images_or_videos(game)
+    yield from check_language_known(game)
     yield from check_framework_known(game)
     yield from check_framework_language(game)
     yield from check_repo_google_code(game)
@@ -185,6 +192,19 @@ def check_has_images_or_videos(game):
     if not game.get("images") and not game.get("video"):
         yield f"🖼 {game['name']} has no images or videos. " \
               "Please help improve the entry by finding some!"
+
+
+def check_language_known(game):
+    if u := {lang for lang in game.get("langs", []) if lang not in GH_LANGUAGES}:
+        yield f"🔢 {game['name']} has unknown language{'s'[:len(u)^1]} \"{', '.join(u)}\". " \
+              "Please check for spelling errors."
+        for ul in u:
+            choice, score = process.extractOne(ul, GH_LANGUAGES)
+            print("Fuzz match language", ul, "->", choice, ":", score)
+            if score >= MIN_FUZZ_SCORE:
+                yield f"- Suggested fix: {ul} -> **{choice}**"
+        global unknown_languages
+        unknown_languages = True
 
 
 def check_framework_known(game):
@@ -260,6 +280,8 @@ if games_removed:
     content += f"\nGame{'s'[:len(games_removed) ^ 1]} removed: {', '.join(games_removed)} 😿"
 if check_messages:
     content += "\n### Issues found\n- " + "\n- ".join(check_messages)
+if unknown_languages:
+    content += "\n### Known Languages\n" + ", ".join(sorted(GH_LANGUAGES))
 if unknown_frameworks:
     content += "\n### Known Frameworks\n" + ", ".join(KNOWN_FRAMEWORKS)
 
