@@ -667,6 +667,27 @@
   added: 2015-09-21
   updated: 2015-09-21
 
+- name: Mhatxotic Engine
+  originals:
+  - Diggers
+  type: remake
+  repo: https://github.com/Mhatxotic/Engine
+  feed: https://github.com/Mhatxotic/Engine/releases.atom
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - C++
+  - Lua
+  frameworks:
+  - OpenGL
+  licenses:
+  - Custom
+  added: 2024-03-02
+  updated: 2025-05-15
+  images:
+  - https://github.com/Mhatxotic/Engine/raw/master/docs/diggers.webp?raw=true
+
 - name: Mice Men Remix
   frameworks:
   - libGDX
@@ -1337,26 +1358,6 @@
   - Competitive
   video:
     youtube: _0rw36mA9mM
-
-- name: MS-Engine
-  originals:
-  - Diggers
-  type: remake
-  repo: 'https://github.com/XMhat/MSEngine'
-  feed: 'https://github.com/XMhat/MSEngine/releases.atom'
-  development: sporadic
-  status: playable
-  content: free
-  langs:
-  - C++
-  - Lua
-  frameworks:
-  - OpenGL
-  licenses:
-  - Custom
-  updated: '2024-03-02'
-  images:
-  - 'https://raw.githubusercontent.com/XMhat/MSEngine/master/docs/diggers.webp'
 
 - name: multi-pong
   originals:
