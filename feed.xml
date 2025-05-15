@@ -17,7 +17,7 @@
     <id>https://osgameclones.com/game/{{ game.name | slugify }}</id>
     <link href="https://osgameclones.com/{{ names[0] | slugify }}" />
     <updated>{{ game.updated.strftime('%Y-%m-%dT%H:%M:%SZ') }}</updated>
-    <summary>{{ game.type }} of {{ ', '.join(names) }} {{ game.info | e }}</summary>
+    <summary>{{ game.type }} of {{ ', '.join(names) | e }} {{ game.info | e }}</summary>
   </entry>
   {%- endfor %}
 </feed>
