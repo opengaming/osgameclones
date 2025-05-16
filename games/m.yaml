@@ -1363,8 +1363,8 @@
   originals:
   - Pong
   type: remake
-  repo: 'https://github.com/Hopson97/multi-pong'
-  development: sporadic
+  repo: https://github.com/Hopson97/multi-pong
+  development: halted
   status: semi-playable
   multiplayer:
   - Online
@@ -1375,9 +1375,10 @@
   frameworks:
   - SFML
   licenses:
-  - As-is
+  - MIT
   info: Multiplayer pong using UDP sockets and a client/server model.
-  updated: 2019-10-18
+  added: 2019-10-18
+  updated: 2025-05-16
   images:
   - 'https://i.imgur.com/0LUS5bS.gif'
   - 'https://i.imgur.com/i1iTugw.gif'
