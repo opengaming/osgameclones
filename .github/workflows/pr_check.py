@@ -12,7 +12,7 @@ PR_NUMBER = int(os.environ["PR_NUMBER"])
 GITHUB_BOT_LOGIN = "github-actions[bot]"
 GH_PATH = Path(__file__).parent.parent
 # https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml
-GH_LANGUAGES = set(yaml.safe_load(open(GH_PATH / "languages.yml")).keys())
+GH_LANGUAGES = set(yaml.safe_load(open(GH_PATH / "languages.yml")).keys()) | {"Delphi"}
 KNOWN_FRAMEWORKS = [
   '.NET',
   'Adobe AIR',
@@ -139,7 +139,7 @@ FRAMEWORK_LANGUAGES = {
   "OGRE": {"C++"},
   "Fyne": {"Go"},
 }
-MIN_FUZZ_SCORE = 90
+MIN_FUZZ_SCORE = 95
 content = "Hey there! Thanks for contributing a PR to osgameclones! 🎉"
 unknown_languages = False
 unknown_frameworks = False
