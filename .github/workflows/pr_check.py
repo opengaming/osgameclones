@@ -1,3 +1,4 @@
+import json
 import os
 import re
 from pathlib import Path
@@ -9,7 +10,6 @@ from thefuzz import process
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
 PR_NUMBER = int(os.environ["PR_NUMBER"])
-GITHUB_BOT_LOGIN = "github-actions[bot]"
 GH_PATH = Path(__file__).parent.parent
 # https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml
 GH_LANGUAGES = set(yaml.safe_load(open(GH_PATH / "languages.yml")).keys()) | {"Delphi"}
@@ -140,7 +140,6 @@ FRAMEWORK_LANGUAGES = {
   "Fyne": {"Go"},
 }
 MIN_FUZZ_SCORE = 95
-content = "Hey there! Thanks for contributing a PR to osgameclones! 🎉"
 unknown_languages = False
 unknown_frameworks = False
 
@@ -148,6 +147,10 @@ g = Github(GITHUB_TOKEN)
 repo = g.get_repo(GITHUB_REPOSITORY)
 pr = repo.get_pull(PR_NUMBER)
 print("PR", pr.url)
+output = {
+    "content": "Hey there! Thanks for contributing a PR to osgameclones! 🎉",
+    "labels": set(label.name for label in pr.labels),
+}
 
 # Get game changes
 files = pr.get_files()
@@ -281,47 +284,33 @@ for file in files:
 
 # Update comment based on changed games and checks
 if games_added:
-    content += f"\nGame{'s'[:len(games_added) ^ 1]} added: {', '.join(games_added)} 🎊"
+    output["content"] += f"\nGame{'s'[:len(games_added) ^ 1]} added: {', '.join(games_added)} 🎊"
 if games_changed:
-    content += f"\nGame{'s'[:len(games_changed) ^ 1]} updated: {', '.join(games_changed)} 👏"
+    output["content"] += f"\nGame{'s'[:len(games_changed) ^ 1]} updated: {', '.join(games_changed)} 👏"
 if games_removed:
-    content += f"\nGame{'s'[:len(games_removed) ^ 1]} removed: {', '.join(games_removed)} 😿"
+    output["content"] += f"\nGame{'s'[:len(games_removed) ^ 1]} removed: {', '.join(games_removed)} 😿"
 if check_messages:
-    content += "\n### Issues found\n- " + "\n- ".join(check_messages)
+    output["content"] += "\n### Issues found\n- " + "\n- ".join(check_messages)
 if unknown_languages:
-    content += "\n### Known Languages\n" + ", ".join(sorted(GH_LANGUAGES))
+    output["content"] += "\n### Known Languages\n" + ", ".join(sorted(GH_LANGUAGES, key=str.casefold))
 if unknown_frameworks:
-    content += "\n### Known Frameworks\n" + ", ".join(KNOWN_FRAMEWORKS)
+    output["content"] += "\n### Known Frameworks\n" + ", ".join(sorted(KNOWN_FRAMEWORKS, key=str.casefold))
 
 # Update issue labels
-labels = set(pr.labels)
 if has_py:
-    labels.add("python")
+    output["labels"].add("python")
 if has_js:
-    labels.add("javascript")
+    output["labels"].add("javascript")
 if games_added:
-    labels.add("game-addition")
+    output["labels"].add("game-addition")
 if games_changed or games_removed:
-    labels.add("game-correction")
-if labels != set(pr.labels):
-    print("Updating labels from", pr.labels, "to", labels)
-    pr.set_labels(*labels)
+    output["labels"].add("game-correction")
 
 # Update GitHub PR
-for c in pr.get_issue_comments():
-    print("checking comment", c.user.login)
-    if c.user.login == GITHUB_BOT_LOGIN:
-        print("found bot comment", c.body)
-        comment = c
-        if comment.body != content:
-            comment.edit(content)
-        break
-else:
-    print("bot comment not found")
-    try:
-        comment = pr.create_issue_comment(content)
-    except GithubException as e:
-        print("cannot create issue comment - possibly a non-standard PR", e)
+path = Path("./pr/output.json")
+path.parent.mkdir(exist_ok=True, parents=True)
+output["labels"] = list(output["labels"])
+path.write_text(json.dumps(output))
 
 """
 Ideas for more PR suggestions
