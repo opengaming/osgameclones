@@ -9,7 +9,6 @@ from thefuzz import process
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
 PR_NUMBER = int(os.environ["PR_NUMBER"])
-GITHUB_BOT_LOGIN = "github-actions[bot]"
 GH_PATH = Path(__file__).parent.parent
 # https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml
 GH_LANGUAGES = set(yaml.safe_load(open(GH_PATH / "languages.yml")).keys()) | {"Delphi"}
@@ -289,9 +288,9 @@ if games_removed:
 if check_messages:
     content += "\n### Issues found\n- " + "\n- ".join(check_messages)
 if unknown_languages:
-    content += "\n### Known Languages\n" + ", ".join(sorted(GH_LANGUAGES))
+    content += "\n### Known Languages\n" + ", ".join(sorted(GH_LANGUAGES, key=str.casefold))
 if unknown_frameworks:
-    content += "\n### Known Frameworks\n" + ", ".join(KNOWN_FRAMEWORKS)
+    content += "\n### Known Frameworks\n" + ", ".join(sorted(KNOWN_FRAMEWORKS, key=str.casefold))
 
 # Update issue labels
 labels = set(pr.labels)
@@ -308,20 +307,9 @@ if labels != set(pr.labels):
     pr.set_labels(*labels)
 
 # Update GitHub PR
-for c in pr.get_issue_comments():
-    print("checking comment", c.user.login)
-    if c.user.login == GITHUB_BOT_LOGIN:
-        print("found bot comment", c.body)
-        comment = c
-        if comment.body != content:
-            comment.edit(content)
-        break
-else:
-    print("bot comment not found")
-    try:
-        comment = pr.create_issue_comment(content)
-    except GithubException as e:
-        print("cannot create issue comment - possibly a non-standard PR", e)
+path = Path("./pr/contents.md")
+path.parent.mkdir(exist_ok=True, parents=True)
+path.write_text(content)
 
 """
 Ideas for more PR suggestions
