@@ -1,3 +1,4 @@
+import json
 import os
 from pathlib import Path
 
@@ -14,8 +15,8 @@ pr = repo.get_pull(PR_NUMBER)
 print("PR", pr.url)
 
 # Get PR content
-content = Path(f"./pr/contents.md").read_text()
-print("Comment content", content)
+output = json.loads(Path(f"./pr/contents.md").read_text())
+print("Comment content", output)
 
 # Update GitHub PR
 for c in pr.get_issue_comments():
@@ -23,12 +24,17 @@ for c in pr.get_issue_comments():
     if c.user.login == GITHUB_BOT_LOGIN:
         print("found bot comment", c.body)
         comment = c
-        if comment.body != content:
-            comment.edit(content)
+        if comment.body != output["content"]:
+            comment.edit(output["content"])
         break
 else:
     print("bot comment not found")
     try:
-        comment = pr.create_issue_comment(content)
+        comment = pr.create_issue_comment(output["content"])
     except GithubException as e:
         print("cannot create issue comment - possibly a non-standard PR", e)
+
+# Update labels
+if output["labels"] != set(label.name for label in pr.labels):
+    print("Updating labels from", pr.labels, "to", output["labels"])
+    pr.set_labels(*output["labels"])

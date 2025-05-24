@@ -1,3 +1,4 @@
+import json
 import os
 import re
 from pathlib import Path
@@ -139,7 +140,6 @@ FRAMEWORK_LANGUAGES = {
   "Fyne": {"Go"},
 }
 MIN_FUZZ_SCORE = 95
-content = "Hey there! Thanks for contributing a PR to osgameclones! 🎉"
 unknown_languages = False
 unknown_frameworks = False
 
@@ -147,6 +147,10 @@ g = Github(GITHUB_TOKEN)
 repo = g.get_repo(GITHUB_REPOSITORY)
 pr = repo.get_pull(PR_NUMBER)
 print("PR", pr.url)
+output = {
+    "content": "Hey there! Thanks for contributing a PR to osgameclones! 🎉",
+    "labels": set(label.name for label in pr.labels),
+}
 
 # Get game changes
 files = pr.get_files()
@@ -280,36 +284,32 @@ for file in files:
 
 # Update comment based on changed games and checks
 if games_added:
-    content += f"\nGame{'s'[:len(games_added) ^ 1]} added: {', '.join(games_added)} 🎊"
+    output["content"] += f"\nGame{'s'[:len(games_added) ^ 1]} added: {', '.join(games_added)} 🎊"
 if games_changed:
-    content += f"\nGame{'s'[:len(games_changed) ^ 1]} updated: {', '.join(games_changed)} 👏"
+    output["content"] += f"\nGame{'s'[:len(games_changed) ^ 1]} updated: {', '.join(games_changed)} 👏"
 if games_removed:
-    content += f"\nGame{'s'[:len(games_removed) ^ 1]} removed: {', '.join(games_removed)} 😿"
+    output["content"] += f"\nGame{'s'[:len(games_removed) ^ 1]} removed: {', '.join(games_removed)} 😿"
 if check_messages:
-    content += "\n### Issues found\n- " + "\n- ".join(check_messages)
+    output["content"] += "\n### Issues found\n- " + "\n- ".join(check_messages)
 if unknown_languages:
-    content += "\n### Known Languages\n" + ", ".join(sorted(GH_LANGUAGES, key=str.casefold))
+    output["content"] += "\n### Known Languages\n" + ", ".join(sorted(GH_LANGUAGES, key=str.casefold))
 if unknown_frameworks:
-    content += "\n### Known Frameworks\n" + ", ".join(sorted(KNOWN_FRAMEWORKS, key=str.casefold))
+    output["content"] += "\n### Known Frameworks\n" + ", ".join(sorted(KNOWN_FRAMEWORKS, key=str.casefold))
 
 # Update issue labels
-labels = set(pr.labels)
 if has_py:
-    labels.add("python")
+    output["labels"].add("python")
 if has_js:
-    labels.add("javascript")
+    output["labels"].add("javascript")
 if games_added:
-    labels.add("game-addition")
+    output["labels"].add("game-addition")
 if games_changed or games_removed:
-    labels.add("game-correction")
-if labels != set(pr.labels):
-    print("Updating labels from", pr.labels, "to", labels)
-    pr.set_labels(*labels)
+    output["labels"].add("game-correction")
 
 # Update GitHub PR
-path = Path("./pr/contents.md")
+path = Path("./pr/output.json")
 path.parent.mkdir(exist_ok=True, parents=True)
-path.write_text(content)
+path.write_text(json.dumps(output))
 
 """
 Ideas for more PR suggestions
