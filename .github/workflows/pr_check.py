@@ -309,6 +309,7 @@ if games_changed or games_removed:
 # Update GitHub PR
 path = Path("./pr/output.json")
 path.parent.mkdir(exist_ok=True, parents=True)
+output["labels"] = list(output["labels"])
 path.write_text(json.dumps(output))
 
 """

@@ -17,6 +17,7 @@ print("PR", pr.url)
 # Get PR content
 output = json.loads(Path(f"./pr/contents.md").read_text())
 print("Comment content", output)
+output["labels"] = set(output["labels"])
 
 # Update GitHub PR
 for c in pr.get_issue_comments():
