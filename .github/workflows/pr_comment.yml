@@ -1,13 +1,9 @@
 name: Comment on the pull request
-
-# read-write repo token
-# access to secrets
 on:
   workflow_run:
-    workflows: ["Check PR for common problems"]
+    workflows: [Check PR for common problems]
     types:
-      - completed
-
+    - completed
 jobs:
   upload:
     runs-on: ubuntu-latest
@@ -32,6 +28,7 @@ jobs:
       with:
         name: pr
         path: pr/
+        github-token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: PR comment
       run: |
