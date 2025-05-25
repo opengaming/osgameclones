@@ -150,6 +150,7 @@ print("PR", pr.url)
 output = {
     "content": "Hey there! Thanks for contributing a PR to osgameclones! 🎉",
     "labels": set(label.name for label in pr.labels),
+    "pr": PR_NUMBER,
 }
 
 # Get game changes
