@@ -14,8 +14,9 @@
   - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
   status: playable
-  repo: https://sourceforge.net/projects/xforceffd/
+  repo: https://sourceforge.net/projects/xforceffd
   type: clone
+  added: 2015-04-11
   updated: 2022-05-16
   url: http://www.xforce-online.de/
 
@@ -41,6 +42,7 @@
   status: playable
   feed: https://github.com/xmoto/xmoto/releases.atom
   type: clone
+  added: 2014-06-16
   updated: 2023-10-13
   url: https://xmoto.tuxfamily.org
 
@@ -60,6 +62,7 @@
   repo: https://github.com/Skarmux/X-Settlers
   type: remake
   status: unplayable
+  added: 2021-03-14
   updated: 2023-10-15
 
 - name: XArchon
@@ -68,6 +71,7 @@
   - C++
   frameworks:
   - Qt
+  - GTK
   licenses:
   - GPL2
   content: open
@@ -75,8 +79,9 @@
   originals:
   - 'Archon: The Light and the Dark'
   status: playable
-  repo: http://xarchon.seul.org/xarchon-0.60.tar.gz
+  repo: http://xarchon.seul.org/download.html
   type: remake
+  added: 2015-05-03
   updated: 2023-01-25
   url: http://xarchon.seul.org/
 
@@ -84,9 +89,9 @@
   originals:
   - Xargon
   type: remake
-  repo: 'https://github.com/Malvineous/xargon'
+  repo: https://github.com/Malvineous/xargon
   development: halted
-  status: unplayable
+  status: playable
   content: free
   langs:
   - C++
@@ -95,7 +100,8 @@
   licenses:
   - GPL3
   info: SDL port of the DOS game Xargon
-  updated: 2023-03-26
+  added: 2021-02-19
+  updated: 2025-05-18
   images:
   - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview3.png'
 
@@ -314,12 +320,23 @@
     youtube: B6XUdqFsY14
 
 - name: xoreos
-  development: active
+  development: sporadic
   frameworks:
   - OpenGL
   - SDL2
   images:
-  - https://xoreos.org/images/NWN_20130528T054618.png
+  - https://xoreos.org/screenshots/nwn/menu01.png
+  - https://xoreos.org/screenshots/nwn/ingame01.png
+  - https://xoreos.org/screenshots/kotor/menu01.png
+  - https://xoreos.org/screenshots/kotor/ingame01.png
+  - https://xoreos.org/screenshots/kotor2/menu01.png
+  - https://xoreos.org/screenshots/kotor2/ingame01.png
+  - https://xoreos.org/screenshots/nwn2/ingame01.png
+  - https://xoreos.org/screenshots/jade/ingame01.png
+  - https://xoreos.org/screenshots/witcher/ingame01.png
+  - https://xoreos.org/screenshots/sonic/title.png
+  - https://xoreos.org/screenshots/dao/ingame01.png
+  - https://xoreos.org/screenshots/da2/ingame01.png
   langs:
   - C++
   licenses:
@@ -338,10 +355,11 @@
   repo: https://github.com/xoreos/xoreos
   status: unplayable
   type: remake
-  updated: 2016-10-14
+  added: 2013-05-28
+  updated: 2025-05-24
   url: https://xoreos.org/
   video:
-    youtube: _EZRvDIB7wI
+    youtube: oxNPYHSE60A
 
 - name: XPilot NG
   images:

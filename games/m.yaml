@@ -667,6 +667,27 @@
   added: 2015-09-21
   updated: 2015-09-21
 
+- name: Mhatxotic Engine
+  originals:
+  - Diggers
+  type: remake
+  repo: https://github.com/Mhatxotic/Engine
+  feed: https://github.com/Mhatxotic/Engine/releases.atom
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - C++
+  - Lua
+  frameworks:
+  - OpenGL
+  licenses:
+  - Custom
+  added: 2024-03-02
+  updated: 2025-05-15
+  images:
+  - https://github.com/Mhatxotic/Engine/raw/master/docs/diggers.webp?raw=true
+
 - name: Mice Men Remix
   frameworks:
   - libGDX
@@ -1213,6 +1234,7 @@
   status: playable
   repo: https://sourceforge.net/projects/montymole/
   type: remake
+  added: 2015-04-13
   updated: 2022-06-17
   url: https://montymole.sourceforge.net
 
@@ -1264,6 +1286,7 @@
   repo: https://github.com/soap-bubble/web
   status: playable
   type: remake
+  added: 2019-06-07
   updated: 2023-10-09
   url: https://soapbubble.itch.io/morpheus
   info: HTML5 WebGL implementation with PC/Mac/Linux/Android application wrappers
@@ -1284,6 +1307,7 @@
   - Rodent's Revenge
   repo: https://github.com/maxxboehme/A_Mouses_Vengeance
   type: remake
+  added: 2017-04-04
   updated: 2019-04-16
   status: playable
   content: free
@@ -1304,6 +1328,7 @@
   status: semi-playable
   repo: https://github.com/teruk/movbizz
   type: remake
+  added: 2015-06-01
   updated: 2022-09-27
 
 - name: Mr.Boom
@@ -1317,13 +1342,16 @@
   - SDL2
   licenses:
   - MIT
-  development: active
+  content: free
+  development: sporadic
   originals:
   - Bomberman
   repo: https://github.com/Javanaise/mrboom-libretro
+  feed: https://github.com/Javanaise/mrboom-libretro/releases.atom
   status: playable
   type: remake
-  updated: 2023-10-11
+  added: 2017-07-18
+  updated: 2025-05-15
   url: http://mrboom.mumblecore.org
   multiplayer:
   - Online
@@ -1331,32 +1359,12 @@
   video:
     youtube: _0rw36mA9mM
 
-- name: MS-Engine
-  originals:
-  - Diggers
-  type: remake
-  repo: 'https://github.com/XMhat/MSEngine'
-  feed: 'https://github.com/XMhat/MSEngine/releases.atom'
-  development: sporadic
-  status: playable
-  content: free
-  langs:
-  - C++
-  - Lua
-  frameworks:
-  - OpenGL
-  licenses:
-  - Custom
-  updated: '2024-03-02'
-  images:
-  - 'https://raw.githubusercontent.com/XMhat/MSEngine/master/docs/diggers.webp'
-
 - name: multi-pong
   originals:
   - Pong
   type: remake
-  repo: 'https://github.com/Hopson97/multi-pong'
-  development: sporadic
+  repo: https://github.com/Hopson97/multi-pong
+  development: halted
   status: semi-playable
   multiplayer:
   - Online
@@ -1367,9 +1375,10 @@
   frameworks:
   - SFML
   licenses:
-  - As-is
+  - MIT
   info: Multiplayer pong using UDP sockets and a client/server model.
-  updated: 2019-10-18
+  added: 2019-10-18
+  updated: 2025-05-16
   images:
   - 'https://i.imgur.com/0LUS5bS.gif'
   - 'https://i.imgur.com/i1iTugw.gif'

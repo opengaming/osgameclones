@@ -1,0 +1,43 @@
+name: Comment on the pull request
+
+# read-write repo token
+# access to secrets
+on:
+  workflow_run:
+    workflows: ["Check PR for common problems"]
+    types:
+      - completed
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    if: >
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Install poetry
+      uses: abatilo/actions-poetry@v4.0.0
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+        cache: 'poetry'
+
+    - name: Download artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: pr
+        path: pr/
+
+    - name: PR comment
+      run: |
+        poetry install --no-root --with dev
+        poetry run python .github/workflows/pr_comment.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+        PR_NUMBER: ${{ github.event.pull_request.number }}
