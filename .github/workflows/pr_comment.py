@@ -1,12 +1,17 @@
 import json
 import os
+import sys
+import zipfile
 from pathlib import Path
 
+import httpx
 from github import Github, GithubException
+from github.Artifact import Artifact
 
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
 PR_NUMBER = int(os.environ["PR_NUMBER"])
+RUN_ID = int(os.environ["RUN_ID"])
 GITHUB_BOT_LOGIN = "github-actions[bot]"
 
 g = Github(GITHUB_TOKEN)
@@ -14,8 +19,31 @@ repo = g.get_repo(GITHUB_REPOSITORY)
 pr = repo.get_pull(PR_NUMBER)
 print("PR", pr.url)
 
+# Download artifact
+run = repo.get_workflow_run(RUN_ID)
+print("Run", run)
+artifacts = run.get_artifacts()
+artifact: Artifact
+for a in artifacts:
+    print("Artifact", a)
+    if a.name == "pr":
+        artifact = a
+        break
+else:
+    print("Could not find pr artifact")
+    sys.exit(1)
+resp = httpx.get(
+    artifact.archive_download_url, headers={"Authorization": f"Bearer {GITHUB_TOKEN}"}, follow_redirects=True)
+if not resp.is_success:
+    print("Download request failed", resp)
+    sys.exit(1)
+with(open("out.zip", "wb")) as f:
+    f.write(resp.content)
+with zipfile.ZipFile("out.zip", "r") as zip_ref:
+    zip_ref.extractall(".")
+
 # Get PR content
-output = json.loads(Path(f"./pr/contents.md").read_text())
+output = json.loads(Path("output.json").read_text())
 print("Comment content", output)
 output["labels"] = set(output["labels"])
 
