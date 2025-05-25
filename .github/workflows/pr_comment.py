@@ -10,14 +10,11 @@ from github.Artifact import Artifact
 
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
-PR_NUMBER = int(os.environ["PR_NUMBER"])
 RUN_ID = int(os.environ["RUN_ID"])
 GITHUB_BOT_LOGIN = "github-actions[bot]"
 
 g = Github(GITHUB_TOKEN)
 repo = g.get_repo(GITHUB_REPOSITORY)
-pr = repo.get_pull(PR_NUMBER)
-print("PR", pr.url)
 
 # Download artifact
 run = repo.get_workflow_run(RUN_ID)
@@ -45,6 +42,8 @@ with zipfile.ZipFile("out.zip", "r") as zip_ref:
 # Get PR content
 output = json.loads(Path("output.json").read_text())
 print("Comment content", output)
+pr = repo.get_pull(output["pr"])
+print("PR", pr.url)
 output["labels"] = set(output["labels"])
 
 # Update GitHub PR
