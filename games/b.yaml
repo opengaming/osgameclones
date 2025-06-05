@@ -832,14 +832,19 @@
   originals:
   - Brány Skeldalu
   type: official
-  repo: 'https://sourceforge.net/projects/skeldal/'
+  repo: https://github.com/ondra-novak/gates_of_skeldal
+  url: https://store.steampowered.com/app/3533830/Brny_Skeldalu/
   development: complete
   status: playable
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
-  - GPL2
-  updated: '2023-11-25'
+  - MIT
+  content: commercial
+  added: 2023-11-25
+  updated: 2025-06-05
   images:
   - 'https://a.fsdn.com/con/app/proj/skeldal/screenshots/155693.jpg/max/max/1'
   - 'https://a.fsdn.com/con/app/proj/skeldal/screenshots/155691.jpg/max/max/1'
