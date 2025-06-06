@@ -811,16 +811,19 @@
   - 'Serious Sam: The First Encounter'
   - 'Serious Sam: The Second Encounter'
   type: remake
-  repo: 'https://github.com/tx00100xt/SeriousSamClassic'
-  feed: 'https://github.com/tx00100xt/SeriousSamClassic/releases.atom'
-  development: very active
+  repo: https://github.com/tx00100xt/SeriousSamClassic
+  feed: https://github.com/tx00100xt/SeriousSamClassic/releases.atom
+  development: sporadic
   status: playable
   content: commercial
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
-  updated: '2023-02-12'
+  added: 2023-02-12
+  updated: 2025-06-06
   images:
   - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_1.png
   - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_2.png
