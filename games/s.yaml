@@ -2922,6 +2922,30 @@
   images:
   - https://www.michaelfogleman.com/static/img/project/pac-man/thumbnail/1.png
 
+- name: Symbolica
+  originals:
+  - Symbolica
+  type: clone
+  repo: 'https://sourceforge.net/projects/symbolica/'
+  url: 'https://symbolica.sourceforge.io/'
+  feed: 'https://sourceforge.net/p/symbolica/activity/feed'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C++
+  licenses:
+  - BSD
+  info: >-
+    A port of the c64 puzzle game symbolica, primary targeted to the handhelds
+    gp2x and n-800 but is also running on other Unix platforms.
+  added: '2025-06-07'
+  updated: '2025-06-07'
+  images:
+  - 'https://os4depot.net/filedata/snapshot/2890_1_snap.jpg'
+  - 'https://os4depot.net/filedata/snapshot/2890_2_snap.jpg'
+  - 'https://a.fsdn.com/con/app/proj/symbolica/screenshots/118811.jpg'
+
 - name: Syndicate Wars Port
   development: active
   info: no network support
