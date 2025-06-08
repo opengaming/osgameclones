@@ -908,20 +908,27 @@
 
 - name: sfall
   development: active
-  info: Needs full original game
+  info: sfall is a set of engine modifications for the classic game Fallout 2 in the form of a DLL, which modifies executable in memory without changing anything in EXE file itself.
   langs:
   - C++
   - C
   - C#
+  frameworks:
+  - DirectX
   licenses:
   - GPL3
   content: commercial
   originals:
   - Fallout 2
   repo: https://github.com/phobos2077/sfall
-  status: playable
-  type: remake
-  updated: 2018-06-20
+  url: https://sfall-team.github.io/sfall/
+  status: N/A
+  type: tool
+  added: 2018-06-20
+  updated: 2025-06-08
+  images:
+  - https://u.cubeupload.com/NovaRain/sfalldemo1.png
+  - https://u.cubeupload.com/NovaRain/sfalldemo2.png
 
 - name: sh3redux
   originals:
