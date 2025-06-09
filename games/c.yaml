@@ -63,6 +63,31 @@
   type: remake
   updated: 2022-07-16
 
+- name: C7
+  originals:
+  - Civilization III
+  type: remake
+  repo: 'https://github.com/C7-Game/Prototype'
+  url: 'https://c7-game.github.io'
+  feed: 'https://github.com/C7-Game/Prototype/releases.atom'
+  development: very active
+  status: semi-playable
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - Godot
+  - .NET
+  licenses:
+  - MIT
+  info: >-
+    Uses Civ3 assets for now but aims for a standalone 4X game with multiple
+    inspirations
+  added: '2025-06-09'
+  updated: '2025-06-09'
+  video:
+    youtube: zHGO_fbz0nY
+
 - name: Cadaver
   development: halted
   images:
