@@ -310,6 +310,8 @@
   meta:
     genres:
     - Turn-Based Strategy
+    subgenres:
+    - 4X
 
 - name: Civilization II
   external:
@@ -319,10 +321,20 @@
     - Turn-Based Strategy
     subgenres:
     - 4X
-    themes:
-    - Alternate Historical
-    - Management
-    
+
+- name: Civilization III
+  external:
+    website: 'https://civilization.2k.com/civ-iii/'
+    wikipedia: Civilization III
+  platforms:
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - Turn-Based Strategy
+    subgenres:
+    - 4X
+
 - name: Civilization V
   external:
     wikipedia: Civilization V
@@ -331,9 +343,6 @@
     - Turn-Based Strategy
     subgenres:
     - 4X
-    themes:
-    - Alternate Historical
-    - Management
 
 - name: Clandestiny
   external:
