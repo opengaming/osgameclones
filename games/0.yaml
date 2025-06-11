@@ -29,17 +29,25 @@
   originals:
   - 'Higurashi: When They Cry Hou'
   - 'Umineko: When They Cry Saku'
-  type: remake
-  repo: 'https://github.com/07th-mod'
-  url: 'https://07th-mod.com'
-  development: very active
-  status: playable
+  type: tool
+  repo: https://github.com/07th-mod/python-patcher
+  url: https://07th-mod.com
+  development: sporadic
+  status: N/A
+  langs:
+  - Python
+  - JavaScript
+  - C#
   content: free
   licenses:
   - As-is
-  updated: '2023-06-24'
+  added: 2023-06-23
+  updated: 2025-06-11
+  info: patches that enhance the PC version of the game to bring console features
   images:
-  - 'https://07th-mod.com/wiki/Higurashi/img/console.webp'
+  - https://07th-mod.com/wiki/Higurashi/img/console.webp
+  - https://07th-mod.com/wiki/Umineko/img/modmenu.webp
+  - https://wiki.07th-mod.com/Higurashi/img/background-comparison.webp
 
 - name: 1010! Klooni
   originals:
