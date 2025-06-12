@@ -1072,6 +1072,7 @@
   - 'The Legend of Zelda: Ocarina of Time'
   type: remake
   repo: https://github.com/HarbourMasters/Shipwright
+  feed: https://github.com/HarbourMasters/Shipwright/releases.atom
   url: https://www.shipofharkinian.com/
   development: active
   status: playable
@@ -1081,10 +1082,14 @@
   langs:
   - C
   - C++
+  frameworks:
+  - SDL2
+  - OpenGL
   info: >-
     An enhanced an improved PC port of the original Ocarina of Time based 
     on the reverse-engineering work done by the OOT decompilation project.
-  updated: '2022-08-29'
+  added: 2022-08-29
+  updated: 2025-06-12
   video:
     youtube: 4ZNIE5xwjsY
 
