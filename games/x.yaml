@@ -105,6 +105,36 @@
   images:
   - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview3.png'
 
+- name: Xash3D FWGS
+  originals:
+  - Half-Life
+  type: remake
+  repo: https://github.com/FWGS/xash3d-fwgs
+  url: https://xash.su/xash3d.html
+  feed: https://github.com/FWGS/xash3d-fwgs/releases.atom
+  development: very active
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  - Co-op
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - As-is
+  info: Xash3D FWGS is a heavily modified fork of an original Xash3D Engine
+  added: 2025-06-13
+  updated: 2025-06-13
+  images:
+  - https://xash.su/img/6.png
+  - https://xash.su/img/7.png
+  - https://xash.su/img/9.png
+  - https://xash.su/img/10.png
+
 - name: xBaK
   frameworks:
   - SDL
