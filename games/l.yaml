@@ -898,7 +898,7 @@
   originals:
   - Warlords II
   type: clone
-  repo: https://cgit.git.savannah.gnu.org/cgit/lordsawar.git/
+  repo: http://savannah.nongnu.org/projects/lordsawar
   url: https://lordsawar.nongnu.org/
   feed: https://savannah.nongnu.org/news/atom.php?group=lordsawar
   development: halted
@@ -908,8 +908,10 @@
   - Hotseat
   langs:
   - C++
+  frameworks:
+  - GTK
   licenses:
-  - GPL2
+  - GPL3
   info: 'The LordsAWar! project was started in 2006, by forking the Freelords project.'
   added: 2025-06-12
   updated: 2025-06-12
