@@ -1223,21 +1223,25 @@
   video:
     youtube: SHhLHVwoLFA
 
-- name: Silent Hill 2 Enhancement
+- name: Silent Hill 2 Enhanced Edition
   originals:
   - Silent Hill 2
   status: N/A
   type: tool
   repo: https://github.com/elishacloud/Silent-Hill-2-Enhancements
+  feed: https://github.com/elishacloud/Silent-Hill-2-Enhancements/releases.atom
   url: https://enhanced.townofsilenthill.com/SH2/
   development: active
   content: commercial
   langs:
   - C++
+  frameworks:
+  - DirectX
   licenses:
-  - As-is
+  - Zlib
   info: A project designed to enhance Silent Hill 2 graphics and audio for the PC.
-  updated: 2019-11-15
+  added: 2019-11-15
+  updated: 2025-06-17
   video:
     youtube: 6v1USVhtfjQ
   images:
