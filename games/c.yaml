@@ -1692,21 +1692,24 @@
 - name: Crystal Stacker
   originals:
   - Columns
-  type: similar
-  url: >-
-    https://web.archive.org/web/20210726132325/https://www.t3-i.com/pages/project.php?id=crystal_stacker
+  type: clone
+  url: https://www.t3-i.com/scripts/pages/project.php?id=crystal_stacker
   development: complete
   status: playable
+  multiplayer:
+  - Local
+  - Competitive
   content: free
   langs:
   - C
+  frameworks:
+  - Allegro
   licenses:
-  - As-is
+  - Custom
   added: 2025-06-21
   updated: 2025-06-21
   images:
-  - >-
-    https://web.archive.org/web/20210214115004im_/http://www.t3-i.com/games/crystal_stacker/images/screenshot_0.png
+  - https://www.t3-i.com/projects/games/crystal_stacker/images/screenshot_0.png
 
 - name: CrystalQuest
   frameworks:
