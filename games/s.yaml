@@ -1809,13 +1809,14 @@
   url: https://www.srb2.org/
   info: 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy
 
-- name: 'Sonic 3 A.I.R - Angel Island Revisited'
+- name: Sonic 3 A.I.R.
   originals:
   - Sonic the Hedgehog
   type: remake
-  repo: 'https://github.com/Eukaryot/sonic3air'
-  url: 'https://sonic3air.org/'
-  development: very active
+  repo: https://github.com/Eukaryot/sonic3air
+  feed: https://github.com/Eukaryot/sonic3air/releases.atom
+  url: https://sonic3air.org/
+  development: active
   status: playable
   multiplayer:
   - Split-screen
@@ -1826,7 +1827,9 @@
   - SDL2
   licenses:
   - GPL3
-  updated: '2023-07-05'
+  added: 2023-07-05
+  updated: 2025-06-29
+  info: A fan-made widescreen remaster of Sonic 3 & Knuckles.
   images:
   - 'https://sonic3air.org/images/icecap01.png'
   - 'https://sonic3air.org/images/skysanctuary01.png'
@@ -1856,16 +1859,19 @@
   originals:
   - Sonic the Hedgehog
   type: remake
-  repo: 'https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation'
+  repo: https://github.com/RSDKModding/Sonic-Mania-Decompilation
+  feed: https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases.atom
   development: very active
   status: playable
   content: commercial
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - Custom
-  updated: '2023-07-05'
-
+  added: 2023-07-05
+  updated: 2025-06-29
 
 - name: Sopwith 3
   langs:
