@@ -1966,26 +1966,34 @@
   type: remake
   originals:
   - Space Station 13
-  repo: 'https://github.com/space-wizards/space-station-14'
-  url: 'https://spacestation14.io/'
-  feed: 'https://spacestation14.io/index.xml'
+  repo: https://github.com/space-wizards/space-station-14
+  url: https://spacestation14.com
+  feed: https://spacestation14.com/index.xml#feed
   development: very active
   status: playable
   multiplayer:
   - Online
+  - Competitive
+  - Co-op
   langs:
   - 'C#'
+  frameworks:
+  - .NET
   licenses:
   - MIT
   - CC-BY-SA
   - CC-BY-NC-SA
   content: swappable
   info: A continuation of the goon remake of the cult classic
-  updated: '2022-4-22'
+  added: 2016-10-09
+  updated: 2025-07-02
   images:
-  - 'https://spacestation14.io/images/post/pr_30/rollerbed.webp'
-  - 'https://spacestation14.io/images/post/pr_30/accents.webp'
-  - 'https://spacestation14.io/images/post/pr_29/monkey_murder.webp'
+  - https://spacestation14.com/images/home/gallery-bar.webp
+  - https://spacestation14.com/images/home/gallery-engineering.webp
+  - https://spacestation14.com/images/home/gallery-singulo.webp
+  - https://spacestation14.com/images/home/gallery-nukies.webp
+  - https://spacestation14.com/images/home/gallery-medbay.webp
+  - https://spacestation14.com/images/home/gallery-clown.webp
 
 - name: Space Station 3D
   originals:
