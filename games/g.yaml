@@ -593,6 +593,29 @@
   type: remake
   updated: 2022-08-23
 
+- name: GridWars
+  originals:
+  - Geometry Wars
+  type: clone
+  repo: 'https://github.com/mmatyas/GridWars'
+  url: 'https://web.archive.org/web/20180522030154/http://gridwars.marune.de/'
+  feed: 'https://github.com/mmatyas/GridWars/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - BlitzMax
+  licenses:
+  - As-is
+  added: 2025-07-04
+  updated: 2025-07-04
+  images:
+  - >-
+    https://web.archive.org/web/20180522030154im_/http://gridwars.marune.de/gridwars1.jpg
+  - >-
+    https://web.archive.org/web/20180522030154im_/http://gridwars.marune.de/gridwars2.jpg
+  - >-
+    https://web.archive.org/web/20180522030154im_/http://gridwars.marune.de/gridwars3.jpg
+
 - name: Griefly
   langs:
   - C++
