@@ -1683,8 +1683,13 @@
   repo: https://github.com/Davidebyzero/Snipes
   status: playable
   type: remake
+  added: 2017-04-04
   updated: 2017-04-04
-  url: https://www.vogons.org/viewtopic.php?f=7&t=49073
+  url: https://www.vogons.org/viewtopic.php?t=49073
+  images:
+  - https://kingbird.myphotos.cc/1bc763733d48b46534d219b0fc8ddf71/Snipes%20port%20%2B%20ConEmu%20screenshot.png
+  - https://kingbird.myphotos.cc/9c8a600b6df5d251fc199092b8b0d7d9/Snipes%20port%20%2B%20ConEmu%20screenshot%20with%20omniview.png
+  - https://kingbird.myphotos.cc/581b9f191f9e7e990a94cbaf7da2ae36/Snipes%20port%20%2B%20ConEmu%20screenshot%20-%20beat%20level%20Z9.png
 
 - name: Solarus
   images:
@@ -1704,6 +1709,7 @@
   status: playable
   repo: https://gitlab.com/solarus-games/solarus
   type: clone
+  added: 2013-05-28
   updated: 2020-08-25
   url: https://www.solarus-games.org
   video:
@@ -1722,11 +1728,13 @@
   - pygame
   licenses:
   - LGPL2
+  content: open
   originals:
   - Solar Fox
   status: playable
-  development: halted
+  development: complete
   type: remake
+  added: 2015-04-25
   updated: 2022-08-11
   url: https://pygame.org/shredwheat/solarwolf/index.shtml
 
@@ -1734,8 +1742,8 @@
   originals:
   - Soldat
   type: remake
-  repo: 'https://github.com/smokku/soldank'
-  development: halted
+  repo: https://github.com/smokku/soldank
+  development: sporadic
   status: semi-playable
   multiplayer:
   - Online
@@ -1745,7 +1753,8 @@
   - Rust
   licenses:
   - MIT
-  updated: 2023-11-02
+  added: 2021-11-10
+  updated: 2025-06-26
   images:
   - 'https://raw.githubusercontent.com/smokku/soldank/master/sshot.png'
 
@@ -1754,8 +1763,9 @@
   - Sonic Adventure
   type: tool
   status: N/A
-  repo: 'https://github.com/sonicretro/sa_tools'
-  url: https://info.sonicretro.org/SA_Tools
+  repo: https://github.com/X-Hax/sa_tools
+  url: https://github.com/X-Hax/sa_tools/wiki
+  feed: https://github.com/X-Hax/sa_tools/releases.atom
   development: active
   content: commercial
   langs:
@@ -1763,11 +1773,12 @@
   frameworks:
   - .NET
   licenses:
-  - As-is
+  - Multiple
   info: >-
     SA Tools is a toolkit for modifying and extracting data from the Sonic
     Adventure series of games
-  updated: '2019-11-27'
+  added: 2019-11-27
+  updated: 2019-11-27
   images:
   - >-
     https://github.com/sonicretro/sa_tools/raw/Docs/Documentation/images/project_manager_split_window.png
@@ -1787,40 +1798,25 @@
   licenses:
   - GPL2
   content: free
-  development: active
+  development: sporadic
   originals:
   - Sonic the Hedgehog
   status: playable
   repo: https://github.com/STJr/SRB2
   type: similar
-  updated: 2021-09-07
+  added: 2014-04-16
+  updated: 2025-06-27
   url: https://www.srb2.org/
-  info: SRB2 is closely inspired by the original Sonic games from the Sega Genesis, and attempts to recreate the design in 3D.
+  info: 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy
 
-- name: Sonic-1-2-2013-Decompilation
+- name: Sonic 3 A.I.R.
   originals:
   - Sonic the Hedgehog
   type: remake
-  repo: 'https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation'
-  feed: 'https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation/releases.atom'
+  repo: https://github.com/Eukaryot/sonic3air
+  feed: https://github.com/Eukaryot/sonic3air/releases.atom
+  url: https://sonic3air.org/
   development: active
-  status: playable
-  content: commercial
-  frameworks:
-  - SDL2
-  licenses:
-  - Custom
-  updated: '2021-07-12'
-  video:
-    youtube: gzIfRW91IxE
-
-- name: 'Sonic 3 A.I.R - Angel Island Revisited'
-  originals:
-  - Sonic the Hedgehog
-  type: remake
-  repo: 'https://github.com/Eukaryot/sonic3air'
-  url: 'https://sonic3air.org/'
-  development: very active
   status: playable
   multiplayer:
   - Split-screen
@@ -1831,7 +1827,9 @@
   - SDL2
   licenses:
   - GPL3
-  updated: '2023-07-05'
+  added: 2023-07-05
+  updated: 2025-06-29
+  info: A fan-made widescreen remaster of Sonic 3 & Knuckles.
   images:
   - 'https://sonic3air.org/images/icecap01.png'
   - 'https://sonic3air.org/images/skysanctuary01.png'
@@ -1861,15 +1859,19 @@
   originals:
   - Sonic the Hedgehog
   type: remake
-  repo: 'https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation'
+  repo: https://github.com/RSDKModding/Sonic-Mania-Decompilation
+  feed: https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases.atom
   development: very active
   status: playable
   content: commercial
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - Custom
-  updated: '2023-07-05'
+  added: 2023-07-05
+  updated: 2025-06-29
 
 - name: Sopwith 3
   langs:
