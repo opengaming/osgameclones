@@ -1234,7 +1234,7 @@
 - name: DRL
   originals:
   - Doom
-  type: clone
+  type: similar
   repo: 'https://github.com/chaosforgeorg/doomrl'
   url: 'https://drl.chaosforge.org/'
   feed: 'https://drl.chaosforge.org/atom/'
@@ -1244,6 +1244,9 @@
   langs:
   - Lua
   - Pascal
+  frameworks:
+  - SDL2
+  - OpenGL
   licenses:
   - CC-BY-SA
   - GPL2
