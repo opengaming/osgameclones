@@ -69,6 +69,30 @@
   images:
   - 'https://qb64.com/samples/gorillas/img/screenshot.png'
 
+- name: QNetWalk
+  originals:
+  - NetWalk
+  type: clone
+  repo: 'https://github.com/AMDmi3/qnetwalk'
+  url: 'https://web.archive.org/web/20131025174600/http://qt.osdn.org.ua/qnetwalk.html'
+  feed: 'https://github.com/AMDmi3/qnetwalk/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-07-23
+  updated: 2025-07-23
+  images:
+  - 'https://github.com/AMDmi3/qnetwalk/raw/master/doc/screenshot.png'
+  - 'https://web.archive.org/web/20131025174600im_/http://qt.osdn.org.ua/qnetwalk1.png'
+  - 'https://web.archive.org/web/20131025174600im_/http://qt.osdn.org.ua/qnetwalk2.png'
+
 - name: Quadrapassel
   originals:
   - Tetris
