@@ -448,19 +448,23 @@
 
 - name: 'Angry, Drunken Dwarves'
   originals:
-  - Puzzle Fighter
-  type: similar
+  - Super Puzzle Fighter II Turbo
+  type: clone
   url: >-
     https://web.archive.org/web/20170506100454/https://www.sacredchao.net/~piman/angrydd/
+  repo: https://github.com/museoa/angrydd
   development: halted
   status: playable
+  multiplayer:
+  - Competitive
+  - Split-screen
   content: free
   langs:
   - Python
   frameworks:
   - pygame
   licenses:
-  - As-is
+  - GPL2
   added: 2025-07-29
   updated: 2025-07-29
   images:
