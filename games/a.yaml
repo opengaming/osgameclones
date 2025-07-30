@@ -323,7 +323,7 @@
 - name: allegro blasteroids
   originals:
   - Blasteroids
-  type: similar
+  type: clone
   repo: 'https://github.com/lucasew/allegro_blasteroids'
   url: 'https://aur.archlinux.org/packages/allegro-blasteroids-git'
   feed: 'https://github.com/lucasew/allegro_blasteroids/releases.atom'
@@ -332,6 +332,8 @@
   content: free
   langs:
   - C
+  frameworks:
+  - Allegro
   licenses:
   - As-is
   added: 2025-07-28
