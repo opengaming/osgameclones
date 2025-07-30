@@ -132,6 +132,27 @@
   updated: 2022-09-20
   url: https://apps.kde.org/katomic/
 
+- name: KBreakOut
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://invent.kde.org/games/kbreakout'
+  url: 'https://apps.kde.org/kbreakout/'
+  feed: 'https://apps.kde.org/kbreakout/index.xml'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL2
+  added: 2025-07-30
+  updated: 2025-07-30
+  images:
+  - 'https://kde.org/images/screenshots/kbreakout.png'
+
 - name: Keen Dreams
   langs:
   - C
