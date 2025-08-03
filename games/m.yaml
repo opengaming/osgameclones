@@ -1658,3 +1658,29 @@
   images:
   - 'https://i.imgur.com/0LUS5bS.gif'
   - 'https://i.imgur.com/i1iTugw.gif'
+
+- name: MyMan
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://sourceforge.net/projects/myman/'
+  url: 'https://myman.sourceforge.io/'
+  feed: 'https://sourceforge.net/projects/myman/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - ncurses
+  - Allegro
+  - Carbon
+  licenses:
+  - MIT
+  added: 2025-08-04
+  updated: 2025-08-04
+  images:
+  - 'https://a.fsdn.com/con/app/proj/myman/screenshots/183596.jpg'
+  - 'https://a.fsdn.com/con/app/proj/myman/screenshots/183449.jpg'
+  - 'https://a.fsdn.com/con/app/proj/myman/screenshots/183604.jpg'
+
