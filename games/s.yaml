@@ -1484,6 +1484,27 @@
   images:
   - https://danhough.com/img/skifree.gif
 
+- name: Skladnik
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://invent.kde.org/games/skladnik'
+  url: 'https://apps.kde.org/skladnik/'
+  feed: 'https://apps.kde.org/skladnik/index.xml'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL2
+  added: 2025-08-06
+  updated: 2025-08-06
+  images:
+  - 'https://cdn.kde.org/screenshots/skladnik/skladnik.png'
+
 - name: SLADE
   originals:
   - Doom
