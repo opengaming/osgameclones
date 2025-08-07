@@ -658,6 +658,27 @@
   images:
   - https://apps.kde.org/thumbnails/org.kde.granatier/granatier.png
 
+- name: Gravity Wars
+  originals:
+  - Gravity Force
+  type: clone
+  repo: 'https://salsa.debian.org/games-team/gravitywars'
+  url: 'https://packages.debian.org/bookworm/gravitywars'
+  feed: 'https://salsa.debian.org/games-team/gravitywars.atom'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-08-07
+  updated: 2025-08-07
+  images:
+  - 'https://screenshots.debian.net/screenshot/gravitywars/7125'
+
 - name: “The Great Escape” Ported to C
   info: reverse engineered from binary
   langs:
