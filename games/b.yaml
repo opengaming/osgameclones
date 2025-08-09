@@ -1007,6 +1007,30 @@
   type: clone
   updated: 2019-06-14
 
+- name: Brick Bird
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/Siiir/brick_bird/'
+  url: 'https://siiir.github.io/brick_bird/'
+  feed: 'https://github.com/Siiir/brick_bird/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - Rust
+  licenses:
+  - As-is
+  added: 2025-08-08
+  updated: 2025-08-08
+  images:
+  - >-
+    https://raw.githubusercontent.com/Siiir/brick_bird/stable/images/screenshots/PC-FullScreen.png
+  - >-
+    https://raw.githubusercontent.com/Siiir/brick_bird/stable/images/screenshots/PC-Desktop-Vertical.png
+  - >-
+    https://raw.githubusercontent.com/Siiir/brick_bird/stable/images/screenshots/PC-Chrome-Horizontal.png
+
 - name: Bridge Command
   frameworks:
   - Irrlicht
