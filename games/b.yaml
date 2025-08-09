@@ -414,6 +414,25 @@
   type: remake
   updated: 2024-04-16
 
+- name: BeMines
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/HaikuArchives/BeMines'
+  feed: 'https://github.com/HaikuArchives/BeMines/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  licenses:
+  - MIT
+  added: 2025-08-09
+  updated: 2025-08-09
+  images:
+  - >-
+    https://raw.githubusercontent.com/HaikuArchives/BeMines/master/BeMines_screenshot.png
+
 - name: Bemuse
   originals:
   - Beatmania IIDX
