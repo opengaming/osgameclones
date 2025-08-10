@@ -486,6 +486,42 @@
   - 'https://gnurobbo.sourceforge.net/images/gnurobbo061-04.png'
   - 'https://gnurobbo.sourceforge.net/images/gnurobbo061-07.png'
 
+- name: GNUjump
+  originals:
+  - Xjump
+  type: clone
+  repo: 'https://savannah.gnu.org/projects/gnujump/'
+  url: >-
+    https://web.archive.org/web/20161024215159/http://gnujump.es.gnu.org/index.php/Main_Page
+  feed: 'https://savannah.gnu.org/news/atom.php?group=gnujump'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - GPL3
+  added: 2025-08-05
+  updated: 2025-08-05
+  images:
+  - >-
+    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot1.png
+  - >-
+    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot2.png
+  - >-
+    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot3.png
+  - >-
+    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot4.png
+  - >-
+    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot5.png
+  - >-
+    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot7.png
+  - >-
+    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/sdljump.png
+
 - name: Gods Deluxe
   langs:
   - Java
@@ -621,6 +657,27 @@
   updated: 2021-11-20
   images:
   - https://apps.kde.org/thumbnails/org.kde.granatier/granatier.png
+
+- name: Gravity Wars
+  originals:
+  - Gravity Force
+  type: clone
+  repo: 'https://salsa.debian.org/games-team/gravitywars'
+  url: 'https://packages.debian.org/bookworm/gravitywars'
+  feed: 'https://salsa.debian.org/games-team/gravitywars.atom'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-08-07
+  updated: 2025-08-07
+  images:
+  - 'https://screenshots.debian.net/screenshot/gravitywars/7125'
 
 - name: “The Great Escape” Ported to C
   info: reverse engineered from binary

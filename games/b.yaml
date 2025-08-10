@@ -208,6 +208,32 @@
   video:
     youtube: vLQTb-5eVNU
 
+- name: bash-pac
+  originals:
+  - Pac-Man
+  - Snake
+  type: similar
+  repo: 'https://github.com/stuffbymax/bash-pac'
+  url: https://stuff-by-max.itch.io/bash-pac
+  feed: 'https://github.com/stuffbymax/bash-pac/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Shell
+  licenses:
+  - GPL2
+  added: 2025-08-06
+  updated: 2025-08-06
+  images:
+  - >-
+    https://images.pling.com/img/00/00/66/05/71/2143970/screenshot-2024-04-21-183930.png
+  - >-
+    https://images.pling.com/img/00/00/66/05/71/2143970/screenshot-2024-04-21-183959.png
+  - >-
+    https://images.pling.com/img/00/00/66/05/71/2143970/screenshot-2024-04-21-184017.png
+  - >-
+    https://images.pling.com/img/00/00/66/05/71/2143970/screenshot-2024-04-21-184037.png
+
 - name: Batrachians
   images:
   - https://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
@@ -304,6 +330,31 @@
   repo: https://github.com/ggc87/BattleCity2014
   type: clone
   updated: 2022-07-09
+
+- name: Battle Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://sourceforge.net/projects/battlepong/'
+  url: 'https://icculus.org/battlepong/'
+  feed: 'https://sourceforge.net/projects/battlepong/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-08-07
+  updated: 2025-08-07
+  images:
+  - 'https://icculus.org/battlepong/img/screens/screen1.png'
+  - 'https://icculus.org/battlepong/img/screens/screen2.png'
+  - 'https://icculus.org/battlepong/img/screens/screen3.png'
+  - 'https://icculus.org/battlepong/img/screens/screen4.png'
+  - 'https://icculus.org/battlepong/img/screens/screen5.png'
 
 - name: BBTools
   originals:
@@ -720,6 +771,22 @@
   - https://www.bobstuff.org/media/images/bobball-android-1.png
   - https://www.bobstuff.org/media/images/bobball-android-2.png
   - https://www.bobstuff.org/media/images/bobball-android-3.png
+
+- name: Bomb-her-man
+  originals:
+  - Bomberman
+  type: clone
+  repo: 'https://github.com/Keruspe/Bomb-her-man'
+  feed: 'https://github.com/Keruspe/Bomb-her-man/releases.atom'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  added: 2025-08-05
+  updated: 2025-08-05
 
 - name: Bomb Mania Reloaded
   images:

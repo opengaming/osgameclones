@@ -421,6 +421,36 @@
   video:
     youtube: BUxREyXILLs
 
+- name: 'The Legend of Zelda: Mystery of Solarus XD'
+  originals:
+  - Legend of Zelda - A Link to the Past
+  type: clone
+  repo: 'https://gitlab.com/solarus-games/games/zsxd'
+  url: 'https://www.solarus-games.org/games/the-legend-of-zelda-mystery-of-solarus-xd/'
+  feed: 'https://gitlab.com/solarus-games/games/zsxd.atom'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Lua
+  frameworks:
+  - Solarus
+  licenses:
+  - CC-BY-SA
+  - GPL3
+  info: A parodic game that released on April Fools' Day 2011.
+  added: 2025-08-06
+  updated: 2025-08-06
+  images:
+  - >-
+    https://www.solarus-games.org/games/the-legend-of-zelda-mystery-of-solarus-xd/screen1.png
+  - >-
+    https://www.solarus-games.org/games/the-legend-of-zelda-mystery-of-solarus-xd/screen2.png
+  - >-
+    https://www.solarus-games.org/games/the-legend-of-zelda-mystery-of-solarus-xd/screen3.png
+  - >-
+    https://www.solarus-games.org/games/the-legend-of-zelda-mystery-of-solarus-xd/screen4.png
+
 - name: The Legend Of Zelda - Navi's Quest
   frameworks:
   - Solarus
@@ -1375,6 +1405,26 @@
   type: remake
   added: 2015-04-13
   updated: 2022-06-16
+
+- name: luminesweeper
+  originals:
+  - Lumines
+  - Minesweeper
+  type: clone
+  url: 'https://pineight.com/lu/index.html'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  - LGPL2
+  added: 2025-08-05
+  updated: 2025-08-05
+  images:
+  - 'https://pineight.com/lu/L_Shinin.png'
+  - 'https://pineight.com/lu/Rshot.png'
 
 - name: Luminol
   originals:
