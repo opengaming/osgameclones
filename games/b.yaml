@@ -1109,6 +1109,24 @@
   images:
   - https://raw.githubusercontent.com/yannicka/bobby/master/src/assets/img/banner.png
 
+- name: Boing!
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=boing'
+  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/boing-0.1.lsm'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-08-08
+  updated: 2025-08-08
+
 - name: BStone
   langs:
   - C++
