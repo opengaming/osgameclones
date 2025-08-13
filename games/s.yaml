@@ -715,6 +715,27 @@
   images:
   - 'https://users.jyu.fi/~tvkalvas/code/tunneler/tunneler_shot.png'
 
+- name: SDLInvaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://sourceforge.net/projects/sdlinvaders/'
+  url: 'https://www.nielsweber.de/2005/07/25/sdlinvaders/'
+  feed: 'https://www.nielsweber.de/2005/07/25/sdlinvaders/feed/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-08-09
+  updated: 2025-08-09
+  images:
+  - https://dl.openhandhelds.org/dingoo/screenshots/SDLInvaders1.0.jpeg
+
 - name: SDLPoP
   langs:
   - C
