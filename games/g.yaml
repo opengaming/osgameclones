@@ -402,6 +402,27 @@
   - 'https://a.fsdn.com/con/app/proj/gltron/screenshots/55754.jpg'
   - 'https://a.fsdn.com/con/app/proj/gltron/screenshots/55919.jpg'
 
+- name: gnome-2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://gitlab.gnome.org/GNOME/gnome-2048'
+  url: 'https://wiki.gnome.org/Apps/2048'
+  feed: 'https://gitlab.gnome.org/GNOME/gnome-2048.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - Vala
+  frameworks:
+  - GTK
+  licenses:
+  - GPL3
+  added: 2025-08-17
+  updated: 2025-08-17
+  images:
+  - 'https://wiki.gnome.org/attachments/Apps(2f)2048/highlight3-figure.png'
+
 - name: GNOME Atomix
   langs:
   - C
