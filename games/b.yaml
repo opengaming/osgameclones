@@ -530,6 +530,28 @@
   - >-
     https://assets.website-files.com/5c68622246b367adf6f3041d/61361932dca36e033abe7822_BAR_screenshot_112.jpg
 
+- name: Billig-Sweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/realchonk/billig-sweeper'
+  url: 'https://aur.archlinux.org/packages/billig-sweeper'
+  feed: 'https://github.com/realchonk/billig-sweeper/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2025-08-16
+  updated: 2025-08-16
+  images:
+  - >-
+    https://github.com/realchonk/billig-sweeper/raw/master/data/Screenshots/bsw1.png
+
 - name: BitRiot
   langs:
   - C++
