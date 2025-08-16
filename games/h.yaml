@@ -115,6 +115,33 @@
   video:
     youtube: iA4lOiYS2s8
 
+- name: haskanoid
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://github.com/ivanperez-keera/haskanoid'
+  url: 'https://hackage.haskell.org/package/haskanoid'
+  feed: 'https://github.com/ivanperez-keera/haskanoid/releases.atom'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - Haskell
+  frameworks:
+  - SDL
+  licenses:
+  - BSD
+  - CC-BY-NC-SA
+  added: 2025-08-17
+  updated: 2025-08-17
+  images:
+  - >-
+    https://raw.githubusercontent.com/ivanperez-keera/haskanoid/refs/heads/develop/screenshots/android.gif
+  - >-
+    https://raw.githubusercontent.com/ivanperez-keera/haskanoid/refs/heads/develop/screenshots/android.png
+  - >-
+    https://raw.githubusercontent.com/ivanperez-keera/haskanoid/refs/heads/develop/screenshots/desktop.png
+
 - name: Haxima
   originals:
   - 'Ultima V: Warriors of Destiny'
