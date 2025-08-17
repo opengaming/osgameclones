@@ -67,6 +67,20 @@
   status: playable
   url: https://harto.github.io/pacman/
 
+- name: pacman.c
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://github.com/floooh/pacman.c'
+  url: 'https://floooh.github.io/pacman.c/pacman.html'
+  feed: 'https://github.com/floooh/pacman.c/releases.atom'
+  development: sporadic
+  status: playable
+  licenses:
+  - MIT
+  added: 2025-08-17
+  updated: 2025-08-17
+
 - name: pacman-canvas
   images:
   - https://pacman.platzh1rsch.ch/img/instructions/instructions_scatter.PNG
