@@ -307,6 +307,33 @@
   video:
     youtube: sqL67DKfjmk
 
+- name: Xgalaga SDL
+  originals:
+  - Galaga
+  type: clone
+  repo: 'https://github.com/frank-zago/xgalaga-sdl'
+  url: 'https://hunoppc.amiga-projects.net/content/xgalaga-sdl'
+  feed: 'https://github.com/frank-zago/xgalaga-sdl/releases.atom'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  info: A port to SDL 1 and 2 of XGalaga.
+  added: 2025-08-20
+  updated: 2025-08-20
+  images:
+  - >-
+    https://hunoppc.amiga-projects.net/sites/default/files/styles/inner_carousel/public/capture_small.png
+  - >-
+    https://hunoppc.amiga-projects.net/sites/default/files/styles/inner_carousel/public/moreimages/capture_small2.png
+  - >-
+    https://hunoppc.amiga-projects.net/sites/default/files/styles/inner_carousel/public/moreimages/capture_big.png
+
 - name: XGalaga++
   originals:
   - Galaga
