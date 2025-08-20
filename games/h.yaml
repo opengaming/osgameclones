@@ -33,6 +33,26 @@
   multiplayer:
   - Online
 
+- name: Haiku 2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/HaikuArchives/Haiku2048'
+  feed: 'https://github.com/HaikuArchives/Haiku2048/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  licenses:
+  - MIT
+  info: Clone of the popular 2048 game for Haiku OS.
+  added: 2025-08-20
+  updated: 2025-08-20
+  images:
+  - >-
+    https://raw.githubusercontent.com/HaikuArchives/Haiku2048/master/screenshot1.png
+
 - name: Hammer of Thyrion
   images:
   - https://a.fsdn.com/con/app/proj/uhexen2/screenshots/320847.jpg/max/max/1
