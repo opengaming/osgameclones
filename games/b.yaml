@@ -1086,6 +1086,26 @@
   type: remake
   updated: 2015-05-15
 
+- name: Breaker
+  originals:
+  - Arkanoid
+  type: clone
+  repo: 'https://sourceforge.net/projects/breaker10/'
+  feed: 'https://sourceforge.net/projects/breaker10/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-08-21
+  updated: 2025-08-21
+  images:
+  - 'https://a.fsdn.com/con/app/proj/breaker10/screenshots/prj_arka0.png'
+
 - name: Breakout-VR
   langs:
   - C#
