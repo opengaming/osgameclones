@@ -1868,6 +1868,28 @@
   - https://kingbird.myphotos.cc/9c8a600b6df5d251fc199092b8b0d7d9/Snipes%20port%20%2B%20ConEmu%20screenshot%20with%20omniview.png
   - https://kingbird.myphotos.cc/581b9f191f9e7e990a94cbaf7da2ae36/Snipes%20port%20%2B%20ConEmu%20screenshot%20-%20beat%20level%20Z9.png
 
+- name: sokoban-rs
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://github.com/swatteau/sokoban-rs'
+  url: 'https://crates.io/crates/sokoban-rs'
+  feed: 'https://github.com/swatteau/sokoban-rs/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Rust
+  frameworks:
+  - SDL2
+  licenses:
+  - Apache
+  added: 2025-08-21
+  updated: 2025-08-21
+  images:
+  - >-
+    https://raw.githubusercontent.com/swatteau/sokoban-rs/master/assets/image/screenshot.png
+
 - name: Solarus
   images:
   - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-01.png
