@@ -204,6 +204,12 @@ def check_has_images_or_videos(game):
               "Please help improve the entry by finding some!"
 
 
+def check_has_language(game):
+    if not game.get("langs"):
+        yield f"🔡 {game['name']} has no languages. " \
+              "Please help improve the entry by finding some!"
+
+
 def check_language_known(game):
     if u := {lang for lang in game.get("langs", []) if lang not in GH_LANGUAGES}:
         yield f"🔢 {game['name']} has unknown language{'s'[:len(u)^1]} \"{', '.join(u)}\". " \
