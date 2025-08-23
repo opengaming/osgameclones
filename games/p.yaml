@@ -137,6 +137,25 @@
   images:
   - https://github.com/denix666/pacman/blob/main/screenshots/screenshot.png
 
+- name: pacman_sdl
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://github.com/schuay/pacman/'
+  url: 'https://aur.archlinux.org/packages/pacman_sdl'
+  feed: 'https://github.com/schuay/pacman/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-08-23
+  updated: 2025-08-23
+
 - name: pacman.zig
   originals:
   - Pac-Man
