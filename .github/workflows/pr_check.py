@@ -126,18 +126,19 @@ KNOWN_FRAMEWORKS = [
   'XNA'
 ]
 FRAMEWORK_LANGUAGES = {
-  "SDL2": {"C++", "C"},
+  "Allegro": {"C++", "C"},
+  "Fyne": {"Go"},
+  "OGRE": {"C++"},
+  "OpenGL": {"C++", "C"},
+  "Qt": {"C++"},
   "SDL": {"C++", "C"},
   "SDL.NET": {"C#"},
-  "OpenGL": {"C++", "C"},
-  "Unity": {"C#"},
+  "SDL2": {"C++", "C"},
   "SFML": {"C++"},
+  "Unity": {"C#"},
   "libGDX": {"Java", "Kotlin"},
-  "Qt": {"C++"},
-  "Allegro": {"C++", "C"},
   "pygame": {"Python"},
-  "OGRE": {"C++"},
-  "Fyne": {"Go"},
+  "Vue.js": {"JavaScript"},
 }
 MIN_FUZZ_SCORE = 95
 unknown_languages = False
@@ -180,6 +181,7 @@ def common_checks(game):
     yield from check_has_added(game)
     yield from check_not_same_repo_and_url(game)
     yield from check_has_images_or_videos(game)
+    yield from check_has_language(game)
     yield from check_language_known(game)
     yield from check_framework_known(game)
     yield from check_framework_language(game)
