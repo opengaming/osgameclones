@@ -1182,6 +1182,29 @@
   url: https://www.luanti.org
   feed: https://blog.luanti.org/feed.rss
 
+- name: minex
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/libin-codes/minex'
+  feed: 'https://github.com/libin-codes/minex/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Python
+  frameworks:
+  - Textual
+  - pygame
+  licenses:
+  - MIT
+  added: 2025-08-23
+  updated: 2025-08-23
+  images:
+  - >-
+    https://github.com/user-attachments/assets/3c507a68-b6a9-493a-ae23-a3b722338aa5
+  - >-
+    https://github.com/user-attachments/assets/e22c2180-216a-4d1b-9555-a157ce28b5e5
+
 - name: Minima
   images:
   - https://raw.githubusercontent.com/Feneric/Minima/master/MinimaWorld.png
