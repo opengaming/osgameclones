@@ -105,6 +105,25 @@
   images:
   - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview3.png'
 
+- name: Xasteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/asteroids/#:~:text=xasteroids
+  url: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/asteroids/xasteroids.lsm
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-08-21
+  updated: 2025-08-21
+  images:
+  - https://www.ombertech.com/cnk/pitrex/wiki/data/files/xasteroids1.xwd.png
+
 - name: xBaK
   frameworks:
   - SDL
