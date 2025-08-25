@@ -218,6 +218,27 @@
   - MIT
   updated: '2023-09-28'
 
+- name: 2048.c
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/mevdschee/2048.c'
+  url: 'https://aur.archlinux.org/packages/2048.c'
+  feed: 'https://github.com/mevdschee/2048.c/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - C
+  licenses:
+  - MIT
+  added: 2025-08-25
+  updated: 2025-08-25
+  images:
+  - >-
+    https://raw.githubusercontent.com/mevdschee/2048.c/refs/heads/main/screenshot.png
+  - >-
+    https://raw.githubusercontent.com/mevdschee/2048.c/refs/heads/main/debian_2048.png
+
 - name: 2048-curses
   originals:
   - '2048'
