@@ -1833,6 +1833,24 @@
   video:
     youtube: iwBCFY7FqlU
 
+- name: smines
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/BBaoVanC/smines'
+  url: 'https://aur.archlinux.org/packages/smines-git'
+  feed: 'https://github.com/BBaoVanC/smines/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL3
+  added: 2025-08-25
+  updated: 2025-08-25
+
 - name: smw
   originals:
   - Super Mario
