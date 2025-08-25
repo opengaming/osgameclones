@@ -820,6 +820,29 @@
   video:
     youtube: gARVzn3nBsQ
 
+- name: GRUB Invaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://salsa.debian.org/games-team/invaders'
+  url: 'http://www.erikyyy.de/invaders/'
+  feed: 'https://salsa.debian.org/games-team/invaders.atom'
+  development: complete
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - GRUB
+  licenses:
+  - GPL2
+  info: >-
+    A game that runs directly on a computer, without an operating system,
+    it is meant to be started with the GRUB bootloader for PCs.
+  added: 2025-08-26
+  updated: 2025-08-26
+  images:
+  - 'https://libregamewiki.org/images/2/2a/Grub-invaders.png'
+
 - name: gSoko
   originals:
   - Sokoban
