@@ -1406,6 +1406,27 @@
   video:
     youtube: yLysg1pyLK0
 
+- name: ByteBird
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/wzykubek/7seg-ByteBird'
+  url: 'https://pypi.org/project/7seg-ByteBird/'
+  feed: 'https://github.com/wzykubek/7seg-ByteBird/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Python
+  frameworks:
+  - ZeroSeg
+  licenses:
+  - ISC
+  info: >-
+    Simple "Flappy Bird" like game for 7 segment display from ZeroSeg module for
+    Raspberry Pi.
+  added: 2025-08-26
+  updated: 2025-08-26
+
 - name: BZFlag
   images:
   - https://www.bzflag.org/assets/images/media/screenshots/dantes_inferno_01.jpg
