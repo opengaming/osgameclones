@@ -1,3 +1,32 @@
+- name: Abbaye-SDL
+  originals:
+  - l'Abbaye des Morts
+  type: remake
+  repo: 'https://github.com/nevat/abbayedesmorts-gpl'
+  feed: 'https://github.com/nevat/abbayedesmorts-gpl/releases.atom'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - CC-BY
+  - GPL3
+  added: 2025-08-27
+  updated: 2025-08-27
+  images:
+  - >-
+    https://raw.githubusercontent.com/nevat/abbayedesmorts-gpl/refs/heads/master/screenshots/title.png
+  - >-
+    https://raw.githubusercontent.com/nevat/abbayedesmorts-gpl/refs/heads/master/screenshots/title-md.png
+  - >-
+    https://raw.githubusercontent.com/nevat/abbayedesmorts-gpl/refs/heads/master/screenshots/ingame.png
+  - >-
+    https://raw.githubusercontent.com/nevat/abbayedesmorts-gpl/refs/heads/master/screenshots/ingame-md.png
+
 - name: Abuse
   images:
   - https://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png
