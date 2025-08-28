@@ -57,6 +57,27 @@
   video:
     youtube: cjBwh0LLUFk
 
+- name: Kapman
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://invent.kde.org/games/kapman'
+  url: 'https://apps.kde.org/kapman/'
+  feed: 'https://apps.kde.org/kapman/index.xml'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL2
+  added: 2025-08-28
+  updated: 2025-08-28
+  images:
+  - 'https://cdn.kde.org/screenshots/kapman/kapman.png'
+
 - name: Kartering
   frameworks:
   - SDL2
