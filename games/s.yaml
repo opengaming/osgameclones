@@ -2329,6 +2329,27 @@
   video:
     youtube: sAUu-Dl01OE
 
+- name: SpaceInvaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/ivanperez-keera/SpaceInvaders'
+  url: 'https://hackage.haskell.org/package/SpaceInvaders'
+  feed: 'https://hackage.haskell.org/package/SpaceInvaders.rss'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - Yampa
+  licenses:
+  - BSD
+  added: 2025-08-29
+  updated: 2025-08-29
+  images:
+  - >-
+    https://raw.githubusercontent.com/ivanperez-keera/SpaceInvaders/refs/heads/develop/screenshots/gameplay.gif
+
 - name: Space-rangers
   frameworks:
   - XNA
