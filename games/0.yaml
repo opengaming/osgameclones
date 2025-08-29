@@ -274,6 +274,22 @@
   images:
   - 'https://raw.githubusercontent.com/alewmoose/2048-in-terminal/master/screen.gif'
 
+- name: 2048-py
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://codeberg.org/LadueCS/2048'
+  url: 'https://aur.archlinux.org/packages/2048-py'
+  feed: 'https://codeberg.org/LadueCS/2048.atom'
+  development: halted
+  status: playable
+  langs:
+  - Python
+  licenses:
+  - GPL3
+  added: 2025-08-28
+  updated: 2025-08-28
+
 - name: 2048-python
   originals:
   - '2048'
