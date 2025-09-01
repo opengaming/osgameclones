@@ -462,6 +462,26 @@
   images:
   - https://i.imgur.com/J5RDcIz.png
 
+- name: Epiphany
+  originals:
+  - Boulder Dash
+  type: clone
+  repo: 'https://sourceforge.net/projects/epiphany/'
+  feed: 'https://sourceforge.net/p/epiphany/news/feed.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-01
+  updated: 2025-09-01
+  images:
+  - 'https://a.fsdn.com/con/app/proj/epiphany/screenshots/128437.jpg'
+
 - name: erampage
   info: Based on EDuke32
   langs:
