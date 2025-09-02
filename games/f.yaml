@@ -370,6 +370,25 @@
   - 'https://tic.computer/cart/41eaf38786c4a34a832e631e190cd879/cover.gif'
   info: source is available by closing the game and pressing Esc
 
+- name: FlappyTiger
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/tigermouthbear/flappytiger'
+  url: 'https://aur.archlinux.org/packages/flappytiger'
+  feed: 'https://github.com/tigermouthbear/flappytiger/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - GLFW
+  licenses:
+  - MIT
+  added: 2025-09-02
+  updated: 2025-09-02
+
 - name: FlasciiBird
   originals:
   - Flappy Bird
