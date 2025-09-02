@@ -239,6 +239,24 @@
   - >-
     https://raw.githubusercontent.com/mevdschee/2048.c/refs/heads/main/debian_2048.png
 
+- name: 2048.cpp
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/plibither8/2048.cpp'
+  url: 'https://ports.macports.org/port/2048.cpp/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  licenses:
+  - MIT
+  added: 2025-09-02
+  updated: 2025-09-02
+  images:
+  - 'https://raw.githubusercontent.com/plibither8/2048.cpp/master/assets/demo.gif'
+
 - name: 2048-curses
   originals:
   - '2048'
