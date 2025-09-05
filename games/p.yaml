@@ -422,6 +422,28 @@
   type: remake
   updated: 2015-07-14
 
+- name: Penguin Command
+  originals:
+  - Missile Command
+  type: clone
+  repo: 'https://sourceforge.net/projects/penguin-command/'
+  url: 'https://www.linux-games.com/penguin-command/'
+  feed: 'https://sourceforge.net/projects/penguin-command/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-05
+  updated: 2025-09-05
+  images:
+  - 'https://www.linux-games.com/penguin-command/shot1.jpg'
+  - 'https://www.linux-games.com/penguin-command/shot2.jpg'
+
 - name: Pengupop
   originals:
   - Puzzle Bobble
