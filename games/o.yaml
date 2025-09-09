@@ -2690,6 +2690,29 @@
   type: remake
   updated: 2021-11-19
 
+- name: OpenStarbound
+  originals:
+  - Starbound
+  type: remake
+  repo: 'https://github.com/OpenStarbound/OpenStarbound'
+  feed: 'https://github.com/OpenStarbound/OpenStarbound/releases.atom'
+  development: very active
+  status: playable
+  multiplayer:
+  - Local
+  - Online
+  - LAN
+  - Co-op
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - Custom
+  added: '2025-09-09'
+  updated: '2025-09-09'
+
 - name: openStrato
   frameworks:
   - WebGL
