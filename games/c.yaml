@@ -851,6 +851,29 @@
   type: remake
   updated: 2022-10-10
 
+- name: ClanBomber
+  originals:
+  - Bomberman
+  type: clone
+  repo: 'https://savannah.nongnu.org/projects/clanbomber/'
+  url: 'https://www.nongnu.org/clanbomber/'
+  feed: 'https://savannah.nongnu.org/news/atom.php?group=clanbomber'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - ClanLib
+  licenses:
+  - GPL3
+  added: 2025-09-09
+  updated: 2025-09-09
+  images:
+  - 'https://www.nongnu.org/clanbomber/images/screenshots/screenshot_001.jpeg'
+  - 'https://www.nongnu.org/clanbomber/images/screenshots/screenshot_002.jpeg'
+  - 'https://www.nongnu.org/clanbomber/images/screenshots/screenshot_003.jpeg'
+
 - name: Classic RBDoom 3 BFG
   originals:
   - Doom
