@@ -725,6 +725,26 @@
   video:
     youtube: 9VaW2NVxpVg
 
+- name: Wordle CLI
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/nimblebun/wordle-cli'
+  url: 'https://aur.archlinux.org/packages/wordle-cli-bin'
+  feed: 'https://github.com/nimblebun/wordle-cli/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Go
+  licenses:
+  - MIT
+  added: 2025-09-09
+  updated: 2025-09-09
+  images:
+  - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/1.png
+  - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/2.png
+  - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/3.png
+
 - name: Worm Wars
   originals:
   - Tron
