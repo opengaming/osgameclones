@@ -325,6 +325,23 @@
   - >-
     https://raw.githubusercontent.com/yangshun/2048-python/master/img/screenshot.png
 
+- name: 2048-rs
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/pierrechevalier83/2048-rs'
+  url: 'https://crates.io/crates/game-2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-09-13
+  updated: 2025-09-13
+  images:
+  - https://raw.githubusercontent.com/pierrechevalier83/2048-rs/master/screenshots/demo.gif
+
 - name: 2H4U
   originals:
   - Tetris
