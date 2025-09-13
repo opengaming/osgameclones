@@ -559,6 +559,26 @@
   - >-
     https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/sdljump.png
 
+- name: gnupong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=gnupong'
+  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/gnupong-0.14.lsm'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL2
+  added: 2025-09-09
+  updated: 2025-09-09
+  images:
+  - https://inconsolation.wordpress.com/wp-content/uploads/2015/03/2015-03-22-6m47421-gnupong.png
+
 - name: Gods Deluxe
   langs:
   - Java
