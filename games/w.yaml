@@ -725,6 +725,24 @@
   video:
     youtube: 9VaW2NVxpVg
 
+- name: wordl
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/palerdot/wordl-rs'
+  url: 'https://crates.io/crates/wordl'
+  feed: 'https://github.com/palerdot/wordl-rs/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-09-14
+  updated: 2025-09-14
+  images:
+  - 'https://raw.githubusercontent.com/palerdot/wordl-rs/master/wordl.gif'
+
 - name: Wordle CLI
   originals:
   - Wordle
