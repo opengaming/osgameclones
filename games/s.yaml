@@ -46,6 +46,26 @@
   images:
   - https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png
 
+- name: Sasteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: >-
+    https://mirrors.slackware.com/slackware/slackware-4.0/source/y/sastroid/sast1.5-src.tar.gz.mirrorlist
+  url: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/asteroids/sast1.5.README
+  development: halted
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - SVGALib
+  licenses:
+  - Custom
+  info: A port of Xasteroids to run under svgalib, then rewrote it in C++.
+  added: 2025-09-15
+  updated: 2025-09-15
+
 - name: Savage Wheels
   originals:
   - Destruction Derby
