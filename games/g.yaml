@@ -276,6 +276,26 @@
   video:
     youtube: BELCO16pwNM
 
+- name: glpong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/erikg/glpong'
+  feed: 'https://github.com/erikg/glpong/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - OpenGL
+  - OpenAL
+  licenses:
+  - GPL2
+  added: 2025-09-15
+  updated: 2025-09-15
+
 - name: glPortal
   images:
   - https://glportal.de/glportal.gif
