@@ -973,6 +973,24 @@
   video:
     youtube: HITXSeg7zYc
 
+- name: clidle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/ajeetdsouza/clidle'
+  feed: 'https://github.com/ajeetdsouza/clidle/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Go
+  licenses:
+  - MIT
+  info: 'Play Wordle over SSH.'
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - 'https://raw.githubusercontent.com/ajeetdsouza/clidle/main/preview.png'
+
 - name: CloneKeen
   originals:
   - Commander Keen Series
