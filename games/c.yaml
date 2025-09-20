@@ -432,7 +432,7 @@
   - >-
     https://raw.githubusercontent.com/PQCraft/PQCraft/master/Screenshot_20221128_010856.png
 
-- name: CaveExpress
+- name: CaveExpress / CavePacker
   frameworks:
   - SDL
   images:
@@ -444,6 +444,7 @@
   - GPL3
   development: halted
   originals:
+  - Sokoban
   - Ugh!
   repo: https://github.com/mgerhardy/caveexpress
   feed: https://github.com/mgerhardy/caveexpress/releases.atom
@@ -451,26 +452,6 @@
   type: clone
   added: 2014-06-24
   updated: 2024-05-21
-  url: http://www.caveproductions.org/
-  video:
-    vimeo: 79598975
-
-- name: CavePacker
-  frameworks:
-  - SDL
-  langs:
-  - C
-  licenses:
-  - GPL3
-  development: halted
-  originals:
-  - Sokoban
-  repo: https://github.com/mgerhardy/caveexpress
-  feed: https://github.com/mgerhardy/caveexpress/releases.atom
-  status: playable
-  type: clone
-  added: 2014-06-24
-  updated: 2024-05-22
   url: http://www.caveproductions.org/
   video:
     vimeo: 105909375

@@ -277,33 +277,6 @@
   - >-
     https://raw.githubusercontent.com/agrande/lba2remake/master/doc/images/screenshot_editor.jpeg
 
-- name: LBreakoutHD
-  originals:
-  - Breakout
-  type: clone
-  repo: https://sourceforge.net/projects/lgames/
-  url: https://lgames.sourceforge.io/LBreakoutHD/
-  development: very active
-  status: playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL3
-  info: >-
-    LBreakoutHD is a scaleable 16:9 remake of LBreakout2. You try to clear levels
-    full of different types of bricks and extras by using your paddle to aim balls
-    at the bricks. All LBreakout2 themes and levelsets work. New themes can be of
-    any resolution.
-  added: 2019-12-02
-  updated: 2024-09-30
-  images:
-  - https://lgames.sourceforge.io/LBreakoutHD/ss0.jpg
-  - https://lgames.sourceforge.io/LBreakoutHD/ss1.jpg
-  - https://lgames.sourceforge.io/LBreakoutHD/ss2.jpg
-
 - name: 'Legacy of Kain: Soul Reaver Decompile'
   originals:
   - 'Legacy of Kain: Soul Reaver'
@@ -820,6 +793,36 @@
   images:
   - 'https://quasimal.com/images/snake_intro.png'
 
+- name: LGames
+  originals:
+  - Atomix
+  - Breakout
+  type: clone
+  repo: https://sourceforge.net/projects/lgames/
+  url: https://lgames.sourceforge.io
+  feed: https://sourceforge.net/p/lgames/activity/feed
+  development: very active
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: LGames is a collection of Linux games
+  added: 2019-12-02
+  updated: 2025-09-20
+  images:
+  - 'https://lgames.sourceforge.io/LMarbles/ss0.jpg'
+  - 'https://lgames.sourceforge.io/LMarbles/ss1.jpg'
+  - 'https://lgames.sourceforge.io/LMarbles/ss2.jpg'
+  - https://lgames.sourceforge.io/LBreakoutHD/ss0.jpg
+  - https://lgames.sourceforge.io/LBreakoutHD/ss1.jpg
+  - https://lgames.sourceforge.io/LBreakoutHD/ss2.jpg
+  video:
+    youtube: pSdXftkK7M0
+
 - name: LGeneral
   images:
   - https://lgames.sourceforge.io/LGeneral/ss0.jpg
@@ -1266,31 +1269,6 @@
   - GPL2
   added: 2025-08-23
   updated: 2025-08-23
-
-- name: LMarbles
-  originals:
-  - Atomix
-  type: clone
-  repo: 'https://sourceforge.net/projects/lgames/'
-  url: 'https://lgames.sourceforge.io/LMarbles/'
-  feed: 'https://sourceforge.net/p/lgames/activity/feed'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  added: 2019-12-04
-  updated: 2019-12-04
-  images:
-  - 'https://lgames.sourceforge.io/LMarbles/ss0.jpg'
-  - 'https://lgames.sourceforge.io/LMarbles/ss1.jpg'
-  - 'https://lgames.sourceforge.io/LMarbles/ss2.jpg'
-  video:
-    youtube: pSdXftkK7M0
 
 - name: Loap
   originals:
