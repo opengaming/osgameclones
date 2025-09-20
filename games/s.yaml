@@ -736,6 +736,28 @@
   updated: 2020-08-25
   url: https://www.linuxmotors.com/linux/SDL_bomber/
 
+- name: SDL Sasteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://sourceforge.net/projects/sdlsas/'
+  url: 'https://sdlsas.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/sdlsas/news/feed.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2025-09-19
+  updated: 2025-09-19
+  images:
+  - 'https://sdlsas.sourceforge.net/sasshot2.jpg'
+
 - name: SDL Sopwith
   images:
   - https://fragglet.github.io/sdl-sopwith/sshot/sopwith-win7.png
