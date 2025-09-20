@@ -316,6 +316,7 @@ def parse_data(site):
         # Tools and only tools must have N/A status
         return (clone["type"] == "tool") != (clone["status"] == "N/A")
 
+    repos = set()
     for clone in clones:
         if 'originals' not in clone:
             show_errors([{
@@ -344,6 +345,13 @@ def parse_data(site):
                 "name": clone["name"],
                 "error": "Has invalid status - tools must be N/A"
             })
+        if (repo := clone.get("repo")) and repo in repos:
+            errors.append({
+                "name": clone["name"],
+                "error": f"Has duplicate repo {repo}"
+            })
+        else:
+            repos.add(repo)
 
     if len(errors) > 0:
         show_errors(errors)
