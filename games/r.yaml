@@ -1431,6 +1431,25 @@
   type: clone
   updated: 2022-08-14
 
+- name: rust-2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/andelf/rust-2048'
+  url: 'https://crates.io/crates/game2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-09-21
+  updated: 2025-09-21
+  images:
+  - https://camo.githubusercontent.com/74879cb8bd35eff3948d09a371c2839745b6f865c52fc474f7b7ab8d1cf453b1/687474703a2f2f692e696d6775722e636f6d2f4554413431506f2e706e673f31
+
 - name: rustcraft
   originals:
   - Minecraft
