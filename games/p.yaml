@@ -41,6 +41,24 @@
   - 'https://robinson-special-jeux.franceserv.com/gallery/Pac-Horror-04.jpg'
   - 'https://robinson-special-jeux.franceserv.com/gallery/Pac-Horror-08.jpg'
 
+- name: Pac Man I
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://archive.org/download/c-tri#:~:text=PACMAN'
+  url: 'https://archive.org/download/c-tri/PACMAN.zip/PacMan/README.TXT'
+  development: complete
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  info: This game was based on Pac Horror of Ader Software.
+  added: 2025-09-21
+  updated: 2025-09-21
+
 - name: Pac-Man
   originals:
   - Pac-Man
