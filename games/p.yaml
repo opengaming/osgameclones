@@ -1736,6 +1736,24 @@
   images:
   - https://cdn.dvbris.com/pycraft-2.gif
 
+- name: pynesweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/pierrenodet/pynesweeper'
+  url: 'https://pypi.org/project/pynesweeper/'
+  feed: 'https://pypi.org/rss/project/pynesweeper/releases.xml'
+  development: sporadic
+  status: playable
+  langs:
+  - Python
+  licenses:
+  - MIT
+  added: 2025-09-21
+  updated: 2025-09-21
+  images:
+  - 'https://raw.githubusercontent.com/pierrenodet/pynesweeper/main/screenshot.png'
+
 - name: Pyo Pyo
   originals:
   - Puyo Puyo Series
