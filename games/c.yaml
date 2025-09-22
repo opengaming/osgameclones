@@ -49,6 +49,24 @@
   updated: 2024-05-15
   url: http://www.c-evo.org/
 
+- name: C2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/Carlettos1/c2048'
+  url: 'https://pypi.org/project/c2048/'
+  feed: 'https://pypi.org/rss/project/c2048/releases.xml'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  - Python
+  licenses:
+  - MIT
+  info: A Python implementation of the game 2048 written in rust.
+  added: 2025-09-22
+  updated: 2025-09-22
+
 - name: c64-nuclearreaction
   langs:
   - C
