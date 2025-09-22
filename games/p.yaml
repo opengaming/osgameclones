@@ -783,6 +783,27 @@
   images:
   - 'https://meatfighter.com/pitfall-web/images/harry.png'
 
+- name: pivaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/russb78/pivaders'
+  feed: 'https://github.com/russb78/pivaders/releases.atom'
+  url: https://web.archive.org/web/20140626040750/http://www.linuxuser.co.uk/tutorials/create-space-invaders-on-raspberry-pi-part-one
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL2
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - https://web.archive.org/web/20140813014020if_/http://www.linuxuser.co.uk/wp-content/uploads/2014/06/PivadersScreen.png
+
 - name: Pizza Business
   images:
   - https://pizza-business.sourceforge.net/gtk1.png
