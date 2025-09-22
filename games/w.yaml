@@ -782,6 +782,25 @@
   - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/2.png
   - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/3.png
 
+- name: wordler
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/64bit/wordle-rs'
+  url: 'https://crates.io/crates/wordler'
+  feed: 'https://github.com/64bit/wordle-rs/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  info: 'A Rust library and cli for Wordle, inspired by Wordle in Bash.'
+  added: 2025-09-22
+  updated: 2025-09-22
+  images:
+  - https://raw.githubusercontent.com/64bit/wordle-rs/refs/heads/main/play-demo.gif
+
 - name: Worm Wars
   originals:
   - Tron
