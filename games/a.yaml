@@ -1005,6 +1005,29 @@
   images:
   - 'https://raw.githubusercontent.com/shiningdragon/Arkanoid/master/screenshot.jpg'
 
+- name: Arkaway
+  originals:
+  - Arkanoid
+  type: clone
+  repo: 'https://github.com/son-link/arkaway'
+  url: 'https://son-link.itch.io/arkaway'
+  feed: 'https://github.com/son-link/arkaway/releases.atom'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - Pyxel
+  licenses:
+  - GPL3
+  added: 2025-09-23
+  updated: 2025-09-23
+  images:
+  - https://raw.githubusercontent.com/son-link/arkaway/main/arkaway_main_screen.png
+  - https://raw.githubusercontent.com/son-link/arkaway/main/arkaway_normal_mode.gif
+  - https://raw.githubusercontent.com/son-link/arkaway/main/arkaway_endless_mode.gif
+
 - name: Armagetron Advanced
   originals:
   - Tron
