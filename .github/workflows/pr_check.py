@@ -91,6 +91,7 @@ KNOWN_FRAMEWORKS = [
   'Piston',
   'PixiJS',
   'pygame',
+  'Pyxel',
   'QB64',
   'Qt',
   'raylib',
@@ -139,6 +140,7 @@ FRAMEWORK_LANGUAGES = {
   "Unity": {"C#"},
   "libGDX": {"Java", "Kotlin"},
   "pygame": {"Python"},
+  "Pyxel": {"Python"},
   "Vue.js": {"JavaScript"},
 }
 MIN_FUZZ_SCORE = 95
