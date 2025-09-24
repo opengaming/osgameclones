@@ -109,6 +109,7 @@ KNOWN_FRAMEWORKS = [
   'Source SDK',
   'Spring RTS Engine',
   'Starling',
+  'SVGALib',
   'Swing',
   'SWT',
   'three.js',
