@@ -1362,3 +1362,32 @@
   added: 2025-07-06
   updated: 2025-07-06
 
+- name: Avoid The Roid
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://sourceforge.net/projects/avoidtheroid/'
+  url: 'https://avoidtheroid.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/avoidtheroid/rss?path=/'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - OpenAL
+  licenses:
+  - GPL2
+  info: >-
+    Originally based on Maelstrom for Linux,  eventually rewrite of all the source
+    code.
+  added: 2025-09-25
+  updated: 2025-09-25
+  images:
+  - 'https://avoidtheroid.sourceforge.net/screenshots/single.png'
+  - 'https://avoidtheroid.sourceforge.net/screenshots/multi.png'
+
