@@ -21,6 +21,7 @@ KNOWN_FRAMEWORKS = [
   'angular',
   'Avalonia',
   'BackBone.js',
+  'Bevy',
   'bgfx',
   'Box2D',
   'Bullet3',
@@ -129,6 +130,7 @@ KNOWN_FRAMEWORKS = [
 ]
 FRAMEWORK_LANGUAGES = {
   "Allegro": {"C++", "C"},
+  "Bevy": {"Rust"},
   "Fyne": {"Go"},
   "OGRE": {"C++"},
   "OpenGL": {"C++", "C"},
