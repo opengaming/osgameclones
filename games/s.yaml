@@ -46,6 +46,27 @@
   images:
   - https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png
 
+- name: Sapter
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/finalclass/sapter'
+  url: 'https://crates.io/crates/sapter'
+  feed: 'https://github.com/finalclass/sapter/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - ruscii
+  licenses:
+  - MIT
+  added: 2025-09-28
+  updated: 2025-09-28
+  images:
+  - 'https://raw.githubusercontent.com/finalclass/sapter/master/screenshot1.png'
+  - 'https://raw.githubusercontent.com/finalclass/sapter/master/screenshot2.png'
+
 - name: Sasteroids
   originals:
   - Asteroids
