@@ -1412,3 +1412,29 @@
   - 'https://avoidtheroid.sourceforge.net/screenshots/single.png'
   - 'https://avoidtheroid.sourceforge.net/screenshots/multi.png'
 
+- name: Avoid The Roid 3D
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'http://www.gnu-darwin.org/distfiles/#:~:text=atr3d_source_0.6.tgz'
+  url: 'https://web.archive.org/web/20100305070016/http://www.avoidtheroid.com/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - OpenAL
+  licenses:
+  - GPL2
+  info: 3D Edition of Avoid The Roid.
+  added: '2025-09-30'
+  updated: '2025-09-30'
+  images:
+  - https://web.archive.org/web/20040328133435if_/http://www.avoidtheroid.com/singlescreenshot.jpg
+  - https://web.archive.org/web/20040328132031if_/http://www.avoidtheroid.com/multiscreenshot.jpg
+
