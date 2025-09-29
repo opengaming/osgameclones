@@ -2454,6 +2454,26 @@
   - 'https://spaceopera.sourceforge.net/blue2.jpg'
   - 'https://spaceopera.sourceforge.net/green3.jpg'
 
+- name: Space_Rocks
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/kidscancode/space_rocks'
+  feed: 'https://github.com/kidscancode/space_rocks/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - As-is
+  added: 2025-09-27
+  updated: 2025-09-27
+  video:
+    youtube: 6uGvIWrUjBM
+
 - name: Space Station 14
   type: remake
   originals:
