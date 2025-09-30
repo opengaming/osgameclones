@@ -781,6 +781,21 @@
   images:
   - 'https://raw.githubusercontent.com/palerdot/wordl-rs/master/wordl.gif'
 
+- name: wordle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://docs.rs/crate/wordle/'
+  url: 'https://crates.io/crates/wordle'
+  development: complete
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-01
+  updated: 2025-10-01
+
 - name: Wordle CLI
   originals:
   - Wordle
