@@ -249,6 +249,26 @@
   images:
   - https://schuay.github.io/images/pacman_sdl.png
 
+- name: Pacman_Qt
+  originals:
+  - Pac-Man
+  type: remake
+  repo: 'https://sourceforge.net/projects/pacmanlike/'
+  feed: 'https://sourceforge.net/projects/pacmanlike/rss?path=/'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - As-is
+  added: 2025-09-30
+  updated: 2025-09-30
+  images:
+  - 'https://a.fsdn.com/con/app/proj/pacmanlike/screenshots/pacman_filippakoc.jpg'
+
 - name: pacman.zig
   originals:
   - Pac-Man
