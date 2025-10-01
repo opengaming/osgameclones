@@ -459,6 +459,24 @@
   - 'https://a.fsdn.com/con/app/proj/gltron/screenshots/55754.jpg'
   - 'https://a.fsdn.com/con/app/proj/gltron/screenshots/55919.jpg'
 
+- name: Glutton
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://ftp.fr.openbsd.org/pub/OpenBSD/distfiles/#:~:text=glutton'
+  url: 'https://openports.pl/path/games/glutton'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-01
+  updated: 2025-10-01
+
 - name: gnome-2048
   originals:
   - '2048'
