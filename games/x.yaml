@@ -206,6 +206,27 @@
   - 'https://www.techrescue.org/xboing/images/xb-keys.gif'
   - 'https://www.techrescue.org/xboing/images/xb-scores.gif'
 
+- name: XBubble
+  originals:
+  - Puzzle Bobble
+  type: clone
+  repo: 'https://savannah.nongnu.org/projects/xbubble/'
+  url: 'https://www.nongnu.org/xbubble/'
+  feed: 'https://savannah.nongnu.org/news/atom.php?group=xbubble'
+  development: halted
+  status: playable
+  multiplayer:
+  - Split-screen
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-01
+  updated: 2025-10-01
+  images:
+  - https://web.cvs.savannah.nongnu.org/viewvc/*checkout*/xbubble/xbubble/xbubble-0.2_640x480.jpg
+
 - name: Xchomp
   originals:
   - Pac-Man
