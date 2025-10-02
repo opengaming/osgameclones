@@ -17,6 +17,27 @@
   video:
     youtube: JW-WDZDI7Sc
 
+- name: h2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/Javran/h2048'
+  url: 'https://hackage.haskell.org/package/h2048'
+  feed: 'https://hackage.haskell.org/package/h2048.rss'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - brick
+  licenses:
+  - MIT
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - 'https://raw.githubusercontent.com/Javran/h2048/master/doc/simple.jpg'
+  - 'https://raw.githubusercontent.com/Javran/h2048/master/doc/brick.jpg'
+
 - name: Hacman
   langs:
   - JavaScript
