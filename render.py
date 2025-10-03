@@ -2,7 +2,6 @@
 
 import html
 import json
-import os, os.path as op
 import shutil
 import functools
 import argparse
