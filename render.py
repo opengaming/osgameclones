@@ -7,7 +7,6 @@ import functools
 import argparse
 import logging
 from pathlib import Path
-
 import markupsafe
 import unidecode
 
