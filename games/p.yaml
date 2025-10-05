@@ -158,6 +158,26 @@
   status: playable
   url: https://harto.github.io/pacman/
 
+- name: Pacman in c++ with SDL
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://sourceforge.net/projects/pacmanincwithsd/'
+  feed: 'https://sourceforge.net/projects/pacmanincwithsd/rss?path=/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-05
+  updated: 2025-10-05
+  images:
+  - 'https://a.fsdn.com/con/app/proj/pacmanincwithsd/screenshots/pacman-game.jpg'
+
 - name: pacman.c
   originals:
   - Pac-Man
