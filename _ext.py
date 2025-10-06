@@ -353,6 +353,16 @@ def parse_data(site):
         else:
             repos.add(repo)
 
+    # Check for invalid Wikipedia URLs in originals
+    for item in originals:
+        if 'external' in item and 'wikipedia' in item['external']:
+            wikipedia_value = item['external']['wikipedia']
+            if isinstance(wikipedia_value, str) and wikipedia_value.startswith('http'):
+                errors.append({
+                    "name": game_name(item),
+                    "error": f"Wikipedia field should contain article title, not full URL: {wikipedia_value}"
+                })
+
     if len(errors) > 0:
         show_errors(errors)
 
