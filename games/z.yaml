@@ -42,6 +42,26 @@
   video:
     youtube: 5mLDugjh0Ro
 
+- name: Zap 'Em
+  originals:
+  - Space Invaders
+  type: clone
+  repo: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/invaders/#:~:text=zapem
+  url: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/invaders/zapem-0.2.lsm
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-10-06
+  updated: 2025-10-06
+
 - name: Zatacka X
   frameworks:
   - SDL
