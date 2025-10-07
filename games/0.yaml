@@ -246,6 +246,27 @@
   - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/7.png
   - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/8.png
 
+- name: 2048 Vanced
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://gitlab.com/NoahJelen/2048-vanced'
+  feed: 'https://gitlab.com/NoahJelen/2048-vanced.atom'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-07
+  updated: 2025-10-07
+  images:
+  - >-
+    https://gitlab.com/NoahJelen/2048-vanced/-/raw/master/screenshots/loading_screen.png
+  - 'https://gitlab.com/NoahJelen/2048-vanced/-/raw/master/screenshots/menu.png'
+  - 'https://gitlab.com/NoahJelen/2048-vanced/-/raw/master/screenshots/game.png'
+
 - name: 2048.c
   originals:
   - '2048'
