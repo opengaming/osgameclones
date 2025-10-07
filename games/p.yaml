@@ -743,6 +743,27 @@
   images:
   - 'https://cdn.kde.org/screenshots/picmi/picmi.png'
 
+- name: PieWordle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/SilenZcience/PieWordle'
+  url: 'https://pypi.org/project/piewordle/'
+  feed: 'https://pypi.org/rss/project/piewordle/releases.xml'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - Python
+  licenses:
+  - MIT
+  added: 2025-10-08
+  updated: 2025-10-08
+  images:
+  - https://raw.githubusercontent.com/SilenZcience/PieWordle/refs/heads/main/img/example1.png
+  - https://raw.githubusercontent.com/SilenZcience/PieWordle/refs/heads/main/img/example2.png
+  - https://raw.githubusercontent.com/SilenZcience/PieWordle/refs/heads/main/img/social_preview.png
+
 - name: Pingus
   development: sporadic
   frameworks:
