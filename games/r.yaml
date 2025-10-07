@@ -1166,6 +1166,24 @@
   updated: 2022-11-13
   url: http://rockbot.upperland.net/
 
+- name: rocket-game
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/tversteeg/rocket-game'
+  url: 'https://crates.io/crates/rocket-game'
+  feed: 'https://github.com/tversteeg/rocket-game/releases.atom'
+  development: halted
+  status: semi-playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-07
+  updated: 2025-10-07
+  images:
+  - https://raw.githubusercontent.com/tversteeg/rocket-game/master/img/screenshot-0.1.5.png
+
 - name: Rocks'n'Diamonds
   frameworks:
   - SDL2
