@@ -77,6 +77,24 @@
   - https://github.com/xavieran/BaKGL/blob/master/screenshots/northlands.png?raw=true
   - https://github.com/xavieran/BaKGL/blob/master/screenshots/waterfall_ui.png?raw=true
 
+- name: Balatro TUI
+  originals:
+  - Balatro
+  type: clone
+  repo: 'https://github.com/Passeriform/BalatroTUI'
+  url: 'https://crates.io/crates/balatro_tui'
+  feed: 'https://github.com/Passeriform/BalatroTUI/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-09
+  updated: 2025-10-09
+  images:
+  - https://raw.githubusercontent.com/Passeriform/BalatroTUI/master/assets/demo.gif
+
 - name: Ball And Wall
   langs:
   - JavaScript
