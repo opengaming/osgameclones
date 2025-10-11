@@ -1227,6 +1227,26 @@
   images:
   - 'https://media.githubusercontent.com/media/filiparag/asm2048/master/demo.gif'
 
+- name: asteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/jphamilton/asteroids'
+  url: 'https://jphamilton.github.io/asteroids/build/'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - TypeScript
+  licenses:
+  - As-is
+  added: 2025-10-11
+  updated: 2025-10-11
+  images:
+  - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/1.png
+  - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/2.png
+  - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/3.png
+
 - name: AstroMenace
   images:
   - https://viewizard.com/astromenace/am_wide_00.jpg
