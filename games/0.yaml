@@ -341,6 +341,26 @@
   images:
   - 'https://raw.githubusercontent.com/alewmoose/2048-in-terminal/master/screen.gif'
 
+- name: 2048-puzzle
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/rhoit/2048'
+  feed: 'https://github.com/rhoit/2048/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Shell
+  frameworks:
+  - ASCII-board
+  licenses:
+  - Unlicense
+  info: based on bash2048.
+  added: 2025-10-11
+  updated: 2025-10-11
+  images:
+  - 'https://raw.githubusercontent.com/rhoit/2048/dump/screenshot.png'
+
 - name: 2048-py
   originals:
   - '2048'
