@@ -1192,6 +1192,33 @@
   type: remake
   updated: 2022-08-20
 
+- name: Freeminer
+  originals:
+  - Minecraft
+  type: similar
+  repo: 'https://github.com/freeminer/freeminer/'
+  url: 'https://freeminer.org/'
+  feed: 'https://github.com/freeminer/freeminer/releases.atom'
+  development: very active
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - CC-BY-SA
+  - GPL3
+  - LGPL2
+  info: Based on Minetest/Luanti.
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - 'https://freeminer.org/static/img/features.png'
+
 - name: Freenukum
   langs:
   - Rust
