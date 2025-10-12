@@ -158,6 +158,23 @@
   status: playable
   url: https://harto.github.io/pacman/
 
+- name: Pacman For Console
+  originals:
+  - Pac-Man
+  type: clone
+  repo: https://github.com/YoctoForBeaglebone/pacman4console
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-10
+  updated: 2025-10-10
+  images:
+  - https://github.com/YoctoForBeaglebone/pacman4console/raw/master/screenshot.png
+
 - name: Pacman in c++ with SDL
   originals:
   - Pac-Man
