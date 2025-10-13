@@ -522,6 +522,30 @@
   - 'https://mog.jorito.net/pics/screenshot15.jpg'
   - 'https://mog.jorito.net/pics/screenshot16.jpg'
 
+- name: MBF-SNM
+  originals:
+  - Doom
+  type: remake
+  repo: 'https://github.com/Sakitoshi/mbf_sigil'
+  feed: 'https://github.com/Sakitoshi/mbf_sigil/releases.atom'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  info: >-
+    Originally MBF-Sigil; based on MBF (Marine's Best Friend) 2.04
+    with support for Sigil 1 & 2, No Rest for the Living, and Master Levels.
+  added: 2025-10-13
+  updated: 2025-10-13
+  images:
+  - https://raw.githubusercontent.com/Sakitoshi/mbf_sigil/master/docs/mbf_sigil.png
+  - https://raw.githubusercontent.com/Sakitoshi/mbf_sigil/master/docs/mbf_sigil2.png
+
 - name: mc2
   langs:
   - C++
