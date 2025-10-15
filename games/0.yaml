@@ -434,6 +434,22 @@
   images:
   - https://raw.githubusercontent.com/pierrechevalier83/2048-rs/master/screenshots/demo.gif
 
+- name: 2048.tcl
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/dbohdan/2048.tcl'
+  url: 'https://wiki.tcl-lang.org/page/2048.tcl'
+  feed: 'https://github.com/dbohdan/2048.tcl/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Tcl
+  licenses:
+  - MIT
+  added: 2025-10-15
+  updated: 2025-10-15
+
 - name: 2048Haskell
   originals:
   - '2048'
