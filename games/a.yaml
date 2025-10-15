@@ -1534,3 +1534,23 @@
   - https://web.archive.org/web/20040328133435if_/http://www.avoidtheroid.com/singlescreenshot.jpg
   - https://web.archive.org/web/20040328132031if_/http://www.avoidtheroid.com/multiscreenshot.jpg
 
+- name: Azteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/rodrigosetti/azteroids'
+  feed: 'https://github.com/rodrigosetti/azteroids/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - As-is
+  added: 2025-10-16
+  updated: 2025-10-16
+  images:
+  - https://raw.githubusercontent.com/rodrigosetti/azteroids/master/img/screenshot-1.png
+
