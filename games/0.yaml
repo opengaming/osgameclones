@@ -492,7 +492,30 @@
   licenses:
   - GPL2
   updated: 2022-04-02
-  
+
+- name: 2Pong
+  originals:
+  - Pong
+  type: similar
+  repo: 'https://sourceforge.net/projects/twopong/'
+  url: 'https://twopong.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/twopong/news/feed.rss'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - C
+  - C++
+  licenses:
+  - GPL2
+  added: 2025-10-17
+  updated: 2025-10-17
+  images:
+  - 'https://twopong.sourceforge.net/2pong-1.0a.png'
+
 - name: 2ship2harkinian
   originals:
   - 'The Legend of Zelda: Majora''s Mask'
