@@ -109,6 +109,16 @@
   - Pippin
   - Windows
 
+- name: Nerdle
+  external:
+    website: 'https://www.nerdlegame.com/'
+    wikipedia: Nerdle
+  platforms:
+  - Web
+  meta:
+    genres:
+    - Puzzle
+
 - name: NetHack
   external:
     wikipedia: NetHack
