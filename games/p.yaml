@@ -158,6 +158,27 @@
   status: playable
   url: https://harto.github.io/pacman/
 
+- name: Pacman Arena
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://sourceforge.net/projects/pacmanarena/'
+  url: 'https://pacmanarena.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/pacmanarena/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-16
+  updated: 2025-10-16
+  images:
+  - 'https://pacmanarena.sourceforge.net/shot.png'
+
 - name: Pacman For Console
   originals:
   - Pac-Man
