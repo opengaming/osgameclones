@@ -973,6 +973,22 @@
   video:
     youtube: HITXSeg7zYc
 
+- name: cli_2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/daveiator/cli_2048'
+  url: 'https://crates.io/crates/cli_2048'
+  feed: 'https://github.com/daveiator/cli_2048/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-17
+  updated: 2025-10-17
+
 - name: clidle
   originals:
   - Wordle
