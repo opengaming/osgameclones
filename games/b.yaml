@@ -558,7 +558,33 @@
   type: remake
   updated: 2021-05-17
   url: http://cyxdown.free.fr/bs/
-  
+
+- name: Berusky I
+  originals:
+  - Sokoban
+  type: similar
+  repo: 'https://github.com/stransky/berusky'
+  url: 'https://anakreon.cz/berusky1.html'
+  feed: 'https://github.com/stransky/berusky/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  - Shell
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://www.anakreon.cz/images/b1screens/Stred1.gif'
+  - 'https://anakreon.cz/images/b1screens/Tezk2.gif'
+  - 'https://anakreon.cz/images/b1screens/Tren2.gif'
+  - 'https://anakreon.cz/images/berusky1/b1path1.jpg'
+  - 'https://anakreon.cz/images/b1screens/Stred2.gif'
+
 - name: BetterSpades
   development: sporadic
   info: Ace of Spades client targeted at low end systems (GL/ES 1.1). 
