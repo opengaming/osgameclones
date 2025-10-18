@@ -1273,6 +1273,24 @@
   frameworks:
   - JavaFX
 
+- name: Columns (2000)
+  originals:
+  - Columns
+  type: clone
+  repo: 'https://mirror.its.dal.ca/freebsd/distfiles/#:~:text=Columns'
+  url: 'https://www.freshports.org/games/columns'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-19
+  updated: 2025-10-19
+
 - name: comisat Games Collection
   originals:
   - Hangman
