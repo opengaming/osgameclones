@@ -872,6 +872,25 @@
   type: remake
   updated: 2022-10-10
 
+- name: cl-wordle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/conradludgate/wordle'
+  url: 'https://crates.io/crates/cl-wordle'
+  feed: 'https://github.com/conradludgate/wordle/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-19
+  updated: 2025-10-19
+  images:
+  - 'https://raw.githubusercontent.com/conradludgate/wordle/main/assets/demo.gif'
+
 - name: ClanBomber
   originals:
   - Bomberman
