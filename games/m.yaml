@@ -1303,6 +1303,26 @@
   images:
   - https://minesweepergame.com/download/game/image/415/xmines-1.2-anderson-dalio-mcbeath-x11-gameplay.png
 
+- name: minesweep-rs
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/cpcloud/minesweep-rs'
+  url: 'https://crates.io/crates/minesweep'
+  feed: 'https://github.com/cpcloud/minesweep-rs/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - Ratatui
+  licenses:
+  - Apache
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://raw.githubusercontent.com/cpcloud/minesweep-rs/main/demo.gif'
+
 - name: Minesweeper
   info: iOS
   langs:
