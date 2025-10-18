@@ -895,6 +895,24 @@
   images:
   - 'https://users.jyu.fi/~tvkalvas/code/tunneler/tunneler_shot.png'
 
+- name: SDLAsteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/RanakOFour/SDLAsteroids'
+  feed: 'https://github.com/RanakOFour/SDLAsteroids/releases.atom'
+  development: sporadic
+  status: semi-playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - As-is
+  added: 2025-10-17
+  updated: 2025-10-17
+
 - name: SDLInvaders
   originals:
   - Space Invaders
