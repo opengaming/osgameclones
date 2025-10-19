@@ -2619,6 +2619,24 @@
   images:
   - https://raw.githubusercontent.com/Justin-Credible/space-invaders-emulator/master/.readme/gameplay.gif
 
+- name: space-invaders-pygame
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/Nate-Mina/spaceshooter'
+  url: 'https://pypi.org/project/space-invaders-pygame/'
+  feed: 'https://pypi.org/rss/project/space-invaders-pygame/releases.xml'
+  development: sporadic
+  status: playable
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - As-is
+  added: 2025-10-19
+  updated: 2025-10-19
+
 - name: Space Nerds In Space
   langs:
   - C
