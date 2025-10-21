@@ -1332,9 +1332,8 @@
   originals:
   - Asteroids
   type: clone
-  repo: 'https://github.com/laurenzlevi/AsteroidsEnv'
-  url: 'https://pypi.org/project/asteroidsenv/'
-  feed: 'https://pypi.org/rss/project/asteroidsenv/releases.xml'
+  repo: https://github.com/TheBeachLab/asteroids
+  url: https://web.archive.org/web/20140104211104/http://www.edge-online.com/features/making-asteroids/
   development: halted
   status: playable
   content: open
@@ -1343,9 +1342,11 @@
   frameworks:
   - pygame
   licenses:
-  - MIT
+  - GPL3
   added: 2025-10-21
   updated: 2025-10-21
+  images:
+  - https://raw.githubusercontent.com/TheBeachLab/asteroids/master/img/screenshot.png
 
 - name: Atari8bit_StarRaiders
   info: reverse engineering project
