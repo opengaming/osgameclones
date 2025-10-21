@@ -1328,6 +1328,25 @@
   video:
     youtube: ysY9vKKisbo
 
+- name: Atari Asteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/laurenzlevi/AsteroidsEnv'
+  url: 'https://pypi.org/project/asteroidsenv/'
+  feed: 'https://pypi.org/rss/project/asteroidsenv/releases.xml'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - MIT
+  added: 2025-10-21
+  updated: 2025-10-21
+
 - name: Atari8bit_StarRaiders
   info: reverse engineering project
   langs:
