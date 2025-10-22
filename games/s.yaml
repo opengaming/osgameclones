@@ -822,6 +822,32 @@
   updated: 2020-08-25
   url: https://www.linuxmotors.com/linux/SDL_bomber/
 
+- name: SDL Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/MartGon/SDLPong'
+  url: 'https://defu.itch.io/sdl-pong'
+  feed: 'https://github.com/MartGon/SDLPong/releases.atom'
+  development: halted
+  status: playable
+  multiplayer:
+  - Local
+  - LAN
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-10-23
+  updated: 2025-10-23
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMjg2MjExLzEzOTM3NTEucG5n/original/3mxYqE.png'
+  - 'https://img.itch.zone/aW1hZ2UvMjg2MjExLzEzOTM3NTMucG5n/original/AsVv23.png'
+  - 'https://img.itch.zone/aW1hZ2UvMjg2MjExLzEzOTM3NTQucG5n/original/4exjOg.png'
+
 - name: SDL Sasteroids
   originals:
   - Asteroids
