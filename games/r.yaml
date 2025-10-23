@@ -1395,6 +1395,22 @@
   video:
     youtube: QCYMLoTGPh0
 
+- name: rs48
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/MBarnulf/rs48'
+  url: 'https://crates.io/crates/rs48'
+  feed: 'https://github.com/MBarnulf/rs48/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-23
+  updated: 2025-10-23
+
 - name: rsc-c
   originals:
   - RuneScape Classic
