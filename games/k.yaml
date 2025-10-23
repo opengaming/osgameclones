@@ -398,6 +398,27 @@
   - 'https://images.pling.com/img/00/00/07/66/37/1109433/133048-1.png'
   - 'https://images.pling.com/img/00/00/07/66/37/1109433/133048-2.png'
 
+- name: KLines2
+  originals:
+  - Lines
+  type: clone
+  repo: 'https://sourceforge.net/projects/klines2/'
+  url: 'https://klines2.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/klines2/rss?path=/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL2
+  added: 2025-10-23
+  updated: 2025-10-23
+  images:
+  - 'https://klines2.sourceforge.net/screenshot.png'
+
 - name: KnightOfWor
   langs:
   - Java
