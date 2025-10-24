@@ -105,6 +105,22 @@
   - 'https://os4depot.net/filedata/snapshot/6956_2_snap.jpg'
   - 'https://web.archive.org/web/20110203104155im_/http://16bitsoft.com/files/PDH2/images/PDH2-InGame.png'
 
+- name: pack_2048
+  originals:
+  - '2048'
+  type: clone
+  repo: >-
+    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/LEARAX/pack_2048
+  url: 'https://crates.io/crates/pack_2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-24
+  updated: 2025-10-24
+
 - name: Packdude
   originals:
   - Pac-Man
