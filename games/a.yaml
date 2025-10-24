@@ -1389,6 +1389,25 @@
   video:
     youtube: ysY9vKKisbo
 
+- name: Atari Asteroids
+  originals:
+  - Asteroids
+  type: remake
+  repo: https://github.com/TheBeachLab/asteroids
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL3
+  added: 2025-10-21
+  updated: 2025-10-21
+  images:
+  - https://raw.githubusercontent.com/TheBeachLab/asteroids/master/img/screenshot.png
+
 - name: Atari8bit_StarRaiders
   info: reverse engineering project
   langs:
