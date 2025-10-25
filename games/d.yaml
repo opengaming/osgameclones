@@ -1005,6 +1005,26 @@
   - >-
     https://web.archive.org/web/20160531044525im_/http://www.losersjuegos.com.ar/_media//thumbs/juegos/ceferino/capturas/ceferino_03.jpg
 
+- name: Donkey Kong
+  originals:
+  - Donkey Kong
+  type: official
+  repo: 'https://forums.atariage.com/topic/130904-donkey-kong-source-code/'
+  url: 'https://tcrf.net/Proto:Donkey_Kong_(Atari_8-bit_family)'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: 'Source code not quite complete, but very close.'
+  added: 2025-09-28
+  updated: 2025-09-28
+  images:
+  - 'https://tcrf.net/images/c/cc/DK_a8_title-screen-prototype-mockup.png'
+  - 'https://tcrf.net/images/3/35/DK_a8_offscreen-hammer-screenshot-2.png'
+
 - name: DonkeyInTrouble
   frameworks:
   - "L\xD6VE"
@@ -1363,6 +1383,27 @@
   - 'https://drl.chaosforge.org/images/26.png'
   - 'https://drl.chaosforge.org/images/27.png'
 
+- name: DroidQuest
+  originals:
+  - Robot Odyssey
+  type: clone
+  repo: 'https://github.com/ThomasFooteDQ/DroidQuest'
+  url: 'https://web.archive.org/web/20140128041953/http://www.droidquest.com/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - MIT
+  info: >-
+    A Robot Odyssey clone which contains all the original levels and an additional
+    secret level.
+  added: 2025-09-18
+  updated: 2025-09-18
+  video:
+    youtube: HsZDPbNd0g4
+
 - name: Dstroy
   originals:
   - Dstroy
@@ -1393,6 +1434,36 @@
   - MIT
   added: 2025-08-13
   updated: 2025-08-13
+
+- name: Duck Game Rebuilt
+  originals:
+  - Duck Game
+  type: remake
+  repo: 'https://github.com/TheFlyingFoool/DuckGameRebuilt'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - XNA
+  licenses:
+  - As-is
+  info: Duck Game decompiled & rebuilt with some added features
+  added: '2025-09-08'
+  updated: '2025-09-08'
+  images:
+  - >-
+    https://images.steamusercontent.com/ugc/2259182745968743971/4EC314C9E2495085AAC06D9D2CED27B172F0BEE0/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true
+  - >-
+    https://images.steamusercontent.com/ugc/2259182745968744323/79ED4E999E11F947D6EE32E23E7A6C9F865BE5C9/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true
+  - >-
+    https://images.steamusercontent.com/ugc/2259182745968744649/09F96249550C1B3F6E40D1F84DDE586C8F2EF4A7/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true
 
 - name: Duck Hunt JS
   originals:
@@ -1507,6 +1578,26 @@
   type: remake
   updated: 2022-07-02
   url: https://grosbouddha.github.io/duckhunt/
+
+- name: Ducpel
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://github.com/alezost/ducpel'
+  feed: 'https://github.com/alezost/ducpel/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Emacs Lisp
+  frameworks:
+  - Emacs
+  licenses:
+  - GPL3
+  added: 2025-10-04
+  updated: 2025-10-04
+  images:
+  - https://raw.githubusercontent.com/alezost/ducpel/refs/heads/master/pic/screenshot.png
 
 - name: Duke 2 Reconstructed
   originals:

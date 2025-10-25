@@ -46,6 +46,47 @@
   images:
   - https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png
 
+- name: Sapter
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/finalclass/sapter'
+  url: 'https://crates.io/crates/sapter'
+  feed: 'https://github.com/finalclass/sapter/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - ruscii
+  licenses:
+  - MIT
+  added: 2025-09-28
+  updated: 2025-09-28
+  images:
+  - 'https://raw.githubusercontent.com/finalclass/sapter/master/screenshot1.png'
+  - 'https://raw.githubusercontent.com/finalclass/sapter/master/screenshot2.png'
+
+- name: Sasteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: >-
+    https://mirrors.slackware.com/slackware/slackware-4.0/source/y/sastroid/sast1.5-src.tar.gz.mirrorlist
+  url: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/asteroids/sast1.5.README
+  development: halted
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - SVGALib
+  licenses:
+  - Custom
+  info: A port of Xasteroids to run under svgalib, then rewrote it in C++.
+  added: 2025-09-15
+  updated: 2025-09-15
+
 - name: Savage Wheels
   originals:
   - Destruction Derby
@@ -72,6 +113,29 @@
   - 'https://img.itch.zone/aW1hZ2UvMjQyNTUvOTYzNzQucG5n/original/vvSwjG.png'
   - >-
     https://camo.githubusercontent.com/27f146e471cb9e06a14ac48e2c7dd7a829de258901bd62c0518126fb8581e32d/687474703a2f2f692e696d6775722e636f6d2f303968386a314d2e6a7067
+
+- name: Saving Sue
+  originals:
+  - Frogger
+  type: clone
+  repo: 'https://github.com/garu/Games-SavingSue'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Perl
+  frameworks:
+  - SDL
+  licenses:
+  - CC0
+  - CC-BY-NC-ND
+  - CC-BY-NC-SA
+  - CC-BY-SA
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPORuuCsrQM_pjJVnABOnt9WoSeS_I7jo2o0L-BV21h_wNRUMgTx9mbYHmA3J0AYrxkpLrw2s83HWkNxnSkbVXyeiELxWFEQ_LVLep_-pck7yU0aRMyMaNmZ_QXj4dPLmiRLv5jNaLGTA/s400/savingsue1.png
+  - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfx_9sJM8V3wdeIQzH4Cp072dWSyLaGNvqoZmFwT95Eo0KVH_Dd7Bm8VtnpsjkyXJWV76aRiT-NZOIFSY4TBPx2gw3WRuCmKbsLA5y-pBpylYzP3gg8ezvlSJKib2YHNg2jlaEKsOTfu0/s400/savingsue2.png
 
 - name: Scalar
   originals:
@@ -114,6 +178,28 @@
   updated: 2023-10-22
   images:
   - https://raw.githubusercontent.com/fr0zi/sccopter/master/Refs/milestone_1_full_terrain_data.png
+
+- name: Scorch Went Bonkers
+  originals:
+  - Scorched Earth
+  type: similar
+  url: 'https://wasyl.eu/games/scorch-went-bonkers.html'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  content: open
+  langs:
+  - C++
+  licenses:
+  - Zlib
+  info: A real-time version of Scorched Earth.
+  added: 2025-10-07
+  updated: 2025-10-07
+  images:
+  - 'https://wasyl.eu/assets/images/swb-3-full.jpg'
+  - 'https://wasyl.eu/assets/images/swb-1-full.jpg'
+  - 'https://wasyl.eu/assets/images/swb-2-full.jpg'
 
 - name: Scorched Earth 2000
   originals:
@@ -647,6 +733,26 @@
   added: 2011-06-12
   updated: 2024-07-17
 
+- name: SDL Asteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://code.google.com/archive/p/sdlasteroids/'
+  url: 'https://happypenguin.altervista.org/sheet.php?gameid=2522'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  added: 2025-10-14
+  updated: 2025-10-14
+  images:
+  - 'https://happypenguin.altervista.org/screenshots/SDL_Asteroids.jpg'
+
 - name: SDL Asylum
   images:
   - https://a.fsdn.com/con/app/proj/sdl-asylum/screenshots/136705.jpg
@@ -716,6 +822,54 @@
   updated: 2020-08-25
   url: https://www.linuxmotors.com/linux/SDL_bomber/
 
+- name: SDL Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/MartGon/SDLPong'
+  url: 'https://defu.itch.io/sdl-pong'
+  feed: 'https://github.com/MartGon/SDLPong/releases.atom'
+  development: halted
+  status: playable
+  multiplayer:
+  - Local
+  - LAN
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-10-23
+  updated: 2025-10-23
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMjg2MjExLzEzOTM3NTEucG5n/original/3mxYqE.png'
+  - 'https://img.itch.zone/aW1hZ2UvMjg2MjExLzEzOTM3NTMucG5n/original/AsVv23.png'
+  - 'https://img.itch.zone/aW1hZ2UvMjg2MjExLzEzOTM3NTQucG5n/original/4exjOg.png'
+
+- name: SDL Sasteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://sourceforge.net/projects/sdlsas/'
+  url: 'https://sdlsas.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/sdlsas/news/feed.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2025-09-19
+  updated: 2025-09-19
+  images:
+  - 'https://sdlsas.sourceforge.net/sasshot2.jpg'
+
 - name: SDL Sopwith
   images:
   - https://fragglet.github.io/sdl-sopwith/sshot/sopwith-win7.png
@@ -766,6 +920,24 @@
   updated: 2025-07-16
   images:
   - 'https://users.jyu.fi/~tvkalvas/code/tunneler/tunneler_shot.png'
+
+- name: SDLAsteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/RanakOFour/SDLAsteroids'
+  feed: 'https://github.com/RanakOFour/SDLAsteroids/releases.atom'
+  development: sporadic
+  status: semi-playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - As-is
+  added: 2025-10-17
+  updated: 2025-10-17
 
 - name: SDLInvaders
   originals:
@@ -1174,6 +1346,26 @@
   - >-
     https://4.bp.blogspot.com/-a-PRIyb1wl4/WLIv_inQPkI/AAAAAAAAAZk/5n5VFU5V1sk_YZd20LY44sGZQXLerl9qACLcB/s1600/output2.png
 
+- name: Shadow Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://sourceforge.net/projects/shadow-pong/'
+  feed: 'https://sourceforge.net/p/shadow-pong/news/feed.rss'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - BSD
+  added: 2025-10-07
+  updated: 2025-10-07
+  images:
+  - 'https://a.fsdn.com/con/app/proj/shadow-pong/screenshots/80936.jpg'
+
 - name: shadow-of-the-beast-html5
   frameworks:
   - PandaJS
@@ -1302,6 +1494,35 @@
   updated: 2025-06-12
   video:
     youtube: 4ZNIE5xwjsY
+
+- name: Shippy 1984
+  originals:
+  - Space Invaders
+  - Galaxians
+  type: similar
+  repo: 'https://github.com/dulsi/shippy1984'
+  url: 'https://identicalsoftware.com/shippy1984/'
+  feed: 'https://github.com/dulsi/shippy1984/releases.atom'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Local
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - CC0
+  - CC-BY
+  - CC-BY-SA
+  - GPL2
+  added: 2025-10-17
+  updated: 2025-10-17
+  images:
+  - 'https://identicalsoftware.com/shippy1984/shot_cute.gif'
+  - 'https://identicalsoftware.com/shippy1984/shot_cute2.gif'
+  - 'https://identicalsoftware.com/shippy1984/shot_cute3.gif'
 
 - name: shiromino
   originals:
@@ -1519,6 +1740,53 @@
   updated: 2025-07-23
   images:
   - 'https://www.oligalma.com/downloads/java/simon/extra/screenshot1.jpg'
+
+- name: Simple Sokoban
+  originals:
+  - Sokoban
+  type: clone
+  url: 'https://mateusz.fr/simplesok/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  - MIT
+  added: 2025-09-19
+  updated: 2025-09-19
+  images:
+  - 'https://mateusz.fr/simplesok/simplesok-snapshot.png'
+
+- name: Simplevaders
+  originals:
+  - Space Invaders
+  type: clone
+  url: 'https://dusted.dk/pages/simplevaders/'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - GPL3
+  added: 2025-09-10
+  updated: 2025-09-10
+  images:
+  - 'https://dusted.dk/pages/simplevaders/1.jpg'
+  - 'https://dusted.dk/pages/simplevaders/2.jpg'
+  - 'https://dusted.dk/pages/simplevaders/3.jpg'
+  - 'https://dusted.dk/pages/simplevaders/4.jpg'
+  - 'https://dusted.dk/pages/simplevaders/5.jpg'
+  - 'https://dusted.dk/pages/simplevaders/6.jpg'
+  video:
+    youtube: cvGnvw4gLvw
 
 - name: SimUnity2
   originals:
@@ -1961,6 +2229,27 @@
   - https://kingbird.myphotos.cc/9c8a600b6df5d251fc199092b8b0d7d9/Snipes%20port%20%2B%20ConEmu%20screenshot%20with%20omniview.png
   - https://kingbird.myphotos.cc/581b9f191f9e7e990a94cbaf7da2ae36/Snipes%20port%20%2B%20ConEmu%20screenshot%20-%20beat%20level%20Z9.png
 
+- name: Sokoban(g)
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://github.com/obfusk/sokobang'
+  url: 'https://sokobang.obfusk.dev/'
+  feed: 'https://github.com/obfusk/sokobang/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - HTML
+  - CoffeeScript
+  licenses:
+  - AGPL3
+  added: 2025-09-11
+  updated: 2025-09-11
+  images:
+  - 'https://f-droid.org/repo/dev.obfusk.sokobang/en-US/phoneScreenshots/1.png'
+  - 'https://f-droid.org/repo/dev.obfusk.sokobang/en-US/phoneScreenshots/2.png'
+
 - name: sokoban-rs
   originals:
   - Sokoban
@@ -1982,6 +2271,99 @@
   images:
   - >-
     https://raw.githubusercontent.com/swatteau/sokoban-rs/master/assets/image/screenshot.png
+
+- name: Sokobano
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://sourceforge.net/projects/sokobano/'
+  url: 'https://sokobano.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/sokobano/news/feed.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Java
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2025-10-06
+  updated: 2025-10-06
+  images:
+  - 'https://a.fsdn.com/con/app/proj/sokobano/screenshots/209789.jpg'
+  - 'https://a.fsdn.com/con/app/proj/sokobano/screenshots/209791.jpg'
+  - 'https://a.fsdn.com/con/app/proj/sokobano/screenshots/236310.jpg'
+  - 'https://a.fsdn.com/con/app/proj/sokobano/screenshots/209795.jpg'
+  - 'https://a.fsdn.com/con/app/proj/sokobano/screenshots/236308.jpg'
+  - 'https://a.fsdn.com/con/app/proj/sokobano/screenshots/209793.jpg'
+
+- name: SokoJS
+  originals:
+  - Box World
+  type: remake
+  repo: 'https://github.com/michbuze/sokojs'
+  url: 'http://buze.michel.chez.com/Boxworld/src.htm'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - JavaScript
+  - HTML
+  licenses:
+  - As-is
+  info: 'Remastered Box World, but lacking the original levels 61 and 62.'
+  added: 2025-10-13
+  updated: 2025-10-13
+
+- name: SokoWorld
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://github.com/brettchalupa/sokoworld'
+  url: 'https://brettchalupa.itch.io/sokoworld'
+  feed: 'https://brettchalupa.itch.io/sokoworld/devlog.rss'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - HTML
+  - Rust
+  frameworks:
+  - macroquad
+  licenses:
+  - CC0
+  - CC-BY
+  - Unlicense
+  added: 2025-09-16
+  updated: 2025-09-16
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMjg5MzI4MS8xNzQ3NzUzOS5wbmc=/original/Pez2yD.png'
+  - 'https://img.itch.zone/aW1hZ2UvMjg5MzI4MS8xNzQ3NzU0MC5wbmc=/original/APpin8.png'
+  - 'https://img.itch.zone/aW1hZ2UvMjg5MzI4MS8xNzM3MTgyNi5wbmc=/original/nWUcF9.png'
+  - 'https://img.itch.zone/aW1hZ2UvMjg5MzI4MS8xNzM3MTgyNy5wbmc=/original/MnwIVE.png'
+
+- name: SolarConflict
+  originals:
+  - Spacewar!
+  type: clone
+  repo: https://github.com/jtpalmer/Games-SolarConflict
+  url: 'https://metacpan.org/pod/Games::SolarConflict'
+  feed: 'https://metacpan.org/dist/Games-SolarConflict/releases.rss'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Perl
+  frameworks:
+  - SDL
+  licenses:
+  - PD
+  - CC-BY
+  - CC-BY-SA
+  - MIT
+  added: 2025-09-11
+  updated: 2025-09-11
 
 - name: Solarus
   images:
@@ -2204,6 +2586,25 @@
   video:
     youtube: IEfNoqLfxcs
 
+- name: Space invaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/denix666/space-invaders/'
+  url: 'https://games.os.vc/webgames/space-invaders'
+  feed: 'https://github.com/denix666/space-invaders/releases.atom'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-09-30
+  updated: 2025-09-30
+  images:
+  - https://raw.githubusercontent.com/denix666/space-invaders/main/screenshots/game-play.png
+
 - name: Space Invaders
   originals:
   - Space Invaders
@@ -2225,6 +2626,104 @@
   updated: 2025-08-14
   images:
   - https://viperfish.com.au/templates/yootheme/cache/69/spaceinvaders2-69c3deef.jpeg
+
+- name: Space Invaders 1978
+  originals:
+  - Space Invaders
+  type: remake
+  url: >-
+    https://web.archive.org/web/20200107094711/https://www.netadelica.com/coding/index.html#:~:text=Space%20Invaders%201978
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - QuickBASIC
+  licenses:
+  - Custom
+  info: A version of Taito's original Space Invaders(TM) for the PC.
+  added: 2025-10-07
+  updated: 2025-10-07
+
+- name: Space Invaders Clone
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/Chaser324/invaders'
+  development: halted
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - ncurses
+  licenses:
+  - As-is
+  added: 2025-09-25
+  updated: 2025-09-25
+  images:
+  - https://raw.githubusercontent.com/Chaser324/invaders/refs/heads/master/screenshot-1.png
+  - https://raw.githubusercontent.com/Chaser324/invaders/refs/heads/master/screenshot-2.png
+  - https://raw.githubusercontent.com/Chaser324/invaders/refs/heads/master/screenshot-3.png
+  - https://raw.githubusercontent.com/Chaser324/invaders/refs/heads/master/screenshot-4.png
+
+- name: Space Invaders Emulator
+  originals:
+  - Space Invaders
+  type: remake
+  repo: 'https://github.com/Justin-Credible/space-invaders-emulator'
+  url: 'https://www.justin-credible.net/2020/03/31/space-invaders-emulator/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - 'C#'
+  frameworks:
+  - .NET
+  - SDL2
+  licenses:
+  - As-is
+  added: 2025-09-27
+  updated: 2025-09-27
+  images:
+  - https://raw.githubusercontent.com/Justin-Credible/space-invaders-emulator/master/.readme/gameplay.gif
+
+- name: space-invaders-niklas-mueller
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/NiklasMueller2001/space_invaders'
+  url: 'https://pypi.org/project/space-invaders-niklas-mueller/'
+  feed: 'https://pypi.org/rss/project/space-invaders-niklas-mueller/releases.xml'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL3
+  added: 2025-10-24
+  updated: 2025-10-24
+  images:
+  - https://raw.githubusercontent.com/NiklasMueller2001/space_invaders/main/demo_images.gif
+
+- name: space-invaders-pygame
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/Nate-Mina/spaceshooter'
+  url: 'https://pypi.org/project/space-invaders-pygame/'
+  feed: 'https://pypi.org/rss/project/space-invaders-pygame/releases.xml'
+  development: sporadic
+  status: playable
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - As-is
+  added: 2025-10-19
+  updated: 2025-10-19
 
 - name: Space Nerds In Space
   langs:
@@ -2275,6 +2774,26 @@
   - 'https://spaceopera.sourceforge.net/SpaceOpera.jpg'
   - 'https://spaceopera.sourceforge.net/blue2.jpg'
   - 'https://spaceopera.sourceforge.net/green3.jpg'
+
+- name: Space_Rocks
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/kidscancode/space_rocks'
+  feed: 'https://github.com/kidscancode/space_rocks/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - As-is
+  added: 2025-09-27
+  updated: 2025-09-27
+  video:
+    youtube: 6uGvIWrUjBM
 
 - name: Space Station 14
   type: remake
@@ -2453,6 +2972,24 @@
   added: 2015-05-28
   updated: 2015-05-28
 
+- name: spacewar-sdl
+  originals:
+  - Spacewar!
+  type: clone
+  repo: 'https://sourceforge.net/projects/spacewar-sdl/'
+  feed: 'https://sourceforge.net/projects/spacewar-sdl/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-24
+  updated: 2025-09-24
+
 - name: Spacewars
   originals:
   - Spacewar!
@@ -2537,8 +3074,8 @@
   originals:
   - Spelunky Classic
   type: clone
-  repo: 'https://github.com/yancharkin/SpelunkyClassicHDhtml5'
-  url: 'https://yancharkin.github.io/SpelunkyClassicHDhtml5/'
+  repo: https://github.com/yancharkin/SpelunkyClassicHDhtml5
+  url: https://yancharkin.github.io/SpelunkyClassicHDhtml5/
   feed: https://github.com/yancharkin/SpelunkyClassicHDhtml5/releases.atom
   development: complete
   status: playable
@@ -2547,9 +3084,10 @@
   - JavaScript
   licenses:
   - Custom
+  added: 2023-12-21
   updated: 2023-12-21
   images:
-  - https://raw.githubusercontent.com/yancharkin/SpelunkyClassicHDhtml5/master/screenshots/screenshot_00.jpg
+  - https://github.com/yancharkin/SpelunkyClassicHDhtml5/raw/main/src/pwa/assets/screenshots/screenshot_02.png
 
 - name: SpelunkyPSP
   originals:
@@ -2862,6 +3400,26 @@
   video:
     youtube: TViAYO-AjdI
 
+- name: StarRaiders
+  originals:
+  - Star Raiders
+  type: remake
+  repo: 'https://github.com/lwiest/StarRaiders'
+  url: 'https://mcfp.felk.cvut.cz/publicDatasets/pocorgtfo/contents/articles/13-02.pdf'
+  feed: 'https://github.com/lwiest/StarRaiders/releases.atom'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    A reverse-engineered, complete, and fully documented assembly language source
+    code of STAR RAIDERS.
+  added: 2025-10-01
+  updated: 2025-10-01
+
 - name: Stars! Nova
   originals:
   - Stars!
@@ -2922,6 +3480,33 @@
   - https://i.imgur.com/5nlHcWV.png
   - https://i.imgur.com/zQTr5ww.jpeg
   - https://i.imgur.com/9wpVUi5.jpeg
+
+- name: Still Yet Another Sokoban
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://github.com/davidjoffe/sokoban'
+  url: 'https://grayskygames.com/sokoban.html'
+  feed: 'https://github.com/davidjoffe/sokoban/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-08
+  updated: 2025-10-08
+  images:
+  - https://grayskygames.com/sokoban/gallery/SYA%20Sokoban%20%28Level%201%29%20Auto%20Pathfinding%20on%20Mouse%20Click%20Feature.png
+  - https://grayskygames.com/sokoban/gallery/SYA%20Sokoban%20Level%20Selection.png
+  - https://grayskygames.com/sokoban/gallery/SYA%20Sokoban%20on%20Mac%20OS%20X.png
+  - https://grayskygames.com/sokoban/gallery/SYA%20Sokoban.png
+  - https://grayskygames.com/sokoban/gallery/Sokoban%20MorphOS%20Port%20%28Bruno%20Peloille%29%202018-03.jpg
+  video:
+    youtube: SBj4vYDpzGM
 
 - name: Stone Kingdoms
   originals:

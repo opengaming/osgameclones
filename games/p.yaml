@@ -14,6 +14,51 @@
   images:
   - https://raw.githubusercontent.com/danicat/pacgo/master/screenshot.jpg
 
+- name: Pac Horror
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://www.allegro.cc/depot/Pac-Horror/'
+  url: >-
+    http://web.archive.org/web/20121128022833/http://www.adersoftware.com/index.cfm?page=games&game=pac
+  development: halted
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - 'https://web.archive.org/web/20110827191619im_/http://www.adersoftware.com/images/pachorror.gif'
+  - 'https://web.archive.org/web/20070408125220im_/http://www.adersoftware.com/images/pachorror2.gif'
+  - 'https://web.archive.org/web/20110827145123im_/http://www.adersoftware.com/images/pachorror3.gif'
+  - 'https://web.archive.org/web/20070405140351im_/http://www.adersoftware.com/images/pachorror4.gif'
+  - 'https://robinson-special-jeux.franceserv.com/gallery/Pac-Horror-03.jpg'
+  - 'https://robinson-special-jeux.franceserv.com/gallery/Pac-Horror-06.jpg'
+  - 'https://robinson-special-jeux.franceserv.com/gallery/Pac-Horror-04.jpg'
+  - 'https://robinson-special-jeux.franceserv.com/gallery/Pac-Horror-08.jpg'
+
+- name: Pac Man I
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://archive.org/download/c-tri#:~:text=PACMAN'
+  url: 'https://archive.org/download/c-tri/PACMAN.zip/PacMan/README.TXT'
+  development: complete
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  info: This game was based on Pac Horror of Ader Software.
+  added: 2025-09-21
+  updated: 2025-09-21
+
 - name: Pac-Man
   originals:
   - Pac-Man
@@ -34,6 +79,67 @@
   - https://atariwiki.org/wiki/attach/PAC-MAN/Opening.jpg
   - https://atariwiki.org/wiki/attach/PAC-MAN/Characters2.jpg
   - https://atariwiki.org/wiki/attach/PAC-MAN/Screen2.jpg
+
+- name: PacDude Hero
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://aminet.net/package/game/misc/MunchDude'
+  url: >-
+    https://web.archive.org/web/20130523143001/http://www.16bitsoft.com/games-PacDudeHero2.htm
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - As-is
+  info: Also known as MunchDude Hero.
+  added: 2025-09-16
+  updated: 2025-09-16
+  images:
+  - 'https://os4depot.net/filedata/snapshot/6956_1_snap.jpg'
+  - 'https://os4depot.net/filedata/snapshot/6956_2_snap.jpg'
+  - 'https://web.archive.org/web/20110203104155im_/http://16bitsoft.com/files/PDH2/images/PDH2-InGame.png'
+
+- name: pack_2048
+  originals:
+  - '2048'
+  type: clone
+  repo: >-
+    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/LEARAX/pack_2048
+  url: 'https://crates.io/crates/pack_2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-24
+  updated: 2025-10-24
+
+- name: Packdude
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://sourceforge.net/projects/packdude/'
+  url: 'https://packdude.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/packdude/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-22
+  updated: 2025-10-22
+  images:
+  - 'https://packdude.sourceforge.net/gfx/shot1.png'
+  - 'https://packdude.sourceforge.net/gfx/shot2.png'
 
 - name: Pacmacs
   originals:
@@ -87,6 +193,64 @@
   updated: 2024-09-13
   status: playable
   url: https://harto.github.io/pacman/
+
+- name: Pacman Arena
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://sourceforge.net/projects/pacmanarena/'
+  url: 'https://pacmanarena.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/pacmanarena/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-16
+  updated: 2025-10-16
+  images:
+  - 'https://pacmanarena.sourceforge.net/shot.png'
+
+- name: Pacman For Console
+  originals:
+  - Pac-Man
+  type: clone
+  repo: https://github.com/YoctoForBeaglebone/pacman4console
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-10
+  updated: 2025-10-10
+  images:
+  - https://github.com/YoctoForBeaglebone/pacman4console/raw/master/screenshot.png
+
+- name: Pacman in c++ with SDL
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://sourceforge.net/projects/pacmanincwithsd/'
+  feed: 'https://sourceforge.net/projects/pacmanincwithsd/rss?path=/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-05
+  updated: 2025-10-05
+  images:
+  - 'https://a.fsdn.com/con/app/proj/pacmanincwithsd/screenshots/pacman-game.jpg'
 
 - name: pacman.c
   originals:
@@ -179,6 +343,26 @@
   images:
   - https://schuay.github.io/images/pacman_sdl.png
 
+- name: Pacman_Qt
+  originals:
+  - Pac-Man
+  type: remake
+  repo: 'https://sourceforge.net/projects/pacmanlike/'
+  feed: 'https://sourceforge.net/projects/pacmanlike/rss?path=/'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - As-is
+  added: 2025-09-30
+  updated: 2025-09-30
+  images:
+  - 'https://a.fsdn.com/con/app/proj/pacmanlike/screenshots/pacman_filippakoc.jpg'
+
 - name: pacman.zig
   originals:
   - Pac-Man
@@ -215,6 +399,22 @@
   updated: 2024-03-08
   images:
   - 'https://inews.gtimg.com/newsapp_bt/0/13183252358/1000'
+
+- name: PaddleTennis
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://gitlab.com/rogerbassons/PaddleTennisAndroid'
+  url: 'https://f-droid.org/packages/com.rogerbassonsrenart.paddletennis/'
+  feed: 'https://gitlab.com/rogerbassons/PaddleTennisAndroid.atom'
+  development: halted
+  status: semi-playable
+  langs:
+  - Java
+  licenses:
+  - GPL3
+  added: 2025-09-19
+  updated: 2025-09-19
 
 - name: Pandora's Blocks
   originals:
@@ -310,6 +510,28 @@
   images:
   - https://media.moddb.com/images/downloads/1/133/132685/Screenshot_2.png
 
+- name: Paper
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://github.com/PaperMC/Paper'
+  url: 'https://papermc.io/software/paper'
+  development: very active
+  status: playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL3
+  - MIT
+  info: >-
+    Paper is a Minecraft game server based on Spigot, designed to greatly improve
+    performance and offer more advanced features and API.
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - https://papermc.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-1.e653fca5.webp
+
 - name: Paper Isaac
   type: clone
   originals:
@@ -328,6 +550,25 @@
   - https://amos.me/img/paperisaac-shot.png
   video:
     youtube: m2Rw_1OFSho
+
+- name: Par Infinite Minesweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/paulrobello/par_infini_sweeper'
+  url: 'https://pypi.org/project/par-infini-sweeper/'
+  feed: 'https://pypi.org/rss/project/par-infini-sweeper/releases.xml'
+  development: sporadic
+  status: semi-playable
+  content: open
+  langs:
+  - Python
+  licenses:
+  - MIT
+  added: 2025-09-27
+  updated: 2025-09-27
+  images:
+  - https://raw.githubusercontent.com/paulrobello/par_infini_sweeper/main/Screenshot.png
 
 - name: Paratrooper
   originals:
@@ -384,28 +625,6 @@
   type: remake
   updated: 2022-07-28
   url: https://pathological.sourceforge.net/
-
-- name: PCExhumed
-  type: remake
-  originals:
-  - Powerslave
-  repo: https://github.com/nukeykt/NBlood
-  url: https://pcex.retrohost.net/
-  development: very active
-  status: playable
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  - SDL2
-  - OpenGL
-  licenses:
-  - Custom
-  content: commercial
-  info: 'PC version, based on EDuke32'
-  updated: 2020-01-10
-  video:
-    youtube: g6HaMv6FYvE
   
 - name: Pendomotion
   frameworks:
@@ -421,6 +640,28 @@
   repo: https://github.com/Pafycio/Pendomotion
   type: remake
   updated: 2015-07-14
+
+- name: Penguin Command
+  originals:
+  - Missile Command
+  type: clone
+  repo: 'https://sourceforge.net/projects/penguin-command/'
+  url: 'https://www.linux-games.com/penguin-command/'
+  feed: 'https://sourceforge.net/projects/penguin-command/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-05
+  updated: 2025-09-05
+  images:
+  - 'https://www.linux-games.com/penguin-command/shot1.jpg'
+  - 'https://www.linux-games.com/penguin-command/shot2.jpg'
 
 - name: Pengupop
   originals:
@@ -598,6 +839,27 @@
   images:
   - 'https://cdn.kde.org/screenshots/picmi/picmi.png'
 
+- name: PieWordle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/SilenZcience/PieWordle'
+  url: 'https://pypi.org/project/piewordle/'
+  feed: 'https://pypi.org/rss/project/piewordle/releases.xml'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - Python
+  licenses:
+  - MIT
+  added: 2025-10-08
+  updated: 2025-10-08
+  images:
+  - https://raw.githubusercontent.com/SilenZcience/PieWordle/refs/heads/main/img/example1.png
+  - https://raw.githubusercontent.com/SilenZcience/PieWordle/refs/heads/main/img/example2.png
+  - https://raw.githubusercontent.com/SilenZcience/PieWordle/refs/heads/main/img/social_preview.png
+
 - name: Pingus
   development: sporadic
   frameworks:
@@ -715,6 +977,27 @@
   images:
   - 'https://meatfighter.com/pitfall-web/images/harry.png'
 
+- name: pivaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/russb78/pivaders'
+  feed: 'https://github.com/russb78/pivaders/releases.atom'
+  url: https://web.archive.org/web/20140626040750/http://www.linuxuser.co.uk/tutorials/create-space-invaders-on-raspberry-pi-part-one
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL2
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - https://web.archive.org/web/20140813014020if_/http://www.linuxuser.co.uk/wp-content/uploads/2014/06/PivadersScreen.png
+
 - name: Pizza Business
   images:
   - https://pizza-business.sourceforge.net/gtk1.png
@@ -755,6 +1038,98 @@
     https://github.com/maxerbox/Planet-Lander-with-pygame/raw/master/media/media/ai.png
   - >-
     https://github.com/maxerbox/Planet-Lander-with-pygame/raw/master/media/media/credit.png
+
+- name: PlasmaPong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://sourceforge.net/projects/plasmapong/'
+  url: 'https://plasmapong.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/plasmapong/rss?path=/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - PixelToaster
+  licenses:
+  - GPL2
+  added: 2025-10-19
+  updated: 2025-10-19
+
+- name: The Pong Tutorial
+  originals:
+  - Pong
+  type: clone
+  url: 'https://rembound.com/articles/the-pong-tutorial'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - ActionScript
+  frameworks:
+  - Flash
+  licenses:
+  - As-is
+  added: 2025-10-11
+  updated: 2025-10-11
+  images:
+  - https://rembound.com/files/pong-flash-demo.png
+  - https://rembound.com/files/pong-ball-paddle-collision.png
+
+- name: pong_sdl
+  originals:
+  - Pong
+  type: clone
+  url: 'https://aaron7eleven.itch.io/pong-sdl'
+  repo: https://github.com/aaron7eleven/pong_sdl
+  feed: 'https://github.com/aaron7eleven/pong_sdl/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-10-02
+  updated: 2025-10-02
+  images:
+  - https://img.itch.zone/aW1hZ2UvMjI5ODcwMi8xMzYyMjg0OC5wbmc=/original/aMHA5x.png
+  - https://img.itch.zone/aW1hZ2UvMjI5ODcwMi8xMzYyMjgzMC5wbmc=/original/IHF%2FH7.png
+  - https://img.itch.zone/aW1hZ2UvMjI5ODcwMi8xMzYyMjg0OS5wbmc=/original/37LyZm.png
+
+- name: Pong²
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://sourceforge.net/projects/pong2.berlios/'
+  url: 'https://web.archive.org/web/20120203233849/http://pong2.berlios.de/'
+  feed: 'https://sourceforge.net/projects/pong2.berlios/rss?path=/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - GPL2
+  info: A Pong-inspired game adding another dimension.
+  added: 2025-09-21
+  updated: 2025-09-21
+  images:
+  - https://web.archive.org/web/20060622003616im_/http://pong2.berlios.de/screenshots/initial-1.png
+  - https://web.archive.org/web/20060622003627im_/http://pong2.berlios.de/screenshots/initial-2.png
+  - https://web.archive.org/web/20060622003548im_/http://pong2.berlios.de/screenshots/initial-3.png
+  - https://web.archive.org/web/20060622003534im_/http://pong2.berlios.de/screenshots/initial-4.png
+  - https://web.archive.org/web/20060622003639im_/http://pong2.berlios.de/screenshots/initial-5.png
 
 - name: Pongix
   originals:
@@ -1148,6 +1523,25 @@
   video:
     youtube: d9Zsukb9EKY
 
+- name: Porting Pong From Flash To C++
+  originals:
+  - Pong
+  type: clone
+  url: 'https://rembound.com/articles/porting-pong-from-flash-to-cpp'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-15
+  updated: 2025-10-15
+  images:
+  - 'https://rembound.com/files/pong-cpp-sdl2.png'
+
 - name: POSTAL 1 Open Source
   originals:
   - Postal
@@ -1499,6 +1893,23 @@
   video:
     youtube: 0miyRHptfeA
 
+- name: Puck-Man
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://github.com/patapizza/puckman'
+  url: 'https://www.freshports.org/games/puckman/'
+  development: halted
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  added: 2025-09-28
+  updated: 2025-09-28
+
 - name: pucpr-ld-mario3
   frameworks:
   - Construct2
@@ -1616,6 +2027,24 @@
   info: A command line based 2D Minecraft
   images:
   - https://cdn.dvbris.com/pycraft-2.gif
+
+- name: pynesweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/pierrenodet/pynesweeper'
+  url: 'https://pypi.org/project/pynesweeper/'
+  feed: 'https://pypi.org/rss/project/pynesweeper/releases.xml'
+  development: sporadic
+  status: playable
+  langs:
+  - Python
+  licenses:
+  - MIT
+  added: 2025-09-21
+  updated: 2025-09-21
+  images:
+  - 'https://raw.githubusercontent.com/pierrenodet/pynesweeper/main/screenshot.png'
 
 - name: Pyo Pyo
   originals:
@@ -1765,6 +2194,24 @@
   images:
   - >-
     https://raw.githubusercontent.com/mevdschee/pythonista-minesweeper/refs/heads/master/screenshots/minesweeper_ipad.jpg
+
+- name: Python 2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/BinaryGuo/Py2048'
+  url: 'https://pypi.org/project/python2048/'
+  feed: 'https://pypi.org/rss/project/python2048/releases.xml'
+  development: sporadic
+  status: semi-playable
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - MIT
+  added: 2025-09-27
+  updated: 2025-09-27
 
 - name: PythonPlantsVsZombies
   originals:

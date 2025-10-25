@@ -1,3 +1,22 @@
+- name: The A-Team Disassembly
+  originals:
+  - The A-Team
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/a-team.asm'
+  url: 'https://atariage.com/hack_page.php?SystemID=2600&SoftwareHackID=81'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-10-13
+  updated: 2025-10-13
+  images:
+  - 'https://atariage.com/2600/hacks/screenshots/s_ATeam_Hack_1.png'
+  - 'https://atariage.com/2600/hacks/screenshots/s_ATeam_Hack_2.png'
+
 - name: Abbaye-SDL
   originals:
   - l'Abbaye des Morts
@@ -209,6 +228,22 @@
   images:
   - https://raw.githubusercontent.com/AdaDoom3/AdaDoom3/master/Object/EP2PUGuX0AA2Pz_.jpg
 
+- name: Adventure Disassembly
+  originals:
+  - Adventure
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/adventure.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200206/msg00094.html'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-10-17
+  updated: 2025-10-17
+
 - name: Advanced Strategic Command
   images:
   - https://www.asc-hq.org/screenshots/screen05.jpg
@@ -251,6 +286,21 @@
   updated: 2024-12-02
   url: http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html
 
+- name: AGE
+  originals:
+  - Air
+  type: remake
+  repo: 'https://github.com/weimingtom/air-galgame-engine'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - ActionScript
+  licenses:
+  - MIT
+  added: 2025-09-16
+  updated: 2025-09-16
+
 - name: Agendaroids
   images:
   - https://s.uvlist.net/n/y2009/01/56211.jpg
@@ -267,6 +317,41 @@
   added: 2015-04-07
   updated: 2022-02-05
   url: http://www.newbreedsoftware.com/agendaroids/
+
+- name: Air-Sea Battle Disassembly
+  originals:
+  - Air-Sea Battle
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/air_sea_battle.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200410/msg00010.html'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-10-21
+  updated: 2025-10-21
+
+- name: Airball - 25th Anniversary Revival
+  originals:
+  - Airball
+  type: remake
+  url: 'https://oldschoolprg.x10.mx/projets.php#airball'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-07
+  updated: 2025-10-07
+  images:
+  - 'https://oldschoolprg.x10.mx/images/prj_airball0.png'
 
 - name: Ajax3d
   images:
@@ -413,6 +498,28 @@
   - 'https://os4depot.net/filedata/snapshot/1376_1_snap.jpeg'
   - 'https://os4depot.net/filedata/snapshot/1376_2_snap.jpeg'
   - 'https://os4depot.net/filedata/snapshot/1376_3_snap.jpeg'
+
+- name: Aliens
+  originals:
+  - Galaxian
+  type: clone
+  repo: 'http://www.newbreedsoftware.com/aliens/download/'
+  url: 'http://www.newbreedsoftware.com/aliens/'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: An arcade-style shooting game for the Agenda VR3 PDA.
+  added: 2025-10-21
+  updated: 2025-10-21
+  images:
+  - https://web.archive.org/web/20250211170143if_/http://www.newbreedsoftware.com/aliens/screenshots/title.gif
+  - https://web.archive.org/web/20250211170144if_/http://www.newbreedsoftware.com/aliens/screenshots/help.gif
+  - https://web.archive.org/web/20250211170144if_/http://www.newbreedsoftware.com/aliens/screenshots/swooping.gif
+  - https://web.archive.org/web/20250211170143if_/http://www.newbreedsoftware.com/aliens/screenshots/marching.gif
 
 - name: allegro blasteroids
   originals:
@@ -584,6 +691,33 @@
   - >-
     https://raw.githubusercontent.com/OSS-Cosmic/AmnesiaTheDarkDescent/master/imgs/shot1.png
 
+- name: Amoebax
+  originals:
+  - Puyo Puyo Series
+  type: clone
+  repo: 'https://www.emma-soft.com/games/amoebax/download.html'
+  url: 'https://www.emma-soft.com/games/amoebax/'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - LGPL2
+  added: 2025-09-08
+  updated: 2025-09-08
+  images:
+  - 'https://www.emma-soft.com/games/amoebax/screenshots/menu.png'
+  - 'https://www.emma-soft.com/games/amoebax/screenshots/normal.png'
+  - 'https://www.emma-soft.com/games/amoebax/screenshots/training.png'
+  - 'https://www.emma-soft.com/games/amoebax/screenshots/versus.png'
+  - 'https://os4depot.net/filedata/snapshot/2967_1_snap.jpg'
+  - 'https://os4depot.net/filedata/snapshot/2967_3_snap.jpg'
+  video:
+    youtube: NXk9_KpIOXg
+
 - name: Ancient Beast
   frameworks:
   - Phaser
@@ -710,6 +844,23 @@
   - https://img.itch.zone/aW1hZ2UvMTE2MTU3NS82NzYwNzg2LnBuZw==/original/0I7KhG.png
   - https://img.itch.zone/aW1hZ2UvMTE2MTU3NS82NzYwODAzLnBuZw==/original/0Pq5iG.png
 
+- name: ANSI terminal Space Invaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://hackage.haskell.org/package/hinvaders'
+  url: >-
+    https://web.archive.org/web/20091203191338/http://ww2.cs.mu.oz.au/~bjpop/code.html#:~:text=ANSI%20terminal%20Space%20Invaders
+  feed: 'https://hackage.haskell.org/package/hinvaders.rss'
+  development: halted
+  status: semi-playable
+  langs:
+  - Haskell
+  licenses:
+  - GPL2
+  added: 2025-10-03
+  updated: 2025-10-03
+
 - name: Antares
   images:
   - https://farm3.static.flickr.com/2606/4103057024_0b577de0a2.jpg
@@ -757,6 +908,28 @@
   url: https://feneric.itch.io/anteform
   added: 2020-05-19
   updated: 2023-08-30
+
+- name: Anti-Virus
+  originals:
+  - Dr. Mario
+  type: clone
+  url: 'https://www.t3-i.com/scripts/pages/project.php?id=anti-virus'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2025-09-15
+  updated: 2025-09-15
+  images:
+  - 'https://www.t3-i.com/projects/games/anti-virus/images/banner.png'
+  video:
+    youtube: _Q8JNe9HxCE
 
 - name: aoe
   development: sporadic
@@ -941,6 +1114,29 @@
   images:
   - 'https://raw.githubusercontent.com/shiningdragon/Arkanoid/master/screenshot.jpg'
 
+- name: Arkaway
+  originals:
+  - Arkanoid
+  type: clone
+  repo: 'https://github.com/son-link/arkaway'
+  url: 'https://son-link.itch.io/arkaway'
+  feed: 'https://github.com/son-link/arkaway/releases.atom'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - Pyxel
+  licenses:
+  - GPL3
+  added: 2025-09-23
+  updated: 2025-09-23
+  images:
+  - https://raw.githubusercontent.com/son-link/arkaway/main/arkaway_main_screen.png
+  - https://raw.githubusercontent.com/son-link/arkaway/main/arkaway_normal_mode.gif
+  - https://raw.githubusercontent.com/son-link/arkaway/main/arkaway_endless_mode.gif
+
 - name: Armagetron Advanced
   originals:
   - Tron
@@ -1069,6 +1265,50 @@
   video:
     youtube: mIribIqKee8
 
+- name: ASCII DASH
+  originals:
+  - Boulder Dash
+  type: clone
+  repo: 'https://sourceforge.net/projects/ascii-dash/'
+  feed: 'https://sourceforge.net/p/ascii-dash/activity/feed'
+  development: complete
+  status: playable
+  langs:
+  - C
+  - C++
+  frameworks:
+  - ncurses
+  licenses:
+  - MIT
+  added: 2025-10-23
+  updated: 2025-10-23
+  images:
+  - 'https://a.fsdn.com/con/app/proj/ascii-dash/screenshots/dash.png'
+  - 'https://a.fsdn.com/con/app/proj/ascii-dash/screenshots/bang.png'
+  video:
+    youtube: Raw7CwkfBq8
+
+- name: ascii-invaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/macdice/ascii-invaders'
+  feed: 'https://github.com/macdice/ascii-invaders/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-14
+  updated: 2025-10-14
+  images:
+  - https://raw.githubusercontent.com/macdice/ascii-invaders/master/images/intro.gif
+  - https://raw.githubusercontent.com/macdice/ascii-invaders/master/images/screen1.gif
+  - https://raw.githubusercontent.com/macdice/ascii-invaders/master/images/screen2.gif
+  - https://raw.githubusercontent.com/macdice/ascii-invaders/master/images/screen3.gif
+
 - name: asdf
   langs:
   - JavaScript
@@ -1082,6 +1322,47 @@
   type: remake
   added: 2015-05-28
   updated: 2022-06-25
+
+- name: asm2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/filiparag/asm2048'
+  feed: 'https://github.com/filiparag/asm2048/releases.atom'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  - Assembly
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-09-25
+  updated: 2025-09-25
+  images:
+  - 'https://media.githubusercontent.com/media/filiparag/asm2048/master/demo.gif'
+
+- name: asteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/jphamilton/asteroids'
+  url: 'https://jphamilton.github.io/asteroids/build/'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - TypeScript
+  licenses:
+  - As-is
+  added: 2025-10-11
+  updated: 2025-10-11
+  images:
+  - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/1.png
+  - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/2.png
+  - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/3.png
 
 - name: AstroMenace
   images:
@@ -1107,6 +1388,25 @@
   updated: 2025-03-09
   video:
     youtube: ysY9vKKisbo
+
+- name: Atari Asteroids
+  originals:
+  - Asteroids
+  type: remake
+  repo: https://github.com/TheBeachLab/asteroids
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL3
+  added: 2025-10-21
+  updated: 2025-10-21
+  images:
+  - https://raw.githubusercontent.com/TheBeachLab/asteroids/master/img/screenshot.png
 
 - name: Atari8bit_StarRaiders
   info: reverse engineering project
@@ -1274,4 +1574,79 @@
   - MIT
   added: 2025-07-06
   updated: 2025-07-06
+
+- name: Avoid The Roid
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://sourceforge.net/projects/avoidtheroid/'
+  url: 'https://avoidtheroid.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/avoidtheroid/rss?path=/'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - OpenAL
+  licenses:
+  - GPL2
+  info: >-
+    Originally based on Maelstrom for Linux,  eventually rewrite of all the source
+    code.
+  added: 2025-09-25
+  updated: 2025-09-25
+  images:
+  - 'https://avoidtheroid.sourceforge.net/screenshots/single.png'
+  - 'https://avoidtheroid.sourceforge.net/screenshots/multi.png'
+
+- name: Avoid The Roid 3D
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'http://www.gnu-darwin.org/distfiles/#:~:text=atr3d_source_0.6.tgz'
+  url: 'https://web.archive.org/web/20100305070016/http://www.avoidtheroid.com/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - OpenAL
+  licenses:
+  - GPL2
+  info: 3D Edition of Avoid The Roid.
+  added: '2025-09-30'
+  updated: '2025-09-30'
+  images:
+  - https://web.archive.org/web/20040328133435if_/http://www.avoidtheroid.com/singlescreenshot.jpg
+  - https://web.archive.org/web/20040328132031if_/http://www.avoidtheroid.com/multiscreenshot.jpg
+
+- name: Azteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/rodrigosetti/azteroids'
+  feed: 'https://github.com/rodrigosetti/azteroids/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - As-is
+  added: 2025-10-16
+  updated: 2025-10-16
+  images:
+  - https://raw.githubusercontent.com/rodrigosetti/azteroids/master/img/screenshot-1.png
 

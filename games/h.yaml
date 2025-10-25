@@ -17,6 +17,27 @@
   video:
     youtube: JW-WDZDI7Sc
 
+- name: h2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/Javran/h2048'
+  url: 'https://hackage.haskell.org/package/h2048'
+  feed: 'https://hackage.haskell.org/package/h2048.rss'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - brick
+  licenses:
+  - MIT
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - 'https://raw.githubusercontent.com/Javran/h2048/master/doc/simple.jpg'
+  - 'https://raw.githubusercontent.com/Javran/h2048/master/doc/brick.jpg'
+
 - name: Hacman
   langs:
   - JavaScript
@@ -161,6 +182,63 @@
     https://raw.githubusercontent.com/ivanperez-keera/haskanoid/refs/heads/develop/screenshots/android.png
   - >-
     https://raw.githubusercontent.com/ivanperez-keera/haskanoid/refs/heads/develop/screenshots/desktop.png
+
+- name: HashCon
+  originals:
+  - Galcon
+  type: clone
+  repo: https://github.com/BXL909/HASHCON
+  url: https://bxl909.github.io/HASHCON/
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - As-is
+  added: 2025-10-06
+  updated: 2025-10-06
+  images:
+  - https://github.com/BXL909/HashCon/raw/main/card.png?raw=true
+
+- name: Haskelloids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/keera-studios/Haskelloids'
+  url: 'https://hackage.haskell.org/package/Haskelloids'
+  feed: 'https://hackage.haskell.org/package/Haskelloids.rss'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Haskell
+  licenses:
+  - BSD
+  added: 2025-10-06
+  updated: 2025-10-06
+
+- name: Hatman
+  originals:
+  - Pac-Man
+  type: clone
+  repo: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/#:~:text=hatman
+  url: >-
+    https://web.archive.org/web/20090710041645/https://www.linuxlots.com/~hatsoft/hatman/
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-10-25
+  updated: 2025-10-25
+  images:
+  - 'https://happypenguin.altervista.org/screenshots/hatman.gif'
 
 - name: Haxima
   originals:
@@ -347,6 +425,32 @@
   - 'https://i.imgur.com/dVbYPg4.png'
   - 'https://i.imgur.com/XyD6UA2.png'
   - 'https://i.imgur.com/1w9t5N1.png'
+
+- name: Help Hannah's Horse!
+  originals:
+  - Fast Food
+  type: clone
+  repo: 'https://sourceforge.net/projects/hannah/'
+  url: 'https://retrojunkies.co.uk/welsh/home/index/91'
+  feed: 'https://sourceforge.net/p/hannah/news/feed.rss'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/Menu-2.0.png'
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/Fog-2.0.png'
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/title.png'
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/level1_2.png'
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/level3.png'
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/hiscore.png'
 
 - name: Hematite
   images:
@@ -679,6 +783,65 @@
   - https://upload.wikimedia.org/wikipedia/en/a/af/Hovertank_3D_title_screen.jpg
   - https://upload.wikimedia.org/wikipedia/en/6/6c/Hovertank_3D_screen.png
 
+- name: HPong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://hackage.haskell.org/package/HPong'
+  url: 'https://bonsaicode.wordpress.com/2009/04/23/hpong-012/'
+  feed: 'https://hackage.haskell.org/package/HPong.rss'
+  development: halted
+  status: semi-playable
+  langs:
+  - Haskell
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2025-09-26
+  updated: 2025-09-26
+  images:
+  - 'https://bonsaicode.wordpress.com/wp-content/uploads/2009/04/hpong.png'
+
+- name: hs2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/tfausak/hs2048'
+  url: 'https://hackage.haskell.org/package/hs2048'
+  feed: 'https://hackage.haskell.org/package/hs2048.rss'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  licenses:
+  - MIT
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://i.imgur.com/utw0O1h.png'
+
+- name: Humphrey
+  originals:
+  - Humphrey
+  type: remake
+  url: 'https://retrospec.sgn.net/info.htm?id=humphrey&t=g'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2025-09-26
+  updated: 2025-09-26
+  images:
+  - 'https://retrospec.sgn.net/style/images/screenshots/humphrey_full_1.jpg'
+  - 'https://retrospec.sgn.net/style/images/screenshots/humphrey_full_2.jpg'
+  - 'https://retrospec.sgn.net/style/images/screenshots/humphrey_full_3.jpg'
+
 - name: Hurrican
   langs:
   - C++
@@ -719,6 +882,20 @@
   updated: 2025-08-24
   images:
   - 'https://www.classicdosgames.com/images/screenshots/win16/Hyperoid.png'
+
+- name: hyperoids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/zaceno/hyperoids'
+  development: halted
+  status: unplayable
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2025-10-25
+  updated: 2025-10-25
 
 - name: HyperRogue
   originals:

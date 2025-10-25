@@ -526,6 +526,16 @@
     genres:
     - Puzzle
 
+- name: Metal Slug Series
+  external:
+    website: 'https://www.metalslug10th.com/'
+    wikipedia: Metal Slug
+  meta:
+    genres:
+    - Action
+    subgenres:
+    - Run and gun
+
 - name: 'Metaltech: Earthsiege'
   external:
     wikipedia: 'Metaltech: Earthsiege'
@@ -538,6 +548,40 @@
     - Vehicular Combat
     themes:
     - Sci-Fi
+
+- name: Metro-Cross
+  external:
+    website: 'https://www.mobygames.com/game/9042/metro-cross/'
+    wikipedia: Metro-Cross
+  platforms:
+  - Amstrad CPC
+  - Arcade
+  - Atari
+  - Commodore 64
+  - NES
+  - Nintendo Switch
+  - PlayStation 4
+  - Wii
+  - ZX Spectrum
+  meta:
+    genres:
+    - Platform
+    - Sports
+
+- name: Metroid
+  names:
+  - メトロイド
+  external:
+    website: https://www.nintendo.com/en-gb/Games/NES/Metroid--275726.html
+    wikipedia: Metroid (video game)
+  platforms:
+  - Arcade
+  - Game Boy
+  - NES
+  meta:
+    genres:
+    - Adventure
+    - Platform
 
 - name: Metroid Prime
   external:
@@ -745,6 +789,13 @@
     themes:
     - Fantasy
 
+- name: Minefield
+  external:
+    website: 'https://www.mobygames.com/game/102214/minefield/'
+  meta:
+    genres:
+    - Puzzle
+
 - name: Minesweeper
   external:
     wikipedia: Minesweeper (video game)
@@ -873,6 +924,12 @@
   - DOS
   - FM Towns
   - Classic Mac OS
+
+- name: Monkey Mart
+  external:
+    website: 'https://poki.com/en/g/monkey-mart'
+  platforms:
+  - Web
 
 - name: Monty Mole
   external:

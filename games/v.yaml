@@ -104,6 +104,23 @@
   url: https://www.vassalengine.org/
   info: VASSAL is a game engine for creating electronic versions of traditional board and card games.
 
+- name: Vasteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/islonely/vasteroids'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - V
+  licenses:
+  - As-is
+  added: 2025-09-21
+  updated: 2025-09-21
+  images:
+  - https://raw.githubusercontent.com/islonely/vasteroids/refs/heads/master/screenshot.png
+
 - name: Vault13
   type: remake
   originals:
@@ -454,6 +471,22 @@
   images:
   - https://static.wikia.nocookie.net/quake/images/4/4d/Vkquake0001.png/revision/latest/scale-to-width-down/1000?cb=20221204023831
 
+- name: voosweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/M4rti21/voosweeper'
+  development: halted
+  status: semi-playable
+  langs:
+  - Lua
+  frameworks:
+  - LÖVE
+  licenses:
+  - As-is
+  added: 2025-09-22
+  updated: 2025-09-22
+
 - name: Vorton
   langs:
   - C
@@ -527,6 +560,27 @@
   url: https://content.luanti.org/packages/Wuzzy/mineclone2/
   video:
     youtube: F-Lai53_Ry4
+
+- name: Voxeliens
+  originals:
+  - Space Invaders
+  type: similar
+  repo: 'https://bitbucket.org/volumesoffun/voxeliens'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - MIT
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - https://bytebucket.org/volumesoffun/voxeliens/raw/c9c1919a833069d00d83ea6e25664689f118a23c/media/AllScreenshots.png
+  video:
+    youtube: QiA0OxKeKto
 
 - name: Voxelstein 3D
   langs:

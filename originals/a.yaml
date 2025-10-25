@@ -1,3 +1,12 @@
+- name: The A-Team
+  external:
+    website: 'https://www.atariprotos.com/2600/software/ateam/ateam.htm'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Shooter
+
 - name: A-Train
   external:
     wikipedia: A-Train
@@ -79,6 +88,22 @@
     genres:
     - Turn-Based Strategy
 
+- name: Adventure
+  external:
+    website: 'https://www.warrenrobinett.com/adventure/'
+    wikipedia: Adventure (1980 video game)
+  platforms:
+  - Atari
+  - iOS
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - Action
+    themes:
+    - Fantasy
+    - Medieval
+
 - name: Age of Empires
   external:
     wikipedia: Age of Empires
@@ -134,6 +159,35 @@
     themes:
     - Adult
     - Anime
+
+- name: Air-Sea Battle
+  external:
+    website: 'https://www.mobygames.com/game/10942/air-sea-battle/'
+    wikipedia: Air-Sea Battle
+  platforms:
+  - Atari
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - Shooter
+    themes:
+    - Modern Military
+
+- name: Airball
+  external:
+    website: 'https://www.mobygames.com/game/44/airball/'
+    wikipedia: Airball (video game)
+  platforms:
+  - Amiga
+  - Apple II
+  - Atari
+  - DOS
+  - Game Boy
+  - Windows
+  meta:
+    genres:
+    - Puzzle
 
 - name: 'Akalabeth: World of Doom'
   external:

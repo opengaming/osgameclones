@@ -77,6 +77,24 @@
   - https://github.com/xavieran/BaKGL/blob/master/screenshots/northlands.png?raw=true
   - https://github.com/xavieran/BaKGL/blob/master/screenshots/waterfall_ui.png?raw=true
 
+- name: Balatro TUI
+  originals:
+  - Balatro
+  type: clone
+  repo: 'https://github.com/Passeriform/BalatroTUI'
+  url: 'https://crates.io/crates/balatro_tui'
+  feed: 'https://github.com/Passeriform/BalatroTUI/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-09
+  updated: 2025-10-09
+  images:
+  - https://raw.githubusercontent.com/Passeriform/BalatroTUI/master/assets/demo.gif
+
 - name: Ball And Wall
   langs:
   - JavaScript
@@ -168,6 +186,33 @@
   images:
   - https://raw.githubusercontent.com/BenjaminRi/Banania/master/banania_win95.png
 
+- name: Bansoko
+  originals:
+  - Soko-Ban
+  type: clone
+  repo: 'https://github.com/kfurtak1024/bansoko'
+  url: 'https://kfurtak1024.itch.io/bansoko'
+  feed: 'https://kfurtak1024.itch.io/bansoko/devlog.rss'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - Pyxel
+  licenses:
+  - MIT
+  added: 2025-09-23
+  updated: 2025-09-23
+  images:
+  - https://img.itch.zone/aW1hZ2UvODEwNzAzLzQ3NzM5NzQuZ2lm/original/DEqe%2FA.gif
+  - https://img.itch.zone/aW1hZ2UvODEwNzAzLzQ3NzQxNzYucG5n/original/ZuV6EM.png
+  - https://img.itch.zone/aW1hZ2UvODEwNzAzLzQ3NzQxNzUucG5n/original/SQQq9A.png
+  - https://img.itch.zone/aW1hZ2UvODEwNzAzLzQ3NzQxNzgucG5n/original/hbz3Zr.png
+  - https://img.itch.zone/aW1hZ2UvODEwNzAzLzQ3NzQxNzkucG5n/original/wHbdj0.png
+  - https://raw.githubusercontent.com/kfurtak1024/bansoko/master/docs/images/screen_shot4.png
+  - https://raw.githubusercontent.com/kfurtak1024/bansoko/master/docs/images/screen_shot6.png
+
 - name: Barbarian
   frameworks:
   - QB64
@@ -233,6 +278,26 @@
     https://images.pling.com/img/00/00/66/05/71/2143970/screenshot-2024-04-21-184017.png
   - >-
     https://images.pling.com/img/00/00/66/05/71/2143970/screenshot-2024-04-21-184037.png
+
+- name: bash2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/JosefZIla/bash2048'
+  feed: 'https://github.com/JosefZIla/bash2048/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Shell
+  licenses:
+  - Unlicense
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048a.png
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048b.png
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048c.png
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048d.png
 
 - name: Batrachians
   images:
@@ -493,7 +558,62 @@
   type: remake
   updated: 2021-05-17
   url: http://cyxdown.free.fr/bs/
-  
+
+- name: Berusky I
+  originals:
+  - Sokoban
+  type: similar
+  repo: 'https://github.com/stransky/berusky'
+  url: 'https://anakreon.cz/berusky1.html'
+  feed: 'https://github.com/stransky/berusky/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://www.anakreon.cz/images/b1screens/Stred1.gif'
+  - 'https://anakreon.cz/images/b1screens/Tezk2.gif'
+  - 'https://anakreon.cz/images/b1screens/Tren2.gif'
+  - 'https://anakreon.cz/images/berusky1/b1path1.jpg'
+  - 'https://anakreon.cz/images/b1screens/Stred2.gif'
+
+- name: Berusky II
+  originals:
+  - Sokoban
+  type: similar
+  repo: 'https://github.com/stransky/berusky2'
+  url: 'https://www.anakreon.cz/berusky2.html'
+  feed: 'https://github.com/stransky/berusky2/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  info: Also known as Bugs Escape 3D.
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://anakreon.cz/images/b2screens/scr5.jpg'
+  - 'https://anakreon.cz/images/b2screens/scr2.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr0.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr1.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr3.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr4.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr6.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr7.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr8.jpg'
+
 - name: BetterSpades
   development: sporadic
   info: Ace of Spades client targeted at low end systems (GL/ES 1.1). 
@@ -646,6 +766,23 @@
   video:
     youtube: xHxnGB2y_lg
 
+- name: Block It Protoype HTML5
+  originals:
+  - Block It
+  type: clone
+  repo: 'https://github.com/rembound/Block-It-Protoype-HTML5'
+  url: 'http://rembound.com/articles/making-a-block-it-game-prototype-with-html5'
+  development: halted
+  status: semi-playable
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - https://rembound.com/files/making-a-block-it-game-prototype-with-html5/block-it.png
+
 - name: Block Shooter
   type: remake
   originals:
@@ -716,6 +853,23 @@
   - https://a.fsdn.com/con/app/proj/blockout/screenshots/133079.jpg/max/max/1
   - https://a.fsdn.com/con/app/proj/blockout/screenshots/133085.jpg/max/max/1
   - https://a.fsdn.com/con/app/proj/blockout/screenshots/133083.jpg/max/max/1
+
+- name: Blocks
+  originals:
+  - Tetris
+  type: clone
+  repo: https://github.com/wpdevelopment11/blocks
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - Python
+  licenses:
+  - MIT
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - https://raw.githubusercontent.com/wpdevelopment11/blocks/refs/heads/main/demo.gif
 
 - name: Blood & Magic Interactive Demo
   originals:
@@ -964,6 +1118,27 @@
   video:
     youtube: SgVdsrDAUwA
 
+- name: Bomberman LAN
+  originals:
+  - Bomberman
+  type: clone
+  url: 'https://oldschoolprg.x10.mx/projets.php#:~:text=Bomberman%20LAN'
+  development: complete
+  status: playable
+  multiplayer:
+  - LAN
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - Custom
+  added: 2025-09-28
+  updated: 2025-09-28
+  images:
+  - 'https://oldschoolprg.x10.mx/images/prj_bmb0.png'
+
 - name: Bombic
   images:
   - https://a.fsdn.com/con/app/proj/bombic/screenshots/22410.jpg
@@ -1134,6 +1309,24 @@
   images:
   - 'https://a.fsdn.com/con/app/proj/breaker10/screenshots/prj_arka0.png'
 
+- name: The Breakout Tutorial
+  originals:
+  - Breakout
+  type: clone
+  url: 'https://rembound.com/articles/the-breakout-tutorial-with-cpp-and-sdl-2'
+  development: halted
+  status: semi-playable
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-17
+  updated: 2025-10-17
+  images:
+  - 'https://rembound.com/files/breakout-example.png'
+
 - name: Breakout-VR
   langs:
   - C#
@@ -1172,6 +1365,28 @@
     https://raw.githubusercontent.com/Siiir/brick_bird/stable/images/screenshots/PC-Desktop-Vertical.png
   - >-
     https://raw.githubusercontent.com/Siiir/brick_bird/stable/images/screenshots/PC-Chrome-Horizontal.png
+
+- name: Brick Out
+  originals:
+  - Breakout
+  type: clone
+  repo: 'http://www.newbreedsoftware.com/brickout/download/'
+  url: 'http://www.newbreedsoftware.com/brickout/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-15
+  updated: 2025-10-15
+  images:
+  - https://web.archive.org/web/20251001081313im_/http://www.newbreedsoftware.com/brickout/screenshots/brickout-sdl.gif
+  - https://web.archive.org/web/20251001081313im_/http://www.newbreedsoftware.com/brickout/screenshots/bout-title.gif
+  - https://web.archive.org/web/20251001081302im_/http://www.newbreedsoftware.com/brickout/screenshots/bout.gif
+  video:
+    youtube: uj9-cUXPhGQ
 
 - name: Bridge Command
   frameworks:
@@ -1347,6 +1562,50 @@
   type: remake
   updated: 2022-03-13
   url: http://bub-n-bros.sourceforge.net/
+
+- name: Bubble Shooter HTML5
+  originals:
+  - Puzzle Bobble
+  type: clone
+  repo: 'https://github.com/rembound/Bubble-Shooter-HTML5'
+  url: >-
+    https://rembound.com/articles/bubble-shooter-game-tutorial-with-html5-and-javascript
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2025-10-05
+  updated: 2025-10-05
+  images:
+  - https://raw.githubusercontent.com/rembound/Bubble-Shooter-HTML5/master/screenshot.png
+
+- name: Bug Squish
+  originals:
+  - Bloodsuckers
+  type: clone
+  repo: 'http://www.newbreedsoftware.com/bugsquish/download/'
+  url: 'http://www.newbreedsoftware.com/bugsquish/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-17
+  updated: 2025-10-17
+  images:
+  - https://web.archive.org/web/20240430212542if_/http://www.newbreedsoftware.com/bugsquish/screenshots/bugsquish-title.gif
+  - https://web.archive.org/web/20240430212542if_/http://www.newbreedsoftware.com/bugsquish/screenshots/bugsquish-game.gif
+  - https://web.archive.org/web/20240430212541if_/http://www.newbreedsoftware.com/bugsquish/screenshots/bugsquish-embedded-title.gif
+  - https://web.archive.org/web/20240821141136if_/http://www.newbreedsoftware.com/bugsquish/screenshots/bugsquish-embedded.gif
+  video:
+    youtube: SR8FDm61LFY
 
 - name: BUGS
   originals:

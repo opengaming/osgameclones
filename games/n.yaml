@@ -1,3 +1,19 @@
+- name: n2048
+  originals:
+  - '2048'
+  type: clone
+  url: 'https://www.dettus.net/n2048/'
+  development: halted
+  status: playable
+  langs:
+  - C
+  licenses:
+  - BSD2
+  added: 2025-10-09
+  updated: 2025-10-09
+  images:
+  - 'https://www.dettus.net/n2048/n2048_screenshot.png'
+
 - name: Naev
   langs:
   - C
@@ -101,11 +117,31 @@
   - >-
     https://img.itch.zone/aW1hZ2UvMTgyNDM5OS8xMDcwOTgwNy5qcGc=/original/zJG%2BsX.jpg
 
+- name: Haskell in Space
+  originals:
+  - Asteroids
+  type: clone
+  url: >-
+    https://web.archive.org/web/20190328142147/http://www.informatik.uni-bremen.de/~cxl/lehre/pi3.ws01/asteroids/
+  development: halted
+  status: semi-playable
+  langs:
+  - Haskell
+  frameworks:
+  - Hugs
+  licenses:
+  - As-is
+  added: 2025-10-09
+  updated: 2025-10-09
+
 - name: NBlood
   type: remake
   originals:
   - Blood
-  repo: https://github.com/nukeykt/NBlood
+  - Duke Nukem 3D
+  - Powerslave
+  - Redneck Rampage
+  repo: https://github.com/NBlood/NBlood
   url: https://nukeykt.retrohost.net/
   development: very active
   status: playable
@@ -122,10 +158,29 @@
   licenses:
   - Custom
   content: commercial
-  info: Blood port based on EDuke32
+  info: NBlood/Rednukem/PCExhumed port based on EDuke32
   video:
     youtube: Ocs-UDivylA
-  updated: 2020-01-05
+  updated: 2025-09-20
+
+- name: ncInvaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/nCine/ncInvaders'
+  feed: 'https://github.com/nCine/ncInvaders/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - nCine
+  licenses:
+  - MIT
+  added: 2025-09-15
+  updated: 2025-09-15
+  images:
+  - https://ncine.github.io/img/gallery/ncInvaders.png
 
 - name: nes-caves
   originals:
@@ -147,6 +202,30 @@
   - 'https://kdelaney.neocities.org/nescaves/nescaves.gif'
   video:
     youtube: OOqVnCn_Et8
+
+- name: Net-bubble
+  originals:
+  - Puzzle Bobble
+  type: clone
+  repo: >-
+    https://web.archive.org/web/20080609184651/http://netbubble.zippygraphics.com/html/download_en.php
+  url: 'https://web.archive.org/web/20060209095817/http://www.net-bubble.org/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-23
+  updated: 2025-09-23
+  images:
+  - https://os4depot.net/filedata/snapshot/1150_1_snap.jpg
+  - https://os4depot.net/filedata/snapshot/1150_3_snap.jpg
+  - https://os4depot.net/filedata/snapshot/1150_4_snap.jpg
+  - https://web.archive.org/web/20070802104256im_/http://netbubble.zippygraphics.com/pix/netscan3.jpg
 
 - name: NetNuclear
   originals:
@@ -441,6 +520,28 @@
   - 'https://a.fsdn.com/con/app/proj/nil/screenshots/63717.jpg'
   - https://upload.wikimedia.org/wikipedia/commons/f/fb/Nil.png
 
+- name: nInvaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://sourceforge.net/projects/ninvaders/'
+  url: 'https://ninvaders.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/ninvaders/news/feed.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL2
+  added: 2025-10-10
+  updated: 2025-10-10
+  images:
+  - 'https://ninvaders.sourceforge.net/shot0.1.1.png'
+  - 'https://ninvaders.sourceforge.net/shot0.0.10.png'
+
 - name: Nitrosharp
   originals:
   - Chaos;Head
@@ -549,6 +650,33 @@
   - 'https://a.fsdn.com/con/app/proj/norseworld/screenshots/scr_01_en.png/max/max/1'
   - 'https://a.fsdn.com/con/app/proj/norseworld/screenshots/scr_04_en.png/max/max/1'
   - 'https://a.fsdn.com/con/app/proj/norseworld/screenshots/scr_05_en.png/max/max/1'
+
+- name: Not Pacman
+  originals:
+  - Pac-Man
+  type: similar
+  repo: 'https://github.com/Stabyourself/notpacman'
+  url: 'https://stabyourself.net/notpacman/'
+  feed: 'https://github.com/Stabyourself/notpacman/releases.atom'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - Lua
+  frameworks:
+  - LÖVE
+  licenses:
+  - WTFPL
+  added: 2025-10-14
+  updated: 2025-10-14
+  images:
+  - 'https://stabyourself.net/images/screenshots/notpacman-1.png'
+  - 'https://stabyourself.net/images/screenshots/notpacman-2.png'
+  - 'https://stabyourself.net/images/screenshots/notpacman-3.png'
+  - 'https://stabyourself.net/images/screenshots/notpacman-4.png'
+  - 'https://stabyourself.net/images/screenshots/notpacman-5.png'
+  video:
+    youtube: bJWJt_lgd4g
 
 - name: Nox Imperii
   originals:

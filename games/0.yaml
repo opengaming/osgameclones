@@ -218,6 +218,55 @@
   - MIT
   updated: '2023-09-28'
 
+- name: 2048 Open Fun Game
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/andstatus/game2048'
+  url: 'https://f-droid.org/packages/org.andstatus.game2048/'
+  feed: 'https://github.com/andstatus/game2048/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - Kotlin
+  frameworks:
+  - KorGE
+  licenses:
+  - Apache
+  added: 2025-09-29
+  updated: 2025-09-29
+  images:
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/1.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/2.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/3.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/4.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/5.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/6.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/7.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/8.png
+
+- name: 2048 Vanced
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://gitlab.com/NoahJelen/2048-vanced'
+  feed: 'https://gitlab.com/NoahJelen/2048-vanced.atom'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-07
+  updated: 2025-10-07
+  images:
+  - >-
+    https://gitlab.com/NoahJelen/2048-vanced/-/raw/master/screenshots/loading_screen.png
+  - 'https://gitlab.com/NoahJelen/2048-vanced/-/raw/master/screenshots/menu.png'
+  - 'https://gitlab.com/NoahJelen/2048-vanced/-/raw/master/screenshots/game.png'
+
 - name: 2048.c
   originals:
   - '2048'
@@ -292,6 +341,26 @@
   images:
   - 'https://raw.githubusercontent.com/alewmoose/2048-in-terminal/master/screen.gif'
 
+- name: 2048-puzzle
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/rhoit/2048'
+  feed: 'https://github.com/rhoit/2048/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Shell
+  frameworks:
+  - ASCII-board
+  licenses:
+  - Unlicense
+  info: based on bash2048.
+  added: 2025-10-11
+  updated: 2025-10-11
+  images:
+  - 'https://raw.githubusercontent.com/rhoit/2048/dump/screenshot.png'
+
 - name: 2048-py
   originals:
   - '2048'
@@ -324,6 +393,80 @@
   images:
   - >-
     https://raw.githubusercontent.com/yangshun/2048-python/master/img/screenshot.png
+
+- name: 2048-Qt
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/xiaoyong/2048-Qt/'
+  feed: 'https://github.com/xiaoyong/2048-Qt/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - QML
+  - JavaScript
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - MIT
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - https://camo.githubusercontent.com/51309a16675dcface768ffd06c5471ca608cf7ecf2be830ee4fa9f6fcb3a518d/687474703a2f2f69313137312e70686f746f6275636b65742e636f6d2f616c62756d732f723534362f7869616f796f6e672f323034385f7a707338623462616431352e706e67
+  - https://camo.githubusercontent.com/0b555c49f7d0eef2c90465720fa7e2b29493ee45f07370702cfa982b0f7cd3a8/687474703a2f2f69313137312e70686f746f6275636b65742e636f6d2f616c62756d732f723534362f7869616f796f6e672f323034385f6465677265655f7a707362313432616631662e706e67
+
+- name: 2048-rs
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/pierrechevalier83/2048-rs'
+  url: 'https://crates.io/crates/game-2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-09-13
+  updated: 2025-09-13
+  images:
+  - https://raw.githubusercontent.com/pierrechevalier83/2048-rs/master/screenshots/demo.gif
+
+- name: 2048.tcl
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/dbohdan/2048.tcl'
+  url: 'https://wiki.tcl-lang.org/page/2048.tcl'
+  feed: 'https://github.com/dbohdan/2048.tcl/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Tcl
+  licenses:
+  - MIT
+  added: 2025-10-15
+  updated: 2025-10-15
+
+- name: 2048Haskell
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/8Gitbrix/2048Haskell'
+  development: complete
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - brick
+  licenses:
+  - BSD
+  added: 2025-10-05
+  updated: 2025-10-05
+  images:
+  - https://user-images.githubusercontent.com/11791254/33588803-c51f3310-d942-11e7-9d33-38c06214465c.png
 
 - name: 2H4U
   originals:
@@ -365,7 +508,30 @@
   licenses:
   - GPL2
   updated: 2022-04-02
-  
+
+- name: 2Pong
+  originals:
+  - Pong
+  type: similar
+  repo: 'https://sourceforge.net/projects/twopong/'
+  url: 'https://twopong.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/twopong/news/feed.rss'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - C
+  - C++
+  licenses:
+  - GPL2
+  added: 2025-10-17
+  updated: 2025-10-17
+  images:
+  - 'https://twopong.sourceforge.net/2pong-1.0a.png'
+
 - name: 2ship2harkinian
   originals:
   - 'The Legend of Zelda: Majora''s Mask'
@@ -381,6 +547,23 @@
   - CC0
   added: '2024-12-28'
   updated: '2024-12-28'
+
+- name: 3D Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/X11/contrib/games/#:~:text=3dpong'
+  url: >-
+    https://web.archive.org/web/19980219201506/http://zippy.sonoma.edu/kendrick/nbs/unix/x/3dpong/
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-10-13
+  updated: 2025-10-13
 
 - name: 3d.city
   frameworks:

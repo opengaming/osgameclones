@@ -98,6 +98,21 @@
   added: 2016-02-26
   updated: 2016-02-26
 
+- name: LanGong Terminal Minesweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/langong-dev/tminesweeper'
+  feed: 'https://github.com/langong-dev/tminesweeper/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - MIT
+  added: 2025-10-15
+  updated: 2025-10-15
+
 - name: Laser Kombat
   originals:
   - LaserTank
@@ -276,33 +291,6 @@
     https://raw.githubusercontent.com/agrande/lba2remake/master/doc/images/screenshot_game.jpeg
   - >-
     https://raw.githubusercontent.com/agrande/lba2remake/master/doc/images/screenshot_editor.jpeg
-
-- name: LBreakoutHD
-  originals:
-  - Breakout
-  type: clone
-  repo: https://sourceforge.net/projects/lgames/
-  url: https://lgames.sourceforge.io/LBreakoutHD/
-  development: very active
-  status: playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL3
-  info: >-
-    LBreakoutHD is a scaleable 16:9 remake of LBreakout2. You try to clear levels
-    full of different types of bricks and extras by using your paddle to aim balls
-    at the bricks. All LBreakout2 themes and levelsets work. New themes can be of
-    any resolution.
-  added: 2019-12-02
-  updated: 2024-09-30
-  images:
-  - https://lgames.sourceforge.io/LBreakoutHD/ss0.jpg
-  - https://lgames.sourceforge.io/LBreakoutHD/ss1.jpg
-  - https://lgames.sourceforge.io/LBreakoutHD/ss2.jpg
 
 - name: 'Legacy of Kain: Soul Reaver Decompile'
   originals:
@@ -820,6 +808,36 @@
   images:
   - 'https://quasimal.com/images/snake_intro.png'
 
+- name: LGames
+  originals:
+  - Atomix
+  - Breakout
+  type: clone
+  repo: https://sourceforge.net/projects/lgames/
+  url: https://lgames.sourceforge.io
+  feed: https://sourceforge.net/p/lgames/activity/feed
+  development: very active
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: LGames is a collection of Linux games
+  added: 2019-12-02
+  updated: 2025-09-20
+  images:
+  - 'https://lgames.sourceforge.io/LMarbles/ss0.jpg'
+  - 'https://lgames.sourceforge.io/LMarbles/ss1.jpg'
+  - 'https://lgames.sourceforge.io/LMarbles/ss2.jpg'
+  - https://lgames.sourceforge.io/LBreakoutHD/ss0.jpg
+  - https://lgames.sourceforge.io/LBreakoutHD/ss1.jpg
+  - https://lgames.sourceforge.io/LBreakoutHD/ss2.jpg
+  video:
+    youtube: pSdXftkK7M0
+
 - name: LGeneral
   images:
   - https://lgames.sourceforge.io/LGeneral/ss0.jpg
@@ -1045,6 +1063,22 @@
   - https://web.archive.org/web/20060618181843if_/http://helios.et.put.poznan.pl/~sskowron/liero/shots/miss.gif
   - https://web.archive.org/web/20060618181759if_/http://helios.et.put.poznan.pl/~sskowron/liero/shots/starb.gif
 
+- name: lifter
+  originals:
+  - Boulder Dash
+  type: clone
+  repo: 'https://hackage.haskell.org/package/lifter'
+  feed: 'https://hackage.haskell.org/package/lifter.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Haskell
+  licenses:
+  - BSD
+  added: 2025-09-12
+  updated: 2025-09-12
+
 - name: Light Cycle
   originals:
   - Tron
@@ -1251,31 +1285,6 @@
   added: 2025-08-23
   updated: 2025-08-23
 
-- name: LMarbles
-  originals:
-  - Atomix
-  type: clone
-  repo: 'https://sourceforge.net/projects/lgames/'
-  url: 'https://lgames.sourceforge.io/LMarbles/'
-  feed: 'https://sourceforge.net/p/lgames/activity/feed'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  added: 2019-12-04
-  updated: 2019-12-04
-  images:
-  - 'https://lgames.sourceforge.io/LMarbles/ss0.jpg'
-  - 'https://lgames.sourceforge.io/LMarbles/ss1.jpg'
-  - 'https://lgames.sourceforge.io/LMarbles/ss2.jpg'
-  video:
-    youtube: pSdXftkK7M0
-
 - name: Loap
   originals:
   - 3D Lemmings
@@ -1343,6 +1352,21 @@
   url: https://mapema.hu/en/docs/hobby/lode-runner/game/
   video:
     youtube: i1yjls2AzKk
+
+- name: Loderunner
+  originals:
+  - Lode Runner
+  type: remake
+  repo: 'https://github.com/Piddewitt/Loderunner'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-10-22
+  updated: 2025-10-22
 
 - name: LordsAWar!
   originals:

@@ -1,3 +1,21 @@
+- name: YACPong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/simonmichael/YACPong'
+  url: 'https://hackage.haskell.org/package/YACPong'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Haskell
+  frameworks:
+  - SDL
+  licenses:
+  - MIT
+  added: 2025-09-18
+  updated: 2025-09-18
+
 - name: Yamagi Quake II
   langs:
   - C
@@ -93,6 +111,31 @@
   - 'https://img.itch.zone/aW1hZ2UvNzA1NjAwLzM5MDA5NzgucG5n/original/ld9gfN.png'
   - 'https://img.itch.zone/aW1hZ2UvNzA1NjAwLzM5MDA5NzkucG5n/original/igIbVz.png'
   - 'https://img.itch.zone/aW1hZ2UvNzA1NjAwLzM5MDA5ODAucG5n/original/yunFU5.png'
+
+- name: YASC
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://sourceforge.net/projects/sokobanyasc/'
+  url: 'https://robinson-special-jeux.franceserv.com/yet-another-sokoban-clone.html'
+  feed: 'https://sourceforge.net/projects/sokobanyasc/rss?path=/'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - 'https://robinson-special-jeux.franceserv.com/images/Ecran-03_0c5kmq60.jpg'
+  - 'https://robinson-special-jeux.franceserv.com/images/Ecran-02_ug2710h9.jpg'
+  - 'https://robinson-special-jeux.franceserv.com/images/L-editeur_5op0s8l3.jpg'
+  - 'https://a.fsdn.com/con/app/proj/sokobanyasc/screenshots/Screenshot1.png'
+  - 'https://a.fsdn.com/con/app/proj/sokobanyasc/screenshots/Screenshot2.png'
+  - 'https://a.fsdn.com/con/app/proj/sokobanyasc/screenshots/Screenshot3.png'
+  - 'https://a.fsdn.com/con/app/proj/sokobanyasc/screenshots/Screenshot4.png'
 
 - name: YKnytt
   type: remake

@@ -21,11 +21,13 @@ KNOWN_FRAMEWORKS = [
   'angular',
   'Avalonia',
   'BackBone.js',
+  'Bevy',
   'bgfx',
   'Box2D',
   'Bullet3',
   'Carbon',
   'Castle Game Engine',
+  'ClanLib',
   'CreateJS',
   'Cocos2d',
   'Construct',
@@ -91,6 +93,7 @@ KNOWN_FRAMEWORKS = [
   'Piston',
   'PixiJS',
   'pygame',
+  'Pyxel',
   'QB64',
   'Qt',
   'raylib',
@@ -109,6 +112,7 @@ KNOWN_FRAMEWORKS = [
   'Source SDK',
   'Spring RTS Engine',
   'Starling',
+  'SVGALib',
   'Swing',
   'SWT',
   'three.js',
@@ -127,6 +131,8 @@ KNOWN_FRAMEWORKS = [
 ]
 FRAMEWORK_LANGUAGES = {
   "Allegro": {"C++", "C"},
+  "Bevy": {"Rust"},
+  "ClanLib": {"C++"},
   "Fyne": {"Go"},
   "OGRE": {"C++"},
   "OpenGL": {"C++", "C"},
@@ -138,6 +144,7 @@ FRAMEWORK_LANGUAGES = {
   "Unity": {"C#"},
   "libGDX": {"Java", "Kotlin"},
   "pygame": {"Python"},
+  "Pyxel": {"Python"},
   "Vue.js": {"JavaScript"},
 }
 MIN_FUZZ_SCORE = 95

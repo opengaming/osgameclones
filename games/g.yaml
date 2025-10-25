@@ -33,7 +33,46 @@
   - https://a.fsdn.com/con/app/proj/galaxyv2/screenshots/317081.jpg/max/max/1
   video:
     youtube: 4OnD8rxeU-Q
-  
+
+- name: game2048-rs
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/genieCS/game2048-rs'
+  url: 'https://crates.io/crates/game2048-rs'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - Cursive
+  licenses:
+  - MIT
+  added: 2025-10-13
+  updated: 2025-10-13
+  images:
+  - https://user-images.githubusercontent.com/35099832/234502901-e1721cd9-eb64-4c52-84ac-ba0c5d5cd3e3.gif
+
+- name: Games-Asteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/FROGGS/Games-Asteroids'
+  url: >-
+    https://yapgh.blogspot.com/2011/03/sdl-perl-game-contest-week-1-roundup.html#:~:text=Asteroids
+  development: complete
+  status: playable
+  langs:
+  - Perl
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-04
+  updated: 2025-10-04
+  images:
+  - https://raw.githubusercontent.com/FROGGS/Games-Asteroids/refs/heads/master/screenshot.png
+
 - name: Gang Garrison 2
   type: clone
   originals:
@@ -226,6 +265,27 @@
   video:
     youtube: 5WzGQQOIcp8
 
+- name: GJID
+  originals:
+  - GJID
+  type: clone
+  repo: 'https://sourceforge.net/projects/gjid/'
+  url: 'https://gjid.sourceforge.io/'
+  feed: 'https://sourceforge.net/p/gjid/code/feed.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - XCB
+  licenses:
+  - MIT
+  added: 2025-09-28
+  updated: 2025-09-28
+  images:
+  - 'https://a.fsdn.com/con/app/proj/gjid/screenshots/gjid.png'
+
 - name: Glest Advanced Engine
   images:
   - https://a.fsdn.com/con/app/proj/glestae/screenshots/226566.jpg
@@ -259,6 +319,27 @@
   added: 2025-08-26
   updated: 2025-08-26
 
+- name: Glider for Apple II
+  originals:
+  - Glider
+  type: remake
+  repo: https://github.com/colinleroy/a2tools
+  url: 'https://www.colino.net/wordpress/en/glider-for-apple-ii/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - GPL3
+  added: '2025-09-11'
+  updated: '2025-09-11'
+  images:
+  - 'https://www.colino.net/wordpress/wp-content/uploads/glider-splash.png'
+  - 'https://www.colino.net/wordpress/wp-content/uploads/glider-l1.png'
+  video:
+    youtube: B-mr6-a3d2c
+
 - name: GloomAmiga
   originals:
   - Gloom
@@ -275,6 +356,26 @@
   updated: '2021-12-25'
   video:
     youtube: BELCO16pwNM
+
+- name: glpong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/erikg/glpong'
+  feed: 'https://github.com/erikg/glpong/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - OpenGL
+  - OpenAL
+  licenses:
+  - GPL2
+  added: 2025-09-15
+  updated: 2025-09-15
 
 - name: glPortal
   images:
@@ -418,6 +519,24 @@
   - 'https://a.fsdn.com/con/app/proj/gltron/screenshots/55754.jpg'
   - 'https://a.fsdn.com/con/app/proj/gltron/screenshots/55919.jpg'
 
+- name: Glutton
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://ftp.fr.openbsd.org/pub/OpenBSD/distfiles/#:~:text=glutton'
+  url: 'https://openports.pl/path/games/glutton'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-01
+  updated: 2025-10-01
+
 - name: gnome-2048
   originals:
   - '2048'
@@ -559,6 +678,26 @@
   - >-
     https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/sdljump.png
 
+- name: gnupong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=gnupong'
+  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/gnupong-0.14.lsm'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL2
+  added: 2025-09-09
+  updated: 2025-09-09
+  images:
+  - https://inconsolation.wordpress.com/wp-content/uploads/2015/03/2015-03-22-6m47421-gnupong.png
+
 - name: Gods Deluxe
   langs:
   - Java
@@ -695,6 +834,22 @@
   images:
   - https://apps.kde.org/thumbnails/org.kde.granatier/granatier.png
 
+- name: Graphite
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://github.com/Moulberry/Graphite'
+  url: 'https://crates.io/crates/graphite_server'
+  development: sporadic
+  status: unplayable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - Apache
+  added: 2025-10-23
+  updated: 2025-10-23
+
 - name: Gravity Wars
   originals:
   - Gravity Force
@@ -820,6 +975,26 @@
   video:
     youtube: gARVzn3nBsQ
 
+- name: Groove Board
+  originals:
+  - Dance Dance Revolution
+  type: clone
+  repo: 'https://github.com/garu/Games-GrooveBoard'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - Perl
+  frameworks:
+  - SDL
+  licenses:
+  - CC-BY
+  - CC-BY-SA
+  added: 2025-10-15
+  updated: 2025-10-15
+  images:
+  - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8HI-dO66jFwoBJ-xfouOUukFipNkwj26H2KC3dJ5noVomZdnhauxwcNDhCFFIkkGjfVBLqKZXkv8m9XfyY52dTjQ0rtk4mqfnoNaT9oMD3VpDPXVrzf6BqaBTKYGr7w5Gyfx76PA0JZ4/s0
+
 - name: GRUB Invaders
   originals:
   - Space Invaders
@@ -934,6 +1109,30 @@
   - https://gweled.org/images/screen3.png
   video:
     youtube: fZ8NqKAVoUQ
+
+- name: Gwiz
+  originals:
+  - 'Wizardry V: Heart of the Maelstrom'
+  type: clone
+  repo: https://icculus.org/gwiz/download.php
+  url: 'https://icculus.org/gwiz/'
+  development: halted
+  status: unplayable
+  content: open
+  langs:
+  - C
+  - C++
+  frameworks:
+  - SDL
+  - GTK
+  licenses:
+  - GPL2
+  added: 2025-09-12
+  updated: 2025-09-12
+  images:
+  - 'https://icculus.org/gwiz/0911-l1.png'
+  - 'https://icculus.org/gwiz/0911-l2.png'
+  - 'https://icculus.org/gwiz/0911-l3.png'
 
 - name: GZDoom
   images:

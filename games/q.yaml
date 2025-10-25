@@ -70,6 +70,54 @@
   images:
   - 'https://qb64.com/samples/gorillas/img/screenshot.png'
 
+- name: QB64 Minesweeper
+  originals:
+  - Minesweeper
+  type: remake
+  repo: 'https://qb64forum.alephc.xyz/index.php?topic=455.0'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - BASIC
+  frameworks:
+  - QB64
+  licenses:
+  - As-is
+  info: QB64 version of Minesweeper made by TerryRitchie
+  added: '2025-09-08'
+  updated: '2025-09-08'
+  images:
+  - >-
+    https://qb64forum.alephc.xyz/index.php?action=dlattach;topic=455.0;attach=1082
+  - >-
+    https://qb64forum.alephc.xyz/index.php?action=dlattach;topic=455.0;attach=1084
+  - >-
+    https://qb64forum.alephc.xyz/index.php?action=dlattach;topic=455.0;attach=1086
+
+- name: QML Sokoban
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://github.com/yzhs/qmlsokoban'
+  url: 'https://www.pling.com/p/1109280'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  - QML
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL3
+  added: 2025-09-30
+  updated: 2025-09-30
+  images:
+  - https://images.pling.com/img/00/00/09/17/17/1109280/134799-1.png
+  - https://images.pling.com/img/00/00/09/17/17/1109280/134799-2.png
+
 - name: QNetWalk
   originals:
   - NetWalk

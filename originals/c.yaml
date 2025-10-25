@@ -34,6 +34,19 @@
     genres:
     - Turn-Based Strategy
 
+- name: Candy Crisis
+  names:
+  - Skittles
+  external:
+    website: 'https://candycrisis.sourceforge.net/'
+  platforms:
+  - Classic Mac OS
+  - Windows
+  meta:
+    genres:
+    - Action
+    - Puzzle
+
 - name: Candy Crush Saga
   external:
     wikipedia: Candy Crush Saga
@@ -432,11 +445,19 @@
     - Puzzle
 
 - name: The Clue!
+  names:
+  - Der Clou!
   external:
+    website: 'https://www.mobygames.com/game/2568/the-clue/'
     wikipedia: The Clue!
+  platforms:
+  - Amiga
+  - DOS
   meta:
     genres:
     - Adventure
+    - RPG
+    - Simulation
 
 - name: Clonk
   external:
@@ -530,6 +551,19 @@
 - name: 'Command & Conquer: Red Alert'
   external:
     wikipedia: 'Command & Conquer: Red Alert'
+  meta:
+    genres:
+    - Real-Time Strategy
+    themes:
+    - Modern Military
+
+- name: 'Command & Conquer: Red Alert 2'
+  external:
+    website: >-
+      https://web.archive.org/web/20020406002705/http://westwood.ea.com/games/ccuniverse/redalert2/index.html
+    wikipedia: 'Command & Conquer: Red Alert 2'
+  platforms:
+  - Windows
   meta:
     genres:
     - Real-Time Strategy

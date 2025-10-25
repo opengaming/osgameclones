@@ -316,6 +316,7 @@ def parse_data(site):
         # Tools and only tools must have N/A status
         return (clone["type"] == "tool") != (clone["status"] == "N/A")
 
+    repos = set()
     for clone in clones:
         if 'originals' not in clone:
             show_errors([{
@@ -344,6 +345,23 @@ def parse_data(site):
                 "name": clone["name"],
                 "error": "Has invalid status - tools must be N/A"
             })
+        if (repo := clone.get("repo")) and repo in repos:
+            errors.append({
+                "name": clone["name"],
+                "error": f"Has duplicate repo {repo}"
+            })
+        else:
+            repos.add(repo)
+
+    # Check for invalid Wikipedia URLs in originals
+    for item in originals:
+        if 'external' in item and 'wikipedia' in item['external']:
+            wikipedia_value = item['external']['wikipedia']
+            if isinstance(wikipedia_value, str) and wikipedia_value.startswith('http'):
+                errors.append({
+                    "name": game_name(item),
+                    "error": f"Wikipedia field should contain article title, not full URL: {wikipedia_value}"
+                })
 
     if len(errors) > 0:
         show_errors(errors)

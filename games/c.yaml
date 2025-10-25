@@ -120,6 +120,26 @@
   updated: 2020-02-08
   url: https://bitbucket.org/dalerank/caesaria/wiki/Home
 
+- name: Candy Crisis source port
+  originals:
+  - Candy Crisis
+  type: remake
+  repo: 'https://github.com/jorio/CandyCrisis'
+  feed: 'https://github.com/jorio/CandyCrisis/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-18
+  updated: 2025-09-18
+  images:
+  - 'https://raw.githubusercontent.com/jorio/CandyCrisis/master/packaging/screenshot.jpg'
+
 - name: Cannon Fodder
   licenses:
   - As-is
@@ -412,7 +432,7 @@
   - >-
     https://raw.githubusercontent.com/PQCraft/PQCraft/master/Screenshot_20221128_010856.png
 
-- name: CaveExpress
+- name: CaveExpress / CavePacker
   frameworks:
   - SDL
   images:
@@ -424,6 +444,7 @@
   - GPL3
   development: halted
   originals:
+  - Sokoban
   - Ugh!
   repo: https://github.com/mgerhardy/caveexpress
   feed: https://github.com/mgerhardy/caveexpress/releases.atom
@@ -431,26 +452,6 @@
   type: clone
   added: 2014-06-24
   updated: 2024-05-21
-  url: http://www.caveproductions.org/
-  video:
-    vimeo: 79598975
-
-- name: CavePacker
-  frameworks:
-  - SDL
-  langs:
-  - C
-  licenses:
-  - GPL3
-  development: halted
-  originals:
-  - Sokoban
-  repo: https://github.com/mgerhardy/caveexpress
-  feed: https://github.com/mgerhardy/caveexpress/releases.atom
-  status: playable
-  type: clone
-  added: 2014-06-24
-  updated: 2024-05-22
   url: http://www.caveproductions.org/
   video:
     vimeo: 105909375
@@ -589,6 +590,26 @@
   updated: 2024-05-24
   images:
   - 'https://raw.githubusercontent.com/lemon-sherbet/ccleste/master/screenshot.png'
+
+- name: CSS Minecraft
+  originals:
+  - Minecraft
+  type: clone
+  repo: 'https://github.com/BenjaminAster/CSS-Minecraft'
+  url: 'https://benjaminaster.com/css-minecraft/'
+  development: sporadic
+  status: semi-playable
+  content: free
+  langs:
+  - HTML
+  - CSS
+  licenses:
+  - As-is
+  info: A Minecraft clone made with pure HTML & CSS – no JavaScript.
+  added: 2025-09-11
+  updated: 2025-09-11
+  images:
+  - https://raw.githubusercontent.com/BenjaminAster/CSS-Minecraft/main/assets/screenshot.png
 
 - name: Ceros Snake
   originals:
@@ -851,6 +872,48 @@
   type: remake
   updated: 2022-10-10
 
+- name: cl-wordle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/conradludgate/wordle'
+  url: 'https://crates.io/crates/cl-wordle'
+  feed: 'https://github.com/conradludgate/wordle/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-19
+  updated: 2025-10-19
+  images:
+  - 'https://raw.githubusercontent.com/conradludgate/wordle/main/assets/demo.gif'
+
+- name: ClanBomber
+  originals:
+  - Bomberman
+  type: clone
+  repo: 'https://savannah.nongnu.org/projects/clanbomber/'
+  url: 'https://www.nongnu.org/clanbomber/'
+  feed: 'https://savannah.nongnu.org/news/atom.php?group=clanbomber'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - ClanLib
+  licenses:
+  - GPL3
+  added: 2025-09-09
+  updated: 2025-09-09
+  images:
+  - 'https://www.nongnu.org/clanbomber/images/screenshots/screenshot_001.jpeg'
+  - 'https://www.nongnu.org/clanbomber/images/screenshots/screenshot_002.jpeg'
+  - 'https://www.nongnu.org/clanbomber/images/screenshots/screenshot_003.jpeg'
+
 - name: Classic RBDoom 3 BFG
   originals:
   - Doom
@@ -929,6 +992,40 @@
   video:
     youtube: HITXSeg7zYc
 
+- name: cli_2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/daveiator/cli_2048'
+  url: 'https://crates.io/crates/cli_2048'
+  feed: 'https://github.com/daveiator/cli_2048/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-17
+  updated: 2025-10-17
+
+- name: clidle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/ajeetdsouza/clidle'
+  feed: 'https://github.com/ajeetdsouza/clidle/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Go
+  licenses:
+  - MIT
+  info: 'Play Wordle over SSH.'
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - 'https://raw.githubusercontent.com/ajeetdsouza/clidle/main/preview.png'
+
 - name: CloneKeen
   originals:
   - Commander Keen Series
@@ -974,6 +1071,30 @@
   - https://img.itch.zone/aW1hZ2UvMTcyMzAvMjE2NDA3LmpwZw==/original/ynL%2FK%2F.jpg
   - https://img.itch.zone/aW1hZ2UvMTcyMzAvMjE2NDA5LmdpZg==/original/3ejXxh.gif
 
+- name: The Clue!
+  originals:
+  - The Clue!
+  type: official
+  repo: 'https://sourceforge.net/projects/cosp/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: A 1994 remake of the 1986 game They $tole a Million, open-sourced in 2000.
+  added: 2025-09-29
+  updated: 2025-09-29
+  images:
+  - 'https://a.fsdn.com/con/app/proj/cosp/screenshots/24590_boxshot_1.jpg'
+  - 'https://a.fsdn.com/con/app/proj/cosp/screenshots/screenshot01.png'
+  - 'https://a.fsdn.com/con/app/proj/cosp/screenshots/screenshot06.png'
+  - 'https://cdn.mobygames.com/screenshots/3583617-the-clue-dos-intro-sequence.png'
+  - 'https://cdn.mobygames.com/screenshots/1528401-the-clue-dos-london-victoria-station.png'
+  - 'https://upload.wikimedia.org/wikipedia/en/8/82/TheClue-Planning.png'
+  - 'https://upload.wikimedia.org/wikipedia/en/7/7b/TheClue-HollandStreet.PNG'
+
 - name: Clumsy Bird
   frameworks:
   - melonJS
@@ -990,6 +1111,31 @@
   url: https://ellisonleao.github.io/clumsy-bird/
   images:
   - https://i.imgur.com/Slbvt65.png
+
+- name: Clustermines
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://sourceforge.net/projects/clustermines/'
+  url: 'https://clustermines.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/clustermines/news/feed.rss'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL2
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - https://a.fsdn.com/con/app/proj/clustermines/screenshots/135680.jpg
+  - https://a.fsdn.com/con/app/proj/clustermines/screenshots/135682.jpg
+  - https://clustermines.sourceforge.net/html/screenshots_files/page4-1000-full.jpg
+  - https://clustermines.sourceforge.net/html/screenshots_files/page4-1001-full.jpg
+  - https://clustermines.sourceforge.net/html/screenshots_files/page4-1002-full.jpg
+  - https://clustermines.sourceforge.net/html/screenshots_files/page4-1003-full.jpg
+  - https://clustermines.sourceforge.net/html/screenshots_files/page4-1004-full.jpg
 
 - name: CnC Remastered Collection
   originals:
@@ -1145,6 +1291,58 @@
   - Java
   frameworks:
   - JavaFX
+
+- name: Columns (2000)
+  originals:
+  - Columns
+  type: clone
+  repo: 'https://mirror.its.dal.ca/freebsd/distfiles/#:~:text=Columns'
+  url: 'https://www.freshports.org/games/columns'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-19
+  updated: 2025-10-19
+
+- name: comisat Games Collection
+  originals:
+  - Hangman
+  - Connect 4
+  - Snake
+  - Mastermind
+  - Tetris
+  type: clone
+  repo: 'https://sourceforge.net/projects/comisat-games/'
+  url: 'http://comisat-games.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/comisat-games/news/feed.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Gambas
+  frameworks:
+  - Qt
+  - SDL
+  licenses:
+  - GPL2
+  info: >-
+    A collection of games consists of five titles – Mr.Cappio (hangman), Mr.Quattro
+    (connect 4), Mr.Biscia (snake), Mr.Mind (master mind) and Mr.Tetris (Atari
+    Tetris 1988).
+  added: '2025-10-03'
+  updated: '2025-10-03'
+  images:
+  - 'https://a.fsdn.com/con/app/proj/comisat-games/screenshots/88559.jpg'
+  - 'https://a.fsdn.com/con/app/proj/comisat-games/screenshots/88563.jpg'
+  - 'https://a.fsdn.com/con/app/proj/comisat-games/screenshots/88557.jpg'
+  - 'https://comisat-games.sourceforge.net/images/shot_mind.png'
+  - 'https://a.fsdn.com/con/app/proj/comisat-games/screenshots/92068.jpg'
 
 - name: Command & Conquer - HTML5
   type: remake
@@ -1390,6 +1588,26 @@
   type: remake
   updated: 2019-09-13
 
+- name: Construder
+  originals:
+  - Minecraft
+  type: clone
+  repo: 'https://github.com/elmex/Construder'
+  url: 'https://web.archive.org/web/20120114204523/https://ue.o---o.eu/'
+  feed: 'https://github.com/elmex/Construder/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Perl
+  - C
+  licenses:
+  - AGPL3
+  added: 2025-10-14
+  updated: 2025-10-14
+  video:
+    youtube: qd95SrdNkgE
+
 - name: Contra_remake
   langs:
   - C++
@@ -1514,6 +1732,25 @@
   - Custom
   added: 2025-07-29
   updated: 2025-07-29
+
+- name: cosmic-ext-2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/Kartonrealista/cosmic-ext-2048'
+  development: sporadic
+  status: semi-playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  info: 2048 application for the Cosmic desktop.
+  added: 2025-10-20
+  updated: 2025-10-20
+  images:
+  - https://raw.githubusercontent.com/Kartonrealista/cosmic-ext-2048/refs/heads/main/screenshots/s1.png
+  - https://raw.githubusercontent.com/Kartonrealista/cosmic-ext-2048/refs/heads/main/screenshots/s2.png
+  - https://raw.githubusercontent.com/Kartonrealista/cosmic-ext-2048/refs/heads/main/screenshots/s3.png
 
 - name: CosmicArk-Advanced
   licenses:
@@ -1674,6 +1911,35 @@
   updated: 2019-08-27
   url: https://libregamewiki.org/Crimson_Fields
 
+- name: Crispy Doom
+  originals:
+  - Doom
+  - Heretic
+  - Hexen
+  - Strife
+  type: remake
+  repo: 'https://github.com/fabiangreffrath/crispy-doom'
+  url: 'https://fabiangreffrath.github.io/crispy-homepage/'
+  feed: 'https://github.com/fabiangreffrath/crispy-doom/releases.atom'
+  development: very active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  info: >-
+    Crispy Doom is a limit-removing enhanced-resolution Doom source port based on
+    Chocolate Doom.
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - 'https://fabiangreffrath.github.io/crispy-homepage/assets/screenshots/menu.gif'
+  - 'https://fabiangreffrath.github.io/crispy-homepage/assets/screenshots/resolution.gif'
+  - 'https://fabiangreffrath.github.io/crispy-homepage/assets/screenshots/widescreen.gif'
+
 - name: Cro-Mag Rally
   originals:
   - Cro-Mag Rally
@@ -1803,6 +2069,27 @@
   - >-
     https://raw.githubusercontent.com/OpenRakis/Cryogenic/main/doc/cryodune_send_spice.png
 
+- name: The Crystal Scrolls
+  originals:
+  - 'The Elder Scrolls III: Morrowind'
+  type: remake
+  repo: 'https://sourceforge.net/projects/crystalscrolls/'
+  url: 'https://crystalscrolls.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/crystalscrolls/news/feed.rss'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - LGPL3
+  added: 2025-09-17
+  updated: 2025-09-17
+  images:
+  - 'https://crystalscrolls.sourceforge.net/screenshots/crystal000.png'
+  - 'https://crystalscrolls.sourceforge.net/screenshots/crystal002.png'
+  - 'https://crystalscrolls.sourceforge.net/screenshots/crystal003.png'
+
 - name: Crystal Stacker
   originals:
   - Columns
@@ -1920,7 +2207,44 @@
   updated: 2025-06-22
   video:
     youtube: V9QlFzSVDAU
-    
+
+- name: Cubic Server
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://github.com/CubicMC/cubic-server'
+  url: 'https://web.archive.org/web/20250812024056/https://cubic-mc.com/'
+  feed: 'https://github.com/CubicMC/cubic-server/releases.atom'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  info: A fast and extensible C++ Minecraft server implementation.
+  added: 2025-10-16
+  updated: 2025-10-16
+
+- name: Cuberite
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://github.com/cuberite/cuberite'
+  url: 'https://cuberite.org/'
+  feed: 'https://cuberite.org/feed.xml'
+  development: sporadic
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - Apache
+  info: 'A lightweight, fast and extensible game server for Minecraft.'
+  added: 2025-09-21
+  updated: 2025-09-21
+
 - name: Cubosphere
   langs:
   - C++

@@ -60,6 +60,26 @@
   video:
     youtube: n9ALgxcTBU0
 
+- name: Wanderer
+  originals:
+  - Boulder Dash
+  type: clone
+  repo: 'https://github.com/sshipway/wanderer'
+  url: 'https://www.steveshipway.org/software/wanderer/f_wanderer.html'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-09-17
+  updated: 2025-09-17
+  images:
+  - 'https://www.e271.net/~marina/wanderer.jpg'
+  - 'https://www.e271.net/~marina/wanderer-screen1-unmap.jpg'
+  - 'https://www.e271.net/~marina/wanderer-screen2.jpg'
+
 - name: WangGDX
   originals:
   - Shadow Warrior
@@ -702,6 +722,26 @@
   video:
     youtube: xkIEjgUm57o
 
+- name: Woof!
+  originals:
+  - Doom
+  type: remake
+  repo: 'https://github.com/fabiangreffrath/woof'
+  feed: 'https://github.com/fabiangreffrath/woof/releases.atom'
+  development: very active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - OpenAL
+  licenses:
+  - GPL2
+  info: Woof! is a continuation of the Boom/MBF bloodline of Doom source ports.
+  added: 2025-10-08
+  updated: 2025-10-08
+
 - name: Word War vi
   originals:
   - Defender
@@ -725,6 +765,169 @@
   video:
     youtube: 9VaW2NVxpVg
 
+- name: Wordel
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/progfolio/wordel'
+  development: sporadic
+  status: playable
+  langs:
+  - Emacs Lisp
+  frameworks:
+  - Emacs
+  licenses:
+  - AGPL3
+  added: 2025-09-25
+  updated: 2025-09-25
+  images:
+  - 'https://raw.githubusercontent.com/progfolio/wordel/main/demo.gif'
+
+- name: wordl
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/palerdot/wordl-rs'
+  url: 'https://crates.io/crates/wordl'
+  feed: 'https://github.com/palerdot/wordl-rs/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-09-14
+  updated: 2025-09-14
+  images:
+  - 'https://raw.githubusercontent.com/palerdot/wordl-rs/master/wordl.gif'
+
+- name: wordle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://docs.rs/crate/wordle/'
+  url: 'https://crates.io/crates/wordle'
+  development: complete
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-01
+  updated: 2025-10-01
+
+- name: Wordle CLI
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/nimblebun/wordle-cli'
+  feed: 'https://github.com/nimblebun/wordle-cli/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Go
+  licenses:
+  - MIT
+  added: 2025-09-09
+  updated: 2025-09-09
+  images:
+  - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/1.png
+  - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/2.png
+  - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/3.png
+
+- name: Wordle PyCLI Game
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/Qazalbash/wordle-pycli'
+  url: 'https://pypi.org/project/wordle-pycli/'
+  feed: 'https://pypi.org/rss/project/wordle-pycli/releases.xml'
+  development: halted
+  status: playable
+  langs:
+  - Python
+  licenses:
+  - MIT
+  added: 2025-10-15
+  updated: 2025-10-15
+  images:
+  - 'https://raw.githubusercontent.com/Qazalbash/wordle-pycli/main/screenshot.png'
+
+- name: wordle-rust
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/notken12/wordle-rust/'
+  url: 'https://crates.io/crates/wordle-rust'
+  feed: 'https://github.com/notken12/wordle-rust/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-04
+  updated: 2025-10-04
+
+- name: WordleClone
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/marshblocker/wordle_clone'
+  url: 'https://crates.io/crates/wordle_clone'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - https://raw.githubusercontent.com/marshblocker/wordle_clone/main/src/images/start.png
+  - https://raw.githubusercontent.com/marshblocker/wordle_clone/main/src/images/during.png
+
+- name: wordlemini
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/tomasvana10/wordlemini'
+  url: 'https://pypi.org/project/wordlemini/'
+  feed: 'https://pypi.org/rss/project/wordlemini/releases.xml'
+  development: halted
+  status: playable
+  langs:
+  - Python
+  frameworks:
+  - Textual
+  licenses:
+  - MIT
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - https://raw.githubusercontent.com/tomasvana10/wordlemini/main/wordlemini/assets/images/stats.png
+  - https://raw.githubusercontent.com/tomasvana10/wordlemini/main/wordlemini/assets/images/banner.png
+
+- name: wordler
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/64bit/wordle-rs'
+  url: 'https://crates.io/crates/wordler'
+  feed: 'https://github.com/64bit/wordle-rs/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  info: 'A Rust library and cli for Wordle, inspired by Wordle in Bash.'
+  added: 2025-09-22
+  updated: 2025-09-22
+  images:
+  - https://raw.githubusercontent.com/64bit/wordle-rs/refs/heads/main/play-demo.gif
+
 - name: Worm Wars
   originals:
   - Tron
@@ -743,6 +946,33 @@
   images:
   - 'https://amigan.1emu.net/releases/wwi-big.png'
   - 'https://amigan.1emu.net/releases/wwd-big.png'
+
+- name: Wörms of Prey
+  originals:
+  - Liero
+  type: clone
+  repo: https://sourceforge.net/projects/wop/
+  url: 'https://web.archive.org/web/20141218154118/http://wormsofprey.org/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-19
+  updated: 2025-10-19
+  images:
+  - https://web.archive.org/web/20070623194513if_/http://wormsofprey.org/screenshots/homing_missile.png
+  - https://web.archive.org/web/20070623194420if_/http://wormsofprey.org/screenshots/skwoerm_time_2.png
+  - https://web.archive.org/web/20070623194458if_/http://wormsofprey.org/screenshots/skwoermtime.png
+  - https://web.archive.org/web/20070623194409if_/http://wormsofprey.org/screenshots/sky.png
+  - https://web.archive.org/web/20070623194524if_/http://wormsofprey.org/screenshots/stationary_gun.png
 
 - name: WWW
   langs:

@@ -27,6 +27,21 @@
   - >-
     https://img.itch.zone/aW1hZ2UvMTYwMjM5My8xMDU0MjAxNy5wbmc=/original/weI%2FrN.png
 
+- name: tae-wondle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/ytw0728/tae_wondle'
+  url: 'https://crates.io/crates/tae-wondle'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-07
+  updated: 2025-10-07
+
 - name: Tails Adventure Remake
   originals:
   - Tails Adventure
@@ -211,6 +226,24 @@
   added: 2019-08-22
   updated: 2023-09-05
   url: https://qnighy.github.io/tapir/
+
+- name: Taradino
+  originals:
+  - Rise of the Triad
+  type: remake
+  repo: 'https://github.com/fabiangreffrath/taradino'
+  feed: 'https://github.com/fabiangreffrath/taradino/releases.atom'
+  development: active
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  added: 2025-09-26
+  updated: 2025-09-26
 
 - name: TaxiPilot
   originals:
@@ -429,6 +462,21 @@
   updated: 2019-08-28
   images:
   - https://raw.githubusercontent.com/brenns10/tetris/master/tetris.gif
+
+- name: textsweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/codeaye/textsweeper'
+  url: 'https://crates.io/crates/textsweeper'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-09-18
+  updated: 2025-09-18
 
 - name: Theme Park Builder 3D CAD
   frameworks:
@@ -668,6 +716,21 @@
   added: '2025-04-08'
   updated: '2025-04-08'
 
+- name: Tiny Digital Invader
+  originals:
+  - Digital Invaders
+  type: clone
+  repo: 'https://github.com/akkera102/10_tiny_invader'
+  url: 'https://community.arduboy.com/t/tiny-digital-invader-7-segment-display/2679'
+  development: halted
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  added: 2025-10-22
+  updated: 2025-10-22
+
 - name: Tiny Wings
   langs:
   - Objective-C
@@ -686,6 +749,21 @@
   - https://raw.githubusercontent.com/haqu/tiny-wings/master/screenshot.png
   added: 2015-05-02
   updated: 2022-09-12
+
+- name: tmines
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/tropf/tmines'
+  feed: 'https://github.com/tropf/tmines/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - MIT
+  added: 2025-10-05
+  updated: 2025-10-05
 
 - name: TOMB5
   type: remake
@@ -1291,6 +1369,27 @@
   added: 2015-01-21
   updated: 2015-01-21
   url: https://www.tuxemon.org/
+
+- name: TuxPuck
+  originals:
+  - Shufflepuck Café
+  type: clone
+  repo: 'https://salsa.debian.org/games-team/tuxpuck'
+  url: 'https://web.archive.org/web/20090130055930/http://home.no.net/munsuun/tuxpuck/'
+  feed: 'https://salsa.debian.org/games-team/tuxpuck.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-23
+  updated: 2025-09-23
+  images:
+  - https://web.archive.org/web/20160312213148if_/http://screenshots.debian.net/screenshots/t/tuxpuck/8845_large.png
 
 - name: TVTower
   langs:

@@ -515,12 +515,15 @@
 
 - name: Shufflepuck Café
   external:
+    website: 'https://www.lemonamiga.com/games/details.php?id=958'
     wikipedia: Shufflepuck Café
   platforms:
   - Amiga
+  - Amstrad CPC
   - Atari
   - Classic Mac OS
   - DOS
+  - NES
   - PC-98
   meta:
     genres:
@@ -867,6 +870,18 @@
 - name: Snipes
   external:
     wikipedia: Snipes (video game)
+
+- name: Soko-Ban
+  external:
+    website: 'https://www.mobygames.com/game/1715/soko-ban/'
+  platforms:
+  - Apple II
+  - Commodore 64
+  - DOS
+  - MSX
+  meta:
+    genres:
+    - Puzzle
 
 - name: Sokoban
   external:
@@ -1407,7 +1422,10 @@
 
 - name: Star Raiders
   external:
+    website: https://www.mobygames.com/game/9317/star-raiders/
     wikipedia: Star Raiders
+  platforms:
+  - Atari
   meta:
     genres:
     - Action
@@ -1791,6 +1809,18 @@
     wikipedia: Super Mario (series)
   meta:
     genres:
+    - Platform
+
+- name: Super Mario Bros.
+  external:
+    website: 'https://www.nintendo.com/jp/famicom/software/smb1/index.html'
+    wikipedia: Super Mario Bros.
+  platforms:
+  - Arcade
+  - NES
+  meta:
+    genres:
+    - Action
     - Platform
 
 - name: Super Mario 64

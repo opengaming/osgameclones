@@ -144,6 +144,35 @@
   updated: 2019-11-20
   url: https://gordebak.itch.io/onewaytogo
 
+- name: The Only One Project
+  originals:
+  - Legend of Zelda - A Link to the Past
+  type: clone
+  repo: 'https://github.com/KaKaShUruKioRa/The-Only-One-Project'
+  url: 'https://www.solarus-games.org/games/the-only-one-project/'
+  feed: 'https://github.com/KaKaShUruKioRa/The-Only-One-Project/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - Lua
+  frameworks:
+  - Solarus
+  licenses:
+  - CC-BY-SA
+  - GPL3
+  added: 2025-10-07
+  updated: 2025-10-10
+  images:
+  - https://www.solarus-games.org/games/the-only-one-project/screen1.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen2.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen3.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen4.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen5.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen6.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen7.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen8.png
+
 - name: Oolite
   images:
   - https://camo.githubusercontent.com/7891aa32f19781623450c1a790611998ca9af4fc8b1c45ef2f73483ededc7524/687474703a2f2f6f6f6c6974652e6f72672f696d616765732f67616c6c6572792f6c617267652f616e6f746865725f636f6d6d616e6465722d3231303231305f4c656176696e67436f72696f6c6973416761696e2e706e67
@@ -751,29 +780,6 @@
   licenses:
   - MPL
   updated: '2023-02-11'
-
-- name: Open Valley
-  originals:
-  - Stardew Valley
-  type: similar
-  repo: 'https://gitea.it/rixty/OpenValley'
-  url: 'https://mastodon.gamedev.place/@OpenValley'
-  feed: 'https://mastodon.gamedev.place/@OpenValley.rss'
-  development: halted
-  status: semi-playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - CC-BY-NC-SA
-  info: Made in Flare engine
-  added: '2021-05-29'
-  updated: 2024-06-23
-  images:
-  - >-
-    https://cdn.masto.host/mastodongamedevplace/media_attachments/files/106/239/851/573/039/205/original/ccf384e1d27196dd.png
 
 - name: OpenVic
   originals:
