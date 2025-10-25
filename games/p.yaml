@@ -1058,6 +1058,25 @@
   added: 2025-10-19
   updated: 2025-10-19
 
+- name: play-2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/adrienball/2048-rs'
+  url: 'https://crates.io/crates/play-2048'
+  feed: 'https://github.com/adrienball/2048-rs/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - Apache
+  - MIT
+  added: 2025-10-25
+  updated: 2025-10-25
+  images:
+  - 'https://raw.githubusercontent.com/adrienball/2048-rs/main/.img/screenshot.png'
+
 - name: The Pong Tutorial
   originals:
   - Pong
