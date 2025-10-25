@@ -316,7 +316,11 @@ def parse_data(site):
         # Tools and only tools must have N/A status
         return (clone["type"] == "tool") != (clone["status"] == "N/A")
 
-    repos = set()
+    # Entries must have:
+    # - unique repo
+    # - unique url
+    # - or unique repo + url pair
+    repos_and_urls = set()
     for clone in clones:
         if 'originals' not in clone:
             show_errors([{
@@ -345,13 +349,30 @@ def parse_data(site):
                 "name": clone["name"],
                 "error": "Has invalid status - tools must be N/A"
             })
-        if (repo := clone.get("repo")) and repo in repos:
+        repo = clone.get("repo")
+        url = clone.get("url")
+        if not repo and not url:
+            errors.append({
+                "name": clone["name"],
+                "error": "Clone has no repo or url"
+            })
+        elif (repo, None) in repos_and_urls:
             errors.append({
                 "name": clone["name"],
                 "error": f"Has duplicate repo {repo}"
             })
+        elif (None, url) in repos_and_urls:
+            errors.append({
+                "name": clone["name"],
+                "error": f"Has duplicate url {url}"
+            })
+        elif (repo, url) in repos_and_urls:
+            errors.append({
+                "name": clone["name"],
+                "error": f"Has duplicate repo {repo} and url {url}"
+            })
         else:
-            repos.add(repo)
+            repos_and_urls.add((repo, url))
 
     # Check for invalid Wikipedia URLs in originals
     for item in originals:
