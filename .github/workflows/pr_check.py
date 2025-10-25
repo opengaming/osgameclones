@@ -27,6 +27,7 @@ KNOWN_FRAMEWORKS = [
   'Bullet3',
   'Carbon',
   'Castle Game Engine',
+  'ClanLib',
   'CreateJS',
   'Cocos2d',
   'Construct',
@@ -131,6 +132,7 @@ KNOWN_FRAMEWORKS = [
 FRAMEWORK_LANGUAGES = {
   "Allegro": {"C++", "C"},
   "Bevy": {"Rust"},
+  "ClanLib": {"C++"},
   "Fyne": {"Go"},
   "OGRE": {"C++"},
   "OpenGL": {"C++", "C"},
