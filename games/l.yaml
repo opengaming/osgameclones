@@ -1742,6 +1742,26 @@
   images:
   - 'https://os4depot.net/filedata/snapshot/996_1_snap.png'
 
+- name: LuxMan
+  originals:
+  - Pac-Man
+  type: clone
+  repo: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/#:~:text=luxman
+  url: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/luxman-0.41.lsm
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-10-26
+  updated: 2025-10-26
+
 - name: LZWolf
   originals:
   - Wolfenstein 3D
