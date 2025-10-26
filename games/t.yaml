@@ -1430,6 +1430,22 @@
   images:
   - https://github.com/LBALab/twin-e/raw/main/docs/twin-e.png
 
+- name: txt2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/olksdar/txt2048'
+  url: 'https://crates.io/crates/txt2048'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-26
+  updated: 2025-10-26
+
 - name: Tyger
   type: remake
   originals:
