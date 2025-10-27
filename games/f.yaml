@@ -370,6 +370,23 @@
   - 'https://tic.computer/cart/41eaf38786c4a34a832e631e190cd879/cover.gif'
   info: source is available by closing the game and pressing Esc
 
+- name: FlappyLED
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/lukdog/FlappyLED'
+  url: 'https://projecthub.arduino.cc/lukdog/flappyled-b0952a'
+  feed: 'https://github.com/lukdog/FlappyLED/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: Built for Arduino Plug&Make Kit.
+  added: 2025-10-27
+  updated: 2025-10-27
+
 - name: flappymacs
   originals:
   - Flappy Bird
