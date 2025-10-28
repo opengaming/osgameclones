@@ -1745,6 +1745,22 @@
   video:
     youtube: rSN1p247J74
 
+- name: Cosmic Ark Disassembly
+  originals:
+  - Cosmic Ark
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/CosmicArk.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200204/msg00042.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: It may be necessary to add "TIMINT = $285" if using an older version of VCS.H.
+  added: 2025-10-28
+  updated: 2025-10-28
+
 - name: Cosmic Kidnap
   originals:
   - Cosmic Kidnap
