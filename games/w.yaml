@@ -853,6 +853,21 @@
   images:
   - 'https://raw.githubusercontent.com/Qazalbash/wordle-pycli/main/screenshot.png'
 
+- name: wordle-cli
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://git.hanabi.in/wordle-cli/'
+  feed: 'https://git.hanabi.in/wordle-cli/atom.xml'
+  development: complete
+  status: playable
+  langs:
+  - Go
+  licenses:
+  - AGPL3
+  added: 2025-10-30
+  updated: 2025-10-30
+
 - name: wordle-rust
   originals:
   - Wordle
