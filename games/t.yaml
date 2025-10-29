@@ -1474,6 +1474,22 @@
   images:
   - https://github.com/LBALab/twin-e/raw/main/docs/twin-e.png
 
+- name: twozero48
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/de-sh/twozero48'
+  url: 'https://crates.io/crates/twozero48'
+  feed: 'https://github.com/de-sh/twozero48/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-29
+  updated: 2025-10-29
+
 - name: txt2048
   originals:
   - '2048'
