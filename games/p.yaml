@@ -976,6 +976,29 @@
   images:
   - 'https://github.com/tassaron/pipe-puzzle'
 
+- name: PipeWalker
+  originals:
+  - NetWalk
+  type: clone
+  repo: 'https://github.com/artemsen/pipewalker/'
+  url: 'https://www.freshports.org/games/pipewalker'
+  feed: 'https://github.com/artemsen/pipewalker/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-10-30
+  updated: 2025-10-30
+  images:
+  - https://raw.githubusercontent.com/artemsen/pipewalker/master/.github/screenshot.png
+  - https://screenshots.debian.net/screenshot/pipewalker/8631
+  - https://screenshots.debian.net/screenshot/pipewalker/6923
+
 - name: pitfall-js
   originals:
   - Pitfall!
