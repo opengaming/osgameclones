@@ -316,6 +316,28 @@
   - >-
     https://raw.githubusercontent.com/agrande/lba2remake/master/doc/images/screenshot_editor.jpeg
 
+- name: LEDPong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/lukdog/LedPong'
+  url: 'https://projecthub.arduino.cc/lukdog/ledpong-784fab'
+  feed: 'https://github.com/lukdog/LedPong/releases.atom'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  langs:
+  - C++
+  licenses:
+  - MIT
+  info: A Pong game for Arduino UNO R4 and Plug&Make kit.
+  added: 2025-10-28
+  updated: 2025-10-28
+  images:
+  - 'https://projects.arduinocontent.cc/9523c40f-9096-4d48-8e8a-d644439c13d2.jpg'
+
 - name: 'Legacy of Kain: Soul Reaver Decompile'
   originals:
   - 'Legacy of Kain: Soul Reaver'
