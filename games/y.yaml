@@ -61,6 +61,27 @@
   video:
     youtube: L6BTWUUVh_k
 
+- name: yampa2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/ksaveljev/yampa-2048'
+  url: 'https://hackage.haskell.org/package/yampa2048'
+  feed: 'https://hackage.haskell.org/package/yampa2048.rss'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - Yampa
+  - OpenGL
+  licenses:
+  - MIT
+  added: 2025-10-30
+  updated: 2025-10-30
+  images:
+  - https://ksaveljev.github.io/2048.gif
+
 - name: YARG (Yet Another Rhythm Game)
   images:
   - https://media.githubusercontent.com/media/YARC-Official/YARG/master/Images/Banner.png
