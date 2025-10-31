@@ -312,6 +312,28 @@
   url: https://wz2100.net/
   updated: 2023-01-17
 
+- name: wasm-terminal-2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/ryanpig/wasm_terminal_2048'
+  url: 'https://crates.io/crates/wasm_terminal_2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  - JavaScript
+  licenses:
+  - MIT
+  info: >-
+    2048 webassembly implementation in Rust that can be run on browser or command
+    line terminal.
+  added: 2025-10-31
+  updated: 2025-10-31
+  images:
+  - https://raw.githubusercontent.com/ryanpig/wasm_terminal_2048/main/screenshots/cli-demo.gif
+  - https://raw.githubusercontent.com/ryanpig/wasm_terminal_2048/main/screenshots/wasm-demo.gif
+
 - name: WAtomic
   frameworks:
   - Kylix
