@@ -266,6 +266,23 @@
   - 'https://images.pling.com/img/00/00/01/28/52/1109411/9906-2.jpg'
   - 'https://images.pling.com/img/00/00/01/28/52/1109411/9906-3.jpg'
 
+- name: TDEPacman
+  originals:
+  - Pac-Man
+  type: clone
+  repo: https://scm.trinitydesktop.org/gitea/TDE/tdepacman
+  feed: 'https://git.trinitydesktop.org/cgit/tdepacman/atom/?h=master'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  info: A pacman clone game for Trinity Desktop Environment.
+  added: 2025-10-31
+  updated: 2025-10-31
+
 - name: Teeter Torture
   originals:
   - Teeter Torture
