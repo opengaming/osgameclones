@@ -3612,6 +3612,30 @@
   images:
   - https://gitlab.com/stone-kingdoms/stone-kingdoms/-/raw/master/assets/other/screenshot_1.jpg
 
+- name: Stonoid
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://sourceforge.net/projects/stonoid/'
+  url: 'https://stonoid.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/stonoid/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - FMOD
+  licenses:
+  - GPL2
+  added: 2025-11-05
+  updated: 2025-11-05
+  images:
+  - 'https://stonoid.sourceforge.net/common/img/screenshot-01.jpg'
+  - 'https://stonoid.sourceforge.net/common/img/screenshot-02.jpg'
+  - 'https://stonoid.sourceforge.net/common/img/screenshot-03.jpg'
+
 - name: Storm Engine
   originals:
   - 'Sea Dogs: To Each His Own'
