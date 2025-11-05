@@ -456,6 +456,27 @@
   images:
   - 'https://klines2.sourceforge.net/screenshot.png'
 
+- name: KMines
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://invent.kde.org/games/kmines'
+  url: 'https://apps.kde.org/kmines/'
+  feed: 'https://apps.kde.org/kmines/index.xml'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL2
+  added: 2025-11-05
+  updated: 2025-11-05
+  images:
+  - 'https://cdn.kde.org/screenshots/kmines/kmines.png'
+
 - name: KnightOfWor
   langs:
   - Java
