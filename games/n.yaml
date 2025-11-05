@@ -561,6 +561,27 @@
   updated: 2024-04-08
   info: supports Chaos;Head Noah
 
+- name: Njam
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://salsa.debian.org/debian/njam'
+  url: 'https://archive.org/details/njam1.25-src'
+  feed: 'https://salsa.debian.org/debian/njam.atom'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-11-05
+  updated: 2025-11-05
+  images:
+  - 'https://screenshots.debian.net/screenshot/njam/701'
+
 - name: NLarn
   langs:
   - C
