@@ -1361,6 +1361,23 @@
   type: remake
   updated: 2015-05-15
 
+- name: BrainCurses
+  originals:
+  - Mastermind
+  type: clone
+  repo: 'https://github.com/bderrly/braincurses'
+  feed: 'https://github.com/bderrly/braincurses/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL2
+  added: 2025-11-07
+  updated: 2025-11-07
+
 - name: Breach for Genesis
   originals:
   - Breach
