@@ -2152,6 +2152,25 @@
   type: remake
   updated: 2023-01-20
 
+- name: py2048-coolin
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/xXCoolinXx/2048'
+  url: 'https://pypi.org/project/py2048-coolin/'
+  feed: 'https://pypi.org/rss/project/py2048-coolin/releases.xml'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL3
+  added: 2025-11-08
+  updated: 2025-11-08
+
 - name: PyBreak360
   images:
   - https://a.fsdn.com/con/app/proj/pybreak360/screenshots/pybreak360v107.jpg
