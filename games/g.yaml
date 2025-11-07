@@ -54,6 +54,24 @@
   - https://web.archive.org/web/20160420130913im_/http://zevv.nl/play/code/game/game2.png
   - https://web.archive.org/web/20170509025218im_/http://zevv.nl/play/code/game//game.png
 
+- name: Games-2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/Blaizer/Games-2048'
+  url: 'https://metacpan.org/pod/Games::2048'
+  feed: 'https://metacpan.org/dist/Games-2048/releases.rss'
+  development: halted
+  status: playable
+  langs:
+  - Perl
+  licenses:
+  - GPL1
+  - Artistic
+  info: A full clone of the 2048 game by Gabriele Cirulli.
+  added: 2025-11-06
+  updated: 2025-11-06
+
 - name: game2048-rs
   originals:
   - '2048'
