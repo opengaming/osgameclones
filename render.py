@@ -69,8 +69,9 @@ def render_all(target):
 
     site = ctx()
     render_to('index.html', f'{target}/index.html', site=site)
-    updated = max(game['updated'] for names, meta, game in site.new_games.values())
-    render_to('feed.xml', f'{target}/feed.xml', site=site, updated=updated)
+    if site.new_games:
+        updated = max(game['updated'] for names, meta, game in site.new_games.values())
+        render_to('feed.xml', f'{target}/feed.xml', site=site, updated=updated)
     for game in site.games:
         render_to(
             'game.html',
