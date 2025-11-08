@@ -167,7 +167,7 @@ changed_files = [str(file) for file in files]
 print("Changed files", changed_files)
 
 
-def load_games_file(filename: str, sha: str):
+def load_games_file(filename: str, sha: str) -> dict[str, dict]:
     try:
         contents = repo.get_contents(filename, sha)
     except GithubException as e:
