@@ -55,17 +55,18 @@
   </dl>
 </div>
 
-<div id="content">
-  <h2>
-    List of games
-    <a class="add-link" href="/add_game.html" target="_blank"><i class="far fa-edit"></i>Add Game</a>
-    <a class="add-link" href="/add_original.html" target="_blank"><i class="far fa-edit"></i>Add Original Game</a>
-  </h2>
-  <dl id="list">
-    {% for game in site.games %}
-      {{ games.render(game, false) }}
-    {% endfor %}
-  </dl>
+  <div id="content">
+    <h2>
+      List of games
+      <a class="add-link" href="/add_game.html" target="_blank"><i class="far fa-edit"></i>Add Game</a>
+      <a class="add-link" href="/add_original.html" target="_blank"><i class="far fa-edit"></i>Add Original Game</a>
+    </h2>
+    <div id="selected-tags" class="selected-tags" style="display:none;"></div>
+    <dl id="list">
+      {% for game in site.games %}
+        {{ games.render(game, false) }}
+      {% endfor %}
+    </dl>
   <dl id="sorted"></dl>
 </div>
 
