@@ -1573,6 +1573,24 @@
   images:
   - 'https://media.githubusercontent.com/media/filiparag/asm2048/master/demo.gif'
 
+- name: asteroid-diamonds
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/AsteroidOS/asteroid-diamonds'
+  feed: 'https://github.com/AsteroidOS/asteroid-diamonds/releases.atom'
+  development: active
+  status: playable
+  langs:
+  - QML
+  licenses:
+  - GPL3
+  info: A 2048 inspired game for AsteroidOS.
+  added: 2025-11-09
+  updated: 2025-11-09
+  images:
+  - https://raw.githubusercontent.com/AsteroidOS/asteroid-diamonds/master/screenshot.png
+
 - name: asteroids
   originals:
   - Asteroids
