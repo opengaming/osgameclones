@@ -532,6 +532,31 @@
   images:
   - https://github.com/bvschaik/julius/blob/master/res/vita/bg.png?raw=true
 
+- name: Jump & Roll
+  originals:
+  - SkyRoads
+  type: clone
+  repo: 'https://sourceforge.net/projects/jumpnroll/'
+  url: 'https://jumpnroll.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/jumpnroll/code/feed/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - Qt
+  licenses:
+  - GPL2
+  added: 2025-11-11
+  updated: 2025-11-11
+  images:
+  - 'https://a.fsdn.com/con/app/proj/jumpnroll/screenshots/70978.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jumpnroll/screenshots/70982.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jumpnroll/screenshots/70980.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jumpnroll/screenshots/70984.jpg'
+
 - name: Jump'n'Bump
   langs:
   - C
