@@ -1523,6 +1523,24 @@
   - 'https://f-droid.org/repo/cos.premy.mines/en-US/phoneScreenshots/5.png'
   - 'https://f-droid.org/repo/cos.premy.mines/en-US/phoneScreenshots/6.png'
 
+- name: minesVIiper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://git.gir.st/minesVIiper.git'
+  url: 'https://gir.st/mines.html'
+  feed: 'https://git.gir.st/minesVIiper.git/atom'
+  development: halted
+  status: playable
+  langs:
+  - C
+  licenses:
+  - GPL3
+  added: 2025-11-12
+  updated: 2025-11-12
+  images:
+  - 'https://gir.st/img/termsweeper_color.png'
+  - 'https://gir.st/img/termsweeper_vt220_hires.jpg'
 
 - name: minesweep-rs
   originals:
