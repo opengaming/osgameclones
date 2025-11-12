@@ -827,18 +827,19 @@
   originals:
   - SkiFree
   type: clone
-  repo: 'https://sourceforge.net/projects/gnuski/'
-  feed: 'https://sourceforge.net/p/gnuski/news/feed.rss'
-  development: halted
+  repo: https://github.com/rudolfolah/gnuski/
+  development: sporadic
   status: semi-playable
   langs:
-  - C++
+  - C
   frameworks:
   - ncurses
   licenses:
   - GPL2
   added: 2025-11-12
   updated: 2025-11-12
+  images:
+  - https://github.com/rudolfolah/gnuski/blob/main/demo.gif?raw=true
 
 - name: Gods Deluxe
   langs:
