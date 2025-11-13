@@ -2,7 +2,8 @@
 
 var OSGC = window.OSGC = {};
 var params = window.params = {};
-var activeTag = window.activeTag = null;
+// Keep track of multiple selected tags
+var selectedTags = window.selectedTags = new Set();
 
 // Lazy load badges when they become visible (avoid error 429)
 function lazyloadHandler(e) {
@@ -113,26 +114,56 @@ function filter(filter_value) {
 })();
 
 // tag handling
-function filterByTag(curTag) {
+function filterBySelectedTags() {
   var games = document.getElementsByTagName('dd');
-  var game, gameTags;
-  var parent;
+  var parentHasActive = {};
+
+  // If no tags selected, show all games by removing tags-active flag
+  if (selectedTags.size === 0) {
+    document.body.classList.remove('tags-active');
+    // Clear active classes to avoid stale state
+    for (var k = 0; k < games.length; k++) {
+      games[k].classList.remove('active');
+    }
+    // Clear all dt active
+    var dts = document.getElementsByTagName('dt');
+    for (var d = 0; d < dts.length; d++) {
+      dts[d].classList.remove('active');
+    }
+    handleContentChanged();
+    return;
+  }
+
+  document.body.classList.add('tags-active');
 
   for (var i = 0, len = games.length; i < len; i += 1) {
-    game = games[i];
-    gameTags = game.getAttribute('data-tags').split(' ');
-    parent = document.getElementById(game.getAttribute('data-parent'));
+    var game = games[i];
+    var tagsAttr = game.getAttribute('data-tags') || '';
+    var gameTags = tagsAttr.split(' ').filter(Boolean);
+    var parentId = game.getAttribute('data-parent');
 
-    if (gameTags && gameTags.indexOf(curTag) > -1) {
-      if (!game.classList.contains('active')) {
-        game.classList.add('active');
-        parent.classList.add('active');
-      }
-    } else if (game.classList.contains('active')) {
+    // Check if game contains all selected tags
+    var matchesAll = true;
+    selectedTags.forEach(function(t){
+      if (gameTags.indexOf(t) === -1) { matchesAll = false; }
+    });
+
+    if (matchesAll) {
+      game.classList.add('active');
+      parentHasActive[parentId] = true;
+    } else {
       game.classList.remove('active');
-      parent.classList.remove('active');
     }
   }
+
+  // Update parent dt active state
+  var dts = document.getElementsByTagName('dt');
+  for (var j = 0; j < dts.length; j++) {
+    var dt = dts[j];
+    if (parentHasActive[dt.id]) dt.classList.add('active');
+    else dt.classList.remove('active');
+  }
+
   handleContentChanged();
 }
 
@@ -171,42 +202,79 @@ function sortByUpdated(e) {
   }
 }
 
-function highlightTags(tag) {
+function highlightTagsMulti() {
   var style = document.getElementById('tag-style');
-  if (tag) {
-    tag = tag.replace(/"/g, '');
-    var line = '.tag[data-name=\"' + tag + '\"] { color: #ccc; background-color: #444; }';
-    line += '.dark-theme .tag[data-name=\"' + tag + '\"] { color: #444; background-color: #ccc; }';
-    style.innerHTML = line;
-  } else {
-    style.innerHTML = '';
+  if (!style) return;
+  if (selectedTags.size === 0) { style.innerHTML = ''; return; }
+  var rules = '';
+  selectedTags.forEach(function(tag){
+    var safe = (tag + '').replace(/"/g, '');
+    rules += '.tag[data-name=\"' + safe + '\"] { color: #ccc; background-color: #444; }';
+    rules += '.dark-theme .tag[data-name=\"' + safe + '\"] { color: #444; background-color: #ccc; }';
+  });
+  style.innerHTML = rules;
+}
+
+function renderSelectedTagsBar() {
+  var container = document.getElementById('selected-tags');
+  if (!container) return;
+  container.innerHTML = '';
+  if (selectedTags.size === 0) {
+    container.style.display = 'none';
+    return;
   }
+  container.style.display = 'block';
+  // Label
+  var label = document.createElement('span');
+  label.textContent = 'Selected tags:';
+  label.style.marginRight = '8px';
+  container.appendChild(label);
+
+  selectedTags.forEach(function(tag){
+    var el = document.createElement('span');
+    el.className = 'tag';
+    el.setAttribute('data-name', tag);
+    // Try to use existing tag text casing if available
+    var source = document.querySelector('.tag[data-name="' + tag + '"]');
+    el.textContent = source ? source.textContent.replace(/\s*\d+\s*$/, '') : tag.replace(/-/g,' ');
+    el.title = 'Click to remove';
+    el.addEventListener('click', function() { toggleTagByName(tag); });
+    container.appendChild(el);
+  });
+}
+
+function updateTagsUI() {
+  // Highlights + selected tags bar + filter + URL
+  highlightTagsMulti();
+  renderSelectedTagsBar();
+  filterBySelectedTags();
+  // Update URL query param
+  if (selectedTags.size === 0) setQueryParams('tag', null);
+  else setQueryParams('tag', Array.from(selectedTags).join(','));
+}
+
+function toggleTagByName(curTag) {
+  if (!curTag) return;
+  if (selectedTags.has(curTag)) {
+    selectedTags.delete(curTag);
+  } else {
+    selectedTags.add(curTag);
+  }
+  updateTagsUI();
 }
 
 (function() {
-  var tags = document.getElementsByClassName('tag');
-
-  for (var i = 0, l = tags.length; i < l; i += 1) {
-    tags[i].addEventListener('click', onclick);
+  function onTagClick(e) {
+    var t = e.target.closest && e.target.closest('.tag');
+    if (!t || !t.hasAttribute('data-name')) return;
+    var curTag = t.getAttribute('data-name');
+    toggleTagByName(curTag);
   }
 
-  function onclick(e) {
-    var t = e.target.hasAttribute('data-name') ? e.target : e.target.parentNode;
-    var curTag = t.getAttribute('data-name');
-
-    if (curTag === activeTag) {
-      activeTag = null;
-      document.body.classList.remove('tags-active');
-      highlightTags(null);
-      setQueryParams('tag', null);
-    } else {
-      activeTag = curTag;
-      document.body.classList.add('tags-active');
-      highlightTags(curTag);
-      setQueryParams('tag', curTag);
-    }
-    
-    filterByTag(curTag);
+  // Attach to all existing tags
+  var tags = document.getElementsByClassName('tag');
+  for (var i = 0, l = tags.length; i < l; i += 1) {
+    tags[i].addEventListener('click', onTagClick);
   }
 })();
 
@@ -359,7 +427,7 @@ function setQueryParams(key, value) {
   if (value === null) {
     params = Object.keys(params).reduce(function(object, key_it) {
       if (key_it !== key) {
-          object[key] = params[key];
+          object[key_it] = params[key_it];
       }
       return object;
     }, {});
@@ -368,11 +436,11 @@ function setQueryParams(key, value) {
     params[key] = value;
   }
   var url = '?';
-  Object.keys(params).map(function(key, i) {
+  Object.keys(params).map(function(pkey, i) {
     if (i !== 0) {
         url += '&';
     }
-    url += encodeURIComponent(key) + '=' + encodeURIComponent(params[key]);
+    url += encodeURIComponent(pkey) + '=' + encodeURIComponent(params[pkey]);
   });
   history.replaceState({}, null, url);
 }
@@ -398,12 +466,9 @@ function setCount() {
   setCount();
   params = getQueryParams();
   if (params.hasOwnProperty('tag')) {
-    activeTag = params['tag'];
-    document.body.classList.add('tags-active');
-    highlightTags(params['tag']);
-    setQueryParams('tag', params['tag']);
-    
-    filterByTag(params['tag']);
+    var raw = (params['tag'] + '').split(',').map(function(s){ return s.trim(); }).filter(Boolean);
+    raw.forEach(function(t){ selectedTags.add(t); });
+    updateTagsUI();
   }
   
   if (params.hasOwnProperty('filter')) {
