@@ -147,6 +147,24 @@
   images:
   - https://raw.githubusercontent.com/FROGGS/Games-Asteroids/refs/heads/master/screenshot.png
 
+- name: Games-Minesweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/gitpan/Games-Minesweeper'
+  url: 'https://metacpan.org/dist/Games-Minesweeper'
+  feed: 'https://metacpan.org/dist/Games-Minesweeper/releases.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Perl
+  licenses:
+  - Artistic
+  - GPL2
+  added: 2025-11-14
+  updated: 2025-11-14
+
 - name: Gang Garrison 2
   type: clone
   originals:
