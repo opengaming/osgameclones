@@ -1183,6 +1183,34 @@
   images:
   - 'https://raw.githubusercontent.com/adrienball/2048-rs/main/.img/screenshot.png'
 
+- name: Pong Game
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/passion-lab/Pong-Game'
+  url: 'https://pong.sourceforge.net/'
+  feed: 'https://github.com/passion-lab/Pong-Game/releases.atom'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - MIT
+  added: 2025-11-15
+  updated: 2025-11-15
+  images:
+  - https://a.fsdn.com/con/app/proj/pong-game/screenshots/Game-Banner-147a36e4.png
+  - https://a.fsdn.com/con/app/proj/pong-game/screenshots/Game-Start-2c69d7b4.png
+  - https://a.fsdn.com/con/app/proj/pong-game/screenshots/Game-Running-4a47c0a2.png
+  - https://a.fsdn.com/con/app/proj/pong-game/screenshots/Game-Paused-59bfa95a.png
+  - https://a.fsdn.com/con/app/proj/pong-game/screenshots/Game-Score-6c26f90e.png
+
 - name: Pong Game in JavaScript
   originals:
   - Pong
