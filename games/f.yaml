@@ -56,6 +56,21 @@
   updated: 2020-08-25
   url: https://project-f.github.io/
 
+- name: F256 two to the power of eleven
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/rmsk2/F256_2048'
+  feed: 'https://github.com/rmsk2/F256_2048/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - MIT
+  added: 2025-11-17
+  updated: 2025-11-17
+
 - name: f2bgl
   frameworks:
   - SDL2
