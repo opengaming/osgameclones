@@ -184,6 +184,22 @@
   images:
   - https://ncine.github.io/img/gallery/ncInvaders.png
 
+- name: ncmines
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/a-massoud/ncmines'
+  development: complete
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - ncurses
+  licenses:
+  - MIT
+  added: 2025-11-18
+  updated: 2025-11-18
+
 - name: nes-caves
   originals:
   - Crystal Caves
