@@ -3747,10 +3747,14 @@
 - name: Storm Engine
   originals:
   - 'Sea Dogs: To Each His Own'
+  - Pirates of the Caribbean
+  - 'Age of Pirates 2: City of Abandoned Ships'
   type: official
   repo: 'https://github.com/storm-devs/storm-engine'
-  development: sporadic
-  status: playable
+  url: https://www.piratesahoy.net/threads/we-have-the-storm-engine.15184/
+  feed: https://github.com/storm-devs/storm-engine/releases.atom
+  development: halted
+  status: semi-playable
   content: commercial
   langs:
   - C++
@@ -3758,8 +3762,9 @@
   - DirectX
   licenses:
   - GPL3
-  info: Open source engine for Sea Dogs / Pirates of the Caribbean games from Akella
-  updated: 2023-11-04
+  info: Game engine behind Sea Dogs, Pirates of the Caribbean and Age of Pirates games.
+  added: 2021-03-26
+  updated: 2025-11-19
   images:
   - https://steamuserimages-a.akamaihd.net/ugc/879748394074455443/FD04CEA2434D8DACAD4886AF6A5ADAA54CDE42AA/
 
