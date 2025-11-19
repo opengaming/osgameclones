@@ -1,3 +1,24 @@
+- name: C Pong SDL
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/TobinCavanaugh/C-Pong-SDL'
+  feed: 'https://github.com/TobinCavanaugh/C-Pong-SDL/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - Unlicense
+  added: 2025-11-19
+  updated: 2025-11-19
+  images:
+  - https://raw.githubusercontent.com/TobinCavanaugh/C-Pong-SDL/master/gh/gif_anim_1.gif
+  - https://raw.githubusercontent.com/TobinCavanaugh/C-Pong-SDL/master/gh/gif_anim_2.gif
+  - https://raw.githubusercontent.com/TobinCavanaugh/C-Pong-SDL/master/gh/gif_anim_3.gif
+
 - name: C-Dogs SDL
   feed: https://cxong.github.io/cdogs-sdl/feed.xml
   frameworks:
