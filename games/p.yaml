@@ -1198,6 +1198,28 @@
   images:
   - 'https://raw.githubusercontent.com/adrienball/2048-rs/main/.img/screenshot.png'
 
+- name: Pong (2019)
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://code.austinmorlan.com/austin/2019-pong'
+  url: 'https://austinmorlan.com/posts/pong_clone/'
+  feed: 'https://code.austinmorlan.com/austin/2019-pong.atom'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-11-21
+  updated: 2025-11-21
+  images:
+  - 'https://austinmorlan.com/posts/pong_clone/media/demo.gif'
+
 - name: Pong Game
   originals:
   - Pong
