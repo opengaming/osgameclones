@@ -274,10 +274,15 @@
 
 - name: Bejeweled
   external:
-    wikipedia: Bejeweled
+    website: 'https://www.ea.com/games/bejeweled'
+    wikipedia: Bejeweled (video game)
   platforms:
+  - iOS
+  - Mobile
+  - OSX
   - Web
   - Windows
+  - Xbox
   meta:
     genres:
     - Puzzle
