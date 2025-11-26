@@ -664,10 +664,9 @@
 - name: 3D Pong
   originals:
   - Pong
-  type: clone
-  repo: 'https://www.ibiblio.org/pub/X11/contrib/games/#:~:text=3dpong'
-  url: >-
-    https://web.archive.org/web/19980219201506/http://zippy.sonoma.edu/kendrick/nbs/unix/x/3dpong/
+  type: similar
+  repo: http://www.newbreedsoftware.com/3dpong/download/
+  url: http://www.newbreedsoftware.com/3dpong/
   development: halted
   status: playable
   content: free
@@ -676,7 +675,19 @@
   licenses:
   - As-is
   added: 2025-10-13
-  updated: 2025-10-13
+  updated: 2025-11-26
+  images:
+  - https://web.archive.org/web/20240430220225if_/http://www.newbreedsoftware.com/3dpong/screenshots/normal.gif
+  - https://web.archive.org/web/20240430220228if_/http://www.newbreedsoftware.com/3dpong/screenshots/bleachers.gif
+  - https://web.archive.org/web/20240430220227if_/http://www.newbreedsoftware.com/3dpong/screenshots/above.gif
+  - https://web.archive.org/web/20240430220226if_/http://www.newbreedsoftware.com/3dpong/screenshots/freeview.gif
+  - https://web.archive.org/web/20240430220225if_/http://www.newbreedsoftware.com/3dpong/screenshots/followtheball.gif
+  - https://web.archive.org/web/20240430220225if_/http://www.newbreedsoftware.com/3dpong/screenshots/followtheball2.gif
+  - https://web.archive.org/web/20240430220226if_/http://www.newbreedsoftware.com/3dpong/screenshots/handball.gif
+  - https://web.archive.org/web/20240430220225if_/http://www.newbreedsoftware.com/3dpong/screenshots/handball2.gif
+  - https://web.archive.org/web/20240430220227if_/http://www.newbreedsoftware.com/3dpong/screenshots/redblue.gif
+  video:
+    youtube: jG2n_geQYsA
 
 - name: 3d.city
   frameworks:
