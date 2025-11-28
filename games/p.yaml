@@ -2396,6 +2396,28 @@
   images:
   - https://web.archive.org/web/20160526220309if_/http://kamikaze.coolprojects.org/shots/pykamikaze-1.png
 
+- name: Pykanoid
+  originals:
+  - Arkanoid
+  type: clone
+  repo: 'https://sourceforge.net/projects/pykanoid/'
+  feed: 'https://sourceforge.net/projects/pykanoid/rss?path=/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL2
+  added: 2025-11-28
+  updated: 2025-11-28
+  images:
+  - 'https://a.fsdn.com/con/app/proj/pykanoid/screenshots/159066.jpg'
+  - 'https://a.fsdn.com/con/app/proj/pykanoid/screenshots/159068.jpg'
+  - 'https://a.fsdn.com/con/app/proj/pykanoid/screenshots/159070.jpg'
+
 - name: pynesweeper
   originals:
   - Minesweeper
