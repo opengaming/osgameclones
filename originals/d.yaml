@@ -701,7 +701,10 @@
 
 - name: Doom 3
   external:
-    wikipedia: Doom_3
+    website: 'https://web.archive.org/web/20080104193225/http://www.doom3.com/'
+    wikipedia: Doom 3
+  platforms:
+  - Windows
   meta:
     genres:
     - FPS
