@@ -35,6 +35,7 @@
 
 - name: Half-Life 2
   external:
+    website: https://www.half-life.com/en/halflife2
     wikipedia: Half-Life 2
   platforms:
   - Android
@@ -44,6 +45,20 @@
   - Windows
   - Xbox
   - Xbox 360
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Sci-Fi
+
+- name: 'Half-Life 2: Deathmatch'
+  external:
+    website: 'https://www.mobygames.com/game/29092/half-life-2-deathmatch/'
+    wikipedia: 'Half-Life 2: Deathmatch'
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   meta:
     genres:
     - FPS
