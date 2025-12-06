@@ -187,6 +187,26 @@
   url: http://www.oolite.org/
   updated: 2018-10-06
 
+- name: Open Arkanoid
+  originals:
+  - Arkanoid
+  type: clone
+  repo: 'https://sourceforge.net/projects/openarkanoid/'
+  feed: 'https://sourceforge.net/projects/openarkanoid/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - BlitzMax
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2025-12-07
+  updated: 2025-12-07
+  images:
+  - 'https://a.fsdn.com/con/app/proj/openarkanoid/screenshots/55686.jpg'
+
 - name: Open BattleChess
   langs:
   - C#
