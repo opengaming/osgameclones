@@ -407,6 +407,23 @@
   video:
     youtube: iHfpBze8ecA
 
+- name: Catacomb
+  originals:
+  - Catacomb
+  type: official
+  repo: 'https://github.com/CatacombGames/Catacomb'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Pascal
+  - Assembly
+  licenses:
+  - GPL2
+  info: Catacomb source code.
+  added: 2025-12-01
+  updated: 2025-12-01
+
 - name: CatacombGL
   originals:
   - Catacomb 3-D
@@ -440,9 +457,12 @@
   originals:
   - Catacomb
   repo: https://github.com/Blzut3/CatacombSDL
+  feed: https://github.com/Blzut3/CatacombSDL/releases.atom
   status: playable
   type: remake
-  updated: 2014-07-23
+  info: a source port for The Catacomb (also known as Catacomb II).
+  added: 2014-07-23
+  updated: 2025-12-08
 
 - name: Cattle Bity
   type: clone
