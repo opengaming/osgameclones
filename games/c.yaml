@@ -412,6 +412,7 @@
   - Catacomb
   type: official
   repo: 'https://github.com/CatacombGames/Catacomb'
+  url: https://archive.org/details/Catacomb_source
   development: complete
   status: playable
   content: commercial
@@ -422,7 +423,112 @@
   - GPL2
   info: Catacomb source code.
   added: 2025-12-01
-  updated: 2025-12-01
+  updated: 2025-12-10
+  images:
+  - https://archive.org/download/Catacomb_source/catacomb5.png
+
+- name: The Catacomb
+  originals:
+  - Catacomb
+  type: official
+  repo: 'https://github.com/CatacombGames/TheCatacomb'
+  url: https://archive.org/details/CatacombII_source
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  info: Catacomb 2 source code.
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - https://archive.org/download/CatacombII_source/msdos_Catacomb_II_1991_0.jpg
+
+- name: 'Catacomb 3-D: The Descent'
+  originals:
+  - Catacomb 3-D
+  type: official
+  repo: 'https://github.com/CatacombGames/Catacomb3D'
+  url: 'https://archive.org/details/Catacomb3-D_source'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Wolfenstein 3D
+  licenses:
+  - GPL2
+  info: Catacomb 3D source code.
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - 'https://archive.org/download/Catacomb3-D_source/democat_010.png'
+
+- name: The Catacomb Abyss
+  originals:
+  - Catacomb 3-D
+  type: official
+  repo: 'https://github.com/CatacombGames/CatacombAbyss'
+  url: 'https://archive.org/details/CatacombAbyss_source'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Wolfenstein 3D
+  licenses:
+  - GPL2
+  info: Catacomb Abyss source code.
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - 'https://archive.org/download/CatacombAbyss_source/democat_009.png'
+
+- name: The Catacomb Apocalypse
+  originals:
+  - Catacomb 3-D
+  type: official
+  repo: 'https://github.com/CatacombGames/CatacombApocalypse'
+  url: 'https://archive.org/details/CatacombApocalypse_source'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Wolfenstein 3D
+  licenses:
+  - GPL2
+  info: Catacomb Apocalypse source code.
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - 'https://archive.org/download/CatacombApocalypse_source/hqdefault.jpg'
+
+- name: The Catacomb Armageddon
+  originals:
+  - Catacomb 3-D
+  type: official
+  repo: 'https://github.com/CatacombGames/CatacombArmageddon'
+  url: 'https://archive.org/details/CatacombArmageddon_source'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Wolfenstein 3D
+  licenses:
+  - GPL2
+  info: Catacomb Armageddon source code.
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - 'https://archive.org/download/CatacombArmageddon_source/hqdefault.jpg'
 
 - name: CatacombGL
   originals:
