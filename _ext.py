@@ -321,6 +321,7 @@ def parse_data(site):
     # - unique url
     # - or unique repo + url pair
     repos_and_urls = set()
+    originals_with_clones = set()
     for clone in clones:
         if 'originals' not in clone:
             show_errors([{
@@ -373,6 +374,9 @@ def parse_data(site):
             })
         else:
             repos_and_urls.add((repo, url))
+        
+        for original in clone['originals']:
+            originals_with_clones.add(original)
 
     # Check for invalid Wikipedia URLs in originals
     for item in originals:
@@ -383,6 +387,14 @@ def parse_data(site):
                     "name": game_name(item),
                     "error": f"Wikipedia field should contain article title, not full URL: {wikipedia_value}"
                 })
+
+    # Check for originals with no clones
+    for original in originals_map:
+        if original not in originals_with_clones:
+            errors.append({
+                "name": original,
+                "error": "Original game has no clones"
+            })
 
     if len(errors) > 0:
         show_errors(errors)
