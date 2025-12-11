@@ -217,10 +217,21 @@
 
 - name: Hexen
   external:
-    wikipedia: Hexen
+    website: >-
+      https://web.archive.org/web/20120324031651/http://ravensoft.com/games/hexen/view-game/
+    wikipedia: 'Hexen: Beyond Heretic'
+  platforms:
+  - Acorn 32-bit
+  - Classic Mac OS
+  - DOS
+  - N64
+  - PlayStation
+  - Windows
   meta:
     genres:
     - FPS
+    themes:
+    - Fantasy
 
 - name: Hexen II
   external:
