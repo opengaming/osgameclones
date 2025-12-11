@@ -235,10 +235,21 @@
 
 - name: Hexen II
   external:
+    website: >-
+      https://web.archive.org/web/20120324053828/http://ravensoft.com/games/hexen-2/view-game/
     wikipedia: Hexen II
+  platforms:
+  - Classic Mac OS
+  - Windows
   meta:
     genres:
+    - Action
     - FPS
+    - RPG
+    themes:
+    - Egyptian
+    - Fantasy
+    - Medieval
 
 - name: Highway Encounter
   external:
