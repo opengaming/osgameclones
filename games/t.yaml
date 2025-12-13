@@ -1297,6 +1297,23 @@
   - https://www.ttdpatch.net/bigstation.jpg
   - https://www.ttdpatch.net/longtrn.jpg
 
+- name: ttyloop
+  originals:
+  - Infinity Loop
+  type: clone
+  repo: 'https://github.com/gamma-delta/ttyloop'
+  url: 'https://crates.io/crates/ttyloop'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - Cursive
+  licenses:
+  - MIT
+  added: 2025-12-12
+  updated: 2025-12-12
+
 - name: Tube64
   originals:
   - Tube
