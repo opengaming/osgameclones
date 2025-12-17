@@ -122,10 +122,26 @@
 
 - name: NetHack
   external:
+    website: 'https://www.nethack.org/'
     wikipedia: NetHack
+  platforms:
+  - Acorn 32-bit
+  - Amiga
+  - Android
+  - Classic Mac OS
+  - DOS
+  - iOS
+  - Linux
+  - OS/2
+  - PC-98
+  - Web
+  - Windows
   meta:
     genres:
+    - RPG
     - Roguelike
+    themes:
+    - Fantasy
 
 - name: Nether Earth
   external:
