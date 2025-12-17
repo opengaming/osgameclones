@@ -141,6 +141,24 @@
   updated: 2020-02-08
   url: https://bitbucket.org/dalerank/caesaria/wiki/Home
 
+- name: CalcChu
+  originals:
+  - ChuChu Rocket!
+  type: clone
+  repo: 'https://www.ticalc.org/pub/v200/asm/games/#:~:text=CalcChu'
+  development: complete
+  status: playable
+  multiplayer:
+  - Co-op
+  langs:
+  - C
+  frameworks:
+  - ExtGraph
+  licenses:
+  - Custom
+  added: 2025-12-13
+  updated: 2025-12-13
+
 - name: canabalt-ios
   originals:
   - Canabalt
@@ -1063,6 +1081,23 @@
   - https://media.indiedb.com/cache/images/games/1/36/35232/thumb_620x2000/ezgif-6-aeefb8067282.gif
   - https://media.indiedb.com/cache/images/games/1/36/35232/thumb_620x2000/unknown-1.png
 
+- name: City_Connection
+  originals:
+  - City Connection
+  type: remake
+  repo: 'https://github.com/Evenball-8bit/City_Connection'
+  development: complete
+  status: playable
+  multiplayer:
+  - Hotseat
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-12-13
+  updated: 2025-12-13
+
 - name: Citybound
   originals:
   - SimCity
@@ -1100,6 +1135,26 @@
   updated: 2024-05-28
   images:
   - https://github.com/axx0/Civ2-clone/assets/21365802/864ab9b4-ce4c-4715-9447-9e913298a971
+
+- name: Civ89
+  originals:
+  - Civilization
+  type: clone
+  repo: 'https://www.calculatorti.com/ti-games/ti-89/asm/civilization-89-civ-89/'
+  url: 'https://web.archive.org/web/20091027013406/http://www.geocities.com/civ89game/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Hotseat
+  langs:
+  - C
+  licenses:
+  - Custom
+  info: A game based on the Civilization series for TI graphing calculator.
+  added: 2025-12-13
+  updated: 2025-12-13
+  images:
+  - 'https://www.calculatorti.com/media/images/programs/civilization-89-civ-89.jpg'
 
 - name: 'Civilization: Call To Power 2 Source Project'
   licenses:

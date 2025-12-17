@@ -379,10 +379,24 @@
 
 - name: Shadow of the Beast
   external:
-    wikipedia: Shadow of the Beast
+    website: 'https://www.mobygames.com/game/7461/shadow-of-the-beast/'
+    wikipedia: Shadow of the Beast (1989 video game)
+  platforms:
+  - Amiga
+  - Amstrad CPC
+  - Atari
+  - Commodore 64
+  - FM Towns
+  - Genesis
+  - Lynx
+  - Master System
+  - TurboGrafx-16
+  - ZX Spectrum
   meta:
     genres:
     - Platform
+    themes:
+    - Fantasy
 
 - name: Shadow Warrior
   external:
@@ -1315,6 +1329,18 @@
     themes:
     - Sci-Fi
 
+- name: Spacebase DF-9
+  external:
+    website: 'https://spacebasedf9.com/'
+    wikipedia: Spacebase DF-9
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - Simulation
+
 - name: Spaceship Warlock
   external:
     website: https://www.mobygames.com/game/22016
@@ -1348,8 +1374,11 @@
     - FPS
 
 - name: Speed Haste
+  names:
+  - Circuit Racer
   external:
-    website: Speed Haste
+    website: 'https://www.mobygames.com/game/14257/circuit-racer/'
+    wikipedia: Speed Haste
   platforms:
   - DOS
   meta:
