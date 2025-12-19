@@ -796,3 +796,20 @@
   - 'https://doomwiki.org/w/images/d/d7/64doom_ntsc_1.png'
   video:
     youtube: ygIZoTyTygc
+
+- name: 8x8 Tetris
+  originals:
+  - Tetris
+  type: clone
+  url: 'https://projecthub.arduino.cc/candystan/8x8-tetris-e57938'
+  development: sporadic
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - LedControl
+  licenses:
+  - As-is
+  info: Tetris style game on an 8x8 LED.
+  added: 2025-12-09
+  updated: 2025-12-09
