@@ -7,10 +7,23 @@
 
 - name: Quake
   external:
+    website: >-
+      https://web.archive.org/web/20110822232757/https://www.idsoftware.com/games/quake/quake/
     wikipedia: Quake
+  platforms:
+  - Acorn 32-bit
+  - Amiga
+  - Classic Mac OS
+  - DOS
+  - Linux
+  - N64
+  - Saturn
+  - Windows
   meta:
     genres:
     - FPS
+    themes:
+    - Fantasy
 
 - name: Quake 2
   external:
