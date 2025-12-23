@@ -27,10 +27,19 @@
 
 - name: Quake 2
   external:
-    wikipedia: Quake 2
+    website: >-
+      https://web.archive.org/web/20110824141015/http://www.idsoftware.com/games/quake/quake2/
+    wikipedia: Quake II
+  platforms:
+  - Amiga
+  - Linux
+  - PlayStation
+  - Windows
   meta:
     genres:
     - FPS
+    themes:
+    - Sci-Fi
 
 - name: Quake 3
   names:
