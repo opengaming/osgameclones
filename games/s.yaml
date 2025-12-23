@@ -1026,6 +1026,30 @@
   video:
     youtube: lXs4EDC0KEE
 
+- name: SDL2-Space-Invaders
+  originals:
+  - Space Invaders
+  type: remake
+  repo: 'https://github.com/toivjon/sdl2-space-invaders'
+  url: 'https://toivjon.wordpress.com/2017/10/22/sdl2-space-invaders/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Hotseat
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-12-24
+  updated: 2025-12-24
+  images:
+  - https://toivjon.wordpress.com/wp-content/uploads/2017/10/fda.png
+  - https://raw.githubusercontent.com/toivjon/sdl2-space-invaders/master/screenshots/welcome-scene.png
+  - https://raw.githubusercontent.com/toivjon/sdl2-space-invaders/master/screenshots/playplayer-scene.png
+  - https://raw.githubusercontent.com/toivjon/sdl2-space-invaders/master/screenshots/ingame-scene.png
+
 - name: SDLAsteroids
   originals:
   - Asteroids
