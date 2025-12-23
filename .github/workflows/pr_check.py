@@ -178,10 +178,13 @@ def load_games_file(filename: str, sha: str):
     return {game["name"]: game for game in parsed}
 
 
+added_authors = set()
 def added_checks(game):
     if match := re.search(r"github.com/([^/]+)/", game.get("repo", "")):
         author = match[1]
-        yield f"💌 Hey @{author}, we're adding your game to osgameclones!"
+        if author not in added_authors:
+            added_authors.add(author)
+            yield f"💌 Hey @{author}, we're adding your game to osgameclones!"
 
 
 def common_checks(game):
