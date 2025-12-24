@@ -137,11 +137,12 @@
   updated: 2023-01-25
   url: http://xarchon.seul.org/
 
-- name: Xargon
+- name: Xargon (SDL)
   originals:
   - Xargon
   type: remake
   repo: https://github.com/Malvineous/xargon
+  url: https://repo.openpandora.org/?page=detail&app=xargon_ptitseb
   development: halted
   status: playable
   content: free
@@ -153,9 +154,26 @@
   - GPL3
   info: SDL port of the DOS game Xargon
   added: 2021-02-19
-  updated: 2025-05-18
+  updated: 2025-12-23
   images:
+  - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview2.png'
+  - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview1.png'
   - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview3.png'
+  - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview5.png'
+
+- name: Xargon
+  originals:
+  - Xargon
+  type: official
+  url: 'https://www.classicdosgames.com/game/Xargon.html'
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2025-12-16
+  updated: 2025-12-16
 
 - name: Xasteroids
   originals:
