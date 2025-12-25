@@ -79,6 +79,31 @@
   url: https://bytonic.de/html/jake2.html
   info: Java port of the Quake2 game engine
 
+- name: JavaFX – Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/toivjon/javafx-pong'
+  url: 'https://toivjon.wordpress.com/2017/11/12/javafx-pong/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  langs:
+  - Java
+  frameworks:
+  - JavaFX
+  licenses:
+  - MIT
+  added: 2025-12-25
+  updated: 2025-12-25
+  images:
+  - https://toivjon.wordpress.com/wp-content/uploads/2017/11/javafx-pong.png
+  - https://raw.githubusercontent.com/toivjon/javafx-pong/master/screenshots/welcome-scene.png
+  - https://raw.githubusercontent.com/toivjon/javafx-pong/master/screenshots/court-scene.png
+  - https://raw.githubusercontent.com/toivjon/javafx-pong/master/screenshots/endgame-scene.png
+
 - name: Javascript BoulderDash
   originals:
   - Boulder Dash
