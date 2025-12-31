@@ -136,6 +136,7 @@ FRAMEWORK_LANGUAGES = {
   "Fyne": {"Go"},
   "OGRE": {"C++"},
   "OpenGL": {"C++", "C"},
+  "Phaser": {"JavaScript", "TypeScript"},
   "Qt": {"C++"},
   "SDL": {"C++", "C"},
   "SDL.NET": {"C#"},
@@ -145,7 +146,7 @@ FRAMEWORK_LANGUAGES = {
   "libGDX": {"Java", "Kotlin"},
   "pygame": {"Python"},
   "Pyxel": {"Python"},
-  "Vue.js": {"JavaScript"},
+  "Vue.js": {"JavaScript", "TypeScript"},
 }
 MIN_FUZZ_SCORE = 95
 unknown_languages = False
