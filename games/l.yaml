@@ -334,6 +334,48 @@
   added: 2021-10-29
   updated: 2023-08-08
 
+- name: LBA2 Classic (Community, Playable)
+  originals:
+  - Little Big Adventure 2
+  type: remake
+  repo: https://github.com/innerbytes/lba2-classic-ida
+  development: sporadic
+  status: playable
+  langs:
+  - C++
+  - Assembly
+  licenses:
+  - GPL2
+  content: commercial
+  info: >-
+    Official source code of the original game's engine (not a remake). This is
+    the community-enhanced version of the repository, that is buildable and fully
+    playable on Windows.
+  added: 2026-01-05
+  updated: 2026-01-05
+
+- name: LBA2 IdaJS (Community, Playable, Moddable)
+  originals:
+  - Little Big Adventure 2 - IdaJS
+  type: remake
+  repo: https://github.com/innerbytes/idajs
+  development: active
+  status: playable
+  langs:
+  - JavaScript
+  - TypeScript
+  - C++
+  - Assembly
+  licenses:
+  - GPL2
+  content: commercial
+  info: >-
+    This is the JavaScript-powered moddable version of LBA2 Community game.
+    Based on the original Little Big Adventure 2 source code.
+    Allows to mod the original LBA2 game, using JavaScript/TypeScript as scripting language.
+  added: 2026-01-05
+  updated: 2026-01-05
+
 - name: LBA2 Classic (Community)
   originals:
   - Little Big Adventure 2
