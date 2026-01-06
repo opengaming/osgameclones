@@ -334,7 +334,25 @@
   added: 2021-10-29
   updated: 2023-08-08
 
-- name: Little Big Adventure 2 - Ida edition
+- name: LBA2 Classic (Community)
+  originals:
+  - Little Big Adventure 2
+  type: remake
+  repo: https://github.com/LBALab/lba2-classic-community
+  development: halted
+  status: unplayable
+  langs:
+  - Assembly
+  licenses:
+  - GPL2
+  content: commercial
+  info: >-
+    Official source code of the original game's engine (not a remake). This is
+    the community-enhanced version of the repository.
+  added: 2021-10-29
+  updated: 2023-08-08
+
+- name: LBA2 Ida edition
   originals:
   - Little Big Adventure 2
   type: remake
@@ -357,7 +375,7 @@
   - >-
     https://raw.githubusercontent.com/innerbytes/lba2-classic-ida/refs/heads/main/image.png
 
-- name: IdaJS
+- name: LBA2 IdaJS
   originals:
   - Little Big Adventure 2
   type: remake
@@ -385,24 +403,6 @@
     https://innerbytes.com/img/code1280.png
   video:
     youtube: GrzfcKwTVaM
-
-- name: LBA2 Classic (Community)
-  originals:
-  - Little Big Adventure 2
-  type: remake
-  repo: https://github.com/LBALab/lba2-classic-community
-  development: halted
-  status: unplayable
-  langs:
-  - Assembly
-  licenses:
-  - GPL2
-  content: commercial
-  info: >-
-    Official source code of the original game's engine (not a remake). This is
-    the community-enhanced version of the repository.
-  added: 2021-10-29
-  updated: 2023-08-08
 
 - name: LBA2 Remake
   originals:
