@@ -1000,6 +1000,29 @@
   images:
   - 'https://users.jyu.fi/~tvkalvas/code/tunneler/tunneler_shot.png'
 
+- name: SDL2-Breakout
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://github.com/toivjon/sdl2-breakout'
+  url: 'https://toivjon.wordpress.com/2017/07/19/sdl2-breakout/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Hotseat
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2026-01-10
+  updated: 2026-01-10
+  images:
+  - https://raw.githubusercontent.com/toivjon/sdl2-breakout/master/screenshots/welcome-scene.png
+  - https://raw.githubusercontent.com/toivjon/sdl2-breakout/master/screenshots/court-scene.png
+  - https://toivjon.wordpress.com/wp-content/uploads/2017/07/sdl2-breakout.png
+
 - name: sdl2-pong
   originals:
   - Pong
