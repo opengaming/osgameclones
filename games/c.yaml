@@ -2491,6 +2491,90 @@
   updated: 2022-07-16
   url: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html
 
+- name: CoU_Server
+  originals:
+  - Glitch
+  type: remake
+  repo: 'https://github.com/ChildrenOfUr/CoU_Server'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  langs:
+  - 'C#'
+  licenses:
+  - As-is
+  info: 'A Children of Ur server rewrite using C#.'
+  added: 2026-01-09
+  updated: 2026-01-09
+
+- name: cou_server2
+  originals:
+  - Glitch
+  type: remake
+  repo: 'https://github.com/ChildrenOfUr/cou_server2'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  langs:
+  - Dart
+  frameworks:
+  - Aqueduct
+  licenses:
+  - As-is
+  info: >-
+    A Children of Ur Server rewrite using the Aqueduct framework instead of
+    Redstone.
+  added: 2026-01-09
+  updated: 2026-01-09
+
+- name: coUclient
+  originals:
+  - Glitch
+  type: remake
+  repo: 'https://github.com/ChildrenOfUr/coUclient'
+  url: 'https://game.childrenofur.com/'
+  feed: 'https://github.com/ChildrenOfUr/coUclient/releases.atom'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - Dart
+  - CSS
+  - JavaScript
+  - HTML
+  licenses:
+  - MIT
+  info: Children of Ur Client.
+  added: 2026-01-09
+  updated: 2026-01-09
+  images:
+  - https://libregamewiki.org/images/5/54/Chidren-of-ur-prealpha.png
+
+- name: coUserver
+  originals:
+  - Glitch
+  type: remake
+  repo: 'https://github.com/ChildrenOfUr/coUserver'
+  url: 'http://server.childrenofur.com/'
+  feed: 'https://github.com/ChildrenOfUr/coUserver/releases.atom'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  langs:
+  - Dart
+  frameworks:
+  - Redstone
+  licenses:
+  - MIT
+  info: Children of Ur Server.
+  added: 2026-01-09
+  updated: 2026-01-09
+
 - name: Crack Attack!
   images:
   - https://www.nongnu.org/crack-attack/gui-1.1.14-normal.png
