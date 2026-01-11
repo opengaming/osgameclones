@@ -199,6 +199,11 @@ def common_checks(game):
     yield from check_repo_google_code(game)
 
 
+def common_original_checks(orig):
+    yield from check_has_platform(orig)
+    yield from check_has_genres_or_subgenres(orig)
+
+
 def check_has_added(game):
     if "added" not in game:
         yield f"📅 {game['name']} has no added date"
@@ -268,6 +273,16 @@ def check_repo_google_code(game):
               "Please check if there is an updated repo elsewhere."
 
 
+def check_has_platform(orig):
+    if "platform" not in orig:
+        yield f"🕹️️ {orig['name']} has no platforms."
+
+
+def check_has_genres_or_subgenres(orig):
+    if "genres" not in orig and "subgenres" not in orig:
+        yield f"📖️️ {orig['name']} has no genres or subgenres."
+
+
 # Scan files for changes
 games_added = set()
 games_changed = set()
@@ -295,12 +310,22 @@ for file in files:
                     check_messages.append(message)
                 for message in common_checks(new_games[game]):
                     check_messages.append(message)
-        for game in old_games:
-            if game in new_games:
-                if old_games[game] != new_games[game]:
-                    games_changed.add(game)
-                    for message in common_checks(new_games[game]):
+        for name in old_games:
+            if name in new_games:
+                if old_games[name] != new_games[name]:
+                    games_changed.add(name)
+                    for message in common_checks(new_games[name]):
                         check_messages.append(message)
+    elif re.match(r"^originals/\w+\.yaml$", file.filename):
+        print("Original file changed", file)
+        old_origs = load_games_file(file.filename, pr.base.sha)
+        new_origs = load_games_file(file.filename, pr.head.sha)
+        for name in old_origs:
+            if name in new_origs:
+                if old_origs[name] != new_origs[name]:
+                    for message in common_original_checks(new_origs[name]):
+                        check_messages.append(message)
+
 
 # Update comment based on changed games and checks
 if games_added:
