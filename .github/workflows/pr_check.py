@@ -279,7 +279,7 @@ def check_has_platform(orig):
 
 
 def check_has_genres_or_subgenres(orig):
-    if "genres" not in orig and "subgenres" not in orig:
+    if "genres" not in orig.get("meta", {}) and "subgenres" not in orig.get("meta", {}):
         yield f"📖️️ {orig['name']} has no genres or subgenres."
 
 
