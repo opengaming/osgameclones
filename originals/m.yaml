@@ -969,10 +969,20 @@
 
 - name: Missile Command
   external:
+    website: 'https://www.mobygames.com/game/9177/missile-command/'
     wikipedia: Missile Command
+  platforms:
+  - Arcade
+  - Atari
+  - Web
+  - Windows
+  - Xbox 360
   meta:
     genres:
     - Arcade
+    - Shooter
+    themes:
+    - Sci-Fi
 
 - name: Mission Asteroid
   names:
