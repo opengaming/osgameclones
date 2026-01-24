@@ -297,6 +297,7 @@ def parse_data(site):
 
     errors = []
     originals_map = {}
+    original_names = set()
 
     for item in originals:
         name = game_name(item)
@@ -304,10 +305,24 @@ def parse_data(site):
         if name in originals_map:
             errors.append({
                 "name": name,
-                "error": "Duplicate original game '%s'" % name
+                "error": f"Duplicate original game '{name}'"
             })
+        if name in original_names:
+            errors.append({
+                "name": name,
+                "error": f"Duplicate original game name or alternate name '{name}'"
+            })
+        for alt_name in item.get("names", []):
+            if alt_name in original_names:
+                errors.append({
+                    "name": name,
+                    "error": f"Duplicate original alternate name '{alt_name}'"
+                })
 
         originals_map[name] = item
+        original_names.add(name)
+        if "names" in item:
+            original_names |= set(item["names"])
 
     if len(errors) > 0:
         show_errors(errors)
