@@ -5,33 +5,79 @@
     genres:
     - Arcade
 
-- name: Quadnet
-  external:
-    website: https://www.mobygames.com/game/dos/quadnet
-  meta:
-    genres:
-    - Arcade
-
 - name: Quake
   external:
+    website: >-
+      https://web.archive.org/web/20110822232757/https://www.idsoftware.com/games/quake/quake/
     wikipedia: Quake
+  platforms:
+  - Acorn 32-bit
+  - Amiga
+  - Classic Mac OS
+  - DOS
+  - Linux
+  - N64
+  - Saturn
+  - Windows
   meta:
     genres:
     - FPS
+    themes:
+    - Fantasy
 
 - name: Quake 2
   external:
-    wikipedia: Quake 2
+    website: >-
+      https://web.archive.org/web/20110824141015/http://www.idsoftware.com/games/quake/quake2/
+    wikipedia: Quake II
+  platforms:
+  - Amiga
+  - Linux
+  - PlayStation
+  - Windows
   meta:
     genres:
     - FPS
+    themes:
+    - Sci-Fi
 
 - name: Quake 3
+  names:
+  - 'Quake III: Arena'
   external:
-    wikipedia: Quake 3
+    website: 'https://web.archive.org/web/20010301170300/http://quake3arena.com'
+    wikipedia: Quake III Arena
+  platforms:
+  - Amiga
+  - Classic Mac OS
+  - Dreamcast
+  - iOS
+  - Linux
+  - OSX
+  - PlayStation 2
+  - Windows
+  - Xbox 360
   meta:
     genres:
     - FPS
+    themes:
+    - Sci-Fi
+
+- name: Quake 4
+  external:
+    website: >-
+      https://web.archive.org/web/20061205073314/http://www.idsoftware.com/games/quake/quake4/
+    wikipedia: Quake 4
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Sci-Fi
 
 - name: 'Quest for Glory: So You Want To Be A Hero'
   names:

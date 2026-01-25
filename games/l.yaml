@@ -67,6 +67,24 @@
   - 'https://ktpanda.org/software/lab3d_sdl/images/shot03.jpeg'
   - 'https://ktpanda.org/software/lab3d_sdl/images/shot04.jpeg'
 
+- name: Lab3dGLES
+  originals:
+  - Ken's Labyrinth
+  type: remake
+  repo: 'https://github.com/Pickle/Lab3dGLES'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  - SDL
+  licenses:
+  - Custom
+  added: 2025-11-22
+  updated: 2025-11-22
+
 - name: Ladder
   info: (source inside JAR file)
   langs:
@@ -78,8 +96,9 @@
   status: playable
   type: remake
   added: 2015-05-09
-  updated: 2015-05-10
+  updated: 2025-10-30
   url: https://ostermiller.org/ladder/
+  repo: https://sourceforge.net/projects/laddergame/
   development: halted
 
 - name: ladder
@@ -97,6 +116,106 @@
   type: remake
   added: 2016-02-26
   updated: 2016-02-26
+
+- name: Lander on the Acorn Archimedes
+  originals:
+  - Zarch
+  type: remake
+  repo: 'https://github.com/markmoxon/lander-source-code-acorn-archimedes'
+  url: 'https://lander.bbcelite.com/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    Fully documented source code for the classic game Lander (a demo version of
+    Zarch) on the Acorn Archimedes.
+  added: 2026-01-10
+  updated: 2026-01-10
+  images:
+  - 'https://lander.bbcelite.com/images/general/Lander.png'
+
+- name: Landmine (1983)
+  originals:
+  - Minefield
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=56#downloads'
+  url: 'https://minesweepergame.com/database/games.php?id=56'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: >-
+    Was modified and translated into Italian in 1985 as Mine Nascote ("Hidden
+    Mines").
+  added: 2025-10-26
+  updated: 2025-10-26
+  images:
+  - https://minesweepergame.com/database/image/version/200/Landmine-VICGames-VIC20-1983-Gameplay.jpg
+  - https://minesweepergame.com/database/image/version/200/Landmine-VICGames-VIC20-1983-Lose.jpg
+  - https://minesweepergame.com/database/image/version/200/Landmine-VICGames-VIC20-1983-New.jpg
+  - https://minesweepergame.com/database/image/version/200/Landmine-VICGames-VIC20-1983-Screenshot.jpg
+  - https://minesweepergame.com/database/image/version/200/Landmine-VICGames-VIC20-1983-Won.jpg
+
+- name: Landmine (1984)
+  originals:
+  - Minefield
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=59#downloads'
+  url: 'https://minesweepergame.com/database/games.php?id=59'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: 'Based on Landmine (1983), from the book "CBM 64 Programs - Volume 1".'
+  added: 2025-10-29
+  updated: 2025-10-29
+  images:
+  - https://minesweepergame.com/database/image/version/205/Landmine-Franklin-C64-1984-Instructions.jpg
+  - https://minesweepergame.com/database/image/version/205/Landmine-Franklin-C64-1984-Level1-Gameplay.jpg
+  - https://minesweepergame.com/database/image/version/205/Landmine-Franklin-C64-1984-Level1-Lose.jpg
+  - https://minesweepergame.com/database/image/version/205/Landmine-Franklin-C64-1984-Level1-New.jpg
+
+- name: Landmines
+  originals:
+  - Minefield
+  type: clone
+  repo: >-
+    https://minesweepergame.com/database/download/version/453/Landmine-StrategySoftware-Code.pdf
+  url: 'https://minesweepergame.com/database/games.php?id=248'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: This game appears to be a simple clone of Landmine (1983).
+  added: 2025-11-02
+  updated: 2025-11-02
+  images:
+  - https://minesweepergame.com/database/image/version/453/Landmine-MZ700-Gameplay.png
+
+- name: LanGong Terminal Minesweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/langong-dev/tminesweeper'
+  feed: 'https://github.com/langong-dev/tminesweeper/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - MIT
+  added: 2025-10-15
+  updated: 2025-10-15
 
 - name: Laser Kombat
   originals:
@@ -159,6 +278,24 @@
   - 'https://laser-tank.com/images/hard-02.png'
   - 'https://laser-tank.com/images/hard-03.png'
   - 'https://laser-tank.com/images/hard-04.png'
+
+- name: Last of the Incas
+  originals:
+  - Last of the Incas
+  type: official
+  url: >-
+    https://www.erasmatazz.com/library/source-code/#:~:text=Last%20of%20the%20Incas
+  development: halted
+  status: semi-playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Unreleased Atari 8-bit game.
+  added: 2026-01-06
+  updated: 2026-01-06
+  images:
+  - https://media.invisioncic.com/r322239/monthly_01_2019/post-188-0-27924000-1547773450.png
 
 - name: LastNinja
   images:
@@ -254,6 +391,58 @@
   added: 2021-10-29
   updated: 2023-08-08
 
+- name: LBA2 Ida edition
+  originals:
+  - Little Big Adventure 2
+  type: remake
+  repo: https://github.com/innerbytes/lba2-classic-ida
+  development: sporadic
+  status: playable
+  langs:
+  - C++
+  - Assembly
+  licenses:
+  - GPL2
+  content: commercial
+  info: >-
+    Official source code of the original game's engine (not a remake). This is
+    the community-enhanced version of the repository, that is buildable and fully
+    playable on Windows.
+  added: 2026-01-05
+  updated: 2026-01-05
+  images:
+  - >-
+    https://raw.githubusercontent.com/innerbytes/lba2-classic-ida/refs/heads/main/image.png
+
+- name: LBA2 IdaJS
+  originals:
+  - Little Big Adventure 2
+  type: remake
+  repo: https://github.com/innerbytes/idajs
+  development: very active
+  status: playable
+  langs:
+  - JavaScript
+  - TypeScript
+  - C++
+  - Assembly
+  licenses:
+  - GPL2
+  content: commercial
+  info: >-
+    This is the JavaScript-powered moddable version of LBA2 Community game.
+    This is not a Web game, but classic LBA2 running on desktop with modding capabilities.
+    Allows to mod the original LBA2 game, using JavaScript/TypeScript as scripting language.
+  added: 2026-01-05
+  updated: 2026-01-05
+  images:
+  - >-
+    https://innerbytes.com/img/scene860.png
+  - >-
+    https://innerbytes.com/img/code1280.png
+  video:
+    youtube: GrzfcKwTVaM
+
 - name: LBA2 Remake
   originals:
   - Little Big Adventure 2
@@ -277,32 +466,43 @@
   - >-
     https://raw.githubusercontent.com/agrande/lba2remake/master/doc/images/screenshot_editor.jpeg
 
-- name: LBreakoutHD
+- name: Le Morte D'Arthur
   originals:
-  - Breakout
-  type: clone
-  repo: https://sourceforge.net/projects/lgames/
-  url: https://lgames.sourceforge.io/LBreakoutHD/
-  development: very active
+  - Le Morte D'Arthur
+  type: official
+  url: >-
+    https://www.erasmatazz.com/library/source-code/#:~:text=Le%20Morte%20D%E2%80%99Arthur
+  development: complete
   status: playable
-  content: open
+  content: free
+  langs:
+  - Pascal
+  licenses:
+  - As-is
+  added: 2026-01-06
+  updated: 2026-01-06
+
+- name: LEDPong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/lukdog/LedPong'
+  url: 'https://projecthub.arduino.cc/lukdog/ledpong-784fab'
+  feed: 'https://github.com/lukdog/LedPong/releases.atom'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
   langs:
   - C++
-  frameworks:
-  - SDL2
   licenses:
-  - GPL3
-  info: >-
-    LBreakoutHD is a scaleable 16:9 remake of LBreakout2. You try to clear levels
-    full of different types of bricks and extras by using your paddle to aim balls
-    at the bricks. All LBreakout2 themes and levelsets work. New themes can be of
-    any resolution.
-  added: 2019-12-02
-  updated: 2024-09-30
+  - MIT
+  info: A Pong game for Arduino UNO R4 and Plug&Make kit.
+  added: 2025-10-28
+  updated: 2025-10-28
   images:
-  - https://lgames.sourceforge.io/LBreakoutHD/ss0.jpg
-  - https://lgames.sourceforge.io/LBreakoutHD/ss1.jpg
-  - https://lgames.sourceforge.io/LBreakoutHD/ss2.jpg
+  - 'https://projects.arduinocontent.cc/9523c40f-9096-4d48-8e8a-d644439c13d2.jpg'
 
 - name: 'Legacy of Kain: Soul Reaver Decompile'
   originals:
@@ -744,6 +944,20 @@
   - https://raw.githubusercontent.com/bsoja/LegionGame/master/data/screenshots/legion-info-en.png
   - https://raw.githubusercontent.com/bsoja/LegionGame/master/data/screenshots/legion-terrain.png
 
+- name: Legionnaire
+  originals:
+  - Legionnaire
+  type: official
+  url: 'https://www.erasmatazz.com/library/source-code/#:~:text=Legionnaire'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-06
+  updated: 2026-01-06
+
 - name: Lemmings.ts
   images:
   - https://raw.githubusercontent.com/tomsoftware/Lemmings.ts/master/docu/examples/demo_01.png
@@ -800,6 +1014,21 @@
   video:
     youtube: 5cNXhgSa9AI
 
+- name: Lemonade Stand
+  originals:
+  - Lemonade Stand
+  type: official
+  url: 'http://codenautics.com/lemonade/'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: 1979 Applesoft BASIC Port.
+  added: 2026-01-17
+  updated: 2026-01-17
+
 - name: Level 0
   originals:
   - Snake II
@@ -819,6 +1048,36 @@
   updated: 2025-07-02
   images:
   - 'https://quasimal.com/images/snake_intro.png'
+
+- name: LGames
+  originals:
+  - Atomix
+  - Breakout
+  type: clone
+  repo: https://sourceforge.net/projects/lgames/
+  url: https://lgames.sourceforge.io
+  feed: https://sourceforge.net/p/lgames/activity/feed
+  development: very active
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: LGames is a collection of Linux games
+  added: 2019-12-02
+  updated: 2025-09-20
+  images:
+  - 'https://lgames.sourceforge.io/LMarbles/ss0.jpg'
+  - 'https://lgames.sourceforge.io/LMarbles/ss1.jpg'
+  - 'https://lgames.sourceforge.io/LMarbles/ss2.jpg'
+  - https://lgames.sourceforge.io/LBreakoutHD/ss0.jpg
+  - https://lgames.sourceforge.io/LBreakoutHD/ss1.jpg
+  - https://lgames.sourceforge.io/LBreakoutHD/ss2.jpg
+  video:
+    youtube: pSdXftkK7M0
 
 - name: LGeneral
   images:
@@ -860,6 +1119,40 @@
   updated: 2020-08-25
   images:
   - https://gamesnippets.wordpress.com/wp-content/uploads/2017/04/11.png
+
+- name: libmx2
+  originals:
+  - Acid Drop
+  - Asteroids
+  - Tetris
+  - Breakout
+  - Pong
+  type: clone
+  repo: 'https://github.com/lostjared/libmx2'
+  url: 'https://lostsidedead.biz/libmx2/'
+  feed: 'https://github.com/lostjared/libmx2/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - libmx2
+  - SDL2
+  - OpenGL
+  - Vulkan
+  licenses:
+  - MIT
+  info: A cross-platform library containing demo games.
+  added: 2025-12-31
+  updated: 2025-12-31
+  images:
+  - https://lostsidedead.biz/game/3DBreak/3d3.png
+  - https://lostsidedead.biz/game/MasterPiece3D/mp3d.jpg
+  - https://github.com/user-attachments/assets/1b0281a5-cacb-4cb0-8277-f997db8f696e
+  - https://github.com/user-attachments/assets/efbb3881-ba0a-483c-92db-4abba66c61d8
+  - https://github.com/user-attachments/assets/3ec78bc0-95c8-48ae-a817-23d422bae454
+  - https://github.com/user-attachments/assets/cb7b6d98-ab2f-4951-963c-7255e5df221a
 
 - name: libnpengine
   originals:
@@ -1045,6 +1338,98 @@
   - https://web.archive.org/web/20060618181843if_/http://helios.et.put.poznan.pl/~sskowron/liero/shots/miss.gif
   - https://web.archive.org/web/20060618181759if_/http://helios.et.put.poznan.pl/~sskowron/liero/shots/starb.gif
 
+- name: lifter
+  originals:
+  - Boulder Dash
+  type: clone
+  repo: 'https://hackage.haskell.org/package/lifter'
+  feed: 'https://hackage.haskell.org/package/lifter.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Haskell
+  licenses:
+  - BSD
+  added: 2025-09-12
+  updated: 2025-09-12
+
+- name: Light Cycle
+  originals:
+  - Tron
+  type: clone
+  repo: 'https://github.com/Tortured-Metaphor/LightCycle'
+  feed: 'https://github.com/Tortured-Metaphor/LightCycle/releases.atom'
+  development: very active
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - ggez
+  licenses:
+  - MIT
+  added: 2025-09-03
+  updated: 2025-09-03
+  images:
+  - https://raw.githubusercontent.com/Tortured-Metaphor/LightCycle/refs/heads/main/img/menu.png
+  - https://raw.githubusercontent.com/Tortured-Metaphor/LightCycle/refs/heads/main/img/game.png
+
+- name: Lilium Arena Classic
+  originals:
+  - Quake 3
+  type: remake
+  repo: 'https://github.com/clover-moe/lilium-arena-classic'
+  url: 'https://clover.moe/lilium-arena-classic'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-11-30
+  updated: 2025-11-30
+
+- name: Lilium Salvation
+  originals:
+  - Dark Salvation
+  type: remake
+  repo: 'https://github.com/clover-moe/lilium-salvation'
+  url: 'https://clover.moe/lilium-salvation'
+  development: sporadic
+  status: semi-playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: An engine replacement for Dark Salvation based on ioquake3.
+  added: 2025-12-11
+  updated: 2025-12-11
+
+- name: Lilium Voyager
+  originals:
+  - 'Star Trek: Voyager – Elite Force'
+  type: remake
+  repo: 'https://github.com/clover-moe/lilium-voyager'
+  url: 'https://clover.moe/lilium-voyager'
+  feed: 'https://github.com/clover-moe/lilium-voyager/releases.atom'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: 'Based on ioquake3 and ioEF.'
+  added: 2025-11-23
+  updated: 2025-11-23
+  images:
+  - 'https://clover.moe/wp-content/uploads/2018/06/shot0002.jpg'
+
 - name: Lincity
   images:
   - https://lincity.sourceforge.net/screenshots/power.png
@@ -1213,6 +1598,35 @@
   updated: 2018-01-15
   url: https://www.lixgame.com/
 
+- name: Lizard
+  originals:
+  - Lizard
+  type: official
+  repo: 'https://github.com/bbbradsmith/lizard_src_demo'
+  url: >-
+    https://rainwarrior.itch.io/lizard/devlog/52490/my-lizard-is-the-lizard-of-source
+  feed: 'https://rainwarrior.itch.io/lizard/devlog.rss'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - Assembly
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - CC-BY
+  added: 2025-12-29
+  updated: 2025-12-29
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMTExMTIxLzUxNTk5Ni5wbmc=/original/TjYH4S.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTExMTIxLzExNDEzMDkucG5n/original/7TxpAJ.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTExMTIxLzExNDEzMDcucG5n/original/dBqn%2B9.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTExMTIxLzExNDEzMDgucG5n/347x500/Q9KlSr.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTExMTIxLzUxNTk5NS5wbmc=/original/mZMueH.png'
+  video:
+    youtube: pkkBh6aN9Sg
+
 - name: Lizards
   originals:
   - Repton
@@ -1230,31 +1644,6 @@
   - GPL2
   added: 2025-08-23
   updated: 2025-08-23
-
-- name: LMarbles
-  originals:
-  - Atomix
-  type: clone
-  repo: 'https://sourceforge.net/projects/lgames/'
-  url: 'https://lgames.sourceforge.io/LMarbles/'
-  feed: 'https://sourceforge.net/p/lgames/activity/feed'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  added: 2019-12-04
-  updated: 2019-12-04
-  images:
-  - 'https://lgames.sourceforge.io/LMarbles/ss0.jpg'
-  - 'https://lgames.sourceforge.io/LMarbles/ss1.jpg'
-  - 'https://lgames.sourceforge.io/LMarbles/ss2.jpg'
-  video:
-    youtube: pSdXftkK7M0
 
 - name: Loap
   originals:
@@ -1323,6 +1712,47 @@
   url: https://mapema.hu/en/docs/hobby/lode-runner/game/
   video:
     youtube: i1yjls2AzKk
+
+- name: Loderunner
+  originals:
+  - Lode Runner
+  type: remake
+  repo: 'https://github.com/Piddewitt/Loderunner'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-10-22
+  updated: 2025-10-22
+
+- name: The Lord of the Rings game engine
+  originals:
+  - "J.R.R. Tolkien's The Lord of the Rings, Vol. I"
+  - "J.R.R. Tolkien's The Lord of the Rings, Vol. II: The Two Towers"
+  type: remake
+  url: 'https://www.wonderland.cz/lotr/'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - LGPL2
+  added: 2025-12-09
+  updated: 2025-12-09
+  images:
+  - 'https://media.wonderland.cz/stockphoto/2008/11/16/lotr.png'
+  - 'https://media.wonderland.cz/stockphoto/2008/11/16/lotr1.png'
+  - 'https://media.wonderland.cz/stockphoto/2008/11/16/lotr2.png'
+  - 'https://media.wonderland.cz/stockphoto/2008/11/16/holes.png'
+  - 'https://media.wonderland.cz/stockphoto/2008/11/16/isildur.png'
+  - 'https://media.wonderland.cz/stockphoto/2008/11/16/Screenshot-4.png'
+  - 'https://media.wonderland.cz/stockphoto/2008/11/16/blackrider.png'
 
 - name: LordsAWar!
   originals:
@@ -1482,6 +1912,28 @@
   type: remake
   added: 2015-05-28
   updated: 2020-08-31
+
+- name: LuckySweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://gitlab.com/xenonca/luckysweeper'
+  url: 'https://content.luanti.org/packages/xenonca/luckysweeper/'
+  feed: 'https://content.luanti.org/packages/xenonca/luckysweeper/releases_feed.atom'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - Lua
+  frameworks:
+  - Luanti
+  licenses:
+  - CC-BY-SA
+  - LGPL2
+  added: 2025-11-06
+  updated: 2025-11-06
+  images:
+  - https://content.luanti.org/uploads/1aa559039d.png
 
 - name: Lucy the Diamond Girl
   originals:
@@ -1673,6 +2125,60 @@
   updated: '2025-07-02'
   images:
   - 'https://os4depot.net/filedata/snapshot/996_1_snap.png'
+
+- name: Livewire
+  originals:
+  - Livewire
+  type: remake
+  repo: 'https://github.com/scttgs0/Livewire'
+  feed: 'https://github.com/scttgs0/Livewire/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - Assembly
+  licenses:
+  - PD
+  added: 2025-11-11
+  updated: 2025-11-11
+
+- name: LuxMan
+  originals:
+  - Pac-Man
+  type: clone
+  repo: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/#:~:text=luxman
+  url: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/luxman-0.41.lsm
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-10-26
+  updated: 2025-10-26
+
+- name: LX' Arduino Tetris
+  originals:
+  - Tetris
+  type: clone
+  repo: 'https://github.com/RomanSixty/arduino-tetris'
+  url: 'https://projecthub.arduino.cc/RomanSixty/lx-arduino-tetris-708606'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: A Tetris game for Arduino Uno and a 32x32 LED matrix panel.
+  added: 2025-12-01
+  updated: 2025-12-01
+  video:
+    youtube: rai_6IEXC00
 
 - name: LZWolf
   originals:

@@ -42,6 +42,26 @@
   video:
     youtube: 5mLDugjh0Ro
 
+- name: Zap 'Em
+  originals:
+  - Space Invaders
+  type: clone
+  repo: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/invaders/#:~:text=zapem
+  url: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/invaders/zapem-0.2.lsm
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-10-06
+  updated: 2025-10-06
+
 - name: Zatacka X
   frameworks:
   - SDL
@@ -399,6 +419,32 @@
   url: https://zsilencer.com
   video:
     youtube: Tm3vrEoI1Ew
+
+- name: ZX Master Mind
+  originals:
+  - Mastermind
+  type: clone
+  repo: 'https://github.com/RobertoZaffa/ZX-Master-Mind/'
+  url: 'https://spectrumcomputing.co.uk/entry/35690/ZX-Spectrum/ZX_Mastermind'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  - BASIC
+  licenses:
+  - As-is
+  added: 2025-12-20
+  updated: 2025-12-20
+  images:
+  - https://mastermind.altervista.org/wp-content/uploads/2021/07/image-8.png
+  - https://mastermind.altervista.org/wp-content/uploads/2021/07/image-9.png
+  - https://mastermind.altervista.org/wp-content/uploads/2021/07/image-10-960x328.png
+  - https://mastermind.altervista.org/wp-content/uploads/2021/07/image-11.png
+  - https://mastermind.altervista.org/wp-content/uploads/2021/07/image-15.png
+  - https://mastermind.altervista.org/wp-content/uploads/2021/07/image-16.png
+  video:
+    youtube: FsDYQE4KUho
 
 - name: zztgo
   type: remake

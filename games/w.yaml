@@ -37,6 +37,25 @@
   images:
   - https://gitlab.com/mohofobodaktyl/mwalic/-/raw/master/Img/game.png
 
+- name: The Wall
+  originals:
+  - Tetris
+  type: clone
+  url: >-
+    https://web.archive.org/web/20090221032744/http://dwarfcity.co.uk/games/thewall.php
+  development: halted
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2025-11-21
+  updated: 2025-11-21
+  images:
+  - https://web.archive.org/web/20070919142855if_/http://dwarfcity.co.uk/images/TheWall_ScreenShot_Main.jpg
+  - https://web.archive.org/web/20070919142926if_/http://dwarfcity.co.uk/images/TheWall_ScreenShot_GameOver.jpg
+  - https://web.archive.org/web/20070919142907if_/http://dwarfcity.co.uk/images/TheWall_ScreenShot_HighScore.jpg
+
 - name: WallBall
   originals:
   - JezzBall
@@ -60,6 +79,45 @@
   video:
     youtube: n9ALgxcTBU0
 
+- name: wanderer
+  originals:
+  - Project Nomads
+  type: remake
+  repo: 'https://github.com/vinceh121/wanderer'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - Java
+  frameworks:
+  - libGDX
+  licenses:
+  - AGPL3
+  added: 2025-12-12
+  updated: 2025-12-12
+  images:
+  - 'https://i.vinceh121.me/oKcZBvsC.png'
+
+- name: Wanderer
+  originals:
+  - Boulder Dash
+  type: clone
+  repo: 'https://github.com/sshipway/wanderer'
+  url: 'https://www.steveshipway.org/software/wanderer/f_wanderer.html'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-09-17
+  updated: 2025-09-17
+  images:
+  - 'https://www.e271.net/~marina/wanderer.jpg'
+  - 'https://www.e271.net/~marina/wanderer-screen1-unmap.jpg'
+  - 'https://www.e271.net/~marina/wanderer-screen2.jpg'
+
 - name: WangGDX
   originals:
   - Shadow Warrior
@@ -80,6 +138,32 @@
   updated: 2025-08-02
   video:
     youtube: IaAUGs_3JJA
+
+- name: War Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://sourceforge.net/projects/warpong/'
+  url: 'https://warpong.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/warpong/news/feed.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  - BlitzBasic
+  licenses:
+  - GPL2
+  info: >-
+    The repository contains two games: War Pong HD (written in C++) and its
+    predecessor War Pong (written in Blitz BASIC).
+  added: 2025-11-01
+  updated: 2025-11-01
+  images:
+  - 'https://a.fsdn.com/con/app/proj/warpong/screenshots/95306.jpg'
+  - 'https://a.fsdn.com/con/app/proj/warpong/screenshots/122960.jpg'
+  - 'https://a.fsdn.com/con/app/proj/warpong/screenshots/96268.jpg'
+  - 'https://a.fsdn.com/con/app/proj/warpong/screenshots/93229.jpg'
 
 - name: War Thunder
   originals:
@@ -105,6 +189,25 @@
   images:
   - >-
     https://uploads.golmedia.net/uploads/articles/article_media/9368082791698855425gol1.jpg
+
+- name: War Worlds
+  originals:
+  - War Worlds
+  type: official
+  repo: 'https://github.com/codeka/wwmmo'
+  url: 'https://www.war-worlds.com/blog/2014/08/war-worlds-is-shutting-down'
+  feed: 'https://github.com/codeka/wwmmo/releases.atom'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  content: free
+  langs:
+  - Kotlin
+  licenses:
+  - Custom
+  added: 2025-11-23
+  updated: 2025-11-23
 
 - name: War1
   originals:
@@ -213,14 +316,15 @@
   langs:
   - Java
   licenses:
-  - MIT
+  - AGPL3
   content: commercial
-  development: active
+  development: sporadic
   originals:
   - Warcraft III
   repo: https://github.com/Retera/WarsmashModEngine
   type: remake
-  updated: 2023-01-16
+  updated: 2025-11-05
+  added: 2023-01-29
   url: https://www.hiveworkshop.com/threads/overview-and-setup.331776/
   info: This project attempts to be an open source remake of the game program portion of the Warcraft III game.
   video:
@@ -291,6 +395,28 @@
   type: remake
   url: https://wz2100.net/
   updated: 2023-01-17
+
+- name: wasm-terminal-2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/ryanpig/wasm_terminal_2048'
+  url: 'https://crates.io/crates/wasm_terminal_2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  - JavaScript
+  licenses:
+  - MIT
+  info: >-
+    2048 webassembly implementation in Rust that can be run on browser or command
+    line terminal.
+  added: 2025-10-31
+  updated: 2025-10-31
+  images:
+  - https://raw.githubusercontent.com/ryanpig/wasm_terminal_2048/main/screenshots/cli-demo.gif
+  - https://raw.githubusercontent.com/ryanpig/wasm_terminal_2048/main/screenshots/wasm-demo.gif
 
 - name: WAtomic
   frameworks:
@@ -425,6 +551,25 @@
   url: https://www.widelands.org
   updated: 2024-04-29
 
+- name: 'Will Fight for Food: Super Actual Sellout: Game of the Hour'
+  originals:
+  - 'Will Fight for Food: Super Actual Sellout: Game of the Hour'
+  type: official
+  repo: 'https://github.com/arvindrajayadav/Will-Fight-for-Food--SAS--GOTH'
+  url: https://pyrodactyl.com/2020/08/04/11-years-of-pyrodactyl/#:~:text=Will%20Fight%20for%20Food:%20SAS:%20GOTH
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - SDL
+  licenses:
+  - MIT
+  added: 2025-12-27
+  updated: 2026-01-09
+
 - name: Willow-Game-Remake
   langs:
   - C++
@@ -438,6 +583,29 @@
   type: remake
   updated: 2015-06-28
   info: Remake of the first level 1989 arcade game Willow, written in a 2D game engine in C++.
+
+- name: Willy the Worm
+  originals:
+  - Willy the Worm
+  type: remake
+  repo: 'https://github.com/jasonbrianhall/willytheworm'
+  feed: 'https://github.com/jasonbrianhall/willytheworm/releases.atom'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - C++
+  - Python
+  frameworks:
+  - SDL2
+  - Qt
+  licenses:
+  - MIT
+  added: 2025-12-03
+  updated: 2025-12-03
+  images:
+  - https://raw.githubusercontent.com/jasonbrianhall/willytheworm/main/images/intro.png
+  - https://raw.githubusercontent.com/jasonbrianhall/willytheworm/main/images/level1.png
 
 - name: Wind Waker Randomizer
   originals:
@@ -459,6 +627,31 @@
   updated: '2019-11-08'
   video:
     youtube: UuEI8h8a0zs
+
+- name: WING
+  originals:
+  - Galaga
+  type: clone
+  repo: 'https://sourceforge.net/projects/wing/'
+  url: 'https://wing.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/wing/news/feed.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  info: WING (Wing Is Not Galaga) is a take off on the arcade classic Galaga.
+  added: 2025-12-18
+  updated: 2025-12-18
+  images:
+  - 'https://wing.sourceforge.net/g/menu01.gif'
+  - 'https://wing.sourceforge.net/g/menu02.gif'
+  - 'https://wing.sourceforge.net/g/shoot01.gif'
+  - 'https://wing.sourceforge.net/g/shoot02.gif'
+  - 'https://wing.sourceforge.net/g/shoot03.gif'
+  - 'https://wing.sourceforge.net/g/shoot04.gif'
 
 - name: Winter Jumper
   originals:
@@ -586,6 +779,20 @@
   video:
     youtube: GSZscLjNujo
 
+- name: Wizard
+  originals:
+  - Wizard
+  type: official
+  url: 'https://www.erasmatazz.com/library/source-code/#:~:text=Wizard'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-06
+  updated: 2026-01-06
+
 - name: Wizardry Legacy
   langs:
   - C++
@@ -657,6 +864,52 @@
   video:
     youtube: WBQn7A8Gpwg
 
+- name: Wolf3D S60
+  originals:
+  - Spear of Destiny
+  - Wolfenstein 3D
+  type: remake
+  repo: 'https://sourceforge.net/projects/wolf3d-s60/'
+  url: 'https://wolf3d-s60.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/wolf3d-s60/rss?path=/'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: Port of Wolfenstein 3D & Spear of Destiny for S60 cellphones.
+  added: 2026-01-16
+  updated: 2026-01-16
+  images:
+  - 'https://a.fsdn.com/con/app/proj/wolf3d-s60/screenshots/45468.jpg'
+  - 'https://a.fsdn.com/con/app/proj/wolf3d-s60/screenshots/45466.jpg'
+  - 'https://a.fsdn.com/con/app/proj/wolf3d-s60/screenshots/45458.jpg'
+  - 'https://a.fsdn.com/con/app/proj/wolf3d-s60/screenshots/45464.jpg'
+  - 'https://a.fsdn.com/con/app/proj/wolf3d-s60/screenshots/45456.jpg'
+  - 'https://a.fsdn.com/con/app/proj/wolf3d-s60/screenshots/45460.jpg'
+  - 'https://wolf3d-s60.sourceforge.net/wolfboss.jpg'
+  - 'https://wolf3d-s60.sourceforge.net/spearboss.jpg'
+
+- name: wolf3d-browser
+  originals:
+  - Spear of Destiny
+  - Wolfenstein 3D
+  type: official
+  repo: 'https://github.com/id-Software/wolf3d-browser'
+  url: >-
+    https://www.pcmag.com/archive/free-browser-based-wolfenstein-3d-released-by-bethesda-297681
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - JavaScript
+  licenses:
+  - GPL2
+  added: 2026-01-01
+  updated: 2026-01-01
+
 - name: Wolf3dX
   originals:
   - Wolfenstein 3D
@@ -678,6 +931,24 @@
   updated: 2024-05-01
   images:
   - https://github.com/francot514/Wolf3dX/raw/master/image1.png
+
+- name: Wolf3D-iOS
+  originals:
+  - Wolfenstein 3D
+  - Spear of Destiny
+  type: official
+  repo: 'https://github.com/id-Software/Wolf3D-iOS'
+  url: >-
+    https://www.engadget.com/2009-03-24-carmack-releases-open-source-wolfenstein-for-iphone.html
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-12-27
+  updated: 2026-01-01
 
 - name: Wolf4SDL
   originals:
@@ -702,6 +973,134 @@
   video:
     youtube: xkIEjgUm57o
 
+- name: Wolfenstein 3-D Redux
+  originals:
+  - Spear of Destiny
+  - Wolfenstein 3D
+  type: remake
+  repo: 'https://sourceforge.net/projects/wolf3dredux/'
+  url: 'https://wolf3dredux.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/wolf3dredux/news/feed.rss'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2026-01-06
+  updated: 2026-01-06
+  images:
+  - 'https://a.fsdn.com/con/app/proj/wolf3dredux/screenshots/5062.jpg'
+  - 'https://a.fsdn.com/con/app/proj/wolf3dredux/screenshots/5058.jpg'
+  - 'https://a.fsdn.com/con/app/proj/wolf3dredux/screenshots/5064.jpg'
+  - 'https://a.fsdn.com/con/app/proj/wolf3dredux/screenshots/5060.jpg'
+  - 'https://wolf3dredux.sourceforge.net/sol10sparc64l.png'
+  - 'https://wolf3dredux.sourceforge.net/01.png'
+  - 'https://wolf3dredux.sourceforge.net/02.png'
+
+- name: Wolfenstein 3D
+  originals:
+  - Wolfenstein 3D
+  - Spear of Destiny
+  type: official
+  repo: 'https://github.com/id-Software/wolf3d'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - Wolfenstein 3D
+  licenses:
+  - Custom
+  added: 2025-12-16
+  updated: 2025-12-16
+
+- name: Wolfenstein 3D Wii
+  originals:
+  - Wolfenstein 3D
+  type: remake
+  repo: 'https://sourceforge.net/projects/wolfenstein3dwi/'
+  feed: 'https://sourceforge.net/p/wolfenstein3dwi/news/feed.rss'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  info: Based on Wolf4SDL.
+  added: 2026-01-13
+  updated: 2026-01-13
+
+- name: 'Wolfenstein: Enemy Territory'
+  originals:
+  - 'Wolfenstein: Enemy Territory'
+  type: official
+  repo: 'https://github.com/id-Software/Enemy-Territory'
+  url: >-
+    https://www.splashdamage.com/news/wolfenstein-enemy-territory-goes-open-source/
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - id Tech 3
+  licenses:
+  - GPL3
+  added: 2025-11-29
+  updated: 2025-11-29
+
+- name: WolfGL
+  originals:
+  - Spear of Destiny
+  - Wolfenstein 3D
+  type: remake
+  repo: 'https://sourceforge.net/projects/wolfgl/'
+  url: 'https://wolfgl.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/wolfgl/code/feed/'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2026-01-20
+  updated: 2026-01-20
+  images:
+  - 'https://wolfgl.sourceforge.net/wolfgl.gif'
+
+- name: Woof!
+  originals:
+  - Doom
+  type: remake
+  repo: 'https://github.com/fabiangreffrath/woof'
+  feed: 'https://github.com/fabiangreffrath/woof/releases.atom'
+  development: very active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - OpenAL
+  licenses:
+  - GPL2
+  info: Woof! is a continuation of the Boom/MBF bloodline of Doom source ports.
+  added: 2025-10-08
+  updated: 2025-10-08
+
 - name: Word War vi
   originals:
   - Defender
@@ -725,6 +1124,285 @@
   video:
     youtube: 9VaW2NVxpVg
 
+- name: Word Whiz
+  originals:
+  - Word Whiz
+  type: official
+  url: >-
+    https://web.archive.org/web/20250404124834/https://legacy.3drealms.com/downloads.html#wordwhiz
+  development: complete
+  status: playable
+  langs:
+  - Pascal
+  licenses:
+  - GPL2
+  content: free
+  added: 2026-01-18
+  updated: 2026-01-18
+
+- name: Wordel
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/progfolio/wordel'
+  development: sporadic
+  status: playable
+  langs:
+  - Emacs Lisp
+  frameworks:
+  - Emacs
+  licenses:
+  - AGPL3
+  added: 2025-09-25
+  updated: 2025-09-25
+  images:
+  - 'https://raw.githubusercontent.com/progfolio/wordel/main/demo.gif'
+
+- name: wordl
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/palerdot/wordl-rs'
+  url: 'https://crates.io/crates/wordl'
+  feed: 'https://github.com/palerdot/wordl-rs/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-09-14
+  updated: 2025-09-14
+  images:
+  - 'https://raw.githubusercontent.com/palerdot/wordl-rs/master/wordl.gif'
+
+- name: wordle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://docs.rs/crate/wordle/'
+  url: 'https://crates.io/crates/wordle'
+  development: complete
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-01
+  updated: 2025-10-01
+
+- name: wordle (Haskell)
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/ivanjermakov/wordle'
+  feed: 'https://github.com/ivanjermakov/wordle/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - brick
+  licenses:
+  - MIT
+  added: 2025-11-16
+  updated: 2025-11-16
+  images:
+  - https://user-images.githubusercontent.com/26609879/152110207-aeae6bc7-4770-4ee5-beb0-b325e370394e.gif
+
+- name: Wordle CLI
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/nimblebun/wordle-cli'
+  feed: 'https://github.com/nimblebun/wordle-cli/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Go
+  licenses:
+  - MIT
+  added: 2025-09-09
+  updated: 2025-09-09
+  images:
+  - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/1.png
+  - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/2.png
+  - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/3.png
+
+- name: Wordle PyCLI Game
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/Qazalbash/wordle-pycli'
+  url: 'https://pypi.org/project/wordle-pycli/'
+  feed: 'https://pypi.org/rss/project/wordle-pycli/releases.xml'
+  development: halted
+  status: playable
+  langs:
+  - Python
+  licenses:
+  - MIT
+  added: 2025-10-15
+  updated: 2025-10-15
+  images:
+  - 'https://raw.githubusercontent.com/Qazalbash/wordle-pycli/main/screenshot.png'
+
+- name: wordle-cli
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://git.hanabi.in/wordle-cli/'
+  feed: 'https://git.hanabi.in/wordle-cli/atom.xml'
+  development: complete
+  status: playable
+  langs:
+  - Go
+  licenses:
+  - AGPL3
+  added: 2025-10-30
+  updated: 2025-10-30
+
+- name: wordle-rust
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/notken12/wordle-rust/'
+  url: 'https://crates.io/crates/wordle-rust'
+  feed: 'https://github.com/notken12/wordle-rust/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-04
+  updated: 2025-10-04
+
+- name: WordleClone
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/marshblocker/wordle_clone'
+  url: 'https://crates.io/crates/wordle_clone'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - https://raw.githubusercontent.com/marshblocker/wordle_clone/main/src/images/start.png
+  - https://raw.githubusercontent.com/marshblocker/wordle_clone/main/src/images/during.png
+
+- name: wordlemini
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/tomasvana10/wordlemini'
+  url: 'https://pypi.org/project/wordlemini/'
+  feed: 'https://pypi.org/rss/project/wordlemini/releases.xml'
+  development: halted
+  status: playable
+  langs:
+  - Python
+  frameworks:
+  - Textual
+  licenses:
+  - MIT
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - https://raw.githubusercontent.com/tomasvana10/wordlemini/main/wordlemini/assets/images/stats.png
+  - https://raw.githubusercontent.com/tomasvana10/wordlemini/main/wordlemini/assets/images/banner.png
+
+- name: wordler
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/64bit/wordle-rs'
+  url: 'https://crates.io/crates/wordler'
+  feed: 'https://github.com/64bit/wordle-rs/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  info: 'A Rust library and cli for Wordle, inspired by Wordle in Bash.'
+  added: 2025-09-22
+  updated: 2025-09-22
+  images:
+  - https://raw.githubusercontent.com/64bit/wordle-rs/refs/heads/main/play-demo.gif
+
+- name: Wordlet
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/sammylupt/wordlet'
+  url: 'https://crates.io/crates/wordlet'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - WTFPL
+  added: 2025-10-28
+  updated: 2025-10-28
+  images:
+  - https://user-images.githubusercontent.com/3178471/150548930-9dab1e11-2997-48da-af33-6e3386017a50.gif
+
+- name: World in Conflict Massgate
+  originals:
+  - World in Conflict
+  type: tool
+  repo: 'https://github.com/ubisoft/massgate'
+  url: >-
+    https://www.pcgamesn.com/world-in-conflict/world-in-conflict-open-source-multiplayer
+  development: complete
+  status: N/A
+  multiplayer:
+  - Online
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  info: >-
+    The online backend server for the Massive Entertainment game World in
+    Conflict.
+  added: 2025-12-15
+  updated: 2025-12-15
+
+- name: World Train Royale
+  originals:
+  - World Train Royale
+  type: official
+  repo: 'https://sourceforge.net/projects/trainroyale/'
+  url: >-
+    https://web.archive.org/web/20160215220211/http://versus-software.com/blog/world-train-royale-is-free-as-in-beer-and-speech/
+  feed: 'https://sourceforge.net/p/trainroyale/code/feed/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  - OpenGL
+  licenses:
+  - As-is
+  added: 2025-11-29
+  updated: 2025-11-29
+  images:
+  - 'https://a.fsdn.com/con/app/proj/trainroyale/screenshots/310167.jpg'
+  - 'https://a.fsdn.com/con/app/proj/trainroyale/screenshots/310169.jpg'
+  - 'https://a.fsdn.com/con/app/proj/trainroyale/screenshots/310161.jpg'
+  - 'https://a.fsdn.com/con/app/proj/trainroyale/screenshots/310159.jpg'
+  - 'https://a.fsdn.com/con/app/proj/trainroyale/screenshots/310171.jpg'
+  - 'https://a.fsdn.com/con/app/proj/trainroyale/screenshots/310165.jpg'
+
 - name: Worm Wars
   originals:
   - Tron
@@ -743,6 +1421,33 @@
   images:
   - 'https://amigan.1emu.net/releases/wwi-big.png'
   - 'https://amigan.1emu.net/releases/wwd-big.png'
+
+- name: Wörms of Prey
+  originals:
+  - Liero
+  type: clone
+  repo: https://sourceforge.net/projects/wop/
+  url: 'https://web.archive.org/web/20141218154118/http://wormsofprey.org/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-19
+  updated: 2025-10-19
+  images:
+  - https://web.archive.org/web/20070623194513if_/http://wormsofprey.org/screenshots/homing_missile.png
+  - https://web.archive.org/web/20070623194420if_/http://wormsofprey.org/screenshots/skwoerm_time_2.png
+  - https://web.archive.org/web/20070623194458if_/http://wormsofprey.org/screenshots/skwoermtime.png
+  - https://web.archive.org/web/20070623194409if_/http://wormsofprey.org/screenshots/sky.png
+  - https://web.archive.org/web/20070623194524if_/http://wormsofprey.org/screenshots/stationary_gun.png
 
 - name: WWW
   langs:

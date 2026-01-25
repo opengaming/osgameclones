@@ -1,3 +1,17 @@
+- name: I-War
+  external:
+    website: 'https://www.mobygames.com/game/6855/i-war/'
+    wikipedia: I-War (1995 video game)
+  platforms:
+  - Jaguar
+  meta:
+    genres:
+    - Shooter
+    subgenres:
+    - Vehicular Combat
+    themes:
+    - Sci-Fi
+
 - name: I Have No Mouth, and I Must Scream
   names:
   - 'Harlan Ellison: I Have No Mouth, and I Must Scream'
@@ -21,6 +35,29 @@
   - Linux
   - OSX
   - Windows
+
+- name: Icebreaker
+  external:
+    website: 'https://www.wunderland.com/WTS/Andy/Icebreaker/Icebreaker.html'
+    wikipedia: Icebreaker (video game)
+  platforms:
+  - 3DO
+  - Classic Mac OS
+  - Windows
+  meta:
+    genres:
+    - Action
+    - Strategy
+
+- name: Icebreaker 2
+  external:
+    website: 'https://www.igdb.com/games/icebreaker-2'
+  platforms:
+  - 3DO
+  meta:
+    genres:
+    - Puzzle
+    - Strategy
 
 - name: Icewind Dale
   names:
@@ -57,6 +94,7 @@
   names:
   - Assassinators
   external:
+    website: http://web.archive.org/web/19980209054227/http://www.softdisk.com/comp/mss/greed.html
     wikipedia: In Pursuit of Greed
   platforms:
   - DOS
@@ -66,41 +104,19 @@
     themes:
     - Sci-Fi
 
+- name: Indy 500
+  external:
+    website: 'https://www.mobygames.com/game/11710/indy-500/'
+    wikipedia: Indy 500 (1977 video game)
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Racing
+
 - name: The Incredible Machine
   external:
     wikipedia: The_Incredible_Machine_(video_game)
-  meta:
-    genres:
-    - Puzzle
-    - Simulation
-
-- name: The Incredible Machine 2
-  external:
-    wikipedia: The Incredible Machine 2
-  meta:
-    genres:
-    - Puzzle
-    - Simulation
-
-- name: The Incredible Machine 3
-  external:
-    wikipedia: The Incredible Machine 3
-  meta:
-    genres:
-    - Puzzle
-    - Simulation
-
-- name: 'The Incredible Machine: Even More Contraptions'
-  external:
-    wikipedia: 'The Incredible Machine: Even More Contraptions'
-  meta:
-    genres:
-    - Puzzle
-    - Simulation
-
-- name: Incredible Toons
-  external:
-    wikipedia: Sid & Al's Incredible Toons
   meta:
     genres:
     - Puzzle
@@ -200,6 +216,7 @@
 
 - name: Ironseed
   external:
+    website: http://ironseed.net/
     wikipedia: Ironseed
   platforms:
   - DOS

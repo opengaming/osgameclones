@@ -1,3 +1,64 @@
+- name: Kaboom! Disassembly
+  originals:
+  - Kaboom!
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/kaboom.asm'
+  url: 'https://www.romhacking.net/documents/512/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-04
+  updated: 2025-11-04
+
+- name: Kaiser II
+  originals:
+  - Kaiser II
+  type: official
+  repo: 'https://kaiser2.strotmann.de/#org6e5c563'
+  url: >-
+    https://web.archive.org/web/20171027231602/http://www.abbuc.de/news-feeds-component/608-608
+  development: complete
+  status: playable
+  multiplayer:
+  - Hotseat
+  content: open
+  langs:
+  - BASIC
+  licenses:
+  - GPL2
+  added: 2026-01-10
+  updated: 2026-01-10
+  images:
+  - https://kaiser2.strotmann.de/img/kaiserpic1.png
+  - https://kaiser2.strotmann.de/img/kaiserpic2.png
+  - https://kaiser2.strotmann.de/img/kaiserpic3.png
+  - https://kaiser2.strotmann.de/img/kaiserpic4.png
+  - https://kaiser2.strotmann.de/img/kaiserpic6.png
+  - https://kaiser2.strotmann.de/img/kaiserpic7.png
+
+- name: Kaiser von Deutschland
+  originals:
+  - Kaiser
+  type: clone
+  repo: 'https://github.com/Thomas-Heisig/Kaiser_von_Deutschland'
+  development: active
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - TypeScript
+  frameworks:
+  - PixiJS
+  licenses:
+  - MIT
+  added: 2026-01-15
+  updated: 2026-01-15
+
 - name: Kajaani Kombat
   originals:
   - Rampart
@@ -56,6 +117,30 @@
   feed: https://www.kamremake.com/feed/
   video:
     youtube: cjBwh0LLUFk
+
+- name: Kamikaze
+  originals:
+  - Bomberman
+  type: clone
+  url: 'http://kamikaze.coolprojects.org/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL2
+  added: 2025-11-09
+  updated: 2025-11-09
+  images:
+  - https://web.archive.org/web/20160319012336if_/http://kamikaze.coolprojects.org/shots/splash.png
+  - https://web.archive.org/web/20160318230752if_/http://kamikaze.coolprojects.org/shots/levels.png
+  - https://web.archive.org/web/20160318211944if_/http://kamikaze.coolprojects.org/shots/theme-dyna.png
+  - https://web.archive.org/web/20160319025440if_/http://kamikaze.coolprojects.org/shots/theme-desert.png
 
 - name: Kapman
   originals:
@@ -217,7 +302,105 @@
   - 'https://keeperfx.net/screenshots/keeperfx-shift-room-creation.png'
   video:
     youtube: JwDdLynZPag
-  
+
+- name: Ken's Labyrinth
+  originals:
+  - Ken's Labyrinth
+  type: official
+  repo: 'https://advsys.net/ken/klab.htm?#labflsrc'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2025-11-17
+  updated: 2025-11-17
+  images:
+  - https://advsys.net/ken/klab/klabcap0.png
+  - https://advsys.net/ken/klab/klabcap1.png
+  - https://advsys.net/ken/klab/klabcap2.png
+  - https://advsys.net/ken/klab/klabcap3.png
+
+- name: Ken's Labyrinth enhanced port for Nintendo Switch
+  originals:
+  - Ken's Labyrinth
+  type: remake
+  repo: 'https://github.com/sacredbanana/lab3d-sdl'
+  url: >-
+    https://gbatemp.net/threads/kens-labyrinth-enhanced-port-for-nintendo-switch.529434/
+  feed: 'https://github.com/sacredbanana/lab3d-sdl/releases.atom'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - Custom
+  added: 2025-11-23
+  updated: 2025-11-23
+  images:
+  - 'https://gbatemp.net/attachments/screen-png.155701/'
+
+- name: Ken's Labyrinth port for Android OS
+  originals:
+  - Ken's Labyrinth
+  type: remake
+  repo: 'https://github.com/EXL/KenLab3d'
+  url: 'https://exlmoto.ru/kenlab3d-droid/'
+  feed: 'https://github.com/EXL/KenLab3d/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - MIT
+  added: 2025-11-20
+  updated: 2025-11-20
+  images:
+  - https://raw.githubusercontent.com/EXL/KenLab3d/master/images/Ken_motorola_droid_4.jpg
+  - https://raw.githubusercontent.com/EXL/KenLab3d/master/images/Ken_android_screen.jpg
+  - https://exlmoto.ru/wp-content/Images/KENLAB/S2_l.png
+  - https://exlmoto.ru/wp-content/Images/KENLAB/S7_l.png
+  - https://exlmoto.ru/wp-content/Images/KENLAB/S11_l.png
+  - https://exlmoto.ru/wp-content/Images/KENLAB/S8_l.png
+  - https://exlmoto.ru/wp-content/Images/KENLAB/S9_l.png
+  video:
+    youtube: vnNax1uNLfo
+
+- name: Kentris
+  originals:
+  - Kentris
+  type: official
+  repo: 'https://www.classicdosgames.com/game/Kentris.html'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Split-screen
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: The game was updated to v4.3 in 2005 and released its source code.
+  added: 2026-01-01
+  updated: 2026-01-01
+  images:
+  - 'https://advsys.net/ken/kentris.png'
+  - 'https://www.classicdosgames.com/images/screenshots/cga06/Kentris.png'
+  - 'https://www.classicdosgames.com/images/screenshots/ega10/Kentris.png'
+  - 'https://www.classicdosgames.com/images/screenshots/vga12/Kentris.png'
+  - 'https://www.classicdosgames.com/images/screenshots/et400038/Kentris.png'
+
 - name: KevEdit
   type: tool
   status: N/A
@@ -243,6 +426,28 @@
   - https://cloud.githubusercontent.com/assets/4196901/22183132/b5142208-e084-11e6-8ab1-568d217391ec.gif
   - https://cloud.githubusercontent.com/assets/4196901/22183133/b51426b8-e084-11e6-8ce7-e01b7d6a06ed.gif
   - https://cloud.githubusercontent.com/assets/4196901/22183136/b516dd4a-e084-11e6-8e9b-30201734480a.gif
+
+- name: KFoulEggs
+  originals:
+  - Puyo Puyo Series
+  type: clone
+  repo: >-
+    https://web.archive.org/web/20140813201357/http://sourceforge.net/projects/kfouleggs/
+  url: 'https://web.archive.org/web/20100303052405/http://kfouleggs.sourceforge.net/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  added: 2025-10-30
+  updated: 2025-10-30
+  images:
+  - https://web.archive.org/web/20060816051246if_/http://kfouleggs.sourceforge.net/images/screenshot_0.png
 
 - name: KGoldrunner
   frameworks:
@@ -307,6 +512,46 @@
   - 'https://kiki.sourceforge.net/screenshots/kiki_009.jpg'
   - 'https://kiki.sourceforge.net/screenshots/kiki_010.jpg'
 
+- name: Kiloblaster (SDL)
+  originals:
+  - Kiloblaster
+  type: remake
+  repo: 'https://github.com/Malvineous/kiloblaster'
+  url: https://repo.openpandora.org/?page=detail&app=kiloblaster_ptitseb
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  added: 2025-12-30
+  updated: 2025-12-30
+  images:
+  - https://repo.openpandora.org/files/pnd/kiloblaster_ptitseb/preview1.png
+  - https://repo.openpandora.org/files/pnd/kiloblaster_ptitseb/preview2.png
+  - https://repo.openpandora.org/files/pnd/kiloblaster_ptitseb/preview3.png
+
+- name: Kiloblaster
+  originals:
+  - Kiloblaster
+  type: official
+  url: 'https://www.classicdosgames.com/game/Kiloblaster.html'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2025-11-27
+  updated: 2025-11-27
+  images:
+  - 'https://www.classicdosgames.com/images/screenshots/ega0d/Kiloblaster.png'
+  - 'https://www.classicdosgames.com/images/screenshots/vga13/Kiloblaster.png'
+
 - name: King of the Hill
   originals:
   - Scorched Earth
@@ -361,6 +606,25 @@
   - >-
     https://cdn.mobygames.com/promos/5862012-king-under-the-mountain-screenshot.jpg
 
+- name: Kingpin SDK
+  originals:
+  - 'Kingpin: Life of Crime'
+  type: official
+  repo: 'https://github.com/QuakeTools/Kingpin-SDK-v1.21'
+  url: 'https://download.kingpin.info/index.php?dir=kingpin/server/official/sdk/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Kingpin SDK with game source code.
+  added: 2025-11-16
+  updated: 2025-11-16
+
 - name: KittenMaxit
   langs:
   - Java
@@ -397,6 +661,48 @@
   images:
   - 'https://images.pling.com/img/00/00/07/66/37/1109433/133048-1.png'
   - 'https://images.pling.com/img/00/00/07/66/37/1109433/133048-2.png'
+
+- name: KLines2
+  originals:
+  - Lines
+  type: clone
+  repo: 'https://sourceforge.net/projects/klines2/'
+  url: 'https://klines2.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/klines2/rss?path=/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL2
+  added: 2025-10-23
+  updated: 2025-10-23
+  images:
+  - 'https://klines2.sourceforge.net/screenshot.png'
+
+- name: KMines
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://invent.kde.org/games/kmines'
+  url: 'https://apps.kde.org/kmines/'
+  feed: 'https://apps.kde.org/kmines/index.xml'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - GPL2
+  added: 2025-11-05
+  updated: 2025-11-05
+  images:
+  - 'https://cdn.kde.org/screenshots/kmines/kmines.png'
 
 - name: KnightOfWor
   langs:
@@ -439,6 +745,24 @@
   type: remake
   updated: 2022-07-13
   url: https://www.knightsgame.org.uk/
+
+- name: Knytt Stories DS
+  originals:
+  - Knytt Stories
+  type: remake
+  repo: 'https://github.com/Hugobros3/knyttds'
+  url: 'http://rodrigoroman.com/rrc2soft/nds_dsknytt.html'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - BSD
+  added: 2025-09-24
+  updated: 2025-09-24
+  images:
+  - 'https://web.archive.org/web/20240505142021if_/http://rodrigoroman.com/rrc2soft/ima/knyttds.png'
 
 - name: KotOR.js
   originals:
@@ -548,6 +872,26 @@
   updated: 2025-07-28
   images:
   - 'https://kde.org/images/screenshots/ksnakeduel.png'
+
+- name: Kumquat
+  originals:
+  - Zolyx
+  type: remake
+  repo: 'https://generic.aminet.net/package/game/misc/Kumquat_src'
+  url: >-
+    https://web.archive.org/web/20231004232544/https://dscho.com/fruit/#:~:text=Kumquat
+  development: complete
+  status: playable
+  langs:
+  - AMOS BASIC
+  licenses:
+  - As-is
+  added: 2025-12-25
+  updated: 2025-12-25
+  images:
+  - https://web.archive.org/web/20240511164036im_/https://dscho.com/fruit/kumquat_title.png
+  - https://web.archive.org/web/20240511164033im_/https://dscho.com/fruit/kumquat_ingame.png
+  - https://web.archive.org/web/20240511164035im_/https://dscho.com/fruit/kumquat_game_over.png
 
 - name: KZap
   langs:

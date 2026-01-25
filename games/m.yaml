@@ -1,3 +1,89 @@
+- name: M4r10
+  originals:
+  - Mario Bros.
+  type: clone
+  repo: 'https://www.calculatorti.com/ti-games/ti-89/asm/mario-bros/'
+  development: halted
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - ExtGraph
+  licenses:
+  - As-is
+  added: 2026-01-14
+  updated: 2026-01-14
+  video:
+    youtube: wMShjYiu6uY
+
+- name: 'Machines: Wired For War'
+  originals:
+  - 'Machines: Wired for War'
+  type: official
+  repo: 'https://github.com/markol/machines'
+  url: >-
+    https://www.gamingonlinux.com/2020/10/classic-3d-rts-machines-wired-for-war-goes-open-source-under-the-gpl/
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - SDL
+  licenses:
+  - GPL3
+  added: 2025-12-05
+  updated: 2025-12-05
+  images:
+  - https://uploads.golmedia.net/uploads/articles/article_media/20369846551603361129gol1.png
+
+- name: Mad Bomber
+  originals:
+  - Kaboom!
+  type: clone
+  repo: 'https://github.com/maemo-leste-extras/mad-bomber'
+  url: 'http://www.newbreedsoftware.com/madbomber/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2026-01-21
+  updated: 2026-01-21
+  images:
+  - https://web.archive.org/web/20240430212801im_/http://www.newbreedsoftware.com/madbomber/screenshots/title-t.gif
+  - https://web.archive.org/web/20240430212801im_/http://www.newbreedsoftware.com/madbomber/screenshots/options-t.gif
+  - https://web.archive.org/web/20240430212803im_/http://www.newbreedsoftware.com/madbomber/screenshots/game-t.gif
+  - https://web.archive.org/web/20240430212803im_/http://www.newbreedsoftware.com/madbomber/screenshots/game-zen-t.gif
+  - https://web.archive.org/web/20240430212803im_/http://www.newbreedsoftware.com/madbomber/screenshots/embedded-t.gif
+  video:
+    youtube: yMED02qycWA
+
+- name: Mad Planets
+  originals:
+  - Mad Planets
+  type: official
+  repo: 'https://github.com/webberdebber/Mad-planets-src'
+  url: 'https://archive.org/details/mad-planets-source-code'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-12-28
+  updated: 2025-12-28
+
 - name: Maelstrom
   frameworks:
   - SDL2
@@ -139,6 +225,41 @@
   updated: 2016-04-20
   info: Automatically exported from code.google.com/p/magiccarpet
 
+- name: Magician-NES
+  originals:
+  - Magician
+  type: official
+  repo: 'https://github.com/tkcn568/Magician-NES'
+  url: 'https://www.romhacking.net/documents/559/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-25
+  updated: 2025-11-25
+
+- name: Magma
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://github.com/magmafoundation/Magma-Neo'
+  url: 'https://magmafoundation.org/'
+  feed: 'https://github.com/magmafoundation/Magma-Neo/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Java
+  licenses:
+  - LGPL2
+  info: Next generation of hybrid minecraft server softwares.
+  added: 2025-10-31
+  updated: 2025-10-31
+
 - name: Magnetar
   originals:
   - StarCraft
@@ -178,9 +299,9 @@
 
 - name: Manic Digger
   images:
-  - https://manicdigger.github.io/images/release_2015-08-22.png
-  - https://manicdigger.sourceforge.net/wiki/images/2/2c/2010-07-09_17-25-25.png
-  - https://manicdigger.sourceforge.net/wiki/images/5/55/2010-07-06_20-51-58.png
+  - https://raw.githubusercontent.com/manicdigger/manicdigger-screenshots/master/2014-11-27_18-35-13.png
+  - https://raw.githubusercontent.com/manicdigger/manicdigger-screenshots/master/9c1d22eac9aac5f36bf12a5fb5c8a856.png
+  - https://raw.githubusercontent.com/manicdigger/manicdigger-screenshots/master/2012-10-15_02-13-14.png
   langs:
   - C#
   frameworks:
@@ -188,16 +309,18 @@
   licenses:
   - PD
   content: open
-  development: halted
+  development: sporadic
   originals:
   - Minecraft
   status: playable
   multiplayer:
   - Online
   repo: https://github.com/manicdigger/manicdigger
+  feed: https://github.com/manicdigger/manicdigger/releases.atom
   type: remake
+  added: 2013-10-10
   updated: 2021-07-25
-  url: https://manicdigger.sourceforge.net
+  url: https://sourceforge.net/projects/manicdigger/
 
 - name: Manic Miner PC
   langs:
@@ -218,6 +341,21 @@
   - https://retrospec.sgn.net/style/images/screenshots/mm_full_3.jpg
   - https://retrospec.sgn.net/style/images/screenshots/mm_full_4.jpg
   - https://retrospec.sgn.net/style/images/screenshots/mm_full_5.jpg
+
+- name: ManIX
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://www.nic.funet.fi/index/unix/Linux/xtra/games/x11/action/#:~:text=manix'
+  url: 'https://www.nic.funet.fi/index/unix/Linux/xtra/games/x11/action/manix.lsm'
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-10-28
+  updated: 2025-10-28
 
 - name: Marble Madness 3d
   langs:
@@ -282,6 +420,25 @@
   video:
     youtube: SaoHMjS04vU
 
+- name: Mario & Luigi
+  originals:
+  - Super Mario Bros.
+  type: clone
+  repo: 'https://www.wieringsoftware.nl/mario/source.html'
+  url: 'https://www.wieringsoftware.nl/mario/'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - Pascal
+  licenses:
+  - As-is
+  added: 2025-09-11
+  updated: 2025-09-11
+  images:
+  - 'https://www.wieringsoftware.nl/mario/MARIO1.JPG'
+  - 'https://web.archive.org/web/20030719005647im_/http://home.wxs.nl/~mike.wiering/mario/mario2.jpg'
+
 - name: Mario Objects
   images:
   - https://raw.githubusercontent.com/jazzyjester/Mario-Game/master/mario_level_1.png
@@ -302,6 +459,138 @@
   type: clone
   added: 2015-05-25
   updated: 2022-10-27
+
+- name: Master Ball
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://github.com/lostjared/MasterBall.JavaScript'
+  url: 'https://lostsidedead.biz/ballgame/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  - HTML
+  licenses:
+  - Unlicense
+  added: 2025-11-01
+  updated: 2025-11-01
+  images:
+  - https://raw.githubusercontent.com/lostjared/MasterBall.JavaScript/main/screenshot.jpg
+
+- name: Mastermind-Game
+  originals:
+  - Mastermind
+  type: clone
+  repo: 'https://github.com/RobertoZaffa/Mastermind-Game'
+  development: complete
+  status: playable
+  langs:
+  - Python
+  - C++
+  licenses:
+  - As-is
+  added: 2025-12-20
+  updated: 2025-12-20
+  images:
+  - https://mastermind.altervista.org/wp-content/uploads/2024/11/Screenshot-2024-11-16-113614.png
+
+- name: MasterPiece
+  originals:
+  - Acid Drop
+  type: clone
+  repo: 'https://aminet.net/package/game/think/masterpiece.lha'
+  url: 'https://os4depot.net/?function=showfile&file=game/puzzle/masterpiece.lha'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-29
+  updated: 2026-01-10
+  images:
+  - 'https://os4depot.net/filedata/snapshot/1181_1_snap.jpg'
+  - 'https://os4depot.net/filedata/snapshot/1181_2_snap.jpg'
+
+- name: MasterPiece Assembly
+  originals:
+  - Acid Drop
+  type: clone
+  repo: 'https://github.com/lostjared/MasterPiece.x64.Assembly'
+  url: 'https://lostsidedead.biz/x64/MasterPiece/'
+  feed: 'https://github.com/lostjared/MasterPiece.x64.Assembly/releases.atom'
+  development: sporadic
+  status: semi-playable
+  langs:
+  - Assembly
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2026-01-10
+  updated: 2026-01-10
+  images:
+  - https://lostsidedead.biz/x64/MasterPiece/mp1.png
+  - https://lostsidedead.biz/x64/MasterPiece/mp2.png
+  - https://github.com/user-attachments/assets/7f180cee-3353-406c-8ac4-57964a47be12
+
+- name: MasterPiece3D.JavaScript
+  originals:
+  - Acid Drop
+  type: clone
+  repo: 'https://github.com/lostjared/MasterPiece3D.JavaScript'
+  url: 'https://lostsidedead.biz/mp3d/'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - Unlicense
+  added: 2026-01-16
+  updated: 2026-01-16
+  images:
+  - https://raw.githubusercontent.com/lostjared/MasterPiece3D.JavaScript/main/mp3d.jpg
+  - https://raw.githubusercontent.com/lostjared/MasterPiece3D.JavaScript/main/mp3d_per.jpg
+
+- name: Match-3 Game HTML5
+  originals:
+  - Bejeweled
+  - Candy Crush Saga
+  type: similar
+  repo: 'https://github.com/rembound/Match-3-Game-HTML5'
+  url: 'https://rembound.com/articles/how-to-make-a-match3-game-with-html5-canvas'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2025-10-08
+  updated: 2025-10-08
+  images:
+  - https://raw.githubusercontent.com/rembound/Match-3-Game-HTML5/master/screenshot.png
+
+- name: matszpk-sokoban
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://github.com/matszpk/rust-sokoban'
+  url: 'https://crates.io/crates/matszpk-sokoban'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - LGPL2
+  added: 2025-09-08
+  updated: 2025-09-08
 
 - name: Max_Vita
   originals:
@@ -448,6 +737,50 @@
   - 'https://mog.jorito.net/pics/screenshot15.jpg'
   - 'https://mog.jorito.net/pics/screenshot16.jpg'
 
+- name: mazeman
+  originals:
+  - Chip's Challenge
+  type: similar
+  repo: 'https://sourceforge.net/projects/mazeman/'
+  feed: 'https://sourceforge.net/p/mazeman/activity/feed'
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - Tk
+  licenses:
+  - GPL3
+  added: 2025-12-31
+  updated: 2025-12-31
+  images:
+  - 'https://a.fsdn.com/con/app/proj/mazeman/screenshots/Screenshot2.png'
+  - 'https://a.fsdn.com/con/app/proj/mazeman/screenshots/maze3.0-Screenshot.png'
+
+- name: MBF-SNM
+  originals:
+  - Doom
+  type: remake
+  repo: 'https://github.com/Sakitoshi/mbf_sigil'
+  feed: 'https://github.com/Sakitoshi/mbf_sigil/releases.atom'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  info: >-
+    Originally MBF-Sigil; based on MBF (Marine's Best Friend) 2.04
+    with support for Sigil 1 & 2, No Rest for the Living, and Master Levels.
+  added: 2025-10-13
+  updated: 2025-10-13
+  images:
+  - https://raw.githubusercontent.com/Sakitoshi/mbf_sigil/master/docs/mbf_sigil.png
+  - https://raw.githubusercontent.com/Sakitoshi/mbf_sigil/master/docs/mbf_sigil2.png
+
 - name: mc2
   langs:
   - C++
@@ -540,6 +873,41 @@
   - https://media.moddb.com/cache/images/mods/1/17/16982/thumb_620x2000/screen_newtruck2.jpg
   - https://media.moddb.com/cache/images/mods/1/17/16982/thumb_620x2000/screen_newtruck.jpg
 
+- name: mechcommander2
+  originals:
+  - MechCommander 2
+  type: remake
+  repo: 'https://github.com/mechasource/mechcommander2'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  licenses:
+  - BSD2
+  added: 2025-11-20
+  updated: 2025-11-20
+
+- name: MechCommander2HD
+  originals:
+  - MechCommander 2
+  type: remake
+  repo: 'https://github.com/Ariemeth/MechCommander2HD'
+  url: >-
+    https://www.reddit.com/r/gamedev/comments/2vyh7w/mechcommander_2_hd_development_blog_1/
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  licenses:
+  - Custom
+  added: 2025-11-18
+  updated: 2025-11-18
+
 - name: Mega Mario
   images:
   - https://a.fsdn.com/con/app/proj/mmario/screenshots/206808.jpg
@@ -561,6 +929,26 @@
   updated: 2025-04-12
   repo: https://sourceforge.net/projects/mmario/
   url: https://mmario.sourceforge.net
+
+- name: MegaBall
+  originals:
+  - MegaBall
+  type: official
+  repo: 'https://bitbucket.org/emackey/megaball'
+  url: 'https://www.snappymaria.com/megaball/'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - Assembly
+  - C
+  licenses:
+  - Apache
+  added: 2025-12-25
+  updated: 2025-12-25
+  images:
+  - 'https://www.snappymaria.com/megaball/Graphics/Screenshots/mb_title.gif'
+  - 'https://www.snappymaria.com/megaball/Graphics/Screenshots/mb_game.gif'
 
 - name: MegaGlest
   images:
@@ -588,6 +976,24 @@
   url: https://megaglest.org/
   video:
     youtube: zR6UIRQFFag
+
+- name: Nemesis-the-Warlock
+  originals:
+  - Nemesis the Warlock
+  type: official
+  repo: 'https://github.com/milkeybabes/Nemesis-the-Warlock'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: C64 Source Code to Nemesis the Warlock.
+  added: 2026-01-06
+  updated: 2026-01-06
+  images:
+  - https://www.vintageisthenewold.com/wp-content/uploads/2019/05/nemesis-the-warlock_1.gif
 
 - name: Memoria
   originals:
@@ -752,6 +1158,28 @@
   video:
     youtube: uMwqpL2_-LY
 
+- name: MetaPacman
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://os4depot.net/?function=showfile&file=game/misc/metapacman.lha'
+  url: >-
+    https://web.archive.org/web/20110427084745/http://www.sdltutorials.com/sdl-games/#:~:text=MetaPacman
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-11-03
+  updated: 2025-11-03
+  images:
+  - 'https://os4depot.net/filedata/snapshot/4829_2_snap.jpg'
+  - 'https://os4depot.net/filedata/snapshot/4829_1_snap.png'
+
 - name: MetaTron
   originals:
   - Tron
@@ -773,6 +1201,84 @@
   - GPL2
   added: 2025-08-04
   updated: 2025-08-04
+
+- name: Metro-Cross
+  originals:
+  - Metro-Cross
+  type: remake
+  url: 'https://oldschoolprg.x10.mx/projets.php#metrocross'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - As-is
+  added: 2025-10-08
+  updated: 2025-10-08
+  images:
+  - 'https://oldschoolprg.x10.mx/images/prj_metrocross0.png'
+
+- name: Metroid
+  originals:
+  - Metroid
+  type: official
+  repo: 'https://github.com/mxdxgx/NES-Metroid-source-code'
+  url: 'https://metroiddatabase.com/source-code/'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-09-29
+  updated: 2025-09-29
+
+- name: Metroid 68K
+  originals:
+  - Metroid
+  type: remake
+  url: 'http://tifreakware.net/lachprog/metroid.htm'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2026-01-19
+  updated: 2026-01-19
+  images:
+  - https://www.ticalc.org/archives/files/ss/795/79540.gif
+  - https://www.ticalc.org/archives/files/ss/799/79920.gif
+  - https://www.ticalc.org/archives/files/ss/795/79541.gif
+  - https://www.ticalc.org/archives/files/ss/795/79542.gif
+  - https://www.ticalc.org/archives/files/ss/795/79543.gif
+  - https://web.archive.org/web/20200830002918im_/http://tifreakware.net/lachprog/img/Metroid/ANIM10009.gif
+  - https://web.archive.org/web/20200830002919im_/http://tifreakware.net/lachprog/img/Metroid/ss15.PNG
+  - https://web.archive.org/web/20200830002917im_/http://tifreakware.net/lachprog/img/Metroid/ss16.PNG
+  - https://web.archive.org/web/20200830002909im_/http://tifreakware.net/lachprog/img/Metroid/MiniMap.PNG
+  - https://web.archive.org/web/20200830002921im_/http://tifreakware.net/lachprog/img/Metroid/ss36.PNG
+  - https://web.archive.org/web/20200830002916im_/http://tifreakware.net/lachprog/img/Metroid/gameover.PNG
+
+- name: Metroid for MMC3
+  originals:
+  - Metroid
+  type: remake
+  repo: 'https://github.com/ZaneDubya/MetroidMMC3'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-10-06
+  updated: 2025-10-06
 
 - name: mewl
   langs:
@@ -807,6 +1313,30 @@
   type: remake
   added: 2016-06-07
   updated: 2016-06-07
+
+- name: MicroWar
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://sourceforge.net/projects/microwar/'
+  url: 'https://microwar.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/microwar/news/feed.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - BSD
+  added: 2025-11-04
+  updated: 2025-11-04
+  images:
+  - 'https://a.fsdn.com/con/app/proj/microwar/screenshots/196670.jpg'
+  - 'https://a.fsdn.com/con/app/proj/microwar/screenshots/196672.jpg'
+  - 'https://microwar.sourceforge.net/images/Image-3.jpg'
+  - 'https://microwar.sourceforge.net/images/Image-4.jpg'
 
 - name: Micropolis
   langs:
@@ -903,6 +1433,44 @@
   added: 2025-08-26
   updated: 2025-08-26
 
+- name: MigAlleySrc
+  originals:
+  - MiG Alley
+  type: official
+  repo: 'https://github.com/rerunner/MigAlleySrc'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - Custom
+  added: 2025-11-17
+  updated: 2025-11-17
+
+- name: Mindless
+  originals:
+  - "Mastermind"
+  type: clone
+  repo: 'https://main.aminet.net/package/game/think/mindless'
+  url: 'https://os4depot.net/?function=showfile&file=game/puzzle/mindless.lha'
+  development: halted
+  status: playable
+  multiplayer:
+  - Hotseat
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-28
+  updated: 2025-10-28
+  images:
+  - 'https://os4depot.net/filedata/snapshot/1056_1_snap.png'
+  - 'https://os4depot.net/filedata/snapshot/1056_2_snap.png'
+
 - name: Mindustry
   type: similar
   originals:
@@ -929,6 +1497,233 @@
   - https://mindustrygame.github.io/1.d25af17a.webp
   - https://mindustrygame.github.io/2.0d4f9a35.webp
   - https://mindustrygame.github.io/3.88567664.webp
+
+- name: Mine Field (1981)
+  originals:
+  - Minefield
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=18#downloads'
+  url: 'https://minesweepergame.com/database/games.php?id=18'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2025-10-20
+  updated: 2025-10-20
+  images:
+  - https://minesweepergame.com/database/image/version/136/Minefield-Francis-ZX81-Gameplay-1.jpg
+  - https://minesweepergame.com/database/image/version/136/Minefield-Francis-ZX81-Gameplay-2.jpg
+  - https://minesweepergame.com/database/image/version/136/Minefield-Francis-ZX81-Gameplay-3.jpg
+  - https://minesweepergame.com/database/image/version/136/Minefield-Francis-ZX81-Gameplay-4.jpg
+  - https://minesweepergame.com/database/image/version/136/Minefield-Francis-ZX81-Gameplay-5.jpg
+
+- name: Mine Zone
+  originals:
+  - Mined-Out
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=24#downloads'
+  url: 'https://gb64.com/game.php?id=4852'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: The game was published in the cassette magazine 64 Tape Computing.
+  added: 2026-01-14
+  updated: 2026-01-14
+  images:
+  - https://gb64.com/Screenshots/M/Mine_Zone_v1.png
+  - https://gb64.com/Screenshots/M/Mine_Zone_v1_1.png
+  - https://minesweepergame.com/database/image/version/143/MineZone-ArgusPress-C64-1984-Loading.jpg
+  - https://minesweepergame.com/database/image/version/143/MineZone-ArgusPress-C64-1984-Lost.jpg
+
+- name: Mine-Field
+  originals:
+  - Mined-Out
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=72#downloads'
+  url: 'https://minesweepergame.com/database/games.php?id=72'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2025-10-31
+  updated: 2026-01-09
+  images:
+  - https://minesweepergame.com/database/image/version/225/Minefield-Knight-VIC20-1984-Options.jpg
+  - https://minesweepergame.com/database/image/version/225/Minefield-Knight-VIC20-1984-Gameplay.jpg
+  - https://minesweepergame.com/database/image/version/225/Minefield-Knight-VIC20-1984-New.jpg
+  - https://minesweepergame.com/database/image/version/225/Minefield-Knight-VIC20-1984-Replay.jpg
+  - https://minesweepergame.com/database/image/version/225/Minefield-Knight-VIC20-1984-Score.jpg
+
+- name: Minefield
+  originals:
+  - Minefield
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=64#downloads'
+  url: 'https://minesweepergame.com/database/games.php?id=64'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2026-01-10
+  updated: 2026-01-10
+  images:
+  - https://minesweepergame.com/database/image/version/214/Minefield-Gerrard-VIC20-1983-Gameplay.jpg
+  - https://minesweepergame.com/database/image/version/214/Minefield-Gerrard-VIC20-1983-Instructions.jpg
+  - https://minesweepergame.com/database/image/version/214/Minefield-Gerrard-VIC20-1983-Lost-1.jpg
+  - https://minesweepergame.com/database/image/version/214/Minefield-Gerrard-VIC20-1983-Spanish-Gameplay.jpg
+  - https://minesweepergame.com/database/image/version/214/Minefield-Gerrard-VIC20-1983-Win.jpg
+  - https://minesweepergame.com/database/image/version/214/Minefield-Gerrard-VIC20-1984-Sound-Lose.jpg
+
+- name: Minefield (1985)
+  originals:
+  - Mined-Out
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=71#downloads'
+  url: 'https://minesweepergame.com/database/games.php?id=71'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2026-01-21
+  updated: 2026-01-21
+  images:
+  - https://minesweepergame.com/database/image/version/224/Minefield-Randall-VIC20-1985-Gameplay.jpg
+  - https://minesweepergame.com/database/image/version/224/Minefield-Randall-VIC20-1985-Hint.jpg
+  - https://minesweepergame.com/database/image/version/224/Minefield-Randall-VIC20-1985-Instructions-1.jpg
+  - https://minesweepergame.com/database/image/version/224/Minefield-Randall-VIC20-1985-Lose.jpg
+
+- name: Minefield (by David Gardiner)
+  originals:
+  - Mined-Out
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=70#downloads'
+  url: 'https://minesweepergame.com/database/games.php?id=70'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2026-01-17
+  updated: 2026-01-17
+  images:
+  - https://minesweepergame.com/database/image/version/223/Minefield-Gardiner-VIC20-1985-Gameplay.jpg
+  - https://minesweepergame.com/database/image/version/223/Minefield-Gardiner-VIC20-1985-Loading.jpg
+  - https://minesweepergame.com/database/image/version/223/Minefield-Gardiner-VIC20-1985-Replay.jpg
+  - https://minesweepergame.com/database/image/version/223/Minefield-Gardiner-VIC20-1985-Score.jpg
+
+- name: Minefield (by Kevin Bergin)
+  originals:
+  - Minefield
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=28#downloads'
+  url: 'https://gb64.com/game.php?id=19642'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: The game is based on Landmine (1983) from the book "VIC Games".
+  added: 2026-01-04
+  updated: 2026-01-04
+  images:
+  - 'https://gb64.com/Screenshots/M/Minefield_v9.png'
+  - 'https://gb64.com/Screenshots/M/Minefield_v9_1.png'
+
+- name: Minefield 3D
+  originals:
+  - Minefield
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=128#downloads'
+  url: 'https://bbcmicro.co.uk/game.php?id=4002'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: The game is a clone of Simon Dowson's Minefield (1979).
+  added: 2026-01-02
+  updated: 2026-01-02
+  images:
+  - https://bbcmicro.co.uk/gameimg/screenshots/4002/MinefieldEduQuest.png
+  - https://minesweepergame.com/database/image/version/280/Minefield-Eduquest-1982-Instructions.jpg
+  - https://minesweepergame.com/database/image/version/280/Minefield-Eduquest-1982-Menu.jpg
+  - https://minesweepergame.com/database/image/version/280/Minefield-Eduquest-1982-Won.jpg
+
+- name: Miner Wars 2081 MOD KIT
+  originals:
+  - Miner Wars 2081
+  type: official
+  repo: 'https://github.com/KeenSoftwareHouse/Miner-Wars-2081/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - DirectX
+  licenses:
+  - Custom
+  added: 2025-11-17
+  updated: 2025-11-17
+  video:
+    youtube: 4z3JbBxhMYI
+
+- name: Minesweeper 2
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://main.aminet.net/package/game/think/minesweeper2-os4'
+  url: 'https://os4depot.net/?function=showfile&file=game/puzzle/minesweeper2.lha'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-11-15
+  updated: 2025-11-15
+
+- name: Minesweeper 3D
+  originals:
+  - Minesweeper
+  type: similar
+  repo: 'https://gitlab.com/h2mm/minesweeper-3d'
+  url: 'https://content.luanti.org/packages/Hume2/minesweeper_3d/'
+  feed: 'https://content.luanti.org/packages/Hume2/minesweeper_3d/releases_feed.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - Lua
+  frameworks:
+  - Luanti
+  licenses:
+  - AGPL3
+  - CC-BY-SA
+  added: 2025-11-16
+  updated: 2025-11-16
+  images:
+  - 'https://content.luanti.org/uploads/5f58f02d32.png'
 
 - name: Mineclonia
   originals:
@@ -980,6 +1775,29 @@
   images:
   - https://i.imgur.com/UBiisxS.jpg
 
+- name: MinecraftC
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://github.com/johnpayne-dev/MinecraftC'
+  feed: 'https://github.com/johnpayne-dev/MinecraftC/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - MIT
+  info: A Raytraced Minecraft Classic 0.0.30a port to C.
+  added: 2025-10-08
+  updated: 2025-10-08
+  images:
+  - https://user-images.githubusercontent.com/79012575/182039578-991a0473-fc20-484f-b425-9e36cbfb77cc.png
+  - https://user-images.githubusercontent.com/79012575/182039653-7ead1d2b-229e-4991-8110-586ef7a27411.png
+
 - name: MineCraft-One-Week-Challenge
   type: clone
   originals:
@@ -1019,6 +1837,91 @@
   video:
     youtube: 4O0_-1NaWnY
 
+- name: minecurses
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/EliteTK/minecurses'
+  development: halted
+  status: semi-playable
+  langs:
+  - C
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL2
+  added: 2025-09-19
+  updated: 2025-09-19
+
+- name: Mined-Out
+  originals:
+  - Minefield
+  type: similar
+  repo: >-
+    https://minesweepergame.com/database/download/version/414/MinedOut-Quicksilva-TRS80-Hacked-BASIC.txt
+  url: 'https://minesweepergame.com/database/games.php?id=11'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2025-10-17
+  updated: 2025-10-17
+  images:
+  - 'https://archive.worldofdragon.org/images/5/50/Mined_Out_Title_screen.png'
+  - 'https://archive.worldofdragon.org/images/4/44/MinedOut_Screenshot01.png'
+  - 'https://archive.worldofdragon.org/images/9/9a/MinedOut_Screenshot02.png'
+  - 'https://archive.worldofdragon.org/images/6/66/MinedOut_Screenshot03.png'
+  - 'https://minesweepergame.com/database/image/version/110/MinedOut-Quicksilva-Spectrum-Level3-Highscore.jpg'
+
+- name: Minefield (1979)
+  originals:
+  - Minefield
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=10#downloads'
+  url: 'https://minesweepergame.com/database/games.php?id=10'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2025-10-13
+  updated: 2025-10-13
+  images:
+  - https://minesweepergame.com/database/image/version/109/Minefield-1979-Bell-Dowson-PET-New.jpg
+
+- name: Minegauler
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/LewisGaul/minegauler'
+  url: 'https://lewisgaul.co.uk/blog/coding/2020/02/12/minegauler/'
+  feed: 'https://github.com/LewisGaul/minegauler/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Python
+  frameworks:
+  - Qt
+  licenses:
+  - GPL3
+  added: 2025-11-08
+  updated: 2025-11-08
+  images:
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/beginner_start.png
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/beginner_win.png
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/huge_info.png
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/intermediate_probs.PNG
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/split-cell-expert1.PNG
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/split-cell-expert2.PNG
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/split-cell-intermediate.png
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/split-cell-series1-1.PNG
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/split-cell-series1-2.PNG
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/split-cell-series2-1.PNG
+  - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/split-cell1.jpg
+
 - name: minerbold
   originals:
   - Boulder Dash
@@ -1057,6 +1960,88 @@
   updated: 2019-11-14
   images:
   - https://people.gnome.org/~mcatanzaro/gnome-mines.png
+
+- name: Mines (1987)
+  originals:
+  - Minesweeper
+  type: similar
+  url: 'https://minesweepergame.com/download/game.php?id=146'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  info:  The original version was written in 1987 for SunTools on SunOS and later converted to the X Window System and renamed XMines in 1990.
+  added: 2025-10-10
+  updated: 2025-10-10
+  images:
+  - https://minesweepergame.com/download/game/image/415/xmines-1.2-anderson-dalio-mcbeath-x11-gameplay.png
+
+- name: Mines3D
+  originals:
+  - Minesweeper
+  type: similar
+  repo: 'https://github.com/stastnypremysl/Mines3D'
+  url: 'https://f-droid.org/packages/cos.premy.mines/'
+  feed: 'https://github.com/stastnypremysl/Mines3D/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL3
+  info: 'Minesweeper on n*m*2 matrix for Android.'
+  added: 2025-11-10
+  updated: 2025-11-10
+  images:
+  - 'https://f-droid.org/repo/cos.premy.mines/en-US/phoneScreenshots/1.png'
+  - 'https://f-droid.org/repo/cos.premy.mines/en-US/phoneScreenshots/2.png'
+  - 'https://f-droid.org/repo/cos.premy.mines/en-US/phoneScreenshots/3.png'
+  - 'https://f-droid.org/repo/cos.premy.mines/en-US/phoneScreenshots/4.png'
+  - 'https://f-droid.org/repo/cos.premy.mines/en-US/phoneScreenshots/5.png'
+  - 'https://f-droid.org/repo/cos.premy.mines/en-US/phoneScreenshots/6.png'
+
+- name: minesVIiper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://git.gir.st/minesVIiper.git'
+  url: 'https://gir.st/mines.html'
+  feed: 'https://git.gir.st/minesVIiper.git/atom'
+  development: halted
+  status: playable
+  langs:
+  - C
+  licenses:
+  - GPL3
+  added: 2025-11-12
+  updated: 2025-11-12
+  images:
+  - 'https://gir.st/img/termsweeper_color.png'
+  - 'https://gir.st/img/termsweeper_vt220_hires.jpg'
+
+- name: minesweep-rs
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/cpcloud/minesweep-rs'
+  url: 'https://crates.io/crates/minesweep'
+  feed: 'https://github.com/cpcloud/minesweep-rs/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - Ratatui
+  licenses:
+  - Apache
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://raw.githubusercontent.com/cpcloud/minesweep-rs/main/demo.gif'
 
 - name: Minesweeper
   info: iOS
@@ -1131,6 +2116,31 @@
   - 'https://github.com/aashrafh/minesweeper/raw/master/demo/minesweeper-3.png'
   - 'https://github.com/aashrafh/minesweeper/raw/master/demo/minesweeper-4.png'
 
+- name: Minesweeper 1K
+  originals:
+  - Minesweeper
+  type: similar
+  url: 'https://spectrumcomputing.co.uk/entry/34534/ZX81/Minesweeper_1K'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    Unlike Windows Minesweeper, placing a flag on the wrong cell immediately loses
+    the game.
+  added: 2025-10-23
+  updated: 2025-10-23
+  images:
+  - https://minesweepergame.com/database/image/version/196/Minesweeper1K-Koelman-Gameplay-Beginner.jpg
+  - https://minesweepergame.com/database/image/version/196/Minesweeper1K-Koelman-Gameplay-Expert.jpg
+  - https://minesweepergame.com/database/image/version/196/Minesweeper1K-Koelman-Lost-Expert.jpg
+  - https://minesweepergame.com/database/image/version/196/Minesweeper1K-Koelman-Lost-Intermediate.jpg
+  - https://minesweepergame.com/database/image/version/196/Minesweeper1K-Koelman-Title.jpg
+  video:
+    youtube: ou4t4FLfnls
+
 - name: minesweeper-rs
   originals:
   - Minesweeper
@@ -1148,6 +2158,31 @@
   updated: 2020-10-11
   images:
   - https://user-images.githubusercontent.com/7089228/80656536-45ac2c80-8a36-11ea-8521-ab40fc922ce1.gif
+
+- name: minesweeper-tauri
+  originals:
+  - Minesweeper
+  type: remake
+  repo: 'https://github.com/HaroldLoui/minesweeper-tauri'
+  feed: 'https://github.com/HaroldLoui/minesweeper-tauri/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - JavaScript
+  - CSS
+  - Rust
+  - HTML
+  frameworks:
+  - Tauri
+  licenses:
+  - As-is
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - https://raw.githubusercontent.com/HaroldLoui/minesweeper-tauri/master/screenshot/2023-01-23%2017-16-29.png
+  - https://raw.githubusercontent.com/HaroldLoui/minesweeper-tauri/master/screenshot/2023-01-23%2017-19-27.png
+  - https://raw.githubusercontent.com/HaroldLoui/minesweeper-tauri/master/screenshot/2023-01-23%2017-17-29.png
 
 - name: Minesweeper.Zone
   development: halted
@@ -1224,6 +2259,25 @@
   - >-
     https://github.com/user-attachments/assets/e22c2180-216a-4d1b-9555-a157ce28b5e5
 
+- name: The Mini Slug Project
+  originals:
+  - Metal Slug Series
+  type: clone
+  url: 'https://oldschoolprg.x10.mx/projets.php#:~:text=The%20Mini%20Slug%20Project'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-04
+  updated: 2025-10-04
+  images:
+  - 'https://oldschoolprg.x10.mx/images/prj_minislug0.png'
+
 - name: Minima
   images:
   - https://raw.githubusercontent.com/Feneric/Minima/master/MinimaWorld.png
@@ -1290,6 +2344,30 @@
   - https://oitofelix.github.io/mininim/jordan-book-mininim-screen.png
   video:
     youtube: 91QCqPMssj4
+
+- name: Minosoft
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://gitlab.bixilon.de/bixilon/minosoft'
+  feed: 'https://gitlab.bixilon.de/bixilon/minosoft.atom'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - Kotlin
+  licenses:
+  - GPL3
+  info: A Minecraft client which is completely re-implemented.
+  added: 2025-09-24
+  updated: 2025-09-24
+  images:
+  - https://gitlab.bixilon.de/bixilon/minosoft/-/raw/master/doc/img/rendering5.png
+  - https://gitlab.bixilon.de/bixilon/minosoft/-/raw/master/doc/img/hypixel_skyblock.png
+  - https://gitlab.bixilon.de/bixilon/minosoft/-/raw/master/doc/img/afk_pool.png
+  - https://gitlab.bixilon.de/bixilon/minosoft/-/raw/master/doc/img/hypixel_lobby.png
+  - https://gitlab.bixilon.de/bixilon/minosoft/-/raw/master/doc/img/sunset.png
+  - https://gitlab.bixilon.de/bixilon/minosoft/-/raw/master/doc/img/eros.png
 
 - name: Mirror Magic
   langs:
@@ -1371,7 +2449,28 @@
   updated: 2025-05-09
   video:
     youtube: 9OOp6z5Ykw8
-  
+
+- name: Missile Command Disassembly
+  originals:
+  - Missile Command
+  type: remake
+  url: 'https://6502disassembly.com/va-missile-command/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Hotseat
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-19
+  updated: 2026-01-19
+  images:
+  - 'https://6502disassembly.com/va-missile-command/images/title.png'
+  - 'https://6502disassembly.com/va-missile-command/images/sample1.png'
+  - 'https://6502disassembly.com/va-missile-command/images/the-end.png'
+  - 'https://6502disassembly.com/va-missile-command/images/wave1-alt200.png'
+
 - name: mk.js
   langs:
   - JavaScript
@@ -1475,6 +2574,74 @@
   images:
   - https://identicalsoftware.com/mojotron/screenshot1.png
 
+- name: Monkey Bubble
+  originals:
+  - Puzzle Bobble
+  type: clone
+  repo: https://gitlab.gnome.org/Archive/monkey-bubble
+  url: 'https://web.archive.org/web/20081014192219/http://www.monkey-bubble.org/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - GTK
+  licenses:
+  - GPL2
+  added: 2025-10-19
+  updated: 2025-10-19
+  images:
+  - https://web.archive.org/web/20071008194107if_/http://home.gna.org/monkeybubble/images/scr-red-splash.png
+  - https://web.archive.org/web/20071008194124if_/http://home.gna.org/monkeybubble/images/scr-1-player-new-bubbles.png
+  - https://web.archive.org/web/20071008194031if_/http://home.gna.org/monkeybubble/images/scr-2-players-new-bubbles-and-bg.png
+  - https://web.archive.org/web/20071008194214if_/http://home.gna.org/monkeybubble/images/scr-1-player-with-bg.png
+  - https://web.archive.org/web/20071008194146if_/http://home.gna.org/monkeybubble/images/scr-stars.png
+  - https://web.archive.org/web/20071008194017if_/http://home.gna.org/monkeybubble/images/scr-1-player.png
+  - https://web.archive.org/web/20071008194051if_/http://home.gna.org/monkeybubble/images/scr-2-players.png
+  - https://screenshots.debian.net/screenshot/monkey-bubble/13264
+  - https://screenshots.debian.net/screenshot/monkey-bubble/10231
+
+- name: Monster
+  originals:
+  - Breakout
+  type: clone
+  url: 'https://www.ocf.berkeley.edu/~pad/game-ti92p-monster.html'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-17
+  updated: 2026-01-17
+  images:
+  - 'https://www.ocf.berkeley.edu/~pad/screenshots/monster92.gif'
+  - 'https://www.ticalc.org/archives/files/ss/462/46204.gif'
+  - 'https://www.ticalc.org/archives/files/ss/462/46205.gif'
+
+- name: Monster RPG 2
+  originals:
+  - Monster RPG 2
+  type: official
+  repo: 'https://github.com/parhelia512/monster-rpg-2'
+  url: >-
+    https://archive.ph/20131008221700/http://www.nooskewl.com/content/monster-rpg-2-now-free-and-open-source
+  feed: 'https://github.com/parhelia512/monster-rpg-2/releases.atom'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  - Lua
+  frameworks:
+  - Allegro
+  licenses:
+  - Zlib
+  added: 2025-12-06
+  updated: 2025-12-06
+
 - name: Monsters and Mushrooms
   images:
   - https://pygame.org/shots/989.png
@@ -1538,6 +2705,28 @@
   - >-
     https://web.archive.org/web/20030603161510im_/http://downloads.daveblood.com/lunar_lander/lunar_screen.jpg
 
+- name: Moon Miner
+  originals:
+  - Lunar Lander
+  type: clone
+  repo: 'https://github.com/ZContent/MoonMiner'
+  url: 'https://danthegeek.com/moon-miner/'
+  feed: 'https://github.com/ZContent/MoonMiner/releases.atom'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - Python
+  licenses:
+  - GPL3
+  added: 2026-01-18
+  updated: 2026-01-18
+  images:
+  - 'https://danthegeek.com/wp-content/uploads/2025/12/title_screen.png'
+  - 'https://danthegeek.com/wp-content/uploads/2025/12/game_screen.png'
+  video:
+    youtube: G1reSC5pMf4
+
 - name: Moondust Project
   originals:
   - Super Mario
@@ -1565,6 +2754,22 @@
   updated: '2024-06-12'
   video:
     youtube: 2FoekTw4-yw
+
+- name: Moonsweeper Source
+  originals:
+  - Moonsweeper
+  type: official
+  repo: 'https://github.com/webberdebber/Moonsweeper-src'
+  url: 'https://www.romhacking.net/documents/502/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Appears to be the original source code for the Atari 2600 game Moonsweeper.
+  added: 2025-11-23
+  updated: 2025-11-23
 
 - name: Morpheus Web Remake
   content: free
@@ -1596,6 +2801,41 @@
   - Rx.js
   - three.js
   - Tween.js
+
+- name: MOSS
+  originals:
+  - 'Myst Online: Uru Live'
+  type: remake
+  repo: 'https://github.com/openuruunofficial/MOSS'
+  url: 'https://wiki.openuru.org/index.php/MOSS'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  info: 'A UNIX-based server for the Myst Online: Uru Live.'
+  added: 2025-12-25
+  updated: 2025-12-25
+
+- name: MOULArs
+  originals:
+  - 'Myst Online: Uru Live'
+  type: remake
+  repo: 'https://github.com/zrax/moulars'
+  development: active
+  status: playable
+  multiplayer:
+  - Online
+  langs:
+  - Rust
+  licenses:
+  - AGPL3
+  info: 'A DirtSand compatible Myst Online: Uru Live (Again) server.'
+  added: 2025-12-20
+  updated: 2025-12-20
 
 - name: A Mouse's Vengeance
   langs:
@@ -1659,6 +2899,37 @@
   video:
     youtube: _0rw36mA9mM
 
+- name: Mr. Do! GameBoy Source Code
+  originals:
+  - Mr. Do!
+  type: official
+  repo: 'https://www.pauliehughes.com//index_htm_files/mrdo.asm'
+  url: https://www.pauliehughes.com//downloads.htm
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-18
+  updated: 2025-11-18
+
+- name: Mr. Nutz 2 Source Code
+  originals:
+  - Mr. Nutz 2
+  type: official
+  url: 'https://www.romhacking.net/documents/594/'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Cancelled Sega Genesis Port.
+  added: 2026-01-02
+  updated: 2026-01-02
+
 - name: Mu-cade
   originals:
   - Geometry Wars
@@ -1677,6 +2948,21 @@
   updated: 2025-07-10
   images:
   - 'https://www.asahi-net.or.jp/~cs8k-cyu/windows/mcd_1l.gif'
+
+- name: MuckyFoot-UrbanChaos
+  originals:
+  - Urban Chaos
+  type: official
+  repo: 'https://github.com/dizzy2003/MuckyFoot-UrbanChaos'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - MIT
+  added: 2025-12-14
+  updated: 2025-12-14
 
 - name: multi-pong
   originals:
@@ -1702,6 +2988,46 @@
   - 'https://i.imgur.com/0LUS5bS.gif'
   - 'https://i.imgur.com/i1iTugw.gif'
 
+- name: Multorio
+  originals:
+  - Artillery Duel
+  type: clone
+  repo: 'https://github.com/EgonOlsen71/multorio'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - BASIC
+  licenses:
+  - Unlicense
+  added: 2025-10-29
+  updated: 2025-10-29
+
+- name: MunchMan
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://os4depot.net/index.php?function=showfile&file=game/misc/munchman.lha'
+  url: >-
+    https://web.archive.org/web/20030625132413/http://affinix.com/~justin/programs/munchman/
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - https://web.archive.org/web/20030625070303im_/http://www.affinix.com/~justin/programs/munchman/pac2.gif
+  - https://web.archive.org/web/20030625081109im_/http://www.affinix.com/~justin/programs/munchman/pac3.gif
+
 - name: Mures
   originals:
   - ChuChu Rocket!
@@ -1721,6 +3047,24 @@
   updated: 2025-09-04
   video:
     youtube: teRGGh9bTeE
+
+- name: Mutant Mole
+  originals:
+  - Space Invaders
+  type: clone
+  repo: >-
+    https://web.archive.org/web/20190616223624/http://netadelica.com/coding/mole/mole.bas
+  url: >-
+    https://web.archive.org/web/20200107094711/https://www.netadelica.com/coding/index.html#:~:text=Mutant%20Mole
+  development: halted
+  status: semi-playable
+  langs:
+  - QuickBASIC
+  licenses:
+  - As-is
+  info: As a follow-up to Space Invaders 1978.
+  added: '2025-10-16'
+  updated: '2025-10-16'
 
 - name: MyMan
   originals:
@@ -1747,3 +3091,24 @@
   - 'https://a.fsdn.com/con/app/proj/myman/screenshots/183449.jpg'
   - 'https://a.fsdn.com/con/app/proj/myman/screenshots/183604.jpg'
 
+- name: mynes
+  originals:
+  - Minesweeper
+  type: similar
+  repo: 'https://gitlab.com/efanomars/mynes'
+  url: 'https://efanomars.com/games/mynes/'
+  feed: 'https://gitlab.com/efanomars/mynes.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - GTK
+  licenses:
+  - GPL3
+  added: 2025-11-17
+  updated: 2025-11-17
+  images:
+  - https://efanomars.com/images/mynesrolling.gif
+  - https://efanomars.com/images/myneshuge.gif

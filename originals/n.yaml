@@ -56,6 +56,7 @@
 
 - name: Natural Selection
   external:
+    website: https://web.archive.org/web/20240713104719/https://unknownworlds.com/ns/
     wikipedia: Natural Selection (video game)
   meta:
     genres:
@@ -92,6 +93,18 @@
     genres:
     - Racing
 
+- name: Nemesis the Warlock
+  external:
+    website: 'https://www.mobygames.com/game/23131/nemesis-the-warlock/'
+  platforms:
+  - Amstrad CPC
+  - Commodore 64
+  - ZX Spectrum
+  meta:
+    genres:
+    - Action
+    - Platform
+
 - name: Nemurenu Yoru no Chiisana O-Hanashi
   names:
   - 眠れぬ夜の小さなお話
@@ -109,12 +122,38 @@
   - Pippin
   - Windows
 
-- name: NetHack
+- name: Nerdle
   external:
-    wikipedia: NetHack
+    website: 'https://www.nerdlegame.com/'
+    wikipedia: Nerdle
+  platforms:
+  - Web
   meta:
     genres:
+    - Puzzle
+
+- name: NetHack
+  external:
+    website: 'https://www.nethack.org/'
+    wikipedia: NetHack
+  platforms:
+  - Acorn 32-bit
+  - Amiga
+  - Android
+  - Classic Mac OS
+  - DOS
+  - iOS
+  - Linux
+  - OS/2
+  - PC-98
+  - Web
+  - Windows
+  meta:
+    genres:
+    - RPG
     - Roguelike
+    themes:
+    - Fantasy
 
 - name: Nether Earth
   external:
@@ -282,6 +321,12 @@
     themes:
     - Horror
 
+- name: Nitro
+  external:
+    website: 'https://www.atarimania.com/game-atari-400-800-xl-xe-nitro_37873.html'
+  platforms:
+  - Atari
+
 - name: Nodes of Yesod
   external:
     wikipedia: Nodes of Yesod
@@ -363,4 +408,3 @@
   meta:
     genres:
     - Turn-Based Strategy
-

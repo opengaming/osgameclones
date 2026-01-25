@@ -1,3 +1,24 @@
+- name: C Pong SDL
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/TobinCavanaugh/C-Pong-SDL'
+  feed: 'https://github.com/TobinCavanaugh/C-Pong-SDL/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - Unlicense
+  added: 2025-11-19
+  updated: 2025-11-19
+  images:
+  - https://raw.githubusercontent.com/TobinCavanaugh/C-Pong-SDL/master/gh/gif_anim_1.gif
+  - https://raw.githubusercontent.com/TobinCavanaugh/C-Pong-SDL/master/gh/gif_anim_2.gif
+  - https://raw.githubusercontent.com/TobinCavanaugh/C-Pong-SDL/master/gh/gif_anim_3.gif
+
 - name: C-Dogs SDL
   feed: https://cxong.github.io/cdogs-sdl/feed.xml
   frameworks:
@@ -48,6 +69,38 @@
   added: 2013-09-19
   updated: 2024-05-15
   url: http://www.c-evo.org/
+
+- name: C++Robots
+  originals:
+  - CROBOTS
+  type: similar
+  url: 'https://corewar.co.uk/cpprobots.htm'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  langs:
+  - C++
+  licenses:
+  - Custom
+  added: 2025-12-13
+  updated: 2026-01-02
+
+- name: C_PoNG
+  originals:
+  - Pong
+  type: clone
+  url: https://www.ticalc.org/archives/files/fileinfo/246/24631.html
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2026-01-07
+  updated: 2026-01-17
+  images:
+  - https://www.ticalc.org/archives/files/ss/245/24516.gif
 
 - name: c64-nuclearreaction
   langs:
@@ -120,6 +173,107 @@
   updated: 2020-02-08
   url: https://bitbucket.org/dalerank/caesaria/wiki/Home
 
+- name: CalcChu
+  originals:
+  - ChuChu Rocket!
+  type: clone
+  url: https://www.ticalc.org/archives/files/fileinfo/402/40283.html
+  development: complete
+  status: playable
+  multiplayer:
+  - Co-op
+  langs:
+  - C
+  frameworks:
+  - ExtGraph
+  licenses:
+  - Custom
+  added: 2025-12-13
+  updated: 2026-01-17
+  images:
+  - https://www.ticalc.org/archives/files/ss/763/76372.gif
+  - https://www.ticalc.org/archives/files/ss/763/76373.gif
+  - https://www.ticalc.org/archives/files/ss/763/76374.gif
+  - https://www.ticalc.org/archives/files/ss/763/76375.gif
+
+- name: CalcRogue
+  originals:
+  - NetHack
+  type: clone
+  repo: 'https://www.calculatorti.com/ti-games/ti-89/asm/nethack-rogue/'
+  url: 'https://web.archive.org/web/20180328145548/http://calcrogue.jimrandomh.org/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-12-18
+  updated: 2025-12-18
+  images:
+  - 'https://www.calculatorti.com/media/images/programs/nethack-rogue.jpg'
+
+- name: Campo Minado
+  originals:
+  - Mined-Out
+  type: clone
+  repo: 'https://minesweepergame.com/database/games.php?id=33#downloads'
+  url: 'https://minesweepergame.com/database/games.php?id=33'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: A simple version of Mined-Out.
+  added: 2026-01-07
+  updated: 2026-01-07
+  images:
+  - https://minesweepergame.com/database/image/version/158/CampoMinado-Acedo-VIC20-Instructions.jpg
+  - https://minesweepergame.com/database/image/version/158/CampoMinado-Acedo-VIC20-Level2-Gameplay.jpg
+  - https://minesweepergame.com/database/image/version/158/CampoMinado-Acedo-VIC20-Level2-Lose.jpg
+  - https://minesweepergame.com/database/image/version/158/CampoMinado-Acedo-VIC20-New.jpg
+  - https://minesweepergame.com/database/image/version/158/CampoMinado-Acedo-VIC20-Replay.jpg
+  - https://minesweepergame.com/database/image/version/158/CampoMinado-Acedo-VIC20-Score.jpg
+
+- name: canabalt-ios
+  originals:
+  - Canabalt
+  type: official
+  repo: 'https://github.com/ericjohnson/canabalt-ios'
+  url: >-
+    https://web.archive.org/web/20110102154347/http://blog.semisecretsoftware.com/nearly-25000-raised-for-charity-canabalt-goes
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Objective-C
+  licenses:
+  - Custom
+  added: 2025-12-01
+  updated: 2025-12-01
+
+- name: Candy Crisis source port
+  originals:
+  - Candy Crisis
+  type: remake
+  repo: 'https://github.com/jorio/CandyCrisis'
+  feed: 'https://github.com/jorio/CandyCrisis/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-18
+  updated: 2025-09-18
+  images:
+  - 'https://raw.githubusercontent.com/jorio/CandyCrisis/master/packaging/screenshot.jpg'
+
 - name: Cannon Fodder
   licenses:
   - As-is
@@ -157,6 +311,27 @@
   - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw2is-f_L9SzMtcTWTsbcpWzTZDsD1H3lsaqrx-Jxx6ybIG0d-u42ngvSeC16Wyv1JIiG3nbeTStR-JJgOZ9y2iav1pXGfoID-b82LCL6Pw-Jh-Dm8fjb8EbZSBQVbuFlbiv5F/s1600/view3.png
   video:
     youtube: 2omri7L7Av0
+
+- name: Cantaloupe
+  originals:
+  - Sensitive
+  type: remake
+  repo: 'https://generic.aminet.net/package/game/misc/Cantaloupe_src'
+  url: >-
+    https://web.archive.org/web/20231004232544/https://dscho.com/fruit/#:~:text=Cantaloupe
+  development: complete
+  status: playable
+  langs:
+  - AMOS BASIC
+  licenses:
+  - As-is
+  added: 2025-12-26
+  updated: 2025-12-26
+  images:
+  - https://web.archive.org/web/20240511164034im_/https://dscho.com/fruit/cantaloupe_title.png
+  - https://web.archive.org/web/20240511164034im_/https://dscho.com/fruit/cantaloupe_level1.png
+  - https://web.archive.org/web/20240511164034im_/https://dscho.com/fruit/cantaloupe_level_ed_1.png
+  - https://web.archive.org/web/20240511164035im_/https://dscho.com/fruit/cantaloupe_level_ed_2.png
 
 - name: canvas-tetris
   originals:
@@ -200,6 +375,21 @@
   video:
     youtube: UiZMQVPBQhk
 
+- name: CaptainComic
+  originals:
+  - The Adventures of Captain Comic
+  type: remake
+  repo: 'https://github.com/Evenball-8bit/CaptainComic'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-12-04
+  updated: 2025-12-04
+
 - name: Carnage3D
   langs:
   - C++
@@ -222,6 +412,23 @@
     youtube: KnqaO0YZzZY
   added: 2019-10-21
   updated: 2024-05-17
+
+- name: Carnivores 2
+  originals:
+  - Carnivores 2
+  type: official
+  repo: 'https://app.assembla.com/spaces/carnivores_2/'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - As-is
+  added: 2025-11-25
+  updated: 2025-11-25
 
 - name: Cart Life
   originals:
@@ -332,6 +539,129 @@
   video:
     youtube: iHfpBze8ecA
 
+- name: Catacomb
+  originals:
+  - Catacomb
+  type: official
+  repo: 'https://github.com/CatacombGames/Catacomb'
+  url: https://archive.org/details/Catacomb_source
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Pascal
+  - Assembly
+  licenses:
+  - GPL2
+  info: Catacomb source code.
+  added: 2025-12-01
+  updated: 2025-12-10
+  images:
+  - https://archive.org/download/Catacomb_source/catacomb5.png
+
+- name: The Catacomb
+  originals:
+  - Catacomb
+  type: official
+  repo: 'https://github.com/CatacombGames/TheCatacomb'
+  url: https://archive.org/details/CatacombII_source
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  info: Catacomb 2 source code.
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - https://archive.org/download/CatacombII_source/msdos_Catacomb_II_1991_0.jpg
+
+- name: 'Catacomb 3-D: The Descent'
+  originals:
+  - Catacomb 3-D
+  type: official
+  repo: 'https://github.com/CatacombGames/Catacomb3D'
+  url: 'https://archive.org/details/Catacomb3-D_source'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Wolfenstein 3D
+  licenses:
+  - GPL2
+  info: Catacomb 3D source code.
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - 'https://archive.org/download/Catacomb3-D_source/democat_010.png'
+
+- name: The Catacomb Abyss
+  originals:
+  - Catacomb 3-D
+  type: official
+  repo: 'https://github.com/CatacombGames/CatacombAbyss'
+  url: 'https://archive.org/details/CatacombAbyss_source'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Wolfenstein 3D
+  licenses:
+  - GPL2
+  info: Catacomb Abyss source code.
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - 'https://archive.org/download/CatacombAbyss_source/democat_009.png'
+
+- name: The Catacomb Apocalypse
+  originals:
+  - Catacomb 3-D
+  type: official
+  repo: 'https://github.com/CatacombGames/CatacombApocalypse'
+  url: 'https://archive.org/details/CatacombApocalypse_source'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Wolfenstein 3D
+  licenses:
+  - GPL2
+  info: Catacomb Apocalypse source code.
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - 'https://archive.org/download/CatacombApocalypse_source/hqdefault.jpg'
+
+- name: The Catacomb Armageddon
+  originals:
+  - Catacomb 3-D
+  type: official
+  repo: 'https://github.com/CatacombGames/CatacombArmageddon'
+  url: 'https://archive.org/details/CatacombArmageddon_source'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Wolfenstein 3D
+  licenses:
+  - GPL2
+  info: Catacomb Armageddon source code.
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - 'https://archive.org/download/CatacombArmageddon_source/hqdefault.jpg'
+
 - name: CatacombGL
   originals:
   - Catacomb 3-D
@@ -365,9 +695,12 @@
   originals:
   - Catacomb
   repo: https://github.com/Blzut3/CatacombSDL
+  feed: https://github.com/Blzut3/CatacombSDL/releases.atom
   status: playable
   type: remake
-  updated: 2014-07-23
+  info: a source port for The Catacomb (also known as Catacomb II).
+  added: 2014-07-23
+  updated: 2025-12-08
 
 - name: Cattle Bity
   type: clone
@@ -412,7 +745,7 @@
   - >-
     https://raw.githubusercontent.com/PQCraft/PQCraft/master/Screenshot_20221128_010856.png
 
-- name: CaveExpress
+- name: CaveExpress / CavePacker
   frameworks:
   - SDL
   images:
@@ -424,6 +757,7 @@
   - GPL3
   development: halted
   originals:
+  - Sokoban
   - Ugh!
   repo: https://github.com/mgerhardy/caveexpress
   feed: https://github.com/mgerhardy/caveexpress/releases.atom
@@ -433,27 +767,27 @@
   updated: 2024-05-21
   url: http://www.caveproductions.org/
   video:
-    vimeo: 79598975
-
-- name: CavePacker
-  frameworks:
-  - SDL
-  langs:
-  - C
-  licenses:
-  - GPL3
-  development: halted
-  originals:
-  - Sokoban
-  repo: https://github.com/mgerhardy/caveexpress
-  feed: https://github.com/mgerhardy/caveexpress/releases.atom
-  status: playable
-  type: clone
-  added: 2014-06-24
-  updated: 2024-05-22
-  url: http://www.caveproductions.org/
-  video:
     vimeo: 105909375
+
+- name: Caverns of Freitag Disassembly
+  originals:
+  - The Caverns of Freitag
+  type: remake
+  url: 'https://6502disassembly.com/a2-caverns-freitag/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-27
+  updated: 2025-11-27
+  images:
+  - 'https://6502disassembly.com/a2-caverns-freitag/images/TITLE.PIC.gif'
+  - 'https://6502disassembly.com/a2-caverns-freitag/images/ZAP.gif'
+  - 'https://6502disassembly.com/a2-caverns-freitag/images/DRAGON.gif'
+  - 'https://6502disassembly.com/a2-caverns-freitag/images/CavernMap.gif'
 
 - name: CAVEZ of PHEAR
   originals:
@@ -590,6 +924,59 @@
   images:
   - 'https://raw.githubusercontent.com/lemon-sherbet/ccleste/master/screenshot.png'
 
+- name: CSS Minecraft
+  originals:
+  - Minecraft
+  type: clone
+  repo: 'https://github.com/BenjaminAster/CSS-Minecraft'
+  url: 'https://benjaminaster.com/css-minecraft/'
+  development: sporadic
+  status: semi-playable
+  content: free
+  langs:
+  - HTML
+  - CSS
+  licenses:
+  - As-is
+  info: A Minecraft clone made with pure HTML & CSS – no JavaScript.
+  added: 2025-09-11
+  updated: 2025-09-11
+  images:
+  - https://raw.githubusercontent.com/BenjaminAster/CSS-Minecraft/main/assets/screenshot.png
+
+- name: Centipede Disassembly
+  originals:
+  - Centipede
+  type: remake
+  url: 'https://6502disassembly.com/va-centipede/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-17
+  updated: 2026-01-17
+  images:
+  - 'https://6502disassembly.com/va-centipede/images/scores.png'
+  - 'https://6502disassembly.com/va-centipede/images/play.png'
+
+- name: Centipede Source Code
+  originals:
+  - Centipede
+  type: official
+  repo: 'https://github.com/videogamepreservation/centipede-7800'
+  url: 'https://www.romhacking.net/documents/619/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: 'Centipede (1987) by Atari, Inc. for the Atari 7800.'
+  added: 2025-11-20
+  updated: 2025-11-20
+
 - name: Ceros Snake
   originals:
   - Snake
@@ -607,6 +994,24 @@
   added: 2025-05-28
   updated: 2025-05-28
 
+- name: cgb
+  originals:
+  - 'The Little Mermaid II: Pinball Frenzy'
+  - "Disney's Beauty and the Beast: A Board Game Adventure"
+  - '3-D Ultra Pinball: Thrillride'
+  type: official
+  repo: 'https://github.com/dashxdr/cgb'
+  url: 'https://x.com/GamingAlexandri/status/1259944619766362112'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-01
+  updated: 2025-11-01
+
 - name: chainreaction
   langs:
   - Java
@@ -620,6 +1025,27 @@
   type: remake
   updated: 2022-07-16
   url: http://cr.freewarepoint.de/
+
+- name: Chaos Groove
+  originals:
+  - 'Chaos: The Battle of Wizards'
+  type: remake
+  repo: 'https://github.com/adamjimenez/ChaosGroove'
+  url: 'https://chaosgroove.wordpress.com/'
+  feed: 'https://chaosgroove.wordpress.com/feed/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Split-screen
+  content: free
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2026-01-03
+  updated: 2026-01-03
+  images:
+  - 'https://chaosgroove.wordpress.com/wp-content/uploads/2008/03/chaosgroove26.png'
 
 - name: Chariot
   development: halted
@@ -777,6 +1203,23 @@
   - https://media.indiedb.com/cache/images/games/1/36/35232/thumb_620x2000/ezgif-6-aeefb8067282.gif
   - https://media.indiedb.com/cache/images/games/1/36/35232/thumb_620x2000/unknown-1.png
 
+- name: City_Connection
+  originals:
+  - City Connection
+  type: remake
+  repo: 'https://github.com/Evenball-8bit/City_Connection'
+  development: complete
+  status: playable
+  multiplayer:
+  - Hotseat
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-12-13
+  updated: 2025-12-13
+
 - name: Citybound
   originals:
   - SimCity
@@ -815,6 +1258,26 @@
   images:
   - https://github.com/axx0/Civ2-clone/assets/21365802/864ab9b4-ce4c-4715-9447-9e913298a971
 
+- name: Civ89
+  originals:
+  - Civilization
+  type: clone
+  repo: 'https://www.calculatorti.com/ti-games/ti-89/asm/civilization-89-civ-89/'
+  url: 'https://web.archive.org/web/20091027013406/http://www.geocities.com/civ89game/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Hotseat
+  langs:
+  - C
+  licenses:
+  - Custom
+  info: A game based on the Civilization series for TI graphing calculator.
+  added: 2025-12-13
+  updated: 2025-12-13
+  images:
+  - 'https://www.calculatorti.com/media/images/programs/civilization-89-civ-89.jpg'
+
 - name: 'Civilization: Call To Power 2 Source Project'
   licenses:
   - Custom
@@ -851,6 +1314,86 @@
   type: remake
   updated: 2022-10-10
 
+- name: cl-wordle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/conradludgate/wordle'
+  url: 'https://crates.io/crates/cl-wordle'
+  feed: 'https://github.com/conradludgate/wordle/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-19
+  updated: 2025-10-19
+  images:
+  - 'https://raw.githubusercontent.com/conradludgate/wordle/main/assets/demo.gif'
+
+- name: ClaimJumper
+  originals:
+  - Claim Jumper
+  type: remake
+  repo: 'https://github.com/scttgs0/ClaimJumper'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-14
+  updated: 2025-11-14
+
+- name: ClanBomber
+  originals:
+  - Bomberman
+  type: clone
+  repo: 'https://savannah.nongnu.org/projects/clanbomber/'
+  url: 'https://www.nongnu.org/clanbomber/'
+  feed: 'https://savannah.nongnu.org/news/atom.php?group=clanbomber'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - ClanLib
+  licenses:
+  - GPL3
+  added: 2025-09-09
+  updated: 2025-09-09
+  images:
+  - 'https://www.nongnu.org/clanbomber/images/screenshots/screenshot_001.jpeg'
+  - 'https://www.nongnu.org/clanbomber/images/screenshots/screenshot_002.jpeg'
+  - 'https://www.nongnu.org/clanbomber/images/screenshots/screenshot_003.jpeg'
+
+- name: Classic Kong
+  originals:
+  - Donkey Kong
+  type: remake
+  repo: 'https://github.com/Fissuras/classickong'
+  url: 'https://web.archive.org/web/20140331112350/http://blog.supergnes.com/?p=295'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - Apache
+  added: 2026-01-03
+  updated: 2026-01-03
+  images:
+  - https://web.archive.org/web/20140613162624if_/http://blog.supergnes.com/wp-content/uploads/2012/08/game.002.png
+  - https://web.archive.org/web/20140613162625if_/http://blog.supergnes.com/wp-content/uploads/2012/08/game.005.png
+  - https://web.archive.org/web/20130818001456if_/http://blog.supergnes.com/wp-content/uploads/2012/08/classickong.002.png
+  - https://web.archive.org/web/20140613162624if_/http://blog.supergnes.com/wp-content/uploads/2012/08/game.006.png
+  - https://web.archive.org/web/20130817112748if_/http://blog.supergnes.com/wp-content/uploads/2012/08/game.010.png
+  - https://web.archive.org/web/20130817200807if_/http://blog.supergnes.com/wp-content/uploads/2012/08/game.011.png
+
 - name: Classic RBDoom 3 BFG
   originals:
   - Doom
@@ -876,6 +1419,24 @@
   - https://media.moddb.com/images/mods/1/36/35289/Classic_RBDOOM_3_BFG.4.jpg
   video:
     youtube: LwGwpOTDlpA
+
+- name: ClassicStarTrek
+  originals:
+  - Star Trek
+  - Super Star Trek
+  type: remake
+  repo: 'https://github.com/codefool/ClassicStarTrek'
+  url: >-
+    https://userbob.com/tools/splitView?url1=https%3A%2F%2Falmy.us%2Fsst.html&url2=https%3A%2F%2Fweb.archive.org%2Fweb%2F20230129232031%2Fhttps%3A%2F%2Fwww.dunnington.info%2Fpublic%2Fstartrek%2F&direction=vertical&split1=50
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Sources for various classic Star Trek implementations.
+  added: 2026-01-16
+  updated: 2026-01-16
 
 - name: ClassiCube
   originals:
@@ -929,6 +1490,40 @@
   video:
     youtube: HITXSeg7zYc
 
+- name: cli_2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/daveiator/cli_2048'
+  url: 'https://crates.io/crates/cli_2048'
+  feed: 'https://github.com/daveiator/cli_2048/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-17
+  updated: 2025-10-17
+
+- name: clidle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/ajeetdsouza/clidle'
+  feed: 'https://github.com/ajeetdsouza/clidle/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Go
+  licenses:
+  - MIT
+  info: 'Play Wordle over SSH.'
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - 'https://raw.githubusercontent.com/ajeetdsouza/clidle/main/preview.png'
+
 - name: CloneKeen
   originals:
   - Commander Keen Series
@@ -974,6 +1569,30 @@
   - https://img.itch.zone/aW1hZ2UvMTcyMzAvMjE2NDA3LmpwZw==/original/ynL%2FK%2F.jpg
   - https://img.itch.zone/aW1hZ2UvMTcyMzAvMjE2NDA5LmdpZg==/original/3ejXxh.gif
 
+- name: The Clue!
+  originals:
+  - The Clue!
+  type: official
+  repo: 'https://sourceforge.net/projects/cosp/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: A 1994 remake of the 1986 game They $tole a Million, open-sourced in 2000.
+  added: 2025-09-29
+  updated: 2025-09-29
+  images:
+  - 'https://a.fsdn.com/con/app/proj/cosp/screenshots/24590_boxshot_1.jpg'
+  - 'https://a.fsdn.com/con/app/proj/cosp/screenshots/screenshot01.png'
+  - 'https://a.fsdn.com/con/app/proj/cosp/screenshots/screenshot06.png'
+  - 'https://cdn.mobygames.com/screenshots/3583617-the-clue-dos-intro-sequence.png'
+  - 'https://cdn.mobygames.com/screenshots/1528401-the-clue-dos-london-victoria-station.png'
+  - 'https://upload.wikimedia.org/wikipedia/en/8/82/TheClue-Planning.png'
+  - 'https://upload.wikimedia.org/wikipedia/en/7/7b/TheClue-HollandStreet.PNG'
+
 - name: Clumsy Bird
   frameworks:
   - melonJS
@@ -990,6 +1609,31 @@
   url: https://ellisonleao.github.io/clumsy-bird/
   images:
   - https://i.imgur.com/Slbvt65.png
+
+- name: Clustermines
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://sourceforge.net/projects/clustermines/'
+  url: 'https://clustermines.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/clustermines/news/feed.rss'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL2
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - https://a.fsdn.com/con/app/proj/clustermines/screenshots/135680.jpg
+  - https://a.fsdn.com/con/app/proj/clustermines/screenshots/135682.jpg
+  - https://clustermines.sourceforge.net/html/screenshots_files/page4-1000-full.jpg
+  - https://clustermines.sourceforge.net/html/screenshots_files/page4-1001-full.jpg
+  - https://clustermines.sourceforge.net/html/screenshots_files/page4-1002-full.jpg
+  - https://clustermines.sourceforge.net/html/screenshots_files/page4-1003-full.jpg
+  - https://clustermines.sourceforge.net/html/screenshots_files/page4-1004-full.jpg
 
 - name: CnC Remastered Collection
   originals:
@@ -1082,6 +1726,52 @@
   url: https://aperture-software.github.io/colditz-escape/
   info: rewritten game engine reverse engineered from the original Amiga game engine
 
+- name: The Colony
+  originals:
+  - The Colony
+  type: official
+  repo: 'https://github.com/Croquetx/thecolony'
+  url: 'https://x.com/gocroquet/status/1666309176958541824'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - Apache
+  info: First realtime 3D adventure/shooter.
+  added: 2025-12-01
+  updated: 2025-12-01
+  images:
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/Colony.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/colony-screen-001.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/colony-screen-032.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/colony-screen-047.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony-001.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony-003.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony-bridge.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony-forklift.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony-macintosh-screenshot-here-s-another-alien-waiting.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony_11.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony_13.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony_4.png
+  - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony_9.png
+
+- name: Colossal Cave Adventure
+  originals:
+  - Colossal Cave Adventure
+  type: official
+  repo: 'https://github.com/videogamepreservation/colossalcaveadventure'
+  url: 'https://rickadams.org/adventure/e_downloads.html'
+  development: complete
+  status: playable
+  langs:
+  - Fortran
+  licenses:
+  - As-is
+  added: 2025-12-30
+  updated: 2025-12-30
+
 - name: Columns
   originals:
   - Columns
@@ -1102,6 +1792,22 @@
     https://user-images.githubusercontent.com/20025614/103457653-fcb12400-4cf8-11eb-8552-1ab5f46a8450.png
   added: 2021-01-30
   updated: 2024-05-31
+
+- name: Columns-GG
+  originals:
+  - Columns
+  type: official
+  url: 'https://www.romhacking.net/documents/605/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Columns Source Code for Sega Game Gear.
+  added: 2025-12-12
+  updated: 2025-12-12
 
 - name: 'Colobot: Gold Edition'
   type: remake
@@ -1145,6 +1851,74 @@
   - Java
   frameworks:
   - JavaFX
+
+- name: Columns (2000)
+  originals:
+  - Columns
+  type: clone
+  repo: 'https://mirror.its.dal.ca/freebsd/distfiles/#:~:text=Columns'
+  url: 'https://www.freshports.org/games/columns'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-19
+  updated: 2025-10-19
+
+- name: Combat Disassembly
+  originals:
+  - Combat
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/dicombat.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200203/msg00001.html'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-10-26
+  updated: 2025-10-26
+
+- name: comisat Games Collection
+  originals:
+  - Hangman
+  - Connect 4
+  - Snake
+  - Mastermind
+  - Tetris
+  type: clone
+  repo: 'https://sourceforge.net/projects/comisat-games/'
+  url: 'http://comisat-games.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/comisat-games/news/feed.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Gambas
+  frameworks:
+  - Qt
+  - SDL
+  licenses:
+  - GPL2
+  info: >-
+    A collection of games consists of five titles – Mr.Cappio (hangman), Mr.Quattro
+    (connect 4), Mr.Biscia (snake), Mr.Mind (master mind) and Mr.Tetris (Atari
+    Tetris 1988).
+  added: 2025-10-03
+  updated: 2025-12-28
+  images:
+  - 'https://a.fsdn.com/con/app/proj/comisat-games/screenshots/88559.jpg'
+  - 'https://a.fsdn.com/con/app/proj/comisat-games/screenshots/88563.jpg'
+  - 'https://a.fsdn.com/con/app/proj/comisat-games/screenshots/88557.jpg'
+  - 'https://a.fsdn.com/con/app/proj/comisat-games/screenshots/88945.jpg'
+  - 'https://a.fsdn.com/con/app/proj/comisat-games/screenshots/92068.jpg'
 
 - name: Command & Conquer - HTML5
   type: remake
@@ -1390,6 +2164,82 @@
   type: remake
   updated: 2019-09-13
 
+- name: Commodore 64 Elite
+  originals:
+  - Elite
+  type: official
+  repo: 'https://github.com/markmoxon/elite-source-code-commodore-64'
+  url: 'https://elite.bbcelite.com/c64/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    The Commodore 64 version of Elite distinguishes itself through its enhanced
+    visuals and iconic audio, featuring colorful sprite-based graphics.
+  added: 2025-12-22
+  updated: 2025-12-22
+  images:
+  - 'https://elite.bbcelite.com/images/general/Elite-Commodore64.png'
+
+- name: 'Conquest: Frontier Wars'
+  originals:
+  - 'Conquest: Frontier Wars'
+  type: official
+  repo: >-
+    https://archive.org/details/conquest-frontier-wars-fever-pitch-studios-2001-source-code.-7z
+  url: >-
+    https://conquestfrontierwars.weebly.com/news/conquest-frontier-wars-source-code-out
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: free
+  langs:
+  - C++
+  licenses:
+  - Custom
+  added: 2025-11-10
+  updated: 2025-11-10
+
+- name: Console-RiverRaid
+  originals:
+  - River Raid
+  type: clone
+  repo: 'https://github.com/IPHundead/Console-RiverRaid'
+  development: halted
+  status: semi-playable
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2025-10-27
+  updated: 2025-10-27
+
+- name: Construder
+  originals:
+  - Minecraft
+  type: clone
+  repo: 'https://github.com/elmex/Construder'
+  url: 'https://web.archive.org/web/20120114204523/https://ue.o---o.eu/'
+  feed: 'https://github.com/elmex/Construder/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Perl
+  - C
+  licenses:
+  - AGPL3
+  added: 2025-10-14
+  updated: 2025-10-14
+  video:
+    youtube: qd95SrdNkgE
+
 - name: Contra_remake
   langs:
   - C++
@@ -1436,6 +2286,26 @@
   type: clone
   updated: 2022-07-16
 
+- name: CoolDown
+  originals:
+  - Pipe Mania
+  type: clone
+  repo: 'https://code.google.com/archive/p/cooldown-game/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  added: 2025-11-30
+  updated: 2025-11-30
+  images:
+  - https://web.archive.org/web/20151018125519im_/http://cooldown-game.googlecode.com/svn/trunk/screenshots/small2.png
+  - https://dl.openhandhelds.org/caanoo/screenshots/small4.png
+
 - name: Core Breach
   originals:
   - Wipeout
@@ -1454,6 +2324,54 @@
   - https://www.corecode.io/corebreach/CoreBreach/Pictures_files/Media/1/1.jpg
   - https://www.corecode.io/corebreach/CoreBreach/Pictures_files/Media/track6_2/track6_2.jpg
   - https://www.corecode.io/corebreach/CoreBreach/Pictures_files/Media/withlight-r116-3/withlight-r116-3.jpg
+
+- name: Corncob 3D
+  originals:
+  - Corncob 3D
+  type: official
+  repo: 'https://github.com/foone/Corncob3D'
+  url: 'https://web.archive.org/web/20020108042105/http://psky.com/prog/downloads.htm'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - PD
+  added: 2025-12-17
+  updated: 2025-12-17
+
+- name: 'Corridor 8: Galactic Wars'
+  originals:
+  - 'Corridor 8: Galactic Wars'
+  type: official
+  repo: 'https://github.com/helco88/corridor-8'
+  url: >-
+    https://web.archive.org/web/20241226032347/http://corridor7.tripod.com/corr8/index.htm
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Build
+  licenses:
+  - As-is
+  added: 2025-11-24
+  updated: 2025-11-24
+  images:
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/missstar.gif
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/allsymbl.gif
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/c8sign.gif
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/walldoor.gif
+  - https://web.archive.org/web/20241226032350im_/https://corridor7.tripod.com/corr8/images/misswall.gif
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/mapview2.gif
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/mapview3.gif
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/stairway.gif
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/levedit1.gif
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/levedit2.gif
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/levedit3.gif
+  - https://web.archive.org/web/20241226032349im_/https://corridor7.tripod.com/corr8/images/levedit4.gif
 
 - name: CorrinoEngine
   development: active
@@ -1497,6 +2415,21 @@
   video:
     youtube: rSN1p247J74
 
+- name: Cosmic Ark Disassembly
+  originals:
+  - Cosmic Ark
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/CosmicArk.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200204/msg00042.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-10-28
+  updated: 2025-10-28
+
 - name: Cosmic Kidnap
   originals:
   - Cosmic Kidnap
@@ -1514,6 +2447,25 @@
   - Custom
   added: 2025-07-29
   updated: 2025-07-29
+
+- name: cosmic-ext-2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/Kartonrealista/cosmic-ext-2048'
+  development: sporadic
+  status: semi-playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  info: 2048 application for the Cosmic desktop.
+  added: 2025-10-20
+  updated: 2025-10-20
+  images:
+  - https://raw.githubusercontent.com/Kartonrealista/cosmic-ext-2048/refs/heads/main/screenshots/s1.png
+  - https://raw.githubusercontent.com/Kartonrealista/cosmic-ext-2048/refs/heads/main/screenshots/s2.png
+  - https://raw.githubusercontent.com/Kartonrealista/cosmic-ext-2048/refs/heads/main/screenshots/s3.png
 
 - name: CosmicArk-Advanced
   licenses:
@@ -1581,6 +2533,90 @@
   updated: 2022-07-16
   url: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html
 
+- name: CoU_Server
+  originals:
+  - Glitch
+  type: remake
+  repo: 'https://github.com/ChildrenOfUr/CoU_Server'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  langs:
+  - 'C#'
+  licenses:
+  - As-is
+  info: 'A Children of Ur server rewrite using C#.'
+  added: 2026-01-09
+  updated: 2026-01-09
+
+- name: cou_server2
+  originals:
+  - Glitch
+  type: remake
+  repo: 'https://github.com/ChildrenOfUr/cou_server2'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  langs:
+  - Dart
+  frameworks:
+  - Aqueduct
+  licenses:
+  - As-is
+  info: >-
+    A Children of Ur Server rewrite using the Aqueduct framework instead of
+    Redstone.
+  added: 2026-01-09
+  updated: 2026-01-09
+
+- name: coUclient
+  originals:
+  - Glitch
+  type: remake
+  repo: 'https://github.com/ChildrenOfUr/coUclient'
+  url: 'https://game.childrenofur.com/'
+  feed: 'https://github.com/ChildrenOfUr/coUclient/releases.atom'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - Dart
+  - CSS
+  - JavaScript
+  - HTML
+  licenses:
+  - MIT
+  info: Children of Ur Client.
+  added: 2026-01-09
+  updated: 2026-01-09
+  images:
+  - https://libregamewiki.org/images/5/54/Chidren-of-ur-prealpha.png
+
+- name: coUserver
+  originals:
+  - Glitch
+  type: remake
+  repo: 'https://github.com/ChildrenOfUr/coUserver'
+  url: 'http://server.childrenofur.com/'
+  feed: 'https://github.com/ChildrenOfUr/coUserver/releases.atom'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  langs:
+  - Dart
+  frameworks:
+  - Redstone
+  licenses:
+  - MIT
+  info: Children of Ur Server.
+  added: 2026-01-09
+  updated: 2026-01-09
+
 - name: Crack Attack!
   images:
   - https://www.nongnu.org/crack-attack/gui-1.1.14-normal.png
@@ -1597,6 +2633,24 @@
   type: remake
   updated: 2014-04-16
   url: https://www.nongnu.org/crack-attack/
+
+- name: Crack'ed
+  originals:
+  - Crack'ed
+  type: official
+  repo: 'https://github.com/webberdebber/crack-src'
+  url: 'https://www.romhacking.net/documents/487/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Appears to be the original source code to the Atari 2600 game Crack’ed.
+  added: 2025-11-21
+  updated: 2025-11-26
+  images:
+  - https://www.atarimania.com/2600/screens/cracked.gif
 
 - name: Craft
   type: clone
@@ -1643,6 +2697,40 @@
   - https://raw.githubusercontent.com/varunpant/CrappyBird/master/SS3.PNG
   - https://raw.githubusercontent.com/varunpant/CrappyBird/master/SS4.PNG
 
+- name: Crazee Rider ( Acorn Electron )
+  originals:
+  - Crazee Rider
+  type: official
+  repo: 'https://github.com/KevEdwards/CrazeeRiderElectron'
+  url: 'https://x.com/KevEdwardsRetro/status/1113205022274330625'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-10
+  updated: 2025-11-10
+  images:
+  - https://raw.githubusercontent.com/KevEdwards/CrazeeRiderElectron/master/screenshot.png
+
+- name: Crazee Rider ( BBC Micro )
+  originals:
+  - Crazee Rider
+  type: official
+  repo: 'https://github.com/KevEdwards/CrazeeRiderBBC'
+  url: 'https://x.com/KevEdwardsRetro/status/1059562559123218432'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-10
+  updated: 2025-11-10
+  images:
+  - https://raw.githubusercontent.com/KevEdwards/CrazeeRiderBBC/master/screenshot.png
+
 - name: Crazy Cars
   langs:
   - BASIC
@@ -1674,6 +2762,35 @@
   updated: 2019-08-27
   url: https://libregamewiki.org/Crimson_Fields
 
+- name: Crispy Doom
+  originals:
+  - Doom
+  - Heretic
+  - Hexen
+  - Strife
+  type: remake
+  repo: 'https://github.com/fabiangreffrath/crispy-doom'
+  url: 'https://fabiangreffrath.github.io/crispy-homepage/'
+  feed: 'https://github.com/fabiangreffrath/crispy-doom/releases.atom'
+  development: very active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  info: >-
+    Crispy Doom is a limit-removing enhanced-resolution Doom source port based on
+    Chocolate Doom.
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - 'https://fabiangreffrath.github.io/crispy-homepage/assets/screenshots/menu.gif'
+  - 'https://fabiangreffrath.github.io/crispy-homepage/assets/screenshots/resolution.gif'
+  - 'https://fabiangreffrath.github.io/crispy-homepage/assets/screenshots/widescreen.gif'
+
 - name: Cro-Mag Rally
   originals:
   - Cro-Mag Rally
@@ -1704,6 +2821,26 @@
   - 'https://img.itch.zone/aW1hZ2UvMTU2NDAwNS85MTU3MTIwLnBuZw==/original/yrQlCE.png'
   - 'https://img.itch.zone/aW1hZ2UvMTU2NDAwNS85MTU3MTIyLnBuZw==/original/gJrC75.png'
   - 'https://img.itch.zone/aW1hZ2UvMTU2NDAwNS85MTU3MTIzLnBuZw==/original/4RF0jm.png'
+
+- name: CROBOTS
+  originals:
+  - RobotWar
+  type: clone
+  repo: 'https://github.com/tpoindex/crobots'
+  url: 'https://tpoindex.github.io/crobots/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-12-05
+  updated: 2025-12-05
+  images:
+  - 'https://corewar.co.uk/screenshots/crobots.png'
+  - 'https://corewar.co.uk/screenshots/crobotsamiga.png'
 
 - name: CroftEngine
   originals:
@@ -1779,6 +2916,23 @@
   updated: 2022-07-08
   url: http://www.crownandcutlass.com/
 
+- name: Cruising on Broadway
+  originals:
+  - Crossfire (Cruising)
+  type: remake
+  url: >-
+    https://web.archive.org/web/20080404203751/http://www.autismuk.freeserve.co.uk/#:~:text=Cruising%20on%20Broadway,-A
+  development: halted
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-12-09
+  updated: 2025-12-09
+
 - name: Cryogenic
   originals:
   - Dune
@@ -1803,6 +2957,60 @@
   - >-
     https://raw.githubusercontent.com/OpenRakis/Cryogenic/main/doc/cryodune_send_spice.png
 
+- name: Crystal Castles Source
+  originals:
+  - Crystal Castles
+  type: official
+  url: 'https://www.romhacking.net/documents/499/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Appears to be the original source code to the Atari 2600 game Crystal Castles.
+  added: 2025-11-13
+  updated: 2025-11-13
+
+- name: Crystal Mines Source Code
+  originals:
+  - Crystal Mines
+  type: official
+  url: 'https://www.romhacking.net/documents/553/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  - C
+  licenses:
+  - Custom
+  added: 2025-11-24
+  updated: 2025-11-24
+
+- name: The Crystal Scrolls
+  originals:
+  - 'The Elder Scrolls III: Morrowind'
+  type: remake
+  repo: 'https://sourceforge.net/projects/crystalscrolls/'
+  url: 'https://crystalscrolls.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/crystalscrolls/news/feed.rss'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - LGPL3
+  added: 2025-09-17
+  updated: 2025-09-17
+  images:
+  - 'https://crystalscrolls.sourceforge.net/screenshots/crystal000.png'
+  - 'https://crystalscrolls.sourceforge.net/screenshots/crystal002.png'
+  - 'https://crystalscrolls.sourceforge.net/screenshots/crystal003.png'
+
 - name: Crystal Stacker
   originals:
   - Columns
@@ -1824,6 +3032,21 @@
   updated: 2025-06-21
   images:
   - https://www.t3-i.com/projects/games/crystal_stacker/images/screenshot_0.png
+
+- name: CrystalMines
+  originals:
+  - Crystal Mines
+  type: remake
+  repo: 'https://github.com/Evenball-8bit/CrystalMines'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-02
+  updated: 2026-01-02
 
 - name: CrystalQuest
   frameworks:
@@ -1920,7 +3143,44 @@
   updated: 2025-06-22
   video:
     youtube: V9QlFzSVDAU
-    
+
+- name: Cubic Server
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://github.com/CubicMC/cubic-server'
+  url: 'https://web.archive.org/web/20250812024056/https://cubic-mc.com/'
+  feed: 'https://github.com/CubicMC/cubic-server/releases.atom'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  info: A fast and extensible C++ Minecraft server implementation.
+  added: 2025-10-16
+  updated: 2025-10-16
+
+- name: Cuberite
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://github.com/cuberite/cuberite'
+  url: 'https://cuberite.org/'
+  feed: 'https://cuberite.org/feed.xml'
+  development: sporadic
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - Apache
+  info: 'A lightweight, fast and extensible game server for Minecraft.'
+  added: 2025-09-21
+  updated: 2025-09-21
+
 - name: Cubosphere
   langs:
   - C++
@@ -1984,6 +3244,53 @@
   status: playable
   type: clone
   updated: 2022-10-04
+
+- name: Customizable Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://sourceforge.net/projects/customizablepon/'
+  feed: 'https://sourceforge.net/projects/customizablepon/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL2
+  added: 2025-11-11
+  updated: 2025-11-11
+  images:
+  - 'https://a.fsdn.com/con/app/proj/customizablepon/screenshots/249194.jpg'
+  - 'https://a.fsdn.com/con/app/proj/customizablepon/screenshots/250020.jpg'
+
+- name: Cylindrix
+  originals:
+  - Cylindrix
+  type: official
+  url: 'https://web.archive.org/web/20020202142926/http://www.hardgeus.com/cylindrix/'
+  development: halted
+  status: playable
+  multiplayer:
+  - LAN
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  - SDL
+  - OpenGL
+  - OpenAL
+  licenses:
+  - LGPL2
+  added: 2025-12-30
+  updated: 2025-12-30
+  images:
+  - https://web.archive.org/web/20020328070154im_/http://hardgeus.com/cylindrix/oldcylindrix/gfx/cylin1-.gif
+  - https://web.archive.org/web/20020328070720im_/http://hardgeus.com/cylindrix/oldcylindrix/gfx/cylin2-.gif
+  - https://web.archive.org/web/20060226192825im_/http://www.hardgeus.com/cylindrix/oldcylindrix/gfx/cylin6-.gif
 
 - name: Cytadela
   images:

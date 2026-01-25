@@ -56,6 +56,21 @@
   updated: 2020-08-25
   url: https://project-f.github.io/
 
+- name: F256 two to the power of eleven
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/rmsk2/F256_2048'
+  feed: 'https://github.com/rmsk2/F256_2048/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - MIT
+  added: 2025-11-17
+  updated: 2025-11-17
+
 - name: f2bgl
   frameworks:
   - SDL2
@@ -78,6 +93,21 @@
   - https://www.ferb.fr/imgs/f2b2.jpg
   - https://www.ferb.fr/imgs/f2b3.jpg
   - https://www.ferb.fr/imgs/f2b4.jpg
+
+- name: fakk2-rework
+  originals:
+  - 'Heavy Metal: F.A.K.K. 2'
+  type: remake
+  repo: 'https://github.com/Sporesirius/fakk2-rework'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2026-01-05
+  updated: 2026-01-05
 
 - name: Falling Time
   frameworks:
@@ -177,6 +207,48 @@
   updated: 2023-11-21
   url: https://fanwor.tuxfamily.org/
 
+- name: Faxanadu Disassembly
+  originals:
+  - Faxanadu
+  type: remake
+  url: 'https://www.romhacking.net/documents/586/'
+  development: halted
+  status: unplayable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-17
+  updated: 2026-01-17
+
+- name: Feud2000AD
+  originals:
+  - Feud
+  type: clone
+  repo: 'https://sourceforge.net/projects/feud/'
+  url: 'https://feud.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/feud/news/feed.rss'
+  development: halted
+  status: unplayable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - GPL2
+  added: 2025-11-02
+  updated: 2025-11-02
+  images:
+  - 'https://feud.sourceforge.net/ourfeud1.jpg'
+  - 'https://feud.sourceforge.net/screen2.jpg'
+  - 'https://feud.sourceforge.net/screen3.jpg'
+  - 'https://feud.sourceforge.net/screen4.jpg'
+  - 'https://feud.sourceforge.net/screen5.jpg'
+  - 'https://feud.sourceforge.net/tilegen.png'
+  - 'https://feud.sourceforge.net/screen6.png'
+  - 'https://feud.sourceforge.net/feudriv.jpg'
+
 - name: Fiend Finder
   originals:
   - Mamono Sweeper
@@ -242,6 +314,20 @@
   updated: 2022-02-15
   url: http://www.newbreedsoftware.com/fop/
   info: A Dandy clone with Gauntlet influences. Choose from 8 classes and roam the maze taking treasure, vanquishing monters, and finding the exit. Use explosives against enemies and keys on locked doors.
+
+- name: Fill-er-up
+  originals:
+  - Fill 'Er Up
+  type: remake
+  repo: 'https://github.com/scttgs0/Fill-er-up'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - PD
+  added: '2025-11-08'
+  updated: '2025-11-08'
 
 - name: FireMadness
   originals:
@@ -330,6 +416,25 @@
   images:
   - https://github.com/vasekp/fish-fillets/assets/11852447/f63dd474-17aa-40e7-a4f2-a50599df5b2a
 
+- name: Flappy BBerd
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/jevarg/flappy-bberd'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - MIT
+  added: 2026-01-05
+  updated: 2026-01-05
+  images:
+  - https://user-images.githubusercontent.com/2744572/209908648-cc7c1cc1-336e-435c-8565-0dd6f00dc750.png
+
 - name: Flappy Bird for Gymnasium
   originals:
   - Flappy Bird
@@ -370,6 +475,42 @@
   - 'https://tic.computer/cart/41eaf38786c4a34a832e631e190cd879/cover.gif'
   info: source is available by closing the game and pressing Esc
 
+- name: FlappyLED
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/lukdog/FlappyLED'
+  url: 'https://projecthub.arduino.cc/lukdog/flappyled-b0952a'
+  feed: 'https://github.com/lukdog/FlappyLED/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: Built for Arduino Plug&Make Kit.
+  added: 2025-10-27
+  updated: 2025-10-27
+
+- name: flappymacs
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/taksatou/flappymacs'
+  url: 'https://melpa.org/#/flappymacs'
+  development: complete
+  status: playable
+  langs:
+  - Emacs Lisp
+  frameworks:
+  - Emacs
+  licenses:
+  - MIT
+  added: 2025-10-19
+  updated: 2025-10-19
+  images:
+  - https://raw.githubusercontent.com/taksatou/flappymacs/master/data/screenshot.png
+
 - name: FlappyTiger
   originals:
   - Flappy Bird
@@ -388,6 +529,24 @@
   - MIT
   added: 2025-09-02
   updated: 2025-09-02
+
+- name: FlappyVird
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/mattn/flappyvird-vim'
+  development: halted
+  status: playable
+  langs:
+  - Vim Script
+  frameworks:
+  - Vim
+  licenses:
+  - MIT
+  added: 2025-10-09
+  updated: 2025-10-09
+  images:
+  - https://raw.githubusercontent.com/mattn/flappyvird-vim/master/data/screenshot.png
 
 - name: FlasciiBird
   originals:
@@ -467,6 +626,110 @@
   updated: 2022-08-20
   url: https://www.flightgear.org/
 
+- name: flightsim
+  originals:
+  - Tornado
+  type: official
+  repo: 'https://github.com/pi1ot/tornado-dos-flightsim'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: The frontend code is not available.
+  added: 2025-11-22
+  updated: 2025-11-22
+
+- name: Flobopuyo
+  originals:
+  - Puyo Puyo Series
+  type: clone
+  repo: 'https://salsa.debian.org/games-team/flobopuyo'
+  url: 'https://web.archive.org/web/20210508052502/http://www.fovea.cc/flobopuyo-en'
+  feed: 'https://salsa.debian.org/games-team/flobopuyo.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-17
+  updated: 2025-09-17
+  images:
+  - https://web.archive.org/web/20210511234254im_/http://www.fovea.cc/images/flobopuyo/fp1-200-0.jpg
+  - https://web.archive.org/web/20210511234255im_/http://www.fovea.cc/images/flobopuyo/fp1-200-2.jpg
+  - https://web.archive.org/web/20210511234255im_/http://www.fovea.cc/images/flobopuyo/fp1-200-3.jpg
+
+- name: Floppy Dog
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/badrain-games/fancon/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Python
+  frameworks:
+  - Pyxel
+  licenses:
+  - As-is
+  added: 2026-01-17
+  updated: 2026-01-17
+  images:
+  - https://raw.githubusercontent.com/badrain-games/fancon/master/Assets/screenshot_fd.jpg
+  - https://github.com/user-attachments/assets/18230362-cfb3-4696-abbf-ece564ac03b7
+
+- name: Flotilla
+  originals:
+  - Flotilla
+  type: official
+  repo: 'https://github.com/blendogames/flotilla'
+  url: 'https://blendogames.com/news/post/2020-02-27-flotilla_source_release/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Co-op
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - SDL2
+  - FNA
+  licenses:
+  - Zlib
+  added: 2025-12-02
+  updated: 2025-12-02
+  images:
+  - 'https://blendogames.com/flotilla/images/flotillascreen01.jpg'
+  - 'https://blendogames.com/flotilla/images/flotillascreen02.jpg'
+  - 'https://blendogames.com/flotilla/images/flotillascreen03.jpg'
+  - 'https://blendogames.com/flotilla/images/flotillascreen04.jpg'
+  video:
+    youtube: NN5fJB0bo48
+
+- name: flOw flash version source code
+  originals:
+  - flOw
+  type: official
+  repo: >-
+    https://web.archive.org/web/20160401045349/http://www.thatgamecompany.com/forum/viewtopic.php?t=993#p4255
+  development: complete
+  status: playable
+  langs:
+  - ActionScript
+  frameworks:
+  - Flash
+  licenses:
+  - As-is
+  added: 2025-11-26
+  updated: 2025-11-26
+
 - name: Fluid Table Tennis
   originals:
   - Plasma Pong
@@ -486,6 +749,28 @@
   updated: 2019-07-19
   video:
     youtube: gcF-ZenWEM4
+
+- name: Flutter McSweepy
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://git.justquitstudios.de/JustQuitStudios/minesweeper-flutter/'
+  url: 'https://f-droid.org/packages/de.justquitstudios.fluttermcsweepy/'
+  feed: 'https://git.justquitstudios.de/JustQuitStudios/minesweeper-flutter.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C++
+  - Dart
+  frameworks:
+  - Flutter
+  licenses:
+  - GPL3
+  added: 2025-10-25
+  updated: 2025-10-25
+  images:
+  - https://f-droid.org/repo/de.justquitstudios.fluttermcsweepy/en-US/phoneScreenshots/flutter_01.png
 
 - name: Follow ME
   originals:
@@ -582,6 +867,24 @@
   video:
     youtube: 19_CPDXchNI
 
+- name: Fort Apocalypse
+  originals:
+  - Fort Apocalypse
+  type: official
+  repo: 'https://github.com/heyigor/FortApocalypse'
+  url: 'https://web.archive.org/web/20221031041728/https://twitter.com/fortapocalypse'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - CC-BY-NC-ND
+  added: 2025-09-28
+  updated: 2025-09-28
+  images:
+  - https://raw.githubusercontent.com/heyigor/FortApocalypse/master/images/FortApocalypse.gif
+
 - name: FPC Atomic
   originals:
   - Atomic Bomberman
@@ -636,6 +939,20 @@
   url: https://www.freeallegiance.org/
   video:
     youtube: WcRmSt7Q_LA
+
+- name: Free Fall
+  originals:
+  - Free Fall
+  type: official
+  url: 'http://www.iancgbell.clara.net/freefall/'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2026-01-17
+  updated: 2026-01-17
 
 - name: Free Hero Mesh
   originals:
@@ -1133,6 +1450,33 @@
   type: remake
   updated: 2022-08-20
 
+- name: Freeminer
+  originals:
+  - Minecraft
+  type: similar
+  repo: 'https://github.com/freeminer/freeminer/'
+  url: 'https://freeminer.org/'
+  feed: 'https://github.com/freeminer/freeminer/releases.atom'
+  development: very active
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - CC-BY-SA
+  - GPL3
+  - LGPL2
+  info: Based on Minetest/Luanti.
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - 'https://freeminer.org/static/img/features.png'
+
 - name: Freenukum
   langs:
   - Rust
@@ -1179,6 +1523,27 @@
   updated: 2021-03-31
   video:
     youtube: 2atHnYAFQgU
+
+- name: FreePop
+  originals:
+  - Populous II
+  type: clone
+  repo: 'https://sourceforge.net/projects/freepop/'
+  url: 'https://freepop.sourceforge.net/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - ClanLib
+  licenses:
+  - GPL2
+  added: 2025-10-24
+  updated: 2025-10-24
+  images:
+  - 'https://freepop.sourceforge.net/screenshots/freepop-0.6.0-shot1.jpeg'
+  - 'https://freepop.sourceforge.net/screenshots/freepop-0.6.0-shot2.jpeg'
 
 - name: FreePrince
   langs:
@@ -1588,6 +1953,28 @@
   video:
     youtube: bqKGWq0jG60
 
+- name: Frozen Bubble for Android
+  originals:
+  - Puzzle Bobble
+  type: clone
+  repo: 'https://github.com/videogameboy76/frozenbubbleandroid'
+  url: 'https://f-droid.org/packages/org.jfedor.frozenbubble/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  - Java
+  licenses:
+  - GPL2
+  info: The Android port of the Frozen Bubble game.
+  added: 2025-09-26
+  updated: 2025-09-26
+  images:
+  - https://play-lh.googleusercontent.com/4eaodKBRKmMfvrI_EyTXhrfcRis9INwu_daRhnjHyN3nB-QsuNVnbfQaN0_IaF-vQKQ=w1052-h592-rw
+  - https://play-lh.googleusercontent.com/1l3GgCVHzrHPkR_wPrU66f7GwwDW8zpBQfGhLHLnuGnnG7103T9HRRVYRvWV0aOvicQ=w1052-h592-rw
+  - https://play-lh.googleusercontent.com/V7Y5R2BuHB0imH6Rfft2qYgjaKwco7Vjt_bzZageLNQKw1w6tzG4o0J2gn_iqiQFsg=w1052-h592-rw
+
 - name: FTE QuakeWorld
   originals:
   - Quake
@@ -1678,3 +2065,24 @@
   images:
   - https://github.com/Ghoster738/Future-Cop-MIT/assets/101094904/b6eb2d3b-105c-4166-855c-698c0dbdc6ee
   updated: 2023-12-12
+
+- name: Fyne Mines
+  originals:
+  - Minesweeper
+  type: remake
+  repo: 'https://github.com/mevdschee/fyne-mines'
+  url: 'https://tqdev.com/2024-minesweeper-in-go-using-fyne'
+  feed: 'https://github.com/mevdschee/fyne-mines/releases.atom'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - Go
+  frameworks:
+  - Fyne
+  licenses:
+  - MIT
+  added: 2025-09-13
+  updated: 2025-09-13
+  images:
+  - 'https://raw.githubusercontent.com/mevdschee/fyne-mines/main/screenshot2.png'

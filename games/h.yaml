@@ -17,6 +17,49 @@
   video:
     youtube: JW-WDZDI7Sc
 
+- name: h2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/Javran/h2048'
+  url: 'https://hackage.haskell.org/package/h2048'
+  feed: 'https://hackage.haskell.org/package/h2048.rss'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - brick
+  licenses:
+  - MIT
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - 'https://raw.githubusercontent.com/Javran/h2048/master/doc/simple.jpg'
+  - 'https://raw.githubusercontent.com/Javran/h2048/master/doc/brick.jpg'
+
+- name: Habitat
+  originals:
+  - Habitat
+  type: remake
+  repo: 'https://github.com/Museum-of-Art-and-Digital-Entertainment/habitat'
+  url: 'https://web.archive.org/web/20170222232344/https://www.themade.org/posts/1701'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - Assembly
+  - C
+  - Perl
+  licenses:
+  - MIT
+  added: 2026-01-06
+  updated: 2026-01-06
+  images:
+  - https://web.archive.org/web/20170224121100im_/https://themade.org/wp-content/uploads/2014/09/hab2.jpg
+
 - name: Hacman
   langs:
   - JavaScript
@@ -52,6 +95,27 @@
   images:
   - >-
     https://raw.githubusercontent.com/HaikuArchives/Haiku2048/master/screenshot1.png
+
+- name: Halloween 3D
+  originals:
+  - 'Halloween: The New Nightmare'
+  type: remake
+  repo: 'https://github.com/brizzly/Halloween3D'
+  url: 'https://daemonforums.org/showthread.php?t=11914'
+  development: active
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - GPL3
+  added: 2026-01-10
+  updated: 2026-01-10
+  video:
+    youtube: NV0X2O-RyTU
 
 - name: Hammer of Thyrion
   images:
@@ -162,6 +226,63 @@
   - >-
     https://raw.githubusercontent.com/ivanperez-keera/haskanoid/refs/heads/develop/screenshots/desktop.png
 
+- name: HashCon
+  originals:
+  - Galcon
+  type: clone
+  repo: https://github.com/BXL909/HASHCON
+  url: https://bxl909.github.io/HASHCON/
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - As-is
+  added: 2025-10-06
+  updated: 2025-10-06
+  images:
+  - https://github.com/BXL909/HashCon/raw/main/card.png?raw=true
+
+- name: Haskelloids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/keera-studios/Haskelloids'
+  url: 'https://hackage.haskell.org/package/Haskelloids'
+  feed: 'https://hackage.haskell.org/package/Haskelloids.rss'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Haskell
+  licenses:
+  - BSD
+  added: 2025-10-06
+  updated: 2025-10-06
+
+- name: Hatman
+  originals:
+  - Pac-Man
+  type: clone
+  repo: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/#:~:text=hatman
+  url: >-
+    https://web.archive.org/web/20090710041645/https://www.linuxlots.com/~hatsoft/hatman/
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-10-25
+  updated: 2025-10-25
+  images:
+  - 'https://happypenguin.altervista.org/screenshots/hatman.gif'
+
 - name: Haxima
   originals:
   - 'Ultima V: Warriors of Destiny'
@@ -198,6 +319,24 @@
     https://a.fsdn.com/con/app/proj/nazghul/screenshots/Screenshot%20from%202014-04-07%2008%3A57%3A25.png
   - >-
     https://a.fsdn.com/con/app/proj/nazghul/screenshots/Screenshot%20from%202014-04-07%2008%3A56%3A50.png
+
+- name: Hexen for Linux
+  originals:
+  - Hexen
+  type: remake
+  repo: 'https://www.ibiblio.org/pub/Linux/games/#:~:text=linux-hexen'
+  url: 'https://www.ibiblio.org/pub/Linux/games/linux-hexen-0.99.lsm'
+  development: halted
+  status: playable
+  content: swappable
+  langs:
+  - C
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-11-06
+  updated: 2025-11-06
 
 - name: Honey Town
   info: Harvest Moon (SNES) remake for UWP and Xbox One.
@@ -295,6 +434,23 @@
   video:
     youtube: VLLfticgh6E
 
+- name: 'Heavy Metal: F.A.K.K. 2'
+  originals:
+  - 'Heavy Metal: F.A.K.K. 2'
+  type: official
+  repo: 'https://github.com/Sporesirius/fakk2'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - id Tech 3
+  licenses:
+  - Custom
+  added: 2025-11-16
+  updated: 2025-11-16
+
 - name: Hedgewars
   frameworks:
   - SDL
@@ -348,6 +504,32 @@
   - 'https://i.imgur.com/XyD6UA2.png'
   - 'https://i.imgur.com/1w9t5N1.png'
 
+- name: Help Hannah's Horse!
+  originals:
+  - Fast Food
+  type: clone
+  repo: 'https://sourceforge.net/projects/hannah/'
+  url: 'https://retrojunkies.co.uk/welsh/home/index/91'
+  feed: 'https://sourceforge.net/p/hannah/news/feed.rss'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/Menu-2.0.png'
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/Fog-2.0.png'
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/title.png'
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/level1_2.png'
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/level3.png'
+  - 'https://a.fsdn.com/con/app/proj/hannah/screenshots/hiscore.png'
+
 - name: Hematite
   images:
   - https://raw.githubusercontent.com/PistonDevelopers/hematite/master/screenshot.png
@@ -367,6 +549,42 @@
   updated: 2024-02-24
   url: https://hematite.piston.rs/
   info: Hematite is a project aiming to implement Minecraft in Rust.
+
+- name: Heretic
+  originals:
+  - Heretic
+  type: official
+  repo: 'https://github.com/OpenSourcedGames/Heretic'
+  url: 'https://archive.org/details/Heretic_source'
+  development: complete
+  status: playable
+  multiplayer:
+  - LAN
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  added: 2025-12-20
+  updated: 2025-12-20
+
+- name: Hero Quest
+  originals:
+  - HeroQuest
+  type: official
+  repo: 'https://github.com/RetailGameSourceCode/HeroQuest'
+  url: 'https://www.romhacking.net/documents/557/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-12-16
+  updated: 2025-12-16
+  images:
+  - 'https://www.romhacking.net/translations/nes/images/titles/1590titlescreen.png'
 
 - name: Heroes
   originals:
@@ -425,6 +643,50 @@
   - https://herzog3d.sourceforge.net/images/hz_2.jpeg
   - https://herzog3d.sourceforge.net/images/hz_3.jpeg
   - https://herzog3d.sourceforge.net/images/hz_4.jpeg
+
+- name: Hexen
+  originals:
+  - Hexen
+  type: official
+  repo: 'https://github.com/OpenSourcedGames/Hexen'
+  url: https://archive.org/details/Hexen_source
+  development: complete
+  status: playable
+  multiplayer:
+  - LAN
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - id Tech 1
+  licenses:
+  - GPL2
+  added: 2025-12-11
+  updated: 2025-12-28
+
+- name: Hexen 2
+  originals:
+  - Hexen II
+  type: official
+  repo: 'https://github.com/videogamepreservation/hexen2'
+  url: >-
+    https://web.archive.org/web/20091221020510/http://archive.gamespy.com/news/november00/hexen2/
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Online
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - id Tech 2
+  licenses:
+  - GPL2
+  added: 2025-12-11
+  updated: 2025-12-11
+  images:
+  - https://web.archive.org/web/20110905130531im_/http://archive.gamespy.com/news/november00/hexen2/h2.jpg
 
 - name: HexGL
   frameworks:
@@ -489,6 +751,25 @@
   video:
     youtube: KyOkwXcEZgI
 
+- name: Hexy Mines
+  originals:
+  - Minesweeper
+  type: similar
+  repo: 'https://os4depot.net/?function=showfile&file=game/puzzle/hexymines.lha'
+  url: >-
+    https://web.archive.org/web/20090321171154/http://www.petergordon.org.uk/readme.php?file=files/hexymines.txt
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-11-01
+  updated: 2025-11-01
+
 - name: Hishigata
   originals:
   - Project Rhombus
@@ -524,6 +805,28 @@
   type: remake
   updated: 2022-08-29
   url: https://conquertheworldbycode.wordpress.com/nostalgia-2/
+
+- name: HiveWE
+  langs:
+  - C++
+  licenses:
+  - AGPL3
+  content: commercial
+  development: active
+  originals:
+  - Warcraft III
+  repo: https://github.com/stijnherfst/HiveWE
+  type: tool
+  updated: 2025-11-05
+  added: 2025-11-05
+  url: https://www.hiveworkshop.com/threads/introducing-hivewe.303183/
+  info: HiveWE is a Warcraft III World Editor (WE) that focuses on speed and ease of use.
+  status: N/A
+  images:
+  - https://raw.githubusercontent.com/stijnherfst/HiveWE/refs/heads/main/Screenshots/HiveWE.png
+  - https://raw.githubusercontent.com/stijnherfst/HiveWE/refs/heads/main/Screenshots/ObjectEditor.png
+  - https://raw.githubusercontent.com/stijnherfst/HiveWE/refs/heads/main/Screenshots/PathingEditing.png
+  - https://www.hiveworkshop.com/data/ratory-images/364/364062-a0fc8e5fcb06ebc09d32735ce44d357a.png
 
 - name: hobbitgfx
   langs:
@@ -574,6 +877,23 @@
   updated: 2022-08-29
   video:
     youtube: avtU8ng4QRE
+
+- name: Homeworld
+  originals:
+  - Homeworld
+  type: official
+  repo: 'https://github.com/videogamepreservation/homeworld'
+  url: >-
+    https://web.archive.org/web/20131012012745/http://www.insidemacgames.com/news/story.php?ArticleID=8516
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2025-11-16
+  updated: 2025-11-16
 
 - name: Homeworld SDL
   frameworks:
@@ -679,6 +999,161 @@
   - https://upload.wikimedia.org/wikipedia/en/a/af/Hovertank_3D_title_screen.jpg
   - https://upload.wikimedia.org/wikipedia/en/6/6c/Hovertank_3D_screen.png
 
+- name: HoverX
+  originals:
+  - HoverRace
+  type: remake
+  repo: 'https://github.com/jevans312/HoverX'
+  url: 'https://sites.google.com/site/hoverxdevblog/'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - As-is
+  added: 2025-11-28
+  updated: 2025-11-28
+  images:
+  - https://lh3.googleusercontent.com/sitesv/AAzXCkf2oROx9-I_SMpxhoazvnpHg6dT6OEc0Dqt_eNVui7IgcL13bpuYHd1Mel0iL3aGp--YhbJlKT04AxNv--LUVxlqDgIZ9v1PdBUy8Ea1GQ6kOa2Pv4BmJvtfTCCiNFrSA-MCksyNtCRCD-7X6RJSAaM2VPHbGgzpNCwGTZl19oFEGv6TOHZ5a6jzfUqFYJTwAF-747u=w1280
+  - https://lh3.googleusercontent.com/sitesv/AAzXCkcF3CPVS64VSQuA5T3OzVtFDd1dmDjFYuFuNAkEUTc5yhAFZ5sCBY1ukfdtf0Ji01RL0CBaByw4BwAILvdM1h_eo8BoqSfCM4rbEYJTyQfLERwZsHHuzBXn16kmfhV0EZYTKycbqjVMPwXIht13Gni2e2r_uBg0ZzQH1eoWv9c-GIYKs85ent3hmEhtGO5GRLInKmLr=w1280
+  - https://lh3.googleusercontent.com/sitesv/AAzXCkfZV6C9D66ZGaYZ0tplfT0bfwnI690UpJqbImeXQzIsiGRwXolKVkyjNKr6jdG0u4j60skeAmqc-Tufg20mVjOTwy7dKk2vZQm6ti38xTspiKT7VYGI3Z2QThvwIK-QQSwFXRPbYghYRzC4ZvolVs7WjtDXTx7AJF8yujdqOP5C3z6iGKkA7POi9UthRv8Wb970rF-W=w1280
+  - https://lh3.googleusercontent.com/sitesv/AAzXCkcHANBZiQr__H7wW7I48jkNsDSlMoga45zBJWjQGhhvYf51SKFavNcR2YLZopzF5cuZsljuD-mNr3C_MxJJr6ce06AyEH4NN4HOcDNRKqLQ2-11v6O5wR_OJcyFbMg-cH8X-Za30jWMcOQ2Gq5rAD8nlcfNIFQIPBeUPfbSxiyJlMknSjMxL-Ff3Li9lBHQHmblGtzx=w1280
+  - https://lh3.googleusercontent.com/sitesv/AAzXCkeRUvm8NmvquT-VQqJfvhTT8t-ZibyeoB9NBrL6D35f6A45NvMoPzIZ9x4YXljSH-15WEu-F13C2PWh9GQQ49iuwzCFNU3iFIO81P921bzSlv9sgGcxSL5CsZFPOSzfKotwSSDoH5so22KhIeDj3-1rXs-P3jQZ4Zr4w2Lbsr7gzryQjVUVnLc5Xo58tNEatVjVXtbl=w1280
+  - https://lh3.googleusercontent.com/sitesv/AAzXCkfVI7a6UvcXjkDFcPTebreH-GJ7sI5bxVdYghgFCzj67qJLucZMOnkGwWyoiMxcqi27sJ68d8O0bQHCwKmpMPflrDDjcpKA7uTnQhjTjCkDkXLQHqaVFW6t1wjsb6VFKFTjNoofvb_5BdcHK-O49rWKZEmc7A_7A1UcqM-Ke780EZvM3zems2ytzdX22JbPjk1lTwRh=w1280
+  - https://lh3.googleusercontent.com/sitesv/AAzXCkewXr2KIT0suyBTnyyXyebDwjGzeyAZEbezOIy_HtFoG_r-hEaN99ZNnYYAML2lHbdMsw5VeIMMx8EOiKnU7Su67hPEzkSJpE6Vgh_-I7rQOwALf9RepVyTzm7vAEEtEVgb-c1zciXqwlwPaIl_NE3uTo1umHdjSniPp6GWYdbUME903g_oKIpDYLC8Rk9SyjTYbe-3=w1280
+
+- name: HPong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://hackage.haskell.org/package/HPong'
+  url: 'https://bonsaicode.wordpress.com/2009/04/23/hpong-012/'
+  feed: 'https://hackage.haskell.org/package/HPong.rss'
+  development: halted
+  status: semi-playable
+  langs:
+  - Haskell
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2025-09-26
+  updated: 2025-09-26
+  images:
+  - 'https://bonsaicode.wordpress.com/wp-content/uploads/2009/04/hpong.png'
+
+- name: hs2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/tfausak/hs2048'
+  url: 'https://hackage.haskell.org/package/hs2048'
+  feed: 'https://hackage.haskell.org/package/hs2048.rss'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  licenses:
+  - MIT
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://i.imgur.com/utw0O1h.png'
+
+- name: HTML5-Breakout
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://github.com/toivjon/html5-breakout'
+  url: 'https://toivjon.wordpress.com/2017/07/08/html5-breakout/'
+  development: complete
+  status: playable
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2025-12-28
+  updated: 2025-12-28
+  images:
+  - https://raw.githubusercontent.com/toivjon/html5-breakout/master/Screenshots/welcome-scene.png
+  - https://raw.githubusercontent.com/toivjon/html5-breakout/master/Screenshots/court-scene.png
+
+- name: HTML5-Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/toivjon/html5-pong'
+  url: 'https://toivjon.wordpress.com/2017/06/04/html5-pong/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2025-12-15
+  updated: 2025-12-15
+  images:
+  - https://raw.githubusercontent.com/toivjon/html5-pong/master/Screenshots/welcome-scene.png
+  - https://raw.githubusercontent.com/toivjon/html5-pong/master/Screenshots/court-scene.png
+  - https://raw.githubusercontent.com/toivjon/html5-pong/master/Screenshots/endgame-scene.png
+  - https://toivjon.wordpress.com/wp-content/uploads/2017/06/pong2.png
+  video:
+    youtube: McVMjHzR6uw
+
+- name: HTML5-Space-Invaders
+  originals:
+  - Space Invaders
+  type: remake
+  repo: 'https://github.com/toivjon/html5-space-invaders'
+  url: 'https://toivjon.wordpress.com/2017/09/17/html5-space-invaders/'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  - HTML
+  licenses:
+  - MIT
+  added: 2025-12-20
+  updated: 2025-12-20
+  images:
+  - https://toivjon.wordpress.com/wp-content/uploads/2017/09/space_invaders_screenshot.png
+  - https://raw.githubusercontent.com/toivjon/html5-space-invaders/master/Screenshots/welcome-scene.png
+  - https://raw.githubusercontent.com/toivjon/html5-space-invaders/master/Screenshots/playplayer-scene.png
+  - https://raw.githubusercontent.com/toivjon/html5-space-invaders/master/Screenshots/ingame-scene.png
+
+- name: Humphrey
+  originals:
+  - Humphrey
+  type: remake
+  url: 'https://retrospec.sgn.net/info.htm?id=humphrey&t=g'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2025-09-26
+  updated: 2025-09-26
+  images:
+  - 'https://retrospec.sgn.net/style/images/screenshots/humphrey_full_1.jpg'
+  - 'https://retrospec.sgn.net/style/images/screenshots/humphrey_full_2.jpg'
+  - 'https://retrospec.sgn.net/style/images/screenshots/humphrey_full_3.jpg'
+
 - name: Hurrican
   langs:
   - C++
@@ -703,6 +1178,60 @@
   video:
     youtube: -jk3DNTYx_w
 
+- name: Hypercycles
+  originals:
+  - Hypercycles
+  type: official
+  repo: https://github.com/malespiaut/hypercycles
+  url: 'https://forum.freegamedev.net/viewtopic.php?f=20&t=7296&p=71956'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - GPL3
+  added: 2025-12-18
+  updated: 2025-12-18
+  video:
+    youtube: X5lKyFO6qkA
+
+- name: Hypercycles (SDL2)
+  originals:
+  - Hypercycles
+  type: remake
+  repo: 'https://github.com/jevarg/hypercycles'
+  feed: 'https://github.com/jevarg/hypercycles/releases.atom'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2025-12-25
+  updated: 2025-12-25
+
+- name: Hyperium
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://github.com/HyperiumClient/Hyperium'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - Java
+  licenses:
+  - LGPL3
+  info: Free Minecraft client with HUDs and Popular mods.
+  added: 2026-01-05
+  updated: 2026-01-05
+
 - name: Hyperoid
   originals:
   - Asteroids
@@ -719,6 +1248,20 @@
   updated: 2025-08-24
   images:
   - 'https://www.classicdosgames.com/images/screenshots/win16/Hyperoid.png'
+
+- name: hyperoids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/zaceno/hyperoids'
+  development: halted
+  status: unplayable
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2025-10-25
+  updated: 2025-10-25
 
 - name: HyperRogue
   originals:
@@ -750,7 +1293,7 @@
   - Hotline Miami
   type: similar
   repo: 'https://github.com/TeamHypersomnia/Hypersomnia'
-  url: 'https://hypersomnia.xyz'
+  url: 'https://hypersomnia.io'
   development: sporadic
   status: playable
   multiplayer:

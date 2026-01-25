@@ -1,3 +1,21 @@
+- name: B-DASH
+  originals:
+  - Boulder Dash
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/Linux/games/arcade/#:~:text=bdash031'
+  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/bdash030.lsm'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-11-03
+  updated: 2025-11-03
+
 - name: bab-be-u
   type: clone
   originals:
@@ -76,6 +94,72 @@
   - 'https://raw.githubusercontent.com/xavieran/BaKGL/master/screenshots/macmordain.png'
   - https://github.com/xavieran/BaKGL/blob/master/screenshots/northlands.png?raw=true
   - https://github.com/xavieran/BaKGL/blob/master/screenshots/waterfall_ui.png?raw=true
+
+- name: Balance of Power 1990
+  originals:
+  - Balance of Power
+  type: official
+  url: >-
+    https://www.erasmatazz.com/library/source-code/#:~:text=Balance%20of%20Power%201990
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Pascal
+  licenses:
+  - As-is
+  added: 2026-01-06
+  updated: 2026-01-06
+
+- name: Balance of the Planet
+  originals:
+  - Balance of the Planet
+  type: official
+  url: >-
+    https://www.erasmatazz.com/library/source-code/#:~:text=Balance%20of%20the%20Planet%20(1990)
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Pascal
+  licenses:
+  - As-is
+  added: 2026-01-06
+  updated: 2026-01-06
+
+- name: Balance of the Planet (2010)
+  originals:
+  - Balance of the Planet
+  type: official
+  url: >-
+    https://www.erasmatazz.com/library/source-code/#:~:text=Balance%20of%20the%20Planet%20(2010)
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Java
+  licenses:
+  - As-is
+  added: 2026-01-06
+  updated: 2026-01-06
+
+- name: Balatro TUI
+  originals:
+  - Balatro
+  type: clone
+  repo: 'https://github.com/Passeriform/BalatroTUI'
+  url: 'https://crates.io/crates/balatro_tui'
+  feed: 'https://github.com/Passeriform/BalatroTUI/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-09
+  updated: 2025-10-09
+  images:
+  - https://raw.githubusercontent.com/Passeriform/BalatroTUI/master/assets/demo.gif
 
 - name: Ball And Wall
   langs:
@@ -168,6 +252,33 @@
   images:
   - https://raw.githubusercontent.com/BenjaminRi/Banania/master/banania_win95.png
 
+- name: Bansoko
+  originals:
+  - Soko-Ban
+  type: clone
+  repo: 'https://github.com/kfurtak1024/bansoko'
+  url: 'https://kfurtak1024.itch.io/bansoko'
+  feed: 'https://kfurtak1024.itch.io/bansoko/devlog.rss'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - Pyxel
+  licenses:
+  - MIT
+  added: 2025-09-23
+  updated: 2025-09-23
+  images:
+  - https://img.itch.zone/aW1hZ2UvODEwNzAzLzQ3NzM5NzQuZ2lm/original/DEqe%2FA.gif
+  - https://img.itch.zone/aW1hZ2UvODEwNzAzLzQ3NzQxNzYucG5n/original/ZuV6EM.png
+  - https://img.itch.zone/aW1hZ2UvODEwNzAzLzQ3NzQxNzUucG5n/original/SQQq9A.png
+  - https://img.itch.zone/aW1hZ2UvODEwNzAzLzQ3NzQxNzgucG5n/original/hbz3Zr.png
+  - https://img.itch.zone/aW1hZ2UvODEwNzAzLzQ3NzQxNzkucG5n/original/wHbdj0.png
+  - https://raw.githubusercontent.com/kfurtak1024/bansoko/master/docs/images/screen_shot4.png
+  - https://raw.githubusercontent.com/kfurtak1024/bansoko/master/docs/images/screen_shot6.png
+
 - name: Barbarian
   frameworks:
   - QB64
@@ -182,6 +293,24 @@
   type: remake
   updated: 2022-07-09
   url: http://barbarian.1987.free.fr/indexEN.htm
+
+- name: Barbie Super Model Source Code
+  originals:
+  - 'Barbie: Super Model'
+  type: official
+  url: 'https://www.romhacking.net/documents/604/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    The source code for the unreleased Sega Game Gear version of Barbie Super
+    Model.
+  added: 2026-01-10
+  updated: 2026-01-10
 
 - name: Barony
   type: official
@@ -233,6 +362,41 @@
     https://images.pling.com/img/00/00/66/05/71/2143970/screenshot-2024-04-21-184017.png
   - >-
     https://images.pling.com/img/00/00/66/05/71/2143970/screenshot-2024-04-21-184037.png
+
+- name: bash2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/JosefZIla/bash2048'
+  feed: 'https://github.com/JosefZIla/bash2048/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Shell
+  licenses:
+  - Unlicense
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048a.png
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048b.png
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048c.png
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048d.png
+
+- name: Batman Returns
+  originals:
+  - Batman Returns
+  type: official
+  repo: 'https://github.com/RetailGameSourceCode/BatmanReturns'
+  url: 'https://shrigley.com/batman-returns-sega-cd-3d-driving-game-source-code/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-01
+  updated: 2026-01-01
 
 - name: Batrachians
   images:
@@ -300,6 +464,23 @@
   video:
     youtube: 4Ebww6utt9I
 
+- name: Battle Konchuuden
+  originals:
+  - Battle Konchūden
+  type: official
+  repo: 'https://github.com/RetailGameSourceCode/BattleKonchuuden'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-01-13
+  updated: 2026-01-13
+
 - name: BattleCity
   originals:
   - Battle City
@@ -331,6 +512,22 @@
   type: clone
   updated: 2022-07-09
 
+- name: Battlezone Disassembly
+  originals:
+  - Battlezone
+  type: remake
+  url: 'https://6502disassembly.com/va-battlezone/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-15
+  updated: 2026-01-15
+  images:
+  - 'https://6502disassembly.com/va-battlezone/images/gameplay.png'
+
 - name: Battle Pong
   originals:
   - Pong
@@ -355,6 +552,71 @@
   - 'https://icculus.org/battlepong/img/screens/screen3.png'
   - 'https://icculus.org/battlepong/img/screens/screen4.png'
   - 'https://icculus.org/battlepong/img/screens/screen5.png'
+
+- name: BBC Master Elite
+  originals:
+  - Elite
+  type: official
+  repo: 'https://github.com/markmoxon/elite-source-code-bbc-master'
+  url: 'https://elite.bbcelite.com/master/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    The BBC Master version of Elite looks and feels pretty similar to the 6502
+    Second Processor version, and although it lacks that version's unique
+    features, it instead has quite a few of its own.
+  added: 2025-12-22
+  updated: 2025-12-22
+  images:
+  - 'https://elite.bbcelite.com/images/general/Elite-Master.png'
+
+- name: BBC Micro cassette Elite
+  originals:
+  - Elite
+  type: official
+  repo: 'https://github.com/markmoxon/elite-source-code-bbc-micro-cassette'
+  url: 'https://elite.bbcelite.com/cassette/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    The BBC Micro cassette version is the standard, entry-level version of the
+    original Acornsoft Elite.
+  added: 2025-12-22
+  updated: 2025-12-22
+  images:
+  - 'https://elite.bbcelite.com/images/general/Elite-BBCMicro.png'
+
+- name: BBC Micro disc Elite
+  originals:
+  - Elite
+  type: official
+  repo: 'https://github.com/markmoxon/elite-source-code-bbc-micro-disc'
+  url: 'https://elite.bbcelite.com/disc/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    The BBC Micro disc version plays just like its tape-based sibling, but
+    contains a number of extra features that make it the canonical version of
+    Acornsoft Elite.
+  added: 2025-12-22
+  updated: 2025-12-22
+  images:
+  - 'https://elite.bbcelite.com/images/disc/mission1a.png'
 
 - name: BBTools
   originals:
@@ -414,6 +676,40 @@
   type: remake
   updated: 2024-04-16
 
+- name: Beeb-Adventureland
+  originals:
+  - Adventureland
+  type: remake
+  repo: 'https://github.com/ahope1/Beeb-Adventureland'
+  url: >-
+    https://ahopeful.wordpress.com/2020/09/13/digging-up-adventureland-scott-adams-1980/
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2025-12-07
+  updated: 2025-12-07
+
+- name: Beeb-Pirate-Adventure
+  originals:
+  - Pirate Adventure
+  type: remake
+  repo: 'https://github.com/ahope1/Beeb-Pirate-Adventure'
+  url: >-
+    https://ahopeful.wordpress.com/2020/08/25/scott-adamss-type-in-pirate-adventure-byte-1980/
+  feed: 'https://github.com/ahope1/Beeb-Pirate-Adventure/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: BBC Micro port of Scott Adams's classic TRS-80 game Pirate Adventure.
+  added: 2025-11-27
+  updated: 2025-12-28
+
 - name: BeMines
   originals:
   - Minesweeper
@@ -458,6 +754,42 @@
   - >-
     https://github.com/bemusic/bemuse/raw/master/website/static/img/screenshots/options.jpg
 
+- name: Beneath a Steel Sky
+  originals:
+  - Beneath a Steel Sky
+  type: official
+  repo: 'https://github.com/commercial-game-sources/beneath_a_steel_sky'
+  url: 'https://www.classicdosgames.com/game/Beneath_a_Steel_Sky.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - Custom
+  content: free
+  added: 2025-12-29
+  updated: 2025-12-29
+
+- name: BeNetTris
+  originals:
+  - TetriNET
+  type: remake
+  repo: 'https://github.com/HaikuArchives/BeNetTris'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  info: A client and server compatible with Tetrinet and TetriFast.
+  added: 2025-12-20
+  updated: 2025-12-20
+  images:
+  - https://raw.githubusercontent.com/HaikuArchives/BeNetTris/master/screenshot1.png
+
 - name: BePuyo
   originals:
   - Puyo Puyo Series
@@ -493,7 +825,78 @@
   type: remake
   updated: 2021-05-17
   url: http://cyxdown.free.fr/bs/
-  
+
+- name: Berusky I
+  originals:
+  - Sokoban
+  type: similar
+  repo: 'https://github.com/stransky/berusky'
+  url: 'https://anakreon.cz/berusky1.html'
+  feed: 'https://github.com/stransky/berusky/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://www.anakreon.cz/images/b1screens/Stred1.gif'
+  - 'https://anakreon.cz/images/b1screens/Tezk2.gif'
+  - 'https://anakreon.cz/images/b1screens/Tren2.gif'
+  - 'https://anakreon.cz/images/berusky1/b1path1.jpg'
+  - 'https://anakreon.cz/images/b1screens/Stred2.gif'
+
+- name: Berusky II
+  originals:
+  - Sokoban
+  type: similar
+  repo: 'https://github.com/stransky/berusky2'
+  url: 'https://www.anakreon.cz/berusky2.html'
+  feed: 'https://github.com/stransky/berusky2/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  info: Also known as Bugs Escape 3D.
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - 'https://anakreon.cz/images/b2screens/scr5.jpg'
+  - 'https://anakreon.cz/images/b2screens/scr2.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr0.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr1.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr3.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr4.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr6.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr7.jpg'
+  - 'https://www.anakreon.cz/images/b2screens/scr8.jpg'
+
+- name: Berzerk Disassembly
+  originals:
+  - Berzerk
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/berzerk.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200412/msg00090.html'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-10-25
+  updated: 2025-10-25
+
 - name: BetterSpades
   development: sporadic
   info: Ace of Spades client targeted at low end systems (GL/ES 1.1). 
@@ -548,6 +951,37 @@
   - >-
     https://assets.website-files.com/5c68622246b367adf6f3041d/61361932dca36e033abe7822_BAR_screenshot_112.jpg
 
+- name: The Beyond Castle Wolfenstein Project
+  originals:
+  - Beyond Castle Wolfenstein
+  type: remake
+  url: 'http://www.oldskool.org/pc/BCW/'
+  development: halted
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-24
+  updated: 2025-11-24
+  images:
+  - https://web.archive.org/web/20250609212821if_/http://www.oldskool.org/pc/BCW/bcw_title.gif
+  - https://web.archive.org/web/20250417013847if_/http://www.oldskool.org/pc/BCW/bcw_play1.gif
+
+- name: Beyond the Titanic
+  originals:
+  - Beyond the Titanic
+  type: remake
+  repo: 'https://github.com/samuelbrian/beyond-the-titanic'
+  development: halted
+  status: playable
+  langs:
+  - Pascal
+  licenses:
+  - GPL2
+  added: 2026-01-07
+  updated: 2026-01-07
+
 - name: Billig-Sweeper
   originals:
   - Minesweeper
@@ -569,6 +1003,37 @@
   images:
   - >-
     https://github.com/realchonk/billig-sweeper/raw/master/data/Screenshots/bsw1.png
+
+- name: BioMenace decompilation
+  originals:
+  - Bio Menace
+  type: remake
+  repo: 'https://github.com/lethal-guitar/BioMenaceDecomp'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2026-01-14
+  updated: 2026-01-14
+
+- name: Bird Strike
+  originals:
+  - Bird Strike
+  type: official
+  repo: 'https://github.com/qurm/BirdStrike'
+  url: 'https://stardot.org.uk/forums/viewtopic.php?p=325768#p325768'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - Assembly
+  licenses:
+  - GPL3
+  added: 2025-12-28
+  updated: 2025-12-28
 
 - name: BitRiot
   langs:
@@ -608,6 +1073,32 @@
   images:
   - 'https://github.com/izabera/bitwise-challenge-2048/raw/develop/banner.png'
 
+- name: 'Blake Stone: Planet Strike'
+  originals:
+  - 'Blake Stone: Planet Strike'
+  type: official
+  repo: 'https://github.com/johndrinkwater/blake-stone'
+  url: >-
+    https://web.archive.org/web/20160329081046/https://apogeesoftware.com/uncategorized/apogee-releases-blake-stone-source-code
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Wolfenstein 3D
+  licenses:
+  - GPL2
+  added: 2025-12-01
+  updated: 2025-12-01
+  images:
+  - https://web.archive.org/web/20160314113533im_/http://apogeesoftware.com/wp-content/uploads/2013/06/planetss1.jpg
+  - https://web.archive.org/web/20160314115231im_/http://apogeesoftware.com/wp-content/uploads/2013/06/planetss2.jpg
+  - https://web.archive.org/web/20160314120305im_/http://apogeesoftware.com/wp-content/uploads/2013/06/planetss3.jpg
+  - https://web.archive.org/web/20160314120301im_/http://apogeesoftware.com/wp-content/uploads/2013/06/planetss4.jpg
+  video:
+    youtube: oIiEeTAGCAw
+
 - name: BlakedAwesomenaughts
   langs:
   - JavaScript
@@ -623,6 +1114,56 @@
   repo: https://github.com/zombieman1041/BlakedAwesomenaughts
   type: remake
   updated: 2022-07-09
+
+- name: Blitzkrieg
+  originals:
+  - Blitzkrieg
+  type: official
+  repo: 'https://github.com/nival/Blitzkrieg'
+  url: 'https://3dnews.ru/1122168'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  langs:
+  - C++
+  frameworks:
+  - Enigma
+  - DirectX
+  licenses:
+  - Custom
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - https://cdn.3dnews.ru/assets/external/illustrations/2025/05/01/1122168/1.jpg
+  - https://cdn.3dnews.ru/assets/external/illustrations/2025/05/01/1122168/2.jpg
+  video:
+    youtube: zNxMvTcsJbk
+
+- name: Blitzkrieg 2
+  originals:
+  - Blitzkrieg 2
+  type: official
+  repo: 'https://github.com/nival/Blitzkrieg-2'
+  url: >-
+    https://app2top.ru/news/nival-vy-lozhila-v-otkry-ty-j-dostup-ishodniki-blitskrig-2-234518.html
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Enigma
+  - DirectX
+  licenses:
+  - Custom
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - 'https://app2top.ru/wp-content/uploads/2025/09/littskrig-2.jpg'
+  video:
+    youtube: Cw8rA2hvDGg
 
 - name: Block Attack - Rise of the Blocks
   frameworks:
@@ -645,6 +1186,23 @@
   url: https://blockattack.net/
   video:
     youtube: xHxnGB2y_lg
+
+- name: Block It Protoype HTML5
+  originals:
+  - Block It
+  type: clone
+  repo: 'https://github.com/rembound/Block-It-Protoype-HTML5'
+  url: 'http://rembound.com/articles/making-a-block-it-game-prototype-with-html5'
+  development: halted
+  status: semi-playable
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2025-10-18
+  updated: 2025-10-18
+  images:
+  - https://rembound.com/files/making-a-block-it-game-prototype-with-html5/block-it.png
 
 - name: Block Shooter
   type: remake
@@ -717,6 +1275,23 @@
   - https://a.fsdn.com/con/app/proj/blockout/screenshots/133085.jpg/max/max/1
   - https://a.fsdn.com/con/app/proj/blockout/screenshots/133083.jpg/max/max/1
 
+- name: Blocks
+  originals:
+  - Tetris
+  type: clone
+  repo: https://github.com/wpdevelopment11/blocks
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - Python
+  licenses:
+  - MIT
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - https://raw.githubusercontent.com/wpdevelopment11/blocks/refs/heads/main/demo.gif
+
 - name: Blood & Magic Interactive Demo
   originals:
   - Blood & Magic
@@ -735,6 +1310,28 @@
     The official source code to the interactive demo of Blood & Magic, included as
     part of The Forgotten Realms Archives
   updated: '2023-12-08'
+
+- name: 'Blood II: The Chosen'
+  originals:
+  - 'Blood II: The Chosen'
+  type: official
+  repo: 'https://github.com/videogamepreservation/blood2'
+  url: >-
+    https://web.archive.org/web/20000818075110/http://www.lith.com/lithtech/source.asp
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - LithTech
+  licenses:
+  - As-is
+  info: The LithTech engine was not included as source code.
+  added: 2025-11-06
+  updated: 2025-11-06
 
 - name: BloodGDX
   originals:
@@ -798,6 +1395,21 @@
   type: remake
   updated: 2019-09-02
 
+- name: Blue Max
+  originals:
+  - Blue Max
+  type: official
+  repo: 'https://gitlab.com/atari/bluemax'
+  url: 'https://forums.atariage.com/topic/249933-blue-max-source-code-for-you/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-09
+  updated: 2025-11-09
+
 - name: Blues
   originals:
   - The Blues Brothers
@@ -837,6 +1449,21 @@
   images:
   - https://user-images.githubusercontent.com/69308038/160944172-cfbc0da0-ccfb-4435-848e-45bffd92cb68.png
   - https://user-images.githubusercontent.com/69308038/160944100-7509f12f-24f5-4f4a-a5fb-ac8a30136e97.png
+
+- name: BOB_Src
+  originals:
+  - Rowan's Battle of Britain
+  type: official
+  repo: 'https://github.com/gondur/BOB_Src'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - Custom
+  added: 2025-11-19
+  updated: 2025-11-19
 
 - name: BobBall
   originals:
@@ -895,6 +1522,26 @@
   type: remake
   updated: 2022-06-26
   url: https://sourceforge.net/p/bomb-mania/wiki/Home/
+
+- name: Bomber Disassembly
+  originals:
+  - Bomber
+  type: remake
+  repo: 'https://6502disassembly.com/a2-bomber/Bomber.html'
+  url: 'https://6502disassembly.com/a2-bomber/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-26
+  updated: 2025-11-26
+  images:
+  - 'https://6502disassembly.com/a2-bomber/images/explosion05.gif'
+  - 'https://6502disassembly.com/a2-bomber/images/explosion07.gif'
+  - 'https://6502disassembly.com/a2-bomber/images/explosion09.gif'
+  - 'https://6502disassembly.com/a2-bomber/images/explosion12.gif'
 
 - name: Bomberclone
   originals:
@@ -963,6 +1610,27 @@
   - 'https://bombermaaan.sourceforge.net/screenshots/rev528_01.png'
   video:
     youtube: SgVdsrDAUwA
+
+- name: Bomberman LAN
+  originals:
+  - Bomberman
+  type: clone
+  url: 'https://oldschoolprg.x10.mx/projets.php#:~:text=Bomberman%20LAN'
+  development: complete
+  status: playable
+  multiplayer:
+  - LAN
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - Custom
+  added: 2025-09-28
+  updated: 2025-09-28
+  images:
+  - 'https://oldschoolprg.x10.mx/images/prj_bmb0.png'
 
 - name: Bombic
   images:
@@ -1063,6 +1731,52 @@
   type: remake
   updated: 2019-09-02
 
+- name: BoulderBombers
+  originals:
+  - Boulder Bombers
+  type: remake
+  repo: 'https://github.com/scttgs0/BoulderBombers'
+  feed: 'https://github.com/scttgs0/BoulderBombers/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - PD
+  added: 2025-11-09
+  updated: 2025-11-09
+
+- name: Bouncy Ball
+  originals:
+  - Pong
+  type: clone
+  url: https://www.ticalc.org/archives/files/fileinfo/382/38287.html
+  development: halted
+  status: semi-playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: A simple pong clone for TI graphing calculator.
+  added: 2025-11-27
+  updated: 2026-01-17
+
+- name: BoxMan
+  originals:
+  - Sokoban
+  type: clone
+  url: 'https://sokoban.cn/kuaishou/kuaishou.php'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - Java
+  licenses:
+  - As-is
+  info: Chinese Android app 推箱快手.
+  added: 2025-10-29
+  updated: 2025-10-29
+
 - name: brainblast
   langs:
   - C++
@@ -1114,6 +1828,43 @@
   type: remake
   updated: 2015-05-15
 
+- name: BrainCurses
+  originals:
+  - Mastermind
+  type: clone
+  repo: 'https://github.com/bderrly/braincurses'
+  feed: 'https://github.com/bderrly/braincurses/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL2
+  added: 2025-11-07
+  updated: 2025-11-07
+
+- name: Breach for Genesis
+  originals:
+  - Breach
+  type: official
+  repo: 'https://github.com/dashxdr/breach'
+  url: 'https://www.gamingalexandria.com/wp/2020/04/breach-sega-genesis/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-11-03
+  updated: 2025-11-03
+  images:
+  - 'https://www.gamingalexandria.com/wp/wp-content/uploads/2020/03/breach_SEGA.bmp'
+  video:
+    youtube: UU4W7HWhd0I
+
 - name: Breaker
   originals:
   - Arkanoid
@@ -1133,6 +1884,58 @@
   updated: 2025-08-21
   images:
   - 'https://a.fsdn.com/con/app/proj/breaker10/screenshots/prj_arka0.png'
+
+- name: Break In
+  originals:
+  - Breakout
+  type: clone
+  url: >-
+    https://archive.org/download/30programsforthezx81/30ProgramsForTheZx81.pdf#page=23
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: The game was published in the book "30 Programs for the ZX81".
+  added: 2025-10-27
+  updated: 2025-10-27
+
+- name: Breakout Rust
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://github.com/lostjared/Breakout.Rust.Web'
+  url: 'https://lostsidedead.biz/breakout'
+  development: halted
+  status: semi-playable
+  langs:
+  - JavaScript
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-30
+  updated: 2025-10-30
+  images:
+  - https://raw.githubusercontent.com/lostjared/Breakout.Rust.Web/main/screens/breakout.rust.jpg
+
+- name: The Breakout Tutorial
+  originals:
+  - Breakout
+  type: clone
+  url: 'https://rembound.com/articles/the-breakout-tutorial-with-cpp-and-sdl-2'
+  development: halted
+  status: semi-playable
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-17
+  updated: 2025-10-17
+  images:
+  - 'https://rembound.com/files/breakout-example.png'
 
 - name: Breakout-VR
   langs:
@@ -1172,6 +1975,28 @@
     https://raw.githubusercontent.com/Siiir/brick_bird/stable/images/screenshots/PC-Desktop-Vertical.png
   - >-
     https://raw.githubusercontent.com/Siiir/brick_bird/stable/images/screenshots/PC-Chrome-Horizontal.png
+
+- name: Brick Out
+  originals:
+  - Breakout
+  type: clone
+  repo: 'http://www.newbreedsoftware.com/brickout/download/'
+  url: 'http://www.newbreedsoftware.com/brickout/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-15
+  updated: 2025-10-15
+  images:
+  - https://web.archive.org/web/20251001081313im_/http://www.newbreedsoftware.com/brickout/screenshots/brickout-sdl.gif
+  - https://web.archive.org/web/20251001081313im_/http://www.newbreedsoftware.com/brickout/screenshots/bout-title.gif
+  - https://web.archive.org/web/20251001081302im_/http://www.newbreedsoftware.com/brickout/screenshots/bout.gif
+  video:
+    youtube: uj9-cUXPhGQ
 
 - name: Bridge Command
   frameworks:
@@ -1296,11 +2121,12 @@
   development: sporadic
   originals:
   - 'Blake Stone: Planet Strike'
+  - 'Blake Stone: Aliens of Gold'
   repo: https://github.com/bibendovsky/bstone
   feed: https://github.com/bibendovsky/bstone/releases.atom
   status: playable
   type: remake
-  updated: 2023-08-04
+  updated: 2025-12-05
   url: https://bibendovsky.github.io/bstone/
 
 - name: Bt Builder
@@ -1348,6 +2174,77 @@
   updated: 2022-03-13
   url: http://bub-n-bros.sourceforge.net/
 
+- name: Bubble Shooter HTML5
+  originals:
+  - Puzzle Bobble
+  type: clone
+  repo: 'https://github.com/rembound/Bubble-Shooter-HTML5'
+  url: >-
+    https://rembound.com/articles/bubble-shooter-game-tutorial-with-html5-and-javascript
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2025-10-05
+  updated: 2025-10-05
+  images:
+  - https://raw.githubusercontent.com/rembound/Bubble-Shooter-HTML5/master/screenshot.png
+
+- name: Bubble Train
+  originals:
+  - Puzz Loop
+  type: clone
+  url: >-
+    https://web.archive.org/web/20090417075918/https://dwarfcity.co.uk/games/bubbletrain.php
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-11-19
+  updated: 2025-11-19
+  images:
+  - https://web.archive.org/web/20070630071526im_/http://dwarfcity.co.uk/images/bubble_train_arctic.png
+  - https://web.archive.org/web/20070630071401if_/http://dwarfcity.co.uk/images/bubble_train_beach.png
+  - https://web.archive.org/web/20070630071508if_/http://dwarfcity.co.uk/images/bubble_train_mexico.png
+  - https://web.archive.org/web/20070630071423if_/http://dwarfcity.co.uk/images/bubble_train_mountains.png
+  - https://web.archive.org/web/20070802171317if_/http://dwarfcity.co.uk/images/bubble_train_sea.png
+  - https://web.archive.org/web/20070630071417if_/http://dwarfcity.co.uk/images/bubble_train_sky.png
+  - https://web.archive.org/web/20070630071758if_/http://dwarfcity.co.uk/images/bubble_train_space1.png
+  - https://web.archive.org/web/20070630071446if_/http://dwarfcity.co.uk/images/bubble_train_space2.png
+
+- name: Bug Squish
+  originals:
+  - Bloodsuckers
+  type: clone
+  repo: 'http://www.newbreedsoftware.com/bugsquish/download/'
+  url: 'http://www.newbreedsoftware.com/bugsquish/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-17
+  updated: 2025-10-17
+  images:
+  - https://web.archive.org/web/20240430212542if_/http://www.newbreedsoftware.com/bugsquish/screenshots/bugsquish-title.gif
+  - https://web.archive.org/web/20240430212542if_/http://www.newbreedsoftware.com/bugsquish/screenshots/bugsquish-game.gif
+  - https://web.archive.org/web/20240430212541if_/http://www.newbreedsoftware.com/bugsquish/screenshots/bugsquish-embedded-title.gif
+  - https://web.archive.org/web/20240821141136if_/http://www.newbreedsoftware.com/bugsquish/screenshots/bugsquish-embedded.gif
+  video:
+    youtube: SR8FDm61LFY
+
 - name: BUGS
   originals:
   - Dr. Mario
@@ -1382,6 +2279,25 @@
   type: remake
   updated: 2022-07-09
   url: https://perso.b2b2c.ca/~sarrazip/dev/burgerspace.html
+
+- name: Buscayasminas
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://sourceforge.net/projects/buscayasminas/'
+  feed: 'https://sourceforge.net/projects/buscayasminas/rss?path=/'
+  development: halted
+  status: playable
+  langs:
+  - JavaScript
+  - HTML
+  - CSS
+  licenses:
+  - Custom
+  added: 2025-12-27
+  updated: 2025-12-27
+  images:
+  - 'https://a.fsdn.com/con/app/proj/buscayasminas/screenshots/84020.jpg'
 
 - name: The Butterfly Effect
   frameworks:

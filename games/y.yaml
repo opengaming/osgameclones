@@ -1,3 +1,21 @@
+- name: YACPong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/simonmichael/YACPong'
+  url: 'https://hackage.haskell.org/package/YACPong'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Haskell
+  frameworks:
+  - SDL
+  licenses:
+  - MIT
+  added: 2025-09-18
+  updated: 2025-09-18
+
 - name: Yamagi Quake II
   langs:
   - C
@@ -42,6 +60,42 @@
   info: experimental fork of Yamagi Quake II with ongoing work to add support for Quake II Enhanced
   video:
     youtube: L6BTWUUVh_k
+
+- name: yampa2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/ksaveljev/yampa-2048'
+  url: 'https://hackage.haskell.org/package/yampa2048'
+  feed: 'https://hackage.haskell.org/package/yampa2048.rss'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - Yampa
+  - OpenGL
+  licenses:
+  - MIT
+  added: 2025-10-30
+  updated: 2025-10-30
+  images:
+  - https://ksaveljev.github.io/2048.gif
+
+- name: Yar's Revenge
+  originals:
+  - Yars' Revenge
+  type: remake
+  url: >-
+    https://web.archive.org/web/20080404203751/http://www.autismuk.freeserve.co.uk/#:~:text=Yar's%20Revenge
+  development: halted
+  status: semi-playable
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  added: 2025-11-28
+  updated: 2025-11-28
 
 - name: YARG (Yet Another Rhythm Game)
   images:
@@ -93,6 +147,53 @@
   - 'https://img.itch.zone/aW1hZ2UvNzA1NjAwLzM5MDA5NzgucG5n/original/ld9gfN.png'
   - 'https://img.itch.zone/aW1hZ2UvNzA1NjAwLzM5MDA5NzkucG5n/original/igIbVz.png'
   - 'https://img.itch.zone/aW1hZ2UvNzA1NjAwLzM5MDA5ODAucG5n/original/yunFU5.png'
+
+- name: YASC
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://sourceforge.net/projects/sokobanyasc/'
+  url: 'https://robinson-special-jeux.franceserv.com/yet-another-sokoban-clone.html'
+  feed: 'https://sourceforge.net/projects/sokobanyasc/rss?path=/'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - 'https://robinson-special-jeux.franceserv.com/images/Ecran-03_0c5kmq60.jpg'
+  - 'https://robinson-special-jeux.franceserv.com/images/Ecran-02_ug2710h9.jpg'
+  - 'https://robinson-special-jeux.franceserv.com/images/L-editeur_5op0s8l3.jpg'
+  - 'https://a.fsdn.com/con/app/proj/sokobanyasc/screenshots/Screenshot1.png'
+  - 'https://a.fsdn.com/con/app/proj/sokobanyasc/screenshots/Screenshot2.png'
+  - 'https://a.fsdn.com/con/app/proj/sokobanyasc/screenshots/Screenshot3.png'
+  - 'https://a.fsdn.com/con/app/proj/sokobanyasc/screenshots/Screenshot4.png'
+
+- name: Ye Olde Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://sourceforge.net/projects/yeoldepong/'
+  url: 'https://yeoldepong.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/yeoldepong/rss?path=/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - BSD
+  added: 2025-11-02
+  updated: 2025-11-02
+  images:
+  - 'https://a.fsdn.com/con/app/proj/yeoldepong/screenshots/24722.jpg'
+  - 'https://a.fsdn.com/con/app/proj/yeoldepong/screenshots/24724.jpg'
 
 - name: YKnytt
   type: remake

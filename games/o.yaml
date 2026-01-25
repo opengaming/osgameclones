@@ -1,3 +1,20 @@
+- name: Open Test Drive Unlimited
+  originals:
+  - Test Drive Unlimited
+  type: remake
+  repo: 'https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited'
+  development: very active
+  status: unplayable
+  licenses:
+  - As-is
+  langs:
+  - C++
+  - C
+  frameworks:
+  - Vulkan
+  added: 2025-10-19
+  updated: 2025-10-19
+
 - name: O21
   images:
   - https://github.com/ForNeVeR/O21/raw/main/docs/screenshot.png
@@ -16,6 +33,31 @@
   repo: https://github.com/ForNeVeR/O21
   type: remake
   updated: 2025-05-19
+
+- name: Oblast
+  originals:
+  - Blasto
+  type: clone
+  repo: 'https://github.com/classilla/oblast'
+  url: >-
+    https://oldvcr.blogspot.com/2025/12/oblast-better-blasto-game-for-commodore.html
+  feed: 'https://github.com/classilla/oblast/releases.atom'
+  development: very active
+  status: playable
+  multiplayer:
+  - Local
+  content: open
+  langs:
+  - Assembly
+  - BASIC
+  licenses:
+  - Custom
+  added: 2025-12-08
+  updated: 2025-12-08
+  images:
+  - https://raw.githubusercontent.com/classilla/oblast/main/pics/vice-screen-2025112520513488.png
+  - https://raw.githubusercontent.com/classilla/oblast/main/pics/vice-screen-2025112522101417.png
+  - https://raw.githubusercontent.com/classilla/oblast/main/pics/vice-screen-2025112521430338.png
 
 - name: Octopus
   images:
@@ -72,6 +114,26 @@
   - https://odamex.net/w/images/thumb/8/8c/Odamex-r120-solaris.png/640px-Odamex-r120-solaris.png
   - https://odamex.net/w/images/thumb/0/01/Odamex-r166-linuxppc.png/640px-Odamex-r166-linuxppc.png
   - https://odamex.net/w/images/thumb/7/74/Odamex-r166-osxppc.png/640px-Odamex-r166-osxppc.png
+
+- name: OGame Vue TS
+  originals:
+  - OGame
+  type: clone
+  repo: 'https://github.com/setube/ogame-vue-ts'
+  url: 'https://ogame-vue-ts.wenzi.games/'
+  feed: 'https://github.com/setube/ogame-vue-ts/releases.atom'
+  development: very active
+  status: playable
+  content: free
+  langs:
+  - TypeScript
+  - Vue
+  frameworks:
+  - Vue.js
+  licenses:
+  - CC-BY-NC
+  added: 2025-12-28
+  updated: 2025-12-28
 
 - name: Ogrian Carpet
   originals:
@@ -144,6 +206,55 @@
   updated: 2019-11-20
   url: https://gordebak.itch.io/onewaytogo
 
+- name: The Only One Project
+  originals:
+  - Legend of Zelda - A Link to the Past
+  type: clone
+  repo: 'https://github.com/KaKaShUruKioRa/The-Only-One-Project'
+  url: 'https://www.solarus-games.org/games/the-only-one-project/'
+  feed: 'https://github.com/KaKaShUruKioRa/The-Only-One-Project/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - Lua
+  frameworks:
+  - Solarus
+  licenses:
+  - CC-BY-SA
+  - GPL3
+  added: 2025-10-07
+  updated: 2025-10-10
+  images:
+  - https://www.solarus-games.org/games/the-only-one-project/screen1.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen2.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen3.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen4.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen5.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen6.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen7.png
+  - https://www.solarus-games.org/games/the-only-one-project/screen8.png
+
+- name: Onslaught
+  originals:
+  - Teddy Boy
+  type: clone
+  repo: 'https://github.com/mattgodbolt/onslaught'
+  url: 'https://bbcmicro.co.uk/game.php?id=2580'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Assembly
+  licenses:
+  - MIT
+  added: 2025-12-27
+  updated: 2025-12-27
+  images:
+  - https://raw.githubusercontent.com/mattgodbolt/onslaught/main/onslaught.png
+  - https://www.stairwaytohell.com/lostandfound/Onslaught-scr.gif
+  - https://www.stairwaytohell.com/lostandfound/Onslaught-0-scr.gif
+
 - name: Oolite
   images:
   - https://camo.githubusercontent.com/7891aa32f19781623450c1a790611998ca9af4fc8b1c45ef2f73483ededc7524/687474703a2f2f6f6f6c6974652e6f72672f696d616765732f67616c6c6572792f6c617267652f616e6f746865725f636f6d6d616e6465722d3231303231305f4c656176696e67436f72696f6c6973416761696e2e706e67
@@ -157,6 +268,42 @@
   type: clone
   url: http://www.oolite.org/
   updated: 2018-10-06
+
+- name: Open Adventure
+  originals:
+  - Colossal Cave Adventure
+  type: remake
+  repo: 'https://gitlab.com/esr/open-adventure'
+  url: 'http://www.catb.org/~esr/open-adventure/'
+  feed: 'https://gitlab.com/esr/open-adventure.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - C
+  licenses:
+  - BSD2
+  added: 2026-01-02
+  updated: 2026-01-02
+
+- name: Open Arkanoid
+  originals:
+  - Arkanoid
+  type: clone
+  repo: 'https://sourceforge.net/projects/openarkanoid/'
+  feed: 'https://sourceforge.net/projects/openarkanoid/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - BlitzMax
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2025-12-07
+  updated: 2025-12-07
+  images:
+  - 'https://a.fsdn.com/con/app/proj/openarkanoid/screenshots/55686.jpg'
 
 - name: Open BattleChess
   langs:
@@ -175,9 +322,10 @@
   originals:
   - Blades of Exile
   type: remake
-  repo: 'https://github.com/calref/cboe'
+  repo: https://k7izh9.gitea.cloud/openboe/oboe
   url: 'http://openboe.com'
-  development: very active
+  feed: https://k7izh9.gitea.cloud/openboe/oboe.atom
+  development: sporadic
   status: playable
   content: open
   langs:
@@ -188,7 +336,7 @@
   - GPL2
   info: Source port that supports modern operating systems
   added: '2025-03-14'
-  updated: '2025-03-14'
+  updated: '2026-01-06'
   images:
   - 'https://libregamewiki.org/images/6/62/Blades_of_Exile_-_combat1.png'
 
@@ -477,6 +625,26 @@
   images:
   - https://user-images.githubusercontent.com/9662172/39470980-0051a248-4d41-11e8-9a60-182320e25b57.PNG
 
+- name: Open-Ko
+  originals:
+  - Knight Online
+  type: remake
+  repo: 'https://github.com/Open-KO/KnightOnline'
+  development: very active
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  status: semi-playable
+  content: open
+  licenses:
+  - MIT
+  info: OpenKO is an open source version of the old school Knight Online MMORPG
+  added: '2025-12-17'
+  updated: '2025-12-17'
+  images:
+  - https://raw.githubusercontent.com/Open-KO/KnightOnline/refs/heads/master/openko_example.png
+
 - name: OpenLiberty
   info: A open-source Grand Theft Auto III reimplementation on the Godot Engine
   frameworks:
@@ -735,7 +903,28 @@
   url: https://www.jezng.com/open-syobon-action.js/
   video:
     youtube: rzP0FeBN_AE
-    
+
+- name: OpenDuelyst
+  originals:
+  - Duelyst
+  type: official
+  repo: 'https://github.com/open-duelyst/duelyst'
+  url: >-
+    https://www.rockpapershotgun.com/tactical-card-battler-duelyst-is-now-completely-open-source
+  feed: 'https://github.com/open-duelyst/duelyst/releases.atom'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  content: free
+  langs:
+  - JavaScript
+  - CoffeeScript
+  licenses:
+  - CC0
+  added: 2026-01-03
+  updated: 2026-01-03
+
 - name: OpenTS2
   originals:
   - The Sims 2
@@ -751,29 +940,6 @@
   licenses:
   - MPL
   updated: '2023-02-11'
-
-- name: Open Valley
-  originals:
-  - Stardew Valley
-  type: similar
-  repo: 'https://gitea.it/rixty/OpenValley'
-  url: 'https://mastodon.gamedev.place/@OpenValley'
-  feed: 'https://mastodon.gamedev.place/@OpenValley.rss'
-  development: halted
-  status: semi-playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - CC-BY-NC-SA
-  info: Made in Flare engine
-  added: '2021-05-29'
-  updated: 2024-06-23
-  images:
-  - >-
-    https://cdn.masto.host/mastodongamedevplace/media_attachments/files/106/239/851/573/039/205/original/ccf384e1d27196dd.png
 
 - name: OpenVic
   originals:
@@ -1261,6 +1427,23 @@
   type: remake
   updated: 2016-11-30
 
+- name: OpenDaed
+  originals:
+  - The Daedalus Encounter
+  type: remake
+  repo: 'https://github.com/AMDmi3/opendaed'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2025-11-21
+  updated: 2025-11-21
+
 - name: OpenDeathValley
   langs:
   - C
@@ -1486,7 +1669,6 @@
   - https://user-images.githubusercontent.com/24377109/79051881-f17e0b80-7c32-11ea-82cd-5e4993a1c071.png
   - https://user-images.githubusercontent.com/24377109/79051882-f3e06580-7c32-11ea-974f-414f68394190.png
   - https://user-images.githubusercontent.com/24377109/79051883-f5119280-7c32-11ea-801c-1595709d8060.png
-
 
 - name: OpenE2140
   type: remake
@@ -2019,6 +2201,25 @@
   - https://media.moddb.com/images/games/1/72/71205/image.png
   - https://media.moddb.com/images/games/1/72/71205/inventory.1.png
   - https://media.moddb.com/images/games/1/72/71205/game-notes-faction.PNG
+
+- name: OpenMBU
+  originals:
+  - Marble Blast Ultra
+  type: remake
+  repo: 'https://github.com/MBU-Team/OpenMBU'
+  feed: 'https://github.com/MBU-Team/OpenMBU/releases.atom'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Torque Shader
+  - DirectX
+  licenses:
+  - Custom
+  added: 2025-11-21
+  updated: 2025-11-21
 
 - name: OpenMC2
   development: halted
@@ -2625,6 +2826,33 @@
   updated: 2024-08-06
   url: https://openskyscraper.org
 
+- name: OpenSoldat
+  originals:
+  - Soldat
+  type: remake
+  repo: 'https://github.com/opensoldat/opensoldat'
+  url: >-
+    https://steamcommunity.com/games/638490/announcements/detail/2192636057421436703
+  feed: 'https://github.com/opensoldat/opensoldat/releases.atom'
+  development: active
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: free
+  langs:
+  - Pascal
+  - C++
+  frameworks:
+  - SDL
+  - OpenAL
+  licenses:
+  - MIT
+  added: 2026-01-20
+  updated: 2026-01-20
+  video:
+    youtube: FpWuOOs0TMg
+
 - name: OpenSpades
   langs:
   - C++
@@ -3090,6 +3318,29 @@
   - GPL3
   updated: '2020-07-24'
 
+- name: 'The Operative: No One Lives Forever'
+  originals:
+  - 'The Operative: No One Lives Forever'
+  type: official
+  repo: 'https://github.com/osgcc/no-one-lives-forever'
+  url: >-
+    https://web.archive.org/web/20020217233624/http://pc.ign.com/articles/095/095995p1.html
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - LithTech
+  - DirectX
+  licenses:
+  - As-is
+  added: 2026-01-20
+  updated: 2026-01-20
+
 - name: OpMon
   frameworks:
   - Godot
@@ -3258,6 +3509,41 @@
   updated: 2024-08-26
   images:
   - https://1.bp.blogspot.com/-QBBpM-Ypigg/VPMlUshslUI/AAAAAAAAA3w/OutunwDoSUM/s1600/lol.jpg
+
+- name: Otto Matic
+  originals:
+  - Otto Matic
+  type: remake
+  repo: 'https://github.com/jorio/OttoMatic'
+  feed: 'https://github.com/jorio/OttoMatic/releases.atom'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - CC-BY-NC-SA
+  added: 2025-11-28
+  updated: 2025-11-28
+  images:
+  - 'https://raw.githubusercontent.com/jorio/OttoMatic/master/docs/screenshot.webp'
+
+- name: Outlaw Disassembly
+  originals:
+  - Outlaw
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/outlaw.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200110/msg00146.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-05
+  updated: 2025-11-05
 
 - name: Outpost HD
   type: remake

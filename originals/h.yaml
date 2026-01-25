@@ -1,9 +1,20 @@
-- name: Hack
+- name: Habitat
+  names:
+  - Microcosm
+  - Club Caribe
+  - WorldsAway
+  - 富士通 ハビタット
   external:
-    wikipedia: Hack (video game)
+    website: >-
+      https://web.archive.org/web/19961120221925/http://www.worldsaway.com/away1.html
+    wikipedia: Habitat (video game)
+  platforms:
+  - Commodore 64
+  - FM Towns
+  - PC-98
   meta:
     genres:
-    - Roguelike
+    - MMORPG
 
 - name: Hades Challenge
   external:
@@ -35,6 +46,7 @@
 
 - name: Half-Life 2
   external:
+    website: https://www.half-life.com/en/halflife2
     wikipedia: Half-Life 2
   platforms:
   - Android
@@ -49,6 +61,33 @@
     - FPS
     themes:
     - Sci-Fi
+
+- name: 'Half-Life 2: Deathmatch'
+  external:
+    website: 'https://www.mobygames.com/game/29092/half-life-2-deathmatch/'
+    wikipedia: 'Half-Life 2: Deathmatch'
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Sci-Fi
+
+- name: 'Halloween: The New Nightmare'
+  external:
+    website: >-
+      https://web.archive.org/web/20230104153420/http://www.jadegame.com/games/halloween/
+  platforms:
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Horror
 
 - name: 'Halls of the Dead: Faery Tale Adventure II'
   names:
@@ -65,23 +104,33 @@
   - DOS
   - Windows
 
-- name: 'Halo: Combat Evolved'
-  names:
-  - Halo
-  - Halo CE
-  - 'Halo: Custom Edition'
+- name: Hangman
   external:
-    wikipedia: 'Halo: Combat Evolved'
-  platforms:
-  - OSX
-  - Windows
-  - Xbox
-  - Xbox 360
+    website: 'https://www.mobygames.com/game/11028/hangman/'
+    wikipedia: Hangman (video game)
   meta:
     genres:
-    - FPS
+    - Educational
+    - Puzzle
+
+- name: Hard Truck Apocalypse
+  names:
+  - 'Hard Truck: Apocalypse'
+  - Ex Machina
+  external:
+    wikipedia: Hard Truck Apocalypse
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Action
+    - Adventure
+    - RPG
+    subgenres:
+    - Action RPG
+    - Vehicular Combat
     themes:
-    - Sci-Fi
+    - Post-Apocalyptic
 
 - name: Hard Vacuum
   external:
@@ -148,6 +197,21 @@
     - Platform
     - Adventure
 
+- name: 'Heavy Metal: F.A.K.K. 2'
+  external:
+    website: 'https://www.mobygames.com/game/2187/heavy-metal-fakk-2/'
+    wikipedia: 'Heavy Metal: F.A.K.K. 2'
+  platforms:
+  - Classic Mac OS
+  - Linux
+  - Windows
+  meta:
+    genres:
+    - Shooter
+    themes:
+    - Cyberpunk
+    - Sci-Fi
+
 - name: Heavy Smash
   external:
     website: http://www.mobygames.com/game/arcade/heavy-smash
@@ -175,10 +239,31 @@
 
 - name: Heretic
   external:
+    website: https://web.archive.org/web/20160603151059/https://www.ravensoftware.com/games/heretic/view-game/
     wikipedia: Heretic (video game)
   meta:
     genres:
     - FPS
+    themes:
+    - Fantasy
+
+- name: HeroQuest
+  external:
+    website: https://www.mobygames.com/game/1316/heroquest/
+    wikipedia: HeroQuest (video game)
+  platforms:
+  - Acorn 32-bit
+  - Amiga
+  - Amstrad CPC
+  - Atari
+  - Commodore 64
+  - DOS
+  - NES
+  - ZX Spectrum
+  - NES
+  meta:
+    genres:
+    - RPG
 
 - name: Heroes of Might and Magic II
   external:
@@ -203,17 +288,50 @@
 
 - name: Hexen
   external:
-    wikipedia: Hexen
+    website: >-
+      https://web.archive.org/web/20120324031651/http://ravensoft.com/games/hexen/view-game/
+    wikipedia: 'Hexen: Beyond Heretic'
+  platforms:
+  - Acorn 32-bit
+  - Classic Mac OS
+  - DOS
+  - N64
+  - PlayStation
+  - Windows
   meta:
     genres:
     - FPS
+    themes:
+    - Fantasy
 
 - name: Hexen II
   external:
+    website: >-
+      https://web.archive.org/web/20120324053828/http://ravensoft.com/games/hexen-2/view-game/
     wikipedia: Hexen II
+  platforms:
+  - Classic Mac OS
+  - Windows
   meta:
     genres:
     - FPS
+    - RPG
+    themes:
+    - Egyptian
+    - Fantasy
+    - Medieval
+
+- name: 'Highlander: The Last of the MacLeods'
+  external:
+    website: >-
+      https://web.archive.org/web/19961029114118/http://www.atari.com:80/jagware/soft/adventure/adventure.html
+    wikipedia: 'Highlander: The Last of the MacLeods'
+  platforms:
+  - Jaguar
+  meta:
+    genres:
+    - Adventure
+    - Action
 
 - name: Highway Encounter
   external:
@@ -239,7 +357,6 @@
     - Comedy
     - Crime
     - Horror
-
 
 - name: 'History Line: 1914-1918'
   external:
@@ -267,7 +384,11 @@
 
 - name: Homeworld
   external:
+    website: https://web.archive.org/web/20140717041752/http://www.relic.com/games/homeworld
     wikipedia: Homeworld
+  platforms:
+  - OSX
+  - Windows
   meta:
     genres:
     - Real-Time Strategy
@@ -323,9 +444,29 @@
     themes:
     - Crime
 
+- name: Hover Strike
+  names:
+  - 'Hover Strike: Unconquered Lands'
+  external:
+    website: >-
+      https://web.archive.org/web/19961029115545/http://www.atari.com/jagware/soft/space/space.html
+    wikipedia: Hover Strike
+  platforms:
+  - Jaguar
+  meta:
+    genres:
+    - Shooter
+    subgenres:
+    - Vehicular Combat
+    themes:
+    - Sci-Fi
+
 - name: HoverRace
   external:
+    website: 'https://www.hoverrace.com/'
     wikipedia: HoverRace
+  platforms:
+  - Windows
   meta:
     genres:
     - Racing
@@ -452,12 +593,32 @@
   - DOS
   - Windows
 
+- name: Humphrey
+  external:
+    website: 'https://www.mobygames.com/game/15791/humphrey/'
+  platforms:
+  - Amstrad CPC
+  - MSX
+  - ZX Spectrum
+  meta:
+    genres:
+    - Action
+
 - name: HuniePop
   external:
     wikipedia: HuniePop
   meta:
     genres:
     - Puzzle
+
+- name: Hypercycles
+  external:
+    website: 'https://www.mobygames.com/game/65803/hypercycles/'
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Action
 
 - name: Hyperspace Delivery Boy!
   external:

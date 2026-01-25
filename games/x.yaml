@@ -1,3 +1,29 @@
+- name: X-Bomber
+  originals:
+  - Atomic Bomberman
+  type: clone
+  repo: 'http://www.newbreedsoftware.com/xbomber/download/'
+  url: 'http://www.newbreedsoftware.com/xbomber/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-10-19
+  updated: 2025-10-19
+  images:
+  - https://web.archive.org/web/20240430213059if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_title.gif
+  - https://web.archive.org/web/20240430213100if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_columnofflame.gif
+  - https://web.archive.org/web/20240430213059if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_checkers.gif
+  - https://web.archive.org/web/20240430213100if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_cleaningup.gif
+  - https://web.archive.org/web/20240430213101if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_warps.gif
+  - https://web.archive.org/web/20240430213100if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_death.gif
+  - https://web.archive.org/web/20240430213102if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_lowcolor.gif
+  video:
+    youtube: y2EYuJXY3tM
+
 - name: 'X-Force: Fight For Destiny'
   frameworks:
   - Kylix
@@ -46,6 +72,32 @@
   updated: 2023-10-13
   url: https://xmoto.tuxfamily.org
 
+- name: X-pired
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://sourceforge.net/projects/xpired/'
+  url: 'https://www.online-siesta.com/game/x-pired/'
+  feed: 'https://sourceforge.net/p/xpired/activity/feed'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-27
+  updated: 2025-10-27
+  images:
+  - 'https://www.online-siesta.com/game/x-pired/shots/scr01.jpg'
+  - 'https://www.online-siesta.com/game/x-pired/shots/scr02.jpg'
+  - 'https://www.online-siesta.com/game/x-pired/shots/scr03.jpg'
+  - 'https://www.online-siesta.com/game/x-pired/shots/scr04.jpg'
+  - 'https://www.online-siesta.com/game/x-pired/shots/scr05.jpg'
+  - 'https://www.online-siesta.com/game/x-pired/shots/xpired-aa.gif'
+
 - name: X-Settlers
   development: halted
   images:
@@ -64,6 +116,28 @@
   status: unplayable
   added: 2021-03-14
   updated: 2023-10-15
+
+- name: X11 Emerald Mine
+  originals:
+  - Emerald Mine
+  type: remake
+  url: 'https://www.emeraldmines.net/?emeraldx11'
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - Allegro
+  licenses:
+  - As-is
+  added: 2025-12-30
+  updated: 2025-12-30
+  images:
+  - 'https://www.emeraldmines.net/files/menu.png'
+  - 'https://www.emeraldmines.net/files/game.png'
+  - 'https://www.emeraldmines.net/files/rnd.png'
+  - 'https://www.emeraldmines.net/files/jue.png'
 
 - name: XArchon
   langs:
@@ -85,11 +159,12 @@
   updated: 2023-01-25
   url: http://xarchon.seul.org/
 
-- name: Xargon
+- name: Xargon (SDL)
   originals:
   - Xargon
   type: remake
   repo: https://github.com/Malvineous/xargon
+  url: https://repo.openpandora.org/?page=detail&app=xargon_ptitseb
   development: halted
   status: playable
   content: free
@@ -101,9 +176,26 @@
   - GPL3
   info: SDL port of the DOS game Xargon
   added: 2021-02-19
-  updated: 2025-05-18
+  updated: 2025-12-23
   images:
+  - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview2.png'
+  - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview1.png'
   - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview3.png'
+  - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview5.png'
+
+- name: Xargon
+  originals:
+  - Xargon
+  type: official
+  url: 'https://www.classicdosgames.com/game/Xargon.html'
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2025-12-16
+  updated: 2025-12-16
 
 - name: Xasteroids
   originals:
@@ -206,6 +298,89 @@
   - 'https://www.techrescue.org/xboing/images/xb-keys.gif'
   - 'https://www.techrescue.org/xboing/images/xb-scores.gif'
 
+- name: XBomb
+  originals:
+  - Minesweeper
+  type: similar
+  repo: 'https://github.com/Nazgand/xbomb'
+  url: 'https://www.gedanken.org.uk/software/xbomb/'
+  feed: 'https://github.com/Nazgand/xbomb/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-11-23
+  updated: 2025-11-23
+  images:
+  - https://raw.githubusercontent.com/Nazgand/xbomb/master/Screenshot_20210810_145906.png
+  - https://www.gedanken.org.uk/software/xbomb/hexagon.png
+  - https://www.gedanken.org.uk/software/xbomb/square.png
+  - https://www.gedanken.org.uk/software/xbomb/triangle.png
+
+- name: Xbreaky
+  originals:
+  - Breakout
+  type: clone
+  repo: >-
+    https://web.archive.org/web/20210129022022/http://xbreaky.sourceforge.net/download.html
+  url: 'https://web.archive.org/web/20211204185136/https://xbreaky.sourceforge.net/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  added: 2025-11-03
+  updated: 2025-11-03
+  images:
+  - 'https://happypenguin.altervista.org/screenshots/xbreaky.jpg'
+
+- name: XBubble
+  originals:
+  - Puzzle Bobble
+  type: clone
+  repo: 'https://savannah.nongnu.org/projects/xbubble/'
+  url: 'https://www.nongnu.org/xbubble/'
+  feed: 'https://savannah.nongnu.org/news/atom.php?group=xbubble'
+  development: halted
+  status: playable
+  multiplayer:
+  - Split-screen
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-01
+  updated: 2025-10-01
+  images:
+  - https://web.cvs.savannah.nongnu.org/viewvc/*checkout*/xbubble/xbubble/xbubble-0.2_640x480.jpg
+
+- name: Xchomp
+  originals:
+  - Pac-Man
+  type: clone
+  repo: https://github.com/MurphyMc/xchomp
+  url: 'http://vidalc.chez.com/xchomp/xchomp.html'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-09-10
+  updated: 2025-09-10
+  images:
+  - https://web.archive.org/web/20250415141813im_/http://vidalc.chez.com/xchomp/xchomp1.gif
+  - https://web.archive.org/web/20250415141813im_/http://vidalc.chez.com/xchomp/xchomp3.gif
+  - https://web.archive.org/web/20250415141813im_/http://vidalc.chez.com/xchomp/xchomp2.gif
+  video:
+    youtube: nWDTmOWbnqE
+
 - name: xclannad
   originals:
   - Clannad
@@ -271,6 +446,39 @@
   added: 2020-05-19
   updated: 2020-05-19
   url: https://sourceware.org/xconq/
+
+- name: xdémineur
+  originals:
+  - Minesweeper
+  type: remake
+  url: 'https://www.babafou.eu.org/xdemineur/'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2025-11-24
+  updated: 2025-11-24
+  images:
+  - https://www.babafou.eu.org/xdemineur/xdemineur.png
+
+- name: XDigger
+  originals:
+  - Digger
+  type: remake
+  repo: 'https://www.ibiblio.org/pub/Linux/games/arcade/#:~:text=xdigger'
+  url: 'https://www.ibiblio.org/pub/Linux/games/arcade/xdigger.lsm'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-31
+  updated: 2025-10-31
 
 - name: Xdriller
   originals:
@@ -453,6 +661,64 @@
   added: 2025-08-13
   updated: 2025-08-13
 
+- name: xhyperoid
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/akosela/xhyperoid'
+  url: 'http://www.svgalib.org/rus/xhyperoid/'
+  feed: 'https://github.com/akosela/xhyperoid/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - GTK
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-09-09
+  updated: 2025-09-09
+  images:
+  - 'https://web.archive.org/web/20250603085315im_/http://www.svgalib.org/rus/xhyperoid/xhyperoid-small.gif'
+
+- name: XInvaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/invaders/#:~:text=xinvaders
+  url: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/invaders/xinvaders.lsm
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2025-10-04
+  updated: 2025-10-04
+
+- name: XInvaders 3D
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/JoesCat/xinvaders3d'
+  feed: 'https://github.com/JoesCat/xinvaders3d/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: XInvaders3D is a 3D Vector Graphics Space Invaders clone for X11.
+  added: 2025-09-23
+  updated: 2025-09-23
+  images:
+  - https://raw.githubusercontent.com/JoesCat/xinvaders3d/refs/heads/master/xinvaders3d.jpg
+
 - name: xit
   langs:
   - JavaScript
@@ -570,6 +836,130 @@
   - https://user-images.githubusercontent.com/8344157/131311065-b77cb24f-9b10-4265-a61f-69d304040da0.png
   - https://user-images.githubusercontent.com/8344157/117028249-940d9e80-ad0e-11eb-84da-70fdbe41e0f2.png
 
+- name: xmine
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://ftp.openbsd.org/pub/OpenBSD/distfiles/#:~:text=xmine'
+  url: https://www.mobygames.com/game/151978/xmine/
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2025-12-04
+  updated: 2025-12-04
+  images:
+  - https://cdn.mobygames.com/screenshots/12357620-xmine-linux-starting-a-blank-beginner-game.png
+  - https://cdn.mobygames.com/screenshots/12357617-xmine-linux-testing-a-region-of-the-board-and-flagging-a-couple-.png
+  - https://cdn.mobygames.com/screenshots/11774889-xmine-linux-accidentally-stepped-on-a-mine.png
+
+- name: XMinehunter
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/X11/contrib/games/#:~:text=xminehunter'
+  url: 'https://www.ibiblio.org/pub/X11/contrib/games/xminehunter-0.4.README'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Motif
+  licenses:
+  - Custom
+  added: 2025-09-29
+  updated: 2025-09-29
+
+- name: xminesweep
+  originals:
+  - Minesweeper
+  type: clone
+  repo: https://github.com/AshleyRoll/xminesweep
+  url: 'https://www.freshports.org/games/xminesweep/'
+  development: halted
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-12-15
+  updated: 2025-12-15
+
+- name: XNetMine
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/Linux/games/multiplayer/#:~:text=XNetMine'
+  url: 'https://www.ibiblio.org/pub/Linux/games/multiplayer/XNetMine.lsm'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-11-09
+  updated: 2025-11-09
+
+- name: Xoids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/X11/contrib/games/#:~:text=xoids'
+  url: 'https://www.freshports.org/games/xoids/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL1
+  added: 2025-10-03
+  updated: 2025-10-03
+
+- name: xonix
+  originals:
+  - Xonix
+  type: clone
+  repo: 'https://github.com/denix666/xonix'
+  feed: 'https://github.com/denix666/xonix/releases.atom'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Rust
+  frameworks:
+  - macroquad
+  licenses:
+  - MIT
+  added: 2025-12-10
+  updated: 2025-12-10
+  images:
+  - https://raw.githubusercontent.com/denix666/xonix/main/screenshots/game-play.png
+
+- name: Xonix
+  originals:
+  - Xonix
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=xonix'
+  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/xonix-1.0.lsm'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-02
+  updated: 2025-10-02
+
 - name: Xonotic
   images:
   - https://xonotic.org/m/uploads/2011/09/stormkeep-keyhunt-3.jpg
@@ -660,6 +1050,21 @@
   video:
     youtube: oxNPYHSE60A
 
+- name: XPacman
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/X11/contrib/games/#:~:text=xpacman'
+  url: 'https://www.freshports.org/games/xpacman/'
+  development: halted
+  status: playable
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-09-25
+  updated: 2025-09-25
+
 - name: XPilot NG
   images:
   - https://xpilot.sourceforge.net/shots/polybloods1.png
@@ -746,6 +1151,28 @@
   video:
     youtube: 1QikgNT44-E
 
+- name: XRally
+  originals:
+  - Rally-X
+  type: clone
+  repo: 'https://sourceforge.net/projects/xrally/'
+  url: 'https://web.archive.org/web/20150726225115/https://www.linuxgames.com/xrally/'
+  feed: 'https://sourceforge.net/projects/xrally/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-11-28
+  updated: 2025-11-28
+  images:
+  - https://web.archive.org/web/20130720123200im_/http://www.linuxgames.com/xrally/snap3.jpg
+  - https://web.archive.org/web/20130720110924im_/http://www.linuxgames.com/xrally/classic.jpg
+  - https://web.archive.org/web/20130720092435im_/http://www.linuxgames.com/xrally/snap1.gif
+  - https://web.archive.org/web/20130720114629im_/http://www.linuxgames.com/xrally/snap2.jpg
+
 - name: xrick
   langs:
   - C
@@ -812,6 +1239,26 @@
     https://web.archive.org/web/20210729131501if_/http://www.xscorch.org/screenshots/napalm2.png
   - >-
     https://web.archive.org/web/20220819165523im_/http://xscorch.org/screenshots/annihilator.png
+
+- name: xsok
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://salsa.debian.org/games-team/xsok'
+  url: 'https://tracker.debian.org/pkg/xsok'
+  feed: 'https://tracker.debian.org/pkg/xsok/rss'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-17
+  updated: 2025-10-17
+  images:
+  - 'https://screenshots.debian.net/screenshot/xsok/20079'
+  - 'https://screenshots.debian.net/screenshot/xsok/8569'
 
 - name: XSokoban
   originals:

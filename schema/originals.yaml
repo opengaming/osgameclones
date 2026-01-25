@@ -47,7 +47,6 @@ schema;meta:
       - include: themes
         unique: True
 
-
 schema;platforms:
   type: str
   enum: [
@@ -76,6 +75,7 @@ schema;platforms:
     'GBA',
     'Genesis',
     'iOS',
+    'Jaguar',
     'Linux',
     'Lynx',
     'Master System',
@@ -103,6 +103,7 @@ schema;platforms:
     'Web',
     'Wii',
     'Windows',
+    'X68000',
     'Xbox',
     'Xbox 360',
     'Xbox One',

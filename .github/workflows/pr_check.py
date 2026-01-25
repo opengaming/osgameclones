@@ -21,11 +21,13 @@ KNOWN_FRAMEWORKS = [
   'angular',
   'Avalonia',
   'BackBone.js',
+  'Bevy',
   'bgfx',
   'Box2D',
   'Bullet3',
   'Carbon',
   'Castle Game Engine',
+  'ClanLib',
   'CreateJS',
   'Cocos2d',
   'Construct',
@@ -91,6 +93,7 @@ KNOWN_FRAMEWORKS = [
   'Piston',
   'PixiJS',
   'pygame',
+  'Pyxel',
   'QB64',
   'Qt',
   'raylib',
@@ -109,6 +112,7 @@ KNOWN_FRAMEWORKS = [
   'Source SDK',
   'Spring RTS Engine',
   'Starling',
+  'SVGALib',
   'Swing',
   'SWT',
   'three.js',
@@ -127,9 +131,12 @@ KNOWN_FRAMEWORKS = [
 ]
 FRAMEWORK_LANGUAGES = {
   "Allegro": {"C++", "C"},
+  "Bevy": {"Rust"},
+  "ClanLib": {"C++"},
   "Fyne": {"Go"},
   "OGRE": {"C++"},
   "OpenGL": {"C++", "C"},
+  "Phaser": {"JavaScript", "TypeScript"},
   "Qt": {"C++"},
   "SDL": {"C++", "C"},
   "SDL.NET": {"C#"},
@@ -138,7 +145,8 @@ FRAMEWORK_LANGUAGES = {
   "Unity": {"C#"},
   "libGDX": {"Java", "Kotlin"},
   "pygame": {"Python"},
-  "Vue.js": {"JavaScript"},
+  "Pyxel": {"Python"},
+  "Vue.js": {"JavaScript", "TypeScript"},
 }
 MIN_FUZZ_SCORE = 95
 unknown_languages = False
@@ -160,7 +168,7 @@ changed_files = [str(file) for file in files]
 print("Changed files", changed_files)
 
 
-def load_games_file(filename: str, sha: str):
+def load_games_file(filename: str, sha: str) -> dict[str, dict]:
     try:
         contents = repo.get_contents(filename, sha)
     except GithubException as e:
@@ -171,10 +179,13 @@ def load_games_file(filename: str, sha: str):
     return {game["name"]: game for game in parsed}
 
 
+added_authors = set()
 def added_checks(game):
     if match := re.search(r"github.com/([^/]+)/", game.get("repo", "")):
         author = match[1]
-        yield f"💌 Hey @{author}, we're adding your game to osgameclones!"
+        if author not in added_authors:
+            added_authors.add(author)
+            yield f"💌 Hey @{author}, we're adding your game to osgameclones!"
 
 
 def common_checks(game):
@@ -186,6 +197,11 @@ def common_checks(game):
     yield from check_framework_known(game)
     yield from check_framework_language(game)
     yield from check_repo_google_code(game)
+
+
+def common_original_checks(orig):
+    yield from check_has_platform(orig)
+    yield from check_has_genres_or_subgenres(orig)
 
 
 def check_has_added(game):
@@ -257,6 +273,16 @@ def check_repo_google_code(game):
               "Please check if there is an updated repo elsewhere."
 
 
+def check_has_platform(orig):
+    if "platform" not in orig:
+        yield f"🕹️️ {orig['name']} has no platforms."
+
+
+def check_has_genres_or_subgenres(orig):
+    if "genres" not in orig.get("meta", {}) and "subgenres" not in orig.get("meta", {}):
+        yield f"📖️️ {orig['name']} has no genres or subgenres."
+
+
 # Scan files for changes
 games_added = set()
 games_changed = set()
@@ -284,12 +310,22 @@ for file in files:
                     check_messages.append(message)
                 for message in common_checks(new_games[game]):
                     check_messages.append(message)
-        for game in old_games:
-            if game in new_games:
-                if old_games[game] != new_games[game]:
-                    games_changed.add(game)
-                    for message in common_checks(new_games[game]):
+        for name in old_games:
+            if name in new_games:
+                if old_games[name] != new_games[name]:
+                    games_changed.add(name)
+                    for message in common_checks(new_games[name]):
                         check_messages.append(message)
+    elif re.match(r"^originals/\w+\.yaml$", file.filename):
+        print("Original file changed", file)
+        old_origs = load_games_file(file.filename, pr.base.sha)
+        new_origs = load_games_file(file.filename, pr.head.sha)
+        for name in old_origs:
+            if name in new_origs:
+                if old_origs[name] != new_origs[name]:
+                    for message in common_original_checks(new_origs[name]):
+                        check_messages.append(message)
+
 
 # Update comment based on changed games and checks
 if games_added:

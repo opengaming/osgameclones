@@ -1,3 +1,57 @@
+- name: Galaforce ( Acorn Electron )
+  originals:
+  - Galaforce
+  type: official
+  repo: 'https://github.com/KevEdwards/Galaforce1Electron'
+  url: 'https://x.com/KevEdwardsRetro/status/1113896605969731586'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-12
+  updated: 2025-11-12
+  images:
+  - https://raw.githubusercontent.com/KevEdwards/Galaforce1Electron/master/screenshot.png
+
+- name: Galaforce ( BBC Micro )
+  originals:
+  - Galaforce
+  type: official
+  repo: 'https://github.com/KevEdwards/Galaforce1BBC'
+  url: 'https://x.com/KevEdwardsRetro/status/1102319152038141955'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-12
+  updated: 2025-11-12
+  images:
+  - https://raw.githubusercontent.com/KevEdwards/Galaforce1BBC/master/screenshot.png
+
+- name: Galaforce 2 ( BBC Micro )
+  originals:
+  - Galaforce 2
+  type: official
+  repo: 'https://github.com/KevEdwards/Galaforce2BBC'
+  url: 'https://x.com/KevEdwardsRetro/status/1811160442686894577'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-15
+  updated: 2025-11-15
+  images:
+  - 'https://raw.githubusercontent.com/KevEdwards/Galaforce2BBC/main/screenshot.png'
+
 - name: galaxian
   langs:
   - ActionScript
@@ -33,7 +87,102 @@
   - https://a.fsdn.com/con/app/proj/galaxyv2/screenshots/317081.jpg/max/max/1
   video:
     youtube: 4OnD8rxeU-Q
-  
+
+- name: game
+  originals:
+  - Columns
+  type: clone
+  url: 'https://web.archive.org/web/20170226223853/http://zevv.nl/play/code/game/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-28
+  updated: 2025-10-28
+  images:
+  - https://web.archive.org/web/20160420130913im_/http://zevv.nl/play/code/game/game2.png
+  - https://web.archive.org/web/20170509025218im_/http://zevv.nl/play/code/game//game.png
+
+- name: Games-2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/Blaizer/Games-2048'
+  url: 'https://metacpan.org/pod/Games::2048'
+  feed: 'https://metacpan.org/dist/Games-2048/releases.rss'
+  development: halted
+  status: playable
+  langs:
+  - Perl
+  licenses:
+  - GPL1
+  - Artistic
+  info: A full clone of the 2048 game by Gabriele Cirulli.
+  added: 2025-11-06
+  updated: 2025-11-06
+
+- name: game2048-rs
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/genieCS/game2048-rs'
+  url: 'https://crates.io/crates/game2048-rs'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - Cursive
+  licenses:
+  - MIT
+  added: 2025-10-13
+  updated: 2025-10-13
+  images:
+  - https://user-images.githubusercontent.com/35099832/234502901-e1721cd9-eb64-4c52-84ac-ba0c5d5cd3e3.gif
+
+- name: Games-Asteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/FROGGS/Games-Asteroids'
+  url: >-
+    https://yapgh.blogspot.com/2011/03/sdl-perl-game-contest-week-1-roundup.html#:~:text=Asteroids
+  development: complete
+  status: playable
+  langs:
+  - Perl
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-04
+  updated: 2025-10-04
+  images:
+  - https://raw.githubusercontent.com/FROGGS/Games-Asteroids/refs/heads/master/screenshot.png
+
+- name: Games-Minesweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/gitpan/Games-Minesweeper'
+  url: 'https://metacpan.org/dist/Games-Minesweeper'
+  feed: 'https://metacpan.org/dist/Games-Minesweeper/releases.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Perl
+  licenses:
+  - Artistic
+  - GPL2
+  added: 2025-11-14
+  updated: 2025-11-14
+
 - name: Gang Garrison 2
   type: clone
   originals:
@@ -58,6 +207,31 @@
   - https://www.ganggarrison.com/img/ss2big.png
   - https://www.ganggarrison.com/img/ss3big.png
   - https://www.ganggarrison.com/img/ss4big.png
+
+- name: GAV
+  originals:
+  - Arcade Volleyball
+  type: clone
+  repo: 'https://sourceforge.net/projects/gav/'
+  feed: 'https://sourceforge.net/p/gav/news/feed.rss'
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  - LAN
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-12-01
+  updated: 2025-12-01
+  images:
+  - https://libregamewiki.org/images/7/78/Gav_0.9.0_jump.png
+  - https://libregamewiki.org/images/5/5b/Gav_0.9.0_inverted.png
+  - https://libregamewiki.org/images/6/62/Gav_0.9.0_fabeach.png
 
 - name: GDash
   images:
@@ -101,6 +275,22 @@
   type: remake
   url: http://www.gemrb.org/
   updated: 2023-12-26
+
+- name: GeoffCapes
+  originals:
+  - Geoff Capes Strongman
+  type: official
+  repo: 'https://github.com/milkeybabes/GeoffCapes'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: BBC Micro game Source Code for Geoff Capes Strong Man.
+  added: 2025-11-04
+  updated: 2025-11-04
 
 - name: Geometry Wars Remake
   langs:
@@ -226,6 +416,27 @@
   video:
     youtube: 5WzGQQOIcp8
 
+- name: GJID
+  originals:
+  - GJID
+  type: clone
+  repo: 'https://sourceforge.net/projects/gjid/'
+  url: 'https://gjid.sourceforge.io/'
+  feed: 'https://sourceforge.net/p/gjid/code/feed.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - XCB
+  licenses:
+  - MIT
+  added: 2025-09-28
+  updated: 2025-09-28
+  images:
+  - 'https://a.fsdn.com/con/app/proj/gjid/screenshots/gjid.png'
+
 - name: Glest Advanced Engine
   images:
   - https://a.fsdn.com/con/app/proj/glestae/screenshots/226566.jpg
@@ -259,6 +470,129 @@
   added: 2025-08-26
   updated: 2025-08-26
 
+- name: Glider
+  originals:
+  - Glider
+  type: remake
+  repo: 'https://github.com/kodogo/Glider'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2026-01-21
+  updated: 2026-01-21
+
+- name: Glider 4.0
+  originals:
+  - Glider
+  type: official
+  repo: 'https://github.com/softdorothy/Glider4'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Pascal
+  licenses:
+  - MIT
+  info: A colorized version of Glider that included a level editor.
+  added: 2025-12-23
+  updated: 2025-12-23
+
+- name: Glider for Apple II
+  originals:
+  - Glider
+  type: remake
+  repo: https://github.com/colinleroy/a2tools
+  url: 'https://www.colino.net/wordpress/en/glider-for-apple-ii/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - GPL3
+  added: '2025-09-11'
+  updated: '2025-09-11'
+  images:
+  - 'https://www.colino.net/wordpress/wp-content/uploads/glider-splash.png'
+  - 'https://www.colino.net/wordpress/wp-content/uploads/glider-l1.png'
+  video:
+    youtube: B-mr6-a3d2c
+
+- name: Glider PRO
+  originals:
+  - Glider
+  type: official
+  repo: 'https://github.com/softdorothy/GliderPRO'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: A further enhanced version of Glider.
+  added: 2025-12-23
+  updated: 2025-12-23
+  images:
+  - https://upload.wikimedia.org/wikipedia/en/b/b8/Glider-PRO-screenshot.png
+
+- name: glitch-client
+  originals:
+  - Glitch
+  type: official
+  repo: 'https://github.com/tinyspeck/glitch-client'
+  url: >-
+    https://web.archive.org/web/20240730075720/http://www.glitchthegame.com/public-domain-game-art/
+  development: complete
+  status: playable
+  langs:
+  - ActionScript
+  frameworks:
+  - Adobe AIR
+  licenses:
+  - CC0
+  info: Source for the Flash-based Glitch client.
+  added: 2026-01-05
+  updated: 2026-01-05
+
+- name: glitch-GameServerJS
+  originals:
+  - Glitch
+  type: official
+  repo: 'https://github.com/tinyspeck/glitch-GameServerJS'
+  url: >-
+    https://web.archive.org/web/20131213073818/http://www.glitchthegame.com/public-domain-game-art/
+  development: complete
+  status: playable
+  langs:
+  - JavaScript
+  licenses:
+  - CC0
+  info: The server-side javascript for Glitch that determined all game behavior.
+  added: 2026-01-05
+  updated: 2026-01-05
+
+- name: glitch-hq-android
+  originals:
+  - Glitch
+  type: official
+  repo: 'https://github.com/tinyspeck/glitch-hq-android'
+  url: >-
+    https://web.archive.org/web/20170412084232/http://www.glitchthegame.com/public-domain-game-art/
+  development: complete
+  status: playable
+  langs:
+  - Java
+  licenses:
+  - CC0
+  info: Glitch HQ Android app.
+  added: 2026-01-05
+  updated: 2026-01-05
+
 - name: GloomAmiga
   originals:
   - Gloom
@@ -275,6 +609,26 @@
   updated: '2021-12-25'
   video:
     youtube: BELCO16pwNM
+
+- name: glpong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/erikg/glpong'
+  feed: 'https://github.com/erikg/glpong/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - OpenGL
+  - OpenAL
+  licenses:
+  - GPL2
+  added: 2025-09-15
+  updated: 2025-09-15
 
 - name: glPortal
   images:
@@ -418,6 +772,76 @@
   - 'https://a.fsdn.com/con/app/proj/gltron/screenshots/55754.jpg'
   - 'https://a.fsdn.com/con/app/proj/gltron/screenshots/55919.jpg'
 
+- name: Glutton
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://ftp.fr.openbsd.org/pub/OpenBSD/distfiles/#:~:text=glutton'
+  url: 'https://openports.pl/path/games/glutton'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-10-01
+  updated: 2025-10-01
+
+- name: Glypha III
+  originals:
+  - Glypha III
+  type: official
+  repo: 'https://github.com/softdorothy/Glypha3'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - MIT
+  added: 2025-12-02
+  updated: 2025-12-02
+  images:
+  - 'https://raw.githubusercontent.com/softdorothy/Glypha3/master/Screenshot.jpg'
+
+- name: GMastermind
+  originals:
+  - Mastermind
+  type: clone
+  url: 'https://gap.nongnu.org/gmastermind/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-31
+  updated: 2025-10-31
+  images:
+  - 'https://gap.nongnu.org/gmastermind/gmastermind_01_obsd.png'
+
+- name: GMines
+  originals:
+  - Minesweeper
+  type: clone
+  url: 'https://gap.nongnu.org/gmines/'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: Minimal implementation of 8x8 minesweeper game.
+  added: 2025-10-30
+  updated: 2025-10-30
+  images:
+  - 'https://gap.nongnu.org/gmines/gmines_01_obsd.png'
+
 - name: gnome-2048
   originals:
   - '2048'
@@ -559,6 +983,65 @@
   - >-
     https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/sdljump.png
 
+- name: gnupong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=gnupong'
+  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/gnupong-0.14.lsm'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL2
+  added: 2025-09-09
+  updated: 2025-09-09
+  images:
+  - https://inconsolation.wordpress.com/wp-content/uploads/2015/03/2015-03-22-6m47421-gnupong.png
+
+- name: GNUSki
+  originals:
+  - SkiFree
+  type: clone
+  repo: https://github.com/rudolfolah/gnuski/
+  development: sporadic
+  status: semi-playable
+  langs:
+  - C
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL2
+  added: 2025-11-12
+  updated: 2025-11-12
+  images:
+  - https://github.com/rudolfolah/gnuski/blob/main/demo.gif?raw=true
+
+- name: God Of Thunder
+  originals:
+  - God of Thunder
+  type: official
+  repo: 'https://sourceforge.net/projects/god-of-thunder-1994-dos-game/'
+  url: 'https://steamcommunity.com/app/738470/discussions/0/2147595112905646560/'
+  feed: 'https://sourceforge.net/p/god-of-thunder-1994-dos-game/activity/feed'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  - C
+  licenses:
+  - PD
+  added: 2026-01-04
+  updated: 2026-01-04
+  images:
+  - https://a.fsdn.com/con/app/proj/god-of-thunder-1994-dos-game/screenshots/got-header.jpg
+  - https://a.fsdn.com/con/app/proj/god-of-thunder-1994-dos-game/screenshots/got-ss1.jpg
+
 - name: Gods Deluxe
   langs:
   - Java
@@ -601,6 +1084,51 @@
   - https://media.moddb.com/images/mods/1/5/4506/ro3.jpg
   video:
     moddb: 1701377
+
+- name: GoldenVoyage Disassembly
+  originals:
+  - The Golden Voyage
+  type: remake
+  url: 'https://6502disassembly.com/a2-scott-adams/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-05
+  updated: 2026-01-05
+  images:
+  - 'https://6502disassembly.com/a2-scott-adams/images/intro_msg.gif'
+  - 'https://6502disassembly.com/a2-scott-adams/images/playing.gif'
+
+- name: Good Robot
+  originals:
+  - Good Robot
+  type: official
+  repo: 'https://github.com/arvindrajayadav/Good-Robot'
+  url: 'https://pyrodactyl.com/2020/08/04/11-years-of-pyrodactyl/#:~:text=Good%20Robot'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OpenAL
+  - SDL2
+  - OpenGL
+  licenses:
+  - MIT
+  added: 2026-01-09
+  updated: 2026-01-09
+  images:
+  - https://i0.wp.com/pyrodactyl.com/wp-content/uploads/2015/03/GoodRobot_GIF6.gif
+  - https://i0.wp.com/pyrodactyl.com/wp-content/uploads/2015/03/GoodRobot_GIF4.gif
+  - https://i0.wp.com/pyrodactyl.com/wp-content/uploads/2016/01/Good-Robot-Weapon-1.gif
+  - https://i0.wp.com/pyrodactyl.com/wp-content/uploads/2016/01/Good-Robot-Weapon-5.gif
+  video:
+    youtube: hMQEnXM54LM
 
 - name: Google Pacman
   frameworks:
@@ -674,6 +1202,20 @@
   content: open
   updated: 2024-01-07
 
+- name: Gossip
+  originals:
+  - Gossip
+  type: official
+  url: 'https://www.erasmatazz.com/library/source-code/#:~:text=Gossip'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-06
+  updated: 2026-01-06
+
 - name: Granatier
   originals:
   - Bomberman
@@ -694,6 +1236,101 @@
   updated: 2021-11-20
   images:
   - https://apps.kde.org/thumbnails/org.kde.granatier/granatier.png
+
+- name: Grand Monster Slam
+  originals:
+  - Grand Monster Slam
+  type: official
+  url: 'https://archive.org/details/Grand_Monster_Slam_Source'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-16
+  updated: 2025-11-16
+
+- name: Graphite
+  originals:
+  - Minecraft
+  type: remake
+  repo: 'https://github.com/Moulberry/Graphite'
+  url: 'https://crates.io/crates/graphite_server'
+  development: sporadic
+  status: unplayable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - Apache
+  added: 2025-10-23
+  updated: 2025-10-23
+
+- name: Gravastar
+  originals:
+  - Gravity Force 2
+  type: similar
+  repo: 'https://sourceforge.net/projects/gravastar/'
+  feed: 'https://sourceforge.net/p/gravastar/activity/feed'
+  development: halted
+  status: playable
+  multiplayer:
+  - Split-screen
+  content: open
+  langs:
+  - C++
+  licenses:
+  - LGPL2
+  added: 2026-01-09
+  updated: 2026-01-09
+  images:
+  - 'https://a.fsdn.com/con/app/proj/gravastar/screenshots/264658.jpg'
+
+- name: Gravity Force 2
+  originals:
+  - Gravity Force 2
+  type: official
+  url: 'https://www.lysator.liu.se/~jensa/gf2/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - CC-BY-SA
+  added: 2026-01-11
+  updated: 2026-01-11
+  images:
+  - 'https://www.lysator.liu.se/~jensa/gf2/gfx/alien.gif'
+  - 'https://www.lysator.liu.se/~jensa/gf2/gfx/arctic.gif'
+  - 'https://www.lysator.liu.se/~jensa/gf2/gfx/boring.gif'
+  - 'https://www.lysator.liu.se/~jensa/gf2/gfx/desert.gif'
+  - 'https://www.lysator.liu.se/~jensa/gf2/gfx/grass.gif'
+  - 'https://www.lysator.liu.se/~jensa/gf2/gfx/lego.gif'
+  - 'https://www.lysator.liu.se/~jensa/gf2/gfx/metal.gif'
+  - 'https://www.lysator.liu.se/~jensa/gf2/gfx/slime.gif'
+
+- name: Gravity Power II
+  originals:
+  - Gravity Force 2
+  type: remake
+  repo: 'https://sourceforge.net/projects/gp2/'
+  feed: 'https://sourceforge.net/p/gp2/news/feed.rss'
+  development: halted
+  status: unplayable
+  content: free
+  langs:
+  - BlitzBasic
+  - C++
+  frameworks:
+  - SDL
+  - DirectX
+  licenses:
+  - GPL2
+  added: 2026-01-05
+  updated: 2026-01-05
 
 - name: Gravity Wars
   originals:
@@ -820,6 +1457,52 @@
   video:
     youtube: gARVzn3nBsQ
 
+- name: Grizzly Adventures
+  originals:
+  - Grizzly Adventures
+  type: official
+  repo: 'https://github.com/brizzly/grizzly_adventures'
+  url: 'https://brizzlyy.itch.io/grizzly-adventures'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  - Objective-C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - MIT
+  added: 2026-01-18
+  updated: 2026-01-18
+  images:
+  - https://raw.githubusercontent.com/brizzly/grizzly_adventures/main/screens/grizzly_osx_screenshot_1.png
+  - https://raw.githubusercontent.com/brizzly/grizzly_adventures/main/screens/grizzly_osx_screenshot_2.png
+  - https://raw.githubusercontent.com/brizzly/grizzly_adventures/main/screens/grizzly_osx_screenshot_3.png
+  - https://raw.githubusercontent.com/brizzly/grizzly_adventures/main/screens/grizzly_osx_screenshot_4.png
+  video:
+    youtube: 7CzN0k2QFOA
+
+- name: Groove Board
+  originals:
+  - Dance Dance Revolution
+  type: clone
+  repo: 'https://github.com/garu/Games-GrooveBoard'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - Perl
+  frameworks:
+  - SDL
+  licenses:
+  - CC-BY
+  - CC-BY-SA
+  added: 2025-10-15
+  updated: 2025-10-15
+  images:
+  - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8HI-dO66jFwoBJ-xfouOUukFipNkwj26H2KC3dJ5noVomZdnhauxwcNDhCFFIkkGjfVBLqKZXkv8m9XfyY52dTjQ0rtk4mqfnoNaT9oMD3VpDPXVrzf6BqaBTKYGr7w5Gyfx76PA0JZ4/s0
+
 - name: GRUB Invaders
   originals:
   - Space Invaders
@@ -880,6 +1563,92 @@
   updated: 2022-08-23
   url: https://github.com/peon501/GTA2.NET
 
+- name: GTetrinet
+  originals:
+  - TetriNET
+  type: remake
+  repo: 'https://github.com/tatankat/gtetrinet'
+  url: 'https://gtetrinet.sourceforge.net/'
+  feed: 'https://github.com/tatankat/gtetrinet/releases.atom'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - C
+  frameworks:
+  - GTK
+  licenses:
+  - GPL2
+  info: A Tetrinet client for GNOME.
+  added: 2026-01-08
+  updated: 2026-01-08
+  images:
+  - 'https://gtetrinet.sourceforge.net/screenshots/gtet-fields.png'
+  - 'https://gtetrinet.sourceforge.net/screenshots/gtet-party.png'
+  - 'https://gtetrinet.sourceforge.net/screenshots/gtet-winlist.png'
+
+- name: GtkBalls
+  originals:
+  - Lines
+  type: clone
+  repo: 'https://github.com/emorozov/gtkballs'
+  url: 'http://gtkballs.antex.ru/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-12-21
+  updated: 2025-12-21
+  images:
+  - https://web.archive.org/web/20160405112803if_/http://gtkballs.antex.ru/shots/eng/gtkballs_screenshot.jpg
+  - https://web.archive.org/web/20160404190116if_/http://gtkballs.antex.ru/shots/eng/asp-theme.jpg
+  - https://web.archive.org/web/20160405081915if_/http://gtkballs.antex.ru/shots/eng/mascots-theme.jpg
+
+- name: GtkTetcolor
+  originals:
+  - Tetcolor
+  type: remake
+  repo: 'https://www.ibiblio.org/pub/Linux/games/#:~:text=gtktetcolor'
+  url: 'https://www.ibiblio.org/pub/Linux/games/gtktetcolor-0.6.4.lsm'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - GTK
+  licenses:
+  - GPL2
+  added: 2025-11-13
+  updated: 2025-11-13
+
+- name: Gunocide II EX
+  originals:
+  - Gunocide II
+  type: remake
+  repo: 'https://sourceforge.net/projects/g2ex/'
+  url: >-
+    https://web.archive.org/web/20171028201806/http://home.mayn.de/comrad/documents/vsgarage_deutsch
+  feed: 'https://sourceforge.net/projects/g2ex/rss?path=/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-12-18
+  updated: 2025-12-18
+  images:
+  - https://web.archive.org/web/20230824165422im_/https://home.mayn.de/comrad/images/articles/vsgarage_deutsch/shot_003.jpg
+
 - name: GUSANOS
   development: halted
   licenses:
@@ -934,6 +1703,30 @@
   - https://gweled.org/images/screen3.png
   video:
     youtube: fZ8NqKAVoUQ
+
+- name: Gwiz
+  originals:
+  - 'Wizardry V: Heart of the Maelstrom'
+  type: clone
+  repo: https://icculus.org/gwiz/download.php
+  url: 'https://icculus.org/gwiz/'
+  development: halted
+  status: unplayable
+  content: open
+  langs:
+  - C
+  - C++
+  frameworks:
+  - SDL
+  - GTK
+  licenses:
+  - GPL2
+  added: 2025-09-12
+  updated: 2025-09-12
+  images:
+  - 'https://icculus.org/gwiz/0911-l1.png'
+  - 'https://icculus.org/gwiz/0911-l2.png'
+  - 'https://icculus.org/gwiz/0911-l3.png'
 
 - name: GZDoom
   images:

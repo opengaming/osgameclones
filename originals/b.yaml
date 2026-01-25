@@ -43,6 +43,56 @@
   - Classic Mac OS
   - Windows
 
+- name: Balance of Power
+  names:
+  - 'Balance of Power: The 1990 Edition'
+  external:
+    wikipedia: Balance of Power (video game)
+  platforms:
+  - Amiga
+  - Apple II
+  - Atari
+  - Classic Mac OS
+  - DOS
+  - MSX
+  - PC-98
+  - Windows
+  meta:
+    genres:
+    - Simulation
+    - Strategy
+
+- name: Balance of the Planet
+  external:
+    website: 'https://www.mobygames.com/game/2514/balance-of-the-planet/'
+    wikipedia: Balance of the Planet
+  platforms:
+  - Classic Mac OS
+  - DOS
+  - PC-98
+  meta:
+    genres:
+    - Educational
+    - Simulation
+
+- name: Balatro
+  external:
+    website: 'https://www.playbalatro.com/'
+    wikipedia: Balatro
+  platforms:
+  - Android
+  - Classic Mac OS
+  - iOS
+  - Nintendo Switch
+  - PlayStation 4
+  - PlayStation 5
+  - Windows
+  - Xbox One
+  - Xbox Series S/X
+  meta:
+    genres:
+    - Turn-Based Strategy
+
 - name: Baldur's Gate
   names:
   - 'Baldur''s Gate: Tales of the Sword Coast'
@@ -95,6 +145,19 @@
     themes:
     - Fantasy
 
+- name: 'Barbie: Super Model'
+  external:
+    website: 'https://www.mobygames.com/game/20584/barbie-super-model/'
+    wikipedia: 'Barbie: Super Model'
+  platforms:
+  - DOS
+  - Genesis
+  - SNES
+  meta:
+    genres:
+    - Action
+    - Simulation
+
 - name: The Bard's Tale Construction Set
   external:
     wikipedia: The Bard's Tale Construction Set
@@ -132,6 +195,22 @@
     themes:
     - Fantasy
 
+- name: Batman Returns
+  external:
+    website: 'https://www.mobygames.com/game/38744/batman-returns/'
+    wikipedia: Batman Returns (Sega video games)
+  platforms:
+  - Game Gear
+  - Genesis
+  - Master System
+  - Sega CD
+  meta:
+    genres:
+    - Platform
+    - Racing
+    subgenres:
+    - Vehicular Combat
+
 - name: Battle Chess
   external:
     wikipedia: Battle Chess
@@ -164,6 +243,17 @@
     genres:
     - Turn-Based Strategy
 
+- name: Battle Konchūden
+  names:
+  - バトル昆虫伝
+  external:
+    website: 'https://www.mobygames.com/game/203899/battle-konchuden/'
+  platforms:
+  - PlayStation
+  meta:
+    genres:
+    - RPG
+
 - name: Battle Zone
   external:
     wikipedia: Battlezone_(1980_video_game)
@@ -172,12 +262,26 @@
     - FPS
     - Arcade
 
-- name: Battlecity
+- name: Battlezone
   external:
-    website: https://github.com/Deceth/Battle-City/wiki/Battle-City-History
+    website: 'https://www.mobygames.com/game/360/battlezone/'
+    wikipedia: Battlezone (1980 video game)
+  platforms:
+  - Apple II
+  - Arcade
+  - Atari
+  - Commodore 64
+  - PC Booter
+  - Windows
+  - Xbox 360
+  - ZX Spectrum
   meta:
     genres:
-    - Real-Time Strategy
+    - Shooter
+    subgenres:
+    - Vehicular Combat
+    themes:
+    - Sci-Fi
 
 - name: BeamNG.drive
   external:
@@ -256,16 +360,22 @@
 
 - name: Bejeweled
   external:
-    wikipedia: Bejeweled
+    website: 'https://www.ea.com/games/bejeweled'
+    wikipedia: Bejeweled (video game)
   platforms:
+  - iOS
+  - Mobile
+  - OSX
   - Web
   - Windows
+  - Xbox
   meta:
     genres:
     - Puzzle
 
 - name: Beneath a Steel Sky
   external:
+    website: https://revolution.co.uk/games_catalog/beneath-a-steel-sky/
     wikipedia: Beneath a Steel Sky
   platforms:
   - Amiga
@@ -319,12 +429,57 @@
     - Adventure
     - Platform
 
+- name: Berzerk
+  external:
+    website: 'https://www.arcade-museum.com/Videogame/berzerk'
+    wikipedia: Berzerk (video game)
+  platforms:
+  - Arcade
+  - Atari
+  meta:
+    genres:
+    - Shooter
+
 - name: Betrayal at Krondor
   external:
     wikipedia: Betrayal at Krondor
   meta:
     genres:
     - RPG
+
+- name: Beyond Castle Wolfenstein
+  external:
+    website: 'https://www.lemon64.com/?game_id=261'
+    wikipedia: Beyond Castle Wolfenstein
+  platforms:
+  - Apple II
+  - Atari
+  - Commodore 64
+  - DOS
+  meta:
+    genres:
+    - Adventure
+
+- name: Beyond Protocol
+  external:
+    website: 'https://www.mobygames.com/game/37968/beyond-protocol/'
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Real-Time Strategy
+    themes:
+    - Sci-Fi
+
+- name: Beyond the Titanic
+  external:
+    website: 'https://www.mobygames.com/game/924/beyond-the-titanic/'
+    wikipedia: 'List_of_minor_Apogee_Software_video_games#Beyond_the_Titanic'
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Text Adventure
 
 - name: Bickadoodle
   external:
@@ -367,6 +522,27 @@
     - Action
     - Roguelike
     - RPG
+
+- name: Bio Menace
+  external:
+    website: >-
+      https://web.archive.org/web/20250803152440/https://legacy.3drealms.com/menace/
+    wikipedia: Bio Menace
+  platforms:
+  - DOS
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - Platform
+
+- name: Bird Strike
+  external:
+    website: 'https://www.mobygames.com/game/111567/bird-strike/'
+  meta:
+    genres:
+    - Shooter
 
 - name: The Bizarre Adventures of Woodruff and the Schnibble
   external:
@@ -451,12 +627,38 @@
     themes:
     - Fantasy
 
-- name: 'Blake Stone: Planet Strike'
+- name: 'Blake Stone: Aliens of Gold'
   external:
-    wikipedia: 'Blake Stone: Planet Strike'
+    website: >-
+      https://web.archive.org/web/20250803144134/https://legacy.3drealms.com/blake/
+    wikipedia: 'Blake Stone: Aliens of Gold'
+  platforms:
+  - Amiga
+  - Classic Mac OS
+  - DOS
+  - Linux
+  - Windows
   meta:
     genres:
     - FPS
+    themes:
+    - Sci-Fi
+
+- name: 'Blake Stone: Planet Strike'
+  external:
+    website: >-
+      https://web.archive.org/web/20160329081004/http://www.apogeesoftware.com/products/blake-stone-planet-strike
+    wikipedia: 'Blake Stone: Planet Strike'
+  platforms:
+  - Classic Mac OS
+  - DOS
+  - Linux
+  - Windows
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Sci-Fi
 
 - name: Blasteroids
   external:
@@ -481,6 +683,16 @@
     themes:
     - Sci-Fi
 
+- name: Blasto
+  external:
+    website: 'https://www.mobygames.com/game/41947/blasto/'
+    wikipedia: Blasto (arcade game)
+  platforms:
+  - Arcade
+  meta:
+    genres:
+    - Action
+
 - name: Blazing Dragons
   external:
     website: https://www.mobygames.com/game/8513
@@ -495,6 +707,45 @@
     - Medieval
   platforms:
   - PlayStation
+
+- name: Blitzkrieg
+  names:
+  - Блицкриг
+  external:
+    website: 'https://web.archive.org/web/20040924174859/http://blitzkrieg.de/'
+    wikipedia: Blitzkrieg (video game)
+  platforms:
+  - Classic Mac OS
+  - Windows
+  meta:
+    genres:
+    - Real-Time Tactics
+    themes:
+    - World War II
+
+- name: Blitzkrieg 2
+  names:
+  - Блицкриг II
+  external:
+    website: 'https://web.archive.org/web/20070306014206/http://www.nival.com/blitzkrieg2/'
+    wikipedia: Blitzkrieg 2
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Real-Time Tactics
+    themes:
+    - World War II
+
+- name: Block It
+  external:
+    website: 'https://www.igdb.com/games/block-it'
+  platforms:
+  - Android
+  - iOS
+  meta:
+    genres:
+    - Arcade
 
 - name: Blockout
   external:
@@ -536,6 +787,19 @@
     - Fantasy
     - Management
 
+- name: 'Blood II: The Chosen'
+  external:
+    website: >-
+      https://web.archive.org/web/20170918104807/http://www.lith.com/Games/BLOOD-II--The-Chosen
+    wikipedia: 'Blood II: The Chosen'
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Sci-Fi
+
 - name: Bloodborne
   external:
     website: 'https://www.playstation.com/en-us/games/bloodborne/'
@@ -549,6 +813,15 @@
     - Action RPG
     themes:
     - Fantasy
+
+- name: Bloodsuckers
+  external:
+    website: 'https://www.mobygames.com/game/137267/bloodsuckers/'
+  platforms:
+  - Apple II
+  meta:
+    genres:
+    - Action
 
 - name: Bloons Tower Defense
   external:
@@ -572,6 +845,16 @@
     - Crime
   platforms:
   - DOS
+
+- name: Blue Max
+  external:
+    website: 'https://www.lemon64.com/game/blue-max'
+    wikipedia: Blue Max (video game)
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Shooter
 
 - name: Blue's 123 Time Activities
   external:
@@ -652,6 +935,15 @@
     genres:
     - Platform
 
+- name: BM98
+  external:
+    website: https://en.namu.wiki/w/BM98
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Rhythm
+
 - name: Board Game
   external:
     wikipedia: Board Game
@@ -686,6 +978,15 @@
     genres:
     - Shmup
 
+- name: Bomber
+  external:
+    website: 'https://www.mobygames.com/game/123426/bomber/'
+  platforms:
+  - Apple II
+  meta:
+    genres:
+    - Action
+
 - name: Bomberman
   external:
     wikipedia: Bomberman
@@ -715,6 +1016,12 @@
     genres:
     - Arcade
 
+- name: Boulder Bombers
+  external:
+    website: 'https://www.atarimania.com/game-atari-400-800-xl-xe-boulder-bombers_741.html'
+  platforms:
+  - Atari
+
 - name: Boulder Dash
   external:
     website: 'https://boulder-dash.com/'
@@ -739,6 +1046,15 @@
   meta:
     genres:
     - Arcade
+    - Puzzle
+
+- name: Box World
+  external:
+    website: 'https://www.mobygames.com/game/130315/box-world/'
+  platforms:
+  - Windows
+  meta:
+    genres:
     - Puzzle
 
 - name: Brain Blasters
@@ -768,12 +1084,37 @@
     genres:
     - Arcade
 
+- name: Breach
+  external:
+    website: 'https://www.mobygames.com/game/17073/breach/'
+    wikipedia: Breach (1987 video game)
+  platforms:
+  - Amiga
+  - Atari
+  - DOS
+  - Windows
+  meta:
+    genres:
+    - Strategy
+    themes:
+    - Sci-Fi
+
 - name: Breakout
   external:
     wikipedia: Breakout (video game)
   meta:
     genres:
     - Arcade
+
+- name: Breakout 2000
+  external:
+    website: 'http://www.telegames.com/b2k.htm'
+    wikipedia: Breakout 2000
+  platforms:
+  - Jaguar
+  meta:
+    genres:
+    - Action
 
 - name: BrickShooter
   external:
@@ -860,6 +1201,15 @@
     genres:
     - Arcade
 
+- name: Bumpomov's Dogs
+  external:
+    website: 'https://ataridogdaze.com/bumpomov/bumpomov.shtml'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Action
+
 - name: BurgerTime
   external:
     wikipedia: BurgerTime
@@ -871,17 +1221,27 @@
   - Hamburger
   - "\u30CF\u30F3\u30D0\u30FC\u30AC\u30FC"
 
-- name: Buster Bros
-  external:
-    wikipedia: Buster Bros
-  meta:
-    genres:
-    - Arcade
+- name: Buster Bros.
   names:
   - Pang
-  - "\u30D1\u30F3"
   - Pomping World
-  - "\u30DD\u30F3\u30D4\u30F3\u30B0\u30FB\u30EF\u30FC\u30EB\u30C9"
+  - ポンピングワールド
+  external:
+    website: 'https://www.mobygames.com/game/5055/buster-bros/'
+    wikipedia: Buster Bros.
+  platforms:
+  - Amiga
+  - Amstrad CPC
+  - Arcade
+  - Atari
+  - Commodore 64
+  - Game Boy
+  - TurboGrafx-16
+  - ZX Spectrum
+  meta:
+    genres:
+    - Action
+    - Arcade
 
 - name: Buzz Aldrin's Race Into Space
   external:

@@ -1,3 +1,31 @@
+- name: RA2Web React
+  originals:
+  - 'Command & Conquer: Red Alert 2'
+  type: remake
+  repo: 'https://github.com/huangkaoya/redalert2'
+  url: 'https://www.ra2web.com/'
+  feed: 'https://github.com/huangkaoya/redalert2/releases.atom'
+  development: active
+  status: semi-playable
+  content: commercial
+  langs:
+  - TypeScript
+  frameworks:
+  - React
+  - three.js
+  - WebGL
+  licenses:
+  - As-is
+  info: >-
+    Developed based on decompiling the Chinese version RA2WEB of the Chrono
+    Divide (chronodivide.com) client.
+  added: 2025-10-11
+  updated: 2025-10-11
+  images:
+  - https://github.com/user-attachments/assets/f146dc1c-ca15-456a-a8f0-4b43f2d431e8
+  - https://github.com/user-attachments/assets/a23760df-e679-4b32-a9a2-ca51c214c420
+  - https://github.com/user-attachments/assets/4781f451-7a51-45e2-919b-cbcb8bbd727a
+
 - name: Rabbit Escape
   images:
   - https://raw.githubusercontent.com/andybalaam/rabbit-escape/master/doc/rabbitescape-android.png
@@ -100,6 +128,66 @@
   - https://a.fsdn.com/con/app/proj/rad-x/screenshots/SSHOT_Doom_20200423_124105016.png/max/max/1
   video:
     youtube: 5aY8fUxg5iQ
+
+- name: Rafkill
+  originals:
+  - 'Raptor: Call of the Shadows'
+  - Tyrian
+  type: similar
+  repo: 'https://sourceforge.net/projects/raptorv2/'
+  url: 'https://raptorv2.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/raptorv2/code/feed/'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - LGPL2
+  added: 2025-11-02
+  updated: 2025-11-02
+  images:
+  - 'https://raptorv2.sourceforge.net/images/title.png'
+  - 'https://raptorv2.sourceforge.net/images/snapshot1.png'
+  - 'https://raptorv2.sourceforge.net/images/buy.png'
+  - 'https://screenshots.debian.net/screenshot/rafkill/15672'
+
+- name: RAID2020
+  originals:
+  - Raid 2020
+  type: remake
+  repo: 'https://github.com/Evenball-8bit/RAID2020'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-07
+  updated: 2026-01-07
+
+- name: Rampage
+  originals:
+  - Rampage
+  type: official
+  repo: 'https://github.com/milkeybabes/Rampage'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Local
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Rampage source code for C64 Computer.
+  added: 2026-01-13
+  updated: 2026-01-13
+  images:
+  - 'https://www.vintageisthenewold.com/wp-content/uploads/2019/05/rampage_6.png'
 
 - name: Rampart-Android
   info: Android
@@ -267,6 +355,71 @@
   type: remake
   updated: 2022-11-13
 
+- name: Re Volt Xbox And PC Source Code
+  originals:
+  - Re-Volt
+  type: official
+  url: 'https://archive.org/details/ReVoltXboxAndPCSourceCode'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C
+  - C++
+  licenses:
+  - As-is
+  added: 2026-01-19
+  updated: 2026-01-19
+  images:
+  - https://archive.org/download/ReVoltXboxAndPCSourceCode/revolt.jpg
+
+- name: Real-time Command to Conquer
+  originals:
+  - Command & Conquer
+  type: clone
+  repo: 'https://www.calculatorti.com/ti-games/ti-89/asm/real-time-command-and-conquer/'
+  url: >-
+    https://web.archive.org/web/20010821023218/http://www.calcware.org/member/tnt/#ctc
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: TI-89 graphing calculator game.
+  added: 2025-11-28
+  updated: 2025-11-28
+  images:
+  - https://www.calculatorti.com/media/images/programs/real-time-command-and-conquer.jpg
+
+- name: Realtime Chaos
+  originals:
+  - 'Chaos: The Battle of Wizards'
+  type: similar
+  repo: 'https://sourceforge.net/projects/realtimechaos/'
+  url: 'http://www.carlylesmith.karoo.net/realtimechaos/'
+  feed: 'https://sourceforge.net/p/realtimechaos/news/feed.rss'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - Java
+  frameworks:
+  - Swing
+  licenses:
+  - GPL2
+  added: 2026-01-09
+  updated: 2026-01-09
+  images:
+  - 'https://a.fsdn.com/con/app/proj/realtimechaos/screenshots/36336.jpg'
+  - 'https://a.fsdn.com/con/app/proj/realtimechaos/screenshots/36338.jpg'
+
 - name: ReC98
   originals:
   - Touhou
@@ -288,6 +441,39 @@
   - https://rec98.nmlgc.net/blog/static/2021-11-08-TH01-Mima-three-arms.png
   video:
     youtube: 7-UYGhZ1sB8
+
+- name: Reconstructed BioMenace Source Code
+  originals:
+  - Bio Menace
+  type: remake
+  url: 'https://pckf.com/viewtopic.php?p=111897'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-12
+  updated: 2026-01-12
+
+- name: Reconstructed Commander Keen 4-6
+  originals:
+  - Commander Keen Series
+  type: remake
+  repo: 'https://github.com/sparky4/keen4-6'
+  url: 'https://pckf.com/viewtopic.php?t=11505'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - GPL2
+  added: 2026-01-03
+  updated: 2026-01-03
 
 - name: Reconstruction of Super ZZT
   type: remake
@@ -336,6 +522,23 @@
   - MIT
   updated: '2023-12-08'
 
+- name: ReDMCSB
+  originals:
+  - Dungeon Master
+  type: remake
+  repo: 'https://github.com/gondur/ReDMCSB_Release2'
+  url: http://dmweb.free.fr/community/redmcsb/
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  - C
+  licenses:
+  - As-is
+  added: 2025-12-01
+  updated: 2025-12-01
+
 - name: RedneckGDX
   originals:
   - Redneck Rampage
@@ -358,29 +561,6 @@
   updated: 2024-01-13
   video:
     youtube: 0w_LI7LVb3s
-
-- name: Rednukem
-  type: remake
-  originals:
-  - Redneck Rampage
-  - Duke Nukem 3D
-  repo: https://github.com/nukeykt/NBlood
-  url: https://nukeykt.retrohost.net/
-  development: very active
-  status: playable
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  - SDL2
-  - OpenGL
-  licenses:
-  - Custom
-  content: commercial
-  info: Based on EDuke32
-  updated: 2020-01-10
-  video:
-    youtube: KSoVdF9SvNY
 
 - name: REDRIVER2
   type: remake
@@ -482,6 +662,21 @@
   updated: 2024-01-23
   video:
     youtube: -75zRX2PdXY
+
+- name: remc1hw
+  originals:
+  - Magic Carpet
+  type: remake
+  repo: 'https://github.com/turican0/remc1hw'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  added: 2025-11-29
+  updated: 2025-11-29
 
 - name: remc2
   type: remake
@@ -605,6 +800,24 @@
   video:
     youtube: U80-mOOxmDM
 
+- name: Repton for Linux
+  originals:
+  - Repton
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=repton'
+  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/repton-1.3.lsm'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SVGALib
+  licenses:
+  - BSD4
+  added: 2025-09-24
+  updated: 2025-09-24
+
 - name: ReQbert
   licenses:
   - GPL3
@@ -692,6 +905,24 @@
   video:
     youtube: pPY4fsEujio
 
+- name: retruxx
+  originals:
+  - Hard Truck Apocalypse
+  type: remake
+  repo: 'https://github.com/mindflower/retruxx'
+  development: active
+  status: semi-playable
+  content: commercial
+  langs:
+  - C++
+  - C
+  frameworks:
+  - Open Dynamics Engine
+  licenses:
+  - As-is
+  added: '2026-01-05'
+  updated: '2026-01-05'
+
 - name: Return of Dr. Destructo
   frameworks:
   - Allegro
@@ -708,6 +939,45 @@
   updated: 2019-09-13
   video:
     youtube: aruCsdxWCCQ
+
+- name: Return to Castle Wolfenstein Multiplayer
+  originals:
+  - Return to Castle Wolfenstein
+  type: official
+  repo: 'https://github.com/id-Software/RTCW-MP'
+  url: >-
+    https://web.archive.org/web/20131210051806/http://www.shacknews.com/file/19981/return-to-castle-wolfenstein-multiplayer-gpl-source-code
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  - Co-op
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL3
+  added: 2025-12-12
+  updated: 2025-12-12
+
+- name: Return to Castle Wolfenstein Single Player
+  originals:
+  - Return to Castle Wolfenstein
+  type: official
+  repo: 'https://github.com/id-Software/RTCW-SP'
+  url: >-
+    https://web.archive.org/web/20140111071105/http://www.shacknews.com/file/19980/return-to-castle-wolfenstein-single-player-gpl-source-code
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL3
+  added: 2025-12-12
+  updated: 2025-12-12
 
 - name: Return to the Roots
   images:
@@ -766,6 +1036,40 @@
   video:
     youtube: guKH_OgaF8U
 
+- name: Revenge of the Titans
+  originals:
+  - Revenge of the Titans
+  type: official
+  repo: 'https://github.com/imaginationac/revenge-of-the-titans'
+  url: 'https://www.puppygames.net/blog/?p=914'
+  development: complete
+  status: playable
+  langs:
+  - Java
+  licenses:
+  - BSD
+  content: commercial
+  added: 2025-12-12
+  updated: 2025-12-12
+
+- name: Revs on the BBC Micro
+  originals:
+  - Revs
+  type: remake
+  repo: 'https://github.com/markmoxon/revs-source-code-bbc-micro'
+  url: 'https://revs.bbcelite.com/'
+  development: very active
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-09
+  updated: 2026-01-09
+  images:
+  - 'https://revs.bbcelite.com/images/general/Revs.png'
+
 - name: Rezcraft
   originals:
   - Minecraft
@@ -819,6 +1123,21 @@
   type: remake
   updated: 2015-04-03
   url: http://sourceforge.net/projects/rickyd/
+
+- name: Riddle of the Sphinx Disassembly
+  originals:
+  - Riddle of the Sphinx
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/riddle-pal.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200312/msg00181.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-08
+  updated: 2025-11-08
 
 - name: Rigel Engine
   type: remake
@@ -910,6 +1229,21 @@
   video:
     youtube: oKYNsIPr0tY
 
+- name: 'Rise of the Triad: Dark War'
+  originals:
+  - Rise of the Triad
+  type: official
+  repo: 'https://github.com/videogamepreservation/rott'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-09-23
+  updated: 2025-09-23
+
 - name: Rise of the Triad for Linux
   langs:
   - C
@@ -929,6 +1263,92 @@
   images:
   - https://i.stack.imgur.com/Nz443.png
   - https://icculus.org/~ravage/rott/rott_installer.jpg
+
+- name: River Raid (VHDL)
+  originals:
+  - River Raid
+  type: remake
+  repo: 'https://github.com/SadraSamadi/river-raid'
+  development: halted
+  status: semi-playable
+  langs:
+  - VHDL
+  licenses:
+  - As-is
+  added: 2025-11-03
+  updated: 2025-11-03
+  images:
+  - 'https://raw.githubusercontent.com/SadraSamadi/river-raid/master/screencast.gif'
+
+- name: River Raid 2k
+  originals:
+  - River Raid
+  type: remake
+  repo: 'https://github.com/joaoneto/river-raid-2k'
+  url: 'https://joaoneto.github.io/river-raid-2k/'
+  development: halted
+  status: unplayable
+  content: open
+  langs:
+  - JavaScript
+  - HTML
+  licenses:
+  - MIT
+  added: 2025-10-07
+  updated: 2025-10-07
+  images:
+  - 'https://raw.githubusercontent.com/joaoneto/river-raid-2k/main/preview.gif'
+
+- name: River Raid Disassembly
+  originals:
+  - River Raid
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/RiverRaid.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200108/msg00206.html'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-09-26
+  updated: 2025-10-10
+
+- name: River/Covid Raid 2020
+  originals:
+  - River Raid
+  type: remake
+  repo: 'https://github.com/masoudhassani/river_raid'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL3
+  added: 2025-11-16
+  updated: 2025-11-16
+  images:
+  - https://raw.githubusercontent.com/masoudhassani/river_raid/master/media/river_raid_ai_gameplay.gif
+
+- name: Red vs. Blue Disassembly
+  originals:
+  - RealSports Football
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/redblue.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200311/msg00171.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: RealSports Football Prototype Red Vs. Blue Disassembly.
+  added: '2025-11-07'
+  updated: '2025-11-07'
 
 - name: rlvm
   originals:
@@ -990,6 +1410,23 @@
   type: remake
   updated: 2024-01-23
   url: https://blog.form.dev/PlayRobbo
+
+- name: Roboforge
+  originals:
+  - Roboforge
+  type: official
+  repo: 'http://www.roboforge.altervista.org/source.htm'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  content: free
+  langs:
+  - Java
+  licenses:
+  - Custom
+  added: 2025-11-27
+  updated: 2025-11-27
 
 - name: Robombs
   originals:
@@ -1121,13 +1558,38 @@
   updated: 2022-11-13
   url: http://rockbot.upperland.net/
 
+- name: rocket-game
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/tversteeg/rocket-game'
+  url: 'https://crates.io/crates/rocket-game'
+  feed: 'https://github.com/tversteeg/rocket-game/releases.atom'
+  development: halted
+  status: semi-playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-07
+  updated: 2025-10-07
+  images:
+  - https://raw.githubusercontent.com/tversteeg/rocket-game/master/img/screenshot-0.1.5.png
+
 - name: Rocks'n'Diamonds
   frameworks:
   - SDL2
   images:
   - https://www.artsoft.org/rocksndiamonds/screenshots/mainmenu.gif
   - https://www.artsoft.org/rocksndiamonds/screenshots/emeraldmine.gif
+  - https://www.artsoft.org/rocksndiamonds/screenshots/boulderdash.png
+  - https://www.artsoft.org/rocksndiamonds/screenshots/supaplex.png
   - https://www.artsoft.org/rocksndiamonds/screenshots/editor1.gif
+  - https://www.artsoft.org/rocksndiamonds/screenshots/setupinput.png
+  - https://www.artsoft.org/rocksndiamonds/screenshots/Snake_Bite/snake_bite-1.png
+  - https://www.artsoft.org/rocksndiamonds/screenshots/Snake_Bite/snake_bite-4.png
+  - https://www.artsoft.org/rocksndiamonds/screenshots/Snake_Bite/snake_bite_jue-1.png
+  - https://www.artsoft.org/rocksndiamonds/screenshots/Snake_Bite/snake_bite_jue-2.png
   langs:
   - C
   licenses:
@@ -1136,6 +1598,8 @@
   development: active
   originals:
   - Boulder Dash
+  - Emerald Mine
+  - Sokoban
   - Supaplex
   repo: https://git.artsoft.org/rocksndiamonds.git/
   status: playable
@@ -1144,8 +1608,30 @@
   - Online
   type: remake
   added: 2014-01-12
-  updated: 2023-03-27
+  updated: 2025-12-18
   url: https://www.artsoft.org/rocksndiamonds/
+
+- name: Rocky Racers
+  originals:
+  - Rocky Racers
+  type: official
+  url: >-
+    https://web.archive.org/web/20040708044233/http://www.positech.co.uk/rocky/sourcecode.shtml
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  licenses:
+  - Custom
+  added: 2025-11-27
+  updated: 2025-11-27
+  images:
+  - https://web.archive.org/web/20051101221414if_/http://www.positech.co.uk:80/rocky/images/screen1.jpg
+  - https://web.archive.org/web/20051101221609if_/http://www.positech.co.uk:80/rocky/images/screen2.jpg
+  - https://web.archive.org/web/20051101221639if_/http://www.positech.co.uk:80/rocky/images/screen3.jpg
 
 - name: Rogue Legacy
   originals:
@@ -1263,6 +1749,24 @@
   - >-
     https://64.media.tumblr.com/a0a066bce3c2c789ef48f17875360384/tumblr_oxbrxqP1tl1uohygqo1_1280.jpg
 
+- name: Roxxout
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://sourceforge.net/projects/roxxout/'
+  feed: 'https://sourceforge.net/p/roxxout/code/feed/'
+  development: halted
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-11-09
+  updated: 2025-11-09
+
 - name: RPG-Maker-MacOS-Launcher
   originals:
   - RPG Maker
@@ -1303,6 +1807,22 @@
   url: http://www.last-outpost.net/rpg-x/
   video:
     youtube: QCYMLoTGPh0
+
+- name: rs48
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/MBarnulf/rs48'
+  url: 'https://crates.io/crates/rs48'
+  feed: 'https://github.com/MBarnulf/rs48/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-23
+  updated: 2025-10-23
 
 - name: rsc-c
   originals:
@@ -1454,6 +1974,43 @@
   type: clone
   updated: 2022-08-14
 
+- name: rust-2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/andelf/rust-2048'
+  url: 'https://crates.io/crates/game2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-09-21
+  updated: 2025-09-21
+  images:
+  - https://camo.githubusercontent.com/74879cb8bd35eff3948d09a371c2839745b6f865c52fc474f7b7ab8d1cf453b1/687474703a2f2f692e696d6775722e636f6d2f4554413431506f2e706e673f31
+
+- name: rust2048
+  originals:
+  - '2048'
+  type: clone
+  repo: >-
+    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/7ma7X/2048
+  url: 'https://crates.io/crates/rust2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-22
+  updated: 2025-10-22
+  images:
+  - https://user-images.githubusercontent.com/36184621/52550849-43ec4e00-2e1d-11e9-90b0-2384aab813ca.gif
+
 - name: rustcraft
   originals:
   - Minecraft
@@ -1483,6 +2040,60 @@
     https://github.com/c2i-junia/rustcraft/raw/main/docs/images/preview1.png
   - >-
     https://github.com/c2i-junia/rustcraft/raw/main/docs/images/preview2.png
+
+- name: Rustle
+  originals:
+  - Wordle
+  - Nerdle
+  type: clone
+  repo: 'https://github.com/tylerthecoder/rustle'
+  url: 'https://crates.io/crates/rustle-game'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-17
+  updated: 2025-10-17
+
+- name: Rustsweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/SunilPaul174/rustsweeper'
+  url: 'https://crates.io/crates/rustsweeper'
+  feed: 'https://github.com/SunilPaul174/rustsweeper/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-09-25
+  updated: 2025-09-25
+  images:
+  - https://raw.githubusercontent.com/SunilPaul174/rustsweeper/refs/heads/master/gifs/rustsweeper_play.gif
+
+- name: Rusty Bird
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/carp3/rusty-bird'
+  url: 'https://pedram.online/rusty-bird/'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - Rust
+  frameworks:
+  - Bevy
+  licenses:
+  - PD
+  added: 2025-09-26
+  updated: 2025-09-26
+  images:
+  - 'https://raw.githubusercontent.com/carp3/rusty-bird/main/screenshot.png'
 
 - name: RuZZT
   type: remake

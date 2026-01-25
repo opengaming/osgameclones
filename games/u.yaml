@@ -1,3 +1,23 @@
+- name: UZDoom
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - Vulkan
+  licenses:
+  - GPL3
+  development: very active
+  originals:
+  - Doom
+  - Heretic
+  - Hexen
+  status: playable
+  repo: https://github.com/UZDoom/UZDoom
+  type: remake
+  added: 2025-10-19
+  updated: 2025-10-19
+  info: UZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine
+
 - name: UA_source
   langs:
   - C++
@@ -158,6 +178,24 @@
   updated: 2023-08-19
   video:
     youtube: ZYSHJ8TQe2Q
+
+- name: 'Ultima: Escape from Mount Drash'
+  originals:
+  - 'Ultima: Escape from Mt. Drash'
+  type: remake
+  url: >-
+    https://www.peroxide.dk/projects_old.shtml#:~:text=the%20mount%20drash%20project
+  development: halted
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2025-11-23
+  updated: 2025-11-23
 
 - name: Ultimate Stunts
   images:
@@ -483,28 +521,24 @@
   updated: 2023-01-30
   info: porting old python/FIFE codebase to Godot
 
-- name: Unknown Horizons Godot Engine Port
+- name: Unrest
   originals:
-  - Anno series
-  type: clone
-  repo: https://github.com/unknown-horizons/godot-port
-  url: https://unknown-horizons.org
-  development: sporadic
-  status: unplayable
-  content: open
+  - Unrest
+  type: official
+  repo: 'https://github.com/arvindrajayadav/unrest'
+  url: 'https://pyrodactyl.com/2020/08/04/11-years-of-pyrodactyl/#:~:text=Unrest'
+  development: complete
+  status: playable
+  content: commercial
   langs:
-  - GDScript
+  - C++
   frameworks:
-  - Godot
+  - OpenGL
+  - SDL2
   licenses:
-  - GPL2
-  info: We are searching for developers for our Godot Engine port.
-  added: 2019-12-24
-  updated: 2023-08-21
-  images:
-  - https://unknown-horizons.org/static/screenshots/godot/main_menu_godot.png
-  - https://unknown-horizons.org/static/screenshots/godot/ingame_dev_map_godot.png
-  - https://unknown-horizons.org/static/screenshots/godot/ingame_dev_map_2_godot.png
+  - MIT
+  added: 2025-12-03
+  updated: 2025-12-03
 
 - name: Unvanquished
   images:
@@ -544,6 +578,21 @@
   updated: 2023-08-23
   url: https://unvanquished.net
   feed: https://unvanquished.net/feed
+
+- name: Uplink
+  originals:
+  - Uplink
+  type: remake
+  repo: 'https://github.com/AdrUlb/Uplink'
+  development: sporadic
+  status: unplayable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - MIT
+  added: 2025-11-23
+  updated: 2025-11-23
 
 - name: The Ur-Quan Masters
   images:
@@ -595,6 +644,25 @@
   - https://uqm-mods.sourceforge.net/Images/MegaMod/04%20Earth.png
   - https://uqm-mods.sourceforge.net/Images/MegaMod/05%20Lunar%20Scan.png
   - https://uqm-mods.sourceforge.net/Images/MegaMod/06%20Lunar%20Report.png
+
+- name: URL Snake
+  originals:
+  - Snake
+  type: clone
+  repo: 'https://github.com/epidemian/snake'
+  url: 'https://demian.ferrei.ro/snake'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - Unlicense
+  info: A snake game on the browser URL.
+  added: 2025-09-29
+  updated: 2025-09-29
+  images:
+  - 'https://raw.githubusercontent.com/epidemian/snake/master/gameplay.gif'
 
 - name: USokoban
   originals:

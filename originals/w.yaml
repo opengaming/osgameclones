@@ -22,6 +22,17 @@
     - World War I
     - World War II
 
+- name: War Worlds
+  external:
+    website: 'https://www.war-worlds.com/'
+  platforms:
+  - Android
+  meta:
+    genres:
+    - Simulation
+    themes:
+    - Sci-Fi
+
 - name: 'Warcraft 2000'
   names:
   - 'Warcraft 2000: Nuclear Epidemic'
@@ -189,12 +200,34 @@
   - OSX
   - Windows
 
+- name: 'Will Fight for Food: Super Actual Sellout: Game of the Hour'
+  external:
+    website: 'https://pyrodactyl.com/will-fight-for-food/'
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - Action
+    - RPG
+
 - name: Willow
   external:
     wikipedia: Willow (arcade game)
   meta:
     genres:
     - Arcade
+
+- name: Willy the Worm
+  external:
+    website: 'https://www.mobygames.com/game/896/willy-the-worm/'
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Arcade
+    - Platform
 
 - name: 'Wing Commander: Privateer'
   external:
@@ -275,6 +308,15 @@
     themes:
     - Fantasy
 
+- name: Wizard
+  external:
+    website: 'https://www.atarimania.com/game-atari-2600-vcs-wizard_11885.html'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Arcade
+
 - name: The Wizard and the Princess
   names:
   - 'Hi-Res Adventure #2'
@@ -310,19 +352,55 @@
     genres:
     - RPG
 
+- name: 'Wizardry V: Heart of the Maelstrom'
+  external:
+    website: 'https://www.mobygames.com/game/wizardry-v-heart-of-the-maelstrom'
+    wikipedia: 'Wizardry V: Heart of the Maelstrom'
+  platforms:
+  - Apple II
+  - Commodore 64
+  - FM Towns
+  - PC-98
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
+
 - name: Wolfenstein 3D
   external:
+    website: https://www.mobygames.com/game/306/wolfenstein-3d/
     wikipedia: Wolfenstein 3D
+  platforms:
+  - Acorn 32-bit
+  - Classic Mac OS
+  - DOS
+  - Game Boy
+  - iOS
+  - PC-98
+  - PlayStation 3
+  - Web
+  - Windows
+  - Xbox 360
+  - Xbox One
   meta:
     genres:
     - FPS
 
 - name: 'Wolfenstein: Enemy Territory'
   external:
+    website: >-
+      https://web.archive.org/web/20061231053225/http://games.activision.com/games/wolfenstein/
     wikipedia: 'Wolfenstein: Enemy Territory'
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   meta:
     genres:
     - FPS
+    themes:
+    - World War II
 
 - name: Wonderland
   external:
@@ -341,6 +419,24 @@
   - Atari
   - DOS
 
+- name: Word Whiz
+  external:
+    website: 'https://www.mobygames.com/game/14272/word-whiz/'
+    wikipedia: 'List_of_minor_Apogee_Software_video_games#Word_Whiz'
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Educational
+
+- name: Wordle
+  external:
+    website: 'https://www.nytimes.com/games/wordle/'
+    wikipedia: Wordle
+  meta:
+    genres:
+    - Puzzle
+
 - name: World Builder
   external:
     wikipedia: World Builder
@@ -349,6 +445,17 @@
   meta:
     subgenres:
     - Point and click
+
+- name: World in Conflict
+  external:
+    website: >-
+      https://web.archive.org/web/20190613001643/http://worldinconflict.us.ubi.com/
+    wikipedia: World in Conflict
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Real-Time Tactics
 
 - name: World of Goo
   external:
@@ -366,6 +473,15 @@
     subgenres: []
     themes:
     - Fantasy
+
+- name: World Train Royale
+  external:
+    website: 'https://web.archive.org/web/20160401233353/http://versus-software.com/wtr/'
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Simulation
 
 - name: 'Worlds of Ultima: The Savage Empire'
   external:

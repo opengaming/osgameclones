@@ -33,6 +33,30 @@
   type: remake
   updated: 2021-01-24
 
+- name: Eastern Front (1941)
+  originals:
+  - Eastern Front (1941)
+  type: official
+  repo: 'https://www.erasmatazz.com/library/source-code/index.html#:~:text=Eastern%20Front%20(1941)'
+  url: 'https://atariwiki.org/wiki/Wiki.jsp?page=Eastern%20Front%201941'
+  feed: 'https://atariwiki.org/wiki/rss.jsp?page=Eastern+Front+1941&mode=wiki'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    A killer app for Atari computers, It was widely lauded in the
+    press and was Creative Computing's Game of the Year in 1981
+  added: 2025-09-22
+  updated: 2025-09-22
+  images:
+  - https://atariwiki.org/wiki/attach/Eastern%20Front%201941/Eastern_Front_85_Screenshot1.jpg
+  - https://atariwiki.org/wiki/attach/Eastern%20Front%201941/Eastern_Front_85_Screenshot2.jpg
+  - https://atariwiki.org/wiki/attach/Eastern%20Front%201941/1982_Atari.jpg
+  - https://atariwiki.org/wiki/attach/Eastern%20Front%201941/Eastern_Front_1941_Scenario_Editor.jpg
+
 - name: EasyRPG Player
   images:
   - https://easyrpg.org/images/easyrpg-player.png
@@ -71,6 +95,49 @@
   url: http://www.ggsoft.org/etw/
   video:
     youtube: MB-v907JXSU
+
+- name: ebiten-mines
+  originals:
+  - Minesweeper
+  type: remake
+  repo: 'https://github.com/mevdschee/ebiten-mines/'
+  url: 'https://www.maurits.vdschee.nl/ebiten-mines/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Go
+  frameworks:
+  - Ebitengine
+  licenses:
+  - MIT
+  added: 2025-09-08
+  updated: 2025-09-08
+  images:
+  - https://raw.githubusercontent.com/mevdschee/ebiten-mines/refs/heads/main/screenshot.jpg
+
+- name: Ebitengine
+  originals:
+  - '2048'
+  - Flappy Bird
+  - Tetris
+  type: clone
+  repo: 'https://github.com/hajimehoshi/ebiten'
+  url: 'https://ebitengine.org/en/examples/#Games'
+  development: sporadic
+  status: playable
+  langs:
+  - Go
+  frameworks:
+  - Ebitengine
+  licenses:
+  - Apache
+  added: 2025-09-14
+  updated: 2025-09-14
+  images:
+  - https://ebitengine.org/images/examples/2048.png
+  - https://ebitengine.org/images/examples/blocks.png
+  - https://ebitengine.org/images/examples/flappy.png
 
 - name: Ecksdee
   images:
@@ -119,6 +186,58 @@
   video:
     youtube: 1TVkzeAEWHo
 
+- name: edfries-anteater
+  originals:
+  - Anteater
+  type: official
+  repo: 'https://github.com/savetz/edfries-anteater'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - MIT
+  added: 2026-01-02
+  updated: 2026-01-02
+  images:
+  - 'https://raw.githubusercontent.com/savetz/edfries-anteater/main/anteater.jpg'
+
+- name: edfries-frog
+  originals:
+  - Princess and Frog
+  type: official
+  repo: 'https://github.com/savetz/edfries-frog'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - MIT
+  added: 2025-12-27
+  updated: 2025-12-27
+  images:
+  - 'https://raw.githubusercontent.com/savetz/edfries-frog/main/frog.jpg'
+
+- name: edfries-nitro
+  originals:
+  - Nitro
+  type: official
+  repo: 'https://github.com/savetz/edfries-nitro'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - MIT
+  info: >-
+    This was to be published by Romox but the company folded before Ed could
+    finish the game.
+  added: 2025-12-31
+  updated: 2025-12-31
+  images:
+  - 'https://raw.githubusercontent.com/savetz/edfries-nitro/main/nitro-title.png'
+  - 'https://raw.githubusercontent.com/savetz/edfries-nitro/main/nitro-game.png'
+
 - name: EDuke32
   originals:
   - Duke Nukem 3D
@@ -143,6 +262,50 @@
   video:
     youtube: M30qo5oA5rs
   updated: 2020-08-25
+
+- name: eech_source_code
+  originals:
+  - Enemy Engaged
+  type: official
+  repo: https://github.com/enemy-engaged-developers/eech_source_code
+  url: https://simhq.net/forum/ubbthreads.php/topics/4420670/eech-source-code-access-now-public
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - Co-op
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - OGRE
+  licenses:
+  - Custom
+  added: 2019-06-21
+  updated: 2025-12-10
+
+- name: EF2GameSource
+  originals:
+  - 'Star Trek: Elite Force II'
+  type: remake
+  repo: 'https://github.com/UberGames/EF2GameSource'
+  url: >-
+    https://web.archive.org/web/20190407192347/https://eliteforce.gamebub.com/tools.php#:~:text=EF2%20Source%20Code
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - id Tech 3
+  licenses:
+  - Custom
+  added: 2025-11-21
+  updated: 2025-11-21
 
 - name: Einstein Puzzle
   originals:
@@ -192,6 +355,26 @@
   - 'https://github.com/AmarOk1412/Eksplode.re/raw/master/screenshots/game.jpg'
   - 'https://github.com/AmarOk1412/Eksplode.re/raw/master/screenshots/game2.jpg'
 
+- name: ElBanquos 1D Pong
+  originals:
+  - Pong
+  type: similar
+  repo: 'https://github.com/mattywausb/ElBanquos_1D_pong'
+  url: 'https://projecthub.arduino.cc/mattywausb/elbanquos-1d-pong-4375ae'
+  development: halted
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  info: A 1D Pong game implemented with an arduinon and neopixles.
+  added: 2025-11-05
+  updated: 2025-11-05
+  images:
+  - https://raw.githubusercontent.com/mattywausb/ElBanquos_1D_pong/master/docs/mk1_splash.jpg
+  video:
+    youtube: OK5DsR__NZ8
+
 - name: Eldritch
   originals:
   - Eldritch
@@ -218,6 +401,42 @@
   - 'https://img.itch.zone/aW1hZ2UvNzA1NTAvMjAyMTczNS5wbmc=/original/odtkAw.png'
   video:
     youtube: OF_cCOKXgvk
+
+- name: Elevator_Action
+  originals:
+  - Elevator Action
+  type: remake
+  repo: 'https://github.com/Evenball-8bit/Elevator_Action'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-27
+  updated: 2025-11-27
+
+- name: eleven-server
+  originals:
+  - Glitch
+  type: remake
+  repo: 'https://github.com/ElevenGiants/eleven-server'
+  url: 'http://elevengiants.com/'
+  feed: 'https://github.com/ElevenGiants/eleven-server/releases.atom'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  info: The game server for Eleven Giants.
+  added: 2026-01-12
+  updated: 2026-01-12
+  video:
+    youtube: NzdyYzHBv4o
 
 - name: elifoot98web
   originals:
@@ -263,6 +482,57 @@
   video:
     youtube: _aqgQbdzd0U
 
+- name: 'Elite : Harmless'
+  originals:
+  - Elite
+  type: remake
+  repo: 'https://codeberg.org/Kroc/elite-harmless'
+  feed: 'https://codeberg.org/Kroc/elite-harmless.atom'
+  development: sporadic
+  status: semi-playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - CC-BY-NC-SA
+  added: 2025-12-26
+  updated: 2025-12-26
+
+- name: Elite Disassembly
+  originals:
+  - Elite
+  type: remake
+  url: 'https://6502disassembly.com/a2-elite/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-02
+  updated: 2026-01-02
+  images:
+  - 'https://6502disassembly.com/a2-elite/images/title-screen-shot.png'
+
+- name: Elite Reinforce
+  originals:
+  - 'Star Trek: Voyager – Elite Force'
+  type: remake
+  repo: 'https://github.com/kugelrund/Elite-Reinforce'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: >-
+    Source port of the singleplayer of Star Trek: Voyager - Elite Force. Focuses
+    on bugfixes and speedrunning.
+  added: 2025-11-24
+  updated: 2025-11-24
+
 - name: Elite remake
   images:
   - https://1.bp.blogspot.com/_zJ6-FHWQvDE/R0e_NhJFakI/AAAAAAAAACw/tgysRPXJfeU/s400/el-14.jpg
@@ -278,6 +548,92 @@
   updated: 2022-03-09
   url: http://polarelephant.blogspot.co.uk/2007/10/elite-remake.html
   info: Completely re-written AI, hard-coded 7 extra missions and added many other features
+
+- name: Elite Universe Editor
+  originals:
+  - Elite
+  type: tool
+  repo: 'https://github.com/markmoxon/elite-universe-editor'
+  url: 'https://elite.bbcelite.com/hacks/elite_universe_editor.html'
+  development: complete
+  status: N/A
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    The Elite Universe Editor to create own universes in
+    classic BBC Micro and Commodore 64 Elite.
+  added: 2025-12-22
+  updated: 2025-12-22
+  images:
+  - 'https://elite.bbcelite.com/images/elite_universe_editor/home-screen.png'
+  - 'https://elite.bbcelite.com/images/elite_universe_editor_c64/home-screen.png'
+  - 'https://elite.bbcelite.com/images/elite_universe_editor/boxart2.png'
+  - 'https://elite.bbcelite.com/images/elite_universe_editor_c64/boxartc.png'
+
+- name: 'Elite: The New Kind'
+  originals:
+  - Elite
+  type: remake
+  repo: 'https://github.com/fesh0r/newkind'
+  url: 'https://www.new-kind.com/'
+  feed: 'https://www.new-kind.com/feed/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - DirectX
+  - Allegro
+  licenses:
+  - As-is
+  added: 2025-09-17
+  updated: 2025-09-17
+  images:
+  - 'https://assetsio.gnwcdn.com/elite-1.png'
+  - 'https://assets.vg247.com/current//2014/09/elite-3.png'
+  - 'https://www.new-kind.com/wp-content/uploads/etnk2a.png'
+
+- name: Elite-A
+  originals:
+  - Elite
+  type: remake
+  repo: 'https://github.com/markmoxon/elite-a-source-code-bbc-micro'
+  url: 'https://elite.bbcelite.com/elite-a/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Elite-A is Angus Duggan's epic extended version of Elite.
+  added: 2025-12-22
+  updated: 2025-12-22
+  images:
+  - 'https://elite.bbcelite.com/images/elite-a/encyclopedia_iguana.png'
+
+- name: EliteGL
+  originals:
+  - Elite
+  type: remake
+  repo: 'https://github.com/davewongillies/elitegl'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - Custom
+  info: "An OpenGL Port of Christian Pinder's Elite: The New Kind."
+  added: 2025-12-11
+  updated: 2025-12-11
 
 - name: ElonaFoobar
   langs:
@@ -296,6 +652,45 @@
   frameworks:
   - SDL2
   info: archived in favor of OpenNefia
+
+- name: emacs-2048-game
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://hg.sr.ht/~zck/game-2048'
+  url: https://packages.guix.gnu.org/packages/emacs-2048-game/
+  development: complete
+  status: playable
+  langs:
+  - Emacs Lisp
+  frameworks:
+  - Emacs
+  licenses:
+  - GPL3
+  added: 2025-09-08
+  updated: 2025-09-08
+  images:
+  - https://sachachua.com/blog/wp-content/uploads/2014/05/2014-04-16-23_27_25-emacs@SACHA-X220.png
+
+- name: Emeritus Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://sourceforge.net/projects/empong/'
+  url: >-
+    https://web.archive.org/web/20100210042902/https://viste-family.net/mateusz/software/empong/
+  feed: 'https://sourceforge.net/p/empong/code/feed/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - BASIC
+  licenses:
+  - GPL2
+  added: 2025-11-06
+  updated: 2025-11-06
+  images:
+  - 'https://a.fsdn.com/con/app/proj/empong/screenshots/178922.jpg'
 
 - name: EmptyEpsilon
   images:
@@ -383,6 +778,43 @@
   updated: 2024-03-29
   images:
   - https://img.itch.zone/aW1nLzIxMzUxNjcucG5n/315x250%23c/aGJJpv.png
+
+- name: Enemy Nations Revival
+  originals:
+  - Enemy Nations
+  type: remake
+  repo: 'https://github.com/EnemyV/EnemyNationsRevival'
+  url: https://groups.google.com/g/enations
+  feed: 'https://github.com/EnemyV/EnemyNationsRevival/releases.atom'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: free
+  langs:
+  - C++
+  licenses:
+  - Custom
+  added: 2025-11-26
+  updated: 2025-11-26
+  video:
+    youtube: sWHDBbYF9C4
+
+- name: Energy Czar
+  originals:
+  - Energy Czar
+  type: official
+  url: >-
+    https://www.erasmatazz.com/library/source-code/source-code-for-energy-czar.html
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2025-11-06
+  updated: 2025-11-06
 
 - name: engge
   originals:
@@ -509,6 +941,24 @@
   images:
   - 'https://a.fsdn.com/con/app/proj/epiphany/screenshots/128437.jpg'
 
+- name: Epoch Disassembly
+  originals:
+  - Epoch
+  type: remake
+  url: 'https://6502disassembly.com/a2-epoch/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-12-22
+  updated: 2025-12-22
+  images:
+  - 'https://6502disassembly.com/a2-epoch/images/epoch-title-orig.gif'
+  - 'https://6502disassembly.com/a2-epoch/images/action.gif'
+
 - name: erampage
   info: Based on EDuke32
   langs:
@@ -554,6 +1004,21 @@
   type: remake
   updated: 2022-08-01
 
+- name: Escape from Monster Manor
+  originals:
+  - Escape from Monster Manor
+  type: official
+  repo: 'https://github.com/ewhac/EFMM-3DO'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - MIT
+  added: 2025-11-15
+  updated: 2025-11-15
+
 - name: 'ET: Legacy'
   development: very active
   langs:
@@ -576,6 +1041,23 @@
   - https://www.etlegacy.com/storage/shots/shot0074.jpeg
   - https://www.etlegacy.com/storage/shots/shot0107.jpeg
   - https://www.etlegacy.com/storage/shots/shot0005.jpeg
+
+- name: eshaansmart
+  originals:
+  - Monkey Mart
+  type: clone
+  repo: 'https://github.com/CodeMiner11-py/eshaansmart'
+  url: 'https://pypi.org/project/eshaansmart/'
+  development: sporadic
+  status: unplayable
+  content: open
+  langs:
+  - HTML
+  - Python
+  licenses:
+  - MIT
+  added: 2025-09-16
+  updated: 2025-09-16
 
 - name: The Eternity Engine
   originals:
@@ -611,6 +1093,21 @@
   video:
     youtube: E_wRVX2r5n4
 
+- name: ETSourceCode
+  originals:
+  - E.T. the Extra-Terrestrial
+  type: official
+  repo: 'https://github.com/Duy-Thanh/ETSourceCode'
+  url: 'https://www.romhacking.net/documents/480/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-18
+  updated: 2026-01-18
+
 - name: Even the Ocean
   originals:
   - Even the Ocean
@@ -642,6 +1139,36 @@
   video:
     youtube: B0tCzwZJsFk
 
+- name: Ex-Mutants
+  originals:
+  - Ex-Mutants
+  type: official
+  repo: https://shrigley.com/source_code_archive/#:~:text=Ex%2DMutants
+  url: 'https://www.romhacking.net/documents/595/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-12-27
+  updated: 2025-12-27
+
+- name: Excalibur
+  originals:
+  - Excalibur
+  type: official
+  url: 'https://www.erasmatazz.com/library/source-code/#:~:text=Excalibur'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-06
+  updated: 2026-01-06
+
 - name: Excel Breakout
   originals:
   - Breakout
@@ -661,6 +1188,25 @@
   - 'https://img.excelgame.top/breakout-game-in-excel.jpg'
   - 'https://img.excelgame.top/breakout-game-version-for-excel.jpg'
   - 'https://img.excelgame.top/screenshot-of-excel-breakout-game-quick-move-down-technique.jpg'
+
+- name: Excel Minesweeper
+  originals:
+  - Minesweeper
+  type: clone
+  url: 'https://excel-pratique.com/en/downloads/games/excel-minesweeper-no414'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - VBA
+  frameworks:
+  - Microsoft Excel
+  licenses:
+  - As-is
+  added: 2025-10-21
+  updated: 2025-10-21
+  images:
+  - 'https://excel-pratique.com/view/en/downloads/images/414-excel-minesweeper.jpg'
 
 - name: Executive Man
   images:

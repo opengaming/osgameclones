@@ -71,6 +71,29 @@
   - 'https://f-droid.org/repo/dev.lonami.klooni/en-US/phoneScreenshots/2-pause.jpg'
   - 'https://f-droid.org/repo/dev.lonami.klooni/en-US/phoneScreenshots/3-themes.jpg'
 
+- name: 1D-Pong
+  originals:
+  - Pong
+  type: similar
+  url: 'https://projecthub.arduino.cc/flyingangel/1d-pong-1a0acf'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: Fun and simple game on a NeoPixel strip.
+  added: 2025-11-08
+  updated: 2025-11-08
+  images:
+  - 'https://projects.arduinocontent.cc/b17512a7-92e4-452a-867f-b85c97ef45d2.jpeg'
+  - 'https://projects.arduinocontent.cc/aa8c2394-ace7-455d-90fc-64fc023d4357.jpeg'
+  video:
+    youtube: IfusxqmG5Q0
+
 - name: 1JETPACK.EXE
   originals:
   - Jetpack
@@ -218,6 +241,87 @@
   - MIT
   updated: '2023-09-28'
 
+- name: 2048 in Haskell
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/mwerbos/2048haskell'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - Gloss
+  licenses:
+  - MIT
+  added: 2025-11-02
+  updated: 2025-11-02
+
+- name: 2048 Open Fun Game
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/andstatus/game2048'
+  url: 'https://f-droid.org/packages/org.andstatus.game2048/'
+  feed: 'https://github.com/andstatus/game2048/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - Kotlin
+  frameworks:
+  - KorGE
+  licenses:
+  - Apache
+  added: 2025-09-29
+  updated: 2025-09-29
+  images:
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/1.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/2.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/3.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/4.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/5.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/6.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/7.png
+  - https://raw.githubusercontent.com/andstatus/game2048/refs/heads/master/game2048-android/src/main/play/listings/en-US/graphics/phone-screenshots/8.png
+
+- name: 2048 Sats
+  originals:
+  - '2048'
+  type: clone
+  repo: https://github.com/BXL909/2048sats
+  url: https://bxl909.github.io/2048sats/
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - JavaScript
+  licenses:
+  - As-is
+  added: 2025-10-06
+  updated: 2025-10-06
+
+- name: 2048 Vanced
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://gitlab.com/NoahJelen/2048-vanced'
+  feed: 'https://gitlab.com/NoahJelen/2048-vanced.atom'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-10-07
+  updated: 2025-10-07
+  images:
+  - >-
+    https://gitlab.com/NoahJelen/2048-vanced/-/raw/master/screenshots/loading_screen.png
+  - 'https://gitlab.com/NoahJelen/2048-vanced/-/raw/master/screenshots/menu.png'
+  - 'https://gitlab.com/NoahJelen/2048-vanced/-/raw/master/screenshots/game.png'
+
 - name: 2048.c
   originals:
   - '2048'
@@ -274,6 +378,21 @@
   added: 2025-08-22
   updated: 2025-08-22
 
+- name: 2048-elm
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/ScrambledEggsOnToast/2048-elm'
+  url: 'https://scrambledeggsontoast.github.io/2014/05/09/writing-2048-elm/'
+  development: complete
+  status: playable
+  langs:
+  - Elm
+  licenses:
+  - MIT
+  added: 2025-11-01
+  updated: 2025-11-01
+
 - name: 2048-in-terminal
   originals:
   - '2048'
@@ -291,6 +410,26 @@
   updated: '2022-01-03'
   images:
   - 'https://raw.githubusercontent.com/alewmoose/2048-in-terminal/master/screen.gif'
+
+- name: 2048-puzzle
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/rhoit/2048'
+  feed: 'https://github.com/rhoit/2048/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Shell
+  frameworks:
+  - ASCII-board
+  licenses:
+  - Unlicense
+  info: based on bash2048.
+  added: 2025-10-11
+  updated: 2025-10-11
+  images:
+  - 'https://raw.githubusercontent.com/rhoit/2048/dump/screenshot.png'
 
 - name: 2048-py
   originals:
@@ -324,6 +463,123 @@
   images:
   - >-
     https://raw.githubusercontent.com/yangshun/2048-python/master/img/screenshot.png
+
+- name: 2048-Qt
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/xiaoyong/2048-Qt/'
+  feed: 'https://github.com/xiaoyong/2048-Qt/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - QML
+  - JavaScript
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - MIT
+  added: 2025-09-20
+  updated: 2025-09-20
+  images:
+  - https://camo.githubusercontent.com/51309a16675dcface768ffd06c5471ca608cf7ecf2be830ee4fa9f6fcb3a518d/687474703a2f2f69313137312e70686f746f6275636b65742e636f6d2f616c62756d732f723534362f7869616f796f6e672f323034385f7a707338623462616431352e706e67
+  - https://camo.githubusercontent.com/0b555c49f7d0eef2c90465720fa7e2b29493ee45f07370702cfa982b0f7cd3a8/687474703a2f2f69313137312e70686f746f6275636b65742e636f6d2f616c62756d732f723534362f7869616f796f6e672f323034385f6465677265655f7a707362313432616631662e706e67
+
+- name: 2048-rs
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/pierrechevalier83/2048-rs'
+  url: 'https://crates.io/crates/game-2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-09-13
+  updated: 2025-09-13
+  images:
+  - https://raw.githubusercontent.com/pierrechevalier83/2048-rs/master/screenshots/demo.gif
+
+- name: 2048-rust
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/SidOfc/2048-rust'
+  url: 'https://crates.io/crates/tfe'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-11-03
+  updated: 2025-11-03
+
+- name: 2048.tcl
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/dbohdan/2048.tcl'
+  url: 'https://wiki.tcl-lang.org/page/2048.tcl'
+  feed: 'https://github.com/dbohdan/2048.tcl/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Tcl
+  licenses:
+  - MIT
+  added: 2025-10-15
+  updated: 2025-10-15
+
+- name: 2048Haskell
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/8Gitbrix/2048Haskell'
+  development: complete
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - brick
+  licenses:
+  - BSD
+  added: 2025-10-05
+  updated: 2025-10-05
+  images:
+  - https://user-images.githubusercontent.com/11791254/33588803-c51f3310-d942-11e7-9d33-38c06214465c.png
+
+- name: '2050'
+  originals:
+  - '2048'
+  type: similar
+  repo: 'https://github.com/mattvchandler/2050'
+  url: 'https://f-droid.org/packages/org.mattvchandler.a2050/'
+  feed: 'https://github.com/mattvchandler/2050/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - C++
+  - Kotlin
+  licenses:
+  - MIT
+  added: 2025-11-14
+  updated: 2025-11-14
+  images:
+  - https://f-droid.org/repo/org.mattvchandler.a2050/en-US/phoneScreenshots/scrn_phone_land_1.png
+  - https://f-droid.org/repo/org.mattvchandler.a2050/en-US/phoneScreenshots/scrn_phone_land_2.png
+  - https://f-droid.org/repo/org.mattvchandler.a2050/en-US/phoneScreenshots/scrn_phone_land_3.png
+  - https://f-droid.org/repo/org.mattvchandler.a2050/en-US/phoneScreenshots/scrn_phone_port_1.png
+  - https://f-droid.org/repo/org.mattvchandler.a2050/en-US/phoneScreenshots/scrn_phone_port_2.png
+  - https://f-droid.org/repo/org.mattvchandler.a2050/en-US/phoneScreenshots/scrn_phone_settings.png
+  - https://f-droid.org/repo/org.mattvchandler.a2050/en-US/sevenInchScreenshots/scrn_tablet_7_land.png
+  - https://f-droid.org/repo/org.mattvchandler.a2050/en-US/sevenInchScreenshots/scrn_tablet_7_port.png
+  - https://f-droid.org/repo/org.mattvchandler.a2050/en-US/tenInchScreenshots/scrn_tablet_10_land.png
+  - https://f-droid.org/repo/org.mattvchandler.a2050/en-US/tenInchScreenshots/scrn_tablet_10_port.png
 
 - name: 2H4U
   originals:
@@ -365,7 +621,30 @@
   licenses:
   - GPL2
   updated: 2022-04-02
-  
+
+- name: 2Pong
+  originals:
+  - Pong
+  type: similar
+  repo: 'https://sourceforge.net/projects/twopong/'
+  url: 'https://twopong.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/twopong/news/feed.rss'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - C
+  - C++
+  licenses:
+  - GPL2
+  added: 2025-10-17
+  updated: 2025-10-17
+  images:
+  - 'https://twopong.sourceforge.net/2pong-1.0a.png'
+
 - name: 2ship2harkinian
   originals:
   - 'The Legend of Zelda: Majora''s Mask'
@@ -381,6 +660,51 @@
   - CC0
   added: '2024-12-28'
   updated: '2024-12-28'
+
+- name: '360: Three Sixty'
+  originals:
+  - '360: Three Sixty'
+  type: official
+  url: 'https://tcrf.net/360:_Three_Sixty'
+  development: complete
+  status: playable
+  multiplayer:
+  - Split-screen
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-01-16
+  updated: 2026-01-16
+
+- name: 3D Pong
+  originals:
+  - Pong
+  type: similar
+  repo: http://www.newbreedsoftware.com/3dpong/download/
+  url: http://www.newbreedsoftware.com/3dpong/index2.php3
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-10-13
+  updated: 2025-11-26
+  images:
+  - https://web.archive.org/web/20240430220225if_/http://www.newbreedsoftware.com/3dpong/screenshots/normal.gif
+  - https://web.archive.org/web/20240430220228if_/http://www.newbreedsoftware.com/3dpong/screenshots/bleachers.gif
+  - https://web.archive.org/web/20240430220227if_/http://www.newbreedsoftware.com/3dpong/screenshots/above.gif
+  - https://web.archive.org/web/20240430220226if_/http://www.newbreedsoftware.com/3dpong/screenshots/freeview.gif
+  - https://web.archive.org/web/20240430220225if_/http://www.newbreedsoftware.com/3dpong/screenshots/followtheball.gif
+  - https://web.archive.org/web/20240430220225if_/http://www.newbreedsoftware.com/3dpong/screenshots/followtheball2.gif
+  - https://web.archive.org/web/20240430220226if_/http://www.newbreedsoftware.com/3dpong/screenshots/handball.gif
+  - https://web.archive.org/web/20240430220225if_/http://www.newbreedsoftware.com/3dpong/screenshots/handball2.gif
+  - https://web.archive.org/web/20240430220227if_/http://www.newbreedsoftware.com/3dpong/screenshots/redblue.gif
+  video:
+    youtube: jG2n_geQYsA
 
 - name: 3d.city
   frameworks:
@@ -430,6 +754,24 @@
   - https://a.fsdn.com/con/app/proj/edge2/screenshots/shot06.png/max/max/1
   - https://a.fsdn.com/con/app/proj/edge2/screenshots/shot355.png/245/183/1
 
+- name: 3do-wreck-man
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://github.com/retroloveletter/Wreckman'
+  feed: 'https://github.com/retroloveletter/Wreckman/releases.atom'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-11-27
+  updated: 2025-11-27
+  video:
+    youtube: FC83xPBLpx8
+
 - name: 4DTris
   langs:
   - C
@@ -471,3 +813,82 @@
   - 'https://doomwiki.org/w/images/d/d7/64doom_ntsc_1.png'
   video:
     youtube: ygIZoTyTygc
+
+- name: 6502 Second Processor Elite
+  originals:
+  - Elite
+  type: official
+  repo: 'https://github.com/markmoxon/elite-source-code-6502-second-processor'
+  url: 'https://elite.bbcelite.com/6502sp/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    This souped-up version has all the features of the BBC Micro disc version, and
+    it has some unique features that aren't found in the other official versions.
+  added: 2025-12-22
+  updated: 2025-12-22
+  images:
+  - 'https://elite.bbcelite.com/images/general/Elite-Tube.png'
+
+- name: 7k2
+  originals:
+  - 'Seven Kingdoms II: The Fryhtan Wars'
+  type: remake
+  repo: 'https://github.com/7k2/7k2'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  added: 2025-12-12
+  updated: 2025-12-12
+
+- name: 8x8 Tetris
+  originals:
+  - Tetris
+  type: clone
+  url: 'https://projecthub.arduino.cc/candystan/8x8-tetris-e57938'
+  development: sporadic
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - LedControl
+  licenses:
+  - As-is
+  info: Tetris style game on an 8x8 LED.
+  added: 2025-12-09
+  updated: 2025-12-09
+
+- name: λ-Robots
+  originals:
+  - CROBOTS
+  type: similar
+  repo: 'https://github.com/LambdaSharp/LambdaRobots'
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  langs:
+  - 'C#'
+  frameworks:
+  - .NET
+  licenses:
+  - As-is
+  info: A port of the 80s P-Robots game.
+  added: 2026-01-09
+  updated: 2026-01-09
+  images:
+  - https://raw.githubusercontent.com/LambdaSharp/LambdaRobots/main/Docs/GamePlay.png

@@ -52,6 +52,30 @@
   updated: 2022-09-07
   url: https://mattdm.org/icebreaker/
 
+- name: Ice Ice Penguin
+  originals:
+  - ChuChu Rocket!
+  type: clone
+  repo: 'https://sourceforge.net/projects/iceicepenguin/'
+  feed: 'https://sourceforge.net/p/iceicepenguin/news/feed.rss'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL2
+  added: 2025-11-12
+  updated: 2025-11-12
+  images:
+  - 'https://a.fsdn.com/con/app/proj/iceicepenguin/screenshots/192832.jpg'
+  - 'https://a.fsdn.com/con/app/proj/iceicepenguin/screenshots/193952.jpg'
+  - 'https://a.fsdn.com/con/app/proj/iceicepenguin/screenshots/192830.jpg'
+
 - name: Iceball
   development: halted
   status: playable
@@ -69,6 +93,122 @@
   updated: 2022-04-26
   images:
   - https://i.imgur.com/FL4nxDw.png
+
+- name: Icebreaker
+  originals:
+  - Icebreaker
+  type: official
+  repo: 'https://github.com/trapexit/3do-icebreaker'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  info: Source to the 3DO game Icebreaker.
+  added: 2025-11-20
+  updated: 2025-11-20
+
+- name: Icebreaker 2
+  originals:
+  - Icebreaker 2
+  type: official
+  repo: 'https://github.com/trapexit/3do-icebreaker2'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  added: 2025-11-23
+  updated: 2025-11-23
+
+- name: ICED Shadow Warrior
+  originals:
+  - Shadow Warrior
+  type: remake
+  repo: >-
+    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/jmarshall23/ShadowWarrior
+  url: >-
+    https://web.archive.org/web/20240516154052/https://crozzbreed23.wixsite.com/icedsw
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2025-11-25
+  updated: 2025-11-25
+  images:
+  - https://static.wixstatic.com/media/5a22f4_7fb4bdc50dd847c39ae4dca12e019448~mv2_d_2851_1819_s_2.png
+  - https://static.wixstatic.com/media/5a22f4_100cb9f6d9dc4752bbda2c5bfed4b1b0~mv2.png
+  - https://static.wixstatic.com/media/5a22f4_27778846025a46e88c55506cf27c51f7~mv2_d_2759_1751_s_2.png
+
+- name: IED
+  originals:
+  - Minesweeper
+  type: similar
+  repo: 'https://codeberg.org/Krixec/IED-FDroid'
+  url: 'https://f-droid.org/packages/at.krixec.ied/'
+  feed: 'https://codeberg.org/Krixec/IED-FDroid.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - MIT
+  info: (I)mprovised (E)xplosive (D)evice is a 3D version of minesweeper.
+  added: 2025-11-03
+  updated: 2025-11-03
+  images:
+  - https://codeberg.org/Krixec/IED-FDroid/media/branch/dev/metadata/en-US/images/phoneScreenshots/1.jpg
+  - https://codeberg.org/Krixec/IED-FDroid/media/branch/dev/metadata/en-US/images/phoneScreenshots/2.jpg
+  - https://codeberg.org/Krixec/IED-FDroid/media/branch/dev/metadata/en-US/images/phoneScreenshots/3.jpg
+  - https://codeberg.org/Krixec/IED-FDroid/media/branch/dev/metadata/en-US/images/phoneScreenshots/4.jpg
+
+- name: Ikemen-GO
+  originals:
+  -  M.U.G.E.N
+  type: remake
+  repo: 'https://github.com/ikemen-engine/Ikemen-GO'
+  url: 'https://ikemen-engine.github.io/'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - Go
+  licenses:
+  - MIT
+  added: 2025-12-28
+  updated: 2025-12-28
+
+- name: Ikemen-Plus-Ultra
+  originals:
+  -  M.U.G.E.N
+  type: remake
+  repo: 'https://github.com/CableDorado2/Ikemen-Plus-Ultra'
+  development: active
+  status: playable
+  content: open
+  langs:
+  - C++
+  - Lua
+  licenses:
+  - MIT
+  added: 2026-01-01
+  updated: 2026-01-01
+  images:
+  - https://github.com/CableDorado2/Ikemen-Plus-Ultra/assets/18058378/05f3306c-ab76-4de1-8935-679b83612df1
+  - https://github.com/user-attachments/assets/a9241ef6-f0dc-4de4-9c54-93bcd7161974
+  - https://github.com/user-attachments/assets/b042b089-8be3-4282-bff9-b903bc0082b7
+  - https://github.com/user-attachments/assets/d741b360-2073-41f2-813f-a25696912f5c
+  video:
+    youtube: pDDLkaKSS74
 
 - name: Imperialism Remake
   images:
@@ -88,6 +228,42 @@
   type: remake
   updated: 2022-01-18
   url: http://remake.twelvepm.de/
+
+- name: In Pursuit of Greed
+  originals:
+  - In Pursuit of Greed
+  type: official
+  repo: 'https://archive.org/details/GreedSource'
+  url: 'https://redshadowsoftware.com/greed/'
+  development: complete
+  status: playable
+  content: free
+  frameworks:
+  - Raven
+  licenses:
+  - Custom
+  added: 2025-11-27
+  updated: 2025-11-27
+  images:
+  - https://web.archive.org/web/20210121090112im_/http://robertwmorganiii.weebly.com/uploads/1/3/9/4/13947809/9775754_orig.gif
+  - https://web.archive.org/web/20210121090112im_/http://robertwmorganiii.weebly.com/uploads/1/3/9/4/13947809/5103214_orig.gif
+  - https://web.archive.org/web/20210121090112im_/http://robertwmorganiii.weebly.com/uploads/1/3/9/4/13947809/9610270_orig.gif
+  - https://archive.org/download/GreedSource/screenshot.png
+
+- name: Indy 500 Disassembly
+  originals:
+  - Indy 500
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/indy_500_pass_01.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200401/msg00036.html'
+  development: halted
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-01
+  updated: 2025-11-01
 
 - name: Inertia Blast
   langs:
@@ -208,15 +384,15 @@
   - SDL2
   licenses:
   - GPL2
-  content: swappable
+  content: commercial
   development: active
   originals:
   - Quake 3
   repo: https://github.com/ioquake/ioq3
   status: playable
   type: remake
-  url: http://ioquake3.org/
-  updated: 2021-02-07
+  url: https://ioquake3.org/
+  updated: 2025-11-26
   video:
     youtube: KavcvHixd6A
 
@@ -240,6 +416,25 @@
   type: remake
   url: https://libregamewiki.org/Iris2_3D_Client_-_for_Ultima_Online
   updated: 2021-03-10
+
+- name: IronSeedSharp
+  originals:
+  - Ironseed
+  type: remake
+  repo: >-
+    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://bitbucket.org/blueachenar/ironseedsharp
+  url: >-
+    https://web.archive.org/web/20180825065529/https://pedrocaleiro.com/ironseedsharp/
+  development: complete
+  status: unplayable
+  langs:
+  - 'C#'
+  frameworks:
+  - SFML
+  licenses:
+  - GPL3
+  added: 2025-11-23
+  updated: 2025-11-23
 
 - name: iortcw
   originals:

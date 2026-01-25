@@ -44,13 +44,30 @@
 
 - name: Zarch
   external:
+    website: https://www.mobygames.com/game/19494/virus/
     wikipedia: Zarch
+  platforms:
+  - Amiga
+  - Atari
+  - DOS
+  - ZX Spectrum
   meta:
     genres:
     - Action
     - TPS
   names:
   - Virus
+
+- name: Zolyx
+  external:
+    website: 'https://www.mobygames.com/game/53104/zolyx/'
+  platforms:
+  - Amstrad CPC
+  - Commodore 64
+  - ZX Spectrum
+  meta:
+    genres:
+    - Puzzle
 
 - name: Zombie Apocalypse
   external:

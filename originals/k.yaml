@@ -1,9 +1,37 @@
 - name: Kaboom!
   external:
+    website: 'https://www.mobygames.com/game/8904/kaboom/'
     wikipedia: Kaboom! (video game)
+  platforms:
+  - Atari
+  - Windows
+  - Xbox 360
   meta:
     genres:
     - Arcade
+
+- name: Kaiser
+  external:
+    website: 'https://www.mobygames.com/game/71050/kaiser/'
+    wikipedia: Kaiser (video game)
+  platforms:
+  - Amstrad CPC
+  - Atari
+  - Commodore 64
+  meta:
+    genres:
+    - Turn-Based Strategy
+    - Simulation
+
+- name: Kaiser II
+  external:
+    website: 'https://kaiser2.strotmann.de/'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Turn-Based Strategy
+    - Simulation
 
 - name: Kanojo-tachi no Ryuugi
   names:
@@ -89,10 +117,22 @@
 
 - name: Ken's Labyrinth
   external:
+    website: 'https://www.advsys.net/ken/klab.htm'
     wikipedia: Ken's Labyrinth
+  platforms:
+  - DOS
   meta:
     genres:
     - FPS
+
+- name: Kentris
+  external:
+    website: 'https://advsys.net/ken/download.htm#kentris'
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Puzzle
 
 - name: Kick Off
   names:
@@ -115,6 +155,18 @@
   meta:
     genres:
     - Platform
+
+- name: Kiloblaster
+  external:
+    website: 'https://www.mobygames.com/game/1074/kiloblaster/'
+    wikipedia: Kiloblaster
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Shooter
+    themes:
+    - Sci-Fi
 
 - name: King under the Mountain
   external:
@@ -265,6 +317,18 @@
   - DOS
   - Windows
 
+- name: 'Kingpin: Life of Crime'
+  external:
+    website: >-
+      https://web.archive.org/web/20180816201135/https://www.interplay.com/games/kingpin.php
+    wikipedia: 'Kingpin: Life of Crime'
+  platforms:
+  - Linux
+  - Windows
+  meta:
+    genres:
+    - FPS
+
 - name: Klondike
   names:
   - Solitaire
@@ -282,6 +346,15 @@
   meta:
     genres:
     - Arcade
+
+- name: Knight Online
+  external:
+    wikipedia: Knight Online
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - MMORPG
 
 - name: Knights and Merchants
   external:
@@ -337,6 +410,20 @@
   names:
   - Roll Away
   - Kula Quest
+
+- name: Kusari
+  names:
+  - 鎖
+  external:
+    website: 'https://leaf.aquaplus.jp/product/ksr/'
+    wikipedia: Kusari
+  platforms:
+  - Windows
+  meta:
+    subgenres:
+    - Visual Novel
+    themes:
+    - Anime
 
 - name: Kye
   external:

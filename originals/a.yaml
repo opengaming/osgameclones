@@ -1,9 +1,28 @@
+- name: The A-Team
+  external:
+    website: 'https://www.atariprotos.com/2600/software/ateam/ateam.htm'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Shooter
+
 - name: A-Train
   external:
     wikipedia: A-Train
   meta:
     genres:
     - Simulation
+
+- name: ABM
+  external:
+    website: 'https://www.mobygames.com/game/63061/abm/'
+    wikipedia: ABM (video game)
+  platforms:
+  - Apple II
+  meta:
+    genres:
+    - Shooter
 
 - name: Abuse
   external:
@@ -47,6 +66,15 @@
   - Curve Fever
   - Zatacka
 
+- name: Acid Drop
+  external:
+    website: 'https://www.mobygames.com/game/12884/acid-drop/'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Puzzle
+
 - name: Adibou
   names:
   - Adibou 1
@@ -79,6 +107,48 @@
     genres:
     - Turn-Based Strategy
 
+- name: Adventure
+  external:
+    website: 'https://www.warrenrobinett.com/adventure/'
+    wikipedia: Adventure (1980 video game)
+  platforms:
+  - Atari
+  - iOS
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - Action
+    themes:
+    - Fantasy
+    - Medieval
+
+- name: Adventureland
+  external:
+    website: 'https://www.mobygames.com/game/9818/adventureland/'
+    wikipedia: Adventureland (video game)
+  platforms:
+  - Apple II
+  - Atari
+  - Commodore 64
+  - Web
+  meta:
+    subgenres:
+    - Text Adventure
+    themes:
+    - Fantasy
+
+- name: The Adventures of Captain Comic
+  external:
+    website: 'https://www.mobygames.com/game/497/the-adventures-of-captain-comic/'
+    wikipedia: The Adventures of Captain Comic
+  platforms:
+  - DOS
+  - NES
+  meta:
+    genres:
+    - Platform
+
 - name: Age of Empires
   external:
     wikipedia: Age of Empires
@@ -97,6 +167,33 @@
     subgenres: []
     themes:
     - Medieval
+
+- name: 'Age of Pirates 2: City of Abandoned Ships'
+  names:
+  - 'Sea Dogs: City of Abandoned Ships'
+  - 'Корсары: Город потерянных кораблей'
+  external:
+    website: 'https://www.ign.com/games/age-of-pirates-2-city-of-abandoned-ships'
+    wikipedia: 'Age of Pirates 2: City of Abandoned Ships'
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Action
+    - RPG
+    - Simulation
+    subgenres:
+    - Vehicular Combat
+
+- name: Agony
+  external:
+    website: 'http://www.psygnosis.org/games/agony/'
+    wikipedia: Agony (1992 video game)
+  platforms:
+  - Amiga
+  meta:
+    genres:
+    - Shooter
 
 - name: Ai Shimai ~Futari no Kajitsu~
   names:
@@ -135,14 +232,66 @@
     - Adult
     - Anime
 
+- name: Air-Sea Battle
+  external:
+    website: 'https://www.mobygames.com/game/10942/air-sea-battle/'
+    wikipedia: Air-Sea Battle
+  platforms:
+  - Atari
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - Shooter
+    themes:
+    - Modern Military
+
+- name: Airball
+  external:
+    website: 'https://www.mobygames.com/game/44/airball/'
+    wikipedia: Airball (video game)
+  platforms:
+  - Amiga
+  - Apple II
+  - Atari
+  - DOS
+  - Game Boy
+  - Windows
+  meta:
+    genres:
+    - Puzzle
+
+- name: Airline Tycoon
+  external:
+    website: >-
+      https://web.archive.org/web/20021207223830/http://www.ate.spellbound.de/web/en/overview.htm
+    wikipedia: Airline Tycoon
+  platforms:
+  - Android
+  - iOS
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - Simulation
+
 - name: 'Akalabeth: World of Doom'
   external:
+    website: https://www.mobygames.com/game/1256/akalabeth-world-of-doom/
     wikipedia: 'Akalabeth: World of Doom'
+  platforms:
+  - Apple II
+  - iOS
+  - Linux
+  - OSX
+  - Windows
   meta:
     genres:
     - RPG
     themes:
     - Fantasy
+    - Medieval
 
 - name: Aladdin
   external:
@@ -193,6 +342,19 @@
     genres:
     - Action
 
+- name: Alien Bash II
+  external:
+    website: 'https://www.mobygames.com/game/66892/alien-bash-ii/'
+  platforms:
+  - Amiga
+  meta:
+    genres:
+    - Shooter
+    subgenres:
+    - Run and gun
+    themes:
+    - Sci-Fi
+
 - name: Alien Breed
   names:
   - 'Alien Breed II: The Horror Continues'
@@ -214,8 +376,71 @@
     - Horror
     - Sci-Fi
 
-- name: Aliens versus Predator Classic 2000
+- name: Alien Breed 3D
   external:
+    website: 'https://www.mobygames.com/game/12217/alien-breed-3d/'
+    wikipedia: Alien Breed 3D
+  platforms:
+  - Amiga
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Horror
+    - Sci-Fi
+
+- name: 'Alien Breed 3D II: The Killing Grounds'
+  external:
+    website: >-
+      https://web.archive.org/web/19970413053306/http://www.team17.com/ab3dii/index.html
+    wikipedia: 'Alien Breed 3D II: The Killing Grounds'
+  platforms:
+  - Amiga
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Horror
+    - Sci-Fi
+
+- name: Alien vs Predator
+  external:
+    website: >-
+      https://web.archive.org/web/19961029114203/http://www.atari.com:80/jagware/soft/combat/combat.html
+    wikipedia: Alien vs Predator (Atari Jaguar video game)
+  platforms:
+  - Jaguar
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Sci-Fi
+
+- name: Alien³
+  external:
+    wikipedia: Alien 3 (video game)
+  platforms:
+  - Amiga
+  - Game Boy
+  - Game Gear
+  - Genesis
+  - Master System
+  - NES
+  - SNES
+  meta:
+    genres:
+    - Action
+    - Platform
+    themes:
+    - Horror
+    - Sci-Fi
+
+- name: Aliens Versus Predator
+  names:
+  - Aliens Versus Predator Classic 2000
+  - 'Aliens Versus Predator: Gold Edition'
+  external:
+    website: https://rebellion.com/zh/games/aliens-versus-predator-classic-2000/
     wikipedia: Aliens Versus Predator (1999 video game)
   platforms:
   - Windows
@@ -229,7 +454,10 @@
 
 - name: Allegiance
   external:
+    website: https://web.archive.org/web/20120107015457/http://www.microsoft.com/games/allegiance/flash.htm
     wikipedia: Allegiance (video game)
+  platforms:
+  - Windows
   meta:
     genres:
     - Action
@@ -270,6 +498,53 @@
     themes:
     - Horror
     - Alternate Historical
+
+- name: Alpha Waves
+  names:
+  - Continuum
+  external:
+    website: 'https://grenouille-bouillie.blogspot.com/2007/10/dawn-of-3d-games.html'
+    wikipedia: Alpha Waves
+  platforms:
+  - Amiga
+  - Atari
+  - DOS
+  meta:
+    genres:
+    - Platform
+    - Puzzle
+
+- name: Altered Beast
+  names:
+  - 獣王記
+  external:
+    website: 'https://www.mobygames.com/game/2019/altered-beast/'
+    wikipedia: Altered Beast
+  platforms:
+  - Amiga
+  - Amstrad CPC
+  - Android
+  - Arcade
+  - Atari
+  - Commodore 64
+  - DOS
+  - Genesis
+  - iOS
+  - Linux
+  - Master System
+  - MSX
+  - NES
+  - Nintendo Switch
+  - OSX
+  - PlayStation 3
+  - Wii
+  - Windows
+  - Xbox 360
+  - ZX Spectrum
+  meta:
+    genres:
+    - Action
+    - Platform
 
 - name: 'Amazon: Guardians of Eden'
   external:
@@ -328,6 +603,19 @@
     themes:
     - Horror
 
+- name: Amulets & Armor
+  external:
+    website: 'http://www.amuletsandarmor.com/'
+    wikipedia: Amulets & Armor
+  platforms:
+  - DOS
+  - Windows
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
+
 - name: 'Anacreon: Reconstruction 4021'
   external:
     wikipedia: 'Anacreon: Reconstruction 4021'
@@ -337,6 +625,22 @@
     themes:
     - Sci-Fi
     - Management
+
+- name: 'Analogue: A Hate Story'
+  names:
+  - '아날로그: 어 헤이트 스토리'
+  external:
+    website: 'http://ahatestory.com/'
+    wikipedia: 'Analogue: A Hate Story'
+  platforms:
+  - OSX
+  - Linux
+  - Windows
+  meta:
+    subgenres:
+    - Visual Novel
+    themes:
+    - Anime
 
 - name: Angry Birds
   external:
@@ -422,6 +726,31 @@
     - Adventure
     - Platform
 
+- name: Antarctic Adventure
+  names:
+  - けっきょく南極大冒険
+  external:
+    website: 'https://www.mobygames.com/game/11543/antarctic-adventure/'
+    wikipedia: Antarctic Adventure
+  platforms:
+  - 3DS
+  - Game Boy
+  - MSX
+  - Wii
+  meta:
+    genres:
+    - Action
+
+- name: Anteater
+  external:
+    website: 'https://www.mobygames.com/game/77533/anteater/'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Action
+    - Arcade
+
 - name: Aquastax
   external:
     wikipedia: Aquastax
@@ -431,6 +760,37 @@
     - Platform
   platforms:
   - Mobile
+
+- name: Aquaria
+  external:
+    website: 'https://www.bit-blot.com/aquaria/'
+    wikipedia: Aquaria (video game)
+  platforms:
+  - Android
+  - iOS
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - Action
+    - Adventure
+    themes:
+    - Fantasy
+
+- name: Arcade Volleyball
+  external:
+    website: 'https://www.mobygames.com/game/523/arcade-volleyball/'
+    wikipedia: Arcade Volleyball
+  platforms:
+  - Amiga
+  - DOS
+  - Commodore 64
+  meta:
+    genres:
+    - Sports
+    subgenres:
+    - Volleyball
 
 - name: 'Archon: The Light and the Dark'
   external:
@@ -468,39 +828,25 @@
     genres:
     - Arcade
 
-- name: ARMA 2
-  external:
-    wikipedia: ARMA 2
-  meta:
-    genres:
-    - FPS
-    themes:
-    - Modern Military
-
-- name: ARMA 3
-  external:
-    wikipedia: ARMA 3
-  meta:
-    genres:
-    - FPS
-    themes:
-    - Modern Military
-
-- name: 'ARMA: Armed Assault'
-  external:
-    wikipedia: 'ARMA: Armed Assault'
-  meta:
-    genres:
-    - FPS
-    themes:
-    - Modern Military
-
 - name: Armor Alley
   external:
     wikipedia: Armor Alley
   meta:
     genres:
     - Arcade
+    - Real-Time Tactics
+    themes:
+    - Modern Military
+
+- name: Army Men II
+  external:
+    website: 'https://www.mobygames.com/game/2488/army-men-ii/'
+    wikipedia: Army Men II
+  platforms:
+  - Game Boy
+  - Windows
+  meta:
+    genres:
     - Real-Time Tactics
     themes:
     - Modern Military
@@ -528,16 +874,38 @@
 
 - name: Artillery Duel
   external:
+    website: 'https://www.mobygames.com/game/15775/artillery-duel/'
     wikipedia: Artillery Duel
+  platforms:
+  - Atari
+  - Commodore 64
   meta:
     genres:
     - Strategy
     subgenres:
     - Artillery
 
+- name: 'Aruruu to Asobo!!'
+  names:
+  - アルルゥとあそぼ！！
+  external:
+    website: 'https://vndb.org/v446'
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Compilation
+    themes:
+    - Adult
+    - Anime
+
 - name: Arx Fatalis
   external:
+    website: https://web.archive.org/web/20070208234912/http://www.arxfatalis-online.com/index_eng.php
     wikipedia: Arx Fatalis
+  platforms:
+  - Windows
+  - Xbox
   meta:
     genres:
     - RPG
@@ -548,6 +916,15 @@
   meta:
     genres:
     - Turn-Based Strategy
+
+- name: Aspirin
+  external:
+    website: 'https://macintoshgarden.org/games/aspirin'
+  platforms:
+  - Classic Mac OS
+  meta:
+    genres:
+    - Action
 
 - name: Asteroids
   external:
@@ -609,12 +986,42 @@
     genres:
     - Action
 
+- name: Atomic Robo-Kid
+  names:
+  - アトミックロボキッド
+  external:
+    website: 'https://www.mobygames.com/game/15437/atomic-robo-kid/'
+    wikipedia: Atomic Robo-Kid
+  platforms:
+  - Amiga
+  - Arcade
+  - Atari
+  - Commodore 64
+  - Nintendo Switch
+  - PlayStation 4
+  meta:
+    genres:
+    - Shooter
+    themes:
+    - Sci-Fi
+
 - name: Atomix
   external:
     wikipedia: Atomix (video game)
   meta:
     genres:
     - Puzzle
+
+- name: Attack of the Mutant Camels
+  external:
+    website: 'https://www.lemon64.com/game/amc-attack-of-the-mutant-camels-llamasoft'
+    wikipedia: Attack of the Mutant Camels
+  platforms:
+  - Atari
+  - Commodore 64
+  meta:
+    genres:
+    - Shooter
 
 - name: Avara
   external:
@@ -628,6 +1035,13 @@
     themes:
     - Post-Apocalyptic
     - Sci-Fi
+
+- name: Aviator
+  external:
+    website: 'https://www.mobygames.com/game/195750/aviator/'
+  meta:
+    genres:
+    - Simulation
 
 - name: Awesomenauts
   external:

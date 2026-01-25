@@ -1,3 +1,24 @@
+- name: J2ME Pacman
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://sourceforge.net/projects/j2mw-pacman329/'
+  url: 'https://j2mw-pacman329.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/j2mw-pacman329/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL2
+  info: Pacman game for J2ME-enabled devices.
+  added: 2025-10-25
+  updated: 2025-10-25
+  images:
+  - 'https://j2mw-pacman329.sourceforge.net/ss2.png'
+  - 'https://j2mw-pacman329.sourceforge.net/ss1.png'
+
 - name: Jactorio
   type: clone
   originals:
@@ -58,6 +79,31 @@
   url: https://bytonic.de/html/jake2.html
   info: Java port of the Quake2 game engine
 
+- name: JavaFX – Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/toivjon/javafx-pong'
+  url: 'https://toivjon.wordpress.com/2017/11/12/javafx-pong/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  langs:
+  - Java
+  frameworks:
+  - JavaFX
+  licenses:
+  - MIT
+  added: 2025-12-25
+  updated: 2025-12-25
+  images:
+  - https://toivjon.wordpress.com/wp-content/uploads/2017/11/javafx-pong.png
+  - https://raw.githubusercontent.com/toivjon/javafx-pong/master/screenshots/welcome-scene.png
+  - https://raw.githubusercontent.com/toivjon/javafx-pong/master/screenshots/court-scene.png
+  - https://raw.githubusercontent.com/toivjon/javafx-pong/master/screenshots/endgame-scene.png
+
 - name: Javascript BoulderDash
   originals:
   - Boulder Dash
@@ -90,6 +136,21 @@
   type: remake
   updated: 2022-02-07
 
+- name: Jawbreaker Disassembly
+  originals:
+  - Jawbreaker
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/jaw_breaker.asm'
+  url: 'https://www.romhacking.net/documents/513/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-02
+  updated: 2025-11-02
+
 - name: Jazz² Resurrection
   development: active
   frameworks:
@@ -114,6 +175,46 @@
   url: http://deat.tk/jazz2/
   video:
     youtube: M794QHwfMXg
+
+- name: Jedi Academy
+  originals:
+  - 'Star Wars Jedi Knight: Jedi Academy'
+  type: official
+  repo: 'https://github.com/abergmeier/jedi_academy'
+  url: >-
+    https://kotaku.com/lucasarts-closure-convinces-developers-to-release-aweso-468994505#:~:text=Jedi%20Academy
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  added: 2025-11-28
+  updated: 2025-11-28
+
+- name: jedi_outcast
+  originals:
+  - 'Star Wars Jedi Knight II: Jedi Outcast'
+  type: official
+  repo: 'https://github.com/abergmeier/jedi_outcast'
+  url: >-
+    https://kotaku.com/lucasarts-closure-convinces-developers-to-release-aweso-468994505#:~:text=Jedi%20Outcast
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - LAN
+  content: commercial
+  langs:
+  - C++
+  - C
+  frameworks:
+  - id Tech 3
+  licenses:
+  - GPL2
+  added: 2025-12-06
+  updated: 2025-12-06
 
 - name: JediAcademyLinux
   langs:
@@ -192,6 +293,25 @@
   images:
   - https://raw.githubusercontent.com/ian-wigley/JetPac/master/XNA_Jetpac/XNA_Jetpac_Remake.jpg
 
+- name: Jetrix TetriNET Server
+  originals:
+  - TetriNET
+  type: remake
+  repo: 'https://sourceforge.net/projects/jetrix/'
+  url: 'https://jetrix.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/jetrix/news/feed.rss'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  langs:
+  - Java
+  licenses:
+  - GPL2
+  info: A new generation TetriNET server.
+  added: 2025-12-26
+  updated: 2025-12-26
+
 - name: jewelthief
   images:
   - https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163225.png
@@ -213,6 +333,30 @@
   updated: 2022-09-13
   video:
     youtube: RObU2xX5HiE
+
+- name: JExplosion
+  originals:
+  - Minesweeper
+  type: clone
+  url: 'https://jexplosion.sourceforge.net/'
+  repo: https://sourceforge.net/projects/jexplosion/
+  feed: 'https://sourceforge.net/p/jexplosion/news/feed.rss'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Java
+  frameworks:
+  - Swing
+  licenses:
+  - GPL2
+  added: 2025-10-07
+  updated: 2025-10-07
+  images:
+  - 'https://a.fsdn.com/con/app/proj/jexplosion/screenshots/98200.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jexplosion/screenshots/98210.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jexplosion/screenshots/98202.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jexplosion/screenshots/98204.jpg'
 
 - name: Jezzball
   originals:
@@ -289,6 +433,48 @@
   type: remake
   updated: 2022-09-13
 
+- name: JMinesweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://sourceforge.net/projects/jminesweeper/'
+  url: 'https://jminesweeper.sourceforge.net/'
+  feed: 'https://sourceforge.net/projects/jminesweeper/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL2
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - 'https://jminesweeper.sourceforge.net/doc_files/help1.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jminesweeper/screenshots/93386.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jminesweeper/screenshots/93388.jpg'
+
+- name: John Smith Special Agent
+  originals:
+  - James Bond Jr
+  type: official
+  repo: >-
+    https://shrigley.com/source_code_archive/#:~:text=John%20Smith%20Special%20Agent
+  url: 'https://www.romhacking.net/documents/558/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    John Smith is the prototype to the game James Bond Jr. John Smith is slightly
+    different, with different characters but then was overhauled by Eurocom and
+    changed to be James Bond Jr.
+  added: 2025-12-25
+  updated: 2025-12-25
+
 - name: JonoF's Shadow Warrior Port (JFSW)
   images:
   - https://www.jonof.id.au/jfsw/splash.jpg
@@ -322,6 +508,23 @@
   info: A WIP incomplete port of Witchaven using JFBuild.
   updated: 2022-02-08
 
+- name: Joust Source Code Documented
+  originals:
+  - Joust
+  type: official
+  repo: 'https://github.com/videogamepreservation/joust-7800'
+  url: 'https://www.romhacking.net/documents/514/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-19
+  updated: 2025-11-26
+  images:
+  - https://www.atarimania.com/2600/screens/joust.gif
+
 - name: JOverflow
   langs:
   - Java
@@ -334,6 +537,24 @@
   repo: https://github.com/bluepoke/JOverflow
   type: remake
   updated: 2022-09-13
+
+- name: Jpong
+  originals:
+  - Breakout
+  type: clone
+  url: 'https://www.ticalc.org/archives/files/fileinfo/334/33493.html'
+  development: complete
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - ExtGraph
+  licenses:
+  - As-is
+  added: 2026-01-15
+  updated: 2026-01-15
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/617/61744.gif'
 
 - name: JSettlers
   development: sporadic
@@ -352,7 +573,6 @@
   repo: https://github.com/paulwedeck/settlers-remake
   type: remake
   updated: 2023-12-16
-  url: https://www.settlers-android-clone.com/
 
 - name: JScorch
   originals:
@@ -451,6 +671,31 @@
   updated: 2023-12-17
   images:
   - https://github.com/bvschaik/julius/blob/master/res/vita/bg.png?raw=true
+
+- name: Jump & Roll
+  originals:
+  - SkyRoads
+  type: clone
+  repo: 'https://sourceforge.net/projects/jumpnroll/'
+  url: 'https://jumpnroll.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/jumpnroll/code/feed/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - Qt
+  licenses:
+  - GPL2
+  added: 2025-11-11
+  updated: 2025-11-11
+  images:
+  - 'https://a.fsdn.com/con/app/proj/jumpnroll/screenshots/70978.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jumpnroll/screenshots/70982.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jumpnroll/screenshots/70980.jpg'
+  - 'https://a.fsdn.com/con/app/proj/jumpnroll/screenshots/70984.jpg'
 
 - name: Jump'n'Bump
   langs:

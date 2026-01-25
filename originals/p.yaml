@@ -1,3 +1,12 @@
+- name: P'Radikus Conflict
+  external:
+    website: https://www.mobygames.com/game/16677/pradikus-conflict/
+  platforms:
+  - NES
+  meta:
+    genres:
+    - Shooter
+
 - name: Pac-Man
   external:
     wikipedia: Pac-Man
@@ -147,6 +156,19 @@
     - Fantasy
     - Sci-Fi
 
+- name: Pararena
+  external:
+    website: >-
+      https://web.archive.org/web/20130823120348/https://www.d4.dion.ne.jp/~motohiko/ashes.htm#Pararena
+    wikipedia: Pararena
+  platforms:
+  - Classic Mac OS
+  meta:
+    genres:
+    - Sports
+    themes:
+    - Sci-Fi
+
 - name: Paratrooper
   external:
     wikipedia: Paratrooper (video game)
@@ -155,6 +177,18 @@
   meta:
     genres:
     - Arcade
+
+- name: 'Patton Strikes Back: The Battle of the Bulge'
+  external:
+    website: >-
+      https://www.mobygames.com/game/9637/patton-strikes-back-the-battle-of-the-bulge/
+    wikipedia: Patton Strikes Back
+  platforms:
+  - DOS
+  - Windows
+  meta:
+    themes:
+    - World War II
 
 - name: The Pawn
   external:
@@ -177,6 +211,18 @@
   - DOS
   - ZX Spectrum
 
+- name: PaybackTime 2
+  external:
+    website: >-
+      https://web.archive.org/web/19981203041908/http://tahna.tky.hut.fi/pt2/pt2.html
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Turn-Based Tactics
+    themes:
+    - Sci-Fi
+
 - name: Peg Solitaire
   external:
     wikipedia: Peg solitaire
@@ -193,6 +239,15 @@
   meta:
     genres:
     - Action
+
+- name: Penny Arcade
+  external:
+    website: 'https://www.video-games-museum.com/en/game/Penny-Arcade/37/3/12863'
+  platforms:
+  - Apple II
+  meta:
+    genres:
+    - Arcade
 
 - name: 'Penumbra: Overture'
   external:
@@ -223,6 +278,17 @@
   - DOS
   - Windows
 
+- name: Perfect Dark
+  external:
+    website: >-
+      https://web.archive.org/web/20000823090109/http://www.rare.co.uk/recent/games/pdark/
+    wikipedia: Perfect Dark
+  platforms:
+  - N64
+  meta:
+    genres:
+    - FPS
+
 - name: Perimeter
   external:
     wikipedia: Perimeter (video game)
@@ -247,6 +313,17 @@
   - Amiga
   - Atari
   - DOS
+
+- name: 'Pesterminator: The Western Exterminator'
+  external:
+    website: 'https://www.mobygames.com/game/16678/pesterminator-the-western-exterminator/'
+  platforms:
+  - NES
+  meta:
+    genres:
+    - Platform
+    themes:
+    - Sci-Fi
 
 - name: Phantasmagoria
   external:
@@ -289,6 +366,38 @@
     genres:
     - RPG
 
+- name: Phantomas
+  external:
+    website: https://www.mobygames.com/game/15585/phantomas/
+  platforms:
+  - ZX Spectrum
+  meta:
+    genres:
+    - Platform
+
+- name: Phantomas 2
+  names:
+  - Vampire
+  external:
+    website: https://www.mobygames.com/game/19887/vampire/
+  platforms:
+  - Amstrad CPC
+  - Commodore 64
+  - MSX
+  - ZX Spectrum
+  meta:
+    genres:
+    - Platform
+
+- name: Phantoms Five
+  external:
+    website: 'https://www.mobygames.com/game/70193/phantoms-five/'
+  platforms:
+  - Apple II
+  meta:
+    genres:
+    - Action
+
 - name: Pharaoh
   external:
     wikipedia: Pharaoh (video game)
@@ -323,6 +432,23 @@
     genres:
     - Puzzle
 
+- name: Pinball Construction Set
+  external:
+    website: 'https://www.mobygames.com/game/255/pinball-construction-set/'
+    wikipedia: Pinball Construction Set
+  platforms:
+  - Apple II
+  - Atari
+  - Classic Mac OS
+  - Commodore 64
+  - PC Booter
+  - PC-98
+  meta:
+    genres:
+    - Action
+    subgenres:
+    - Pinball
+
 - name: 'The Pink Panther: Hokus Pokus Pink'
   external:
     website: https://www.mobygames.com/game/41450
@@ -349,10 +475,59 @@
 
 - name: Pipe Mania
   external:
+    website: 'https://spectrumcomputing.co.uk/entry/0003729'
     wikipedia: Pipe Mania
+  platforms:
+  - Amiga
+  - Amstrad CPC
+  - Apple II
+  - Arcade
+  - Atari
+  - Classic Mac OS
+  - Commodore 64
+  - DOS
+  - Game Boy
+  - NES
+  - PC-98
+  - Windows
+  - X68000
+  - ZX Spectrum
   meta:
     genres:
     - Puzzle
+
+- name: Pirate Adventure
+  names:
+  - Pirate Cove
+  external:
+    website: 'https://spectrumcomputing.co.uk/entry/0006803'
+    wikipedia: Pirate Adventure
+  platforms:
+  - Apple II
+  - Atari
+  - Commodore 64
+  - ZX Spectrum
+  meta:
+    subgenres:
+    - Text Adventure
+
+- name: Pirates of the Caribbean
+  names:
+  - 'Корсары II: Пираты Карибского моря'
+  external:
+    website: >-
+      https://web.archive.org/web/20031207065606/http://pirates.bethsoft.com/main.html
+    wikipedia: Pirates of the Caribbean (video game)
+  platforms:
+  - Windows
+  - Xbox
+  meta:
+    genres:
+    - Action
+    - RPG
+    - Simulation
+    subgenres:
+    - Vehicular Combat
 
 - name: Pitfall!
   external:
@@ -375,6 +550,21 @@
   meta:
     genres:
     - RPG
+
+- name: Planet Blupi
+  external:
+    website: 'https://www.blupi.org/planet/index.html'
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - Real-Time Strategy
+
+- name: Planetary Defense
+  external:
+    website: 'https://www.atarimania.com/pgesoft.awp?version=3993'
 
 - name: Plants vs. Zombies
   external:
@@ -458,13 +648,6 @@
     genres:
     - RPG
 
-- name: Pokémon Mystery Dungeon
-  external:
-    wikipedia: Pokémon Mystery Dungeon
-  meta:
-    genres:
-    - RPG
-
 - name: Pokémon Uranium
   external:
     wikipedia: Pokémon Uranium
@@ -476,7 +659,15 @@
 
 - name: Pole Position
   external:
-    wikipedia: Pole Position (video game)
+    website: 'https://www.mobygames.com/game/984/pole-position/'
+    wikipedia: Pole Position
+  platforms:
+  - Arcade
+  - Atari
+  - Commodore 64
+  - DOS
+  - Nintendo Switch
+  - ZX Spectrum
   meta:
     genres:
     - Sports
@@ -592,6 +783,28 @@
     genres:
     - Real-Time Strategy
 
+- name: Populous II
+  names:
+  - 'Populous II: Trials of the Olympian Gods'
+  external:
+    wikipedia: 'Populous II: Trials of the Olympian Gods'
+  platforms:
+  - Amiga
+  - Atari
+  - Classic Mac OS
+  - DOS
+  - FM Towns
+  - Genesis
+  - PC-98
+  - SNES
+  - X68000
+  meta:
+    genres:
+    - Real-Time Strategy
+    - Strategy
+    themes:
+    - Management
+
 - name: Portal
   external:
     wikipedia: Portal (video game)
@@ -667,6 +880,17 @@
     themes:
     - Prehistoric
 
+- name: Prime World
+  external:
+    website: 'https://web.archive.org/web/20210327050601/http://en.playpw.com/'
+    wikipedia: Prime World
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - MMORPG
+    - MOBA
+
 - name: Primordia
   external:
     website: https://www.mobygames.com/game/59392
@@ -709,6 +933,15 @@
     - Adult
     - Anime
 
+- name: Princess and Frog
+  external:
+    website: 'https://www.mobygames.com/game/77541/princess-and-frog/'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Action
+
 - name: Private Eye
   external:
     wikipedia: Private Eye (1996 video game)
@@ -729,6 +962,19 @@
     - MMORPG
     themes:
     - Comedy
+
+- name: Project Nomads
+  external:
+    website: >-
+      https://web.archive.org/web/20070211232652/http://www.project-nomads.de/english/index1.htm
+    wikipedia: Project Nomads
+  platforms:
+  - Classic Mac OS
+  - Windows
+  meta:
+    genres:
+    - Shooter
+    - Strategy
 
 - name: Project Rhombus
   external:
@@ -947,6 +1193,22 @@
   external:
     website: 'http://puyo.sega.com'
     wikipedia: Puyo Puyo
+  meta:
+    genres:
+    - Puzzle
+
+- name: Puzz Loop
+  names:
+  - Ballistic
+  external:
+    website: 'https://www.mobygames.com/game/32024/ballistic/'
+    wikipedia: Puzz Loop
+  platforms:
+  - Arcade
+  - Game Boy
+  - iOS
+  - PlayStation
+  - Windows
   meta:
     genres:
     - Puzzle

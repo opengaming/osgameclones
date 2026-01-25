@@ -297,6 +297,7 @@ def parse_data(site):
 
     errors = []
     originals_map = {}
+    original_names = set()
 
     for item in originals:
         name = game_name(item)
@@ -304,10 +305,24 @@ def parse_data(site):
         if name in originals_map:
             errors.append({
                 "name": name,
-                "error": "Duplicate original game '%s'" % name
+                "error": f"Duplicate original game '{name}'"
             })
+        if name in original_names:
+            errors.append({
+                "name": name,
+                "error": f"Duplicate original game name or alternate name '{name}'"
+            })
+        for alt_name in item.get("names", []):
+            if alt_name in original_names:
+                errors.append({
+                    "name": name,
+                    "error": f"Duplicate original alternate name '{alt_name}'"
+                })
 
         originals_map[name] = item
+        original_names.add(name)
+        if "names" in item:
+            original_names |= set(item["names"])
 
     if len(errors) > 0:
         show_errors(errors)
@@ -316,6 +331,12 @@ def parse_data(site):
         # Tools and only tools must have N/A status
         return (clone["type"] == "tool") != (clone["status"] == "N/A")
 
+    # Entries must have:
+    # - unique repo
+    # - unique url
+    # - or unique repo + url pair
+    repos_and_urls = set()
+    originals_with_clones = set()
     for clone in clones:
         if 'originals' not in clone:
             show_errors([{
@@ -343,6 +364,51 @@ def parse_data(site):
             errors.append({
                 "name": clone["name"],
                 "error": "Has invalid status - tools must be N/A"
+            })
+        repo = clone.get("repo")
+        url = clone.get("url")
+        if not repo and not url:
+            errors.append({
+                "name": clone["name"],
+                "error": "Clone has no repo or url"
+            })
+        elif (repo, None) in repos_and_urls:
+            errors.append({
+                "name": clone["name"],
+                "error": f"Has duplicate repo {repo}"
+            })
+        elif (None, url) in repos_and_urls:
+            errors.append({
+                "name": clone["name"],
+                "error": f"Has duplicate url {url}"
+            })
+        elif (repo, url) in repos_and_urls:
+            errors.append({
+                "name": clone["name"],
+                "error": f"Has duplicate repo {repo} and url {url}"
+            })
+        else:
+            repos_and_urls.add((repo, url))
+        
+        for original in clone['originals']:
+            originals_with_clones.add(original)
+
+    # Check for invalid Wikipedia URLs in originals
+    for item in originals:
+        if 'external' in item and 'wikipedia' in item['external']:
+            wikipedia_value = item['external']['wikipedia']
+            if isinstance(wikipedia_value, str) and wikipedia_value.startswith('http'):
+                errors.append({
+                    "name": game_name(item),
+                    "error": f"Wikipedia field should contain article title, not full URL: {wikipedia_value}"
+                })
+
+    # Check for originals with no clones
+    for original in originals_map:
+        if original not in originals_with_clones:
+            errors.append({
+                "name": original,
+                "error": "Original game has no clones"
             })
 
     if len(errors) > 0:

@@ -104,6 +104,23 @@
   url: https://www.vassalengine.org/
   info: VASSAL is a game engine for creating electronic versions of traditional board and card games.
 
+- name: Vasteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/islonely/vasteroids'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - V
+  licenses:
+  - As-is
+  added: 2025-09-21
+  updated: 2025-09-21
+  images:
+  - https://raw.githubusercontent.com/islonely/vasteroids/refs/heads/master/screenshot.png
+
 - name: Vault13
   type: remake
   originals:
@@ -237,6 +254,39 @@
   - LAN
   content: open
 
+- name: Venture
+  originals:
+  - Adventure
+  type: clone
+  repo: 'https://sourceforge.net/projects/venture/'
+  feed: 'https://sourceforge.net/p/venture/news/feed.rss'
+  development: halted
+  status: unplayable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - BSD
+  added: 2025-11-21
+  updated: 2025-11-21
+
+- name: Venture Disassembly
+  originals:
+  - Venture
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/venture.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200402/msg00060.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-12
+  updated: 2025-11-12
+
 - name: Veraball
   frameworks:
   - Godot
@@ -256,6 +306,20 @@
   type: remake
   url: https://veraball.github.io/
   updated: 2015-12-29
+
+- name: verisnake
+  originals:
+  - Snake
+  type: clone
+  repo: 'https://github.com/mattgodbolt/verisnake'
+  development: halted
+  status: semi-playable
+  langs:
+  - Verilog
+  licenses:
+  - MIT
+  added: 2025-12-22
+  updated: 2025-12-22
 
 - name: Vib-Ribbon Minus
   originals:
@@ -279,6 +343,28 @@
   - https://img.itch.zone/aW1hZ2UvMTYzNTM2NC85NjE2NDU4LnBuZw==/original/zJlFdt.png
   - https://img.itch.zone/aW1hZ2UvMTYzNTM2NC85NjE2NDU3LnBuZw==/original/fjH0%2Bk.png
   - https://img.itch.zone/aW1hZ2UvMTYzNTM2NC85NjE2NDU2LnBuZw==/original/Mxp9KR.png
+
+- name: Vintage Master Mind
+  originals:
+  - Mastermind
+  type: clone
+  repo: 'https://github.com/RobertoZaffa/MasterMind-Game-GUI/'
+  url: 'https://mastermind.altervista.org/vintage-master-mind-help-eng/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - As-is
+  added: 2025-12-20
+  updated: 2025-12-20
+  images:
+  - https://user-images.githubusercontent.com/76481108/207011474-7158b25c-0f4f-495e-a0c5-1a81ee780c37.jpg
+  video:
+    youtube: 5rdoH5vFAWo
 
 - name: Violetland
   images:
@@ -454,6 +540,22 @@
   images:
   - https://static.wikia.nocookie.net/quake/images/4/4d/Vkquake0001.png/revision/latest/scale-to-width-down/1000?cb=20221204023831
 
+- name: voosweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/M4rti21/voosweeper'
+  development: halted
+  status: semi-playable
+  langs:
+  - Lua
+  frameworks:
+  - LÖVE
+  licenses:
+  - As-is
+  added: 2025-09-22
+  updated: 2025-09-22
+
 - name: Vorton
   langs:
   - C
@@ -527,6 +629,27 @@
   url: https://content.luanti.org/packages/Wuzzy/mineclone2/
   video:
     youtube: F-Lai53_Ry4
+
+- name: Voxeliens
+  originals:
+  - Space Invaders
+  type: similar
+  repo: 'https://bitbucket.org/volumesoffun/voxeliens'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - MIT
+  added: 2025-10-12
+  updated: 2025-10-12
+  images:
+  - https://bytebucket.org/volumesoffun/voxeliens/raw/c9c1919a833069d00d83ea6e25664689f118a23c/media/AllScreenshots.png
+  video:
+    youtube: QiA0OxKeKto
 
 - name: Voxelstein 3D
   langs:

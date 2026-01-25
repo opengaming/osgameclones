@@ -6,12 +6,31 @@
     - Real-Time Strategy
     - Turn-Based Strategy
 
+- name: M.U.G.E.N
+  external:
+    wikipedia: Mugen (game engine)
+  meta:
+    genres:
+    - Fighting
+
 - name: M.U.L.E.
   external:
     wikipedia: M.U.L.E.
   meta:
     genres:
     - Turn-Based Strategy
+
+- name: Mad Planets
+  external:
+    website: 'https://www.mobygames.com/game/68804/mad-planets/'
+    wikipedia: Mad Planets
+  platforms:
+  - Arcade
+  meta:
+    genres:
+    - Shooter
+    themes:
+    - Sci-Fi
 
 - name: Mad TV
   external:
@@ -97,7 +116,13 @@
 
 - name: Magic Carpet
   external:
+    website: 'https://www.mobygames.com/game/361/magic-carpet/'
     wikipedia: Magic Carpet (video game)
+  platforms:
+  - Classic Mac OS
+  - DOS
+  - PlayStation
+  - Saturn
   meta:
     genres:
     - FPS
@@ -112,6 +137,13 @@
     - FPS
     themes:
     - Fantasy
+
+- name: Magic Land Island
+  external:
+    website: >-
+      https://blog.wooga.com/magic-land-island-wooga-sets-sail-for-mobile-social-games-72f84573b3bb
+  platforms:
+  - Web
 
 - name: Magic Tales
   external:
@@ -159,6 +191,18 @@
   - "\u30DE\u30B8\u30AB\u30EB\u30C9\u30ED\u30C3\u30D7"
   - MagiDro
   - "\u30DE\u30B8\u30C9\u30ED"
+
+- name: Magician
+  external:
+    website: >-
+      https://web.archive.org/web/20071126005604/http://www.eurocom.co.uk/index.php/video-games/magician
+    wikipedia: Magician (video game)
+  platforms:
+  - NES
+  meta:
+    genres:
+    - Action
+    - RPG
 
 - name: Magus
   external:
@@ -277,10 +321,22 @@
 
 - name: Manic Miner
   external:
+    website: 'https://www.mobygames.com/game/6440/manic-miner/'
     wikipedia: Manic Miner
+  platforms:
+  - Amiga
+  - Amstrad CPC
+  - Commodore 64
+  - Game Boy
+  - iOS
+  - MSX
+  - Windows
+  - ZX Spectrum
   meta:
     genres:
     - Platform
+    themes:
+    - Fantasy
 
 - name: Marathon
   external:
@@ -309,6 +365,18 @@
     themes:
     - Sci-Fi
 
+- name: Marble Blast Ultra
+  external:
+    website: 'https://www.mobygames.com/game/31327/marble-blast-ultra/'
+    wikipedia: Marble Blast Ultra
+  platforms:
+  - Web
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - Platform
+
 - name: Marble Madness
   external:
     wikipedia: Marble Madness
@@ -328,6 +396,26 @@
   - Classic Mac OS
   - iOS
   - Windows
+
+- name: Mario Bros.
+  external:
+    website: 'https://www.nintendo.co.jp/n08/mariobros/'
+    wikipedia: Mario Bros.
+  platforms:
+  - 3DO
+  - Amstrad CPC
+  - Arcade
+  - Atari
+  - Commodore 64
+  - Game Boy
+  - NES
+  - Nintendo Switch
+  - Wii
+  - ZX Spectrum
+  meta:
+    genres:
+    - Action
+    - Platform
 
 - name: Mario Kart
   external:
@@ -466,12 +554,27 @@
     themes:
     - Fantasy
 
-- name: MechCommander 2
+- name: 'Machines: Wired for War'
   external:
-    wikipedia: MechCommander 2
+    website: 'https://web.archive.org/web/20241223041313/http://www.machinesthegame.co.uk/'
+    wikipedia: Machines (video game)
+  platforms:
+  - Windows
   meta:
     genres:
     - Real-Time Strategy
+    themes:
+    - Sci-Fi
+
+- name: MechCommander 2
+  external:
+    website: https://web.archive.org/web/20040818103526/http://www.fasastudio.com/games/mechcommander/default.htm?c00=0
+    wikipedia: MechCommander 2
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Real-Time Tactics
     themes:
     - Sci-Fi
 
@@ -502,6 +605,15 @@
     genres:
     - Real-Time Strategy
 
+- name: MegaBall
+  external:
+    website: 'https://www.mobygames.com/game/14126/megaball/'
+  platforms:
+  - Amiga
+  meta:
+    genres:
+    - Action
+
 - name: MegaMan
   external:
     wikipedia: Mega Man (video game)
@@ -526,6 +638,16 @@
     genres:
     - Puzzle
 
+- name: Metal Slug Series
+  external:
+    website: 'https://www.metalslug10th.com/'
+    wikipedia: Metal Slug
+  meta:
+    genres:
+    - Action
+    subgenres:
+    - Run and gun
+
 - name: 'Metaltech: Earthsiege'
   external:
     wikipedia: 'Metaltech: Earthsiege'
@@ -538,6 +660,40 @@
     - Vehicular Combat
     themes:
     - Sci-Fi
+
+- name: Metro-Cross
+  external:
+    website: 'https://www.mobygames.com/game/9042/metro-cross/'
+    wikipedia: Metro-Cross
+  platforms:
+  - Amstrad CPC
+  - Arcade
+  - Atari
+  - Commodore 64
+  - NES
+  - Nintendo Switch
+  - PlayStation 4
+  - Wii
+  - ZX Spectrum
+  meta:
+    genres:
+    - Platform
+    - Sports
+
+- name: Metroid
+  names:
+  - メトロイド
+  external:
+    website: https://www.nintendo.com/en-gb/Games/NES/Metroid--275726.html
+    wikipedia: Metroid (video game)
+  platforms:
+  - Arcade
+  - Game Boy
+  - NES
+  meta:
+    genres:
+    - Adventure
+    - Platform
 
 - name: Metroid Prime
   external:
@@ -598,6 +754,17 @@
     - Racing
   names:
   - Midnight Club 2
+
+- name: MiG Alley
+  external:
+    website: >-
+      https://web.archive.org/web/20001217075500/http://www.rowansoftware.com/migtitle.html
+    wikipedia: MiG Alley (video game)
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Flight
 
 - name: Might and Magic
   names:
@@ -745,6 +912,35 @@
     themes:
     - Fantasy
 
+- name: Mined-Out
+  external:
+    website: 'https://www.mobygames.com/game/14680/mined-out/'
+    wikipedia: Mined-Out
+  platforms:
+  - ZX Spectrum
+  meta:
+    genres:
+    - Puzzle
+
+- name: Minefield
+  external:
+    website: 'https://www.mobygames.com/game/102214/minefield/'
+  meta:
+    genres:
+    - Puzzle
+
+- name: Miner Wars 2081
+  external:
+    website: 'https://www.minerwars.com/'
+    wikipedia: Miner Wars 2081
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - FPS
+    subgenres:
+    - Survival
+
 - name: Minesweeper
   external:
     wikipedia: Minesweeper (video game)
@@ -773,10 +969,20 @@
 
 - name: Missile Command
   external:
+    website: 'https://www.mobygames.com/game/9177/missile-command/'
     wikipedia: Missile Command
+  platforms:
+  - Arcade
+  - Atari
+  - Web
+  - Windows
+  - Xbox 360
   meta:
     genres:
     - Arcade
+    - Shooter
+    themes:
+    - Sci-Fi
 
 - name: Mission Asteroid
   names:
@@ -874,12 +1080,44 @@
   - FM Towns
   - Classic Mac OS
 
+- name: Monkey Mart
+  external:
+    website: 'https://poki.com/en/g/monkey-mart'
+  platforms:
+  - Web
+
+- name: Monster RPG 2
+  external:
+    website: https://www.mobygames.com/game/58932/monster-rpg-2/
+  platforms:
+  - Android
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - RPG
+
 - name: Monty Mole
   external:
     wikipedia: Monty Mole
   meta:
     genres:
     - Platform
+
+- name: Moon Patrol
+  external:
+    website: 'https://www.arcade-museum.com/game_detail.php?game_id=8747'
+    wikipedia: Moon Patrol
+  platforms:
+  - Apple II
+  - Arcade
+  - Atari
+  - Commodore 64
+  - MSX
+  meta:
+    genres:
+    - Shooter
 
 - name: Moonbase Commander
   external:
@@ -901,6 +1139,20 @@
     themes:
     - Fantasy
     - Medieval
+
+- name: Moonsweeper
+  external:
+    website: 'https://www.mobygames.com/game/13909/moonsweeper/'
+  platforms:
+  - Atari
+  - Commodore 64
+  - MSX
+  - ZX Spectrum
+  meta:
+    subgenres:
+    - Space Flight
+    themes:
+    - Sci-Fi
 
 - name: Morpheus
   external:
@@ -959,6 +1211,24 @@
     themes:
     - Management
 
+- name: Mr. Do!
+  names:
+  - ミスター・ドゥ
+  external:
+    website: 'https://www.arcade-museum.com/game_detail.php?game_id=8767'
+    wikipedia: Mr. Do!
+  platforms:
+  - Apple II
+  - Arcade
+  - Atari
+  - Commodore 64
+  - Game Boy
+  - MSX
+  - NES
+  meta:
+    genres:
+    - Action
+
 - name: Mr. Driller
   external:
     website: 'https://www.mobygames.com/game/4348/mr-driller/'
@@ -978,6 +1248,19 @@
     genres:
     - Action
     - Puzzle
+
+- name: Mr. Nutz 2
+  names:
+  - 'Mr. Nutz: Hoppin'' Mad'
+  external:
+    website: 'https://www.igdb.com/games/mr-nutz-2'
+    wikipedia: 'Mr. Nutz: Hoppin'' Mad'
+  platforms:
+  - Amiga
+  meta:
+    genres:
+    - Action
+    - Platform
 
 - name: Muppet Treasure Island
   external:
@@ -1021,6 +1304,19 @@
   meta:
     genres:
     - Adventure
+
+- name: 'Myst Online: Uru Live'
+  names:
+  - 'Myst Online: URU Live Again'
+  external:
+    website: 'https://www.mystonline.com/'
+    wikipedia: 'Myst Online: Uru Live'
+  platforms:
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - MMORPG
 
 - name: Mystery House
   names:

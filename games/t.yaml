@@ -27,6 +27,21 @@
   - >-
     https://img.itch.zone/aW1hZ2UvMTYwMjM5My8xMDU0MjAxNy5wbmc=/original/weI%2FrN.png
 
+- name: tae-wondle
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/ytw0728/tae_wondle'
+  url: 'https://crates.io/crates/tae-wondle'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-07
+  updated: 2025-10-07
+
 - name: Tails Adventure Remake
   originals:
   - Tails Adventure
@@ -121,6 +136,48 @@
   images:
   - https://vignette.wikia.nocookie.net/zod/images/7/76/Ss04.jpg/revision/latest?cb=20070528214052&path-prefix=ru
 
+- name: Tank2004
+  originals:
+  - Battle City
+  type: clone
+  repo: >-
+    https://lava.codingmiao.com/assets/app/%E5%9D%A6%E5%85%8B2004/assets/source_code/%E5%9D%A6%E5%85%8B2004.txt
+  url: >-
+    https://web.archive.org/web/20060709004251/http://www.ggv.com.cn/faq/gvmaker/1.htm#:~:text=%EF%BC%9A-,%E5%9D%A6%E5%85%8B2004
+  development: complete
+  status: playable
+  langs:
+  - GVmaker
+  licenses:
+  - Custom
+  info: >-
+    Tank2004 (坦克2004) is a Battle City clone designed for a handheld e-dictionary
+    called "文曲星".
+  added: 2026-01-15
+  updated: 2026-01-15
+  images:
+  - https://web.archive.org/web/20060508013027im_/http://www.ggv.com.cn/faq/gvmaker/images/tank2004.gif
+
+- name: Tank2004 for TI68K
+  originals:
+  - Battle City
+  type: clone
+  url: 'https://www.ticalc.org/archives/files/fileinfo/455/45560.html'
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: A port of Tank2004 on e-dictionary.
+  added: 2026-01-21
+  updated: 2026-01-21
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/846/84608.gif'
+  - 'https://www.ticalc.org/archives/files/ss/846/84613.gif'
+  - 'https://www.ticalc.org/archives/files/ss/846/84610.gif'
+  - 'https://www.ticalc.org/archives/files/ss/846/84609.gif'
+
 - name: Tanks of Freedom
   development: halted
   langs:
@@ -212,6 +269,24 @@
   updated: 2023-09-05
   url: https://qnighy.github.io/tapir/
 
+- name: Taradino
+  originals:
+  - Rise of the Triad
+  type: remake
+  repo: 'https://github.com/fabiangreffrath/taradino'
+  feed: 'https://github.com/fabiangreffrath/taradino/releases.atom'
+  development: active
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  added: 2025-09-26
+  updated: 2025-09-26
+
 - name: TaxiPilot
   originals:
   - Space Taxi
@@ -232,6 +307,83 @@
   - 'https://images.pling.com/img/00/00/01/28/52/1109411/9906-1.jpg'
   - 'https://images.pling.com/img/00/00/01/28/52/1109411/9906-2.jpg'
   - 'https://images.pling.com/img/00/00/01/28/52/1109411/9906-3.jpg'
+
+- name: TclRobots
+  originals:
+  - CROBOTS
+  type: similar
+  repo: 'https://github.com/jonasferry/TclRobots'
+  url: 'https://web.archive.org/web/20140104074744/http://tclrobots.org/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  langs:
+  - Tcl
+  licenses:
+  - BSD
+  added: 2026-01-12
+  updated: 2026-01-12
+  images:
+  - 'https://corewar.co.uk/screenshots/tclrobots.png'
+
+- name: TDEPacman
+  originals:
+  - Pac-Man
+  type: clone
+  repo: https://scm.trinitydesktop.org/gitea/TDE/tdepacman
+  feed: 'https://git.trinitydesktop.org/cgit/tdepacman/atom/?h=master'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  info: A pacman clone game for Trinity Desktop Environment.
+  added: 2025-10-31
+  updated: 2025-10-31
+
+- name: Team-47-GoMan
+  originals:
+  - Team 47 GoMan
+  type: official
+  repo: 'https://github.com/Fissuras/Team-47-GoMan/'
+  url: 'https://web.archive.org/web/19990417064750/http://www.47-tek.com/source.htm'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - DirectX
+  licenses:
+  - As-is
+  added: 2025-12-19
+  updated: 2025-12-19
+
+- name: Teeter Torture
+  originals:
+  - Teeter Torture
+  type: remake
+  repo: 'http://www.newbreedsoftware.com/teetertorture/download/'
+  url: 'http://www.newbreedsoftware.com/teetertorture/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  info: This is rendition of a classic arcade game prototype of the same name.
+  added: 2025-10-29
+  updated: 2025-10-29
+  images:
+  - https://web.archive.org/web/20240430212427if_/http://www.newbreedsoftware.com/teetertorture/screenshots/teeter-torture-prev.png
+  video:
+    youtube: smYYKU3U1SU
 
 - name: TecnoballZ
   originals:
@@ -282,6 +434,32 @@
   updated: 2025-01-21
   video:
     youtube: 0U7EpJlf6-o
+
+- name: Teletext Elite
+  originals:
+  - Elite
+  type: remake
+  repo: 'https://github.com/markmoxon/teletext-elite'
+  url: 'https://elite.bbcelite.com/hacks/teletext_elite.html'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    Teletext Elite is the full and unabridged disc version of BBC Micro Elite,
+    converted to run in the BBC Micro's teletext screen mode.
+  added: 2025-12-22
+  updated: 2025-12-22
+  images:
+  - 'https://elite.bbcelite.com/images/teletext_elite/title.png'
+  - 'https://elite.bbcelite.com/images/teletext_elite/saturn.png'
+  - 'https://elite.bbcelite.com/images/teletext_elite/status.png'
+  - 'https://elite.bbcelite.com/images/teletext_elite/data_on_system.png'
+  - 'https://elite.bbcelite.com/images/teletext_elite/short-range_chart.png'
+  - 'https://elite.bbcelite.com/images/teletext_elite/market_prices.png'
 
 - name: temptations
   originals:
@@ -360,6 +538,91 @@
   - https://gitlab.com/hydren/terrarium/-/raw/wiki/screenshots/0.1.9/screenshot.jpg
   - https://gitlab.com/hydren/terrarium/-/raw/wiki/screenshots/0.1.9/terrarium%200.1.9%20on%20ubuntu%206.06.png
 
+- name: Tetrinetx
+  originals:
+  - TetriNET
+  type: remake
+  repo: 'https://sourceforge.net/projects/tetrinetx/'
+  url: 'https://tetrinetx.sourceforge.net/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  info: GNU Tetrinet Server.
+  added: 2026-01-06
+  updated: 2026-01-06
+
+- name: Tetris Pyxel
+  originals:
+  - Tetris
+  type: clone
+  repo: 'https://github.com/mehrdad-mixtape/Tetris_Pyxel/'
+  feed: 'https://github.com/mehrdad-mixtape/Tetris_Pyxel/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - Pyxel
+  licenses:
+  - GPL3
+  added: 2026-01-19
+  updated: 2026-01-19
+  images:
+  - https://raw.githubusercontent.com/mehrdad-mixtape/Tetris_Pyxel/master/images/index.gif
+  - https://github.com/user-attachments/assets/a1d00010-4272-4175-a858-1bb152ff4d8d
+
+- name: Tetris Unlimited
+  originals:
+  - Tetris
+  type: clone
+  repo: 'https://sourceforge.net/projects/tetrisunlimited/'
+  url: 'https://web.archive.org/web/20070622150648/http://oginer.webcindario.com/index.php?page=tu_info'
+  feed: 'https://sourceforge.net/p/tetrisunlimited/news/feed.rss'
+  development: complete
+  status: playable
+  multiplayer:
+  - Split-screen
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - GPL2
+  added: 2026-01-13
+  updated: 2026-01-13
+  images:
+  - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7086.jpg'
+  - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7084.jpg'
+  - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7088.jpg'
+  - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7080.jpg'
+  - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7082.jpg'
+  - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7076.jpg'
+
+- name: TetrisPy
+  originals:
+  - Tetris
+  type: clone
+  repo: 'https://github.com/mehrdad-mixtape/TetrisPy'
+  feed: 'https://github.com/mehrdad-mixtape/TetrisPy/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - Python
+  licenses:
+  - AGPL3
+  added: 2026-01-21
+  updated: 2026-01-21
+  images:
+  - 'https://raw.githubusercontent.com/mehrdad-mixtape/TetrisPy/master/index.png'
+
 - name: TES3MP
   originals:
   - 'The Elder Scrolls III: Morrowind'
@@ -388,6 +651,26 @@
   video:
     youtube: aZZ0piRvI58
     moddb: 1907883
+
+- name: Tetrinet for Linux
+  originals:
+  - TetriNET
+  type: remake
+  repo: 'https://github.com/clientverify/tetrinet'
+  url: 'https://tetrinet.or.cz/'
+  feed: 'https://github.com/clientverify/tetrinet/releases.atom'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  langs:
+  - C
+  frameworks:
+  - ncurses
+  licenses:
+  - As-is
+  added: 2026-01-02
+  updated: 2026-01-02
 
 - name: tetris - Just another Tetris™ clone
   images:
@@ -429,6 +712,21 @@
   updated: 2019-08-28
   images:
   - https://raw.githubusercontent.com/brenns10/tetris/master/tetris.gif
+
+- name: textsweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/codeaye/textsweeper'
+  url: 'https://crates.io/crates/textsweeper'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-09-18
+  updated: 2025-09-18
 
 - name: Theme Park Builder 3D CAD
   frameworks:
@@ -570,6 +868,36 @@
   updated: 2022-07-21
   url: https://www.lysator.liu.se/~peda/thrust/
 
+- name: Thunder Force IV Rebirth
+  originals:
+  - Thunder Force IV
+  type: remake
+  repo: 'https://github.com/Fissuras/tf4r'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - 'C#'
+  - JavaScript
+  frameworks:
+  - OpenGL
+  - Unity
+  licenses:
+  - As-is
+  added: 2026-01-17
+  updated: 2026-01-17
+  images:
+  - https://raw.githubusercontent.com/Fissuras/tf4r/master/wiki/img/screenshot%20title.jpg
+  - https://raw.githubusercontent.com/Fissuras/tf4r/master/wiki/img/screenshot%20level%201%20-%20asteroid%20field%202.jpg
+  - https://raw.githubusercontent.com/Fissuras/tf4r/master/wiki/img/screenshot%20level%202%20-%20pirats%20hq%20under%20unknown%20attack.jpg
+  - https://raw.githubusercontent.com/Fissuras/tf4r/master/wiki/img/screenshot%20level%202%20-%20boss%201.jpg
+  - https://raw.githubusercontent.com/Fissuras/tf4r/master/wiki/img/screenshot%20level%203%20-%20clouds%20at%20sunset%202.jpg
+  - https://raw.githubusercontent.com/Fissuras/tf4r/master/wiki/img/screenshot%20level%203%20-%20sky.jpg
+  - https://raw.githubusercontent.com/Fissuras/tf4r/master/wiki/img/screenshot%20styx%20vs%203D%20ikaruga.jpg
+  - https://raw.githubusercontent.com/Fissuras/tf4r/master/wiki/img/screenshot.jpg
+  video:
+    youtube: djfIZ39z8cM
+
 - name: Thunder&Lightning
   originals:
   - Carrier Command
@@ -604,6 +932,36 @@
   status: playable
   added: 2018-02-05
   updated: 2025-02-08
+
+- name: ticalc
+  originals:
+  - Connect 4
+  - Excitebike
+  - Slimeball
+  - Rodent's Revenge
+  type: clone
+  repo: 'https://github.com/transitive-bullshit/ticalc'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    Collection of TI-Basic and C (via TIGCC) programs & games for the TI family of
+    calculators.
+  added: 2026-01-11
+  updated: 2026-01-11
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/463/46308.gif'
+  - 'https://www.ticalc.org/archives/files/ss/463/46307.gif'
+  - 'https://www.ticalc.org/archives/files/ss/402/40275.gif'
+  - 'https://www.ticalc.org/archives/files/ss/646/64626.gif'
+  - 'https://www.calculatorti.com/media/images/programs/connect-4-89.jpg'
+  - 'https://www.calculatorti.com/media/images/programs/connect-4-advanced.jpg'
 
 - name: Tile World
   langs:
@@ -668,6 +1026,83 @@
   added: '2025-04-08'
   updated: '2025-04-08'
 
+- name: Tiny Digital Invader
+  originals:
+  - Digital Invaders
+  type: clone
+  repo: 'https://github.com/akkera102/10_tiny_invader'
+  url: 'https://community.arduboy.com/t/tiny-digital-invader-7-segment-display/2679'
+  development: halted
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  added: 2025-10-22
+  updated: 2025-10-22
+
+- name: Tiny Mario
+  originals:
+  - Super Mario Bros.
+  type: similar
+  repo: 'https://github.com/diegodotta/Tiny-Mario-Bar'
+  url: 'https://diego.horse/tiny-mario'
+  development: very active
+  status: playable
+  langs:
+  - JavaScript
+  licenses:
+  - PD
+  info: A tiny game on your URL bar platformer inspired by Super Mario Bros.
+  added: 2025-11-19
+  updated: 2025-11-19
+  images:
+  - >-
+    https://camo.githubusercontent.com/735d1aa9046e03c2505b37c7c0e7a5d600ddfd95b7be486595f3f0275767165e/68747470733a2f2f646965676f2e686f7273652f77702d636f6e74656e742f75706c6f6164732f323032352f31312f74696e796d6172696f2e676966
+  - >-
+    https://camo.githubusercontent.com/4309d95e6f1f0ad1d29f7cd94933f9b7487aae580495746abe1ea6ae3640b810/68747470733a2f2f646965676f2e686f7273652f77702d636f6e74656e742f75706c6f6164732f323032352f31312f74696e796d6172696f2d756e64657267726f756e642e676966
+
+- name: Tiny Tetris
+  originals:
+  - Tetris
+  type: clone
+  repo: 'https://github.com/AJRussell/Tiny-Tetris'
+  url: >-
+    https://projecthub.arduino.cc/BADFEED/tetris-clone-with-oled-ssd1306-i2c-for-arduino-nano-uno-ef8a8a
+  development: halted
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: Tetris Clone with OLED SSD1306(I2C) for Arduino Nano / Uno.
+  added: 2025-11-04
+  updated: 2025-11-04
+  images:
+  - https://projects.arduinocontent.cc/cover-images/9a242f07-f278-43d9-98f8-c59791daf1b4.jpg
+  video:
+    youtube: n4nrEgMsXSY
+
+- name: Tiny Trek（Pyxel）
+  originals:
+  - Tiny Trek
+  type: remake
+  repo: 'https://github.com/CoBinee/tinytrek-pyxel'
+  url: >-
+    https://web.archive.org/web/20230224033243/http://blog.livedoor.jp/cobinee/archives/2008127.html
+  development: complete
+  status: playable
+  langs:
+  - Python
+  frameworks:
+  - Pyxel
+  licenses:
+  - As-is
+  added: 2026-01-12
+  updated: 2026-01-12
+  images:
+  - https://github.com/user-attachments/assets/e931cf84-7932-4254-b959-5ca32baffd06
+
 - name: Tiny Wings
   langs:
   - Objective-C
@@ -686,6 +1121,84 @@
   - https://raw.githubusercontent.com/haqu/tiny-wings/master/screenshot.png
   added: 2015-05-02
   updated: 2022-09-12
+
+- name: TiWarriors
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://sourceforge.net/projects/tiwarriors/'
+  feed: 'https://sourceforge.net/p/tiwarriors/news/feed.rss'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Competitive
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL2
+  added: 2025-11-02
+  updated: 2025-11-02
+
+- name: tmines
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/tropf/tmines'
+  feed: 'https://github.com/tropf/tmines/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - MIT
+  added: 2025-10-05
+  updated: 2025-10-05
+
+- name: Tomb Engine
+  originals:
+  - Tomb Raider
+  type: remake
+  repo: 'https://github.com/TombEngine/TombEngine'
+  url: 'https://tombengine.com/'
+  feed: 'https://tombengine.com/feed/'
+  development: active
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  licenses:
+  - Custom
+  info: >-
+    A new and modern engine for custom Tomb Raider levels incorporating classic
+    features and new enhancements.
+  added: 2025-12-02
+  updated: 2025-12-02
+  video:
+    youtube: gOaZDRg4i7c
+
+- name: Tomb of Drewan
+  originals:
+  - The Tomb of Drewan
+  type: remake
+  url: >-
+    https://web.archive.org/web/20070205182728/https://www.classicgaming.com/studio2/valley/valley.htm#:~:text=Tomb%20of%20Drewan
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2025-12-15
+  updated: 2025-12-15
+  images:
+  - https://www.old-games.com/screenshot/4085-1-tomb-of-drewan-the.jpg
+  - https://www.old-games.com/screenshot/4085-2-tomb-of-drewan-the.jpg
+  - https://www.old-games.com/screenshot/4085-3-tomb-of-drewan-the.jpg
+  - https://www.old-games.com/screenshot/4085-4-tomb-of-drewan-the.jpg
+  - https://www.old-games.com/screenshot/4085-5-tomb-of-drewan-the.jpg
 
 - name: TOMB5
   type: remake
@@ -980,6 +1493,62 @@
   updated: 2022-06-11
   url: https://retrospec.sgn.net/info.htm?id=tranzam&t=g
 
+- name: Tread Marks
+  originals:
+  - Tread Marks
+  type: official
+  repo: 'https://github.com/LongbowGames/TreadMarks'
+  url: >-
+    https://web.archive.org/web/20170211155405/https://www.longbowgames.com/forums/topic/?id=3623
+  feed: 'https://github.com/LongbowGames/TreadMarks/releases.atom'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenAL
+  - SFML
+  - Qt
+  licenses:
+  - GPL3
+  added: 2025-12-20
+  updated: 2025-12-20
+
+- name: Tread Marks (SDL2)
+  originals:
+  - Tread Marks
+  type: remake
+  repo: 'https://github.com/ptitSeb/TreadMarks'
+  url: 'https://repo.openpandora.org/?page=detail&app=treadmarks_ptitseb'
+  feed: 'https://github.com/ptitSeb/TreadMarks/releases.atom'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  - OpenGL
+  - SFML
+  - Qt
+  - OpenAL
+  licenses:
+  - As-is
+  info: Port of Tread Marks on Pandora and Linux.
+  added: 2025-12-31
+  updated: 2025-12-31
+  images:
+  - 'https://repo.openpandora.org/files/pnd/treadmarks_ptitseb/preview1.png'
+  - 'https://repo.openpandora.org/files/pnd/treadmarks_ptitseb/preview2.png'
+  - 'https://repo.openpandora.org/files/pnd/treadmarks_ptitseb/preview3.png'
+  video:
+    youtube: GdZB0muPOB4
+
 - name: Tremulous
   images:
   - https://tremulous.net/screenshots/1.jpg
@@ -1011,6 +1580,23 @@
   added: 2013-06-08
   updated: 2020-09-06
   url: https://tremulous.net
+
+- name: Tribal Trouble
+  originals:
+  - Tribal Trouble
+  type: official
+  repo: 'https://github.com/sunenielsen/tribaltrouble'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  content: free
+  langs:
+  - Java
+  licenses:
+  - GPL2
+  added: 2025-12-20
+  updated: 2025-12-20
 
 - name: TrinityCore
   originals:
@@ -1068,6 +1654,21 @@
   added: 2015-05-02
   updated: 2020-08-31
 
+- name: Trust & Betrayal
+  originals:
+  - 'Trust & Betrayal: The Legacy of Siboot'
+  type: official
+  url: 'https://www.erasmatazz.com/library/source-code/#:~:text=Trust%20%26%20Betrayal'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Pascal
+  licenses:
+  - As-is
+  added: 2026-01-06
+  updated: 2026-01-06
+
 - name: TRX
   originals:
   - Tomb Raider
@@ -1096,6 +1697,27 @@
   - https://github.com/LostArtefacts/TRX/raw/develop/docs/tr1/showcase/free_camera.jpg
   - https://github.com/LostArtefacts/TRX/raw/develop/docs/tr1/showcase/ps1_ui_and_gfx.jpg
 
+- name: tserver
+  originals:
+  - TetriNET
+  type: remake
+  repo: 'https://sourceforge.net/projects/tserver/'
+  url: 'https://tserver.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/tserver/news/feed.rss'
+  development: halted
+  status: unplayable
+  multiplayer:
+  - Online
+  langs:
+  - Java
+  licenses:
+  - As-is
+  info: >-
+    This project aims to deliver a stable, performant and flexible Tetrinet &
+    TetriFast server.
+  added: 2025-12-28
+  updated: 2025-12-28
+
 - name: TTDPatch
   originals:
   - Transport Tycoon
@@ -1117,6 +1739,23 @@
   - https://www.ttdpatch.net/newgrf.png
   - https://www.ttdpatch.net/bigstation.jpg
   - https://www.ttdpatch.net/longtrn.jpg
+
+- name: ttyloop
+  originals:
+  - Infinity Loop
+  type: clone
+  repo: 'https://github.com/gamma-delta/ttyloop'
+  url: 'https://crates.io/crates/ttyloop'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - Cursive
+  licenses:
+  - MIT
+  added: 2025-12-12
+  updated: 2025-12-12
 
 - name: Tube64
   originals:
@@ -1140,6 +1779,45 @@
     https://user-images.githubusercontent.com/88702500/131208173-4758d8b1-0629-48b9-a53e-1b4c90115a90.png
   video:
     youtube: dgaLhOj14e8
+
+- name: Tui48
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://gitlab.com/Oglo12/tui48'
+  url: 'https://crates.io/crates/tui48'
+  feed: 'https://gitlab.com/Oglo12/tui48.atom'
+  development: complete
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - TuiGui
+  licenses:
+  - MIT
+  added: 2025-10-28
+  updated: 2025-10-28
+  images:
+  - 'https://gitlab.com/Oglo12/tui48/-/raw/main/showcase_game_board.png'
+  - 'https://gitlab.com/Oglo12/tui48/-/raw/main/showcase_game_output.png'
+
+- name: tuinty-forpy-eight
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/TotalyEnglizLitrate/tuinty-forpy-eight'
+  url: 'https://pypi.org/project/tuinty-forpy-eight/'
+  feed: 'https://pypi.org/rss/project/tuinty-forpy-eight/releases.xml'
+  development: complete
+  status: playable
+  langs:
+  - Python
+  frameworks:
+  - Textual
+  licenses:
+  - As-is
+  added: 2025-11-13
+  updated: 2025-11-13
 
 - name: Tumbly Towers
   type: remake
@@ -1251,6 +1929,43 @@
   - https://i.gjcdn.net/data/games/2/53/170803/screenshots/tumblr_inline_o5p6d2ywen1roqll8_1280-cqgczxpx.jpg
   - https://i.gjcdn.net/data/games/2/53/170803/screenshots/tumblr_inline_o5p5n7d2ri1roqll8_1280-qbyv5dtd.jpg
 
+- name: Tutanchamun
+  originals:
+  - Tutankham
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/Linux/games/arcade/#:~:text=tutanchamun'
+  url: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/tutanchamun-0.1.1.lsm
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-11-04
+  updated: 2025-11-04
+
+- name: Tux Adventure
+  originals:
+  - Antarctic Adventure
+  type: remake
+  repo: 'https://sourceforge.net/projects/tuxadventure/'
+  feed: 'https://sourceforge.net/p/tuxadventure/blog/feed.rss'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  added: 2025-12-16
+  updated: 2025-12-16
+
 - name: Tux Builder
   originals:
   - Super Mario
@@ -1292,6 +2007,27 @@
   updated: 2015-01-21
   url: https://www.tuxemon.org/
 
+- name: TuxPuck
+  originals:
+  - Shufflepuck Café
+  type: clone
+  repo: 'https://salsa.debian.org/games-team/tuxpuck'
+  url: 'https://web.archive.org/web/20090130055930/http://home.no.net/munsuun/tuxpuck/'
+  feed: 'https://salsa.debian.org/games-team/tuxpuck.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-23
+  updated: 2025-09-23
+  images:
+  - https://web.archive.org/web/20160312213148if_/http://screenshots.debian.net/screenshots/t/tuxpuck/8845_large.png
+
 - name: TVTower
   langs:
   - BlitzMax
@@ -1331,6 +2067,38 @@
   images:
   - https://github.com/LBALab/twin-e/raw/main/docs/twin-e.png
 
+- name: twozero48
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/de-sh/twozero48'
+  url: 'https://crates.io/crates/twozero48'
+  feed: 'https://github.com/de-sh/twozero48/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-29
+  updated: 2025-10-29
+
+- name: txt2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/olksdar/txt2048'
+  url: 'https://crates.io/crates/txt2048'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-26
+  updated: 2025-10-26
+
 - name: Tyger
   type: remake
   originals:
@@ -1349,6 +2117,26 @@
   images:
   - https://zzt.org/dr_dos/tyger/TygerTitle.png
   - https://zzt.org/dr_dos/tyger/TOWN-25.png
+
+- name: Tykkipeli 2
+  originals:
+  - Artillery Duel
+  type: clone
+  repo: >-
+    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=Tykkipeli2
+  url: >-
+    https://grumbeer.dyndns.org/ftp/servers/sunsite/1996-08-12-part2/games/video//Tykkipeli2.lsm
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-10-25
+  updated: 2025-10-25
 
 - name: TypeScript Xenon
   type: remake

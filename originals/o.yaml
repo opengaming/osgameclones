@@ -34,6 +34,22 @@
     - Platform
     - Adventure
 
+- name: OGame
+  external:
+    website: 'https://ogame.gameforge.com/'
+    wikipedia: OGame
+  platforms:
+  - Android
+  - iOS
+  - Web
+  meta:
+    genres:
+    - Turn-Based Strategy
+    subgenres:
+    - 4X
+    themes:
+    - Sci-Fi
+
 - name: Old School RuneScape
   external:
     wikipedia: Old School RuneScape
@@ -110,6 +126,21 @@
   - Atari
   - DOS
 
+- name: 'The Operative: No One Lives Forever'
+  external:
+    website: 'https://web.archive.org/web/20051219082142/http://www.theoperative.com'
+    wikipedia: 'The Operative: No One Lives Forever'
+  platforms:
+  - OSX
+  - PlayStation 2
+  - Windows
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Comedy
+    - Sci-Fi
+
 - name: The Oregon Trail
   external:
     wikipedia: 'The_Oregon_Trail_(series)'
@@ -128,6 +159,23 @@
     genres:
     - Rhythm
 
+- name: Otto Matic
+  external:
+    website: 'https://pangeasoft.net/otto/'
+    wikipedia: Otto Matic
+  platforms:
+  - Apple TV
+  - Classic Mac OS
+  - iOS
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - Adventure
+    themes:
+    - Sci-Fi
+
 - name: Outcast
   external:
     wikipedia: Outcast (video game)
@@ -135,6 +183,18 @@
     genres:
     - Adventure
     - Action
+
+- name: Outlaw
+  external:
+    website: 'https://www.mobygames.com/game/10370/outlaw/'
+    wikipedia: Outlaw (1978 video game)
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Shooter
+    themes:
+    - Western
 
 - name: Outlaws
   external:
