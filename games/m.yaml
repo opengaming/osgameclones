@@ -1,3 +1,39 @@
+- name: MacWolfSDL
+  originals:
+  - Wolfenstein 3D
+  type: remake
+  repo: 'https://github.com/LateGator/MacWolfSDL'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - Custom
+  - As-is
+  info: Accurate source port of Macintosh Wolfenstein 3D
+  added: '2025-12-02'
+  updated: '2025-12-02'
+
+- name: Macintosh Wolfenstein 3D Source Code
+  originals:
+  - Wolfenstein 3D
+  type: official
+  repo: 'https://github.com/Blzut3/Wolf3D-Mac/'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - Custom
+  info: The original Macintosh Wolfenstein 3D source release.
+  added: '2025-12-02'
+  updated: '2025-12-02'
+
 - name: M4r10
   originals:
   - Mario Bros.
@@ -1447,6 +1483,32 @@
   - Custom
   added: 2025-11-17
   updated: 2025-11-17
+
+- name: Mighty Mike
+  originals:
+  - Mighty Mike
+  type: remake
+  repo: 'https://github.com/jorio/MightyMike'
+  url: 'https://jorio.itch.io/mightymike'
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - C
+  - C++
+  frameworks:
+  - SDL3
+  licenses:
+  - CC-BY-NC-SA
+  info: Pangea Software's Mighty Mike (Power Pete) for modern systems
+  added: '2025-12-02'
+  updated: '2025-12-02'
+  images:
+  - >-
+    https://img.itch.zone/aW1hZ2UvMTU2ODMxNS85MTc4MzE2LnBuZw==/794x1000/Gg%2FcSA.png
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODMxNS85MTc4MzIyLnBuZw==/794x1000/jQ5uJE.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODMxNS85MTc4NTg5LnBuZw==/794x1000/2cvSlA.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODMxNS85MTc4NzE3LnBuZw==/794x1000/lkFwpD.png'
 
 - name: Mindless
   originals:
