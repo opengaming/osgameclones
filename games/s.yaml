@@ -2407,7 +2407,7 @@
 - name: SLF
   originals:
   - Super Lemonade Factory
-  type: official
+  type: remake
   repo: 'https://github.com/initials/SLF'
   development: halted
   status: unplayable
@@ -5140,6 +5140,8 @@
   content: free
   langs:
   - 'C#'
+  frameworks:
+  - XNA
   licenses:
   - As-is
   added: 2026-01-23
@@ -5154,7 +5156,7 @@
 - name: Super-Lemonade-Factory-Pico-8
   originals:
   - Super Lemonade Factory
-  type: official
+  type: remake
   repo: 'https://github.com/initials/Super-Lemonade-Factory-Pico-8'
   url: 'https://www.lexaloffle.com/bbs/?tid=2824'
   development: halted
@@ -5162,6 +5164,8 @@
   content: free
   langs:
   - Lua
+  frameworks:
+  - PICO-8
   licenses:
   - As-is
   info: Super Lemonade Factory for the Pico-8 system.
@@ -5206,7 +5210,7 @@
 - name: SuperHorrorFactory
   originals:
   - Super Lemonade Factory
-  type: official
+  type: remake
   repo: 'https://github.com/initials/SuperHorrorFactory'
   development: halted
   status: unplayable
@@ -5232,6 +5236,8 @@
   content: open
   langs:
   - ActionScript
+  frameworks:
+  - Adobe AIR
   licenses:
   - GPL3
   info: Super Lemonade Factory for OUYA.
