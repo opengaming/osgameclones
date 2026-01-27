@@ -1733,6 +1733,24 @@
   status: playable
   updated: 2024-04-22
 
+- name: boomslang
+  originals:
+  - Boomshine
+  type: clone
+  repo: 'https://github.com/bsl/boomslang'
+  url: 'https://hackage.haskell.org/package/boomslang'
+  feed: 'https://hackage.haskell.org/package/boomslang.rss'
+  development: halted
+  status: semi-playable
+  langs:
+  - Haskell
+  frameworks:
+  - OpenGL
+  licenses:
+  - PD
+  added: 2026-01-28
+  updated: 2026-01-28
+
 - name: boulder-dash
   langs:
   - Java
