@@ -795,19 +795,16 @@
 - name: No One Lives Forever Modernizer
   originals:
   - 'The Operative: No One Lives Forever'
-  type: remake
+  type: tool
   repo: 'https://github.com/haekb/nolf1-modernizer'
   url: 'https://haekb.itch.io/nolf-modernizer'
   development: halted
-  status: playable
-  multiplayer:
-  - Online
-  - LAN
+  status: N/A
   langs:
   - C++
   frameworks:
   - LithTech
-  - DirectX
+  - SDL2
   licenses:
   - Custom
   added: 2026-01-24
