@@ -393,6 +393,13 @@ def parse_data(site):
         for original in clone['originals']:
             originals_with_clones.add(original)
 
+        # Multiplayer is inapplicable for tools
+        if clone["type"] == "tool" and "multiplayer" in clone:
+            errors.append({
+                "name": clone["name"],
+                "error": "Is a tool but has multiplayer, which is not applicable"
+            })
+
     # Check for invalid Wikipedia URLs in originals
     for item in originals:
         if 'external' in item and 'wikipedia' in item['external']:
