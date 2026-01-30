@@ -620,6 +620,18 @@
   - 3DO
   - Windows
 
+- name: Pokémon Red, Blue, and Yellow
+  names:
+  - ポケットモンスター 赤・緑
+  external:
+    website: https://www.pokemon.com/us/pokemon-video-games/pokemon-red-version-and-pokemon-blue-version
+    wikipedia: 'Pokémon Red, Blue, and Yellow'
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
+
 - name: Poing
   external:
     website: https://www.mobygames.com/game/13354/poing/
@@ -636,10 +648,54 @@
     genres:
     - RPG
 
-- name: Pokémon Gold
+- name: Pokémon Battle Revolution
   names:
-  - Pokémon Silver
+  - ポケモンバトルレボリューション
+  external:
+    website: 'https://www.pokemon.co.jp/game/wii/pbr_sp/'
+    wikipedia: Pokémon Battle Revolution
+  platforms:
+  - Wii
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
+
+- name: 'Pokémon Card GB2: Great Rocket-Dan Sanjō!'
+  names:
+  - ポケモンカードGB2 GR団参上!
+  external:
+    website: 'https://www.pokemon.co.jp/game/other/gbc-gr/'
+  platforms:
+  - Game Boy
+  meta:
+    genres:
+    - Card Game
+    - RPG
+    - Turn-Based Strategy
+
+- name: Pokémon Diamond and Pearl
+  names:
+  - Pokémon Platinum
+  - ポケットモンスター ダイヤモンド・パール
+  - ポケットモンスター プラチナ
+  external:
+    website: 'https://www.pokemon.co.jp/game/ds/dp/'
+    wikipedia: Pokémon Diamond and Pearl
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
+
+- name: Pokémon Gold and Silver
+  names:
   - Pokémon Crystal
+  - Pokémon HeartGold and SoulSilver
+  - ポケットモンスター 金・銀
+  - ポケットモンスター クリスタルバージョン
+  - ポケットモンスター ハートゴールド・ソウルシルバー
   external:
     wikipedia: Pokémon Gold and Silver
   platforms:
@@ -647,6 +703,66 @@
   meta:
     genres:
     - RPG
+
+- name: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
+  names:
+  - 'Pokémon Mystery Dungeon: Explorers of Sky'
+  - ポケモン不思議のダンジョン 時の探検隊・闇の探検隊
+  - ポケモン不思議のダンジョン 空の探検隊
+  external:
+    website: 'https://www.pokemon.co.jp/game/ds/dungeon2007/'
+    wikipedia: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
+  platforms:
+  - DS
+  meta:
+    genres:
+    - RPG
+    - Roguelike
+    themes:
+    - Fantasy
+
+- name: Pokémon Pinball
+  names:
+  - ポケモンピンボール
+  external:
+    website: >-
+      https://web.archive.org/web/20071012202522/http://www.nintendo.com/gamemini?gameid=m-Game-0000-320
+    wikipedia: Pokémon Pinball
+  platforms:
+  - Game Boy
+  meta:
+    genres:
+    - Action
+    subgenres:
+    - Pinball
+
+- name: Pokémon Puzzle Challenge
+  names:
+  - ポケモンでパネポン
+  external:
+    website: 'https://www.nintendo.co.jp/n02/dmg/bpnj/'
+    wikipedia: Pokémon Puzzle Challenge
+  platforms:
+  - 3DS
+  - Game Boy
+  meta:
+    genres:
+    - Puzzle
+
+- name: Pokémon Trading Card Game
+  names:
+  - ポケモンカードGB
+  external:
+    website: 'https://www.nintendo.co.jp/n02/dmg/acxj/'
+    wikipedia: Pokémon Trading Card Game (video game)
+  platforms:
+  - 3DS
+  - Game Boy
+  meta:
+    genres:
+    - Card Game
+    - RPG
+    - Turn-Based Strategy
 
 - name: Pokémon Uranium
   external:
