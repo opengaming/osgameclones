@@ -631,18 +631,6 @@
   - 3DO
   - Windows
 
-- name: Pokémon Red, Blue, and Yellow
-  names:
-  - ポケットモンスター 赤・緑
-  external:
-    website: https://www.pokemon.com/us/pokemon-video-games/pokemon-red-version-and-pokemon-blue-version
-    wikipedia: 'Pokémon Red, Blue, and Yellow'
-  meta:
-    genres:
-    - RPG
-    themes:
-    - Fantasy
-
 - name: Poing
   external:
     website: https://www.mobygames.com/game/13354/poing/
@@ -759,6 +747,23 @@
   meta:
     genres:
     - Puzzle
+
+- name: Pokémon Red, Blue, and Yellow
+  names:
+  - Pokémon FireRed and LeafGreen
+  - ポケットモンスター 赤・緑
+  - ポケットモンスター ファイアレッド・リーフグリーン
+  external:
+    website: https://www.pokemon.com/us/pokemon-video-games/pokemon-red-version-and-pokemon-blue-version
+    wikipedia: 'Pokémon Red, Blue, and Yellow'
+  platforms:
+  - Game Boy
+  - GBA
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
 
 - name: Pokémon Ruby and Sapphire
   names:
