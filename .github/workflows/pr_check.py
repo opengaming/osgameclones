@@ -274,7 +274,7 @@ def check_repo_google_code(game):
 
 
 def check_has_platform(orig):
-    if "platform" not in orig:
+    if "platforms" not in orig:
         yield f"🕹️️ {orig['name']} has no platforms."
 
 
