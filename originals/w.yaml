@@ -376,10 +376,18 @@
 
 - name: Wizard of Wor
   external:
+    website: 'https://www.mobygames.com/game/10745/wizard-of-wor/'
     wikipedia: Wizard of Wor
+  platforms:
+  - Arcade
+  - Atari
+  - Commodore 64
   meta:
     genres:
     - Arcade
+    - Shooter
+    themes:
+    - Medieval
 
 - name: Wizardry
   external:
