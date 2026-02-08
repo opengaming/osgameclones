@@ -1558,7 +1558,7 @@
   - Allegro
   licenses:
   - As-is
-  info: emake of the classic arcade game Donkey Kong (1981).
+  info: Remake of the classic arcade game Donkey Kong (1981).
   added: 2026-01-22
   updated: 2026-01-22
   images:
@@ -1567,6 +1567,24 @@
   - https://raw.githubusercontent.com/ianmurfinxyz/donkey_kong_arcade/master/doc/elevators_rivets.jpg
   video:
     youtube: Hm3gQ7G5vNY
+
+- name: Donkey-Kong-NES-Disassembly
+  originals:
+  - Donkey Kong
+  type: remake
+  repo: 'https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly'
+  development: complete
+  status: playable
+  multiplayer:
+  - Hotseat
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: A disassembly of Donkey Kong Arcade game minus the cement factory.
+  added: 2026-02-08
+  updated: 2026-02-08
 
 - name: DonkeyInTrouble
   frameworks:
