@@ -7,7 +7,15 @@
 
 - name: Baba Is You
   external:
-    wikipedia: Baba_Is_You
+    website: 'https://www.hempuli.com/baba/'
+    wikipedia: Baba Is You
+  platforms:
+  - Android
+  - iOS
+  - Linux
+  - Nintendo Switch
+  - OSX
+  - Windows
   meta:
     genres:
     - Puzzle
