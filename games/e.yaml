@@ -257,6 +257,38 @@
   - 'https://raw.githubusercontent.com/savetz/edfries-nitro/main/nitro-title.png'
   - 'https://raw.githubusercontent.com/savetz/edfries-nitro/main/nitro-game.png'
 
+- name: EDGE-Classic
+  originals:
+  - Doom
+  - Heretic
+  type: remake
+  repo: 'https://github.com/edge-classic/EDGE-classic/'
+  url: 'https://edge-classic.github.io/'
+  feed: 'https://github.com/edge-classic/EDGE-classic/releases.atom'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - WebGL
+  - DirectX
+  - OpenGL
+  licenses:
+  - GPL3
+  info: >-
+    Supported IWADs: Doom, Doom 2, Freedoom, Chex Quest, Chex Quest 3, Heretic,
+    Blasphemer, HacX, Harmony, REKKR.
+  added: 2026-02-11
+  updated: 2026-02-11
+  images:
+  - https://user-images.githubusercontent.com/58537100/187059072-dd93b206-d3cd-4c2f-bf3e-3200684d33f6.png
+  - https://user-images.githubusercontent.com/58537100/187058724-a7601685-b22b-4128-ae4e-eaefc23bcd84.png
+  - https://user-images.githubusercontent.com/58537100/187059362-d27be9f8-ebb5-466a-9239-942516e2120e.png
+  - https://user-images.githubusercontent.com/58537100/187059563-2f6df105-4d54-4295-a664-df16e523227b.png
+  - https://user-images.githubusercontent.com/58537100/187060010-143ac59d-dcea-4e7b-a02a-f34a85b01000.png
+  - https://user-images.githubusercontent.com/58537100/187060442-3db18f29-f1c4-4b6b-a793-29f6b38270b0.png
+
 - name: EDuke32
   originals:
   - Duke Nukem 3D
