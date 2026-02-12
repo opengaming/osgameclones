@@ -3366,6 +3366,25 @@
   images:
   - 'https://pyopyo.sourceforge.net/img/screenshot2-big.jpg'
 
+- name: PyPacMan
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://github.com/gogo40/GoGo-PyPacMan'
+  url: https://pypi.org/project/PyPacMan/
+  feed: 'https://pypi.org/rss/project/pypacman/releases.xml'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - MIT
+  added: 2026-02-03
+  updated: 2026-02-03
+
 - name: PyRobbo
   originals:
   - Robbo
