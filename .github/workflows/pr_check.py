@@ -320,6 +320,10 @@ for file in files:
         print("Original file changed", file)
         old_origs = load_games_file(file.filename, pr.base.sha)
         new_origs = load_games_file(file.filename, pr.head.sha)
+        for name in new_origs:
+            if name not in old_origs:
+                for message in common_original_checks(new_origs[name]):
+                    check_messages.append(message)
         for name in old_origs:
             if name in new_origs:
                 if old_origs[name] != new_origs[name]:
