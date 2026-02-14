@@ -643,18 +643,6 @@
   - 3DO
   - Windows
 
-- name: Pokémon Red, Blue, and Yellow
-  names:
-  - ポケットモンスター 赤・緑
-  external:
-    website: https://www.pokemon.com/us/pokemon-video-games/pokemon-red-version-and-pokemon-blue-version
-    wikipedia: 'Pokémon Red, Blue, and Yellow'
-  meta:
-    genres:
-    - RPG
-    themes:
-    - Fantasy
-
 - name: Poing
   external:
     website: https://www.mobygames.com/game/13354/poing/
@@ -698,6 +686,20 @@
     - RPG
     - Turn-Based Strategy
 
+- name: Pokémon Colosseum
+  names:
+  - ポケモンコロシアム
+  external:
+    website: 'https://www.nintendo.co.jp/ngc/qc6a/'
+    wikipedia: Pokémon Colosseum
+  platforms:
+  - GameCube
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
+
 - name: Pokémon Diamond and Pearl
   names:
   - Pokémon Platinum
@@ -726,6 +728,20 @@
   meta:
     genres:
     - RPG
+
+- name: 'Pokémon Mystery Dungeon: Blue Rescue Team and Red Rescue Team'
+  names:
+  - ポケモン不思議のダンジョン 青の救助隊・赤の救助隊
+  external:
+    website: 'https://mysterydungeon.pokemon.com/en-us/'
+    wikipedia: 'Pokémon Mystery Dungeon: Blue Rescue Team and Red Rescue Team'
+  platforms:
+  - DS
+  - GBA
+  meta:
+    genres:
+    - RPG
+    - Roguelike
 
 - name: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
   names:
@@ -759,6 +775,23 @@
     subgenres:
     - Pinball
 
+- name: 'Pokémon Pinball: Ruby & Sapphire'
+  names:
+  - ポケモンピンボール ルビー&サファイア
+  external:
+    website: 'https://www.nintendo.co.jp/n08/bppj/'
+    wikipedia: 'Pokémon Pinball: Ruby & Sapphire'
+  platforms:
+  - GBA
+  - Wii
+  meta:
+    genres:
+    - Action
+    subgenres:
+    - Pinball
+    themes:
+    - Fantasy
+
 - name: Pokémon Puzzle Challenge
   names:
   - ポケモンでパネポン
@@ -771,6 +804,65 @@
   meta:
     genres:
     - Puzzle
+
+- name: Pokémon Red, Blue, and Yellow
+  names:
+  - Pokémon FireRed and LeafGreen
+  - ポケットモンスター 赤・緑
+  - ポケットモンスター ファイアレッド・リーフグリーン
+  external:
+    website: https://www.pokemon.com/us/pokemon-video-games/pokemon-red-version-and-pokemon-blue-version
+    wikipedia: 'Pokémon Red, Blue, and Yellow'
+  platforms:
+  - Game Boy
+  - GBA
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
+
+- name: Pokémon Ruby and Sapphire
+  names:
+  - Pokémon Emerald
+  - ポケットモンスター ルビー・サファイア
+  - ポケットモンスター エメラルド
+  external:
+    website: 'https://www.nintendo.co.jp/n08/axvp/'
+    wikipedia: Pokémon Ruby and Sapphire
+  platforms:
+  - GBA
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
+
+- name: Pokémon Stadium
+  names:
+  - ポケモンスタジアム２
+  external:
+    website: 'https://www.pokemon.com/us/pokemon-video-games/pokemon-stadium'
+    wikipedia: Pokémon Stadium
+  platforms:
+  - N64
+  meta:
+    genres:
+    - Turn-Based Strategy
+    themes:
+    - Fantasy
+
+- name: Pokémon Stadium 2
+  names:
+  - ポケモンスタジアム金銀
+  external:
+    website: 'https://www.nintendo.co.jp/n01/n64/software/nus_p_np3j/'
+    wikipedia: Pokémon Stadium 2
+  platforms:
+  - N64
+  meta:
+    genres:
+    - Turn-Based Strategy
 
 - name: Pokémon Trading Card Game
   names:

@@ -1711,6 +1711,21 @@
   added: 2026-01-22
   updated: 2026-01-22
 
+- name: Pokémon Colosseum multiboot
+  originals:
+  - Pokémon Colosseum
+  type: tool
+  repo: 'https://github.com/pret/colosseum-mb'
+  development: complete
+  status: N/A
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Decompilation of the GBA multiboot for Pokémon Colosseum.
+  added: 2026-01-31
+  updated: 2026-01-31
+
 - name: Pokémon Crystal
   originals:
   - Pokémon Gold and Silver
@@ -1745,6 +1760,42 @@
   info: Decompilation of Pokémon Diamond/Pearl.
   added: 2026-01-22
   updated: 2026-01-22
+
+- name: Pokémon Emerald
+  originals:
+  - Pokémon Ruby and Sapphire
+  type: remake
+  repo: 'https://github.com/pret/pokeemerald'
+  development: active
+  status: playable
+  multiplayer:
+  - Competitive
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Decompilation of Pokémon Emerald.
+  added: 2026-01-31
+  updated: 2026-01-31
+
+- name: Pokémon FireRed and LeafGreen
+  originals:
+  - Pokémon Red, Blue, and Yellow
+  type: remake
+  repo: 'https://github.com/pret/pokefirered'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Competitive
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Decompilation of Pokémon FireRed/LeafGreen.
+  added: 2026-01-31
+  updated: 2026-01-31
 
 - name: Pokémon Gold and Silver
   originals:
@@ -1818,6 +1869,23 @@
   added: 2026-01-22
   updated: 2026-01-22
 
+- name: 'Pokémon Mystery Dungeon: Red Rescue Team'
+  originals:
+  - 'Pokémon Mystery Dungeon: Blue Rescue Team and Red Rescue Team'
+  type: remake
+  repo: 'https://github.com/pret/pmd-red'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - As-is
+  info: 'Decompilation of Pokémon Mystery Dungeon: Red Rescue Team.'
+  added: 2026-01-31
+  updated: 2026-01-31
+
 - name: Pokémon Pinball
   originals:
   - Pokémon Pinball
@@ -1833,6 +1901,41 @@
   info: Disassembly of Pokémon Pinball.
   added: 2026-01-22
   updated: 2026-01-22
+
+- name: 'Pokémon Pinball: Ruby & Sapphire'
+  originals:
+  - 'Pokémon Pinball: Ruby & Sapphire'
+  type: remake
+  repo: 'https://github.com/pret/pokepinballrs'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - As-is
+  info: 'Decompilation of Pokémon Pinball: Ruby & Sapphire.'
+  added: 2026-01-31
+  updated: 2026-01-31
+
+- name: Pokémon Platinum
+  originals:
+  - Pokémon Diamond and Pearl
+  type: remake
+  repo: 'https://github.com/pret/pokeplatinum'
+  development: very active
+  status: semi-playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Decompilation of Pokémon Platinum.
+  added: 2026-01-31
+  updated: 2026-01-31
 
 - name: Pokémon Puzzle Challenge
   originals:
@@ -1867,6 +1970,63 @@
   info: Disassembly of Pokémon Red/Blue.
   added: 2026-01-22
   updated: 2026-01-22
+
+- name: Pokémon Ruby and Sapphire
+  originals:
+  - Pokémon Ruby and Sapphire
+  type: remake
+  repo: 'https://github.com/pret/pokeruby'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - Local
+  - Split-screen
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Decompilation of Pokémon Ruby/Sapphire.
+  added: 2026-01-31
+  updated: 2026-01-31
+
+- name: Pokemon Stadium (US)
+  originals:
+  - Pokémon Stadium
+  type: remake
+  repo: 'https://github.com/pret/pokestadium'
+  development: active
+  status: semi-playable
+  multiplayer:
+  - Local
+  - Split-screen
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Disassembly and decompilation of Pokémon Stadium.
+  added: 2026-01-31
+  updated: 2026-01-31
+
+- name: Pokemon Stadium 2 (US)
+  originals:
+  - Pokémon Stadium 2
+  type: remake
+  repo: 'https://github.com/pret/pokestadiumgs'
+  development: very active
+  status: semi-playable
+  multiplayer:
+  - Local
+  - Split-screen
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Decompilation of Pokémon Stadium 2 (US).
+  added: 2026-01-31
+  updated: 2026-01-31
 
 - name: Pokémon TCG
   originals:
