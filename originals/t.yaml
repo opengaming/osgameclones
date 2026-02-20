@@ -149,10 +149,20 @@
 
 - name: Tempest
   external:
+    website: https://www.mobygames.com/game/23846/tempest/
     wikipedia: Tempest (video game)
+  platforms:
+  - Amstrad CPC
+  - Arcade
+  - Atari
+  - Web
+  - Windows
+  - Xbox 360
+  - ZX Spectrum
   meta:
     genres:
     - Arcade
+    - Shooter
 
 - name: Tempest 2000
   external:
