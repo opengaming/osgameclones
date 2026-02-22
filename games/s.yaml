@@ -1112,6 +1112,36 @@
   images:
   - https://dl.openhandhelds.org/dingoo/screenshots/SDLInvaders1.0.jpeg
 
+- name: SDLPAL
+  originals:
+  - The Legend of Sword and Fairy
+  type: remake
+  repo: 'https://github.com/sdlpal/sdlpal'
+  url: 'https://sdlpal.github.io/sdlpal/'
+  feed: 'https://github.com/sdlpal/sdlpal/releases.atom'
+  development: very active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - SDL2
+  - SDL3
+  licenses:
+  - GPL3
+  info: SDL-based reimplementation of the classic Chinese-language RPG known as PAL.
+  added: 2026-02-17
+  updated: 2026-02-17
+  images:
+  - 'https://pyra-handheld.com/boards/attachments/sdlpal4_png_750x750_q85-jpg.1709/'
+  - 'https://pyra-handheld.com/boards/attachments/sdlpal2_png_750x750_q85-jpg.1710/'
+  - 'https://archive.org/download/SDLPAL/SDLA00448_00000.png'
+  - 'https://dlhb.gamebrew.org/switchhomebrews/sdlpalnx2.png'
+  - 'https://dlhb.gamebrew.org/vitahomebrews/sdlpalvita4.png'
+  - 'https://dlhb.gamebrew.org/vitahomebrews/sdlpalvita5.png'
+  - 'https://dlhb.gamebrew.org/vitahomebrews/sdlpalvita6.png'
+
 - name: SDLPoP
   langs:
   - C
