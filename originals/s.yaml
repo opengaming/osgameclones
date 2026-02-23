@@ -2167,8 +2167,6 @@
     - TPS
 
 - name: Street Fighter II
-  names:
-  - Street Fighter III (9 Fighter)
   external:
     website: 'https://www.mobygames.com/game/6239/street-fighter-ii/'
     wikipedia: Street Fighter II
@@ -2346,8 +2344,9 @@
   - Xbox 360
   meta:
     genres:
-    - Arcade
-    - TPS
+    - Shooter
+    subgenres:
+    - Run and gun
 
 - name: Super Foul Egg
   external:
