@@ -964,6 +964,80 @@
   - https://web.archive.org/web/20240511164033im_/https://dscho.com/fruit/kumquat_ingame.png
   - https://web.archive.org/web/20240511164035im_/https://dscho.com/fruit/kumquat_game_over.png
 
+- name: kys-cpp
+  originals:
+  - Heroes of Jin Yong
+  type: remake
+  repo: 'https://github.com/scarsty/kys-cpp'
+  url: 'https://tiexuedanxin.net/thread-1034211-1-1.html'
+  feed: 'https://github.com/scarsty/kys-cpp/releases.atom'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Cocos2d-x
+  - SDL2
+  - SDL3
+  licenses:
+  - BSD
+  info: All Heroes in Kam Yung Stories (C++ Version) is a remake of 金庸群俠傳
+  added: 2026-03-02
+  updated: 2026-03-02
+  images:
+  - https://raw.githubusercontent.com/scarsty/kys-cpp/master/pic/1.png
+  - https://raw.githubusercontent.com/scarsty/kys-cpp/master/pic/2.png
+  - https://raw.githubusercontent.com/scarsty/kys-cpp/master/pic/3.png
+  - https://tiexuedanxin.net/forum.php?mod=attachment&aid=MzUzNDYyfGQ4ZTY5ZmU5fDE3NzIzODgzNjN8MHwxMDM0MjEx&noupdate=yes
+  - https://tiexuedanxin.net/forum.php?mod=attachment&aid=MzUzNDYzfDIzZmI4MWNmfDE3NzIzODgzNjN8MHwxMDM0MjEx&noupdate=yes
+  - https://tiexuedanxin.net/forum.php?mod=attachment&aid=MzU0Nzk2fDhkNDQxYjk4fDE3NzIzODgzNjN8MHwxMDM0MjEx&noupdate=yes
+
+- name: kys-js
+  originals:
+  - Heroes of Jin Yong
+  type: remake
+  repo: 'https://github.com/kt2/kys-js'
+  url: 'https://tiexuedanxin.net/forum.php?mod=viewthread&tid=1039375'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - JavaScript
+  frameworks:
+  - PixiJS
+  licenses:
+  - As-is
+  info: A remake of 金庸群俠傳 which port of kys-cpp.
+  added: 2026-03-02
+  updated: 2026-03-02
+  images:
+  - 'https://raw.githubusercontent.com/kt2/kys-js/master/sc.png'
+
+- name: kys-pascal
+  originals:
+  - Heroes of Jin Yong
+  type: remake
+  repo: 'https://github.com/scarsty/kys-pascal'
+  url: 'https://tiexuedanxin.net/thread-401655-1-1.html'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - Pascal
+  - Java
+  frameworks:
+  - SDL
+  - SDL3
+  licenses:
+  - As-is
+  info: All Heroes in Kam Yung Stories (Pascal Version) is a remake of 金庸群俠傳
+  added: 2026-03-02
+  updated: 2026-03-02
+  images:
+  - 'https://raw.githubusercontent.com/scarsty/kys-pascal/master/open.png'
+  - 'https://raw.githubusercontent.com/scarsty/kys-pascal/master/2.png'
+
 - name: KZap
   langs:
   - C++
