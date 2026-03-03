@@ -1542,6 +1542,30 @@
   - https://web.archive.org/web/20130817112748if_/http://blog.supergnes.com/wp-content/uploads/2012/08/game.010.png
   - https://web.archive.org/web/20130817200807if_/http://blog.supergnes.com/wp-content/uploads/2012/08/game.011.png
 
+- name: Chocolate DOOM-3-BFG
+  originals:
+  - Doom 3
+  type: remake
+  status: playable
+  repo: 'https://github.com/klaussilveira/chocolate-doom3-bfg'
+  development: active
+  content: commercial
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: >-
+    Chocolate DOOM-3-BFG is a source port of Doom 3: BFG Edition, containing fixes from both RBDOOM-3-BFG and CstDoom3-BFG.
+    Unlike other ports that add new features and graphical enhancements, the primary goal is to accurately reproduce the experience of playing Vanilla Doom 3 BFG.
+  added: 2026-03-03
+  updated: 2026-03-03
+
 - name: Classic RBDoom 3 BFG
   originals:
   - Doom
