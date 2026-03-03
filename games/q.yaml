@@ -110,6 +110,32 @@
   added: 2025-11-14
   updated: 2025-11-14
 
+- name: qengine
+  originals:
+  - Quake 2
+  type: remake
+  repo: 'https://github.com/klaussilveira/qengine'
+  development: active
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: >-
+    qengine is a cross-platform retro game engine. It is aimed at nostalgic game developers that miss simple times and enjoy creating games like it's 1997.
+    The software renderer provides the aesthetic that we all love and the engine limitations exist to make your creativity shine.
+  added: 2026-03-03
+  updated: 2026-03-03
+  images:
+  - https://github.com/klaussilveira/qengine/raw/master/docs/screenshot.png
+
 - name: QML Sokoban
   originals:
   - Sokoban
