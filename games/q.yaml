@@ -332,6 +332,27 @@
   - https://dcquake.sourceforge.net/quake_atf.jpg
   - https://dcquake.sourceforge.net/glquake.jpg
 
+- name: Quake II for Dreamcast
+  originals:
+  - Quake 2
+  type: remake
+  repo: 'https://github.com/Shockblast/quake2-dreamcast'
+  url: 'https://dcquake.sourceforge.net/#quake2'
+  feed: 'https://github.com/Shockblast/quake2-dreamcast/releases.atom'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2026-03-05
+  updated: 2026-03-05
+  images:
+  - 'https://dcquake.sourceforge.net/quake2_soft.jpg'
+
 - name: Quake II Rerelease
   originals:
   - Quake 2
