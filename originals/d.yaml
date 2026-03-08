@@ -327,10 +327,22 @@
 
 - name: Defender
   external:
-    wikipedia: Defender (video game)
+    website: 'https://www.mobygames.com/game/140/defender/'
+    wikipedia: Defender (1981 video game)
+  platforms:
+  - Apple II
+  - Arcade
+  - Atari
+  - Commodore 64
+  - PC Booter
+  - Web
+  - Xbox 360
   meta:
     genres:
     - Arcade
+    - Shooter
+    themes:
+    - Sci-Fi
 
 - name: Deflektor
   external:
