@@ -303,10 +303,21 @@
 
 - name: Wipeout
   external:
+    website: https://web.archive.org/web/19961022191554/http://www.psygnosis.com/games/wipeout.html
     wikipedia: Wipeout (video game)
+  platforms:
+  - Android
+  - DOS
+  - PlayStation
+  - PlayStation 3
+  - PlayStation Vita
+  - PSP
+  - Saturn
   meta:
     genres:
     - Racing
+    themes:
+    - Sci-Fi
 
 - name: Witchaven
   external:
