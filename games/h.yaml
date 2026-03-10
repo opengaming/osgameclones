@@ -688,6 +688,27 @@
   images:
   - https://web.archive.org/web/20110905130531im_/http://archive.gamespy.com/news/november00/hexen2/h2.jpg
 
+- name: Hexen II for Dreamcast
+  originals:
+  - Hexen II
+  type: remake
+  repo: 'https://github.com/Shockblast/hexen2-dreamcast'
+  url: 'https://dcquake.sourceforge.net/#hexen2'
+  feed: 'https://github.com/Shockblast/hexen2-dreamcast/releases.atom'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2026-03-05
+  updated: 2026-03-05
+  images:
+  - 'https://dcquake.sourceforge.net/glhexen2.jpg'
+
 - name: HexGL
   frameworks:
   - WebGL
