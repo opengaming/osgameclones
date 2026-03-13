@@ -3343,6 +3343,27 @@
   images:
   - 'https://raw.githubusercontent.com/smokku/soldank/master/sshot.png'
 
+- name: Son Link's Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/son-link/pong'
+  feed: 'https://github.com/son-link/pong/releases.atom'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Competitive
+  - Local
+  content: open
+  langs:
+  - Lua
+  frameworks:
+  - LÖVE
+  licenses:
+  - GPL3
+  added: 2026-03-14
+  updated: 2026-03-14
+
 - name: Sonic Adventure Toolset
   originals:
   - Sonic Adventure
