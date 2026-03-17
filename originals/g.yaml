@@ -422,7 +422,13 @@
 
 - name: GoldenEye 007
   external:
-    wikipedia: GoldenEye 007 (1997 video game)
+    website: https://web.archive.org/web/19990219222913/http://www.nintendo.com/goldeneye007/
+    wikipedia: GoldenEye 007
+  platforms:
+  - N64
+  - Nintendo Switch
+  - Xbox
+  - Xbox One
   meta:
     genres:
     - FPS
