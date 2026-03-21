@@ -2000,6 +2000,24 @@
   - 'https://triplane.sourceforge.net/screenshot1.png'
   - 'https://triplane.sourceforge.net/screenshot2.png'
 
+- name: TriSpace
+  originals:
+  - Elite
+  type: clone
+  repo: 'https://github.com/robbi-blechdose/TriSpace'
+  feed: 'https://github.com/robbi-blechdose/TriSpace/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  licenses:
+  - AGPL3
+  added: 2026-03-21
+  updated: 2026-03-21
+
 - name: Tron
   frameworks:
   - jQuery
