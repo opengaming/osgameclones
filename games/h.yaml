@@ -826,6 +826,32 @@
   added: 2025-11-01
   updated: 2025-11-01
 
+- name: HHeretic
+  originals:
+  - Heretic
+  type: remake
+  repo: 'https://github.com/sezero/hheretic'
+  url: 'https://hhexen.sourceforge.net/hheretic.html'
+  feed: 'https://github.com/sezero/hheretic/releases.atom'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - LAN
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  - SVGALib
+  - SDL
+  licenses:
+  - GPL2
+  info: 'HHeretic: Hacked Heretic'
+  added: 2026-03-27
+  updated: 2026-03-27
+  images:
+  - 'https://hhexen.sourceforge.net/images/hrtic01.jpg'
+
 - name: HHexen
   originals:
   - Hexen
