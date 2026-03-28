@@ -1,3 +1,71 @@
+- name: s1disasm
+  originals:
+  - Sonic the Hedgehog
+  type: remake
+  repo: 'https://github.com/sonicretro/s1disasm'
+  url: 'https://info.sonicretro.org/Disassemblies#Sonic_1'
+  development: active
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Sonic 1 Disassembly
+  added: 2026-03-28
+  updated: 2026-03-28
+
+- name: s2disasm
+  originals:
+  - Sonic 2
+  type: remake
+  repo: 'https://github.com/sonicretro/s2disasm'
+  url: 'https://info.sonicretro.org/Disassemblies#Sonic_2_final'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: A disassembly of Sonic the Hedgehog 2 for the Sega Mega Drive/Genesis.
+  added: 2026-03-28
+  updated: 2026-03-28
+
+- name: s2smsdisasm
+  originals:
+  - Sonic the Hedgehog 2
+  type: remake
+  repo: 'https://github.com/sonicretro/s2smsdisasm'
+  url: 'https://info.sonicretro.org/Disassemblies#Sonic_2_Master_System'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Sonic 2 SMS Disassembly
+  added: 2026-03-28
+  updated: 2026-03-28
+
+- name: s3ddisasm
+  originals:
+  - Sonic 3D Blast
+  type: remake
+  repo: 'https://github.com/sonicretro/s3ddisasm'
+  url: 'https://info.sonicretro.org/Disassemblies#Sonic_3D:_Flickies.27_Island'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Sonic 3D Blast Disassembly
+  added: 2026-03-28
+  updated: 2026-03-28
+
 - name: SanAndreasUnity
   type: remake
   originals:
@@ -3448,6 +3516,25 @@
   added: 2026-03-14
   updated: 2026-03-14
 
+- name: Sonic 3/Sonic & Knuckles Disassembly
+  originals:
+  - Sonic the Hedgehog 3
+  - Sonic & Knuckles
+  type: remake
+  repo: 'https://github.com/sonicretro/skdisasm'
+  url: 'https://info.sonicretro.org/Disassemblies#Sonic_3'
+  development: active
+  status: playable
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-03-28
+  updated: 2026-03-28
+
 - name: Sonic Adventure Toolset
   originals:
   - Sonic Adventure
@@ -3523,6 +3610,54 @@
   images:
   - 'https://sonic3air.org/images/icecap01.png'
   - 'https://sonic3air.org/images/skysanctuary01.png'
+
+- name: Sonic CD Disassembly
+  originals:
+  - Sonic CD
+  type: remake
+  repo: 'https://github.com/sonicretro/scddisasm'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-03-28
+  updated: 2026-03-28
+
+- name: Sonic Riders (USA)
+  originals:
+  - Sonic Riders
+  type: remake
+  repo: 'https://github.com/doldecomp/sonicriders'
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: A disassembly of Sonic Riders
+  added: 2026-03-28
+  updated: 2026-03-28
+
+- name: Sonic The Hedgehog Game Gear Disassembly
+  originals:
+  - Sonic the Hedgehog
+  type: remake
+  repo: 'https://github.com/Totally-Not-Filter/s1-gg-disasm'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-03-28
+  updated: 2026-03-28
 
 - name: Sonic-Mania-Decompilation
   originals:
@@ -4514,6 +4649,26 @@
   added: 2026-03-12
   updated: 2026-03-12
 
+- name: spindisasm
+  originals:
+  - Sonic Spinball
+  type: remake
+  repo: 'https://github.com/sonicretro/spindisasm'
+  url: 'https://info.sonicretro.org/Disassemblies#Sonic_Spinball'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Hotseat
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Sonic Spinball Disassembly
+  added: 2026-03-28
+  updated: 2026-03-28
+
 - name: Spirit of Speed 2002
   originals:
   - Spirit of Speed 1937
@@ -5127,6 +5282,25 @@
   - https://i.imgur.com/5nlHcWV.png
   - https://i.imgur.com/zQTr5ww.jpeg
   - https://i.imgur.com/9wpVUi5.jpeg
+
+- name: stfdisasm
+  originals:
+  - Sonic the Fighters
+  type: remake
+  repo: 'https://github.com/biggestsonicfan/stfdisasm'
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Sonic the Fighters Disassembly
+  added: 2026-03-28
+  updated: 2026-03-28
 
 - name: Still Yet Another Sokoban
   originals:
