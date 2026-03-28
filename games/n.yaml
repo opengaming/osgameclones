@@ -1166,3 +1166,24 @@
   status: playable
   type: remake
   updated: 2024-04-10
+
+- name: NFS Recompiled
+  originals:
+  - 'Need For Speed II'
+  - 'Need For Speed III: Hot Pursuit'
+  type: remake
+  content: commercial
+  development: active
+  status: playable
+  multiplayer:
+  - Local
+  repo: 'https://github.com/motor-dev/nfs-recompiled'
+  langs:
+  - C
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - As-is
+  added: 2026-03-25
+  updated: 2026-03-25
