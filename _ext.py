@@ -15,8 +15,6 @@ from natsort import natsorted, ns
 from pykwalify.core import Core
 from slugify import slugify
 
-locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
-
 
 @dataclass
 class Game:
@@ -275,6 +273,8 @@ def validate_with_schema(source_data, schema_file):
 def parse_data(site):
     base = op.dirname(__file__)
     errors = []
+
+    print(f"Using locale {locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')}")
 
     def sort_key(game):
         name = game_name(game)
