@@ -1,5 +1,4 @@
 import copy
-import locale
 import sys
 import pprint
 import os, os.path as op
@@ -8,6 +7,7 @@ from datetime import date, datetime, timedelta
 from collections import OrderedDict
 from functools import partial
 from typing import List, Dict
+import unicodedata
 from urllib.parse import urlparse
 
 import yaml
@@ -274,19 +274,19 @@ def parse_data(site):
     base = op.dirname(__file__)
     errors = []
 
-    print(f"Using locale {locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')}")
-
     def sort_key(game):
         name = game_name(game)
+        # Always sort SCUMM first
+        if name == 'SCUMM':
+            return '0'
         # Ignore periods and some other special characters
         for char in ['.', '[', ']', '(', ')']:
             name = name.replace(char, '')
         # Treat some characters as spaces
         for char in ['-', '_']:
             name = name.replace(char, ' ')
-        # Always sort SCUMM first
-        if name == 'SCUMM':
-            return '0'
+        # Convert unicode to ascii
+        name = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore').decode()
         # Ignore articles at the beginning of names
         for article in ['The ', 'A ', 'An ']:
             if name.startswith(article):
@@ -298,7 +298,7 @@ def parse_data(site):
         if fn.endswith('.yaml'):
             originals_unsorted = yaml.safe_load(open(op.join(base, 'originals', fn), encoding="utf-8"))
             # Check if originals sorted, if not, error out showing the first unsorted entry
-            originals_sorted = natsorted(originals_unsorted, key=sort_key, alg=ns.IGNORECASE | ns.LOCALE)
+            originals_sorted = natsorted(originals_unsorted, key=sort_key, alg=ns.IGNORECASE)
             for o1, o2 in zip(originals_unsorted, originals_sorted):
                 if game_name(o1) != game_name(o2):
                     errors.append({
@@ -308,7 +308,7 @@ def parse_data(site):
                     break
             originals.extend(originals_sorted)
     # Sort originals again for final presentation in the site
-    originals = natsorted(originals, key=sort_key, alg=ns.IGNORECASE | ns.LOCALE)
+    originals = natsorted(originals, key=sort_key, alg=ns.IGNORECASE)
     print(str(len(originals)) + ' games in total')
     validate_with_schema(originals, 'schema/originals.yaml')
 
@@ -317,7 +317,7 @@ def parse_data(site):
         if fn.endswith('.yaml'):
             clones_unsorted = yaml.safe_load(open(op.join(base, 'games', fn), encoding="utf-8"))
             # Check if clones sorted, if not, error out showing the first unsorted entry
-            clones_sorted = natsorted(clones_unsorted, key=sort_key, alg=ns.IGNORECASE | ns.LOCALE)
+            clones_sorted = natsorted(clones_unsorted, key=sort_key, alg=ns.IGNORECASE)
             for c1, c2 in zip(clones_unsorted, clones_sorted):
                 if game_name(c1) != game_name(c2):
                     errors.append({
