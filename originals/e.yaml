@@ -1,14 +1,3 @@
-- name: E.T. the Extra-Terrestrial
-  external:
-    website: 'https://www.mobygames.com/game/8874/et-the-extra-terrestrial/'
-    wikipedia: E.T. the Extra-Terrestrial (video game)
-  platforms:
-  - Atari
-  meta:
-    genres:
-    - Arcade
-    - Adventure
-
 - name: Earth 2140
   external:
     wikipedia: Earth 2140
@@ -116,6 +105,18 @@
     genres:
     - Platform
 
+- name: 'The Elder Scrolls Adventures: Redguard'
+  external:
+    wikipedia: 'The Elder Scrolls Adventures: Redguard'
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Action
+    - Adventure
+    themes:
+    - Fantasy
+
 - name: 'The Elder Scrolls II: Daggerfall'
   external:
     wikipedia: 'The Elder Scrolls II: Daggerfall'
@@ -129,18 +130,6 @@
   meta:
     genres:
     - RPG
-    themes:
-    - Fantasy
-
-- name: 'The Elder Scrolls Adventures: Redguard'
-  external:
-    wikipedia: 'The Elder Scrolls Adventures: Redguard'
-  platforms:
-  - DOS
-  meta:
-    genres:
-    - Action
-    - Adventure
     themes:
     - Fantasy
 
@@ -275,6 +264,26 @@
   names:
   - 'Eternal League of Nefia'
 
+- name: 'Elvira II: The Jaws of Cerberus'
+  external:
+    website: https://www.mobygames.com/game/1779
+    wikipedia: 'Elvira II: The Jaws of Cerberus'
+  meta:
+    genres:
+    - Adventure
+    - RPG
+    themes:
+    - Fantasy
+    - Horror
+  platforms:
+  - Amiga
+  - Atari
+  - Commodore 64
+  - DOS
+  - Linux
+  - OSX
+  - Windows
+
 - name: 'Elvira: Mistress of the Dark'
   external:
     website: https://www.mobygames.com/game/4050
@@ -296,32 +305,15 @@
   - PC-98
   - Windows
 
-- name: 'Elvira II: The Jaws of Cerberus'
+- name: Emerald Mine
   external:
-    website: https://www.mobygames.com/game/1779
-    wikipedia: 'Elvira II: The Jaws of Cerberus'
-  meta:
-    genres:
-    - Adventure
-    - RPG
-    themes:
-    - Fantasy
-    - Horror
+    website: 'https://www.mobygames.com/game/8669/emerald-mine/'
+    wikipedia: Emerald Mine
   platforms:
   - Amiga
-  - Atari
-  - Commodore 64
-  - DOS
-  - Linux
-  - OSX
-  - Windows
-
-- name: 'Emperor: Battle for Dune'
-  external:
-    wikipedia: 'Emperor: Battle for Dune'
   meta:
     genres:
-    - Real-Time Strategy
+    - Puzzle
 
 - name: Emperor of the Fading Suns
   external:
@@ -329,6 +321,13 @@
   meta:
     genres:
     - Turn-Based Strategy
+
+- name: 'Emperor: Battle for Dune'
+  external:
+    wikipedia: 'Emperor: Battle for Dune'
+  meta:
+    genres:
+    - Real-Time Strategy
 
 - name: Empire
   names:
@@ -341,16 +340,6 @@
     genres:
     - Strategy
     - Turn-Based Strategy
-
-- name: Emerald Mine
-  external:
-    website: 'https://www.mobygames.com/game/8669/emerald-mine/'
-    wikipedia: Emerald Mine
-  platforms:
-  - Amiga
-  meta:
-    genres:
-    - Puzzle
 
 - name: Encounter
   external:
@@ -474,6 +463,17 @@
     genres:
     - Action
     - Simulation
+
+- name: E.T. the Extra-Terrestrial
+  external:
+    website: 'https://www.mobygames.com/game/8874/et-the-extra-terrestrial/'
+    wikipedia: E.T. the Extra-Terrestrial (video game)
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Arcade
+    - Adventure
 
 - name: Even the Ocean
   external:

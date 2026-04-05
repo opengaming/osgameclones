@@ -282,6 +282,35 @@
   - 'https://wasyl.eu/assets/images/swb-1-full.jpg'
   - 'https://wasyl.eu/assets/images/swb-2-full.jpg'
 
+- name: Scorched3D
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - GPL2
+  content: open
+  development: halted
+  originals:
+  - Scorched Earth
+  status: playable
+  multiplayer:
+  - Online
+  - Competitive
+  - Hotseat
+  repo: https://sourceforge.net/projects/scorched3d/
+  type: clone
+  added: 2015-04-06
+  updated: 2022-02-03
+  url: http://www.scorched3d.co.uk/
+  images:
+  - https://a.fsdn.com/con/app/proj/scorched3d/screenshots/6702.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/scorched3d/screenshots/8943.jpg/max/max/1
+  - https://a.fsdn.com/con/app/proj/scorched3d/screenshots/6704.jpg/max/max/1
+  video:
+    youtube: qyf8sghZOZ0
+
 - name: Scorched Earth 2000
   originals:
   - Scorched Earth
@@ -319,35 +348,6 @@
   type: remake
   added: 2015-06-24
   updated: 2020-08-25
-
-- name: Scorched3D
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  - OpenGL
-  licenses:
-  - GPL2
-  content: open
-  development: halted
-  originals:
-  - Scorched Earth
-  status: playable
-  multiplayer:
-  - Online
-  - Competitive
-  - Hotseat
-  repo: https://sourceforge.net/projects/scorched3d/
-  type: clone
-  added: 2015-04-06
-  updated: 2022-02-03
-  url: http://www.scorched3d.co.uk/
-  images:
-  - https://a.fsdn.com/con/app/proj/scorched3d/screenshots/6702.jpg/max/max/1
-  - https://a.fsdn.com/con/app/proj/scorched3d/screenshots/8943.jpg/max/max/1
-  - https://a.fsdn.com/con/app/proj/scorched3d/screenshots/6704.jpg/max/max/1
-  video:
-    youtube: qyf8sghZOZ0
 
 - name: Scram
   originals:
@@ -739,13 +739,13 @@
   - Putt-Putt and Pep's Balloon-O-Rama
   - Putt-Putt and Pep's Dog on a Stick
   - Putt-Putt's Fun Pack
-  - 'Quest for Glory: So You Want To Be A Hero'
+  - Quest for Glory I
   - 'Quest for Glory II: Trial by Fire'
   - 'Quest for Glory III: Wages of War'
   - Quest for Glory IV
   - Rama
   - 'Reah: Face the Unknown'
-  - Red Comrades Save the Galaxy
+  - Red Comrades 1
   - Red Comrades 2
   - Resonance
   - Return to Ringworld
@@ -828,6 +828,79 @@
   url: https://scummvm.org/
   added: 2011-06-12
   updated: 2024-07-17
+
+- name: SDL2-Breakout
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://github.com/toivjon/sdl2-breakout'
+  url: 'https://toivjon.wordpress.com/2017/07/19/sdl2-breakout/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Hotseat
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2026-01-10
+  updated: 2026-01-10
+  images:
+  - https://raw.githubusercontent.com/toivjon/sdl2-breakout/master/screenshots/welcome-scene.png
+  - https://raw.githubusercontent.com/toivjon/sdl2-breakout/master/screenshots/court-scene.png
+  - https://toivjon.wordpress.com/wp-content/uploads/2017/07/sdl2-breakout.png
+
+- name: sdl2-pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/toivjon/sdl2-pong'
+  url: https://toivjon.wordpress.com/2017/06/20/sdl2-pong/
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-12-03
+  updated: 2025-12-03
+  images:
+  - https://raw.githubusercontent.com/toivjon/sdl2-pong/master/screenshots/welcome-scene.png
+  - https://raw.githubusercontent.com/toivjon/sdl2-pong/master/screenshots/court-scene.png
+  - https://raw.githubusercontent.com/toivjon/sdl2-pong/master/screenshots/endgame-scene.png
+  video:
+    youtube: lXs4EDC0KEE
+
+- name: SDL2-Space-Invaders
+  originals:
+  - Space Invaders
+  type: remake
+  repo: 'https://github.com/toivjon/sdl2-space-invaders'
+  url: 'https://toivjon.wordpress.com/2017/10/22/sdl2-space-invaders/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Hotseat
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-12-24
+  updated: 2025-12-24
+  images:
+  - https://toivjon.wordpress.com/wp-content/uploads/2017/10/fda.png
+  - https://raw.githubusercontent.com/toivjon/sdl2-space-invaders/master/screenshots/welcome-scene.png
+  - https://raw.githubusercontent.com/toivjon/sdl2-space-invaders/master/screenshots/playplayer-scene.png
+  - https://raw.githubusercontent.com/toivjon/sdl2-space-invaders/master/screenshots/ingame-scene.png
 
 - name: SDL Asteroids
   originals:
@@ -995,6 +1068,25 @@
   updated: 2023-02-04
   url: https://fragglet.github.io/sdl-sopwith/
 
+- name: SDL-Toms
+  originals:
+  - Atoms
+  type: clone
+  url: >-
+    https://web.archive.org/web/20250416140610/https://www.angelfire.com/super2/duologue/software/index.html#sdl-toms
+  development: halted
+  status: semi-playable
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2026-03-13
+  updated: 2026-03-13
+  images:
+  - https://web.archive.org/web/20250416142056im_/https://www.angelfire.com/super2/duologue/software/sdl-toms_tn.png
+
 - name: SDL Tunneler
   originals:
   - Tunneler
@@ -1016,98 +1108,6 @@
   updated: 2025-07-16
   images:
   - 'https://users.jyu.fi/~tvkalvas/code/tunneler/tunneler_shot.png'
-
-- name: SDL-Toms
-  originals:
-  - Atoms
-  type: clone
-  url: >-
-    https://web.archive.org/web/20250416140610/https://www.angelfire.com/super2/duologue/software/index.html#sdl-toms
-  development: halted
-  status: semi-playable
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  added: 2026-03-13
-  updated: 2026-03-13
-  images:
-  - https://web.archive.org/web/20250416142056im_/https://www.angelfire.com/super2/duologue/software/sdl-toms_tn.png
-
-- name: SDL2-Breakout
-  originals:
-  - Breakout
-  type: clone
-  repo: 'https://github.com/toivjon/sdl2-breakout'
-  url: 'https://toivjon.wordpress.com/2017/07/19/sdl2-breakout/'
-  development: halted
-  status: playable
-  multiplayer:
-  - Hotseat
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - MIT
-  added: 2026-01-10
-  updated: 2026-01-10
-  images:
-  - https://raw.githubusercontent.com/toivjon/sdl2-breakout/master/screenshots/welcome-scene.png
-  - https://raw.githubusercontent.com/toivjon/sdl2-breakout/master/screenshots/court-scene.png
-  - https://toivjon.wordpress.com/wp-content/uploads/2017/07/sdl2-breakout.png
-
-- name: sdl2-pong
-  originals:
-  - Pong
-  type: clone
-  repo: 'https://github.com/toivjon/sdl2-pong'
-  url: https://toivjon.wordpress.com/2017/06/20/sdl2-pong/
-  development: complete
-  status: playable
-  multiplayer:
-  - Competitive
-  - Local
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - MIT
-  added: 2025-12-03
-  updated: 2025-12-03
-  images:
-  - https://raw.githubusercontent.com/toivjon/sdl2-pong/master/screenshots/welcome-scene.png
-  - https://raw.githubusercontent.com/toivjon/sdl2-pong/master/screenshots/court-scene.png
-  - https://raw.githubusercontent.com/toivjon/sdl2-pong/master/screenshots/endgame-scene.png
-  video:
-    youtube: lXs4EDC0KEE
-
-- name: SDL2-Space-Invaders
-  originals:
-  - Space Invaders
-  type: remake
-  repo: 'https://github.com/toivjon/sdl2-space-invaders'
-  url: 'https://toivjon.wordpress.com/2017/10/22/sdl2-space-invaders/'
-  development: complete
-  status: playable
-  multiplayer:
-  - Hotseat
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - MIT
-  added: 2025-12-24
-  updated: 2025-12-24
-  images:
-  - https://toivjon.wordpress.com/wp-content/uploads/2017/10/fda.png
-  - https://raw.githubusercontent.com/toivjon/sdl2-space-invaders/master/screenshots/welcome-scene.png
-  - https://raw.githubusercontent.com/toivjon/sdl2-space-invaders/master/screenshots/playplayer-scene.png
-  - https://raw.githubusercontent.com/toivjon/sdl2-space-invaders/master/screenshots/ingame-scene.png
 
 - name: SDLAsteroids
   originals:
@@ -1519,29 +1519,6 @@
   - 'https://www.croteam.com/wp-content/uploads/2014/10/Engine1_TSE_1.jpg'
   - 'https://www.croteam.com/wp-content/uploads/2014/10/Engine1_TSE_4.jpg'
 
-- name: SeriousSamClassic
-  originals:
-  - 'Serious Sam: The First Encounter'
-  - 'Serious Sam: The Second Encounter'
-  type: remake
-  repo: https://github.com/tx00100xt/SeriousSamClassic
-  feed: https://github.com/tx00100xt/SeriousSamClassic/releases.atom
-  development: sporadic
-  status: playable
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL2
-  added: 2023-02-12
-  updated: 2025-06-06
-  images:
-  - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_1.png
-  - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_2.png
-  - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_3.png
-  
 - name: Serious-Sam-Android
   info: 'A port of Serious Sam: the Second Encounter to Android. There is also a fork for the Pandora.'
   langs:
@@ -1596,6 +1573,29 @@
   - 'https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samvulkan_3.png'
   video:
     youtube: LWPvCxcFCEM
+
+- name: SeriousSamClassic
+  originals:
+  - 'Serious Sam: The First Encounter'
+  - 'Serious Sam: The Second Encounter'
+  type: remake
+  repo: https://github.com/tx00100xt/SeriousSamClassic
+  feed: https://github.com/tx00100xt/SeriousSamClassic/releases.atom
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  added: 2023-02-12
+  updated: 2025-06-06
+  images:
+  - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_1.png
+  - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_2.png
+  - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_3.png
 
 - name: Serpent
   originals:
@@ -1742,6 +1742,23 @@
   - >-
     https://4.bp.blogspot.com/-a-PRIyb1wl4/WLIv_inQPkI/AAAAAAAAAZk/5n5VFU5V1sk_YZd20LY44sGZQXLerl9qACLcB/s1600/output2.png
 
+- name: shadow-of-the-beast-html5
+  frameworks:
+  - PandaJS
+  langs:
+  - JavaScript
+  licenses:
+  - Apache
+  development: halted
+  originals:
+  - Shadow of the Beast
+  status: unplayable
+  repo: https://github.com/spleennooname/shadow-of-the-beast-html5
+  url: https://spleennooname.github.io/shadow-of-the-beast-html5/
+  type: remake
+  added: 2017-04-04
+  updated: 2017-04-04
+
 - name: Shadow of the Blitz
   originals:
   - Shadow of the Beast
@@ -1799,23 +1816,6 @@
   - GPL2
   added: 2025-11-24
   updated: 2025-11-24
-
-- name: shadow-of-the-beast-html5
-  frameworks:
-  - PandaJS
-  langs:
-  - JavaScript
-  licenses:
-  - Apache
-  development: halted
-  originals:
-  - Shadow of the Beast
-  status: unplayable
-  repo: https://github.com/spleennooname/shadow-of-the-beast-html5
-  url: https://spleennooname.github.io/shadow-of-the-beast-html5/
-  type: remake
-  added: 2017-04-04
-  updated: 2017-04-04
 
 - name: shadowgrounds
   langs:
@@ -3061,22 +3061,6 @@
   images:
   - 'https://raw.githubusercontent.com/lostjared/Snake.JavaScript/main/snake.jpg'
 
-- name: Snake LED Matrix Game
-  originals:
-  - Snake
-  type: clone
-  url: 'https://projecthub.arduino.cc/Hunter1234/snake-led-matrix-game-59f6ae'
-  development: complete
-  status: playable
-  langs:
-  - C++
-  licenses:
-  - As-is
-  added: 2025-12-25
-  updated: 2025-12-25
-  images:
-  - https://projects.arduinocontent.cc/cover-images/54d5ba7e-cba3-40d5-8cf3-2dc726ffd6c7.png
-
 - name: Snake-in-LabVIEW
   originals:
   - Snake
@@ -3092,6 +3076,22 @@
   updated: 2026-01-03
   images:
   - 'https://i.imgur.com/24w6MAR.png'
+
+- name: Snake LED Matrix Game
+  originals:
+  - Snake
+  type: clone
+  url: 'https://projecthub.arduino.cc/Hunter1234/snake-led-matrix-game-59f6ae'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2025-12-25
+  updated: 2025-12-25
+  images:
+  - https://projects.arduinocontent.cc/cover-images/54d5ba7e-cba3-40d5-8cf3-2dc726ffd6c7.png
 
 - name: Snarf
   originals:
@@ -3185,27 +3185,6 @@
   images:
   - 'https://www.hpcalc.org/hp49/games/misc/sshots/sokobandl.png'
 
-- name: Sokoban(g)
-  originals:
-  - Sokoban
-  type: clone
-  repo: 'https://github.com/obfusk/sokobang'
-  url: 'https://sokobang.obfusk.dev/'
-  feed: 'https://github.com/obfusk/sokobang/releases.atom'
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - HTML
-  - CoffeeScript
-  licenses:
-  - AGPL3
-  added: 2025-09-11
-  updated: 2025-09-11
-  images:
-  - 'https://f-droid.org/repo/dev.obfusk.sokobang/en-US/phoneScreenshots/1.png'
-  - 'https://f-droid.org/repo/dev.obfusk.sokobang/en-US/phoneScreenshots/2.png'
-
 - name: sokoban-rs
   originals:
   - Sokoban
@@ -3227,6 +3206,27 @@
   images:
   - >-
     https://raw.githubusercontent.com/swatteau/sokoban-rs/master/assets/image/screenshot.png
+
+- name: Sokoban(g)
+  originals:
+  - Sokoban
+  type: clone
+  repo: 'https://github.com/obfusk/sokobang'
+  url: 'https://sokobang.obfusk.dev/'
+  feed: 'https://github.com/obfusk/sokobang/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - HTML
+  - CoffeeScript
+  licenses:
+  - AGPL3
+  added: 2025-09-11
+  updated: 2025-09-11
+  images:
+  - 'https://f-droid.org/repo/dev.obfusk.sokobang/en-US/phoneScreenshots/1.png'
+  - 'https://f-droid.org/repo/dev.obfusk.sokobang/en-US/phoneScreenshots/2.png'
 
 - name: Sokobano
   originals:
@@ -3448,6 +3448,31 @@
   added: 2026-03-14
   updated: 2026-03-14
 
+- name: Sonic 3 A.I.R.
+  originals:
+  - Sonic the Hedgehog
+  type: remake
+  repo: https://github.com/Eukaryot/sonic3air
+  feed: https://github.com/Eukaryot/sonic3air/releases.atom
+  url: https://sonic3air.org/
+  development: active
+  status: playable
+  multiplayer:
+  - Split-screen
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2023-07-05
+  updated: 2025-06-29
+  info: A fan-made widescreen remaster of Sonic 3 & Knuckles.
+  images:
+  - 'https://sonic3air.org/images/icecap01.png'
+  - 'https://sonic3air.org/images/skysanctuary01.png'
+
 - name: Sonic Adventure Toolset
   originals:
   - Sonic Adventure
@@ -3475,6 +3500,24 @@
   - >-
     https://github.com/sonicretro/sa_tools/raw/Docs/Documentation/images/SADXLVL2_Editor_Overview.png
 
+- name: Sonic-Mania-Decompilation
+  originals:
+  - Sonic the Hedgehog
+  type: remake
+  repo: https://github.com/RSDKModding/Sonic-Mania-Decompilation
+  feed: https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases.atom
+  development: very active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - Custom
+  added: 2023-07-05
+  updated: 2025-06-29
+
 - name: Sonic Robo Blast 2
   images:
   - https://www.srb2.org/wp-content/uploads/gfz1st.png
@@ -3498,49 +3541,6 @@
   updated: 2025-06-27
   url: https://www.srb2.org/
   info: 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy
-
-- name: Sonic 3 A.I.R.
-  originals:
-  - Sonic the Hedgehog
-  type: remake
-  repo: https://github.com/Eukaryot/sonic3air
-  feed: https://github.com/Eukaryot/sonic3air/releases.atom
-  url: https://sonic3air.org/
-  development: active
-  status: playable
-  multiplayer:
-  - Split-screen
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL3
-  added: 2023-07-05
-  updated: 2025-06-29
-  info: A fan-made widescreen remaster of Sonic 3 & Knuckles.
-  images:
-  - 'https://sonic3air.org/images/icecap01.png'
-  - 'https://sonic3air.org/images/skysanctuary01.png'
-
-- name: Sonic-Mania-Decompilation
-  originals:
-  - Sonic the Hedgehog
-  type: remake
-  repo: https://github.com/RSDKModding/Sonic-Mania-Decompilation
-  feed: https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases.atom
-  development: very active
-  status: playable
-  content: commercial
-  langs:
-  - C
-  frameworks:
-  - SDL2
-  licenses:
-  - Custom
-  added: 2023-07-05
-  updated: 2025-06-29
 
 - name: Sopwith
   originals:
@@ -3863,6 +3863,27 @@
   images:
   - https://raw.githubusercontent.com/Justin-Credible/space-invaders-emulator/master/.readme/gameplay.gif
 
+- name: space-invaders-niklas-mueller
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/NiklasMueller2001/space_invaders'
+  url: 'https://pypi.org/project/space-invaders-niklas-mueller/'
+  feed: 'https://pypi.org/rss/project/space-invaders-niklas-mueller/releases.xml'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - GPL3
+  added: 2025-10-24
+  updated: 2025-10-24
+  images:
+  - https://raw.githubusercontent.com/NiklasMueller2001/space_invaders/main/demo_images.gif
+
 - name: Space Invaders Part II
   originals:
   - Space Invaders Part II
@@ -3902,27 +3923,6 @@
   updated: 2026-01-27
   images:
   - https://github.com/ianmurfinxyz/space_invaders_pygame/blob/master/img/gameplay.gif?raw=true
-
-- name: space-invaders-niklas-mueller
-  originals:
-  - Space Invaders
-  type: clone
-  repo: 'https://github.com/NiklasMueller2001/space_invaders'
-  url: 'https://pypi.org/project/space-invaders-niklas-mueller/'
-  feed: 'https://pypi.org/rss/project/space-invaders-niklas-mueller/releases.xml'
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - Python
-  frameworks:
-  - pygame
-  licenses:
-  - GPL3
-  added: 2025-10-24
-  updated: 2025-10-24
-  images:
-  - https://raw.githubusercontent.com/NiklasMueller2001/space_invaders/main/demo_images.gif
 
 - name: space-invaders-pygame
   originals:
@@ -4007,6 +4007,22 @@
   - 'https://spaceopera.sourceforge.net/blue2.jpg'
   - 'https://spaceopera.sourceforge.net/green3.jpg'
 
+- name: Space-rangers
+  frameworks:
+  - XNA
+  langs:
+  - C#
+  licenses:
+  - As-is
+  development: halted
+  originals:
+  - Space Rangers
+  status: unplayable
+  repo: https://github.com/markevich/Space-rangers
+  type: remake
+  added: 2015-05-28
+  updated: 2015-05-28
+
 - name: Space_Rocks
   originals:
   - Asteroids
@@ -4026,6 +4042,37 @@
   updated: 2025-09-27
   video:
     youtube: 6uGvIWrUjBM
+
+- name: Space Station 3D
+  originals:
+  - Space Station 13
+  type: clone
+  repo: https://github.com/RE-SS3D/SS3D
+  url: https://ss3d.space
+  feed: https://ss3d.space/atom.xml
+  development: sporadic
+  status: unplayable
+  content: free
+  langs:
+  - 'C#'
+  frameworks:
+  - Unity
+  licenses:
+  - CC-BY-NC-SA
+  - MIT
+  info: >-
+    Space Station 3D is an open-source resurrection of *beep's original SS3D, a 3D
+    take on the infamous Space Station 13 (tm).
+  added: 2023-06-17
+  updated: 2025-07-03
+  images:
+  - 'https://ss3d.space/assets/img/art/Brukas/BrukasBar.png'
+  - 'https://ss3d.space/assets/img/art/Bug/BugCult.png'
+  - 'https://ss3d.space/assets/img/art/Bug/Bug_CargoAnimals.png'
+  - 'https://ss3d.space/assets/img/art/Bug/Bug_Spacegiving.png'
+  - 'https://ss3d.space/assets/img/art/Bug/Bug_Halloween2020.png'
+  video:
+    youtube: uzLdgxOBPrc
 
 - name: Space Station 14
   type: remake
@@ -4060,37 +4107,6 @@
   - https://spacestation14.com/images/home/gallery-medbay.webp
   - https://spacestation14.com/images/home/gallery-clown.webp
 
-- name: Space Station 3D
-  originals:
-  - Space Station 13
-  type: clone
-  repo: https://github.com/RE-SS3D/SS3D
-  url: https://ss3d.space
-  feed: https://ss3d.space/atom.xml
-  development: sporadic
-  status: unplayable
-  content: free
-  langs:
-  - 'C#'
-  frameworks:
-  - Unity
-  licenses:
-  - CC-BY-NC-SA
-  - MIT
-  info: >-
-    Space Station 3D is an open-source resurrection of *beep's original SS3D, a 3D
-    take on the infamous Space Station 13 (tm).
-  added: 2023-06-17
-  updated: 2025-07-03
-  images:
-  - 'https://ss3d.space/assets/img/art/Brukas/BrukasBar.png'
-  - 'https://ss3d.space/assets/img/art/Bug/BugCult.png'
-  - 'https://ss3d.space/assets/img/art/Bug/Bug_CargoAnimals.png'
-  - 'https://ss3d.space/assets/img/art/Bug/Bug_Spacegiving.png'
-  - 'https://ss3d.space/assets/img/art/Bug/Bug_Halloween2020.png'
-  video:
-    youtube: uzLdgxOBPrc
-
 - name: Spacebase DF-9 v2
   originals:
   - Spacebase DF-9
@@ -4106,44 +4122,6 @@
   - Custom
   added: 2025-12-13
   updated: 2025-12-13
-
-- name: SpaceClones
-  originals:
-  - Space Invaders
-  type: clone
-  repo: 'https://github.com/L603/SpaceClones'
-  url: 'https://aur.archlinux.org/packages/spaceclones-git/'
-  feed: 'https://github.com/L603/SpaceClones/releases.atom'
-  development: halted
-  status: playable
-  langs:
-  - C++
-  frameworks:
-  - SFML
-  licenses:
-  - GPL3
-  added: 2025-09-07
-  updated: 2025-09-07
-  images:
-  - https://user-images.githubusercontent.com/39320840/69807595-af888780-11b3-11ea-8aaa-e94eb0491656.gif
-
-- name: SpaceTwitch
-  langs:
-  - C#
-  frameworks:
-  - Unity
-  licenses:
-  - As-is
-  content: free
-  development: halted
-  originals:
-  - Tempest
-  status: semi-playable
-  repo: https://github.com/KirbyAu2/SpaceTwitch
-  url: https://www.kongregate.com/games/KirbyAu/space-twitch
-  type: remake
-  added: 2015-04-06
-  updated: 2022-02-04
 
 - name: SpaceCadetPinball
   originals:
@@ -4166,6 +4144,26 @@
   updated: 2025-07-06
   video:
     youtube: sAUu-Dl01OE
+
+- name: SpaceClones
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/L603/SpaceClones'
+  url: 'https://aur.archlinux.org/packages/spaceclones-git/'
+  feed: 'https://github.com/L603/SpaceClones/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - SFML
+  licenses:
+  - GPL3
+  added: 2025-09-07
+  updated: 2025-09-07
+  images:
+  - https://user-images.githubusercontent.com/39320840/69807595-af888780-11b3-11ea-8aaa-e94eb0491656.gif
 
 - name: SpaceEggs Disassembly
   originals:
@@ -4223,22 +4221,6 @@
   added: 2025-10-27
   updated: 2025-10-27
 
-- name: Space-rangers
-  frameworks:
-  - XNA
-  langs:
-  - C#
-  licenses:
-  - As-is
-  development: halted
-  originals:
-  - Space Rangers
-  status: unplayable
-  repo: https://github.com/markevich/Space-rangers
-  type: remake
-  added: 2015-05-28
-  updated: 2015-05-28
-
 - name: spaceroads
   frameworks:
   - OGRE
@@ -4255,46 +4237,23 @@
   added: 2015-05-28
   updated: 2015-05-28
 
-- name: spacewar-sdl
-  originals:
-  - Spacewar!
-  type: clone
-  repo: 'https://sourceforge.net/projects/spacewar-sdl/'
-  feed: 'https://sourceforge.net/projects/spacewar-sdl/rss?path=/'
-  development: halted
-  status: playable
-  content: open
+- name: SpaceTwitch
   langs:
-  - C++
+  - C#
   frameworks:
-  - SDL
+  - Unity
   licenses:
-  - GPL2
-  added: 2025-09-24
-  updated: 2025-09-24
-
-- name: Spacewars
-  originals:
-  - Spacewar!
-  type: remake
-  repo: 'https://github.com/spotzero/spacewars'
-  feed: 'https://github.com/spotzero/spacewars/releases.atom'
-  development: halted
-  status: playable
+  - As-is
   content: free
-  langs:
-  - Rust
-  frameworks:
-  - Amethyst
-  - SDL2
-  licenses:
-  - CC-BY-NC-ND
-  - CC-BY-NC-SA
-  - GPL3
-  added: 2025-08-20
-  updated: 2025-08-20
-  images:
-  - 'https://github.com/spotzero/spacewars/raw/master/preview.gif'
+  development: halted
+  originals:
+  - Tempest
+  status: semi-playable
+  repo: https://github.com/KirbyAu2/SpaceTwitch
+  url: https://www.kongregate.com/games/KirbyAu/space-twitch
+  type: remake
+  added: 2015-04-06
+  updated: 2022-02-04
 
 - name: Spacewar
   originals:
@@ -4318,6 +4277,24 @@
   - 'https://raw.githubusercontent.com/kanaka/spacewar/gh-pages/data/spacewar1.png'
   - 'https://raw.githubusercontent.com/kanaka/spacewar/gh-pages/data/spacewar2.png'
 
+- name: spacewar-sdl
+  originals:
+  - Spacewar!
+  type: clone
+  repo: 'https://sourceforge.net/projects/spacewar-sdl/'
+  feed: 'https://sourceforge.net/projects/spacewar-sdl/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-09-24
+  updated: 2025-09-24
+
 - name: Spacewar!
   originals:
   - Spacewar!
@@ -4337,6 +4314,29 @@
   updated: 2025-07-28
   video:
     youtube: iymD9eysqXo
+
+- name: Spacewars
+  originals:
+  - Spacewar!
+  type: remake
+  repo: 'https://github.com/spotzero/spacewars'
+  feed: 'https://github.com/spotzero/spacewars/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - Rust
+  frameworks:
+  - Amethyst
+  - SDL2
+  licenses:
+  - CC-BY-NC-ND
+  - CC-BY-NC-SA
+  - GPL3
+  added: 2025-08-20
+  updated: 2025-08-20
+  images:
+  - 'https://github.com/spotzero/spacewars/raw/master/preview.gif'
 
 - name: Spearmint
   originals:
@@ -4737,6 +4737,19 @@
   images:
   - 'https://a.fsdn.com/con/app/proj/sstpong/screenshots/138131.jpg'
 
+- name: star-control2
+  langs:
+  - C++
+  licenses:
+  - MIT
+  development: halted
+  originals:
+  - Star Control 2
+  status: unplayable
+  repo: https://github.com/jjimenezg93/star-control2
+  type: remake
+  updated: 2016-04-11
+
 - name: 'Star Control 2: The Ur-Quan Masters'
   originals:
   - Star Control 2
@@ -4855,6 +4868,19 @@
   added: 2025-11-21
   updated: 2025-11-21
 
+- name: Star-Wars-III
+  langs:
+  - Python
+  licenses:
+  - GPL2
+  development: complete
+  originals:
+  - Star Wars (1983 arcade game)
+  status: semi-playable
+  repo: https://github.com/abhinandanramesh/Star-Wars-III
+  type: remake
+  updated: 2015-06-01
+
 - name: 'Star Wars: The Arcade Game Disassembly'
   originals:
   - Star Wars (1983 arcade game)
@@ -4868,32 +4894,6 @@
   - As-is
   added: 2026-03-10
   updated: 2026-03-10
-
-- name: star-control2
-  langs:
-  - C++
-  licenses:
-  - MIT
-  development: halted
-  originals:
-  - Star Control 2
-  status: unplayable
-  repo: https://github.com/jjimenezg93/star-control2
-  type: remake
-  updated: 2016-04-11
-
-- name: Star-Wars-III
-  langs:
-  - Python
-  licenses:
-  - GPL2
-  development: complete
-  originals:
-  - Star Wars (1983 arcade game)
-  status: semi-playable
-  repo: https://github.com/abhinandanramesh/Star-Wars-III
-  type: remake
-  updated: 2015-06-01
 
 - name: Stargus
   originals:
@@ -5417,6 +5417,22 @@
   images:
   - https://retrospec.sgn.net/style/images/gamelogos/styx.gif
 
+- name: Styx Remastered
+  originals:
+  - Styx (Windmill)
+  type: remake
+  repo: >-
+    https://www.digger.org/download.html#:~:text=source%20code%20for%20-,Styx%20remastered
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  - C
+  licenses:
+  - GPL2
+  added: 2026-02-10
+  updated: 2026-02-10
+
 - name: Styx (Windmill)
   originals:
   - Styx (Windmill)
@@ -5431,22 +5447,6 @@
   - Assembly
   licenses:
   - As-is
-  added: 2026-02-10
-  updated: 2026-02-10
-
-- name: Styx Remastered
-  originals:
-  - Styx (Windmill)
-  type: remake
-  repo: >-
-    https://www.digger.org/download.html#:~:text=source%20code%20for%20-,Styx%20remastered
-  development: complete
-  status: playable
-  langs:
-  - Assembly
-  - C
-  licenses:
-  - GPL2
   added: 2026-02-10
   updated: 2026-02-10
 
@@ -5494,6 +5494,24 @@
   type: clone
   updated: 2020-08-25
 
+- name: SunDog Resurrection
+  images:
+  - https://a.fsdn.com/con/app/proj/sundog/screenshots/328849.jpg
+  - https://a.fsdn.com/con/app/proj/sundog/screenshots/328851.jpg
+  langs:
+  - Java
+  - Python
+  licenses:
+  - Artistic
+  development: halted
+  originals:
+  - 'SunDog: Frozen Legacy'
+  status: playable
+  repo: https://sourceforge.net/projects/sundog/
+  type: remake
+  updated: 2017-04-20
+  url: http://www.sundogresurrectionproject.com/
+
 - name: 'Sundog: Frozen Legacy'
   images:
   - https://raw.githubusercontent.com/laanwj/sundog/master/screenshots/title_screen.png
@@ -5512,24 +5530,6 @@
   repo: https://github.com/laanwj/sundog
   type: remake
   updated: 2017-04-19
-
-- name: SunDog Resurrection
-  images:
-  - https://a.fsdn.com/con/app/proj/sundog/screenshots/328849.jpg
-  - https://a.fsdn.com/con/app/proj/sundog/screenshots/328851.jpg
-  langs:
-  - Java
-  - Python
-  licenses:
-  - Artistic
-  development: halted
-  originals:
-  - 'SunDog: Frozen Legacy'
-  status: playable
-  repo: https://sourceforge.net/projects/sundog/
-  type: remake
-  updated: 2017-04-20
-  url: http://www.sundogresurrectionproject.com/
 
 - name: SunHP games
   originals:
@@ -5580,42 +5580,65 @@
   content: free
   updated: 2023-11-07
 
-- name: SuperLemmini
+- name: Super Lemonade Factory 1989
   originals:
-  - Lemmings
+  - Super Lemonade Factory
   type: remake
-  repo: 'https://www.lemmingsforums.net/index.php?topic=1793.0'
-  development: halted
+  repo: 'https://github.com/initials/SuperLemonadeFactory1989'
+  url: 'https://initials.itch.io/slf1989'
+  development: complete
   status: playable
-  content: commercial
+  content: free
   langs:
-  - Java
+  - 'C#'
+  frameworks:
+  - XNA
   licenses:
-  - Custom
-  info: A modification of Lemmini
-  added: '2025-09-01'
-  updated: '2025-09-01'
-  video:
-    youtube: kPYVrCINUZ8
+  - As-is
+  added: 2026-01-23
+  updated: 2026-01-23
+  images:
+  - 'https://i.imgur.com/dVq3WKz.gif'
+  - 'https://img.itch.zone/aW1hZ2UvMTA4MDQvMzI3ODgucG5n/original/fu6sKZ.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTA4MDQvMzI3ODkucG5n/original/bZj%2FKK.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTA4MDQvMzI3OTAucG5n/original/9vxjqF.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTA4MDQvMzI3OTEucG5n/original/LhfM3c.png'
 
-- name: SuperLemminiToo
+- name: Super Lemonade Factory Part Two
   originals:
-  - Lemmings
+  - Super Lemonade Factory Part Two
   type: remake
-  repo: 'https://github.com/Blazingstix/SuperLemminiToo'
-  url: 'https://www.lemmingsforums.net/index.php?topic=5792.0'
-  development: halted
+  repo: https://github.com/initials/SuperLemonadeFactoryPartTwo
+  development: complete
   status: playable
-  content: commercial
+  content: free
   langs:
-  - Java
+  - 'C#'
+  frameworks:
+  - XNA
   licenses:
-  - Apache
-  info: Fork of SuperLemmini
-  added: '2025-09-01'
-  updated: '2025-09-01'
-  video:
-    youtube: H7_nPTCcQcU
+  - As-is
+  added: 2026-02-03
+  updated: 2026-02-03
+
+- name: Super-Lemonade-Factory-Pico-8
+  originals:
+  - Super Lemonade Factory
+  type: remake
+  repo: 'https://github.com/initials/Super-Lemonade-Factory-Pico-8'
+  url: 'https://www.lexaloffle.com/bbs/?tid=2824'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - Lua
+  frameworks:
+  - PICO-8
+  licenses:
+  - As-is
+  info: Super Lemonade Factory for the Pico-8 system.
+  added: 2026-01-23
+  updated: 2026-01-23
 
 - name: Super Mario 64 (DualShock Version)
   originals:
@@ -5722,6 +5745,29 @@
   - As-is
   added: 2026-01-11
   updated: 2026-01-11
+
+- name: Super-Mario-Bros-Java
+  originals:
+  - Super Mario Bros.
+  type: remake
+  repo: 'https://sourceforge.net/projects/super-mario-bros-java/'
+  feed: 'https://sourceforge.net/p/super-mario-bros-java/activity/feed'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Java
+  licenses:
+  - GPL3
+  info: 'Super Mario Bros. NES and SNES Versions in Java for PC , Mac and Linux'
+  added: 2026-03-09
+  updated: 2026-03-09
+  images:
+  - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/nes%20graphics-43e70d46.JPG
+  - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/trees-4f2c3dfc.JPG
+  - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/water-538f7878.png
+  - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/boss-5fbb4262.png
+  - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/Info2-25d0be3a.png
 
 - name: Super Mario Bros. X
   originals:
@@ -5964,89 +6010,6 @@
   - >-
     https://raw.githubusercontent.com/santiontanon/stransball2/master/graphics/shot5.jpg
 
-- name: Super Lemonade Factory 1989
-  originals:
-  - Super Lemonade Factory
-  type: remake
-  repo: 'https://github.com/initials/SuperLemonadeFactory1989'
-  url: 'https://initials.itch.io/slf1989'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - 'C#'
-  frameworks:
-  - XNA
-  licenses:
-  - As-is
-  added: 2026-01-23
-  updated: 2026-01-23
-  images:
-  - 'https://i.imgur.com/dVq3WKz.gif'
-  - 'https://img.itch.zone/aW1hZ2UvMTA4MDQvMzI3ODgucG5n/original/fu6sKZ.png'
-  - 'https://img.itch.zone/aW1hZ2UvMTA4MDQvMzI3ODkucG5n/original/bZj%2FKK.png'
-  - 'https://img.itch.zone/aW1hZ2UvMTA4MDQvMzI3OTAucG5n/original/9vxjqF.png'
-  - 'https://img.itch.zone/aW1hZ2UvMTA4MDQvMzI3OTEucG5n/original/LhfM3c.png'
-
-- name: Super Lemonade Factory Part Two
-  originals:
-  - Super Lemonade Factory Part Two
-  type: remake
-  repo: https://github.com/initials/SuperLemonadeFactoryPartTwo
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - 'C#'
-  frameworks:
-  - XNA
-  licenses:
-  - As-is
-  added: 2026-02-03
-  updated: 2026-02-03
-
-- name: Super-Lemonade-Factory-Pico-8
-  originals:
-  - Super Lemonade Factory
-  type: remake
-  repo: 'https://github.com/initials/Super-Lemonade-Factory-Pico-8'
-  url: 'https://www.lexaloffle.com/bbs/?tid=2824'
-  development: halted
-  status: semi-playable
-  content: free
-  langs:
-  - Lua
-  frameworks:
-  - PICO-8
-  licenses:
-  - As-is
-  info: Super Lemonade Factory for the Pico-8 system.
-  added: 2026-01-23
-  updated: 2026-01-23
-
-- name: Super-Mario-Bros-Java
-  originals:
-  - Super Mario Bros.
-  type: remake
-  repo: 'https://sourceforge.net/projects/super-mario-bros-java/'
-  feed: 'https://sourceforge.net/p/super-mario-bros-java/activity/feed'
-  development: complete
-  status: playable
-  content: commercial
-  langs:
-  - Java
-  licenses:
-  - GPL3
-  info: 'Super Mario Bros. NES and SNES Versions in Java for PC , Mac and Linux'
-  added: 2026-03-09
-  updated: 2026-03-09
-  images:
-  - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/nes%20graphics-43e70d46.JPG
-  - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/trees-4f2c3dfc.JPG
-  - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/water-538f7878.png
-  - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/boss-5fbb4262.png
-  - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/Info2-25d0be3a.png
-
 - name: Supercars III
   images:
   - https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
@@ -6099,6 +6062,43 @@
   info: Super Lemonade Factory goes B-Grade.
   added: 2026-01-23
   updated: 2026-01-23
+
+- name: SuperLemmini
+  originals:
+  - Lemmings
+  type: remake
+  repo: 'https://www.lemmingsforums.net/index.php?topic=1793.0'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - Java
+  licenses:
+  - Custom
+  info: A modification of Lemmini
+  added: '2025-09-01'
+  updated: '2025-09-01'
+  video:
+    youtube: kPYVrCINUZ8
+
+- name: SuperLemminiToo
+  originals:
+  - Lemmings
+  type: remake
+  repo: 'https://github.com/Blazingstix/SuperLemminiToo'
+  url: 'https://www.lemmingsforums.net/index.php?topic=5792.0'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - Java
+  licenses:
+  - Apache
+  info: Fork of SuperLemmini
+  added: '2025-09-01'
+  updated: '2025-09-01'
+  video:
+    youtube: H7_nPTCcQcU
 
 - name: SuperLemonadeFactoryOUYA
   originals:
@@ -6166,6 +6166,27 @@
   added: 2026-01-10
   updated: 2026-01-10
 
+- name: SuperStarTrek25thGMS
+  originals:
+  - Super Star Trek
+  type: remake
+  repo: 'https://github.com/JeodC/SuperStarTrek25thGMS'
+  feed: 'https://github.com/JeodC/SuperStarTrek25thGMS/releases.atom'
+  development: very active
+  status: playable
+  langs:
+  - Game Maker Language
+  frameworks:
+  - GameMaker Studio
+  licenses:
+  - As-is
+  content: commercial
+  info: A port of Super Star Trek Meets 25th Anniversary to Game Maker Studio 2
+  added: 2026-03-01
+  updated: 2026-03-01
+  images:
+  - https://github.com/user-attachments/assets/2669d4e5-73b5-48c4-97c9-590a13fbe707
+
 - name: SuperStarTrek - Perl and LUA ports
   originals:
   - Super Star Trek
@@ -6191,27 +6212,6 @@
   - https://t.gamesnostalgia.com/news/1/8/182/26519.jpg
   - https://t.gamesnostalgia.com/news/1/8/182/26520.jpg
   - https://t.gamesnostalgia.com/news/1/8/182/26521.jpg
-
-- name: SuperStarTrek25thGMS
-  originals:
-  - Super Star Trek
-  type: remake
-  repo: 'https://github.com/JeodC/SuperStarTrek25thGMS'
-  feed: 'https://github.com/JeodC/SuperStarTrek25thGMS/releases.atom'
-  development: very active
-  status: playable
-  langs:
-  - Game Maker Language
-  frameworks:
-  - GameMaker Studio
-  licenses:
-  - As-is
-  content: commercial
-  info: A port of Super Star Trek Meets 25th Anniversary to Game Maker Studio 2
-  added: 2026-03-01
-  updated: 2026-03-01
-  images:
-  - https://github.com/user-attachments/assets/2669d4e5-73b5-48c4-97c9-590a13fbe707
 
 - name: SuperTux
   development: very active

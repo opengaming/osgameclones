@@ -154,21 +154,6 @@
   - 'https://raptorv2.sourceforge.net/images/buy.png'
   - 'https://screenshots.debian.net/screenshot/rafkill/15672'
 
-- name: Raid 2020 Source Code
-  originals:
-  - Raid 2020
-  type: official
-  url: 'https://archive.org/details/Raid-2020-Source-Code'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-01-24
-  updated: 2026-01-24
-
 - name: RAID2020
   originals:
   - Raid 2020
@@ -183,6 +168,21 @@
   - As-is
   added: 2026-01-07
   updated: 2026-01-07
+
+- name: Raid 2020 Source Code
+  originals:
+  - Raid 2020
+  type: official
+  url: 'https://archive.org/details/Raid-2020-Source-Code'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-24
+  updated: 2026-01-24
 
 - name: Raiders2600
   originals:
@@ -584,6 +584,22 @@
   info: Binary-accurate source code reconstruction
   added: 2020-06-26
   updated: 2020-06-26
+
+- name: Red vs. Blue Disassembly
+  originals:
+  - RealSports Football
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/redblue.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200311/msg00171.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: RealSports Football Prototype Red Vs. Blue Disassembly.
+  added: '2025-11-07'
+  updated: '2025-11-07'
 
 - name: Redguard Unity
   originals:
@@ -1088,30 +1104,6 @@
   added: 2025-12-12
   updated: 2025-12-12
 
-- name: neortcw
-  originals:
-  - Return to Castle Wolfenstein
-  type: remake
-  status: playable
-  repo: 'https://github.com/klaussilveira/neortcw'
-  development: active
-  content: commercial
-  multiplayer:
-  - Competitive
-  - Online
-  - LAN
-  langs:
-  - C
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL3
-  info: >-
-    neortcw is a RTCW SP/MP/ET source port, providing a common build
-    for all 3 codebases and focusing on a smoother, lag-free gameplay.
-  added: 2026-03-03
-  updated: 2026-03-03
-
 - name: Return to the Roots
   images:
   - https://www.siedler25.org/gallery/2015/2015.04.28_03.jpg
@@ -1362,21 +1354,6 @@
   video:
     youtube: oKYNsIPr0tY
 
-- name: 'Rise of the Triad: Dark War'
-  originals:
-  - Rise of the Triad
-  type: official
-  repo: 'https://github.com/videogamepreservation/rott'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - C
-  licenses:
-  - GPL2
-  added: 2025-09-23
-  updated: 2025-09-23
-
 - name: Rise of the Triad for Linux
   langs:
   - C
@@ -1397,21 +1374,20 @@
   - https://i.stack.imgur.com/Nz443.png
   - https://icculus.org/~ravage/rott/rott_installer.jpg
 
-- name: River Raid (VHDL)
+- name: 'Rise of the Triad: Dark War'
   originals:
-  - River Raid
-  type: remake
-  repo: 'https://github.com/SadraSamadi/river-raid'
-  development: halted
-  status: semi-playable
+  - Rise of the Triad
+  type: official
+  repo: 'https://github.com/videogamepreservation/rott'
+  development: complete
+  status: playable
+  content: open
   langs:
-  - VHDL
+  - C
   licenses:
-  - As-is
-  added: 2025-11-03
-  updated: 2025-11-03
-  images:
-  - 'https://raw.githubusercontent.com/SadraSamadi/river-raid/master/screencast.gif'
+  - GPL2
+  added: 2025-09-23
+  updated: 2025-09-23
 
 - name: River Raid 2k
   originals:
@@ -1448,6 +1424,22 @@
   added: 2025-09-26
   updated: 2025-10-10
 
+- name: River Raid (VHDL)
+  originals:
+  - River Raid
+  type: remake
+  repo: 'https://github.com/SadraSamadi/river-raid'
+  development: halted
+  status: semi-playable
+  langs:
+  - VHDL
+  licenses:
+  - As-is
+  added: 2025-11-03
+  updated: 2025-11-03
+  images:
+  - 'https://raw.githubusercontent.com/SadraSamadi/river-raid/master/screencast.gif'
+
 - name: River/Covid Raid 2020
   originals:
   - River Raid
@@ -1466,22 +1458,6 @@
   updated: 2025-11-16
   images:
   - https://raw.githubusercontent.com/masoudhassani/river_raid/master/media/river_raid_ai_gameplay.gif
-
-- name: Red vs. Blue Disassembly
-  originals:
-  - RealSports Football
-  type: remake
-  repo: 'https://www.qotile.net/minidig/disassembly/redblue.asm'
-  url: 'https://www.biglist.com/lists/stella/archives/200311/msg00171.html'
-  development: complete
-  status: playable
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: RealSports Football Prototype Red Vs. Blue Disassembly.
-  added: '2025-11-07'
-  updated: '2025-11-07'
 
 - name: rlvm
   originals:
@@ -2244,6 +2220,24 @@
   type: clone
   updated: 2022-08-14
 
+- name: rust2048
+  originals:
+  - '2048'
+  type: clone
+  repo: >-
+    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/7ma7X/2048
+  url: 'https://crates.io/crates/rust2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-22
+  updated: 2025-10-22
+  images:
+  - https://user-images.githubusercontent.com/36184621/52550849-43ec4e00-2e1d-11e9-90b0-2384aab813ca.gif
+
 - name: rust-2048
   originals:
   - '2048'
@@ -2262,24 +2256,6 @@
   updated: 2025-09-21
   images:
   - https://camo.githubusercontent.com/74879cb8bd35eff3948d09a371c2839745b6f865c52fc474f7b7ab8d1cf453b1/687474703a2f2f692e696d6775722e636f6d2f4554413431506f2e706e673f31
-
-- name: rust2048
-  originals:
-  - '2048'
-  type: clone
-  repo: >-
-    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/7ma7X/2048
-  url: 'https://crates.io/crates/rust2048'
-  development: halted
-  status: playable
-  langs:
-  - Rust
-  licenses:
-  - MIT
-  added: 2025-10-22
-  updated: 2025-10-22
-  images:
-  - https://user-images.githubusercontent.com/36184621/52550849-43ec4e00-2e1d-11e9-90b0-2384aab813ca.gif
 
 - name: rustcraft
   originals:

@@ -138,23 +138,6 @@
   - >-
     https://img.itch.zone/aW1hZ2UvMTgyNDM5OS8xMDcwOTgwNy5qcGc=/original/zJG%2BsX.jpg
 
-- name: Haskell in Space
-  originals:
-  - Asteroids
-  type: clone
-  url: >-
-    https://web.archive.org/web/20190328142147/http://www.informatik.uni-bremen.de/~cxl/lehre/pi3.ws01/asteroids/
-  development: halted
-  status: semi-playable
-  langs:
-  - Haskell
-  frameworks:
-  - Hugs
-  licenses:
-  - As-is
-  added: 2025-10-09
-  updated: 2025-10-09
-
 - name: Natural Selection
   originals:
   - Natural Selection
@@ -260,6 +243,124 @@
   - MIT
   added: 2025-11-18
   updated: 2025-11-18
+
+- name: Nemesis-the-Warlock
+  originals:
+  - Nemesis the Warlock
+  type: official
+  repo: 'https://github.com/milkeybabes/Nemesis-the-Warlock'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: C64 Source Code to Nemesis the Warlock.
+  added: 2026-01-06
+  updated: 2026-01-06
+  images:
+  - https://www.vintageisthenewold.com/wp-content/uploads/2019/05/nemesis-the-warlock_1.gif
+
+- name: NEO-RAW
+  images:
+  - https://fabiensanglard.net/fd_proxy/anotherWorld_code_review/aw_before.jpg
+  - https://fabiensanglard.net/fd_proxy/anotherWorld_code_review/anotherWorldXP.png
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  content: commercial
+  development: halted
+  originals:
+  - Another World
+  status: playable
+  repo: https://github.com/fabiensanglard/Another-World-Bytecode-Interpreter
+  type: remake
+  updated: 2021-09-13
+  url: https://fabiensanglard.net/anotherWorld_code_review/index.php
+  info: This is an Another World VM implementation. Based on Gregory Montoir's original work, the codebase has been cleaned up with legibility and readability in mind.
+
+- name: NeoLemmix
+  originals:
+  - Lemmings
+  type: clone
+  url: 'https://www.neolemmix.com/'
+  repo: https://bitbucket.org/namida42/neolemmixplayer/
+  langs:
+  - Delphi
+  frameworks:
+  - Graphics32
+  development: very active
+  status: playable
+  content: swappable
+  licenses:
+  - CC-BY-NC
+  updated: 2021-03-30
+  info: Has an active modding community (https://www.lemmingsforums.net/) and comes with an editor.
+  video:
+    youtube: i0CQtMjkyMk
+
+- name: neortcw
+  originals:
+  - Return to Castle Wolfenstein
+  type: remake
+  status: playable
+  repo: 'https://github.com/klaussilveira/neortcw'
+  development: active
+  content: commercial
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: >-
+    neortcw is a RTCW SP/MP/ET source port, providing a common build
+    for all 3 codebases and focusing on a smoother, lag-free gameplay.
+  added: 2026-03-03
+  updated: 2026-03-03
+
+- name: NES Captain Comic Source Code
+  originals:
+  - The Adventures of Captain Comic
+  type: official
+  url: 'https://archive.org/details/CaptainComicSourceCode'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-20
+  updated: 2026-01-20
+
+- name: nes-caves
+  originals:
+  - Crystal Caves
+  type: remake
+  repo: 'https://github.com/DrKylstein/nes-caves'
+  url: 'https://kdelaney.neocities.org/nescaves/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: A port/clone of the first episode for NES
+  added: '2025-02-06'
+  updated: '2025-02-06'
+  images:
+  - 'https://kdelaney.neocities.org/nescaves/nescaves.gif'
+  video:
+    youtube: OOqVnCn_Et8
 
 - name: NES Elite
   originals:
@@ -373,27 +474,6 @@
   images:
   - 'https://codeberg.org/relax/top-gun/media/branch/master/screenshot.png'
 
-- name: nes-caves
-  originals:
-  - Crystal Caves
-  type: remake
-  repo: 'https://github.com/DrKylstein/nes-caves'
-  url: 'https://kdelaney.neocities.org/nescaves/'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: A port/clone of the first episode for NES
-  added: '2025-02-06'
-  updated: '2025-02-06'
-  images:
-  - 'https://kdelaney.neocities.org/nescaves/nescaves.gif'
-  video:
-    youtube: OOqVnCn_Et8
-
 - name: Net-bubble
   originals:
   - Puzzle Bobble
@@ -417,30 +497,6 @@
   - https://os4depot.net/filedata/snapshot/1150_3_snap.jpg
   - https://os4depot.net/filedata/snapshot/1150_4_snap.jpg
   - https://web.archive.org/web/20070802104256im_/http://netbubble.zippygraphics.com/pix/netscan3.jpg
-
-- name: NetNuclear
-  originals:
-  - Nuclear War
-  type: clone
-  repo: 'https://github.com/gondur/netnuclear_src'
-  development: halted
-  status: playable
-  multiplayer:
-  - LAN
-  - Competitive
-  - Online
-  content: free
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - As-is
-  added: 2025-07-22
-  updated: 2025-07-22
-  images:
-  - https://repo.openpandora.org/files/pnd/netnuclear/previews/nuclear_1.png
-  - https://repo.openpandora.org/files/pnd/netnuclear/previews/nuclear_2.png
 
 - name: Netacka
   images:
@@ -487,60 +543,29 @@
   video:
     youtube: pJtrxzGf1L0
 
-- name: NEO-RAW
-  images:
-  - https://fabiensanglard.net/fd_proxy/anotherWorld_code_review/aw_before.jpg
-  - https://fabiensanglard.net/fd_proxy/anotherWorld_code_review/anotherWorldXP.png
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL2
-  content: commercial
-  development: halted
+- name: NetNuclear
   originals:
-  - Another World
-  status: playable
-  repo: https://github.com/fabiensanglard/Another-World-Bytecode-Interpreter
-  type: remake
-  updated: 2021-09-13
-  url: https://fabiensanglard.net/anotherWorld_code_review/index.php
-  info: This is an Another World VM implementation. Based on Gregory Montoir's original work, the codebase has been cleaned up with legibility and readability in mind.
-
-- name: NeoLemmix
-  originals:
-  - Lemmings
+  - Nuclear War
   type: clone
-  url: 'https://www.neolemmix.com/'
-  repo: https://bitbucket.org/namida42/neolemmixplayer/
+  repo: 'https://github.com/gondur/netnuclear_src'
+  development: halted
+  status: playable
+  multiplayer:
+  - LAN
+  - Competitive
+  - Online
+  content: free
   langs:
-  - Delphi
+  - C
   frameworks:
-  - Graphics32
-  development: very active
-  status: playable
-  content: swappable
-  licenses:
-  - CC-BY-NC
-  updated: 2021-03-30
-  info: Has an active modding community (https://www.lemmingsforums.net/) and comes with an editor.
-  video:
-    youtube: i0CQtMjkyMk
-
-- name: NES Captain Comic Source Code
-  originals:
-  - The Adventures of Captain Comic
-  type: official
-  url: 'https://archive.org/details/CaptainComicSourceCode'
-  development: complete
-  status: playable
-  langs:
-  - Assembly
+  - SDL
   licenses:
   - As-is
-  added: 2026-01-20
-  updated: 2026-01-20
+  added: 2025-07-22
+  updated: 2025-07-22
+  images:
+  - https://repo.openpandora.org/files/pnd/netnuclear/previews/nuclear_1.png
+  - https://repo.openpandora.org/files/pnd/netnuclear/previews/nuclear_2.png
 
 - name: Netrobots
   originals:
@@ -658,6 +683,24 @@
   updated: 2024-04-05
   info: Cross-platform wrapper with 3D acceleration and TCP protocol
 
+- name: Nibbles Classic
+  originals:
+  - Nibbles
+  type: clone
+  url: 'https://www.calculatorti.com/ti-games/ti-89/asm/nibbles-classic/'
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-01-16
+  updated: 2026-01-16
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/242/24261.gif'
+  - 'https://www.ticalc.org/archives/files/ss/228/22859.gif'
+  - 'https://www.ticalc.org/archives/files/ss/228/22858.gif'
+  - 'https://www.ticalc.org/archives/files/ss/228/22860.gif'
+
 - name: NiceGUI Minesweeper
   originals:
   - Minesweeper
@@ -677,24 +720,6 @@
   updated: 2025-08-20
   images:
   - https://raw.githubusercontent.com/SaitoTsutomu/nicegui-minesweeper/master/images/main.jpg
-
-- name: Nibbles Classic
-  originals:
-  - Nibbles
-  type: clone
-  url: 'https://www.calculatorti.com/ti-games/ti-89/asm/nibbles-classic/'
-  status: playable
-  langs:
-  - C
-  licenses:
-  - As-is
-  added: 2026-01-16
-  updated: 2026-01-16
-  images:
-  - 'https://www.ticalc.org/archives/files/ss/242/24261.gif'
-  - 'https://www.ticalc.org/archives/files/ss/228/22859.gif'
-  - 'https://www.ticalc.org/archives/files/ss/228/22858.gif'
-  - 'https://www.ticalc.org/archives/files/ss/228/22860.gif'
 
 - name: Nicky Boom
   originals:

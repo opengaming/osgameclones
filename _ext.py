@@ -1,4 +1,5 @@
 import copy
+import locale
 import sys
 import pprint
 import os, os.path as op
@@ -13,6 +14,8 @@ import yaml
 from natsort import natsorted, ns
 from pykwalify.core import Core
 from slugify import slugify
+
+locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 
 
 @dataclass
@@ -271,31 +274,61 @@ def validate_with_schema(source_data, schema_file):
 
 def parse_data(site):
     base = op.dirname(__file__)
+    errors = []
+
+    def sort_key(game):
+        name = game_name(game)
+        # Ignore periods and some other special characters
+        for char in ['.', '[', ']', '(', ')']:
+            name = name.replace(char, '')
+        # Treat some characters as spaces
+        for char in ['-', '_']:
+            name = name.replace(char, ' ')
+        # Always sort SCUMM first
+        if name == 'SCUMM':
+            return '0'
+        # Ignore articles at the beginning of names
+        for article in ['The ', 'A ', 'An ']:
+            if name.startswith(article):
+                return name[len(article):]
+        return name
 
     originals = []
     for fn in os.listdir(op.join(base, 'originals')):
         if fn.endswith('.yaml'):
-            originals.extend(yaml.safe_load(open(op.join(base, 'originals', fn), encoding="utf-8")))
-    def sort_key(game):
-        name = game_name(game)
-        # Always sort SCUMM first
-        if name == 'SCUMM':
-            return '0'
-        if name.startswith('The '):
-            return name[4:]
-        return name
-    originals = natsorted(originals, key=sort_key, alg=ns.IGNORECASE)
+            originals_unsorted = yaml.safe_load(open(op.join(base, 'originals', fn), encoding="utf-8"))
+            # Check if originals sorted, if not, error out showing the first unsorted entry
+            originals_sorted = natsorted(originals_unsorted, key=sort_key, alg=ns.IGNORECASE | ns.LOCALE)
+            for o1, o2 in zip(originals_unsorted, originals_sorted):
+                if game_name(o1) != game_name(o2):
+                    errors.append({
+                        "name": game_name(o1),
+                        "error": f"Original game name not sorted correctly in file originals/{fn}: should be '{game_name(o2)}'"
+                    })
+                    break
+            originals.extend(originals_sorted)
+    # Sort originals again for final presentation in the site
+    originals = natsorted(originals, key=sort_key, alg=ns.IGNORECASE | ns.LOCALE)
     print(str(len(originals)) + ' games in total')
     validate_with_schema(originals, 'schema/originals.yaml')
 
     clones = []
     for fn in sorted(os.listdir(op.join(base, 'games'))):
         if fn.endswith('.yaml'):
-            clones.extend(yaml.safe_load(open(op.join(base, 'games', fn), encoding="utf-8")))
+            clones_unsorted = yaml.safe_load(open(op.join(base, 'games', fn), encoding="utf-8"))
+            # Check if clones sorted, if not, error out showing the first unsorted entry
+            clones_sorted = natsorted(clones_unsorted, key=sort_key, alg=ns.IGNORECASE | ns.LOCALE)
+            for c1, c2 in zip(clones_unsorted, clones_sorted):
+                if game_name(c1) != game_name(c2):
+                    errors.append({
+                        "name": game_name(c1),
+                        "error": f"Clone game name not sorted correctly in file games/{fn}: should be '{game_name(c2)}'"
+                    })
+                    break
+            clones.extend(clones_sorted)
     print(str(len(clones)) + ' clones in total')
     validate_with_schema(clones, 'schema/games.yaml')
 
-    errors = []
     originals_map = {}
     original_names = set()
 

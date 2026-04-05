@@ -1,20 +1,3 @@
-- name: P'radikus Conflict
-  originals:
-  - P'Radikus Conflict
-  type: official
-  repo: 'https://github.com/TCRF/pradikus-conflict'
-  url: 'https://www.romhacking.net/documents/667/'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: The source code to the unlicensed NES game P’radikus Conflict.
-  added: 2025-11-26
-  updated: 2025-11-26
-
 - name: P-Robots
   originals:
   - CROBOTS
@@ -33,6 +16,23 @@
   images:
   - 'https://corewar.co.uk/screenshots/probotstitle.png'
   - 'https://corewar.co.uk/screenshots/probotsarena.png'
+
+- name: P'radikus Conflict
+  originals:
+  - P'Radikus Conflict
+  type: official
+  repo: 'https://github.com/TCRF/pradikus-conflict'
+  url: 'https://www.romhacking.net/documents/667/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: The source code to the unlicensed NES game P’radikus Conflict.
+  added: 2025-11-26
+  updated: 2025-11-26
 
 - name: Pac Go
   originals:
@@ -77,24 +77,6 @@
   - 'https://robinson-special-jeux.franceserv.com/gallery/Pac-Horror-04.jpg'
   - 'https://robinson-special-jeux.franceserv.com/gallery/Pac-Horror-08.jpg'
 
-- name: Pac Man I
-  originals:
-  - Pac-Man
-  type: clone
-  repo: 'https://archive.org/download/c-tri#:~:text=PACMAN'
-  url: 'https://archive.org/download/c-tri/PACMAN.zip/PacMan/README.TXT'
-  development: complete
-  status: playable
-  langs:
-  - C
-  frameworks:
-  - Allegro
-  licenses:
-  - As-is
-  info: This game was based on Pac Horror of Ader Software.
-  added: 2025-09-21
-  updated: 2025-09-21
-
 - name: Pac-Man
   originals:
   - Pac-Man
@@ -131,6 +113,24 @@
   updated: 2026-01-30
   images:
   - 'https://www.ocf.berkeley.edu/~pad/screenshots/pac1.png'
+
+- name: Pac Man I
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://archive.org/download/c-tri#:~:text=PACMAN'
+  url: 'https://archive.org/download/c-tri/PACMAN.zip/PacMan/README.TXT'
+  development: complete
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  info: This game was based on Pac Horror of Ader Software.
+  added: 2025-09-21
+  updated: 2025-09-21
 
 - name: pac-wio
   originals:
@@ -254,33 +254,6 @@
   - 'https://packdude.sourceforge.net/gfx/shot1.png'
   - 'https://packdude.sourceforge.net/gfx/shot2.png'
 
-- name: Pacman 3D
-  originals:
-  - Pac-Man
-  type: similar
-  repo: 'https://www.calculatorti.com/ti-games/ti-89/asm/pacman-3d/'
-  url: 'http://www.malcolm-s.net/ti/pacman3d/'
-  development: halted
-  status: playable
-  content: free
-  langs:
-  - C
-  frameworks:
-  - FAT-Engine
-  licenses:
-  - As-is
-  added: 2026-01-08
-  updated: 2026-01-08
-  images:
-  - https://web.archive.org/web/20061206081249im_/http://ti.malcolm-s.net/pacman3d/images/ss1.gif
-  - https://web.archive.org/web/20061206081119im_/http://ti.malcolm-s.net/pacman3d/images/ss5.gif
-  - https://web.archive.org/web/20061206081216im_/http://ti.malcolm-s.net/pacman3d/images/ss6.gif
-  - https://web.archive.org/web/20061206081300im_/http://ti.malcolm-s.net/pacman3d/images/ss7.gif
-  - https://web.archive.org/web/20061206081202im_/http://ti.malcolm-s.net/pacman3d/images/ss8.gif
-  - https://web.archive.org/web/20061206081233im_/http://ti.malcolm-s.net/pacman3d/images/ss9.gif
-  video:
-    youtube: JK1Yhsdf5F0
-
 - name: Pacmacs
   originals:
   - Pac-Man
@@ -318,6 +291,51 @@
   type: remake
   updated: 2015-05-19
 
+- name: Pacman 吃豆游戏
+  originals:
+  - Pac-Man
+  type: remake
+  repo: 'https://github.com/mumuy/pacman'
+  url: 'https://passer-by.com/pacman/'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  info: Pacman based on HTML5
+  updated: 2024-03-08
+  images:
+  - 'https://inews.gtimg.com/newsapp_bt/0/13183252358/1000'
+
+- name: Pacman 3D
+  originals:
+  - Pac-Man
+  type: similar
+  repo: 'https://www.calculatorti.com/ti-games/ti-89/asm/pacman-3d/'
+  url: 'http://www.malcolm-s.net/ti/pacman3d/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - FAT-Engine
+  licenses:
+  - As-is
+  added: 2026-01-08
+  updated: 2026-01-08
+  images:
+  - https://web.archive.org/web/20061206081249im_/http://ti.malcolm-s.net/pacman3d/images/ss1.gif
+  - https://web.archive.org/web/20061206081119im_/http://ti.malcolm-s.net/pacman3d/images/ss5.gif
+  - https://web.archive.org/web/20061206081216im_/http://ti.malcolm-s.net/pacman3d/images/ss6.gif
+  - https://web.archive.org/web/20061206081300im_/http://ti.malcolm-s.net/pacman3d/images/ss7.gif
+  - https://web.archive.org/web/20061206081202im_/http://ti.malcolm-s.net/pacman3d/images/ss8.gif
+  - https://web.archive.org/web/20061206081233im_/http://ti.malcolm-s.net/pacman3d/images/ss9.gif
+  video:
+    youtube: JK1Yhsdf5F0
+
 - name: pacman (1995)
   originals:
   - Pac-Man
@@ -334,22 +352,6 @@
   - GPL2
   added: 2025-10-29
   updated: 2025-10-29
-
-- name: pacman (harto)
-  langs:
-  - JavaScript
-  licenses:
-  - As-is
-  content: free
-  development: complete
-  originals:
-  - Pac-Man
-  repo: https://github.com/harto/pacman
-  type: remake
-  added: 2015-05-19
-  updated: 2024-09-13
-  status: playable
-  url: https://harto.github.io/pacman/
 
 - name: Pacman Arena
   originals:
@@ -371,62 +373,6 @@
   updated: 2025-10-16
   images:
   - 'https://pacmanarena.sourceforge.net/shot.png'
-
-- name: Pacman For Console
-  originals:
-  - Pac-Man
-  type: clone
-  repo: https://github.com/YoctoForBeaglebone/pacman4console
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - C
-  licenses:
-  - GPL2
-  added: 2025-10-10
-  updated: 2025-10-10
-  images:
-  - https://github.com/YoctoForBeaglebone/pacman4console/raw/master/screenshot.png
-
-- name: Pacman in c++ with SDL
-  originals:
-  - Pac-Man
-  type: clone
-  repo: 'https://sourceforge.net/projects/pacmanincwithsd/'
-  feed: 'https://sourceforge.net/projects/pacmanincwithsd/rss?path=/'
-  development: halted
-  status: playable
-  content: free
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  licenses:
-  - As-is
-  added: 2025-10-05
-  updated: 2025-10-05
-  images:
-  - 'https://a.fsdn.com/con/app/proj/pacmanincwithsd/screenshots/pacman-game.jpg'
-
-- name: pacman.c
-  originals:
-  - Pac-Man
-  type: remake
-  repo: 'https://github.com/floooh/pacman.c'
-  url: 'https://floooh.github.io/pacman.c/pacman.html'
-  feed: 'https://github.com/floooh/pacman.c/releases.atom'
-  development: sporadic
-  langs:
-  - C
-  status: playable
-  licenses:
-  - MIT
-  content: commercial
-  added: 2025-08-17
-  updated: 2025-08-17
-  images:
-  - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSrOfKZvadsgUtA0OJXvgx3wamDOzuDcBLckugKHtFKBkrEVB_8-ZpHAwoKCPYyCm_nznXOa9_0iI3SZAUAfqwCkNTVejMvUQQpG6BXYmFZ5rYGYqlbX4BEqZA4oZ2iKIzn_H-BHqWblax4GMRZfkzh5lF96tBLx3Qk0GL5Wn_owJDB6ElBikfuv-MXzM8/s898/Screenshot_2024-05-25_13-20-49.png
 
 - name: pacman-canvas
   images:
@@ -461,6 +407,79 @@
   - MIT
   info: continuation of pacman-canvas-next
   updated: '2024-03-10'
+
+- name: Pacman For Console
+  originals:
+  - Pac-Man
+  type: clone
+  repo: https://github.com/YoctoForBeaglebone/pacman4console
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-10
+  updated: 2025-10-10
+  images:
+  - https://github.com/YoctoForBeaglebone/pacman4console/raw/master/screenshot.png
+
+- name: pacman (harto)
+  langs:
+  - JavaScript
+  licenses:
+  - As-is
+  content: free
+  development: complete
+  originals:
+  - Pac-Man
+  repo: https://github.com/harto/pacman
+  type: remake
+  added: 2015-05-19
+  updated: 2024-09-13
+  status: playable
+  url: https://harto.github.io/pacman/
+
+- name: Pacman in c++ with SDL
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://sourceforge.net/projects/pacmanincwithsd/'
+  feed: 'https://sourceforge.net/projects/pacmanincwithsd/rss?path=/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-05
+  updated: 2025-10-05
+  images:
+  - 'https://a.fsdn.com/con/app/proj/pacmanincwithsd/screenshots/pacman-game.jpg'
+
+- name: Pacman_Qt
+  originals:
+  - Pac-Man
+  type: remake
+  repo: 'https://sourceforge.net/projects/pacmanlike/'
+  feed: 'https://sourceforge.net/projects/pacmanlike/rss?path=/'
+  development: halted
+  status: semi-playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  licenses:
+  - As-is
+  added: 2025-09-30
+  updated: 2025-09-30
+  images:
+  - 'https://a.fsdn.com/con/app/proj/pacmanlike/screenshots/pacman_filippakoc.jpg'
 
 - name: pacman (Rust)
   originals:
@@ -500,25 +519,24 @@
   images:
   - https://schuay.github.io/images/pacman_sdl.png
 
-- name: Pacman_Qt
+- name: pacman.c
   originals:
   - Pac-Man
   type: remake
-  repo: 'https://sourceforge.net/projects/pacmanlike/'
-  feed: 'https://sourceforge.net/projects/pacmanlike/rss?path=/'
-  development: halted
-  status: semi-playable
-  content: free
+  repo: 'https://github.com/floooh/pacman.c'
+  url: 'https://floooh.github.io/pacman.c/pacman.html'
+  feed: 'https://github.com/floooh/pacman.c/releases.atom'
+  development: sporadic
   langs:
-  - C++
-  frameworks:
-  - Qt
+  - C
+  status: playable
   licenses:
-  - As-is
-  added: 2025-09-30
-  updated: 2025-09-30
+  - MIT
+  content: commercial
+  added: 2025-08-17
+  updated: 2025-08-17
   images:
-  - 'https://a.fsdn.com/con/app/proj/pacmanlike/screenshots/pacman_filippakoc.jpg'
+  - https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSrOfKZvadsgUtA0OJXvgx3wamDOzuDcBLckugKHtFKBkrEVB_8-ZpHAwoKCPYyCm_nznXOa9_0iI3SZAUAfqwCkNTVejMvUQQpG6BXYmFZ5rYGYqlbX4BEqZA4oZ2iKIzn_H-BHqWblax4GMRZfkzh5lF96tBLx3Qk0GL5Wn_owJDB6ElBikfuv-MXzM8/s898/Screenshot_2024-05-25_13-20-49.png
 
 - name: pacman.zig
   originals:
@@ -538,24 +556,6 @@
   - MIT
   added: 2025-08-21
   updated: 2025-08-21
-
-- name: Pacman 吃豆游戏
-  originals:
-  - Pac-Man
-  type: remake
-  repo: 'https://github.com/mumuy/pacman'
-  url: 'https://passer-by.com/pacman/'
-  development: sporadic
-  status: playable
-  content: open
-  langs:
-  - JavaScript
-  licenses:
-  - MIT
-  info: Pacman based on HTML5
-  updated: 2024-03-08
-  images:
-  - 'https://inews.gtimg.com/newsapp_bt/0/13183252358/1000'
 
 - name: PaddleTennis
   originals:
@@ -1450,6 +1450,25 @@
   video:
     vimeo: 78452479
 
+- name: Pipe Puzzle
+  originals:
+  - Pipe Mania
+  type: clone
+  repo: 'https://github.com/tassaron/pipe-puzzle'
+  url: 'https://rainey.tech/game/pipe-puzzle'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  frameworks:
+  - PixiJS
+  licenses:
+  - MIT
+  updated: '2023-07-14'
+  images:
+  - 'https://github.com/tassaron/pipe-puzzle'
+
 - name: Pipemania
   frameworks:
   - LÖVE
@@ -1489,25 +1508,6 @@
   - 'https://www.libsdl.org/projects/pipenightdreams/images/scr_shot3.gif'
   - 'https://www.libsdl.org/projects/pipenightdreams/images/scr_shot4.gif'
 
-- name: Pipe Puzzle
-  originals:
-  - Pipe Mania
-  type: clone
-  repo: 'https://github.com/tassaron/pipe-puzzle'
-  url: 'https://rainey.tech/game/pipe-puzzle'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - JavaScript
-  frameworks:
-  - PixiJS
-  licenses:
-  - MIT
-  updated: '2023-07-14'
-  images:
-  - 'https://github.com/tassaron/pipe-puzzle'
-
 - name: PipeWalker
   originals:
   - NetWalk
@@ -1546,21 +1546,6 @@
   added: 2025-11-18
   updated: 2025-11-18
 
-- name: Pitfall! Disassembly
-  originals:
-  - Pitfall!
-  type: remake
-  repo: 'https://www.qotile.net/minidig/disassembly/pitfall.asm'
-  url: 'https://www.biglist.com/lists/stella/archives/200110/msg00153.html'
-  development: complete
-  status: playable
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2025-11-06
-  updated: 2025-11-06
-
 - name: pitfall-js
   originals:
   - Pitfall!
@@ -1578,6 +1563,21 @@
   updated: '2025-01-31'
   images:
   - 'https://meatfighter.com/pitfall-web/images/harry.png'
+
+- name: Pitfall! Disassembly
+  originals:
+  - Pitfall!
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/pitfall.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200110/msg00153.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-06
+  updated: 2025-11-06
 
 - name: PiTris
   originals:
@@ -1792,6 +1792,29 @@
   - MIT
   added: 2025-12-18
   updated: 2025-12-18
+
+- name: Poink
+  originals:
+  - Poing
+  type: clone
+  repo: https://github.com/moechofe/lowresnx-poink
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  - C
+  frameworks:
+  - LowRes NX
+  - SDL2
+  licenses:
+  - MIT
+  images:
+  - https://img.itch.zone/aW1hZ2UvMTQ3MDk4NS84NTc5OTYyLnBuZw==/347x500/fB5MnS.png
+  - https://img.itch.zone/aW1hZ2UvMTQ3MDk4NS84NTc5OTU4LnBuZw==/original/15vLWn.png
+  - https://img.itch.zone/aW1hZ2UvMTQ3MDk4NS84NTc5OTU5LnBuZw==/347x500/dubQhw.png
+  video:
+    youtube: gSGI31Mpeak
+  updated: 2023-05-20
 
 - name: Pokémon Anniversary Red
   originals:
@@ -2067,6 +2090,34 @@
   added: 2026-01-31
   updated: 2026-01-31
 
+- name: Pokémon Polished Crystal
+  originals:
+  - Pokémon Gold and Silver
+  status: playable
+  type: remake
+  repo: 'https://github.com/Rangi42/polishedcrystal'
+  url: 'https://hax.iimarckus.org/topic/6874/'
+  feed: 'https://github.com/Rangi42/polishedcrystal/releases.atom'
+  development: active
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    An upgrade to Pokémon Crystal. Brings features and content up to date, and
+    adds some original content.
+  updated: '2021-10-21'
+  images:
+  - >-
+    https://raw.githubusercontent.com/Rangi42/polishedcrystal/master/screenshots/title-screen.png
+  - >-
+    https://raw.githubusercontent.com/Rangi42/polishedcrystal/master/screenshots/running-shoes.png
+  - >-
+    https://raw.githubusercontent.com/Rangi42/polishedcrystal/master/screenshots/town-map.png
+  video:
+    youtube: d9Zsukb9EKY
+
 - name: Pokémon Puzzle Challenge
   originals:
   - Pokémon Puzzle Challenge
@@ -2120,6 +2171,25 @@
   added: 2026-01-31
   updated: 2026-01-31
 
+- name: Pokemon Stadium 2 (US)
+  originals:
+  - Pokémon Stadium 2
+  type: remake
+  repo: 'https://github.com/pret/pokestadiumgs'
+  development: very active
+  status: semi-playable
+  multiplayer:
+  - Local
+  - Split-screen
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Decompilation of Pokémon Stadium 2 (US).
+  added: 2026-01-31
+  updated: 2026-01-31
+
 - name: Pokemon Stadium (US)
   originals:
   - Pokémon Stadium
@@ -2139,24 +2209,36 @@
   added: 2026-01-31
   updated: 2026-01-31
 
-- name: Pokemon Stadium 2 (US)
+- name: pokemon-tbje
   originals:
-  - Pokémon Stadium 2
-  type: remake
-  repo: 'https://github.com/pret/pokestadiumgs'
-  development: very active
-  status: semi-playable
-  multiplayer:
-  - Local
-  - Split-screen
-  content: commercial
+  - Pokémon
+  type: clone
+  repo: 'https://github.com/zachMahan64/pokemon-tbje'
+  url: >-
+    https://www.reddit.com/r/CLI/comments/1p70mli/i_made_a_full_pokemon_game_for_the_terminal/
+  feed: 'https://github.com/zachMahan64/pokemon-tbje/releases.atom'
+  development: sporadic
+  status: playable
   langs:
-  - C
+  - Java
   licenses:
   - As-is
-  info: Decompilation of Pokémon Stadium 2 (US).
-  added: 2026-01-31
-  updated: 2026-01-31
+  content: commercial
+  added: 2026-03-01
+  updated: 2026-03-01
+  images:
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/title_img.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/battle_sim_demo.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/map.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/move_ratings_demo.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/rocketopolis.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/south_kanto_sea.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/the_colosseum_outside.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/the_colosseum_demo.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/play_menu.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/party_selection_screen.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/pokedex_list.png
+  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/secret_shop.png
 
 - name: Pokémon TCG
   originals:
@@ -2230,36 +2312,107 @@
   added: 2026-01-22
   updated: 2026-01-22
 
-- name: pokemon-tbje
+- name: Pokete
   originals:
   - Pokémon
   type: clone
-  repo: 'https://github.com/zachMahan64/pokemon-tbje'
-  url: >-
-    https://www.reddit.com/r/CLI/comments/1p70mli/i_made_a_full_pokemon_game_for_the_terminal/
-  feed: 'https://github.com/zachMahan64/pokemon-tbje/releases.atom'
-  development: sporadic
+  repo: 'https://github.com/lxgr-linux/pokete'
+  url: 'https://lxgr-linux.github.io/pokete/'
+  feed: 'https://github.com/lxgr-linux/pokete/releases.atom'
+  development: very active
   status: playable
+  content: open
   langs:
-  - Java
+  - Python
+  licenses:
+  - GPL3
+  added: 2025-07-25
+  updated: 2025-07-25
+  images:
+  - 'https://lxgr-linux.github.io/pokete/assets/ss/ss01.png'
+  - https://lxgr-linux.github.io/pokete/assets/ss/ss02.png
+  - https://lxgr-linux.github.io/pokete/assets/ss/ss03.png
+  - https://lxgr-linux.github.io/pokete/assets/ss/ss04.png
+  - https://lxgr-linux.github.io/pokete/assets/ss/ss05.png
+  - https://lxgr-linux.github.io/pokete/assets/ss/ss06.png
+
+- name: PokeTraveler
+  originals:
+  - Pokémon Gold and Silver
+  type: similar
+  repo: 'https://github.com/pokemium/PokeTraveler'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - Go
   licenses:
   - As-is
-  content: commercial
-  added: 2026-03-01
-  updated: 2026-03-01
+  info: A game that just roams the world of Pokemon GSC.
+  updated: 2024-03-13
   images:
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/title_img.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/battle_sim_demo.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/map.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/move_ratings_demo.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/rocketopolis.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/south_kanto_sea.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/the_colosseum_outside.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/the_colosseum_demo.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/play_menu.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/party_selection_screen.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/pokedex_list.png
-  - https://raw.githubusercontent.com/zachMahan64/pokemon-tbje/main/resources/secret_shop.png
+  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo.png'
+  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo2.png'
+  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo3.png'
+  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo4.png'
+
+- name: Pole Position
+  originals:
+  - Pole Position
+  type: official
+  url: 'https://forums.atariage.com/topic/144322-source-code-pole-position/'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: '2025-11-10'
+  updated: '2025-11-10'
+
+- name: Pong²
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://sourceforge.net/projects/pong2.berlios/'
+  url: 'https://web.archive.org/web/20120203233849/http://pong2.berlios.de/'
+  feed: 'https://sourceforge.net/projects/pong2.berlios/rss?path=/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - GPL2
+  info: A Pong-inspired game adding another dimension.
+  added: 2025-09-21
+  updated: 2025-09-21
+  images:
+  - https://web.archive.org/web/20060622003616im_/http://pong2.berlios.de/screenshots/initial-1.png
+  - https://web.archive.org/web/20060622003627im_/http://pong2.berlios.de/screenshots/initial-2.png
+  - https://web.archive.org/web/20060622003548im_/http://pong2.berlios.de/screenshots/initial-3.png
+  - https://web.archive.org/web/20060622003534im_/http://pong2.berlios.de/screenshots/initial-4.png
+  - https://web.archive.org/web/20060622003639im_/http://pong2.berlios.de/screenshots/initial-5.png
+
+- name: Pong50G
+  originals:
+  - Pong
+  type: clone
+  url: 'https://www.hpcalc.org/details/6590'
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2026-01-31
+  updated: 2026-01-31
 
 - name: Pong (2019)
   originals:
@@ -2354,6 +2507,29 @@
   images:
   - 'https://raw.githubusercontent.com/lostjared/Pong.JavaScript/main/pong.jpeg'
 
+- name: pong_sdl
+  originals:
+  - Pong
+  type: clone
+  url: 'https://aaron7eleven.itch.io/pong-sdl'
+  repo: https://github.com/aaron7eleven/pong_sdl
+  feed: 'https://github.com/aaron7eleven/pong_sdl/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-10-02
+  updated: 2025-10-02
+  images:
+  - https://img.itch.zone/aW1hZ2UvMjI5ODcwMi8xMzYyMjg0OC5wbmc=/original/aMHA5x.png
+  - https://img.itch.zone/aW1hZ2UvMjI5ODcwMi8xMzYyMjgzMC5wbmc=/original/IHF%2FH7.png
+  - https://img.itch.zone/aW1hZ2UvMjI5ODcwMi8xMzYyMjg0OS5wbmc=/original/37LyZm.png
+
 - name: The Pong Tutorial
   originals:
   - Pong
@@ -2396,73 +2572,6 @@
   - 'https://pongu.sourceforge.net/images/pongu1.jpg'
   - 'https://pongu.sourceforge.net/images/pongu3.jpg'
   - 'https://pongu.sourceforge.net/images/pongu2.jpg'
-
-- name: pong_sdl
-  originals:
-  - Pong
-  type: clone
-  url: 'https://aaron7eleven.itch.io/pong-sdl'
-  repo: https://github.com/aaron7eleven/pong_sdl
-  feed: 'https://github.com/aaron7eleven/pong_sdl/releases.atom'
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - MIT
-  added: 2025-10-02
-  updated: 2025-10-02
-  images:
-  - https://img.itch.zone/aW1hZ2UvMjI5ODcwMi8xMzYyMjg0OC5wbmc=/original/aMHA5x.png
-  - https://img.itch.zone/aW1hZ2UvMjI5ODcwMi8xMzYyMjgzMC5wbmc=/original/IHF%2FH7.png
-  - https://img.itch.zone/aW1hZ2UvMjI5ODcwMi8xMzYyMjg0OS5wbmc=/original/37LyZm.png
-
-- name: Pong²
-  originals:
-  - Pong
-  type: clone
-  repo: 'https://sourceforge.net/projects/pong2.berlios/'
-  url: 'https://web.archive.org/web/20120203233849/http://pong2.berlios.de/'
-  feed: 'https://sourceforge.net/projects/pong2.berlios/rss?path=/'
-  development: halted
-  status: playable
-  multiplayer:
-  - Competitive
-  - Online
-  - LAN
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  - OpenGL
-  licenses:
-  - GPL2
-  info: A Pong-inspired game adding another dimension.
-  added: 2025-09-21
-  updated: 2025-09-21
-  images:
-  - https://web.archive.org/web/20060622003616im_/http://pong2.berlios.de/screenshots/initial-1.png
-  - https://web.archive.org/web/20060622003627im_/http://pong2.berlios.de/screenshots/initial-2.png
-  - https://web.archive.org/web/20060622003548im_/http://pong2.berlios.de/screenshots/initial-3.png
-  - https://web.archive.org/web/20060622003534im_/http://pong2.berlios.de/screenshots/initial-4.png
-  - https://web.archive.org/web/20060622003639im_/http://pong2.berlios.de/screenshots/initial-5.png
-
-- name: Pong50G
-  originals:
-  - Pong
-  type: clone
-  url: 'https://www.hpcalc.org/details/6590'
-  development: complete
-  status: playable
-  langs:
-  - C
-  licenses:
-  - GPL2
-  added: 2026-01-31
-  updated: 2026-01-31
 
 - name: Pongix
   originals:
@@ -2507,87 +2616,6 @@
   images:
   - https://projects.arduinocontent.cc/cover-images/ae06cbee-a142-4ffe-b817-3be66479c9b6.blob
 
-- name: Poink
-  originals:
-  - Poing
-  type: clone
-  repo: https://github.com/moechofe/lowresnx-poink
-  development: complete
-  status: playable
-  langs:
-  - BASIC
-  - C
-  frameworks:
-  - LowRes NX
-  - SDL2
-  licenses: 
-  - MIT
-  images:
-  - https://img.itch.zone/aW1hZ2UvMTQ3MDk4NS84NTc5OTYyLnBuZw==/347x500/fB5MnS.png
-  - https://img.itch.zone/aW1hZ2UvMTQ3MDk4NS84NTc5OTU4LnBuZw==/original/15vLWn.png
-  - https://img.itch.zone/aW1hZ2UvMTQ3MDk4NS84NTc5OTU5LnBuZw==/347x500/dubQhw.png
-  video:
-    youtube: gSGI31Mpeak
-  updated: 2023-05-20
-
-- name: Pokete
-  originals:
-  - Pokémon
-  type: clone
-  repo: 'https://github.com/lxgr-linux/pokete'
-  url: 'https://lxgr-linux.github.io/pokete/'
-  feed: 'https://github.com/lxgr-linux/pokete/releases.atom'
-  development: very active
-  status: playable
-  content: open
-  langs:
-  - Python
-  licenses:
-  - GPL3
-  added: 2025-07-25
-  updated: 2025-07-25
-  images:
-  - 'https://lxgr-linux.github.io/pokete/assets/ss/ss01.png'
-  - https://lxgr-linux.github.io/pokete/assets/ss/ss02.png
-  - https://lxgr-linux.github.io/pokete/assets/ss/ss03.png
-  - https://lxgr-linux.github.io/pokete/assets/ss/ss04.png
-  - https://lxgr-linux.github.io/pokete/assets/ss/ss05.png
-  - https://lxgr-linux.github.io/pokete/assets/ss/ss06.png
-
-- name: PokeTraveler
-  originals:
-  - Pokémon Gold and Silver
-  type: similar
-  repo: 'https://github.com/pokemium/PokeTraveler'
-  development: halted
-  status: semi-playable
-  content: commercial
-  langs:
-  - Go
-  licenses:
-  - As-is
-  info: A game that just roams the world of Pokemon GSC.
-  updated: 2024-03-13
-  images:
-  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo.png'
-  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo2.png'
-  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo3.png'
-  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo4.png'
-
-- name: Pole Position
-  originals:
-  - Pole Position
-  type: official
-  url: 'https://forums.atariage.com/topic/144322-source-code-pole-position/'
-  development: complete
-  status: playable
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: '2025-11-10'
-  updated: '2025-11-10'
-
 - name: Portable Executable Zork
   originals:
   - Zork
@@ -2608,6 +2636,25 @@
   - >-
     https://github.com/user-attachments/assets/35e9b894-9114-4bb9-bcaa-a186e454b043
 
+- name: Porting Pong From Flash To C++
+  originals:
+  - Pong
+  type: clone
+  url: 'https://rembound.com/articles/porting-pong-from-flash-to-cpp'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2025-10-15
+  updated: 2025-10-15
+  images:
+  - 'https://rembound.com/files/pong-cpp-sdl2.png'
+
 - name: POSTAL (Dreamcast)
   originals:
   - Postal
@@ -2622,6 +2669,119 @@
   - GPL2
   added: 2026-03-21
   updated: 2026-03-21
+
+- name: POSTAL-SourceCode
+  originals:
+  - Postal
+  type: remake
+  repo: https://github.com/RWS-Studios/POSTAL-SourceCode
+  url: https://www.pcgamer.com/postal-goes-open-source-after-almost-20-years/
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  info: POSTAL 1 source code
+  added: 2019-06-26
+  updated: 2026-02-03
+  images:
+  - https://runningwithscissors.com/wp-content/uploads/2016/09/p1_screen_02-300x225.png
+
+- name: The Powder Toy
+  originals:
+  - Powder Game
+  type: clone
+  repo: https://github.com/The-Powder-Toy/The-Powder-Toy
+  feed: https://github.com/The-Powder-Toy/The-Powder-Toy/releases.atom
+  url: https://powdertoy.co.uk/
+  development: very active
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  updated: 2024-03-19
+  images:
+  - https://powdertoy.co.uk/Themes/Next/Design/Images/Screen3.png
+  - https://powdertoy.co.uk/Themes/Next/Design/Images/Screen2.png
+  - https://powdertoy.co.uk/Themes/Next/Design/Images/Screen1.png
+  video:
+    youtube: QKfwYOg1yog
+
+- name: Powerslave EX
+  originals:
+  - Powerslave
+  repo: https://github.com/svkaiser/PowerslaveEX
+  url: https://powerslaveex.wordpress.com/
+  development: halted
+  status: playable
+  content: commercial
+  licenses:
+  - GPL3
+  type: remake
+  updated: 2020-01-05
+  info: Remake of the PlayStation version of the game
+  frameworks:
+  - SDL2
+  langs:
+  - C++
+  video:
+    youtube: -zZYsNvPwEA
+
+- name: PowerslaveGDX
+  originals:
+  - Powerslave
+  type: remake
+  repo: 'https://gitlab.com/m210/PowerslaveGDX'
+  url: 'https://m210.duke4.net/'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - Java
+  frameworks:
+  - libGDX
+  licenses:
+  - Custom
+  info: PC version (BUILD engine based)
+  updated: 2024-03-20
+  video:
+    youtube: wRmQHJnAPac
+
+- name: Powerslide remake
+  originals:
+  - Powerslide
+  type: remake
+  repo: https://github.com/dm999/powerslideremake
+  url: https://www.moddb.com/mods/powerslideremake
+  feed: https://rss.moddb.com/mods/powerslideremake/articles/feed/rss.xml
+  development: sporadic
+  status: semi-playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OGRE
+  - SFML
+  licenses:
+  - MIT
+  updated: 2024-03-21
+  multiplayer:
+  - Competitive
+  - Online
+  images:
+  - https://media.moddb.com/cache/images/mods/1/42/41287/thumb_620x2000/02.jpg
+  - https://media.moddb.com/cache/images/mods/1/42/41287/thumb_620x2000/04.jpg
+  - https://media.moddb.com/cache/images/mods/1/42/41287/thumb_620x2000/01.jpg
+  video:
+    moddb: 2035338
 
 - name: ppengine
   originals:
@@ -2642,6 +2802,42 @@
   updated: 2026-02-13
   video:
     youtube: I7_rbL6dtxs
+
+- name: pq2
+  frameworks:
+  - ncurses
+  - Qt
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  development: halted
+  originals:
+  - Progress Quest
+  status: semi-playable
+  repo: https://github.com/nbollom/pq2
+  type: remake
+  updated: 2022-12-21
+
+- name: PrBoom+
+  images:
+  - https://sourceforge.net/p/prboom-plus/screenshot/222124.jpg
+  langs:
+  - C
+  licenses:
+  - GPL2
+  development: halted
+  originals:
+  - Doom
+  - Heretic
+  - Hexen
+  frameworks:
+  - SDL2
+  status: playable
+  repo: https://github.com/coelckers/prboom-plus
+  type: remake
+  url: https://prboom-plus.sourceforge.net/
+  updated: 2024-03-22
 
 - name: Prehistorik_js
   originals:
@@ -2725,6 +2921,68 @@
   - 'https://media.moddb.com/images/mods/1/70/69779/zHVHcT.jpg'
   - 'https://media.moddb.com/images/mods/1/70/69779/6XOxZY.jpg'
 
+- name: Prime World
+  originals:
+  - Prime World
+  type: official
+  repo: 'https://github.com/nival/Prime-World'
+  url: 'https://habr.com/en/posts/845830/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  - Co-op
+  content: commercial
+  langs:
+  - C++
+  - 'C#'
+  frameworks:
+  - Qt
+  licenses:
+  - Custom
+  added: 2025-11-30
+  updated: 2025-11-30
+  video:
+    youtube: Fkd-zva4npI
+
+- name: Prince-Monogame
+  originals:
+  - Prince of Persia 2
+  langs:
+  - C#
+  frameworks:
+  - MonoGame
+  - OpenGL
+  - OpenTK
+  - SDL2
+  licenses:
+  - GPL2
+  development: halted
+  status: playable
+  repo: https://github.com/salvadorc17/Prince-Monogame
+  feed: https://github.com/salvadorc17/Prince-Monogame/releases.atom
+  type: remake
+  updated: 2024-03-16
+  images:
+  - https://raw.githubusercontent.com/salvadorc17/Prince-Monogame/master/preview.png
+
+- name: Prince of Persia Apple II
+  originals:
+  - Prince of Persia
+  type: official
+  repo: 'https://github.com/jmechner/Prince-of-Persia-Apple-II'
+  url: https://www.jordanmechner.com/books/journals
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  updated: '2022-06-18'
+  video:
+    youtube: Jbk5qH2-1S8
+
 - name: Prince of Persia (JS) - princejs.com
   originals:
   - Prince of Persia
@@ -2747,27 +3005,6 @@
   updated: 2024-03-15
   images:
   - 'https://pbs.twimg.com/media/FI6xwpnX0Acf6Lt?format=jpg&name=4096x4096'
-
-- name: Prince-Monogame
-  originals:
-  - Prince of Persia 2
-  langs:
-  - C#
-  frameworks:
-  - MonoGame
-  - OpenGL
-  - OpenTK
-  - SDL2
-  licenses:
-  - GPL2
-  development: halted
-  status: playable
-  repo: https://github.com/salvadorc17/Prince-Monogame
-  feed: https://github.com/salvadorc17/Prince-Monogame/releases.atom
-  type: remake
-  updated: 2024-03-16
-  images:
-  - https://raw.githubusercontent.com/salvadorc17/Prince-Monogame/master/preview.png
 
 - name: Privacy Friendly 2048
   originals:
@@ -2809,6 +3046,43 @@
   images:
   - https://secuso.aifb.kit.edu/img/Apps/Neue%20Apps/Minesweeper%20-%20EN%20(1).PNG
   - https://secuso.aifb.kit.edu/img/Apps/Neue%20Apps/Minesweeper%20-%20EN%20(3).PNG
+
+- name: Privateer - Gemini Gold
+  images:
+  - https://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad.png
+  - https://privateer.sourceforge.net/images/screenshot-1-approaching-planet-under-attack.png
+  - https://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png
+  - https://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  development: halted
+  originals:
+  - 'Wing Commander: Privateer'
+  status: playable
+  repo: https://sourceforge.net/projects/privateer/
+  type: remake
+  url: https://privateer.sourceforge.net/
+  updated: 2023-01-10
+  video:
+    youtube: OtjV-rXNKjk
+
+- name: progress-quest
+  frameworks:
+  - Qt
+  info: More or less feature parity with the original, saving/loading/etc. works.
+  langs:
+  - C++
+  licenses:
+  - MIT
+  development: halted
+  originals:
+  - Progress Quest
+  status: unplayable
+  repo: https://github.com/sandsmark/progress-quest
+  type: remake
+  updated: 2023-01-20
 
 - name: Project Aedra
   originals:
@@ -2897,24 +3171,44 @@
   - 'https://www.tomyun.pe.kr/projectanise/screenshot/crescent_03.png'
   - 'https://www.tomyun.pe.kr/projectanise/screenshot/jack_00.png'
 
-- name: Project-Uranium-Godot
-  originals:
-  - Pokémon Uranium
-  type: remake
-  repo: 'https://github.com/acedogblast/Project-Uranium-Godot'
-  development: halted
-  status: unplayable
-  content: free
-  langs:
-  - GDScript
+- name: Project Carrot
   frameworks:
-  - Godot
+  - Qt
+  - SFML
+  info: Needs original game data
+  langs:
+  - C++
   licenses:
   - MIT
-  info: A work in progress re-implementation of the game Pokemon Uranium in the Godot Engine.
-  updated: 2024-03-17
+  development: halted
+  originals:
+  - Jazz Jackrabbit 2
+  repo: https://github.com/soulweaver91/project-carrot
+  status: semi-playable
+  type: remake
+  updated: 2024-03-23
+  url: https://carrot.soulweaver.fi/
+  images:
+  - https://carrot.soulweaver.fi/assets/screen1.png
   video:
-    youtube: jIErfbevFOM
+    youtube: dQqU2YRLoqU
+
+- name: Project Dollhouse
+  frameworks:
+  - MonoGame
+  langs:
+  - C#
+  licenses:
+  - MPL
+  development: sporadic
+  originals:
+  - The Sims Online
+  status: semi-playable
+  repo: https://github.com/Afr0Games/Project-Dollhouse
+  type: remake
+  updated: 2021-04-24
+  video:
+    youtube: -iNQ-6LHMUs
 
 - name: Project One
   originals:
@@ -2957,6 +3251,25 @@
   video:
     youtube: mVzuBIBCL5o
 
+- name: Project-Uranium-Godot
+  originals:
+  - Pokémon Uranium
+  type: remake
+  repo: 'https://github.com/acedogblast/Project-Uranium-Godot'
+  development: halted
+  status: unplayable
+  content: free
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - MIT
+  info: A work in progress re-implementation of the game Pokemon Uranium in the Godot Engine.
+  updated: 2024-03-17
+  video:
+    youtube: jIErfbevFOM
+
 - name: 'Project: Random(SKY)'
   originals:
   - Tyrian
@@ -2983,348 +3296,6 @@
   - 'https://a.fsdn.com/con/app/proj/ssg-engine/screenshots/scr4.jpg'
   video:
     youtube: NPAfcB5dqRo
-
-- name: ProtoType
-  originals:
-  - R-Type
-  type: clone
-  repo: 'https://github.com/ptitSeb/prototype'
-  url: 'http://ptitseb.github.io/prototype/'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  - SDL
-  licenses:
-  - PD
-  info: 'Ported to OpenPandora, Linux, ODROID and AmigaOS4'
-  added: '2024-12-30'
-  updated: '2024-12-30'
-  images:
-  - >-
-    https://web.archive.org/web/20150919133054if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot1.jpg
-  - >-
-    https://web.archive.org/web/20150919200036if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot2.jpg
-  - >-
-    https://web.archive.org/web/20150919135545if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot3.jpg
-  - >-
-    https://web.archive.org/web/20150919135232if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot4.jpg
-
-- name: Pokémon Polished Crystal
-  originals:
-  - Pokémon Gold and Silver
-  status: playable
-  type: remake
-  repo: 'https://github.com/Rangi42/polishedcrystal'
-  url: 'https://hax.iimarckus.org/topic/6874/'
-  feed: 'https://github.com/Rangi42/polishedcrystal/releases.atom'
-  development: active
-  content: commercial
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: >-
-    An upgrade to Pokémon Crystal. Brings features and content up to date, and
-    adds some original content.
-  updated: '2021-10-21'
-  images:
-  - >-
-    https://raw.githubusercontent.com/Rangi42/polishedcrystal/master/screenshots/title-screen.png
-  - >-
-    https://raw.githubusercontent.com/Rangi42/polishedcrystal/master/screenshots/running-shoes.png
-  - >-
-    https://raw.githubusercontent.com/Rangi42/polishedcrystal/master/screenshots/town-map.png
-  video:
-    youtube: d9Zsukb9EKY
-
-- name: Porting Pong From Flash To C++
-  originals:
-  - Pong
-  type: clone
-  url: 'https://rembound.com/articles/porting-pong-from-flash-to-cpp'
-  development: halted
-  status: playable
-  content: free
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  licenses:
-  - As-is
-  added: 2025-10-15
-  updated: 2025-10-15
-  images:
-  - 'https://rembound.com/files/pong-cpp-sdl2.png'
-
-- name: POSTAL-SourceCode
-  originals:
-  - Postal
-  type: remake
-  repo: https://github.com/RWS-Studios/POSTAL-SourceCode
-  url: https://www.pcgamer.com/postal-goes-open-source-after-almost-20-years/
-  development: sporadic
-  status: playable
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL2
-  info: POSTAL 1 source code
-  added: 2019-06-26
-  updated: 2026-02-03
-  images:
-  - https://runningwithscissors.com/wp-content/uploads/2016/09/p1_screen_02-300x225.png
-
-- name: The Powder Toy
-  originals:
-  - Powder Game
-  type: clone
-  repo: https://github.com/The-Powder-Toy/The-Powder-Toy
-  feed: https://github.com/The-Powder-Toy/The-Powder-Toy/releases.atom
-  url: https://powdertoy.co.uk/
-  development: very active
-  status: playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL3
-  updated: 2024-03-19
-  images:
-  - https://powdertoy.co.uk/Themes/Next/Design/Images/Screen3.png
-  - https://powdertoy.co.uk/Themes/Next/Design/Images/Screen2.png
-  - https://powdertoy.co.uk/Themes/Next/Design/Images/Screen1.png
-  video:
-    youtube: QKfwYOg1yog
-
-- name: PowerslaveGDX
-  originals:
-  - Powerslave
-  type: remake
-  repo: 'https://gitlab.com/m210/PowerslaveGDX'
-  url: 'https://m210.duke4.net/'
-  development: sporadic
-  status: playable
-  content: commercial
-  langs:
-  - Java
-  frameworks:
-  - libGDX
-  licenses:
-  - Custom
-  info: PC version (BUILD engine based)
-  updated: 2024-03-20
-  video:
-    youtube: wRmQHJnAPac
-
-- name: Powerslave EX
-  originals:
-  - Powerslave
-  repo: https://github.com/svkaiser/PowerslaveEX
-  url: https://powerslaveex.wordpress.com/
-  development: halted
-  status: playable
-  content: commercial
-  licenses:
-  - GPL3
-  type: remake
-  updated: 2020-01-05
-  info: Remake of the PlayStation version of the game
-  frameworks:
-  - SDL2
-  langs:
-  - C++
-  video:
-    youtube: -zZYsNvPwEA
-
-- name: Powerslide remake
-  originals:
-  - Powerslide
-  type: remake
-  repo: https://github.com/dm999/powerslideremake
-  url: https://www.moddb.com/mods/powerslideremake
-  feed: https://rss.moddb.com/mods/powerslideremake/articles/feed/rss.xml
-  development: sporadic
-  status: semi-playable
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - OGRE
-  - SFML
-  licenses:
-  - MIT
-  updated: 2024-03-21
-  multiplayer:
-  - Competitive
-  - Online
-  images:
-  - https://media.moddb.com/cache/images/mods/1/42/41287/thumb_620x2000/02.jpg
-  - https://media.moddb.com/cache/images/mods/1/42/41287/thumb_620x2000/04.jpg
-  - https://media.moddb.com/cache/images/mods/1/42/41287/thumb_620x2000/01.jpg
-  video:
-    moddb: 2035338
-
-- name: pq2
-  frameworks:
-  - ncurses
-  - Qt
-  langs:
-  - C++
-  licenses:
-  - GPL3
-  development: halted
-  originals:
-  - Progress Quest
-  status: semi-playable
-  repo: https://github.com/nbollom/pq2
-  type: remake
-  updated: 2022-12-21
-
-- name: PrBoom+
-  images:
-  - https://sourceforge.net/p/prboom-plus/screenshot/222124.jpg
-  langs:
-  - C
-  licenses:
-  - GPL2
-  development: halted
-  originals:
-  - Doom
-  - Heretic
-  - Hexen
-  frameworks:
-  - SDL2
-  status: playable
-  repo: https://github.com/coelckers/prboom-plus
-  type: remake
-  url: https://prboom-plus.sourceforge.net/
-  updated: 2024-03-22
-
-- name: Prime World
-  originals:
-  - Prime World
-  type: official
-  repo: 'https://github.com/nival/Prime-World'
-  url: 'https://habr.com/en/posts/845830/'
-  development: complete
-  status: playable
-  multiplayer:
-  - Online
-  - Co-op
-  content: commercial
-  langs:
-  - C++
-  - 'C#'
-  frameworks:
-  - Qt
-  licenses:
-  - Custom
-  added: 2025-11-30
-  updated: 2025-11-30
-  video:
-    youtube: Fkd-zva4npI
-
-- name: Prince of Persia Apple II
-  originals:
-  - Prince of Persia
-  type: official
-  repo: 'https://github.com/jmechner/Prince-of-Persia-Apple-II'
-  url: https://www.jordanmechner.com/books/journals
-  development: complete
-  status: playable
-  content: commercial
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  updated: '2022-06-18'
-  video:
-    youtube: Jbk5qH2-1S8
-
-- name: Privateer - Gemini Gold
-  images:
-  - https://privateer.sourceforge.net/images/screenshot-3-perry-superbase-landing-pad.png
-  - https://privateer.sourceforge.net/images/screenshot-1-approaching-planet-under-attack.png
-  - https://privateer.sourceforge.net/images/screenshot-4-merchant-guild-room.png
-  - https://privateer.sourceforge.net/images/screenshot-5-kilrathi-gothri-explosion.png
-  langs:
-  - C++
-  licenses:
-  - GPL2
-  development: halted
-  originals:
-  - 'Wing Commander: Privateer'
-  status: playable
-  repo: https://sourceforge.net/projects/privateer/
-  type: remake
-  url: https://privateer.sourceforge.net/
-  updated: 2023-01-10
-  video:
-    youtube: OtjV-rXNKjk
-
-- name: progress-quest
-  frameworks:
-  - Qt
-  info: More or less feature parity with the original, saving/loading/etc. works.
-  langs:
-  - C++
-  licenses:
-  - MIT
-  development: halted
-  originals:
-  - Progress Quest
-  status: unplayable
-  repo: https://github.com/sandsmark/progress-quest
-  type: remake
-  updated: 2023-01-20
-
-- name: Project Carrot
-  frameworks:
-  - Qt
-  - SFML
-  info: Needs original game data
-  langs:
-  - C++
-  licenses:
-  - MIT
-  development: halted
-  originals:
-  - Jazz Jackrabbit 2
-  repo: https://github.com/soulweaver91/project-carrot
-  status: semi-playable
-  type: remake
-  updated: 2024-03-23
-  url: https://carrot.soulweaver.fi/
-  images:
-  - https://carrot.soulweaver.fi/assets/screen1.png
-  video:
-    youtube: dQqU2YRLoqU
-
-- name: Project Dollhouse
-  frameworks:
-  - MonoGame
-  langs:
-  - C#
-  licenses:
-  - MPL
-  development: sporadic
-  originals:
-  - The Sims Online
-  status: semi-playable
-  repo: https://github.com/Afr0Games/Project-Dollhouse
-  type: remake
-  updated: 2021-04-24
-  video:
-    youtube: -iNQ-6LHMUs
 
 - name: 'Project: Xenocide'
   langs:
@@ -3381,6 +3352,35 @@
   - https://quakeone.com/proquake/media/fitzquake_mark_v.jpg
   - https://quakeone.com/~images/news/enginex000.jpg
   - https://quakeone.com/proquake/media/undergate.png
+
+- name: ProtoType
+  originals:
+  - R-Type
+  type: clone
+  repo: 'https://github.com/ptitSeb/prototype'
+  url: 'http://ptitseb.github.io/prototype/'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  - SDL
+  licenses:
+  - PD
+  info: 'Ported to OpenPandora, Linux, ODROID and AmigaOS4'
+  added: '2024-12-30'
+  updated: '2024-12-30'
+  images:
+  - >-
+    https://web.archive.org/web/20150919133054if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot1.jpg
+  - >-
+    https://web.archive.org/web/20150919200036if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot2.jpg
+  - >-
+    https://web.archive.org/web/20150919135545if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot3.jpg
+  - >-
+    https://web.archive.org/web/20150919135232if_/http://xout.blackened-interactive.com/ProtoType/ScreenShot4.jpg
 
 - name: proxx
   development: complete
@@ -3494,22 +3494,6 @@
   repo: https://github.com/jvlppm/pucpr-ld-parodius
   type: remake
   updated: 2015-06-01
-
-- name: Queen of Phobos
-  originals:
-  - The Queen of Phobos
-  type: official
-  repo: 'https://github.com/savetz/Phoenix_QueenOfPhobos'
-  development: complete
-  status: playable
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-02-19
-  updated: 2026-02-19
-  images:
-  - https://raw.githubusercontent.com/savetz/Phoenix_QueenOfPhobos/main/Resources/Screenshot.png
 
 - name: PunkPong
   originals:
@@ -3964,6 +3948,24 @@
   type: remake
   updated: 2022-04-22
 
+- name: Python 2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/BinaryGuo/Py2048'
+  url: 'https://pypi.org/project/python2048/'
+  feed: 'https://pypi.org/rss/project/python2048/releases.xml'
+  development: sporadic
+  status: semi-playable
+  langs:
+  - Python
+  frameworks:
+  - pygame
+  licenses:
+  - MIT
+  added: 2025-09-27
+  updated: 2025-09-27
+
 - name: Python Kye
   langs:
   - Python
@@ -4005,6 +4007,22 @@
   video:
     youtube: Qg16VhEo2Qs
 
+- name: Pythonc
+  originals:
+  - Snake
+  type: clone
+  url: 'https://www.ticalc.org/archives/files/fileinfo/311/31117.html'
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-01-18
+  updated: 2026-01-18
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/401/40122.gif'
+
 - name: Pythonista Minesweeper
   originals:
   - Minesweeper
@@ -4025,24 +4043,6 @@
   - >-
     https://raw.githubusercontent.com/mevdschee/pythonista-minesweeper/refs/heads/master/screenshots/minesweeper_ipad.jpg
 
-- name: Python 2048
-  originals:
-  - '2048'
-  type: clone
-  repo: 'https://github.com/BinaryGuo/Py2048'
-  url: 'https://pypi.org/project/python2048/'
-  feed: 'https://pypi.org/rss/project/python2048/releases.xml'
-  development: sporadic
-  status: semi-playable
-  langs:
-  - Python
-  frameworks:
-  - pygame
-  licenses:
-  - MIT
-  added: 2025-09-27
-  updated: 2025-09-27
-
 - name: PythonPlantsVsZombies
   originals:
   - Plants vs. Zombies
@@ -4062,22 +4062,6 @@
     https://raw.githubusercontent.com/marblexu/PythonPlantsVsZombies/master/demo/demo1.jpg
   - >-
     https://raw.githubusercontent.com/marblexu/PythonPlantsVsZombies/master/demo/demo2.jpg
-
-- name: Pythonc
-  originals:
-  - Snake
-  type: clone
-  url: 'https://www.ticalc.org/archives/files/fileinfo/311/31117.html'
-  development: complete
-  status: playable
-  langs:
-  - C
-  licenses:
-  - As-is
-  added: 2026-01-18
-  updated: 2026-01-18
-  images:
-  - 'https://www.ticalc.org/archives/files/ss/401/40122.gif'
 
 - name: PyTouhou
   images:

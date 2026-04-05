@@ -107,28 +107,6 @@
   url: http://abuse.zoy.org/
   content: swappable
 
-- name: Abuse (Xenoveritas)
-  originals:
-  - Abuse
-  type: remake
-  repo: https://github.com/Xenoveritas/abuse
-  development: halted
-  status: playable
-  content: free
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - PD
-  - GPL2
-  - WTFPL
-  added: 2022-06-06
-  updated: 2024-11-25
-  images:
-  - https://holarse.de/sites/default/files/2011-12-11-313/abuse1.png
-  - https://holarse.de/sites/default/files/2011-12-11-313/abuse2.png
-
 - name: Abuse 1996
   originals:
   - Abuse
@@ -184,6 +162,28 @@
   - https://github.com/user-attachments/assets/143352b6-dfe5-474f-926d-dd7f74548a85
   - https://github.com/user-attachments/assets/89ca0cb7-a63a-4a18-a804-3604b4fc0214
   - https://github.com/user-attachments/assets/72f5c68b-0c2f-4da6-a372-be36dbafd9a4
+
+- name: Abuse (Xenoveritas)
+  originals:
+  - Abuse
+  type: remake
+  repo: https://github.com/Xenoveritas/abuse
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - PD
+  - GPL2
+  - WTFPL
+  added: 2022-06-06
+  updated: 2024-11-25
+  images:
+  - https://holarse.de/sites/default/files/2011-12-11-313/abuse1.png
+  - https://holarse.de/sites/default/files/2011-12-11-313/abuse2.png
 
 - name: Abyss Engine
   originals:
@@ -284,6 +284,29 @@
   images:
   - https://raw.githubusercontent.com/AdaDoom3/AdaDoom3/master/Object/EP2PUGuX0AA2Pz_.jpg
 
+- name: Advanced Strategic Command
+  images:
+  - https://www.asc-hq.org/screenshots/screen05.jpg
+  - https://www.asc-hq.org/screenshots/screen07.jpg
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - GTK
+  licenses:
+  - GPL2
+  development: complete
+  originals:
+  - Battle Isle series
+  repo: https://github.com/ValHaris/asc-hq
+  status: playable
+  multiplayer:
+  - Competitive
+  type: clone
+  added: 2014-08-14
+  updated: 2023-08-28
+  url: https://www.asc-hq.org
+
 - name: Advent
   originals:
   - Colossal Cave Adventure
@@ -332,29 +355,6 @@
   updated: 2026-02-11
   images:
   - https://raw.githubusercontent.com/savetz/Phoenix_AdventureInTime/main/Resources/Screenshot.png
-
-- name: Advanced Strategic Command
-  images:
-  - https://www.asc-hq.org/screenshots/screen05.jpg
-  - https://www.asc-hq.org/screenshots/screen07.jpg
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  - GTK
-  licenses:
-  - GPL2
-  development: complete
-  originals:
-  - Battle Isle series
-  repo: https://github.com/ValHaris/asc-hq
-  status: playable
-  multiplayer:
-  - Competitive
-  type: clone
-  added: 2014-08-14
-  updated: 2023-08-28
-  url: https://www.asc-hq.org
 
 - name: Adventureland
   originals:
@@ -434,22 +434,6 @@
   added: 2025-09-16
   updated: 2025-09-16
 
-- name: Agony
-  originals:
-  - Agony
-  type: official
-  repo: 'https://aminet.net/package/game/shoot/YvesGrolet-sources'
-  url: 'https://www.facebook.com/yves.grolet/posts/10222868958655944'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - Assembly
-  licenses:
-  - Custom
-  added: 2025-11-24
-  updated: 2025-11-24
-
 - name: Agendaroids
   images:
   - https://s.uvlist.net/n/y2009/01/56211.jpg
@@ -467,24 +451,21 @@
   updated: 2022-02-05
   url: http://www.newbreedsoftware.com/agendaroids/
 
-- name: Amiga Cannonball-C
+- name: Agony
   originals:
-  - Out Run
-  type: remake
-  repo: 'https://github.com/lantus/Cannonball-C'
-  development: halted
+  - Agony
+  type: official
+  repo: 'https://aminet.net/package/game/shoot/YvesGrolet-sources'
+  url: 'https://www.facebook.com/yves.grolet/posts/10222868958655944'
+  development: complete
   status: playable
-  content: commercial
+  content: free
   langs:
-  - C
-  frameworks:
-  - SDL
-  - OpenGL
+  - Assembly
   licenses:
-  - As-is
-  info: Cannonball for the Amiga ported to C
-  added: 2026-03-17
-  updated: 2026-03-17
+  - Custom
+  added: 2025-11-24
+  updated: 2025-11-24
 
 - name: Air-Sea Battle Disassembly
   originals:
@@ -567,72 +548,6 @@
   - 'https://airpong.sourceforge.net/sights/beach-game.jpg'
   - 'https://airpong.sourceforge.net/sights/old-menu.jpg'
   - 'https://airpong.sourceforge.net/sights/old-game.jpg'
-
-- name: Archaos
-  originals:
-  - 'Chaos: The Battle of Wizards'
-  type: remake
-  repo: 'https://github.com/lewster32/archaos'
-  url: 'https://www.rotates.org/category/projects/archaos-projects/'
-  feed: 'https://www.rotates.org/category/projects/archaos-projects/feed/'
-  development: very active
-  status: playable
-  multiplayer:
-  - Local
-  content: free
-  langs:
-  - TypeScript
-  - Vue
-  frameworks:
-  - Vue.js
-  - Phaser
-  licenses:
-  - As-is
-  added: 2026-01-07
-  updated: 2026-01-07
-  images:
-  - https://rotates.org/wp-content/uploads/2013/03/archaos-pathfinding1.gif
-
-- name: Arx Fatalis
-  originals:
-  - Arx Fatalis
-  type: official
-  repo: 'https://github.com/johndrinkwater/arx-fatalis'
-  url: >-
-    https://web.archive.org/web/20151007213705/http://bethblog.com/2011/01/14/arx-fatalis-source-code-patch-released/
-  development: complete
-  status: playable
-  content: commercial
-  langs:
-  - C++
-  licenses:
-  - GPL3
-  added: 2025-11-27
-  updated: 2025-11-27
-
-- name: Asteroid
-  originals:
-  - Asteroids
-  type: remake
-  repo: 'https://lab.burn.capital/chaz/asteroid'
-  url: 'https://chaz.human.codes/asteroid/'
-  feed: 'https://lab.burn.capital/chaz/asteroid.atom'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - C
-  frameworks:
-  - OpenGL
-  - GTK
-  - SDL
-  licenses:
-  - GPL3
-  info: Modern version of the arcade classic Asteroids
-  added: 2026-03-06
-  updated: 2026-03-06
-  images:
-  - 'https://chaz.human.codes/asteroid/asteroid-screenshot.png'
 
 - name: Ajax3d
   images:
@@ -746,6 +661,24 @@
   updated: 2026-01-08
   images:
   - https://www.calculatorti.com/media/images/programs/ping-pong.jpg
+
+- name: Alien3-C64
+  originals:
+  - Alien 3
+  type: official
+  repo: 'https://github.com/milkeybabes/Alien3-C64'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Alien3 Commodore C64 Source Code.
+  added: 2026-01-12
+  updated: 2026-01-12
+  images:
+  - https://www.vintageisthenewold.com/wp-content/uploads/2019/05/71811-Alien_3_E-1496684132.png
 
 - name: Alien 8
   images:
@@ -870,24 +803,6 @@
   - 'https://os4depot.net/filedata/snapshot/1376_2_snap.jpeg'
   - 'https://os4depot.net/filedata/snapshot/1376_3_snap.jpeg'
 
-- name: Alien3-C64
-  originals:
-  - Alien³
-  type: official
-  repo: 'https://github.com/milkeybabes/Alien3-C64'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: Alien3 Commodore C64 Source Code.
-  added: 2026-01-12
-  updated: 2026-01-12
-  images:
-  - https://www.vintageisthenewold.com/wp-content/uploads/2019/05/71811-Alien_3_E-1496684132.png
-
 - name: Aliens
   originals:
   - Galaxian
@@ -910,24 +825,6 @@
   - https://web.archive.org/web/20250211170144if_/http://www.newbreedsoftware.com/aliens/screenshots/swooping.gif
   - https://web.archive.org/web/20250211170143if_/http://www.newbreedsoftware.com/aliens/screenshots/marching.gif
 
-- name: Aliens Vs Predator source update
-  originals:
-  - Aliens Versus Predator
-  type: remake
-  repo: 'https://app.assembla.com/spaces/AvP/trac_subversion_tool'
-  url: >-
-    https://web.archive.org/web/20130118133414/http://homepage.eircom.net/~duncandsl/avp/
-  development: halted
-  status: playable
-  content: commercial
-  langs:
-  - C
-  - C++
-  licenses:
-  - Custom
-  added: 2025-11-07
-  updated: 2025-11-07
-
 - name: Aliens vs. Predator Gold
   originals:
   - Aliens Versus Predator
@@ -945,6 +842,24 @@
   - As-is
   added: 2025-11-27
   updated: 2025-11-27
+
+- name: Aliens Vs Predator source update
+  originals:
+  - Aliens Versus Predator
+  type: remake
+  repo: 'https://app.assembla.com/spaces/AvP/trac_subversion_tool'
+  url: >-
+    https://web.archive.org/web/20130118133414/http://homepage.eircom.net/~duncandsl/avp/
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  - C++
+  licenses:
+  - Custom
+  added: 2025-11-07
+  updated: 2025-11-07
 
 - name: Alienwave
   originals:
@@ -1179,6 +1094,25 @@
   - 'https://os4depot.net/filedata/snapshot/10928_1_snap.jpg'
   - 'https://os4depot.net/filedata/snapshot/10928_2_snap.jpg'
   - 'https://keasigmadelta.com/wp-content/uploads/2025/01/AmiCraftNova-1.jpg'
+
+- name: Amiga Cannonball-C
+  originals:
+  - Out Run
+  type: remake
+  repo: 'https://github.com/lantus/Cannonball-C'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - As-is
+  info: Cannonball for the Amiga ported to C
+  added: 2026-03-17
+  updated: 2026-03-17
 
 - name: 'Amnesia: A Machine for Pigs'
   originals:
@@ -1541,41 +1475,6 @@
   images:
   - https://raw.githubusercontent.com/malandrin/another-world-suite/main/screenshots/game.gif
 
-- name: anteat
-  originals:
-  - The Anteater
-  type: clone
-  repo: 'http://www.newbreedsoftware.com/atari/nomam2016/anteat.txt'
-  url: 'http://www.newbreedsoftware.com/atari/nomam2016/anteat.html'
-  development: complete
-  status: playable
-  langs:
-  - BASIC
-  licenses:
-  - As-is
-  info: For the NOMAM 2016 "Basic 10-Liners" contest.
-  added: 2026-02-24
-  updated: 2026-02-24
-  images:
-  - https://web.archive.org/web/20250105222047if_/http://www.newbreedsoftware.com/atari/nomam2016/anteat.png
-
-- name: Antiquity
-  originals:
-  - Civilization
-  type: clone
-  repo: 'https://github.com/gondur/Antiquity'
-  url: >-
-    https://web.archive.org/web/20091028060033/http://geocities.com/jvaldeztoo/cph/CSArchives/Antiquity027/Antiquity.htm
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - Pascal
-  licenses:
-  - As-is
-  added: 2026-01-05
-  updated: 2026-01-05
-
 - name: ANSI terminal Space Invaders
   originals:
   - Space Invaders
@@ -1618,6 +1517,24 @@
   feed: https://arescentral.org/news.atom
   video:
     youtube: 4s44qu5zgXE
+
+- name: anteat
+  originals:
+  - The Anteater
+  type: clone
+  repo: 'http://www.newbreedsoftware.com/atari/nomam2016/anteat.txt'
+  url: 'http://www.newbreedsoftware.com/atari/nomam2016/anteat.html'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: For the NOMAM 2016 "Basic 10-Liners" contest.
+  added: 2026-02-24
+  updated: 2026-02-24
+  images:
+  - https://web.archive.org/web/20250105222047if_/http://www.newbreedsoftware.com/atari/nomam2016/anteat.png
 
 - name: Anteform
   images:
@@ -1662,6 +1579,23 @@
   - 'https://www.t3-i.com/projects/games/anti-virus/images/banner.png'
   video:
     youtube: _Q8JNe9HxCE
+
+- name: Antiquity
+  originals:
+  - Civilization
+  type: clone
+  repo: 'https://github.com/gondur/Antiquity'
+  url: >-
+    https://web.archive.org/web/20091028060033/http://geocities.com/jvaldeztoo/cph/CSArchives/Antiquity027/Antiquity.htm
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Pascal
+  licenses:
+  - As-is
+  added: 2026-01-05
+  updated: 2026-01-05
 
 - name: aoe
   development: sporadic
@@ -1788,6 +1722,24 @@
   added: 2025-12-14
   updated: 2025-12-14
 
+- name: Aquaria
+  originals:
+  - Aquaria
+  type: official
+  repo: 'https://github.com/islocated/Aquaria'
+  url: 'https://www.wolfire.com/blog/2010/06/aquaria-goes-open-source/'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-12-01
+  updated: 2025-12-01
+
 - name: aquastax
   images:
   - https://raw.githubusercontent.com/LongSteve/aquastax/master/reference/aquastax_anim_01_240x320_efigs.gif
@@ -1806,24 +1758,6 @@
   type: remake
   added: 2017-12-12
   updated: 2022-06-25
-
-- name: Aquaria
-  originals:
-  - Aquaria
-  type: official
-  repo: 'https://github.com/islocated/Aquaria'
-  url: 'https://www.wolfire.com/blog/2010/06/aquaria-goes-open-source/'
-  development: complete
-  status: playable
-  content: commercial
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  added: 2025-12-01
-  updated: 2025-12-01
 
 - name: Arashi-JS
   langs:
@@ -1864,6 +1798,31 @@
   - 'https://content.luanti.org/uploads/7a9d770175.png'
   - 'https://content.luanti.org/uploads/30dd1c84d2.png'
   - 'https://content.luanti.org/uploads/0c0b5f4ee5.png'
+
+- name: Archaos
+  originals:
+  - 'Chaos: The Battle of Wizards'
+  type: remake
+  repo: 'https://github.com/lewster32/archaos'
+  url: 'https://www.rotates.org/category/projects/archaos-projects/'
+  feed: 'https://www.rotates.org/category/projects/archaos-projects/feed/'
+  development: very active
+  status: playable
+  multiplayer:
+  - Local
+  content: free
+  langs:
+  - TypeScript
+  - Vue
+  frameworks:
+  - Vue.js
+  - Phaser
+  licenses:
+  - As-is
+  added: 2026-01-07
+  updated: 2026-01-07
+  images:
+  - https://rotates.org/wp-content/uploads/2013/03/archaos-pathfinding1.gif
 
 - name: Ard-Reil
   langs:
@@ -2246,6 +2205,23 @@
   added: 2015-04-11
   updated: 2024-12-27
 
+- name: Arx Fatalis
+  originals:
+  - Arx Fatalis
+  type: official
+  repo: 'https://github.com/johndrinkwater/arx-fatalis'
+  url: >-
+    https://web.archive.org/web/20151007213705/http://bethblog.com/2011/01/14/arx-fatalis-source-code-patch-released/
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  added: 2025-11-27
+  updated: 2025-11-27
+
 - name: Arx Libertatis
   development: sporadic
   images:
@@ -2277,6 +2253,25 @@
   video:
     youtube: mIribIqKee8
 
+- name: Ascent
+  originals:
+  - Descent
+  type: similar
+  repo: 'https://github.com/mhjlam/Ascent'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OGRE
+  licenses:
+  - GPL3
+  added: 2026-03-18
+  updated: 2026-03-18
+  images:
+  - https://raw.githubusercontent.com/mhjlam/Ascent/main/media/ascent.gif
+
 - name: ASCII DASH
   originals:
   - Boulder Dash
@@ -2300,27 +2295,6 @@
   video:
     youtube: Raw7CwkfBq8
 
-- name: Ascii Patrol
-  originals:
-  - Moon Patrol
-  type: clone
-  repo: 'https://github.com/msokalski/ascii-patrol'
-  url: 'https://ascii-patrol.com/'
-  feed: 'https://github.com/msokalski/ascii-patrol/releases.atom'
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - WebGL
-  licenses:
-  - GPL3
-  added: 2025-11-17
-  updated: 2025-11-17
-  images:
-  - 'https://ascii-patrol.com/ascii-patrol.gif'
-
 - name: ascii-invaders
   originals:
   - Space Invaders
@@ -2342,6 +2316,41 @@
   - https://raw.githubusercontent.com/macdice/ascii-invaders/master/images/screen2.gif
   - https://raw.githubusercontent.com/macdice/ascii-invaders/master/images/screen3.gif
 
+- name: Ascii Patrol
+  originals:
+  - Moon Patrol
+  type: clone
+  repo: 'https://github.com/msokalski/ascii-patrol'
+  url: 'https://ascii-patrol.com/'
+  feed: 'https://github.com/msokalski/ascii-patrol/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - WebGL
+  licenses:
+  - GPL3
+  added: 2025-11-17
+  updated: 2025-11-17
+  images:
+  - 'https://ascii-patrol.com/ascii-patrol.gif'
+
+- name: asdf
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  development: complete
+  originals:
+  - Simon
+  status: playable
+  repo: https://github.com/TimPietrusky/asdf
+  type: remake
+  added: 2015-05-28
+  updated: 2022-06-25
+
 - name: ASIC Lander
   originals:
   - Lunar Lander
@@ -2357,39 +2366,6 @@
   - As-is
   added: 2025-10-06
   updated: 2025-10-06
-
-- name: Ascent
-  originals:
-  - Descent
-  type: similar
-  repo: 'https://github.com/mhjlam/Ascent'
-  development: sporadic
-  status: playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - OGRE
-  licenses:
-  - GPL3
-  added: 2026-03-18
-  updated: 2026-03-18
-  images:
-  - https://raw.githubusercontent.com/mhjlam/Ascent/main/media/ascent.gif
-
-- name: asdf
-  langs:
-  - JavaScript
-  licenses:
-  - MIT
-  development: complete
-  originals:
-  - Simon
-  status: playable
-  repo: https://github.com/TimPietrusky/asdf
-  type: remake
-  added: 2015-05-28
-  updated: 2022-06-25
 
 - name: asm2048
   originals:
@@ -2428,6 +2404,30 @@
   updated: 2025-11-25
   video:
     youtube: O2aqARtIEMQ
+
+- name: Asteroid
+  originals:
+  - Asteroids
+  type: remake
+  repo: 'https://lab.burn.capital/chaz/asteroid'
+  url: 'https://chaz.human.codes/asteroid/'
+  feed: 'https://lab.burn.capital/chaz/asteroid.atom'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  - GTK
+  - SDL
+  licenses:
+  - GPL3
+  info: Modern version of the arcade classic Asteroids
+  added: 2026-03-06
+  updated: 2026-03-06
+  images:
+  - 'https://chaz.human.codes/asteroid/asteroid-screenshot.png'
 
 - name: asteroid-diamonds
   originals:
@@ -2509,6 +2509,21 @@
   video:
     youtube: ysY9vKKisbo
 
+- name: Atari8bit_StarRaiders
+  info: reverse engineering project
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  development: halted
+  originals:
+  - Star Raiders
+  status: unplayable
+  repo: https://github.com/sidneycadot/Atari8bit_StarRaiders
+  type: remake
+  added: 2015-07-14
+  updated: 2022-06-25
+
 - name: Atari 7800 Crossbow
   originals:
   - Crossbow
@@ -2589,21 +2604,6 @@
   added: 2025-12-28
   updated: 2025-12-28
 
-- name: Atari8bit_StarRaiders
-  info: reverse engineering project
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  development: halted
-  originals:
-  - Star Raiders
-  status: unplayable
-  repo: https://github.com/sidneycadot/Atari8bit_StarRaiders
-  type: remake
-  added: 2015-07-14
-  updated: 2022-06-25
-
 - name: Athena Crisis
   originals:
   - Athena Crisis
@@ -2660,6 +2660,26 @@
   added: 2026-02-05
   updated: 2026-02-05
 
+- name: Atomic-Robokid
+  originals:
+  - Atomic Robo-Kid
+  type: official
+  repo: 'https://github.com/milkeybabes/Atomic-Robokid'
+  development: complete
+  status: playable
+  multiplayer:
+  - Hotseat
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: C64 Source Code to Atomic Robokid.
+  added: 2026-01-09
+  updated: 2026-01-09
+  images:
+  - https://www.vintageisthenewold.com/wp-content/uploads/2019/05/248017-atomic-robo-kid-commodore-64-screenshot-go-into-the-locked.png
+
 - name: Atomic Tanks
   images:
   - https://atanks.sourceforge.io/Screenshots/scrnshot28.png
@@ -2688,26 +2708,6 @@
   added: 2013-06-06
   updated: 2025-01-03
   url: https://atanks.sourceforge.io
-
-- name: Atomic-Robokid
-  originals:
-  - Atomic Robo-Kid
-  type: official
-  repo: 'https://github.com/milkeybabes/Atomic-Robokid'
-  development: complete
-  status: playable
-  multiplayer:
-  - Hotseat
-  content: free
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: C64 Source Code to Atomic Robokid.
-  added: 2026-01-09
-  updated: 2026-01-09
-  images:
-  - https://www.vintageisthenewold.com/wp-content/uploads/2019/05/248017-atomic-robo-kid-commodore-64-screenshot-go-into-the-locked.png
 
 - name: Atomiks
   development: halted

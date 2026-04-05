@@ -157,6 +157,20 @@
   images:
   - 'https://jakesgordon.com/writing/javascript-boulderdash/level1.png'
 
+- name: javascript-E.T.
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  content: free
+  development: halted
+  originals:
+  - E.T. the Extra-Terrestrial
+  status: unplayable
+  repo: https://github.com/FranciscoG/javascript-E.T.
+  type: remake
+  updated: 2022-02-07
+
 - name: Javascript Tetris
   originals:
   - Tetris
@@ -174,20 +188,6 @@
   updated: 2026-02-06
   images:
   - https://jakesgordon.com/writing/javascript-tetris/thumb.png
-
-- name: javascript-E.T.
-  langs:
-  - JavaScript
-  licenses:
-  - MIT
-  content: free
-  development: halted
-  originals:
-  - E.T. the Extra-Terrestrial
-  status: unplayable
-  repo: https://github.com/FranciscoG/javascript-E.T.
-  type: remake
-  updated: 2022-02-07
 
 - name: Jawbreaker Disassembly
   originals:
@@ -609,24 +609,6 @@
   images:
   - 'https://www.ticalc.org/archives/files/ss/617/61744.gif'
 
-- name: JSettlers
-  development: sporadic
-  images:
-  - https://www.settlers-android-clone.com/wp-content/uploads/2017/01/Screenshot_20170127-222244.png
-  video:
-    youtube: DdVtOhIIjow
-  langs:
-  - Java
-  licenses:
-  - MIT
-  content: commercial
-  originals:
-  - The Settlers III
-  status: semi-playable
-  repo: https://github.com/paulwedeck/settlers-remake
-  type: remake
-  updated: 2023-12-16
-
 - name: JScorch
   originals:
   - Scorched Earth
@@ -652,6 +634,24 @@
   - https://web.archive.org/web/20070626181112/http://jscorch.sourceforge.net/pic/20020826a.png
   - https://web.archive.org/web/20070626181121/http://jscorch.sourceforge.net/pic/20020811.png
   - https://web.archive.org/web/20070626181048/http://jscorch.sourceforge.net/pic/20020702.png
+
+- name: JSettlers
+  development: sporadic
+  images:
+  - https://www.settlers-android-clone.com/wp-content/uploads/2017/01/Screenshot_20170127-222244.png
+  video:
+    youtube: DdVtOhIIjow
+  langs:
+  - Java
+  licenses:
+  - MIT
+  content: commercial
+  originals:
+  - The Settlers III
+  status: semi-playable
+  repo: https://github.com/paulwedeck/settlers-remake
+  type: remake
+  updated: 2023-12-16
 
 - name: jsFO
   development: halted
@@ -765,6 +765,24 @@
   updated: 2022-08-10
   url: https://www.icculus.org/jumpnbump/
 
+- name: 'Jumping Jack 2: Worryingly Familiar'
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - Custom
+  development: halted
+  originals:
+  - Jumping Jack
+  status: playable
+  type: remake
+  added: 2015-04-13
+  updated: 2022-06-15
+  url: https://retrospec.sgn.net/info.htm?id=jj2&t=g
+  images:
+  - https://retrospec.sgn.net/style/images/gamelogos/jj2.gif
+
 - name: 'Jumping Jack: Further Adventures'
   langs:
   - C++
@@ -785,24 +803,6 @@
   url: https://retrospec.sgn.net/info.htm?id=jj&t=g
   images:
   - https://retrospec.sgn.net/style/images/gamelogos/jj.gif
-
-- name: 'Jumping Jack 2: Worryingly Familiar'
-  langs:
-  - C++
-  frameworks:
-  - Allegro
-  licenses:
-  - Custom
-  development: halted
-  originals:
-  - Jumping Jack
-  status: playable
-  type: remake
-  added: 2015-04-13
-  updated: 2022-06-15
-  url: https://retrospec.sgn.net/info.htm?id=jj2&t=g
-  images:
-  - https://retrospec.sgn.net/style/images/gamelogos/jj2.gif
 
 - name: Jumpman
   langs:

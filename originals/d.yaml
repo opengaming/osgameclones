@@ -241,23 +241,23 @@
     themes:
     - Fantasy
 
-- name: Deathchase
-  names:
-  - 3D Deathchase
-  external:
-    wikipedia: Deathchase
-  meta:
-    genres:
-    - Racing
-    subgenres:
-    - Vehicular Combat
-
 - name: Death Rally
   external:
     wikipedia: Death Rally
   platforms:
   - DOS
   - Windows
+  meta:
+    genres:
+    - Racing
+    subgenres:
+    - Vehicular Combat
+
+- name: Deathchase
+  names:
+  - 3D Deathchase
+  external:
+    wikipedia: Deathchase
   meta:
     genres:
     - Racing
@@ -375,14 +375,12 @@
     themes:
     - Sci-Fi
 
-- name: Descent II
+- name: Descent 3
   external:
-    website: https://www.mobygames.com/game/694/descent-ii/
-    wikipedia: Descent II
+    wikipedia: Descent 3
   platforms:
   - Classic Mac OS
-  - DOS
-  - PlayStation
+  - Linux
   - Windows
   meta:
     genres:
@@ -391,12 +389,14 @@
     themes:
     - Sci-Fi
 
-- name: Descent 3
+- name: Descent II
   external:
-    wikipedia: Descent 3
+    website: https://www.mobygames.com/game/694/descent-ii/
+    wikipedia: Descent II
   platforms:
   - Classic Mac OS
-  - Linux
+  - DOS
+  - PlayStation
   - Windows
   meta:
     genres:
@@ -427,6 +427,13 @@
     genres:
     - Shmup
 
+- name: 'Desperados: Wanted Dead or Alive'
+  external:
+    wikipedia: 'Desperados: Wanted Dead or Alive'
+  meta:
+    genres:
+    - Real-Time Tactics
+
 - name: Destruction Derby
   external:
     website: 'https://www.arcade-museum.com/Videogame/destruction-derby'
@@ -436,13 +443,6 @@
   meta:
     genres:
     - Racing
-
-- name: 'Desperados: Wanted Dead or Alive'
-  external:
-    wikipedia: 'Desperados: Wanted Dead or Alive'
-  meta:
-    genres:
-    - Real-Time Tactics
 
 - name: Destructo
   external:
@@ -1180,6 +1180,18 @@
   platforms:
   - Windows
 
+- name: DuckTales
+  external:
+    website: 'https://www.mobygames.com/game/8606/disneys-ducktales/'
+    wikipedia: DuckTales (video game)
+  platforms:
+  - Game Boy
+  - NES
+  meta:
+    genres:
+    - Action
+    - Platform
+
 - name: Duelyst
   external:
     website: 'https://web.archive.org/web/20200324040048/https://duelyst.com/'
@@ -1202,17 +1214,6 @@
     genres:
     - Platform
     
-- name: Duke Nukem II
-  external:
-    wikipedia: Duke Nukem II
-  platforms:
-  - DOS
-  meta:
-    genres:
-    - Platform
-    themes:
-    - Sci-Fi
-
 - name: Duke Nukem 3D
   external:
     website: >-
@@ -1254,6 +1255,17 @@
     - Comedy
     - Sci-Fi
 
+- name: Duke Nukem II
+  external:
+    wikipedia: Duke Nukem II
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Platform
+    themes:
+    - Sci-Fi
+
 - name: 'Duke Nukem: Zero Hour'
   external:
     website: >-
@@ -1266,18 +1278,6 @@
     - TPS
     themes:
     - Sci-Fi
-
-- name: DuckTales
-  external:
-    website: 'https://www.mobygames.com/game/8606/disneys-ducktales/'
-    wikipedia: DuckTales (video game)
-  platforms:
-  - Game Boy
-  - NES
-  meta:
-    genres:
-    - Action
-    - Platform
 
 - name: Dune
   external:

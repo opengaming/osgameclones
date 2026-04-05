@@ -1,12 +1,3 @@
-- name: l'Abbaye des Morts
-  external:
-    website: 'https://locomalito.com/games/abbaye-des-morts'
-  platforms:
-  - Windows
-  meta:
-    genres:
-    - Adventure
-
 - name: L-ZONE
   external:
     website: https://www.mobygames.com/game/2302
@@ -21,6 +12,15 @@
   - PC-98
   - Pippin
   - Windows
+
+- name: l'Abbaye des Morts
+  external:
+    website: 'https://locomalito.com/games/abbaye-des-morts'
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Adventure
 
 - name: The Labyrinth of Time
   external:
@@ -458,31 +458,6 @@
     genres:
     - Puzzle
 
-- name: Lemonade Stand
-  external:
-    website: 'https://www.mobygames.com/game/24035/lemonade-stand/'
-    wikipedia: Lemonade Stand
-  platforms:
-  - Apple II
-  - DOS
-  meta:
-    genres:
-    - Educational
-    - Simulation
-
-- name: 3D Lemmings
-  names:
-  - Lemmings 3D
-  external:
-    wikipedia: 3D Lemmings
-  platforms:
-  - DOS
-  - PlayStation
-  - Saturn
-  meta:
-    genres:
-    - Puzzle
-
 - name: Lemon ~Kageetei Nostalgia~
   names:
   - 檸檬 〜影絵亭ノスタルジヤ〜
@@ -496,6 +471,18 @@
     themes:
     - Adult
     - Anime
+
+- name: Lemonade Stand
+  external:
+    website: 'https://www.mobygames.com/game/24035/lemonade-stand/'
+    wikipedia: Lemonade Stand
+  platforms:
+  - Apple II
+  - DOS
+  meta:
+    genres:
+    - Educational
+    - Simulation
 
 - name: Let's Explore the Airport
   external:
@@ -781,6 +768,13 @@
     genres:
     - Puzzle
 
+- name: Lose Your Marbles
+  external:
+    wikipedia: Sega Puzzle Pack
+  meta:
+    genres:
+    - Puzzle
+
 - name: Lost Dutchman Mine
   external:
     website: 'https://www.mobygames.com/game/lost-dutchman-mine'
@@ -794,13 +788,6 @@
     - Simulation
     themes:
     - Western
-
-- name: Lose Your Marbles
-  external:
-    wikipedia: Sega Puzzle Pack
-  meta:
-    genres:
-    - Puzzle
 
 - name: The Lost Files of Sherlock Holmes
   names:
@@ -886,15 +873,6 @@
     genres:
     - Puzzle
 
-- name: Lunatic Fringe
-  external:
-    website: https://www.mobygames.com/game/137264/more-after-dark-volume-1/
-  platforms:
-  - Classic Mac OS
-  meta:
-    genres:
-    - Shooter
-
 - name: Lunar
   names:
   - Rocket
@@ -917,6 +895,15 @@
   meta:
     genres:
     - Simulation
+
+- name: Lunatic Fringe
+  external:
+    website: https://www.mobygames.com/game/137264/more-after-dark-volume-1/
+  platforms:
+  - Classic Mac OS
+  meta:
+    genres:
+    - Shooter
 
 - name: Lure of the Temptress
   external:

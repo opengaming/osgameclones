@@ -1,3 +1,21 @@
+- name: l-echo
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL3
+  development: halted
+  originals:
+  - Echochrome
+  status: playable
+  repo: https://github.com/LibreGamesArchive/l-echo
+  type: remake
+  added: 2015-04-15
+  updated: 2022-09-25
+  images:
+  - https://www.gamebrew.org/images/a/a3/Necho2.png
+
 - name: L'Abbaye des morts
   originals:
   - l'Abbaye des Morts
@@ -20,24 +38,6 @@
   images:
   - https://web.archive.org/web/20150728052756im_/http://lucera-project.com/wp-content/uploads/2014/08/abbaye-480x300.jpg
   - https://web.archive.org/web/20150728052756im_/http://lucera-project.com/wp-content/uploads/2014/08/abbaye.gif
-
-- name: l-echo
-  langs:
-  - C++
-  frameworks:
-  - OpenGL
-  licenses:
-  - GPL3
-  development: halted
-  originals:
-  - Echochrome
-  status: playable
-  repo: https://github.com/LibreGamesArchive/l-echo
-  type: remake
-  added: 2015-04-15
-  updated: 2022-09-25
-  images:
-  - https://www.gamebrew.org/images/a/a3/Necho2.png
 
 - name: LAB3D/SDL
   images:
@@ -605,6 +605,120 @@
   added: 2026-03-17
   updated: 2026-03-17
 
+- name: The Legend Of Zelda - Navi's Quest
+  frameworks:
+  - Solarus
+  langs:
+  - C++
+  licenses:
+  - As-is
+  development: complete
+  originals:
+  - Legend of Zelda - A Link to the Past
+  status: playable
+  type: clone
+  added: 2015-09-27
+  updated: 2015-09-27
+  url: http://www.zeldaroth.fr/us/dlnsq.php
+  video:
+    youtube: HkpQpoQ8LGM
+
+- name: The Legend Of Zelda - Oni Link Begins
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - As-is
+  development: complete
+  originals:
+  - Legend of Zelda - A Link to the Past
+  status: playable
+  type: clone
+  added: 2015-09-27
+  updated: 2025-08-03
+  repo: https://www.zeldaroth.fr/us/dlolb.php
+  url: http://www.zeldaroth.fr/us/zolb.php
+  images:
+  - https://www.zeldaroth.fr/images/olb/s1.JPG
+  - https://www.zeldaroth.fr/images/olb/s2.JPG
+  - https://www.zeldaroth.fr/images/olb/s3.JPG
+  - https://www.zeldaroth.fr/images/olb/s4.JPG
+  - https://www.zeldaroth.fr/images/olb/s5.JPG
+  - https://www.zeldaroth.fr/images/olb/s6.JPG
+  - https://www.zeldaroth.fr/images/olb/s7.JPG
+  - https://www.zeldaroth.fr/images/olb/s8.JPG
+  - https://www.zeldaroth.fr/images/olb/s9.JPG
+  - https://www.zeldaroth.fr/images/olb/s10.JPG
+  - https://www.zeldaroth.fr/images/olb/s11.JPG
+  - https://www.zeldaroth.fr/images/olb/s12.JPG
+  video:
+    youtube: ATCSf3o19RY
+
+- name: The Legend Of Zelda - Picross
+  langs:
+  - C++
+  frameworks:
+  - Solarus
+  licenses:
+  - As-is
+  development: complete
+  originals:
+  - Legend of Zelda - A Link to the Past
+  status: playable
+  type: clone
+  added: 2015-09-27
+  updated: 2015-09-27
+  url: http://www.zeldaroth.fr/us/dlpicross.php
+
+- name: The Legend Of Zelda - Return Of The Hylian
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - As-is
+  development: complete
+  originals:
+  - Legend of Zelda - A Link to the Past
+  status: playable
+  type: clone
+  added: 2015-09-27
+  updated: 2025-07-29
+  repo: https://www.zeldaroth.fr/us/dlroth.php
+  url: https://www.zeldaroth.fr/us/zroth.php
+  images:
+  - https://www.zeldaroth.fr/images/roth/s14.png
+  - https://www.zeldaroth.fr/images/roth/s1.png
+  - https://www.zeldaroth.fr/images/roth/s2.png
+  - https://www.zeldaroth.fr/images/roth/s3.png
+  - https://www.zeldaroth.fr/images/roth/s4.png
+  - https://www.zeldaroth.fr/images/roth/s5.png
+  - https://www.zeldaroth.fr/images/roth/s8.png
+  - https://www.zeldaroth.fr/images/roth/s10.png
+  - https://www.zeldaroth.fr/images/roth/s11.png
+  - https://www.zeldaroth.fr/images/roth/s12.png
+  - https://www.zeldaroth.fr/images/roth/s13.png
+  - https://www.zeldaroth.fr/images/roth/s9.png
+
+- name: The Legend Of Zelda - Time To Triumph
+  langs:
+  - C++
+  frameworks:
+  - Solarus
+  licenses:
+  - As-is
+  development: complete
+  originals:
+  - Legend of Zelda - A Link to the Past
+  status: playable
+  type: clone
+  added: 2015-09-27
+  updated: 2015-09-27
+  url: http://www.zeldaroth.fr/us/z3t.php
+  video:
+    youtube: biPY10UcDy8
+
 - name: 'The Legend of Zelda: A Link to the Dream'
   originals:
   - "The Legend of Zelda: Link's Awakening"
@@ -787,24 +901,6 @@
   - >-
     https://www.solarus-games.org/games/the-legend-of-zelda-mystery-of-solarus-xd/screen4.png
 
-- name: The Legend Of Zelda - Navi's Quest
-  frameworks:
-  - Solarus
-  langs:
-  - C++
-  licenses:
-  - As-is
-  development: complete
-  originals:
-  - Legend of Zelda - A Link to the Past
-  status: playable
-  type: clone
-  added: 2015-09-27
-  updated: 2015-09-27
-  url: http://www.zeldaroth.fr/us/dlnsq.php
-  video:
-    youtube: HkpQpoQ8LGM
-
 - name: 'The Legend of Zelda: Ocarina of Time'
   originals:
   - 'The Legend of Zelda: Ocarina of Time'
@@ -820,38 +916,6 @@
   - C
   added: 2021-12-12
   updated: 2021-12-12
-
-- name: The Legend Of Zelda - Oni Link Begins
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - As-is
-  development: complete
-  originals:
-  - Legend of Zelda - A Link to the Past
-  status: playable
-  type: clone
-  added: 2015-09-27
-  updated: 2025-08-03
-  repo: https://www.zeldaroth.fr/us/dlolb.php
-  url: http://www.zeldaroth.fr/us/zolb.php
-  images:
-  - https://www.zeldaroth.fr/images/olb/s1.JPG
-  - https://www.zeldaroth.fr/images/olb/s2.JPG
-  - https://www.zeldaroth.fr/images/olb/s3.JPG
-  - https://www.zeldaroth.fr/images/olb/s4.JPG
-  - https://www.zeldaroth.fr/images/olb/s5.JPG
-  - https://www.zeldaroth.fr/images/olb/s6.JPG
-  - https://www.zeldaroth.fr/images/olb/s7.JPG
-  - https://www.zeldaroth.fr/images/olb/s8.JPG
-  - https://www.zeldaroth.fr/images/olb/s9.JPG
-  - https://www.zeldaroth.fr/images/olb/s10.JPG
-  - https://www.zeldaroth.fr/images/olb/s11.JPG
-  - https://www.zeldaroth.fr/images/olb/s12.JPG
-  video:
-    youtube: ATCSf3o19RY
 
 - name: 'The Legend of Zelda: Onilink Begins SE'
   originals:
@@ -885,52 +949,6 @@
   - >-
     https://www.solarus-games.org/games/the-legend-of-zelda-onilink-begins-se/screen4.jpg
 
-- name: The Legend Of Zelda - Picross
-  langs:
-  - C++
-  frameworks:
-  - Solarus
-  licenses:
-  - As-is
-  development: complete
-  originals:
-  - Legend of Zelda - A Link to the Past
-  status: playable
-  type: clone
-  added: 2015-09-27
-  updated: 2015-09-27
-  url: http://www.zeldaroth.fr/us/dlpicross.php
-
-- name: The Legend Of Zelda - Return Of The Hylian
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - As-is
-  development: complete
-  originals:
-  - Legend of Zelda - A Link to the Past
-  status: playable
-  type: clone
-  added: 2015-09-27
-  updated: 2025-07-29
-  repo: https://www.zeldaroth.fr/us/dlroth.php
-  url: https://www.zeldaroth.fr/us/zroth.php
-  images:
-  - https://www.zeldaroth.fr/images/roth/s14.png
-  - https://www.zeldaroth.fr/images/roth/s1.png
-  - https://www.zeldaroth.fr/images/roth/s2.png
-  - https://www.zeldaroth.fr/images/roth/s3.png
-  - https://www.zeldaroth.fr/images/roth/s4.png
-  - https://www.zeldaroth.fr/images/roth/s5.png
-  - https://www.zeldaroth.fr/images/roth/s8.png
-  - https://www.zeldaroth.fr/images/roth/s10.png
-  - https://www.zeldaroth.fr/images/roth/s11.png
-  - https://www.zeldaroth.fr/images/roth/s12.png
-  - https://www.zeldaroth.fr/images/roth/s13.png
-  - https://www.zeldaroth.fr/images/roth/s9.png
-
 - name: 'The Legend of Zelda: Return of the Hylian SE'
   originals:
   - Legend of Zelda - A Link to the Past
@@ -963,24 +981,6 @@
     https://www.solarus-games.org/games/the-legend-of-zelda-return-of-the-hylian-se/screen4.png
   video:
     youtube: DUmeln2kDTg
-
-- name: The Legend Of Zelda - Time To Triumph
-  langs:
-  - C++
-  frameworks:
-  - Solarus
-  licenses:
-  - As-is
-  development: complete
-  originals:
-  - Legend of Zelda - A Link to the Past
-  status: playable
-  type: clone
-  added: 2015-09-27
-  updated: 2015-09-27
-  url: http://www.zeldaroth.fr/us/z3t.php
-  video:
-    youtube: biPY10UcDy8
 
 - name: legion
   frameworks:
@@ -1698,6 +1698,22 @@
   added: 2023-03-01
   updated: 2024-07-06
 
+- name: Livewire
+  originals:
+  - Livewire
+  type: remake
+  repo: 'https://github.com/scttgs0/Livewire'
+  feed: 'https://github.com/scttgs0/Livewire/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - Assembly
+  licenses:
+  - PD
+  added: 2025-11-11
+  updated: 2025-11-11
+
 - name: Lix
   frameworks:
   - Allegro
@@ -1814,25 +1830,6 @@
   - https://www.neolemmix.com/loapimg/loap03.png
   - https://www.neolemmix.com/loapimg/loap04.png  
 
-- name: Lode Runner - Total Recall
-  langs:
-  - JavaScript
-  frameworks:
-  - CreateJS
-  licenses:
-  - As-is
-  development: complete
-  originals:
-  - Lode Runner
-  status: playable
-  repo: https://github.com/SimonHung/LodeRunner_TotalRecall
-  type: remake
-  added: 2015-08-15
-  updated: 2023-08-13
-  url: https://loderunnerwebgame.com/LodeRunner/
-  video:
-    youtube: 277m7navGRQ
-
 - name: Lode Runner 2020
   originals:
   - Lode Runner
@@ -1857,6 +1854,25 @@
   url: https://mapema.hu/en/docs/hobby/lode-runner/game/
   video:
     youtube: i1yjls2AzKk
+
+- name: Lode Runner - Total Recall
+  langs:
+  - JavaScript
+  frameworks:
+  - CreateJS
+  licenses:
+  - As-is
+  development: complete
+  originals:
+  - Lode Runner
+  status: playable
+  repo: https://github.com/SimonHung/LodeRunner_TotalRecall
+  type: remake
+  added: 2015-08-15
+  updated: 2023-08-13
+  url: https://loderunnerwebgame.com/LodeRunner/
+  video:
+    youtube: 277m7navGRQ
 
 - name: Loderunner
   originals:
@@ -2205,6 +2221,23 @@
   - https://luminol.dev/screenshots/2.png
   - https://luminol.dev/screenshots/3.png
 
+- name: Lunar
+  originals:
+  - Lunar
+  type: official
+  repo: 'http://www.vintage-basic.net/bcg/lunar.bas'
+  url: 'https://www.atariarchives.org/basicgames/showpage.php?page=106'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2026-02-23
+  updated: 2026-02-23
+  images:
+  - 'https://www.technologizer.com/wp-content/uploads/2009/07/1969.png'
+
 - name: Lunar Lander
   originals:
   - Lunar Lander
@@ -2308,39 +2341,6 @@
   updated: '2025-07-02'
   images:
   - 'https://os4depot.net/filedata/snapshot/996_1_snap.png'
-
-- name: Livewire
-  originals:
-  - Livewire
-  type: remake
-  repo: 'https://github.com/scttgs0/Livewire'
-  feed: 'https://github.com/scttgs0/Livewire/releases.atom'
-  development: sporadic
-  status: playable
-  content: open
-  langs:
-  - Assembly
-  licenses:
-  - PD
-  added: 2025-11-11
-  updated: 2025-11-11
-
-- name: Lunar
-  originals:
-  - Lunar
-  type: official
-  repo: 'http://www.vintage-basic.net/bcg/lunar.bas'
-  url: 'https://www.atariarchives.org/basicgames/showpage.php?page=106'
-  development: complete
-  status: playable
-  langs:
-  - BASIC
-  licenses:
-  - As-is
-  added: 2026-02-23
-  updated: 2026-02-23
-  images:
-  - 'https://www.technologizer.com/wp-content/uploads/2009/07/1969.png'
 
 - name: LuxMan
   originals:

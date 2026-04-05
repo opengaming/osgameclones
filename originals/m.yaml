@@ -1,24 +1,14 @@
-- name: M.A.X.
+- name: 'Machines: Wired for War'
   external:
-    wikipedia: Mechanized Assault & Exploration
+    website: 'https://web.archive.org/web/20241223041313/http://www.machinesthegame.co.uk/'
+    wikipedia: Machines (video game)
+  platforms:
+  - Windows
   meta:
     genres:
     - Real-Time Strategy
-    - Turn-Based Strategy
-
-- name: M.U.G.E.N
-  external:
-    wikipedia: Mugen (game engine)
-  meta:
-    genres:
-    - Fighting
-
-- name: M.U.L.E.
-  external:
-    wikipedia: M.U.L.E.
-  meta:
-    genres:
-    - Turn-Based Strategy
+    themes:
+    - Sci-Fi
 
 - name: Mad Planets
   external:
@@ -61,23 +51,6 @@
   - Windows
   - Xbox
 
-- name: 'Mafia: Definitive Edition'
-  external:
-    wikipedia: 'Mafia: Definitive Edition'
-  platforms:
-  - PlayStation 4
-  - Windows
-  - Xbox One
-  meta:
-    genres:
-    - Action
-    - Adventure
-    - TPS
-    subgenres:
-    - Vehicular Combat
-    themes:
-    - Crime
-
 - name: Mafia II
   external:
     wikipedia: Mafia II
@@ -101,6 +74,23 @@
     wikipedia: Mafia III
   platforms:
   - OSX
+  - PlayStation 4
+  - Windows
+  - Xbox One
+  meta:
+    genres:
+    - Action
+    - Adventure
+    - TPS
+    subgenres:
+    - Vehicular Combat
+    themes:
+    - Crime
+
+- name: 'Mafia: Definitive Edition'
+  external:
+    wikipedia: 'Mafia: Definitive Edition'
+  platforms:
   - PlayStation 4
   - Windows
   - Xbox One
@@ -263,6 +253,16 @@
     themes:
     - Fantasy
 
+- name: Man Goes Down
+  external:
+    website: 'https://www.mobygames.com/game/202253/man-goes-down/'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Arcade
+    - Platform
+
 - name: The Manhole
   external:
     website: https://www.mobygames.com/game/9222
@@ -275,6 +275,25 @@
   - Classic Mac OS
   - DOS
   - PC-98
+
+- name: 'Manhunter 2: San Francisco'
+  external:
+    website: https://www.mobygames.com/game/25
+    wikipedia: 'Manhunter 2: San Francisco'
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Point and click
+    themes:
+    - Post-Apocalyptic
+    - Sci-Fi
+  platforms:
+  - Amiga
+  - Atari
+  - Classic Mac OS
+  - CoCo
+  - DOS
 
 - name: 'Manhunter: New York'
   external:
@@ -291,25 +310,6 @@
   platforms:
   - Amiga
   - Apple II
-  - Atari
-  - Classic Mac OS
-  - CoCo
-  - DOS
-
-- name: 'Manhunter 2: San Francisco'
-  external:
-    website: https://www.mobygames.com/game/25
-    wikipedia: 'Manhunter 2: San Francisco'
-  meta:
-    genres:
-    - Adventure
-    subgenres:
-    - Point and click
-    themes:
-    - Post-Apocalyptic
-    - Sci-Fi
-  platforms:
-  - Amiga
   - Atari
   - Classic Mac OS
   - CoCo
@@ -552,6 +552,14 @@
     genres:
     - Puzzle
 
+- name: M.A.X.
+  external:
+    wikipedia: Mechanized Assault & Exploration
+  meta:
+    genres:
+    - Real-Time Strategy
+    - Turn-Based Strategy
+
 - name: Max Payne
   external:
     website: 'https://www.rockstargames.com/games/maxpayne'
@@ -603,28 +611,6 @@
     themes:
     - Fantasy
 
-- name: 'Machines: Wired for War'
-  external:
-    website: 'https://web.archive.org/web/20241223041313/http://www.machinesthegame.co.uk/'
-    wikipedia: Machines (video game)
-  platforms:
-  - Windows
-  meta:
-    genres:
-    - Real-Time Strategy
-    themes:
-    - Sci-Fi
-
-- name: Man Goes Down
-  external:
-    website: 'https://www.mobygames.com/game/202253/man-goes-down/'
-  platforms:
-  - Atari
-  meta:
-    genres:
-    - Arcade
-    - Platform
-
 - name: MechCommander 2
   external:
     website: https://web.archive.org/web/20040818103526/http://www.fasastudio.com/games/mechcommander/default.htm?c00=0
@@ -656,6 +642,13 @@
   meta:
     genres:
     - FPS
+
+- name: Mega-Lo-Mania
+  external:
+    wikipedia: Mega-Lo-Mania
+  meta:
+    genres:
+    - Real-Time Strategy
 
 - name: Mega Man 3
   names:
@@ -763,13 +756,6 @@
     - Shooter
     themes:
     - Sci-Fi
-
-- name: Mega-Lo-Mania
-  external:
-    wikipedia: Mega-Lo-Mania
-  meta:
-    genres:
-    - Real-Time Strategy
 
 - name: MegaBall
   external:
@@ -1533,6 +1519,20 @@
   meta:
     genres:
     - Action
+
+- name: M.U.G.E.N
+  external:
+    wikipedia: Mugen (game engine)
+  meta:
+    genres:
+    - Fighting
+
+- name: M.U.L.E.
+  external:
+    wikipedia: M.U.L.E.
+  meta:
+    genres:
+    - Turn-Based Strategy
 
 - name: Muppet Treasure Island
   external:
