@@ -357,9 +357,9 @@
   originals:
   - Pac-Man
   type: clone
-  repo: 'https://sourceforge.net/projects/pacmanarena/'
+  repo: 'https://github.com/gameblabla/pacman-arena'
   url: 'https://pacmanarena.sourceforge.net/'
-  feed: 'https://sourceforge.net/projects/pacmanarena/rss?path=/'
+  feed: 'https://github.com/gameblabla/pacman-arena/releases.atom'
   development: halted
   status: playable
   content: open
@@ -367,12 +367,14 @@
   - C
   frameworks:
   - SDL
+  - OpenGL
   licenses:
   - GPL2
   added: 2025-10-16
-  updated: 2025-10-16
+  updated: 2026-04-09
   images:
   - 'https://pacmanarena.sourceforge.net/shot.png'
+  - 'https://raw.githubusercontent.com/gameblabla/pacman-arena/simp/screenshot1.png'
 
 - name: pacman-canvas
   images:
