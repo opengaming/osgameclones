@@ -2054,6 +2054,25 @@
   images:
   - 'https://a.fsdn.com/con/app/proj/arkanoidgameinjava/screenshots/Untitled.png'
 
+- name: Arkanoid TUI
+  originals:
+  - Arkanoid
+  type: clone
+  repo: https://github.com/JustPretender/arkanoid-tui
+  development: halted
+  status: semi-playable
+  langs:
+  - Rust
+  frameworks:
+  - Ratatui
+  licenses:
+  - Apache
+  - MIT
+  added: 2026-04-02
+  updated: 2026-04-02
+  images:
+  - https://raw.githubusercontent.com/JustPretender/arkanoid-tui/main/static/game.jpg
+
 - name: Arkanoid++
   originals:
   - Arkanoid
