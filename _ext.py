@@ -7,6 +7,7 @@ from datetime import date, datetime, timedelta
 from collections import OrderedDict
 from functools import partial
 from typing import List, Dict
+import unicodedata
 from urllib.parse import urlparse
 
 import yaml
@@ -58,10 +59,6 @@ def validate(item, key):
 
 def names(item):
     return [item['name']] + item.get('names', [])
-
-
-def game_name(game):
-    return game['name'][0] if isinstance(game['name'], list) else game['name']
 
 
 def parse_tag(tag):
@@ -251,7 +248,7 @@ def show_validation_errors(data, validation_errors):
     for error in validation_errors:
         path = error.path.split('/')
         game = data[int(path[1])]
-        name = game_name(game)
+        name = game["name"]
 
         errors.append({"name": name, "error": error.__repr__()})
 
@@ -269,21 +266,45 @@ def validate_with_schema(source_data, schema_file):
             raise error
 
 
+def sort_key(game: dict) -> str:
+    name = game["name"]
+    # Always sort SCUMM first
+    if name == 'SCUMM':
+        return '0'
+    # Ignore periods and some other special characters
+    for char in ['.', '[', ']', '(', ')']:
+        name = name.replace(char, '')
+    # Treat some characters as spaces
+    for char in ['-', '_']:
+        name = name.replace(char, ' ')
+    # Convert unicode to ascii
+    name = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore').decode()
+    # Ignore articles at the beginning of names
+    for article in ['The ', 'A ', 'An ']:
+        if name.startswith(article):
+            return name[len(article):]
+    return name
+
+
 def parse_data(site):
     base = op.dirname(__file__)
+    errors = []
 
     originals = []
     for fn in os.listdir(op.join(base, 'originals')):
         if fn.endswith('.yaml'):
-            originals.extend(yaml.safe_load(open(op.join(base, 'originals', fn), encoding="utf-8")))
-    def sort_key(game):
-        name = game_name(game)
-        # Always sort SCUMM first
-        if name == 'SCUMM':
-            return '0'
-        if name.startswith('The '):
-            return name[4:]
-        return name
+            originals_unsorted = yaml.safe_load(open(op.join(base, 'originals', fn), encoding="utf-8"))
+            # Check if originals sorted, if not, error out showing the first unsorted entry
+            originals_sorted = natsorted(originals_unsorted, key=sort_key, alg=ns.IGNORECASE)
+            for o1, o2 in zip(originals_unsorted, originals_sorted):
+                if o1["name"] != o2["name"]:
+                    errors.append({
+                        "name": o1["name"],
+                        "error": f"Original game name not sorted correctly in file originals/{fn}: should be '{o2['name']}'"
+                    })
+                    break
+            originals.extend(originals_sorted)
+    # Sort originals again for final presentation in the site
     originals = natsorted(originals, key=sort_key, alg=ns.IGNORECASE)
     print(str(len(originals)) + ' games in total')
     validate_with_schema(originals, 'schema/originals.yaml')
@@ -291,16 +312,25 @@ def parse_data(site):
     clones = []
     for fn in sorted(os.listdir(op.join(base, 'games'))):
         if fn.endswith('.yaml'):
-            clones.extend(yaml.safe_load(open(op.join(base, 'games', fn), encoding="utf-8")))
+            clones_unsorted = yaml.safe_load(open(op.join(base, 'games', fn), encoding="utf-8"))
+            # Check if clones sorted, if not, error out showing the first unsorted entry
+            clones_sorted = natsorted(clones_unsorted, key=sort_key, alg=ns.IGNORECASE)
+            for c1, c2 in zip(clones_unsorted, clones_sorted):
+                if c1["name"] != c2["name"]:
+                    errors.append({
+                        "name": c1["name"],
+                        "error": f"Clone game name not sorted correctly in file games/{fn}: should be '{c2['name']}'"
+                    })
+                    break
+            clones.extend(clones_sorted)
     print(str(len(clones)) + ' clones in total')
     validate_with_schema(clones, 'schema/games.yaml')
 
-    errors = []
     originals_map = {}
     original_names = set()
 
     for item in originals:
-        name = game_name(item)
+        name = item["name"]
 
         if name in originals_map:
             errors.append({
@@ -406,7 +436,7 @@ def parse_data(site):
             wikipedia_value = item['external']['wikipedia']
             if isinstance(wikipedia_value, str) and wikipedia_value.startswith('http'):
                 errors.append({
-                    "name": game_name(item),
+                    "name": item["name"],
                     "error": f"Wikipedia field should contain article title, not full URL: {wikipedia_value}"
                 })
 
@@ -424,7 +454,7 @@ def parse_data(site):
     for item in originals:
         # Recombine originals and clones
         combined = copy.deepcopy(item)
-        name = game_name(combined)
+        name = combined["name"]
 
         combined['games'] = [
             clone for clone in clones

@@ -396,46 +396,6 @@
   video:
     youtube: KavcvHixd6A
 
-- name: Iris2
-  images:
-  - https://libregamewiki.org/images/thumb/a/a9/Iris-2D.png/320px-Iris-2D.png
-  - https://libregamewiki.org/images/thumb/e/e2/Iris-3D.png/320px-Iris-3D.png
-  - https://www.iris2.de/images/4/48/20080106175329_188.png
-  licenses:
-  - GPL3
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - OGRE
-  development: halted
-  originals:
-  - Ultima Online
-  repo: https://github.com/kblaschke/Iris2
-  status: playable
-  type: remake
-  url: https://libregamewiki.org/Iris2_3D_Client_-_for_Ultima_Online
-  updated: 2021-03-10
-
-- name: IronSeedSharp
-  originals:
-  - Ironseed
-  type: remake
-  repo: >-
-    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://bitbucket.org/blueachenar/ironseedsharp
-  url: >-
-    https://web.archive.org/web/20180825065529/https://pedrocaleiro.com/ironseedsharp/
-  development: complete
-  status: unplayable
-  langs:
-  - 'C#'
-  frameworks:
-  - SFML
-  licenses:
-  - GPL3
-  added: 2025-11-23
-  updated: 2025-11-23
-
 - name: iortcw
   originals:
   - Return to Castle Wolfenstein
@@ -462,11 +422,33 @@
   video:
     youtube: iDwbo-ecJQw
 
+- name: Iris2
+  images:
+  - https://libregamewiki.org/images/thumb/a/a9/Iris-2D.png/320px-Iris-2D.png
+  - https://libregamewiki.org/images/thumb/e/e2/Iris-3D.png/320px-Iris-3D.png
+  - https://www.iris2.de/images/4/48/20080106175329_188.png
+  licenses:
+  - GPL3
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OGRE
+  development: halted
+  originals:
+  - Ultima Online
+  repo: https://github.com/kblaschke/Iris2
+  status: playable
+  type: remake
+  url: https://libregamewiki.org/Iris2_3D_Client_-_for_Ultima_Online
+  updated: 2021-03-10
+
 - name: Iron Doom
   originals:
   - Doom
   type: remake
   repo: 'https://github.com/Henrique194/iron-doom'
+  url: https://www.doomworld.com/forum/topic/150233
   feed: 'https://github.com/Henrique194/iron-doom/releases.atom'
   development: sporadic
   status: playable
@@ -481,7 +463,7 @@
     A modern and readable Doom source port written in Rust, designed for clarity
     and maintainability.
   added: 2026-02-27
-  updated: 2026-02-27
+  updated: 2026-03-19
   images:
   - https://github.com/user-attachments/assets/8dca0ae1-cc86-4fd1-bcf8-6c8a47ce854c
 
@@ -541,6 +523,25 @@
   - https://screenshots.debian.net/shrine/screenshot/19672/simage/large-4207f64f87b8fdbe46db0838d62f7e9a.png
   - https://screenshots.debian.net/shrine/screenshot/19658/simage/large-648126d2bd794b3e69b6981dc5bb5dc4.png
   - https://screenshots.debian.net/shrine/screenshot/19653/simage/large-07f0cd535bca6c4b9132ea62b2ec6629.png
+
+- name: IronSeedSharp
+  originals:
+  - Ironseed
+  type: remake
+  repo: >-
+    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://bitbucket.org/blueachenar/ironseedsharp
+  url: >-
+    https://web.archive.org/web/20180825065529/https://pedrocaleiro.com/ironseedsharp/
+  development: complete
+  status: unplayable
+  langs:
+  - 'C#'
+  frameworks:
+  - SFML
+  licenses:
+  - GPL3
+  added: 2025-11-23
+  updated: 2025-11-23
 
 - name: irrlamb
   frameworks:

@@ -83,7 +83,7 @@
   licenses:
   - As-is
   development: halted
-  status: playable 
+  status: playable
   originals:
   - Frog!
   repo: https://github.com/gborp/back-to-nature-c64-remake
@@ -91,6 +91,22 @@
   updated: 2021-01-02
   video:
     youtube: GOmoWe_Flvs
+
+- name: Back to Skool disassembly
+  originals:
+  - Back to Skool
+  type: remake
+  repo: 'https://github.com/skoolkid/backtoskool'
+  url: 'https://skoolkid.github.io/backtoskool/'
+  feed: 'https://github.com/skoolkid/backtoskool/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-03-19
+  updated: 2026-03-19
 
 - name: BaconBytes.StarTrek
   originals:
@@ -484,6 +500,42 @@
   video:
     youtube: vLQTb-5eVNU
 
+- name: Barrack
+  originals:
+  - Barrack
+  type: clone
+  url: 'https://kittenm4ster.itch.io/barrack'
+  development: complete
+  status: playable
+  langs:
+  - QuickBASIC
+  licenses:
+  - GPL3
+  added: 2026-03-17
+  updated: 2026-03-17
+  images:
+  - https://img.itch.zone/aW1hZ2UvNDM4MTgvMTg4ODEzLnBuZw==/original/zSK1tk.png
+
+- name: bash2048
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/JosefZIla/bash2048'
+  feed: 'https://github.com/JosefZIla/bash2048/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Shell
+  licenses:
+  - Unlicense
+  added: 2025-10-03
+  updated: 2025-10-03
+  images:
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048a.png
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048b.png
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048c.png
+  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048d.png
+
 - name: bash-pac
   originals:
   - Pac-Man
@@ -509,26 +561,6 @@
     https://images.pling.com/img/00/00/66/05/71/2143970/screenshot-2024-04-21-184017.png
   - >-
     https://images.pling.com/img/00/00/66/05/71/2143970/screenshot-2024-04-21-184037.png
-
-- name: bash2048
-  originals:
-  - '2048'
-  type: clone
-  repo: 'https://github.com/JosefZIla/bash2048'
-  feed: 'https://github.com/JosefZIla/bash2048/releases.atom'
-  development: halted
-  status: playable
-  langs:
-  - Shell
-  licenses:
-  - Unlicense
-  added: 2025-10-03
-  updated: 2025-10-03
-  images:
-  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048a.png
-  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048b.png
-  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048c.png
-  - https://delightlylinux.wordpress.com/wp-content/uploads/2024/02/bash2048d.png
 
 - name: Batman Returns
   originals:
@@ -628,6 +660,31 @@
   added: 2026-01-13
   updated: 2026-01-13
 
+- name: Battle Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://sourceforge.net/projects/battlepong/'
+  url: 'https://icculus.org/battlepong/'
+  feed: 'https://sourceforge.net/projects/battlepong/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2025-08-07
+  updated: 2025-08-07
+  images:
+  - 'https://icculus.org/battlepong/img/screens/screen1.png'
+  - 'https://icculus.org/battlepong/img/screens/screen2.png'
+  - 'https://icculus.org/battlepong/img/screens/screen3.png'
+  - 'https://icculus.org/battlepong/img/screens/screen4.png'
+  - 'https://icculus.org/battlepong/img/screens/screen5.png'
+
 - name: BattleCity
   originals:
   - Battle City
@@ -674,31 +731,6 @@
   updated: 2026-01-15
   images:
   - 'https://6502disassembly.com/va-battlezone/images/gameplay.png'
-
-- name: Battle Pong
-  originals:
-  - Pong
-  type: clone
-  repo: 'https://sourceforge.net/projects/battlepong/'
-  url: 'https://icculus.org/battlepong/'
-  feed: 'https://sourceforge.net/projects/battlepong/rss?path=/'
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  added: 2025-08-07
-  updated: 2025-08-07
-  images:
-  - 'https://icculus.org/battlepong/img/screens/screen1.png'
-  - 'https://icculus.org/battlepong/img/screens/screen2.png'
-  - 'https://icculus.org/battlepong/img/screens/screen3.png'
-  - 'https://icculus.org/battlepong/img/screens/screen4.png'
-  - 'https://icculus.org/battlepong/img/screens/screen5.png'
 
 - name: BBC Master Elite
   originals:
@@ -989,6 +1021,41 @@
   type: remake
   updated: 2021-05-17
   url: http://cyxdown.free.fr/bs/
+
+- name: Berserker@Quake2 Engine
+  originals:
+  - Quake 2
+  type: remake
+  repo: 'https://github.com/UCyborg/BerserkerQuake2'
+  url: 'https://berserker.quakegate.ru/'
+  feed: 'https://github.com/UCyborg/BerserkerQuake2/releases.atom'
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  added: 2026-03-25
+  updated: 2026-03-25
+  images:
+  - 'https://berserker.quakegate.ru/shots/pr2.jpg'
+  - 'https://berserker.quakegate.ru/shots/pr6.jpg'
+  - 'https://berserker.quakegate.ru/shots/pr7.jpg'
+  - 'https://berserker.quakegate.ru/shots/pr8.jpg'
+  - 'https://berserker.quakegate.ru/shots/pr9.jpg'
+  - 'https://berserker.quakegate.ru/shots/pr15.jpg'
+  - 'https://berserker.quakegate.ru/shots/pr18.jpg'
+  - 'https://berserker.quakegate.ru/shots/pr28.jpg'
+  - 'https://berserker.quakegate.ru/shots/pr46.jpg'
+  - 'https://berserker.quakegate.ru/shots/pr57.jpg'
+  - 'https://berserker.quakegate.ru/shots/pr64.jpg'
 
 - name: Berusky I
   originals:
@@ -1615,6 +1682,28 @@
   type: remake
   updated: 2019-09-02
 
+- name: Bloxxi
+  originals:
+  - TetriNET
+  type: clone
+  repo: 'https://sourceforge.net/projects/bloxxi/'
+  feed: 'https://sourceforge.net/p/bloxxi/news/feed.rss'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - GPL2
+  added: 2026-03-29
+  updated: 2026-03-29
+  images:
+  - 'https://a.fsdn.com/con/app/proj/bloxxi/screenshots/54234.jpg'
+
 - name: Blue Max
   originals:
   - Blue Max
@@ -1740,6 +1829,22 @@
   - https://www.bobstuff.org/media/images/bobball-android-2.png
   - https://www.bobstuff.org/media/images/bobball-android-3.png
 
+- name: Bobby
+  langs:
+  - TypeScript
+  licenses:
+  - AGPL3
+  development: sporadic
+  originals:
+  - Bobby Carrot
+  repo: https://github.com/yannicka/bobby
+  status: playable
+  type: similar
+  updated: 2024-04-23
+  url: https://bobby.yannicka.fr/
+  images:
+  - https://raw.githubusercontent.com/yannicka/bobby/master/src/assets/img/banner.png
+
 - name: BoboBot
   originals:
   - MegaMan
@@ -1767,6 +1872,24 @@
   - https://web.archive.org/web/20250210234936im_/http://newbreedsoftware.com/bobobot/screenshots/bobobot-agenda3.gif
   video:
     youtube: YnIDxeoQeIA
+
+- name: Boing!
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=boing'
+  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/boing-0.1.lsm'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-08-08
+  updated: 2025-08-08
 
 - name: Bolder Dash
   originals:
@@ -1842,25 +1965,6 @@
   - 'https://6502disassembly.com/a2-bomber/images/explosion07.gif'
   - 'https://6502disassembly.com/a2-bomber/images/explosion09.gif'
   - 'https://6502disassembly.com/a2-bomber/images/explosion12.gif'
-
-- name: BOMBERWARRIORS OF WOR
-  originals:
-  - Wizard of Wor
-  type: remake
-  repo: 'https://github.com/vranki/Warriors-of-Wor'
-  development: halted
-  status: playable
-  content: free
-  langs:
-  - C++
-  frameworks:
-  - Qt
-  - SDL2
-  licenses:
-  - As-is
-  info: A remake of Wizard of Wor with some extra stuff
-  added: 2026-03-03
-  updated: 2026-03-03
 
 - name: Bomberclone
   originals:
@@ -1951,6 +2055,25 @@
   images:
   - 'https://oldschoolprg.x10.mx/images/prj_bmb0.png'
 
+- name: BOMBERWARRIORS OF WOR
+  originals:
+  - Wizard of Wor
+  type: remake
+  repo: 'https://github.com/vranki/Warriors-of-Wor'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Qt
+  - SDL2
+  licenses:
+  - As-is
+  info: A remake of Wizard of Wor with some extra stuff
+  added: 2026-03-03
+  updated: 2026-03-03
+
 - name: Bombic
   images:
   - https://a.fsdn.com/con/app/proj/bombic/screenshots/22410.jpg
@@ -2016,6 +2139,21 @@
   updated: 2024-04-21
   video:
     youtube: N1pGgX_rFOQ
+
+- name: Bong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/HaikuArchives/Bong'
+  development: complete
+  status: playable
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: BeOS version of Pong.
+  added: 2025-08-23
+  updated: 2025-08-23
 
 - name: 'BOOM: Remake'
   images:
@@ -2118,6 +2256,21 @@
   added: 2025-11-27
   updated: 2026-01-17
 
+- name: Bounty Bob Strikes Back!
+  originals:
+  - Bounty Bob Strikes Back!
+  type: remake
+  url: 'https://csdb.dk/release/?id=155889'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Disassembly of Bounty Bob Strikes Back!
+  added: 2026-04-04
+  updated: 2026-04-04
+
 - name: BoxMan
   originals:
   - Sokoban
@@ -2146,6 +2299,23 @@
   repo: https://github.com/Zitrax/brainblast
   type: clone
   updated: 2022-07-09
+
+- name: BrainCurses
+  originals:
+  - Mastermind
+  type: clone
+  repo: 'https://github.com/bderrly/braincurses'
+  feed: 'https://github.com/bderrly/braincurses/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - C++
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL2
+  added: 2025-11-07
+  updated: 2025-11-07
 
 - name: Brány Skeldalu
   originals:
@@ -2185,23 +2355,6 @@
   type: remake
   updated: 2015-05-15
 
-- name: BrainCurses
-  originals:
-  - Mastermind
-  type: clone
-  repo: 'https://github.com/bderrly/braincurses'
-  feed: 'https://github.com/bderrly/braincurses/releases.atom'
-  development: halted
-  status: playable
-  langs:
-  - C++
-  frameworks:
-  - ncurses
-  licenses:
-  - GPL2
-  added: 2025-11-07
-  updated: 2025-11-07
-
 - name: Breach for Genesis
   originals:
   - Breach
@@ -2222,6 +2375,22 @@
   video:
     youtube: UU4W7HWhd0I
 
+- name: Break In
+  originals:
+  - Breakout
+  type: clone
+  url: >-
+    https://archive.org/download/30programsforthezx81/30ProgramsForTheZx81.pdf#page=23
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: The game was published in the book "30 Programs for the ZX81".
+  added: 2025-10-27
+  updated: 2025-10-27
+
 - name: Breaker
   originals:
   - Arkanoid
@@ -2241,22 +2410,6 @@
   updated: 2025-08-21
   images:
   - 'https://a.fsdn.com/con/app/proj/breaker10/screenshots/prj_arka0.png'
-
-- name: Break In
-  originals:
-  - Breakout
-  type: clone
-  url: >-
-    https://archive.org/download/30programsforthezx81/30ProgramsForTheZx81.pdf#page=23
-  development: complete
-  status: playable
-  langs:
-  - BASIC
-  licenses:
-  - As-is
-  info: The game was published in the book "30 Programs for the ZX81".
-  added: 2025-10-27
-  updated: 2025-10-27
 
 - name: Breakout (Ken Silverman)
   originals:
@@ -2454,55 +2607,6 @@
   updated: 2022-02-24
   video:
     youtube: bkQKHJvITRU
-
-- name: Bobby
-  langs:
-  - TypeScript
-  licenses:
-  - AGPL3
-  development: sporadic
-  originals:
-  - Bobby Carrot
-  repo: https://github.com/yannicka/bobby
-  status: playable
-  type: similar
-  updated: 2024-04-23
-  url: https://bobby.yannicka.fr/
-  images:
-  - https://raw.githubusercontent.com/yannicka/bobby/master/src/assets/img/banner.png
-
-- name: Boing!
-  originals:
-  - Breakout
-  type: clone
-  repo: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=boing'
-  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/boing-0.1.lsm'
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - C
-  frameworks:
-  - SVGALib
-  licenses:
-  - GPL2
-  added: 2025-08-08
-  updated: 2025-08-08
-
-- name: Bong
-  originals:
-  - Pong
-  type: clone
-  repo: 'https://github.com/HaikuArchives/Bong'
-  development: complete
-  status: playable
-  langs:
-  - C++
-  licenses:
-  - As-is
-  info: BeOS version of Pong.
-  added: 2025-08-23
-  updated: 2025-08-23
 
 - name: BStone
   langs:
