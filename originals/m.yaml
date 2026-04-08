@@ -1,24 +1,14 @@
-- name: M.A.X.
+- name: 'Machines: Wired for War'
   external:
-    wikipedia: Mechanized Assault & Exploration
+    website: 'https://web.archive.org/web/20241223041313/http://www.machinesthegame.co.uk/'
+    wikipedia: Machines (video game)
+  platforms:
+  - Windows
   meta:
     genres:
     - Real-Time Strategy
-    - Turn-Based Strategy
-
-- name: M.U.G.E.N
-  external:
-    wikipedia: Mugen (game engine)
-  meta:
-    genres:
-    - Fighting
-
-- name: M.U.L.E.
-  external:
-    wikipedia: M.U.L.E.
-  meta:
-    genres:
-    - Turn-Based Strategy
+    themes:
+    - Sci-Fi
 
 - name: Mad Planets
   external:
@@ -61,23 +51,6 @@
   - Windows
   - Xbox
 
-- name: 'Mafia: Definitive Edition'
-  external:
-    wikipedia: 'Mafia: Definitive Edition'
-  platforms:
-  - PlayStation 4
-  - Windows
-  - Xbox One
-  meta:
-    genres:
-    - Action
-    - Adventure
-    - TPS
-    subgenres:
-    - Vehicular Combat
-    themes:
-    - Crime
-
 - name: Mafia II
   external:
     wikipedia: Mafia II
@@ -101,6 +74,23 @@
     wikipedia: Mafia III
   platforms:
   - OSX
+  - PlayStation 4
+  - Windows
+  - Xbox One
+  meta:
+    genres:
+    - Action
+    - Adventure
+    - TPS
+    subgenres:
+    - Vehicular Combat
+    themes:
+    - Crime
+
+- name: 'Mafia: Definitive Edition'
+  external:
+    wikipedia: 'Mafia: Definitive Edition'
+  platforms:
   - PlayStation 4
   - Windows
   - Xbox One
@@ -263,6 +253,16 @@
     themes:
     - Fantasy
 
+- name: Man Goes Down
+  external:
+    website: 'https://www.mobygames.com/game/202253/man-goes-down/'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Arcade
+    - Platform
+
 - name: The Manhole
   external:
     website: https://www.mobygames.com/game/9222
@@ -275,6 +275,25 @@
   - Classic Mac OS
   - DOS
   - PC-98
+
+- name: 'Manhunter 2: San Francisco'
+  external:
+    website: https://www.mobygames.com/game/25
+    wikipedia: 'Manhunter 2: San Francisco'
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Point and click
+    themes:
+    - Post-Apocalyptic
+    - Sci-Fi
+  platforms:
+  - Amiga
+  - Atari
+  - Classic Mac OS
+  - CoCo
+  - DOS
 
 - name: 'Manhunter: New York'
   external:
@@ -291,25 +310,6 @@
   platforms:
   - Amiga
   - Apple II
-  - Atari
-  - Classic Mac OS
-  - CoCo
-  - DOS
-
-- name: 'Manhunter 2: San Francisco'
-  external:
-    website: https://www.mobygames.com/game/25
-    wikipedia: 'Manhunter 2: San Francisco'
-  meta:
-    genres:
-    - Adventure
-    subgenres:
-    - Point and click
-    themes:
-    - Post-Apocalyptic
-    - Sci-Fi
-  platforms:
-  - Amiga
   - Atari
   - Classic Mac OS
   - CoCo
@@ -552,6 +552,14 @@
     genres:
     - Puzzle
 
+- name: M.A.X.
+  external:
+    wikipedia: Mechanized Assault & Exploration
+  meta:
+    genres:
+    - Real-Time Strategy
+    - Turn-Based Strategy
+
 - name: Max Payne
   external:
     website: 'https://www.rockstargames.com/games/maxpayne'
@@ -603,28 +611,6 @@
     themes:
     - Fantasy
 
-- name: 'Machines: Wired for War'
-  external:
-    website: 'https://web.archive.org/web/20241223041313/http://www.machinesthegame.co.uk/'
-    wikipedia: Machines (video game)
-  platforms:
-  - Windows
-  meta:
-    genres:
-    - Real-Time Strategy
-    themes:
-    - Sci-Fi
-
-- name: Man Goes Down
-  external:
-    website: 'https://www.mobygames.com/game/202253/man-goes-down/'
-  platforms:
-  - Atari
-  meta:
-    genres:
-    - Arcade
-    - Platform
-
 - name: MechCommander 2
   external:
     website: https://web.archive.org/web/20040818103526/http://www.fasastudio.com/games/mechcommander/default.htm?c00=0
@@ -656,6 +642,13 @@
   meta:
     genres:
     - FPS
+
+- name: Mega-Lo-Mania
+  external:
+    wikipedia: Mega-Lo-Mania
+  meta:
+    genres:
+    - Real-Time Strategy
 
 - name: Mega Man 3
   names:
@@ -747,12 +740,22 @@
     themes:
     - Sci-Fi
 
-- name: Mega-Lo-Mania
+- name: Mega Turrican
+  names:
+  - Turrican III
   external:
-    wikipedia: Mega-Lo-Mania
+    website: 'http://www.factor5.com/secrets_mega_turrican.shtml'
+    wikipedia: Mega Turrican
+  platforms:
+  - Amiga
+  - Genesis
+  - Wii
   meta:
     genres:
-    - Real-Time Strategy
+    - Platform
+    - Shooter
+    themes:
+    - Sci-Fi
 
 - name: MegaBall
   external:
@@ -770,6 +773,20 @@
     genres:
     - Platform
 
+- name: Meikyuujou Hydra
+  names:
+  - 迷宮城ハイドラ
+  external:
+    website: https://www.mobygames.com/game/177333/meikyuujou-hydra/
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Action
+    - Platform
+    themes:
+    - Fantasy
+
 - name: Meridian 59
   external:
     wikipedia: Meridian 59
@@ -786,6 +803,21 @@
   meta:
     genres:
     - Puzzle
+
+- name: 'Metal Arms: Glitch in the System'
+  external:
+    website: 'https://web.archive.org/web/20081230063415/https://www.metalarms.com/'
+    wikipedia: 'Metal Arms: Glitch in the System'
+  platforms:
+  - GameCube
+  - PlayStation 2
+  - Xbox
+  - Xbox 360
+  meta:
+    genres:
+    - TPS
+    themes:
+    - Sci-Fi
 
 - name: Metal Slug Series
   external:
@@ -1046,6 +1078,15 @@
     genres:
     - Arcade
 
+- name: Mine Storm
+  external:
+    website: 'https://www.mobygames.com/game/12443/mine-storm/'
+  meta:
+    genres:
+    - Arcade
+    themes:
+    - Sci-Fi
+
 - name: Minecraft
   external:
     wikipedia: Minecraft
@@ -1278,6 +1319,17 @@
     genres:
     - RPG
 
+- name: 'Monsters, Inc.'
+  external:
+    wikipedia: 'Monsters, Inc. (video game)'
+  platforms:
+  - Game Boy
+  - GBA
+  - PlayStation 2
+  meta:
+    genres:
+    - Platform
+
 - name: Monty Mole
   external:
     wikipedia: Monty Mole
@@ -1477,6 +1529,20 @@
     genres:
     - Action
 
+- name: M.U.G.E.N
+  external:
+    wikipedia: Mugen (game engine)
+  meta:
+    genres:
+    - Fighting
+
+- name: M.U.L.E.
+  external:
+    wikipedia: M.U.L.E.
+  meta:
+    genres:
+    - Turn-Based Strategy
+
 - name: Muppet Treasure Island
   external:
     website: https://www.mobygames.com/game/6477
@@ -1489,6 +1555,14 @@
   platforms:
   - Classic Mac OS
   - Windows
+
+- name: The Muppets on the Go!
+  external:
+    website: 'https://www.mobygames.com/game/181762/the-muppets-on-the-go/'
+  meta:
+    genres:
+    - Compilation
+    - Educational
 
 - name: Myst
   external:
@@ -1532,6 +1606,25 @@
   meta:
     genres:
     - MMORPG
+
+- name: 'Mystery Dungeon: Shiren the Wanderer'
+  names:
+  - 不思議のダンジョン2 風来のシレン
+  external:
+    website: >-
+      https://web.archive.org/web/20120111041059/http://www.chunsoft.co.jp/games/shiren/
+    wikipedia: 'Mystery Dungeon: Shiren the Wanderer'
+  platforms:
+  - Android
+  - DS
+  - iOS
+  - SNES
+  - Wii
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
 
 - name: Mystery House
   names:

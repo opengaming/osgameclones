@@ -1,3 +1,41 @@
+- name: f2bgl
+  frameworks:
+  - SDL2
+  - OpenGL
+  langs:
+  - C++
+  licenses:
+  - As-is
+  content: commercial
+  development: halted
+  status: playable
+  originals:
+  - Fade to Black
+  repo: https://github.com/cyxx/f2bgl
+  type: remake
+  updated: 2023-11-15
+  url: http://cyxdown.free.fr/f2b/
+  images:
+  - https://www.ferb.fr/imgs/f2b1.jpg
+  - https://www.ferb.fr/imgs/f2b2.jpg
+  - https://www.ferb.fr/imgs/f2b3.jpg
+  - https://www.ferb.fr/imgs/f2b4.jpg
+
+- name: F256 two to the power of eleven
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/rmsk2/F256_2048'
+  feed: 'https://github.com/rmsk2/F256_2048/releases.atom'
+  development: sporadic
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - MIT
+  added: 2025-11-17
+  updated: 2025-11-17
+
 - name: F-1 Spirit
   repo: 'https://github.com/ptitSeb/f1spirit'
   frameworks:
@@ -23,6 +61,22 @@
   - https://f1spirit.jorito.net/pics/screenshot4.jpg
   - https://f1spirit.jorito.net/pics/screenshot7.jpg
 
+- name: F-Zero Clone
+  frameworks:
+  - WebGL
+  langs:
+  - JavaScript
+  licenses:
+  - As-is
+  content: commercial
+  development: halted
+  originals:
+  - F-Zero
+  status: unplayable
+  repo: https://github.com/chipbell4/F-Zero-Clone
+  type: remake
+  updated: 2022-08-09
+
 - name: F.A. Premier League Stars prototype
   originals:
   - The F.A. Premier League Stars
@@ -42,77 +96,6 @@
   info: Part of the Climax lot that was put up for sale in 2016.
   added: 2026-03-12
   updated: 2026-03-12
-
-- name: F-Zero Clone
-  frameworks:
-  - WebGL
-  langs:
-  - JavaScript
-  licenses:
-  - As-is
-  content: commercial
-  development: halted
-  originals:
-  - F-Zero
-  status: unplayable
-  repo: https://github.com/chipbell4/F-Zero-Clone
-  type: remake
-  updated: 2022-08-09
-
-- name: F.LF
-  development: complete
-  images:
-  - https://camo.githubusercontent.com/1af56a932d6c8883afed0b139e3ad6938709f94e/687474703a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f7879576a4f4658546c657a4d7a446c644d7152495073684e376939657a335641586264615732742d7431383d7731363030
-  langs:
-  - JavaScript
-  licenses:
-  - CC-BY-NC-SA
-  content: swappable
-  originals:
-  - Little Fighter 2
-  repo: https://github.com/Project-F/F.LF
-  status: playable
-  type: clone
-  updated: 2020-08-25
-  url: https://project-f.github.io/
-
-- name: F256 two to the power of eleven
-  originals:
-  - '2048'
-  type: clone
-  repo: 'https://github.com/rmsk2/F256_2048'
-  feed: 'https://github.com/rmsk2/F256_2048/releases.atom'
-  development: sporadic
-  status: playable
-  langs:
-  - Assembly
-  licenses:
-  - MIT
-  added: 2025-11-17
-  updated: 2025-11-17
-
-- name: f2bgl
-  frameworks:
-  - SDL2
-  - OpenGL
-  langs:
-  - C++
-  licenses:
-  - As-is
-  content: commercial
-  development: halted
-  status: playable
-  originals:
-  - Fade to Black
-  repo: https://github.com/cyxx/f2bgl
-  type: remake
-  updated: 2023-11-15
-  url: http://cyxdown.free.fr/f2b/
-  images:
-  - https://www.ferb.fr/imgs/f2b1.jpg
-  - https://www.ferb.fr/imgs/f2b2.jpg
-  - https://www.ferb.fr/imgs/f2b3.jpg
-  - https://www.ferb.fr/imgs/f2b4.jpg
 
 - name: fakk2-rework
   originals:
@@ -148,6 +131,25 @@
   video:
     youtube: 3MVMJkOYHSg
 
+- name: Fallout 2 Community Edition
+  originals:
+  - Fallout 2
+  type: remake
+  repo: 'https://github.com/alexbatalov/fallout2-ce/'
+  development: sporadic
+  feed: https://github.com/alexbatalov/fallout2-ce/releases.atom
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - Custom
+  updated: 2023-11-17
+  video:
+    youtube: aw3pEhF3eJo
+
 - name: Fallout Community Edition
   originals:
   - Fallout
@@ -169,25 +171,6 @@
   updated: 2023-11-16
   video:
     youtube: mt5KpyNVBR8
-
-- name: Fallout 2 Community Edition
-  originals:
-  - Fallout 2
-  type: remake
-  repo: 'https://github.com/alexbatalov/fallout2-ce/'
-  development: sporadic
-  feed: https://github.com/alexbatalov/fallout2-ce/releases.atom
-  status: playable
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - Custom
-  updated: 2023-11-17
-  video:
-    youtube: aw3pEhF3eJo
 
 - name: Falltergeist
   development: halted
@@ -269,22 +252,6 @@
   - 'https://feud.sourceforge.net/screen6.png'
   - 'https://feud.sourceforge.net/feudriv.jpg'
 
-- name: FF Disassembly
-  originals:
-  - Final Fantasy
-  type: remake
-  repo: 'https://github.com/Entroper/FF1Disassembly'
-  url: https://www.romhacking.net/documents/401/
-  development: halted
-  status: playable
-  content: commercial
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-02-11
-  updated: 2026-03-03
-
 - name: FF1 Disassembly with Bugfix & Enhancement Patches
   originals:
   - Final Fantasy
@@ -348,24 +315,21 @@
   added: 2026-02-22
   updated: 2026-02-22
 
-- name: Fiend Finder
+- name: FF Disassembly
   originals:
-  - Mamono Sweeper
-  - Minesweeper
-  type: clone
-  repo: https://codeberg.org/wickedsmoke/fiend-finder
+  - Final Fantasy
+  type: remake
+  repo: 'https://github.com/Entroper/FF1Disassembly'
+  url: https://www.romhacking.net/documents/401/
+  development: halted
   status: playable
-  content: open
+  content: commercial
   langs:
-  - C
-  frameworks:
-  - OpenGL
+  - Assembly
   licenses:
-  - GPL3
-  added: 2025-05-28
-  updated: 2025-05-28
-  images:
-  - 'https://wickedsmoke.codeberg.page/image/ff_easy.png'
+  - As-is
+  added: 2026-02-11
+  updated: 2026-03-03
 
 - name: fheroes2
   images:
@@ -389,6 +353,25 @@
   type: remake
   updated: 2023-11-22
   info: 'direct continuation of https://sourceforge.net/projects/fheroes2/'
+
+- name: Fiend Finder
+  originals:
+  - Mamono Sweeper
+  - Minesweeper
+  type: clone
+  repo: https://codeberg.org/wickedsmoke/fiend-finder
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL3
+  added: 2025-05-28
+  updated: 2025-05-28
+  images:
+  - 'https://wickedsmoke.codeberg.page/image/ff_easy.png'
 
 - name: Fight Or Perish
   images:
@@ -619,6 +602,21 @@
   - 'https://tic.computer/cart/41eaf38786c4a34a832e631e190cd879/cover.gif'
   info: source is available by closing the game and pressing Esc
 
+- name: Flappybird
+  originals:
+  - Flappy Bird
+  type: remake
+  repo: 'https://github.com/JannikCrack/flappybird-1'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Swift
+  licenses:
+  - MIT
+  added: 2026-03-26
+  updated: 2026-03-26
+
 - name: FlappyLED
   originals:
   - Flappy Bird
@@ -692,31 +690,6 @@
   images:
   - https://raw.githubusercontent.com/mattn/flappyvird-vim/master/data/screenshot.png
 
-- name: FlasciiBird
-  originals:
-  - Flappy Bird
-  type: clone
-  repo: 'https://github.com/dos1/flasciibird'
-  url: 'https://dos.itch.io/flasciibird'
-  feed: 'https://github.com/dos1/flasciibird/releases.atom'
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - Python
-  frameworks:
-  - ncurses
-  licenses:
-  - GPL3
-  added: 2025-08-17
-  updated: 2025-08-17
-  images:
-  - 'https://img.itch.zone/aW1hZ2UvMTc1Mi84MDk0LnBuZw==/original/BdJFkm.png'
-  - 'https://img.itch.zone/aW1hZ2UvMTc1Mi84MDk1LnBuZw==/original/a9DAOF.png'
-  - 'https://img.itch.zone/aW1hZ2UvMTc1Mi84MTQwLnBuZw==/original/bGyf6O.png'
-  video:
-    youtube: 1FTGFpb1f_0
-
 - name: Flare
   langs:
   - C++
@@ -744,6 +717,48 @@
   - https://flarerpg.org/wp-content/uploads/2018/03/empyrean_8.jpg
   video:
     youtube: OLrUYYulcss
+
+- name: FlasciiBird
+  originals:
+  - Flappy Bird
+  type: clone
+  repo: 'https://github.com/dos1/flasciibird'
+  url: 'https://dos.itch.io/flasciibird'
+  feed: 'https://github.com/dos1/flasciibird/releases.atom'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Python
+  frameworks:
+  - ncurses
+  licenses:
+  - GPL3
+  added: 2025-08-17
+  updated: 2025-08-17
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMTc1Mi84MDk0LnBuZw==/original/BdJFkm.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTc1Mi84MDk1LnBuZw==/original/a9DAOF.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTc1Mi84MTQwLnBuZw==/original/bGyf6O.png'
+  video:
+    youtube: 1FTGFpb1f_0
+
+- name: F.LF
+  development: complete
+  images:
+  - https://camo.githubusercontent.com/1af56a932d6c8883afed0b139e3ad6938709f94e/687474703a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f7879576a4f4658546c657a4d7a446c644d7152495073684e376939657a335641586264615732742d7431383d7731363030
+  langs:
+  - JavaScript
+  licenses:
+  - CC-BY-NC-SA
+  content: swappable
+  originals:
+  - Little Fighter 2
+  repo: https://github.com/Project-F/F.LF
+  status: playable
+  type: clone
+  updated: 2020-08-25
+  url: https://project-f.github.io/
 
 - name: FlightGear
   images:
@@ -1285,6 +1300,21 @@
   images:
   - https://longturn.readthedocs.io/en/latest/_images/freeciv21-screenshot.png
 
+- name: Freeciv Alpha Centauri project
+  langs:
+  - C
+  licenses:
+  - GPL2
+  content: open
+  development: halted
+  originals:
+  - Sid Meier's Alpha Centauri
+  status: unplayable
+  repo: https://sourceforge.net/projects/freecivac/
+  type: remake
+  updated: 2022-03-28
+  url: https://freecivac.sourceforge.net/
+
 - name: Freeciv-web
   info: web client for Freeciv
   langs:
@@ -1306,21 +1336,6 @@
   images:
   - https://raw.githubusercontent.com/freeciv/freeciv-web/develop/freeciv-web/src/main/webapp/javascript/webgl/freeciv-webgl.png
   - https://raw.githubusercontent.com/freeciv/freeciv-web/develop/scripts/freeciv-web-screenshot.png
-
-- name: Freeciv Alpha Centauri project
-  langs:
-  - C
-  licenses:
-  - GPL2
-  content: open
-  development: halted
-  originals:
-  - Sid Meier's Alpha Centauri
-  status: unplayable
-  repo: https://sourceforge.net/projects/freecivac/
-  type: remake
-  updated: 2022-03-28
-  url: https://freecivac.sourceforge.net/
 
 - name: FreeCNC
   originals:
@@ -2084,6 +2099,98 @@
   info: Source code included with Game.com official emulator
   added: 2026-03-15
   updated: 2026-03-15
+
+- name: Frogger 2 (Game Boy Color)
+  originals:
+  - "Frogger 2: Swampy's Revenge"
+  type: remake
+  repo: 'https://github.com/HighwayFrogs/frogger2-gbc'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-03-20
+  updated: 2026-03-20
+
+- name: "Frogger 2: Swampy's Revenge (Cancelled Nintendo 64 Port)"
+  originals:
+  - "Frogger 2: Swampy's Revenge"
+  type: official
+  repo: 'https://github.com/HighwayFrogs/frogger2-n64'
+  development: halted
+  status: playable
+  multiplayer:
+  - Local
+  - Hotseat
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-03-20
+  updated: 2026-03-20
+  video:
+    youtube: AzOhOAfQkRk
+
+- name: "Frogger 2: Swampy's Revenge (Dreamcast)"
+  originals:
+  - "Frogger 2: Swampy's Revenge"
+  type: remake
+  repo: 'https://github.com/HighwayFrogs/frogger2-dc'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Hotseat
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-03-20
+  updated: 2026-03-20
+
+- name: "Frogger 2: Swampy's Revenge (PC)"
+  originals:
+  - "Frogger 2: Swampy's Revenge"
+  type: official
+  repo: 'https://github.com/HighwayFrogs/frogger2-pc'
+  url: 'https://archive.org/details/frogger2-dev-archives'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Hotseat
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - DirectX
+  licenses:
+  - As-is
+  added: 2026-03-20
+  updated: 2026-03-20
+
+- name: "Frogger 2: Swampy's Revenge (PlayStation)"
+  originals:
+  - "Frogger 2: Swampy's Revenge"
+  type: official
+  repo: 'https://github.com/HighwayFrogs/frogger2-psx'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Hotseat
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-03-20
+  updated: 2026-03-20
 
 - name: Froggix
   images:

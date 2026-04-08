@@ -1,78 +1,3 @@
-- name: W.R. Hutsell's Civil War Battleset
-  originals:
-  - Civil War Battleset
-  type: official
-  repo: 'https://github.com/Hutsell-Games/civil-war-battleset'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - BASIC
-  licenses:
-  - MIT
-  added: 2026-01-24
-  updated: 2026-01-24
-  images:
-  - https://hutsellgames.com/wp-content/uploads/2011/04/egascreenshot.jpg
-
-- name: W.R. Hutsell's Civil War Strategy Game
-  originals:
-  - Civil War Strategy
-  type: remake
-  repo: 'https://github.com/Hutsell-Games/civil-war-strategy'
-  url: >-
-    https://hutsellgames.com/2022/04/18/civil-war-strategy-1-6-releases-and-looking-for-testers/
-  development: halted
-  status: playable
-  multiplayer:
-  - Competitive
-  content: open
-  langs:
-  - BASIC
-  licenses:
-  - MIT
-  info: Also includes the original DOS source code.
-  added: 2026-01-24
-  updated: 2026-01-24
-  images:
-  - https://raw.githubusercontent.com/Hutsell-Games/civil-war-strategy/main/dev/cws-screenshot.png
-
-- name: W.R. Hutsell's Wars of Napoleon Game
-  originals:
-  - Wars of Napoleon
-  type: official
-  repo: 'https://github.com/Hutsell-Games/wars-of-napoleon'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - BASIC
-  licenses:
-  - MIT
-  added: 2026-01-24
-  updated: 2026-01-24
-  images:
-  - 'https://hutsellgames.com/wp-content/uploads/2011/04/wonscreenshot.jpg'
-
-- name: W.R. Hutsell's World War 2 In Western Europe Game
-  originals:
-  - World War II In Western Europe
-  type: official
-  repo: 'https://github.com/Hutsell-Games/world-war-2'
-  development: complete
-  status: playable
-  multiplayer:
-  - Competitive
-  content: open
-  langs:
-  - BASIC
-  licenses:
-  - MIT
-  added: 2026-01-24
-  updated: 2026-01-24
-  images:
-  - 'https://hutsellgames.com/wp-content/uploads/2011/04/ww2screenshot.jpg'
-
 - name: WAGE
   originals:
   - World Builder
@@ -214,6 +139,60 @@
   video:
     youtube: IaAUGs_3JJA
 
+- name: War1
+  originals:
+  - 'Warcraft: Orcs & Humans'
+  type: remake
+  repo: 'https://github.com/acoto87/war1'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  licenses:
+  - Zlib
+  updated: 2024-04-26
+  images:
+  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/gif1.gif'
+  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/gif2.gif'
+  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/gif3.gif'
+  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/pic1.png'
+  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/pic2.png'
+  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/pic3.png'
+  video:
+    youtube: vL0S_zVVhts
+
+- name: War1gus
+  originals:
+  - 'Warcraft: Orcs & Humans'
+  status: playable
+  type: remake
+  repo: 'https://github.com/Wargus/war1gus'
+  url: 'https://stratagus.com/war1gus.html'
+  feed: 'https://github.com/Wargus/war1gus/releases.atom'
+  development: sporadic
+  multiplayer:
+  - Competitive
+  - Local
+  - Online
+  content: commercial
+  langs:
+  - Lua
+  - C++
+  licenses:
+  - GPL2
+  info: >-
+    A re-implementation of “Warcraft: Orcs & Humans” that allows you to play
+    Warcraft with the Stratagus engine
+  added: 2024-09-09
+  updated: 2024-09-09
+  images:
+  - 'https://stratagus.com/img/promoScreenWar1gus.png'
+  - >-
+    https://media.moddb.com/cache/images/games/1/18/17684/thumb_620x2000/War1gus_2024-07-17_17-55-54_-_Trim.mp4.jpg
+
 - name: War Pong
   originals:
   - Pong
@@ -284,60 +263,6 @@
   added: 2025-11-23
   updated: 2025-11-23
 
-- name: War1
-  originals:
-  - 'Warcraft: Orcs & Humans'
-  type: remake
-  repo: 'https://github.com/acoto87/war1'
-  development: halted
-  status: semi-playable
-  content: commercial
-  langs:
-  - C
-  frameworks:
-  - OpenGL
-  licenses:
-  - Zlib
-  updated: 2024-04-26
-  images:
-  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/gif1.gif'
-  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/gif2.gif'
-  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/gif3.gif'
-  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/pic1.png'
-  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/pic2.png'
-  - 'https://raw.githubusercontent.com/acoto87/war1/master/pics/pic3.png'
-  video:
-    youtube: vL0S_zVVhts
-
-- name: War1gus
-  originals:
-  - 'Warcraft: Orcs & Humans'
-  status: playable
-  type: remake
-  repo: 'https://github.com/Wargus/war1gus'
-  url: 'https://stratagus.com/war1gus.html'
-  feed: 'https://github.com/Wargus/war1gus/releases.atom'
-  development: sporadic
-  multiplayer:
-  - Competitive
-  - Local
-  - Online
-  content: commercial
-  langs:
-  - Lua
-  - C++
-  licenses:
-  - GPL2
-  info: >-
-    A re-implementation of “Warcraft: Orcs & Humans” that allows you to play
-    Warcraft with the Stratagus engine
-  added: 2024-09-09
-  updated: 2024-09-09
-  images:
-  - 'https://stratagus.com/img/promoScreenWar1gus.png'
-  - >-
-    https://media.moddb.com/cache/images/games/1/18/17684/thumb_620x2000/War1gus_2024-07-17_17-55-54_-_Trim.mp4.jpg
-
 - name: 'Warcraft 2000: Nuclear Epidemic'
   originals:
   - 'Warcraft 2000'
@@ -385,27 +310,6 @@
   images:
   - https://stratagus.com/img/screenshotWargus.png
 
-- name: WarsmashModEngine
-  frameworks:
-  - libGDX
-  langs:
-  - Java
-  licenses:
-  - AGPL3
-  content: commercial
-  development: sporadic
-  originals:
-  - Warcraft III
-  repo: https://github.com/Retera/WarsmashModEngine
-  type: remake
-  updated: 2025-11-05
-  added: 2023-01-29
-  url: https://www.hiveworkshop.com/threads/overview-and-setup.331776/
-  info: This project attempts to be an open source remake of the game program portion of the Warcraft III game.
-  video:
-    youtube: 2YDPQW7uyQ8
-  status: semi-playable
-
 - name: Wario-Land-3
   frameworks:
   - pygame
@@ -448,6 +352,27 @@
   video:
     youtube: X3ZkTg-QkAo
   updated: 2023-01-25
+
+- name: WarsmashModEngine
+  frameworks:
+  - libGDX
+  langs:
+  - Java
+  licenses:
+  - AGPL3
+  content: commercial
+  development: sporadic
+  originals:
+  - Warcraft III
+  repo: https://github.com/Retera/WarsmashModEngine
+  type: remake
+  updated: 2025-11-05
+  added: 2023-01-29
+  url: https://www.hiveworkshop.com/threads/overview-and-setup.331776/
+  info: This project attempts to be an open source remake of the game program portion of the Warcraft III game.
+  video:
+    youtube: 2YDPQW7uyQ8
+  status: semi-playable
 
 - name: Warzone 2100
   images:
@@ -991,6 +916,22 @@
   - https://a.fsdn.com/con/app/proj/wizardofworhtml5/screenshots/51881_games_c64_wow_3.gif
   - https://a.fsdn.com/con/app/proj/wizardofworhtml5/screenshots/hqdefault.jpg
 
+- name: Wizardry III Legacy Of Llylgamyn Sir Tech 1983 Source Code
+  originals:
+  - 'Wizardry III: Legacy of Llylgamyn'
+  type: official
+  url: >-
+    https://archive.org/details/wizardry-iii-legacy-of-llylgamyn-sir-tech-1983-source-code.-7z
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-03-30
+  updated: 2026-03-30
+
 - name: Wizardry Legacy
   langs:
   - C++
@@ -1062,6 +1003,42 @@
   video:
     youtube: WBQn7A8Gpwg
 
+- name: wolf3d-browser
+  originals:
+  - Spear of Destiny
+  - Wolfenstein 3D
+  type: official
+  repo: 'https://github.com/id-Software/wolf3d-browser'
+  url: >-
+    https://www.pcmag.com/archive/free-browser-based-wolfenstein-3d-released-by-bethesda-297681
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - JavaScript
+  licenses:
+  - GPL2
+  added: 2026-01-01
+  updated: 2026-01-01
+
+- name: Wolf3D-iOS
+  originals:
+  - Wolfenstein 3D
+  - Spear of Destiny
+  type: official
+  repo: 'https://github.com/id-Software/Wolf3D-iOS'
+  url: >-
+    https://www.engadget.com/2009-03-24-carmack-releases-open-source-wolfenstein-for-iphone.html
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-12-27
+  updated: 2026-01-01
+
 - name: Wolf3D S60
   originals:
   - Spear of Destiny
@@ -1090,24 +1067,6 @@
   - 'https://wolf3d-s60.sourceforge.net/wolfboss.jpg'
   - 'https://wolf3d-s60.sourceforge.net/spearboss.jpg'
 
-- name: wolf3d-browser
-  originals:
-  - Spear of Destiny
-  - Wolfenstein 3D
-  type: official
-  repo: 'https://github.com/id-Software/wolf3d-browser'
-  url: >-
-    https://www.pcmag.com/archive/free-browser-based-wolfenstein-3d-released-by-bethesda-297681
-  development: complete
-  status: playable
-  content: commercial
-  langs:
-  - JavaScript
-  licenses:
-  - GPL2
-  added: 2026-01-01
-  updated: 2026-01-01
-
 - name: Wolf3dX
   originals:
   - Wolfenstein 3D
@@ -1129,24 +1088,6 @@
   updated: 2024-05-01
   images:
   - https://github.com/francot514/Wolf3dX/raw/master/image1.png
-
-- name: Wolf3D-iOS
-  originals:
-  - Wolfenstein 3D
-  - Spear of Destiny
-  type: official
-  repo: 'https://github.com/id-Software/Wolf3D-iOS'
-  url: >-
-    https://www.engadget.com/2009-03-24-carmack-releases-open-source-wolfenstein-for-iphone.html
-  development: complete
-  status: playable
-  content: commercial
-  langs:
-  - C
-  licenses:
-  - GPL2
-  added: 2025-12-27
-  updated: 2026-01-01
 
 - name: Wolf4SDL
   originals:
@@ -1323,6 +1264,7 @@
   - Doom
   type: remake
   repo: 'https://github.com/fabiangreffrath/woof'
+  url: https://fabiangreffrath.github.io/woof/
   feed: 'https://github.com/fabiangreffrath/woof/releases.atom'
   development: very active
   status: playable
@@ -1330,13 +1272,13 @@
   langs:
   - C
   frameworks:
-  - SDL
+  - SDL3
   - OpenAL
   licenses:
   - GPL2
   info: Woof! is a continuation of the Boom/MBF bloodline of Doom source ports.
   added: 2025-10-08
-  updated: 2025-10-08
+  updated: 2026-03-19
 
 - name: Word War vi
   originals:
@@ -1428,25 +1370,6 @@
   added: 2025-10-01
   updated: 2025-10-01
 
-- name: wordle (Haskell)
-  originals:
-  - Wordle
-  type: clone
-  repo: 'https://github.com/ivanjermakov/wordle'
-  feed: 'https://github.com/ivanjermakov/wordle/releases.atom'
-  development: halted
-  status: playable
-  langs:
-  - Haskell
-  frameworks:
-  - brick
-  licenses:
-  - MIT
-  added: 2025-11-16
-  updated: 2025-11-16
-  images:
-  - https://user-images.githubusercontent.com/26609879/152110207-aeae6bc7-4770-4ee5-beb0-b325e370394e.gif
-
 - name: Wordle CLI
   originals:
   - Wordle
@@ -1465,24 +1388,6 @@
   - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/1.png
   - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/2.png
   - https://raw.githubusercontent.com/nimblebun/wordle-cli/refs/heads/master/.github/assets/screenshots/3.png
-
-- name: Wordle PyCLI Game
-  originals:
-  - Wordle
-  type: clone
-  repo: 'https://github.com/Qazalbash/wordle-pycli'
-  url: 'https://pypi.org/project/wordle-pycli/'
-  feed: 'https://pypi.org/rss/project/wordle-pycli/releases.xml'
-  development: halted
-  status: playable
-  langs:
-  - Python
-  licenses:
-  - MIT
-  added: 2025-10-15
-  updated: 2025-10-15
-  images:
-  - 'https://raw.githubusercontent.com/Qazalbash/wordle-pycli/main/screenshot.png'
 
 - name: wordle-cli
   originals:
@@ -1515,6 +1420,43 @@
   - As-is
   added: 2026-02-09
   updated: 2026-02-09
+
+- name: wordle (Haskell)
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/ivanjermakov/wordle'
+  feed: 'https://github.com/ivanjermakov/wordle/releases.atom'
+  development: halted
+  status: playable
+  langs:
+  - Haskell
+  frameworks:
+  - brick
+  licenses:
+  - MIT
+  added: 2025-11-16
+  updated: 2025-11-16
+  images:
+  - https://user-images.githubusercontent.com/26609879/152110207-aeae6bc7-4770-4ee5-beb0-b325e370394e.gif
+
+- name: Wordle PyCLI Game
+  originals:
+  - Wordle
+  type: clone
+  repo: 'https://github.com/Qazalbash/wordle-pycli'
+  url: 'https://pypi.org/project/wordle-pycli/'
+  feed: 'https://pypi.org/rss/project/wordle-pycli/releases.xml'
+  development: halted
+  status: playable
+  langs:
+  - Python
+  licenses:
+  - MIT
+  added: 2025-10-15
+  updated: 2025-10-15
+  images:
+  - 'https://raw.githubusercontent.com/Qazalbash/wordle-pycli/main/screenshot.png'
 
 - name: wordle-rust
   originals:
@@ -1716,6 +1658,81 @@
   - MIT
   added: 2026-01-28
   updated: 2026-01-28
+
+- name: W.R. Hutsell's Civil War Battleset
+  originals:
+  - Civil War Battleset
+  type: official
+  repo: 'https://github.com/Hutsell-Games/civil-war-battleset'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - BASIC
+  licenses:
+  - MIT
+  added: 2026-01-24
+  updated: 2026-01-24
+  images:
+  - https://hutsellgames.com/wp-content/uploads/2011/04/egascreenshot.jpg
+
+- name: W.R. Hutsell's Civil War Strategy Game
+  originals:
+  - Civil War Strategy
+  type: remake
+  repo: 'https://github.com/Hutsell-Games/civil-war-strategy'
+  url: >-
+    https://hutsellgames.com/2022/04/18/civil-war-strategy-1-6-releases-and-looking-for-testers/
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  content: open
+  langs:
+  - BASIC
+  licenses:
+  - MIT
+  info: Also includes the original DOS source code.
+  added: 2026-01-24
+  updated: 2026-01-24
+  images:
+  - https://raw.githubusercontent.com/Hutsell-Games/civil-war-strategy/main/dev/cws-screenshot.png
+
+- name: W.R. Hutsell's Wars of Napoleon Game
+  originals:
+  - Wars of Napoleon
+  type: official
+  repo: 'https://github.com/Hutsell-Games/wars-of-napoleon'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - BASIC
+  licenses:
+  - MIT
+  added: 2026-01-24
+  updated: 2026-01-24
+  images:
+  - 'https://hutsellgames.com/wp-content/uploads/2011/04/wonscreenshot.jpg'
+
+- name: W.R. Hutsell's World War 2 In Western Europe Game
+  originals:
+  - World War II In Western Europe
+  type: official
+  repo: 'https://github.com/Hutsell-Games/world-war-2'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  content: open
+  langs:
+  - BASIC
+  licenses:
+  - MIT
+  added: 2026-01-24
+  updated: 2026-01-24
+  images:
+  - 'https://hutsellgames.com/wp-content/uploads/2011/04/ww2screenshot.jpg'
 
 - name: WWW
   langs:

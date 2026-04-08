@@ -1,22 +1,3 @@
-- name: H-Craft Championship
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  licenses:
-  - Zlib
-  content: open
-  development: halted
-  originals:
-  - Wipeout
-  status: playable
-  repo: https://github.com/mzeilfelder/hc1
-  type: clone
-  updated: 2022-08-29
-  url: http://www.irrgheist.com/games.htm
-  video:
-    youtube: JW-WDZDI7Sc
-
 - name: h2048
   originals:
   - '2048'
@@ -37,6 +18,25 @@
   images:
   - 'https://raw.githubusercontent.com/Javran/h2048/master/doc/simple.jpg'
   - 'https://raw.githubusercontent.com/Javran/h2048/master/doc/brick.jpg'
+
+- name: H-Craft Championship
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - Zlib
+  content: open
+  development: halted
+  originals:
+  - Wipeout
+  status: playable
+  repo: https://github.com/mzeilfelder/hc1
+  type: clone
+  updated: 2022-08-29
+  url: http://www.irrgheist.com/games.htm
+  video:
+    youtube: JW-WDZDI7Sc
 
 - name: Habitat
   originals:
@@ -215,6 +215,24 @@
   video:
     youtube: iA4lOiYS2s8
 
+- name: HashCon
+  originals:
+  - Galcon
+  type: clone
+  repo: https://github.com/BXL909/HASHCON
+  url: https://bxl909.github.io/HASHCON/
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - As-is
+  added: 2025-10-06
+  updated: 2025-10-06
+  images:
+  - https://github.com/BXL909/HashCon/raw/main/card.png?raw=true
+
 - name: haskanoid
   originals:
   - Breakout
@@ -242,23 +260,22 @@
   - >-
     https://raw.githubusercontent.com/ivanperez-keera/haskanoid/refs/heads/develop/screenshots/desktop.png
 
-- name: HashCon
+- name: Haskell in Space
   originals:
-  - Galcon
+  - Asteroids
   type: clone
-  repo: https://github.com/BXL909/HASHCON
-  url: https://bxl909.github.io/HASHCON/
-  development: complete
-  status: playable
-  content: open
+  url: >-
+    https://web.archive.org/web/20190328142147/http://www.informatik.uni-bremen.de/~cxl/lehre/pi3.ws01/asteroids/
+  development: halted
+  status: semi-playable
   langs:
-  - JavaScript
+  - Haskell
+  frameworks:
+  - Hugs
   licenses:
   - As-is
-  added: 2025-10-06
-  updated: 2025-10-06
-  images:
-  - https://github.com/BXL909/HashCon/raw/main/card.png?raw=true
+  added: 2025-10-09
+  updated: 2025-10-09
 
 - name: Haskelloids
   originals:
@@ -299,6 +316,19 @@
   images:
   - 'https://happypenguin.altervista.org/screenshots/hatman.gif'
 
+- name: HauntedHouse
+  langs:
+  - ActionScript
+  licenses:
+  - As-is
+  development: complete
+  originals:
+  - Haunted House
+  status: playable
+  repo: https://github.com/KunoNoOni/HauntedHouse
+  type: remake
+  updated: 2022-08-29
+
 - name: Haxima
   originals:
   - 'Ultima V: Warriors of Destiny'
@@ -335,53 +365,6 @@
     https://a.fsdn.com/con/app/proj/nazghul/screenshots/Screenshot%20from%202014-04-07%2008%3A57%3A25.png
   - >-
     https://a.fsdn.com/con/app/proj/nazghul/screenshots/Screenshot%20from%202014-04-07%2008%3A56%3A50.png
-
-- name: Hexen for Linux
-  originals:
-  - Hexen
-  type: remake
-  repo: 'https://www.ibiblio.org/pub/Linux/games/#:~:text=linux-hexen'
-  url: 'https://www.ibiblio.org/pub/Linux/games/linux-hexen-0.99.lsm'
-  development: halted
-  status: playable
-  content: swappable
-  langs:
-  - C
-  frameworks:
-  - SVGALib
-  licenses:
-  - GPL2
-  added: 2025-11-06
-  updated: 2025-11-06
-
-- name: Honey Town
-  info: Harvest Moon (SNES) remake for UWP and Xbox One.
-  langs:
-  - C#
-  frameworks:
-  - MonoGame
-  licenses:
-  - GPL3
-  development: halted
-  originals:
-  - Story of Seasons series
-  repo: https://github.com/Greentwip/HoneyTown
-  status: semi-playable
-  type: remake
-  updated: 2024-02-23
-
-- name: HauntedHouse
-  langs:
-  - ActionScript
-  licenses:
-  - As-is
-  development: complete
-  originals:
-  - Haunted House
-  status: playable
-  repo: https://github.com/KunoNoOni/HauntedHouse
-  type: remake
-  updated: 2022-08-29
 
 - name: Head over Heels
   type: remake
@@ -722,6 +705,24 @@
   images:
   - https://web.archive.org/web/20110905130531im_/http://archive.gamespy.com/news/november00/hexen2/h2.jpg
 
+- name: Hexen for Linux
+  originals:
+  - Hexen
+  type: remake
+  repo: 'https://www.ibiblio.org/pub/Linux/games/#:~:text=linux-hexen'
+  url: 'https://www.ibiblio.org/pub/Linux/games/linux-hexen-0.99.lsm'
+  development: halted
+  status: playable
+  content: swappable
+  langs:
+  - C
+  frameworks:
+  - SVGALib
+  licenses:
+  - GPL2
+  added: 2025-11-06
+  updated: 2025-11-06
+
 - name: Hexen II for Dreamcast
   originals:
   - Hexen II
@@ -824,6 +825,56 @@
   - As-is
   added: 2025-11-01
   updated: 2025-11-01
+
+- name: HHeretic
+  originals:
+  - Heretic
+  type: remake
+  repo: 'https://github.com/sezero/hheretic'
+  url: 'https://hhexen.sourceforge.net/hheretic.html'
+  feed: 'https://github.com/sezero/hheretic/releases.atom'
+  development: sporadic
+  status: playable
+  multiplayer:
+  - LAN
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  - SVGALib
+  - SDL
+  licenses:
+  - GPL2
+  info: 'HHeretic: Hacked Heretic'
+  added: 2026-03-27
+  updated: 2026-03-27
+  images:
+  - 'https://hhexen.sourceforge.net/images/hrtic01.jpg'
+
+- name: HHexen
+  originals:
+  - Hexen
+  type: remake
+  repo: 'https://github.com/sezero/hhexen'
+  url: 'https://hhexen.sourceforge.net/hhexen.html'
+  feed: 'https://github.com/sezero/hhexen/releases.atom'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  - SVGALib
+  - SDL
+  licenses:
+  - GPL2
+  info: 'HHexen: Hacked Hexen'
+  added: 2026-03-27
+  updated: 2026-03-27
+  images:
+  - 'https://hhexen.sourceforge.net/images/hexen02.jpg'
 
 - name: Hishigata
   originals:
@@ -968,6 +1019,22 @@
   added: 2025-11-16
   updated: 2025-11-16
 
+- name: Honey Town
+  info: Harvest Moon (SNES) remake for UWP and Xbox One.
+  langs:
+  - C#
+  frameworks:
+  - MonoGame
+  licenses:
+  - GPL3
+  development: halted
+  originals:
+  - Story of Seasons series
+  repo: https://github.com/Greentwip/HoneyTown
+  status: semi-playable
+  type: remake
+  updated: 2024-02-23
+
 - name: Hopson-Arcade
   originals:
   - Space Invaders
@@ -1010,6 +1077,25 @@
   - 'https://os4depot.net/filedata/snapshot/5118_2_snap.jpg'
   - https://computeremuzone.com/fichas-pantallas/h/710-horacio-esquiador-4.gif
   - https://computeremuzone.com/fichas-pantallas/h/710-horacio-esquiador-1.gif
+
+- name: Hormuz Minesweeper
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/PythonicNinja/hormuz-minesweeper'
+  url: 'https://hormuz.pythonic.ninja/'
+  development: very active
+  status: playable
+  content: open
+  langs:
+  - JavaScript
+  - HTML
+  licenses:
+  - MIT
+  added: 2026-03-23
+  updated: 2026-03-23
+  images:
+  - https://raw.githubusercontent.com/PythonicNinja/hormuz-minesweeper/master/og-preview.jpg
 
 - name: Hostile Takeover
   originals:
@@ -1276,6 +1362,27 @@
   - https://www.winterworks.de/wordpress/wp-content/uploads/2015/03/7.png
   video:
     youtube: -jk3DNTYx_w
+
+- name: Hydra Castle Labyrinth
+  originals:
+  - Meikyuujou Hydra
+  type: remake
+  repo: 'https://github.com/ptitSeb/hydracastlelabyrinth'
+  url: 'https://ptitseb.github.io/hydracastlelabyrinth/'
+  development: very active
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - SDL2
+  licenses:
+  - GPL2
+  added: 2026-03-17
+  updated: 2026-03-17
+  images:
+  - https://raw.githubusercontent.com/ptitSeb/hydracastlelabyrinth/master/screenshot.png
 
 - name: Hypercycles
   originals:

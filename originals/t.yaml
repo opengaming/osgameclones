@@ -77,6 +77,22 @@
     - Adult
     - Anime
 
+- name: Technobabylon
+  external:
+    website: https://www.mobygames.com/game/84775
+    wikipedia: Technobabylon
+  meta:
+    genres:
+    - Adventure
+    - Puzzle
+    themes:
+    - Cyberpunk
+  platforms:
+  - iOS
+  - Linux
+  - OSX
+  - Windows
+
 - name: Tecmo World Cup Soccer
   external:
     website: 'https://www.mobygames.com/game/55016/tecmo-world-cup-soccer/'
@@ -100,31 +116,6 @@
   meta:
     genres:
     - Platform
-
-- name: Teeter Torture
-  external:
-    website: 'https://www.mamedev.org/roms/teetert/'
-  platforms:
-  - Arcade
-  meta:
-    genres:
-    - Shooter
-
-- name: Technobabylon
-  external:
-    website: https://www.mobygames.com/game/84775
-    wikipedia: Technobabylon
-  meta:
-    genres:
-    - Adventure
-    - Puzzle
-    themes:
-    - Cyberpunk
-  platforms:
-  - iOS
-  - Linux
-  - OSX
-  - Windows
 
 - name: Teen Agent
   names:
@@ -156,6 +147,15 @@
   meta:
     genres:
     - Action
+
+- name: Teeter Torture
+  external:
+    website: 'https://www.mamedev.org/roms/teetert/'
+  platforms:
+  - Arcade
+  meta:
+    genres:
+    - Shooter
 
 - name: TekWar
   names:
@@ -304,6 +304,16 @@
     themes:
     - Abstract
 
+- name: Tetris Attack
+  external:
+    wikipedia: Tetris Attack
+  meta:
+    genres:
+    - Puzzle
+    - Arcade
+    themes:
+    - Abstract
+
 - name: Tetris (Game Boy)
   external:
     website: 'https://www.nintendo.co.jp/n02/dmg/tra/'
@@ -315,15 +325,15 @@
     genres:
     - Puzzle
 
-- name: Tetris Attack
+- name: Tetris (NES)
   external:
-    wikipedia: Tetris Attack
+    website: 'https://www.mobygames.com/game/42120/tetris/'
+    wikipedia: Tetris (NES video game)
+  platforms:
+  - NES
   meta:
     genres:
     - Puzzle
-    - Arcade
-    themes:
-    - Abstract
 
 - name: 'Tetris: The Grand Master'
   external:
@@ -595,6 +605,19 @@
     - Adventure
     - Action
 
+- name: Tomb Raider Chronicles
+  names:
+  - 'Tomb Raider 5: Chronicles'
+  external:
+    wikipedia: Tomb Raider Chronicles
+  meta:
+    genres:
+    - Action
+    - TPS
+    - Adventure
+  platforms:
+  - Windows
+
 - name: Tomb Raider II
   external:
     website: 'https://www.mobygames.com/game/487/tomb-raider-ii/'
@@ -610,19 +633,6 @@
     genres:
     - Action
     - Platform
-
-- name: Tomb Raider Chronicles
-  names:
-  - 'Tomb Raider 5: Chronicles'
-  external:
-    wikipedia: Tomb Raider Chronicles
-  meta:
-    genres:
-    - Action
-    - TPS
-    - Adventure
-  platforms:
-  - Windows
 
 - name: Tomoyo After
   names:
@@ -981,6 +991,18 @@
 - name: Turok
   external:
     wikipedia: Turok (video game)
+  meta:
+    genres:
+    - FPS
+
+- name: 'Turok: Dinosaur Hunter'
+  external:
+    website: 'https://web.archive.org/web/20171106233640/https://www.turok.com/'
+    wikipedia: 'Turok: Dinosaur Hunter'
+  platforms:
+  - N64
+  - Nintendo Switch
+  - Windows
   meta:
     genres:
     - FPS

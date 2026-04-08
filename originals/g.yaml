@@ -42,29 +42,6 @@
     themes:
     - Sci-Fi
 
-- name: Galcon
-  external:
-    website: https://www.galcon.com/
-    wikipedia: Galcon
-  platforms:
-  - Web
-  - iOS
-  - Android
-  - Windows
-  - OSX
-  meta:
-    genres:
-    - Real-Time Strategy
-    themes:
-    - Sci-Fi
-
-- name: Galaxian
-  external:
-    wikipedia: Galaxian
-  meta:
-    genres:
-    - Arcade
-
 - name: Galaga
   external:
     website: 'https://galaga.com/'
@@ -90,6 +67,13 @@
     themes:
     - Sci-Fi
 
+- name: Galaxian
+  external:
+    wikipedia: Galaxian
+  meta:
+    genres:
+    - Arcade
+
 - name: Galaxians
   external:
     website: 'https://www.mobygames.com/game/77476/galaxians/'
@@ -98,6 +82,22 @@
     - Action
     subgenres:
     - Space Flight
+    themes:
+    - Sci-Fi
+
+- name: Galcon
+  external:
+    website: https://www.galcon.com/
+    wikipedia: Galcon
+  platforms:
+  - Web
+  - iOS
+  - Android
+  - Windows
+  - OSX
+  meta:
+    genres:
+    - Real-Time Strategy
     themes:
     - Sci-Fi
 
@@ -194,15 +194,6 @@
     genres:
     - Shmup
 
-- name: Gish
-  external:
-    wikipedia: Gish (video game)
-  meta:
-    genres:
-    - Platform
-    themes:
-    - Comedy
-
 - name: Gikopoi
   names:
   - BARギコっぽいONLINE
@@ -211,6 +202,15 @@
     website: 'http://l4cs.jpn.org/gikopoi/'
   platforms:
   - Web
+
+- name: Gish
+  external:
+    wikipedia: Gish (video game)
+  meta:
+    genres:
+    - Platform
+    themes:
+    - Comedy
 
 - name: GJID
   external:

@@ -1,3 +1,21 @@
+- name: Galaforce 2 ( BBC Micro )
+  originals:
+  - Galaforce 2
+  type: official
+  repo: 'https://github.com/KevEdwards/Galaforce2BBC'
+  url: 'https://x.com/KevEdwardsRetro/status/1811160442686894577'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-11-15
+  updated: 2025-11-15
+  images:
+  - 'https://raw.githubusercontent.com/KevEdwards/Galaforce2BBC/main/screenshot.png'
+
 - name: Galaforce ( Acorn Electron )
   originals:
   - Galaforce
@@ -33,24 +51,6 @@
   updated: 2025-11-12
   images:
   - https://raw.githubusercontent.com/KevEdwards/Galaforce1BBC/master/screenshot.png
-
-- name: Galaforce 2 ( BBC Micro )
-  originals:
-  - Galaforce 2
-  type: official
-  repo: 'https://github.com/KevEdwards/Galaforce2BBC'
-  url: 'https://x.com/KevEdwardsRetro/status/1811160442686894577'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2025-11-15
-  updated: 2025-11-15
-  images:
-  - 'https://raw.githubusercontent.com/KevEdwards/Galaforce2BBC/main/screenshot.png'
 
 - name: galaxian
   langs:
@@ -139,6 +139,25 @@
   - https://web.archive.org/web/20160420130913im_/http://zevv.nl/play/code/game/game2.png
   - https://web.archive.org/web/20170509025218im_/http://zevv.nl/play/code/game//game.png
 
+- name: game2048-rs
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/genieCS/game2048-rs'
+  url: 'https://crates.io/crates/game2048-rs'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  frameworks:
+  - Cursive
+  licenses:
+  - MIT
+  added: 2025-10-13
+  updated: 2025-10-13
+  images:
+  - https://user-images.githubusercontent.com/35099832/234502901-e1721cd9-eb64-4c52-84ac-ba0c5d5cd3e3.gif
+
 - name: Game Source Atari ST Hard Drivin
   originals:
   - Hard Drivin'
@@ -170,25 +189,6 @@
   info: A full clone of the 2048 game by Gabriele Cirulli.
   added: 2025-11-06
   updated: 2025-11-06
-
-- name: game2048-rs
-  originals:
-  - '2048'
-  type: clone
-  repo: 'https://github.com/genieCS/game2048-rs'
-  url: 'https://crates.io/crates/game2048-rs'
-  development: halted
-  status: playable
-  langs:
-  - Rust
-  frameworks:
-  - Cursive
-  licenses:
-  - MIT
-  added: 2025-10-13
-  updated: 2025-10-13
-  images:
-  - https://user-images.githubusercontent.com/35099832/234502901-e1721cd9-eb64-4c52-84ac-ba0c5d5cd3e3.gif
 
 - name: Games-Asteroids
   originals:
@@ -387,6 +387,32 @@
   - https://web.archive.org/web/20260105050436im_/http://newbreedsoftware.com/gemdrop_deluxe/gemdrop_deluxe_2021_05_13_beta.png
   - https://web.archive.org/web/20260105094034im_/http://newbreedsoftware.com/gemdrop_deluxe/gemdrop_deluxe_2015_08_15_1_alpha_ntsc-t.png
 
+- name: Gem Drop X
+  originals:
+  - Magical Drop III
+  type: clone
+  repo: 'https://github.com/MacSourcePorts/gemdropx'
+  url: 'http://www.newbreedsoftware.com/gemdropx/'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  info: Ported from Gem Drop on Atari
+  added: 2026-03-19
+  updated: 2026-03-19
+  images:
+  - https://web.archive.org/web/20250213145257im_/http://www.newbreedsoftware.com/gemdropx/screenshots/gemdropx1-t.gif
+  - https://web.archive.org/web/20250213145257im_/http://www.newbreedsoftware.com/gemdropx/screenshots/gemdropx2-t.gif
+  - https://web.archive.org/web/20250213145257im_/http://www.newbreedsoftware.com/gemdropx/screenshots/gemdropx3-t.gif
+  - https://web.archive.org/web/20250213145257im_/http://www.newbreedsoftware.com/gemdropx/screenshots/gemdropx4-t.gif
+  video:
+    youtube: S7QR8P_bHZM
+
 - name: GemRB
   images:
   - https://sourceforge.net/p/gemrb/screenshot/105342.jpg
@@ -461,25 +487,6 @@
   added: 2026-01-28
   updated: 2026-01-28
 
-- name: Egypt for Ti-68K
-  originals:
-  - Egypt
-  type: remake
-  url: 'http://tifreakware.net/lachprog/egypt.htm'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - C
-  licenses:
-  - GPL3
-  added: 2026-02-13
-  updated: 2026-02-13
-  images:
-  - https://web.archive.org/web/20210301213857im_/http://tifreakware.net/lachprog/img/Egypt/title92v200.PNG
-  - https://web.archive.org/web/20210301213857im_/http://tifreakware.net/lachprog/img/Egypt/ANIM10001.gif
-  - https://web.archive.org/web/20210301213857im_/http://tifreakware.net/lachprog/img/Egypt/puzzle.PNG
-
 - name: Ghostly
   images:
   - https://raw.githubusercontent.com/sandsmark/aicompo-tg17/master/screenshot.png
@@ -539,6 +546,22 @@
   video:
     youtube: lTtT9p9DVL8
 
+- name: Gikopoi.com
+  originals:
+  - Gikopoi
+  type: remake
+  repo: 'https://github.com/153/gikopoi3'
+  url: 'https://gikopoi.com/'
+  development: active
+  status: playable
+  langs:
+  - TypeScript
+  licenses:
+  - Custom
+  info: Fork of Gikopoipoi with some extra stuff.
+  added: '2024-12-06'
+  updated: '2024-12-06'
+
 - name: Gikopoipoi
   originals:
   - Gikopoi
@@ -555,22 +578,6 @@
   updated: '2024-12-06'
   video:
     youtube: TOMaQmWecKw
-
-- name: Gikopoi.com
-  originals:
-  - Gikopoi
-  type: remake
-  repo: 'https://github.com/153/gikopoi3'
-  url: 'https://gikopoi.com/'
-  development: active
-  status: playable
-  langs:
-  - TypeScript
-  licenses:
-  - Custom
-  info: Fork of Gikopoipoi with some extra stuff.
-  added: '2024-12-06'
-  updated: '2024-12-06'
 
 - name: Gish
   originals:
@@ -767,6 +774,24 @@
   added: 2026-01-05
   updated: 2026-01-05
 
+- name: GLKeeper (GrimLands Keeper)
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - MIT
+  development: halted
+  status: unplayable
+  originals:
+  - Dungeon Keeper 2
+  repo: 'https://github.com/codenamecpp/GLKeeper'
+  type: remake
+  images:
+  - https://raw.githubusercontent.com/codenamecpp/GLKeeper/master/screenshots/0_0_2.png
+  - https://raw.githubusercontent.com/codenamecpp/GLKeeper/master/screenshots/0_0_3_Linux.png
+  updated: 2024-01-01
+
 - name: GloomAmiga
   originals:
   - Gloom
@@ -839,24 +864,6 @@
   url: https://glportal.de/
   video:
     vimeo: 163973907
-
-- name: GLKeeper (GrimLands Keeper)
-  langs: 
-  - C++
-  frameworks:
-  - OpenGL
-  licenses:
-  - MIT
-  development: halted
-  status: unplayable
-  originals:
-  - Dungeon Keeper 2
-  repo: 'https://github.com/codenamecpp/GLKeeper'
-  type: remake
-  images:
-  - https://raw.githubusercontent.com/codenamecpp/GLKeeper/master/screenshots/0_0_2.png
-  - https://raw.githubusercontent.com/codenamecpp/GLKeeper/master/screenshots/0_0_3_Linux.png
-  updated: 2024-01-01
 
 - name: GLSMAC
   originals:
@@ -1587,7 +1594,7 @@
   images:
   - 'https://screenshots.debian.net/screenshot/gravitywars/7125'
 
-- name: “The Great Escape” Ported to C
+- name: The Great Escape Ported to C
   info: reverse engineered from binary
   langs:
   - C
