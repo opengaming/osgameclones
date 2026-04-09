@@ -451,20 +451,26 @@
   images:
   - https://www.jonof.id.au/jfduke3d/splash.jpg
 
-- name: jffe
-  frameworks:
-  - SDL
-  langs:
-  - C++
-  licenses:
-  - As-is
-  development: halted
+- name: JJFFE
   originals:
   - Elite III
-  status: unplayable
-  repo: https://github.com/videogamepreservation/jjffe
   type: remake
-  updated: 2022-09-13
+  repo: https://github.com/videogamepreservation/jjffe
+  url: 'https://web.archive.org/web/20110303051207/http://jaj22.org.uk/jjffe/'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2016-01-10
+  updated: 2026-04-10
+  images:
+  - 'https://www.happypenguin.altervista.org/screenshots/new_sanfrancisco.gif'
 
 - name: JLud2D
   images:
