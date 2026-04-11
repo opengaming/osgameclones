@@ -332,27 +332,22 @@ def parse_data(site):
     for item in originals:
         name = item["name"]
 
-        if name in originals_map:
-            errors.append({
-                "name": name,
-                "error": f"Duplicate original game '{name}'"
-            })
-        if name in original_names:
+        if name.lower() in original_names:
             errors.append({
                 "name": name,
                 "error": f"Duplicate original game name or alternate name '{name}'"
             })
         for alt_name in item.get("names", []):
-            if alt_name in original_names:
+            if alt_name.lower() in original_names:
                 errors.append({
                     "name": name,
                     "error": f"Duplicate original alternate name '{alt_name}'"
                 })
 
         originals_map[name] = item
-        original_names.add(name)
+        original_names.add(name.lower())
         if "names" in item:
-            original_names |= set(item["names"])
+            original_names |= set(name.lower() for name in item["names"])
 
     if len(errors) > 0:
         show_errors(errors)
@@ -362,9 +357,11 @@ def parse_data(site):
         return (clone["type"] == "tool") != (clone["status"] == "N/A")
 
     # Entries must have:
+    # - unique name + original (case insensitive)
     # - unique repo
     # - unique url
     # - or unique repo + url pair
+    clone_names_per_original = {}
     repos_and_urls = set()
     originals_with_clones = set()
     for clone in clones:
@@ -380,6 +377,14 @@ def parse_data(site):
                     "name": clone["name"],
                     "error": "Original game '%s' not found" % original
                 })
+            if original not in clone_names_per_original:
+                clone_names_per_original[original] = set()
+            if clone["name"].lower() in clone_names_per_original[original]:
+                errors.append({
+                    "name": clone["name"],
+                    "error": f"Duplicate clone game '{clone['name']}', clones '{original}'"
+                })
+            clone_names_per_original[original].add(clone["name"].lower())
 
         if isinstance(clone['updated'], str):
             clone['updated'] = datetime.strptime(clone['updated'], "%Y-%m-%d").date()

@@ -1562,26 +1562,6 @@
     https://dashboard.snapcraft.io/site_media/appmedia/2023/01/Screenshot_2023-01-27_12-23-07_dOnEYHu.jpg
   - 'https://dashboard.snapcraft.io/site_media/appmedia/2023/02/ivUC4Tr.jpeg'
 
-- name: OpenE2140
-  type: remake
-  originals:
-  - Earth 2140
-  repo: https://github.com/OpenE2140/OpenE2140
-  development: active
-  status: semi-playable
-  langs:
-  - C#
-  licenses:
-  - GPL3
-  frameworks:
-  - OpenRA
-  content: commercial
-  info: OpenRA mod
-  updated: 2023-12-02
-  images:
-  - https://dalek.zone/lazy-static/previews/1f3c3fc9-e347-4dfb-94d7-4107a5d2c2a2.jpg
-  - https://dalek.zone/lazy-static/previews/4d70f8c5-5b5f-41b1-832f-dd979039172c.jpg
-
 - name: opene2140
   type: remake
   originals:
@@ -1601,6 +1581,26 @@
   images:
   - https://user-images.githubusercontent.com/750553/72228544-d22a0080-35a7-11ea-87d0-9c3c72f0454f.png
   - https://user-images.githubusercontent.com/750553/72228576-2b922f80-35a8-11ea-8616-4a40fba55edf.png
+
+- name: OpenE2140 (OpenRA)
+  type: remake
+  originals:
+  - Earth 2140
+  repo: https://github.com/OpenE2140/OpenE2140
+  development: active
+  status: semi-playable
+  langs:
+  - C#
+  licenses:
+  - GPL3
+  frameworks:
+  - OpenRA
+  content: commercial
+  info: OpenRA mod
+  updated: 2023-12-02
+  images:
+  - https://dalek.zone/lazy-static/previews/1f3c3fc9-e347-4dfb-94d7-4107a5d2c2a2.jpg
+  - https://dalek.zone/lazy-static/previews/4d70f8c5-5b5f-41b1-832f-dd979039172c.jpg
 
 - name: OpenEnroth
   originals:

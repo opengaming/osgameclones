@@ -3796,25 +3796,6 @@
   video:
     youtube: IEfNoqLfxcs
 
-- name: Space invaders
-  originals:
-  - Space Invaders
-  type: clone
-  repo: 'https://github.com/denix666/space-invaders/'
-  url: 'https://games.os.vc/webgames/space-invaders'
-  feed: 'https://github.com/denix666/space-invaders/releases.atom'
-  development: halted
-  status: semi-playable
-  content: open
-  langs:
-  - Rust
-  licenses:
-  - MIT
-  added: 2025-09-30
-  updated: 2025-09-30
-  images:
-  - https://raw.githubusercontent.com/denix666/space-invaders/main/screenshots/game-play.png
-
 - name: Space Invaders
   originals:
   - Space Invaders
@@ -3974,6 +3955,25 @@
   - As-is
   added: 2025-10-19
   updated: 2025-10-19
+
+- name: Space invaders (Rust)
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/denix666/space-invaders/'
+  url: 'https://games.os.vc/webgames/space-invaders'
+  feed: 'https://github.com/denix666/space-invaders/releases.atom'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-09-30
+  updated: 2025-09-30
+  images:
+  - https://raw.githubusercontent.com/denix666/space-invaders/main/screenshots/game-play.png
 
 - name: Space Jockey Disassembly
   originals:
