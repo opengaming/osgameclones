@@ -343,7 +343,21 @@
 
 - name: Encounter
   external:
-    wikipedia: Encounter (video game)
+    website: 'https://www.mobygames.com/game/246324/encounter/'
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Text Adventure
+
+- name: Encounter!
+  external:
+    website: https://www.mobygames.com/game/11282/encounter/
+    wikipedia: Encounter! (video game)
+  platforms:
+  - Amiga
+  - Atari
+  - Commodore 64
   meta:
     genres:
     - Shmup
