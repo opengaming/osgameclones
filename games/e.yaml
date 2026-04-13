@@ -1402,12 +1402,27 @@
   - Zlib
   development: halted
   originals:
-  - Exile 1988
+  - Exile
   status: unplayable
   repo: https://github.com/Geti/EXILE
   type: remake
   updated: 2015-06-22
   url: http://forums.datarealms.com/viewtopic.php?f=82&t=19266
+
+- name: Exile disassembly
+  originals:
+  - Exile
+  type: remake
+  repo: 'https://github.com/tom-seddon/exile_disassembly'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-14
+  updated: 2026-04-14
 
 - name: EXLCOM
   originals:
