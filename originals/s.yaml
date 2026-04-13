@@ -1159,6 +1159,67 @@
     themes:
     - Fantasy
 
+- name: Sonic 2
+  names:
+  - ソニック・ザ・ヘッジホッグ2
+  external:
+    website: 'https://vc.sega.jp/vc_sonic2/'
+    wikipedia: Sonic the Hedgehog 2
+  platforms:
+  - Android
+  - Arcade
+  - Genesis
+  - iOS
+  - Nintendo Switch
+  meta:
+    genres:
+    - Platform
+
+- name: Sonic 3
+  names:
+  - ソニック・ザ・ヘッジホッグ3
+  external:
+    website: 'http://vc.sega.jp/vc_sonic3/'
+    wikipedia: Sonic the Hedgehog 3
+  platforms:
+  - Genesis
+  - Wii
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - Platform
+
+- name: Sonic 3D Blast
+  names:
+  - "Sonic 3D: Flickies' Island"
+  - ソニック3Dブラスト
+  external:
+    website: 'https://sonic.sega.jp/sonic3d/'
+    wikipedia: Sonic 3D Blast
+  platforms:
+  - Genesis
+  - Saturn
+  - Wii
+  - Windows
+  meta:
+    genres:
+    - Platform
+
+- name: Sonic & Knuckles
+  names:
+  - ソニック&ナックルズ
+  external:
+    website: 'https://vc.sega.jp/vc_sandk/'
+    wikipedia: Sonic & Knuckles
+  platforms:
+  - Genesis
+  - Wii
+  - Windows
+  meta:
+    genres:
+    - Platform
+
 - name: Sonic Adventure
   names:
   - Sonic Adventure 2
@@ -1175,6 +1236,24 @@
     - Action
     - Platform
 
+- name: Sonic CD
+  names:
+  - ソニック・ザ・ヘッジホッグCD
+  external:
+    website: 'https://sonic.sega.jp/gems/games_cd.html'
+    wikipedia: Sonic CD
+  platforms:
+  - Android
+  - Apple TV
+  - iOS
+  - PlayStation 3
+  - Sega CD
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - Platform
+
 - name: 'Sonic Chronicles: The Dark Brotherhood'
   external:
     wikipedia: 'Sonic Chronicles: The Dark Brotherhood'
@@ -1182,9 +1261,72 @@
     genres:
     - RPG
 
+- name: Sonic Riders
+  names:
+  - ソニックライダーズ
+  external:
+    website: 'https://sonic.sega.jp/riders/'
+    wikipedia: Sonic Riders
+  platforms:
+  - GameCube
+  - PlayStation 2
+  - Windows
+  - Xbox
+  meta:
+    genres:
+    - Racing
+
+- name: Sonic Spinball
+  names:
+  - ソニック・スピンボール
+  external:
+    website: 'http://vc.sega.jp/vc_spinball/'
+    wikipedia: Sonic Spinball
+  platforms:
+  - Classic Mac OS
+  - Genesis
+  - iOS
+  - Linux
+  - Nintendo Switch
+  - Wii
+  - Windows
+  meta:
+    subgenres:
+    - Pinball
+
+- name: Sonic the Fighters
+  names:
+  - Sonic Championship
+  - ソニック・ザ・ファイターズ
+  external:
+    website: 'https://sonic.sega.jp/gems/games_fighters.html'
+    wikipedia: Sonic the Fighters
+  platforms:
+  - Arcade
+  - PlayStation 3
+  - Xbox 360
+  meta:
+    genres:
+    - Fighting
+
 - name: Sonic the Hedgehog
   external:
     wikipedia: Sonic the Hedgehog
+  meta:
+    genres:
+    - Platform
+
+- name: Sonic the Hedgehog 2 (8-bit video game)
+  names:
+  - ソニック・ザ・ヘッジホッグ2 (8ビット版)
+  external:
+    website: 'https://vc.sega.jp/vc_sonic2ms/'
+    wikipedia: Sonic the Hedgehog 2 (8-bit video game)
+  platforms:
+  - 3DS
+  - Game Gear
+  - Master System
+  - Wii
   meta:
     genres:
     - Platform
