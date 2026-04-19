@@ -236,6 +236,17 @@
   - OSX
   - Windows
 
+- name: Wii Sports
+  external:
+    website: >-
+      https://web.archive.org/web/20180818143935/https://www.nintendo.com/games/detail/1OTtO06SP7M52gi5m8pD6CnahbW8CzxE
+    wikipedia: Wii Sports
+  platforms:
+  - Wii
+  meta:
+    genres:
+    - Sports
+
 - name: 'Will Fight for Food: Super Actual Sellout: Game of the Hour'
   external:
     website: 'https://pyrodactyl.com/will-fight-for-food/'
