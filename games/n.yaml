@@ -84,6 +84,28 @@
   added: '2025-09-01'
   updated: '2025-11-07'
 
+- name: NakedHexen
+  originals:
+  - Hexen
+  type: remake
+  repo: 'https://github.com/atsb/NakedHexen'
+  feed: 'https://github.com/atsb/NakedHexen/releases.atom'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - As-is
+  info: >-
+    NakedHexen is an ultra conservative source port of Hexen to SDL2 directly from
+    the original source release with only essential changes done for 64bit
+    compatibility.
+  added: 2026-04-21
+  updated: 2026-04-21
+
 - name: Nanosaur
   originals:
   - Nanosaur
