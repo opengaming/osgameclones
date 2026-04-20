@@ -326,6 +326,8 @@ def parse_data(site):
     print(str(len(clones)) + ' clones in total')
     validate_with_schema(clones, 'schema/games.yaml')
 
+    site.clones_count = len(clones)
+
     originals_map = {}
     original_names = set()
 
