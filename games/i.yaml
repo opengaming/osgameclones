@@ -171,6 +171,30 @@
   - https://codeberg.org/Krixec/IED-FDroid/media/branch/dev/metadata/en-US/images/phoneScreenshots/3.jpg
   - https://codeberg.org/Krixec/IED-FDroid/media/branch/dev/metadata/en-US/images/phoneScreenshots/4.jpg
 
+- name: Igor
+  originals:
+  - 'Igor: Objective Uikokahonia'
+  type: remake
+  repo: 'https://github.com/cyxx/igor'
+  url: 'http://cyxdown.free.fr/igor/'
+  feed: 'https://github.com/cyxx/igor/releases.atom'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2026-04-13
+  updated: 2026-04-13
+  images:
+  - https://web.archive.org/web/20250821020315im_/http://cyxdown.free.fr/igor/igor-1.png
+  - https://web.archive.org/web/20250816105322im_/http://cyxdown.free.fr/igor/igor-2.png
+  - https://web.archive.org/web/20250816114340im_/http://cyxdown.free.fr/igor/igor-5.png
+  - https://web.archive.org/web/20250816112754im_/http://cyxdown.free.fr/igor/igor-6.png
+
 - name: Ikemen-GO
   originals:
   -  M.U.G.E.N
@@ -337,7 +361,24 @@
   added: 2025-08-21
   updated: 2025-08-21
 
-- name: invaders
+- name: Invaders
+  originals:
+  - Space Invaders
+  type: clone
+  url: 'https://www.hpcalc.org/details/522'
+  development: complete
+  status: playable
+  langs:
+  - RPL
+  - Assembly
+  licenses:
+  - GPL2
+  added: 2026-03-31
+  updated: 2026-03-31
+  images:
+  - 'https://www.hpcalc.org/hp48/games/arcade/sshots/invaders.png'
+
+- name: invaders (in C)
   originals:
   - Space Invaders
   type: remake
@@ -352,10 +393,9 @@
   - MIT
   content: commercial
   added: 2025-08-22
-  updated: 2025-08-22
+  updated: 2026-04-07
   images:
-  - >-
-    https://camo.githubusercontent.com/a6ea5fa0c684804202cce2538a73c0e915b81f5e0079c59a5bedea1c56fb4751/687474703a2f2f692e696d6775722e636f6d2f713459355661652e676966
+  - https://i.imgur.com/q4Y5Vae.gif
 
 - name: IO Reboot
   development: complete
@@ -396,46 +436,6 @@
   video:
     youtube: KavcvHixd6A
 
-- name: Iris2
-  images:
-  - https://libregamewiki.org/images/thumb/a/a9/Iris-2D.png/320px-Iris-2D.png
-  - https://libregamewiki.org/images/thumb/e/e2/Iris-3D.png/320px-Iris-3D.png
-  - https://www.iris2.de/images/4/48/20080106175329_188.png
-  licenses:
-  - GPL3
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - OGRE
-  development: halted
-  originals:
-  - Ultima Online
-  repo: https://github.com/kblaschke/Iris2
-  status: playable
-  type: remake
-  url: https://libregamewiki.org/Iris2_3D_Client_-_for_Ultima_Online
-  updated: 2021-03-10
-
-- name: IronSeedSharp
-  originals:
-  - Ironseed
-  type: remake
-  repo: >-
-    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://bitbucket.org/blueachenar/ironseedsharp
-  url: >-
-    https://web.archive.org/web/20180825065529/https://pedrocaleiro.com/ironseedsharp/
-  development: complete
-  status: unplayable
-  langs:
-  - 'C#'
-  frameworks:
-  - SFML
-  licenses:
-  - GPL3
-  added: 2025-11-23
-  updated: 2025-11-23
-
 - name: iortcw
   originals:
   - Return to Castle Wolfenstein
@@ -462,11 +462,33 @@
   video:
     youtube: iDwbo-ecJQw
 
+- name: Iris2
+  images:
+  - https://libregamewiki.org/images/thumb/a/a9/Iris-2D.png/320px-Iris-2D.png
+  - https://libregamewiki.org/images/thumb/e/e2/Iris-3D.png/320px-Iris-3D.png
+  - https://www.iris2.de/images/4/48/20080106175329_188.png
+  licenses:
+  - GPL3
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OGRE
+  development: halted
+  originals:
+  - Ultima Online
+  repo: https://github.com/kblaschke/Iris2
+  status: playable
+  type: remake
+  url: https://libregamewiki.org/Iris2_3D_Client_-_for_Ultima_Online
+  updated: 2021-03-10
+
 - name: Iron Doom
   originals:
   - Doom
   type: remake
   repo: 'https://github.com/Henrique194/iron-doom'
+  url: https://www.doomworld.com/forum/topic/150233
   feed: 'https://github.com/Henrique194/iron-doom/releases.atom'
   development: sporadic
   status: playable
@@ -481,7 +503,7 @@
     A modern and readable Doom source port written in Rust, designed for clarity
     and maintainability.
   added: 2026-02-27
-  updated: 2026-02-27
+  updated: 2026-03-19
   images:
   - https://github.com/user-attachments/assets/8dca0ae1-cc86-4fd1-bcf8-6c8a47ce854c
 
@@ -541,6 +563,25 @@
   - https://screenshots.debian.net/shrine/screenshot/19672/simage/large-4207f64f87b8fdbe46db0838d62f7e9a.png
   - https://screenshots.debian.net/shrine/screenshot/19658/simage/large-648126d2bd794b3e69b6981dc5bb5dc4.png
   - https://screenshots.debian.net/shrine/screenshot/19653/simage/large-07f0cd535bca6c4b9132ea62b2ec6629.png
+
+- name: IronSeedSharp
+  originals:
+  - Ironseed
+  type: remake
+  repo: >-
+    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://bitbucket.org/blueachenar/ironseedsharp
+  url: >-
+    https://web.archive.org/web/20180825065529/https://pedrocaleiro.com/ironseedsharp/
+  development: complete
+  status: unplayable
+  langs:
+  - 'C#'
+  frameworks:
+  - SFML
+  licenses:
+  - GPL3
+  added: 2025-11-23
+  updated: 2025-11-23
 
 - name: irrlamb
   frameworks:

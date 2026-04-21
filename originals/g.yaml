@@ -42,29 +42,6 @@
     themes:
     - Sci-Fi
 
-- name: Galcon
-  external:
-    website: https://www.galcon.com/
-    wikipedia: Galcon
-  platforms:
-  - Web
-  - iOS
-  - Android
-  - Windows
-  - OSX
-  meta:
-    genres:
-    - Real-Time Strategy
-    themes:
-    - Sci-Fi
-
-- name: Galaxian
-  external:
-    wikipedia: Galaxian
-  meta:
-    genres:
-    - Arcade
-
 - name: Galaga
   external:
     website: 'https://galaga.com/'
@@ -90,6 +67,13 @@
     themes:
     - Sci-Fi
 
+- name: Galaxian
+  external:
+    wikipedia: Galaxian
+  meta:
+    genres:
+    - Arcade
+
 - name: Galaxians
   external:
     website: 'https://www.mobygames.com/game/77476/galaxians/'
@@ -98,6 +82,22 @@
     - Action
     subgenres:
     - Space Flight
+    themes:
+    - Sci-Fi
+
+- name: Galcon
+  external:
+    website: https://www.galcon.com/
+    wikipedia: Galcon
+  platforms:
+  - Web
+  - iOS
+  - Android
+  - Windows
+  - OSX
+  meta:
+    genres:
+    - Real-Time Strategy
     themes:
     - Sci-Fi
 
@@ -194,15 +194,6 @@
     genres:
     - Shmup
 
-- name: Gish
-  external:
-    wikipedia: Gish (video game)
-  meta:
-    genres:
-    - Platform
-    themes:
-    - Comedy
-
 - name: Gikopoi
   names:
   - BARギコっぽいONLINE
@@ -211,6 +202,15 @@
     website: 'http://l4cs.jpn.org/gikopoi/'
   platforms:
   - Web
+
+- name: Gish
+  external:
+    wikipedia: Gish (video game)
+  meta:
+    genres:
+    - Platform
+    themes:
+    - Comedy
 
 - name: GJID
   external:
@@ -392,6 +392,38 @@
   - DOS
   - Classic Mac OS
 
+- name: Golden Axe
+  names:
+  - 戦斧
+  external:
+    website: 'https://www.mobygames.com/game/199/golden-axe/'
+    wikipedia: Golden Axe (video game)
+  platforms:
+  - Amiga
+  - Amstrad CPC
+  - Android
+  - Arcade
+  - Atari
+  - Classic Mac OS
+  - Commodore 64
+  - DOS
+  - Genesis
+  - iOS
+  - Linux
+  - Master System
+  - Nintendo Switch
+  - PlayStation 3
+  - Wii
+  - Windows
+  - Xbox 360
+  - Xbox One
+  - ZX Spectrum
+  meta:
+    genres:
+    - Action
+    themes:
+    - Fantasy
+
 - name: The Golden Voyage
   external:
     website: 'https://www.mobygames.com/game/29321/the-golden-voyage/'
@@ -422,7 +454,13 @@
 
 - name: GoldenEye 007
   external:
-    wikipedia: GoldenEye 007 (1997 video game)
+    website: https://web.archive.org/web/19990219222913/http://www.nintendo.com/goldeneye007/
+    wikipedia: GoldenEye 007
+  platforms:
+  - N64
+  - Nintendo Switch
+  - Xbox
+  - Xbox One
   meta:
     genres:
     - FPS

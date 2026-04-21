@@ -8,6 +8,13 @@
     themes:
     - Motorsports
 
+- name: F-Zero
+  external:
+    wikipedia: F-Zero
+  meta:
+    genres:
+    - Racing
+
 - name: The F.A. Premier League Stars
   external:
     website: 'https://www.mobygames.com/game/11402/the-fa-premier-league-stars/'
@@ -21,25 +28,13 @@
     subgenres:
     - Soccer
 
-- name: F.E.A.R.
+- name: Factorio
   external:
-    wikipedia: F.E.A.R. (video game)
-  platforms:
-  - PlayStation 3
-  - Windows
-  - Xbox 360
+    website: https://factorio.com/
+    wikipedia: Factorio
   meta:
     genres:
-    - FPS
-    themes:
-    - Horror
-
-- name: F-Zero
-  external:
-    wikipedia: F-Zero
-  meta:
-    genres:
-    - Racing
+    - Simulation
 
 - name: Fade to Black
   external:
@@ -48,14 +43,6 @@
     genres:
     - Action
     - Adventure
-
-- name: Factorio
-  external:
-    website: https://factorio.com/
-    wikipedia: Factorio
-  meta:
-    genres:
-    - Simulation
 
 - name: Falcon
   external:
@@ -157,6 +144,42 @@
     genres:
     - Action
 
+- name: Fatal Frame
+  names:
+  - 零~zero~
+  external:
+    website: 'http://www.tecmo.co.jp/product/zero/index2.htm'
+    wikipedia: Fatal Frame (video game)
+  platforms:
+  - PlayStation 2
+  - PlayStation 3
+  - Xbox
+  meta:
+    genres:
+    - Action
+    subgenres:
+    - Survival
+    themes:
+    - Horror
+
+- name: 'Fatal Frame II: Crimson Butterfly'
+  names:
+  - 零～紅い蝶～
+  external:
+    website: 'http://www.tecmo.co.jp/product/zero2/index.htm'
+    wikipedia: 'Fatal Frame II: Crimson Butterfly'
+  platforms:
+  - PlayStation 2
+  - PlayStation 3
+  - Xbox
+  meta:
+    genres:
+    - Action
+    subgenres:
+    - Survival
+    themes:
+    - Horror
+
 - name: Fatty Bear's Birthday Surprise
   external:
     website: https://www.mobygames.com/game/8552
@@ -196,6 +219,19 @@
     - RPG
     themes:
     - Fantasy
+
+- name: F.E.A.R.
+  external:
+    wikipedia: F.E.A.R. (video game)
+  platforms:
+  - PlayStation 3
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - FPS
+    themes:
+    - Horror
 
 - name: The Feeble Files
   external:
@@ -430,6 +466,17 @@
   - Commodore 64
   - DOS
 
+- name: Fish Fillets
+  external:
+    wikipedia: Fish Fillets NG
+  meta:
+    genres:
+    - Puzzle
+    themes:
+    - Aquatic
+  platforms:
+  - Windows
+
 - name: Fish!
   external:
     website: https://www.mobygames.com/game/2755
@@ -450,17 +497,6 @@
   - Commodore 64
   - DOS
   - ZX Spectrum
-
-- name: Fish Fillets
-  external:
-    wikipedia: Fish Fillets NG
-  meta:
-    genres:
-    - Puzzle
-    themes:
-    - Aquatic
-  platforms:
-  - Windows
 
 - name: Five Lethal Demons
   names:
@@ -598,6 +634,19 @@
     genres:
     - Shmup
 
+- name: Food Fight
+  external:
+    website: 'https://www.mobygames.com/game/11242/food-fight/'
+    wikipedia: Food Fight (video game)
+  platforms:
+  - Arcade
+  - Atari
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - Action
+
 - name: Football Manager
   external:
     wikipedia: Football Manager (1982 series)
@@ -638,22 +687,6 @@
   meta:
     genres:
     - Shooter
-
-- name: Freddi Fish and the Case of the Missing Kelp Seeds
-  external:
-    website: https://www.mobygames.com/game/1199
-    wikipedia: Freddi Fish and the Case of the Missing Kelp Seeds
-  meta:
-    genres:
-    - Adventure
-    - Educational
-  platforms:
-  - Android
-  - Classic Mac OS
-  - iOS
-  - Linux
-  - Wii
-  - Windows
 
 - name: 'Freddi Fish 2: The Case of the Haunted Schoolhouse'
   external:
@@ -753,6 +786,22 @@
   - Linux
   - Windows
 
+- name: Freddi Fish and the Case of the Missing Kelp Seeds
+  external:
+    website: https://www.mobygames.com/game/1199
+    wikipedia: Freddi Fish and the Case of the Missing Kelp Seeds
+  meta:
+    genres:
+    - Adventure
+    - Educational
+  platforms:
+  - Android
+  - Classic Mac OS
+  - iOS
+  - Linux
+  - Wii
+  - Windows
+
 - name: 'Freddy Pharkas: Frontier Pharmacist'
   external:
     website: https://www.mobygames.com/game/1785
@@ -825,6 +874,20 @@
   meta:
     genres:
     - Arcade
+
+- name: "Frogger 2: Swampy's Revenge"
+  external:
+    website: >-
+      https://web.archive.org/web/20010124002300/http://www.hasbro-interactive.com/frogger2/frogger2.html
+    wikipedia: "Frogger 2: Swampy's Revenge"
+  platforms:
+  - Dreamcast
+  - Game Boy
+  - PlayStation
+  - Windows
+  meta:
+    genres:
+    - Action
 
 - name: Frogs and Flies
   external:

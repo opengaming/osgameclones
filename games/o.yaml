@@ -1,20 +1,3 @@
-- name: Open Test Drive Unlimited
-  originals:
-  - Test Drive Unlimited
-  type: remake
-  repo: 'https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited'
-  development: very active
-  status: unplayable
-  licenses:
-  - As-is
-  langs:
-  - C++
-  - C
-  frameworks:
-  - Vulkan
-  added: 2025-10-19
-  updated: 2025-10-19
-
 - name: O21
   images:
   - https://github.com/ForNeVeR/O21/raw/main/docs/screenshot.png
@@ -59,6 +42,22 @@
   - https://raw.githubusercontent.com/classilla/oblast/main/pics/vice-screen-2025112522101417.png
   - https://raw.githubusercontent.com/classilla/oblast/main/pics/vice-screen-2025112521430338.png
 
+- name: OceanPop
+  images:
+  - https://raw.githubusercontent.com/sharkwouter/oceanpop/1.0/screenshot.jpg
+  langs:
+  - C++
+  licenses:
+  - MIT
+  development: active
+  originals:
+  - HuniePop
+  info: HuniePop without the Hunnies
+  repo: https://github.com/sharkwouter/oceanpop
+  status: playable
+  type: clone
+  updated: 2022-10-23
+
 - name: Octopus
   images:
   - https://cloud.githubusercontent.com/assets/16686245/12429085/98761c3c-bee8-11e5-9399-1f7cc162e9bd.png
@@ -75,22 +74,6 @@
   repo: https://github.com/roger-wetzel/Octopus
   type: remake
   updated: 2016-02-08
-
-- name: OceanPop
-  images:
-  - https://raw.githubusercontent.com/sharkwouter/oceanpop/1.0/screenshot.jpg
-  langs:
-  - C++
-  licenses:
-  - MIT
-  development: active
-  originals:
-  - HuniePop
-  info: HuniePop without the Hunnies
-  repo: https://github.com/sharkwouter/oceanpop
-  status: playable
-  type: clone
-  updated: 2022-10-23
 
 - name: Odamex
   langs:
@@ -154,6 +137,24 @@
   - https://a.fsdn.com/con/app/proj/ogrian/screenshots/28168.jpg/max/max/1
   - https://a.fsdn.com/con/app/proj/ogrian/screenshots/28166.jpg/max/max/1
 
+- name: Olympia g3
+  originals:
+  - Olympia PBEM
+  type: remake
+  repo: 'https://sourceforge.net/projects/olympiag3/'
+  feed: 'https://sourceforge.net/p/olympiag3/activity/feed'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  langs:
+  - C
+  licenses:
+  - BSD
+  info: 'Revival of the popular PBEM game Olympia, includes G3 and G4'
+  added: 2026-03-18
+  updated: 2026-03-18
+
 - name: Olympia PBEM
   originals:
   - Olympia PBEM
@@ -173,6 +174,24 @@
     open-sourced in May 2009.
   added: 2026-03-12
   updated: 2026-03-12
+
+- name: 'Olympia: The Age of Gods PBEM'
+  originals:
+  - Olympia PBEM
+  type: remake
+  repo: 'https://github.com/olytag/Olympia--The-Age-of-Gods-PBEM'
+  url: 'https://www.pbm.com/oly/tag/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  langs:
+  - C
+  licenses:
+  - BSD
+  info: Updated and enhanced Olympia PBEM
+  added: 2026-03-14
+  updated: 2026-03-14
 
 - name: Omega Race Remake
   langs:
@@ -289,6 +308,27 @@
   url: http://www.oolite.org/
   updated: 2018-10-06
 
+- name: Open76
+  originals:
+  - Interstate '76
+  type: remake
+  repo: 'https://github.com/r1sc/Open76'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - C#
+  frameworks:
+  - Unity
+  licenses:
+  - GPL3
+  info: A reimplementation in the Unity engine
+  updated: 2021-12-05
+  images:
+  - https://raw.githubusercontent.com/r1sc/Open76/master/Screenshots/sc1.png
+  - https://raw.githubusercontent.com/r1sc/Open76/master/Screenshots/sc2.png
+  - https://raw.githubusercontent.com/r1sc/Open76/master/Screenshots/sc3.png
+
 - name: Open Adventure
   originals:
   - Colossal Cave Adventure
@@ -360,63 +400,24 @@
   images:
   - 'https://libregamewiki.org/images/6/62/Blades_of_Exile_-_combat1.png'
 
-- name: OpenBOR
-  type:  clone
-  originals:
-  - Streets of Rage
-  - Double Dragon
-  - Final Fight
-  repo: https://github.com/DCurrent/openbor
-  url: https://www.chronocrash.com/forum/#openbor.12
-  development: sporadic
-  status: playable
+- name: open-cube
+  info: A modification of tesseract so basically Cube 2 with better graphics and developed on github in a modern vcs.
   langs:
-  - C
+  - C++
   frameworks:
+  - OpenGL
   - SDL2
   licenses:
-  - BSD
-  content: free
-  info: OpenBOR is the ultimate 2D side scrolling engine for beat em' ups, shooters, and more!
-  updated: 2019-09-23
-  video:
-    youtube: TbZD1pWsJeI
-
-- name: OpenBW
-  originals:
-  - StarCraft
-  type: remake
-  content: commercial
-  status: unplayable
-  langs:
-  - C++
-  licenses:
-  - As-is
+  - Zlib
   development: halted
-  repo: https://github.com/OpenBW/openbw
-  url: http://www.openbw.com/
-  added: 2022-08-15
-  updated: 2024-06-16
-  video:
-    youtube: AQUYZHsdhFk
-
-- name: openc2e
-  langs:
-  - C++
-  licenses:
-  - LGPL2
-  - GPL2
-  development: sporadic
   originals:
-  - Creatures
-  status: unplayable
-  repo: https://github.com/openc2e/openc2e
+  - 'Cube 2: Sauerbraten'
+  repo: https://github.com/team-cube/open-cube
+  status: semi-playable
   type: remake
-  updated: 2020-05-05
-  url: https://creatures.wiki/Openc2e
-  images:
-  - https://creatures.wiki/images/d/df/C2-vista-injector.jpg
-  - https://creatures.wiki/images/2/22/Openc2e-c1-april2008.jpg
+  added: 2016-04-20
+  updated: 2024-06-24
+  url: https://team-cube.github.io
 
 - name: Open Fodder
   langs:
@@ -433,35 +434,6 @@
   url: http://openfodder.com/
   images:
   - https://user-images.githubusercontent.com/1327406/49718991-f1bd6e00-fcaf-11e8-88e3-68136828c2d1.png
-
-- name: OpenGOAL
-  originals: 
-  - 'Jak and Daxter: The Precursor Legacy'
-  type: remake
-  repo: https://github.com/open-goal/jak-project
-  feed: https://github.com/open-goal/jak-project/releases.atom
-  url: https://opengoal.dev/
-  development: very active
-  status: playable
-  content: commercial
-  langs:
-  - C++
-  - Common Lisp
-  licenses:
-  - ISC
-  info: >-
-    A project that aims to provide a complete PC port for the first Jak and 
-    Daxter game by providing a open implementation of a compiler for Naughty
-    Dog's GOAL language, a decompiler for the compiled game and an asset
-    extraction tool.
-  added: '2022-08-28'
-  updated: 2024-06-07
-  images:
-  - https://opengoal.dev/assets/images/lurker-chilling_2022-02-04-93d12659deb4cd4cdadda716de276725.png
-  - https://opengoal.dev/assets/images/jak-and-daxter-are-stunned_2022-02-04-12bbd4d7353f20638b9f1994ff8cbe24.png
-  - https://opengoal.dev/assets/images/robotboss-appears_2022-02-04-2455f3b01898dd59e806044daa8ee017.png
-  video:
-    youtube: ZO7A22btJc0
 
 - name: Open Greedy
   originals:
@@ -489,6 +461,19 @@
   - https://troel.net/opengreedy/menu_thumbnail.png
   - https://troel.net/opengreedy/greedy_xp_01_thumbnail.png
   - https://troel.net/opengreedy/credits_thumbnail.png
+
+- name: open-heavy-smash
+  langs:
+  - C++
+  licenses:
+  - As-is
+  development: halted
+  originals:
+  - Heavy Smash
+  status: unplayable
+  repo: https://github.com/namelivia/open-heavy-smash
+  type: remake
+  updated: 2015-05-28
 
 - name: Open Hexagon
   images:
@@ -572,38 +557,21 @@
   - https://img-games.lisisoft.com/img/1/8/1822-2-open-invaders.jpg
   - https://img-games.lisisoft.com/img/1/8/1822-3-open-invaders.jpg
 
-- name: openjazz.github.io
+- name: open-iw
   originals:
-  - Jazz Jackrabbit
+  - Inner Worlds
   type: remake
-  repo: 'https://github.com/OpenJazz/openjazz.github.io'
-  url: 'https://openjazz.github.io'
-  development: active
+  repo: 'https://github.com/TambourineReindeer/open-iw'
+  url: 'https://www.classicdosgames.com/forum/viewtopic.php?p=8301'
+  development: halted
   status: playable
   content: free
   langs:
-  - JavaScript
+  - C++
   licenses:
-  - Custom
-  info: Play Jazz Jackrabbit in your browser!
-  added: '2024-09-21'
-  updated: '2024-09-21'
-
-- name: OpenJill
-  originals:
-  - Jill of the Jungle
-  type: remake
-  repo: 'https://github.com/emeric-martineau/openjill'
-  development: halted
-  status: semi-playable
-  content: commercial
-  langs:
-  - Java
-  licenses:
-  - MPL
-  info: 'Open source implementation of Jill Trilogy game engine '
-  added: '2025-09-01'
-  updated: '2025-09-01'
+  - As-is
+  added: 2026-04-13
+  updated: 2026-04-13
 
 - name: Open Jumpgate
   langs:
@@ -665,35 +633,6 @@
   images:
   - https://raw.githubusercontent.com/Open-KO/KnightOnline/refs/heads/master/openko_example.png
 
-- name: OpenLiberty
-  info: A open-source Grand Theft Auto III reimplementation on the Godot Engine
-  frameworks:
-  - Godot
-  langs:
-  - GDScript
-  licenses:
-  - MIT
-  content: commercial
-  development: very active
-  originals:
-  - Grand Theft Auto III
-  repo: https://github.com/FOSS-Supremacy/OpenLiberty
-  status: unplayable
-  type: remake
-  added: 2024-08-18
-  updated: 2024-08-18
-  images:
-  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image1.png
-  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image2.png
-  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image3.png
-  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image4.png
-  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image5.png
-  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image6.png
-  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image7.png
-  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image8.png
-  video:
-    youtube: Z3Cd_NBYUfI
-
 - name: Open Meridian
   langs:
   - C
@@ -711,23 +650,6 @@
   - https://openmeridian.org/wp-content/uploads/2014/01/ancient-trinket.png
   - https://openmeridian.org/wp-content/uploads/2014/01/battle-arena.png
   - https://openmeridian.org/wp-content/uploads/2014/01/new-lore.png
-
-- name: OpenOrion2
-  originals:
-  - Master of Orion 2
-  type: remake
-  repo: https://github.com/nextghost/openorion2
-  development: active
-  status: unplayable
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL2
-  added: 2025-06-25
-  updated: 2025-06-25
 
 - name: Open Panzer
   images:
@@ -924,83 +846,22 @@
   video:
     youtube: rzP0FeBN_AE
 
-- name: OpenDuelyst
+- name: Open Test Drive Unlimited
   originals:
-  - Duelyst
-  type: official
-  repo: 'https://github.com/open-duelyst/duelyst'
-  url: >-
-    https://www.rockpapershotgun.com/tactical-card-battler-duelyst-is-now-completely-open-source
-  feed: 'https://github.com/open-duelyst/duelyst/releases.atom'
-  development: complete
-  status: playable
-  multiplayer:
-  - Online
-  content: free
-  langs:
-  - JavaScript
-  - CoffeeScript
+  - Test Drive Unlimited
+  type: remake
+  repo: 'https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited'
+  development: very active
+  status: unplayable
   licenses:
-  - CC0
-  added: 2026-01-03
-  updated: 2026-01-03
-
-- name: OpenTrek
-  originals:
-  - Super Star Trek
-  type: clone
-  url: >-
-    https://web.archive.org/web/20010813184226/http://www.best.com/~shankel/opentrek.html
-  development: complete
-  status: playable
-  content: open
+  - As-is
   langs:
   - C++
+  - C
   frameworks:
-  - DirectX
-  - OpenGL
-  - SVGALib
-  licenses:
-  - GPL2
-  info: A 3d update of the classic "Super Star Trek" game.
-  added: 2026-02-06
-  updated: 2026-02-06
-  images:
-  - https://web.archive.org/web/20010614200901im_/http://www.best.com/~shankel/screen2.gif
-
-- name: OpenTS2
-  originals:
-  - The Sims 2
-  type: remake
-  repo: 'https://github.com/LazyDuchess/OpenTS2'
-  development: active
-  status: unplayable
-  content: commercial
-  langs:
-  - 'C#'
-  frameworks:
-  - Unity
-  licenses:
-  - MPL
-  updated: '2023-02-11'
-
-- name: OpenVic
-  originals:
-  - Victoria II
-  type: remake
-  repo: 'https://github.com/OpenVicProject/OpenVic'
-  url: 'https://www.openvic.com'
-  feed: 'https://github.com/OpenVicProject/OpenVic/releases.atom'
-  development: active
-  status: unplayable
-  content: commercial
-  langs:
-  - GDScript
-  frameworks:
-  - Godot
-  licenses:
-  - GPL3
-  updated: '2023-08-28'
+  - Vulkan
+  added: 2025-10-19
+  updated: 2025-10-19
 
 - name: Open Zelda
   langs:
@@ -1017,59 +878,6 @@
   updated: 2019-09-13
   video:
     youtube: secXtfqKo1c
-
-- name: open-cube
-  info: A modification of tesseract so basically Cube 2 with better graphics and developed on github in a modern vcs.
-  langs:
-  - C++
-  frameworks:
-  - OpenGL
-  - SDL2
-  licenses:
-  - Zlib
-  development: halted
-  originals:
-  - 'Cube 2: Sauerbraten'
-  repo: https://github.com/team-cube/open-cube
-  status: semi-playable
-  type: remake
-  added: 2016-04-20
-  updated: 2024-06-24
-  url: https://team-cube.github.io
-
-- name: open-heavy-smash
-  langs:
-  - C++
-  licenses:
-  - As-is
-  development: halted
-  originals:
-  - Heavy Smash
-  status: unplayable
-  repo: https://github.com/namelivia/open-heavy-smash
-  type: remake
-  updated: 2015-05-28
-
-- name: Open76
-  originals:
-  - Interstate '76
-  type: remake
-  repo: 'https://github.com/r1sc/Open76'
-  development: halted
-  status: semi-playable
-  content: commercial
-  langs:
-  - C#
-  frameworks:
-  - Unity
-  licenses:
-  - GPL3
-  info: A reimplementation in the Unity engine
-  updated: 2021-12-05
-  images:
-  - https://raw.githubusercontent.com/r1sc/Open76/master/Screenshots/sc1.png
-  - https://raw.githubusercontent.com/r1sc/Open76/master/Screenshots/sc2.png
-  - https://raw.githubusercontent.com/r1sc/Open76/master/Screenshots/sc3.png
 
 - name: openage
   development: active
@@ -1228,6 +1036,28 @@
   images:
   - https://raw.githubusercontent.com/mmatyas/openblok/master/etc/promo/screenshot01.png
 
+- name: OpenBOR
+  type:  clone
+  originals:
+  - Streets of Rage
+  - Double Dragon
+  - Final Fight
+  repo: https://github.com/DCurrent/openbor
+  url: https://www.chronocrash.com/forum/#openbor.12
+  development: sporadic
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - BSD
+  content: free
+  info: OpenBOR is the ultimate 2D side scrolling engine for beat em' ups, shooters, and more!
+  updated: 2019-09-23
+  video:
+    youtube: TbZD1pWsJeI
+
 - name: OpenBound
   originals:
   - Gunbound
@@ -1295,6 +1125,24 @@
   - https://openbve-project.net/images/driving_2.jpg
   - https://openbve-project.net/images/driving_3.jpg
 
+- name: OpenBW
+  originals:
+  - StarCraft
+  type: remake
+  content: commercial
+  status: unplayable
+  langs:
+  - C++
+  licenses:
+  - As-is
+  development: halted
+  repo: https://github.com/OpenBW/openbw
+  url: http://www.openbw.com/
+  added: 2022-08-15
+  updated: 2024-06-16
+  video:
+    youtube: AQUYZHsdhFk
+
 - name: OpenC1
   development: halted
   langs:
@@ -1311,6 +1159,24 @@
   url: http://www.1amstudios.com/projects/openc1/
   video:
     youtube: 0afl6ruHZgI
+
+- name: openc2e
+  langs:
+  - C++
+  licenses:
+  - LGPL2
+  - GPL2
+  development: sporadic
+  originals:
+  - Creatures
+  status: unplayable
+  repo: https://github.com/openc2e/openc2e
+  type: remake
+  updated: 2020-05-05
+  url: https://creatures.wiki/Openc2e
+  images:
+  - https://creatures.wiki/images/d/df/C2-vista-injector.jpg
+  - https://creatures.wiki/images/2/22/Openc2e-c1-april2008.jpg
 
 - name: OpenCity
   images:
@@ -1454,22 +1320,6 @@
   added: 2018-06-17
   updated: 2024-07-03
 
-- name: openDarkEngine
-  images:
-  - https://a.fsdn.com/con/app/proj/opde/screenshots/51078.jpg/182/137
-  - https://a.fsdn.com/con/app/proj/opde/screenshots/50724.jpg/182/137
-  langs:
-  - C++
-  licenses:
-  - GPL2
-  development: halted
-  originals:
-  - Thief
-  repo: https://github.com/volca02/openDarkEngine
-  status: unplayable
-  type: remake
-  updated: 2016-11-30
-
 - name: OpenDaed
   originals:
   - The Daedalus Encounter
@@ -1486,6 +1336,22 @@
   - GPL3
   added: 2025-11-21
   updated: 2025-11-21
+
+- name: openDarkEngine
+  images:
+  - https://a.fsdn.com/con/app/proj/opde/screenshots/51078.jpg/182/137
+  - https://a.fsdn.com/con/app/proj/opde/screenshots/50724.jpg/182/137
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  development: halted
+  originals:
+  - Thief
+  repo: https://github.com/volca02/openDarkEngine
+  status: unplayable
+  type: remake
+  updated: 2016-11-30
 
 - name: OpenDeathValley
   langs:
@@ -1619,6 +1485,27 @@
   added: 2018-06-17
   updated: 2024-07-09
 
+- name: OpenDuelyst
+  originals:
+  - Duelyst
+  type: official
+  repo: 'https://github.com/open-duelyst/duelyst'
+  url: >-
+    https://www.rockpapershotgun.com/tactical-card-battler-duelyst-is-now-completely-open-source
+  feed: 'https://github.com/open-duelyst/duelyst/releases.atom'
+  development: complete
+  status: playable
+  multiplayer:
+  - Online
+  content: free
+  langs:
+  - JavaScript
+  - CoffeeScript
+  licenses:
+  - CC0
+  added: 2026-01-03
+  updated: 2026-01-03
+
 - name: OpenDUNE
   langs:
   - C
@@ -1691,6 +1578,46 @@
     https://dashboard.snapcraft.io/site_media/appmedia/2023/01/Screenshot_2023-01-27_12-23-07_dOnEYHu.jpg
   - 'https://dashboard.snapcraft.io/site_media/appmedia/2023/02/ivUC4Tr.jpeg'
 
+- name: opene2140
+  type: remake
+  originals:
+  - Earth 2140
+  repo: https://gitlab.com/opene2140/opene2140
+  development: halted
+  status: unplayable
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  frameworks:
+  - SDL2
+  - OpenGL
+  content: commercial
+  updated: 2023-01-31
+  images:
+  - https://user-images.githubusercontent.com/750553/72228544-d22a0080-35a7-11ea-87d0-9c3c72f0454f.png
+  - https://user-images.githubusercontent.com/750553/72228576-2b922f80-35a8-11ea-8616-4a40fba55edf.png
+
+- name: OpenE2140 (OpenRA)
+  type: remake
+  originals:
+  - Earth 2140
+  repo: https://github.com/OpenE2140/OpenE2140
+  development: active
+  status: semi-playable
+  langs:
+  - C#
+  licenses:
+  - GPL3
+  frameworks:
+  - OpenRA
+  content: commercial
+  info: OpenRA mod
+  updated: 2023-12-02
+  images:
+  - https://dalek.zone/lazy-static/previews/1f3c3fc9-e347-4dfb-94d7-4107a5d2c2a2.jpg
+  - https://dalek.zone/lazy-static/previews/4d70f8c5-5b5f-41b1-832f-dd979039172c.jpg
+
 - name: OpenEnroth
   originals:
   - 'Might and Magic VI: The Mandate of Heaven'
@@ -1712,46 +1639,6 @@
   - https://user-images.githubusercontent.com/24377109/79051881-f17e0b80-7c32-11ea-82cd-5e4993a1c071.png
   - https://user-images.githubusercontent.com/24377109/79051882-f3e06580-7c32-11ea-974f-414f68394190.png
   - https://user-images.githubusercontent.com/24377109/79051883-f5119280-7c32-11ea-801c-1595709d8060.png
-
-- name: OpenE2140
-  type: remake
-  originals:
-  - Earth 2140
-  repo: https://github.com/OpenE2140/OpenE2140
-  development: active
-  status: semi-playable
-  langs:
-  - C#
-  licenses:
-  - GPL3
-  frameworks:
-  - OpenRA
-  content: commercial
-  info: OpenRA mod
-  updated: 2023-12-02
-  images:
-  - https://dalek.zone/lazy-static/previews/1f3c3fc9-e347-4dfb-94d7-4107a5d2c2a2.jpg
-  - https://dalek.zone/lazy-static/previews/4d70f8c5-5b5f-41b1-832f-dd979039172c.jpg
-
-- name: opene2140
-  type: remake
-  originals:
-  - Earth 2140
-  repo: https://gitlab.com/opene2140/opene2140
-  development: halted
-  status: unplayable
-  langs:
-  - C++
-  licenses:
-  - GPL3
-  frameworks:
-  - SDL2
-  - OpenGL
-  content: commercial
-  updated: 2023-01-31
-  images:
-  - https://user-images.githubusercontent.com/750553/72228544-d22a0080-35a7-11ea-87d0-9c3c72f0454f.png
-  - https://user-images.githubusercontent.com/750553/72228576-2b922f80-35a8-11ea-8616-4a40fba55edf.png
 
 - name: OpenEtG
   langs:
@@ -1824,27 +1711,6 @@
   - https://games-cdn.softpedia.com/screenshots/OpenGGS_4.jpg
   - https://games-cdn.softpedia.com/screenshots/OpenGGS_5.jpg
 
-- name: Openglad
-  images:
-  - https://snowstorm.sourceforge.net/screenshots/1.png
-  - https://snowstorm.sourceforge.net/screenshots/2.png
-  - https://snowstorm.sourceforge.net/screenshots/3.png
-  - https://snowstorm.sourceforge.net/screenshots/4.png
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  development: halted
-  originals:
-  - Gladiator
-  status: playable
-  repo: https://sourceforge.net/projects/snowstorm/
-  type: remake
-  url: https://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=openglad
-  updated: 2021-04-09
-
 - name: OpenGL Test Drive Remake
   images:
   - https://antongerdelan.net/blog/images/tdrive_wheel.png
@@ -1866,6 +1732,56 @@
   type: remake
   updated: 2022-09-14
   url: https://antongerdelan.net/blog/formatted/2014_12_10_test_drive.html
+
+- name: Openglad
+  images:
+  - https://snowstorm.sourceforge.net/screenshots/1.png
+  - https://snowstorm.sourceforge.net/screenshots/2.png
+  - https://snowstorm.sourceforge.net/screenshots/3.png
+  - https://snowstorm.sourceforge.net/screenshots/4.png
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  development: halted
+  originals:
+  - Gladiator
+  status: playable
+  repo: https://sourceforge.net/projects/snowstorm/
+  type: remake
+  url: https://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=openglad
+  updated: 2021-04-09
+
+- name: OpenGOAL
+  originals:
+  - 'Jak and Daxter: The Precursor Legacy'
+  type: remake
+  repo: https://github.com/open-goal/jak-project
+  feed: https://github.com/open-goal/jak-project/releases.atom
+  url: https://opengoal.dev/
+  development: very active
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  - Common Lisp
+  licenses:
+  - ISC
+  info: >-
+    A project that aims to provide a complete PC port for the first Jak and 
+    Daxter game by providing a open implementation of a compiler for Naughty
+    Dog's GOAL language, a decompiler for the compiled game and an asset
+    extraction tool.
+  added: '2022-08-28'
+  updated: 2024-06-07
+  images:
+  - https://opengoal.dev/assets/images/lurker-chilling_2022-02-04-93d12659deb4cd4cdadda716de276725.png
+  - https://opengoal.dev/assets/images/jak-and-daxter-are-stunned_2022-02-04-12bbd4d7353f20638b9f1994ff8cbe24.png
+  - https://opengoal.dev/assets/images/robotboss-appears_2022-02-04-2455f3b01898dd59e806044daa8ee017.png
+  video:
+    youtube: ZO7A22btJc0
 
 - name: OpenGoo
   langs:
@@ -1936,6 +1852,24 @@
   images:
   - https://static.wikia.nocookie.net/gtawiki/images/c/c1/OpenGTA-GTA1.jpg
 
+- name: OpenHCL
+  originals:
+  - Meikyuujou Hydra
+  type: remake
+  repo: 'https://github.com/JeffRuLz/OpenHCL'
+  feed: 'https://github.com/JeffRuLz/OpenHCL/releases.atom'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2026-03-29
+  updated: 2026-03-29
+
 - name: OpenHoW
   type: remake
   originals:
@@ -2002,6 +1936,39 @@
   type: remake
   updated: 2017-10-20
   url: http://www.alister.eu/jazz/oj/
+
+- name: openjazz.github.io
+  originals:
+  - Jazz Jackrabbit
+  type: remake
+  repo: 'https://github.com/OpenJazz/openjazz.github.io'
+  url: 'https://openjazz.github.io'
+  development: active
+  status: playable
+  content: free
+  langs:
+  - JavaScript
+  licenses:
+  - Custom
+  info: Play Jazz Jackrabbit in your browser!
+  added: '2024-09-21'
+  updated: '2024-09-21'
+
+- name: OpenJill
+  originals:
+  - Jill of the Jungle
+  type: remake
+  repo: 'https://github.com/emeric-martineau/openjill'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - Java
+  licenses:
+  - MPL
+  info: 'Open source implementation of Jill Trilogy game engine '
+  added: '2025-09-01'
+  updated: '2025-09-01'
 
 - name: OpenJK
   langs:
@@ -2138,6 +2105,35 @@
   images:
   - >-
     https://camo.githubusercontent.com/c7965f14a7a7559126c3b54d99a1ac22a2569dfc3ccab42f6050b7fd7a1e8272/68747470733a2f2f6b72756c2e66696e662e756e692d68616e6e6f7665722e64652f7e6a616e6b6e697474656c2f696d616765732f696e67616d655f687970652e706e67
+
+- name: OpenLiberty
+  info: A open-source Grand Theft Auto III reimplementation on the Godot Engine
+  frameworks:
+  - Godot
+  langs:
+  - GDScript
+  licenses:
+  - MIT
+  content: commercial
+  development: very active
+  originals:
+  - Grand Theft Auto III
+  repo: https://github.com/FOSS-Supremacy/OpenLiberty
+  status: unplayable
+  type: remake
+  added: 2024-08-18
+  updated: 2024-08-18
+  images:
+  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image1.png
+  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image2.png
+  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image3.png
+  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image4.png
+  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image5.png
+  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image6.png
+  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image7.png
+  - https://raw.githubusercontent.com/FOSS-Supremacy/re3-gd/main/screenshots/image8.png
+  video:
+    youtube: Z3Cd_NBYUfI
 
 - name: OpenLiero
   feed: https://twitter.com/lieroofficial
@@ -2604,6 +2600,23 @@
   added: 2025-07-28
   updated: 2025-07-28
 
+- name: OpenOrion2
+  originals:
+  - Master of Orion 2
+  type: remake
+  repo: https://github.com/nextghost/openorion2
+  development: active
+  status: unplayable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  added: 2025-06-25
+  updated: 2025-06-25
+
 - name: OpenOutcast
   images:
   - https://a.fsdn.com/con/app/proj/ocmod/screenshots/75332.jpg
@@ -2896,6 +2909,26 @@
   video:
     youtube: FpWuOOs0TMg
 
+- name: OpenSolomonsKey
+  originals:
+  - Solomon's Key
+  type: clone
+  repo: 'https://github.com/mdodis/OpenSolomonsKey'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - SDL2
+  licenses:
+  - Unlicense
+  added: '2020-07-24'
+  updated: 2024-08-08
+  images:
+  - https://github.com/mdodis/OpenSolomonsKey/blob/master/page/banner.png?raw=true
+
 - name: OpenSpades
   langs:
   - C++
@@ -2924,26 +2957,6 @@
   - https://openspades.yvt.jp/media/images/ss4.jpg
   - https://openspades.yvt.jp/media/images/ss5.jpg
   - https://openspades.yvt.jp/media/images/ss6.jpg
-
-- name: OpenSolomonsKey
-  originals:
-  - Solomon's Key
-  type: clone
-  repo: 'https://github.com/mdodis/OpenSolomonsKey'
-  development: halted
-  status: playable
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - OpenGL
-  - SDL2
-  licenses:
-  - Unlicense
-  added: '2020-07-24'
-  updated: 2024-08-08
-  images:
-  - https://github.com/mdodis/OpenSolomonsKey/blob/master/page/banner.png?raw=true
 
 - name: OpenSR
   frameworks:
@@ -3119,6 +3132,29 @@
   images:
   - 'https://blog.gu3.me/2022/opentpw.png'
 
+- name: OpenTrek
+  originals:
+  - Super Star Trek
+  type: clone
+  url: >-
+    https://web.archive.org/web/20010813184226/http://www.best.com/~shankel/opentrek.html
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  - OpenGL
+  - SVGALib
+  licenses:
+  - GPL2
+  info: A 3d update of the classic "Super Star Trek" game.
+  added: 2026-02-06
+  updated: 2026-02-06
+  images:
+  - https://web.archive.org/web/20010614200901im_/http://www.best.com/~shankel/screen2.gif
+
 - name: OpenTriad
   langs:
   - Java
@@ -3133,6 +3169,22 @@
   url: https://github.com/benjaminfoo/OpenTriad
   images:
   - https://raw.githubusercontent.com/benjaminfoo/OpenTriad/develop/docs/ingame_term.png
+
+- name: OpenTS2
+  originals:
+  - The Sims 2
+  type: remake
+  repo: 'https://github.com/LazyDuchess/OpenTS2'
+  development: active
+  status: unplayable
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - Unity
+  licenses:
+  - MPL
+  updated: '2023-02-11'
 
 - name: OpenTTD
   development: very active
@@ -3196,6 +3248,43 @@
   info: Port of OpenTyrian made to support Tyrian2000
   updated: 2022-05-31
 
+- name: OpenVic
+  originals:
+  - Victoria II
+  type: remake
+  repo: 'https://github.com/OpenVicProject/OpenVic'
+  url: 'https://www.openvic.com'
+  feed: 'https://github.com/OpenVicProject/OpenVic/releases.atom'
+  development: active
+  status: unplayable
+  content: commercial
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - GPL3
+  updated: '2023-08-28'
+
+- name: OpenVice
+  originals:
+  - 'Grand Theft Auto: Vice City'
+  type: remake
+  repo: 'https://github.com/clashbyte/openvice'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - C#
+  frameworks:
+  - OpenTK
+  licenses:
+  - GPL3
+  added: 2021-12-03
+  updated: 2024-08-19
+  video:
+    youtube: R3Jxgm1xDYY
+
 - name: OpenVIII
   type: remake
   originals:
@@ -3219,25 +3308,6 @@
   - https://i.postimg.cc/rwzXHmJY/Screenshot-from-2019-06-11-11-44-19.png
   - https://i.postimg.cc/RVSzcGnm/Screenshot-from-2019-06-11-11-45-14.png
 
-- name: OpenVice
-  originals:
-  - 'Grand Theft Auto: Vice City'
-  type: remake
-  repo: 'https://github.com/clashbyte/openvice'
-  development: halted
-  status: unplayable
-  content: commercial
-  langs:
-  - C#
-  frameworks:
-  - OpenTK
-  licenses:
-  - GPL3
-  added: 2021-12-03
-  updated: 2024-08-19
-  video:
-    youtube: R3Jxgm1xDYY
-
 - name: OpenWar
   development: halted
   images:
@@ -3256,6 +3326,27 @@
   type: remake
   added: 2016-08-09
   updated: 2024-08-20
+
+- name: OpenWolf
+  originals:
+  - 'Wolfenstein: Enemy Territory'
+  type: remake
+  repo: 'https://github.com/TheDushan/OpenWolf-Engine'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - SDL2
+  licenses:
+  - GPL3
+  info: >-
+    A heavily updated version of the id Tech 3 game engine, based on the ET:XreaL
+    subproject of Xreal.
+  added: 2026-04-03
+  updated: 2026-04-03
 
 - name: OpenXcom
   images:
@@ -3496,6 +3587,42 @@
   - ISC
   updated: 2022-04-30
 
+- name: Oric-Software
+  originals:
+  - Skool Daze
+  - Uridium
+  - Donkey Kong (Game & Watch)
+  - The Secret of Monkey Island
+  type: clone
+  repo: 'https://github.com/Oric-Software-Development-Kit/Oric-Software'
+  url: 'https://www.defence-force.org/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    Archive of various bits of Oric Software from different people,
+    includes clone games: SkoolDaze (Skool Daze), Oricium (Uridium),
+    4k Kong (Donkey Kong), Blake's 7 (The Secret of Monkey Island)
+  added: 2026-03-30
+  updated: 2026-03-30
+  images:
+  - 'https://www.defence-force.org/pages/games/4kkong/pics/4kkong_2.png'
+  - 'https://www.defence-force.org/pages/games/4kkong/pics/4kkong_3.png'
+  - 'https://www.defence-force.org/pages/games/4kkong/pics/4kkong_1.png'
+  - 'https://www.defence-force.org/pages/games/oricium/pics/screen2.png'
+  - 'https://www.defence-force.org/pages/games/oricium/pics/screen4.png'
+  - 'https://www.defence-force.org/pages/games/oricium/pics/screen5.png'
+  - 'https://www.defence-force.org/pages/games/blakes7/pics/blakes7_title.png'
+  - 'https://www.defence-force.org/pages/games/blakes7/pics/closed_gate.png'
+  - 'https://www.defence-force.org/pages/games/blakes7/pics/startup_room.png'
+  - 'https://www.defence-force.org/pages/games/skooldaze/pics/skooldaze_title.png'
+  - 'https://www.defence-force.org/pages/games/skooldaze/pics/screen4.png'
+  - 'https://www.defence-force.org/pages/games/skooldaze/pics/screen3.png'
+
 - name: orona
   licenses:
   - GPL2
@@ -3510,6 +3637,24 @@
   type: remake
   updated: 2022-11-29
   url: https://stephank.github.io/orona/bolo.html
+
+- name: Orzunoid
+  originals:
+  - Arkanoid
+  type: clone
+  url: 'https://www.ocf.berkeley.edu/~pad/game-ti85-orzunoid.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: The ultimate Arkanoid-style game for Usgard.
+  added: 2026-02-28
+  updated: 2026-02-28
+  images:
+  - 'https://www.ocf.berkeley.edu/~pad/screenshots/orz1.png'
+  - 'https://www.ocf.berkeley.edu/~pad/screenshots/orz2.png'
 
 - name: Ostrich Riders
   images:
@@ -3587,6 +3732,25 @@
   - As-is
   added: 2025-11-05
   updated: 2025-11-05
+
+- name: Outlaw Golf
+  originals:
+  - Outlaw Golf
+  type: official
+  repo: >-
+    https://web.archive.org/web/20211025205656/https://illusion.64history.net/dumps/Source%20Code/Outlaw%20Golf/
+  url: 'https://x.com/forestillusion/status/1345540112055078915'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2026-03-22
+  updated: 2026-03-22
 
 - name: Outpost HD
   type: remake
@@ -3685,21 +3849,3 @@
   - https://user-images.githubusercontent.com/918081/258870468-f009ec60-47d6-49e5-811c-2ed72f12ab7c.png
   - >-
     https://user-images.githubusercontent.com/918081/250271563-6e2358ad-82af-4374-89d1-35d56b917e1e.png
-
-- name: Orzunoid
-  originals:
-  - Arkanoid
-  type: clone
-  url: 'https://www.ocf.berkeley.edu/~pad/game-ti85-orzunoid.html'
-  development: complete
-  status: playable
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: The ultimate Arkanoid-style game for Usgard.
-  added: 2026-02-28
-  updated: 2026-02-28
-  images:
-  - 'https://www.ocf.berkeley.edu/~pad/screenshots/orz1.png'
-  - 'https://www.ocf.berkeley.edu/~pad/screenshots/orz2.png'

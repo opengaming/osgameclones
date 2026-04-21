@@ -157,6 +157,20 @@
   images:
   - 'https://jakesgordon.com/writing/javascript-boulderdash/level1.png'
 
+- name: javascript-E.T.
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  content: free
+  development: halted
+  originals:
+  - E.T. the Extra-Terrestrial
+  status: unplayable
+  repo: https://github.com/FranciscoG/javascript-E.T.
+  type: remake
+  updated: 2022-02-07
+
 - name: Javascript Tetris
   originals:
   - Tetris
@@ -174,20 +188,6 @@
   updated: 2026-02-06
   images:
   - https://jakesgordon.com/writing/javascript-tetris/thumb.png
-
-- name: javascript-E.T.
-  langs:
-  - JavaScript
-  licenses:
-  - MIT
-  content: free
-  development: halted
-  originals:
-  - E.T. the Extra-Terrestrial
-  status: unplayable
-  repo: https://github.com/FranciscoG/javascript-E.T.
-  type: remake
-  updated: 2022-02-07
 
 - name: Jawbreaker Disassembly
   originals:
@@ -451,20 +451,26 @@
   images:
   - https://www.jonof.id.au/jfduke3d/splash.jpg
 
-- name: jffe
-  frameworks:
-  - SDL
-  langs:
-  - C++
-  licenses:
-  - As-is
-  development: halted
+- name: JJFFE
   originals:
   - Elite III
-  status: unplayable
-  repo: https://github.com/videogamepreservation/jjffe
   type: remake
-  updated: 2022-09-13
+  repo: https://github.com/videogamepreservation/jjffe
+  url: 'https://web.archive.org/web/20110303051207/http://jaj22.org.uk/jjffe/'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - As-is
+  added: 2016-01-10
+  updated: 2026-04-10
+  images:
+  - 'https://www.happypenguin.altervista.org/screenshots/new_sanfrancisco.gif'
 
 - name: JLud2D
   images:
@@ -609,24 +615,6 @@
   images:
   - 'https://www.ticalc.org/archives/files/ss/617/61744.gif'
 
-- name: JSettlers
-  development: sporadic
-  images:
-  - https://www.settlers-android-clone.com/wp-content/uploads/2017/01/Screenshot_20170127-222244.png
-  video:
-    youtube: DdVtOhIIjow
-  langs:
-  - Java
-  licenses:
-  - MIT
-  content: commercial
-  originals:
-  - The Settlers III
-  status: semi-playable
-  repo: https://github.com/paulwedeck/settlers-remake
-  type: remake
-  updated: 2023-12-16
-
 - name: JScorch
   originals:
   - Scorched Earth
@@ -652,6 +640,24 @@
   - https://web.archive.org/web/20070626181112/http://jscorch.sourceforge.net/pic/20020826a.png
   - https://web.archive.org/web/20070626181121/http://jscorch.sourceforge.net/pic/20020811.png
   - https://web.archive.org/web/20070626181048/http://jscorch.sourceforge.net/pic/20020702.png
+
+- name: JSettlers
+  development: sporadic
+  images:
+  - https://www.settlers-android-clone.com/wp-content/uploads/2017/01/Screenshot_20170127-222244.png
+  video:
+    youtube: DdVtOhIIjow
+  langs:
+  - Java
+  licenses:
+  - MIT
+  content: commercial
+  originals:
+  - The Settlers III
+  status: semi-playable
+  repo: https://github.com/paulwedeck/settlers-remake
+  type: remake
+  updated: 2023-12-16
 
 - name: jsFO
   development: halted
@@ -765,6 +771,24 @@
   updated: 2022-08-10
   url: https://www.icculus.org/jumpnbump/
 
+- name: 'Jumping Jack 2: Worryingly Familiar'
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - Custom
+  development: halted
+  originals:
+  - Jumping Jack
+  status: playable
+  type: remake
+  added: 2015-04-13
+  updated: 2022-06-15
+  url: https://retrospec.sgn.net/info.htm?id=jj2&t=g
+  images:
+  - https://retrospec.sgn.net/style/images/gamelogos/jj2.gif
+
 - name: 'Jumping Jack: Further Adventures'
   langs:
   - C++
@@ -786,24 +810,6 @@
   images:
   - https://retrospec.sgn.net/style/images/gamelogos/jj.gif
 
-- name: 'Jumping Jack 2: Worryingly Familiar'
-  langs:
-  - C++
-  frameworks:
-  - Allegro
-  licenses:
-  - Custom
-  development: halted
-  originals:
-  - Jumping Jack
-  status: playable
-  type: remake
-  added: 2015-04-13
-  updated: 2022-06-15
-  url: https://retrospec.sgn.net/info.htm?id=jj2&t=g
-  images:
-  - https://retrospec.sgn.net/style/images/gamelogos/jj2.gif
-
 - name: Jumpman
   langs:
   - Assembly
@@ -816,6 +822,42 @@
   type: remake
   updated: 2022-09-13
   url: http://www.oldskool.org/pc/jumpman
+
+- name: 'Jurassic Park: Trespasser'
+  originals:
+  - Trespasser
+  type: remake
+  repo: 'https://github.com/OpenTrespasser/JurassicParkTrespasser'
+  feed: 'https://github.com/OpenTrespasser/JurassicParkTrespasser/releases.atom'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: 'A git-based fork of the Jurassic Park: Trespasser source code.'
+  added: 2026-03-10
+  updated: 2026-03-10
+
+- name: jy2-copy
+  originals:
+  - Heroes of Jin Yong 2
+  type: remake
+  repo: 'https://github.com/MngYou/jy2-copy'
+  url: 'https://mngyou.github.io/jy2-copy/'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - JavaScript
+  frameworks:
+  - Phaser
+  licenses:
+  - MIT
+  info: A Remake of the fan-made game 金庸群侠传2
+  added: 2026-04-10
+  updated: 2026-04-10
 
 - name: jy-remake
   originals:
@@ -834,3 +876,38 @@
   - As-is
   added: 2026-03-08
   updated: 2026-03-08
+
+- name: jynew
+  originals:
+  - Heroes of Jin Yong
+  type: clone
+  repo: 'https://github.com/jynew/jynew'
+  url: 'https://www.taptap.cn/app/246004'
+  feed: 'https://github.com/jynew/jynew/releases.atom'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - 'C#'
+  frameworks:
+  - Unity
+  licenses:
+  - Custom
+  info: >-
+    群侠传，启动！ is an RPG game framework like Heroes of Jin Yong (金庸群俠傳), which
+    includes full modding support and a 3D remake of the original game.
+  added: 2026-03-15
+  updated: 2026-03-15
+  images:
+  - https://github.com/jynew/jynew/assets/7448857/b229deda-9687-499c-b4c5-32778eba9eda
+  - https://user-images.githubusercontent.com/7448857/192085025-b38ca9f9-726b-458b-aab3-7e5ec36df1ca.png
+  - https://user-images.githubusercontent.com/7448857/192085027-ba8beebf-8743-48fb-bc1d-f315b256e2a7.png
+  - https://user-images.githubusercontent.com/7448857/207826751-6e74d7cd-1b67-4efe-83e1-5a5fce28a451.png
+  - https://user-images.githubusercontent.com/7448857/207826895-fa8db838-c165-4103-ac1f-8e3e0a744005.gif
+  - https://user-images.githubusercontent.com/7448857/145429032-4cb357f9-077d-4450-acb2-bea62e9910d6.jpg
+  - https://user-images.githubusercontent.com/7448857/144630410-bc1676eb-b548-41ea-ae54-90c72e9d066d.png
+  - https://user-images.githubusercontent.com/7448857/144630415-c2c3b37e-6008-49d9-a690-fc25d995f21c.png
+  - https://user-images.githubusercontent.com/7448857/144630418-38aa752d-332a-4e2e-a297-959b921c9316.png
+  - https://user-images.githubusercontent.com/7448857/144630403-e35a6772-2442-465c-8a23-c1f5ae0037bc.png
+  - https://user-images.githubusercontent.com/7448857/144630913-bb59a38f-4cb2-4312-b5e4-6051d38c3a84.png
+  - https://user-images.githubusercontent.com/7448857/144630919-b21370e1-0783-417e-99c3-763e9563d06a.png

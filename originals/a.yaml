@@ -7,13 +7,6 @@
     genres:
     - Shooter
 
-- name: A-Train
-  external:
-    wikipedia: A-Train
-  meta:
-    genres:
-    - Simulation
-
 - name: ABM
   external:
     website: 'https://www.mobygames.com/game/63061/abm/'
@@ -364,6 +357,25 @@
     genres:
     - Platform
 
+- name: Alien 3
+  external:
+    wikipedia: Alien 3 (video game)
+  platforms:
+  - Amiga
+  - Game Boy
+  - Game Gear
+  - Genesis
+  - Master System
+  - NES
+  - SNES
+  meta:
+    genres:
+    - Action
+    - Platform
+    themes:
+    - Horror
+    - Sci-Fi
+
 - name: Alien 8
   external:
     wikipedia: Alien 8
@@ -445,25 +457,6 @@
     themes:
     - Sci-Fi
 
-- name: Alien³
-  external:
-    wikipedia: Alien 3 (video game)
-  platforms:
-  - Amiga
-  - Game Boy
-  - Game Gear
-  - Genesis
-  - Master System
-  - NES
-  - SNES
-  meta:
-    genres:
-    - Action
-    - Platform
-    themes:
-    - Horror
-    - Sci-Fi
-
 - name: Aliens Versus Predator
   names:
   - Aliens Versus Predator Classic 2000
@@ -494,6 +487,19 @@
     - Real-Time Strategy
     themes:
     - Sci-Fi
+
+- name: Alleyway
+  names:
+  - アレイウェイ
+  external:
+    website: 'https://www.mobygames.com/game/4280/alleyway/'
+  platforms:
+  - 3DS
+  - Game Boy
+  - NES
+  meta:
+    genres:
+    - Arcade
 
 - name: Alone in the Dark
   external:
@@ -709,31 +715,6 @@
     genres:
     - Real-Time Strategy
 
-- name: Another World
-  external:
-    website: https://www.anotherworld.fr/
-    wikipedia: Another World (video game)
-  platforms:
-  - 3DO
-  - Amiga
-  - Atari
-  - Classic Mac OS
-  - DOS
-  - Genesis
-  - Jaguar
-  - SNES
-  - Windows
-  meta:
-    genres:
-    - Adventure
-    - Platform
-    themes:
-    - Sci-Fi
-  names:
-  - Out of This World
-  - "Outer World (\u30A2\u30A6\u30BF\u30FC\u30EF\u30FC\u30EB\u30C9 Aut\u0101 W\u0101\
-    rudo)"
-
 - name: Anodyne
   external:
     website: 'https://www.mobygames.com/game/67102/anodyne'
@@ -771,6 +752,31 @@
     - Adventure
     themes:
     - Fantasy
+
+- name: Another World
+  external:
+    website: https://www.anotherworld.fr/
+    wikipedia: Another World (video game)
+  platforms:
+  - 3DO
+  - Amiga
+  - Atari
+  - Classic Mac OS
+  - DOS
+  - Genesis
+  - Jaguar
+  - SNES
+  - Windows
+  meta:
+    genres:
+    - Adventure
+    - Platform
+    themes:
+    - Sci-Fi
+  names:
+  - Out of This World
+  - "Outer World (\u30A2\u30A6\u30BF\u30FC\u30EF\u30FC\u30EB\u30C9 Aut\u0101 W\u0101\
+    rudo)"
 
 - name: 'Another World 2: Heart of the Alien'
   external:
@@ -815,16 +821,6 @@
     genres:
     - Action
 
-- name: Aquastax
-  external:
-    wikipedia: Aquastax
-  meta:
-    genres:
-    - Puzzle
-    - Platform
-  platforms:
-  - Mobile
-
 - name: Aquaria
   external:
     website: 'https://www.bit-blot.com/aquaria/'
@@ -841,6 +837,16 @@
     - Adventure
     themes:
     - Fantasy
+
+- name: Aquastax
+  external:
+    wikipedia: Aquastax
+  meta:
+    genres:
+    - Puzzle
+    - Platform
+  platforms:
+  - Mobile
 
 - name: Arcade Volleyball
   external:
@@ -1094,6 +1100,15 @@
     genres:
     - Puzzle
 
+- name: Atoms
+  external:
+    website: https://www.lemonamiga.com/game/atoms
+  platforms:
+  - Amiga
+  meta:
+    genres:
+    - Puzzle
+
 - name: Attack of the Mutant Camels
   external:
     website: 'https://www.lemon64.com/game/amc-attack-of-the-mutant-camels-llamasoft'
@@ -1147,3 +1162,10 @@
     genres:
     - Action
     - Platform
+
+- name: A-Train
+  external:
+    wikipedia: A-Train
+  meta:
+    genres:
+    - Simulation

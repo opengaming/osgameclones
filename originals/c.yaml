@@ -196,12 +196,17 @@
     genres:
     - Simulation
 
-- name: Castle of the Winds
+- name: Castle Adventure
   external:
-    wikipedia: Castle of the Winds
+    website: 'https://www.mobygames.com/game/13439/castle-adventure/'
+    wikipedia: Castle Adventure
+  platforms:
+  - DOS
   meta:
     genres:
-    - Roguelike
+    - Adventure
+    subgenres:
+    - Text Adventure
 
 - name: Castle of Dr. Brain
   external:
@@ -221,6 +226,13 @@
   - Classic Mac OS
   - PC-98
 
+- name: Castle of the Winds
+  external:
+    wikipedia: Castle of the Winds
+  meta:
+    genres:
+    - Roguelike
+
 - name: Castlequest
   external:
     website: 'https://www.mobygames.com/game/219631/castlequest/'
@@ -231,6 +243,13 @@
     - Text Adventure
     themes:
     - Fantasy
+
+- name: The Castles of Dr. Creep
+  external:
+    wikipedia: The Castles of Dr. Creep
+  meta:
+    genres:
+    - Arcade
 
 - name: Castlevania
   names:
@@ -256,13 +275,6 @@
     - Platform
     themes:
     - Horror
-
-- name: The Castles of Dr. Creep
-  external:
-    wikipedia: The Castles of Dr. Creep
-  meta:
-    genres:
-    - Arcade
 
 - name: "Castlevania III: Dracula's Curse"
   external:
@@ -750,21 +762,6 @@
     - Action
     - Platform
 
-- name: The Clue!
-  names:
-  - Der Clou!
-  external:
-    website: 'https://www.mobygames.com/game/2568/the-clue/'
-    wikipedia: The Clue!
-  platforms:
-  - Amiga
-  - DOS
-  meta:
-    genres:
-    - Adventure
-    - RPG
-    - Simulation
-
 - name: Clonk
   external:
     wikipedia: Clonk
@@ -783,6 +780,21 @@
   meta:
     genres:
     - Racing
+
+- name: The Clue!
+  names:
+  - Der Clou!
+  external:
+    website: 'https://www.mobygames.com/game/2568/the-clue/'
+    wikipedia: The Clue!
+  platforms:
+  - Amiga
+  - DOS
+  meta:
+    genres:
+    - Adventure
+    - RPG
+    - Simulation
 
 - name: 'Code-Name: Iceman'
   external:
@@ -946,10 +958,31 @@
 
 - name: Commando
   external:
+    website: 'https://www.mobygames.com/game/1618/commando/'
     wikipedia: Commando (video game)
+  platforms:
+  - Amiga
+  - Amstrad CPC
+  - Android
+  - Apple II
+  - Arcade
+  - Atari
+  - Commodore 64
+  - iOS
+  - MSX
+  - NES
+  - PC Booter
+  - PC-98
+  - PlayStation 3
+  - Xbox
+  - Xbox 360
+  - ZX Spectrum
   meta:
     genres:
+    - Shooter
     - Shmup
+    themes:
+    - Modern Military
 
 - name: Company of Heroes
   external:
@@ -1022,6 +1055,17 @@
   - Amiga
   - DOS
   - Windows
+
+- name: Contact Sam Cruise
+  external:
+    website: 'https://spectrumcomputing.co.uk/entry/0001055'
+    wikipedia: Contact Sam Cruise
+  platforms:
+  - ZX Spectrum
+  meta:
+    genres:
+    - Action
+    - Adventure
 
 - name: Contra
   external:
@@ -1481,6 +1525,18 @@
     themes:
     - Sci-Fi
 
+- name: Cybermorph
+  external:
+    website: 'https://www.mobygames.com/game/6684/cybermorph/'
+    wikipedia: Cybermorph
+  platforms:
+  - Jaguar
+  meta:
+    genres:
+    - Shooter
+    themes:
+    - Sci-Fi
+
 - name: Cylindrix
   external:
     website: >-
@@ -1493,18 +1549,6 @@
     - Shooter
     subgenres:
     - Vehicular Combat
-    themes:
-    - Sci-Fi
-
-- name: Cybermorph
-  external:
-    website: 'https://www.mobygames.com/game/6684/cybermorph/'
-    wikipedia: Cybermorph
-  platforms:
-  - Jaguar
-  meta:
-    genres:
-    - Shooter
     themes:
     - Sci-Fi
 

@@ -767,28 +767,6 @@
   added: 2025-11-14
   updated: 2025-11-14
 
-- name: Descent II
-  originals:
-  - Descent II
-  type: official
-  repo: 'https://github.com/videogamepreservation/descent2'
-  url: >-
-    https://web.archive.org/web/20070203093530/http://www.descent2.com/ddn/sources/descent2/
-  development: complete
-  status: playable
-  multiplayer:
-  - Competitive
-  - Online
-  - LAN
-  - Co-op
-  content: commercial
-  langs:
-  - C
-  licenses:
-  - Custom
-  added: 2025-11-14
-  updated: 2025-11-14
-
 - name: Descent 3
   originals:
   - Descent 3
@@ -829,12 +807,34 @@
   video:
     youtube: CaYHlpVBHd0
 
-- name: Desert Falcon Source
+- name: Descent II
+  originals:
+  - Descent II
+  type: official
+  repo: 'https://github.com/videogamepreservation/descent2'
+  url: >-
+    https://web.archive.org/web/20070203093530/http://www.descent2.com/ddn/sources/descent2/
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  - Co-op
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2025-11-14
+  updated: 2025-11-14
+
+- name: Desert Falcon Source Code
   originals:
   - Desert Falcon
   type: official
   repo: https://github.com/webberdebber/desert-falcon-src
-  url: 'https://www.romhacking.net/documents/475/'
+  url: 'https://forums.atariage.com/topic/121013-desert-falcon-source-code/'
   development: halted
   status: playable
   langs:
@@ -843,9 +843,24 @@
   - As-is
   info: Original source code to the Atari 2600 game Desert Falcon.
   added: 2025-11-16
-  updated: 2025-11-26
+  updated: 2026-03-12
   images:
   - https://www.atarimania.com/2600/screens/desert_falcon_pal.gif
+
+- name: Desktop Adventures Engine for ScummVM
+  development: halted
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  content: commercial
+  originals:
+  - Indiana Jones and his Desktop Adventures
+  - 'Star Wars: Yoda Stories'
+  status: semi-playable
+  type: remake
+  updated: 2019-10-02
+  repo: https://github.com/digitall/scummvm-deskadv
 
 - name: DesktopAdventures
   development: halted
@@ -865,21 +880,6 @@
   updated: 2024-01-31
   video:
     youtube: zD0fdu-dhTw
-
-- name: Desktop Adventures Engine for ScummVM
-  development: halted
-  langs:
-  - C++
-  licenses:
-  - GPL2
-  content: commercial
-  originals:
-  - Indiana Jones and his Desktop Adventures
-  - 'Star Wars: Yoda Stories'
-  status: semi-playable
-  type: remake
-  updated: 2019-10-02
-  repo: https://github.com/digitall/scummvm-deskadv
 
 - name: Dethrace
   originals:
@@ -1112,6 +1112,46 @@
   - 'https://mblaine.github.io/Diamonds/images/Diamonds_Level_16_Tidal_Wave.png'
   - 'https://mblaine.github.io/Diamonds/images/Diamonds_Level_26_Tresspass.png'
 
+- name: Diamonds 2.0
+  originals:
+  - Diamonds
+  type: clone
+  repo: 'https://www.hpcalc.org/details/484'
+  url: 'https://web.archive.org/web/20040321110610/http://www.geocities.com/SiliconValley/Heights/5888/#:~:text=Diamonds%202.0'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - WTFPL
+  added: 2026-03-27
+  updated: 2026-03-27
+  images:
+  - 'https://www.oocities.org/doug_cannon/diamlogo.gif'
+  - 'https://www.oocities.org/doug_cannon/diam20.gif'
+  - 'https://www.hpcalc.org/hp48/games/arcade/sshots/diam20a.gif'
+
+- name: Diamonds 38
+  originals:
+  - Diamonds
+  type: clone
+  repo: >-
+    https://web.archive.org/web/20040321110610/http://www.geocities.com/SiliconValley/Heights/5888/#:~:text=Diamonds%2038
+  url: >-
+    https://web.archive.org/web/20020612084215/https://www.epita.fr/~avenar_j/hp/38.html#:~:text=Diamonds
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  - C
+  licenses:
+  - As-is
+  info: Based on Diamonds 2.0
+  added: 2026-04-07
+  updated: 2026-04-07
+  images:
+  - 'https://www.oocities.org/doug_cannon/diam38.gif'
+
 - name: Diddy Kong Racing
   originals:
   - Diddy Kong Racing
@@ -1186,39 +1226,6 @@
   images:
   - https://github.com/lutzroeder/digger/raw/main/.github/screenshot.png
 
-- name: Digger Mobile Edition
-  originals:
-  - Digger
-  type: clone
-  repo: 'https://github.com/6xhhs/digger-me'
-  development: halted
-  status: playable
-  langs:
-  - Java
-  licenses:
-  - GPL3
-  info: Based on the Java port Digger Remastered project.
-  added: 2025-11-26
-  updated: 2025-11-26
-  images:
-  - https://raw.githubusercontent.com/6xhhs/digger-me/master/IMG_2857.JPG
-
-- name: Digger Remastered
-  langs:
-  - C
-  licenses:
-  - GPL2
-  development: halted
-  originals:
-  - Digger
-  repo: https://digger.org/download.html
-  status: playable
-  type: remake
-  url: https://digger.org/
-  updated: 2020-08-25
-  images:
-  - https://www.retrogames.cz/games/973/DOS_03.gif
-
 - name: digger-cs
   originals:
   - Digger
@@ -1277,6 +1284,23 @@
   images:
   - 'https://raw.githubusercontent.com/xafero/digger-kt/main/wiki/screenshot1.png'
 
+- name: Digger Mobile Edition
+  originals:
+  - Digger
+  type: clone
+  repo: 'https://github.com/6xhhs/digger-me'
+  development: halted
+  status: playable
+  langs:
+  - Java
+  licenses:
+  - GPL3
+  info: Based on the Java port Digger Remastered project.
+  added: 2025-11-26
+  updated: 2025-11-26
+  images:
+  - https://raw.githubusercontent.com/6xhhs/digger-me/master/IMG_2857.JPG
+
 - name: digger-py
   originals:
   - Digger
@@ -1294,6 +1318,22 @@
   updated: 2026-02-25
   images:
   - 'https://raw.githubusercontent.com/xafero/digger-py/main/wiki/screenshot1.png'
+
+- name: Digger Remastered
+  langs:
+  - C
+  licenses:
+  - GPL2
+  development: halted
+  originals:
+  - Digger
+  repo: https://digger.org/download.html
+  status: playable
+  type: remake
+  url: https://digger.org/
+  updated: 2020-08-25
+  images:
+  - https://www.retrogames.cz/games/973/DOS_03.gif
 
 - name: digger-swift
   originals:
@@ -1478,6 +1518,20 @@
   added: 2025-12-08
   updated: 2025-12-08
 
+- name: Disassembly of Boulder Dash for the BBC Micro
+  originals:
+  - Boulder Dash
+  type: remake
+  repo: 'https://github.com/TobyLobster/Boulderdash'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-09
+  updated: 2026-04-09
+
 - name: div-columns
   frameworks:
   - DIV Games Studio
@@ -1584,6 +1638,24 @@
   - Unlicense
   added: 2025-12-05
   updated: 2025-12-05
+
+- name: DKC2-disassembly
+  originals:
+  - Donkey Kong Country 2
+  type: remake
+  repo: 'https://github.com/p4plus2/DKC2-disassembly'
+  development: halted
+  status: playable
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Reverse engineering of the SNES game Donkey Kong Country 2
+  added: 2026-03-31
+  updated: 2026-03-31
 
 - name: DM48
   originals:
@@ -1753,6 +1825,21 @@
   - >-
     https://web.archive.org/web/20160531044525im_/http://www.losersjuegos.com.ar/_media//thumbs/juegos/ceferino/capturas/ceferino_03.jpg
 
+- name: donald-ducks-playground
+  originals:
+  - Donald Duck's Playground
+  type: official
+  repo: 'https://github.com/historicalsource/donald-ducks-playground'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - AGI
+  licenses:
+  - As-is
+  added: 2026-03-10
+  updated: 2026-03-10
+
 - name: Donald Land (NES) Disassembly
   originals:
   - Donald Land
@@ -1770,21 +1857,6 @@
   images:
   - 'https://i.imgur.com/ISqTEpt.png'
   - 'https://i.imgur.com/mL2Ez8f.png'
-
-- name: donald-ducks-playground
-  originals:
-  - Donald Duck's Playground
-  type: official
-  repo: 'https://github.com/historicalsource/donald-ducks-playground'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - AGI
-  licenses:
-  - As-is
-  added: 2026-03-10
-  updated: 2026-03-10
 
 - name: Donkey Kong
   originals:
@@ -1806,37 +1878,22 @@
   - 'https://tcrf.net/images/c/cc/DK_a8_title-screen-prototype-mockup.png'
   - 'https://tcrf.net/images/3/35/DK_a8_offscreen-hammer-screenshot-2.png'
 
-- name: Donkey Kong Disassembly
+- name: donkey kong (Amiga)
   originals:
   - Donkey Kong
   type: remake
-  repo: 'https://www.qotile.net/minidig/disassembly/dk.asm'
-  url: 'https://www.biglist.com/lists/stella/archives/200311/msg00160.html'
-  development: complete
+  repo: 'https://github.com/jotd666/donkey_kong'
+  development: sporadic
   status: playable
+  content: commercial
   langs:
   - Assembly
+  - C
   licenses:
   - As-is
-  added: 2025-10-31
-  updated: 2025-10-31
-
-- name: DONKEY.BAS
-  originals:
-  - Donkey
-  type: official
-  repo: 'https://github.com/philspil66/DONKEY.BAS'
-  url: 'https://gamicus.fandom.com/wiki/DONKEY.BAS'
-  development: complete
-  status: playable
-  langs:
-  - BASIC
-  licenses:
-  - As-is
-  added: 2026-02-04
-  updated: 2026-02-04
-  images:
-  - https://blog.codinghorror.com/content/images/uploads/2007/05/6a0120a85dcdae970b0120a86d9759970b-pi.gif
+  info: Remake of Donkey Kong for Amiga
+  added: 2026-04-04
+  updated: 2026-04-04
 
 - name: donkey_kong_arcade
   originals:
@@ -1862,6 +1919,78 @@
   video:
     youtube: Hm3gQ7G5vNY
 
+- name: Donkey-Kong-Country-1-Disassembly
+  originals:
+  - Donkey Kong Country
+  type: remake
+  repo: 'https://github.com/Yoshifanatic1/Donkey-Kong-Country-1-Disassembly'
+  feed: >-
+    https://github.com/Yoshifanatic1/Donkey-Kong-Country-1-Disassembly/releases.atom
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Hotseat
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-01
+  updated: 2026-04-01
+
+- name: Donkey-Kong-Country-2-Disassembly
+  originals:
+  - Donkey Kong Country 2
+  type: remake
+  repo: 'https://github.com/Yoshifanatic1/Donkey-Kong-Country-2-Disassembly'
+  feed: >-
+    https://github.com/Yoshifanatic1/Donkey-Kong-Country-2-Disassembly/releases.atom
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - GPL3
+  added: 2026-04-01
+  updated: 2026-04-01
+
+- name: Donkey-Kong-Country-3-Disassembly
+  originals:
+  - Donkey Kong Country 3
+  type: remake
+  repo: 'https://github.com/Yoshifanatic1/Donkey-Kong-Country-3-Disassembly'
+  feed: >-
+    https://github.com/Yoshifanatic1/Donkey-Kong-Country-3-Disassembly/releases.atom
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Hotseat
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-01
+  updated: 2026-04-01
+
+- name: Donkey Kong Disassembly
+  originals:
+  - Donkey Kong
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/dk.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200311/msg00160.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2025-10-31
+  updated: 2025-10-31
+
 - name: Donkey-Kong-NES-Disassembly
   originals:
   - Donkey Kong
@@ -1879,6 +2008,23 @@
   info: A disassembly of Donkey Kong Arcade game minus the cement factory.
   added: 2026-02-08
   updated: 2026-02-08
+
+- name: DONKEY.BAS
+  originals:
+  - Donkey
+  type: official
+  repo: 'https://github.com/philspil66/DONKEY.BAS'
+  url: 'https://gamicus.fandom.com/wiki/DONKEY.BAS'
+  development: complete
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  added: 2026-02-04
+  updated: 2026-02-04
+  images:
+  - https://blog.codinghorror.com/content/images/uploads/2007/05/6a0120a85dcdae970b0120a86d9759970b-pi.gif
 
 - name: DonkeyInTrouble
   frameworks:
@@ -1938,128 +2084,6 @@
   - https://images.ctfassets.net/rporu91m20dc/6GnydS4hyMGHkl8X4kfzHn/c66f37c406328205837639d65f7246de/doom-doom_classic-doom_1993_6_non_mobile_only-png?q=70&fm=webp
   video: 
     youtube: yr-lQZzevwA
-
-- name: Doom 3
-  originals:
-  - Doom 3
-  type: official
-  repo: 'https://github.com/TTimo/doom3.gpl'
-  url: 'https://web.archive.org/web/20121024200133/https://ttimo.github.com/doom3.gpl/'
-  development: complete
-  status: playable
-  multiplayer:
-  - Competitive
-  - Online
-  - LAN
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - OpenAL
-  - id Tech 4
-  licenses:
-  - GPL3
-  added: 2025-11-28
-  updated: 2025-11-28
-
-- name: Doom Classic for iOS
-  info: iOS
-  langs:
-  - C
-  licenses:
-  - GPL2
-  content: commercial
-  development: complete
-  originals:
-  - Doom
-  status: playable
-  repo: https://github.com/id-Software/DOOM-IOS2
-  type: official
-  updated: 2022-05-19
-
-- name: Doom Legacy
-  images:
-  - https://doomlegacy.sourceforge.net/images/legacy/multibf1.gif
-  - https://doomlegacy.sourceforge.net/images/legacy/3dfx.gif
-  langs:
-  - C++
-  licenses:
-  - GPL2
-  development: active
-  originals:
-  - Doom
-  - Heretic
-  - Hexen
-  repo: https://sourceforge.net/projects/doomlegacy/
-  status: playable
-  type: remake
-  updated: 2014-08-20
-  url: http://doomlegacy.sourceforge.net/
-
-- name: DOOM Retro
-  type: remake
-  originals:
-  - Doom
-  repo: https://github.com/bradharding/doomretro
-  feed: https://github.com/bradharding/doomretro/releases.atom
-  url: https://www.doomretro.com/
-  development: very active
-  status: playable
-  langs:
-  - C
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL3
-  content: commercial
-  updated: 2024-02-06
-  images:
-  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot1.png
-  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot2.png
-  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot3.png
-  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot4.png
-
-- name: DOOM-3-BFG
-  originals:
-  - Doom 3
-  type: official
-  repo: 'https://github.com/id-Software/DOOM-3-BFG'
-  url: 'https://archive.org/details/doom-3-bfg-master'
-  development: complete
-  status: playable
-  multiplayer:
-  - Competitive
-  - Online
-  - LAN
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - DirectX
-  - OpenGL
-  - id Tech 4
-  licenses:
-  - GPL3
-  info: Doom 3 BFG Edition.
-  added: 2025-12-29
-  updated: 2025-12-29
-
-- name: DOOM-FX
-  originals:
-  - Doom
-  type: official
-  repo: 'https://github.com/RandalLinden/DOOM-FX'
-  url: >-
-    https://www.pcgamer.com/source-code-for-the-snes-version-of-doom-has-been-released/
-  development: complete
-  status: playable
-  content: commercial
-  langs:
-  - Assembly
-  licenses:
-  - GPL3
-  added: 2026-01-16
-  updated: 2026-01-16
 
 - name: doom3do
   originals:
@@ -2140,6 +2164,200 @@
   images:
   - https://www.calculatorti.com/media/images/programs/doom.jpg
   - https://web.archive.org/web/20061205064110im_/http://doom83.free.fr/images/doom.gif
+
+- name: Doom89
+  originals:
+  - Doom
+  type: clone
+  url: 'http://tifreakware.net/atg/doom89.html'
+  development: complete
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - FAT-Engine
+  licenses:
+  - GPL3
+  added: 2026-03-21
+  updated: 2026-03-21
+  images:
+  - https://web.archive.org/web/20260320164757/http://tifreakware.net/atg/wpimages/wp261702a5.gif
+  - https://web.archive.org/web/20260320165319/http://tifreakware.net/atg/wpimages/wp2a0d7f71.gif
+  - https://web.archive.org/web/20260320164758/http://tifreakware.net/atg/wpimages/wpe30f311f.gif
+  - https://web.archive.org/web/20260319181616im_/http://tifreakware.net/atg/wpimages/wp12b419e1.gif
+  - https://web.archive.org/web/20260320165355/http://tifreakware.net/atg/wpimages/wpe3478cba.gif
+  - https://web.archive.org/web/20260320165401/http://tifreakware.net/atg/wpimages/wp6f71ccb4.gif
+  - https://web.archive.org/web/20260320165410/http://tifreakware.net/atg/wpimages/wpf6d13bc7.gif
+  - https://web.archive.org/web/20260320165411/http://tifreakware.net/atg/wpimages/wpdd33b399.gif
+
+- name: Doom 3
+  originals:
+  - Doom 3
+  type: official
+  repo: 'https://github.com/TTimo/doom3.gpl'
+  url: 'https://web.archive.org/web/20121024200133/https://ttimo.github.com/doom3.gpl/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OpenAL
+  - id Tech 4
+  licenses:
+  - GPL3
+  added: 2025-11-28
+  updated: 2025-11-28
+
+- name: DOOM-3-BFG
+  originals:
+  - Doom 3
+  type: official
+  repo: 'https://github.com/id-Software/DOOM-3-BFG'
+  url: 'https://archive.org/details/doom-3-bfg-master'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  - OpenGL
+  - id Tech 4
+  licenses:
+  - GPL3
+  info: Doom 3 BFG Edition.
+  added: 2025-12-29
+  updated: 2025-12-29
+
+- name: Doom 64 EX+
+  originals:
+  - Doom 64
+  type: remake
+  repo: 'https://github.com/atsb/Doom64EX-Plus'
+  feed: 'https://github.com/atsb/Doom64EX-Plus/releases.atom'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  - SDL3
+  - FMOD
+  - .NET
+  licenses:
+  - Custom
+  info: An improved modern version of Doom64EX.
+  added: 2026-03-26
+  updated: 2026-03-26
+
+- name: Doom 64 for Dreamcast
+  originals:
+  - Doom 64
+  type: remake
+  repo: 'https://github.com/jnmartin84/doom64-dc/'
+  development: very active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Doom 64 port for Sega Dreamcast / KallistiOS
+  added: 2026-04-04
+  updated: 2026-04-04
+  images:
+  - https://raw.githubusercontent.com/jnmartin84/doom64-dc/main/images/doom64_6373.png
+  - https://raw.githubusercontent.com/jnmartin84/doom64-dc/main/images/doom64_18853.png
+  - https://raw.githubusercontent.com/jnmartin84/doom64-dc/main/images/doom64_1351.png
+  - https://raw.githubusercontent.com/jnmartin84/doom64-dc/main/images/doom64_30473.png
+  - https://raw.githubusercontent.com/jnmartin84/doom64-dc/main/images/doom64_34467.png
+  - https://raw.githubusercontent.com/jnmartin84/doom64-dc/main/images/doom64_4528.png
+  - https://raw.githubusercontent.com/jnmartin84/doom64-dc/main/images/doom64_4740.png
+  - https://raw.githubusercontent.com/jnmartin84/doom64-dc/main/images/doom64_4747.png
+
+- name: Doom Classic for iOS
+  info: iOS
+  langs:
+  - C
+  licenses:
+  - GPL2
+  content: commercial
+  development: complete
+  originals:
+  - Doom
+  status: playable
+  repo: https://github.com/id-Software/DOOM-IOS2
+  type: official
+  updated: 2022-05-19
+
+- name: DOOM-FX
+  originals:
+  - Doom
+  type: official
+  repo: 'https://github.com/RandalLinden/DOOM-FX'
+  url: >-
+    https://www.pcgamer.com/source-code-for-the-snes-version-of-doom-has-been-released/
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - GPL3
+  added: 2026-01-16
+  updated: 2026-01-16
+
+- name: Doom Legacy
+  images:
+  - https://doomlegacy.sourceforge.net/images/legacy/multibf1.gif
+  - https://doomlegacy.sourceforge.net/images/legacy/3dfx.gif
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  development: active
+  originals:
+  - Doom
+  - Heretic
+  - Hexen
+  repo: https://sourceforge.net/projects/doomlegacy/
+  status: playable
+  type: remake
+  updated: 2014-08-20
+  url: http://doomlegacy.sourceforge.net/
+
+- name: DOOM Retro
+  type: remake
+  originals:
+  - Doom
+  repo: https://github.com/bradharding/doomretro
+  feed: https://github.com/bradharding/doomretro/releases.atom
+  url: https://www.doomretro.com/
+  development: very active
+  status: playable
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  content: commercial
+  updated: 2024-02-06
+  images:
+  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot1.png
+  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot2.png
+  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot3.png
+  - https://raw.githubusercontent.com/bradharding/www.doomretro.com/master/wiki/screenshot4.png
 
 - name: Doomsday Engine
   langs:
@@ -2375,6 +2593,26 @@
   video:
     youtube: KvAJCrdhrrQ
 
+- name: Dragon Alpha
+  originals:
+  - Dragon Alpha
+  type: official
+  repo: 'https://github.com/jaredplumb/Dragon-Alpha'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - GameSprockets
+  - Carbon
+  licenses:
+  - MIT
+  info: >-
+    Will likely not compile on current macOS versions because of the use of
+    discontinued libraries
+  updated: '2023-12-08'
+
 - name: dragon-warrior-disassembly
   originals:
   - Dragon Quest
@@ -2487,6 +2725,20 @@
   - https://atariage.com/2600/archives/source/Dragonfire_source/Dragonfire_Shot.png
   - https://www.atarimania.com/2600/screens/dragonfire.gif
 
+- name: Dragster-Disassembly
+  originals:
+  - Dragster
+  type: remake
+  repo: 'https://github.com/CelestialAmber/Dragster-Disassembly'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-03-26
+  updated: 2026-03-26
+
 - name: dRally
   type: remake
   originals:
@@ -2552,26 +2804,6 @@
   video:
     youtube: bGx5Oa4G2so
 
-- name: Dragon Alpha
-  originals:
-  - Dragon Alpha
-  type: official
-  repo: 'https://github.com/jaredplumb/Dragon-Alpha'
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - C++
-  frameworks:
-  - GameSprockets
-  - Carbon
-  licenses:
-  - MIT
-  info: >-
-    Will likely not compile on current macOS versions because of the use of
-    discontinued libraries
-  updated: '2023-12-08'
-
 - name: DRL
   originals:
   - Doom
@@ -2624,7 +2856,23 @@
   video:
     youtube: HsZDPbNd0g4
 
-- name: DrugWars
+- name: drugwars
+  originals:
+  - Drugwars
+  type: clone
+  repo: 'https://github.com/snemvalts/drugwars.js'
+  development: halted
+  status: unplayable
+  langs:
+  - JavaScript
+  licenses:
+  - As-is
+  info: >-
+    A port of the TI calculator game Drugwars, including the original BASIC source.
+  added: 2026-03-22
+  updated: 2026-03-22
+
+- name: DrugWars (HP Calculator)
   originals:
   - Drugwars
   type: clone
@@ -2875,6 +3123,21 @@
   - https://media.invisioncic.com/r322239/monthly_09_2012/post-21935-0-04260300-1349030826.png
   - https://media.invisioncic.com/r322239/monthly_09_2012/post-21935-0-36113900-1349030840.png
 
+- name: DuckTales2 full disassembly
+  originals:
+  - DuckTales 2
+  type: remake
+  url: 'https://www.romhacking.net/documents/725/'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-09
+  updated: 2026-04-09
+
 - name: DuckTales (Game Boy) Disassembly
   originals:
   - DuckTales
@@ -2909,6 +3172,80 @@
   updated: 2025-10-04
   images:
   - https://raw.githubusercontent.com/alezost/ducpel/refs/heads/master/pic/screenshot.png
+
+- name: Duke3D
+  type: remake
+  originals:
+  - Duke Nukem 3D
+  repo: https://svn.icculus.org/duke3d/trunk/
+  url: https://icculus.org/duke3d/
+  development: halted
+  status: playable
+  multiplayer:
+  - LAN
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - Custom
+  content: commercial
+  updated: 2020-01-07
+  images:
+  - https://icculus.org/duke3d/2003_04_03_150737_shot.jpg
+
+- name: Duke3d_win32
+  type: remake
+  originals:
+  - Duke Nukem 3D
+  repo: http://www.rancidmeat.com/projects/duke3d_w32/duke3d_w32_b20_src.zip
+  url: http://www.rancidmeat.com/project.php3?id=1
+  development: halted
+  status: playable
+  multiplayer:
+  - LAN
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - Custom
+  content: commercial
+  updated: 2020-01-07
+  images:
+  - https://www.rancidmeat.com/screenshots/duke3d/duke3d_w32_desktop2.png
+  - https://www.rancidmeat.com/screenshots/duke3d/hollywood.png
+
+- name: Duke3dw
+  originals:
+  - Duke Nukem 3D
+  type: remake
+  url: 'http://www.proasm.com/duke/duke3dw.html'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-08-05
+  updated: 2025-08-05
+
+- name: Duke64-RE
+  originals:
+  - Duke Nukem 3D
+  type: remake
+  repo: 'https://github.com/NBlood/Duke64-RE'
+  development: sporadic
+  status: unplayable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Duke Nukem 64 decompilation
+  added: 2026-04-04
+  updated: 2026-04-04
 
 - name: Duke 2 Reconstructed
   originals:
@@ -2992,64 +3329,6 @@
   added: 2025-10-26
   updated: 2025-10-26
 
-- name: Duke3D
-  type: remake
-  originals:
-  - Duke Nukem 3D
-  repo: https://svn.icculus.org/duke3d/trunk/
-  url: https://icculus.org/duke3d/
-  development: halted
-  status: playable
-  multiplayer:
-  - LAN
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - Custom
-  content: commercial
-  updated: 2020-01-07
-  images:
-  - https://icculus.org/duke3d/2003_04_03_150737_shot.jpg
-
-- name: Duke3d_win32
-  type: remake
-  originals:
-  - Duke Nukem 3D
-  repo: http://www.rancidmeat.com/projects/duke3d_w32/duke3d_w32_b20_src.zip
-  url: http://www.rancidmeat.com/project.php3?id=1
-  development: halted
-  status: playable
-  multiplayer:
-  - LAN
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - Custom
-  content: commercial
-  updated: 2020-01-07
-  images:
-  - https://www.rancidmeat.com/screenshots/duke3d/duke3d_w32_desktop2.png
-  - https://www.rancidmeat.com/screenshots/duke3d/hollywood.png
-
-- name: Duke3dw
-  originals:
-  - Duke Nukem 3D
-  type: remake
-  url: 'http://www.proasm.com/duke/duke3dw.html'
-  development: halted
-  status: playable
-  content: commercial
-  langs:
-  - C
-  licenses:
-  - GPL2
-  added: 2025-08-05
-  updated: 2025-08-05
-
 - name: DukeGDX
   originals:
   - Duke Nukem 3D
@@ -3105,26 +3384,6 @@
   video:
     youtube: d4So2p189JQ
 
-- name: Dune II - The Maker
-  originals:
-  - Dune 2
-  type: remake
-  repo: 'https://github.com/stefanhendriks/Dune-II---The-Maker'
-  url: 'https://dune2themaker.fundynamic.com'
-  feed: https://dune2themaker.fundynamic.com/feed/
-  development: halted
-  status: playable
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - Allegro
-  licenses:
-  - As-is
-  updated: 2024-02-10
-  video:
-    youtube: zWqR0cDDiiU
-
 - name: Dune 2 - The Maker - Java version
   langs:
   - Java
@@ -3157,6 +3416,26 @@
   url: http://dunedynasty.sourceforge.net/
   feed: https://github.com/gameflorist/dunedynasty/releases.atom
   info: continuation of the abandoned sourceforge project by David Wang
+
+- name: Dune II - The Maker
+  originals:
+  - Dune 2
+  type: remake
+  repo: 'https://github.com/stefanhendriks/Dune-II---The-Maker'
+  url: 'https://dune2themaker.fundynamic.com'
+  feed: https://dune2themaker.fundynamic.com/feed/
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  updated: 2024-02-10
+  video:
+    youtube: zWqR0cDDiiU
 
 - name: Dune Legacy
   info: Updated clone which uses data files from the original game. New features include multiple unit selection/control, high resolution support, multiplayer gaming, improved gui and a selection of new AIs to play against.
@@ -3241,8 +3520,12 @@
   - Eye of the Beholder II
   status: playable
   repo: https://github.com/iliak/dungeoneye
+  url: https://web.archive.org/web/20211208155209/http://www.dungeoneye.net/
   type: remake
-  updated: 2021-07-06
+  added: 2013-05-27
+  updated: 2026-03-19
+  images:
+  - https://web.archive.org/web/20210714130307if_/https://www.dungeoneye.net/static/img/screenshots/ingame_001.png
 
 - name: Dungeon Master DS
   originals:
@@ -3305,21 +3588,6 @@
   images:
   - https://web.archive.org/web/20260106191316if_/http://dmweb.free.fr/files/Clone,Dungeon_Master_Qt,Windows,Screenshot.png
 
-- name: DungeonMaster
-  langs:
-  - C#
-  frameworks:
-  - .NET
-  licenses:
-  - As-is
-  development: halted
-  originals:
-  - Dungeon Master
-  status: unplayable
-  repo: https://github.com/ggrrin/DungeonMaster
-  type: remake
-  updated: 2022-07-02
-
 - name: Dungeon of Quake
   langs:
   - Odin
@@ -3369,24 +3637,20 @@
   video:
     youtube: 9oP9RvOxK5g
 
-- name: Dungeons of Daggorath
-  originals:
-  - Dungeons of Daggorath
-  type: official
-  repo: 'https://github.com/MichaelSpencerJr/DungeonsOfDaggorath'
-  url: >-
-    https://web.archive.org/web/20100911041306/http://www.armchairarcade.com/neo/node/900
-  development: complete
-  status: playable
+- name: DungeonMaster
   langs:
-  - Assembly
+  - C#
+  frameworks:
+  - .NET
   licenses:
-  - Custom
-  added: 2025-11-26
-  updated: 2025-11-26
-  images:
-  - https://web.archive.org/web/20160131000301if_/http://www.armchairarcade.com/neo/files/images/dungeons.preview.png
-  - https://web.archive.org/web/20160131000307if_/http://www.armchairarcade.com/neo/files/images/coco0001.preview.png
+  - As-is
+  development: halted
+  originals:
+  - Dungeon Master
+  status: unplayable
+  repo: https://github.com/ggrrin/DungeonMaster
+  type: remake
+  updated: 2022-07-02
 
 - name: Dungeons Of Daggorath
   originals:
@@ -3429,6 +3693,25 @@
   - 'https://gbatemp.net/attachments/cover-png.201117/'
   - 'https://gbatemp.net/attachments/screenshot1-png.201120/'
   - 'https://gbatemp.net/attachments/screenshot2-png.201121/'
+
+- name: Dungeons of Daggorath (Original source code)
+  originals:
+  - Dungeons of Daggorath
+  type: official
+  repo: 'https://github.com/MichaelSpencerJr/DungeonsOfDaggorath'
+  url: >-
+    https://web.archive.org/web/20100911041306/http://www.armchairarcade.com/neo/node/900
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - Custom
+  added: 2025-11-26
+  updated: 2025-11-26
+  images:
+  - https://web.archive.org/web/20160131000301if_/http://www.armchairarcade.com/neo/files/images/dungeons.preview.png
+  - https://web.archive.org/web/20160131000307if_/http://www.armchairarcade.com/neo/files/images/coco0001.preview.png
 
 - name: Dungeons of Daggorath PC-Port
   originals:

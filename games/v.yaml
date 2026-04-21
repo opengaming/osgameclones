@@ -1,3 +1,21 @@
+- name: v64tng
+  originals:
+  - The 7th Guest
+  type: remake
+  repo: 'https://github.com/mattseabrook/v64tng'
+  development: sporadic
+  status: semi-playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Vulkan
+  - DirectX
+  licenses:
+  - MIT
+  added: 2026-04-02
+  updated: 2026-04-02
+
 - name: Van Buren Project
   images:
   - https://media.indiedb.com/images/games/1/24/23884/post13_1_zps746064ba.png
@@ -18,6 +36,30 @@
   status: unplayable
   frameworks:
   - NeoAxis Engine
+
+- name: Vange-rs
+  originals:
+  - Vangers
+  type: remake
+  repo: 'https://github.com/kvark/vange-rs'
+  url: 'https://vange.rs'
+  feed: 'https://github.com/kvark/vange-rs/releases.atom'
+  development: sporadic
+  status: unplayable
+  content: commercial
+  langs:
+  - Rust
+  licenses:
+  - Apache
+  added: 2023-06-04
+  updated: 2023-06-04
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMTE3MTc1NC82ODIxODgxLnBuZw==/original/PK6Iqa.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTE3MTc1NC82ODIxODkxLnBuZw==/original/5P7D6J.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTE3MTc1NC82ODIxODk1LnBuZw==/original/mZ7ZU5.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTE3MTc1NC82ODIxODk3LnBuZw==/original/DTJpEX.png'
+  video:
+    vimeo: 591958148
 
 - name: Vangers
   originals:
@@ -44,30 +86,6 @@
     https://images.gog-statics.com/8db802965a04a96fcd9c90f3d1a8616482c1908f024cfe74a82170fe4f93aefb.jpg
   video:
     youtube: 7QDNhZeQk-s
-
-- name: Vange-rs
-  originals:
-  - Vangers
-  type: remake
-  repo: 'https://github.com/kvark/vange-rs'
-  url: 'https://vange.rs'
-  feed: 'https://github.com/kvark/vange-rs/releases.atom'
-  development: sporadic
-  status: unplayable
-  content: commercial
-  langs:
-  - Rust
-  licenses:
-  - Apache
-  added: 2023-06-04
-  updated: 2023-06-04
-  images:
-  - 'https://img.itch.zone/aW1hZ2UvMTE3MTc1NC82ODIxODgxLnBuZw==/original/PK6Iqa.png'
-  - 'https://img.itch.zone/aW1hZ2UvMTE3MTc1NC82ODIxODkxLnBuZw==/original/5P7D6J.png'
-  - 'https://img.itch.zone/aW1hZ2UvMTE3MTc1NC82ODIxODk1LnBuZw==/original/mZ7ZU5.png'
-  - 'https://img.itch.zone/aW1hZ2UvMTE3MTc1NC82ODIxODk3LnBuZw==/original/DTJpEX.png'
-  video:
-    vimeo: 591958148
 
 - name: Vanilla-Conquer
   langs:
@@ -182,6 +200,23 @@
   added: 2011-06-01
   updated: 2024-05-05
 
+- name: Vecalabeth
+  originals:
+  - 'Akalabeth: World of Doom'
+  type: remake
+  url: 'https://akalabeth.ultimacodex.com/vecalabeth/'
+  development: halted
+  status: playable
+  langs:
+  - BASIC
+  licenses:
+  - As-is
+  info: A port of Akalabeth for the Vectrex32 game cartridge.
+  added: 2026-04-08
+  updated: 2026-04-08
+  images:
+  - 'https://i0.wp.com/akalabeth.ultimacodex.com/files/2018/09/vecalabeth.jpg'
+
 - name: Vectoroids
   images:
   - https://www.mobygames.com/images/shots/l/326334-vectoroids-browser-screenshot-starting-screen.png
@@ -202,9 +237,27 @@
   - Asteroids
   status: playable
   type: remake
-  updated: 2022-05-03
+  added: 2015-04-07
+  updated: 2026-03-13
   url: http://www.newbreedsoftware.com/vectoroids/
-  
+  repo: https://github.com/midzer/vectoroids
+  video:
+    youtube: ISVTXkaviVM
+
+- name: Vectrex-Minestorm
+  originals:
+  - Mine Storm
+  type: remake
+  repo: 'https://github.com/philspil66/Vectrex-Minestorm'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-03-17
+  updated: 2026-03-17
+
 - name: Vega Strike
   type: similar
   originals:

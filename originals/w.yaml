@@ -265,6 +265,16 @@
     - Arcade
     - Platform
 
+- name: Wing Commander series
+  external:
+    wikipedia: Wing Commander (franchise)
+  meta:
+    genres:
+    - Action
+    - Simulation
+    themes:
+    - Sci-Fi
+
 - name: 'Wing Commander: Privateer'
   external:
     wikipedia: 'Wing Commander: Privateer'
@@ -272,16 +282,6 @@
     genres:
     - Action
     - Adventure
-    - Simulation
-    themes:
-    - Sci-Fi
-
-- name: Wing Commander series
-  external:
-    wikipedia: Wing Commander (franchise)
-  meta:
-    genres:
-    - Action
     - Simulation
     themes:
     - Sci-Fi
@@ -406,6 +406,25 @@
   meta:
     genres:
     - RPG
+
+- name: 'Wizardry III: Legacy of Llylgamyn'
+  external:
+    website: >-
+      https://www.mobygames.com/game/3984/wizardry-legacy-of-llylgamyn-the-third-scenario/
+    wikipedia: 'Wizardry III: Legacy of Llylgamyn'
+  platforms:
+  - Apple II
+  - Commodore 64
+  - Game Boy
+  - MSX
+  - NES
+  - PC Booter
+  - PC-98
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
 
 - name: 'Wizardry V: Heart of the Maelstrom'
   external:

@@ -1,23 +1,3 @@
-- name: B.O.B.
-  external:
-    website: 'https://www.mobygames.com/game/11625/bob/'
-    wikipedia: B.O.B. (video game)
-  platforms:
-  - SNES
-  meta:
-    genres:
-    - Platform
-    - Shooter
-    themes:
-    - Sci-Fi
-
-- name: Babaliba
-  external:
-    wikipedia: Dinamic Software
-  meta:
-    genres:
-    - Arcade
-
 - name: Baba Is You
   external:
     website: 'https://www.hempuli.com/baba/'
@@ -32,6 +12,24 @@
   meta:
     genres:
     - Puzzle
+
+- name: Babaliba
+  external:
+    wikipedia: Dinamic Software
+  meta:
+    genres:
+    - Arcade
+
+- name: Back to Skool
+  external:
+    website: 'https://www.mobygames.com/game/15801/back-to-skool/'
+    wikipedia: Back to Skool
+  platforms:
+  - iOS
+  - ZX Spectrum
+  meta:
+    genres:
+    - Platform
 
 - name: Backyard Baseball
   names:
@@ -63,6 +61,16 @@
   platforms:
   - Classic Mac OS
   - Windows
+
+- name: Bagman
+  external:
+    website: 'https://www.arcade-museum.com/Videogame/bagman'
+    wikipedia: Bagman (video game)
+  platforms:
+  - Arcade
+  meta:
+    genres:
+    - Platform
 
 - name: Balance of Power
   names:
@@ -177,6 +185,18 @@
     themes:
     - Abstract
 
+- name: Banjo-Kazooie
+  external:
+    website: >-
+      https://web.archive.org/web/19991010052508/http://www.banjo-kazooie.com/intro/
+    wikipedia: Banjo-Kazooie (video game)
+  platforms:
+  - N64
+  meta:
+    genres:
+    - Adventure
+    - Platform
+
 - name: 'Barbarian: The Ultimate Warrior'
   external:
     wikipedia: 'Barbarian: The Ultimate Warrior'
@@ -235,6 +255,18 @@
     genres:
     - RPG
 
+- name: 'Barkley, Shut Up and Jam: Gaiden'
+  external:
+    website: >-
+      https://web.archive.org/web/20220907045310/https://www.talesofgames.com/related_game/barkley-shut-up-jam-gaiden/
+    wikipedia: 'Barkley, Shut Up and Jam: Gaiden'
+  platforms:
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - RPG
+
 - name: Barony
   external:
     website: http://www.baronygame.com/
@@ -249,6 +281,15 @@
     - Action RPG
     themes:
     - Fantasy
+
+- name: Barrack
+  external:
+    website: https://macintoshgarden.org/games/barrack
+  platforms:
+  - Classic Mac OS
+  meta:
+    genres:
+    - Arcade
 
 - name: Batman Returns
   external:
@@ -1064,6 +1105,19 @@
     subgenres:
     - Board Game
 
+- name: B.O.B.
+  external:
+    website: 'https://www.mobygames.com/game/11625/bob/'
+    wikipedia: B.O.B. (video game)
+  platforms:
+  - SNES
+  meta:
+    genres:
+    - Platform
+    - Shooter
+    themes:
+    - Sci-Fi
+
 - name: Bobby Carrot
   external:
     wikipedia: Bobby Carrot
@@ -1170,6 +1224,20 @@
     - Arcade
     - Puzzle
 
+- name: Bounty Bob Strikes Back!
+  external:
+    website: 'https://www.mobygames.com/game/11332/bounty-bob-strikes-back/'
+    wikipedia: Bounty Bob Strikes Back!
+  platforms:
+  - Amstrad CPC
+  - Atari
+  - Commodore 64
+  - ZX Spectrum
+  meta:
+    genres:
+    - Action
+    - Platform
+
 - name: Box World
   external:
     website: 'https://www.mobygames.com/game/130315/box-world/'
@@ -1247,6 +1315,30 @@
     genres:
     - Puzzle
 
+- name: 'Broken Sword 2.5: The Return of the Templars'
+  external:
+    website: http://www.brokensword25.com
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Point and click
+  platforms:
+  - Windows
+
+- name: 'Broken Sword II: The Smoking Mirror'
+  external:
+    website: https://www.mobygames.com/game/1133
+    wikipedia: 'Broken Sword II: The Smoking Mirror'
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Point and click
+  platforms:
+  - PlayStation
+  - Windows
+
 - name: 'Broken Sword: The Shadow of the Templars'
   names:
   - Circle of Blood
@@ -1264,30 +1356,6 @@
   - GBA
   - Mobile
   - PlayStation
-  - Windows
-
-- name: 'Broken Sword II: The Smoking Mirror'
-  external:
-    website: https://www.mobygames.com/game/1133
-    wikipedia: 'Broken Sword II: The Smoking Mirror'
-  meta:
-    genres:
-    - Adventure
-    subgenres:
-    - Point and click
-  platforms:
-  - PlayStation
-  - Windows
-
-- name: 'Broken Sword 2.5: The Return of the Templars'
-  external:
-    website: http://www.brokensword25.com
-  meta:
-    genres:
-    - Adventure
-    subgenres:
-    - Point and click
-  platforms:
   - Windows
 
 - name: Bruce Lee

@@ -1,3 +1,25 @@
+- name: X11 Emerald Mine
+  originals:
+  - Emerald Mine
+  type: remake
+  url: 'https://www.emeraldmines.net/?emeraldx11'
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - Allegro
+  licenses:
+  - As-is
+  added: 2025-12-30
+  updated: 2025-12-30
+  images:
+  - 'https://www.emeraldmines.net/files/menu.png'
+  - 'https://www.emeraldmines.net/files/game.png'
+  - 'https://www.emeraldmines.net/files/rnd.png'
+  - 'https://www.emeraldmines.net/files/jue.png'
+
 - name: X-Bomber
   originals:
   - Atomic Bomberman
@@ -117,27 +139,40 @@
   added: 2021-03-14
   updated: 2023-10-15
 
-- name: X11 Emerald Mine
+- name: The X Tech
   originals:
-  - Emerald Mine
-  type: remake
-  url: 'https://www.emeraldmines.net/?emeraldx11'
+  - Super Mario
+  type: clone
+  repo: https://github.com/Wohlstand/TheXTech
+  url: https://wohlsoft.ru/projects/TheXTech/
+  development: very active
   status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  - Split-screen
+  - Co-op
   content: free
   langs:
-  - C
+  - C++
   frameworks:
-  - SDL
-  - Allegro
+  - SDL2
   licenses:
-  - As-is
-  added: 2025-12-30
-  updated: 2025-12-30
+  - GPL3
+  info: Port of Super Mario Bros X fangame from Visual Basic 6 to C++
+  added: 2023-01-14
+  updated: 2023-01-14
   images:
-  - 'https://www.emeraldmines.net/files/menu.png'
-  - 'https://www.emeraldmines.net/files/game.png'
-  - 'https://www.emeraldmines.net/files/rnd.png'
-  - 'https://www.emeraldmines.net/files/jue.png'
+  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/smbx-1.png
+  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/smbx-2.gif
+  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-1.png
+  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-2.gif
+  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-4.gif
+  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-3.gif
+  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-5.gif
+  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-6.gif
+  video:
+    youtube: q7KD23sv1FM
 
 - name: XArchon
   langs:
@@ -158,6 +193,20 @@
   added: 2015-05-03
   updated: 2023-01-25
   url: http://xarchon.seul.org/
+
+- name: Xargon
+  originals:
+  - Xargon
+  type: official
+  url: 'https://www.classicdosgames.com/game/Xargon.html'
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - Custom
+  added: 2025-12-16
+  updated: 2025-12-16
 
 - name: Xargon (SDL)
   originals:
@@ -182,20 +231,6 @@
   - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview1.png'
   - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview3.png'
   - 'https://repo.openpandora.org/files/pnd/xargon_ptitseb/preview5.png'
-
-- name: Xargon
-  originals:
-  - Xargon
-  type: official
-  url: 'https://www.classicdosgames.com/game/Xargon.html'
-  development: complete
-  status: playable
-  langs:
-  - C
-  licenses:
-  - Custom
-  added: 2025-12-16
-  updated: 2025-12-16
 
 - name: Xasteroids
   originals:
@@ -487,7 +522,7 @@
   originals:
   - Digger
   type: remake
-  repo: 'https://www.ibiblio.org/pub/Linux/games/arcade/#:~:text=xdigger'
+  repo: 'https://www.artsoft.org/rocksndiamonds/levels/martijnmooij/2010-03-16/www.bd-fans.com/FreewareUnix.html#:~:text=XDigger'
   url: 'https://www.ibiblio.org/pub/Linux/games/arcade/xdigger.lsm'
   development: complete
   status: playable
@@ -497,7 +532,9 @@
   licenses:
   - GPL2
   added: 2025-10-31
-  updated: 2025-10-31
+  updated: 2026-03-13
+  images:
+  - https://www.artsoft.org/rocksndiamonds/levels/martijnmooij/2010-03-16/www.bd-fans.com/Images/XDigger_big.jpg
 
 - name: Xdriller
   originals:
@@ -959,7 +996,23 @@
   added: 2025-10-03
   updated: 2025-10-03
 
-- name: xonix
+- name: Xonix
+  originals:
+  - Xonix
+  type: clone
+  repo: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=xonix'
+  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/xonix-1.0.lsm'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-02
+  updated: 2025-10-02
+
+- name: xonix (Rust)
   originals:
   - Xonix
   type: clone
@@ -978,22 +1031,6 @@
   updated: 2025-12-10
   images:
   - https://raw.githubusercontent.com/denix666/xonix/main/screenshots/game-play.png
-
-- name: Xonix
-  originals:
-  - Xonix
-  type: clone
-  repo: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=xonix'
-  url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/xonix-1.0.lsm'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - C
-  licenses:
-  - GPL2
-  added: 2025-10-02
-  updated: 2025-10-02
 
 - name: Xonotic
   images:
@@ -1085,6 +1122,31 @@
   video:
     youtube: oxNPYHSE60A
 
+- name: XP Minesweeper Classic
+  originals:
+  - Minesweeper
+  type: remake
+  repo: 'https://github.com/Kurtsley/XP-Minesweeper-Classic'
+  development: active
+  status: playable
+  content: free
+  langs:
+  - Lua
+  frameworks:
+  - LÖVE
+  licenses:
+  - MIT
+  info: Clone of Windows XP Minesweeper written in Lua
+  added: '2025-09-01'
+  updated: '2025-09-01'
+  images:
+  - >-
+    https://raw.githubusercontent.com/Kurtsley/XP-Minesweeper-Classic/main/screenshots/mshardbig.png
+  - >-
+    https://raw.githubusercontent.com/Kurtsley/XP-Minesweeper-Classic/main/screenshots/msmedbig.png
+  - >-
+    https://raw.githubusercontent.com/Kurtsley/XP-Minesweeper-Classic/main/screenshots/msnewlogo.png
+
 - name: XPacman
   originals:
   - Pac-Man
@@ -1122,31 +1184,6 @@
   added: 2015-04-06
   updated: 2022-02-04
   url: https://xpilot.sourceforge.net
-
-- name: XP Minesweeper Classic
-  originals:
-  - Minesweeper
-  type: remake
-  repo: 'https://github.com/Kurtsley/XP-Minesweeper-Classic'
-  development: active
-  status: playable
-  content: free
-  langs:
-  - Lua
-  frameworks:
-  - LÖVE
-  licenses:
-  - MIT
-  info: Clone of Windows XP Minesweeper written in Lua
-  added: '2025-09-01'
-  updated: '2025-09-01'
-  images:
-  - >-
-    https://raw.githubusercontent.com/Kurtsley/XP-Minesweeper-Classic/main/screenshots/mshardbig.png
-  - >-
-    https://raw.githubusercontent.com/Kurtsley/XP-Minesweeper-Classic/main/screenshots/msmedbig.png
-  - >-
-    https://raw.githubusercontent.com/Kurtsley/XP-Minesweeper-Classic/main/screenshots/msnewlogo.png
 
 - name: Xpuyopuyo
   originals:
@@ -1353,41 +1390,6 @@
   - https://a.fsdn.com/con/app/proj/xswingplus/screenshots/195990.jpg/max/max/1
   video:
     youtube: cLm7sDkO8Z8
-
-- name: TheXTech
-  originals:
-  - Super Mario
-  type: clone
-  repo: https://github.com/Wohlstand/TheXTech
-  url: https://wohlsoft.ru/projects/TheXTech/
-  development: very active
-  status: playable
-  multiplayer:
-  - Competitive
-  - Local
-  - Split-screen
-  - Co-op
-  content: free
-  langs:
-  - C++
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL3
-  info: Port of Super Mario Bros X fangame from Visual Basic 6 to C++
-  added: 2023-01-14
-  updated: 2023-01-14
-  images:
-  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/smbx-1.png
-  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/smbx-2.gif
-  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-1.png
-  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-2.gif
-  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-4.gif
-  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-3.gif
-  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-5.gif
-  - https://wohlsoft.ru/projects/TheXTech/screenshots_new/a2xt-ep1-6.gif
-  video:
-    youtube: q7KD23sv1FM
 
 - name: Xtron
   originals:

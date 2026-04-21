@@ -154,21 +154,6 @@
   - 'https://raptorv2.sourceforge.net/images/buy.png'
   - 'https://screenshots.debian.net/screenshot/rafkill/15672'
 
-- name: Raid 2020 Source Code
-  originals:
-  - Raid 2020
-  type: official
-  url: 'https://archive.org/details/Raid-2020-Source-Code'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-01-24
-  updated: 2026-01-24
-
 - name: RAID2020
   originals:
   - Raid 2020
@@ -183,6 +168,21 @@
   - As-is
   added: 2026-01-07
   updated: 2026-01-07
+
+- name: Raid 2020 Source Code
+  originals:
+  - Raid 2020
+  type: official
+  url: 'https://archive.org/details/Raid-2020-Source-Code'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-24
+  updated: 2026-01-24
 
 - name: Raiders2600
   originals:
@@ -282,6 +282,23 @@
   updated: '2021-01-29'
   images:
   - 'https://i.imgur.com/DTmUSto.png'
+
+- name: Rat Attack! PS1 Source Code
+  originals:
+  - Rat Attack!
+  type: official
+  url: 'https://archive.org/details/rats-code'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-03-23
+  updated: 2026-03-23
 
 - name: rawgl
   langs:
@@ -568,6 +585,22 @@
   added: 2020-06-26
   updated: 2020-06-26
 
+- name: Red vs. Blue Disassembly
+  originals:
+  - RealSports Football
+  type: remake
+  repo: 'https://www.qotile.net/minidig/disassembly/redblue.asm'
+  url: 'https://www.biglist.com/lists/stella/archives/200311/msg00171.html'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: RealSports Football Prototype Red Vs. Blue Disassembly.
+  added: '2025-11-07'
+  updated: '2025-11-07'
+
 - name: Redguard Unity
   originals:
   - 'The Elder Scrolls Adventures: Redguard'
@@ -801,7 +834,15 @@
   status: playable
   type: remake
   url: http://cyxdown.free.fr/reminiscence/
-  updated: 2023-03-20
+  repo: https://github.com/cyxx/REminiscence
+  updated: 2026-03-19
+  images:
+  - https://web.archive.org/web/20260302093554im_/http://cyxdown.free.fr/reminiscence/screenshot-1.thumb.jpg
+  - https://web.archive.org/web/20260302093554im_/http://cyxdown.free.fr/reminiscence/screenshot-2.thumb.jpg
+  - https://web.archive.org/web/20260302093551im_/http://cyxdown.free.fr/reminiscence/screenshot-9.thumb.jpg
+  - https://web.archive.org/web/20260302093552im_/http://cyxdown.free.fr/reminiscence/screenshot-8.thumb.jpg
+  - https://web.archive.org/web/20260302093553im_/http://cyxdown.free.fr/reminiscence/screenshot-5.thumb.jpg
+  - https://web.archive.org/web/20260302093553im_/http://cyxdown.free.fr/reminiscence/screenshot-6.thumb.jpg
   video:
     youtube: _r7ex9WqGIk
 
@@ -1063,30 +1104,6 @@
   added: 2025-12-12
   updated: 2025-12-12
 
-- name: neortcw
-  originals:
-  - Return to Castle Wolfenstein
-  type: remake
-  status: playable
-  repo: 'https://github.com/klaussilveira/neortcw'
-  development: active
-  content: commercial
-  multiplayer:
-  - Competitive
-  - Online
-  - LAN
-  langs:
-  - C
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL3
-  info: >-
-    neortcw is a RTCW SP/MP/ET source port, providing a common build
-    for all 3 codebases and focusing on a smoother, lag-free gameplay.
-  added: 2026-03-03
-  updated: 2026-03-03
-
 - name: Return to the Roots
   images:
   - https://www.siedler25.org/gallery/2015/2015.04.28_03.jpg
@@ -1337,21 +1354,6 @@
   video:
     youtube: oKYNsIPr0tY
 
-- name: 'Rise of the Triad: Dark War'
-  originals:
-  - Rise of the Triad
-  type: official
-  repo: 'https://github.com/videogamepreservation/rott'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - C
-  licenses:
-  - GPL2
-  added: 2025-09-23
-  updated: 2025-09-23
-
 - name: Rise of the Triad for Linux
   langs:
   - C
@@ -1372,21 +1374,20 @@
   - https://i.stack.imgur.com/Nz443.png
   - https://icculus.org/~ravage/rott/rott_installer.jpg
 
-- name: River Raid (VHDL)
+- name: 'Rise of the Triad: Dark War'
   originals:
-  - River Raid
-  type: remake
-  repo: 'https://github.com/SadraSamadi/river-raid'
-  development: halted
-  status: semi-playable
+  - Rise of the Triad
+  type: official
+  repo: 'https://github.com/videogamepreservation/rott'
+  development: complete
+  status: playable
+  content: open
   langs:
-  - VHDL
+  - C
   licenses:
-  - As-is
-  added: 2025-11-03
-  updated: 2025-11-03
-  images:
-  - 'https://raw.githubusercontent.com/SadraSamadi/river-raid/master/screencast.gif'
+  - GPL2
+  added: 2025-09-23
+  updated: 2025-09-23
 
 - name: River Raid 2k
   originals:
@@ -1423,6 +1424,22 @@
   added: 2025-09-26
   updated: 2025-10-10
 
+- name: River Raid (VHDL)
+  originals:
+  - River Raid
+  type: remake
+  repo: 'https://github.com/SadraSamadi/river-raid'
+  development: halted
+  status: semi-playable
+  langs:
+  - VHDL
+  licenses:
+  - As-is
+  added: 2025-11-03
+  updated: 2025-11-03
+  images:
+  - 'https://raw.githubusercontent.com/SadraSamadi/river-raid/master/screencast.gif'
+
 - name: River/Covid Raid 2020
   originals:
   - River Raid
@@ -1441,22 +1458,6 @@
   updated: 2025-11-16
   images:
   - https://raw.githubusercontent.com/masoudhassani/river_raid/master/media/river_raid_ai_gameplay.gif
-
-- name: Red vs. Blue Disassembly
-  originals:
-  - RealSports Football
-  type: remake
-  repo: 'https://www.qotile.net/minidig/disassembly/redblue.asm'
-  url: 'https://www.biglist.com/lists/stella/archives/200311/msg00171.html'
-  development: complete
-  status: playable
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: RealSports Football Prototype Red Vs. Blue Disassembly.
-  added: '2025-11-07'
-  updated: '2025-11-07'
 
 - name: rlvm
   originals:
@@ -1478,6 +1479,44 @@
   images:
   - https://image.winudf.com/v2/image/aXMueHl6LnJsdm1fc2NyZWVuc2hvdHNfMF8zYTYzNGJhYg/screen-0.jpg?fakeurl=1&type=.jpg
   - https://image.winudf.com/v2/image/aXMueHl6LnJsdm1fc2NyZWVuc2hvdHNfMV83MjAxZTU5ZQ/screen-1.jpg?fakeurl=1&type=.jpg
+
+- name: Road Blasters (Genesis)
+  originals:
+  - RoadBlasters
+  type: official
+  url: >-
+    https://archive.org/details/road-blasters-genesis-source-code-graphics-disk-1-of-2
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: >-
+    Disk 2 is available at
+    https://archive.org/details/road-blasters-genesis-source-code-graphics-disk-2-of-2
+  added: 2026-03-19
+  updated: 2026-03-19
+
+- name: RoadBlasters STE
+  originals:
+  - RoadBlasters
+  type: tool
+  repo: 'https://github.com/jonathanopalise/roadblasters-ste'
+  development: complete
+  status: N/A
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    Enhancements to the Atari ST version of RoadBlasters to support STE hardware
+    features
+  added: 2026-03-26
+  updated: 2026-03-26
+  images:
+  - https://raw.githubusercontent.com/jonathanopalise/roadblasters-ste/master/screenshot.png
 
 - name: roadfighter
   originals:
@@ -1774,6 +1813,51 @@
   - https://web.archive.org/web/20051101221609if_/http://www.positech.co.uk:80/rocky/images/screen2.jpg
   - https://web.archive.org/web/20051101221639if_/http://www.positech.co.uk:80/rocky/images/screen3.jpg
 
+- name: Rockz
+  originals:
+  - Repton
+  type: clone
+  repo: 'https://sourceforge.net/projects/rockz/'
+  url: 'https://rockz.co.uk/'
+  feed: 'https://sourceforge.net/p/rockz/news/feed.rss'
+  development: halted
+  status: semi-playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - PD
+  info: A rewrite by the author of Repton
+  added: 2026-03-15
+  updated: 2026-03-15
+  images:
+  - 'https://rockz.co.uk/gallery/graphics/lava.jpeg'
+  - 'https://rockz.co.uk/gallery/graphics/ladybird.jpeg'
+  - 'https://rockz.co.uk/gallery/graphics/mystical.jpeg'
+  - 'https://rockz.co.uk/gallery/graphics/spiders.jpeg'
+  - 'https://rockz.co.uk/gallery/graphics/xbomb.jpeg'
+  - 'https://rockz.co.uk/gallery/graphics/sliders.jpeg'
+  - 'https://rockz.co.uk/gallery/graphics/swarm.jpeg'
+  - 'https://rockz.co.uk/gallery/graphics/theclash.jpeg'
+  - 'https://rockz.co.uk/gallery/graphics/bigfun.jpeg'
+
+- name: Rodent's Revenge
+  originals:
+  - Rodent's Revenge
+  type: clone
+  url: 'https://www.ticalc.org/archives/files/fileinfo/216/21607.html'
+  development: halted
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-03-14
+  updated: 2026-03-14
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/461/46184.gif'
+  - 'https://www.ticalc.org/archives/files/ss/461/46183.gif'
+
 - name: Rogue Legacy
   originals:
   - Rogue Legacy
@@ -1802,6 +1886,24 @@
   - 'https://cdn.mobygames.com/screenshots/16786234-rogue-legacy-linux-per-piece-of-armor-you-can-also-add-different.png'
   video:
     youtube: T0DKxOEikTs
+
+- name: Rolling Thunder
+  originals:
+  - Rolling Thunder
+  type: official
+  url: 'https://eab.abime.net/showpost.php?p=1082254'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Hotseat
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Commodore Amiga version
+  added: 2026-03-26
+  updated: 2026-03-26
 
 - name: Rot Magus
   originals:
@@ -2118,6 +2220,22 @@
   - 'https://a.fsdn.com/con/app/proj/runesword/screenshots/99554.jpg'
   - 'https://a.fsdn.com/con/app/proj/runesword/screenshots/33611.jpg'
 
+- name: Rupui
+  originals:
+  - Lights Out
+  type: clone
+  url: 'https://www.ticalc.org/archives/files/fileinfo/300/30094.html'
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-04-05
+  updated: 2026-04-05
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/371/37117.gif'
+
 - name: The Rush
   images:
   - https://a.fsdn.com/con/app/proj/therush/screenshots/193556.jpg
@@ -2135,6 +2253,24 @@
   repo: https://sourceforge.net/projects/therush/
   type: clone
   updated: 2022-08-14
+
+- name: rust2048
+  originals:
+  - '2048'
+  type: clone
+  repo: >-
+    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/7ma7X/2048
+  url: 'https://crates.io/crates/rust2048'
+  development: halted
+  status: playable
+  langs:
+  - Rust
+  licenses:
+  - MIT
+  added: 2025-10-22
+  updated: 2025-10-22
+  images:
+  - https://user-images.githubusercontent.com/36184621/52550849-43ec4e00-2e1d-11e9-90b0-2384aab813ca.gif
 
 - name: rust-2048
   originals:
@@ -2154,24 +2290,6 @@
   updated: 2025-09-21
   images:
   - https://camo.githubusercontent.com/74879cb8bd35eff3948d09a371c2839745b6f865c52fc474f7b7ab8d1cf453b1/687474703a2f2f692e696d6775722e636f6d2f4554413431506f2e706e673f31
-
-- name: rust2048
-  originals:
-  - '2048'
-  type: clone
-  repo: >-
-    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/7ma7X/2048
-  url: 'https://crates.io/crates/rust2048'
-  development: halted
-  status: playable
-  langs:
-  - Rust
-  licenses:
-  - MIT
-  added: 2025-10-22
-  updated: 2025-10-22
-  images:
-  - https://user-images.githubusercontent.com/36184621/52550849-43ec4e00-2e1d-11e9-90b0-2384aab813ca.gif
 
 - name: rustcraft
   originals:

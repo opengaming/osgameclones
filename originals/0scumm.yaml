@@ -6,75 +6,15 @@
     - Adventure
     - Compilation
 
-- name: '1010'
+- name: '3-D Ultra Pinball: Thrillride'
   external:
-    website: 'https://www.mobygames.com/game/162116/1010/'
+    website: 'https://www.mobygames.com/game/2706/3-d-ultra-pinball-thrillride/'
+    wikipedia: '3-D Ultra Pinball: Thrillride'
   platforms:
-  - Windows
+  - Game Boy
   meta:
-    genres:
-    - Puzzle
-    themes:
-    - Abstract
-
-- name: "1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde"
-  external:
-    website: https://www.mobygames.com/game/44924
-  meta:
-    genres:
-    - Adventure
     subgenres:
-    - Point and click
-    themes:
-    - Comedy
-    - Medieval
-  platforms:
-  - Windows
-
-- name: The 11th Hour
-  names:
-  - 'The 11th Hour: The Sequel to The 7th Guest'
-  external:
-    website: https://www.mobygames.com/game/567
-    wikipedia: The 11th Hour (video game)
-  meta:
-    genres:
-    - Adventure
-    - Puzzle
-    themes:
-    - Horror
-  platforms:
-  - DOS
-  - Classic Mac OS
-  - Windows
-
-- name: '2048'
-  external:
-    website: 'https://play2048.co/'
-    wikipedia: 2048 (video game)
-  platforms:
-  - Android
-  - Apple TV
-  - 3DS
-  - iOS
-  - Web
-  meta:
-    genres:
-    - Puzzle
-
-- name: '360: Three Sixty'
-  external:
-    website: 'https://www.mobygames.com/game/138373/360-three-sixty/'
-    wikipedia: '360: Three Sixty'
-  platforms:
-  - PlayStation
-  meta:
-    genres:
-    - Racing
-    subgenres:
-    - Vehicular Combat
-    themes:
-    - Sci-Fi
+    - Pinball
 
 - name: 3 Skulls of the Toltecs
   external:
@@ -90,15 +30,18 @@
   platforms:
   - DOS
 
-- name: '3-D Ultra Pinball: Thrillride'
+- name: 3D Lemmings
+  names:
+  - Lemmings 3D
   external:
-    website: 'https://www.mobygames.com/game/2706/3-d-ultra-pinball-thrillride/'
-    wikipedia: '3-D Ultra Pinball: Thrillride'
+    wikipedia: 3D Lemmings
   platforms:
-  - Game Boy
+  - DOS
+  - PlayStation
+  - Saturn
   meta:
-    subgenres:
-    - Pinball
+    genres:
+    - Puzzle
 
 - name: 7 Colors
   external:
@@ -131,3 +74,73 @@
   - Nintendo Switch
   - OSX
   - Windows
+
+- name: The 11th Hour
+  names:
+  - 'The 11th Hour: The Sequel to The 7th Guest'
+  external:
+    website: https://www.mobygames.com/game/567
+    wikipedia: The 11th Hour (video game)
+  meta:
+    genres:
+    - Adventure
+    - Puzzle
+    themes:
+    - Horror
+  platforms:
+  - DOS
+  - Classic Mac OS
+  - Windows
+
+- name: "1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde"
+  external:
+    website: https://www.mobygames.com/game/44924
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Point and click
+    themes:
+    - Comedy
+    - Medieval
+  platforms:
+  - Windows
+
+- name: '360: Three Sixty'
+  external:
+    website: 'https://www.mobygames.com/game/138373/360-three-sixty/'
+    wikipedia: '360: Three Sixty'
+  platforms:
+  - PlayStation
+  meta:
+    genres:
+    - Racing
+    subgenres:
+    - Vehicular Combat
+    themes:
+    - Sci-Fi
+
+- name: '1010'
+  external:
+    website: 'https://www.mobygames.com/game/162116/1010/'
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Puzzle
+    themes:
+    - Abstract
+
+- name: '2048'
+  external:
+    website: 'https://play2048.co/'
+    wikipedia: 2048 (video game)
+  platforms:
+  - Android
+  - Apple TV
+  - 3DS
+  - iOS
+  - Web
+  meta:
+    genres:
+    - Puzzle

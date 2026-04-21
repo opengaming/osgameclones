@@ -1,22 +1,21 @@
-- name: UZDoom
-  langs:
-  - C++
-  frameworks:
-  - OpenGL
-  - Vulkan
-  licenses:
-  - GPL3
-  development: very active
+- name: U-Hexen
   originals:
-  - Doom
-  - Heretic
   - Hexen
-  status: playable
-  repo: https://github.com/UZDoom/UZDoom
   type: remake
-  added: 2025-10-19
-  updated: 2025-10-19
-  info: UZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine
+  repo: 'https://sourceforge.net/projects/uhexen/'
+  url: 'https://uhexen.sourceforge.net/'
+  feed: 'https://sourceforge.net/p/uhexen/activity/feed'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - Custom
+  added: 2026-04-04
+  updated: 2026-04-04
 
 - name: UA_source
   langs:
@@ -63,6 +62,30 @@
   - https://raw.githubusercontent.com/csinkers/ualbion/master/.github/screenshots/5_MainMenu.png
   added: 2020-02-06
   updated: 2020-02-06
+
+- name: UchuServer
+  originals:
+  - Lego Universe
+  type: remake
+  repo: 'https://github.com/UchuServer/Uchu'
+  development: halted
+  status: playable
+  multiplayer:
+  - Local
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - .NET
+  licenses:
+  - AGPL3
+  info: A Server project emulating original data from NetDevil's Lego Universe (2010)
+  added: 2022-02-15
+  updated: 2024-11-21
+  video:
+    youtube: _b6HYmdcA8c
 
 - name: UEFAStriker96
   originals:
@@ -213,6 +236,47 @@
   updated: 2023-08-19
   video:
     youtube: ZYSHJ8TQe2Q
+
+- name: Ultima IV Remastered
+  originals:
+  - Ultima IV
+  type: tool
+  repo: 'https://github.com/MagerValp/u4remastered'
+  url: 'https://magervalp.github.io/2015/03/30/u4-remastered.html'
+  development: halted
+  status: N/A
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - Apache
+  info: Ultima IV Remastered for the C64
+  added: 2026-03-31
+  updated: 2026-03-31
+  images:
+  - https://i0.wp.com/ultimacodex.com/wp-content/uploads/2015/03/u4remastered-04.png
+  - https://magervalp.github.io/images/u4-remastered-trinity-large.png
+
+- name: Ultima V Remastered
+  originals:
+  - 'Ultima V: Warriors of Destiny'
+  type: tool
+  repo: 'https://github.com/Drunella/u5remastered'
+  url: 'https://csdb.dk/release/?id=227816'
+  feed: 'https://github.com/Drunella/u5remastered/releases.atom'
+  development: sporadic
+  status: N/A
+  content: commercial
+  langs:
+  - Assembly
+  - Python
+  licenses:
+  - Apache
+  info: Ultima V remastered for EasyFlash and 1581
+  added: 2026-04-14
+  updated: 2026-04-14
+  images:
+  - 'https://csdb.dk/gfx/releases/227000/227816.png'
 
 - name: 'Ultima: Escape from Mount Drash'
   originals:
@@ -814,26 +878,22 @@
   added: 2023-12-08
   updated: 2023-12-08
 
-- name: UchuServer
-  originals:
-  - Lego Universe
-  type: remake
-  repo: 'https://github.com/UchuServer/Uchu'
-  development: halted
-  status: playable
-  multiplayer:
-  - Local
-  - Online
-  - LAN
-  content: commercial
+- name: UZDoom
   langs:
-  - 'C#'
+  - C++
   frameworks:
-  - .NET
+  - OpenGL
+  - Vulkan
   licenses:
-  - AGPL3
-  info: A Server project emulating original data from NetDevil's Lego Universe (2010)
-  added: 2022-02-15
-  updated: 2024-11-21
-  video:
-    youtube: _b6HYmdcA8c
+  - GPL3
+  development: very active
+  originals:
+  - Doom
+  - Heretic
+  - Hexen
+  status: playable
+  repo: https://github.com/UZDoom/UZDoom
+  type: remake
+  added: 2025-10-19
+  updated: 2025-10-19
+  info: UZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine

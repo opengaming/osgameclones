@@ -158,6 +158,22 @@
   - https://ebitengine.org/images/examples/blocks.png
   - https://ebitengine.org/images/examples/flappy.png
 
+- name: ebsrc
+  originals:
+  - EarthBound
+  type: remake
+  repo: 'https://github.com/Herringway/ebsrc'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: A disassembly of Earthbound
+  added: 2026-04-12
+  updated: 2026-04-12
+
 - name: Ecksdee
   images:
   - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/98817.jpg
@@ -357,6 +373,25 @@
   - Custom
   added: 2025-11-21
   updated: 2025-11-21
+
+- name: Egypt for Ti-68K
+  originals:
+  - Egypt
+  type: remake
+  url: 'http://tifreakware.net/lachprog/egypt.htm'
+  development: complete
+  status: playable
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL3
+  added: 2026-02-13
+  updated: 2026-02-13
+  images:
+  - https://web.archive.org/web/20210301213857im_/http://tifreakware.net/lachprog/img/Egypt/title92v200.PNG
+  - https://web.archive.org/web/20210301213857im_/http://tifreakware.net/lachprog/img/Egypt/ANIM10001.gif
+  - https://web.archive.org/web/20210301213857im_/http://tifreakware.net/lachprog/img/Egypt/puzzle.PNG
 
 - name: Einstein Puzzle
   originals:
@@ -604,6 +639,25 @@
   added: 2025-12-26
   updated: 2025-12-26
 
+- name: Elite-A
+  originals:
+  - Elite
+  type: remake
+  repo: 'https://github.com/markmoxon/elite-a-source-code-bbc-micro'
+  url: 'https://elite.bbcelite.com/elite-a/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Elite-A is Angus Duggan's epic extended version of Elite.
+  added: 2025-12-22
+  updated: 2025-12-22
+  images:
+  - 'https://elite.bbcelite.com/images/elite-a/encyclopedia_iguana.png'
+
 - name: Elite Disassembly
   originals:
   - Elite
@@ -702,25 +756,6 @@
   - 'https://assetsio.gnwcdn.com/elite-1.png'
   - 'https://assets.vg247.com/current//2014/09/elite-3.png'
   - 'https://www.new-kind.com/wp-content/uploads/etnk2a.png'
-
-- name: Elite-A
-  originals:
-  - Elite
-  type: remake
-  repo: 'https://github.com/markmoxon/elite-a-source-code-bbc-micro'
-  url: 'https://elite.bbcelite.com/elite-a/'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: Elite-A is Angus Duggan's epic extended version of Elite.
-  added: 2025-12-22
-  updated: 2025-12-22
-  images:
-  - 'https://elite.bbcelite.com/images/elite-a/encyclopedia_iguana.png'
 
 - name: EliteGL
   originals:
@@ -830,12 +865,42 @@
   - As-is
   development: halted
   originals:
-  - Encounter
+  - Encounter!
   status: playable
   repo: https://github.com/air/encounter
   type: remake
   updated: 2024-03-26
   url: https://www.aaronbell.com/encounter/
+
+- name: Encounter HD
+  originals:
+  - Encounter
+  type: remake
+  repo: 'https://github.com/Dhebug/Encounter'
+  url: 'https://defence-force.org/index.php?page=games&game=encounter'
+  development: very active
+  status: playable
+  langs:
+  - Assembly
+  - C
+  licenses:
+  - As-is
+  info: >-
+    An upgraded version of the 1983 text adventure game released by Severn
+    Software
+  added: 2026-04-13
+  updated: 2026-04-13
+  images:
+  - https://defence-force.org/pages/games/encounter/pics/encounter_hd_title.png
+  - https://defence-force.org/pages/games/encounter/pics/encounter_hd_intro.png
+  - https://defence-force.org/pages/games/encounter/pics/encounter_hd_manual.png
+  - https://defence-force.org/pages/games/encounter/pics/encounter_hd_marketplace.png
+  - https://defence-force.org/pages/games/encounter/pics/encounter_hd_newspaper.png
+  - https://defence-force.org/pages/games/encounter/pics/encounter_hd_tunel.png
+  - https://defence-force.org/pages/games/encounter/pics/encounter_hd_protection_suit.png
+  - https://defence-force.org/pages/games/encounter/pics/encounter_hd_leaderboard.png
+  video:
+    youtube: Nd-NJREcMVg
 
 - name: Endless Sky
   images:
@@ -1029,6 +1094,28 @@
   images:
   - https://i0.wp.com/www.newbreedsoftware.com/entombed/screenshots/game.gif
 
+- name: EntroPipes
+  originals:
+  - Loops of Zen
+  type: clone
+  repo: 'https://codeberg.org/son_link/EntroPipes'
+  url: 'https://son-link.itch.io/entropipes'
+  feed: 'https://son-link.itch.io/entropipes/devlog.rss'
+  development: very active
+  status: playable
+  content: free
+  langs:
+  - Python
+  frameworks:
+  - Pyxel
+  licenses:
+  - GPL3
+  added: 2026-03-17
+  updated: 2026-03-17
+  images:
+  - 'https://codeberg.org/son_link/EntroPipes/media/branch/main/main_screen.png'
+  - 'https://codeberg.org/son_link/EntroPipes/media/branch/main/in_game.gif'
+
 - name: EnTT Pacman
   originals:
   - Pac-Man
@@ -1147,6 +1234,23 @@
   added: 2025-11-15
   updated: 2025-11-15
 
+- name: eshaansmart
+  originals:
+  - Monkey Mart
+  type: clone
+  repo: 'https://github.com/CodeMiner11-py/eshaansmart'
+  url: 'https://pypi.org/project/eshaansmart/'
+  development: sporadic
+  status: unplayable
+  content: open
+  langs:
+  - HTML
+  - Python
+  licenses:
+  - MIT
+  added: 2025-09-16
+  updated: 2025-09-16
+
 - name: 'ET: Legacy'
   development: very active
   langs:
@@ -1169,23 +1273,6 @@
   - https://www.etlegacy.com/storage/shots/shot0074.jpeg
   - https://www.etlegacy.com/storage/shots/shot0107.jpeg
   - https://www.etlegacy.com/storage/shots/shot0005.jpeg
-
-- name: eshaansmart
-  originals:
-  - Monkey Mart
-  type: clone
-  repo: 'https://github.com/CodeMiner11-py/eshaansmart'
-  url: 'https://pypi.org/project/eshaansmart/'
-  development: sporadic
-  status: unplayable
-  content: open
-  langs:
-  - HTML
-  - Python
-  licenses:
-  - MIT
-  added: 2025-09-16
-  updated: 2025-09-16
 
 - name: The Eternity Engine
   originals:
@@ -1226,7 +1313,7 @@
   - E.T. the Extra-Terrestrial
   type: official
   repo: 'https://github.com/Duy-Thanh/ETSourceCode'
-  url: 'https://www.romhacking.net/documents/480/'
+  url: 'https://www.reddit.com/r/programming/comments/24frw0/et_the_extraterrestrial1982_atari_2600_source_code/'
   development: complete
   status: playable
   langs:
@@ -1234,7 +1321,7 @@
   licenses:
   - As-is
   added: 2026-01-18
-  updated: 2026-01-18
+  updated: 2026-04-09
 
 - name: Even the Ocean
   originals:
@@ -1361,12 +1448,42 @@
   - Zlib
   development: halted
   originals:
-  - Exile 1988
+  - Exile
   status: unplayable
   repo: https://github.com/Geti/EXILE
   type: remake
   updated: 2015-06-22
   url: http://forums.datarealms.com/viewtopic.php?f=82&t=19266
+
+- name: Exile disassembly
+  originals:
+  - Exile
+  type: remake
+  repo: 'https://github.com/tom-seddon/exile_disassembly'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-14
+  updated: 2026-04-14
+
+- name: Exile (Enhanced version) disassembly
+  originals:
+  - Exile
+  type: remake
+  repo: 'https://level7.org.uk/miscellany/exile-enhanced-disassembly.txt'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-15
+  updated: 2026-04-15
 
 - name: EXLCOM
   originals:

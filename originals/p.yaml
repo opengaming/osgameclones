@@ -92,20 +92,6 @@
   - PlayStation
   - Windows
 
-- name: 'Pajama Sam: Life Is Rough When You Lose Your Stuff!'
-  names:
-  - Pajama Sam 4
-  external:
-    website: >-
-      https://www.mobygames.com/game/11847/pajama-sam-life-is-rough-when-you-lose-your-stuff/
-    wikipedia: 'Pajama Sam: Life Is Rough When You Lose Your Stuff!'
-  platforms:
-  - Windows
-  meta:
-    genres:
-    - Adventure
-    - Educational
-
 - name: Pajama Sam's Lost & Found
   external:
     website: https://www.mobygames.com/game/19377
@@ -143,6 +129,20 @@
   - Classic Mac OS
   - Linux
   - Windows
+
+- name: 'Pajama Sam: Life Is Rough When You Lose Your Stuff!'
+  names:
+  - Pajama Sam 4
+  external:
+    website: >-
+      https://www.mobygames.com/game/11847/pajama-sam-life-is-rough-when-you-lose-your-stuff/
+    wikipedia: 'Pajama Sam: Life Is Rough When You Lose Your Stuff!'
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Adventure
+    - Educational
 
 - name: 'Pajama Sam: No Need to Hide When It''s Dark Outside'
   names:
@@ -478,6 +478,40 @@
     genres:
     - Puzzle
 
+- name: Pikmin
+  names:
+  - ピクミン
+  external:
+    website: 'https://www.nintendo.co.jp/ngc/gpij/'
+    wikipedia: Pikmin (video game)
+  platforms:
+  - GameCube
+  - Nintendo Switch
+  - Wii
+  meta:
+    genres:
+    - Puzzle
+    - Real-Time Strategy
+    themes:
+    - Fantasy
+
+- name: Pikmin 2
+  names:
+  - ピクミン2
+  external:
+    website: 'https://www.nintendo.co.jp/wii/r92j/'
+    wikipedia: Pikmin 2
+  platforms:
+  - GameCube
+  - Nintendo Switch
+  - Wii
+  meta:
+    genres:
+    - Real-Time Strategy
+    - Strategy
+    themes:
+    - Fantasy
+
 - name: Pinball Construction Set
   external:
     website: 'https://www.mobygames.com/game/255/pinball-construction-set/'
@@ -667,6 +701,18 @@
   platforms:
   - 3DO
   - Windows
+
+- name: Pocket Music
+  external:
+    website: 'https://www.mobygames.com/game/144804/pocket-music/'
+    wikipedia: Pocket Music
+  platforms:
+  - Game Boy
+  - GBA
+  meta:
+    genres:
+    - Rhythm
+    - Simulation
 
 - name: Poing
   external:
@@ -1052,13 +1098,6 @@
     genres:
     - Real-Time Strategy
 
-- name: 'Populous: The Beginning'
-  external:
-    wikipedia: 'Populous: The Beginning'
-  meta:
-    genres:
-    - Real-Time Strategy
-
 - name: Populous II
   names:
   - 'Populous II: Trials of the Olympian Gods'
@@ -1080,6 +1119,13 @@
     - Strategy
     themes:
     - Management
+
+- name: 'Populous: The Beginning'
+  external:
+    wikipedia: 'Populous: The Beginning'
+  meta:
+    genres:
+    - Real-Time Strategy
 
 - name: Portal
   external:
@@ -1237,6 +1283,15 @@
     genres:
     - Platform
 
+- name: Princess and Frog
+  external:
+    website: 'https://www.mobygames.com/game/77541/princess-and-frog/'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Action
+
 - name: Princess Bride
   external:
     website: 'http://13cm.jp/130cm/games/bride/index_.htm'
@@ -1246,15 +1301,6 @@
     themes:
     - Adult
     - Anime
-
-- name: Princess and Frog
-  external:
-    website: 'https://www.mobygames.com/game/77541/princess-and-frog/'
-  platforms:
-  - Atari
-  meta:
-    genres:
-    - Action
 
 - name: Private Eye
   external:
@@ -1358,6 +1404,44 @@
     - Platform
     - Puzzle
 
+- name: Putt-Putt and Fatty Bear's Activity Pack
+  external:
+    website: https://www.mobygames.com/game/21083
+  meta:
+    genres:
+    - Action
+    - Educational
+    - Puzzle
+    - Strategy
+  platforms:
+  - DOS
+  - Classic Mac OS
+  - Linux
+  - Windows
+
+- name: Putt-Putt and Pep's Balloon-O-Rama
+  external:
+    website: https://www.mobygames.com/game/12433
+    wikipedia: Putt-Putt and Pep%27s Balloon-o-Rama
+  meta:
+    genres:
+    - Educational
+  platforms:
+  - Classic Mac OS
+  - Linux
+  - Windows
+
+- name: Putt-Putt and Pep's Dog on a Stick
+  external:
+    website: https://www.mobygames.com/game/14529
+  meta:
+    genres:
+    - Action
+  platforms:
+  - Classic Mac OS
+  - Linux
+  - Windows
+
 - name: Putt-Putt Enters the Race
   external:
     website: https://www.mobygames.com/game/1197
@@ -1457,55 +1541,6 @@
   - Nintendo Switch
   - Windows
 
-- name: Putt-Putt and Fatty Bear's Activity Pack
-  external:
-    website: https://www.mobygames.com/game/21083
-  meta:
-    genres:
-    - Action
-    - Educational
-    - Puzzle
-    - Strategy
-  platforms:
-  - DOS
-  - Classic Mac OS
-  - Linux
-  - Windows
-
-- name: Putt-Putt and Pep's Balloon-O-Rama
-  external:
-    website: https://www.mobygames.com/game/12433
-    wikipedia: Putt-Putt and Pep%27s Balloon-o-Rama
-  meta:
-    genres:
-    - Educational
-  platforms:
-  - Classic Mac OS
-  - Linux
-  - Windows
-
-- name: Putt-Putt and Pep's Dog on a Stick
-  external:
-    website: https://www.mobygames.com/game/14529
-  meta:
-    genres:
-    - Action
-  platforms:
-  - Classic Mac OS
-  - Linux
-  - Windows
-
-- name: 'Putt-Putt: Pep''s Birthday Surprise'
-  external:
-    website: 'https://www.mobygames.com/game/11848/putt-putt-peps-birthday-surprise/'
-  platforms:
-  - Windows
-  meta:
-    genres:
-    - Adventure
-    - Educational
-    - Racing
-
 - name: Putt-Putt's Fun Pack
   external:
     website: https://www.mobygames.com/game/757
@@ -1520,6 +1555,17 @@
   - Classic Mac OS
   - DOS
   - Windows
+
+- name: 'Putt-Putt: Pep''s Birthday Surprise'
+  external:
+    website: 'https://www.mobygames.com/game/11848/putt-putt-peps-birthday-surprise/'
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Adventure
+    - Educational
+    - Racing
 
 - name: Puyo Puyo Series
   names:

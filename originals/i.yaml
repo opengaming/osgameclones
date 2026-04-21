@@ -1,17 +1,3 @@
-- name: I-War
-  external:
-    website: 'https://www.mobygames.com/game/6855/i-war/'
-    wikipedia: I-War (1995 video game)
-  platforms:
-  - Jaguar
-  meta:
-    genres:
-    - Shooter
-    subgenres:
-    - Vehicular Combat
-    themes:
-    - Sci-Fi
-
 - name: I Have No Mouth, and I Must Scream
   names:
   - 'Harlan Ellison: I Have No Mouth, and I Must Scream'
@@ -35,6 +21,20 @@
   - Linux
   - OSX
   - Windows
+
+- name: I-War
+  external:
+    website: 'https://www.mobygames.com/game/6855/i-war/'
+    wikipedia: I-War (1995 video game)
+  platforms:
+  - Jaguar
+  meta:
+    genres:
+    - Shooter
+    subgenres:
+    - Vehicular Combat
+    themes:
+    - Sci-Fi
 
 - name: Ice Climber
   external:
@@ -85,6 +85,17 @@
     - Fantasy
     - Medieval
 
+- name: 'Igor: Objective Uikokahonia'
+  external:
+    website: >-
+      https://web.archive.org/web/19961113040440/http://www.optik.com/products/igor/igor.html
+    wikipedia: 'Igor: Objective Uikokahonia'
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Adventure
+
 - name: Imperialism
   external:
     wikipedia: Imperialism (video game)
@@ -116,16 +127,6 @@
     - FPS
     themes:
     - Sci-Fi
-
-- name: Indy 500
-  external:
-    website: 'https://www.mobygames.com/game/11710/indy-500/'
-    wikipedia: Indy 500 (1977 video game)
-  platforms:
-  - Atari
-  meta:
-    genres:
-    - Racing
 
 - name: The Incredible Machine
   external:
@@ -177,6 +178,16 @@
   - Linux
   - Windows
 
+- name: Indy 500
+  external:
+    website: 'https://www.mobygames.com/game/11710/indy-500/'
+    wikipedia: Indy 500 (1977 video game)
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Racing
+
 - name: Infinity Loop
   external:
     website: http://loopgame.co
@@ -203,6 +214,17 @@
   - iOS
   - PC-98
   - Windows
+
+- name: Inner Worlds
+  external:
+    website: 'https://sleepless.com/iw/'
+    wikipedia: Inner Worlds (video game)
+  platforms:
+  - DOS
+  - Linux
+  meta:
+    genres:
+    - Platform
 
 - name: Interstate '76
   external:

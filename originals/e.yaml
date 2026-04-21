@@ -1,14 +1,3 @@
-- name: E.T. the Extra-Terrestrial
-  external:
-    website: 'https://www.mobygames.com/game/8874/et-the-extra-terrestrial/'
-    wikipedia: E.T. the Extra-Terrestrial (video game)
-  platforms:
-  - Atari
-  meta:
-    genres:
-    - Arcade
-    - Adventure
-
 - name: Earth 2140
   external:
     wikipedia: Earth 2140
@@ -24,6 +13,19 @@
   meta:
     genres:
     - Puzzle
+
+- name: EarthBound
+  names:
+  - MOTHER2 ギーグの逆襲
+  external:
+    website: 'https://www.nintendo.co.jp/n02/shvc/mb/'
+    wikipedia: EarthBound
+  platforms:
+  - GBA
+  - SNES
+  meta:
+    genres:
+    - RPG
 
 - name: Earthsiege 2
   external:
@@ -116,6 +118,18 @@
     genres:
     - Platform
 
+- name: 'The Elder Scrolls Adventures: Redguard'
+  external:
+    wikipedia: 'The Elder Scrolls Adventures: Redguard'
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Action
+    - Adventure
+    themes:
+    - Fantasy
+
 - name: 'The Elder Scrolls II: Daggerfall'
   external:
     wikipedia: 'The Elder Scrolls II: Daggerfall'
@@ -129,18 +143,6 @@
   meta:
     genres:
     - RPG
-    themes:
-    - Fantasy
-
-- name: 'The Elder Scrolls Adventures: Redguard'
-  external:
-    wikipedia: 'The Elder Scrolls Adventures: Redguard'
-  platforms:
-  - DOS
-  meta:
-    genres:
-    - Action
-    - Adventure
     themes:
     - Fantasy
 
@@ -275,6 +277,26 @@
   names:
   - 'Eternal League of Nefia'
 
+- name: 'Elvira II: The Jaws of Cerberus'
+  external:
+    website: https://www.mobygames.com/game/1779
+    wikipedia: 'Elvira II: The Jaws of Cerberus'
+  meta:
+    genres:
+    - Adventure
+    - RPG
+    themes:
+    - Fantasy
+    - Horror
+  platforms:
+  - Amiga
+  - Atari
+  - Commodore 64
+  - DOS
+  - Linux
+  - OSX
+  - Windows
+
 - name: 'Elvira: Mistress of the Dark'
   external:
     website: https://www.mobygames.com/game/4050
@@ -296,32 +318,15 @@
   - PC-98
   - Windows
 
-- name: 'Elvira II: The Jaws of Cerberus'
+- name: Emerald Mine
   external:
-    website: https://www.mobygames.com/game/1779
-    wikipedia: 'Elvira II: The Jaws of Cerberus'
-  meta:
-    genres:
-    - Adventure
-    - RPG
-    themes:
-    - Fantasy
-    - Horror
+    website: 'https://www.mobygames.com/game/8669/emerald-mine/'
+    wikipedia: Emerald Mine
   platforms:
   - Amiga
-  - Atari
-  - Commodore 64
-  - DOS
-  - Linux
-  - OSX
-  - Windows
-
-- name: 'Emperor: Battle for Dune'
-  external:
-    wikipedia: 'Emperor: Battle for Dune'
   meta:
     genres:
-    - Real-Time Strategy
+    - Puzzle
 
 - name: Emperor of the Fading Suns
   external:
@@ -329,6 +334,13 @@
   meta:
     genres:
     - Turn-Based Strategy
+
+- name: 'Emperor: Battle for Dune'
+  external:
+    wikipedia: 'Emperor: Battle for Dune'
+  meta:
+    genres:
+    - Real-Time Strategy
 
 - name: Empire
   names:
@@ -342,19 +354,23 @@
     - Strategy
     - Turn-Based Strategy
 
-- name: Emerald Mine
-  external:
-    website: 'https://www.mobygames.com/game/8669/emerald-mine/'
-    wikipedia: Emerald Mine
-  platforms:
-  - Amiga
-  meta:
-    genres:
-    - Puzzle
-
 - name: Encounter
   external:
-    wikipedia: Encounter (video game)
+    website: 'https://www.mobygames.com/game/246324/encounter/'
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Text Adventure
+
+- name: Encounter!
+  external:
+    website: https://www.mobygames.com/game/11282/encounter/
+    wikipedia: Encounter! (video game)
+  platforms:
+  - Amiga
+  - Atari
+  - Commodore 64
   meta:
     genres:
     - Shmup
@@ -475,6 +491,17 @@
     - Action
     - Simulation
 
+- name: E.T. the Extra-Terrestrial
+  external:
+    website: 'https://www.mobygames.com/game/8874/et-the-extra-terrestrial/'
+    wikipedia: E.T. the Extra-Terrestrial (video game)
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Arcade
+    - Adventure
+
 - name: Even the Ocean
   external:
     website: 'https://www.mobygames.com/game/97626/even-the-ocean/'
@@ -532,13 +559,20 @@
     themes:
     - Motorsports
 
-- name: Exile 1988
+- name: Exile
   external:
-    wikipedia: Exile_(1988_video_game)
+    website: 'https://www.mobygames.com/game/9379/exile/'
+    wikipedia: Exile (1988 video game)
+  platforms:
+  - Amiga
+  - Atari
+  - Commodore 64
   meta:
     genres:
     - Action
     - Adventure
+    themes:
+    - Sci-Fi
 
 - name: Exolon
   external:

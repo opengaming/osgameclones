@@ -116,26 +116,6 @@
   - 'https://gottcode.org/tanglet/screenshots/large-en.png'
   - 'https://gottcode.org/tanglet/screenshots/language.png'
 
-- name: 'Tank: Zone of Death'
-  langs:
-  - C++
-  frameworks:
-  - OpenGL
-  licenses:
-  - GPL3
-  content: open
-  development: halted
-  originals:
-  - Battle City
-  status: playable
-  repo: https://github.com/les-sosna/tzod
-  type: clone
-  added: 2015-04-06
-  updated: 2019-03-27
-  url: https://zod.fandom.com/ru/wiki/%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F
-  images:
-  - https://vignette.wikia.nocookie.net/zod/images/7/76/Ss04.jpg/revision/latest?cb=20070528214052&path-prefix=ru
-
 - name: Tank2004
   originals:
   - Battle City
@@ -177,6 +157,26 @@
   - 'https://www.ticalc.org/archives/files/ss/846/84613.gif'
   - 'https://www.ticalc.org/archives/files/ss/846/84610.gif'
   - 'https://www.ticalc.org/archives/files/ss/846/84609.gif'
+
+- name: 'Tank: Zone of Death'
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL3
+  content: open
+  development: halted
+  originals:
+  - Battle City
+  status: playable
+  repo: https://github.com/les-sosna/tzod
+  type: clone
+  added: 2015-04-06
+  updated: 2019-03-27
+  url: https://zod.fandom.com/ru/wiki/%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F
+  images:
+  - https://vignette.wikia.nocookie.net/zod/images/7/76/Ss04.jpg/revision/latest?cb=20070528214052&path-prefix=ru
 
 - name: Tanks of Freedom
   development: halted
@@ -308,25 +308,6 @@
   - 'https://images.pling.com/img/00/00/01/28/52/1109411/9906-2.jpg'
   - 'https://images.pling.com/img/00/00/01/28/52/1109411/9906-3.jpg'
 
-- name: TclRobots
-  originals:
-  - CROBOTS
-  type: similar
-  repo: 'https://github.com/jonasferry/TclRobots'
-  url: 'https://web.archive.org/web/20140104074744/http://tclrobots.org/'
-  development: halted
-  status: playable
-  multiplayer:
-  - Competitive
-  langs:
-  - Tcl
-  licenses:
-  - BSD
-  added: 2026-01-12
-  updated: 2026-01-12
-  images:
-  - 'https://corewar.co.uk/screenshots/tclrobots.png'
-
 - name: TCGS-BLOCK
   originals:
   - Arkanoid
@@ -346,6 +327,25 @@
   images:
   - 'https://www.fumi2kick.com/pspapp/dev_ss_004.jpg'
   - 'https://www.fumi2kick.com/pspapp/dev_ss_005.jpg'
+
+- name: TclRobots
+  originals:
+  - CROBOTS
+  type: similar
+  repo: 'https://github.com/jonasferry/TclRobots'
+  url: 'https://web.archive.org/web/20140104074744/http://tclrobots.org/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  langs:
+  - Tcl
+  licenses:
+  - BSD
+  added: 2026-01-12
+  updated: 2026-01-12
+  images:
+  - 'https://corewar.co.uk/screenshots/tclrobots.png'
 
 - name: TDEPacman
   originals:
@@ -382,29 +382,6 @@
   added: 2025-12-19
   updated: 2025-12-19
 
-- name: Teeter Torture
-  originals:
-  - Teeter Torture
-  type: remake
-  repo: 'http://www.newbreedsoftware.com/teetertorture/download/'
-  url: 'http://www.newbreedsoftware.com/teetertorture/'
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  info: This is rendition of a classic arcade game prototype of the same name.
-  added: 2025-10-29
-  updated: 2025-10-29
-  images:
-  - https://web.archive.org/web/20240430212427if_/http://www.newbreedsoftware.com/teetertorture/screenshots/teeter-torture-prev.png
-  video:
-    youtube: smYYKU3U1SU
-
 - name: TecnoballZ
   originals:
   - Arkanoid
@@ -434,6 +411,29 @@
     https://linux.tlk.fr/games/TecnoballZ/screenshots/enlarge/tecnoballz_linux4.png
   - >-
     https://linux.tlk.fr/games/TecnoballZ/screenshots/enlarge/tecnoballz_linux5.png
+
+- name: Teeter Torture
+  originals:
+  - Teeter Torture
+  type: remake
+  repo: 'http://www.newbreedsoftware.com/teetertorture/download/'
+  url: 'http://www.newbreedsoftware.com/teetertorture/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  info: This is rendition of a classic arcade game prototype of the same name.
+  added: 2025-10-29
+  updated: 2025-10-29
+  images:
+  - https://web.archive.org/web/20240430212427if_/http://www.newbreedsoftware.com/teetertorture/screenshots/teeter-torture-prev.png
+  video:
+    youtube: smYYKU3U1SU
 
 - name: TekWar
   originals:
@@ -471,6 +471,24 @@
   video:
     youtube: 0U7EpJlf6-o
 
+- name: Telengard Remastered
+  originals:
+  - Telengard
+  type: remake
+  repo: 'https://github.com/gondur/Telengard'
+  url: https://csdb.dk/release/?id=145661
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  - BASIC
+  licenses:
+  - As-is
+  added: 2026-04-04
+  updated: 2026-04-04
+  images:
+  - https://csdb.dk/gfx/releases/145000/145661.gif
+
 - name: Teletext Elite
   originals:
   - Elite
@@ -496,6 +514,23 @@
   - 'https://elite.bbcelite.com/images/teletext_elite/data_on_system.png'
   - 'https://elite.bbcelite.com/images/teletext_elite/short-range_chart.png'
   - 'https://elite.bbcelite.com/images/teletext_elite/market_prices.png'
+
+- name: Tempest 2000
+  originals:
+  - Tempest 2000
+  type: official
+  repo: 'https://archive.org/details/tempest-2000-dos-source-code'
+  url: 'https://x.com/_codebound_/status/1920712422546899203'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Source code to Tempest 2000 for MS-DOS
+  added: 2026-04-12
+  updated: 2026-04-12
 
 - name: Tempest Code Project
   originals:
@@ -614,6 +649,35 @@
   - https://gitlab.com/hydren/terrarium/-/raw/wiki/screenshots/0.1.9/screenshot.jpg
   - https://gitlab.com/hydren/terrarium/-/raw/wiki/screenshots/0.1.9/terrarium%200.1.9%20on%20ubuntu%206.06.png
 
+- name: TES3MP
+  originals:
+  - 'The Elder Scrolls III: Morrowind'
+  type: remake
+  repo: 'https://github.com/TES3MP/openmw-tes3mp'
+  url: 'https://tes3mp.com/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: swappable
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  info: TES3MP is a project adding multiplayer functionality to OpenMW
+  added: 2019-01-20
+  updated: 2023-09-07
+  images:
+  - https://media.moddb.com/cache/images/engines/1/1/929/thumb_620x2000/170828b.png
+  - https://media.moddb.com/cache/images/engines/1/1/929/thumb_620x2000/vlcsnap-2983-11-27-07h06m58s509.png
+  - https://media.moddb.com/cache/images/engines/1/1/929/thumb_620x2000/vlcsnap-4274-01-22-03h12m11s414.png
+  - https://media.moddb.com/cache/images/engines/1/1/929/thumb_620x2000/vlcsnap-2432-09-08-08h21m43s889.png
+  - https://media.moddb.com/cache/images/engines/1/1/929/thumb_620x2000/vlcsnap-7947-01-28-20h26m56s612.png
+  video:
+    youtube: aZZ0piRvI58
+    moddb: 1907883
+
 - name: TesBwan
   originals:
   - Breakout
@@ -631,6 +695,26 @@
   - 'https://www.ocf.berkeley.edu/~pad/screenshots/tesbwan.gif'
   - 'https://lpg.ticalc.org/archives/files/ss/296/29699.gif'
   - 'https://lpg.ticalc.org/archives/files/ss/296/29697.gif'
+
+- name: Tetrinet for Linux
+  originals:
+  - TetriNET
+  type: remake
+  repo: 'https://github.com/clientverify/tetrinet'
+  url: 'https://tetrinet.or.cz/'
+  feed: 'https://github.com/clientverify/tetrinet/releases.atom'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  langs:
+  - C
+  frameworks:
+  - ncurses
+  licenses:
+  - As-is
+  added: 2026-01-02
+  updated: 2026-01-02
 
 - name: Tetrinetx
   originals:
@@ -650,6 +734,61 @@
   added: 2026-01-06
   updated: 2026-01-06
 
+- name: tetris-60
+  originals:
+  - Tetris
+  type: clone
+  repo: 'https://github.com/suxiaogang223/tetris-60'
+  url: 'https://melpa.org/#/tetris-60'
+  development: very active
+  status: playable
+  langs:
+  - Emacs Lisp
+  frameworks:
+  - Emacs
+  licenses:
+  - GPL3
+  added: 2026-03-31
+  updated: 2026-03-31
+  images:
+  - https://raw.githubusercontent.com/suxiaogang223/tetris-60/main/assets/Screenshot.png
+
+- name: tetris - Just another Tetris™ clone
+  images:
+  - https://raw.githubusercontent.com/spypunk/tetris/master/img/screenshot_start.png
+  - https://github.com/spypunk/tetris/blob/master/img/screenshot.png?raw=true
+  - https://github.com/spypunk/tetris/blob/master/img/screenshot_pause.png?raw=true
+  - https://github.com/spypunk/tetris/blob/master/img/screenshot_gameover.png?raw=true
+  langs:
+  - Java
+  licenses:
+  - WTFPL
+  content: open
+  originals:
+  - Tetris
+  status: playable
+  repo: https://github.com/spypunk/tetris
+  development: halted
+  type: remake
+  added: 2016-08-19
+  updated: 2023-09-08
+
+- name: Tetris-CSharp
+  originals:
+  - Tetris
+  type: clone
+  repo: 'https://github.com/hayfield/Tetris-CSharp'
+  development: halted
+  status: playable
+  langs:
+  - 'C#'
+  frameworks:
+  - WinForms
+  licenses:
+  - As-is
+  added: 2026-02-11
+  updated: 2026-02-11
+
 - name: Tetris GameBoy Clone
   originals:
   - Tetris (Game Boy)
@@ -666,6 +805,27 @@
   images:
   - 'https://www.ticalc.org/archives/files/ss/713/71311.gif'
   - 'https://www.ticalc.org/archives/files/ss/713/71310.gif'
+
+- name: Tetris (in C and NCURSES)
+  originals:
+  - Tetris
+  type: remake
+  repo: https://github.com/brenns10/tetris
+  url: https://brennan.io/2015/06/12/tetris-reimplementation/
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - ncurses
+  - SDL
+  licenses:
+  - BSD
+  added: 2019-08-28
+  updated: 2019-08-28
+  images:
+  - https://raw.githubusercontent.com/brenns10/tetris/master/tetris.gif
 
 - name: Tetris Pyxel
   originals:
@@ -716,6 +876,22 @@
   - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7082.jpg'
   - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7076.jpg'
 
+- name: TetrisNESDisasm
+  originals:
+  - Tetris (NES)
+  type: remake
+  repo: 'https://github.com/CelestialAmber/TetrisNESDisasm'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Disassembly of Tetris (NES)
+  added: 2026-03-15
+  updated: 2026-03-15
+
 - name: TetrisPy
   originals:
   - Tetris
@@ -734,111 +910,21 @@
   images:
   - 'https://raw.githubusercontent.com/mehrdad-mixtape/TetrisPy/master/index.png'
 
-- name: TES3MP
-  originals:
-  - 'The Elder Scrolls III: Morrowind'
-  type: remake
-  repo: 'https://github.com/TES3MP/openmw-tes3mp'
-  url: 'https://tes3mp.com/'
-  development: halted
-  status: playable
-  multiplayer:
-  - Online
-  - LAN
-  content: swappable
-  langs:
-  - C++
-  licenses:
-  - GPL3
-  info: TES3MP is a project adding multiplayer functionality to OpenMW
-  added: 2019-01-20
-  updated: 2023-09-07
-  images:
-  - https://media.moddb.com/cache/images/engines/1/1/929/thumb_620x2000/170828b.png
-  - https://media.moddb.com/cache/images/engines/1/1/929/thumb_620x2000/vlcsnap-2983-11-27-07h06m58s509.png
-  - https://media.moddb.com/cache/images/engines/1/1/929/thumb_620x2000/vlcsnap-4274-01-22-03h12m11s414.png
-  - https://media.moddb.com/cache/images/engines/1/1/929/thumb_620x2000/vlcsnap-2432-09-08-08h21m43s889.png
-  - https://media.moddb.com/cache/images/engines/1/1/929/thumb_620x2000/vlcsnap-7947-01-28-20h26m56s612.png
-  video:
-    youtube: aZZ0piRvI58
-    moddb: 1907883
-
-- name: Tetrinet for Linux
-  originals:
-  - TetriNET
-  type: remake
-  repo: 'https://github.com/clientverify/tetrinet'
-  url: 'https://tetrinet.or.cz/'
-  feed: 'https://github.com/clientverify/tetrinet/releases.atom'
-  development: halted
-  status: playable
-  multiplayer:
-  - Online
-  langs:
-  - C
-  frameworks:
-  - ncurses
-  licenses:
-  - As-is
-  added: 2026-01-02
-  updated: 2026-01-02
-
-- name: tetris - Just another Tetris™ clone
-  images:
-  - https://raw.githubusercontent.com/spypunk/tetris/master/img/screenshot_start.png
-  - https://github.com/spypunk/tetris/blob/master/img/screenshot.png?raw=true
-  - https://github.com/spypunk/tetris/blob/master/img/screenshot_pause.png?raw=true
-  - https://github.com/spypunk/tetris/blob/master/img/screenshot_gameover.png?raw=true
-  langs:
-  - Java
-  licenses:
-  - WTFPL
-  content: open
-  originals:
-  - Tetris
-  status: playable
-  repo: https://github.com/spypunk/tetris
-  development: halted
-  type: remake
-  added: 2016-08-19
-  updated: 2023-09-08
-
-- name: Tetris (in C and NCURSES)
-  originals:
-  - Tetris
-  type: remake
-  repo: https://github.com/brenns10/tetris
-  url: https://brennan.io/2015/06/12/tetris-reimplementation/
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - C
-  frameworks:
-  - ncurses
-  - SDL
-  licenses:
-  - BSD
-  added: 2019-08-28
-  updated: 2019-08-28
-  images:
-  - https://raw.githubusercontent.com/brenns10/tetris/master/tetris.gif
-
-- name: Tetris-CSharp
+- name: TetriSX
   originals:
   - Tetris
   type: clone
-  repo: 'https://github.com/hayfield/Tetris-CSharp'
-  development: halted
+  url: 'https://www.hpcalc.org/details/6985'
+  development: complete
   status: playable
   langs:
-  - 'C#'
-  frameworks:
-  - WinForms
+  - RPL
   licenses:
   - As-is
-  added: 2026-02-11
-  updated: 2026-02-11
+  added: 2026-03-14
+  updated: 2026-03-14
+  images:
+  - 'https://www.hpcalc.org/hp48/games/arcade/sshots/tetrisx.png'
 
 - name: textsweeper
   originals:
@@ -915,6 +1001,24 @@
   video:
     youtube: 5y1P2BUCeuc
 
+- name: three-descent
+  originals:
+  - Descent
+  type: remake
+  repo: 'https://github.com/mrdoob/three-descent/'
+  url: 'https://mrdoob.github.io/three-descent/'
+  development: very active
+  status: semi-playable
+  content: commercial
+  langs:
+  - JavaScript
+  frameworks:
+  - three.js
+  licenses:
+  - MIT
+  added: 2026-02-15
+  updated: 2026-02-15
+
 - name: Three Dirty Dwarves prototype
   originals:
   - Three Dirty Dwarves
@@ -933,24 +1037,6 @@
   - As-is
   added: 2026-01-29
   updated: 2026-01-29
-
-- name: three-descent
-  originals:
-  - Descent
-  type: remake
-  repo: 'https://github.com/mrdoob/three-descent/'
-  url: 'https://mrdoob.github.io/three-descent/'
-  development: very active
-  status: semi-playable
-  content: commercial
-  langs:
-  - JavaScript
-  frameworks:
-  - three.js
-  licenses:
-  - MIT
-  added: 2026-02-15
-  updated: 2026-02-15
 
 - name: three-quake
   originals:
@@ -1454,6 +1540,28 @@
   added: 2025-10-05
   updated: 2025-10-05
 
+- name: TOMB5
+  type: remake
+  originals:
+  - Tomb Raider Chronicles
+  repo: https://github.com/TOMB5/TOMB5
+  development: halted
+  status: semi-playable
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  content: commercial
+  info: The project decompiles the original binaries and want to recreate the original source which is lost.
+  added: 2019-05-28
+  updated: 2023-09-12
+  images:
+  - https://i.imgur.com/YzFDlbRl.png
+  - https://i.imgur.com/Utuazgml.png
+  - https://i.imgur.com/g54Twxe.png
+
 - name: Tomb Engine
   originals:
   - Tomb Raider
@@ -1515,28 +1623,6 @@
   added: 2026-03-08
   updated: 2026-03-08
 
-- name: TOMB5
-  type: remake
-  originals:
-  - Tomb Raider Chronicles
-  repo: https://github.com/TOMB5/TOMB5
-  development: halted
-  status: semi-playable
-  langs:
-  - C
-  frameworks:
-  - SDL2
-  licenses:
-  - MIT
-  content: commercial
-  info: The project decompiles the original binaries and want to recreate the original source which is lost.
-  added: 2019-05-28
-  updated: 2023-09-12
-  images:
-  - https://i.imgur.com/YzFDlbRl.png
-  - https://i.imgur.com/Utuazgml.png
-  - https://i.imgur.com/g54Twxe.png
-
 - name: TONG
   originals:
   - Tetris
@@ -1560,23 +1646,25 @@
   images:
   - 'https://img.informer.com/pb/tong-v1-main-window-outlook.png'
 
-- name: Torrega Race
-  frameworks:
-  - "L\xD6VE"
-  images:
-  - https://i.imgur.com/qWgWeXA.png
-  langs:
-  - Lua
-  licenses:
-  - GPL3
-  development: complete
+- name: Toontown Online
   originals:
-  - Omega Race
-  repo: https://github.com/andwj/torrega
+  - Toontown Online
+  type: official
+  repo: 'https://github.com/satire6/Anesidora'
+  development: complete
   status: playable
-  type: similar
-  added: 2015-05-02
-  updated: 2015-05-02
+  multiplayer:
+  - Online
+  content: free
+  langs:
+  - Python
+  licenses:
+  - As-is
+  info: >-
+    The source resource files for the game are available at
+    https://github.com/satire6/Spotify
+  added: 2026-03-29
+  updated: 2026-03-29
 
 - name: Tornado
   originals:
@@ -1607,6 +1695,24 @@
     https://web.archive.org/web/20170806174943im_/https://kiza.eu/media/images/tornado/shot-lightning.png
   - >-
     https://web.archive.org/web/20170806174943im_/https://kiza.eu/media/images/tornado/shot-tornado.png
+
+- name: Torrega Race
+  frameworks:
+  - "L\xD6VE"
+  images:
+  - https://i.imgur.com/qWgWeXA.png
+  langs:
+  - Lua
+  licenses:
+  - GPL3
+  development: complete
+  originals:
+  - Omega Race
+  repo: https://github.com/andwj/torrega
+  status: playable
+  type: similar
+  added: 2015-05-02
+  updated: 2015-05-02
 
 - name: Total Annihilation 3D
   langs:
@@ -1984,6 +2090,25 @@
   - 'https://triplane.sourceforge.net/screenshot1.png'
   - 'https://triplane.sourceforge.net/screenshot2.png'
 
+- name: TriSpace
+  originals:
+  - Elite
+  type: clone
+  repo: 'https://github.com/robbi-blechdose/TriSpace'
+  feed: 'https://github.com/robbi-blechdose/TriSpace/releases.atom'
+  development: sporadic
+  status: playable
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  - TinyGL
+  licenses:
+  - AGPL3
+  added: 2026-03-21
+  updated: 2026-03-21
+
 - name: Tron
   frameworks:
   - jQuery
@@ -2250,6 +2375,22 @@
   added: 2015-07-19
   updated: 2015-07-19
 
+- name: 'Turok: Dinosaur Hunter (N64)'
+  originals:
+  - 'Turok: Dinosaur Hunter'
+  type: official
+  repo: 'https://github.com/Abhisheksinha1506/Turok-N64-Source-code'
+  url: 'https://www.pcgamesn.com/turok/turok-source-code-found'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-03-29
+  updated: 2026-03-29
+
 - name: TurokEX
   langs:
   - C++
@@ -2265,6 +2406,23 @@
   type: remake
   added: 2016-05-28
   updated: 2016-05-28
+
+- name: Turrican III
+  originals:
+  - Mega Turrican
+  type: official
+  repo: >-
+    https://web.archive.org/web/20160819003827/https://gilgalad.arc-nova.org/vgscr/amiga.html#:~:text=Turrican%20III
+  url: 'https://forum.amigaspirit.hu/index.php?action=vthread&forum=10&topic=89'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-03-18
+  updated: 2026-03-18
 
 - name: TUSSLE
   type: clone
