@@ -554,6 +554,22 @@
   images:
   - https://schuay.github.io/images/pacman_sdl.png
 
+- name: PacMan X
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://sourceforge.net/projects/pacmanx/'
+  feed: 'https://sourceforge.net/projects/pacmanx/rss?path=/'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  added: 2026-04-11
+  updated: 2026-04-11
+
 - name: pacman.c
   originals:
   - Pac-Man
