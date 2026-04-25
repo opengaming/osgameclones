@@ -1129,7 +1129,13 @@
 
 - name: Portal
   external:
+    website: https://web.archive.org/web/20180102203109/http://www.valvesoftware.com/games/portal.html
     wikipedia: Portal (video game)
+  platforms:
+  - Android
+  - Linux
+  - OSX
+  - Windows
   meta:
     genres:
     - FPS
