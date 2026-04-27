@@ -36,15 +36,19 @@
   originals:
   - Sonic 2
   type: remake
-  repo: 'https://github.com/NyperYuhgard/S2HD'
-  development: sporadic
-  status: unplayable
+  repo: 'https://github.com/SonicOrcaModding/S2HD'
+  feed: 'https://github.com/SonicOrcaModding/S2HD/releases.atom'
+  development: active
+  status: semi-playable
+  multiplayer:
+  - Local
+  - Split-screen
   content: commercial
   langs:
   - 'C#'
   licenses:
   - As-is
-  info: Sonic 2 HD Decompiled Source Code
+  info: A decompile of Sonic 2 HD
   added: 2026-04-27
   updated: 2026-04-27
 
