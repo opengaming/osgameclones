@@ -378,10 +378,18 @@
 
 - name: Alien 8
   external:
+    website: >-
+      https://web.archive.org/web/20041220232406/http://ultimate-wurlde.com/games/alien8intro.shtml
     wikipedia: Alien 8
+  platforms:
+  - Amstrad CPC
+  - MSX
+  - ZX Spectrum
   meta:
     genres:
     - Action
+    themes:
+    - Sci-Fi
 
 - name: Alien Bash II
   external:
@@ -1070,6 +1078,19 @@
     - Turn-Based Tactics
     themes:
     - Sci-Fi
+
+- name: Atic Atac
+  external:
+    website: >-
+      https://web.archive.org/web/20041220232649/http://ultimate-wurlde.com/games/aticatacintro.shtml
+    wikipedia: Atic Atac
+  platforms:
+  - ZX Spectrum
+  meta:
+    genres:
+    - Action
+    themes:
+    - Fantasy
 
 - name: Atomic Bomberman
   external:
