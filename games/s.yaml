@@ -3678,6 +3678,34 @@
   added: 2026-03-28
   updated: 2026-03-28
 
+- name: Sonic Advance 2
+  originals:
+  - Sonic Advance
+  - Sonic Advance 2
+  type: remake
+  repo: 'https://github.com/SAT-R/sa2'
+  url: 'https://sa2.dev/'
+  development: very active
+  status: semi-playable
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - As-is
+  info: >-
+    A decompilation and port of Sonic Advance 1 & 2 - GameBoy Advance game's
+    written in C
+  added: 2026-04-27
+  updated: 2026-04-27
+  images:
+  - 'https://raw.githubusercontent.com/SAT-R/sa2/main/.github/media/titlescreen.png'
+
 - name: Sonic Adventure DX
   originals:
   - Sonic Adventure
