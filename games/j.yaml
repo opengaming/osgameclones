@@ -313,6 +313,60 @@
   type: remake
   updated: 2022-09-13
 
+- name: Jet Set Willy 2021 Edition (BBC Micro)
+  originals:
+  - Jet Set Willy
+  type: remake
+  repo: 'https://github.com/TobyLobster/jsw2021'
+  url: 'https://stardot.org.uk/forums/viewtopic.php?t=23054'
+  development: halted
+  status: playable
+  langs:
+  - 'C#'
+  licenses:
+  - As-is
+  added: 2026-04-30
+  updated: 2026-04-30
+  images:
+  - 'https://raw.githubusercontent.com/TobyLobster/jsw2021/main/images/title.gif'
+  - 'https://raw.githubusercontent.com/TobyLobster/jsw2021/main/images/watch.png'
+  - 'https://raw.githubusercontent.com/TobyLobster/jsw2021/main/images/first.gif'
+  video:
+    youtube: KHj33IzaPYc
+
+- name: Jet Set Willy (BBC Micro)
+  originals:
+  - Jet Set Willy
+  type: remake
+  repo: 'https://github.com/TobyLobster/jsw'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    Based on the cassette version
+    (http://www.level7.org.uk/miscellany/jet-set-willy-disassembly.txt)
+  added: 2026-04-30
+  updated: 2026-04-30
+
+- name: Jet Set Willy disassembly
+  originals:
+  - Jet Set Willy
+  type: remake
+  repo: 'https://github.com/skoolkid/jetsetwilly'
+  url: 'https://skoolkid.github.io/jetsetwilly/'
+  feed: 'https://github.com/skoolkid/jetsetwilly/releases.atom'
+  development: complete
+  status: playable
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-04-30
+  updated: 2026-04-30
+
 - name: Jet-Story
   langs:
   - C++
@@ -711,6 +765,21 @@
   repo: https://github.com/hguillermo/jspacman-canvas
   type: remake
   updated: 2022-09-13
+
+- name: JSW1
+  originals:
+  - Jet Set Willy
+  type: remake
+  repo: 'https://mdfs.net/Software/JSW/BBC/JSW1/'
+  url: 'https://jswmm.co.uk/topic/28-jsw-bbc-computer-version/#comment-124'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-30
+  updated: 2026-04-30
 
 - name: Julius
   langs:
