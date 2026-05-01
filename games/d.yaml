@@ -355,6 +355,32 @@
   type: remake
   updated: 2022-04-18
 
+- name: DarkMatter Engine
+  originals:
+  - Quake 3
+  type: remake
+  repo: 'https://github.com/themuffinator/dm-engine'
+  url: 'https://lvlworld.com/thread/423/0'
+  feed: 'https://github.com/themuffinator/dm-engine/releases.atom'
+  development: halted
+  status: playable
+  multiplayer:
+  - Competitive
+  - Local
+  - LAN
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - Vulkan
+  - OpenGL
+  - SDL2
+  licenses:
+  - GPL2
+  info: 'DarkMatter is a new source port for QUAKE III: ARENA, based on Quake3e.'
+  added: 2026-05-02
+  updated: 2026-05-02
+
 - name: DarkPlaces
   images:
   - https://icculus.org/twilight/darkplaces/pics/rygelpack_pretty1.jpg
