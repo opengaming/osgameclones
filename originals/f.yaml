@@ -850,11 +850,16 @@
 
 - name: FreeSpace 2
   external:
+    website: 'https://web.archive.org/web/20070809100035/http://www.freespace2.com/'
     wikipedia: FreeSpace 2
+  platforms:
+  - Windows
   meta:
     genres:
     - Action
     - Simulation
+    subgenres:
+    - Space Flight
     themes:
     - Sci-Fi
 
