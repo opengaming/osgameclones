@@ -146,10 +146,17 @@
 
 - name: XPilot
   external:
+    website: 'https://www.xpilot.org/'
     wikipedia: XPilot
+  platforms:
+  - Classic Mac OS
+  - iOS
+  - Linux
+  - Windows
   meta:
     genres:
     - Arcade
+    - Shmup
 
 - name: XQuest
   external:
