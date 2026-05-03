@@ -402,6 +402,25 @@
   type: remake
   updated: 2022-11-13
 
+- name: re-Sonic06Demo
+  originals:
+  - Sonic the Hedgehog
+  type: official
+  repo: 'https://github.com/PranchaD/re-Sonic06Demo'
+  feed: 'https://github.com/PranchaD/re-Sonic06Demo/releases.atom'
+  development: sporadic
+  status: semi-playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: Sonic 06 Demo Recompilation using RexGlue
+  added: 2026-04-27
+  updated: 2026-04-27
+  video:
+    youtube: K0rugmqDaOk
+
 - name: re-virtua-cop-2
   originals:
   - Virtua Cop 2
@@ -2098,6 +2117,25 @@
   video:
     youtube: _l39NfOHPcY
 
+- name: RSDKv2 Decompilation
+  originals:
+  - Sonic Nexus
+  type: remake
+  repo: 'https://github.com/RSDKModding/RSDKv2-Decompilation'
+  feed: 'https://github.com/RSDKModding/RSDKv2-Decompilation/releases.atom'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - Custom
+  info: A decompilation of the 2008 Retro-Sonic Engine Demo of Sonic Nexus
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: RSDKv3
   originals:
   - Sonic CD
@@ -2122,10 +2160,11 @@
 - name: RSDKv4-Decompilation
   originals:
   - Sonic the Hedgehog
+  - Sonic 2
   type: remake
   repo: https://github.com/RSDKModding/RSDKv4-Decompilation
   feed: https://github.com/RSDKModding/RSDKv4-Decompilation/releases.atom
-  development: active
+  development: sporadic
   status: playable
   content: commercial
   langs:
@@ -2136,7 +2175,7 @@
   licenses:
   - Custom
   added: 2021-07-12
-  updated: 2025-06-29
+  updated: 2026-04-27
   info: A complete decompilation of Retro Engine v4 and the menus from Sonic 1 and 2 (2013)
   video:
     youtube: gzIfRW91IxE
