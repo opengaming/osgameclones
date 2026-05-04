@@ -811,6 +811,22 @@
   images:
   - 'https://cdn.kde.org/screenshots/kmines/kmines.png'
 
+- name: Knight Lore disassembly
+  originals:
+  - Knight Lore
+  type: remake
+  repo: 'https://www.level7.org.uk/miscellany/knightlore-disassembly.txt'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Disassembly of Knight Lore on BBC Micro
+  added: 2026-04-18
+  updated: 2026-04-18
+
 - name: KnightOfWor
   langs:
   - Java
@@ -852,6 +868,24 @@
   type: remake
   updated: 2022-07-13
   url: https://www.knightsgame.org.uk/
+
+- name: Knuckles' Chaotix Disassembly
+  originals:
+  - Knuckles' Chaotix
+  type: remake
+  repo: 'https://github.com/sonicretro/chaotix'
+  url: 'https://forums.sonicretro.org/threads/my-incomplete-chaotix-disassembly.43054/'
+  development: sporadic
+  status: semi-playable
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-03-28
+  updated: 2026-03-28
 
 - name: Knytt Stories DS
   originals:
@@ -999,6 +1033,25 @@
   updated: 2025-07-28
   images:
   - 'https://kde.org/images/screenshots/ksnakeduel.png'
+
+- name: ktes2
+  originals:
+  - Sonic 2
+  type: remake
+  repo: 'https://github.com/sonicretro/ktes2/'
+  development: halted
+  status: semi-playable
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: >-
+    Knucles the Echidna in Sonic 2
+    (https://segaretro.org/Knuckles_the_Echidna_in_Sonic_the_Hedgehog_2)
+    Disassembly
+  added: 2026-03-28
+  updated: 2026-03-28
 
 - name: Kumquat
   originals:

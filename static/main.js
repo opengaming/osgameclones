@@ -5,28 +5,6 @@ var params = window.params = {};
 // Keep track of multiple selected tags
 var selectedTags = window.selectedTags = new Set();
 
-// Lazy load badges when they become visible (avoid error 429)
-function lazyloadHandler(e) {
-  var elements = document.querySelectorAll("img.lazyload");
-  for (var i = 0; i < elements.length; i++) {
-    var boundingClientRect = elements[i].getBoundingClientRect();
-    if (
-      elements[i].hasAttribute("data-src") &&
-      boundingClientRect.top < window.innerHeight &&
-      // Ensure parent game is not hidden
-      elements[i].offsetParent != null
-    ) {
-      elements[i].setAttribute("src", elements[i].getAttribute("data-src"));
-      elements[i].removeAttribute("data-src");
-    }
-  }
-}
-
-function handleContentChanged() {
-  setCount();
-  lazyloadHandler();
-}
-
 // menu
 (function() {
   const nav = document.getElementById('nav');
@@ -89,7 +67,7 @@ function filter(filter_value) {
       filter_value.split(' ').map(getFilter).join('') +
       "{display: block}";
   }
-  handleContentChanged();
+  setCount();
 }
 
 (function() {
@@ -130,7 +108,7 @@ function filterBySelectedTags() {
     for (var d = 0; d < dts.length; d++) {
       dts[d].classList.remove('active');
     }
-    handleContentChanged();
+    setCount();
     return;
   }
 
@@ -164,7 +142,7 @@ function filterBySelectedTags() {
     else dt.classList.remove('active');
   }
 
-  handleContentChanged();
+  setCount();
 }
 
 function sortByUpdated(e) {
@@ -401,12 +379,28 @@ function toggleTagByName(curTag) {
 })();
 
 // Lazy load badges
-(function() {
-  window.addEventListener('scroll', lazyloadHandler);
-  window.addEventListener('load', lazyloadHandler);
-  window.addEventListener('resize', lazyloadHandler);
-})();
+window.addEventListener('load', function () {
+  // Lazy load badges when they become visible (avoid error 429)
+  var lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(function(entry) {
+      if (!entry.isIntersecting) return;
 
+      var img = entry.target;
+      if (img.hasAttribute('data-src')) {
+        img.src = img.getAttribute('data-src');
+        img.removeAttribute('data-src');
+      }
+      observer.unobserve(img);
+    });
+  }, {
+    rootMargin: '25% 0px'
+  });
+
+  var lazyElements = document.querySelectorAll('img.lazyload[data-src]');
+  for (var i = 0; i < lazyElements.length; i++) {
+    lazyImageObserver.observe(lazyElements[i]);
+  }
+});
 
 function getQueryParams() {
     var queryParams = window.location.search.substr(1).split('&').reduce(function (q, query) {
@@ -463,7 +457,6 @@ function setCount() {
 }
 
 (function () {
-  setCount();
   params = getQueryParams();
   if (params.hasOwnProperty('tag')) {
     var raw = (params['tag'] + '').split(',').map(function(s){ return s.trim(); }).filter(Boolean);
@@ -476,7 +469,5 @@ function setCount() {
     document.getElementById('filter').value = params['filter'];
   }
 
-  const sortBtnLbl = document.getElementById('sort-button-label');
-  sortBtnLbl.innerHTML = "Updated";
-  sortBtnLbl.addEventListener('click', sortByUpdated);
+  document.getElementById('sort-button-label').addEventListener('click', sortByUpdated);
 })(); 

@@ -108,6 +108,8 @@ li.active .nav-btn { font-weight: bold; }
 
 /* content */
 
+#content { content-visibility: auto; }
+
 article header h1, #posts h2 { margin-top: 0; }
 article header details { color: #ccc; margin-top: -1.5em; margin-bottom: 1em; }
 article header details a { color: grey; }
@@ -315,11 +317,11 @@ dd + dt { margin-top: 1em; }
 }
 
 
-.dark-theme a { color: #0686CB}
+.dark-theme a { color: #0686CB; }
 
 .dark-theme li.active .nav-btn,
 .dark-theme li.active .nav-count {
-   color: #000
+   color: #000;
 }
 
 .nav-btn-right {

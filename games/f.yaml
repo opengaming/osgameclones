@@ -77,6 +77,22 @@
   type: remake
   updated: 2022-08-09
 
+- name: F-Zero X
+  originals:
+  - F-Zero X
+  type: remake
+  repo: 'https://github.com/BttrDrgn/f-zerox'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: F-Zero X Decompilation
+  added: 2026-04-22
+  updated: 2026-04-22
+
 - name: F.A. Premier League Stars prototype
   originals:
   - The F.A. Premier League Stars
@@ -330,6 +346,33 @@
   - As-is
   added: 2026-02-11
   updated: 2026-03-03
+
+- name: FFED3D
+  originals:
+  - Elite III
+  type: remake
+  repo: 'https://github.com/corpsofengineers/ffed3d'
+  url: 'https://www.frontierastro.co.uk/Hires/hiresffe.html'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - Assembly
+  - C++
+  frameworks:
+  - DirectX
+  licenses:
+  - As-is
+  info: Frontier First Encounters D3D is an adaptation of the original FFE game
+  added: 2026-04-16
+  updated: 2026-04-16
+  images:
+  - 'https://www.frontierastro.co.uk/Hires/Osprey.jpg'
+  - 'https://www.frontierastro.co.uk/Hires/Viper.jpg'
+  - 'https://www.frontierastro.co.uk/Hires/Fawaol.jpg'
+  - 'https://www.frontierastro.co.uk/Hires/IPS.jpg'
+  video:
+    youtube: _rd2oNhYu68
 
 - name: fheroes2
   images:
@@ -2210,6 +2253,21 @@
   - As-is
   added: 2026-03-20
   updated: 2026-03-20
+
+- name: Frogger (Game Boy)
+  originals:
+  - Frogger
+  type: official
+  repo: 'https://github.com/HighwayFrogs/frogger-gb'
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: The source code to Frogger for Game Boy / Game Boy Color
+  added: 2026-04-22
+  updated: 2026-04-22
 
 - name: Froggix
   images:

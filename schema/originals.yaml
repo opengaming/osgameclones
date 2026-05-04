@@ -50,6 +50,7 @@ schema;meta:
 schema;platforms:
   type: str
   enum: [
+    '32X',
     '3DO',
     '3DS',
     'Acorn 32-bit',
@@ -60,6 +61,7 @@ schema;platforms:
     'Apple TV',
     'Arcade',
     'Atari',
+    'BBC Micro',
     'BeOS',
     'CD-i',
     'Classic Mac OS',

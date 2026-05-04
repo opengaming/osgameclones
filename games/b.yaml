@@ -393,6 +393,25 @@
   video:
     youtube: dH1ErhJa3Qo
 
+- name: 'Banjo: Recompiled'
+  originals:
+  - Banjo-Kazooie
+  type: remake
+  repo: 'https://github.com/BanjoRecomp/BanjoRecomp'
+  url: 'https://defaultdnb.github.io/ReCollect64/Blog/Features/2026/Misc/b275.html'
+  feed: 'https://github.com/BanjoRecomp/BanjoRecomp/releases.atom'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2026-04-18
+  updated: 2026-04-18
+
 - name: Bansoko
   originals:
   - Soko-Ban
@@ -856,6 +875,44 @@
     https://camo.githubusercontent.com/a4b9ca88496dd6f5e865cb9909ff27881dd4e9fa1d2ddcb4acfe306ef2ed2532/68747470733a2f2f692e696d6775722e636f6d2f657176586d74642e706e67
   - >-
     https://camo.githubusercontent.com/cc6ffbb1766f0d84dbfc84c87b8562caee3d0608e31536c803e173e30edfa5a4/68747470733a2f2f692e696d6775722e636f6d2f7532765053764f2e706e67
+
+- name: Beach-Head Ia
+  originals:
+  - Beach-Head
+  type: remake
+  url: 'https://csdb.dk/release/?id=111671'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-19
+  updated: 2026-04-19
+  images:
+  - https://csdb.dk/gfx/releases/111000/111671.gif
+
+- name: Beach-Head Ia ReM
+  originals:
+  - Beach-Head
+  type: remake
+  url: 'https://csdb.dk/release/?id=145118'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-19
+  updated: 2026-04-19
+  images:
+  - 'https://csdb.dk/gfx/releases/145000/145118.gif'
 
 - name: Beasts and Bumpkins Fan Patch
   originals:
@@ -1617,6 +1674,27 @@
   updated: 2025-10-12
   images:
   - https://raw.githubusercontent.com/wpdevelopment11/blocks/refs/heads/main/demo.gif
+
+- name: Blocks Rain
+  originals:
+  - Tetris
+  type: clone
+  repo: 'https://www.allegro.cc/depot/BlocksRain'
+  url: >-
+    https://web.archive.org/web/20040607155822/http://members.lycos.co.uk/gpr2k/#:~:text=Blocks%20Rain
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - Custom
+  added: 2026-04-17
+  updated: 2026-04-17
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1585_large.jpg'
 
 - name: Blood & Magic Interactive Demo
   originals:

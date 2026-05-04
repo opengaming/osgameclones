@@ -5,25 +5,75 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title|default('Open Source Game Clones', true) }}</title>
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script defer type="text/javascript" src="/static/main.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script defer data-goatcounter="https://osgc.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
     <meta name="author" content="Open Gaming Collective">
     <meta name="keywords" content="{{ keywords|default('open source, game, clone, remake, remakes', true) }}">
     <meta name="description" content="{{ description|default('List of open source clones and remakes of popular old-school games.', true) }}">
     <meta name="application-name" content="OS Game Clones">
     <meta name="application-url" content="http://osgameclones.com/">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/static/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-    />
     <link type="application/atom+xml" rel="alternate" href="https://osgameclones.com/feed.xml" title="Open Source Game Clones" />
-    <title>{{ title|default('Open Source Game Clones', true) }}</title>
   </head>
 
   <body>
-    <script type="text/javascript" src="/static/dark-theme.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script>
+      const DARK_THEME_CLASS = 'dark-theme';
+      const LIGHT_THEME_CLASS = 'light-theme';
+      const THEME_KEY = 'theme';
+
+      function setDarkTheme() {
+        document.documentElement.classList.remove(LIGHT_THEME_CLASS);
+        document.documentElement.classList.add(DARK_THEME_CLASS);
+      }
+
+      function setLightTheme() {
+        document.documentElement.classList.remove(DARK_THEME_CLASS);
+        document.documentElement.classList.add(LIGHT_THEME_CLASS);
+      }
+
+      function toggleDarkTheme() {
+        if (document.documentElement.classList.contains(DARK_THEME_CLASS)) {
+          setLightTheme();
+          localStorage.setItem(THEME_KEY, 'light')
+        } else {
+          setDarkTheme();
+          localStorage.setItem(THEME_KEY, 'dark')
+        }
+      }
+
+      // enable dark theme as soon as possible so first paint is already dark mode
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+        if (localStorage.getItem(THEME_KEY) === null) {
+          if (event.matches) {
+            setDarkTheme();
+          } else {
+            setLightTheme();
+          }
+        }
+      });
+
+      if (localStorage.getItem(THEME_KEY) === 'dark') {
+          setDarkTheme();
+      } else if (localStorage.getItem(THEME_KEY) === 'light') {
+          setLightTheme();
+      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          setDarkTheme();
+      } else {
+          setLightTheme();
+      }
+
+      // handle theme button label and listener once DOM fully loaded
+      window.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('dark-theme-button').addEventListener('click', toggleDarkTheme);
+      });
+    </script>
+    
 {%- endmacro -%}
 
 
@@ -40,9 +90,6 @@
 
     <style id="filter-style"></style>
     <style id="tag-style"></style>
-    <script type="text/javascript" src="/static/main.js" async></script>
-
-    <script data-goatcounter="https://osgc.goatcounter.com/count" src="//gc.zgo.at/count.js" async></script>
   </body>
 </html>
 {%- endmacro -%}
@@ -99,7 +146,7 @@
       </li>
 
       <li>
-        <span class="nav-count lg-view">xxxx/yyyy games</span>
+        <span class="nav-count lg-view">{{ site.clones_count }}/{{ site.clones_count }} games</span>
       </li>
     </ul>
 
@@ -109,7 +156,7 @@
     </span>
     <span class="nav-btn nav-btn-right">
       <i class="fa-solid fa-sort"></i>
-      <span id="sort-button-label">........</span>
+      <span id="sort-button-label">Updated</span>
     </span>
   </div>
   <div class="container">
