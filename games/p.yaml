@@ -1376,6 +1376,28 @@
   video:
     youtube: -5CJ0Of43C8
 
+- name: Phoenix DOOM
+  originals:
+  - Doom
+  type: remake
+  repo: 'https://github.com/BodbDearg/phoenix_doom'
+  url: 'https://www.doomworld.com/vb/thread/109173'
+  feed: 'https://github.com/BodbDearg/phoenix_doom/releases.atom'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - MIT
+  info: A backport of 3DO Doom to PC
+  added: 2026-04-20
+  updated: 2026-04-20
+  images:
+  - https://raw.githubusercontent.com/BodbDearg/phoenix_doom/master/docs/PhoenixDoomBanner.png
+  video:
+    youtube: 2B_D0KB0wp0
+
 - name: Picmi
   originals:
   - Picross Series
@@ -2801,6 +2823,26 @@
   images:
   - >-
     https://github.com/user-attachments/assets/35e9b894-9114-4bb9-bcaa-a186e454b043
+
+- name: 'Portal 64: Still Alive'
+  originals:
+  - Portal
+  type: remake
+  repo: 'https://github.com/mwpenny/portal64-still-alive'
+  url: 'https://logic68consolessystem.fr/article/portal64-still-alive'
+  feed: 'https://github.com/mwpenny/portal64-still-alive/releases.atom'
+  development: active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - MIT
+  info: A demake of Portal for the Nintendo 64
+  added: 2026-04-25
+  updated: 2026-04-25
+  images:
+  - https://raw.githubusercontent.com/mwpenny/portal64-still-alive/refs/heads/master/assets/images/readme_slideshow.gif
 
 - name: Porting Pong From Flash To C++
   originals:
