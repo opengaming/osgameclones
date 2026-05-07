@@ -107,10 +107,15 @@
 
 - name: Jetpac
   external:
+    website: >-
+      https://web.archive.org/web/20041222004341/http://ultimate-wurlde.com/games/jetpacintro.shtml
     wikipedia: Jetpac
+  platforms:
+  - ZX Spectrum
   meta:
     genres:
     - Arcade
+    - Shooter
 
 - name: Jetpack
   external:
