@@ -426,6 +426,13 @@ def parse_data(site):
             })
         else:
             repos_and_urls.add((repo, url))
+
+        # Language or framework required
+        if not clone.get("langs") and not clone.get("frameworks"):
+            errors.append({
+                "name": clone["name"],
+                "error": "Has no languages or frameworks"
+            })
         
         for original in clone['originals']:
             originals_with_clones.add(original)
