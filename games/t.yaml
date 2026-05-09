@@ -2364,6 +2364,34 @@
   - >-
     https://web.archive.org/web/20130213232058im_/http://blog.poweredbytoast.com/content/tunneltanks3.png
 
+- name: TurboQuake
+  originals:
+  - Quake
+  type: remake
+  repo: 'https://github.com/goshhhy/TurboQuake'
+  feed: 'https://github.com/goshhhy/TurboQuake/releases.atom'
+  development: sporadic
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  - DOS
+  - N64
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2026-03-10
+  updated: 2026-05-09
+
 - name: turnabout
   langs:
   - Elm
