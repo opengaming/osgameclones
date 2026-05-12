@@ -129,6 +129,29 @@
   added: 2026-04-21
   updated: 2026-04-21
 
+- name: NakedLinuxDoom
+  originals:
+  - Doom
+  type: remake
+  repo: 'https://github.com/atsb/NakedLinuxDoom'
+  feed: 'https://github.com/atsb/NakedLinuxDoom/releases.atom'
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL3
+  licenses:
+  - MIT
+  info: Linux Doom converted to SDL3
+  added: 2026-05-13
+  updated: 2026-05-13
+
 - name: Nanosaur
   originals:
   - Nanosaur
