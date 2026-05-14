@@ -2967,13 +2967,16 @@
 
 - name: Pop'em
   originals:
-  - Jawbreaker
+  - SameGame
   type: clone
   repo: 'https://www.allegro.cc/depot/POPEM'
   url: >-
     https://web.archive.org/web/20080913162849mp_/http://www.freelunchdesign.com/games.php?id=4
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - OSX
   content: open
   langs:
   - C
