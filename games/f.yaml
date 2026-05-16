@@ -786,6 +786,27 @@
   video:
     youtube: 1FTGFpb1f_0
 
+- name: Flash Flood
+  originals:
+  - Flash Flood
+  type: remake
+  repo: 'https://www.allegro.cc/depot/FlashFlood'
+  url: 'http://www.matthewleverton.com/games/flashflood/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-05-04
+  updated: 2026-05-04
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1201_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1200_large.png'
+
 - name: F.LF
   development: complete
   images:
@@ -1482,6 +1503,8 @@
   - Doom
   status: playable
   repo: https://github.com/freedoom/freedoom
+  langs:
+  - Python
   type: remake
   updated: 2023-11-29
   url: https://freedoom.github.io/
@@ -2268,6 +2291,21 @@
   info: The source code to Frogger for Game Boy / Game Boy Color
   added: 2026-04-22
   updated: 2026-04-22
+
+- name: Frogger He's Back (PlayStation)
+  originals:
+  - "Frogger: He's Back!"
+  type: remake
+  repo: 'https://github.com/HighwayFrogs/frogger-psx'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-05-01
+  updated: 2026-05-01
 
 - name: Froggix
   images:

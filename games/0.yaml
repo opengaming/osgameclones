@@ -14,6 +14,10 @@
   - Age of Empires
   repo: https://trac.wildfiregames.com/timeline
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: similar
   url: https://play0ad.com/
   feed: http://feeds.feedburner.com/0adrevisions
@@ -32,6 +36,8 @@
   url: 'https://projecthub.arduino.cc/flyingangel/1d-pong-1a0acf'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   multiplayer:
   - Competitive
   - Local
@@ -55,6 +61,8 @@
   url: 'https://verysoftwares.itch.io/1jetpackexe'
   development: active
   status: semi-playable
+  platforms:
+  - Web
   content: free
   langs:
   - Lua
@@ -86,6 +94,10 @@
   - Master of Orion
   repo: https://gitlab.com/KilgoreTroutMaskReplicant/1oom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - DOS
   type: remake
   updated: 2019-04-15
   url: https://kilgoretroutmaskreplicant.gitlab.io/plain-html/
@@ -98,6 +110,10 @@
   feed: https://github.com/1oom-fork/1oom/releases.atom
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - DOS
   content: commercial
   langs:
   - C
@@ -118,6 +134,9 @@
   feed: 'https://sourceforge.net/projects/toohardforyou/rss?path=/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -139,9 +158,10 @@
   - Master of Orion 2
   type: remake
   repo: 'https://sourceforge.net/projects/toom/'
-  url: http://toom.sourceforge.net/home/
   development: halted
   status: unplayable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C++
@@ -159,6 +179,9 @@
   feed: 'https://sourceforge.net/p/twopong/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -180,6 +203,10 @@
   repo: 'https://github.com/HarbourMasters/2ship2harkinian'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C
@@ -197,6 +224,8 @@
   url: http://www.newbreedsoftware.com/3dpong/index2.php3
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -233,6 +262,8 @@
   updated: 2022-06-10
   url: https://lo-th.github.io/3d.city/index.html
   status: playable
+  platforms:
+  - Web
   content: open
   images:
   - https://lo-th.github.io/3d.city/assets/img/preview01.jpg
@@ -247,9 +278,14 @@
   - Wolfenstein 3D
   type: remake
   repo: https://github.com/3dfxdev/EDGE
-  url: https://sourceforge.net/projects/edge2/
+  url: https://3dfxdev.net/edgewiki/index.php?title=Main_Page
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Dreamcast
   content: commercial
   langs:
   - C++
@@ -273,6 +309,8 @@
   feed: 'https://github.com/retroloveletter/Wreckman/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - 3DO
   content: free
   langs:
   - C
@@ -297,6 +335,8 @@
   updated: 2025-06-20
   url: https://sourceforge.net/projects/dtris/
   status: playable
+  platforms:
+  - Linux
   frameworks:
   - SDL
   - OpenGL
@@ -311,6 +351,8 @@
   repo: 'https://github.com/7k2/7k2'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -333,6 +375,10 @@
   url: https://07th-mod.com
   development: sporadic
   status: N/A
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   langs:
   - Python
   - JavaScript
@@ -355,6 +401,8 @@
   url: 'https://projecthub.arduino.cc/candystan/8x8-tetris-e57938'
   development: sporadic
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C
   frameworks:
@@ -372,6 +420,8 @@
   repo: 'https://github.com/jnmartin84/64doom'
   development: sporadic
   status: playable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -393,6 +443,8 @@
   url: 'https://www.allegro.cc/depot/80x25Breakout'
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -412,6 +464,8 @@
   url: 'https://tcrf.net/360:_Three_Sixty'
   development: complete
   status: playable
+  platforms:
+  - PlayStation
   multiplayer:
   - Split-screen
   content: commercial
@@ -422,30 +476,6 @@
   added: 2026-01-16
   updated: 2026-01-16
 
-- name: 486quake
-  originals:
-  - Quake
-  type: remake
-  repo: 'https://github.com/goshhhy/486quake'
-  feed: 'https://github.com/goshhhy/486quake/releases.atom'
-  development: sporadic
-  status: playable
-  multiplayer:
-  - Competitive
-  - Online
-  - LAN
-  content: commercial
-  langs:
-  - C
-  - Assembly
-  frameworks:
-  - OpenGL
-  licenses:
-  - GPL2
-  info: Quake but it do a faster
-  added: 2026-03-10
-  updated: 2026-03-10
-
 - name: 1010! Klooni
   originals:
   - '1010'
@@ -454,6 +484,8 @@
   url: 'https://lonami.dev/klooni/'
   development: complete
   status: playable
+  platforms:
+  - Android
   content: open
   langs:
   - Java
@@ -475,6 +507,8 @@
   url: 'https://www.hpcalc.org/details/9650'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - Python
   licenses:
@@ -483,29 +517,6 @@
   updated: 2026-03-05
   images:
   - 'https://www.hpcalc.org/prime/games/sshots/trek.png'
-
-- name: 2004scape
-  originals:
-  - RuneScape
-  type: remake
-  repo: 'https://github.com/2004scape/Server'
-  url: 'https://2004scape.org/'
-  development: very active
-  status: semi-playable
-  multiplayer:
-  - Competitive
-  - Online
-  - Co-op
-  content: commercial
-  langs:
-  - TypeScript
-  licenses:
-  - MIT
-  added: 2024-09-07
-  updated: 2024-09-07
-  images:
-  - 'https://i.imgur.com/7ZToFdR.jpeg'
-  info: Lost City's from-scratch game server
 
 - name: 2006scape
   originals:
@@ -516,6 +527,11 @@
   feed: https://github.com/2006-Scape/2006Scape/releases.atom
   development: halted
   status: playable
+  platforms:
+  - Web
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -541,6 +557,11 @@
   url: 'https://2009scape.org'
   development: very active
   status: playable
+  platforms:
+  - Web
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -563,6 +584,8 @@
   repo: 'https://github.com/savetz/10line-2019-Bomber'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - BASIC
   licenses:
@@ -580,14 +603,21 @@
   - '2048'
   type: official
   repo: 'https://github.com/gabrielecirulli/2048'
+  url: https://play2048.co
   development: complete
   status: playable
+  platforms:
+  - Web
+  - iOS
+  - Android
   content: open
   langs:
   - JavaScript
   licenses:
   - MIT
   updated: '2023-09-28'
+  images:
+  - https://cloud.githubusercontent.com/assets/1175750/8614312/280e5dc2-26f1-11e5-9f1f-5891c3ca8b26.png
 
 - name: 2048-curses
   originals:
@@ -597,6 +627,8 @@
   url: 'https://aur.archlinux.org/packages/2048-curses'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -611,9 +643,11 @@
   - '2048'
   type: clone
   repo: 'https://github.com/ScrambledEggsOnToast/2048-elm'
-  url: 'https://scrambledeggsontoast.github.io/2014/05/09/writing-2048-elm/'
+  url: https://scrambledeggsontoast.github.io/2048-elm/build/
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - Elm
   licenses:
@@ -628,6 +662,8 @@
   repo: 'https://github.com/mwerbos/2048haskell'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Haskell
   frameworks:
@@ -644,6 +680,8 @@
   repo: 'https://github.com/alewmoose/2048-in-terminal'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -664,6 +702,8 @@
   feed: 'https://github.com/andstatus/game2048/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Android
   content: open
   langs:
   - Kotlin
@@ -691,6 +731,8 @@
   feed: 'https://github.com/rhoit/2048/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - Shell
   frameworks:
@@ -712,6 +754,8 @@
   feed: 'https://codeberg.org/LadueCS/2048.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - Python
   licenses:
@@ -726,6 +770,8 @@
   repo: 'https://github.com/yangshun/2048-python'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Python
@@ -744,6 +790,9 @@
   feed: 'https://github.com/xiaoyong/2048-Qt/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - QML
@@ -767,6 +816,8 @@
   url: 'https://crates.io/crates/game-2048'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - Rust
   licenses:
@@ -784,6 +835,8 @@
   url: 'https://crates.io/crates/tfe'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - Rust
   licenses:
@@ -799,6 +852,8 @@
   url: https://bxl909.github.io/2048sats/
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -815,6 +870,8 @@
   feed: 'https://gitlab.com/NoahJelen/2048-vanced.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - Rust
@@ -837,6 +894,8 @@
   feed: 'https://github.com/mevdschee/2048.c/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -857,6 +916,9 @@
   url: 'https://ports.macports.org/port/2048.cpp/'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
   content: open
   langs:
   - C++
@@ -874,6 +936,8 @@
   repo: 'https://github.com/8Gitbrix/2048Haskell'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Haskell
   frameworks:
@@ -894,6 +958,10 @@
   feed: 'https://github.com/dbohdan/2048.tcl/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   langs:
   - Tcl
   licenses:
@@ -910,6 +978,8 @@
   feed: 'https://github.com/mattvchandler/2050/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Android
   langs:
   - C++
   - Kotlin
@@ -937,6 +1007,8 @@
   url: 'https://elite.bbcelite.com/6502sp/'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -957,6 +1029,8 @@
   repo: 'https://github.com/LambdaSharp/LambdaRobots'
   development: halted
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Competitive
   langs:
@@ -978,6 +1052,8 @@
   repo: 'https://github.com/goshhhy/uquake'
   development: halted
   status: unplayable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C

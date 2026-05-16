@@ -671,6 +671,29 @@
   updated: 2013-08-04
   url: http://sourceforge.net/projects/glestae/
 
+- name: glFFE
+  originals:
+  - Elite III
+  type: remake
+  repo: 'https://web.archive.org/web/20211123060910/https://nic.dnsalias.com/FFE.html'
+  url: 'https://www.frontierastro.co.uk/Hires/glffe.html'
+  development: complete
+  status: playable
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  frameworks:
+  - SDL
+  - OpenGL
+  licenses:
+  - As-is
+  added: 2026-04-29
+  updated: 2026-04-29
+  images:
+  - 'https://www.frontierastro.co.uk/Hires/glffe1.jpg'
+  - 'https://www.frontierastro.co.uk/Hires/glffe2.jpg'
+
 - name: GLFrontier
   originals:
   - Elite II
@@ -1941,6 +1964,24 @@
   images:
   - https://web.archive.org/web/20230824165422im_/https://home.mayn.de/comrad/images/articles/vsgarage_deutsch/shot_003.jpg
 
+- name: Gunstar Heroes Disassembly
+  originals:
+  - Gunstar Heroes
+  type: remake
+  url: 'https://www.romhacking.net/documents/721/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Co-op
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-21
+  updated: 2026-04-21
+
 - name: GUSANOS
   development: halted
   licenses:
@@ -1948,6 +1989,8 @@
   originals:
   - Liero
   repo: https://sourceforge.net/projects/gusanos/
+  langs:
+  - C++
   status: playable
   type: remake
   updated: 2019-08-17

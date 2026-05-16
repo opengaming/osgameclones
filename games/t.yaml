@@ -1237,6 +1237,26 @@
   added: 2018-02-05
   updated: 2025-02-08
 
+- name: TI-Minesweeper
+  originals:
+  - Minesweeper
+  type: remake
+  url: 'https://www.ticalc.org/archives/files/fileinfo/138/13840.html'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-05-03
+  updated: 2026-05-03
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/59/5907.gif'
+  - 'https://www.ticalc.org/archives/files/ss/59/5906.gif'
+  - 'https://www.ticalc.org/archives/files/ss/59/5905.gif'
+  - 'https://www.ticalc.org/archives/files/ss/59/5904.gif'
+
 - name: ticalc
   originals:
   - Excitebike
@@ -1859,6 +1879,9 @@
   originals:
   - Blood
   repo: https://sourceforge.net/projects/blood/
+  langs:
+  - QuakeC
+  - C
   status: playable
   type: remake
   added: 2013-11-12
@@ -2360,6 +2383,34 @@
     https://web.archive.org/web/20130213232058im_/http://blog.poweredbytoast.com/content/tunneltanks2.png
   - >-
     https://web.archive.org/web/20130213232058im_/http://blog.poweredbytoast.com/content/tunneltanks3.png
+
+- name: TurboQuake
+  originals:
+  - Quake
+  type: remake
+  repo: 'https://github.com/goshhhy/TurboQuake'
+  feed: 'https://github.com/goshhhy/TurboQuake/releases.atom'
+  development: sporadic
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  - DOS
+  - N64
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  frameworks:
+  - OpenGL
+  licenses:
+  - GPL2
+  added: 2026-03-10
+  updated: 2026-05-09
 
 - name: turnabout
   langs:

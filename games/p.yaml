@@ -496,6 +496,29 @@
   images:
   - 'https://a.fsdn.com/con/app/proj/pacmanincwithsd/screenshots/pacman-game.jpg'
 
+- name: Pacman-popup
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://sourceforge.net/projects/pacman-popup/'
+  feed: 'https://sourceforge.net/p/pacman-popup/activity/feed'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - JavaScript
+  - CSS
+  - HTML
+  licenses:
+  - As-is
+  info: Pacman popup browser extension
+  added: 2026-04-24
+  updated: 2026-04-24
+  images:
+  - https://a.fsdn.com/con/app/proj/pacman-popup/screenshots/Screenshot%20%28216%29.png
+  - https://a.fsdn.com/con/app/proj/pacman-popup/screenshots/Screenshot%20%28217%29.png
+  - https://a.fsdn.com/con/app/proj/pacman-popup/screenshots/Screenshot%20%28218%29.png
+
 - name: Pacman_Qt
   originals:
   - Pac-Man
@@ -1827,6 +1850,23 @@
   - >-
     https://github.com/maxerbox/Planet-Lander-with-pygame/raw/master/media/media/credit.png
 
+- name: The Planet of Death
+  originals:
+  - 'Adventure A: Planet of Death'
+  type: remake
+  url: 'https://www.ticalc.org/archives/files/fileinfo/141/14125.html'
+  development: complete
+  status: playable
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-05-02
+  updated: 2026-05-02
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/54/5483.gif'
+  - 'https://www.ticalc.org/archives/files/ss/54/5482.gif'
+
 - name: PlanetaryDefense
   originals:
   - Planetary Defense
@@ -2303,6 +2343,24 @@
   added: 2026-01-22
   updated: 2026-01-22
 
+- name: Pokémon Red++
+  originals:
+  - Pokémon Red, Blue, and Yellow
+  type: remake
+  repo: 'https://github.com/jayceekaycee/RedPlusPlus'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: An upgrade to Pokémon Red. Fixes several bugs and adds a lot of new features
+  added: 2026-05-03
+  updated: 2026-05-03
+
 - name: Pokémon Ruby and Sapphire
   originals:
   - Pokémon Ruby and Sapphire
@@ -2575,6 +2633,25 @@
   - As-is
   added: '2025-11-10'
   updated: '2025-11-10'
+
+- name: PONG
+  originals:
+  - Pong
+  type: clone
+  repo: >-
+    https://web.archive.org/web/20090227175009if_/http://fakolo.altervista.org/pong.c
+  url: >-
+    https://web.archive.org/web/20090226210958if_/http://fakolo.altervista.org/#:~:text=PONG
+  development: halted
+  status: semi-playable
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-04-30
+  updated: 2026-04-30
 
 - name: Pong²
   originals:

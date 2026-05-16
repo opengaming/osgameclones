@@ -575,6 +575,15 @@
     - Arcade
     - Platform
 
+- name: Flash Flood
+  external:
+    website: 'https://www.mobygames.com/game/32984/flash-flood/'
+  platforms:
+  - Commodore 64
+  meta:
+    genres:
+    - Arcade
+
 - name: Flashback
   external:
     wikipedia: Flashback (1992 video game)
@@ -901,14 +910,16 @@
     genres:
     - Action
 
-- name: Frogs and Flies
+- name: "Frogger: He's Back!"
   external:
-    wikipedia: Frogs and Flies
+    website: 'https://www.mobygames.com/game/1517/frogger/'
+    wikipedia: Frogger (1997 video game)
+  platforms:
+  - PlayStation
+  - Windows
   meta:
     genres:
-    - Arcade
-  names:
-  - Frog Bog
+    - Action
 
 - name: Fruit Ninja
   external:

@@ -1954,6 +1954,24 @@
   added: 2025-11-24
   updated: 2025-11-24
 
+- name: Shadow Warrior for Linux
+  originals:
+  - Shadow Warrior
+  type: remake
+  repo: 'https://github.com/icculus/shadowwarrior'
+  url: 'https://icculus.org/shadowwarrior/'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2026-04-28
+  updated: 2026-04-28
+  images:
+  - 'https://icculus.org/shadowwarrior/shadow_warrior_current.jpg'
+
 - name: shadowgrounds
   langs:
   - C++
@@ -2597,6 +2615,8 @@
   - SkiFree
   status: semi-playable
   repo: https://github.com/andymason/Skifree-HTML5-clone
+  langs:
+  - JavaScript
   type: remake
   added: 2015-06-18
   updated: 2015-06-18
@@ -4838,6 +4858,23 @@
   added: 2026-03-12
   updated: 2026-03-12
 
+- name: spidey-decomp
+  originals:
+  - Spider-Man
+  type: remake
+  repo: 'https://github.com/krystalgamer/spidey-decomp'
+  url: 'https://krystalgamer.github.io/spidey-intro/'
+  feed: 'https://github.com/krystalgamer/spidey-decomp/releases.atom'
+  development: sporadic
+  status: unplayable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2026-05-01
+  updated: 2026-05-01
+
 - name: spindisasm
   originals:
   - Sonic Spinball
@@ -6713,6 +6750,22 @@
   - https://t.gamesnostalgia.com/news/1/8/182/26519.jpg
   - https://t.gamesnostalgia.com/news/1/8/182/26520.jpg
   - https://t.gamesnostalgia.com/news/1/8/182/26521.jpg
+
+- name: superstuntcycle-7800
+  originals:
+  - Super Stunt Cycle
+  type: official
+  repo: 'https://github.com/videogamepreservation/superstuntcycle-7800'
+  url: >-
+    https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Super%20Stunt%20Cycle/Motopsycho
+  development: complete
+  status: playable
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-23
+  updated: 2026-04-23
 
 - name: SuperTux
   development: very active

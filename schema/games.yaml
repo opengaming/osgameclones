@@ -48,6 +48,12 @@ schema;game:
         Semi-playable: game runs and some parts of the game playable<br>
         Unplayable: game cannot be played, e.g. can only load assets<br>
         N/A: does not apply, i.e. for tools
+    platforms:
+      type: seq
+      sequence:
+      - include: platforms
+        unique: True
+      desc: Which platforms this game can run on. For disassemblies this is what platform the assembled game runs on
     multiplayer:
       type: seq
       sequence:
@@ -160,4 +166,76 @@ schema;licenses:
     'Unlicense',
     'WTFPL', # Do What The F*ck You Want To Public License
     'Zlib',
+  ]
+
+schema;platforms:
+  type: str
+  enum: [
+    '32X',
+    '3DO',
+    '3DS',
+    'Acorn 32-bit',
+    'Amiga',
+    'Amstrad CPC',
+    'Android',
+    'Apple II',
+    'Apple TV',
+    'Arcade',
+    'Arduino',
+    'Atari',
+    'BBC Micro',
+    'BeOS',
+    'CD-i',
+    'Classic Mac OS',
+    'CoCo',
+    'Commodore 64',
+    'DOS',
+    'Dreamcast',
+    'DS',
+    'FM Towns',
+    'Game Boy',
+    'Game Gear',
+    'GameCube',
+    'GBA',
+    'Genesis',
+    'HP calculator',
+    'iOS',
+    'Jaguar',
+    'Konix Multisystem',
+    'Linux',
+    'Lynx',
+    'Master System',
+    'Mobile',
+    'MSX',
+    'NES',
+    'N64',
+    'Nintendo Switch',
+    'None',
+    'OS/2',
+    'OSX',
+    'PC Booter',
+    'PC-98',
+    'Pippin',
+    'PlayStation',
+    'PlayStation 2',
+    'PlayStation 3',
+    'PlayStation 4',
+    'PlayStation 5',
+    'PlayStation Vita',
+    'PSP',
+    'Raspberry Pi',
+    'Saturn',
+    'Sega CD',
+    'SNES',
+    'TI calculator',
+    'TurboGrafx-16',
+    'Web',
+    'Wii',
+    'Windows',
+    'X68000',
+    'Xbox',
+    'Xbox 360',
+    'Xbox One',
+    'Xbox Series S/X',
+    'ZX Spectrum',
   ]

@@ -6,6 +6,8 @@
   url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/bdash030.lsm'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -31,6 +33,12 @@
   content: free
   development: sporadic
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - Android
+  - iOS
   updated: 2024-04-11
   images:
   - https://raw.githubusercontent.com/lilybeevee/bab-be-u/master/docs/img1.png
@@ -42,10 +50,11 @@
   - Baba Is You
   type: clone
   repo: 'https://github.com/Fraser-Greenlee/baba-is-you'
-  url: >-
-    https://kitao.github.io/pyxel/wasm/launcher/?play=Fraser-Greenlee.baba-is-you.baba-is-you-game&gamepad=enabled
+  url: https://kitao.github.io/pyxel/wasm/launcher/?play=Fraser-Greenlee.baba-is-you.baba-is-you-game&gamepad=enabled
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   langs:
   - Python
   frameworks:
@@ -63,13 +72,17 @@
   - https://compiler.speccy.org/img/screens/babaliba-scr2.png
   - https://compiler.speccy.org/img/screens/babaliba-scr3.png
   langs:
-  - xBase
+  - BennuGD
   licenses:
   - As-is
   content: free
   originals:
   - Babaliba
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   repo: https://github.com/compilersoftware/babaliba
   development: halted
   type: remake
@@ -84,6 +97,8 @@
   - As-is
   development: halted
   status: playable
+  platforms:
+  - Android
   originals:
   - Frog!
   repo: https://github.com/gborp/back-to-nature-c64-remake
@@ -101,6 +116,8 @@
   feed: 'https://github.com/skoolkid/backtoskool/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
   langs:
   - Skool
   licenses:
@@ -112,9 +129,11 @@
   originals:
   - Star Trek
   type: remake
-  repo: 'https://github.com/timdetering/BaconBytes.StarTrek'
+  repo: https://github.com/IDDemon/BaconBytes.StarTrek/
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - 'C#'
   - BASIC
@@ -131,6 +150,9 @@
   url: https://jotd666.itch.io/bagman500
   development: sporadic
   status: playable
+  platforms:
+  - Amiga
+  - Windows
   content: free
   langs:
   - C++
@@ -151,9 +173,12 @@
   originals:
   - Betrayal at Krondor
   type: remake
+  url: https://xavieran.github.io/blog/
   repo: 'https://github.com/xavieran/BaKGL'
   development: active
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -177,6 +202,10 @@
   repo: 'https://github.com/Hiekichi/BakudanKunPy'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: free
   langs:
   - Python
@@ -194,10 +223,11 @@
   originals:
   - Balance of Power
   type: official
-  url: >-
-    https://www.erasmatazz.com/library/source-code/#:~:text=Balance%20of%20Power%201990
+  url: https://www.erasmatazz.com/library/source-code/#:~:text=Balance%20of%20Power%201990
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   content: free
   langs:
   - Pascal
@@ -214,6 +244,8 @@
     https://www.erasmatazz.com/library/source-code/#:~:text=Balance%20of%20the%20Planet%20(1990)
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   content: free
   langs:
   - Pascal
@@ -230,6 +262,8 @@
     https://www.erasmatazz.com/library/source-code/#:~:text=Balance%20of%20the%20Planet%20(2010)
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Java
@@ -247,6 +281,8 @@
   feed: 'https://github.com/Passeriform/BalatroTUI/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -266,6 +302,8 @@
   originals:
   - Arkanoid
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/budnix/ball-and-wall
   type: clone
   updated: 2022-07-09
@@ -273,8 +311,8 @@
 
 - name: Ballerburg SDL
   images:
-  - https://baller.tuxfamily.org/screenshot1.png
-  - https://baller.tuxfamily.org/screenshot2.png
+  - https://baller.frama.io/screenshot1.png
+  - https://baller.frama.io/screenshot2.png
   langs:
   - C
   licenses:
@@ -283,10 +321,13 @@
   originals:
   - Ballerburg
   status: playable
-  repo: https://git.tuxfamily.org/baller/baller.git
+  platforms:
+  - Linux
+  - OSX
+  repo: https://framagit.org/baller/ballerburg/-/tree/main
   type: remake
   updated: 2022-07-09
-  url: https://baller.tuxfamily.org/
+  url: https://baller.frama.io
 
 - name: Ballistica
   originals:
@@ -296,6 +337,11 @@
   url: 'https://ballistica.net/'
   development: active
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
   multiplayer:
   - Competitive
   - Local
@@ -322,6 +368,11 @@
   originals:
   - Balloon Fight
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - Android
+  - Web
   repo: https://github.com/MikeDX/balloon-fight
   type: remake
   updated: 2022-07-09
@@ -334,6 +385,8 @@
   repo: 'https://github.com/LuigiBlood/balloonfight_dis'
   development: complete
   status: playable
+  platforms:
+  - NES
   multiplayer:
   - Split-screen
   langs:
@@ -351,6 +404,8 @@
   repo: 'https://github.com/JiachenRen/ballz'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Java
   licenses:
@@ -365,6 +420,8 @@
   repo: 'https://github.com/BenjaminRi/Banania'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -388,6 +445,8 @@
   feed: 'https://gitlab.com/banjo.decomp/banjo-kazooie.atom'
   development: complete
   status: playable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -407,6 +466,10 @@
   feed: 'https://github.com/BanjoRecomp/BanjoRecomp/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: commercial
   langs:
   - C
@@ -426,6 +489,9 @@
   feed: 'https://kfurtak1024.itch.io/bansoko/devlog.rss'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - Python
@@ -455,6 +521,11 @@
   originals:
   - 'Barbarian: The Ultimate Warrior'
   status: playable
+  platforms:
+  - Jaguar
+  - Genesis
+  - Windows
+  - TurboGrafx-16
   type: remake
   updated: 2022-07-09
   url: http://barbarian.1987.free.fr/indexEN.htm
@@ -466,6 +537,8 @@
   url: 'https://www.romhacking.net/documents/604/'
   development: complete
   status: playable
+  platforms:
+  - Game Gear
   content: free
   langs:
   - Assembly
@@ -484,6 +557,8 @@
   repo: 'https://github.com/sanlor/Barkley1_Original'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Game Maker Language
@@ -503,6 +578,9 @@
   feed: 'https://sanlor.itch.io/barkley-2-godot/devlog.rss'
   development: very active
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   content: free
   langs:
   - GDScript
@@ -523,6 +601,8 @@
   feed: 'https://talesofgames.itch.io/barkley-2/devlog.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - Game Maker Language
@@ -546,6 +626,9 @@
   url: http://www.baronygame.com/
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Co-op
   - Online
@@ -570,6 +653,8 @@
   url: 'https://kittenm4ster.itch.io/barrack'
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - QuickBASIC
   licenses:
@@ -587,6 +672,8 @@
   feed: 'https://github.com/JosefZIla/bash2048/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - Shell
   licenses:
@@ -609,6 +696,11 @@
   feed: 'https://github.com/stuffbymax/bash-pac/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
   langs:
   - Shell
   licenses:
@@ -633,46 +725,14 @@
   url: 'https://shrigley.com/batman-returns-sega-cd-3d-driving-game-source-code/'
   development: complete
   status: playable
+  platforms:
+  - Sega CD
   langs:
   - Assembly
   licenses:
   - As-is
   added: 2026-01-01
   updated: 2026-01-01
-
-- name: Batrachians
-  images:
-  - https://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  development: halted
-  originals:
-  - Frogs and Flies
-  status: semi-playable
-  type: remake
-  updated: 2022-07-09
-  url: https://perso.b2b2c.ca/~sarrazip/dev/batrachians.html
-
-- name: Battle City
-  images:
-  - https://battlecity.org/wp-content/uploads/your-city-has-been-destroyed-by-the-power-of-an-orb.png
-  - https://farm6.staticflickr.com/5246/5313969457_15de8df27f_z.jpg
-  langs:
-  - C++
-  licenses:
-  - GPL3
-  development: halted
-  originals:
-  - Battle City
-  repo: https://github.com/Deceth/Battle-City
-  status: playable
-  type: remake
-  updated: 2017-02-09
-  url: https://battlecity.org/
 
 - name: The Battle for Wesnoth
   images:
@@ -699,6 +759,10 @@
   - Master of Monsters
   - Warsong
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   repo: https://github.com/wesnoth/wesnoth
   type: clone
   updated: 2022-07-09
@@ -713,6 +777,8 @@
   repo: 'https://github.com/RetailGameSourceCode/BattleKonchuuden'
   development: complete
   status: playable
+  platforms:
+  - PlayStation
   multiplayer:
   - Local
   content: commercial
@@ -732,6 +798,9 @@
   feed: 'https://sourceforge.net/projects/battlepong/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - C++
@@ -753,9 +822,11 @@
   - Battle City
   type: remake
   repo: 'https://github.com/newagebegins/BattleCity'
-  url: 'http://newagebegins.github.com/BattleCity/BattleCity.html'
+  url: https://newagebegins.github.io/BattleCity/BattleCity.html
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -775,6 +846,8 @@
   originals:
   - Battle City
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/ggc87/BattleCity2014
   type: clone
   updated: 2022-07-09
@@ -786,6 +859,8 @@
   url: 'https://6502disassembly.com/va-battlezone/'
   development: complete
   status: playable
+  platforms:
+  - Arcade
   langs:
   - Assembly
   licenses:
@@ -803,6 +878,8 @@
   url: 'https://elite.bbcelite.com/master/'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -825,6 +902,8 @@
   url: 'https://elite.bbcelite.com/cassette/'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -846,6 +925,8 @@
   url: 'https://elite.bbcelite.com/disc/'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -865,6 +946,8 @@
   - Beasts and Bumpkins
   type: tool
   status: N/A
+  platforms:
+  - Windows
   repo: 'https://github.com/JonMagon/BBTools'
   development: sporadic
   content: commercial
@@ -888,6 +971,8 @@
   url: 'https://csdb.dk/release/?id=111671'
   development: complete
   status: playable
+  platforms:
+  - Atari
   multiplayer:
   - Local
   content: free
@@ -907,6 +992,8 @@
   url: 'https://csdb.dk/release/?id=145118'
   development: complete
   status: playable
+  platforms:
+  - Atari
   multiplayer:
   - Local
   content: free
@@ -924,6 +1011,8 @@
   - Beasts and Bumpkins
   type: tool
   status: N/A
+  platforms:
+  - Windows
   repo: 'https://github.com/bb-patch/bb-patch'
   development: sporadic
   content: commercial
@@ -953,6 +1042,8 @@
   - 'Bedlam 2: Absolute Bedlam'
   repo: https://github.com/8street/Bedlam2
   status: playable
+  platforms:
+  - Windows
   type: remake
   updated: 2024-04-16
 
@@ -965,6 +1056,8 @@
     https://ahopeful.wordpress.com/2020/09/13/digging-up-adventureland-scott-adams-1980/
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   langs:
   - BASIC
   licenses:
@@ -982,6 +1075,8 @@
   feed: 'https://github.com/ahope1/Beeb-Pirate-Adventure/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - BBC Micro
   langs:
   - BASIC
   licenses:
@@ -997,6 +1092,8 @@
   url: 'https://www.reboot-games.com/rebootnews/beebris/'
   development: complete
   status: playable
+  platforms:
+  - Jaguar
   content: free
   langs:
   - Assembly
@@ -1015,6 +1112,8 @@
   feed: 'https://github.com/HaikuArchives/BeMines/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - BeOS
   content: open
   langs:
   - C++
@@ -1031,6 +1130,8 @@
   - Beatmania IIDX
   type: clone
   status: playable
+  platforms:
+  - Web
   repo: 'https://github.com/bemusic/bemuse'
   url: 'https://bemuse.ninja/'
   development: sporadic
@@ -1059,6 +1160,8 @@
   url: 'https://www.classicdosgames.com/game/Beneath_a_Steel_Sky.html'
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - Assembly
   licenses:
@@ -1074,6 +1177,8 @@
   repo: 'https://github.com/HaikuArchives/BeNetTris'
   development: halted
   status: playable
+  platforms:
+  - BeOS
   multiplayer:
   - Online
   content: open
@@ -1095,6 +1200,8 @@
   feed: 'https://codeberg.org/nikisoft/BePuyo.atom'
   development: sporadic
   status: playable
+  platforms:
+  - BeOS
   langs:
   - C++
   licenses:
@@ -1119,6 +1226,8 @@
   - Bermuda Syndrome
   repo: https://github.com/cyxx/bermuda
   status: playable
+  platforms:
+  - Windows
   type: remake
   updated: 2021-05-17
   url: http://cyxdown.free.fr/bs/
@@ -1132,6 +1241,9 @@
   feed: 'https://github.com/UCyborg/BerserkerQuake2/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1167,6 +1279,9 @@
   feed: 'https://github.com/stransky/berusky/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - C++
@@ -1192,6 +1307,8 @@
   feed: 'https://github.com/stransky/berusky2/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1221,6 +1338,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200412/msg00090.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   content: commercial
   langs:
   - Assembly
@@ -1246,8 +1365,12 @@
   content: open
   originals:
   - Ace of Spades
+  url: https://aos.party/jenkins/job/BetterSpades/
   repo: https://github.com/xtreme8000/BetterSpades
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: remake
   multiplayer:
   - Online
@@ -1268,6 +1391,9 @@
   - Total Annihilation
   - Supreme Commander
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://github.com/beyond-all-reason/Beyond-All-Reason
   url: https://www.beyondallreason.info/
   video:
@@ -1290,6 +1416,9 @@
   url: 'http://www.oldskool.org/pc/BCW/'
   development: halted
   status: playable
+  platforms:
+  - DOS
+  - Windows
   langs:
   - Assembly
   licenses:
@@ -1307,6 +1436,9 @@
   repo: 'https://github.com/samuelbrian/beyond-the-titanic'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   langs:
   - Pascal
   licenses:
@@ -1322,6 +1454,8 @@
   url: 'https://x.com/textfiles/status/1119715147528966144'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   multiplayer:
   - Competitive
   - Split-screen
@@ -1345,6 +1479,8 @@
   feed: 'https://github.com/realchonk/billig-sweeper/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1358,6 +1494,29 @@
   - >-
     https://github.com/realchonk/billig-sweeper/raw/master/data/Screenshots/bsw1.png
 
+- name: Bin-pong!
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://www.allegro.cc/depot/Bin-Pong'
+  url: 'https://www.fifsoft.com/games/bin-pong.php'
+  development: complete
+  status: playable
+  platforms:
+  - DOS
+  - Windows
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-04-27
+  updated: 2026-04-27
+  images:
+  - 'https://www.fifsoft.com/images/gamepics/binpong_title.gif'
+  - 'https://www.fifsoft.com/images/gamepics/pong01.jpg'
+
 - name: BioMenace decompilation
   originals:
   - Bio Menace
@@ -1365,6 +1524,8 @@
   repo: 'https://github.com/lethal-guitar/BioMenaceDecomp'
   development: halted
   status: semi-playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -1381,6 +1542,8 @@
   url: 'https://stardot.org.uk/forums/viewtopic.php?p=325768#p325768'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: open
   langs:
   - Assembly
@@ -1396,6 +1559,9 @@
   repo: 'https://github.com/savetz/Phoenix_BirthOfThePhoenix'
   development: complete
   status: playable
+  platforms:
+  - Apple II
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1417,6 +1583,9 @@
   type: clone
   updated: 2019-05-07
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Co-op
   frameworks:
@@ -1433,6 +1602,8 @@
   repo: 'https://github.com/izabera/bitwise-challenge-2048'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - Shell
@@ -1452,6 +1623,8 @@
     https://web.archive.org/web/20160329081046/https://apogeesoftware.com/uncategorized/apogee-releases-blake-stone-source-code
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C++
@@ -1481,6 +1654,8 @@
   originals:
   - Awesomenauts
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/zombieman1041/BlakedAwesomenaughts
   type: remake
   updated: 2022-07-09
@@ -1493,6 +1668,8 @@
   url: 'https://3dnews.ru/1122168'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -1520,6 +1697,8 @@
     https://app2top.ru/news/nival-vy-lozhila-v-otkry-ty-j-dostup-ishodniki-blitskrig-2-234518.html
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -1539,10 +1718,11 @@
   originals:
   - Boulder Dash
   type: clone
-  repo: >-
-    https://www.artsoft.org/rocksndiamonds/levels/martijnmooij/2010-03-16/www.bd-fans.com/FreewareMSDOS.html#:~:text=BlobbyDash
+  repo: https://www.artsoft.org/rocksndiamonds/levels/martijnmooij/2010-03-16/www.bd-fans.com/FreewareMSDOS.html#:~:text=BlobbyDash
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - QuickBASIC
@@ -1568,6 +1748,9 @@
   originals:
   - Tetris Attack
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://github.com/blockattack/blockattack-game
   type: clone
   updated: 2022-07-09
@@ -1583,6 +1766,8 @@
   url: 'http://rembound.com/articles/making-a-block-it-game-prototype-with-html5'
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   licenses:
@@ -1592,6 +1777,29 @@
   images:
   - https://rembound.com/files/making-a-block-it-game-prototype-with-html5/block-it.png
 
+- name: Block Rage
+  originals:
+  - Columns
+  type: clone
+  repo: 'https://sourceforge.net/projects/blockrage/'
+  feed: 'https://sourceforge.net/p/blockrage/news/feed.rss'
+  development: halted
+  status: semi-playable
+  multiplayer:
+  - Local
+  - Split-screen
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2026-05-02
+  updated: 2026-05-02
+  images:
+  - 'https://a.fsdn.com/con/app/proj/blockrage/screenshots/45164.jpg'
+
 - name: Block Shooter
   type: remake
   originals:
@@ -1600,6 +1808,8 @@
   url: https://towerofglass.github.io/block-shooter/
   development: halted
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   frameworks:
@@ -1618,6 +1828,9 @@
   feed: 'https://gitlab.com/blocknerd-games/blockbomber.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -1645,6 +1858,9 @@
   url: 'http://www.blockout.net/blockout2/'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - C++
@@ -1670,6 +1886,8 @@
   repo: https://github.com/wpdevelopment11/blocks
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - Python
@@ -1685,10 +1903,11 @@
   - Tetris
   type: clone
   repo: 'https://www.allegro.cc/depot/BlocksRain'
-  url: >-
-    https://web.archive.org/web/20040607155822/http://members.lycos.co.uk/gpr2k/#:~:text=Blocks%20Rain
+  url: https://web.archive.org/web/20040607155822/http://members.lycos.co.uk/gpr2k/#:~:text=Blocks%20Rain
   development: halted
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - C
@@ -1708,6 +1927,9 @@
   repo: 'https://github.com/mhjlam/bam'
   development: halted
   status: semi-playable
+  platforms:
+  - DOS
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1725,10 +1947,11 @@
   - 'Blood II: The Chosen'
   type: official
   repo: 'https://github.com/videogamepreservation/blood2'
-  url: >-
-    https://web.archive.org/web/20000818075110/http://www.lith.com/lithtech/source.asp
+  url: https://web.archive.org/web/20000818075110/http://www.lith.com/lithtech/source.asp
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   content: commercial
@@ -1751,6 +1974,8 @@
   feed: https://gitlab.com/m210/BloodGDX.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Java
@@ -1771,6 +1996,8 @@
   url: 'https://taytay.itch.io/bloodworks'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C++
@@ -1800,6 +2027,8 @@
   originals:
   - Bloons Tower Defense
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/wtfaremyinitials/BloonsTowerDefense6
   type: remake
   updated: 2019-09-02
@@ -1812,6 +2041,8 @@
   feed: 'https://sourceforge.net/p/bloxxi/news/feed.rss'
   development: complete
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Online
   content: open
@@ -1834,6 +2065,8 @@
   url: 'https://forums.atariage.com/topic/249933-blue-max-source-code-for-you/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1850,6 +2083,8 @@
   repo: 'https://github.com/cyxx/blues'
   development: halted
   status: playable
+  platforms:
+  - PSP
   content: commercial
   langs:
   - C
@@ -1870,6 +2105,10 @@
   url: https://www.blupi.org/mania/index.html
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   content: open
   langs:
   - C
@@ -1887,6 +2126,8 @@
   repo: 'https://github.com/blupi-games/blupimania-legacy'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: open
   langs:
   - C
@@ -1903,6 +2144,10 @@
   repo: 'https://github.com/hepfnepf/Blutfest'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - Android
   content: open
   langs:
   - GDScript
@@ -1922,6 +2167,8 @@
   repo: 'https://github.com/gondur/BOB_Src'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1939,6 +2186,8 @@
   feed: 'https://github.com/bobthekingofegypt/BobBall/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Android
   content: open
   langs:
   - Java
@@ -1961,6 +2210,8 @@
   - Bobby Carrot
   repo: https://github.com/yannicka/bobby
   status: playable
+  platforms:
+  - Web
   type: similar
   updated: 2024-04-23
   url: https://bobby.yannicka.fr/
@@ -1975,6 +2226,8 @@
   url: 'http://newbreedsoftware.com/bobobot/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -2003,6 +2256,8 @@
   url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/boing-0.1.lsm'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2017,10 +2272,11 @@
   originals:
   - Boulder Dash
   type: clone
-  repo: >-
-    https://www.artsoft.org/rocksndiamonds/levels/martijnmooij/2010-03-16/www.bd-fans.com/FreewareMSDOS.html#:~:text=Bolder%20Dash
+  repo: https://www.artsoft.org/rocksndiamonds/levels/martijnmooij/2010-03-16/www.bd-fans.com/FreewareMSDOS.html#:~:text=Bolder%20Dash
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - Assembly
@@ -2039,6 +2295,8 @@
   feed: 'https://github.com/Keruspe/Bomb-her-man/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -2063,6 +2321,9 @@
   originals:
   - Bomberman
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://sourceforge.net/projects/bomb-mania/
   type: remake
   updated: 2022-06-26
@@ -2076,6 +2337,8 @@
   url: 'https://6502disassembly.com/a2-bomber/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   langs:
   - Assembly
   licenses:
@@ -2097,6 +2360,8 @@
   feed: 'https://steffen.gulpe.de/gitea/steffen/bomberclone.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -2132,6 +2397,9 @@
   feed: 'https://sourceforge.net/p/bombermaaan/news/feed'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Competitive
   - Local
@@ -2163,6 +2431,10 @@
   url: 'https://oldschoolprg.x10.mx/projets.php#:~:text=Bomberman%20LAN'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - Amiga
   multiplayer:
   - LAN
   content: commercial
@@ -2184,6 +2456,9 @@
   repo: 'https://github.com/vranki/Warriors-of-Wor'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Wii
   content: free
   langs:
   - C++
@@ -2210,6 +2485,10 @@
   originals:
   - Bomberman
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - BeOS
   multiplayer:
   - Co-op
   - Competitive
@@ -2230,6 +2509,8 @@
   originals:
   - Bomberman
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Co-op
   - Local
@@ -2258,6 +2539,9 @@
   repo: https://gitlab.com/drummyfish/Bombman
   type: remake
   status: playable
+  platforms:
+  - Linux
+  - Windows
   updated: 2024-04-21
   video:
     youtube: N1pGgX_rFOQ
@@ -2269,6 +2553,8 @@
   repo: 'https://github.com/HaikuArchives/Bong'
   development: complete
   status: playable
+  platforms:
+  - BeOS
   langs:
   - C++
   licenses:
@@ -2295,6 +2581,10 @@
   url: https://silverweed.github.io/boom/
   type: remake
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   updated: 2024-04-22
 
 - name: boomslang
@@ -2306,6 +2596,8 @@
   feed: 'https://hackage.haskell.org/package/boomslang.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - Haskell
   frameworks:
@@ -2324,6 +2616,8 @@
   url: 'https://www.ibiblio.org/pub/linux/X11/games/BoulderDash-1.0-b5.lsm'
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -2344,6 +2638,8 @@
   originals:
   - Boulder Dash
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/valeriansaliou/boulder-dash
   type: remake
   updated: 2019-09-02
@@ -2357,6 +2653,8 @@
   url: 'https://csdb.dk/release/?id=145094'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -2374,6 +2672,8 @@
   feed: 'https://github.com/scttgs0/BoulderBombers/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -2388,6 +2688,8 @@
   url: https://www.ticalc.org/archives/files/fileinfo/382/38287.html
   development: halted
   status: semi-playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -2403,6 +2705,8 @@
   url: 'https://csdb.dk/release/?id=155889'
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   langs:
   - Assembly
   licenses:
@@ -2418,6 +2722,8 @@
   url: 'https://sokoban.cn/kuaishou/kuaishou.php'
   development: halted
   status: playable
+  platforms:
+  - Android
   content: free
   langs:
   - Java
@@ -2436,6 +2742,8 @@
   originals:
   - Brain Blasters
   status: unplayable
+  platforms:
+  - Linux
   repo: https://github.com/Zitrax/brainblast
   type: clone
   updated: 2022-07-09
@@ -2448,6 +2756,8 @@
   feed: 'https://github.com/bderrly/braincurses/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - C++
   frameworks:
@@ -2465,6 +2775,8 @@
   url: https://store.steampowered.com/app/3533830/Brny_Skeldalu/
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -2491,6 +2803,8 @@
   originals:
   - Bratwurst
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/sabetts/bratwurst
   type: remake
   updated: 2015-05-15
@@ -2503,6 +2817,8 @@
   url: 'https://www.gamingalexandria.com/wp/2020/04/breach-sega-genesis/'
   development: halted
   status: playable
+  platforms:
+  - Genesis
   content: free
   langs:
   - C
@@ -2523,6 +2839,8 @@
     https://archive.org/download/30programsforthezx81/30ProgramsForTheZx81.pdf#page=23
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
   langs:
   - BASIC
   licenses:
@@ -2539,6 +2857,8 @@
   feed: 'https://sourceforge.net/projects/breaker10/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - C
@@ -2551,14 +2871,34 @@
   images:
   - 'https://a.fsdn.com/con/app/proj/breaker10/screenshots/prj_arka0.png'
 
+- name: Breakin
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://www.allegro.cc/depot/Breakin'
+  url: https://web.archive.org/web/20091024134947/http://www.geocities.com/enigmatic_expressions/Breakin/download.html
+  development: halted
+  status: playable
+  platforms:
+  - Windows
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-04-30
+  updated: 2026-04-30
+
 - name: Breakout (Ken Silverman)
   originals:
   - Breakout
   type: clone
   repo: 'https://advsys.net/ken/download.htm#breakout'
-  url: 'https://www.mobygames.com/game/246622/breakout/'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - C
@@ -2577,6 +2917,8 @@
   url: 'https://lostsidedead.biz/breakout'
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   - Rust
@@ -2594,6 +2936,9 @@
   url: 'https://rembound.com/articles/the-breakout-tutorial-with-cpp-and-sdl-2'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   langs:
   - C++
   frameworks:
@@ -2616,6 +2961,8 @@
   originals:
   - Breakout
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/marksteelz3/Atari-VR---Breakout
   type: clone
   updated: 2019-06-14
@@ -2628,6 +2975,8 @@
   repo: 'https://github.com/mhjlam/Breakthrough'
   development: sporadic
   status: semi-playable
+  platforms:
+  - None
   langs:
   - 'C#'
   frameworks:
@@ -2649,6 +2998,8 @@
   feed: 'https://github.com/Siiir/brick_bird/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Rust
@@ -2672,6 +3023,8 @@
   url: 'http://www.newbreedsoftware.com/brickout/'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2704,6 +3057,10 @@
   - Ship Simulator Extremes
   repo: https://github.com/bridgecommand/bc
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   type: clone
   updated: 2016-12-03
   url: https://www.bridgecommand.co.uk
@@ -2719,6 +3076,9 @@
   originals:
   - Breakout
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: clone
   updated: 2022-07-09
   url: http://briquolo.free.fr/en/index.html
@@ -2742,6 +3102,10 @@
   originals:
   - Battle Chess
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   repo: https://sourceforge.net/projects/brutalchess/
   type: similar
   updated: 2022-02-24
@@ -2764,6 +3128,10 @@
   repo: https://github.com/bibendovsky/bstone
   feed: https://github.com/bibendovsky/bstone/releases.atom
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   type: remake
   updated: 2025-12-05
   url: https://bibendovsky.github.io/bstone/
@@ -2780,6 +3148,9 @@
   originals:
   - The Bard's Tale Construction Set
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://github.com/dulsi/btbuilder
   type: remake
   updated: 2024-04-24
@@ -2803,6 +3174,10 @@
   originals:
   - Bubble Bobble
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Local
   - Online
@@ -2822,6 +3197,8 @@
     https://rembound.com/articles/bubble-shooter-game-tutorial-with-html5-and-javascript
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -2836,10 +3213,12 @@
   originals:
   - Puzz Loop
   type: clone
-  url: >-
-    https://web.archive.org/web/20090417075918/https://dwarfcity.co.uk/games/bubbletrain.php
+  url: https://web.archive.org/web/20090417075918/https://dwarfcity.co.uk/games/bubbletrain.php
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - C++
@@ -2868,6 +3247,8 @@
   url: 'https://archive.org/details/BuckRogers_source'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -2883,6 +3264,11 @@
   url: 'http://www.newbreedsoftware.com/bugsquish/'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
+  - BeOS
+  - Amiga
   content: open
   langs:
   - C
@@ -2909,6 +3295,8 @@
   feed: https://github.com/GrandpasCode/Dr.Mario/releases.atom
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -2918,23 +3306,6 @@
   images:
   - https://raw.githubusercontent.com/GrandpasCode/Dr.Mario/master/bugs.png
 
-- name: BurgerSpace
-  images:
-  - https://perso.b2b2c.ca/~sarrazip/dev/images/burgerspace-1.png
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  development: sporadic
-  originals:
-  - BurgerTime
-  status: playable
-  type: remake
-  updated: 2022-07-09
-  url: https://perso.b2b2c.ca/~sarrazip/dev/burgerspace.html
-
 - name: Buscayasminas
   originals:
   - Minesweeper
@@ -2943,6 +3314,11 @@
   feed: 'https://sourceforge.net/projects/buscayasminas/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - Web
+  - BeOS
   langs:
   - JavaScript
   - HTML
@@ -2971,6 +3347,10 @@
   - The Incredible Machine
   repo: https://github.com/the-butterfly-effect/tbe
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   type: clone
   updated: 2024-04-25
   url: http://the-butterfly-effect.org
@@ -2986,6 +3366,8 @@
   feed: 'https://github.com/wzykubek/7seg-ByteBird/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Raspberry Pi
   langs:
   - Python
   frameworks:
@@ -3013,6 +3395,11 @@
   - Battle Zone
   repo: https://github.com/BZFlag-Dev/bzflag
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - BeOS
   type: clone
   updated: 2020-08-25
   url: https://www.bzflag.org/
