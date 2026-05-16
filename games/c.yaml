@@ -1,28 +1,3 @@
-- name: C7
-  originals:
-  - Civilization III
-  type: remake
-  repo: 'https://github.com/C7-Game/Prototype'
-  url: 'https://c7-game.github.io'
-  feed: 'https://github.com/C7-Game/Prototype/releases.atom'
-  development: very active
-  status: semi-playable
-  content: commercial
-  langs:
-  - 'C#'
-  frameworks:
-  - Godot
-  - .NET
-  licenses:
-  - MIT
-  info: >-
-    Uses Civ3 assets for now but aims for a standalone 4X game with multiple
-    inspirations
-  added: '2025-06-09'
-  updated: '2025-06-09'
-  video:
-    youtube: zHGO_fbz0nY
-
 - name: c64-nuclearreaction
   langs:
   - C
@@ -32,6 +7,8 @@
   originals:
   - Nuclear Reaction
   status: unplayable
+  platforms:
+  - Commodore 64
   development: halted
   repo: https://github.com/maikmerten/c64-nuclearreaction
   type: remake
@@ -44,6 +21,8 @@
   repo: 'https://github.com/dabadab/wizardofwor'
   development: halted
   status: playable
+  platforms:
+  - Commodore 64
   multiplayer:
   - Competitive
   - Local
@@ -79,6 +58,10 @@
   - Super 3D Noah's Ark
   repo: https://github.com/cxong/cdogs-sdl
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   updated: 2021-10-16
   url: https://cxong.github.io/cdogs-sdl/
@@ -103,6 +86,8 @@
   repo: http://www.c-evo.org/files/files.php
   development: halted
   status: playable
+  platforms:
+  - Windows
   type: clone
   added: 2013-09-19
   updated: 2024-05-15
@@ -115,6 +100,8 @@
   url: https://www.ticalc.org/archives/files/fileinfo/246/24631.html
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -132,6 +119,8 @@
   feed: 'https://github.com/TobinCavanaugh/C-Pong-SDL/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - C
   frameworks:
@@ -152,6 +141,8 @@
   repo: 'https://github.com/timdetering/CSharpAsteroids'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - 'C#'
@@ -169,6 +160,8 @@
   url: 'https://corewar.co.uk/cpprobots.htm'
   development: complete
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Competitive
   langs:
@@ -177,22 +170,6 @@
   - Custom
   added: 2025-12-13
   updated: 2026-01-02
-
-- name: Cadaver
-  development: halted
-  images:
-  - https://jotd.pagesperso-orange.fr/cadaver/cadaver_remake_pic.png
-  langs:
-  - C++
-  licenses:
-  - GPL2
-  content: commercial
-  originals:
-  - Cadaver
-  status: semi-playable
-  type: remake
-  updated: 2021-01-21
-  url: https://jotd.pagesperso-orange.fr/cadaver/
 
 - name: CaesarIA
   info: most of original game works, except war logic
@@ -206,6 +183,10 @@
   - Caesar III
   repo: https://github.com/dalerank/caesaria-game
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   updated: 2020-02-08
   url: https://bitbucket.org/dalerank/caesaria/wiki/Home
@@ -217,6 +198,8 @@
   url: https://www.ticalc.org/archives/files/fileinfo/402/40283.html
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   multiplayer:
   - Co-op
   langs:
@@ -241,6 +224,8 @@
   url: 'https://web.archive.org/web/20180328145548/http://calcrogue.jimrandomh.org/'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   content: free
   langs:
   - C
@@ -258,6 +243,8 @@
   url: 'https://archive.org/details/cws-src'
   development: complete
   status: playable
+  platforms:
+  - PlayStation
   content: free
   langs:
   - C
@@ -276,6 +263,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=33'
   development: complete
   status: playable
+  platforms:
+  - VIC-20
   langs:
   - BASIC
   licenses:
@@ -300,6 +289,8 @@
     https://web.archive.org/web/20110102154347/http://blog.semisecretsoftware.com/nearly-25000-raised-for-charity-canabalt-goes
   development: complete
   status: playable
+  platforms:
+  - iOS
   content: free
   langs:
   - Objective-C
@@ -316,6 +307,10 @@
   feed: 'https://github.com/jorio/CandyCrisis/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: open
   langs:
   - C
@@ -338,6 +333,8 @@
   originals:
   - Cannon Fodder
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/krazyjakee/CannonFodder
   type: remake
   updated: 2022-06-03
@@ -355,6 +352,8 @@
   - Out Run
   repo: https://github.com/djyt/cannonball
   status: playable
+  platforms:
+  - Windows
   type: remake
   added: 2014-02-06
   updated: 2024-05-16
@@ -375,6 +374,8 @@
     https://web.archive.org/web/20231004232544/https://dscho.com/fruit/#:~:text=Cantaloupe
   development: complete
   status: playable
+  platforms:
+  - Amiga
   langs:
   - AMOS BASIC
   licenses:
@@ -392,9 +393,10 @@
   - Tetris
   type: remake
   repo: 'https://github.com/dionyziz/canvas-tetris'
-  url: 'https://dionyziz.com/graphics/canvas-tetris/'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -414,6 +416,8 @@
   repo: 'https://github.com/storm-devs/captain-blood'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -436,6 +440,8 @@
   repo: 'https://github.com/Evenball-8bit/CaptainComic'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Assembly
@@ -454,6 +460,10 @@
   content: free
   development: halted
   status: unplayable
+  platforms:
+  - Linux
+  - Web
+  - Windows
   originals:
   - Grand Theft Auto
   repo: https://github.com/codenamecpp/carnage3d
@@ -474,6 +484,8 @@
   repo: 'https://app.assembla.com/spaces/carnivores_2/'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C++
@@ -492,6 +504,8 @@
   url: 'https://sourceforge.net/projects/cartlife/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - AGS Script
@@ -517,6 +531,8 @@
   feed: 'https://github.com/gameblabla/CascadeFX/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - PC-FX
   langs:
   - C
   licenses:
@@ -542,6 +558,8 @@
   - Rampart
   repo: https://github.com/karlb/castle-combat
   status: playable
+  platforms:
+  - Linux
   type: remake
   updated: 2019-10-17
   url: https://www.linux-games.com/castle-combat/
@@ -555,6 +573,8 @@
   originals:
   - Castle of the Winds
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/mordrax/cotwelm
   type: remake
   updated: 2022-07-16
@@ -573,6 +593,8 @@
   repo: 'https://github.com/Quuxplusone/Castlequest'
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - Fortran
   licenses:
@@ -596,6 +618,11 @@
   originals:
   - The Castles of Dr. Creep
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Wii
   multiplayer:
   - Local
   - Co-op
@@ -621,6 +648,12 @@
   - Cataclysm
   repo: https://github.com/CleverRaven/Cataclysm-DDA
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
+  - Web
   type: remake
   added: 2016-10-09
   updated: 2024-05-18
@@ -636,6 +669,8 @@
   url: https://archive.org/details/Catacomb_source
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - Pascal
@@ -656,6 +691,8 @@
   url: https://archive.org/details/CatacombII_source
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C++
@@ -675,6 +712,8 @@
   url: 'https://archive.org/details/Catacomb3-D_source'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C++
@@ -696,6 +735,8 @@
   url: 'https://archive.org/details/CatacombAbyss_source'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C++
@@ -717,6 +758,8 @@
   url: 'https://archive.org/details/CatacombApocalypse_source'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C++
@@ -738,6 +781,8 @@
   url: 'https://archive.org/details/CatacombArmageddon_source'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C++
@@ -758,6 +803,8 @@
   repo: https://github.com/ArnoAnsems/CatacombGL
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -778,6 +825,8 @@
   development: halted
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
   content: commercial
@@ -786,6 +835,10 @@
   repo: https://github.com/Blzut3/CatacombSDL
   feed: https://github.com/Blzut3/CatacombSDL/releases.atom
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   info: a source port for The Catacomb (also known as Catacomb II).
   added: 2014-07-23
@@ -799,6 +852,8 @@
   url: https://dogballs.github.io/cattle-bity/
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - TypeScript
   licenses:
@@ -817,8 +872,11 @@
   type: clone
   repo: 'https://github.com/PQCraft/CaveCube'
   feed: 'https://github.com/PQCraft/CaveCube/releases.atom'
-  development: sporadic
+  development: halted
   status: unplayable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - C
@@ -827,9 +885,9 @@
   - OpenGL
   licenses:
   - BSL
-  info: An in-development Minecraft/Infiniminer clone
+  info: An unfinished open source voxel game
   added: 2023-04-26
-  updated: 2024-05-20
+  updated: 2026-05-16
   images:
   - >-
     https://raw.githubusercontent.com/PQCraft/PQCraft/master/Screenshot_20221128_010856.png
@@ -851,6 +909,12 @@
   repo: https://github.com/mgerhardy/caveexpress
   feed: https://github.com/mgerhardy/caveexpress/releases.atom
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
+  - Web
   type: clone
   added: 2014-06-24
   updated: 2024-05-21
@@ -865,6 +929,8 @@
   url: 'https://6502disassembly.com/a2-caverns-freitag/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -888,6 +954,8 @@
   feed: 'https://github.com/AMDmi3/cavezofphear/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -911,6 +979,8 @@
   originals:
   - Sid Meier's Colonization
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/institution/cc94
   type: remake
   updated: 2022-07-16
@@ -924,6 +994,10 @@
 - name: CCCP
   development: active
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   langs:
   - C++
   frameworks:
@@ -935,6 +1009,7 @@
   originals:
   - Cortex Command
   info: Cortex Command Community Project is based on the open sourced code of Cortex Command
+  url: https://cortex-command-community.github.io
   repo: https://github.com/cortex-command-community/Cortex-Command-Community-Project
   feed: https://github.com/cortex-command-community/Cortex-Command-Community-Project/releases.atom
   type: remake
@@ -956,6 +1031,9 @@
   repo: 'https://github.com/lemon32767/ccleste'
   development: halted
   status: playable
+  platforms:
+  - 3DS
+  - Windows
   content: free
   langs:
   - C
@@ -975,9 +1053,10 @@
   originals:
   - Cortex Command
   repo: https://github.com/DataRealms/CCOSS
-  url: http://tradestar.datarealms.com/games.html
   development: complete
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   licenses:
@@ -999,6 +1078,11 @@
   url: 'https://maddymakesgamesinc.itch.io/celeste-classic-2'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Web
   langs:
   - Lua
   frameworks:
@@ -1018,6 +1102,11 @@
   url: 'https://s0lly.itch.io/cellivization'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
   multiplayer:
   - Hotseat
   langs:
@@ -1040,6 +1129,8 @@
   url: 'https://6502disassembly.com/va-centipede/'
   development: complete
   status: playable
+  platforms:
+  - Arcade
   langs:
   - Assembly
   licenses:
@@ -1058,6 +1149,8 @@
   url: 'https://www.romhacking.net/documents/619/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1071,9 +1164,10 @@
   - Snake
   type: remake
   repo: 'https://github.com/mjhasbach/ceros-snake'
-  url: 'https://web.archive.org/web/20160109020628/http://ceros-snake.hasba.ch/'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -1093,6 +1187,8 @@
   url: 'https://x.com/GamingAlexandri/status/1259944619766362112'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   content: free
   langs:
   - Assembly
@@ -1109,11 +1205,12 @@
   originals:
   - Nuclear Reaction
   status: playable
+  platforms:
+  - None
   repo: https://github.com/maikmerten/chainreaction
   development: halted
   type: remake
   updated: 2022-07-16
-  url: http://cr.freewarepoint.de/
 
 - name: Chaos Groove
   originals:
@@ -1124,6 +1221,8 @@
   feed: 'https://chaosgroove.wordpress.com/feed/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Split-screen
   content: free
@@ -1151,6 +1250,10 @@
   - Age of Empires
   repo: https://github.com/ChariotEngine/Chariot
   status: unplayable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   updated: 2019-10-26
 
@@ -1163,6 +1266,11 @@
   feed: 'https://gitlab.com/solarus-games/games/children-of-solarus.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
   content: open
   langs:
   - Lua
@@ -1189,6 +1297,8 @@
   url: 'https://quuxplusone.github.io/Chimaera/'
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - C
   - Fortran
@@ -1205,6 +1315,8 @@
   repo: 'https://github.com/NBlood/chocolate-blood'
   development: sporadic
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - C++
@@ -1227,6 +1339,10 @@
   - GPL2
   development: active
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   originals:
   - Doom
   - Heretic
@@ -1242,6 +1358,9 @@
   - Doom 3
   type: remake
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: 'https://github.com/klaussilveira/chocolate-doom3-bfg'
   development: active
   content: commercial
@@ -1268,6 +1387,10 @@
   repo: https://github.com/fabiensanglard/chocolate_duke3D
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   langs:
   - C
   frameworks:
@@ -1286,6 +1409,10 @@
   feed: 'https://github.com/Henrique194/chocolate-quake/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1313,6 +1440,10 @@
   feed: 'https://github.com/Henrique194/chocolate-quakeworld/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1332,6 +1463,8 @@
   repo: 'https://github.com/AandersonL/Chrono-Trigger-C'
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - C
@@ -1356,6 +1489,8 @@
   repo: https://github.com/TheAssemblyArmada/Chronoshift
   type: remake
   status: playable
+  platforms:
+  - Windows
   updated: 2020-07-22
 
 - name: Chuckie-Egg
@@ -1365,6 +1500,8 @@
   repo: 'https://github.com/pbrook/Chuckie-Egg'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - C
   frameworks:
@@ -1388,6 +1525,8 @@
   originals:
   - Circus Atari
   status: playable
+  platforms:
+  - Linux
   type: remake
   updated: 2022-02-09
   url: http://www.newbreedsoftware.com/circus-linux/
@@ -1404,8 +1543,12 @@
   originals:
   - System Shock
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   repo: https://github.com/JosiahJack/Citadel
-  development: active
+  development: sporadic
   type: remake
   added: 2016-05-09
   updated: 2024-05-26
@@ -1424,6 +1567,8 @@
   repo: 'https://github.com/Evenball-8bit/City_Connection'
   development: complete
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Hotseat
   content: free
@@ -1442,6 +1587,8 @@
   url: https://aeplay.org/citybound
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   content: open
   langs:
   - Rust
@@ -1461,6 +1608,8 @@
   feed: 'https://github.com/dgreenheck/simcity-threejs-clone/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   frameworks:
@@ -1479,6 +1628,10 @@
   repo: 'https://github.com/axx0/Civ2-clone'
   development: active
   status: unplayable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: commercial
   langs:
   - C#
@@ -1500,6 +1653,8 @@
   url: 'https://web.archive.org/web/20091027013406/http://www.geocities.com/civ89game/'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   multiplayer:
   - Hotseat
   langs:
@@ -1512,28 +1667,6 @@
   images:
   - 'https://www.calculatorti.com/media/images/programs/civilization-89-civ-89.jpg'
 
-- name: 'Civilization: Call To Power 2 Source Project'
-  licenses:
-  - Custom
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  - SDL2
-  originals:
-  - Call to Power II
-  status: playable
-  repo: https://github.com/civctp2/civctp2
-  development: sporadic
-  type: remake
-  added: 2015-04-10
-  updated: 2024-05-29
-  url: https://ctp2.darkdust.net/
-  images:
-  - https://github.com/civctp2/civctp2/raw/master/screenshot.png
-  - https://github.com/civctp2/civctp2/raw/master/Advance-Graph/Advance_english.png
-
 - name: CivOne
   development: halted
   langs:
@@ -1544,6 +1677,8 @@
   originals:
   - Civilization
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/SWY1985/CivOne
   type: remake
   updated: 2022-10-10
@@ -1557,6 +1692,8 @@
   feed: 'https://github.com/conradludgate/wordle/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -1574,6 +1711,8 @@
   repo: 'https://github.com/scttgs0/ClaimJumper'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1590,6 +1729,9 @@
   feed: 'https://savannah.nongnu.org/news/atom.php?group=clanbomber'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - C++
@@ -1612,6 +1754,8 @@
   url: 'https://web.archive.org/web/20140331112350/http://blog.supergnes.com/?p=295'
   development: complete
   status: playable
+  platforms:
+  - SNES
   content: open
   langs:
   - C
@@ -1634,6 +1778,8 @@
   - Doom 3
   type: tool
   status: N/A
+  platforms:
+  - Windows
   repo: 'https://github.com/MadDeCoDeR/Classic-RBDOOM-3-BFG'
   url: 'https://www.moddb.com/mods/classic-rbdoom-3-bfg-edition'
   development: active
@@ -1664,6 +1810,10 @@
     https://userbob.com/tools/splitView?url1=https%3A%2F%2Falmy.us%2Fsst.html&url2=https%3A%2F%2Fweb.archive.org%2Fweb%2F20230129232031%2Fhttps%3A%2F%2Fwww.dunnington.info%2Fpublic%2Fstartrek%2F&direction=vertical&split1=50
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   langs:
   - C
   licenses:
@@ -1680,6 +1830,30 @@
   url: 'https://www.classicube.net'
   development: very active
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - Web
+  - Android
+  - iOS
+  - Raspberry Pi
+  - BeOS
+  - Nintendo Switch
+  - Wii
+  - Dreamcast
+  - PlayStation 2
+  - PlayStation 3
+  - PlayStation Vita
+  - 3DS
+  - GameCube
+  - PSP
+  - N64
+  - DS
+  - Xbox
+  - Wii U
+  - PlayStation
+  - Saturn
   multiplayer:
   - Online
   content: open
@@ -1710,6 +1884,11 @@
   repo: https://github.com/ClassicUO/ClassicUO
   feed: https://github.com/ClassicUO/ClassicUO/releases.atom
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - Web
+  - OSX
   type: clone
   added: 2020-12-16
   updated: 2024-05-30
@@ -1733,6 +1912,8 @@
   feed: 'https://github.com/daveiator/cli_2048/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -1748,6 +1929,8 @@
   feed: 'https://github.com/ajeetdsouza/clidle/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   langs:
   - Go
   licenses:
@@ -1766,6 +1949,13 @@
   url: 'https://clonekeen.sourceforge.net/'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - BeOS
+  - Mobile
+  - Dreamcast
   multiplayer:
   - Co-op
   content: commercial
@@ -1790,6 +1980,9 @@
   url: https://rohit.itch.io/clonepoint
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   langs:
   - C++
   frameworks:
@@ -1810,6 +2003,8 @@
   repo: 'https://sourceforge.net/projects/cosp/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C
@@ -1837,6 +2032,8 @@
   originals:
   - Flappy Bird
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/ellisonleao/clumsy-bird
   type: remake
   updated: 2022-07-16
@@ -1853,6 +2050,8 @@
   feed: 'https://sourceforge.net/p/clustermines/news/feed.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Java
@@ -1876,6 +2075,8 @@
   url: 'https://www.ocf.berkeley.edu/~pad/game-ti8c-cmonster.html'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - Assembly
   licenses:
@@ -1894,6 +2095,8 @@
   url: 'https://www.ea.com/games/command-and-conquer/command-and-conquer-remastered'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1951,6 +2154,8 @@
   - Curse of the Azure Bonds
   repo: https://github.com/simeonpilgrim/coab
   status: playable
+  platforms:
+  - Windows
   type: remake
   updated: 2013-05-28
 
@@ -1971,6 +2176,11 @@
   originals:
   - Escape from Colditz
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - PSP
   repo: https://github.com/aperture-software/colditz-escape
   type: remake
   updated: 2022-03-15
@@ -1984,6 +2194,8 @@
   url: 'https://www.allegro.cc/depot/CollisioninSpace'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -2002,9 +2214,12 @@
   originals:
   - Colobot
   repo: https://github.com/colobot/colobot
-  url: https://colobot.info/
   development: active
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   langs:
   - C++
   frameworks:
@@ -2030,6 +2245,10 @@
   url: 'https://x.com/gocroquet/status/1666309176958541824'
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
+  - Windows
+  - Amiga
   content: commercial
   langs:
   - C
@@ -2060,6 +2279,10 @@
   originals:
   - Coloris
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   development: halted
   repo: https://github.com/DanijelAskov/coloris
   images:
@@ -2079,6 +2302,9 @@
   url: 'https://rickadams.org/adventure/e_downloads.html'
   development: complete
   status: playable
+  platforms:
+  - DOS
+  - Amiga
   langs:
   - Fortran
   licenses:
@@ -2094,6 +2320,9 @@
   feed: https://github.com/dgcor/Columns/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: free
   langs:
   - C++
@@ -2115,6 +2344,8 @@
   url: 'https://www.freshports.org/games/columns'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2133,6 +2364,8 @@
   url: https://forums.sonicretro.org/threads/columns-game-gear-sources.22220/
   development: complete
   status: playable
+  platforms:
+  - Game Gear
   content: free
   langs:
   - Assembly
@@ -2150,6 +2383,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200203/msg00001.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   content: commercial
   langs:
   - Assembly
@@ -2170,6 +2405,8 @@
   feed: 'https://sourceforge.net/p/comisat-games/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - Gambas
@@ -2199,6 +2436,8 @@
   url: http://www.adityaravishankar.com/projects/games/command-and-conquer/
   development: halted
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   licenses:
@@ -2214,6 +2453,8 @@
   url: https://store.steampowered.com/app/2732960/Command__Conquer_Generals_Zero_Hour/
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -2248,6 +2489,8 @@
   url: 'https://store.steampowered.com/app/2229890/Command__Conquer_Renegade/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -2283,6 +2526,8 @@
     https://store.steampowered.com/app/2229830/Command__Conquer_and_The_Covert_Operations/
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -2318,6 +2563,8 @@
     https://store.steampowered.com/app/2229840/Command__Conquer_Red_Alert_Counterstrike_and_The_Aftermath/
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -2353,6 +2600,9 @@
   repo: https://github.com/pwiecz/command_series
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   langs:
   - Go
   frameworks:
@@ -2377,6 +2627,11 @@
   - GPL2
   content: commercial
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - Nintendo Switch
+  - OSX
   development: sporadic
   multiplayer:
   - Co-op
@@ -2398,6 +2653,8 @@
   feed: 'https://github.com/Robosturm/Commander_Wars/releases.atom'
   development: active
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Competitive
   - Online
@@ -2425,6 +2682,8 @@
   url: 'https://www.romhacking.net/documents/620/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -2448,6 +2707,8 @@
   - Commando
   repo: https://github.com/commandojs/CommandoJS
   status: playable
+  platforms:
+  - Web
   type: remake
   updated: 2019-09-13
 
@@ -2459,6 +2720,8 @@
   url: 'https://elite.bbcelite.com/c64/'
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   content: free
   langs:
   - Assembly
@@ -2476,12 +2739,13 @@
   originals:
   - 'Conquest: Frontier Wars'
   type: official
-  repo: >-
-    https://archive.org/details/conquest-frontier-wars-fever-pitch-studios-2001-source-code.-7z
+  repo: https://archive.org/details/conquest-frontier-wars-fever-pitch-studios-2001-source-code.-7z
   url: >-
     https://conquestfrontierwars.weebly.com/news/conquest-frontier-wars-source-code-out
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -2500,6 +2764,8 @@
   repo: 'https://github.com/IPHundead/Console-RiverRaid'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - C++
   licenses:
@@ -2516,6 +2782,9 @@
   feed: 'https://github.com/elmex/Construder/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - Perl
@@ -2536,6 +2805,8 @@
   feed: 'https://github.com/skoolkid/contactsamcruise/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - ZX Spectrum
   langs:
   - Skool
   licenses:
@@ -2553,6 +2824,8 @@
   originals:
   - Contra
   status: semi-playable
+  platforms:
+  - Windows
   repo: https://github.com/EmileSonneveld/Contra_remake
   type: remake
   updated: 2015-05-28
@@ -2572,6 +2845,8 @@
   originals:
   - Cookie Clicker
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/ricodejong02/CookieClickerRemake
   type: remake
   updated: 2022-07-16
@@ -2585,6 +2860,8 @@
   originals:
   - Candy Crush Saga
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/renatomcamilio/CookieCrunch
   type: clone
   updated: 2022-07-16
@@ -2596,6 +2873,8 @@
   repo: 'https://code.google.com/archive/p/cooldown-game/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C++
@@ -2616,6 +2895,8 @@
   repo: 'https://github.com/mhjlam/Copperhead'
   development: complete
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -2630,6 +2911,11 @@
   originals:
   - Wipeout
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - Android
   licenses:
   - MIT
   - Multiple
@@ -2658,6 +2944,8 @@
   url: 'https://web.archive.org/web/20020108042105/http://psky.com/prog/downloads.htm'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - Assembly
@@ -2675,6 +2963,8 @@
     https://web.archive.org/web/20241226032347/http://corridor7.tripod.com/corr8/index.htm
   development: halted
   status: semi-playable
+  platforms:
+  - DOS
   content: free
   langs:
   - C
@@ -2701,6 +2991,8 @@
 - name: CorrinoEngine
   development: active
   status: unplayable
+  platforms:
+  - Windows
   langs:
   - C#
   licenses:
@@ -2734,6 +3026,10 @@
   - Theme Hospital
   repo: https://github.com/CorsixTH/CorsixTH
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   type: remake
   url: http://corsixth.com/
   updated: 2021-03-02
@@ -2748,6 +3044,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200204/msg00042.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -2762,6 +3060,8 @@
   repo: 'https://github.com/Kartonrealista/cosmic-ext-2048'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Linux
   langs:
   - Rust
   licenses:
@@ -2782,6 +3082,8 @@
   url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/kidnap-0.01.lsm'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2800,6 +3102,8 @@
   originals:
   - Cosmic Ark
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/JakeGill70/CosmicArk-Advanced
   development: halted
   type: remake
@@ -2812,6 +3116,9 @@
   repo: https://github.com/yuv422/cosmo-engine
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   langs:
   - C
   frameworks:
@@ -2832,6 +3139,8 @@
   url: https://www.scottsmitelli.com/projects/cosmore
   development: active
   status: playable
+  platforms:
+  - DOS
   langs:
   - C
   - Assembly
@@ -2843,21 +3152,6 @@
   images:
   - https://www.scottsmitelli.com/static-projects/cosmore.jpg
 
-- name: Cosmosmash
-  frameworks:
-  - SDL
-  langs:
-  - C++
-  licenses:
-  - GPL2
-  development: halted
-  originals:
-  - Astrosmash
-  status: playable
-  type: remake
-  updated: 2022-07-16
-  url: http://perso.b2b2c.ca/~sarrazip/dev/cosmosmash.html
-
 - name: CoU_Server
   originals:
   - Glitch
@@ -2865,6 +3159,8 @@
   repo: 'https://github.com/ChildrenOfUr/CoU_Server'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -2882,6 +3178,8 @@
   repo: 'https://github.com/ChildrenOfUr/cou_server2'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -2905,6 +3203,8 @@
   feed: 'https://github.com/ChildrenOfUr/coUclient/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   multiplayer:
   - Online
   content: open
@@ -2930,6 +3230,10 @@
   feed: 'https://github.com/ChildrenOfUr/coUserver/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Online
   langs:
@@ -2955,6 +3259,9 @@
   - Tetris Attack
   repo: https://github.com/gnu-lorien/crack-attack
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: remake
   updated: 2014-04-16
   url: https://www.nongnu.org/crack-attack/
@@ -2967,6 +3274,8 @@
   url: 'https://www.romhacking.net/documents/487/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -2985,6 +3294,10 @@
   url: https://www.michaelfogleman.com/projects/craft/
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Online
   langs:
@@ -3012,6 +3325,8 @@
   originals:
   - Flappy Bird
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/varunpant/CrappyBird
   type: remake
   updated: 2022-07-16
@@ -3030,6 +3345,8 @@
   url: 'https://x.com/KevEdwardsRetro/status/1113205022274330625'
   development: complete
   status: playable
+  platforms:
+  - Acorn 32-bit
   langs:
   - Assembly
   licenses:
@@ -3047,6 +3364,8 @@
   url: 'https://x.com/KevEdwardsRetro/status/1059562559123218432'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   langs:
   - Assembly
   licenses:
@@ -3066,6 +3385,10 @@
   originals:
   - Crazy Cars
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - Genesis
   type: remake
   updated: 2022-07-16
   url: http://crazycarscpc.free.fr/indexEN.htm
@@ -3082,6 +3405,9 @@
   originals:
   - Battle Isle series
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: clone
   added: 2013-05-29
   updated: 2019-08-27
@@ -3099,6 +3425,10 @@
   feed: 'https://github.com/fabiangreffrath/crispy-doom/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   content: commercial
   langs:
   - C
@@ -3125,6 +3455,10 @@
   feed: 'https://github.com/jorio/CroMagRally/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Competitive
   - Split-screen
@@ -3155,6 +3489,9 @@
   url: 'https://tpoindex.github.io/crobots/'
   development: complete
   status: playable
+  platforms:
+  - Web
+  - DOS
   multiplayer:
   - Competitive
   langs:
@@ -3174,6 +3511,9 @@
   repo: https://github.com/stohrendorf/CroftEngine
   development: very active
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: commercial
   langs:
   - C++
@@ -3212,6 +3552,10 @@
   - Ultima Online
   repo: https://github.com/crossuo/crossuo
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   type: clone
   added: 2019-09-24
   updated: 2024-06-07
@@ -3236,10 +3580,12 @@
   originals:
   - Sid Meier's Pirates!
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://sourceforge.net/projects/crownandcutlass/
   type: remake
   updated: 2022-07-08
-  url: http://www.crownandcutlass.com/
 
 - name: cruisin-usa
   originals:
@@ -3248,6 +3594,8 @@
   repo: 'https://github.com/historicalsource/cruisin-usa'
   development: complete
   status: playable
+  platforms:
+  - N64
   content: commercial
   langs:
   - Assembly
@@ -3260,10 +3608,11 @@
   originals:
   - Crossfire (Cruising)
   type: remake
-  url: >-
-    https://web.archive.org/web/20080404203751/http://www.autismuk.freeserve.co.uk/#:~:text=Cruising%20on%20Broadway,-A
+  url: https://web.archive.org/web/20080404203751/http://www.autismuk.freeserve.co.uk/#:~:text=Cruising%20on%20Broadway,-A
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C++
   frameworks:
@@ -3280,6 +3629,8 @@
   repo: 'https://github.com/OpenRakis/Cryogenic/'
   development: active
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -3304,6 +3655,8 @@
   url: 'https://www.romhacking.net/documents/499/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   multiplayer:
   - Local
   langs:
@@ -3321,6 +3674,8 @@
   url: 'https://www.romhacking.net/documents/553/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -3339,6 +3694,8 @@
   feed: 'https://sourceforge.net/p/crystalscrolls/news/feed.rss'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -3358,6 +3715,9 @@
   url: https://www.t3-i.com/scripts/pages/project.php?id=crystal_stacker
   development: complete
   status: playable
+  platforms:
+  - DOS
+  - Windows
   multiplayer:
   - Local
   - Competitive
@@ -3380,6 +3740,8 @@
   repo: 'https://github.com/crystalisdisassembly/crystalisdisassembly'
   development: halted
   status: semi-playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -3396,6 +3758,8 @@
   repo: 'https://github.com/Evenball-8bit/CrystalMines'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Assembly
@@ -3415,6 +3779,8 @@
   originals:
   - Crystal Quest
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/haleymt/CrystalQuest
   type: remake
   updated: 2022-07-16
@@ -3427,6 +3793,8 @@
   repo: 'https://www.unrealsoftware.de/get.php?get=cs2dbeta0100source.zip'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -3448,6 +3816,11 @@
   url: 'http://dmweb.free.fr/?q=node/851'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - Raspberry Pi
   content: free
   langs:
   - C++
@@ -3467,6 +3840,12 @@
   repo: https://github.com/gameblabla/CSE2
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - Wii
+  - 3DS
   langs:
   - C++
   frameworks:
@@ -3487,6 +3866,8 @@
   url: 'https://benjaminaster.com/css-minecraft/'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Web
   content: free
   langs:
   - HTML
@@ -3508,6 +3889,8 @@
     https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/
   development: very active
   status: semi-playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   - CSS
@@ -3527,6 +3910,8 @@
   repo: 'https://github.com/CTR-tools/CTR-ModSDK'
   development: very active
   status: N/A
+  platforms:
+  - None
   content: commercial
   langs:
   - C
@@ -3550,6 +3935,11 @@
   feed: 'https://cuberite.org/feed.xml'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - Android
   langs:
   - C++
   licenses:
@@ -3567,6 +3957,8 @@
   feed: 'https://github.com/CubicMC/cubic-server/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   content: open
@@ -3590,6 +3982,8 @@
   originals:
   - Kula World
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/cubosphere/cubosphere-code
   type: remake
   updated: 2022-07-16
@@ -3605,10 +3999,12 @@
   - Minecraft
   type: clone
   repo: 'https://github.com/PixelGuys/Cubyz'
-  url: 'https://pixelguys.github.io/Cubyz/'
   feed: 'https://github.com/PixelGuys/Cubyz/releases.atom'
   development: very active
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - Java
@@ -3638,7 +4034,10 @@
   originals:
   - Achtung, die Kurve!
   repo: https://github.com/Curvytron/curvytron
+  url: https://www.curvytron.com
   status: playable
+  platforms:
+  - Web
   type: clone
   updated: 2022-10-04
 
@@ -3650,6 +4049,8 @@
   feed: 'https://sourceforge.net/projects/customizablepon/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - Python
@@ -3670,6 +4071,8 @@
   url: 'https://web.archive.org/web/20020202142926/http://www.hardgeus.com/cylindrix/'
   development: halted
   status: playable
+  platforms:
+  - DOS
   multiplayer:
   - LAN
   content: open
@@ -3705,6 +4108,10 @@
   originals:
   - Cytadela
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   repo: https://sourceforge.net/projects/cytadela/
   type: remake
   updated: 2022-07-16
@@ -3718,6 +4125,10 @@
   url: https://cytopia.net/
   development: active
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   content: open
   langs:
   - C++

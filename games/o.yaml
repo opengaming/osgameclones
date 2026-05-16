@@ -1241,6 +1241,38 @@
   - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot13.png
   - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot14.png
 
+- name: OpenCiv3
+  originals:
+  - Civilization III
+  type: remake
+  repo: https://github.com/C7-Game/OpenCiv3
+  url: https://openciv3.org
+  feed: https://github.com/C7-Game/OpenCiv3/releases.atom
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  content: swappable
+  langs:
+  - 'C#'
+  frameworks:
+  - Godot
+  - .NET
+  licenses:
+  - MIT
+  info: >-
+    Uses Civ3 assets for now but aims for a standalone 4X game with multiple
+    inspirations
+  added: 2025-06-09
+  updated: 2026-05-16
+  video:
+    youtube: zHGO_fbz0nY
+  images:
+  - https://openciv3.org/Dutch_standalone.png
+  - https://openciv3.org/Dutch_imported.png
+
 - name: OpenClaw
   frameworks:
   - SDL2
