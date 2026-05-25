@@ -205,7 +205,12 @@
 
 - name: Gish
   external:
+    website: https://www.crypticsea.com/gish/
     wikipedia: Gish (video game)
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   meta:
     genres:
     - Platform
@@ -688,16 +693,6 @@
   meta:
     genres:
     - Platform
-
-- name: Gruntz
-  external:
-    wikipedia: Gruntz
-  platforms:
-  - Windows
-  meta:
-    genres:
-    - Strategy
-    - Puzzle
 
 - name: The Guild of Thieves
   external:

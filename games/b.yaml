@@ -550,6 +550,28 @@
   added: 2026-01-10
   updated: 2026-01-10
 
+- name: The Bard's Tale III
+  originals:
+  - "The Bard's Tale III: Thief of Fate"
+  type: remake
+  repo: 'https://github.com/Drunella/bt3-easyflash'
+  url: 'https://csdb.dk/release/?id=228321'
+  feed: 'https://github.com/Drunella/bt3-easyflash/releases.atom'
+  development: halted
+  status: playable
+  platforms:
+  - Commodore 64
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - Apache
+  added: 2026-05-14
+  updated: 2026-05-14
+  images:
+  - 'https://csdb.dk/gfx/releases/228000/228321.gif'
+
 - name: Barkley1_Original
   originals:
   - 'Barkley, Shut Up and Jam: Gaiden'
@@ -2848,6 +2870,24 @@
   info: The game was published in the book "30 Programs for the ZX81".
   added: 2025-10-27
   updated: 2025-10-27
+
+- name: breaker
+  originals:
+  - Breaker
+  type: clone
+  repo: 'https://github.com/haekb/breaker'
+  development: halted
+  status: playable
+  platforms:
+  - Web
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - As-is
+  added: 2026-05-10
+  updated: 2026-05-10
 
 - name: Breaker
   originals:

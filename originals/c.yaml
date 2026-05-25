@@ -7,14 +7,6 @@
     subgenres:
     - Run and gun
 
-- name: Cadaver
-  external:
-    wikipedia: Cadaver (video game)
-  meta:
-    genres:
-    - Action
-    - Adventure
-
 - name: Caesar III
   external:
     wikipedia: Caesar III
@@ -256,9 +248,16 @@
 - name: The Castles of Dr. Creep
   external:
     wikipedia: The Castles of Dr. Creep
+  platforms:
+  - Commodore 64
+  - Linux
+  - OSX
+  - Windows
+  - Xbox One
   meta:
     genres:
     - Arcade
+    - Puzzle
 
 - name: Castlevania
   names:
@@ -888,7 +887,23 @@
 
 - name: Columns
   external:
+    website: https://www.mobygames.com/game/7685/columns/
     wikipedia: Columns (video game)
+  platforms:
+  - 3DS
+  - Arcade
+  - Classic Mac OS
+  - FM Towns
+  - Game Gear
+  - Genesis
+  - Linux
+  - Master System
+  - MSX
+  - PC-98
+  - SNES
+  - TurboGrafx-16
+  - Wii
+  - Windows
   meta:
     genres:
     - Puzzle

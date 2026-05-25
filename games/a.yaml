@@ -1921,6 +1921,30 @@
   added: 2025-11-06
   updated: 2025-11-06
 
+- name: Apolyton Call to Power II Source Code Project
+  licenses:
+  - Custom
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - SDL2
+  originals:
+  - Call to Power II
+  status: playable
+  platforms:
+  - Linux
+  - Windows
+  repo: https://github.com/civctp2/civctp2
+  development: sporadic
+  type: remake
+  added: 2015-04-10
+  updated: 2026-05-16
+  images:
+  - https://github.com/civctp2/civctp2/raw/master/screenshot.png
+  - https://github.com/civctp2/civctp2/raw/master/Advance-Graph/Advance_english.png
+
 - name: Apotris
   originals:
   - 'Tetris: The Grand Master'
@@ -2371,6 +2395,25 @@
   updated: 2025-12-17
   images:
   - 'https://a.fsdn.com/con/app/proj/arkanoidgameinjava/screenshots/Untitled.png'
+
+- name: ARKANOID (in C)
+  originals:
+  - Arkanoid
+  type: clone
+  repo: 'https://www.allegro.cc/depot/arkanoid'
+  url: >-
+    https://web.archive.org/web/20090226210958if_/http://fakolo.altervista.org/#:~:text=ARKANOID
+  development: halted
+  status: semi-playable
+  platforms:
+  - Linux
+  - Windows
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-05-12
+  updated: 2026-05-12
 
 - name: Arkanoid (Rust)
   originals:

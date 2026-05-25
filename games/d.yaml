@@ -11,6 +11,10 @@
   - Descent II
   repo: https://sourceforge.net/projects/d2x-xl/
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   type: remake
   updated: 2021-01-22
   url: http://www.descent2.de/
@@ -28,6 +32,8 @@
   repo: 'https://github.com/jackpal/D3DQuake'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -51,6 +57,10 @@
   repo: 'https://github.com/emileb/d3es-multithread'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   content: commercial
   langs:
   - C++
@@ -68,11 +78,16 @@
   - Unity
   licenses:
   - MIT
-  development: active
+  content: commercial
+  development: complete
   originals:
   - 'The Elder Scrolls II: Daggerfall'
   repo: https://github.com/Interkarma/daggerfall-unity
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   type: remake
   updated: 2023-01-01
   url: https://www.dfworkshop.net/
@@ -94,6 +109,8 @@
   originals:
   - 'The Elder Scrolls II: Daggerfall'
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/JohnathanGreen/Daggerfall.NET
   type: remake
   updated: 2022-07-02
@@ -104,7 +121,10 @@
   type: remake
   repo: 'https://github.com/atsb/daikatana-restoration-project'
   development: halted
-  status: playable
+  status: unplayable
+  platforms:
+  - Linux
+  - Windows
   content: commercial
   langs:
   - C++
@@ -112,6 +132,26 @@
   - As-is
   added: 2025-11-11
   updated: 2025-11-11
+
+- name: Daleks
+  originals:
+  - Daleks
+  type: clone
+  repo: 'https://www.hpcalc.org/details/6223'
+  url: >-
+    https://web.archive.org/web/20050910020955/http://www.palmgamingworld.com/arcade/daleks.shtml
+  development: halted
+  status: playable
+  platforms:
+  - HP calculator
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-05-15
+  updated: 2026-05-15
+  images:
+  - https://web.archive.org/web/20010630123409im_/http://palmgamingworld.com/images/games/arcade/daleks.gif
 
 - name: Damnation of the Gods
   originals:
@@ -122,6 +162,8 @@
   feed: 'https://sourceforge.net/p/dotg/news/feed.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -139,10 +181,11 @@
   - Dandy
   type: official
   repo: 'https://github.com/jackpal/Dandy-Dungeon'
-  url: >-
-    https://web.archive.org/web/20130113022528/https://jackpal.github.com/Dandy-Dungeon/
-  development: very active
+  url: https://web.archive.org/web/20130113022528/https://jackpal.github.com/Dandy-Dungeon/
+  development: sporadic
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Local
   content: open
@@ -182,6 +225,8 @@
   originals:
   - Silent Hunter 4
   status: playable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/dangerdeep/
   type: remake
   updated: 2021-04-27
@@ -196,8 +241,10 @@
   repo: 'https://github.com/Harchvertelol/Dangerous-Dave-2-Modification-Edition'
   feed: >-
     https://github.com/Harchvertelol/Dangerous-Dave-2-Modification-Edition/releases.atom
-  development: active
+  development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -239,6 +286,8 @@
   url: 'https://www.romhacking.net/documents/498/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   multiplayer:
   - Local
   langs:
@@ -265,6 +314,9 @@
   - Thief
   repo: https://github.com/stgatilov/darkmod_src
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: clone
   updated: 2024-01-28
   url: https://www.thedarkmod.com/main/
@@ -279,6 +331,9 @@
   originals:
   - Warcraft II
   status: playable
+  platforms:
+  - Linux
+  - Windows
   licenses:
   - GPL2
   content: open
@@ -300,10 +355,11 @@
   type: clone
   repo: >-
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/#:~:text=darkwell
-  url: >-
-    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/darkwell-1.0.0.lsm
+  url: https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/darkwell-1.0.0.lsm
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -323,6 +379,10 @@
   feed: https://github.com/DarkflameUniverse/DarkflameServer/releases.atom
   development: very active
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Local
   - Online
@@ -351,9 +411,13 @@
   originals:
   - Fallout 2
   status: semi-playable
+  platforms:
+  - None
   repo: https://github.com/darkf/darkfo
   type: remake
   updated: 2022-04-18
+  images:
+  - https://github.com/darkf/darkfo/blob/master/screenshot.png?raw=true
 
 - name: DarkMatter Engine
   originals:
@@ -364,6 +428,8 @@
   feed: 'https://github.com/themuffinator/dm-engine/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Local
@@ -398,6 +464,10 @@
   originals:
   - Quake
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   repo: https://github.com/DarkPlacesEngine/darkplaces
   type: remake
   added: 2015-07-02
@@ -412,6 +482,8 @@
   repo: 'https://github.com/Nielk1/DarkReignLauncher'
   development: halted
   status: N/A
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -427,12 +499,13 @@
   originals:
   - DarkSpace
   type: official
-  repo: 'https://github.com/palestar/darkspace_meta'
-  url: >-
-    https://web.archive.org/web/20110125131319/http://www.mmorpg.com/blogs/Drafell/062009/4068
-  feed: 'https://github.com/palestar/darkspace_meta/releases.atom'
+  repo: https://github.com/palestar/darkspace
+  url: https://www.darkspace.net
+  feed: https://github.com/palestar/darkspace/releases.atom
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   content: free
@@ -454,6 +527,8 @@
   originals:
   - Turmoil
   status: playable
+  platforms:
+  - Master System
   repo: https://github.com/haroldo-ok/datastorm
   type: remake
   updated: 2022-07-02
@@ -474,6 +549,10 @@
   - Duke Nukem
   repo: https://github.com/davidjoffe/dave_gnukem
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: similar
   updated: 2024-01-30
   url: https://djoffe.com/gnukem/
@@ -490,6 +569,8 @@
     https://github.com/DickBlackshack/Days-of-Thunder-NES-Unpublished/releases.atom
   development: complete
   status: playable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -503,10 +584,11 @@
   - Doom
   type: remake
   repo: 'https://github.com/LemonHaze420/DCDoom'
-  url: >-
-    https://www.sega-dreamcast-info-games-preservation.com/en/original-port-of-doom-windows-ce-dreamcast-gdi-cdi
+  url: https://www.sega-dreamcast-info-games-preservation.com/en/original-port-of-doom-windows-ce-dreamcast-gdi-cdi
   development: halted
   status: playable
+  platforms:
+  - Dreamcast
   multiplayer:
   - LAN
   content: commercial
@@ -527,6 +609,8 @@
   repo: 'https://github.com/LemonHaze420/DCExtremePinball'
   development: halted
   status: playable
+  platforms:
+  - Dreamcast
   multiplayer:
   - Local
   content: commercial
@@ -545,6 +629,8 @@
   repo: 'https://github.com/LemonHaze420/DCMoHo'
   development: complete
   status: playable
+  platforms:
+  - Dreamcast
   content: commercial
   langs:
   - C++
@@ -562,6 +648,8 @@
     https://www.sega-dreamcast-info-games-preservation.com/en/nebulus-dreamcast-original-port-cdi
   development: halted
   status: semi-playable
+  platforms:
+  - Dreamcast
   content: free
   langs:
   - C
@@ -584,6 +672,8 @@
   repo: 'https://github.com/LemonHaze420/DCPopulous'
   development: complete
   status: playable
+  platforms:
+  - Dreamcast
   content: commercial
   langs:
   - C++
@@ -600,6 +690,8 @@
   repo: 'https://github.com/LemonHaze420/DCSpeedBall2'
   development: complete
   status: playable
+  platforms:
+  - Dreamcast
   content: commercial
   langs:
   - C++
@@ -619,6 +711,8 @@
   originals:
   - Deathchase
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/BachToTheFuture/DeathChase3D
   development: halted
   type: remake
@@ -637,6 +731,8 @@
   originals:
   - Deathlord
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/hasseily/Deathlord-Relorded
   development: complete
   type: remake
@@ -651,6 +747,8 @@
   url: 'https://6502disassembly.com/a2-deathmaze/'
   development: complete
   status: playable
+  platforms:
+  - TRS-80
   langs:
   - Assembly
   licenses:
@@ -663,10 +761,11 @@
   - Mastermind
   type: clone
   repo: 'https://www.atarimagazines.com/software/86-12/DEDUCT.BAS'
-  url: >-
-    https://archive.org/details/AnticVol5No8/Antic/Antic_Vol_5_No_8/page/n88/mode/1up
+  url: https://archive.org/details/AnticVol5No8/Antic/Antic_Vol_5_No_8/page/n88/mode/1up
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - BASIC
   licenses:
@@ -681,6 +780,8 @@
   repo: 'https://github.com/historicalsource/defender'
   development: complete
   status: playable
+  platforms:
+  - Arcade
   langs:
   - Assembly
   licenses:
@@ -702,6 +803,10 @@
   originals:
   - Defender
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2022-02-10
   url: http://www.newbreedsoftware.com/defendguin/
@@ -721,6 +826,9 @@
   originals:
   - Deflektor
   status: playable
+  platforms:
+  - Windows
+  - OSX
   type: remake
   added: 2014-01-12
   updated: 2021-09-04
@@ -742,6 +850,11 @@
   originals:
   - Delver
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   repo: https://github.com/Interrupt/delverengine
   type: official
   updated: 2022-07-02
@@ -759,6 +872,8 @@
   originals:
   - The Clue!
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/vcosta/derclou
   type: remake
   updated: 2022-07-02
@@ -776,10 +891,13 @@
   - Descent
   type: official
   repo: 'https://github.com/videogamepreservation/descent'
-  url: >-
-    https://web.archive.org/web/20070203093519/http://www.descent2.com/ddn/sources/descent1/
+  url: https://web.archive.org/web/20070203093519/http://www.descent2.com/ddn/sources/descent1/
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Saturn
+  - OSX
   multiplayer:
   - Competitive
   - Online
@@ -798,13 +916,18 @@
   - Descent 3
   type: official
   repo: https://github.com/DescentDevelopers/Descent3
-  development: very active
+  development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: commercial
   langs:
   - C++
   frameworks:
-  - SDL2
+  - SDL3
   licenses:
   - GPL3
   added: 2024-04-20
@@ -820,11 +943,13 @@
   feed: 'https://github.com/InsanityBringer/PiccuEngine/releases.atom'
   development: active
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
   frameworks:
-  - SDL
+  - SDL3
   licenses:
   - GPL3
   info: a version of the game Descent 3 focused on quality-of-life improvements.
@@ -838,10 +963,11 @@
   - Descent II
   type: official
   repo: 'https://github.com/videogamepreservation/descent2'
-  url: >-
-    https://web.archive.org/web/20070203093530/http://www.descent2.com/ddn/sources/descent2/
+  url: https://web.archive.org/web/20070203093530/http://www.descent2.com/ddn/sources/descent2/
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -850,6 +976,8 @@
   content: commercial
   langs:
   - C
+  frameworks:
+  - DirectX
   licenses:
   - Custom
   added: 2025-11-14
@@ -863,6 +991,8 @@
   url: 'https://forums.atariage.com/topic/121013-desert-falcon-source-code/'
   development: halted
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -884,6 +1014,8 @@
   - Indiana Jones and his Desktop Adventures
   - 'Star Wars: Yoda Stories'
   status: semi-playable
+  platforms:
+  - None
   type: remake
   updated: 2019-10-02
   repo: https://github.com/digitall/scummvm-deskadv
@@ -912,9 +1044,10 @@
   - Carmageddon
   type: remake
   repo: 'https://github.com/dethrace-labs/dethrace'
-  url: 'https://twitter.com/dethrace_labs'
   development: active
   status: semi-playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -936,6 +1069,10 @@
   url: 'https://www.erif.org/code/detritus/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C++
@@ -965,6 +1102,8 @@
   originals:
   - Deuteros
   status: unplayable
+  platforms:
+  - Windows
   repo: http://sourceforge.net/projects/deuterosx/
   type: remake
   updated: 2022-07-02
@@ -982,6 +1121,8 @@
   - Diablo
   repo: https://github.com/diasurgical/devilution
   status: playable
+  platforms:
+  - Windows
   type: remake
   info: Engine recreation (same bugs as original)
   updated: 2021-09-03
@@ -993,6 +1134,19 @@
   repo: https://github.com/diasurgical/devilutionX
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - 3DS
+  - Amiga
+  - Android
+  - iOS
+  - PlayStation 4
+  - Nintendo Switch
+  - PlayStation Vita
+  - Xbox One
+  - Xbox
   langs:
   - C++
   frameworks:
@@ -1010,9 +1164,11 @@
   originals:
   - Dungeon Master
   type: clone
-  url: 'https://ptonthat.fr/dgem/'
+  url: 'http://ptonthat.fr/dgem/'
   development: halted
   status: playable
+  platforms:
+  - Atari
   content: commercial
   langs:
   - BASIC
@@ -1044,6 +1200,9 @@
   - Diablo
   - Diablo II
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/dgcor/DGEngine
   type: remake
   updated: 2024-01-02
@@ -1054,8 +1213,8 @@
   langs:
   - C++
   frameworks:
-  - SDL
   - SDL2
+  - SDL3
   licenses:
   - GPL3
   content: commercial
@@ -1063,6 +1222,10 @@
   originals:
   - Doom 3
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/dhewm/dhewm3
   type: remake
   updated: 2022-07-02
@@ -1083,6 +1246,9 @@
   repo: 'https://github.com/mofr/Diablerie'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - 'C#'
@@ -1102,6 +1268,9 @@
   repo: https://github.com/dgcor/Diabolika
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C++
@@ -1123,6 +1292,8 @@
   feed: https://github.com/mblaine/Diamonds/releases.atom
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C++
@@ -1146,6 +1317,8 @@
   url: 'https://web.archive.org/web/20040321110610/http://www.geocities.com/SiliconValley/Heights/5888/#:~:text=Diamonds%202.0'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - Assembly
   licenses:
@@ -1163,10 +1336,11 @@
   type: clone
   repo: >-
     https://web.archive.org/web/20040321110610/http://www.geocities.com/SiliconValley/Heights/5888/#:~:text=Diamonds%2038
-  url: >-
-    https://web.archive.org/web/20020612084215/https://www.epita.fr/~avenar_j/hp/38.html#:~:text=Diamonds
+  url: https://web.archive.org/web/20020612084215/https://www.epita.fr/~avenar_j/hp/38.html#:~:text=Diamonds
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - Assembly
   - C
@@ -1187,6 +1361,8 @@
   feed: 'https://github.com/DavidSM64/Diddy-Kong-Racing/releases.atom'
   development: sporadic
   status: unplayable
+  platforms:
+  - N64
   multiplayer:
   - Split-screen
   content: commercial
@@ -1211,6 +1387,8 @@
   originals:
   - Minecraft
   status: semi-playable
+  platforms:
+  - Linux
   repo: https://github.com/emezeske/digbuild
   type: similar
   updated: 2022-07-02
@@ -1221,10 +1399,11 @@
   - Dig Dug
   type: official
   repo: 'https://github.com/videogamepreservation/digdug-7800'
-  url: >-
-    https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Dig%20Dug
+  url: https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Dig%20Dug
   development: complete
   status: playable
+  platforms:
+  - Atari
   multiplayer:
   - Local
   - Hotseat
@@ -1245,6 +1424,8 @@
   originals:
   - Boulder Dash
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/lutzroeder/digger
   type: remake
   updated: 2024-02-03
@@ -1261,6 +1442,8 @@
   feed: 'https://github.com/xafero/digger-cs/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - 'C#'
@@ -1281,6 +1464,8 @@
   feed: 'https://github.com/xafero/digger-go/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - Go
   frameworks:
@@ -1300,6 +1485,8 @@
   feed: 'https://github.com/xafero/digger-kt/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - Kotlin
   frameworks:
@@ -1318,6 +1505,8 @@
   repo: 'https://github.com/6xhhs/digger-me'
   development: halted
   status: playable
+  platforms:
+  - Mobile
   langs:
   - Java
   licenses:
@@ -1335,6 +1524,8 @@
   repo: 'https://github.com/xafero/digger-py'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - Python
   frameworks:
@@ -1356,6 +1547,11 @@
   - Digger
   repo: https://digger.org/download.html
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - DOS
   type: remake
   url: https://digger.org/
   updated: 2020-08-25
@@ -1369,6 +1565,8 @@
   repo: 'https://github.com/xafero/digger-swift'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - Swift
   frameworks:
@@ -1391,6 +1589,10 @@
   - Diggers
   repo: 'https://github.com/Mhatxotic/Diggers'
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   url: 'https://mhatxotic.github.io/Diggers'
   updated: '2025-08-01'
@@ -1417,6 +1619,8 @@
   originals:
   - Digimon World
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/dwProjectark/Digimon-World-Project-Ark
   type: remake
   updated: 2022-07-02
@@ -1429,6 +1633,8 @@
   url: 'https://projecthub.arduino.cc/kwx/casio-mg-880-digit-invader-remake-c75aaa'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C
   frameworks:
@@ -1452,6 +1658,9 @@
   feed: 'https://github.com/LDinos/Dijeweled/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Android
   multiplayer:
   - Competitive
   - Online
@@ -1481,6 +1690,13 @@
   url: 'https://www.rtsoft.com/pages/dink.php'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Web
+  - OSX
+  - Android
+  - iOS
   content: free
   langs:
   - C++
@@ -1512,6 +1728,8 @@
   url: 'https://store.steampowered.com/news/app/248330/view/3639504956058288978'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1535,6 +1753,8 @@
   feed: 'https://github.com/H-uru/dirtsand/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   langs:
@@ -1552,6 +1772,8 @@
   repo: 'https://github.com/TobyLobster/Boulderdash'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   langs:
   - Assembly
   licenses:
@@ -1564,10 +1786,18 @@
   - DIV Games Studio
   licenses:
   - MIT
+  content: commercial
   development: complete
   originals:
   - Columns
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
+  - Raspberry Pi
+  - PSP
+  - Web
   repo: https://github.com/MikeDX/div-columns
   type: remake
   updated: 2022-07-02
@@ -1582,6 +1812,12 @@
   originals:
   - Pac-Man
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
+  - Raspberry Pi
+  - Web
   repo: https://github.com/MikeDX/div-pacman2600
   type: remake
   updated: 2022-07-02
@@ -1597,6 +1833,13 @@
   originals:
   - Pitfall!
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Web
+  - Android
+  - Raspberry Pi
+  - PSP
   repo: https://github.com/MikeDX/div-pitfall
   type: remake
   updated: 2022-07-02
@@ -1611,6 +1854,12 @@
   originals:
   - Space Invaders
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
+  - Raspberry Pi
+  - Web
   repo: https://github.com/MikeDX/div-spaceinvaders2600
   type: remake
   updated: 2022-07-02
@@ -1624,6 +1873,8 @@
   url: 'https://team--rocket.github.io/divercity/'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Java
@@ -1634,27 +1885,16 @@
   - https://raw.githubusercontent.com/Team--Rocket/divercity/master/graphics/splash_1.png
   - https://raw.githubusercontent.com/Team--Rocket/divercity/master/betterScreenshot.png
 
-- name: Dizgruntled
-  type: remake
-  originals:
-  - Gruntz
-  repo: https://bitbucket.org/pointcliki/dizgruntled/
-  development: halted
-  status: playable
-  langs:
-  - Java
-  licenses:
-  - As-is
-  content: commercial
-  updated: 2019-12-22
-
 - name: djavul
   originals:
   - Diablo
   type: remake
-  repo: 'https://github.com/stoffelkopf/djavul'
+  repo: https://github.com/Happy-Ferret/djavul
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - Go
@@ -1673,6 +1913,8 @@
   repo: 'https://github.com/p4plus2/DKC2-disassembly'
   development: halted
   status: playable
+  platforms:
+  - SNES
   multiplayer:
   - Local
   content: commercial
@@ -1691,6 +1933,8 @@
   url: 'https://gourichon.org/stephane/hp48/dm48/index.html'
   development: halted
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - Assembly
   licenses:
@@ -1718,6 +1962,8 @@
   feed: 'https://sourceforge.net/p/dmle/activity/feed'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C
@@ -1738,6 +1984,8 @@
   repo: 'https://github.com/jmarshall23/DNF-reimposition'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   content: commercial
@@ -1760,6 +2008,8 @@
   repo: 'https://github.com/Matmook/dothesame-jaguar'
   development: complete
   status: playable
+  platforms:
+  - Jaguar
   content: free
   langs:
   - Assembly
@@ -1785,6 +2035,8 @@
   originals:
   - Dodger
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/funchal/dodger-remake
   type: remake
   updated: 2022-07-02
@@ -1798,6 +2050,8 @@
   url: 'https://crates.io/crates/dois-mil'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -1817,6 +2071,10 @@
   - Pushover
   repo: https://gitlab.com/domino-chain/domino-chain.gitlab.io
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2024-02-20
   url: https://domino-chain.gitlab.io/
@@ -1828,11 +2086,12 @@
   - Super Pang
   type: similar
   repo: 'https://salsa.debian.org/games-team/ceferino'
-  url: >-
-    https://web.archive.org/web/20160531044525/http://www.losersjuegos.com.ar/juegos/ceferino
+  url: https://web.archive.org/web/20160531044525/http://www.losersjuegos.com.ar/juegos/ceferino
   feed: 'https://salsa.debian.org/games-team/ceferino.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1859,6 +2118,8 @@
   repo: 'https://github.com/historicalsource/donald-ducks-playground'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - AGI
@@ -1874,6 +2135,8 @@
   repo: 'https://github.com/brunovalads/donald-land'
   development: complete
   status: playable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -1893,6 +2156,8 @@
   url: 'https://tcrf.net/Proto:Donkey_Kong_(Atari_8-bit_family)'
   development: halted
   status: playable
+  platforms:
+  - Atari
   content: free
   langs:
   - Assembly
@@ -1913,6 +2178,8 @@
   url: https://jotd666.itch.io/donkey-kong-500
   development: sporadic
   status: playable
+  platforms:
+  - Amiga
   content: commercial
   langs:
   - Assembly
@@ -1938,6 +2205,8 @@
   repo: 'https://github.com/CelestialAmber/DKGBDisasm'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   content: commercial
   langs:
   - Assembly
@@ -1954,6 +2223,8 @@
   repo: 'https://github.com/ianmurfinxyz/donkey_kong_arcade'
   development: halted
   status: playable
+  platforms:
+  - Arcade
   content: commercial
   langs:
   - C++
@@ -1980,9 +2251,12 @@
     https://github.com/Yoshifanatic1/Donkey-Kong-Country-1-Disassembly/releases.atom
   development: complete
   status: playable
+  platforms:
+  - SNES
   multiplayer:
   - Local
-  - Hotseat
+  - Co-op
+  - Competitive
   content: commercial
   langs:
   - Assembly
@@ -2000,6 +2274,8 @@
     https://github.com/Yoshifanatic1/Donkey-Kong-Country-2-Disassembly/releases.atom
   development: complete
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -2017,9 +2293,12 @@
     https://github.com/Yoshifanatic1/Donkey-Kong-Country-3-Disassembly/releases.atom
   development: complete
   status: playable
+  platforms:
+  - SNES
   multiplayer:
   - Local
-  - Hotseat
+  - Co-op
+  - Competitive
   content: commercial
   langs:
   - Assembly
@@ -2036,6 +2315,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200311/msg00160.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -2052,6 +2333,8 @@
     https://web.archive.org/web/20180305234835/https://wiki.donkeykonggenius.com/Donkey_Kong_Code
   development: halted
   status: unplayable
+  platforms:
+  - Arcade
   content: commercial
   langs:
   - Assembly
@@ -2070,6 +2353,8 @@
   repo: 'https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly'
   development: complete
   status: playable
+  platforms:
+  - NES
   multiplayer:
   - Hotseat
   content: commercial
@@ -2089,6 +2374,8 @@
   url: 'https://gamicus.fandom.com/wiki/DONKEY.BAS'
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - BASIC
   licenses:
@@ -2109,6 +2396,8 @@
   originals:
   - Kaboom!
   status: semi-playable
+  platforms:
+  - None
   repo: https://github.com/Zap123/DonkeyInTrouble
   type: remake
   updated: 2022-07-02
@@ -2122,6 +2411,9 @@
   repo: https://github.com/plowteam/donut
   development: halted
   status: unplayable
+  platforms:
+  - Linux
+  - Windows
   langs:
   - C++
   frameworks:
@@ -2145,6 +2437,9 @@
   - Doom
   repo: https://github.com/id-Software/DOOM
   status: playable
+  platforms:
+  - Linux
+  - DOS
   type: official
   updated: 2022-05-07
   url: https://bethesda.net/en/store/product/DO1GNGPCBG01
@@ -2165,6 +2460,8 @@
   url: 'https://x.com/burgerbecky/status/539193285982449664'
   development: complete
   status: playable
+  platforms:
+  - 3DO
   content: free
   langs:
   - C
@@ -2182,6 +2479,8 @@
   repo: 'https://github.com/svkaiser/doom64DS'
   development: halted
   status: playable
+  platforms:
+  - DS
   langs:
   - C
   licenses:
@@ -2215,6 +2514,8 @@
   repo: https://github.com/svkaiser/Doom64EX
   type: remake
   status: semi-playable
+  platforms:
+  - N64
   updated: 2022-07-02
   url: https://doom64ex.wordpress.com/
 
@@ -2226,6 +2527,8 @@
   url: 'https://web.archive.org/web/20100121060322/http://www.doom83.fr.st/'
   development: halted
   status: semi-playable
+  platforms:
+  - TI calculator
   langs:
   - Assembly
   licenses:
@@ -2244,6 +2547,8 @@
   url: 'http://tifreakware.net/atg/doom89.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   frameworks:
@@ -2270,6 +2575,10 @@
   url: 'https://web.archive.org/web/20121024200133/https://ttimo.github.com/doom3.gpl/'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Competitive
   - Online
@@ -2293,6 +2602,8 @@
   url: 'https://archive.org/details/doom-3-bfg-master'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -2318,6 +2629,10 @@
   feed: 'https://github.com/atsb/Doom64EX-Plus/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   content: commercial
   langs:
   - C
@@ -2339,6 +2654,8 @@
   repo: 'https://github.com/jnmartin84/doom64-dc/'
   development: very active
   status: playable
+  platforms:
+  - Dreamcast
   content: commercial
   langs:
   - C
@@ -2368,6 +2685,8 @@
   originals:
   - Doom
   status: playable
+  platforms:
+  - iOS
   repo: https://github.com/id-Software/DOOM-IOS2
   type: official
   updated: 2022-05-19
@@ -2381,6 +2700,8 @@
     https://www.pcgamer.com/source-code-for-the-snes-version-of-doom-has-been-released/
   development: complete
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -2404,6 +2725,9 @@
   - Hexen
   repo: https://sourceforge.net/projects/doomlegacy/
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: remake
   updated: 2014-08-20
   url: http://doomlegacy.sourceforge.net/
@@ -2417,6 +2741,8 @@
   url: https://www.doomretro.com/
   development: very active
   status: playable
+  platforms:
+  - Windows
   langs:
   - C
   frameworks:
@@ -2441,6 +2767,10 @@
   content: commercial
   development: active
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   originals:
   - Doom
   - Heretic
@@ -2470,6 +2800,10 @@
   originals:
   - Drugwars
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Competitive
   - Online
@@ -2485,6 +2819,8 @@
   url: 'http://www.bbsdocumentary.com/library/PROGRAMS/DOORS/DOPEWARS/'
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - C
   licenses:
@@ -2500,6 +2836,8 @@
   feed: 'https://sourceforge.net/p/dwfmbbs/activity/feed'
   development: halted
   status: semi-playable
+  platforms:
+  - DOS
   multiplayer:
   - Online
   langs:
@@ -2520,6 +2858,8 @@
   url: 'https://web.archive.org/web/20030621165029/http://dopewars.cjb.net/'
   development: halted
   status: playable
+  platforms:
+  - Mobile
   langs:
   - C
   licenses:
@@ -2540,6 +2880,8 @@
   repo: 'https://github.com/skynettx/dosraptor#dos-raptor'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -2555,6 +2897,8 @@
   url: 'https://www.wonderland.cz/software/#doubledash'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Split-screen
   content: free
@@ -2582,8 +2926,14 @@
   content: free
   development: active
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - Android
   originals:
   - Cave Story
+  url: https://doukutsu.rs
   repo: https://github.com/doukutsu-rs/doukutsu-rs
   type: remake
   updated: 2022-01-19
@@ -2595,6 +2945,8 @@
   url: 'https://www.reboot-games.com/rebootnews/downfall/'
   development: complete
   status: playable
+  platforms:
+  - Jaguar
   content: free
   langs:
   - Assembly
@@ -2612,6 +2964,8 @@
   repo: 'https://www.calculatorti.com/ti-games/ti-89/asm/dr-mario/'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - Assembly
   - C
@@ -2629,6 +2983,8 @@
   repo: 'https://github.com/Nostaljipi/dr-mario-disassembly'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -2646,6 +3002,10 @@
   feed: https://www.kartkrew.org/feeds/all.atom.xml
   development: active
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Competitive
   - Local
@@ -2672,6 +3032,8 @@
   repo: 'https://github.com/jaredplumb/Dragon-Alpha'
   development: halted
   status: playable
+  platforms:
+  - OSX
   content: open
   langs:
   - C++
@@ -2693,6 +3055,8 @@
   url: 'https://nmikstas.github.io/portfolio/dwDisassembly/dwDisassembly.html'
   development: complete
   status: playable
+  platforms:
+  - NES
   langs:
   - Assembly
   content: commercial
@@ -2709,6 +3073,8 @@
   url: https://archive.rpgclassics.com/subsites/twit/dbz3/dbz3.html
   development: complete
   status: playable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -2735,6 +3101,8 @@
   url: https://archive.rpgclassics.com/subsites/twit/gaiden/dbzgaiden.html
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -2761,6 +3129,8 @@
   url: https://archive.rpgclassics.com/subsites/twit/dbz1/dbz1.html
   development: complete
   status: playable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -2787,6 +3157,8 @@
   url: 'https://atariage.com/2600/archives/source/Dragonfire_source/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -2804,6 +3176,8 @@
   repo: 'https://github.com/CelestialAmber/Dragster-Disassembly'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -2816,9 +3190,10 @@
   originals:
   - Death Rally
   repo: https://github.com/urxp/drally
-  url: https://github.com/urxp/drally
-  development: active
-  status: playable
+  development: halted
+  status: unplayable
+  platforms:
+  - Linux
   langs:
   - Assembly
   - C
@@ -2826,14 +3201,6 @@
   - MIT
   content: commercial
   updated: 2020-04-25
-  images:
-  - https://www.mobygames.com/images/promo/original/1473346915-1714402233.jpg
-  - https://www.mobygames.com/images/promo/l/66325-death-rally-screenshot.jpg
-  - https://www.mobygames.com/images/promo/original/1473346916-703948363.jpg
-  - https://www.mobygames.com/images/promo/original/1473346916-705742774.jpg
-  - https://www.mobygames.com/images/promo/original/1473346916-2495139689.jpg
-  video:
-    youtube: YTRI71PmgDY
 
 - name: DreamZZT
   type: remake
@@ -2843,6 +3210,12 @@
   url: https://www.c99.org/tag/zzt/
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - DS
+  - Dreamcast
   langs:
   - C++
   licenses:
@@ -2865,6 +3238,9 @@
   repo: https://github.com/enriquesomolinos/DreeRally
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   langs:
   - C
   frameworks:
@@ -2885,6 +3261,9 @@
   feed: 'https://drl.chaosforge.org/atom/'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: swappable
   langs:
   - Lua
@@ -2915,6 +3294,10 @@
   url: 'https://web.archive.org/web/20140128041953/http://www.droidquest.com/'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   content: open
   langs:
   - Java
@@ -2935,6 +3318,8 @@
   repo: 'https://github.com/snemvalts/drugwars.js'
   development: halted
   status: unplayable
+  platforms:
+  - Web
   langs:
   - JavaScript
   licenses:
@@ -2951,6 +3336,8 @@
   url: 'https://www.hpcalc.org/details/5170'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - RPL
   licenses:
@@ -2960,30 +3347,16 @@
   images:
   - 'https://www.hpcalc.org/hp49/games/misc/sshots/drugwars.png'
 
-- name: Dstroy
-  originals:
-  - Dstroy
-  type: clone
-  status: playable
-  url: 'http://narroin.free.fr/dstroy/'
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  updated: '2023-02-17'
-
 - name: dsweep
   originals:
   - Minesweeper
   type: clone
   repo: 'https://github.com/seeseemelk/dsweep'
-  url: 'https://aur.archlinux.org/packages/dsweep'
   feed: 'https://github.com/seeseemelk/dsweep/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - D
   licenses:
@@ -3001,6 +3374,8 @@
   url: 'https://macintoshgarden.org/games/duane-blehms-source-code'
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   langs:
   - Pascal
   licenses:
@@ -3019,6 +3394,9 @@
   repo: 'https://github.com/TheFlyingFoool/DuckGameRebuilt'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Competitive
   - Local
@@ -3049,6 +3427,8 @@
   repo: 'https://github.com/RussianManSMWC/Duck-ssembly-Hunt'
   development: sporadic
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -3065,6 +3445,8 @@
   url: 'https://duckhuntjs.com'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -3091,6 +3473,8 @@
   originals:
   - Duck Hunt
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/aosyborg/duckhunt
   type: remake
   updated: 2022-01-13
@@ -3107,6 +3491,8 @@
   originals:
   - Duck Hunt
   status: playable
+  platforms:
+  - None
   repo: https://app.box.com/shared/zkh7rt575i
   type: remake
   updated: 2022-03-22
@@ -3131,6 +3517,10 @@
   repo: https://github.com/SimonLarsen/duckmarines
   feed: https://github.com/SimonLarsen/duckmarines/releases.atom
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   type: remake
   updated: 2024-02-08
   url: http://tangramgames.dk/games/duckmarines/
@@ -3151,6 +3541,8 @@
   originals:
   - Duck Hunt
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/Serioussam24/Duck-Rehunt
   type: remake
   updated: 2022-03-26
@@ -3166,6 +3558,8 @@
   originals:
   - Duck Hunt
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/grosbouddha/duckhunt
   type: remake
   updated: 2022-07-02
@@ -3178,6 +3572,8 @@
   url: 'https://forums.atariage.com/topic/203470-duckie-egg/'
   development: complete
   status: playable
+  platforms:
+  - Jaguar
   content: free
   langs:
   - Assembly
@@ -3202,6 +3598,8 @@
   url: 'https://www.romhacking.net/documents/725/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -3217,6 +3615,8 @@
   repo: 'https://github.com/RussianManSMWC/DuckTales-of-Disassembly-GB'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   content: commercial
   langs:
   - Assembly
@@ -3233,6 +3633,8 @@
   feed: 'https://github.com/alezost/ducpel/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Emacs Lisp
@@ -3253,6 +3655,11 @@
   url: https://icculus.org/duke3d/
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - BeOS
   multiplayer:
   - LAN
   langs:
@@ -3274,6 +3681,8 @@
   url: http://www.rancidmeat.com/project.php3?id=1
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - LAN
   langs:
@@ -3295,6 +3704,8 @@
   url: 'http://www.proasm.com/duke/duke3dw.html'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -3310,6 +3721,8 @@
   repo: 'https://github.com/NBlood/Duke64-RE'
   development: sporadic
   status: unplayable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -3326,6 +3739,8 @@
   repo: 'https://github.com/lethal-guitar/Duke2Reconstructed'
   development: halted
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -3347,6 +3762,8 @@
   url: http://www.malcolm-s.net/ti/duke/
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -3371,10 +3788,12 @@
   - Duke Nukem 3D
   type: official
   repo: https://github.com/videogamepreservation/dukenukem3d
-  url: >-
-    https://web.archive.org/web/20051201091513/http://www.3drealms.com/news/2003/04/duke_nukem_3d_s_4.html
+  url: https://web.archive.org/web/20051201091513/http://www.3drealms.com/news/2003/04/duke_nukem_3d_s_4.html
   development: complete
   status: playable
+  platforms:
+  - DOS
+  - Windows
   content: commercial
   langs:
   - C
@@ -3392,6 +3811,8 @@
   repo: 'https://github.com/Gillou68310/DukeNukemZeroHour'
   development: very active
   status: playable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -3409,6 +3830,8 @@
   url: 'http://m210.duke4.net/'
   development: active
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -3431,6 +3854,8 @@
   url: 'http://www.malcolm-s.net/dukevr/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -3465,6 +3890,8 @@
   originals:
   - Dune 2
   status: semi-playable
+  platforms:
+  - None
   repo: https://github.com/Fundynamic/dune2themaker4j
   type: remake
   updated: 2022-07-02
@@ -3482,6 +3909,9 @@
   originals:
   - Dune 2
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://github.com/gameflorist/dunedynasty
   type: remake
   updated: 2024-02-09
@@ -3498,6 +3928,10 @@
   feed: https://dune2themaker.fundynamic.com/feed/
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   content: commercial
   langs:
   - C++
@@ -3526,13 +3960,17 @@
   originals:
   - Dune 2
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Competitive
   - Online
   repo: https://sourceforge.net/projects/dunelegacy/
   type: remake
   updated: 2024-02-12
-  url: https://dunelegacy.sourceforge.net/website/
+  url: https://dunelegacy.com
   video:
     youtube: tX_3Ah7gFdI
 
@@ -3553,6 +3991,8 @@
   - 'Forgotten Realms: Unlimited Adventures'
   repo: https://github.com/grannypron/uaf
   status: playable
+  platforms:
+  - Windows
   type: remake
   updated: 2024-02-13
   url: http://uaf.sourceforge.net/
@@ -3577,9 +4017,11 @@
   originals:
   - Dungeon Keeper
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://sourceforge.net/projects/dungeondigger/
   type: clone
-  url: http://dungeondigger.sourceforge.net/
   updated: 2022-01-08
 
 - name: Dungeon Eye
@@ -3591,6 +4033,8 @@
   originals:
   - Eye of the Beholder II
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/iliak/dungeoneye
   url: https://web.archive.org/web/20211208155209/http://www.dungeoneye.net/
   type: remake
@@ -3609,6 +4053,8 @@
   feed: 'https://sourceforge.net/projects/dmds/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - DS
   content: free
   langs:
   - C
@@ -3627,6 +4073,8 @@
   url: 'https://joesblog.me.uk/dungeon-master-javascript'
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -3648,6 +4096,8 @@
   url: 'http://fredericgoset.ovh/dungeon/en/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -3671,6 +4121,8 @@
   content: free
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   originals:
   - Quake
   repo: https://github.com/jakubtomsu/dungeon-of-quake
@@ -3697,6 +4149,8 @@
   url: 'http://www.ojnk.net/dm/dsb/'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -3720,6 +4174,8 @@
   originals:
   - Dungeon Master
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/ggrrin/DungeonMaster
   type: remake
   updated: 2022-07-02
@@ -3733,6 +4189,8 @@
   feed: 'https://github.com/cognitivegears/DungeonsOfDaggorath/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - C++
@@ -3754,6 +4212,8 @@
   feed: 'https://github.com/pyroticinsanity/3dsdod/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - 3DS
   content: free
   langs:
   - C++
@@ -3771,10 +4231,11 @@
   - Dungeons of Daggorath
   type: official
   repo: 'https://github.com/MichaelSpencerJr/DungeonsOfDaggorath'
-  url: >-
-    https://web.archive.org/web/20100911041306/http://www.armchairarcade.com/neo/node/900
+  url: https://web.archive.org/web/20100911041306/http://www.armchairarcade.com/neo/node/900
   development: complete
   status: playable
+  platforms:
+  - TRS-80
   langs:
   - Assembly
   licenses:
@@ -3793,6 +4254,8 @@
   url: 'https://mspencer.net/daggorath/dodpcp.html'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C++
@@ -3810,11 +4273,12 @@
   - JavaScript
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   originals:
   - DEFCON
   repo: https://github.com/gtanczyk/Dupocracy
   type: clone
-  url: http://gtanczyk.warsztat.io/Dupocracy/game/index.html
   updated: 2021-02-23
 
 - name: Dust Racing 2D
@@ -3842,6 +4306,8 @@
   url: http://juzzlin.github.io/DustRacing2D/index.html
   feed: https://github.com/juzzlin/DustRacing2D/releases.atom
   status: playable
+  platforms:
+  - Linux
   video:
     youtube: 3hrIzzItggQ
 
@@ -3855,6 +4321,10 @@
   feed: 'http://dwarfcorp.holeydonutgames.com/feed/'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - 'C#'
@@ -3884,6 +4354,9 @@
   feed: 'https://sourceforge.net/p/dwars/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C
   frameworks:
@@ -3896,7 +4369,6 @@
   - 'https://dwars.sourceforge.net/winscreen.jpg'
 
 - name: DXBall
-  info: Android
   langs:
   - Java
   licenses:
@@ -3905,6 +4377,8 @@
   originals:
   - DX-Ball
   status: unplayable
+  platforms:
+  - Android
   repo: https://github.com/nomanHasan/DXBall
   type: remake
   updated: 2022-07-02
@@ -3930,6 +4404,10 @@
   - Online
   - LAN
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   url: https://www.dxx-rebirth.com/
   updated: 2021-03-03
 
@@ -3940,6 +4418,8 @@
   repo: https://github.com/akien-mga/dynadungeons
   development: halted
   status: semi-playable
+  platforms:
+  - None
   multiplayer:
   - Competitive
   content: open
@@ -3964,6 +4444,8 @@
   feed: 'https://github.com/adamya-singh/dynamic_pong/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - None
   langs:
   - Python
   frameworks:

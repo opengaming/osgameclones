@@ -10,6 +10,10 @@
   originals:
   - Earth Shaker
   status: unplayable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   repo: https://github.com/Palevolg/earth-shaker
   type: remake
   updated: 2021-05-11
@@ -22,6 +26,8 @@
   url: 'https://herringway.github.io/earthbound/'
   development: sporadic
   status: semi-playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - D
@@ -46,6 +52,8 @@
   - Earth Shaker
   repo: https://github.com/ant512/EarthShakerDS
   status: playable
+  platforms:
+  - DS
   type: remake
   updated: 2021-01-24
 
@@ -58,6 +66,8 @@
   feed: 'https://atariwiki.org/wiki/rss.jsp?page=Eastern+Front+1941&mode=wiki'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -81,6 +91,8 @@
   url: 'https://patricksurry.github.io/eastern-front-1941/'
   development: halted
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Hotseat
   langs:
@@ -105,6 +117,11 @@
   - RPG Maker
   repo: https://github.com/EasyRPG/Player
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
+  - Android
   type: clone
   updated: 2017-10-20
   url: https://easyrpg.org/
@@ -117,17 +134,20 @@
   langs:
   - C
   frameworks:
-  - SDL2
+  - SDL3
   licenses:
   - GPL2
   development: sporadic
   originals:
   - Eat The Whistle
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   repo: https://sourceforge.net/projects/etw/
   type: remake
   updated: 2022-03-18
-  url: http://www.ggsoft.org/etw/
   video:
     youtube: MB-v907JXSU
 
@@ -139,6 +159,8 @@
   url: 'https://www.maurits.vdschee.nl/ebiten-mines/'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Go
@@ -161,6 +183,8 @@
   url: 'https://ebitengine.org/en/examples/#Games'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   langs:
   - Go
   frameworks:
@@ -181,6 +205,8 @@
   repo: 'https://github.com/Herringway/ebsrc'
   development: halted
   status: semi-playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -208,6 +234,9 @@
   originals:
   - Wipeout
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://sourceforge.net/projects/ecksdee/
   type: clone
   updated: 2022-08-06
@@ -229,6 +258,11 @@
   - Spear of Destiny
   - Super 3D Noah's Ark
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
+  - Android
   repo: https://bitbucket.org/ecwolf/ecwolf
   type: remake
   updated: 2021-09-25
@@ -244,6 +278,8 @@
   repo: 'https://github.com/savetz/edfries-anteater'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -260,6 +296,8 @@
   repo: 'https://github.com/savetz/edfries-frog'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -276,6 +314,8 @@
   repo: 'https://github.com/savetz/edfries-nitro'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -299,6 +339,8 @@
   feed: 'https://github.com/edge-classic/EDGE-classic/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -326,6 +368,10 @@
   - Duke Nukem 3D
   type: remake
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   development: very active
   repo: https://voidpoint.io/terminx/eduke32
   url: https://www.eduke32.com/
@@ -354,6 +400,8 @@
   url: https://simhq.net/forum/ubbthreads.php/topics/4420670/eech-source-code-access-now-public
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -373,10 +421,12 @@
   - 'Star Trek: Elite Force II'
   type: remake
   repo: 'https://github.com/UberGames/EF2GameSource'
-  url: >-
-    https://web.archive.org/web/20190407192347/https://eliteforce.gamebub.com/tools.php#:~:text=EF2%20Source%20Code
+  url: https://web.archive.org/web/20190407192347/https://eliteforce.gamebub.com/tools.php#:~:text=EF2%20Source%20Code
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -397,6 +447,8 @@
   url: 'http://tifreakware.net/lachprog/egypt.htm'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   content: open
   langs:
   - C
@@ -414,9 +466,12 @@
   - Sherlock
   type: clone
   repo: 'https://github.com/lksj/einstein-puzzle'
-  url: >-
-    https://web.archive.org/web/20121029043853/http://games.flowix.com/en/index.html
+  url: https://web.archive.org/web/20121029043853/http://games.flowix.com/en/index.html
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   development: halted
   langs:
   - C++
@@ -442,6 +497,9 @@
   feed: 'https://github.com/AmarOk1412/Eksplode.re/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Android
+  - Linux
   content: free
   langs:
   - GDScript
@@ -465,6 +523,8 @@
   url: 'https://projecthub.arduino.cc/mattywausb/elbanquos-1d-pong-4375ae'
   development: halted
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C++
   licenses:
@@ -484,6 +544,8 @@
   repo: 'https://github.com/vkazanov/elcity'
   development: active
   status: playable
+  platforms:
+  - Emacs
   langs:
   - Emacs Lisp
   frameworks:
@@ -501,8 +563,13 @@
   - Eldritch
   type: official
   repo: https://minorkeygames.itch.io/eldritch/devlog/76853/2019-source-code-release
+  url: https://minorkeygames.itch.io/eldritch
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   content: commercial
   langs:
   - C++
@@ -531,6 +598,8 @@
   url: https://jaydawgthagoat.itch.io/elevating-action
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   frameworks:
@@ -549,6 +618,8 @@
   repo: 'https://github.com/Evenball-8bit/Elevator_Action'
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - Assembly
   licenses:
@@ -563,6 +634,8 @@
   repo: 'https://github.com/ezpzlmnsqz1337/ElevatorActionPhaser'
   development: halted
   status: unplayable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -582,6 +655,8 @@
   feed: 'https://github.com/ElevenGiants/eleven-server/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   multiplayer:
   - Online
   content: open
@@ -600,9 +675,11 @@
   - Elifoot 98
   type: remake
   repo: 'https://github.com/elifoot98web/elifoot98web'
-  url: 'https://elifoot-98.web.app/main'
+  url: 'https://www.elifoot98.com.br/#/main'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - TypeScript
@@ -626,6 +703,8 @@
   repo: 'https://github.com/EliFUT/android'
   development: halted
   status: playable
+  platforms:
+  - Android
   content: free
   langs:
   - Java
@@ -647,6 +726,8 @@
   feed: 'https://codeberg.org/Kroc/elite-harmless.atom'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Commodore 64
   content: free
   langs:
   - Assembly
@@ -663,6 +744,8 @@
   url: 'https://elite.bbcelite.com/elite-a/'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -681,6 +764,8 @@
   url: 'https://6502disassembly.com/a2-elite/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -698,6 +783,8 @@
   repo: 'https://github.com/kugelrund/Elite-Reinforce'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -720,6 +807,9 @@
   originals:
   - Elite
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2022-03-09
   url: http://polarelephant.blogspot.co.uk/2007/10/elite-remake.html
@@ -733,6 +823,10 @@
   url: 'https://elite.bbcelite.com/hacks/elite_universe_editor.html'
   development: complete
   status: N/A
+  platforms:
+  - Web
+  - BBC Micro
+  - Commodore 64
   content: free
   langs:
   - Assembly
@@ -758,6 +852,8 @@
   feed: 'https://www.new-kind.com/feed/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -780,6 +876,8 @@
   repo: 'https://github.com/davewongillies/elitegl'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -803,6 +901,10 @@
   - 'Elona'
   repo: https://github.com/elonafoobar/elonafoobar
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2024-03-25
   content: commercial
@@ -818,6 +920,8 @@
   url: https://packages.guix.gnu.org/packages/emacs-2048-game/
   development: complete
   status: playable
+  platforms:
+  - Emacs
   langs:
   - Emacs Lisp
   frameworks:
@@ -834,11 +938,14 @@
   - Pong
   type: clone
   repo: 'https://sourceforge.net/projects/empong/'
-  url: >-
-    https://web.archive.org/web/20100210042902/https://viste-family.net/mateusz/software/empong/
+  url: https://web.archive.org/web/20100210042902/https://viste-family.net/mateusz/software/empong/
   feed: 'https://sourceforge.net/p/empong/code/feed/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - DOS
   content: open
   langs:
   - BASIC
@@ -866,6 +973,10 @@
   - 'Artemis: Spaceship Bridge Simulator'
   repo: https://github.com/daid/EmptyEpsilon
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   type: clone
   updated: 2019-08-01
   url: https://daid.github.io/EmptyEpsilon/
@@ -883,6 +994,8 @@
   originals:
   - Encounter!
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/air/encounter
   type: remake
   updated: 2024-03-26
@@ -896,6 +1009,8 @@
   url: 'https://blog.defence-force.org/index.php?page=articles&ref=ART85#title5'
   development: halted
   status: playable
+  platforms:
+  - Oric
   langs:
   - BASIC
   licenses:
@@ -913,6 +1028,8 @@
   url: 'https://defence-force.org/index.php?page=games&game=encounter'
   development: very active
   status: playable
+  platforms:
+  - Windows
   langs:
   - Assembly
   - C
@@ -960,6 +1077,10 @@
   originals:
   - Escape Velocity
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/endless-sky/endless-sky
   feed: https://github.com/endless-sky/endless-sky/releases.atom
   type: clone
@@ -974,6 +1095,8 @@
   url: https://racascou.itch.io/enduro
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -992,6 +1115,8 @@
   feed: 'https://github.com/EnemyV/EnemyNationsRevival/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -1009,10 +1134,11 @@
   originals:
   - Energy Czar
   type: official
-  url: >-
-    https://www.erasmatazz.com/library/source-code/source-code-for-energy-czar.html
+  url: https://www.erasmatazz.com/library/source-code/source-code-for-energy-czar.html
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - BASIC
   licenses:
@@ -1025,10 +1151,14 @@
   - Thimbleweed Park
   type: remake
   repo: 'https://github.com/scemino/engge'
-  url: 'https://scemino.github.io/'
+  url: https://scemino.github.io/posts/
   feed: 'https://github.com/scemino/engge/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -1049,10 +1179,14 @@
   - Thimbleweed Park
   type: remake
   repo: 'https://github.com/scemino/engge2'
-  url: 'https://scemino.github.io/'
-  feed: 'https://scemino.github.io/feed.xml'
+  url: https://scemino.github.io/posts/
+  feed: https://scemino.github.io/index.xml#feed
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - Nim
@@ -1073,6 +1207,8 @@
   url: 'https://www.romhacking.net/forum/index.php?topic=30917.0'
   development: sporadic
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -1098,6 +1234,10 @@
   originals:
   - Oxyd
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/Enigma-Game/Enigma
   type: remake
   updated: 2024-03-31
@@ -1121,6 +1261,12 @@
   originals:
   - Entombed!
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - BeOS
+  - Amiga
   type: remake
   updated: 2022-02-26
   url: http://www.newbreedsoftware.com/entombed/
@@ -1136,6 +1282,10 @@
   feed: 'https://son-link.itch.io/entropipes/devlog.rss'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Web
   content: free
   langs:
   - Python
@@ -1156,6 +1306,10 @@
   repo: https://github.com/Kerndog73/EnTT-Pacman
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C++
@@ -1177,6 +1331,9 @@
   feed: 'https://sourceforge.net/p/epiphany/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -1196,6 +1353,8 @@
   url: 'https://6502disassembly.com/a2-epoch/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -1220,6 +1379,8 @@
   originals:
   - Redneck Rampage
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/ttyborg/erampage
   type: remake
   updated: 2022-08-18
@@ -1248,6 +1409,8 @@
   originals:
   - Rampart
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/mdr/escalade
   type: remake
   updated: 2022-08-01
@@ -1259,6 +1422,8 @@
   repo: 'https://github.com/ewhac/EFMM-3DO'
   development: complete
   status: playable
+  platforms:
+  - 3DO
   content: commercial
   langs:
   - C
@@ -1275,6 +1440,8 @@
   url: 'https://pypi.org/project/eshaansmart/'
   development: sporadic
   status: unplayable
+  platforms:
+  - None
   content: open
   langs:
   - HTML
@@ -1298,6 +1465,11 @@
   originals:
   - 'Wolfenstein: Enemy Territory'
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   repo: https://github.com/etlegacy/etlegacy
   type: remake
   updated: 2024-04-02
@@ -1319,6 +1491,9 @@
   feed: 'https://github.com/team-eternity/eternity/releases.atom'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - OSX
   multiplayer:
   - Competitive
   - LAN
@@ -1349,6 +1524,8 @@
   url: 'https://www.reddit.com/r/programming/comments/24frw0/et_the_extraterrestrial1982_atari_2600_source_code/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1364,6 +1541,9 @@
   url: 'https://han-tani.itch.io/even-the-ocean'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - OSX
   content: free
   langs:
   - Haxe
@@ -1395,6 +1575,8 @@
   url: 'https://www.romhacking.net/documents/595/'
   development: complete
   status: playable
+  platforms:
+  - Genesis
   content: free
   langs:
   - Assembly
@@ -1410,6 +1592,8 @@
   url: 'https://www.erasmatazz.com/library/source-code/#:~:text=Excalibur'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1424,6 +1608,8 @@
   url: 'https://excelgame.top/excel-games-download/excel-breakout-free-download/'
   development: sporadic
   status: playable
+  platforms:
+  - Excel
   langs:
   - VBA
   frameworks:
@@ -1444,6 +1630,8 @@
   url: 'https://excel-pratique.com/en/downloads/games/excel-minesweeper-no414'
   development: halted
   status: playable
+  platforms:
+  - Excel
   content: free
   langs:
   - VBA
@@ -1468,6 +1656,8 @@
   originals:
   - MegaMan
   status: semi-playable
+  platforms:
+  - None
   repo: https://github.com/CamHenlin/ExecutiveMan
   type: remake
   updated: 2022-08-18
@@ -1483,6 +1673,8 @@
   originals:
   - Exile
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/Geti/EXILE
   type: remake
   updated: 2015-06-22
@@ -1495,6 +1687,8 @@
   repo: 'https://github.com/tom-seddon/exile_disassembly'
   development: halted
   status: playable
+  platforms:
+  - BBC Micro
   content: commercial
   langs:
   - Assembly
@@ -1510,6 +1704,8 @@
   repo: 'https://level7.org.uk/miscellany/exile-enhanced-disassembly.txt'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: commercial
   langs:
   - Assembly
@@ -1526,6 +1722,8 @@
   url: 'https://exlcom.jimdofree.com/'
   development: halted
   status: semi-playable
+  platforms:
+  - Excel
   langs:
   - VBA
   frameworks:
@@ -1563,6 +1761,8 @@
   originals:
   - Exolon
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/newagebegins/exolon
   type: remake
   updated: 2024-04-03
@@ -1593,6 +1793,10 @@
   originals:
   - 'Ultima VII: The Black Gate'
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Android
   repo: https://github.com/exult/exult
   type: remake
   updated: 2022-12-23
@@ -1627,6 +1831,10 @@
   originals:
   - Quake
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   repo: https://github.com/ezQuake/ezquake-source
   feed: https://github.com/QW-Group/ezquake-source/releases.atom
   type: remake
