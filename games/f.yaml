@@ -9,6 +9,9 @@
   content: commercial
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Android
   originals:
   - Fade to Black
   repo: https://github.com/cyxx/f2bgl
@@ -29,6 +32,8 @@
   feed: 'https://github.com/rmsk2/F256_2048/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Foenix
   langs:
   - Assembly
   licenses:
@@ -48,6 +53,10 @@
   originals:
   - F-1 Spirit
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   multiplayer:
   - Competitive
   - Local
@@ -73,6 +82,8 @@
   originals:
   - F-Zero
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/chipbell4/F-Zero-Clone
   type: remake
   updated: 2022-08-09
@@ -84,6 +95,8 @@
   repo: 'https://github.com/BttrDrgn/f-zerox'
   development: halted
   status: unplayable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -97,10 +110,11 @@
   originals:
   - The F.A. Premier League Stars
   type: official
-  url: >-
-    https://hiddenpalace.org/F.A._Premier_League_Stars_(Nov_23,_1999_prototype_and_source_code)
+  url: https://hiddenpalace.org/F.A._Premier_League_Stars_(Nov_23,_1999_prototype_and_source_code)
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Local
   - LAN
@@ -120,6 +134,8 @@
   repo: 'https://github.com/Sporesirius/fakk2-rework'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -142,6 +158,8 @@
   - Fall Down
   repo: https://github.com/cxong/FallingTime
   status: playable
+  platforms:
+  - Linux
   type: clone
   updated: 2015-05-26
   video:
@@ -155,6 +173,12 @@
   development: sporadic
   feed: https://github.com/alexbatalov/fallout2-ce/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
+  - Android
+  - iOS
   content: commercial
   langs:
   - C++
@@ -174,6 +198,12 @@
   development: sporadic
   feed: https://github.com/alexbatalov/fallout1-ce/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
+  - Android
+  - iOS
   content: commercial
   langs:
   - C++
@@ -202,6 +232,9 @@
   - Fallout 2
   repo: https://github.com/falltergeist/falltergeist
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   url: https://falltergeist.org/
   feed: https://falltergeist.org/rss
@@ -222,6 +255,8 @@
   - Legend of Zelda
   repo: https://git.tuxfamily.org/fanwor/fanwor.git
   status: playable
+  platforms:
+  - None
   type: clone
   updated: 2023-11-21
   url: https://fanwor.tuxfamily.org/
@@ -233,6 +268,8 @@
   url: 'https://www.romhacking.net/documents/586/'
   development: halted
   status: unplayable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -249,6 +286,8 @@
   feed: 'https://sourceforge.net/p/feud/news/feed.rss'
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: open
   langs:
   - C
@@ -275,6 +314,8 @@
   url: 'https://www.romhacking.net/documents/663/'
   development: complete
   status: playable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -290,6 +331,8 @@
   repo: 'https://github.com/Entroper/ff1snes'
   development: sporadic
   status: semi-playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -306,6 +349,8 @@
   repo: 'https://github.com/everything8215/ff2'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -322,6 +367,8 @@
   repo: 'https://github.com/everything8215/ff3'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -339,6 +386,8 @@
   url: https://www.romhacking.net/documents/401/
   development: halted
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -355,6 +404,8 @@
   url: 'https://www.frontierastro.co.uk/Hires/hiresffe.html'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Assembly
@@ -390,6 +441,13 @@
   originals:
   - Heroes of Might and Magic II
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
+  - Android
+  - PlayStation Vita
+  - Nintendo Switch
   url: https://ihhub.github.io/fheroes2/
   repo: https://github.com/ihhub/fheroes2
   feed: https://github.com/ihhub/fheroes2/releases.atom
@@ -404,6 +462,8 @@
   type: clone
   repo: https://codeberg.org/wickedsmoke/fiend-finder
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -432,6 +492,8 @@
   - Dandy
   - Gauntlet
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Co-op
   - Local
@@ -447,6 +509,8 @@
   repo: 'https://github.com/scttgs0/Fill-er-up'
   development: complete
   status: playable
+  platforms:
+  - Foenix
   langs:
   - Assembly
   licenses:
@@ -461,6 +525,8 @@
   repo: 'https://github.com/everything8215/ff4'
   development: complete
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -476,6 +542,8 @@
   repo: 'https://github.com/everything8215/ff5'
   development: active
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -491,6 +559,8 @@
   repo: 'https://github.com/everything8215/ff6'
   development: sporadic
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -507,6 +577,9 @@
   url: 'https://decoherence.itch.io/fire-maddness'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - Pascal
@@ -531,6 +604,8 @@
   url: 'https://www.olsak.net/mirek/ff-clone/index_en.html'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -553,6 +628,14 @@
   url: 'https://fillets.sourceforge.net/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
+  - BeOS
+  - Amiga
+  - PSP
+  - Android
   content: open
   langs:
   - C++
@@ -575,6 +658,8 @@
   repo: 'https://github.com/vasekp/fish-fillets'
   development: sporadic
   status: playable
+  platforms:
+  - Android
   content: free
   langs:
   - C++
@@ -593,6 +678,8 @@
   repo: 'https://github.com/jevarg/flappy-bberd'
   development: complete
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Python
@@ -613,6 +700,8 @@
   feed: 'https://github.com/markub3327/flappy-bird-gymnasium/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Python
@@ -630,9 +719,11 @@
   originals:
   - Flappy Bird
   type: clone
-  url: 'https://tic.computer/play?cart=252'
+  url: https://tic80.com/play?cart=252
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Lua
@@ -642,7 +733,7 @@
   - As-is
   updated: '2020-01-21'
   images:
-  - 'https://tic.computer/cart/41eaf38786c4a34a832e631e190cd879/cover.gif'
+  - 'https://tic80.com/cart/41eaf38786c4a34a832e631e190cd879/cover.gif'
   info: source is available by closing the game and pressing Esc
 
 - name: Flappybird
@@ -652,6 +743,8 @@
   repo: 'https://github.com/JannikCrack/flappybird-1'
   development: complete
   status: playable
+  platforms:
+  - iOS
   content: free
   langs:
   - Swift
@@ -669,6 +762,8 @@
   feed: 'https://github.com/lukdog/FlappyLED/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C++
   licenses:
@@ -685,6 +780,8 @@
   url: 'https://melpa.org/#/flappymacs'
   development: complete
   status: playable
+  platforms:
+  - Emacs
   langs:
   - Emacs Lisp
   frameworks:
@@ -705,6 +802,8 @@
   feed: 'https://github.com/tigermouthbear/flappytiger/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -722,6 +821,8 @@
   repo: 'https://github.com/mattn/flappyvird-vim'
   development: halted
   status: playable
+  platforms:
+  - Vim
   langs:
   - Vim Script
   frameworks:
@@ -745,6 +846,11 @@
   originals:
   - Diablo
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
+  - Android
   repo: https://github.com/flareteam/flare-game
   type: clone
   url: https://flarerpg.org
@@ -770,6 +876,8 @@
   feed: 'https://github.com/dos1/flasciibird/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - Python
@@ -794,6 +902,8 @@
   url: 'http://www.matthewleverton.com/games/flashflood/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -820,6 +930,8 @@
   - Little Fighter 2
   repo: https://github.com/Project-F/F.LF
   status: playable
+  platforms:
+  - Web
   type: clone
   updated: 2020-08-25
   url: https://project-f.github.io/
@@ -844,6 +956,10 @@
   originals:
   - Microsoft Flight Simulator
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   repo: https://sourceforge.net/projects/flightgear/
   type: clone
   updated: 2022-08-20
@@ -856,6 +972,8 @@
   repo: 'https://github.com/pi1ot/tornado-dos-flightsim'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - Assembly
@@ -874,6 +992,10 @@
   feed: 'https://salsa.debian.org/games-team/flobopuyo.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   content: open
   langs:
   - C++
@@ -895,6 +1017,8 @@
   repo: 'https://github.com/badrain-games/fancon/'
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Python
@@ -916,6 +1040,8 @@
   url: 'https://blendogames.com/news/post/2020-02-27-flotilla_source_release/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Co-op
   content: commercial
@@ -940,10 +1066,11 @@
   originals:
   - flOw
   type: official
-  repo: >-
-    https://web.archive.org/web/20160401045349/http://www.thatgamecompany.com/forum/viewtopic.php?t=993#p4255
+  repo: https://web.archive.org/web/20160401045349/http://www.thatgamecompany.com/forum/viewtopic.php?t=993#p4255
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - ActionScript
   frameworks:
@@ -961,6 +1088,8 @@
   url: https://anirudhjoshi.github.io/fluid_table_tennis/
   development: complete
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Competitive
   - Local
@@ -982,6 +1111,8 @@
   feed: 'https://git.justquitstudios.de/JustQuitStudios/minesweeper-flutter.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Android
   content: open
   langs:
   - C++
@@ -1002,6 +1133,11 @@
   repo: 'https://github.com/kuroneko/fly8'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - DOS
+  - Amiga
   langs:
   - C
   licenses:
@@ -1019,6 +1155,8 @@
   url: 'https://www.sandeepnambiar.com/follow_me_javascript_simon_clone/'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -1038,6 +1176,9 @@
   originals:
   - Fallout Online
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/hobwekiva/fonline
   type: remake
   updated: 2022-08-20
@@ -1048,10 +1189,11 @@
   - Food Fight
   type: official
   repo: 'https://github.com/videogamepreservation/foodfight-7800'
-  url: >-
-    https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Food%20Fight
+  url: https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Food%20Fight
   development: complete
   status: playable
+  platforms:
+  - Atari
   multiplayer:
   - Local
   - Hotseat
@@ -1070,6 +1212,8 @@
   originals:
   - Football Manager
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/autismuk/Football-Manager
   development: halted
   type: remake
@@ -1084,6 +1228,8 @@
   url: 'https://theforceengine.github.io/'
   development: very active
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1115,6 +1261,11 @@
   repo: https://github.com/Card-Forge/forge
   feed: https://github.com/Card-Forge/forge/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
+  - Android
   type: clone
   url: https://card-forge.github.io/forge/
   added: 2017-01-07
@@ -1133,6 +1284,8 @@
   url: 'https://web.archive.org/web/20221031041728/https://twitter.com/fortapocalypse'
   development: complete
   status: playable
+  platforms:
+  - Atari
   content: free
   langs:
   - Assembly
@@ -1150,6 +1303,9 @@
   repo: 'https://github.com/PascalCorpsman/fpc_atomic'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Competitive
   - Online
@@ -1173,6 +1329,8 @@
   originals:
   - Quake 3
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/TIHan/FQuake3
   type: remake
   updated: 2022-08-20
@@ -1191,6 +1349,8 @@
   originals:
   - Allegiance
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/FreeAllegiance/Allegiance
   type: remake
   updated: 2022-08-20
@@ -1205,6 +1365,8 @@
   url: 'http://www.iancgbell.clara.net/freefall/'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   langs:
   - BASIC
   licenses:
@@ -1220,6 +1382,8 @@
   url: http://zzo38computer.org/freeheromesh/
   development: active
   status: playable
+  platforms:
+  - Linux
   content: swappable
   langs:
   - C
@@ -1237,6 +1401,8 @@
   repo: 'https://github.com/ciplogic/fheroes2enh'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1272,6 +1438,8 @@
   - Alone in the Dark 3
   - Jack in the Dark
   status: semi-playable
+  platforms:
+  - Windows
   repo: https://github.com/yaz0r/FITD
   type: remake
   updated: 2024-02-18
@@ -1293,6 +1461,10 @@
   - Diablo
   repo: https://github.com/wheybags/freeablo
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   type: remake
   updated: 2023-05-22
   video:
@@ -1315,6 +1487,8 @@
   - https://raw.githubusercontent.com/sandsmark/freeaoe/master/doc/historyscreen.png
   repo: https://github.com/sandsmark/freeaoe
   status: semi-playable
+  platforms:
+  - Windows
   type: remake
   updated: 2023-11-24
   info: 'Only thing missing to be playable is opponents (AI and/or multiplayer). The engine supports data from all Genie games
@@ -1336,6 +1510,8 @@
   - Tetris Attack
   repo: https://github.com/dorkster/freeblocks
   status: playable
+  platforms:
+  - Linux
   type: remake
   updated: 2015-02-02
 
@@ -1358,6 +1534,9 @@
   originals:
   - Civilization II
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/freeciv/freeciv
   type: clone
   updated: 2023-11-27
@@ -1375,6 +1554,10 @@
   originals:
   - Civilization II
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   repo: https://github.com/longturn/freeciv21
   type: clone
   added: 2025-03-27
@@ -1393,6 +1576,8 @@
   originals:
   - Sid Meier's Alpha Centauri
   status: unplayable
+  platforms:
+  - Linux
   repo: https://sourceforge.net/projects/freecivac/
   type: remake
   updated: 2022-03-28
@@ -1410,11 +1595,13 @@
   originals:
   - Civilization II
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Online
   repo: https://github.com/freeciv/freeciv-web
   type: clone
-  url: https://www.freecivweb.org/
+  url: https://www.freecivweb.com
   updated: 2023-01-23
   images:
   - https://raw.githubusercontent.com/freeciv/freeciv-web/develop/freeciv-web/src/main/webapp/javascript/webgl/freeciv-webgl.png
@@ -1429,6 +1616,9 @@
   feed: 'https://sourceforge.net/projects/freecnc/rss?path=/'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -1450,6 +1640,10 @@
   url: https://www.freecol.org/
   development: active
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   langs:
   - Java
   licenses:
@@ -1477,6 +1671,11 @@
   originals:
   - Counter-Strike
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
+  url: https://www.frag-net.com/projects.html
   repo: https://github.com/eukara/freecs
   type: remake
   content: free
@@ -1502,6 +1701,8 @@
   originals:
   - Doom
   status: playable
+  platforms:
+  - None
   repo: https://github.com/freedoom/freedoom
   langs:
   - Python
@@ -1522,6 +1723,9 @@
   content: open
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   originals:
   - Paradroid
   repo: https://github.com/ReinhardPrix/FreedroidClassic
@@ -1548,6 +1752,9 @@
   originals:
   - Paradroid
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://gitlab.com/freedroid/freedroid-src
   type: similar
   url: https://www.freedroid.org/
@@ -1561,6 +1768,8 @@
   - BSD2
   development: halted
   status: playable
+  platforms:
+  - Windows
   originals:
   - Falcon
   repo: https://github.com/FreeFalcon/freefalcon-central
@@ -1581,6 +1790,8 @@
   url: 'https://www.romhacking.net/documents/554/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -1602,6 +1813,8 @@
   originals:
   - 'Fallout Tactics: Brotherhood of Steel'
   status: semi-playable
+  platforms:
+  - Windows
   repo: https://github.com/nadult/FreeFT
   type: remake
   updated: 2022-08-20
@@ -1611,6 +1824,11 @@
 - name: FreeGemas
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
+  - PlayStation Vita
   frameworks:
   - SDL2
   images:
@@ -1643,6 +1861,9 @@
   originals:
   - Gish
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/freegish/freegish
   type: remake
   updated: 2023-12-04
@@ -1667,6 +1888,8 @@
   - Heroes of Might and Magic III
   repo: https://github.com/mapron/FreeHeroes
   status: unplayable
+  platforms:
+  - Windows
   type: remake
   updated: 2022-11-04
 
@@ -1684,6 +1907,10 @@
   originals:
   - Half-Life
   status: semi-playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   repo: https://github.com/eukara/freehl
   type: remake
   content: commercial
@@ -1708,6 +1935,8 @@
   originals:
   - Sensible World of Soccer
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/anttisalonen/freekick3
   type: remake
   updated: 2022-08-20
@@ -1722,6 +1951,8 @@
   originals:
   - Warlords II
   status: unplayable
+  platforms:
+  - None
   repo: https://sourceforge.net/projects/freelords/
   type: remake
   updated: 2022-08-20
@@ -1735,6 +1966,10 @@
   feed: 'https://github.com/freeminer/freeminer/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   multiplayer:
   - Online
   - LAN
@@ -1764,6 +1999,8 @@
   originals:
   - Duke Nukem
   status: semi-playable
+  platforms:
+  - Linux
   repo: https://gitlab.com/silwol/freenukum/
   type: remake
   updated: 2021-09-16
@@ -1790,6 +2027,10 @@
   - CC-BY-SA
   content: open
   status: playable
+  platforms:
+  - Windows
+  - OSX
+  - Linux
   originals:
   - Master of Orion
   - Master of Orion 2
@@ -1808,6 +2049,8 @@
   url: 'https://freepop.sourceforge.net/'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - C++
@@ -1833,16 +2076,13 @@
   originals:
   - Prince of Persia
   status: playable
+  platforms:
+  - None
   type: remake
   added: 2014-01-12
   updated: 2025-03-18
   repo: https://sdfg.com.ar/git/r/fp-git.git/
-  url: https://www.princed.org/downloads/#FreePrince
-  images:
-  - https://www.princed.org/content/files/screenshots/freeprince1.png
-  - https://www.princed.org/content/files/screenshots/freeprince2.png
-  - https://www.princed.org/content/files/screenshots/freeprince3.png
-  - https://www.princed.org/content/files/screenshots/freeprince4.png
+  url: https://www.popot.org/get_the_games.php?game=FreePrince
 
 - name: FreeRails
   images:
@@ -1855,6 +2095,8 @@
   originals:
   - Railroad Tycoon
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/Trilarion/freerails
   type: remake
   added: 2015-04-03
@@ -1875,6 +2117,8 @@
   originals:
   - Railroad Tycoon
   status: semi-playable
+  platforms:
+  - None
   repo: https://sourceforge.net/projects/freerails2/
   type: remake
   added: 2015-04-03
@@ -1890,6 +2134,10 @@
   - GPL2
   development: active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - Web
   originals:
   - RollerCoaster Tycoon
   - RollerCoaster Tycoon 2
@@ -1911,14 +2159,17 @@
   licenses:
   - GPL3
   content: commercial
-  development: sporadic
+  development: halted
   originals:
   - The Settlers
   repo: https://github.com/freeserf/freeserf
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2021-04-29
-  url: http://jonls.dk/freeserf/
   images:
   - https://user-images.githubusercontent.com/45954803/50728156-8daa9000-111d-11e9-9b2e-10b418a11d62.PNG
   - https://user-images.githubusercontent.com/920769/31371154-3d07792a-addb-11e7-823e-4be060797809.png
@@ -1944,6 +2195,9 @@
   - The Settlers
   repo: https://github.com/Pyrdacor/freeserf.net
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2023-12-05
 
@@ -1963,6 +2217,8 @@
   - Siege
   repo: https://gitlab.com/LibreGames/freesiege
   status: playable
+  platforms:
+  - Linux
   type: remake
   updated: 2023-12-06
   url: https://freesiege.sourceforge.net/
@@ -1980,8 +2236,13 @@
   - The Sims
   repo: https://github.com/francot514/FreeSims
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2019-08-03
+  images:
+  - https://raw.githubusercontent.com/francot514/FreeSims/master/preview.png
   video:
     youtube: 91EmQvvgHUA
 
@@ -2002,6 +2263,8 @@
   - The Sims Online
   repo: https://github.com/riperiperi/FreeSO
   status: playable
+  platforms:
+  - Windows
   type: remake
   updated: 2023-12-07
   url: https://freeso.org/
@@ -2017,6 +2280,10 @@
   feed: https://github.com/scp-fs2open/fs2open.github.com/releases.atom
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C++
   frameworks:
@@ -2045,6 +2312,8 @@
   originals:
   - Stars!
   status: unplayable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/freestars/
   type: remake
   updated: 2022-04-01
@@ -2066,6 +2335,9 @@
   originals:
   - Syndicate
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://sourceforge.net/projects/freesynd/
   type: remake
   url: https://freesynd.sourceforge.io/
@@ -2087,9 +2359,10 @@
   - A-Train
   repo: https://sourceforge.net/projects/freetrain/
   status: playable
+  platforms:
+  - Windows
   type: clone
   updated: 2018-03-20
-  url: https://freetrain.sourceforge.net/
   video:
     youtube: N_W2ra_Lx80
 
@@ -2107,10 +2380,11 @@
   originals:
   - The Lost Vikings
   status: playable
+  platforms:
+  - None
   repo: https://sourceforge.net/projects/freevikings/
   type: clone
   updated: 2022-08-20
-  url: http://freevikings.wz.cz/
 
 - name: Frets on Fire
   images:
@@ -2126,6 +2400,10 @@
   - Guitar Hero
   repo: https://github.com/skyostil/fretsonfire
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2019-11-20
   url: https://fretsonfire.sourceforge.net/
@@ -2140,6 +2418,9 @@
   - Guitar Hero
   repo: https://github.com/fofix/fofix
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2023-12-10
   video:
@@ -2160,8 +2441,11 @@
   content: commercial
   development: halted
   status: playable
+  platforms:
+  - Linux
   originals:
   - Flying Shark
+  url: https://pyra-handheld.com/boards/threads/friking-shark.76715/
   repo: https://github.com/ptitSeb/friking-shark
   type: clone
   updated: 2023-12-11
@@ -2177,6 +2461,8 @@
   url: 'https://hiddenpalace.org/Official_game.com_emulator_and_debugger'
   development: complete
   status: playable
+  platforms:
+  - Windows
   langs:
   - Assembly
   licenses:
@@ -2192,6 +2478,8 @@
   repo: 'https://github.com/HighwayFrogs/frogger2-gbc'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   content: free
   langs:
   - Assembly
@@ -2207,6 +2495,8 @@
   repo: 'https://github.com/HighwayFrogs/frogger2-n64'
   development: halted
   status: playable
+  platforms:
+  - N64
   multiplayer:
   - Local
   - Hotseat
@@ -2227,6 +2517,8 @@
   repo: 'https://github.com/HighwayFrogs/frogger2-dc'
   development: complete
   status: playable
+  platforms:
+  - Dreamcast
   multiplayer:
   - Local
   - Hotseat
@@ -2246,6 +2538,8 @@
   url: 'https://archive.org/details/frogger2-dev-archives'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Local
   - Hotseat
@@ -2266,6 +2560,8 @@
   repo: 'https://github.com/HighwayFrogs/frogger2-psx'
   development: complete
   status: playable
+  platforms:
+  - PlayStation
   multiplayer:
   - Local
   - Hotseat
@@ -2284,6 +2580,8 @@
   repo: 'https://github.com/HighwayFrogs/frogger-gb'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   langs:
   - Assembly
   licenses:
@@ -2299,6 +2597,8 @@
   repo: 'https://github.com/HighwayFrogs/frogger-psx'
   development: sporadic
   status: playable
+  platforms:
+  - PlayStation
   content: commercial
   langs:
   - C
@@ -2318,6 +2618,8 @@
   originals:
   - Frogger
   status: playable
+  platforms:
+  - None
   repo: https://sourceforge.net/projects/froggix/
   type: remake
   updated: 2022-08-20
@@ -2336,6 +2638,8 @@
   originals:
   - Elite II
   status: playable
+  platforms:
+  - PSP
   type: remake
   updated: 2022-02-27
   url: https://www.txori.com/?static2/frontier
@@ -2352,6 +2656,8 @@
   originals:
   - Puzzle Bobble
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   - Local
@@ -2359,7 +2665,6 @@
   repo: https://github.com/kthakore/frozen-bubble
   type: clone
   updated: 2021-06-17
-  url: http://frozen-bubble.org/
   images:
   - https://upload.wikimedia.org/wikipedia/commons/3/34/Frozen_Bubble_2_-_Single_player.png
   - https://upload.wikimedia.org/wikipedia/commons/d/d5/Frozen_Bubble_2_-_Level_editor.png
@@ -2374,6 +2679,8 @@
   url: 'https://f-droid.org/packages/org.jfedor.frozenbubble/'
   development: halted
   status: playable
+  platforms:
+  - Android
   content: open
   langs:
   - C++
@@ -2399,6 +2706,9 @@
   url: https://www.fteqw.org
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C
@@ -2427,6 +2737,8 @@
   repo: 'https://github.com/idgmatrix/FMJ'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Assembly
@@ -2449,6 +2761,9 @@
   url: https://www.michaelfogleman.com/projects/future-blocks/
   development: halted
   status: playable
+  platforms:
+  - DOS
+  - Web
   langs:
   - QuickBasic
   licenses:
@@ -2468,6 +2783,10 @@
   feed: 'https://github.com/Ghoster738/Future-Cop-MIT/releases.atom'
   development: sporadic
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -2487,6 +2806,8 @@
   url: 'http://www.sigala.it/sandro/software.php#fxrepton'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -2507,6 +2828,8 @@
   url: 'http://www.sigala.it/sandro/software.php#fxzacman'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -2528,6 +2851,9 @@
   feed: 'https://github.com/mevdschee/fyne-mines/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - Go
