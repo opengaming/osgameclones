@@ -585,6 +585,23 @@
   url: https://www.widelands.org
   updated: 2024-04-29
 
+- name: Wii Sports
+  originals:
+  - Wii Sports
+  type: remake
+  repo: 'https://github.com/doldecomp/ogws'
+  development: very active
+  status: unplayable
+  content: commercial
+  langs:
+  - C
+  - C++
+  licenses:
+  - CC0
+  info: A decompilation of Wii Sports
+  added: 2026-04-20
+  updated: 2026-04-20
+
 - name: Wiirdle
   originals:
   - Wordle
@@ -836,6 +853,22 @@
     https://uploads.golmedia.net/uploads/articles/article_media/12624739471692021213gol1.jpg
   - 'https://phoboslab.org/content/assets/wipeout-wasm.png'
 
+- name: Wipeout-Rewrite port for Dreamcast
+  originals:
+  - Wipeout
+  type: remake
+  repo: 'https://github.com/jnmartin84/wipeout-dc'
+  feed: 'https://github.com/jnmartin84/wipeout-dc/releases.atom'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-04-25
+  updated: 2026-04-25
+
 - name: Witch Blast
   development: halted
   frameworks:
@@ -984,6 +1017,34 @@
   type: remake
   updated: 2023-01-27
   url: http://wl.lariennalibrary.com
+
+- name: 'Wizball'
+  originals:
+  - 'Wizball'
+  type: remake
+  repo: 'https://github.com/craigchandler/wizball-remake'
+  url: 'https://craigchandler.xyz/wizball-remake/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Co-op
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - MIT
+  info: >-
+    A preserved source release of the 2007 Wizball PC/Mac remake by Graham Goring
+    and collaborators, now updated to build and run on modern Linux and to package
+    cleanly for PortMaster handhelds.
+  added: '2026-05-06'
+  updated: '2026-05-06'
+  images:
+  - 'https://craigchandler.xyz/wizball-remake/images/screenshot1.png'
 
 - name: Wizznic!
   frameworks:

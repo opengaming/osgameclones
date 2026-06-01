@@ -884,6 +884,25 @@
   images:
   - https://raw.githubusercontent.com/paulrobello/par_infini_sweeper/main/Screenshot.png
 
+- name: Paranoid
+  originals:
+  - Breakout
+  type: clone
+  url: 'http://members.allegro.cc/miran/paranoid.html'
+  development: halted
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-05-08
+  updated: 2026-05-08
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1689_large.png'
+
 - name: Pararena 2.0
   originals:
   - Pararena
@@ -2837,6 +2856,29 @@
   - 'https://pongu.sourceforge.net/images/pongu3.jpg'
   - 'https://pongu.sourceforge.net/images/pongu2.jpg'
 
+- name: PongGame
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://www.allegro.cc/depot/PongGame1'
+  url: 'http://members.allegro.cc/Danex/'
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  multiplayer:
+  - Local
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-05-09
+  updated: 2026-05-09
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3060_large.jpg'
+
 - name: Pongix
   originals:
   - Pong
@@ -3391,6 +3433,21 @@
   - 'https://a.fsdn.com/con/app/proj/aedra/screenshots/264936.jpg'
   - 'https://a.fsdn.com/con/app/proj/aedra/screenshots/267278.jpg'
   - 'https://a.fsdn.com/con/app/proj/aedra/screenshots/264938.jpg'
+
+- name: Project AG
+  originals:
+  - AeroGauge
+  type: remake
+  repo: 'https://github.com/LLONSIT/AeroGauge'
+  development: sporadic
+  langs:
+  - C
+  status: unplayable
+  content: commercial
+  licenses:
+  - As-is
+  added: 2026-04-29
+  updated: 2026-04-29
 
 - name: Project Alice
   images:
