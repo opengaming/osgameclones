@@ -328,20 +328,26 @@
   updated: 2020-08-31
   url: https://inexor.org/
 
-- name: Interstate Outlaws
-  langs:
-  - Python
-  frameworks:
-  - Crystal Space
-  licenses:
-  - GPL2
-  development: halted
-  originals:
-  - Interstate '76
-  status: semi-playable
-  type: remake
-  updated: 2022-09-07
-  url: http://web.archive.org/web/20071011202135/http://interstateoutlaws.com/
+name: Interstate Outlaws
+originals:
+- Interstate '76
+type: remake
+repo: 'https://github.com/ignitr0n/InterstateOutlaws'
+url: 'http://web.archive.org/web/20071011202135/http://interstateoutlaws.com/'
+development: halted
+status: semi-playable
+content: open
+langs:
+- Python
+frameworks:
+- Crystal Space
+licenses:
+- GPL3
+updated: '2026-06-03'
+images:
+- >-
+  https://github.com/elr0b0h0b0/InterstateOutlaws-v0.2/blob/main/circle_of_death.png
+- 'https://github.com/elr0b0h0b0/InterstateOutlaws-v0.2/blob/main/water_wheel.png'
 
 - name: Intruders for Linux
   originals:
