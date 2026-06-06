@@ -6,6 +6,8 @@
   url: 'https://x.com/KevEdwardsRetro/status/1811160442686894577'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -24,6 +26,8 @@
   url: 'https://x.com/KevEdwardsRetro/status/1113896605969731586'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -42,6 +46,8 @@
   url: 'https://x.com/KevEdwardsRetro/status/1102319152038141955'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -85,6 +91,8 @@
     https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Galaga
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -101,6 +109,8 @@
   originals:
   - Galaxian
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/codedrive/galaxian
   type: remake
   updated: 2022-08-23
@@ -112,6 +122,8 @@
   url: 'https://www.romhacking.net/documents/617/'
   development: complete
   status: playable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -126,6 +138,8 @@
   url: 'https://www.ocf.berkeley.edu/~pad/game-ti82-galaxian.html'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - Assembly
   licenses:
@@ -148,10 +162,13 @@
   originals:
   - Gravity Force
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://sourceforge.net/projects/galaxyv2/
   type: remake
   updated: 2023-12-23
-  url: http://www.galaxy-forces.com/
   images:
   - https://a.fsdn.com/con/app/proj/galaxyv2/screenshots/317087.jpg/max/max/1
   - https://a.fsdn.com/con/app/proj/galaxyv2/screenshots/317079.jpg/max/max/1
@@ -166,6 +183,10 @@
   url: 'https://web.archive.org/web/20170226223853/http://zevv.nl/play/code/game/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Amiga
   content: free
   langs:
   - C
@@ -187,6 +208,8 @@
   url: 'https://crates.io/crates/game2048-rs'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   frameworks:
@@ -205,6 +228,8 @@
   url: 'https://archive.org/details/game-source-atari-st-hard-drivin'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - C
   licenses:
@@ -221,6 +246,8 @@
   feed: 'https://metacpan.org/dist/Games-2048/releases.rss'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Perl
   licenses:
@@ -235,10 +262,11 @@
   - Asteroids
   type: clone
   repo: 'https://github.com/FROGGS/Games-Asteroids'
-  url: >-
-    https://yapgh.blogspot.com/2011/03/sdl-perl-game-contest-week-1-roundup.html#:~:text=Asteroids
+  url: https://yapgh.blogspot.com/2011/03/sdl-perl-game-contest-week-1-roundup.html#:~:text=Asteroids
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Perl
   frameworks:
@@ -259,6 +287,8 @@
   feed: 'https://metacpan.org/dist/Games-Minesweeper/releases.rss'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Perl
@@ -276,6 +306,8 @@
   url: https://www.ganggarrison.com/
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   langs:
@@ -302,6 +334,11 @@
   feed: https://gitlab.com/gardens-of-kadesh/gardens-of-kadesh.atom
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
   langs:
   - C
   frameworks:
@@ -328,6 +365,10 @@
   feed: 'https://sourceforge.net/p/gav/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Competitive
   - LAN
@@ -353,6 +394,9 @@
   url: 'https://nezza.github.io/gbwordle/'
   development: halted
   status: playable
+  platforms:
+  - Game Boy
+  - Web
   langs:
   - C
   licenses:
@@ -370,6 +414,8 @@
   feed: 'https://github.com/doomhack/GBADoom/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - GBA
   content: commercial
   langs:
   - C
@@ -395,6 +441,10 @@
   originals:
   - Boulder Dash
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://bitbucket.org/czirkoszoltan/gdash
   type: remake
   updated: 2021-11-05
@@ -407,6 +457,8 @@
   url: 'http://www.newbreedsoftware.com/gemdrop/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - BASIC
   licenses:
@@ -435,6 +487,8 @@
   feed: 'https://github.com/billkendrick/gemdrop_deluxe/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Atari
   content: free
   langs:
   - C
@@ -455,6 +509,13 @@
   url: 'http://www.newbreedsoftware.com/gemdropx/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Classic Mac OS
+  - Amiga
+  - Dreamcast
   content: free
   langs:
   - C
@@ -486,6 +547,7 @@
   - OpenGL
   licenses:
   - GPL2
+  content: commercial
   development: very active
   originals:
   - Baldur's Gate
@@ -494,8 +556,12 @@
   repo: https://github.com/gemrb/gemrb
   feed: https://github.com/gemrb/gemrb/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
-  url: http://www.gemrb.org/
+  url: https://gemrb.org
   updated: 2023-12-26
 
 - name: GeoffCapes
@@ -505,6 +571,8 @@
   repo: 'https://github.com/milkeybabes/GeoffCapes'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: commercial
   langs:
   - Assembly
@@ -523,6 +591,8 @@
   originals:
   - Geometry Wars
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/esimionato/geomwarsremake
   type: remake
   added: 2015-04-13
@@ -537,6 +607,8 @@
   feed: 'https://cgit.git.savannah.gnu.org/cgit/gfpoken.git/atom/?h=master'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -562,6 +634,8 @@
   - Pac-Man
   repo: https://github.com/sandsmark/aicompo-tg17
   status: playable
+  platforms:
+  - Windows
   type: similar
   updated: 2023-12-30
   info: Multiplayer Pac-Man where you control the ghosts. Designed as a programming game, but has human controls. Considered finished, but bugs will be fixed etc.
@@ -577,6 +651,8 @@
   originals:
   - Flag Catcher
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/ceva24/gift-grabber
   type: remake
   updated: 2023-12-31
@@ -600,9 +676,16 @@
   - Mega-Lo-Mania
   repo: https://sourceforge.net/projects/gigalomania/
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - Amiga
+  - Mobile
   type: remake
   updated: 2024-01-01
-  url: http://gigalomania.sourceforge.net/
+  url: https://gigalomania.sourceforge.net
   video:
     youtube: lTtT9p9DVL8
 
@@ -614,6 +697,8 @@
   url: 'https://gikopoi.com/'
   development: active
   status: playable
+  platforms:
+  - Web
   langs:
   - TypeScript
   licenses:
@@ -621,6 +706,10 @@
   info: Fork of Gikopoipoi with some extra stuff.
   added: '2024-12-06'
   updated: '2024-12-06'
+  images:
+  - https://booru.gikopoi.com/_images/9d6f7aa6cc8ee80237eb7b213c4b8626/575%20-%20evil_kata.png
+  - https://booru.gikopoi.com/_images/4ec002c070dd18ae2f0aba6c89e65e5e/573%20-%20gikomyths%20sex_in_minecraft.png
+  - https://booru.gikopoi.com/_images/c0f1a854c8a3282357066c1dff86f000/567%20-%20tagme.gif
 
 - name: Gikopoipoi
   originals:
@@ -630,6 +719,8 @@
   url: 'https://gikopoipoi.net'
   development: active
   status: playable
+  platforms:
+  - Web
   langs:
   - TypeScript
   licenses:
@@ -646,6 +737,8 @@
   url: 'http://crypticsea.blogspot.com/2010/05/gish-open-source.html'
   development: complete
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - C
@@ -666,6 +759,8 @@
   feed: 'https://sourceforge.net/p/gjid/code/feed.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -715,6 +810,9 @@
   originals:
   - Glest
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2013-08-04
   url: http://sourceforge.net/projects/glestae/
@@ -727,6 +825,8 @@
   url: 'https://www.frontierastro.co.uk/Hires/glffe.html'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -749,6 +849,9 @@
   repo: 'https://github.com/pcercuei/glfrontier'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C
   frameworks:
@@ -765,6 +868,8 @@
   repo: 'https://github.com/kodogo/Glider'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -780,6 +885,8 @@
   repo: 'https://github.com/softdorothy/Glider4'
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   content: free
   langs:
   - Pascal
@@ -794,9 +901,11 @@
   - Glider
   type: remake
   repo: https://github.com/colinleroy/a2tools
-  url: 'https://www.colino.net/wordpress/en/glider-for-apple-ii/'
+  url: https://www.colino.net/wordpress/glider-for-apple-ii/
   development: complete
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -817,6 +926,8 @@
   repo: 'https://github.com/softdorothy/GliderPRO'
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   content: free
   langs:
   - C
@@ -833,10 +944,11 @@
   - Glitch
   type: official
   repo: 'https://github.com/tinyspeck/glitch-client'
-  url: >-
-    https://web.archive.org/web/20240730075720/http://www.glitchthegame.com/public-domain-game-art/
+  url: https://web.archive.org/web/20240730075720/http://www.glitchthegame.com/public-domain-game-art/
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - ActionScript
   frameworks:
@@ -852,10 +964,11 @@
   - Glitch
   type: official
   repo: 'https://github.com/tinyspeck/glitch-GameServerJS'
-  url: >-
-    https://web.archive.org/web/20131213073818/http://www.glitchthegame.com/public-domain-game-art/
+  url: https://web.archive.org/web/20131213073818/http://www.glitchthegame.com/public-domain-game-art/
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - JavaScript
   licenses:
@@ -873,6 +986,8 @@
     https://web.archive.org/web/20170412084232/http://www.glitchthegame.com/public-domain-game-art/
   development: complete
   status: playable
+  platforms:
+  - Android
   langs:
   - Java
   licenses:
@@ -890,6 +1005,8 @@
   - MIT
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   originals:
   - Dungeon Keeper 2
   repo: 'https://github.com/codenamecpp/GLKeeper'
@@ -906,6 +1023,8 @@
   repo: 'https://github.com/earok/GloomAmiga'
   development: complete
   status: playable
+  platforms:
+  - Amiga
   content: commercial
   langs:
   - Assembly
@@ -925,6 +1044,8 @@
   url: 'https://x.com/_codebound_/status/1746704572410679766'
   development: complete
   status: playable
+  platforms:
+  - PlayStation
   content: commercial
   langs:
   - C
@@ -941,6 +1062,8 @@
   feed: 'https://github.com/erikg/glpong/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -965,6 +1088,9 @@
   originals:
   - Portal
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/GlPortal/glPortal
   type: remake
   updated: 2021-07-23
@@ -980,6 +1106,9 @@
   feed: 'https://github.com/afwbkbc/glsmac/releases.atom'
   development: very active
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -1021,10 +1150,11 @@
   - Speed Haste
   type: remake
   repo: 'https://github.com/jval1972/Speed'
-  url: >-
-    https://www.doomworld.com/forum/topic/121500-glspeed-remake-and-expansion-pack-of-the-dos-game-speed-haste-using-id-tech1/
+  url: https://www.doomworld.com/forum/topic/121500-glspeed-remake-and-expansion-pack-of-the-dos-game-speed-haste-using-id-tech1/
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Pascal
@@ -1056,6 +1186,11 @@
   feed: 'https://sourceforge.net/projects/gltron/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Classic Mac OS
   content: open
   langs:
   - C
@@ -1085,6 +1220,8 @@
   url: 'https://openports.pl/path/games/glutton'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1102,6 +1239,8 @@
   repo: 'https://github.com/softdorothy/Glypha3'
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   content: free
   langs:
   - C
@@ -1112,41 +1251,6 @@
   images:
   - 'https://raw.githubusercontent.com/softdorothy/Glypha3/master/Screenshot.jpg'
 
-- name: GMastermind
-  originals:
-  - Mastermind
-  type: clone
-  url: 'https://gap.nongnu.org/gmastermind/'
-  development: halted
-  status: playable
-  content: open
-  langs:
-  - C
-  licenses:
-  - GPL2
-  added: 2025-10-31
-  updated: 2025-10-31
-  images:
-  - 'https://gap.nongnu.org/gmastermind/gmastermind_01_obsd.png'
-
-- name: GMines
-  originals:
-  - Minesweeper
-  type: clone
-  url: 'https://gap.nongnu.org/gmines/'
-  development: halted
-  status: semi-playable
-  content: open
-  langs:
-  - C
-  licenses:
-  - GPL2
-  info: Minimal implementation of 8x8 minesweeper game.
-  added: 2025-10-30
-  updated: 2025-10-30
-  images:
-  - 'https://gap.nongnu.org/gmines/gmines_01_obsd.png'
-
 - name: gnome-2048
   originals:
   - '2048'
@@ -1156,6 +1260,8 @@
   feed: 'https://gitlab.gnome.org/GNOME/gnome-2048.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - Vala
@@ -1176,6 +1282,8 @@
   content: open
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   originals:
   - Atomix
   repo: https://gitlab.gnome.org/GNOME/atomix
@@ -1194,6 +1302,10 @@
   originals:
   - Minecraft
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/Gnomescroll/Gnomescroll
   type: remake
   updated: 2019-11-20
@@ -1215,6 +1327,13 @@
   originals:
   - Dink Smallwood
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - PSP
+  - Amiga
+  - Xbox
   repo: http://git.savannah.gnu.org/cgit/freedink.git
   type: remake
   updated: 2022-04-04
@@ -1229,6 +1348,12 @@
   feed: 'https://sourceforge.net/projects/gnurobbo/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - PSP
+  - Amiga
+  - Mobile
   content: open
   langs:
   - C
@@ -1257,11 +1382,12 @@
   - Xjump
   type: clone
   repo: 'https://savannah.gnu.org/projects/gnujump/'
-  url: >-
-    https://web.archive.org/web/20161024215159/http://gnujump.es.gnu.org/index.php/Main_Page
+  url: https://web.archive.org/web/20161024215159/http://gnujump.es.gnu.org/index.php/Main_Page
   feed: 'https://savannah.gnu.org/news/atom.php?group=gnujump'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1296,6 +1422,8 @@
   url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/gnupong-0.14.lsm'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1315,6 +1443,10 @@
   repo: https://github.com/rudolfolah/gnuski/
   development: sporadic
   status: semi-playable
+  platforms:
+  - Android
+  - Linux
+  - OSX
   langs:
   - C
   frameworks:
@@ -1335,6 +1467,8 @@
   feed: 'https://sourceforge.net/p/god-of-thunder-1994-dos-game/activity/feed'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - Assembly
@@ -1357,6 +1491,10 @@
   originals:
   - Gods
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   repo: https://github.com/jotd666/gods-deluxe
   updated: 2024-01-13
@@ -1368,6 +1506,8 @@
   url: 'https://www.romhacking.net/documents/719/'
   development: complete
   status: playable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -1384,6 +1524,8 @@
   feed: 'https://gitlab.com/kholdfuzion/goldeneye_src.atom'
   development: sporadic
   status: semi-playable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -1402,6 +1544,8 @@
   feed: https://rss.moddb.com/mods/goldeneye-source/videos/feed/rss.xml
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1429,6 +1573,8 @@
   url: 'https://6502disassembly.com/a2-scott-adams/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -1448,6 +1594,10 @@
   url: 'https://pyrodactyl.com/2020/08/04/11-years-of-pyrodactyl/#:~:text=Good%20Robot'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -1479,6 +1629,8 @@
   originals:
   - Pac-Man
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/livingston/google-pacman
   type: remake
   updated: 2022-08-23
@@ -1493,6 +1645,8 @@
   repo: https://github.com/jdmclark/gorc
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - C++
   frameworks:
@@ -1515,6 +1669,8 @@
   originals:
   - Gorillas
   status: playable
+  platforms:
+  - iOS
   repo: https://github.com/Lyndir/Gorillas
   type: remake
   updated: 2022-08-23
@@ -1530,6 +1686,8 @@
   url: https://nodef0.github.io/gorillas-rs/
   development: halted
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Hotseat
   langs:
@@ -1546,6 +1704,8 @@
   url: 'https://www.erasmatazz.com/library/source-code/#:~:text=Gossip'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1561,6 +1721,8 @@
   url: https://apps.kde.org/granatier/
   development: very active
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Competitive
   content: free
@@ -1581,6 +1743,8 @@
   url: 'https://archive.org/details/Grand_Monster_Slam_Source'
   development: complete
   status: playable
+  platforms:
+  - Amiga
   content: commercial
   langs:
   - Assembly
@@ -1597,6 +1761,8 @@
   url: 'https://crates.io/crates/graphite_server'
   development: sporadic
   status: unplayable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -1613,6 +1779,9 @@
   feed: 'https://sourceforge.net/p/gravastar/activity/feed'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Split-screen
   content: open
@@ -1630,10 +1799,11 @@
   - Gravity Bone
   type: official
   repo: 'https://github.com/blendogames/gravitybone'
-  url: >-
-    https://web.archive.org/web/20230525134201/https://twitter.com/BlendoGames/status/1272598960444563461#:~:text=Gravity%20Bone
+  url: https://web.archive.org/web/20230525134201/https://twitter.com/BlendoGames/status/1272598960444563461#:~:text=Gravity%20Bone
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -1658,6 +1828,8 @@
   url: 'https://www.lysator.liu.se/~jensa/gf2/'
   development: complete
   status: playable
+  platforms:
+  - Amiga
   content: free
   langs:
   - Assembly
@@ -1683,6 +1855,8 @@
   feed: 'https://sourceforge.net/p/gp2/news/feed.rss'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: free
   langs:
   - BlitzBasic
@@ -1704,6 +1878,8 @@
   feed: 'https://salsa.debian.org/games-team/gravitywars.atom'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1726,6 +1902,10 @@
   originals:
   - The Great Escape
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/dpt/The-Great-Escape-in-C
   type: remake
   url: https://www.davespace.co.uk/the.great.escape/
@@ -1745,6 +1925,8 @@
   originals:
   - Pole Position
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/jonathanopalise/grid-leader
   type: remake
   updated: 2022-08-23
@@ -1758,6 +1940,10 @@
   feed: 'https://github.com/mmatyas/GridWars/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - BlitzMax
   licenses:
@@ -1782,6 +1968,10 @@
   originals:
   - Space Station 13
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/griefly/griefly
   type: remake
   updated: 2022-08-23
@@ -1794,6 +1984,8 @@
   url: http://brooklynking.github.io/Grimsonland/
   development: halted
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   frameworks:
@@ -1806,6 +1998,8 @@
 - name: Grit Game Engine
   type: tool
   status: N/A
+  platforms:
+  - Windows
   originals:
   - 'Grand Theft Auto: San Andreas'
   repo: https://github.com/grit-engine/grit-engine
@@ -1828,6 +2022,9 @@
   url: 'https://brizzlyy.itch.io/grizzly-adventures'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - iOS
   content: open
   langs:
   - C++
@@ -1853,6 +2050,8 @@
   repo: 'https://github.com/garu/Games-GrooveBoard'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - Perl
@@ -1875,6 +2074,8 @@
   feed: 'https://salsa.debian.org/games-team/invaders.atom'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - C
   frameworks:
@@ -1896,6 +2097,8 @@
   url: 'http://grimaldi.me/post/gsoko/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1922,6 +2125,8 @@
   originals:
   - Grand Theft Auto 2
   status: unplayable
+  platforms:
+  - Windows
   type: remake
   updated: 2022-08-23
   url: https://github.com/peon501/GTA2.NET
@@ -1935,6 +2140,8 @@
   feed: 'https://github.com/tatankat/gtetrinet/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   content: open
@@ -1960,6 +2167,8 @@
   url: 'http://gtkballs.antex.ru/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1980,6 +2189,8 @@
   url: 'https://www.ibiblio.org/pub/Linux/games/gtktetcolor-0.6.4.lsm'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -1995,11 +2206,12 @@
   - Gunocide II
   type: remake
   repo: 'https://sourceforge.net/projects/g2ex/'
-  url: >-
-    https://web.archive.org/web/20171028201806/http://home.mayn.de/comrad/documents/vsgarage_deutsch
+  url: https://web.archive.org/web/20171028201806/http://home.mayn.de/comrad/documents/vsgarage_deutsch
   feed: 'https://sourceforge.net/projects/g2ex/rss?path=/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -2019,6 +2231,8 @@
   url: 'https://www.romhacking.net/documents/721/'
   development: complete
   status: playable
+  platforms:
+  - Genesis
   multiplayer:
   - Local
   - Co-op
@@ -2040,6 +2254,9 @@
   langs:
   - C++
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2019-08-17
   url: http://gusanos.sourceforge.net/
@@ -2058,6 +2275,8 @@
   originals:
   - Snake
   status: playable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/gustysserpents/
   type: clone
   updated: 2022-08-23
@@ -2072,6 +2291,8 @@
   feed: http://feeds.launchpad.net/gweled/announcements.atom
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -2095,6 +2316,8 @@
   url: 'https://icculus.org/gwiz/'
   development: halted
   status: unplayable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2121,14 +2344,16 @@
   - Vulkan
   licenses:
   - GPL3
-  development: very active
+  development: halted
   originals:
   - Doom
   - Heretic
   - Hexen
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/coelckers/gzdoom
   type: remake
-  updated: 2024-01-09
-  url: https://zdoom.org/index
+  updated: 2026-06-06
   info: GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine
