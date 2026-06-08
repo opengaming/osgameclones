@@ -7,6 +7,8 @@
   feed: 'https://hackage.haskell.org/package/h2048.rss'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Haskell
   frameworks:
@@ -31,6 +33,10 @@
   originals:
   - Wipeout
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   repo: https://github.com/mzeilfelder/hc1
   type: clone
   updated: 2022-08-29
@@ -46,6 +52,8 @@
   url: 'https://web.archive.org/web/20170222232344/https://www.themade.org/posts/1701'
   development: halted
   status: playable
+  platforms:
+  - Commodore 64
   multiplayer:
   - Online
   content: open
@@ -69,6 +77,8 @@
   originals:
   - Pac-Man
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/snozza/pacman
   type: remake
   updated: 2022-10-28
@@ -85,6 +95,8 @@
     https://archive.org/details/hagar-the-horrible-c-64-kingsoft-1992-source-code.-7z
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   langs:
   - Assembly
   licenses:
@@ -100,6 +112,8 @@
   feed: 'https://github.com/HaikuArchives/Haiku2048/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - BeOS
   content: open
   langs:
   - C++
@@ -120,6 +134,8 @@
   url: 'https://daemonforums.org/showthread.php?t=11914'
   development: active
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C++
@@ -152,6 +168,12 @@
   originals:
   - Hexen II
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - DOS
+  - OSX
+  - Amiga
   repo: https://sourceforge.net/projects/uhexen2/
   type: remake
   updated: 2021-05-18
@@ -166,6 +188,10 @@
   - GPL3
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   originals:
   - Hardwar
   repo: https://github.com/andrewfenn/Hardwar
@@ -184,6 +210,11 @@
   originals:
   - Fallout 2
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
   repo: https://github.com/OldGamesLab/Harold
   type: remake
   updated: 2024-02-22
@@ -194,6 +225,10 @@
   originals:
   - Story of Seasons series
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: clone
   repo: 'https://github.com/Kenny-Haworth/Harvest-Moon-2.0'
   development: halted
@@ -224,6 +259,8 @@
     https://www.facebook.com/circleturnip/posts/-harvest-moon-64-has-been-fully-decompiled-the-classic-farming-game-harvest-moon/1639163810658062/
   development: very active
   status: unplayable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -243,6 +280,8 @@
   content: open
   langs:
   - JavaScript
+  platforms:
+  - Web
   licenses:
   - As-is
   added: 2025-10-06
@@ -259,6 +298,8 @@
   feed: 'https://github.com/ivanperez-keera/haskanoid/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - Haskell
@@ -281,10 +322,11 @@
   originals:
   - Asteroids
   type: clone
-  url: >-
-    https://web.archive.org/web/20190328142147/http://www.informatik.uni-bremen.de/~cxl/lehre/pi3.ws01/asteroids/
+  url: https://web.archive.org/web/20190328142147/http://www.informatik.uni-bremen.de/~cxl/lehre/pi3.ws01/asteroids/
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   langs:
   - Haskell
   frameworks:
@@ -303,6 +345,8 @@
   feed: 'https://hackage.haskell.org/package/Haskelloids.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Haskell
@@ -317,10 +361,11 @@
   type: clone
   repo: >-
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/#:~:text=hatman
-  url: >-
-    https://web.archive.org/web/20090710041645/https://www.linuxlots.com/~hatsoft/hatman/
+  url: https://web.archive.org/web/20090710041645/https://www.linuxlots.com/~hatsoft/hatman/
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -342,6 +387,8 @@
     https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Hat%20Trick
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Forth
   licenses:
@@ -358,6 +405,8 @@
   originals:
   - Haunted House
   status: playable
+  platforms:
+  - None
   repo: https://github.com/KunoNoOni/HauntedHouse
   type: remake
   updated: 2022-08-29
@@ -367,11 +416,14 @@
   - 'Ultima V: Warriors of Destiny'
   type: clone
   repo: 'https://sourceforge.net/projects/nazghul/'
-  url: >-
-    https://web.archive.org/web/20130402222926/https://myweb.cableone.net/gmcnutt/nazghul.html
+  url: https://web.archive.org/web/20130402222926/https://myweb.cableone.net/gmcnutt/nazghul.html
   feed: 'https://sourceforge.net/projects/nazghul/rss?path=/nazghul'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C++
@@ -409,6 +461,8 @@
   - Head over Heels
   repo: 'https://github.com/dougmencken/HeadOverHeels'
   status: playable
+  platforms:
+  - Linux
   development: active
   licenses:
   - GPL3
@@ -432,16 +486,20 @@
   originals:
   - Head over Heels
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2022-08-29
-  url: https://www.headoverheels2.com/drupal/en/
+  url: https://hoh.helmantika.com/en/
   images:
-  - https://headoverheels2.com/drupal/sites/default/files/images/safari01.png
-  - https://headoverheels2.com/drupal/sites/default/files/images/egyptus01.png
-  - https://headoverheels2.com/drupal/sites/default/files/images/byblos03.png
-  - https://headoverheels2.com/drupal/sites/default/files/images/egyptus02.png
-  - https://headoverheels2.com/drupal/sites/default/files/images/byblos01.png
-  - https://headoverheels2.com/drupal/sites/default/files/images/moonbase01.png
+  - https://hoh.helmantika.com/wp-content/uploads/2021/01/riderx-byblos.png
+  - https://hoh.helmantika.com/wp-content/uploads/2021/01/riderx-moonbase.png
+  - https://hoh.helmantika.com/wp-content/uploads/2021/01/riderx-safari.png
+  - https://hoh.helmantika.com/wp-content/uploads/2021/01/riderx-market.png
+  - https://hoh.helmantika.com/wp-content/uploads/2021/01/riderx-jail.png
+  - https://hoh.helmantika.com/wp-content/uploads/2021/01/riderx-blacktooth.png
+  - https://hoh.helmantika.com/wp-content/uploads/2021/01/riderx-egyptus.png
 
 - name: Heart of the Alien Redux
   langs:
@@ -455,6 +513,9 @@
   originals:
   - 'Another World 2: Heart of the Alien'
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/carstene1ns/hota-redux
   type: remake
   updated: 2021-09-23
@@ -473,6 +534,8 @@
   repo: 'https://github.com/Sporesirius/fakk2'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -504,6 +567,11 @@
   originals:
   - Worms Series
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - iOS
   repo: https://hg.hedgewars.org/hedgewars/
   type: clone
   updated: 2019-06-07
@@ -517,6 +585,9 @@
   feed: 'https://github.com/Helion-Engine/Helion/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - 'C#'
@@ -545,6 +616,9 @@
   feed: 'https://sourceforge.net/p/hannah/news/feed.rss'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -576,6 +650,8 @@
   originals:
   - Minecraft
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/PistonDevelopers/hematite
   type: remake
   updated: 2024-02-24
@@ -590,6 +666,8 @@
   url: 'https://archive.org/details/Heretic_source'
   development: complete
   status: playable
+  platforms:
+  - DOS
   multiplayer:
   - LAN
   content: commercial
@@ -608,6 +686,8 @@
   content: commercial
   development: very active
   status: playable
+  platforms:
+  - None
   licenses:
   - GPL3
   langs:
@@ -625,6 +705,8 @@
   url: 'https://www.romhacking.net/documents/557/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -644,6 +726,10 @@
   feed: 'https://sourceforge.net/p/heroes/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - BeOS
   content: open
   langs:
   - C
@@ -672,6 +758,8 @@
   originals:
   - Yu-Gi-Oh!
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/francot514/CivHeroes
   type: clone
   updated: 2022-08-29
@@ -685,6 +773,9 @@
   feed: 'https://github.com/soarqin/HeroesOfJinYong/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -702,6 +793,8 @@
   originals:
   - Herzog Zwei
   status: unplayable
+  platforms:
+  - None
   repo: https://sourceforge.net/projects/herzog3d/
   langs:
   - Java
@@ -722,6 +815,8 @@
   url: https://archive.org/details/Hexen_source
   development: complete
   status: playable
+  platforms:
+  - DOS
   multiplayer:
   - LAN
   content: commercial
@@ -739,10 +834,11 @@
   - Hexen II
   type: official
   repo: 'https://github.com/videogamepreservation/hexen2'
-  url: >-
-    https://web.archive.org/web/20091221020510/http://archive.gamespy.com/news/november00/hexen2/
+  url: https://web.archive.org/web/20091221020510/http://archive.gamespy.com/news/november00/hexen2/
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Local
   - Online
@@ -766,6 +862,8 @@
   url: 'https://www.ibiblio.org/pub/Linux/games/linux-hexen-0.99.lsm'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: swappable
   langs:
   - C
@@ -785,6 +883,8 @@
   feed: 'https://github.com/Shockblast/hexen2-dreamcast/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Dreamcast
   content: commercial
   langs:
   - C
@@ -807,6 +907,8 @@
   originals:
   - Wipeout
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/BKcore/HexGL
   type: clone
   updated: 2022-08-12
@@ -821,7 +923,9 @@
   repo: https://github.com/hexoshi/hexoshi
   url: https://hexoshi.github.io
   development: sporadic
-  status: playable
+  status: semi-playable
+  platforms:
+  - None
   langs:
   - Python
   licenses:
@@ -853,6 +957,8 @@
   originals:
   - Tetris
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/Hextris/Hextris
   type: clone
   updated: 2024-02-27
@@ -865,10 +971,11 @@
   - Minesweeper
   type: similar
   repo: 'https://os4depot.net/?function=showfile&file=game/puzzle/hexymines.lha'
-  url: >-
-    https://web.archive.org/web/20090321171154/http://www.petergordon.org.uk/readme.php?file=files/hexymines.txt
+  url: https://web.archive.org/web/20090321171154/http://www.petergordon.org.uk/readme.php?file=files/hexymines.txt
   development: halted
   status: semi-playable
+  platforms:
+  - Amiga
   content: free
   langs:
   - C
@@ -888,6 +995,8 @@
   feed: 'https://github.com/sezero/hheretic/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - LAN
   content: commercial
@@ -914,6 +1023,8 @@
   feed: 'https://github.com/sezero/hhexen/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C
@@ -936,6 +1047,9 @@
   repo: 'https://github.com/Mikompilation/Himuro'
   development: very active
   status: playable
+  platforms:
+  - Linux
+  - PlayStation 2
   content: commercial
   langs:
   - C
@@ -952,6 +1066,9 @@
   repo: 'https://github.com/LumpBloom7/hishigata'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - 'C#'
@@ -976,6 +1093,8 @@
   originals:
   - 'History Line: 1914-1918'
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/oliverdb/Historyline
   type: remake
   updated: 2022-08-29
@@ -997,6 +1116,8 @@
   url: https://www.hiveworkshop.com/threads/introducing-hivewe.303183/
   info: HiveWE is a Warcraft III World Editor (WE) that focuses on speed and ease of use.
   status: N/A
+  platforms:
+  - Windows
   images:
   - https://raw.githubusercontent.com/stijnherfst/HiveWE/refs/heads/main/Screenshots/HiveWE.png
   - https://raw.githubusercontent.com/stijnherfst/HiveWE/refs/heads/main/Screenshots/ObjectEditor.png
@@ -1015,6 +1136,8 @@
   repo: https://github.com/richcarl/hobbitgfx
   type: tool
   status: N/A
+  platforms:
+  - Web
   updated: 2022-01-15
   url: https://richardcarlsson.blogspot.co.uk/2014/11/the-hobbit-1982-game-graphics-engine-in.html
   info: This implements the graphics engine from the 1982 text adventure game The Hobbit
@@ -1030,6 +1153,8 @@
   originals:
   - Flappy Bird
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/Nebuleon/hocoslamfy
   type: remake
   updated: 2022-08-29
@@ -1046,6 +1171,12 @@
   originals:
   - Heart of Darkness
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - PSP
+  - Android
+  - Wii
   url: http://cyxdown.free.fr/hode/ 
   repo: https://github.com/usineur/hode
   type: remake
@@ -1061,6 +1192,8 @@
   url: 'https://frds.github.io/home-alone-2-nes-source-code/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -1076,10 +1209,11 @@
   - Homeworld
   type: official
   repo: 'https://github.com/videogamepreservation/homeworld'
-  url: >-
-    https://web.archive.org/web/20131012012745/http://www.insidemacgames.com/news/story.php?ArticleID=8516
+  url: https://web.archive.org/web/20131012012745/http://www.insidemacgames.com/news/story.php?ArticleID=8516
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -1101,6 +1235,11 @@
   - Story of Seasons series
   repo: https://github.com/Greentwip/HoneyTown
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Xbox One
   type: remake
   updated: 2024-02-23
 
@@ -1111,6 +1250,9 @@
   repo: https://github.com/Hopson97/Hopson-Arcade
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -1132,6 +1274,9 @@
   url: https://computeremuzone.com/ficha/710/horacio-esquiador&l=en
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C++
@@ -1155,6 +1300,8 @@
   url: 'https://hormuz.pythonic.ninja/'
   development: very active
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -1174,6 +1321,12 @@
   url: 'https://web.archive.org/web/20200721064208/http://www.warfareincorporated.com/xyzzy/viewtopic.php?t=9001'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - iOS
   content: open
   langs:
   - C++
@@ -1193,6 +1346,8 @@
   url: 'https://www.facebook.com/groups/Jaguarcoding/permalink/1358798877500457/'
   development: complete
   status: playable
+  platforms:
+  - Jaguar
   multiplayer:
   - Local
   - Co-op
@@ -1217,11 +1372,14 @@
   originals:
   - HoverRace
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Split-screen
   - Online
   - LAN
   - Competitive
+  url: https://www.hoverrace.com
   repo: https://github.com/HoverRace/HoverRace
   type: remake
   updated: 2024-02-29
@@ -1245,8 +1403,10 @@
   originals:
   - Hovertank 3D
   status: playable
+  platforms:
+  - DOS
   repo: https://github.com/FlatRockSoft/Hovertank3D
-  type: remake
+  type: official
   updated: 2022-02-11
   info: GPL release of Hovertank 3D source code.
   images:
@@ -1261,6 +1421,8 @@
   url: 'https://sites.google.com/site/hoverxdevblog/'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1293,6 +1455,8 @@
   feed: 'https://hackage.haskell.org/package/HPong.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - Haskell
   frameworks:
@@ -1313,6 +1477,8 @@
   feed: 'https://hackage.haskell.org/package/hs2048.rss'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Haskell
   licenses:
@@ -1330,6 +1496,8 @@
   url: 'https://toivjon.wordpress.com/2017/07/08/html5-breakout/'
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   licenses:
@@ -1348,6 +1516,8 @@
   url: 'https://toivjon.wordpress.com/2017/06/04/html5-pong/'
   development: complete
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Competitive
   - Local
@@ -1373,6 +1543,8 @@
   url: 'https://toivjon.wordpress.com/2017/09/17/html5-space-invaders/'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -1394,6 +1566,11 @@
   url: 'https://retrospec.sgn.net/info.htm?id=humphrey&t=g'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - PSP
   content: commercial
   langs:
   - C
@@ -1439,6 +1616,10 @@
   originals:
   - Turrican
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Amiga
   type: remake
   updated: 2024-02-02
   repo: https://github.com/HurricanGame/Hurrican
@@ -1458,6 +1639,10 @@
   url: 'https://ptitseb.github.io/hydracastlelabyrinth/'
   development: very active
   status: playable
+  platforms:
+  - Amiga
+  - Linux
+  - Web
   content: open
   langs:
   - C
@@ -1476,9 +1661,10 @@
   - Hypercycles
   type: official
   repo: https://github.com/malespiaut/hypercycles
-  url: 'https://forum.freegamedev.net/viewtopic.php?f=20&t=7296&p=71956'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - C
@@ -1497,6 +1683,9 @@
   feed: 'https://github.com/jevarg/hypercycles/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C
@@ -1514,6 +1703,8 @@
   repo: 'https://github.com/HyperiumClient/Hyperium'
   development: halted
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Online
   content: open
@@ -1532,6 +1723,8 @@
   repo: 'https://www.classicdosgames.com/game/Hyperoid.html'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: open
   langs:
   - C
@@ -1549,6 +1742,8 @@
   repo: 'https://github.com/zaceno/hyperoids'
   development: halted
   status: unplayable
+  platforms:
+  - Web
   langs:
   - JavaScript
   licenses:
@@ -1565,6 +1760,13 @@
   feed: https://zenorogue.blogspot.com/feeds/posts/default
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - Web
+  - iOS
   content: swappable
   langs:
   - C++
@@ -1589,6 +1791,11 @@
   url: 'https://hypersomnia.io'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
   multiplayer:
   - Competitive
   - Online
