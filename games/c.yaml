@@ -545,6 +545,29 @@
   video:
     youtube: _17aWFUGj5k
 
+- name: Castle Adventure
+  originals:
+  - Castle Adventure
+  type: remake
+  repo: 'https://github.com/elishacloud/Castle-Adventure'
+  url: >-
+    https://web.archive.org/web/20081223141028/http://members.lycos.co.uk/dlharmon/games/index.php?gid=11
+  feed: 'https://github.com/elishacloud/Castle-Adventure/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - Zlib
+  added: 2026-05-01
+  updated: 2026-05-01
+  images:
+  - https://raw.githubusercontent.com/elishacloud/wiki-attachments/master/Castle-Adventure/new-opening.png
+
 - name: Castle-Combat
   images:
   - https://www.linux-games.com/castle-combat/shot1.png
@@ -1513,6 +1536,24 @@
   - Windows
   updated: 2020-07-22
 
+- name: chuckie
+  originals:
+  - Chuckie Egg
+  type: remake
+  repo: 'https://github.com/Ritchie333/chuckie'
+  url: 'https://ritchie333.github.io/chuckie/'
+  development: complete
+  status: playable
+  platforms:
+  - ZX Spectrum
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  info: Disassembly of the classic 1983 ZX Spectrum game "Chuckie Egg"
+  added: 2026-05-25
+  updated: 2026-05-25
+
 - name: Chuckie-Egg
   originals:
   - Chuckie Egg
@@ -1579,6 +1620,22 @@
   - https://media.indiedb.com/cache/images/games/1/36/35232/thumb_620x2000/deltagrove_comparison.png
   - https://media.indiedb.com/cache/images/games/1/36/35232/thumb_620x2000/ezgif-6-aeefb8067282.gif
   - https://media.indiedb.com/cache/images/games/1/36/35232/thumb_620x2000/unknown-1.png
+
+- name: Citadel disassembly
+  originals:
+  - Citadel
+  type: remake
+  repo: 'https://www.level7.org.uk/miscellany/citadel-disassembly.txt'
+  development: complete
+  status: playable
+  platforms:
+  - BBC Micro
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-20
+  updated: 2026-05-20
 
 - name: City_Connection
   originals:
@@ -2291,6 +2348,25 @@
   - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony_13.png
   - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony_4.png
   - https://raw.githubusercontent.com/Croquetx/thecolony/main/Screenshots/the-colony_9.png
+
+- name: colorful_asteroids
+  originals:
+  - Asteroids
+  type: clone
+  repo: 'https://github.com/ianmurfinxyz/colorful_asteroids'
+  url: 'https://ianmurfinxyz.github.io/colorful_asteroids/'
+  development: complete
+  status: playable
+  platforms:
+  - Web
+  langs:
+  - JavaScript
+  licenses:
+  - As-is
+  added: 2026-05-17
+  updated: 2026-05-17
+  images:
+  - https://raw.githubusercontent.com/ianmurfinxyz/colorful_asteroids/master/img/gameplay_shot.png
 
 - name: Coloris
   type: clone

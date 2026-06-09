@@ -479,6 +479,19 @@
     - Action
     - Platform
 
+- name: Mario Golf
+  external:
+    website: 'https://www.nintendo.co.jp/n01/n64/software/nus_p_nmfj/'
+    wikipedia: Mario Golf (video game)
+  platforms:
+  - Game Boy
+  - N64
+  meta:
+    genres:
+    - Sports
+    subgenres:
+    - Golf
+
 - name: Mario Kart
   external:
     wikipedia: Mario Kart
@@ -1453,6 +1466,16 @@
   meta:
     genres:
     - RPG
+
+- name: Monsters
+  external:
+    website: 'https://www.mobygames.com/game/71968/monsters/'
+  platforms:
+  - BBC Micro
+  meta:
+    genres:
+    - Arcade
+    - Platform
 
 - name: 'Monsters, Inc.'
   external:

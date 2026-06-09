@@ -2622,6 +2622,25 @@
   - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo3.png'
   - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo4.png'
 
+- name: polanie-src
+  originals:
+  - Polanie
+  type: official
+  repo: 'https://github.com/jstasiak/polanie-src'
+  url: 'https://jprokulewicz.github.io/pliki.html'
+  development: complete
+  status: playable
+  platforms:
+  - DOS
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2026-05-01
+  updated: 2026-05-01
+
 - name: Polarity
   originals:
   - Breakout
@@ -2875,6 +2894,29 @@
   - 'https://pongu.sourceforge.net/images/pongu3.jpg'
   - 'https://pongu.sourceforge.net/images/pongu2.jpg'
 
+- name: PongGame
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://www.allegro.cc/depot/PongGame1'
+  url: 'http://members.allegro.cc/Danex/'
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  multiplayer:
+  - Local
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-05-09
+  updated: 2026-05-09
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3060_large.jpg'
+
 - name: Pongix
   originals:
   - Pong
@@ -2917,6 +2959,30 @@
   updated: 2025-12-28
   images:
   - https://projects.arduinocontent.cc/cover-images/ae06cbee-a142-4ffe-b817-3be66479c9b6.blob
+
+- name: Pooyan
+  originals:
+  - Pooyan
+  type: remake
+  repo: 'https://github.com/jotd666/pooyan'
+  url: 'https://jotd666.itch.io/pooyan'
+  development: active
+  status: playable
+  platforms:
+  - Amiga
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-24
+  updated: 2026-05-24
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMzE1MjQ0NS8xODgzMDI4Ni5wbmc=/original/fh49So.png'
+  - 'https://img.itch.zone/aW1hZ2UvMzE1MjQ0NS8xODgzMDI4OC5wbmc=/original/IHpZIo.png'
+  - 'https://img.itch.zone/aW1hZ2UvMzE1MjQ0NS8xODgzMDI4Ny5wbmc=/original/1Fm7F8.png'
+  video:
+    youtube: WRSEHmit7YM
 
 - name: Portable Executable Zork
   originals:
@@ -3327,6 +3393,28 @@
   updated: 2024-03-15
   images:
   - 'https://pbs.twimg.com/media/FI6xwpnX0Acf6Lt?format=jpg&name=4096x4096'
+
+- name: Princed Resources
+  originals:
+  - Prince of Persia
+  - Prince of Persia 2
+  type: tool
+  repo: 'https://github.com/NagyD/PR'
+  feed: 'https://github.com/NagyD/PR/releases.atom'
+  development: complete
+  status: N/A
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: >-
+    Princed Resources is a tool to export and import graphics and other data from
+    and to DAT files of Prince of Persia 1 and 2.
+  added: 2026-05-23
+  updated: 2026-05-23
 
 - name: Privacy Friendly 2048
   originals:

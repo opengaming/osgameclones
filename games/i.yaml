@@ -14,6 +14,10 @@
   originals:
   - Bomberman
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://sourceforge.net/projects/tomatoes/
   type: remake
   updated: 2022-08-26
@@ -28,6 +32,8 @@
   originals:
   - Missile Command
   status: playable
+  platforms:
+  - BeOS
   type: clone
   updated: 2022-02-12
   url: http://www.newbreedsoftware.com/icbm3d/
@@ -41,6 +47,9 @@
   originals:
   - JezzBall
   status: playable
+  platforms:
+  - Windows
+  - Linux
   licenses:
   - GPL2
   type: remake
@@ -60,6 +69,8 @@
   feed: 'https://sourceforge.net/p/iceicepenguin/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   content: open
@@ -79,6 +90,10 @@
 - name: Iceball
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C
   - Lua
@@ -101,6 +116,8 @@
   repo: 'https://github.com/trapexit/3do-icebreaker'
   development: complete
   status: playable
+  platforms:
+  - 3DO
   content: commercial
   langs:
   - C++
@@ -117,6 +134,8 @@
   repo: 'https://github.com/trapexit/3do-icebreaker2'
   development: complete
   status: playable
+  platforms:
+  - 3DO
   langs:
   - C++
   licenses:
@@ -128,12 +147,12 @@
   originals:
   - Shadow Warrior
   type: remake
-  repo: >-
-    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/jmarshall23/ShadowWarrior
-  url: >-
-    https://web.archive.org/web/20240516154052/https://crozzbreed23.wixsite.com/icedsw
+  repo: https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/jmarshall23/ShadowWarrior
+  url: https://web.archive.org/web/20240516154052/https://crozzbreed23.wixsite.com/icedsw
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -155,6 +174,8 @@
   feed: 'https://codeberg.org/Krixec/IED-FDroid.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Android
   content: open
   langs:
   - GDScript
@@ -180,6 +201,10 @@
   feed: 'https://github.com/cyxx/igor/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   content: commercial
   langs:
   - C++
@@ -203,6 +228,11 @@
   url: 'https://ikemen-engine.github.io/'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: open
   langs:
   - Go
@@ -218,6 +248,10 @@
   repo: 'https://github.com/CableDorado2/Ikemen-Plus-Ultra'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   content: open
   langs:
   - C++
@@ -248,6 +282,8 @@
   originals:
   - Imperialism
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/Trilarion/Imperialism-Remake
   type: remake
   updated: 2022-01-18
@@ -261,6 +297,9 @@
   url: 'https://redshadowsoftware.com/greed/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - DOS
   content: free
   frameworks:
   - Raven
@@ -282,6 +321,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200401/msg00036.html'
   development: halted
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -302,6 +343,9 @@
   - Thrust
   repo: https://github.com/dulsi/thrust
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   added: 2021-09-18
   updated: 2024-03-01
@@ -324,6 +368,9 @@
   - 'Cube 2: Sauerbraten'
   repo: https://github.com/inexorgame/vulkan-renderer
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2020-08-31
   url: https://inexor.org/
@@ -339,9 +386,13 @@
   originals:
   - Interstate '76
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2022-09-07
   url: http://web.archive.org/web/20071011202135/http://interstateoutlaws.com/
+  repo: https://web.archive.org/web/20071015045733/http://www.interstateoutlaws.com/forum/index.php?showtopic=120
 
 - name: Intruders for Linux
   originals:
@@ -351,6 +402,8 @@
     https://web.archive.org/web/20010822122928/http://lin.fsid.cvut.cz/~pvc/Intruders/
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -368,6 +421,8 @@
   url: 'https://www.hpcalc.org/details/522'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - RPL
   - Assembly
@@ -385,6 +440,8 @@
   repo: 'https://github.com/herrecito/invaders'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -414,6 +471,8 @@
   - Infinity Loop
   repo: https://github.com/omarchehab98/io-reboot
   status: playable
+  platforms:
+  - Android
   type: clone
   updated: 2020-08-31
 
@@ -430,6 +489,10 @@
   - Quake 3
   repo: https://github.com/ioquake/ioq3
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   url: https://ioquake3.org/
   updated: 2025-11-26
@@ -444,6 +507,10 @@
   feed: 'https://github.com/iortcw/iortcw/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Competitive
   - Online
@@ -479,6 +546,10 @@
   - Ultima Online
   repo: https://github.com/kblaschke/Iris2
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   url: https://libregamewiki.org/Iris2_3D_Client_-_for_Ultima_Online
   updated: 2021-03-10
@@ -492,6 +563,10 @@
   feed: 'https://github.com/Henrique194/iron-doom/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - Rust
@@ -516,6 +591,8 @@
   feed: 'https://github.com/Ragnaroek/iron-wolf/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - Rust
@@ -538,6 +615,8 @@
   originals:
   - Ironseed
   status: playable
+  platforms:
+  - DOS
   repo: https://github.com/karynax/ironseed
   type: remake
   updated: 2021-07-02
@@ -550,6 +629,8 @@
   repo: https://github.com/mnalis/ironseed_fpc
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - Pascal
@@ -568,12 +649,12 @@
   originals:
   - Ironseed
   type: remake
-  repo: >-
-    https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://bitbucket.org/blueachenar/ironseedsharp
-  url: >-
-    https://web.archive.org/web/20180825065529/https://pedrocaleiro.com/ironseedsharp/
+  repo: https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://bitbucket.org/blueachenar/ironseedsharp
+  url: https://web.archive.org/web/20180825065529/https://pedrocaleiro.com/ironseedsharp/
   development: complete
   status: unplayable
+  platforms:
+  - Windows
   langs:
   - 'C#'
   frameworks:
@@ -602,6 +683,9 @@
   originals:
   - Super Monkey Ball
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://gitlab.com/irrlamb/code
   url: https://irrlamb.gitlab.io
   type: remake
@@ -617,6 +701,8 @@
   content: open
   langs:
   - Python
+  platforms:
+  - Windows
   frameworks:
   - pygame
   licenses:
@@ -637,6 +723,8 @@
   repo: 'https://github.com/idgmatrix/IZMIR'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - Assembly

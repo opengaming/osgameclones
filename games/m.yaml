@@ -519,6 +519,24 @@
   added: 2026-03-01
   updated: 2026-03-01
 
+- name: Mario Golf 64
+  originals:
+  - Mario Golf
+  type: remake
+  repo: 'https://github.com/monde-lointain/mariogolf64'
+  development: sporadic
+  status: playable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - MIT
+  info: Decompilation of Mario Golf for the Nintendo 64.
+  added: 2026-04-30
+  updated: 2026-04-30
+
 - name: Mario Kart 64
   originals:
   - Mario Kart 64
@@ -1012,6 +1030,24 @@
   images:
   - https://cdn-ak.f.st-hatena.com/images/fotolife/H/Hiesuke/20240419/20240419153401.png
   - https://cdn-ak.f.st-hatena.com/images/fotolife/H/Hiesuke/20240522/20240522232117.gif
+
+- name: mb-decomp
+  originals:
+  - Super Monkey Ball
+  type: remake
+  repo: 'https://github.com/Yoshimaster96/mb-decomp'
+  development: halted
+  status: unplayable
+  platforms:
+  - Arcade
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-22
+  updated: 2026-04-22
 
 - name: MBF-SNM
   originals:
@@ -2771,6 +2807,25 @@
   images:
   - https://user-images.githubusercontent.com/7089228/80656536-45ac2c80-8a36-11ea-8521-ab40fc922ce1.gif
 
+- name: minesweeper-sms
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://github.com/yuv422/minesweeper-sms'
+  development: complete
+  status: playable
+  platforms:
+  - Master System
+  content: open
+  langs:
+  - Assembly
+  licenses:
+  - MIT
+  added: 2026-05-11
+  updated: 2026-05-11
+  images:
+  - https://raw.githubusercontent.com/yuv422/minesweeper-sms/master/images/Minesweeper-SMS.png
+
 - name: minesweeper-tauri
   originals:
   - Minesweeper
@@ -3428,6 +3483,22 @@
   updated: 2019-11-20
   url: https://pygame.org/project-Monsters+and+Mushrooms-989-.html
 
+- name: Monsters disassembly
+  originals:
+  - Monsters
+  type: remake
+  repo: 'https://www.level7.org.uk/miscellany/monsters-disassembly.txt'
+  development: complete
+  status: playable
+  platforms:
+  - BBC Micro
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-24
+  updated: 2026-05-24
+
 - name: 'Monsters, Inc. PS2 source code and assets'
   originals:
   - 'Monsters, Inc.'
@@ -3671,6 +3742,27 @@
   added: 2015-06-01
   updated: 2022-09-27
 
+- name: mpromtool
+  originals:
+  - Mario Party
+  - Mario Party 2
+  - Mario Party 3
+  type: tool
+  repo: 'https://github.com/gamemasterplc/mpromtool'
+  feed: 'https://github.com/gamemasterplc/mpromtool/releases.atom'
+  development: complete
+  status: N/A
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  info: Mario Party 1-3 ROM Extractor/Rebuilder Tool
+  added: 2026-05-25
+  updated: 2026-05-25
+
 - name: Mr. Do! GameBoy Source Code
   originals:
   - Mr. Do!
@@ -3797,6 +3889,23 @@
   - Competitive
   video:
     youtube: _0rw36mA9mM
+
+- name: Ms. Pac-Man Disassembly
+  originals:
+  - Ms. Pac-Man
+  type: remake
+  url: 'https://www.romhacking.net/documents/741/'
+  development: complete
+  status: playable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-21
+  updated: 2026-05-21
 
 - name: Ms. Pac-Man NES Namco Disassembly
   originals:

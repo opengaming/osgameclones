@@ -1018,6 +1018,34 @@
   updated: 2023-01-27
   url: http://wl.lariennalibrary.com
 
+- name: 'Wizball'
+  originals:
+  - 'Wizball'
+  type: remake
+  repo: 'https://github.com/craigchandler/wizball-remake'
+  url: 'https://craigchandler.xyz/wizball-remake/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Co-op
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - MIT
+  info: >-
+    A preserved source release of the 2007 Wizball PC/Mac remake by Graham Goring
+    and collaborators, now updated to build and run on modern Linux and to package
+    cleanly for PortMaster handhelds.
+  added: '2026-05-06'
+  updated: '2026-05-06'
+  images:
+  - 'https://craigchandler.xyz/wizball-remake/images/screenshot1.png'
+
 - name: Wizznic!
   frameworks:
   - SDL
