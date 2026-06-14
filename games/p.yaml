@@ -308,6 +308,31 @@
   type: remake
   updated: 2015-05-19
 
+- name: Pacman3D
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://web.archive.org/web/20171220022732/http://fifsoft.com/games/pacman.php'
+  url: 'https://www.fifsoft.com/games/pacman.php'
+  development: complete
+  status: playable
+  platforms:
+  - OSX
+  - Linux
+  - Windows
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - MIT
+  added: 2026-05-20
+  updated: 2026-05-20
+  images:
+  - 'https://www.fifsoft.com/images/gamepics/pac02.jpg'
+  - 'https://www.fifsoft.com/images/gamepics/pac03.jpg'
+
 - name: Pacman 吃豆游戏
   originals:
   - Pac-Man
