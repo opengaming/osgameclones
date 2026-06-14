@@ -10,6 +10,9 @@
   feed: 'https://repo.or.cz/k8vavoom.git/atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -36,6 +39,8 @@
   url: 'https://www.romhacking.net/documents/512/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -48,10 +53,11 @@
   - Kaiser II
   type: official
   repo: 'https://kaiser2.strotmann.de/#org6e5c563'
-  url: >-
-    https://web.archive.org/web/20171027231602/http://www.abbuc.de/news-feeds-component/608-608
+  url: https://web.archive.org/web/20171027231602/http://www.abbuc.de/news-feeds-component/608-608
   development: complete
   status: playable
+  platforms:
+  - Atari
   multiplayer:
   - Hotseat
   content: open
@@ -76,6 +82,8 @@
   repo: 'https://github.com/Thomas-Heisig/Kaiser_von_Deutschland'
   development: active
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Online
   - LAN
@@ -98,6 +106,10 @@
   url: 'https://web.archive.org/web/20190713015809/http://kombat.kajaani.net/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Local
   - Online
@@ -134,9 +146,13 @@
   - OpenGL
   licenses:
   - AGPL3
-  content: open
+  content: commercial
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   originals:
   - Knights and Merchants
   repo: https://github.com/reyandme/kam_remake
@@ -155,6 +171,8 @@
   url: 'http://kamikaze.coolprojects.org/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   content: open
@@ -176,9 +194,12 @@
   originals:
   - Galaxian
   type: clone
+  url: https://kitao.github.io/pyxel/web/launcher/?run=Hiekichi.Kanixian.Kanixian240
   repo: 'https://github.com/Hiekichi/Kanixian'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Python
@@ -201,6 +222,8 @@
   feed: 'https://apps.kde.org/kapman/index.xml'
   development: active
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -213,19 +236,20 @@
   images:
   - 'https://cdn.kde.org/screenshots/kapman/kapman.png'
 
-- name: Kartering
+- name: The Kartering
   frameworks:
   - SDL2
   langs:
   - C
   licenses:
-  - GPL2
   - MIT
-  - ISC
   development: halted
   originals:
   - Mario Kart
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/sandsmark/kart
   type: similar
   updated: 2022-09-20
@@ -243,6 +267,8 @@
   feed: 'https://codeberg.org/fhs/katawa-shoujo-re-engineered/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Python
@@ -266,6 +292,8 @@
   - Descent
   - Descent II
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/jvranish/Kathodos
   type: remake
   updated: 2022-09-20
@@ -283,6 +311,8 @@
   originals:
   - Atomix
   status: playable
+  platforms:
+  - Linux
   repo: https://invent.kde.org/games/katomic
   type: remake
   updated: 2022-09-20
@@ -297,6 +327,8 @@
   feed: 'https://apps.kde.org/kbreakout/index.xml'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -312,6 +344,7 @@
 - name: Keen Dreams
   langs:
   - C
+  - Assembly
   licenses:
   - GPL2
   content: commercial
@@ -319,6 +352,8 @@
   originals:
   - Commander Keen Series
   status: playable
+  platforms:
+  - None
   repo: https://github.com/keendreams/keen
   type: official
   updated: 2022-09-20
@@ -337,6 +372,8 @@
   originals:
   - Dungeon Keeper
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Local
   - Online
@@ -362,6 +399,8 @@
   feed: 'https://pypi.org/rss/project/kektris/releases.xml'
   development: halted
   status: playable
+  platforms:
+  - Web
   langs:
   - Python
   frameworks:
@@ -381,6 +420,8 @@
   repo: 'https://advsys.net/ken/klab.htm?#labflsrc'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -404,6 +445,8 @@
   feed: 'https://github.com/sacredbanana/lab3d-sdl/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Nintendo Switch
   content: free
   langs:
   - C
@@ -426,6 +469,8 @@
   feed: 'https://github.com/EXL/KenLab3d/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Android
   content: free
   langs:
   - C
@@ -454,6 +499,8 @@
   repo: 'https://www.classicdosgames.com/game/Kentris.html'
   development: complete
   status: playable
+  platforms:
+  - DOS
   multiplayer:
   - Competitive
   - Split-screen
@@ -475,6 +522,11 @@
 - name: KevEdit
   type: tool
   status: N/A
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - DOS
   originals:
   - ZZT
   repo: https://github.com/cknave/kevedit
@@ -505,6 +557,8 @@
   repo: 'https://github.com/philspil66/Kevin-Toms-Football-Manager'
   development: complete
   status: playable
+  platforms:
+  - TRS-80
   langs:
   - BASIC
   licenses:
@@ -523,6 +577,8 @@
   url: 'https://web.archive.org/web/20100303052405/http://kfouleggs.sourceforge.net/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -550,6 +606,8 @@
   - Lode Runner
   repo: https://invent.kde.org/games/kgoldrunner
   status: playable
+  platforms:
+  - Linux
   type: remake
   updated: 2021-11-20
   url: https://apps.kde.org/kgoldrunner/
@@ -563,6 +621,8 @@
   originals:
   - Kid Chameleon
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/mp1011/KidChameleonRemake
   type: remake
   updated: 2022-09-20
@@ -577,6 +637,9 @@
   feed: 'https://sourceforge.net/projects/kiki/rss?path=/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - OSX
   langs:
   - C++
   - Python
@@ -606,6 +669,8 @@
   url: 'https://www.classicdosgames.com/game/Kiloblaster.html'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - C
@@ -625,6 +690,8 @@
   url: https://repo.openpandora.org/?page=detail&app=kiloblaster_ptitseb
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C++
@@ -648,6 +715,8 @@
   feed: 'https://savannah.nongnu.org/news/atom.php?group=koth'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   multiplayer:
   - Competitive
   - LAN
@@ -672,6 +741,8 @@
   repo: 'https://github.com/rossturner/king-under-the-mountain'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - Java
@@ -701,6 +772,9 @@
   url: 'https://download.kingpin.info/index.php?dir=kingpin/server/official/sdk/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   content: commercial
@@ -719,6 +793,8 @@
   repo: 'https://github.com/doldecomp/kar'
   development: halted
   status: unplayable
+  platforms:
+  - GameCube
   multiplayer:
   - Local
   - LAN
@@ -736,11 +812,12 @@
   - Kirby's Dream Land 3
   type: remake
   repo: 'https://github.com/Yoshifanatic1/Kirbys-Dream-Land-3-Disassembly'
-  url: >-
-    https://www.smwcentral.net/?p=viewthread&t=118507&page=1#:~:text=Kirby's%20Dream%20Land%203%20Disassembly
+  url: https://www.smwcentral.net/?p=viewthread&t=118507&page=1#:~:text=Kirby's%20Dream%20Land%203%20Disassembly
   feed: 'https://github.com/Yoshifanatic1/Kirbys-Dream-Land-3-Disassembly/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - SNES
   multiplayer:
   - Local
   content: commercial
@@ -762,6 +839,8 @@
   originals:
   - Maxit
   status: playable
+  platforms:
+  - None
   repo: https://github.com/ahmetkasif/kmaxit
   type: remake
   updated: 2022-09-20
@@ -774,9 +853,11 @@
   - Clickomania!
   type: clone
   repo: 'https://github.com/serghei/kde3-kdegames/tree/master/klickety'
-  url: 'https://www.pling.com/p/1109433'
+  url: https://www.opendesktop.org/p/1109433
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -797,6 +878,8 @@
   feed: 'https://sourceforge.net/projects/klines2/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -818,6 +901,8 @@
   feed: 'https://apps.kde.org/kmines/index.xml'
   development: active
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -837,6 +922,8 @@
   repo: 'https://www.level7.org.uk/miscellany/knightlore-disassembly.txt'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: commercial
   langs:
   - Assembly
@@ -856,6 +943,9 @@
   originals:
   - Wizard of Wor
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/Sanguinik/KnightOfWor
   url: https://www.sanguinik.de/2012/11/11/knight-of-wor-ein-wizard-of-wor-remake/
   type: remake
@@ -882,6 +972,9 @@
   originals:
   - Knights
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   type: remake
@@ -896,6 +989,8 @@
   url: 'https://forums.sonicretro.org/threads/my-incomplete-chaotix-disassembly.43054/'
   development: sporadic
   status: semi-playable
+  platforms:
+  - 32X
   multiplayer:
   - Local
   content: commercial
@@ -914,6 +1009,8 @@
   url: 'http://rodrigoroman.com/rrc2soft/nds_dsknytt.html'
   development: halted
   status: playable
+  platforms:
+  - DS
   content: free
   langs:
   - C
@@ -934,6 +1031,8 @@
   feed: 'https://github.com/KobaltBlu/KotOR.js/releases.atom'
   development: active
   status: semi-playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - TypeScript
@@ -967,6 +1066,8 @@
   repo: https://sourceforge.net/projects/kraptor
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -991,6 +1092,8 @@
   url: 'http://www.sigala.it/sandro/software.php#krepton'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1010,6 +1113,8 @@
   repo: https://github.com/tangentforks/kroz
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - Pascal
@@ -1027,6 +1132,10 @@
   originals:
   - Magical Drop
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - BeOS
   multiplayer:
   - Competitive
   - Local
@@ -1034,6 +1143,13 @@
   type: remake
   updated: 2022-07-11
   url: http://krystaldrop.sourceforge.net/
+  images:
+  - https://krystaldrop.sourceforge.net/images/sshot1.png
+  - https://krystaldrop.sourceforge.net/images/sshot2.png
+  - https://krystaldrop.sourceforge.net/images/sshot3.png
+  - https://krystaldrop.sourceforge.net/images/sshot4.png
+  - https://krystaldrop.sourceforge.net/images/sshot5.png
+  - https://krystaldrop.sourceforge.net/images/sshot6.png
 
 - name: KSnakeDuel
   originals:
@@ -1043,6 +1159,8 @@
   url: 'https://apps.kde.org/ksnakeduel/'
   development: active
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1060,6 +1178,8 @@
   repo: 'https://github.com/sonicretro/ktes2/'
   development: halted
   status: semi-playable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -1077,10 +1197,11 @@
   - Zolyx
   type: remake
   repo: 'https://generic.aminet.net/package/game/misc/Kumquat_src'
-  url: >-
-    https://web.archive.org/web/20231004232544/https://dscho.com/fruit/#:~:text=Kumquat
+  url: https://web.archive.org/web/20231004232544/https://dscho.com/fruit/#:~:text=Kumquat
   development: complete
   status: playable
+  platforms:
+  - Amiga
   langs:
   - AMOS BASIC
   licenses:
@@ -1100,6 +1221,8 @@
   url: 'https://cobbpg.itch.io/kye-c64'
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   content: open
   langs:
   - Assembly
@@ -1124,11 +1247,13 @@
   feed: 'https://github.com/scarsty/kys-cpp/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
   frameworks:
-  - Cocos2d
   - SDL3
   licenses:
   - BSD
@@ -1151,6 +1276,8 @@
   url: 'https://tiexuedanxin.net/thread-1039375-1-1.html'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - JavaScript
@@ -1172,6 +1299,10 @@
   url: 'https://tiexuedanxin.net/thread-401655-1-1.html'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - Pascal
@@ -1194,6 +1325,9 @@
   repo: 'https://github.com/scarsty/kys-promise'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Android
   content: commercial
   langs:
   - Pascal
@@ -1215,6 +1349,8 @@
   url: 'http://www.sigala.it/sandro/software.php#kzacman'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1236,6 +1372,8 @@
   originals:
   - Zoop
   status: playable
+  platforms:
+  - Linux
   repo: https://sourceforge.net/projects/kzap/
   type: remake
   updated: 2022-09-18
