@@ -473,10 +473,18 @@
 
 - name: Phantasy Star
   external:
+    website: https://vc.sega.jp/vc_ms_ps1/
     wikipedia: Phantasy Star (video game)
+  platforms:
+  - Genesis
+  - Master System
+  - Nintendo Switch
+  - Wii
   meta:
     genres:
     - RPG
+    themes:
+    - Sci-Fi
 
 - name: Phantomas
   external:
