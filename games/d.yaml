@@ -1926,6 +1926,24 @@
   added: 2026-03-31
   updated: 2026-03-31
 
+- name: dksnes
+  originals:
+  - Donkey Kong
+  type: remake
+  repo: 'https://github.com/furrykef/dksnes'
+  development: halted
+  status: unplayable
+  platforms:
+  - SNES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Donkey Kong NES to SNES conversion
+  added: 2026-05-02
+  updated: 2026-05-02
+
 - name: DM48
   originals:
   - Dungeon Master
@@ -4280,6 +4298,32 @@
   repo: https://github.com/gtanczyk/Dupocracy
   type: clone
   updated: 2021-02-23
+
+- name: Dusklight
+  images:
+  - https://twilitrealm.dev/_astro/shot-platform.Cp2I0l-W_NTXOU.webp
+  licenses:
+  - CC0
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL3
+  development: very active
+  status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - iOS
+  - Android
+  originals:
+  - 'The Legend of Zelda: Twilight Princess'
+  repo: https://github.com/TwilitRealm/dusklight
+  url: https://twilitrealm.dev/
+  type: remake
+  added: 2025-05-22
+  updated: 2025-05-22
 
 - name: Dust Racing 2D
   images:

@@ -765,6 +765,26 @@
   images:
   - https://gamejs.org/files/utopia_bcb8d499cc07.png
 
+- name: NewAnoid
+  originals:
+  - Breakout
+  type: clone
+  url: 'https://www.allegro.cc/depot/NewAnoid'
+  development: halted
+  status: semi-playable
+  platforms:
+  - Windows
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-05-20
+  updated: 2026-05-20
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1528_large.png'
+
 - name: newtron
   langs:
   - JavaScript
@@ -1393,6 +1413,32 @@
   images:
   - https://tetris.wiki/images/5/55/Nullpomino_title.png
   - https://tetris.wiki/images/4/4a/Nullpomino_ingame.png
+
+- name: Numpty Physics
+  originals:
+  - Crayon Physics Deluxe
+  type: clone
+  repo: 'https://gitlab.com/thp/numptyphysics'
+  url: >-
+    https://web.archive.org/web/20170920033336/http://numptyphysics.garage.maemo.org/
+  feed: 'https://gitlab.com/thp/numptyphysics.atom'
+  development: halted
+  status: playable
+  platforms:
+  - Linux
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Box2D
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2026-05-02
+  updated: 2026-05-02
+  images:
+  - https://web.archive.org/web/20170713161030if_/http://numptyphysics.garage.maemo.org/images/np_title.jpg
+  - https://web.archive.org/web/20170713153221if_/http://numptyphysics.garage.maemo.org/images/np_l2.jpg
 
 - name: Nuncabola
   type: clone

@@ -163,6 +163,18 @@
   - Wii
   - Windows
 
+- name: Palace of Magic
+  external:
+    website: 'https://www.mobygames.com/game/163826/palace-of-magic/'
+    wikipedia: Palace of Magic
+  platforms:
+  - BBC Micro
+  meta:
+    genres:
+    - Platform
+    themes:
+    - Fantasy
+
 - name: Pandora's Box
   external:
     website: 'https://www.mobygames.com/game/1550/microsoft-pandoras-box/'
@@ -180,9 +192,50 @@
     genres:
     - Turn-Based Strategy
 
+- name: Paper Mario
+  names:
+  - マリオストーリー
+  external:
+    website: 'https://www.nintendo.co.jp/n01/n64/software/nus_p_nmqj/'
+    wikipedia: Paper Mario (video game)
+  platforms:
+  - N64
+  meta:
+    genres:
+    - RPG
+
+- name: 'Paper Mario: Sticker Star'
+  names:
+  - ペーパーマリオスーパーシール
+  external:
+    website: 'https://www.nintendo.co.jp/3ds/ag5j/index.html'
+    wikipedia: 'Paper Mario: Sticker Star'
+  platforms:
+  - 3DS
+  meta:
+    genres:
+    - RPG
+
+- name: 'Paper Mario: The Thousand-Year Door'
+  names:
+  - ペーパーマリオRPG
+  external:
+    website: 'https://web.archive.org/web/20070930191148/http://www.papermario.com/launch/'
+    wikipedia: 'Paper Mario: The Thousand-Year Door'
+  platforms:
+  - GameCube
+  meta:
+    genres:
+    - RPG
+
 - name: Paradroid
   external:
+    website: https://www.mobygames.com/game/9272/paradroid/
     wikipedia: Paradroid
+  platforms:
+  - Commodore 64
+  - iOS
+  - Wii
   meta:
     genres:
     - Shmup
@@ -660,6 +713,13 @@
 - name: Planetary Defense
   external:
     website: 'https://www.atarimania.com/pgesoft.awp?version=3993'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Shooter
+    themes:
+    - Sci-Fi
 
 - name: Plants vs. Zombies
   external:

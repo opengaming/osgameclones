@@ -609,6 +609,26 @@
   - https://mordrax.github.io/cotwmtor/images/corridor-example.png
   - https://mordrax.github.io/cotwmtor/images/rip_improved.png
 
+- name: Castlekeep
+  originals:
+  - Stronghold
+  type: remake
+  repo: 'https://github.com/leidav/Castlekeep'
+  development: halted
+  status: unplayable
+  platforms:
+  - None
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2026-05-04
+  updated: 2026-05-04
+
 - name: Castlequest
   originals:
   - Castlequest
@@ -624,6 +644,25 @@
   - As-is
   added: 2026-02-05
   updated: 2026-02-05
+
+- name: The Castles of Doctor Creep
+  originals:
+  - The Castles of Dr. Creep
+  type: remake
+  repo: 'https://github.com/Drunella/codc-easyflash'
+  url: 'https://csdb.dk/release/?id=231625'
+  development: complete
+  status: playable
+  platforms:
+  - Commodore 64
+  langs:
+  - Assembly
+  licenses:
+  - Apache
+  added: 2026-05-27
+  updated: 2026-05-27
+  images:
+  - 'https://csdb.dk/gfx/releases/231000/231625.gif'
 
 - name: The Castles of Dr. Creep
   images:
@@ -675,6 +714,24 @@
   updated: 2026-05-09
   images:
   - 'https://csdb.dk/gfx/releases/145000/145120.gif'
+
+- name: 'Castlevania: Symphony of the Night Decompilation'
+  originals:
+  - 'Castlevania: Symphony of the Night'
+  type: remake
+  repo: 'https://github.com/Xeeynamo/sotn-decomp'
+  url: 'https://decomp.dev/Xeeynamo/sotn-decomp'
+  development: very active
+  status: unplayable
+  platforms:
+  - PlayStation
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - AGPL3
+  added: 2026-05-25
+  updated: 2026-05-25
 
 - name: 'Cataclysm: Dark Days Ahead'
   frameworks:
@@ -1112,6 +1169,27 @@
   - https://s3.amazonaws.com/DRLMainStatic/images/ccgifs/rocketboom.gif
   video:
     youtube: o6NGBGwtwpk
+
+- name: Celeste
+  originals:
+  - Celeste Classic
+  type: clone
+  repo: 'https://www.lexaloffle.com/bbs/?tid=2145'
+  url: 'https://maddymakesgamesinc.itch.io/celesteclassic'
+  development: halted
+  status: playable
+  platforms:
+  - Web
+  langs:
+  - Lua
+  frameworks:
+  - PICO-8
+  licenses:
+  - As-is
+  added: 2026-05-20
+  updated: 2026-05-20
+  images:
+  - 'https://www.lexaloffle.com/bbs/files/10162/2%2059.PNG'
 
 - name: Celeste Classic 2
   originals:
@@ -2849,6 +2927,24 @@
   updated: 2025-12-22
   images:
   - 'https://elite.bbcelite.com/images/general/Elite-Commodore64.png'
+
+- name: Conker's Bad Fur Day Decompilation
+  originals:
+  - Conker's Bad Fur Day
+  type: remake
+  repo: 'https://github.com/mkst/conker'
+  url: 'https://conker.deco.mp/'
+  development: halted
+  status: unplayable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-05-25
+  updated: 2026-05-25
 
 - name: 'Conquest: Frontier Wars'
   originals:

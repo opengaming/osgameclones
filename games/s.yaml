@@ -1834,6 +1834,24 @@
   video:
     youtube: isAC2LlwJEM
 
+- name: SF1DISASM
+  originals:
+  - Shining Force
+  type: remake
+  repo: https://github.com/ShiningForceCentral/SF1DISASM
+  url: https://forums.shiningforcecentral.com/viewtopic.php?t=26465
+  development: sporadic
+  status: playable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-06
+  updated: 2026-05-06
+
 - name: SF1RE
   originals:
   - Shining Force
@@ -1850,6 +1868,24 @@
   - As-is
   added: 2026-04-19
   updated: 2026-04-19
+
+- name: SF2DISASM
+  originals:
+  - Shining Force II
+  type: remake
+  repo: 'https://github.com/ShiningForceCentral/SF2DISASM'
+  url: 'https://forums.shiningforcecentral.com/viewtopic.php?t=25796'
+  development: active
+  status: playable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-06
+  updated: 2026-05-06
 
 - name: sfall
   development: active
@@ -1874,6 +1910,23 @@
   images:
   - https://u.cubeupload.com/NovaRain/sfalldemo1.png
   - https://u.cubeupload.com/NovaRain/sfalldemo2.png
+
+- name: SFCDDISASM
+  originals:
+  - Shining Force CD
+  type: remake
+  repo: 'https://github.com/ShiningForceCentral/SFCDDISASM'
+  development: halted
+  status: unplayable
+  platforms:
+  - Sega CD
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-06
+  updated: 2026-05-06
 
 - name: sh3redux
   originals:
@@ -2411,6 +2464,30 @@
   - https://enhanced.townofsilenthill.com/SH2/images/aboutBeauty/beauty_05.png
   - https://enhanced.townofsilenthill.com/SH2/images/aboutBeauty/beauty_06.png
 
+- name: SimCity (SNES) Disassembly
+  originals:
+  - SimCity
+  type: remake
+  repo: 'https://github.com/Yoshifanatic1/SimCity-SNES-Disassembly'
+  url: >-
+    https://www.smwcentral.net/?p=viewthread&t=118507&page=2#:~:text=SimCity%20(SNES)%20Disassembly
+  feed: 'https://github.com/Yoshifanatic1/SimCity-SNES-Disassembly/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - SNES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - GPL3
+  added: 2026-05-05
+  updated: 2026-05-05
+  images:
+  - 'https://i.imgur.com/Kw6HT18.png'
+  - 'https://i.imgur.com/6EON7IB.png'
+  - 'https://i.imgur.com/GNfkIDJ.png'
+
 - name: Simitone
   type: remake
   originals:
@@ -2611,6 +2688,23 @@
   info: Sissyfight 2000 Returns is a revival of the 1999 multiplayer game SiSSYFiGHT 2000.
   added: 2026-01-20
   updated: 2026-01-20
+
+- name: SITDDISASM
+  originals:
+  - Shining in the Darkness
+  type: remake
+  repo: 'https://github.com/ShiningForceCentral/SITDDISASM'
+  development: halted
+  status: unplayable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-06
+  updated: 2026-05-06
 
 - name: SkiFree
   originals:
@@ -3939,6 +4033,23 @@
   added: 2026-03-01
   updated: 2026-03-01
 
+- name: Soul Reaverse
+  originals:
+  - 'Legacy of Kain: Soul Reaver'
+  type: remake
+  repo: 'https://github.com/Mc-muffin/kain2-splatdisasm'
+  development: halted
+  status: unplayable
+  platforms:
+  - PlayStation
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  added: 2026-05-01
+  updated: 2026-05-01
+
 - name: Soul Ride snowboarding simulation
   originals:
   - Soul Ride
@@ -4101,6 +4212,28 @@
   content: commercial
   added: 2026-02-03
   updated: 2026-02-03
+
+- name: Space Glider
+  originals:
+  - Starglider 2
+  type: similar
+  url: 'https://www.allegro.cc/depot/SpaceGlider'
+  development: halted
+  status: semi-playable
+  platforms:
+  - DOS
+  - Linux
+  - Windows
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - Custom
+  added: 2026-06-09
+  updated: 2026-06-09
+  images:
+  - https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1185_large.jpg
 
 - name: Space Harrier Clone
   type: remake
@@ -4465,6 +4598,24 @@
   - https://spacestation14.com/images/home/gallery-nukies.webp
   - https://spacestation14.com/images/home/gallery-medbay.webp
   - https://spacestation14.com/images/home/gallery-clown.webp
+
+- name: Space Station Silicon Valley N64
+  originals:
+  - Space Station Silicon Valley
+  type: remake
+  repo: 'https://github.com/mkst/sssv'
+  url: 'https://sssv.deco.mp/'
+  development: active
+  status: semi-playable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-01
+  updated: 2026-06-01
 
 - name: Spacebase DF-9 v2
   originals:
@@ -4938,6 +5089,28 @@
   added: 2026-03-12
   updated: 2026-03-12
 
+- name: Spider-Man & the X-Men in Arcade's Revenge (SNES) Disassembly
+  originals:
+  - Spider-Man and the X-Men in Arcade's Revenge
+  type: remake
+  repo: https://github.com/Yoshifanatic1/Spider-Man-X-Men-Arcades-Revenge-SNES-Disassembly
+  url: https://www.smwcentral.net/?p=viewthread&t=118507&page=2&pid=1584510#:~:text=Spider-Man%20%26%20the%20X-Men%20in%20Arcade's%20Revenge%20(SNES)%20Disassembly
+  feed: https://github.com/Yoshifanatic1/Spider-Man-X-Men-Arcades-Revenge-SNES-Disassembly/releases.atom
+  development: complete
+  status: playable
+  platforms:
+  - SNES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-04
+  updated: 2026-06-04
+  images:
+  - 'https://i.imgur.com/AgEeEnx.gif'
+  - 'https://i.imgur.com/1io2OrP.gif'
+
 - name: spidey-decomp
   originals:
   - Spider-Man
@@ -5009,6 +5182,22 @@
   repo: https://github.com/radu124/splexhd
   type: remake
   updated: 2015-05-28
+
+- name: splot
+  originals:
+  - Ataxx
+  type: clone
+  repo: 'https://github.com/furrykef/splot'
+  development: halted
+  status: unplayable
+  platforms:
+  - Windows
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2026-05-05
+  updated: 2026-05-05
 
 - name: Spludlow Tetris
   type: clone
@@ -6802,6 +6991,33 @@
   updated: 2022-01-07
   images:
   - 'https://github.com/MitchellSternke/SuperMarioBros-C/raw/master/demo.gif'
+
+- name: Supermax
+  originals:
+  - Rambo
+  type: clone
+  repo: 'https://www.allegro.cc/depot/Supermax'
+  url: >-
+    https://web.archive.org/web/20190726180618/http://www.angelfire.com/games5/scottestinson1/Supermax_Game/
+  development: halted
+  status: semi-playable
+  platforms:
+  - DOS
+  - Windows
+  - Linux
+  - OSX
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  info: A sequel to Max of Ice
+  added: 2026-05-05
+  updated: 2026-05-05
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1807_small.jpg'
 
 - name: Supernova
   originals:

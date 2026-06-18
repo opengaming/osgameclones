@@ -363,6 +363,61 @@
   updated: 2021-07-25
   url: https://sourceforge.net/projects/manicdigger/
 
+- name: Manic Miner 2021
+  originals:
+  - Manic Miner
+  type: remake
+  repo: 'https://github.com/TobyLobster/ManicMiner2021'
+  url: 'https://stardot.org.uk/forums/viewtopic.php?f=74&t=22323'
+  development: halted
+  status: playable
+  platforms:
+  - BBC Micro
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  content: free
+  added: 2026-05-24
+  updated: 2026-05-24
+
+- name: Manic Miner (BBC)
+  originals:
+  - Manic Miner
+  type: remake
+  repo: 'https://github.com/TobyLobster/ManicMiner'
+  development: halted
+  status: playable
+  platforms:
+  - BBC Micro
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  content: free
+  info: Disassembly of the original BBC Micro version of Manic Miner
+  added: 2026-05-24
+  updated: 2026-05-24
+
+- name: Manic Miner disassembly
+  originals:
+  - Manic Miner
+  type: remake
+  repo: 'https://github.com/skoolkid/manicminer'
+  url: 'https://skoolkid.github.io/manicminer/'
+  feed: 'https://github.com/skoolkid/manicminer/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - ZX Spectrum
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  content: free
+  added: 2026-05-24
+  updated: 2026-05-24
+
 - name: Manic Miner GBA
   originals:
   - Manic Miner
@@ -678,6 +733,24 @@
   added: 2026-04-21
   updated: 2026-04-21
 
+- name: Mario vs. Donkey Kong
+  originals:
+  - Mario vs. Donkey Kong
+  type: remake
+  repo: 'https://github.com/camthesaxman/mariovsdk'
+  development: halted
+  status: playable
+  platforms:
+  - GBA
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Disassembly of Mario vs. Donkey Kong
+  added: 2026-05-20
+  updated: 2026-05-20
+
 - name: marioparty2
   originals:
   - Mario Party 2
@@ -845,6 +918,30 @@
   - LGPL2
   added: 2025-09-08
   updated: 2025-09-08
+
+- name: Max of Ice
+  originals:
+  - Rambo
+  type: clone
+  repo: 'https://www.allegro.cc/depot/MaxOfIce'
+  url: >-
+    https://web.archive.org/web/20090109173434/http://www.stormpages.com/scottestinson/index1.html
+  development: halted
+  status: playable
+  platforms:
+  - None
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-05-05
+  updated: 2026-05-05
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1802_small.gif'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1806_small.jpg'
 
 - name: Max_Vita
   originals:
@@ -3534,6 +3631,31 @@
   updated: 2022-06-17
   url: https://montymole.sourceforge.net
 
+- name: Moon Defense
+  originals:
+  - Planetary Defense
+  type: remake
+  repo: 'https://www.allegro.cc/depot/MoonDefence'
+  url: >-
+    https://web.archive.org/web/20170218072119/http://www.alamak0ta.republika.pl/moon.html
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-05-17
+  updated: 2026-05-17
+  images:
+  - https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1988_large.gif
+  - https://web.archive.org/web/20170218090607im_/http://www.alamak0ta.republika.pl/moondefense_s.png
+  - https://web.archive.org/web/20170218090607im_/http://www.alamak0ta.republika.pl/planetarydefense.png
+
 - name: Moon Lander
   originals:
   - Lunar Lander
@@ -3725,6 +3847,31 @@
   images:
   - https://raw.githubusercontent.com/maxxboehme/A_Mouses_Vengeance/master/doc/images/ExampleAMousesVengeance.gif
 
+- name: MouseTrap
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://www.allegro.cc/depot/MouseTrap'
+  url: https://web.archive.org/web/20081223142328/https://members.lycos.co.uk/dlharmon/games/index.php?gid=15
+  development: complete
+  status: playable
+  platforms:
+  - DOS
+  - Linux
+  - Windows
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-06-04
+  updated: 2026-06-04
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/2151_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/2152_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/2153_large.png'
+
 - name: movbizz
   langs:
   - PHP
@@ -3741,6 +3888,27 @@
   type: remake
   added: 2015-06-01
   updated: 2022-09-27
+
+- name: mpromtool
+  originals:
+  - Mario Party
+  - Mario Party 2
+  - Mario Party 3
+  type: tool
+  repo: 'https://github.com/gamemasterplc/mpromtool'
+  feed: 'https://github.com/gamemasterplc/mpromtool/releases.atom'
+  development: complete
+  status: N/A
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  info: Mario Party 1-3 ROM Extractor/Rebuilder Tool
+  added: 2026-05-25
+  updated: 2026-05-25
 
 - name: Mr. Do! GameBoy Source Code
   originals:
