@@ -5,6 +5,8 @@
   repo: 'https://www.calculatorti.com/ti-games/ti-89/asm/mario-bros/'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   frameworks:
@@ -21,10 +23,12 @@
   - 'Machines: Wired for War'
   type: official
   repo: 'https://github.com/markol/machines'
-  url: >-
-    https://www.gamingonlinux.com/2020/10/classic-3d-rts-machines-wired-for-war-goes-open-source-under-the-gpl/
+  url: https://www.gamingonlinux.com/2020/10/classic-3d-rts-machines-wired-for-war-goes-open-source-under-the-gpl/
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -45,10 +49,11 @@
   originals:
   - Elite III
   type: remake
-  url: >-
-    https://web.archive.org/web/20110211062950/http://www.m3fe.com/content/MacJJFFE
+  url: https://web.archive.org/web/20110211062950/http://www.m3fe.com/content/MacJJFFE
   development: halted
   status: playable
+  platforms:
+  - OSX
   content: commercial
   langs:
   - Assembly
@@ -71,6 +76,9 @@
   feed: 'https://sourceforge.net/p/macrofage/activity/feed'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -90,6 +98,15 @@
   url: 'http://www.newbreedsoftware.com/madbomber/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Classic Mac OS
+  - BeOS
+  - Wii
+  - Amiga
+  - Mobile
   content: open
   langs:
   - C
@@ -116,6 +133,8 @@
   url: 'https://archive.org/details/mad-planets-source-code'
   development: complete
   status: playable
+  platforms:
+  - Arcade
   multiplayer:
   - Local
   langs:
@@ -127,7 +146,7 @@
 
 - name: Maelstrom
   frameworks:
-  - SDL2
+  - SDL3
   langs:
   - C++
   licenses:
@@ -138,10 +157,13 @@
   - Asteroids
   repo: https://github.com/libsdl-org/Maelstrom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2014-01-12
   updated: 2025-03-18
-  url: https://www.libsdl.org/projects/Maelstrom/
   video:
     youtube: UQeSnOUqx-M
 
@@ -152,6 +174,8 @@
   - 'Mafia: Definitive Edition'
   type: tool
   status: N/A
+  platforms:
+  - Windows
   repo: https://github.com/Greavesy1899/MafiaToolkit
   feed: https://github.com/Greavesy1899/MafiaToolkit/releases.atom
   development: halted
@@ -183,6 +207,8 @@
   - Mafia
   repo: https://github.com/MafiaHub/MafiaUnity
   status: unplayable
+  platforms:
+  - Windows
   type: remake
   added: 2018-01-25
   updated: 2025-03-19
@@ -198,6 +224,10 @@
   - 'Magic: The Gathering Online'
   repo: https://github.com/magarena/magarena
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: clone
   url: https://magarena.github.io/
   added: 2017-01-07
@@ -215,6 +245,9 @@
   feed: https://github.com/thobbsinteractive/magic-carpet-2-hd/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C++
   frameworks:
@@ -235,6 +268,8 @@
   repo: https://github.com/TBye101/MagicalLife
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   langs:
   - C#
   frameworks:
@@ -260,6 +295,8 @@
   originals:
   - Magic Carpet
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/wonea/magiccarpet
   type: remake
   added: 2016-04-20
@@ -274,6 +311,8 @@
   url: 'https://www.romhacking.net/documents/559/'
   development: complete
   status: playable
+  platforms:
+  - NES
   multiplayer:
   - Local
   content: free
@@ -293,6 +332,8 @@
   feed: 'https://github.com/magmafoundation/Magma-Neo/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - None
   langs:
   - Java
   licenses:
@@ -307,6 +348,8 @@
   type: remake
   content: commercial
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   licenses:
@@ -327,6 +370,9 @@
   originals:
   - TrackMania
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   added: 2016-05-16
   updated: 2022-09-27
@@ -354,6 +400,8 @@
   originals:
   - Minecraft
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   repo: https://github.com/manicdigger/manicdigger
@@ -428,6 +476,8 @@
     https://web.archive.org/web/20230320175530/https://illusion.64history.net/2022/manic-miner-gba-source
   development: complete
   status: playable
+  platforms:
+  - GBA
   content: free
   langs:
   - C
@@ -448,6 +498,11 @@
   originals:
   - Manic Miner
   status: playable
+  platforms:
+  - Windows
+  - DOS
+  - OSX
+  - PlayStation
   development: complete
   type: remake
   added: 2015-05-09
@@ -468,6 +523,8 @@
   url: 'https://www.nic.funet.fi/index/unix/Linux/xtra/games/x11/action/manix.lsm'
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -487,6 +544,9 @@
   originals:
   - Marble Madness
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/davido262/marble-madness-3d
   type: remake
   added: 2015-04-03
@@ -509,6 +569,8 @@
   development: halted
   url: http://www.kongregate.com/games/MarkGossage/marblez/
   status: playable
+  platforms:
+  - Web
   type: clone
   added: 2017-12-12
   updated: 2023-09-21
@@ -529,6 +591,10 @@
   originals:
   - Mario World
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/Stabyourself/mari0
   development: halted
   type: remake
@@ -546,6 +612,8 @@
   url: 'https://www.wieringsoftware.nl/mario/'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Pascal
@@ -564,6 +632,8 @@
   repo: 'https://github.com/RussianManSMWC/Mario-Bros.-Dis'
   development: sporadic
   status: playable
+  platforms:
+  - NES
   multiplayer:
   - Local
   content: commercial
@@ -600,6 +670,8 @@
   url: 'https://n64decomp.github.io/mk64/'
   development: sporadic
   status: playable
+  platforms:
+  - N64
   multiplayer:
   - Competitive
   - Split-screen
@@ -620,6 +692,8 @@
   url: 'https://www.segasaturnshiro.com/2025/06/19/mario-kart-64-on-sega-dreamcast-first-look-at-the-latest-homebrew-port-by-jnmartin84/'
   development: sporadic
   status: playable
+  platforms:
+  - Dreamcast
   multiplayer:
   - Competitive
   - Split-screen
@@ -655,6 +729,8 @@
   originals:
   - Super Mario
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/jazzyjester/Mario-Game
   type: clone
   added: 2015-05-25
@@ -667,6 +743,8 @@
   repo: 'https://github.com/mariopartyrd/marioparty'
   development: sporadic
   status: playable
+  platforms:
+  - N64
   multiplayer:
   - Local
   content: commercial
@@ -686,6 +764,8 @@
   feed: 'https://github.com/mariopartyrd/marioparty4/releases.atom'
   development: sporadic
   status: semi-playable
+  platforms:
+  - GameCube
   multiplayer:
   - Local
   content: commercial
@@ -704,6 +784,8 @@
   repo: 'https://github.com/mariopartyrd/marioparty5'
   development: active
   status: semi-playable
+  platforms:
+  - GameCube
   multiplayer:
   - Local
   content: commercial
@@ -722,6 +804,8 @@
   repo: 'https://github.com/mariopartyrd/marioparty7'
   development: halted
   status: semi-playable
+  platforms:
+  - GameCube
   multiplayer:
   - Local
   content: commercial
@@ -758,6 +842,8 @@
   repo: 'https://github.com/mariopartyrd/marioparty2'
   development: sporadic
   status: unplayable
+  platforms:
+  - N64
   multiplayer:
   - Local
   content: commercial
@@ -776,6 +862,8 @@
   repo: 'https://github.com/mariopartyrd/marioparty3'
   development: very active
   status: playable
+  platforms:
+  - N64
   multiplayer:
   - Local
   content: commercial
@@ -795,6 +883,8 @@
   url: 'https://lostsidedead.biz/ballgame/'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -813,6 +903,8 @@
   repo: 'https://github.com/RobertoZaffa/Mastermind-Game'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Python
   - C++
@@ -831,6 +923,8 @@
   url: 'https://os4depot.net/?function=showfile&file=game/puzzle/masterpiece.lha'
   development: halted
   status: playable
+  platforms:
+  - Amiga
   content: free
   langs:
   - C++
@@ -852,6 +946,8 @@
   url: 'https://lostsidedead.biz/mp3d/'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -872,6 +968,8 @@
   feed: 'https://github.com/lostjared/MasterPiece.x64.Assembly/releases.atom'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Linux
   langs:
   - Assembly
   frameworks:
@@ -894,6 +992,8 @@
   url: 'https://rembound.com/articles/how-to-make-a-match3-game-with-html5-canvas'
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -912,6 +1012,8 @@
   url: 'https://crates.io/crates/matszpk-sokoban'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -924,8 +1026,7 @@
   - Rambo
   type: clone
   repo: 'https://www.allegro.cc/depot/MaxOfIce'
-  url: >-
-    https://web.archive.org/web/20090109173434/http://www.stormpages.com/scottestinson/index1.html
+  url: https://web.archive.org/web/20090109173434/http://www.stormpages.com/scottestinson/index1.html
   development: halted
   status: playable
   platforms:
@@ -948,6 +1049,8 @@
   - Max Payne
   type: tool
   status: N/A
+  platforms:
+  - PlayStation Vita
   repo: https://github.com/fgsfdsfgs/max_vita
   development: halted
   content: commercial
@@ -976,6 +1079,10 @@
   originals:
   - Maxit
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/nurfalie/maxit
   type: remake
   added: 2015-05-09
@@ -989,6 +1096,8 @@
   repo: 'https://github.com/devpack/mayhem'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Local
@@ -1014,6 +1123,9 @@
   url: 'https://www.stuffaboutcode.com/2016/06/mayhem-2-open-source-cave-shooter.html'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Raspberry Pi
   multiplayer:
   - Competitive
   - Local
@@ -1038,10 +1150,11 @@
   - The Maze of Galious
   type: clone
   repo: 'https://braingames.jorito.net/nightlies/#:~:text=mog2'
-  url: >-
-    https://web.archive.org/web/20180324120407/http://www2.braingames.getput.com/forum/forum_topics.asp?FID=12
+  url: https://web.archive.org/web/20180324120407/http://www2.braingames.getput.com/forum/forum_topics.asp?FID=12
   development: halted
   status: unplayable
+  platforms:
+  - None
   langs:
   - C++
   frameworks:
@@ -1061,6 +1174,10 @@
   url: 'https://mog.jorito.net/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C++
@@ -1095,6 +1212,8 @@
   repo: 'https://sourceforge.net/projects/mazeman/'
   feed: 'https://sourceforge.net/p/mazeman/activity/feed'
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Python
@@ -1115,6 +1234,8 @@
   repo: 'https://github.com/Hiekichi/MazeWalkGame'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Python
@@ -1154,11 +1275,13 @@
   feed: 'https://github.com/Sakitoshi/mbf_sigil/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
-  - C++
+  - C
   frameworks:
-  - SDL
+  - Allegro
   licenses:
   - GPL2
   info: >-
@@ -1179,6 +1302,13 @@
   url: 'https://marbleblast.online'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
+  - Android
+  - iOS
   multiplayer:
   - Online
   content: swappable
@@ -1215,6 +1345,9 @@
   originals:
   - MechCommander 2
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/alariq/mc2
   feed: https://github.com/alariq/mc2/releases.atom
   type: remake
@@ -1231,6 +1364,8 @@
   repo: 'https://github.com/gameblabla/mccraft'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - C
@@ -1272,6 +1407,8 @@
   originals:
   - M.A.X.
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/maxr-dot-org/maxr
   type: remake
   added: 2011-06-15
@@ -1286,6 +1423,8 @@
   repo: 'https://github.com/mechasource/mechcommander2'
   development: complete
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   frameworks:
@@ -1304,6 +1443,8 @@
     https://www.reddit.com/r/gamedev/comments/2vyh7w/mechcommander_2_hd_development_blog_1/
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1326,6 +1467,8 @@
   originals:
   - MechCommander 2
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/Echelon9/mechcommander2-open
   url: https://www.moddb.com/mods/mechcommander-omnitech
   info: Mechcommander OmniTech is a standalone game based on Mechcommander 2 shared source code release by Microsoft.
@@ -1357,6 +1500,8 @@
   repo: 'https://github.com/refreshing-lemonade/megaman3-disassembly'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -1372,6 +1517,8 @@
   repo: 'https://github.com/refreshing-lemonade/megaman4-disassembly'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -1387,6 +1534,8 @@
   repo: 'https://github.com/refreshing-lemonade/megaman5-disassembly'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -1402,6 +1551,8 @@
   repo: 'https://github.com/refreshing-lemonade/megaman6-disassembly'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -1415,10 +1566,11 @@
   - Mega Man 7
   type: clone
   repo: 'https://github.com/Yoshifanatic1/Mega-Man-7-Disassembly'
-  url: >-
-    https://www.smwcentral.net/?p=viewthread&t=118507&page=1#:~:text=Mega%20Man%207%20Disassembly
+  url: https://www.smwcentral.net/?p=viewthread&t=118507&page=1#:~:text=Mega%20Man%207%20Disassembly
   development: complete
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -1445,6 +1597,9 @@
   originals:
   - Super Mario
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   added: 2014-04-16
   updated: 2025-04-12
@@ -1456,9 +1611,10 @@
   - MegaBall
   type: official
   repo: 'https://bitbucket.org/emackey/megaball'
-  url: 'https://www.snappymaria.com/megaball/'
   development: complete
   status: playable
+  platforms:
+  - Amiga
   content: open
   langs:
   - Assembly
@@ -1491,6 +1647,10 @@
   - Glest
   repo: https://github.com/MegaGlest/megaglest-source
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2016-12-02
   updated: 2023-08-01
@@ -1506,6 +1666,8 @@
   url: 'https://www.hpcalc.org/details/540'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - Assembly
   licenses:
@@ -1524,6 +1686,8 @@
   url: 'https://www.hpcalc.org/details/541'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - Assembly
   licenses:
@@ -1542,6 +1706,8 @@
   feed: https://github.com/Albeoris/Memoria/releases.atom
   development: active
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -1561,6 +1727,9 @@
   repo: 'https://github.com/wateret/mengde'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -1585,6 +1754,8 @@
   content: free
   development: active
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/Meridian59/Meridian59
   type: official
   added: 2022-10-03
@@ -1614,6 +1785,8 @@
   originals:
   - Meridian 59
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/Arantis/Meridian59_112
   type: remake
   added: 2016-03-16
@@ -1637,6 +1810,8 @@
   originals:
   - Meridian 59
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/OpenMeridian105/Meridian59_105_2.9
   type: remake
   added: 2016-03-16
@@ -1653,6 +1828,8 @@
   url: 'https://meridian59.de/index_en.php'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1679,6 +1856,8 @@
   url: 'https://www.steinke.net/mermaid.php'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -1707,6 +1886,10 @@
   type: remake
   url: 'https://axiodl.com/'
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   info: A reverse-engineered, native reimplementation of Metroid Prime
   added: 2015-03-08
   updated: 2025-04-18
@@ -1724,6 +1907,9 @@
   url: 'https://archive.org/details/MA-SOURCE'
   development: complete
   status: playable
+  platforms:
+  - Xbox
+  - GameCube
   multiplayer:
   - Local
   content: commercial
@@ -1739,10 +1925,11 @@
   - Pac-Man
   type: clone
   repo: 'https://os4depot.net/?function=showfile&file=game/misc/metapacman.lha'
-  url: >-
-    https://web.archive.org/web/20110427084745/http://www.sdltutorials.com/sdl-games/#:~:text=MetaPacman
+  url: https://web.archive.org/web/20110427084745/http://www.sdltutorials.com/sdl-games/#:~:text=MetaPacman
   development: halted
   status: playable
+  platforms:
+  - Amiga
   content: open
   langs:
   - C++
@@ -1765,6 +1952,8 @@
   feed: 'https://sourceforge.net/p/metatron/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Hotseat
@@ -1785,6 +1974,9 @@
   url: 'https://oldschoolprg.x10.mx/projets.php#metrocross'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C
@@ -1806,6 +1998,8 @@
   url: 'https://metroiddatabase.com/source-code/'
   development: halted
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -1821,6 +2015,8 @@
   url: 'http://tifreakware.net/lachprog/metroid.htm'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   content: open
   langs:
   - C
@@ -1849,6 +2045,8 @@
   url: 'https://nmikstas.github.io/portfolio/metroidDisassembly/metroid.html'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -1864,6 +2062,8 @@
   repo: 'https://github.com/ZaneDubya/MetroidMMC3'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -1879,6 +2079,8 @@
   repo: 'https://github.com/PrimeDecomp/prime'
   development: sporadic
   status: semi-playable
+  platforms:
+  - GameCube
   content: commercial
   langs:
   - C++
@@ -1900,6 +2102,8 @@
   originals:
   - M.U.L.E.
   status: unplayable
+  platforms:
+  - Linux
   repo: https://github.com/LionsPhil/mewl
   type: remake
   added: 2015-09-21
@@ -1914,6 +2118,8 @@
   - LGPL3
   content: open
   development: complete
+  platforms:
+  - None
   originals:
   - Mice Men
   repo: https://github.com/synkarius/micemen
@@ -1935,6 +2141,10 @@
   originals:
   - SimCity
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/SimHacker/micropolis
   type: remake
   added: 2013-05-27
@@ -1949,6 +2159,8 @@
   repo: 'https://github.com/jason17055/micropolis-java'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Java
@@ -1968,6 +2180,8 @@
   originals:
   - SimCity
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/graememcc/micropolisJS
   type: remake
   added: 2015-07-04
@@ -1988,6 +2202,8 @@
   originals:
   - Micro Machines
   status: semi-playable
+  platforms:
+  - None
   repo: https://sourceforge.net/projects/microracers/
   type: similar
   added: 2015-04-15
@@ -2007,6 +2223,9 @@
   feed: 'https://sourceforge.net/p/microwar/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - OSX
   content: open
   langs:
   - Python
@@ -2027,10 +2246,12 @@
   - Pong
   type: clone
   repo: 'https://github.com/BMeu/Mief'
-  url: 'https://bmeu.github.io/Mief/'
+  url: https://bmeu.github.io/Mief/mief/index.html
   feed: 'https://github.com/BMeu/Mief/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -2048,6 +2269,8 @@
   repo: 'https://github.com/rerunner/MigAlleySrc'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -2063,6 +2286,8 @@
   repo: 'https://github.com/nmikstas/mike-tysons-punch-out-disassembly'
   development: halted
   status: unplayable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -2077,6 +2302,8 @@
   repo: 'https://github.com/Mikompilation/Mikompilation'
   development: halted
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - C
@@ -2094,6 +2321,10 @@
   repo: 'https://github.com/Mikompilation/MikuPan'
   development: very active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   content: commercial
   langs:
   - C
@@ -2110,6 +2341,8 @@
   repo: 'https://github.com/Mikompilation/Minakami'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C
@@ -2127,6 +2360,8 @@
   url: 'https://os4depot.net/?function=showfile&file=game/puzzle/mindless.lha'
   development: halted
   status: playable
+  platforms:
+  - Amiga
   multiplayer:
   - Hotseat
   content: open
@@ -2151,6 +2386,12 @@
   url: https://mindustrygame.github.io/
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - iOS
   multiplayer:
   - LAN
   - Online
@@ -2177,6 +2418,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=72'
   development: complete
   status: playable
+  platforms:
+  - VIC-20
   langs:
   - BASIC
   licenses:
@@ -2198,6 +2441,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=18'
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
   content: open
   langs:
   - BASIC
@@ -2220,6 +2465,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=115'
   development: complete
   status: playable
+  platforms:
+  - Commodore PET
   langs:
   - BASIC
   licenses:
@@ -2243,6 +2490,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=184'
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - C
   licenses:
@@ -2265,6 +2514,8 @@
   url: 'https://gb64.com/game.php?id=4852'
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   langs:
   - BASIC
   licenses:
@@ -2287,6 +2538,11 @@
   url: https://content.luanti.org/packages/ryvnf/mineclonia/
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   multiplayer:
   - Online
   - LAN
@@ -2314,6 +2570,9 @@
   repo: https://github.com/plane000/Minecraft
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C++
@@ -2335,6 +2594,8 @@
   repo: 'https://github.com/CelestialAmber/Minecraft-4K-Decompilation'
   development: complete
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -2350,6 +2611,9 @@
   repo: https://github.com/Hopson97/MineCraft-One-Week-Challenge
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C++
   frameworks:
@@ -2373,6 +2637,8 @@
   feed: 'https://github.com/dgreenheck/minecraft-threejs-clone/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   frameworks:
@@ -2391,6 +2657,8 @@
   repo: 'https://github.com/jdah/minecraft-weekend'
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -2410,6 +2678,9 @@
   feed: 'https://github.com/johnpayne-dev/MinecraftC/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - OSX
   content: open
   langs:
   - C
@@ -2432,6 +2703,8 @@
   repo: 'https://github.com/EliteTK/minecurses'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - C
   frameworks:
@@ -2450,6 +2723,11 @@
   url: 'https://minesweepergame.com/database/games.php?id=11'
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
+  - TRS-80
+  - Acorn 32-bit
+  - BBC Micro
   langs:
   - BASIC
   licenses:
@@ -2471,6 +2749,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=64'
   development: complete
   status: playable
+  platforms:
+  - VIC-20
   langs:
   - BASIC
   licenses:
@@ -2493,6 +2773,8 @@
   url: 'https://bbcmicro.co.uk/game.php?id=4002'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   langs:
   - BASIC
   licenses:
@@ -2514,6 +2796,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=10'
   development: complete
   status: playable
+  platforms:
+  - Commodore PET
   langs:
   - BASIC
   licenses:
@@ -2531,6 +2815,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=71'
   development: complete
   status: playable
+  platforms:
+  - VIC-20
   langs:
   - BASIC
   licenses:
@@ -2551,6 +2837,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=70'
   development: complete
   status: playable
+  platforms:
+  - VIC-20
   langs:
   - BASIC
   licenses:
@@ -2571,6 +2859,8 @@
   url: 'https://gb64.com/game.php?id=19642'
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   langs:
   - BASIC
   licenses:
@@ -2591,6 +2881,10 @@
   feed: 'https://github.com/LewisGaul/minegauler/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - Python
   frameworks:
@@ -2619,6 +2913,8 @@
   repo: 'https://github.com/KeenSoftwareHouse/Miner-Wars-2081/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   content: commercial
@@ -2642,6 +2938,8 @@
   url: https://instead.itch.io/minerbold
   development: complete
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - Lua
@@ -2662,6 +2960,8 @@
   url: https://wiki.gnome.org/Apps/Mines
   development: very active
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - Vala
@@ -2681,6 +2981,8 @@
   feed: 'https://github.com/stastnypremysl/Mines3D/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Android
   content: open
   langs:
   - Java
@@ -2704,6 +3006,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/134/13410.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -2721,6 +3025,8 @@
   url: 'https://minesweepergame.com/download/game.php?id=146'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -2741,6 +3047,8 @@
   feed: 'https://git.gir.st/minesVIiper.git/atom'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - C
   licenses:
@@ -2760,6 +3068,8 @@
   feed: 'https://github.com/cpcloud/minesweep-rs/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   frameworks:
@@ -2772,7 +3082,6 @@
   - 'https://raw.githubusercontent.com/cpcloud/minesweep-rs/main/demo.gif'
 
 - name: Minesweeper
-  info: iOS
   langs:
   - F#
   licenses:
@@ -2781,7 +3090,9 @@
   originals:
   - Minesweeper
   status: unplayable
-  repo: https://github.com/rachelreese/Minesweeper
+  platforms:
+  - iOS
+  repo: https://github.com/rachelblasucci/Minesweeper
   type: remake
   added: 2015-09-28
   updated: 2015-09-28
@@ -2793,6 +3104,8 @@
   url: 'https://spectrumcomputing.co.uk/entry/34534/ZX81/Minesweeper_1K'
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
   langs:
   - Assembly
   licenses:
@@ -2819,6 +3132,8 @@
   url: 'https://os4depot.net/?function=showfile&file=game/puzzle/minesweeper2.lha'
   development: halted
   status: playable
+  platforms:
+  - Amiga
   content: open
   langs:
   - C++
@@ -2838,6 +3153,11 @@
   feed: 'https://content.luanti.org/packages/Hume2/minesweeper_3d/releases_feed.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: free
   langs:
   - Lua
@@ -2865,6 +3185,8 @@
   - Minesweeper
   repo: https://github.com/DouglasMeyer/minesweeper
   status: playable
+  platforms:
+  - Web
   type: remake
   added: 2016-02-06
   updated: 2016-02-06
@@ -2875,6 +3197,8 @@
   originals:
   - Minesweeper
   status: playable
+  platforms:
+  - None
   repo: https://github.com/brenns10/minesweeper
   development: halted
   langs:
@@ -2893,6 +3217,8 @@
   repo: https://github.com/robmikh/minesweeper-rs
   development: sporadic
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -2931,6 +3257,8 @@
   feed: 'https://github.com/HaroldLoui/minesweeper-tauri/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - JavaScript
@@ -2956,6 +3284,8 @@
   url: https://aashrafh.github.io/minesweeper/
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   - Vue
@@ -2985,6 +3315,8 @@
   - Minesweeper
   repo: https://github.com/reed-jones/minesweeper_js
   status: playable
+  platforms:
+  - Web
   type: remake
   added: 2017-04-12
   updated: 2023-10-02
@@ -3012,6 +3344,11 @@
   originals:
   - Minecraft
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   multiplayer:
   - Online
   - LAN
@@ -3031,6 +3368,8 @@
   feed: 'https://github.com/libin-codes/minex/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   langs:
   - Python
   frameworks:
@@ -3054,6 +3393,8 @@
   url: 'https://aged99oow.github.io/mario/'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Python
@@ -3074,6 +3415,11 @@
   url: 'https://oldschoolprg.x10.mx/projets.php#:~:text=The%20Mini%20Slug%20Project'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Amiga
   content: free
   langs:
   - C
@@ -3093,6 +3439,8 @@
   url: 'http://www.newbreedsoftware.com/atari/nomam2015/#:~:text=MiniBreak'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - BASIC
   licenses:
@@ -3110,6 +3458,8 @@
   url: 'http://www.newbreedsoftware.com/atari/nomam2014/minidash/'
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - BASIC
   licenses:
@@ -3136,6 +3486,11 @@
   - 'Ultima III: Exodus'
   repo: https://github.com/Feneric/Minima
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Raspberry Pi
   type: clone
   url: https://feneric.itch.io/minima
   feed: https://feneric.itch.io/minima/devlog.rss
@@ -3150,6 +3505,8 @@
   url: 'https://aged99oow.github.io/metroid/'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Python
@@ -3180,6 +3537,8 @@
   originals:
   - Boulder Dash
   status: playable
+  platforms:
+  - Linux
   repo: https://sourceforge.net/projects/mininghaze/
   type: remake
   added: 2015-04-15
@@ -3194,6 +3553,9 @@
   - GPL3
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   originals:
   - Prince of Persia
@@ -3215,6 +3577,10 @@
   feed: 'https://gitlab.bixilon.de/bixilon/minosoft.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - Kotlin
@@ -3240,6 +3606,11 @@
   originals:
   - Deflektor
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   type: remake
   added: 2014-01-12
   updated: 2023-03-12
@@ -3258,6 +3629,8 @@
   repo: 'https://github.com/Drahsid/mischief-makers'
   development: halted
   status: semi-playable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C++
@@ -3274,6 +3647,8 @@
   url: https://slackbuilds.org/repository/15.0/games/miscom/?search=miscom
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -3292,6 +3667,8 @@
   url: 'http://www.newbreedsoftware.com/atari/nomam2019/#:~:text=Missile10'
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - BASIC
   licenses:
@@ -3315,6 +3692,10 @@
   - Missile Command
   repo: https://github.com/chadpaulson/missile-command
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2014-08-16
   updated: 2025-05-09
@@ -3328,6 +3709,8 @@
   url: 'https://6502disassembly.com/va-missile-command/'
   development: complete
   status: playable
+  platforms:
+  - Arcade
   multiplayer:
   - Hotseat
   langs:
@@ -3352,6 +3735,8 @@
   url: 'https://miu2d.com/'
   development: very active
   status: semi-playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - TypeScript
@@ -3387,6 +3772,8 @@
   - Mortal Kombat
   repo: https://github.com/mgechev/mk.js
   status: semi-playable
+  platforms:
+  - Web
   type: remake
   added: 2015-05-19
   updated: 2025-05-09
@@ -3406,6 +3793,10 @@
   - RPG Maker
   repo: https://github.com/Ancurio/mkxp
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2017-10-20
   updated: 2023-10-05
@@ -3417,6 +3808,10 @@
   repo: https://github.com/mkxp-z/mkxp-z
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - C++
@@ -3439,6 +3834,8 @@
   repo: 'https://github.com/captainsouthbird/mm4'
   development: halted
   status: unplayable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -3467,6 +3864,8 @@
   - Heretic
   - Hexen
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/AXDOOMER/mochadoom
   type: remake
   added: 2015-04-10
@@ -3486,6 +3885,9 @@
   - 'Robotron: 2084'
   repo: https://gitlab.com/dulsi/mojotron/
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: clone
   url: https://identicalsoftware.com/mojotron/
   added: 2021-09-18
@@ -3501,6 +3903,8 @@
   url: 'https://web.archive.org/web/20081014192219/http://www.monkey-bubble.org/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -3528,6 +3932,8 @@
   url: 'https://www.ocf.berkeley.edu/~pad/game-ti92p-monster.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   content: free
   langs:
   - Assembly
@@ -3545,11 +3951,15 @@
   - Monster RPG 2
   type: official
   repo: 'https://github.com/parhelia512/monster-rpg-2'
-  url: >-
-    https://archive.ph/20131008221700/http://www.nooskewl.com/content/monster-rpg-2-now-free-and-open-source
+  url: https://archive.ph/20131008221700/http://www.nooskewl.com/content/monster-rpg-2-now-free-and-open-source
   feed: 'https://github.com/parhelia512/monster-rpg-2/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Raspberry Pi
   content: commercial
   langs:
   - C++
@@ -3574,6 +3984,8 @@
   originals:
   - Millipede
   status: playable
+  platforms:
+  - None
   repo: https://github.com/machineinteractive/monsters_and_mushrooms
   type: remake
   added: 2015-04-11
@@ -3603,6 +4015,8 @@
   url: 'https://archive.org/details/monstersinc-code-assets'
   development: halted
   status: playable
+  platforms:
+  - PlayStation 2
   content: free
   langs:
   - C++
@@ -3625,6 +4039,9 @@
   originals:
   - Monty Mole
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://sourceforge.net/projects/montymole/
   type: remake
   added: 2015-04-13
@@ -3661,10 +4078,12 @@
   - Lunar Lander
   type: clone
   repo: 'http://ftp.twaren.net/BSD/OpenBSD/distfiles/#:~:text=moon-lander'
-  url: >-
-    https://web.archive.org/web/20030603161510/http://magigames.org/moonlander.html
+  url: https://web.archive.org/web/20030603161510/http://magigames.org/moonlander.html
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C
@@ -3689,6 +4108,8 @@
   feed: 'https://github.com/ZContent/MoonMiner/releases.atom'
   development: active
   status: playable
+  platforms:
+  - Raspberry Pi
   content: open
   langs:
   - Python
@@ -3710,6 +4131,10 @@
   url: 'https://wohlsoft.ru/projects/Moondust/'
   development: active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Local
   - Split-screen
@@ -3737,6 +4162,8 @@
   repo: 'https://github.com/sillygoose/moonlander'
   development: complete
   status: playable
+  platforms:
+  - iOS
   langs:
   - Assembly
   - Objective-C
@@ -3756,6 +4183,8 @@
   url: 'https://www.romhacking.net/documents/502/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -3783,6 +4212,8 @@
   - Morpheus
   repo: https://github.com/soap-bubble/web
   status: playable
+  platforms:
+  - Web
   type: remake
   added: 2019-06-07
   updated: 2023-10-09
@@ -3803,6 +4234,8 @@
   url: 'https://wiki.openuru.org/index.php/MOSS'
   development: complete
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   langs:
@@ -3820,6 +4253,8 @@
   repo: 'https://github.com/zrax/moulars'
   development: active
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -3843,6 +4278,8 @@
   added: 2017-04-04
   updated: 2019-04-16
   status: playable
+  platforms:
+  - None
   content: free
   images:
   - https://raw.githubusercontent.com/maxxboehme/A_Mouses_Vengeance/master/doc/images/ExampleAMousesVengeance.gif
@@ -3884,6 +4321,8 @@
   originals:
   - Movie Business
   status: semi-playable
+  platforms:
+  - None
   repo: https://github.com/teruk/movbizz
   type: remake
   added: 2015-06-01
@@ -3918,6 +4357,8 @@
   url: https://www.pauliehughes.com//downloads.htm
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   langs:
   - Assembly
   licenses:
@@ -3935,6 +4376,8 @@
     https://web.archive.org/web/20060308054155/http://www.dcemu.co.uk/missdriller.shtml
   development: halted
   status: playable
+  platforms:
+  - Amiga
   content: free
   langs:
   - C
@@ -3958,6 +4401,8 @@
   url: 'https://www.romhacking.net/documents/594/'
   development: halted
   status: semi-playable
+  platforms:
+  - Genesis
   content: free
   langs:
   - Assembly
@@ -3974,6 +4419,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/326/32621.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -3991,6 +4438,9 @@
   url: 'https://mrboom.app/'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Web
   multiplayer:
   - Competitive
   - Hotseat
@@ -4027,6 +4477,10 @@
   repo: https://github.com/Javanaise/mrboom-libretro
   feed: https://github.com/Javanaise/mrboom-libretro/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - DOS
+  - OSX
   type: remake
   added: 2017-07-18
   updated: 2025-05-15
@@ -4061,6 +4515,8 @@
   repo: 'https://github.com/RussianManSMWC/Ms.-Pac-Man-NES-Namco-Disassembly'
   development: sporadic
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -4076,6 +4532,8 @@
   repo: 'https://github.com/RussianManSMWC/Ms.-Pac-Man-NES-Tengen-Disassembly'
   development: sporadic
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -4094,6 +4552,8 @@
   feed: 'https://github.com/Yoshifanatic1/Ms-Pac-Man-SNES-Disassembly/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -4111,6 +4571,8 @@
     https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Ms.%20Pac%20Man
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -4125,6 +4587,8 @@
   type: similar
   url: 'https://www.asahi-net.or.jp/~cs8k-cyu/windows/mcd_e.html'
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - D
@@ -4145,6 +4609,10 @@
   repo: 'https://github.com/dizzy2003/MuckyFoot-UrbanChaos'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - PlayStation
+  - Dreamcast
   content: commercial
   langs:
   - C++
@@ -4160,6 +4628,9 @@
   repo: https://github.com/Hopson97/multi-pong
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - Competitive
@@ -4184,6 +4655,8 @@
   repo: 'https://github.com/EgonOlsen71/multorio'
   development: halted
   status: playable
+  platforms:
+  - Commodore 64
   multiplayer:
   - Online
   - LAN
@@ -4204,6 +4677,8 @@
     https://web.archive.org/web/20030625132413/http://affinix.com/~justin/programs/munchman/
   development: complete
   status: playable
+  platforms:
+  - Amiga
   content: open
   langs:
   - C
@@ -4224,6 +4699,8 @@
   url: 'https://archive.org/details/MuppetsOTGSource'
   development: complete
   status: playable
+  platforms:
+  - Genesis
   content: free
   langs:
   - Assembly
@@ -4241,6 +4718,9 @@
   feed: 'https://sourceforge.net/projects/mures/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - BeOS
+  - Linux
   content: open
   langs:
   - C
@@ -4259,10 +4739,11 @@
   type: clone
   repo: >-
     https://web.archive.org/web/20190616223624/http://netadelica.com/coding/mole/mole.bas
-  url: >-
-    https://web.archive.org/web/20200107094711/https://www.netadelica.com/coding/index.html#:~:text=Mutant%20Mole
+  url: https://web.archive.org/web/20200107094711/https://www.netadelica.com/coding/index.html#:~:text=Mutant%20Mole
   development: halted
   status: semi-playable
+  platforms:
+  - DOS
   langs:
   - QuickBASIC
   licenses:
@@ -4280,6 +4761,10 @@
   feed: 'https://sourceforge.net/projects/myman/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C
@@ -4305,6 +4790,8 @@
   feed: 'https://gitlab.com/efanomars/mynes.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
