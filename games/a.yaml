@@ -443,6 +443,24 @@
   added: 2025-12-27
   updated: 2025-12-27
 
+- name: afe-decomp
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/ACreTeam/afe-decomp'
+  development: very active
+  status: unplayable
+  platforms:
+  - GameCube
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Decompilation of Animal Forest e+ (JP)
+  added: 2026-05-26
+  updated: 2026-05-26
+
 - name: After Protocol
   originals:
   - Beyond Protocol
@@ -1357,6 +1375,28 @@
   - 'https://os4depot.net/filedata/snapshot/10928_2_snap.jpg'
   - 'https://keasigmadelta.com/wp-content/uploads/2025/01/AmiCraftNova-1.jpg'
 
+- name: Amidar500
+  originals:
+  - Amidar
+  type: remake
+  repo: 'https://github.com/jotd666/amidar500'
+  url: 'https://jotd666.itch.io/amidar500'
+  development: active
+  status: playable
+  platforms:
+  - Amiga
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-06
+  updated: 2026-05-06
+  images:
+  - 'https://img.itch.zone/aW1nLzc3ODc4NTMucG5n/original/5i7vqd.png'
+  video:
+    youtube: RuQbFbTu6yQ
+
 - name: Amiga Cannonball-C
   originals:
   - Out Run
@@ -1621,6 +1661,47 @@
     https://web.archive.org/web/20170506100454im_/https://www.sacredchao.net/~piman/angrydd/screen-5.png
   - >-
     https://web.archive.org/web/20170506100454im_/https://www.sacredchao.net/~piman/angrydd/screen-6.png
+
+- name: Animal Crossing
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/ACreTeam/ac-decomp'
+  url: >-
+    https://gbatemp.net/threads/animal-crossing-for-the-gamecube-has-been-decompiled.672373/
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - GameCube
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Decompilation in progress of Animal Crossing for the Nintendo GameCube.
+  added: 2026-05-26
+  updated: 2026-05-26
+
+- name: Animal Forest
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/zeldaret/af'
+  url: 'https://zeldaret.github.io/af/'
+  development: sporadic
+  status: unplayable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Decompilation of Animal Forest
+  added: 2026-05-26
+  updated: 2026-05-26
 
 - name: Anodyne
   originals:
@@ -2201,6 +2282,26 @@
   info: Formerly eightysArcade
   added: 2026-04-16
   updated: 2026-04-16
+
+- name: Arcanum on iOS
+  originals:
+  - 'Arcanum: Of Steamworks and Magick Obscura'
+  type: remake
+  repo: 'https://github.com/arcanum-project/game'
+  url: 'https://www.reddit.com/r/arcanum/comments/x0xkv7/arcanum_running_on_ios/'
+  development: halted
+  status: unplayable
+  platforms:
+  - iOS
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - Apache
+  added: 2026-05-24
+  updated: 2026-05-24
+  video:
+    youtube: qmdx32MjVnY
 
 - name: Archaos
   originals:
@@ -3038,6 +3139,24 @@
   - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/1.png
   - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/2.png
   - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/3.png
+
+- name: asteroids-7800
+  originals:
+  - Asteroids
+  type: official
+  repo: 'https://github.com/videogamepreservation/asteroids-7800'
+  url: >-
+    https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Asteroids
+  development: complete
+  status: playable
+  platforms:
+  - Atari
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-27
+  updated: 2026-05-27
 
 - name: Asteroids Disassembly
   originals:

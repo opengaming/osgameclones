@@ -235,6 +235,32 @@
   added: 2026-02-13
   updated: 2026-02-13
 
+- name: Paciana Dones
+  originals:
+  - Pac-Man
+  - Sokoban
+  type: similar
+  url: 'https://www.allegro.cc/depot/PacianaDones'
+  development: halted
+  status: playable
+  platforms:
+  - DOS
+  - Linux
+  - Windows
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - Custom
+  added: 2026-05-26
+  updated: 2026-05-26
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/4517_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/4518_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/4519_large.png'
+
 - name: pack_2048
   originals:
   - '2048'
@@ -307,6 +333,31 @@
   repo: https://github.com/daleharvey/pacman
   type: remake
   updated: 2015-05-19
+
+- name: Pacman3D
+  originals:
+  - Pac-Man
+  type: clone
+  repo: 'https://web.archive.org/web/20171220022732/http://fifsoft.com/games/pacman.php'
+  url: 'https://www.fifsoft.com/games/pacman.php'
+  development: complete
+  status: playable
+  platforms:
+  - OSX
+  - Linux
+  - Windows
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - MIT
+  added: 2026-05-20
+  updated: 2026-05-20
+  images:
+  - 'https://www.fifsoft.com/images/gamepics/pac02.jpg'
+  - 'https://www.fifsoft.com/images/gamepics/pac03.jpg'
 
 - name: Pacman 吃豆游戏
   originals:
@@ -496,6 +547,23 @@
   images:
   - 'https://a.fsdn.com/con/app/proj/pacmanincwithsd/screenshots/pacman-game.jpg'
 
+- name: pacman (NES)
+  originals:
+  - Pac-Man
+  type: remake
+  repo: 'https://github.com/furrykef/pacman'
+  development: halted
+  status: semi-playable
+  platforms:
+  - NES
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-11
+  updated: 2026-06-11
+
 - name: Pacman-popup
   originals:
   - Pac-Man
@@ -684,6 +752,22 @@
   - https://web.archive.org/web/20240322224626if_/http://deathshadow.com/images/pakuMenu.png
   - https://www.classicdosgames.com/images/screenshots/cgans/Paku_Paku.png
 
+- name: Palace of Magic disassembly
+  originals:
+  - Palace of Magic
+  type: remake
+  repo: 'https://www.level7.org.uk/miscellany/palace-of-magic-disassembly.txt'
+  development: complete
+  status: playable
+  platforms:
+  - BBC Micro
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-30
+  updated: 2026-05-30
+
 - name: Pandora's Blocks
   originals:
   - 'Tetris: The Grand Master'
@@ -865,6 +949,65 @@
   video:
     youtube: m2Rw_1OFSho
 
+- name: Paper Mario
+  originals:
+  - Paper Mario
+  type: remake
+  repo: 'https://github.com/pmret/papermario'
+  url: 'https://papermar.io/'
+  development: sporadic
+  status: playable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Decompilation of Paper Mario (Nintendo 64)
+  added: 2026-06-07
+  updated: 2026-06-07
+
+- name: Paper Mario DX
+  originals:
+  - Paper Mario
+  type: remake
+  repo: 'https://github.com/bates64/papermario-dx'
+  url: 'https://docs.starhaven.dev/develop/dx/'
+  feed: 'https://github.com/bates64/papermario-dx/releases.atom'
+  development: active
+  status: semi-playable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: >-
+    A fork of the Paper Mario decompilation which provides a flexible,
+    easy-to-use base for creating romhacks.
+  added: 2026-06-07
+  updated: 2026-06-07
+
+- name: 'Paper Mario: The Thousand-Year Door'
+  originals:
+  - 'Paper Mario: The Thousand-Year Door'
+  type: remake
+  repo: 'https://github.com/doldecomp/ttyd'
+  development: very active
+  status: unplayable
+  platforms:
+  - GameCube
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - MIT
+  info: 'A decompilation of Paper Mario: The Thousand-Year Door.'
+  added: 2026-06-07
+  updated: 2026-06-07
+
 - name: Par Infinite Minesweeper
   originals:
   - Minesweeper
@@ -1037,6 +1180,27 @@
   - 'https://rflxn.com/paybacktime2/gallery/group_editor_2.png'
   - 'https://rflxn.com/paybacktime2/gallery/map_editor_1.png'
   - 'https://rflxn.com/paybacktime2/gallery/weapon_editor_2.png'
+
+- name: PC port of Animal Crossing
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/ACreTeam/forest'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - CC0
+  added: 2026-05-26
+  updated: 2026-05-26
 
 - name: PCS_AppleII
   originals:
@@ -1801,17 +1965,17 @@
   development: active
   originals:
   - Pizza Tycoon
-  status: semi-playable
+  status: playable
   repo: https://codeberg.org/cowomaly/pizzalegacy/
   type: remake
   multiplayer:
   - Hotseat
   content: commercial
   added: 2026-03-07
-  updated: 2026-03-07
+  updated: 2026-05-26
   url: https://pizzalegacy.nl
   video:
-    youtube: DBb6057QBVg
+    youtube: EpmJT6RckJk
 
 - name: Planet Blupi
   originals:
@@ -2027,6 +2191,24 @@
   video:
     youtube: gSGI31Mpeak
   updated: 2023-05-20
+
+- name: pokeemerald-wasm
+  originals:
+  - Pokémon Ruby and Sapphire
+  type: remake
+  repo: 'https://github.com/tripplyons/pokeemerald-wasm'
+  url: 'https://pokeemerald.com/'
+  development: active
+  status: playable
+  platforms:
+  - Web
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-07
+  updated: 2026-06-07
 
 - name: Pokémon Anniversary Red
   originals:
@@ -2985,6 +3167,30 @@
   - 'https://img.itch.zone/aW1hZ2UvMzE1MjQ0NS8xODgzMDI4Ny5wbmc=/original/1Fm7F8.png'
   video:
     youtube: WRSEHmit7YM
+
+- name: Pop'em
+  originals:
+  - SameGame
+  type: clone
+  repo: 'https://www.allegro.cc/depot/POPEM'
+  url: >-
+    https://web.archive.org/web/20080913162849mp_/http://www.freelunchdesign.com/games.php?id=4
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  - OSX
+  content: open
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - GPL2
+  added: 2026-05-02
+  updated: 2026-05-02
+  images:
+  - https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1135_small.gif
 
 - name: Portable Executable Zork
   originals:

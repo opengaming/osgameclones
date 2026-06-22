@@ -219,6 +219,25 @@
   images:
   - 'https://www.vintageisthenewold.com/wp-content/uploads/2019/05/rampage_6.png'
 
+- name: Rampage disassembly
+  originals:
+  - Rampage
+  type: remake
+  repo: 'https://github.com/pobtastic/rampage'
+  url: 'https://pobtastic.github.io/rampage/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  platforms:
+  - ZX Spectrum
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-06-03
+  updated: 2026-06-03
+
 - name: Rampart-Android
   info: Android
   langs:
@@ -1227,6 +1246,23 @@
   updated: 2026-01-09
   images:
   - 'https://revs.bbcelite.com/images/general/Revs.png'
+
+- name: Rex disassembly
+  originals:
+  - Rex
+  type: remake
+  repo: 'https://github.com/ultrabolido/skRex'
+  url: 'https://ultrabolido.github.io/skRex/RexSideA/'
+  development: halted
+  status: playable
+  platforms:
+  - ZX Spectrum
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-05-29
+  updated: 2026-05-29
 
 - name: Rezcraft
   originals:
@@ -2471,3 +2507,24 @@
   type: remake
   updated: 2020-08-25
   url: https://ryzom.com/
+
+- name: RZDoom
+  originals:
+  - Doom
+  type: remake
+  repo: 'https://github.com/atsb/RZDoom'
+  url: https://www.doomworld.com/forum/topic/126185-introducing-rzdoom-retro-zdoom-301-updated-april-17-2022/
+  feed: 'https://github.com/atsb/RZDoom/releases.atom'
+  development: sporadic
+  status: playable
+  platforms:
+  - OSX
+  - Linux
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  added: 2026-05-21
+  updated: 2026-05-21

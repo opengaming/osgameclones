@@ -153,10 +153,14 @@
 
 - name: 'Legacy of Kain: Soul Reaver'
   external:
+    website: 'https://www.mobygames.com/game/1525/legacy-of-kain-soul-reaver/'
     wikipedia: 'Legacy of Kain: Soul Reaver'
   platforms:
   - Dreamcast
   - PlayStation
+  - PlayStation 3
+  - PlayStation Vita
+  - PSP
   - Windows
   meta:
     genres:
@@ -164,6 +168,7 @@
     - Adventure
     themes:
     - Fantasy
+    - Horror
 
 - name: The Legend of Dragoon
   external:
@@ -314,6 +319,17 @@
     wikipedia: 'The Legend of Zelda: The Wind Waker'
   platforms:
   - GameCube
+  meta:
+    genres:
+    - Action
+    - Adventure
+
+- name: 'The Legend of Zelda: Twilight Princess'
+  external:
+    wikipedia: 'The Legend of Zelda: Twilight Princess'
+  platforms:
+  - GameCube
+  - Wii
   meta:
     genres:
     - Action

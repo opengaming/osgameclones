@@ -797,6 +797,29 @@
   added: 2026-05-14
   updated: 2026-05-14
 
+- name: glDoom
+  originals:
+  - Doom
+  type: remake
+  repo: 'https://github.com/atsb/glDoom'
+  url: 'https://web.archive.org/web/19991008171119/http://www.frag.com/doom/'
+  development: halted
+  status: playable
+  platforms:
+  - Linux
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - As-is
+  added: 2026-06-06
+  updated: 2026-06-06
+  images:
+  - 'https://raw.githubusercontent.com/atsb/glDoom/main/Resources/DOOM0000.png'
+
 - name: Glest Advanced Engine
   images:
   - https://a.fsdn.com/con/app/proj/glestae/screenshots/226566.jpg
@@ -1793,6 +1816,23 @@
   updated: 2026-01-09
   images:
   - 'https://a.fsdn.com/con/app/proj/gravastar/screenshots/264658.jpg'
+
+- name: Gravitar
+  originals:
+  - Gravitar
+  type: remake
+  repo: 'https://github.com/jotd666/gravitar'
+  development: sporadic
+  status: unplayable
+  platforms:
+  - Amiga
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-28
+  updated: 2026-05-28
 
 - name: Gravity Bone
   originals:

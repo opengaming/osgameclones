@@ -7,6 +7,8 @@
   feed: 'https://sourceforge.net/projects/j2mw-pacman329/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Mobile
   content: open
   langs:
   - Java
@@ -27,6 +29,8 @@
   url: https://jaihysc.github.io/jactorio.html
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   frameworks:
@@ -47,6 +51,8 @@
   feed: 'https://github.com/toarnold/jag2048/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Jaguar
   content: open
   langs:
   - C
@@ -72,6 +78,11 @@
   - Jagged Alliance 2
   repo: https://github.com/ja2-stracciatella/ja2-stracciatella
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   type: remake
   updated: 2019-08-17
   url: https://ja2-stracciatella.github.io
@@ -84,6 +95,8 @@
   url: 'https://web.archive.org/web/20190406170235/http://kermi.pp.fi/JA_UB/Source/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -91,6 +104,29 @@
   - As-is
   added: 2026-02-08
   updated: 2026-02-08
+
+- name: Jail Break
+  originals:
+  - Jail Break
+  type: remake
+  repo: 'https://github.com/jotd666/jailbreak'
+  url: 'https://jotd666.itch.io/jail-break'
+  feed: 'https://github.com/jotd666/jailbreak/releases.atom'
+  development: active
+  status: semi-playable
+  platforms:
+  - Amiga
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-03
+  updated: 2026-06-03
+  images:
+  - 'https://img.itch.zone/aW1nLzI0MzUzNzA4LnBuZw==/original/TmI%2FDP.png'
+  video:
+    youtube: Y0rKNVWWGek
 
 - name: Jake2
   images:
@@ -108,6 +144,8 @@
   originals:
   - Quake 2
   status: playable
+  platforms:
+  - None
   repo: https://sourceforge.net/projects/jake2/
   type: remake
   updated: 2021-09-28
@@ -122,6 +160,8 @@
   url: 'https://toivjon.wordpress.com/2017/11/12/javafx-pong/'
   development: complete
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Competitive
   - Local
@@ -147,6 +187,8 @@
   url: 'https://jakesgordon.com/writing/javascript-boulderdash/'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - JavaScript
@@ -165,6 +207,8 @@
   url: 'https://jakesgordon.com/writing/javascript-delta/'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -185,9 +229,34 @@
   originals:
   - E.T. the Extra-Terrestrial
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/FranciscoG/javascript-E.T.
   type: remake
   updated: 2022-02-07
+
+- name: Javascript Gauntlet
+  originals:
+  - Gauntlet
+  type: clone
+  repo: 'https://github.com/jakesgordon/javascript-gauntlet/'
+  url: 'https://jakesgordon.com/writing/javascript-gauntlet/'
+  development: halted
+  status: playable
+  platforms:
+  - Web
+  content: free
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2026-05-28
+  updated: 2026-05-28
+  images:
+  - 'https://jakesgordon.com/writing/javascript-gauntlet/splash.png'
+  - 'https://jakesgordon.com/writing/javascript-gauntlet/maze.png'
+  - 'https://jakesgordon.com/writing/javascript-gauntlet/surrounded.png'
+  - 'https://jakesgordon.com/writing/javascript-gauntlet/uhoh.png'
 
 - name: Javascript Tetris
   originals:
@@ -197,6 +266,8 @@
   url: 'https://jakesgordon.com/writing/javascript-tetris/'
   development: halted
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   - HTML
@@ -237,6 +308,8 @@
   url: 'https://www.romhacking.net/documents/513/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -263,6 +336,14 @@
   - Jazz Jackrabbit 2
   repo: https://github.com/deathkiller/jazz2-native
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Nintendo Switch
+  - Xbox
+  - Android
+  - Web
   type: remake
   updated: 2023-12-14
   url: http://deat.tk/jazz2/
@@ -278,6 +359,8 @@
     https://kotaku.com/lucasarts-closure-convinces-developers-to-release-aweso-468994505#:~:text=Jedi%20Academy
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -295,6 +378,8 @@
     https://kotaku.com/lucasarts-closure-convinces-developers-to-release-aweso-468994505#:~:text=Jedi%20Outcast
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - LAN
@@ -318,6 +403,8 @@
   originals:
   - 'Star Wars Jedi Knight: Jedi Academy'
   status: playable
+  platforms:
+  - Linux
   type: remake
   updated: 2013-05-28
   url: https://github.com/xLAva/JediAcademyLinux
@@ -331,6 +418,8 @@
   originals:
   - 'Star Wars Jedi Knight II: Jedi Outcast'
   status: playable
+  platforms:
+  - Linux
   type: remake
   updated: 2013-05-28
   url: https://github.com/xLAva/JediOutcastLinux
@@ -349,6 +438,9 @@
   originals:
   - Bruce Lee
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/Uvadzucumi/JetLee
   type: remake
   updated: 2022-09-13
@@ -361,6 +453,8 @@
   url: 'https://stardot.org.uk/forums/viewtopic.php?t=23054'
   development: halted
   status: playable
+  platforms:
+  - BBC Micro
   langs:
   - Assembly
   licenses:
@@ -381,6 +475,8 @@
   repo: 'https://github.com/TobyLobster/jsw'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   langs:
   - Assembly
   licenses:
@@ -400,6 +496,8 @@
   feed: 'https://github.com/skoolkid/jetsetwilly/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
   langs:
   - Skool
   licenses:
@@ -418,6 +516,8 @@
   originals:
   - Jet-Story
   status: semi-playable
+  platforms:
+  - Windows
   repo: https://github.com/adamenkov/jet-story
   type: remake
   updated: 2023-12-15
@@ -434,6 +534,8 @@
   originals:
   - Jetpac
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/ian-wigley/JetPac
   type: remake
   updated: 2022-09-13
@@ -449,6 +551,9 @@
   feed: 'https://sourceforge.net/p/jetrix/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   langs:
@@ -459,28 +564,6 @@
   added: 2025-12-26
   updated: 2025-12-26
 
-- name: jewelthief
-  images:
-  - https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163225.png
-  - https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163328.png
-  - https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163342.png
-  - https://raw.githubusercontent.com/frittatenbank/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163421.png
-  langs:
-  - Java
-  licenses:
-  - CC-BY
-  content: open
-  development: halted
-  originals:
-  - Jewel Thief
-  status: playable
-  repo: https://github.com/cdetamble/jewelthief
-  url: https://goo.gl/58hR5u
-  type: remake
-  updated: 2022-09-13
-  video:
-    youtube: RObU2xX5HiE
-
 - name: JExplosion
   originals:
   - Minesweeper
@@ -490,6 +573,9 @@
   feed: 'https://sourceforge.net/p/jexplosion/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - Java
@@ -505,14 +591,36 @@
   - 'https://a.fsdn.com/con/app/proj/jexplosion/screenshots/98202.jpg'
   - 'https://a.fsdn.com/con/app/proj/jexplosion/screenshots/98204.jpg'
 
+- name: Jezz-Ball
+  originals:
+  - JezzBall
+  type: clone
+  repo: https://www.hpcalc.org/details/4287
+  url: https://web.archive.org/web/20041215161056/http://www.hp-sources.com/Jezz-Ball/Jezz-Ball.htm
+  development: halted
+  status: semi-playable
+  platforms:
+  - HP calculator
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-26
+  updated: 2026-05-26
+  images:
+  - https://web.archive.org/web/20041015231540if_/http://www.hp-sources.com/Jezz-Ball/images/Jezz-Ball_demo.gif
+  - https://www.hpcalc.org/hp48/games/misc/sshots/jezzpack.png
+
 - name: Jezzball
   originals:
   - JezzBall
   type: clone
-  repo: 'https://github.com/tassaron/jezzball'
-  url: 'https://rainey.tech/game/jezzball'
+  repo: https://github.com/tassaron/jezzball-transgender
+  url: https://tassaron.com/game/jezzball
   development: complete
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -520,8 +628,6 @@
   - MIT
   info: Touchscreen compatible
   updated: '2023-07-14'
-  images:
-  - https://rainey.tech/static/client/rainey_arcade/img/projects/jezzball500x325.png
 
 - name: JFDuke3D
   type: remake
@@ -531,6 +637,9 @@
   url: https://www.jonof.id.au/jfduke3d
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - OSX
   multiplayer:
   - LAN
   langs:
@@ -553,6 +662,9 @@
   url: 'https://web.archive.org/web/20110303051207/http://jaj22.org.uk/jjffe/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - OSX
   content: commercial
   langs:
   - Assembly
@@ -582,6 +694,8 @@
   - Phantasy Star
   - Alex Kidd in Miracle World
   status: playable
+  platforms:
+  - None
   repo: https://github.com/rafael-esper/JLud2D
   type: remake
   updated: 2022-09-13
@@ -595,6 +709,8 @@
   feed: 'https://sourceforge.net/projects/jminesweeper/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - Java
@@ -616,6 +732,8 @@
   url: 'https://www.romhacking.net/documents/558/'
   development: halted
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -640,6 +758,9 @@
   - Shadow Warrior
   repo: https://github.com/jonof/jfsw
   status: playable
+  platforms:
+  - Windows
+  - OSX
   type: remake
   updated: 2020-08-25
   url: https://www.jonof.id.au/jfsw/
@@ -648,9 +769,13 @@
   originals:
   - Witchaven
   type: remake
+  url: https://www.jonof.id.au/capstone/
   repo: 'https://github.com/jonof/jfwhaven'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - OSX
   content: commercial
   langs:
   - C
@@ -660,6 +785,8 @@
   - As-is
   info: A WIP incomplete port of Witchaven using JFBuild.
   updated: 2022-02-08
+  images:
+  - https://www.jonof.id.au/capstone/splashwh.jpg
 
 - name: Joust Source Code Documented
   originals:
@@ -669,6 +796,8 @@
   url: 'https://www.romhacking.net/documents/514/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -687,6 +816,8 @@
   originals:
   - Overflow
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/bluepoke/JOverflow
   type: remake
   updated: 2022-09-13
@@ -698,6 +829,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/334/33493.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   frameworks:
@@ -718,6 +851,8 @@
   feed: 'https://sourceforge.net/projects/jscorch/rss'
   development: halted
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Competitive
   - Hotseat
@@ -749,6 +884,10 @@
   originals:
   - The Settlers III
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   repo: https://github.com/paulwedeck/settlers-remake
   type: remake
   updated: 2023-12-16
@@ -763,7 +902,10 @@
   content: commercial
   originals:
   - Fallout 2
-  status: semi-playable
+  status: unplayable
+  platforms:
+  - Web
+  url: https://ajxs.github.io/jsFO/
   repo: https://github.com/ajxs/jsFO
   type: remake
   updated: 2022-04-18
@@ -775,8 +917,12 @@
   repo: 'https://sourceforge.net/projects/jsokoapplet/'
   url: 'https://jsokoapplet.sourceforge.io/'
   feed: 'https://hosting.zeta-producer.com/7836711377/assets/php/blog/feed_1928.rss'
-  development: sporadic
+  development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Java
@@ -802,6 +948,9 @@
   originals:
   - Pac-Man
   status: playable
+  platforms:
+  - Web
+  url: https://www.hg10101.com/games/jspacman/index.html
   repo: https://github.com/hguillermo/jspacman-canvas
   type: remake
   updated: 2022-09-13
@@ -814,6 +963,8 @@
   url: 'https://jswmm.co.uk/topic/28-jsw-bbc-computer-version/#comment-124'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   langs:
   - Assembly
   licenses:
@@ -835,6 +986,14 @@
   repo: https://github.com/bvschaik/julius
   feed: https://github.com/bvschaik/julius/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - PlayStation Vita
+  - Android
+  - Nintendo Switch
+  - Web
   type: remake
   updated: 2023-12-17
   images:
@@ -849,6 +1008,8 @@
   feed: 'https://sourceforge.net/p/jumpnroll/code/feed/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C++
@@ -876,6 +1037,8 @@
   originals:
   - Jump 'n Bump
   status: playable
+  platforms:
+  - Windows
   type: remake
   updated: 2022-08-10
   url: https://www.icculus.org/jumpnbump/
@@ -891,6 +1054,9 @@
   originals:
   - Jumping Jack
   status: playable
+  platforms:
+  - Windows
+  - OSX
   type: remake
   added: 2015-04-13
   updated: 2022-06-15
@@ -909,6 +1075,9 @@
   originals:
   - Jumping Jack
   status: playable
+  platforms:
+  - Windows
+  - OSX
   multiplayer:
   - Competitive
   - Local
@@ -928,6 +1097,8 @@
   originals:
   - Jumpman
   status: playable
+  platforms:
+  - DOS
   type: remake
   updated: 2022-09-13
   url: http://www.oldskool.org/pc/jumpman
@@ -940,6 +1111,8 @@
   feed: 'https://github.com/OpenTrespasser/JurassicParkTrespasser/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -958,6 +1131,12 @@
   feed: 'https://github.com/Upwinded/JXQY-all-in-one/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - iOS
+  - Android
   content: commercial
   langs:
   - C++
@@ -977,6 +1156,8 @@
   url: 'https://mngyou.github.io/jy2-copy/'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - JavaScript
@@ -995,6 +1176,8 @@
   repo: 'https://github.com/scarsty/jy-remake'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: commercial
   langs:
   - C++
@@ -1015,6 +1198,10 @@
   feed: 'https://github.com/jynew/jynew/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - iOS
+  - Android
   content: free
   langs:
   - 'C#'

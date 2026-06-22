@@ -5,6 +5,8 @@
   url: 'https://www.dettus.net/n2048/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -26,6 +28,10 @@
   originals:
   - Escape Velocity
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/naev/naev
   url: https://naev.org
   type: similar
@@ -50,6 +56,8 @@
   feed: 'https://github.com/dgelessus/NAGUS/releases.atom'
   development: active
   status: unplayable
+  platforms:
+  - None
   multiplayer:
   - Online
   content: free
@@ -68,6 +76,10 @@
   repo: 'https://github.com/atsb/NakedAVP'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C
@@ -91,6 +103,9 @@
   repo: 'https://github.com/atsb/NakedGish'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C
@@ -109,6 +124,9 @@
   feed: 'https://github.com/atsb/NakedHeretic/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - LAN
   content: commercial
@@ -132,6 +150,9 @@
   feed: 'https://github.com/atsb/NakedHexen/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C
@@ -175,9 +196,14 @@
   originals:
   - Nanosaur
   type: remake
+  url: https://pangeasoft.net/nano/
   repo: 'https://github.com/jorio/Nanosaur'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C
@@ -200,6 +226,10 @@
   feed: 'https://github.com/jorio/Nanosaur2/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Local
   content: free
@@ -232,6 +262,8 @@
   repo: 'https://github.com/doldecomp/gnt4'
   development: halted
   status: semi-playable
+  platforms:
+  - GameCube
   multiplayer:
   - Local
   content: commercial
@@ -248,10 +280,11 @@
   - Natural Selection
   type: official
   repo: 'https://github.com/unknownworlds/NS/'
-  url: >-
-    https://www.polygon.com/2014/1/23/5337220/natural-selection-dev-releases-games-source-code/
+  url: https://www.polygon.com/2014/1/23/5337220/natural-selection-dev-releases-games-source-code/
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -277,6 +310,8 @@
   url: 'https://x.com/_codebound_/status/1721751462970036396'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   content: free
   langs:
   - Assembly
@@ -296,6 +331,8 @@
   url: https://nukeykt.retrohost.net/
   development: very active
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -322,6 +359,12 @@
   feed: 'https://github.com/nCine/ncInvaders/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - Web
   langs:
   - C++
   frameworks:
@@ -340,6 +383,8 @@
   repo: 'https://github.com/a-massoud/ncmines'
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -356,6 +401,8 @@
   repo: 'https://github.com/milkeybabes/Nemesis-the-Warlock'
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   content: commercial
   langs:
   - Assembly
@@ -382,6 +429,8 @@
   originals:
   - Another World
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/fabiensanglard/Another-World-Bytecode-Interpreter
   type: remake
   updated: 2021-09-13
@@ -400,6 +449,8 @@
   - Graphics32
   development: very active
   status: playable
+  platforms:
+  - Windows
   content: swappable
   licenses:
   - CC-BY-NC
@@ -413,6 +464,10 @@
   - Return to Castle Wolfenstein
   type: remake
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: 'https://github.com/klaussilveira/neortcw'
   development: active
   content: commercial
@@ -439,6 +494,8 @@
   url: 'https://archive.org/details/CaptainComicSourceCode'
   development: complete
   status: playable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -454,6 +511,8 @@
   url: 'https://kdelaney.neocities.org/nescaves/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -475,6 +534,8 @@
   url: 'https://elite.bbcelite.com/nes/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -529,6 +590,8 @@
   url: 'https://www.romhacking.net/forum/index.php?topic=32220.0'
   development: active
   status: semi-playable
+  platforms:
+  - NES
   multiplayer:
   - Competitive
   - Local
@@ -550,6 +613,8 @@
   url: 'https://archive.org/details/pesterminatorsourcecode'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -567,6 +632,8 @@
   feed: 'https://codeberg.org/relax/top-gun.atom'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Lua
@@ -588,6 +655,8 @@
   url: 'https://web.archive.org/web/20060209095817/http://www.net-bubble.org/'
   development: halted
   status: playable
+  platforms:
+  - Amiga
   content: open
   langs:
   - C
@@ -614,6 +683,11 @@
   - MIT
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   multiplayer:
   - Competitive
   - Online
@@ -634,6 +708,10 @@
   feed: https://github.com/4ndrej/nether-earth-pc/releases.atom
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C++
   frameworks:
@@ -655,6 +733,8 @@
   repo: 'https://github.com/gondur/netnuclear_src'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - LAN
   - Competitive
@@ -679,6 +759,8 @@
   repo: 'https://github.com/bonzini/netrobots'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Competitive
   - Online
@@ -708,6 +790,10 @@
   originals:
   - Super Monkey Ball
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/Neverball/neverball
   type: clone
   updated: 2019-11-20
@@ -720,6 +806,8 @@
   repo: 'https://github.com/projectPiki/pik1wii'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Wii
   content: commercial
   langs:
   - C++
@@ -743,6 +831,8 @@
   originals:
   - Another World
   status: playable
+  platforms:
+  - Linux
   repo: https://sourceforge.net/projects/newraw/
   type: remake
   updated: 2021-09-13
@@ -758,12 +848,33 @@
   originals:
   - Utopia
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/gamejs/newutopia
   type: remake
   updated: 2022-01-26
-  url: https://apps.gamejs.org/newutopia/
   images:
   - https://gamejs.org/files/utopia_bcb8d499cc07.png
+
+- name: NewAnoid
+  originals:
+  - Breakout
+  type: clone
+  url: 'https://www.allegro.cc/depot/NewAnoid'
+  development: halted
+  status: semi-playable
+  platforms:
+  - Windows
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-05-20
+  updated: 2026-05-20
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1528_large.png'
 
 - name: newtron
   langs:
@@ -774,6 +885,8 @@
   originals:
   - Tron
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/sursonico/newtron
   type: remake
   updated: 2015-06-01
@@ -786,6 +899,8 @@
   content: commercial
   development: active
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Local
   repo: 'https://github.com/motor-dev/nfs-recompiled'
@@ -822,6 +937,9 @@
   repo: https://github.com/zaps166/NFSIISE
   feed: https://github.com/zaps166/NFSIISE/releases.atom
   status: playable
+  platforms:
+  - Android
+  - Linux
   multiplayer:
   - Online
   - Competitive
@@ -836,6 +954,8 @@
   repo: 'https://github.com/abdulahmad/NHL94Genesis'
   development: sporadic
   status: unplayable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -851,6 +971,8 @@
   repo: 'https://github.com/Chaos81/nhl94-disassembly'
   development: sporadic
   status: unplayable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -867,6 +989,8 @@
   url: 'https://x.com/_codebound_/status/1758669344975024576'
   development: complete
   status: playable
+  platforms:
+  - Genesis
   multiplayer:
   - Local
   content: free
@@ -884,6 +1008,8 @@
   repo: 'https://github.com/abdulahmad/NHLPA93Genesis'
   development: sporadic
   status: unplayable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -898,6 +1024,8 @@
   type: clone
   url: 'https://www.calculatorti.com/ti-games/ti-89/asm/nibbles-classic/'
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -919,6 +1047,8 @@
   feed: 'https://pypi.org/rss/project/nicegui-minesweeper/releases.xml'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   langs:
   - Python
   frameworks:
@@ -938,6 +1068,8 @@
   url: 'http://cyxdown.free.fr/nicky/'
   development: halted
   status: playable
+  platforms:
+  - Amiga
   content: commercial
   langs:
   - C
@@ -968,6 +1100,8 @@
   - Paradroid
   repo: https://sourceforge.net/projects/night-hawk/
   status: playable
+  platforms:
+  - Linux
   type: remake
   updated: 2013-05-27
   url: https://night-hawk.sourceforge.io/
@@ -980,6 +1114,8 @@
   feed: 'https://sourceforge.net/p/nil/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1003,6 +1139,8 @@
   feed: 'https://sourceforge.net/projects/nimesweeper/rss?path=/'
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -1027,6 +1165,8 @@
   url: 'https://forums.nesdev.org/viewtopic.php?t=19691'
   development: complete
   status: playable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -1043,6 +1183,8 @@
   feed: 'https://sourceforge.net/p/ninvaders/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1063,6 +1205,8 @@
   repo: 'https://github.com/CommitteeOfZero/nitrosharp'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -1084,6 +1228,11 @@
   feed: 'https://salsa.debian.org/debian/njam.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - BeOS
   content: open
   langs:
   - C++
@@ -1108,6 +1257,9 @@
   originals:
   - Larn
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/nlarn/nlarn
   type: remake
   updated: 2022-11-12
@@ -1129,6 +1281,10 @@
   feed: 'https://sourceforge.net/projects/nogravity/rss?path=/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - BeOS
   content: open
   langs:
   - C
@@ -1157,6 +1313,8 @@
   feed: 'https://haekb.itch.io/nolf2-modernizer/devlog.rss'
   development: active
   status: N/A
+  platforms:
+  - Windows
   langs:
   - C++
   licenses:
@@ -1184,6 +1342,8 @@
   url: 'https://haekb.itch.io/nolf-modernizer'
   development: halted
   status: N/A
+  platforms:
+  - Windows
   langs:
   - C++
   frameworks:
@@ -1208,6 +1368,8 @@
     https://web.archive.org/web/20231222161323/https://eludevisibility.org/2018/super-noahs-ark-3d-source-code
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - C
@@ -1234,6 +1396,8 @@
   originals:
   - Nodes of Yesod
   status: semi-playable
+  platforms:
+  - Windows
   repo: https://github.com/ian-wigley/Nodes-of-Yesod
   type: remake
   updated: 2024-04-09
@@ -1249,6 +1413,8 @@
   url: 'https://sourceforge.net/projects/norseworld/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - 'C#'
@@ -1269,6 +1435,10 @@
   feed: 'https://github.com/Stabyourself/notpacman/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - Lua
@@ -1295,6 +1465,8 @@
   url: 'https://www.hpcalc.org/details/547'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   multiplayer:
   - Local
   langs:
@@ -1314,6 +1486,10 @@
   repo: 'https://github.com/Kinniken/NoxImperii'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C
@@ -1336,6 +1512,8 @@
   feed: 'https://sourceforge.net/projects/npush/rss'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1366,6 +1544,8 @@
   originals:
   - Stars!
   status: playable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/nstars/
   type: remake
   updated: 2022-09-23
@@ -1383,6 +1563,10 @@
   originals:
   - Tetris
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   - LAN
@@ -1394,6 +1578,31 @@
   - https://tetris.wiki/images/5/55/Nullpomino_title.png
   - https://tetris.wiki/images/4/4a/Nullpomino_ingame.png
 
+- name: Numpty Physics
+  originals:
+  - Crayon Physics Deluxe
+  type: clone
+  repo: 'https://gitlab.com/thp/numptyphysics'
+  url: https://web.archive.org/web/20170920033336/http://numptyphysics.garage.maemo.org/
+  feed: 'https://gitlab.com/thp/numptyphysics.atom'
+  development: halted
+  status: playable
+  platforms:
+  - Linux
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Box2D
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2026-05-02
+  updated: 2026-05-02
+  images:
+  - https://web.archive.org/web/20170713161030if_/http://numptyphysics.garage.maemo.org/images/np_title.jpg
+  - https://web.archive.org/web/20170713153221if_/http://numptyphysics.garage.maemo.org/images/np_l2.jpg
+
 - name: Nuncabola
   type: clone
   originals:
@@ -1402,6 +1611,10 @@
   repo: https://github.com/Calinou/nuncabola
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - Java
   frameworks:
@@ -1431,6 +1644,10 @@
   - 'Ultima: Worlds of Adventure 2: Martian Dreams'
   - 'Worlds of Ultima: The Savage Empire'
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/nuvie/nuvie
   type: remake
   url: https://nuvie.sourceforge.net/
@@ -1452,6 +1669,9 @@
   repo: https://github.com/EXL/NXEngine
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2023-03-12
   url: https://nxengine.sourceforge.io
@@ -1472,5 +1692,9 @@
   repo: https://github.com/nxengine/nxengine-evo
   feed: https://github.com/nxengine/nxengine-evo/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2024-04-10
