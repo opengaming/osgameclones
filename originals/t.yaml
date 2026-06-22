@@ -483,10 +483,20 @@
 
 - name: Thrust
   external:
+    website: 'https://www.mobygames.com/game/16400/thrust/'
     wikipedia: Thrust (video game)
+  platforms:
+  - Amstrad CPC
+  - Atari
+  - BBC Micro
+  - Commodore 64
+  - ZX Spectrum
   meta:
     genres:
     - Arcade
+    - Shooter
+    themes:
+    - Sci-Fi
 
 - name: Thunder Force IV
   names:
