@@ -235,6 +235,32 @@
   added: 2026-02-13
   updated: 2026-02-13
 
+- name: Paciana Dones
+  originals:
+  - Pac-Man
+  - Sokoban
+  type: similar
+  url: 'https://www.allegro.cc/depot/PacianaDones'
+  development: halted
+  status: playable
+  platforms:
+  - DOS
+  - Linux
+  - Windows
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - Custom
+  added: 2026-05-26
+  updated: 2026-05-26
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/4517_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/4518_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/4519_large.png'
+
 - name: pack_2048
   originals:
   - '2048'
@@ -520,6 +546,23 @@
   updated: 2025-10-05
   images:
   - 'https://a.fsdn.com/con/app/proj/pacmanincwithsd/screenshots/pacman-game.jpg'
+
+- name: pacman (NES)
+  originals:
+  - Pac-Man
+  type: remake
+  repo: 'https://github.com/furrykef/pacman'
+  development: halted
+  status: semi-playable
+  platforms:
+  - NES
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-11
+  updated: 2026-06-11
 
 - name: Pacman-popup
   originals:
@@ -1137,6 +1180,27 @@
   - 'https://rflxn.com/paybacktime2/gallery/group_editor_2.png'
   - 'https://rflxn.com/paybacktime2/gallery/map_editor_1.png'
   - 'https://rflxn.com/paybacktime2/gallery/weapon_editor_2.png'
+
+- name: PC port of Animal Crossing
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/ACreTeam/forest'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - CC0
+  added: 2026-05-26
+  updated: 2026-05-26
 
 - name: PCS_AppleII
   originals:
@@ -3082,6 +3146,30 @@
   - 'https://img.itch.zone/aW1hZ2UvMzE1MjQ0NS8xODgzMDI4Ny5wbmc=/original/1Fm7F8.png'
   video:
     youtube: WRSEHmit7YM
+
+- name: Pop'em
+  originals:
+  - SameGame
+  type: clone
+  repo: 'https://www.allegro.cc/depot/POPEM'
+  url: >-
+    https://web.archive.org/web/20080913162849mp_/http://www.freelunchdesign.com/games.php?id=4
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  - OSX
+  content: open
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - GPL2
+  added: 2026-05-02
+  updated: 2026-05-02
+  images:
+  - https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1135_small.gif
 
 - name: Portable Executable Zork
   originals:

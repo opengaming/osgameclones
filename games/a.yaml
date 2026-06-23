@@ -443,6 +443,24 @@
   added: 2025-12-27
   updated: 2025-12-27
 
+- name: afe-decomp
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/ACreTeam/afe-decomp'
+  development: very active
+  status: unplayable
+  platforms:
+  - GameCube
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Decompilation of Animal Forest e+ (JP)
+  added: 2026-05-26
+  updated: 2026-05-26
+
 - name: After Protocol
   originals:
   - Beyond Protocol
@@ -748,6 +766,42 @@
   updated: 2026-01-10
   video:
     youtube: dn4HIVJY4EM
+
+- name: Akhenaten
+  originals:
+  - Pharaoh
+  type: remake
+  repo: 'https://github.com/dalerank/Akhenaten'
+  url: 'https://dalerank.github.io/Akhenaten/'
+  feed: 'https://dalerank.itch.io/akhenaten/devlog.rss'
+  development: very active
+  status: playable
+  platforms:
+  - Web
+  - Windows
+  - Linux
+  - OSX
+  content: commercial
+  langs:
+  - C++
+  - JavaScript
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2026-05-06
+  updated: 2026-05-06
+  images:
+  - https://img.itch.zone/aW1nLzEyODg5OTY0LnBuZw==/original/q6p6us.png
+  - https://dalerank.github.io/Akhenaten/images/city_full.png
+  - https://dalerank.github.io/Akhenaten/images/pharaoh_oss.png
+  - https://dalerank.github.io/Akhenaten/images/screen02.png
+  - https://dalerank.github.io/Akhenaten/images/screen03.png
+  - https://dalerank.github.io/Akhenaten/images/screen07.png
+  - https://dalerank.github.io/Akhenaten/images/transport.gif
+  - https://dalerank.github.io/Akhenaten/images/sound-settings.png
+  - https://dalerank.github.io/Akhenaten/images/mastaba-construction-2.png
+  - https://dalerank.github.io/Akhenaten/images/mission-select-window.png
 
 - name: Aklabeth
   licenses:
@@ -1643,6 +1697,47 @@
     https://web.archive.org/web/20170506100454im_/https://www.sacredchao.net/~piman/angrydd/screen-5.png
   - >-
     https://web.archive.org/web/20170506100454im_/https://www.sacredchao.net/~piman/angrydd/screen-6.png
+
+- name: Animal Crossing
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/ACreTeam/ac-decomp'
+  url: >-
+    https://gbatemp.net/threads/animal-crossing-for-the-gamecube-has-been-decompiled.672373/
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - GameCube
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Decompilation in progress of Animal Crossing for the Nintendo GameCube.
+  added: 2026-05-26
+  updated: 2026-05-26
+
+- name: Animal Forest
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/zeldaret/af'
+  url: 'https://zeldaret.github.io/af/'
+  development: sporadic
+  status: unplayable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Decompilation of Animal Forest
+  added: 2026-05-26
+  updated: 2026-05-26
 
 - name: Anodyne
   originals:
