@@ -491,6 +491,27 @@
   video:
     youtube: nmYxGlAo-s0
 
+- name: Scuffed Minecraft
+  originals:
+  - Minecraft
+  type: clone
+  repo: 'https://github.com/EvanatorM/ScuffedMinecraft'
+  feed: 'https://github.com/EvanatorM/ScuffedMinecraft/releases.atom'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - MIT
+  added: 2026-06-01
+  updated: 2026-06-01
+
 - name: ScummVM
   images:
   - https://www.scummvm.org/data/screenshots/wintermute/ritter/ritter_win_de_1_10_full.png
