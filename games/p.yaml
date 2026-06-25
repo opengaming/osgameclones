@@ -1680,7 +1680,7 @@
 - name: 'Pirates: Naval Combat'
   originals:
   - Sid Meier's Pirates!
-  type: clone
+  type: similar
   repo: 'https://github.com/piwodlaiwo/pirates/'
   url: 'https://piwodlaiwo.github.io/pirates/'
   development: very active
@@ -1689,6 +1689,8 @@
   - Web
   langs:
   - TypeScript
+  frameworks:
+  - Vite
   licenses:
   - As-is
   added: 2026-06-14
