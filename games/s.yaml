@@ -491,6 +491,27 @@
   video:
     youtube: nmYxGlAo-s0
 
+- name: Scuffed Minecraft
+  originals:
+  - Minecraft
+  type: clone
+  repo: 'https://github.com/EvanatorM/ScuffedMinecraft'
+  feed: 'https://github.com/EvanatorM/ScuffedMinecraft/releases.atom'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - MIT
+  added: 2026-06-01
+  updated: 2026-06-01
+
 - name: ScummVM
   images:
   - https://www.scummvm.org/data/screenshots/wintermute/ritter/ritter_win_de_1_10_full.png
@@ -1928,6 +1949,22 @@
   added: 2026-05-06
   updated: 2026-05-06
 
+- name: SFCDRE
+  originals:
+  - Shining Force CD
+  type: remake
+  repo: 'https://github.com/ShiningForceCentral/SFCDRE'
+  development: halted
+  status: unplayable
+  platforms:
+  - Sega CD
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-13
+  updated: 2026-06-13
+
 - name: sh3redux
   originals:
   - Silent Hill 3
@@ -2705,6 +2742,23 @@
   - As-is
   added: 2026-05-06
   updated: 2026-05-06
+
+- name: SITDRE
+  originals:
+  - Shining in the Darkness
+  type: remake
+  repo: 'https://github.com/ShiningForceCentral/SITDRE'
+  development: halted
+  status: unplayable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-13
+  updated: 2026-06-13
 
 - name: SkiFree
   originals:
@@ -6868,6 +6922,27 @@
   type: remake
   updated: 2021-12-21
   url: http://jotd.pagesperso-orange.fr/supercars3/
+
+- name: supercopter_decompiled
+  originals:
+  - Supercopter
+  type: remake
+  repo: 'https://github.com/ergonomy-joe/supercopter_decompiled'
+  development: complete
+  status: playable
+  platforms:
+  - DOS
+  multiplayer:
+  - Hotseat
+  content: commercial
+  langs:
+  - Pascal
+  frameworks:
+  - Borland
+  licenses:
+  - As-is
+  added: 2026-06-12
+  updated: 2026-06-12
 
 - name: SuperFoulEgg
   langs:
