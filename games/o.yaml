@@ -13,6 +13,8 @@
   originals:
   - U95
   status: semi-playable
+  platforms:
+  - Windows
   repo: https://github.com/ForNeVeR/O21
   type: remake
   updated: 2025-05-19
@@ -22,11 +24,12 @@
   - Blasto
   type: clone
   repo: 'https://github.com/classilla/oblast'
-  url: >-
-    https://oldvcr.blogspot.com/2025/12/oblast-better-blasto-game-for-commodore.html
+  url: https://oldvcr.blogspot.com/2025/12/oblast-better-blasto-game-for-commodore.html
   feed: 'https://github.com/classilla/oblast/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Commodore 64
   multiplayer:
   - Local
   content: open
@@ -53,8 +56,15 @@
   originals:
   - HuniePop
   info: HuniePop without the Hunnies
+  url: https://wijsman.de/oceanpop/
   repo: https://github.com/sharkwouter/oceanpop
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - PSP
+  - PlayStation Vita
+  - Wii
   type: clone
   updated: 2022-10-23
 
@@ -71,6 +81,8 @@
   originals:
   - Octopus
   status: playable
+  platforms:
+  - iOS
   repo: https://github.com/roger-wetzel/Octopus
   type: remake
   updated: 2016-02-08
@@ -87,6 +99,10 @@
   - Hexen
   repo: https://github.com/odamex/odamex
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   url: https://odamex.net
   updated: 2019-11-20
@@ -107,6 +123,8 @@
   feed: 'https://github.com/setube/ogame-vue-ts/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - TypeScript
@@ -126,6 +144,9 @@
   url: https://ogrian.sourceforge.net
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -145,6 +166,8 @@
   feed: 'https://sourceforge.net/p/olympiag3/activity/feed'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   langs:
@@ -163,6 +186,8 @@
   feed: 'https://sourceforge.net/p/olympiapbem/code/feed/'
   development: halted
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -183,6 +208,8 @@
   url: 'https://www.pbm.com/oly/tag/'
   development: halted
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -204,6 +231,8 @@
   originals:
   - Omega Race
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/UnforgivenRob/Omega-Race-Remake
   type: clone
   updated: 2015-05-29
@@ -224,6 +253,9 @@
   originals:
   - Commander Keen Series
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/sulix/omnispeak
   type: remake
   updated: 2021-12-01
@@ -241,6 +273,8 @@
   originals:
   - Sensitive
   status: semi-playable
+  platforms:
+  - Windows
   type: remake
   updated: 2019-11-20
   url: https://gordebak.itch.io/onewaytogo
@@ -254,6 +288,10 @@
   feed: 'https://github.com/KaKaShUruKioRa/The-Only-One-Project/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - Lua
@@ -282,6 +320,8 @@
   url: 'https://bbcmicro.co.uk/game.php?id=2580'
   development: halted
   status: semi-playable
+  platforms:
+  - BBC Micro
   content: open
   langs:
   - Assembly
@@ -303,6 +343,9 @@
   originals:
   - Elite
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/OoliteProject/oolite
   langs:
   - Objective-C
@@ -310,7 +353,7 @@
   - SDL
   - OpenGL
   type: clone
-  url: http://www.oolite.org/
+  url: https://www.oolite.space
   updated: 2018-10-06
 
 - name: Open76
@@ -320,6 +363,8 @@
   repo: 'https://github.com/r1sc/Open76'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: commercial
   langs:
   - C#
@@ -343,6 +388,8 @@
   feed: 'https://gitlab.com/esr/open-adventure.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -358,6 +405,8 @@
   feed: 'https://sourceforge.net/projects/openarkanoid/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - BlitzMax
@@ -379,6 +428,8 @@
   originals:
   - Battle Chess
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/blueveno/openbattlechess
   type: remake
   updated: 2019-03-29
@@ -387,11 +438,14 @@
   originals:
   - Blades of Exile
   type: remake
-  repo: https://k7izh9.gitea.cloud/openboe/oboe
+  repo: https://codeberg.org/OpenBoE/oboe
   url: 'http://openboe.com'
-  feed: https://k7izh9.gitea.cloud/openboe/oboe.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C++
@@ -419,6 +473,8 @@
   - 'Cube 2: Sauerbraten'
   repo: https://github.com/team-cube/open-cube
   status: semi-playable
+  platforms:
+  - None
   type: remake
   added: 2016-04-20
   updated: 2024-06-24
@@ -434,6 +490,9 @@
   - Cannon Fodder
   repo: https://github.com/OpenFodder/openfodder
   status: playable
+  platforms:
+  - Windows
+  - Web
   type: remake
   updated: 2022-11-29
   url: http://openfodder.com/
@@ -448,6 +507,10 @@
   url: https://troel.net/opengreedy/
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - C
@@ -476,6 +539,8 @@
   originals:
   - Heavy Smash
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/namelivia/open-heavy-smash
   type: remake
   updated: 2015-05-28
@@ -490,11 +555,14 @@
   development: sporadic
   originals:
   - Super Hexagon
-  repo: https://github.com/SuperV1234/SSVOpenHexagon
+  repo: https://github.com/vittorioromeo/SSVOpenHexagon
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: clone
   updated: 2013-09-11
-  url: https://vittorioromeo.info/projects.html
+  url: https://vittorioromeo.com/openhexagon.html
   video:
     youtube: Wth0Z2eMezE
 
@@ -512,6 +580,10 @@
   content: commercial
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   originals:
   - 'Ace Combat: Assault Horizon'
   repo: https://github.com/undefined-darkness/open-horizon
@@ -531,6 +603,10 @@
   repo: https://github.com/akarnokd/open-ig
   feed: https://github.com/akarnokd/open-ig/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2013-12-11
   updated: 2024-06-18
@@ -549,6 +625,9 @@
   feed: 'https://sourceforge.net/projects/open-invaders/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -571,6 +650,8 @@
   url: 'https://www.classicdosgames.com/forum/viewtopic.php?p=8301'
   development: halted
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - C++
@@ -591,6 +672,9 @@
   originals:
   - 'Jumpgate: The Reconstruction Initiative'
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2021-09-17
   repo: https://sourceforge.net/projects/opengate/
@@ -607,6 +691,10 @@
   repo: https://github.com/ssenegas/kickoff
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - Java
   frameworks:
@@ -630,6 +718,8 @@
   frameworks:
   - DirectX
   status: semi-playable
+  platforms:
+  - Windows
   content: open
   licenses:
   - MIT
@@ -648,6 +738,8 @@
   originals:
   - Meridian 59
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/OpenMeridian/Meridian59
   type: remake
   updated: 2015-06-02
@@ -669,30 +761,13 @@
   originals:
   - Panzer General
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/nicupavel/openpanzer
   type: remake
   added: 2012-06-29
   updated: 2024-06-20
   url: https://panzermarshal.com
-
-- name: Open Portal Engine
-  type: clone
-  originals:
-  - Portal
-  repo: https://github.com/lpuglia/Open-Portal
-  development: halted
-  status: playable
-  langs:
-  - C++
-  frameworks:
-  - OpenGL
-  licenses:
-  - As-is
-  content: free
-  added: 2019-05-24
-  updated: 2019-05-24
-  video:
-    youtube: tqqeUCzWcdQ
 
 - name: Open Quartz
   originals:
@@ -702,6 +777,9 @@
   url: https://openquartz.sourceforge.net/index.html
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Competitive
   - Online
@@ -732,6 +810,8 @@
   originals:
   - Microsoft Train Simulator
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/openrails/openrails
   type: clone
   updated: 2022-10-15
@@ -754,6 +834,8 @@
   licenses:
   - MIT
   status: semi-playable
+  platforms:
+  - Windows
   development: halted
   originals:
   - Rodent's Revenge
@@ -769,6 +851,8 @@
   url: https://rsc.vet
   development: active
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Online
   langs:
@@ -795,6 +879,10 @@
   url: https://opensnc.sourceforge.net/home/index.php
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C
   frameworks:
@@ -829,6 +917,10 @@
   originals:
   - Sonic the Hedgehog
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   repo: https://github.com/alemart/opensurge
   type: clone
   updated: 2019-08-27
@@ -845,10 +937,16 @@
   originals:
   - Shobon no Action
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
+  - Amiga
   repo: https://sourceforge.net/projects/opensyobon
   type: remake
   updated: 2022-06-20
-  url: https://www.jezng.com/open-syobon-action.js/
+  url: https://jezng.com/open-syobon-action.js/
   video:
     youtube: rzP0FeBN_AE
 
@@ -859,6 +957,10 @@
   repo: 'https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited'
   development: very active
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   licenses:
   - As-is
   langs:
@@ -868,10 +970,16 @@
   - Vulkan
   added: 2025-10-19
   updated: 2025-10-19
+  images:
+  - https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/blob/main/screenshots/carshowcase_ccr.jpeg?raw=true
+  - https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/blob/main/screenshots/worldviewer_1.jpg?raw=true
+  - https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/blob/main/screenshots/worldviewer_3.jpg?raw=true
 
 - name: Open Zelda
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - CC-BY-NC-SA
   - Zlib
@@ -880,6 +988,9 @@
   - Legend of Zelda
   repo: https://github.com/openzelda/openzelda-source
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: clone
   updated: 2019-09-13
   video:
@@ -907,6 +1018,8 @@
   - 'Star Wars: Galactic Battlegrounds'
   repo: https://github.com/SFTtech/openage
   status: semi-playable
+  platforms:
+  - Linux
   type: remake
   updated: 2019-05-28
   info: We create a modern RTS engine for AoE-style gameplay. Including modding API, curve-based gamestate, a new renderer
@@ -920,6 +1033,10 @@
   - MIT
   development: very active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   originals:
   - 'X-COM: Apocalypse'
   content: commercial
@@ -948,6 +1065,10 @@
   originals:
   - Quake 3
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/OpenArena/engine
   type: remake
   updated: 2019-08-27
@@ -960,6 +1081,8 @@
   repo: 'https://gitlab.com/Mige5/openarena'
   development: sporadic
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -975,8 +1098,13 @@
   repo: https://github.com/OpenAWE-Project/OpenAWE
   development: active
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C++
+  frameworks:
+  - OpenGL
   licenses:
   - GPL3
   content: commercial
@@ -989,10 +1117,10 @@
   - Resident Evil 2
   type: remake
   repo: 'https://github.com/samuelyuan/OpenBiohazard2'
-  url: https://openbiohazard2.github.io/
-  feed: https://openbiohazard2.github.io/feed.xml
   development: sporadic
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - Go
@@ -1015,6 +1143,12 @@
   repo: https://github.com/openblack/openblack
   development: active
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - Web
   langs:
   - C++
   frameworks:
@@ -1024,6 +1158,9 @@
   - GPL3
   content: commercial
   updated: 2019-08-06
+  images:
+  - https://user-images.githubusercontent.com/32263167/184559293-56cfc6a7-a7da-4876-8fce-434ba8827eae.png
+  - https://user-images.githubusercontent.com/32263167/184559291-f37e44b3-c738-4c0f-82eb-28b7c84a3919.png
 
 - name: OpenBlok
   langs:
@@ -1036,6 +1173,9 @@
   originals:
   - Tetris
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/mmatyas/openblok
   type: clone
   updated: 2018-12-05
@@ -1049,9 +1189,14 @@
   - Double Dragon
   - Final Fight
   repo: https://github.com/DCurrent/openbor
-  url: https://www.chronocrash.com/forum/#openbor.12
+  url: https://www.chronocrash.com
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
+  - Wii
   langs:
   - C
   frameworks:
@@ -1071,6 +1216,8 @@
   repo: 'https://github.com/WickedPeanuts/OpenBound'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1099,6 +1246,8 @@
   repo: 'https://github.com/mrpetro/OpenBreed'
   development: sporadic
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -1119,6 +1268,10 @@
   url: https://openbve-project.net/
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C#
   licenses:
@@ -1137,6 +1290,8 @@
   type: remake
   content: commercial
   status: unplayable
+  platforms:
+  - None
   langs:
   - C++
   licenses:
@@ -1160,6 +1315,8 @@
   - Carmageddon
   repo: https://github.com/jeff-1amstudios/OpenC1
   status: playable
+  platforms:
+  - Windows
   type: remake
   updated: 2017-02-08
   url: http://www.1amstudios.com/projects/openc1/
@@ -1169,6 +1326,8 @@
 - name: openc2e
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - LGPL2
   - GPL2
@@ -1176,10 +1335,14 @@
   originals:
   - Creatures
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/openc2e/openc2e
   type: remake
   updated: 2020-05-05
-  url: https://creatures.wiki/Openc2e
+  url: https://openc2e.github.io
   images:
   - https://creatures.wiki/images/d/df/C2-vista-injector.jpg
   - https://creatures.wiki/images/2/22/Openc2e-c1-april2008.jpg
@@ -1201,6 +1364,8 @@
   originals:
   - SimCity
   status: playable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/opencity/
   type: clone
   added: 2015-04-03
@@ -1211,10 +1376,13 @@
   originals:
   - Civilization
   type: remake
-  repo: 'https://github.com/rajko-horvat/OpenCiv1'
-  url: 'https://github.com/rajko-horvat/OpenCiv1/wiki'
+  repo: https://codeberg.org/rhorvat/OpenCivOne
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - 'C#'
@@ -1226,20 +1394,9 @@
   info: Rewrite of Civilization based on disassembled code
   updated: 2024-03-14
   images:
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot1.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot2.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot3.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot4.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot5.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot6.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot7.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot8.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot9.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot10.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot11.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot12.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot13.png
-  - https://raw.githubusercontent.com/rajko-horvat/OpenCiv1/master/src/Resources/Screenshots/Screenshot14.png
+  - https://codeberg.org/rhorvat/OpenCivOne/media/branch/master/src/Resources/Screenshots/Windows.png
+  - https://codeberg.org/rhorvat/OpenCivOne/media/branch/master/src/Resources/Screenshots/Linux.png
+  - https://codeberg.org/rhorvat/OpenCivOne/media/branch/master/src/Resources/Screenshots/MacOSX.png
 
 - name: OpenCiv3
   originals:
@@ -1285,6 +1442,12 @@
   originals:
   - Claw
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
+  - Android
   repo: https://github.com/pjasicek/OpenClaw
   development: halted
   type: remake
@@ -1304,6 +1467,10 @@
   - ISC
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   - LAN
@@ -1319,8 +1486,9 @@
 
 - name: OpenCrystalCaves
   images:
-  - https://raw.githubusercontent.com/gurka/OpenCrystalCaves/master/screenshots/animation.gif
-  - https://github.com/gurka/OpenCrystalCaves/raw/master/screenshots/screenshot3.png?raw=true
+  - https://img.itch.zone/aW1hZ2UvMjc5Njg3Ny8yMDA4ODIyMS5naWY=/original/gH4XIp.gif
+  - https://img.itch.zone/aW1hZ2UvMjc5Njg3Ny8yNDA5MjkzNi5naWY=/original/hEWuVp.gif
+  - https://img.itch.zone/aW1hZ2UvMjc5Njg3Ny8xODM0MzY5OC5naWY=/original/mE83Rk.gif
   langs:
   - C++
   frameworks:
@@ -1330,8 +1498,12 @@
   content: free
   originals:
   - Crystal Caves
-  status: unplayable
-  repo: https://github.com/gurka/OpenCrystalCaves
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  url: https://congusbongus.itch.io/opencrystalcaves
+  repo: https://github.com/OpenCrystalCaves/OpenCrystalCaves
   development: sporadic
   type: remake
   added: 2017-09-08
@@ -1354,6 +1526,9 @@
   - Diablo II
   repo: https://github.com/eezstreet/OpenD2
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   added: 2018-06-17
   updated: 2024-07-03
@@ -1365,6 +1540,8 @@
   repo: 'https://github.com/AMDmi3/opendaed'
   development: halted
   status: unplayable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C++
@@ -1388,18 +1565,26 @@
   - Thief
   repo: https://github.com/volca02/openDarkEngine
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2016-11-30
 
 - name: OpenDeathValley
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL3
   development: halted
   originals:
   - 'Desperados: Wanted Dead or Alive'
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/OpenDeathValley/OpenDeathValley
   type: remake
   updated: 2016-06-15
@@ -1416,6 +1601,8 @@
   - 'The Elder Scrolls II: Daggerfall'
   repo: https://github.com/kcat/opendf
   status: unplayable
+  platforms:
+  - Linux
   type: remake
   added: 2015-07-17
   updated: 2024-07-04
@@ -1427,9 +1614,10 @@
   originals:
   - Diablo II
   repo: https://github.com/OpenDiablo2/OpenDiablo2
-  url: https://opendiablo2.com/
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - Go
   frameworks:
@@ -1452,6 +1640,8 @@
   url: https://beta.opendominion.net/
   development: active
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Online
   langs:
@@ -1476,6 +1666,8 @@
   originals:
   - Dogs of War
   status: semi-playable
+  platforms:
+  - Linux
   repo: https://github.com/rofl0r/openDOW
   type: remake
   updated: 2022-10-06
@@ -1488,6 +1680,10 @@
   feed: https://github.com/drogoganor/OpenDR/releases.atom
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - 'C#'
@@ -1519,6 +1715,8 @@
   - 'Drakan: Order of the Flame'
   repo: https://github.com/Zalasus/opendrakan
   status: unplayable
+  platforms:
+  - Linux
   type: remake
   added: 2018-06-17
   updated: 2024-07-09
@@ -1528,11 +1726,12 @@
   - Duelyst
   type: official
   repo: 'https://github.com/open-duelyst/duelyst'
-  url: >-
-    https://www.rockpapershotgun.com/tactical-card-battler-duelyst-is-now-completely-open-source
+  url: https://www.rockpapershotgun.com/tactical-card-battler-duelyst-is-now-completely-open-source
   feed: 'https://github.com/open-duelyst/duelyst/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Online
   content: free
@@ -1554,6 +1753,12 @@
   - GPL2
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Atari
+  - BeOS
   originals:
   - Dune 2
   repo: https://github.com/OpenDUNE/OpenDUNE
@@ -1579,6 +1784,9 @@
   originals:
   - Dungeon Keeper
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/OpenDungeons/OpenDungeons
   type: clone
   url: https://opendungeons.github.io/
@@ -1591,8 +1799,11 @@
   type: clone
   repo: 'https://github.com/tomluchowski/OpenDungeonsPlus'
   url: 'https://snapcraft.io/opendungeons-plus'
-  development: active
+  development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -1623,6 +1834,9 @@
   repo: https://gitlab.com/opene2140/opene2140
   development: halted
   status: unplayable
+  platforms:
+  - Linux
+  - OSX
   langs:
   - C++
   licenses:
@@ -1640,9 +1854,14 @@
   type: remake
   originals:
   - Earth 2140
+  url: https://opene2140.net
   repo: https://github.com/OpenE2140/OpenE2140
   development: active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C#
   licenses:
@@ -1653,8 +1872,11 @@
   info: OpenRA mod
   updated: 2023-12-02
   images:
-  - https://dalek.zone/lazy-static/previews/1f3c3fc9-e347-4dfb-94d7-4107a5d2c2a2.jpg
-  - https://dalek.zone/lazy-static/previews/4d70f8c5-5b5f-41b1-832f-dd979039172c.jpg
+  - https://opene2140.net/galleries/main/00_base_building.jpg
+  - https://opene2140.net/galleries/main/01_base_building.jpg
+  - https://opene2140.net/galleries/main/20_battle.jpg
+  - https://opene2140.net/galleries/main/21_battle.jpg
+  - https://opene2140.net/galleries/main/30_scientist.jpg
 
 - name: OpenEnroth
   originals:
@@ -1665,6 +1887,10 @@
   repo: 'https://github.com/OpenEnroth/OpenEnroth'
   development: very active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -1688,6 +1914,8 @@
   originals:
   - Elements
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/serprex/openEtG
   type: remake
   added: 2015-09-25
@@ -1706,6 +1934,8 @@
   originals:
   - Fire Power
   status: semi-playable
+  platforms:
+  - Amiga
   repo: https://github.com/Last-Minute-Creations/openFire
   type: clone
   updated: 2020-08-31
@@ -1717,6 +1947,8 @@
   repo: 'https://github.com/MotoLegacy/OpenFNaF'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - C
@@ -1738,6 +1970,8 @@
   originals:
   - The Great Giana Sisters
   status: playable
+  platforms:
+  - None
   repo: https://github.com/bugix/OpenGGS
   type: remake
   added: 2015-06-28
@@ -1765,6 +1999,8 @@
   originals:
   - Test Drive
   status: semi-playable
+  platforms:
+  - Windows
   repo: https://github.com/capnramses/opengl_test_drive_clone
   development: halted
   type: remake
@@ -1787,9 +2023,12 @@
   originals:
   - Gladiator
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://sourceforge.net/projects/snowstorm/
   type: remake
-  url: https://snowstorm.sourceforge.net/cgi-bin/site.cgi?page=openglad
+  url: https://snowstorm.sourceforge.net/cgi-bin/site.cgi@page=openglad_e.html
   updated: 2021-04-09
 
 - name: OpenGOAL
@@ -1801,6 +2040,10 @@
   url: https://opengoal.dev/
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -1833,6 +2076,10 @@
   - World of Goo
   repo: https://github.com/Mandarancio/OpenGOO
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2022-11-29
   url: https://mandarancio.github.io/OpenGOO/
@@ -1854,6 +2101,10 @@
   feed: 'https://github.com/Try/OpenGothic/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -1883,10 +2134,12 @@
   originals:
   - Grand Theft Auto
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/madebr/OpenGTA
   type: remake
   updated: 2021-09-22
-  url: http://ogta.fifengine.de/
   images:
   - https://static.wikia.nocookie.net/gtawiki/images/c/c1/OpenGTA-GTA1.jpg
 
@@ -1898,6 +2151,11 @@
   feed: 'https://github.com/JeffRuLz/OpenHCL/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - 3DS
+  - PSP
+  - Wii
+  - PlayStation Vita
   content: free
   langs:
   - C++
@@ -1915,6 +2173,9 @@
   repo: https://github.com/TalonBraveInfo/OpenHoW
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C++
   frameworks:
@@ -1950,6 +2211,10 @@
   - LAN
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   originals:
   - Hard Vacuum
   repo: https://github.com/OpenHV/OpenHV
@@ -1971,6 +2236,15 @@
   - Jazz Jackrabbit
   repo: https://github.com/AlisterT/openjazz
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - 3DS
+  - Android
+  - PSP
+  - Nintendo Switch
+  - Web
+  - Wii
   type: remake
   updated: 2017-10-20
   url: http://www.alister.eu/jazz/oj/
@@ -1983,6 +2257,8 @@
   url: 'https://openjazz.github.io'
   development: active
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -1999,6 +2275,8 @@
   repo: 'https://github.com/emeric-martineau/openjill'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -2018,6 +2296,10 @@
   - 'Star Wars Jedi Knight: Jedi Academy'
   - 'Star Wars Jedi Knight II: Jedi Outcast'
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2014-08-15
   url: https://github.com/JACoders/OpenJK
@@ -2026,6 +2308,8 @@
   info: Reverse-engineered version of Dark Forces II Engine
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - As-is
   content: commercial
@@ -2033,6 +2317,13 @@
   originals:
   - 'Star Wars Jedi Knight: Dark Forces II'
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - DS
+  - Web
   type: remake
   updated: 2023-06-11
   url: https://github.com/shinyquagsire23/OpenJKDF2
@@ -2052,25 +2343,12 @@
   - Dungeon Keeper 2
   repo: https://github.com/tonihele/OpenKeeper
   status: unplayable
+  platforms:
+  - None
   type: remake
   updated: 2021-04-14
   video:
     youtube: 5CXqWdbWrVs
-
-- name: OpenKKnD
-  type: remake
-  originals:
-  - Krush, Kill 'n' Destroy
-  repo: https://github.com/gp-alex/OpenKKND
-  development: halted
-  status: semi-playable
-  langs:
-  - C++ 
-  licenses:
-  - GPL3
-  content: commercial
-  info: Based on original executable decompilation
-  updated: 2022-04-18
 
 - name: OpenKrush
   type: remake
@@ -2080,6 +2358,10 @@
   feed: https://github.com/IceReaper/OpenKrush/releases.atom
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C#
   licenses:
@@ -2089,7 +2371,7 @@
   content: commercial
   added: 2019-03-22
   updated: 2024-07-18
-  url: https://www.kknd-game.com/about
+  url: https://www.kknd-game.com/
   images:
   - https://media.moddb.com/images/mods/1/38/37924/OpenRA-2018-12-16T105029073Z.png
   video:
@@ -2106,6 +2388,8 @@
   originals:
   - Tomb Raider
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/XProger/OpenLara
   development: sporadic
   type: remake
@@ -2130,6 +2414,8 @@
   repo: 'https://github.com/james-knippes/openlgr'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -2158,6 +2444,10 @@
   - Grand Theft Auto III
   repo: https://github.com/FOSS-Supremacy/OpenLiberty
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2024-08-18
   updated: 2024-08-18
@@ -2182,6 +2472,8 @@
   content: free
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Split-screen
   frameworks:
@@ -2215,6 +2507,12 @@
   originals:
   - Liero
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - Web
   multiplayer:
   - Online
   - Competitive
@@ -2223,7 +2521,7 @@
   type: remake
   added: 2011-06-03
   updated: 2024-07-19
-  url: https://www.openlierox.net/
+  url: https://openlierox.net/
 
 - name: OpenLoco
   type: remake
@@ -2234,6 +2532,10 @@
   development: very active
   url: https://openloco.io
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C++
   frameworks:
@@ -2264,6 +2566,8 @@
   repo: https://github.com/cookgreen/OpenMB
   development: sporadic
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - C#
@@ -2283,10 +2587,13 @@
   originals:
   - Marble Blast Ultra
   type: remake
+  url: https://marbleblastultra.com
   repo: 'https://github.com/MBU-Team/OpenMBU'
   feed: 'https://github.com/MBU-Team/OpenMBU/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -2297,6 +2604,11 @@
   - Custom
   added: 2025-11-21
   updated: 2025-11-21
+  images:
+  - https://marbleblastultra.com/wp-content/uploads/2025/03/mbu_gemcollection.jpg
+  - https://marbleblastultra.com/wp-content/uploads/2024/03/OpenMBU005.jpg
+  - https://marbleblastultra.com/wp-content/uploads/2025/03/MBU_TripleGravity.jpg
+  - https://marbleblastultra.com/wp-content/uploads/2025/03/MBU_Daedalus.jpg
 
 - name: OpenMC2
   development: halted
@@ -2311,6 +2623,8 @@
   - Midnight Club II
   repo: https://github.com/OpenMC2/OpenMC2
   status: playable
+  platforms:
+  - Windows
   type: remake
   updated: 2022-04-18
 
@@ -2318,11 +2632,12 @@
   frameworks:
   - SDL2
   images:
-  - https://openmohaa.sourceforge.net/media/hud.jpg
-  - https://github.com/openmoh/openmohaa/blob/main/docs/images/opm_53_tt_1.png
-  - https://github.com/openmoh/openmohaa/blob/main/docs/images/opm_50b_1.png
-  - https://github.com/openmoh/openmohaa/blob/main/docs/images/opm_50b_2.png
-  - https://github.com/openmoh/openmohaa/blob/main/docs/images/opm-arm_53_tt_1.png
+  - https://github.com/openmoh/openmohaa/blob/main/docs/assets/images/v0.60.0-x86_64/mohdm1_1.png?raw=true
+  - https://github.com/openmoh/openmohaa/blob/main/docs/assets/images/v0.60.0-x86_64/training_1.png?raw=true
+  - https://github.com/openmoh/openmohaa/blob/main/docs/assets/images/v0.60.0-x86_64/flughafen_1.png?raw=true
+  - https://github.com/openmoh/openmohaa/blob/main/docs/assets/images/v0.60.0-x86_64/flughafen_2.png?raw=true
+  - https://github.com/openmoh/openmohaa/blob/main/docs/assets/images/v0.60.0-x86_64/mohdm2_1.png?raw=true
+  - https://github.com/openmoh/openmohaa/blob/main/docs/assets/images/v0.60.0-x86_64/training_3.png?raw=true
   info: based on ioquake3
   langs:
   - C
@@ -2330,14 +2645,18 @@
   licenses:
   - GPL2
   content: commercial
-  development: very active
+  development: sporadic
   originals:
   - 'Medal of Honor: Allied Assault'
   repo: https://github.com/openmoh/openmohaa
-  status: unplayable
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2023-06-12
-  url: https://openmohaa.sourceforge.net/
+  url: https://www.openmohaa.org
 
 - name: OpenMoM
   type: clone
@@ -2346,6 +2665,10 @@
   repo: https://github.com/Jakz/openmom
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C++
   frameworks:
@@ -2371,6 +2694,8 @@
   originals:
   - Master of Orion 2
   status: unplayable
+  platforms:
+  - Linux
   repo: https://github.com/mimi1vx/openmoo2
   type: remake
   updated: 2022-03-23
@@ -2383,6 +2708,9 @@
   development: halted
   content: commercial
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - Rust
   - Python
@@ -2419,6 +2747,10 @@
   originals:
   - Mortal Kombat
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://sourceforge.net/projects/openmortal/
   type: clone
   added: 2015-04-03
@@ -2447,8 +2779,12 @@
   - 'The Elder Scrolls III: Morrowind'
   repo: https://gitlab.com/OpenMW/openmw
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
-  url: https://openmw.org/en/
+  url: https://openmw.org
   updated: 2021-04-21
   video:
     youtube: UeJc3e_qQWY
@@ -2461,6 +2797,8 @@
   url: https://omw.xyz.is/
   development: halted
   status: playable
+  platforms:
+  - Android
   langs:
   - Kotlin
   frameworks:
@@ -2484,6 +2822,8 @@
   - 'Elona'
   repo: https://github.com/OpenNefia/OpenNefia
   status: unplayable
+  platforms:
+  - Windows
   type: remake
   updated: 2024-03-28
   content: commercial
@@ -2498,6 +2838,10 @@
   repo: https://github.com/OpenNFS/OpenNFS
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C++
   frameworks:
@@ -2533,6 +2877,8 @@
   originals:
   - The Need for Speed
   status: semi-playable
+  platforms:
+  - Windows
   repo: https://github.com/jeff-1amstudios/OpenNFS1
   type: remake
   updated: 2022-04-08
@@ -2547,6 +2893,8 @@
   repo: https://github.com/BBQGiraffe/OpenNitemare3D
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C#
@@ -2574,6 +2922,10 @@
   - Notrium
   repo: https://github.com/verhoevenv/OpenNotrium
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2019-05-29
   updated: 2024-07-27
@@ -2588,8 +2940,11 @@
   type: remake
   repo: https://github.com/noxworld-dev/opennox
   url: https://www.patreon.com/opennox
-  development: active
+  development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -2614,9 +2969,13 @@
   - 'One Must Fall: 2097'
   repo: https://github.com/omf2097/openomf
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2014-08-16
-  url: https://www.openomf.org
+  url: https://openomf.org
   video:
     youtube: RYiUsDSApM8
 
@@ -2628,6 +2987,10 @@
   feed: 'https://github.com/OpenOP2/OpenOP2/releases.atom'
   development: sporadic
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - 'C#'
@@ -2645,6 +3008,9 @@
   repo: https://github.com/nextghost/openorion2
   development: active
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -2666,6 +3032,9 @@
   originals:
   - Outcast
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   repo: https://sourceforge.net/projects/ocmod/
   type: remake
   updated: 2021-09-06
@@ -2683,6 +3052,8 @@
   originals:
   - 'Populous: The Beginning'
   status: unplayable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/openpopulous/
   type: remake
   updated: 2022-02-19
@@ -2709,6 +3080,10 @@
   - LAN
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   originals:
   - Command & Conquer
   - 'Command & Conquer: Red Alert'
@@ -2733,9 +3108,13 @@
   frameworks:
   - OpenGL
   - OpenAL
+  - SDL2
   originals:
   - Tomb Raider
   status: playable
+  platforms:
+  - Linux
+  - OSX
   type: remake
   updated: 2020-09-30
   repo: https://github.com/xythobuz/OpenRaider
@@ -2762,6 +3141,11 @@
   repo: https://github.com/OpenRCT2/OpenRCT2
   feed: https://github.com/OpenRCT2/OpenRCT2/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   type: remake
   added: 2014-08-20
   updated: 2024-07-31
@@ -2776,6 +3160,9 @@
   feed: 'https://sourceforge.net/projects/openredalert/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -2803,9 +3190,11 @@
   - SkyRoads
   repo: https://github.com/anprogrammer/OpenRoads
   status: playable
+  platforms:
+  - Windows
+  - Web
   type: remake
   updated: 2015-07-02
-  url: http://openroadsgame.com/
 
 - name: OpenRW "Open ReWrite"
   frameworks:
@@ -2821,6 +3210,10 @@
   - Grand Theft Auto III
   repo: https://github.com/rwengine/openrw
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2016-05-18
   updated: 2024-08-01
@@ -2852,6 +3245,10 @@
   - LAN
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2021-01-07
   updated: 2024-08-02
@@ -2873,6 +3270,10 @@
   originals:
   - 'Command & Conquer: Generals'
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/OpenSAGE/OpenSAGE
   type: remake
   updated: 2019-11-20
@@ -2884,6 +3285,8 @@
   - JavaScript
   type: remake
   status: unplayable
+  platforms:
+  - Web
   frameworks:
   - Phaser
   - WebGL
@@ -2914,7 +3317,11 @@
   originals:
   - SimTower
   repo: https://github.com/fabianschuiki/OpenSkyscraper
-  status: playable
+  status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2014-01-05
   updated: 2024-08-06
@@ -2930,6 +3337,10 @@
   feed: 'https://github.com/opensoldat/opensoldat/releases.atom'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   - LAN
@@ -2938,7 +3349,7 @@
   - Pascal
   - C++
   frameworks:
-  - SDL
+  - SDL2
   - OpenAL
   licenses:
   - MIT
@@ -2954,6 +3365,9 @@
   repo: 'https://github.com/mdodis/OpenSolomonsKey'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -2977,6 +3391,9 @@
   - GPL3
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - OSX
   info: OpenSpades is a compatible client of Ace of Spades 0.75.
   multiplayer:
   - Online
@@ -3008,6 +3425,10 @@
   originals:
   - 'Space Rangers 2: Dominators'
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/ObKo/OpenSR
   type: remake
   updated: 2021-11-19
@@ -3023,6 +3444,8 @@
   originals:
   - 'Stratosphere: Conquest of the Skies'
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/gerdl/openStrato
   type: remake
   added: 2015-06-18
@@ -3041,6 +3464,10 @@
   - 'DesertStrike: Return to the Gulf'
   repo: https://github.com/AMDmi3/openstrike
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2015-04-04
   updated: 2024-08-09
@@ -3058,6 +3485,19 @@
   - Supaplex
   repo: https://github.com/sergiou87/open-supaplex
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - PSP
+  - PlayStation Vita
+  - PlayStation 2
+  - PlayStation 3
+  - DS
+  - 3DS
+  - Wii
+  - Wii U
+  - Nintendo Switch
   type: remake
   added: 2020-05-06
   updated: 2024-08-12
@@ -3076,11 +3516,12 @@
   repo: https://github.com/OpenSWE1R/openswe1r
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   langs:
   - C
   frameworks:
   - OpenGL
-  - DirectX
   - SDL2
   licenses:
   - GPL2
@@ -3103,8 +3544,14 @@
   - 'The Elder Scrolls: Arena'
   repo: https://github.com/afritz1/OpenTESArena
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   updated: 2016-10-09
+  images:
+  - https://github.com/afritz1/OpenTESArena/blob/main/Preview.PNG?raw=true
 
 - name: OpenTitus
   frameworks:
@@ -3120,6 +3567,8 @@
   originals:
   - Titus the Fox
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/stople/OpenTitus
   type: remake
   updated: 2021-08-03
@@ -3143,6 +3592,8 @@
   originals:
   - Tomb Raider
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/opentomb/OpenTomb
   type: remake
   added: 2014-04-29
@@ -3159,6 +3610,8 @@
   repo: 'https://github.com/ThemeParkWorld/OpenTPW'
   development: sporadic
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -3174,10 +3627,12 @@
   originals:
   - Super Star Trek
   type: clone
-  url: >-
-    https://web.archive.org/web/20010813184226/http://www.best.com/~shankel/opentrek.html
+  url: https://web.archive.org/web/20010813184226/http://www.best.com/~shankel/opentrek.html
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -3202,6 +3657,8 @@
   originals:
   - Triple Triad
   status: playable
+  platforms:
+  - None
   type: remake
   updated: 2022-05-26
   url: https://github.com/benjaminfoo/OpenTriad
@@ -3215,6 +3672,8 @@
   repo: 'https://github.com/LazyDuchess/OpenTS2'
   development: active
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -3223,6 +3682,8 @@
   licenses:
   - MPL
   updated: '2023-02-11'
+  images:
+  - https://github.com/LazyDuchess/OpenTS2/assets/42678262/7ec4b21f-8987-41e6-b780-cca694698354
 
 - name: OpenTTD
   development: very active
@@ -3242,6 +3703,10 @@
   repo: https://github.com/OpenTTD/OpenTTD
   feed: https://github.com/OpenTTD/OpenTTD/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2011-06-01
   updated: 2024-08-15
@@ -3259,6 +3724,8 @@
   originals:
   - Tyrian
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/opentyrian/opentyrian
   images:
   - https://github.com/opentyrian/opentyrian/wiki/opentyrian_torm.png
@@ -3275,6 +3742,8 @@
   feed: https://github.com/KScl/opentyrian2000/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -3295,6 +3764,10 @@
   feed: 'https://github.com/OpenVicProject/OpenVic/releases.atom'
   development: active
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - GDScript
@@ -3303,6 +3776,8 @@
   licenses:
   - GPL3
   updated: '2023-08-28'
+  images:
+  - https://www.openvic.com/dd8.png
 
 - name: OpenVice
   originals:
@@ -3311,6 +3786,8 @@
   repo: 'https://github.com/clashbyte/openvice'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C#
@@ -3331,6 +3808,9 @@
   url: https://makipl.github.io/OpenVIII-monogame/
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C#
   frameworks:
@@ -3361,6 +3841,9 @@
   - 'Warcraft: Orcs & Humans'
   repo: https://github.com/andreas-jonsson/openwar
   status: unplayable
+  platforms:
+  - Linux
+  - OSX
   type: remake
   added: 2016-08-09
   updated: 2024-08-20
@@ -3372,6 +3855,10 @@
   repo: 'https://github.com/TheDushan/OpenWolf-Engine'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -3404,6 +3891,10 @@
   - 'X-COM: Terror from the Deep'
   repo: https://github.com/OpenXcom/OpenXcom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   url: https://openxcom.org/
   video:
@@ -3419,6 +3910,8 @@
   feed: 'https://github.com/busyDuckman/OpenXeen/releases.atom'
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -3451,6 +3944,8 @@
   repo: 'https://github.com/OpenXRay/xray-16'
   development: very active
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -3481,6 +3976,8 @@
   repo: 'https://github.com/Evilpersonwithnosoul/OpenYandere'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - 'C#'
@@ -3499,6 +3996,8 @@
     https://web.archive.org/web/20020217233624/http://pc.ign.com/articles/095/095995p1.html
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -3524,12 +4023,17 @@
   originals:
   - Pokémon
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/OpMonTeam/OpMon
   type: remake
   updated: 2022-10-15
-  url: https://opmon-game.ga
+  url: https://opmon.milkyroute.net
   images:
-  - https://opmon-game.ga/img/screenshot_2.png
+  - https://opmon.milkyroute.net/img/screenshot_1.png
+  - https://opmon.milkyroute.net/img/screenshot_2.png
 
 - name: opsu!
   originals:
@@ -3539,6 +4043,11 @@
   url: 'https://itdelatrisu.github.io/opsu/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: free
   langs:
   - Java
@@ -3573,6 +4082,9 @@
   originals:
   - SkyRoads
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: clone
   updated: 2020-08-25
   url: http://www.zneaker.com/projects.html#orbit
@@ -3588,6 +4100,8 @@
   - Log!cal
   repo: https://github.com/bni/orbium
   status: playable
+  platforms:
+  - Web
   type: remake
   added: 2014-08-20
   updated: 2024-08-21
@@ -3600,6 +4114,8 @@
   repo: https://code.ur.gs/lupine/ordoor
   development: halted
   status: unplayable
+  platforms:
+  - Linux
   langs:
   - Go
   frameworks:
@@ -3610,7 +4126,7 @@
   added: 2018-12-31
   updated: 2024-08-23
   images:
-  - https://ur.gs/img/ordoor-main-menu.gif
+  - https://code.ur.gs/lupine/ordoor/raw/branch/main/doc/formats/img/chapter01_rendered_2018-09-08.png
 
 - name: OREGON 77
   type: clone
@@ -3619,11 +4135,19 @@
   url: https://cyber.dabamos.de/programming/fortran/oregon/
   development: complete
   status: playable
+  platforms:
+  - DOS
+  - Windows
   langs:
   - Fortran
   licenses:
   - ISC
   updated: 2022-04-30
+  images:
+  - https://cyber.dabamos.de/programming/fortran/oregon/win311.gif
+  - https://cyber.dabamos.de/programming/fortran/oregon/win2k.gif
+  - https://cyber.dabamos.de/programming/fortran/oregon/freebsd.gif
+  - https://cyber.dabamos.de/programming/fortran/oregon/aux.gif
 
 - name: Oric-Software
   originals:
@@ -3634,9 +4158,11 @@
   - Dungeon Master
   type: clone
   repo: 'https://github.com/Oric-Software-Development-Kit/Oric-Software'
-  url: 'https://www.defence-force.org/'
+  url: https://www.defence-force.org/index.php?page=games
   development: complete
   status: playable
+  platforms:
+  - Oric
   content: free
   langs:
   - Assembly
@@ -3674,6 +4200,8 @@
   - Bolo
   repo: https://github.com/stephank/orona
   status: semi-playable
+  platforms:
+  - Web
   type: remake
   updated: 2022-11-29
   url: https://stephank.github.io/orona/bolo.html
@@ -3685,6 +4213,8 @@
   url: 'https://www.ocf.berkeley.edu/~pad/game-ti85-orzunoid.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - Assembly
   licenses:
@@ -3711,6 +4241,8 @@
   originals:
   - Joust
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/dulsi/ostrichriders
   type: clone
   updated: 2022-07-17
@@ -3726,6 +4258,11 @@
   url: https://osu.ppy.sh/
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   langs:
   - C#
   frameworks:
@@ -3735,17 +4272,25 @@
   content: free
   added: 2019-09-17
   updated: 2024-08-26
+  video:
+    youtube: 26qsFcKO_7M
   images:
-  - https://1.bp.blogspot.com/-QBBpM-Ypigg/VPMlUshslUI/AAAAAAAAA3w/OutunwDoSUM/s1600/lol.jpg
+  - https://i.ppy.sh/aa2492bf0aff11430126954c853d64667f7de1a9/68747470733a2f2f6f73752e7070792e73682f77696b692f696d616765732f7368617265642f6f73752d67616d65706c61792e6a7067
+  -  https://i.ppy.sh/dd115be3bfed43928bb12bfc059a8d360cf3a303/68747470733a2f2f6f73752e7070792e73682f77696b692f696d616765732f7368617265642f6f73755f736d6f6b652e6a7067
 
 - name: Otto Matic
   originals:
   - Otto Matic
   type: remake
+  url: https://pangeasoft.net/otto/
   repo: 'https://github.com/jorio/OttoMatic'
   feed: 'https://github.com/jorio/OttoMatic/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - C
@@ -3766,6 +4311,8 @@
   url: 'https://uo.serpent-isle.com/'
   development: very active
   status: semi-playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   langs:
@@ -3784,6 +4331,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200110/msg00146.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -3795,11 +4344,12 @@
   originals:
   - Outlaw Golf
   type: official
-  repo: >-
-    https://web.archive.org/web/20211025205656/https://illusion.64history.net/dumps/Source%20Code/Outlaw%20Golf/
+  repo: https://web.archive.org/web/20211025205656/https://illusion.64history.net/dumps/Source%20Code/Outlaw%20Golf/
   url: 'https://x.com/forestillusion/status/1345540112055078915'
   development: complete
   status: playable
+  platforms:
+  - GameCube
   multiplayer:
   - Local
   content: commercial
@@ -3823,6 +4373,8 @@
   - SDL2
   development: active
   status: playable
+  platforms:
+  - Windows
   licenses:
   - BSD
   content: commercial
@@ -3849,6 +4401,8 @@
   originals:
   - Out Run
   status: semi-playable
+  platforms:
+  - Amstrad CPC
   type: remake
   updated: 2022-07-26
   url: http://outruncpc.free.fr/
@@ -3863,6 +4417,10 @@
   url: https://overgrowth.wolfire.com
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Split-screen
   - Co-op

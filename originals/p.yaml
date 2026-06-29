@@ -473,10 +473,70 @@
 
 - name: Phantasy Star
   external:
+    website: https://vc.sega.jp/vc_ms_ps1/
     wikipedia: Phantasy Star (video game)
+  platforms:
+  - Genesis
+  - Master System
+  - Nintendo Switch
+  - Wii
   meta:
     genres:
     - RPG
+    themes:
+    - Sci-Fi
+
+- name: Phantasy Star II
+  external:
+    website: 'https://vc.sega.jp/vc_ps2/'
+    wikipedia: Phantasy Star II
+  platforms:
+  - Android
+  - Genesis
+  - iOS
+  - Linux
+  - OSX
+  - Wii
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Sci-Fi
+
+- name: Phantasy Star III
+  names:
+  - 時の継承者 ファンタシースターIII
+  external:
+    website: 'https://vc.sega.jp/vc_ps3/'
+    wikipedia: Phantasy Star III
+  platforms:
+  - Genesis
+  - Linux
+  - OSX
+  - Wii
+  - Windows
+  meta:
+    genres:
+    - RPG
+
+- name: Phantasy Star IV
+  external:
+    website: 'https://vc.sega.jp/vc_ps4/'
+    wikipedia: Phantasy Star IV
+  platforms:
+  - Genesis
+  - Linux
+  - Nintendo Switch
+  - OSX
+  - Wii
+  - Windows
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Sci-Fi
 
 - name: Phantomas
   external:
