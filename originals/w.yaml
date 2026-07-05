@@ -593,7 +593,11 @@
 
 - name: World of Warcraft
   external:
+    website: https://worldofwarcraft.com/
     wikipedia: World of Warcraft
+  platforms:
+  - OSX
+  - Windows
   meta:
     genres:
     - MMORPG
