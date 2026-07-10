@@ -281,7 +281,7 @@ def sort_key(game: dict) -> str:
     name = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore').decode()
     # Ignore articles at the beginning of names
     for article in ['The ', 'A ', 'An ']:
-        if name.startswith(article):
+        if name.title().startswith(article):
             return name[len(article):]
     return name
 
