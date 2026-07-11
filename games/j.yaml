@@ -199,6 +199,26 @@
   images:
   - 'https://jakesgordon.com/writing/javascript-boulderdash/level1.png'
 
+- name: Javascript Breakout
+  originals:
+  - Breakout
+  type: clone
+  repo: 'https://github.com/jakesgordon/javascript-breakout/'
+  url: 'https://jakesgordon.com/writing/javascript-breakout/'
+  development: halted
+  status: semi-playable
+  platforms:
+  - Web
+  content: free
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2026-06-28
+  updated: 2026-06-28
+  images:
+  - 'https://jakesgordon.com/writing/javascript-breakout/thumb.png'
+
 - name: Javascript Delta
   originals:
   - Delta
@@ -257,6 +277,27 @@
   - 'https://jakesgordon.com/writing/javascript-gauntlet/maze.png'
   - 'https://jakesgordon.com/writing/javascript-gauntlet/surrounded.png'
   - 'https://jakesgordon.com/writing/javascript-gauntlet/uhoh.png'
+
+- name: Javascript Pong
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/jakesgordon/javascript-pong/'
+  url: 'https://jakesgordon.com/writing/javascript-pong/'
+  feed: 'https://github.com/jakesgordon/javascript-pong/releases.atom'
+  development: halted
+  status: playable
+  platforms:
+  - Web
+  langs:
+  - JavaScript
+  - HTML
+  licenses:
+  - MIT
+  added: 2026-07-04
+  updated: 2026-07-04
+  images:
+  - 'https://jakesgordon.com/writing/javascript-pong/thumb.png'
 
 - name: Javascript Pseudo 3D Racer
   originals:
@@ -584,6 +625,32 @@
   info: A new generation TetriNET server.
   added: 2025-12-26
   updated: 2025-12-26
+
+- name: Jewel Thief
+  originals:
+  - Jewel Thief
+  type: remake
+  repo: 'https://github.com/coolpup/jewelthief'
+  url: https://web.archive.org/web/20190304005210/https://play.google.com/store/apps/details?id=at.therefactory.jewelthief
+  development: halted
+  status: playable
+  platforms:
+  - Android
+  content: open
+  langs:
+  - Java
+  licenses:
+  - CC-BY
+  - GPL3
+  added: 2016-08-28
+  updated: 2026-06-15
+  images:
+  - https://raw.githubusercontent.com/coolpup/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163342.png
+  - https://raw.githubusercontent.com/coolpup/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163400.png
+  - https://raw.githubusercontent.com/coolpup/jewelthief/master/excluded-resources/screenshots/en/device-2016-08-23-163421.png
+  - https://raw.githubusercontent.com/coolpup/jewelthief/master/excluded-resources/screenshots/en/device-2016-09-10-213255.png
+  video:
+    youtube: RObU2xX5HiE
 
 - name: JExplosion
   originals:

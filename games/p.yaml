@@ -1504,8 +1504,9 @@
   - Perfect Dark
   type: remake
   repo: 'https://gitlab.com/ryandwyer/perfect-dark'
+  url: https://ryandwyer.gitlab.io/pdstatus/
   feed: 'https://gitlab.com/ryandwyer/perfect-dark.atom'
-  development: sporadic
+  development: complete
   status: playable
   platforms:
   - N64
@@ -1518,7 +1519,7 @@
   licenses:
   - MIT
   added: 2025-11-29
-  updated: 2025-11-29
+  updated: 2026-05-10
 
 - name: Performous
   langs:
@@ -2145,6 +2146,25 @@
   info: 'Bug Fixes https://archive.org/details/byte-magazine-1981-04/page/n301/mode/1up'
   added: 2025-11-18
   updated: 2025-11-18
+
+- name: 'Pirates: Naval Combat'
+  originals:
+  - Sid Meier's Pirates!
+  type: similar
+  repo: 'https://github.com/piwodlaiwo/pirates/'
+  url: 'https://piwodlaiwo.github.io/pirates/'
+  development: very active
+  status: playable
+  platforms:
+  - Web
+  langs:
+  - TypeScript
+  frameworks:
+  - Vite
+  licenses:
+  - As-is
+  added: 2026-06-14
+  updated: 2026-06-14
 
 - name: pitfall-js
   originals:
@@ -3418,6 +3438,23 @@
   updated: 2025-10-26
   images:
   - 'https://raw.githubusercontent.com/lostjared/Pong.JavaScript/main/pong.jpeg'
+
+- name: Pong in a Favicon
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/franzenzenhofer/pong-in-a-favicon'
+  url: 'https://pong-in-a-favicon.franzai.com/'
+  development: very active
+  status: playable
+  platforms:
+  - Web
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2026-06-22
+  updated: 2026-06-22
 
 - name: pong_sdl
   originals:

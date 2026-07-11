@@ -870,6 +870,7 @@
   - Elite II
   type: remake
   repo: 'https://github.com/pcercuei/glfrontier'
+  url: https://www.frontierastro.co.uk/Hires/hiresfe2.html
   development: halted
   status: semi-playable
   platforms:
@@ -882,7 +883,11 @@
   licenses:
   - As-is
   added: 2025-08-26
-  updated: 2025-08-26
+  updated: 2026-05-10
+  images:
+  - https://www.frontierastro.co.uk/Hires/Sirocco.jpg
+  video:
+    youtube: zJ1WnqGMDoY
 
 - name: Glider
   originals:
@@ -1931,6 +1936,25 @@
   updated: 2025-08-07
   images:
   - 'https://screenshots.debian.net/screenshot/gravitywars/7125'
+
+- name: The Great Escape
+  originals:
+  - The Great Escape
+  type: remake
+  repo: 'https://github.com/dpt/The-Great-Escape'
+  url: 'https://dpt.github.io/The-Great-Escape/'
+  feed: 'https://github.com/dpt/The-Great-Escape/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - ZX Spectrum
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Classic ZX Spectrum game "The Great Escape" reverse engineered
+  added: 2026-07-06
+  updated: 2026-07-06
 
 - name: The Great Escape Ported to C
   info: reverse engineered from binary

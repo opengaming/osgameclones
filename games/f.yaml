@@ -70,6 +70,32 @@
   - https://f1spirit.jorito.net/pics/screenshot4.jpg
   - https://f1spirit.jorito.net/pics/screenshot7.jpg
 
+- name: F-15 Strike Eagle 2 source code reconstruction
+  originals:
+  - F-15 Strike Eagle II
+  type: remake
+  repo: 'https://github.com/neuviemeporte/f15se2-re'
+  url: 'https://neuviemeporte.github.io/category/f15-se2.html'
+  feed: 'https://github.com/neuviemeporte/f15se2-re/releases.atom'
+  development: very active
+  status: playable
+  platforms:
+  - DOS
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - MIT
+  added: 2026-06-22
+  updated: 2026-06-22
+  images:
+  - https://neuviemeporte.github.io/images/start_000.png
+  - https://neuviemeporte.github.io/images/start_002.png
+  - https://neuviemeporte.github.io/images/egame_000.png
+  - https://neuviemeporte.github.io/images/egame_003.png
+  - https://neuviemeporte.github.io/images/end_000.png
+
 - name: F-Zero Clone
   frameworks:
   - WebGL
@@ -293,6 +319,28 @@
   - As-is
   added: 2026-01-17
   updated: 2026-01-17
+
+- name: Fernando 3
+  originals:
+  - Super Mario
+  type: similar
+  url: 'https://www.ticalc.org/archives/files/fileinfo/49/4965.html'
+  development: complete
+  status: playable
+  platforms:
+  - TI calculator
+  langs:
+  - Assembly
+  frameworks:
+  - Flib
+  - Gray4lib
+  licenses:
+  - As-is
+  added: 2026-07-03
+  updated: 2026-07-03
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/9/934.gif'
+  - 'https://www.ticalc.org/archives/files/ss/9/933.gif'
 
 - name: Feud2000AD
   originals:
@@ -969,6 +1017,23 @@
   type: clone
   updated: 2020-08-25
   url: https://project-f.github.io/
+
+- name: Flicky-Disassembly
+  originals:
+  - Flicky
+  type: remake
+  repo: 'https://github.com/Dandaman955/Flicky-Disassembly'
+  development: complete
+  status: playable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-07-06
+  updated: 2026-07-06
 
 - name: FlightGear
   images:

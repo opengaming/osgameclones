@@ -1160,6 +1160,28 @@
   images:
   - https://user-images.githubusercontent.com/204594/113578478-26912400-9623-11eb-9ff6-9bd9717462b6.png
 
+- name: Devospace
+  originals:
+  - Mono Space
+  type: clone
+  repo: 'https://www.allegro.cc/depot/Devospace'
+  url: >-
+    https://web.archive.org/web/20190803091539/http://www.angelfire.com/art/dumlesoft/Projects.html#:~:text=Devospace
+  development: halted
+  status: semi-playable
+  platforms:
+  - Windows
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-06-23
+  updated: 2026-06-23
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1817_small.jpg'
+
 - name: DGEM
   originals:
   - Dungeon Master
@@ -3365,6 +3387,31 @@
   images:
   - 'https://www.hpcalc.org/hp49/games/misc/sshots/drugwars.png'
 
+- name: Dstroy
+  originals:
+  - Dstroy
+  type: clone
+  status: playable
+  url: https://web.archive.org/web/20220104185512/http://narroin.free.fr/dstroy/
+  content: commercial
+  platforms:
+  - DS
+  - Linux
+  - Windows
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  licenses:
+  - GPL2
+  added: 2023-02-17
+  updated: 2026-05-22
+  images:
+  - https://web.archive.org/web/20220104185512im_/http://narroin.free.fr/dstroy/images/screen1.png
+  - https://web.archive.org/web/20220104185512im_/http://narroin.free.fr/dstroy/images/screen2.png
+  - https://web.archive.org/web/20220104185512im_/http://narroin.free.fr/dstroy/images/screen3.png
+  - https://web.archive.org/web/20220104185512im_/http://narroin.free.fr/dstroy/images/screen4.png
+
 - name: dsweep
   originals:
   - Minesweeper
@@ -4411,6 +4458,24 @@
   updated: 2025-12-08
   images:
   - 'https://dwars.sourceforge.net/winscreen.jpg'
+
+- name: DWM
+  originals:
+  - Dragon Warrior Monsters
+  type: remake
+  repo: 'https://github.com/Mallos31/dwm'
+  development: complete
+  status: playable
+  platforms:
+  - Game Boy
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  info: Disassembly of Dragon Warrior Monsters 1 for the GBC
+  added: 2026-06-20
+  updated: 2026-06-20
 
 - name: DXBall
   langs:

@@ -32,6 +32,26 @@
   added: 2026-03-28
   updated: 2026-03-28
 
+- name: S2HD
+  originals:
+  - Sonic 2
+  type: remake
+  repo: 'https://github.com/SonicOrcaModding/S2HD'
+  feed: 'https://github.com/SonicOrcaModding/S2HD/releases.atom'
+  development: active
+  status: semi-playable
+  multiplayer:
+  - Local
+  - Split-screen
+  content: commercial
+  langs:
+  - 'C#'
+  licenses:
+  - As-is
+  info: A decompile of Sonic 2 HD
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: s2smsdisasm
   originals:
   - Sonic the Hedgehog 2 (8-bit video game)
@@ -80,6 +100,22 @@
   content: free
   added: 2026-04-04
   updated: 2026-04-04
+
+- name: sadx_decomp
+  originals:
+  - Sonic Adventure
+  type: remake
+  repo: 'https://github.com/FraGag/sadx_decomp'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Sonic Adventure DX Decompilation
+  added: 2026-04-27
+  updated: 2026-04-27
 
 - name: SanAndreasUnity
   type: remake
@@ -2029,6 +2065,23 @@
   images:
   - 'https://glop.org/gfx/sotb.gif'
 
+- name: Shadow of the Colossus Decompilation Project
+  originals:
+  - Shadow of the Colossus
+  type: remake
+  repo: 'https://github.com/Fantaskink/SOTC'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - PlayStation 2
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - MIT
+  added: 2026-07-05
+  updated: 2026-07-05
+
 - name: Shadow Pong
   originals:
   - Pong
@@ -2777,6 +2830,23 @@
   - As-is
   added: 2026-06-13
   updated: 2026-06-13
+
+- name: skcollectioncport
+  originals:
+  - Sonic 3
+  - Sonic & Knuckles
+  type: remake
+  repo: 'https://git.sr.ht/~benoitren/skccport'
+  development: active
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Sonic & Knuckles Collection C port and decompilation
+  added: 2026-04-27
+  updated: 2026-04-27
 
 - name: SkiFree
   originals:
@@ -3872,6 +3942,36 @@
   added: 2026-03-14
   updated: 2026-03-14
 
+- name: Sonic4Ep1 Decomp
+  originals:
+  - 'Sonic the Hedgehog 4: Episode I'
+  type: remake
+  repo: 'https://github.com/fr3dsp/Sonic4Ep1-Decomp'
+  development: sporadic
+  status: unplayable
+  content: commercial
+  langs:
+  - 'C#'
+  licenses:
+  - As-is
+  added: 2026-04-27
+  updated: 2026-04-27
+
+- name: Sonic 1 J2ME Decompilation
+  originals:
+  - Sonic the Hedgehog
+  type: remake
+  repo: 'https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - Java
+  licenses:
+  - As-is
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: Sonic 3 A.I.R.
   originals:
   - Sonic the Hedgehog
@@ -3916,6 +4016,69 @@
   added: 2026-03-28
   updated: 2026-03-28
 
+- name: Sonic Advance 2
+  originals:
+  - Sonic Advance
+  - Sonic Advance 2
+  type: remake
+  repo: 'https://github.com/SAT-R/sa2'
+  url: 'https://sa2.dev/'
+  development: very active
+  status: semi-playable
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - As-is
+  info: >-
+    A decompilation and port of Sonic Advance 1 & 2 - GameBoy Advance game's
+    written in C
+  added: 2026-04-27
+  updated: 2026-04-27
+  images:
+  - 'https://raw.githubusercontent.com/SAT-R/sa2/main/.github/media/titlescreen.png'
+
+- name: Sonic Advance 3
+  originals:
+  - Sonic Advance 3
+  type: remake
+  repo: 'https://github.com/SAT-R/sa3'
+  url: 'https://sat-r.github.io/sa3/'
+  development: very active
+  status: unplayable
+  multiplayer:
+  - Local
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - As-is
+  info: A decompilation of Sonic Advance 3
+  added: 2026-04-27
+  updated: 2026-04-27
+
+- name: Sonic Adventure DX
+  originals:
+  - Sonic Adventure
+  type: remake
+  repo: 'https://github.com/doldecomp/sadx'
+  development: halted
+  status: unplayable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: A decompilation of Sonic Adventure DX for the Nintendo GameCube.
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: Sonic Adventure Toolset
   originals:
   - Sonic Adventure
@@ -3943,6 +4106,22 @@
   - >-
     https://github.com/sonicretro/sa_tools/raw/Docs/Documentation/images/SADXLVL2_Editor_Overview.png
 
+- name: Sonic CD decompilation
+  originals:
+  - Sonic CD
+  type: remake
+  repo: 'https://git.sr.ht/~benoitren/soniccddecompilation'
+  url: 'https://www.benoitren.be/soniccd.html'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: Sonic CD Disassembly
   originals:
   - Sonic CD
@@ -3960,11 +4139,11 @@
 
 - name: Sonic-Mania-Decompilation
   originals:
-  - Sonic the Hedgehog
+  - Sonic Mania
   type: remake
   repo: https://github.com/RSDKModding/Sonic-Mania-Decompilation
   feed: https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases.atom
-  development: very active
+  development: sporadic
   status: playable
   content: commercial
   langs:
@@ -3974,7 +4153,7 @@
   licenses:
   - Custom
   added: 2023-07-05
-  updated: 2025-06-29
+  updated: 2026-04-27
 
 - name: Sonic Riders (USA)
   originals:
@@ -4018,6 +4197,40 @@
   url: https://www.srb2.org/
   info: 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy
 
+- name: Sonic Runners (2015) Decompilation
+  originals:
+  - Sonic Runners
+  type: remake
+  repo: 'https://github.com/itsmattkc/RunnersDecomp'
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - Unity
+  licenses:
+  - As-is
+  added: 2026-04-27
+  updated: 2026-04-27
+
+- name: Sonic Rush Adventure
+  originals:
+  - Sonic Rush Adventure
+  type: remake
+  repo: 'https://github.com/RushRE/SonicRushAdventure-Decomp'
+  development: active
+  status: unplayable
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - As-is
+  info: A matching decompilation of Sonic Rush Adventure for the Nintendo DS
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: Sonic The Hedgehog Game Gear Disassembly
   originals:
   - Sonic the Hedgehog
@@ -4032,6 +4245,22 @@
   - As-is
   added: 2026-03-28
   updated: 2026-03-28
+
+- name: soniccdrespinned
+  originals:
+  - Sonic CD
+  type: remake
+  repo: 'https://git.sr.ht/~benoitren/soniccdrespinned'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Cross-platform Sonic CD game based on the decompilation
+  added: 2026-04-27
+  updated: 2026-04-27
 
 - name: Sopwith
   originals:
@@ -5459,6 +5688,30 @@
   images:
   - 'https://a.fsdn.com/con/app/proj/sstpong/screenshots/138131.jpg'
 
+- name: Star Castle 2600
+  originals:
+  - Star Castle
+  type: remake
+  repo: 'https://drive.google.com/open?id=0B8R5I5dM0C45VDExTklneDMzTUU'
+  url: 'https://starcastle2600.blogspot.com/p/star-castle-2600-story.html'
+  development: complete
+  status: playable
+  platforms:
+  - Atari
+  multiplayer:
+  - Hotseat
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-21
+  updated: 2026-06-21
+  images:
+  - https://lh3.googleusercontent.com/-XJ1zsBb26s0/TEu5KbVafII/AAAAAAAALro/nSQ7y5qMB40/s640/starcastle2600.bin_68.png
+  video:
+    youtube: 7sjl_TOYyEk
+
 - name: star-control2
   langs:
   - C++
@@ -5823,6 +6076,26 @@
   - 'https://6502disassembly.com/a2-starship-cmdr/images/SC.ENG.gif'
   - 'https://6502disassembly.com/a2-starship-cmdr/images/SC.ATTACK.gif'
 
+- name: StawdewValley
+  originals:
+  - Stardew Valley
+  type: remake
+  repo: 'https://github.com/E-riCA0/StawdewValley'
+  development: halted
+  status: unplayable
+  platforms:
+  - Windows
+  multiplayer:
+  - Online
+  content: commercial
+  langs:
+  - 'C#'
+  licenses:
+  - As-is
+  info: Decompiled Stardew Valley source code
+  added: 2026-07-05
+  updated: 2026-07-05
+
 - name: Stellar 7 Disassembly
   originals:
   - Stellar 7
@@ -5897,6 +6170,26 @@
   - https://i.imgur.com/5nlHcWV.png
   - https://i.imgur.com/zQTr5ww.jpeg
   - https://i.imgur.com/9wpVUi5.jpeg
+
+- name: stfdecomp
+  originals:
+  - Sonic the Fighters
+  type: remake
+  repo: 'https://github.com/biggestsonicfan/stfdecomp'
+  development: sporadic
+  status: unplayable
+  multiplayer:
+  - Competitive
+  - Local
+  content: commercial
+  langs:
+  - Assembly
+  - C++
+  licenses:
+  - As-is
+  info: A decompilation attempt at Sonic the Fighters
+  added: 2026-04-27
+  updated: 2026-04-27
 
 - name: stfdisasm
   originals:

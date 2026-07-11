@@ -574,6 +574,24 @@
   - https://www.golem.de/1302/97509-53272-webquake_rc.jpg
   - https://images.kartones.net/posts/kartonesblog/webquake.webp
 
+- name: Wheelie disassembly
+  originals:
+  - Wheelie
+  type: remake
+  repo: 'https://github.com/pobtastic/wheelie'
+  url: 'https://pobtastic.github.io/wheelie/'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - ZX Spectrum
+  content: commercial
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-07-01
+  updated: 2026-07-01
+
 - name: Widelands
   images:
   - https://www.widelands.org/wlmedia/wlscreens/screens/Widelands%201.1/Main_Menu.jpg
@@ -1232,10 +1250,14 @@
   originals:
   - Wolfenstein 3D
   type: remake
-  repo: https://github.com/11001011101001011/Wolf4SDL
+  repo: https://bitbucket.org/ks-presto/wolf4sdl
   url: https://beta.wolf3d.net/engines/Wolf4SDL
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: commercial
   langs:
   - C
@@ -1244,10 +1266,10 @@
   licenses:
   - GPL2
   info: Vanilla-style port of Wolfenstein 3D into SDL
-  updated: 2021-11-09
+  added: 2021-11-09
+  updated: 2026-05-10
   images:
-  - >-
-    https://i1.wp.com/media.moddb.com/images/members/3/2034/2033952/profile/etude3_1.jpg?ssl=1
+  - https://i1.wp.com/media.moddb.com/images/members/3/2034/2033952/profile/etude3_1.jpg
   video:
     youtube: xkIEjgUm57o
 
