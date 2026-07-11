@@ -171,6 +171,25 @@
   added: 2025-12-13
   updated: 2026-01-02
 
+- name: Cadaver Remake
+  development: halted
+  images:
+  - https://web.archive.org/web/20231002203409im_/https://jotd.pagesperso-orange.fr/cadaver/cadaver_remake_pic.png
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  content: commercial
+  originals:
+  - Cadaver
+  status: unplayable
+  type: remake
+  platforms:
+  - Windows
+  added: 2015-04-06
+  updated: 2026-05-22
+  url: https://web.archive.org/web/20231002172923/https://jotd.pagesperso-orange.fr/cadaver/
+
 - name: CaesarIA
   info: most of original game works, except war logic
   langs:
@@ -449,6 +468,29 @@
   - As-is
   added: 2025-12-04
   updated: 2025-12-04
+
+- name: Caries Field
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://www.allegro.cc/depot/CariesField'
+  url: https://web.archive.org/web/20240105205535/http://inf1.altervista.org/cfield.php
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-07-01
+  updated: 2026-07-01
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3334_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3335_large.png'
 
 - name: Carnage3D
   langs:
@@ -1215,6 +1257,53 @@
   images:
   - https://img.itch.zone/aW1nLzI0MDk1ODAzLnBuZw==/original/5wbTvV.png
   - https://img.itch.zone/aW1nLzIyNzMzNjU5LmdpZg==/original/KhK2oy.gif
+
+- name: Celeste Classic 2 GBA port
+  originals:
+  - Celeste Classic
+  type: clone
+  repo: 'https://github.com/Skaleee/Celeste2-GBA'
+  feed: 'https://github.com/Skaleee/Celeste2-GBA/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - GBA
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-21
+  updated: 2026-06-21
+  images:
+  - https://raw.githubusercontent.com/Skaleee/Celeste2-GBA/main/screenshots/celeste2-titlescreen.gif
+  - https://raw.githubusercontent.com/Skaleee/Celeste2-GBA/main/screenshots/celeste2-berry.gif
+  - https://raw.githubusercontent.com/Skaleee/Celeste2-GBA/main/screenshots/celeste2-dying.gif
+  - https://raw.githubusercontent.com/Skaleee/Celeste2-GBA/main/screenshots/celeste2-grappling.gif
+
+- name: Celeste Classic GBA port
+  originals:
+  - Celeste Classic
+  type: remake
+  repo: 'https://github.com/JeffRuLz/Celeste-Classic-GBA'
+  url: 'https://www.topfree.de/celeste-classic-gba-port'
+  feed: 'https://github.com/JeffRuLz/Celeste-Classic-GBA/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - GBA
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-21
+  updated: 2026-06-21
+  images:
+  - https://raw.githubusercontent.com/JeffRuLz/Celeste-Classic-GBA/master/screen1.png
+  - https://raw.githubusercontent.com/JeffRuLz/Celeste-Classic-GBA/master/screen2.png
+  - https://raw.githubusercontent.com/JeffRuLz/Celeste-Classic-GBA/master/screen3.png
+  - https://raw.githubusercontent.com/JeffRuLz/Celeste-Classic-GBA/master/screen4.png
 
 - name: '[CELL]IVIZATION'
   originals:
@@ -3362,6 +3451,26 @@
   updated: 2020-11-23
   images:
   - https://www.scottsmitelli.com/static-projects/cosmore.jpg
+
+- name: Cosmosmash
+  frameworks:
+  - SDL2
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  development: halted
+  originals:
+  - Astrosmash
+  status: playable
+  type: remake
+  platforms:
+  - Linux
+  added: 2015-04-16
+  updated: 2026-05-22
+  url: http://sarrazip.com/dev/cosmosmash.html
+  images:
+  - https://web.archive.org/web/20230308050150if_/http://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
 
 - name: CoU_Server
   originals:

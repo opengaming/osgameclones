@@ -5,6 +5,9 @@
   url: 'https://corewar.co.uk/probots.htm'
   development: complete
   status: playable
+  platforms:
+  - DOS
+  - Classic Mac OS
   multiplayer:
   - Competitive
   langs:
@@ -25,6 +28,8 @@
   url: 'https://www.romhacking.net/documents/667/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -41,6 +46,10 @@
   repo: https://github.com/danicat/pacgo
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Go
@@ -55,10 +64,12 @@
   - Pac-Man
   type: clone
   repo: 'https://www.allegro.cc/depot/Pac-Horror/'
-  url: >-
-    http://web.archive.org/web/20121128022833/http://www.adersoftware.com/index.cfm?page=games&game=pac
+  url: http://web.archive.org/web/20121128022833/http://www.adersoftware.com/index.cfm?page=games&game=pac
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - DOS
   langs:
   - C
   frameworks:
@@ -85,6 +96,8 @@
   feed: 'https://atariwiki.org/wiki/rss.jsp?page=PAC-MAN&mode=wiki'
   development: complete
   status: playable
+  platforms:
+  - Atari
   content: commercial
   langs:
   - Assembly
@@ -105,6 +118,8 @@
   url: 'https://www.ocf.berkeley.edu/~pad/game-ti85-pacman99.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - Assembly
   licenses:
@@ -121,6 +136,8 @@
   url: 'https://www.hpcalc.org/details/550'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - RPL
   - Assembly
@@ -139,6 +156,8 @@
   url: 'https://archive.org/download/c-tri/PACMAN.zip/PacMan/README.TXT'
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - C
   frameworks:
@@ -157,6 +176,8 @@
   url: https://x.com/seeedstudio/status/2009233635476467963
   development: active
   status: playable
+  platforms:
+  - Arduino
   content: open
   langs:
   - Python
@@ -178,6 +199,8 @@
     https://web.archive.org/web/20130523143001/http://www.16bitsoft.com/games-PacDudeHero2.htm
   development: complete
   status: playable
+  platforms:
+  - Amiga
   content: free
   langs:
   - C++
@@ -199,11 +222,14 @@
   - Manic Miner
   type: similar
   repo: 'https://sourceforge.net/projects/dragontech/'
-  url: >-
-    https://web.archive.org/web/20120708042101/http://dragontech.net/index.php/games-en/#:~:text=Pachi%20el%20Marciano
+  url: https://web.archive.org/web/20120708042101/http://dragontech.net/index.php/games-en/#:~:text=Pachi%20el%20Marciano
   feed: 'https://sourceforge.net/projects/dragontech/rss?path=/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - BeOS
   content: open
   langs:
   - C
@@ -227,6 +253,8 @@
   repo: 'https://github.com/RetailGameSourceCode/PachiSlotMaster'
   development: complete
   status: playable
+  platforms:
+  - PlayStation
   content: free
   langs:
   - C
@@ -270,6 +298,8 @@
   url: 'https://crates.io/crates/pack_2048'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -286,6 +316,8 @@
   feed: 'https://sourceforge.net/projects/packdude/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -304,6 +336,8 @@
   repo: 'https://github.com/codingteam/pacmacs.el'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Emacs Lisp
   frameworks:
@@ -330,6 +364,8 @@
   originals:
   - Pac-Man
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/daleharvey/pacman
   type: remake
   updated: 2015-05-19
@@ -367,6 +403,8 @@
   url: 'https://passer-by.com/pacman/'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -385,6 +423,8 @@
   url: 'http://www.malcolm-s.net/ti/pacman3d/'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   content: free
   langs:
   - C
@@ -412,6 +452,8 @@
   feed: 'https://sourceforge.net/projects/csharppacman/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: free
   langs:
   - 'C#'
@@ -426,10 +468,11 @@
   type: clone
   repo: >-
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/#:~:text=pacman.zip
-  url: >-
-    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/pacman.lsm
+  url: https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/pacman.lsm
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C++
   licenses:
@@ -446,6 +489,8 @@
   feed: 'https://github.com/gameblabla/pacman-arena/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -474,6 +519,8 @@
   originals:
   - Pac-Man
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/platzhersh/pacman-canvas
   type: remake
   updated: 2024-03-07
@@ -486,6 +533,8 @@
   repo: 'https://github.com/platzhersh/pacman-canvas-next'
   development: sporadic
   status: unplayable
+  platforms:
+  - Web
   content: free
   langs:
   - TypeScript
@@ -501,6 +550,8 @@
   repo: https://github.com/YoctoForBeaglebone/pacman4console
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -525,6 +576,8 @@
   added: 2015-05-19
   updated: 2024-09-13
   status: playable
+  platforms:
+  - Web
   url: https://harto.github.io/pacman/
 
 - name: Pacman in c++ with SDL
@@ -535,6 +588,9 @@
   feed: 'https://sourceforge.net/projects/pacmanincwithsd/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C++
@@ -572,6 +628,8 @@
   feed: 'https://sourceforge.net/p/pacman-popup/activity/feed'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -595,6 +653,10 @@
   feed: 'https://sourceforge.net/projects/pacmanlike/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - C++
@@ -614,6 +676,8 @@
   repo: 'https://github.com/denix666/pacman'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -633,6 +697,8 @@
   feed: 'https://github.com/schuay/pacman/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -653,6 +719,8 @@
   feed: 'https://sourceforge.net/projects/pacmanx/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C++
@@ -672,6 +740,11 @@
   langs:
   - C
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
   licenses:
   - MIT
   content: commercial
@@ -689,6 +762,11 @@
   feed: 'https://github.com/floooh/pacman.zig/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
   content: commercial
   langs:
   - Zig
@@ -708,6 +786,8 @@
   feed: 'https://gitlab.com/rogerbassons/PaddleTennisAndroid.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Android
   langs:
   - Java
   licenses:
@@ -719,10 +799,11 @@
   originals:
   - Painter
   type: official
-  url: >-
-    https://web.archive.org/web/20240913180922/http://www.kewlplace.com/sinister/painter_source.htm
+  url: https://web.archive.org/web/20240913180922/http://www.kewlplace.com/sinister/painter_source.htm
   development: complete
   status: playable
+  platforms:
+  - Jaguar
   content: free
   langs:
   - Assembly
@@ -742,6 +823,8 @@
   url: 'https://web.archive.org/web/20240530130314/https://deathshadow.com/pakuPaku'
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - Pascal
   licenses:
@@ -777,6 +860,9 @@
   feed: 'https://github.com/Villadelfia/dmgtris/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
+  - Web
   content: open
   langs:
   - Assembly
@@ -808,6 +894,11 @@
   repo: https://github.com/panel-attack/panel-attack
   url: http://panelattack.com/
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   type: remake
   updated: 2023-11-16
   video:
@@ -822,6 +913,8 @@
   feed: 'https://hackage.haskell.org/package/pang-a-lambda.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Haskell
@@ -847,6 +940,8 @@
   repo: 'https://github.com/malespiaut/pang'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -875,12 +970,14 @@
   originals:
   - Buster Bros.
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Local
   repo: https://sourceforge.net/projects/pangzero/
   type: remake
   updated: 2023-01-20
-  url: https://apocalypse.rulez.org/kozos/UpiPangBlog
   video:
     youtube: oWfEp_d3EeU
 
@@ -893,6 +990,8 @@
   url: https://www.moddb.com/games/chasm-the-rift/downloads/panzer-chasm-v03
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -916,6 +1015,10 @@
   url: 'https://papermc.io/software/paper'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Java
@@ -935,17 +1038,18 @@
   originals:
   - The Binding of Isaac
   repo: https://github.com/fasterthanlime/isaac-paper
-  url: https://amos.me/games/paper-isaac/
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - ooc
   licenses:
   - MIT
   content: open
   updated: 2019-05-23
-  images:
-  - https://amos.me/img/paperisaac-shot.png
   video:
     youtube: m2Rw_1OFSho
 
@@ -1017,6 +1121,10 @@
   feed: 'https://pypi.org/rss/project/par-infini-sweeper/releases.xml'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Python
@@ -1034,6 +1142,8 @@
   url: 'http://members.allegro.cc/miran/paranoid.html'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -1053,6 +1163,8 @@
   repo: 'https://github.com/softdorothy/Pararena2'
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   langs:
   - C
   licenses:
@@ -1065,6 +1177,8 @@
   - Paratrooper
   type: clone
   status: playable
+  platforms:
+  - None
   repo: https://github.com/denix666/paratrooper
   feed: https://github.com/denix666/paratrooper/releases.atom
   development: sporadic
@@ -1092,6 +1206,9 @@
   originals:
   - Fallout 2
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   repo: https://sourceforge.net/projects/parpg/
   type: remake
   updated: 2023-01-20
@@ -1111,19 +1228,23 @@
   originals:
   - Log!cal
   status: playable
+  platforms:
+  - Linux
+  - OSX
   repo: https://sourceforge.net/projects/pathological/
   type: remake
   updated: 2022-07-28
-  url: https://pathological.sourceforge.net/
 
 - name: Patton Strikes Back
   originals:
   - 'Patton Strikes Back: The Battle of the Bulge'
   type: official
-  url: >-
-    https://www.erasmatazz.com/library/source-code/#:~:text=Patton%20Strikes%20Back
+  url: https://www.erasmatazz.com/library/source-code/#:~:text=Patton%20Strikes%20Back
   development: complete
   status: playable
+  platforms:
+  - DOS
+  - Classic Mac OS
   content: free
   langs:
   - Pascal
@@ -1140,6 +1261,8 @@
   url: 'https://web.archive.org/web/20191213204809/http://payback-time.com/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Hotseat
   content: open
@@ -1160,6 +1283,9 @@
   url: 'https://rflxn.com/paybacktime2/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Web
   multiplayer:
   - Hotseat
   content: open
@@ -1209,6 +1335,8 @@
   repo: 'https://github.com/billbudge/PCS_AppleII'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   langs:
   - Assembly
   licenses:
@@ -1225,6 +1353,8 @@
   url: 'https://x.com/BillB/status/301398071156277248'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1244,6 +1374,8 @@
   originals:
   - Locomotion (Amiga 1992)
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/Pafycio/Pendomotion
   type: remake
   updated: 2015-07-14
@@ -1257,6 +1389,9 @@
   feed: 'https://sourceforge.net/p/pengpong/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C
@@ -1277,6 +1412,8 @@
   feed: 'https://sourceforge.net/projects/penguin-command/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1297,6 +1434,10 @@
   url: 'https://web.archive.org/web/20080506130523/http://www.junoplay.com/pengupop'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   - LAN
@@ -1322,6 +1463,8 @@
   url: 'https://6502disassembly.com/a2-penny-arcade/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   multiplayer:
   - Competitive
   langs:
@@ -1342,21 +1485,31 @@
   url: 'http://www.penumbragame.com'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
   licenses:
   - GPL3
   updated: '2023-09-20'
+  images:
+  - https://www.penumbragame.com/media/ovescreen1.jpg
+  - https://www.penumbragame.com/media/bpscreen1.jpg
 
 - name: Perfect Dark Decompilation
   originals:
   - Perfect Dark
   type: remake
   repo: 'https://gitlab.com/ryandwyer/perfect-dark'
+  url: https://ryandwyer.gitlab.io/pdstatus/
   feed: 'https://gitlab.com/ryandwyer/perfect-dark.atom'
-  development: sporadic
+  development: complete
   status: playable
+  platforms:
+  - N64
   multiplayer:
   - Competitive
   - Online
@@ -1366,7 +1519,7 @@
   licenses:
   - MIT
   added: 2025-11-29
-  updated: 2025-11-29
+  updated: 2026-05-10
 
 - name: Performous
   langs:
@@ -1380,6 +1533,10 @@
   - SingStar
   repo: https://github.com/performous/performous
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: clone
   updated: 2014-09-19
   url: https://performous.org/
@@ -1391,6 +1548,8 @@
   - Perimeter
   type: official
   status: playable
+  platforms:
+  - Windows
   repo: 'https://github.com/KD-lab-Open-Source/Perimeter'
   url: 'https://store.steampowered.com/app/289440/Perimeter/'
   feed: 'https://github.com/KD-lab-Open-Source/Perimeter/releases.atom'
@@ -1417,6 +1576,8 @@
   repo: 'https://github.com/Evenball-8bit/Pesterminator'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Assembly
@@ -1432,6 +1593,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/409/40969.html'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   content: open
   langs:
   - C
@@ -1453,9 +1616,83 @@
   originals:
   - Phantasy Star
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/rafael-esper/Phantasy
   type: remake
   updated: 2015-05-28
+
+- name: Phantasy Star Disassembly
+  originals:
+  - Phantasy Star
+  type: remake
+  repo: 'https://github.com/sung3r/ps1disasm'
+  url: 'https://www.romhacking.net/documents/723/'
+  development: complete
+  status: playable
+  platforms:
+  - Master System
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-17
+  updated: 2026-06-17
+
+- name: Phantasy Star II Disassembly
+  originals:
+  - Phantasy Star II
+  type: remake
+  repo: 'https://github.com/jon13doe/SEGA_ps2_disasm'
+  url: 'https://www.romhacking.net/documents/685/'
+  development: complete
+  status: playable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-17
+  updated: 2026-06-17
+
+- name: Phantasy Star III Disassembly
+  originals:
+  - Phantasy Star III
+  type: remake
+  repo: 'https://github.com/brecert/ps3disasm'
+  url: 'https://www.romhacking.net/documents/690/'
+  development: complete
+  status: playable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-17
+  updated: 2026-06-17
+
+- name: Phantasy Star IV Disassembly
+  originals:
+  - Phantasy Star IV
+  type: remake
+  repo: 'https://github.com/squidfeatures/ps4disasm'
+  url: 'https://www.romhacking.net/documents/697/'
+  development: complete
+  status: playable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-17
+  updated: 2026-06-17
 
 - name: Phantomas PC
   originals:
@@ -1467,6 +1704,9 @@
   url: 'https://web.archive.org/web/20080609233017/http://www.phantomaspc.org/'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C
@@ -1490,6 +1730,8 @@
   url: 'https://6502disassembly.com/a2-phantoms-five/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   langs:
   - Assembly
   licenses:
@@ -1510,6 +1752,8 @@
   feed: 'https://caiomga.itch.io/phaser-tetris/devlog.rss'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -1537,6 +1781,8 @@
   originals:
   - Xenon 2 Megablast
   status: semi-playable
+  platforms:
+  - Linux
   repo: https://sourceforge.net/projects/phavon/
   type: remake
   updated: 2022-07-18
@@ -1551,6 +1797,9 @@
   feed: 'https://github.com/TeamFlos/phira/releases.atom'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - Rust
@@ -1574,6 +1823,10 @@
   originals:
   - Emperor of the Fading Suns
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/joulupunikki/Phoenix
   url: https://joulupunikki.github.io/Phoenix/
   type: remake
@@ -1591,6 +1844,10 @@
   feed: 'https://github.com/BodbDearg/phoenix_doom/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -1613,6 +1870,8 @@
   feed: 'https://invent.kde.org/games/picmi.atom'
   development: very active
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1634,6 +1893,8 @@
   feed: 'https://pypi.org/rss/project/piewordle/releases.xml'
   development: sporadic
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Python
@@ -1653,6 +1914,8 @@
   repo: 'https://github.com/projectPiki/pikmin'
   development: sporadic
   status: semi-playable
+  platforms:
+  - GameCube
   content: commercial
   langs:
   - C++
@@ -1669,6 +1932,8 @@
   repo: 'https://github.com/projectPiki/pikmin2'
   development: very active
   status: semi-playable
+  platforms:
+  - GameCube
   multiplayer:
   - Local
   content: commercial
@@ -1696,6 +1961,10 @@
   - Lemmings
   repo: https://github.com/Pingus/pingus
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: clone
   updated: 2023-10-08
   url: https://pingus.seul.org
@@ -1708,6 +1977,9 @@
   url: https://ginkgo.github.io/pink-pony/
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Split-screen
   langs:
@@ -1739,6 +2011,9 @@
   - Elite II
   repo: https://github.com/pioneerspacesim/pioneer
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: clone
   updated: 2020-08-25
   url: https://pioneerspacesim.net/
@@ -1753,6 +2028,8 @@
   url: 'https://rainey.tech/game/pipe-puzzle'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -1775,6 +2052,8 @@
   originals:
   - Pipe Mania
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/zbiq13/Pipemania
   type: remake
   updated: 2015-06-01
@@ -1787,6 +2066,8 @@
   url: 'https://www.libsdl.org/projects/pipenightdreams/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1812,6 +2093,8 @@
   feed: 'https://github.com/artemsen/pipewalker/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1833,6 +2116,8 @@
   url: 'https://archive.org/details/byte-magazine-1980-12/page/n193/mode/1up'
   development: complete
   status: playable
+  platforms:
+  - TRS-80
   langs:
   - BASIC
   licenses:
@@ -1840,6 +2125,25 @@
   info: 'Bug Fixes https://archive.org/details/byte-magazine-1981-04/page/n301/mode/1up'
   added: 2025-11-18
   updated: 2025-11-18
+
+- name: 'Pirates: Naval Combat'
+  originals:
+  - Sid Meier's Pirates!
+  type: similar
+  repo: 'https://github.com/piwodlaiwo/pirates/'
+  url: 'https://piwodlaiwo.github.io/pirates/'
+  development: very active
+  status: playable
+  platforms:
+  - Web
+  langs:
+  - TypeScript
+  frameworks:
+  - Vite
+  licenses:
+  - As-is
+  added: 2026-06-14
+  updated: 2026-06-14
 
 - name: pitfall-js
   originals:
@@ -1849,6 +2153,8 @@
   url: 'https://meatfighter.com/pitfall-web/'
   development: active
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - TypeScript
@@ -1867,6 +2173,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200110/msg00153.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1882,6 +2190,8 @@
   url: 'https://forums.raspberrypi.com/viewtopic.php?t=110469'
   development: halted
   status: playable
+  platforms:
+  - Raspberry Pi
   langs:
   - C
   licenses:
@@ -1900,6 +2210,8 @@
   url: https://web.archive.org/web/20140626040750/http://www.linuxuser.co.uk/tutorials/create-space-invaders-on-raspberry-pi-part-one
   development: halted
   status: playable
+  platforms:
+  - Raspberry Pi
   content: open
   langs:
   - Python
@@ -1925,6 +2237,9 @@
   originals:
   - Pizza Tycoon
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://sourceforge.net/projects/pizza-business/
   type: clone
   updated: 2021-11-22
@@ -1945,6 +2260,11 @@
   originals:
   - Pizza Tycoon
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - BeOS
   repo: https://codeberg.org/cowomaly/pizzalegacy/
   type: remake
   multiplayer:
@@ -1960,9 +2280,13 @@
   originals:
   - Planet Blupi
   type: official
+  url: https://www.blupi.org/planet/index.html
   repo: 'https://github.com/blupi-games/planetblupi'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -1983,6 +2307,8 @@
   url: 'https://x.com/_codebound_/status/1920712220104659057'
   development: halted
   status: semi-playable
+  platforms:
+  - GBA
   content: free
   langs:
   - C++
@@ -1998,6 +2324,8 @@
   repo: https://github.com/PeiP-2018-Work-Nantes-DUT-INFO/Planet-Lander-Lunar-Lander-with-Pygame
   development: halted
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Python
@@ -2021,6 +2349,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/141/14125.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -2038,6 +2368,8 @@
   repo: 'https://github.com/scttgs0/PlanetaryDefense'
   development: sporadic
   status: playable
+  platforms:
+  - Foenix
   langs:
   - Assembly
   licenses:
@@ -2053,6 +2385,8 @@
   url: 'https://h-uru.github.io/Plasma/'
   development: very active
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   content: free
@@ -2075,6 +2409,8 @@
   feed: 'https://sourceforge.net/projects/plasmapong/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - DOS
   content: open
   langs:
   - C++
@@ -2094,6 +2430,8 @@
   feed: 'https://github.com/adrienball/2048-rs/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -2109,10 +2447,11 @@
   - Magic Land Island
   type: official
   repo: 'https://github.com/mojocatplay/Pocket-Island'
-  url: >-
-    http://www.browsergame-magazin.de/wooga-veroeffentlicht-quellcode-von-html5-spiel-magic-land-island/
+  url: http://www.browsergame-magazin.de/wooga-veroeffentlicht-quellcode-von-html5-spiel-magic-land-island/
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -2132,6 +2471,8 @@
   url: 'https://x.com/forestillusion/status/1496486316149972996'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   content: free
   langs:
   - Assembly
@@ -2155,6 +2496,9 @@
   repo: https://github.com/moechofe/lowresnx-poink
   development: complete
   status: playable
+  platforms:
+  - Android
+  - Web
   langs:
   - BASIC
   - C
@@ -2198,6 +2542,8 @@
   feed: 'https://github.com/TwitchPlaysPokemon/pokemonAnniversaryRed/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   - Local
@@ -2227,6 +2573,8 @@
   repo: 'https://github.com/pret/pokerevo'
   development: halted
   status: playable
+  platforms:
+  - Wii
   multiplayer:
   - Local
   - Online
@@ -2244,6 +2592,8 @@
   repo: 'https://github.com/pret/colosseum-mb'
   development: complete
   status: N/A
+  platforms:
+  - GBA
   langs:
   - C
   licenses:
@@ -2260,6 +2610,8 @@
   url: 'https://pret.github.io/pokecrystal/'
   development: very active
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   content: free
@@ -2278,6 +2630,8 @@
   repo: 'https://github.com/pret/pokediamond'
   development: active
   status: playable
+  platforms:
+  - DS
   content: free
   langs:
   - Assembly
@@ -2294,6 +2648,8 @@
   repo: 'https://github.com/pret/pokeemerald'
   development: active
   status: playable
+  platforms:
+  - GBA
   multiplayer:
   - Competitive
   content: commercial
@@ -2312,6 +2668,8 @@
   repo: 'https://github.com/pret/pokefirered'
   development: sporadic
   status: playable
+  platforms:
+  - GBA
   multiplayer:
   - Competitive
   content: commercial
@@ -2330,6 +2688,8 @@
   repo: 'https://github.com/pret/pokegold'
   development: very active
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   content: free
@@ -2348,6 +2708,8 @@
   repo: 'https://github.com/pret/pokegold-spaceworld'
   development: active
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   content: commercial
@@ -2366,6 +2728,8 @@
   repo: 'https://github.com/pret/pokeheartgold'
   development: active
   status: unplayable
+  platforms:
+  - DS
   multiplayer:
   - Competitive
   content: free
@@ -2385,6 +2749,8 @@
   repo: 'https://github.com/pret/pmd-sky'
   development: active
   status: unplayable
+  platforms:
+  - DS
   content: free
   langs:
   - Assembly
@@ -2402,6 +2768,8 @@
   repo: 'https://github.com/pret/pmd-red'
   development: sporadic
   status: playable
+  platforms:
+  - GBA
   content: commercial
   langs:
   - C
@@ -2419,6 +2787,8 @@
   repo: 'https://github.com/pret/pokepinball'
   development: sporadic
   status: playable
+  platforms:
+  - Game Boy
   content: free
   langs:
   - Assembly
@@ -2435,6 +2805,8 @@
   repo: 'https://github.com/pret/pokepinballrs'
   development: sporadic
   status: playable
+  platforms:
+  - GBA
   multiplayer:
   - Local
   content: commercial
@@ -2454,6 +2826,8 @@
   repo: 'https://github.com/pret/pokeplatinum'
   development: very active
   status: semi-playable
+  platforms:
+  - DS
   content: commercial
   langs:
   - C
@@ -2467,9 +2841,11 @@
   originals:
   - Pokémon Gold and Silver
   status: playable
+  platforms:
+  - Game Boy
   type: remake
   repo: 'https://github.com/Rangi42/polishedcrystal'
-  url: 'https://hax.iimarckus.org/topic/6874/'
+  url: https://www.pokecommunity.com/threads/pok%C3%A9mon-polished-crystal-update-3-1-1.373172/
   feed: 'https://github.com/Rangi42/polishedcrystal/releases.atom'
   development: active
   content: commercial
@@ -2498,6 +2874,8 @@
   repo: 'https://github.com/pret/pokepuzzle'
   development: halted
   status: playable
+  platforms:
+  - Game Boy
   content: free
   langs:
   - Assembly
@@ -2514,6 +2892,8 @@
   repo: 'https://github.com/pret/pokered'
   development: very active
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   content: free
@@ -2532,6 +2912,8 @@
   repo: 'https://github.com/jayceekaycee/RedPlusPlus'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   content: commercial
@@ -2550,6 +2932,8 @@
   repo: 'https://github.com/pret/pokeruby'
   development: sporadic
   status: playable
+  platforms:
+  - GBA
   multiplayer:
   - Local
   - Split-screen
@@ -2569,6 +2953,8 @@
   repo: 'https://github.com/pret/pokestadiumgs'
   development: very active
   status: semi-playable
+  platforms:
+  - N64
   multiplayer:
   - Local
   - Split-screen
@@ -2588,6 +2974,8 @@
   repo: 'https://github.com/pret/pokestadium'
   development: active
   status: semi-playable
+  platforms:
+  - N64
   multiplayer:
   - Local
   - Split-screen
@@ -2605,11 +2993,14 @@
   - Pokémon
   type: clone
   repo: 'https://github.com/zachMahan64/pokemon-tbje'
-  url: >-
-    https://www.reddit.com/r/CLI/comments/1p70mli/i_made_a_full_pokemon_game_for_the_terminal/
+  url: https://www.reddit.com/r/CLI/comments/1p70mli/i_made_a_full_pokemon_game_for_the_terminal/
   feed: 'https://github.com/zachMahan64/pokemon-tbje/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - Java
   licenses:
@@ -2638,6 +3029,8 @@
   repo: 'https://github.com/pret/poketcg'
   development: sporadic
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   content: free
@@ -2656,6 +3049,8 @@
   repo: 'https://github.com/pret/poketcg2'
   development: sporadic
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   content: free
@@ -2674,6 +3069,8 @@
   repo: 'https://github.com/pret/pokeyellow'
   development: very active
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   content: free
@@ -2693,6 +3090,8 @@
   url: 'https://ioi-xd.net/pokeh'
   development: complete
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   content: commercial
@@ -2715,6 +3114,8 @@
   repo: 'https://github.com/dannye/pokered-gbc'
   development: sporadic
   status: playable
+  platforms:
+  - Game Boy
   content: commercial
   langs:
   - Assembly
@@ -2730,6 +3131,8 @@
   repo: 'https://github.com/Kamy41/Pokered-Pro'
   development: very active
   status: playable
+  platforms:
+  - Game Boy
   multiplayer:
   - Competitive
   content: free
@@ -2750,6 +3153,10 @@
   feed: 'https://github.com/lxgr-linux/pokete/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Python
@@ -2769,9 +3176,11 @@
   originals:
   - Pokémon Gold and Silver
   type: similar
-  repo: 'https://github.com/pokemium/PokeTraveler'
+  repo: https://github.com/isgasho/PokeTraveler
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Go
@@ -2780,10 +3189,10 @@
   info: A game that just roams the world of Pokemon GSC.
   updated: 2024-03-13
   images:
-  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo.png'
-  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo2.png'
-  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo3.png'
-  - 'https://raw.githubusercontent.com/pokemium/PokeTraveler/master/docs/demo4.png'
+  - https://github.com/isgasho/PokeTraveler/blob/master/docs/demo.png?raw=true
+  - https://github.com/isgasho/PokeTraveler/blob/master/docs/demo2.png?raw=true
+  - https://github.com/isgasho/PokeTraveler/blob/master/docs/demo3.png?raw=true
+  - https://github.com/isgasho/PokeTraveler/blob/master/docs/demo4.png?raw=true
 
 - name: polanie-src
   originals:
@@ -2808,10 +3217,11 @@
   originals:
   - Breakout
   type: clone
-  url: >-
-    https://web.archive.org/web/20070828144445/http://www.andrew.cmu.edu/user/kdevilla/#:~:text=Polarity
+  url: https://web.archive.org/web/20070828144445/http://www.andrew.cmu.edu/user/kdevilla/#:~:text=Polarity
   development: halted
   status: playable
+  platforms:
+  - DOS
   langs:
   - C++
   frameworks:
@@ -2828,6 +3238,8 @@
   url: 'https://forums.atariage.com/topic/144322-source-code-pole-position/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -2841,10 +3253,13 @@
   type: clone
   repo: >-
     https://web.archive.org/web/20090227175009if_/http://fakolo.altervista.org/pong.c
-  url: >-
-    https://web.archive.org/web/20090226210958if_/http://fakolo.altervista.org/#:~:text=PONG
+  url: https://web.archive.org/web/20090226210958if_/http://fakolo.altervista.org/#:~:text=PONG
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - DOS
   langs:
   - C
   frameworks:
@@ -2863,6 +3278,8 @@
   feed: 'https://sourceforge.net/projects/pong2.berlios/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Competitive
   - Online
@@ -2891,6 +3308,8 @@
   url: 'https://www.hpcalc.org/details/6590'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - C
   licenses:
@@ -2907,6 +3326,8 @@
   feed: 'https://code.austinmorlan.com/austin/2019-pong.atom'
   development: complete
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Competitive
   langs:
@@ -2925,10 +3346,12 @@
   - Pong
   type: clone
   repo: 'https://github.com/passion-lab/Pong-Game'
-  url: 'https://pong.sourceforge.net/'
   feed: 'https://github.com/passion-lab/Pong-Game/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Competitive
   - Local
@@ -2955,6 +3378,8 @@
   url: 'https://projecthub.arduino.cc/bruno_opaiva/pong-game-for-2-players-2e30f5'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   multiplayer:
   - Competitive
   - Local
@@ -2981,6 +3406,8 @@
   repo: 'https://github.com/lostjared/Pong.JavaScript'
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   - HTML
@@ -2991,6 +3418,23 @@
   images:
   - 'https://raw.githubusercontent.com/lostjared/Pong.JavaScript/main/pong.jpeg'
 
+- name: Pong in a Favicon
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/franzenzenhofer/pong-in-a-favicon'
+  url: 'https://pong-in-a-favicon.franzai.com/'
+  development: very active
+  status: playable
+  platforms:
+  - Web
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2026-06-22
+  updated: 2026-06-22
+
 - name: pong_sdl
   originals:
   - Pong
@@ -3000,6 +3444,8 @@
   feed: 'https://github.com/aaron7eleven/pong_sdl/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C++
@@ -3021,6 +3467,8 @@
   url: 'https://rembound.com/articles/the-pong-tutorial'
   development: halted
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - ActionScript
@@ -3043,6 +3491,9 @@
   feed: 'https://sourceforge.net/p/pongu/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - DOS
   content: open
   langs:
   - C
@@ -3084,10 +3535,12 @@
   originals:
   - Pong
   type: clone
-  url: >-
-    https://web.archive.org/web/20250210070651/http://www.losersjuegos.com.ar/juegos/pongix/
+  url: https://web.archive.org/web/20250210070651/http://www.losersjuegos.com.ar/juegos/pongix/
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Competitive
   content: open
@@ -3112,6 +3565,8 @@
   url: 'https://projecthub.arduino.cc/5vdc/ponguino-arduino-pong-game-bc2ae1'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C
   frameworks:
@@ -3178,6 +3633,10 @@
   repo: 'https://github.com/ChristopherDrum/pez'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - C
@@ -3200,6 +3659,8 @@
   feed: 'https://github.com/mwpenny/portal64-still-alive/releases.atom'
   development: active
   status: playable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -3218,6 +3679,8 @@
   url: 'https://rembound.com/articles/porting-pong-from-flash-to-cpp'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -3237,6 +3700,8 @@
   url: 'https://www.wavegamestudios.com/oss/'
   development: complete
   status: playable
+  platforms:
+  - Dreamcast
   content: commercial
   langs:
   - C++
@@ -3253,6 +3718,8 @@
   url: https://www.pcgamer.com/postal-goes-open-source-after-almost-20-years/
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -3275,6 +3742,11 @@
   url: https://powdertoy.co.uk/
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: open
   langs:
   - C++
@@ -3297,6 +3769,11 @@
   url: https://powerslaveex.wordpress.com/
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Nintendo Switch
+  - Xbox Series S/X
+  - PlayStation 4
   content: commercial
   licenses:
   - GPL3
@@ -3318,6 +3795,8 @@
   url: 'https://m210.duke4.net/'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Java
@@ -3339,6 +3818,10 @@
   feed: https://rss.moddb.com/mods/powerslideremake/articles/feed/rss.xml
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   content: commercial
   langs:
   - C++
@@ -3366,6 +3849,8 @@
   url: 'http://bringerp.free.fr/forum/viewtopic.php?f=1&t=200'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -3390,6 +3875,8 @@
   originals:
   - Progress Quest
   status: semi-playable
+  platforms:
+  - Linux
   repo: https://github.com/nbollom/pq2
   type: remake
   updated: 2022-12-21
@@ -3409,6 +3896,10 @@
   frameworks:
   - SDL2
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/coelckers/prboom-plus
   type: remake
   url: https://prboom-plus.sourceforge.net/
@@ -3422,6 +3913,8 @@
   url: 'https://cyxx.github.io/prehistorik_js/'
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - C
@@ -3438,6 +3931,10 @@
   - RimWorld
   type: tool
   status: N/A
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: 'https://github.com/edbmods/EdBPrepareCarefully'
   feed: 'https://github.com/edbmods/EdBPrepareCarefully/releases.atom'
   development: sporadic
@@ -3472,6 +3969,9 @@
   feed: 'https://krispy-the-goat.itch.io/prey-2006/devlog'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -3504,6 +4004,8 @@
   url: 'https://habr.com/en/posts/845830/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - Co-op
@@ -3534,6 +4036,9 @@
   - GPL2
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/salvadorc17/Prince-Monogame
   feed: https://github.com/salvadorc17/Prince-Monogame/releases.atom
   type: remake
@@ -3549,6 +4054,8 @@
   url: https://www.jordanmechner.com/books/journals
   development: complete
   status: playable
+  platforms:
+  - Apple II
   content: commercial
   langs:
   - Assembly
@@ -3567,6 +4074,8 @@
   feed: 'https://github.com/oklemenz/PrinceJS/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -3612,6 +4121,8 @@
   feed: 'https://github.com/SecUSo/privacy-friendly-2048/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Android
   content: open
   langs:
   - Java
@@ -3633,6 +4144,8 @@
   feed: 'https://github.com/SecUSo/privacy-friendly-minesweeper/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Android
   langs:
   - Java
   - Kotlin
@@ -3658,6 +4171,10 @@
   originals:
   - 'Wing Commander: Privateer'
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://sourceforge.net/projects/privateer/
   type: remake
   url: https://privateer.sourceforge.net/
@@ -3677,6 +4194,9 @@
   originals:
   - Progress Quest
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/sandsmark/progress-quest
   type: remake
   updated: 2023-01-20
@@ -3689,6 +4209,8 @@
   feed: 'https://sourceforge.net/p/aedra/code/feed.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -3714,6 +4236,8 @@
   langs:
   - C
   status: unplayable
+  platforms:
+  - N64
   content: commercial
   licenses:
   - As-is
@@ -3732,9 +4256,11 @@
   - Victoria II
   repo: https://github.com/schombert/Project-Alice
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2024-04-19
-  url: https://schombert.github.io/Project-Alice/
 
 - name: Project ANISE
   originals:
@@ -3753,6 +4279,9 @@
   feed: 'https://github.com/tomyun/anise/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -3797,6 +4326,8 @@
   - Jazz Jackrabbit 2
   repo: https://github.com/soulweaver91/project-carrot
   status: semi-playable
+  platforms:
+  - Windows
   type: remake
   updated: 2024-03-23
   url: https://carrot.soulweaver.fi/
@@ -3816,6 +4347,8 @@
   originals:
   - The Sims Online
   status: semi-playable
+  platforms:
+  - Windows
   repo: https://github.com/Afr0Games/Project-Dollhouse
   type: remake
   updated: 2021-04-24
@@ -3829,6 +4362,8 @@
   repo: 'https://forums.atariage.com/topic/234798-project-one-source-code/'
   development: halted
   status: semi-playable
+  platforms:
+  - Jaguar
   content: free
   langs:
   - Assembly
@@ -3848,6 +4383,10 @@
   repo: 'https://github.com/OrderOfThePorcupine/ProjectPorcupine'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - 'C#'
@@ -3870,6 +4409,10 @@
   repo: 'https://github.com/acedogblast/Project-Uranium-Godot'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - GDScript
@@ -3891,6 +4434,8 @@
   feed: 'https://sourceforge.net/p/ssg-engine/activity/feed'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -3923,6 +4468,8 @@
   - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
   status: unplayable
+  platforms:
+  - Windows
   type: clone
   updated: 2022-04-23
   repo: https://github.com/astyanax/Project-Xenocide
@@ -3943,6 +4490,8 @@
   - Forsaken
   repo: https://github.com/ForsakenX/forsaken
   status: playable
+  platforms:
+  - Windows
   type: remake
   updated: 2013-05-29
   url: https://forsakenx.github.io/
@@ -3956,6 +4505,10 @@
   originals:
   - Quake
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   development: halted
   type: remake
   updated: 2021-11-30
@@ -3973,6 +4526,10 @@
   url: 'http://ptitseb.github.io/prototype/'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Amiga
+  - Web
   content: open
   langs:
   - C++
@@ -4003,6 +4560,8 @@
   licenses:
   - Apache
   status: playable
+  platforms:
+  - Web
   frameworks:
   - WebGL
   langs:
@@ -4019,6 +4578,8 @@
   repo: 'https://github.com/dpo007/psDrugWars'
   development: active
   status: playable
+  platforms:
+  - Windows
   langs:
   - PowerShell
   licenses:
@@ -4040,6 +4601,9 @@
   - World of Warcraft
   repo: https://github.com/shlainn/pseuwow
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   updated: 2016-12-08
 
@@ -4050,6 +4614,10 @@
   repo: 'https://github.com/BodbDearg/PsyDoom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -4071,6 +4639,8 @@
   url: 'https://www.freshports.org/games/puckman/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -4089,6 +4659,8 @@
   originals:
   - Super Mario
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/jvlppm/pucpr-ld-mario3
   type: remake
   updated: 2015-06-02
@@ -4103,9 +4675,33 @@
   originals:
   - Fantastic Journey
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/jvlppm/pucpr-ld-parodius
   type: remake
   updated: 2015-06-01
+
+- name: Pung
+  originals:
+  - Pong
+  type: similar
+  url: 'https://www.allegro.cc/depot/Pung'
+  development: complete
+  status: playable
+  platforms:
+  - Linux
+  - Windows
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - GPL2
+  added: 2026-06-02
+  updated: 2026-06-02
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3166_large.png'
 
 - name: PunkPong
   originals:
@@ -4115,6 +4711,8 @@
   feed: 'https://sourceforge.net/p/punkpong/activity/feed'
   development: halted
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   - HTML
@@ -4133,6 +4731,10 @@
   url: 'https://purpurmc.org/'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - Java
   licenses:
@@ -4152,6 +4754,8 @@
     https://web.archive.org/web/20120125060841/http://perso.atsat.com/pigallio/Hp48/puzzle/puzzle.htm
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - Assembly
   licenses:
@@ -4174,6 +4778,9 @@
   repo: 'https://github.com/karjonas/Puzzle-Moppet'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C++
@@ -4193,9 +4800,14 @@
   url: 'https://web.archive.org/web/20010203202800/http://plasmaworks.com/pits/pits.html'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - OSX
   content: open
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - Apache
   added: '2024-12-18'
@@ -4212,6 +4824,8 @@
   originals:
   - Strikers 1945
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/mauricio-jmmendes/py1945game
   type: remake
   updated: 2023-01-20
@@ -4225,6 +4839,8 @@
   feed: 'https://pypi.org/rss/project/py2048-coolin/releases.xml'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Python
@@ -4242,6 +4858,8 @@
   url: 'https://www.alessandropira.org/pybots/pybots.html'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Python
   licenses:
@@ -4266,6 +4884,9 @@
   originals:
   - Arkanoid
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://sourceforge.net/projects/pybreak360/
   type: clone
   multiplayer:
@@ -4283,6 +4904,9 @@
   feed: 'https://sourceforge.net/p/pycave/code/feed/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - Python
@@ -4305,6 +4929,8 @@
   repo: 'https://github.com/pbrook/pychuckie'
   development: halted
   status: unplayable
+  platforms:
+  - Linux
   langs:
   - Python
   frameworks:
@@ -4324,6 +4950,8 @@
   originals:
   - Minecraft
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/itsapi/pycraft
   feed: https://github.com/itsapi/pycraft/releases.atom
   type: remake
@@ -4340,6 +4968,8 @@
   feed: 'https://sourceforge.net/projects/pyfrogger/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Python
@@ -4359,6 +4989,8 @@
   url: 'http://kamikaze.coolprojects.org/py.html'
   development: halted
   status: unplayable
+  platforms:
+  - None
   multiplayer:
   - Online
   content: open
@@ -4382,6 +5014,8 @@
   feed: 'https://sourceforge.net/projects/pykanoid/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: open
   langs:
   - Python
@@ -4404,6 +5038,8 @@
   feed: 'https://sourceforge.net/p/pylaga/activity/feed'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   langs:
   - Python
   frameworks:
@@ -4424,6 +5060,8 @@
   feed: 'https://pypi.org/rss/project/pynesweeper/releases.xml'
   development: sporadic
   status: playable
+  platforms:
+  - None
   langs:
   - Python
   licenses:
@@ -4442,6 +5080,8 @@
   feed: 'https://sourceforge.net/projects/pyopyo/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Python
   frameworks:
@@ -4462,6 +5102,8 @@
   feed: 'https://pypi.org/rss/project/pypacman/releases.xml'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Python
@@ -4480,6 +5122,8 @@
   feed: 'https://github.com/macdems/pyrobbo/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Python
@@ -4509,6 +5153,8 @@
   - Skool Daze
   - Back to Skool
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/skoolkid/pyskool
   type: remake
   updated: 2026-03-19
@@ -4523,6 +5169,10 @@
   feed: 'https://github.com/shlomif/PySolFC/releases.atom'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Python
@@ -4555,6 +5205,8 @@
   originals:
   - Space Invaders
   status: semi-playable
+  platforms:
+  - Linux
   repo: https://github.com/map0logo/pyspaceinvaders
   url: https://www.pygame.org/project-pyspaceinvaders-1259-.html
   type: remake
@@ -4569,6 +5221,8 @@
   feed: 'https://pypi.org/rss/project/python2048/releases.xml'
   development: sporadic
   status: semi-playable
+  platforms:
+  - None
   langs:
   - Python
   frameworks:
@@ -4588,6 +5242,9 @@
   - GTK
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   originals:
   - Kye
   url: http://games.moria.org.uk/kye/
@@ -4607,6 +5264,8 @@
   repo: 'https://github.com/CaffeinatedTech/Python_Nibbles'
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Python
@@ -4626,6 +5285,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/311/31117.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -4643,6 +5304,8 @@
   url: 'https://tqdev.com/2016-minesweeper-in-python-for-ipad'
   development: complete
   status: playable
+  platforms:
+  - iOS
   langs:
   - Python
   frameworks:
@@ -4662,6 +5325,8 @@
   repo: 'https://github.com/marblexu/PythonPlantsVsZombies'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Python
@@ -4691,6 +5356,11 @@
   originals:
   - Touhou
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - BeOS
   repo: https://hg.linkmauve.fr/touhou
   type: remake
   updated: 2024-03-24
@@ -4705,6 +5375,10 @@
   feed: 'https://humrochagf.itch.io/pyxel-lander/devlog.rss'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Python
@@ -4725,6 +5399,8 @@
   repo: 'https://github.com/hulk89/pyxelvania'
   development: sporadic
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Python

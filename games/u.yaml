@@ -688,6 +688,27 @@
   - >-
     https://github.com/hankmorgan/UnderworldGodot/blob/main/resources/screenshots/screenshotuw5.jpg?raw=true
 
+- name: UNIL Invaders
+  originals:
+  - Space Invaders
+  type: clone
+  repo: 'https://github.com/onaluf/unil-invaders'
+  url: https://web.archive.org/web/20150729030407/http://gamequeryjs.com/demos/unilinv/
+  development: halted
+  status: semi-playable
+  platforms:
+  - Web
+  content: free
+  langs:
+  - JavaScript
+  licenses:
+  - As-is
+  info: >-
+    A jokey Space Invaders clone that integrates with Facebook to track high
+    scores.
+  added: 2026-06-15
+  updated: 2026-06-15
+
 - name: uninvited
   langs:
   - Inform 6
@@ -776,6 +797,25 @@
   added: 2011-07-19
   updated: 2023-01-30
   info: porting old python/FIFE codebase to Godot
+
+- name: UnleashedRecomp
+  originals:
+  - Sonic Unleashed
+  type: remake
+  repo: 'https://github.com/hedge-dev/UnleashedRecomp'
+  url: 'https://forums.sonicretro.org/threads/unofficial-sonic-unleashed-port.43503/'
+  feed: 'https://github.com/hedge-dev/UnleashedRecomp/releases.atom'
+  development: sporadic
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  added: 2026-04-27
+  updated: 2026-04-27
+  video:
+    youtube: TJreGbVPDx0
 
 - name: Unrest
   originals:
