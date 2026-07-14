@@ -1011,6 +1011,44 @@
   - 'https://img.itch.zone/aW1hZ2UvMjcxMDcwMC8xNjE2MTMyNC5qcGc=/original/Wn6IWT.jpg'
   - 'https://img.itch.zone/aW1hZ2UvMjcxMDcwMC8xNjE2MDQwNS5qcGc=/original/ye5maK.jpg'
 
+- name: 'The Legend of Zelda: Breath of the Wild'
+  originals:
+  - 'The Legend of Zelda: Breath of the Wild'
+  type: remake
+  repo: 'https://github.com/zeldaret/botw'
+  url: 'https://botw.link/'
+  development: very active
+  status: unplayable
+  platforms:
+  - Nintendo Switch
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: 'Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)'
+  added: 2026-07-04
+  updated: 2026-07-04
+
+- name: "Legend of Zelda: Majora's Mask"
+  originals:
+  - "The Legend of Zelda: Majora's Mask"
+  type: remake
+  repo: 'https://github.com/zeldaret/mm'
+  url: 'https://zelda.deco.mp/games/mm'
+  development: sporadic
+  status: playable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: "Decompilation of The Legend of Zelda: Majora's Mask"
+  added: 2026-07-04
+  updated: 2026-07-04
+
 - name: "The Legend of Zelda: Mercuris' Chest"
   originals:
   - Legend of Zelda - A Link to the Past
@@ -1157,6 +1195,24 @@
   added: 2021-12-12
   updated: 2021-12-12
 
+- name: 'The Legend of Zelda: Ocarina of Time 3D'
+  originals:
+  - 'The Legend of Zelda: Ocarina of Time'
+  type: remake
+  repo: 'https://github.com/zeldaret/oot3d'
+  development: halted
+  status: unplayable
+  platforms:
+  - 3DS
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: Ocarina of Time 3D'
+  added: 2026-07-04
+  updated: 2026-07-04
+
 - name: 'The Legend of Zelda: Onilink Begins SE'
   originals:
   - Legend of Zelda - A Link to the Past
@@ -1194,6 +1250,25 @@
   - >-
     https://www.solarus-games.org/games/the-legend-of-zelda-onilink-begins-se/screen4.jpg
 
+- name: 'The Legend of Zelda: Phantom Hourglass'
+  originals:
+  - 'The Legend of Zelda: Phantom Hourglass'
+  type: remake
+  repo: 'https://github.com/zeldaret/ph'
+  url: 'https://decomp.dev/zeldaret/ph'
+  development: active
+  status: unplayable
+  platforms:
+  - DS
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: Phantom Hourglass'
+  added: 2026-07-04
+  updated: 2026-07-04
+
 - name: 'The Legend of Zelda: Return of the Hylian SE'
   originals:
   - Legend of Zelda - A Link to the Past
@@ -1229,6 +1304,102 @@
     https://www.solarus-games.org/games/the-legend-of-zelda-return-of-the-hylian-se/screen4.png
   video:
     youtube: DUmeln2kDTg
+
+- name: 'The Legend of Zelda: Skyward Sword'
+  originals:
+  - 'The Legend of Zelda: Skyward Sword'
+  type: remake
+  repo: 'https://github.com/zeldaret/ss'
+  url: 'https://decomp.dev/zeldaret/ss'
+  development: active
+  status: unplayable
+  platforms:
+  - Wii
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: Skyward Sword'
+  added: 2026-07-04
+  updated: 2026-07-04
+
+- name: 'The Legend of Zelda: Spirit Tracks'
+  originals:
+  - 'The Legend of Zelda: Spirit Tracks'
+  type: remake
+  repo: 'https://github.com/zeldaret/st'
+  url: 'https://decomp.dev/zeldaret/st'
+  development: very active
+  status: unplayable
+  platforms:
+  - DS
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: Spirit Tracks'
+  added: 2026-07-04
+  updated: 2026-07-04
+
+- name: 'The Legend of Zelda: The Minish Cap'
+  originals:
+  - 'The Legend of Zelda: The Minish Cap'
+  type: remake
+  repo: 'https://github.com/zeldaret/tmc'
+  url: 'https://zeldaret.github.io/tmc/'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - GBA
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: 'Decompilation of The Legend of Zelda: The Minish Cap (USA/JP/EU)'
+  added: 2026-07-04
+  updated: 2026-07-04
+
+- name: 'The Legend of Zelda: The Wind Waker'
+  originals:
+  - 'The Legend of Zelda: The Wind Waker'
+  type: remake
+  repo: 'https://github.com/zeldaret/tww'
+  url: 'https://zeldaret.github.io/tww'
+  development: very active
+  status: unplayable
+  platforms:
+  - GameCube
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: The Wind Waker'
+  added: 2026-07-04
+  updated: 2026-07-04
+
+- name: 'The Legend of Zelda: Twilight Princess'
+  originals:
+  - 'The Legend of Zelda: Twilight Princess'
+  type: remake
+  repo: 'https://github.com/zeldaret/tp'
+  url: 'https://duskport.com/decomp/timeline-2020-2026/'
+  development: active
+  status: playable
+  platforms:
+  - GameCube
+  - Wii
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: Twilight Princess'
+  added: 2026-07-04
+  updated: 2026-07-04
 
 - name: legion
   frameworks:

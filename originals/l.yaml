@@ -278,6 +278,18 @@
     - Action
     - Adventure
 
+- name: 'The Legend of Zelda: Breath of the Wild'
+  external:
+    website: 'https://www.nintendo.com/jp/zelda/botw/'
+    wikipedia: 'The Legend of Zelda: Breath of the Wild'
+  platforms:
+  - Nintendo Switch
+  - Wii U
+  meta:
+    genres:
+    - Action
+    - Adventure
+
 - name: "The Legend of Zelda: Link's Awakening"
   external:
     website: >-
@@ -294,7 +306,11 @@
 
 - name: "The Legend of Zelda: Majora's Mask"
   external:
+    website: 'https://www.nintendo.co.jp/n01/n64/software/nus_p_nzsj/'
     wikipedia: "The Legend of Zelda: Majora's Mask"
+  platforms:
+  - GameCube
+  - N64
   meta:
     genres:
     - Action
@@ -304,6 +320,7 @@
 
 - name: 'The Legend of Zelda: Ocarina of Time'
   external:
+    website: 'https://www.nintendo.co.jp/n01/n64/software/zelda/'
     wikipedia: 'The Legend of Zelda: Ocarina of Time'
   meta:
     genres:
@@ -312,13 +329,60 @@
     themes:
     - Fantasy
 
+- name: 'The Legend of Zelda: Phantom Hourglass'
+  external:
+    website: 'https://zelda.nintendo.com/universe/game/phantomhourglass/'
+    wikipedia: 'The Legend of Zelda: Phantom Hourglass'
+  platforms:
+  - DS
+  meta:
+    genres:
+    - Action
+    - Adventure
+
+- name: 'The Legend of Zelda: Skyward Sword'
+  external:
+    website: 'https://www.nintendo.co.jp/wii/souj/'
+    wikipedia: 'The Legend of Zelda: Skyward Sword'
+  platforms:
+  - Nintendo Switch
+  - Wii
+  meta:
+    genres:
+    - Action
+    - Adventure
+
+- name: 'The Legend of Zelda: Spirit Tracks'
+  external:
+    website: 'https://www.nintendo.co.jp/ds/bkij/'
+    wikipedia: 'The Legend of Zelda: Spirit Tracks'
+  platforms:
+  - DS
+  meta:
+    genres:
+    - Action
+    - Adventure
+
+- name: 'The Legend of Zelda: The Minish Cap'
+  external:
+    website: 'https://www.nintendo.co.jp/n08/bzmj/'
+    wikipedia: 'The Legend of Zelda: The Minish Cap'
+  platforms:
+  - GBA
+  meta:
+    genres:
+    - Action
+    - Adventure
+
 - name: 'The Legend of Zelda: The Wind Waker'
   names:
   - Wind Waker
   external:
+    website: 'https://www.nintendo.co.jp/ngc/gzlj/'
     wikipedia: 'The Legend of Zelda: The Wind Waker'
   platforms:
   - GameCube
+  - Wii U
   meta:
     genres:
     - Action
@@ -326,10 +390,12 @@
 
 - name: 'The Legend of Zelda: Twilight Princess'
   external:
+    website: 'https://www.nintendo.co.jp/wii/rzdj/'
     wikipedia: 'The Legend of Zelda: Twilight Princess'
   platforms:
   - GameCube
   - Wii
+  - Wii U
   meta:
     genres:
     - Action
