@@ -1,3 +1,29 @@
+- name: RA2
+  originals:
+  - 'Command & Conquer: Red Alert 2'
+  type: remake
+  repo: 'https://github.com/OpenRA/ra2/'
+  feed: 'https://github.com/OpenRA/ra2/releases.atom'
+  development: sporadic
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - OpenRA
+  licenses:
+  - GPL3
+  info: >-
+    A mod for OpenRA that is yet unreleased.
+  added: 2026-07-26
+  updated: 2026-07-26
+  images:
+  - https://media.moddb.com/images/articles/1/201/200194/auto/Kq4VS7C.png
+
 - name: RA2Web React
   originals:
   - 'Command & Conquer: Red Alert 2'
