@@ -2050,6 +2050,8 @@
   url: 'https://forums.shiningforcecentral.com/viewtopic.php?t=26466'
   development: halted
   status: playable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - C
@@ -2091,9 +2093,11 @@
   content: commercial
   originals:
   - Fallout 2
-  repo: https://github.com/phobos2077/sfall
+  repo: https://github.com/sfall-team/sfall
   url: https://sfall-team.github.io/sfall/
   status: N/A
+  platforms:
+  - Windows
   type: tool
   added: 2018-06-20
   updated: 2025-06-08
@@ -2143,6 +2147,8 @@
   feed: https://sh3redux.blogspot.com/feeds/posts/default
   development: halted
   status: unplayable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C++
@@ -2173,6 +2179,8 @@
   originals:
   - Shadow of the Beast
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/spleennooname/shadow-of-the-beast-html5
   url: https://spleennooname.github.io/shadow-of-the-beast-html5/
   type: remake
@@ -2186,6 +2194,8 @@
   url: 'https://glop.org/sotb/'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -2223,6 +2233,8 @@
   feed: 'https://sourceforge.net/p/shadow-pong/news/feed.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -2240,10 +2252,11 @@
   - Shadow Warrior
   type: official
   repo: 'https://github.com/dos-games/vanilla-shadow_warrior'
-  url: >-
-    https://web.archive.org/web/20160303204143/http://legacy.3drealms.com/news/2005/04/shadow_warrior_12.html
+  url: https://web.archive.org/web/20160303204143/http://legacy.3drealms.com/news/2005/04/shadow_warrior_12.html
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -2262,6 +2275,8 @@
   url: 'https://icculus.org/shadowwarrior/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C
@@ -2281,6 +2296,8 @@
   originals:
   - 'Shadowgrounds: Survivor'
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/vayerx/shadowgrounds
   type: remake
   added: 2015-04-14
@@ -2294,6 +2311,8 @@
   feed: 'https://github.com/denix666/shamus/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - Rust
@@ -2313,6 +2332,8 @@
   repo: 'https://github.com/ShandalarMagic/Shandalar'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -2331,6 +2352,8 @@
   repo: 'https://github.com/SharpMC/SharpMC'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -2350,6 +2373,8 @@
   repo: 'https://github.com/SharpMC/SharpMC-Rewritten'
   development: halted
   status: unplayable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -2367,6 +2392,10 @@
   repo: https://github.com/dcnick3/shin
   development: active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   feed: https://github.com/DCNick3/shin/releases.atom
   content: commercial
   langs:
@@ -2388,6 +2417,8 @@
   originals:
   - Shining Force II
   status: unplayable
+  platforms:
+  - Genesis
   repo: https://github.com/ShiningForceCentral/SF2RE
   url: https://forums.shiningforcecentral.com/viewtopic.php?t=25809
   feed: https://github.com/ShiningForceCentral/SF2RE/releases.atom
@@ -2406,6 +2437,8 @@
   originals:
   - Shining Soul
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/CharlieIsMyName/ShiningSoulRemake
   type: remake
   added: 2016-04-11
@@ -2425,6 +2458,12 @@
   url: https://www.shipofharkinian.com/
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Nintendo Switch
+  - Wii U
   content: commercial
   licenses:
   - As-is
@@ -2452,6 +2491,9 @@
   feed: 'https://github.com/dulsi/shippy1984/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Local
   content: free
@@ -2478,6 +2520,8 @@
   repo: 'https://github.com/CelestialAmber/shiren'
   development: halted
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -2495,6 +2539,9 @@
   feed: https://github.com/shiromino/shiromino/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -2525,6 +2572,10 @@
   repo: https://github.com/Interrupt/systemshock
   feed: https://github.com/Interrupt/systemshock/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2018-06-15
   updated: 2023-10-27
@@ -2536,6 +2587,8 @@
   repo: 'https://github.com/Kaboms/Shrek-2-Remake'
   development: active
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - C++
@@ -2562,6 +2615,8 @@
   url: 'https://www.colino.net/wordpress/en/shufflepuck-cafe-for-apple-ii/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   multiplayer:
   - LAN
   content: free
@@ -2585,6 +2640,8 @@
   feed: 'https://github.com/clabe45/shulkr/releases.atom'
   development: halted
   status: N/A
+  platforms:
+  - None
   langs:
   - Python
   licenses:
@@ -2611,6 +2668,8 @@
   originals:
   - Siege of Avalon
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source
   type: remake
   added: 2015-04-08
@@ -2624,10 +2683,12 @@
   - Earthsiege 2
   type: tool
   repo: https://github.com/open-siege/siege-studio
-  url: https://store.steampowered.com/app/3193420/Siege_Studio/
+  url: https://thesiegehub.itch.io/siege-studio
   feed: 'https://github.com/open-siege/open-siege/releases.atom'
   development: sporadic
   status: N/A
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -2645,6 +2706,9 @@
   repo: https://github.com/signus-game/signus
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C++
   frameworks:
@@ -2662,6 +2726,8 @@
   originals:
   - Silent Hill 2
   status: N/A
+  platforms:
+  - Windows
   type: tool
   repo: https://github.com/elishacloud/Silent-Hill-2-Enhancements
   feed: https://github.com/elishacloud/Silent-Hill-2-Enhancements/releases.atom
@@ -2737,6 +2803,8 @@
   feed: https://github.com/riperiperi/Simitone/releases.atom
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
   langs:
   - C#
   frameworks:
@@ -2757,6 +2825,8 @@
   url: 'https://www.oligalma.com/en/downloads/java/simon'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Java
@@ -2794,6 +2864,8 @@
   url: 'https://mateusz.fr/simplesok/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C
@@ -2814,6 +2886,8 @@
   url: 'https://dusted.dk/pages/simplevaders/'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -2841,6 +2915,8 @@
   repo: https://github.com/LazyDuchess/SimUnity2
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - C#
@@ -2871,6 +2947,11 @@
   - Transport Tycoon
   repo: https://github.com/simutrans/simutrans
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - BeOS
   multiplayer:
   - Online
   type: clone
@@ -2890,6 +2971,8 @@
     https://www.reddit.com/r/linux_gaming/comments/p1bsr5/sin_golds_90s_fps_source_code_has_been_released/
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -2919,6 +3002,8 @@
   - Asteroids
   repo: https://github.com/slx7R4GDZM/Sine
   status: semi-playable
+  platforms:
+  - Windows
   type: remake
   added: 2016-10-30
   updated: 2023-10-30
@@ -2931,6 +3016,8 @@
   url: 'https://www.kickstarter.com/projects/1805029723/sissyfight-2000-returns'
   development: halted
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Competitive
   - Online
