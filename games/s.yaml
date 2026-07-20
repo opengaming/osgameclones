@@ -6,6 +6,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_1'
   development: active
   status: playable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -23,6 +25,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_2_final'
   development: sporadic
   status: playable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -40,6 +44,10 @@
   feed: 'https://github.com/SonicOrcaModding/S2HD/releases.atom'
   development: active
   status: semi-playable
+  platforms:
+  - Android
+  - Linux
+  - iOS
   multiplayer:
   - Local
   - Split-screen
@@ -60,6 +68,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_2_Master_System'
   development: complete
   status: playable
+  platforms:
+  - Master System
   content: commercial
   langs:
   - Assembly
@@ -77,6 +87,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_3D:_Flickies.27_Island'
   development: halted
   status: playable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -93,6 +105,8 @@
   repo: 'https://www.level7.org.uk/miscellany/sabrewulf-disassembly.txt'
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
   langs:
   - Assembly
   licenses:
@@ -108,6 +122,8 @@
   repo: 'https://github.com/FraGag/sadx_decomp'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -126,6 +142,10 @@
   langs:
   - C#
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   multiplayer:
   - Online
   - LAN
@@ -148,6 +168,8 @@
   originals:
   - Powder Game
   status: playable
+  platforms:
+  - Web
   type: clone
   repo: https://github.com/maxbittker/sandspiel
   url: https://sandspiel.club/
@@ -173,6 +195,8 @@
   feed: 'https://sourceforge.net/p/saper3d/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C
@@ -199,6 +223,8 @@
   feed: 'https://github.com/finalclass/sapter/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   frameworks:
@@ -221,6 +247,8 @@
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/asteroids/sast1.5.README
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C++
   frameworks:
@@ -240,6 +268,9 @@
   feed: 'https://github.com/kenamick/savagewheels/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Competitive
   content: open
@@ -266,6 +297,8 @@
   url: https://archive.org/details/Savage_The_Battle_for_Newerth_source_code
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   content: free
@@ -285,6 +318,8 @@
   repo: 'https://github.com/garu/Games-SavingSue'
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Perl
@@ -306,10 +341,11 @@
   - 'SpongeBob SquarePants: SuperSponge'
   type: official
   repo: 'https://github.com/hellfire3d/SBSPSS'
-  url: >-
-    https://web.archive.org/web/20191113200652/https://assemblergames.com/threads/spongebob-squarepants-supersponge-prototypes-ps1.62009/
+  url: https://web.archive.org/web/20191113200652/https://assemblergames.com/threads/spongebob-squarepants-supersponge-prototypes-ps1.62009/
   development: complete
   status: playable
+  platforms:
+  - PlayStation
   content: commercial
   langs:
   - C++
@@ -327,6 +363,9 @@
   feed: 'https://sourceforge.net/projects/scalar/rss?path=/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C++
@@ -354,6 +393,8 @@
   - SimCopter
   repo: https://github.com/fr0zi/sccopter
   status: unplayable
+  platforms:
+  - Linux
   type: remake
   added: 2016-01-10
   updated: 2023-10-22
@@ -368,6 +409,8 @@
   feed: 'https://gitlab.com/ryandwyer/scheddy-kong-racing.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - N64
   multiplayer:
   - Split-screen
   content: commercial
@@ -386,6 +429,8 @@
   url: 'https://wasyl.eu/games/scorch-went-bonkers.html'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Local
   content: open
@@ -414,6 +459,9 @@
   originals:
   - Scorched Earth
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - Competitive
@@ -438,6 +486,8 @@
   url: 'http://www.scorch2000.com/'
   development: halted
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Online
   - Hotseat
@@ -486,6 +536,8 @@
   originals:
   - Moonbase Commander
   status: unplayable
+  platforms:
+  - Linux
   repo: https://github.com/Scorched-Moon/client
   url: https://scorched-moon.github.io
   type: remake
@@ -500,6 +552,8 @@
   url: 'https://www.erasmatazz.com/library/source-code/source-code-for-scram.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -521,6 +575,8 @@
   - StarCraft
   repo: https://github.com/toshok/scsharp
   status: unplayable
+  platforms:
+  - Windows
   type: remake
   added: 2021-01-07
   updated: 2021-01-07
@@ -988,6 +1044,18 @@
   - Zork Nemesis
   repo: https://github.com/scummvm/scummvm
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - PlayStation 3
+  - PSP
+  - Android
+  - iOS
+  - Wii
+  - BeOS
+  - Amiga
+  - Atari
   type: remake
   url: https://scummvm.org/
   added: 2011-06-12
@@ -1001,6 +1069,8 @@
   url: 'https://toivjon.wordpress.com/2017/07/19/sdl2-breakout/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Hotseat
   langs:
@@ -1024,6 +1094,8 @@
   url: https://toivjon.wordpress.com/2017/06/20/sdl2-pong/
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Local
