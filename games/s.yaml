@@ -3079,6 +3079,8 @@
   repo: 'https://git.sr.ht/~benoitren/skccport'
   development: active
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -3116,6 +3118,8 @@
   feed: 'https://github.com/yuv422/skifree_decomp/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Assembly
@@ -3134,6 +3138,8 @@
   originals:
   - SkiFree
   status: semi-playable
+  platforms:
+  - Web
   repo: https://github.com/andymason/Skifree-HTML5-clone
   langs:
   - JavaScript
@@ -3151,6 +3157,8 @@
   originals:
   - SkiFree
   status: semi-playable
+  platforms:
+  - Web
   repo: https://github.com/basicallydan/skifree.js
   url: https://basicallydan.github.io/skifree.js/
   type: remake
@@ -3168,6 +3176,8 @@
   url: 'https://blendogames.com/news/post/2025-06-26-skindeepsourcecode/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   frameworks:
   - id Tech 4
@@ -3187,6 +3197,8 @@
   feed: 'https://apps.kde.org/skladnik/index.xml'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -3207,6 +3219,8 @@
   url: 'https://skoolkid.gitlab.io/skooldaze/'
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
   langs:
   - Skool
   licenses:
@@ -3222,6 +3236,8 @@
   feed: 'https://github.com/gbsphenx/skproject/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -3239,6 +3255,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/337/33785.html'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   content: free
   langs:
   - C
@@ -3260,6 +3278,8 @@
   url: http://www.malcolm-s.net/ti/skyracer/
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   content: open
   langs:
   - C
@@ -3275,6 +3295,10 @@
   - Doom
   type: tool
   status: N/A
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/sirjuddington/SLADE
   url: https://slade.mancubus.net/
   development: active
@@ -3298,6 +3322,8 @@
   repo: 'https://github.com/milkeybabes/Slaine'
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   langs:
   - Assembly
   licenses:
@@ -3321,6 +3347,11 @@
   originals:
   - NetHack
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - DOS
   info: SLASH'EM (SuperLotsaAddedStuffHack - Extended Magic) is a variant of Nethack.
   repo: https://sourceforge.net/projects/slashem/
   type: clone
@@ -3335,6 +3366,8 @@
   repo: 'https://github.com/initials/SLF'
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: free
   langs:
   - GDScript
@@ -3350,10 +3383,11 @@
   - Super Lemonade Factory
   type: official
   repo: 'https://github.com/initials/SLF_AIR_SOURCE'
-  url: >-
-    https://web.archive.org/web/20250610022853/http://initialscommand.com/main/?p=656
+  url: https://web.archive.org/web/20250610022853/http://initialscommand.com/main/?p=656
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - ActionScript
@@ -3374,6 +3408,8 @@
     https://web.archive.org/web/20121124114024/http://initialscommand.com/main/?p=656
   development: complete
   status: playable
+  platforms:
+  - iOS
   content: free
   langs:
   - Objective-C
@@ -3390,6 +3426,8 @@
   repo: 'https://github.com/cricri-pingouin/SliJewel'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3408,6 +3446,8 @@
   repo: 'https://github.com/cricri-pingouin/SliLights'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3426,6 +3466,8 @@
   repo: 'https://github.com/cricri-pingouin/SliLumns'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3452,6 +3494,11 @@
   - Local
   repo: https://github.com/highfestiva/life
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - iOS
   type: clone
   added: 2019-06-07
   updated: 2025-06-23
@@ -3466,6 +3513,8 @@
   repo: 'https://github.com/cricri-pingouin/SliMind'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3484,6 +3533,8 @@
   repo: 'https://github.com/cricri-pingouin/SliMine'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3502,6 +3553,8 @@
   repo: 'https://github.com/cricri-pingouin/SliPeg'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3520,6 +3573,8 @@
   repo: https://github.com/cricri-pingouin/SliSame
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3538,6 +3593,8 @@
   repo: 'https://github.com/cricri-pingouin/SliSnake'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3556,6 +3613,8 @@
   repo: 'https://github.com/cricri-pingouin/SliTris'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3593,6 +3652,8 @@
   repo: https://github.com/sm64pc/sm64ex
   development: sporadic
   status: playable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -3614,6 +3675,8 @@
   feed: 'https://sourceforge.net/p/smallgamesc/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Java
@@ -3635,6 +3698,8 @@
   url: 'https://os4depot.net/?function=showfile&file=game/platform/smb_sdl2.lha'
   development: halted
   status: playable
+  platforms:
+  - Amiga
   content: open
   langs:
   - C++
@@ -3654,6 +3719,8 @@
   url: https://www.romhacking.net/documents/344/
   development: halted
   status: playable
+  platforms:
+  - NES
   multiplayer:
   - Local
   - Hotseat
@@ -3673,6 +3740,8 @@
   url: 'https://forums.nesdev.org/viewtopic.php?t=10035'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -3688,6 +3757,8 @@
   repo: 'https://github.com/captainsouthbird/smb3'
   development: sporadic
   status: playable
+  platforms:
+  - NES
   multiplayer:
   - Local
   - Hotseat
@@ -3709,6 +3780,8 @@
   feed: 'https://github.com/BBaoVanC/smines/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -3725,6 +3798,8 @@
   repo: https://github.com/snesrev/smw
   development: halted
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - C
@@ -3750,6 +3825,8 @@
   - Snake
   repo: https://github.com/spypunk/snake
   status: playable
+  platforms:
+  - None
   type: remake
   added: 2016-09-14
   updated: 2023-11-01
@@ -3762,6 +3839,8 @@
   url: 'https://projecthub.arduino.cc/sadreactonly/snake-game-on-nokia-5510-lcd-ea381a'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C++
   frameworks:
@@ -3786,6 +3865,8 @@
   url: 'https://lostsidedead.biz/snake/'
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   licenses:
@@ -3802,6 +3883,8 @@
   repo: 'https://github.com/mrhappyasthma/Snake'
   development: complete
   status: playable
+  platforms:
+  - Windows
   langs:
   - LabVIEW
   licenses:
@@ -3818,6 +3901,8 @@
   url: 'https://projecthub.arduino.cc/Hunter1234/snake-led-matrix-game-59f6ae'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C++
   licenses:
@@ -3834,6 +3919,8 @@
   url: 'https://www.classicdosgames.com/game/Snarf.html'
   development: sporadic
   status: playable
+  platforms:
+  - DOS
   langs:
   - C
   licenses:
@@ -3851,6 +3938,8 @@
   repo: 'https://shrigley.com/source_code_archive/#:~:text=Gargoyles%20Prototype'
   development: halted
   status: semi-playable
+  platforms:
+  - SNES
   content: free
   langs:
   - Assembly
@@ -3874,10 +3963,12 @@
   - Snipes
   repo: https://github.com/Davidebyzero/Snipes
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   added: 2017-04-04
   updated: 2017-04-04
-  url: https://www.vogons.org/viewtopic.php?t=49073
   images:
   - https://kingbird.myphotos.cc/1bc763733d48b46534d219b0fc8ddf71/Snipes%20port%20%2B%20ConEmu%20screenshot.png
   - https://kingbird.myphotos.cc/9c8a600b6df5d251fc199092b8b0d7d9/Snipes%20port%20%2B%20ConEmu%20screenshot%20with%20omniview.png
@@ -3891,6 +3982,8 @@
   feed: 'https://github.com/denix666/sokoban/releases.atom'
   development: sporadic
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -3910,6 +4003,8 @@
     https://web.archive.org/web/20030206062540/http://www.fi.tartu.ee/danli97/#:~:text=Sokoban,-1
   development: halted
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - Assembly
   licenses:
