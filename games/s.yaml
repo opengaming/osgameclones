@@ -345,7 +345,7 @@
   development: complete
   status: playable
   platforms:
-  - PlayStation
+  - PS
   content: commercial
   langs:
   - C++
@@ -1048,7 +1048,7 @@
   - Windows
   - Linux
   - OSX
-  - PlayStation 3
+  - PS3
   - PSP
   - Android
   - iOS
@@ -2216,7 +2216,7 @@
   development: sporadic
   status: semi-playable
   platforms:
-  - PlayStation 2
+  - PS2
   content: commercial
   langs:
   - C
@@ -2762,7 +2762,7 @@
   development: very active
   status: semi-playable
   platforms:
-  - PlayStation
+  - PS
   content: commercial
   langs:
   - C
@@ -3635,7 +3635,7 @@
   development: very active
   status: unplayable
   platforms:
-  - PlayStation 2
+  - PS2
   content: commercial
   langs:
   - C++
@@ -4023,6 +4023,8 @@
   feed: 'https://github.com/swatteau/sokoban-rs/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -4045,6 +4047,8 @@
   feed: 'https://github.com/obfusk/sokobang/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - HTML
@@ -4066,6 +4070,10 @@
   feed: 'https://sourceforge.net/p/sokobano/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Java
@@ -4091,6 +4099,8 @@
   url: 'http://buze.michel.chez.com/Boxworld/src.htm'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -4108,6 +4118,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/130/13038.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -4131,6 +4143,8 @@
   feed: 'https://brettchalupa.itch.io/sokoworld/devlog.rss'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - HTML
@@ -4158,6 +4172,8 @@
   feed: 'https://metacpan.org/dist/Games-SolarConflict/releases.rss'
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Perl
@@ -4179,6 +4195,8 @@
   url: 'https://www.romhacking.net/documents/510/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -4205,6 +4223,10 @@
   originals:
   - Legend of Zelda - A Link to the Past
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://gitlab.com/solarus-games/solarus
   type: clone
   added: 2013-05-28
@@ -4230,6 +4252,11 @@
   originals:
   - Solar Fox
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - BeOS
   development: complete
   type: remake
   added: 2015-04-25
@@ -4243,6 +4270,8 @@
   repo: https://github.com/smokku/soldank
   development: sporadic
   status: semi-playable
+  platforms:
+  - None
   multiplayer:
   - Online
   - Competitive
@@ -4264,6 +4293,10 @@
   feed: 'https://github.com/son-link/pong/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Competitive
   - Local
@@ -4284,6 +4317,8 @@
   repo: 'https://github.com/fr3dsp/Sonic4Ep1-Decomp'
   development: sporadic
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -4299,6 +4334,8 @@
   repo: 'https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation'
   development: halted
   status: unplayable
+  platforms:
+  - Mobile
   content: commercial
   langs:
   - Java
@@ -4316,6 +4353,13 @@
   url: https://sonic3air.org/
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - iOS
+  - Web
   multiplayer:
   - Split-screen
   content: commercial
@@ -4341,6 +4385,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_3'
   development: active
   status: playable
+  platforms:
+  - Genesis
   multiplayer:
   - Local
   content: commercial
@@ -4360,6 +4406,13 @@
   url: 'https://sa2.dev/'
   development: very active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - GBA
+  - PS2
+  - PSP
   multiplayer:
   - Local
   content: commercial
@@ -4387,6 +4440,8 @@
   url: 'https://sat-r.github.io/sa3/'
   development: very active
   status: unplayable
+  platforms:
+  - GBA
   multiplayer:
   - Local
   langs:
@@ -4405,6 +4460,8 @@
   repo: 'https://github.com/doldecomp/sadx'
   development: halted
   status: unplayable
+  platforms:
+  - GameCube
   content: commercial
   langs:
   - C
@@ -4419,6 +4476,8 @@
   - Sonic Adventure
   type: tool
   status: N/A
+  platforms:
+  - Windows
   repo: https://github.com/X-Hax/sa_tools
   url: https://github.com/X-Hax/sa_tools/wiki
   feed: https://github.com/X-Hax/sa_tools/releases.atom
@@ -4449,6 +4508,8 @@
   url: 'https://www.benoitren.be/soniccd.html'
   development: sporadic
   status: playable
+  platforms:
+  - GameCube
   content: commercial
   langs:
   - C
@@ -4464,6 +4525,8 @@
   repo: 'https://github.com/sonicretro/scddisasm'
   development: sporadic
   status: playable
+  platforms:
+  - Sega CD
   content: commercial
   langs:
   - Assembly
@@ -4480,6 +4543,11 @@
   feed: https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Xbox One
+  - PS4
+  - Nintendo Switch
   content: commercial
   langs:
   - C
@@ -4497,6 +4565,8 @@
   repo: 'https://github.com/doldecomp/sonicriders'
   development: halted
   status: playable
+  platforms:
+  - GameCube
   multiplayer:
   - Competitive
   content: commercial
@@ -4525,6 +4595,10 @@
   originals:
   - Sonic the Hedgehog
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/STJr/SRB2
   type: similar
   added: 2014-04-16
@@ -4539,6 +4613,12 @@
   repo: 'https://github.com/itsmattkc/RunnersDecomp'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - iOS
+  - Android
   content: commercial
   langs:
   - 'C#'
@@ -4556,6 +4636,8 @@
   repo: 'https://github.com/RushRE/SonicRushAdventure-Decomp'
   development: active
   status: unplayable
+  platforms:
+  - DS
   content: commercial
   langs:
   - C
@@ -4566,21 +4648,6 @@
   added: 2026-04-27
   updated: 2026-04-27
 
-- name: Sonic The Hedgehog Game Gear Disassembly
-  originals:
-  - Sonic the Hedgehog
-  type: remake
-  repo: 'https://github.com/Totally-Not-Filter/s1-gg-disasm'
-  development: sporadic
-  status: playable
-  content: commercial
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-03-28
-  updated: 2026-03-28
-
 - name: soniccdrespinned
   originals:
   - Sonic CD
@@ -4588,6 +4655,8 @@
   repo: 'https://git.sr.ht/~benoitren/soniccdrespinned'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -4601,12 +4670,12 @@
   originals:
   - Sopwith
   type: official
-  repo: >-
-    https://web.archive.org/web/20191211132727/https://davidlclark.com/software-distribution/sopwith-source-code-zip-file
-  url: >-
-    https://archive.ph/20120206011933/http://www.davidlclark.com/index.html?http://www.davidlclark.com/sopwith/sourcecode.html
+  repo: https://web.archive.org/web/20191211132727/https://davidlclark.com/software-distribution/sopwith-source-code-zip-file
+  url: https://web.archive.org/web/20200131222432/http://davidlclark.com/page/sopwith
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - C
   - Assembly
@@ -4625,6 +4694,8 @@
   originals:
   - Sopwith
   status: playable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/sopwith3/
   development: halted
   type: remake
@@ -4644,6 +4715,8 @@
   feed: 'https://github.com/PavelVPV/sopwith_stm3241g_eval/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - C
   licenses:
@@ -4660,6 +4733,8 @@
   repo: 'https://github.com/LemonHaze420/SOS1937'
   development: complete
   status: playable
+  platforms:
+  - Dreamcast
   content: commercial
   langs:
   - C++
@@ -4677,7 +4752,7 @@
   development: halted
   status: unplayable
   platforms:
-  - PlayStation
+  - PS
   content: commercial
   langs:
   - C
@@ -4691,10 +4766,12 @@
   - Soul Ride
   type: official
   repo: 'https://sourceforge.net/projects/soulride/'
-  url: >-
-    http://www.soulride.com/products/news.html#:~:text=Soul%20Ride%20Engine%20goes%20GPL
+  url: http://www.soulride.com/products/news.html#:~:text=Soul%20Ride%20Engine%20goes%20GPL
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -4710,6 +4787,8 @@
   url: 'https://archive.org/details/source-code-for-rbi-94-sega-genesis'
   development: complete
   status: playable
+  platforms:
+  - Genesis
   multiplayer:
   - Local
   content: commercial
@@ -4730,6 +4809,9 @@
   url: 'https://developer.valvesoftware.com/wiki/Source_SDK_Base_2013'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Competitive
   - Online
@@ -4751,6 +4833,8 @@
   repo: 'https://github.com/mattgodbolt/reddog'
   development: complete
   status: playable
+  platforms:
+  - Dreamcast
   multiplayer:
   - Local
   content: commercial
@@ -4769,6 +4853,10 @@
   repo: https://github.com/sourcehold/Sourcehold
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C++
   frameworks:
@@ -4788,6 +4876,8 @@
   repo: 'https://github.com/Olde-Skuul/spaceaceiigs'
   development: halted
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -4805,6 +4895,8 @@
   url: 'https://www.rockpapershotgun.com/space-engineers-open-source'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   content: commercial
@@ -4822,6 +4914,8 @@
   repo: 'https://github.com/Zireael07/Space-Frontier'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - GDScript
@@ -4837,10 +4931,11 @@
   - B.O.B.
   type: official
   repo: 'https://github.com/RetailGameSourceCode/BOB'
-  url: >-
-    https://web.archive.org/web/20170618105130/https://wiki.superfamicom.org/snes/show/Space+Funky+B.O.B.
+  url: https://web.archive.org/web/20170618105130/https://wiki.superfamicom.org/snes/show/Space+Funky+B.O.B.
   development: complete
   status: playable
+  platforms:
+  - Apple II
   langs:
   - Assembly
   licenses:
@@ -4879,6 +4974,8 @@
   url: https://brunoaor.github.io/Space-Harrier-Clone/
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   frameworks:
@@ -4899,6 +4996,8 @@
   url: 'https://spaceinvaders.viperfish.com.au/'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -7128,7 +7227,7 @@
   - C
   licenses:
   - As-is
-  info: A port of the full decompilation of Super Mario 64 for the PlayStation 1.
+  info: A port of the full decompilation of Super Mario 64 for the PS 1.
   added: 2025-12-11
   updated: 2025-12-11
 
