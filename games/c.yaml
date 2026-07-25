@@ -171,6 +171,25 @@
   added: 2025-12-13
   updated: 2026-01-02
 
+- name: Cadaver Remake
+  development: halted
+  images:
+  - https://web.archive.org/web/20231002203409im_/https://jotd.pagesperso-orange.fr/cadaver/cadaver_remake_pic.png
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  content: commercial
+  originals:
+  - Cadaver
+  status: unplayable
+  type: remake
+  platforms:
+  - Windows
+  added: 2015-04-06
+  updated: 2026-05-22
+  url: https://web.archive.org/web/20231002172923/https://jotd.pagesperso-orange.fr/cadaver/
+
 - name: CaesarIA
   info: most of original game works, except war logic
   langs:
@@ -244,7 +263,7 @@
   development: complete
   status: playable
   platforms:
-  - PlayStation
+  - PS
   content: free
   langs:
   - C
@@ -450,6 +469,29 @@
   added: 2025-12-04
   updated: 2025-12-04
 
+- name: Caries Field
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://www.allegro.cc/depot/CariesField'
+  url: https://web.archive.org/web/20240105205535/http://inf1.altervista.org/cfield.php
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-07-01
+  updated: 2026-07-01
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3334_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3335_large.png'
+
 - name: Carnage3D
   langs:
   - C++
@@ -545,6 +587,29 @@
   video:
     youtube: _17aWFUGj5k
 
+- name: Castle Adventure
+  originals:
+  - Castle Adventure
+  type: remake
+  repo: 'https://github.com/elishacloud/Castle-Adventure'
+  url: >-
+    https://web.archive.org/web/20081223141028/http://members.lycos.co.uk/dlharmon/games/index.php?gid=11
+  feed: 'https://github.com/elishacloud/Castle-Adventure/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - Zlib
+  added: 2026-05-01
+  updated: 2026-05-01
+  images:
+  - https://raw.githubusercontent.com/elishacloud/wiki-attachments/master/Castle-Adventure/new-opening.png
+
 - name: Castle-Combat
   images:
   - https://www.linux-games.com/castle-combat/shot1.png
@@ -586,6 +651,26 @@
   - https://mordrax.github.io/cotwmtor/images/corridor-example.png
   - https://mordrax.github.io/cotwmtor/images/rip_improved.png
 
+- name: Castlekeep
+  originals:
+  - Stronghold
+  type: remake
+  repo: 'https://github.com/leidav/Castlekeep'
+  development: halted
+  status: unplayable
+  platforms:
+  - None
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2026-05-04
+  updated: 2026-05-04
+
 - name: Castlequest
   originals:
   - Castlequest
@@ -601,6 +686,25 @@
   - As-is
   added: 2026-02-05
   updated: 2026-02-05
+
+- name: The Castles of Doctor Creep
+  originals:
+  - The Castles of Dr. Creep
+  type: remake
+  repo: 'https://github.com/Drunella/codc-easyflash'
+  url: 'https://csdb.dk/release/?id=231625'
+  development: complete
+  status: playable
+  platforms:
+  - Commodore 64
+  langs:
+  - Assembly
+  licenses:
+  - Apache
+  added: 2026-05-27
+  updated: 2026-05-27
+  images:
+  - 'https://csdb.dk/gfx/releases/231000/231625.gif'
 
 - name: The Castles of Dr. Creep
   images:
@@ -652,6 +756,24 @@
   updated: 2026-05-09
   images:
   - 'https://csdb.dk/gfx/releases/145000/145120.gif'
+
+- name: 'Castlevania: Symphony of the Night Decompilation'
+  originals:
+  - 'Castlevania: Symphony of the Night'
+  type: remake
+  repo: 'https://github.com/Xeeynamo/sotn-decomp'
+  url: 'https://decomp.dev/Xeeynamo/sotn-decomp'
+  development: very active
+  status: unplayable
+  platforms:
+  - PS
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - AGPL3
+  added: 2026-05-25
+  updated: 2026-05-25
 
 - name: 'Cataclysm: Dark Days Ahead'
   frameworks:
@@ -1090,6 +1212,49 @@
   video:
     youtube: o6NGBGwtwpk
 
+- name: Celeste
+  originals:
+  - Celeste Classic
+  type: clone
+  repo: 'https://www.lexaloffle.com/bbs/?tid=2145'
+  url: 'https://maddymakesgamesinc.itch.io/celesteclassic'
+  development: halted
+  status: playable
+  platforms:
+  - Web
+  langs:
+  - Lua
+  frameworks:
+  - PICO-8
+  licenses:
+  - As-is
+  added: 2026-05-20
+  updated: 2026-05-20
+  images:
+  - 'https://www.lexaloffle.com/bbs/files/10162/2%2059.PNG'
+
+- name: Céleste Classic
+  originals:
+  - Celeste Classic
+  type: remake
+  repo: 'https://github.com/minirop/Celeste-META'
+  url: 'https://gamebuino.com/creations/celeste-classic'
+  development: halted
+  status: semi-playable
+  platforms:
+  - Arduino
+  - Web
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: A port of Céleste Classic from PICO-8 on Gamebuino META
+  added: 2026-07-02
+  updated: 2026-07-02
+  images:
+  - https://s3.eu-west-3.amazonaws.com/gamebuino/upload/images/posts/847fe1339c1538b23a3f844219ac9b2c.gif
+  - https://s3.eu-west-3.amazonaws.com/gamebuino/upload/images/posts/eab5c84db7ba5f39fc5e3cef708f8661.gif
+
 - name: Celeste Classic 2
   originals:
   - Celeste Classic
@@ -1114,6 +1279,53 @@
   images:
   - https://img.itch.zone/aW1nLzI0MDk1ODAzLnBuZw==/original/5wbTvV.png
   - https://img.itch.zone/aW1nLzIyNzMzNjU5LmdpZg==/original/KhK2oy.gif
+
+- name: Celeste Classic 2 GBA port
+  originals:
+  - Celeste Classic
+  type: clone
+  repo: 'https://github.com/Skaleee/Celeste2-GBA'
+  feed: 'https://github.com/Skaleee/Celeste2-GBA/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - GBA
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-21
+  updated: 2026-06-21
+  images:
+  - https://raw.githubusercontent.com/Skaleee/Celeste2-GBA/main/screenshots/celeste2-titlescreen.gif
+  - https://raw.githubusercontent.com/Skaleee/Celeste2-GBA/main/screenshots/celeste2-berry.gif
+  - https://raw.githubusercontent.com/Skaleee/Celeste2-GBA/main/screenshots/celeste2-dying.gif
+  - https://raw.githubusercontent.com/Skaleee/Celeste2-GBA/main/screenshots/celeste2-grappling.gif
+
+- name: Celeste Classic GBA port
+  originals:
+  - Celeste Classic
+  type: remake
+  repo: 'https://github.com/JeffRuLz/Celeste-Classic-GBA'
+  url: 'https://www.topfree.de/celeste-classic-gba-port'
+  feed: 'https://github.com/JeffRuLz/Celeste-Classic-GBA/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - GBA
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-21
+  updated: 2026-06-21
+  images:
+  - https://raw.githubusercontent.com/JeffRuLz/Celeste-Classic-GBA/master/screen1.png
+  - https://raw.githubusercontent.com/JeffRuLz/Celeste-Classic-GBA/master/screen2.png
+  - https://raw.githubusercontent.com/JeffRuLz/Celeste-Classic-GBA/master/screen3.png
+  - https://raw.githubusercontent.com/JeffRuLz/Celeste-Classic-GBA/master/screen4.png
 
 - name: '[CELL]IVIZATION'
   originals:
@@ -1228,9 +1440,33 @@
   platforms:
   - None
   repo: https://github.com/maikmerten/chainreaction
+  url: https://web.archive.org/web/20240721071415/http://cr.freewarepoint.de/
   development: halted
   type: remake
-  updated: 2022-07-16
+  added: 2017-12-12
+  updated: 2026-07-05
+  images:
+  - https://web.archive.org/web/20240103072739im_/http://cr.freewarepoint.de/imgs/cm_screen.png
+
+- name: 'Chameleon Twist 2: Recompiled'
+  originals:
+  - Chameleon Twist 2
+  type: remake
+  repo: 'https://github.com/Rainchus/ChameleonTwist2-JP-Recomp'
+  development: halted
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - RT64
+  licenses:
+  - GPL3
+  added: 2026-07-11
+  updated: 2026-07-11
 
 - name: Chaos Groove
   originals:
@@ -1476,6 +1712,24 @@
   added: 2026-02-21
   updated: 2026-03-19
 
+- name: Chopper Commando
+  originals:
+  - Chopper Commando
+  type: official
+  url: 'https://www.classicdosgames.com/game/Chopper_Commando.html'
+  development: complete
+  status: playable
+  platforms:
+  - DOS
+  langs:
+  - Pascal
+  licenses:
+  - As-is
+  added: 2026-07-08
+  updated: 2026-07-08
+  images:
+  - 'https://www.classicdosgames.com/images/screenshots/cga04/Chopper_Commando.png'
+
 - name: Chrono Trigger C
   originals:
   - Chrono Trigger
@@ -1512,6 +1766,24 @@
   platforms:
   - Windows
   updated: 2020-07-22
+
+- name: chuckie
+  originals:
+  - Chuckie Egg
+  type: remake
+  repo: 'https://github.com/Ritchie333/chuckie'
+  url: 'https://ritchie333.github.io/chuckie/'
+  development: complete
+  status: playable
+  platforms:
+  - ZX Spectrum
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  info: Disassembly of the classic 1983 ZX Spectrum game "Chuckie Egg"
+  added: 2026-05-25
+  updated: 2026-05-25
 
 - name: Chuckie-Egg
   originals:
@@ -1878,9 +2150,9 @@
   - Nintendo Switch
   - Wii
   - Dreamcast
-  - PlayStation 2
-  - PlayStation 3
-  - PlayStation Vita
+  - PS2
+  - PS3
+  - PSVita
   - 3DS
   - GameCube
   - PSP
@@ -1888,7 +2160,7 @@
   - DS
   - Xbox
   - Wii U
-  - PlayStation
+  - PS
   - Saturn
   multiplayer:
   - Online
@@ -1976,6 +2248,52 @@
   updated: 2025-09-20
   images:
   - 'https://raw.githubusercontent.com/ajeetdsouza/clidle/main/preview.png'
+
+- name: Cliffhanger
+  originals:
+  - Cliffhanger
+  type: official
+  repo: 'https://shrigley.com/source_code_archive/#:~:text=Cliff%20Hanger'
+  url: 'https://www.romhacking.net/documents/593/'
+  development: complete
+  status: playable
+  platforms:
+  - Genesis
+  content: open
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-01-07
+  updated: 2026-01-07
+
+- name: Clone Dash
+  originals:
+  - Muse Dash
+  type: clone
+  repo: 'https://github.com/marchc1/CloneDash'
+  development: active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - raylib
+  - SDL3
+  licenses:
+  - MIT
+  added: '2026-06-29'
+  updated: '2026-06-29'
+  images:
+  - 'https://i.imgur.com/3vdI3Rq.png'
+  - 'https://i.imgur.com/Qhr9i6N.png'
+  - 'https://i.imgur.com/D52W2CG.png'
+  video:
+    youtube: 3hFUoRz_uuk
 
 - name: CloneKeen
   originals:
@@ -2809,6 +3127,24 @@
   images:
   - 'https://elite.bbcelite.com/images/general/Elite-Commodore64.png'
 
+- name: Conker's Bad Fur Day Decompilation
+  originals:
+  - Conker's Bad Fur Day
+  type: remake
+  repo: 'https://github.com/mkst/conker'
+  url: 'https://conker.deco.mp/'
+  development: halted
+  status: unplayable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-05-25
+  updated: 2026-05-25
+
 - name: 'Conquest: Frontier Wars'
   originals:
   - 'Conquest: Frontier Wars'
@@ -3225,6 +3561,26 @@
   updated: 2020-11-23
   images:
   - https://www.scottsmitelli.com/static-projects/cosmore.jpg
+
+- name: Cosmosmash
+  frameworks:
+  - SDL2
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  development: halted
+  originals:
+  - Astrosmash
+  status: playable
+  type: remake
+  platforms:
+  - Linux
+  added: 2015-04-16
+  updated: 2026-05-22
+  url: http://sarrazip.com/dev/cosmosmash.html
+  images:
+  - https://web.archive.org/web/20230308050150if_/http://perso.b2b2c.ca/~sarrazip/dev/images/cosmosmash-1.png
 
 - name: CoU_Server
   originals:
@@ -3658,8 +4014,10 @@
   - Linux
   - Windows
   repo: https://sourceforge.net/projects/crownandcutlass/
+  url: https://web.archive.org/web/20220127173837/https://www.crownandcutlass.com/
   type: remake
-  updated: 2022-07-08
+  added: 2015-04-15
+  updated: 2026-07-05
 
 - name: cruisin-usa
   originals:
@@ -4087,13 +4445,13 @@
   - Zig
   licenses:
   - GPL3
-  added: '2021-10-21'
-  updated: '2026-05-16'
+  added: 2021-10-15
+  updated: 2026-07-25
   images:
-  - >-
-    https://pixelguys.github.io/Cubyz/assets/images/blog/crystal_caverns_2020-04-27.png
-  - >-
-    https://pixelguys.github.io/Cubyz/assets/images/blog/underwater_lighting_2020-05-04.png
+  - https://pixelguys.github.io/Cubyz-Website/assets/images/screenshots/shaded_bench.png
+  - https://pixelguys.github.io/Cubyz-Website/assets/images/screenshots/water_cave.png
+  - https://pixelguys.github.io/Cubyz-Website/assets/images/screenshots/rainbow-trees.png
+  - https://pixelguys.github.io/Cubyz-Website/assets/images/screenshots/shader_blueflowers.png
   video:
     youtube: jm_0nRQEn_o
 

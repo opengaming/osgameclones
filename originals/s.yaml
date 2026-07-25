@@ -322,7 +322,7 @@
     wikipedia: 'Serious Sam: The First Encounter'
   platforms:
   - Nintendo Switch
-  - PlayStation 4
+  - PS4
   - Windows
   - Xbox 360
   - Xbox One
@@ -335,7 +335,7 @@
     wikipedia: 'Serious Sam: The Second Encounter'
   platforms:
   - Nintendo Switch
-  - PlayStation 4
+  - PS4
   - Windows
   - Xbox 360
   - Xbox One
@@ -460,6 +460,19 @@
     themes:
     - Fantasy
 
+- name: Shadow of the Colossus
+  external:
+    website: 'https://www.mobygames.com/game/19875/shadow-of-the-colossus/'
+    wikipedia: Shadow of the Colossus
+  platforms:
+  - PS2
+  meta:
+    genres:
+    - Action
+    - Adventure
+    themes:
+    - Fantasy
+
 - name: Shadow Warrior
   external:
     website: https://web.archive.org/web/20230923010839/https://3drealms.com/catalog/shadow-warrior_10/
@@ -549,12 +562,37 @@
     themes:
     - Fantasy
 
+- name: Shining Force CD
+  external:
+    website: 'https://www.mobygames.com/game/15341/shining-force-cd/'
+    wikipedia: Shining Force CD
+  platforms:
+  - Sega CD
+  meta:
+    genres:
+    - RPG
+    - Turn-Based Tactics
+    themes:
+    - Fantasy
+
 - name: Shining Force II
   external:
     wikipedia: Shining Force II
   meta:
     genres:
     - RPG
+
+- name: Shining in the Darkness
+  external:
+    website: 'https://vc.sega.jp/vc_shiningdarkness/'
+    wikipedia: Shining in the Darkness
+  platforms:
+  - Genesis
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Fantasy
 
 - name: Shining Soul
   external:
@@ -699,7 +737,19 @@
 
 - name: Sid Meier's Pirates!
   external:
+    website: https://www.mobygames.com/game/214/sid-meiers-pirates/
     wikipedia: Sid Meier's Pirates!
+  platforms:
+  - Amiga
+  - Amstrad CPC
+  - Apple II
+  - Atari
+  - Classic Mac OS
+  - Commodore 64
+  - DOS
+  - NES
+  - PC Booter
+  - PC-98
   meta:
     genres:
     - Action
@@ -740,11 +790,27 @@
     genres:
     - Action
 
+- name: Silent Hill
+  external:
+    website: 'https://www.mobygames.com/game/3564/silent-hill/'
+    wikipedia: Silent Hill (video game)
+  platforms:
+  - PS
+  - PS3
+  - PSVita
+  - PSP
+  meta:
+    genres:
+    - Action
+    themes:
+    - Horror
+
 - name: Silent Hill 2
   external:
+    website: https://web.archive.org/web/20041112011933/http://www.konami.com/silenthill2/
     wikipedia: Silent Hill 2
   platforms:
-  - PlayStation 2
+  - PS2
   - Windows
   - Xbox
   meta:
@@ -757,9 +823,10 @@
 
 - name: Silent Hill 3
   external:
+    website: https://web.archive.org/web/20041112013108/http://www.konami.com/silenthill3/
     wikipedia: Silent Hill 3
   platforms:
-  - PlayStation 2
+  - PS2
   - Windows
   meta:
     genres:
@@ -914,7 +981,7 @@
   - Game Boy
   - GameCube
   - DS
-  - PlayStation 2
+  - PS2
   - Xbox
   - PSP
   meta:
@@ -1066,6 +1133,19 @@
     - Sports
     subgenres:
     - Volleyball
+
+- name: Sly Cooper and the Thievius Raccoonus
+  external:
+    website: >-
+      https://web.archive.org/web/20201022144706/https://www.playstation.com/en-us/games/sly-cooper-and-the-thievius-raccoonus-ps2/
+    wikipedia: Sly Cooper and the Thievius Raccoonus
+  platforms:
+  - PS2
+  - PS3
+  - PSVita
+  meta:
+    genres:
+    - Platform
 
 - name: Snake
   external:
@@ -1244,15 +1324,61 @@
     genres:
     - Platform
 
+- name: "Sonic '06"
+  external:
+    website: 'https://sonic.sega.jp/sonic/'
+    wikipedia: Sonic the Hedgehog (2006 video game)
+  platforms:
+  - PS3
+  - Xbox 360
+  meta:
+    genres:
+    - Action
+    - Adventure
+    - Platform
+
+- name: Sonic Advance
+  external:
+    website: 'https://sonic.sega.jp/advance/'
+    wikipedia: Sonic Advance
+  platforms:
+  - Android
+  - GBA
+  - Mobile
+  meta:
+    genres:
+    - Platform
+
+- name: Sonic Advance 2
+  external:
+    website: 'https://sonic.sega.jp/advance2/'
+    wikipedia: Sonic Advance 2
+  platforms:
+  - GBA
+  meta:
+    genres:
+    - Platform
+
+- name: Sonic Advance 3
+  external:
+    website: 'https://sonic.sega.jp/advance3/'
+    wikipedia: Sonic Advance 3
+  platforms:
+  - GBA
+  meta:
+    genres:
+    - Platform
+
 - name: Sonic Adventure
   names:
+  - Sonic Adventure DX
   - Sonic Adventure 2
   external:
     wikipedia: Sonic Adventure
   platforms:
   - Dreamcast
   - GameCube
-  - PlayStation 3
+  - PS3
   - Windows
   - Xbox 360
   meta:
@@ -1268,7 +1394,7 @@
   - Android
   - Apple TV
   - iOS
-  - PlayStation 3
+  - PS3
   - Sega CD
   - Windows
   - Xbox 360
@@ -1283,18 +1409,81 @@
     genres:
     - RPG
 
+- name: Sonic Lost World
+  external:
+    website: >-
+      https://web.archive.org/web/20170729205712/http://www.sonicthehedgehog.com/en/game-info/sonic-lost-world/sonic-lost-world-wii-u/
+    wikipedia: Sonic Lost World
+  platforms:
+  - 3DS
+  - Windows
+  - Wii U
+  meta:
+    genres:
+    - Platform
+
+- name: Sonic Mania
+  external:
+    website: >-
+      https://web.archive.org/web/20230206183907/https://www.sonicthehedgehog.com/sonic-mania-plus/
+    wikipedia: Sonic Mania
+  platforms:
+  - Android
+  - iOS
+  - Nintendo Switch
+  - PS4
+  - Windows
+  - Xbox One
+  meta:
+    genres:
+    - Platform
+
+- name: Sonic Nexus
+  external:
+    website: 'https://www.igdb.com/games/sonic-nexus'
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Action
+    - Platform
+
 - name: Sonic Riders
   external:
     website: 'https://sonic.sega.jp/riders/'
     wikipedia: Sonic Riders
   platforms:
   - GameCube
-  - PlayStation 2
+  - PS2
   - Windows
   - Xbox
   meta:
     genres:
     - Racing
+
+- name: Sonic Runners
+  external:
+    website: >-
+      https://web.archive.org/web/20200208015538/http://sonicrunners.sega-net.com/en/
+    wikipedia: Sonic Runners
+  platforms:
+  - Android
+  - iOS
+  meta:
+    genres:
+    - Action
+    - Platform
+
+- name: Sonic Rush Adventure
+  external:
+    website: 'https://sonic.sega.jp/rushadventure/'
+    wikipedia: Sonic Rush Adventure
+  platforms:
+  - DS
+  meta:
+    genres:
+    - Action
+    - Platform
 
 - name: Sonic Spinball
   external:
@@ -1320,7 +1509,7 @@
     wikipedia: Sonic the Fighters
   platforms:
   - Arcade
-  - PlayStation 3
+  - PS3
   - Xbox 360
   meta:
     genres:
@@ -1346,6 +1535,36 @@
     genres:
     - Platform
 
+- name: 'Sonic the Hedgehog 4: Episode I'
+  external:
+    website: >-
+      https://web.archive.org/web/20120720061428/http://www.sonicthehedgehog4.com/us/html/ep1-index.html
+    wikipedia: 'Sonic the Hedgehog 4: Episode I'
+  platforms:
+  - Android
+  - iOS
+  - PS3
+  - Wii
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - Platform
+
+- name: Sonic Unleashed
+  external:
+    website: >-
+      https://web.archive.org/web/20110704093636/http://www.sonic-unleashed.com/us/index.php
+    wikipedia: Sonic Unleashed
+  platforms:
+  - PS2
+  - PS3
+  - Wii
+  - Xbox 360
+  meta:
+    genres:
+    - Platform
+
 - name: SonSon
   names:
   - ソンソン
@@ -1355,7 +1574,7 @@
   platforms:
   - Arcade
   - NES
-  - PlayStation 3
+  - PS3
   - Wii
   - Xbox 360
   meta:
@@ -1417,7 +1636,7 @@
   - DS
   - iOS
   - Jaguar
-  - PlayStation 3
+  - PS3
   - Sega CD
   - Windows
   meta:
@@ -1442,8 +1661,8 @@
     website: 'https://www.spaceengineersgame.com/home/'
     wikipedia: Space Engineers
   platforms:
-  - PlayStation 4
-  - PlayStation 5
+  - PS4
+  - PS5
   - Windows
   - Xbox One
   meta:
@@ -1694,6 +1913,20 @@
     - Comedy
     - Espionage
 
+- name: Space Station Silicon Valley
+  names:
+  - Evo's Space Adventures
+  external:
+    website: 'https://www.mobygames.com/game/8899/space-station-silicon-valley/'
+    wikipedia: Space Station Silicon Valley
+  platforms:
+  - Game Boy
+  - N64
+  - PS
+  meta:
+    genres:
+    - Platform
+
 - name: Space Taxi
   external:
     website: 'https://www.lemon64.com/game/space-taxi'
@@ -1834,12 +2067,26 @@
   - Classic Mac OS
   - Dreamcast
   - N64
-  - PlayStation
+  - PS
   - Windows
   meta:
     genres:
     - Action
     - Adventure
+
+- name: Spider-Man and the X-Men in Arcade's Revenge
+  external:
+    website: 'https://www.mobygames.com/game/7149/spider-man-x-men-arcades-revenge/'
+    wikipedia: Spider-Man and the X-Men in Arcade's Revenge
+  platforms:
+  - Game Boy
+  - Game Gear
+  - Genesis
+  - SNES
+  meta:
+    genres:
+    - Action
+    - Platform
 
 - name: Spirit of Speed 1937
   external:
@@ -1858,7 +2105,7 @@
     wikipedia: 'SpongeBob SquarePants: SuperSponge'
   platforms:
   - GBA
-  - PlayStation
+  - PS
   meta:
     genres:
     - Adventure
@@ -1944,7 +2191,7 @@
   - iOS
   - Classic Mac OS
   - Linux
-  - PlayStation 4
+  - PS4
   - Nintendo Switch
   - Wii
   - Windows
@@ -1986,6 +2233,20 @@
     - Post-Apocalyptic
     - Sci-Fi
 
+- name: Star Castle
+  external:
+    website: 'https://www.mobygames.com/game/12423/star-castle/'
+    wikipedia: Star Castle
+  platforms:
+  - Arcade
+  meta:
+    genres:
+    - Shooter
+    subgenres:
+    - Space Flight
+    themes:
+    - Sci-Fi
+
 - name: Star Control 2
   external:
     website: https://www.mobygames.com/game/179/star-control-ii/
@@ -2004,6 +2265,21 @@
     themes:
     - Sci-Fi
 
+- name: Star Dust
+  external:
+    website: 'https://www.mobygames.com/game/29817/star-dust/'
+    wikipedia: Star Dust (1987 video game)
+  platforms:
+  - Amstrad CPC
+  - DOS
+  - MSX
+  - ZX Spectrum
+  meta:
+    genres:
+    - Shmup
+    themes:
+    - Sci-Fi
+
 - name: Star Fighter
   names:
   - Star Fighter 3000
@@ -2015,7 +2291,7 @@
   - Acorn 32-bit
   - Classic Mac OS
   - DOS
-  - PlayStation
+  - PS
   meta:
     subgenres:
     - Space Flight
@@ -2031,6 +2307,24 @@
   - Atari
   - Commodore 64
   meta:
+    subgenres:
+    - Space Flight
+    themes:
+    - Sci-Fi
+
+- name: Star Fox 64
+  names:
+  - Lylat Wars
+  external:
+    website: 'https://www.mobygames.com/game/3536/star-fox-64/'
+    wikipedia: Star Fox 64
+  platforms:
+  - N64
+  - Nintendo Switch
+  - Wii
+  meta:
+    genres:
+    - Shooter
     subgenres:
     - Space Flight
     themes:
@@ -2107,7 +2401,7 @@
     wikipedia: 'Star Trek: Voyager – Elite Force'
   platforms:
   - Classic Mac OS
-  - PlayStation 2
+  - PS2
   - Windows
   meta:
     genres:
@@ -2157,7 +2451,7 @@
   - GameCube
   - Nintendo Switch
   - OSX
-  - PlayStation 4
+  - PS4
   - Windows
   - Xbox
   meta:
@@ -2188,7 +2482,7 @@
   platforms:
   - Nintendo Switch
   - OSX
-  - PlayStation 4
+  - PS4
   - Windows
   - Xbox
   meta:
@@ -2240,6 +2534,42 @@
   meta:
     genres:
     - Real-Time Strategy
+    themes:
+    - Sci-Fi
+
+- name: Stardew Valley
+  external:
+    website: 'https://www.stardewvalley.net/'
+    wikipedia: Stardew Valley
+  platforms:
+  - Android
+  - iOS
+  - Nintendo Switch
+  - OSX
+  - PS4
+  - PSVita
+  - Windows
+  - Xbox One
+  meta:
+    genres:
+    - Simulation
+
+- name: Starglider 2
+  external:
+    website: 'https://www.mobygames.com/game/1237/starglider-ii/'
+    wikipedia: Starglider 2
+  platforms:
+  - Amiga
+  - Atari
+  - Classic Mac OS
+  - DOS
+  - PC-98
+  - ZX Spectrum
+  meta:
+    genres:
+    - Simulation
+    subgenres:
+    - Space Flight
     themes:
     - Sci-Fi
 
@@ -2337,8 +2667,8 @@
   platforms:
   - Android
   - iOS
-  - PlayStation 3
-  - PlayStation Vita
+  - PS3
+  - PSVita
   - PSP
   - Windows
   - Xbox 360
@@ -2439,6 +2769,25 @@
     genres:
     - Fighting
 
+- name: 'Street Fighter III: 3rd Strike'
+  external:
+    website: 'https://www.capcom.co.jp/newproducts/arcade/sf3rd/'
+    wikipedia: 'Street Fighter III: 3rd Strike'
+  platforms:
+  - Arcade
+  - Dreamcast
+  - Nintendo Switch
+  - PS2
+  - PS3
+  - PS4
+  - Windows
+  - Xbox
+  - Xbox 360
+  - Xbox One
+  meta:
+    genres:
+    - Fighting
+
 - name: Streets of Rage
   external:
     wikipedia: Streets_of_Rage_(video_game)
@@ -2476,7 +2825,7 @@
     wikipedia: "Striker '96"
   platforms:
   - DOS
-  - PlayStation
+  - PS
   meta:
     genres:
     - Sports
@@ -2492,6 +2841,7 @@
 
 - name: Stronghold
   external:
+    website: https://web.archive.org/web/20030319222144/http://www.stronghold-game.com/
     wikipedia: Stronghold (2001 video game)
   platforms:
   - Windows
@@ -2621,7 +2971,26 @@
 
 - name: Super Cars
   external:
+    website: https://www.mobygames.com/game/12839/super-cars/
     wikipedia: Super Cars
+  platforms:
+  - Amiga
+  - Amstrad CPC
+  - Atari
+  - Commodore 64
+  - NES
+  - ZX Spectrum
+  meta:
+    genres:
+    - Racing
+
+- name: Super Cars II
+  external:
+    website: https://www.mobygames.com/game/13127/super-cars-ii/
+    wikipedia: Super Cars II
+  platforms:
+  - Amiga
+  - Atari
   meta:
     genres:
     - Racing
@@ -2744,6 +3113,16 @@
     - Action
     - Platform
 
+- name: Super Mario Land
+  external:
+    website: 'https://www.nintendo.co.jp/n02/dmg/mla/'
+    wikipedia: Super Mario Land
+  platforms:
+  - Game Boy
+  meta:
+    genres:
+    - Platform
+
 - name: Super Methane Brothers
   external:
     website: 'https://www.lemonamiga.com/games/details.php?id=1789'
@@ -2798,9 +3177,9 @@
   platforms:
   - Arcade
   - Game Boy
-  - PlayStation
-  - PlayStation 3
-  - PlayStation Vita
+  - PS
+  - PS3
+  - PSVita
   - PSP
   - Saturn
   - Windows
@@ -2891,6 +3270,15 @@
     - Action
     - Adventure
     - Puzzle
+
+- name: Supercopter
+  external:
+    website: 'https://www.uvlist.net/game-231792-Supercopter'
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Action
 
 - name: Supernova
   external:
@@ -2995,8 +3383,8 @@
   - DS
   - OSX
   - Nintendo Switch
-  - PlayStation 2
-  - PlayStation 3
+  - PS2
+  - PS3
   - Windows
   - Xbox
   - Xbox 360
@@ -3015,8 +3403,8 @@
   - Android
   - OSX
   - Nintendo Switch
-  - PlayStation 2
-  - PlayStation 3
+  - PS2
+  - PS3
   - Windows
   - Xbox
   - Xbox 360

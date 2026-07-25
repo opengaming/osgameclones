@@ -5,8 +5,8 @@
   platforms:
   - Linux
   - OSX
-  - PlayStation 4
-  - PlayStation 5
+  - PS4
+  - PS5
   - Windows
   - Xbox One
   - Xbox Series S/X
@@ -200,6 +200,20 @@
   - DOS
   - Windows
 
+- name: The Way of the Exploding Fist
+  external:
+    website: 'https://www.mobygames.com/game/14603/kung-fu-the-way-of-the-exploding-fist/'
+    wikipedia: The Way of the Exploding Fist
+  platforms:
+  - Amstrad CPC
+  - BBC Micro
+  - Commodore 64
+  - NES
+  - ZX Spectrum
+  meta:
+    genres:
+    - Fighting
+
 - name: Weather War
   external:
     website: 'https://www.mobygames.com/game/38874/weather-war/'
@@ -208,6 +222,17 @@
   meta:
     genres:
     - Turn-Based Tactics
+
+- name: West Bank
+  external:
+    website: 'https://www.mobygames.com/game/51193/west-bank/'
+  platforms:
+  - Amstrad CPC
+  - Commodore 64
+  - ZX Spectrum
+  meta:
+    genres:
+    - Shooter
 
 - name: Wetlands
   external:
@@ -223,6 +248,17 @@
   - DOS
   - OSX
   - Windows
+
+- name: Wheelie
+  external:
+    website: 'https://www.mobygames.com/game/17793/wheelie/'
+  platforms:
+  - ZX Spectrum
+  meta:
+    genres:
+    - Racing
+    themes:
+    - Motorsports
 
 - name: Where in the World Is Carmen Sandiego? (1985)
   external:
@@ -329,9 +365,9 @@
   platforms:
   - Android
   - DOS
-  - PlayStation
-  - PlayStation 3
-  - PlayStation Vita
+  - PS
+  - PS3
+  - PSVita
   - PSP
   - Saturn
   meta:
@@ -491,7 +527,7 @@
   - Game Boy
   - iOS
   - PC-98
-  - PlayStation 3
+  - PS3
   - Web
   - Windows
   - Xbox 360
@@ -579,7 +615,11 @@
 
 - name: World of Warcraft
   external:
+    website: https://worldofwarcraft.com/
     wikipedia: World of Warcraft
+  platforms:
+  - OSX
+  - Windows
   meta:
     genres:
     - MMORPG

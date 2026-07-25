@@ -7,6 +7,19 @@
     subgenres:
     - Run and gun
 
+- name: Cadaver
+  external:
+    website: https://web.archive.org/web/20190819053246/http://www.bitmap-brothers.co.uk/our-games/past/cadaver.htm
+    wikipedia: Cadaver (video game)
+  platforms:
+  - Amiga
+  - Atari
+  - DOS
+  meta:
+    genres:
+    - Action
+    - Adventure
+
 - name: Caesar III
   external:
     wikipedia: Caesar III
@@ -32,7 +45,7 @@
   external:
     website: 'https://www.mobygames.com/game/162437/california-watersports/'
   platforms:
-  - PlayStation
+  - PS
   meta:
     genres:
     - Sports
@@ -56,8 +69,8 @@
   - Commodore 64
   - iOS
   - Linux
-  - PlayStation 3
-  - PlayStation Vita
+  - PS3
+  - PSVita
   - PSP
   - Web
   - Windows
@@ -153,7 +166,7 @@
   platforms:
   - Android
   - iOS
-  - PlayStation 3
+  - PS3
   - PSP
   - Windows
   meta:
@@ -275,7 +288,7 @@
   - GBA
   - NES
   - Nintendo Switch
-  - PlayStation 4
+  - PS4
   - Wii
   meta:
     genres:
@@ -295,6 +308,22 @@
   meta:
     genres:
     - Action
+    - Platform
+    themes:
+    - Horror
+
+- name: 'Castlevania: Symphony of the Night'
+  names:
+  - 悪魔城ドラキュラX 月下の夜想曲
+  external:
+    website: 'https://www.mobygames.com/game/3739/castlevania-symphony-of-the-night/'
+    wikipedia: 'Castlevania: Symphony of the Night'
+  platforms:
+  - PS
+  - Saturn
+  meta:
+    genres:
+    - RPG
     - Platform
     themes:
     - Horror
@@ -368,7 +397,7 @@
   - Classic Mac OS
   - Windows
   - Nintendo Switch
-  - PlayStation 4
+  - PS4
   - Xbox One
   meta:
     genres:
@@ -401,6 +430,32 @@
     genres:
     - Strategy
 
+- name: Chameleon Twist 2
+  external:
+    website: 'https://www.mobygames.com/game/8508/chameleon-twist-2/'
+    wikipedia: Chameleon Twist 2
+  platforms:
+  - N64
+  meta:
+    genres:
+    - Platform
+
+- name: Championship Lode Runner
+  external:
+    website: >-
+      https://web.archive.org/web/20040815041238/http://www.hudson.co.jp/gamenavi/gamedb/index.cgi?mode=info&f=ChampLodeRunner
+    wikipedia: Championship Lode Runner
+  platforms:
+  - Apple II
+  - Atari
+  - Commodore 64
+  - MSX
+  - NES
+  meta:
+    genres:
+    - Puzzle
+    - Platform
+
 - name: 'Chaos: The Battle of Wizards'
   external:
     website: 'https://www.mobygames.com/game/16724/chaos/'
@@ -425,8 +480,8 @@
   - Android
   - iOS
   - Nintendo Switch
-  - PlayStation 3
-  - PlayStation Vita
+  - PS3
+  - PSVita
   - PSP
   - Windows
   - Xbox 360
@@ -447,8 +502,8 @@
   platforms:
   - DOS
   - Nintendo Switch
-  - PlayStation 4
-  - PlayStation 5
+  - PS4
+  - PS5
   - Windows
   - Xbox One
   - Xbox Series S/X
@@ -543,6 +598,18 @@
   - Web
   - Windows
 
+- name: Chopper Commando
+  external:
+    website: 'https://www.mobygames.com/game/63065/chopper-commando/'
+  platforms:
+  - DOS
+  meta:
+    genres:
+    - Flight
+    - Simulation
+    subgenres:
+    - Flight Simulator
+
 - name: Chris Sawyer's Locomotion
   external:
     wikipedia: Chris Sawyer's Locomotion
@@ -561,7 +628,7 @@
     wikipedia: Chrono Trigger
   platforms:
   - DS
-  - PlayStation
+  - PS
   - SNES
   - Windows
   meta:
@@ -635,7 +702,7 @@
   - MSX
   - NES
   - Nintendo Switch
-  - PlayStation 4
+  - PS4
   - Wii
   meta:
     genres:
@@ -739,10 +806,10 @@
   - Android
   - Mobile
   - Nintendo Switch
-  - PlayStation 2
-  - PlayStation 3
-  - PlayStation 4
-  - PlayStation Vita
+  - PS2
+  - PS3
+  - PS4
+  - PSVita
   - Windows
   - Xbox 360
   meta:
@@ -1010,7 +1077,7 @@
   - NES
   - PC Booter
   - PC-98
-  - PlayStation 3
+  - PS3
   - Xbox
   - Xbox 360
   - ZX Spectrum
@@ -1052,6 +1119,17 @@
     - Strategy
     themes:
     - Vietnam
+
+- name: Conker's Bad Fur Day
+  external:
+    website: 'https://www.mobygames.com/game/3622/conkers-bad-fur-day/'
+    wikipedia: Conker's Bad Fur Day
+  platforms:
+  - N64
+  meta:
+    genres:
+    - Platform
+    - Shooter
 
 - name: 'Conquest: Frontier Wars'
   external:
@@ -1266,15 +1344,31 @@
     website: 'https://www.mobygames.com/game/ctr-crash-team-racing'
     wikipedia: Crash Team Racing
   platforms:
-  - PlayStation
-  - PlayStation 3
-  - PlayStation Vita
+  - PS
+  - PS3
+  - PSVita
   - PSP
   meta:
     genres:
     - Racing
     themes:
     - Motorsports
+
+- name: Crayon Physics Deluxe
+  names:
+  - Crayon Physics
+  external:
+    website: 'http://crayonphysics.com/'
+    wikipedia: Crayon Physics Deluxe
+  platforms:
+  - Android
+  - iOS
+  - Linux
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - Puzzle
 
 - name: Crazee Rider
   external:
@@ -1461,7 +1555,7 @@
   platforms:
   - DOS
   - OSX
-  - PlayStation
+  - PS
   - Saturn
   - Windows
 

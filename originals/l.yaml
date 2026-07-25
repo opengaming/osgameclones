@@ -153,10 +153,14 @@
 
 - name: 'Legacy of Kain: Soul Reaver'
   external:
+    website: 'https://www.mobygames.com/game/1525/legacy-of-kain-soul-reaver/'
     wikipedia: 'Legacy of Kain: Soul Reaver'
   platforms:
   - Dreamcast
-  - PlayStation
+  - PS
+  - PS3
+  - PSVita
+  - PSP
   - Windows
   meta:
     genres:
@@ -164,12 +168,13 @@
     - Adventure
     themes:
     - Fantasy
+    - Horror
 
 - name: The Legend of Dragoon
   external:
     wikipedia: The Legend of Dragoon
   platforms:
-  - PlayStation
+  - PS
   meta:
     genres:
     - RPG
@@ -273,6 +278,18 @@
     - Action
     - Adventure
 
+- name: 'The Legend of Zelda: Breath of the Wild'
+  external:
+    website: 'https://www.nintendo.com/jp/zelda/botw/'
+    wikipedia: 'The Legend of Zelda: Breath of the Wild'
+  platforms:
+  - Nintendo Switch
+  - Wii U
+  meta:
+    genres:
+    - Action
+    - Adventure
+
 - name: "The Legend of Zelda: Link's Awakening"
   external:
     website: >-
@@ -289,7 +306,11 @@
 
 - name: "The Legend of Zelda: Majora's Mask"
   external:
+    website: 'https://www.nintendo.co.jp/n01/n64/software/nus_p_nzsj/'
     wikipedia: "The Legend of Zelda: Majora's Mask"
+  platforms:
+  - GameCube
+  - N64
   meta:
     genres:
     - Action
@@ -299,6 +320,7 @@
 
 - name: 'The Legend of Zelda: Ocarina of Time'
   external:
+    website: 'https://www.nintendo.co.jp/n01/n64/software/zelda/'
     wikipedia: 'The Legend of Zelda: Ocarina of Time'
   meta:
     genres:
@@ -307,13 +329,73 @@
     themes:
     - Fantasy
 
+- name: 'The Legend of Zelda: Phantom Hourglass'
+  external:
+    website: 'https://zelda.nintendo.com/universe/game/phantomhourglass/'
+    wikipedia: 'The Legend of Zelda: Phantom Hourglass'
+  platforms:
+  - DS
+  meta:
+    genres:
+    - Action
+    - Adventure
+
+- name: 'The Legend of Zelda: Skyward Sword'
+  external:
+    website: 'https://www.nintendo.co.jp/wii/souj/'
+    wikipedia: 'The Legend of Zelda: Skyward Sword'
+  platforms:
+  - Nintendo Switch
+  - Wii
+  meta:
+    genres:
+    - Action
+    - Adventure
+
+- name: 'The Legend of Zelda: Spirit Tracks'
+  external:
+    website: 'https://www.nintendo.co.jp/ds/bkij/'
+    wikipedia: 'The Legend of Zelda: Spirit Tracks'
+  platforms:
+  - DS
+  meta:
+    genres:
+    - Action
+    - Adventure
+
+- name: 'The Legend of Zelda: The Minish Cap'
+  external:
+    website: 'https://www.nintendo.co.jp/n08/bzmj/'
+    wikipedia: 'The Legend of Zelda: The Minish Cap'
+  platforms:
+  - GBA
+  meta:
+    genres:
+    - Action
+    - Adventure
+
 - name: 'The Legend of Zelda: The Wind Waker'
   names:
   - Wind Waker
   external:
+    website: 'https://www.nintendo.co.jp/ngc/gzlj/'
     wikipedia: 'The Legend of Zelda: The Wind Waker'
   platforms:
   - GameCube
+  - Wii U
+  meta:
+    genres:
+    - Action
+    - Adventure
+
+- name: 'The Legend of Zelda: Twilight Princess'
+  external:
+    website: 'https://www.nintendo.co.jp/wii/rzdj/'
+    wikipedia: 'The Legend of Zelda: Twilight Princess'
+  platforms:
+  - GameCube
+  - Wii
+  - Wii U
   meta:
     genres:
     - Action
@@ -356,7 +438,7 @@
   platforms:
   - Game Boy
   - N64
-  - PlayStation
+  - PS
   - Windows
   meta:
     genres:
@@ -607,6 +689,22 @@
     genres:
     - Puzzle
 
+- name: Line Rider
+  external:
+    website: 'https://www.linerider.com/'
+    wikipedia: Line Rider
+  platforms:
+  - Android
+  - DS
+  - iOS
+  - Web
+  - Wii
+  - Windows
+  meta:
+    genres:
+    - Sports
+    - Simulation
+
 - name: Lines
   external:
     website: 'https://www.mobygames.com/game/90240/lines/'
@@ -677,9 +775,9 @@
     wikipedia: Little Busters!
   platforms:
   - Nintendo Switch
-  - PlayStation 2
-  - PlayStation 3
-  - PlayStation Vita
+  - PS2
+  - PS3
+  - PSVita
   - Windows
   meta:
     subgenres:
@@ -914,7 +1012,7 @@
   - GBA
   - Genesis
   - Nintendo Switch
-  - PlayStation 4
+  - PS4
   - SNES
   - Windows
   - Xbox One

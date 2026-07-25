@@ -443,6 +443,24 @@
   added: 2025-12-27
   updated: 2025-12-27
 
+- name: afe-decomp
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/ACreTeam/afe-decomp'
+  development: very active
+  status: unplayable
+  platforms:
+  - GameCube
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Decompilation of Animal Forest e+ (JP)
+  added: 2026-05-26
+  updated: 2026-05-26
+
 - name: After Protocol
   originals:
   - Beyond Protocol
@@ -610,6 +628,30 @@
   images:
   - 'https://oldschoolprg.x10.mx/images/prj_airball0.png'
 
+- name: AirForce
+  originals:
+  - '1942'
+  type: clone
+  url: 'https://www.allegro.cc/depot/AirForce'
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  content: open
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  added: 2026-05-01
+  updated: 2026-05-01
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/4235_large.jpg'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/4236_large.jpg'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/4237_large.jpg'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/4238_large.jpg'
+
 - name: Airline Tycoon
   originals:
   - Airline Tycoon
@@ -724,6 +766,42 @@
   updated: 2026-01-10
   video:
     youtube: dn4HIVJY4EM
+
+- name: Akhenaten
+  originals:
+  - Pharaoh
+  type: remake
+  repo: 'https://github.com/dalerank/Akhenaten'
+  url: 'https://dalerank.github.io/Akhenaten/'
+  feed: 'https://dalerank.itch.io/akhenaten/devlog.rss'
+  development: very active
+  status: playable
+  platforms:
+  - Web
+  - Windows
+  - Linux
+  - OSX
+  content: commercial
+  langs:
+  - C++
+  - JavaScript
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  added: 2026-05-06
+  updated: 2026-05-06
+  images:
+  - https://img.itch.zone/aW1nLzEyODg5OTY0LnBuZw==/original/q6p6us.png
+  - https://dalerank.github.io/Akhenaten/images/city_full.png
+  - https://dalerank.github.io/Akhenaten/images/pharaoh_oss.png
+  - https://dalerank.github.io/Akhenaten/images/screen02.png
+  - https://dalerank.github.io/Akhenaten/images/screen03.png
+  - https://dalerank.github.io/Akhenaten/images/screen07.png
+  - https://dalerank.github.io/Akhenaten/images/transport.gif
+  - https://dalerank.github.io/Akhenaten/images/sound-settings.png
+  - https://dalerank.github.io/Akhenaten/images/mastaba-construction-2.png
+  - https://dalerank.github.io/Akhenaten/images/mission-select-window.png
 
 - name: Aklabeth
   licenses:
@@ -1333,6 +1411,28 @@
   - 'https://os4depot.net/filedata/snapshot/10928_2_snap.jpg'
   - 'https://keasigmadelta.com/wp-content/uploads/2025/01/AmiCraftNova-1.jpg'
 
+- name: Amidar500
+  originals:
+  - Amidar
+  type: remake
+  repo: 'https://github.com/jotd666/amidar500'
+  url: 'https://jotd666.itch.io/amidar500'
+  development: active
+  status: playable
+  platforms:
+  - Amiga
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-06
+  updated: 2026-05-06
+  images:
+  - 'https://img.itch.zone/aW1nLzc3ODc4NTMucG5n/original/5i7vqd.png'
+  video:
+    youtube: RuQbFbTu6yQ
+
 - name: Amiga Cannonball-C
   originals:
   - Out Run
@@ -1598,6 +1698,47 @@
   - >-
     https://web.archive.org/web/20170506100454im_/https://www.sacredchao.net/~piman/angrydd/screen-6.png
 
+- name: Animal Crossing
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/ACreTeam/ac-decomp'
+  url: >-
+    https://gbatemp.net/threads/animal-crossing-for-the-gamecube-has-been-decompiled.672373/
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - GameCube
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Decompilation in progress of Animal Crossing for the Nintendo GameCube.
+  added: 2026-05-26
+  updated: 2026-05-26
+
+- name: Animal Forest
+  originals:
+  - Animal Crossing
+  type: remake
+  repo: 'https://github.com/zeldaret/af'
+  url: 'https://zeldaret.github.io/af/'
+  development: sporadic
+  status: unplayable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Decompilation of Animal Forest
+  added: 2026-05-26
+  updated: 2026-05-26
+
 - name: Anodyne
   originals:
   - Anodyne
@@ -1697,6 +1838,26 @@
   - GPL2
   added: 2025-11-07
   updated: 2025-11-07
+
+- name: Another Mario
+  originals:
+  - Super Mario Land
+  type: clone
+  url: 'https://www.ticalc.org/archives/files/fileinfo/137/13735.html'
+  development: complete
+  status: playable
+  platforms:
+  - TI calculator
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-19
+  updated: 2026-06-19
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/73/7305.gif'
+  - 'https://www.ticalc.org/archives/files/ss/73/7304.gif'
 
 - name: Another World for the Commander X16
   originals:
@@ -2178,6 +2339,26 @@
   added: 2026-04-16
   updated: 2026-04-16
 
+- name: Arcanum on iOS
+  originals:
+  - 'Arcanum: Of Steamworks and Magick Obscura'
+  type: remake
+  repo: 'https://github.com/arcanum-project/game'
+  url: 'https://www.reddit.com/r/arcanum/comments/x0xkv7/arcanum_running_on_ios/'
+  development: halted
+  status: unplayable
+  platforms:
+  - iOS
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - Apache
+  added: 2026-05-24
+  updated: 2026-05-24
+  video:
+    youtube: qmdx32MjVnY
+
 - name: Archaos
   originals:
   - 'Chaos: The Battle of Wizards'
@@ -2434,6 +2615,8 @@
   - Windows
   langs:
   - C
+  frameworks:
+  - Allegro
   licenses:
   - As-is
   added: 2026-05-12
@@ -3014,6 +3197,24 @@
   - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/1.png
   - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/2.png
   - https://raw.githubusercontent.com/jphamilton/asteroids/master/build/assets/3.png
+
+- name: asteroids-7800
+  originals:
+  - Asteroids
+  type: official
+  repo: 'https://github.com/videogamepreservation/asteroids-7800'
+  url: >-
+    https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Asteroids
+  development: complete
+  status: playable
+  platforms:
+  - Atari
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-27
+  updated: 2026-05-27
 
 - name: Asteroids Disassembly
   originals:

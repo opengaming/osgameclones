@@ -125,6 +125,29 @@
   added: 2025-03-26
   updated: 2025-03-26
 
+- name: 2 Ship 2 Harkinian
+  originals:
+  - "The Legend of Zelda: Majora's Mask"
+  type: remake
+  repo: 'https://github.com/HarbourMasters/2ship2harkinian'
+  url: https://www.reddit.com/r/majorasmask/comments/1d1icyn/2ship2harkinian_just_released/
+  feed: 'https://github.com/HarbourMasters/2ship2harkinian/releases.atom'
+  development: very active
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - C
+  - C++
+  licenses:
+  - CC0
+  info: A PC port based on the decompilation of Majora's Mask.
+  added: 2024-12-28
+  updated: 2026-07-04
+
 - name: 2H4U
   originals:
   - Tetris
@@ -195,26 +218,6 @@
   updated: 2025-10-17
   images:
   - 'https://twopong.sourceforge.net/2pong-1.0a.png'
-
-- name: 2ship2harkinian
-  originals:
-  - 'The Legend of Zelda: Majora''s Mask'
-  type: remake
-  repo: 'https://github.com/HarbourMasters/2ship2harkinian'
-  development: very active
-  status: playable
-  platforms:
-  - Windows
-  - Linux
-  - OSX
-  content: commercial
-  langs:
-  - C
-  - C++
-  licenses:
-  - CC0
-  added: '2024-12-28'
-  updated: '2024-12-28'
 
 - name: 3D Pong
   originals:
@@ -320,6 +323,52 @@
   updated: 2025-11-27
   video:
     youtube: FC83xPBLpx8
+
+- name: 3S Decomp
+  originals:
+  - 'Street Fighter III: 3rd Strike'
+  type: remake
+  repo: 'https://github.com/crowded-street/3s-decomp'
+  development: sporadic
+  status: playable
+  platforms:
+  - PS2
+  multiplayer:
+  - Competitive
+  - Local
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - AGPL3
+  info: 'Decompilation of Street Fighter III: 3rd Strike for PS2'
+  added: 2026-05-03
+  updated: 2026-05-03
+
+- name: 3SX
+  originals:
+  - 'Street Fighter III: 3rd Strike'
+  type: remake
+  repo: 'https://github.com/crowded-street/3sx'
+  feed: 'https://github.com/crowded-street/3sx/releases.atom'
+  development: active
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  multiplayer:
+  - Competitive
+  - Local
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - AGPL3
+  added: 2026-05-03
+  updated: 2026-05-03
 
 - name: 4DTris
   langs:
@@ -483,7 +532,7 @@
   development: complete
   status: playable
   platforms:
-  - PlayStation
+  - PS
   multiplayer:
   - Split-screen
   content: commercial

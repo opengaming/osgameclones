@@ -142,6 +142,36 @@
   added: 2026-01-19
   updated: 2026-01-19
 
+- name: Bad Dudes vs Dragonninja
+  originals:
+  - Bad Dudes Vs. DragonNinja
+  type: remake
+  repo: 'https://github.com/jotd666/baddudes'
+  url: 'https://jotd666.itch.io/bad-dudes-vs-dragonninja'
+  development: active
+  status: playable
+  platforms:
+  - Amiga
+  multiplayer:
+  - Co-op
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - MIT
+  added: 2026-06-13
+  updated: 2026-06-13
+  images:
+  - https://img.itch.zone/aW1hZ2UvMzQzMzI0MS8yMDQ4NDQ5My5wbmc=/original/8QK6Kv.png
+  - https://img.itch.zone/aW1hZ2UvMzQzMzI0MS8yMDQ4NDQ5NC5wbmc=/original/nvRINN.png
+  - https://img.itch.zone/aW1hZ2UvMzQzMzI0MS8yMDQ4NDQ5NS5wbmc=/original/7h52%2Bz.png
+  - https://img.itch.zone/aW1hZ2UvMzQzMzI0MS8yMDQ4NDQ5Ni5wbmc=/original/Dbm7vk.png
+  - https://img.itch.zone/aW1hZ2UvMzQzMzI0MS8yMDQ4NDQ5Ny5wbmc=/original/03NU%2B1.png
+  - https://img.itch.zone/aW1hZ2UvMzQzMzI0MS8yMDQ4NDUwMC5wbmc=/original/IY%2BJEv.png
+  - https://img.itch.zone/aW1hZ2UvMzQzMzI0MS8yMDQ4NDUwNC5wbmc=/original/HRpVMv.png
+  video:
+    youtube: DAyN1-vpt4g
+
 - name: Bagman500
   originals:
   - Bagman
@@ -756,6 +786,26 @@
   added: 2026-01-01
   updated: 2026-01-01
 
+- name: Batrachians
+  originals:
+  - Frog Bog
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  development: halted
+  status: semi-playable
+  type: remake
+  added: 2015-04-16
+  updated: 2026-05-22
+  url: http://sarrazip.com/dev/batrachians.html
+  platforms:
+  - Linux
+  images:
+  - https://web.archive.org/web/20211231022353if_/https://perso.b2b2c.ca/~sarrazip/dev/images/batrachians-1.png
+
 - name: The Battle for Wesnoth
   images:
   - https://www.wesnoth.org/images/sshots/wesnoth-1.16.0-1.jpg
@@ -800,7 +850,7 @@
   development: complete
   status: playable
   platforms:
-  - PlayStation
+  - PS
   multiplayer:
   - Local
   content: commercial
@@ -891,6 +941,25 @@
   updated: 2026-01-15
   images:
   - 'https://6502disassembly.com/va-battlezone/images/gameplay.png'
+
+- name: Batty disassembly
+  originals:
+  - Batty
+  type: remake
+  repo: 'https://github.com/pobtastic/batty'
+  url: 'https://pobtastic.github.io/batty/'
+  development: complete
+  status: playable
+  platforms:
+  - ZX Spectrum
+  multiplayer:
+  - Local
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-05-21
+  updated: 2026-05-21
 
 - name: BBC Master Elite
   originals:
@@ -1125,6 +1194,69 @@
   updated: 2026-03-06
   video:
     youtube: ILxoFzK6YTs
+
+- name: beijing_fushengji
+  originals:
+  - 北京浮生记
+  type: official
+  repo: 'https://github.com/chrisguo/beijing_fushengji'
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  content: open
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  info: >-
+    A realistic survival simulator popular in China in the 2000s;
+    open-sourced in 2012
+  added: 2026-05-17
+  updated: 2026-05-17
+  images:
+  - 'https://v2fy.com/asset/0i/kr42-001.png'
+  - 'https://v2fy.com/asset/0i/kr42-002.png'
+  - 'https://v2fy.com/asset/0i/kr42-003.png'
+  - 'https://v2fy.com/asset/0i/kr42-004.png'
+  - 'https://v2fy.com/asset/0i/kr42-005.png'
+  - 'https://v2fy.com/asset/0i/kr42-006.png'
+
+- name: beijing-hell
+  originals:
+  - 北京浮生记
+  type: remake
+  repo: 'https://github.com/zoubingwu/beijing-hell'
+  url: 'https://zoubingwu.github.io/beijing-hell/'
+  development: halted
+  status: unplayable
+  platforms:
+  - Web
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  added: 2026-06-12
+  updated: 2026-06-12
+
+- name: BeijingFuShengJi-Godot
+  originals:
+  - 北京浮生记
+  type: remake
+  repo: 'https://github.com/Nivdc/BeijingFuShengJi-Godot'
+  feed: 'https://github.com/Nivdc/BeijingFuShengJi-Godot/releases.atom'
+  development: halted
+  status: semi-playable
+  platforms:
+  - Windows
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - GPL2
+  added: 2026-06-23
+  updated: 2026-06-23
 
 - name: BeMines
   originals:
@@ -1636,6 +1768,49 @@
   images:
   - 'https://github.com/izabera/bitwise-challenge-2048/raw/develop/banner.png'
 
+- name: the-black-cauldron
+  originals:
+  - The Black Cauldron
+  type: official
+  repo: 'https://github.com/historicalsource/the-black-cauldron'
+  development: complete
+  status: playable
+  platforms:
+  - None
+  content: free
+  langs:
+  - AGS Script
+  licenses:
+  - As-is
+  added: 2026-07-11
+  updated: 2026-07-11
+
+- name: Blake4SDL
+  originals:
+  - 'Blake Stone: Planet Strike'
+  - 'Blake Stone: Aliens of Gold'
+  type: remake
+  repo: 'https://bitbucket.org/ks-presto/blake4sdl'
+  development: halted
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  added: 2026-04-30
+  updated: 2026-04-30
+  images:
+  - https://i.imgur.com/Qygypsb.png
+  - https://i.imgur.com/3o35rNg.png
+  - https://i.imgur.com/dX3H0Bc.png
+  - https://i.imgur.com/Fevctvs.png
+
 - name: 'Blake Stone: Planet Strike'
   originals:
   - 'Blake Stone: Planet Strike'
@@ -1681,6 +1856,24 @@
   repo: https://github.com/zombieman1041/BlakedAwesomenaughts
   type: remake
   updated: 2022-07-09
+
+- name: Blast Corps
+  originals:
+  - Blast Corps
+  type: remake
+  repo: 'https://github.com/retroplastic/blastcorps'
+  development: halted
+  status: playable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: A Blast Corps decompilation
+  added: 2026-05-02
+  updated: 2026-05-02
 
 - name: Blitzkrieg
   originals:
@@ -2629,6 +2822,40 @@
   added: 2026-01-28
   updated: 2026-01-28
 
+- name: BootyRemake_CPC
+  originals:
+  - Booty
+  type: remake
+  repo: 'https://github.com/salvakantero/BootyRemake_CPC'
+  development: complete
+  status: playable
+  platforms:
+  - Amstrad CPC
+  content: free
+  langs:
+  - C
+  licenses:
+  - GPL3
+  added: 2026-07-14
+  updated: 2026-07-14
+
+- name: BootyRemake_ZX
+  originals:
+  - Booty
+  type: remake
+  repo: 'https://github.com/salvakantero/BootyRemake_ZX'
+  development: complete
+  status: playable
+  platforms:
+  - ZX Spectrum
+  content: free
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2026-07-15
+  updated: 2026-07-15
+
 - name: Boulder Dash
   originals:
   - Boulder Dash
@@ -2702,6 +2929,26 @@
   - PD
   added: 2025-11-09
   updated: 2025-11-09
+
+- name: BoulderDash
+  originals:
+  - Boulder Dash
+  type: clone
+  url: https://www.ticalc.org/archives/files/fileinfo/45/4521.html
+  development: halted
+  status: playable
+  platforms:
+  - TI calculator
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-26
+  updated: 2026-05-26
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/9/910.gif'
+  - 'https://www.ticalc.org/archives/files/ss/9/909.gif'
+  - 'https://www.ticalc.org/archives/files/ss/9/908.gif'
 
 - name: Bouncy Ball
   originals:
@@ -3125,6 +3372,24 @@
   video:
     youtube: 302T4_f0fyU
 
+- name: Brix
+  originals:
+  - Breakout
+  type: clone
+  url: 'https://www.hpcalc.org/details/843'
+  development: complete
+  status: playable
+  platforms:
+  - HP calculator
+  langs:
+  - CHIP-8
+  licenses:
+  - As-is
+  added: 2026-07-15
+  updated: 2026-07-15
+  images:
+  - 'https://www.hpcalc.org/hp48/games/chip/sshots/brix48.png'
+
 - name: Brutal Chess
   images:
   - https://a.fsdn.com/con/app/proj/brutalchess/screenshots/69159.jpg
@@ -3345,6 +3610,44 @@
   updated: 2025-08-17
   images:
   - https://raw.githubusercontent.com/GrandpasCode/Dr.Mario/master/bugs.png
+
+- name: bumpy-reverse
+  originals:
+  - Bumpy's Arcade Fantasy
+  type: remake
+  repo: 'https://github.com/GeReV/bumpy-reverse'
+  development: complete
+  status: playable
+  platforms:
+  - DOS
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: 'Decompilation of Bumpy''s Arcade Fantasy '
+  added: 2026-07-15
+  updated: 2026-07-15
+
+- name: BurgerSpace
+  images:
+  - https://web.archive.org/web/20211231022933if_/https://perso.b2b2c.ca/~sarrazip/dev/images/burgerspace-1.png
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  development: sporadic
+  originals:
+  - BurgerTime
+  status: playable
+  type: remake
+  added: 2015-04-16
+  updated: 2026-05-22
+  url: http://sarrazip.com/dev/burgerspace.html
+  platforms:
+  - Linux
 
 - name: Buscayasminas
   originals:

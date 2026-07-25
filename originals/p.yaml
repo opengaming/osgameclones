@@ -40,7 +40,7 @@
   external:
     website: 'https://psxdatacenter.com/games/J/P/SLPS-01927.html'
   platforms:
-  - PlayStation
+  - PS
   meta:
     subgenres:
     - Gambling
@@ -89,7 +89,7 @@
   platforms:
   - Classic Mac OS
   - Linux
-  - PlayStation
+  - PS
   - Windows
 
 - name: Pajama Sam's Lost & Found
@@ -163,6 +163,18 @@
   - Wii
   - Windows
 
+- name: Palace of Magic
+  external:
+    website: 'https://www.mobygames.com/game/163826/palace-of-magic/'
+    wikipedia: Palace of Magic
+  platforms:
+  - BBC Micro
+  meta:
+    genres:
+    - Platform
+    themes:
+    - Fantasy
+
 - name: Pandora's Box
   external:
     website: 'https://www.mobygames.com/game/1550/microsoft-pandoras-box/'
@@ -180,9 +192,50 @@
     genres:
     - Turn-Based Strategy
 
+- name: Paper Mario
+  names:
+  - マリオストーリー
+  external:
+    website: 'https://www.nintendo.co.jp/n01/n64/software/nus_p_nmqj/'
+    wikipedia: Paper Mario (video game)
+  platforms:
+  - N64
+  meta:
+    genres:
+    - RPG
+
+- name: 'Paper Mario: Sticker Star'
+  names:
+  - ペーパーマリオスーパーシール
+  external:
+    website: 'https://www.nintendo.co.jp/3ds/ag5j/index.html'
+    wikipedia: 'Paper Mario: Sticker Star'
+  platforms:
+  - 3DS
+  meta:
+    genres:
+    - RPG
+
+- name: 'Paper Mario: The Thousand-Year Door'
+  names:
+  - ペーパーマリオRPG
+  external:
+    website: 'https://web.archive.org/web/20070930191148/http://www.papermario.com/launch/'
+    wikipedia: 'Paper Mario: The Thousand-Year Door'
+  platforms:
+  - GameCube
+  meta:
+    genres:
+    - RPG
+
 - name: Paradroid
   external:
+    website: https://www.mobygames.com/game/9272/paradroid/
     wikipedia: Paradroid
+  platforms:
+  - Commodore 64
+  - iOS
+  - Wii
   meta:
     genres:
     - Shmup
@@ -190,6 +243,17 @@
     themes:
     - Fantasy
     - Sci-Fi
+
+- name: PaRappa the Rapper 2
+  external:
+    website: 'https://www.mobygames.com/game/9051/parappa-the-rapper-2/'
+    wikipedia: PaRappa the Rapper 2
+  platforms:
+  - PS2
+  - PS4
+  meta:
+    genres:
+    - Rhythm
 
 - name: Pararena
   external:
@@ -420,10 +484,70 @@
 
 - name: Phantasy Star
   external:
+    website: https://vc.sega.jp/vc_ms_ps1/
     wikipedia: Phantasy Star (video game)
+  platforms:
+  - Genesis
+  - Master System
+  - Nintendo Switch
+  - Wii
   meta:
     genres:
     - RPG
+    themes:
+    - Sci-Fi
+
+- name: Phantasy Star II
+  external:
+    website: 'https://vc.sega.jp/vc_ps2/'
+    wikipedia: Phantasy Star II
+  platforms:
+  - Android
+  - Genesis
+  - iOS
+  - Linux
+  - OSX
+  - Wii
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Sci-Fi
+
+- name: Phantasy Star III
+  names:
+  - 時の継承者 ファンタシースターIII
+  external:
+    website: 'https://vc.sega.jp/vc_ps3/'
+    wikipedia: Phantasy Star III
+  platforms:
+  - Genesis
+  - Linux
+  - OSX
+  - Wii
+  - Windows
+  meta:
+    genres:
+    - RPG
+
+- name: Phantasy Star IV
+  external:
+    website: 'https://vc.sega.jp/vc_ps4/'
+    wikipedia: Phantasy Star IV
+  platforms:
+  - Genesis
+  - Linux
+  - Nintendo Switch
+  - OSX
+  - Wii
+  - Windows
+  meta:
+    genres:
+    - RPG
+    themes:
+    - Sci-Fi
 
 - name: Phantomas
   external:
@@ -459,6 +583,7 @@
 
 - name: Pharaoh
   external:
+    website: https://web.archive.org/web/20010330225344/http://pharaoh1.com/
     wikipedia: Pharaoh (video game)
   platforms:
   - Windows
@@ -660,6 +785,13 @@
 - name: Planetary Defense
   external:
     website: 'https://www.atarimania.com/pgesoft.awp?version=3993'
+  platforms:
+  - Atari
+  meta:
+    genres:
+    - Shooter
+    themes:
+    - Sci-Fi
 
 - name: Plants vs. Zombies
   external:
@@ -972,6 +1104,19 @@
     genres:
     - RPG
 
+- name: Polanie
+  external:
+    website: 'https://www.mobygames.com/game/27959/polanie/'
+    wikipedia: Polanie (video game)
+  platforms:
+  - DOS
+  - Windows
+  meta:
+    genres:
+    - Real-Time Strategy
+    themes:
+    - Fantasy
+
 - name: Pole Position
   external:
     website: 'https://www.mobygames.com/game/984/pole-position/'
@@ -1091,6 +1236,27 @@
     genres:
     - Arcade
 
+- name: Pooyan
+  external:
+    website: 'https://www.mobygames.com/game/14109/pooyan/'
+    wikipedia: Pooyan
+  platforms:
+  - Apple II
+  - Arcade
+  - Atari
+  - Commodore 64
+  - MSX
+  - NES
+  - Nintendo Switch
+  - PS4
+  - Wii
+  - Windows
+  - Xbox 360
+  meta:
+    genres:
+    - Arcade
+    - Shooter
+
 - name: Populous
   external:
     website: 'https://www.mobygames.com/game/613/populous/'
@@ -1190,7 +1356,7 @@
     wikipedia: PowerSlave
   platforms:
   - DOS
-  - PlayStation
+  - PS
   - Saturn
   meta:
     genres:
@@ -1550,7 +1716,7 @@
   - iOS
   - Linux
   - Nintendo Switch
-  - PlayStation 4
+  - PS4
   - Windows
 
 - name: Putt-Putt Travels Through Time
@@ -1617,7 +1783,7 @@
   - Arcade
   - Game Boy
   - iOS
-  - PlayStation
+  - PS
   - Windows
   meta:
     genres:

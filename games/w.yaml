@@ -474,6 +474,27 @@
   added: 2026-04-14
   updated: 2026-04-14
 
+- name: The Way of the Exploding Fist disassembly
+  originals:
+  - The Way of the Exploding Fist
+  type: remake
+  repo: 'https://github.com/pobtastic/wayoftheexplodingfist'
+  url: 'https://pobtastic.github.io/wayoftheexplodingfist/'
+  development: complete
+  status: playable
+  platforms:
+  - ZX Spectrum
+  multiplayer:
+  - Competitive
+  - Local
+  content: commercial
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-06-15
+  updated: 2026-06-15
+
 - name: wbt
   type: clone
   originals:
@@ -552,6 +573,43 @@
   images:
   - https://www.golem.de/1302/97509-53272-webquake_rc.jpg
   - https://images.kartones.net/posts/kartonesblog/webquake.webp
+
+- name: West Bank
+  originals:
+  - West Bank
+  type: remake
+  repo: 'https://github.com/pobtastic/westbank'
+  url: 'https://pobtastic.github.io/westbank/'
+  development: halted
+  status: semi-playable
+  platforms:
+  - ZX Spectrum
+  content: commercial
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  info: A disassembly of West Bank
+  added: 2026-07-09
+  updated: 2026-07-09
+
+- name: Wheelie disassembly
+  originals:
+  - Wheelie
+  type: remake
+  repo: 'https://github.com/pobtastic/wheelie'
+  url: 'https://pobtastic.github.io/wheelie/'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - ZX Spectrum
+  content: commercial
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-07-01
+  updated: 2026-07-01
 
 - name: Widelands
   images:
@@ -678,6 +736,26 @@
   images:
   - https://raw.githubusercontent.com/jasonbrianhall/willytheworm/main/images/intro.png
   - https://raw.githubusercontent.com/jasonbrianhall/willytheworm/main/images/level1.png
+
+- name: Winblockade
+  originals:
+  - Blockade
+  type: remake
+  url: >-
+    https://web.archive.org/web/20170530140001/http://sven.50webs.org/winblockade.html
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  content: free
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2026-05-18
+  updated: 2026-05-18
+  images:
+  - https://web.archive.org/web/20160415062530im_/http://sven.50webs.org/blockscreen.gif
 
 - name: Wind Waker Randomizer
   originals:
@@ -1191,10 +1269,14 @@
   originals:
   - Wolfenstein 3D
   type: remake
-  repo: https://github.com/11001011101001011/Wolf4SDL
+  repo: https://bitbucket.org/ks-presto/wolf4sdl
   url: https://beta.wolf3d.net/engines/Wolf4SDL
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: commercial
   langs:
   - C
@@ -1203,10 +1285,10 @@
   licenses:
   - GPL2
   info: Vanilla-style port of Wolfenstein 3D into SDL
-  updated: 2021-11-09
+  added: 2021-11-09
+  updated: 2026-05-10
   images:
-  - >-
-    https://i1.wp.com/media.moddb.com/images/members/3/2034/2033952/profile/etude3_1.jpg?ssl=1
+  - https://i1.wp.com/media.moddb.com/images/members/3/2034/2033952/profile/etude3_1.jpg
   video:
     youtube: xkIEjgUm57o
 
@@ -1666,6 +1748,41 @@
     Conflict.
   added: 2025-12-15
   updated: 2025-12-15
+
+- name: World of ClaudeCraft
+  originals:
+  - World of Warcraft
+  type: clone
+  repo: 'https://github.com/levy-street/world-of-claudecraft'
+  url: 'https://worldofclaudecraft.com/'
+  feed: 'https://github.com/levy-street/world-of-claudecraft/releases.atom'
+  development: very active
+  status: semi-playable
+  platforms:
+  - Web
+  multiplayer:
+  - Online
+  content: open
+  langs:
+  - TypeScript
+  - JavaScript
+  frameworks:
+  - three.js
+  licenses:
+  - CC0
+  - MIT
+  added: 2026-07-06
+  updated: 2026-07-06
+  images:
+  - https://raw.githubusercontent.com/levy-street/world-of-claudecraft/main/docs/screenshots/party-questing.jpg
+  - https://raw.githubusercontent.com/levy-street/world-of-claudecraft/main/docs/screenshots/eastbrook-dusk.jpg
+  - https://raw.githubusercontent.com/levy-street/world-of-claudecraft/main/docs/screenshots/hollow-crypt.jpg
+  - https://raw.githubusercontent.com/levy-street/world-of-claudecraft/main/docs/screenshots/restless-dead.jpg
+  - https://raw.githubusercontent.com/levy-street/world-of-claudecraft/main/docs/screenshots/vale-bandits.jpg
+  - https://raw.githubusercontent.com/levy-street/world-of-claudecraft/main/docs/screenshots/old-greyjaw.jpg
+  - https://raw.githubusercontent.com/levy-street/world-of-claudecraft/main/docs/screenshots/vendor-and-bags.jpg
+  - https://raw.githubusercontent.com/levy-street/world-of-claudecraft/main/docs/screenshots/glimmermere-moongate.jpg
+  - https://raw.githubusercontent.com/levy-street/world-of-claudecraft/main/docs/screenshots/drowned-temple-altar.jpg
 
 - name: World Train Royale
   originals:

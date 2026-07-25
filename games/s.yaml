@@ -6,6 +6,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_1'
   development: active
   status: playable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -23,6 +25,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_2_final'
   development: sporadic
   status: playable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -32,6 +36,30 @@
   added: 2026-03-28
   updated: 2026-03-28
 
+- name: S2HD
+  originals:
+  - Sonic 2
+  type: remake
+  repo: 'https://github.com/SonicOrcaModding/S2HD'
+  feed: 'https://github.com/SonicOrcaModding/S2HD/releases.atom'
+  development: active
+  status: semi-playable
+  platforms:
+  - Android
+  - Linux
+  - iOS
+  multiplayer:
+  - Local
+  - Split-screen
+  content: commercial
+  langs:
+  - 'C#'
+  licenses:
+  - As-is
+  info: A decompile of Sonic 2 HD
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: s2smsdisasm
   originals:
   - Sonic the Hedgehog 2 (8-bit video game)
@@ -40,6 +68,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_2_Master_System'
   development: complete
   status: playable
+  platforms:
+  - Master System
   content: commercial
   langs:
   - Assembly
@@ -57,6 +87,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_3D:_Flickies.27_Island'
   development: halted
   status: playable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - Assembly
@@ -73,6 +105,8 @@
   repo: 'https://www.level7.org.uk/miscellany/sabrewulf-disassembly.txt'
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
   langs:
   - Assembly
   licenses:
@@ -80,6 +114,24 @@
   content: free
   added: 2026-04-04
   updated: 2026-04-04
+
+- name: sadx_decomp
+  originals:
+  - Sonic Adventure
+  type: remake
+  repo: 'https://github.com/FraGag/sadx_decomp'
+  development: halted
+  status: unplayable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: Sonic Adventure DX Decompilation
+  added: 2026-04-27
+  updated: 2026-04-27
 
 - name: SanAndreasUnity
   type: remake
@@ -90,6 +142,10 @@
   langs:
   - C#
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   multiplayer:
   - Online
   - LAN
@@ -112,6 +168,8 @@
   originals:
   - Powder Game
   status: playable
+  platforms:
+  - Web
   type: clone
   repo: https://github.com/maxbittker/sandspiel
   url: https://sandspiel.club/
@@ -137,6 +195,8 @@
   feed: 'https://sourceforge.net/p/saper3d/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C
@@ -163,6 +223,8 @@
   feed: 'https://github.com/finalclass/sapter/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   frameworks:
@@ -185,6 +247,8 @@
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/asteroids/sast1.5.README
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C++
   frameworks:
@@ -204,6 +268,9 @@
   feed: 'https://github.com/kenamick/savagewheels/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Competitive
   content: open
@@ -230,6 +297,8 @@
   url: https://archive.org/details/Savage_The_Battle_for_Newerth_source_code
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   content: free
@@ -249,6 +318,8 @@
   repo: 'https://github.com/garu/Games-SavingSue'
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Perl
@@ -270,10 +341,11 @@
   - 'SpongeBob SquarePants: SuperSponge'
   type: official
   repo: 'https://github.com/hellfire3d/SBSPSS'
-  url: >-
-    https://web.archive.org/web/20191113200652/https://assemblergames.com/threads/spongebob-squarepants-supersponge-prototypes-ps1.62009/
+  url: https://web.archive.org/web/20191113200652/https://assemblergames.com/threads/spongebob-squarepants-supersponge-prototypes-ps1.62009/
   development: complete
   status: playable
+  platforms:
+  - PS
   content: commercial
   langs:
   - C++
@@ -291,6 +363,9 @@
   feed: 'https://sourceforge.net/projects/scalar/rss?path=/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C++
@@ -318,6 +393,8 @@
   - SimCopter
   repo: https://github.com/fr0zi/sccopter
   status: unplayable
+  platforms:
+  - Linux
   type: remake
   added: 2016-01-10
   updated: 2023-10-22
@@ -332,6 +409,8 @@
   feed: 'https://gitlab.com/ryandwyer/scheddy-kong-racing.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - N64
   multiplayer:
   - Split-screen
   content: commercial
@@ -350,6 +429,8 @@
   url: 'https://wasyl.eu/games/scorch-went-bonkers.html'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Local
   content: open
@@ -378,6 +459,9 @@
   originals:
   - Scorched Earth
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - Competitive
@@ -402,6 +486,8 @@
   url: 'http://www.scorch2000.com/'
   development: halted
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Online
   - Hotseat
@@ -450,6 +536,8 @@
   originals:
   - Moonbase Commander
   status: unplayable
+  platforms:
+  - Linux
   repo: https://github.com/Scorched-Moon/client
   url: https://scorched-moon.github.io
   type: remake
@@ -464,6 +552,8 @@
   url: 'https://www.erasmatazz.com/library/source-code/source-code-for-scram.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -485,11 +575,34 @@
   - StarCraft
   repo: https://github.com/toshok/scsharp
   status: unplayable
+  platforms:
+  - Windows
   type: remake
   added: 2021-01-07
   updated: 2021-01-07
   video:
     youtube: nmYxGlAo-s0
+
+- name: Scuffed Minecraft
+  originals:
+  - Minecraft
+  type: clone
+  repo: 'https://github.com/EvanatorM/ScuffedMinecraft'
+  feed: 'https://github.com/EvanatorM/ScuffedMinecraft/releases.atom'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - MIT
+  added: 2026-06-01
+  updated: 2026-06-01
 
 - name: ScummVM
   images:
@@ -931,6 +1044,18 @@
   - Zork Nemesis
   repo: https://github.com/scummvm/scummvm
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - PS3
+  - PSP
+  - Android
+  - iOS
+  - Wii
+  - BeOS
+  - Amiga
+  - Atari
   type: remake
   url: https://scummvm.org/
   added: 2011-06-12
@@ -944,6 +1069,8 @@
   url: 'https://toivjon.wordpress.com/2017/07/19/sdl2-breakout/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Hotseat
   langs:
@@ -967,6 +1094,8 @@
   url: https://toivjon.wordpress.com/2017/06/20/sdl2-pong/
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Local
@@ -993,6 +1122,8 @@
   url: 'https://toivjon.wordpress.com/2017/10/22/sdl2-space-invaders/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Hotseat
   langs:
@@ -1017,6 +1148,8 @@
   url: 'https://happypenguin.altervista.org/sheet.php?gameid=2522'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1045,6 +1178,8 @@
   originals:
   - Asylum
   status: playable
+  platforms:
+  - Linux
   repo: https://sourceforge.net/projects/sdl-asylum/
   type: remake
   added: 2015-04-17
@@ -1060,6 +1195,9 @@
   feed: 'https://github.com/DusteDdk/SDL-Ball/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -1093,6 +1231,9 @@
   - Bomberman
   repo: https://www.linuxmotors.com/linux/SDL_bomber/downloads/
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   added: 2014-01-12
   updated: 2020-08-25
@@ -1107,6 +1248,8 @@
   feed: 'https://github.com/MartGon/SDLPong/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Local
   - LAN
@@ -1133,6 +1276,8 @@
   feed: 'https://sourceforge.net/p/sdlsas/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1167,6 +1312,9 @@
   repo: https://github.com/fragglet/sdl-sopwith
   feed: https://github.com/fragglet/sdl-sopwith/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Web
   multiplayer:
   - Online
   - Competitive
@@ -1179,10 +1327,12 @@
   originals:
   - Atoms
   type: clone
-  url: >-
-    https://web.archive.org/web/20250416140610/https://www.angelfire.com/super2/duologue/software/index.html#sdl-toms
+  url: https://web.archive.org/web/20250416140610/https://www.angelfire.com/super2/duologue/software/index.html#sdl-toms
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C
   frameworks:
@@ -1202,6 +1352,8 @@
   url: 'https://users.jyu.fi/~tvkalvas/code/tunneler/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Split-screen
   content: open
@@ -1224,6 +1376,8 @@
   feed: 'https://github.com/RanakOFour/SDLAsteroids/releases.atom'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -1239,10 +1393,10 @@
   - Space Invaders
   type: clone
   repo: 'https://sourceforge.net/projects/sdlinvaders/'
-  url: 'https://www.nielsweber.de/2005/07/25/sdlinvaders/'
-  feed: 'https://www.nielsweber.de/2005/07/25/sdlinvaders/feed/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1264,6 +1418,9 @@
   feed: 'https://github.com/sdlpal/sdlpal/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Web
+  - Linux
   content: commercial
   langs:
   - C
@@ -1298,6 +1455,10 @@
   - Prince of Persia
   repo: https://github.com/NagyD/SDLPoP
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2015-05-30
   updated: 2023-10-23
@@ -1317,6 +1478,10 @@
   feed: 'https://sourceforge.net/p/sdlroids/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C
@@ -1338,6 +1503,10 @@
   url: 'https://www.pouet.net/prod.php?which=54272'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C++
@@ -1357,6 +1526,8 @@
   repo: https://github.com/DanJP2016/Sea-Wolf
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   frameworks:
@@ -1374,6 +1545,8 @@
   repo: 'https://github.com/savetz/edfries-seachase'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1391,6 +1564,8 @@
   url: 'https://plug-world.com/posts/seadefender/'
   development: halted
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - GDScript
@@ -1417,6 +1592,8 @@
   feed: 'https://github.com/quaap/SeafoodBerserker/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Android
   content: open
   langs:
   - Java
@@ -1434,6 +1611,8 @@
   repo: https://sourceforge.net/projects/secretagentremake/
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - Java
@@ -1464,6 +1643,10 @@
   originals:
   - Mario World
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Raspberry Pi
   repo: https://github.com/secretchronicles/TSC
   type: remake
   added: 2018-10-06
@@ -1495,6 +1678,10 @@
   originals:
   - Mario World
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/FluXy/SMC
   type: remake
   added: 2011-06-04
@@ -1508,6 +1695,8 @@
   url: 'https://www.romhacking.net/documents/561/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -1523,6 +1712,8 @@
   repo: 'https://github.com/Evenball-8bit/SecretScout'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Assembly
@@ -1547,6 +1738,8 @@
   feed: 'https://github.com/ThomasMertes/seed7/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   langs:
   - Seed7
   licenses:
@@ -1568,37 +1761,6 @@
   - 'https://seed7.sourceforge.net/images/tet1.png'
   - 'https://seed7.sourceforge.net/images/tetg1.png'
 
-- name: Sega Genesis Cliff Hanger
-  originals:
-  - Cliffhanger
-  type: official
-  repo: 'https://shrigley.com/source_code_archive/#:~:text=Cliff%20Hanger'
-  url: 'https://www.romhacking.net/documents/593/'
-  development: complete
-  status: playable
-  content: open
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-01-07
-  updated: 2026-01-07
-
-- name: Sega Genesis Gargoyles
-  originals:
-  - Gargoyles
-  type: official
-  repo: 'https://shrigley.com/source_code_archive/#:~:text=Gargoyles'
-  development: complete
-  status: playable
-  content: free
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-01-13
-  updated: 2026-01-13
-
 - name: sensitive-js
   images:
   - https://raw.githubusercontent.com/bylexus/sensitive-js/master/screen-remake.png
@@ -1613,6 +1775,8 @@
   originals:
   - Sensitive
   status: semi-playable
+  platforms:
+  - Web
   repo: https://github.com/bylexus/sensitive-js
   type: remake
   added: 2017-04-27
@@ -1626,6 +1790,8 @@
   url: 'https://thesentinel.bbcelite.com/'
   development: very active
   status: playable
+  platforms:
+  - BBC Micro
   langs:
   - Assembly
   licenses:
@@ -1641,9 +1807,10 @@
   - 'Serious Sam: The Second Encounter'
   type: official
   repo: https://github.com/Croteam-official/Serious-Engine
-  url: 'http://www.croteam.com/technology/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   content: commercial
@@ -1676,6 +1843,8 @@
   - 'Serious Sam: The Second Encounter'
   development: halted
   status: playable
+  platforms:
+  - Android
   content: commercial
   repo: https://github.com/aarcangeli/Serious-Sam-Android
   type: remake
@@ -1693,6 +1862,11 @@
   feed: https://github.com/tx00100xt/SeriousSamClassic-VK/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Raspberry Pi
   multiplayer:
   - Local
   - Online
@@ -1727,6 +1901,11 @@
   feed: https://github.com/tx00100xt/SeriousSamClassic/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Raspberry Pi
   content: commercial
   langs:
   - C++
@@ -1748,6 +1927,8 @@
   url: 'https://www.hpcalc.org/details/4606'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - RPL
   licenses:
@@ -1769,6 +1950,9 @@
   originals:
   - Seven Kingdoms
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -1791,6 +1975,8 @@
     https://web.archive.org/web/20090215065023/https://membres.lycos.fr/ximoon/#:~:text=Seven%20Tiles
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   multiplayer:
   - Competitive
   langs:
@@ -1812,6 +1998,10 @@
   feed: https://legendofdragoon.org/feed/
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - Java
@@ -1834,6 +2024,24 @@
   video:
     youtube: isAC2LlwJEM
 
+- name: SF1DISASM
+  originals:
+  - Shining Force
+  type: remake
+  repo: https://github.com/ShiningForceCentral/SF1DISASM
+  url: https://forums.shiningforcecentral.com/viewtopic.php?t=26465
+  development: sporadic
+  status: playable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-06
+  updated: 2026-05-06
+
 - name: SF1RE
   originals:
   - Shining Force
@@ -1842,6 +2050,8 @@
   url: 'https://forums.shiningforcecentral.com/viewtopic.php?t=26466'
   development: halted
   status: playable
+  platforms:
+  - Genesis
   content: commercial
   langs:
   - C
@@ -1850,6 +2060,24 @@
   - As-is
   added: 2026-04-19
   updated: 2026-04-19
+
+- name: SF2DISASM
+  originals:
+  - Shining Force II
+  type: remake
+  repo: 'https://github.com/ShiningForceCentral/SF2DISASM'
+  url: 'https://forums.shiningforcecentral.com/viewtopic.php?t=25796'
+  development: active
+  status: playable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-06
+  updated: 2026-05-06
 
 - name: sfall
   development: active
@@ -1865,15 +2093,50 @@
   content: commercial
   originals:
   - Fallout 2
-  repo: https://github.com/phobos2077/sfall
+  repo: https://github.com/sfall-team/sfall
   url: https://sfall-team.github.io/sfall/
   status: N/A
+  platforms:
+  - Windows
   type: tool
   added: 2018-06-20
   updated: 2025-06-08
   images:
   - https://u.cubeupload.com/NovaRain/sfalldemo1.png
   - https://u.cubeupload.com/NovaRain/sfalldemo2.png
+
+- name: SFCDDISASM
+  originals:
+  - Shining Force CD
+  type: remake
+  repo: 'https://github.com/ShiningForceCentral/SFCDDISASM'
+  development: halted
+  status: unplayable
+  platforms:
+  - Sega CD
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-06
+  updated: 2026-05-06
+
+- name: SFCDRE
+  originals:
+  - Shining Force CD
+  type: remake
+  repo: 'https://github.com/ShiningForceCentral/SFCDRE'
+  development: halted
+  status: unplayable
+  platforms:
+  - Sega CD
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-13
+  updated: 2026-06-13
 
 - name: sh3redux
   originals:
@@ -1884,6 +2147,8 @@
   feed: https://sh3redux.blogspot.com/feeds/posts/default
   development: halted
   status: unplayable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C++
@@ -1914,6 +2179,8 @@
   originals:
   - Shadow of the Beast
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/spleennooname/shadow-of-the-beast-html5
   url: https://spleennooname.github.io/shadow-of-the-beast-html5/
   type: remake
@@ -1927,6 +2194,8 @@
   url: 'https://glop.org/sotb/'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -1939,6 +2208,23 @@
   images:
   - 'https://glop.org/gfx/sotb.gif'
 
+- name: Shadow of the Colossus Decompilation Project
+  originals:
+  - Shadow of the Colossus
+  type: remake
+  repo: 'https://github.com/Fantaskink/SOTC'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - PS2
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - MIT
+  added: 2026-07-05
+  updated: 2026-07-05
+
 - name: Shadow Pong
   originals:
   - Pong
@@ -1947,6 +2233,8 @@
   feed: 'https://sourceforge.net/p/shadow-pong/news/feed.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -1964,10 +2252,11 @@
   - Shadow Warrior
   type: official
   repo: 'https://github.com/dos-games/vanilla-shadow_warrior'
-  url: >-
-    https://web.archive.org/web/20160303204143/http://legacy.3drealms.com/news/2005/04/shadow_warrior_12.html
+  url: https://web.archive.org/web/20160303204143/http://legacy.3drealms.com/news/2005/04/shadow_warrior_12.html
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -1986,6 +2275,8 @@
   url: 'https://icculus.org/shadowwarrior/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C
@@ -2005,6 +2296,8 @@
   originals:
   - 'Shadowgrounds: Survivor'
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/vayerx/shadowgrounds
   type: remake
   added: 2015-04-14
@@ -2018,6 +2311,8 @@
   feed: 'https://github.com/denix666/shamus/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - Rust
@@ -2037,6 +2332,8 @@
   repo: 'https://github.com/ShandalarMagic/Shandalar'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -2055,6 +2352,8 @@
   repo: 'https://github.com/SharpMC/SharpMC'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -2074,6 +2373,8 @@
   repo: 'https://github.com/SharpMC/SharpMC-Rewritten'
   development: halted
   status: unplayable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -2091,6 +2392,10 @@
   repo: https://github.com/dcnick3/shin
   development: active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   feed: https://github.com/DCNick3/shin/releases.atom
   content: commercial
   langs:
@@ -2112,6 +2417,8 @@
   originals:
   - Shining Force II
   status: unplayable
+  platforms:
+  - Genesis
   repo: https://github.com/ShiningForceCentral/SF2RE
   url: https://forums.shiningforcecentral.com/viewtopic.php?t=25809
   feed: https://github.com/ShiningForceCentral/SF2RE/releases.atom
@@ -2130,6 +2437,8 @@
   originals:
   - Shining Soul
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/CharlieIsMyName/ShiningSoulRemake
   type: remake
   added: 2016-04-11
@@ -2149,6 +2458,12 @@
   url: https://www.shipofharkinian.com/
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Nintendo Switch
+  - Wii U
   content: commercial
   licenses:
   - As-is
@@ -2176,6 +2491,9 @@
   feed: 'https://github.com/dulsi/shippy1984/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Local
   content: free
@@ -2202,6 +2520,8 @@
   repo: 'https://github.com/CelestialAmber/shiren'
   development: halted
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -2219,6 +2539,9 @@
   feed: https://github.com/shiromino/shiromino/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -2249,6 +2572,10 @@
   repo: https://github.com/Interrupt/systemshock
   feed: https://github.com/Interrupt/systemshock/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   added: 2018-06-15
   updated: 2023-10-27
@@ -2260,6 +2587,8 @@
   repo: 'https://github.com/Kaboms/Shrek-2-Remake'
   development: active
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - C++
@@ -2286,6 +2615,8 @@
   url: 'https://www.colino.net/wordpress/en/shufflepuck-cafe-for-apple-ii/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   multiplayer:
   - LAN
   content: free
@@ -2309,6 +2640,8 @@
   feed: 'https://github.com/clabe45/shulkr/releases.atom'
   development: halted
   status: N/A
+  platforms:
+  - None
   langs:
   - Python
   licenses:
@@ -2335,6 +2668,8 @@
   originals:
   - Siege of Avalon
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source
   type: remake
   added: 2015-04-08
@@ -2348,10 +2683,12 @@
   - Earthsiege 2
   type: tool
   repo: https://github.com/open-siege/siege-studio
-  url: https://store.steampowered.com/app/3193420/Siege_Studio/
+  url: https://thesiegehub.itch.io/siege-studio
   feed: 'https://github.com/open-siege/open-siege/releases.atom'
   development: sporadic
   status: N/A
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -2369,6 +2706,9 @@
   repo: https://github.com/signus-game/signus
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C++
   frameworks:
@@ -2386,6 +2726,8 @@
   originals:
   - Silent Hill 2
   status: N/A
+  platforms:
+  - Windows
   type: tool
   repo: https://github.com/elishacloud/Silent-Hill-2-Enhancements
   feed: https://github.com/elishacloud/Silent-Hill-2-Enhancements/releases.atom
@@ -2411,6 +2753,48 @@
   - https://enhanced.townofsilenthill.com/SH2/images/aboutBeauty/beauty_05.png
   - https://enhanced.townofsilenthill.com/SH2/images/aboutBeauty/beauty_06.png
 
+- name: silent-hill-decomp
+  originals:
+  - Silent Hill
+  type: remake
+  repo: 'https://github.com/Vatuu/silent-hill-decomp'
+  url: 'https://decomp.dev/Vatuu/silent-hill-decomp'
+  development: very active
+  status: semi-playable
+  platforms:
+  - PS
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-08
+  updated: 2026-06-08
+
+- name: SimCity (SNES) Disassembly
+  originals:
+  - SimCity
+  type: remake
+  repo: 'https://github.com/Yoshifanatic1/SimCity-SNES-Disassembly'
+  url: >-
+    https://www.smwcentral.net/?p=viewthread&t=118507&page=2#:~:text=SimCity%20(SNES)%20Disassembly
+  feed: 'https://github.com/Yoshifanatic1/SimCity-SNES-Disassembly/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - SNES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - GPL3
+  added: 2026-05-05
+  updated: 2026-05-05
+  images:
+  - 'https://i.imgur.com/Kw6HT18.png'
+  - 'https://i.imgur.com/6EON7IB.png'
+  - 'https://i.imgur.com/GNfkIDJ.png'
+
 - name: Simitone
   type: remake
   originals:
@@ -2419,6 +2803,8 @@
   feed: https://github.com/riperiperi/Simitone/releases.atom
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
   langs:
   - C#
   frameworks:
@@ -2439,6 +2825,8 @@
   url: 'https://www.oligalma.com/en/downloads/java/simon'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Java
@@ -2449,6 +2837,26 @@
   images:
   - 'https://www.oligalma.com/downloads/java/simon/extra/screenshot1.jpg'
 
+- name: Simon 68k
+  originals:
+  - Simon
+  type: clone
+  repo: 'https://www.ticalc.org/archives/files/fileinfo/189/18997.html'
+  url: 'https://technoplaza.net/software/simon.php'
+  development: halted
+  status: playable
+  platforms:
+  - TI calculator
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2026-07-12
+  updated: 2026-07-12
+  images:
+  - 'https://technoplaza.net/images/software/simon/92.gif'
+  - 'https://technoplaza.net/images/software/simon/89.gif'
+
 - name: Simple Sokoban
   originals:
   - Sokoban
@@ -2456,6 +2864,8 @@
   url: 'https://mateusz.fr/simplesok/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C
@@ -2476,6 +2886,8 @@
   url: 'https://dusted.dk/pages/simplevaders/'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -2503,6 +2915,8 @@
   repo: https://github.com/LazyDuchess/SimUnity2
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - C#
@@ -2533,6 +2947,11 @@
   - Transport Tycoon
   repo: https://github.com/simutrans/simutrans
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - BeOS
   multiplayer:
   - Online
   type: clone
@@ -2552,6 +2971,8 @@
     https://www.reddit.com/r/linux_gaming/comments/p1bsr5/sin_golds_90s_fps_source_code_has_been_released/
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -2581,6 +3002,8 @@
   - Asteroids
   repo: https://github.com/slx7R4GDZM/Sine
   status: semi-playable
+  platforms:
+  - Windows
   type: remake
   added: 2016-10-30
   updated: 2023-10-30
@@ -2593,6 +3016,8 @@
   url: 'https://www.kickstarter.com/projects/1805029723/sissyfight-2000-returns'
   development: halted
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Competitive
   - Online
@@ -2611,6 +3036,59 @@
   info: Sissyfight 2000 Returns is a revival of the 1999 multiplayer game SiSSYFiGHT 2000.
   added: 2026-01-20
   updated: 2026-01-20
+
+- name: SITDDISASM
+  originals:
+  - Shining in the Darkness
+  type: remake
+  repo: 'https://github.com/ShiningForceCentral/SITDDISASM'
+  development: halted
+  status: unplayable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-06
+  updated: 2026-05-06
+
+- name: SITDRE
+  originals:
+  - Shining in the Darkness
+  type: remake
+  repo: 'https://github.com/ShiningForceCentral/SITDRE'
+  development: halted
+  status: unplayable
+  platforms:
+  - Genesis
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-13
+  updated: 2026-06-13
+
+- name: skcollectioncport
+  originals:
+  - Sonic 3
+  - Sonic & Knuckles
+  type: remake
+  repo: 'https://git.sr.ht/~benoitren/skccport'
+  development: active
+  status: playable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Sonic & Knuckles Collection C port and decompilation
+  added: 2026-04-27
+  updated: 2026-04-27
 
 - name: SkiFree
   originals:
@@ -2640,6 +3118,8 @@
   feed: 'https://github.com/yuv422/skifree_decomp/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Assembly
@@ -2658,6 +3138,8 @@
   originals:
   - SkiFree
   status: semi-playable
+  platforms:
+  - Web
   repo: https://github.com/andymason/Skifree-HTML5-clone
   langs:
   - JavaScript
@@ -2675,6 +3157,8 @@
   originals:
   - SkiFree
   status: semi-playable
+  platforms:
+  - Web
   repo: https://github.com/basicallydan/skifree.js
   url: https://basicallydan.github.io/skifree.js/
   type: remake
@@ -2692,6 +3176,8 @@
   url: 'https://blendogames.com/news/post/2025-06-26-skindeepsourcecode/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   frameworks:
   - id Tech 4
@@ -2711,6 +3197,8 @@
   feed: 'https://apps.kde.org/skladnik/index.xml'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -2728,9 +3216,12 @@
   - Skool Daze
   type: remake
   repo: 'https://github.com/skoolkid/skooldaze'
-  url: 'https://skoolkid.gitlab.io/skooldaze/'
+  url: 'https://skoolkid.github.io/skooldaze/'
+  feed: 'https://github.com/skoolkid/skooldaze/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
   langs:
   - Skool
   licenses:
@@ -2746,6 +3237,8 @@
   feed: 'https://github.com/gbsphenx/skproject/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -2763,6 +3256,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/337/33785.html'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   content: free
   langs:
   - C
@@ -2784,6 +3279,8 @@
   url: http://www.malcolm-s.net/ti/skyracer/
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   content: open
   langs:
   - C
@@ -2799,6 +3296,10 @@
   - Doom
   type: tool
   status: N/A
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/sirjuddington/SLADE
   url: https://slade.mancubus.net/
   development: active
@@ -2822,6 +3323,8 @@
   repo: 'https://github.com/milkeybabes/Slaine'
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   langs:
   - Assembly
   licenses:
@@ -2845,6 +3348,11 @@
   originals:
   - NetHack
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - DOS
   info: SLASH'EM (SuperLotsaAddedStuffHack - Extended Magic) is a variant of Nethack.
   repo: https://sourceforge.net/projects/slashem/
   type: clone
@@ -2859,6 +3367,8 @@
   repo: 'https://github.com/initials/SLF'
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: free
   langs:
   - GDScript
@@ -2874,10 +3384,11 @@
   - Super Lemonade Factory
   type: official
   repo: 'https://github.com/initials/SLF_AIR_SOURCE'
-  url: >-
-    https://web.archive.org/web/20250610022853/http://initialscommand.com/main/?p=656
+  url: https://web.archive.org/web/20250610022853/http://initialscommand.com/main/?p=656
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - ActionScript
@@ -2898,6 +3409,8 @@
     https://web.archive.org/web/20121124114024/http://initialscommand.com/main/?p=656
   development: complete
   status: playable
+  platforms:
+  - iOS
   content: free
   langs:
   - Objective-C
@@ -2914,6 +3427,8 @@
   repo: 'https://github.com/cricri-pingouin/SliJewel'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -2932,6 +3447,8 @@
   repo: 'https://github.com/cricri-pingouin/SliLights'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -2950,6 +3467,8 @@
   repo: 'https://github.com/cricri-pingouin/SliLumns'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -2976,6 +3495,11 @@
   - Local
   repo: https://github.com/highfestiva/life
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - iOS
   type: clone
   added: 2019-06-07
   updated: 2025-06-23
@@ -2990,6 +3514,8 @@
   repo: 'https://github.com/cricri-pingouin/SliMind'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3008,6 +3534,8 @@
   repo: 'https://github.com/cricri-pingouin/SliMine'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3026,6 +3554,8 @@
   repo: 'https://github.com/cricri-pingouin/SliPeg'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3044,6 +3574,8 @@
   repo: https://github.com/cricri-pingouin/SliSame
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3062,6 +3594,8 @@
   repo: 'https://github.com/cricri-pingouin/SliSnake'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3080,6 +3614,8 @@
   repo: 'https://github.com/cricri-pingouin/SliTris'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Delphi
@@ -3091,6 +3627,25 @@
   images:
   - 'https://user-images.githubusercontent.com/64480118/81442665-efdd3000-916b-11ea-8aba-af1efc3e6b96.png'
 
+- name: Sly Cooper and the Thievius Raccoonus
+  originals:
+  - Sly Cooper and the Thievius Raccoonus
+  type: remake
+  repo: 'https://github.com/TheOnlyZac/sly1'
+  url: 'https://theonlyzac.github.io/sly1'
+  development: very active
+  status: unplayable
+  platforms:
+  - PS2
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: Decompilation of Sly Cooper and the Thievius Raccoonus for PS2
+  added: 2026-05-25
+  updated: 2026-05-25
+
 - name: sm64ex
   originals:
   - Super Mario 64
@@ -3098,6 +3653,8 @@
   repo: https://github.com/sm64pc/sm64ex
   development: sporadic
   status: playable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -3119,6 +3676,8 @@
   feed: 'https://sourceforge.net/p/smallgamesc/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Java
@@ -3140,6 +3699,8 @@
   url: 'https://os4depot.net/?function=showfile&file=game/platform/smb_sdl2.lha'
   development: halted
   status: playable
+  platforms:
+  - Amiga
   content: open
   langs:
   - C++
@@ -3159,6 +3720,8 @@
   url: https://www.romhacking.net/documents/344/
   development: halted
   status: playable
+  platforms:
+  - NES
   multiplayer:
   - Local
   - Hotseat
@@ -3178,6 +3741,8 @@
   url: 'https://forums.nesdev.org/viewtopic.php?t=10035'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -3193,6 +3758,8 @@
   repo: 'https://github.com/captainsouthbird/smb3'
   development: sporadic
   status: playable
+  platforms:
+  - NES
   multiplayer:
   - Local
   - Hotseat
@@ -3214,6 +3781,8 @@
   feed: 'https://github.com/BBaoVanC/smines/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -3230,6 +3799,8 @@
   repo: https://github.com/snesrev/smw
   development: halted
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - C
@@ -3255,6 +3826,8 @@
   - Snake
   repo: https://github.com/spypunk/snake
   status: playable
+  platforms:
+  - None
   type: remake
   added: 2016-09-14
   updated: 2023-11-01
@@ -3267,6 +3840,8 @@
   url: 'https://projecthub.arduino.cc/sadreactonly/snake-game-on-nokia-5510-lcd-ea381a'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C++
   frameworks:
@@ -3291,6 +3866,8 @@
   url: 'https://lostsidedead.biz/snake/'
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   licenses:
@@ -3307,6 +3884,8 @@
   repo: 'https://github.com/mrhappyasthma/Snake'
   development: complete
   status: playable
+  platforms:
+  - Windows
   langs:
   - LabVIEW
   licenses:
@@ -3323,6 +3902,8 @@
   url: 'https://projecthub.arduino.cc/Hunter1234/snake-led-matrix-game-59f6ae'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C++
   licenses:
@@ -3339,6 +3920,8 @@
   url: 'https://www.classicdosgames.com/game/Snarf.html'
   development: sporadic
   status: playable
+  platforms:
+  - DOS
   langs:
   - C
   licenses:
@@ -3356,6 +3939,8 @@
   repo: 'https://shrigley.com/source_code_archive/#:~:text=Gargoyles%20Prototype'
   development: halted
   status: semi-playable
+  platforms:
+  - SNES
   content: free
   langs:
   - Assembly
@@ -3379,10 +3964,12 @@
   - Snipes
   repo: https://github.com/Davidebyzero/Snipes
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   added: 2017-04-04
   updated: 2017-04-04
-  url: https://www.vogons.org/viewtopic.php?t=49073
   images:
   - https://kingbird.myphotos.cc/1bc763733d48b46534d219b0fc8ddf71/Snipes%20port%20%2B%20ConEmu%20screenshot.png
   - https://kingbird.myphotos.cc/9c8a600b6df5d251fc199092b8b0d7d9/Snipes%20port%20%2B%20ConEmu%20screenshot%20with%20omniview.png
@@ -3396,6 +3983,8 @@
   feed: 'https://github.com/denix666/sokoban/releases.atom'
   development: sporadic
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -3415,6 +4004,8 @@
     https://web.archive.org/web/20030206062540/http://www.fi.tartu.ee/danli97/#:~:text=Sokoban,-1
   development: halted
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - Assembly
   licenses:
@@ -3433,6 +4024,8 @@
   feed: 'https://github.com/swatteau/sokoban-rs/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -3455,6 +4048,8 @@
   feed: 'https://github.com/obfusk/sokobang/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - HTML
@@ -3476,6 +4071,10 @@
   feed: 'https://sourceforge.net/p/sokobano/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Java
@@ -3501,6 +4100,8 @@
   url: 'http://buze.michel.chez.com/Boxworld/src.htm'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -3518,6 +4119,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/130/13038.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -3541,6 +4144,8 @@
   feed: 'https://brettchalupa.itch.io/sokoworld/devlog.rss'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - HTML
@@ -3568,6 +4173,8 @@
   feed: 'https://metacpan.org/dist/Games-SolarConflict/releases.rss'
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Perl
@@ -3589,6 +4196,8 @@
   url: 'https://www.romhacking.net/documents/510/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -3615,6 +4224,10 @@
   originals:
   - Legend of Zelda - A Link to the Past
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://gitlab.com/solarus-games/solarus
   type: clone
   added: 2013-05-28
@@ -3640,6 +4253,11 @@
   originals:
   - Solar Fox
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - BeOS
   development: complete
   type: remake
   added: 2015-04-25
@@ -3653,6 +4271,8 @@
   repo: https://github.com/smokku/soldank
   development: sporadic
   status: semi-playable
+  platforms:
+  - None
   multiplayer:
   - Online
   - Competitive
@@ -3674,6 +4294,10 @@
   feed: 'https://github.com/son-link/pong/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Competitive
   - Local
@@ -3687,6 +4311,40 @@
   added: 2026-03-14
   updated: 2026-03-14
 
+- name: Sonic4Ep1 Decomp
+  originals:
+  - 'Sonic the Hedgehog 4: Episode I'
+  type: remake
+  repo: 'https://github.com/fr3dsp/Sonic4Ep1-Decomp'
+  development: sporadic
+  status: unplayable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - 'C#'
+  licenses:
+  - As-is
+  added: 2026-04-27
+  updated: 2026-04-27
+
+- name: Sonic 1 J2ME Decompilation
+  originals:
+  - Sonic the Hedgehog
+  type: remake
+  repo: 'https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation'
+  development: halted
+  status: unplayable
+  platforms:
+  - Mobile
+  content: commercial
+  langs:
+  - Java
+  licenses:
+  - As-is
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: Sonic 3 A.I.R.
   originals:
   - Sonic the Hedgehog
@@ -3696,6 +4354,13 @@
   url: https://sonic3air.org/
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - iOS
+  - Web
   multiplayer:
   - Split-screen
   content: commercial
@@ -3721,6 +4386,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_3'
   development: active
   status: playable
+  platforms:
+  - Genesis
   multiplayer:
   - Local
   content: commercial
@@ -3731,11 +4398,87 @@
   added: 2026-03-28
   updated: 2026-03-28
 
+- name: Sonic Advance 2
+  originals:
+  - Sonic Advance
+  - Sonic Advance 2
+  type: remake
+  repo: 'https://github.com/SAT-R/sa2'
+  url: 'https://sa2.dev/'
+  development: very active
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - GBA
+  - PS2
+  - PSP
+  multiplayer:
+  - Local
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - As-is
+  info: >-
+    A decompilation and port of Sonic Advance 1 & 2 - GameBoy Advance game's
+    written in C
+  added: 2026-04-27
+  updated: 2026-04-27
+  images:
+  - 'https://raw.githubusercontent.com/SAT-R/sa2/main/.github/media/titlescreen.png'
+
+- name: Sonic Advance 3
+  originals:
+  - Sonic Advance 3
+  type: remake
+  repo: 'https://github.com/SAT-R/sa3'
+  url: 'https://sat-r.github.io/sa3/'
+  development: very active
+  status: unplayable
+  platforms:
+  - GBA
+  multiplayer:
+  - Local
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - As-is
+  info: A decompilation of Sonic Advance 3
+  added: 2026-04-27
+  updated: 2026-04-27
+
+- name: Sonic Adventure DX
+  originals:
+  - Sonic Adventure
+  type: remake
+  repo: 'https://github.com/doldecomp/sadx'
+  development: halted
+  status: unplayable
+  platforms:
+  - GameCube
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: A decompilation of Sonic Adventure DX for the Nintendo GameCube.
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: Sonic Adventure Toolset
   originals:
   - Sonic Adventure
   type: tool
   status: N/A
+  platforms:
+  - Windows
   repo: https://github.com/X-Hax/sa_tools
   url: https://github.com/X-Hax/sa_tools/wiki
   feed: https://github.com/X-Hax/sa_tools/releases.atom
@@ -3758,6 +4501,24 @@
   - >-
     https://github.com/sonicretro/sa_tools/raw/Docs/Documentation/images/SADXLVL2_Editor_Overview.png
 
+- name: Sonic CD decompilation
+  originals:
+  - Sonic CD
+  type: remake
+  repo: 'https://git.sr.ht/~benoitren/soniccddecompilation'
+  url: 'https://www.benoitren.be/soniccd.html'
+  development: sporadic
+  status: playable
+  platforms:
+  - GameCube
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: Sonic CD Disassembly
   originals:
   - Sonic CD
@@ -3765,6 +4526,8 @@
   repo: 'https://github.com/sonicretro/scddisasm'
   development: sporadic
   status: playable
+  platforms:
+  - Sega CD
   content: commercial
   langs:
   - Assembly
@@ -3775,12 +4538,17 @@
 
 - name: Sonic-Mania-Decompilation
   originals:
-  - Sonic the Hedgehog
+  - Sonic Mania
   type: remake
   repo: https://github.com/RSDKModding/Sonic-Mania-Decompilation
   feed: https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases.atom
-  development: very active
+  development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Xbox One
+  - PS4
+  - Nintendo Switch
   content: commercial
   langs:
   - C
@@ -3789,7 +4557,7 @@
   licenses:
   - Custom
   added: 2023-07-05
-  updated: 2025-06-29
+  updated: 2026-04-27
 
 - name: Sonic Riders (USA)
   originals:
@@ -3798,6 +4566,8 @@
   repo: 'https://github.com/doldecomp/sonicriders'
   development: halted
   status: playable
+  platforms:
+  - GameCube
   multiplayer:
   - Competitive
   content: commercial
@@ -3826,6 +4596,10 @@
   originals:
   - Sonic the Hedgehog
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/STJr/SRB2
   type: similar
   added: 2014-04-16
@@ -3833,31 +4607,76 @@
   url: https://www.srb2.org/
   info: 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy
 
-- name: Sonic The Hedgehog Game Gear Disassembly
+- name: Sonic Runners (2015) Decompilation
   originals:
-  - Sonic the Hedgehog
+  - Sonic Runners
   type: remake
-  repo: 'https://github.com/Totally-Not-Filter/s1-gg-disasm'
-  development: sporadic
+  repo: 'https://github.com/itsmattkc/RunnersDecomp'
+  development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - iOS
+  - Android
   content: commercial
   langs:
+  - 'C#'
+  frameworks:
+  - Unity
+  licenses:
+  - As-is
+  added: 2026-04-27
+  updated: 2026-04-27
+
+- name: Sonic Rush Adventure
+  originals:
+  - Sonic Rush Adventure
+  type: remake
+  repo: 'https://github.com/RushRE/SonicRushAdventure-Decomp'
+  development: active
+  status: unplayable
+  platforms:
+  - DS
+  content: commercial
+  langs:
+  - C
   - Assembly
   licenses:
   - As-is
-  added: 2026-03-28
-  updated: 2026-03-28
+  info: A matching decompilation of Sonic Rush Adventure for the Nintendo DS
+  added: 2026-04-27
+  updated: 2026-04-27
+
+- name: soniccdrespinned
+  originals:
+  - Sonic CD
+  type: remake
+  repo: 'https://git.sr.ht/~benoitren/soniccdrespinned'
+  development: sporadic
+  status: playable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: Cross-platform Sonic CD game based on the decompilation
+  added: 2026-04-27
+  updated: 2026-04-27
 
 - name: Sopwith
   originals:
   - Sopwith
   type: official
-  repo: >-
-    https://web.archive.org/web/20191211132727/https://davidlclark.com/software-distribution/sopwith-source-code-zip-file
-  url: >-
-    https://archive.ph/20120206011933/http://www.davidlclark.com/index.html?http://www.davidlclark.com/sopwith/sourcecode.html
+  repo: https://web.archive.org/web/20191211132727/https://davidlclark.com/software-distribution/sopwith-source-code-zip-file
+  url: https://web.archive.org/web/20200131222432/http://davidlclark.com/page/sopwith
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - C
   - Assembly
@@ -3876,6 +4695,8 @@
   originals:
   - Sopwith
   status: playable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/sopwith3/
   development: halted
   type: remake
@@ -3895,6 +4716,8 @@
   feed: 'https://github.com/PavelVPV/sopwith_stm3241g_eval/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - C
   licenses:
@@ -3911,6 +4734,8 @@
   repo: 'https://github.com/LemonHaze420/SOS1937'
   development: complete
   status: playable
+  platforms:
+  - Dreamcast
   content: commercial
   langs:
   - C++
@@ -3920,15 +4745,34 @@
   added: 2026-03-01
   updated: 2026-03-01
 
+- name: Soul Reaverse
+  originals:
+  - 'Legacy of Kain: Soul Reaver'
+  type: remake
+  repo: 'https://github.com/Mc-muffin/kain2-splatdisasm'
+  development: halted
+  status: unplayable
+  platforms:
+  - PS
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  added: 2026-05-01
+  updated: 2026-05-01
+
 - name: Soul Ride snowboarding simulation
   originals:
   - Soul Ride
   type: official
   repo: 'https://sourceforge.net/projects/soulride/'
-  url: >-
-    http://www.soulride.com/products/news.html#:~:text=Soul%20Ride%20Engine%20goes%20GPL
+  url: http://www.soulride.com/products/news.html#:~:text=Soul%20Ride%20Engine%20goes%20GPL
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -3944,6 +4788,8 @@
   url: 'https://archive.org/details/source-code-for-rbi-94-sega-genesis'
   development: complete
   status: playable
+  platforms:
+  - Genesis
   multiplayer:
   - Local
   content: commercial
@@ -3964,6 +4810,9 @@
   url: 'https://developer.valvesoftware.com/wiki/Source_SDK_Base_2013'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Competitive
   - Online
@@ -3985,6 +4834,8 @@
   repo: 'https://github.com/mattgodbolt/reddog'
   development: complete
   status: playable
+  platforms:
+  - Dreamcast
   multiplayer:
   - Local
   content: commercial
@@ -4003,6 +4854,10 @@
   repo: https://github.com/sourcehold/Sourcehold
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C++
   frameworks:
@@ -4022,6 +4877,8 @@
   repo: 'https://github.com/Olde-Skuul/spaceaceiigs'
   development: halted
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -4039,6 +4896,8 @@
   url: 'https://www.rockpapershotgun.com/space-engineers-open-source'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   content: commercial
@@ -4056,6 +4915,8 @@
   repo: 'https://github.com/Zireael07/Space-Frontier'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - GDScript
@@ -4071,10 +4932,11 @@
   - B.O.B.
   type: official
   repo: 'https://github.com/RetailGameSourceCode/BOB'
-  url: >-
-    https://web.archive.org/web/20170618105130/https://wiki.superfamicom.org/snes/show/Space+Funky+B.O.B.
+  url: https://web.archive.org/web/20170618105130/https://wiki.superfamicom.org/snes/show/Space+Funky+B.O.B.
   development: complete
   status: playable
+  platforms:
+  - Apple II
   langs:
   - Assembly
   licenses:
@@ -4082,6 +4944,28 @@
   content: commercial
   added: 2026-02-03
   updated: 2026-02-03
+
+- name: Space Glider
+  originals:
+  - Starglider 2
+  type: similar
+  url: 'https://www.allegro.cc/depot/SpaceGlider'
+  development: halted
+  status: semi-playable
+  platforms:
+  - DOS
+  - Linux
+  - Windows
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - Custom
+  added: 2026-06-09
+  updated: 2026-06-09
+  images:
+  - https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1185_large.jpg
 
 - name: Space Harrier Clone
   type: remake
@@ -4091,6 +4975,8 @@
   url: https://brunoaor.github.io/Space-Harrier-Clone/
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   frameworks:
@@ -4111,6 +4997,8 @@
   url: 'https://spaceinvaders.viperfish.com.au/'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -4446,6 +5334,24 @@
   - https://spacestation14.com/images/home/gallery-nukies.webp
   - https://spacestation14.com/images/home/gallery-medbay.webp
   - https://spacestation14.com/images/home/gallery-clown.webp
+
+- name: Space Station Silicon Valley N64
+  originals:
+  - Space Station Silicon Valley
+  type: remake
+  repo: 'https://github.com/mkst/sssv'
+  url: 'https://sssv.deco.mp/'
+  development: active
+  status: semi-playable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-06-01
+  updated: 2026-06-01
 
 - name: Spacebase DF-9 v2
   originals:
@@ -4919,6 +5825,28 @@
   added: 2026-03-12
   updated: 2026-03-12
 
+- name: Spider-Man & the X-Men in Arcade's Revenge (SNES) Disassembly
+  originals:
+  - Spider-Man and the X-Men in Arcade's Revenge
+  type: remake
+  repo: https://github.com/Yoshifanatic1/Spider-Man-X-Men-Arcades-Revenge-SNES-Disassembly
+  url: https://www.smwcentral.net/?p=viewthread&t=118507&page=2&pid=1584510#:~:text=Spider-Man%20%26%20the%20X-Men%20in%20Arcade's%20Revenge%20(SNES)%20Disassembly
+  feed: https://github.com/Yoshifanatic1/Spider-Man-X-Men-Arcades-Revenge-SNES-Disassembly/releases.atom
+  development: complete
+  status: playable
+  platforms:
+  - SNES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-04
+  updated: 2026-06-04
+  images:
+  - 'https://i.imgur.com/AgEeEnx.gif'
+  - 'https://i.imgur.com/1io2OrP.gif'
+
 - name: spidey-decomp
   originals:
   - Spider-Man
@@ -4990,6 +5918,22 @@
   repo: https://github.com/radu124/splexhd
   type: remake
   updated: 2015-05-28
+
+- name: splot
+  originals:
+  - Ataxx
+  type: clone
+  repo: 'https://github.com/furrykef/splot'
+  development: halted
+  status: unplayable
+  platforms:
+  - Windows
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2026-05-05
+  updated: 2026-05-05
 
 - name: Spludlow Tetris
   type: clone
@@ -5179,6 +6123,30 @@
   images:
   - 'https://a.fsdn.com/con/app/proj/sstpong/screenshots/138131.jpg'
 
+- name: Star Castle 2600
+  originals:
+  - Star Castle
+  type: remake
+  repo: 'https://drive.google.com/open?id=0B8R5I5dM0C45VDExTklneDMzTUU'
+  url: 'https://starcastle2600.blogspot.com/p/star-castle-2600-story.html'
+  development: complete
+  status: playable
+  platforms:
+  - Atari
+  multiplayer:
+  - Hotseat
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-21
+  updated: 2026-06-21
+  images:
+  - https://lh3.googleusercontent.com/-XJ1zsBb26s0/TEu5KbVafII/AAAAAAAALro/nSQ7y5qMB40/s640/starcastle2600.bin_68.png
+  video:
+    youtube: 7sjl_TOYyEk
+
 - name: star-control2
   langs:
   - C++
@@ -5354,6 +6322,48 @@
   - As-is
   added: 2026-03-10
   updated: 2026-03-10
+
+- name: Stardust rebuilt
+  originals:
+  - Star Dust
+  type: remake
+  repo: 'https://github.com/TheJare/stardust-48k'
+  development: halted
+  status: unplayable
+  platforms:
+  - ZX Spectrum
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - CC-BY-NC-ND
+  added: 2026-07-03
+  updated: 2026-07-03
+
+- name: 'Starfox 64: Recompiled'
+  originals:
+  - Star Fox 64
+  type: remake
+  repo: 'https://github.com/worleydl/Starfox64Recomp-uwp'
+  url: https://www.timeextension.com/news/2025/12/star-fox-64-gets-another-pc-recompilation-just-in-time-for-christmas
+  feed: 'https://github.com/worleydl/Starfox64Recomp-uwp/releases.atom'
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - RT64
+  licenses:
+  - GPL3
+  added: 2026-07-22
+  updated: 2026-07-22
+  video:
+    youtube: nmJX458H1PU
 
 - name: Stargus
   originals:
@@ -5543,6 +6553,26 @@
   - 'https://6502disassembly.com/a2-starship-cmdr/images/SC.ENG.gif'
   - 'https://6502disassembly.com/a2-starship-cmdr/images/SC.ATTACK.gif'
 
+- name: StawdewValley
+  originals:
+  - Stardew Valley
+  type: remake
+  repo: 'https://github.com/E-riCA0/StawdewValley'
+  development: halted
+  status: unplayable
+  platforms:
+  - Windows
+  multiplayer:
+  - Online
+  content: commercial
+  langs:
+  - 'C#'
+  licenses:
+  - As-is
+  info: Decompiled Stardew Valley source code
+  added: 2026-07-05
+  updated: 2026-07-05
+
 - name: Stellar 7 Disassembly
   originals:
   - Stellar 7
@@ -5617,6 +6647,26 @@
   - https://i.imgur.com/5nlHcWV.png
   - https://i.imgur.com/zQTr5ww.jpeg
   - https://i.imgur.com/9wpVUi5.jpeg
+
+- name: stfdecomp
+  originals:
+  - Sonic the Fighters
+  type: remake
+  repo: 'https://github.com/biggestsonicfan/stfdecomp'
+  development: sporadic
+  status: unplayable
+  multiplayer:
+  - Competitive
+  - Local
+  content: commercial
+  langs:
+  - Assembly
+  - C++
+  licenses:
+  - As-is
+  info: A decompilation attempt at Sonic the Fighters
+  added: 2026-04-27
+  updated: 2026-04-27
 
 - name: stfdisasm
   originals:
@@ -6170,6 +7220,26 @@
   added: 2026-01-23
   updated: 2026-01-23
 
+- name: Super-Mario-64-DS-Remastered
+  originals:
+  - Super Mario 64
+  type: tool
+  repo: 'https://github.com/ExcellentGamer/Super-Mario-64-DS-Remastered'
+  feed: 'https://github.com/ExcellentGamer/Super-Mario-64-DS-Remastered/releases.atom'
+  development: halted
+  status: N/A
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-05-12
+  updated: 2026-05-12
+  images:
+  - https://user-images.githubusercontent.com/82652849/156240410-192cca19-77cc-4b91-a51d-f3f1d289a6f9.gif
+
 - name: Super Mario 64 (DualShock Version)
   originals:
   - Super Mario 64
@@ -6183,7 +7253,7 @@
   - C
   licenses:
   - As-is
-  info: A port of the full decompilation of Super Mario 64 for the PlayStation 1.
+  info: A port of the full decompilation of Super Mario 64 for the PS 1.
   added: 2025-12-11
   updated: 2025-12-11
 
@@ -6423,6 +7493,24 @@
   type: remake
   updated: 2020-08-31
 
+- name: Super Pong
+  originals:
+  - Pong
+  type: clone
+  url: 'https://www.ticalc.org/archives/files/fileinfo/92/9213.html'
+  development: complete
+  status: playable
+  platforms:
+  - TI calculator
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-07-08
+  updated: 2026-07-08
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/45/4574.gif'
+
 - name: Super Silverbrothers
   originals:
   - Super Silverbrothers
@@ -6625,21 +7713,51 @@
 
 - name: Supercars III
   images:
-  - https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
-  - https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_3.jpg
-  - https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_7.jpg
+  - https://web.archive.org/web/20191005021901if_/http://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_0.jpg
+  - https://web.archive.org/web/20231002180426im_/https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_1.jpg
+  - https://web.archive.org/web/20231002170843im_/https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_2.jpg
+  - https://web.archive.org/web/20220101205853if_/https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_3.jpg
+  - https://web.archive.org/web/20230929055148if_/https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_7.jpg
+  - https://web.archive.org/web/20231001211151if_/https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_8.jpg
+  - https://web.archive.org/web/20231002015329if_/https://jotd.pagesperso-orange.fr/supercars3/snapshots/images/view_9.jpg
   licenses:
   - JRL
   development: halted
+  platforms:
+  - Windows
+  - Linux
   originals:
   - Super Cars
+  - Super Cars II
   status: playable
-  repo: http://jotd.pagesperso-orange.fr/supercars3/Supercars3_06.zip
+  repo: https://github.com/jotd666/supercars3
   langs:
   - Java
   type: remake
-  updated: 2021-12-21
-  url: http://jotd.pagesperso-orange.fr/supercars3/
+  added: 2015-04-04
+  updated: 2026-07-05
+  url: https://www.indieretronews.com/2014/12/super-cars-iii-pc-remake-of-top-down.html
+
+- name: supercopter_decompiled
+  originals:
+  - Supercopter
+  type: remake
+  repo: 'https://github.com/ergonomy-joe/supercopter_decompiled'
+  development: complete
+  status: playable
+  platforms:
+  - DOS
+  multiplayer:
+  - Hotseat
+  content: commercial
+  langs:
+  - Pascal
+  frameworks:
+  - Borland
+  licenses:
+  - As-is
+  added: 2026-06-12
+  updated: 2026-06-12
 
 - name: SuperFoulEgg
   langs:
@@ -6763,6 +7881,33 @@
   updated: 2022-01-07
   images:
   - 'https://github.com/MitchellSternke/SuperMarioBros-C/raw/master/demo.gif'
+
+- name: Supermax
+  originals:
+  - Rambo
+  type: clone
+  repo: 'https://www.allegro.cc/depot/Supermax'
+  url: >-
+    https://web.archive.org/web/20190726180618/http://www.angelfire.com/games5/scottestinson1/Supermax_Game/
+  development: halted
+  status: semi-playable
+  platforms:
+  - DOS
+  - Windows
+  - Linux
+  - OSX
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  info: A sequel to Max of Ice
+  added: 2026-05-05
+  updated: 2026-05-05
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1807_small.jpg'
 
 - name: Supernova
   originals:

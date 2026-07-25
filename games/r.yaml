@@ -1,3 +1,29 @@
+- name: RA2
+  originals:
+  - 'Command & Conquer: Red Alert 2'
+  type: remake
+  repo: 'https://github.com/OpenRA/ra2/'
+  feed: 'https://github.com/OpenRA/ra2/releases.atom'
+  development: sporadic
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - OpenRA
+  licenses:
+  - GPL3
+  info: >-
+    A mod for OpenRA that is yet unreleased.
+  added: 2026-07-26
+  updated: 2026-07-26
+  images:
+  - https://media.moddb.com/images/articles/1/201/200194/auto/Kq4VS7C.png
+
 - name: RA2Web React
   originals:
   - 'Command & Conquer: Red Alert 2'
@@ -7,6 +33,8 @@
   feed: 'https://github.com/huangkaoya/redalert2/releases.atom'
   development: active
   status: semi-playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - TypeScript
@@ -38,10 +66,14 @@
   - GPL2
   content: open
   development: complete
-  info: Android, Linux, Windows, Mac
   originals:
   - Lemmings
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   repo: https://github.com/andybalaam/rabbit-escape
   type: clone
   updated: 2018-08-20
@@ -68,6 +100,10 @@
   originals:
   - Buzz Aldrin's Race Into Space
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/raceintospace/raceintospace
   url: https://mstdn.games/@raceintospace
   type: remake
@@ -85,16 +121,22 @@
   langs:
   - C++
   - Python
+  frameworks:
+  - SDL
+  - OpenGL
   licenses:
   - GPL3
   development: halted
   originals:
   - F-Zero
-  status: playable
+  status: unplayable
+  platforms:
+  - Linux
+  - OSX
   repo: http://sourceforge.net/projects/racer/
   type: similar
   updated: 2019-01-18
-  url: http://racer.sourceforge.net/
+  url: https://racer.sourceforge.net/
 
 - name: RacerJS
   langs:
@@ -106,6 +148,8 @@
   originals:
   - Lotus Esprit Turbo Challenge
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/onaluf/RacerJS
   type: clone
   updated: 2015-05-15
@@ -118,6 +162,8 @@
   url: 'https://sourceforge.net/projects/rad-x/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Delphi
@@ -139,6 +185,8 @@
   feed: 'https://sourceforge.net/p/raptorv2/code/feed/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C++
@@ -161,6 +209,8 @@
   repo: 'https://github.com/Evenball-8bit/RAID2020'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Assembly
@@ -176,6 +226,8 @@
   url: 'https://archive.org/details/Raid-2020-Source-Code'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -191,6 +243,8 @@
   repo: 'https://github.com/joshuanwalker/Raiders2600'
   development: very active
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -206,6 +260,8 @@
   repo: 'https://github.com/milkeybabes/Rampage'
   development: sporadic
   status: playable
+  platforms:
+  - Commodore 64
   multiplayer:
   - Local
   content: free
@@ -219,6 +275,25 @@
   images:
   - 'https://www.vintageisthenewold.com/wp-content/uploads/2019/05/rampage_6.png'
 
+- name: Rampage disassembly
+  originals:
+  - Rampage
+  type: remake
+  repo: 'https://github.com/pobtastic/rampage'
+  url: 'https://pobtastic.github.io/rampage/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  platforms:
+  - ZX Spectrum
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-06-03
+  updated: 2026-06-03
+
 - name: Rampart-Android
   info: Android
   langs:
@@ -229,6 +304,8 @@
   originals:
   - Rampart
   status: unplayable
+  platforms:
+  - Android
   repo: https://github.com/dwmai/Rampart-Android
   type: remake
   updated: 2015-05-29
@@ -240,6 +317,11 @@
   repo: 'https://github.com/skynettx/raptor'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: commercial
   langs:
   - C
@@ -261,6 +343,8 @@
   originals:
   - 'Raptor: Call of the Shadows'
   status: semi-playable
+  platforms:
+  - Web
   repo: https://github.com/robgietema/raptor
   type: remake
   updated: 2022-09-15
@@ -272,6 +356,8 @@
   repo: 'https://github.com/aroldanju/raptor-call-of-the-shadows'
   development: sporadic
   status: semi-playable
+  platforms:
+  - None
   content: commercial
   langs:
   - C
@@ -290,6 +376,8 @@
   url: 'https://archive.org/details/rats-code'
   development: complete
   status: playable
+  platforms:
+  - PS
   multiplayer:
   - Local
   content: commercial
@@ -300,6 +388,22 @@
   added: 2026-03-23
   updated: 2026-03-23
 
+- name: Ravenskull disassembly
+  originals:
+  - Ravenskull
+  type: remake
+  repo: 'https://www.level7.org.uk/miscellany/ravenskull-disassembly.txt'
+  development: complete
+  status: playable
+  platforms:
+  - BBC Micro
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-11
+  updated: 2026-06-11
+
 - name: rawgl
   langs:
   - C++
@@ -307,11 +411,14 @@
   - SDL2
   licenses:
   - As-is
+  content: commercial
   development: halted
   originals:
   - Another World
   repo: https://github.com/cyxx/rawgl
   status: playable
+  platforms:
+  - None
   type: remake
   updated: 2024-01-10
   images:
@@ -328,6 +435,8 @@
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/asteroids/rawks-1.03L.lsm
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -345,6 +454,9 @@
   feed: 'https://github.com/mevdschee/raylib-go-mines/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - Go
@@ -368,6 +480,8 @@
   url: 'https://archive.org/details/rayman-2src-rabbids-src'
   development: complete
   status: playable
+  platforms:
+  - DS
   content: free
   langs:
   - C++
@@ -387,9 +501,11 @@
   - WWII GI
   type: remake
   repo: 'https://github.com/coelckers/Raze'
-  url: https://raze.zdoom.org/about
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - OSX
   content: commercial
   langs:
   - C++
@@ -410,6 +526,8 @@
   - GPL3
   content: commercial
   development: active
+  platforms:
+  - Windows
   originals:
   - Doom 3
   status: playable
@@ -417,6 +535,13 @@
   url: https://www.moddb.com/mods/rbdoom-3-bfg
   type: remake
   updated: 2022-11-13
+  images:
+  - https://media.moddb.com/cache/images/mods/1/50/49231/thumb_620x2000/11_-_bbRLVHg.png
+  - https://media.moddb.com/cache/images/mods/1/50/49231/thumb_620x2000/10_-_kQ5L37H.png
+  - https://media.moddb.com/cache/images/mods/1/50/49231/thumb_620x2000/9_-_ZOXoZqB.png
+  - https://media.moddb.com/cache/images/mods/1/50/49231/thumb_620x2000/8_-_KrjppYU.png
+  - https://media.moddb.com/cache/images/mods/1/50/49231/thumb_620x2000/7_-_WWLN49t.png
+  - https://media.moddb.com/cache/images/mods/1/50/49231/thumb_620x2000/6_-_9UMVoY3.png
 
 - name: Re-Comprehend
   originals:
@@ -427,13 +552,38 @@
   repo: 'https://github.com/RyanMallon/recomprehend'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - CC0
   added: 2026-04-28
   updated: 2026-04-28
+
+- name: re-Sonic06Demo
+  originals:
+  - "Sonic '06"
+  type: remake
+  repo: 'https://github.com/PranchaD/re-Sonic06Demo'
+  feed: 'https://github.com/PranchaD/re-Sonic06Demo/releases.atom'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: Sonic 06 Demo Recompilation using RexGlue
+  added: 2026-04-27
+  updated: 2026-04-27
+  video:
+    youtube: K0rugmqDaOk
 
 - name: re-virtua-cop-2
   originals:
@@ -443,6 +593,8 @@
   url: 'https://jevarg.github.io/re-virtua-cop-2/'
   development: halted
   status: N/A
+  platforms:
+  - Web
   content: commercial
   langs:
   - TypeScript
@@ -459,6 +611,9 @@
   url: 'https://archive.org/details/ReVoltXboxAndPCSourceCode'
   development: complete
   status: playable
+  platforms:
+  - Xbox
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -482,6 +637,8 @@
     https://web.archive.org/web/20010821023218/http://www.calcware.org/member/tnt/#ctc
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -501,6 +658,8 @@
   feed: 'https://sourceforge.net/p/realtimechaos/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -525,6 +684,8 @@
   url: 'https://rec98.nmlgc.net/'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Assembly
@@ -546,6 +707,8 @@
   url: 'https://pckf.com/viewtopic.php?p=111897'
   development: sporadic
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -562,6 +725,8 @@
   url: 'https://pckf.com/viewtopic.php?t=18248'
   development: halted
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C++
@@ -579,6 +744,8 @@
   url: 'https://pckf.com/viewtopic.php?t=11505'
   development: halted
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -595,6 +762,8 @@
   repo: https://github.com/asiekierka/reconstruction-of-super-zzt
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - Pascal
   licenses:
@@ -610,6 +779,8 @@
   repo: https://github.com/asiekierka/reconstruction-of-zzt
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - Pascal
   licenses:
@@ -626,6 +797,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200311/msg00171.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -642,6 +815,8 @@
   url: 'https://github.com/RGUnity/redguard-unity/wiki'
   development: active
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - 'C#'
@@ -659,6 +834,11 @@
   url: http://dmweb.free.fr/community/redmcsb/
   development: sporadic
   status: playable
+  platforms:
+  - Apple II
+  - Amiga
+  - PC-98
+  - DOS
   content: commercial
   langs:
   - Assembly
@@ -676,6 +856,8 @@
   url: 'http://m210.duke4.net/'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -696,8 +878,13 @@
   originals:
   - Driver 2
   repo: https://github.com/OpenDriver2/REDRIVER2
+  url: https://opendriver2.github.io
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Web
+  - PS
   langs:
   - C
   frameworks:
@@ -721,6 +908,9 @@
   - 'Resident Evil 3: Nemesis'
   type: tool
   status: N/A
+  platforms:
+  - Windows
+  - Linux
   repo: 'https://github.com/pmandin/reevengi'
   development: halted
   langs:
@@ -751,6 +941,11 @@
   updated: 2026-03-07
   info: Known for years as Reflection Keen, ports of Keen Dreams, Catacomb 3-D and the Catacomb Adventure Series
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: commercial
   video:
     youtube: EeWk6WFVZ4U
@@ -764,8 +959,12 @@
   content: commercial
   originals:
   - Gothic
+  url: https://regoth-project.github.io/REGoth-bs/index.html
   repo: https://github.com/REGoth-project/REGoth-bs
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   images:
   - https://user-images.githubusercontent.com/11406580/58186975-2cdbb880-7cb6-11e9-9a6d-b38326bc3edb.png
@@ -789,6 +988,10 @@
   - "Oddworld: Abe's Oddysee"
   - "Oddworld: Abe's Exoddus"
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/AliveTeam/alive_reversing
   url: https://aliveteam.github.io
   type: remake
@@ -803,6 +1006,8 @@
   repo: 'https://github.com/turican0/remc1'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -820,6 +1025,8 @@
   repo: 'https://github.com/turican0/remc1hw'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -836,6 +1043,9 @@
   url: https://github.com/turican0/remc2/wiki
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C++
   frameworks:
@@ -865,6 +1075,8 @@
   originals:
   - Flashback
   status: playable
+  platforms:
+  - Windows
   type: remake
   url: http://cyxdown.free.fr/reminiscence/
   repo: https://github.com/cyxx/REminiscence
@@ -887,6 +1099,8 @@
   feed: 'https://github.com/chermenin/REminiscence/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - C++
@@ -907,9 +1121,13 @@
   - Master of Orion
   type: clone
   repo: 'https://github.com/rayfowler/rotp-public'
-  url: 'https://www.remnantsoftheprecursors.com/'
+  url: https://rayfowler.itch.io/remnants-of-the-precursors
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - Java
@@ -947,11 +1165,15 @@
   licenses:
   - GPL3
   content: commercial
-  development: active
+  development: sporadic
   originals:
   - 'Star Wars: Knights of the Old Republic'
   - "Star Wars: Knights of the Old Republic II \u2013 The Sith Lords"
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   url: https://github.com/seedhartha/reone/
   updated: 2021-06-30
@@ -966,6 +1188,8 @@
   url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/repton-1.3.lsm'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -986,6 +1210,8 @@
   originals:
   - Q*bert
   status: semi-playable
+  platforms:
+  - Web
   repo: https://github.com/leonicolas/ReQbert
   url: https://leonicolas.github.io/ReQbert/
   type: remake
@@ -1005,6 +1231,10 @@
   originals:
   - Rescue!
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://sourceforge.net/projects/rescue/
   type: remake
   updated: 2022-11-13
@@ -1022,10 +1252,13 @@
   - Escape from Monkey Island
   - 'Myst III: Exile'
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: remake
   repo: https://github.com/residualvm/residualvm
   updated: 2018-10-06
-  url: http://residualvm.org/
 
 - name: Restunts
   originals:
@@ -1035,6 +1268,8 @@
   url: 'https://forum.stunts.hu/index.php?topic=2454.0'
   development: halted
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - Assembly
@@ -1052,6 +1287,10 @@
   url: 'https://www.lemmingsforums.net/index.php?topic=7030.0'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - Java
@@ -1068,8 +1307,10 @@
   - Hard Truck Apocalypse
   type: remake
   repo: 'https://github.com/mindflower/retruxx'
-  development: active
+  development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1092,6 +1333,12 @@
   originals:
   - Destructo
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  url: http://zxstudio.org/projects/drdestructo/
   repo: https://github.com/MaxSavenkov/drdestructo2
   type: remake
   updated: 2019-09-13
@@ -1107,6 +1354,8 @@
     https://web.archive.org/web/20131210051806/http://www.shacknews.com/file/19981/return-to-castle-wolfenstein-multiplayer-gpl-source-code
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1129,6 +1378,8 @@
     https://web.archive.org/web/20140111071105/http://www.shacknews.com/file/19980/return-to-castle-wolfenstein-single-player-gpl-source-code
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -1148,6 +1399,10 @@
   - GPL2
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   - LAN
@@ -1167,6 +1422,9 @@
   feed: https://github.com/retux-game/retux/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - Python
@@ -1202,6 +1460,8 @@
   url: 'https://www.puppygames.net/blog/?p=914'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Java
   licenses:
@@ -1218,6 +1478,8 @@
   url: 'https://revs.bbcelite.com/'
   development: very active
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -1228,6 +1490,23 @@
   images:
   - 'https://revs.bbcelite.com/images/general/Revs.png'
 
+- name: Rex disassembly
+  originals:
+  - Rex
+  type: remake
+  repo: 'https://github.com/ultrabolido/skRex'
+  url: 'https://ultrabolido.github.io/skRex/RexSideA/'
+  development: halted
+  status: playable
+  platforms:
+  - ZX Spectrum
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-05-29
+  updated: 2026-05-29
+
 - name: Rezcraft
   originals:
   - Minecraft
@@ -1237,6 +1516,8 @@
   feed: 'https://github.com/Shapur1234/Rezcraft/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -1264,6 +1545,8 @@
   originals:
   - Robotfindskitten
   status: playable
+  platforms:
+  - None
   repo: https://gitlab.com/DavidGriffith/rfk-inform
   type: remake
   updated: 2024-01-20
@@ -1272,15 +1555,23 @@
 - name: RickyD
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
   development: halted
   originals:
   - Rick Dangerous
   status: playable
+  platforms:
+  - Windows
   type: remake
   updated: 2015-04-03
-  url: http://sourceforge.net/projects/rickyd/
+  url: https://sourceforge.net/projects/rickyd/
+  images:
+  - https://a.fsdn.com/con/app/proj/rickyd/screenshots/rickyd_level5.png/245/183/2
+  - https://a.fsdn.com/con/app/proj/rickyd/screenshots/welcome_screen.png/245/183/2
+  - https://a.fsdn.com/con/app/proj/rickyd/screenshots/rickyd_level3.png/245/183/2
 
 - name: Riddle of the Sphinx Disassembly
   originals:
@@ -1290,6 +1581,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200312/msg00181.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1304,6 +1597,11 @@
   repo: https://github.com/lethal-guitar/RigelEngine
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
   langs:
   - C++
   frameworks:
@@ -1325,6 +1623,8 @@
   url: 'https://happypenguin.altervista.org/sheet.php?gameid=1935'
   development: halted
   status: playable
+  platforms:
+  - Amiga
   langs:
   - C
   frameworks:
@@ -1356,13 +1656,16 @@
   - BeamNG.drive
   repo: https://github.com/RigsOfRods/rigs-of-rods
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   type: similar
   content: open
   info: BeamNG.drive was launched later by former developers of Rigs of Rods
   updated: 2019-03-07
-  url: http://rigsofrods.org/
+  url: https://rigsofrods.org/
   video:
     youtube: bRbQ4OaljWs
 
@@ -1373,6 +1676,11 @@
   repo: https://github.com/collinsmith/riiablo
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   langs:
   - Java
   frameworks:
@@ -1396,13 +1704,15 @@
   - GPL2
   content: commercial
   development: halted
+  platforms:
+  - Windows
+  - Linux
   originals:
   - Rise of the Triad
   status: playable
-  repo: http://svn.icculus.org/rott/trunk/
   type: remake
   updated: 2013-05-27
-  url: http://icculus.org/rott/
+  url: https://icculus.org/rott/
   images:
   - https://i.stack.imgur.com/Nz443.png
   - https://icculus.org/~ravage/rott/rott_installer.jpg
@@ -1414,6 +1724,8 @@
   repo: 'https://github.com/videogamepreservation/rott'
   development: complete
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - C
@@ -1430,6 +1742,8 @@
   url: 'https://joaoneto.github.io/river-raid-2k/'
   development: halted
   status: unplayable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -1449,6 +1763,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200108/msg00206.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   content: commercial
   langs:
   - Assembly
@@ -1464,6 +1780,8 @@
   repo: 'https://github.com/SadraSamadi/river-raid'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - VHDL
   licenses:
@@ -1480,6 +1798,8 @@
   repo: 'https://github.com/masoudhassani/river_raid'
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Python
@@ -1499,6 +1819,9 @@
   repo: 'https://github.com/eglaysher/rlvm'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C++
@@ -1521,6 +1844,8 @@
     https://archive.org/details/road-blasters-genesis-source-code-graphics-disk-1-of-2
   development: complete
   status: playable
+  platforms:
+  - Genesis
   content: free
   langs:
   - C
@@ -1539,6 +1864,8 @@
   url: 'https://www.romhacking.net/documents/722/'
   development: complete
   status: playable
+  platforms:
+  - Genesis
   multiplayer:
   - Local
   - Split-screen
@@ -1558,6 +1885,8 @@
   repo: 'https://github.com/jonathanopalise/roadblasters-ste'
   development: complete
   status: N/A
+  platforms:
+  - None
   langs:
   - Assembly
   licenses:
@@ -1578,6 +1907,10 @@
   url: 'https://roadfighter.jorito.net/'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - C++
@@ -1606,6 +1939,8 @@
   - Robbo
   repo: https://github.com/Zibx/robbo
   status: playable
+  platforms:
+  - Web
   type: remake
   updated: 2024-01-23
   url: https://blog.form.dev/PlayRobbo
@@ -1617,6 +1952,8 @@
   repo: 'http://www.roboforge.altervista.org/source.htm'
   development: complete
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Online
   content: free
@@ -1636,6 +1973,10 @@
   feed: 'https://jpct.de/robombs.game/feed/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   - LAN
@@ -1666,6 +2007,10 @@
   url: 'https://www.moddb.com/mods/robot-redemption'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - DOS
   content: open
   langs:
   - C++
@@ -1688,6 +2033,8 @@
   url: 'https://www.robotwarengine.com'
   development: sporadic
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1711,10 +2058,11 @@
   originals:
   - 'Robotron: 2084'
   status: playable
+  platforms:
+  - Web
   type: remake
   updated: 2022-01-31
   repo: https://github.com/Ernir/robotron
-  url: https://notendur.hi.is/~odv1/Robotron/
 
 - name: robotron-7800
   originals:
@@ -1725,6 +2073,8 @@
     https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Robotron%202084
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1742,6 +2092,8 @@
   originals:
   - Lego Rock Raiders
   status: semi-playable
+  platforms:
+  - Web
   repo: https://github.com/rystills/rock-raiders-remake
   type: remake
   updated: 2022-11-13
@@ -1768,6 +2120,12 @@
   originals:
   - MegaMan
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Raspberry Pi
+  - Android
+  - PSP
   repo: https://github.com/protoman/rockbot
   type: remake
   updated: 2022-11-13
@@ -1781,6 +2139,8 @@
   url: 'https://www.atariarchives.org/basicgames/showpage.php?page=109'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - BASIC
   licenses:
@@ -1799,6 +2159,8 @@
   feed: 'https://github.com/tversteeg/rocket-game/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -1835,6 +2197,11 @@
   - Supaplex
   repo: https://git.artsoft.org/rocksndiamonds.git/
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
   multiplayer:
   - Local
   - Online
@@ -1851,6 +2218,8 @@
     https://web.archive.org/web/20040708044233/http://www.positech.co.uk/rocky/sourcecode.shtml
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -1874,6 +2243,8 @@
   feed: 'https://sourceforge.net/p/rockz/news/feed.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Java
@@ -1900,6 +2271,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/216/21607.html'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -1918,6 +2291,8 @@
   url: 'https://cellardoorgames.com/roguelegacy/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -1946,6 +2321,8 @@
   url: 'https://eab.abime.net/showpost.php?p=1082254'
   development: complete
   status: playable
+  platforms:
+  - Amiga
   multiplayer:
   - Local
   - Hotseat
@@ -1953,7 +2330,6 @@
   - Assembly
   licenses:
   - As-is
-  info: Commodore Amiga version
   added: 2026-03-26
   updated: 2026-03-26
 
@@ -1966,6 +2342,8 @@
   feed: 'https://github.com/kosinaz/Rot-Magus/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -1993,6 +2371,10 @@
   repo: https://github.com/SaxxonPike/roton
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - C#
   frameworks:
@@ -2012,6 +2394,8 @@
   repo: 'https://github.com/h4mu/rott94'
   development: sporadic
   status: playable
+  platforms:
+  - Android
   content: commercial
   langs:
   - C
@@ -2031,6 +2415,8 @@
   repo: 'https://github.com/LTCHIPS/rottexpr'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -2052,6 +2438,8 @@
   feed: 'https://sourceforge.net/p/roxxout/code/feed/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   frameworks:
@@ -2069,6 +2457,8 @@
   repo: 'https://github.com/m5kro/RPG-Maker-MacOS-Launcher'
   development: complete
   status: N/A
+  platforms:
+  - OSX
   langs:
   - JavaScript
   - Python
@@ -2096,10 +2486,13 @@
   originals:
   - "Star Trek: Voyager \u2013 Elite Force"
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/UberGames/rpgxEF
   type: remake
   updated: 2022-11-13
-  url: http://www.last-outpost.net/rpg-x/
   video:
     youtube: QCYMLoTGPh0
 
@@ -2112,6 +2505,8 @@
   feed: 'https://github.com/MBarnulf/rs48/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -2126,6 +2521,14 @@
   repo: 'https://github.com/2003scape/rsc-c'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Web
+  - Android
+  - Wii
+  - 3DS
+  - Nintendo Switch
   multiplayer:
   - Online
   - LAN
@@ -2150,6 +2553,29 @@
   video:
     youtube: _l39NfOHPcY
 
+- name: RSDKv2 Decompilation
+  originals:
+  - Sonic Nexus
+  type: remake
+  repo: 'https://github.com/RSDKModding/RSDKv2-Decompilation'
+  feed: 'https://github.com/RSDKModding/RSDKv2-Decompilation/releases.atom'
+  development: sporadic
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - Custom
+  info: A decompilation of the 2008 Retro-Sonic Engine Demo of Sonic Nexus
+  added: 2026-04-27
+  updated: 2026-04-27
+
 - name: RSDKv3
   originals:
   - Sonic CD
@@ -2158,6 +2584,11 @@
   feed: https://github.com/RSDKModding/RSDKv3-Decompilation/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: commercial
   langs:
   - C++
@@ -2174,11 +2605,16 @@
 - name: RSDKv4-Decompilation
   originals:
   - Sonic the Hedgehog
+  - Sonic 2
   type: remake
   repo: https://github.com/RSDKModding/RSDKv4-Decompilation
   feed: https://github.com/RSDKModding/RSDKv4-Decompilation/releases.atom
-  development: active
+  development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Android
   content: commercial
   langs:
   - C++
@@ -2188,7 +2624,7 @@
   licenses:
   - Custom
   added: 2021-07-12
-  updated: 2025-06-29
+  updated: 2026-04-27
   info: A complete decompilation of Retro Engine v4 and the menus from Sonic 1 and 2 (2013)
   video:
     youtube: gzIfRW91IxE
@@ -2205,6 +2641,8 @@
   originals:
   - R-Type
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/leurqum/Rtype
   type: remake
   updated: 2022-02-20
@@ -2218,6 +2656,8 @@
   originals:
   - River Raid
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/zukunftsalick/ruby-raid
   type: remake
   updated: 2015-05-15
@@ -2231,6 +2671,10 @@
   feed: 'https://runelite.net/atom.xml'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Competitive
   - Online
@@ -2260,6 +2704,8 @@
   feed: 'https://sourceforge.net/p/runesword/news/feed.rss'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - Visual Basic 6.0
@@ -2279,6 +2725,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/300/30094.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -2302,6 +2750,8 @@
   originals:
   - Wipeout
   status: playable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/therush/
   type: clone
   updated: 2022-08-14
@@ -2315,6 +2765,8 @@
   url: 'https://crates.io/crates/rust2048'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -2332,6 +2784,8 @@
   url: 'https://crates.io/crates/game2048'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   frameworks:
@@ -2351,6 +2805,9 @@
   feed: 'https://github.com/c2i-junia/rustcraft/releases.atom'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -2382,6 +2839,8 @@
   url: 'https://crates.io/crates/rustle-game'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -2398,6 +2857,8 @@
   feed: 'https://github.com/SunilPaul174/rustsweeper/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -2415,6 +2876,8 @@
   url: 'https://pedram.online/rusty-bird/'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Rust
@@ -2434,6 +2897,8 @@
   repo: https://github.com/yokljo/ruzzt
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   frameworks:
@@ -2454,6 +2919,8 @@
   originals:
   - Drugwars
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/gtheilman/RxWars
   type: remake
   updated: 2015-06-25
@@ -2467,7 +2934,32 @@
   originals:
   - Ryzom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://gitlab.com/ryzom/ryzom-core
   type: remake
   updated: 2020-08-25
   url: https://ryzom.com/
+
+- name: RZDoom
+  originals:
+  - Doom
+  type: remake
+  repo: 'https://github.com/atsb/RZDoom'
+  url: https://www.doomworld.com/forum/topic/126185-introducing-rzdoom-retro-zdoom-301-updated-april-17-2022/
+  feed: 'https://github.com/atsb/RZDoom/releases.atom'
+  development: sporadic
+  status: playable
+  platforms:
+  - OSX
+  - Linux
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  added: 2026-05-21
+  updated: 2026-05-21

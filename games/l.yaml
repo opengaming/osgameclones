@@ -9,6 +9,11 @@
   originals:
   - Echochrome
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - DS
   repo: https://github.com/LibreGamesArchive/l-echo
   type: remake
   added: 2015-04-15
@@ -21,10 +26,11 @@
   - l'Abbaye des Morts
   type: remake
   repo: 'https://github.com/luceraproject/abbaye-des-morts'
-  url: >-
-    https://web.archive.org/web/20150713085853/https://lucera-project.com/en/blog/port-abbaye-des-morts-to-html5/
+  url: https://web.archive.org/web/20150713085853/https://lucera-project.com/en/blog/port-abbaye-des-morts-to-html5/
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -57,6 +63,9 @@
   originals:
   - Ken's Labyrinth
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://svn.icculus.org/LAB3D/
   type: remake
   added: 2015-04-10
@@ -71,6 +80,9 @@
   url: 'https://ktpanda.org/software/lab3d_sdl/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C
@@ -97,6 +109,9 @@
   repo: 'https://github.com/Pickle/Lab3dGLES'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C
@@ -109,20 +124,22 @@
   updated: 2025-11-22
 
 - name: Ladder
-  info: (source inside JAR file)
   langs:
   - Java
+  - JavaScript
   licenses:
   - GPL2
   originals:
   - Ladder
   status: playable
+  platforms:
+  - Web
   type: remake
   added: 2015-05-09
   updated: 2025-10-30
-  url: https://ostermiller.org/ladder/
-  repo: https://sourceforge.net/projects/laddergame/
-  development: halted
+  url: https://ladder.ostermiller.org
+  repo: https://github.com/stephenostermiller/ladder
+  development: sporadic
 
 - name: ladder (Go)
   images:
@@ -135,10 +152,36 @@
   originals:
   - Ladder
   status: semi-playable
+  platforms:
+  - None
   repo: https://github.com/mengstr/ladder
   type: remake
   added: 2016-02-26
   updated: 2016-02-26
+
+- name: Lander 2
+  originals:
+  - Jupiter Lander
+  type: clone
+  repo: 'https://www.allegro.cc/depot/Lander2'
+  url: >-
+    https://web.archive.org/web/20101017125846/http://software.skoobalon.com/lander2.php
+  development: halted
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - As-is
+  info: The sequel to Lander!
+  added: 2026-05-23
+  updated: 2026-05-23
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1684_large.png'
 
 - name: Lander on the Acorn Archimedes
   originals:
@@ -148,6 +191,8 @@
   url: 'https://lander.bbcelite.com/'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -161,6 +206,36 @@
   images:
   - 'https://lander.bbcelite.com/images/general/Lander.png'
 
+- name: Lander!
+  originals:
+  - Jupiter Lander
+  type: clone
+  repo: 'https://www.allegro.cc/depot/Lander1'
+  url: >-
+    https://web.archive.org/web/20101017125816/http://software.skoobalon.com/lander1.php
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - Allegro
+  licenses:
+  - GPL2
+  added: 2026-05-23
+  updated: 2026-05-23
+  images:
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3527_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3528_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3529_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3530_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3531_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3532_large.png'
+  - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/3533_large.png'
+
 - name: Landmine (1983)
   originals:
   - Minefield
@@ -169,6 +244,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=56'
   development: complete
   status: playable
+  platforms:
+  - VIC-20
   langs:
   - BASIC
   licenses:
@@ -193,6 +270,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=59'
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   langs:
   - BASIC
   licenses:
@@ -215,6 +294,8 @@
   url: 'https://minesweepergame.com/database/games.php?id=248'
   development: complete
   status: playable
+  platforms:
+  - Sharp MZ
   langs:
   - BASIC
   licenses:
@@ -233,6 +314,9 @@
   feed: 'https://github.com/langong-dev/tminesweeper/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - OSX
   langs:
   - C++
   licenses:
@@ -247,6 +331,9 @@
   repo: 'https://github.com/sharkwouter/laserkombat'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - C++
@@ -268,6 +355,8 @@
   url: 'https://www.t3-i.com/scripts/pages/project.php?id=laser_war'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -287,6 +376,8 @@
   url: 'https://laser-tank.com'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -306,10 +397,11 @@
   originals:
   - Last of the Incas
   type: official
-  url: >-
-    https://www.erasmatazz.com/library/source-code/#:~:text=Last%20of%20the%20Incas
+  url: https://www.erasmatazz.com/library/source-code/#:~:text=Last%20of%20the%20Incas
   development: halted
   status: semi-playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -333,6 +425,8 @@
   - The Last Ninja
   repo: https://sourceforge.net/projects/lastninja/
   status: semi-playable
+  platforms:
+  - Amiga
   type: remake
   added: 2013-11-20
   updated: 2023-01-28
@@ -350,6 +444,8 @@
   originals:
   - Terraria
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/egordorichev/LastTry
   type: remake
   added: 2017-10-15
@@ -366,6 +462,8 @@
   feed: 'https://sourceforge.net/projects/late/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - C++
@@ -389,6 +487,8 @@
   feed: 'https://github.com/iso4free/lazsokoban/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Amiga
   langs:
   - Pascal
   licenses:
@@ -408,6 +508,9 @@
   repo: https://github.com/LBALab/lba1-classic-community
   development: sporadic
   status: unplayable
+  platforms:
+  - Windows
+  - DOS
   langs:
   - Assembly
   licenses:
@@ -426,6 +529,10 @@
   repo: https://github.com/LBALab/lba2-classic-community
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - Assembly
   licenses:
@@ -444,6 +551,8 @@
   repo: https://github.com/innerbytes/lba2-classic-ida
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   - Assembly
@@ -467,6 +576,10 @@
   repo: https://github.com/innerbytes/idajs
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - JavaScript
   - TypeScript
@@ -496,6 +609,8 @@
   repo: https://github.com/LBALab/lba2remake
   development: very active
   status: semi-playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - TypeScript
@@ -519,6 +634,8 @@
   url: 'https://www.hpcalc.org/details/8662'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - Pascal
   licenses:
@@ -532,10 +649,11 @@
   originals:
   - Le Morte D'Arthur
   type: official
-  url: >-
-    https://www.erasmatazz.com/library/source-code/#:~:text=Le%20Morte%20D%E2%80%99Arthur
+  url: https://www.erasmatazz.com/library/source-code/#:~:text=Le%20Morte%20D%E2%80%99Arthur
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   content: free
   langs:
   - Pascal
@@ -552,6 +670,8 @@
   url: http://hpfool.free.fr/doom/Doom.html
   development: halted
   status: semi-playable
+  platforms:
+  - HP calculator
   content: free
   langs:
   - Assembly
@@ -566,6 +686,25 @@
   - https://web.archive.org/web/20251215023022im_/http://hpfool.free.fr/doom/images/capture1.gif
   - https://www.hpcalc.org/hp49/games/arcade/sshots/doom.png
 
+- name: Leaflitter
+  originals:
+  - 'Paper Mario: Sticker Star'
+  type: remake
+  repo: 'https://codeberg.org/Ivylag/leaflitter'
+  feed: 'https://codeberg.org/Ivylag/leaflitter.atom'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - 3DS
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: 'A decompilation for Paper Mario: Sticker Star (Europe)'
+  added: 2026-06-07
+  updated: 2026-06-07
+
 - name: LEDPong
   originals:
   - Pong
@@ -575,6 +714,8 @@
   feed: 'https://github.com/lukdog/LedPong/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   multiplayer:
   - Competitive
   - Local
@@ -595,6 +736,8 @@
   repo: 'https://github.com/fr3dsp/Leftovers-Decomp'
   development: sporadic
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - 'C#'
@@ -610,9 +753,16 @@
   - 'Legacy of Kain: Soul Reaver'
   type: remake
   repo: 'https://github.com/Gh0stBlade/KAIN2'
-  url: 'https://legacyofkain.co.uk/KAIN2/'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
+  - Xbox One
+  - Xbox Series S/X
+  - Android
   content: commercial
   langs:
   - C
@@ -637,6 +787,8 @@
   repo: 'https://github.com/camthesaxman/zeldasource'
   development: halted
   status: semi-playable
+  platforms:
+  - NES
   langs:
   - Assembly
   licenses:
@@ -656,6 +808,10 @@
   originals:
   - Legend of Zelda - A Link to the Past
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: clone
   added: 2015-09-27
   updated: 2015-09-27
@@ -674,6 +830,11 @@
   originals:
   - Legend of Zelda - A Link to the Past
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Amiga
   type: clone
   added: 2015-09-27
   updated: 2025-08-03
@@ -706,6 +867,9 @@
   originals:
   - Legend of Zelda - A Link to the Past
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: clone
   added: 2015-09-27
   updated: 2015-09-27
@@ -722,6 +886,11 @@
   originals:
   - Legend of Zelda - A Link to the Past
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Amiga
   type: clone
   added: 2015-09-27
   updated: 2025-07-29
@@ -752,6 +921,10 @@
   originals:
   - Legend of Zelda - A Link to the Past
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: clone
   added: 2015-09-27
   updated: 2015-09-27
@@ -764,11 +937,16 @@
   - "The Legend of Zelda: Link's Awakening"
   type: remake
   repo: 'https://gitlab.com/zeldaforce/zelda-alttd'
-  url: >-
-    https://web.archive.org/web/20230119151037/https://zeldaforce.net/jeux-amateurs/a-link-to-the-dream/
+  url: https://web.archive.org/web/20230119151037/https://zeldaforce.net/jeux-amateurs/a-link-to-the-dream/
   feed: 'https://gitlab.com/zeldaforce/zelda-alttd.atom'
-  development: very active
+  development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Amiga
+  - Android
   content: free
   langs:
   - Lua
@@ -807,6 +985,11 @@
     https://kakashurukiora.itch.io/the-legend-of-zelda-a-link-to-the-past-fr/devlog.rss
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: swappable
   langs:
   - Lua
@@ -828,6 +1011,67 @@
   - 'https://img.itch.zone/aW1hZ2UvMjcxMDcwMC8xNjE2MTMyNC5qcGc=/original/Wn6IWT.jpg'
   - 'https://img.itch.zone/aW1hZ2UvMjcxMDcwMC8xNjE2MDQwNS5qcGc=/original/ye5maK.jpg'
 
+- name: 'The Legend of Zelda: Breath of the Wild'
+  originals:
+  - 'The Legend of Zelda: Breath of the Wild'
+  type: remake
+  repo: 'https://github.com/zeldaret/botw'
+  url: 'https://botw.link/'
+  development: very active
+  status: unplayable
+  platforms:
+  - Nintendo Switch
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - As-is
+  info: 'Decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0)'
+  added: 2026-07-04
+  updated: 2026-07-04
+
+- name: "The Legend of Zelda: Link's Awakening"
+  originals:
+  - "The Legend of Zelda: Link's Awakening"
+  type: remake
+  repo: 'https://www.ticalc.org/archives/files/fileinfo/270/27047.html'
+  url: 'https://www.ticalc.org/archives/files/fileinfo/261/26100.html'
+  development: halted
+  status: semi-playable
+  platforms:
+  - TI calculator
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-07-14
+  updated: 2026-07-14
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/291/29148.gif'
+  - 'https://www.ticalc.org/archives/files/ss/291/29147.gif'
+  - 'https://www.ticalc.org/archives/files/ss/291/29146.gif'
+  - 'https://www.ticalc.org/archives/files/ss/291/29145.gif'
+
+- name: "Legend of Zelda: Majora's Mask"
+  originals:
+  - "The Legend of Zelda: Majora's Mask"
+  type: remake
+  repo: 'https://github.com/zeldaret/mm'
+  url: 'https://zelda.deco.mp/games/mm'
+  development: sporadic
+  status: playable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: "Decompilation of The Legend of Zelda: Majora's Mask"
+  added: 2026-07-04
+  updated: 2026-07-04
+
 - name: "The Legend of Zelda: Mercuris' Chest"
   originals:
   - Legend of Zelda - A Link to the Past
@@ -837,6 +1081,11 @@
   feed: 'https://gitlab.com/solarus-games/games/zelda-mercuris-chest-demo.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: free
   langs:
   - Lua
@@ -876,6 +1125,11 @@
   feed: 'https://gitlab.com/solarus-games/games/zsdx.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: free
   langs:
   - Lua
@@ -920,6 +1174,11 @@
   feed: 'https://gitlab.com/solarus-games/games/zsxd.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: free
   langs:
   - Lua
@@ -949,6 +1208,8 @@
   url: https://zelda64.dev/games/oot
   development: active
   status: unplayable
+  platforms:
+  - N64
   licenses:
   - As-is
   content: commercial
@@ -956,6 +1217,24 @@
   - C
   added: 2021-12-12
   updated: 2021-12-12
+
+- name: 'The Legend of Zelda: Ocarina of Time 3D'
+  originals:
+  - 'The Legend of Zelda: Ocarina of Time'
+  type: remake
+  repo: 'https://github.com/zeldaret/oot3d'
+  development: halted
+  status: unplayable
+  platforms:
+  - 3DS
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: Ocarina of Time 3D'
+  added: 2026-07-04
+  updated: 2026-07-04
 
 - name: 'The Legend of Zelda: Onilink Begins SE'
   originals:
@@ -966,6 +1245,11 @@
   feed: 'https://gitlab.com/solarus-games/games/zelda-olb-se.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: free
   langs:
   - Lua
@@ -989,16 +1273,38 @@
   - >-
     https://www.solarus-games.org/games/the-legend-of-zelda-onilink-begins-se/screen4.jpg
 
+- name: 'The Legend of Zelda: Phantom Hourglass'
+  originals:
+  - 'The Legend of Zelda: Phantom Hourglass'
+  type: remake
+  repo: 'https://github.com/zeldaret/ph'
+  url: 'https://decomp.dev/zeldaret/ph'
+  development: active
+  status: unplayable
+  platforms:
+  - DS
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: Phantom Hourglass'
+  added: 2026-07-04
+  updated: 2026-07-04
+
 - name: 'The Legend of Zelda: Return of the Hylian SE'
   originals:
   - Legend of Zelda - A Link to the Past
   type: clone
   repo: 'https://gitlab.com/solarus-games/games/zelda-roth-se'
-  url: >-
-    https://www.solarus-games.org/games/the-legend-of-zelda-return-of-the-hylian-se/
+  url: https://www.solarus-games.org/games/the-legend-of-zelda-return-of-the-hylian-se/
   feed: 'https://gitlab.com/solarus-games/games/zelda-roth-se.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - Lua
@@ -1022,6 +1328,102 @@
   video:
     youtube: DUmeln2kDTg
 
+- name: 'The Legend of Zelda: Skyward Sword'
+  originals:
+  - 'The Legend of Zelda: Skyward Sword'
+  type: remake
+  repo: 'https://github.com/zeldaret/ss'
+  url: 'https://decomp.dev/zeldaret/ss'
+  development: active
+  status: unplayable
+  platforms:
+  - Wii
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: Skyward Sword'
+  added: 2026-07-04
+  updated: 2026-07-04
+
+- name: 'The Legend of Zelda: Spirit Tracks'
+  originals:
+  - 'The Legend of Zelda: Spirit Tracks'
+  type: remake
+  repo: 'https://github.com/zeldaret/st'
+  url: 'https://decomp.dev/zeldaret/st'
+  development: very active
+  status: unplayable
+  platforms:
+  - DS
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: Spirit Tracks'
+  added: 2026-07-04
+  updated: 2026-07-04
+
+- name: 'The Legend of Zelda: The Minish Cap'
+  originals:
+  - 'The Legend of Zelda: The Minish Cap'
+  type: remake
+  repo: 'https://github.com/zeldaret/tmc'
+  url: 'https://zeldaret.github.io/tmc/'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - GBA
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: 'Decompilation of The Legend of Zelda: The Minish Cap (USA/JP/EU)'
+  added: 2026-07-04
+  updated: 2026-07-04
+
+- name: 'The Legend of Zelda: The Wind Waker'
+  originals:
+  - 'The Legend of Zelda: The Wind Waker'
+  type: remake
+  repo: 'https://github.com/zeldaret/tww'
+  url: 'https://zeldaret.github.io/tww'
+  development: very active
+  status: unplayable
+  platforms:
+  - GameCube
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: The Wind Waker'
+  added: 2026-07-04
+  updated: 2026-07-04
+
+- name: 'The Legend of Zelda: Twilight Princess'
+  originals:
+  - 'The Legend of Zelda: Twilight Princess'
+  type: remake
+  repo: 'https://github.com/zeldaret/tp'
+  url: 'https://duskport.com/decomp/timeline-2020-2026/'
+  development: active
+  status: playable
+  platforms:
+  - GameCube
+  - Wii
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - CC0
+  info: 'Decompilation of The Legend of Zelda: Twilight Princess'
+  added: 2026-07-04
+  updated: 2026-07-04
+
 - name: legion
   frameworks:
   - Irrlicht
@@ -1033,6 +1435,8 @@
   originals:
   - Legion
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/mahho/legion
   type: remake
   added: 2015-06-22
@@ -1045,6 +1449,9 @@
   repo: https://github.com/bsoja/LegionGame
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C#
   frameworks:
@@ -1067,6 +1474,8 @@
   url: 'https://www.erasmatazz.com/library/source-code/#:~:text=Legionnaire'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1082,6 +1491,8 @@
   feed: 'https://github.com/isledecomp/isle/releases.atom'
   development: active
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1102,6 +1513,18 @@
   feed: 'https://github.com/isledecomp/isle-portable/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - DOS
+  - Web
+  - iOS
+  - Xbox One
+  - PSVita
+  - Nintendo Switch
+  - 3DS
   content: commercial
   langs:
   - C++
@@ -1122,6 +1545,8 @@
   url: 'https://www.atariarchives.org/basicgames/showpage.php?page=107'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - BASIC
   licenses:
@@ -1130,6 +1555,26 @@
   updated: 2026-02-26
   images:
   - 'https://www.technologizer.com/wp-content/uploads/2009/07/lem.png'
+
+- name: Lemmings
+  originals:
+  - Lemmings
+  type: clone
+  repo: 'https://www.ticalc.org/archives/files/fileinfo/147/14756.html'
+  url: https://web.archive.org/web/20041130091029/http://www.dvz.fh-koeln.de/~b012414/#lemmings
+  development: halted
+  status: semi-playable
+  platforms:
+  - TI calculator
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-08
+  updated: 2026-06-08
+  images:
+  - 'https://www.ticalc.org/archives/files/ss/357/35773.gif'
+  - 'https://www.ticalc.org/archives/files/ss/357/35772.gif'
 
 - name: Lemmings.ts
   images:
@@ -1148,6 +1593,8 @@
   repo: https://github.com/tomsoftware/Lemmings.ts
   url: https://lemmings.hmilch.net/lemmings.html
   status: playable
+  platforms:
+  - Web
   type: remake
   added: 2017-10-22
   updated: 2023-08-09
@@ -1165,6 +1612,9 @@
   - Lemmings
   repo: https://bitbucket.org/fade0ff/lemmini
   status: playable
+  platforms:
+  - Windows
+  - OSX
   type: remake
   added: 2017-08-18
   updated: 2023-01-28
@@ -1181,6 +1631,8 @@
   - Lemmings
   repo: https://github.com/ericlangedijk/Lemmix
   status: playable
+  platforms:
+  - Windows
   type: remake
   added: 2008-03-10
   updated: 2020-08-25
@@ -1194,6 +1646,8 @@
   url: 'http://codenautics.com/lemonade/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   langs:
   - BASIC
   licenses:
@@ -1210,6 +1664,8 @@
   url: 'https://quasimal.com/projects/level_0.html'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Haskell
@@ -1232,6 +1688,11 @@
   feed: https://sourceforge.net/p/lgames/activity/feed
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Amiga
   content: open
   langs:
   - C++
@@ -1268,6 +1729,9 @@
   - Panzer General
   repo: https://sourceforge.net/projects/lgeneral/
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: remake
   added: 2013-05-30
   updated: 2023-01-28
@@ -1281,6 +1745,8 @@
   url: https://gamesnippets.wordpress.com/
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - C#
@@ -1306,6 +1772,10 @@
   feed: 'https://github.com/lostjared/libmx2/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C++
@@ -1336,6 +1806,8 @@
   url: 'https://web.archive.org/web/20190528104113/https://dev.pulsir.eu/krofna/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C++
@@ -1352,26 +1824,28 @@
 
 - name: libRealSpace
   images:
-  - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/nice_sc_scene.png
-  - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/F-22.png
-  - https://raw.githubusercontent.com/fabiensanglard/libRealSpace/master/pics/face.png
+  - https://remileonard.github.io/assets/img/Intro.png
+  - https://remileonard.github.io/assets/img/neosc_3.png
   langs:
   - C++
   frameworks:
   - SDL2
   licenses:
   - As-is
-  development: halted
+  development: active
   originals:
   - Strike Commander
-  repo: https://github.com/fabiensanglard/libRealSpace
-  type: tool
-  status: N/A
+  repo: https://github.com/remileonard/libRealSpace
+  type: remake
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   added: 2014-01-05
-  updated: 2019-04-15
-  url: https://fabiensanglard.net/reverse_engineering_strike_commander/index.php
-  info: Tools to parse and render Origin Systems RealSpace engine assets.
+  updated: 2026-06-15
+  url: https://remileonard.github.io
 
 - name: Librelancer
   frameworks:
@@ -1390,6 +1864,9 @@
   - MIT
   development: active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   originals:
   - Freelancer
   type: remake
@@ -1418,6 +1895,10 @@
   - GPL3
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   originals:
   - Minesweeper
@@ -1436,6 +1917,10 @@
   url: https://librequake.queer.sh
   development: active
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Python
@@ -1469,6 +1954,12 @@
   - GPL3
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Web
+  - Android
   content: open
   originals:
   - WarioWare
@@ -1484,9 +1975,11 @@
   type: clone
   repo: >-
     https://web.archive.org/web/20130102010327/http://helios.et.put.poznan.pl/~sskowron/liero/download.html
-  url: >-
-    https://web.archive.org/web/20130114005135/http://helios.et.put.poznan.pl/~sskowron/liero/
+  url: https://web.archive.org/web/20130114005135/http://helios.et.put.poznan.pl/~sskowron/liero/
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Competitive
   - Split-screen
@@ -1519,6 +2012,8 @@
   feed: 'https://hackage.haskell.org/package/lifter.rss'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Haskell
@@ -1535,6 +2030,8 @@
   feed: 'https://github.com/Tortured-Metaphor/LightCycle/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   frameworks:
@@ -1555,9 +2052,14 @@
   url: 'https://clover.moe/lilium-arena-classic'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
   added: 2025-11-30
@@ -1571,9 +2073,14 @@
   url: 'https://clover.moe/lilium-salvation'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
   info: An engine replacement for Dark Salvation based on ioquake3.
@@ -1589,12 +2096,18 @@
   feed: 'https://github.com/clover-moe/lilium-voyager/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   - LAN
   content: commercial
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
   info: 'Based on ioquake3 and ioEF.'
@@ -1615,6 +2128,9 @@
   content: open
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   originals:
   - SimCity
   repo: https://sourceforge.net/projects/lincity/
@@ -1635,6 +2151,9 @@
   content: open
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
   originals:
   - SimCity
   repo: https://github.com/lincity-ng/lincity-ng
@@ -1644,6 +2163,30 @@
   updated: 2024-10-07
   video:
     youtube: vLmiqLxD2Eo
+
+- name: linerider-advanced
+  originals:
+  - Line Rider
+  type: clone
+  repo: 'https://github.com/jealouscloud/linerider-advanced'
+  feed: 'https://github.com/jealouscloud/linerider-advanced/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  content: open
+  langs:
+  - 'C#'
+  frameworks:
+  - OpenTK
+  licenses:
+  - GPL3
+  added: 2026-05-02
+  updated: 2026-05-02
+  video:
+    youtube: yR5YD6b4naA
 
 - name: LinWarrior
   images:
@@ -1664,6 +2207,9 @@
   updated: 2019-05-04
   url: https://www.hackcraft.de/games/linwarrior_3d/index.htm
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   video:
     youtube: JcakGQ6X3sU
@@ -1676,6 +2222,8 @@
   repo: 'https://github.com/cyxx/linyaga'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C
@@ -1698,6 +2246,9 @@
   url: 'https://hiddenpalace.org/Assets/The_Lion_King/Game_Boy_and_NES_source_code'
   development: complete
   status: playable
+  platforms:
+  - NES
+  - Game Boy
   content: free
   langs:
   - Assembly
@@ -1720,6 +2271,11 @@
   originals:
   - Lionheart
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   multiplayer:
   - Local
   - Split-screen
@@ -1742,6 +2298,9 @@
   repo: 'https://github.com/Katana-Steel/lithtech'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -1768,6 +2327,8 @@
   repo: 'https://github.com/2point21/lba1-classic'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - Assembly
@@ -1784,6 +2345,9 @@
   repo: 'https://github.com/2point21/lba2-classic'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - DOS
   content: commercial
   langs:
   - Assembly
@@ -1801,6 +2365,8 @@
   feed: 'https://github.com/scttgs0/Livewire/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Foenix
   content: open
   langs:
   - Assembly
@@ -1821,10 +2387,12 @@
   - Lemmings
   repo: https://github.com/SimonN/Lix
   status: playable
+  platforms:
+  - Windows
+  - Linux
   type: clone
   added: 2013-05-30
   updated: 2018-01-15
-  url: https://www.lixgame.com
   info: obsolete; continued as LixD
   video:
     youtube: dWXXK8QlnME
@@ -1849,6 +2417,10 @@
   repo: https://github.com/SimonN/LixD
   feed: https://github.com/SimonN/LixD/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: clone
   added: 2018-01-15
   updated: 2018-01-15
@@ -1859,11 +2431,12 @@
   - Lizard
   type: official
   repo: 'https://github.com/bbbradsmith/lizard_src_demo'
-  url: >-
-    https://rainwarrior.itch.io/lizard/devlog/52490/my-lizard-is-the-lizard-of-source
+  url: https://rainwarrior.ca/lizard/
   feed: 'https://rainwarrior.itch.io/lizard/devlog.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - NES
   content: free
   langs:
   - Assembly
@@ -1891,6 +2464,8 @@
   url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/lizards.lsm'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1909,6 +2484,10 @@
   url: 'https://www.lemmingsforums.net/index.php?topic=5907.0'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   langs:
   - 'C#'
@@ -1932,6 +2511,10 @@
   repo: 'https://github.com/Ma-Pe-Ma/Lode-Runner-2020'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Web
   langs:
   - C++
   frameworks:
@@ -1961,13 +2544,51 @@
   originals:
   - Lode Runner
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/SimonHung/LodeRunner_TotalRecall
   type: remake
   added: 2015-08-15
   updated: 2023-08-13
-  url: https://loderunnerwebgame.com/LodeRunner/
   video:
     youtube: 277m7navGRQ
+
+- name: Lode Runner X ReM V2
+  originals:
+  - Lode Runner
+  type: remake
+  url: 'https://csdb.dk/release/?id=145121'
+  development: complete
+  status: playable
+  platforms:
+  - Commodore 64
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-06-17
+  updated: 2026-06-17
+  images:
+  - 'https://csdb.dk/gfx/releases/145000/145121.png'
+
+- name: Lode Runner(s) ReM V2
+  originals:
+  - Lode Runner
+  - Championship Lode Runner
+  type: remake
+  url: 'https://csdb.dk/release/?id=145122'
+  development: complete
+  status: playable
+  platforms:
+  - Commodore 64
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-05-21
+  updated: 2026-05-21
+  images:
+  - https://csdb.dk/gfx/releases/145000/145122.png
 
 - name: Loderunner
   originals:
@@ -1976,6 +2597,8 @@
   repo: 'https://github.com/Piddewitt/Loderunner'
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   content: commercial
   langs:
   - Assembly
@@ -1992,6 +2615,11 @@
   url: 'https://www.wonderland.cz/lotr/'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Amiga
   content: commercial
   langs:
   - C
@@ -2019,6 +2647,9 @@
   feed: https://savannah.nongnu.org/news/atom.php?group=lordsawar
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   multiplayer:
   - LAN
   - Hotseat
@@ -2053,6 +2684,8 @@
   originals:
   - Lose Your Marbles
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/eguneys/lose-your-marbles
   type: clone
   added: 2015-04-12
@@ -2090,11 +2723,15 @@
   originals:
   - Lost Dutchman Mine
   type: remake
-  repo: 'https://github.com/niner-games/lost-mine'
-  url: 'https://web.archive.org/web/20240919215957/https://lostmine.cc/'
-  feed: 'https://github.com/niner-games/lost-mine/releases.atom'
+  repo: https://github.com/niner-games/dutchman-gold
   development: active
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - iOS
   langs:
   - 'C#'
   - C++
@@ -2114,7 +2751,7 @@
   development: halted
   status: N/A
   platforms:
-  - Windows
+  - Linux
   content: commercial
   langs:
   - C
@@ -2132,8 +2769,11 @@
   - The Lost Vikings
   type: remake
   repo: 'https://github.com/akaWolf/LostVikings'
-  development: halted
+  development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -2144,6 +2784,9 @@
   info: Translated and rewritten DOS version of Lost Vikings
   added: '2023-09-02'
   updated: '2023-09-02'
+  images:
+  - https://github.com/akaWolf/LostVikings/blob/own_rendering/imgs/intro.png?raw=true
+  - https://github.com/akaWolf/LostVikings/blob/own_rendering/imgs/level_1.png?raw=true
 
 - name: Lotus STE
   originals:
@@ -2153,6 +2796,8 @@
   feed: 'https://github.com/jonathanopalise/lotus-ste/releases.atom'
   development: halted
   status: N/A
+  platforms:
+  - Atari
   content: commercial
   langs:
   - Assembly
@@ -2173,6 +2818,8 @@
   repo: 'https://github.com/aldonunez/Loz'
   development: halted
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - C++
@@ -2193,6 +2840,8 @@
   feed: 'https://gitlab.com/m210/LSPGDX.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Java
@@ -2212,6 +2861,8 @@
   - C++
   development: active
   status: unplayable
+  platforms:
+  - Windows
   originals:
   - No One Lives Forever 2
   repo: https://github.com/bibendovsky/ltjs
@@ -2235,6 +2886,8 @@
   originals:
   - Legend of Zelda - A Link to the Past
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/englercj/lttp
   type: remake
   added: 2015-05-28
@@ -2249,6 +2902,11 @@
   feed: 'https://content.luanti.org/packages/xenonca/luckysweeper/releases_feed.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
   content: free
   langs:
   - Lua
@@ -2267,13 +2925,15 @@
   - Boulder Dash
   type: clone
   repo: 'https://github.com/Peanhua/diamond-girl/'
-  url: >-
-    https://web.archive.org/web/20160305172742/http://www.netikka.net/joyr/diamond_girl/
+  url: https://web.archive.org/web/20160305172742/http://www.netikka.net/joyr/diamond_girl/
   feed: 'https://github.com/Peanhua/diamond-girl/releases.atom'
   langs:
   - C
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   licenses:
   - GPL2
@@ -2300,6 +2960,10 @@
   originals:
   - "Lugaru: The Rabbit's Foot"
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://gitlab.com/osslugaru/lugaru
   type: official
   added: 2015-04-11
@@ -2320,6 +2984,8 @@
   originals:
   - Lumines
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/kaikai2/luminesk5
   type: remake
   added: 2015-04-13
@@ -2333,6 +2999,8 @@
   url: 'https://pineight.com/lu/index.html'
   development: halted
   status: playable
+  platforms:
+  - GBA
   content: open
   langs:
   - C
@@ -2354,6 +3022,8 @@
   feed: https://luminol.dev/news/feed/atom
   development: sporadic
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Rust
@@ -2374,6 +3044,8 @@
   url: 'https://www.atariarchives.org/basicgames/showpage.php?page=106'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - BASIC
   licenses:
@@ -2392,6 +3064,10 @@
   feed: 'https://github.com/nickg/lander/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - C++
@@ -2415,6 +3091,8 @@
   url: 'https://pmk.arbinada.com/category/00716.html'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - RPL
   licenses:
@@ -2434,6 +3112,8 @@
   originals:
   - Lunatic Fringe
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/schwal10/lunatic-fringe
   type: remake
   url: https://schwal10.github.io/lunatic-fringe/
@@ -2451,6 +3131,11 @@
   url: 'https://luolamies.org/software/luola/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Amiga
   content: open
   langs:
   - C
@@ -2475,6 +3160,9 @@
   url: 'https://lupengo.sourceforge.net/'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Amiga
   content: open
   langs:
   - C
@@ -2493,10 +3181,11 @@
   type: clone
   repo: >-
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/#:~:text=luxman
-  url: >-
-    https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/luxman-0.41.lsm
+  url: https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/pacman/luxman-0.41.lsm
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2515,6 +3204,8 @@
   url: 'https://projecthub.arduino.cc/RomanSixty/lx-arduino-tetris-708606'
   development: complete
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C++
   licenses:
@@ -2533,6 +3224,8 @@
   url: https://beta.wolf3d.net/engines/LZWolf
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
