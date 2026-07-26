@@ -5017,10 +5017,11 @@
   originals:
   - Space Invaders
   type: remake
-  url: >-
-    https://web.archive.org/web/20200107094711/https://www.netadelica.com/coding/index.html#:~:text=Space%20Invaders%201978
+  url: https://web.archive.org/web/20200107094711/https://www.netadelica.com/coding/index.html#:~:text=Space%20Invaders%201978
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - QuickBASIC
@@ -5037,6 +5038,8 @@
   repo: 'https://github.com/Chaser324/invaders'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -5059,6 +5062,10 @@
   url: 'https://www.justin-credible.net/2020/03/31/space-invaders-emulator/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - 'C#'
@@ -5081,6 +5088,8 @@
   feed: 'https://pypi.org/rss/project/space-invaders-niklas-mueller/releases.xml'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Python
@@ -5100,6 +5109,8 @@
   repo: 'https://github.com/ianmurfinxyz/space_invaders_part_ii'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C++
@@ -5121,6 +5132,8 @@
   repo: 'https://github.com/ianmurfinxyz/space_invaders_pygame'
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Python
@@ -5142,6 +5155,8 @@
   feed: 'https://pypi.org/rss/project/space-invaders-pygame/releases.xml'
   development: sporadic
   status: playable
+  platforms:
+  - None
   langs:
   - Python
   frameworks:
@@ -5156,10 +5171,11 @@
   - Space Invaders
   type: clone
   repo: 'https://github.com/denix666/space-invaders/'
-  url: 'https://games.os.vc/webgames/space-invaders'
   feed: 'https://github.com/denix666/space-invaders/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -5178,6 +5194,8 @@
   url: 'https://www.romhacking.net/documents/516/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -5200,6 +5218,8 @@
   status: playable
   repo: https://github.com/smcameron/space-nerds-in-space
   type: similar
+  platforms:
+  - Linux
   added: 2015-05-02
   updated: 2021-10-05
   url: https://smcameron.github.io/space-nerds-in-space/
@@ -5222,6 +5242,10 @@
   url: 'https://spaceopera.sourceforge.net'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: open
   langs:
   - Java
@@ -5246,6 +5270,8 @@
   originals:
   - Space Rangers
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/markevich/Space-rangers
   type: remake
   added: 2015-05-28
@@ -5259,6 +5285,8 @@
   feed: 'https://github.com/kidscancode/space_rocks/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - GDScript
@@ -5280,6 +5308,8 @@
   feed: https://ss3d.space/atom.xml
   development: sporadic
   status: unplayable
+  platforms:
+  - Windows
   content: free
   langs:
   - 'C#'
@@ -5311,6 +5341,10 @@
   feed: https://spacestation14.com/index.xml#feed
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   - Competitive
@@ -5361,6 +5395,9 @@
   feed: 'https://gitlab.com/derelictgames/spacebase-v2-updated-code.atom'
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - Lua
@@ -5378,6 +5415,10 @@
   feed: https://github.com/k4zmu2a/SpaceCadetPinball/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Web
+  - OSX
   content: free
   langs:
   - C++
@@ -5400,6 +5441,8 @@
   feed: 'https://github.com/L603/SpaceClones/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C++
   frameworks:
@@ -5418,6 +5461,8 @@
   url: 'https://6502disassembly.com/a2-space-eggs/'
   development: complete
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -5438,6 +5483,8 @@
   feed: 'https://hackage.haskell.org/package/SpaceInvaders.rss'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Haskell
   frameworks:
@@ -5457,6 +5504,8 @@
   repo: 'https://github.com/StrykerKKD/SpaceInvaders'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -5478,6 +5527,8 @@
   originals:
   - SkyRoads
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/sebhd/spaceroads
   type: remake
   added: 2015-05-28
@@ -5495,6 +5546,8 @@
   originals:
   - Tempest
   status: semi-playable
+  platforms:
+  - Web
   repo: https://github.com/KirbyAu2/SpaceTwitch
   url: https://www.kongregate.com/games/KirbyAu/space-twitch
   type: remake
@@ -5509,6 +5562,8 @@
   url: 'https://kanaka.github.io/spacewar'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - Python
@@ -5531,6 +5586,9 @@
   feed: 'https://sourceforge.net/projects/spacewar-sdl/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -5549,6 +5607,8 @@
   url: 'https://spacewar.oversigma.com/'
   development: complete
   status: playable
+  platforms:
+  - Web
   langs:
   - Assembly
   licenses:
@@ -5569,6 +5629,9 @@
   feed: 'https://github.com/spotzero/spacewars/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: free
   langs:
   - Rust
@@ -5592,6 +5655,10 @@
   url: 'https://harbourmasters.github.io/SpaghettiKart/'
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Competitive
   - Split-screen
@@ -5617,6 +5684,10 @@
   feed: 'https://github.com/clover-moe/spearmint/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   content: commercial
@@ -5638,6 +5709,9 @@
   feed: 'https://sourceforge.net/p/spectalum/activity/feed'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - C++
   frameworks:
@@ -5659,6 +5733,8 @@
   repo: 'https://github.com/TheJare/SpeedHasteSrc'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -5680,6 +5756,8 @@
   originals:
   - Speedball 2
   status: semi-playable
+  platforms:
+  - Windows
   type: remake
   added: 2015-04-05
   updated: 2015-04-05
@@ -5689,14 +5767,14 @@
   originals:
   - 'Speedy Gonzales: Los Gatos Bandidos'
   type: remake
-  repo: >-
-    https://github.com/Yoshifanatic1/Speedy-Gonzales-Los-Gatos-Banditos-Disassembly
-  url: >-
-    https://www.smwcentral.net/?p=viewthread&t=118507&page=2#:~:text=Speedy%20Gonzales:%20Los%20Gatos%20Banditos%20Disassembly
+  repo: https://github.com/Yoshifanatic1/Speedy-Gonzales-Los-Gatos-Banditos-Disassembly
+  url: https://www.smwcentral.net/?p=viewthread&t=118507&page=2#:~:text=Speedy%20Gonzales:%20Los%20Gatos%20Banditos%20Disassembly
   feed: >-
     https://github.com/Yoshifanatic1/Speedy-Gonzales-Los-Gatos-Banditos-Disassembly/releases.atom
   development: complete
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -5741,6 +5819,8 @@
   - Spelling Bee
   repo: https://github.com/ConorSheehan1/spelling-bee
   status: playable
+  platforms:
+  - Web
   type: clone
   added: 2022-08-20
   updated: 2025-08-23
@@ -5755,6 +5835,8 @@
   feed: https://github.com/yancharkin/SpelunkyClassicHDhtml5/releases.atom
   development: complete
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - JavaScript
@@ -5773,6 +5855,13 @@
   url: https://dbeef.github.io/spelunky-psp/
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - PSP
+  - Android
+  - Web
   multiplayer:
   - Local
   content: free
@@ -5797,6 +5886,8 @@
   url: 'https://kevinalbs.com/spherical_snake/'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -5818,6 +5909,8 @@
   url: 'https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Sphinx/Nile%20Flyer/Desert%20Falcon'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -5856,6 +5949,8 @@
   feed: 'https://github.com/krystalgamer/spidey-decomp/releases.atom'
   development: sporadic
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -5872,6 +5967,8 @@
   url: 'https://info.sonicretro.org/Disassemblies#Sonic_Spinball'
   development: complete
   status: playable
+  platforms:
+  - Genesis
   multiplayer:
   - Local
   - Hotseat
@@ -5891,6 +5988,8 @@
   repo: 'https://github.com/LemonHaze420/SOS2002_src'
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: free
   langs:
   - C++
