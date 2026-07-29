@@ -7011,6 +7011,10 @@
   frameworks:
   - SDL2
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: commercial
   multiplayer:
   - Competitive
@@ -7031,6 +7035,8 @@
   repo: 'https://github.com/kieranhj/scr-beeb'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -7057,10 +7063,11 @@
   originals:
   - Stunt Car Racer
   status: playable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/stuntcarremake/
   type: remake
   updated: 2018-10-06
-  url: https://stuntcarracerwin32.bravesites.com
 
 - name: Stunt Car Racer STE
   originals:
@@ -7069,6 +7076,8 @@
   repo: 'https://github.com/jonathanopalise/stunt-car-racer-ste'
   development: halted
   status: N/A
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -7093,11 +7102,14 @@
   - C++
   licenses:
   - GPL3
-  development: very active
+  development: halted
   originals:
   - TrackMania
   repo: https://github.com/stuntrally/stuntrally
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -7105,7 +7117,7 @@
   - LAN
   type: clone
   updated: 2023-11-06
-  url: https://stuntrally.tuxfamily.org
+  url: https://cryham.org/stuntrally/
   video:
     youtube: Ar7TJMnOHlg
 
@@ -7119,6 +7131,9 @@
   originals:
   - Stunt Car Racer
   status: playable
+  platforms:
+  - Web
+  - Linux
   repo: https://github.com/ptitSeb/stuntcarremake
   url: https://ptitseb.github.io/stuntcarremake/
   type: remake
@@ -7133,6 +7148,8 @@
   feed: 'https://hackage.haskell.org/package/stunts.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - Haskell
   frameworks:
@@ -7156,6 +7173,9 @@
   originals:
   - Styx
   status: playable
+  platforms:
+  - OSX
+  - Windows
   type: remake
   added: 2015-04-12
   updated: 2022-05-28
@@ -7167,10 +7187,11 @@
   originals:
   - Styx (Windmill)
   type: remake
-  repo: >-
-    https://www.digger.org/download.html#:~:text=source%20code%20for%20-,Styx%20remastered
+  repo: https://www.digger.org/download.html#:~:text=source%20code%20for%20-,Styx%20remastered
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - Assembly
   - C
@@ -7187,6 +7208,8 @@
     https://www.digger.org/download.html#:~:text=The%20original%20source%20code%20to%20-,Styx
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - C
@@ -7205,6 +7228,11 @@
   feed: 'https://content.luanti.org/packages/AFCM/subway_miner/releases_feed.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - OSX
+  - Linux
+  - Windows
+  - Android
   content: free
   langs:
   - Lua
@@ -7236,6 +7264,9 @@
   originals:
   - Diablo
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://sourceforge.net/projects/sumwars/
   type: clone
   updated: 2020-08-25
@@ -7253,6 +7284,8 @@
   originals:
   - 'SunDog: Frozen Legacy'
   status: playable
+  platforms:
+  - None
   repo: https://sourceforge.net/projects/sundog/
   type: remake
   updated: 2017-04-20
@@ -7273,6 +7306,9 @@
   originals:
   - 'SunDog: Frozen Legacy'
   status: playable
+  platforms:
+  - OSX
+  - Linux
   repo: https://github.com/laanwj/sundog
   type: remake
   updated: 2017-04-19
@@ -7289,6 +7325,8 @@
   url: 'https://jmapp.com/hp48gx.php'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   content: free
   langs:
   - Assembly
@@ -7317,6 +7355,8 @@
   url: https://eguneys.github.io/jsgames/
   development: halted
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   frameworks:
@@ -7334,6 +7374,8 @@
   url: 'https://initials.itch.io/slf1989'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - 'C#'
@@ -7357,6 +7399,8 @@
   repo: https://github.com/initials/SuperLemonadeFactoryPartTwo
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - 'C#'
@@ -7375,6 +7419,8 @@
   url: 'https://www.lexaloffle.com/bbs/?tid=2824'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: free
   langs:
   - Lua
@@ -7414,6 +7460,8 @@
   feed: 'https://github.com/malucard/sm64-psx/releases.atom'
   development: very active
   status: unplayable
+  platforms:
+  - PS
   content: commercial
   langs:
   - C
@@ -7431,6 +7479,8 @@
   url: 'http://tifreakware.net/lachprog/info.htm'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -7460,6 +7510,8 @@
   url: 'https://www.romhacking.net/documents/613/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -7476,6 +7528,8 @@
   url: 'https://www.sonicepoch.com/sm3mix/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -7502,6 +7556,8 @@
   url: 'https://6502disassembly.com/nes-smb/'
   development: complete
   status: playable
+  platforms:
+  - NES
   multiplayer:
   - Hotseat
   content: commercial
@@ -7520,6 +7576,10 @@
   feed: 'https://sourceforge.net/p/super-mario-bros-java/activity/feed'
   development: complete
   status: playable
+  platforms:
+  - OSX
+  - Linux
+  - Windows
   content: commercial
   langs:
   - Java
@@ -7535,24 +7595,6 @@
   - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/boss-5fbb4262.png
   - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/Info2-25d0be3a.png
 
-- name: Super Mario Bros. VASM Psi-X Disassembly
-  originals:
-  - Super Mario Bros.
-  type: remake
-  repo: 'https://github.com/Totally-Not-Filter/smb-psi-x'
-  development: sporadic
-  status: playable
-  multiplayer:
-  - Local
-  - Hotseat
-  content: commercial
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-04-28
-  updated: 2026-04-28
-
 - name: Super Mario Bros. X
   originals:
   - Super Mario
@@ -7561,6 +7603,8 @@
   url: 'https://www.smbxgame.com'
   development: halted
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Competitive
   - Local
@@ -7590,6 +7634,8 @@
   url: 'https://www.romhacking.net/documents/635/'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -7610,9 +7656,11 @@
   - Super Mario
   repo: https://github.com/erlehmann/Super-Mario-War
   status: playable
+  platforms:
+  - OSX
+  - Linux
   type: clone
   updated: 2013-05-28
-  url: http://smw.supersanctuary.net/site/
 
 - name: "Super Mario World 2: Yoshi's Island (SNES) Disassembly"
   originals:
@@ -7621,6 +7669,8 @@
   repo: 'https://github.com/brunovalads/yoshisisland-disassembly'
   development: complete
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
@@ -7640,13 +7690,15 @@
   originals:
   - Super Methane Brothers
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: remake
   repo: https://sourceforge.net/projects/methane/
   updated: 2014-04-16
   url: https://methane.sourceforge.net
 
 - name: Super Methane Brothers (homebrew edition)
-  info: Wii and GameCube port
   langs:
   - C++
   licenses:
@@ -7655,6 +7707,11 @@
   originals:
   - Super Methane Brothers
   status: playable
+  platforms:
+  - GameCube
+  - Wii
+  - Nintendo Switch
+  - 3DS
   repo: https://github.com/carstene1ns/super-methane-brothers
   type: remake
   updated: 2020-08-31
@@ -7684,6 +7741,8 @@
   url: 'https://advsys.net/ken/download.htm#sibros'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - C
@@ -7705,6 +7764,8 @@
   repo: 'https://github.com/doldecomp/brawl'
   development: active
   status: semi-playable
+  platforms:
+  - Wii
   multiplayer:
   - Competitive
   content: commercial
@@ -7724,6 +7785,9 @@
   feed: 'https://sourceforge.net/p/ssbc/code/feed/'
   development: halted
   status: semi-playable
+  platforms:
+  - OSX
+  - Linux
   content: commercial
   langs:
   - Java
@@ -7741,6 +7805,8 @@
   repo: 'https://github.com/doldecomp/melee'
   development: very active
   status: semi-playable
+  platforms:
+  - GameCube
   multiplayer:
   - Competitive
   - Local
@@ -7761,6 +7827,8 @@
   url: https://gamesnostalgia.com/game/super-star-trek
   development: complete
   status: playable
+  platforms:
+  - Commodore 64
   langs:
   - BASIC
   licenses:
@@ -7789,6 +7857,11 @@
   feed: 'https://emabolo.itch.io/super-star-trek-25th/devlog.rss'
   development: sporadic
   status: playable
+  platforms:
+  - OSX
+  - Linux
+  - Windows
+  - Web
   content: commercial
   langs:
   - AGS Script
@@ -7817,6 +7890,12 @@
   url: https://sgadrat.itch.io/super-tilt-bro
   development: active
   status: playable
+  platforms:
+  - OSX
+  - Linux
+  - Windows
+  - NES
+  - Web
   multiplayer:
   - Competitive
   langs:
@@ -7836,10 +7915,13 @@
   - Zarathrusta
   type: similar
   repo: 'https://github.com/santiontanon/stransball2'
-  url: >-
-    https://web.archive.org/web/20190320201624/http://www2.braingames.getput.com/stransball2/
+  url: https://web.archive.org/web/20190320201624/http://www2.braingames.getput.com/stransball2/
   development: complete
   status: playable
+  platforms:
+  - OSX
+  - Linux
+  - Windows
   content: open
   langs:
   - C++
@@ -7868,6 +7950,8 @@
   repo: 'https://github.com/LIJI32/superbomberman'
   development: complete
   status: playable
+  platforms:
+  - SNES
   content: commercial
   langs:
   - Assembly
