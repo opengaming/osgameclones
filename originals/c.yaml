@@ -1197,9 +1197,20 @@
 - name: Contra
   external:
     wikipedia: Contra (video game)
+  platforms:
+  - Amstrad CPC
+  - Arcade
+  - Commodore 64
+  - DOS
+  - MSX
+  - NES
+  - ZX Spectrum
   meta:
     genres:
     - Platform
+    - Shooter
+    subgenres:
+    - Run and gun
 
 - name: Contra Force
   external:
