@@ -430,6 +430,18 @@
     genres:
     - Strategy
 
+- name: Chameleon Twist
+  external:
+    website: 'https://www.mobygames.com/game/8507/chameleon-twist/'
+    wikipedia: Chameleon Twist
+  platforms:
+  - N64
+  meta:
+    genres:
+    - Platform
+    themes:
+    - Fantasy
+
 - name: Chameleon Twist 2
   external:
     website: 'https://www.mobygames.com/game/8508/chameleon-twist-2/'
@@ -1185,9 +1197,20 @@
 - name: Contra
   external:
     wikipedia: Contra (video game)
+  platforms:
+  - Amstrad CPC
+  - Arcade
+  - Commodore 64
+  - DOS
+  - MSX
+  - NES
+  - ZX Spectrum
   meta:
     genres:
     - Platform
+    - Shooter
+    subgenres:
+    - Run and gun
 
 - name: Contra Force
   external:

@@ -1354,6 +1354,28 @@
   video:
     youtube: PzETBRcr_i8
 
+- name: Centicrawler
+  originals:
+  - Centipede
+  type: clone
+  repo: 'https://github.com/dulsi/centipede'
+  development: active
+  status: semi-playable
+  platforms:
+  - Linux
+  multiplayer:
+  - Local
+  - Co-op
+  content: open
+  langs:
+  - C++
+  frameworks:
+  - SFML
+  licenses:
+  - BSD
+  added: '2026-07-28'
+  updated: '2026-07-28'
+
 - name: Centipede Disassembly
   originals:
   - Centipede
@@ -1467,6 +1489,27 @@
   - GPL3
   added: 2026-07-11
   updated: 2026-07-11
+
+- name: 'Chameleon Twist: Recompiled'
+  originals:
+  - Chameleon Twist
+  type: remake
+  repo: 'https://github.com/Rainchus/ChameleonTwist1-JP-Recomp'
+  feed: 'https://github.com/Rainchus/ChameleonTwist1-JP-Recomp/releases.atom'
+  development: halted
+  status: playable
+  platforms:
+  - Linux
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - RT64
+  licenses:
+  - GPL3
+  added: 2026-07-29
+  updated: 2026-07-29
 
 - name: Chaos Groove
   originals:
@@ -3245,6 +3288,24 @@
   video:
     vimeo: 79514269
   info: The game is a remake of the first level of contra, an arcade game from the 80ies. The graphical assets are found on the internet.
+
+- name: Contra US Annotated Disassembly
+  originals:
+  - Contra
+  type: remake
+  repo: 'https://github.com/vermiceli/nes-contra-us'
+  url: 'https://www.romhacking.net/documents/907/'
+  development: sporadic
+  status: playable
+  platforms:
+  - NES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-07-29
+  updated: 2026-07-29
 
 - name: CookieClickerRemake
   langs:
