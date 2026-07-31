@@ -7662,22 +7662,38 @@
   updated: 2026-03-27
 
 - name: Super Mario War
-  images:
-  - https://upload.wikimedia.org/wikipedia/en/b/bd/Super_Mario_War_Gameplay.jpg
   langs:
   - C++
+  frameworks:
+  - SDL2
+  - SDL3
   licenses:
-  - As-is
-  development: halted
+  - GPL2
+  development: sporadic
   originals:
   - Super Mario
-  repo: https://github.com/erlehmann/Super-Mario-War
+  repo: https://github.com/mmatyas/supermariowar
+  url: http://smwstuff.net/
+  feed: https://github.com/mmatyas/supermariowar/releases.atom
   status: playable
   platforms:
+  - Android
   - OSX
   - Linux
+  - Raspberry Pi
+  - Web
+  - Windows
+  content: free
   type: clone
-  updated: 2013-05-28
+  multiplayer:
+  - Competitive
+  added: 2013-05-27
+  updated: 2026-08-01
+  images:
+  - https://web.archive.org/web/20240603210418if_/https://upload.wikimedia.org/wikipedia/en/b/bd/Super_Mario_War_Gameplay.jpg
+  - https://web.archive.org/web/20121019213644im_/http://cache.kotaku.com/assets/images/9/2006/07/smwscreen4.png
+  video:
+    youtube: 2YVZ9ORzKd4
 
 - name: "Super Mario World 2: Yoshi's Island (SNES) Disassembly"
   originals:
