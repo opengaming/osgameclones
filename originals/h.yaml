@@ -492,11 +492,25 @@
 
 - name: The Hobbit
   external:
+    website: 'https://www.mobygames.com/game/3893/the-hobbit/'
     wikipedia: The Hobbit (1982 video game)
+  platforms:
+  - Amstrad CPC
+  - Apple II
+  - BBC Micro
+  - Classic Mac OS
+  - Commodore 64
+  - MSX
+  - PC Booter
+  - ZX Spectrum
   meta:
     genres:
     - Adventure
-    
+    subgenres:
+    - Text Adventure
+    themes:
+    - Fantasy
+
 - name: Hogs of War
   external:
     wikipedia: Hogs of War
