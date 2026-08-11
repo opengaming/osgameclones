@@ -1,0 +1,18 @@
+{% extends "form_group.jinja2" %}
+{% block control %}
+<div class="form-check"
+  {% if "desc" in schema %}data-toggle="tooltip" data-placement="left" data-html="true" title="{{ schema["desc"]|e }}"{% endif %}
+>
+  <input
+    type="checkbox"
+    class="form-check-input"
+    id="{{ path }}"
+    name="{{ path }}:boolean"
+    {{ "required" if required else "" }}
+    {% if "desc" in schema %}
+      placeholder="{{ schema["desc"]|e }}"
+    {% endif %}
+    {% if value %}checked{% endif %}
+  >
+</div>
+{% endblock %}
