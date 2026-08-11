@@ -7684,7 +7684,7 @@
   - Web
   - Windows
   content: free
-  type: clone
+  type: similar
   multiplayer:
   - Competitive
   added: 2013-05-27
@@ -7698,7 +7698,7 @@
 - name: Super Mario War 3DS
   originals:
   - Super Mario
-  type: clone
+  type: similar
   repo: 'https://github.com/nop90/supermariowar-3ds'
   url: 'https://gbatemp.net/threads/super-mario-war-for-3ds.459840/page-3#post-7473287'
   feed: 'https://github.com/nop90/supermariowar-3ds/releases.atom'
@@ -7723,7 +7723,7 @@
 - name: Super Mario War DC
   originals:
   - Super Mario
-  type: clone
+  type: similar
   repo: https://web.archive.org/web/20110114054234/http://gpf.dcemu.co.uk/supermariowar.shtml
   url: 'http://console-news.dcemu.co.uk/supermariowar.shtml'
   development: halted
@@ -7748,13 +7748,14 @@
 - name: Super Mario War DS
   originals:
   - Super Mario
-  type: clone
+  type: similar
   repo: 'https://www.gamebrew.org/wiki/Super_Mario_War_DS'
   url: 'http://console-news.dcemu.co.uk/supermariowards.shtml'
   development: halted
   status: playable
   platforms:
   - DS
+  - Web
   multiplayer:
   - Competitive
   content: free
@@ -7777,7 +7778,7 @@
 - name: Super Mario War NX Switch
   originals:
   - Super Mario
-  type: clone
+  type: similar
   repo: 'https://github.com/retronx-team/supermariowar-nx'
   feed: 'https://github.com/retronx-team/supermariowar-nx/releases.atom'
   development: sporadic
@@ -7805,7 +7806,7 @@
 - name: Super Mario War Wii
   originals:
   - Super Mario
-  type: clone
+  type: similar
   repo: 'https://github.com/dborth/smw-wii'
   url: 'https://wiibrew.org/wiki/Super_Mario_War_Wii'
   feed: 'https://github.com/dborth/smw-wii/releases.atom'
@@ -7835,14 +7836,14 @@
 - name: Super Mario War Xbox
   originals:
   - Super Mario
-  type: clone
+  type: similar
   repo: 'https://code.google.com/archive/p/smw-360/'
   url: >-
     https://web.archive.org/web/20140803080103/http://lovemhz.com/360-release-super-mario-wars-1-8-beta-2-port/
   development: halted
   status: playable
   platforms:
-  - Xbox
+  - Xbox 360
   content: free
   langs:
   - C++
@@ -8331,7 +8332,7 @@
 - name: SuperMarioWar Vita
   originals:
   - Super Mario
-  type: clone
+  type: similar
   repo: 'https://github.com/Rinnegatamante/smw-vita'
   url: https://www.psx-place.com/threads/supermariowar-super-mario-multiplayer-game.31954/
   development: complete
