@@ -86,6 +86,9 @@ schema;game:
       sequence:
       - include: licenses
         unique: True
+    ai:
+      type: bool
+      desc: whether this project contains LLM-generated outputs
     info:
       type: str
       desc: Any notable information about the game

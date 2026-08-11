@@ -10,7 +10,7 @@ requires-python = ">=3.12,<4.0"
 dependencies = [
     "natsort",
     "pykwalify",
-    "pykwalify-webform",
+    "pykwalify-webform>=0.3.0",
     "Unidecode",
     "htmlmin",
     "python-slugify",

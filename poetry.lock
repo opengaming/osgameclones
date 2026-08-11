@@ -823,19 +823,20 @@ python-dateutil = ">=2.8.0"
 
 [[package]]
 name = "pykwalify-webform"
-version = "0.2.1"
+version = "0.3.0"
 description = "Generate webforms based on YAML schema with pykwalify"
 optional = false
-python-versions = "*"
+python-versions = ">=3.8"
 groups = ["main"]
 files = [
-    {file = "pykwalify_webform-0.2.1.tar.gz", hash = "sha256:9908edfbb714110f2cdafc485fa27bc3d7abd7f5bfef71c672c8c4592654cc8b"},
+    {file = "pykwalify_webform-0.3.0.tar.gz", hash = "sha256:f9cc1a2a71b2fc9875017cab5fab79d10a244d82a7c50007e920f8ee4cde121d"},
 ]
 
 [package.dependencies]
-click = "*"
-jinja2 = "*"
-pykwalify = "*"
+click = ">=8.1.8"
+jinja2 = ">=3.1.5"
+pykwalify = ">=1.8.0"
+pyyaml = ">=6.0.1"
 
 [[package]]
 name = "pynacl"
@@ -930,7 +931,7 @@ version = "6.0.2"
 description = "YAML parser and emitter for Python"
 optional = false
 python-versions = ">=3.8"
-groups = ["dev"]
+groups = ["main", "dev"]
 files = [
     {file = "PyYAML-6.0.2-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:0a9a2848a5b7feac301353437eb7d5957887edbf81d56e903999a75a3d743086"},
     {file = "PyYAML-6.0.2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:29717114e51c84ddfba879543fb232a6ed60086602313ca38cce623c1d62cfbf"},
@@ -1448,4 +1449,4 @@ dev = ["doc8", "flake8", "flake8-import-order", "rstcheck[sphinx]", "sphinx"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4.0"
-content-hash = "011b8540e0a564ae320281cc3d24576700a8a4e2c2f0d33a62b18c065c6d63bf"
+content-hash = "9fb327e548335f93b4328baa63410948adfc1d3cf1d8164023d83b224d8f0741"
