@@ -192,7 +192,6 @@ def common_checks(game):
     yield from check_has_added(game)
     yield from check_not_same_repo_and_url(game)
     yield from check_has_images_or_videos(game)
-    yield from check_has_language(game)
     yield from check_language_known(game)
     yield from check_framework_known(game)
     yield from check_framework_language(game)
@@ -220,12 +219,6 @@ def check_not_same_repo_and_url(game):
 def check_has_images_or_videos(game):
     if not game.get("images") and not game.get("video"):
         yield f"🖼 {game['name']} has no images or videos. " \
-              "Please help improve the entry by finding some!"
-
-
-def check_has_language(game):
-    if not game.get("langs"):
-        yield f"🔡 {game['name']} has no languages. " \
               "Please help improve the entry by finding some!"
 
 
