@@ -1866,6 +1866,32 @@
   updated: 2022-02-09
   url: http://www.newbreedsoftware.com/circus-linux/
 
+- name: circuslinux
+  originals:
+  - Circus Atari
+  type: remake
+  repo: 'https://github.com/ICTylor/circuslinux'
+  url: 'https://ictylor.github.io/circuslinux/circuslinux.html'
+  development: complete
+  status: playable
+  platforms:
+  - Web
+  multiplayer:
+  - Competitive
+  - Co-op
+  - Hotseat
+  content: open
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  ai: true
+  info: Emscripten port of "Circus Linux!"
+  added: '2026-08-14'
+  updated: '2026-08-14'
+
 - name: Citadel
   info: 'Needs game data from System Shock for audio playback'
   langs:
