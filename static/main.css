@@ -105,6 +105,10 @@ li.active .nav-btn { font-weight: bold; }
 #nav li:hover .tag-group,
 #nav li.active .tag-group { display: block; }
 #nav li.active .tag-group { z-index: 1; }
+img.tag-platform {
+  transform: translateY(15%);
+  margin: -2px;
+}
 
 /* content */
 

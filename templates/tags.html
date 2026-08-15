@@ -15,6 +15,35 @@
   {%- endif -%}
 {% endmacro %}
 
+{% macro render_platform_icon(platform) %}
+  {% set icon_map = {
+    "Android": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/android" />',
+    "Apple II": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/apple" />][',
+    "Apple TV": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/appletv" />',
+    "Atari": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/atari" />',
+    "Commodore 64": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/commodore" />',
+    "iOS": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/ios" />',
+    "Linux": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/linux" />',
+    "Mobile": '<i class="fa-solid fa-mobile-retro"></i>',
+    "OSX": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/macos" />',
+    "PS": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/playstation" />',
+    "PS2": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/playstation2" />',
+    "PS3": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/playstation3" />',
+    "PS4": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/playstation4" />',
+    "PS5": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/playstation5" />',
+    "PSVita": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/playstationvita" />',
+    "PSP": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/playstationportable" />',
+    "Sega CD": '<img class="tag-platform" height="17" width="17" src="https://cdn.simpleicons.org/sega" />CD',
+    "Web": '<i class="fa-brands fa-html5"></i>',
+    "Windows": '<i class="fa-brands fa-windows"></i>',
+    "Xbox": '<i class="fa-brands fa-xbox"></i>',
+    "Xbox 360": '<i class="fa-brands fa-xbox"></i>360',
+    "Xbox One": '<i class="fa-brands fa-xbox"></i>One',
+    "Xbox Series S/X": '<i class="fa-brands fa-xbox"></i>S/X',
+  } %}
+  {{- icon_map.get(platform, platform) -}}
+{% endmacro %}
+
 {% macro render_tag_groups(tag_class, tag_names, tag_props) %}
   {%- if tag_names -%}
     {%- if tag_names is string -%}
@@ -27,7 +56,7 @@
       {%- set dataName = tag_name.lower().replace(' ', '-') -%}
       <span title="{{ tag_class | title }}" class="{{ className | join(' ') }}" data-name="{{ dataName }}"
             {% if tag_class == "langs" %}itemprop="programmingLanguage"{% endif %}>
-        {{- tag_name -}}
+        {%- if tag_class == "platforms" -%}{{ render_platform_icon(tag_name) }}{%- else -%}{{- tag_name -}}{% endif %}
         {%- if tag_props -%}<span class="tag-badge">{{ tag_props }}</span>{%- endif -%}
       </span>
     {% endfor -%}
