@@ -2353,6 +2353,29 @@
   added: 2025-11-13
   updated: 2025-11-13
 
+- name: GumshoeNESRecomp
+  originals:
+  - Gumshoe
+  type: remake
+  repo: 'https://github.com/mstan/GumshoeNESRecomp'
+  feed: 'https://github.com/mstan/GumshoeNESRecomp/releases.atom'
+  development: active
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - C
+  - TOML
+  licenses:
+  - As-is
+  ai: true
+  info: Gumshoe recompiled for the NES using nesrecomp
+  added: 2026-08-16
+  updated: 2026-08-16
+
 - name: Gunocide II EX
   originals:
   - Gunocide II
