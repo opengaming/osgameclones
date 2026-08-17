@@ -653,20 +653,27 @@
 - name: vkQuake
   frameworks:
   - Vulkan
+  - SDL3
+  - SDL2
   langs:
   - C
   licenses:
   - GPL2
+  ai: true
   content: commercial
-  development: halted
+  development: very active
   originals:
   - Quake
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/Novum/vkQuake
   feed: https://github.com/Novum/vkQuake/releases.atom
   type: remake
   added: 2017-04-04
-  updated: 2024-05-10
+  updated: 2026-08-17
   info: Vulkan Quake port based on QuakeSpasm
   images:
   - https://static.wikia.nocookie.net/quake/images/4/4d/Vkquake0001.png/revision/latest/scale-to-width-down/1000?cb=20221204023831
