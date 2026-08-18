@@ -2314,6 +2314,39 @@
   video:
     youtube: T0DKxOEikTs
 
+- name: ROLLER
+  originals:
+  - Fatal Racing
+  type: remake
+  repo: 'https://github.com/FatalDecomp/ROLLER'
+  url: 'https://fatal.racing'
+  development: very active
+  status: playable
+  platforms:
+  - Android
+  - Linux
+  - OSX
+  - Web
+  - Windows
+  content: free
+  langs:
+  - C
+  - Zig
+  frameworks:
+  - SDL3
+  licenses:
+  - GPL3
+  info: Reverse engineering the 1995 game Whiplash/Fatal Racing
+  added: '2026-08-18'
+  updated: '2026-08-18'
+  images:
+  - 'https://fatal.racing/webart/whipa.gif'
+  - 'https://fatal.racing/webart/whipe.gif'
+  - 'https://fatal.racing/webart/whipb.gif'
+  - 'https://fatal.racing/webart/whipc3.gif'
+  - 'https://fatal.racing/webart/whipd.gif'
+  - 'https://fatal.racing/webart/whipf.gif'
+
 - name: Rolling Thunder
   originals:
   - Rolling Thunder
