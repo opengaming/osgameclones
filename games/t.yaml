@@ -7,6 +7,10 @@
   feed: 'https://drwhut.itch.io/tabletop-club/devlog.rss'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -35,6 +39,8 @@
   url: 'https://crates.io/crates/tae-wondle'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -48,8 +54,12 @@
   type: remake
   repo: 'https://github.com/mechakotik/tails-adventure'
   feed: 'https://github.com/mechakotik/tails-adventure/releases.atom'
-  development: active
-  status: semi-playable
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  - Android
+  - Windows
   content: open
   langs:
   - C++
@@ -58,7 +68,7 @@
   licenses:
   - GPL3
   added: 2025-07-02
-  updated: 2025-07-02
+  updated: 2026-08-17
   images:
   - https://play-lh.googleusercontent.com/sSE5xvwlQHznfYl9qEkSVeIp9o3Y8Jwp2oqihxbOTiyXZk5XOBAnAyW8XyEcfgXYHzgz=w1052-h592-rw
   - https://play-lh.googleusercontent.com/3LvOI6uGHvW9CMzPD9x2aBU_6pPY2F1uNZ5IyGCXKjK8YnDw-Pe4HPpNi0YOcoaGag=w1052-h592-rw
@@ -104,6 +114,10 @@
   - Touhou
   repo: https://github.com/taisei-project/taisei
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   added: 2014-04-16
   updated: 2025-01-13
@@ -118,6 +132,9 @@
   url: 'https://gottcode.org/tanglet/'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: free
   langs:
   - C++
@@ -140,10 +157,11 @@
   type: clone
   repo: >-
     https://lava.codingmiao.com/assets/app/%E5%9D%A6%E5%85%8B2004/assets/source_code/%E5%9D%A6%E5%85%8B2004.txt
-  url: >-
-    https://web.archive.org/web/20060709004251/http://www.ggv.com.cn/faq/gvmaker/1.htm#:~:text=%EF%BC%9A-,%E5%9D%A6%E5%85%8B2004
+  url: https://web.archive.org/web/20060709004251/http://www.ggv.com.cn/faq/gvmaker/1.htm#:~:text=%EF%BC%9A-,%E5%9D%A6%E5%85%8B2004
   development: complete
   status: playable
+  platforms:
+  - Wenquxing
   langs:
   - GVmaker
   licenses:
@@ -163,6 +181,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/455/45560.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -188,6 +208,8 @@
   originals:
   - Battle City
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/les-sosna/tzod
   type: clone
   added: 2015-04-06
@@ -220,6 +242,11 @@
   originals:
   - Advance Wars
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
   repo: https://github.com/w84death/Tanks-of-Freedom
   type: clone
   added: 2018-04-09
@@ -238,6 +265,9 @@
   feed: 'https://czlowiekimadlo.itch.io/tanks-of-freedom-ii/devlog.rss'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -279,6 +309,8 @@
   - MIT
   development: halted
   status: playable
+  platforms:
+  - Linux
   originals:
   - RPG Maker
   repo: https://github.com/qnighy/tapir
@@ -295,6 +327,10 @@
   feed: 'https://github.com/fabiangreffrath/taradino/releases.atom'
   development: active
   status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: open
   langs:
   - C
@@ -309,11 +345,13 @@
   originals:
   - Space Taxi
   type: clone
-  repo: 'http://sourceforge.net/projects/taxipilot'
+  repo: 'https://sourceforge.net/projects/taxipilot'
   url: 'https://taxipilot.sourceforge.net/'
   feed: 'https://sourceforge.net/p/taxipilot/news/feed.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -334,6 +372,8 @@
   url: 'https://www.fumi2kick.com/pspapp/#004'
   development: halted
   status: playable
+  platforms:
+  - Amiga
   langs:
   - C
   frameworks:
@@ -354,6 +394,8 @@
   url: 'https://web.archive.org/web/20140104074744/http://tclrobots.org/'
   development: halted
   status: playable
+  platforms:
+  - None
   multiplayer:
   - Competitive
   langs:
@@ -373,6 +415,8 @@
   feed: 'https://git.trinitydesktop.org/cgit/tdepacman/atom/?h=master'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -390,6 +434,8 @@
   url: 'https://web.archive.org/web/19990417064750/http://www.47-tek.com/source.htm'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -408,6 +454,8 @@
   url: 'https://linux.tlk.fr/games/TecnoballZ/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -438,6 +486,10 @@
   url: 'http://www.newbreedsoftware.com/teetertorture/'
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Wii
+  - Amiga
   content: open
   langs:
   - C
@@ -461,6 +513,8 @@
   url: 'http://www.dukertcm.com/knowledge-base/downloads-rtcm/src-tekwar-source/'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -477,6 +531,8 @@
   url: 'https://m210.duke4.net/'
   development: sporadic
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -497,6 +553,8 @@
   url: https://csdb.dk/release/?id=145661
   development: complete
   status: playable
+  platforms:
+  - C64
   langs:
   - Assembly
   - BASIC
@@ -515,6 +573,8 @@
   url: 'https://elite.bbcelite.com/hacks/teletext_elite.html'
   development: complete
   status: playable
+  platforms:
+  - BBC Micro
   content: free
   langs:
   - Assembly
@@ -541,6 +601,8 @@
   url: 'https://x.com/_codebound_/status/1920712422546899203'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: free
   langs:
   - Assembly
@@ -554,12 +616,12 @@
   originals:
   - Tempest
   type: remake
-  repo: >-
-    https://web.archive.org/web/20150929202131if_/http://www.ionpool.net/arcade/tempest_code_project/136002.txt
-  url: >-
-    https://web.archive.org/web/20170704084629/http://ionpool.net/arcade/tempest_code_project/tempest_code_project.html
+  repo: https://web.archive.org/web/20150929202131if_/http://www.ionpool.net/arcade/tempest_code_project/136002.txt
+  url: https://web.archive.org/web/20170704084629/http://ionpool.net/arcade/tempest_code_project/tempest_code_project.html
   development: halted
   status: semi-playable
+  platforms:
+  - Arcade
   multiplayer:
   - Hotseat
   langs:
@@ -577,10 +639,13 @@
   - Temptations
   type: remake
   repo: 'https://github.com/pipagerardo/temptations'
-  url: >-
-    https://web.archive.org/web/20211118052122/https://sites.google.com/site/temptationsremake/
+  url: https://web.archive.org/web/20211118052122/https://sites.google.com/site/temptationsremake/
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: free
   langs:
   - C
@@ -602,10 +667,12 @@
   originals:
   - Tempest
   type: clone
-  repo: 'http://www.newbreedsoftware.com/atari/nomam2016/tenpest.txt'
-  url: 'http://www.newbreedsoftware.com/atari/nomam2016/tenpest.html'
+  repo: 'https://www.newbreedsoftware.com/atari/nomam2016/tenpest.txt'
+  url: 'https://www.newbreedsoftware.com/atari/nomam2016/tenpest.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - BASIC
   licenses:
@@ -614,7 +681,7 @@
   added: 2026-02-20
   updated: 2026-02-20
   images:
-  - https://web.archive.org/web/20250105222049if_/http://www.newbreedsoftware.com/atari/nomam2016/tenpest.png
+  - https://newbreedsoftware.com/atari/nomam2016/tenpest.png
 
 - name: Terasology
   langs:
@@ -630,6 +697,10 @@
   repo: https://github.com/MovingBlocks/Terasology
   feed: https://github.com/MovingBlocks/Terasology/releases.atom
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   added: 2014-08-20
   updated: 2025-01-22
@@ -659,6 +730,8 @@
   originals:
   - Terraria
   status: unplayable
+  platforms:
+  - Linux
   repo: https://gitlab.com/hydren/terrarium
   type: clone
   added: 2015-06-18
@@ -675,6 +748,8 @@
   url: 'https://tes3mp.com/'
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -703,6 +778,8 @@
   url: 'https://www.ocf.berkeley.edu/~pad/game-ti85-tesbwan.html'
   development: halted
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - Assembly
   licenses:
@@ -723,6 +800,8 @@
   feed: 'https://github.com/clientverify/tetrinet/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   langs:
@@ -742,6 +821,9 @@
   url: 'https://tetrinetx.sourceforge.net/'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Online
   langs:
@@ -760,6 +842,8 @@
   url: 'https://melpa.org/#/tetris-60'
   development: very active
   status: playable
+  platforms:
+  - None
   langs:
   - Emacs Lisp
   frameworks:
@@ -785,6 +869,8 @@
   originals:
   - Tetris
   status: playable
+  platforms:
+  - None
   repo: https://github.com/spypunk/tetris
   development: halted
   type: remake
@@ -798,6 +884,8 @@
   repo: 'https://github.com/hayfield/Tetris-CSharp'
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - 'C#'
   frameworks:
@@ -831,6 +919,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/370/37035.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - Assembly
   licenses:
@@ -849,6 +939,8 @@
   url: https://brennan.io/2015/06/12/tetris-reimplementation/
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -870,6 +962,10 @@
   feed: 'https://github.com/mehrdad-mixtape/Tetris_Pyxel/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: open
   langs:
   - Python
@@ -892,6 +988,8 @@
   feed: 'https://sourceforge.net/p/tetrisunlimited/news/feed.rss'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Split-screen
   content: open
@@ -918,6 +1016,8 @@
   repo: 'https://github.com/CelestialAmber/TetrisNESDisasm'
   development: complete
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -935,6 +1035,9 @@
   feed: 'https://github.com/mehrdad-mixtape/TetrisPy/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: free
   langs:
   - Python
@@ -952,6 +1055,8 @@
   url: 'https://www.hpcalc.org/details/6985'
   development: complete
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - RPL
   licenses:
@@ -969,6 +1074,8 @@
   url: 'https://crates.io/crates/textsweeper'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -988,6 +1095,8 @@
   originals:
   - Theme Park
   status: unplayable
+  platforms:
+  - None
   type: remake
   added: 2015-07-04
   updated: 2019-11-20
@@ -1005,6 +1114,10 @@
   originals:
   - Where in the World Is Carmen Sandiego? (1985)
   status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   repo: https://github.com/Ponup/thiefcatcher
   type: remake
   added: 2015-06-18
@@ -1015,11 +1128,14 @@
   - Thirty Flights of Loving
   type: official
   repo: 'https://github.com/blendogames/thirtyflightsofloving'
-  url: >-
-    https://web.archive.org/web/20230525134201/https://twitter.com/BlendoGames/status/1272598960444563461#:~:text=Thirty%20Flights%20of%20Loving
+  url: https://web.archive.org/web/20230525134201/https://twitter.com/BlendoGames/status/1272598960444563461#:~:text=Thirty%20Flights%20of%20Loving
   feed: 'https://blendogames.itch.io/thirtyflightsofloving/devlog.rss'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: commercial
   langs:
   - C
@@ -1044,6 +1160,8 @@
   url: 'https://mrdoob.github.io/three-descent/'
   development: very active
   status: semi-playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - JavaScript
@@ -1051,6 +1169,7 @@
   - three.js
   licenses:
   - MIT
+  ai: true
   added: 2026-02-15
   updated: 2026-02-15
 
@@ -1062,6 +1181,8 @@
   url: 'https://www.segasaturno.com/portal/index.php?topic_id=5241'
   development: complete
   status: playable
+  platforms:
+  - Saturn
   multiplayer:
   - Local
   - Co-op
@@ -1081,6 +1202,8 @@
   url: 'https://mrdoob.github.io/three-quake/'
   development: very active
   status: semi-playable
+  platforms:
+  - Web
   multiplayer:
   - Competitive
   - Local
@@ -1092,6 +1215,7 @@
   - three.js
   licenses:
   - GPL2
+  ai: true
   added: 2026-02-23
   updated: 2026-02-23
   images:
@@ -1112,6 +1236,8 @@
   originals:
   - Punch-Out!!
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/MattSzik/THREEPunchOut
   type: clone
   added: 2015-08-15
@@ -1125,6 +1251,8 @@
   repo: https://github.com/harshjv/threes-c
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -1142,6 +1270,8 @@
   repo: https://github.com/xuchunyang/threes.el
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Emacs Lisp
   licenses:
@@ -1160,6 +1290,8 @@
   feed: https://revolutionarygamesstudio.com/feed/
   development: very active
   status: semi-playable
+  platforms:
+  - Windows
   langs:
   - C#
   frameworks:
@@ -1185,7 +1317,9 @@
   originals:
   - Thromolus
   status: unplayable
-  repo: https://github.com/segfaulthunter/thromolusng
+  platforms:
+  - None
+  repo: https://github.com/fmayer/thromolusng
   type: remake
   added: 2015-06-22
   updated: 2015-06-22
@@ -1201,6 +1335,8 @@
   originals:
   - Thrust
   status: playable
+  platforms:
+  - Linux
   repo: https://www.lysator.liu.se/~peda/thrust/src/
   type: remake
   added: 2015-04-15
@@ -1230,6 +1366,8 @@
   repo: 'https://github.com/Fissuras/tf4r'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -1260,6 +1398,8 @@
   repo: 'https://github.com/indyjo/Thunder-Lightning'
   development: sporadic
   status: semi-playable
+  platforms:
+  - OSX
   content: free
   langs:
   - C++
@@ -1285,6 +1425,8 @@
   repo: https://github.com/TheAssemblyArmada/Thyme
   type: remake
   status: playable
+  platforms:
+  - Windows
   added: 2018-02-05
   updated: 2025-02-08
 
@@ -1295,6 +1437,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/138/13840.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   content: free
   langs:
   - C
@@ -1317,6 +1461,8 @@
   repo: 'https://github.com/transitive-bullshit/ticalc'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   multiplayer:
   - Competitive
   langs:
@@ -1346,6 +1492,9 @@
   feed: 'https://github.com/son-link/ticoban-pyxel/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - Python
@@ -1372,6 +1521,9 @@
   originals:
   - Chip's Challenge
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: remake
   added: 2014-01-05
   updated: 2025-02-09
@@ -1396,6 +1548,9 @@
   repo: https://github.com/SicklySilverMoon/tworld
   url: https://tw2.bitbusters.club
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: remake
   added: 2014-01-05
   updated: 2025-02-09
@@ -1412,6 +1567,9 @@
   url: 'https://lbalab.github.io/timeco/'
   development: sporadic
   status: unplayable
+  platforms:
+  - Linux
+  - OSX
   content: commercial
   langs:
   - C
@@ -1431,6 +1589,8 @@
   url: 'https://community.arduboy.com/t/tiny-digital-invader-7-segment-display/2679'
   development: halted
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C++
   licenses:
@@ -1446,6 +1606,8 @@
   url: 'https://diego.horse/tiny-mario'
   development: very active
   status: playable
+  platforms:
+  - Web
   langs:
   - JavaScript
   licenses:
@@ -1468,6 +1630,8 @@
     https://projecthub.arduino.cc/BADFEED/tetris-clone-with-oled-ssd1306-i2c-for-arduino-nano-uno-ef8a8a
   development: halted
   status: playable
+  platforms:
+  - Arduino
   langs:
   - C++
   licenses:
@@ -1488,6 +1652,8 @@
   feed: 'https://github.com/CoBinee/tinytrek-playdate/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Playdate
   content: free
   langs:
   - C
@@ -1508,6 +1674,8 @@
     https://web.archive.org/web/20230224033243/http://blog.livedoor.jp/cobinee/archives/2008127.html
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Python
   frameworks:
@@ -1531,6 +1699,8 @@
   originals:
   - Tiny Wings
   status: semi-playable
+  platforms:
+  - OSX
   repo: https://github.com/haqu/tiny-wings
   type: clone
   images:
@@ -1546,6 +1716,8 @@
   url: 'https://code.thumby.us/play.html?game=TinyCity'
   development: very active
   status: playable
+  platforms:
+  - Web
   langs:
   - Python
   frameworks:
@@ -1569,6 +1741,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/318/31879.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - Assembly
   licenses:
@@ -1586,6 +1760,10 @@
   feed: 'https://sourceforge.net/p/tiwarriors/news/feed.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Competitive
   content: open
@@ -1604,6 +1782,8 @@
   feed: 'https://github.com/tropf/tmines/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C++
   licenses:
@@ -1618,6 +1798,10 @@
   repo: https://github.com/TOMB5/TOMB5
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - PS
+  - Windows
   langs:
   - C
   frameworks:
@@ -1642,6 +1826,8 @@
   feed: 'https://tombengine.com/feed/'
   development: active
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1661,10 +1847,11 @@
   originals:
   - The Tomb of Drewan
   type: remake
-  url: >-
-    https://web.archive.org/web/20070205182728/https://www.classicgaming.com/studio2/valley/valley.htm#:~:text=Tomb%20of%20Drewan
+  url: https://web.archive.org/web/20070205182728/https://www.classicgaming.com/studio2/valley/valley.htm#:~:text=Tomb%20of%20Drewan
   development: complete
   status: playable
+  platforms:
+  - Windows
   langs:
   - C
   licenses:
@@ -1682,10 +1869,11 @@
   originals:
   - Tomb Raider II
   type: official
-  url: >-
-    https://archive.org/details/tomb-raider-ii-core-design-eidos-1997-source-code.-7z
+  url: https://archive.org/details/tomb-raider-ii-core-design-eidos-1997-source-code.-7z
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1731,6 +1919,10 @@
   feed: 'https://savannah.nongnu.org/news/atom.php?group=tong'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Wii
+  - Windows
   content: open
   langs:
   - C++
@@ -1751,6 +1943,8 @@
   repo: 'https://github.com/satire6/Anesidora'
   development: complete
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   content: free
@@ -1773,6 +1967,8 @@
   feed: 'https://github.com/kouya/tornado/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Competitive
   - LAN
@@ -1808,6 +2004,8 @@
   - Omega Race
   repo: https://github.com/andwj/torrega
   status: playable
+  platforms:
+  - None
   type: similar
   added: 2015-05-02
   updated: 2015-05-02
@@ -1827,9 +2025,13 @@
   originals:
   - Total Annihilation
   status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   repo: https://github.com/zuzuf/TA3D
   type: remake
-  url: http://www.ta3d.org/
+  url: https://www.ta3d.org/
   added: 2011-06-15
   updated: 2023-09-13
   video:
@@ -1843,6 +2045,8 @@
   url: 'https://iamkun.github.io/tower_game/'
   development: complete
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -1867,6 +2071,8 @@
   originals:
   - Nebulus
   status: playable
+  platforms:
+  - Linux
   type: remake
   repo: https://gitlab.com/roever/toppler/
   added: 2013-05-27
@@ -1913,6 +2119,8 @@
   originals:
   - Marble Madness
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/trackballs/trackballs
   feed: https://github.com/trackballs/trackballs/releases.atom
   type: remake
@@ -1931,6 +2139,8 @@
   originals:
   - Vlak
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/nenadalm/Train
   type: remake
   added: 2015-05-28
@@ -1941,11 +2151,15 @@
   - Zarathrusta
   type: similar
   repo: 'https://github.com/santiontanon/transballgl'
-  url: >-
-    https://web.archive.org/web/20161011005649/http://www.braingames.getput.com/transballgl/
+  url: https://web.archive.org/web/20161011005649/http://www.braingames.getput.com/transballgl/
   feed: 'https://github.com/santiontanon/transballgl/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Web
   content: open
   langs:
   - C++
@@ -1986,6 +2200,8 @@
   - QuakeC
   - C
   status: playable
+  platforms:
+  - Windows
   type: remake
   added: 2013-11-12
   updated: 2013-11-12
@@ -1999,6 +2215,9 @@
   url: 'https://app.zdechov.net/translines'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - Pascal
@@ -2035,6 +2254,9 @@
   originals:
   - Tranz Am
   status: playable
+  platforms:
+  - OSX
+  - Windows
   type: remake
   added: 2015-04-12
   updated: 2022-06-11
@@ -2045,11 +2267,13 @@
   - Tread Marks
   type: official
   repo: 'https://github.com/LongbowGames/TreadMarks'
-  url: >-
-    https://web.archive.org/web/20170211155405/https://www.longbowgames.com/forums/topic/?id=3623
+  url: https://web.archive.org/web/20170211155405/https://www.longbowgames.com/forums/topic/?id=3623
   feed: 'https://github.com/LongbowGames/TreadMarks/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - OSX
+  - Windows
   multiplayer:
   - Online
   content: open
@@ -2073,6 +2297,8 @@
   feed: 'https://github.com/ptitSeb/TreadMarks/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   content: free
@@ -2085,7 +2311,7 @@
   - Qt
   - OpenAL
   licenses:
-  - As-is
+  - GPL3
   info: Port of Tread Marks on Pandora and Linux.
   added: 2025-12-31
   updated: 2025-12-31
@@ -2114,6 +2340,10 @@
   content: open
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -2135,6 +2365,10 @@
   repo: 'https://github.com/sunenielsen/tribaltrouble'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Online
   content: free
@@ -2154,6 +2388,10 @@
   url: https://tribaltrouble.org
   development: active
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Online
   content: free
@@ -2178,6 +2416,10 @@
   url: 'https://www.trinitycore.org/'
   development: very active
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Local
   - Online
@@ -2201,6 +2443,8 @@
   feed: 'https://github.com/vranki/triplane/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Split-screen
   content: open
@@ -2224,6 +2468,8 @@
   feed: 'https://github.com/robbi-blechdose/TriSpace/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2246,6 +2492,8 @@
   originals:
   - Tron
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/momajd/Tron
   type: remake
   added: 2016-05-14
@@ -2264,6 +2512,8 @@
   originals:
   - Minecraft
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/ddevault/TrueCraft
   type: remake
   added: 2015-05-02
@@ -2276,6 +2526,8 @@
   url: 'https://www.erasmatazz.com/library/source-code/#:~:text=Trust%20%26%20Betrayal'
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   content: free
   langs:
   - Pascal
@@ -2287,11 +2539,18 @@
 - name: TRX
   originals:
   - Tomb Raider
+  - Tomb Raider II
+  - Tomb Raider III
   type: remake
   repo: https://github.com/LostArtefacts/TRX
   feed: https://github.com/LostArtefacts/TRX/releases.atom
+  url: https://lostartefacts.dev
   development: active
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: commercial
   langs:
   - C
@@ -2299,7 +2558,7 @@
   - SDL2
   licenses:
   - GPL3
-  info: merged TR1X + TR2X, reimplements both Tomb Raiders 1 + 2
+  info: merged TR1X + TR2X, reimplements both Tomb Raiders 1, 2, 3
   added: 2023-12-02
   updated: 2025-02-27
   images:
@@ -2321,6 +2580,8 @@
   feed: 'https://sourceforge.net/p/tserver/news/feed.rss'
   development: halted
   status: unplayable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -2360,6 +2621,9 @@
   - Transport Tycoon
   type: tool
   status: N/A
+  platforms:
+  - DOS
+  - Windows
   repo: https://github.com/ttdpatch/ttdpatch
   url: https://www.ttdpatch.net/
   development: halted
@@ -2385,6 +2649,8 @@
   url: 'https://crates.io/crates/ttyloop'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   frameworks:
@@ -2402,6 +2668,10 @@
   url: 'https://clobberasm.itch.io/tube'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Web
+  - Windows
   content: free
   langs:
   - C++
@@ -2426,6 +2696,8 @@
   feed: 'https://gitlab.com/Oglo12/tui48.atom'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   frameworks:
@@ -2447,6 +2719,8 @@
   feed: 'https://pypi.org/rss/project/tuinty-forpy-eight/releases.xml'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Python
   frameworks:
@@ -2463,6 +2737,10 @@
   repo: https://github.com/SteveSmith16384/TumblyTowers
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Local
   - Competitive
@@ -2484,10 +2762,11 @@
   - Tunneler
   type: remake
   repo: 'https://github.com/raydog/tunneltanks'
-  url: >-
-    https://web.archive.org/web/20130213232058/https://blog.poweredbytoast.com/tag/tunneler
+  url: https://web.archive.org/web/20130213232058/https://blog.poweredbytoast.com/tag/tunneler
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   multiplayer:
   - Split-screen
   content: open
@@ -2546,6 +2825,8 @@
   originals:
   - Turnabout
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/sch/turnabout
   type: remake
   added: 2015-07-19
@@ -2559,6 +2840,8 @@
   url: 'https://www.pcgamesn.com/turok/turok-source-code-found'
   development: complete
   status: playable
+  platforms:
+  - N64
   content: commercial
   langs:
   - C
@@ -2578,6 +2861,8 @@
   originals:
   - Turok
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/svkaiser/TurokEX
   type: remake
   added: 2016-05-28
@@ -2587,11 +2872,12 @@
   originals:
   - Mega Turrican
   type: official
-  repo: >-
-    https://web.archive.org/web/20160819003827/https://gilgalad.arc-nova.org/vgscr/amiga.html#:~:text=Turrican%20III
+  repo: https://web.archive.org/web/20160819003827/https://gilgalad.arc-nova.org/vgscr/amiga.html#:~:text=Turrican%20III
   url: 'https://forum.amigaspirit.hu/index.php?action=vthread&forum=10&topic=89'
   development: complete
   status: playable
+  platforms:
+  - Amiga
   content: free
   langs:
   - Assembly
@@ -2605,9 +2891,12 @@
   originals:
   - Super Smash Bros.
   repo: https://github.com/digiholic/universalSmashSystem
-  url: https://projecttussle.com/
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Competitive
   langs:
@@ -2636,6 +2925,8 @@
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/tutanchamun-0.1.1.lsm
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2654,6 +2945,8 @@
   feed: 'https://sourceforge.net/p/tuxadventure/blog/feed.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2671,6 +2964,10 @@
   repo: 'https://github.com/Alzter/TuxBuilder'
   development: halted
   status: unplayable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: open
   langs:
   - GDScript
@@ -2693,6 +2990,8 @@
   feed: 'https://sourceforge.net/projects/tux-n-run/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -2725,6 +3024,11 @@
   - Pokémon
   repo: https://github.com/Tuxemon/Tuxemon
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
   type: remake
   added: 2015-01-21
   updated: 2015-01-21
@@ -2739,6 +3043,8 @@
   feed: 'https://salsa.debian.org/games-team/tuxpuck.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2761,6 +3067,8 @@
   originals:
   - Mad TV
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/TVTower/TVTower
   feed: https://github.com/TVTower/TVTower/releases.atom
   type: remake
@@ -2783,6 +3091,10 @@
   - Little Big Adventure
   repo: https://github.com/xesf/twin-e
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   added: 2014-11-09
   updated: 2025-03-12
@@ -2819,6 +3131,8 @@
   feed: 'https://github.com/de-sh/twozero48/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -2834,6 +3148,8 @@
   url: 'https://crates.io/crates/txt2048'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -2849,6 +3165,8 @@
   repo: https://code.google.com/archive/p/tyger/
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   langs:
   - Python
   frameworks:
@@ -2871,6 +3189,8 @@
     https://grumbeer.dyndns.org/ftp/servers/sunsite/1996-08-12-part2/games/video//Tykkipeli2.lsm
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -2889,6 +3209,8 @@
   url: https://ianwigley.co.uk/Xenon/Xenon.html
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   langs:
   - TypeScript
   licenses:
@@ -2913,6 +3235,12 @@
   originals:
   - Tyrian
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Web
+  - Android
   repo: https://github.com/b3dgs/tyrian-remake
   type: remake
   added: 2015-05-29
@@ -2931,6 +3259,10 @@
   originals:
   - Quake
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   repo: https://disenchant.net/git/tyrquake.git/
   type: remake
   added: 2015-04-03
