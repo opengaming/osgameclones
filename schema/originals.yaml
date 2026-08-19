@@ -202,14 +202,13 @@ schema;subgenres:
     'Wrestling',
   ]
 
-# Based on Giant Bomb themes
-# http://www.giantbomb.com/games/
 schema;themes:
   type: str
   enum: [
     'Abstract',
     'Adult',
     'Alternate Historical',
+    'Ancient History',
     'Anime',
     'Aquatic',
     'Civil War',
@@ -218,14 +217,12 @@ schema;themes:
     'Crime',
     'Cyberpunk',
     'Dating',
-    'Egyptian',
     'Espionage',
     'Fantasy',
     'Game Show',
     'Horror',
     'Management',
     'Martial Arts',
-    'Mayan',
     'Medieval',
     'Meditative',
     'Modern Military',

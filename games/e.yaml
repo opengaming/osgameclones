@@ -1861,6 +1861,30 @@
   images:
   - 'https://csdb.dk/gfx/releases/226000/226060.png'
 
+- name: eZeus
+  originals:
+  - 'Zeus: Master of Olympus'
+  type: remake
+  repo: 'https://github.com/MaurycyLiebner/eZeus'
+  feed: 'https://github.com/MaurycyLiebner/eZeus/releases.atom'
+  development: active
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  added: '2026-08-19'
+  updated: '2026-08-19'
+  video:
+    youtube: pZtzggsjfuU
+
 - name: ezQuake
   images:
   - https://ezquake.com/assets/img/screenshots/armor_battle.jpg
