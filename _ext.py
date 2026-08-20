@@ -151,7 +151,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
                 result["repoiconstyle"] = "fab"
                 result["repotitle"] = "GitHub"
             else:
-                result["repobadge"] = f'<img class="badge lazyload" alt="GitHub stars" data-src="https://img.shields.io/github/stars/{user}/{repo}?style=flat-square&logo=github" src="https://img.shields.io/badge/stars-%3F-blue?style=flat-square&logo=github">'
+                result["repobadge"] = f'<img class="badge" alt="GitHub stars" src="https://img.shields.io/github/stars/{user}/{repo}?style=flat-square&logo=github" loading="lazy">'
         elif domain == "codeberg.org":
             try:
                 # https://codeberg.org/<user>/<repo>
@@ -162,7 +162,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
                 result["repoiconstyle"] = "fas"
                 result["repotitle"] = "Codeberg"
             else:
-                result["repobadge"] = f'<img class="badge lazyload" alt="Codeberg Stars" data-src="https://img.shields.io/gitea/stars/{user}/{repo}?gitea_url=https%3A%2F%2Fcodeberg.org&style=flat-square&logo=codeberg&logoColor=fff" src="https://img.shields.io/badge/stars-%3F-blue?style=flat-square&logo=codeberg&logoColor=fff">'
+                result["repobadge"] = f'<img class="badge" alt="Codeberg Stars" src="https://img.shields.io/gitea/stars/{user}/{repo}?gitea_url=https%3A%2F%2Fcodeberg.org&style=flat-square&logo=codeberg&logoColor=fff" loading="lazy">'
         elif domain == "code.google.com":
             result["repoiconname"] = "google"
             result["repoiconstyle"] = "fab"
@@ -180,7 +180,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
                 result["repoiconstyle"] = "fab"
                 result["repotitle"] = "GitLab"
             else:
-                result["repobadge"] = f'<img class="badge lazyload" alt="GitLab stars" src="https://img.shields.io/badge/dynamic/json?color=green&label=stars&logo=gitlab&&query=%24.star_count&url=https%3A%2F%2Fgitlab.com%2Fapi%2Fv4%2Fprojects%2F{user}%252F{repo}">'
+                result["repobadge"] = f'<img class="badge" alt="GitLab stars" src="https://img.shields.io/badge/dynamic/json?color=green&label=stars&logo=gitlab&&query=%24.star_count&url=https%3A%2F%2Fgitlab.com%2Fapi%2Fv4%2Fprojects%2F{user}%252F{repo}" loading="lazy">'
         elif domain == "sourceforge.net":
             try:
                 # https://sourceforge.net/projects/<repo>
@@ -188,7 +188,7 @@ def parse_item(entry, entry_tags=[], meta={}, meta_tags=[]):
             except ValueError:
                 pass
             else:
-                result["repobadge"] = f'<img class="badge lazyload" alt="Sourceforge downloads" data-src="https://img.shields.io/sourceforge/dt/{repo}?style=flat-square&logo=sourceforge" src="https://img.shields.io/badge/downloads-%3F-brightgreen?style=flat-square&logo=sourceforge">'
+                result["repobadge"] = f'<img class="badge" alt="Sourceforge downloads" src="https://img.shields.io/sourceforge/dt/{repo}?style=flat-square&logo=sourceforge" loading="lazy">'
         elif ext in (".gz", ".zip", ".tar", ".tgz", ".tbz2", ".bz2", ".xz", ".rar"):
             result["repoiconname"] = "box"
             result["repoiconstyle"] = "fas"

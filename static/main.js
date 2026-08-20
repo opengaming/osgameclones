@@ -378,30 +378,6 @@ function toggleTagByName(curTag) {
   }
 })();
 
-// Lazy load badges
-window.addEventListener('load', function () {
-  // Lazy load badges when they become visible (avoid error 429)
-  var lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-    entries.forEach(function(entry) {
-      if (!entry.isIntersecting) return;
-
-      var img = entry.target;
-      if (img.hasAttribute('data-src')) {
-        img.src = img.getAttribute('data-src');
-        img.removeAttribute('data-src');
-      }
-      observer.unobserve(img);
-    });
-  }, {
-    rootMargin: '25% 0px'
-  });
-
-  var lazyElements = document.querySelectorAll('img.lazyload[data-src]');
-  for (var i = 0; i < lazyElements.length; i++) {
-    lazyImageObserver.observe(lazyElements[i]);
-  }
-});
-
 function getQueryParams() {
     var queryParams = window.location.search.substr(1).split('&').reduce(function (q, query) {
       var chunks = query.split('=');
