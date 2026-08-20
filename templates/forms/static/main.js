@@ -62,16 +62,3 @@ function copy() {
   $("#add-game-yaml-body").select();
   document.execCommand("copy");
 }
-
-$("input.tagsinput").each(function() {
-  $(this).tagsinput({
-    allowDuplicates: this.hasAttribute("data-allow-duplicates")
-  });
-});
-
-$("input.datepicker").datepicker({
-  format: "yyyy-mm-dd",
-  autoclose: true,
-  todayBtn: "linked",
-  todayHighlight: true
-});

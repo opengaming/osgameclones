@@ -1,8 +1,8 @@
 {% extends "form_group.jinja2" %}
 {% block control %}
 <input
-  type="text"
-  class="form-control datepicker"
+  type="date"
+  class="form-control"
   id="{{ path }}"
   name="{{ path }}"
   {{ "required" if required else "" }}
