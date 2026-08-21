@@ -101,7 +101,9 @@ const setFormValue = (keys, value) => {
         // Checkboxes
         $(document.getElementById(`${formId}.${childValue}`)).prop('checked', true);
         // Tagsinput
-        $(document.getElementById(formId)).tagsinput('add', childValue);
+        const tagsInput = $(document.getElementById(formId));
+        tagsInput.tagsinput();
+        tagsInput.tagsinput('add', childValue);
       }
     } else {
       for (const [childKey, childValue] of Object.entries(value)) {
