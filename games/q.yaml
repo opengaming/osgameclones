@@ -1,28 +1,3 @@
-- name: Q2REPRO
-  originals:
-  - Quake 2
-  type: remake
-  repo: 'https://github.com/Paril/q2repro'
-  development: sporadic
-  status: playable
-  platforms:
-  - Linux
-  - Windows
-  multiplayer:
-  - Competitive
-  - Online
-  - LAN
-  content: commercial
-  langs:
-  - C
-  frameworks:
-  - SDL2
-  licenses:
-  - GPL2
-  info: Enhanced Quake 2 client and server focused on multiplayer
-  added: '2026-08-21'
-  updated: '2026-08-21'
-
 - name: Q2Pro
   originals:
   - Quake 2
@@ -48,6 +23,31 @@
   info: Enhanced Quake 2 client and server
   added: '2025-02-08'
   updated: '2025-02-08'
+
+- name: Q2REPRO
+  originals:
+  - Quake 2
+  type: remake
+  repo: 'https://github.com/Paril/q2repro'
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  - Windows
+  multiplayer:
+  - Competitive
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  info: Enhanced Quake 2 client and server focused on multiplayer
+  added: '2026-08-21'
+  updated: '2026-08-21'
 
 - name: Q-Gears
   images:
