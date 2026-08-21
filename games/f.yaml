@@ -1449,25 +1449,32 @@
   originals:
   - Atomic Bomberman
   type: remake
-  repo: 'https://github.com/PascalCorpsman/fpc_atomic'
-  development: very active
+  repo: https://github.com/PascalCorpsman/fpc_atomic
+  feed: https://github.com/PascalCorpsman/fpc_atomic/releases.atom
+  development: sporadic
   status: playable
   platforms:
   - Windows
   - Linux
   multiplayer:
   - Competitive
+  - Local
   - Online
+  - LAN
+  - Co-op
   content: commercial
   langs:
   - Pascal
   frameworks:
   - Lazarus
+  - SDL2
   licenses:
   - Custom
   - LGPL2
-  added: '2024-06-02'
-  updated: '2024-06-02'
+  added: 2024-06-02
+  updated: 2026-08-21
+  images:
+  - https://camo.githubusercontent.com/6df88ed1e42cc2ba5ee386b9a3a29ec1815180209aeaececabda15c50ac19bc9/68747470733a2f2f7777772e6d796162616e646f6e776172652e636f6d2f6d656469612f73637265656e73686f74732f612f61746f6d69632d626f6d6265726d616e2d696b302f61746f6d69632d626f6d6265726d616e5f31302e706e67
 
 - name: FQuake3
   langs:
