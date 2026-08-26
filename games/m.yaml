@@ -1724,6 +1724,30 @@
   added: 2026-08-26
   updated: 2026-08-26
 
+- name: MegaManX5Recomp
+  originals:
+  - Mega Man X5
+  type: remake
+  repo: 'https://github.com/mstan/MegaManX5Recomp'
+  feed: 'https://github.com/mstan/MegaManX5Recomp/releases.atom'
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - Custom
+  ai: true
+  info: >-
+    Mega Man X5 (USA, SLUS-01334) statically recompiled to a native Windows
+    executable with the PSXRecomp framework
+  added: 2026-08-26
+  updated: 2026-08-26
+
 - name: Meganoid
   originals:
   - Arkanoid
