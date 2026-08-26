@@ -1678,6 +1678,30 @@
   video:
     youtube: zR6UIRQFFag
 
+- name: MegaManX4Recomp
+  originals:
+  - Mega Man X4
+  type: remake
+  repo: 'https://github.com/mstan/MegaManX4Recomp'
+  feed: 'https://github.com/mstan/MegaManX4Recomp/releases.atom'
+  development: active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - Custom
+  ai: true
+  info: >-
+    Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable
+    with PSXRecomp
+  added: 2026-08-26
+  updated: 2026-08-26
+
 - name: Meganoid
   originals:
   - Arkanoid
