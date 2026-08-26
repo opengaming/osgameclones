@@ -1678,6 +1678,28 @@
   video:
     youtube: zR6UIRQFFag
 
+- name: Megaman3NESRecomp
+  originals:
+  - Mega Man 3
+  type: remake
+  repo: 'https://github.com/mstan/Megaman3NESRecomp'
+  feed: 'https://github.com/mstan/Megaman3NESRecomp/releases.atom'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - As-is
+  ai: true
+  info: Mega Man 3 recompiled for the NES using nesrecomp
+  added: 2026-08-26
+  updated: 2026-08-26
+
 - name: MegaManX4Recomp
   originals:
   - Mega Man X4
