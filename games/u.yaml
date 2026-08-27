@@ -22,10 +22,11 @@
   - Ultima VI
   type: remake
   repo: 'https://github.com/ergonomy-joe/u6-decompiled'
-  url: >-
-    https://www.abandonware-forums.org/forum/forum-ltf-abandonware-france/le-bar-des-amis/36760-ultima-vi-les-codes-sources-r%C3%A9g%C3%A9n%C3%A9r%C3%A9s?35874-Ultima-VI-les-codes-sources-r%E9g%E9n%E9r%E9s=
+  url: https://www.abandonware-forums.org/forum/forum-ltf-abandonware-france/le-bar-des-amis/36760-ultima-vi-les-codes-sources-r%C3%A9g%C3%A9n%C3%A9r%C3%A9s?35874-Ultima-VI-les-codes-sources-r%E9g%E9n%E9r%E9s=
   development: halted
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -44,6 +45,9 @@
   feed: 'https://sourceforge.net/p/uhexen/activity/feed'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: commercial
   langs:
   - C
@@ -65,6 +69,8 @@
   originals:
   - Urban Assault
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/Marisa-Chan/UA_source
   development: halted
   feed: https://github.com/Marisa-Chan/UA_source/releases.atom
@@ -84,6 +90,9 @@
   repo: https://github.com/csinkers/ualbion
   development: active
   status: unplayable
+  platforms:
+  - Linux
+  - Windows
   langs:
   - 'C#'
   frameworks:
@@ -107,6 +116,10 @@
   repo: 'https://github.com/UchuServer/Uchu'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Local
   - Online
@@ -130,10 +143,11 @@
   - "Striker '96"
   type: official
   repo: 'https://github.com/LemonHaze420/UEFAStriker96'
-  url: >-
-    https://www.sega-dreamcast-info-games-preservation.com/en/rage-sofware-dreamcast-katana-dev-kit
+  url: https://www.sega-dreamcast-info-games-preservation.com/en/rage-sofware-dreamcast-katana-dev-kit
   development: halted
   status: unplayable
+  platforms:
+  - Dreamcast
   content: commercial
   langs:
   - C
@@ -159,6 +173,9 @@
   - 'X-COM: Apocalypse'
   repo: https://sourceforge.net/projects/ufo2000/
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: remake
   added: 2013-07-05
   updated: 2021-01-06
@@ -188,6 +205,10 @@
   - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - LAN
   - Online
@@ -208,6 +229,8 @@
   originals:
   - Ugh!
   status: playable
+  platforms:
+  - Windows
   repo: https://bitbucket.org/Andy51/ugh-remake
   type: remake
   added: 2015-04-13
@@ -222,6 +245,8 @@
   originals:
   - 'Ultima II: The Revenge of the Enchantress'
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/jaggedsoft/UiirJS
   type: remake
   added: 2015-06-01
@@ -235,6 +260,8 @@
   url: 'https://web.archive.org/web/20170522203625/http://sven.50webs.org/ultima3.html'
   development: halted
   status: playable
+  platforms:
+  - Game Boy
   content: commercial
   langs:
   - C
@@ -254,6 +281,8 @@
   url: 'https://nmikstas.github.io/portfolio/ultima3Disassembly/ultima3.html'
   development: halted
   status: unplayable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -284,6 +313,10 @@
   originals:
   - 'Ultima V: Warriors of Destiny'
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   repo: https://github.com/bradhannah/Ultima5Redux
   type: remake
   url: https://u5redux.wordpress.com/
@@ -301,6 +334,8 @@
   url: 'https://magervalp.github.io/2015/03/30/u4-remastered.html'
   development: halted
   status: N/A
+  platforms:
+  - C64
   content: commercial
   langs:
   - Assembly
@@ -322,6 +357,8 @@
   feed: 'https://github.com/Drunella/u5remastered/releases.atom'
   development: sporadic
   status: N/A
+  platforms:
+  - C64
   content: commercial
   langs:
   - Assembly
@@ -338,10 +375,11 @@
   originals:
   - 'Ultima: Escape from Mt. Drash'
   type: remake
-  url: >-
-    https://www.peroxide.dk/projects_old.shtml#:~:text=the%20mount%20drash%20project
+  url: https://www.peroxide.dk/projects_old.shtml#:~:text=the%20mount%20drash%20project
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   frameworks:
@@ -359,6 +397,8 @@
   url: 'https://www.ticalc.org/archives/files/fileinfo/156/15621.html'
   development: complete
   status: playable
+  platforms:
+  - TI calculator
   langs:
   - C
   licenses:
@@ -394,6 +434,8 @@
   url: 'https://pobtastic.github.io/ultimate/'
   development: halted
   status: playable
+  platforms:
+  - ZX Spectrum
   multiplayer:
   - Local
   content: commercial
@@ -428,6 +470,10 @@
   originals:
   - Stunts
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   repo: https://sourceforge.net/projects/ultimatestunts/
   type: remake
   url: https://www.ultimatestunts.nl/
@@ -441,6 +487,8 @@
   url: 'https://www.hpcalc.org/details/603'
   development: halted
   status: playable
+  platforms:
+  - HP calculator
   langs:
   - RPL
   licenses:
@@ -464,6 +512,10 @@
   repo: https://github.com/UltraStar-Deluxe/USDX
   feed: https://github.com/UltraStar-Deluxe/USDX/releases.atom
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Competitive
   - Co-op
@@ -488,6 +540,11 @@
   - SingStar
   repo: https://github.com/UltraStar-Deluxe/Play
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
   type: remake
   added: 2021-06-06
   updated: 2024-11-08
@@ -511,6 +568,8 @@
   repo: https://github.com/jakowskidev/uMario_Jakowski
   url: https://lukaszjakowski.pl/project,20,mario-cpp.html
   status: playable
+  platforms:
+  - Windows
   type: remake
   added: 2016-03-24
   updated: 2024-11-09
@@ -553,6 +612,8 @@
   repo: 'https://github.com/Ced2911/umk3'
   development: complete
   status: playable
+  platforms:
+  - PS
   multiplayer:
   - Competitive
   - Local
@@ -577,6 +638,8 @@
   originals:
   - Uncharted Waters
   status: semi-playable
+  platforms:
+  - Web
   repo: https://github.com/JohanLi/uncharted-waters-2
   type: remake
   added: 2015-04-05
@@ -594,6 +657,12 @@
   url: https://play.google.com/store/apps/details?id=com.unciv.app
   development: very active
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Raspberry Pi
+  - Android
   multiplayer:
   - Hotseat
   - Online
@@ -641,6 +710,11 @@
   - Undertale
   type: tool
   status: N/A
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  url: https://underminersteam.github.io
   repo: https://github.com/UnderminersTeam/UndertaleModTool
   feed: https://github.com/UnderminersTeam/UndertaleModTool/releases.atom
   development: very active
@@ -673,6 +747,8 @@
   - OpenGL
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: commercial
   licenses:
   - GPL2
@@ -691,6 +767,8 @@
   repo: https://github.com/hankmorgan/UnderworldExporter
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - C#
   - C++
@@ -701,6 +779,7 @@
   content: commercial
   added: 2020-02-25
   updated: 2024-11-13
+  info: Superseded by UnderworldGodot
   video:
     youtube: 4DZj3eWP9cw
 
@@ -712,6 +791,8 @@
   repo: 'https://github.com/hankmorgan/UnderworldGodot'
   development: active
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -719,7 +800,7 @@
   - Godot
   licenses:
   - MIT
-  info: This project supercedes the Unity-based project
+  info: This project supersedes the Unity-based project
   added: '2024-11-18'
   updated: '2024-11-18'
   images:
@@ -767,6 +848,9 @@
   originals:
   - Uninvited
   status: playable
+  platforms:
+  - Linux
+  - OSX
   repo: https://gitlab.com/DavidGriffith/uninvited
   type: remake
   added: 2015-04-04
@@ -779,6 +863,8 @@
   repo: 'https://github.com/stuart73/UnityPacmania'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - 'C#'
@@ -805,6 +891,10 @@
   frameworks:
   - Unity
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   licenses:
@@ -837,6 +927,9 @@
   originals:
   - Anno series
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   repo: https://github.com/unknown-horizons/godot-port
   type: clone
   url: https://unknown-horizons.org
@@ -853,6 +946,9 @@
   feed: 'https://github.com/hedge-dev/UnleashedRecomp/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: commercial
   langs:
   - C++
@@ -871,6 +967,8 @@
   url: 'https://pyrodactyl.com/2020/08/04/11-years-of-pyrodactyl/#:~:text=Unrest'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -906,6 +1004,10 @@
   - CC-BY
   development: very active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   - LAN
@@ -930,6 +1032,8 @@
   url: 'https://archive.org/details/UpNDown_source'
   development: complete
   status: playable
+  platforms:
+  - Atari
   multiplayer:
   - Local
   - Hotseat
@@ -947,6 +1051,8 @@
   repo: 'https://github.com/AdrUlb/Uplink'
   development: sporadic
   status: unplayable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C++
@@ -973,6 +1079,10 @@
   originals:
   - Star Control 2
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://sourceforge.net/projects/sc2/
   type: remake
   url: https://sc2.sourceforge.net/
@@ -986,6 +1096,9 @@
   repo: 'https://github.com/JHGuitarFreak/UQM-MegaMod'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C
@@ -1038,6 +1151,8 @@
   url: 'https://demian.ferrei.ro/snake'
   development: halted
   status: semi-playable
+  platforms:
+  - Web
   content: open
   langs:
   - JavaScript
@@ -1056,6 +1171,8 @@
   url: 'https://sokoban.ws/usokoban/usokoban.php'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1080,6 +1197,8 @@
   repo: 'https://github.com/daddesio/utkencode'
   development: halted
   status: N/A
+  platforms:
+  - None
   content: commercial
   langs:
   - C
@@ -1105,6 +1224,10 @@
   - Heretic
   - Hexen
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/UZDoom/UZDoom
   type: remake
   added: 2025-10-19
