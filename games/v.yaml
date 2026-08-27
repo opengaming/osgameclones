@@ -5,6 +5,8 @@
   repo: 'https://github.com/mattseabrook/v64tng'
   development: sporadic
   status: semi-playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -53,6 +55,8 @@
   url: https://www.indiedb.com/games/van-buren-project
   feed: https://rss.indiedb.com/games/van-buren-project/articles/feed/rss.xml
   status: unplayable
+  platforms:
+  - None
   frameworks:
   - NeoAxis Engine
 
@@ -65,6 +69,8 @@
   feed: 'https://github.com/kvark/vange-rs/releases.atom'
   development: sporadic
   status: unplayable
+  platforms:
+  - Web
   content: commercial
   langs:
   - Rust
@@ -87,11 +93,15 @@
   repo: 'https://github.com/KranX/Vangers'
   development: active
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   content: free
   langs:
   - C++
   frameworks:
-  - SDL2
+  - SDL3
   licenses:
   - GPL3
   info: Open source release of original game
@@ -121,6 +131,10 @@
   repo: https://github.com/TheAssemblyArmada/Vanilla-Conquer
   type: remake
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   updated: 2021-11-20
 
 - name: VASSAL
@@ -136,6 +150,10 @@
   - Board Game
   repo: https://sourceforge.net/projects/vassalengine/
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   type: clone
   updated: 2023-01-13
   url: https://www.vassalengine.org/
@@ -148,6 +166,8 @@
   repo: 'https://github.com/islonely/vasteroids'
   development: sporadic
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - V
@@ -165,6 +185,10 @@
   repo: https://github.com/pingw33n/vault13
   development: sporadic
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   langs:
   - Rust
   licenses:
@@ -183,6 +207,8 @@
   repo: 'https://github.com/kran27/VBEditor'
   development: halted
   status: N/A
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Visual Basic .NET
@@ -208,12 +234,19 @@
   - C++
   licenses:
   - GPL2
+  ai: true
   content: commercial
   originals:
   - Heroes of Might and Magic III
   repo: https://github.com/vcmi/vcmi
   feed: https://github.com/vcmi/vcmi/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - iOS
   type: remake
   url: https://vcmi.eu/
   added: 2011-06-01
@@ -226,6 +259,8 @@
   url: 'https://akalabeth.ultimacodex.com/vecalabeth/'
   development: halted
   status: playable
+  platforms:
+  - Vectrex
   langs:
   - BASIC
   licenses:
@@ -255,6 +290,18 @@
   originals:
   - Asteroids
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - BeOS
+  - Web
+  - Mobile
+  - Wii
+  - PSP
+  - PS2
+  - Amiga
+  - Dreamcast
   type: remake
   added: 2015-04-07
   updated: 2026-03-13
@@ -270,6 +317,8 @@
   repo: 'https://github.com/philspil66/Vectrex-Minestorm'
   development: complete
   status: playable
+  platforms:
+  - Vectrex
   langs:
   - Assembly
   licenses:
@@ -286,6 +335,8 @@
   feed: https://www.vega-strike.org/feed.xml
   development: active
   status: playable
+  platforms:
+  - Linux
   langs:
   - C++
   frameworks:
@@ -317,6 +368,10 @@
   - Dwarf Fortress
   - Minecraft
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://www.gitlab.com/veloren/veloren
   type: similar
   updated: 2023-01-13
@@ -334,6 +389,9 @@
   feed: 'https://sourceforge.net/p/venture/news/feed.rss'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
@@ -352,6 +410,8 @@
   url: 'https://www.biglist.com/lists/stella/archives/200402/msg00060.html'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -376,6 +436,10 @@
   originals:
   - Super Monkey Ball
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   repo: https://github.com/Veraball/veraball
   type: remake
   url: https://veraball.github.io/
@@ -388,6 +452,8 @@
   repo: 'https://github.com/mattgodbolt/verisnake'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - Verilog
   licenses:
@@ -426,6 +492,9 @@
   url: https://play-now.itch.io/vib-ribbon-minus
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - OSX
   content: open
   langs:
   - Python
@@ -449,6 +518,8 @@
   feed: 'https://github.com/luzbel/vigasocosdl-la-abadia-del-crimen/releases.atom'
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - Assembly
@@ -465,6 +536,8 @@
   url: 'https://mastermind.altervista.org/vintage-master-mind-help-eng/'
   development: complete
   status: playable
+  platforms:
+  - None
   content: free
   langs:
   - Python
@@ -496,6 +569,8 @@
   - Crimsonland
   repo: https://github.com/ooxi/violetland
   status: playable
+  platforms:
+  - Windows
   type: clone
   added: 2013-05-29
   updated: 2024-05-06
@@ -511,44 +586,21 @@
   originals:
   - Viper
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/bjornharrtell/viper
   type: remake
   updated: 2015-05-18
-
-- name: Vircadia
-  type: clone
-  originals:
-  - Second Life
-  repo: https://github.com/vircadia/vircadia-native-core
-  feed: https://github.com/vircadia/vircadia-native-core/releases.atom
-  url: 'https://vircadia.com/'
-  development: sporadic
-  status: playable
-  multiplayer:
-  - Online
-  langs:
-  - C++
-  frameworks:
-  - OpenGL
-  - Qt
-  - SDL2
-  licenses:
-  - Apache
-  added: 2021-02-09
-  updated: 2024-05-07
-  images:
-  - https://vircadia.com/wp-content/uploads/2019/12/c8fdf93beea1bfcb0d18d40c7bf05c91a1fe4de6.jpeg
-  - https://vircadia.com/wp-content/uploads/2020/09/startupasiax.jpg
-  - https://vircadia.com/wp-content/uploads/2021/01/SF2.jpg
 
 - name: VirtueOS
   type: remake
   originals:
   - Old School RuneScape
   repo: https://github.com/clienthax/VirtueOS
-  url: https://rune-status.net/
   development: halted
   status: semi-playable
+  platforms:
+  - None
   multiplayer:
   - Online
   langs:
@@ -576,6 +628,12 @@
   repo: https://github.com/vpinball/vpinball
   feed: https://github.com/vpinball/vpinball/releases.atom
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - Android
+  - Raspberry Pi
   type: clone
   added: 2017-01-07
   updated: 2024-05-09
@@ -587,6 +645,8 @@
   originals:
   - Return to Castle Wolfenstein
   status: playable
+  platforms:
+  - PSVita
   type: remake
   repo: 'https://github.com/Rinnegatamante/vitaRTCW'
   development: sporadic
@@ -617,6 +677,10 @@
   url: https://victornils.net/tetris/
   development: complete
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - DOS
   multiplayer:
   - Competitive
   - Online
@@ -639,6 +703,8 @@
   repo: 'https://github.com/atsb/vkHexen'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -685,6 +751,9 @@
   repo: 'https://github.com/M4rti21/voosweeper'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
+  - Linux
   langs:
   - Lua
   frameworks:
@@ -705,6 +774,10 @@
   originals:
   - Highway Encounter
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - Dreamcast
   repo: https://sourceforge.net/projects/vorton/
   type: remake
   updated: 2022-09-16
@@ -729,6 +802,9 @@
   originals:
   - Minecraft
   status: playable
+  platforms:
+  - Windows
+  - Linux
   repo: https://gitlab.com/voxelands/voxelands
   type: remake
   updated: 2023-01-13
@@ -756,6 +832,10 @@
   originals:
   - Minecraft
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
   multiplayer:
   - Online
   - LAN
@@ -772,26 +852,32 @@
   originals:
   - Space Invaders
   type: similar
-  repo: 'https://bitbucket.org/volumesoffun/voxeliens'
+  repo: https://github.com/paroj/voxeliens
   development: halted
   status: playable
+  platforms:
+  - Windows
+  - Linux
   content: open
   langs:
   - C++
   frameworks:
-  - SDL
+  - Qt
+  - OGRE
   licenses:
   - MIT
   added: 2025-10-12
   updated: 2025-10-12
   images:
-  - https://bytebucket.org/volumesoffun/voxeliens/raw/c9c1919a833069d00d83ea6e25664689f118a23c/media/AllScreenshots.png
+  - https://github.com/paroj/voxeliens/blob/master/media/AllScreenshots.png?raw=true
   video:
     youtube: QiA0OxKeKto
 
 - name: Voxelstein 3D
   langs:
   - C++
+  frameworks:
+  - Voxlap
   licenses:
   - MIT
   content: commercial
@@ -803,8 +889,17 @@
   type: clone
   updated: 2022-07-29
   status: playable
+  platforms:
+  - Windows
   url: https://voxelstein3d.sourceforge.net/
   info: Voxelstein 3D is a voxel based FPS game in the spirit of Wolfenstein 3D. It uses Ken Silverman's Voxlap engine.
+  images:
+  - https://voxelstein3d.sourceforge.net/screen1.png
+  - https://voxelstein3d.sourceforge.net/screen2.png
+  - https://voxelstein3d.sourceforge.net/screen3.png
+  - https://voxelstein3d.sourceforge.net/screen4.png
+  - https://voxelstein3d.sourceforge.net/screen5.png
+  - https://voxelstein3d.sourceforge.net/screen6.png
   video:
     youtube: LqI9U7_w8BI
 
@@ -817,6 +912,8 @@
   feed: 'https://www.voxelquest.com/1/feed'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C++
@@ -853,6 +950,12 @@
   url: https://thelettervsixtim.es
   development: sporadic
   status: playable
+  platforms:
+  - Windows
+  - Linux
+  - OSX
+  - iOS
+  - Android
   content: commercial
   langs:
   - ActionScript
