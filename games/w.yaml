@@ -5,6 +5,8 @@
   repo: 'https://github.com/asvitkine/wage-engine'
   development: halted
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -22,6 +24,10 @@
   repo: 'https://gitlab.com/mohofobodaktyl/mwalic'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer: 
   - Online
   - LAN
@@ -41,10 +47,11 @@
   originals:
   - Tetris
   type: clone
-  url: >-
-    https://web.archive.org/web/20090221032744/http://dwarfcity.co.uk/games/thewall.php
+  url: https://web.archive.org/web/20090221032744/http://dwarfcity.co.uk/games/thewall.php
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - C++
   licenses:
@@ -61,9 +68,11 @@
   - JezzBall
   type: clone
   repo: https://github.com/plainsightcollection/plainsightcollection.github.io
-  url: http://montrose.is/#wallball
+  url: https://montrose.is/wallball.html
   development: complete
   status: playable
+  platforms:
+  - Web
   content: open
   langs:
   - Haxe
@@ -86,6 +95,8 @@
   repo: 'https://github.com/vinceh121/wanderer'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -106,6 +117,9 @@
   url: 'https://www.steveshipway.org/software/wanderer/f_wanderer.html'
   development: halted
   status: playable
+  platforms:
+  - DOS
+  - Atari
   content: open
   langs:
   - C
@@ -127,6 +141,8 @@
   feed: https://gitlab.com/m210/wanggdx.atom
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Java
@@ -146,6 +162,10 @@
   repo: 'https://github.com/acoto87/war1'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
+  - Raspberry Pi
   content: commercial
   langs:
   - C
@@ -168,6 +188,10 @@
   originals:
   - 'Warcraft: Orcs & Humans'
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   type: remake
   repo: 'https://github.com/Wargus/war1gus'
   url: 'https://stratagus.com/war1gus.html'
@@ -202,6 +226,8 @@
   feed: 'https://sourceforge.net/p/warpong/news/feed.atom'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C++
@@ -219,40 +245,16 @@
   - 'https://a.fsdn.com/con/app/proj/warpong/screenshots/96268.jpg'
   - 'https://a.fsdn.com/con/app/proj/warpong/screenshots/93229.jpg'
 
-- name: War Thunder
-  originals:
-  - War Thunder
-  type: official
-  repo: 'https://github.com/GaijinEntertainment/DagorEngine'
-  feed: 'https://github.com/GaijinEntertainment/DagorEngine/releases.atom'
-  development: active
-  status: playable
-  multiplayer:
-  - Competitive
-  - Online
-  content: commercial
-  langs:
-  - C++
-  frameworks:
-  - FMOD
-  - OpenXR
-  licenses:
-  - BSD
-  info: Dagor Engine and Tools source code from Gaijin Games KFT
-  updated: '2023-11-12'
-  images:
-  - >-
-    https://uploads.golmedia.net/uploads/articles/article_media/9368082791698855425gol1.jpg
-
 - name: War Worlds
   originals:
   - War Worlds
   type: official
   repo: 'https://github.com/codeka/wwmmo'
-  url: 'https://www.war-worlds.com/blog/2014/08/war-worlds-is-shutting-down'
   feed: 'https://github.com/codeka/wwmmo/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Android
   multiplayer:
   - Online
   content: free
@@ -266,11 +268,13 @@
 - name: 'Warcraft 2000: Nuclear Epidemic'
   originals:
   - 'Warcraft 2000'
-  type: remake
+  type: official
   repo: 'https://github.com/ForNeVeR/warcraft-2000-nuclear-epidemic'
   development: halted
   status: playable
-  content: commercial
+  platforms:
+  - Windows
+  content: free
   langs:
   - C++
   licenses:
@@ -298,6 +302,10 @@
   originals:
   - Warcraft II
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Online
   - LAN
@@ -321,6 +329,8 @@
   originals:
   - Wario Land 3
   status: semi-playable
+  platforms:
+  - Linux
   repo: https://github.com/Nearoo/Wario-Land-3
   type: remake
   updated: 2023-02-08
@@ -347,6 +357,13 @@
   originals:
   - Worms Series
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - Android
+  - Mobile
+  - BeOS
   repo: https://github.com/yeKcim/warmux
   type: clone
   video:
@@ -373,6 +390,8 @@
   video:
     youtube: 2YDPQW7uyQ8
   status: semi-playable
+  platforms:
+  - Windows
 
 - name: Warzone 2100
   images:
@@ -391,6 +410,10 @@
   originals:
   - Warzone 2100
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   repo: https://github.com/Warzone2100/warzone2100
   type: remake
   url: https://wz2100.net/
@@ -404,6 +427,8 @@
   url: 'https://crates.io/crates/wasm_terminal_2048'
   development: halted
   status: playable
+  platforms:
+  - Web
   langs:
   - Rust
   - JavaScript
@@ -425,6 +450,8 @@
   repo: 'https://github.com/swisspol/WaterRace'
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   multiplayer:
   - Competitive
   - LAN
@@ -447,6 +474,8 @@
   originals:
   - Atomix
   status: playable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/watomic/
   type: remake
   updated: 2022-03-20
@@ -465,6 +494,8 @@
   repo: 'https://github.com/LLONSIT/Wave-Race-64'
   development: active
   status: unplayable
+  platforms:
+  - N64
   content: commercial
   langs:
   - Assembly
@@ -520,6 +551,8 @@
   repo: https://github.com/awlzac/wbt
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Java
   licenses:
@@ -538,6 +571,8 @@
   content: free
   development: halted
   status: playable
+  platforms:
+  - Android
   originals:
   - Tempest
   repo: https://github.com/awlzac/wbta
@@ -547,26 +582,28 @@
   - https://lh3.ggpht.com/O0313eHvoYWtkWxyJ20OwEUkokDeFTbvfQCxh_dDnACCgybCbhPpIQwzkAgtYq9gPg=w300
 
 - name: WebFun
-  development: halted
+  development: sporadic
   images:
-  - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/game-start.png
-  - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/game-fight.png
-  - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/game-debug.png
-  - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/mobile-game.png
-  - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/mobile-menu.png
-  - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/save-game-editor.png
-  - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/tile-editor.png
-  - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/character-editor.png
-  - https://media.githubusercontent.com/media/cyco/WebFun/master/docs/screenshots/action-editor.png
+  - https://codeberg.org/cyco/WebFun/media/branch/master/docs/screenshots/game-start.png
+  - https://codeberg.org/cyco/WebFun/media/branch/master/docs/screenshots/game-fight.png
+  - https://codeberg.org/cyco/WebFun/media/branch/master/docs/screenshots/game-debug.png
+  - https://codeberg.org/cyco/WebFun/media/branch/master/docs/screenshots/mobile-game.png
+  - https://codeberg.org/cyco/WebFun/media/branch/master/docs/screenshots/mobile-menu.png
+  - https://codeberg.org/cyco/WebFun/media/branch/master/docs/screenshots/save-game-editor.png
+  - https://codeberg.org/cyco/WebFun/media/branch/master/docs/screenshots/tile-editor.png
+  - https://codeberg.org/cyco/WebFun/media/branch/master/docs/screenshots/character-editor.png
+  - https://codeberg.org/cyco/WebFun/media/branch/master/docs/screenshots/action-editor.png
   langs:
   - TypeScript
   licenses:
   - MIT
-  content: commercial
+  content: free
   originals:
   - 'Star Wars: Yoda Stories'
-  repo: https://github.com/cyco/WebFun
-  status: semi-playable
+  repo: https://codeberg.org/cyco/WebFun
+  status: playable
+  platforms:
+  - Web
   type: remake
   updated: 2024-04-28
   url: https://www.webfun.io/
@@ -576,9 +613,13 @@
   - Quake
   type: remake
   repo: 'https://github.com/Triang3l/WebQuake'
-  url: https://triang3l.github.io/WebQuake/
   development: halted
   status: playable
+  multiplayer:
+  - Online
+  - Competitive
+  platforms:
+  - Web
   content: commercial
   langs:
   - JavaScript
@@ -650,6 +691,10 @@
   content: open
   development: very active
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Online
   - LAN
@@ -668,6 +713,8 @@
   repo: 'https://github.com/doldecomp/ogws'
   development: very active
   status: unplayable
+  platforms:
+  - Wii
   content: commercial
   langs:
   - C
@@ -686,6 +733,8 @@
   feed: 'https://github.com/htv04/wiilove-wiirdle/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Wii
   content: open
   langs:
   - Lua
@@ -707,6 +756,8 @@
   url: https://pyrodactyl.com/2020/08/04/11-years-of-pyrodactyl/#:~:text=Will%20Fight%20for%20Food:%20SAS:%20GOTH
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -727,6 +778,8 @@
   originals:
   - Willow
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/Kwintenvdb/Willow-Game-Remake
   type: remake
   updated: 2015-06-28
@@ -740,6 +793,8 @@
   feed: 'https://github.com/jasonbrianhall/willytheworm/releases.atom'
   development: active
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C++
@@ -780,6 +835,10 @@
   - 'The Legend of Zelda: The Wind Waker'
   type: tool
   status: N/A
+  platforms:
+  - Linux
+  - Windows
+  - OSX
   repo: 'https://github.com/LagoLunatic/wwrando'
   feed: 'https://github.com/LagoLunatic/wwrando/releases.atom'
   development: sporadic
@@ -806,6 +865,8 @@
     https://web.archive.org/web/20231001204442/http://magicrom.fr.pagesperso-orange.fr/prog.htm#:~:text=WinDungeon
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -830,6 +891,10 @@
   feed: 'https://sourceforge.net/p/wing/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - DOS
   content: open
   langs:
   - C++
@@ -851,10 +916,10 @@
   - The Great Giana Sisters
   type: remake
   repo: 'https://os4depot.net/?function=showfile&file=game/platform/winterjumper.lha'
-  url: >-
-    https://gueux-forum.net/index.php?/topic/224725-winter-jumper-giana-sisters-remake-dingux/
   development: halted
   status: semi-playable
+  platforms:
+  - Amiga
   content: commercial
   langs:
   - C++
@@ -875,6 +940,8 @@
   repo: 'https://github.com/ElakaSnarne/WinTex'
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C++
@@ -905,6 +972,8 @@
   originals:
   - 'Warcraft: Orcs & Humans'
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/CAMongrel/WinWar
   type: remake
   updated: 2024-04-30
@@ -919,6 +988,8 @@
   url: 'https://x.com/forestillusion/status/1508048268176990209'
   development: complete
   status: playable
+  platforms:
+  - PS
   content: free
   langs:
   - C++
