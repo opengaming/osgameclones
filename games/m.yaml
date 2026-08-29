@@ -52,6 +52,8 @@
   repo: 'https://github.com/Blzut3/Wolf3D-Mac/'
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   content: commercial
   langs:
   - C
@@ -111,9 +113,13 @@
   originals:
   - Wolfenstein 3D
   type: remake
-  repo: 'https://github.com/LateGator/MacWolfSDL'
+  repo: 'https://github.com/kaylagator/MacWolfSDL'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: commercial
   langs:
   - C
