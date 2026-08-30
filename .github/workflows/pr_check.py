@@ -108,6 +108,7 @@ KNOWN_FRAMEWORKS = [
   'Sea3D',
   'SFML',
   'Slick2D',
+  'Sokol',
   'Solarus',
   'Source SDK',
   'Spring RTS Engine',
