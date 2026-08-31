@@ -2025,6 +2025,11 @@
   url: 'https://amigan.1emu.net/releases/#wormwars'
   development: complete
   status: playable
+  platforms:
+  - Amiga
+  - Android
+  - GBA
+  - Windows
   content: free
   langs:
   - C
@@ -2045,6 +2050,10 @@
   url: 'https://web.archive.org/web/20141218154118/http://wormsofprey.org/'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -2069,10 +2078,12 @@
   - Worms?
   type: official
   repo: 'https://github.com/savetz/worms'
-  url: >-
-    https://web.archive.org/web/20210317163654/https://twitter.com/KaySavetz/status/1372225168731295751
+  url: https://web.archive.org/web/20210317163654/https://twitter.com/KaySavetz/status/1372225168731295751
   development: complete
   status: playable
+  platforms:
+  - Atari
+  - C64
   langs:
   - Forth
   licenses:
@@ -2087,6 +2098,8 @@
   repo: 'https://github.com/Hutsell-Games/civil-war-battleset'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: open
   langs:
   - BASIC
@@ -2106,6 +2119,8 @@
     https://hutsellgames.com/2022/04/18/civil-war-strategy-1-6-releases-and-looking-for-testers/
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   content: open
@@ -2126,6 +2141,8 @@
   repo: 'https://github.com/Hutsell-Games/wars-of-napoleon'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: open
   langs:
   - BASIC
@@ -2143,6 +2160,8 @@
   repo: 'https://github.com/Hutsell-Games/world-war-2'
   development: complete
   status: playable
+  platforms:
+  - DOS
   multiplayer:
   - Competitive
   content: open
@@ -2166,6 +2185,8 @@
   originals:
   - VVVVVV
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/alexdantas/www
   url: https://www.newgrounds.com/portal/view/640265
   type: clone
@@ -2183,6 +2204,10 @@
   url: https://wxlasertank.sourceforge.net
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: open
   langs:
   - C++
