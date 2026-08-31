@@ -1004,13 +1004,19 @@
   type: remake
   repo: 'https://github.com/phoboslab/wipeout-rewrite'
   url: 'https://phoboslab.org/wipegame/'
-  development: very active
+  development: active
   status: playable
+  platforms:
+  - Linux
+  - Windows
+  - OSX
+  - Web
   content: commercial
   langs:
   - C
   frameworks:
   - SDL2
+  - Sokol
   licenses:
   - As-is
   info: based on Wipeout leaked source code
@@ -1028,6 +1034,8 @@
   feed: 'https://github.com/jnmartin84/wipeout-dc/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Dreamcast
   content: commercial
   langs:
   - C
@@ -1050,8 +1058,13 @@
   - The Binding of Isaac
   repo: https://github.com/Cirrus-Minor/witchblast
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: remake
   updated: 2018-03-19
+  images:
+  - https://cloud.githubusercontent.com/assets/7290164/10816257/b8af135c-7e31-11e5-95d0-cdda7703091a.png
   video:
     youtube: FsHqu0JpP_k
 
@@ -1064,6 +1077,8 @@
     https://web.archive.org/web/20150621123327/http://www.lesbird.com/CAPSTONE/#:~:text=Witchaven%20I
   development: complete
   status: playable
+  platforms:
+  - DOS
   multiplayer:
   - LAN
   content: commercial
@@ -1085,6 +1100,8 @@
     https://web.archive.org/web/20201025064041/https://www.lesbird.com/CAPSTONE/#:~:text=Witchaven%20II,-%20source
   development: complete
   status: playable
+  platforms:
+  - DOS
   multiplayer:
   - LAN
   content: commercial
@@ -1106,6 +1123,8 @@
   url: https://m210.duke4.net/
   development: sporadic
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - Java
@@ -1140,6 +1159,8 @@
   url: 'https://www.erasmatazz.com/library/source-code/#:~:text=Wizard'
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -1155,6 +1176,8 @@
   feed: 'https://sourceforge.net/projects/wizardofworhtml5/rss?path=/'
   development: complete
   status: playable
+  platforms:
+  - Web
   multiplayer:
   - Local
   content: open
@@ -1173,10 +1196,11 @@
   originals:
   - 'Wizardry III: Legacy of Llylgamyn'
   type: official
-  url: >-
-    https://archive.org/details/wizardry-iii-legacy-of-llylgamyn-sir-tech-1983-source-code.-7z
+  url: https://archive.org/details/wizardry-iii-legacy-of-llylgamyn-sir-tech-1983-source-code.-7z
   development: complete
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -1196,6 +1220,9 @@
   originals:
   - Wizardry
   status: unplayable
+  platforms:
+  - Linux
+  - Windows
   repo: https://gitlab.com/larienna/cppgame_wizardry
   type: remake
   updated: 2023-01-27
@@ -1209,6 +1236,9 @@
   url: 'https://craigchandler.xyz/wizball-remake/'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Local
   - Co-op
@@ -1246,6 +1276,9 @@
   - Puzznic
   repo: https://github.com/DusteDdk/Wizznic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   type: remake
   updated: 2023-03-21
   url: https://sourceforge.net/projects/wizznic/
@@ -1260,6 +1293,8 @@
   originals:
   - Warrior Kings
   status: unplayable
+  platforms:
+  - Windows
   repo: https://github.com/AdrienTD/wkbre
   type: remake
   updated: 2023-01-06
@@ -1273,6 +1308,9 @@
   repo: 'https://github.com/AdrienTD/wkbre2'
   development: sporadic
   status: unplayable
+  platforms:
+  - Linux
+  - Windows
   content: commercial
   langs:
   - C++
@@ -1294,6 +1332,8 @@
     https://www.pcmag.com/archive/free-browser-based-wolfenstein-3d-released-by-bethesda-297681
   development: complete
   status: playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - JavaScript
@@ -1312,6 +1352,8 @@
     https://www.engadget.com/2009-03-24-carmack-releases-open-source-wolfenstein-for-iphone.html
   development: complete
   status: playable
+  platforms:
+  - iOS
   content: commercial
   langs:
   - C
@@ -1330,6 +1372,8 @@
   feed: 'https://sourceforge.net/projects/wolf3d-s60/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - Mobile
   content: commercial
   langs:
   - C
@@ -1355,6 +1399,9 @@
   repo: https://github.com/francot514/Wolf3dX
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   langs:
   - C#
   frameworks:
@@ -1407,6 +1454,8 @@
   feed: 'https://sourceforge.net/p/wolf3dredux/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: commercial
   langs:
   - C
@@ -1431,6 +1480,8 @@
   repo: 'https://github.com/id-Software/wolf3d'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: commercial
   langs:
   - C
@@ -1449,6 +1500,8 @@
   repo: 'https://github.com/pbrook/ewolf3d'
   development: halted
   status: playable
+  platforms:
+  - Stellaris
   content: commercial
   langs:
   - C
@@ -1466,6 +1519,8 @@
   feed: 'https://sourceforge.net/p/wolfeinstein3dhtml5/activity/feed'
   development: halted
   status: playable
+  platforms:
+  - Web
   content: commercial
   langs:
   - JavaScript
@@ -1488,6 +1543,8 @@
   feed: 'https://sourceforge.net/p/wolfenstein3dwi/news/feed.rss'
   development: halted
   status: playable
+  platforms:
+  - Wii
   content: commercial
   langs:
   - C
@@ -1508,6 +1565,9 @@
     https://www.splashdamage.com/news/wolfenstein-enemy-territory-goes-open-source/
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -1532,6 +1592,9 @@
   feed: 'https://sourceforge.net/p/wolfgl/code/feed/'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: commercial
   langs:
   - C
@@ -1553,6 +1616,9 @@
   feed: 'https://github.com/fabiangreffrath/woof/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: commercial
   langs:
   - C
@@ -1573,6 +1639,8 @@
   url: https://smcameron.github.io/wordwarvi/
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1592,10 +1660,11 @@
   originals:
   - Word Whiz
   type: official
-  url: >-
-    https://web.archive.org/web/20250404124834/https://legacy.3drealms.com/downloads.html#wordwhiz
+  url: https://web.archive.org/web/20250404124834/https://legacy.3drealms.com/downloads.html#wordwhiz
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - Pascal
   licenses:
@@ -1611,6 +1680,8 @@
   repo: 'https://github.com/progfolio/wordel'
   development: sporadic
   status: playable
+  platforms:
+  - None
   langs:
   - Emacs Lisp
   frameworks:
@@ -1631,6 +1702,8 @@
   feed: 'https://github.com/palerdot/wordl-rs/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -1648,6 +1721,8 @@
   url: 'https://crates.io/crates/wordle'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -1663,6 +1738,10 @@
   feed: 'https://github.com/nimblebun/wordle-cli/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   langs:
   - Go
   licenses:
@@ -1682,6 +1761,8 @@
   feed: 'https://git.hanabi.in/wordle-cli/atom.xml'
   development: complete
   status: playable
+  platforms:
+  - None
   langs:
   - Go
   licenses:
@@ -1697,6 +1778,8 @@
   url: 'https://quuxplusone.github.io/wordle-clone/birdle/'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   langs:
   - HTML
   - CSS
@@ -1714,6 +1797,8 @@
   feed: 'https://github.com/ivanjermakov/wordle/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Haskell
   frameworks:
@@ -1734,6 +1819,8 @@
   feed: 'https://pypi.org/rss/project/wordle-pycli/releases.xml'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Python
   licenses:
@@ -1752,6 +1839,8 @@
   feed: 'https://github.com/notken12/wordle-rust/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   content: open
   langs:
   - Rust
@@ -1768,6 +1857,8 @@
   url: 'https://crates.io/crates/wordle_clone'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -1787,6 +1878,8 @@
   feed: 'https://pypi.org/rss/project/wordlemini/releases.xml'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Python
   frameworks:
@@ -1808,6 +1901,8 @@
   feed: 'https://github.com/64bit/wordle-rs/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -1826,6 +1921,8 @@
   url: 'https://crates.io/crates/wordlet'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Rust
   licenses:
@@ -1844,6 +1941,8 @@
     https://www.pcgamesn.com/world-in-conflict/world-in-conflict-open-source-multiplayer
   development: complete
   status: N/A
+  platforms:
+  - Windows
   langs:
   - C++
   licenses:
@@ -1895,11 +1994,12 @@
   - World Train Royale
   type: official
   repo: 'https://sourceforge.net/projects/trainroyale/'
-  url: >-
-    https://web.archive.org/web/20160215220211/http://versus-software.com/blog/world-train-royale-is-free-as-in-beer-and-speech/
+  url: https://web.archive.org/web/20160215220211/http://versus-software.com/blog/world-train-royale-is-free-as-in-beer-and-speech/
   feed: 'https://sourceforge.net/p/trainroyale/code/feed/'
   development: complete
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C++
@@ -1925,6 +2025,11 @@
   url: 'https://amigan.1emu.net/releases/#wormwars'
   development: complete
   status: playable
+  platforms:
+  - Amiga
+  - Android
+  - GBA
+  - Windows
   content: free
   langs:
   - C
@@ -1945,6 +2050,10 @@
   url: 'https://web.archive.org/web/20141218154118/http://wormsofprey.org/'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -1969,10 +2078,12 @@
   - Worms?
   type: official
   repo: 'https://github.com/savetz/worms'
-  url: >-
-    https://web.archive.org/web/20210317163654/https://twitter.com/KaySavetz/status/1372225168731295751
+  url: https://web.archive.org/web/20210317163654/https://twitter.com/KaySavetz/status/1372225168731295751
   development: complete
   status: playable
+  platforms:
+  - Atari
+  - C64
   langs:
   - Forth
   licenses:
@@ -1987,6 +2098,8 @@
   repo: 'https://github.com/Hutsell-Games/civil-war-battleset'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: open
   langs:
   - BASIC
@@ -2006,6 +2119,8 @@
     https://hutsellgames.com/2022/04/18/civil-war-strategy-1-6-releases-and-looking-for-testers/
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Competitive
   content: open
@@ -2026,6 +2141,8 @@
   repo: 'https://github.com/Hutsell-Games/wars-of-napoleon'
   development: complete
   status: playable
+  platforms:
+  - DOS
   content: open
   langs:
   - BASIC
@@ -2043,6 +2160,8 @@
   repo: 'https://github.com/Hutsell-Games/world-war-2'
   development: complete
   status: playable
+  platforms:
+  - DOS
   multiplayer:
   - Competitive
   content: open
@@ -2066,6 +2185,8 @@
   originals:
   - VVVVVV
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/alexdantas/www
   url: https://www.newgrounds.com/portal/view/640265
   type: clone
@@ -2083,6 +2204,10 @@
   url: https://wxlasertank.sourceforge.net
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: open
   langs:
   - C++

@@ -4,6 +4,8 @@
   type: remake
   url: 'https://www.emeraldmines.net/?emeraldx11'
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -24,10 +26,12 @@
   originals:
   - Atomic Bomberman
   type: clone
-  repo: 'http://www.newbreedsoftware.com/xbomber/download/'
-  url: 'http://www.newbreedsoftware.com/xbomber/'
+  repo: 'https://www.newbreedsoftware.com/xbomber/download/'
+  url: 'https://www.newbreedsoftware.com/xbomber/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -36,13 +40,13 @@
   added: 2025-10-19
   updated: 2025-10-19
   images:
-  - https://web.archive.org/web/20240430213059if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_title.gif
-  - https://web.archive.org/web/20240430213100if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_columnofflame.gif
-  - https://web.archive.org/web/20240430213059if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_checkers.gif
-  - https://web.archive.org/web/20240430213100if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_cleaningup.gif
-  - https://web.archive.org/web/20240430213101if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_warps.gif
-  - https://web.archive.org/web/20240430213100if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_death.gif
-  - https://web.archive.org/web/20240430213102if_/http://www.newbreedsoftware.com/xbomber/screenshots/ss_lowcolor.gif
+  - https://www.newbreedsoftware.com/xbomber/screenshots/ss_title.gif
+  - https://www.newbreedsoftware.com/xbomber/screenshots/ss_columnofflame.gif
+  - https://www.newbreedsoftware.com/xbomber/screenshots/ss_checkers.gif
+  - https://www.newbreedsoftware.com/xbomber/screenshots/ss_cleaningup.gif
+  - https://www.newbreedsoftware.com/xbomber/screenshots/ss_warps.gif
+  - https://www.newbreedsoftware.com/xbomber/screenshots/ss_death.gif
+  - https://www.newbreedsoftware.com/xbomber/screenshots/ss_lowcolor.gif
   video:
     youtube: y2EYuJXY3tM
 
@@ -62,6 +66,8 @@
   - 'X-COM: Terror from the Deep'
   - 'X-COM: Apocalypse'
   status: playable
+  platforms:
+  - Windows
   repo: https://sourceforge.net/projects/xforceffd
   type: clone
   added: 2015-04-11
@@ -88,11 +94,15 @@
   - Elasto Mania
   repo: https://github.com/xmoto/xmoto
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   feed: https://github.com/xmoto/xmoto/releases.atom
   type: clone
   added: 2014-06-16
   updated: 2023-10-13
-  url: https://xmoto.tuxfamily.org
+  url: https://xmoto.org
 
 - name: X-pired
   originals:
@@ -103,6 +113,9 @@
   feed: 'https://sourceforge.net/p/xpired/activity/feed'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - C
@@ -136,6 +149,9 @@
   repo: https://github.com/Skarmux/X-Settlers
   type: remake
   status: unplayable
+  platforms:
+  - Linux
+  - Windows
   added: 2021-03-14
   updated: 2023-10-15
 
@@ -153,6 +169,9 @@
   originals:
   - 'Archon: The Light and the Dark'
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: http://xarchon.seul.org/download.html
   type: remake
   added: 2015-05-03
@@ -166,6 +185,8 @@
   url: 'https://www.classicdosgames.com/game/Xargon.html'
   development: complete
   status: playable
+  platforms:
+  - DOS
   langs:
   - C
   licenses:
@@ -181,6 +202,8 @@
   url: https://repo.openpandora.org/?page=detail&app=xargon_ptitseb
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C++
@@ -207,6 +230,8 @@
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/asteroids/xasteroids.lsm
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -232,6 +257,8 @@
   - Betrayal at Krondor
   repo: https://sourceforge.net/projects/xbak/
   status: playable
+  platforms:
+  - Linux
   type: remake
   added: 2014-08-15
   updated: 2014-08-15
@@ -241,10 +268,12 @@
   originals:
   - Boulder Dash
   type: clone
-  repo: >-
-    https://www.artsoft.org/rocksndiamonds/levels/martijnmooij/2010-03-16/www.bd-fans.com/FreewareMSDOS.html#:~:text=XBD%202
+  repo: https://www.artsoft.org/rocksndiamonds/levels/martijnmooij/2010-03-16/www.bd-fans.com/FreewareMSDOS.html#:~:text=XBD%202
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - DOS
   content: free
   langs:
   - C
@@ -265,6 +294,9 @@
   feed: 'https://sourceforge.net/p/xblast/news/feed.atom'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -296,15 +328,21 @@
   originals:
   - Breakout
   type: clone
-  repo: 'https://www.techrescue.org/xboing/downloads.html'
+  repo: https://github.com/jmf-pobox/xboing-c
   url: 'https://www.techrescue.org/xboing/'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - OSX
   content: free
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - MIT
+  ai: true
   added: 2025-07-31
   updated: 2025-07-31
   images:
@@ -326,6 +364,8 @@
   feed: 'https://github.com/Nazgand/xbomb/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -347,6 +387,8 @@
   url: 'https://web.archive.org/web/20211204185136/https://xbreaky.sourceforge.net/'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -366,6 +408,8 @@
   feed: 'https://savannah.nongnu.org/news/atom.php?group=xbubble'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Split-screen
   content: open
@@ -386,6 +430,8 @@
   url: 'http://vidalc.chez.com/xchomp/xchomp.html'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -413,6 +459,9 @@
     https://web.archive.org/web/20100331135549/http://www.creator.club.ne.jp/~jagarl/xclannad.html
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   content: commercial
   langs:
   - C
@@ -461,6 +510,10 @@
   - Empire
   repo: https://github.com/brentjohnson/xconq
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: similar
   added: 2020-05-19
   updated: 2020-05-19
@@ -473,6 +526,8 @@
   url: 'https://www.babafou.eu.org/xdemineur/'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -491,6 +546,8 @@
   url: 'https://www.ibiblio.org/pub/Linux/games/arcade/xdigger.lsm'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -509,6 +566,9 @@
   url: 'https://xdriller.sourceforge.net/'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - C++
@@ -534,6 +594,8 @@
   url: https://vision.gel.ulaval.ca/~klein/duke3d/
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - LAN
   - Online
@@ -568,6 +630,10 @@
   - 'X-COM: Apocalypse'
   repo: https://github.com/drodin/xenowar
   status: playable
+  platforms:
+  - OSX
+  - Android
+  - iOS
   type: clone
   added: 2014-11-26
   updated: 2023-03-26
@@ -582,6 +648,8 @@
   feed: 'https://github.com/jotd666/xevious/releases.atom'
   development: sporadic
   status: playable
+  platforms:
+  - Amiga
   content: free
   langs:
   - C
@@ -602,6 +670,8 @@
     https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Xevious
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -618,6 +688,8 @@
   feed: 'https://sourceforge.net/projects/xgalaga/rss?path=/'
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -636,6 +708,8 @@
   feed: 'https://github.com/frank-zago/xgalaga-sdl/releases.atom'
   development: complete
   status: playable
+  platforms:
+  - Amiga
   content: open
   langs:
   - C
@@ -664,6 +738,9 @@
   url: 'https://marc.mongenet.ch/OSS/XGalaga/'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
   content: open
   langs:
   - C
@@ -683,6 +760,8 @@
   url: 'https://sourceforge.net/projects/xgreed/'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Pascal
@@ -710,6 +789,8 @@
     https://web.archive.org/web/20051025042944/http://tsunami.anime.net/~bogard/sonic/xhedgehog.html
   development: halted
   status: unplayable
+  platforms:
+  - Linux
   content: free
   langs:
   - C++
@@ -727,6 +808,8 @@
   feed: 'https://github.com/akosela/xhyperoid/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   frameworks:
@@ -749,6 +832,8 @@
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/invaders/xinvaders.lsm
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -765,6 +850,8 @@
   feed: 'https://github.com/JoesCat/xinvaders3d/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -786,6 +873,8 @@
   originals:
   - X-It
   status: playable
+  platforms:
+  - Web
   repo: https://github.com/qfel13/xit
   url: https://qfel13.pl/xit/
   type: remake
@@ -811,6 +900,8 @@
     https://web.archive.org/web/20100409004347/http://www.creator.club.ne.jp/~jagarl/xkanon.html
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: commercial
   langs:
   - C
@@ -849,6 +940,9 @@
   - Shadow Warrior
   - 'The Elder Scrolls II: Daggerfall'
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://github.com/Mindwerks/XLEngine
   type: remake
   added: 2016-08-01
@@ -862,6 +956,8 @@
   url: 'https://aur.archlinux.org/packages/xlode'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -885,8 +981,12 @@
   repo: https://github.com/magefree/mage
   feed: https://github.com/magefree/mage/releases.atom
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: clone
-  url: http://xmage.today
+  url: https://xmage.today
   added: 2017-01-07
   updated: 2025-03-22
   images:
@@ -901,6 +1001,8 @@
   url: https://www.mobygames.com/game/151978/xmine/
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -920,6 +1022,8 @@
   url: 'https://www.ibiblio.org/pub/X11/contrib/games/xminehunter-0.4.README'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
