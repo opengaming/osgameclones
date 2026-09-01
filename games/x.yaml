@@ -1090,6 +1090,8 @@
   url: 'https://www.freshports.org/games/xminesweep/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -1105,6 +1107,8 @@
   url: 'https://www.ibiblio.org/pub/Linux/games/multiplayer/XNetMine.lsm'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Online
   - LAN
@@ -1123,6 +1127,8 @@
   url: 'https://www.freshports.org/games/xoids/'
   development: complete
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Competitive
   content: open
@@ -1141,6 +1147,8 @@
   url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/xonix-1.0.lsm'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1157,6 +1165,9 @@
   feed: 'https://github.com/denix666/xonix/releases.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   content: open
   langs:
   - Rust
@@ -1187,6 +1198,10 @@
   - Nexuiz
   repo: https://gitlab.com/xonotic/xonotic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: clone
   added: 2013-09-20
   updated: 2023-03-26
@@ -1210,6 +1225,8 @@
   originals:
   - XOR
   status: playable
+  platforms:
+  - Linux
   repo: https://github.com/jwm-art-net/XorCurses
   type: clone
   added: 2013-06-06
@@ -1252,6 +1269,10 @@
   - Dragon Age II
   repo: https://github.com/xoreos/xoreos
   status: unplayable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   added: 2013-05-28
   updated: 2025-05-24
@@ -1263,9 +1284,15 @@
   originals:
   - Minesweeper
   type: remake
+  url: https://kurtsley.itch.io/xp-minesweeper-classic
+  feed: https://kurtsley.itch.io/xp-minesweeper-classic/devlog.rss
   repo: 'https://github.com/Kurtsley/XP-Minesweeper-Classic'
-  development: active
+  development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: free
   langs:
   - Lua
@@ -1292,6 +1319,8 @@
   url: 'https://www.freshports.org/games/xpacman/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -1316,6 +1345,9 @@
   originals:
   - XPilot
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://sourceforge.net/projects/xpilot/
   type: remake
   added: 2015-04-06
@@ -1329,6 +1361,8 @@
   url: 'https://web.archive.org/web/20250512171544/https://chaos2.org/xpuyopuyo/'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1352,6 +1386,8 @@
   originals:
   - XQuest
   status: playable
+  platforms:
+  - DOS
   type: remake
   added: 2015-07-11
   updated: 2023-02-07
@@ -1369,6 +1405,8 @@
   feed: 'https://sourceforge.net/projects/xrally/rss?path=/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1394,6 +1432,12 @@
   originals:
   - Rick Dangerous
   status: playable
+  platforms:
+  - Linux
+  - BeOS
+  - Amiga
+  - Web
+  - Windows
   type: remake
   added: 2014-01-12
   updated: 2025-03-18
@@ -1419,6 +1463,8 @@
   originals:
   - Lode Runner
   status: playable
+  platforms:
+  - Linux
   type: remake
   repo: https://sourceforge.net/projects/sdlscavenger/
   added: 2014-01-12
@@ -1432,6 +1478,8 @@
   url: 'http://www.xscorch.org/'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C
@@ -1458,6 +1506,8 @@
   feed: 'https://tracker.debian.org/pkg/xsok/rss'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1477,6 +1527,8 @@
   url: 'https://www.cs.cornell.edu/andru/xsokoban.html'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1497,6 +1549,8 @@
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/xspacewarp-1.2.README
   development: complete
   status: playable
+  platforms:
+  - Linux
   langs:
   - C
   licenses:
@@ -1513,18 +1567,21 @@
   licenses:
   - MIT
   content: open
-  development: halted
+  development: sporadic
   originals:
   - Swing
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   repo: https://github.com/TobseF/XSwing-Plus
   feed: https://github.com/TobseF/XSwing-Plus/releases.atom
   type: remake
   added: 2015-06-24
   updated: 2025-05-25
   images:
-  - https://a.fsdn.com/con/app/proj/xswingplus/screenshots/258322.jpg/max/max/1
-  - https://a.fsdn.com/con/app/proj/xswingplus/screenshots/195990.jpg/max/max/1
+  - https://img.xswing.net/gameplay-full.gif
   video:
     youtube: cLm7sDkO8Z8
 
@@ -1536,6 +1593,8 @@
   url: 'https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/xtron-1.1a.lsm'
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C
@@ -1564,6 +1623,9 @@
   originals:
   - Ultima IV
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://github.com/xu4-engine/u4
   type: remake
   url: https://xu4.sourceforge.net/
@@ -1579,6 +1641,8 @@
   feed: 'https://github.com/BttrDrgn/XVVVVX/releases.atom'
   development: halted
   status: playable
+  platforms:
+  - Xbox
   content: free
   langs:
   - C++
@@ -1607,10 +1671,13 @@
   content: free
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   originals:
   - Kye
   repo: https://sourceforge.net/projects/xye/
-  feed: http://xyegame.blogspot.com/feeds/posts/default
+  feed: http://feeds.feedburner.com/XyeTheBlog
   type: clone
   url: https://xye.sourceforge.net
   added: 2020-06-26
