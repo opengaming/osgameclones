@@ -6,6 +6,8 @@
   url: 'https://hackage.haskell.org/package/YACPong'
   development: halted
   status: semi-playable
+  platforms:
+  - None
   content: open
   langs:
   - Haskell
@@ -27,6 +29,11 @@
   - GPL2
   content: commercial
   development: active
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - BeOS
   originals:
   - Quake 2
   status: playable
@@ -53,6 +60,10 @@
   originals:
   - Quake 2
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   repo: https://github.com/yquake2/yquake2remaster
   type: remake
   added: 2025-06-28
@@ -70,6 +81,8 @@
   feed: 'https://hackage.haskell.org/package/yampa2048.rss'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Haskell
   frameworks:
@@ -86,12 +99,15 @@
   originals:
   - Yars' Revenge
   type: remake
-  url: >-
-    https://web.archive.org/web/20080404203751/http://www.autismuk.freeserve.co.uk/#:~:text=Yar's%20Revenge
+  url: https://web.archive.org/web/20080404203751/http://www.autismuk.freeserve.co.uk/#:~:text=Yar's%20Revenge
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - GPL2
   added: 2025-11-28
@@ -111,6 +127,10 @@
   - Guitar Hero
   repo: https://github.com/YARC-Official/YARG
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: similar
   added: 2023-12-25
   updated: 2024-07-27
@@ -127,6 +147,8 @@
   feed: 'https://maxatrillionator.itch.io/yarntown/devlog.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - Windows
   content: free
   langs:
   - Lua
@@ -157,6 +179,8 @@
   feed: 'https://sourceforge.net/projects/sokobanyasc/rss?path=/'
   development: active
   status: playable
+  platforms:
+  - Windows
   content: open
   langs:
   - C
@@ -182,6 +206,8 @@
   feed: 'https://sourceforge.net/projects/yeoldepong/rss?path=/'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -203,6 +229,8 @@
   url: 'https://harmlesslion.com/software/yiff/'
   development: complete
   status: playable
+  platforms:
+  - DOS
   multiplayer:
   - Local
   - Hotseat
@@ -224,10 +252,17 @@
   type: remake
   originals:
   - Knytt Stories
+  url: https://youkaicountry.itch.io/yknytt
   repo: https://github.com/youkaicountry/yknytt
   feed: https://github.com/youkaicountry/yknytt/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
+  - Web
   langs:
   - C#
   frameworks:
@@ -252,6 +287,10 @@
   url: https://ya2.itch.io/yorg
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Local
   - Online
@@ -288,6 +327,11 @@
   - Sensible World of Soccer
   repo: https://sourceforge.net/projects/ysoccer/
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
   type: remake
   added: 2015-04-03
   updated: 2019-12-12
