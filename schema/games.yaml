@@ -49,6 +49,7 @@ schema;game:
         Unplayable: game cannot be played, e.g. can only load assets<br>
         N/A: does not apply, i.e. for tools
     platforms:
+      required: True
       type: seq
       sequence:
       - include: platforms

@@ -8357,6 +8357,8 @@
   originals:
   - Super Foul Egg
   status: playable
+  platforms:
+  - OSX
   repo: https://github.com/ant512/SuperFoulEgg
   type: remake
   updated: 2022-01-25
@@ -8369,6 +8371,8 @@
   repo: 'https://github.com/initials/SuperHorrorFactory'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: free
   langs:
   - 'C#'
@@ -8387,6 +8391,8 @@
   repo: 'https://www.lemmingsforums.net/index.php?topic=1793.0'
   development: halted
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -8406,6 +8412,8 @@
   url: 'https://www.lemmingsforums.net/index.php?topic=5792.0'
   development: halted
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -8447,6 +8455,10 @@
   url: 'https://initials.itch.io/super-lemonade-factory'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - iOS
   content: open
   langs:
   - ActionScript
@@ -8476,6 +8488,8 @@
   repo: 'https://github.com/MitchellSternke/SuperMarioBros-C'
   development: complete
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - C++
@@ -8552,6 +8566,8 @@
   url: 'https://www.classicdosgames.com/game/Supernova.html'
   development: complete
   status: playable
+  platforms:
+  - Windows
   langs:
   - Pascal
   licenses:
@@ -8567,6 +8583,8 @@
   feed: 'https://github.com/JeodC/SuperStarTrek25thGMS/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Android
   langs:
   - Game Maker Language
   frameworks:
@@ -8588,6 +8606,8 @@
   url: 'https://emabolo.com/article/i-rewrote-the-1978-text-only-super-star-trek-game'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Lua
   - Perl
@@ -8615,6 +8635,8 @@
     https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Super%20Stunt%20Cycle/Motopsycho
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -8639,6 +8661,12 @@
   - Super Mario
   repo: https://github.com/SuperTux/supertux
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
+  - Web
   type: clone
   updated: 2023-11-09
   url: https://supertux.org/
@@ -8661,6 +8689,12 @@
   - Super Mario
   repo: https://github.com/Alzter/SuperTux-Classic/
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
+  - Web
   type: clone
   updated: 2023-08-27
   url: https://alzter-s.itch.io/supertux-classic
@@ -8685,6 +8719,12 @@
   - Mario Kart
   repo: https://github.com/supertuxkart/stk-code
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
+  - Switch
   type: clone
   updated: 2019-08-27
   url: https://supertuxkart.net/
@@ -8695,9 +8735,16 @@
   type: clone
   originals:
   - Mario Party
+  url: https://supertux.party
+  feed: https://supertux.party/index.xml#feed
   repo: https://gitlab.com/SuperTuxParty/SuperTuxParty
-  development: sporadic
+  development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
   multiplayer:
   - Split-screen
   langs:
@@ -8709,7 +8756,12 @@
   content: open
   updated: 2023-11-10
   images:
-  - https://gitlab.com/SuperTuxParty/SuperTuxParty/raw/dev/screenshot.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzQ1NjU3NTIucG5n/original/rmA5kq.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzQ1NjU3NTEucG5n/original/zDlzIA.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzU3MzE2NjcucG5n/original/ZLXPGC.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzQ1NjU3NDYucG5n/original/2w5e9M.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzQ1NjU3NzcucG5n/original/fwGNC%2F.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzQ1NjU3ODAucG5n/original/ZHkqCB.png
 
 - name: SurrealEngine
   originals:
@@ -8718,6 +8770,10 @@
   repo: https://github.com/dpjudas/SurrealEngine
   development: very active
   status: unplayable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: commercial
   langs:
   - C++
@@ -8739,6 +8795,8 @@
   url: 'https://www.romhacking.net/documents/506/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   multiplayer:
   - Local
   langs:
@@ -8760,18 +8818,21 @@
   - Survivor (1986)
   repo: https://github.com/scottschiller/SURVIVOR
   status: playable
+  platforms:
+  - Web
   type: remake
   updated: 2023-11-11
-  url: http://www.schillmania.com/survivor/
+  url: https://www.schillmania.com/survivor/
 
 - name: Sutom Game
   originals:
   - Wordle
   type: clone
   repo: 'https://github.com/win-wiz/sutom-game'
-  url: 'https://sutom.fun/'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - TypeScript
@@ -8786,10 +8847,11 @@
   type: official
   repo: >-
     https://archive.org/download/DataMost_Internal_Floppies_Collection#:~:text=SWASHBUCKLER%20SOURCE
-  url: >-
-    https://archive.org/details/DataMost_Internal_Floppies_Collection#:~:text=Swashbuckler
+  url: https://archive.org/details/DataMost_Internal_Floppies_Collection#:~:text=Swashbuckler
   development: complete
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -8805,6 +8867,8 @@
   url: 'https://archive.org/details/fargoal'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -8829,11 +8893,12 @@
   originals:
   - Shadow Warrior
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/Hendricks266/SWP
   development: halted
   type: remake
   updated: 2023-11-13
-  url: http://www.proasm.com/sw/swp.html
   video:
     youtube: JePqKJd4hhw
 
@@ -8845,6 +8910,8 @@
   url: https://www.michaelfogleman.com/projects/pac-man/
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - Java
   frameworks:
@@ -8864,6 +8931,8 @@
   feed: 'https://sourceforge.net/p/symbolica/activity/feed'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C++
@@ -8888,9 +8957,12 @@
   originals:
   - Syndicate Wars
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   updated: 2023-11-14
-  url: http://swars.vexillium.org/
   repo: https://github.com/mefistotelis/swars
   langs:
   - C
@@ -8908,6 +8980,8 @@
     https://www.gamedeveloper.com/programming/nightdive-shares-source-code-for-i-system-shock-i-on-mac
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   content: commercial
   langs:
   - C
@@ -8928,6 +9002,9 @@
   feed: 'https://sourceforge.net/p/tsshp/news/feed.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   content: commercial
   langs:
   - C++
