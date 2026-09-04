@@ -6,6 +6,8 @@
   originals:
   - Zarch
   status: playable
+  platforms:
+  - Windows
   development: complete
   repo: http://www.steviegoodwin.plus.com/Z_Virus_V2.zip
   type: remake
@@ -16,10 +18,14 @@
   originals:
   - Doom
   type: remake
-  repo: 'https://github.com/TorrSamaho/zandronum'
+  repo: https://foss.heptapod.net/zandronum/zandronum-stable
   url: 'https://zandronum.com'
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   multiplayer:
   - Competitive
   - Online
@@ -52,6 +58,8 @@
     https://www.ibiblio.org/pub/micro/pc-stuff/Linux/games/arcade/invaders/zapem-0.2.lsm
   development: halted
   status: playable
+  platforms:
+  - Linux
   content: open
   langs:
   - C++
@@ -66,10 +74,11 @@
   originals:
   - Asteroids
   type: clone
-  url: >-
-    https://web.archive.org/web/20090122143201/https://bob.allegronetwork.com/zasx/
+  url: https://web.archive.org/web/20090122143201/https://bob.allegronetwork.com/zasx/
   development: complete
   status: playable
+  platforms:
+  - Windows
   langs:
   - C
   frameworks:
@@ -95,21 +104,27 @@
   - C
   licenses:
   - GPL3
-  development: sporadic
+  development: halted
   originals:
   - Achtung, die Kurve!
   repo: https://github.com/simenheg/zatackax
   status: playable
+  platforms:
+  - Linux
+  - Switch
   type: remake
   updated: 2017-10-28
 
 - name: Zaz
   images:
-  - https://a.fsdn.com/con/app/proj/zaz/screenshots/234912.jpg
-  - https://a.fsdn.com/con/app/proj/zaz/screenshots/229087.jpg
-  - https://a.fsdn.com/con/app/proj/zaz/screenshots/271617.jpg
+  - https://zaz.sourceforge.net/gfx/screen1.jpg
+  - https://zaz.sourceforge.net/gfx/screen2.jpg
+  - https://zaz.sourceforge.net/gfx/screen3.jpg
+  - https://zaz.sourceforge.net/gfx/screen4.jpg
   langs:
   - C++
+  frameworks:
+  - SDL
   licenses:
   - GPL3
   content: open
@@ -117,10 +132,13 @@
   originals:
   - Zuma
   status: playable
+  platforms:
+  - Amiga
+  - Windows
   repo: https://sourceforge.net/projects/zaz/
   type: clone
   updated: 2022-07-07
-  url: http://zaz.sourceforge.net/
+  url: https://zaz.sourceforge.net/
 
 - name: zChain
   originals:
@@ -129,6 +147,8 @@
   url: 'https://www.linux-games.com/zchain/'
   development: halted
   status: playable
+  platforms:
+  - Linux
   multiplayer:
   - Hotseat
   licenses:
@@ -158,20 +178,25 @@
   - Heretic
   - Hexen
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   repo: https://sourceforge.net/projects/zdoom/
   type: remake
   url: https://zdoom.org/index
   updated: 2021-04-22
-  info: Project discontinued, with two child projects - GZDoom (for modern systems) and LZDoom (for older systems without OpenGL)
+  info: Project discontinued, with two child projects - UZDoom (for modern systems) and LZDoom (for older systems without OpenGL)
 
 - name: Zed Online
   originals:
   - Z
   type: remake
   repo: https://sourceforge.net/projects/zedonline/
-  url: https://zzone.lewe.com/zed-online-game/
   development: halted
   status: playable
+  platforms:
+  - Windows
   multiplayer:
   - Online
   - LAN
@@ -198,6 +223,8 @@
   originals:
   - Sea Dragon
   status: playable
+  platforms:
+  - ZX Spectrum
   repo: https://github.com/charlierobson/zedragon
   type: remake
   updated: 2023-01-05
@@ -212,6 +239,8 @@
   repo: 'https://github.com/aldonunez/zelda1-disassembly'
   development: halted
   status: playable
+  platforms:
+  - NES
   content: commercial
   langs:
   - Assembly
@@ -229,6 +258,11 @@
   feed: https://github.com/snesrev/zelda3/releases.atom
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Switch
   content: commercial
   licenses:
   - MIT
@@ -249,6 +283,8 @@
   repo: 'https://github.com/gameblabla/zelda-3t'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C++
@@ -258,6 +294,7 @@
   - As-is
   added: 2026-03-21
   updated: 2026-03-21
+  info: Port of Zelda Time to triumph for the GCW0
 
 - name: 'Zelda 64: Recompiled'
   originals:
@@ -266,6 +303,10 @@
   repo: 'https://github.com/Zelda64Recomp/Zelda64Recomp'
   development: active
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: commercial
   langs:
   - C
@@ -274,7 +315,6 @@
   - GPL3
   info: >-
     Static recompilation of Majora's Mask (and soon Ocarina of Time) for PC
-    (Windows/Linux)
   added: 2025-03-02
   updated: 2025-03-02
   video:
@@ -284,11 +324,12 @@
   originals:
   - Legend of Zelda
   type: remake
-  repo: https://github.com/ZeldaClassic/ZeldaClassic
-  url: 'https://www.zeldaclassic.com/'
-  feed: 'https://www.zeldaclassic.com/feed/'
+  repo: https://github.com/ZeldaClassic/ZeldaClassic-2.53
   development: sporadic
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: swappable
   langs:
   - C++
@@ -302,11 +343,10 @@
   added: '2019-11-19'
   updated: 2024-06-09
   images:
-  - 'https://www.zeldaclassic.com/wp-content/uploads/2016/12/ss_bszelda.png'
-  - >-
-    https://www.zeldaclassic.com/wp-content/uploads/2016/12/ss_megaman_wilys_revenge.gif
-  - 'https://www.zeldaclassic.com/wp-content/uploads/2016/12/ss_hero_dreams.png'
-  - 'https://www.zeldaclassic.com/wp-content/uploads/2016/12/ss_quest744.png'
+  - https://github.com/ZeldaClassic/ZeldaClassic-2.53/blob/main/screenshots/demo.png?raw=true
+  - https://github.com/ZeldaClassic/ZeldaClassic-2.53/blob/main/screenshots/lost1.png?raw=true
+  - https://github.com/ZeldaClassic/ZeldaClassic-2.53/blob/main/screenshots/lost2.png?raw=true
+  - https://github.com/ZeldaClassic/ZeldaClassic-2.53/blob/main/screenshots/editor1.png?raw=true
 
 - name: Zero-K
   type: similar
@@ -321,6 +361,9 @@
   - Total Annihilation
   - Supreme Commander
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://github.com/ZeroK-RTS/Zero-K
   url: https://zero-k.info/
   feed: https://zero-k.info/News
@@ -339,6 +382,11 @@
 - name: Zeta
   type: tool
   status: N/A
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Web
   originals:
   - ZZT
   - Super ZZT
@@ -363,6 +411,9 @@
   repo: 'https://github.com/Swizpig/ZGloom'
   development: halted
   status: playable
+  platforms:
+  - Linux
+  - Windows
   content: commercial
   langs:
   - C++
@@ -370,7 +421,6 @@
   - SDL2
   licenses:
   - Custom
-  info: Also has a PSVita version
   updated: 2021-12-25
   images:
   - 'https://raw.githubusercontent.com/Swizpig/ZGloom/master/screenshots/deluxe3.png'
@@ -391,6 +441,9 @@
   originals:
   - Z
   status: playable
+  platforms:
+  - Linux
+  - Windows
   repo: https://sourceforge.net/projects/zod/
   type: remake
   url: https://zod.sourceforge.net/
@@ -408,6 +461,8 @@
   originals:
   - Zombie Apocalypse
   status: unplayable
+  platforms:
+  - Web
   repo: https://github.com/andymason/zombie-apocalypse-html5
   type: remake
   updated: 2015-05-16
@@ -472,6 +527,8 @@
   originals:
   - Zork
   status: unplayable
+  platforms:
+  - None
   repo: https://github.com/vatbub/zorkClone
   type: remake
   updated: 2015-10-01
@@ -485,6 +542,11 @@
   feed: https://zquestclassic.com/feed/feed.xml
   development: active
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Web
   content: swappable
   langs:
   - C++
@@ -521,9 +583,12 @@
   - Silencer
   repo: https://github.com/zsilencer/zSILENCER
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   updated: 2013-09-22
-  url: https://zsilencer.com
   video:
     youtube: Tm3vrEoI1Ew
 
@@ -563,6 +628,8 @@
   url: 'https://spectrumcomputing.co.uk/entry/35690/ZX-Spectrum/ZX_Mastermind'
   development: complete
   status: playable
+  platforms:
+  - ZX Spectrum
   content: free
   langs:
   - Assembly
@@ -589,6 +656,8 @@
   url: https://benhoyt.com/writings/zzt-in-go/
   development: halted
   status: semi-playable
+  platforms:
+  - None
   langs:
   - Go
   licenses:
