@@ -1722,6 +1722,120 @@
   video:
     youtube: zR6UIRQFFag
 
+- name: Megaman3NESRecomp
+  originals:
+  - Mega Man 3
+  type: remake
+  repo: 'https://github.com/mstan/Megaman3NESRecomp'
+  feed: 'https://github.com/mstan/Megaman3NESRecomp/releases.atom'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - As-is
+  ai: true
+  info: Mega Man 3 recompiled for the NES using nesrecomp
+  added: 2026-08-26
+  updated: 2026-08-26
+
+- name: MegaManX4Recomp
+  originals:
+  - Mega Man X4
+  type: remake
+  repo: 'https://github.com/mstan/MegaManX4Recomp'
+  feed: 'https://github.com/mstan/MegaManX4Recomp/releases.atom'
+  development: active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - Custom
+  ai: true
+  info: >-
+    Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable
+    with PSXRecomp
+  added: 2026-08-26
+  updated: 2026-08-26
+
+- name: MegaManX5Recomp
+  originals:
+  - Mega Man X5
+  type: remake
+  repo: 'https://github.com/mstan/MegaManX5Recomp'
+  feed: 'https://github.com/mstan/MegaManX5Recomp/releases.atom'
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - Custom
+  ai: true
+  info: >-
+    Mega Man X5 (USA, SLUS-01334) statically recompiled to a native Windows
+    executable with the PSXRecomp framework
+  added: 2026-08-26
+  updated: 2026-08-26
+
+- name: MegaManX6Recomp
+  originals:
+  - Mega Man X6
+  type: remake
+  repo: 'https://github.com/mstan/MegaManX6Recomp'
+  feed: 'https://github.com/mstan/MegaManX6Recomp/releases.atom'
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - Custom
+  ai: true
+  info: Mega Man X6 (USA) recompiled for the Sony PlayStation using psxrecomp
+  added: 2026-08-26
+  updated: 2026-08-26
+
+- name: MegaManXSNESRecomp
+  originals:
+  - Mega Man X
+  type: remake
+  repo: 'https://github.com/mstan/MegaManXSNESRecomp'
+  feed: 'https://github.com/mstan/MegaManXSNESRecomp/releases.atom'
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - As-is
+  ai: true
+  info: Mega Man X recompiled for the Super Nintendo using snesrecomp
+  added: 2026-08-26
+  updated: 2026-08-26
+
 - name: Meganoid
   originals:
   - Arkanoid
