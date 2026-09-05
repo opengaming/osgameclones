@@ -352,9 +352,9 @@
 
 - name: Dark Oberon
   images:
-  - https://dark-oberon.sourceforge.net/screenshots/2005-08-16_1_1024x768.jpg
-  - https://dark-oberon.sourceforge.net/screenshots/2005-08-16_4_1024x768.jpg
-  - https://dark-oberon.sourceforge.net/screenshots/2005-08-16_7_1024x768.jpg
+  - https://dark-oberon.sourceforge.io/screenshots/2005-08-16_1_256x192.jpg
+  - https://dark-oberon.sourceforge.io/screenshots/2005-08-16_4_256x192.jpg
+  - https://dark-oberon.sourceforge.io/screenshots/2005-08-16_6_256x192.jpg
   originals:
   - Warcraft II
   status: playable
@@ -372,7 +372,7 @@
   repo: https://sourceforge.net/projects/dark-oberon/
   type: clone
   updated: 2022-01-29
-  url: http://dark-oberon.sourceforge.net/
+  url: https://dark-oberon.sourceforge.io
   video:
     youtube: pgFWAeM4Rm8
 
@@ -526,9 +526,8 @@
   originals:
   - DarkSpace
   type: official
-  repo: https://github.com/palestar/darkspace
+  repo: https://archive.org/details/DarkSpace_source
   url: https://www.darkspace.net
-  feed: https://github.com/palestar/darkspace/releases.atom
   development: halted
   status: playable
   platforms:
@@ -1231,25 +1230,6 @@
   updated: 2026-06-23
   images:
   - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/1817_small.jpg'
-
-- name: DGEM
-  originals:
-  - Dungeon Master
-  type: clone
-  url: 'http://ptonthat.fr/dgem/'
-  development: halted
-  status: playable
-  platforms:
-  - Atari
-  content: commercial
-  langs:
-  - BASIC
-  licenses:
-  - Custom
-  added: 2026-01-25
-  updated: 2026-01-25
-  images:
-  - https://web.archive.org/web/20260106192324if_/http://dmweb.free.fr/files/Clone,D-GEM,Atari_ST,Screenshot.png
 
 - name: DGEngine
   images:
@@ -2073,13 +2053,13 @@
   added: 2026-02-26
   updated: 2026-02-26
   images:
-  - 'https://dmle.sourceforge.net/screenshot1.png'
+  - https://dmle.sourceforge.net/screenshots/screenshot1.png
 
 - name: DNF-reimposition
   originals:
   - Duke Nukem Forever
   type: remake
-  repo: 'https://github.com/jmarshall23/DNF-reimposition'
+  repo: https://github.com/vini1264/DNF-Enhanced
   development: halted
   status: playable
   platforms:
@@ -4570,11 +4550,6 @@
   updated: 2022-07-02
 
 - name: DXX-Rebirth
-  images:
-  - https://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn10.jpg
-  - https://www.dxx-rebirth.com/wp-content/gallery/d1x-rebirth_screenshots/d1xr-scrn17.jpg
-  - https://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn1.jpg
-  - https://www.dxx-rebirth.com/wp-content/gallery/d2x-rebirth_screenshots/d2xr-scrn18.jpg
   langs:
   - C++
   licenses:

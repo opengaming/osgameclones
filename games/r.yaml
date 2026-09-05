@@ -56,10 +56,9 @@
 
 - name: Rabbit Escape
   images:
-  - https://raw.githubusercontent.com/andybalaam/rabbit-escape/master/doc/rabbitescape-android.png
-  - https://raw.githubusercontent.com/andybalaam/rabbit-escape/master/doc/minilevel/rabbitescape-minilevel.gif
-  - https://cloud.githubusercontent.com/assets/76812/13390775/570dbafc-dec8-11e5-835f-67c6fa43a0af.gif
-  - https://cloud.githubusercontent.com/assets/9596719/12928837/a32e2270-cf67-11e5-9ef3-fb02e85f5d69.gif
+  - https://codeberg.org/andybalaam/rabbit-escape/media/branch/master/doc/rabbitescape-android.png
+  - https://codeberg.org/andybalaam/rabbit-escape/media/branch/master/doc/minilevel/rabbitescape-minilevel.gif
+  - https://codeberg.org/andybalaam/rabbit-escape/media/branch/master/doc/minilevel/rabbitescape-minilevel-text.gif
   langs:
   - Java
   licenses:
@@ -74,10 +73,10 @@
   - Linux
   - OSX
   - Android
-  repo: https://github.com/andybalaam/rabbit-escape
+  repo: https://codeberg.org/andybalaam/rabbit-escape
   type: clone
   updated: 2018-08-20
-  url: http://www.artificialworlds.net/rabbit-escape/
+  url: https://www.artificialworlds.net/rabbit-escape/
   video:
     youtube: nJnkWJJ-usY
 
@@ -2150,26 +2149,6 @@
   images:
   - 'https://www.technologizer.com/wp-content/uploads/2009/07/peters.png'
 
-- name: rocket-game
-  originals:
-  - Asteroids
-  type: clone
-  repo: 'https://github.com/tversteeg/rocket-game'
-  url: 'https://crates.io/crates/rocket-game'
-  feed: 'https://github.com/tversteeg/rocket-game/releases.atom'
-  development: halted
-  status: semi-playable
-  platforms:
-  - None
-  langs:
-  - Rust
-  licenses:
-  - GPL3
-  added: 2025-10-07
-  updated: 2025-10-07
-  images:
-  - https://raw.githubusercontent.com/tversteeg/rocket-game/master/img/screenshot-0.1.5.png
-
 - name: Rocks'n'Diamonds
   frameworks:
   - SDL2
@@ -2391,10 +2370,9 @@
     and Phaser.
   updated: 2024-01-24
   images:
-  - >-
-    https://raw.githubusercontent.com/kosinaz/Rot-Magus/master/misc/2019%20v060%20thumbnail.png
-  - 'https://m.gjcdn.net/screenshot-thumbnail/1700x2000/766023-v4.jpg'
-  - 'https://m.gjcdn.net/screenshot-thumbnail/1700x2000/766021-v4.jpg'
+  - https://raw.githubusercontent.com/kosinaz/Rot-Magus/master/misc/2019%20v060%20thumbnail.png
+  - https://m.gjcdn.net/game-screenshot/700/2522714-ll-ghraqqws-v4.webp
+  - https://m.gjcdn.net/game-screenshot/700/2522713-ll-buqwpsyx-v4.webp
 
 - name: Roton
   type: remake

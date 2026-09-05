@@ -1688,9 +1688,7 @@
 
 - name: Nuvie
   images:
-  - https://nuvie.sourceforge.net/images/shots/nuvie_24.png
-  - https://nuvie.sourceforge.net/images/shots/nuvie_22.png
-  - https://nuvie.sourceforge.net/images/shots/nuvie_21.png
+  - https://github.com/nuvie/nuvie/blob/master/docs/images/nuvie.png?raw=true
   langs:
   - C++
   frameworks:
@@ -1710,7 +1708,7 @@
   - OSX
   repo: https://github.com/nuvie/nuvie
   type: remake
-  url: https://nuvie.sourceforge.net/
+  info: Nuvie has moved to the ScummVM project
   updated: 2020-05-19
 
 - name: NXEngine
