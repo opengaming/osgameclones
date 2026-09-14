@@ -310,6 +310,36 @@
   video:
     youtube: 1-ePMtYUMv0
 
+- name: YouTD 2
+  originals:
+  - YouTD
+  type: clone
+  repo: 'https://github.com/Praytic/youtd2'
+  url: 'https://youtd2.com'
+  feed: 'https://praytic.itch.io/youtd2/devlog.rss'
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Web
+  - Windows
+  multiplayer:
+  - Online
+  - Co-op
+  content: free
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - MIT
+  ai: true
+  added: '2026-09-08'
+  updated: '2026-09-08'
+  video:
+    youtube: VmpY7qJv02U
+
 - name: YSoccer
   images:
   - https://ysoccer.sourceforge.io/images/screenshot_goal.jpg
