@@ -3368,6 +3368,26 @@
   video:
     youtube: uj9-cUXPhGQ
 
+- name: Brick Rebound
+  originals:
+  - 'Breakout'
+  type: clone
+  repo: 'https://github.com/646826/arkai-games/tree/main/games/brick-rebound'
+  url: 'https://arkai.win/games/brick-rebound/'
+  development: active
+  status: playable
+  platforms:
+  - Web
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  ai: true
+  info: Single-file vanilla JavaScript on canvas, no dependencies; six hand-made levels and power-ups (wide paddle, multi-ball, slow motion)
+  added: 2026-09-16
+  updated: 2026-09-16
+
 - name: Bridge Command
   frameworks:
   - Irrlicht
