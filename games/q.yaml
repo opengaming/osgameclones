@@ -179,6 +179,28 @@
   images:
   - https://github.com/klaussilveira/qengine/raw/master/docs/screenshot.png
 
+- name: Qixxy
+  originals:
+  - Qix
+  type: clone
+  repo: 'https://github.com/thenanisore/qixxy'
+  development: complete
+  status: playable
+  platforms:
+  - Linux
+  content: open
+  langs:
+  - Scala
+  frameworks:
+  - libGDX
+  licenses:
+  - MIT
+  info: Can only be built with Java 6+ and Gradle through the Terminal
+  added: 2026-09-16
+  updated: 2026-09-16
+  images:
+  - 'https://github.com/thenanisore/qixxy/raw/master/screenshots/gameplay.png'
+
 - name: QML Sokoban
   originals:
   - Sokoban
