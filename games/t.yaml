@@ -1030,6 +1030,28 @@
   - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7082.jpg'
   - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7076.jpg'
 
+- name: TetrisGBRecomp
+  originals:
+  - Tetris (Game Boy)
+  type: remake
+  repo: 'https://github.com/mstan/TetrisGBRecomp'
+  feed: 'https://github.com/mstan/TetrisGBRecomp/releases.atom'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - C
+  - TOML
+  licenses:
+  - As-is
+  info: Tetris recompiled for the Game Boy using a fork of gb-recompiled
+  added: 2026-09-16
+  updated: 2026-09-16
+
 - name: TetrisNESDisasm
   originals:
   - Tetris (NES)
