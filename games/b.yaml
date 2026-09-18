@@ -41,9 +41,10 @@
   - iOS
   updated: 2024-04-11
   images:
-  - https://raw.githubusercontent.com/lilybeevee/bab-be-u/master/docs/img1.png
-  - https://raw.githubusercontent.com/lilybeevee/bab-be-u/master/docs/img2.png
-  - https://raw.githubusercontent.com/lilybeevee/bab-be-u/master/docs/img3.png
+  - https://bab-devs.github.io/assets/babimg3.png
+  - https://bab-devs.github.io/assets/babimg1.png
+  - https://bab-devs.github.io/assets/babimg2.png
+  - https://bab-devs.github.io/assets/babimg4.png
 
 - name: baba-is-you
   originals:
@@ -68,9 +69,9 @@
 
 - name: Babaliba
   images:
-  - https://compiler.speccy.org/img/screens/babaliba-scr1.png
-  - https://compiler.speccy.org/img/screens/babaliba-scr2.png
-  - https://compiler.speccy.org/img/screens/babaliba-scr3.png
+  - https://compilersoft.es/st/img/screens/babaliba-scr1.png
+  - https://compilersoft.es/st/img/screens/babaliba-scr2.png
+  - https://compilersoft.es/st/img/screens/babaliba-scr3.png
   langs:
   - BennuGD
   licenses:
@@ -87,7 +88,7 @@
   development: halted
   type: remake
   updated: 2024-04-12
-  url: https://compiler.speccy.org/en/remakes-babaliba.html
+  url: https://compilersoft.es/remakes-babaliba.html
 
 - name: back-to-nature-c64-remake
   info: 'An Android 30th anniversary tribute edition to a Commodore C64 game named "Back To Nature" from 1982.'
@@ -1908,6 +1909,24 @@
   added: 2026-05-02
   updated: 2026-05-02
 
+- name: Blinky
+  originals:
+  - Pac-Man
+  type: clone
+  url: 'https://www.hpcalc.org/details/842'
+  development: complete
+  status: playable
+  platforms:
+  - HP calculator
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-09-05
+  updated: 2026-09-05
+  images:
+  - 'https://www.hpcalc.org/hp48/games/chip/sshots/blinky2.png'
+
 - name: Blitzkrieg
   originals:
   - Blitzkrieg
@@ -2033,6 +2052,9 @@
   feed: 'https://sourceforge.net/p/blockrage/news/feed.rss'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   multiplayer:
   - Local
   - Split-screen
@@ -2640,7 +2662,7 @@
   originals:
   - Bomberman
   type: remake
-  repo: 'https://github.com/bjaraujo/Bombermaaan'
+  repo: https://sourceforge.net/projects/bombermaaan/
   url: 'https://bombermaaan.sourceforge.net/'
   feed: 'https://sourceforge.net/p/bombermaaan/news/feed'
   development: sporadic
@@ -2671,6 +2693,24 @@
   - 'https://bombermaaan.sourceforge.net/screenshots/rev528_01.png'
   video:
     youtube: SgVdsrDAUwA
+
+- name: Bomberman Hero (US)
+  originals:
+  - Bomberman Hero
+  type: remake
+  repo: 'https://github.com/Bomberhackers/bmhero'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - As-is
+  info: A decompilation of Bomberman Hero (US)
+  added: 2026-09-06
+  updated: 2026-09-06
 
 - name: Bomberman LAN
   originals:
@@ -2813,8 +2853,8 @@
 
 - name: 'BOOM: Remake'
   images:
-  - https://silverweed.github.io/assets/img/boom/boom_screen1.png
-  - https://silverweed.github.io/assets/img/boom/boom_screen2.png
+  - https://silverweed.work/blog/assets/img/boom/boom_screen1.png
+  - https://silverweed.work/blog/assets/img/boom/boom_screen2.png
   langs:
   - C++
   licenses:
@@ -2826,7 +2866,7 @@
   originals:
   - BOOM
   repo: https://github.com/silverweed/lifish
-  url: https://silverweed.github.io/boom/
+  url: https://silverweed.work/blog/boom/
   type: remake
   status: playable
   platforms:
@@ -3623,6 +3663,70 @@
   - https://web.archive.org/web/20240821141136if_/http://www.newbreedsoftware.com/bugsquish/screenshots/bugsquish-embedded.gif
   video:
     youtube: SR8FDm61LFY
+
+- name: Bugdom
+  originals:
+  - Bugdom
+  type: remake
+  repo: 'https://github.com/jorio/Bugdom'
+  url: 'https://jorio.itch.io/bugdom'
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: free
+  langs:
+  - C
+  - C++
+  frameworks:
+  - SDL3
+  licenses:
+  - CC-BY-NC-SA
+  info: Pangea Software's Bugdom for modern systems
+  added: '2026-09-02'
+  updated: '2026-09-02'
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODI0Ny85MTcxNTcyLmpwZw==/794x1000/LFda4D.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODI0Ny85MTcxNTc2LmpwZw==/794x1000/72NxPJ.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODI0Ny85MTc3ODMzLmpwZw==/794x1000/4rLjCd.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODI0Ny85MTcxNjQ3LmpwZw==/794x1000/pc5RFP.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODI0Ny85MTcxNTc5LmpwZw==/794x1000/gEJn6j.jpg'
+
+- name: Bugdom 2
+  originals:
+  - Bugdom 2
+  type: remake
+  repo: 'https://github.com/jorio/Bugdom2'
+  url: 'https://jorio.itch.io/bugdom2'
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: free
+  langs:
+  - C
+  - C++
+  frameworks:
+  - SDL3
+  licenses:
+  - CC-BY-NC-SA
+  info: Pangea Software’s Bugdom 2 for modern systems
+  added: '2026-09-02'
+  updated: '2026-09-02'
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMjMwMjU1MS8xMzY0NjIzNS5qcGc=/794x1000/sGM3sa.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMjMwMjU1MS8xMzY0NTE4OC5qcGc=/794x1000/lg6U7V.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMjMwMjU1MS8xMzY0NTE4Ny5qcGc=/794x1000/IVoABP.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMjMwMjU1MS8xMzY0NTE5MC5qcGc=/794x1000/I0Oc86.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMjMwMjU1MS8xMzY0NTE4OS5qcGc=/794x1000/2CygkO.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMjMwMjU1MS8xMzY0NTE4NS5qcGc=/794x1000/VbayEw.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMjMwMjU1MS8xMzY0NTE5MS5qcGc=/794x1000/Cn7KGJ.jpg'
+  - >-
+    https://img.itch.zone/aW1hZ2UvMjMwMjU1MS8xMzY0NTE4Mi5qcGc=/794x1000/1lhrA%2F.jpg
 
 - name: BUGS
   originals:

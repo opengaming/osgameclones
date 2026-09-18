@@ -49,6 +49,7 @@ schema;game:
         Unplayable: game cannot be played, e.g. can only load assets<br>
         N/A: does not apply, i.e. for tools
     platforms:
+      required: True
       type: seq
       sequence:
       - include: platforms
@@ -206,6 +207,7 @@ schema;platforms:
     'GameCube',
     'GBA',
     'Genesis',
+    'GP32',
     'HP calculator',
     'iOS',
     'Jaguar',
@@ -217,7 +219,7 @@ schema;platforms:
     'MSX',
     'NES',
     'N64',
-    'Nintendo Switch',
+    'Switch',
     'None',
     'Oric',
     'OS/2',
@@ -239,6 +241,7 @@ schema;platforms:
     'Sega CD',
     'Sharp MZ',
     'SNES',
+    'Stellaris',
     'TI calculator',
     'TRS-80',
     'TurboGrafx-16',
