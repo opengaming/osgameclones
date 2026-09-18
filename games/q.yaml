@@ -179,6 +179,28 @@
   images:
   - https://github.com/klaussilveira/qengine/raw/master/docs/screenshot.png
 
+- name: Qixxy
+  originals:
+  - Qix
+  type: clone
+  repo: 'https://github.com/thenanisore/qixxy'
+  development: complete
+  status: playable
+  platforms:
+  - Linux
+  content: open
+  langs:
+  - Scala
+  frameworks:
+  - libGDX
+  licenses:
+  - MIT
+  info: Can only be built with Java 6+ and Gradle through the Terminal
+  added: 2026-09-16
+  updated: 2026-09-16
+  images:
+  - 'https://github.com/thenanisore/qixxy/raw/master/screenshots/gameplay.png'
+
 - name: QML Sokoban
   originals:
   - Sokoban
@@ -449,9 +471,8 @@
   originals:
   - Quake 4
   type: remake
-  repo: 'https://github.com/jmarshall23/Quake4Doom'
+  repo: https://github.com/Kasreyn/Quake4Doom
   url: 'https://www.doomworld.com/forum/topic/122056-quake-4-doom-3-gpl-integration/'
-  feed: 'https://github.com/jmarshall23/Quake4Doom/releases.atom'
   development: complete
   status: playable
   platforms:

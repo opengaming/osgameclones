@@ -45,6 +45,25 @@
   images:
   - https://uploads.golmedia.net/uploads/articles/article_media/20369846551603361129gol1.png
 
+- name: Macintosh Wolfenstein 3D Source Code
+  originals:
+  - Wolfenstein 3D
+  type: official
+  repo: 'https://github.com/Blzut3/Wolf3D-Mac/'
+  development: complete
+  status: playable
+  platforms:
+  - Classic Mac OS
+  content: commercial
+  langs:
+  - C
+  - Assembly
+  licenses:
+  - Custom
+  info: The original Macintosh Wolfenstein 3D source release.
+  added: 2026-09-02
+  updated: 2026-09-02
+
 - name: MacJJFFE
   originals:
   - Elite III
@@ -89,6 +108,31 @@
   images:
   - 'https://a.fsdn.com/con/app/proj/macrofage/screenshots/182812.jpg'
   - 'https://a.fsdn.com/con/app/proj/macrofage/screenshots/182810.jpg'
+
+- name: MacWolfSDL
+  originals:
+  - Wolfenstein 3D
+  type: remake
+  repo: 'https://github.com/kaylagator/MacWolfSDL'
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - Custom
+  - As-is
+  info: Accurate source port of Macintosh Wolfenstein 3D
+  added: 2026-09-02
+  updated: 2026-09-02
+  video:
+    youtube: g9GeC9y0Qf4
 
 - name: Mad Bomber
   originals:
@@ -1678,6 +1722,120 @@
   video:
     youtube: zR6UIRQFFag
 
+- name: Megaman3NESRecomp
+  originals:
+  - Mega Man 3
+  type: remake
+  repo: 'https://github.com/mstan/Megaman3NESRecomp'
+  feed: 'https://github.com/mstan/Megaman3NESRecomp/releases.atom'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - As-is
+  ai: true
+  info: Mega Man 3 recompiled for the NES using nesrecomp
+  added: 2026-08-26
+  updated: 2026-08-26
+
+- name: MegaManX4Recomp
+  originals:
+  - Mega Man X4
+  type: remake
+  repo: 'https://github.com/mstan/MegaManX4Recomp'
+  feed: 'https://github.com/mstan/MegaManX4Recomp/releases.atom'
+  development: active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - Custom
+  ai: true
+  info: >-
+    Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable
+    with PSXRecomp
+  added: 2026-08-26
+  updated: 2026-08-26
+
+- name: MegaManX5Recomp
+  originals:
+  - Mega Man X5
+  type: remake
+  repo: 'https://github.com/mstan/MegaManX5Recomp'
+  feed: 'https://github.com/mstan/MegaManX5Recomp/releases.atom'
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - Custom
+  ai: true
+  info: >-
+    Mega Man X5 (USA, SLUS-01334) statically recompiled to a native Windows
+    executable with the PSXRecomp framework
+  added: 2026-08-26
+  updated: 2026-08-26
+
+- name: MegaManX6Recomp
+  originals:
+  - Mega Man X6
+  type: remake
+  repo: 'https://github.com/mstan/MegaManX6Recomp'
+  feed: 'https://github.com/mstan/MegaManX6Recomp/releases.atom'
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - Custom
+  ai: true
+  info: Mega Man X6 (USA) recompiled for the Sony PlayStation using psxrecomp
+  added: 2026-08-26
+  updated: 2026-08-26
+
+- name: MegaManXSNESRecomp
+  originals:
+  - Mega Man X
+  type: remake
+  repo: 'https://github.com/mstan/MegaManXSNESRecomp'
+  feed: 'https://github.com/mstan/MegaManXSNESRecomp/releases.atom'
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - TOML
+  licenses:
+  - As-is
+  ai: true
+  info: Mega Man X recompiled for the Super Nintendo using snesrecomp
+  added: 2026-08-26
+  updated: 2026-08-26
+
 - name: Meganoid
   originals:
   - Arkanoid
@@ -2339,6 +2497,35 @@
   added: 2025-11-17
   updated: 2025-11-17
 
+- name: Mighty Mike
+  originals:
+  - Mighty Mike
+  type: remake
+  repo: 'https://github.com/jorio/MightyMike'
+  url: 'https://jorio.itch.io/mightymike'
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - CC-BY-NC-SA
+  info: Pangea Software Mighty Mike (Power Pete) for modern systems
+  added: '2026-09-02'
+  updated: '2026-09-02'
+  images:
+  - >-
+    https://img.itch.zone/aW1hZ2UvMTU2ODMxNS85MTc4MzE2LnBuZw==/794x1000/Gg%2FcSA.png
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODMxNS85MTc4MzIyLnBuZw==/794x1000/jQ5uJE.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODMxNS85MTc4NTg5LnBuZw==/794x1000/2cvSlA.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTU2ODMxNS85MTc4NzE3LnBuZw==/794x1000/lkFwpD.png'
+
 - name: mike-tysons-punch-out-disassembly
   originals:
   - Mike Tyson's Punch-Out!!
@@ -2391,24 +2578,6 @@
   licenses:
   - AGPL3
   info: PC Port Of Fatal Frame 1 Based On Himuro
-  added: 2026-04-09
-  updated: 2026-04-09
-
-- name: Minakami
-  originals:
-  - 'Fatal Frame II: Crimson Butterfly'
-  type: remake
-  repo: 'https://github.com/Mikompilation/Minakami'
-  development: sporadic
-  status: playable
-  platforms:
-  - Linux
-  content: commercial
-  langs:
-  - C
-  licenses:
-  - As-is
-  info: Fatal Frame 2 Matching Decompilation Project
   added: 2026-04-09
   updated: 2026-04-09
 
@@ -2619,9 +2788,8 @@
   images:
   - 'https://content.luanti.org/uploads/864a6133e4.png'
   - 'https://content.luanti.org/uploads/23bc4b8e04.png'
-  - 'https://content.luanti.org/uploads/518bab7e3e'
+  - 'https://content.luanti.org/uploads/518bab7e3e.png'
   - 'https://content.luanti.org/uploads/f1006b2df0.png'
-  - 'https://content.luanti.org/uploads/607d94d17f.png'
 
 - name: Minecraft
   originals:
@@ -3271,6 +3439,22 @@
   updated: 2016-02-06
   url: https://www.douglas-meyer.name/minesweeper/
 
+- name: Minesweeper in 247 Bytes
+  originals:
+  - Minesweeper
+  type: clone
+  url: 'https://yui.dev/blog/minesweeper-in-247-bytes'
+  development: complete
+  status: playable
+  platforms:
+  - Web
+  langs:
+  - JavaScript
+  licenses:
+  - As-is
+  added: 2026-09-06
+  updated: 2026-09-06
+
 - name: Minesweeper (in C)
   type: remake
   originals:
@@ -3825,6 +4009,7 @@
   - WebGL
   licenses:
   - As-is
+  ai: true
   info: >-
     A 2D ARPG engine which was designed for the Web,
     has been used to rebuild three classic Kingsoft (西山居) RPGs.

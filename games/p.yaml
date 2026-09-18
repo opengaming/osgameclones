@@ -693,7 +693,6 @@
   - Pac-Man
   type: clone
   repo: 'https://github.com/schuay/pacman/'
-  url: 'https://aur.archlinux.org/packages/pacman_sdl'
   feed: 'https://github.com/schuay/pacman/releases.atom'
   development: halted
   status: playable
@@ -782,7 +781,6 @@
   - Pong
   type: clone
   repo: 'https://gitlab.com/rogerbassons/PaddleTennisAndroid'
-  url: 'https://f-droid.org/packages/com.rogerbassonsrenart.paddletennis/'
   feed: 'https://gitlab.com/rogerbassons/PaddleTennisAndroid.atom'
   development: halted
   status: semi-playable
@@ -891,8 +889,8 @@
   development: active
   originals:
   - Tetris Attack
-  repo: https://github.com/panel-attack/panel-attack
-  url: http://panelattack.com/
+  repo: https://github.com/panel-attack/panel-game
+  url: https://panelattack.com/
   status: playable
   platforms:
   - Windows
@@ -1036,7 +1034,7 @@
   added: 2025-10-18
   updated: 2025-10-18
   images:
-  - https://papermc.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome-1.e653fca5.webp
+  - https://papermc.io/_astro/home-1.Bahr4ZOy_Z5JGKR.webp
 
 - name: Paper Isaac
   type: clone
@@ -2074,7 +2072,7 @@
   - Pipe Mania
   type: clone
   repo: 'https://github.com/tassaron/pipe-puzzle'
-  url: 'https://rainey.tech/game/pipe-puzzle'
+  url: https://tassaron.com/game/pipe-puzzle
   development: complete
   status: playable
   platforms:
@@ -2087,8 +2085,6 @@
   licenses:
   - MIT
   updated: '2023-07-14'
-  images:
-  - 'https://github.com/tassaron/pipe-puzzle'
 
 - name: Pipemania
   frameworks:
@@ -2296,9 +2292,9 @@
 
 - name: Pizza Legacy
   images:
-  - https://pizzalegacy.nl/assets/screenshots/04_citymap.jpg
-  - https://pizzalegacy.nl/assets/screenshots/06_restaurant.jpg
-  - https://pizzalegacy.nl/assets/screenshots/15_rest_overview.jpg
+  - https://pizzalegacy.nl/assets/screenshots/screenshot_game_load.png
+  - https://pizzalegacy.nl/assets/screenshots/screenshot_city_view.png
+  - https://pizzalegacy.nl/assets/screenshots/screenshot_restaurant_view.png
   langs:
   - C++
   licenses:
@@ -2591,7 +2587,6 @@
   - Pokémon Ruby and Sapphire
   type: remake
   repo: 'https://github.com/tripplyons/pokeemerald-wasm'
-  url: 'https://pokeemerald.com/'
   development: active
   status: playable
   platforms:

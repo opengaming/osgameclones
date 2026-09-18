@@ -625,6 +625,33 @@
   url: https://gemrb.org
   updated: 2023-12-26
 
+- name: Genesis 68K Static Recompiler
+  originals:
+  - Puyo Puyo
+  - Rocket Knight Adventures
+  - Sonic & Knuckles
+  - Sonic 3
+  - Sonic the Hedgehog
+  - Sonic 2
+  type: tool
+  repo: 'https://github.com/mstan/segagenesisrecomp'
+  feed: 'https://github.com/mstan/segagenesisrecomp/releases.atom'
+  development: very active
+  status: N/A
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - Custom
+  ai: true
+  info: Sega Genesis / Mega Drive game static recompiler ecosystem
+  added: 2026-09-09
+  updated: 2026-09-09
+
 - name: GeoffCapes
   originals:
   - Geoff Capes Strongman
@@ -1092,7 +1119,7 @@
   - OpenGL
   licenses:
   - MIT
-  development: halted
+  development: active
   status: unplayable
   platforms:
   - Windows
@@ -1101,8 +1128,10 @@
   repo: 'https://github.com/codenamecpp/GLKeeper'
   type: remake
   images:
-  - https://raw.githubusercontent.com/codenamecpp/GLKeeper/master/screenshots/0_0_2.png
-  - https://raw.githubusercontent.com/codenamecpp/GLKeeper/master/screenshots/0_0_3_Linux.png
+  - https://github.com/codenamecpp/GLKeeper/blob/main/screenshots/dev_4_01.jpg?raw=true
+  - https://github.com/codenamecpp/GLKeeper/blob/main/screenshots/dev_7_01.jpg?raw=true
+  - https://github.com/codenamecpp/GLKeeper/blob/main/screenshots/dev_7_02.jpg?raw=true
+  - https://github.com/codenamecpp/GLKeeper/blob/main/screenshots/dev_4_02.jpg?raw=true
   updated: 2024-01-01
 
 - name: GloomAmiga
@@ -1271,7 +1300,6 @@
   - Tron
   type: clone
   repo: 'https://sourceforge.net/projects/gltron/'
-  url: 'http://www.gltron.org/'
   feed: 'https://sourceforge.net/projects/gltron/rss?path=/'
   development: halted
   status: playable
@@ -1290,36 +1318,8 @@
   added: 2025-07-24
   updated: 2025-07-24
   images:
-  - 'https://gltron.sourceforge.net/screenshots/gltron-0.59-0.png'
-  - 'https://gltron.sourceforge.net/screenshots/1-movie.png'
-  - 'https://gltron.sourceforge.net/screenshots/gltron-0.59-2.png'
-  - 'https://gltron.sourceforge.net/screenshots/0.71-reflections.png'
-  - 'https://gltron.sourceforge.net/screenshots/4-metaltron.png'
-  - 'https://gltron.sourceforge.net/screenshots/7-custom.png'
-  - 'https://gltron.sourceforge.net/gltron.jpg'
-  - 'https://gltron.sourceforge.net/images/few-many.png'
   - 'https://a.fsdn.com/con/app/proj/gltron/screenshots/55754.jpg'
   - 'https://a.fsdn.com/con/app/proj/gltron/screenshots/55919.jpg'
-
-- name: Glutton
-  originals:
-  - Pac-Man
-  type: clone
-  repo: 'https://ftp.fr.openbsd.org/pub/OpenBSD/distfiles/#:~:text=glutton'
-  url: 'https://openports.pl/path/games/glutton'
-  development: halted
-  status: semi-playable
-  platforms:
-  - Linux
-  content: open
-  langs:
-  - C
-  frameworks:
-  - SDL
-  licenses:
-  - GPL2
-  added: 2025-10-01
-  updated: 2025-10-01
 
 - name: Glypha III
   originals:
@@ -1471,7 +1471,7 @@
   - Xjump
   type: clone
   repo: 'https://savannah.gnu.org/projects/gnujump/'
-  url: https://web.archive.org/web/20161024215159/http://gnujump.es.gnu.org/index.php/Main_Page
+  url: https://jump.gnu.sinusoid.es/index.php?title=Main_Page
   feed: 'https://savannah.gnu.org/news/atom.php?group=gnujump'
   development: complete
   status: playable
@@ -1488,20 +1488,10 @@
   added: 2025-08-05
   updated: 2025-08-05
   images:
-  - >-
-    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot1.png
-  - >-
-    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot2.png
-  - >-
-    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot3.png
-  - >-
-    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot4.png
-  - >-
-    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot5.png
-  - >-
-    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/snapshot7.png
-  - >-
-    https://web.cvs.savannah.gnu.org/viewvc/*checkout*/gnujump/gnujump/screenies/sdljump.png
+  - https://jump.gnu.sinusoid.es/upload/d/d9/Screenie1.png
+  - https://jump.gnu.sinusoid.es/upload/0/08/Screenie4.png
+  - https://jump.gnu.sinusoid.es/upload/a/ad/Screenie3.png
+  - https://jump.gnu.sinusoid.es/upload/0/0e/Screenie2.png
 
 - name: gnupong
   originals:
@@ -1829,16 +1819,42 @@
   added: 2026-01-06
   updated: 2026-01-06
 
+- name: gpQuake
+  originals:
+  - Quake
+  type: remake
+  repo: 'https://sourceforge.net/projects/gpquake/'
+  feed: 'https://sourceforge.net/p/gpquake/news/feed.rss'
+  development: halted
+  status: playable
+  platforms:
+  - GP32
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: A port of Quake 1 to the korean handheld GP32
+  added: 2026-08-09
+  updated: 2026-08-09
+  images:
+  - 'https://a.fsdn.com/con/app/proj/gpquake/screenshots/39623.jpg'
+  - 'https://a.fsdn.com/con/app/proj/gpquake/screenshots/39625.jpg'
+  - 'https://a.fsdn.com/con/app/proj/gpquake/screenshots/39627.jpg'
+
 - name: Granatier
   originals:
   - Bomberman
   type: clone
   repo: https://invent.kde.org/games/granatier
   url: https://apps.kde.org/granatier/
+  feed: https://apps.kde.org/en-gb/granatier/index.xml#feed
   development: very active
   status: playable
   platforms:
   - Linux
+  - Windows
+  - OSX
   multiplayer:
   - Competitive
   content: free
@@ -1850,7 +1866,7 @@
   - GPL2
   updated: 2021-11-20
   images:
-  - https://apps.kde.org/thumbnails/org.kde.granatier/granatier.png
+  - https://cdn.kde.org/screenshots/granatier/granatier.png
 
 - name: Grand Monster Slam
   originals:

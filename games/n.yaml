@@ -324,6 +324,43 @@
   video:
     youtube: yJbR7wUoNBg
 
+- name: nba-hangtime
+  originals:
+  - NBA Hangtime
+  type: official
+  repo: 'https://github.com/historicalsource/nba-hangtime'
+  development: complete
+  status: playable
+  platforms:
+  - Arcade
+  multiplayer:
+  - Competitive
+  - Co-op
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-09-07
+  updated: 2026-09-07
+
+- name: nba-jam
+  originals:
+  - NBA Jam
+  type: official
+  repo: 'https://github.com/historicalsource/nba-jam'
+  development: halted
+  status: playable
+  platforms:
+  - Arcade
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-08-24
+  updated: 2026-08-24
+
 - name: NBA Jam 2001
   originals:
   - NBA Jam 2001
@@ -1150,6 +1187,22 @@
   updated: 2013-05-27
   url: https://night-hawk.sourceforge.io/
 
+- name: Nightshade disassembly
+  originals:
+  - Nightshade
+  type: remake
+  repo: 'https://www.level7.org.uk/miscellany/nightshade-disassembly.txt'
+  development: complete
+  status: playable
+  platforms:
+  - BBC Micro
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-08-25
+  updated: 2026-08-25
+
 - name: NiL
   originals:
   - Liero
@@ -1672,9 +1725,7 @@
 
 - name: Nuvie
   images:
-  - https://nuvie.sourceforge.net/images/shots/nuvie_24.png
-  - https://nuvie.sourceforge.net/images/shots/nuvie_22.png
-  - https://nuvie.sourceforge.net/images/shots/nuvie_21.png
+  - https://github.com/nuvie/nuvie/blob/master/docs/images/nuvie.png?raw=true
   langs:
   - C++
   frameworks:
@@ -1694,7 +1745,7 @@
   - OSX
   repo: https://github.com/nuvie/nuvie
   type: remake
-  url: https://nuvie.sourceforge.net/
+  info: Nuvie has moved to the ScummVM project
   updated: 2020-05-19
 
 - name: NXEngine

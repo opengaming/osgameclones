@@ -92,6 +92,7 @@ KNOWN_FRAMEWORKS = [
   'PICO-8',
   'Piston',
   'PixiJS',
+  'Preact',
   'pygame',
   'Pyxel',
   'QB64',
@@ -138,6 +139,7 @@ FRAMEWORK_LANGUAGES = {
   "OGRE": {"C++"},
   "OpenGL": {"C++", "C"},
   "Phaser": {"JavaScript", "TypeScript"},
+  "Preact": {"JavaScript", "TypeScript"},
   "Qt": {"C++"},
   "SDL": {"C++", "C"},
   "SDL.NET": {"C#"},
@@ -196,7 +198,6 @@ def common_checks(game):
     yield from check_language_known(game)
     yield from check_framework_known(game)
     yield from check_framework_language(game)
-    yield from check_has_platform(game)
     yield from check_repo_google_code(game)
 
 
@@ -260,12 +261,6 @@ def check_framework_language(game):
         if not set(game.get("langs", [])) & framework_langs:
             yield f"🏗 {game['name']} uses \"{framework}\" as a framework, " \
                   f"but doesn't have {', '.join(framework_langs)} in its languages."
-
-
-def check_has_platform(game):
-    if not game.get("platforms"):
-        yield f"💻 {game['name']} has no platforms. " \
-              "Please help improve the entry by finding some!"
 
 
 def check_repo_google_code(game):

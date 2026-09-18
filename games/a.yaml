@@ -117,9 +117,6 @@
   - 'https://6502disassembly.com/a2-abm/images/action2.gif'
 
 - name: Abuse
-  images:
-  - https://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png
-  - https://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png
   langs:
   - C++
   - Common Lisp
@@ -757,8 +754,6 @@
   - 'Akalabeth: World of Doom'
   type: official
   repo: 'https://github.com/videogamepreservation/akalabeth'
-  url: >-
-    https://web.archive.org/web/20111111225428/http://uo.com/archive/ftp/graphics/#:~:text=Aklabeth
   development: complete
   status: playable
   platforms:
@@ -2316,8 +2311,6 @@
   updated: 2021-08-01
   url: http://stephank.github.io/arashi-js/
   info: adapted from ARASHI for the Apple Macintosh
-  images:
-  - https://fordgames.com/uploads/arashijs.png
 
 - name: Arcade3D
   originals:
@@ -2366,6 +2359,28 @@
   info: Formerly eightysArcade
   added: 2026-04-16
   updated: 2026-04-16
+
+- name: Arcanum Community Edition
+  originals:
+  - 'Arcanum: Of Steamworks and Magick Obscura'
+  type: remake
+  repo: 'https://github.com/alexbatalov/arcanum-ce'
+  development: complete
+  status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - Custom
+  info: Arcanum for modern operating systems
+  added: 2026-09-15
+  updated: 2026-09-15
 
 - name: Arcanum on iOS
   originals:
@@ -2525,20 +2540,9 @@
   added: '2025-11-02'
   updated: '2025-11-02'
   images:
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/1.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/2.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/3.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/4.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/5.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/6.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/7.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/8.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/9.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/10.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/11.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/12.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/13.jpg
-  - https://raw.githubusercontent.com/Smashcat/UNO_Manic_Miner/refs/heads/main/images/14.jpg
+  - https://github.com/Smashcat/UNO_Manic_Miner/blob/main/images/1.jpg?raw=true
+  - https://github.com/Smashcat/UNO_Manic_Miner/blob/main/images/2.jpg?raw=true
+  - https://github.com/Smashcat/UNO_Manic_Miner/blob/main/images/3.jpg?raw=true
   video:
     youtube: bSSh6-Lymfg
 
@@ -2724,6 +2728,8 @@
   feed: 'https://github.com/vleon1/Arkanum/releases.atom'
   development: halted
   status: unplayable
+  platforms:
+  - None
   content: commercial
   langs:
   - Python
@@ -3670,7 +3676,6 @@
   added: 2020-12-04
   updated: 2023-08-31
   images:
-  - https://ppb.chymera.eu/fefa2d.png
   - 'https://raw.githubusercontent.com/Keriew/augustus/master/res/vita/bg.png'
 
 - name: Avara
