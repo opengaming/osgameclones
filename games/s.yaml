@@ -3489,6 +3489,28 @@
   added: 2026-01-23
   updated: 2026-01-23
 
+- name: Slide Merge
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://github.com/646826/arkai-games/tree/main/games/slide-merge'
+  url: 'https://arkai.win/games/slide-merge/'
+  development: active
+  status: playable
+  platforms:
+  - Web
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  ai: true
+  info: Single-file vanilla JavaScript on canvas, no dependencies; 4x4 board, play continues past 2048
+  added: 2026-09-16
+  updated: 2026-09-16
+  images:
+  - https://arkai.win/og/slide-merge.jpg
+
 - name: SliJewel
   originals:
   - Bejeweled
