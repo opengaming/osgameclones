@@ -98,23 +98,6 @@
   added: 2026-03-28
   updated: 2026-03-28
 
-- name: Sabre Wulf disassembly
-  originals:
-  - Sabre Wulf
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/sabrewulf-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - ZX Spectrum
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  content: free
-  added: 2026-04-04
-  updated: 2026-04-04
-
 - name: sadx_decomp
   originals:
   - Sonic Adventure
@@ -132,6 +115,27 @@
   info: Sonic Adventure DX Decompilation
   added: 2026-04-27
   updated: 2026-04-27
+
+- name: SameGame
+  originals:
+  - SameGame
+  type: clone
+  repo: 'https://www.ticalc.org/archives/files/fileinfo/75/7504.html'
+  url: https://web.archive.org/web/20030504071134/http://www.ifrance.com/CandyMan/ti89/pgf.htm#:~:text=SameGame
+  development: halted
+  status: playable
+  platforms:
+  - TI calculator
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-09-11
+  updated: 2026-09-11
+  images:
+  - https://web.archive.org/web/20010622035129im_/http://www.ifrance.com/candyman/ti89/Samem.gif
+  - https://web.archive.org/web/20060326210107im_/http://www.ifrance.com/candyman/ti89/Sameg.gif
+  - https://www.ticalc.org/archives/files/ss/81/8184.gif
 
 - name: SanAndreasUnity
   type: remake
@@ -2463,7 +2467,7 @@
   - Windows
   - Linux
   - OSX
-  - Nintendo Switch
+  - Switch
   - Wii U
   content: commercial
   licenses:
@@ -2555,6 +2559,51 @@
   images:
   - 'https://tetris.wiki/images/f/fa/Shiromino_title.jpg'
   - 'https://tetris.wiki/images/1/10/Shiromino_ingame.jpg'
+
+- name: Shobon no Action
+  originals:
+  - Shobon no Action
+  type: official
+  url: >-
+    https://web.archive.org/web/20081222084307/http://www.geocities.jp/z_gundam_tanosii/home/Main.html
+  development: complete
+  status: playable
+  platforms:
+  - Windows
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - DxLib
+  licenses:
+  - Custom
+  info: Shobon no Action by ちく original source code
+  added: '2026-08-30'
+  updated: '2026-08-30'
+  video:
+    youtube: poqPU1sH_Fs
+
+- name: Shobon no Action (Modified)
+  originals:
+  - Shobon no Action
+  type: remake
+  url: 'https://yaruki0.net/programs/action.html'
+  development: halted
+  status: playable
+  platforms:
+  - Windows
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - DxLib
+  licenses:
+  - Custom
+  info: 'Shobon no Action modified by Bluvel, also known as "Syobon Action 2"'
+  added: '2026-08-30'
+  updated: '2026-08-30'
+  video:
+    youtube: 5FJ5qb9KZGU
 
 - name: Shockolate
   development: sporadic
@@ -2759,7 +2808,6 @@
   - Silent Hill
   type: remake
   repo: 'https://github.com/Vatuu/silent-hill-decomp'
-  url: 'https://decomp.dev/Vatuu/silent-hill-decomp'
   development: very active
   status: semi-playable
   platforms:
@@ -4249,10 +4297,10 @@
 
 - name: Solarus
   images:
-  - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-01.png
-  - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-02.png
-  - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-03.png
-  - https://www.solarus-games.org/data/en/entities/page/engine/images/screenshot-quest-editor-04.png
+  - https://www.solarus-games.org/img/features/multiplatform.webp
+  - https://www.solarus-games.org/img/features/editor.webp
+  - https://www.solarus-games.org/img/features/launcher.webp
+  - https://www.solarus-games.org/img/features/arpg.webp
   langs:
   - C++
   - Lua
@@ -4587,7 +4635,7 @@
   - Windows
   - Xbox One
   - PS4
-  - Nintendo Switch
+  - Switch
   content: commercial
   langs:
   - C
@@ -5843,23 +5891,6 @@
   - 'https://i.imgur.com/VhkhGr2.png'
   - 'https://i.imgur.com/rBgG4GK.png'
 
-- name: Spellbinder disassembly
-  originals:
-  - Spellbinder
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/spellbinder-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: Disassembly of Spellbinder on BBC Micro
-  added: 2026-04-30
-  updated: 2026-04-30
-
 - name: Spelling Bee
   images:
   - https://raw.githubusercontent.com/ConorSheehan1/spelling-bee/main/.github/images/spelling-bee.png
@@ -6076,6 +6107,24 @@
   type: remake
   updated: 2015-05-28
 
+- name: Splitting Images/ Split Personalities disassembly
+  originals:
+  - Split Personalities
+  type: remake
+  repo: 'https://github.com/pobtastic/splittingimages'
+  url: 'https://pobtastic.github.io/splittingimages/'
+  development: halted
+  status: semi-playable
+  platforms:
+  - ZX Spectrum
+  content: commercial
+  langs:
+  - Skool
+  licenses:
+  - GPL3
+  added: 2026-09-11
+  updated: 2026-09-11
+
 - name: splot
   originals:
   - Ataxx
@@ -6096,7 +6145,6 @@
   type: clone
   originals:
   - Tetris
-  repo: https://www.spludlow.co.uk/Source/Spludlow.Tetris/
   url: https://tetris.spludlow.co.uk
   development: halted
   status: playable
@@ -6478,9 +6526,7 @@
   originals:
   - 'Star Trek: Voyager – Elite Force'
   type: official
-  repo: >-
-    https://www.moddb.com/games/star-trek-voyager-elite-force/downloads/star-trek-elite-force-singleplayer-source-code
-  url: 'https://www.totallyef.net/news.php/180'
+  repo: https://www.moddb.com/games/star-trek-voyager-elite-force/downloads/star-trek-elite-force-singleplayer-source-code
   development: complete
   status: playable
   platforms:
@@ -6739,22 +6785,6 @@
   - As-is
   added: 2026-04-15
   updated: 2026-04-15
-
-- name: Starship Command disassembly
-  originals:
-  - Starship Command
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/starship-command-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-05-07
-  updated: 2026-05-07
 
 - name: Starship Commander Disassembly
   originals:
@@ -7379,6 +7409,9 @@
   - Pong
   - Lode Runner
   - Arkanoid
+  - F-Zero
+  - Micro Machines
+  - Dr. Mario
   type: clone
   repo: 'https://github.com/brizzly/sunhpgames'
   url: 'https://jmapp.com/hp48gx.php'
@@ -7392,7 +7425,7 @@
   licenses:
   - Multiple
   added: 2026-02-05
-  updated: 2026-02-05
+  updated: 2026-08-26
   images:
   - https://raw.githubusercontent.com/brizzly/sunhpgames/master/assets/android.gif
   - https://raw.githubusercontent.com/brizzly/sunhpgames/master/assets/android2.gif
@@ -7405,6 +7438,9 @@
   - https://raw.githubusercontent.com/brizzly/sunhpgames/master/assets/z49_140200_1.gif
   - https://raw.githubusercontent.com/brizzly/sunhpgames/master/assets/zeldahp2.gif
   - https://raw.githubusercontent.com/brizzly/sunhpgames/master/assets/zeldahp3.gif
+  - https://raw.githubusercontent.com/brizzly/sunhpgames/master/assets/fzerohp.gif
+  - https://raw.githubusercontent.com/brizzly/sunhpgames/master/assets/racer.gif
+  - https://raw.githubusercontent.com/brizzly/sunhpgames/master/assets/drmario.gif
 
 - name: Supaxl
   type: remake
@@ -7871,7 +7907,7 @@
   development: sporadic
   status: playable
   platforms:
-  - Nintendo Switch
+  - Switch
   multiplayer:
   - Competitive
   content: free
@@ -8019,7 +8055,7 @@
   platforms:
   - GameCube
   - Wii
-  - Nintendo Switch
+  - Switch
   - 3DS
   repo: https://github.com/carstene1ns/super-methane-brothers
   type: remake
@@ -8127,35 +8163,6 @@
   info: A decompilation of Super Smash Bros. Melee
   added: 2026-03-25
   updated: 2026-03-25
-
-- name: Super Star Trek
-  originals:
-  - Super Star Trek
-  type: official
-  repo: 'https://github.com/philspil66/Super-Star-Trek'
-  url: https://gamesnostalgia.com/game/super-star-trek
-  development: complete
-  status: playable
-  platforms:
-  - C64
-  langs:
-  - BASIC
-  licenses:
-  - As-is
-  info: Published in BASIC Computer Games.
-  added: 2026-01-26
-  updated: 2026-01-31
-  images:
-  - https://t.gamesnostalgia.com/screenshots/s/u/super-star-trek/26523.jpg
-  - https://t.gamesnostalgia.com/screenshots/s/u/super-star-trek/26524.jpg
-  - https://t.gamesnostalgia.com/screenshots/s/u/super-star-trek/26525.jpg
-  - https://t.gamesnostalgia.com/screenshots/s/u/super-star-trek/26528.jpg
-  - https://t.gamesnostalgia.com/screenshots/s/u/super-star-trek/26529.jpg
-  - https://t.gamesnostalgia.com/screenshots/s/u/super-star-trek/26531.jpg
-  - https://t.gamesnostalgia.com/screenshots/s/u/super-star-trek/26532.jpg
-  - https://t.gamesnostalgia.com/screenshots/s/u/super-star-trek/26533.jpg
-  - https://t.gamesnostalgia.com/screenshots/s/u/super-star-trek/26536.jpg
-  - https://t.gamesnostalgia.com/screenshots/s/u/super-star-trek/26537.jpg
 
 - name: Super Star Trek meets 25th Anniversary
   originals:
@@ -8357,6 +8364,8 @@
   originals:
   - Super Foul Egg
   status: playable
+  platforms:
+  - OSX
   repo: https://github.com/ant512/SuperFoulEgg
   type: remake
   updated: 2022-01-25
@@ -8369,6 +8378,8 @@
   repo: 'https://github.com/initials/SuperHorrorFactory'
   development: halted
   status: unplayable
+  platforms:
+  - Windows
   content: free
   langs:
   - 'C#'
@@ -8387,6 +8398,8 @@
   repo: 'https://www.lemmingsforums.net/index.php?topic=1793.0'
   development: halted
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -8406,6 +8419,8 @@
   url: 'https://www.lemmingsforums.net/index.php?topic=5792.0'
   development: halted
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - Java
@@ -8447,6 +8462,10 @@
   url: 'https://initials.itch.io/super-lemonade-factory'
   development: complete
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - iOS
   content: open
   langs:
   - ActionScript
@@ -8476,6 +8495,8 @@
   repo: 'https://github.com/MitchellSternke/SuperMarioBros-C'
   development: complete
   status: playable
+  platforms:
+  - None
   content: commercial
   langs:
   - C++
@@ -8552,6 +8573,8 @@
   url: 'https://www.classicdosgames.com/game/Supernova.html'
   development: complete
   status: playable
+  platforms:
+  - Windows
   langs:
   - Pascal
   licenses:
@@ -8567,6 +8590,8 @@
   feed: 'https://github.com/JeodC/SuperStarTrek25thGMS/releases.atom'
   development: very active
   status: playable
+  platforms:
+  - Android
   langs:
   - Game Maker Language
   frameworks:
@@ -8588,6 +8613,8 @@
   url: 'https://emabolo.com/article/i-rewrote-the-1978-text-only-super-star-trek-game'
   development: halted
   status: playable
+  platforms:
+  - None
   langs:
   - Lua
   - Perl
@@ -8615,6 +8642,8 @@
     https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/7800/games/#:~:text=Super%20Stunt%20Cycle/Motopsycho
   development: complete
   status: playable
+  platforms:
+  - Atari
   langs:
   - Assembly
   licenses:
@@ -8639,6 +8668,12 @@
   - Super Mario
   repo: https://github.com/SuperTux/supertux
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
+  - Web
   type: clone
   updated: 2023-11-09
   url: https://supertux.org/
@@ -8661,18 +8696,17 @@
   - Super Mario
   repo: https://github.com/Alzter/SuperTux-Classic/
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
+  - Web
   type: clone
   updated: 2023-08-27
   url: https://alzter-s.itch.io/supertux-classic
 
 - name: SuperTuxKart
-  images:
-  - https://supertuxkart.net/assets/wiki/STK1.3_1.jpg
-  - https://supertuxkart.net/assets/wiki/STK1.3_2.jpg
-  - https://supertuxkart.net/assets/wiki/STK1.3_3.jpg
-  - https://supertuxkart.net/assets/wiki/STK1.3_4.jpg
-  - https://supertuxkart.net/assets/wiki/STK1.3_5.jpg
-  - https://supertuxkart.net/assets/wiki/STK1.3_6.jpg
   langs:
   - C++
   frameworks:
@@ -8685,6 +8719,12 @@
   - Mario Kart
   repo: https://github.com/supertuxkart/stk-code
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
+  - Switch
   type: clone
   updated: 2019-08-27
   url: https://supertuxkart.net/
@@ -8695,9 +8735,16 @@
   type: clone
   originals:
   - Mario Party
+  url: https://supertux.party
+  feed: https://supertux.party/index.xml#feed
   repo: https://gitlab.com/SuperTuxParty/SuperTuxParty
-  development: sporadic
+  development: halted
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
+  - Android
   multiplayer:
   - Split-screen
   langs:
@@ -8709,7 +8756,12 @@
   content: open
   updated: 2023-11-10
   images:
-  - https://gitlab.com/SuperTuxParty/SuperTuxParty/raw/dev/screenshot.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzQ1NjU3NTIucG5n/original/rmA5kq.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzQ1NjU3NTEucG5n/original/zDlzIA.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzU3MzE2NjcucG5n/original/ZLXPGC.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzQ1NjU3NDYucG5n/original/2w5e9M.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzQ1NjU3NzcucG5n/original/fwGNC%2F.png
+  - https://img.itch.zone/aW1hZ2UvMjk5ODQ5LzQ1NjU3ODAucG5n/original/ZHkqCB.png
 
 - name: SurrealEngine
   originals:
@@ -8718,6 +8770,10 @@
   repo: https://github.com/dpjudas/SurrealEngine
   development: very active
   status: unplayable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   content: commercial
   langs:
   - C++
@@ -8739,6 +8795,8 @@
   url: 'https://www.romhacking.net/documents/506/'
   development: complete
   status: playable
+  platforms:
+  - Atari
   multiplayer:
   - Local
   langs:
@@ -8760,18 +8818,21 @@
   - Survivor (1986)
   repo: https://github.com/scottschiller/SURVIVOR
   status: playable
+  platforms:
+  - Web
   type: remake
   updated: 2023-11-11
-  url: http://www.schillmania.com/survivor/
+  url: https://www.schillmania.com/survivor/
 
 - name: Sutom Game
   originals:
   - Wordle
   type: clone
   repo: 'https://github.com/win-wiz/sutom-game'
-  url: 'https://sutom.fun/'
   development: sporadic
   status: playable
+  platforms:
+  - Web
   content: free
   langs:
   - TypeScript
@@ -8786,10 +8847,11 @@
   type: official
   repo: >-
     https://archive.org/download/DataMost_Internal_Floppies_Collection#:~:text=SWASHBUCKLER%20SOURCE
-  url: >-
-    https://archive.org/details/DataMost_Internal_Floppies_Collection#:~:text=Swashbuckler
+  url: https://archive.org/details/DataMost_Internal_Floppies_Collection#:~:text=Swashbuckler
   development: complete
   status: playable
+  platforms:
+  - Apple II
   content: free
   langs:
   - Assembly
@@ -8805,6 +8867,8 @@
   url: 'https://archive.org/details/fargoal'
   development: halted
   status: playable
+  platforms:
+  - Windows
   content: free
   langs:
   - C
@@ -8829,11 +8893,12 @@
   originals:
   - Shadow Warrior
   status: playable
+  platforms:
+  - Windows
   repo: https://github.com/Hendricks266/SWP
   development: halted
   type: remake
   updated: 2023-11-13
-  url: http://www.proasm.com/sw/swp.html
   video:
     youtube: JePqKJd4hhw
 
@@ -8845,6 +8910,8 @@
   url: https://www.michaelfogleman.com/projects/pac-man/
   development: halted
   status: playable
+  platforms:
+  - Windows
   langs:
   - Java
   frameworks:
@@ -8864,6 +8931,8 @@
   feed: 'https://sourceforge.net/p/symbolica/activity/feed'
   development: complete
   status: playable
+  platforms:
+  - Linux
   content: free
   langs:
   - C++
@@ -8888,9 +8957,12 @@
   originals:
   - Syndicate Wars
   status: playable
+  platforms:
+  - Linux
+  - OSX
+  - Windows
   type: remake
   updated: 2023-11-14
-  url: http://swars.vexillium.org/
   repo: https://github.com/mefistotelis/swars
   langs:
   - C
@@ -8908,6 +8980,8 @@
     https://www.gamedeveloper.com/programming/nightdive-shares-source-code-for-i-system-shock-i-on-mac
   development: complete
   status: playable
+  platforms:
+  - Classic Mac OS
   content: commercial
   langs:
   - C
@@ -8928,6 +9002,9 @@
   feed: 'https://sourceforge.net/p/tsshp/news/feed.atom'
   development: halted
   status: semi-playable
+  platforms:
+  - Linux
+  - Windows
   content: commercial
   langs:
   - C++

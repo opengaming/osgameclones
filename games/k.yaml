@@ -75,28 +75,6 @@
   - https://kaiser2.strotmann.de/img/kaiserpic6.png
   - https://kaiser2.strotmann.de/img/kaiserpic7.png
 
-- name: Kaiser von Deutschland
-  originals:
-  - Kaiser
-  type: clone
-  repo: 'https://github.com/Thomas-Heisig/Kaiser_von_Deutschland'
-  development: active
-  status: playable
-  platforms:
-  - Web
-  multiplayer:
-  - Online
-  - LAN
-  content: open
-  langs:
-  - TypeScript
-  frameworks:
-  - PixiJS
-  licenses:
-  - MIT
-  added: 2026-01-15
-  updated: 2026-01-15
-
 - name: Kajaani Kombat
   originals:
   - Rampart
@@ -385,7 +363,6 @@
   images:
   - 'https://keeperfx.net/screenshots/keeperfx-far-zoom.jpg'
   - 'https://keeperfx.net/screenshots/keeperfx-new-map-scripts.png'
-  - 'https://keeperfx.net/screenshots/keeperfx-render-distance.png'
   - 'https://keeperfx.net/screenshots/keeperfx-shift-room-creation.png'
   video:
     youtube: JwDdLynZPag
@@ -435,7 +412,7 @@
   - https://advsys.net/ken/klab/klabcap2.png
   - https://advsys.net/ken/klab/klabcap3.png
 
-- name: Ken's Labyrinth enhanced port for Nintendo Switch
+- name: Ken's Labyrinth enhanced port for Switch
   originals:
   - Ken's Labyrinth
   type: remake
@@ -446,7 +423,7 @@
   development: sporadic
   status: playable
   platforms:
-  - Nintendo Switch
+  - Switch
   content: free
   langs:
   - C
@@ -661,22 +638,6 @@
   - 'https://kiki.sourceforge.net/screenshots/kiki_008.jpg'
   - 'https://kiki.sourceforge.net/screenshots/kiki_009.jpg'
   - 'https://kiki.sourceforge.net/screenshots/kiki_010.jpg'
-
-- name: Killer Gorilla disassembly
-  originals:
-  - Killer Gorilla
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/killer-gorilla-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-06-06
-  updated: 2026-06-06
 
 - name: Kiloblaster
   originals:
@@ -988,24 +949,6 @@
   video:
     youtube: wPLsUH8tFxg
 
-- name: Knight Lore disassembly
-  originals:
-  - Knight Lore
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/knightlore-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  content: commercial
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: Disassembly of Knight Lore on BBC Micro
-  added: 2026-04-18
-  updated: 2026-04-18
-
 - name: KnightOfWor
   langs:
   - Java
@@ -1316,7 +1259,6 @@
   - Heroes of Jin Yong
   type: remake
   repo: 'https://github.com/scarsty/kys-cpp'
-  url: 'https://tiexuedanxin.net/thread-1034211-1-1.html'
   feed: 'https://github.com/scarsty/kys-cpp/releases.atom'
   development: complete
   status: playable
@@ -1337,16 +1279,12 @@
   - https://raw.githubusercontent.com/scarsty/kys-cpp/master/pic/1.png
   - https://raw.githubusercontent.com/scarsty/kys-cpp/master/pic/2.png
   - https://raw.githubusercontent.com/scarsty/kys-cpp/master/pic/3.png
-  - https://tiexuedanxin.net/forum.php?mod=attachment&aid=MzUzNDYyfGQ4ZTY5ZmU5fDE3NzIzODgzNjN8MHwxMDM0MjEx&noupdate=yes
-  - https://tiexuedanxin.net/forum.php?mod=attachment&aid=MzUzNDYzfDIzZmI4MWNmfDE3NzIzODgzNjN8MHwxMDM0MjEx&noupdate=yes
-  - https://tiexuedanxin.net/forum.php?mod=attachment&aid=MzU0Nzk2fDhkNDQxYjk4fDE3NzIzODgzNjN8MHwxMDM0MjEx&noupdate=yes
 
 - name: kys-js
   originals:
   - Heroes of Jin Yong
   type: remake
   repo: 'https://github.com/kt2/kys-js'
-  url: 'https://tiexuedanxin.net/thread-1039375-1-1.html'
   development: halted
   status: playable
   platforms:
@@ -1369,7 +1307,6 @@
   - Heroes of Jin Yong
   type: remake
   repo: 'https://github.com/scarsty/kys-pascal'
-  url: 'https://tiexuedanxin.net/thread-401655-1-1.html'
   development: sporadic
   status: playable
   platforms:
