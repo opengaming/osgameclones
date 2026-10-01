@@ -49,7 +49,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - Go
@@ -379,7 +379,7 @@
   development: complete
   status: playable
   platforms:
-  - OSX
+  - macOS
   - Linux
   - Windows
   content: free
@@ -461,6 +461,29 @@
   - Custom
   added: 2026-03-29
   updated: 2026-03-29
+
+- name: Pacman 500
+  originals:
+  - Pac-Man
+  type: remake
+  repo: 'https://github.com/jotd666/pacman500'
+  url: 'https://jotd666.itch.io/pacman-500'
+  feed: 'https://jotd666.itch.io/pacman-500/devlog.rss'
+  development: sporadic
+  status: playable
+  platforms:
+  - Amiga
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-09-14
+  updated: 2026-09-14
+  images:
+  - 'https://img.itch.zone/aW1nLzY5ODgyMzEucG5n/original/lcW%2Ff7.png'
+  video:
+    youtube: TvU7mu-3J5I
 
 - name: pacman (1995)
   originals:
@@ -656,7 +679,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: free
   langs:
   - C++
@@ -742,7 +765,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Web
   licenses:
   - MIT
@@ -764,7 +787,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Web
   content: commercial
   langs:
@@ -833,22 +856,6 @@
   - https://web.archive.org/web/20240322224626if_/http://deathshadow.com/images/pakuMenu.png
   - https://www.classicdosgames.com/images/screenshots/cgans/Paku_Paku.png
 
-- name: Palace of Magic disassembly
-  originals:
-  - Palace of Magic
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/palace-of-magic-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-05-30
-  updated: 2026-05-30
-
 - name: Pandora's Blocks
   originals:
   - 'Tetris: The Grand Master'
@@ -895,7 +902,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   type: remake
   updated: 2023-11-16
@@ -1021,7 +1028,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - Java
@@ -1048,7 +1055,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   langs:
   - ooc
   licenses:
@@ -1132,7 +1139,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - Python
@@ -1258,7 +1265,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   repo: https://sourceforge.net/projects/pathological/
   type: remake
   updated: 2022-07-28
@@ -1345,7 +1352,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C
@@ -1465,7 +1472,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Online
   - LAN
@@ -1516,7 +1523,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C++
@@ -1583,7 +1590,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: clone
   updated: 2014-09-19
   url: https://performous.org/
@@ -1873,7 +1880,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/joulupunikki/Phoenix
   url: https://joulupunikki.github.io/Phoenix/
   type: remake
@@ -1894,7 +1901,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C++
@@ -2011,7 +2018,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: clone
   updated: 2023-10-08
   url: https://pingus.seul.org
@@ -2308,7 +2315,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - BeOS
   repo: https://codeberg.org/cowomaly/pizzalegacy/
   type: remake
@@ -3066,7 +3073,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   langs:
   - Java
   licenses:
@@ -3222,7 +3229,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - Python
@@ -3406,6 +3413,28 @@
   updated: 2025-11-21
   images:
   - 'https://austinmorlan.com/posts/pong_clone/media/demo.gif'
+
+- name: pong-game
+  originals:
+  - Pong
+  type: clone
+  repo: 'https://github.com/nuno-faria/pong-game'
+  url: 'https://nuno-faria.github.io/pong-game/pong-web/'
+  development: complete
+  status: playable
+  platforms:
+  - Web
+  content: free
+  langs:
+  - 'C#'
+  frameworks:
+  - Unity
+  licenses:
+  - As-is
+  added: 2026-09-15
+  updated: 2026-09-15
+  images:
+  - https://raw.githubusercontent.com/nuno-faria/pong-game/master/screenshots/1.png
 
 - name: Pong Game
   originals:
@@ -3680,7 +3709,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   content: open
   langs:
   - C
@@ -3703,7 +3732,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: free
   langs:
   - C
@@ -3812,7 +3841,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   content: open
   langs:
@@ -3966,7 +3995,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/coelckers/prboom-plus
   type: remake
   url: https://prboom-plus.sourceforge.net/
@@ -4001,7 +4030,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: 'https://github.com/edbmods/EdBPrepareCarefully'
   feed: 'https://github.com/edbmods/EdBPrepareCarefully/releases.atom'
   development: sporadic
@@ -4241,7 +4270,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://sourceforge.net/projects/privateer/
   type: remake
   url: https://privateer.sourceforge.net/
@@ -4456,7 +4485,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: free
   langs:
   - 'C#'
@@ -4482,7 +4511,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: free
   langs:
   - GDScript
@@ -4578,7 +4607,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   development: halted
   type: remake
   updated: 2021-11-30
@@ -4687,7 +4716,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C++
@@ -4808,7 +4837,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   langs:
   - Java
   licenses:
@@ -4876,7 +4905,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - C
@@ -5246,7 +5275,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - Python
@@ -5433,7 +5462,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - BeOS
   repo: https://hg.linkmauve.fr/touhou
   type: remake
@@ -5452,7 +5481,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - Python

@@ -17,7 +17,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: similar
   url: https://play0ad.com/
   feed: http://feeds.feedburner.com/0adrevisions
@@ -136,7 +136,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -287,7 +287,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Dreamcast
   content: commercial
   langs:
@@ -356,7 +356,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - Local
@@ -427,7 +427,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   langs:
   - Python
   - JavaScript
@@ -599,7 +599,7 @@
   platforms:
   - Web
   - Linux
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Competitive
@@ -629,7 +629,7 @@
   platforms:
   - Web
   - Linux
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Competitive
@@ -723,6 +723,24 @@
   - MIT
   added: 2025-11-01
   updated: 2025-11-01
+
+- name: 2048 (HP Calculator)
+  originals:
+  - '2048'
+  type: clone
+  url: 'https://www.hpcalc.org/details/9332'
+  development: complete
+  status: playable
+  platforms:
+  - HP calculator
+  langs:
+  - Python
+  licenses:
+  - As-is
+  added: 2026-09-14
+  updated: 2026-09-14
+  images:
+  - 'https://www.hpcalc.org/prime/games/sshots/2048.png'
 
 - name: 2048 in Haskell
   originals:
@@ -987,7 +1005,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - C++
@@ -1030,7 +1048,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   langs:
   - Tcl
   licenses:

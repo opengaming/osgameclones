@@ -194,7 +194,7 @@
     wikipedia: Gish (video game)
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   meta:
     genres:
@@ -584,7 +584,7 @@
   platforms:
   - Android
   - iOS
-  - OSX
+  - macOS
   - PS2
   - Windows
   - Xbox
@@ -713,11 +713,22 @@
     website: 'https://apps.apple.com/us/app/grizzly-bear-platformer/id413938360?mt=12'
   platforms:
   - iOS
-  - OSX
+  - macOS
   - Windows
   meta:
     genres:
     - Platform
+
+- name: Gruntz
+  external:
+    website: https://web.archive.org/web/20021119215737/http://gruntzgoo.com/
+    wikipedia: Gruntz
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Strategy
+    - Puzzle
 
 - name: The Guild of Thieves
   external:

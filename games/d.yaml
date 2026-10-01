@@ -14,7 +14,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   type: remake
   updated: 2021-01-22
   url: http://www.descent2.de/
@@ -60,7 +60,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C++
@@ -87,7 +87,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   type: remake
   updated: 2023-01-01
   url: https://www.dfworkshop.net/
@@ -409,7 +409,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   multiplayer:
   - Local
   - Online
@@ -494,7 +494,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   repo: https://github.com/DarkPlacesEngine/darkplaces
   type: remake
   added: 2015-07-02
@@ -578,7 +578,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: similar
   updated: 2024-01-30
   url: https://djoffe.com/gnukem/
@@ -852,7 +852,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   updated: 2022-02-10
   url: http://www.newbreedsoftware.com/defendguin/
@@ -874,7 +874,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   type: remake
   added: 2014-01-12
   updated: 2021-09-04
@@ -899,12 +899,31 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   repo: https://github.com/Interrupt/delverengine
   type: official
   updated: 2022-07-02
   url: http://www.delvergame.com
+
+- name: Demine
+  originals:
+  - Minesweeper
+  type: clone
+  url: 'https://www.ticalc.org/archives/files/fileinfo/368/36877.html'
+  development: complete
+  status: playable
+  platforms:
+  - TI calculator
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2026-09-21
+  updated: 2026-09-21
+  images:
+  - https://www.ticalc.org/archives/files/ss/714/71410.gif
+  - https://www.ticalc.org/archives/files/ss/714/71430.gif
 
 - name: Der Clou!
   langs:
@@ -943,7 +962,7 @@
   platforms:
   - Windows
   - Saturn
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - Online
@@ -967,7 +986,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   content: commercial
   langs:
@@ -1121,7 +1140,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - C++
@@ -1186,7 +1205,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - 3DS
   - Amiga
   - Android
@@ -1277,7 +1296,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/dhewm/dhewm3
   type: remake
   updated: 2022-07-02
@@ -1602,7 +1621,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - DOS
   type: remake
   url: https://digger.org/
@@ -1644,7 +1663,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   url: 'https://mhatxotic.github.io/Diggers'
   updated: '2025-08-01'
@@ -1746,7 +1765,7 @@
   - Windows
   - Linux
   - Web
-  - OSX
+  - macOS
   - Android
   - iOS
   content: free
@@ -1816,6 +1835,37 @@
   info: A full featured MOULa-compatible server platform for POSIX-compliant operating systems.
   added: 2025-12-08
   updated: 2025-12-08
+
+- name: Disassemblies of classic BBC Micro games
+  originals:
+  - Atic Atac
+  - Boffin
+  - Citadel
+  - Firetrack
+  - Killer Gorilla
+  - Knight Lore
+  - Monsters
+  - Nightshade
+  - Palace of Magic
+  - Ravenskull
+  - Sabre Wulf
+  - The Sentinel
+  - Spellbinder
+  - Starquake
+  - Starship Command
+  - Wizadore
+  type: remake
+  repo: https://www.level7.org.uk/miscellany
+  development: complete
+  status: playable
+  platforms:
+  - BBC Micro
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-04-04
+  updated: 2026-09-20
 
 - name: Disassembly of Boulder Dash for the BBC Micro
   originals:
@@ -1944,6 +1994,42 @@
   images:
   - https://raw.githubusercontent.com/Team--Rocket/divercity/master/graphics/splash_1.png
   - https://raw.githubusercontent.com/Team--Rocket/divercity/master/betterScreenshot.png
+
+- name: Dizgruntled
+  originals:
+  - Gruntz
+  type: remake
+  repo: 'https://github.com/Dizgruntled/Dizgruntled'
+  url: 'https://gooroosgruntz.proboards.com/post/26736'
+  development: halted
+  status: semi-playable
+  platforms:
+  - Web
+  content: free
+  langs:
+  - TypeScript
+  licenses:
+  - MIT
+  added: 2026-09-15
+  updated: 2026-09-15
+
+- name: dizgruntled-java
+  type: remake
+  originals:
+  - Gruntz
+  repo: https://github.com/Hugheth/dizgruntled-java
+  url: https://gooroosgruntz.proboards.com/thread/2132/dizgruntled-open-source
+  development: halted
+  status: unplayable
+  platforms:
+  - None
+  langs:
+  - Java
+  licenses:
+  - As-is
+  content: commercial
+  added: 2026-09-15
+  updated: 2026-09-15
 
 - name: djavul
   originals:
@@ -2152,7 +2238,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   updated: 2024-02-20
   url: https://domino-chain.gitlab.io/
@@ -2656,7 +2742,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - Online
@@ -2710,7 +2796,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C
@@ -2848,7 +2934,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   originals:
   - Doom
   - Heretic
@@ -2881,7 +2967,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - Online
@@ -3007,7 +3093,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   - Android
   originals:
   - Cave Story
@@ -3083,7 +3169,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - Local
@@ -3111,7 +3197,7 @@
   development: halted
   status: playable
   platforms:
-  - OSX
+  - macOS
   content: open
   langs:
   - C++
@@ -3291,7 +3377,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   - DS
   - Dreamcast
   langs:
@@ -3375,7 +3461,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   content: open
   langs:
   - Java
@@ -3623,7 +3709,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   type: remake
   updated: 2024-02-08
   url: http://tangramgames.dk/games/duckmarines/
@@ -3761,7 +3847,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   - BeOS
   multiplayer:
   - LAN
@@ -4034,7 +4120,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C++
@@ -4066,7 +4152,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - Online
@@ -4401,7 +4487,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   - iOS
   - Android
   originals:
@@ -4472,7 +4558,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - 'C#'
@@ -4568,7 +4654,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   url: https://www.dxx-rebirth.com/
   updated: 2021-03-03
 

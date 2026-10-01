@@ -186,7 +186,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://sourceforge.net/projects/galaxyv2/
   url: https://web.archive.org/web/20250711123954/http://www.galaxy-forces.com/
   feed: https://sourceforge.net/p/galaxyv2/news/feed.rss
@@ -361,7 +361,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Web
   langs:
   - C
@@ -407,7 +407,7 @@
   development: complete
   status: playable
   platforms:
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C
@@ -429,7 +429,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - LAN
@@ -505,7 +505,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://bitbucket.org/czirkoszoltan/gdash
   type: remake
   updated: 2021-11-05
@@ -573,7 +573,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Classic Mac OS
   - Amiga
   - Dreamcast
@@ -620,7 +620,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   url: https://gemrb.org
   updated: 2023-12-26
@@ -640,7 +640,7 @@
   status: N/A
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -767,7 +767,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   - Amiga
   - Mobile
@@ -1306,7 +1306,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Classic Mac OS
   content: open
   langs:
@@ -1394,7 +1394,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/Gnomescroll/Gnomescroll
   type: remake
   updated: 2019-11-20
@@ -1419,7 +1419,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - PSP
   - Amiga
   - Xbox
@@ -1525,7 +1525,7 @@
   platforms:
   - Android
   - Linux
-  - OSX
+  - macOS
   langs:
   - C
   frameworks:
@@ -1573,7 +1573,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   repo: https://github.com/jotd666/gods-deluxe
   updated: 2024-01-13
@@ -1676,7 +1676,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C++
@@ -1727,7 +1727,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   content: free
   langs:
   - C++
@@ -1854,7 +1854,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   content: free
@@ -2073,7 +2073,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/dpt/The-Great-Escape-in-C
   type: remake
   url: https://www.davespace.co.uk/the.great.escape/
@@ -2111,7 +2111,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   langs:
   - BlitzMax
   licenses:
@@ -2139,7 +2139,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/griefly/griefly
   type: remake
   updated: 2022-08-23
@@ -2399,7 +2399,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -2569,3 +2569,36 @@
   type: remake
   updated: 2026-06-06
   info: GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine
+
+- name: GZSelaco
+  originals:
+  - Selaco
+  type: official
+  repo: 'https://github.com/TheCockatrice/GZSelaco'
+  development: active
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  - macOS
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: Public fork of GZDoom for Selaco
+  added: '2026-09-02'
+  updated: '2026-09-02'
+  images:
+  - >-
+    https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592280/ss_515b646ca4fa4d49f2ca3ca428256b0839a869fe.1920x1080.jpg?t=1753884172
+  - >-
+    https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592280/ss_83f21f753385f2a9c6b0cfc3a77f012c8038e762.1920x1080.jpg?t=1753884172
+  - >-
+    https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592280/ss_d78db4e9f6e4f680adb5dcb021eff21566857c61.1920x1080.jpg?t=1753884172
+  - >-
+    https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592280/ss_6b51e2798d68eaf27dd5df95602a0650f8710547.1920x1080.jpg?t=1753884172
+  video:
+    youtube: 5sMGL67wK7A

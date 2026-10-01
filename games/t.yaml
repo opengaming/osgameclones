@@ -9,7 +9,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Competitive
@@ -116,7 +116,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   type: remake
   added: 2014-04-16
@@ -244,7 +244,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   - Android
   repo: https://github.com/w84death/Tanks-of-Freedom
@@ -329,7 +329,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: open
   langs:
@@ -406,6 +406,23 @@
   updated: 2026-01-12
   images:
   - 'https://corewar.co.uk/screenshots/tclrobots.png'
+
+- name: TD3Extract
+  originals:
+  - 'Test Drive III: The Passion'
+  type: tool
+  repo: 'https://github.com/yuv422/TD3Extract'
+  development: complete
+  status: N/A
+  platforms:
+  - None
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - MIT
+  added: 2026-09-16
+  updated: 2026-09-16
 
 - name: TDEPacman
   originals:
@@ -644,7 +661,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: free
   langs:
@@ -699,7 +716,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   type: remake
   added: 2014-08-20
@@ -964,7 +981,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: open
   langs:
@@ -1029,6 +1046,29 @@
   - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7080.jpg'
   - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7082.jpg'
   - 'https://a.fsdn.com/con/app/proj/tetrisunlimited/screenshots/7076.jpg'
+
+- name: TetrisGBRecomp
+  originals:
+  - Tetris (Game Boy)
+  type: remake
+  repo: 'https://github.com/mstan/TetrisGBRecomp'
+  feed: 'https://github.com/mstan/TetrisGBRecomp/releases.atom'
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  content: commercial
+  langs:
+  - C
+  - TOML
+  licenses:
+  - As-is
+  ai: true
+  info: Tetris recompiled for the Game Boy using a fork of gb-recompiled
+  added: 2026-09-16
+  updated: 2026-09-16
 
 - name: TetrisNESDisasm
   originals:
@@ -1183,7 +1223,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   repo: https://github.com/Ponup/thiefcatcher
   type: remake
@@ -1201,7 +1241,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -1466,7 +1506,7 @@
   development: sporadic
   status: semi-playable
   platforms:
-  - OSX
+  - macOS
   content: free
   langs:
   - C++
@@ -1636,7 +1676,7 @@
   status: unplayable
   platforms:
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C
@@ -1767,7 +1807,7 @@
   - Tiny Wings
   status: semi-playable
   platforms:
-  - OSX
+  - macOS
   repo: https://github.com/haqu/tiny-wings
   type: clone
   images:
@@ -1829,7 +1869,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Competitive
@@ -1960,7 +2000,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -2094,7 +2134,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   repo: https://github.com/zuzuf/TA3D
   type: remake
@@ -2144,6 +2184,32 @@
   repo: https://gitlab.com/roever/toppler/
   added: 2013-05-27
   updated: 2023-09-14
+
+- name: Towns
+  originals:
+  - Towns
+  type: official
+  repo: 'https://github.com/supermalparit/Towns'
+  url: https://store.steampowered.com/app/221020/Towns/
+  development: halted
+  status: playable
+  platforms:
+  - Windows
+  - macOS
+  content: commercial
+  langs:
+  - Java
+  frameworks:
+  - LWJGL
+  licenses:
+  - GPL3
+  added: 2026-09-27
+  updated: 2026-09-27
+  images:
+  - >-
+    https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221020/ss_4bffd3fdc4894cb200c5406e9f839dd10eb280a0.1920x1080.jpg
+  video:
+    youtube: mRdqN4r34BM
 
 - name: "Track'N'Field"
   originals:
@@ -2224,7 +2290,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   - Web
   content: open
@@ -2322,7 +2388,7 @@
   - Tranz Am
   status: playable
   platforms:
-  - OSX
+  - macOS
   - Windows
   type: remake
   added: 2015-04-12
@@ -2377,7 +2443,7 @@
   development: halted
   status: playable
   platforms:
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Online
@@ -2447,7 +2513,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Online
@@ -2472,7 +2538,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Online
@@ -2495,7 +2561,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Online
@@ -2523,7 +2589,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Local
@@ -2654,7 +2720,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -2708,7 +2774,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -2843,7 +2909,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Local
@@ -2999,7 +3065,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   multiplayer:
   - Competitive
@@ -3070,7 +3136,7 @@
   status: unplayable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: open
   langs:
@@ -3130,7 +3196,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   - Android
   type: remake
@@ -3197,7 +3263,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   type: remake
   added: 2014-11-09
@@ -3341,7 +3407,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   - Web
   - Android
@@ -3365,7 +3431,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   repo: https://disenchant.net/git/tyrquake.git/
   type: remake

@@ -32,7 +32,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://codeberg.org/naev/naev
   url: https://naev.org
   feed: https://naev.org/feed/index.xml
@@ -81,7 +81,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C
@@ -179,7 +179,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -205,7 +205,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C
@@ -231,7 +231,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Local
   content: free
@@ -421,7 +421,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   - Web
   langs:
@@ -526,7 +526,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: 'https://github.com/klaussilveira/neortcw'
   development: active
   content: commercial
@@ -745,7 +745,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   multiplayer:
   - Competitive
@@ -770,7 +770,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   langs:
   - C++
   frameworks:
@@ -852,7 +852,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/Neverball/neverball
   type: clone
   updated: 2019-11-20
@@ -951,6 +951,25 @@
   repo: https://github.com/sursonico/newtron
   type: remake
   updated: 2015-06-01
+
+- name: nflblitz2000
+  originals:
+  - NFL Blitz 2000
+  type: official
+  repo: 'https://github.com/historicalsource/nflblitz2000'
+  development: complete
+  status: playable
+  platforms:
+  - Arcade
+  multiplayer:
+  - Local
+  content: free
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-09-14
+  updated: 2026-09-14
 
 - name: NFS Recompiled
   originals:
@@ -1187,22 +1206,6 @@
   updated: 2013-05-27
   url: https://night-hawk.sourceforge.io/
 
-- name: Nightshade disassembly
-  originals:
-  - Nightshade
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/nightshade-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-08-25
-  updated: 2026-08-25
-
 - name: NiL
   originals:
   - Liero
@@ -1328,7 +1331,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - BeOS
   content: open
   langs:
@@ -1535,7 +1538,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - Lua
@@ -1553,6 +1556,41 @@
   - 'https://stabyourself.net/images/screenshots/notpacman-5.png'
   video:
     youtube: bJWJt_lgd4g
+
+- name: Not Tetris 2
+  originals:
+  - Tetris
+  type: similar
+  repo: 'https://github.com/Stabyourself/nottetris2'
+  url: 'https://stabyourself.net/nottetris2/'
+  development: complete
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  multiplayer:
+  - Local
+  content: open
+  langs:
+  - Lua
+  frameworks:
+  - LÖVE
+  licenses:
+  - WTFPL
+  info: >-
+    Not Tetris 2 is the spiritual successor of the classic Tetris mixed with
+    physics.
+  added: '2026-09-18'
+  updated: '2026-09-18'
+  images:
+  - 'https://stabyourself.net/images/screenshots/nottetris2-1.png'
+  - 'https://stabyourself.net/images/screenshots/nottetris2-2.png'
+  - 'https://stabyourself.net/images/screenshots/nottetris2-3.png'
+  - 'https://stabyourself.net/images/screenshots/nottetris2-4.png'
+  - 'https://stabyourself.net/images/screenshots/nottetris2-5.png'
+  video:
+    youtube: 8edwWVSHsrY
 
 - name: Novanoid
   originals:
@@ -1586,7 +1624,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - C
@@ -1663,7 +1701,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Online
   - LAN
@@ -1711,7 +1749,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   langs:
   - Java
   frameworks:
@@ -1742,7 +1780,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/nuvie/nuvie
   type: remake
   info: Nuvie has moved to the ScummVM project
@@ -1790,6 +1828,6 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   updated: 2024-04-10

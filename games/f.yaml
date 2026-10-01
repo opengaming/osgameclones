@@ -50,7 +50,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   multiplayer:
   - Competitive
@@ -110,6 +110,24 @@
   updated: 2022-08-09
 
 - name: F-Zero X
+  originals:
+  - F-Zero X
+  type: remake
+  repo: 'https://github.com/inspectredc/fzerox'
+  development: sporadic
+  status: unplayable
+  platforms:
+  - N64
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - CC0
+  info: F-Zero X Decompilation
+  added: 2026-09-27
+  updated: 2026-09-27
+
+- name: F-Zero X (USA)
   originals:
   - F-Zero X
   type: remake
@@ -196,7 +214,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   - Android
   - iOS
@@ -221,7 +239,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   - Android
   - iOS
@@ -503,7 +521,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   - Android
   - PSVita
@@ -657,22 +675,6 @@
   video:
     youtube: stu__95WIN4
 
-- name: FireTrack disassembly
-  originals:
-  - Firetrack
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/firetrack-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-06-24
-  updated: 2026-06-24
-
 - name: Fish Fillets Clone
   originals:
   - Fish Fillets
@@ -706,7 +708,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   - BeOS
   - Amiga
@@ -941,7 +943,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   - Android
   repo: https://github.com/flareteam/flare-game
@@ -1063,7 +1065,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   repo: https://sourceforge.net/projects/flightgear/
   type: clone
@@ -1099,7 +1101,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   content: open
   langs:
@@ -1402,7 +1404,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   - Android
   type: clone
@@ -1610,7 +1612,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   type: remake
   updated: 2023-05-22
@@ -1703,7 +1705,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   repo: https://github.com/longturn/freeciv21
   type: clone
@@ -1789,7 +1791,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   langs:
   - Java
@@ -1820,7 +1822,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   url: https://www.frag-net.com/projects.html
   repo: https://github.com/eukara/freecs
@@ -1968,7 +1970,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   - PSVita
   frameworks:
@@ -2051,7 +2053,7 @@
   status: semi-playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   repo: https://github.com/eukara/freehl
   type: remake
@@ -2171,7 +2173,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   originals:
   - Master of Orion
@@ -2311,7 +2313,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   added: 2012-04-15
   updated: 2026-07-25
@@ -2425,7 +2427,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   langs:
   - C++
   frameworks:
@@ -2548,7 +2550,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   updated: 2019-11-20
   url: https://fretsonfire.sourceforge.net/
@@ -2934,7 +2936,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C++
