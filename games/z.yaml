@@ -354,6 +354,34 @@
   - https://github.com/ZeldaClassic/ZeldaClassic-2.53/blob/main/screenshots/lost2.png?raw=true
   - https://github.com/ZeldaClassic/ZeldaClassic-2.53/blob/main/screenshots/editor1.png?raw=true
 
+- name: Zero Hour Reforged
+  type: remake
+  originals:
+  - 'Command & Conquer: Generals'
+  repo: https://github.com/olcayseygan/CnCGeneralsZH-Reforged
+  feed: https://github.com/olcayseygan/CnCGeneralsZH-Reforged/releases.atom
+  development: very active
+  status: playable
+  platforms:
+  - Windows
+  multiplayer:
+  - LAN
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - DirectX
+  licenses:
+  - GPL3
+  info: >-
+    Zero Hour rebuilt from EA's released source: 64-bit, Direct3D 11,
+    Visual Studio 2022 and CMake, with original bugs fixed and a skirmish AI
+    that builds a base. Needs the Zero Hour data files from a retail copy.
+  added: 2026-09-25
+  updated: 2026-09-25
+  images:
+  - https://repository-images.githubusercontent.com/1165933897/f5da7617-d40d-49a7-aeb7-82dca586c099
+
 - name: Zero-K
   type: similar
   langs:
