@@ -333,6 +333,34 @@
   added: 2026-01-17
   updated: 2026-01-17
 
+- name: FaxanaduRecomp
+  originals:
+  - Faxanadu
+  type: remake
+  repo: 'https://github.com/mstan/FaxanaduRecomp'
+  url: 'https://1379.tech/nesrecomp-faxanadurecomp/'
+  feed: 'https://github.com/mstan/FaxanaduRecomp/releases.atom'
+  development: active
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  content: commercial
+  langs:
+  - C
+  - TOML
+  licenses:
+  - Custom
+  ai: true
+  info: Faxanadu recompiled for the NES using nesrecomp
+  added: 2026-10-03
+  updated: 2026-10-03
+  images:
+  - https://raw.githubusercontent.com/mstan/FaxanaduRecomp/master/media/title_screen.png
+  video:
+    youtube: lLXSnK3HVW4
+
 - name: Fernando 3
   originals:
   - Super Mario
