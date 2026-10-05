@@ -1090,6 +1090,31 @@
   added: 2025-11-22
   updated: 2025-11-22
 
+- name: Flipendo
+  originals:
+  - Harry Potter and the Philosopher's Stone (PC)
+  - Harry Potter and the Chamber of Secrets (PC)
+  type: remake
+  repo: https://github.com/kroplabeskidu/flipendo
+  development: very active
+  status: semi-playable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - Vulkan
+  licenses:
+  - GPL3
+  ai: true
+  info: Runs KnowWonder's HP1 and HP2 PC games on SurrealEngine; HP1's first four levels play through, HP2 support is in progress
+  added: 2026-10-05
+  updated: 2026-10-05
+  images:
+  - >-
+    https://raw.githubusercontent.com/kroplabeskidu/flipendo/master/images/screenshots/grand-staircase.jpg
+
 - name: Flobopuyo
   originals:
   - Puyo Puyo Series
