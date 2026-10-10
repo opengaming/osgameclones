@@ -164,7 +164,7 @@ function sortByUpdated(e) {
       var gameList = [];
       let gameNames = new Set();
       games.forEach(game => {
-        if (!gameNames.has(game.dataset.name)) {
+        if (!game.classList.contains('more-clones') && !gameNames.has(game.dataset.name)) {
           gameNames.add(game.dataset.name);
           gameList.push(game.cloneNode(true));
         }

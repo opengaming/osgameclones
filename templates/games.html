@@ -157,7 +157,21 @@
     {{ render_name(name, game, loop.index0 == 0, show_details) }}
   {% endfor %}
 
-  {% for clone in game.clones %}
-    {{ render_clone(game.names, game.meta, clone, show_details, show_details) }}
-  {% endfor %}
+  {% if show_details %}
+    {% for clone in game.clones %}
+      {{ render_clone(game.names, game.meta, clone, true, true) }}
+    {% endfor %}
+  {% else %}
+    {% set clones_by_updated = game.clones | sort(attribute='updated', reverse=true) %}
+    {% for clone in clones_by_updated[:5] %}
+      {{ render_clone(game.names, game.meta, clone, false, false) }}
+    {% endfor %}
+    {% if game.clones | length > 5 %}
+      <div>
+        <dd class="searchable more-clones" data-index="{{ show_keywords_names(game.names) }}">
+          <a href="/{{ game.slug }}">{{ game.clones | length - 5 }} more...</a>
+        </dd>
+      </div>
+    {% endif %}
+  {% endif %}
 {% endmacro %}
