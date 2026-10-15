@@ -605,6 +605,32 @@
   added: 2026-01-19
   updated: 2026-01-19
 
+- name: DBZ-Super-Saiya-Densetsu-Rust
+  originals:
+  - 'Dragon Ball Z: Super Saiya Densetsu'
+  type: remake
+  repo: https://github.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust
+  feed: https://github.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust/releases.atom
+  development: very active
+  status: playable
+  platforms:
+  - Windows
+  content: commercial
+  licenses:
+  - GPL3
+  langs:
+  - Rust
+  frameworks:
+  - SDL3
+  - wgpu
+  ai: true
+  info: >-
+    Rust rewrite with a static 65816-to-Rust recompiler, verified frame by frame
+    against the original. Classic mode plus an optional HD Remastered mode
+    (HD art and text, 16:9 widescreen, new menus). Requires your own ROM.
+  added: 2026-10-15
+  updated: 2026-10-15
+
 - name: DCDoom
   originals:
   - Doom
