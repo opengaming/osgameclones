@@ -2568,6 +2568,50 @@
   images:
   - https://www.calculatorti.com/media/images/programs/arena-3d.jpg
 
+- name: Arkai Minesweeper
+  originals:
+  - 'Minesweeper'
+  type: clone
+  repo: 'https://github.com/646826/arkai-games/tree/main/games/minesweeper'
+  url: 'https://arkai.win/games/minesweeper/'
+  development: active
+  status: playable
+  platforms:
+  - Web
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  ai: true
+  info: Single-file vanilla JavaScript on canvas, no dependencies; three board sizes with the best time kept for each
+  added: 2026-09-16
+  updated: 2026-09-16
+  images:
+  - https://arkai.win/og/minesweeper.jpg
+
+- name: Arkai Snake
+  originals:
+  - 'Snake'
+  type: clone
+  repo: 'https://github.com/646826/arkai-games/tree/main/games/snake'
+  url: 'https://arkai.win/games/snake/'
+  development: active
+  status: playable
+  platforms:
+  - Web
+  content: open
+  langs:
+  - JavaScript
+  licenses:
+  - MIT
+  ai: true
+  info: Single-file vanilla JavaScript on canvas, no dependencies; speed rises with every bite, timed bonus stars
+  added: 2026-09-16
+  updated: 2026-09-16
+  images:
+  - https://arkai.win/og/snake.jpg
+
 - name: ArkaLouReeD Light!
   originals:
   - Arkanoid
