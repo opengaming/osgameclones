@@ -622,12 +622,16 @@
   - Rust
   frameworks:
   - SDL3
-  - wgpu
   ai: true
   info: >-
     Rust rewrite with a static 65816-to-Rust recompiler, verified frame by frame
     against the original. Classic mode plus an optional HD Remastered mode
     (HD art and text, 16:9 widescreen, new menus). Requires your own ROM.
+  images:
+  - https://raw.githubusercontent.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust/main/docs/media/cmp-09-attack-remastered.png
+  - https://raw.githubusercontent.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust/main/docs/media/cmp-08-battle-command-remastered.png
+  - https://raw.githubusercontent.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust/main/docs/media/cmp-01-title-remastered.png
+  - https://raw.githubusercontent.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust/main/docs/media/cmp-10-porunga-remastered.png
   added: 2026-10-15
   updated: 2026-10-15
 
