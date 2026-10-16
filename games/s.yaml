@@ -2794,6 +2794,33 @@
   video:
     youtube: SHhLHVwoLFA
 
+- name: Silent Heritage
+  originals:
+  - Silent Hunter
+  type: remake
+  repo: https://github.com/conning-tower/SilentHeritage
+  feed: https://github.com/conning-tower/SilentHeritage/releases.atom
+  development: very active
+  status: playable
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  - Android
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL3
+  licenses:
+  - MIT
+  info: Reimplementation of the 1996 SSI submarine simulation, including the Commander's Edition scenario editor. Requires the original game data.
+  added: 2026-10-16
+  updated: 2026-10-16
+  images:
+  - https://raw.githubusercontent.com/conning-tower/SilentHeritage/main/docs/screenshots/bridge.png
+  - https://raw.githubusercontent.com/conning-tower/SilentHeritage/main/docs/screenshots/chart.png
+
 - name: Silent Hill 2 Enhanced Edition
   originals:
   - Silent Hill 2
