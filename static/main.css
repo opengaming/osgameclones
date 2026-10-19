@@ -257,6 +257,20 @@ dd + dt { margin-top: 1em; }
 .dark-theme .tag.as-is:hover,
 .dark-theme .tag.custom:hover { background-color: #bc1535; }
 
+.tag.ai {
+  padding: 0 2px;
+  vertical-align: middle;
+  margin-top: -3px;
+}
+.tag-ai-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  object-fit: contain;
+  margin-top: -2px;
+}
+
 .tag-badge {
   margin: 0 -6px 0 6px;
   padding: 2px 6px;
