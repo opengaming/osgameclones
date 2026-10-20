@@ -2749,6 +2749,33 @@
   added: 2025-10-22
   updated: 2025-10-22
 
+- name: Looking Glass
+  originals:
+  - American McGee's Alice
+  type: remake
+  repo: https://github.com/skulitom/LookingGlass
+  feed: https://github.com/skulitom/LookingGlass/releases.atom
+  development: active
+  status: playable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - Rust
+  frameworks:
+  - macroquad
+  licenses:
+  - MIT
+  ai: true
+  info: >-
+    Experimental engine recreation requiring separate compatible English 2011 game
+    data. Includes controller support, guided Windows setup and campaign saves;
+    cutscene, effects and behavior fidelity remain in development.
+  added: 2026-10-01
+  updated: 2026-10-01
+  images:
+  - https://raw.githubusercontent.com/skulitom/LookingGlass/main/docs/media/gameplay/pale-realm.gif
+
 - name: The Lord of the Rings game engine
   originals:
   - "J.R.R. Tolkien's The Lord of the Rings, Vol. I"
