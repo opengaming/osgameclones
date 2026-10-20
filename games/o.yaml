@@ -2063,7 +2063,7 @@
   licenses:
   - ISC
   info: >-
-    A project that aims to provide a complete PC port for the first Jak and 
+    A project that aims to provide a complete PC port for the first Jak and
     Daxter game by providing a open implementation of a compiler for Naughty
     Dog's GOAL language, a decompiler for the compiled game and an asset
     extraction tool.
@@ -2156,6 +2156,46 @@
   updated: 2026-08-08
   images:
   - https://static.wikia.nocookie.net/gtawiki/images/c/c1/OpenGTA-GTA1.jpg
+
+- name: OpenGuimo
+  originals:
+  - Guimo
+  type: remake
+  repo: 'https://gitlab.com/greyxor/openguimo'
+  url: 'https://greyxor.itch.io/openguimo'
+  development: complete
+  status: playable
+  platforms:
+  - Android
+  - iOS
+  - Linux
+  - macOS
+  - Web
+  - Windows
+  content: commercial
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - Custom
+  ai: true
+  info: >-
+    An open-source remake of GUIMO, the 1997 DOS platformer by Jack in the Box
+    Computing (published on CD by Soft Logic), rebuilt in Godot.
+    The game rules (movement, physics, enemies, fights, timings)
+    are reverse-engineered from the original guimo.exe 2.2 and rewritten in GDScript, so the game plays like the original.
+    Everything else (window size, gamepads, sound, web version) uses what Godot offers.
+    The game data is not included: GUIMO's pictures, sounds, music and levels are copyrighted. You need your own
+    copy of GUIMO 2.2 and its guimo.jbc file. On the first start, the game asks you to choose it. The desktop
+    version then remembers where it is, and also finds it on its own next to the executable. The file is read on your
+    computer only: it is never uploaded anywhere.
+  added: '2026-10-18'
+  updated: '2026-10-18'
+  images:
+  - 'https://www.abandonware-france.org/images_abandonware/jeux/93041-04.jpg'
+  - 'https://www.abandonware-france.org/images_abandonware/jeux/93043-06.jpg'
+  - 'https://www.abandonware-france.org/images_abandonware/jeux/93045-08.jpg'
 
 - name: OpenHCL
   originals:
