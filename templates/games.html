@@ -30,6 +30,10 @@
     {{ game.tags.append('multiplayer') }}
   {% endif -%}
 
+  {%- if game.get('ai') and 'ai' not in game.tags %}
+    {{ game.tags.append('ai') }}
+  {% endif -%}
+
   {{ game.tags | join(' ') }}
 {%- endmacro %}
 
@@ -115,6 +119,11 @@
       {{ tags.render_tag_groups('frameworks', game['frameworks']) if show_details }}
       {{ tags.render_tag_groups('content', game['content'] | title) if show_details }}
       {{ tags.render_tag_groups('licenses', game['licenses']) }}
+      {% if game.get('ai') %}
+        <span class="tag ai" data-name="ai" title="Contains unreviewed AI-generated code or assets" aria-label="Contains unreviewed AI-generated code or assets">
+          <img class="tag-ai-icon" src="/static/eu-ai-icon.png" alt="" width="16" height="16">
+        </span>
+      {% endif %}
       {{ tags.render_tag_groups('multiplayer', game['multiplayer']) if 'multiplayer' in game and show_details }}
       {% if show_details %}
         <a class="add-link" href="/add_game.html?data=_clones/{{ game['name'] | slugify }}.json" target="_blank"><i class="far fa-edit"></i>Edit</a>
