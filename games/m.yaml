@@ -72,7 +72,7 @@
   development: halted
   status: playable
   platforms:
-  - OSX
+  - macOS
   content: commercial
   langs:
   - Assembly
@@ -113,12 +113,12 @@
   originals:
   - Wolfenstein 3D
   type: remake
-  repo: 'https://github.com/kaylagator/MacWolfSDL'
+  repo: https://codeberg.org/kaylagator/MacWolfSDL
   development: sporadic
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -145,7 +145,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Classic Mac OS
   - BeOS
   - Wii
@@ -205,7 +205,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Web
   type: remake
   added: 2014-01-12
@@ -273,7 +273,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: clone
   url: https://magarena.github.io/
   added: 2017-01-07
@@ -547,7 +547,7 @@
   platforms:
   - Windows
   - DOS
-  - OSX
+  - macOS
   - PS
   development: complete
   type: remake
@@ -560,6 +560,24 @@
   - https://retrospec.sgn.net/style/images/screenshots/mm_full_3.jpg
   - https://retrospec.sgn.net/style/images/screenshots/mm_full_4.jpg
   - https://retrospec.sgn.net/style/images/screenshots/mm_full_5.jpg
+
+- name: Manic Miner ReM
+  originals:
+  - Manic Miner
+  type: remake
+  url: 'https://csdb.dk/release/?id=145096'
+  development: complete
+  status: playable
+  platforms:
+  - C64
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-09-23
+  updated: 2026-09-23
+  images:
+  - 'https://csdb.dk/gfx/releases/145000/145096.png'
 
 - name: ManIX
   originals:
@@ -595,6 +613,28 @@
   - As-is
   added: 2026-08-11
   updated: 2026-08-11
+
+- name: Mappy
+  originals:
+  - Mappy
+  type: remake
+  repo: 'https://github.com/jotd666/mappy'
+  url: 'https://jotd666.itch.io/mappy'
+  development: sporadic
+  status: playable
+  platforms:
+  - Amiga
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-10-09
+  updated: 2026-10-09
+  images:
+  - https://img.itch.zone/aW1hZ2UvNDM1MTQ4OC8yNTk3NzM4Ny5wbmc=/original/qVmSy%2F.png
+  video:
+    youtube: HIX4Us5O2M4
 
 - name: Marble Madness 3d
   langs:
@@ -658,7 +698,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/Stabyourself/mari0
   development: halted
   type: remake
@@ -1146,7 +1186,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/nurfalie/maxit
   type: remake
   added: 2015-05-09
@@ -1241,7 +1281,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - C++
@@ -1369,7 +1409,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Web
   - Android
   - iOS
@@ -1714,7 +1754,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   added: 2016-12-02
   updated: 2023-08-01
@@ -1732,7 +1772,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -1754,7 +1794,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -1778,7 +1818,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -1802,7 +1842,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -1824,7 +1864,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -1926,7 +1966,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C++
@@ -2086,7 +2126,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   info: A reverse-engineered, native reimplementation of Metroid Prime
   added: 2015-03-08
   updated: 2025-04-18
@@ -2341,7 +2381,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/SimHacker/micropolis
   url: https://www.donhopkins.com/home/micropolis/
   type: remake
@@ -2423,7 +2463,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   content: open
   langs:
   - Python
@@ -2480,6 +2520,26 @@
   images:
   - 'https://djungxnpq2nug.cloudfront.net/image/project/screenshot/2068_large.png'
 
+- name: Mig Alley Linux Port
+  originals:
+  - MiG Alley
+  type: remake
+  repo: 'https://github.com/rerunner/migalley'
+  development: sporadic
+  status: playable
+  platforms:
+  - Linux
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  - Vulkan
+  licenses:
+  - Custom
+  added: '2026-10-10'
+  updated: '2026-10-10'
+
 - name: MigAlleySrc
   originals:
   - MiG Alley
@@ -2507,7 +2567,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: free
   langs:
@@ -2618,7 +2678,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   - iOS
   multiplayer:
@@ -2758,6 +2818,24 @@
   - https://minesweepergame.com/database/image/version/143/MineZone-ArgusPress-C64-1984-Loading.jpg
   - https://minesweepergame.com/database/image/version/143/MineZone-ArgusPress-C64-1984-Lost.jpg
 
+- name: Mine! C
+  originals:
+  - Minefield
+  type: clone
+  url: 'https://www.ticalc.org/archives/files/fileinfo/119/11977.html'
+  development: complete
+  status: playable
+  platforms:
+  - TI calculator
+  langs:
+  - C
+  licenses:
+  - As-is
+  added: 2026-09-29
+  updated: 2026-09-29
+  images:
+  - https://www.ticalc.org/archives/files/ss/95/9562.gif
+
 - name: Mineclonia
   originals:
   - Minecraft
@@ -2770,7 +2848,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   multiplayer:
   - Online
@@ -2908,7 +2986,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   content: open
   langs:
   - C
@@ -3112,7 +3190,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   langs:
   - Python
   frameworks:
@@ -3133,6 +3211,30 @@
   - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/split-cell-series1-2.PNG
   - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/split-cell-series2-1.PNG
   - https://raw.githubusercontent.com/LewisGaul/minegauler/main/img/screenshots/split-cell1.jpg
+
+- name: MineHunt_S
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://www.ticalc.org/archives/files/fileinfo/123/12315.html'
+  url: 'https://web.archive.org/web/20021002182729/http://membres.lycos.fr/sirryl/download/index.php?url=download.php#:~:text=MineHunt_s'
+  development: halted
+  status: playable
+  platforms:
+  - TI calculator
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-10-07
+  updated: 2026-10-07
+  images:
+  - https://www.ticalc.org/archives/files/ss/83/8306.gif
+  - https://www.ticalc.org/archives/files/ss/83/8307.gif
+  - https://www.ticalc.org/archives/files/ss/83/8308.gif
+  - https://www.ticalc.org/archives/files/ss/83/8309.gif
+  - https://www.ticalc.org/archives/files/ss/80/8024.gif
+  - https://www.ticalc.org/archives/files/ss/80/8025.gif
 
 - name: Miner 2049'er ReM V2
   originals:
@@ -3403,7 +3505,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   content: free
   langs:
@@ -3610,7 +3712,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   multiplayer:
   - Online
@@ -3681,7 +3783,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Amiga
   content: free
   langs:
@@ -3752,7 +3854,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Raspberry Pi
   type: clone
   url: https://feneric.itch.io/minima
@@ -3843,7 +3945,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - Kotlin
@@ -3872,7 +3974,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   type: remake
   added: 2014-01-12
@@ -3958,7 +4060,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   added: 2014-08-16
   updated: 2025-05-09
@@ -4060,7 +4162,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   added: 2017-10-20
   updated: 2023-10-05
@@ -4075,7 +4177,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: free
   langs:
   - C++
@@ -4243,7 +4345,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Raspberry Pi
   content: commercial
   langs:
@@ -4276,22 +4378,6 @@
   added: 2015-04-11
   updated: 2019-11-20
   url: https://pygame.org/project-Monsters+and+Mushrooms-989-.html
-
-- name: Monsters disassembly
-  originals:
-  - Monsters
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/monsters-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-05-24
-  updated: 2026-05-24
 
 - name: 'Monsters, Inc. PS2 source code and assets'
   originals:
@@ -4419,7 +4505,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Local
   - Split-screen
@@ -4765,7 +4851,7 @@
   platforms:
   - Windows
   - DOS
-  - OSX
+  - macOS
   type: remake
   added: 2017-07-18
   updated: 2025-05-15
@@ -5071,7 +5157,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - C

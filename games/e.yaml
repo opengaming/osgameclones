@@ -12,7 +12,7 @@
   status: unplayable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   repo: https://github.com/Palevolg/earth-shaker
   type: remake
@@ -136,7 +136,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   - Android
   type: clone
@@ -160,7 +160,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   repo: https://sourceforge.net/projects/etw/
   url: https://web.archive.org/web/20240725231824/http://www.ggsoft.org/etw/
@@ -297,7 +297,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   - Android
   repo: https://bitbucket.org/ecwolf/ecwolf
@@ -407,7 +407,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   development: very active
   repo: https://voidpoint.io/terminx/eduke32
@@ -507,7 +507,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   development: halted
   langs:
@@ -605,7 +605,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   content: commercial
   langs:
@@ -663,6 +663,30 @@
   - As-is
   added: 2025-11-27
   updated: 2025-11-27
+
+- name: Elevator Action 500
+  originals:
+  - Elevator Action
+  type: remake
+  repo: 'https://github.com/jotd666/elevator_action'
+  url: 'https://jotd666.itch.io/elevator-action-500'
+  development: sporadic
+  status: playable
+  platforms:
+  - Amiga
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-09-21
+  updated: 2026-09-21
+  images:
+  - https://img.itch.zone/aW1hZ2UvMjk1NjE4OC8xNzkwMzAyNi5wbmc=/original/ASjT0q.png
+  - https://img.itch.zone/aW1hZ2UvMjk1NjE4OC8xNzkwMjk4OC5wbmc=/original/RLDM%2BF.png
+  - https://img.itch.zone/aW1hZ2UvMjk1NjE4OC8xNzkwMzAyMy5wbmc=/original/aGXDhd.png
+  video:
+    youtube: '-M_eCRoL1d4'
 
 - name: ElevatorActionPhaser
   originals:
@@ -931,7 +955,7 @@
   originals:
   - '2048'
   type: clone
-  repo: https://github.com/Sigmafier/ellaz
+  repo: https://github.com/Sigmafier/ellaz-games
   url: https://ellaz.fun/games/2048/
   development: active
   status: playable
@@ -949,13 +973,13 @@
   ai: true
   info: Browser 2048 with three board sizes, one of them built for young children. Part of Ellaz, an ad-free family games site in English, Hebrew, Spanish and French; installs as a PWA and plays offline.
   added: 2026-09-02
-  updated: 2026-09-02
+  updated: 2026-09-26
 
 - name: Ellaz Falling Blocks
   originals:
   - Tetris
   type: clone
-  repo: https://github.com/Sigmafier/ellaz
+  repo: https://github.com/Sigmafier/ellaz-games
   url: https://ellaz.fun/games/blocks/
   development: active
   status: playable
@@ -971,13 +995,13 @@
   ai: true
   info: Falling-blocks puzzle with its own shapes and colours, playable by touch, swipe or keyboard. Part of Ellaz, an ad-free family games site in English, Hebrew, Spanish and French.
   added: 2026-09-02
-  updated: 2026-09-02
+  updated: 2026-09-26
 
 - name: Ellaz Follow Me
   originals:
   - Simon
   type: clone
-  repo: https://github.com/Sigmafier/ellaz
+  repo: https://github.com/Sigmafier/ellaz-games
   url: https://ellaz.fun/games/echo/
   development: active
   status: playable
@@ -993,13 +1017,13 @@
   ai: true
   info: Repeat-the-sequence memory game with four coloured pads and tones, built for young children. Part of Ellaz, an ad-free family games site in English, Hebrew, Spanish and French.
   added: 2026-09-02
-  updated: 2026-09-02
+  updated: 2026-09-26
 
 - name: Ellaz Match Three
   originals:
   - Bejeweled
   type: clone
-  repo: https://github.com/Sigmafier/ellaz
+  repo: https://github.com/Sigmafier/ellaz-games
   url: https://ellaz.fun/games/match3/
   development: active
   status: playable
@@ -1015,13 +1039,13 @@
   ai: true
   info: Swap-and-match-three puzzle with original tiles and no timer, aimed at children. Part of Ellaz, an ad-free family games site in English, Hebrew, Spanish and French.
   added: 2026-09-02
-  updated: 2026-09-02
+  updated: 2026-09-26
 
 - name: Ellaz Minesweeper
   originals:
   - Minesweeper
   type: clone
-  repo: https://github.com/Sigmafier/ellaz
+  repo: https://github.com/Sigmafier/ellaz-games
   url: https://ellaz.fun/games/minesweeper/
   development: active
   status: playable
@@ -1037,13 +1061,13 @@
   ai: true
   info: Minesweeper for phones and desktops, tap to reveal and long-press to flag, with a first tap that is always safe. Part of Ellaz, an ad-free family games site in English, Hebrew, Spanish and French.
   added: 2026-09-02
-  updated: 2026-09-02
+  updated: 2026-09-26
 
 - name: Ellaz Picture Logic
   originals:
   - Picross Series
   type: clone
-  repo: https://github.com/Sigmafier/ellaz
+  repo: https://github.com/Sigmafier/ellaz-games
   url: https://ellaz.fun/games/nonogram/
   development: active
   status: playable
@@ -1059,13 +1083,13 @@
   ai: true
   info: Nonogram (picture logic) puzzles with generated pictures and row and column clues, tap to fill or mark. Part of Ellaz, an ad-free family games site in English, Hebrew, Spanish and French.
   added: 2026-09-02
-  updated: 2026-09-02
+  updated: 2026-09-26
 
 - name: Ellaz Snake
   originals:
   - Snake
   type: clone
-  repo: https://github.com/Sigmafier/ellaz
+  repo: https://github.com/Sigmafier/ellaz-games
   url: https://ellaz.fun/games/snake/
   development: active
   status: playable
@@ -1083,13 +1107,13 @@
   ai: true
   info: Touch-first Snake with an on-screen direction pad, swipe and keyboard. Part of Ellaz, an ad-free family games site in English, Hebrew, Spanish and French; installs as a PWA and plays offline.
   added: 2026-09-02
-  updated: 2026-09-02
+  updated: 2026-09-26
 
 - name: Ellaz Word Guess
   originals:
   - Wordle
   type: clone
-  repo: https://github.com/Sigmafier/ellaz
+  repo: https://github.com/Sigmafier/ellaz-games
   url: https://ellaz.fun/games/wordguess/
   development: active
   status: playable
@@ -1105,7 +1129,7 @@
   ai: true
   info: Guess-the-word game with its own word lists in English, Hebrew, Spanish and French and unlimited rounds. Part of Ellaz, an ad-free family games site; installs as a PWA and plays offline.
   added: 2026-09-02
-  updated: 2026-09-02
+  updated: 2026-09-26
 
 - name: ElonaFoobar
   langs:
@@ -1121,7 +1145,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   updated: 2024-03-25
   content: commercial
@@ -1297,7 +1321,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/endless-sky/endless-sky
   feed: https://github.com/endless-sky/endless-sky/releases.atom
   type: clone
@@ -1375,7 +1399,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - C++
@@ -1403,7 +1427,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - Nim
@@ -1454,7 +1478,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/Enigma-Game/Enigma
   type: remake
   updated: 2024-03-31
@@ -1481,7 +1505,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - BeOS
   - Amiga
   type: remake
@@ -1526,7 +1550,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - C++
@@ -1685,7 +1709,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   repo: https://github.com/etlegacy/etlegacy
   type: remake
@@ -1710,7 +1734,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - LAN
@@ -1760,7 +1784,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   content: free
   langs:
   - Haxe
@@ -2012,7 +2036,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Android
   repo: https://github.com/exult/exult
   type: remake
@@ -2051,7 +2075,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -2094,7 +2118,7 @@
   status: playable
   platforms:
   - Windows
-  - OSX
+  - macOS
   - Linux
   repo: https://github.com/ezQuake/ezquake-source
   feed: https://github.com/QW-Group/ezquake-source/releases.atom

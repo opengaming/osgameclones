@@ -1,9 +1,31 @@
 - name: R-Type
   external:
+    website: https://web.archive.org/web/20030206070116/http://www.irem.co.jp/e/game/r/
     wikipedia: R-Type
+  platforms:
+  - 3DS
+  - Amiga
+  - Amstrad CPC
+  - Android
+  - Arcade
+  - Atari
+  - C64
+  - Game Boy
+  - iOS
+  - Mobile
+  - MSX
+  - NES
+  - Sega CD
+  - Wii
+  - Wii U
+  - ZX Spectrum
   meta:
     genres:
     - Shmup
+    subgenres:
+    - Space Flight
+    themes:
+    - Sci-Fi
 
 - name: 'Radix: Beyond the Void'
   external:
@@ -197,7 +219,7 @@
       https://web.archive.org/web/20090120173413/http://raymanzone.us.ubi.com/ravingrabbids/
     wikipedia: Rayman Raving Rabbids
   platforms:
-  - OSX
+  - macOS
   - PS2
   - Wii
   - Windows
@@ -303,7 +325,7 @@
   platforms:
   - Android
   - Linux
-  - OSX
+  - macOS
   - Windows
 
 - name: Red Comrades 2
@@ -341,7 +363,7 @@
     wikipedia: Redneck Rampage
   platforms:
   - DOS
-  - OSX
+  - macOS
   meta:
     genres:
     - FPS
@@ -436,7 +458,7 @@
     themes: []
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
 
 - name: Return to Castle Wolfenstein
@@ -445,7 +467,7 @@
     wikipedia: Return to Castle Wolfenstein
   platforms:
   - Linux
-  - OSX
+  - macOS
   - PS2
   - Windows
   - Xbox
@@ -493,7 +515,7 @@
     wikipedia: Revenge of the Titans
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   meta:
     subgenres:
@@ -560,6 +582,19 @@
   meta:
     genres:
     - Platform
+
+- name: Rick Hanson
+  external:
+    website: 'https://www.mobygames.com/game/159814/rick-hanson/'
+  platforms:
+  - Amstrad CPC
+  - Atari
+  - BBC Micro
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Text Adventure
 
 - name: Riddle of the Sphinx
   external:
@@ -876,7 +911,7 @@
   - iOS
   - Linux
   - Switch
-  - OSX
+  - macOS
   - PS3
   - PS4
   - PSVita
@@ -977,7 +1012,7 @@
   - Android
   - iOS
   - Linux
-  - OSX
+  - macOS
   - Windows
   meta:
     genres:

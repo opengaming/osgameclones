@@ -164,7 +164,7 @@ function sortByUpdated(e) {
       var gameList = [];
       let gameNames = new Set();
       games.forEach(game => {
-        if (!gameNames.has(game.dataset.name)) {
+        if (!game.classList.contains('more-clones') && !gameNames.has(game.dataset.name)) {
           gameNames.add(game.dataset.name);
           gameList.push(game.cloneNode(true));
         }
@@ -212,11 +212,23 @@ function renderSelectedTagsBar() {
     var el = document.createElement('span');
     el.className = 'tag';
     el.setAttribute('data-name', tag);
-    // Try to use existing tag text casing if available
-    var source = document.querySelector('.tag[data-name="' + tag + '"]');
-    el.textContent = source ? source.textContent.replace(/\s*\d+\s*$/, '') : tag.replace(/-/g,' ');
+    if (tag === 'ai') {
+      var icon = document.createElement('img');
+      icon.className = 'tag-ai-icon';
+      icon.src = '/static/eu-ai-icon.png';
+      icon.alt = '';
+      icon.width = 15;
+      icon.height = 15;
+      el.appendChild(icon);
+    } else {
+      // Try to use existing tag text casing if available
+      var source = document.querySelector('.tag[data-name="' + tag + '"]');
+      var sourceText = source && source.textContent.trim();
+      el.textContent = sourceText
+        ? sourceText.replace(/\s*\d+\s*$/, '')
+        : tag.replace(/-/g,' ');
+    }
     el.title = 'Click to remove';
-    el.addEventListener('click', function() { toggleTagByName(tag); });
     container.appendChild(el);
   });
 }
@@ -249,11 +261,7 @@ function toggleTagByName(curTag) {
     toggleTagByName(curTag);
   }
 
-  // Attach to all existing tags
-  var tags = document.getElementsByClassName('tag');
-  for (var i = 0, l = tags.length; i < l; i += 1) {
-    tags[i].addEventListener('click', onTagClick);
-  }
+  document.body.addEventListener('click', onTagClick);
 })();
 
 // image validation

@@ -28,7 +28,7 @@
   external:
     wikipedia: Nanosaur
   platforms:
-  - OSX
+  - macOS
   - Windows
   meta:
     genres:
@@ -45,7 +45,7 @@
     wikipedia: 'Nanosaur 2: Hatchling'
   platforms:
   - iOS
-  - OSX
+  - macOS
   - Windows
   meta:
     genres:
@@ -325,6 +325,22 @@
     genres:
     - FPS
 
+- name: NFL Blitz 2000
+  external:
+    website: 'https://www.mobygames.com/game/4694/nfl-blitz-2000/'
+    wikipedia: NFL Blitz 2000
+  platforms:
+  - Arcade
+  - Dreamcast
+  - N64
+  - PS
+  - Windows
+  meta:
+    genres:
+    - Sports
+    subgenres:
+    - Football
+
 - name: "NHL '94"
   external:
     website: 'https://www.mobygames.com/game/12399/nhl-94/'
@@ -345,6 +361,20 @@
     wikipedia: NHL Hockey
   platforms:
   - Genesis
+  meta:
+    genres:
+    - Sports
+    subgenres:
+    - Hockey
+
+- name: NHL Open Ice
+  external:
+    website: https://web.archive.org/web/20230610001257/https://www.avalanchesoftware.com/games/nhl-open-ice-2-on-2-challenge/
+    wikipedia: NHL Open Ice
+  platforms:
+  - Arcade
+  - PS
+  - Windows
   meta:
     genres:
     - Sports
@@ -384,7 +414,7 @@
   - Atari
   - DOS
   - Mobile
-  - OSX
+  - macOS
   - Windows
   meta:
     genres:
@@ -400,7 +430,7 @@
   - Atari
   - DOS
   - Mobile
-  - OSX
+  - macOS
   - Windows
   meta:
     genres:
@@ -508,7 +538,7 @@
     wikipedia: "No One Lives Forever 2: A Spy in H.A.R.M.'s Way"
   platforms:
   - Windows
-  - OSX
+  - macOS
   meta:
     genres:
     - FPS

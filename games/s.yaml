@@ -98,23 +98,6 @@
   added: 2026-03-28
   updated: 2026-03-28
 
-- name: Sabre Wulf disassembly
-  originals:
-  - Sabre Wulf
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/sabrewulf-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - ZX Spectrum
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  content: free
-  added: 2026-04-04
-  updated: 2026-04-04
-
 - name: sadx_decomp
   originals:
   - Sonic Adventure
@@ -132,6 +115,27 @@
   info: Sonic Adventure DX Decompilation
   added: 2026-04-27
   updated: 2026-04-27
+
+- name: SameGame
+  originals:
+  - SameGame
+  type: clone
+  repo: 'https://www.ticalc.org/archives/files/fileinfo/75/7504.html'
+  url: https://web.archive.org/web/20030504071134/http://www.ifrance.com/CandyMan/ti89/pgf.htm#:~:text=SameGame
+  development: halted
+  status: playable
+  platforms:
+  - TI calculator
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-09-11
+  updated: 2026-09-11
+  images:
+  - https://web.archive.org/web/20010622035129im_/http://www.ifrance.com/candyman/ti89/Samem.gif
+  - https://web.archive.org/web/20060326210107im_/http://www.ifrance.com/candyman/ti89/Sameg.gif
+  - https://www.ticalc.org/archives/files/ss/81/8184.gif
 
 - name: SanAndreasUnity
   type: remake
@@ -560,6 +564,28 @@
   - As-is
   added: 2025-11-08
   updated: 2025-11-08
+
+- name: Scramble 500
+  originals:
+  - Scramble
+  type: remake
+  repo: 'https://github.com/jotd666/scramble500'
+  url: 'https://jotd666.itch.io/scramble-500'
+  development: halted
+  status: playable
+  platforms:
+  - Amiga
+  content: free
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-09-30
+  updated: 2026-09-30
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMTQxNzM2MS84MjU1MDM3LnBuZw==/original/2SZmut.png'
+  video:
+    youtube: XnVE7yBzZNE
 
 - name: SCSharp
   langs:
@@ -1047,7 +1073,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - PS3
   - PSP
   - Android
@@ -1459,7 +1485,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   added: 2015-05-30
   updated: 2023-10-23
@@ -1482,7 +1508,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - C
@@ -1507,7 +1533,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - C++
@@ -1682,7 +1708,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/FluXy/SMC
   type: remake
   added: 2011-06-04
@@ -1783,22 +1809,6 @@
   added: 2017-04-27
   updated: 2017-04-27
 
-- name: The Sentinel disassembly
-  originals:
-  - The Sentinel
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/the-sentinel-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-09-06
-  updated: 2026-09-06
-
 - name: The Sentinel on the BBC Micro
   originals:
   - The Sentinel
@@ -1882,7 +1892,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Raspberry Pi
   multiplayer:
   - Local
@@ -1921,7 +1931,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Raspberry Pi
   content: commercial
   langs:
@@ -2018,7 +2028,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - Java
@@ -2412,7 +2422,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   feed: https://github.com/DCNick3/shin/releases.atom
   content: commercial
   langs:
@@ -2478,7 +2488,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Switch
   - Wii U
   content: commercial
@@ -2637,7 +2647,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: remake
   added: 2018-06-15
   updated: 2023-10-27
@@ -3059,7 +3069,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - BeOS
   multiplayer:
   - Online
@@ -3410,7 +3420,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/sirjuddington/SLADE
   url: https://slade.mancubus.net/
   development: active
@@ -3462,7 +3472,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - DOS
   info: SLASH'EM (SuperLotsaAddedStuffHack - Extended Magic) is a variant of Nethack.
   repo: https://sourceforge.net/projects/slashem/
@@ -3609,7 +3619,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - iOS
   type: clone
   added: 2019-06-07
@@ -4203,7 +4213,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - Java
@@ -4356,7 +4366,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://gitlab.com/solarus-games/solarus
   type: clone
   added: 2013-05-28
@@ -4385,7 +4395,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - BeOS
   development: complete
   type: remake
@@ -4426,7 +4436,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - Local
@@ -4486,7 +4496,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - Android
   - iOS
   - Web
@@ -4539,7 +4549,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - GBA
   - PS2
   - PSP
@@ -4728,7 +4738,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/STJr/SRB2
   type: similar
   added: 2014-04-16
@@ -4746,7 +4756,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - iOS
   - Android
   content: commercial
@@ -5003,7 +5013,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   langs:
   - C++
   frameworks:
@@ -5211,7 +5221,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: free
   langs:
   - 'C#'
@@ -5391,7 +5401,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - Java
@@ -5490,7 +5500,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Online
   - Competitive
@@ -5564,7 +5574,7 @@
   platforms:
   - Windows
   - Web
-  - OSX
+  - macOS
   content: free
   langs:
   - C++
@@ -5804,7 +5814,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - Split-screen
@@ -5833,7 +5843,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Online
   content: commercial
@@ -5933,23 +5943,6 @@
   - 'https://i.imgur.com/VhkhGr2.png'
   - 'https://i.imgur.com/rBgG4GK.png'
 
-- name: Spellbinder disassembly
-  originals:
-  - Spellbinder
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/spellbinder-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  info: Disassembly of Spellbinder on BBC Micro
-  added: 2026-04-30
-  updated: 2026-04-30
-
 - name: Spelling Bee
   images:
   - https://raw.githubusercontent.com/ConorSheehan1/spelling-bee/main/.github/images/spelling-bee.png
@@ -6004,7 +5997,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   - PSP
   - Android
   - Web
@@ -6166,6 +6159,24 @@
   type: remake
   updated: 2015-05-28
 
+- name: Splitting Images/ Split Personalities disassembly
+  originals:
+  - Split Personalities
+  type: remake
+  repo: 'https://github.com/pobtastic/splittingimages'
+  url: 'https://pobtastic.github.io/splittingimages/'
+  development: halted
+  status: semi-playable
+  platforms:
+  - ZX Spectrum
+  content: commercial
+  langs:
+  - Skool
+  licenses:
+  - GPL3
+  added: 2026-09-11
+  updated: 2026-09-11
+
 - name: splot
   originals:
   - Ataxx
@@ -6226,7 +6237,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   repo: https://github.com/spring/spring
   type: remake
   url: https://springrts.com/
@@ -6307,7 +6318,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   multiplayer:
   - Competitive
   - Online
@@ -6639,7 +6650,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -6665,7 +6676,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   langs:
   - Lua
@@ -6741,22 +6752,6 @@
   - https://raw.githubusercontent.com/jkarjala/starmines-tng/master/raw/smtng-play3.gif
   video:
     youtube: TViAYO-AjdI
-
-- name: Starquake disassembly
-  originals:
-  - Starquake
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/starquake-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-09-01
-  updated: 2026-09-01
 
 - name: StarRaiders
   originals:
@@ -6842,22 +6837,6 @@
   - As-is
   added: 2026-04-15
   updated: 2026-04-15
-
-- name: Starship Command disassembly
-  originals:
-  - Starship Command
-  type: remake
-  repo: 'https://www.level7.org.uk/miscellany/starship-command-disassembly.txt'
-  development: complete
-  status: playable
-  platforms:
-  - BBC Micro
-  langs:
-  - Assembly
-  licenses:
-  - As-is
-  added: 2026-05-07
-  updated: 2026-05-07
 
 - name: Starship Commander Disassembly
   originals:
@@ -6977,7 +6956,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   type: clone
   updated: 2019-08-17
   url: https://www.stepmania.com
@@ -7041,7 +7020,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: open
   langs:
   - C++
@@ -7138,7 +7117,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: free
   langs:
   - C++
@@ -7174,7 +7153,7 @@
   platforms:
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: commercial
   multiplayer:
   - Competitive
@@ -7336,7 +7315,7 @@
   - Styx
   status: playable
   platforms:
-  - OSX
+  - macOS
   - Windows
   type: remake
   added: 2015-04-12
@@ -7391,7 +7370,7 @@
   development: halted
   status: semi-playable
   platforms:
-  - OSX
+  - macOS
   - Linux
   - Windows
   - Android
@@ -7469,7 +7448,7 @@
   - 'SunDog: Frozen Legacy'
   status: playable
   platforms:
-  - OSX
+  - macOS
   - Linux
   repo: https://github.com/laanwj/sundog
   type: remake
@@ -7763,7 +7742,7 @@
   development: complete
   status: playable
   platforms:
-  - OSX
+  - macOS
   - Linux
   - Windows
   content: commercial
@@ -7857,6 +7836,25 @@
   added: 2026-03-27
   updated: 2026-03-27
 
+- name: Super Mario Remake
+  originals:
+  - Super Mario Bros.
+  type: remake
+  repo: 'https://github.com/minirop/Super-Mario-Remake'
+  development: halted
+  status: unplayable
+  platforms:
+  - Windows
+  content: free
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - CC0
+  added: 2026-09-30
+  updated: 2026-09-30
+
 - name: Super Mario War
   langs:
   - C++
@@ -7874,7 +7872,7 @@
   status: playable
   platforms:
   - Android
-  - OSX
+  - macOS
   - Linux
   - Raspberry Pi
   - Web
@@ -8204,7 +8202,7 @@
   development: halted
   status: semi-playable
   platforms:
-  - OSX
+  - macOS
   - Linux
   content: commercial
   langs:
@@ -8247,7 +8245,7 @@
   development: sporadic
   status: playable
   platforms:
-  - OSX
+  - macOS
   - Linux
   - Windows
   - Web
@@ -8280,7 +8278,7 @@
   development: active
   status: playable
   platforms:
-  - OSX
+  - macOS
   - Linux
   - Windows
   - NES
@@ -8308,7 +8306,7 @@
   development: complete
   status: playable
   platforms:
-  - OSX
+  - macOS
   - Linux
   - Windows
   content: open
@@ -8438,7 +8436,7 @@
   - Super Foul Egg
   status: playable
   platforms:
-  - OSX
+  - macOS
   repo: https://github.com/ant512/SuperFoulEgg
   type: remake
   updated: 2022-01-25
@@ -8537,7 +8535,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - iOS
   content: open
   langs:
@@ -8624,7 +8622,7 @@
   - DOS
   - Windows
   - Linux
-  - OSX
+  - macOS
   content: free
   langs:
   - C
@@ -8743,7 +8741,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   - Android
   - Web
@@ -8771,7 +8769,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   - Android
   - Web
@@ -8794,7 +8792,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   - Android
   - Switch
@@ -8815,7 +8813,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   - Android
   multiplayer:
@@ -8845,7 +8843,7 @@
   status: unplayable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -9032,7 +9030,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   type: remake
   updated: 2023-11-14
@@ -9043,6 +9041,73 @@
   - SDL
   video:
     vimeo: 8942527
+
+- name: Syobon Action for Wii
+  originals:
+  - Shobon no Action
+  type: remake
+  repo: >-
+    https://web.archive.org/web/20161230121235/http://scognito.drunkencoders.com/projects/syobon-action.php
+  development: halted
+  status: playable
+  platforms:
+  - Wii
+  content: free
+  langs:
+  - C++
+  licenses:
+  - GPL2
+  info: Port of Open Syobon Action to Wii
+  added: '2026-10-01'
+  updated: '2026-10-01'
+  images:
+  - >-
+    https://web.archive.org/web/20160314150834im_/http://scognito.drunkencoders.com/projects/images/syobon-action/sa00.png
+  - >-
+    https://web.archive.org/web/20160314065555im_/http://scognito.drunkencoders.com/projects/images/syobon-action/sa01.png
+  - >-
+    https://web.archive.org/web/20160508200109im_/http://scognito.drunkencoders.com/projects/images/syobon-action/sa02.png
+  - >-
+    https://web.archive.org/web/20160508214022im_/http://scognito.drunkencoders.com/projects/images/syobon-action/sa03.png
+  - >-
+    https://web.archive.org/web/20160508030019im_/http://scognito.drunkencoders.com/projects/images/syobon-action/sa05.png
+  - >-
+    https://web.archive.org/web/20160508024029im_/http://scognito.drunkencoders.com/projects/images/syobon-action/sa06.png
+  - >-
+    https://web.archive.org/web/20160315035018im_/http://scognito.drunkencoders.com/projects/images/syobon-action/sa07.png
+  - >-
+    https://web.archive.org/web/20160314151557im_/http://scognito.drunkencoders.com/projects/images/syobon-action/sa08.png
+
+- name: SyobonKZ
+  originals:
+  - Shobon no Action
+  type: remake
+  repo: 'https://github.com/M0REKZ/SyobonKZ'
+  url: 'https://m0rekz.github.io/SyobonKZ/'
+  development: sporadic
+  status: playable
+  platforms:
+  - Android
+  - Linux
+  - macOS
+  - Web
+  - Windows
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - SDL3
+  licenses:
+  - GPL2
+  info: +KZ Updated fork of Open Syobon Action
+  added: '2026-08-29'
+  updated: '2026-08-29'
+  images:
+  - 'https://m0rekz.github.io/SyobonKZ/img/screenshot.bmp'
+  - 'https://m0rekz.github.io/SyobonKZ/img/screenshot_2.bmp'
+  - 'https://m0rekz.github.io/SyobonKZ/img/screenshot_3.bmp'
+  - 'https://m0rekz.github.io/SyobonKZ/img/recording.gif'
+  - 'https://m0rekz.github.io/SyobonKZ/img/recording_2.gif'
 
 - name: System Shock
   originals:

@@ -36,7 +36,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   - Android
   - iOS
   updated: 2024-04-11
@@ -45,6 +45,27 @@
   - https://bab-devs.github.io/assets/babimg1.png
   - https://bab-devs.github.io/assets/babimg2.png
   - https://bab-devs.github.io/assets/babimg4.png
+
+- name: Baba is You
+  originals:
+  - Baba Is You
+  type: clone
+  repo: 'https://github.com/minirop/babaisyou'
+  url: 'https://gamebuino.com/creations/baba-is-you'
+  development: halted
+  status: playable
+  platforms:
+  - Arduino
+  - Web
+  content: free
+  langs:
+  - C++
+  licenses:
+  - As-is
+  added: 2026-10-07
+  updated: 2026-10-07
+  images:
+  - https://s3.eu-west-3.amazonaws.com/gamebuino/upload/images/posts/fefe3ed835c3b148dd115ee76a02fc3c.png
 
 - name: baba-is-you
   originals:
@@ -83,7 +104,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   repo: https://github.com/compilersoftware/babaliba
   development: halted
   type: remake
@@ -235,7 +256,7 @@
   status: semi-playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: free
   langs:
@@ -354,7 +375,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   repo: https://framagit.org/baller/ballerburg/-/tree/main
   type: remake
   updated: 2022-07-09
@@ -370,7 +391,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   - Android
   multiplayer:
@@ -501,7 +522,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: commercial
   langs:
@@ -753,7 +774,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   - Android
   langs:
@@ -836,7 +857,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   repo: https://github.com/wesnoth/wesnoth
   type: clone
@@ -944,6 +965,24 @@
   updated: 2026-01-15
   images:
   - 'https://6502disassembly.com/va-battlezone/images/gameplay.png'
+
+- name: Battlezone disassembly (ZX Spectrum)
+  originals:
+  - Battlezone
+  type: remake
+  repo: 'https://github.com/pobtastic/battlezone'
+  url: 'https://pobtastic.github.io/battlezone/'
+  development: halted
+  status: semi-playable
+  platforms:
+  - ZX Spectrum
+  content: commercial
+  langs:
+  - Skool
+  licenses:
+  - GPL3
+  added: 2026-09-30
+  updated: 2026-09-30
 
 - name: Batty disassembly
   originals:
@@ -1651,6 +1690,37 @@
   - >-
     https://github.com/realchonk/billig-sweeper/raw/master/data/Screenshots/bsw1.png
 
+- name: Billy Frontier
+  originals:
+  - Billy Frontier
+  type: remake
+  repo: 'https://github.com/jorio/BillyFrontier'
+  url: 'https://jorio.itch.io/billyfrontier'
+  development: active
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  content: free
+  langs:
+  - C
+  - C++
+  frameworks:
+  - SDL3
+  licenses:
+  - CC-BY-NC-SA
+  info: Pangea Software’s Billy Frontier for modern systems
+  added: '2026-09-02'
+  updated: '2026-09-02'
+  images:
+  - 'https://img.itch.zone/aW1hZ2UvMTY4MTQxNS85OTAyMTM0LnBuZw==/794x1000/07nxEE.png'
+  - 'https://img.itch.zone/aW1hZ2UvMTY4MTQxNS85OTAxNTg5LmpwZw==/794x1000/MyPt7b.jpg'
+  - 'https://img.itch.zone/aW1hZ2UvMTY4MTQxNS85OTAxNTkxLmpwZw==/794x1000/FI1A4t.jpg'
+  - >-
+    https://img.itch.zone/aW1hZ2UvMTY4MTQxNS85OTAxNjEwLmpwZw==/794x1000/oV%2F8tr.jpg
+  - 'https://img.itch.zone/aW1hZ2UvMTY4MTQxNS85OTAxNjE1LmpwZw==/794x1000/DUYNZp.jpg'
+
 - name: Bin-pong!
   originals:
   - Breakout
@@ -2347,7 +2417,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   content: open
   langs:
   - C
@@ -2841,7 +2911,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   updated: 2024-04-22
 
 - name: boomslang
@@ -2863,6 +2933,24 @@
   - PD
   added: 2026-01-28
   updated: 2026-01-28
+
+- name: Booty disassembly
+  originals:
+  - Booty
+  type: remake
+  repo: 'https://github.com/pobtastic/booty'
+  url: 'https://pobtastic.github.io/booty/'
+  development: halted
+  status: semi-playable
+  platforms:
+  - ZX Spectrum
+  content: commercial
+  langs:
+  - Skool
+  licenses:
+  - GPL3
+  added: 2026-09-21
+  updated: 2026-09-21
 
 - name: BootyRemake_CPC
   originals:
@@ -3389,7 +3477,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   type: clone
   updated: 2016-12-03
   url: https://www.bridgecommand.co.uk
@@ -3452,7 +3540,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   repo: https://sourceforge.net/projects/brutalchess/
   type: similar
   updated: 2022-02-24
@@ -3478,7 +3566,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   type: remake
   updated: 2025-12-05
   url: https://bibendovsky.github.io/bstone/
@@ -3524,7 +3612,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   multiplayer:
   - Local
   - Online
@@ -3643,7 +3731,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: free
   langs:
@@ -3673,7 +3761,7 @@
   status: playable
   platforms:
   - Linux
-  - OSX
+  - macOS
   - Windows
   content: free
   langs:
@@ -3799,7 +3887,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   type: clone
   updated: 2024-04-25
   url: http://the-butterfly-effect.org
@@ -3847,7 +3935,7 @@
   platforms:
   - Linux
   - Windows
-  - OSX
+  - macOS
   - BeOS
   type: clone
   updated: 2020-08-25

@@ -94,7 +94,7 @@
   platforms:
   - Classic Mac OS
   - DOS
-  - OSX
+  - macOS
   - Windows
   meta:
     genres:
@@ -665,7 +665,7 @@
   - Genesis
   - Linux
   - MSX
-  - OSX
+  - macOS
   - Windows
   meta:
     genres:
@@ -787,6 +787,26 @@
   meta:
     genres:
     - Shooter
+
+- name: Fortress
+  external:
+    website: 'https://www.bbcmicro.co.uk/game.php?id=81'
+  platforms:
+  - BBC Micro
+  meta:
+    genres:
+    - Shooter
+
+- name: Frak!
+  external:
+    website: 'https://www.mobygames.com/game/48639/frak/'
+    wikipedia: Frak!
+  platforms:
+  - BBC Micro
+  - C64
+  meta:
+    genres:
+    - Platform
 
 - name: 'Freddi Fish 2: The Case of the Haunted Schoolhouse'
   external:
@@ -1091,12 +1111,21 @@
   external:
     wikipedia: 'Future Cop: LAPD'
   platforms:
-  - OSX
+  - macOS
   - PS
   - Windows
   meta:
     genres:
     - TPS
+
+- name: Future Shock
+  external:
+    website: 'https://www.mobygames.com/game/67898/future-shock/'
+  platforms:
+  - BBC Micro
+  meta:
+    genres:
+    - Action
 
 - name: Future Wars
   names:
