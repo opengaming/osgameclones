@@ -2327,6 +2327,30 @@
   added: 2026-05-06
   updated: 2026-05-06
 
+- name: MetroidNESRecomp
+  originals:
+  - Metroid
+  type: remake
+  repo: 'https://github.com/mstan/MetroidNESRecomp'
+  feed: 'https://github.com/mstan/MetroidNESRecomp/releases.atom'
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - Custom
+  ai: true
+  info: Metroid recompiled for the NES using nesrecomp
+  added: 2026-10-21
+  updated: 2026-10-21
+  images:
+  - https://raw.githubusercontent.com/mstan/MetroidNESRecomp/main/docs/screenshots/metroid-widescreen.png
+
 - name: mewl
   langs:
   - C++
