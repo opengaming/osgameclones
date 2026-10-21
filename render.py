@@ -7,6 +7,7 @@ import shutil
 import functools
 import argparse
 import logging
+from datetime import datetime
 from pathlib import Path
 
 import markupsafe
@@ -118,6 +119,7 @@ def main():
     env().filters['normalize'] = normalize
     env().filters['slugify'] = slugify
     env().filters['e'] = markupsafe.escape
+    env().globals['now'] = datetime.now
     render_all(args.dest)
 
     # Render add game forms
