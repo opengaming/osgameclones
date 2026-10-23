@@ -2444,6 +2444,36 @@
   - >-
     https://camo.githubusercontent.com/c7965f14a7a7559126c3b54d99a1ac22a2569dfc3ccab42f6050b7fd7a1e8272/68747470733a2f2f6b72756c2e66696e662e756e692d68616e6e6f7665722e64652f7e6a616e6b6e697474656c2f696d616765732f696e67616d655f687970652e706e67
 
+- name: OpenLF2
+  originals:
+  - Little Fighter 2
+  type: clone
+  repo: 'https://github.com/OpenLF2/OpenLF2'
+  url: 'https://openlf2.github.io/OpenLF2/'
+  development: complete
+  status: playable
+  platforms:
+  - iOS
+  - Linux
+  - Switch
+  - macOS
+  - PSVita
+  - Web
+  - Windows
+  multiplayer:
+  - Local
+  - LAN
+  content: free
+  langs:
+  - C++
+  - Lua
+  frameworks:
+  - SDL3
+  licenses:
+  - MIT
+  ai: true
+updated: '2026-10-17'
+
 - name: OpenLiberty
   info: A open-source Grand Theft Auto III reimplementation on the Godot Engine
   frameworks:
