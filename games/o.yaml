@@ -2421,29 +2421,6 @@
   - https://camo.githubusercontent.com/2dd895a53604d21df06a443a081c325bf4c4096d776c1dd87493c380a997cf4a/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f7472325f756e7761746572312e6a7067
   - https://camo.githubusercontent.com/02d0d53ccbe0f885e73482b49b962c1c3cb741aa6d5701f02d683c9945aaaaad/687474703a2f2f7870726f6765722e696e666f2f70726f6a656374732f4f70656e4c6172612f73686f74732f7472335f74656d706c652e6a7067
 
-- name: OpenLGR
-  originals:
-  - Lego Racers
-  type: remake
-  repo: 'https://github.com/james-knippes/openlgr'
-  development: halted
-  status: unplayable
-  platforms:
-  - Windows
-  content: commercial
-  langs:
-  - C
-  frameworks:
-  - SDL2
-  - OpenGL
-  licenses:
-  - GPL2
-  info: A experimental source port based on OpenSWE1R.
-  updated: 2021-12-24
-  images:
-  - >-
-    https://camo.githubusercontent.com/c7965f14a7a7559126c3b54d99a1ac22a2569dfc3ccab42f6050b7fd7a1e8272/68747470733a2f2f6b72756c2e66696e662e756e692d68616e6e6f7665722e64652f7e6a616e6b6e697474656c2f696d616765732f696e67616d655f687970652e706e67
-
 - name: OpenLF2
   originals:
   - Little Fighter 2
@@ -2475,6 +2452,29 @@
   updated: '2026-10-17'
   images:
   - https://www.lf2.net/lf2_pic/7.gif
+
+- name: OpenLGR
+  originals:
+  - Lego Racers
+  type: remake
+  repo: 'https://github.com/james-knippes/openlgr'
+  development: halted
+  status: unplayable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - GPL2
+  info: A experimental source port based on OpenSWE1R.
+  updated: 2021-12-24
+  images:
+  - >-
+    https://camo.githubusercontent.com/c7965f14a7a7559126c3b54d99a1ac22a2569dfc3ccab42f6050b7fd7a1e8272/68747470733a2f2f6b72756c2e66696e662e756e692d68616e6e6f7665722e64652f7e6a616e6b6e697474656c2f696d616765732f696e67616d655f687970652e706e67
 
 - name: OpenLiberty
   info: A open-source Grand Theft Auto III reimplementation on the Godot Engine
