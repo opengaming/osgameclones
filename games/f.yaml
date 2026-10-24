@@ -2898,6 +2898,85 @@
   - https://play-lh.googleusercontent.com/1l3GgCVHzrHPkR_wPrU66f7GwwDW8zpBQfGhLHLnuGnnG7103T9HRRVYRvWV0aOvicQ=w1052-h592-rw
   - https://play-lh.googleusercontent.com/V7Y5R2BuHB0imH6Rfft2qYgjaKwco7Vjt_bzZageLNQKw1w6tzG4o0J2gn_iqiQFsg=w1052-h592-rw
 
+- name: FsHockey
+  images:
+  - https://github.com/user-attachments/assets/01e121cb-1d32-4087-96b6-ff4b9200188e
+  originals:
+  - Wayne Gretzky Hockey
+  type: similar
+  repo: https://github.com/Thorium/FsHockey
+  url: https://thorium.github.io/FsHockey/
+  development: active
+  status: playable
+  platforms:
+  - Windows
+  - Web
+  multiplayer:
+  - Local
+  - Competitive
+  content: open
+  langs:
+  - F#
+  frameworks:
+  - MonoGame
+  licenses:
+  - Unlicense
+  ai: true
+  info: Retro top-down ice hockey, mainly inspired by The Solar Hockey League (Galifir Developments, 1990-1992); WinForms, MonoGame and Fable web versions
+  added: '2026-10-12'
+  updated: '2026-10-12'
+
+- name: FsLemming
+  originals:
+  - Lemmings
+  type: clone
+  repo: https://github.com/Thorium/FsLemming
+  url: https://thorium.github.io/FsLemming/
+  development: active
+  status: playable
+  platforms:
+  - Web
+  content: open
+  langs:
+  - F#
+  frameworks:
+  - Fable
+  licenses:
+  - Unlicense
+  ai: true
+  info: Compiled to JavaScript with Fable; a tutorial on MailboxProcessor message-passing architecture; installable PWA
+  added: '2026-10-12'
+  updated: '2026-10-12'
+
+- name: FsRocket
+  images:
+  - https://github.com/user-attachments/assets/052d8c29-2cda-4dc2-a88b-ebf61fe9d4d9
+  originals:
+  - AUTS
+  type: similar
+  repo: https://github.com/Thorium/FsRocket
+  url: https://thorium.github.io/FsRocket
+  development: active
+  status: playable
+  platforms:
+  - Windows
+  - Web
+  multiplayer:
+  - Local
+  - Split-screen
+  - Competitive
+  content: free
+  langs:
+  - F#
+  frameworks:
+  - MonoGame
+  licenses:
+  - Unlicense
+  ai: true
+  info: 1-4 player split-screen cave-flyer with destructible terrain; reads AUTS levels
+  added: '2026-10-12'
+  updated: '2026-10-12'
+
 - name: FTE QuakeWorld
   originals:
   - Quake
