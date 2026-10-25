@@ -3367,6 +3367,38 @@
   video:
     youtube: QzNFkE98fzE
 
+- name: OpenSGolf
+  originals:
+  - Sid Meier's SimGolf
+  type: remake
+  repo: https://github.com/crspytopgn/opensgolf
+  url: https://crspytopgn.github.io/opensgolf/
+  feed: https://github.com/crspytopgn/opensgolf/releases.atom
+  development: very active
+  status: playable
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  - Android
+  - Web
+  content: swappable
+  langs:
+  - Rust
+  frameworks:
+  - miniquad
+  licenses:
+  - GPL2
+  ai: true
+  info: Clean-room reimplementation of the engine. Plays with the original game files or its own free art set; optional enhanced graphics (widescreen, 4K) and touch controls.
+  added: '2026-10-25'
+  updated: '2026-10-25'
+  images:
+  - https://raw.githubusercontent.com/crspytopgn/opensgolf/main/docs/images/golfers.jpg
+  - https://raw.githubusercontent.com/crspytopgn/opensgolf/main/docs/images/building.jpg
+  video:
+    youtube: B0ZH-oHJd-w
+
 - name: OpenSkyscraper
   images:
   - https://raw.githubusercontent.com/wiki/fabianschuiki/OpenSkyscraper/current.png
