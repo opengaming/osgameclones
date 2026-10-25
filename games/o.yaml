@@ -3371,6 +3371,36 @@
   originals:
   - SimCity 2000
 
+- name: openSEEK
+  originals:
+  - Seek & Destroy
+  type: remake
+  repo: 'https://github.com/rincewindcz/openseek'
+  url: 'https://rcwnd.itch.io/openseek'
+  development: active
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  - Web
+  content: commercial
+  langs:
+  - Lua
+  frameworks:
+  - LÖVE
+  licenses:
+  - MIT
+  added: '2026-10-11'
+  updated: '2026-10-11'
+  images:
+  - 'https://github.com/rincewindcz/openseek/raw/main/screenshots/seek_1.png'
+  - 'https://github.com/rincewindcz/openseek/raw/main/screenshots/seek_2.png'
+  - 'https://github.com/rincewindcz/openseek/raw/main/screenshots/seek_3.png'
+  - 'https://github.com/rincewindcz/openseek/raw/main/screenshots/seek_4.png'
+  video:
+    youtube: QzNFkE98fzE
+
 - name: OpenSkyscraper
   images:
   - https://raw.githubusercontent.com/wiki/fabianschuiki/OpenSkyscraper/current.png
@@ -4279,6 +4309,32 @@
   - 'https://www.defence-force.org/pages/games/skooldaze/pics/skooldaze_title.png'
   - 'https://www.defence-force.org/pages/games/skooldaze/pics/screen4.png'
   - 'https://www.defence-force.org/pages/games/skooldaze/pics/screen3.png'
+
+- name: Orion2 Redone
+  originals:
+  - Master of Orion 2
+  type: remake
+  repo: 'https://github.com/orion2re/orion2re'
+  development: very active
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  multiplayer:
+  - Online
+  - LAN
+  - Hotseat
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  ai: false
+  added: '2026-10-11'
+  updated: '2026-10-18'
+  images:
+  - 'https://moo2mod.com/redone/doc/assets/images/manual/empire-overlay.png'
 
 - name: orona
   licenses:
