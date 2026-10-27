@@ -2660,6 +2660,31 @@
   type: remake
   updated: 2022-04-18
 
+- name: OpenMCM2
+  originals:
+  - Motocross Madness 2
+  type: remake
+  repo: https://github.com/crspytopgn/openmcm2
+  url: https://crspytopgn.github.io/openmcm2/
+  feed: https://github.com/crspytopgn/openmcm2/releases.atom
+  development: very active
+  status: playable
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  multiplayer:
+  - Online
+  content: commercial
+  langs:
+  - Rust
+  frameworks:
+  - wgpu
+  licenses:
+  - MIT
+  - Apache
+  updated: 2026-10-27
+
 - name: OpenMoHAA
   frameworks:
   - SDL2
