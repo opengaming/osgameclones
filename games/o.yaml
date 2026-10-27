@@ -2661,6 +2661,11 @@
   updated: 2022-04-18
 
 - name: OpenMCM2
+  images:
+  - https://crspytopgn.github.io/openmcm2/img/sx-air.jpg
+  - https://crspytopgn.github.io/openmcm2/img/nat-battle.jpg
+  - https://crspytopgn.github.io/openmcm2/img/baja-desert.jpg
+  - https://crspytopgn.github.io/openmcm2/img/quarry.jpg
   originals:
   - Motocross Madness 2
   type: remake
@@ -2679,10 +2684,11 @@
   langs:
   - Rust
   frameworks:
-  - wgpu
+  - Vulkan
   licenses:
   - MIT
   - Apache
+  added: 2026-10-27
   updated: 2026-10-27
 
 - name: OpenMoHAA
