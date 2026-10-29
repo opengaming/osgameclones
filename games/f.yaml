@@ -361,6 +361,24 @@
   video:
     youtube: lLXSnK3HVW4
 
+- name: fe7_us
+  originals:
+  - 'Fire Emblem: The Blazing Blade'
+  type: remake
+  repo: 'https://github.com/StanHash/fe7_us'
+  url: 'https://recompsoftware.com/p/fe7-us-decomp/'
+  development: complete
+  status: playable
+  platforms:
+  - GBA
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-10-21
+  updated: 2026-10-21
+
 - name: Fernando 3
   originals:
   - Super Mario
@@ -674,6 +692,79 @@
   - GPL3
   added: 2026-02-22
   updated: 2026-02-22
+
+- name: Fire Emblem Gaiden
+  originals:
+  - Fire Emblem Gaiden
+  type: remake
+  repo: 'https://github.com/minirop/fe2'
+  url: 'https://app.decomphub.com/projects/fe2'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - NES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-10-21
+  updated: 2026-10-21
+
+- name: 'Fire Emblem: Ankoku Ryu to Hikari no Tsurugi disassembly'
+  originals:
+  - 'Fire Emblem: Shadow Dragon and the Blade of Light'
+  type: remake
+  repo: 'https://github.com/StanHash/fe1'
+  url: 'https://recompsoftware.com/p/fe1-disasm/'
+  development: halted
+  status: semi-playable
+  platforms:
+  - NES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-10-21
+  updated: 2026-10-21
+
+- name: 'Fire Emblem: Monshō no Nazo'
+  originals:
+  - 'Fire Emblem: Mystery of the Emblem'
+  type: remake
+  repo: 'https://github.com/minirop/fe3'
+  url: 'https://app.decomphub.com/pl/projects/fe3-text'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - NES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-10-21
+  updated: 2026-10-21
+
+- name: 'Fire Emblem: Thracia 776'
+  originals:
+  - 'Fire Emblem: Thracia 776'
+  type: remake
+  repo: https://github.com/ZaneAvernathy/FireEmblem5
+  url: https://app.decomphub.com/it/projects/fireemblem5-2
+  feed: https://github.com/ZaneAvernathy/FireEmblem5/releases.atom
+  development: halted
+  status: playable
+  platforms:
+  - SNES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - As-is
+  added: 2026-10-21
+  updated: 2026-10-21
 
 - name: FireMadness
   originals:
