@@ -2209,6 +2209,36 @@
   video:
     youtube: LwGwpOTDlpA
 
+- name: classicQ
+  originals:
+  - Quake
+  type: remake
+  repo: 'https://github.com/classicq/classicq'
+  url: https://classicq.github.io
+  feed: 'https://github.com/classicq/classicq/releases.atom'
+  development: active
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  multiplayer:
+  - Competitive
+  - Online
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - GPL2
+  ai: true
+  info: Classic-feel QuakeWorld client with a modern renderer (Vulkan, Direct3D 12, Metal)
+  images:
+  - https://raw.githubusercontent.com/classicq/classicq/master/assets/icons/classicq-screenshot.webp
+  added: 2026-10-24
+  updated: 2026-10-24
+
 - name: ClassicStarTrek
   originals:
   - Star Trek
