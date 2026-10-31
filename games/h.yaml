@@ -21,6 +21,32 @@
   - 'https://raw.githubusercontent.com/Javran/h2048/master/doc/simple.jpg'
   - 'https://raw.githubusercontent.com/Javran/h2048/master/doc/brick.jpg'
 
+- name: h4r
+  originals:
+  - Heroes of Might and Magic IV
+  type: remake
+  repo: https://github.com/demen1n/h4r
+  development: very active
+  status: unplayable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  content: commercial
+  langs:
+  - Rust
+  frameworks:
+  - macroquad
+  licenses:
+  - GPL3
+  ai: true
+  info: Engine reimplementation reading data from an original installation. Early prototype - reads archives, sprites and all original maps, renders the adventure map with elevation; movement and turns work, combat is a placeholder.
+  added: 2026-10-31
+  updated: 2026-10-31
+  images:
+  - https://raw.githubusercontent.com/demen1n/h4r/dab7688/docs/screenshots/adventure-map.jpg
+  - https://raw.githubusercontent.com/demen1n/h4r/dab7688/docs/screenshots/adventure-map-town.jpg
+
 - name: H-Craft Championship
   langs:
   - C++
