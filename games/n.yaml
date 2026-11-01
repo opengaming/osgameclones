@@ -1035,14 +1035,14 @@
   development: halted
   status: N/A
   platforms:
-  - Linux
-  - macOS
   - Windows
   content: commercial
   langs:
   - 'C#'
+  frameworks:
+  - .NET
   licenses:
-  - As-is
+  - MIT
   info: Tool to list, view and extract files from ggpack data files used by the Thimbleweed Park game
   added: 2026-10-10
   updated: 2026-10-10
@@ -1056,14 +1056,12 @@
   development: halted
   status: N/A
   platforms:
-  - Linux
-  - macOS
-  - Windows
+  - None
   content: commercial
   langs:
   - Dart
   licenses:
-  - As-is
+  - BSD
   info: A simple command-line application to list or extract files from ggpack files
   added: 2026-10-10
   updated: 2026-10-10
