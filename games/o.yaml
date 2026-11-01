@@ -2063,7 +2063,7 @@
   licenses:
   - ISC
   info: >-
-    A project that aims to provide a complete PC port for the first Jak and 
+    A project that aims to provide a complete PC port for the first Jak and
     Daxter game by providing a open implementation of a compiler for Naughty
     Dog's GOAL language, a decompiler for the compiled game and an asset
     extraction tool.
@@ -2156,6 +2156,30 @@
   updated: 2026-08-08
   images:
   - https://static.wikia.nocookie.net/gtawiki/images/c/c1/OpenGTA-GTA1.jpg
+
+- name: OpenGuimo
+  originals:
+  - Guimo
+  type: remake
+  repo: 'https://gitlab.com/greyxor/openguimo'
+  url: 'https://greyxor.itch.io/openguimo'
+  development: complete
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Web
+  - Windows
+  content: commercial
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - Custom
+  ai: true
+  added: '2026-10-18'
+  updated: '2026-10-18'
 
 - name: OpenHCL
   originals:
