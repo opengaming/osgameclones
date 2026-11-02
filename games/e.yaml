@@ -278,6 +278,41 @@
   type: clone
   updated: 2022-08-06
 
+- name: Ečstatica
+  originals:
+  - Ečstatica
+  - Ecstatica II
+  type: remake
+  repo: 'https://github.com/ecstatica-game/ecstatica'
+  url: 'https://github.com/ecstatica-game'
+  development: active
+  status: playable
+  platforms:
+  - DOS
+  - Linux
+  - macOS
+  - PSVita
+  - PSP
+  - Windows
+  content: commercial
+  langs:
+  - C
+  licenses:
+  - GPL3
+  ai: true
+  info: >-
+    Decompilation and portable C99 reimplementation of Ecstatica 1 & 2, the
+    1994/1997 ellipsoid-rendered adventure games by Andrew Spencer Studios. 
+    Primary reverse-engineering target is E2WIN95.EXE (Ecstatica 2 Win95 build,
+    which includes high-res mode). Ecstatica 1 is a secondary target and runs from
+    the same binary — game version is auto-detected at runtime.  The goal is a
+    single native executable that runs both games on modern systems (macOS first,
+    Linux/Windows scaffolded) using the original game data.
+  added: '2026-10-01'
+  updated: '2026-10-01'
+  images:
+  - 'https://raw.githubusercontent.com/ecstatica-game/ecstatica/main/docs/e1.png'
+
 - name: ECWolf
   images:
   - https://maniacsvault.net/ecwolf/ecwolf_fullres.png
