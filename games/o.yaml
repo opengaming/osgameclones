@@ -3338,26 +3338,29 @@
   url: https://opensage.github.io/
 
 - name: OpenSC2K
-  development: halted
+  development: very active
   langs:
-  - JavaScript
+  - Rust
+  - GDScript
   type: remake
   status: unplayable
   platforms:
-  - Web
+  - Linux
+  - macOS
+  - Windows
   frameworks:
-  - Phaser
-  - WebGL
+  - Godot
   licenses:
   - GPL3
   content: commercial
-  repo: https://github.com/nicholas-ochoa/OpenSC2K
+  repo: https://github.com/OpenSC2K/OpenSC2K
+  url: https://opensc2k.net
   added: 2019-01-30
-  updated: 2024-08-05
+  updated: 2026-11-08
   images:
-  - https://raw.githubusercontent.com/rage8885/OpenSC2K/master/screenshots/1.png
-  - https://raw.githubusercontent.com/rage8885/OpenSC2K/master/screenshots/2.png
-  - https://raw.githubusercontent.com/rage8885/OpenSC2K/master/screenshots/3.png
+  - https://opensc2k.net/images/hero.webp
+  - https://opensc2k.net/images/screenshot-2.webp
+  - https://opensc2k.net/images/screenshot-3.webp
   originals:
   - SimCity 2000
 
