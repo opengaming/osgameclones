@@ -1361,6 +1361,28 @@
   images:
   - 'https://gap.nongnu.org/gmastermind/gmastermind_01_obsd.png'
 
+- name: GMines
+  originals:
+  - Minesweeper
+  type: clone
+  repo: 'https://download.savannah.gnu.org/releases/gap/#:~:text=GMines'
+  url: 'https://gap.nongnu.org/gmines/'
+  development: halted
+  status: semi-playable
+  platforms:
+  - Linux
+  - OpenBSD
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  info: Minimal implementation of 8x8 minesweeper game.
+  added: 2025-10-30
+  updated: 2026-11-08
+  images:
+  - 'https://gap.nongnu.org/gmines/gmines_01_obsd.png'
+
 - name: gnome-2048
   originals:
   - '2048'
