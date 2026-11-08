@@ -86,6 +86,10 @@ def parse_tags(entry, keys):
         if key in entry:
             val = entry.get(key)
 
+            if isinstance(val, bool):
+                if val:
+                    tags.append(parse_tag(key))
+                continue
             if isinstance(val, str):
                 tags.append(parse_tag(val))
                 tags.append(parse_unicode_tag(val))
@@ -214,6 +218,7 @@ def parse_items(site, item, key):
         'multiplayer',
         'type',
         'platforms',
+        'ai',
     ]
 
     meta = item.get('meta', {})

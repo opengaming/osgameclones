@@ -867,10 +867,30 @@
 
 - name: Lode Runner
   external:
+    website: https://www.mobygames.com/game/243/lode-runner/
     wikipedia: Lode Runner
+  platforms:
+  - Amstrad CPC
+  - Android
+  - Apple II
+  - Arcade
+  - Atari
+  - BBC Micro
+  - Classic Mac OS
+  - C64
+  - DOS
+  - iOS
+  - MSX
+  - NES
+  - PC Booter
+  - PC-98
+  - Wii
+  - Wii U
+  - ZX Spectrum
   meta:
     genres:
     - Arcade
+    - Puzzle
 
 - name: Log!cal
   external:
@@ -931,20 +951,6 @@
   meta:
     genres:
     - Puzzle
-
-- name: Lost Dutchman Mine
-  external:
-    website: 'https://www.mobygames.com/game/lost-dutchman-mine'
-    wikipedia: Lost Dutchman Mine (video game)
-  platforms:
-  - Amiga
-  - DOS
-  meta:
-    genres:
-    - Adventure
-    - Simulation
-    themes:
-    - Western
 
 - name: The Lost Files of Sherlock Holmes
   names:

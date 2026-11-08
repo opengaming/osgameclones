@@ -537,6 +537,34 @@
   added: 2025-11-25
   updated: 2025-11-25
 
+- name: Carpocalypse2
+  originals:
+  - Carmageddon 2
+  type: remake
+  repo: 'https://github.com/Link4Electronics/Carpocalypse2'
+  feed: 'https://github.com/Link4Electronics/Carpocalypse2/releases.atom'
+  development: active
+  status: unplayable
+  platforms:
+  - Android
+  - Linux
+  - macOS
+  - Windows
+  content: free
+  langs:
+  - C
+  - C++
+  frameworks:
+  - SDL3
+  licenses:
+  - GPL3
+  ai: true
+  added: 2026-10-06
+  updated: 2026-10-06
+  info: Decompilation of Carmageddon 2
+  images:
+  - 'https://raw.githubusercontent.com/Link4Electronics/Carpocalypse2/refs/heads/main/reccmp-report/screenshot.png'
+
 - name: Cart Life
   originals:
   - Cart Life
@@ -1601,6 +1629,24 @@
   added: 2026-03-06
   updated: 2026-03-06
 
+- name: chipfact
+  originals:
+  - Technician Ted
+  type: remake
+  repo: 'https://github.com/Ritchie333/chipfact'
+  url: 'https://ritchie333.github.io/chipfact/'
+  development: complete
+  status: playable
+  platforms:
+  - ZX Spectrum
+  content: commercial
+  langs:
+  - Skool
+  licenses:
+  - As-is
+  added: 2026-10-21
+  updated: 2026-10-21
+
 - name: Chocolate Blood
   originals:
   - Blood
@@ -1748,6 +1794,42 @@
   - GPL3
   added: 2026-02-21
   updated: 2026-03-19
+
+- name: Chocolate Stunts
+  originals:
+  - Stunts
+  type: remake
+  repo: 'https://github.com/CommonLoon102/restunts-bb11'
+  url: 'https://commonloon102.github.io/restunts-bb11/'
+  feed: 'https://github.com/CommonLoon102/restunts-bb11/releases.atom'
+  development: complete
+  status: playable
+  platforms:
+  - DOS
+  - FreeBSD
+  - Linux
+  - macOS
+  - NetBSD
+  - OpenBSD
+  - TempleOS
+  - Web
+  - Windows
+  content: free
+  langs:
+  - Assembly
+  - C
+  - HolyC
+  frameworks:
+  - SDL3
+  licenses:
+  - As-is
+  ai: true
+  added: 2026-10-05
+  updated: 2026-10-05
+  info: A continuation of the Restunts reverse engineering project
+  images:
+  - 'https://commonloon102.github.io/restunts-bb11/assets/graphics/before.png'
+  - 'https://commonloon102.github.io/restunts-bb11/assets/graphics/after.png'
 
 - name: Chopper Commando
   originals:
@@ -4612,6 +4694,31 @@
   - https://web.archive.org/web/20020328070154im_/http://hardgeus.com/cylindrix/oldcylindrix/gfx/cylin1-.gif
   - https://web.archive.org/web/20020328070720im_/http://hardgeus.com/cylindrix/oldcylindrix/gfx/cylin2-.gif
   - https://web.archive.org/web/20060226192825im_/http://www.hardgeus.com/cylindrix/oldcylindrix/gfx/cylin6-.gif
+
+- name: cyrus
+  originals:
+  - 'The Elder Scrolls Adventures: Redguard'
+  type: remake
+  repo: 'https://github.com/michidk/cyrus'
+  url: https://michidk.github.io/cyrus/
+  development: very active
+  status: unplayable
+  platforms:
+  - Linux
+  - Web
+  - macOS
+  - Windows
+  content: commercial
+  langs:
+  - Rust
+  frameworks:
+  - Bevy
+  licenses:
+  - MIT
+  ai: true
+  info: Requires a local GOG install. Startup presentation, book menus, and world viewing work; gameplay is not yet playable.
+  added: 2026-10-12
+  updated: 2026-10-12
 
 - name: Cytadela
   images:

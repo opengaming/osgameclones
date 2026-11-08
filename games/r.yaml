@@ -61,6 +61,7 @@
   - WebGL
   licenses:
   - As-is
+  ai: true
   info: >-
     Developed based on decompiling the Chinese version RA2WEB of the Chrono
     Divide (chronodivide.com) client.
@@ -1180,6 +1181,30 @@
   video:
     youtube: VusDAxLpJ9I
 
+- name: Render96ex
+  originals:
+  - Super Mario 64
+  type: remake
+  repo: 'https://github.com/Render96/Render96ex'
+  url: https://portmaster.games/detail.html?name=render96ex
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - Linux
+  - Switch
+  - Windows
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - OpenGL
+  licenses:
+  - As-is
+  added: 2026-10-10
+  updated: 2026-10-10
+  images:
+  - https://raw.githubusercontent.com/PortsMaster-MV/PortMaster-MV-New/main/ports/render96ex/screenshot.png
+
 - name: reone
   frameworks:
   - SDL2
@@ -1242,6 +1267,43 @@
   updated: 2022-10-14
   images:
   - https://raw.githubusercontent.com/leonicolas/ReQbert/master/etc/resources/last_build_screenshot.png
+
+- name: ReRBR
+  originals:
+  - Richard Burns Rally
+  type: clone
+  repo: 'https://github.com/JodusNodus/rerbr'
+  development: active
+  status: semi-playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  content: commercial
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  ai: true
+  added: '2026-10-20'
+  updated: '2026-10-20'
+  images:
+  - >-
+    https://raw.githubusercontent.com/JodusNodus/rerbr/refs/heads/main/docs/images/rain-lancer-evo-ix-tanner.jpg
+  - >-
+    https://raw.githubusercontent.com/JodusNodus/rerbr/refs/heads/main/docs/images/night-golf-gti-joux-verte-ii.jpg
+  - >-
+    https://raw.githubusercontent.com/JodusNodus/rerbr/refs/heads/main/docs/images/snow-delta-hf-kaihuavaara.jpg
+  - >-
+    https://raw.githubusercontent.com/JodusNodus/rerbr/refs/heads/main/docs/images/cockpit-clio-rally3-mineshaft.jpg
+  - >-
+    https://raw.githubusercontent.com/JodusNodus/rerbr/refs/heads/main/docs/images/dust-celica-newbobs.jpg
+  - >-
+    https://raw.githubusercontent.com/JodusNodus/rerbr/refs/heads/main/docs/images/morning-xsara-wrc-harwood-forest.jpg
+  - >-
+    https://raw.githubusercontent.com/JodusNodus/rerbr/refs/heads/main/docs/images/launcher-drive.png
+  - >-
+    https://raw.githubusercontent.com/JodusNodus/rerbr/refs/heads/main/docs/images/launcher-championship.png
 
 - name: Rescue! Max
   images:
@@ -2105,6 +2167,24 @@
   - As-is
   added: 2026-03-07
   updated: 2026-03-07
+
+- name: 'Robotron: 2084 disassembly'
+  originals:
+  - 'Robotron: 2084'
+  type: remake
+  repo: 'https://github.com/pobtastic/robotron2084'
+  url: 'https://pobtastic.github.io/robotron2084/'
+  development: sporadic
+  status: semi-playable
+  platforms:
+  - ZX Spectrum
+  content: commercial
+  langs:
+  - Skool
+  licenses:
+  - GPL3
+  added: 2026-10-09
+  updated: 2026-10-09
 
 - name: rock-raiders-remake
   langs:

@@ -2012,7 +2012,7 @@
   type: remake
   added: 2016-05-23
   updated: 2024-10-02
-  repo: https://github.com/Librelancer/Librelancer
+  repo: https://codeberg.org/Librelancer/Librelancer
   url: https://librelancer.net/
   info: As of 2024, the first mission of the game (Mission 01A) can be played through.
 
@@ -2178,6 +2178,7 @@
   - ggez
   licenses:
   - MIT
+  ai: true
   added: 2025-09-03
   updated: 2025-09-03
   images:
@@ -2749,6 +2750,33 @@
   added: 2025-10-22
   updated: 2025-10-22
 
+- name: Looking Glass
+  originals:
+  - American McGee's Alice
+  type: remake
+  repo: https://github.com/skulitom/LookingGlass
+  feed: https://github.com/skulitom/LookingGlass/releases.atom
+  development: active
+  status: playable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - Rust
+  frameworks:
+  - macroquad
+  licenses:
+  - MIT
+  ai: true
+  info: >-
+    Experimental engine recreation requiring separate compatible English 2011 game
+    data. Includes controller support, guided Windows setup and campaign saves;
+    cutscene, effects and behavior fidelity remain in development.
+  added: 2026-10-01
+  updated: 2026-10-01
+  images:
+  - https://raw.githubusercontent.com/skulitom/LookingGlass/main/docs/media/gameplay/pale-realm.gif
+
 - name: The Lord of the Rings game engine
   originals:
   - "J.R.R. Tolkien's The Lord of the Rings, Vol. I"
@@ -2860,29 +2888,6 @@
   images:
   - 'https://i.imgur.com/7ZToFdR.jpeg'
   info: Lost City's from-scratch game server. Content and engine live in separate repos
-
-- name: Lost Mine
-  originals:
-  - Lost Dutchman Mine
-  type: remake
-  repo: https://github.com/niner-games/dutchman-gold
-  development: active
-  status: unplayable
-  platforms:
-  - Windows
-  - Linux
-  - macOS
-  - Android
-  - iOS
-  langs:
-  - 'C#'
-  - C++
-  frameworks:
-  - Unreal Engine 5
-  licenses:
-  - BSD2
-  added: 2025-07-13
-  updated: 2025-07-13
 
 - name: The Lost Vikings/Blackthorne Tools
   originals:

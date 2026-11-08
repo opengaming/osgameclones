@@ -186,6 +186,7 @@
   - WebGL
   licenses:
   - MIT
+  ai: true
   added: 2019-11-15
   updated: 2023-10-20
   images:
@@ -2794,6 +2795,33 @@
   video:
     youtube: SHhLHVwoLFA
 
+- name: Silent Heritage
+  originals:
+  - Silent Hunter
+  type: remake
+  repo: https://github.com/conning-tower/SilentHeritage
+  feed: https://github.com/conning-tower/SilentHeritage/releases.atom
+  development: very active
+  status: playable
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  - Android
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL3
+  licenses:
+  - MIT
+  info: Reimplementation of the 1996 SSI submarine simulation, including the Commander's Edition scenario editor. Requires the original game data.
+  added: 2026-10-16
+  updated: 2026-10-16
+  images:
+  - https://raw.githubusercontent.com/conning-tower/SilentHeritage/main/docs/screenshots/bridge.png
+  - https://raw.githubusercontent.com/conning-tower/SilentHeritage/main/docs/screenshots/chart.png
+
 - name: Silent Hill 2 Enhanced Edition
   originals:
   - Silent Hill 2
@@ -2996,6 +3024,35 @@
   - 'https://dusted.dk/pages/simplevaders/6.jpg'
   video:
     youtube: cvGnvw4gLvw
+
+- name: SimpliCity
+  originals:
+  - SimCity
+  type: clone
+  repo: 'https://github.com/amagnolo/simplicity'
+  url: 'https://amagnolo.github.io/simplicity/'
+  development: active
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL3
+  ai: true
+  info: >-
+    SimpliCity is a city simulation game rooted in the original SimCity, with
+    small gameplay improvements, modern (and classic) graphics and a focus on simplicity.
+  added: '2026-10-20'
+  updated: '2026-10-20'
+  images:
+  - 'https://amagnolo.github.io/simplicity/images/logo_universal_transparent.png'
+  - 'https://amagnolo.github.io/simplicity/images/graphics-classic.png'
+  - 'https://amagnolo.github.io/simplicity/images/graphics-modern.png'
+  - 'https://amagnolo.github.io/simplicity/images/graphics-deluxe.png'
 
 - name: SimUnity2
   originals:
@@ -3241,8 +3298,9 @@
   - JavaScript
   licenses:
   - MIT
+  ai: true
   content: free
-  development: halted
+  development: sporadic
   originals:
   - SkiFree
   status: semi-playable
@@ -6549,6 +6607,7 @@
   - 'Star Trek: Voyager – Elite Force'
   type: official
   repo: https://www.moddb.com/games/star-trek-voyager-elite-force/downloads/star-trek-elite-force-singleplayer-source-code
+  url: https://web.archive.org/web/20110219224206/https://www.totallyef.net/news.php/180
   development: complete
   status: playable
   platforms:
@@ -6559,7 +6618,7 @@
   licenses:
   - Custom
   added: 2025-11-21
-  updated: 2025-11-21
+  updated: 2026-10-21
 
 - name: Star-Wars-III
   langs:
@@ -6678,6 +6737,30 @@
   updated: 2020-08-25
   images:
   - https://happypenguin.altervista.org/screenshots/starlane.jpg
+
+- name: StarLord
+  originals:
+  - Master of Orion 2
+  type: clone
+  repo: https://github.com/ArndRosemeier/StarLord
+  url: https://apps.futuremagic.de/starlord/
+  development: very active
+  status: playable
+  platforms:
+  - Web
+  content: open
+  langs:
+  - TypeScript
+  frameworks:
+  - React
+  - PixiJS
+  - three.js
+  licenses:
+  - MIT
+  ai: true
+  info: Browser 4X inspired by Master of Orion II with original races, 3D tactical battles and automation of any part of the empire
+  added: 2026-10-15
+  updated: 2026-10-15
 
 - name: Starmaster Disassembly
   originals:
@@ -7729,6 +7812,23 @@
   - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/water-538f7878.png
   - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/boss-5fbb4262.png
   - https://a.fsdn.com/con/app/proj/super-mario-bros-java/screenshots/Info2-25d0be3a.png
+
+- name: Super Mario Bros NES R.Eng Project
+  originals:
+  - Super Mario Bros.
+  type: remake
+  url: 'https://www.romhacking.net/documents/93/'
+  development: complete
+  status: playable
+  platforms:
+  - NES
+  content: commercial
+  langs:
+  - Assembly
+  licenses:
+  - Custom
+  added: 2026-10-23
+  updated: 2026-10-23
 
 - name: Super Mario Bros Remastered
   originals:
