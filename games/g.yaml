@@ -1340,6 +1340,27 @@
   images:
   - 'https://raw.githubusercontent.com/softdorothy/Glypha3/master/Screenshot.jpg'
 
+- name: GMastermind
+  originals:
+  - Mastermind
+  type: clone
+  repo: 'https://download.savannah.gnu.org/releases/gap/#:~:text=GMastermind'
+  url: 'https://gap.nongnu.org/gmastermind/'
+  development: halted
+  status: playable
+  platforms:
+  - Linux
+  - OpenBSD
+  content: open
+  langs:
+  - C
+  licenses:
+  - GPL2
+  added: 2025-10-31
+  updated: 2026-11-08
+  images:
+  - 'https://gap.nongnu.org/gmastermind/gmastermind_01_obsd.png'
+
 - name: gnome-2048
   originals:
   - '2048'
