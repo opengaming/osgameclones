@@ -496,11 +496,12 @@ function setCount() {
   if (!list || !sorted) return;
 
   let total = 0;
+  let dds = null;
   if (list.style.display === "none") {
-    const dds = Array.from(sorted.getElementsByTagName('dd'));
+    dds = Array.from(sorted.getElementsByTagName('dd'));
     total = dds.length;
   } else {
-    const dds = Array.from(list.getElementsByTagName('dd'));
+    dds = Array.from(list.getElementsByTagName('dd'));
     total = new Set(dds.map(dd => dd.getAttribute('data-name'))).size;
   }
   const shownGames = dds.filter(dd => dd.getBoundingClientRect().width + dd.getBoundingClientRect().height > 0)
