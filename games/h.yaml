@@ -1554,6 +1554,31 @@
   added: 2026-08-24
   updated: 2026-08-24
 
+- name: HPEngine
+  originals:
+  - Harry Potter and the Philosopher's Stone (PC)
+  type: remake
+  repo: https://github.com/artemnikonov/hpengine
+  development: very active
+  status: playable
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  content: commercial
+  langs:
+  - C#
+  frameworks:
+  - SDL3
+  licenses:
+  - GPL3
+  ai: true
+  info: Engine reimplementation for KnowWonder's 2001 PC game; runs the game's own UnrealScript bytecode, native on Macs, Windows, Linux and Steam Deck, with widescreen, high frame rates, gamepad and mod support. The whole game can be completed
+  added: 2026-11-11
+  updated: 2026-11-13
+  images:
+  - https://raw.githubusercontent.com/artemnikonov/hpengine/main/images/norbert-charlie-moon.jpg
+
 - name: HPong
   originals:
   - Pong
