@@ -593,6 +593,32 @@
   added: 2025-11-24
   updated: 2025-11-24
 
+- name: AI Axis & Allies
+  originals:
+  - Axis & Allies
+  type: remake
+  repo: 'https://github.com/hayneian000/axis-allies-ai'
+  url: 'https://hayneian000.github.io/axis-allies-ai/'
+  development: active
+  status: playable
+  platforms:
+  - Web
+  multiplayer:
+  - Hotseat
+  content: open
+  langs:
+  - TypeScript
+  licenses:
+  - MIT
+  ai: true
+  info: 'Browser reimplementation of the Axis & Allies board game under 1942 Second Edition rules, with an original America free-for-all map; AI seats are driven by LLMs using API keys supplied by the player. Developed with AI coding assistance.'
+  added: 2026-11-09
+  updated: 2026-11-09
+  images:
+  - https://raw.githubusercontent.com/hayneian000/axis-allies-ai/main/docs/screenshots/board-1942.png
+  - https://raw.githubusercontent.com/hayneian000/axis-allies-ai/main/docs/screenshots/board.png
+  - https://raw.githubusercontent.com/hayneian000/axis-allies-ai/main/docs/screenshots/ai-lobby.png
+
 - name: Aidyn Chronicles Decompilation
   originals:
   - 'Aidyn Chronicles: The First Mage'
