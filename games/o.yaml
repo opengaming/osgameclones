@@ -833,6 +833,37 @@
   video:
     youtube: RThvP7OvDxM
 
+- name: Open Rash
+  originals:
+  - Road Rash
+  type: remake
+  repo: https://github.com/Replica-/open-rash
+  development: sporadic
+  status: playable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  - Direct3D
+  licenses:
+  - GPL3
+  ai: true
+  info: >-
+    A rebuild of the Windows 95 version of Road Rash in C, running natively on Windows 11 and on the Steam Deck (Proton, as a
+    non-Steam game). Requires the original game's data. Adds a GPU renderer with a widescreen race view, widescreen menus,
+    Video and Game Options, rider colours, music and Jukebox, an in-game save / load screen and controller support.
+  added: 2026-11-15
+  updated: 2026-11-15
+  images:
+  - https://raw.githubusercontent.com/Replica-/open-rash/main/docs/screenshots/race_sierra_widescreen.jpg
+  - https://raw.githubusercontent.com/Replica-/open-rash/main/docs/screenshots/race_city_widescreen.jpg
+  - https://raw.githubusercontent.com/Replica-/open-rash/main/docs/screenshots/software_vs_upscaled.jpg
+  - https://raw.githubusercontent.com/Replica-/open-rash/main/docs/screenshots/widescreen_gamemode.jpg
+  - https://raw.githubusercontent.com/Replica-/open-rash/main/docs/screenshots/video_options.png
+
 - name: Open Rodent's Revenge
   images:
   - https://a.fsdn.com/con/app/proj/o2r/screenshots/254642.jpg
