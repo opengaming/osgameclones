@@ -407,6 +407,38 @@
   updated: 2025-03-27
   info: Magnetar is a StarCraft mod/reimplementation. It loads Starcraft.exe to memory and combines its code and assets with Magnetar's own.
 
+- name: Maiko
+  originals:
+  - 'The Elder Scrolls Adventures: Redguard'
+  type: remake
+  repo: 'https://github.com/michidk/maiko'
+  url: https://michidk.github.io/maiko/
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  content: commercial
+  langs:
+  - Rust
+  - Assembly
+  frameworks:
+  - SDL2
+  - wgpu
+  licenses:
+  - MIT
+  ai: true
+  info: >-
+    Runs the original game through static translation and native runtime services,
+    without DOSBox. Build locally from your own RGFX.EXE with the browser builder
+    or CLI; the website builds native packages rather than playing the game.
+    GOG is supported; Steam lacks the required Glide executable.
+    No game code or assets are distributed. SDL2 is used through Rust bindings;
+    rustyglide renders through wgpu with Vulkan, Direct3D 12, Metal or OpenGL.
+  added: 2026-11-15
+  updated: 2026-11-15
+
 - name: ManiaDrive
   langs:
   - C
