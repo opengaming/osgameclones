@@ -82,7 +82,7 @@
   - Assembly
   frameworks:
   - SDL2
-  - OpenGL
+  - wgpu
   licenses:
   - MIT
   ai: true
@@ -91,7 +91,8 @@
     without DOSBox. Build locally from your own RGFX.EXE with the browser builder
     or CLI; the website builds native packages rather than playing the game.
     GOG is supported; Steam lacks the required Glide executable.
-    No game code or assets are distributed.
+    No game code or assets are distributed. SDL2 is used through Rust bindings;
+    rustyglide renders through wgpu with Vulkan, Direct3D 12, Metal or OpenGL.
   added: 2026-11-15
   updated: 2026-11-15
 
