@@ -64,6 +64,37 @@
   added: 2026-09-02
   updated: 2026-09-02
 
+- name: Maiko
+  originals:
+  - 'The Elder Scrolls Adventures: Redguard'
+  type: remake
+  repo: 'https://github.com/michidk/maiko'
+  url: https://michidk.github.io/maiko/
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  content: commercial
+  langs:
+  - Rust
+  - Assembly
+  frameworks:
+  - SDL2
+  - OpenGL
+  licenses:
+  - MIT
+  ai: true
+  info: >-
+    Runs the original game through static translation and native runtime services,
+    without DOSBox. Build locally from your own RGFX.EXE with the browser builder
+    or CLI; the website builds native packages rather than playing the game.
+    GOG is supported; Steam lacks the required Glide executable.
+    No game code or assets are distributed.
+  added: 2026-11-15
+  updated: 2026-11-15
+
 - name: MacJJFFE
   originals:
   - Elite III
