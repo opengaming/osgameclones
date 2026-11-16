@@ -1025,6 +1025,7 @@
   - Python
   licenses:
   - GPL3
+  ai: true
   content: commercial
   originals:
   - Age of Empires
@@ -1038,7 +1039,7 @@
   updated: 2019-05-28
   info: We create a modern RTS engine for AoE-style gameplay. Including modding API, curve-based gamestate, a new renderer
     and support for all operating systems.
-  url: https://openage.sft.mx
+  url: https://openage.sft.lol
 
 - name: OpenApoc
   langs:
@@ -2063,7 +2064,7 @@
   licenses:
   - ISC
   info: >-
-    A project that aims to provide a complete PC port for the first Jak and 
+    A project that aims to provide a complete PC port for the first Jak and
     Daxter game by providing a open implementation of a compiler for Naughty
     Dog's GOAL language, a decompiler for the compiled game and an asset
     extraction tool.
@@ -2156,6 +2157,30 @@
   updated: 2026-08-08
   images:
   - https://static.wikia.nocookie.net/gtawiki/images/c/c1/OpenGTA-GTA1.jpg
+
+- name: OpenGuimo
+  originals:
+  - Guimo
+  type: remake
+  repo: 'https://gitlab.com/greyxor/openguimo'
+  url: 'https://greyxor.itch.io/openguimo'
+  development: complete
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Web
+  - Windows
+  content: commercial
+  langs:
+  - GDScript
+  frameworks:
+  - Godot
+  licenses:
+  - Custom
+  ai: true
+  added: '2026-10-18'
+  updated: '2026-10-18'
 
 - name: OpenHCL
   originals:
@@ -3314,28 +3339,61 @@
   url: https://opensage.github.io/
 
 - name: OpenSC2K
-  development: halted
+  development: very active
   langs:
-  - JavaScript
+  - Rust
+  - GDScript
   type: remake
   status: unplayable
   platforms:
-  - Web
+  - Linux
+  - macOS
+  - Windows
   frameworks:
-  - Phaser
-  - WebGL
+  - Godot
   licenses:
   - GPL3
   content: commercial
-  repo: https://github.com/nicholas-ochoa/OpenSC2K
+  repo: https://github.com/OpenSC2K/OpenSC2K
+  url: https://opensc2k.net
   added: 2019-01-30
-  updated: 2024-08-05
+  updated: 2026-11-08
   images:
-  - https://raw.githubusercontent.com/rage8885/OpenSC2K/master/screenshots/1.png
-  - https://raw.githubusercontent.com/rage8885/OpenSC2K/master/screenshots/2.png
-  - https://raw.githubusercontent.com/rage8885/OpenSC2K/master/screenshots/3.png
+  - https://opensc2k.net/images/hero.webp
+  - https://opensc2k.net/images/screenshot-2.webp
+  - https://opensc2k.net/images/screenshot-3.webp
   originals:
   - SimCity 2000
+
+- name: openSEEK
+  originals:
+  - Seek & Destroy
+  type: remake
+  repo: 'https://github.com/rincewindcz/openseek'
+  url: 'https://rcwnd.itch.io/openseek'
+  development: active
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  - Web
+  content: commercial
+  langs:
+  - Lua
+  frameworks:
+  - LÖVE
+  licenses:
+  - MIT
+  added: '2026-10-11'
+  updated: '2026-10-11'
+  images:
+  - 'https://github.com/rincewindcz/openseek/raw/main/screenshots/seek_1.png'
+  - 'https://github.com/rincewindcz/openseek/raw/main/screenshots/seek_2.png'
+  - 'https://github.com/rincewindcz/openseek/raw/main/screenshots/seek_3.png'
+  - 'https://github.com/rincewindcz/openseek/raw/main/screenshots/seek_4.png'
+  video:
+    youtube: QzNFkE98fzE
 
 - name: OpenSkyscraper
   images:
@@ -3351,6 +3409,7 @@
   originals:
   - SimTower
   repo: https://github.com/fabianschuiki/OpenSkyscraper
+  url: https://web.archive.org/web/20230325053751/https://openskyscraper.org/
   status: unplayable
   platforms:
   - Windows
@@ -3358,7 +3417,7 @@
   - macOS
   type: remake
   added: 2014-01-05
-  updated: 2024-08-06
+  updated: 2026-10-21
 
 - name: OpenSoldat
   originals:
@@ -4245,6 +4304,32 @@
   - 'https://www.defence-force.org/pages/games/skooldaze/pics/skooldaze_title.png'
   - 'https://www.defence-force.org/pages/games/skooldaze/pics/screen4.png'
   - 'https://www.defence-force.org/pages/games/skooldaze/pics/screen3.png'
+
+- name: Orion2 Redone
+  originals:
+  - Master of Orion 2
+  type: remake
+  repo: 'https://github.com/orion2re/orion2re'
+  development: very active
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Windows
+  multiplayer:
+  - Online
+  - LAN
+  - Hotseat
+  content: commercial
+  langs:
+  - C++
+  licenses:
+  - GPL3
+  ai: false
+  added: '2026-10-11'
+  updated: '2026-10-18'
+  images:
+  - 'https://moo2mod.com/redone/doc/assets/images/manual/empire-overlay.png'
 
 - name: orona
   licenses:
