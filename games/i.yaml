@@ -669,6 +669,37 @@
   type: remake
   updated: 2024-03-04
 
+- name: isleforge
+  originals:
+  - 'Anno 1503 A.D.'
+  type: remake
+  url: 'https://goodoldgames.dev/en/page/anno-1503'
+  development: active
+  status: semi-playable
+  platforms:
+  - Linux
+  - Raspberry Pi
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: >-
+    Unofficial clean-room C11/SDL2 engine, public RC14 only. Requires a
+    legally purchased copy of Anno 1503 A.D. Royal Edition. The RC bundle
+    includes the GPL-3.0-or-later C11 source. Building and sailing work;
+    campaign events, walkers, Bink video and multiplayer are not done yet.
+    Very new; bug tracker at https://goodoldgames.dev/en/social.
+  added: 2026-11-17
+  updated: 2026-11-17
+  images:
+  - 'https://goodoldgames.dev/media/city-harbor.avif'
+  - 'https://goodoldgames.dev/media/southern-coast.avif'
+  - 'https://goodoldgames.dev/media/build-houses.avif'
+  - 'https://goodoldgames.dev/media/ship-selected.avif'
+  - 'https://goodoldgames.dev/media/main-menu.avif'
 - name: Isometric-Minesweeper
   originals:
   - Minesweeper
