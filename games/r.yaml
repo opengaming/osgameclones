@@ -948,6 +948,37 @@
   info: A small background image viewer for Resident Evil games
   updated: 2022-03-27
 
+- name: Refall
+  originals:
+  - Tetris
+  type: clone
+  repo: https://github.com/Gregwar/refall
+  url: https://pypi.org/project/refall/
+  development: very active
+  status: playable
+  platforms:
+  - Windows
+  - Linux
+  - macOS
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - OpenGL
+  licenses:
+  - Custom
+  ai: true
+  info: Music-driven falling-block game with dozens of hand-made universes that react to the song (local files or YouTube); SRS rotation, 7-bag, hold, and a campaign. Source-available under the PolyForm Noncommercial license.
+  added: 2026-11-18
+  updated: 2026-11-18
+  images:
+  - https://raw.githubusercontent.com/Gregwar/refall/main/docs/universes/islands.jpg
+  - https://raw.githubusercontent.com/Gregwar/refall/main/docs/universes/laser.jpg
+  - https://raw.githubusercontent.com/Gregwar/refall/main/docs/universes/skywhale.jpg
+  - https://raw.githubusercontent.com/Gregwar/refall/main/docs/universes/sumi.jpg
+  video:
+    youtube: RY9UekAFT1c
+
 - name: ReflectionHLE
   langs:
   - C
