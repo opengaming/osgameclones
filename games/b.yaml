@@ -3918,6 +3918,34 @@
   added: 2025-08-26
   updated: 2025-08-26
 
+- name: Bytefield
+  type: remake
+  originals:
+  - Battlefield 1942
+  repo: https://github.com/revival-forge/bytefield
+  development: very active
+  status: semi-playable
+  platforms:
+  - Linux
+  - Windows
+  multiplayer:
+  - Online
+  - LAN
+  - Co-op
+  langs:
+  - Rust
+  frameworks:
+  - Bevy
+  licenses:
+  - GPL3
+  content: commercial
+  ai: true
+  info: >-
+    Engine reimplementation that plays Battlefield 1942, its expansions and the Desert Combat and Galactic
+    Conquest mods with the data of your own copy. Own bots and own network protocol (no original servers).
+  added: 2026-11-19
+  updated: 2026-11-19
+
 - name: BZFlag
   images:
   - https://www.bzflag.org/assets/images/media/screenshots/dantes_inferno_01.jpg
