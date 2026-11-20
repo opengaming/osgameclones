@@ -948,6 +948,38 @@
   type: clone
   updated: 2022-07-09
 
+- name: Battlefront Eternal
+  originals:
+  - 'Star Wars: Battlefront'
+  type: remake
+  repo: https://github.com/centrevilletech/battlefront-eternal
+  url: https://battlefronteternal.com/
+  development: very active
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  multiplayer:
+  - Online
+  - LAN
+  content: commercial
+  langs:
+  - JavaScript
+  - Python
+  frameworks:
+  - three.js
+  - WebGL
+  licenses:
+  - GPL3
+  ai: true
+  info: New engine with its own renderer, sound and 64-player netcode, run from the player's Steam or GOG copy
+  added: 2026-10-29
+  updated: 2026-10-29
+  images:
+  - https://battlefronteternal.com/shots/action-deka-fire.webp
+  - https://battlefronteternal.com/shots/action-flight.webp
+  - https://battlefronteternal.com/shots/cmp-ocean-enhanced.webp
+
 - name: Battlezone Disassembly
   originals:
   - Battlezone
