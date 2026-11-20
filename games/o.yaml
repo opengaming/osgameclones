@@ -1127,6 +1127,36 @@
   images:
   - https://raw.githubusercontent.com/OpenAWE-Project/OpenAWE/master/screenshots/awan1.png
 
+- name: OpenBeach
+  originals:
+  - Beach Life
+  type: remake
+  repo: 'https://github.com/h4570/openbeach'
+  url: 'https://openbeach.app'
+  feed: 'https://github.com/h4570/openbeach/releases.atom'
+  development: very active
+  status: playable
+  platforms:
+  - Linux
+  - macOS
+  - Web
+  - Windows
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL3
+  licenses:
+  - GPL3
+  ai: true
+  info: Open-source engine reimplementation of Beach Life (2002) running on desktop and in the browser via WebAssembly.
+  added: 2026-11-19
+  updated: 2026-11-19
+  images:
+  - https://raw.githubusercontent.com/h4570/openbeach/main/assets/screenshots/browser.jpg
+  - https://raw.githubusercontent.com/h4570/openbeach/main/assets/screenshots/night.jpg
+  - https://raw.githubusercontent.com/h4570/openbeach/main/assets/screenshots/staff.jpg
+
 - name: OpenBiohazard2
   originals:
   - Resident Evil 2
