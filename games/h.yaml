@@ -1554,6 +1554,32 @@
   added: 2026-08-24
   updated: 2026-08-24
 
+- name: HPEngine
+  originals:
+  - Harry Potter and the Philosopher's Stone (PC)
+  - Harry Potter and the Chamber of Secrets (PC)
+  type: remake
+  repo: https://github.com/artemnikonov/hpengine
+  development: very active
+  status: playable
+  platforms:
+  - Windows
+  - macOS
+  - Linux
+  content: commercial
+  langs:
+  - C#
+  frameworks:
+  - SDL3
+  licenses:
+  - GPL3
+  ai: true
+  info: Engine reimplementation for KnowWonder's 2001 and 2002 PC games; runs the games' own UnrealScript bytecode, native on Macs, Windows, Linux and Steam Deck, with widescreen, high frame rates, gamepad and mod support. Philosopher's Stone can be completed; Chamber of Secrets is in beta
+  added: 2026-11-11
+  updated: 2026-11-20
+  images:
+  - https://raw.githubusercontent.com/artemnikonov/hpengine/main/images/norbert-charlie-moon.jpg
+
 - name: HPong
   originals:
   - Pong
