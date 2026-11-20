@@ -242,10 +242,9 @@ function renderSelectedTagsBar() {
     const el = document.createElement('span');
     el.className = 'tag';
     const rawTag = normalizeTagName(tag);
+    el.setAttribute('data-name', rawTag);
     if (excluded) {
       el.setAttribute('data-negative', 'true');
-    } else {
-      el.setAttribute('data-name', rawTag);
     }
     if (rawTag === 'ai') {
       const icon = document.createElement('img');
@@ -317,6 +316,11 @@ function toggleTagByName(curTag) {
     const t = e.target.closest && e.target.closest('.tag');
     if (!t || !t.hasAttribute('data-name')) return;
     const curTag = t.getAttribute('data-name');
+    if (t.hasAttribute('data-negative')) {
+      excludedTags.delete(normalizeTagName(curTag));
+      updateTagsUI();
+      return;
+    }
     const shouldExclude = e.shiftKey || isNegativeTagName(curTag);
     toggleTagByName(shouldExclude ? '-' + normalizeTagName(curTag) : curTag);
   }
