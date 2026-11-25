@@ -674,6 +674,40 @@
   images:
   - https://www.calculatorti.com/media/images/programs/real-time-command-and-conquer.jpg
 
+- name: realmrun
+  originals:
+  - 'Warlords III: Darklords Rising'
+  type: remake
+  repo: 'https://goodoldgames.dev/media/realmrun-1.1.1-src.tar.gz'
+  url: 'https://goodoldgames.dev/en/page/warlords-iii'
+  development: active
+  status: playable
+  platforms:
+  - Linux
+  - Raspberry Pi
+  multiplayer:
+  - Local
+  - Hotseat
+  - Co-op
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL3
+  info: >-
+    Unofficial clean-room C11/SDL2 engine, v1.1.1. Requires a legally
+    purchased copy of the original game (no data shipped). 1-6 human-seat
+    hotseat / allied co-op; AI can fill remaining sides, up to 8 empires.
+    Very new; bug tracker at https://goodoldgames.dev/en/social.
+  added: 2026-11-17
+  updated: 2026-11-17
+  images:
+  - 'https://goodoldgames.dev/media/warlords3-hero-alfland.png'
+  - 'https://goodoldgames.dev/media/warlords3-tactical-alfland.png'
+  - 'https://goodoldgames.dev/media/warlords3-hero-abilities.png'
+  - 'https://goodoldgames.dev/media/warlords3-setup-wizard-gui.png'
 - name: Realtime Chaos
   originals:
   - 'Chaos: The Battle of Wizards'
