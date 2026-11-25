@@ -1205,6 +1205,34 @@
   images:
   - https://raw.githubusercontent.com/PortsMaster-MV/PortMaster-MV-New/main/ports/render96ex/screenshot.png
 
+- name: ReNFS
+  originals:
+  - The Need for Speed
+  type: remake
+  status: playable
+  repo: https://github.com/ItsDanik/ReNFS
+  ai: true
+  development: sporadic
+  content: commercial
+  langs:
+  - C
+  - Python
+  frameworks:
+  - SDL2
+  platforms:
+  - Windows
+  - Linux
+  - macOS
+  licenses:
+  - GPL3
+  added: 2026-11-22
+  updated: 2026-11-22
+  images:
+  - https://raw.githubusercontent.com/ItsDanik/ReNFS/refs/heads/main/docs/screenshots/title_640x480.png
+  - https://raw.githubusercontent.com/ItsDanik/ReNFS/refs/heads/main/docs/screenshots/race_alpine_evening_640x480.png
+  - https://raw.githubusercontent.com/ItsDanik/ReNFS/refs/heads/main/docs/screenshots/race_city_640x480.png
+  
+
 - name: reone
   frameworks:
   - SDL2
