@@ -7189,6 +7189,60 @@
   - 'https://img.itch.zone/aW1hZ2UvNzA1NjM5LzM5MDI4MTYuanBn/original/8TSCVW.jpg'
   - 'https://raw.githubusercontent.com/kuroneko/sais/master/screenshot.png'
 
+- name: Street Rod 2 Enhanced QOL SDL3 Port
+  originals:
+  - Street Rod 2
+  type: remake
+  repo: https://github.com/Replica-/street-rod-2
+  development: active
+  status: playable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  - OpenGL
+  licenses:
+  - MIT
+  ai: true
+  info: >-
+    An enhanced version of Street Rod 2 SDL3 Port that keeps its faithful game logic and adds quality-of-life
+    features: downloads the game's files from Street Rod Online at the first start, a 3D race view, the Amiga
+    release's graphics in full colour, a paint colour swatch, a juke box and smooth animation.
+  added: 2026-11-15
+  updated: 2026-11-15
+  images:
+  - https://raw.githubusercontent.com/Replica-/street-rod-2/main/docs/screenshots/garage.png
+  - https://raw.githubusercontent.com/Replica-/street-rod-2/main/docs/screenshots/burgers.png
+  - https://raw.githubusercontent.com/Replica-/street-rod-2/main/docs/screenshots/cruise.png
+  - https://raw.githubusercontent.com/Replica-/street-rod-2/main/docs/screenshots/mulholland.png
+  - https://raw.githubusercontent.com/Replica-/street-rod-2/main/docs/screenshots/aqueduct.png
+
+- name: Street Rod 2 SDL3 Port
+  originals:
+  - Street Rod 2
+  type: remake
+  repo: https://github.com/kylofon/street-rod-2-sdl3
+  development: active
+  status: playable
+  platforms:
+  - Windows
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - MIT
+  ai: true
+  info: >-
+    A faithful native C / SDL3 port of the DOS version of Street Rod 2: The Next Generation (1991), made by reverse
+    engineering the original; not an emulator. Requires the original game's files.
+  added: 2026-11-15
+  updated: 2026-11-15
+
 - name: 'Strife: Veteran Edition'
   url: https://doomwiki.org/wiki/Strife:_Veteran_Edition
   originals:
