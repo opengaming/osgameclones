@@ -6169,6 +6169,43 @@
   added: 2026-03-08
   updated: 2026-03-13
 
+- name: Spirited Drive
+  originals:
+  - The Need for Speed
+  type: remake
+  repo: https://github.com/BytesNRust/spirited-drive
+  url: https://bytesnrust.com/spirited-drive/
+  feed: https://github.com/BytesNRust/spirited-drive/releases.atom
+  development: very active
+  status: playable
+  platforms:
+  - Windows
+  - macOS
+  multiplayer:
+  - Competitive
+  - LAN
+  - Online
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL3
+  licenses:
+  - GPL3
+  ai: true
+  info: >-
+    Reimplementation of the 1996 Special Edition for PC, played with the data of the original CD.
+    Three modes: the game as it shipped, the same in widescreen at up to 144 Hz, and a restomod
+    with weather, night racing, a free camera and the unused Lunar Springs track.
+    Network play is macOS only for now.
+  added: 2026-11-27
+  updated: 2026-11-27
+  images:
+  - https://bytesnrust.com/assets/screens/race-1.png
+  - https://bytesnrust.com/assets/screens/race-2.png
+  - https://bytesnrust.com/assets/screens/race-4.png
+  - https://bytesnrust.com/assets/screens/race-6.png
+
 - name: splexhd
   langs:
   - C++
