@@ -3469,6 +3469,29 @@
   video:
     youtube: bGx5Oa4G2so
 
+- name: DRIG
+  originals:
+  - 'Race Driver: Grid'
+  type: remake
+  repo: https://github.com/PipeKnight/drig-race-driver
+  development: very active
+  status: semi-playable
+  platforms:
+  - Windows
+  - Linux
+  - macOS
+  content: commercial
+  langs:
+  - Rust
+  frameworks:
+  - Bevy
+  licenses:
+  - GPL3
+  ai: true
+  info: An early engine reimplementation. Individual races can be played through to the finish. Requires the original PC game files.
+  added: 2026-11-27
+  updated: 2026-11-27
+
 - name: DRL
   originals:
   - Doom
@@ -3502,29 +3525,6 @@
   - 'https://drl.chaosforge.org/images/25.png'
   - 'https://drl.chaosforge.org/images/26.png'
   - 'https://drl.chaosforge.org/images/27.png'
-
-- name: DRIG
-  originals:
-  - 'Race Driver: Grid'
-  type: remake
-  repo: https://github.com/PipeKnight/drig-race-driver
-  development: very active
-  status: semi-playable
-  platforms:
-  - Windows
-  - Linux
-  - macOS
-  content: commercial
-  langs:
-  - Rust
-  frameworks:
-  - Bevy
-  licenses:
-  - GPL3
-  ai: true
-  info: An early engine reimplementation. Individual races can be played through to the finish. Requires the original PC game files.
-  added: 2026-11-27
-  updated: 2026-11-27
 
 - name: DroidQuest
   originals:
